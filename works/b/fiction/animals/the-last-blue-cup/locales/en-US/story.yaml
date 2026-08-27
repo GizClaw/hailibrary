@@ -1,0 +1,25 @@
+schema_version: 1
+language: en-US
+writer: sage-paw
+title: The Last Blue Cup
+summary: Otter and Badger find a second cup, then share the blue cup fairly.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: warm and direct, timbre: clear adult voice, pace: slow, pitch: medium}}
+  otter: {display_name: Otter, tts: {delivery: quick and open, timbre: light friendly voice, pace: medium, pitch: medium-high}}
+  badger: {display_name: Badger, tts: {delivery: calm and reassuring, timbre: low gentle voice, pace: medium-slow, pitch: low}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, content: [{text: "Otter has one blue "}, {vocabulary: {id: cup, text: cup}}, {text: "."}]}]}
+  - {id: p02, illustration: p02, lines: [{speaker: badger, text: "I brought tea."}, {speaker: otter, text: "But we need two cups."}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "Otter looks in the cupboard."}, {speaker: otter, text: "I do not see one."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: badger, text: "I found an old cup!"}, {speaker: otter, text: "It is dusty."}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Otter washes the old cup."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: badger, text: "Now we have two clean cups."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: otter, text: "We can swap cups halfway."}, {speaker: badger, text: "That is fair."}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "The friends drink tea together."}]}
+chapters:
+  - {id: ch01, title: One Cup, page_refs: [p01, p02, p03, p04]}
+  - {id: ch02, title: Two Friends, page_refs: [p05, p06, p07, p08]}
+questions:
+  - {id: q01, type: picture, speaker: narrator, prompt: "What is on the table first?", answer: "One blue cup.", page_refs: [p01]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: "What do they do before pouring tea?", answer: "They find and wash the old cup.", page_refs: [p04, p05, p06]}
+  - {id: q03, type: explicit-choice, speaker: narrator, prompt: "Why do they trade cups?", choices: [To be fair, To hide the cups, To break a cup], answer: "To be fair.", page_refs: [p07]}

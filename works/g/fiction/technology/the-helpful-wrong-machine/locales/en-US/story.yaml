@@ -1,0 +1,40 @@
+schema_version: 1
+language: en-US
+writer: river-wink
+title: The Helpful Wrong Machine
+summary: Em's market sorter works quickly until Tala proves that shape alone cannot explain what an object is for.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: witty and observant, timbre: clear adult voice, pace: medium, pitch: medium}}
+  em: {display_name: Em, tts: {delivery: quick and analytical, timbre: focused teen voice, pace: medium-fast, pitch: medium-high}}
+  tala: {display_name: Tala, tts: {delivery: dry and steady, timbre: textured older voice, pace: medium-slow, pitch: low}}
+  pebble: {display_name: Pebble, tts: {delivery: pleasant and literal, timbre: soft synthetic voice, pace: even, pitch: medium}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: em, text: "Pebble will sort every market return quickly and fairly."}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "Round oranges rolled neatly into the produce tray."}]}
+  - {id: p03, illustration: p03, lines: [{speaker: pebble, text: "Round. Red. Produce."}, {speaker: narrator, text: "A toy ball joined the oranges."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: em, text: "One funny mistake. I will add more colors."}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Then a green soap bar traveled toward the vegetables."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: tala, text: "A fast mistake can reach dinner before your update does."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: em, text: "Pebble sees shape and color. Those rules worked in my test box."}]}
+  - {id: p08, illustration: p08, lines: [{speaker: tala, text: "The market is not your test box. These objects look alike but have different jobs."}]}
+  - {id: p09, illustration: p09, lines: [{speaker: pebble, text: "Same shape. Different jobs. I cannot tell."}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "Em gave food its own belt and sent other objects along safer routes."}]}
+  - {id: p11, illustration: p11, lines: [{speaker: tala, text: "Now invite the people who meet the strange objects every day."}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: "A fruit-shaped toy made Pebble pause instead of guess."}]}
+  - {id: p13, illustration: p13, lines: [{speaker: em, text: "Anyone can stop the belt, and every uncertain item waits for review."}]}
+  - {id: p14, illustration: p14, lines: [{speaker: pebble, text: "I do not know yet. Please review."}]}
+  - {id: p15, illustration: p15, lines: [{speaker: tala, text: "Good answer. Now look at your table. Can anyone but a tall robot reach it?"}]}
+  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "Em lowered the table and widened the path around it."}]}
+  - {id: p17, illustration: p17, lines: [{speaker: em, content: [{text: "Pebble "}, {vocabulary: {id: sort, text: sorts}}, {text: ". People review. The records show where our rules fail."}]}]}
+  - {id: p18, illustration: p18, lines: [{speaker: tala, text: "Now Pebble shows us its mistakes. That is what makes it helpful."}]}
+chapters:
+  - {id: ch01, title: Quick and Fair, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - {id: ch02, title: Outside the Test Box, page_refs: [p07, p08, p09, p10, p11, p12]}
+  - {id: ch03, title: Wrong in Public, page_refs: [p13, p14, p15, p16, p17, p18]}
+questions:
+  - {id: q01, type: cause-effect, speaker: narrator, prompt: "Why does Pebble put the toy ball with oranges?", answer: "It relies on shape and color without understanding purpose.", page_refs: [p02, p03, p07]}
+  - {id: q02, type: short-answer, speaker: narrator, prompt: "What makes the soap mistake more serious?", answer: "It could mix a nonfood item with food.", page_refs: [p05, p06]}
+  - {id: q03, type: character-motive, speaker: narrator, prompt: "Why does Tala bring three similarly shaped objects?", answer: "She wants to show that similar appearance can hide different uses.", page_refs: [p08, p09]}
+  - {id: q04, type: evidence, speaker: narrator, prompt: "How does Pebble's behavior change after the redesign?", answer: "It pauses on uncertain items and sends them for review instead of guessing.", page_refs: [p12, p14]}
+  - {id: q05, type: compare, speaker: narrator, prompt: "How does Em's idea of a fair sorter change?", answer: "At first Em trusts one quick rule. Later, people can stop the belt, review doubtful items, reach the table, and see the mistakes.", page_refs: [p01, p13, p16, p17]}
+  - {id: q06, type: main-idea, speaker: narrator, prompt: "Why does it help when Pebble shows its mistakes?", answer: "People can prevent harm, correct the mistake, and improve the sorting rules.", page_refs: [p13, p14, p17, p18]}

@@ -1,0 +1,20 @@
+schema_version: 1
+language: en-US
+writer: meadow-lark
+title: The Little Red Trail
+summary: An climbs a hill and turns one red ribbon into trail marks everyone can share.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: gentle and clear, timbre: light adult voice, pace: slow, pitch: medium}}
+  an: {display_name: An, tts: {delivery: curious and bright, timbre: clear child voice, pace: medium-slow, pitch: medium-high}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "An climbs the hill."}]}
+  - {id: p02, illustration: p02, lines: [{speaker: an, text: "Red ribbon, follow me!"}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "The trail splits."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: an, text: "I leave a red mark."}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "An finds the village."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: an, content: [{text: "Red "}, {vocabulary: {id: marker, text: markers}}, {text: " for everyone!"}]}]}
+chapters:
+  - {id: ch01, title: Up the Hill, page_refs: [p01, p02, p03, p04, p05, p06]}
+questions:
+  - {id: q01, type: picture, speaker: narrator, prompt: "What does An carry?", answer: "A red ribbon.", page_refs: [p01]}
+  - {id: q02, type: explicit-choice, speaker: narrator, prompt: "Where does An leave a mark?", answer: "Beside the split trail.", page_refs: [p03, p04]}

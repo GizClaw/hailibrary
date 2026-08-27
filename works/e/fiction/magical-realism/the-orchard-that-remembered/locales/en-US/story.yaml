@@ -1,0 +1,34 @@
+schema_version: 1
+language: en-US
+writer: rain-song
+title: The Orchard That Remembered
+summary: When old trees struggle, Isa learns that memory can guide change instead of preventing it.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: reflective and warm, timbre: clear adult voice, pace: medium-slow, pitch: medium}}
+  isa: {display_name: Isa, tts: {delivery: grounded and reserved, timbre: mature textured voice, pace: medium-slow, pitch: low-medium}}
+  jun: {display_name: Jun, tts: {delivery: curious and calm, timbre: light adult voice, pace: medium, pitch: medium}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Isa's orchard had grown the same red fruit for many seasons."}]}
+  - {id: p02, illustration: p02, lines: [{speaker: jun, text: "I brought seeds from a valley beyond the hills."}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, content: [{text: "Jun offered one dark blue "}, {vocabulary: {id: seed, text: seed}}, {text: "."}]}]}
+  - {id: p04, illustration: p04, lines: [{speaker: isa, text: "These trees know this soil. A strange seed may not belong here."}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Then a dry wind curled the leaves, and small fruit fell too soon."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: isa, text: "If nothing changes, each harvest will shrink. But I am afraid to change."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: jun, text: "Leave it on the soil. Let the orchard answer."}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "During the night, old roots bent toward the waiting seed."}]}
+  - {id: p09, illustration: p09, lines: [{speaker: isa, text: "Maybe the trees remember how to welcome something new."}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "Isa and Jun planted the seed beside the oldest tree."}]}
+  - {id: p11, illustration: p11, lines: [{speaker: jun, text: "The new shoot needs the old tree's shade."}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: "New branches wove through the old ones, widening the shade."}]}
+  - {id: p13, illustration: p13, lines: [{speaker: isa, text: "My basket can hold more than one kind of harvest."}]}
+  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "When Jun left, Isa shared both old and new seeds."}]}
+chapters:
+  - {id: ch01, title: The Familiar Rows, page_refs: [p01, p02, p03, p04]}
+  - {id: ch02, title: A Dry Wind, page_refs: [p05, p06, p07, p08, p09]}
+  - {id: ch03, title: A Wider Shade, page_refs: [p10, p11, p12, p13, p14]}
+questions:
+  - {id: q01, type: explicit-choice, speaker: narrator, prompt: "What does Jun offer?", choices: [A blue seed, A red basket, A silver bell], answer: "A blue seed.", page_refs: [p03]}
+  - {id: q02, type: character-motive, speaker: narrator, prompt: "Why does Isa refuse at first?", answer: "Isa fears that change will erase the orchard's tradition.", page_refs: [p04, p06]}
+  - {id: q03, type: cause-effect, speaker: narrator, prompt: "What makes Isa reconsider?", answer: "Dry wind harms the old harvest, and the roots reach toward the new seed.", page_refs: [p05, p08, p09]}
+  - {id: q04, type: short-answer, speaker: narrator, prompt: "How do the old and new plants help each other?", answer: "The old tree shades the new shoot, and together they make wider shelter.", page_refs: [p11, p12]}
+  - {id: q05, type: main-idea, speaker: narrator, prompt: "What does Isa learn about memory?", answer: "Memory can help people adapt without discarding what they value.", page_refs: [p09, p13, p14]}

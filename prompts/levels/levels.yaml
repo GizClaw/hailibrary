@@ -1,0 +1,270 @@
+schema_version: 1
+status: draft
+
+principles:
+  - A level has one shared learning goal across all languages.
+  - Locales adapt meaning to the level instead of translating literally.
+  - The works directory is the only level source.
+  - Every level has a complexity floor as well as a mechanical ceiling; page count alone never raises a work's level.
+  - Difficulty must be sustained across vocabulary, syntax, cohesion, knowledge, inference, and reader task rather than appearing in one isolated sentence or question.
+  - The language ranges describe a complete reading work. Falling below a minimum requires editorial evidence that the other dimensions still meet the level; exceeding a maximum fails review.
+  - From Level G onward, prose must carry every essential causal link, viewpoint, and conclusion without relying on illustrations.
+
+unit_definition:
+  en: whitespace-delimited words
+  zh: Han characters, excluding punctuation
+
+vocabulary_standard:
+  source_index: prompts/vocabulary/index.yaml
+  grading_criteria: prompts/vocabulary/ranges.yaml
+  rule: every locale edition and every target vocabulary entry must satisfy its locale-specific range for the directory level
+
+research_basis:
+  learning_a_z:
+    role: design reference and approximate alignment only; HaiLibrary levels are not Learning A-Z certifications
+    official_scale: aa through Z2 in 29 levels
+    quantitative_dimensions: [total word count, different word count, lexical diversity ratio, high-frequency word ratio, low-frequency word ratio, sentence length, sentence complexity]
+    qualitative_dimensions: [predictability, text structure and organization, illustration support, infographic complexity and reliance, knowledge demand, concept load, topic familiarity, number of themes, intertextual dependence]
+    reader_and_task: reader background, motivation, scaffolding, and the requested comprehension task affect suitability even when text complexity is unchanged
+    sources:
+      - https://www.learninga-z.com/user_area/content_media/raw/text-leveling-learning-a-z.pdf
+      - https://www.readinga-z.com/correlation-tool/
+  lexile:
+    role: English quantitative reference only; never label an internally estimated range as a certified Lexile measure
+    standard_model: semantic difficulty from word frequency plus syntactic complexity from mean sentence length
+    early_reading_model: texts at 650L or below also use structure, syntax, semantics, and decoding indicators derived from a nine-variable model
+    reader_match: a reader measure and text measure share one scale; the general independent-reading range is 100L below to 50L above the reader measure
+    limitations: a Lexile measure does not capture theme, purpose, narrative structure, background knowledge, illustration dependence, reader motivation, or task complexity
+    locale_scope: official text analysis applies to English and Spanish conventional prose; no Lexile claim may be generated for zh-CN
+    sources:
+      - https://la-tools.lexile.com/help/
+      - https://lexile.com/educators/understanding%20lexile-measures/
+      - https://lexile.com/educators/find-books-at-the-right-level/find-books-beginning-readers/
+
+generation_evidence:
+  quantitative:
+    required: [total_units, different_units, lexical_diversity_ratio, mean_sentence_units, maximum_sentence_units]
+    frequency_profile: review the proportion of high- and low-frequency words with a locale-appropriate corpus when one is available; do not invent a Lexile score from these proxies
+  qualitative:
+    required: [predictability, structure_and_organization, language_clarity, illustration_reliance, knowledge_demand, concept_load, themes_and_viewpoints]
+  reader_task:
+    required: [independent_reading_goal, required_inferences, evidence_span, response_type]
+  decision_rule: quantitative targets cannot compensate for a missed complexity floor, and qualitative sophistication cannot excuse text outside the mechanical ceiling
+
+level_bands:
+  emergent: [a, b]
+  early: [c, d]
+  transitional: [e, f]
+  independent: [g, h]
+  analytical: [i, j]
+  advanced: [k]
+
+levels:
+  a:
+    external_reference: { learning_a_z_approx: aa-A, lexile_en_reference: BR70L-10L }
+    reading_goal: recognize familiar words and follow one visible action through predictable text
+    pages: { min: 6, max: 12 }
+    plot: one concrete event in chronological order with a clear resolution
+    syntax: fragments or simple independent clauses with explicit subjects and referents
+    cohesion: purposeful repetition with no pronoun or time shift that must be inferred
+    predictability: highly patterned language and a fully predictable event sequence
+    lexical_profile: almost entirely concrete high-frequency and readily decodable words; deliberate repetition dominates variety
+    knowledge_demand: familiar objects, actions, and routines only
+    illustration_dependency: essential
+    inference: none
+    complexity_floor: [a repeated language frame changes meaningfully across pages, the reader can retell the event by ordering visible actions]
+    questions: { min: 2, max: 3, types: [picture, explicit-choice], required: [picture] }
+    languages:
+      en: { mean_sentence_units_typical: [3, 5], sentences_per_page_max: 2, units_per_sentence_max: 6, units_per_page_typical: [4, 8], units_per_page_max: 10, units_total_min: 25, units_total_max: 80, new_words_per_page_max: 1 }
+      zh: { mean_sentence_units_typical: [5, 8], sentences_per_page_max: 2, units_per_sentence_max: 10, units_per_page_typical: [6, 12], units_per_page_max: 16, units_total_min: 40, units_total_max: 120, new_words_per_page_max: 1 }
+    guidance: use concrete high-frequency words, repeated frames, explicit referents, and directly observable actions
+
+  b:
+    external_reference: { learning_a_z_approx: B-C, lexile_en_reference: BR40L-160L }
+    reading_goal: follow a goal-obstacle-resolution sequence and connect a stated cause to its visible result
+    pages: { min: 8, max: 14 }
+    plot: one goal with a simple obstacle and resolution
+    syntax: simple clauses joined by common additive, temporal, or causal connectors
+    cohesion: repeated nouns may alternate with unambiguous pronouns across adjacent sentences
+    predictability: repeated frames remain visible but vary in subject, action, or outcome
+    lexical_profile: high-frequency words dominate with a few concrete context-recoverable words
+    knowledge_demand: familiar routines with one clearly explained unfamiliar detail
+    illustration_dependency: high
+    inference: one obvious local inference
+    complexity_floor: [the character responds to an obstacle rather than merely completing a sequence, one answer combines a textual clue with a visible result]
+    questions: { min: 3, max: 4, types: [picture, explicit-choice, sequence, cause-effect], required: [sequence] }
+    languages:
+      en: { mean_sentence_units_typical: [4, 7], sentences_per_page_max: 3, units_per_sentence_max: 9, units_per_page_typical: [7, 13], units_per_page_max: 20, units_total_min: 60, units_total_max: 150, new_words_per_page_max: 2 }
+      zh: { mean_sentence_units_typical: [8, 14], sentences_per_page_max: 3, units_per_sentence_max: 15, units_per_page_typical: [10, 20], units_per_page_max: 30, units_total_min: 90, units_total_max: 220, new_words_per_page_max: 2 }
+    guidance: allow simple dialogue and common connectors while keeping references unambiguous
+
+  c:
+    external_reference: { learning_a_z_approx: D-E, lexile_en_reference: 160L-310L }
+    reading_goal: integrate two linked events, explain a simple cause, and answer briefly in the reader's own words
+    pages: { min: 10, max: 16 }
+    plot: one goal, two dependent events, a setback or discovery, and a clear resolution
+    syntax: coordinated clauses and short subordinate clauses for time or cause
+    cohesion: time, cause, and contrast use varied connectors rather than repetition alone
+    predictability: event order is traceable but the setback or discovery is not mechanically repeated
+    lexical_profile: mostly high-frequency language with growing descriptive and relational vocabulary
+    knowledge_demand: one unfamiliar process or setting explained inside the story
+    illustration_dependency: medium-high
+    inference: one text-supported inference
+    complexity_floor: [the second event depends on information or consequences from the first, one question requires a constructed answer rather than recognition]
+    questions: { min: 3, max: 5, types: [explicit-choice, sequence, cause-effect, short-answer], required: [cause-effect, short-answer] }
+    languages:
+      en: { mean_sentence_units_typical: [6, 9], sentences_per_page_max: 4, units_per_sentence_max: 12, units_per_page_typical: [10, 22], units_per_page_max: 34, units_total_min: 120, units_total_max: 300, new_words_per_page_max: 2 }
+      zh: { mean_sentence_units_typical: [10, 18], sentences_per_page_max: 4, units_per_sentence_max: 20, units_per_page_typical: [15, 32], units_per_page_max: 52, units_total_min: 180, units_total_max: 420, new_words_per_page_max: 2 }
+    guidance: allow simple cause, contrast, time, and descriptive relations
+
+  d:
+    external_reference: { learning_a_z_approx: F-H, lexile_en_reference: 300L-530L }
+    reading_goal: track motivation and consequence across scenes while interpreting description and dialogue
+    pages: { min: 12, max: 20 }
+    plot: multiple connected events with motivation and consequence
+    syntax: controlled subordination for reason, condition, relative description, and reported thought
+    cohesion: paragraph-scale reference chains and temporal shifts remain recoverable without pictures
+    predictability: familiar story organization with locally surprising decisions or consequences
+    lexical_profile: broader action and descriptive vocabulary with controlled low-frequency words explained in context
+    knowledge_demand: a modest social, natural, or technical context explained through action
+    illustration_dependency: medium
+    inference: multiple local inferences including motive or an unstated causal link
+    complexity_floor: [a decision has a consequence beyond the next page, at least two scenes contribute evidence to the resolution]
+    questions: { min: 4, max: 6, types: [explicit-choice, sequence, cause-effect, short-answer, character-motive], required: [cause-effect, character-motive] }
+    languages:
+      en: { mean_sentence_units_typical: [8, 12], sentences_per_page_max: 6, units_per_sentence_max: 16, units_per_page_typical: [18, 38], units_per_page_max: 60, units_total_min: 250, units_total_max: 600, new_words_per_page_max: 3 }
+      zh: { mean_sentence_units_typical: [12, 22], sentences_per_page_max: 6, units_per_sentence_max: 26, units_per_page_typical: [26, 52], units_per_page_max: 82, units_total_min: 360, units_total_max: 800, new_words_per_page_max: 3 }
+    guidance: allow subordinate clauses and richer temporal relations with contextual support for new words
+
+  e:
+    external_reference: { learning_a_z_approx: I-K, lexile_en_reference: 430L-620L }
+    reading_goal: connect evidence across chapters, follow a change in viewpoint, and identify a central idea
+    pages: { min: 14, max: 24 }
+    plot: a complete narrative arc with a reversal and a revised plan, feeling, or viewpoint
+    syntax: varied simple, compound, and complex sentences with controlled figurative language
+    cohesion: recurring ideas and objects gain meaning across scenes
+    predictability: genre structure supports orientation but does not reveal the reversal or revised viewpoint
+    lexical_profile: mixed-frequency vocabulary including abstract relations and contextual figurative meaning
+    knowledge_demand: an unfamiliar context with enough embedded explanation for independent reading
+    illustration_dependency: supporting
+    inference: evidence connected across pages
+    complexity_floor: [the protagonist changes an interpretation or plan in response to evidence, the main idea cannot be answered from a single page]
+    questions: { min: 5, max: 7, types: [explicit-choice, sequence, cause-effect, short-answer, character-motive, main-idea, evidence], required: [character-motive, main-idea] }
+    languages:
+      en: { mean_sentence_units_typical: [9, 14], sentences_per_page_max: 8, units_per_sentence_max: 20, units_per_page_typical: [28, 55], units_per_page_max: 85, units_total_min: 450, units_total_max: 1000, new_words_per_page_max: 4 }
+      zh: { mean_sentence_units_typical: [14, 26], sentences_per_page_max: 8, units_per_sentence_max: 32, units_per_page_typical: [40, 72], units_per_page_max: 115, units_total_min: 650, units_total_max: 1300, new_words_per_page_max: 4 }
+    guidance: allow varied structures and contextual figurative language while requiring cross-page evidence
+
+  f:
+    external_reference: { learning_a_z_approx: L-N, lexile_en_reference: 510L-810L }
+    reading_goal: sustain a multi-step reasoning chain, compare plausible choices, and explain a conclusion with distributed evidence
+    pages: { min: 16, max: 28 }
+    plot: a sustained goal with at least two complications, a tradeoff, and a resolved main arc
+    syntax: flexible subordination and shifts among action, dialogue, explanation, and reflection
+    cohesion: causal and thematic links span chapters and require active tracking
+    predictability: readers may anticipate options but must revise predictions as constraints accumulate
+    lexical_profile: general academic and domain vocabulary recur across contexts so meaning becomes more precise
+    knowledge_demand: technical, cultural, or social context that must be retained and applied later
+    illustration_dependency: supporting
+    inference: connect motives and evidence across several pages
+    complexity_floor: [two plausible options carry different costs or benefits, the resolution depends on at least three linked reasoning steps, one answer cites three or more pages]
+    questions: { min: 6, max: 8, types: [sequence, cause-effect, short-answer, character-motive, main-idea, evidence, compare], required: [evidence, compare] }
+    languages:
+      en: { mean_sentence_units_typical: [10, 16], sentences_per_page_max: 10, units_per_sentence_max: 24, units_per_page_typical: [38, 72], units_per_page_max: 115, units_total_min: 750, units_total_max: 1600, new_words_per_page_max: 5 }
+      zh: { mean_sentence_units_typical: [16, 30], sentences_per_page_max: 10, units_per_sentence_max: 38, units_per_page_typical: [55, 96], units_per_page_max: 155, units_total_min: 1050, units_total_max: 2100, new_words_per_page_max: 5 }
+    guidance: support longer reasoning chains, technical or cultural context, and viewpoint changes
+
+  g:
+    external_reference: { learning_a_z_approx: O-Q, lexile_en_reference: 600L-930L }
+    reading_goal: read independently across chapters, reconcile competing goals, and compare interpretations using textual evidence
+    pages: { min: 18, max: 32 }
+    plot: a main arc plus a causally relevant subordinate thread, with reversals produced by character decisions
+    syntax: sustained variety including relative, conditional, concessive, and equivalent embedded structures
+    cohesion: delayed consequences, thematic echoes, and viewpoint-dependent references connect non-adjacent scenes
+    predictability: multiple plausible developments remain open until distributed evidence narrows them
+    lexical_profile: precise academic, emotional, and domain terms include meaningful low-frequency vocabulary supported by discourse rather than pictures
+    knowledge_demand: a system with multiple interacting constraints whose context is distributed across the work
+    illustration_dependency: complementary
+    inference: compare evidence, motives, and outcomes across the work
+    complexity_floor: [two characters or groups have distinct defensible goals, the subordinate thread alters the main arc, one conclusion combines evidence from three separated scenes, prose alone preserves the complete causal chain]
+    questions: { min: 7, max: 10, types: [cause-effect, short-answer, character-motive, main-idea, evidence, compare, evaluate], required: [evidence, compare, evaluate] }
+    languages:
+      en: { mean_sentence_units_typical: [11, 18], sentences_per_page_max: 12, units_per_sentence_max: 28, units_per_page_typical: [50, 95], units_per_page_max: 145, units_total_min: 1100, units_total_max: 2400, new_words_per_page_max: 6 }
+      zh: { mean_sentence_units_typical: [18, 34], sentences_per_page_max: 12, units_per_sentence_max: 46, units_per_page_typical: [70, 125], units_per_page_max: 195, units_total_min: 1500, units_total_max: 3100, new_words_per_page_max: 6 }
+    guidance: sustain ambiguity between plausible interpretations until evidence resolves or narrows it
+
+  h:
+    external_reference: { learning_a_z_approx: R-T, lexile_en_reference: 660L-940L }
+    reading_goal: synthesize implicit motives, evaluate decisions under constraints, and trace how internal change reshapes outcomes
+    pages: { min: 20, max: 36 }
+    plot: multiple pressures, an internal conflict, a consequential choice, and a resolution changed by that choice
+    syntax: purposeful multi-clause sentences with varied pacing and controlled rhetorical emphasis
+    cohesion: motifs, omissions, and contrasts carry meaning across chapters without repeated explanation
+    predictability: conventions may establish expectations that a consequential choice complicates or overturns
+    lexical_profile: nuanced evaluative, ethical, technical, and figurative vocabulary with distinctions among near-synonyms
+    knowledge_demand: interacting social, ethical, or technical consequences with no frictionless solution
+    illustration_dependency: complementary
+    inference: synthesize implicit motives and long-range consequences across scenes
+    complexity_floor: [the central decision puts two legitimate values in tension, internal change causally affects the resolution, two questions allow claims supported by multiple evidence paths, illustrations carry no essential factual or causal information]
+    questions: { min: 8, max: 11, types: [short-answer, character-motive, main-idea, evidence, compare, evaluate, synthesis], required: [evaluate, synthesis] }
+    languages:
+      en: { mean_sentence_units_typical: [12, 20], sentences_per_page_max: 14, units_per_sentence_max: 31, units_per_page_typical: [70, 120], units_per_page_max: 180, units_total_min: 1800, units_total_max: 3400, new_words_per_page_max: 7 }
+      zh: { mean_sentence_units_typical: [20, 38], sentences_per_page_max: 14, units_per_sentence_max: 52, units_per_page_typical: [95, 155], units_per_page_max: 240, units_total_min: 2400, units_total_max: 4300, new_words_per_page_max: 7 }
+    guidance: do not reduce ethical or technical conflict to a slogan; make tradeoffs visible in action and consequence
+
+  i:
+    external_reference: { learning_a_z_approx: U-W, lexile_en_reference: 820L-1030L }
+    reading_goal: test competing explanations and distinguish observation, interpretation, and assumption
+    pages: { min: 22, max: 40 }
+    plot: interdependent events with competing explanations and at least one evidence-driven reinterpretation
+    syntax: dense but controlled complex sentences, abstract phrasing, and deliberate shifts in narrative distance
+    cohesion: readers track incomplete accounts, source reliability, and concepts developed across chapters
+    predictability: competing explanations remain viable until evidence-driven reinterpretation
+    lexical_profile: abstract and domain-specific vocabulary is reused with precise conceptual boundaries and shifting contexts
+    knowledge_demand: a model, institution, history, or system whose explanation may be revised
+    illustration_dependency: enriching
+    inference: test interpretations against distributed evidence and identify what remains uncertain
+    complexity_floor: [two explanations initially fit part of the evidence, new evidence forces revision rather than revealing a hidden answer, questions distinguish evidence from inference and justified uncertainty from ignorance]
+    questions: { min: 9, max: 12, types: [character-motive, main-idea, evidence, compare, evaluate, synthesis, source-analysis], required: [evidence, synthesis, source-analysis] }
+    languages:
+      en: { mean_sentence_units_typical: [14, 22], sentences_per_page_max: 16, units_per_sentence_max: 34, units_per_page_typical: [95, 150], units_per_page_max: 215, units_total_min: 2800, units_total_max: 4600, new_words_per_page_max: 8 }
+      zh: { mean_sentence_units_typical: [22, 42], sentences_per_page_max: 16, units_per_sentence_max: 58, units_per_page_typical: [125, 190], units_per_page_max: 285, units_total_min: 3600, units_total_max: 5700, new_words_per_page_max: 8 }
+    guidance: preserve genuine uncertainty and require readers to justify why one interpretation is stronger
+
+  j:
+    external_reference: { learning_a_z_approx: X-Z, lexile_en_reference: 890L-1080L }
+    reading_goal: integrate narrative, factual context, source perspective, and uncertainty into a defensible interpretation
+    pages: { min: 24, max: 44 }
+    plot: a layered narrative or nonfiction argument in which research context transforms the central question
+    syntax: sustained control of qualification, abstraction, rhetorical structure, and shifts of register
+    cohesion: claims develop through comparison, counterexample, source perspective, and synthesis
+    predictability: rhetorical or genre expectations are available for analysis but do not predetermine the synthesis
+    lexical_profile: disciplinary, polysemous, figurative, and rhetorical language requires discourse-level interpretation
+    knowledge_demand: research-grounded context with source limitations, competing interests, and multiple scales of consequence
+    illustration_dependency: enriching
+    inference: integrate narrative evidence, factual context, source perspective, and explicit uncertainty
+    complexity_floor: [the work compares two sources models cases or time periods, a counterexample materially qualifies an earlier claim, the conclusion synthesizes rather than repeats, one response requires counterevidence or qualification]
+    questions: { min: 10, max: 14, types: [main-idea, evidence, compare, evaluate, synthesis, source-analysis, research-connection, open-response], required: [source-analysis, research-connection, open-response] }
+    languages:
+      en: { mean_sentence_units_typical: [15, 24], sentences_per_page_max: 18, units_per_sentence_max: 38, units_per_page_typical: [125, 190], units_per_page_max: 260, units_total_min: 4200, units_total_max: 6500, new_words_per_page_max: 9 }
+      zh: { mean_sentence_units_typical: [24, 46], sentences_per_page_max: 18, units_per_sentence_max: 64, units_per_page_typical: [160, 235], units_per_page_max: 340, units_total_min: 5200, units_total_max: 7800, new_words_per_page_max: 9 }
+    guidance: distinguish fact, interpretation, source position, and unresolved question throughout the work
+
+  k:
+    external_reference: { learning_a_z_approx: Z1-Z2, lexile_en_reference: 920L-1120L }
+    reading_goal: independently evaluate complex systems, models, rhetoric, uncertainty, and second-order consequences
+    pages: { min: 28, max: 56 }
+    plot: an extended multi-thread narrative or argument spanning systems, time, or stakeholders with an earned resolution
+    syntax: mature control of sentence variety, compression, qualification, rhetorical pacing, and disciplinary discourse
+    cohesion: multiple threads, motifs, claims, and time scales converge without redundant signposting
+    predictability: structure may be nonlinear or strategically withheld while remaining coherent and textually recoverable
+    lexical_profile: sophisticated general academic and specialist vocabulary uses register and connotation as part of the argument or characterization
+    knowledge_demand: interacting systems with incomplete information, contested values, model limits, and second-order effects
+    illustration_dependency: optional-enrichment
+    inference: evaluate models, rhetoric, uncertainty, tradeoffs, and long-range or second-order consequences
+    complexity_floor: [three stakeholder goals system forces or models interact, the strongest apparent conclusion faces a credible challenge, resolving one problem exposes or redistributes another consequence, the ending separates support from uncertainty, open responses allow multiple text-grounded positions]
+    questions: { min: 12, max: 16, types: [evidence, compare, evaluate, synthesis, source-analysis, research-connection, open-response, transfer], required: [synthesis, source-analysis, open-response, transfer] }
+    languages:
+      en: { mean_sentence_units_typical: [16, 26], sentences_per_page_max: 20, units_per_sentence_max: 42, units_per_page_typical: [155, 230], units_per_page_max: 320, units_total_min: 6000, units_total_max: 9000, new_words_per_page_max: 10 }
+      zh: { mean_sentence_units_typical: [26, 50], sentences_per_page_max: 20, units_per_sentence_max: 72, units_per_page_typical: [195, 285], units_per_page_max: 420, units_total_min: 7500, units_total_max: 11000, new_words_per_page_max: 10 }
+    guidance: advanced means greater linguistic and reasoning independence, not gratuitous obscurity; define indispensable specialist terms

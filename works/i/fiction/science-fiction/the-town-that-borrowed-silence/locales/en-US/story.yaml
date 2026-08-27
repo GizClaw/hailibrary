@@ -1,0 +1,46 @@
+schema_version: 1
+language: en-US
+writer: river-wink
+title: The Town That Borrowed Silence
+summary: Sol lends a noisy town a blanket of engineered quiet, then learns that sound cannot be sorted without asking who needs it.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: calm and incisive, timbre: clear adult voice, pace: medium, pitch: medium}}
+  sol: {display_name: Sol, tts: {delivery: polished then reflective, timbre: focused adult voice, pace: medium-fast, pitch: medium}}
+  neri: {display_name: Neri, tts: {delivery: practical and candid, timbre: warm adult voice, pace: medium, pitch: medium-low}}
+  yun: {display_name: Yun, tts: {delivery: deliberate and warm through interpretation, timbre: mellow elder voice, pace: medium-slow, pitch: medium}}
+  ama: {display_name: Ama, tts: {delivery: rhythmic and direct, timbre: bright young voice, pace: medium-fast, pitch: medium-high}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "The town complained about noise in one hundred different voices."}]}
+  - {id: p02, illustration: p02, lines: [{speaker: sol, text: "My canopy can soften the worst sounds without shutting the town down."}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "Drills became murmurs, and tired residents opened their windows."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "After a short demonstration, the council covered the central plaza."}]}
+  - {id: p05, illustration: p05, lines: [{speaker: neri, text: "Your peace swallowed my bicycle bell."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: ama, text: "And trimmed every sharp edge from my rhythm."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: sol, text: "I can tune those details later. Look how much quieter the square is."}]}
+  - {id: p08, illustration: p08, lines: [{speaker: yun, text: "Quieter for whom? I cannot hear what it removed, but I can see people moving differently."}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "Residents sorted sounds into wanted and unwanted baskets."}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "The same drum, bell, fountain, and conversation appeared in both baskets."}]}
+  - {id: p11, illustration: p11, lines: [{speaker: ama, text: "Your machine found one answer because you asked one person: yourself."}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: "Then the canopy softened a maintenance vehicle's warning tone."}]}
+  - {id: p13, illustration: p13, lines: [{speaker: neri, text: "I saw the light in time. Someone facing away might not."}]}
+  - {id: p14, illustration: p14, lines: [{speaker: sol, text: "I am turning it off. From now on, no filter may touch a warning."}]}
+  - {id: p15, illustration: p15, lines: [{speaker: yun, text: "Add lights and vibration too. One kind of warning will never reach everyone."}]}
+  - {id: p16, illustration: p16, lines: [{speaker: yun, text: "And give people quiet corners they can choose—not silence they cannot escape."}]}
+  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: "Ama tested a music corner beside a sheltered reading garden."}]}
+  - {id: p18, illustration: p18, lines: [{speaker: narrator, text: "Neri kept warning sounds clear along the bicycle route."}]}
+  - {id: p19, illustration: p19, lines: [{speaker: sol, text: "The controls are low enough to reach, and a bright ring shows when a quiet zone is on."}]}
+  - {id: p20, illustration: p20, lines: [{speaker: narrator, text: "The people who used each place chose its settings. One touch brought ordinary sound back."}]}
+  - {id: p21, illustration: p21, lines: [{speaker: narrator, text: "A drill tested audible, visible, and vibrating alerts before the canopy returned."}]}
+  - {id: p22, illustration: p22, lines: [{speaker: sol, text: "We never needed one great silence. We needed room for different kinds of sound."}]}
+chapters:
+  - {id: ch01, title: One Hundred Voices, page_refs: [p01, p02, p03, p04, p05, p06, p07]}
+  - {id: ch02, title: Quieter for Whom, page_refs: [p08, p09, p10, p11, p12, p13, p14, p15]}
+  - {id: ch03, title: Chosen Spaces, page_refs: [p16, p17, p18, p19, p20, p21, p22]}
+questions:
+  - {id: q01, type: character-motive, speaker: narrator, prompt: "Why does Sol brush aside the lost bell and rhythm at first?", answer: "He thinks he can tune them later because the square has become quieter overall.", page_refs: [p05, p06, p07]}
+  - {id: q02, type: evidence, speaker: narrator, prompt: "What shows that wanted sound depends on viewpoint?", answer: "Residents place the same sounds in both the wanted and unwanted baskets.", page_refs: [p09, p10]}
+  - {id: q03, type: compare, speaker: narrator, prompt: "How do Ama and Yun challenge Sol in different ways?", answer: "Ama shows that music loses something important. Yun asks whose needs and choices shaped the canopy.", page_refs: [p06, p08, p11]}
+  - {id: q04, type: evaluate, speaker: narrator, prompt: "Why is the vehicle incident more than bad luck?", answer: "The canopy was allowed to soften a warning without another reliable way to alert everyone.", page_refs: [p12, p13, p14, p15]}
+  - {id: q05, type: synthesis, speaker: narrator, prompt: "Which changes make the canopy safer and easier to refuse?", answer: "Warnings pass through unchanged, alerts use sound, light, and vibration, quiet zones are optional, and reachable controls restore ordinary sound.", page_refs: [p15, p16, p18, p19, p20, p21]}
+  - {id: q06, type: main-idea, speaker: narrator, prompt: "How does the central question change?", answer: "It changes from how to make the town quiet to how people can negotiate different sound needs safely.", page_refs: [p02, p08, p22]}
+  - {id: q07, type: evaluate, speaker: narrator, prompt: "Is the final town silent? Explain.", answer: "No. It preserves useful sound and creates chosen quiet spaces instead of imposing one setting everywhere.", page_refs: [p17, p18, p20, p22]}

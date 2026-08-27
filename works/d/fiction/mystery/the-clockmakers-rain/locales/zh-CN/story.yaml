@@ -1,0 +1,31 @@
+schema_version: 1
+language: zh-CN
+writer: 铜罗盘
+title: 钟表铺里的银雨
+summary: 钟表铺里下起银色的雨，所有钟也停了。妮娅循着雨滴的节拍，找到了故障。
+cast:
+  narrator: {display_name: 旁白, tts: {delivery: 从容细致, timbre: 清晰的成年声音, pace: 中速, pitch: 中音}}
+  nia: {display_name: 妮娅, tts: {delivery: 警觉善思, timbre: 专注的青年声音, pace: 中速, pitch: 中高音}}
+  oren: {display_name: 奥伦, tts: {delivery: 平静略带幽默, timbre: 有质感的年长声音, pace: 中慢速, pitch: 低音}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 钟表铺里，竟下起了银色的雨。}]}
+  - {id: p02, illustration: p02, lines: [{speaker: nia, text: 怪了，雨点一落地就不见了。}]}
+  - {id: p03, illustration: p03, lines: [{speaker: oren, text: 天亮时钟全停了，屋顶倒一点没漏。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 铃声响起，碗里的雨滴跳了一下。}]}
+  - {id: p05, illustration: p05, lines: [{speaker: nia, text: 雨点在替停摆的钟打拍子。}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, content: [{text: 一排转轴中间空了一处，少了个}, {vocabulary: {id: gear, text: 齿轮}}, {text: 。}]}]}
+  - {id: p07, illustration: p07, lines: [{speaker: oren, text: 昨晚它吵得厉害。我拆下来，转头就忘了。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: nia, text: 轮齿被灰卡住，难怪越转越响。}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 两人刷净齿轮，把它装回原处。}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 钟针重新走动，银雨竟倒着升了起来。}]}
+  - {id: p11, illustration: p11, lines: [{speaker: oren, text: 听，钟楼把丢掉的节拍找回来了。}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 银雨聚成一朵亮云，十二座钟一齐滴答作响。}]}
+chapters:
+  - {id: ch01, title: 室内的雨, page_refs: [p01, p02, p03, p04]}
+  - {id: ch02, title: 丢失的节拍, page_refs: [p05, p06, p07, p08]}
+  - {id: ch03, title: 找回节拍, page_refs: [p09, p10, p11, p12]}
+questions:
+  - {id: q01, type: explicit-choice, speaker: narrator, prompt: 雨落在哪里？, choices: [工坊里, 街上, 桥下], answer: 工坊里。, page_refs: [p01]}
+  - {id: q02, type: cause-effect, speaker: narrator, prompt: 奥伦为什么拆下齿轮？, answer: 因为它很吵。, page_refs: [p07]}
+  - {id: q03, type: character-motive, speaker: narrator, prompt: 妮娅为什么去检查转轴？, answer: 她想找出所有钟停摆的原因。, page_refs: [p03, p06]}
+  - {id: q04, type: short-answer, speaker: narrator, prompt: 哪两个现象说明银雨和钟有关？, answer: 铃响时雨滴会跳；钟重新走动时，雨滴会向上升。, page_refs: [p04, p10]}

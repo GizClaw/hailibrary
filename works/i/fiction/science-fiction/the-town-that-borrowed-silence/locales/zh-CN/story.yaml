@@ -1,0 +1,46 @@
+schema_version: 1
+language: zh-CN
+writer: 江笑
+title: 小镇静音以后
+summary: 索尔用静音罩棚压低小镇的噪声，却连车铃、鼓点和警示音也一起削弱了。小镇不得不重新商量：哪些声音该留下，谁来决定。
+cast:
+  narrator: {display_name: 旁白, tts: {delivery: 冷静敏锐, timbre: 清晰的成年声音, pace: 中速, pitch: 中音}}
+  sol: {display_name: 索尔, tts: {delivery: 先从容后反思, timbre: 专注的成年声音, pace: 中快速, pitch: 中音}}
+  neri: {display_name: 内莉, tts: {delivery: 务实坦率, timbre: 温暖的成年声音, pace: 中速, pitch: 中低音}}
+  yun: {display_name: 云, tts: {delivery: 经翻译传达时从容温暖, timbre: 醇和的年长声音, pace: 中慢速, pitch: 中音}}
+  ama: {display_name: 阿玛, tts: {delivery: 节奏鲜明而直接, timbre: 明亮的少年声音, pace: 中快速, pitch: 中高音}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 小镇吵成一团，抱怨声也成了噪声的一部分。}]}
+  - {id: p02, illustration: p02, lines: [{speaker: sol, text: 这套罩棚能压低指定的声音。小镇照常运转，也能安静一点。}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 钻机的轰鸣低了下去，累了一天的居民终于敢开窗。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 议会只看了一场短演示，就让罩棚盖住了中央广场。}]}
+  - {id: p05, illustration: p05, lines: [{speaker: neri, text: 你的安静吞掉了我的自行车铃。}]}
+  - {id: p06, illustration: p06, lines: [{speaker: ama, text: 我的鼓也让它削得软绵绵的。}]}
+  - {id: p07, illustration: p07, lines: [{speaker: sol, text: 再调一调就好。至少整个广场已经安静多了。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: yun, text: 可这份“安静”是谁要的？我听不见它削掉了哪些声音，却看见大家为了迁就它，走路和提醒人的方式都变了。}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 居民拿不同颜色的物件投票，把声音分成“想留下”和“想关掉”两组。}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 同样的鼓、铃、喷泉和谈话，在两只筐里都出现了。}]}
+  - {id: p11, illustration: p11, lines: [{speaker: ama, text: 原来大家的答案并不一样，是你设计时只问了自己。}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 这时，罩棚把维修车的警示音也压低了。}]}
+  - {id: p13, illustration: p13, lines: [{speaker: neri, text: 我及时看见了警示灯，背对它的人可未必。}]}
+  - {id: p14, illustration: p14, lines: [{speaker: sol, text: 先关掉罩棚。等所有警示音都能绕开过滤，再重新测试。}]}
+  - {id: p15, illustration: p15, lines: [{speaker: yun, text: 别只靠声音。灯光、振动也要一起提醒，大家才都收得到。}]}
+  - {id: p16, illustration: p16, lines: [{speaker: yun, text: 与其给全镇盖上静音罩，不如留几个安静角落。想进去的人自己选，也能随时出来。}]}
+  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: 阿玛在安静阅读园旁边试起音乐角。}]}
+  - {id: p18, illustration: p18, lines: [{speaker: narrator, text: 内莉让自行车道上的警示声保持清楚。}]}
+  - {id: p19, illustration: p19, lines: [{speaker: sol, text: 每个小区域都装了伸手够得到的开关，罩棚开没开，也能一眼看清。}]}
+  - {id: p20, illustration: p20, lines: [{speaker: narrator, text: 每个区域开不开、开到什么程度，都由使用那里的人一起商量；想恢复普通声音，按一下开关就行。}]}
+  - {id: p21, illustration: p21, lines: [{speaker: narrator, text: 罩棚重启前，他们用声音、灯光和振动做了一次警报演练。}]}
+  - {id: p22, illustration: p22, lines: [{speaker: sol, text: 看来，不能拿一顶罩棚替全镇决定什么叫安静。我们真正学会的，是怎样一起安排声音。}]}
+chapters:
+  - {id: ch01, title: 一百种声音, page_refs: [p01, p02, p03, p04, p05, p06, p07]}
+  - {id: ch02, title: 对谁更安静, page_refs: [p08, p09, p10, p11, p12, p13, p14, p15]}
+  - {id: ch03, title: 可以选择的空间, page_refs: [p16, p17, p18, p19, p20, p21, p22]}
+questions:
+  - {id: q01, type: character-motive, speaker: narrator, prompt: 索尔为什么起初不重视车铃和鼓点变弱？, answer: 他只看到广场整体安静了，便以为车铃和鼓点的问题稍后调一调就能解决。, page_refs: [p05, p06, p07]}
+  - {id: q02, type: evidence, speaker: narrator, prompt: 什么证据说明人们对声音的需要不同？, answer: 居民把同一种声音同时放进了“想要”和“不想要”两只筐。, page_refs: [p09, p10]}
+  - {id: q03, type: compare, speaker: narrator, prompt: 阿玛和云各自发现了什么问题？, answer: 阿玛发现鼓点失去了原来的效果；云则追问谁有权决定该消除哪些声音，以及罩棚怎样改变了人的行动。, page_refs: [p06, p08, p11]}
+  - {id: q04, type: evaluate, speaker: narrator, prompt: 为什么维修车事件暴露了设计问题，而不能只怪运气不好？, answer: 罩棚连安全警示音也会压低，事先却没有给警示留下不受过滤的通道，也没有准备足够的灯光或振动提醒。, page_refs: [p12, p13, p14, p15]}
+  - {id: q05, type: synthesis, speaker: narrator, prompt: 后来的哪些改变既照顾安全，也给人选择？, answer: 小镇改用可以自由进入和退出的安静区域，把开关装在人人够得到的地方，保留自行车道警示声，还用声音、灯光和振动一起报警。, page_refs: [p15, p16, p18, p19, p20, p21]}
+  - {id: q06, type: main-idea, speaker: narrator, prompt: 大家后来讨论的问题和一开始有什么不同？, answer: 一开始只想让整个小镇变安静；后来开始讨论不同的人需要哪些声音，以及怎样让大家安全地共同决定。, page_refs: [p02, p08, p22]}
+  - {id: q07, type: evaluate, speaker: narrator, prompt: 最后的小镇变得一片寂静了吗？请说明理由。, answer: 没有。音乐、谈话和安全警示都保留下来，小镇只在部分地方提供可以自由选择的安静环境。, page_refs: [p17, p18, p20, p22]}

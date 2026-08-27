@@ -1,0 +1,21 @@
+schema_version: 1
+language: zh-CN
+writer: 松果先生
+title: 橡果小船
+summary: 松鼠让蜗牛上船，两位朋友一起到达对岸。
+cast:
+  narrator: {display_name: 旁白, tts: {delivery: 温暖直接, timbre: 清晰的成年声音, pace: 慢速, pitch: 中音}}
+  squirrel: {display_name: 松鼠, tts: {delivery: 轻快坦率, timbre: 明亮的童声, pace: 中速, pitch: 中高音}}
+  snail: {display_name: 蜗牛, tts: {delivery: 温和耐心, timbre: 柔软的童声, pace: 慢速, pitch: 中音}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, content: [{text: 松鼠有一只}, {vocabulary: {id: acorn, text: 橡果}}, {text: 小船。}]}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 蜗牛站在岸边。}]}
+  - {id: p03, illustration: p03, lines: [{speaker: squirrel, text: 上船吧！}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 小船慢慢漂过河。}]}
+  - {id: p05, illustration: p05, lines: [{speaker: snail, text: 看，对岸快到了！}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 两个朋友一起上了岸。}]}
+chapters:
+  - {id: ch01, title: 一起过河, page_refs: [p01, p02, p03, p04, p05, p06]}
+questions:
+  - {id: q01, type: picture, speaker: narrator, prompt: 谁站在岸边？, answer: 蜗牛。, page_refs: [p02]}
+  - {id: q02, type: explicit-choice, speaker: narrator, prompt: 松鼠怎么做？, choices: [请蜗牛上船, 自己走开], answer: 请蜗牛上船。, page_refs: [p03]}

@@ -1,0 +1,42 @@
+schema_version: 1
+language: en-US
+writer: kind-spark
+title: The Applause Behind the Wall
+summary: A proud theater manager hunts a secret admirer and finds a repair problem that silence alone cannot solve.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: measured and atmospheric, timbre: clear adult voice, pace: medium, pitch: medium}}
+  iona: {display_name: Iona, tts: {delivery: controlled and energetic, timbre: resonant adult voice, pace: medium-fast, pitch: medium}}
+  ren: {display_name: Ren, tts: {delivery: dry and grounded, timbre: textured adult voice, pace: medium, pitch: low}}
+  maia: {display_name: Maia, tts: {delivery: precise and warm, timbre: mellow older voice, pace: medium-slow, pitch: medium-low}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Iona rehearsed her opening speech in an empty theater."}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "When she finished, a sharp burst of applause came from behind the side wall."}]}
+  - {id: p03, illustration: p03, lines: [{speaker: iona, text: "Someone appreciates good timing and terrible hiding."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: ren, text: "No footprints, no open doors, and no admirer in the ceiling."}]}
+  - {id: p05, illustration: p05, lines: [{speaker: maia, text: "The dust moved when I tapped the drum. Let us watch before we guess."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "They listed every clap: after a speech, during a drum test, and when a cart crossed backstage."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "Iona repeated the speech. The wall offered no opinion."}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "Ren shut the heavy door, and something behind the wall clapped once."}]}
+  - {id: p09, illustration: p09, lines: [{speaker: maia, text: "The wall shook under my hand. Something moved when the door closed."}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, content: [{text: "Behind a panel, loose ventilation "}, {vocabulary: {id: shutter, text: shutters}}, {text: " hung on worn pins."}]}]}
+  - {id: p11, illustration: p11, lines: [{speaker: ren, text: "Closing the door pushes air through the duct. The shutters strike together."}]}
+  - {id: p12, illustration: p12, lines: [{speaker: iona, text: "Then we seal them. Mystery solved."}]}
+  - {id: p13, illustration: p13, lines: [{speaker: maia, text: "If we seal them, how will fresh air get in? We would cure the clap and spoil the rehearsal."}]}
+  - {id: p14, illustration: p14, lines: [{speaker: ren, text: "New hinge pins and soft stops will keep the air path open."}]}
+  - {id: p15, illustration: p15, lines: [{speaker: narrator, text: "They fixed the shutters so they could swing without striking each other."}]}
+  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "The door closed. The shutters breathed without clapping."}]}
+  - {id: p17, illustration: p17, lines: [{speaker: maia, text: "One more test. Can everyone still notice an emergency alarm?"}]}
+  - {id: p18, illustration: p18, lines: [{speaker: narrator, text: "They tested an alert that could be heard and seen. Maia noticed the light first."}]}
+  - {id: p19, illustration: p19, lines: [{speaker: iona, text: "I went looking for an admirer and nearly boarded up the fresh air. The clues were less flattering."}]}
+  - {id: p20, illustration: p20, lines: [{speaker: narrator, text: "On opening night, the applause finally came from the audience."}]}
+chapters:
+  - {id: ch01, title: An Invisible Audience, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - {id: ch02, title: A Consequence, Not a Critic, page_refs: [p07, p08, p09, p10, p11, p12, p13]}
+  - {id: ch03, title: Repairing Movement, page_refs: [p14, p15, p16, p17, p18, p19, p20]}
+questions:
+  - {id: q01, type: short-answer, speaker: narrator, prompt: "What three events first seem connected to the clapping?", answer: "A speech, a drum test, and a backstage cart movement.", page_refs: [p06]}
+  - {id: q02, type: character-motive, speaker: narrator, prompt: "Why does Iona first imagine a secret admirer?", answer: "She hears the noise after her speech and enjoys interpreting it as praise.", page_refs: [p02, p03]}
+  - {id: q03, type: evidence, speaker: narrator, prompt: "What evidence shifts attention from performance to the building?", answer: "The speech fails to cause a clap, but closing the door does, and Maia feels vibration in the wall.", page_refs: [p07, p08, p09]}
+  - {id: q04, type: compare, speaker: narrator, prompt: "How do sealing and repairing the shutters differ?", answer: "Sealing stops sound by blocking ventilation; repairing stops impact while preserving airflow.", page_refs: [p12, p13, p14, p15]}
+  - {id: q05, type: evaluate, speaker: narrator, prompt: "Why is silence not the only design goal?", answer: "The theater also needs ventilation and emergency alerts that everyone can perceive.", page_refs: [p13, p17, p18]}
+  - {id: q06, type: main-idea, speaker: narrator, prompt: "What does Iona learn about solving problems?", answer: "She learns to test causes and consider effects on other people and systems before choosing a quick fix.", page_refs: [p12, p13, p18, p19]}

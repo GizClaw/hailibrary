@@ -1,0 +1,41 @@
+schema_version: 1
+style: hand-painted watercolor and soft gouache with gentle paper texture
+aspect_ratio: "3:2"
+embedded_text: prohibited
+shared_by_all_locales: true
+
+assets:
+  - id: cover
+    file: artwork/cover.webp
+    scene: Fox happily flies the red kite in a spring meadow with the oak tree visible.
+
+  - id: p01
+    file: artwork/p01.webp
+    scene: Fox holds the red kite string while the kite flies safely above the meadow.
+
+  - id: p02
+    file: artwork/p02.webp
+    scene: A strong gust bends the grass and scarf while Fox grips the pulling kite string.
+
+  - id: p03
+    file: artwork/p03.webp
+    scene: The kite escapes and flies toward the oak tree while Fox reaches after it.
+
+  - id: p04
+    file: artwork/p04.webp
+    scene: Fox searches around the roots and low branches of the oak tree.
+
+  - id: p05
+    file: artwork/p05.webp
+    scene: Fox discovers the red kite caught safely on a low oak branch.
+
+  - id: p06
+    file: artwork/p06.webp
+    scene: Fox happily holds the recovered red kite beside the oak tree.
+
+generation:
+  workflow: Codex built-in image generation
+  text_in_image_requested: false
+  visual_review:
+    status: pass
+    checks: [no-visible-text, consistent-fox, consistent-red-kite, scene-sequence]

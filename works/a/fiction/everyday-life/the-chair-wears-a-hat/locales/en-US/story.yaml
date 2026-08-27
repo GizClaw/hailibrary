@@ -1,0 +1,21 @@
+schema_version: 1
+language: en-US
+writer: river-wink
+title: The Chair Wears a Hat
+summary: Mei laughs at a hat on a chair, then asks whose hat it is.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: warm and playful, timbre: clear adult voice, pace: slow, pitch: medium}}
+  mei: {display_name: Mei, tts: {delivery: curious and bright, timbre: clear child voice, pace: slow, pitch: medium-high}}
+  ari: {display_name: Ari, tts: {delivery: lively and warm, timbre: soft child voice, pace: slow, pitch: high}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "A red hat sits there."}]}
+  - {id: p02, illustration: p02, lines: [{speaker: mei, text: "The chair has a hat!"}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "Mei picked it up."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: mei, text: "Is it your hat?"}, {speaker: ari, text: "Yes, it is!"}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Mei put it on Ari."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: mei, text: "Now we can sit!"}]}
+chapters:
+  - {id: ch01, title: A Funny Hat, page_refs: [p01, p02, p03, p04, p05, p06]}
+questions:
+  - {id: q01, type: picture, speaker: narrator, prompt: "What is on the chair?", answer: "A red hat.", page_refs: [p01]}
+  - {id: q02, type: explicit-choice, speaker: narrator, prompt: "Whose hat is it?", choices: [Ari's, Mei's, The chair's], answer: "Ari's.", page_refs: [p04]}

@@ -1,0 +1,109 @@
+schema_version: 1
+status: draft
+purpose: queryable vocabulary data sources and the rules for turning source evidence into HaiLibrary A-K decisions
+
+files:
+  grading_criteria: prompts/vocabulary/ranges.yaml
+  en_us_frequency_list: prompts/vocabulary/lists/en-US/ngsl-1.2-hai-bands.csv
+  zh_cn_character_list: prompts/vocabulary/lists/zh-CN/tghz-2013-tier-1.csv
+
+rules:
+  - A source-list membership is evidence, not an automatic HaiLibrary level assignment.
+  - source_level and hai_level are different fields and must never be presented as interchangeable.
+  - The English NGSL band is a frequency/familiarity band for running-text control, not a CEFR, Reading A-Z, or Lexile level.
+  - The Chinese TGHZ list establishes a standardized common-character inventory, not the grade or semester in which a child learned a character.
+  - A Chinese textbook claim requires an exact edition, grade, semester, scope, location, and source URL in the vocabulary entry.
+  - A term absent from these lists may still be valid when its meaning, morphology, context support, and learning purpose satisfy ranges.yaml.
+
+datasets:
+  ngsl-1.2:
+    locale: en-US
+    kind: lemma-frequency-list
+    version: "1.2"
+    published: 2023-04
+    count: 2809
+    local_file: prompts/vocabulary/lists/en-US/ngsl-1.2-hai-bands.csv
+    sha256: eae527a78e2357b542b6ff58e4705aa4711b810a76814384e4209bbb14f1da4c
+    columns: [lemma, ngsl_rank, sfi, adjusted_frequency_per_million, hai_familiarity_band]
+    source_url: https://www.newgeneralservicelist.com/new-general-service-list
+    download_url: https://www.newgeneralservicelist.com/s/NGSL_12_stats.csv
+    license: CC-BY-SA-4.0
+    attribution: Browne, C., Culligan, B., and Phillips, J., New General Service List 1.2
+    verification: downloaded from the official NGSL project and checked for 2809 data rows
+    limitations:
+      - Lemmas are not senses; polysemy still requires editorial review.
+      - Rank measures corpus frequency, not conceptual, syntactic, or decoding difficulty.
+      - The 52 supplementary calendar and number words without frequency ranks are not in this local file.
+    internal_band_policy:
+      a: [1, 250]
+      b: [251, 500]
+      c: [501, 800]
+      d: [801, 1100]
+      e: [1101, 1450]
+      f: [1451, 1800]
+      g: [1801, 2200]
+      h: [2201, 2809]
+      i: null
+      j: null
+      k: null
+    band_note: I-K are not assigned by raw frequency because advanced difficulty depends more on sense, register, abstraction, rhetoric, and domain knowledge.
+
+  cambridge-young-learners-2025:
+    locale: en-US
+    kind: exam-word-list
+    version: "2025"
+    source_levels: [pre-a1-starters, a1-movers, a2-flyers]
+    source_url: https://www.cambridgeenglish.org/images/506166-starters-movers-flyers-word-list-2025.pdf
+    local_storage: reference-only
+    verification: official PDF inspected; it contains separate alphabetic lists for all three source levels
+    use: verify beginner word membership and grammatical category in an individual vocabulary alignment
+    limitation: Cambridge exam level is not a HaiLibrary level and does not cover the advanced A-K range.
+
+  english-vocabulary-profile:
+    locale: en-US
+    kind: word-and-sense-reference
+    source_url: https://www.englishprofile.org/wordlists
+    local_storage: reference-only
+    use: check CEFR evidence at the word-sense and phrase level, especially above A2
+    limitation: access and redistribution terms must be respected; do not bulk-copy the database.
+
+  tghz-2013-tier-1:
+    locale: zh-CN
+    kind: standardized-character-list
+    version: "2013"
+    count: 3500
+    local_file: prompts/vocabulary/lists/zh-CN/tghz-2013-tier-1.csv
+    sha256: 5b2f92c889b3c2f14600d4a77ce683e9a71e73bdf4d49b6dc75e97c867abcb1c
+    columns: [entry_number, character, unicode]
+    official_source_url: https://www.moe.gov.cn/jyb_xwfb/xw_fbh/moe_2069/moe_2590/moe_2914/moe_2912/tnull_50831.html
+    extraction_crosscheck_url: https://www.unicode.org/L2/L2019/19160-adding-ktghz-2013.pdf
+    verification: 3500 numbered tier-one entries extracted and checked for continuous entry numbers and unique characters
+    use: check whether every character in a Chinese term belongs to the national tier-one common-character inventory
+    limitation: the table is not ordered by textbook exposure and cannot prove word familiarity or grade placement.
+
+  pep-grade-1-semester-1-2024:
+    locale: zh-CN
+    kind: textbook-checkpoint
+    publisher: 人民教育出版社
+    edition: 2024修订版
+    grade: 1
+    semester: 1
+    recognize_count: 280
+    write_count: 100
+    source_url: https://www.pep.com.cn/bks/xxyw/jzjd/202505/W020250531413572751916.pdf
+    local_storage: metadata-only
+    verification: official PEP teaching guidance verifies the totals but does not expose a machine-readable appendix in this repository
+    use: scale checkpoint only until each character is verified against the exact textbook appendix
+    prohibited_claim: do not mark a character or word as textbook-listed from the totals alone
+
+lookup_order:
+  en-US:
+    - Check Cambridge Young Learners for a beginner source level when applicable.
+    - Look up NGSL rank and internal familiarity band for frequency evidence.
+    - Check English Vocabulary Profile or a domain source for the intended sense, phrase, and register.
+    - Apply ranges.yaml and record the editorial HaiLibrary level separately.
+  zh-CN:
+    - Check every character against TGHZ tier one.
+    - Check the complete word, not only its characters, against the exact textbook edition or another named corpus.
+    - Record recognition, writing, word-list, or in-text scope precisely.
+    - Apply ranges.yaml using semantic, word-formation, orthographic, and context load.

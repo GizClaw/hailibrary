@@ -1,0 +1,30 @@
+schema_version: 1
+language: zh-CN
+writer: 北辰
+title: 山口的飘带
+summary: 乔来到三岔山口，根据飘带、落叶和山势，挑了一条稳当的路。
+cast:
+  narrator: {display_name: 旁白, tts: {delivery: 清楚有节奏, timbre: 明亮的成年声音, pace: 中速, pitch: 中音}}
+  qiao: {display_name: 乔, tts: {delivery: 好奇严谨, timbre: 清朗的少年声音, pace: 中速, pitch: 中高音}}
+  dan: {display_name: 丹叔, tts: {delivery: 实在爽朗, timbre: 宽厚的成年声音, pace: 中慢速, pitch: 中低音}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 山口分出三条路，乔却看不到路牌。}]}
+  - {id: p02, illustration: p02, lines: [{speaker: qiao, content: [{text: 每条路边都有一根}, {vocabulary: {id: streamer, text: 飘带}}, {text: 。}]}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 低处的布条垂着，落叶堵住了路口。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 中间的布条被风吹得横着猛甩，前面又是无遮拦的石坡。}]}
+  - {id: p05, illustration: p05, lines: [{speaker: qiao, text: 高处那根摆得最稳，前面的山口也宽。}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 乔没急着动身，又把三条路从头看了一遍。}]}
+  - {id: p07, illustration: p07, lines: [{speaker: dan, text: 我的陶碗怕颠，你知道哪条路稳吗？}]}
+  - {id: p08, illustration: p08, lines: [{speaker: qiao, text: 我也说不准。不过上面那条路的飘带最稳，两边还有山壁挡风。}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 两个人走上面那条路，一前一后进了山隙。}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 山脊上刮过一阵风，石壁间却很平静。}]}
+  - {id: p11, illustration: p11, lines: [{speaker: dan, text: 一只碗也没碎。多看几眼，果然少走弯路。}]}
+  - {id: p12, illustration: p12, lines: [{speaker: qiao, text: 再系几根布条，后面的人也能看着选路。}]}
+chapters:
+  - {id: ch01, title: 三条路, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - {id: ch02, title: 选一条稳当的路, page_refs: [p07, p08, p09, p10, p11, p12]}
+questions:
+  - {id: q01, type: sequence, speaker: narrator, prompt: 乔先看了哪三条路？, answer: 低处、中间和高处的三条路。, page_refs: [p03, p04, p05]}
+  - {id: q02, type: cause-effect, speaker: narrator, prompt: 乔为什么没有选中间那条路？, answer: 因为飘带被风吹得横着猛甩，石坡上又没有遮挡。, page_refs: [p04]}
+  - {id: q03, type: character-motive, speaker: narrator, prompt: 丹叔为什么需要较稳的路？, answer: 因为他带着怕颠的陶碗。, page_refs: [p07]}
+  - {id: q04, type: short-answer, speaker: narrator, prompt: 乔最后为什么又系了几根布条？, answer: 为了让后来的人也能看着飘带选路。, page_refs: [p12]}

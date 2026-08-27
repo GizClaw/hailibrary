@@ -1,0 +1,32 @@
+schema_version: 1
+language: zh-CN
+writer: 江笑
+title: 雨伞彩排
+summary: 绿伞下面的椅子湿了，莉娜一口咬定是伞漏雨。大家把三把伞摆好重试，才发现问题出在伞架上。
+cast:
+  narrator: {display_name: 旁白, tts: {delivery: 从容含笑, timbre: 清晰的成年声音, pace: 中速, pitch: 中音}}
+  lina: {display_name: 莉娜, tts: {delivery: 干脆有劲, timbre: 明亮的少年声音, pace: 中快速, pitch: 中高音}}
+  ben: {display_name: 小本, tts: {delivery: 耐心务实, timbre: 轻快的少年声音, pace: 中速, pitch: 中音}}
+  oma: {display_name: 欧玛奶奶, tts: {delivery: 低沉风趣, timbre: 有质感的年长声音, pace: 中慢速, pitch: 低音}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 莉娜为院子里的演出摆好雨伞。}]}
+  - {id: p02, illustration: p02, lines: [{speaker: oma, text: 咦，雨怎么漏到绿伞下面的椅子上了？}]}
+  - {id: p03, illustration: p03, lines: [{speaker: lina, text: 肯定是伞破了，我把洞补上。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: ben, text: 先别忙着补。三把伞一把高、一把低，怎么比？}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 大家把伞调到同样的高度和角度。}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 欧玛奶奶往第一把伞上浇了一壶水。}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 另外两把也照样浇：伞的高度一样，水量也一样。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: ben, text: 三把椅子都干着，伞面没问题。}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 小本把绿伞一斜，水立刻从翘起的伞边飘了进去。}]}
+  - {id: p10, illustration: p10, lines: [{speaker: lina, text: 支架有只脚松了，所以伞一直歪着。}]}
+  - {id: p11, illustration: p11, lines: [{speaker: oma, text: 该修的是伞架。绿伞这回洗清嫌疑喽。}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 演出开场，雨只好坐在外面看。}]}
+chapters:
+  - {id: ch01, title: 绿伞漏了吗, page_refs: [p01, p02, p03, p04]}
+  - {id: ch02, title: 摆好再试, page_refs: [p05, p06, p07, p08]}
+  - {id: ch03, title: 问题出在伞架, page_refs: [p09, p10, p11, p12]}
+questions:
+  - {id: q01, type: explicit-choice, speaker: narrator, prompt: 莉娜最先怪谁？, choices: [绿雨伞, 欧玛奶奶的椅子, 水壶], answer: 绿雨伞。, page_refs: [p02, p03]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: 浇水以前，大家先做了什么？, answer: 他们把雨伞调到同样的高度和角度。, page_refs: [p05, p06]}
+  - {id: q03, type: cause-effect, speaker: narrator, prompt: 雨水为什么会落到椅子上？, answer: 松动的支架让伞歪了，水从抬高的伞边钻了进去。, page_refs: [p09, p10]}
+  - {id: q04, type: character-motive, speaker: narrator, prompt: 小本为什么要把三把伞摆成一样再试？, answer: 他想排除高度和倾斜角度的影响，看看伞面到底漏不漏水。, page_refs: [p04, p05, p08]}

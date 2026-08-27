@@ -1,0 +1,28 @@
+schema_version: 1
+language: en-US
+writer: silver-bell
+title: Moonlight Parcel
+summary: A blocked bridge sends Mara along a surprising path to finish a night delivery.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: gentle and precise, timbre: clear adult voice, pace: medium-slow, pitch: medium}}
+  mara: {display_name: Mara, tts: {delivery: thoughtful and determined, timbre: warm young-adult voice, pace: medium, pitch: medium}}
+  moth: {display_name: Moon Moth, tts: {delivery: airy and cheerful, timbre: light breathy voice, pace: medium, pitch: high}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, content: [{text: "Mara carries a silver "}, {vocabulary: {id: parcel, text: parcel}}, {text: " across town."}]}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "The raised bridge blocks Mara's way."}]}
+  - {id: p03, illustration: p03, lines: [{speaker: mara, text: "I can try the canal lane."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "A gust spins leaves across the narrow lane."}, {speaker: mara, text: "Now I cannot see the path."}]}
+  - {id: p05, illustration: p05, lines: [{speaker: moth, text: "Look down, not ahead."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Moonlight makes a bright line on the water."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: mara, text: "The reflection shows the stepping stones!"}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "Mara follows them to a round observatory."}]}
+  - {id: p09, illustration: p09, lines: [{speaker: mara, text: "Your parcel arrived before midnight."}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "Warm light fills the room, and the moth circles it."}]}
+chapters:
+  - {id: ch01, title: The Closed Way, page_refs: [p01, p02, p03, p04]}
+  - {id: ch02, title: A Path of Light, page_refs: [p05, p06, p07]}
+  - {id: ch03, title: Delivered, page_refs: [p08, p09, p10]}
+questions:
+  - {id: q01, type: sequence, speaker: narrator, prompt: "What blocks Mara first?", answer: "The raised bridge blocks her.", page_refs: [p02]}
+  - {id: q02, type: cause-effect, speaker: narrator, prompt: "Why does Mara look at the water?", answer: "The moth tells her to look below.", page_refs: [p05, p06]}
+  - {id: q03, type: short-answer, speaker: narrator, prompt: "How does the reflection help?", answer: "It reveals the stepping stones.", page_refs: [p06, p07]}

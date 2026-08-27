@@ -1,0 +1,25 @@
+schema_version: 1
+language: en-US
+writer: cora-mendwell
+title: The Tray with Two Handles
+summary: Oren's one-handled tray tips, so Ada helps him balance it with a second handle.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: warm and clear, timbre: friendly adult voice, pace: slow-medium, pitch: medium}}
+  oren: {display_name: Oren, tts: {delivery: eager and practical, timbre: bright child voice, pace: medium, pitch: medium-high}}
+  ada: {display_name: Ada, tts: {delivery: observant and encouraging, timbre: calm child voice, pace: slow-medium, pitch: medium}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: Oren makes a picnic tray.}]}
+  - {id: p02, illustration: p02, lines: [{speaker: oren, text: One handle will make it easy.}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, content: [{text: "He adds three empty "}, {vocabulary: {id: cup, text: cups}}, {text: "."}]}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: The tray tips as he turns.}]}
+  - {id: p05, illustration: p05, lines: [{speaker: ada, text: You're pulling one side down.}]}
+  - {id: p06, illustration: p06, lines: [{speaker: oren, text: Let's add a second handle.}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: Two hands keep the tray level.}]}
+  - {id: p08, illustration: p08, lines: [{speaker: ada, text: Now the cups stay put!}]}
+chapters:
+  - {id: ch01, title: One Handle, page_refs: [p01, p02, p03, p04]}
+  - {id: ch02, title: Two Hands, page_refs: [p05, p06, p07, p08]}
+questions:
+  - {id: q01, type: picture, speaker: narrator, prompt: What is on the tray?, answer: Three empty cups., page_refs: [p03]}
+  - {id: q02, type: explicit-choice, speaker: narrator, prompt: Why does the tray tip?, choices: [Oren pulls one side down, The cups sing, The table moves], answer: Oren pulls one side down., page_refs: [p04, p05]}
+  - {id: q03, type: sequence, speaker: narrator, prompt: What do Oren and Ada add next?, answer: A second handle., page_refs: [p05, p06]}

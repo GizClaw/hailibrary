@@ -1,0 +1,177 @@
+schema_version: 1
+status: draft
+purpose: qualitative vocabulary grading criteria; concrete source lists and HaiLibrary assignments are indexed by prompts/vocabulary/index.yaml
+
+not_a_word_list: true
+companion_index: prompts/vocabulary/index.yaml
+
+principles:
+  - Vocabulary level is locale-specific. Locales share a concept and card but do not inherit another locale's word difficulty.
+  - A target word is judged by frequency, form, meaning, contextual support, and the reading task; character or word length alone never determines its level.
+  - Running text should mostly use vocabulary already available below the target level so the marked words remain the intentional learning load.
+  - A curriculum or textbook alignment is evidence, not an automatic HaiLibrary verdict.
+  - Grade and textbook references describe prior language exposure, not reader age, genre, or permitted subject matter.
+  - Definitions must be easier than the term they explain and must not introduce an unmarked word of equal or greater difficulty.
+  - Proper names, culturally specific words, and indispensable domain terms may exceed the ordinary range only when context makes them recoverable and review records the exception.
+
+alignment_record:
+  required_fields: [framework, status, source]
+  textbook_fields: [edition, publisher, grade, semester, scope, location, verified_at]
+  scopes: [recognition, writing, word-list, in-text, curriculum-stage]
+  statuses: [listed, observed-in-text, stage-derived, not-listed, unresolved]
+  rule: never use listed unless the exact term or every declared character was verified in the cited edition and location
+
+en-US:
+  reference_models:
+    learning_a_z: uses total and different word counts, high- and low-frequency ratios, sentence length, and sentence complexity
+    lexile: uses word frequency as a semantic proxy and mean sentence length as a syntactic proxy; internal metrics are not certified Lexile measures
+    cambridge_young_learners: optional external evidence for Pre-A1 Starters, A1 Movers, and A2 Flyers words
+  required_metrics: [total_words, different_words, lexical_diversity_ratio, high_frequency_ratio, low_frequency_ratio, mean_sentence_words]
+  ranges:
+    a: { familiarity: core spoken and very-high-frequency words, form: usually one simple base word, meaning: concrete and directly picturable, context: explicit picture plus repeated sentence frame, decoding: regular or separately supported }
+    b: { familiarity: high-frequency everyday words, form: simple bases and common inflections, meaning: concrete action object quality or relation, context: picture and adjacent sentence support, decoding: common sound-spelling patterns }
+    c: { familiarity: high-frequency plus a small context-recoverable fringe, form: common compounds derivations and inflections, meaning: concrete or simple relational, context: definition example contrast or causal result }
+    d: { familiarity: mixed everyday frequency, form: productive morphology and common phrasal forms, meaning: descriptive emotional temporal or causal, context: recoverable without relying only on the picture }
+    e: { familiarity: mixed-frequency general vocabulary, form: common affixes word families and transparent figurative uses, meaning: one abstract relation or viewpoint, context: meaning refined across more than one page }
+    f: { familiarity: general academic vocabulary plus supported domain words, form: productive derivation and multiple grammatical forms, meaning: comparison constraint evidence or tradeoff, context: reused across chapters }
+    g: { familiarity: meaningful low-frequency and domain vocabulary within otherwise accessible prose, form: multiword terms and less transparent morphology allowed, meaning: precise academic emotional or system relation, context: discourse support rather than picture dependence }
+    h: { familiarity: nuanced evaluative ethical and technical vocabulary, form: near-synonym distinctions and controlled idiom, meaning: value tension stance or long-range consequence, context: multiple evidence paths }
+    i: { familiarity: abstract and domain-specific vocabulary, form: polysemy nominalization and figurative extension, meaning: observation interpretation assumption model or uncertainty, context: meaning may be revised by later evidence }
+    j: { familiarity: disciplinary and rhetorical vocabulary, form: polysemous idiomatic and register-sensitive forms, meaning: source position qualification counterexample or synthesis, context: interpreted across sources or cases }
+    k: { familiarity: sophisticated general academic and indispensable specialist vocabulary, form: dense morphology register and connotation, meaning: systems models rhetoric uncertainty and second-order effects, context: independently inferable or explicitly defined without flattening the concept }
+
+zh-CN:
+  curriculum_basis:
+    standard: 义务教育语文课程标准（2022年版）
+    stage_1_grades_1_2: { recognize_cumulative_about: 1600, write_cumulative_about: 800 }
+    stage_2_grades_3_4: { recognize_cumulative_about: 2500, write_cumulative_about: 1600 }
+    stage_3_grades_5_6: { recognize_cumulative_about: 3000, write_cumulative_about: 2500 }
+    character_tables: use the curriculum's common-character and basic-character tables as general baselines, then verify actual exposure against the selected textbook edition
+  textbook_basis:
+    default_publisher: 人民教育出版社
+    default_series: 统编小学语文教科书
+    edition_policy: pin edition, grade, semester, recognition or writing list, and page or appendix location; never merge different editions silently
+    current_revision_note: revised textbooks are being introduced by grade, so semester lists must be treated as versioned snapshots
+    verified_checkpoint:
+      edition: 2024 revised first-grade edition described by PEP in 2025
+      grade: 1
+      semester: 1
+      recognize: 280
+      write: 100
+      use: scale checkpoint only; exact characters still require the textbook appendix
+  dimensions:
+    character_exposure: whether each character is already recognizable and writable at the referenced checkpoint
+    word_familiarity: whether the complete word is used in textbook text or word-learning activities, not merely whether its characters appear separately
+    word_formation: simplex word, transparent compound, affix or reduplication, idiom, abbreviation, or specialist term
+    semantic_load: concrete meaning, relation, emotion, abstraction, polysemy, figurative meaning, stance, or discipline-specific concept
+    orthographic_load: number of new characters, component transparency, confusable forms, and pronunciation including polyphones and neutral tone
+    context_support: picture, apposition, definition, example, contrast, cause, repeated use, or cross-page evidence
+  running_text_rule: unmarked running-text characters should come from the current or an earlier verified curriculum checkpoint; exceptions require pinyin or immediate contextual recovery and must not accumulate
+  target_word_rule: a marked target may introduce characters beyond the running-text checkpoint, but the number and opacity of those characters must fit the level range below
+  ranges:
+    a:
+      curriculum_reference: 一年级上册起步，优先使用已核验的识字表前段和识字写字基本字
+      target_form: usually one character or a transparent two-character word
+      new_character_load: at most one readily picturable or component-transparent character
+      semantic_range: people body nature familiar objects basic actions size color and position
+      word_formation: simplex words and the most transparent compounds only
+      support: direct illustration pinyin when needed and repeated sentence frame
+      exclusions: idioms literary contractions abstract nouns unexplained polyphones and rare character compounds
+    b:
+      curriculum_reference: 一年级教材范围
+      target_form: usually one or two characters
+      new_character_load: normally no more than one new character per target word
+      semantic_range: school family routines feelings common actions time and simple cause
+      word_formation: common compounds reduplication and simple verb-object forms
+      support: picture plus an explicit adjacent clue
+      exclusions: opaque idioms specialist abbreviations and definitions containing harder unmarked words
+    c:
+      curriculum_reference: 第一学段中段
+      target_form: one to three characters with recognizable components
+      new_character_load: one new character is normal; two require strong form or context support
+      semantic_range: description sequence cause contrast manner and familiar natural processes
+      word_formation: transparent compounds common affixes and simple synonym or antonym relations
+      support: example contrast action result or short definition
+      exclusions: meaning that depends on unsupported classical usage or distant context
+    d:
+      curriculum_reference: 第一学段完成，累计认识约1600字、会写约800字
+      target_form: commonly two or three characters
+      new_character_load: up to two when the word is indispensable and contextually recoverable
+      semantic_range: motivation consequence emotion degree classification and basic technical or cultural terms
+      word_formation: productive compounds common polysemy and familiar fixed expressions
+      support: prose must carry the clue without requiring the illustration
+      exclusions: dense four-character expressions and low-frequency literary synonyms used only for ornament
+    e:
+      curriculum_reference: 第二学段起步
+      target_form: usually two to four characters
+      new_character_load: unfamiliar characters may appear when their components or surrounding explanation support inference
+      semantic_range: viewpoint evidence change comparison category and simple abstraction
+      word_formation: word families near-synonyms common idioms with transparent context and discipline-entry terms
+      support: meaning is established across at least two uses or one explicit explanation
+      exclusions: memorized idiom use without contextual meaning
+    f:
+      curriculum_reference: 第二学段中段
+      target_form: multi-character general academic and domain terms allowed
+      new_character_load: judged by the whole passage rather than an isolated word count
+      semantic_range: constraint method process evidence tradeoff and changing interpretation
+      word_formation: productive morphemes synonym distinctions polysemy and context-supported idiom
+      support: reused across chapters in more than one syntactic role or context
+      exclusions: replacing a clear common word with a rare synonym merely to raise difficulty
+    g:
+      curriculum_reference: 第二学段完成，累计认识约2500字、会写约1600字
+      target_form: precise general academic emotional and domain vocabulary
+      new_character_load: most characters should be within the stage-two recognition range; exceptions require explicit support
+      semantic_range: interacting constraints evidence comparison motive system relation and evaluation
+      word_formation: less transparent compounds controlled idioms and introductory terminology
+      support: cross-scene context rather than a single picture
+      exclusions: terminology that the story never applies after defining it
+    h:
+      curriculum_reference: 第三学段起步
+      target_form: nuanced evaluative ethical figurative and technical words
+      new_character_load: rare forms remain exceptional even when the concept is advanced
+      semantic_range: value tension consent responsibility uncertainty impact and long-range consequence
+      word_formation: near-synonym contrast contextual idiom and figurative extension
+      support: multiple examples consequences or viewpoints refine the meaning
+      exclusions: unsupported internet slang archaic diction and decorative 成语堆砌
+    i:
+      curriculum_reference: 第三学段中段
+      target_form: abstract and domain-specific vocabulary with controlled polysemy
+      new_character_load: rely on known morphemes to build unfamiliar concepts whenever possible
+      semantic_range: observation interpretation assumption model source reliability probability and ambiguity
+      word_formation: nominalization discipline compounds and figurative or rhetorical meaning
+      support: later evidence may revise the reader's first interpretation
+      exclusions: definitions that erase uncertainty or confuse related technical concepts
+    j:
+      curriculum_reference: 第三学段完成，累计认识约3000字、会写约2500字
+      target_form: disciplinary rhetorical and source-aware vocabulary
+      new_character_load: primary-school common characters should carry most advanced concepts; specialist characters require direct explanation
+      semantic_range: qualification counterexample perspective mechanism synthesis and limitation
+      word_formation: register distinction polysemy formal compounds idiom and terminology
+      support: compared across sources cases time periods or speakers
+      exclusions: treating curriculum recognition as proof that the full term and meaning are already familiar
+    k:
+      curriculum_reference: 小学毕业衔接；小学常用字为主体，受控引入更高阶段词汇
+      target_form: sophisticated general academic and indispensable specialist terms
+      new_character_load: no fixed count can replace editorial review; every beyond-primary character must be necessary and supported
+      semantic_range: systems models rhetoric contested values uncertainty and second-order effects
+      word_formation: compressed formal language register connotation multi-layer polysemy and specialist terminology
+      support: definition morphology and discourse jointly support independent understanding
+      exclusions: gratuitous rare characters fake erudition and unexplained classical or specialist shorthand
+
+sources:
+  - title: New General Service List 1.2
+    url: https://www.newgeneralservicelist.com/new-general-service-list
+  - title: 通用规范汉字表
+    url: https://www.moe.gov.cn/jyb_xwfb/xw_fbh/moe_2069/moe_2590/moe_2914/moe_2912/tnull_50831.html
+  - title: 教育部关于印发义务教育课程方案和课程标准（2022年版）的通知及语文课程标准附件
+    url: https://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html
+  - title: 人民教育出版社修订版统编小学语文一年级教材教学建议
+    url: https://www.pep.com.cn/bks/xxyw/jzjd/202505/W020250531413572751916.pdf
+  - title: 人民教育出版社修订版统编小学语文二年级教材分析
+    url: https://www.pep.com.cn/bks/xxyw/jzjd/202507/W020250716532280620290.pdf
+  - title: Learning A-Z Text Leveling System
+    url: https://www.learninga-z.com/user_area/content_media/raw/text-leveling-learning-a-z.pdf
+  - title: Lexile Analyzer User Guide
+    url: https://la-tools.lexile.com/help/
+  - title: Cambridge English Young Learners Word List 2025
+    url: https://www.cambridgeenglish.org/images/506166-starters-movers-flyers-word-list-2025.pdf

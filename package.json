@@ -1,0 +1,16 @@
+{
+  "name": "hailibrary",
+  "private": true,
+  "packageManager": "pnpm@10.28.2",
+  "scripts": {
+    "check-work": "hailibrary-check-work",
+    "catalog": "pnpm --filter @hailibrary/catalog build",
+    "dev": "pnpm catalog && pnpm --filter @hailibrary/web dev",
+    "build": "pnpm catalog && pnpm --filter @hailibrary/web build",
+    "test": "pnpm --filter @hailibrary/web test",
+    "typecheck": "pnpm --filter @hailibrary/web typecheck"
+  },
+  "devDependencies": {
+    "@hailibrary/check-work": "workspace:*"
+  }
+}

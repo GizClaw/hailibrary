@@ -1,0 +1,34 @@
+schema_version: 1
+language: en-US
+writer: cora-mendwell
+title: The Seeds That Would Not Queue
+summary: Kavi expects one clever wheel to sort every donation, but the seed library teaches him to value more than one good method.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: crisp and warm, timbre: friendly adult voice, pace: medium, pitch: medium}}
+  kavi: {display_name: Kavi, tts: {delivery: confident then thoughtful, timbre: resonant child voice, pace: medium, pitch: medium}}
+  june: {display_name: June, tts: {delivery: patient and perceptive, timbre: clear child voice, pace: slow-medium, pitch: medium-high}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: The neighborhood seed library receives twelve mixed jars.}, {speaker: kavi, text: My sorting wheel will finish before lunch.}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "Kavi's wooden wheel has small, medium, and large openings."}, {speaker: june, text: Have you tested every kind?}]}
+  - {id: p03, illustration: p03, lines: [{speaker: kavi, text: "A seed is either small, medium, or large."}, {speaker: narrator, content: [{text: "He pours the first jar of round "}, {vocabulary: {id: seed, text: seeds}}, {text: " into the hopper."}]}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: The round seeds tumble into three waiting trays.}, {speaker: kavi, text: Exactly as planned.}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "The next jar holds long, feathery seeds."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: Their wispy ends catch in the smallest openings. The wheel stops.}, {speaker: kavi, text: They aren't supposed to do that.}]}
+  - {id: p07, illustration: p07, lines: [{speaker: june, text: The wheel only notices width. These seeds also have shape.}]}
+  - {id: p08, illustration: p08, lines: [{speaker: kavi, text: Then I need a perfect wheel with every possible opening.}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: Kavi sketches until the page looks like a maze.}, {speaker: june, text: Could the wheel do only the job it does well?}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: They separate round seeds from feathery and hooked ones.}]}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: The wheel sorts the round group by size.}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: June uses shallow trays to sort the other groups by hand.}, {speaker: kavi, text: Your slow table keeps my fast wheel moving.}]}
+  - {id: p13, illustration: p13, lines: [{speaker: june, text: And your wheel saves time where size is enough.}]}
+  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "By sunset, every jar has a place."}, {speaker: kavi, text: One useful tool beats one impossible tool.}]}
+chapters:
+  - {id: ch01, title: The Fast Wheel, page_refs: [p01, p02, p03, p04]}
+  - {id: ch02, title: More Than Size, page_refs: [p05, p06, p07, p08, p09]}
+  - {id: ch03, title: Two Good Methods, page_refs: [p10, p11, p12, p13, p14]}
+questions:
+  - {id: q01, type: explicit-choice, speaker: narrator, prompt: Which seeds pass through the wheel first?, choices: [Round seeds, Feathery seeds, Hooked seeds], answer: Round seeds., page_refs: [p03, p04]}
+  - {id: q02, type: cause-effect, speaker: narrator, prompt: Why does the wheel stop?, answer: The feathery ends catch in the small openings., page_refs: [p05, p06]}
+  - {id: q03, type: character-motive, speaker: narrator, prompt: Why does Kavi first want a more complicated wheel?, answer: He still wants one machine to sort every kind of seed., page_refs: [p08, p09]}
+  - {id: q04, type: short-answer, speaker: narrator, prompt: How do Kavi and June divide the work?, answer: "The wheel sorts round seeds by size, while they sort other shapes in shallow trays.", page_refs: [p10, p11, p12]}
+  - {id: q05, type: main-idea, speaker: narrator, prompt: What does Kavi learn about useful tools?, answer: A tool can be valuable without solving every part of a problem., page_refs: [p09, p12, p13, p14]}

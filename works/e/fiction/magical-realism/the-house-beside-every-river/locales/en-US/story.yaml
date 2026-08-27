@@ -1,0 +1,34 @@
+schema_version: 1
+language: en-US
+writer: rain-song
+title: The House Beside Every River
+summary: Ruo repairs a house that moves from river to river and discovers a wider meaning of home.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: warm and unhurried, timbre: soft adult voice, pace: medium-slow, pitch: medium}}
+  ruo: {display_name: Ruo, tts: {delivery: observant and sincere, timbre: clear young adult voice, pace: medium, pitch: medium-high}}
+  he: {display_name: He, tts: {delivery: thoughtful with dry humor, timbre: mellow older voice, pace: slow, pitch: low-medium}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Ruo repaired things along the river, earning meals and new stories."}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "One morning, she found a house hiding wheels under its floor."}]}
+  - {id: p03, illustration: p03, lines: [{speaker: he, text: "I am He. The house is Not Yet, and its left wheel is sulking."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: ruo, content: [{text: "It is not sulking. Fine sand has worked into the "}, {vocabulary: {id: axle, text: axle}}, {text: "."}]}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Once repaired, the house rolled gently along the bank."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Their first river was broad and quiet. Reeds combed the wind."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: ruo, text: "People know my name here, and my tools are useful. Why leave?"}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "During the night, the wheels turned themselves toward another road."}]}
+  - {id: p09, illustration: p09, lines: [{speaker: he, text: "The house never asks us to forget a place. It refuses to know only one."}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "Ruo set a river pebble beside the older stones on the shelf."}]}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "The next river ran narrow and red beneath round hills."}]}
+  - {id: p12, illustration: p12, lines: [{speaker: ruo, text: "This time, I will teach the repair instead of doing it alone."}]}
+  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: "Looking at both river stones, she saw that remembering was not the same as stopping."}]}
+  - {id: p14, illustration: p14, lines: [{speaker: ruo, text: "Let us go. A home can be a road that keeps people connected."}]}
+chapters:
+  - {id: ch01, title: Not Yet, page_refs: [p01, p02, p03, p04, p05]}
+  - {id: ch02, title: The First River, page_refs: [p06, p07, p08, p09, p10]}
+  - {id: ch03, title: Remembering Without Stopping, page_refs: [p11, p12, p13, p14]}
+questions:
+  - {id: q01, type: sequence, speaker: narrator, prompt: "What kind of river does the repaired house visit first?", answer: "A broad quiet river edged with reeds.", page_refs: [p05, p06]}
+  - {id: q02, type: character-motive, speaker: narrator, prompt: "Why does Ruo want to remain there?", answer: "People know her and need her tools.", page_refs: [p07]}
+  - {id: q03, type: cause-effect, speaker: narrator, prompt: "How does Ruo work differently after the house moves again?", answer: "She teaches neighbors to repair things with her.", page_refs: [p11, p12]}
+  - {id: q04, type: short-answer, speaker: narrator, prompt: "What do the two kinds of river stone help Ruo understand?", answer: "Remembering a place does not require staying there.", page_refs: [p10, p13]}
+  - {id: q05, type: main-idea, speaker: narrator, prompt: "What does home mean to Ruo by the end?", answer: "It can be a journey that connects many people and places.", page_refs: [p07, p10, p13, p14]}

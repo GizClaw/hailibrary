@@ -1,0 +1,39 @@
+schema_version: 1
+language: zh-CN
+writer: 北辰
+title: 潮水改写的地图
+summary: 卡带着自己画的海湾地图来到潮湾，却发现当地摆渡人的经验和不断变化的潮水，远比一条笔直的路线可靠。
+cast:
+  narrator: {display_name: 旁白, tts: {delivery: 机敏有趣, timbre: 明亮的成年声音, pace: 中快速, pitch: 中音}}
+  ka: {display_name: 卡, tts: {delivery: 自信后转为坦率, timbre: 清晰的年轻成年声音, pace: 中快速, pitch: 中高音}}
+  mi: {display_name: 米姐, tts: {delivery: 实在带笑, timbre: 稳定的成年声音, pace: 中速, pitch: 中低音}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 卡画过不少山路。到了潮湾，他觉得这回也难不住自己。}]}
+  - {id: p02, illustration: p02, lines: [{speaker: ka, text: 种子箱就在岛上。照这条直线过去，多简单。}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 温室就在对岸，看着近得很，像迈几步就能到。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 水退下去，露出的沙洲却弯成三道月牙。}]}
+  - {id: p05, illustration: p05, lines: [{speaker: ka, text: 地图画直线，脚当然也该走直线。}]}
+  - {id: p06, illustration: p06, lines: [{speaker: mi, text: 要是潮水肯看你的地图，我倒愿意放假。}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 米姐指着码头柱上高高的海草痕。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: ka, text: 原来水刚才还在那么高的地方。我的图，只留住了一个时刻。}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 两片沙洲之间仍有水流，远看像路，近看并不是路。}]}
+  - {id: p10, illustration: p10, lines: [{speaker: ka, text: 好吧，这条线是够直，可它把海湾画得一成不变。}]}
+  - {id: p11, illustration: p11, lines: [{speaker: mi, content: [{text: 上船吧。走哪条水路，得看}, {vocabulary: {id: tide, text: 潮汐}}, {text: 。}]}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 小船绕过沙洲，在弯曲水道里前进。}]}
+  - {id: p13, illustration: p13, lines: [{speaker: ka, text: 你看，浮标往那边斜——水正在往那边走。}]}
+  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: 他们顺利取到种子箱，鞋也没陷进淤泥里。}]}
+  - {id: p15, illustration: p15, lines: [{speaker: narrator, text: 回程时水面升高，沙洲的边缘慢慢消失。}]}
+  - {id: p16, illustration: p16, lines: [{speaker: ka, text: 一张静止的图不够。我画三幅水位图。}]}
+  - {id: p17, illustration: p17, lines: [{speaker: mi, text: 再放上小船模型，旅人就知道该先问谁。}]}
+  - {id: p18, illustration: p18, lines: [{speaker: ka, text: 地图不能替海湾下结论，得提醒我看潮水，也问问熟悉这里的人。}]}
+chapters:
+  - {id: ch01, title: 太直的路线, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - {id: ch02, title: 会变化的证据, page_refs: [p07, p08, p09, p10, p11, p12]}
+  - {id: ch03, title: 三幅水位图, page_refs: [p13, p14, p15, p16, p17, p18]}
+questions:
+  - {id: q01, type: cause-effect, speaker: narrator, prompt: 卡为什么误以为能直走到岛上？, answer: 他把静止地图上的直线当成了任何时刻都存在的路线。, page_refs: [p02, p04, p05]}
+  - {id: q02, type: evidence, speaker: narrator, prompt: 什么证据说明水位会变化？, answer: 码头柱上有高于当时水面的海草痕，回程时沙洲也被水覆盖。, page_refs: [p07, p08, p15]}
+  - {id: q03, type: compare, speaker: narrator, prompt: 卡的直线图和米姐的路线知识有什么不同？, answer: 直线图固定不变，米姐会结合水位、沙洲和水流判断。, page_refs: [p05, p09, p11, p13]}
+  - {id: q04, type: character-motive, speaker: narrator, prompt: 卡为什么愿意收起原地图？, answer: 他承认现场证据与固定路线不符。, page_refs: [p08, p09, p10]}
+  - {id: q05, type: short-answer, speaker: narrator, prompt: 新画的三幅图有什么用？, answer: 它们画出了海湾在不同水位下的样子，不再把海湾画成永远不变。, page_refs: [p15, p16]}
+  - {id: q06, type: main-idea, speaker: narrator, prompt: 卡后来怎样看待地图？, answer: 地图可以提醒人观察，但不能代替潮水的变化和当地人的经验。, page_refs: [p01, p10, p16, p18]}

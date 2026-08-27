@@ -1,0 +1,34 @@
+schema_version: 1
+language: zh-CN
+writer: 雨歌
+title: 果园里的蓝种子
+summary: 一场干风让老果树结不出果子。伊萨从伸向陌生种子的树根上，看见了另一种传承。
+cast:
+  narrator: {display_name: 旁白, tts: {delivery: 温暖沉静, timbre: 清晰的成年声音, pace: 中慢速, pitch: 中音}}
+  isa: {display_name: 伊萨, tts: {delivery: 踏实克制, timbre: 成熟有质感的声音, pace: 中慢速, pitch: 中低音}}
+  jun: {display_name: 君, tts: {delivery: 好奇平和, timbre: 轻盈的成年声音, pace: 中速, pitch: 中音}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 年复一年，伊萨的果园只结一种红果子。}]}
+  - {id: p02, illustration: p02, lines: [{speaker: jun, text: 我从山那边带来些从没见过的种子。}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, content: [{text: 君递来一颗深蓝色的}, {vocabulary: {id: seed, text: 种子}}, {text: 。}]}]}
+  - {id: p04, illustration: p04, lines: [{speaker: isa, text: 这些老树认得这里的土。陌生种子，还是别种了。}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 不久，干风卷皱了叶子。没长大的果子纷纷落地。}]}
+  - {id: p06, illustration: p06, lines: [{speaker: isa, text: 照老样子下去，收成只会越来越少。可一变，我又怕……}]}
+  - {id: p07, illustration: p07, lines: [{speaker: jun, text: 先放在土上吧。要不要它，让果园自己说。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 夜里，老树的根悄悄伸向那颗蓝种子。}]}
+  - {id: p09, illustration: p09, lines: [{speaker: isa, text: 原来，它们也记得怎样迎接新东西。}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 伊萨和君把种子种在最老的树旁。}]}
+  - {id: p11, illustration: p11, lines: [{speaker: jun, text: 瞧，老树正替新芽遮太阳呢。}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 新枝钻进老枝间，树荫比从前更宽了。}]}
+  - {id: p13, illustration: p13, lines: [{speaker: isa, text: 这个篮子，红果蓝果都装得下。}]}
+  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: 君上路那天，伊萨装了一袋新旧种子送给他。}]}
+chapters:
+  - {id: ch01, title: 陌生的种子, page_refs: [p01, p02, p03, p04]}
+  - {id: ch02, title: 干热的风, page_refs: [p05, p06, p07, p08, p09]}
+  - {id: ch03, title: 更宽的树荫, page_refs: [p10, p11, p12, p13, p14]}
+questions:
+  - {id: q01, type: explicit-choice, speaker: narrator, prompt: 君送来什么？, choices: [蓝色种子, 红色篮子, 银色铃铛], answer: 蓝色种子。, page_refs: [p03]}
+  - {id: q02, type: character-motive, speaker: narrator, prompt: 伊萨起初为什么不肯种蓝种子？, answer: 她相信老树只认得本地的土，也担心改变果园的老样子。, page_refs: [p04, p06]}
+  - {id: q03, type: cause-effect, speaker: narrator, prompt: 哪两件事让伊萨改了主意？, answer: 干风让果子早落，老树根又主动伸向蓝种子。, page_refs: [p05, p08, p09]}
+  - {id: q04, type: short-answer, speaker: narrator, prompt: 老树和新芽怎样互相照应？, answer: 老树为新芽遮阳；新枝长进老枝间，让树荫变得更宽。, page_refs: [p11, p12]}
+  - {id: q05, type: main-idea, speaker: narrator, prompt: 伊萨最后明白了什么？, answer: 守住老东西，不等于拒绝新东西；两者可以一起生长。, page_refs: [p09, p13, p14]}

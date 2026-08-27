@@ -1,0 +1,32 @@
+schema_version: 1
+language: en-US
+writer: cora-mendwell
+title: The Basket Above the Stairs
+summary: Etta wants to stock a rooftop greenhouse, but she and Arun must learn how to load its pulley basket safely.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: observant and warm, timbre: friendly adult voice, pace: medium, pitch: medium}}
+  etta: {display_name: Etta, tts: {delivery: energetic and candid, timbre: lively child voice, pace: medium-fast, pitch: medium-high}}
+  arun: {display_name: Arun, tts: {delivery: careful and encouraging, timbre: gentle child voice, pace: medium, pitch: medium}}
+  ms_vale: {display_name: Ms. Vale, tts: {delivery: calm and firm, timbre: mature clear voice, pace: slow-medium, pitch: medium-low}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: Seedlings crowd the table below the rooftop greenhouse.}, {speaker: etta, text: We should move them before the rain.}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: Etta carries one tray up the narrow stairs.}, {speaker: etta, text: Eleven more trips!}]}
+  - {id: p03, illustration: p03, lines: [{speaker: arun, content: [{text: "The old pulley has a "}, {vocabulary: {id: basket, text: basket}}, {text: "."}]}, {speaker: etta, text: Then one trip might do it.}]}
+  - {id: p04, illustration: p04, lines: [{speaker: ms_vale, text: "First, I will check the rope and wheel. Stay clear."}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: Ms. Vale checks every knot and marks a safe loading line.}, {speaker: ms_vale, text: "Light trays only, and never stand underneath."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: Etta stacks three trays on one side of the basket.}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: The tilted basket catches against the railing.}, {speaker: etta, text: I packed it too quickly.}]}
+  - {id: p08, illustration: p08, lines: [{speaker: arun, text: Let's spread the trays across the bottom.}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: They reload below the marked line and clip the gate shut.}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: Etta pulls down while Arun watches from the clear zone.}, {speaker: arun, text: The basket is rising level.}]}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: Ms. Vale receives the trays at the rooftop landing.}]}
+  - {id: p12, illustration: p12, lines: [{speaker: etta, text: "Fewer trips, no crushed leaves."}, {speaker: arun, text: "And next time, we load slowly first."}]}
+chapters:
+  - {id: ch01, title: Eleven Trips, page_refs: [p01, p02, p03, p04]}
+  - {id: ch02, title: A Crooked Load, page_refs: [p05, p06, p07, p08]}
+  - {id: ch03, title: Rising Level, page_refs: [p09, p10, p11, p12]}
+questions:
+  - {id: q01, type: explicit-choice, speaker: narrator, prompt: Why does Etta want to move the seedlings soon?, choices: [Rain is coming, The stairs are painted, Arun is leaving], answer: Rain is coming., page_refs: [p01]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: What happens before the children use the pulley?, answer: "Ms. Vale checks the rope, wheel, and knots.", page_refs: [p04, p05]}
+  - {id: q03, type: cause-effect, speaker: narrator, prompt: Why does the basket catch against the railing?, answer: "The trays are stacked on one side, so the basket tilts.", page_refs: [p06, p07]}
+  - {id: q04, type: character-motive, speaker: narrator, prompt: Why does Arun suggest spreading the trays across the bottom?, answer: He wants the basket to rise level instead of tilting., page_refs: [p07, p08, p10]}

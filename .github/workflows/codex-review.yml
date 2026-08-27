@@ -1,0 +1,79 @@
+name: Codex review
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize, edited, ready_for_review]
+  issue_comment:
+    types: [created]
+  workflow_dispatch:
+    inputs:
+      pull_request_number:
+        description: Open internal pull request to review.
+        required: true
+        type: string
+
+permissions:
+  actions: write
+  checks: write
+  contents: read
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: codex-review-${{ github.event.pull_request.number || github.event.issue.number || inputs.pull_request_number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    if: >-
+      github.event_name == 'workflow_dispatch'
+      || (
+        github.event_name == 'pull_request_target'
+        && github.event.pull_request.head.repo.full_name == github.repository
+      )
+      || (
+        github.event_name == 'issue_comment'
+        && github.event.issue.pull_request != null
+        && contains(
+          fromJSON('["OWNER","MEMBER","COLLABORATOR"]'),
+          github.event.comment.author_association
+        )
+        && (
+          github.event.comment.body == '@codex'
+          || github.event.comment.body == '@codex review'
+          || startsWith(github.event.comment.body, '@codex review ')
+        )
+      )
+    uses: GizClaw/github-workflows/.github/workflows/codex-openai-review.yml@cff6ec446b57dff4cd682dd8539bc6de79f516c4
+    with:
+      model: gpt-5.6-terra
+      effort: medium
+      max-diff-bytes: 5000000
+      review-instructions: >-
+        Follow the trusted-base AGENTS.md book-review workflow. Treat YAML under
+        works/ as production reading content, not incidental data. Review every
+        changed book as a complete work for narrative coherence, audience safety,
+        directory-level conformance, Writer-profile conformance, equivalent
+        multilingual adaptation, stable page and illustration mapping, complete
+        cast and speaker data for TTS, and answerable questions with page evidence.
+        Require complete chapters and resolve every inline vocabulary marker to
+        a locale entry with a Git LFS word-card image.
+        Require one cover and one wordless illustration declaration per page.
+        Review changed Writer profiles under prompts/writers/ for originality,
+        disclosed references, locale fit, and imitation or identity risk. Review
+        changed visual Styles under prompts/styles/ for reusable treatment quality,
+        continuity constraints, and artist or protected-character imitation risk.
+        Binary diffs do not provide pixel evidence: review artwork.yaml scene
+        contracts and file presence, and never claim visual inspection of pixels.
+      issue-review-instructions: >-
+        Review linked Issues against the repository content model in AGENTS.md.
+        Require the intended level, category, Writer, locales, learning goal,
+        page scope, illustration scope, and measurable acceptance criteria.
+      pr-readiness-instructions: >-
+        Require valid PR metadata and native closing-Issue linkage, complete
+        implementation of the linked content or platform scope, all required
+        YAML and Git LFS pointers, and no actionable story, schema, artwork,
+        localization, TTS, question-evidence, correctness, or security findings.
+      pull_request_number: ${{ inputs.pull_request_number }}
+    secrets:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

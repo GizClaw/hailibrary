@@ -1,0 +1,21 @@
+schema_version: 1
+language: en-US
+writer: cora-mendwell
+title: The Pinwheel Wakes
+summary: Mina straightens one bent blade, and her blue pinwheel spins again.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: clear and reassuring, timbre: warm adult voice, pace: slow, pitch: medium}}
+  mina: {display_name: Mina, tts: {delivery: curious and bright, timbre: light child voice, pace: slow, pitch: medium-high}}
+  lee: {display_name: Lee, tts: {delivery: calm and helpful, timbre: soft child voice, pace: slow, pitch: medium}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: Mina holds a still pinwheel.}]}
+  - {id: p02, illustration: p02, lines: [{speaker: mina, text: Spin!}, {speaker: narrator, text: It stays still.}]}
+  - {id: p03, illustration: p03, lines: [{speaker: lee, text: One blade is bent.}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: Mina lifts the bent blade.}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, content: [{text: "The "}, {vocabulary: {id: wind, text: wind}}, {text: " turns it."}]}]}
+  - {id: p06, illustration: p06, lines: [{speaker: mina, text: My blue pinwheel spins!}]}
+chapters:
+  - {id: ch01, title: A Small Repair, page_refs: [p01, p02, p03, p04, p05, p06]}
+questions:
+  - {id: q01, type: picture, speaker: narrator, prompt: What is bent?, answer: One pinwheel blade., page_refs: [p03]}
+  - {id: q02, type: explicit-choice, speaker: narrator, prompt: What makes the pinwheel turn?, choices: [The wind, A book, A cup], answer: The wind., page_refs: [p05]}

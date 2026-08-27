@@ -1,0 +1,33 @@
+{
+  "name": "@hailibrary/web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build --outDir ../../build --emptyOutDir",
+    "test": "node --experimental-strip-types --test src/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "@radix-ui/react-select": "^2.3.7",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^6.1.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dompurify": "^3.2.6",
+    "marked": "^16.2.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.14",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5"
+  }
+}

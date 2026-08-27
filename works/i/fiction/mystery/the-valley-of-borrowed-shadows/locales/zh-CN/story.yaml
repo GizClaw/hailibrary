@@ -1,0 +1,45 @@
+schema_version: 1
+language: zh-CN
+writer: 北辰
+title: 山谷里的第二道影子
+summary: 一座塔忽然有了两道影子。李既要找出经得起验证的解释，也要顾及山上山下不同的生活需要。
+cast:
+  narrator: {display_name: 旁白, tts: {delivery: 克制精确, timbre: 低缓的成年声音, pace: 中慢速, pitch: 中低音}}
+  li: {display_name: 李, tts: {delivery: 分析而开放, timbre: 清晰的成年声音, pace: 中速, pitch: 中音}}
+  oren: {display_name: 奥伦, tts: {delivery: 谨慎深沉, timbre: 有共鸣的年长声音, pace: 慢速, pitch: 低音}}
+  tama: {display_name: 塔玛, tts: {delivery: 敏捷带怀疑, timbre: 利落的年轻声音, pace: 中快速, pitch: 中高音}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 李抵达双崖谷时，居民争论的不是路，而是天空。}]}
+  - {id: p02, illustration: p02, lines: [{speaker: tama, content: [{text: 一座塔，两道}, {vocabulary: {id: shadow, text: 影子}}, {text: 。昨天还只有一道。}]}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 塔玛用两根绳标出影子边缘：一道清楚，一道泛绿而模糊。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: tama, text: 有人说来了第二颗太阳；山脊上的人说钟坏了。}]}
+  - {id: p05, illustration: p05, lines: [{speaker: li, text: 两边的话听着都有点道理，可这些线索还不足以判断哪种解释更可靠。}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 清晰影子缓慢移动，绿色影子却突然缩短。}]}
+  - {id: p07, illustration: p07, lines: [{speaker: li, text: 两处光源投下的影子未必同步变化。先把另一束光找出来。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 尘雾显出一条斜光，它来自山脊上的巨大弧面。}]}
+  - {id: p09, illustration: p09, lines: [{speaker: tama, text: 可影子让我们的晨钟失准，集市和渡车都在等它。}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 李没急着在谷底下结论，和塔玛一道上了山脊。}]}
+  - {id: p11, illustration: p11, lines: [{speaker: oren, text: 我叫奥伦。你们看到的不是新太阳，是旧镜子。}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 一列古老曲镜藏在岩石后，把谷外的晨光送向阴面坡。}]}
+  - {id: p13, illustration: p13, lines: [{speaker: li, text: 劳驾，把那面镜子转一点。能不能再出现一次，才算数。}]}
+  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: 镜面一转，谷底那道绿色影子也随之移动。}]}
+  - {id: p15, illustration: p15, lines: [{speaker: oren, text: 水道裂了，坡上的温室失去热量，我们才重新启用镜阵。}]}
+  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: 镜光本想帮助山脊，却越过接收面，落到谷底的塔上。}]}
+  - {id: p17, illustration: p17, lines: [{speaker: tama, text: 所以山脊得到光，山谷却失去可信的时间信号。}]}
+  - {id: p18, illustration: p18, lines: [{speaker: li, text: 这么看来，谁也不是存心添乱。是两边各有一个难处。}]}
+  - {id: p19, illustration: p19, lines: [{speaker: narrator, text: 两边居民围住模型，把各自不能失去的东西摆在桌上。}]}
+  - {id: p20, illustration: p20, lines: [{speaker: oren, text: 镜子改照专用石面，不再越过钟塔；水道修好后再减少镜光。}]}
+  - {id: p21, illustration: p21, lines: [{speaker: tama, text: 塔只剩一道影子，山脊的温室也没有失去光和热。}]}
+  - {id: p22, illustration: p22, lines: [{speaker: li, text: 镜子转一下，就能检验我们的解释。可一个决定好不好，还得问山上山下的人怎么过日子。}]}
+chapters:
+  - {id: ch01, title: 第二道影子, page_refs: [p01, p02, p03, p04, p05, p06, p07]}
+  - {id: ch02, title: 山脊上的光, page_refs: [p08, p09, p10, p11, p12, p13, p14, p15]}
+  - {id: ch03, title: 两个需要, page_refs: [p16, p17, p18, p19, p20, p21, p22]}
+questions:
+  - {id: q01, type: evidence, speaker: narrator, prompt: 哪些细节暗示第二道影子来自不同光源？, answer: 它颜色偏绿、边缘较模糊，而且变化速度与太阳影子不同。, page_refs: [p03, p06, p07]}
+  - {id: q02, type: compare, speaker: narrator, prompt: 谷底和山脊最初怎样解释异常？, answer: 谷底有人怀疑第二颗太阳，山脊则说钟出了问题；两边都没有完整说明证据。, page_refs: [p04, p05]}
+  - {id: q03, type: synthesis, speaker: narrator, prompt: 哪组证据把斜光、镜阵和绿色影子连在一起？, answer: 尘雾显出来自山脊的光束，镜子转动时绿色影子同步移动。, page_refs: [p08, p12, p13, p14]}
+  - {id: q04, type: character-motive, speaker: narrator, prompt: 奥伦为什么重新启用镜阵？, answer: 水道破裂后，阴面坡温室失去原有热量。, page_refs: [p15, p16]}
+  - {id: q05, type: evaluate, speaker: narrator, prompt: 为什么不能简单关闭全部镜子？, answer: 那会恢复钟塔信号，却忽视山脊温室的现实需要。, page_refs: [p15, p17, p18]}
+  - {id: q06, type: evidence, speaker: narrator, prompt: 新方案如何同时回应两边？, answer: 镜光改照专用接收面，不再干扰钟塔，并计划在水道修复后减少使用。, page_refs: [p20, p21]}
+  - {id: q07, type: main-idea, speaker: narrator, prompt: 李区分了哪两种判断？, answer: 对原因的解释要能被重复检验，对公共决定的评价还要考虑所有受影响者。, page_refs: [p13, p18, p22]}

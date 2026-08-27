@@ -1,0 +1,28 @@
+schema_version: 1
+language: zh-CN
+writer: 北辰
+title: 口袋里的东风
+summary: 林带着一口袋东风上路，却在途中发现别人更需要它。
+cast:
+  narrator: {display_name: 旁白, tts: {delivery: 温柔细致, timbre: 柔和的成年声音, pace: 中慢速, pitch: 中音}}
+  lin: {display_name: 林, tts: {delivery: 认真勇敢, timbre: 清亮的少年声音, pace: 中速, pitch: 中高音}}
+  mei: {display_name: 梅婆婆, tts: {delivery: 安静温暖, timbre: 温厚的年长声音, pace: 慢速, pitch: 中低音}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: mei, text: 把这个旧口袋送到山那边去。}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 口袋里，睡着一缕东风。}]}
+  - {id: p03, illustration: p03, lines: [{speaker: lin, text: 放心，我一定把你送到山那边。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 云船没有风，只能停在山边。}]}
+  - {id: p05, illustration: p05, lines: [{speaker: lin, text: 留着风，我就能交差。可放它出去，大家就能回家……}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 林打开口袋，东风奔向船帆。}]}
+  - {id: p07, illustration: p07, lines: [{speaker: lin, text: 去吧，先送大家回家。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, content: [{text: 口袋深处还藏着一缕}, {vocabulary: {id: breeze, text: 微风}}, {text: 。}]}]}
+  - {id: p09, illustration: p09, lines: [{speaker: mei, text: 风再小，也能把闷闷的屋子吹醒。}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 旅人带着一路见闻回来了。梅婆婆的新面包也出了炉。}]}
+chapters:
+  - {id: ch01, title: 一口袋风, page_refs: [p01, p02, p03]}
+  - {id: ch02, title: 停住的云船, page_refs: [p04, p05, p06, p07]}
+  - {id: ch03, title: 留下的一小缕, page_refs: [p08, p09, p10]}
+questions:
+  - {id: q01, type: sequence, speaker: narrator, prompt: 林在什么地方碰见了停住的云船？, answer: 在去山那边的路上。, page_refs: [p03, p04]}
+  - {id: q02, type: cause-effect, speaker: narrator, prompt: 东风离开口袋后发生了什么？, answer: 船帆鼓起来，云船重新出发。, page_refs: [p06, p07]}
+  - {id: q03, type: short-answer, speaker: narrator, prompt: 林为什么放走东风？, answer: 因为许多旅人需要它回家。, page_refs: [p05, p06]}

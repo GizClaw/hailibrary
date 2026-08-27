@@ -1,0 +1,55 @@
+schema_version: 1
+language: en-US
+writer: cosmic-engineer
+title: The Garden on the Long Orbit
+summary: A space garden slowly overheats during a long transfer, forcing four stewards to revise their model across crops, cargo, energy, and resilience.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: expansive and controlled, timbre: clear adult voice, pace: medium-slow, pitch: medium}}
+  yuan: {display_name: Yuan, tts: {delivery: patient and systems-minded, timbre: steady adult voice, pace: medium, pitch: medium}}
+  aro: {display_name: Aro, tts: {delivery: exact and cautious, timbre: firm adult voice, pace: medium-slow, pitch: low-medium}}
+  ivo: {display_name: Ivo, tts: {delivery: diplomatic and firm, timbre: warm older voice, pace: medium, pitch: low-medium}}
+  seed: {display_name: Seed, tts: {delivery: neutral and explicit about uncertainty, timbre: smooth synthetic voice, pace: even, pitch: medium}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "The convoy entered its long orbit around the blue planet, still many cycles of light and shadow from resupply."}]}
+  - {id: p02, illustration: p02, lines: [{speaker: yuan, text: "This garden is not decoration. It provides fresh food and preserves seedlings for the settlement ahead."}]}
+  - {id: p03, illustration: p03, lines: [{speaker: aro, content: [{text: "Lamps, machines, and people generate heat. Exterior "}, {vocabulary: {id: radiator, text: radiators}}, {text: " must release that heat to space."}]}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "Ivo's cargo module docked beside the garden, blocking part of the radiators' view of deep space."}]}
+  - {id: p05, illustration: p05, lines: [{speaker: seed, text: "Temperature remains within limits, but operational margin has narrowed repeatedly. Model confidence is moderate."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: yuan, text: "Several leaves are curling. Heat is one possibility, but moisture and lighting also changed. One leaf cannot decide the case."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: aro, text: "Several temperature sensors rose together, and the trend changed after docking. That is strong association, not yet a complete cause."}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "Aro separated heat sources, transfer paths, and radiator surfaces so that “hotter” would not masquerade as a full explanation."}]}
+  - {id: p09, illustration: p09, lines: [{speaker: ivo, text: "Undocking would clear the radiators, but it would delay access to medicine, repair parts, and water equipment."}]}
+  - {id: p10, illustration: p10, lines: [{speaker: yuan, text: "This is not a choice between plants and cargo. We are comparing several chains of consequence."}]}
+  - {id: p11, illustration: p11, lines: [{speaker: aro, text: "Hold this orientation, and crop light stays stable while thermal margin continues to fall."}]}
+  - {id: p12, illustration: p12, lines: [{speaker: yuan, text: "Turn sharply, and the radiators shed heat better, but crop cycles and solar-energy input change together."}]}
+  - {id: p13, illustration: p13, lines: [{speaker: seed, text: "Prediction intervals are widening. We lack long-duration data for this docked configuration."}]}
+  - {id: p14, illustration: p14, lines: [{speaker: yuan, text: "Begin with a reversible test: reduce nonessential lighting and alternate some crop lamps."}]}
+  - {id: p15, illustration: p15, lines: [{speaker: narrator, text: "Corridors dimmed without losing safety light, and crews staggered energy-intensive work."}]}
+  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "Garden zones alternated rather than darkening together, leaving unchanged zones for comparison."}]}
+  - {id: p17, illustration: p17, lines: [{speaker: aro, text: "After heat load fell, thermal margin stopped shrinking. That supports the model but does not remove the geometry problem."}]}
+  - {id: p18, illustration: p18, lines: [{speaker: yuan, text: "Crops remain stable in the short term. We gained one step of evidence, not a permanent guarantee."}]}
+  - {id: p19, illustration: p19, lines: [{speaker: ivo, text: "Docking still has value, yet centralizing critical supplies makes the convoy depend on one node."}]}
+  - {id: p20, illustration: p20, lines: [{speaker: narrator, text: "They divided the voyage into phases. Lighting, orientation, and cargo access no longer had to stay at maximum all at once."}]}
+  - {id: p21, illustration: p21, lines: [{speaker: aro, text: "Make small attitude changes each phase, improve the radiators' view, then let measurements govern the next move."}]}
+  - {id: p22, illustration: p22, lines: [{speaker: yuan, text: "Separate garden zones receive different light periods. Growth slows, but not every seedling faces the same risk."}]}
+  - {id: p23, illustration: p23, lines: [{speaker: aro, text: "A new shade reduces unwanted external heating. It neither replaces nor covers the radiator."}]}
+  - {id: p24, illustration: p24, lines: [{speaker: narrator, text: "The first harvest was smaller than planned but healthy, and replacement plants were split across batches."}]}
+  - {id: p25, illustration: p25, lines: [{speaker: ivo, text: "I distributed critical cargo among three habitats. Access is more complex, but one failure cannot cut off every supply."}]}
+  - {id: p26, illustration: p26, lines: [{speaker: seed, text: "Revised model: lower peak yield, greater thermal margin, greater supply redundancy. Long-range outcomes remain uncertain."}]}
+  - {id: p27, illustration: p27, lines: [{speaker: narrator, text: "At resupply, the convoy delivered more than vegetables and thermal records. It brought a method that could be challenged, tested, and revised."}]}
+  - {id: p28, illustration: p28, lines: [{speaker: yuan, text: "Long-range design does not promise perfection. It keeps evidence visible, preserves margin, and leaves people able to change course before an error becomes a disaster."}]}
+chapters:
+  - {id: ch01, title: Narrowing Margin, page_refs: [p01, p02, p03, p04, p05, p06, p07]}
+  - {id: ch02, title: Several Consequence Chains, page_refs: [p08, p09, p10, p11, p12, p13, p14]}
+  - {id: ch03, title: A Reversible Test, page_refs: [p15, p16, p17, p18, p19, p20, p21]}
+  - {id: ch04, title: Beyond Peak Output, page_refs: [p22, p23, p24, p25, p26, p27, p28]}
+questions:
+  - {id: q01, type: evidence, speaker: narrator, prompt: "Which evidence points toward a thermal-system problem rather than treating curled leaves as proof?", answer: "Several sensors shift together, the trend changes after docking, and margin stabilizes after reducing heat load.", page_refs: [p04, p05, p06, p07, p17]}
+  - {id: q02, type: compare, speaker: narrator, prompt: "What does the team trade by holding attitude versus turning sharply?", answer: "Holding attitude protects crop light but narrows thermal margin; turning improves radiator conditions but disrupts light cycles and energy input.", page_refs: [p11, p12]}
+  - {id: q03, type: evaluate, speaker: narrator, prompt: "Why does Yuan prefer a small reversible test first?", answer: "Long-term data are missing, so a reversible trial tests the model at lower risk while preserving options.", page_refs: [p13, p14, p15, p16, p18]}
+  - {id: q04, type: synthesis, speaker: narrator, prompt: "What does the trial support without proving?", answer: "It supports the link between heat load and margin, but does not prove the current geometry or lighting plan will remain acceptable indefinitely.", page_refs: [p17, p18]}
+  - {id: q05, type: compare, speaker: narrator, prompt: "How does phased operation change the effort to maximize every goal?", answer: "The original plan holds light, cargo access, and attitude together; phases let goals yield at different times to preserve margin.", page_refs: [p09, p10, p20, p21, p22]}
+  - {id: q06, type: evaluate, speaker: narrator, prompt: "Why does a smaller harvest not necessarily mean mission failure?", answer: "A healthy smaller harvest comes with more thermal margin, separated plant batches, and redundant supplies, improving long-term recovery.", page_refs: [p22, p24, p25, p26]}
+  - {id: q07, type: research-connection, speaker: narrator, prompt: "Which NASA-supported principles underlie the fictional model?", answer: "Spacecraft must manage internal heat using radiators, insulation, shading, sensors, and operational changes to remain within temperature limits.", page_refs: [p03, p08, p17, p21, p23]}
+  - {id: q08, type: synthesis, speaker: narrator, prompt: "How does the garden problem expose a second weakness in cargo planning?", answer: "Debating the dock reveals that critical supplies are concentrated at one node, so a single failure could interrupt all access.", page_refs: [p09, p19, p25]}
+  - {id: q09, type: open-response, speaker: narrator, prompt: "If later evidence widens uncertainty again, which principles should guide the team?", answer: "State model limits, protect margin, prefer reversible tests, compare consequences with affected people, and revise the plan from new evidence.", page_refs: [p05, p10, p13, p14, p18, p20, p26, p28]}

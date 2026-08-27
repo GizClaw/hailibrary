@@ -1,0 +1,25 @@
+schema_version: 1
+language: en-US
+writer: sage-paw
+title: The Bridge That Waited
+summary: One bridge plank tips up. Yu and Bo test it from opposite banks, choose the longer path, and ask for a proper repair.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: friendly and steady, timbre: warm adult voice, pace: medium-slow, pitch: medium}}
+  yu: {display_name: Yu, tts: {delivery: practical and cheerful, timbre: clear child voice, pace: medium, pitch: medium-high}}
+  bo: {display_name: Bo, tts: {delivery: patient with a smile, timbre: mellow older voice, pace: slow, pitch: low-medium}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Yu needs to reach the garden."}]}
+  - {id: p02, illustration: p02, lines: [{speaker: yu, text: "One bridge plank is up."}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "She waits on the safe bank."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: bo, text: "Stay off the bridge. We can test the plank from both banks."}]}
+  - {id: p05, illustration: p05, lines: [{speaker: yu, text: "I can slide this long branch."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Bo presses lightly. The loose plank tips again."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: yu, content: [{text: "It still moves. We will not cross the "}, {vocabulary: {id: bridge, text: bridge}}, {text: "."}]}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "They take the bank path."}, {speaker: narrator, text: "Then they ask for a proper repair."}]}
+chapters:
+  - {id: ch01, title: Before the Bridge, page_refs: [p01, p02, p03, p04]}
+  - {id: ch02, title: The Longer Path, page_refs: [p05, p06, p07, p08]}
+questions:
+  - {id: q01, type: picture, speaker: narrator, prompt: "What is wrong with the bridge?", answer: "One plank tips up.", page_refs: [p02]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: "What does Yu do first?", answer: "She waits on the bank.", page_refs: [p03]}
+  - {id: q03, type: explicit-choice, speaker: narrator, prompt: "What do they do when the plank still moves?", answer: "They take another path and ask for a proper repair.", page_refs: [p06, p07, p08]}
