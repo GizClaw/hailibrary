@@ -508,6 +508,10 @@ function checkWork(workArgument) {
         continue;
       }
       const chapterId = requiredString(check, chapter, "id", `${locale}.chapter`);
+      check.require(
+        hasOnlyKeys(chapter, new Set(["id", "title", "page_refs"])),
+        `${locale}/chapter/${chapterId ?? "<unknown>"}: chapter contains an unknown field (quote YAML titles containing colons)`,
+      );
       if (chapterId !== null) chapterIds.push(chapterId);
       requiredString(check, chapter, "title", `${locale}.chapter.${chapterId ?? "<unknown>"}`);
       const refs = stringList(check, chapter.page_refs, `${locale}.chapter.${chapterId ?? "<unknown>"}.page_refs`);
