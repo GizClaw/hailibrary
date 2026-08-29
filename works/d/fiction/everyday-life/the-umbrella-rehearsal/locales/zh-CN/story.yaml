@@ -1,30 +1,210 @@
-schema_version: 1
+schema_version: 2
 language: zh-CN
 writer: 月芽笺
 title: 雨伞彩排
 summary: 一把歪斜的雨伞让欧玛的椅子淋湿了。丽娜、本和欧玛把三把伞摆成同样角度测试，终于发现问题在松动的伞架。
-cast:
-  narrator: {display_name: 旁白, tts: {delivery: 从容温暖, timbre: 清楚的成年声音, pace: 中速, pitch: 中音}}
-  lina: {display_name: 丽娜, tts: {delivery: 有劲果断, timbre: 明亮的童声, pace: 中速, pitch: 中高音}}
-  ben: {display_name: 本, tts: {delivery: 耐心务实, timbre: 平静的童声, pace: 中慢速, pitch: 中音}}
-  oma: {display_name: 欧玛, tts: {delivery: 低沉风趣, timbre: 温暖的年长声音, pace: 慢速, pitch: 中低音}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 丽娜在三把伞下摆好椅子。}, {speaker: narrator, text: 社区演出快开始了。}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 一阵雨淋湿了欧玛的空椅子。}, {speaker: lina, text: 绿伞漏水了！}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 丽娜在绿伞上绑了一块布。}]}
-  - {id: p04, illustration: p04, lines: [{speaker: ben, text: 等等，三把伞的角度不一样。}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 他们把三把伞调到同样高度和角度。}, {speaker: narrator, text: 每把伞下放一张干椅子。}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 欧玛把一壶水倒在第一把伞上。}]}
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 她用同一壶水测试另外两把。}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 三张椅子都没有湿。}, {speaker: lina, text: 原来不是伞面漏水。}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 本把绿伞歪向一边。}, {speaker: narrator, text: 水从抬高的伞边流进去。}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 丽娜发现伞架有一只脚松了。}]}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: 丽娜和本拧紧伞架。}, {speaker: narrator, text: 欧玛扶正绿伞。}]}
-  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 直立的雨伞护住了整场演出。}]}
 chapters:
-  - {id: ch01, title: 淋湿的椅子, page_refs: [p01, p02, p03, p04, p05, p06]}
-  - {id: ch02, title: 公平的测试, page_refs: [p07, p08, p09, p10, p11, p12]}
+  - id: ch01
+    title: 淋湿的椅子
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
+  - id: ch02
+    title: 公平的测试
+    page_refs:
+      - p07
+      - p08
+      - p09
+      - p10
+      - p11
+      - p12
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: 最先淋湿了什么？, answer: 欧玛的空椅子。, page_refs: [p02]}
-  - {id: q02, type: sequence, speaker: narrator, prompt: 测试前，他们先改变了什么？, answer: 把三把伞摆成同样的高度和角度。, page_refs: [p04, p05]}
-  - {id: q03, type: cause-effect, speaker: narrator, prompt: 雨水为什么会流到椅子上？, answer: 松动的伞架让绿伞歪了。, page_refs: [p09, p10]}
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: 最先淋湿了什么？
+    answer: 欧玛的空椅子。
+    page_refs:
+      - p02
+  - id: q02
+    type: sequence
+    speaker: narrator
+    prompt: 测试前，他们先改变了什么？
+    answer: 把三把伞摆成同样的高度和角度。
+    page_refs:
+      - p04
+      - p05
+  - id: q03
+    type: cause-effect
+    speaker: narrator
+    prompt: 雨水为什么会流到椅子上？
+    answer: 松动的伞架让绿伞歪了。
+    page_refs:
+      - p09
+      - p10
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: 丽娜在三把伞下摆好椅子。演出快开始了。
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: 一阵雨淋湿了欧玛的空椅子。丽娜喊：“绿伞漏水了！”
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: 丽娜赶紧在绿伞上绑了一块布。
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: 本看过三把伞，说：“等等，它们歪得不一样。”
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: 他们把三把伞调成同样角度。下面各放一张干椅子。
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: 欧玛把一壶水倒在第一把伞上。
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - text: 她用同样的方法测试另外两把伞。
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - text: 三张椅子都没湿。丽娜说：“不是伞面漏水。”
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - text: 本把绿伞歪向一边。水从高高的伞边流进去。
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - text: 丽娜发现伞架有一只脚松了。
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - text: 丽娜和本拧紧伞架，欧玛扶着绿伞。
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - text: 三把伞直直立着，观众看完了整场演出。
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 从容温暖
+        timbre: 清楚的成年声音
+        pace: 中速
+        pitch: 中音
+    lina:
+      display_name: 丽娜
+      tts:
+        delivery: 有劲果断
+        timbre: 明亮的童声
+        pace: 中速
+        pitch: 中高音
+    ben:
+      display_name: 本
+      tts:
+        delivery: 耐心务实
+        timbre: 平静的童声
+        pace: 中慢速
+        pitch: 中音
+    oma:
+      display_name: 欧玛
+      tts:
+        delivery: 低沉风趣
+        timbre: 温暖的年长声音
+        pace: 慢速
+        pitch: 中低音
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: 丽娜在三把伞下摆好椅子，社区演出快开始了。
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          text: 一阵雨淋湿了欧玛的空椅子。
+        - id: p02-b02
+          speaker: lina
+          text: 绿伞漏水了！
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          text: 丽娜赶紧在绿伞上绑了一块布。
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: 本看过三把伞。
+        - id: p04-b02
+          speaker: ben
+          text: 等等，它们歪得不一样。
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: 他们把三把伞调成同样角度，下面各放一张干椅子。
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: 欧玛把一壶水倒在第一把伞上。
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          text: 她用同样的方法测试另外两把伞。
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          text: 三张椅子都没湿。
+        - id: p08-b02
+          speaker: lina
+          text: 不是伞面漏水。
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          text: 本把绿伞歪向一边，水就从高高的伞边流进去。
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          text: 丽娜发现伞架有一只脚松了。
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          text: 丽娜和本拧紧伞架，欧玛扶着绿伞。
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          text: 三把伞直直立着，观众看完了整场演出。

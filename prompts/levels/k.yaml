@@ -1,0 +1,63 @@
+schema_version: 1
+id: k
+external_reference:
+  reading_a_z_label: K
+  age_band: 7-8
+  en_grade_reference: 2
+  en_lexile_reference: 420L-650L
+reading_goal: connect motive, evidence, and consequence across a compact multi-scene work
+prompt: Write at HaiLibrary Level K to connect motive, evidence, and consequence across a compact multi-scene work. Use compact multi-scene prose with natural rhythm and differentiated voices. Motive and consequence should be inferred from actions and speech, not announced as thesis statements.
+text_contract:
+  structure: evidence changes a plan
+  syntax: controlled simple compound and complex variety
+  vocabulary: general plus supported academic or domain terms
+  knowledge: one concept explained and applied
+  illustration_reliance: supporting
+  inference: combine two or three clues
+complexity_floor:
+  - a plan changes because of evidence
+  - the resolution depends on an earlier scene
+pages:
+  min: 14
+  max: 20
+questions:
+  min: 5
+  max: 7
+  types:
+    - sequence
+    - cause-effect
+    - short-answer
+    - character-motive
+    - main-idea
+    - evidence
+  required:
+    - character-motive
+    - evidence
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 8
+      - 13
+    sentences_per_page_max: 6
+    units_per_sentence_max: 18
+    units_per_page_typical:
+      - 16
+      - 32
+    units_per_page_max: 46
+    units_total_min: 230
+    units_total_max: 500
+    new_words_per_page_max: 3
+  zh:
+    mean_sentence_units_typical:
+      - 13
+      - 23
+    sentences_per_page_max: 6
+    units_per_sentence_max: 30
+    units_per_page_typical:
+      - 25
+      - 48
+    units_per_page_max: 69
+    units_total_min: 380
+    units_total_max: 800
+    new_words_per_page_max: 3
+guidance: K is early transitional, not advanced; keep the complete work compact

@@ -1,46 +1,234 @@
-schema_version: 1
+schema_version: 2
 language: zh-CN
 writer: 月芽笺
 title: 钟表匠的银雨
 summary: 欧伦拆掉一个吵闹的齿轮后，钟表铺里落下银色雨滴。妮娅找到空位，清洁并装回齿轮，让钟表和银云恢复正常。
-cast:
-  narrator: {display_name: 旁白, tts: {delivery: 精确清楚, timbre: 平静的成年声音, pace: 中速, pitch: 中音}}
-  nia: {display_name: 妮娅, tts: {delivery: 警觉爱思考, timbre: 明亮的年轻声音, pace: 中速, pitch: 中高音}}
-  oren: {display_name: 欧伦, tts: {delivery: 从容耐心, timbre: 温厚的年长声音, pace: 慢速, pitch: 中低音}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 妮娅打开钟表铺的门。}, {speaker: narrator, text: 细小的银滴落在屋里。}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 每滴银雨碰到地板就消失。}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 欧伦查看一座停住的钟。}, {speaker: narrator, text: 妮娅用碗接住一滴。}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 小铃响了。}, {speaker: narrator, text: 银滴从碗里跳起来。}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 妮娅比较银滴和摆动的钟摆。}]}
-  - id: p06
-    illustration: p06
-    lines:
-      - speaker: narrator
-        content: [{text: 她在一排}, {vocabulary: {id: gear, text: 齿轮}}, {text: 中发现一个空位。}]
-  - id: p07
-    illustration: p07
-    lines:
-      - speaker: oren
-        content: [{text: 昨晚我拆下一个吵闹的}, {vocabulary: {id: gear, text: 齿轮}}, {text: 。}]
-  - id: p08
-    illustration: p08
-    lines:
-      - speaker: narrator
-        content: [{text: 妮娅擦净沾灰的}, {vocabulary: {id: gear, text: 齿轮}}, {text: 。}]
-      - {speaker: narrator, text: 欧伦举着灯。}
-  - id: p09
-    illustration: p09
-    lines:
-      - speaker: narrator
-        content: [{text: 他们把干净的}, {vocabulary: {id: gear, text: 齿轮}}, {text: 装回轮轴。}]
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 所有钟表一起转动。}, {speaker: narrator, text: 银滴向上飞。}]}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: 银滴在屋顶聚成一朵亮云。}]}
-  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 亮云变成一件闪闪发光的挂饰。}]}
 chapters:
-  - {id: ch01, title: 屋里的银雨, page_refs: [p01, p02, p03, p04, p05, p06]}
-  - {id: ch02, title: 少了一个齿轮, page_refs: [p07, p08, p09, p10, p11, p12]}
+  - id: ch01
+    title: 屋里的银雨
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
+  - id: ch02
+    title: 少了一个齿轮
+    page_refs:
+      - p07
+      - p08
+      - p09
+      - p10
+      - p11
+      - p12
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: 钟表铺里落下什么？, answer: 细小的银滴。, page_refs: [p01]}
-  - {id: q02, type: sequence, speaker: narrator, prompt: 装回齿轮前，妮娅先做了什么？, answer: 把齿轮擦干净。, page_refs: [p08, p09]}
-  - {id: q03, type: cause-effect, speaker: narrator, prompt: 银滴为什么又向上飞？, answer: 干净的齿轮让所有钟表一起转动。, page_refs: [p09, p10]}
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: 钟表铺里落下什么？
+    answer: 细小的银滴。
+    page_refs:
+      - p01
+  - id: q02
+    type: sequence
+    speaker: narrator
+    prompt: 装回齿轮前，妮娅先做了什么？
+    answer: 把齿轮擦干净。
+    page_refs:
+      - p08
+      - p09
+  - id: q03
+    type: cause-effect
+    speaker: narrator
+    prompt: 银滴为什么又向上飞？
+    answer: 干净的齿轮让所有钟表一起转动。
+    page_refs:
+      - p09
+      - p10
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: 妮娅打开钟表铺的门。细小的银滴落在屋里。
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: 每滴银雨一碰到地板就消失。
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: 欧伦查看停住的钟，妮娅用碗接住一滴。
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: 小铃一响，银滴就从碗里跳起来。
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: 妮娅来回观察银滴和摆动的钟摆。
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: 她在一排黄铜
+            - vocabulary:
+                id: gear
+                text: 齿轮
+            - text: 中发现一个空位。
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: 欧伦说：“我昨晚拆下了这个
+            - vocabulary:
+                id: gear
+                text: 齿轮
+            - text: 。”
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - text: 妮娅擦净沾灰的
+            - vocabulary:
+                id: gear
+                text: 齿轮
+            - text: 。欧伦在旁边举着灯。
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - content:
+            - text: 他们把干净的
+            - vocabulary:
+                id: gear
+                text: 齿轮
+            - text: 装回空轮轴。
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - text: 所有钟表又一起转动。银滴开始向上飞。
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - text: 升起的银滴在屋顶聚成一朵亮云。
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - text: 亮云变成挂饰，所有钟表都在下面走动。
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 精确清楚
+        timbre: 平静的成年声音
+        pace: 中速
+        pitch: 中音
+    nia:
+      display_name: 妮娅
+      tts:
+        delivery: 警觉爱思考
+        timbre: 明亮的年轻声音
+        pace: 中速
+        pitch: 中高音
+    oren:
+      display_name: 欧伦
+      tts:
+        delivery: 从容耐心
+        timbre: 温厚的年长声音
+        pace: 慢速
+        pitch: 中低音
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: 妮娅打开钟表铺的门，细小的银滴落在屋里。
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          text: 每滴银雨一碰到地板就消失。
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          text: 欧伦查看停住的钟，妮娅用碗接住一滴。
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: 小铃一响，银滴就从碗里跳起来。
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: 妮娅来回观察银滴和摆动的钟摆。
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          content:
+            - text: 她在一排黄铜
+            - vocabulary:
+                id: gear
+                text: 齿轮
+            - text: 中发现一个空位。
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: oren
+          content:
+            - text: 我昨晚拆下了这个
+            - vocabulary:
+                id: gear
+                text: 齿轮
+            - text: 。
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          content:
+            - text: 妮娅擦净沾灰的
+            - vocabulary:
+                id: gear
+                text: 齿轮
+            - text: ，欧伦在旁边举着灯。
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          content:
+            - text: 他们把干净的
+            - vocabulary:
+                id: gear
+                text: 齿轮
+            - text: 装回空轮轴。
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          text: 因为所有钟表又一起转动，银滴开始向上飞。
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          text: 升起的银滴在屋顶聚成一朵亮云。
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          text: 亮云变成挂饰，所有钟表都在下面走动。

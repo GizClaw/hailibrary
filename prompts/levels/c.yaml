@@ -1,0 +1,59 @@
+schema_version: 1
+id: c
+external_reference:
+  reading_a_z_label: C
+  age_band: 5-6
+  en_grade_reference: K
+  en_lexile_reference: BR40L-160L
+reading_goal: follow a simple problem and solution and order two or three events
+prompt: Write at HaiLibrary Level C to follow a simple problem and solution and order two or three events. Use natural simple sentences to show a problem, ordered actions, and a solution. Dialogue must sound like something the character would actually say.
+text_contract:
+  structure: problem action solution
+  syntax: simple sentences with basic additive or temporal links
+  vocabulary: high-frequency plus pictured concrete words
+  knowledge: familiar settings
+  illustration_reliance: high
+  inference: one direct local inference
+complexity_floor:
+  - the problem changes the action
+  - the resolution follows from that action
+pages:
+  min: 8
+  max: 12
+questions:
+  min: 2
+  max: 4
+  types:
+    - picture
+    - explicit-choice
+    - sequence
+    - cause-effect
+  required:
+    - sequence
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 4
+      - 7
+    sentences_per_page_max: 2
+    units_per_sentence_max: 8
+    units_per_page_typical:
+      - 5
+      - 11
+    units_per_page_max: 15
+    units_total_min: 35
+    units_total_max: 100
+    new_words_per_page_max: 2
+  zh:
+    mean_sentence_units_typical:
+      - 6
+      - 11
+    sentences_per_page_max: 2
+    units_per_sentence_max: 13
+    units_per_page_typical:
+      - 8
+      - 16
+    units_per_page_max: 21
+    units_total_min: 55
+    units_total_max: 150
+    new_words_per_page_max: 2

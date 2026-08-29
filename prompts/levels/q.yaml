@@ -1,0 +1,62 @@
+schema_version: 1
+id: q
+external_reference:
+  reading_a_z_label: Q
+  age_band: 9-10
+  en_grade_reference: 4
+  en_lexile_reference: 740L-940L
+reading_goal: synthesize motives, evidence, and consequences across chapters
+prompt: Write at HaiLibrary Level Q to synthesize motives, evidence, and consequences across chapters. Synthesize distributed motives and consequences in sustained, idiomatic prose. Allow subtext, disagreement, and incomplete speech while keeping the evidence traceable.
+text_contract:
+  structure: decision and long-range consequence
+  syntax: sustained complex syntax with clear logic
+  vocabulary: low-frequency general and domain terms
+  knowledge: interacting factors
+  illustration_reliance: complementary
+  inference: implicit motive and long-range result
+complexity_floor:
+  - three scenes support one conclusion
+  - internal change affects the resolution
+pages:
+  min: 18
+  max: 26
+questions:
+  min: 7
+  max: 10
+  types:
+    - short-answer
+    - character-motive
+    - main-idea
+    - evidence
+    - compare
+    - evaluate
+    - synthesis
+  required:
+    - evaluate
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 11
+      - 16
+    sentences_per_page_max: 9
+    units_per_sentence_max: 24
+    units_per_page_typical:
+      - 38
+      - 68
+    units_per_page_max: 97
+    units_total_min: 950
+    units_total_max: 1500
+    new_words_per_page_max: 5
+  zh:
+    mean_sentence_units_typical:
+      - 18
+      - 30
+    sentences_per_page_max: 9
+    units_per_sentence_max: 40
+    units_per_page_typical:
+      - 57
+      - 98
+    units_per_page_max: 139
+    units_total_min: 1200
+    units_total_max: 2100
+    new_words_per_page_max: 5

@@ -87,7 +87,7 @@ function countUnits(text, unitLanguage) {
 }
 
 function splitSentences(text, unitLanguage) {
-  const terminator = unitLanguage === "zh" ? /[。！？]+/u : /[.!?]+(?:["”’']+)?(?=\s|$)/u;
+  const terminator = unitLanguage === "zh" ? /[。！？]+(?:["”’']+)?/u : /[.!?]+(?:["”’']+)?(?=\s|$)/u;
   return text.split(terminator).map((sentence) => sentence.trim()).filter(Boolean);
 }
 
@@ -210,7 +210,10 @@ function checkWork(workArgument) {
   const book = check.yamlMapping(join(work, "book.yaml"));
   const artwork = check.yamlMapping(join(work, "artwork.yaml"));
   check.yamlMapping(join(work, "research.yaml"));
-  const levels = check.yamlMapping(join(root, "prompts", "levels", "levels.yaml"));
+  const levelIndex = check.yamlMapping(join(root, "prompts", "levels", "index.yaml"));
+  const levelRulesById = Object.fromEntries(
+    READING_A_Z_LEVELS.map((levelId) => [levelId, check.yamlMapping(join(root, "prompts", "levels", `${levelId}.yaml`))]),
+  );
   const localeReferences = check.yamlMapping(join(root, "prompts", "levels", "locale-references.yaml"));
   const vocabularyIndex = check.yamlMapping(join(root, "prompts", "vocabulary", "index.yaml"));
   const vocabularyRanges = check.yamlMapping(join(root, "prompts", "vocabulary", "ranges.yaml"));
@@ -218,14 +221,15 @@ function checkWork(workArgument) {
   const taxonomyIndex = check.yamlMapping(join(root, "prompts", "taxonomy", "index.yaml"));
   const writerIndex = check.yamlMapping(join(root, "prompts", "writers", "index.yaml"));
 
-  check.require(levels.schema_version === 2, "level rules schema_version must be 2");
-  check.require(JSON.stringify(levels.level_order) === JSON.stringify(READING_A_Z_LEVELS), "level_order must preserve the 29 ordered labels aa, a-z, z1, z2");
-  check.require(isMapping(levels.levels) && sameSet(new Set(Object.keys(levels.levels)), new Set(READING_A_Z_LEVELS)), "level rules must define every exact HaiLibrary level once");
+  check.require(levelIndex.schema_version === 2, "level index schema_version must be 2");
+  check.require(JSON.stringify(levelIndex.level_order) === JSON.stringify(READING_A_Z_LEVELS), "level_order must preserve the 29 ordered labels aa, a-z, z1, z2");
+  check.require(isMapping(levelIndex.level_files) && JSON.stringify(Object.keys(levelIndex.level_files)) === JSON.stringify(READING_A_Z_LEVELS), "level_files must preserve every exact HaiLibrary level");
   check.require(localeReferences.schema_version === 1, "locale reference schema_version must be 1");
   check.require(JSON.stringify(localeReferences.level_order) === JSON.stringify(READING_A_Z_LEVELS), "locale reference level_order must match aa, a-z, z1, z2");
   check.require(isMapping(localeReferences.levels) && JSON.stringify(Object.keys(localeReferences.levels)) === JSON.stringify(READING_A_Z_LEVELS), "locale references must preserve every ordered HaiLibrary level");
   for (const referenceLevel of READING_A_Z_LEVELS) {
     const localeReference = localeReferences.levels?.[referenceLevel];
+    const exactLevel = levelRulesById[referenceLevel];
     const englishReference = localeReference?.["en-US"];
     const chineseReference = localeReference?.["zh-CN"];
     const expectedReadingAZ = referenceLevel === "aa" ? "aa" : referenceLevel.toUpperCase();
@@ -233,7 +237,11 @@ function checkWork(workArgument) {
     check.require(isMapping(englishReference) && englishReference.reading_a_z_label === expectedReadingAZ && (typeof englishReference.grade_band === "string" || typeof englishReference.grade_band === "number") && typeof englishReference.lexile_reference === "string", `${referenceLevel}: en-US locale reference must declare the retained label, grade band, and English Lexile reference`);
     check.require(isMapping(chineseReference) && typeof chineseReference.checkpoint === "string" && typeof chineseReference.grade_band === "string" && typeof chineseReference.reading_task === "string", `${referenceLevel}: zh-CN locale reference must declare checkpoint, grade band, and reading task`);
     check.require(isMapping(localeReferences["zh-CN"]?.curriculum_checkpoints?.[chineseReference?.checkpoint]), `${referenceLevel}: zh-CN locale reference uses an unknown curriculum checkpoint`);
-    const levelExternalReference = levels.levels?.[referenceLevel]?.external_reference;
+    check.require(levelIndex.level_files?.[referenceLevel] === `${referenceLevel}.yaml`, `${referenceLevel}: level_files must reference ${referenceLevel}.yaml`);
+    check.require(exactLevel?.schema_version === 1, `${referenceLevel}: level file schema_version must be 1`);
+    check.require(exactLevel?.id === referenceLevel, `${referenceLevel}: level file id must match its filename`);
+    check.require(typeof exactLevel?.prompt === "string" && exactLevel.prompt.trim().length > 0, `${referenceLevel}: level must declare a non-empty prompt`);
+    const levelExternalReference = exactLevel?.external_reference;
     check.require(isMapping(levelExternalReference) && levelExternalReference.reading_a_z_label === englishReference?.reading_a_z_label && String(levelExternalReference.age_band) === localeReference?.age_band && String(levelExternalReference.en_grade_reference) === String(englishReference?.grade_band) && levelExternalReference.en_lexile_reference === englishReference?.lexile_reference, `${referenceLevel}: level and locale age and English references must agree`);
   }
   check.require(book.schema_version === 1, "book.schema_version must be 1");
@@ -253,7 +261,7 @@ function checkWork(workArgument) {
   check.require(labelIndex.schema_version === 1, "label index schema_version must be 1");
   check.require(book.id === slug, `book id must match directory slug: ${slug}`);
   const workType = typePath(check, book.type, "book.type");
-  const levelRules = isMapping(levels.levels) ? levels.levels[level] : undefined;
+  const levelRules = levelRulesById[level];
   check.require(isMapping(levelRules), `unknown reading level: ${level}`);
 
   const styleId = book.style;
@@ -262,6 +270,7 @@ function checkWork(workArgument) {
     const style = check.yamlMapping(join(styleDir, "prompt.yaml"));
     check.require(style.schema_version === 1, `Style schema_version must be 1: ${styleId}`);
     check.require(style.id === styleId, `Style id does not match: ${styleId}`);
+    check.require(typeof style.prompt === "string" && style.prompt.trim().length > 0, `Style prompt must be non-empty: ${styleId}`);
     const thumbnail = style.thumbnail ?? "thumbnail.webp";
     if (check.require(typeof thumbnail === "string", `Style thumbnail must be a path: ${styleId}`)) check.resource(join(styleDir, thumbnail), `Style thumbnail for ${styleId}`);
   }
@@ -338,26 +347,34 @@ function checkWork(workArgument) {
       check.require(writer.id === writerId, `${locale}: Writer id does not match: ${writerId}`);
       check.require(writer.locale === locale, `${locale}: Writer locale does not match`);
       check.require(Array.isArray(writer.recommended_levels) && writer.recommended_levels.includes(level), `${locale}: Writer ${writerId} does not recommend exact level ${level}`);
+      check.require(typeof writer.prompt === "string" && writer.prompt.trim().length > 0, `${locale}: Writer ${writerId} prompt must be non-empty`);
+      check.require(typeof writer.language_prompt === "string" && writer.language_prompt.trim().length > 0, `${locale}: Writer ${writerId} language_prompt must be non-empty`);
       const avatar = writer.avatar ?? "avatar.webp";
       if (check.require(typeof avatar === "string", `${locale}: Writer avatar must be a path`)) check.resource(join(writerDir, avatar), `Writer avatar for ${writerId}`);
     }
-    check.require(story.schema_version === 1, `${locale}: story.schema_version must be 1`);
     requiredString(check, story, "title", locale);
     requiredString(check, story, "summary", locale);
 
-    const cast = isMapping(story.cast) ? story.cast : {};
-    check.require(Object.keys(cast).length > 0, `${locale}: cast must not be empty`);
-    check.require(sameSet(new Set(Object.keys(cast)), new Set(characterIds)), `${locale}: cast must exactly match book.characters`);
+    const hasArticle = isMapping(story.article);
+    const hasAudioScript = isMapping(story.audio_script);
+    check.require(hasArticle === hasAudioScript, `${locale}: article and audio_script must be declared together`);
+    const dualLayer = hasArticle && hasAudioScript;
+    const expectedStorySchema = dualLayer ? 2 : 1;
+    check.require(story.schema_version === expectedStorySchema, `${locale}: story.schema_version must be ${expectedStorySchema}`);
+    const cast = isMapping(dualLayer ? story.audio_script.cast : story.cast) ? (dualLayer ? story.audio_script.cast : story.cast) : {};
+    const castPath = dualLayer ? "audio_script.cast" : "cast";
+    check.require(Object.keys(cast).length > 0, `${locale}: ${castPath} must not be empty`);
+    check.require(sameSet(new Set(Object.keys(cast)), new Set(characterIds)), `${locale}: ${castPath} must exactly match book.characters`);
     for (const [castId, castEntry] of Object.entries(cast)) {
       check.require(characterIds.includes(castId), `${locale}: cast id is not in book.characters: ${castId}`);
       if (!check.require(isMapping(castEntry), `${locale}: cast ${castId} must be a mapping`)) continue;
-      requiredString(check, castEntry, "display_name", `${locale}.cast.${castId}`);
+      requiredString(check, castEntry, "display_name", `${locale}.${castPath}.${castId}`);
       const tts = castEntry.tts;
-      if (!check.require(isMapping(tts), `${locale}: cast ${castId} needs TTS direction`)) continue;
-      for (const field of ["delivery", "timbre", "pace", "pitch"]) requiredString(check, tts, field, `${locale}.cast.${castId}.tts`);
+      if (!check.require(isMapping(tts), `${locale}: ${castPath} ${castId} needs TTS direction`)) continue;
+      for (const field of ["delivery", "timbre", "pace", "pitch"]) requiredString(check, tts, field, `${locale}.${castPath}.${castId}.tts`);
     }
 
-    const pages = Array.isArray(story.pages) ? story.pages : [];
+    const pages = Array.isArray(dualLayer ? story.article.pages : story.pages) ? (dualLayer ? story.article.pages : story.pages) : [];
     const unitLanguage = locale.toLowerCase().startsWith("zh") ? "zh" : locale.toLowerCase().startsWith("en") ? "en" : null;
     const languageRules = unitLanguage === null || !isMapping(levelRules?.languages) ? null : levelRules.languages[unitLanguage];
     let totalUnits = 0;
@@ -375,24 +392,29 @@ function checkWork(workArgument) {
         check.require(assetById.has(page.illustration), `${locale}/${pageId}: missing artwork id ${page.illustration}`);
         usedIllustrations.add(page.illustration);
       }
-      const lines = Array.isArray(page.lines) ? page.lines : [];
+      const hasParagraphs = dualLayer && Array.isArray(page.paragraphs);
+      const hasLines = !dualLayer && Array.isArray(page.lines);
+      const hasBlocks = !dualLayer && Array.isArray(page.blocks);
+      check.require(hasParagraphs || hasLines !== hasBlocks, `${locale}/${pageId}: page needs ${dualLayer ? "paragraphs" : "exactly one of lines or blocks"}`);
+      const blocks = hasParagraphs ? page.paragraphs : hasBlocks ? page.blocks : hasLines ? page.lines : [];
+      const blockLabel = hasParagraphs ? "paragraph" : hasBlocks ? "block" : "line";
       let pageUnits = 0;
       let pageSentences = 0;
       const pageVocabularyIds = new Set();
-      check.require(lines.length > 0, `${locale}/${pageId}: lines must not be empty`);
-      for (const line of lines) {
+      check.require(blocks.length > 0, `${locale}/${pageId}: ${hasParagraphs ? "paragraphs" : hasBlocks ? "blocks" : "lines"} must not be empty`);
+      for (const line of blocks) {
         if (!isMapping(line)) {
-          check.errors.push(`${locale}/${pageId}: line must be a mapping`);
+          check.errors.push(`${locale}/${pageId}: ${blockLabel} must be a mapping`);
           continue;
         }
         check.require(
-          hasOnlyKeys(line, new Set(["speaker", "text", "content"])),
-          `${locale}/${pageId}: line contains an unknown field (quote YAML text containing commas)`,
+          hasOnlyKeys(line, new Set(hasParagraphs ? ["text", "content"] : ["speaker", "text", "content"])),
+          `${locale}/${pageId}: ${blockLabel} contains an unknown field (quote YAML text containing commas)`,
         );
-        check.require(Object.hasOwn(cast, line.speaker), `${locale}/${pageId}: unknown speaker ${JSON.stringify(line.speaker)}`);
+        if (!hasParagraphs) check.require(Object.hasOwn(cast, line.speaker), `${locale}/${pageId}: unknown speaker ${JSON.stringify(line.speaker)}`);
         const hasText = typeof line.text === "string" && line.text.length > 0;
         const hasContent = Array.isArray(line.content) && line.content.length > 0;
-        check.require(hasText !== hasContent, `${locale}/${pageId}: line needs exactly one of text or content`);
+        check.require(hasText !== hasContent, `${locale}/${pageId}: ${blockLabel} needs exactly one of text or content`);
         if (hasContent) {
           checkContentSegments(check, root, level, locale, line.content, `${locale}/${pageId}.content`, vocabularyCache);
           for (const segment of line.content) {
@@ -421,13 +443,53 @@ function checkWork(workArgument) {
       if (isMapping(languageRules) && Number.isInteger(languageRules.new_words_per_page_max)) {
         check.require(pageVocabularyIds.size <= languageRules.new_words_per_page_max, `${locale}/${pageId}: target vocabulary count ${pageVocabularyIds.size} exceeds level ${level} maximum ${languageRules.new_words_per_page_max}`);
       }
-      check.require(!Object.hasOwn(page, "vocabulary"), `${locale}/${pageId}: vocabulary must be marked inline in line.content`);
+      check.require(!Object.hasOwn(page, "vocabulary"), `${locale}/${pageId}: vocabulary must be marked inline in content`);
     }
     if (isMapping(languageRules)) {
       if (Number.isInteger(languageRules.units_total_min)) check.require(totalUnits >= languageRules.units_total_min, `${locale}: total unit count ${totalUnits} is below level ${level} minimum ${languageRules.units_total_min}`);
       if (Number.isInteger(languageRules.units_total_max)) check.require(totalUnits <= languageRules.units_total_max, `${locale}: total unit count ${totalUnits} exceeds level ${level} maximum ${languageRules.units_total_max}`);
     }
     check.require(new Set(pageIds).size === pageIds.length, `${locale}: page ids must be unique`);
+
+    if (dualLayer) {
+      const scriptPages = Array.isArray(story.audio_script.pages) ? story.audio_script.pages : [];
+      check.require(scriptPages.length > 0, `${locale}: audio_script.pages must not be empty`);
+      const scriptPageIds = [];
+      const scriptBlockIds = new Set();
+      for (const scriptPage of scriptPages) {
+        if (!isMapping(scriptPage) || typeof scriptPage.id !== "string") {
+          check.errors.push(`${locale}: every audio_script page must have a string id`);
+          continue;
+        }
+        scriptPageIds.push(scriptPage.id);
+        check.require(typeof scriptPage.illustration === "string", `${locale}/audio_script/${scriptPage.id}: illustration must be an id`);
+        const scriptBlocks = Array.isArray(scriptPage.blocks) ? scriptPage.blocks : [];
+        check.require(scriptBlocks.length > 0, `${locale}/audio_script/${scriptPage.id}: blocks must not be empty`);
+        check.require(!Object.hasOwn(scriptPage, "lines"), `${locale}/audio_script/${scriptPage.id}: use blocks, not legacy lines`);
+        for (const [blockIndex, block] of scriptBlocks.entries()) {
+          if (!isMapping(block)) {
+            check.errors.push(`${locale}/audio_script/${scriptPage.id}: block must be a mapping`);
+            continue;
+          }
+          check.require(hasOnlyKeys(block, new Set(["id", "speaker", "text", "content"])), `${locale}/audio_script/${scriptPage.id}: block contains an unknown field`);
+          const expectedBlockId = `${scriptPage.id}-b${String(blockIndex + 1).padStart(2, "0")}`;
+          check.require(block.id === expectedBlockId, `${locale}/audio_script/${scriptPage.id}: block ${blockIndex + 1} id must be ${expectedBlockId}`);
+          if (typeof block.id === "string") {
+            check.require(!scriptBlockIds.has(block.id), `${locale}: duplicate audio_script block id ${block.id}`);
+            scriptBlockIds.add(block.id);
+          }
+          check.require(Object.hasOwn(cast, block.speaker), `${locale}/audio_script/${scriptPage.id}: unknown speaker ${JSON.stringify(block.speaker)}`);
+          const hasText = typeof block.text === "string" && block.text.length > 0;
+          const hasContent = Array.isArray(block.content) && block.content.length > 0;
+          check.require(hasText !== hasContent, `${locale}/audio_script/${scriptPage.id}: block needs exactly one of text or content`);
+          if (hasContent) checkContentSegments(check, root, level, locale, block.content, `${locale}/audio_script/${scriptPage.id}.content`, vocabularyCache);
+        }
+      }
+      check.require(JSON.stringify(scriptPageIds) === JSON.stringify(pageIds), `${locale}: audio_script page ids and order must match article pages`);
+      for (let index = 0; index < Math.min(scriptPages.length, pages.length); index += 1) {
+        check.require(scriptPages[index].illustration === pages[index].illustration, `${locale}/${pageIds[index]}: article and audio_script illustration must match`);
+      }
+    }
     if (canonicalPageIds === null) canonicalPageIds = pageIds;
     else check.require(JSON.stringify(pageIds) === JSON.stringify(canonicalPageIds), `${locale}: page order differs from other locales`);
 

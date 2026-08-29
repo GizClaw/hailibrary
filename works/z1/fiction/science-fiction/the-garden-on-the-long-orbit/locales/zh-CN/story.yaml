@@ -1,515 +1,754 @@
----
-schema_version: 1
+schema_version: 2
 language: zh-CN
 writer: 穹宇工程师
 title: 远航中的太空花园
 summary: 一艘靠泊货运器让太空花园的热余量不断缩小。袁、阿洛、伊沃和系统“种子”把它当成一项工程案例：他们分开测量与预测，用可回退的小规模试验检验模型，并同时衡量食物、货运、船员工时和安全。一次成功试验不能证明整个模型，但能帮助船队保留更多选择。
-cast:
-  narrator:
-    display_name: 旁白
-    tts:
-      delivery: 开阔而克制
-      timbre: 清晰的成年声音
-      pace: 中慢速
-      pitch: 中音
-  yuan:
-    display_name: 袁
-    tts:
-      delivery: 耐心而有系统观
-      timbre: 稳定的成年声音
-      pace: 中速
-      pitch: 中音
-  aro:
-    display_name: 阿洛
-    tts:
-      delivery: 精确谨慎
-      timbre: 坚实的成年声音
-      pace: 中慢速
-      pitch: 中低音
-  ivo:
-    display_name: 伊沃
-    tts:
-      delivery: 外交而坚定
-      timbre: 温厚的年长声音
-      pace: 中速
-      pitch: 中低音
-  seed:
-    display_name: 种子
-    tts:
-      delivery: 中性并明确表达不确定性
-      timbre: 平滑的合成声音
-      pace: 匀速
-      pitch: 中音
-pages:
-- id: p01
-  illustration: p01
-  lines:
-  - speaker: narrator
-    text: 船队进入蓝行星外侧的漫长转移轨道，距离下次补给还有三十七轮明暗。三座居住舱、一艘货运器和花园暂时连成一套耦合系统。
-  - speaker: seed
-    text: 任务状态：正常。正常只表示受监测数值仍在运行限制内，不表示每项余量、趋势或尚未观测的情况都无害。
-  - speaker: yuan
-    text: 花园经历过发射、组装和两次靠泊改变。它在过去构型中稳定，是有关过去的证据，不是给新构型的保证书。
-- id: p02
-  illustration: p02
-  lines:
-  - speaker: yuan
-    text: 花园提供鲜食，保存多样种苗，回收部分水分，也维持船员日常节奏。峰值产量只是最容易计数的一个功能。
-  - speaker: narrator
-    text: 十二个作物区包含不同品种和生长阶段；种子按生物种类分开，却存放在同一个环境柜里，第一批替补幼苗还共用同一灯光计划。
-  - speaker: ivo
-    text: 食物储备可以承受收成稍减。若一种环境故障同时毁掉全部替补批次，损失会在航程结束后继续威胁定居阶段。
-- id: p03
-  illustration: p03
-  lines:
-  - speaker: aro
-    content:
-    - text: 灯、泵、电子设备、人的活动和外部吸收能量都会加热。冷却回路把许多热带到舱外
-    - vocabulary:
-        id: radiator
-        text: 热辐射器
-    - text: "，再由表面向更冷的视野发出热辐射。"
-  - speaker: aro
-    text: 稳态热量收支可写成产生与吸收的热，减去排出的热；温度正在变化时，还要计入结构和内容物储存的能量。每一项都带测量或模型不确定性。
-  - speaker: seed
-    text: 花园平均每个任务间隔使用八十四个本船热单位，运行范围为上下六个。泵和船员贡献来自分系统日志，不是在叶片旁直接测得。
-- id: p04
-  illustration: p04
-  lines:
-  - speaker: narrator
-    text: 伊沃的货运器靠在花园舱旁，缩短了受保护的货物转移路线；同一位置却让一片暖船壳占据R2热辐射翼原本朝向深空的部分角度。
-  - speaker: ivo
-    text: 货舱没有碰到热辐射器，间距也符合靠泊规则。中间明明是空的，为什么还算遮挡？
-  - speaker: aro
-    text: 辐射换热不需要接触。表面之间交换多少能量由几何关系决定，物体即使隔开，也会降低有效排热。
-- id: p05
-  illustration: p05
-  lines:
-  - speaker: seed
-    text: 温度仍在允许范围。四轮相配明暗周期里，最小热余量却从十八单位依次降到十一、八和六；最后一次估计范围为四至八。
-  - speaker: aro
-    text: 余量是当前或预测状态到限制之间的距离，还须留出不确定性和控制需要。正值也可能要求行动，尤其当趋势与误差都朝不利方向发展。
-  - speaker: ivo
-    text: 只有四轮数据。连续下降可能来自靠泊、灯光变化、传感器偏差、环境变化，也可能只是控制器暂时适应得慢。
-- id: p06
-  illustration: p06
-  lines:
-  - speaker: narrator
-    text: 两个上层作物区的叶缘开始卷曲；水分、灯光、气流、根区电导和品种年龄也同时变化，足以提出几种竞争解释。
-  - speaker: yuan
-    text: 热胁迫合理，却不是唯一原因。叶片反应由多种因素共享，必须看空间分布、发生时刻、对照与恢复，不能把生物当成简单温度计。
-  - speaker: aro
-    text: G7升温而共用供水的G8保持接近原状。G7刚换过灯具驱动器，电气日志还显示它偶尔额外耗能。
-- id: p07
-  illustration: p07
-  lines:
-  - speaker: aro
-    text: 回流冷却液路径上三个传感器在靠泊后同时上升，热辐射器进出口差也同向改变；转折发生在一个有日志的构型间隔内。
-  - speaker: seed
-    text: 相对于短记录，关联较强；独立性却有限，因为传感器共用校准程序、数据采集、冷却液流动和外部环境。
-  - speaker: ivo
-    text: 它们会不会因为共同参考电子设备变化而一起漂移？
-- id: p08
-  illustration: p08
-  lines:
-  - speaker: aro
-    text: 热模型分为四块：源产生或吸收热，回路搬运，结构与内容物储存，舱外表面排出。传感器只观察这条链中的少数状态。
-  - speaker: seed
-    text: 几何模型预测货舱壳温越高，R2相对其他区越热；负荷模型预测余量跟随内部用电，不受视野影响。
-  - speaker: yuan
-    text: 测量模型预测共同参考偏差，却不会同时出现便携仪、实际用电和植物反应。控制迟滞模型则预测系统会在无干预时逐步自行恢复。
-- id: p09
-  illustration: p09
-  lines:
-  - speaker: ivo
-    text: 解开靠泊会恢复更好的冷视野，也能切断几条共同故障路径；代价是延误药品、维修件和水设备，还要消耗机动储备。
-  - speaker: aro
-    text: 继续靠泊保留快速转运，也省下眼前一次机动，却维持不确定热耦合，并让多项控制依赖同一个接口。
-  - speaker: yuan
-    text: 第三条路是局部重构：分阶段改变姿态，降低可控热量，调整取货时段，并试验绝不遮住热辐射器的隔热遮光板。
-- id: p10
-  illustration: p10
-  lines:
-  - speaker: yuan
-    text: 比较三类构型，而不是两个口号：甲保持姿态与靠泊，乙解开货舱，丙则分阶段调整负荷、姿态和取货，并设置明确门槛。
-  - speaker: aro
-    text: 每类都计算近期热余量、不确定性增长、可用电力、作物光照偏差、机动储备、取货延误，以及一次故障会切断多少关键功能。
-  - speaker: ivo
-    text: 这些量不能随便相加。失去急救药与少收生菜没有天然共同单位，必须先保护约束，再讨论偏好。
-- id: p11
-  illustration: p11
-  lines:
-  - speaker: aro
-    text: 甲维持光照和随时取货。中位假设下，第十二轮最小余量只剩三；不利视野与负荷同时出现时，预测范围在第九轮就越过限制。
-  - speaker: seed
-    text: 越线是模型结果，不是预约好的故障。它说明合理输入中包含补给前的不安全状态，尤其当没有额外控制时。
-  - speaker: ivo
-    text: 甲的优点是操作简单。下一维修窗口前不机动、不暂停转运，也不引入新硬件故障。
-- id: p12
-  illustration: p12
-  lines:
-  - speaker: yuan
-    text: 乙解开靠泊并大幅转向有利散热姿态。预测排热改善，可作物照明改变，两阶段太阳能下降，货物访问也暂停。
-  - speaker: seed
-    text: 热余量中位值升到二十一，范围仍宽，因为地面试验支持这种姿态，当前组装船队的在轨证据却有限。
-  - speaker: ivo
-    text: 水处理备件可以提前移动，一包药却不能过早离开控温储存。临床窗口前解开，会产生概率低而后果高的访问缺口。
-- id: p13
-  illustration: p13
-  lines:
-  - speaker: seed
-    text: 丙先降低负荷、错开灯光，只有满足测量门槛后才小幅转向。第十五轮后预测范围扩大，因为这套分阶段策略从未完整运行。
-  - speaker: aro
-    text: 第一门槛要求保守余量高于八、冷却流量稳定、安全照明不减，任何作物区都不超过规定黑暗时长。
-  - speaker: yuan
-    text: 第二门槛允许转两度，但R2响应要符合几何模型容差，太阳能也必须高于必要负荷储备。
-- id: p14
-  illustration: p14
-  lines:
-  - speaker: yuan
-    text: 先做可回退的负荷试验：降低非必要走廊灯，错开高功率工作，部分作物灯轮换，并留下不改变的作物区作比较。
-  - speaker: aro
-    text: 试验持续两个完整光周期。安全照明不足、保守余量低于七、冷却异常、作物黑暗超限或控制故障，任何一项都立即停止。
-  - speaker: seed
-    text: 负荷模型预测余量快速响应；几何模型预测只部分改善而R2仍异常；测量模型预测固定探头与独立参考无法一致。
-- id: p15
-  illustration: p15
-  lines:
-  - speaker: narrator
-    text: 舱内走廊降到认证安全照度，维修队错开消毒、泵送和制造；应急路线、作业灯与医疗区仍由独立电源保持。
-  - speaker: ivo
-    text: 第一版班表把两组维修人员的休息撞在一起。我们不提高总负荷，只改人员安排，同时保住热试验与疲劳约束。
-  - speaker: aro
-    text: 调整改变运行背景，却没有改变电气目标。日志要分别记录命令负荷、实测负荷、延后工作和人的后果。
-- id: p16
-  illustration: p16
-  lines:
-  - speaker: narrator
-    text: 花园按品种、年龄、灌溉支路和既往长势组成配对区；一边改变光照，另一边在两轮内保留基线。
-  - speaker: yuan
-    text: 成对植物不是复制品。我们观察叶姿、水分需求、生长和恢复，并报告生物差异，不能把对照区当成完美副本。
-  - speaker: aro
-    text: 电气日志确认轮换时命令减少十四单位，其中两单位又以泵需求出现，净降低其实是十二。
-- id: p17
-  illustration: p17
-  lines:
-  - speaker: aro
-    content:
-    - text: 净热负荷下降后，冷却液温度稳定，保守余量停止缩小；在相近负荷下，R2仍比其他
-    - vocabulary:
-        id: radiator
-        text: 热辐射器
-    - text: 分区更暖，几何路径的证据仍在。
-  - speaker: seed
-    text: 便携参考与固定探头在预定容差内一致，共同测量偏差变得不太可能；参考仪自身也有误差，所以不能宣告概率为零。
-  - speaker: yuan
-    text: 结果支持负荷模型，也支持几何模型的一部分：负荷确实重要，几何差异仍未消失；任何单一模型都解释不了全部。
-- id: p18
-  illustration: p18
-  lines:
-  - speaker: yuan
-    text: 作物区仍在短期范围内。两个品种叶片展开较慢，但水分和恢复迹象不支持这次短试验已造成即时损伤。
-  - speaker: seed
-    text: 样本只有两轮且品种有限，不能证明最终产量、营养、病害反应或余下全航程表现。
-  - speaker: ivo
-    text: 改班以后，休息安排符合规定了，两项维修却积累了延误。人的负担属于结果，不能被留在热分析之外。
-- id: p19
-  illustration: p19
-  lines:
-  - speaker: ivo
-    text: 靠泊争论暴露第二项弱点：药品、吸收器滤芯、水泵件和种苗柜备件都集中在货运器里，只因正常转运最快。
-  - speaker: yuan
-    text: 正常效率制造了单点依赖。货舱一旦隔离，几项必要功能会同时失去访问；热耦合只是让这层关系显形。
-  - speaker: aro
-    text: 冗余不是随便多买一份。复制品若同处一舱、同一电源、同一舱门或同一控制故障下，仍会一起失效。
-- id: p20
-  illustration: p20
-  lines:
-  - speaker: narrator
-    text: 余下航程被拆成六个阶段，每段声明灯光、姿态范围、取货窗口、维修、电力储备、复审时刻和升级条件。
-  - speaker: yuan
-    text: 不再同时把作物光照、随时取货、固定姿态和每项工作推到最大；不同目标轮流让步，硬约束始终保护。
-  - speaker: ivo
-    text: 窗口关闭前只前置近期任务与应急真正需要的物资。全部搬出会制造拥挤、搬运风险和假冗余。
-- id: p21
-  illustration: p21
-  lines:
-  - speaker: aro
-    content:
-    - text: 船队先转两度，改善R2
-    - vocabulary:
-        id: radiator
-        text: 热辐射器
-    - text: 朝向冷空间的估算视野，同时让太阳能和航行储备保持在门槛以上。
-  - speaker: seed
-    text: R2实测响应落在几何模型预先声明的范围内；其他分区变化较小，冷却流量和内部负荷也在比较容差内。
-  - speaker: yuan
-    text: 目标输入改变、预定分区响应，使几何机制更可信，却不能确认每个视野系数或更大机动。
-- id: p22
-  illustration: p22
-  lines:
-  - speaker: yuan
-    text: 作物按品种和阶段错开光照。相对原峰值计划，可食产量预测下降百分之十四，范围为百分之九至二十一。
-  - speaker: seed
-    text: 范围包含生物响应、灯具表现、延后工作和未来有利姿态可能恢复光照；它不是概率保证。
-  - speaker: ivo
-    text: 食物储备能承担短缺，但鲜食品种和船员期待会变。营养并不是唯一人的后果。
-- id: p23
-  illustration: p23
-  lines:
-  - speaker: aro
-    text: 新遮光板减少货舱侧结构吸收的多余外热，绝不能替代热辐射器，也不能遮住其视野、展开、检查或应急运动。
-  - speaker: seed
-    text: 地面光学资料输入模型，污染、老化、接缝和展开角使范围扩大；遮光板只是补充控制，不是主要排热。
-  - speaker: ivo
-    text: 若展开失败，装置可能半开。设计要默认锁在不遮挡的位置，并能从舱内安全收回，不让人员暴露舱外。
-- id: p24
-  illustration: p24
-  lines:
-  - speaker: narrator
-    text: 分阶段运行后的第一茬收成低于原计划，却在已测指标中健康。质量数字仍不能代表味道、营养变化、劳动、水回收或种苗活力。
-  - speaker: yuan
-    text: 我们抽样检查品质并保留不确定性，不凭绿叶宣布成功；替补植物按批次、柜体、灯光阶段和冷却支路尽可能分开。
-  - speaker: seed
-    text: 任何分布都去不掉全部共同原因。所有批次仍依赖全船压力、核心电力、航行和人工维护，韧性结论只适用于已分析故障。
-- id: p25
-  illustration: p25
-  lines:
-  - speaker: ivo
-    text: 关键物资按功能、共同故障、储存条件、访问时间和恢复服务所需最小套装，分到三座居住舱。
-  - speaker: seed
-    text: 库存系统保留同步本地副本并定期对账；中央服务失效时，还有纸面位置卡和封存应急清单。
-  - speaker: yuan
-    text: 药品仍需合适环境，所以冗余不是随处乱放。部分风险通过替代访问路线降低，不一定每样都复制。
-  - speaker: aro
-    text: 演练隔离货舱与中央库存，两舱独立取到水回路修理套装；第三舱因接头标签错误延误，迫使流程修订。
-- id: p26
-  illustration: p26
-  lines:
-  - speaker: seed
-    text: 修订展望：峰值可食产量中位下降百分之十四；已验证时段内保守热余量高于九；必要供应在测试的单节点隔离后仍可恢复。
-  - speaker: seed
-    text: 更远期因作物成长、表面老化、未来机动、维修和复合故障而扩大；现有资料不能给所有组合可靠概率。
-  - speaker: yuan
-    text: 较低峰值、较大余量和较强已测试冗余是不同维度，不能用三支箭头冒充结论。
-- id: p27
-  illustration: p27
-  lines:
-  - speaker: narrator
-    text: 抵达补给点时，船队交付蔬菜、活种苗、热记录、构型历史、排除项、失败检查、船员报告、依赖图和每版决策模型。
-  - speaker: yuan
-    text: 定居点不能把我们的数字抄成普遍常数。重力、环境、车辆形状、作物、散热器、维修能力和可接受风险都不同。
-  - speaker: aro
-    text: 可迁移的是方法：定义边界与物理量，追踪热路径，比较因果模型，保留不确定性，预设门槛，开展可回退试验，并观察原系统以外的后果。
-- id: p28
-  illustration: p28
-  lines:
-  - speaker: yuan
-    text: 长程设计不承诺永不失败。它让证据可见，保留可恢复选择，也阻止一个漂亮最优值吃光所有余量。
-  - speaker: aro
-    text: 负荷与几何共同管理后，花园保持较低温度；这项认识比以前更强，却只适用于测试范围和构型。
-  - speaker: ivo
-    text: 货物更难管理，也更难一次全部失去。这是一项有可测成本的权衡，不是免费改善。
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: 货运器靠上来的第四天，花园仍是一片安静的绿。水珠沿莴苣叶尖聚拢，又被循环风吹散；货运舱传来的轻微震动有固定间隔，像隔墙有人推着小车。距离下一次补给还有三十七轮明暗，控制台上的状态灯全是绿色。种子说：“任务状态：正常。”
+        - text: 袁把最近四轮的记录并排调出来：“先别报正常。温度还没超过限制，可系统还能多承受的热量，已经连续四轮在减少。照这个趋势，补给到达前就会不够用。”花园经过发射、组装和两次靠泊，眼下的形状与上次测试时不同。过去的数据仍有参考价值，却不能说明货运器贴在旁边时也安全。
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: 袁每天最先巡视的不是长得最快的菜，而是种苗柜。十二个作物区各不相同，替补幼苗却共用灯光，种子也挤在同一个环境柜里。伊沃隔着观察窗看了一会儿：“别只给我峰值产量。我要知道什么东西会一起坏，坏了以后我们还能摸到什么。”
+        - text: 鲜食、水回收和船员节奏仍重要，但共同故障先被圈了出来。
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: 花园里的热来自灯、泵、电子设备、人的活动和外部吸收的能量；冷却回路把其中一部分带到舱外
+            - vocabulary:
+                id: radiator
+                text: 热辐射器
+            - text: ，再由表面向更冷的视野辐射出去。若温度变化，舱壁、水和培养基暂存的能量也必须算入收支。
+        - text: 阿洛把路径画在透明板上，没有把任何一条线涂成绝对精确。花园平均每个任务间隔使用八十四个本船热单位，正常波动约为上下六个。
+        - text: 他在泵和船员那两项旁边留出空白：“这些热量还只是日志估算。先空着，别装成测过。”
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: 货运器停在花园舱旁，药箱送来只需七分钟；一片温暖船壳也占住了R2热辐射翼原本朝向深空的部分角度。伊沃盯住模型里的空隙：“没碰到，也算挡？”
+        - text: 阿洛把货运器的轮廓移开一点：“热辐射器不需要被碰到才会受影响。它看见什么，比中间是不是空的更要紧。”伊沃把取药时间写在图边。
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: 四轮相似周期里，最小热余量从十八降到十一，再到八和六；最后一个六考虑误差后可能在四到八之间。伊沃把靠泊日志拖到同一条时间轴上：“四轮也可能骗人。靠泊、灯光、传感器，或者控制器适应得慢，都能画出这条线。”
+        - text: 阿洛把货舱遮挡从结论栏移回候选解释。趋势足以要求行动，还不足以指定原因。
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: G7上层叶缘向内卷起。袁检查水分、气流、根区电导和灯具记录；共用供水的G8接近原状，G7却刚换过驱动器。
+        - text: 她剪下一片卷叶，递给阿洛：“可能是热，也可能是灯、水或驱动器。先查它什么时候开始、只出现在哪里，再看能不能恢复。”电气日志很快翻出一笔偶发耗能。
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - text: 回流路径上的三个温度传感器都在靠泊后上升，热辐射器进出口温差也随之改变。种子提醒，三个探头共用校准程序、采集设备、冷却液和外部环境，不能算作三份完全独立的证据。
+        - text: 伊沃指着探头背后的线路：“如果它们用的参考电子设备一起偏了呢？”便携参考仪被列入下一轮测量。
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - text: 阿洛把模型拆成热源、搬运、储存和排出四段。传感器只守在这条长路的几个路口。种子说：“几何视野、内部负荷、测量偏差与控制迟滞，应各自留下不同的可检验痕迹。”
+        - text: 袁删掉结论栏里的“最可能”：“先写什么能推翻它。”
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - text: 解开靠泊能恢复冷视野，也会让药品、维修件和水设备隔着一次机动。继续靠泊保住转运，却保留热耦合和接口依赖。袁在两种构型之间又画了一条线：“不用一次把选择押完。先错开高功率工作，再小角度转向，最后才试不遮挡热辐射器的遮光板。”
+        - text: 她把三步分别锁在三个检查点后面。任何一步出现停止条件，系统都退回前一个构型。
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - text: 甲、乙、丙三种构型的表格塞满热余量、电力、黑暗时长、机动储备和取货延误。有人准备给每列打分，伊沃盖住总分格：“急救药晚到和少收一筐菜，不能加成一个总分。”
+        - text: 总分栏清空以后，每项后果都得单独回答。他们先划出不能退让的几项：安全照明、医疗访问、最低电力和作物黑暗上限。
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - text: 甲方案最省事。中位假设下，第十二轮仍有三单位最小余量；不利视野与高负荷同时出现时，第九轮便可能超过温度限制。种子提醒：“这只是预测，不代表第九轮一定发生故障。”
+        - text: 伊沃说：“甲仍有一个真优点：不用机动，不停转运，也不引入新硬件故障。”
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - text: 乙方案解开货舱并大幅转向。热余量中位值升到二十一，预测阴影仍很宽，作物光照和太阳能也会改变。伊沃把药品清单推到屏幕中央：“水处理备件可以先搬。那包药不行。离开控温柜太早会报废，留在那里又可能拿不到。”
+        - text: 乙方案没有被热模型否决，却被一只不能移动的药箱拦住。
+    - id: p13
+      illustration: p13
+      paragraphs:
+        - text: 丙方案先降负荷，满足门槛才转两度，再根据响应决定下一步。整套策略未曾运行，第十五轮后的预测反而更散。种子说：“第一门槛要求保守余量高于八、冷却流量稳定、安全照明不减，作物黑暗不超限。第二门槛检查R2响应、太阳能和必要负荷储备。”
+        - text: 袁按灭自动继续按钮：“每一步做完，我们都重新看数据。系统不能自己接着往下跑。”
+    - id: p14
+      illustration: p14
+      paragraphs:
+        - text: 负荷试验只做两个光周期。走廊灯降低，高功率工作错开，部分作物灯轮换，另一些作物区保留原计划。阿洛把停止条件逐项确认：保守余量低于七、冷却异常、安全照明不足、作物黑暗超限，或任何控制故障，出现一项便停。
+        - text: 袁封存了各模型的预期信号：“预测先放在这里。结果出来以后再改，就不算检验。”
+    - id: p15
+      illustration: p15
+      paragraphs:
+        - text: 试验开始四十分钟后，两组维修人员被同时排进休息期，下一班将缺少合格泵检人员。伊沃把两段班表拖开：“总负荷不能涨，也不能把两组人都挤进同一个休息时段。”
+        - text: 走廊暗下来，有人认错过一次工具柜，随即打开作业灯。班表重新排过，日志也把命令负荷、实测负荷、延后工作和人员影响分开记录。
+    - id: p16
+      illustration: p16
+      paragraphs:
+        - text: 袁按品种、年龄、灌溉支路和既往长势给作物配对。植物不是复制品，各有旧伤、位置和生长速度。轮换命令原本减少十四单位，水泵却多用了两单位。
+        - text: 阿洛把净降低改成十二。袁指着被减掉的两格：“泵多用的也单独记上，不能还写十四。”
+    - id: p17
+      illustration: p17
+      paragraphs:
+        - content:
+            - text: 负荷降下去后，冷却液温度稳住，保守余量不再缩小；在相近负荷下，R2仍比其他
+            - vocabulary:
+                id: radiator
+                text: 热辐射器
+            - text: 分区更暖。便携参考仪与固定探头一致，共同偏差的可能性下降，却没有归零。
+        - text: 袁看了两遍叠在一起的曲线：“降负荷把余量稳住了，R2却还是偏热。下一阶段，两边都得管。”
+    - id: p18
+      illustration: p18
+      paragraphs:
+        - text: 两个光周期结束，作物仍在短期范围内。样本太少、时间太短，营养、病害反应和最终产量都还看不出来。
+        - text: 伊沃把改班后的记录推到袁面前：“休息时间合规了，可这两项维修晚了。把延误也记进试验。”袁没有调淡那两格。
+    - id: p19
+      illustration: p19
+      paragraphs:
+        - text: 药品、滤芯、水泵件和种苗柜备件全在货运器里，只因为从同一扇舱门取货最快。阿洛说：“复制一份也不够。若它们还共用电源、舱门或错误标签，会一起留在门后。”
+        - text: 他们于是把问题从“有几套备件”改成“货舱隔离后，谁还能从哪里拿到一套能用的维修件”。
+    - id: p20
+      illustration: p20
+      paragraphs:
+        - text: 余下航程被切成六段，各有灯光、姿态、取货、维修和复审安排。伊沃只搬出近期任务和可信应急情况真正会用到的物资；全搬出来，通道会被箱子堵住，关键接头反而更难找到。
+        - text: 第一只水泵箱扣进居住舱地板。以后即使货运舱暂时隔离，维修人员也能立刻拿到一套能接上本舱回路的水泵件。
+    - id: p21
+      illustration: p21
+      paragraphs:
+        - text: 船队转动两度。舷窗边的蓝光偏了一线，太阳能、冷却流量和内部负荷仍在门槛内。种子说：“R2响应落入几何模型的预定范围，其他分区变化较小。”
+        - text: 袁把“已证明”从记录模板里删掉：“这让几何解释更可信。只到这两度为止。”
+    - id: p22
+      illustration: p22
+      paragraphs:
+        - text: 作物灯按品种和阶段错开。可食产量预计下降百分之十四，范围为百分之九到二十一；储粮能填上缺口。伊沃望着一盆香草：“储粮能补热量，可补不了轮休时大家从这里摘的那一把。”
+        - text: 那盆香草的辛辣气味原本能飘过半条餐廊。现在船员吃得饱，餐盘却比往常安静。袁把鲜食品种加入后续评估。
+    - id: p23
+      illustration: p23
+      paragraphs:
+        - text: 遮光板只减少货舱侧结构吸收的额外热量，不替代热辐射器，也不得闯入它的视野和运动范围。伊沃说：“坏的时候别指望它懂礼貌。”
+        - text: 装置因此默认锁在不遮挡的位置，并能从舱内安全收回。
+    - id: p24
+      illustration: p24
+      paragraphs:
+        - text: 第一茬收成比原计划少，叶菜在已经测过的指标中仍然健康。这次收成还不能说明味道、水回收成本、劳动量和种苗的长期活力。种子提醒，所有批次仍共用全船压力、核心电力、航行与人工维护。
+        - text: 袁扶住在微重力里轻晃的托盘：“我知道。”她把“韧性”后面的适用范围补成：只针对已经分析过的故障。
+    - id: p25
+      illustration: p25
+      paragraphs:
+        - text: 关键物资分到三座居住舱，库存各留本地副本，中央服务失效时还可查纸面位置卡。隔离演练中，第三座舱被错误接头标签拖延了十二分钟。
+        - text: 伊沃撕下错误标签：“舱门没锁，是标签把人带错了。”他们换掉标签，也把这次延误留在交付记录中。
+    - id: p26
+      illustration: p26
+      paragraphs:
+        - text: 种子说：“峰值可食产量中位下降百分之十四；已验证时段内，保守热余量高于九；测试过的单节点隔离后，必要供应仍可恢复。”更远处，作物成长、表面老化、机动、维修和复合故障让不确定性逐渐扩大。
+        - text: 袁关掉绿色上箭头，屏幕上只留下三条末端张开的曲线。
+    - id: p27
+      illustration: p27
+      paragraphs:
+        - text: 他们交出蔬菜、种苗、热记录、构型历史、失败检查，以及每一版曾经指导决策的模型。阿洛拦住准备复制参数的人：“这些数别直接抄。换一艘船，外形、热负荷和维修条件全会变。”
+        - text: 真正可以带走的是做事的顺序：先画清热从哪里来、到哪里去，再让几种解释接受同一组证据；动手前写好停止条件，动手后继续检查别的系统受了什么影响。
+    - id: p28
+      illustration: p28
+      paragraphs:
+        - text: 花园再次与货运器相连。R2旁的遮光板锁在不遮挡的位置，袁只记录已验证构型、仍在扩大的误差和下一次测量条件。种子说：“下一阶段状态：可接受。适用于当前构型与已测试的单节点故障；不包含未经观测的组合。”
+        - text: 舷窗外的蓝行星已经退成一枚小而亮的圆片。伊沃扣好最后一只分散存放的货箱。花园的灯熄灭一排，又在远处亮起另一排。
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 开阔而克制
+        timbre: 清晰的成年声音
+        pace: 中慢速
+        pitch: 中音
+    yuan:
+      display_name: 袁
+      tts:
+        delivery: 耐心而有系统观
+        timbre: 稳定的成年声音
+        pace: 中速
+        pitch: 中音
+    aro:
+      display_name: 阿洛
+      tts:
+        delivery: 精确谨慎
+        timbre: 坚实的成年声音
+        pace: 中慢速
+        pitch: 中低音
+    ivo:
+      display_name: 伊沃
+      tts:
+        delivery: 外交而坚定
+        timbre: 温厚的年长声音
+        pace: 中速
+        pitch: 中低音
+    seed:
+      display_name: 种子
+      tts:
+        delivery: 中性并明确表达不确定性
+        timbre: 平滑的合成声音
+        pace: 匀速
+        pitch: 中音
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: 货运器靠上来的第四天，花园仍是一片安静的绿。水珠沿莴苣叶尖聚拢，又被循环风吹散；货运舱传来的轻微震动有固定间隔，像隔墙有人推着小车。距离下一次补给还有三十七轮明暗，控制台上的状态灯全是绿色。
+        - id: p01-b02
+          speaker: seed
+          text: 任务状态：正常。
+        - id: p01-b03
+          speaker: yuan
+          text: 先别报正常。温度还没超过限制，可系统还能多承受的热量，已经连续四轮在减少。照这个趋势，补给到达前就会不够用。
+        - id: p01-b04
+          speaker: narrator
+          text: 花园经过发射、组装和两次靠泊，眼下的形状与上次测试时不同。过去的数据仍有参考价值，却不能说明货运器贴在旁边时也安全。
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          text: 袁每天最先巡视的不是长得最快的菜，而是种苗柜。十二个作物区各不相同，替补幼苗却共用灯光，种子也挤在同一个环境柜里。
+        - id: p02-b02
+          speaker: ivo
+          text: 别只给我峰值产量。我要知道什么东西会一起坏，坏了以后我们还能摸到什么。
+        - id: p02-b03
+          speaker: narrator
+          text: 鲜食、水回收和船员节奏仍重要，但共同故障先被圈了出来。
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          content:
+            - text: 花园里的热来自灯、泵、电子设备、人的活动和外部吸收的能量；冷却回路把其中一部分带到舱外
+            - vocabulary:
+                id: radiator
+                text: 热辐射器
+            - text: ，再由表面向更冷的视野辐射出去。若温度变化，舱壁、水和培养基暂存的能量也必须算入收支。
+        - id: p03-b02
+          speaker: narrator
+          text: 阿洛把路径画在透明板上。花园平均每个任务间隔使用八十四个本船热单位，正常波动约为上下六个。
+        - id: p03-b03
+          speaker: aro
+          text: 泵和船员带来的热量还只是日志估算。这里先空着，别装成测过。
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: 货运器停在花园舱旁，药箱送来只需七分钟；一片温暖船壳也占住了R2热辐射翼原本朝向深空的部分角度。
+        - id: p04-b02
+          speaker: ivo
+          text: 没碰到，也算挡？
+        - id: p04-b03
+          speaker: aro
+          text: 热辐射器不需要被碰到才会受影响。它看见什么，比中间是不是空的更要紧。
+        - id: p04-b04
+          speaker: narrator
+          text: 伊沃把取药时间写在图边。
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: 四轮相似周期里，最小热余量从十八降到十一，再到八和六；最后一个六考虑误差后可能在四到八之间。
+        - id: p05-b02
+          speaker: ivo
+          text: 四轮也可能骗人。靠泊、灯光、传感器，或者控制器适应得慢，都能画出这条线。
+        - id: p05-b03
+          speaker: narrator
+          text: 阿洛把货舱遮挡从结论栏移回候选解释。趋势足以要求行动，还不足以指定原因。
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: G7上层叶缘向内卷起。袁检查水分、气流、根区电导和灯具记录；共用供水的G8接近原状，G7却刚换过驱动器。
+        - id: p06-b02
+          speaker: yuan
+          text: 可能是热，也可能是灯、水或驱动器。先查它什么时候开始、只出现在哪里，再看能不能恢复。
+        - id: p06-b03
+          speaker: narrator
+          text: 电气日志很快翻出一笔偶发耗能。
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          text: 回流路径上的三个温度传感器都在靠泊后上升，热辐射器进出口温差也随之改变。
+        - id: p07-b02
+          speaker: seed
+          text: 三个探头共用校准程序、采集设备、冷却液和外部环境，不能算作三份完全独立的证据。
+        - id: p07-b03
+          speaker: ivo
+          text: 如果它们用的参考电子设备一起偏了呢？
+        - id: p07-b04
+          speaker: narrator
+          text: 便携参考仪被列入下一轮测量。
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          text: 阿洛把模型拆成热源、搬运、储存和排出四段。传感器只守在这条长路的几个路口。
+        - id: p08-b02
+          speaker: seed
+          text: 几何视野、内部负荷、测量偏差与控制迟滞，应各自留下不同的可检验痕迹。
+        - id: p08-b03
+          speaker: yuan
+          text: 先写什么能推翻它。
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          text: 解开靠泊能恢复冷视野，也会让药品、维修件和水设备隔着一次机动。继续靠泊保住转运，却保留热耦合和接口依赖。
+        - id: p09-b02
+          speaker: yuan
+          text: 不用一次把选择押完。先错开高功率工作，再小角度转向，最后才试不遮挡热辐射器的遮光板。
+        - id: p09-b03
+          speaker: narrator
+          text: 她把三步分别锁在三个检查点后面。任何一步出现停止条件，系统都退回前一个构型。
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          text: 甲、乙、丙三种构型的表格塞满热余量、电力、黑暗时长、机动储备和取货延误。有人准备给每列打分，伊沃盖住总分格。
+        - id: p10-b02
+          speaker: ivo
+          text: 急救药晚到和少收一筐菜，不能加成一个总分。
+        - id: p10-b03
+          speaker: narrator
+          text: 总分栏清空以后，每项后果都得单独回答。他们先划出安全照明、医疗访问、最低电力和作物黑暗上限。
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          text: 甲方案最省事。中位假设下，第十二轮仍有三单位最小余量；不利视野与高负荷同时出现时，第九轮便可能越过限制。
+        - id: p11-b02
+          speaker: seed
+          text: 这只是预测，不代表第九轮一定发生故障。
+        - id: p11-b03
+          speaker: ivo
+          text: 甲仍有一个真优点：不用机动，不停转运，也不引入新硬件故障。
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          text: 乙方案解开货舱并大幅转向。热余量中位值升到二十一，预测阴影仍很宽，作物光照和太阳能也会改变。
+        - id: p12-b02
+          speaker: ivo
+          text: 水处理备件可以先搬。那包药不行。离开控温柜太早会报废，留在那里又可能拿不到。
+        - id: p12-b03
+          speaker: narrator
+          text: 乙方案没有被热模型否决，却被一只不能移动的药箱拦住。
+    - id: p13
+      illustration: p13
+      blocks:
+        - id: p13-b01
+          speaker: narrator
+          text: 丙方案先降负荷，满足门槛才转两度，再根据响应决定下一步。整套策略未曾运行，第十五轮后的预测反而更散。
+        - id: p13-b02
+          speaker: seed
+          text: 第一门槛要求保守余量高于八、冷却流量稳定、安全照明不减，作物黑暗不超限。第二门槛检查R2响应、太阳能和必要负荷储备。
+        - id: p13-b03
+          speaker: yuan
+          text: 每一步做完，我们都重新看数据。系统不能自己接着往下跑。
+    - id: p14
+      illustration: p14
+      blocks:
+        - id: p14-b01
+          speaker: narrator
+          text: 负荷试验只做两个光周期。走廊灯降低，高功率工作错开，部分作物灯轮换，另一些作物区保留原计划。
+        - id: p14-b02
+          speaker: aro
+          text: 保守余量低于七、冷却异常、安全照明不足、作物黑暗超限，或任何控制故障，出现一项便停。
+        - id: p14-b03
+          speaker: yuan
+          text: 预测先放在这里。结果出来以后再改，就不算检验。
+    - id: p15
+      illustration: p15
+      blocks:
+        - id: p15-b01
+          speaker: narrator
+          text: 试验开始四十分钟后，两组维修人员被同时排进休息期，下一班将缺少合格泵检人员。
+        - id: p15-b02
+          speaker: ivo
+          text: 总负荷不能涨，也不能把两组人都挤进同一个休息时段。
+        - id: p15-b03
+          speaker: narrator
+          text: 走廊暗下来，有人认错过一次工具柜，随即打开作业灯。班表重新排过，日志也把命令负荷、实测负荷、延后工作和人员影响分开记录。
+    - id: p16
+      illustration: p16
+      blocks:
+        - id: p16-b01
+          speaker: narrator
+          text: 袁按品种、年龄、灌溉支路和既往长势给作物配对。植物不是复制品，各有旧伤、位置和生长速度。
+        - id: p16-b02
+          speaker: aro
+          text: 轮换命令减少十四单位，泵却多用了两单位。净降低只有十二。
+        - id: p16-b03
+          speaker: yuan
+          text: 泵多用的两单位也单独记上，不能还写十四。
+    - id: p17
+      illustration: p17
+      blocks:
+        - id: p17-b01
+          speaker: narrator
+          content:
+            - text: 负荷降下去后，冷却液温度稳住，保守余量不再缩小；在相近负荷下，R2仍比其他
+            - vocabulary:
+                id: radiator
+                text: 热辐射器
+            - text: 分区更暖。便携参考仪与固定探头一致，共同偏差的可能性下降，却没有归零。
+        - id: p17-b02
+          speaker: yuan
+          text: 降负荷把余量稳住了，R2却还是偏热。下一阶段，两边都得管。
+    - id: p18
+      illustration: p18
+      blocks:
+        - id: p18-b01
+          speaker: narrator
+          text: 两个光周期结束，作物仍在短期范围内。样本太少、时间太短，营养、病害反应和最终产量都还看不出来。
+        - id: p18-b02
+          speaker: ivo
+          text: 休息时间合规了，可这两项维修晚了。把延误也记进试验。
+        - id: p18-b03
+          speaker: narrator
+          text: 袁没有调淡那两格。
+    - id: p19
+      illustration: p19
+      blocks:
+        - id: p19-b01
+          speaker: narrator
+          text: 药品、滤芯、水泵件和种苗柜备件全在货运器里，只因为从同一扇舱门取货最快。
+        - id: p19-b02
+          speaker: aro
+          text: 复制一份也不够。若它们还共用电源、舱门或错误标签，会一起留在门后。
+        - id: p19-b03
+          speaker: narrator
+          text: 他们于是把问题从有几套备件，改成货舱隔离后谁还能从哪里拿到一套能用的维修件。
+    - id: p20
+      illustration: p20
+      blocks:
+        - id: p20-b01
+          speaker: narrator
+          text: 余下航程被切成六段，各有灯光、姿态、取货、维修和复审安排。
+        - id: p20-b02
+          speaker: narrator
+          text: 伊沃只搬出近期任务和可信应急情况真正会用到的物资；全搬出来，通道会被箱子堵住，关键接头反而更难找到。
+        - id: p20-b03
+          speaker: narrator
+          text: 第一只水泵箱扣进居住舱地板。以后即使货运舱暂时隔离，维修人员也能立刻拿到一套能接上本舱回路的水泵件。
+    - id: p21
+      illustration: p21
+      blocks:
+        - id: p21-b01
+          speaker: narrator
+          text: 船队转动两度。舷窗边的蓝光偏了一线，太阳能、冷却流量和内部负荷仍在门槛内。
+        - id: p21-b02
+          speaker: seed
+          text: R2响应落入几何模型的预定范围，其他分区变化较小。
+        - id: p21-b03
+          speaker: yuan
+          text: 这让几何解释更可信。只到这两度为止。
+    - id: p22
+      illustration: p22
+      blocks:
+        - id: p22-b01
+          speaker: narrator
+          text: 作物灯按品种和阶段错开。可食产量预计下降百分之十四，范围为百分之九到二十一；储粮能填上缺口。
+        - id: p22-b02
+          speaker: ivo
+          text: 储粮能补热量，可补不了轮休时大家从这里摘的那一把。
+        - id: p22-b03
+          speaker: narrator
+          text: 那盆香草的辛辣气味原本能飘过半条餐廊。现在船员吃得饱，餐盘却比往常安静。袁把鲜食品种加入后续评估。
+    - id: p23
+      illustration: p23
+      blocks:
+        - id: p23-b01
+          speaker: narrator
+          text: 遮光板只减少货舱侧结构吸收的额外热量，不替代热辐射器，也不得闯入它的视野和运动范围。
+        - id: p23-b02
+          speaker: ivo
+          text: 坏的时候别指望它懂礼貌。
+        - id: p23-b03
+          speaker: narrator
+          text: 装置因此默认锁在不遮挡的位置，并能从舱内安全收回。
+    - id: p24
+      illustration: p24
+      blocks:
+        - id: p24-b01
+          speaker: narrator
+          text: 第一茬收成比原计划少，叶菜在已经测过的指标中仍然健康。这次收成还不能说明味道、水回收成本、劳动量和种苗的长期活力。
+        - id: p24-b02
+          speaker: seed
+          text: 所有批次仍共用全船压力、核心电力、航行与人工维护。
+        - id: p24-b03
+          speaker: yuan
+          text: 我知道。韧性只适用于已经分析过的故障。
+    - id: p25
+      illustration: p25
+      blocks:
+        - id: p25-b01
+          speaker: narrator
+          text: 关键物资分到三座居住舱，库存各留本地副本，中央服务失效时还可查纸面位置卡。
+        - id: p25-b02
+          speaker: narrator
+          text: 隔离演练中，第三座舱被错误接头标签拖延了十二分钟。
+        - id: p25-b03
+          speaker: ivo
+          text: 舱门没锁，是标签把人带错了。
+        - id: p25-b04
+          speaker: narrator
+          text: 他们换掉标签，也把失败留在交付记录中。
+    - id: p26
+      illustration: p26
+      blocks:
+        - id: p26-b01
+          speaker: seed
+          text: 峰值可食产量中位下降百分之十四；已验证时段内，保守热余量高于九；测试过的单节点隔离后，必要供应仍可恢复。
+        - id: p26-b02
+          speaker: narrator
+          text: 更远处，作物成长、表面老化、机动、维修和复合故障让不确定性逐渐扩大。
+        - id: p26-b03
+          speaker: narrator
+          text: 袁关掉绿色上箭头，屏幕上只留下三条末端张开的曲线。
+    - id: p27
+      illustration: p27
+      blocks:
+        - id: p27-b01
+          speaker: narrator
+          text: 他们交出蔬菜、种苗、热记录、构型历史、失败检查，以及每一版曾经指导决策的模型。
+        - id: p27-b02
+          speaker: aro
+          text: 这些数别直接抄。换一艘船，外形、热负荷和维修条件全会变。
+        - id: p27-b03
+          speaker: narrator
+          text: 可以带走的是做事的顺序：先画清热从哪里来、到哪里去，再让几种解释接受同一组证据；动手前写好停止条件，动手后继续检查别的系统受了什么影响。
+    - id: p28
+      illustration: p28
+      blocks:
+        - id: p28-b01
+          speaker: narrator
+          text: 花园再次与货运器相连。R2旁的遮光板锁在不遮挡的位置，袁只记录已验证构型、仍在扩大的误差和下一次测量条件。
+        - id: p28-b02
+          speaker: seed
+          text: 下一阶段状态：可接受。适用于当前构型与已测试的单节点故障；不包含未经观测的组合。
+        - id: p28-b03
+          speaker: narrator
+          text: 舷窗外的蓝行星已经退成一枚小而亮的圆片。伊沃扣好最后一只分散存放的货箱。花园的灯熄灭一排，又在远处亮起另一排。
 chapters:
-- id: ch01
-  title: 余量不是保证
-  page_refs:
-  - p01
-  - p02
-  - p03
-  - p04
-  - p05
-  - p06
-  - p07
-- id: ch02
-  title: 模型与多条后果链
-  page_refs:
-  - p08
-  - p09
-  - p10
-  - p11
-  - p12
-  - p13
-  - p14
-- id: ch03
-  title: 可回退试验与预设门槛
-  page_refs:
-  - p15
-  - p16
-  - p17
-  - p18
-  - p19
-  - p20
-  - p21
-- id: ch04
-  title: 不只追求峰值
-  page_refs:
-  - p22
-  - p23
-  - p24
-  - p25
-  - p26
-  - p27
-  - p28
+  - id: ch01
+    title: 余量不是保证
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
+      - p07
+  - id: ch02
+    title: 模型与多条后果链
+    page_refs:
+      - p08
+      - p09
+      - p10
+      - p11
+      - p12
+      - p13
+      - p14
+  - id: ch03
+    title: 可回退试验与预设门槛
+    page_refs:
+      - p15
+      - p16
+      - p17
+      - p18
+      - p19
+      - p20
+      - p21
+  - id: ch04
+    title: 不只追求峰值
+    page_refs:
+      - p22
+      - p23
+      - p24
+      - p25
+      - p26
+      - p27
+      - p28
 questions:
-- id: q01
-  type: evidence
-  speaker: narrator
-  prompt: 哪些证据支持耦合热问题，同时又没有把卷叶或靠泊时刻当作证明？
-  answer: 多项冷却与散热测量在靠泊后改变，独立参考削弱传感器偏差，降负荷稳定余量，目标转向产生预期分区响应；生物证据和时间证据仍有限。
-  page_refs:
-  - p04
-  - p05
-  - p06
-  - p07
-  - p17
-  - p21
-- id: q02
-  type: source-analysis
-  speaker: narrator
-  prompt: NASA热控制原则怎样支持虚构热量收支，又不能提供什么？
-  answer: 它支持从产生、吸收、搬运、储存、辐射、表面、传感器、隔热、遮光和运行来管理热；它不提供本船单位、几何、限制、作物反应或安全命令。
-  page_refs:
-  - p03
-  - p04
-  - p08
-  - p23
-  - p27
-- id: q03
-  type: compare
-  speaker: narrator
-  prompt: 从余量、不确定性和热系统外后果比较甲、乙、丙三类构型。
-  answer: 甲保光照和取货却可能继续失去余量；乙热收益最大，却消耗机动并扰动货运、电力和作物；丙分阶段获得信息和选择，但接受较低产量与远期范围扩大。
-  page_refs:
-  - p09
-  - p10
-  - p11
-  - p12
-  - p13
-- id: q04
-  type: evaluate
-  speaker: narrator
-  prompt: 负荷试验为何比只看靠泊后趋势更有力，又为何仍非定论？
-  answer: 它主动改变因果输入，预设特征和门槛，使用比较区与独立参考，并观察预测响应；但时间短、运行仍耦合、生物样本有限、几何误差还在。
-  page_refs:
-  - p07
-  - p08
-  - p14
-  - p15
-  - p16
-  - p17
-  - p18
-- id: q05
-  type: synthesis
-  speaker: narrator
-  prompt: 结果怎样修订几何、负荷、传感器和控制迟滞的简单模型？
-  answer: 降负荷支持负荷机制，R2差异与转向响应支持几何机制，便携仪削弱共同偏差；没有单一模型解释全部，修订版结合负荷与几何并保留测量误差。
-  page_refs:
-  - p07
-  - p08
-  - p14
-  - p16
-  - p17
-  - p21
-- id: q06
-  type: source-analysis
-  speaker: narrator
-  prompt: 为什么必须区分命令负荷、实测负荷、模型视野和观测温度？
-  answer: 它们来自不同方法：命令不等于实际热，视野是几何估计，稀疏探头只观察部分状态；混在一起会让假设冒充独立测量。
-  page_refs:
-  - p03
-  - p04
-  - p08
-  - p15
-  - p16
-- id: q07
-  type: evaluate
-  speaker: narrator
-  prompt: 预测减产百分之十四，为什么仍可能构成更强任务方案？
-  answer: 预测有范围和代价，但分阶段光照保留热余量、分散作物批次与故障暴露，食物储备也能承担；目标从峰值变为可恢复的食物与定居选择。
-  page_refs:
-  - p02
-  - p18
-  - p22
-  - p24
-  - p26
-- id: q08
-  type: synthesis
-  speaker: narrator
-  prompt: 热问题怎样暴露并改造了货运系统的韧性？
-  answer: 靠泊揭示集中访问和共同依赖；按功能与故障分布、库存本地副本、替代访问和隔离演练改善连续性，同时增加工作并暴露标签风险。
-  page_refs:
-  - p09
-  - p19
-  - p20
-  - p25
-  - p26
-- id: q09
-  type: research-response
-  speaker: narrator
-  prompt: 把遮光板决定连接到热模型和外部来源限制。
-  answer: 遮光板减少吸收热路径，却不能代替排热或遮住热辐射器；地面材料关系只进入有限模型，展开、老化、污染、反射、失效位置和本地测量决定是否接受。
-  page_refs:
-  - p03
-  - p08
-  - p23
-  - p26
-- id: q10
-  type: research-response
-  speaker: narrator
-  prompt: 某定居温室有充足冷视野，但电力稀缺且无货运限制。船队方法哪些可迁移，哪些优先或模型项要改变？
-  answer: 边界、热路径、来源区分、不确定性、预设门槛、可回退试验和后果监测可以迁移；电力成为更强约束，货运耦合减弱，当地环境和几何需要新模型，也要重新授权优先次序。
-  page_refs:
-  - p03
-  - p09
-  - p10
-  - p20
-  - p27
-- id: q11
-  type: research-response
-  speaker: narrator
-  prompt: 把冗余论证用于同一带电柜里的三台备用泵：还剩哪些共同故障，什么证据能显示系统韧性改善？
-  answer: 柜体、供电、访问、环境、控制器和维修都可能让三台泵同时失效；分开电源或访问、建立功能恢复路径、分析依赖并开展隔离演练，比只数副本更能检验系统韧性。
-  page_refs:
-  - p19
-  - p25
-  - p26
-  - p27
-- id: q12
-  type: research-response
-  speaker: narrator
-  prompt: 在第26页以后选择下一阶段，说明规则、最强证据、一项反例、停止条件和会使你反转选择的证据。
-  answer: 可以继续分阶段、部分解泊、缩减作物或提出其他有限方案，但必须保护硬约束，区分观测与模型，考虑不确定性和跨系统后果，并给出真正会触发反转的证据。
-  page_refs:
-  - p10
-  - p13
-  - p18
-  - p20
-  - p21
-  - p22
-  - p26
-  - p28
-- id: q13
-  type: evaluate
-  speaker: narrator
-  prompt: 结尾“种子”为什么只说可接受，而不说永远安全？
-  answer: 证据只覆盖声明范围与时段，作物成长、材料老化、未来机动、复合故障和新构型仍未知；授权只适用于下一监测阶段。
-  page_refs:
-  - p18
-  - p23
-  - p24
-  - p26
-  - p28
-- id: q14
-  type: research-response
-  speaker: narrator
-  prompt: 船员是在牺牲最优来换取系统韧性，还是重新定义应当优化什么？结合产量、热余量、取货、恢复路径和人的决策权加以论证。
-  answer: 可以强调牺牲、多目标重定义或两者并存，但必须承认可测成本、有限改善、硬约束、剩余不确定性，以及模型不能替人决定任务价值。
-  page_refs:
-  - p02
-  - p10
-  - p19
-  - p22
-  - p25
-  - p26
-  - p28
+  - id: q01
+    type: evidence
+    speaker: narrator
+    prompt: 哪些证据支持耦合热问题，同时又没有把卷叶或靠泊时刻当作证明？
+    answer: 多项冷却与散热测量在靠泊后改变，独立参考削弱传感器偏差，降负荷稳定余量，目标转向产生预期分区响应；生物证据和时间证据仍有限。
+    page_refs:
+      - p04
+      - p05
+      - p06
+      - p07
+      - p17
+      - p21
+  - id: q02
+    type: source-analysis
+    speaker: narrator
+    prompt: NASA热控制原则怎样支持虚构热量收支，又不能提供什么？
+    answer: 它支持从产生、吸收、搬运、储存、辐射、表面、传感器、隔热、遮光和运行来管理热；它不提供本船单位、几何、限制、作物反应或安全命令。
+    page_refs:
+      - p03
+      - p04
+      - p08
+      - p23
+      - p27
+  - id: q03
+    type: compare
+    speaker: narrator
+    prompt: 从余量、不确定性和热系统外后果比较甲、乙、丙三类构型。
+    answer: 甲保光照和取货却可能继续失去余量；乙热收益最大，却消耗机动并扰动货运、电力和作物；丙分阶段获得信息和选择，但接受较低产量与远期范围扩大。
+    page_refs:
+      - p09
+      - p10
+      - p11
+      - p12
+      - p13
+  - id: q04
+    type: evaluate
+    speaker: narrator
+    prompt: 负荷试验为何比只看靠泊后趋势更有力，又为何仍非定论？
+    answer: 它主动改变因果输入，预设特征和门槛，使用比较区与独立参考，并观察预测响应；但时间短、运行仍耦合、生物样本有限、几何误差还在。
+    page_refs:
+      - p07
+      - p08
+      - p14
+      - p15
+      - p16
+      - p17
+      - p18
+  - id: q05
+    type: synthesis
+    speaker: narrator
+    prompt: 结果怎样修订几何、负荷、传感器和控制迟滞的简单模型？
+    answer: 降负荷支持负荷机制，R2差异与转向响应支持几何机制，便携仪削弱共同偏差；没有单一模型解释全部，修订版结合负荷与几何并保留测量误差。
+    page_refs:
+      - p07
+      - p08
+      - p14
+      - p16
+      - p17
+      - p21
+  - id: q06
+    type: source-analysis
+    speaker: narrator
+    prompt: 为什么必须区分命令负荷、实测负荷、模型视野和观测温度？
+    answer: 它们来自不同方法：命令不等于实际热，视野是几何估计，稀疏探头只观察部分状态；混在一起会让假设冒充独立测量。
+    page_refs:
+      - p03
+      - p04
+      - p08
+      - p15
+      - p16
+  - id: q07
+    type: evaluate
+    speaker: narrator
+    prompt: 预测减产百分之十四，为什么仍可能构成更强任务方案？
+    answer: 预测有范围和代价，但分阶段光照保留热余量、分散作物批次与故障暴露，食物储备也能承担；目标从峰值变为可恢复的食物与定居选择。
+    page_refs:
+      - p02
+      - p18
+      - p22
+      - p24
+      - p26
+  - id: q08
+    type: synthesis
+    speaker: narrator
+    prompt: 热问题怎样暴露并改造了货运系统的韧性？
+    answer: 靠泊揭示集中访问和共同依赖；按功能与故障分布、库存本地副本、替代访问和隔离演练改善连续性，同时增加工作并暴露标签风险。
+    page_refs:
+      - p09
+      - p19
+      - p20
+      - p25
+      - p26
+  - id: q09
+    type: research-response
+    speaker: narrator
+    prompt: 把遮光板决定连接到热模型和外部来源限制。
+    answer: 遮光板减少吸收热路径，却不能代替排热或遮住热辐射器；地面材料关系只进入有限模型，展开、老化、污染、反射、失效位置和本地测量决定是否接受。
+    page_refs:
+      - p03
+      - p08
+      - p23
+      - p26
+  - id: q10
+    type: research-response
+    speaker: narrator
+    prompt: 某定居温室有充足冷视野，但电力稀缺且无货运限制。船队方法哪些可迁移，哪些优先或模型项要改变？
+    answer: 边界、热路径、来源区分、不确定性、预设门槛、可回退试验和后果监测可以迁移；电力成为更强约束，货运耦合减弱，当地环境和几何需要新模型，也要重新授权优先次序。
+    page_refs:
+      - p03
+      - p09
+      - p10
+      - p20
+      - p27
+  - id: q11
+    type: research-response
+    speaker: narrator
+    prompt: 把冗余论证用于同一带电柜里的三台备用泵：还剩哪些共同故障，什么证据能显示系统韧性改善？
+    answer: 柜体、供电、访问、环境、控制器和维修都可能让三台泵同时失效；分开电源或访问、建立功能恢复路径、分析依赖并开展隔离演练，比只数副本更能检验系统韧性。
+    page_refs:
+      - p19
+      - p25
+      - p26
+      - p27
+  - id: q12
+    type: research-response
+    speaker: narrator
+    prompt: 在第26页以后选择下一阶段，说明规则、最强证据、一项反例、停止条件和会使你反转选择的证据。
+    answer: 可以继续分阶段、部分解泊、缩减作物或提出其他有限方案，但必须保护硬约束，区分观测与模型，考虑不确定性和跨系统后果，并给出真正会触发反转的证据。
+    page_refs:
+      - p10
+      - p13
+      - p18
+      - p20
+      - p21
+      - p22
+      - p26
+      - p28
+  - id: q13
+    type: evaluate
+    speaker: narrator
+    prompt: 结尾“种子”为什么只说可接受，而不说永远安全？
+    answer: 证据只覆盖声明范围与时段，作物成长、材料老化、未来机动、复合故障和新构型仍未知；授权只适用于下一监测阶段。
+    page_refs:
+      - p18
+      - p23
+      - p24
+      - p26
+      - p28
+  - id: q14
+    type: research-response
+    speaker: narrator
+    prompt: 船员是在牺牲最优来换取系统韧性，还是重新定义应当优化什么？结合产量、热余量、取货、恢复路径和人的决策权加以论证。
+    answer: 可以强调牺牲、多目标重定义或两者并存，但必须承认可测成本、有限改善、硬约束、剩余不确定性，以及模型不能替人决定任务价值。
+    page_refs:
+      - p02
+      - p10
+      - p19
+      - p22
+      - p25
+      - p26
+      - p28

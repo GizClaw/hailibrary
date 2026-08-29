@@ -1,21 +1,75 @@
-schema_version: 1
+schema_version: 2
 language: en-US
 writer: mossy-kite
 title: The Little Red Trail
-summary: The village gives An a red ribbon for the hill path. It works. The village adds red markers.
-cast:
-  narrator: {display_name: Narrator, tts: {delivery: gentle and clear, timbre: light adult voice, pace: slow, pitch: medium}}
-  an: {display_name: An, tts: {delivery: curious and bright, timbre: clear child voice, pace: medium-slow, pitch: medium-high}}
-  villagers: {display_name: Villagers, tts: {delivery: warm and welcoming, timbre: friendly mixed voices, pace: medium-slow, pitch: medium}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "An takes the red ribbon."}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "Up goes An. Up goes the ribbon."}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "Two paths go up."}]}
-  - {id: p04, illustration: p04, lines: [{speaker: an, text: "This red ribbon marks the path."}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Up goes An. Home!"}]}
-  - {id: p06, illustration: p06, lines: [{speaker: villagers, content: [{text: "Red "}, {vocabulary: {id: marker, text: markers}}, {text: " show the path!"}]}]}
+summary: An follows a hill path with the village's red ribbon. After it guides her past a split, the villagers make red markers together.
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: An takes the village's red ribbon.
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: An walks uphill. The ribbon streams behind.
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: The path splits by the rock.
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: An ties the ribbon. “This way,” she says.
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: An follows that path home.
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: "Villagers say, “Let's make red "
+            - vocabulary: {id: marker, text: markers}
+            - text: "!”"
+audio_script:
+  cast:
+    narrator: {display_name: Narrator, tts: {delivery: gentle and clear, timbre: light adult voice, pace: slow, pitch: medium}}
+    an: {display_name: An, tts: {delivery: curious and bright, timbre: clear child voice, pace: medium-slow, pitch: medium-high}}
+    villagers: {display_name: Villagers, tts: {delivery: warm and welcoming, timbre: friendly mixed voices, pace: medium-slow, pitch: medium}}
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - {id: p01-b01, speaker: narrator, text: An takes the village's red ribbon.}
+    - id: p02
+      illustration: p02
+      blocks:
+        - {id: p02-b01, speaker: narrator, text: An walks uphill. The ribbon streams behind.}
+    - id: p03
+      illustration: p03
+      blocks:
+        - {id: p03-b01, speaker: narrator, text: The path splits by the rock.}
+    - id: p04
+      illustration: p04
+      blocks:
+        - {id: p04-b01, speaker: narrator, text: An ties the ribbon beside one path.}
+        - {id: p04-b02, speaker: an, text: This way.}
+    - id: p05
+      illustration: p05
+      blocks:
+        - {id: p05-b01, speaker: narrator, text: An follows that path home.}
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: villagers
+          content:
+            - text: "Let's make red "
+            - vocabulary: {id: marker, text: markers}
+            - text: " for the path!"
 chapters:
   - {id: ch01, title: Up the Hill, page_refs: [p01, p02, p03, p04, p05, p06]}
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: "What does An take?", answer: "The red ribbon.", page_refs: [p01]}
-  - {id: q02, type: explicit-choice, speaker: narrator, prompt: "Where does An tie the ribbon?", choices: [By the split path, Inside a house], answer: By the split path., page_refs: [p03, p04]}
+  - {id: q01, type: picture, speaker: narrator, prompt: What does An take?, answer: The red ribbon., page_refs: [p01]}
+  - {id: q02, type: explicit-choice, speaker: narrator, prompt: Where does An tie the ribbon?, choices: [By the split path, Inside a house], answer: By the split path., page_refs: [p03, p04]}

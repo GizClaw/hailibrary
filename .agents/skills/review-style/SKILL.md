@@ -22,6 +22,7 @@ Check that:
 - exclusions explicitly prevent embedded text, letters, numbers, logos, captions, speech bubbles, and watermarks;
 - neither the name nor prompt requests a living artist's recognizable style or a studio, franchise, protected character, or branded visual identity;
 - the generation prompt is concise, actionable, and consistent with the structured fields;
+- the prompt controls only visual treatment and does not prescribe prose, dialogue, vocabulary, reading difficulty, or locale adaptation;
 - the thumbnail visibly represents the declared treatment, remains wordless and original, exists as WebP, and is covered by Git LFS.
 
 Return actionable findings first with exact paths and fields or visible regions. Return `PASS` only when there are no findings, with a short summary of the treatment, continuity controls, exclusions, thumbnail inspection, and LFS result. Return `NEEDS_LEGAL_REVIEW` when material imitation or identity risk cannot be resolved editorially.

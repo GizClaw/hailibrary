@@ -1,0 +1,61 @@
+schema_version: 1
+id: i
+external_reference:
+  reading_a_z_label: I
+  age_band: 6-7
+  en_grade_reference: 1
+  en_lexile_reference: 190L-530L
+reading_goal: connect a sequence of causes and identify a simple central idea
+prompt: Write at HaiLibrary Level I to connect a sequence of causes and identify a simple central idea. Connect several causes in fluent prose and let the central idea emerge across pages. Separate narrator explanation from character speech.
+text_contract:
+  structure: multi-cause short arc
+  syntax: varied simple compound and controlled complex sentences
+  vocabulary: relational and introductory academic terms
+  knowledge: one retained process or setting
+  illustration_reliance: medium
+  inference: evidence across two pages
+complexity_floor:
+  - one result has multiple causes
+  - the central idea needs more than one page
+pages:
+  min: 12
+  max: 16
+questions:
+  min: 4
+  max: 6
+  types:
+    - sequence
+    - cause-effect
+    - short-answer
+    - character-motive
+    - main-idea
+    - evidence
+  required:
+    - main-idea
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 7
+      - 12
+    sentences_per_page_max: 5
+    units_per_sentence_max: 15
+    units_per_page_typical:
+      - 14
+      - 27
+    units_per_page_max: 39
+    units_total_min: 170
+    units_total_max: 380
+    new_words_per_page_max: 3
+  zh:
+    mean_sentence_units_typical:
+      - 12
+      - 20
+    sentences_per_page_max: 5
+    units_per_sentence_max: 26
+    units_per_page_typical:
+      - 21
+      - 40
+    units_per_page_max: 57
+    units_total_min: 260
+    units_total_max: 550
+    new_words_per_page_max: 3

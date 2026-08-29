@@ -1,50 +1,480 @@
-schema_version: 1
+schema_version: 2
 language: en-US
 writer: north-star-map
 title: The Valley of Borrowed Shadows
 summary: A valley clock tower casts two shadows although only one sun is visible. Li and Tama test several explanations, trace the faint shadow to a ridge mirror, and help two communities redirect useful light without confusing the clock.
-cast:
-  narrator: {display_name: Narrator, tts: {delivery: patient and precise, timbre: low adult voice, pace: medium-slow, pitch: medium-low}}
-  li: {display_name: Li, tts: {delivery: analytical and open-minded, timbre: clear adult voice, pace: medium, pitch: medium}}
-  oren: {display_name: Oren, tts: {delivery: guarded then cooperative, timbre: resonant older-adult voice, pace: medium-slow, pitch: low}}
-  tama: {display_name: Tama, tts: {delivery: skeptical and quick, timbre: bright young-adult voice, pace: medium-fast, pitch: medium-high}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Li enters the deep valley at dawn with an amber prism and a field case."}, {speaker: narrator, text: "She has come to examine the town's increasingly unreliable shadow clock."}]}
-  - id: p02
-    illustration: p02
-    lines:
-      - speaker: narrator
-        content: [{text: "The stone tower casts two long "}, {vocabulary: {id: shadow, text: shadows}}, {text: " across the empty plaza."}]
-      - {speaker: li, text: "Two dark shapes suggest more than one source of light."}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "Tama carefully marks both moving edges with separate colored cords."}, {speaker: tama, text: "The stronger shadow points west. The faint one points elsewhere across the plaza."}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "Some worried residents blame a second sun; others point toward the hidden ridge machinery."}, {speaker: li, text: "A claim becomes useful only when it predicts what we should observe next."}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Li compares the shadows closely."}, {speaker: narrator, text: "One has a sharp gray edge, while the other is faint and slightly green."}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "The greenish shadow shortens quickly across Tama's marked cords."}, {speaker: narrator, text: "During the same measured minutes, the natural sun shadow changes only a little."}]}
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "Li holds her prism in a dusty beam crossing the plaza."}, {speaker: narrator, text: "The split colors show that the beam carries ordinary reflected sunlight."}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "The beam rises toward an immense curved shape on the ridge."}, {speaker: tama, text: "Then the second light may come from above, not from another sun."}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "Tama shows Li the old circular clock face in the center of town."}, {speaker: narrator, text: "Its two pointer shadows disagree, so residents cannot read the hour reliably or plan shared work."}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "Li and Tama climb a maintained stone stair instead of crossing the steep slope."}, {speaker: narrator, text: "The reflected beam remains visible above them."}]}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "At the ridge, Oren guards a vast mirror partly covered by cloth."}, {speaker: oren, text: "The valley rarely asks where its winter light comes from."}]}
-  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: "Rows of enormous curved mirrors face different parts of the valley."}, {speaker: narrator, text: "Their original water channels once turned them together as the sun moved through the winter sky."}]}
-  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: "Oren rotates one mirror by a small amount."}, {speaker: narrator, text: "A warm reflected beam slides across the lower plaza."}]}
-  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "Far below, the faint shadow moves at exactly the same moment."}, {speaker: li, text: "That linked change supports the mirror explanation."}]}
-  - {id: p15, illustration: p15, lines: [{speaker: narrator, text: "Oren reveals cracked water channels beside the old mechanism."}, {speaker: oren, text: "I adjusted mirrors by hand to keep the ridge greenhouse warm."}]}
-  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "His physical model shows sunlight redirected around a rock wall toward a shaded greenhouse."}, {speaker: narrator, text: "Without that added energy, young food plants develop more slowly during the coldest winter weeks."}]}
-  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: "Tama looks from the confused clock toward the distant greenhouse."}, {speaker: tama, text: "The same beam helps one place and disrupts another."}]}
-  - {id: p18, illustration: p18, lines: [{speaker: narrator, text: "Li places two light tokens between the ridge and valley models."}, {speaker: li, text: "We need a receiver that serves the greenhouse without crossing the clock."}]}
-  - {id: p19, illustration: p19, lines: [{speaker: narrator, text: "Residents from both communities gather and compare the shared physical model."}, {speaker: narrator, text: "They reject turning every mirror off and choose a separate receiver beyond the clock plaza."}]}
-  - {id: p20, illustration: p20, lines: [{speaker: narrator, text: "The mirrors rotate away from the clock plaza."}, {speaker: narrator, text: "Their light now reaches a pale stone receiver connected to the ridge system."}]}
-  - {id: p21, illustration: p21, lines: [{speaker: narrator, text: "The clock tower casts one clear shadow again."}, {speaker: narrator, text: "Above it, the ridge receiver glows and the greenhouse keeps its useful light."}]}
-  - {id: p22, illustration: p22, lines: [{speaker: narrator, text: "As Li departs at sunrise, Oren and Tama inspect the repaired controls together."}, {speaker: tama, text: "Next time one valley changes another, both will examine the evidence."}]}
 chapters:
-  - {id: ch01, title: Two Shadows, page_refs: [p01, p02, p03, p04, p05, p06]}
-  - {id: ch02, title: A Light from the Ridge, page_refs: [p07, p08, p09, p10, p11, p12, p13, p14]}
-  - {id: ch03, title: One Beam, Two Effects, page_refs: [p15, p16, p17, p18]}
-  - {id: ch04, title: A Shared Receiver, page_refs: [p19, p20, p21, p22]}
+  - id: ch01
+    title: Two Shadows
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
+  - id: ch02
+    title: A Light from the Ridge
+    page_refs:
+      - p07
+      - p08
+      - p09
+      - p10
+      - p11
+      - p12
+      - p13
+      - p14
+  - id: ch03
+    title: One Beam
+    Two Effects: null
+    page_refs:
+      - p15
+      - p16
+      - p17
+      - p18
+  - id: ch04
+    title: A Shared Receiver
+    page_refs:
+      - p19
+      - p20
+      - p21
+      - p22
 questions:
-  - {id: q01, type: evidence, speaker: narrator, prompt: "What evidence connects the faint shadow to the ridge mirror?", answer: "The greenish beam points toward the ridge, and the faint shadow moves at the exact moment Oren rotates a mirror.", page_refs: [p05, p07, p08, p13, p14]}
-  - {id: q02, type: compare, speaker: narrator, prompt: "How do the two shadows behave differently?", answer: "The natural shadow is sharp and changes slowly, while the reflected shadow is faint, greenish, and changes quickly with the mirror.", page_refs: [p05, p06, p13, p14]}
-  - {id: q03, type: cause-effect, speaker: narrator, prompt: "Why has Oren been adjusting the mirrors by hand?", answer: "Cracked water channels no longer move them correctly, and he wants reflected sunlight to warm the shaded greenhouse.", page_refs: [p12, p15, p16]}
-  - {id: q04, type: character-motive, speaker: narrator, prompt: "Why do the communities reject turning every mirror off?", answer: "That would fix the clock but remove light that supports the ridge greenhouse.", page_refs: [p16, p17, p18, p19]}
-  - {id: q05, type: evaluate, speaker: narrator, prompt: "Why is the separate receiver a stronger solution?", answer: "It removes reflected light from the clock while preserving useful energy for the greenhouse, so it addresses both effects.", page_refs: [p18, p19, p20, p21]}
-  - {id: q06, type: main-idea, speaker: narrator, prompt: "What central lesson does Li's investigation show?", answer: "Testing predictions and tracing linked changes can replace competing guesses with an explanation that supports a shared decision.", page_refs: [p04, p06, p08, p13, p14, p19]}
+  - id: q01
+    type: evidence
+    speaker: narrator
+    prompt: What evidence connects the faint shadow to the ridge mirror?
+    answer: The greenish beam points toward the ridge, and the faint shadow moves at the exact moment Oren rotates a mirror.
+    page_refs:
+      - p05
+      - p07
+      - p08
+      - p13
+      - p14
+  - id: q02
+    type: compare
+    speaker: narrator
+    prompt: How do the two shadows behave differently?
+    answer: The natural shadow is sharp and changes slowly, while the reflected shadow is faint, greenish, and changes quickly with the mirror.
+    page_refs:
+      - p05
+      - p06
+      - p13
+      - p14
+  - id: q03
+    type: cause-effect
+    speaker: narrator
+    prompt: Why has Oren been adjusting the mirrors by hand?
+    answer: Cracked water channels no longer move them correctly, and he wants reflected sunlight to warm the shaded greenhouse.
+    page_refs:
+      - p12
+      - p15
+      - p16
+  - id: q04
+    type: character-motive
+    speaker: narrator
+    prompt: Why do the communities reject turning every mirror off?
+    answer: That would fix the clock but remove light that supports the ridge greenhouse.
+    page_refs:
+      - p16
+      - p17
+      - p18
+      - p19
+  - id: q05
+    type: evaluate
+    speaker: narrator
+    prompt: Why is the separate receiver a stronger solution?
+    answer: It removes reflected light from the clock while preserving useful energy for the greenhouse, so it addresses both effects.
+    page_refs:
+      - p18
+      - p19
+      - p20
+      - p21
+  - id: q06
+    type: main-idea
+    speaker: narrator
+    prompt: What central lesson does Li's investigation show?
+    answer: Testing predictions and tracing linked changes can replace competing guesses with an explanation that supports a shared decision.
+    page_refs:
+      - p04
+      - p06
+      - p08
+      - p13
+      - p14
+      - p19
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: "Li enters the deep valley at dawn with an amber prism and a field case. "
+            - text: She has come to examine the town's increasingly unreliable shadow clock.
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: "The stone tower casts two long "
+            - vocabulary:
+                id: shadow
+                text: shadows
+            - text: " across the empty plaza. Li says, “"
+            - text: Two shadows mean there may be a second light source.”
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: Tama carefully marks both moving edges with separate colored cords. Tama says, “
+            - text: The stronger shadow points west. The faint one points elsewhere across the plaza.”
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: Some residents blame a second sun; others point toward the ridge machinery. Li raises her prism. “If either guess is right, it should tell us what to look for next.”
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: "Li compares the shadows closely. "
+            - text: One has a sharp gray edge, while the other is faint and slightly green.
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: "The greenish shadow shortens quickly across Tama's marked cords. "
+            - text: During the same measured minutes, the natural sun shadow changes only a little.
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: "Li holds her prism in a dusty beam crossing the plaza. "
+            - text: The split colors show that the beam carries ordinary reflected sunlight.
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - text: The beam rises toward an immense curved shape on the ridge. Tama says, “
+            - text: Then the second light may come from above, not from another sun.”
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - content:
+            - text: "Tama shows Li the old circular clock face in the center of town. "
+            - text: Its two pointer shadows disagree, so residents cannot read the hour reliably or plan shared work.
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - content:
+            - text: "Li and Tama climb a maintained stone stair instead of crossing the steep slope. "
+            - text: The reflected beam remains visible above them.
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - content:
+            - text: At the ridge, Oren guards a vast mirror partly covered by cloth. Oren says, “
+            - text: People here are used to winter light. They stopped asking where it came from.”
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - content:
+            - text: "Rows of enormous curved mirrors face different parts of the valley. "
+            - text: Their original water channels once turned them together as the sun moved through the winter sky.
+    - id: p13
+      illustration: p13
+      paragraphs:
+        - content:
+            - text: "Oren rotates one mirror by a small amount. "
+            - text: A warm reflected beam slides across the lower plaza.
+    - id: p14
+      illustration: p14
+      paragraphs:
+        - content:
+            - text: Far below, the faint shadow moves at the same moment. Li calls to Tama, “Mark the time. The shadow moved when Oren moved the mirror.”
+    - id: p15
+      illustration: p15
+      paragraphs:
+        - content:
+            - text: Oren reveals cracked water channels beside the old mechanism. Oren says, “
+            - text: I adjusted mirrors by hand to keep the ridge greenhouse warm.”
+    - id: p16
+      illustration: p16
+      paragraphs:
+        - content:
+            - text: "His physical model shows sunlight redirected around a rock wall toward a shaded greenhouse. "
+            - text: Without that added energy, young food plants develop more slowly during the coldest winter weeks.
+    - id: p17
+      illustration: p17
+      paragraphs:
+        - content:
+            - text: Tama looks from the confused clock toward the distant greenhouse. “If we turn the beam off, the greenhouse loses heat. If we leave it here, the clock stays wrong.”
+    - id: p18
+      illustration: p18
+      paragraphs:
+        - content:
+            - text: Li places two light tokens between the ridge and valley models. Li says, “
+            - text: We need to send light to the greenhouse without letting it cross the clock.”
+    - id: p19
+      illustration: p19
+      paragraphs:
+        - content:
+            - text: "Residents from both communities gather and compare the shared physical model. "
+            - text: They reject turning every mirror off and choose a separate receiver beyond the clock plaza.
+    - id: p20
+      illustration: p20
+      paragraphs:
+        - content:
+            - text: "The mirrors rotate away from the clock plaza. "
+            - text: Their light now reaches a pale stone receiver connected to the ridge system.
+    - id: p21
+      illustration: p21
+      paragraphs:
+        - content:
+            - text: "The clock tower casts one clear shadow again. "
+            - text: Above it, the ridge receiver glows and the greenhouse still receives the light it needs.
+    - id: p22
+      illustration: p22
+      paragraphs:
+        - content:
+            - text: Li departs at sunrise while Oren and Tama inspect the repaired controls. Tama hands Oren the two-shadow model. “At noon, we check the clock and receiver together.”
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: patient and precise
+        timbre: low adult voice
+        pace: medium-slow
+        pitch: medium-low
+    li:
+      display_name: Li
+      tts:
+        delivery: analytical and open-minded
+        timbre: clear adult voice
+        pace: medium
+        pitch: medium
+    oren:
+      display_name: Oren
+      tts:
+        delivery: guarded then cooperative
+        timbre: resonant older-adult voice
+        pace: medium-slow
+        pitch: low
+    tama:
+      display_name: Tama
+      tts:
+        delivery: skeptical and quick
+        timbre: bright young-adult voice
+        pace: medium-fast
+        pitch: medium-high
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: Li enters the deep valley at dawn with an amber prism and a field case.
+        - id: p01-b02
+          speaker: narrator
+          text: She has come to examine the town's increasingly unreliable shadow clock.
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - text: "The stone tower casts two long "
+            - vocabulary:
+                id: shadow
+                text: shadows
+            - text: " across the empty plaza."
+        - id: p02-b02
+          speaker: li
+          text: Two shadows mean there may be a second light source.
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          text: Tama carefully marks both moving edges with separate colored cords.
+        - id: p03-b02
+          speaker: tama
+          text: The stronger shadow points west. The faint one points elsewhere across the plaza.
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          content:
+            - text: Some residents blame a second sun; others point toward the ridge machinery. Li raises her prism.
+        - id: p04-b02
+          speaker: li
+          content:
+            - text: If either guess is right, it should tell us what to look for next.
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: Li compares the shadows closely.
+        - id: p05-b02
+          speaker: narrator
+          text: One has a sharp gray edge, while the other is faint and slightly green.
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: The greenish shadow shortens quickly across Tama's marked cords.
+        - id: p06-b02
+          speaker: narrator
+          text: During the same measured minutes, the natural sun shadow changes only a little.
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          text: Li holds her prism in a dusty beam crossing the plaza.
+        - id: p07-b02
+          speaker: narrator
+          text: The split colors show that the beam carries ordinary reflected sunlight.
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          text: The beam rises toward an immense curved shape on the ridge.
+        - id: p08-b02
+          speaker: tama
+          text: Then the second light may come from above, not from another sun.
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          text: Tama shows Li the old circular clock face in the center of town.
+        - id: p09-b02
+          speaker: narrator
+          text: Its two pointer shadows disagree, so residents cannot read the hour reliably or plan shared work.
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          text: Li and Tama climb a maintained stone stair instead of crossing the steep slope.
+        - id: p10-b02
+          speaker: narrator
+          text: The reflected beam remains visible above them.
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          text: At the ridge, Oren guards a vast mirror partly covered by cloth.
+        - id: p11-b02
+          speaker: oren
+          text: People here are used to winter light. They stopped asking where it came from.
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          text: Rows of enormous curved mirrors face different parts of the valley.
+        - id: p12-b02
+          speaker: narrator
+          text: Their original water channels once turned them together as the sun moved through the winter sky.
+    - id: p13
+      illustration: p13
+      blocks:
+        - id: p13-b01
+          speaker: narrator
+          text: Oren rotates one mirror by a small amount.
+        - id: p13-b02
+          speaker: narrator
+          text: A warm reflected beam slides across the lower plaza.
+    - id: p14
+      illustration: p14
+      blocks:
+        - id: p14-b01
+          speaker: narrator
+          content:
+            - text: Far below, the faint shadow moves at the same moment.
+        - id: p14-b02
+          speaker: li
+          content:
+            - text: Mark the time. The shadow moved when Oren moved the mirror.
+    - id: p15
+      illustration: p15
+      blocks:
+        - id: p15-b01
+          speaker: narrator
+          text: Oren reveals cracked water channels beside the old mechanism.
+        - id: p15-b02
+          speaker: oren
+          text: I adjusted mirrors by hand to keep the ridge greenhouse warm.
+    - id: p16
+      illustration: p16
+      blocks:
+        - id: p16-b01
+          speaker: narrator
+          text: His physical model shows sunlight redirected around a rock wall toward a shaded greenhouse.
+        - id: p16-b02
+          speaker: narrator
+          text: Without that added energy, young food plants develop more slowly during the coldest winter weeks.
+    - id: p17
+      illustration: p17
+      blocks:
+        - id: p17-b01
+          speaker: narrator
+          content:
+            - text: Tama looks from the confused clock toward the distant greenhouse.
+        - id: p17-b02
+          speaker: tama
+          content:
+            - text: If we turn the beam off, the greenhouse loses heat. If we leave it here, the clock stays wrong.
+    - id: p18
+      illustration: p18
+      blocks:
+        - id: p18-b01
+          speaker: narrator
+          text: Li places two light tokens between the ridge and valley models.
+        - id: p18-b02
+          speaker: li
+          text: We need to send light to the greenhouse without letting it cross the clock.
+    - id: p19
+      illustration: p19
+      blocks:
+        - id: p19-b01
+          speaker: narrator
+          text: Residents from both communities gather and compare the shared physical model.
+        - id: p19-b02
+          speaker: narrator
+          text: They reject turning every mirror off and choose a separate receiver beyond the clock plaza.
+    - id: p20
+      illustration: p20
+      blocks:
+        - id: p20-b01
+          speaker: narrator
+          text: The mirrors rotate away from the clock plaza.
+        - id: p20-b02
+          speaker: narrator
+          text: Their light now reaches a pale stone receiver connected to the ridge system.
+    - id: p21
+      illustration: p21
+      blocks:
+        - id: p21-b01
+          speaker: narrator
+          text: The clock tower casts one clear shadow again.
+        - id: p21-b02
+          speaker: narrator
+          text: Above it, the ridge receiver glows and the greenhouse still receives the light it needs.
+    - id: p22
+      illustration: p22
+      blocks:
+        - id: p22-b01
+          speaker: narrator
+          content:
+            - text: Li departs at sunrise while Oren and Tama inspect the repaired controls. Tama hands Oren the two-shadow model.
+        - id: p22-b02
+          speaker: tama
+          content:
+            - text: At noon, we check the clock and receiver together.

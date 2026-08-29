@@ -1,0 +1,57 @@
+schema_version: 1
+id: a
+external_reference:
+  reading_a_z_label: A
+  age_band: 5-6
+  en_grade_reference: K
+  en_lexile_reference: BR70L-10L
+reading_goal: recognize familiar words and follow one visible action through a predictable sequence
+prompt: Write at HaiLibrary Level A to recognize familiar words and follow one visible action through a predictable sequence. Use familiar, natural spoken clauses and a predictable visible sequence. Repetition must serve the action rather than sound like a worksheet.
+text_contract:
+  structure: ordered visible actions
+  syntax: short simple clauses with explicit subjects
+  vocabulary: concrete high-frequency and readily decodable
+  knowledge: familiar objects actions and routines
+  illustration_reliance: essential
+  inference: none
+complexity_floor:
+  - visible actions form an order
+  - the repeated frame changes meaningfully
+pages:
+  min: 6
+  max: 12
+questions:
+  min: 2
+  max: 3
+  types:
+    - picture
+    - explicit-choice
+  required:
+    - picture
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 2
+      - 5
+    sentences_per_page_max: 2
+    units_per_sentence_max: 6
+    units_per_page_typical:
+      - 3
+      - 7
+    units_per_page_max: 9
+    units_total_min: 16
+    units_total_max: 50
+    new_words_per_page_max: 1
+  zh:
+    mean_sentence_units_typical:
+      - 4
+      - 8
+    sentences_per_page_max: 2
+    units_per_sentence_max: 10
+    units_per_page_typical:
+      - 4
+      - 10
+    units_per_page_max: 13
+    units_total_min: 25
+    units_total_max: 80
+    new_words_per_page_max: 1

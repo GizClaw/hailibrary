@@ -1,33 +1,277 @@
-schema_version: 1
+schema_version: 2
 language: zh-CN
 writer: 月芽笺
 title: 每条河边的小屋
-summary: 若修好了一座会沿河旅行的小屋。她起初希望小屋留下，后来发现每次停靠都能认识新邻居，分享工具，也带走一段新的回忆。
-cast:
-  narrator: {display_name: 旁白, tts: {delivery: 温暖从容, timbre: 柔和的成年声音, pace: 中慢速, pitch: 中音}}
-  ruo: {display_name: 若, tts: {delivery: 细心温柔, timbre: 清楚的年轻声音, pace: 中速, pitch: 中音}}
-  he: {display_name: 阿和, tts: {delivery: 沉静幽默, timbre: 温厚的年长声音, pace: 慢速, pitch: 中低音}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 若背着工具沿河走。}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 一座温暖的小屋停在水边。}, {speaker: narrator, text: 屋底藏着轮子。}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 阿和在蓝门前欢迎若。}, {speaker: he, text: 有一只轮子歪了。}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 若打开红色工具卷，修好轮子。}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 清晨，小屋沿着河岸滚动。}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 他们停在一条宽阔的芦苇河边。}, {speaker: narrator, text: 附近有个小村子。}]}
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 邻居们在屋外分享蔬菜。}, {speaker: ruo, text: 留在这里也很好。}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 夜里，屋轮自己转向另一条路。}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 若有些失望。}, {speaker: he, text: 小屋会去需要它的河边。}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 若把一颗河石放上架子。}, {speaker: ruo, text: 那我就带着这次相遇。}]}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: 小屋来到红土地间的窄河边。}]}
-  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 新邻居借用若的工具。}, {speaker: narrator, text: 大家一起修好长椅。}]}
-  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: 若比较架子上不同的河石。}, {speaker: narrator, text: 她笑了。}]}
-  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: 小屋又向下一条河出发。}, {speaker: narrator, text: 两座山上的朋友一起挥手。}]}
+summary: 若修好了一座沿河旅行的小屋。她舍不得离开第一个村子，后来才找到一种办法，把走过的地方带在身边。
 chapters:
-  - {id: ch01, title: 有轮子的小屋, page_refs: [p01, p02, p03, p04, p05]}
-  - {id: ch02, title: 离开芦苇河, page_refs: [p06, p07, p08, p09, p10]}
-  - {id: ch03, title: 带走每次相遇, page_refs: [p11, p12, p13, p14]}
+  - id: ch01
+    title: 有轮子的小屋
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+  - id: ch02
+    title: 离开芦苇河
+    page_refs:
+      - p06
+      - p07
+      - p08
+      - p09
+      - p10
+  - id: ch03
+    title: 带走每次相遇
+    page_refs:
+      - p11
+      - p12
+      - p13
+      - p14
 questions:
-  - {id: q01, type: sequence, speaker: narrator, prompt: 小屋移动前，若先做了什么？, answer: 修好歪斜的轮子。, page_refs: [p03, p04, p05]}
-  - {id: q02, type: cause-effect, speaker: narrator, prompt: 若为什么保存一颗河石？, answer: 小屋要离开，她想记住这次相遇。, page_refs: [p08, p09, p10]}
-  - {id: q03, type: short-answer, speaker: narrator, prompt: 若在红土河边怎样帮助邻居？, answer: 分享工具，一起修好长椅。, page_refs: [p11, p12]}
-  - {id: q04, type: explicit-choice, speaker: narrator, prompt: 比较河石后，若是什么心情？, choices: [开心, 生气, 害怕], answer: 开心。, page_refs: [p13]}
+  - id: q01
+    type: sequence
+    speaker: narrator
+    prompt: 小屋移动前，若先做了什么？
+    answer: 修好歪斜的轮子。
+    page_refs:
+      - p03
+      - p04
+      - p05
+  - id: q02
+    type: cause-effect
+    speaker: narrator
+    prompt: 若为什么保存一颗河石？
+    answer: 小屋要离开，她想记住这次相遇。
+    page_refs:
+      - p08
+      - p09
+      - p10
+  - id: q03
+    type: short-answer
+    speaker: narrator
+    prompt: 若在红土河边怎样帮助邻居？
+    answer: 分享工具，一起修好长椅。
+    page_refs:
+      - p11
+      - p12
+  - id: q04
+    type: explicit-choice
+    speaker: narrator
+    prompt: 比较河石后，若是什么心情？
+    choices:
+      - 开心
+      - 生气
+      - 害怕
+    answer: 开心。
+    page_refs:
+      - p13
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: 若夹着红色工具卷，沿河边的小路往前走。
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: 水边停着一座暖融融的小屋。屋底还藏着几只小轮子。
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: 阿和打开蓝门，说：“有只轮子歪了。”
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: 若摊开工具卷，把歪轮子修得端端正正。
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: 天一亮，小屋便沿着河岸轻轻滚动起来。
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: 它停在一座村子旁。宽阔的河边长满芦苇。
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: 邻居们提来蔬菜。若跟大家说笑：“留在这里多好。”
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - text: 可是到了夜里，屋轮又悄悄转向一条新路。
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - content:
+            - text: 若沉默了。阿和关上门：“别的河也需要小屋。”
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - content:
+            - text: 若捡起一颗河石：“它能帮我记住这里。”
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - content:
+            - text: 小屋继续走，来到红土地间一条窄窄的河边。
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - content:
+            - text: 新邻居借用若的工具。大家一起修好旧长椅。
+    - id: p13
+      illustration: p13
+      paragraphs:
+        - content:
+            - text: 若把两颗河石放在一起。不同的颜色让她又笑了。
+    - id: p14
+      illustration: p14
+      paragraphs:
+        - content:
+            - text: 小屋再次出发。远处两座山上，朋友们都在朝它挥手。
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖从容
+        timbre: 柔和的成年声音
+        pace: 中慢速
+        pitch: 中音
+    ruo:
+      display_name: 若
+      tts:
+        delivery: 细心温柔
+        timbre: 清楚的年轻声音
+        pace: 中速
+        pitch: 中音
+    he:
+      display_name: 阿和
+      tts:
+        delivery: 沉静幽默
+        timbre: 温厚的年长声音
+        pace: 慢速
+        pitch: 中低音
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          content:
+            - text: 若夹着红色工具卷，沿河边的小路往前走。
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - text: 水边停着一座暖融融的小屋。屋底还藏着几只小轮子。
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          content:
+            - text: 阿和打开蓝门。
+        - id: p03-b02
+          speaker: he
+          content:
+            - text: 有只轮子歪了。
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          content:
+            - text: 若摊开工具卷，把歪轮子修得端端正正。
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          content:
+            - text: 天一亮，小屋便沿着河岸轻轻滚动起来。
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          content:
+            - text: 小屋停在一座村子旁。宽阔的河边长满芦苇。
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          content:
+            - text: 邻居们提来蔬菜。若跟大家说笑。
+        - id: p07-b02
+          speaker: ruo
+          content:
+            - text: 留在这里多好。
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          content:
+            - text: 可是到了夜里，屋轮又悄悄转向一条新路。
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          content:
+            - text: 若沉默了。阿和关上门。
+        - id: p09-b02
+          speaker: he
+          content:
+            - text: 别的河也需要小屋。
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          content:
+            - text: 若捡起一颗河石。
+        - id: p10-b02
+          speaker: ruo
+          content:
+            - text: 它能帮我记住这里。
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          content:
+            - text: 小屋继续走，来到红土地间一条窄窄的河边。
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          content:
+            - text: 新邻居借用若的工具。大家一起修好旧长椅。
+    - id: p13
+      illustration: p13
+      blocks:
+        - id: p13-b01
+          speaker: narrator
+          content:
+            - text: 若把两颗河石放在一起。不同的颜色让她又笑了。
+    - id: p14
+      illustration: p14
+      blocks:
+        - id: p14-b01
+          speaker: narrator
+          content:
+            - text: 小屋再次出发。远处两座山上，朋友们都在朝它挥手。

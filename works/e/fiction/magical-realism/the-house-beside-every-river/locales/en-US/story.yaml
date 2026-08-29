@@ -1,33 +1,277 @@
-schema_version: 1
+schema_version: 2
 language: en-US
 writer: silver-bell
 title: The House Beside Every River
-summary: Ruo repairs a little house that travels beside rivers. She first wishes it would stay, but each new stop lets her exchange help, tools, and memories with another community.
-cast:
-  narrator: {display_name: Narrator, tts: {delivery: warm and unhurried, timbre: gentle adult voice, pace: medium-slow, pitch: medium}}
-  ruo: {display_name: Ruo, tts: {delivery: observant and gentle, timbre: clear young-adult voice, pace: medium, pitch: medium}}
-  he: {display_name: Keeper, tts: {delivery: thoughtful and dry, timbre: mellow older voice, pace: slow, pitch: low-medium}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Ruo follows a river path with her tools."}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "A warm little house waits beside the water."}, {speaker: narrator, text: "Hidden wheels rest underneath."}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "The keeper welcomes Ruo at the blue door."}, {speaker: he, text: "One wheel leans badly."}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "Ruo opens her red tool roll and repairs it."}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "At dawn, the house rolls along the river."}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "They stop beside a broad reed river."}, {speaker: narrator, text: "A small village stands nearby."}]}
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "Neighbors share vegetables outside the house."}, {speaker: ruo, text: "I could stay here."}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "That night, the wheels turn toward another path."}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "Ruo looks disappointed."}, {speaker: he, text: "This house visits rivers that need it."}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "Ruo places one river pebble on the shelf."}, {speaker: ruo, text: "Then I will carry this visit."}]}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "The house reaches a narrow red-earth river."}]}
-  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: "New neighbors borrow Ruo's tools."}, {speaker: narrator, text: "Together, they repair a bench."}]}
-  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: "Ruo compares the different river pebbles."}, {speaker: narrator, text: "Now she smiles."}]}
-  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "The house rolls toward another river."}, {speaker: narrator, text: "Friends wave from two distant hills."}]}
+summary: Ruo repairs a little house that travels from river to river. She wants to stay at the first village, but the house teaches her another way to keep a place close.
 chapters:
-  - {id: ch01, title: A House on Wheels, page_refs: [p01, p02, p03, p04, p05]}
-  - {id: ch02, title: Leaving the Reed River, page_refs: [p06, p07, p08, p09, p10]}
-  - {id: ch03, title: Visits to Carry, page_refs: [p11, p12, p13, p14]}
+  - id: ch01
+    title: A House on Wheels
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+  - id: ch02
+    title: Leaving the Reed River
+    page_refs:
+      - p06
+      - p07
+      - p08
+      - p09
+      - p10
+  - id: ch03
+    title: Visits to Carry
+    page_refs:
+      - p11
+      - p12
+      - p13
+      - p14
 questions:
-  - {id: q01, type: sequence, speaker: narrator, prompt: "What does Ruo do before the house moves?", answer: "She repairs its leaning wheel.", page_refs: [p03, p04, p05]}
-  - {id: q02, type: cause-effect, speaker: narrator, prompt: "Why does Ruo save a river pebble?", answer: "The house must leave, so she keeps a memory of the visit.", page_refs: [p08, p09, p10]}
-  - {id: q03, type: short-answer, speaker: narrator, prompt: "How does Ruo help at the red-earth river?", answer: "She shares her tools and helps repair a bench.", page_refs: [p11, p12]}
-  - {id: q04, type: explicit-choice, speaker: narrator, prompt: "How does Ruo feel after comparing the pebbles?", choices: [Glad, Angry, Afraid], answer: "Glad.", page_refs: [p13]}
+  - id: q01
+    type: sequence
+    speaker: narrator
+    prompt: What does Ruo do before the house moves?
+    answer: She repairs its leaning wheel.
+    page_refs:
+      - p03
+      - p04
+      - p05
+  - id: q02
+    type: cause-effect
+    speaker: narrator
+    prompt: Why does Ruo save a river pebble?
+    answer: The house must leave, so she keeps a memory of the visit.
+    page_refs:
+      - p08
+      - p09
+      - p10
+  - id: q03
+    type: short-answer
+    speaker: narrator
+    prompt: How does Ruo help at the red-earth river?
+    answer: She shares her tools and helps repair a bench.
+    page_refs:
+      - p11
+      - p12
+  - id: q04
+    type: explicit-choice
+    speaker: narrator
+    prompt: How does Ruo feel after comparing the pebbles?
+    choices:
+      - Glad
+      - Angry
+      - Afraid
+    answer: Glad.
+    page_refs:
+      - p13
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: Ruo follows the river path with her red tool roll.
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: A warm little house waits beside the water. Small wheels hide beneath its floor.
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: The keeper opens the blue door. “One wheel has leaned all morning,” they say.
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: Ruo opens her tools and sets the crooked wheel straight.
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: At dawn, the repaired house rolls along the river.
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: It stops by a village near a broad reed river.
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: Neighbors bring vegetables. Ruo laughs with them. “I could stay here,” she says.
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - text: That night, the little wheels turn toward a new path.
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - content:
+            - text: Ruo stops smiling. The keeper closes the door. “Other rivers need this house.”
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - content:
+            - text: Ruo picks up a smooth pebble. “This visit can come with me.”
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - content:
+            - text: The house reaches a narrow river in red earth.
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - content:
+            - text: New neighbors borrow Ruo's tools. Together, they mend a bench.
+    - id: p13
+      illustration: p13
+      paragraphs:
+        - content:
+            - text: Ruo sets another pebble beside the first. Their colors make her smile.
+    - id: p14
+      illustration: p14
+      paragraphs:
+        - content:
+            - text: The house sets off again. Friends on two hills wave goodbye.
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried
+        timbre: gentle adult voice
+        pace: medium-slow
+        pitch: medium
+    ruo:
+      display_name: Ruo
+      tts:
+        delivery: observant and gentle
+        timbre: clear young-adult voice
+        pace: medium
+        pitch: medium
+    he:
+      display_name: Keeper
+      tts:
+        delivery: thoughtful and dry
+        timbre: mellow older voice
+        pace: slow
+        pitch: low-medium
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          content:
+            - text: Ruo follows the river path with her red tool roll.
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - text: A warm little house waits beside the water. Small wheels hide beneath its floor.
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          content:
+            - text: The keeper opens the blue door.
+        - id: p03-b02
+          speaker: he
+          content:
+            - text: One wheel has leaned all morning.
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          content:
+            - text: Ruo opens her tools and sets the crooked wheel straight.
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          content:
+            - text: At dawn, the repaired house rolls along the river.
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          content:
+            - text: The house stops by a village near a broad reed river.
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          content:
+            - text: Neighbors bring vegetables. Ruo laughs with them.
+        - id: p07-b02
+          speaker: ruo
+          content:
+            - text: I could stay here.
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          content:
+            - text: That night, the little wheels turn toward a new path.
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          content:
+            - text: Ruo stops smiling. The keeper closes the door.
+        - id: p09-b02
+          speaker: he
+          content:
+            - text: Other rivers need this house.
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          content:
+            - text: Ruo picks up a smooth pebble.
+        - id: p10-b02
+          speaker: ruo
+          content:
+            - text: This visit can come with me.
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          content:
+            - text: The house reaches a narrow river in red earth.
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          content:
+            - text: New neighbors borrow Ruo's tools. Together, they mend a bench.
+    - id: p13
+      illustration: p13
+      blocks:
+        - id: p13-b01
+          speaker: narrator
+          content:
+            - text: Ruo sets another pebble beside the first. Their colors make her smile.
+    - id: p14
+      illustration: p14
+      blocks:
+        - id: p14-b01
+          speaker: narrator
+          content:
+            - text: The house sets off again. Friends on two hills wave goodbye.

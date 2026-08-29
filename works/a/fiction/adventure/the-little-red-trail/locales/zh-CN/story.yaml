@@ -1,19 +1,73 @@
-schema_version: 1
+schema_version: 2
 language: zh-CN
 writer: 溪铃
 title: 山路上的红丝带
-summary: 安带着红丝带上山。他在岔路旁系下丝带做记号，顺利走到村子。大家也做了红路标。
-cast:
-  narrator: {display_name: 旁白, tts: {delivery: 温柔清楚, timbre: 清亮的成年声音, pace: 慢速, pitch: 中音}}
-  an: {display_name: 安, tts: {delivery: 好奇明快, timbre: 清脆的童声, pace: 中慢速, pitch: 中高音}}
-  villagers: {display_name: 村民们, tts: {delivery: 热情亲切, timbre: 友好的多人声音, pace: 中慢速, pitch: 中音}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 安拿着红丝带。}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 安沿着山路往上走。}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 山路分成两条。}]}
-  - {id: p04, illustration: p04, lines: [{speaker: an, text: 把丝带系在路边。}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 安沿着小路到了村子。}]}
-  - {id: p06, illustration: p06, lines: [{speaker: villagers, content: [{text: 大家做了红}, {vocabulary: {id: marker, text: 路标}}, {text: ！}]}]}
+summary: 安带着村里的红丝带上山。丝带帮她认清岔路，到了村子后，大家一起做了红路标。
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: 安拿起村里的红丝带。
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: 安上山，丝带飘在身后。
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: 山路在灰石头旁分开了。
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: 安系好丝带，说：“走这边。”
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: 安顺着小路到了村子。
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: 村民说：“一起做红
+            - vocabulary: {id: marker, text: 路标}
+            - text: 吧！”
+audio_script:
+  cast:
+    narrator: {display_name: 旁白, tts: {delivery: 温柔清楚, timbre: 清亮的成年声音, pace: 慢速, pitch: 中音}}
+    an: {display_name: 安, tts: {delivery: 好奇明快, timbre: 清脆的童声, pace: 中慢速, pitch: 中高音}}
+    villagers: {display_name: 村民们, tts: {delivery: 热情亲切, timbre: 友好的多人声音, pace: 中慢速, pitch: 中音}}
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - {id: p01-b01, speaker: narrator, text: 安拿起村里的红丝带。}
+    - id: p02
+      illustration: p02
+      blocks:
+        - {id: p02-b01, speaker: narrator, text: 安上山，丝带飘在身后。}
+    - id: p03
+      illustration: p03
+      blocks:
+        - {id: p03-b01, speaker: narrator, text: 山路在灰石头旁分开了。}
+    - id: p04
+      illustration: p04
+      blocks:
+        - {id: p04-b01, speaker: narrator, text: 安把丝带系在一条路旁。}
+        - {id: p04-b02, speaker: an, text: 走这边。}
+    - id: p05
+      illustration: p05
+      blocks:
+        - {id: p05-b01, speaker: narrator, text: 安顺着小路到了村子。}
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: villagers
+          content:
+            - text: 一起做红
+            - vocabulary: {id: marker, text: 路标}
+            - text: 吧！
 chapters:
   - {id: ch01, title: 上山, page_refs: [p01, p02, p03, p04, p05, p06]}
 questions:

@@ -1,0 +1,61 @@
+schema_version: 1
+id: l
+external_reference:
+  reading_a_z_label: L
+  age_band: 7-8
+  en_grade_reference: 2
+  en_lexile_reference: 420L-650L
+reading_goal: explain how evidence changes a response across a complete arc
+prompt: Write at HaiLibrary Level L to explain how evidence changes a response across a complete arc. Show evidence changing a response through fluent scenes and readable transitions. Keep every spoken line plausible for the speaker's age, relationship, and emotion.
+text_contract:
+  structure: complication strategy change resolution
+  syntax: flexible compound and complex sentences
+  vocabulary: mixed-frequency and transparent word families
+  knowledge: one concept applied twice
+  illustration_reliance: supporting
+  inference: distributed motive and cause
+complexity_floor:
+  - the complication changes strategy
+  - two pieces of evidence support the outcome
+pages:
+  min: 14
+  max: 20
+questions:
+  min: 5
+  max: 7
+  types:
+    - cause-effect
+    - short-answer
+    - character-motive
+    - main-idea
+    - evidence
+    - compare
+  required:
+    - evidence
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 9
+      - 13
+    sentences_per_page_max: 6
+    units_per_sentence_max: 19
+    units_per_page_typical:
+      - 19
+      - 37
+    units_per_page_max: 52
+    units_total_min: 300
+    units_total_max: 600
+    new_words_per_page_max: 4
+  zh:
+    mean_sentence_units_typical:
+      - 14
+      - 24
+    sentences_per_page_max: 6
+    units_per_sentence_max: 31
+    units_per_page_typical:
+      - 29
+      - 55
+    units_per_page_max: 78
+    units_total_min: 470
+    units_total_max: 950
+    new_words_per_page_max: 4

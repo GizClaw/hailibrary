@@ -1,48 +1,461 @@
-schema_version: 1
+schema_version: 2
 language: en-US
 writer: rain-song
 title: The Lantern Cart in the Fog
 summary: Pippa sends her lantern cart toward a friend stranded in fog, but floodwater makes its stored route unsafe. With Roan and Nima, she pauses the machine, asks before crossing private ground, and chooses a dry route by hand. The rescue changes how she designs the cart.
-cast:
-  narrator: {display_name: Narrator, tts: {delivery: measured and warm, timbre: clear adult voice, pace: medium, pitch: medium}}
-  pippa: {display_name: Pippa, tts: {delivery: quick and determined, timbre: bright youthful voice, pace: medium-fast, pitch: medium-high}}
-  roan: {display_name: Roan, tts: {delivery: steady and direct, timbre: calm youthful voice, pace: medium, pitch: medium-low}}
-  nima: {display_name: Nima, tts: {delivery: dryly humorous and firm, timbre: mellow adult voice, pace: medium-slow, pitch: medium-low}}
-  bramble: {display_name: Bramble, tts: {delivery: bright but tired, timbre: light youthful voice, pace: medium-slow, pitch: medium-high}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Rain ends over the harbor, but thick fog hides the hill road."}, {speaker: narrator, text: "A watchtower bell sounds far away."}]}
-  - {id: p02, illustration: p02, lines: [{speaker: pippa, text: "That is Bramble's bell."}, {speaker: roan, text: "The tower light is faint. Bramble may need help."}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "Pippa rolls out her homemade lantern cart."}, {speaker: pippa, text: "Its map knows the shortest road to the tower."}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "The cart starts toward the low reed road."}, {speaker: narrator, text: "Pippa follows, while Roan studies the wet ground."}]}
-  - {id: p05, illustration: p05, lines: [{speaker: roan, text: "Water is moving across the stepping stones."}, {speaker: roan, text: "The rain changed this road after your map was made."}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "The cart still shines its beam toward the shortest route."}, {speaker: pippa, text: "Its map says this way is fastest."}]}
-  - {id: p07, illustration: p07, lines: [{speaker: roan, text: "A stored route cannot see today's flood."}, {speaker: narrator, text: "Roan stops Pippa before she reaches the water."}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "One cart wheel sinks at the muddy edge."}, {speaker: narrator, text: "Pippa pulls the cart back while everyone stays on dry ground."}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "The upper path begins at Nima's orchard gate."}, {speaker: pippa, text: "May we cross your orchard to reach Bramble?"}]}
-  - id: p10
-    illustration: p10
-    lines:
-      - speaker: nima
-        content: [{text: "You have my "}, {vocabulary: {id: consent, text: consent}}, {text: " to use this dry strip."}]
-      - {speaker: nima, text: "Stay beside me and keep the cart away from the seed beds."}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "Fallen branches block the orchard lane."}, {speaker: narrator, text: "The tower light is still dim beyond them."}]}
-  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: "Pippa reaches for the drive lever."}, {speaker: narrator, text: "A wheel presses against a branch without moving it."}]}
-  - {id: p13, illustration: p13, lines: [{speaker: nima, text: "Stop. The wet soil and young plants can be damaged."}, {speaker: nima, text: "Permission for one path does not mean permission for every path."}]}
-  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "Pippa switches the cart to manual mode."}, {speaker: narrator, text: "The three friends compare small route models on dry ground."}]}
-  - {id: p15, illustration: p15, lines: [{speaker: roan, text: "These old pottery arches make a dry upper passage."}, {speaker: narrator, text: "The earlier route models help them recognize it."}]}
-  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "Nima leads through the side gate."}, {speaker: narrator, text: "Roan keeps the group together, and Pippa guides the dim cart."}]}
-  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: "The fog thins near the watchtower."}, {speaker: narrator, text: "Bramble rings a brass bell from the sheltered doorway."}]}
-  - {id: p18, illustration: p18, lines: [{speaker: bramble, text: "I stayed inside when the low road flooded."}, {speaker: pippa, text: "You chose a safe place to wait."}]}
-  - {id: p19, illustration: p19, lines: [{speaker: narrator, text: "All four dogs return along the dry upper route."}, {speaker: narrator, text: "The lantern cart rolls between them instead of leading them."}]}
-  - {id: p20, illustration: p20, lines: [{speaker: narrator, text: "Back at the workshop, Pippa adds a large pause lever."}, {speaker: narrator, text: "She also adds route tokens so travelers can compare choices and record permission."}]}
 chapters:
-  - {id: ch01, title: The Old Map, page_refs: [p01, p02, p03, p04, p05, p06, p07, p08]}
-  - {id: ch02, title: A Path with Permission, page_refs: [p09, p10, p11, p12, p13, p14, p15, p16]}
-  - {id: ch03, title: Rescue and Redesign, page_refs: [p17, p18, p19, p20]}
+  - id: ch01
+    title: The Old Map
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
+      - p07
+      - p08
+  - id: ch02
+    title: A Path with Permission
+    page_refs:
+      - p09
+      - p10
+      - p11
+      - p12
+      - p13
+      - p14
+      - p15
+      - p16
+  - id: ch03
+    title: Rescue and Redesign
+    page_refs:
+      - p17
+      - p18
+      - p19
+      - p20
 questions:
-  - {id: q01, type: sequence, speaker: narrator, prompt: "What changes after the cart wheel sinks?", answer: "Pippa asks to use Nima's orchard, switches to manual mode, and helps compare dry routes.", page_refs: [p08, p09, p10, p14, p15]}
-  - {id: q02, type: cause-effect, speaker: narrator, prompt: "Why is the cart's shortest route unsafe?", answer: "Rain sent moving water across the low stepping stones after the stored map was made.", page_refs: [p04, p05, p06, p07]}
-  - {id: q03, type: character-motive, speaker: narrator, prompt: "Why does Nima stop Pippa at the fallen branch?", answer: "Driving forward could damage wet soil and young plants beyond the path Nima allowed.", page_refs: [p10, p11, p12, p13]}
-  - {id: q04, type: evidence, speaker: narrator, prompt: "Which clues support choosing the pottery-arch passage?", answer: "It is on upper dry ground, matches the route models, avoids the flooded stones, and keeps the cart away from seed beds.", page_refs: [p05, p10, p13, p14, p15]}
-  - {id: q05, type: main-idea, speaker: narrator, prompt: "What does Pippa learn about useful machines?", answer: "A machine can offer information, but people must pause, check current conditions, respect permission, and choose together.", page_refs: [p05, p07, p10, p13, p14, p20]}
-  - {id: q06, type: short-answer, speaker: narrator, prompt: "How does the rescue change the lantern cart?", answer: "Pippa adds a pause lever and route-choice tokens for comparing paths and recording permission.", page_refs: [p19, p20]}
+  - id: q01
+    type: sequence
+    speaker: narrator
+    prompt: What changes after the cart wheel sinks?
+    answer: Pippa asks to use Nima's orchard, switches to manual mode, and helps compare dry routes.
+    page_refs:
+      - p08
+      - p09
+      - p10
+      - p14
+      - p15
+  - id: q02
+    type: cause-effect
+    speaker: narrator
+    prompt: Why is the cart's shortest route unsafe?
+    answer: Rain sent moving water across the low stepping stones after the stored map was made.
+    page_refs:
+      - p04
+      - p05
+      - p06
+      - p07
+  - id: q03
+    type: character-motive
+    speaker: narrator
+    prompt: Why does Nima stop Pippa at the fallen branch?
+    answer: Driving forward could damage wet soil and young plants beyond the path Nima allowed.
+    page_refs:
+      - p10
+      - p11
+      - p12
+      - p13
+  - id: q04
+    type: evidence
+    speaker: narrator
+    prompt: Which clues support choosing the pottery-arch passage?
+    answer: It is on upper dry ground, matches the route models, avoids the flooded stones, and keeps the cart away from seed beds.
+    page_refs:
+      - p05
+      - p10
+      - p13
+      - p14
+      - p15
+  - id: q05
+    type: main-idea
+    speaker: narrator
+    prompt: What does Pippa learn about useful machines?
+    answer: A machine can offer information, but people must pause, check current conditions, respect permission, and choose together.
+    page_refs:
+      - p05
+      - p07
+      - p10
+      - p13
+      - p14
+      - p20
+  - id: q06
+    type: short-answer
+    speaker: narrator
+    prompt: How does the rescue change the lantern cart?
+    answer: Pippa adds a pause lever and route-choice tokens for comparing paths and recording permission.
+    page_refs:
+      - p19
+      - p20
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: "Rain ends over the harbor, but thick fog hides the hill road. "
+            - text: A watchtower bell sounds far away.
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: Pippa lifts her ears. “That is Bramble’s bell.” Roan watches the faint tower light. “Bramble may need help.”
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: Pippa rolls out her homemade lantern cart. Pippa says, “
+            - text: I saved the shortest road in its map.”
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: "The cart starts toward the low reed road. "
+            - text: Pippa follows, while Roan studies the wet ground.
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: Roan points to water moving across the stepping stones. “The rain came after your map. This flood is not on it.”
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: The cart still shines its beam toward the shortest route. Pippa says, “
+            - text: Its map says this way is fastest.”
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: “The old route does not show today’s flood,” Roan says. He stops Pippa before she reaches the water.
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - text: "One cart wheel sinks at the muddy edge. "
+            - text: Pippa pulls the cart back while everyone stays on dry ground.
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - content:
+            - text: The upper path begins at Nima's orchard gate. Pippa says, “
+            - text: May we cross your orchard to reach Bramble?”
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - content:
+            - text: "Nima opens the gate. “You have my "
+            - vocabulary:
+                id: consent
+                text: consent
+            - text: " to use this dry strip. Stay beside me, and keep the cart away from the seed beds.”"
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - content:
+            - text: "Fallen branches block the orchard lane. "
+            - text: The tower light is still dim beyond them.
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - content:
+            - text: "Pippa reaches for the drive lever. "
+            - text: A wheel presses against a branch without moving it.
+    - id: p13
+      illustration: p13
+      paragraphs:
+        - content:
+            - text: Nima raises one paw. “Stop. I allowed the dry strip, not the seed beds. The wet soil will not bear that cart.”
+    - id: p14
+      illustration: p14
+      paragraphs:
+        - content:
+            - text: "Pippa switches the cart to manual mode. "
+            - text: The three friends compare small route models on dry ground.
+    - id: p15
+      illustration: p15
+      paragraphs:
+        - content:
+            - text: Roan says, “
+            - text: "These old pottery arches make a dry upper passage.” "
+            - text: Pippa matches the arches to one of their route models.
+    - id: p16
+      illustration: p16
+      paragraphs:
+        - content:
+            - text: "Nima leads through the side gate. "
+            - text: Roan keeps the group together, and Pippa guides the dim cart.
+    - id: p17
+      illustration: p17
+      paragraphs:
+        - content:
+            - text: "The fog thins near the watchtower. "
+            - text: Bramble rings a brass bell from the sheltered doorway.
+    - id: p18
+      illustration: p18
+      paragraphs:
+        - content:
+            - text: “I stayed inside when the low road flooded,” Bramble says. Pippa presses close to him. “I’m glad you waited here.”
+    - id: p19
+      illustration: p19
+      paragraphs:
+        - content:
+            - text: "All four dogs return along the dry upper route. "
+            - text: The lantern cart rolls between them instead of leading them.
+    - id: p20
+      illustration: p20
+      paragraphs:
+        - content:
+            - text: "Back at the workshop, Pippa adds a large pause lever. "
+            - text: She also adds route tokens so travelers can compare choices and record permission.
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: measured and warm
+        timbre: clear adult voice
+        pace: medium
+        pitch: medium
+    pippa:
+      display_name: Pippa
+      tts:
+        delivery: quick and determined
+        timbre: bright youthful voice
+        pace: medium-fast
+        pitch: medium-high
+    roan:
+      display_name: Roan
+      tts:
+        delivery: steady and direct
+        timbre: calm youthful voice
+        pace: medium
+        pitch: medium-low
+    nima:
+      display_name: Nima
+      tts:
+        delivery: dryly humorous and firm
+        timbre: mellow adult voice
+        pace: medium-slow
+        pitch: medium-low
+    bramble:
+      display_name: Bramble
+      tts:
+        delivery: bright but tired
+        timbre: light youthful voice
+        pace: medium-slow
+        pitch: medium-high
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: Rain ends over the harbor, but thick fog hides the hill road.
+        - id: p01-b02
+          speaker: narrator
+          text: A watchtower bell sounds far away.
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: pippa
+          content:
+            - text: That is Bramble’s bell.
+        - id: p02-b02
+          speaker: narrator
+          content:
+            - text: Roan watches the faint tower light.
+        - id: p02-b03
+          speaker: roan
+          content:
+            - text: Bramble may need help.
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          text: Pippa rolls out her homemade lantern cart.
+        - id: p03-b02
+          speaker: pippa
+          text: I saved the shortest road in its map.
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: The cart starts toward the low reed road.
+        - id: p04-b02
+          speaker: narrator
+          text: Pippa follows, while Roan studies the wet ground.
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          content:
+            - text: Roan points to water moving across the stepping stones.
+        - id: p05-b02
+          speaker: roan
+          content:
+            - text: The rain came after your map. This flood is not on it.
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: The cart still shines its beam toward the shortest route.
+        - id: p06-b02
+          speaker: pippa
+          text: Its map says this way is fastest.
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: roan
+          content:
+            - text: The old route does not show today’s flood.
+        - id: p07-b02
+          speaker: narrator
+          content:
+            - text: Roan stops Pippa before she reaches the water.
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          text: One cart wheel sinks at the muddy edge.
+        - id: p08-b02
+          speaker: narrator
+          text: Pippa pulls the cart back while everyone stays on dry ground.
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          text: The upper path begins at Nima's orchard gate.
+        - id: p09-b02
+          speaker: pippa
+          text: May we cross your orchard to reach Bramble?
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          content:
+            - text: Nima opens the gate.
+        - id: p10-b02
+          speaker: nima
+          content:
+            - text: "You have my "
+            - vocabulary:
+                id: consent
+                text: consent
+            - text: " to use this dry strip. Stay beside me, and keep the cart away from the seed beds."
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          text: Fallen branches block the orchard lane.
+        - id: p11-b02
+          speaker: narrator
+          text: The tower light is still dim beyond them.
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          text: Pippa reaches for the drive lever.
+        - id: p12-b02
+          speaker: narrator
+          text: A wheel presses against a branch without moving it.
+    - id: p13
+      illustration: p13
+      blocks:
+        - id: p13-b01
+          speaker: narrator
+          content:
+            - text: Nima raises one paw.
+        - id: p13-b02
+          speaker: nima
+          content:
+            - text: Stop. I allowed the dry strip, not the seed beds. The wet soil will not bear that cart.
+    - id: p14
+      illustration: p14
+      blocks:
+        - id: p14-b01
+          speaker: narrator
+          text: Pippa switches the cart to manual mode.
+        - id: p14-b02
+          speaker: narrator
+          text: The three friends compare small route models on dry ground.
+    - id: p15
+      illustration: p15
+      blocks:
+        - id: p15-b01
+          speaker: roan
+          text: These old pottery arches make a dry upper passage.
+        - id: p15-b02
+          speaker: narrator
+          text: Pippa matches the arches to one of their route models.
+    - id: p16
+      illustration: p16
+      blocks:
+        - id: p16-b01
+          speaker: narrator
+          text: Nima leads through the side gate.
+        - id: p16-b02
+          speaker: narrator
+          text: Roan keeps the group together, and Pippa guides the dim cart.
+    - id: p17
+      illustration: p17
+      blocks:
+        - id: p17-b01
+          speaker: narrator
+          text: The fog thins near the watchtower.
+        - id: p17-b02
+          speaker: narrator
+          text: Bramble rings a brass bell from the sheltered doorway.
+    - id: p18
+      illustration: p18
+      blocks:
+        - id: p18-b01
+          speaker: bramble
+          content:
+            - text: I stayed inside when the low road flooded.
+        - id: p18-b02
+          speaker: narrator
+          content:
+            - text: Pippa presses close to Bramble.
+        - id: p18-b03
+          speaker: pippa
+          content:
+            - text: I’m glad you waited here.
+    - id: p19
+      illustration: p19
+      blocks:
+        - id: p19-b01
+          speaker: narrator
+          text: All four dogs return along the dry upper route.
+        - id: p19-b02
+          speaker: narrator
+          text: The lantern cart rolls between them instead of leading them.
+    - id: p20
+      illustration: p20
+      blocks:
+        - id: p20-b01
+          speaker: narrator
+          text: Back at the workshop, Pippa adds a large pause lever.
+        - id: p20-b02
+          speaker: narrator
+          text: She also adds route tokens so travelers can compare choices and record permission.

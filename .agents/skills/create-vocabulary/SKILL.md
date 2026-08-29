@@ -9,7 +9,7 @@ Create or materially revise one shared concept at `vocabulary/<level>/<id>/entry
 
 ## Establish the concept and usage
 
-Read `prompts/levels/levels.yaml`, `prompts/levels/locale-references.yaml`, every story usage of the intended level-scoped ID, and nearby entries for schema conventions. Resolve:
+Read `prompts/levels/index.yaml`, the selected `prompts/levels/<level>.yaml`, `prompts/levels/locale-references.yaml`, every story usage of the intended level-scoped ID, and nearby entries for schema conventions. Resolve:
 
 - one concrete shared concept and stable kebab-case ID;
 - the owning level and every required locale;

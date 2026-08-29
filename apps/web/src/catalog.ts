@@ -12,8 +12,33 @@ export type CatalogPageIndex = SiteIndex;
 export type BookCard = { id: string; path: string; manifest: string; level: string; category: string; subcategory: string; locales: string[]; titles: Record<string, string>; summaries: Record<string, string>; writers: Record<string, WriterSummary>; style: StyleSummary; concepts: string[]; labels: Record<string, string[]>; pageCount: number; cover: string; title: string; summary: string; writer: WriterSummary };
 type BookCardSource = Omit<BookCard, "title" | "summary" | "writer">;
 export type StoryContentPart = { text?: string; vocabulary?: { id: string; text: string } };
+export type StoryBlock = { id?: string; speaker: string; text?: string; content?: StoryContentPart[] };
+export type StoryPage = { id: string; illustration: string; lines?: StoryBlock[]; blocks?: StoryBlock[] };
+export type ArticleParagraph = { text?: string; content?: StoryContentPart[] };
+export type ArticlePage = { id: string; illustration: string; paragraphs: ArticleParagraph[] };
 export type StoryQuestion = { id: string; type: string; speaker: string; prompt: string; answer: string; page_refs: string[] };
-export type Story = { language: string; writer: string; title: string; summary: string; cast: Record<string, { display_name: string }>; pages: Array<{ id: string; illustration: string; lines: Array<{ speaker: string; text?: string; content?: StoryContentPart[] }> }>; questions?: StoryQuestion[] };
+export type Story = {
+  language: string;
+  writer: string;
+  title: string;
+  summary: string;
+  article?: { pages: ArticlePage[] };
+  audio_script?: { cast: Record<string, { display_name: string }>; pages: StoryPage[] };
+  cast?: Record<string, { display_name: string }>;
+  pages?: StoryPage[];
+  questions?: StoryQuestion[];
+};
+export const storyPageBlocks = (page: StoryPage) => page.blocks ?? page.lines ?? [];
+export const storyArticlePages = (story: Story): ArticlePage[] => story.article?.pages ?? (story.pages ?? []).map((page) => ({
+  id: page.id,
+  illustration: page.illustration,
+  paragraphs: [{ content: storyPageBlocks(page).flatMap((block, index) => [
+    ...(index > 0 ? [{ text: story.language.startsWith("zh") ? "" : " " }] : []),
+    ...(block.text ? [{ text: block.text }] : block.content ?? []),
+  ]) }],
+}));
+export const storyAudioPages = (story: Story) => story.audio_script?.pages ?? story.pages ?? [];
+export const storyCast = (story: Story) => story.audio_script?.cast ?? story.cast ?? {};
 export type Book = { id: string; level: string; category: string; subcategory: string; cover: string; availableLocales: string[]; locales: Record<string, { title: string; summary: string; story: string; writer: WriterSummary & { profile: string } }>; artwork: { cover: string; pages: Record<string, string> }; vocabulary: { level: string; entries: Record<string, string> } };
 export type VocabularyEntry = { id: string; card: string; locales: Record<string, { term: string; part_of_speech: string; pronunciation?: string; definition: string }> };
 export type VocabularyCatalogCard = { id: string; level: string; card: string; term: string; partOfSpeech: string; pronunciation?: string; definition: string };

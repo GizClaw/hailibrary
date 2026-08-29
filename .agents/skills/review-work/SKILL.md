@@ -20,11 +20,11 @@ If the authorized scope is text-only, preserve every image byte-for-byte. Do not
 Read:
 
 - the work directory and all its YAML files;
-- `prompts/levels/levels.yaml` for the directory level;
+- `prompts/levels/index.yaml` and the directory level's `prompts/levels/<level>.yaml`, including the exact Level `prompt`;
 - `prompts/levels/locale-references.yaml` for the exact English or Chinese reference checkpoint and its authority limits;
 - `prompts/labels/index.yaml` and every label selected by the work;
-- every referenced locale Writer prompt;
-- the referenced Style prompt;
+- every referenced locale Writer's creative `prompt` and native-language `language_prompt`;
+- the referenced Style prompt, applied only to artwork;
 - every referenced vocabulary entry;
 - every cited source needed to assess a real-world claim.
 
@@ -71,8 +71,9 @@ Check that:
 - vocabulary, syntax, sentence/page totals, inference, narrative structure, and question types fit the directory level;
 - the English edition uses its declared age/grade and English-only Lexile reference, while the Chinese edition is judged against its own curriculum checkpoint without importing English Lexile claims; retained Reading A-Z labels are not mistaken for official later-grade correlations;
 - each locale passes its own native-language editorial review, remains equivalent in meaning and learning difficulty, and is independently phrased rather than translated line by line;
+- each locale's visible `article` is continuous and attributes dialogue naturally; its `audio_script` preserves source order, transitions, causality, evidence, and conclusion rather than replacing them with alternating explanations;
 - Writers shape high-level creative choices without copied expression or recognizable imitation;
-- every character and narrator exists in every locale cast with distinct, complete TTS direction;
+- every character and narrator exists in every locale `audio_script.cast` with distinct, complete TTS direction;
 - pages and chapters are complete, unique, ordered, and aligned across locales;
 - discovery labels are relevant, non-duplicated, centrally defined, and neither misleading nor a substitute for learning concepts;
 - each question is answerable from its declared page evidence;

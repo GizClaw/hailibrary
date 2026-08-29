@@ -13,15 +13,25 @@ Before writing, resolve the level, type path, slug, locales, locale-specific Wri
 
 Read:
 
-- `prompts/levels/levels.yaml` for the selected directory level;
+- `prompts/levels/index.yaml` and the selected `prompts/levels/<level>.yaml`, including its exact `prompt`;
 - `prompts/levels/locale-references.yaml` for the exact level's separate English and Chinese reference checkpoints;
 - `prompts/vocabulary/index.yaml` and `prompts/vocabulary/ranges.yaml` for locale-specific running-text and target-vocabulary limits;
 - `prompts/labels/index.yaml` for controlled discovery labels;
-- `prompts/writers/index.yaml` and every selected `prompts/writers/<locale>/<writer>/prompt.yaml`;
-- `prompts/styles/<style>/prompt.yaml`;
+- `prompts/writers/index.yaml` and every selected `prompts/writers/<locale>/<writer>/prompt.yaml`, including both `prompt` and `language_prompt`;
+- `prompts/styles/<style>/prompt.yaml`, whose `prompt` applies only to artwork;
 - one nearby complete work as a schema example, without copying its story.
 
 The directory is the only source of level, category, and subcategory. Do not repeat those fields in YAML.
+
+## Compose the authoritative prompts
+
+For each locale, compose instructions from configuration rather than restating or inventing substitute rules in this Skill:
+
+1. Apply the selected `prompts/levels/<level>.yaml` `prompt`, the complete exact-level record, and the locale vocabulary/reference records as the authoritative difficulty contract.
+2. Apply the selected Writer's `prompt` for creative viewpoint and its `language_prompt` for narration, character voice, dialogue, and read-aloud naturalness.
+3. Apply the selected Style's `prompt` only when generating or reviewing artwork. Never let a visual treatment determine prose wording, sentence shape, dialogue, or locale adaptation.
+
+Level requirements override Writer preferences when they conflict. The Writer controls how compliant prose sounds, not how difficult it is. Do not proceed if any selected configuration lacks its required prompt field.
 
 ## Set the difficulty contract
 
@@ -29,7 +39,7 @@ Before drafting prose, read [references/level-and-vocabulary-contract.md](refere
 
 - the selected level and band;
 - the locale-specific age/grade reference: English-only Lexile cross-reference or the internal Chinese curriculum checkpoint;
-- page, total-unit, sentence, per-page, and new-word limits from `prompts/levels/levels.yaml`;
+- page, total-unit, sentence, per-page, and new-word limits from the selected `prompts/levels/<level>.yaml`;
 - the reading goal, complexity floor, plot, cohesion, knowledge demand, illustration reliance, inference, and required question types;
 - the running-text baseline and target-word range for that locale from `prompts/vocabulary/ranges.yaml`;
 - the concrete vocabulary datasets or curriculum evidence to consult through `prompts/vocabulary/index.yaml`;
@@ -45,6 +55,16 @@ Browse primary or authoritative sources before writing about science, nature, ge
 
 Do not turn uncertain or fictional details into facts.
 
+## Write the article before the script
+
+For each locale, let the selected Writer draft one complete continuous article from the shared events, learning goal, research, and locale difficulty brief. Do this before assigning speakers, page boundaries, illustration IDs, vocabulary markup, chapters, or questions.
+
+The first draft must read coherently when no page structure or voice metadata is visible. Review its beginning, development, resolution, causal links, transitions, recurring details, evidence distribution, and conclusion. Fix article-level problems here; do not expect dialogue, pagination, or illustrations to hide them.
+
+Draft every locale article independently. Preserve shared events and learning difficulty, but do not use another locale's article as a sentence, paragraph, information-order, or dialogue template.
+
+For any short or long work that needs a separately addressable TTS/subtitle script, set `schema_version: 2` and persist the coherent Writer draft in `article.pages[].paragraphs[]`. Visible dialogue must include locale-correct quotation and natural attribution in the prose itself. Then define `audio_script.cast` and apply `$scriptize-article` to create `audio_script.pages[].blocks[]`; every block needs a stable ID for its future audio clip and subtitle cue. Speaker metadata must not be used to manufacture visible punctuation or attribution in article mode. Legacy picture-book locales may remain schema version 1 until they are deliberately migrated.
+
 ## Author the shared work
 
 Create `book.yaml`, `research.yaml`, `artwork.yaml`, every `locales/<locale>/story.yaml`, shared artwork, and any required vocabulary entries.
@@ -56,15 +76,16 @@ Create `book.yaml`, `research.yaml`, `artwork.yaml`, every `locales/<locale>/sto
 - Build one coherent narrative or nonfiction arc appropriate to the declared type and level.
 - Define every narrator and character in `book.yaml` with stable IDs and usable visual/voice identities.
 - Give every locale exactly the same page IDs, meaning, speakers, and illustration IDs.
-- Draft each locale independently from shared scene meaning, speaker intent, illustration, learning goal, and difficulty. Do not use another locale's sentences as the wording template.
+- Partition each locale's already-scripted article into pages at real scene, paragraph, or action transitions. Copy contiguous speaker blocks without reordering or rewriting them into page summaries.
 - Adapt prose naturally to each locale at the same difficulty; sentence boundaries, information order, idiom, emphasis, and rhythm may differ. Do not translate mechanically.
-- Store ordered dialogue/narration lines with valid `speaker` IDs.
-- Give every cast member localized `display_name` plus abstract TTS `delivery`, `timbre`, `pace`, and `pitch`. Never store provider voice IDs.
+- For schema-version-2 works of any length, store visible prose in `article.pages[].paragraphs[]` and ordered TTS dialogue/narration in `audio_script.pages[].blocks[]`, with a stable block `id` and valid `speaker` ID on every block. Keep top-level `pages[].lines[]` only for legacy or picture-book presentation.
+- Preserve the `$scriptize-article` speaker assignments and continuous order. Do not add page-local dialogue after scriptization merely to make a page feel complete.
+- Give every `audio_script.cast` member localized `display_name` plus abstract TTS `delivery`, `timbre`, `pace`, and `pitch`. Never store provider voice IDs.
 - Define chapters that cover every page exactly once and in reading order.
 - Keep questions within the level's permitted count/types and make every answer provable from `page_refs`.
 - Assign relevant `topics`, `themes`, and `moods` from the central label index. Do not invent per-book labels or place localized label names in `book.yaml`.
 
-Mark target terms inline in `line.content`. Reuse or create `vocabulary/<level>/<id>/entry.yaml`; include all selected locales and one shared, wordless `card.webp`. The marked surface form must equal the locale term or one of its declared forms.
+Mark target terms inline in the visible article paragraph content, then preserve those segments in the corresponding audio-script block content. Reuse or create `vocabulary/<level>/<id>/entry.yaml`; include all selected locales and one shared, wordless `card.webp`. The marked surface form must equal the locale term or one of its declared forms.
 
 Apply `$create-vocabulary` whenever a new entry or card is required. Apply the `$review-vocabulary` evidence procedure to every new, reused, or changed entry. Confirm live dictionary evidence for terms, senses, parts of speech, pronunciation, IPA or pinyin, forms, writing metadata, and every claimed curriculum alignment.
 

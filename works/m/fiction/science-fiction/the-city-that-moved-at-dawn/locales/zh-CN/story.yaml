@@ -1,48 +1,413 @@
-schema_version: 1
+schema_version: 2
 language: zh-CN
 writer: 北辰
 title: 黎明移动的城市
 summary: 森设计的路线系统会移动街区以节省能源，却把市场送离了真正使用它的人。森和陆重新比较效率与通行需求，并用居民的知情同意和随时可按的暂停键改造决策过程。
-cast:
-  narrator: {display_name: 旁白, tts: {delivery: 沉着而清楚, timbre: 清晰的成年声音, pace: 中速, pitch: 中音}}
-  sen: {display_name: 森, tts: {delivery: 有创造力并愿意负责, timbre: 温暖的成年声音, pace: 中速, pitch: 中音}}
-  lu: {display_name: 陆, tts: {delivery: 直接而体谅他人, timbre: 沉稳的成年声音, pace: 中速, pitch: 中低音}}
-  node: {display_name: 节点, tts: {delivery: 中性而简洁, timbre: 柔和的合成声音, pace: 中速, pitch: 中音}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "黎明时，圆润的城市街区开始沿地面轨道缓缓滑行。"}, {speaker: narrator, text: "花园、住宅和公共空间能按需要交换位置。"}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "森注视着一座会移动的城市模型。"}, {speaker: sen, text: "节点应该降低能耗，同时保持每条道路畅通。"}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "节点在模型上投出几条彩色路径。"}, {speaker: node, text: "已选择能耗最低的排列。"}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "住宅进入清凉的晨荫，公共花园得到阳光。"}, {speaker: sen, text: "第一次交换成功了。"}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "城市有序完成清晨的几次移动，森记录着能量灯，露出笑容。"}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "接着，热闹的市场开始离开广场。"}, {speaker: lu, text: "这里没有人要求市场搬走。"}]}
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "摊主扶稳篮子，顾客在安全的平台上等待。"}, {speaker: narrator, text: "移动没有造成碰撞，却让日常工作停了下来。"}]}
-  - {id: p08, illustration: p08, lines: [{speaker: lu, text: "系统计算了电力，却没计算搬货的人。"}, {speaker: sen, text: "我把轨道畅通误当成了允许移动。"}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "节点显示一条短路和一条较长的弯路。"}, {speaker: node, text: "短路消耗的电力更少。"}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "森指着能量灯，陆则指向需要从车站多走一段路的工人。"}]}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "一位年长的摊主放下沉重篮子休息。"}, {speaker: lu, text: "机器省下的一点成本，可能变成人们付出的更大代价。"}]}
-  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: "森盖住自动路线控制器。"}, {speaker: sen, text: "大家商定更好的规则以前，节点不再移动任何街区。"}]}
-  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: "居民围着桌子摆放彩色街区模型，一起比较遮阴、距离、送货和能耗。"}]}
-  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "一个孩子把市场模型放在车站旁，摊主又补出宽敞的卸货空间。"}]}
-  - id: p15
-    illustration: p15
-    lines:
-      - speaker: narrator
-        content: [{text: "陆在一条方案旁放下代表"}, {vocabulary: {id: consent, text: 同意}}, {text: "的亮色圆片。"}]
-      - {speaker: lu, text: "人们要先理解，再自愿选择，而且随时能够叫停。"}
-  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "森为节点装上一个又大又能触摸辨认的暂停键。"}, {speaker: sen, text: "计划开始以后，控制权也必须够得着。"}]}
-  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: "居民讨论时，节点亮着琥珀色灯安静等待。"}, {speaker: node, text: "未发现共同许可，保持原位。"}]}
-  - {id: p18, illustration: p18, lines: [{speaker: narrator, text: "市场最终沿较长的弯路移动，留在车站旁边，只多消耗了一些电力。"}]}
-  - {id: p19, illustration: p19, lines: [{speaker: narrator, text: "住宅得到阴凉，花园得到阳光，无障碍通道也保持连接。"}, {speaker: narrator, text: "新方案平衡了多种需要，不再只追求一个数字。"}]}
-  - {id: p20, illustration: p20, lines: [{speaker: narrator, text: "下一个黎明，市场屋顶留在原地，直到人们作出决定。"}, {speaker: sen, text: "负责任的城市与居民一起移动，而不是绕开他们。"}]}
 chapters:
-  - {id: ch01, title: 高效的计划, page_refs: [p01, p02, p03, p04, p05]}
-  - {id: ch02, title: 模型漏掉的代价, page_refs: [p06, p07, p08, p09, p10, p11, p12]}
-  - {id: ch03, title: 人们能够修改的规则, page_refs: [p13, p14, p15, p16, p17]}
-  - {id: ch04, title: 一起移动, page_refs: [p18, p19, p20]}
+  - id: ch01
+    title: 高效的计划
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+  - id: ch02
+    title: 模型漏掉的代价
+    page_refs:
+      - p06
+      - p07
+      - p08
+      - p09
+      - p10
+      - p11
+      - p12
+  - id: ch03
+    title: 人们能够修改的规则
+    page_refs:
+      - p13
+      - p14
+      - p15
+      - p16
+      - p17
+  - id: ch04
+    title: 一起移动
+    page_refs:
+      - p18
+      - p19
+      - p20
 questions:
-  - {id: q01, type: cause-effect, speaker: narrator, prompt: "节点为什么把市场移出广场？", answer: "它只选择能耗最低的排列，没有计算通行需求和居民是否允许。", page_refs: [p03, p06, p08, p09, p10]}
-  - {id: q02, type: evidence, speaker: narrator, prompt: "哪些证据说明最初的计划妨碍了通行？", answer: "工作停下，人们要从车站多走一段路，年长摊主还得放下重物休息。", page_refs: [p07, p10, p11]}
-  - {id: q03, type: compare, speaker: narrator, prompt: "市场的两条路线有什么差别？", answer: "短路更省电，却使市场远离车站；弯路多用一些电，却保留了便利的通行。", page_refs: [p09, p10, p14, p18]}
-  - {id: q04, type: character-motive, speaker: narrator, prompt: "森为什么关闭自动移动？", answer: "她明白轨道畅通不等于居民允许，所以暂停系统，等待大家制定新规则。", page_refs: [p08, p12, p13, p15]}
-  - {id: q05, type: main-idea, speaker: narrator, prompt: "改进后的路线决策为什么更负责任？", answer: "它比较多种需要，要求知情同意，保留暂停办法，并在没有许可时等待。", page_refs: [p13, p15, p16, p17, p19, p20]}
-  - {id: q06, type: short-answer, speaker: narrator, prompt: "居民在能耗之外还考虑了哪些需要？", answer: "他们考虑遮阴、步行距离、送货、交通接驳和无障碍通道。", page_refs: [p13, p14, p18, p19]}
+  - id: q01
+    type: cause-effect
+    speaker: narrator
+    prompt: 节点为什么把市场移出广场？
+    answer: 它只选择能耗最低的排列，没有计算通行需求和居民是否允许。
+    page_refs:
+      - p03
+      - p06
+      - p08
+      - p09
+      - p10
+  - id: q02
+    type: evidence
+    speaker: narrator
+    prompt: 哪些证据说明最初的计划妨碍了通行？
+    answer: 工作停下，人们要从车站多走一段路，年长摊主还得放下重物休息。
+    page_refs:
+      - p07
+      - p10
+      - p11
+  - id: q03
+    type: compare
+    speaker: narrator
+    prompt: 市场的两条路线有什么差别？
+    answer: 短路更省电，却使市场远离车站；弯路多用一些电，却保留了便利的通行。
+    page_refs:
+      - p09
+      - p10
+      - p14
+      - p18
+  - id: q04
+    type: character-motive
+    speaker: narrator
+    prompt: 森为什么关闭自动移动？
+    answer: 她明白轨道畅通不等于居民允许，所以暂停系统，等待大家制定新规则。
+    page_refs:
+      - p08
+      - p12
+      - p13
+      - p15
+  - id: q05
+    type: main-idea
+    speaker: narrator
+    prompt: 改进后的路线决策为什么更负责任？
+    answer: 它比较多种需要，要求知情同意，保留暂停办法，并在没有许可时等待。
+    page_refs:
+      - p13
+      - p15
+      - p16
+      - p17
+      - p19
+      - p20
+  - id: q06
+    type: short-answer
+    speaker: narrator
+    prompt: 居民在能耗之外还考虑了哪些需要？
+    answer: 他们考虑遮阴、步行距离、送货、交通接驳和无障碍通道。
+    page_refs:
+      - p13
+      - p14
+      - p18
+      - p19
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: "黎明时，圆润的城市街区开始沿地面轨道缓缓滑行。 "
+            - text: 花园、住宅和公共空间能按需要交换位置。
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: 森注视着会移动的城市模型，对陆说：“节点应该降低能耗，同时保持每条道路畅通。”
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: 节点在模型上投出几条彩色路径，报告：“已选择能耗最低的排列。”
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: 住宅进入清凉的晨荫，公共花园得到阳光。 森说：“
+            - text: 第一次交换成功了。”
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: 城市有序完成清晨的几次移动，森记录着能量灯，露出笑容。
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: 接着，热闹的市场开始离开广场。陆转向森：“这里没有人要求市场搬走。”
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: "摊主扶稳篮子，顾客在安全的平台上等待。 "
+            - text: 移动没有造成碰撞，却让日常工作停了下来。
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - text: 陆说：“系统计算了电力，却没计算搬货的人。”森看着安静的轨道口，承认道：“我把轨道畅通误当成了允许移动。”
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - text: 节点显示一条短路和一条较长的弯路，报告：“短路消耗的电力更少。”
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - content:
+            - text: 森指着能量灯，陆则指向需要从车站多走一段路的工人。
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - content:
+            - text: 一位年长摊主放下沉重的篮子休息。陆指着她说：“节点省了一点电，她却要多背这么远。”
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - text: 森盖住自动路线控制器：“大家商定新规则以前，节点不再移动任何街区。”
+    - id: p13
+      illustration: p13
+      paragraphs:
+        - content:
+            - text: 居民围着桌子摆放彩色街区模型，一起比较遮阴、距离、送货和能耗。
+    - id: p14
+      illustration: p14
+      paragraphs:
+        - content:
+            - text: 一个孩子把市场模型放在车站旁，摊主又补出宽敞的卸货空间。
+    - id: p15
+      illustration: p15
+      paragraphs:
+        - content:
+            - text: 陆在方案旁放下代表
+            - vocabulary:
+                id: consent
+                text: 同意
+            - text: 的亮色圆片：“市场移动前，摊主要知道去处并同意。开始移动后，他们还得能叫停。”
+    - id: p16
+      illustration: p16
+      paragraphs:
+        - content:
+            - text: 森给节点装上一个能摸清形状的大暂停键。她说：“装在轨道旁，附近的人都能按到。”
+    - id: p17
+      illustration: p17
+      paragraphs:
+        - text: 居民讨论时，节点亮着琥珀色灯等待。过了一会儿，它报告：“未发现共同许可，保持原位。”
+    - id: p18
+      illustration: p18
+      paragraphs:
+        - content:
+            - text: 市场最终沿较长的弯路移动，留在车站旁边，只多消耗了一些电力。
+    - id: p19
+      illustration: p19
+      paragraphs:
+        - content:
+            - text: 住宅进入阴凉，花园迎着阳光，市场仍靠着车站。人们沿相连的通道来往，送货也没有停。
+    - id: p20
+      illustration: p20
+      paragraphs:
+        - content:
+            - text: 下一个黎明，市场仍留在原地。节点陪森和陆等着。森问：“去请摊主们吗？”陆打开路线模型：“好。先问清楚，再让市场移动。”
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 沉着而清楚
+        timbre: 清晰的成年声音
+        pace: 中速
+        pitch: 中音
+    sen:
+      display_name: 森
+      tts:
+        delivery: 有创造力并愿意负责
+        timbre: 温暖的成年声音
+        pace: 中速
+        pitch: 中音
+    lu:
+      display_name: 陆
+      tts:
+        delivery: 直接而体谅他人
+        timbre: 沉稳的成年声音
+        pace: 中速
+        pitch: 中低音
+    node:
+      display_name: 节点
+      tts:
+        delivery: 中性而简洁
+        timbre: 柔和的合成声音
+        pace: 中速
+        pitch: 中音
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: 黎明时，圆润的城市街区开始沿地面轨道缓缓滑行。
+        - id: p01-b02
+          speaker: narrator
+          text: 花园、住宅和公共空间能按需要交换位置。
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          text: 森注视着一座会移动的城市模型。
+        - id: p02-b02
+          speaker: sen
+          text: 节点应该降低能耗，同时保持每条道路畅通。
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          text: 节点在模型上投出几条彩色路径。
+        - id: p03-b02
+          speaker: node
+          text: 已选择能耗最低的排列。
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: 住宅进入清凉的晨荫，公共花园得到阳光。
+        - id: p04-b02
+          speaker: sen
+          text: 第一次交换成功了。
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: 城市有序完成清晨的几次移动，森记录着能量灯，露出笑容。
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: 接着，热闹的市场开始离开广场。
+        - id: p06-b02
+          speaker: lu
+          text: 这里没有人要求市场搬走。
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          text: 摊主扶稳篮子，顾客在安全的平台上等待。
+        - id: p07-b02
+          speaker: narrator
+          text: 移动没有造成碰撞，却让日常工作停了下来。
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: lu
+          text: 系统计算了电力，却没计算搬货的人。
+        - id: p08-b02
+          speaker: sen
+          text: 我把轨道畅通误当成了允许移动。
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          text: 节点显示一条短路和一条较长的弯路。
+        - id: p09-b02
+          speaker: node
+          text: 短路消耗的电力更少。
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          text: 森指着能量灯，陆则指向需要从车站多走一段路的工人。
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          content:
+            - text: 一位年长摊主放下沉重的篮子休息。陆指着她。
+        - id: p11-b02
+          speaker: lu
+          content:
+            - text: 节点省了一点电，她却要多背这么远。
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          text: 森盖住自动路线控制器。
+        - id: p12-b02
+          speaker: sen
+          text: 大家商定更好的规则以前，节点不再移动任何街区。
+    - id: p13
+      illustration: p13
+      blocks:
+        - id: p13-b01
+          speaker: narrator
+          text: 居民围着桌子摆放彩色街区模型，一起比较遮阴、距离、送货和能耗。
+    - id: p14
+      illustration: p14
+      blocks:
+        - id: p14-b01
+          speaker: narrator
+          text: 一个孩子把市场模型放在车站旁，摊主又补出宽敞的卸货空间。
+    - id: p15
+      illustration: p15
+      blocks:
+        - id: p15-b01
+          speaker: narrator
+          content:
+            - text: 陆在方案旁放下代表
+            - vocabulary:
+                id: consent
+                text: 同意
+            - text: 的亮色圆片。
+        - id: p15-b02
+          speaker: lu
+          content:
+            - text: 市场移动前，摊主要知道去处并同意。开始移动后，他们还得能叫停。
+    - id: p16
+      illustration: p16
+      blocks:
+        - id: p16-b01
+          speaker: narrator
+          content:
+            - text: 森给节点装上一个又大又能摸清形状的暂停键。
+        - id: p16-b02
+          speaker: sen
+          content:
+            - text: 装在轨道旁，附近的人都能按到。
+    - id: p17
+      illustration: p17
+      blocks:
+        - id: p17-b01
+          speaker: narrator
+          text: 居民讨论时，节点亮着琥珀色灯安静等待。
+        - id: p17-b02
+          speaker: node
+          text: 未发现共同许可，保持原位。
+    - id: p18
+      illustration: p18
+      blocks:
+        - id: p18-b01
+          speaker: narrator
+          text: 市场最终沿较长的弯路移动，留在车站旁边，只多消耗了一些电力。
+    - id: p19
+      illustration: p19
+      blocks:
+        - id: p19-b01
+          speaker: narrator
+          content:
+            - text: 住宅进入阴凉，花园迎着阳光，市场仍靠着车站。人们沿相连的通道来往，送货也没有停。
+    - id: p20
+      illustration: p20
+      blocks:
+        - id: p20-b01
+          speaker: narrator
+          content:
+            - text: 下一个黎明，市场仍留在原地。节点陪森和陆等着。
+        - id: p20-b02
+          speaker: sen
+          content:
+            - text: 去请摊主们吗？
+        - id: p20-b03
+          speaker: lu
+          content:
+            - text: 好。先问清楚，再让市场移动。

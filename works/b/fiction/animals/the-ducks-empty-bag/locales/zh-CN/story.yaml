@@ -1,40 +1,194 @@
-schema_version: 1
+schema_version: 2
 language: zh-CN
 writer: 栗叶灯
 title: 小鸭的空袋子
 summary: 皮皮带着空袋子去野餐。风把垃圾吹开后，三个朋友把垃圾捡进袋子，草地又干净了。
-cast:
-  narrator: {display_name: 旁白, tts: {delivery: 简洁友好, timbre: 清晰的成年声音, pace: 中慢速, pitch: 中音}}
-  pip: {display_name: 皮皮, tts: {delivery: 快活稳当, timbre: 轻快的少年声音, pace: 中速, pitch: 中高音}}
-  mole: {display_name: 小墨, tts: {delivery: 快言快语, timbre: 柔厚的声音, pace: 中速, pitch: 中低音}}
-  rabbit: {display_name: 小白, tts: {delivery: 温和活泼, timbre: 轻柔的少年声音, pace: 中速, pitch: 高音}}
-pages:
-  - id: p01
-    illustration: p01
-    lines:
-      - {speaker: narrator, text: 三个朋友去野餐。}
-      - speaker: narrator
-        content: [{text: 皮皮带着蓝}, {vocabulary: {id: bag, text: 袋子}}, {text: 。}]
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 小墨带面包，小白带苹果。}]}
-  - id: p03
-    illustration: p03
-    lines:
-      - speaker: mole
-        content: [{vocabulary: {id: bag, text: 袋子}}, {text: 怎么是空的？}]
-      - {speaker: pip, text: 一会儿就有用。}
-  - id: p04
-    illustration: p04
-    lines:
-      - speaker: narrator
-        content: [{text: 皮皮收好空}, {vocabulary: {id: bag, text: 袋子}}, {text: 。}]
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 大家一起吃午饭。}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 风把果皮和纸巾吹跑了。}]}
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 大家捡起垃圾。}, {speaker: narrator, text: 皮皮张开袋子。}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 袋子满了。}, {speaker: narrator, text: 草地干净了。}]}
 chapters:
-  - {id: ch01, title: 空袋子, page_refs: [p01, p02, p03, p04]}
-  - {id: ch02, title: 干净的草地, page_refs: [p05, p06, p07, p08]}
+  - id: ch01
+    title: 空袋子
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+  - id: ch02
+    title: 干净的草地
+    page_refs:
+      - p05
+      - p06
+      - p07
+      - p08
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: 皮皮带了什么？, answer: 蓝袋子。, page_refs: [p01]}
-  - {id: q02, type: explicit-choice, speaker: narrator, prompt: 最后袋子里有什么？, choices: [垃圾, 池水], answer: 垃圾。, page_refs: [p06, p07, p08]}
-  - {id: q03, type: sequence, speaker: narrator, prompt: 大家捡垃圾前发生了什么？, answer: 风把垃圾吹跑了。, page_refs: [p06, p07]}
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: 皮皮带了什么？
+    answer: 蓝袋子。
+    page_refs:
+      - p01
+  - id: q02
+    type: explicit-choice
+    speaker: narrator
+    prompt: 最后袋子里有什么？
+    choices:
+      - 垃圾
+      - 池水
+    answer: 垃圾。
+    page_refs:
+      - p06
+      - p07
+      - p08
+  - id: q03
+    type: sequence
+    speaker: narrator
+    prompt: 大家捡垃圾前发生了什么？
+    answer: 风把垃圾吹跑了。
+    page_refs:
+      - p06
+      - p07
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: 三个朋友去野餐。皮皮带着蓝
+            - vocabulary:
+                id: bag
+                text: 袋子
+            - text: 。
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: 小墨带面包，小白带苹果。
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: 小墨问：“空
+            - vocabulary:
+                id: bag
+                text: 袋子
+            - text: ？”皮皮说：“一会儿有用。”
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: 皮皮把空
+            - vocabulary:
+                id: bag
+                text: 袋子
+            - text: 收在翅膀下。
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: 三个朋友边吃边笑。
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: 风吹跑了果皮和纸巾。
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - text: 大家捡起每片垃圾。皮皮张开袋子。
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - text: 袋子装满了。草地又干净了。
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 简洁友好
+        timbre: 清晰的成年声音
+        pace: 中慢速
+        pitch: 中音
+    pip:
+      display_name: 皮皮
+      tts:
+        delivery: 快活稳当
+        timbre: 轻快的少年声音
+        pace: 中速
+        pitch: 中高音
+    mole:
+      display_name: 小墨
+      tts:
+        delivery: 快言快语
+        timbre: 柔厚的声音
+        pace: 中速
+        pitch: 中低音
+    rabbit:
+      display_name: 小白
+      tts:
+        delivery: 温和活泼
+        timbre: 轻柔的少年声音
+        pace: 中速
+        pitch: 高音
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          content:
+            - text: 三个朋友去野餐。皮皮带着蓝
+            - vocabulary:
+                id: bag
+                text: 袋子
+            - text: 。
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          text: 小墨带面包，小白带苹果。
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: mole
+          content:
+            - text: 空
+            - vocabulary:
+                id: bag
+                text: 袋子
+            - text: ？
+        - id: p03-b02
+          speaker: pip
+          text: 一会儿有用。
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          content:
+            - text: 皮皮把空
+            - vocabulary:
+                id: bag
+                text: 袋子
+            - text: 收在翅膀下。
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: 三个朋友边吃边笑。
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: 风吹跑了果皮和纸巾。
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          text: 大家捡起每片垃圾。皮皮张开袋子。
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          text: 袋子装满了。草地又干净了。

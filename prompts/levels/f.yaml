@@ -1,0 +1,60 @@
+schema_version: 1
+id: f
+external_reference:
+  reading_a_z_label: F
+  age_band: 6-7
+  en_grade_reference: 1
+  en_lexile_reference: 190L-530L
+reading_goal: explain a two-step process or a character's goal and setback
+prompt: Write at HaiLibrary Level F to explain a two-step process or a character's goal and setback. Express the goal, setback, and changed action in readable, idiomatic sentences. Characters should react to the moment rather than narrate the process for the reader.
+text_contract:
+  structure: goal setback changed action
+  syntax: coordination plus short time reason or condition clauses
+  vocabulary: context-supported action description and process terms
+  knowledge: one modest concept
+  illustration_reliance: medium-high
+  inference: one local motive or link
+complexity_floor:
+  - the setback requires a changed action
+  - two steps must be retained
+pages:
+  min: 10
+  max: 16
+questions:
+  min: 3
+  max: 5
+  types:
+    - explicit-choice
+    - sequence
+    - cause-effect
+    - short-answer
+    - character-motive
+  required:
+    - cause-effect
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 6
+      - 9
+    sentences_per_page_max: 3
+    units_per_sentence_max: 12
+    units_per_page_typical:
+      - 9
+      - 19
+    units_per_page_max: 28
+    units_total_min: 90
+    units_total_max: 220
+    new_words_per_page_max: 2
+  zh:
+    mean_sentence_units_typical:
+      - 9
+      - 16
+    sentences_per_page_max: 3
+    units_per_sentence_max: 20
+    units_per_page_typical:
+      - 14
+      - 28
+    units_per_page_max: 40
+    units_total_min: 140
+    units_total_max: 330
+    new_words_per_page_max: 2

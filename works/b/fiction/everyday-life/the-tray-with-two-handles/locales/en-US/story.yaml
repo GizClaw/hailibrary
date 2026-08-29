@@ -1,37 +1,186 @@
-schema_version: 1
+schema_version: 2
 language: en-US
 writer: sage-paw
 title: The Tray with Two Handles
 summary: Oren's tray tips when it has one handle. Oren and Ada add a second handle, and the tray stays level.
-cast:
-  narrator: {display_name: Narrator, tts: {delivery: warm and clear, timbre: friendly adult voice, pace: slow-medium, pitch: medium}}
-  oren: {display_name: Oren, tts: {delivery: eager and practical, timbre: bright child voice, pace: medium, pitch: medium-high}}
-  ada: {display_name: Ada, tts: {delivery: observant and encouraging, timbre: calm child voice, pace: slow-medium, pitch: medium}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Oren makes a red tray."}]}
-  - id: p02
-    illustration: p02
-    lines:
-      - speaker: narrator
-        content: [{text: "The tray has one "}, {vocabulary: {id: handle, text: handle}}, {text: "."}]
-  - id: p03
-    illustration: p03
-    lines:
-      - speaker: narrator
-        content: [{text: "Oren adds three empty "}, {vocabulary: {id: cup, text: cups}}, {text: "."}]
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "The tray tips."}, {speaker: narrator, text: "Oren catches the cups."}]}
-  - {id: p05, illustration: p05, lines: [{speaker: ada, text: "One handle pulls one side."}]}
-  - id: p06
-    illustration: p06
-    lines:
-      - speaker: narrator
-        content: [{text: "They add a second "}, {vocabulary: {id: handle, text: handle}}, {text: "."}]
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "Oren holds both handles."}, {speaker: narrator, text: "The tray stays level."}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "Oren sets it on the table."}, {speaker: ada, text: "All three cups stay put!"}]}
 chapters:
-  - {id: ch01, title: One Handle, page_refs: [p01, p02, p03, p04]}
-  - {id: ch02, title: Two Handles, page_refs: [p05, p06, p07, p08]}
+  - id: ch01
+    title: One Handle
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+  - id: ch02
+    title: Two Handles
+    page_refs:
+      - p05
+      - p06
+      - p07
+      - p08
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: "How many cups are on the tray?", answer: "Three cups.", page_refs: [p03]}
-  - {id: q02, type: explicit-choice, speaker: narrator, prompt: "Why does the tray tip?", choices: [One handle pulls one side, The cups fly], answer: "One handle pulls one side.", page_refs: [p04, p05]}
-  - {id: q03, type: sequence, speaker: narrator, prompt: "What do they add next?", answer: "A second handle.", page_refs: [p05, p06]}
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: How many cups are on the tray?
+    answer: Three cups.
+    page_refs:
+      - p03
+  - id: q02
+    type: explicit-choice
+    speaker: narrator
+    prompt: Why does the tray tip?
+    choices:
+      - One handle pulls one side
+      - The cups fly
+    answer: One handle pulls one side.
+    page_refs:
+      - p04
+      - p05
+  - id: q03
+    type: sequence
+    speaker: narrator
+    prompt: What do they add next?
+    answer: A second handle.
+    page_refs:
+      - p05
+      - p06
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: Oren makes a red tray.
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: "The tray has one "
+            - vocabulary:
+                id: handle
+                text: handle
+            - text: .
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: "He adds three empty "
+            - vocabulary:
+                id: cup
+                text: cups
+            - text: .
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: The tray tips on a turn. Oren catches the cups.
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: Ada says, “It tips when you turn.”
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: "They add a second "
+            - vocabulary:
+                id: handle
+                text: handle
+            - text: .
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - text: Oren and Ada hold both handles. The tray stays level.
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - text: Oren sets it down. Ada says, “The cups stayed put!”
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and clear
+        timbre: friendly adult voice
+        pace: slow-medium
+        pitch: medium
+    oren:
+      display_name: Oren
+      tts:
+        delivery: eager and practical
+        timbre: bright child voice
+        pace: medium
+        pitch: medium-high
+    ada:
+      display_name: Ada
+      tts:
+        delivery: observant and encouraging
+        timbre: calm child voice
+        pace: slow-medium
+        pitch: medium
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: Oren makes a red tray.
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - text: "The tray has one "
+            - vocabulary:
+                id: handle
+                text: handle
+            - text: .
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          content:
+            - text: "He adds three empty "
+            - vocabulary:
+                id: cup
+                text: cups
+            - text: .
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: The tray tips on a turn. Oren catches the cups.
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: ada
+          text: It tips when you turn.
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          content:
+            - text: "They add a second "
+            - vocabulary:
+                id: handle
+                text: handle
+            - text: .
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          text: Oren and Ada hold both handles. The tray stays level.
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          text: Oren sets it down.
+        - id: p08-b02
+          speaker: ada
+          text: The cups stayed put!

@@ -1,0 +1,67 @@
+schema_version: 1
+id: z2
+external_reference:
+  reading_a_z_label: Z2
+  age_band: 22+
+  en_grade_reference: Advanced undergraduate-graduate-professional
+  en_lexile_reference: 1450L-1650L+
+reading_goal: produce a mature evidence-qualified interpretation of a conceptually demanding work
+prompt: Write at HaiLibrary Level Z2 to produce a mature evidence-qualified interpretation of a conceptually demanding work. Use mature professional or graduate-level prose with methodological precision, qualified claims, and sustained argument. Complexity must come from real disciplinary reasoning, not jargon density or theatrical exposition.
+text_contract:
+  structure: long-range causality viewpoint and counterevidence
+  syntax: mature disciplinary narrative and rhetorical control
+  vocabulary: advanced academic rhetorical and specialist distinctions
+  knowledge: contested values incomplete evidence and consequences across scales
+  illustration_reliance: optional
+  inference: competing models uncertainty rhetoric and second-order effects
+complexity_floor:
+  - the synthesis preserves uncertainty
+  - counterevidence changes the conclusion
+  - prose carries all essential reasoning
+pages:
+  min: 32
+  max: 80
+questions:
+  min: 11
+  max: 16
+  types:
+    - short-answer
+    - evidence
+    - compare
+    - evaluate
+    - synthesis
+    - source-analysis
+    - research-response
+  required:
+    - evaluate
+    - synthesis
+    - source-analysis
+    - research-response
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 18
+      - 30
+    sentences_per_page_max: 14
+    units_per_sentence_max: 46
+    units_per_page_typical:
+      - 80
+      - 170
+    units_per_page_max: 240
+    units_total_min: 2400
+    units_total_max: 7000
+    new_words_per_page_max: 14
+  zh:
+    mean_sentence_units_typical:
+      - 29
+      - 54
+    sentences_per_page_max: 14
+    units_per_sentence_max: 76
+    units_per_page_typical:
+      - 125
+      - 260
+    units_per_page_max: 360
+    units_total_min: 3800
+    units_total_max: 9500
+    new_words_per_page_max: 14
+guidance: highest level is mature academic or professional reading but still requires coherent support, controlled terminology, and explicit evidence

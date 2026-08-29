@@ -1,0 +1,64 @@
+schema_version: 1
+id: z
+external_reference:
+  reading_a_z_label: Z
+  age_band: 16-18
+  en_grade_reference: 11-12
+  en_lexile_reference: 1185L-1385L
+reading_goal: independently evaluate a complex source-aware work and articulate uncertainty
+prompt: Write at HaiLibrary Level Z to independently evaluate a complex source-aware work and articulate uncertainty. Support independent, source-aware evaluation with precise, idiomatic prose and explicit uncertainty where warranted. Reject essay-template slogans, inflated abstraction, and implausibly polished conversation.
+text_contract:
+  structure: multiple strands converge
+  syntax: mature compression and rhetoric
+  vocabulary: advanced academic specialist and register-aware
+  knowledge: interacting systems or contested interpretations
+  illustration_reliance: optional
+  inference: mechanisms values and uncertainty
+complexity_floor:
+  - the conclusion accounts for counterevidence
+  - second-order effects alter the judgment
+pages:
+  min: 28
+  max: 50
+questions:
+  min: 10
+  max: 14
+  types:
+    - short-answer
+    - evidence
+    - compare
+    - evaluate
+    - synthesis
+    - source-analysis
+    - research-response
+  required:
+    - evaluate
+    - synthesis
+    - research-response
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 16
+      - 25
+    sentences_per_page_max: 16
+    units_per_sentence_max: 38
+    units_per_page_typical:
+      - 115
+      - 205
+    units_per_page_max: 280
+    units_total_min: 4500
+    units_total_max: 7000
+    new_words_per_page_max: 11
+  zh:
+    mean_sentence_units_typical:
+      - 25
+      - 46
+    sentences_per_page_max: 16
+    units_per_sentence_max: 64
+    units_per_page_typical:
+      - 170
+      - 300
+    units_per_page_max: 390
+    units_total_min: 6000
+    units_total_max: 8500
+    new_words_per_page_max: 11

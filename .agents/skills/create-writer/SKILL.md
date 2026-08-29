@@ -9,7 +9,7 @@ Create one Writer at `prompts/writers/<locale>/<name>/` with `prompt.yaml` and `
 
 ## Define the persona
 
-Resolve one locale and one or more recommended levels. Read `prompts/levels/levels.yaml`, `prompts/writers/index.yaml`, and nearby Writers for schema conventions.
+Resolve one locale and one or more recommended levels. Read `prompts/levels/index.yaml`, each recommended `prompts/levels/<level>.yaml`, `prompts/writers/index.yaml`, and nearby Writers for schema conventions.
 
 Recommended levels must use the direct 29-level keys `aa`, `a` through `z`, `z1`, and `z2`. Read every exact level record selected; never carry forward a legacy compressed A-K meaning.
 
@@ -28,6 +28,9 @@ Include:
 - personality traits, values, creative preferences, strengths, endings or structures, and meaningful avoidances;
 - disclosed reference reading, extracted high-level features, and an explicit non-copying rule when references were used;
 - a concise prompt that makes useful creative decisions while placing the HaiLibrary level above stylistic preferences.
+- a locale-specific `language_prompt` that requires natural read-aloud prose, distinguishes speakers by age, relationship, experience, intent, and emotion, and rejects dialogue used to explain the plot, state the moral, recite policy, or summarize the learning goal.
+
+Keep difficulty constraints out of the Writer. They belong to the exact record in `prompts/levels/<level>.yaml`; the Writer controls voice and creative decisions while the Level controls language demand.
 
 Do not include provider keys, voice IDs, or instructions to reproduce a living or historical person's recognizable style.
 

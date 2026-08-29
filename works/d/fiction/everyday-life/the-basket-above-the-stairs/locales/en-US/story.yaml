@@ -1,38 +1,231 @@
-schema_version: 1
+schema_version: 2
 language: en-US
 writer: silver-bell
 title: The Basket Above the Stairs
 summary: Rain is coming, and many seedlings must reach a rooftop greenhouse. After an adult checks the pulley, Etta and Arun balance the trays so the basket rises safely.
-cast:
-  narrator: {display_name: Narrator, tts: {delivery: observant and warm, timbre: clear adult voice, pace: medium, pitch: medium}}
-  etta: {display_name: Etta, tts: {delivery: energetic and candid, timbre: bright child voice, pace: medium, pitch: medium-high}}
-  arun: {display_name: Arun, tts: {delivery: careful and encouraging, timbre: calm child voice, pace: medium-slow, pitch: medium}}
-  ms_vale: {display_name: Ms. Vale, tts: {delivery: calm and firm, timbre: steady adult voice, pace: slow, pitch: medium-low}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Seedling trays wait below the greenhouse."}, {speaker: narrator, text: "Dark rain clouds are coming."}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "Etta carries one light tray upstairs."}, {speaker: narrator, text: "Many trays remain."}]}
-  - id: p03
-    illustration: p03
-    lines:
-      - speaker: arun
-        content: [{text: "We can use that rope "}, {vocabulary: {id: basket, text: basket}}, {text: "."}]
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "Ms. Vale checks the pulley and rope."}, {speaker: ms_vale, text: "Stand back while I inspect it."}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "She checks the knot."}, {speaker: narrator, text: "A red band marks the loading limit."}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Etta stacks three trays on one side."}]}
-  - id: p07
-    illustration: p07
-    lines:
-      - speaker: narrator
-        content: [{text: "The "}, {vocabulary: {id: basket, text: basket}}, {text: " tilts and catches near the ground."}]
-  - {id: p08, illustration: p08, lines: [{speaker: arun, text: "Spread the trays across the bottom."}, {speaker: narrator, text: "They balance the load."}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "The trays stay below the red band."}, {speaker: narrator, text: "Etta closes the gate."}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "Etta pulls the rope from the clear area."}, {speaker: narrator, text: "The level basket rises."}]}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "Ms. Vale receives it at the landing."}]}
-  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: "Every seedling reaches the greenhouse safely."}]}
 chapters:
-  - {id: ch01, title: Before the Rain, page_refs: [p01, p02, p03, p04, p05, p06]}
-  - {id: ch02, title: A Balanced Load, page_refs: [p07, p08, p09, p10, p11, p12]}
+  - id: ch01
+    title: Before the Rain
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
+  - id: ch02
+    title: A Balanced Load
+    page_refs:
+      - p07
+      - p08
+      - p09
+      - p10
+      - p11
+      - p12
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: "What marks the loading limit?", answer: "A red band.", page_refs: [p05]}
-  - {id: q02, type: sequence, speaker: narrator, prompt: "What do they do after the basket tilts?", answer: "They spread the trays across the bottom.", page_refs: [p07, p08]}
-  - {id: q03, type: cause-effect, speaker: narrator, prompt: "Why does the basket rise level?", answer: "The trays are spread evenly and stay below the limit.", page_refs: [p08, p09, p10]}
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: What marks the loading limit?
+    answer: A red band.
+    page_refs:
+      - p05
+  - id: q02
+    type: sequence
+    speaker: narrator
+    prompt: What do they do after the basket tilts?
+    answer: They spread the trays across the bottom.
+    page_refs:
+      - p07
+      - p08
+  - id: q03
+    type: cause-effect
+    speaker: narrator
+    prompt: Why does the basket rise level?
+    answer: The trays are spread evenly and stay below the limit.
+    page_refs:
+      - p08
+      - p09
+      - p10
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: Seedling trays wait below the rooftop greenhouse. Rain clouds are coming.
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: Etta carries one light tray upstairs, but many remain.
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: "Arun points to a rope and empty "
+            - vocabulary:
+                id: basket
+                text: basket
+            - text: . “We could lift them,” he says.
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: Ms. Vale checks the pulley. She says, “Stand back.”
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: She checks the knot. A red band marks the loading limit.
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: Etta stacks three trays on one side.
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: "The load is uneven. The "
+            - vocabulary:
+                id: basket
+                text: basket
+            - text: " tilts near the ground."
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - text: Arun says, “Spread the trays across the bottom.” They balance the load.
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - text: The trays stay below the red band. Etta closes the gate.
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - text: Etta pulls from the clear area. The level basket rises.
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - text: Ms. Vale receives it at the rooftop landing.
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - text: Every seedling reaches the greenhouse without being crushed.
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: observant and warm
+        timbre: clear adult voice
+        pace: medium
+        pitch: medium
+    etta:
+      display_name: Etta
+      tts:
+        delivery: energetic and candid
+        timbre: bright child voice
+        pace: medium
+        pitch: medium-high
+    arun:
+      display_name: Arun
+      tts:
+        delivery: careful and encouraging
+        timbre: calm child voice
+        pace: medium-slow
+        pitch: medium
+    ms_vale:
+      display_name: Ms. Vale
+      tts:
+        delivery: calm and firm
+        timbre: steady adult voice
+        pace: slow
+        pitch: medium-low
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: Seedling trays wait below the rooftop greenhouse. Rain clouds are coming.
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          text: Etta carries one light tray upstairs, but many remain.
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          content:
+            - text: "Arun points to the rope and empty "
+            - vocabulary:
+                id: basket
+                text: basket
+            - text: .
+        - id: p03-b02
+          speaker: arun
+          text: We could lift the trays.
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: Ms. Vale checks the pulley and rope.
+        - id: p04-b02
+          speaker: ms_vale
+          text: Stand back while I inspect it.
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: She checks the knot and marks the loading limit with a red band.
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: Etta stacks three trays on one side.
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          content:
+            - text: "Because the load is uneven, the "
+            - vocabulary:
+                id: basket
+                text: basket
+            - text: " tilts near the ground."
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: arun
+          text: Spread the trays across the bottom.
+        - id: p08-b02
+          speaker: narrator
+          text: They balance the load.
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          text: The trays stay below the red band, and Etta closes the gate.
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          text: Etta pulls from the clear area. The level basket rises.
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          text: Ms. Vale receives it at the rooftop landing.
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          text: Every seedling reaches the greenhouse without being crushed.

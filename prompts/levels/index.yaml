@@ -1,0 +1,159 @@
+schema_version: 2
+status: calibrated-draft
+level_order:
+  - aa
+  - a
+  - b
+  - c
+  - d
+  - e
+  - f
+  - g
+  - h
+  - i
+  - j
+  - k
+  - l
+  - m
+  - n
+  - o
+  - p
+  - q
+  - r
+  - s
+  - t
+  - u
+  - v
+  - w
+  - x
+  - y
+  - z
+  - z1
+  - z2
+principles:
+  - HaiLibrary retains the 29 Reading A-Z labels as an ordered naming sequence, but defines its own age-aligned progression from pre-primary through higher education.
+  - Directory keys are lowercase aa, a through z, z1, and z2; display labels are AA, A through Z, Z1, and Z2.
+  - Age and school stage are alignment anchors, while final placement is determined by sustained language and reading-task difficulty rather than genre, format, or narrative ambition.
+  - Locales preserve page events, evidence, and learning goals while adapting vocabulary and syntax independently.
+  - Quantitative limits are HaiLibrary editorial guardrails informed by Reading A-Z dimensions, MetaMetrics grade bands, and representative texts; they are not official Reading A-Z specifications.
+  - Lexile ranges are English cross-references only. Z1 and Z2 use internal higher-education targets, not certified college Lexile bands.
+  - Every level has a complexity floor and a mechanical ceiling. Length alone cannot raise a level, and sophistication cannot excuse an oversized work.
+prompt_contract:
+  role: The exact level prompt is the authoritative language-difficulty instruction for drafting and review.
+  composition: Combine it with the selected locale Writer prompt for prose and dialogue; apply the Style prompt only to artwork.
+  precedence: Level limits and complexity requirements override Writer preferences, while neither prose prompt may borrow visual instructions from the Style.
+  natural_language: Controlled language must remain idiomatic and speakable; reducing difficulty must never produce drills, translationese, report-like dialogue, or characters who recite the lesson.
+unit_definition:
+  en: whitespace-delimited words
+  zh: Han characters, excluding punctuation
+vocabulary_standard:
+  source_index: prompts/vocabulary/index.yaml
+  grading_criteria: prompts/vocabulary/ranges.yaml
+  rule: every locale edition and marked target must satisfy the exact directory level's locale-specific range
+locale_reference_contract:
+  file: prompts/levels/locale-references.yaml
+  rule: use the exact age band and locale-specific school-stage reference; Reading A-Z is a retained label and early calibration source, while Lexile applies only to English and must never be transferred to Chinese
+research_basis:
+  learning_a_z:
+    role: label sequence and early-reading calibration source; HaiLibrary deliberately extends later labels beyond official Reading A-Z grade meanings and is not certified or endorsed by Learning A-Z
+    official_scale_note: official Reading A-Z correlations place Z1 and Z2 at Grade 5+; HaiLibrary redefines them as higher-education extensions
+    quantitative_dimensions:
+      - total word count
+      - different word count
+      - lexical diversity
+      - high-frequency word ratio
+      - low-frequency word ratio
+      - sentence length
+      - sentence complexity
+    qualitative_dimensions:
+      - predictability
+      - text structure
+      - illustration and infographic support
+      - knowledge demand
+      - concept load
+      - topic familiarity
+      - themes
+      - intertextual dependence
+    sources:
+      - https://www.learninga-z.com/user_area/content_media/raw/text-leveling-learning-a-z.pdf
+      - https://www.readinga-z.com/correlation-tool/
+      - https://www.readinga-z.com/updates/raz_correlation_chart.pdf
+  lexile:
+    role: English grade-band quantitative cross-reference only; higher-education ranges are internal editorial targets
+    limitations: Lexile does not measure theme, purpose, organization, background knowledge, picture reliance, motivation, or task complexity; do not generate a Lexile claim for zh-CN
+    source: https://lexile.com/educators/understanding-lexile-measures/
+calibration:
+  range_status: provisional internal guardrails; recalibrate from a documented representative-book corpus rather than silently changing one level
+  representative_anchor:
+    title: It's About Time
+    reading_a_z_level: K
+    published_word_count: 401
+    published_lexile: 550L
+    source: https://www.raz-plus.com/books/books-by-grade-level/book/?id=708&langId=1
+  decision_rule: all quantitative ceilings, qualitative dimensions, vocabulary scope, and question demands must pass
+level_bands:
+  emergent:
+    - aa
+    - a
+    - b
+    - c
+  elementary_early:
+    - d
+    - e
+    - f
+    - g
+    - h
+    - i
+    - j
+  elementary_middle:
+    - k
+    - l
+    - m
+    - n
+    - o
+    - p
+  elementary_upper:
+    - q
+    - r
+    - s
+    - t
+    - u
+    - v
+  secondary:
+    - w
+    - x
+    - y
+    - z
+  higher_education:
+    - z1
+    - z2
+level_files:
+  aa: aa.yaml
+  a: a.yaml
+  b: b.yaml
+  c: c.yaml
+  d: d.yaml
+  e: e.yaml
+  f: f.yaml
+  g: g.yaml
+  h: h.yaml
+  i: i.yaml
+  j: j.yaml
+  k: k.yaml
+  l: l.yaml
+  m: m.yaml
+  n: n.yaml
+  o: o.yaml
+  p: p.yaml
+  q: q.yaml
+  r: r.yaml
+  s: s.yaml
+  t: t.yaml
+  u: u.yaml
+  v: v.yaml
+  w: w.yaml
+  x: x.yaml
+  y: y.yaml
+  z: z.yaml
+  z1: z1.yaml
+  z2: z2.yaml
