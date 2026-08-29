@@ -1,18 +1,20 @@
 schema_version: 1
-status: draft
-purpose: qualitative vocabulary grading criteria; concrete source lists and HaiLibrary assignments are indexed by prompts/vocabulary/index.yaml
+status: calibrated-draft
+purpose: exact-level qualitative vocabulary criteria; concrete queryable lists and evidence sources are indexed by prompts/vocabulary/index.yaml
 
 not_a_word_list: true
 companion_index: prompts/vocabulary/index.yaml
+locale_reference_contract: prompts/levels/locale-references.yaml
+level_order: [aa, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, z1, z2]
 
 principles:
-  - Vocabulary level is locale-specific. Locales share a concept and card but do not inherit another locale's word difficulty.
-  - A target word is judged by frequency, form, meaning, contextual support, and the reading task; character or word length alone never determines its level.
-  - Running text should mostly use vocabulary already available below the target level so the marked words remain the intentional learning load.
-  - A curriculum or textbook alignment is evidence, not an automatic HaiLibrary verdict.
-  - Grade and textbook references describe prior language exposure, not reader age, genre, or permitted subject matter.
-  - Definitions must be easier than the term they explain and must not introduce an unmarked word of equal or greater difficulty.
-  - Proper names, culturally specific words, and indispensable domain terms may exceed the ordinary range only when context makes them recoverable and review records the exception.
+  - Vocabulary level is locale-specific. Locales share a concept and wordless card but never inherit another locale's word difficulty.
+  - Judge a target by frequency, form, meaning, decoding or orthographic load, contextual support, and task; length alone never determines level.
+  - Running text should mostly use vocabulary available below the target level so marked words remain the intentional learning load.
+  - A list, curriculum, or textbook alignment is evidence rather than an automatic HaiLibrary verdict.
+  - Definitions must be easier than the term and must not introduce unmarked words of equal or greater difficulty.
+  - Proper names and indispensable domain terms may exceed the ordinary range only when context makes them recoverable and review records the exception.
+  - The AA-Z2 labels form HaiLibrary's age-aligned progression. W-Z are secondary-school ranges, Z1 is undergraduate, and Z2 is advanced undergraduate, graduate, or professional; these are not official Reading A-Z grade correlations.
 
 alignment_record:
   required_fields: [framework, status, source]
@@ -23,22 +25,40 @@ alignment_record:
 
 en-US:
   reference_models:
-    learning_a_z: uses total and different word counts, high- and low-frequency ratios, sentence length, and sentence complexity
-    lexile: uses word frequency as a semantic proxy and mean sentence length as a syntactic proxy; internal metrics are not certified Lexile measures
-    cambridge_young_learners: optional external evidence for Pre-A1 Starters, A1 Movers, and A2 Flyers words
+    learning_a_z: early-reading dimensions and retained label sequence, not the authority for HaiLibrary's later age alignment
+    lexile: word frequency and sentence length are partial quantitative proxies; internal metrics are never certified Lexile measures
+    concrete_list: prompts/vocabulary/lists/en-US/ngsl-1.2-hai-bands.csv
   required_metrics: [total_words, different_words, lexical_diversity_ratio, high_frequency_ratio, low_frequency_ratio, mean_sentence_words]
   ranges:
-    a: { familiarity: core spoken and very-high-frequency words, form: usually one simple base word, meaning: concrete and directly picturable, context: explicit picture plus repeated sentence frame, decoding: regular or separately supported }
-    b: { familiarity: high-frequency everyday words, form: simple bases and common inflections, meaning: concrete action object quality or relation, context: picture and adjacent sentence support, decoding: common sound-spelling patterns }
-    c: { familiarity: high-frequency plus a small context-recoverable fringe, form: common compounds derivations and inflections, meaning: concrete or simple relational, context: definition example contrast or causal result }
-    d: { familiarity: mixed everyday frequency, form: productive morphology and common phrasal forms, meaning: descriptive emotional temporal or causal, context: recoverable without relying only on the picture }
-    e: { familiarity: mixed-frequency general vocabulary, form: common affixes word families and transparent figurative uses, meaning: one abstract relation or viewpoint, context: meaning refined across more than one page }
-    f: { familiarity: general academic vocabulary plus supported domain words, form: productive derivation and multiple grammatical forms, meaning: comparison constraint evidence or tradeoff, context: reused across chapters }
-    g: { familiarity: meaningful low-frequency and domain vocabulary within otherwise accessible prose, form: multiword terms and less transparent morphology allowed, meaning: precise academic emotional or system relation, context: discourse support rather than picture dependence }
-    h: { familiarity: nuanced evaluative ethical and technical vocabulary, form: near-synonym distinctions and controlled idiom, meaning: value tension stance or long-range consequence, context: multiple evidence paths }
-    i: { familiarity: abstract and domain-specific vocabulary, form: polysemy nominalization and figurative extension, meaning: observation interpretation assumption model or uncertainty, context: meaning may be revised by later evidence }
-    j: { familiarity: disciplinary and rhetorical vocabulary, form: polysemous idiomatic and register-sensitive forms, meaning: source position qualification counterexample or synthesis, context: interpreted across sources or cases }
-    k: { familiarity: sophisticated general academic and indispensable specialist vocabulary, form: dense morphology register and connotation, meaning: systems models rhetoric uncertainty and second-order effects, context: independently inferable or explicitly defined without flattening the concept }
+    aa: { familiarity: first oral words and names, form: one base word, meaning: directly picturable object or action, context: exact repeated frame plus picture, decoding: regular or taught separately }
+    a: { familiarity: very-high-frequency spoken words, form: simple base words, meaning: concrete people objects actions colors or positions, context: picture plus repetition, decoding: common letter-sound patterns }
+    b: { familiarity: very-high-frequency everyday words, form: bases and simplest inflections, meaning: concrete action quality or place, context: picture and adjacent clause, decoding: common short patterns }
+    c: { familiarity: high-frequency everyday words, form: common inflections and transparent compounds, meaning: concrete relation time or result, context: repeated use or immediate contrast, decoding: common patterns with limited irregularity }
+    d: { familiarity: high-frequency plus a small recoverable fringe, form: basic inflection and common function words, meaning: sequence cause feeling or description, context: action-result or short explanation, decoding: longer regular patterns allowed }
+    e: { familiarity: high-frequency general vocabulary, form: common compounds derivations and inflections, meaning: familiar emotion manner cause or comparison, context: example contrast or result, decoding: common multisyllabic words with support }
+    f: { familiarity: common general vocabulary, form: transparent derivation and common phrasal forms, meaning: process purpose or simple condition, context: recoverable in prose and picture, decoding: productive patterns }
+    g: { familiarity: common general plus a few mixed-frequency words, form: word families and productive morphology, meaning: motivation consequence degree or classification, context: prose carries the clue, decoding: controlled irregular or multisyllabic forms }
+    h: { familiarity: mixed everyday frequency, form: productive morphology and common phrasal verbs, meaning: descriptive emotional temporal or causal nuance, context: recoverable without picture alone }
+    i: { familiarity: mixed-frequency general vocabulary, form: transparent affixes and word families, meaning: central idea relation or process, context: refined across two pages }
+    j: { familiarity: mixed-frequency general and introductory academic vocabulary, form: common derivation and transparent figurative use, meaning: motive evidence category or viewpoint, context: distributed textual support }
+    k: { familiarity: general vocabulary with limited supported academic or domain terms, form: common affixes families and grammatical forms, meaning: evidence consequence plan or main idea, context: explanation plus later application }
+    l: { familiarity: mixed-frequency general vocabulary, form: productive derivation and transparent polysemy, meaning: complication response comparison or conclusion, context: repeated in more than one scene }
+    m: { familiarity: general academic plus supported domain words, form: multiple grammatical forms and transparent multiword terms, meaning: alternative constraint process or evidence, context: reused across chapters }
+    n: { familiarity: general academic vocabulary with controlled low-frequency terms, form: derivation polysemy and common idiom, meaning: assumption revision mechanism or tradeoff, context: meaning changes with later evidence }
+    o: { familiarity: precise academic emotional and domain vocabulary, form: multiword terms and less transparent morphology, meaning: interacting constraint motive or system relation, context: discourse support rather than picture dependence }
+    p: { familiarity: meaningful low-frequency and domain vocabulary, form: controlled idiom and near-synonym contrast, meaning: competing goal value impact or evaluation, context: multiple scenes establish distinctions }
+    q: { familiarity: low-frequency general and domain terms within accessible prose, form: nominalization and technical compounds, meaning: long-range cause responsibility or synthesis, context: cross-chapter evidence }
+    r: { familiarity: nuanced evaluative ethical and technical vocabulary, form: near-synonyms figurative extension and controlled idiom, meaning: legitimate value tension stance or consequence, context: multiple evidence paths }
+    s: { familiarity: abstract and domain-specific vocabulary, form: polysemy nominalization and figurative extension, meaning: observation interpretation assumption model or uncertainty, context: later evidence may revise meaning }
+    t: { familiarity: abstract evaluative and discipline-entry vocabulary, form: qualification rhetoric and register distinction, meaning: reliability counterexample probability or limitation, context: compared across perspectives }
+    u: { familiarity: academic and domain vocabulary, form: productive nominalization polysemy and technical multiword terms, meaning: source mechanism context or synthesis, context: narrative and explanatory passages jointly support it }
+    v: { familiarity: disciplinary and rhetorical vocabulary, form: register-sensitive and polysemous forms, meaning: source position causal claim qualification or counterexample, context: interpreted across sources or cases }
+    w: { familiarity: precise abstract and disciplinary vocabulary, form: dense morphology and controlled idiom, meaning: system interaction uncertainty or second-order effect, context: parallel evidence strands }
+    x: { familiarity: sophisticated general academic and necessary specialist vocabulary, form: register connotation and compressed multiword terms, meaning: mechanism framework rhetoric or interpretation, context: definition morphology and discourse }
+    y: { familiarity: advanced disciplinary and rhetorical vocabulary, form: layered polysemy idiom and connotation, meaning: competing model contested value or limitation, context: compared across frameworks }
+    z: { familiarity: advanced academic and specialist vocabulary, form: mature register and compressed formal phrasing, meaning: synthesis counterevidence uncertainty and indirect effects, context: sustained whole-work support }
+    z1: { familiarity: sophisticated academic rhetorical and indispensable specialist vocabulary, form: dense morphology register and connotation, meaning: systems models assumptions rhetoric and second-order effects, context: independently inferable or explicitly defined without flattening }
+    z2: { familiarity: mature cross-disciplinary vocabulary with precise distinctions, form: advanced compression polysemy and register control, meaning: contested frameworks uncertainty causality and evidence quality, context: tested across the complete work }
 
 zh-CN:
   curriculum_basis:
@@ -46,132 +66,57 @@ zh-CN:
     stage_1_grades_1_2: { recognize_cumulative_about: 1600, write_cumulative_about: 800 }
     stage_2_grades_3_4: { recognize_cumulative_about: 2500, write_cumulative_about: 1600 }
     stage_3_grades_5_6: { recognize_cumulative_about: 3000, write_cumulative_about: 2500 }
-    character_tables: use the curriculum's common-character and basic-character tables as general baselines, then verify actual exposure against the selected textbook edition
+    rule: stage totals are scale checkpoints, not proof that a particular character or word appears in a textbook
   textbook_basis:
     default_publisher: 人民教育出版社
     default_series: 统编小学语文教科书
-    edition_policy: pin edition, grade, semester, recognition or writing list, and page or appendix location; never merge different editions silently
-    current_revision_note: revised textbooks are being introduced by grade, so semester lists must be treated as versioned snapshots
-    verified_checkpoint:
-      edition: 2024 revised first-grade edition described by PEP in 2025
-      grade: 1
-      semester: 1
-      recognize: 280
-      write: 100
-      use: scale checkpoint only; exact characters still require the textbook appendix
+    edition_policy: pin edition grade semester recognition-or-writing scope and page-or-appendix location; never merge editions silently
+    verified_checkpoint: { edition: 2024修订版, grade: 1, semester: 1, recognize: 280, write: 100, use: totals only; exact items still require appendix verification }
   dimensions:
-    character_exposure: whether each character is already recognizable and writable at the referenced checkpoint
-    word_familiarity: whether the complete word is used in textbook text or word-learning activities, not merely whether its characters appear separately
-    word_formation: simplex word, transparent compound, affix or reduplication, idiom, abbreviation, or specialist term
-    semantic_load: concrete meaning, relation, emotion, abstraction, polysemy, figurative meaning, stance, or discipline-specific concept
-    orthographic_load: number of new characters, component transparency, confusable forms, and pronunciation including polyphones and neutral tone
-    context_support: picture, apposition, definition, example, contrast, cause, repeated use, or cross-page evidence
-  running_text_rule: unmarked running-text characters should come from the current or an earlier verified curriculum checkpoint; exceptions require pinyin or immediate contextual recovery and must not accumulate
-  target_word_rule: a marked target may introduce characters beyond the running-text checkpoint, but the number and opacity of those characters must fit the level range below
+    - complete-word familiarity, not merely familiarity with each character
+    - recognition and writing exposure at the pinned textbook checkpoint
+    - word formation, polyphones, neutral tone, confusable forms, and new-character load
+    - concrete, relational, emotional, abstract, figurative, rhetorical, or discipline-specific meaning
+    - picture, apposition, definition, example, contrast, cause, repetition, or cross-page evidence support
+  running_text_rule: unmarked running-text characters should come from the current or an earlier verified checkpoint; necessary exceptions need pinyin or immediate recovery and must not accumulate
+  target_word_rule: a marked target may introduce later characters, but its total orthographic and semantic load must satisfy the exact level below
   ranges:
-    a:
-      curriculum_reference: 一年级上册起步，优先使用已核验的识字表前段和识字写字基本字
-      target_form: usually one character or a transparent two-character word
-      new_character_load: at most one readily picturable or component-transparent character
-      semantic_range: people body nature familiar objects basic actions size color and position
-      word_formation: simplex words and the most transparent compounds only
-      support: direct illustration pinyin when needed and repeated sentence frame
-      exclusions: idioms literary contractions abstract nouns unexplained polyphones and rare character compounds
-    b:
-      curriculum_reference: 一年级教材范围
-      target_form: usually one or two characters
-      new_character_load: normally no more than one new character per target word
-      semantic_range: school family routines feelings common actions time and simple cause
-      word_formation: common compounds reduplication and simple verb-object forms
-      support: picture plus an explicit adjacent clue
-      exclusions: opaque idioms specialist abbreviations and definitions containing harder unmarked words
-    c:
-      curriculum_reference: 第一学段中段
-      target_form: one to three characters with recognizable components
-      new_character_load: one new character is normal; two require strong form or context support
-      semantic_range: description sequence cause contrast manner and familiar natural processes
-      word_formation: transparent compounds common affixes and simple synonym or antonym relations
-      support: example contrast action result or short definition
-      exclusions: meaning that depends on unsupported classical usage or distant context
-    d:
-      curriculum_reference: 第一学段完成，累计认识约1600字、会写约800字
-      target_form: commonly two or three characters
-      new_character_load: up to two when the word is indispensable and contextually recoverable
-      semantic_range: motivation consequence emotion degree classification and basic technical or cultural terms
-      word_formation: productive compounds common polysemy and familiar fixed expressions
-      support: prose must carry the clue without requiring the illustration
-      exclusions: dense four-character expressions and low-frequency literary synonyms used only for ornament
-    e:
-      curriculum_reference: 第二学段起步
-      target_form: usually two to four characters
-      new_character_load: unfamiliar characters may appear when their components or surrounding explanation support inference
-      semantic_range: viewpoint evidence change comparison category and simple abstraction
-      word_formation: word families near-synonyms common idioms with transparent context and discipline-entry terms
-      support: meaning is established across at least two uses or one explicit explanation
-      exclusions: memorized idiom use without contextual meaning
-    f:
-      curriculum_reference: 第二学段中段
-      target_form: multi-character general academic and domain terms allowed
-      new_character_load: judged by the whole passage rather than an isolated word count
-      semantic_range: constraint method process evidence tradeoff and changing interpretation
-      word_formation: productive morphemes synonym distinctions polysemy and context-supported idiom
-      support: reused across chapters in more than one syntactic role or context
-      exclusions: replacing a clear common word with a rare synonym merely to raise difficulty
-    g:
-      curriculum_reference: 第二学段完成，累计认识约2500字、会写约1600字
-      target_form: precise general academic emotional and domain vocabulary
-      new_character_load: most characters should be within the stage-two recognition range; exceptions require explicit support
-      semantic_range: interacting constraints evidence comparison motive system relation and evaluation
-      word_formation: less transparent compounds controlled idioms and introductory terminology
-      support: cross-scene context rather than a single picture
-      exclusions: terminology that the story never applies after defining it
-    h:
-      curriculum_reference: 第三学段起步
-      target_form: nuanced evaluative ethical figurative and technical words
-      new_character_load: rare forms remain exceptional even when the concept is advanced
-      semantic_range: value tension consent responsibility uncertainty impact and long-range consequence
-      word_formation: near-synonym contrast contextual idiom and figurative extension
-      support: multiple examples consequences or viewpoints refine the meaning
-      exclusions: unsupported internet slang archaic diction and decorative 成语堆砌
-    i:
-      curriculum_reference: 第三学段中段
-      target_form: abstract and domain-specific vocabulary with controlled polysemy
-      new_character_load: rely on known morphemes to build unfamiliar concepts whenever possible
-      semantic_range: observation interpretation assumption model source reliability probability and ambiguity
-      word_formation: nominalization discipline compounds and figurative or rhetorical meaning
-      support: later evidence may revise the reader's first interpretation
-      exclusions: definitions that erase uncertainty or confuse related technical concepts
-    j:
-      curriculum_reference: 第三学段完成，累计认识约3000字、会写约2500字
-      target_form: disciplinary rhetorical and source-aware vocabulary
-      new_character_load: primary-school common characters should carry most advanced concepts; specialist characters require direct explanation
-      semantic_range: qualification counterexample perspective mechanism synthesis and limitation
-      word_formation: register distinction polysemy formal compounds idiom and terminology
-      support: compared across sources cases time periods or speakers
-      exclusions: treating curriculum recognition as proof that the full term and meaning are already familiar
-    k:
-      curriculum_reference: 小学毕业衔接；小学常用字为主体，受控引入更高阶段词汇
-      target_form: sophisticated general academic and indispensable specialist terms
-      new_character_load: no fixed count can replace editorial review; every beyond-primary character must be necessary and supported
-      semantic_range: systems models rhetoric contested values uncertainty and second-order effects
-      word_formation: compressed formal language register connotation multi-layer polysemy and specialist terminology
-      support: definition morphology and discourse jointly support independent understanding
-      exclusions: gratuitous rare characters fake erudition and unexplained classical or specialist shorthand
+    aa: { curriculum_reference: 一年级上册入门前段, target_form: 单字或最透明双字词, new_character_load: 每词至多一个可直接看图理解的新字, semantic_range: 人物身体实物基本动作颜色位置, support: 图片加完全重复句式, exclusions: 抽象词成语多音歧义 }
+    a: { curriculum_reference: 一年级上册起步, target_form: 常用单字或透明双字词, new_character_load: 每词至多一个易理解新字, semantic_range: 家庭动物物品动作大小颜色方位, support: 图片重复和必要拼音, exclusions: 抽象名词和生僻复合词 }
+    b: { curriculum_reference: 一年级上册前段, target_form: 一至二字常用词, new_character_load: 通常不超过一个新字, semantic_range: 日常动作状态地点和简单感受, support: 图片加相邻文字线索, exclusions: 不透明固定语和未解释多音词 }
+    c: { curriculum_reference: 一年级上册范围, target_form: 一至二字及透明重叠词, new_character_load: 通常不超过一个新字, semantic_range: 时间顺序结果家庭学校和游戏, support: 重复例子或直接对比, exclusions: 专业缩写和抽象定义 }
+    d: { curriculum_reference: 一年级上下册衔接, target_form: 一至三字且构词透明, new_character_load: 一个为常态两个须强支持, semantic_range: 顺序原因感受描述和熟悉过程, support: 动作结果或短解释, exclusions: 依靠远距离语境的词 }
+    e: { curriculum_reference: 第一学段前段, target_form: 一至三字常见复合词, new_character_load: 一个为常态两个需图片或构件支持, semantic_range: 情绪方式因果比较和自然现象, support: 例子对比或结果, exclusions: 无语境成语和书面缩略 }
+    f: { curriculum_reference: 第一学段中段, target_form: 常见二至三字词, new_character_load: 最多两个且必须必要可推断, semantic_range: 目的条件过程和简单分类, support: 正文与图片共同支持, exclusions: 装饰性生僻同义词 }
+    g: { curriculum_reference: 第一学段中后段, target_form: 透明复合词和常见固定搭配, new_character_load: 以已学构件为主, semantic_range: 动机后果程度分类和基础文化科技词, support: 正文给出完整线索, exclusions: 仅凭图片理解的关键概念 }
+    h: { curriculum_reference: 一年级下册中段, target_form: 二至三字常用词及少量固定表达, new_character_load: 陌生字须有构件或上下文支持, semantic_range: 情绪时间因果关系和人物动机, support: 不依赖图片也能恢复词义, exclusions: 成语堆砌和低频文言色彩 }
+    i: { curriculum_reference: 一年级下册后段, target_form: 二至三字词及透明词族, new_character_load: 大部分字应来自一年级识读经验, semantic_range: 中心意思关系过程和简单抽象, support: 跨两页复现或明确解释, exclusions: 把识字量当完整词熟悉度 }
+    j: { curriculum_reference: 一年级完成, target_form: 二至四字一般词和入门学术词, new_character_load: 超出字须可由构件和语境推断, semantic_range: 动机证据类别观点和变化, support: 分布式文字证据, exclusions: 无解释术语和装饰性成语 }
+    k: { curriculum_reference: 二年级下册中后段；第一学段阅读任务, target_form: 二至四字一般词及受控领域词, new_character_load: 每页新增负担须集中在目标词, semantic_range: 证据后果计划中心意思和简单观点, support: 一次解释加后续应用, exclusions: 仅用难词拉高等级 }
+    l: { curriculum_reference: 二年级完成；累计约识字1600写字800, target_form: 常见词族透明多义和复合词, new_character_load: 陌生字须必要且可推断, semantic_range: 困难回应比较和结论, support: 跨场景复现, exclusions: 无上下文的固定表达 }
+    m: { curriculum_reference: 二年级完成；第一学段完成, target_form: 一般学术词和受控多字术语, new_character_load: 以已识字构成新概念为优先, semantic_range: 选择限制过程方法和证据, support: 跨章节不同句法角色复现, exclusions: 定义中出现更难未标词 }
+    n: { curriculum_reference: 三年级上册；第二学段起步, target_form: 派生构词常见多义和语境成语, new_character_load: 按整段负担审核, semantic_range: 假设修正机制权衡和解释, support: 后续证据修正初义, exclusions: 罕见同义词替代常用表达 }
+    o: { curriculum_reference: 三年级中段, target_form: 精确一般学术情绪和领域词, new_character_load: 大部分字应在第二学段范围, semantic_range: 多重限制动机系统关系和评价, support: 主要靠跨场景正文, exclusions: 定义后从未应用的术语 }
+    p: { curriculum_reference: 三年级完成, target_form: 受控成语近义辨析和入门术语, new_character_load: 例外字须明确解释, semantic_range: 竞争目标价值影响和判断, support: 多个场景建立差异, exclusions: 机械背诵式成语 }
+    q: { curriculum_reference: 四年级上册, target_form: 低频一般词领域词和名词化结构, new_character_load: 常用字承载多数新概念, semantic_range: 长期原因责任和综合, support: 跨章节证据, exclusions: 无必要的专业字符 }
+    r: { curriculum_reference: 四年级完成；第二学段完成, target_form: 评价伦理技术和比喻词, new_character_load: 超范围字保持例外, semantic_range: 合理价值冲突立场和长远后果, support: 多条证据路径, exclusions: 网络黑话古语和成语堆砌 }
+    s: { curriculum_reference: 五年级上册；第三学段起步, target_form: 抽象与领域词及受控多义, new_character_load: 优先利用已知语素建构概念, semantic_range: 观察解释假设模型和不确定性, support: 后续证据可修正理解, exclusions: 抹掉概念不确定性的定义 }
+    t: { curriculum_reference: 五年级完成前段, target_form: 评价词限定语和学科入门词, new_character_load: 专业字须直接解释, semantic_range: 可靠性反例概率限制和视角, support: 跨人物或来源比较, exclusions: 把正式语体当正确推理 }
+    u: { curriculum_reference: 六年级上册, target_form: 学术领域词名词化和技术复合词, new_character_load: 以小学常用字承载概念, semantic_range: 来源机制背景和综合, support: 叙事与说明共同支持, exclusions: 脱离故事的术语表 }
+    v: { curriculum_reference: 六年级完成；第三学段完成, target_form: 学科修辞和来源意识词汇, new_character_load: 少量专业字需释义和复现, semantic_range: 来源立场因果主张限定和反例, support: 跨来源案例比较, exclusions: 未核实的正式术语 }
+    w: { curriculum_reference: 初一至初二, target_form: 精确抽象领域词及成熟成语, new_character_load: 罕见字须不可替代且可由正文恢复, semantic_range: 系统互动不确定性和二阶影响, support: 平行证据链, exclusions: 文饰性生僻字 }
+    x: { curriculum_reference: 初三, target_form: 高阶一般学术和必要专业词, new_character_load: 定义构词和上下文共同支持, semantic_range: 机制框架修辞和解释, support: 全文多次检验, exclusions: 伪学术和无应用术语 }
+    y: { curriculum_reference: 高一, target_form: 学科修辞多义语体和含义辨析, new_character_load: 常用字为主体专业字有证据, semantic_range: 竞争模型争议价值和局限, support: 跨框架比较, exclusions: 以罕见程度替代概念难度 }
+    z: { curriculum_reference: 高二至高三, target_form: 高阶学术专业及语体敏感词, new_character_load: 学科术语须必要并由定义或论证支持, semantic_range: 综合反证不确定性和间接影响, support: 全书持续语境, exclusions: 无解释古语和专业缩略 }
+    z1: { curriculum_reference: 大学本科, target_form: 本科通识和学科入门的学术修辞及必要专业词, new_character_load: 生僻字和术语须服务概念并可由上下文恢复, semantic_range: 系统模型假设修辞方法和二阶效应, support: 定义构词来源和论证共同支持, exclusions: 炫技用字假博学和无来源术语 }
+    z2: { curriculum_reference: 高阶本科研究生及专业阅读, target_form: 成熟跨学科专业词及精确概念辨析, new_character_load: 无固定字数可代替逐词逐义审核, semantic_range: 争议框架方法论不确定性因果和证据质量, support: 在全书中被检验限定和修正, exclusions: 无定义术语墙无支持文言压缩和故作艰深 }
 
 sources:
-  - title: New General Service List 1.2
-    url: https://www.newgeneralservicelist.com/new-general-service-list
-  - title: 通用规范汉字表
-    url: https://www.moe.gov.cn/jyb_xwfb/xw_fbh/moe_2069/moe_2590/moe_2914/moe_2912/tnull_50831.html
-  - title: 教育部关于印发义务教育课程方案和课程标准（2022年版）的通知及语文课程标准附件
-    url: https://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html
-  - title: 人民教育出版社修订版统编小学语文一年级教材教学建议
-    url: https://www.pep.com.cn/bks/xxyw/jzjd/202505/W020250531413572751916.pdf
-  - title: 人民教育出版社修订版统编小学语文二年级教材分析
-    url: https://www.pep.com.cn/bks/xxyw/jzjd/202507/W020250716532280620290.pdf
-  - title: Learning A-Z Text Leveling System
-    url: https://www.learninga-z.com/user_area/content_media/raw/text-leveling-learning-a-z.pdf
-  - title: Lexile Analyzer User Guide
-    url: https://la-tools.lexile.com/help/
-  - title: Cambridge English Young Learners Word List 2025
-    url: https://www.cambridgeenglish.org/images/506166-starters-movers-flyers-word-list-2025.pdf
+  - { title: New General Service List 1.2, url: "https://www.newgeneralservicelist.com/new-general-service-list" }
+  - { title: 通用规范汉字表, url: "https://www.moe.gov.cn/jyb_xwfb/xw_fbh/moe_2069/moe_2590/moe_2914/moe_2912/tnull_50831.html" }
+  - { title: 义务教育语文课程标准（2022年版）, url: "https://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html" }
+  - { title: 普通高中语文课程标准（2017年版2020年修订）, url: "https://jsj.moe.gov.cn/news/2/1507.shtml" }
+  - { title: 人教版一年级语文教材修订说明, url: "https://www.pep.com.cn/bks/xxyw/jzjd/202505/W020250531413572751916.pdf" }
+  - { title: 人教版二年级语文教材分析, url: "https://www.pep.com.cn/bks/xxyw/jzjd/202507/W020250716532280620290.pdf" }
+  - { title: Learning A-Z Text Leveling System, url: "https://www.learninga-z.com/user_area/content_media/raw/text-leveling-learning-a-z.pdf" }
+  - { title: Lexile Analyzer User Guide, url: "https://la-tools.lexile.com/help/" }

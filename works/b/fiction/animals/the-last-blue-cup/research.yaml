@@ -1,3 +1,22 @@
 schema_version: 1
-required: false
-reason: The animal story and its events are entirely invented and make no external factual claim.
+required: true
+scope: Safe use of drinking cups in a shared setting.
+sources:
+  - id: cdc-drinking-vessels
+    title: Fundamental Elements Needed to Prevent Transmission of Infectious Agents
+    publisher: Centers for Disease Control and Prevention
+    url: https://www.cdc.gov/infection-control/hcp/isolation-precautions/prevention.html
+    accessed: 2026-08-28
+    supports:
+      - In communal settings, drinking vessels that are being used should not be shared.
+  - id: australian-serving-food
+    title: Cooking for Children — Serving food safely
+    publisher: Australian Government Department of Health, Disability and Ageing
+    url: https://www.health.gov.au/sites/default/files/documents/2020/10/cooking-for-children-book-get-up-and-grow-cooking-for-children-book.pdf
+    accessed: 2026-08-28
+    supports:
+      - Children should not share bowls or utensils or eat from each other's cups.
+claims:
+  - claim: Each friend chooses a separate clean cup before tea is poured and keeps that cup while drinking.
+    source_ids: [cdc-drinking-vessels, australian-serving-food]
+    pages: [p07, p08]

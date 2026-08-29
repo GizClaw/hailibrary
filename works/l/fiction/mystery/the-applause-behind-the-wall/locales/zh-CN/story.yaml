@@ -1,0 +1,47 @@
+schema_version: 1
+language: zh-CN
+writer: 北辰
+title: 墙后的掌声
+summary: 空荡荡的剧院里，墙壁似乎在为艾奥娜鼓掌。她和任、玛雅循着震动找到松动的百叶风口，又在不阻断新风的前提下修好它，并改进了剧院的警报方式。
+cast:
+  narrator: {display_name: 旁白, tts: {delivery: 从容而有气氛, timbre: 清晰的成年声音, pace: 中速, pitch: 中音}}
+  iona: {display_name: 艾奥娜, tts: {delivery: 充满活力并逐渐学会反思, timbre: 有力的青年声音, pace: 中快, pitch: 中音}}
+  ren: {display_name: 任, tts: {delivery: 冷静而朴实, timbre: 沉稳的成年声音, pace: 中速, pitch: 中低音}}
+  maia: {display_name: 玛雅, tts: {delivery: 准确而温和, timbre: 有质感的年长声音, pace: 中慢, pitch: 中音}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "艾奥娜独自在工作灯下排练。"}, {speaker: iona, text: "明天，每个座位都会坐满观众。"}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "台词刚结束，侧墙突然传来一下响亮的拍击声。"}, {speaker: iona, text: "谁躲在那里？"}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "她找遍空座位和楼座，没有发现一个听众。"}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "任检查门、幕布和后台走廊。"}, {speaker: ren, text: "建筑会发出声音，我们先找出声音出现的条件。"}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "玛雅轻敲小鼓，观察侧墙上颤动的灰尘。"}, {speaker: maia, text: "谜底还没出现，震动已经留下线索。"}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "他们把每次拍击和附近发生的动作放在一起比较。"}, {speaker: narrator, text: "两次声音之前，后台都有东西移动。"}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "艾奥娜提高声音重念台词，墙壁却一声不响。"}, {speaker: iona, text: "看来不是我的声音造成的。"}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "任关上沉重的舞台门，墙壁立刻拍了一下。"}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "玛雅把手掌贴在墙上，感到短促的推力。"}, {speaker: maia, text: "是关门推动了空气。"}]}
+  - id: p10
+    illustration: p10
+    lines:
+      - speaker: narrator
+        content: [{text: "任打开检修板，里面是一组松动的"}, {vocabulary: {id: shutter, text: 百叶风口}}, {text: "。"}]
+      - {speaker: narrator, text: "倾斜的叶片本来用来引导空气穿过墙壁。"}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "沉重的门关闭时，空气压力会短暂升高。"}, {speaker: narrator, text: "这股推力让磨损的叶片互相撞击。"}]}
+  - {id: p12, illustration: p12, lines: [{speaker: iona, text: "那就把开口封起来。"}, {speaker: narrator, text: "她拿起一卷布。"}]}
+  - {id: p13, illustration: p13, lines: [{speaker: maia, text: "排练室仍然需要新鲜空气。"}, {speaker: narrator, text: "如果屋里变得闷热，安静也不能算修好了。"}]}
+  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "任指出磨损的转轴，又拿出一个可调节的软挡块。"}, {speaker: ren, text: "我们可以阻止碰撞，同时保留气流。"}]}
+  - {id: p15, illustration: p15, lines: [{speaker: narrator, text: "他们更换转轴，装上软挡块，通风口依旧畅通。"}]}
+  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "任再次关门，百叶片安静地分开移动。"}]}
+  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: "玛雅测试紧急警报，明亮的灯光和铃声同时出现。"}]}
+  - {id: p18, illustration: p18, lines: [{speaker: narrator, text: "玛雅先看见灯光，艾奥娜和任随后转向铃声。"}, {speaker: iona, text: "一种警报不该只依靠一种感官。"}]}
+  - {id: p19, illustration: p19, lines: [{speaker: narrator, text: "正式排练时，新风安静流动，两种警报也都保持清楚。"}]}
+  - {id: p20, illustration: p20, lines: [{speaker: narrator, text: "下一阵掌声来自真正的观众。"}, {speaker: iona, text: "这一次，我知道剧院为什么在鼓掌。"}]}
+chapters:
+  - {id: ch01, title: 空座位里的听众, page_refs: [p01, p02, p03, p04, p05]}
+  - {id: ch02, title: 跟着震动走, page_refs: [p06, p07, p08, p09, p10, p11]}
+  - {id: ch03, title: 不只是安静, page_refs: [p12, p13, p14, p15, p16]}
+  - {id: ch04, title: 两种提醒, page_refs: [p17, p18, p19, p20]}
+questions:
+  - {id: q01, type: cause-effect, speaker: narrator, prompt: "墙壁为什么会发出拍击声？", answer: "关门推动空气穿过通风口，短暂的压力使松动的叶片撞在一起。", page_refs: [p08, p09, p10, p11]}
+  - {id: q02, type: evidence, speaker: narrator, prompt: "哪些测试排除了艾奥娜声音的影响？", answer: "她大声念台词时没有响声，而任关门后墙壁立刻响了。", page_refs: [p07, p08]}
+  - {id: q03, type: compare, speaker: narrator, prompt: "任的修理办法为什么比艾奥娜最初的办法更好？", answer: "封住开口会阻断气流；新转轴和挡块既防止碰撞，也保留通风。", page_refs: [p12, p13, p14, p15]}
+  - {id: q04, type: character-motive, speaker: narrator, prompt: "玛雅为什么同时测试灯光和声音？", answer: "她希望习惯用不同方式接收信息的人都能注意到警报。", page_refs: [p17, p18]}
+  - {id: q05, type: main-idea, speaker: narrator, prompt: "他们两次改进设备时都遵循了什么原则？", answer: "他们查明原因，并保护设备原有的作用，没有只顾消除眼前的问题。", page_refs: [p06, p11, p13, p14, p17, p18]}

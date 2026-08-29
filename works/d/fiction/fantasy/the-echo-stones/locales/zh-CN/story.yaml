@@ -1,31 +1,37 @@
 schema_version: 1
 language: zh-CN
-writer: 松果先生
-title: 雾谷里的回声
-summary: 狐狸在雾谷里误把回声当成山羊的回答，认出回声后，靠事先约好的灯光和铃声找到伙伴。
+writer: 月芽笺
+title: 会回应的石头
+summary: 浓雾把狐狸和山羊隔开。狐狸误把回声当成伙伴的回答，后来想起约好的灯光和铃声，终于安全找到山羊。
 cast:
-  narrator: {display_name: 旁白, tts: {delivery: 沉静神秘, timbre: 清晰有共鸣的成年声音, pace: 中慢速, pitch: 中低音}}
-  fox: {display_name: 狐狸, tts: {delivery: 机敏认真, timbre: 明亮的成年声音, pace: 中速, pitch: 中音}}
-  goat: {display_name: 山羊, tts: {delivery: 稳定务实, timbre: 厚实的成年声音, pace: 中慢速, pitch: 低音}}
+  narrator: {display_name: 旁白, tts: {delivery: 平静浑厚, timbre: 温暖的成年声音, pace: 中慢速, pitch: 中音}}
+  fox: {display_name: 狐狸, tts: {delivery: 警觉爱思考, timbre: 清楚的年轻声音, pace: 中速, pitch: 中高音}}
+  goat: {display_name: 山羊, tts: {delivery: 稳重务实, timbre: 温和的年轻声音, pace: 中慢速, pitch: 中低音}}
 pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 狐狸和山羊进雾谷寻找发光石。}, {speaker: narrator, text: 它们约好，走散了就举灯、摇铃。}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 一阵浓雾把它们隔开了。}]}
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 狐狸拿着琥珀灯。}, {speaker: narrator, text: 山羊带着银铃。}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 浓雾遮住了两个朋友。}]}
   - {id: p03, illustration: p03, lines: [{speaker: fox, text: 山羊，你在哪里？}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, content: [{text: 岩壁间响起一阵}, {vocabulary: {id: echo, text: 回声}}, {text: 。}]}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 狐狸追着声音跑，却回到原地。}]}
-  - {id: p06, illustration: p06, lines: [{speaker: fox, text: 不对，每次传回来的声音，都跟我说的话一样。}]}
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 狐狸停下脚步，不再追声音。}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 狐狸想起约定，马上举起灯。}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 雾里很快传来清脆的铃声。}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 狐狸循着铃声走，山羊也朝灯光走来。}]}
-  - {id: p11, illustration: p11, lines: [{speaker: goat, text: 这回可不是你的回声。}]}
-  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 它们终于碰面，一起走出了雾谷。}]}
+  - id: p04
+    illustration: p04
+    lines:
+      - speaker: narrator
+        content: [{text: 弯曲的石壁送回一道}, {vocabulary: {id: echo, text: 回声}}, {text: 。}]
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 狐狸跟着重复的声音走。}, {speaker: narrator, text: 却只找到自己的旧脚印。}]}
+  - id: p06
+    illustration: p06
+    lines:
+      - speaker: fox
+        content: [{text: 原来那只是我的}, {vocabulary: {id: echo, text: 回声}}, {text: 。}]
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 狐狸停在安全的空地上。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 狐狸想起约定，高高举起灯。}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 山羊看见灯光，摇响银铃。}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 狐狸跟着铃声走。}, {speaker: narrator, text: 山羊朝着灯光走。}]}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: 两个朋友在空地相遇了。}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 他们沿着宽路一起离开山谷。}]}
 chapters:
-  - {id: ch01, title: 雾中的回答, page_refs: [p01, p02, p03, p04]}
-  - {id: ch02, title: 回到原地, page_refs: [p05, p06, p07, p08]}
-  - {id: ch03, title: 两种信号, page_refs: [p09, p10, p11, p12]}
+  - {id: ch01, title: 重复的声音, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - {id: ch02, title: 灯光和铃声, page_refs: [p07, p08, p09, p10, p11, p12]}
 questions:
-  - {id: q01, type: explicit-choice, speaker: narrator, prompt: 狐狸起初把什么当成山羊的回答？, choices: [岩壁间的回声, 风吹树叶的声音, 自己的脚步声], answer: 岩壁间的回声。, page_refs: [p03, p04]}
-  - {id: q02, type: sequence, speaker: narrator, prompt: 狐狸发现自己回到原地后，先做了什么？, answer: 它停下脚步，不再追声音。, page_refs: [p05, p07]}
-  - {id: q03, type: cause-effect, speaker: narrator, prompt: 狐狸为什么不再追着回答跑？, answer: 因为它发现那只是重复自己话语的回声。, page_refs: [p04, p05, p06, p07]}
-  - {id: q04, type: character-motive, speaker: narrator, prompt: 山羊为什么摇铃？, answer: 为了按照事先的约定，让狐狸循着铃声找到它。, page_refs: [p01, p08, p09, p10]}
+  - {id: q01, type: picture, speaker: narrator, prompt: 山羊带着什么？, answer: 一只银铃。, page_refs: [p01]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: 发现旧脚印后，狐狸做了什么？, answer: 停在空地上，高高举起灯。, page_refs: [p05, p06, p07, p08]}
+  - {id: q03, type: cause-effect, speaker: narrator, prompt: 狐狸为什么不再跟着声音走？, answer: 它发现那个声音只是回声。, page_refs: [p04, p05, p06]}

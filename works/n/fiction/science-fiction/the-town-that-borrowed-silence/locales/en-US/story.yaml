@@ -1,0 +1,51 @@
+schema_version: 1
+language: en-US
+writer: north-star-map
+title: The Town That Borrowed Silence
+summary: Sol's townwide canopy softens harsh noise, but it also hides useful bells, music, and vehicle warnings. Residents show that sound has different meanings in different places, so they replace one automatic setting with local choice and several forms of emergency alert.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: calm and socially alert, timbre: clear adult voice, pace: medium, pitch: medium}}
+  sol: {display_name: Sol, tts: {delivery: polished then reflective, timbre: smooth adult voice, pace: medium, pitch: medium}}
+  neri: {display_name: Neri, tts: {delivery: practical and candid, timbre: grounded adult voice, pace: medium, pitch: medium-low}}
+  yun: {display_name: Yun, tts: {delivery: deliberate and warm through interpretation, timbre: warm older-adult voice, pace: medium-slow, pitch: medium}}
+  ama: {display_name: Ama, tts: {delivery: rhythmic and direct, timbre: bright young voice, pace: medium-fast, pitch: medium-high}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Construction, traffic, street music, and many conversations crowd the town plaza from morning onward."}, {speaker: narrator, text: "Some residents struggle to rest, work, or hear one another clearly."}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "Sol demonstrates a transparent canopy module."}, {speaker: sol, text: "It identifies repeating machine noise and softens it before it spreads."}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "The harsh repeating drilling fades beneath the newly opened canopy."}, {speaker: narrator, text: "Neighbors relax their shoulders, and nearby conversations become much easier to follow."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "After the successful demonstration, the council quickly approves linked modules for the entire public plaza."}, {speaker: sol, text: "Soon the town will borrow silence whenever it needs relief from mechanical noise."}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Neri rides into the filtered area and rings her bicycle bell."}, {speaker: neri, text: "The sound is so faint that walkers do not turn."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Ama taps a lively rhythm on her hand drum."}, {speaker: ama, text: "The canopy removes the sharp beats that hold my music together."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "Sol adjusts several controls but calls both unexpected losses minor."}, {speaker: sol, text: "Across the plaza, the system still reduces more unwanted sound than wanted sound."}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "Yun signs beside the garden wind chimes while an interpreter speaks."}, {speaker: yun, text: "Do not assume quiet means the same thing to every person."}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "Residents place colored objects into separate baskets for wanted and unwanted sounds."}, {speaker: narrator, text: "Sol expects each familiar sound to enter only one basket and reveal a simple rule."}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "Instead, the same hand drum, bicycle bell, and public fountain appear in both groups."}, {speaker: neri, text: "A sound's meaning depends on its place, time, purpose, and listener."}]}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "Sol studies the conflicting choices."}, {speaker: ama, text: "A machine cannot settle a community question by counting preferences once."}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: "During their discussion, a slow maintenance vehicle approaches the busy plaza."}, {speaker: narrator, text: "Its repeating warning sound is softened with the other mechanical noise before people recognize it."}]}
+  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: "Neri notices the vehicle's flashing light and guides a child aside."}, {speaker: neri, text: "That warning needed more protection than the system gave it."}]}
+  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "Sol shuts down the townwide canopy and reports the failure."}, {speaker: sol, text: "Convenience is not enough when a setting can hide safety information."}]}
+  - {id: p15, illustration: p15, lines: [{speaker: narrator, text: "The group compares audible bells, bright flashing lights, and benches that signal by vibrating."}, {speaker: yun, text: "Important alerts should arrive through more than one independent channel."}]}
+  - {id: p16, illustration: p16, lines: [{speaker: yun, text: "Build small quiet spaces that people control themselves."}, {speaker: narrator, text: "The proposal replaces one townwide choice with several local choices."}]}
+  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: "Ama tests a lively music area beside a quiet garden where neighbors read."}, {speaker: narrator, text: "The drum remains clear in one space without spilling strongly into the other."}]}
+  - id: p18
+    illustration: p18
+    lines:
+      - speaker: narrator
+        content: [{text: "Neri tests a bicycle "}, {vocabulary: {id: route, text: route}}, {text: " where warning sounds remain unfiltered."}]
+      - {speaker: narrator, text: "Walkers can hear the bell before she reaches them."}
+  - {id: p19, illustration: p19, lines: [{speaker: narrator, text: "Sol installs physical controls at several reachable heights."}, {speaker: sol, text: "A local setting must be easy to understand, change, and turn off."}]}
+  - {id: p20, illustration: p20, lines: [{speaker: narrator, text: "Residents carefully test and choose settings together in each distinct public space."}, {speaker: narrator, text: "No single basket of preferences now controls every person across the whole town."}]}
+  - {id: p21, illustration: p21, lines: [{speaker: narrator, text: "The town's first emergency drill uses light, sound, and vibrating benches at once."}, {speaker: narrator, text: "Yun, Neri, Ama, and Sol each notice at least two signals."}]}
+  - {id: p22, illustration: p22, lines: [{speaker: narrator, text: "After several public tests, the plaza now holds music, conversation, safe movement, and a chosen quiet garden."}, {speaker: sol, text: "Silence helps a diverse town only when people can decide where it belongs."}]}
+chapters:
+  - {id: ch01, title: One Quiet Setting, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - {id: ch02, title: Sounds with Different Meanings, page_refs: [p07, p08, p09, p10, p11]}
+  - {id: ch03, title: A Hidden Warning, page_refs: [p12, p13, p14, p15]}
+  - {id: ch04, title: Local Choices, page_refs: [p16, p17, p18, p19, p20, p21, p22]}
+questions:
+  - {id: q01, type: evidence, speaker: narrator, prompt: "What evidence overturns Sol's belief that the canopy only causes minor losses?", answer: "The bicycle bell and drum lose useful detail, residents classify sounds differently, and a vehicle warning becomes dangerously faint.", page_refs: [p05, p06, p10, p12, p13]}
+  - {id: q02, type: compare, speaker: narrator, prompt: "How does Yun's local-space plan differ from the original canopy plan?", answer: "The original applies one automatic setting townwide; the new plan gives distinct spaces reachable controls and protects warning routes.", page_refs: [p04, p16, p18, p19, p20]}
+  - {id: q03, type: cause-effect, speaker: narrator, prompt: "Why do the same sounds appear in both preference baskets?", answer: "People judge a sound by its place, time, purpose, and their own needs, so one sound can be useful or disruptive.", page_refs: [p08, p09, p10]}
+  - {id: q04, type: character-motive, speaker: narrator, prompt: "Why does Sol shut down the canopy after the vehicle approaches?", answer: "He sees that the system can hide safety information, making continued townwide use irresponsible.", page_refs: [p12, p13, p14]}
+  - {id: q05, type: evaluate, speaker: narrator, prompt: "Why are three kinds of emergency signals stronger than sound alone?", answer: "Different people can notice different channels, and one missed or blocked signal does not remove the entire warning.", page_refs: [p13, p15, p21]}
+  - {id: q06, type: main-idea, speaker: narrator, prompt: "What does the town learn about designing quiet spaces?", answer: "Sound choices require context, local control, continuing agreement, and protected safety signals rather than one fixed definition of noise.", page_refs: [p08, p10, p14, p16, p19, p20, p22]}

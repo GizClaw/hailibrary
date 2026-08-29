@@ -2,7 +2,7 @@ schema_version: 1
 language: zh-CN
 writer: 溪铃
 title: 飞走的风筝
-summary: 风吹跑了小狐狸的红风筝。还好，风筝挂在了树上。
+summary: 风把小狐狸的红风筝吹到树上。小狐狸在一根矮树枝上找到了风筝。
 
 cast:
   narrator:
@@ -36,40 +36,36 @@ pages:
       - speaker: narrator
         content:
           - vocabulary: { id: wind, text: 风 }
-          - text: 越刮越大。
+          - text: 拉着风筝。
 
   - id: p03
     illustration: p03
     lines:
       - speaker: narrator
-        text: 风筝飞走了。
+        text: 风吹走了风筝！
       - speaker: fox
-        text: 糟了！
+        text: 我的风筝！
 
   - id: p04
     illustration: p04
     lines:
       - speaker: narrator
         content:
-          - text: 小狐狸跑到
+          - text: 小狐狸在
           - vocabulary: { id: tree, text: 树 }
-          - text: 下。
+          - text: 边找风筝。
 
   - id: p05
     illustration: p05
     lines:
       - speaker: narrator
-        text: 红风筝挂在树上！
-      - speaker: fox
-        text: 我的风筝！
+        text: 风筝挂在矮树枝上。
 
   - id: p06
     illustration: p06
     lines:
       - speaker: narrator
-        text: 小狐狸抱住风筝。
-      - speaker: fox
-        text: 找到啦！
+        text: 小狐狸拿回风筝。
 
 chapters:
   - id: ch01
@@ -89,5 +85,5 @@ questions:
     type: picture
     speaker: narrator
     prompt: 小狐狸在哪里找到风筝？
-    answer: 在树上。
-    page_refs: [p04, p05]
+    answer: 在矮树枝上。
+    page_refs: [p05]

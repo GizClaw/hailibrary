@@ -9,6 +9,8 @@ Judge whether each locale reads as writing composed by a fluent native-language 
 
 Follow `AGENTS.md`. For review-only work, report findings without editing. Apply corrections only when explicitly authorized, then review the complete locale again rather than only the changed sentences.
 
+Read the exact `aa`/`a`-`z`/`z1`/`z2` level record, `prompts/levels/locale-references.yaml`, and its locale vocabulary range. Native wording must satisfy that exact level's age band, sentence, page, lexical, inference, and task limits. Use Lexile only as an English cross-reference; use the declared Chinese curriculum checkpoint for Chinese and never transfer an English Lexile measure. Treat Z1 and Z2 as HaiLibrary higher-education extensions, not official Reading A-Z grade correlations.
+
 ## Review one locale before comparing locales
 
 For each locale:

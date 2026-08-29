@@ -1,0 +1,201 @@
+schema_version: 1
+status: calibrated-draft
+level_order: [aa, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, z1, z2]
+
+purpose: age-aligned multilingual difficulty references spanning pre-primary through higher education while retaining the familiar Reading A-Z label sequence
+
+rules:
+  - AA through Z2 are HaiLibrary age-progression levels. Their labels follow the Reading A-Z sequence, but levels above the primary-school range deliberately extend beyond Reading A-Z's official grade meanings.
+  - en-US uses age and school grade as the primary reference, with Lexile grade bands as a secondary quantitative reference. Z1 and Z2 are HaiLibrary higher-education extensions, not official Reading A-Z correlations.
+  - zh-CN uses the same age band and comparable reading task with Chinese curriculum, textbook, character, word, syntax, and discourse evidence instead of transferring English Lexile values.
+  - Locale grade and semester labels are editorial calibration checkpoints, not reader-age restrictions or official cross-framework certifications.
+  - A curriculum cumulative character count cannot prove that a particular character or complete word has been taught; exact vocabulary claims still require the pinned textbook appendix or page.
+  - Equivalent cross-locale difficulty means comparable independence, inference, evidence span, and response demand, not matching word counts or sentence boundaries.
+
+en-US:
+  authority: HaiLibrary age-aligned progression informed by Learning A-Z labels and MetaMetrics grade bands
+  alignment_type: internal age and grade crosswalk; Reading A-Z labels are retained but Z1 and Z2 are redefined as higher-education extensions
+  lexile_scope: English text only
+  sources:
+    - { title: Learning A-Z Level Correlation Chart, url: "https://www.readinga-z.com/correlation-tool/" }
+    - { title: 2019 Learning A-Z Correlation Chart, url: "https://www.readinga-z.com/updates/raz_correlation_chart.pdf" }
+    - { title: Evaluating Text Complexity, url: "https://www.readinga-z.com/learninga-z-levels/text-leveling-system/" }
+    - { title: Lexile Career Ranges by Grade Level, url: "https://hub.lexile.com/lexile-quantile-measures-supporting-student-college-and-career-readiness/" }
+    - { title: Lexile Map of Advanced Texts, url: "https://lexile.com/wp-content/uploads/2021/04/11x17-Lexile-Map_ADA.pdf" }
+
+zh-CN:
+  authority: HaiLibrary editorial calibration from Ministry of Education curriculum and pinned PEP textbook evidence
+  alignment_type: internal crosswalk; not an official Reading A-Z or Lexile correlation
+  lexile_scope: prohibited
+  curriculum_checkpoints:
+    pre_primary:
+      label: 学前阶段
+      reading_focus: 口语词汇、图像匹配、语音意识、重复句式和亲子共读
+    entry:
+      label: 幼小衔接与一年级上册起步
+      reading_focus: 口语到书面语、看图识词、拼音辅助、重复句式和直接信息
+    g1s1_2024:
+      label: 2024修订版统编语文一年级上册
+      recognize: 280
+      write: 100
+      evidence_status: verified totals only; exact characters and words require appendix or page evidence
+    grade_1:
+      label: 一年级完成参考
+      reading_focus: 拼音辅助到初步独立阅读、直接信息、简单顺序、明确因果和短篇复述
+    stage_1:
+      label: 第一学段完成（1—2年级）
+      recognize_cumulative_about: 1600
+      write_cumulative_about: 800
+      reading_focus: 联系上下文和生活经验理解词句、简单推断、提取信息、起因经过结果、复述和表达简单感受
+    grade_3_pep:
+      label: 2024修订体系三年级完成参考
+      recognize_cumulative: 2100
+      write_cumulative: 1300
+      evidence_status: PEP instructional research table; exact term exposure still requires textbook evidence
+    stage_2:
+      label: 第二学段完成（3—4年级）
+      recognize_cumulative_about: 2500
+      write_cumulative_about: 1600
+      reading_focus: 把握主要内容、概括、解释、比较、依据文本作出判断并表达理由
+    stage_3:
+      label: 第三学段完成（5—6年级）
+      recognize_cumulative_about: 3000
+      write_cumulative_about: 2500
+      reading_focus: 体会表达效果、辨析观点与事实、跨段整合证据、评价、综合及初步来源意识
+    stage_4:
+      label: 第四学段（7—9年级）
+      reading_focus: 阅读复杂叙事与说明论证文本，比较多来源，分析观点、论据、结构、语言效果和隐含信息
+    high_school:
+      label: 普通高中语文
+      reading_focus: 整本书与专题研讨、跨媒介与多来源阅读、论证评价、文学审美、学术性表达和独立研究
+    undergraduate:
+      label: 大学本科通识与专业入门阅读
+      reading_focus: 阅读教材、论文、长篇作品和多来源材料，评估方法、论证、证据质量、学科语域与不确定性
+    advanced_academic:
+      label: 高阶本科至研究生与专业阅读
+      reading_focus: 处理高密度专业文献、竞争理论、方法限制、跨学科综合、原创论证和真实学术争议
+  sources:
+    - { title: 义务教育语文课程标准（2022年版）, url: "https://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html" }
+    - { title: 统编小学语文教材识字写字内容的修订思路, url: "https://www.pep.com.cn/bks/xxyw/jzjd/202505/t20250525_2000348.shtml" }
+    - { title: 修订版统编小学语文一年级教材识字写字说明, url: "https://www.pep.com.cn/bks/xxyw/jzjd/202505/W020250531413572751916.pdf" }
+    - { title: 二年级修订教科书语文要素, url: "https://www.pep.com.cn/bks/xxyw/jzjd/202507/W020250716532280620290.pdf" }
+    - { title: 统编教材识字数量研究表, url: "https://www.pep.com.cn/bks/xxyw/jzjd/202512/W020251202575246044880.pdf" }
+    - { title: 普通高中语文课程标准（2017年版2020年修订）, url: "https://jsj.moe.gov.cn/news/2/1507.shtml" }
+
+levels:
+  aa:
+    age_band: 4-5
+    en-US: { reading_a_z_label: aa, grade_band: Pre-K, lexile_reference: BR70L-10L }
+    zh-CN: { checkpoint: pre_primary, grade_band: 学前中班至大班, reading_task: 看图匹配一个口语词或重复短句，不作推断 }
+  a:
+    age_band: 5-6
+    en-US: { reading_a_z_label: A, grade_band: K, lexile_reference: BR70L-10L }
+    zh-CN: { checkpoint: pre_primary, grade_band: 学前大班, reading_task: 在图片和成人支持下识别熟悉词并跟随一个可见动作 }
+  b:
+    age_band: 5-6
+    en-US: { reading_a_z_label: B, grade_band: K, lexile_reference: BR40L-160L }
+    zh-CN: { checkpoint: pre_primary, grade_band: 学前大班至入学准备, reading_task: 跟随重复动作顺序并发现一个直接变化 }
+  c:
+    age_band: 5-6
+    en-US: { reading_a_z_label: C, grade_band: K, lexile_reference: BR40L-160L }
+    zh-CN: { checkpoint: entry, grade_band: 幼小衔接, reading_task: 排列两三个事件并理解直接的问题与解决 }
+  d:
+    age_band: 6-7
+    en-US: { reading_a_z_label: D, grade_band: 1, lexile_reference: 190L-530L }
+    zh-CN: { checkpoint: g1s1_2024, grade_band: 一年级上册前段, reading_task: 根据相邻文字连接一个明确原因和结果 }
+  e:
+    age_band: 6-7
+    en-US: { reading_a_z_label: E, grade_band: 1, lexile_reference: 190L-530L }
+    zh-CN: { checkpoint: g1s1_2024, grade_band: 一年级上册中段, reading_task: 复述起始发展结尾并说明一个人物反应 }
+  f:
+    age_band: 6-7
+    en-US: { reading_a_z_label: F, grade_band: 1, lexile_reference: 190L-530L }
+    zh-CN: { checkpoint: grade_1, grade_band: 一年级上册后段, reading_task: 解释两步过程或目标受阻后的改变 }
+  g:
+    age_band: 6-7
+    en-US: { reading_a_z_label: G, grade_band: 1, lexile_reference: 190L-530L }
+    zh-CN: { checkpoint: grade_1, grade_band: 一年级下册前段, reading_task: 跟踪目标障碍再次尝试和结果 }
+  h:
+    age_band: 6-7
+    en-US: { reading_a_z_label: H, grade_band: 1, lexile_reference: 190L-530L }
+    zh-CN: { checkpoint: grade_1, grade_band: 一年级下册中段, reading_task: 结合叙述和对话理解人物动机与后果 }
+  i:
+    age_band: 6-7
+    en-US: { reading_a_z_label: I, grade_band: 1, lexile_reference: 190L-530L }
+    zh-CN: { checkpoint: grade_1, grade_band: 一年级下册中后段, reading_task: 根据课文信息作简单推断并概括一个中心意思 }
+  j:
+    age_band: 6-7
+    en-US: { reading_a_z_label: J, grade_band: 1, lexile_reference: 190L-530L }
+    zh-CN: { checkpoint: grade_1, grade_band: 一年级完成, reading_task: 从分散页面提取主要信息并支持人物动机或主旨 }
+  k:
+    age_band: 7-8
+    en-US: { reading_a_z_label: K, grade_band: 2, lexile_reference: 420L-650L }
+    zh-CN: { checkpoint: stage_1, grade_band: 二年级上册, reading_task: 理清事情的起因经过结果并用两三条线索解释计划改变 }
+  l:
+    age_band: 7-8
+    en-US: { reading_a_z_label: L, grade_band: 2, lexile_reference: 420L-650L }
+    zh-CN: { checkpoint: stage_1, grade_band: 二年级下册, reading_task: 依据两处文字证据说明困难如何改变人物的应对 }
+  m:
+    age_band: 7-8
+    en-US: { reading_a_z_label: M, grade_band: 2, lexile_reference: 420L-650L }
+    zh-CN: { checkpoint: stage_1, grade_band: 二年级完成, reading_task: 比较两个选择并跨段追踪证据 }
+  n:
+    age_band: 8-9
+    en-US: { reading_a_z_label: N, grade_band: 3, lexile_reference: 520L-820L }
+    zh-CN: { checkpoint: grade_3_pep, grade_band: 三年级上册, reading_task: 区分最初猜测和证据并据此修正判断 }
+  o:
+    age_band: 8-9
+    en-US: { reading_a_z_label: O, grade_band: 3, lexile_reference: 520L-820L }
+    zh-CN: { checkpoint: grade_3_pep, grade_band: 三年级下册, reading_task: 整合主线和一条影响结果的次线 }
+  p:
+    age_band: 8-9
+    en-US: { reading_a_z_label: P, grade_band: 3, lexile_reference: 520L-820L }
+    zh-CN: { checkpoint: grade_3_pep, grade_band: 三年级完成, reading_task: 比较不同目标并依据文本评价应对方式 }
+  q:
+    age_band: 9-10
+    en-US: { reading_a_z_label: Q, grade_band: 4, lexile_reference: 740L-940L }
+    zh-CN: { checkpoint: stage_2, grade_band: 四年级上册, reading_task: 跨章节综合动机证据和长期后果 }
+  r:
+    age_band: 9-10
+    en-US: { reading_a_z_label: R, grade_band: 4, lexile_reference: 740L-940L }
+    zh-CN: { checkpoint: stage_2, grade_band: 四年级下册至完成, reading_task: 在相互冲突的条件或价值中作出有证据的评价 }
+  s:
+    age_band: 10-11
+    en-US: { reading_a_z_label: S, grade_band: 5, lexile_reference: 830L-1010L }
+    zh-CN: { checkpoint: stage_3, grade_band: 五年级上册, reading_task: 区分观察解释和假设并检验两种解释 }
+  t:
+    age_band: 10-11
+    en-US: { reading_a_z_label: T, grade_band: 5, lexile_reference: 830L-1010L }
+    zh-CN: { checkpoint: stage_3, grade_band: 五年级下册至完成, reading_task: 比较观点并利用反例修正结论 }
+  u:
+    age_band: 11-12
+    en-US: { reading_a_z_label: U, grade_band: 6, lexile_reference: 925L-1070L }
+    zh-CN: { checkpoint: stage_3, grade_band: 六年级上册, reading_task: 整合叙事证据和说明性背景并指出局限 }
+  v:
+    age_band: 11-12
+    en-US: { reading_a_z_label: V, grade_band: 6, lexile_reference: 925L-1070L }
+    zh-CN: { checkpoint: stage_3, grade_band: 六年级下册至完成, reading_task: 评价来源立场因果解释和证据限制 }
+  w:
+    age_band: 12-14
+    en-US: { reading_a_z_label: W, grade_band: 7-8, lexile_reference: 970L-1185L }
+    zh-CN: { checkpoint: stage_4, grade_band: 初一至初二, reading_task: 综合多个观点机制和不确定性形成有限定的结论 }
+  x:
+    age_band: 14-15
+    en-US: { reading_a_z_label: X, grade_band: 9, lexile_reference: 1050L-1260L }
+    zh-CN: { checkpoint: stage_4, grade_band: 初三, reading_task: 分析结构来源立场和证据如何共同影响解释 }
+  y:
+    age_band: 15-16
+    en-US: { reading_a_z_label: Y, grade_band: 10, lexile_reference: 1080L-1335L }
+    zh-CN: { checkpoint: high_school, grade_band: 高一, reading_task: 比较竞争模型或价值并形成有保留的综合判断 }
+  z:
+    age_band: 16-18
+    en-US: { reading_a_z_label: Z, grade_band: 11-12, lexile_reference: 1185L-1385L }
+    zh-CN: { checkpoint: high_school, grade_band: 高二至高三, reading_task: 在反证和不确定性存在时独立评价复杂文本并开展专题研讨 }
+  z1:
+    age_band: 18-22
+    en-US: { reading_a_z_label: Z1, grade_band: Undergraduate, lexile_reference: 1300L-1500L, lexile_status: HaiLibrary internal target not a certified college band }
+    zh-CN: { checkpoint: undergraduate, grade_band: 大学本科, reading_task: 分析教材论文和长篇作品中的多来源论证框架方法假设和二阶影响 }
+  z2:
+    age_band: 22+
+    en-US: { reading_a_z_label: Z2, grade_band: Advanced undergraduate-graduate-professional, lexile_reference: 1450L-1650L+, lexile_status: HaiLibrary internal target not a certified college band }
+    zh-CN: { checkpoint: advanced_academic, grade_band: 高阶本科至研究生和专业阅读, reading_task: 综合竞争理论方法限制证据质量学科修辞和真实学术不确定性 }

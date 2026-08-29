@@ -1,0 +1,47 @@
+schema_version: 1
+language: en-US
+writer: north-star-map
+title: The Applause Behind the Wall
+summary: Empty theater walls seem to applaud Iona's rehearsal. She, Ren, and Maia trace the sound to loose ventilation shutters, then repair them without blocking fresh air and improve the theater's warning system.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: measured and atmospheric, timbre: clear adult voice, pace: medium, pitch: medium}}
+  iona: {display_name: Iona, tts: {delivery: energetic and increasingly reflective, timbre: strong young-adult voice, pace: medium-fast, pitch: medium}}
+  ren: {display_name: Ren, tts: {delivery: dry and grounded, timbre: calm adult voice, pace: medium, pitch: medium-low}}
+  maia: {display_name: Maia, tts: {delivery: precise and warm, timbre: textured older-adult voice, pace: medium-slow, pitch: medium}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Iona rehearses alone beneath the theater's work lights."}, {speaker: iona, text: "Tomorrow, every seat will be full."}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "When her speech ends, a sudden clap bursts from the side wall."}, {speaker: iona, text: "Who is hiding there?"}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "She searches the empty seats and balcony, but finds no listener."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "Ren checks the doors, curtains, and backstage hall."}, {speaker: ren, text: "Buildings make noises. Let us find the condition that starts this one."}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Maia taps her drum softly and watches dust tremble on the wall."}, {speaker: maia, text: "The vibration reaches us before the mystery does."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "They compare each clap with nearby actions."}, {speaker: narrator, text: "Both happened after something moved backstage."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "Iona repeats her speech loudly. The wall remains silent."}, {speaker: iona, text: "So my voice is not the cause."}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "Ren closes the heavy stage door. The wall answers at once."}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "Maia places her palm against the wall and feels a brief push."}, {speaker: maia, text: "The door moved the air."}]}
+  - id: p10
+    illustration: p10
+    lines:
+      - speaker: narrator
+        content: [{text: "Behind a panel, Ren finds a loose wooden "}, {vocabulary: {id: shutter, text: louver}}, {text: "."}]
+      - {speaker: narrator, text: "Its angled blades can guide air through the wall."}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "The closing door raises air pressure for a moment."}, {speaker: narrator, text: "That push knocks the worn blades together."}]}
+  - {id: p12, illustration: p12, lines: [{speaker: iona, text: "Then we can seal the opening."}, {speaker: narrator, text: "She reaches for a roll of cloth."}]}
+  - {id: p13, illustration: p13, lines: [{speaker: maia, text: "The rehearsal room still needs fresh air."}, {speaker: narrator, text: "A silent wall would be a poor repair if the room became stuffy."}]}
+  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "Ren shows them worn hinge pins and a small adjustable stop."}, {speaker: ren, text: "We can stop the collision without stopping airflow."}]}
+  - {id: p15, illustration: p15, lines: [{speaker: narrator, text: "They replace the hinges and add soft stops."}, {speaker: narrator, text: "The opening stays clear."}]}
+  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "Ren closes the door again. The shutters move apart without clapping."}]}
+  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: "Maia tests the emergency alert."}, {speaker: narrator, text: "A bright light flashes while a bell sounds."}]}
+  - {id: p18, illustration: p18, lines: [{speaker: narrator, text: "Maia notices the light before Iona and Ren turn toward the bell."}, {speaker: iona, text: "One warning should not depend on one sense."}]}
+  - {id: p19, illustration: p19, lines: [{speaker: narrator, text: "During the full rehearsal, fresh air moves quietly and both alerts remain clear."}]}
+  - {id: p20, illustration: p20, lines: [{speaker: narrator, text: "The next applause comes from a real audience."}, {speaker: iona, text: "This time, I know exactly why the room is clapping."}]}
+chapters:
+  - {id: ch01, title: An Empty Audience, page_refs: [p01, p02, p03, p04, p05]}
+  - {id: ch02, title: Following the Vibration, page_refs: [p06, p07, p08, p09, p10, p11]}
+  - {id: ch03, title: More Than Silence, page_refs: [p12, p13, p14, p15, p16]}
+  - {id: ch04, title: Two Ways to Notice, page_refs: [p17, p18, p19, p20]}
+questions:
+  - {id: q01, type: cause-effect, speaker: narrator, prompt: "What causes the wall to clap?", answer: "A closing door pushes air through the opening, and the pressure knocks loose shutter blades together.", page_refs: [p08, p09, p10, p11]}
+  - {id: q02, type: evidence, speaker: narrator, prompt: "Which tests rule out Iona's voice as the cause?", answer: "A loud speech produces no clap, while closing the heavy door produces one immediately.", page_refs: [p07, p08]}
+  - {id: q03, type: compare, speaker: narrator, prompt: "How is Ren's repair better than Iona's first plan?", answer: "Sealing would block airflow; new hinges and stops prevent clapping while keeping ventilation open.", page_refs: [p12, p13, p14, p15]}
+  - {id: q04, type: character-motive, speaker: narrator, prompt: "Why does Maia test both light and sound?", answer: "She wants the warning to reach people who notice information in different ways.", page_refs: [p17, p18]}
+  - {id: q05, type: main-idea, speaker: narrator, prompt: "What guides the team's two improvements?", answer: "They investigate the cause and protect each system's purpose instead of removing the first problem carelessly.", page_refs: [p06, p11, p13, p14, p17, p18]}

@@ -1,32 +1,30 @@
 schema_version: 1
 language: zh-CN
-writer: 江笑
+writer: 月芽笺
 title: 雨伞彩排
-summary: 绿伞下面的椅子湿了，莉娜一口咬定是伞漏雨。大家把三把伞摆好重试，才发现问题出在伞架上。
+summary: 一把歪斜的雨伞让欧玛的椅子淋湿了。丽娜、本和欧玛把三把伞摆成同样角度测试，终于发现问题在松动的伞架。
 cast:
-  narrator: {display_name: 旁白, tts: {delivery: 从容含笑, timbre: 清晰的成年声音, pace: 中速, pitch: 中音}}
-  lina: {display_name: 莉娜, tts: {delivery: 干脆有劲, timbre: 明亮的少年声音, pace: 中快速, pitch: 中高音}}
-  ben: {display_name: 小本, tts: {delivery: 耐心务实, timbre: 轻快的少年声音, pace: 中速, pitch: 中音}}
-  oma: {display_name: 欧玛奶奶, tts: {delivery: 低沉风趣, timbre: 有质感的年长声音, pace: 中慢速, pitch: 低音}}
+  narrator: {display_name: 旁白, tts: {delivery: 从容温暖, timbre: 清楚的成年声音, pace: 中速, pitch: 中音}}
+  lina: {display_name: 丽娜, tts: {delivery: 有劲果断, timbre: 明亮的童声, pace: 中速, pitch: 中高音}}
+  ben: {display_name: 本, tts: {delivery: 耐心务实, timbre: 平静的童声, pace: 中慢速, pitch: 中音}}
+  oma: {display_name: 欧玛, tts: {delivery: 低沉风趣, timbre: 温暖的年长声音, pace: 慢速, pitch: 中低音}}
 pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 莉娜为院子里的演出摆好雨伞。}]}
-  - {id: p02, illustration: p02, lines: [{speaker: oma, text: 咦，雨怎么漏到绿伞下面的椅子上了？}]}
-  - {id: p03, illustration: p03, lines: [{speaker: lina, text: 肯定是伞破了，我把洞补上。}]}
-  - {id: p04, illustration: p04, lines: [{speaker: ben, text: 先别忙着补。三把伞一把高、一把低，怎么比？}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 大家把伞调到同样的高度和角度。}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 欧玛奶奶往第一把伞上浇了一壶水。}]}
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 另外两把也照样浇：伞的高度一样，水量也一样。}]}
-  - {id: p08, illustration: p08, lines: [{speaker: ben, text: 三把椅子都干着，伞面没问题。}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 小本把绿伞一斜，水立刻从翘起的伞边飘了进去。}]}
-  - {id: p10, illustration: p10, lines: [{speaker: lina, text: 支架有只脚松了，所以伞一直歪着。}]}
-  - {id: p11, illustration: p11, lines: [{speaker: oma, text: 该修的是伞架。绿伞这回洗清嫌疑喽。}]}
-  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 演出开场，雨只好坐在外面看。}]}
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 丽娜在三把伞下摆好椅子。}, {speaker: narrator, text: 社区演出快开始了。}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 一阵雨淋湿了欧玛的空椅子。}, {speaker: lina, text: 绿伞漏水了！}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 丽娜在绿伞上绑了一块布。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: ben, text: 等等，三把伞的角度不一样。}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 他们把三把伞调到同样高度和角度。}, {speaker: narrator, text: 每把伞下放一张干椅子。}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 欧玛把一壶水倒在第一把伞上。}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 她用同一壶水测试另外两把。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 三张椅子都没有湿。}, {speaker: lina, text: 原来不是伞面漏水。}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 本把绿伞歪向一边。}, {speaker: narrator, text: 水从抬高的伞边流进去。}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 丽娜发现伞架有一只脚松了。}]}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: 丽娜和本拧紧伞架。}, {speaker: narrator, text: 欧玛扶正绿伞。}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 直立的雨伞护住了整场演出。}]}
 chapters:
-  - {id: ch01, title: 绿伞漏了吗, page_refs: [p01, p02, p03, p04]}
-  - {id: ch02, title: 摆好再试, page_refs: [p05, p06, p07, p08]}
-  - {id: ch03, title: 问题出在伞架, page_refs: [p09, p10, p11, p12]}
+  - {id: ch01, title: 淋湿的椅子, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - {id: ch02, title: 公平的测试, page_refs: [p07, p08, p09, p10, p11, p12]}
 questions:
-  - {id: q01, type: explicit-choice, speaker: narrator, prompt: 莉娜最先怪谁？, choices: [绿雨伞, 欧玛奶奶的椅子, 水壶], answer: 绿雨伞。, page_refs: [p02, p03]}
-  - {id: q02, type: sequence, speaker: narrator, prompt: 浇水以前，大家先做了什么？, answer: 他们把雨伞调到同样的高度和角度。, page_refs: [p05, p06]}
-  - {id: q03, type: cause-effect, speaker: narrator, prompt: 雨水为什么会落到椅子上？, answer: 松动的支架让伞歪了，水从抬高的伞边钻了进去。, page_refs: [p09, p10]}
-  - {id: q04, type: character-motive, speaker: narrator, prompt: 小本为什么要把三把伞摆成一样再试？, answer: 他想排除高度和倾斜角度的影响，看看伞面到底漏不漏水。, page_refs: [p04, p05, p08]}
+  - {id: q01, type: picture, speaker: narrator, prompt: 最先淋湿了什么？, answer: 欧玛的空椅子。, page_refs: [p02]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: 测试前，他们先改变了什么？, answer: 把三把伞摆成同样的高度和角度。, page_refs: [p04, p05]}
+  - {id: q03, type: cause-effect, speaker: narrator, prompt: 雨水为什么会流到椅子上？, answer: 松动的伞架让绿伞歪了。, page_refs: [p09, p10]}

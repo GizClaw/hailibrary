@@ -1,28 +1,42 @@
 schema_version: 1
 language: zh-CN
-writer: 银月
-title: 月夜送包裹
-summary: 吊桥升起，夜路又被风遮住。玛拉借着水上的月光，按时送到了包裹。
+writer: 栗叶灯
+title: 月光包裹
+summary: 吊桥升起，挡住了玛拉送货的路。月蛾借着水里的月光找到踏脚石，带玛拉把包裹安全送到观星台。
 cast:
-  narrator: {display_name: 旁白, tts: {delivery: 温和准确, timbre: 清晰的成年声音, pace: 中慢速, pitch: 中音}}
-  mara: {display_name: 玛拉, tts: {delivery: 沉着坚定, timbre: 温暖的青年声音, pace: 中速, pitch: 中音}}
-  moth: {display_name: 月蛾, tts: {delivery: 轻盈愉快, timbre: 轻柔带气声, pace: 中速, pitch: 高音}}
+  narrator: {display_name: 旁白, tts: {delivery: 温柔清楚, timbre: 温暖的成年声音, pace: 中慢速, pitch: 中音}}
+  mara: {display_name: 玛拉, tts: {delivery: 认真明快, timbre: 清楚的年轻声音, pace: 中速, pitch: 中音}}
+  moth: {display_name: 月蛾, tts: {delivery: 轻盈欢快, timbre: 轻柔的声音, pace: 中速, pitch: 高音}}
 pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, content: [{text: 夜深了，玛拉抱着银色的}, {vocabulary: {id: parcel, text: 包裹}}, {text: 赶路。}]}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 吊桥升在半空，过不去了。}]}
-  - {id: p03, illustration: p03, lines: [{speaker: mara, text: 绕运河边的小路吧。}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 风卷起落叶，遮住了小路。}, {speaker: mara, text: 这下往哪儿走？}]}
-  - {id: p05, illustration: p05, lines: [{speaker: moth, text: 别急，低头看看。}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 月光落在水上，亮出一条银路。}]}
-  - {id: p07, illustration: p07, lines: [{speaker: mara, text: 原来石墩在这儿！}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 她踩着石墩，到了圆顶观星屋。}]}
-  - {id: p09, illustration: p09, lines: [{speaker: mara, text: 还没到午夜，您的包裹送来啦。}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 盒盖一开，暖光溢满了屋子。月蛾绕着光飞舞。}]}
+  - id: p01
+    illustration: p01
+    lines:
+      - speaker: narrator
+        content: [{text: 玛拉收到一个银色}, {vocabulary: {id: parcel, text: 包裹}}, {text: 。}]
+      - {speaker: narrator, text: 它要送到观星台。}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 吊桥升起，挡住了路。}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 玛拉走进运河边的小巷。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 风卷起纸叶，遮住小路。}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 一只月蛾落在袋子上。}, {speaker: moth, text: 看看水里的月光！}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 月光照出了踏脚石。}]}
+  - id: p07
+    illustration: p07
+    lines:
+      - {speaker: narrator, text: 玛拉踏着发亮的石头走。}
+      - speaker: narrator
+        content: [{vocabulary: {id: parcel, text: 包裹}}, {text: 一直很安全。}]
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 玛拉和月蛾到了观星台。}]}
+  - id: p09
+    illustration: p09
+    lines:
+      - speaker: narrator
+        content: [{text: 玛拉把}, {vocabulary: {id: parcel, text: 包裹}}, {text: 交给老人。}]
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 一团暖光亮了起来。}, {speaker: narrator, text: 大家都笑了。}]}
 chapters:
-  - {id: ch01, title: 此路不通, page_refs: [p01, p02, p03, p04]}
-  - {id: ch02, title: 水上的月光, page_refs: [p05, p06, p07]}
-  - {id: ch03, title: 送达, page_refs: [p08, p09, p10]}
+  - {id: ch01, title: 路被挡住, page_refs: [p01, p02, p03, p04]}
+  - {id: ch02, title: 月光照路, page_refs: [p05, p06, p07]}
+  - {id: ch03, title: 送到了, page_refs: [p08, p09, p10]}
 questions:
-  - {id: q01, type: sequence, speaker: narrator, prompt: 最先是什么挡住了玛拉？, answer: 升起的桥挡住了她。, page_refs: [p02]}
-  - {id: q02, type: cause-effect, speaker: narrator, prompt: 玛拉为什么会低头看水？, answer: 月蛾提醒她低头看看。, page_refs: [p05, p06]}
-  - {id: q03, type: short-answer, speaker: narrator, prompt: 月光帮她找到了什么？, answer: 月光照出了水面上的石墩。, page_refs: [p06, p07]}
+  - {id: q01, type: sequence, speaker: narrator, prompt: 吊桥挡路后，玛拉先去哪里？, answer: 运河边的小巷。, page_refs: [p02, p03]}
+  - {id: q02, type: cause-effect, speaker: narrator, prompt: 玛拉为什么沿亮石头走？, answer: 风卷起纸叶，遮住了小路。, page_refs: [p04, p05, p06, p07]}
+  - {id: q03, type: picture, speaker: narrator, prompt: 谁收到了包裹？, answer: 观星台的老人。, page_refs: [p09]}

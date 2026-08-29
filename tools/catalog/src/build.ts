@@ -149,6 +149,9 @@ const labelSource = await readYaml<LabelSource>(join(rootDir, "prompts", "labels
 const labelCatalog: LabelCatalog = { schemaVersion: labelSource.schema_version, groups: labelSource.groups };
 await writeJson(join(publicDir, "labels.json"), labelCatalog);
 const taxonomySource = await readYaml<TaxonomySource>(join(rootDir, "prompts", "taxonomy", "index.yaml"));
+const levelOrder = Object.keys(taxonomySource.levels);
+const levelRank = new Map(levelOrder.map((level, index) => [level, index]));
+const compareLevels = (left: string, right: string) => (levelRank.get(left) ?? Number.MAX_SAFE_INTEGER) - (levelRank.get(right) ?? Number.MAX_SAFE_INTEGER) || left.localeCompare(right);
 const taxonomyCatalog: TaxonomyCatalog = {
   schemaVersion: taxonomySource.schema_version,
   levels: taxonomySource.levels,
@@ -424,7 +427,7 @@ await writeJson(join(publicDir, "catalog.json"), {
   bookCount: cards.length,
   localeCount: searchByLocale.size,
   locales: [...searchByLocale.keys()].sort(),
-  levels: [...new Set(cards.map((card) => card.level))].sort(),
+  levels: [...new Set(cards.map((card) => card.level))].sort(compareLevels),
   categories: [...new Set(cards.map((card) => card.category))].sort(),
   catalogs,
   shards: catalogs.map((catalog) => catalog.url),

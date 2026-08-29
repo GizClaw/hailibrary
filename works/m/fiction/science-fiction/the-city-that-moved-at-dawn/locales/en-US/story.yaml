@@ -1,0 +1,48 @@
+schema_version: 1
+language: en-US
+writer: north-star-map
+title: The City That Moved at Dawn
+summary: Sen's routing system moves city blocks to save energy, but it sends the market away from the people who use it. Sen and Lu compare efficiency with access, then rebuild the process around public consent and a shared pause control.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: composed and lucid, timbre: clear adult voice, pace: medium, pitch: medium}}
+  sen: {display_name: Sen, tts: {delivery: inventive and accountable, timbre: warm adult voice, pace: medium, pitch: medium}}
+  lu: {display_name: Lu, tts: {delivery: direct and empathetic, timbre: grounded adult voice, pace: medium, pitch: medium-low}}
+  node: {display_name: Node, tts: {delivery: neutral and concise, timbre: soft synthetic voice, pace: medium, pitch: medium}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "At dawn, rounded city blocks begin gliding quietly along broad ground rails."}, {speaker: narrator, text: "Gardens, homes, and public rooms can trade places as needs and seasons change."}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "Sen watches a physical model of the moving city."}, {speaker: sen, text: "Node should reduce energy use while keeping every route open."}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "Node projects several colored paths across the model."}, {speaker: node, text: "Lowest-energy arrangement selected."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "A home block enters cool morning shade while the public garden receives warm sunlight for its plants."}, {speaker: sen, text: "The first exchange works."}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "The city completes its early moves in an orderly pattern."}, {speaker: narrator, text: "Sen records the energy lights and smiles at the calm streets below."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Then the crowded market begins sliding away from its plaza."}, {speaker: lu, text: "Nobody here asked the market to leave."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "Vendors steady fruit, tools, and heavy baskets while customers wait on a safe platform."}, {speaker: narrator, text: "The movement causes no crash, yet trade and daily work stop."}]}
+  - {id: p08, illustration: p08, lines: [{speaker: lu, text: "Your system counted power, but not the people carrying goods."}, {speaker: sen, text: "I treated an open rail as permission to move."}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "Node displays a short route and a longer curved route."}, {speaker: node, text: "Short route uses less power."}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "Sen points to the model's lower energy lights."}, {speaker: narrator, text: "Lu points to workers carrying goods farther from the transport stop."}]}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "An older vendor rests beside a heavy basket."}, {speaker: lu, text: "A small saving for the machine can become a large cost for people."}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: "Sen closes the automatic route control."}, {speaker: sen, text: "Until we agree on better rules, Node will not move another block."}]}
+  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: "Residents, vendors, and neighbors arrange colored block models around a wide table."}, {speaker: narrator, text: "They compare shade, walking distance, deliveries, public transport, and energy together."}]}
+  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "A child places the market model beside the busy transport stop."}, {speaker: narrator, text: "Vendors add a wide unloading space for carts and baskets."}]}
+  - id: p15
+    illustration: p15
+    lines:
+      - speaker: narrator
+        content: [{text: "Lu places a bright "}, {vocabulary: {id: consent, text: consent}}, {text: " token beside one proposed route."}]
+      - {speaker: lu, text: "People must understand a move, choose it freely, and be able to stop it."}
+  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "Sen adds a large tactile pause button to Node."}, {speaker: sen, text: "Control must remain reachable after a plan begins."}]}
+  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: "Node waits with an amber light while people discuss the next move."}, {speaker: node, text: "No shared approval detected. Holding position."}]}
+  - {id: p18, illustration: p18, lines: [{speaker: narrator, text: "The market finally takes the longer curved route."}, {speaker: narrator, text: "It stays beside transport and uses slightly more energy."}]}
+  - {id: p19, illustration: p19, lines: [{speaker: narrator, text: "Homes receive shade, gardens receive sun, and accessible paths remain safely connected."}, {speaker: narrator, text: "The new arrangement balances several human and technical needs instead of maximizing one."}]}
+  - {id: p20, illustration: p20, lines: [{speaker: narrator, text: "At the next clear dawn, the market roof stays still until people discuss and decide together."}, {speaker: sen, text: "A responsible city moves with its residents, not around them."}]}
+chapters:
+  - {id: ch01, title: The Efficient Plan, page_refs: [p01, p02, p03, p04, p05]}
+  - {id: ch02, title: A Cost the Model Missed, page_refs: [p06, p07, p08, p09, p10, p11, p12]}
+  - {id: ch03, title: Rules People Can Change, page_refs: [p13, p14, p15, p16, p17]}
+  - {id: ch04, title: Moving Together, page_refs: [p18, p19, p20]}
+questions:
+  - {id: q01, type: cause-effect, speaker: narrator, prompt: "Why does Node move the market away from the plaza?", answer: "It selects the arrangement with the lowest energy use and does not count access or public approval.", page_refs: [p03, p06, p08, p09, p10]}
+  - {id: q02, type: evidence, speaker: narrator, prompt: "What evidence shows that the first plan harms access?", answer: "Work stops, people must walk farther, and an older vendor must rest with a heavy basket.", page_refs: [p07, p10, p11]}
+  - {id: q03, type: compare, speaker: narrator, prompt: "How do the two market routes compare?", answer: "The short route saves more energy but separates the market from transport; the curved route uses more energy but preserves access.", page_refs: [p09, p10, p14, p18]}
+  - {id: q04, type: character-motive, speaker: narrator, prompt: "Why does Sen disable automatic movement?", answer: "She recognizes that open rails do not equal permission and pauses the system until residents can choose new rules.", page_refs: [p08, p12, p13, p15]}
+  - {id: q05, type: main-idea, speaker: narrator, prompt: "What makes the repaired routing process responsible?", answer: "It compares several needs, requires informed agreement, keeps a pause control available, and waits when approval is missing.", page_refs: [p13, p15, p16, p17, p19, p20]}
+  - {id: q06, type: short-answer, speaker: narrator, prompt: "Which needs do residents add to the energy calculation?", answer: "They add shade, walking distance, deliveries, transport access, and accessible paths.", page_refs: [p13, p14, p18, p19]}

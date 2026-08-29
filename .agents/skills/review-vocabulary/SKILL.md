@@ -7,7 +7,11 @@ description: Review, research, or correct HaiLibrary vocabulary entries—词汇
 
 Verify one entry, a level, a locale, or the complete `vocabulary/` tree. This is a lexical research task, not only a YAML schema check.
 
+Resolve and apply the exact ordered level key (`aa`, `a` through `z`, `z1`, `z2`) from `prompts/levels/locale-references.yaml` and `prompts/vocabulary/ranges.yaml`; do not reuse the former compressed A-K bands or assign a neighboring level from intuition. English Lexile evidence must not be presented as a Chinese curriculum alignment, and HaiLibrary's Z1/Z2 higher-education meanings must not be described as official Reading A-Z correlations.
+
 For review-only requests, report findings without editing. Apply corrections only when explicitly authorized, then research and review the affected entries again.
+
+For a text-only authorized fix, preserve every `card.webp` byte-for-byte. Report visual problems without regenerating or editing the card unless visual work is explicitly authorized.
 
 ## Establish the intended sense
 

@@ -1,32 +1,38 @@
 schema_version: 1
 language: zh-CN
-writer: 松果先生
-title: 大雪前的最后一篮坚果
-summary: 大雪前，松鼠只剩一篮坚果。田鼠来求助，獾也带来面粉，三家凑出了一个过冬的办法。
+writer: 月芽笺
+title: 冬天最后一篮坚果
+summary: 松鼠只剩一篮坚果。田鼠的存粮被雨淋坏后，獾带来面粉交换。松鼠把坚果分成四份，让三个邻居都备好了食物。
 cast:
-  narrator: {display_name: 旁白, tts: {delivery: 温暖沉稳, timbre: 清晰的成年声音, pace: 中慢速, pitch: 中音}}
-  squirrel: {display_name: 松鼠, tts: {delivery: 干练负责, timbre: 明亮的成年声音, pace: 中速, pitch: 中音}}
-  badger: {display_name: 獾, tts: {delivery: 宽厚务实, timbre: 低沉的成年声音, pace: 中慢速, pitch: 低音}}
-  vole: {display_name: 田鼠, tts: {delivery: 诚恳克制, timbre: 柔软的童声, pace: 慢速, pitch: 中高音}}
+  narrator: {display_name: 旁白, tts: {delivery: 温暖平稳, timbre: 柔和的成年声音, pace: 中慢速, pitch: 中音}}
+  squirrel: {display_name: 松鼠, tts: {delivery: 利落负责, timbre: 明亮的年轻声音, pace: 中速, pitch: 中高音}}
+  badger: {display_name: 獾, tts: {delivery: 低沉大方, timbre: 温厚的成年声音, pace: 慢速, pitch: 中低音}}
+  vole: {display_name: 田鼠, tts: {delivery: 轻柔诚恳, timbre: 柔和的年轻声音, pace: 慢速, pitch: 中音}}
 pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, content: [{text: 铺子里只剩最后一}, {vocabulary: {id: basket, text: 篮子}}, {text: 坚果。}]}]}
-  - {id: p02, illustration: p02, lines: [{speaker: squirrel, text: 得留着，等下大雪时吃。}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 田鼠抱着空布袋走进来。}]}
-  - {id: p04, illustration: p04, lines: [{speaker: vole, text: 大风吹倒了架子，我存的坚果全淋湿了。}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 松鼠看看篮子，又看看窗外的乌云。}]}
-  - {id: p06, illustration: p06, lines: [{speaker: squirrel, text: 要是全给出去，我家下雪天吃什么呢？}]}
-  - {id: p07, illustration: p07, lines: [{speaker: badger, text: 我拿两袋面粉，换你半篮坚果，怎么样？}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 松鼠给獾半篮，又分给田鼠四分之一篮。}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 篮里还剩四分之一，柜上多了两袋面粉。}]}
-  - {id: p10, illustration: p10, lines: [{speaker: vole, text: 等开春，我找到新坚果就还你。}]}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: 大雪来了，三家都有食物。}]}
-  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 窗外大雪纷飞，三家的烟囱都冒着炊烟。}]}
+  - id: p01
+    illustration: p01
+    lines:
+      - speaker: narrator
+        content: [{text: 松鼠的店里只剩一}, {vocabulary: {id: basket, text: 篮子}}, {text: 坚果。}]
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 雪云正在窗外聚拢。}, {speaker: squirrel, text: 这些坚果要吃很久。}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 田鼠抱着空布包走进来。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: vole, text: 我的储物架倒了。}, {speaker: vole, text: 存下的坚果都被雨淋坏了。}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 松鼠看看田鼠，又看看雪云。}]}
+  - id: p06
+    illustration: p06
+    lines:
+      - speaker: narrator
+        content: [{text: 松鼠仔细量了量}, {vocabulary: {id: basket, text: 篮子}}, {text: 里的坚果。}]
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 獾带来两袋面粉。}, {speaker: badger, text: 我用面粉换坚果。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 松鼠把坚果分成四份。}, {speaker: narrator, text: 獾拿走其中两份。}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 松鼠留下四分之一和面粉。}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 田鼠得到最后一份。}, {speaker: vole, text: 春天我会送来新坚果。}]}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: 大雪落在三座小屋外。}, {speaker: narrator, text: 每个邻居都有饭吃。}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 三根烟囱都升起暖暖的炊烟。}]}
 chapters:
-  - {id: ch01, title: 最后一篮, page_refs: [p01, p02, p03, p04]}
-  - {id: ch02, title: 留下多少, page_refs: [p05, p06, p07, p08]}
-  - {id: ch03, title: 三家的办法, page_refs: [p09, p10, p11, p12]}
+  - {id: ch01, title: 最后一篮, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - {id: ch02, title: 分成四份, page_refs: [p07, p08, p09, p10, p11, p12]}
 questions:
-  - {id: q01, type: explicit-choice, speaker: narrator, prompt: 田鼠为什么需要坚果？, choices: [它的坚果被雨水弄湿了, 它想开一家店, 它忘记带篮子], answer: 它的坚果被雨水弄湿了。, page_refs: [p03, p04]}
-  - {id: q02, type: sequence, speaker: narrator, prompt: 獾提出交换以后，松鼠怎样分配坚果？, answer: 半篮给獾，四分之一给田鼠，四分之一留下。, page_refs: [p07, p08, p09]}
-  - {id: q03, type: cause-effect, speaker: narrator, prompt: 为什么三家在大雪时都有食物？, answer: 它们交换和分享了坚果、面粉，同时保留了一部分储备。, page_refs: [p07, p08, p09, p11]}
-  - {id: q04, type: character-motive, speaker: narrator, prompt: 松鼠为什么没有把整篮坚果送出去？, answer: 它也要为大雪天保留食物，同时想找一个能帮助田鼠的办法。, page_refs: [p02, p05, p06, p08, p09]}
+  - {id: q01, type: picture, speaker: narrator, prompt: 店里还剩什么？, answer: 一篮坚果。, page_refs: [p01]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: 獾带来面粉后，松鼠做了什么？, answer: 把坚果分成四份。, page_refs: [p07, p08]}
+  - {id: q03, type: cause-effect, speaker: narrator, prompt: 三个邻居为什么都有饭吃？, answer: 獾拿面粉交换，松鼠又分好了坚果。, page_refs: [p07, p08, p09, p10, p11]}

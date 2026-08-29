@@ -1,0 +1,514 @@
+---
+schema_version: 1
+language: en-US
+writer: cosmic-engineer
+title: The Garden on the Long Orbit
+summary: 'A cargo module is casting the orbital garden''s thermal future into doubt. Yuan, Aro, Ivo, and Seed investigate the shrinking margin as an engineering case: they separate measurements from predictions, test reversible controls, and weigh food, cargo, crew time, and safety without pretending that one successful trial proves the whole model.'
+cast:
+  narrator:
+    display_name: Narrator
+    tts:
+      delivery: expansive and controlled
+      timbre: clear adult voice
+      pace: medium-slow
+      pitch: medium
+  yuan:
+    display_name: Yuan
+    tts:
+      delivery: patient and systems-minded
+      timbre: steady adult voice
+      pace: medium
+      pitch: medium
+  aro:
+    display_name: Aro
+    tts:
+      delivery: exact and cautious
+      timbre: firm adult voice
+      pace: medium-slow
+      pitch: low-medium
+  ivo:
+    display_name: Ivo
+    tts:
+      delivery: diplomatic and firm
+      timbre: warm older voice
+      pace: medium
+      pitch: low-medium
+  seed:
+    display_name: Seed
+    tts:
+      delivery: neutral and explicit about uncertainty
+      timbre: smooth synthetic voice
+      pace: even
+      pitch: medium
+pages:
+- id: p01
+  illustration: p01
+  lines:
+  - speaker: narrator
+    text: The convoy entered its long transfer around the blue planet with thirty-seven light-and-shadow cycles remaining before resupply. Three habitats, one cargo carrier, and the garden moved as a temporarily coupled system.
+  - speaker: seed
+    text: Mission state is nominal. The word nominal means monitored values remain inside operating limits; it does not mean every margin, trend, or unobserved condition is harmless.
+  - speaker: yuan
+    text: The garden has survived launch, assembly, and two docking changes. Its current stability is evidence about those configurations, not a warranty for this new one.
+- id: p02
+  illustration: p02
+  lines:
+  - speaker: yuan
+    text: The garden supplies fresh food, preserves genetically diverse seedlings, recovers some water, and supports crew routines. Peak harvest is only one function, although it is the easiest to count.
+  - speaker: narrator
+    text: Twelve crop zones carried different ages and varieties. Seed reserves were divided by biology but stored in one environmental cabinet, while the first replacement seedlings shared one lighting schedule.
+  - speaker: ivo
+    text: A smaller harvest can be tolerated within food reserves. Losing every replacement batch to one environmental failure would threaten the settlement phase long after this voyage ends.
+- id: p03
+  illustration: p03
+  lines:
+  - speaker: aro
+    content:
+    - text: 'Lamps, pumps, electronics, crew activity, and absorbed external energy add heat. Cooling loops transport much of it to exterior '
+    - vocabulary:
+        id: radiator
+        text: radiators
+    - text: ", whose surfaces emit thermal radiation toward a colder viewing environment."
+  - speaker: aro
+    text: A steady heat budget can be written conceptually as heat generated and absorbed minus heat rejected, with storage represented by changing temperature. Every term carries measurement and model uncertainty.
+  - speaker: seed
+    text: Current garden electrical load averages eighty-four thermal units per interval, with a six-unit operational range. Pump and crew contributions are estimated from subsystem logs rather than measured directly at the plants.
+- id: p04
+  illustration: p04
+  lines:
+  - speaker: narrator
+    text: Ivo's carrier docked beside the garden habitat to shorten protected cargo transfer. In that position, its warm hull occupied part of the angular field previously open to space from one radiator wing.
+  - speaker: ivo
+    text: The carrier never touches the radiator, and clearance remains within docking rules. Why should an empty gap count as a blockage?
+  - speaker: aro
+    text: Radiative exchange does not require contact. Geometry determines which surfaces exchange energy, so an object can reduce effective heat rejection while remaining physically separated.
+- id: p05
+  illustration: p05
+  lines:
+  - speaker: seed
+    text: Temperatures remain within allowable limits. During four matched light cycles, however, minimum thermal margin decreased from eighteen units to eleven, eight, and six; the last estimate spans four to eight.
+  - speaker: aro
+    text: Margin is the distance between current or predicted conditions and a limit after accounting for uncertainty and control needs. A positive value can still demand action when its trend and uncertainty are adverse.
+  - speaker: ivo
+    text: The sequence contains only four cycles. A downward run may reflect docking, lamp changes, a sensor offset, environmental variation, or a temporary control response.
+- id: p06
+  illustration: p06
+  lines:
+  - speaker: narrator
+    text: Several leaves curled at their edges in two upper crop zones. Moisture readings, lamp output, airflow, root-zone conductivity, and cultivar age had also shifted enough to offer competing explanations.
+  - speaker: yuan
+    text: Heat stress is plausible, but a leaf is a response shared by many causes. We need spatial pattern, timing, controls, and recovery evidence before using biology as a thermal sensor.
+  - speaker: aro
+    text: Zone G7 warmed while G8 stayed similar, although both shared water supply. G7 also received a recently replaced lamp driver whose electrical log shows intermittent excess draw.
+- id: p07
+  illustration: p07
+  lines:
+  - speaker: aro
+    text: Three independent temperature sensors in the return coolant path rose after docking, and the radiator inlet-to-outlet difference changed in the same direction. The shift begins within one logged configuration interval.
+  - speaker: seed
+    text: Association is strong relative to the short record. Independence is partial because sensors share calibration procedures, data acquisition, coolant flow, and environmental inputs.
+  - speaker: ivo
+    text: Could the sensors be drifting together because their reference electronics changed?
+- id: p08
+  illustration: p08
+  lines:
+  - speaker: aro
+    text: 'The thermal model now has four blocks: sources generate or absorb heat, loops transport it, structures and contents store it, and radiator surfaces reject it. Sensors observe only selected states within that chain.'
+  - speaker: seed
+    text: Model G predicts sector R2 temperature rises relative to other sectors when cargo geometry blocks cold view, with stronger effect at higher carrier-hull temperature. Model L predicts margin follows internal electrical load regardless of view.
+  - speaker: yuan
+    text: Model S predicts a shared sensor-reference bias without matching changes in plant response, portable reference, or independently measured electrical demand. None of these signatures is perfectly exclusive.
+- id: p09
+  illustration: p09
+  lines:
+  - speaker: ivo
+    text: Undocking would restore a clearer radiator view and separate several failure paths, but it delays access to medicine, repair parts, and water equipment while consuming maneuvering reserve.
+  - speaker: aro
+    text: Remaining docked preserves rapid transfer and saves a maneuver now, yet it maintains uncertain thermal coupling and concentrates control around one docking node.
+  - speaker: yuan
+    text: 'A third option is partial reconfiguration: change attitude in stages, reduce controllable heat, alter cargo-transfer periods, and test a shade that never blocks radiator emission.'
+- id: p10
+  illustration: p10
+  lines:
+  - speaker: yuan
+    text: We will compare three configuration families rather than two slogans. Family A holds attitude and docking, Family B undocks, and Family C phases load, attitude, and access while monitoring explicit gates.
+  - speaker: aro
+    text: For each family, calculate near-term thermal margin, uncertainty growth, power availability, crop-light deviation, maneuver reserve, cargo-access delay, and the number of single failures that disable a critical function.
+  - speaker: ivo
+    text: Not all measures can be added. Losing emergency medicine and reducing lettuce yield do not share a natural unit, so the decision must preserve constraints before optimizing preferences.
+- id: p11
+  illustration: p11
+  lines:
+  - speaker: aro
+    text: Family A maintains crop lighting and immediate cargo access. Under median assumptions, minimum margin reaches three units by cycle twelve; under the unfavorable view-and-load combination, the interval crosses the limit by cycle nine.
+  - speaker: seed
+    text: The crossing is a model outcome, not a scheduled failure. It indicates that plausible inputs include unsafe states before resupply, especially if no additional control is used.
+  - speaker: ivo
+    text: Its advantage is operational simplicity. No maneuver, transfer interruption, or new hardware introduces failure during the next maintenance window.
+- id: p12
+  illustration: p12
+  lines:
+  - speaker: yuan
+    text: Family B undocks and turns sharply toward a favorable thermal attitude. Modeled rejection improves, but crop illumination changes, solar generation falls during two phases, and cargo access pauses.
+  - speaker: seed
+    text: Median thermal margin rises to twenty-one units. The interval remains wide because post-undocking attitude performance has ground-test support but limited flight evidence with this assembled convoy.
+  - speaker: ivo
+    text: Water-treatment spares can be pre-positioned, but one medicine package cannot leave controlled storage early. Undocking before the clinical window creates a low-probability, high-consequence access gap.
+- id: p13
+  illustration: p13
+  lines:
+  - speaker: seed
+    text: Family C begins with load reduction and staggered lighting, then applies small attitude changes only if measured gates are met. Prediction intervals widen after cycle fifteen because this exact phased policy has never run.
+  - speaker: aro
+    text: The first gate requires margin above eight units under the conservative estimate, stable coolant flow, no safety-light reduction, and no crop zone exceeding its declared dark-period limit.
+  - speaker: yuan
+    text: A later gate permits a two-degree attitude change if radiator-sector response matches Model G within tolerance and solar power remains above the essential-load reserve.
+- id: p14
+  illustration: p14
+  lines:
+  - speaker: yuan
+    text: 'Begin with a reversible load test: reduce nonessential corridor lighting, stagger high-power work, and alternate selected crop lamps while unchanged zones provide comparison.'
+  - speaker: aro
+    text: The test lasts two complete light cycles. Stop conditions are loss of safety illumination, margin below seven conservative units, abnormal coolant flow, crop dark-period violation, or any control fault.
+  - speaker: seed
+    text: Predicted signatures differ. Model L expects margin to respond promptly to load; Model G expects partial improvement while the R2 sector remains anomalous; Model S predicts little agreement with independent reference measurements.
+- id: p15
+  illustration: p15
+  lines:
+  - speaker: narrator
+    text: Interior corridors dimmed to the certified safety level while work crews staggered sterilization, pumping, and fabrication. Emergency routes, task lighting, and medical areas retained independent power.
+  - speaker: ivo
+    text: The first schedule put two maintenance teams into the same rest period. We revised staffing without increasing total load, preserving both the thermal test and fatigue constraints.
+  - speaker: aro
+    text: That revision changes the operational context but not the electrical target. The log distinguishes commanded load, measured load, deferred work, and human consequences.
+- id: p16
+  illustration: p16
+  lines:
+  - speaker: narrator
+    text: Garden zones alternated lighting in matched pairs selected by crop type, age, irrigation branch, and prior growth. One member changed schedule while the other retained the baseline for two cycles.
+  - speaker: yuan
+    text: The pairs are not identical organisms. We measure leaf posture, moisture demand, growth, and recovery, then report biological variability instead of treating the unchanged zone as a perfect duplicate.
+  - speaker: aro
+    text: Electrical logs confirm a fourteen-unit load reduction during alternating periods. Two units reappear as added pump demand, so net reduction is twelve rather than the commanded fourteen.
+- id: p17
+  illustration: p17
+  lines:
+  - speaker: aro
+    content:
+    - text: 'After net heat load fell, coolant temperature stabilized and conservative margin stopped shrinking. Sector R2 remained warmer than the other '
+    - vocabulary:
+        id: radiator
+        text: radiator
+    - text: " sectors under comparable load, preserving evidence for the geometry pathway."
+  - speaker: seed
+    text: Portable references agree with fixed sensors within the predeclared tolerance. A shared measurement bias becomes less likely, though reference uncertainty prevents declaring it impossible.
+  - speaker: yuan
+    text: 'The result supports Model L and part of Model G: load matters, and geometry still appears unequal. It contradicts the simplest version of either model acting alone.'
+- id: p18
+  illustration: p18
+  lines:
+  - speaker: yuan
+    text: Crop zones remain within declared short-term ranges. Two varieties show slower leaf expansion, but moisture and recovery do not indicate immediate damage during this brief test.
+  - speaker: seed
+    text: The sample contains two cycles and limited varieties. It cannot establish reproductive yield, nutritional quality, disease response, or performance under the full remaining voyage.
+  - speaker: ivo
+    text: Rest compliance improved after the staffing revision, while two repair tasks accumulated delay. Human workload belongs in the result, not outside the thermal spreadsheet.
+- id: p19
+  illustration: p19
+  lines:
+  - speaker: ivo
+    text: The docking debate exposed another weakness. Critical medicine, scrubber cartridges, water parts, and seed-cabinet spares are concentrated in my carrier for transfer efficiency.
+  - speaker: yuan
+    text: Rapid access during normal operation created a single point whose isolation could interrupt several essential functions. Thermal coupling merely made that dependency visible.
+  - speaker: aro
+    text: Redundancy is not duplication without design. Copies in the same bay, on the same power bus, behind the same hatch, or under the same control fault may fail together.
+- id: p20
+  illustration: p20
+  lines:
+  - speaker: narrator
+    text: The remaining voyage was divided into six operational phases. Each phase declared light schedules, attitude range, cargo windows, maintenance work, power reserve, review time, and conditions requiring escalation.
+  - speaker: yuan
+    text: We no longer maximize crop light, immediate cargo access, fixed attitude, and every work task at once. Different goals yield temporarily while hard constraints remain protected.
+  - speaker: ivo
+    text: Before a cargo window closes, crews pre-position only the supplies justified by upcoming tasks and emergency scenarios. Moving everything would create clutter, handling risk, and false redundancy.
+- id: p21
+  illustration: p21
+  lines:
+  - speaker: aro
+    content:
+    - text: 'The convoy changed attitude by two degrees, improving the modeled view from R2''s '
+    - vocabulary:
+        id: radiator
+        text: radiator
+    - text: " toward cold space while keeping solar generation and navigation reserve above their gates."
+  - speaker: seed
+    text: Observed R2 response falls inside Model G's predeclared interval. Other sectors change less, while coolant flow and internal load remain within comparison tolerance.
+  - speaker: yuan
+    text: That pattern strengthens the geometry mechanism because a targeted input changed and the predicted sector responded. It still does not validate every view estimate or larger maneuver.
+- id: p22
+  illustration: p22
+  lines:
+  - speaker: yuan
+    text: Garden zones now receive staggered light periods chosen by variety and growth stage. Projected edible mass falls fourteen percent from the original peak plan, with an interval of nine to twenty-one percent.
+  - speaker: seed
+    text: The interval includes biological response uncertainty, lamp performance, delayed tasks, and the possibility of restoring some light during later favorable attitudes. It is not a probability guarantee.
+  - speaker: ivo
+    text: Food reserves absorb the projected shortfall, but fresh-food variety and crew expectations change. The decision must not describe nutrition as the only human consequence.
+- id: p23
+  illustration: p23
+  lines:
+  - speaker: aro
+    text: A new external shade can reduce unwanted absorbed energy on the carrier-facing structure. It must neither replace a radiator nor block any radiator's view, deployment path, inspection, or emergency motion.
+  - speaker: seed
+    text: Ground-test optical properties inform the model, but contamination, aging, seams, and deployed angle widen performance uncertainty. The shade is treated as supplemental control rather than primary heat rejection.
+  - speaker: ivo
+    text: Deployment failure could leave the shade partly extended. The design therefore fails toward a latched clear position and permits safe retraction without external crew exposure.
+- id: p24
+  illustration: p24
+  lines:
+  - speaker: narrator
+    text: The first harvest under phased operation was smaller than the original plan but healthy within tested measures. Mass alone did not reveal taste, nutritional variation, labor, water recovery, or reserve viability.
+  - speaker: yuan
+    text: We sampled quality and preserved uncertainty rather than declaring success from green leaves. Replacement plants were split by batch, cabinet, lighting phase, and coolant branch where practical.
+  - speaker: seed
+    text: No distribution removes all shared causes. Every batch still depends on convoy pressure, core power, navigation, and human maintenance; resilience claims apply only to the failure set analyzed.
+- id: p25
+  illustration: p25
+  lines:
+  - speaker: ivo
+    text: Critical cargo is now distributed among three habitats according to function, common-cause exposure, storage conditions, access time, and the minimum set required to restore service.
+  - speaker: seed
+    text: Inventory control uses synchronized local copies with periodic reconciliation. Manual location cards and sealed emergency lists remain available if the central service fails.
+  - speaker: yuan
+    text: Medicine remains under appropriate environmental control, so redundancy does not mean placing sensitive supplies anywhere convenient. Some risks are reduced by alternative access rather than duplicate stock.
+  - speaker: aro
+    text: A drill isolates the cargo carrier and central inventory service. Two habitats retrieve water-loop repair sets independently, while a mislabeled adapter delays the third and triggers a process correction.
+- id: p26
+  illustration: p26
+  lines:
+  - speaker: seed
+    text: 'Revised outlook: median peak edible yield decreases fourteen percent; conservative thermal margin remains above nine units through the validated horizon; essential supply functions survive the tested single-node isolation.'
+  - speaker: seed
+    text: Uncertainty grows beyond that horizon because crop development, surface aging, future maneuvers, maintenance demand, and compound failures are sparsely observed. The model does not assign reliable probabilities to all combinations.
+  - speaker: yuan
+    text: The dashboard preserves distributions and constraints instead of calling three arrows a conclusion. Lower peak, greater margin, and greater tested redundancy describe different dimensions.
+- id: p27
+  illustration: p27
+  lines:
+  - speaker: narrator
+    text: At resupply, the convoy delivered vegetables, viable seedlings, thermal records, configuration histories, exclusions, failed checks, crew reports, dependency maps, and each model version that had guided a decision.
+  - speaker: yuan
+    text: The receiving settlement must not copy our numbers as universal constants. Its gravity, atmosphere, vehicle layout, crops, radiators, maintenance capacity, and acceptable risks will differ.
+  - speaker: aro
+    text: 'What transfers is a method: define system boundaries and quantities, trace heat paths, compare causal models, preserve uncertainty, predeclare gates, test reversibly, and monitor consequences outside the original subsystem.'
+- id: p28
+  illustration: p28
+  lines:
+  - speaker: yuan
+    text: Long-range design does not promise that nothing will fail. It keeps evidence visible, preserves recoverable options, and prevents one attractive optimum from consuming every margin.
+  - speaker: aro
+    text: The garden remained cooler because load and geometry were both managed; we know this more strongly than before, yet only across the tested ranges and configurations.
+  - speaker: ivo
+    text: Cargo became harder to manage and harder to lose all at once. That is a tradeoff with measurable costs, not a free improvement.
+chapters:
+- id: ch01
+  title: A Margin Is Not a Guarantee
+  page_refs:
+  - p01
+  - p02
+  - p03
+  - p04
+  - p05
+  - p06
+  - p07
+- id: ch02
+  title: Models and Consequence Chains
+  page_refs:
+  - p08
+  - p09
+  - p10
+  - p11
+  - p12
+  - p13
+  - p14
+- id: ch03
+  title: Reversible Tests and Declared Gates
+  page_refs:
+  - p15
+  - p16
+  - p17
+  - p18
+  - p19
+  - p20
+  - p21
+- id: ch04
+  title: Beyond Peak Output
+  page_refs:
+  - p22
+  - p23
+  - p24
+  - p25
+  - p26
+  - p27
+  - p28
+questions:
+- id: q01
+  type: evidence
+  speaker: narrator
+  prompt: Which evidence supports a coupled thermal problem without treating curled leaves or docking time as proof?
+  answer: Several coolant and radiator measurements shift after docking, independent references weaken the sensor-bias alternative, load reduction stabilizes margin, and a targeted attitude change produces the predicted sector response; biological and timing evidence remain limited.
+  page_refs:
+  - p04
+  - p05
+  - p06
+  - p07
+  - p17
+  - p21
+- id: q02
+  type: source-analysis
+  speaker: narrator
+  prompt: How do the NASA thermal-control principles support the fictional heat-budget model, and what do they not supply?
+  answer: They support managing generated and absorbed heat through transport, storage, radiation, surfaces, sensors, insulation, shading, and operations; they do not supply this convoy's units, geometry, limits, crop response, view factors, or safe commands.
+  page_refs:
+  - p03
+  - p04
+  - p08
+  - p23
+  - p27
+- id: q03
+  type: compare
+  speaker: narrator
+  prompt: Compare configuration families A, B, and C in margin, uncertainty, and consequences outside the thermal system.
+  answer: A preserves light and access but risks declining margin; B gives the largest modeled thermal gain while consuming maneuver reserve and disrupting cargo, power, and crops; C gains evidence and options through phases but accepts lower yield and widening future uncertainty.
+  page_refs:
+  - p09
+  - p10
+  - p11
+  - p12
+  - p13
+- id: q04
+  type: evaluate
+  speaker: narrator
+  prompt: Why is the load trial stronger than simply observing the post-docking trend, and why is it still not definitive?
+  answer: It deliberately changes a causal input, predeclares signatures and gates, uses comparison zones and independent references, and observes predicted response; it is short, operationally coupled, biologically limited, and leaves geometry uncertainty.
+  page_refs:
+  - p07
+  - p08
+  - p14
+  - p15
+  - p16
+  - p17
+  - p18
+- id: q05
+  type: synthesis
+  speaker: narrator
+  prompt: How do the results change the simplest versions of Models G, L, and S?
+  answer: Load reduction supports L, persistent R2 difference and attitude response support G, and portable agreement weakens S; because no single model explains all evidence, the revision combines load and geometry while retaining measurement uncertainty.
+  page_refs:
+  - p08
+  - p14
+  - p16
+  - p17
+  - p21
+- id: q06
+  type: source-analysis
+  speaker: narrator
+  prompt: Why must the story distinguish measured load, commanded load, model-derived view, and observed temperature?
+  answer: 'They are produced by different methods and uncertainties: commands do not equal actual heat, view is estimated geometry, and sparse sensors observe selected states; merging them would make assumptions look like independent measurements.'
+  page_refs:
+  - p03
+  - p04
+  - p08
+  - p15
+  - p16
+- id: q07
+  type: evaluate
+  speaker: narrator
+  prompt: Why can a fourteen-percent projected yield reduction coexist with a stronger mission plan?
+  answer: The projection has an interval and costs, but phased light preserves thermal margin, separates crop batches and failure exposures, and remains within food reserves; the goal shifts from peak output to recoverable food and settlement options.
+  page_refs:
+  - p02
+  - p18
+  - p22
+  - p24
+  - p26
+- id: q08
+  type: synthesis
+  speaker: narrator
+  prompt: How does the thermal problem expose and reshape cargo resilience?
+  answer: Docking reveals concentrated access and common dependencies; distribution by function and failure exposure, local inventory copies, alternative access, and an isolation drill improve tested continuity while increasing workload and introducing labeling risk.
+  page_refs:
+  - p09
+  - p19
+  - p20
+  - p25
+  - p26
+- id: q09
+  type: research-response
+  speaker: narrator
+  prompt: Connect the shade decision to the broader thermal model and source limits.
+  answer: The shade reduces an absorbed-energy pathway but cannot replace heat rejection or obstruct radiators; borrowed surface behavior informs a bounded model, while deployment, aging, contamination, reflection, failure position, and local measurements govern acceptance.
+  page_refs:
+  - p03
+  - p08
+  - p23
+  - p26
+- id: q10
+  type: research-response
+  speaker: narrator
+  prompt: A settlement greenhouse has abundant cold radiator view but scarce electrical power and no cargo-access constraint. Which parts of the convoy method transfer, and which priorities or model terms should change?
+  answer: System boundaries, heat-path accounting, source separation, uncertainty, gates, reversible tests, and consequence monitoring transfer; power becomes a stronger constraint, cargo coupling weakens, local atmosphere/gravity/geometry require new models, and priorities must be reauthorized.
+  page_refs:
+  - p03
+  - p09
+  - p10
+  - p20
+  - p27
+- id: q11
+  type: research-response
+  speaker: narrator
+  prompt: Apply the redundancy argument to three backup pumps stored in one powered cabinet. What common failures remain, and what evidence would show improved resilience?
+  answer: Shared cabinet, power, access, environment, controller, and maintenance can defeat all pumps; separated power/access or functional restoration paths, dependency analysis, and an isolation drill would test resilience rather than merely counting copies.
+  page_refs:
+  - p19
+  - p25
+  - p26
+  - p27
+- id: q12
+  type: research-response
+  speaker: narrator
+  prompt: Choose the next phase after p26. State your decision rule, strongest supporting evidence, one counterexample, a stop condition, and evidence that would reverse your choice.
+  answer: Answers may continue phasing, partially undock, reduce crops, or choose another bounded option, but must respect hard constraints, distinguish observations from model outputs, use uncertainty and cross-system consequences, and name a genuine reversal trigger.
+  page_refs:
+  - p10
+  - p13
+  - p18
+  - p20
+  - p21
+  - p22
+  - p26
+  - p28
+- id: q13
+  type: evaluate
+  speaker: narrator
+  prompt: Why does Seed say acceptable rather than safe forever at the end?
+  answer: Evidence covers only declared ranges and horizons; crop development, aging, maneuvers, compound failures, and future configurations remain uncertain, so authorization applies to the next monitored phase rather than every possible state.
+  page_refs:
+  - p18
+  - p23
+  - p24
+  - p26
+  - p28
+- id: q14
+  type: research-response
+  speaker: narrator
+  prompt: Does the crew sacrifice optimization for resilience, or redefine what should be optimized? Defend a position using yield, thermal margin, cargo access, recovery paths, and human authority.
+  answer: A defensible answer may emphasize sacrifice, multi-objective redefinition, or both, but must acknowledge measurable costs, bounded improvements, hard constraints, residual uncertainty, and the fact that models do not choose mission values.
+  page_refs:
+  - p02
+  - p10
+  - p19
+  - p22
+  - p25
+  - p26
+  - p28

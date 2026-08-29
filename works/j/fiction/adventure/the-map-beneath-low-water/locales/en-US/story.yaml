@@ -1,0 +1,48 @@
+schema_version: 1
+language: en-US
+writer: rain-song
+title: The Map Beneath Low Water
+summary: Ka's map shows one straight crossing to an island greenhouse, but the falling tide reveals curved sandbars and a fast channel. Ferry keeper Mi teaches him to compare the map with current water clues. Ka replaces one fixed route with picture cards for several tide stages.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: lively and dry, timbre: clear adult voice, pace: medium, pitch: medium}}
+  ka: {display_name: Ka, tts: {delivery: witty and certain until corrected, timbre: bright young-adult voice, pace: medium, pitch: medium-high}}
+  mi: {display_name: Mi, tts: {delivery: practical and amused, timbre: steady adult voice, pace: medium-slow, pitch: medium-low}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Ka reaches a coastal inlet with a tube of maps."}, {speaker: narrator, text: "He must collect seeds from an island greenhouse."}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "His map uses colored shapes to show one straight crossing."}, {speaker: ka, text: "The shortest line should be the quickest way."}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "The greenhouse glows across shallow water."}, {speaker: narrator, text: "No bridge joins the island to the dock."}]}
+  - id: p04
+    illustration: p04
+    lines:
+      - speaker: narrator
+        content: [{text: "As the "}, {vocabulary: {id: tide, text: tide}}, {text: " falls, curved wet sandbars appear."}]
+      - {speaker: narrator, text: "They do not match Ka's straight line."}
+  - {id: p05, illustration: p05, lines: [{speaker: ka, text: "The map still points straight across."}, {speaker: narrator, text: "Ka waits safely on the dock."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Mi arrives in a small ferry and studies the inlet."}, {speaker: mi, text: "A line on paper cannot hold the water still."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "Mi points to wet seaweed high on a dock post."}, {speaker: mi, text: "The water reached that mark earlier."}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "Ka compares the seaweed mark, current waterline, and new sandbar."}, {speaker: ka, text: "The inlet changes while my map stays the same."}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "Between two sandbars, a narrow channel still moves quickly."}, {speaker: mi, text: "Exposed sand is not a safe road."}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "Ka rolls up the fixed-route map."}, {speaker: ka, text: "I need today's water clues."}]}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "Mi brings Ka into the ferry from the dock."}]}
+  - id: p12
+    illustration: p12
+    lines:
+      - speaker: narrator
+        content: [{text: "Mi follows a curved "}, {vocabulary: {id: route, text: route}}, {text: " through the open channel."}]
+      - {speaker: narrator, text: "The ferry stays in moving water."}
+  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: "A floating reed marker leans with the current."}, {speaker: narrator, text: "Ka watches Mi steer against it."}]}
+  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "They reach the greenhouse and collect a sealed seed chest."}]}
+  - {id: p15, illustration: p15, lines: [{speaker: narrator, text: "On the return trip, rising water covers the sandbar edges."}, {speaker: ka, text: "The same place needs another picture now."}]}
+  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "Ka sketches three water shapes on separate blank cards."}, {speaker: narrator, text: "Each card shows a different tide stage."}]}
+  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: "Mi arranges the cards beside a model ferry."}, {speaker: mi, text: "Choose only after you compare the water and markers."}]}
+  - {id: p18, illustration: p18, lines: [{speaker: narrator, text: "At sunset, Ka and Mi laugh beside the changing inlet."}, {speaker: ka, text: "A useful map leaves room for new evidence."}]}
+chapters:
+  - {id: ch01, title: One Straight Line, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - {id: ch02, title: Reading the Water, page_refs: [p07, p08, p09, p10, p11, p12, p13, p14]}
+  - {id: ch03, title: Three Changing Pictures, page_refs: [p15, p16, p17, p18]}
+questions:
+  - {id: q01, type: sequence, speaker: narrator, prompt: "How does Ka's plan change before the ferry trip?", answer: "He stops trusting the straight line, compares current clues, and follows Mi's curved channel route.", page_refs: [p05, p07, p08, p09, p10, p12]}
+  - {id: q02, type: cause-effect, speaker: narrator, prompt: "Why does the return view differ from the first view?", answer: "The tide rises and covers the sandbar edges.", page_refs: [p04, p15]}
+  - {id: q03, type: evidence, speaker: narrator, prompt: "Which clues show that the inlet changes?", answer: "The high seaweed mark, lower current waterline, exposed sandbars, moving channel, and later covered edges show different water stages.", page_refs: [p04, p07, p08, p09, p15]}
+  - {id: q04, type: main-idea, speaker: narrator, prompt: "What makes Ka's new map more useful?", answer: "It presents several tide stages and reminds travelers to compare them with current evidence before choosing.", page_refs: [p08, p10, p15, p16, p17, p18]}
+  - {id: q05, type: character-motive, speaker: narrator, prompt: "Why does Mi keep the ferry in the channel?", answer: "The channel has navigable moving water, while exposed sand can change and is not a safe walking route.", page_refs: [p09, p11, p12, p13]}

@@ -1,0 +1,41 @@
+schema_version: 1
+language: zh-CN
+writer: 月芽笺
+title: 不肯排队的种子
+summary: 卡维的木轮能按大小分开圆种子，带绒毛的长种子却会卡住孔洞。卡维和小君改按形状分组，再让木轮和双手各做合适的工作。
+cast:
+  narrator: {display_name: 旁白, tts: {delivery: 清脆温暖, timbre: 清楚的成年声音, pace: 中速, pitch: 中音}}
+  kavi: {display_name: 卡维, tts: {delivery: 先自信后沉思, timbre: 明亮的童声, pace: 中速, pitch: 中高音}}
+  june: {display_name: 小君, tts: {delivery: 耐心敏锐, timbre: 平静的童声, pace: 中慢速, pitch: 中音}}
+pages:
+  - id: p01
+    illustration: p01
+    lines:
+      - speaker: narrator
+        content: [{text: 桌上有十二罐混在一起的}, {vocabulary: {id: seed, text: 种子}}, {text: 。}]
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 卡维拿出手摇分类轮。}, {speaker: narrator, text: 木轮上有三种大小的孔。}]}
+  - id: p03
+    illustration: p03
+    lines:
+      - speaker: narrator
+        content: [{text: 卡维把圆}, {vocabulary: {id: seed, text: 种子}}, {text: 倒进木轮。}]
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 大、中、小种子落进三个托盘。}, {speaker: kavi, text: 木轮成功了！}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 小君又拿来一罐长长的绒毛种子。}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 绒毛横在小孔上。}, {speaker: narrator, text: 木轮卡住不动了。}]}
+  - {id: p07, illustration: p07, lines: [{speaker: june, text: 它们很窄，却长着绒毛。}, {speaker: narrator, text: 卡维认真比较不同形状。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 卡维想象一只布满怪孔的木轮。}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 新图纸越来越像迷宫。}, {speaker: june, text: 让简单的木轮做擅长的事吧。}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 他们先分出圆形、绒毛和带钩三组。}]}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: 木轮只按大小分圆种子。}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 小君用手分另外两组。}, {speaker: narrator, text: 卡维继续转动木轮。}]}
+  - {id: p13, illustration: p13, lines: [{speaker: kavi, text: 你的手能分开不同形状。}, {speaker: june, text: 你的木轮能快速分大小。}]}
+  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: 夕阳下，十二只罐子都装好了。}, {speaker: narrator, text: 木轮和托盘并排休息。}]}
+chapters:
+  - {id: ch01, title: 分类木轮, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - {id: ch02, title: 先看形状, page_refs: [p07, p08, p09, p10]}
+  - {id: ch03, title: 两种好办法, page_refs: [p11, p12, p13, p14]}
+questions:
+  - {id: q01, type: sequence, speaker: narrator, prompt: 木轮卡住后，他们做了什么？, answer: 比较种子形状，再分成三组。, page_refs: [p06, p07, p10]}
+  - {id: q02, type: cause-effect, speaker: narrator, prompt: 绒毛种子为什么会卡住木轮？, answer: 长绒毛横在孔洞上。, page_refs: [p05, p06, p07]}
+  - {id: q03, type: short-answer, speaker: narrator, prompt: 木轮和双手怎样一起工作？, answer: 木轮分圆种子的大小，小君用手分其他形状。, page_refs: [p11, p12, p13]}
+  - {id: q04, type: explicit-choice, speaker: narrator, prompt: 木轮最适合分哪种种子？, choices: [圆种子, 绒毛种子, 带钩种子], answer: 圆种子。, page_refs: [p03, p04, p11]}

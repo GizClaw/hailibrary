@@ -1,25 +1,37 @@
 schema_version: 1
 language: zh-CN
-writer: 松果先生
-title: 那只蓝杯子
-summary: 桌上只有一只蓝杯子。水獭和獾又找出一只旧杯子，还想出了轮流用蓝杯子的办法。
+writer: 栗叶灯
+title: 两只茶杯
+summary: 小棕只有一只蓝杯子。阿灰找到一只落灰的红杯子。两个朋友洗干净红杯子，一起喝茶。
 cast:
   narrator: {display_name: 旁白, tts: {delivery: 温暖直接, timbre: 清晰的成年声音, pace: 慢速, pitch: 中音}}
-  otter: {display_name: 水獭, tts: {delivery: 轻快坦率, timbre: 明亮友好的声音, pace: 中速, pitch: 中高音}}
-  badger: {display_name: 獾, tts: {delivery: 平静安慰, timbre: 低沉柔和的声音, pace: 中慢速, pitch: 低音}}
+  otter: {display_name: 小棕, tts: {delivery: 轻快坦率, timbre: 明亮友好的声音, pace: 中速, pitch: 中高音}}
+  badger: {display_name: 阿灰, tts: {delivery: 平静安慰, timbre: 低沉柔和的声音, pace: 中慢速, pitch: 低音}}
 pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, content: [{text: 桌上只有一只蓝}, {vocabulary: {id: cup, text: 杯子}}, {text: 。}]}]}
-  - {id: p02, illustration: p02, lines: [{speaker: badger, text: 茶来啦！}, {speaker: otter, text: 可蓝杯子只有一只。}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 水獭翻遍了柜子。}, {speaker: otter, text: 再没有别的蓝杯子了。}]}
-  - {id: p04, illustration: p04, lines: [{speaker: badger, text: 碗后面还有一只旧杯子！}, {speaker: otter, text: 它好脏呀。}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 水獭把旧杯子洗干净。}]}
-  - {id: p06, illustration: p06, lines: [{speaker: badger, text: 现在有两只干净的杯子了。}]}
-  - {id: p07, illustration: p07, lines: [{speaker: otter, text: 喝完这一杯，咱们再换着用。}, {speaker: badger, text: 好主意！}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 两个朋友一起喝茶。}]}
+  - id: p01
+    illustration: p01
+    lines:
+      - speaker: narrator
+        content: [{text: 桌上只有一只蓝}, {vocabulary: {id: cup, text: 杯子}}, {text: 。}]
+  - {id: p02, illustration: p02, lines: [{speaker: badger, text: 我带来茶啦！}, {speaker: narrator, text: 他们需要两只杯子。}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 小棕没找到别的杯子。}]}
+  - id: p04
+    illustration: p04
+    lines:
+      - speaker: badger
+        content: [{text: 碗后面有只红}, {vocabulary: {id: cup, text: 杯子}}, {text: ！}]
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 他们把红杯子洗干净。}]}
+  - id: p06
+    illustration: p06
+    lines:
+      - speaker: narrator
+        content: [{text: 现在有两只干净的}, {vocabulary: {id: cup, text: 杯子}}, {text: 。}]
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 两个朋友交换杯子。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 他们一起喝茶。}]}
 chapters:
-  - {id: ch01, title: 一只杯子, page_refs: [p01, p02, p03, p04]}
-  - {id: ch02, title: 两个朋友, page_refs: [p05, p06, p07, p08]}
+  - {id: ch01, title: 找杯子, page_refs: [p01, p02, p03, p04]}
+  - {id: ch02, title: 两只干净的杯子, page_refs: [p05, p06, p07, p08]}
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: 一开始，桌上有几只杯子？, answer: 一只蓝杯子。, page_refs: [p01]}
-  - {id: q02, type: sequence, speaker: narrator, prompt: 倒茶之前，他们先做了什么？, answer: 他们找到旧杯子，把它洗干净。, page_refs: [p04, p05, p06]}
-  - {id: q03, type: explicit-choice, speaker: narrator, prompt: 他们为什么要换杯子？, choices: [让两个人都能用蓝杯子, 把杯子藏起来, 打碎旧杯子], answer: 让两个人都能用蓝杯子。, page_refs: [p07]}
+  - {id: q01, type: picture, speaker: narrator, prompt: 桌上先有什么？, answer: 一只蓝杯子。, page_refs: [p01]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: 找到红杯子后做什么？, answer: 把红杯子洗干净。, page_refs: [p04, p05]}
+  - {id: q03, type: explicit-choice, speaker: narrator, prompt: 最后有几只干净的杯子？, choices: [两只, 一只], answer: 两只。, page_refs: [p06]}

@@ -1,8 +1,9 @@
 schema_version: 1
 status: draft
-purpose: queryable vocabulary data sources and the rules for turning source evidence into HaiLibrary A-K decisions
+purpose: queryable vocabulary data sources and the rules for turning source evidence into exact HaiLibrary AA-Z2 decisions
 
 files:
+  locale_references: prompts/levels/locale-references.yaml
   grading_criteria: prompts/vocabulary/ranges.yaml
   en_us_frequency_list: prompts/vocabulary/lists/en-US/ngsl-1.2-hai-bands.csv
   zh_cn_character_list: prompts/vocabulary/lists/zh-CN/tghz-2013-tier-1.csv
@@ -13,6 +14,7 @@ rules:
   - The English NGSL band is a frequency/familiarity band for running-text control, not a CEFR, Reading A-Z, or Lexile level.
   - The Chinese TGHZ list establishes a standardized common-character inventory, not the grade or semester in which a child learned a character.
   - A Chinese textbook claim requires an exact edition, grade, semester, scope, location, and source URL in the vocabulary entry.
+  - English Reading A-Z and Lexile references and Chinese curriculum/textbook checkpoints are parallel evidence routes; neither is a translation or certification of the other.
   - A term absent from these lists may still be valid when its meaning, morphology, context support, and learning purpose satisfy ranges.yaml.
 
 datasets:
@@ -34,19 +36,38 @@ datasets:
       - Lemmas are not senses; polysemy still requires editorial review.
       - Rank measures corpus frequency, not conceptual, syntactic, or decoding difficulty.
       - The 52 supplementary calendar and number words without frequency ranks are not in this local file.
-    internal_band_policy:
-      a: [1, 250]
-      b: [251, 500]
-      c: [501, 800]
-      d: [801, 1100]
-      e: [1101, 1450]
-      f: [1451, 1800]
-      g: [1801, 2200]
-      h: [2201, 2809]
-      i: null
-      j: null
-      k: null
-    band_note: I-K are not assigned by raw frequency because advanced difficulty depends more on sense, register, abstraction, rhetoric, and domain knowledge.
+    running_text_rank_guidance:
+      aa: [1, 100]
+      a: [1, 150]
+      b: [1, 250]
+      c: [1, 350]
+      d: [1, 500]
+      e: [1, 650]
+      f: [1, 800]
+      g: [1, 950]
+      h: [1, 1100]
+      i: [1, 1250]
+      j: [1, 1400]
+      k: [1, 1550]
+      l: [1, 1700]
+      m: [1, 1850]
+      n: [1, 2000]
+      o: [1, 2150]
+      p: [1, 2300]
+      q: [1, 2450]
+      r: [1, 2600]
+      s: [1, 2700]
+      t: [1, 2809]
+      u: null
+      v: null
+      w: null
+      x: null
+      y: null
+      z: null
+      z1: null
+      z2: null
+    rank_guidance_rule: the range is cumulative guidance for unmarked running text, not an assignment of every lemma or sense to that level; marked targets may fall outside it when ranges.yaml supports the learning purpose
+    band_note: U-Z2 are not assigned by raw frequency because advanced difficulty depends more on sense, register, abstraction, rhetoric, and domain knowledge. The legacy hai_familiarity_band column is non-authoritative and must not be used as an exact AA-Z2 label.
 
   cambridge-young-learners-2025:
     locale: en-US
@@ -57,7 +78,7 @@ datasets:
     local_storage: reference-only
     verification: official PDF inspected; it contains separate alphabetic lists for all three source levels
     use: verify beginner word membership and grammatical category in an individual vocabulary alignment
-    limitation: Cambridge exam level is not a HaiLibrary level and does not cover the advanced A-K range.
+    limitation: Cambridge exam level is not a HaiLibrary level and does not cover the advanced AA-Z2 range.
 
   english-vocabulary-profile:
     locale: en-US

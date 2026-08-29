@@ -11,6 +11,8 @@ Create one Writer at `prompts/writers/<locale>/<name>/` with `prompt.yaml` and `
 
 Resolve one locale and one or more recommended levels. Read `prompts/levels/levels.yaml`, `prompts/writers/index.yaml`, and nearby Writers for schema conventions.
 
+Recommended levels must use the direct 29-level keys `aa`, `a` through `z`, `z1`, and `z2`. Read every exact level record selected; never carry forward a legacy compressed A-K meaning.
+
 Research useful reference reading and extract only broad interests, values, structures, and creative decisions. Create an original name appropriate to the locale, then search for obvious publishing, character, product, and brand conflicts before accepting it.
 
 The Writer must be an original editorial persona, not a disguise for a real writer. Never request recognizable imitation or copy names, characters, plots, wording, signature devices, or protected fictional worlds.

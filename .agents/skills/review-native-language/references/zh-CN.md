@@ -22,6 +22,10 @@ Judge the text as contemporary standard written Mandarin for readers in mainland
 - At A-C, natural simplicity means familiar words, explicit action, clean referents, and useful repetition. It does not mean omitting necessary classifiers, producing fragments, or giving objects unnatural human actions merely to keep a sentence short.
 - At D-G, allow connective variety, idiomatic dialogue, and controlled imagery. Do not flatten Chinese into uniformly short declarative sentences.
 - At H-K, use precise and varied Chinese prose. Complexity should come from thought, scene, and syntax—not from bureaucratic nominalization, translated analytical formulas, or dialogue that sounds like a report.
+- At L-V, progress through middle and upper primary reading tasks: longer evidence spans, comparison, explanation, viewpoint, and source awareness. Keep prose readable aloud and avoid using rare characters as a shortcut to difficulty.
+- At W-X, expect junior-secondary control of complex narrative, exposition, and argument. Require paragraph cohesion, implicit information, source comparison, and purposeful register rather than merely longer sentences.
+- At Y-Z, expect senior-secondary whole-book and inquiry reading: sustained interpretation, rhetoric, counterevidence, and qualified claims. Reject essay-template slogans and empty abstraction.
+- At Z1, expect natural undergraduate textbook, long-form, and introductory academic prose. At Z2, permit mature graduate or professional terminology and methodological compression, but require definitions, source discipline, coherent argument, and real disciplinary usage.
 
 ## Common translationese tests
 
@@ -45,6 +49,7 @@ When doubtful, consult modern monolingual Chinese dictionaries and corpora for t
 - [教育部、国家语委：语言文字规范标准](https://www.moe.gov.cn/s78/A19/A19_ztzl/ztzl_yywzgfbz/)：检查现行规范汉字、拼音、标点及其他国家语言文字规范。规范问题优先采用这里发布的 GF 或 GB 标准。
 - [《标点符号用法》GB/T 15834—2011](https://www.moe.gov.cn/jyb_sjzl/ziliao/A19/201001/W020190128580990138234.pdf)：检查引号、书名号、破折号、省略号、括号以及句末标点等出版规范。
 - [教育部：义务教育课程方案和课程标准（2022年版）](https://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html)：判断课程阶段、阅读任务和语言学习要求；不能据此直接证明某个完整词已经学过。
+- [教育部：普通高中课程方案和语文等学科课程标准（2017年版2020年修订）](https://jsj.moe.gov.cn/news/2/1507.shtml)：校准高中整本书阅读、专题研讨、论证评价和学术性表达；不能据此证明某个术语已学。
 - [人民教育出版社：修订版统编小学语文一年级教材教学建议](https://www.pep.com.cn/bks/xxyw/jzjd/202505/W020250531413853679016.pdf)：了解低年级阅读、积累、表达和交际训练的实际教学语境。具体字词仍须核验对应教材版本和位置。
 
 ### 词义、读音和用法

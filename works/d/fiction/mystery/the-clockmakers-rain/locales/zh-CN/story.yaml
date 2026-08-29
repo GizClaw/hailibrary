@@ -1,31 +1,46 @@
 schema_version: 1
 language: zh-CN
-writer: 铜罗盘
-title: 钟表铺里的银雨
-summary: 钟表铺里下起银色的雨，所有钟也停了。妮娅循着雨滴的节拍，找到了故障。
+writer: 月芽笺
+title: 钟表匠的银雨
+summary: 欧伦拆掉一个吵闹的齿轮后，钟表铺里落下银色雨滴。妮娅找到空位，清洁并装回齿轮，让钟表和银云恢复正常。
 cast:
-  narrator: {display_name: 旁白, tts: {delivery: 从容细致, timbre: 清晰的成年声音, pace: 中速, pitch: 中音}}
-  nia: {display_name: 妮娅, tts: {delivery: 警觉善思, timbre: 专注的青年声音, pace: 中速, pitch: 中高音}}
-  oren: {display_name: 奥伦, tts: {delivery: 平静略带幽默, timbre: 有质感的年长声音, pace: 中慢速, pitch: 低音}}
+  narrator: {display_name: 旁白, tts: {delivery: 精确清楚, timbre: 平静的成年声音, pace: 中速, pitch: 中音}}
+  nia: {display_name: 妮娅, tts: {delivery: 警觉爱思考, timbre: 明亮的年轻声音, pace: 中速, pitch: 中高音}}
+  oren: {display_name: 欧伦, tts: {delivery: 从容耐心, timbre: 温厚的年长声音, pace: 慢速, pitch: 中低音}}
 pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 钟表铺里，竟下起了银色的雨。}]}
-  - {id: p02, illustration: p02, lines: [{speaker: nia, text: 怪了，雨点一落地就不见了。}]}
-  - {id: p03, illustration: p03, lines: [{speaker: oren, text: 天亮时钟全停了，屋顶倒一点没漏。}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 铃声响起，碗里的雨滴跳了一下。}]}
-  - {id: p05, illustration: p05, lines: [{speaker: nia, text: 雨点在替停摆的钟打拍子。}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, content: [{text: 一排转轴中间空了一处，少了个}, {vocabulary: {id: gear, text: 齿轮}}, {text: 。}]}]}
-  - {id: p07, illustration: p07, lines: [{speaker: oren, text: 昨晚它吵得厉害。我拆下来，转头就忘了。}]}
-  - {id: p08, illustration: p08, lines: [{speaker: nia, text: 轮齿被灰卡住，难怪越转越响。}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 两人刷净齿轮，把它装回原处。}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 钟针重新走动，银雨竟倒着升了起来。}]}
-  - {id: p11, illustration: p11, lines: [{speaker: oren, text: 听，钟楼把丢掉的节拍找回来了。}]}
-  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 银雨聚成一朵亮云，十二座钟一齐滴答作响。}]}
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 妮娅打开钟表铺的门。}, {speaker: narrator, text: 细小的银滴落在屋里。}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 每滴银雨碰到地板就消失。}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 欧伦查看一座停住的钟。}, {speaker: narrator, text: 妮娅用碗接住一滴。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 小铃响了。}, {speaker: narrator, text: 银滴从碗里跳起来。}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 妮娅比较银滴和摆动的钟摆。}]}
+  - id: p06
+    illustration: p06
+    lines:
+      - speaker: narrator
+        content: [{text: 她在一排}, {vocabulary: {id: gear, text: 齿轮}}, {text: 中发现一个空位。}]
+  - id: p07
+    illustration: p07
+    lines:
+      - speaker: oren
+        content: [{text: 昨晚我拆下一个吵闹的}, {vocabulary: {id: gear, text: 齿轮}}, {text: 。}]
+  - id: p08
+    illustration: p08
+    lines:
+      - speaker: narrator
+        content: [{text: 妮娅擦净沾灰的}, {vocabulary: {id: gear, text: 齿轮}}, {text: 。}]
+      - {speaker: narrator, text: 欧伦举着灯。}
+  - id: p09
+    illustration: p09
+    lines:
+      - speaker: narrator
+        content: [{text: 他们把干净的}, {vocabulary: {id: gear, text: 齿轮}}, {text: 装回轮轴。}]
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 所有钟表一起转动。}, {speaker: narrator, text: 银滴向上飞。}]}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: 银滴在屋顶聚成一朵亮云。}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 亮云变成一件闪闪发光的挂饰。}]}
 chapters:
-  - {id: ch01, title: 室内的雨, page_refs: [p01, p02, p03, p04]}
-  - {id: ch02, title: 丢失的节拍, page_refs: [p05, p06, p07, p08]}
-  - {id: ch03, title: 找回节拍, page_refs: [p09, p10, p11, p12]}
+  - {id: ch01, title: 屋里的银雨, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - {id: ch02, title: 少了一个齿轮, page_refs: [p07, p08, p09, p10, p11, p12]}
 questions:
-  - {id: q01, type: explicit-choice, speaker: narrator, prompt: 雨落在哪里？, choices: [工坊里, 街上, 桥下], answer: 工坊里。, page_refs: [p01]}
-  - {id: q02, type: cause-effect, speaker: narrator, prompt: 奥伦为什么拆下齿轮？, answer: 因为它很吵。, page_refs: [p07]}
-  - {id: q03, type: character-motive, speaker: narrator, prompt: 妮娅为什么去检查转轴？, answer: 她想找出所有钟停摆的原因。, page_refs: [p03, p06]}
-  - {id: q04, type: short-answer, speaker: narrator, prompt: 哪两个现象说明银雨和钟有关？, answer: 铃响时雨滴会跳；钟重新走动时，雨滴会向上升。, page_refs: [p04, p10]}
+  - {id: q01, type: picture, speaker: narrator, prompt: 钟表铺里落下什么？, answer: 细小的银滴。, page_refs: [p01]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: 装回齿轮前，妮娅先做了什么？, answer: 把齿轮擦干净。, page_refs: [p08, p09]}
+  - {id: q03, type: cause-effect, speaker: narrator, prompt: 银滴为什么又向上飞？, answer: 干净的齿轮让所有钟表一起转动。, page_refs: [p09, p10]}

@@ -1,36 +1,46 @@
 schema_version: 1
 language: zh-CN
-writer: 北辰
-title: 风暴前送灯
-summary: 莉娅赶着把信号灯送往北方，却在风暴前遇见一架受困的滑翔机。救人还是赶路，她必须马上决定。
+writer: 铜罗盘
+title: 向北的信号灯
+summary: 莉娅和任要把信号灯送去点亮北方灯塔。暴风把飞艇吹离航线，他们又遇到受困的邮政滑翔机。救援用掉了灯芯，居民便用许多小灯补足光亮。
 cast:
-  narrator: {display_name: 旁白, tts: {delivery: 明快生动, timbre: 清晰的成年声音, pace: 中速, pitch: 中音}}
-  lia: {display_name: 莉娅, tts: {delivery: 果断温暖, timbre: 坚定的成年声音, pace: 中快速, pitch: 中音}}
-  ren: {display_name: 任, tts: {delivery: 理性略带冷幽默, timbre: 平静的成年声音, pace: 中速, pitch: 中低音}}
+  narrator: {display_name: 旁白, tts: {delivery: 明快清楚, timbre: 利落的成年声音, pace: 中速, pitch: 中音}}
+  lia: {display_name: 莉娅, tts: {delivery: 果断温暖, timbre: 清楚的成年声音, pace: 中速, pitch: 中高音}}
+  ren: {display_name: 任, tts: {delivery: 理性冷静, timbre: 稳重的成年声音, pace: 中慢速, pitch: 中低音}}
+  sena: {display_name: 塞娜, tts: {delivery: 平静机敏, timbre: 温暖的成年声音, pace: 中速, pitch: 中音}}
 pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, content: [{text: 莉娅固定好要送往北方的}, {vocabulary: {id: lantern, text: 信号灯}}, {text: 。它要重启远方的信标。}]}]}
-  - {id: p02, illustration: p02, lines: [{speaker: ren, text: 风暴就要来了。这点油，只够我们直飞。}]}
-  - {id: p03, illustration: p03, lines: [{speaker: lia, text: 那就稳着飞，别耽搁。}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 侧风把飞艇吹出了航标指引的安全航线。}]}
-  - {id: p05, illustration: p05, lines: [{speaker: lia, text: 下面有架邮政滑翔机！它动不了了。}]}
-  - {id: p06, illustration: p06, lines: [{speaker: ren, text: 绕过去救人，送灯的油就不够了。}]}
-  - {id: p07, illustration: p07, lines: [{speaker: lia, text: 要是见死不救，这盏灯送到了又能照亮什么？}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 任安装拖缆，莉娅在风中稳住两架飞行器。}]}
-  - {id: p09, illustration: p09, lines: [{speaker: ren, text: 拖着它，风暴迟早会追上来。}]}
-  - {id: p10, illustration: p10, lines: [{speaker: lia, text: 信号灯的能量芯也能给引擎供能。}]}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: 能量芯装进滑翔机，信号灯顿时暗了。}]}
-  - {id: p12, illustration: p12, lines: [{speaker: ren, text: 现在两架都有动力。跟紧我，穿过那道云缝！}]}
-  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: 两架飞行器冲出风暴，北方聚落就在眼前。可信标还是一片漆黑。}]}
-  - {id: p14, illustration: p14, lines: [{speaker: lia, text: 大家把灯都拿来！先给它续上一点光。}]}
-  - {id: p15, illustration: p15, lines: [{speaker: narrator, text: 一盏盏小灯围过来。能量芯亮了，信标也亮了。}]}
-  - {id: p16, illustration: p16, lines: [{speaker: ren, text: 这趟绕路，倒给咱们添了个帮手。}]}
+  - id: p01
+    illustration: p01
+    lines:
+      - speaker: narrator
+        content: [{text: 莉娅把明亮的}, {vocabulary: {id: lantern, text: 信号灯}}, {text: 固定在飞艇上。}]
+      - {speaker: narrator, text: 它要重新点亮北方灯塔。}
+  - {id: p02, illustration: p02, lines: [{speaker: ren, text: 暴风云正在横穿航线。}, {speaker: lia, text: 我们要留意风向和燃料。}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 橙色飞艇飞向远处的空中聚落。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 侧风把飞艇推离信标航线。}, {speaker: ren, text: 我们正在向东偏。}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 莉娅看见下方停着一架邮政滑翔机。}, {speaker: narrator, text: 驾驶员正在发出求救信号。}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 任看看不多的燃料，又看看远方。}, {speaker: ren, text: 拖得太久，两架船都可能停下。}]}
+  - {id: p07, illustration: p07, lines: [{speaker: lia, text: 不能把驾驶员留在暴风里。}, {speaker: narrator, text: 她调头飞向滑翔机。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 风摇晃着两架船，任扣上拖绳。}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 拖行让飞艇慢下来。}, {speaker: narrator, text: 乌云却越来越近。}]}
+  - {id: p10, illustration: p10, lines: [{speaker: lia, text: 灯芯能给滑翔机提供动力。}, {speaker: narrator, text: 她打开保护外壳。}]}
+  - id: p11
+    illustration: p11
+    lines:
+      - {speaker: narrator, text: 任把发光灯芯接到塞娜的滑翔机上。}
+      - speaker: narrator
+        content: [{vocabulary: {id: lantern, text: 信号灯}}, {text: 暗了下来。}]
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 两架船进入狭窄的平静云道。}, {speaker: sena, text: 我的船现在能跟着你们飞。}]}
+  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: 聚落终于出现，灯塔却还是黑的。}]}
+  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: 居民们带来许多小灯。}, {speaker: narrator, text: 大家把灯围在暗下来的信号灯旁。}]}
+  - {id: p15, illustration: p15, lines: [{speaker: narrator, text: 小小的光合在一起，点亮了大灯塔。}]}
+  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: 两架修好的飞艇在灯塔下出发。}, {speaker: lia, text: 帮助别人改变了计划，没有改变目标。}]}
 chapters:
-  - {id: ch01, title: 风暴前直飞, page_refs: [p01, p02, p03, p04, p05]}
-  - {id: ch02, title: 救援的代价, page_refs: [p06, p07, p08, p09, p10, p11]}
-  - {id: ch03, title: 许多小灯, page_refs: [p12, p13, p14, p15, p16]}
+  - {id: ch01, title: 被风吹离航线, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - {id: ch02, title: 一份动力，两架船, page_refs: [p07, p08, p09, p10, p11, p12]}
+  - {id: ch03, title: 许多盏小灯, page_refs: [p13, p14, p15, p16]}
 questions:
-  - {id: q01, type: sequence, speaker: narrator, prompt: 什么事让他们离开了直飞航线？, answer: 他们发现一架受困的邮政滑翔机。, page_refs: [p04, p05]}
-  - {id: q02, type: character-motive, speaker: narrator, prompt: 莉娅明知燃料不够，为什么还要救人？, answer: 她觉得不能为了送灯，就把眼前遇险的人丢下。, page_refs: [p06, p07]}
-  - {id: q03, type: cause-effect, speaker: narrator, prompt: 装上能量芯以后，滑翔机发生了什么变化？, answer: 滑翔机重新有了动力，能和飞艇一起穿过云缝。, page_refs: [p10, p11, p12]}
-  - {id: q04, type: evidence, speaker: narrator, prompt: 聚落里的人怎样帮忙点亮信标？, answer: 大家拿来小灯，为能量芯补充了光。, page_refs: [p14, p15]}
-  - {id: q05, type: main-idea, speaker: narrator, prompt: 任为什么会说“绕路添了个帮手”？, answer: 被救的滑翔机后来和他们一起完成了送灯任务。, page_refs: [p12, p16]}
+  - {id: q01, type: cause-effect, speaker: narrator, prompt: 信号灯为什么暗了？, answer: 发光灯芯被接到受困的滑翔机上。, page_refs: [p10, p11]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: 拖行变慢后，莉娅和任怎样做？, answer: 把信号灯的灯芯接到塞娜的滑翔机上。, page_refs: [p09, p10, p11]}
+  - {id: q03, type: character-motive, speaker: narrator, prompt: 莉娅为什么离开直达航线？, answer: 她不愿把受困的驾驶员留在暴风里。, page_refs: [p05, p06, p07]}
+  - {id: q04, type: short-answer, speaker: narrator, prompt: 居民怎样解决缺少灯芯的问题？, answer: 把许多小灯的光合起来点亮灯塔。, page_refs: [p13, p14, p15]}

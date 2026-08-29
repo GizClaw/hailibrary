@@ -7,7 +7,10 @@ import { createHash } from "node:crypto";
 import process from "node:process";
 import YAML from "yaml";
 
+const READING_A_Z_LEVELS = ["aa", ..."abcdefghijklmnopqrstuvwxyz", "z1", "z2"];
+
 const MEDIA_SUFFIXES = new Set([".webp", ".mp3", ".m4a", ".ogg", ".wav", ".mp4", ".webm"]);
+const VOCABULARY_LOCALE_KEYS = new Set(["term", "forms", "part_of_speech", "pronunciation", "definition", "writing", "alignments"]);
 const TYPE_PART = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const asPosix = (value) => value.split(sep).join("/");
 const isMapping = (value) => value !== null && typeof value === "object" && !Array.isArray(value);
@@ -81,6 +84,11 @@ function lineText(line) {
 function countUnits(text, unitLanguage) {
   if (unitLanguage === "zh") return text.match(/\p{Script=Han}/gu)?.length ?? 0;
   return text.trim() === "" ? 0 : text.trim().split(/\s+/u).length;
+}
+
+function splitSentences(text, unitLanguage) {
+  const terminator = unitLanguage === "zh" ? /[。！？]+/u : /[.!?]+(?:["”’']+)?(?=\s|$)/u;
+  return text.split(terminator).map((sentence) => sentence.trim()).filter(Boolean);
 }
 
 function checkVocabularyData(check, root, index) {
@@ -158,6 +166,7 @@ function checkContentSegments(check, root, level, locale, content, label, vocabu
     const locales = isMapping(entry.locales) ? entry.locales : {};
     const localized = locales[locale];
     if (!check.require(isMapping(localized), `${level}/${vocabularyId}: missing locale ${locale}`)) return;
+    check.require(hasOnlyKeys(localized, VOCABULARY_LOCALE_KEYS), `${level}/${vocabularyId}.${locale}: vocabulary locale contains unknown fields`);
     const term = requiredString(check, localized, "term", `${level}/${vocabularyId}.${locale}`);
     requiredString(check, localized, "pronunciation", `${level}/${vocabularyId}.${locale}`);
     requiredString(check, localized, "definition", `${level}/${vocabularyId}.${locale}`);
@@ -202,14 +211,45 @@ function checkWork(workArgument) {
   const artwork = check.yamlMapping(join(work, "artwork.yaml"));
   check.yamlMapping(join(work, "research.yaml"));
   const levels = check.yamlMapping(join(root, "prompts", "levels", "levels.yaml"));
+  const localeReferences = check.yamlMapping(join(root, "prompts", "levels", "locale-references.yaml"));
   const vocabularyIndex = check.yamlMapping(join(root, "prompts", "vocabulary", "index.yaml"));
   const vocabularyRanges = check.yamlMapping(join(root, "prompts", "vocabulary", "ranges.yaml"));
   const labelIndex = check.yamlMapping(join(root, "prompts", "labels", "index.yaml"));
+  const taxonomyIndex = check.yamlMapping(join(root, "prompts", "taxonomy", "index.yaml"));
+  const writerIndex = check.yamlMapping(join(root, "prompts", "writers", "index.yaml"));
 
+  check.require(levels.schema_version === 2, "level rules schema_version must be 2");
+  check.require(JSON.stringify(levels.level_order) === JSON.stringify(READING_A_Z_LEVELS), "level_order must preserve the 29 ordered labels aa, a-z, z1, z2");
+  check.require(isMapping(levels.levels) && sameSet(new Set(Object.keys(levels.levels)), new Set(READING_A_Z_LEVELS)), "level rules must define every exact HaiLibrary level once");
+  check.require(localeReferences.schema_version === 1, "locale reference schema_version must be 1");
+  check.require(JSON.stringify(localeReferences.level_order) === JSON.stringify(READING_A_Z_LEVELS), "locale reference level_order must match aa, a-z, z1, z2");
+  check.require(isMapping(localeReferences.levels) && JSON.stringify(Object.keys(localeReferences.levels)) === JSON.stringify(READING_A_Z_LEVELS), "locale references must preserve every ordered HaiLibrary level");
+  for (const referenceLevel of READING_A_Z_LEVELS) {
+    const localeReference = localeReferences.levels?.[referenceLevel];
+    const englishReference = localeReference?.["en-US"];
+    const chineseReference = localeReference?.["zh-CN"];
+    const expectedReadingAZ = referenceLevel === "aa" ? "aa" : referenceLevel.toUpperCase();
+    check.require(typeof localeReference?.age_band === "string", `${referenceLevel}: locale reference must declare an age band`);
+    check.require(isMapping(englishReference) && englishReference.reading_a_z_label === expectedReadingAZ && (typeof englishReference.grade_band === "string" || typeof englishReference.grade_band === "number") && typeof englishReference.lexile_reference === "string", `${referenceLevel}: en-US locale reference must declare the retained label, grade band, and English Lexile reference`);
+    check.require(isMapping(chineseReference) && typeof chineseReference.checkpoint === "string" && typeof chineseReference.grade_band === "string" && typeof chineseReference.reading_task === "string", `${referenceLevel}: zh-CN locale reference must declare checkpoint, grade band, and reading task`);
+    check.require(isMapping(localeReferences["zh-CN"]?.curriculum_checkpoints?.[chineseReference?.checkpoint]), `${referenceLevel}: zh-CN locale reference uses an unknown curriculum checkpoint`);
+    const levelExternalReference = levels.levels?.[referenceLevel]?.external_reference;
+    check.require(isMapping(levelExternalReference) && levelExternalReference.reading_a_z_label === englishReference?.reading_a_z_label && String(levelExternalReference.age_band) === localeReference?.age_band && String(levelExternalReference.en_grade_reference) === String(englishReference?.grade_band) && levelExternalReference.en_lexile_reference === englishReference?.lexile_reference, `${referenceLevel}: level and locale age and English references must agree`);
+  }
   check.require(book.schema_version === 1, "book.schema_version must be 1");
   check.require(artwork.schema_version === 1, "artwork.schema_version must be 1");
   checkVocabularyData(check, root, vocabularyIndex);
   check.require(vocabularyRanges.schema_version === 1, "vocabulary ranges schema_version must be 1");
+  check.require(JSON.stringify(vocabularyRanges.level_order) === JSON.stringify(READING_A_Z_LEVELS), "vocabulary level_order must match aa, a-z, z1, z2");
+  for (const locale of ["en-US", "zh-CN"]) {
+    const ranges = vocabularyRanges[locale]?.ranges;
+    check.require(isMapping(ranges) && sameSet(new Set(Object.keys(ranges)), new Set(READING_A_Z_LEVELS)), `${locale}: vocabulary ranges must define every exact Reading A-Z level once`);
+  }
+  check.require(isMapping(taxonomyIndex.levels) && JSON.stringify(Object.keys(taxonomyIndex.levels)) === JSON.stringify(READING_A_Z_LEVELS), "taxonomy levels must preserve the ordered AA, A-Z, Z1, Z2 sequence");
+  for (const locale of ["en-US", "zh-CN"]) {
+    const defaults = writerIndex.default_writer_by_locale_and_level?.[locale];
+    check.require(isMapping(defaults) && JSON.stringify(Object.keys(defaults)) === JSON.stringify(READING_A_Z_LEVELS), `${locale}: default Writer map must preserve every ordered Reading A-Z level`);
+  }
   check.require(labelIndex.schema_version === 1, "label index schema_version must be 1");
   check.require(book.id === slug, `book id must match directory slug: ${slug}`);
   const workType = typePath(check, book.type, "book.type");
@@ -297,6 +337,7 @@ function checkWork(workArgument) {
       check.require(writer.schema_version === 1, `${locale}: Writer schema_version must be 1`);
       check.require(writer.id === writerId, `${locale}: Writer id does not match: ${writerId}`);
       check.require(writer.locale === locale, `${locale}: Writer locale does not match`);
+      check.require(Array.isArray(writer.recommended_levels) && writer.recommended_levels.includes(level), `${locale}: Writer ${writerId} does not recommend exact level ${level}`);
       const avatar = writer.avatar ?? "avatar.webp";
       if (check.require(typeof avatar === "string", `${locale}: Writer avatar must be a path`)) check.resource(join(writerDir, avatar), `Writer avatar for ${writerId}`);
     }
@@ -336,6 +377,8 @@ function checkWork(workArgument) {
       }
       const lines = Array.isArray(page.lines) ? page.lines : [];
       let pageUnits = 0;
+      let pageSentences = 0;
+      const pageVocabularyIds = new Set();
       check.require(lines.length > 0, `${locale}/${pageId}: lines must not be empty`);
       for (const line of lines) {
         if (!isMapping(line)) {
@@ -350,12 +393,33 @@ function checkWork(workArgument) {
         const hasText = typeof line.text === "string" && line.text.length > 0;
         const hasContent = Array.isArray(line.content) && line.content.length > 0;
         check.require(hasText !== hasContent, `${locale}/${pageId}: line needs exactly one of text or content`);
-        if (hasContent) checkContentSegments(check, root, level, locale, line.content, `${locale}/${pageId}.content`, vocabularyCache);
-        if (unitLanguage !== null) pageUnits += countUnits(lineText(line), unitLanguage);
+        if (hasContent) {
+          checkContentSegments(check, root, level, locale, line.content, `${locale}/${pageId}.content`, vocabularyCache);
+          for (const segment of line.content) {
+            if (typeof segment?.vocabulary?.id === "string") pageVocabularyIds.add(segment.vocabulary.id);
+          }
+        }
+        if (unitLanguage !== null) {
+          const sentences = splitSentences(lineText(line), unitLanguage);
+          pageUnits += countUnits(lineText(line), unitLanguage);
+          pageSentences += sentences.length;
+          if (isMapping(languageRules) && Number.isInteger(languageRules.units_per_sentence_max)) {
+            for (const sentence of sentences) {
+              const sentenceUnits = countUnits(sentence, unitLanguage);
+              check.require(sentenceUnits <= languageRules.units_per_sentence_max, `${locale}/${pageId}: sentence unit count ${sentenceUnits} exceeds level ${level} maximum ${languageRules.units_per_sentence_max}`);
+            }
+          }
+        }
       }
       totalUnits += pageUnits;
       if (isMapping(languageRules) && Number.isInteger(languageRules.units_per_page_max)) {
         check.require(pageUnits <= languageRules.units_per_page_max, `${locale}/${pageId}: unit count ${pageUnits} exceeds level ${level} maximum ${languageRules.units_per_page_max}`);
+      }
+      if (isMapping(languageRules) && Number.isInteger(languageRules.sentences_per_page_max)) {
+        check.require(pageSentences <= languageRules.sentences_per_page_max, `${locale}/${pageId}: sentence count ${pageSentences} exceeds level ${level} maximum ${languageRules.sentences_per_page_max}`);
+      }
+      if (isMapping(languageRules) && Number.isInteger(languageRules.new_words_per_page_max)) {
+        check.require(pageVocabularyIds.size <= languageRules.new_words_per_page_max, `${locale}/${pageId}: target vocabulary count ${pageVocabularyIds.size} exceeds level ${level} maximum ${languageRules.new_words_per_page_max}`);
       }
       check.require(!Object.hasOwn(page, "vocabulary"), `${locale}/${pageId}: vocabulary must be marked inline in line.content`);
     }

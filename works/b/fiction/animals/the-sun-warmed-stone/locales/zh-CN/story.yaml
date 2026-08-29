@@ -1,25 +1,33 @@
 schema_version: 1
 language: zh-CN
-writer: 松果先生
+writer: 栗叶灯
 title: 晒暖的小石头
-summary: 狐狸和蜥蜴都想取暖，便挨着坐下，一起把脚放到暖石头上。
+summary: 雨后，小红找到一块晒暖的石头。石头太小，坐不下两个朋友。小红和小青便一起暖脚。
 cast:
   narrator: {display_name: 旁白, tts: {delivery: 温暖直接, timbre: 清晰的成年声音, pace: 中慢速, pitch: 中音}}
-  fox: {display_name: 狐狸, tts: {delivery: 轻快爽朗, timbre: 明亮的童声, pace: 中速, pitch: 中高音}}
-  lizard: {display_name: 蜥蜴, tts: {delivery: 温和坦率, timbre: 细柔的童声, pace: 中慢速, pitch: 中音}}
+  fox: {display_name: 小红, tts: {delivery: 轻快爽朗, timbre: 明亮的童声, pace: 中速, pitch: 中高音}}
+  lizard: {display_name: 小青, tts: {delivery: 温和坦率, timbre: 细柔的童声, pace: 中慢速, pitch: 中音}}
 pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 雨后，林地有些凉。}]}
-  - {id: p02, illustration: p02, lines: [{speaker: fox, content: [{text: 呀，这块}, {vocabulary: {id: stone, text: 石头}}, {text: 晒得真暖和！}]}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 狐狸刚坐下，蜥蜴也来了。}]}
-  - {id: p04, illustration: p04, lines: [{speaker: lizard, text: 我也想暖暖身子。}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 石头不大，两只都坐不下。}]}
-  - {id: p06, illustration: p06, lines: [{speaker: fox, text: 那就一起把脚放上去吧。}]}
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 狐狸跳下来，给蜥蜴让出地方。}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 它们挨着坐，脚都暖了。}]}
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 雨停了，太阳出来了。}]}
+  - id: p02
+    illustration: p02
+    lines:
+      - speaker: narrator
+        content: [{text: 小红找到一块暖}, {vocabulary: {id: stone, text: 石头}}, {text: 。}]
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 小红坐下。小青来了。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: lizard, text: 我也能坐吗？}]}
+  - id: p05
+    illustration: p05
+    lines:
+      - speaker: narrator
+        content: [{text: 这块}, {vocabulary: {id: stone, text: 石头}}, {text: 坐不下两个朋友。}]
+  - {id: p06, illustration: p06, lines: [{speaker: fox, text: 我们一起暖脚吧！}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 小红坐到石头旁边。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 两个朋友一起暖脚。}]}
 chapters:
-  - {id: ch01, title: 一块暖石, page_refs: [p01, p02, p03, p04]}
-  - {id: ch02, title: 两个位置, page_refs: [p05, p06, p07, p08]}
+  - {id: ch01, title: 暖石头, page_refs: [p01, p02, p03, p04]}
+  - {id: ch02, title: 一起暖脚, page_refs: [p05, p06, p07, p08]}
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: 什么被太阳晒暖了？, answer: 一块石头。, page_refs: [p02]}
-  - {id: q02, type: sequence, speaker: narrator, prompt: 狐狸坐下以后，谁来了？, answer: 蜥蜴。, page_refs: [p03]}
-  - {id: q03, type: explicit-choice, speaker: narrator, prompt: 狐狸怎样分享暖石？, choices: [和蜥蜴一起把脚放上去, 把石头藏起来, 把石头推入水里], answer: 和蜥蜴一起把脚放上去。, page_refs: [p06, p07, p08]}
+  - {id: q01, type: picture, speaker: narrator, prompt: 小红找到了什么？, answer: 一块暖石头。, page_refs: [p02]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: 小青问过以后，小红做什么？, answer: 小红坐到石头旁边。, page_refs: [p04, p06, p07]}
+  - {id: q03, type: explicit-choice, speaker: narrator, prompt: 两个朋友一起暖什么？, choices: [脚, 帽子], answer: 脚。, page_refs: [p08]}

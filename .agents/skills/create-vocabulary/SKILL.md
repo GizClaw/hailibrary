@@ -9,13 +9,17 @@ Create or materially revise one shared concept at `vocabulary/<level>/<id>/entry
 
 ## Establish the concept and usage
 
-Read `prompts/levels/levels.yaml`, every story usage of the intended level-scoped ID, and nearby entries for schema conventions. Resolve:
+Read `prompts/levels/levels.yaml`, `prompts/levels/locale-references.yaml`, every story usage of the intended level-scoped ID, and nearby entries for schema conventions. Resolve:
 
 - one concrete shared concept and stable kebab-case ID;
 - the owning level and every required locale;
 - the exact story sense and grammatical role;
 - the learner-facing definition scope;
 - whether a curriculum alignment is actually required and supportable.
+
+Use the exact ordered level key (`aa`, `a` through `z`, `z1`, or `z2`) and read that exact locale range. Never translate from a compressed or neighboring level.
+
+For English, record the HaiLibrary age/grade band and English-only Lexile as reference evidence. For Chinese, use the declared curriculum checkpoint and exact term evidence; never assign a Chinese term from an English Lexile or US grade band. Z1 is undergraduate and Z2 is advanced undergraduate, graduate, or professional in HaiLibrary; do not present those meanings as official Reading A-Z correlations.
 
 Do not create duplicate IDs for the same concept without checking existing entries. Do not force unrelated locale words into one card merely because they appear in the same translated sentence.
 
@@ -38,7 +42,11 @@ For `en-US`, use supported American English broad IPA. For `zh-CN`, use standard
 
 Update inline story vocabulary markers only when the task authorizes changing the affected work. The marked surface form must equal the entry term or a declared form.
 
-## Create the word card
+## Word-card scope
+
+When revising text or lexical metadata for an existing entry, preserve `card.webp` byte-for-byte unless the user explicitly authorizes a visual change. A text-only task must not regenerate, edit, recompress, rename, or delete the card.
+
+For a genuinely new vocabulary entry, create the word card as follows.
 
 Generate one original `card.webp` that depicts the shared concept without text, letters, numbers, logos, captions, speech bubbles, or watermarks. The image must remain recognizable for every locale term and must not encode a locale-specific spelling or cultural assumption that changes the concept.
 

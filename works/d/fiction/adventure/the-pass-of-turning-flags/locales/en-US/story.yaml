@@ -1,30 +1,37 @@
 schema_version: 1
 language: en-US
-writer: brass-compass
+writer: silver-bell
 title: The Pass of Turning Flags
-summary: At a three-way pass, Qiao reads streamers and leaves before choosing a route for fragile bowls.
+summary: Qiao studies three streamers at an unsigned mountain fork. The steadiest streamer points through a sheltered pass, so Qiao helps Dan carry his bowls safely to the village.
 cast:
-  narrator: {display_name: Narrator, tts: {delivery: precise and lively, timbre: bright adult voice, pace: medium, pitch: medium}}
-  qiao: {display_name: Qiao, tts: {delivery: curious and methodical, timbre: clear young voice, pace: medium, pitch: medium-high}}
-  dan: {display_name: Dan, tts: {delivery: practical and genial, timbre: broad adult voice, pace: medium-slow, pitch: low-medium}}
+  narrator: {display_name: Narrator, tts: {delivery: observant and lively, timbre: clear adult voice, pace: medium, pitch: medium}}
+  qiao: {display_name: Qiao, tts: {delivery: curious and methodical, timbre: bright young voice, pace: medium, pitch: medium-high}}
+  dan: {display_name: Dan, tts: {delivery: practical and genial, timbre: warm adult voice, pace: medium-slow, pitch: medium-low}}
 pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Three trails met at the pass, but none had a sign."}]}
-  - {id: p02, illustration: p02, lines: [{speaker: qiao, content: [{text: "Each trail has one cloth "}, {vocabulary: {id: streamer, text: streamer}}, {text: "."}]}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "The low streamer hung still. Leaves blocked its trail."}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "The middle streamer whipped across an open ledge."}]}
-  - {id: p05, illustration: p05, lines: [{speaker: qiao, text: "The high streamer points steadily through a wide notch."}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Qiao paused and compared all three clues again."}]}
-  - {id: p07, illustration: p07, lines: [{speaker: dan, text: "These bowls cannot take a rough crossing. Which trail is calmer?"}]}
-  - {id: p08, illustration: p08, lines: [{speaker: qiao, text: "I can't be certain, but the high route has steady air and sheltering walls."}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "They entered the high notch in single file."}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "A gust crossed the ridge while the rock walls sheltered them."}]}
-  - {id: p11, illustration: p11, lines: [{speaker: dan, text: "Every bowl survived. Careful looking saved us trouble."}]}
-  - {id: p12, illustration: p12, lines: [{speaker: qiao, text: "More streamers will let the next travelers judge for themselves."}]}
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Qiao reaches three mountain paths."}, {speaker: narrator, text: "None has a sign."}]}
+  - id: p02
+    illustration: p02
+    lines:
+      - speaker: narrator
+        content: [{text: "A cloth "}, {vocabulary: {id: streamer, text: streamer}}, {text: " hangs by each path."}]
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "The low streamer droops."}, {speaker: narrator, text: "Leaves cover that path."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "The middle streamer snaps sideways."}, {speaker: narrator, text: "Its ledge is open to wind."}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "The high streamer points steadily."}, {speaker: narrator, text: "Rock walls shelter its path."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Qiao compares the cloth and leaves."}, {speaker: qiao, text: "The high path looks calmer."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "Dan arrives with a basket of bowls."}, {speaker: dan, text: "Which path is safe?"}]}
+  - {id: p08, illustration: p08, lines: [{speaker: qiao, text: "See the steady streamer?"}, {speaker: qiao, text: "The rocks block strong wind."}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "They enter the broad high path."}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "A gust crosses the ridge."}, {speaker: narrator, text: "The rock walls shelter them."}]}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "They reach the pottery village."}, {speaker: narrator, text: "Every bowl is whole."}]}
+  - id: p12
+    illustration: p12
+    lines:
+      - speaker: narrator
+        content: [{text: "Villagers add more plain "}, {vocabulary: {id: streamer, text: streamers}}, {text: " at the fork."}]
 chapters:
-  - {id: ch01, title: Three Trails, page_refs: [p01, p02, p03, p04, p05, p06]}
-  - {id: ch02, title: A Visible Choice, page_refs: [p07, p08, p09, p10, p11, p12]}
+  - {id: ch01, title: Three Paths, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - {id: ch02, title: The Sheltered Pass, page_refs: [p07, p08, p09, p10, p11, p12]}
 questions:
-  - {id: q01, type: sequence, speaker: narrator, prompt: "Which three places does Qiao observe first?", answer: "The low, middle, and high trails and their streamers.", page_refs: [p03, p04, p05]}
-  - {id: q02, type: cause-effect, speaker: narrator, prompt: "Why does Qiao reject the middle trail?", answer: "Its streamer whips hard and the ledge is exposed.", page_refs: [p04]}
-  - {id: q03, type: character-motive, speaker: narrator, prompt: "Why does Dan need a calmer route?", answer: "He carries fragile bowls.", page_refs: [p07]}
-  - {id: q04, type: short-answer, speaker: narrator, prompt: "Why does Qiao add streamers later?", answer: "So later travelers can judge the routes from evidence.", page_refs: [p12]}
+  - {id: q01, type: picture, speaker: narrator, prompt: "Which streamer points steadily?", answer: "The high streamer.", page_refs: [p05]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: "What does Qiao do before choosing?", answer: "Qiao compares the streamers and paths.", page_refs: [p03, p04, p05, p06]}
+  - {id: q03, type: cause-effect, speaker: narrator, prompt: "Why do the bowls arrive whole?", answer: "The rock walls shelter the high path from wind.", page_refs: [p08, p09, p10, p11]}

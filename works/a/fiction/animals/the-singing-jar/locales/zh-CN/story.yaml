@@ -1,21 +1,21 @@
 schema_version: 1
 language: zh-CN
-writer: 松果先生
+writer: 溪铃
 title: 会唱歌的罐子
-summary: 雨滴敲得空罐子叮当响，老鼠垫上一块布，让鼹鼠安心睡觉。
+summary: 雨滴落进罐子，响得鼹鼠睡不着。老鼠在罐子里垫上布，雨滴轻下来，鼹鼠睡着了。
 cast:
   narrator: {display_name: 旁白, tts: {delivery: 安静清楚, timbre: 柔和的成年声音, pace: 慢速, pitch: 中音}}
   mouse: {display_name: 老鼠, tts: {delivery: 机灵关切, timbre: 轻亮的童声, pace: 中速, pitch: 高音}}
   mole: {display_name: 鼹鼠, tts: {delivery: 困倦温和, timbre: 低软的童声, pace: 慢速, pitch: 低音}}
 pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 屋顶漏雨了。}]}
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 屋顶漏下一滴雨。}]}
   - {id: p02, illustration: p02, lines: [{speaker: narrator, content: [{text: 雨滴落进}, {vocabulary: {id: jar, text: 罐子}}, {text: 。}]}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 叮当，叮当，真响！}]}
-  - {id: p04, illustration: p04, lines: [{speaker: mole, text: 我睡不着。}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 老鼠在罐里垫块布。}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 叮当声停了，鼹鼠睡着了。}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 罐子叮咚响。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: mole, text: 罐子太响，我睡不着。}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 老鼠把布放进罐子。}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 雨滴轻了。鼹鼠睡着了。}]}
 chapters:
   - {id: ch01, title: 安静下来, page_refs: [p01, p02, p03, p04, p05, p06]}
 questions:
   - {id: q01, type: picture, speaker: narrator, prompt: 雨滴落在哪里？, answer: 罐子里。, page_refs: [p02]}
-  - {id: q02, type: explicit-choice, speaker: narrator, prompt: 老鼠怎么让罐子安静？, choices: [在罐里垫布, 用力敲罐子], answer: 在罐里垫布。, page_refs: [p05]}
+  - {id: q02, type: explicit-choice, speaker: narrator, prompt: 什么让雨滴轻下来？, choices: [罐子里的布, 鼹鼠的被子], answer: 罐子里的布。, page_refs: [p05, p06]}

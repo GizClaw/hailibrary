@@ -1,0 +1,27 @@
+schema_version: 1
+language: zh-CN
+writer: 溪铃
+title: 小风车醒了
+summary: 米娜的小风车不转。小李发现一片风叶弯了。米娜把风叶扶好，小风车又转起来。
+cast:
+  narrator: {display_name: 旁白, tts: {delivery: 温暖清楚, timbre: 柔和的成年声音, pace: 慢速, pitch: 中音}}
+  mina: {display_name: 米娜, tts: {delivery: 好奇明快, timbre: 清亮的童声, pace: 慢速, pitch: 中高音}}
+  lee: {display_name: 小李, tts: {delivery: 平静耐心, timbre: 柔和的童声, pace: 慢速, pitch: 中音}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 蓝风车不转。}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 米娜吹一吹。}, {speaker: mina, text: 还是不转。}]}
+  - {id: p03, illustration: p03, lines: [{speaker: lee, text: 一片风叶弯了。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 米娜把风叶扶起来。}]}
+  - id: p05
+    illustration: p05
+    lines:
+      - speaker: narrator
+        content:
+          - vocabulary: {id: wind, text: 风}
+          - text: 吹动了蓝风车。
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 蓝风车转得真快！}, {speaker: mina, text: 它醒啦！}]}
+chapters:
+  - {id: ch01, title: 小小修理, page_refs: [p01, p02, p03, p04, p05, p06]}
+questions:
+  - {id: q01, type: picture, speaker: narrator, prompt: 哪一片风叶弯了？, answer: 小李指着的风叶。, page_refs: [p03]}
+  - {id: q02, type: explicit-choice, speaker: narrator, prompt: 什么让风车转起来？, choices: [风, 书, 杯子], answer: 风。, page_refs: [p05, p06]}

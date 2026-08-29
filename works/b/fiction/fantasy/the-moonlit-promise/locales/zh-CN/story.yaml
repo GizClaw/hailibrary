@@ -1,26 +1,31 @@
 schema_version: 1
 language: zh-CN
-writer: 松果先生
+writer: 栗叶灯
 title: 月光下的承诺
-summary: 猫头鹰答应替蝙蝠看好月光果；老鼠来求助时，它先征得蝙蝠同意。
+summary: 猫头鹰答应替蝙蝠看好月光果。老鼠需要一盏灯，猫头鹰先去问蝙蝠，再和大家分享一颗果子。
 cast:
   narrator: {display_name: 旁白, tts: {delivery: 温柔神秘, timbre: 清晰的成年声音, pace: 中慢速, pitch: 中音}}
   owl: {display_name: 猫头鹰, tts: {delivery: 认真诚实, timbre: 圆润的成年声音, pace: 中慢速, pitch: 中低音}}
   bat: {display_name: 蝙蝠, tts: {delivery: 轻快信任, timbre: 明亮的童声, pace: 中速, pitch: 中高音}}
   mouse: {display_name: 老鼠, tts: {delivery: 轻柔期待, timbre: 细软的童声, pace: 慢速, pitch: 高音}}
 pages:
-  - {id: p01, illustration: p01, lines: [{speaker: bat, text: 请替我看好月光果。}]}
-  - {id: p02, illustration: p02, lines: [{speaker: owl, text: 放心，我一定看好。}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 老鼠冷得发抖。}]}
-  - {id: p04, illustration: p04, lines: [{speaker: mouse, text: 能借我一颗照照屋子吗？}]}
-  - {id: p05, illustration: p05, lines: [{speaker: owl, text: 我得先问问蝙蝠。}]}
-  - {id: p06, illustration: p06, lines: [{speaker: bat, text: 当然，我们给它送一颗去。}]}
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 它们一起把果子送到老鼠家。}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 小屋亮堂起来。}, {speaker: narrator, content: [{text: 猫头鹰也信守了}, {vocabulary: {id: promise, text: 承诺}}, {text: 。}]}]}
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 蝙蝠把月光果交给猫头鹰。}]}
+  - id: p02
+    illustration: p02
+    lines:
+      - speaker: narrator
+        content: [{text: 猫头鹰许下}, {vocabulary: {id: promise, text: 承诺}}, {text: 。}]
+      - {speaker: owl, text: 我会看好它们。}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 老鼠的家又黑又冷。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: mouse, text: 能借我一颗果子吗？}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 猫头鹰先去问蝙蝠。}]}
+  - {id: p06, illustration: p06, lines: [{speaker: bat, text: 好呀，我们分享一颗。}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 大家把果子送给老鼠。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 果子照亮了老鼠的家。}]}
 chapters:
-  - {id: ch01, title: 看好果子, page_refs: [p01, p02, p03, p04]}
-  - {id: ch02, title: 先问一问, page_refs: [p05, p06, p07, p08]}
+  - {id: ch01, title: 一个承诺, page_refs: [p01, p02, p03, p04]}
+  - {id: ch02, title: 分享一颗果子, page_refs: [p05, p06, p07, p08]}
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: 谁看守月光果？, answer: 猫头鹰。, page_refs: [p01, p02]}
-  - {id: q02, type: sequence, speaker: narrator, prompt: 送果子以前，猫头鹰做了什么？, answer: 它先问了蝙蝠。, page_refs: [p05, p06]}
-  - {id: q03, type: explicit-choice, speaker: narrator, prompt: 猫头鹰怎样信守承诺？, choices: [先询问蝙蝠, 偷偷拿走果子, 不理老鼠], answer: 先询问蝙蝠。, page_refs: [p05, p06, p08]}
+  - {id: q01, type: picture, speaker: narrator, prompt: 蝙蝠交给猫头鹰什么？, answer: 月光果。, page_refs: [p01]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: 分享果子前，猫头鹰先做什么？, answer: 先去问蝙蝠。, page_refs: [p05, p06]}
+  - {id: q03, type: explicit-choice, speaker: narrator, prompt: 什么照亮了老鼠的家？, choices: [一颗果子, 红围巾], answer: 一颗果子。, page_refs: [p08]}

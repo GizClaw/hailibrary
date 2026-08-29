@@ -1,0 +1,31 @@
+schema_version: 1
+language: en-US
+writer: sage-paw
+title: The Moonlit Promise
+summary: Owl promises to guard Bat's moon berries. When Mouse needs light, Owl asks Bat before sharing one berry.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: warm and measured, timbre: soft adult voice, pace: medium-slow, pitch: medium}}
+  owl: {display_name: Owl, tts: {delivery: thoughtful and honest, timbre: mellow youthful voice, pace: slow, pitch: medium-low}}
+  bat: {display_name: Bat, tts: {delivery: quick and trusting, timbre: bright youthful voice, pace: medium, pitch: medium-high}}
+  mouse: {display_name: Mouse, tts: {delivery: soft and hopeful, timbre: gentle youthful voice, pace: slow, pitch: medium}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Bat gives the berries to Owl."}]}
+  - id: p02
+    illustration: p02
+    lines:
+      - speaker: narrator
+        content: [{text: "Owl makes a "}, {vocabulary: {id: promise, text: promise}}, {text: "."}]
+      - {speaker: owl, text: "I will keep them safe."}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "Mouse is cold by a dark home."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: mouse, text: "May I have one bright berry?"}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Owl goes to ask Bat."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: bat, text: "Yes. Let us share one."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "They carry one berry to Mouse."}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "The berry lights Mouse's home."}]}
+chapters:
+  - {id: ch01, title: A Promise, page_refs: [p01, p02, p03, p04]}
+  - {id: ch02, title: One Shared Berry, page_refs: [p05, p06, p07, p08]}
+questions:
+  - {id: q01, type: picture, speaker: narrator, prompt: "What does Bat give Owl?", answer: "The moon berries.", page_refs: [p01]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: "What does Owl do before sharing?", answer: "Owl asks Bat.", page_refs: [p05, p06]}
+  - {id: q03, type: explicit-choice, speaker: narrator, prompt: "What lights Mouse's home?", choices: [One berry, A red scarf], answer: "One berry.", page_refs: [p08]}

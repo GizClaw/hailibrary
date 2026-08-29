@@ -1,0 +1,28 @@
+schema_version: 1
+language: en-US
+writer: mossy-kite
+title: The Shared Rain Boots
+summary: A puddle stops Hedgehog. Rabbit shares the yellow rain boots, and Hedgehog crosses safely.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: warm and clear, timbre: soft adult voice, pace: slow, pitch: medium}}
+  rabbit: {display_name: Rabbit, tts: {delivery: lively and kind, timbre: bright youthful voice, pace: slow, pitch: medium-high}}
+  hedgehog: {display_name: Hedgehog, tts: {delivery: shy and grateful, timbre: gentle youthful voice, pace: slow, pitch: medium}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "A puddle blocks the path."}]}
+  - id: p02
+    illustration: p02
+    lines:
+      - speaker: narrator
+        content:
+          - text: "Rabbit has yellow "
+          - vocabulary: {id: rain-boots, text: rain boots}
+          - text: "."
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "Hedgehog waits by the puddle."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: rabbit, text: "You may use my boots."}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Hedgehog walks through the puddle."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Hedgehog returns the boots."}, {speaker: hedgehog, text: "Thank you!"}]}
+chapters:
+  - {id: ch01, title: Boots for a Friend, page_refs: [p01, p02, p03, p04, p05, p06]}
+questions:
+  - {id: q01, type: picture, speaker: narrator, prompt: "Who has the yellow boots?", answer: Rabbit., page_refs: [p02]}
+  - {id: q02, type: explicit-choice, speaker: narrator, prompt: "Why does Rabbit share the boots?", choices: [To help Hedgehog cross, To make a boat, To find a hat], answer: To help Hedgehog cross., page_refs: [p03, p04, p05]}

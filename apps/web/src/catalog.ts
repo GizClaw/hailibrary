@@ -19,6 +19,10 @@ export type VocabularyEntry = { id: string; card: string; locales: Record<string
 export type VocabularyCatalogCard = { id: string; level: string; card: string; term: string; partOfSpeech: string; pronunciation?: string; definition: string };
 export type VocabularyPageIndex = { schemaVersion: number; pageSize: number; levels: TaxonomyGroup; locales: Record<string, Record<string, { count: number; pages: string[] }>> };
 
+export const READING_LEVEL_ORDER = ["aa", ..."abcdefghijklmnopqrstuvwxyz", "z1", "z2"];
+const readingLevelRank = new Map(READING_LEVEL_ORDER.map((level, index) => [level, index]));
+export const sortReadingLevels = (levels: string[]) => [...levels].sort((left, right) => (readingLevelRank.get(left) ?? Number.MAX_SAFE_INTEGER) - (readingLevelRank.get(right) ?? Number.MAX_SAFE_INTEGER) || left.localeCompare(right));
+
 type ProfileIndex = { schemaVersion: number; profiles: Array<{ id: string; url: string }> };
 const jsonCache = new Map<string, Promise<unknown>>();
 const apiUrl = (url: string) => url.startsWith("./") || url.startsWith("../") || /^https?:/.test(url) ? url : `./${url}`;

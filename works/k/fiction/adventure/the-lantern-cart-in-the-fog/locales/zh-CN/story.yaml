@@ -1,0 +1,48 @@
+schema_version: 1
+language: zh-CN
+writer: 雨歌
+title: 雾中的灯车
+summary: 皮帕用灯车去帮助困在雾中的朋友，积水却让旧地图上的近路变得危险。她和罗安先停下机器，征得妮玛同意后再穿过私人果园，并亲手选择安全的干路。这次救援也改变了灯车的设计。
+cast:
+  narrator: {display_name: 旁白, tts: {delivery: 平稳温暖, timbre: 清楚的成年声音, pace: 中速, pitch: 中音}}
+  pippa: {display_name: 皮帕, tts: {delivery: 快速坚定, timbre: 明亮的年轻声音, pace: 中快, pitch: 中高音}}
+  roan: {display_name: 罗安, tts: {delivery: 稳重直接, timbre: 平静的年轻声音, pace: 中速, pitch: 中低音}}
+  nima: {display_name: 妮玛, tts: {delivery: 风趣坚定, timbre: 温厚的成年声音, pace: 中慢速, pitch: 中低音}}
+  bramble: {display_name: 布兰, tts: {delivery: 明亮但疲倦, timbre: 轻柔的年轻声音, pace: 中慢速, pitch: 中高音}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 雨停了，浓雾却遮住港口的山路。}, {speaker: narrator, text: 远处传来瞭望塔的铃声。}]}
+  - {id: p02, illustration: p02, lines: [{speaker: pippa, text: 那是布兰的铃声。}, {speaker: roan, text: 塔灯很暗，他可能需要帮助。}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 皮帕推出自己做的四轮灯车。}, {speaker: pippa, text: 地图记着去瞭望塔的最近路线。}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 灯车驶向低处的芦苇路。}, {speaker: narrator, text: 皮帕跟在后面，罗安留意湿地。}]}
+  - {id: p05, illustration: p05, lines: [{speaker: roan, text: 流动的积水淹过了踏脚石。}, {speaker: roan, text: 这场雨改变了地图画好后的道路。}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 灯车仍把光束指向最短的路。}, {speaker: pippa, text: 地图说这边最快。}]}
+  - {id: p07, illustration: p07, lines: [{speaker: roan, text: 旧路线看不见今天的洪水。}, {speaker: narrator, text: 罗安在皮帕踩进水前拦住她。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 一个车轮陷进泥边。}, {speaker: narrator, text: 大家留在干地上，把灯车拉回来。}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 高路从妮玛的果园门口开始。}, {speaker: pippa, text: 我们能穿过果园去帮助布兰吗？}]}
+  - id: p10
+    illustration: p10
+    lines:
+      - speaker: nima
+        content: [{text: 我}, {vocabulary: {id: consent, text: 同意}}, {text: 你们走这条干路。}]
+      - {speaker: nima, text: 要跟着我，也别让车碰到苗床。}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: 倒下的树枝挡住了果园小路。}, {speaker: narrator, text: 雾里的塔灯还是很暗。}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 皮帕伸手去推驱动杆。}, {speaker: narrator, text: 车轮顶着树枝，怎么也推不动。}]}
+  - {id: p13, illustration: p13, lines: [{speaker: nima, text: 停下，湿土和幼苗会受伤。}, {speaker: nima, text: 同意走一条路，不等于同意走所有地方。}]}
+  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: 皮帕把灯车换成手动模式。}, {speaker: narrator, text: 三个朋友在干地上比较路线模型。}]}
+  - {id: p15, illustration: p15, lines: [{speaker: roan, text: 废弃的陶拱下有一条干燥高路。}, {speaker: narrator, text: 它和模型里的形状正好一样。}]}
+  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: 妮玛带大家穿过侧门。}, {speaker: narrator, text: 罗安照看队伍，皮帕推着调暗的灯车。}]}
+  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: 接近瞭望塔时，雾变薄了。}, {speaker: narrator, text: 布兰在有屋顶的门口摇响铜铃。}]}
+  - {id: p18, illustration: p18, lines: [{speaker: bramble, text: 低路被淹后，我一直留在塔里。}, {speaker: pippa, text: 你选了一个安全的地方等待。}]}
+  - {id: p19, illustration: p19, lines: [{speaker: narrator, text: 四只狗沿着干燥的高路一起返回。}, {speaker: narrator, text: 这一次，灯车走在大家中间，不再带头。}]}
+  - {id: p20, illustration: p20, lines: [{speaker: narrator, text: 回到工坊，皮帕装上醒目的暂停杆。}, {speaker: narrator, text: 她还增加路线标记，让大家比较选择并记录许可。}]}
+chapters:
+  - {id: ch01, title: 过期的地图, page_refs: [p01, p02, p03, p04, p05, p06, p07, p08]}
+  - {id: ch02, title: 得到许可的路, page_refs: [p09, p10, p11, p12, p13, p14, p15, p16]}
+  - {id: ch03, title: 救援后的改造, page_refs: [p17, p18, p19, p20]}
+questions:
+  - {id: q01, type: sequence, speaker: narrator, prompt: 车轮陷进泥边后，皮帕改变了哪些做法？, answer: 她先请求穿过果园，再改用手动模式，和大家一起比较干路。, page_refs: [p08, p09, p10, p14, p15]}
+  - {id: q02, type: cause-effect, speaker: narrator, prompt: 灯车指向的近路为什么不安全？, answer: 地图画好后下了雨，流动的积水淹过低处的踏脚石。, page_refs: [p04, p05, p06, p07]}
+  - {id: q03, type: character-motive, speaker: narrator, prompt: 妮玛为什么在树枝前叫停皮帕？, answer: 继续开车可能伤到湿土和幼苗，也会走出她允许的范围。, page_refs: [p10, p11, p12, p13]}
+  - {id: q04, type: evidence, speaker: narrator, prompt: 哪些线索支持选择陶拱下的路？, answer: 那里地势高而干燥，形状符合路线模型，还能避开洪水和苗床。, page_refs: [p05, p10, p13, p14, p15]}
+  - {id: q05, type: main-idea, speaker: narrator, prompt: 皮帕对好机器有了什么新认识？, answer: 机器可以提供信息，但人还要暂停、检查眼前情况、尊重许可并共同选择。, page_refs: [p05, p07, p10, p13, p14, p20]}
+  - {id: q06, type: short-answer, speaker: narrator, prompt: 救援怎样改变了灯车？, answer: 皮帕增加暂停杆和路线标记，用来比较道路并记录许可。, page_refs: [p19, p20]}

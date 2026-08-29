@@ -13,6 +13,8 @@ For review-only requests, report findings without editing. Apply fixes only when
 
 Read the Writer prompt, `prompts/writers/index.yaml`, its recommended entries in `prompts/levels/levels.yaml`, and enough neighboring Writers to identify collisions or schema drift. Browse for obvious publishing, author, fictional-character, product, and brand conflicts involving the proposed name or identity.
 
+Validate `recommended_levels` against the direct 29-level keys `aa`, `a` through `z`, `z1`, and `z2`; reject legacy compressed meanings or a default mapping whose exact level is absent from the Writer's recommendations.
+
 Open and visually inspect `avatar.webp`; do not infer its contents from metadata.
 
 Check that:

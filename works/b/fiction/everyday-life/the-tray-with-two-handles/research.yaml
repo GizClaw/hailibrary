@@ -1,8 +1,28 @@
 schema_version: 1
 required: true
+scope: Qualitative support and tipping behavior of a light tray carried by its handles.
 sources:
-  - url: https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/center-of-gravity/
-    title: Center of Gravity
+  - id: nasa-torque
+    title: Balance of Forces
     publisher: NASA Glenn Research Center
-    supports: An object's weight acts through its center of gravity, and support placement affects whether it remains balanced.
-notes: The story demonstrates only a qualitative balance test with empty cups. It does not claim that two handles guarantee stability for every load or tray design.
+    url: https://www.grc.nasa.gov/WWW/K-12/WindTunnel/Activities/balance_of_forces.html
+    accessed: 2026-08-28
+    supports:
+      - A force acting some distance from an object's center of gravity creates a moment or torque.
+  - id: openstax-equilibrium
+    title: Conditions for Static Equilibrium
+    publisher: OpenStax
+    url: https://openstax.org/books/university-physics-volume-1/pages/12-1-conditions-for-static-equilibrium
+    accessed: 2026-08-28
+    supports:
+      - Rotational equilibrium requires zero net torque.
+      - An unsupported gravitational torque can rotate an object when its center of mass is off the support axis.
+claims:
+  - claim: Carrying the loaded tray by only one side while turning can let it rotate and tip around that support.
+    source_ids: [nasa-torque, openstax-equilibrium]
+    pages: [p04, p05]
+  - claim: Supporting opposite sides can help the friends keep this light tray level, provided they coordinate and use the tested three-empty-cup load.
+    source_ids: [openstax-equilibrium]
+    pages: [p06, p07]
+limits:
+  - The story uses empty paper cups and does not claim that two handles guarantee stability for every load, tray, speed, or pair of carriers.

@@ -7,9 +7,13 @@ description: Review or audit a complete HaiLibrary book—整本书审核、验�
 
 Review the whole work, not only the changed lines. Follow `AGENTS.md` and treat the YAML sources as authoritative.
 
+Resolve the exact directory level from the 29 ordered labels (`aa`, `a` through `z`, `z1`, `z2`). Compare only with that exact HaiLibrary age-aligned record; never use the former compressed A-K mapping, treat K as advanced, or claim that HaiLibrary's secondary and higher-education extensions are official Reading A-Z grade meanings.
+
 ## Authorization boundary
 
 For a review-only request or GitHub PR review, do not modify files. If the user explicitly authorizes fixes, fix actionable findings, rerun every check, and start a fresh full review rather than checking only edited locations.
+
+If the authorized scope is text-only, preserve every image byte-for-byte. Do not regenerate, edit, recompress, rename, or delete cover, page, Style, Writer-avatar, or vocabulary-card images. Resolve artwork compatibility findings by revising text within the shared scene contract or report a blocker.
 
 ## Load the complete context
 
@@ -17,6 +21,7 @@ Read:
 
 - the work directory and all its YAML files;
 - `prompts/levels/levels.yaml` for the directory level;
+- `prompts/levels/locale-references.yaml` for the exact English or Chinese reference checkpoint and its authority limits;
 - `prompts/labels/index.yaml` and every label selected by the work;
 - every referenced locale Writer prompt;
 - the referenced Style prompt;
@@ -64,6 +69,7 @@ Check that:
 
 - the work has a coherent beginning, development, and resolution or an appropriate nonfiction structure;
 - vocabulary, syntax, sentence/page totals, inference, narrative structure, and question types fit the directory level;
+- the English edition uses its declared age/grade and English-only Lexile reference, while the Chinese edition is judged against its own curriculum checkpoint without importing English Lexile claims; retained Reading A-Z labels are not mistaken for official later-grade correlations;
 - each locale passes its own native-language editorial review, remains equivalent in meaning and learning difficulty, and is independently phrased rather than translated line by line;
 - Writers shape high-level creative choices without copied expression or recognizable imitation;
 - every character and narrator exists in every locale cast with distinct, complete TTS direction;

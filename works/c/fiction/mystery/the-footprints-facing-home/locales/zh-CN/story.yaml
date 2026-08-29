@@ -1,27 +1,27 @@
 schema_version: 1
 language: zh-CN
-writer: 江笑
-title: 朝向家门的脚印
-summary: 门廊上突然多出一串湿脚印。小乔顺着查下去，才发现脚印留下的方向和自己想的正好相反。
+writer: 栗叶灯
+title: 朝着家的脚印
+summary: 门廊上的湿脚印都朝着小乔家的门。小乔和小山对过鞋底才发现，小乔拉小车倒着走时留下了这些脚印。
 cast:
-  narrator: {display_name: 旁白, tts: {delivery: 俏皮细致, timbre: 清晰的成年声音, pace: 中速, pitch: 中音}}
-  jo: {display_name: 小乔, tts: {delivery: 自信爽快, timbre: 明亮的少年声音, pace: 中快速, pitch: 中高音}}
-  sam: {display_name: 小山, tts: {delivery: 从容带笑, timbre: 平稳的少年声音, pace: 中速, pitch: 中低音}}
+  narrator: {display_name: 旁白, tts: {delivery: 俏皮细致, timbre: 清楚的成年声音, pace: 中速, pitch: 中音}}
+  jo: {display_name: 小乔, tts: {delivery: 自信活泼, timbre: 明亮的童声, pace: 中快, pitch: 中高音}}
+  sam: {display_name: 小山, tts: {delivery: 平静带笑, timbre: 柔和的童声, pace: 中速, pitch: 中低音}}
 pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 雨停后，小乔家的门廊上多了一串湿脚印。}]}
-  - {id: p02, illustration: p02, lines: [{speaker: jo, text: 有人朝我家门走！}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 她赶紧叫来小山，一起查看线索。}]}
-  - {id: p04, illustration: p04, lines: [{speaker: sam, text: 别急，先看看鞋底。}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 每个脚印里都有一颗小星星。}, {speaker: jo, text: 我的靴底也有！}]}
-  - {id: p06, illustration: p06, lines: [{speaker: sam, text: 脚尖是朝着门。}, {speaker: sam, text: 脚印能看出鞋朝哪边。}, {speaker: sam, text: 可人不一定往那边走。}]}
-  - {id: p07, illustration: p07, lines: [{speaker: jo, text: 昨天我倒着拉过小车。}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 小乔拉起小车，照昨天那样倒着走了一遍。}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 黄靴子踩下去，正好和旧脚印对上。}]}
-  - {id: p10, illustration: p10, lines: [{speaker: jo, text: 哈，原来“来客”就是倒着走的我！}]}
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 一串湿脚印穿过小乔的门廊。}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 鞋尖都朝着小乔家的门。}, {speaker: jo, text: 谁来过这里？}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 小乔叫来小山。}, {speaker: jo, text: 快看这串脚印！}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 小山拿脚印和小乔的鞋比。}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 两边都有一颗小星星。}]}
+  - {id: p06, illustration: p06, lines: [{speaker: sam, text: 鞋尖只说明脚朝哪边。}, {speaker: sam, text: 人也能倒着走。}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 小乔想起自己倒着拉小车。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 小乔拉着小车倒着走。}, {speaker: narrator, text: 小山笑了。}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 小乔的鞋和脚印正好一样。}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 小乔擦干门廊。}, {speaker: narrator, text: 小山放好小车。}]}
 chapters:
-  - {id: ch01, title: 来客, page_refs: [p01, p02, p03, p04, p05]}
-  - {id: ch02, title: 脚尖指向哪边, page_refs: [p06, p07, p08, p09, p10]}
+  - {id: ch01, title: 奇怪的脚印, page_refs: [p01, p02, p03, p04, p05]}
+  - {id: ch02, title: 倒着走, page_refs: [p06, p07, p08, p09, p10]}
 questions:
-  - {id: q01, type: explicit-choice, speaker: narrator, prompt: 脚印在哪里？, choices: [小乔家的门廊, 小山家的厨房, 池塘边], answer: 在小乔家的门廊上。, page_refs: [p01]}
-  - {id: q02, type: sequence, speaker: narrator, prompt: 小山先检查什么？, answer: 他先检查靴底。, page_refs: [p04]}
-  - {id: q03, type: cause-effect, speaker: narrator, prompt: 脚印为什么看起来像是有人走向家门？, answer: 小乔倒着往外走时，靴尖仍朝着家门，所以脚印的方向让人误会了。, page_refs: [p06, p07, p08]}
+  - {id: q01, type: picture, speaker: narrator, prompt: 每个脚印里有什么形状？, answer: 一颗小星星。, page_refs: [p05]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: 小乔想起来以前，小山先做了什么？, answer: 对过鞋底，还说明人能倒着走。, page_refs: [p04, p05, p06, p07]}
+  - {id: q03, type: cause-effect, speaker: narrator, prompt: 脚印为什么朝着家门？, answer: 小乔面朝家门，倒着拉小车。, page_refs: [p06, p07, p08]}

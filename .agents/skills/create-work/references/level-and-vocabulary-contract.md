@@ -1,95 +1,93 @@
-# Level and vocabulary contract
+# Exact-level difficulty contract
 
-Use this reference to turn the repository's A-K data into a writing decision. The authoritative values remain in:
+HaiLibrary retains the 29 Reading A-Z labels as an ordered sequence while defining an internal age-aligned progression:
 
-- `prompts/levels/levels.yaml` for structure, quantitative limits, inference, and questions;
-- `prompts/vocabulary/ranges.yaml` for locale-specific lexical scope;
-- `prompts/vocabulary/index.yaml` for concrete datasets, lookup order, evidence limits, and source metadata.
+`AA, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Z1, Z2`
 
-Always read the complete selected-level records in those files. If this summary differs from the YAML, follow the YAML and update this reference in the same change.
+Directory keys are `aa`, `a` through `z`, `z1`, and `z2`. Never compress neighboring labels. W-Z are secondary-school levels, Z1 is undergraduate, and Z2 is advanced undergraduate, graduate, or professional; those later meanings are HaiLibrary extensions rather than official Reading A-Z correlations.
 
-## A-K operational map
+The authoritative records are:
 
-| Level | Band | Pages | Required reading work | English vocabulary direction | Chinese vocabulary direction |
-| --- | --- | ---: | --- | --- | --- |
-| A | emergent | 6-12 | Recognize familiar words; follow one visible action; repeated frame; no inference; picture question required. | Core spoken, very-high-frequency, concrete, readily decodable base words with picture and repetition. | 一年级上册起步；通常单字或透明双字词；至多一个易理解新字；实物、动作、颜色、方位。 |
-| B | emergent | 8-14 | Follow goal-obstacle-resolution; connect one stated cause to a visible result; one obvious local inference; sequence required. | High-frequency everyday bases and common inflections; concrete action, object, quality, or relation. | 一年级范围；通常一至二字；每词一般不超过一个新字；家庭、学校、日常、感受和简单因果。 |
-| C | early | 10-16 | Integrate two linked events; explain a simple cause; give a brief constructed answer; cause-effect and short answer required. | High-frequency plus a small recoverable fringe; common compounds, derivations, and simple relations. | 第一学段中段；一至三字；一个新字为常态，两个须有强支持；描述、顺序、因果、对比和熟悉自然过程。 |
-| D | early | 12-20 | Track motivation and consequences across scenes; make several local inferences; cause-effect and motive required. | Mixed everyday frequency; productive morphology, common phrasal forms, emotion, time, and cause recoverable without pictures. | 第一学段完成；常见二至三字词；动机、后果、情绪、程度、分类及基础技术文化词；正文必须给出线索。 |
-| E | transitional | 14-24 | Connect evidence across chapters; follow a changed plan or viewpoint; identify the central idea; motive and main idea required. | Mixed-frequency general vocabulary; common word families, transparent figurative use, one abstract relation refined across pages. | 第二学段起步；通常二至四字；观点、证据、变化、比较、类别和简单抽象；至少两次使用或一次明确解释。 |
-| F | transitional | 16-28 | Sustain a multi-step reasoning chain; compare plausible choices and tradeoffs; evidence and comparison required. | General academic plus supported domain vocabulary; comparison, constraint, evidence, and tradeoff reused across chapters. | 第二学段中段；可用一般学术及领域词；限制、方法、过程、证据、权衡及认识变化；跨章节复现。 |
-| G | independent | 18-32 | Read independently; reconcile defensible competing goals; connect separated evidence; evaluate; prose carries the full causal chain. | Meaningful low-frequency, domain, and multiword terms supported by discourse rather than pictures. | 第二学段完成；精准学术、情绪和领域词；多重限制、证据、系统关系及评价；主要依靠跨场景语境。 |
-| H | independent | 20-36 | Synthesize implicit motives; evaluate a consequential choice between legitimate values; trace long-range effects; evaluation and synthesis required. | Nuanced evaluative, ethical, technical, near-synonym, and controlled idiomatic vocabulary. | 第三学段起步；评价、伦理、比喻及技术词；价值冲突、同意、责任、不确定性和长远后果；避免成语堆砌。 |
-| I | analytical | 22-40 | Test competing explanations; separate observation, interpretation, and assumption; revise a model from evidence; source analysis required. | Abstract and domain-specific polysemy, nominalization, model, and uncertainty whose meaning may change with evidence. | 第三学段中段；抽象和领域词及受控多义；观察、解释、假设、模型、来源可靠性、概率和歧义。 |
-| J | analytical | 24-44 | Integrate narrative, research context, source perspective, counterexample, and uncertainty into a synthesis; source and research responses required. | Disciplinary, rhetorical, register-sensitive, polysemous vocabulary for qualification, counterexample, and synthesis. | 第三学段完成；学科、修辞和来源意识词汇；限定、反例、视角、机制、综合和局限；不能把识字等同于会词。 |
-| K | advanced | 28-56 | Evaluate interacting systems, models, rhetoric, contested values, uncertainty, and second-order consequences; open response and transfer required. | Sophisticated academic and indispensable specialist vocabulary with dense morphology, register, and connotation. | 小学毕业衔接；以小学常用字承载复杂概念，受控引入必要专业词；系统、模型、修辞、争议价值、不确定性及二阶影响。 |
+- `prompts/levels/levels.yaml`: order, age/grade and English Lexile references, page and unit ranges, sentence limits, text contract, inference, complexity floor, and questions;
+- `prompts/levels/locale-references.yaml`: age band plus separate English grade/Lexile and Chinese curriculum checkpoints for every exact level;
+- `prompts/vocabulary/ranges.yaml`: exact-level English and Chinese lexical scope;
+- `prompts/vocabulary/index.yaml`: concrete queryable lists, lookup order, source metadata, and evidence limits.
 
-The page range is only an orientation. Copy the exact locale-specific sentence, per-page, total-unit, and new-word ceilings from `levels.yaml` into the working brief before writing.
+Read the complete exact-level record in all four files before drafting or reviewing. Do not interpolate from a nearby letter and do not use this summary instead of the YAML.
 
-## Locale-specific vocabulary decisions
+## Quantitative overview
 
-### English
+These are HaiLibrary internal editorial guardrails, not official Reading A-Z word-count specifications or certified Lexile measures.
 
-1. Check Cambridge Young Learners when a beginner-source alignment is relevant.
-2. Check the local NGSL rank and familiarity band for frequency evidence.
-3. Check English Vocabulary Profile or an authoritative domain source for the intended sense, phrase, and register.
-4. Apply the selected qualitative range. Record the HaiLibrary level separately from every external source level.
-5. Do not assign I-K from raw frequency: advanced difficulty depends on meaning, abstraction, register, rhetoric, morphology, and knowledge demand.
+| Level | Pages | English words | Chinese Han characters | Lexile English reference |
+| --- | ---: | ---: | ---: | --- |
+| AA | 6-10 | 8-30 | 12-45 | BR70L-10L |
+| A | 6-12 | 16-50 | 25-80 | BR70L-10L |
+| B | 8-12 | 25-70 | 40-110 | BR40L-160L |
+| C | 8-12 | 35-100 | 55-150 | BR40L-160L |
+| D | 10-14 | 50-140 | 80-210 | 190L-530L |
+| E | 10-14 | 70-180 | 110-270 | 190L-530L |
+| F | 10-16 | 90-220 | 140-330 | 190L-530L |
+| G | 10-16 | 110-260 | 170-390 | 190L-530L |
+| H | 12-16 | 140-320 | 220-470 | 190L-530L |
+| I | 12-16 | 170-380 | 260-550 | 190L-530L |
+| J | 12-18 | 200-440 | 320-650 | 190L-530L |
+| K | 14-20 | 230-500 | 380-800 | 420L-650L |
+| L | 14-20 | 300-600 | 470-950 | 420L-650L |
+| M | 16-22 | 400-750 | 600-1150 | 420L-650L |
+| N | 16-22 | 500-900 | 750-1350 | 520L-820L |
+| O | 16-24 | 650-1100 | 900-1600 | 520L-820L |
+| P | 18-24 | 800-1300 | 1050-1850 | 520L-820L |
+| Q | 18-26 | 950-1500 | 1200-2100 | 740L-940L |
+| R | 18-26 | 1100-1700 | 1400-2350 | 740L-940L |
+| S | 20-28 | 1250-1900 | 1600-2600 | 830L-1010L |
+| T | 20-28 | 1400-2200 | 1800-2900 | 830L-1010L |
+| U | 20-30 | 1600-2500 | 2000-3200 | 925L-1070L |
+| V | 20-30 | 1800-2800 | 2200-3500 | 925L-1070L |
+| W | 22-36 | 2200-3600 | 2800-4500 | 970L-1185L |
+| X | 24-40 | 2800-4500 | 3500-5500 | 1050L-1260L |
+| Y | 26-44 | 3500-5500 | 4500-6500 | 1080L-1335L |
+| Z | 28-50 | 4500-7000 | 6000-8500 | 1185L-1385L |
+| Z1 | 28-60 | 1800-4500 | 2800-6500 | 1300L-1500L internal |
+| Z2 | 32-80 | 2400-7000 | 3800-9500 | 1450L-1650L+ internal |
 
-### Chinese
-
-1. Check every character against the TGHZ common-character inventory.
-2. Check the complete word, not merely its component characters, against an exact textbook edition or named corpus.
-3. Distinguish `recognition`, `writing`, `word-list`, `in-text`, and `curriculum-stage` evidence.
-4. Record edition, publisher, grade, semester, scope, appendix or page location, source, and verification date for textbook evidence.
-5. Judge word formation, semantic load, orthographic load, pronunciation, and context support together. Character count alone does not set the level.
-
-For every locale, definitions must be easier than the term. Proper names, cultural terms, and indispensable domain terms may exceed the usual range only when the context makes them recoverable and the working brief records the exception.
+The K anchor is intentionally compact: the official Raz-Plus listing for *It's About Time* identifies it as Level K, 401 words, and 550L. Do not treat K as a proxy for Z1-Z2. Higher-education levels increase conceptual, lexical, syntactic, and evidence demands; they do not require book-length padding.
 
 ## Required pre-draft brief
 
-Create this temporary working brief for every locale before drafting. It guides creation and review; it does not add redundant level fields to source YAML.
+For each locale record:
 
 ```text
-Work path:
-Level and band:
-Locale:
+Exact level and band:
+HaiLibrary age band, locale grade/curriculum checkpoint, and English Lexile reference:
 
-Mechanical limits:
+Mechanical ceiling:
 - pages:
 - total units:
-- mean and maximum sentence units:
 - typical and maximum units per page:
-- sentences per page maximum:
-- new words per page maximum:
+- typical and maximum sentence units:
+- maximum sentences and new words per page:
 
-Complexity contract:
-- reading goal:
-- plot and complexity floor:
+Complexity floor:
+- reading goal and structure:
 - cohesion and predictability:
-- knowledge demand:
-- illustration reliance:
+- knowledge demand and illustration reliance:
 - inference and evidence span:
 - allowed and required question types:
 
-Vocabulary contract:
+Vocabulary plan:
 - running-text baseline:
-- target-word familiarity, form, and meaning range:
-- context-support methods:
-- datasets and curriculum evidence consulted:
-- terms requiring live dictionary or domain verification:
-- justified exceptions:
-
-Locale plan:
-- natural sentence and discourse patterns:
-- information order and rhythm:
-- places where this locale must diverge from another locale's wording:
+- target familiarity, form, meaning, and support:
+- concrete lists, dictionaries, and curriculum evidence:
+- indispensable exceptions and their support:
 ```
 
-## Draft and review gates
+## Decision rules
 
-- Reject a draft that stays below the level's complexity floor even if its page or word count fits.
-- Reject a draft that exceeds any mechanical ceiling, accumulates unsupported unfamiliar running text, or depends on pictures beyond the permitted illustration role.
-- Reject mechanically translated wording. Shared page meaning, speakers, evidence, and learning goals must align; native realization may and should differ.
-- Confirm required question types, answerability from `page_refs`, and evidence span after the prose is stable.
-- Recalculate the quantitative evidence and re-run native-language, vocabulary, and full-work review after material revisions.
+- Reject a draft that exceeds page, total-unit, per-page, sentence, or new-word ceilings.
+- Reject a draft below the complexity floor even when its word count fits.
+- Lexile is an English quantitative reference only; never fabricate a Lexile score and never apply Lexile to Chinese.
+- For English, frequency is evidence, not level assignment. From U upward, raw NGSL rank is especially insufficient without sense, register, abstraction, rhetoric, and domain review.
+- For Chinese, verify the complete word and exact textbook evidence; familiar characters do not prove a familiar word.
+- Lower levels must remain natural, not telegraphic. Higher levels must remain readable, not a policy memo or jargon stack.
+- Shared page meaning and evidence must align across locales, but wording, sentence boundaries, information order, idiom, and target terms should be independently native.

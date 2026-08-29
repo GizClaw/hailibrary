@@ -1,37 +1,35 @@
 schema_version: 1
 language: en-US
-writer: river-wink
+writer: brass-compass
 title: The Office of Lost Reasons
-summary: Late with a delivery, Noa visits an office where excuses vanish but honest causes remain useful.
+summary: Noa is late delivering flour and enters an office that stores lost reasons. Three excuses fail when the Clerk checks them. Noa finally admits the heavy bag caused delay, borrows a handcart, and tells Auntie the truth.
 cast:
-  narrator: {display_name: Narrator, tts: {delivery: dry and humane, timbre: clear adult voice, pace: medium, pitch: medium}}
-  noa: {display_name: Noa, tts: {delivery: quick then thoughtful, timbre: bright young voice, pace: medium-fast, pitch: medium-high}}
-  clerk: {display_name: The Clerk, tts: {delivery: quiet and exact, timbre: papery older voice, pace: slow, pitch: medium-low}}
-  auntie: {display_name: Auntie Sela, tts: {delivery: warm and direct, timbre: full older voice, pace: medium, pitch: low}}
+  narrator: {display_name: Narrator, tts: {delivery: measured and wry, timbre: clear adult voice, pace: medium, pitch: medium}}
+  noa: {display_name: Noa, tts: {delivery: quick but thoughtful, timbre: bright young voice, pace: medium, pitch: medium-high}}
+  clerk: {display_name: Clerk, tts: {delivery: quiet and exact, timbre: soft older voice, pace: slow, pitch: medium-low}}
+  auntie: {display_name: Auntie, tts: {delivery: warm and direct, timbre: mellow older voice, pace: medium-slow, pitch: low-medium}}
 pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Noa was late with flour for Auntie Sela's bakery."}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "While hunting for a shortcut, Noa found a door that had not been there yesterday."}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "Beyond it, bottles held storms, broken clocks, crowds, and other excellent explanations."}]}
-  - {id: p04, illustration: p04, lines: [{speaker: clerk, text: "Welcome to the Office of Lost Reasons. Which one have you misplaced?"}]}
-  - {id: p05, illustration: p05, lines: [{speaker: noa, text: "Rain slowed me."}]}
-  - {id: p06, illustration: p06, lines: [{speaker: clerk, text: "An impressive storm. Your coat seems disappointed that it missed it."}]}
-  - {id: p07, illustration: p07, lines: [{speaker: noa, text: "Then the market clock was wrong."}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "The Clerk's pocket watch and the market bell agreed perfectly."}]}
-  - {id: p09, illustration: p09, lines: [{speaker: noa, text: "A crowd blocked me."}, {speaker: clerk, text: "Near the pastry window?"}]}
-  - {id: p10, illustration: p10, lines: [{speaker: noa, text: "The flour was heavy. I stopped often, then pretended the stops belonged to everyone else."}]}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "The storm, clock, and crowd bottles burst into polite curls of smoke."}]}
-  - {id: p12, illustration: p12, lines: [{speaker: clerk, text: "That last reason stayed. A cause can help if you tell the truth about it."}]}
-  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: "Noa borrowed a handcart and placed the heavy satchel on it."}]}
-  - {id: p14, illustration: p14, lines: [{speaker: noa, text: "I am late because I planned badly and hid the real problem."}]}
-  - {id: p15, illustration: p15, lines: [{speaker: auntie, text: "Next time, ask for the cart before the flour starts inventing weather."}]}
-  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "They unloaded together. Behind them, the Office closed for lack of business."}]}
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Noa hurries through the damp market."}, {speaker: narrator, text: "A heavy flour bag fills the satchel."}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "Noa searches for a shortcut."}, {speaker: narrator, text: "A tiny door appears beneath an arch."}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "Inside, bottles hold storms, clocks, and tangled ropes."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "The Clerk waits beside an empty ledger."}, {speaker: clerk, text: "Which reason made you late?"}]}
+  - {id: p05, illustration: p05, lines: [{speaker: noa, text: "Heavy rain slowed me."}, {speaker: narrator, text: "Noa offers a tiny storm bottle."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: clerk, text: "Your coat is dry."}, {speaker: narrator, text: "The first bottle gives no true answer."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: noa, text: "Then a crooked clock fooled me."}, {speaker: narrator, text: "Noa offers a clock bottle."}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "The Clerk shows a working pocket watch."}, {speaker: narrator, text: "Noa grows less certain."}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "A third bottle shows a crowded lane."}, {speaker: narrator, text: "Noa remembers stopping at a pastry window."}]}
+  - {id: p10, illustration: p10, lines: [{speaker: noa, text: "The flour felt heavy."}, {speaker: noa, text: "I kept delaying the walk."}]}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "The false bottles pop into harmless colored smoke."}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: "One plain bottle with a clear stone remains."}, {speaker: clerk, text: "A true reason can guide a better action."}]}
+  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: "Noa chooses a handcart beside the door."}, {speaker: narrator, text: "The heavy satchel rides on it."}]}
+  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "Noa reaches Auntie's bakery at last."}]}
+  - {id: p15, illustration: p15, lines: [{speaker: noa, text: "I was late because the bag felt heavy."}, {speaker: noa, text: "I should have asked for a cart."}]}
+  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "Auntie helps unload the flour."}, {speaker: auntie, text: "Next time, ask before you struggle alone."}]}
 chapters:
-  - {id: ch01, title: Shelves of Reasons, page_refs: [p01, p02, p03, p04, p05]}
-  - {id: ch02, title: Three Excellent Excuses, page_refs: [p06, p07, p08, p09, p10, p11]}
-  - {id: ch03, title: One Useful Cause, page_refs: [p12, p13, p14, p15, p16]}
+  - {id: ch01, title: Three Bottled Excuses, page_refs: [p01, p02, p03, p04, p05, p06, p07, p08]}
+  - {id: ch02, title: The True Reason, page_refs: [p09, p10, p11, p12, p13, p14, p15, p16]}
 questions:
-  - {id: q01, type: sequence, speaker: narrator, prompt: "Which excuse does Noa offer first?", answer: "Noa first blames the rain.", page_refs: [p05]}
-  - {id: q02, type: cause-effect, speaker: narrator, prompt: "Why does the storm excuse fail?", answer: "Noa's dry coat shows that there was no storm.", page_refs: [p05, p06]}
-  - {id: q03, type: short-answer, speaker: narrator, prompt: "What was the real delivery problem?", answer: "The flour was heavy, and Noa had not planned how to carry it.", page_refs: [p10]}
-  - {id: q04, type: character-motive, speaker: narrator, prompt: "Why does Noa blame other things?", answer: "Noa is embarrassed about poor planning and wants to avoid responsibility.", page_refs: [p09, p10, p14]}
-  - {id: q05, type: evidence, speaker: narrator, prompt: "What shows that honesty changes Noa's actions?", answer: "Noa names the real problem, borrows a cart, and tells Auntie the truth.", page_refs: [p10, p13, p14]}
+  - {id: q01, type: cause-effect, speaker: narrator, prompt: "Why does the rain excuse fail?", answer: "Noa's coat is dry.", page_refs: [p05, p06]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: "What does Noa do after admitting the true reason?", answer: "Noa puts the satchel on a handcart and finishes the delivery.", page_refs: [p10, p11, p12, p13, p14]}
+  - {id: q03, type: character-motive, speaker: narrator, prompt: "Why did Noa keep delaying?", answer: "The flour bag felt heavy, and Noa did not ask for help.", page_refs: [p01, p09, p10]}
+  - {id: q04, type: short-answer, speaker: narrator, prompt: "How does the true reason change Noa's action?", answer: "It leads Noa to use a cart and speak honestly to Auntie.", page_refs: [p12, p13, p15]}

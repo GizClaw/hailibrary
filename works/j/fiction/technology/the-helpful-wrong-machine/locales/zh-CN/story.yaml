@@ -1,0 +1,44 @@
+schema_version: 1
+language: zh-CN
+writer: 雨歌
+title: 好心办错事的机器
+summary: 小艾造出“卵石”，想让它帮市场整理退回的物品。机器却把外形相似、用途不同的东西混在一起。塔拉帮助小艾改进规则，加入人工复核，并把工作区调整得人人都能使用。
+cast:
+  narrator: {display_name: 旁白, tts: {delivery: 轻快而善于观察, timbre: 清晰的成年声音, pace: 中速, pitch: 中音}}
+  em: {display_name: 小艾, tts: {delivery: 机敏而认真, timbre: 明亮的少年声音, pace: 中快, pitch: 中高音}}
+  tala: {display_name: 塔拉, tts: {delivery: 务实并带一点幽默, timbre: 温暖的年长声音, pace: 中慢, pitch: 中低音}}
+  pebble: {display_name: 卵石, tts: {delivery: 友好而一板一眼, timbre: 柔和的合成声音, pace: 中速, pitch: 中音}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "小艾在市场的退货台前揭开布罩，亮出了机器“卵石”。"}, {speaker: em, text: "它眨一下灯，就能把所有东西分好！"}]}
+  - id: p02
+    illustration: p02
+    lines:
+      - speaker: narrator
+        content: [{text: "卵石把圆圆的橙子"}, {vocabulary: {id: sort, text: 分拣}}, {text: "进了果蔬盘。"}]
+      - {speaker: pebble, text: "圆形，橙色，配对成功。"}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "接着，它把一只红色玩具球也放进橙子堆。"}, {speaker: em, text: "这颗水果还挺会弹呢。"}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "小艾笑着拿走玩具球，以为下一次会更准。"}]}
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "卵石又把一块光滑的绿色肥皂送向蔬菜盘。"}, {speaker: pebble, text: "绿色，光滑，配对成功。"}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "肥皂碰到食物前，塔拉按停了传送带。"}, {speaker: tala, text: "分错地方，可不只是闹笑话。"}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "小艾检查卵石的感应器。"}, {speaker: em, text: "它能看颜色和形状，却不知道材料和用途。"}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "塔拉拿来杯子、花盆和破灯罩。"}, {speaker: tala, text: "它们外形相近，该去的地方却不同。"}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "卵石停在三个物品中间。"}, {speaker: pebble, text: "一种形状，可能属于三组。"}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "小艾换上开口和表面各不相同的收集盘。"}, {speaker: em, text: "这一次，材料和用途也要算进去。"}]}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "塔拉请市场里的工人带来少见的物品。"}, {speaker: tala, text: "真正的测试，不能只挑容易的。"}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: "一个孩子递来木头做的水果玩具。"}, {speaker: pebble, text: "形状像食物，材料像玩具。"}]}
+  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: "小艾装上一块珊瑚色的暂停板。"}, {speaker: em, text: "谁发现可疑的选择，都能把传送带停下来。"}]}
+  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "卵石继续处理普通物品，把拿不准的东西放到复核桌上。"}]}
+  - {id: p15, illustration: p15, lines: [{speaker: narrator, text: "塔拉扶着手杖伸手，复核桌却高得够不着。"}, {speaker: tala, text: "人人都能参与，复核才真的有用。"}]}
+  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "小艾降低桌面，又把周围的通道清空。"}, {speaker: em, text: "该测试的是整套安排，不只是机器。"}]}
+  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: "工人们围着桌子检查特殊物品，并说明各自的判断。"}, {speaker: narrator, text: "小艾根据这些解释继续修改规则。"}]}
+  - {id: p18, illustration: p18, lines: [{speaker: narrator, text: "傍晚，食物安然无恙，等待复核的东西也只剩一小堆。"}, {speaker: em, text: "卵石知道何时请人帮忙，才最能帮上忙。"}]}
+chapters:
+  - {id: ch01, title: 快速配对, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - {id: ch02, title: 难分的物品, page_refs: [p07, p08, p09, p10, p11, p12]}
+  - {id: ch03, title: 更可靠的办法, page_refs: [p13, p14, p15, p16, p17, p18]}
+questions:
+  - {id: q01, type: cause-effect, speaker: narrator, prompt: "卵石为什么会把玩具球放进橙子堆？", answer: "它只根据颜色和形状判断，所以把圆圆的红球当成了水果。", page_refs: [p02, p03, p07]}
+  - {id: q02, type: evidence, speaker: narrator, prompt: "哪些证据说明只看外形不够？", answer: "玩具球和肥皂都进错了地方，而且三个外形相近的物品有不同用途。", page_refs: [p03, p05, p06, p08]}
+  - {id: q03, type: character-motive, speaker: narrator, prompt: "塔拉为什么要找来少见的物品？", answer: "她想用难分的情况测试规则，避免大家过早依赖机器。", page_refs: [p08, p11, p12]}
+  - {id: q04, type: main-idea, speaker: narrator, prompt: "改进后的分拣办法为什么更可靠？", answer: "它采用更多判断条件，让人复核可疑选择，还保证人人都能使用复核区。", page_refs: [p10, p13, p14, p15, p16, p17]}
+  - {id: q05, type: short-answer, speaker: narrator, prompt: "每次发现新问题，小艾是怎样处理的？", answer: "她先查明原因，再修改整套安排，并请其他人一起测试。", page_refs: [p07, p10, p13, p16, p17]}

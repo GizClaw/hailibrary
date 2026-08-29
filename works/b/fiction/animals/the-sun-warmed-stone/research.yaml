@@ -1,7 +1,29 @@
 schema_version: 1
 required: true
-reason: The plot depends on sunlight warming a stone and contact transferring some heat to another stone.
+scope: Sunlight warming a stone, heat transfer by contact, and lizard warming behavior.
 sources:
-  - url: https://www.energy.gov/energysaver/principles-heating-and-cooling
-    title: Principles of Heating and Cooling
-    supports: Solar radiation can warm materials, and conduction transfers heat through direct contact.
+  - id: doe-heat-flow
+    title: Heat Flow
+    publisher: U.S. Department of Energy Building Science Education
+    url: https://bsesc.energy.gov/energy-basics/heat-flow
+    accessed: 2026-08-28
+    supports:
+      - The sun is a source of radiant heat.
+      - When surfaces at different temperatures touch, heat flows from the warmer material toward the cooler one.
+  - id: nps-reptiles
+    title: Reptiles, Amphibians, and Fish — Ectotherm Ambassadors
+    publisher: U.S. National Park Service, Mesa Verde National Park
+    url: https://home.nps.gov/meve/learn/nature/rept_amph_fish.htm
+    accessed: 2026-08-28
+    supports:
+      - Lizards are ectotherms that use their environment and may sun themselves on rocks to warm up.
+claims:
+  - claim: Sunlight has warmed the small round stone after the rain.
+    source_ids: [doe-heat-flow]
+    pages: [p02]
+  - claim: Direct contact with a warmer stone can transfer some heat toward cooler feet.
+    source_ids: [doe-heat-flow]
+    pages: [p06, p08]
+  - claim: A lizard seeking warmth from a sun-warmed stone is behaviorally plausible.
+    source_ids: [nps-reptiles]
+    pages: [p04, p06]

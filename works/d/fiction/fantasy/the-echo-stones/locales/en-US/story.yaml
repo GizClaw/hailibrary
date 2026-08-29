@@ -1,0 +1,37 @@
+schema_version: 1
+language: en-US
+writer: silver-bell
+title: The Echo Stones
+summary: Mist separates Fox and Goat among curved rocks. Fox mistakes an echo for Goat's call, then remembers their lamp-and-bell signal and finds Goat safely.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: calm and resonant, timbre: warm adult voice, pace: medium-slow, pitch: medium}}
+  fox: {display_name: Fox, tts: {delivery: alert and thoughtful, timbre: clear youthful voice, pace: medium, pitch: medium-high}}
+  goat: {display_name: Goat, tts: {delivery: steady and practical, timbre: mellow youthful voice, pace: medium-slow, pitch: medium-low}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Fox carries an amber lamp."}, {speaker: narrator, text: "Goat carries a silver bell."}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "Thick ground mist hides the friends."}]}
+  - {id: p03, illustration: p03, lines: [{speaker: fox, text: "Goat, where are you?"}]}
+  - id: p04
+    illustration: p04
+    lines:
+      - speaker: narrator
+        content: [{text: "An "}, {vocabulary: {id: echo, text: echo}}, {text: " returns from a curved rock."}]
+  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Fox follows the repeated call."}, {speaker: narrator, text: "Fox finds old footprints."}]}
+  - id: p06
+    illustration: p06
+    lines:
+      - speaker: fox
+        content: [{text: "That voice is only my "}, {vocabulary: {id: echo, text: echo}}, {text: "."}]
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "Fox stops in a safe open place."}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "Fox remembers their plan and raises the lamp."}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "Goat sees the light and rings the bell."}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "Fox follows the bell."}, {speaker: narrator, text: "Goat follows the amber light."}]}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "The friends meet in the clearing."}]}
+  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: "They leave together on a broad path."}]}
+chapters:
+  - {id: ch01, title: A Repeated Voice, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - {id: ch02, title: Lamp and Bell, page_refs: [p07, p08, p09, p10, p11, p12]}
+questions:
+  - {id: q01, type: picture, speaker: narrator, prompt: "What does Goat carry?", answer: "A silver bell.", page_refs: [p01]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: "What does Fox do after finding old footprints?", answer: "Fox stops and raises the lamp.", page_refs: [p05, p06, p07, p08]}
+  - {id: q03, type: cause-effect, speaker: narrator, prompt: "Why does Fox stop following the voice?", answer: "Fox learns the voice is an echo.", page_refs: [p04, p05, p06]}

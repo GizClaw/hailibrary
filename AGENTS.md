@@ -21,7 +21,7 @@ This repository is a multilingual graded-reading library. Codex creates the sour
 When asked to create or revise a book:
 
 1. Choose the level, category, subcategory, slug, Writer, locales, learning goals, and factual scope.
-2. Read `prompts/levels/levels.yaml`, `prompts/vocabulary/index.yaml`, `prompts/vocabulary/ranges.yaml`, `prompts/labels/index.yaml`, `prompts/writers/index.yaml`, every selected locale Writer's `prompt.yaml`, and the selected Style's `prompt.yaml`.
+2. Read `prompts/levels/levels.yaml`, `prompts/levels/locale-references.yaml`, `prompts/vocabulary/index.yaml`, `prompts/vocabulary/ranges.yaml`, `prompts/labels/index.yaml`, `prompts/writers/index.yaml`, every selected locale Writer's `prompt.yaml`, and the selected Style's `prompt.yaml`.
 3. Browse the web before writing when the story depends on science, nature, geography, history, culture, health, safety, a real person, or another checkable real-world claim. Prefer primary and authoritative sources.
 4. Record every story-relevant source and supported claim in `research.yaml`. If research is unnecessary for a purely invented story, record `required: false` and a short reason.
 5. Design one coherent, audience-safe work whose vocabulary, syntax, questions, and narrative structure satisfy the directory level. A level measures language difficulty, not reader age, genre, format, or narrative ambition. A Writer supplies a locale-specific creative viewpoint and values, never copied prose or an instruction to imitate a person's style.
@@ -31,9 +31,9 @@ When asked to create or revise a book:
 9. Define chapters that cover every page exactly once and in reading order.
 10. Keep page IDs, meaning, characters, and illustration IDs aligned across locales.
 11. Draft each locale independently from shared page events, speaker intent, learning goals, and illustrations; never use another locale's prose as the sentence template.
-12. Generate the cover and every page illustration directly with Codex image generation using the selected Style. Images must contain no words, letters, numbers, logos, captions, speech bubbles, or watermarks.
-13. Save compressed `.webp` images under the book's `artwork/` directory and describe each scene in `artwork.yaml`.
-14. Run `$review-artwork` over the cover and every page illustration.
+12. For a new work, generate the cover and every page illustration directly with Codex image generation using the selected Style. For an existing work under a text-only revision, preserve every image byte-for-byte unless the user explicitly authorizes visual changes. Images must contain no words, letters, numbers, logos, captions, speech bubbles, or watermarks.
+13. For new artwork, save compressed `.webp` images under the book's `artwork/` directory and describe each scene in `artwork.yaml`. Do not recompress, rename, or rewrite existing visual resources during a text-only task.
+14. Run `$review-artwork` when visual review is in scope. During a text-only review-fix loop, treat visuals as fixed scene constraints and solve compatibility issues in the text; do not regenerate images.
 15. Run `npm run check-work -- <work-directory>` and fix every deterministic resource error.
 16. Run `$review-native-language` for every locale, then run the `review-fix-loop` before marking the work ready for PR review.
 
@@ -57,6 +57,7 @@ Create a reusable visual treatment at `prompts/styles/<name>/` with `prompt.yaml
 ## Vocabulary and artwork workflows
 
 - Use `$create-vocabulary` to add or materially revise a level-scoped vocabulary entry and its shared wordless card; use `$review-vocabulary` for every lexical, pronunciation, writing, form, or alignment verdict. Consult the concrete datasets in `prompts/vocabulary/index.yaml`, then apply the locale-specific criteria in `prompts/vocabulary/ranges.yaml`. For Chinese textbook evidence, record the exact edition, grade, semester, recognition or writing scope, appendix or page location, and source instead of inferring word familiarity from character familiarity.
+- Use `prompts/levels/locale-references.yaml` to interpret the exact level separately for English and Chinese. English uses age/grade plus English-only Lexile references; Chinese uses its own curriculum checkpoint and must never inherit an English Lexile claim. Reading A-Z names are retained labels, not proof of official later-grade alignment.
 - Use `$review-artwork` for a focused visual audit or authorized fix of one work's cover and page illustrations. It does not replace `$review-style` for the reusable Style, `$review-vocabulary` for word cards, or `$review-writer` for avatars.
 
 ## `review-fix-loop` workflow
@@ -64,7 +65,7 @@ Create a reusable visual treatment at `prompts/styles/<name>/` with `prompt.yaml
 Use a fresh reviewer pass independent from the creation pass:
 
 1. Run `$review-native-language` as an independent, evidence-backed pass for every locale before cross-locale comparison. Another locale's prose must not be used as the wording template; `PASS` requires representative evidence from the beginning, middle, and end.
-2. Run `$review-writer` for every referenced Writer, `$review-style` for the referenced Style, `$review-vocabulary` for every referenced entry, and `$review-artwork` for the work cover and every page image.
+2. Run `$review-writer` for every referenced Writer, `$review-style` for the referenced Style, and `$review-vocabulary` for every referenced entry. Run `$review-artwork` when visual review is in scope; for an explicitly text-only loop, preserve images byte-for-byte and use their declared scenes as fixed constraints.
 3. Review the complete work against its directory level, research evidence, book YAML, every locale, questions, and all specialized-review verdicts. Independently browse authoritative sources to discover and verify explicit facts and implicit knowledge, causality, safety, and common-sense assumptions; do not rely only on `research.yaml`.
 4. Report concrete findings with file and page IDs.
 5. Fix every actionable finding when the task authorizes fixes.
@@ -134,5 +135,5 @@ Whenever a repository package adds another `bin` command, add its `--help` invoc
 - Repository tooling must never generate stories, prompts, or artwork.
 - Do not embed provider API keys or voice IDs in book content.
 - Writer profiles encode personality, interests, values, and creative decisions, not imitation. Historical references may be declared, but wording and plots must remain original. Never instruct Codex to imitate any real writer's recognizable style.
-- Treat A-K strictly as language proficiency. Advanced works may be long-form novels, epic fantasy, speculative fiction, mystery, romance, history, or technical nonfiction when their `type` and structure declare that form.
+- Preserve the 29 ordered labels `aa`, `a` through `z`, `z1`, and `z2`, but apply HaiLibrary's age-aligned meanings from `prompts/levels/locale-references.yaml`: W-Z cover secondary school, Z1 is undergraduate, and Z2 is advanced undergraduate, graduate, or professional reading. These later meanings are HaiLibrary extensions, not official Reading A-Z grade correlations.
 - Do not commit uncompressed generated PNG sources unless explicitly required.

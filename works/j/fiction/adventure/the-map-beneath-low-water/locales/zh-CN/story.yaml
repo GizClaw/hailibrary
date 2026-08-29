@@ -1,0 +1,48 @@
+schema_version: 1
+language: zh-CN
+writer: 雨歌
+title: 低潮下的地图
+summary: 卡的地图画着一条直达海岛温室的路线，退潮后出现的弯曲沙洲和急流却与它不同。渡船管理员米教他把地图和眼前水位一起看。卡不再画唯一的固定路线，而是为不同潮位制作了三张图卡。
+cast:
+  narrator: {display_name: 旁白, tts: {delivery: 活泼带笑, timbre: 清楚的成年声音, pace: 中速, pitch: 中音}}
+  ka: {display_name: 卡, tts: {delivery: 先自信后虚心, timbre: 明亮的年轻声音, pace: 中速, pitch: 中高音}}
+  mi: {display_name: 米, tts: {delivery: 务实幽默, timbre: 稳重的成年声音, pace: 中慢速, pitch: 中低音}}
+pages:
+  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 卡带着地图筒来到海边水湾。}, {speaker: narrator, text: 他要去岛上温室取种子。}]}
+  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 地图用彩色形状画出一条直线。}, {speaker: ka, text: 最短的线应该也是最快的路。}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 温室在浅水对面亮着光。}, {speaker: narrator, text: 码头和小岛之间没有桥。}]}
+  - id: p04
+    illustration: p04
+    lines:
+      - speaker: narrator
+        content: [{vocabulary: {id: tide, text: 潮汐}}, {text: 退去后，弯曲的湿沙洲露出来。}]
+      - {speaker: narrator, text: 它们和地图上的直线不一样。}
+  - {id: p05, illustration: p05, lines: [{speaker: ka, text: 地图还是指向正前方。}, {speaker: narrator, text: 卡安全地留在码头上。}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 米划着小渡船来了。}, {speaker: mi, text: 纸上的线可不能让海水停住。}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 米指向码头柱子高处的湿海草。}, {speaker: mi, text: 不久前，水还到过那里。}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 卡比较海草印、眼前水线和新沙洲。}, {speaker: ka, text: 水湾在变，地图却没变。}]}
+  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 两片沙洲之间还有一条急流。}, {speaker: mi, text: 露出的沙地不是安全小路。}]}
+  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 卡卷起那张固定路线图。}, {speaker: ka, text: 我得看看今天的水面线索。}]}
+  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: 米让卡从码头登上渡船。}]}
+  - id: p12
+    illustration: p12
+    lines:
+      - speaker: narrator
+        content: [{text: 米沿着水道中弯曲的}, {vocabulary: {id: route, text: 路线}}, {text: 前进。}]
+      - {speaker: narrator, text: 渡船始终留在流动的水里。}
+  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: 一根浮动的芦苇标顺着水流倾斜。}, {speaker: narrator, text: 卡看着米逆着水流掌舵。}]}
+  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: 他们到达温室，取走密封的种子箱。}]}
+  - {id: p15, illustration: p15, lines: [{speaker: narrator, text: 回程时，涨起的海水盖住沙洲边缘。}, {speaker: ka, text: 同一个地方，现在需要另一张图。}]}
+  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: 卡在三张空白卡上画出不同水形。}, {speaker: narrator, text: 每张代表一个潮位阶段。}]}
+  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: 米把三张图卡摆在小船模型旁。}, {speaker: mi, text: 比过水面和标记以后，才能选路。}]}
+  - {id: p18, illustration: p18, lines: [{speaker: narrator, text: 夕阳下，卡和米望着变化的水湾笑了。}, {speaker: ka, text: 好地图要给新证据留位置。}]}
+chapters:
+  - {id: ch01, title: 一条直线, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - {id: ch02, title: 读懂水面, page_refs: [p07, p08, p09, p10, p11, p12, p13, p14]}
+  - {id: ch03, title: 三张变化的图, page_refs: [p15, p16, p17, p18]}
+questions:
+  - {id: q01, type: sequence, speaker: narrator, prompt: 登船以前，卡怎样改变了计划？, answer: 他不再相信直线，先比较眼前线索，再沿米选择的弯曲水道前进。, page_refs: [p05, p07, p08, p09, p10, p12]}
+  - {id: q02, type: cause-effect, speaker: narrator, prompt: 回程看到的沙洲为什么不同？, answer: 潮水涨起来，盖住了沙洲边缘。, page_refs: [p04, p15]}
+  - {id: q03, type: evidence, speaker: narrator, prompt: 哪些线索说明水湾一直在变化？, answer: 高处海草印、眼前水线、露出的沙洲、流动水道和后来被淹的边缘都显示了不同水位。, page_refs: [p04, p07, p08, p09, p15]}
+  - {id: q04, type: main-idea, speaker: narrator, prompt: 卡的新地图为什么更有用？, answer: 它展示不同潮位，还提醒人们先比较眼前证据再选路。, page_refs: [p08, p10, p15, p16, p17, p18]}
+  - {id: q05, type: character-motive, speaker: narrator, prompt: 米为什么让渡船留在水道里？, answer: 水道里有能通船的流水，而露出的沙地会改变，也不适合步行。, page_refs: [p09, p11, p12, p13]}

@@ -14,6 +14,7 @@ Before writing, resolve the level, type path, slug, locales, locale-specific Wri
 Read:
 
 - `prompts/levels/levels.yaml` for the selected directory level;
+- `prompts/levels/locale-references.yaml` for the exact level's separate English and Chinese reference checkpoints;
 - `prompts/vocabulary/index.yaml` and `prompts/vocabulary/ranges.yaml` for locale-specific running-text and target-vocabulary limits;
 - `prompts/labels/index.yaml` for controlled discovery labels;
 - `prompts/writers/index.yaml` and every selected `prompts/writers/<locale>/<writer>/prompt.yaml`;
@@ -27,6 +28,7 @@ The directory is the only source of level, category, and subcategory. Do not rep
 Before drafting prose, read [references/level-and-vocabulary-contract.md](references/level-and-vocabulary-contract.md) and write a short working brief for **each locale**. The brief must state:
 
 - the selected level and band;
+- the locale-specific age/grade reference: English-only Lexile cross-reference or the internal Chinese curriculum checkpoint;
 - page, total-unit, sentence, per-page, and new-word limits from `prompts/levels/levels.yaml`;
 - the reading goal, complexity floor, plot, cohesion, knowledge demand, illustration reliance, inference, and required question types;
 - the running-text baseline and target-word range for that locale from `prompts/vocabulary/ranges.yaml`;
@@ -47,7 +49,7 @@ Do not turn uncertain or fictional details into facts.
 
 Create `book.yaml`, `research.yaml`, `artwork.yaml`, every `locales/<locale>/story.yaml`, shared artwork, and any required vocabulary entries.
 
-- Treat A-K as language proficiency, not reader age or genre.
+- Preserve the direct AA-Z2 label sequence, but use HaiLibrary's age-aligned grade meanings: W-Z are secondary, Z1 is undergraduate, and Z2 is advanced undergraduate, graduate, or professional reading. Do not present those extensions as official Reading A-Z correlations.
 - Keep unmarked running text mostly at or below the prior level; make marked target terms the intentional learning load.
 - Sustain the selected level across vocabulary, syntax, cohesion, knowledge, inference, and reader task. Do not satisfy the level with an isolated hard sentence or question.
 - Meet the selected level's complexity floor as well as every mechanical ceiling. From Level G onward, prose must preserve every essential causal link and conclusion without illustration support.
@@ -66,9 +68,13 @@ Mark target terms inline in `line.content`. Reuse or create `vocabulary/<level>/
 
 Apply `$create-vocabulary` whenever a new entry or card is required. Apply the `$review-vocabulary` evidence procedure to every new, reused, or changed entry. Confirm live dictionary evidence for terms, senses, parts of speech, pronunciation, IPA or pinyin, forms, writing metadata, and every claimed curriculum alignment.
 
-For English, use frequency only as evidence: NGSL bands do not determine a HaiLibrary level, and I-K require sense, register, abstraction, rhetoric, and domain judgment. For Chinese, verify the complete word as well as its characters; never infer word familiarity from character familiarity. A textbook claim must name the exact edition, publisher, grade, semester, scope, appendix or page location, source, and verification date.
+For English, use frequency only as evidence: NGSL guidance does not determine a HaiLibrary level, and U-Z2 especially require sense, register, abstraction, rhetoric, and domain judgment. For Chinese, verify the complete word as well as its characters; never infer word familiarity from character familiarity. A textbook claim must name the exact edition, publisher, grade, semester, scope, appendix or page location, source, and verification date.
 
-## Create artwork
+## Artwork scope
+
+For an existing work, preserve all cover, page, Style, Writer-avatar, and vocabulary-card images unless the user explicitly authorizes visual changes. A text-only revision must not regenerate, edit, recompress, rename, or otherwise touch images. It may verify that the unchanged illustrations remain compatible with revised page events, but any visual mismatch must be solved in the text or reported as blocked.
+
+For a genuinely new work, create the required artwork as follows.
 
 Generate the cover and one illustration per page directly with Codex image generation using the selected Style. All locales share the images.
 

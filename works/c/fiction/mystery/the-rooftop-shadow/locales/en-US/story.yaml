@@ -1,0 +1,35 @@
+schema_version: 1
+language: en-US
+writer: sage-paw
+title: The Rooftop Shadow
+summary: A large moving shadow worries Squirrel. Squirrel and Rabbit follow the moonbeam and find a harmless pinwheel turning on the roof.
+cast:
+  narrator: {display_name: Narrator, tts: {delivery: calm and intriguing, timbre: warm adult voice, pace: medium-slow, pitch: medium}}
+  squirrel: {display_name: Squirrel, tts: {delivery: lively but cautious, timbre: bright youthful voice, pace: medium, pitch: medium-high}}
+  rabbit: {display_name: Rabbit, tts: {delivery: patient and logical, timbre: gentle youthful voice, pace: slow-medium, pitch: medium}}
+pages:
+  - id: p01
+    illustration: p01
+    lines:
+      - speaker: narrator
+        content: [{text: "A large "}, {vocabulary: {id: shadow, text: shadow}}, {text: " moves across the wall."}]
+  - {id: p02, illustration: p02, lines: [{speaker: squirrel, text: "It looks like horns!"}]}
+  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "Rabbit checks the shadow with a lantern."}]}
+  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "Moonlight reaches the wall."}]}
+  - {id: p05, illustration: p05, lines: [{speaker: rabbit, text: "The light comes from the roof."}]}
+  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "The roof shape moves."}, {speaker: narrator, text: "The wall shadow moves too."}]}
+  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "The friends walk around the cottage."}]}
+  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "They find a spinning pinwheel."}]}
+  - id: p09
+    illustration: p09
+    lines:
+      - speaker: narrator
+        content: [{text: "The pinwheel blocks moonlight and makes the "}, {vocabulary: {id: shadow, text: shadow}}, {text: "."}]
+  - {id: p10, illustration: p10, lines: [{speaker: squirrel, text: "The shadow is safe!"}, {speaker: narrator, text: "The friends laugh."}]}
+chapters:
+  - {id: ch01, title: Horns on the Wall, page_refs: [p01, p02, p03, p04, p05]}
+  - {id: ch02, title: A Rooftop Pinwheel, page_refs: [p06, p07, p08, p09, p10]}
+questions:
+  - {id: q01, type: picture, speaker: narrator, prompt: "What moves on the wall?", answer: "A large shadow.", page_refs: [p01]}
+  - {id: q02, type: sequence, speaker: narrator, prompt: "What do the friends find after walking outside?", answer: "A spinning pinwheel.", page_refs: [p07, p08]}
+  - {id: q03, type: cause-effect, speaker: narrator, prompt: "Why does the shadow move?", answer: "The pinwheel turns in the moonlight.", page_refs: [p08, p09]}
