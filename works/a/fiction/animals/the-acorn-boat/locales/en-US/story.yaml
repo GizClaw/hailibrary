@@ -1,28 +1,130 @@
-schema_version: 1
+schema_version: 2
 language: en-US
 writer: mossy-kite
 title: The Acorn Boat
 summary: Squirrel has a little acorn boat. Squirrel shares it with Snail, and the friends cross the stream together.
-cast:
-  narrator: {display_name: Narrator, tts: {delivery: warm and unhurried, timbre: soft clear adult voice, pace: slow, pitch: medium}}
-  squirrel: {display_name: Squirrel, tts: {delivery: bright and eager, timbre: light youthful voice, pace: slow, pitch: medium-high}}
-  snail: {display_name: Snail, tts: {delivery: soft and patient, timbre: gentle youthful voice, pace: slow, pitch: medium}}
-pages:
-  - id: p01
-    illustration: p01
-    lines:
-      - speaker: narrator
-        content:
-          - text: "Squirrel has an "
-          - vocabulary: {id: acorn, text: acorn}
-          - text: " boat."
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "Snail waits by the stream."}]}
-  - {id: p03, illustration: p03, lines: [{speaker: squirrel, text: "Come into my little boat!"}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "The friends cross the stream."}]}
-  - {id: p05, illustration: p05, lines: [{speaker: snail, text: "The far bank is near!"}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Both friends are safe."}]}
 chapters:
-  - {id: ch01, title: A Boat for Two, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - id: ch01
+    title: A Boat for Two
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: "Who waits by the stream?", answer: Snail., page_refs: [p02]}
-  - {id: q02, type: explicit-choice, speaker: narrator, prompt: "What does Squirrel share?", choices: [A boat, A hat, A cup], answer: A boat., page_refs: [p03]}
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: Who waits by the stream?
+    answer: Snail.
+    page_refs:
+      - p02
+  - id: q02
+    type: explicit-choice
+    speaker: narrator
+    prompt: What does Squirrel share?
+    choices:
+      - A boat
+      - A hat
+      - A cup
+    answer: A boat.
+    page_refs:
+      - p03
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: "Squirrel has an "
+            - vocabulary:
+                id: acorn
+                text: acorn
+            - text: " boat."
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: Snail waits beside the stream.
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: “Ride with me,” Squirrel calls.
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: The little boat crosses the stream.
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: “Almost there!” Snail says.
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: Both friends reach the far bank.
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried
+        timbre: soft clear adult voice
+        pace: slow
+        pitch: medium
+    squirrel:
+      display_name: Squirrel
+      tts:
+        delivery: bright and eager
+        timbre: light youthful voice
+        pace: slow
+        pitch: medium-high
+    snail:
+      display_name: Snail
+      tts:
+        delivery: soft and patient
+        timbre: gentle youthful voice
+        pace: slow
+        pitch: medium
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          content:
+            - text: "Squirrel has an "
+            - vocabulary:
+                id: acorn
+                text: acorn
+            - text: " boat."
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          text: Snail waits by the stream.
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: squirrel
+          text: Come into my little boat!
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: The friends cross the stream.
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: snail
+          text: The far bank is near!
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: Both friends are safe.

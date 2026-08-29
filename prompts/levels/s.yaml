@@ -1,0 +1,62 @@
+schema_version: 1
+id: s
+external_reference:
+  reading_a_z_label: S
+  age_band: 10-11
+  en_grade_reference: 5
+  en_lexile_reference: 830L-1010L
+reading_goal: distinguish observation, interpretation, and assumption
+prompt: Write at HaiLibrary Level S to distinguish observation, interpretation, and assumption. Distinguish observation, interpretation, and assumption through voice, context, and evidence. Characters may hesitate or revise themselves instead of stating analytic labels.
+text_contract:
+  structure: competing explanations
+  syntax: dense but controlled complex sentences
+  vocabulary: abstract and domain-specific with precise boundaries
+  knowledge: revisable model institution or history
+  illustration_reliance: enriching
+  inference: test explanations against evidence
+complexity_floor:
+  - two explanations initially fit
+  - later evidence requires revision
+pages:
+  min: 20
+  max: 28
+questions:
+  min: 8
+  max: 11
+  types:
+    - short-answer
+    - main-idea
+    - evidence
+    - compare
+    - evaluate
+    - synthesis
+    - source-analysis
+  required:
+    - synthesis
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 12
+      - 17
+    sentences_per_page_max: 10
+    units_per_sentence_max: 26
+    units_per_page_typical:
+      - 46
+      - 82
+    units_per_page_max: 117
+    units_total_min: 1250
+    units_total_max: 1900
+    new_words_per_page_max: 6
+  zh:
+    mean_sentence_units_typical:
+      - 19
+      - 32
+    sentences_per_page_max: 10
+    units_per_sentence_max: 44
+    units_per_page_typical:
+      - 69
+      - 118
+    units_per_page_max: 167
+    units_total_min: 1600
+    units_total_max: 2600
+    new_words_per_page_max: 6

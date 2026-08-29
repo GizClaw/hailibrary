@@ -1,0 +1,58 @@
+schema_version: 1
+id: b
+external_reference:
+  reading_a_z_label: B
+  age_band: 5-6
+  en_grade_reference: K
+  en_lexile_reference: BR40L-160L
+reading_goal: follow a highly patterned action sequence with one stated change
+prompt: Write at HaiLibrary Level B to follow a highly patterned action sequence with one stated change. Use high-frequency, idiomatic speech and narration around one changing pattern. Let the changed result carry the meaning instead of adding a moral.
+text_contract:
+  structure: repeated action then changed result
+  syntax: simple clauses and common inflections
+  vocabulary: high-frequency everyday words
+  knowledge: familiar routine plus one concrete detail
+  illustration_reliance: very-high
+  inference: one obvious result
+complexity_floor:
+  - one page changes the pattern
+  - the ending answers the visible problem
+pages:
+  min: 8
+  max: 12
+questions:
+  min: 2
+  max: 3
+  types:
+    - picture
+    - explicit-choice
+    - sequence
+  required:
+    - sequence
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 3
+      - 6
+    sentences_per_page_max: 2
+    units_per_sentence_max: 7
+    units_per_page_typical:
+      - 4
+      - 9
+    units_per_page_max: 12
+    units_total_min: 25
+    units_total_max: 70
+    new_words_per_page_max: 1
+  zh:
+    mean_sentence_units_typical:
+      - 5
+      - 9
+    sentences_per_page_max: 2
+    units_per_sentence_max: 11
+    units_per_page_typical:
+      - 6
+      - 13
+    units_per_page_max: 17
+    units_total_min: 40
+    units_total_max: 110
+    new_words_per_page_max: 1

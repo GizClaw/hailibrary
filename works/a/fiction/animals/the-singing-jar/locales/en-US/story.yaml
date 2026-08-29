@@ -1,28 +1,131 @@
-schema_version: 1
+schema_version: 2
 language: en-US
 writer: mossy-kite
 title: The Singing Jar
-summary: Rain drips into a jar and keeps Mole awake. Mouse adds a cloth, so the drops become quiet.
-cast:
-  narrator: {display_name: Narrator, tts: {delivery: soft and clear, timbre: warm adult voice, pace: slow, pitch: medium}}
-  mouse: {display_name: Mouse, tts: {delivery: quick and caring, timbre: light youthful voice, pace: slow, pitch: medium-high}}
-  mole: {display_name: Mole, tts: {delivery: sleepy and low, timbre: soft youthful voice, pace: slow, pitch: low}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Drip! Rain comes through the roof."}]}
-  - id: p02
-    illustration: p02
-    lines:
-      - speaker: narrator
-        content:
-          - text: "Drops fall into the "
-          - vocabulary: {id: jar, text: jar}
-          - text: "."
-  - {id: p03, illustration: p03, lines: [{speaker: mouse, text: "The jar sings too loudly!"}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "Mole stays awake."}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Mouse puts cloth in the jar."}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Now the drops are quiet."}]}
+summary: Rain drips into a jar and keeps Mole awake. Mouse adds a cloth, so the drops become quiet. The roof still needs repair.
 chapters:
-  - {id: ch01, title: Loud Drops, Quiet Drops, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - id: ch01
+    title: "Loud Drops: Quiet Drops"
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: "Where do the drops fall?", answer: Into the jar., page_refs: [p02]}
-  - {id: q02, type: explicit-choice, speaker: narrator, prompt: "What makes the drops quiet?", choices: [The cloth, The blanket, The roof], answer: The cloth., page_refs: [p05, p06]}
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: Where do the drops fall?
+    answer: Into the jar.
+    page_refs:
+      - p02
+  - id: q02
+    type: explicit-choice
+    speaker: narrator
+    prompt: What makes the drops quiet?
+    choices:
+      - The cloth
+      - The blanket
+      - The roof
+    answer: The cloth.
+    page_refs:
+      - p05
+      - p06
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: Drip! Rain slips through the roof.
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: "Drops tap inside the "
+            - vocabulary:
+                id: jar
+                text: jar
+            - text: .
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: “Too loud,” Mouse says.
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: “I can't sleep,” Mole sighs.
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: Mouse puts soft cloth inside.
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: Quiet drops let Mole sleep. The roof still leaks.
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: soft and clear
+        timbre: warm adult voice
+        pace: slow
+        pitch: medium
+    mouse:
+      display_name: Mouse
+      tts:
+        delivery: quick and caring
+        timbre: light youthful voice
+        pace: slow
+        pitch: medium-high
+    mole:
+      display_name: Mole
+      tts:
+        delivery: sleepy and low
+        timbre: soft youthful voice
+        pace: slow
+        pitch: low
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: Drip! Rain comes through the roof.
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - text: "Drops fall into the "
+            - vocabulary:
+                id: jar
+                text: jar
+            - text: .
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: mouse
+          text: The jar sings too loudly!
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: mole
+          text: I can't sleep.
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: Mouse puts cloth in the jar.
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: The drops are quiet. Mole sleeps. The roof still leaks.

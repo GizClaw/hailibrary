@@ -27,11 +27,15 @@ type StorySource = {
   writer: string;
   title: string;
   summary: string;
-  cast: Record<string, unknown>;
+  article?: { pages: Array<{ id: string; illustration: string; paragraphs: unknown[] }> };
+  audio_script?: { cast: Record<string, unknown>; pages: Array<{ id: string; illustration: string; lines?: unknown[]; blocks?: unknown[] }> };
+  cast?: Record<string, unknown>;
   chapters?: Array<{ id: string; title?: string; pages: string[] }>;
-  pages: Array<{ id: string; illustration: string; lines: unknown[] }>;
+  pages?: Array<{ id: string; illustration: string; lines?: unknown[]; blocks?: unknown[] }>;
   questions?: unknown[];
 };
+
+const visiblePages = (story: StorySource) => story.article?.pages ?? story.pages ?? [];
 
 type WriterSource = {
   id: string;
@@ -307,7 +311,7 @@ for (const bookDir of await findBookDirs(worksDir)) {
   for (const locale of book.locales) {
     stories.push(await readYaml<StorySource>(join(bookDir, "locales", locale, "story.yaml")));
   }
-  const illustrationPaths = [...new Set(stories.flatMap((story) => story.pages.map((page) => join(bookDir, "artwork", `${page.illustration}.webp`))))];
+  const illustrationPaths = [...new Set(stories.flatMap((story) => visiblePages(story).map((page) => join(bookDir, "artwork", `${page.illustration}.webp`))))];
   const missingIllustrations = (await Promise.all(illustrationPaths.map(async (illustrationPath) => await exists(illustrationPath) ? null : illustrationPath))).filter((illustrationPath): illustrationPath is string => illustrationPath !== null);
   if (missingIllustrations.length > 0) {
     console.warn(`Skipping incomplete work artwork: ${relative(worksDir, bookDir)} (${missingIllustrations.length} missing page image(s))`);
@@ -343,12 +347,12 @@ for (const bookDir of await findBookDirs(worksDir)) {
     writers: cardWriters,
     concepts: book.learning?.concepts ?? [],
     labels: book.labels,
-    pageCount: stories[0]?.pages.length ?? 0,
+    pageCount: stories[0] ? visiblePages(stories[0]).length : 0,
     cover: `works/${runtimePath}/${book.cover}`,
   };
   cards.push(card);
 
-  const illustrationIds = [...new Set(stories.flatMap((story) => story.pages.map((page) => page.illustration)))];
+  const illustrationIds = [...new Set(stories.flatMap((story) => visiblePages(story).map((page) => page.illustration)))];
   const vocabularyIds = [...collectVocabularyIds(stories)].sort();
   const localeManifests = Object.fromEntries(stories.map((story) => [story.language, {
     title: story.title,

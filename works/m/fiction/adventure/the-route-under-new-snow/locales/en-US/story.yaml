@@ -1,51 +1,481 @@
-schema_version: 1
+schema_version: 2
 language: en-US
 writer: north-star-map
 title: The Route Under New Snow
 summary: Fresh snow hides the evidence behind a route projector's eastern recommendation. Nara, Timo, and Vale compare two paths, test competing explanations, and choose the longer route that fits the entire team and its battery cart.
-cast:
-  narrator: {display_name: Narrator, tts: {delivery: observant and spacious, timbre: clear adult voice, pace: medium, pitch: medium}}
-  nara: {display_name: Nara, tts: {delivery: analytical and calm, timbre: steady young-adult voice, pace: medium, pitch: medium}}
-  timo: {display_name: Timo, tts: {delivery: brisk and inventive, timbre: bright young-adult voice, pace: medium-fast, pitch: medium-high}}
-  vale: {display_name: Vale, tts: {delivery: deliberate and grounded, timbre: resonant adult voice, pace: medium-slow, pitch: low}}
-  ora: {display_name: Ora, tts: {delivery: composed and relieved, timbre: warm adult voice, pace: medium, pitch: medium-low}}
-  loom: {display_name: Trail Loom, tts: {delivery: neutral and concise, timbre: soft synthetic voice, pace: medium, pitch: medium}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "After a night of snow, the ridge relay station falls silent."}, {speaker: narrator, text: "The village can no longer receive weather reports from beyond the mountain."}]}
-  - id: p02
-    illustration: p02
-    lines:
-      - speaker: narrator
-        content: [{text: "The Trail Loom projects an eastern "}, {vocabulary: {id: route, text: route}}, {text: " for Nara and Timo."}]
-      - {speaker: loom, text: "Eastern path: shortest stored journey."}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "Vale studies fresh drifts where trail markers once stood."}, {speaker: vale, text: "The ground changed last night. Old observations may not describe it now."}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "Timo checks the projector and the battery cart."}, {speaker: timo, text: "The Loom learned from many trips. Its choice deserves a fair test."}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Nara finds two blue stakes disappearing beneath an overhanging shelf."}, {speaker: nara, text: "The markers remain, but the path around them may not."}]}
-  - {id: p06, illustration: p06, lines: [{speaker: loom, text: "Eastern confidence: high. Many travelers used this path."}, {speaker: narrator, text: "Its evidence comes from pawprints buried under the new snow."}]}
-  - {id: p07, illustration: p07, lines: [{speaker: vale, text: "The drifts broke the old path."}, {speaker: timo, text: "Or they only covered it."}, {speaker: narrator, text: "Nara keeps both explanations open."}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "From a stable rocky lookout, they compare the short eastern shelf with a broad western ledge."}, {speaker: nara, text: "We need present evidence, not a guess from below."}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "Low sunlight casts a dark line beneath a thin bridge of snow."}, {speaker: vale, text: "That shadow reveals an open gap."}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "A route stake stands beyond the gap."}, {speaker: timo, text: "So the Loom recognized the marker but missed the changed approach."}]}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "Nara switches off the eastern projection and places a caution token by its model."}, {speaker: nara, text: "A confident answer can still depend on outdated evidence."}]}
-  - {id: p12, illustration: p12, lines: [{speaker: vale, text: "The western shelf is longer, but stone supports it."}, {speaker: narrator, text: "Its broad turns also leave room for the battery cart."}]}
-  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: "Timo checks the partly drained battery."}, {speaker: timo, text: "The longer path uses more power. We must travel steadily and save the projector."}]}
-  - {id: p14, illustration: p14, lines: [{speaker: timo, text: "Vale could go west while we search east."}, {speaker: nara, text: "Splitting up adds another risk. We need one plan for the whole team."}]}
-  - {id: p15, illustration: p15, lines: [{speaker: narrator, text: "They dim the Loom and use it only to check nearby junctions."}, {speaker: loom, text: "Local guidance active. Distant recommendation paused."}]}
-  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "Vale leads along the western rock."}, {speaker: narrator, text: "Nara walks beside the cart, while Timo watches its wheels and battery."}]}
-  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: "At a steep bend, everyone slows so the cart stays level."}, {speaker: nara, text: "A useful route must fit the slowest part of the group."}]}
-  - {id: p18, illustration: p18, lines: [{speaker: narrator, text: "Ora waves a silver lantern from the stone relay shelter."}, {speaker: ora, text: "You arrived together. The storm loosened one connection inside."}]}
-  - {id: p19, illustration: p19, lines: [{speaker: narrator, text: "Timo clears frost from the loose relay contact and secures it."}, {speaker: narrator, text: "The signal returns before the wind strengthens again."}]}
-  - {id: p20, illustration: p20, lines: [{speaker: narrator, text: "Snow thickens outside, so all four dogs wait inside the shelter."}, {speaker: vale, text: "Reaching the station does not make every moment safe for travel."}]}
-  - {id: p21, illustration: p21, lines: [{speaker: narrator, text: "After the wind eases, Nara builds wordless models of both paths."}, {speaker: nara, text: "One records the eastern gap. The other records the cart-friendly western ledge."}]}
-  - {id: p22, illustration: p22, lines: [{speaker: narrator, text: "They return together on the broad route."}, {speaker: narrator, text: "The Loom now follows their current observations instead of commanding the journey."}]}
 chapters:
-  - {id: ch01, title: A Confident Line, page_refs: [p01, p02, p03, p04, p05, p06, p07]}
-  - {id: ch02, title: Competing Explanations, page_refs: [p08, p09, p10, p11, p12, p13, p14, p15]}
-  - {id: ch03, title: A Route for Everyone, page_refs: [p16, p17, p18, p19, p20, p21, p22]}
+  - id: ch01
+    title: A Confident Line
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
+      - p07
+  - id: ch02
+    title: Competing Explanations
+    page_refs:
+      - p08
+      - p09
+      - p10
+      - p11
+      - p12
+      - p13
+      - p14
+      - p15
+  - id: ch03
+    title: A Route for Everyone
+    page_refs:
+      - p16
+      - p17
+      - p18
+      - p19
+      - p20
+      - p21
+      - p22
 questions:
-  - {id: q01, type: cause-effect, speaker: narrator, prompt: "Why does the Loom recommend the eastern path even though it is unsafe now?", answer: "It relies on many earlier trips and a remaining stake, but fresh snow has hidden a new gap in the approach.", page_refs: [p02, p05, p06, p09, p10]}
-  - {id: q02, type: evidence, speaker: narrator, prompt: "Which observations support Vale's explanation that the eastern path changed?", answer: "Buried stakes, the overhanging shelf, the shadow under the snow bridge, and the open gap all support it.", page_refs: [p03, p05, p08, p09, p10]}
-  - {id: q03, type: compare, speaker: narrator, prompt: "How do the eastern and western routes differ for this journey?", answer: "The east is shorter but has a hidden gap; the west is longer and uses more battery, yet its rock shelf is broad enough for the whole team and cart.", page_refs: [p08, p09, p12, p13, p17]}
-  - {id: q04, type: character-motive, speaker: narrator, prompt: "Why does Nara reject Timo's suggestion to split the group?", answer: "She believes separation adds risk and wants one route that works for every traveler and the cart.", page_refs: [p12, p13, p14, p17]}
-  - {id: q05, type: main-idea, speaker: narrator, prompt: "What does the team learn about route recommendations?", answer: "Stored guidance is useful, but travelers must compare it with current conditions and practical limits before deciding.", page_refs: [p03, p06, p08, p10, p11, p15, p21, p22]}
-  - {id: q06, type: short-answer, speaker: narrator, prompt: "How does the team conserve power without giving up the Loom?", answer: "They dim it and use it only for nearby junctions rather than following its distant recommendation.", page_refs: [p13, p15]}
+  - id: q01
+    type: cause-effect
+    speaker: narrator
+    prompt: Why does the Loom recommend the eastern path even though it is unsafe now?
+    answer: It relies on many earlier trips and a remaining stake, but fresh snow has hidden a new gap in the approach.
+    page_refs:
+      - p02
+      - p05
+      - p06
+      - p09
+      - p10
+  - id: q02
+    type: evidence
+    speaker: narrator
+    prompt: Which observations support Vale's explanation that the eastern path changed?
+    answer: Buried stakes, the overhanging shelf, the shadow under the snow bridge, and the open gap all support it.
+    page_refs:
+      - p03
+      - p05
+      - p08
+      - p09
+      - p10
+  - id: q03
+    type: compare
+    speaker: narrator
+    prompt: How do the eastern and western routes differ for this journey?
+    answer: The east is shorter but has a hidden gap; the west is longer and uses more battery, yet its rock shelf is broad enough for the whole team and cart.
+    page_refs:
+      - p08
+      - p09
+      - p12
+      - p13
+      - p17
+  - id: q04
+    type: character-motive
+    speaker: narrator
+    prompt: Why does Nara reject Timo's suggestion to split the group?
+    answer: She believes separation adds risk and wants one route that works for every traveler and the cart.
+    page_refs:
+      - p12
+      - p13
+      - p14
+      - p17
+  - id: q05
+    type: main-idea
+    speaker: narrator
+    prompt: What does the team learn about route recommendations?
+    answer: Stored guidance is useful, but travelers must compare it with current conditions and practical limits before deciding.
+    page_refs:
+      - p03
+      - p06
+      - p08
+      - p10
+      - p11
+      - p15
+      - p21
+      - p22
+  - id: q06
+    type: short-answer
+    speaker: narrator
+    prompt: How does the team conserve power without giving up the Loom?
+    answer: They dim it and use it only for nearby junctions rather than following its distant recommendation.
+    page_refs:
+      - p13
+      - p15
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: "After a night of snow, the ridge relay station falls silent. "
+            - text: The village can no longer receive weather reports from beyond the mountain.
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: "The Trail Loom projects an eastern route for Nara and Timo. Its calm voice reports, “Eastern path: shortest stored journey.”"
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: Vale studies fresh drifts where trail markers once stood. “Snow buried the markers last night. The eastern path may have changed too.”
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: Timo checks the projector and battery cart. “The Loom learned from many trips. Let’s check its choice before we reject it.”
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: Nara finds two blue stakes disappearing beneath an overhanging shelf. Nara says, “
+            - text: The markers remain, but the path around them may not.”
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: "The Loom reports, “Eastern confidence: high. Many travelers used this path.” Those journeys left the pawprints now buried under new snow."
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - text: “The drifts broke the old path,” Vale says. “Or they only covered it,” Timo replies. Nara studies the ridge without choosing an explanation yet.
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - text: From a stable rocky lookout, they compare the short eastern shelf with the broad western ledge. Nara says, “From here, we can check both paths.”
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - content:
+            - text: Low sunlight casts a dark line beneath a thin bridge of snow. Vale says, “
+            - text: That shadow reveals an open gap.”
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - content:
+            - text: A route stake stands beyond the gap. Timo says, “
+            - text: So the Loom recognized the marker but missed the changed approach.”
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - content:
+            - text: Nara switches off the eastern projection and places a caution token by its model. “The Loom found the stake, but its trip records are buried under new snow.”
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - content:
+            - text: Vale says, “
+            - text: "The western shelf is longer, but stone supports it.” "
+            - text: Its broad turns also leave room for the battery cart.
+    - id: p13
+      illustration: p13
+      paragraphs:
+        - content:
+            - text: Timo checks the partly drained battery. Timo says, “
+            - text: The longer path uses more power. We must travel steadily and save the projector.”
+    - id: p14
+      illustration: p14
+      paragraphs:
+        - text: “Vale could go west while we search east,” Timo suggests. Nara shakes her head. “Splitting up adds another risk. We need one plan for the whole team.”
+    - id: p15
+      illustration: p15
+      paragraphs:
+        - text: They dim the Loom and use it only at nearby junctions. The machine reports, “Local guidance active. Distant recommendation paused.”
+    - id: p16
+      illustration: p16
+      paragraphs:
+        - content:
+            - text: "Vale leads along the western rock. "
+            - text: Nara walks beside the cart, while Timo watches its wheels and battery.
+    - id: p17
+      illustration: p17
+      paragraphs:
+        - content:
+            - text: At a steep bend, everyone pauses to keep the cart level. Nara says, “One at a time. Keep the cart between us.”
+    - id: p18
+      illustration: p18
+      paragraphs:
+        - text: Ora waves a silver lantern from the stone relay shelter. “You arrived together,” she says. “The storm loosened one connection inside.”
+    - id: p19
+      illustration: p19
+      paragraphs:
+        - content:
+            - text: "Timo clears frost from the loose relay contact and secures it. "
+            - text: The signal returns before the wind strengthens again.
+    - id: p20
+      illustration: p20
+      paragraphs:
+        - content:
+            - text: Snow thickens outside, so all four dogs remain in the stone shelter. Vale looks through the window. “The wind is rising. We wait here.”
+    - id: p21
+      illustration: p21
+      paragraphs:
+        - text: After the wind eases, Nara builds wordless models of both paths. She points to each in turn. “This one records the eastern gap. This one shows the western ledge that fits our cart.”
+    - id: p22
+      illustration: p22
+      paragraphs:
+        - content:
+            - text: "They return together on the broad route. "
+            - text: The Loom now follows their current observations instead of commanding the journey.
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: observant and spacious
+        timbre: clear adult voice
+        pace: medium
+        pitch: medium
+    nara:
+      display_name: Nara
+      tts:
+        delivery: analytical and calm
+        timbre: steady young-adult voice
+        pace: medium
+        pitch: medium
+    timo:
+      display_name: Timo
+      tts:
+        delivery: brisk and inventive
+        timbre: bright young-adult voice
+        pace: medium-fast
+        pitch: medium-high
+    vale:
+      display_name: Vale
+      tts:
+        delivery: deliberate and grounded
+        timbre: resonant adult voice
+        pace: medium-slow
+        pitch: low
+    ora:
+      display_name: Ora
+      tts:
+        delivery: composed and relieved
+        timbre: warm adult voice
+        pace: medium
+        pitch: medium-low
+    loom:
+      display_name: Trail Loom
+      tts:
+        delivery: neutral and concise
+        timbre: soft synthetic voice
+        pace: medium
+        pitch: medium
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: After a night of snow, the ridge relay station falls silent.
+        - id: p01-b02
+          speaker: narrator
+          text: The village can no longer receive weather reports from beyond the mountain.
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - text: "The Trail Loom projects an eastern "
+            - vocabulary:
+                id: route
+                text: route
+            - text: " for Nara and Timo."
+        - id: p02-b02
+          speaker: loom
+          text: "Eastern path: shortest stored journey."
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          content:
+            - text: Vale studies fresh drifts where trail markers once stood.
+        - id: p03-b02
+          speaker: vale
+          content:
+            - text: Snow buried the markers last night. The eastern path may have changed too.
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          content:
+            - text: Timo checks the projector and battery cart.
+        - id: p04-b02
+          speaker: timo
+          content:
+            - text: The Loom learned from many trips. Let’s check its choice before we reject it.
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: Nara finds two blue stakes disappearing beneath an overhanging shelf.
+        - id: p05-b02
+          speaker: nara
+          text: The markers remain, but the path around them may not.
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: loom
+          text: "Eastern confidence: high. Many travelers used this path."
+        - id: p06-b02
+          speaker: narrator
+          text: Its evidence comes from pawprints buried under the new snow.
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: vale
+          text: The drifts broke the old path.
+        - id: p07-b02
+          speaker: timo
+          text: Or they only covered it.
+        - id: p07-b03
+          speaker: narrator
+          text: Nara keeps both explanations open.
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          content:
+            - text: From a stable rocky lookout, they compare the short eastern shelf with the broad western ledge.
+        - id: p08-b02
+          speaker: nara
+          content:
+            - text: From here, we can check both paths.
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          text: Low sunlight casts a dark line beneath a thin bridge of snow.
+        - id: p09-b02
+          speaker: vale
+          text: That shadow reveals an open gap.
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          text: A route stake stands beyond the gap.
+        - id: p10-b02
+          speaker: timo
+          text: So the Loom recognized the marker but missed the changed approach.
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          content:
+            - text: Nara switches off the eastern projection and places a caution token by its model.
+        - id: p11-b02
+          speaker: nara
+          content:
+            - text: The Loom found the stake, but its trip records are buried under new snow.
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: vale
+          text: The western shelf is longer, but stone supports it.
+        - id: p12-b02
+          speaker: narrator
+          text: Its broad turns also leave room for the battery cart.
+    - id: p13
+      illustration: p13
+      blocks:
+        - id: p13-b01
+          speaker: narrator
+          text: Timo checks the partly drained battery.
+        - id: p13-b02
+          speaker: timo
+          text: The longer path uses more power. We must travel steadily and save the projector.
+    - id: p14
+      illustration: p14
+      blocks:
+        - id: p14-b01
+          speaker: timo
+          text: Vale could go west while we search east.
+        - id: p14-b02
+          speaker: nara
+          text: Splitting up adds another risk. We need one plan for the whole team.
+    - id: p15
+      illustration: p15
+      blocks:
+        - id: p15-b01
+          speaker: narrator
+          text: They dim the Loom and use it only to check nearby junctions.
+        - id: p15-b02
+          speaker: loom
+          text: Local guidance active. Distant recommendation paused.
+    - id: p16
+      illustration: p16
+      blocks:
+        - id: p16-b01
+          speaker: narrator
+          text: Vale leads along the western rock.
+        - id: p16-b02
+          speaker: narrator
+          text: Nara walks beside the cart, while Timo watches its wheels and battery.
+    - id: p17
+      illustration: p17
+      blocks:
+        - id: p17-b01
+          speaker: narrator
+          content:
+            - text: At a steep bend, everyone pauses to keep the cart level.
+        - id: p17-b02
+          speaker: nara
+          content:
+            - text: One at a time. Keep the cart between us.
+    - id: p18
+      illustration: p18
+      blocks:
+        - id: p18-b01
+          speaker: narrator
+          text: Ora waves a silver lantern from the stone relay shelter.
+        - id: p18-b02
+          speaker: ora
+          text: You arrived together. The storm loosened one connection inside.
+    - id: p19
+      illustration: p19
+      blocks:
+        - id: p19-b01
+          speaker: narrator
+          text: Timo clears frost from the loose relay contact and secures it.
+        - id: p19-b02
+          speaker: narrator
+          text: The signal returns before the wind strengthens again.
+    - id: p20
+      illustration: p20
+      blocks:
+        - id: p20-b01
+          speaker: narrator
+          content:
+            - text: Snow thickens outside, so all four dogs remain in the stone shelter. Vale looks through the window.
+        - id: p20-b02
+          speaker: vale
+          content:
+            - text: The wind is rising. We wait here.
+    - id: p21
+      illustration: p21
+      blocks:
+        - id: p21-b01
+          speaker: narrator
+          text: After the wind eases, Nara builds wordless models of both paths.
+        - id: p21-b02
+          speaker: nara
+          text: One records the eastern gap. The other records the cart-friendly western ledge.
+    - id: p22
+      illustration: p22
+      blocks:
+        - id: p22-b01
+          speaker: narrator
+          text: They return together on the broad route.
+        - id: p22-b02
+          speaker: narrator
+          text: The Loom now follows their current observations instead of commanding the journey.

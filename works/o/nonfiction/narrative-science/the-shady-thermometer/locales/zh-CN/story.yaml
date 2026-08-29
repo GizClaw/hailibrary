@@ -1,47 +1,500 @@
-schema_version: 1
+schema_version: 2
 language: zh-CN
 writer: 江笑
 title: 阴影里的温度计
 summary: 林带领志愿者调查社区热环境，却发现阳光直射的温度计和紧贴墙壁的温度计不能公平比较。罗莎帮助团队区分标准化气温与居民实际承受的热暴露，最后用测量、遮阴缺口、候车时长和无障碍需求共同制定公交站改进方案。
-cast:
-  narrator: {display_name: 旁白, tts: {delivery: 稳重并带一点幽默, timbre: 清晰的成年声音, pace: 中速, pitch: 中音}}
-  lin: {display_name: 林, tts: {delivery: 严谨并逐渐更有耐心, timbre: 明亮的少年声音, pace: 中快, pitch: 中高音}}
-  rosa: {display_name: 罗莎, tts: {delivery: 温暖而善于追问, timbre: 沉稳的成年声音, pace: 中速, pitch: 中低音}}
-  dev: {display_name: 德夫, tts: {delivery: 耐心而专业, timbre: 温暖的年长声音, pace: 中慢, pitch: 中低音}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "林带领志愿者拿着相同温度计走进炎热的城市社区。"}, {speaker: lin, text: "我们要比较每个地点的读数，找出最热的街区。"}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "罗莎和乘客在没有遮阴的公交站等待，旁边铺着深色路面。"}, {speaker: rosa, text: "先从这里开始。人们停留在热里的时间比地图显示得更久。"}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "林把温度计直接举在站棚旁的强烈阳光里。"}, {speaker: narrator, text: "读数很快上升，她把这里标成第一个极端高温点。"}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "德夫把仪器移进通风的白色防辐射罩。"}, {speaker: dev, text: "阳光会加热仪器本身。可比较的气温读数需要遮阴和空气流通。"}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "志愿者把有防护罩的传感器放在相同高度、不同环境上方。"}, {speaker: narrator, text: "他们使用同样设备和观察时间，减少同时变化的条件。"}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "一台靠近路面，一台位于草地上方，两台都遮阴而且通风。"}, {speaker: lin, text: "现在出现的差别，就不太可能来自仪器受到的照射不同。"}]}
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "林比较标准化读数。"}, {speaker: rosa, text: "乘客还会触碰长椅、穿过路面、在没有树荫处等候。这些条件在哪里？"}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "一个孩子避开被太阳晒热的金属长椅，选择阴影里的座位。"}, {speaker: narrator, text: "长椅表面可能烫得危险，即使它测量的并不是空气温度。"}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "林把气温卡与表面、阴影和等候时间卡分开放置。"}, {speaker: lin, text: "一次测量不能回答所有热问题，必须说明每种观察代表什么。"}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "志愿者在当天较晚时重复测量相同地点。"}, {speaker: narrator, text: "重复时间点可以判断一个意外高值在相似条件下会持续还是消失。"}]}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "一条街有连续树荫，下一条街却露出大片路面。"}, {speaker: narrator, text: "两处标准化气温有差别，步行感受的差别却更加明显。"}]}
-  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: "罗莎陪林走完整条公交路线，指出乘客等候最久的位置。"}, {speaker: rosa, text: "热暴露取决于人在哪里、周围有什么，以及停留多久。"}]}
-  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: "德夫发现一只防护罩挤在被太阳晒热的墙边，通风很差。"}, {speaker: dev, text: "这里违反共同设置，读数不该放进可比较的一组。"}]}
-  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "林从比较中移除这个数值，却保留它并注明摆放问题。"}, {speaker: lin, text: "拒绝一次错误比较，不等于隐藏让我们学到东西的错误。"}]}
-  - {id: p15, illustration: p15, lines: [{speaker: narrator, text: "居民用彩色圆片补充拥挤等候、陡坡、缺少阴影和滚烫表面的经历。"}, {speaker: narrator, text: "路线经验成了另一组资料，不再只是温度计旁的装饰。"}]}
-  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "立体地图结合测量地点、遮阴缺口和长时间等候。"}, {speaker: narrator, text: "多种证据共同显示，热暴露可能在哪里给居民带来最大负担。"}]}
-  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: "林指出标准化气温最高的地点。"}, {speaker: rosa, text: "它很重要，但另一站阴影更少、长椅更烫，等车时间还是两倍。"}]}
-  - {id: p18, illustration: p18, lines: [{speaker: narrator, text: "大家区分“气温排名”和“公共改进优先级”。"}, {speaker: narrator, text: "两个问题互有联系，但热暴露和通行条件会改变首先需要行动的地点。"}]}
-  - {id: p19, illustration: p19, lines: [{speaker: narrator, text: "居民测试临时布棚，确保它不阻挡人行道和司机视线。"}, {speaker: narrator, text: "乘客比较舒适度，志愿者则继续进行标准化测量。"}]}
-  - {id: p20, illustration: p20, lines: [{speaker: narrator, text: "园林人员寻找远离地下和空中管线、适合树木生长的位置。"}, {speaker: narrator, text: "长久树荫还需要合适根系、浇水、维护和清楚的无障碍道路。"}]}
-  - {id: p21, illustration: p21, lines: [{speaker: narrator, text: "公交站增加宽大遮阳棚、较凉的座椅材料和无阻碍通道。"}, {speaker: rosa, text: "设计终于同时回应等候、接触、移动和空气，不再只回应一个数。"}]}
-  - {id: p22, illustration: p22, lines: [{speaker: narrator, text: "新行道树只种在路线中真正合适的地段。"}, {speaker: narrator, text: "保护圈帮助浇水，同时保持步行表面清楚平整。"}]}
-  - {id: p23, illustration: p23, lines: [{speaker: narrator, text: "志愿者重复相同的遮阴测量，居民也记录路线感受。"}, {speaker: lin, text: "我们能同时追踪物理变化和亲身经历，却不把它们假装成同一种测量。"}]}
-  - {id: p24, illustration: p24, lines: [{speaker: narrator, text: "林、罗莎、德夫和乘客坐在阴影里休息，监测工具仍放在旁边。"}, {speaker: lin, text: "公平的方法让数字更可靠，更全面的问题让数字真正有用。"}]}
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: 林带领志愿者拿着相同温度计走进炎热的城市社区。林说：“
+            - text: 我们要比较每个地点的读数，找出最热的街区。”
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: 罗莎和乘客在没有遮阴的公交站等待，旁边铺着深色路面。罗莎说：“
+            - text: 先从这里开始。人们停留在热里的时间比地图显示得更久。”
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: 林把温度计直接举在站棚旁的强烈阳光里。
+            - text: 读数很快上升，林立刻把这里标成目前最热的一站。
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: 德夫把仪器移进通风的白色防辐射罩。德夫说：“
+            - text: 阳光会加热仪器本身。可比较的气温读数需要遮阴和空气流通。”
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: 志愿者把有防护罩的传感器放在相同高度、不同环境上方。
+            - text: 这样，地点不同，仪器、高度和观察时间却尽量相同。
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: 一台靠近路面，一台位于草地上方，两台都遮阴而且通风。林说：“
+            - text: 至少现在，两台仪器得到的阴影和通风条件一样。”
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: 林比较标准化读数。罗莎说：“
+            - text: 乘客还会触碰长椅、穿过路面、在没有树荫处等候。这些条件在哪里？”
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - text: 一个孩子避开被太阳晒热的金属长椅，选择阴影里的座位。
+            - text: 滚烫的长椅和发热的空气，是两种不同的观察。
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - content:
+            - text: 林把气温卡与表面、阴影和等候时间卡分开放置。林说：“
+            - text: 气温读数放一组，地面、阴影和等候记录放另一组。”
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - content:
+            - text: 志愿者在当天较晚时重复测量相同地点。
+            - text: 这样可以看出，刚才的高值是一直存在，还是偶然出现。
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - content:
+            - text: 一条街有连续树荫，下一条街却露出大片路面。
+            - text: 两处标准化气温有差别，步行感受的差别却更加明显。
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - content:
+            - text: 罗莎陪林走完整条公交路线，指出乘客等候最久的位置。罗莎说：“
+            - text: 热不只是温度计上的数字，还要看人在什么地方等、等多久。”
+    - id: p13
+      illustration: p13
+      paragraphs:
+        - content:
+            - text: 德夫发现一只防护罩挤在被太阳晒热的墙边，通风很差。德夫说：“
+            - text: 这台离热墙太近。读数留着，但别放进比较。”
+    - id: p14
+      illustration: p14
+      paragraphs:
+        - content:
+            - text: 林从比较中移除这个数值，却保留它并注明摆放问题。林说：“
+            - text: 我会写清楚为什么删掉它。这个错误还是教了我们东西。”
+    - id: p15
+      illustration: p15
+      paragraphs:
+        - content:
+            - text: 居民把彩色圆片放到立体图上，标出排队久、坡陡和没有阴影的地方。
+            - text: 这些日常经验也成了一组可以比较的记录。
+    - id: p16
+      illustration: p16
+      paragraphs:
+        - content:
+            - text: 测量点、阴影缺口和候车时间叠在一起。
+            - text: 几处最难受的站点渐渐显了出来。
+    - id: p17
+      illustration: p17
+      paragraphs:
+        - content:
+            - text: 林指出标准化气温最高的地点。罗莎说：“
+            - text: 它很重要，但另一站阴影更少、长椅更烫，等车时间还是两倍。”
+    - id: p18
+      illustration: p18
+      paragraphs:
+        - content:
+            - text: 气温最高的一站，不一定是最该先改的一站。
+            - text: 等候时间、阴影和通行条件也会改变顺序。
+    - id: p19
+      illustration: p19
+      paragraphs:
+        - content:
+            - text: 居民测试临时布棚，确保它不阻挡人行道和司机视线。
+            - text: 乘客比较舒适度，志愿者则继续进行标准化测量。
+    - id: p20
+      illustration: p20
+      paragraphs:
+        - content:
+            - text: 园林人员寻找远离地下和空中管线、适合树木生长的位置。
+            - text: 长久的树荫还需要合适的根系空间、浇水、维护和畅通的无障碍通道。
+    - id: p21
+      illustration: p21
+      paragraphs:
+        - content:
+            - text: 公交站增加宽大遮阳棚、较凉的座椅材料和无阻碍通道。罗莎说：“
+            - text: 现在乘客能在阴影里等车，碰到座椅也不烫，去车门的路还很顺。”
+    - id: p22
+      illustration: p22
+      paragraphs:
+        - content:
+            - text: 新行道树只种在路线中真正合适的地段。
+            - text: 保护圈方便浇水，人行道也保持平整通畅。
+    - id: p23
+      illustration: p23
+      paragraphs:
+        - content:
+            - text: 志愿者重复相同的遮阴测量，居民也记录路线感受。林说：“
+            - text: 下个月两种检查都重做：防护罩里的读数，还有乘客走这条路的感受。”
+    - id: p24
+      illustration: p24
+      paragraphs:
+        - content:
+            - text: 林、罗莎、德夫和乘客坐在阴影里休息，监测工具仍放在旁边。林说：“
+            - text: 工具先别收走。等树长一阵，我们再来测。”
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 稳重并带一点幽默
+        timbre: 清晰的成年声音
+        pace: 中速
+        pitch: 中音
+    lin:
+      display_name: 林
+      tts:
+        delivery: 严谨并逐渐更有耐心
+        timbre: 明亮的少年声音
+        pace: 中快
+        pitch: 中高音
+    rosa:
+      display_name: 罗莎
+      tts:
+        delivery: 温暖而善于追问
+        timbre: 沉稳的成年声音
+        pace: 中速
+        pitch: 中低音
+    dev:
+      display_name: 德夫
+      tts:
+        delivery: 耐心而专业
+        timbre: 温暖的年长声音
+        pace: 中慢
+        pitch: 中低音
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: 林带领志愿者拿着相同温度计走进炎热的城市社区。
+        - id: p01-b02
+          speaker: lin
+          text: 我们要比较每个地点的读数，找出最热的街区。
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          text: 罗莎和乘客在没有遮阴的公交站等待，旁边铺着深色路面。
+        - id: p02-b02
+          speaker: rosa
+          text: 先从这里开始。人们停留在热里的时间比地图显示得更久。
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          text: 林把温度计直接举在站棚旁的强烈阳光里。
+        - id: p03-b02
+          speaker: narrator
+          text: 读数很快上升，林立刻把这里标成目前最热的一站。
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: 德夫把仪器移进通风的白色防辐射罩。
+        - id: p04-b02
+          speaker: dev
+          text: 阳光会加热仪器本身。可比较的气温读数需要遮阴和空气流通。
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: 志愿者把有防护罩的传感器放在相同高度、不同环境上方。
+        - id: p05-b02
+          speaker: narrator
+          text: 这样，地点不同，仪器、高度和观察时间却尽量相同。
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: 一台靠近路面，一台位于草地上方，两台都遮阴而且通风。
+        - id: p06-b02
+          speaker: lin
+          text: 至少现在，两台仪器得到的阴影和通风条件一样。
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          text: 林比较标准化读数。
+        - id: p07-b02
+          speaker: rosa
+          text: 乘客还会触碰长椅、穿过路面、在没有树荫处等候。这些条件在哪里？
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          text: 一个孩子避开被太阳晒热的金属长椅，选择阴影里的座位。
+        - id: p08-b02
+          speaker: narrator
+          text: 滚烫的长椅和发热的空气，是两种不同的观察。
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          text: 林把气温卡与表面、阴影和等候时间卡分开放置。
+        - id: p09-b02
+          speaker: lin
+          text: 气温读数放一组，地面、阴影和等候记录放另一组。
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          text: 志愿者在当天较晚时重复测量相同地点。
+        - id: p10-b02
+          speaker: narrator
+          text: 这样可以看出，刚才的高值是一直存在，还是偶然出现。
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          text: 一条街有连续树荫，下一条街却露出大片路面。
+        - id: p11-b02
+          speaker: narrator
+          text: 两处标准化气温有差别，步行感受的差别却更加明显。
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          text: 罗莎陪林走完整条公交路线，指出乘客等候最久的位置。
+        - id: p12-b02
+          speaker: rosa
+          text: 热不只是温度计上的数字，还要看人在什么地方等、等多久。
+    - id: p13
+      illustration: p13
+      blocks:
+        - id: p13-b01
+          speaker: narrator
+          text: 德夫发现一只防护罩挤在被太阳晒热的墙边，通风很差。
+        - id: p13-b02
+          speaker: dev
+          text: 这台离热墙太近。读数留着，但别放进比较。
+    - id: p14
+      illustration: p14
+      blocks:
+        - id: p14-b01
+          speaker: narrator
+          text: 林从比较中移除这个数值，却保留它并注明摆放问题。
+        - id: p14-b02
+          speaker: lin
+          text: 我会写清楚为什么删掉它。这个错误还是教了我们东西。
+    - id: p15
+      illustration: p15
+      blocks:
+        - id: p15-b01
+          speaker: narrator
+          text: 居民把彩色圆片放到立体图上，标出排队久、坡陡和没有阴影的地方。
+        - id: p15-b02
+          speaker: narrator
+          text: 这些日常经验也成了一组可以比较的记录。
+    - id: p16
+      illustration: p16
+      blocks:
+        - id: p16-b01
+          speaker: narrator
+          text: 测量点、阴影缺口和候车时间叠在一起。
+        - id: p16-b02
+          speaker: narrator
+          text: 几处最难受的站点渐渐显了出来。
+    - id: p17
+      illustration: p17
+      blocks:
+        - id: p17-b01
+          speaker: narrator
+          text: 林指出标准化气温最高的地点。
+        - id: p17-b02
+          speaker: rosa
+          text: 它很重要，但另一站阴影更少、长椅更烫，等车时间还是两倍。
+    - id: p18
+      illustration: p18
+      blocks:
+        - id: p18-b01
+          speaker: narrator
+          text: 气温最高的一站，不一定是最该先改的一站。
+        - id: p18-b02
+          speaker: narrator
+          text: 等候时间、阴影和通行条件也会改变顺序。
+    - id: p19
+      illustration: p19
+      blocks:
+        - id: p19-b01
+          speaker: narrator
+          text: 居民测试临时布棚，确保它不阻挡人行道和司机视线。
+        - id: p19-b02
+          speaker: narrator
+          text: 乘客比较舒适度，志愿者则继续进行标准化测量。
+    - id: p20
+      illustration: p20
+      blocks:
+        - id: p20-b01
+          speaker: narrator
+          text: 园林人员寻找远离地下和空中管线、适合树木生长的位置。
+        - id: p20-b02
+          speaker: narrator
+          text: 长久的树荫还需要合适的根系空间、浇水、维护和畅通的无障碍通道。
+    - id: p21
+      illustration: p21
+      blocks:
+        - id: p21-b01
+          speaker: narrator
+          text: 公交站增加宽大遮阳棚、较凉的座椅材料和无阻碍通道。
+        - id: p21-b02
+          speaker: rosa
+          text: 现在乘客能在阴影里等车，碰到座椅也不烫，去车门的路还很顺。
+    - id: p22
+      illustration: p22
+      blocks:
+        - id: p22-b01
+          speaker: narrator
+          text: 新行道树只种在路线中真正合适的地段。
+        - id: p22-b02
+          speaker: narrator
+          text: 保护圈方便浇水，人行道也保持平整通畅。
+    - id: p23
+      illustration: p23
+      blocks:
+        - id: p23-b01
+          speaker: narrator
+          text: 志愿者重复相同的遮阴测量，居民也记录路线感受。
+        - id: p23-b02
+          speaker: lin
+          text: 下个月两种检查都重做：防护罩里的读数，还有乘客走这条路的感受。
+    - id: p24
+      illustration: p24
+      blocks:
+        - id: p24-b01
+          speaker: narrator
+          text: 林、罗莎、德夫和乘客坐在阴影里休息，监测工具仍放在旁边。
+        - id: p24-b02
+          speaker: lin
+          text: 工具先别收走。等树长一阵，我们再来测。
 chapters:
-  - {id: ch01, title: 阳光里的数字, page_refs: [p01, p02, p03, p04, p05, p06]}
-  - {id: ch02, title: 不只是空气, page_refs: [p07, p08, p09, p10, p11, p12]}
-  - {id: ch03, title: 公平比较, page_refs: [p13, p14, p15, p16, p17, p18]}
-  - {id: ch04, title: 把证据变成阴影, page_refs: [p19, p20, p21, p22, p23, p24]}
+  - id: ch01
+    title: 阳光里的数字
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
+  - id: ch02
+    title: 不只是空气
+    page_refs:
+      - p07
+      - p08
+      - p09
+      - p10
+      - p11
+      - p12
+  - id: ch03
+    title: 公平比较
+    page_refs:
+      - p13
+      - p14
+      - p15
+      - p16
+      - p17
+      - p18
+  - id: ch04
+    title: 把证据变成阴影
+    page_refs:
+      - p19
+      - p20
+      - p21
+      - p22
+      - p23
+      - p24
 questions:
-  - {id: q01, type: evidence, speaker: narrator, prompt: "哪些细节说明林最初的温度计读数不能公平比较？", answer: "它受到阳光直接加热，而规范气温传感器应遮阴、通风、放在相同高度，并在对应时间观察。", page_refs: [p03, p04, p05, p06]}
-  - {id: q02, type: compare, speaker: narrator, prompt: "标准化气温和热暴露分别回答什么问题？", answer: "标准化气温比较统一设置下的空气；热暴露还考虑表面、阴影、位置、时长、移动和人的感受。", page_refs: [p04, p07, p08, p09, p12]}
-  - {id: q03, type: cause-effect, speaker: narrator, prompt: "林为什么从可比较数据中移除贴墙读数？", answer: "热墙和通风不足违反共同设置，差异可能来自摆放位置，而不是社区空气。", page_refs: [p05, p13, p14]}
-  - {id: q04, type: evaluate, speaker: narrator, prompt: "气温不是最高的车站为什么仍可能先得到改进？", answer: "长时间等候、缺少阴影、表面滚烫、通行困难和使用人数都可能造成更大的实际热负担。", page_refs: [p12, p15, p16, p17, p18]}
-  - {id: q05, type: character-motive, speaker: narrator, prompt: "林为什么把被拒绝的读数保留为摆放教训？", answer: "她希望记录解释错误，帮助未来志愿者避免重复，而不是把问题藏起来。", page_refs: [p13, p14, p23]}
-  - {id: q06, type: main-idea, speaker: narrator, prompt: "项目发生了什么中心变化？", answer: "团队既加强测量的一致性，也把问题从气温排名扩大到居民在哪里承受较大的热负担。", page_refs: [p04, p05, p09, p12, p16, p18, p23, p24]}
+  - id: q01
+    type: evidence
+    speaker: narrator
+    prompt: 哪些细节说明林最初的温度计读数不能公平比较？
+    answer: 它受到阳光直接加热，而规范气温传感器应遮阴、通风、放在相同高度，并在对应时间观察。
+    page_refs:
+      - p03
+      - p04
+      - p05
+      - p06
+  - id: q02
+    type: compare
+    speaker: narrator
+    prompt: 标准化气温和热暴露分别回答什么问题？
+    answer: 标准化气温比较统一设置下的空气；热暴露还考虑表面、阴影、位置、时长、移动和人的感受。
+    page_refs:
+      - p04
+      - p07
+      - p08
+      - p09
+      - p12
+  - id: q03
+    type: cause-effect
+    speaker: narrator
+    prompt: 林为什么从可比较数据中移除贴墙读数？
+    answer: 热墙和通风不足违反共同设置，差异可能来自摆放位置，而不是社区空气。
+    page_refs:
+      - p05
+      - p13
+      - p14
+  - id: q04
+    type: evaluate
+    speaker: narrator
+    prompt: 气温不是最高的车站为什么仍可能先得到改进？
+    answer: 长时间等候、缺少阴影、表面滚烫、通行困难和使用人数都可能造成更大的实际热负担。
+    page_refs:
+      - p12
+      - p15
+      - p16
+      - p17
+      - p18
+  - id: q05
+    type: character-motive
+    speaker: narrator
+    prompt: 林为什么把被拒绝的读数保留为摆放教训？
+    answer: 她希望记录解释错误，帮助未来志愿者避免重复，而不是把问题藏起来。
+    page_refs:
+      - p13
+      - p14
+      - p23
+  - id: q06
+    type: main-idea
+    speaker: narrator
+    prompt: 项目发生了什么中心变化？
+    answer: 团队既加强测量的一致性，也把问题从气温排名扩大到居民在哪里承受较大的热负担。
+    page_refs:
+      - p04
+      - p05
+      - p09
+      - p12
+      - p16
+      - p18
+      - p23
+      - p24

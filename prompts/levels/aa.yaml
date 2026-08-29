@@ -1,0 +1,57 @@
+schema_version: 1
+id: aa
+external_reference:
+  reading_a_z_label: aa
+  age_band: 4-5
+  en_grade_reference: Pre-K
+  en_lexile_reference: BR70L-10L
+reading_goal: match one repeated spoken frame to a familiar pictured object or action
+prompt: Write at HaiLibrary Level AA to match one repeated spoken frame to a familiar pictured object or action. Use one natural oral frame whose small change is meaningful and visible. Keep it warm and speakable, never a list of grammar-drill fragments.
+text_contract:
+  structure: exact repetition with one meaningful change
+  syntax: labels fragments or one short clause
+  vocabulary: oral concrete and very-high-frequency
+  knowledge: immediate familiar concepts
+  illustration_reliance: essential
+  inference: none
+complexity_floor:
+  - the frame changes one meaningful item
+  - the reader can point to the answer
+pages:
+  min: 6
+  max: 10
+questions:
+  min: 1
+  max: 2
+  types:
+    - picture
+    - explicit-choice
+  required:
+    - picture
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 1
+      - 4
+    sentences_per_page_max: 1
+    units_per_sentence_max: 5
+    units_per_page_typical:
+      - 1
+      - 5
+    units_per_page_max: 6
+    units_total_min: 8
+    units_total_max: 30
+    new_words_per_page_max: 1
+  zh:
+    mean_sentence_units_typical:
+      - 2
+      - 6
+    sentences_per_page_max: 1
+    units_per_sentence_max: 7
+    units_per_page_typical:
+      - 2
+      - 7
+    units_per_page_max: 8
+    units_total_min: 12
+    units_total_max: 45
+    new_words_per_page_max: 1

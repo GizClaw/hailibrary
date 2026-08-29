@@ -1,51 +1,314 @@
-schema_version: 1
+schema_version: 2
 language: zh-CN
 writer: 月芽笺
 title: 会记得的果园
-summary: 伊莎相信老树，不愿种陌生的蓝种子。热风让果园变弱后，老树根伸向那颗种子。伊莎终于决定让老树和新苗一起生长。
-cast:
-  narrator: {display_name: 旁白, tts: {delivery: 温暖细致, timbre: 柔和的成年声音, pace: 中慢速, pitch: 中音}}
-  isa: {display_name: 伊莎, tts: {delivery: 稳重含蓄, timbre: 沉静的年长声音, pace: 慢速, pitch: 中低音}}
-  jun: {display_name: 小君, tts: {delivery: 好奇平和, timbre: 清楚的成年声音, pace: 中速, pitch: 中音}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 伊莎从一排排老树上采红果。}]}
-  - id: p02
-    illustration: p02
-    lines:
-      - speaker: narrator
-        content: [{text: 小君带来许多没有字的}, {vocabulary: {id: seed, text: 种子}}, {text: 袋。}]
-  - id: p03
-    illustration: p03
-    lines:
-      - speaker: narrator
-        content: [{text: 小君递出一颗深蓝色}, {vocabulary: {id: seed, text: 种子}}, {text: 。}]
-      - {speaker: jun, text: 它也许能适应干热天气。}
-  - {id: p04, illustration: p04, lines: [{speaker: isa, text: 这些老树一直养活我们。}, {speaker: narrator, text: 伊莎把种子还了回去。}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 干热的风卷起树叶。}, {speaker: narrator, text: 小果子提前落下。}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 伊莎看见空篮子和越来越薄的树荫。}]}
-  - id: p07
-    illustration: p07
-    lines:
-      - speaker: narrator
-        content: [{text: 小君把蓝}, {vocabulary: {id: seed, text: 种子}}, {text: 放在裂开的土边。}]
-      - {speaker: narrator, text: 她没有种下去。}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 地下的老树根弯向等待的种子。}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 根的花纹浮到土面。}, {speaker: isa, text: 果园也在寻找改变。}]}
-  - id: p10
-    illustration: p10
-    lines:
-      - speaker: narrator
-        content: [{text: 伊莎和小君一起种下蓝}, {vocabulary: {id: seed, text: 种子}}, {text: 。}]
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: 蓝绿色的新芽从老树边冒出。}, {speaker: narrator, text: 老枝为它遮阴。}]}
-  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: 新枝和老枝织成一片树荫。}]}
-  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: 伊莎装满一篮红果和蓝果。}]}
-  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: 伊莎送给小君一袋新旧种子。}, {speaker: isa, text: 把两种都带去远方吧。}]}
+summary: 伊莎只相信果园里的老树，不肯收下一颗陌生的蓝种子。干热的风吹弱了果树，老树根却告诉她，记住过去也能给新事物留个位置。
 chapters:
-  - {id: ch01, title: 陌生的种子, page_refs: [p01, p02, p03, p04]}
-  - {id: ch02, title: 果园伸出树根, page_refs: [p05, p06, p07, p08, p09, p10]}
-  - {id: ch03, title: 新树和老树, page_refs: [p11, p12, p13, p14]}
+  - id: ch01
+    title: 陌生的种子
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+  - id: ch02
+    title: 果园伸出树根
+    page_refs:
+      - p05
+      - p06
+      - p07
+      - p08
+      - p09
+      - p10
+  - id: ch03
+    title: 新树和老树
+    page_refs:
+      - p11
+      - p12
+      - p13
+      - p14
 questions:
-  - {id: q01, type: sequence, speaker: narrator, prompt: 种下蓝种子前发生了什么？, answer: 热风让果园变弱，老树根又伸向种子。, page_refs: [p05, p06, p07, p08, p09, p10]}
-  - {id: q02, type: cause-effect, speaker: narrator, prompt: 伊莎为什么改变主意？, answer: 老树变弱了，树根又在靠近新种子。, page_refs: [p05, p06, p08, p09]}
-  - {id: q03, type: short-answer, speaker: narrator, prompt: 什么说明新树和老树能一起生长？, answer: 枝条一起遮阴，两种果子也装进同一个篮子。, page_refs: [p11, p12, p13]}
-  - {id: q04, type: explicit-choice, speaker: narrator, prompt: 伊莎送给小君什么？, choices: [一袋新旧种子, 空篮子, 断树枝], answer: 一袋新旧种子。, page_refs: [p14]}
+  - id: q01
+    type: sequence
+    speaker: narrator
+    prompt: 种下蓝种子前发生了什么？
+    answer: 热风让果园变弱，老树根又伸向种子。
+    page_refs:
+      - p05
+      - p06
+      - p07
+      - p08
+      - p09
+      - p10
+  - id: q02
+    type: cause-effect
+    speaker: narrator
+    prompt: 伊莎为什么改变主意？
+    answer: 老树变弱了，树根又在靠近新种子。
+    page_refs:
+      - p05
+      - p06
+      - p08
+      - p09
+  - id: q03
+    type: short-answer
+    speaker: narrator
+    prompt: 什么说明新树和老树能一起生长？
+    answer: 枝条一起遮阴，两种果子也装进同一个篮子。
+    page_refs:
+      - p11
+      - p12
+      - p13
+  - id: q04
+    type: explicit-choice
+    speaker: narrator
+    prompt: 伊莎送给小君什么？
+    choices:
+      - 一袋新旧种子
+      - 空篮子
+      - 断树枝
+    answer: 一袋新旧种子。
+    page_refs:
+      - p14
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: 伊莎从最老的几排果树上采下一篮红果。
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: 小君从远方来，挎包里装着无字的
+            - vocabulary:
+                id: seed
+                text: 种子
+            - text: 袋。
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: 她摊开手掌，露出一颗深蓝色
+            - vocabulary:
+                id: seed
+                text: 种子
+            - text: 。“它也许不怕干热的天。”
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: 伊莎把种子递回去：“老树一直养着我们。”
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: 没过多久，干热的风卷起树叶。小果子还没长好，就落了下来。
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: 篮子一天比一天空，树荫也一天比一天薄。
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: 小君把蓝
+            - vocabulary:
+                id: seed
+                text: 种子
+            - text: 放在土缝旁，等伊莎决定。
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - text: 泥土下，老树根慢慢弯向那颗种子。
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - content:
+            - text: 根的纹路浮上土面。伊莎轻声说：“果园也想试一试。”
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - content:
+            - text: 伊莎拿起蓝
+            - vocabulary:
+                id: seed
+                text: 种子
+            - text: ，和小君种在老树旁。
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - content:
+            - text: 蓝绿的新芽钻出土，老枝在上方为它遮阴。
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - content:
+            - text: 季节慢慢走过，新枝和老枝织出同一片树荫。
+    - id: p13
+      illustration: p13
+      paragraphs:
+        - content:
+            - text: 收获时，伊莎把红果和蓝果装进同一个篮子。
+    - id: p14
+      illustration: p14
+      paragraphs:
+        - content:
+            - text: 伊莎把种子交给小君：“都带上，别处也许需要。”
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖细致
+        timbre: 柔和的成年声音
+        pace: 中慢速
+        pitch: 中音
+    isa:
+      display_name: 伊莎
+      tts:
+        delivery: 稳重含蓄
+        timbre: 沉静的年长声音
+        pace: 慢速
+        pitch: 中低音
+    jun:
+      display_name: 小君
+      tts:
+        delivery: 好奇平和
+        timbre: 清楚的成年声音
+        pace: 中速
+        pitch: 中音
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          content:
+            - text: 伊莎从最老的几排果树上采下一篮红果。
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - text: 小君从远方来，挎包里装着无字的
+            - vocabulary:
+                id: seed
+                text: 种子
+            - text: 袋。
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          content:
+            - text: 小君摊开手掌，露出一颗深蓝色
+            - vocabulary:
+                id: seed
+                text: 种子
+            - text: 。
+        - id: p03-b02
+          speaker: jun
+          content:
+            - text: 它也许不怕干热的天。
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          content:
+            - text: 伊莎把种子递回去。
+        - id: p04-b02
+          speaker: isa
+          content:
+            - text: 老树一直养着我们。
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          content:
+            - text: 没过多久，干热的风卷起树叶。小果子还没长好，就落了下来。
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          content:
+            - text: 篮子一天比一天空，树荫也一天比一天薄。
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          content:
+            - text: 小君把蓝
+            - vocabulary:
+                id: seed
+                text: 种子
+            - text: 放在土缝旁，等伊莎决定。
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          content:
+            - text: 泥土下，老树根慢慢弯向那颗种子。
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          content:
+            - text: 根的纹路浮上土面。
+        - id: p09-b02
+          speaker: isa
+          content:
+            - text: 果园也想试一试。
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          content:
+            - text: 伊莎拿起蓝
+            - vocabulary:
+                id: seed
+                text: 种子
+            - text: ，和小君种在老树旁。
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          content:
+            - text: 蓝绿的新芽钻出土，老枝在上方为它遮阴。
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          content:
+            - text: 季节慢慢走过，新枝和老枝织出同一片树荫。
+    - id: p13
+      illustration: p13
+      blocks:
+        - id: p13-b01
+          speaker: narrator
+          content:
+            - text: 收获时，伊莎把红果和蓝果装进同一个篮子。
+    - id: p14
+      illustration: p14
+      blocks:
+        - id: p14-b01
+          speaker: narrator
+          content:
+            - text: 伊莎把种子交给小君。
+        - id: p14-b02
+          speaker: isa
+          content:
+            - text: 都带上，别处也许需要。

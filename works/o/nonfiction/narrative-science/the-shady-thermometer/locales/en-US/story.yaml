@@ -1,47 +1,500 @@
-schema_version: 1
+schema_version: 2
 language: en-US
 writer: river-wink
 title: The Shady Thermometer
 summary: Lin's volunteers measure neighborhood heat, but a thermometer in direct sun and another beside a wall cannot be compared fairly. Rosa helps the team separate standardized air temperature from people's actual heat exposure, leading to a bus-stop plan based on measurements, shade gaps, wait times, and accessible design.
-cast:
-  narrator: {display_name: Narrator, tts: {delivery: measured with light humor, timbre: clear adult voice, pace: medium, pitch: medium}}
-  lin: {display_name: Lin, tts: {delivery: exact and increasingly patient, timbre: bright teen voice, pace: medium-fast, pitch: medium-high}}
-  rosa: {display_name: Rosa, tts: {delivery: warm and challenging, timbre: grounded adult voice, pace: medium, pitch: medium-low}}
-  dev: {display_name: Dev, tts: {delivery: patient and technical, timbre: warm older-adult voice, pace: medium-slow, pitch: medium-low}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "On a clear summer morning, Lin leads volunteers carrying identical thermometers through a hot city neighborhood."}, {speaker: lin, text: "We will find the hottest block by carefully comparing repeated readings from every site."}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "Rosa waits with several passengers beside an unshaded bus stop, metal bench, and wide dark pavement."}, {speaker: rosa, text: "Start here. People stand in this exposed heat much longer than your route map suggests."}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "Lin holds a thermometer directly in bright sunlight near the shelter."}, {speaker: narrator, text: "Its reading rises quickly, and Lin marks the stop as the first extreme site."}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "Dev moves the instrument into a white, ventilated shield."}, {speaker: dev, text: "Direct solar heating can warm the instrument itself. We need shade and airflow for comparable air readings."}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Following one shared plan, volunteers place shielded sensors at matching heights over several different surroundings."}, {speaker: narrator, text: "They use the same equipment and scheduled observation times so fewer important conditions change at once."}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "One sensor stands near pavement and another over grass, both shaded and ventilated."}, {speaker: lin, text: "Now a difference is less likely to come from unequal instrument exposure."}]}
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "Lin compares the standardized readings."}, {speaker: rosa, text: "Passengers also touch the bench, cross the pavement, and wait without tree shade. Where are those conditions?"}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "A child avoids a sun-heated metal bench and chooses a shaded seat."}, {speaker: narrator, text: "The bench surface can feel dangerously hot even when it is not measuring air temperature."}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "Lin separates air-temperature cards from cards describing surfaces, shade, and waiting."}, {speaker: lin, text: "One measurement cannot answer every heat question, so we must name what each observation represents."}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "Volunteers return and repeat every measurement at the same sites later in the hot afternoon."}, {speaker: narrator, text: "Repeated timing shows whether one surprising value persists or disappears when the setup remains comparable."}]}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "One tree-lined block offers continuous shade; the next exposes wide pavement."}, {speaker: narrator, text: "Their standardized air readings differ, but not as dramatically as their walking conditions."}]}
-  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: "Rosa walks the bus route with Lin and identifies the longest passenger waits."}, {speaker: rosa, text: "Exposure depends on where people are, what surrounds them, and how long they remain."}]}
-  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: "Dev finds one shield crowded against a sun-warmed wall with poor airflow."}, {speaker: dev, text: "This site violates our setup. Its reading should not enter the comparable group."}]}
-  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "Lin removes that value from the comparison but preserves it with a note about placement."}, {speaker: lin, text: "Discarding a bad comparison does not mean hiding the mistake that taught us something."}]}
-  - {id: p15, illustration: p15, lines: [{speaker: narrator, text: "Residents add different colored tokens for crowded waits, steep crossings, missing shade, and frequently touched hot surfaces."}, {speaker: narrator, text: "Their repeated route experience becomes another organized dataset rather than decoration around the thermometers."}]}
-  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "The relief map combines measurement sites, shade gaps, and long waits."}, {speaker: narrator, text: "Several kinds of evidence now reveal where heat exposure may burden people most."}]}
-  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: "Lin presents the highest standardized air-temperature site."}, {speaker: rosa, text: "That is important, but another stop has less shade, a hotter bench, and twice the waiting time."}]}
-  - {id: p18, illustration: p18, lines: [{speaker: narrator, text: "The group now distinguishes a standardized temperature ranking from a practical priority for public improvement."}, {speaker: narrator, text: "The two questions overlap, yet total exposure and accessible movement can change which site needs action first."}]}
-  - {id: p19, illustration: p19, lines: [{speaker: narrator, text: "Residents test temporary fabric shade without blocking the sidewalk or driver sight lines."}, {speaker: narrator, text: "Passengers compare comfort while volunteers continue the standardized measurements."}]}
-  - {id: p20, illustration: p20, lines: [{speaker: narrator, text: "City gardeners inspect places where future trees can grow away from underground and overhead utilities."}, {speaker: narrator, text: "Shade that survives requires suitable roots, watering, maintenance, and clear accessible paths."}]}
-  - {id: p21, illustration: p21, lines: [{speaker: narrator, text: "The bus stop receives a broad canopy, cooler seating material, and an unobstructed path."}, {speaker: rosa, text: "The design now responds to waiting, touch, movement, and air—not one number alone."}]}
-  - {id: p22, illustration: p22, lines: [{speaker: narrator, text: "New young street trees are planted only in carefully selected, suitable parts of the route."}, {speaker: narrator, text: "Protective rings support watering while keeping the walking surface clear."}]}
-  - {id: p23, illustration: p23, lines: [{speaker: narrator, text: "Volunteers repeat the same shielded measurements as residents record how the route feels."}, {speaker: lin, text: "We can track physical change and lived experience without pretending they are identical measures."}]}
-  - {id: p24, illustration: p24, lines: [{speaker: narrator, text: "At the end of the route, Lin, Rosa, Dev, and several passengers rest in deep shade beside the monitoring kit."}, {speaker: lin, text: "A fair method made our numbers stronger. A broader question made them useful."}]}
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: On a clear summer morning, Lin leads volunteers carrying identical thermometers through a hot city neighborhood. Lin says, “
+            - text: We will find the hottest block by carefully comparing repeated readings from every site.”
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: Rosa waits with several passengers beside an unshaded bus stop, metal bench, and wide dark pavement. Rosa says, “
+            - text: Start here. People stand in this exposed heat much longer than your route map suggests.”
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: "Lin holds a thermometer directly in bright sunlight near the shelter. "
+            - text: The reading rises quickly, and Lin marks it as the hottest stop so far.
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: Dev moves the instrument into a white, ventilated shield. Dev says, “
+            - text: Direct solar heating can warm the instrument itself. We need shade and airflow for comparable air readings.”
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: "Following one shared plan, volunteers place shielded sensors at matching heights over several different surroundings. "
+            - text: The places change, but the equipment, height, and observation times stay as similar as possible.
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: One sensor stands near pavement and another over grass, both shaded and ventilated. Lin says, “
+            - text: At least both instruments now get the same shade and airflow.”
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: Lin compares the standardized readings. Rosa says, “
+            - text: Passengers also touch the bench, cross the pavement, and wait without tree shade. Where are those conditions?”
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - text: "A child avoids a sun-heated metal bench and chooses a shaded seat. "
+            - text: A hot bench and a hot patch of air are different observations.
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - content:
+            - text: Lin separates air-temperature cards from cards describing surfaces, shade, and waiting. Lin says, “
+            - text: Keep the air readings in one group and the surface, shade, and waiting notes in another.”
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - content:
+            - text: "Volunteers return and repeat every measurement at the same sites later in the hot afternoon. "
+            - text: They can now see whether the surprising value lasts or disappears under the same setup.
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - content:
+            - text: "One tree-lined block offers continuous shade; the next exposes wide pavement. "
+            - text: Their standardized air readings differ, but not as dramatically as their walking conditions.
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - content:
+            - text: Rosa walks the bus route with Lin and identifies the longest passenger waits. Rosa says, “
+            - text: Heat is not just the reading. It also matters where people wait and for how long.”
+    - id: p13
+      illustration: p13
+      paragraphs:
+        - content:
+            - text: Dev finds one shield crowded against a sun-warmed wall with poor airflow. Dev says, “
+            - text: This sensor is too close to the hot wall. Keep the reading, but take it out of the comparison.”
+    - id: p14
+      illustration: p14
+      paragraphs:
+        - content:
+            - text: Lin removes that value from the comparison but preserves it with a note about placement. Lin says, “
+            - text: I will mark why we removed it. The mistake still taught us something.”
+    - id: p15
+      illustration: p15
+      paragraphs:
+        - content:
+            - text: "Residents add different colored tokens for crowded waits, steep crossings, missing shade, and frequently touched hot surfaces. "
+            - text: The map now includes conditions that the thermometers do not capture.
+    - id: p16
+      illustration: p16
+      paragraphs:
+        - content:
+            - text: "The relief map combines measurement sites, shade gaps, and long waits. "
+            - text: Together, the sites, shade gaps, and waiting times reveal where riders face the greatest heat exposure.
+    - id: p17
+      illustration: p17
+      paragraphs:
+        - content:
+            - text: Lin presents the highest standardized air-temperature site. Rosa says, “
+            - text: That is important, but another stop has less shade, a hotter bench, and twice the waiting time.”
+    - id: p18
+      illustration: p18
+      paragraphs:
+        - content:
+            - text: "The hottest air site is not automatically the first place to improve. "
+            - text: Waiting time, shade, and accessible movement can change the order.
+    - id: p19
+      illustration: p19
+      paragraphs:
+        - content:
+            - text: "Residents test temporary fabric shade without blocking the sidewalk or driver sight lines. "
+            - text: Passengers compare comfort while volunteers continue the standardized measurements.
+    - id: p20
+      illustration: p20
+      paragraphs:
+        - content:
+            - text: "City gardeners inspect places where future trees can grow away from underground and overhead utilities. "
+            - text: Shade trees need room for roots, regular watering, maintenance, and clear accessible paths.
+    - id: p21
+      illustration: p21
+      paragraphs:
+        - content:
+            - text: The bus stop receives a broad canopy, cooler seating material, and an unobstructed path. Rosa says, “
+            - text: Now passengers can wait, touch the seat, and reach the bus without crossing the worst heat.”
+    - id: p22
+      illustration: p22
+      paragraphs:
+        - content:
+            - text: "New young street trees are planted only in carefully selected, suitable parts of the route. "
+            - text: Protective rings support watering while keeping the walking surface clear.
+    - id: p23
+      illustration: p23
+      paragraphs:
+        - content:
+            - text: Volunteers repeat the same shielded measurements as residents record how the route feels. Lin says, “
+            - text: "Next month, repeat both checks: the shielded readings and what riders experience.”"
+    - id: p24
+      illustration: p24
+      paragraphs:
+        - content:
+            - text: At the end of the route, Lin, Rosa, Dev, and several passengers rest in deep shade beside the monitoring kit. Lin says, “
+            - text: Leave the kit packed. We will measure again after the trees have had time to grow.”
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: measured with light humor
+        timbre: clear adult voice
+        pace: medium
+        pitch: medium
+    lin:
+      display_name: Lin
+      tts:
+        delivery: exact and increasingly patient
+        timbre: bright teen voice
+        pace: medium-fast
+        pitch: medium-high
+    rosa:
+      display_name: Rosa
+      tts:
+        delivery: warm and challenging
+        timbre: grounded adult voice
+        pace: medium
+        pitch: medium-low
+    dev:
+      display_name: Dev
+      tts:
+        delivery: patient and technical
+        timbre: warm older-adult voice
+        pace: medium-slow
+        pitch: medium-low
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: On a clear summer morning, Lin leads volunteers carrying identical thermometers through a hot city neighborhood.
+        - id: p01-b02
+          speaker: lin
+          text: We will find the hottest block by carefully comparing repeated readings from every site.
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          text: Rosa waits with several passengers beside an unshaded bus stop, metal bench, and wide dark pavement.
+        - id: p02-b02
+          speaker: rosa
+          text: Start here. People stand in this exposed heat much longer than your route map suggests.
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          text: Lin holds a thermometer directly in bright sunlight near the shelter.
+        - id: p03-b02
+          speaker: narrator
+          text: The reading rises quickly, and Lin marks it as the hottest stop so far.
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: Dev moves the instrument into a white, ventilated shield.
+        - id: p04-b02
+          speaker: dev
+          text: Direct solar heating can warm the instrument itself. We need shade and airflow for comparable air readings.
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: Following one shared plan, volunteers place shielded sensors at matching heights over several different surroundings.
+        - id: p05-b02
+          speaker: narrator
+          text: The places change, but the equipment, height, and observation times stay as similar as possible.
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: One sensor stands near pavement and another over grass, both shaded and ventilated.
+        - id: p06-b02
+          speaker: lin
+          text: At least both instruments now get the same shade and airflow.
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          text: Lin compares the standardized readings.
+        - id: p07-b02
+          speaker: rosa
+          text: Passengers also touch the bench, cross the pavement, and wait without tree shade. Where are those conditions?
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          text: A child avoids a sun-heated metal bench and chooses a shaded seat.
+        - id: p08-b02
+          speaker: narrator
+          text: A hot bench and a hot patch of air are different observations.
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          text: Lin separates air-temperature cards from cards describing surfaces, shade, and waiting.
+        - id: p09-b02
+          speaker: lin
+          text: Keep the air readings in one group and the surface, shade, and waiting notes in another.
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          text: Volunteers return and repeat every measurement at the same sites later in the hot afternoon.
+        - id: p10-b02
+          speaker: narrator
+          text: They can now see whether the surprising value lasts or disappears under the same setup.
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          text: One tree-lined block offers continuous shade; the next exposes wide pavement.
+        - id: p11-b02
+          speaker: narrator
+          text: Their standardized air readings differ, but not as dramatically as their walking conditions.
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          text: Rosa walks the bus route with Lin and identifies the longest passenger waits.
+        - id: p12-b02
+          speaker: rosa
+          text: Heat is not just the reading. It also matters where people wait and for how long.
+    - id: p13
+      illustration: p13
+      blocks:
+        - id: p13-b01
+          speaker: narrator
+          text: Dev finds one shield crowded against a sun-warmed wall with poor airflow.
+        - id: p13-b02
+          speaker: dev
+          text: This sensor is too close to the hot wall. Keep the reading, but take it out of the comparison.
+    - id: p14
+      illustration: p14
+      blocks:
+        - id: p14-b01
+          speaker: narrator
+          text: Lin removes that value from the comparison but preserves it with a note about placement.
+        - id: p14-b02
+          speaker: lin
+          text: I will mark why we removed it. The mistake still taught us something.
+    - id: p15
+      illustration: p15
+      blocks:
+        - id: p15-b01
+          speaker: narrator
+          text: Residents add different colored tokens for crowded waits, steep crossings, missing shade, and frequently touched hot surfaces.
+        - id: p15-b02
+          speaker: narrator
+          text: The map now includes conditions that the thermometers do not capture.
+    - id: p16
+      illustration: p16
+      blocks:
+        - id: p16-b01
+          speaker: narrator
+          text: The relief map combines measurement sites, shade gaps, and long waits.
+        - id: p16-b02
+          speaker: narrator
+          text: Together, the sites, shade gaps, and waiting times reveal where riders face the greatest heat exposure.
+    - id: p17
+      illustration: p17
+      blocks:
+        - id: p17-b01
+          speaker: narrator
+          text: Lin presents the highest standardized air-temperature site.
+        - id: p17-b02
+          speaker: rosa
+          text: That is important, but another stop has less shade, a hotter bench, and twice the waiting time.
+    - id: p18
+      illustration: p18
+      blocks:
+        - id: p18-b01
+          speaker: narrator
+          text: The hottest air site is not automatically the first place to improve.
+        - id: p18-b02
+          speaker: narrator
+          text: Waiting time, shade, and accessible movement can change the order.
+    - id: p19
+      illustration: p19
+      blocks:
+        - id: p19-b01
+          speaker: narrator
+          text: Residents test temporary fabric shade without blocking the sidewalk or driver sight lines.
+        - id: p19-b02
+          speaker: narrator
+          text: Passengers compare comfort while volunteers continue the standardized measurements.
+    - id: p20
+      illustration: p20
+      blocks:
+        - id: p20-b01
+          speaker: narrator
+          text: City gardeners inspect places where future trees can grow away from underground and overhead utilities.
+        - id: p20-b02
+          speaker: narrator
+          text: Shade trees need room for roots, regular watering, maintenance, and clear accessible paths.
+    - id: p21
+      illustration: p21
+      blocks:
+        - id: p21-b01
+          speaker: narrator
+          text: The bus stop receives a broad canopy, cooler seating material, and an unobstructed path.
+        - id: p21-b02
+          speaker: rosa
+          text: Now passengers can wait, touch the seat, and reach the bus without crossing the worst heat.
+    - id: p22
+      illustration: p22
+      blocks:
+        - id: p22-b01
+          speaker: narrator
+          text: New young street trees are planted only in carefully selected, suitable parts of the route.
+        - id: p22-b02
+          speaker: narrator
+          text: Protective rings support watering while keeping the walking surface clear.
+    - id: p23
+      illustration: p23
+      blocks:
+        - id: p23-b01
+          speaker: narrator
+          text: Volunteers repeat the same shielded measurements as residents record how the route feels.
+        - id: p23-b02
+          speaker: lin
+          text: "Next month, repeat both checks: the shielded readings and what riders experience."
+    - id: p24
+      illustration: p24
+      blocks:
+        - id: p24-b01
+          speaker: narrator
+          text: At the end of the route, Lin, Rosa, Dev, and several passengers rest in deep shade beside the monitoring kit.
+        - id: p24-b02
+          speaker: lin
+          text: Leave the kit packed. We will measure again after the trees have had time to grow.
 chapters:
-  - {id: ch01, title: A Number in the Sun, page_refs: [p01, p02, p03, p04, p05, p06]}
-  - {id: ch02, title: More Than Air, page_refs: [p07, p08, p09, p10, p11, p12]}
-  - {id: ch03, title: A Fair Comparison, page_refs: [p13, p14, p15, p16, p17, p18]}
-  - {id: ch04, title: Evidence into Shade, page_refs: [p19, p20, p21, p22, p23, p24]}
+  - id: ch01
+    title: A Number in the Sun
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
+  - id: ch02
+    title: More Than Air
+    page_refs:
+      - p07
+      - p08
+      - p09
+      - p10
+      - p11
+      - p12
+  - id: ch03
+    title: A Fair Comparison
+    page_refs:
+      - p13
+      - p14
+      - p15
+      - p16
+      - p17
+      - p18
+  - id: ch04
+    title: Evidence into Shade
+    page_refs:
+      - p19
+      - p20
+      - p21
+      - p22
+      - p23
+      - p24
 questions:
-  - {id: q01, type: evidence, speaker: narrator, prompt: "Which details show why Lin's first thermometer reading is not comparable?", answer: "It is heated directly by sunlight, while proper air-temperature sensors are shaded, ventilated, placed at matching heights, and observed at matched times.", page_refs: [p03, p04, p05, p06]}
-  - {id: q02, type: compare, speaker: narrator, prompt: "How do standardized air temperature and heat exposure answer different questions?", answer: "Standardized temperature compares air under controlled setups; exposure also considers surfaces, shade, location, duration, movement, and people's experience.", page_refs: [p04, p07, p08, p09, p12]}
-  - {id: q03, type: cause-effect, speaker: narrator, prompt: "Why does Lin remove the wall-adjacent reading from the comparable dataset?", answer: "The warm wall and poor airflow violate the shared setup, so its difference may come from placement rather than neighborhood air.", page_refs: [p05, p13, p14]}
-  - {id: q04, type: evaluate, speaker: narrator, prompt: "Why can a stop without the highest air reading still receive improvements first?", answer: "Long waits, missing shade, hot surfaces, difficult movement, and many users can create greater practical exposure and need.", page_refs: [p12, p15, p16, p17, p18]}
-  - {id: q05, type: character-motive, speaker: narrator, prompt: "Why does Lin preserve the rejected reading as a placement lesson?", answer: "She wants the record to explain the error and help future volunteers avoid repeating it, rather than conceal it.", page_refs: [p13, p14, p23]}
-  - {id: q06, type: main-idea, speaker: narrator, prompt: "What central change improves the project?", answer: "The team strengthens measurement consistency and expands its question from ranking temperature to understanding where people experience harmful heat burdens.", page_refs: [p04, p05, p09, p12, p16, p18, p23, p24]}
+  - id: q01
+    type: evidence
+    speaker: narrator
+    prompt: Which details show why Lin's first thermometer reading is not comparable?
+    answer: It is heated directly by sunlight, while proper air-temperature sensors are shaded, ventilated, placed at matching heights, and observed at matched times.
+    page_refs:
+      - p03
+      - p04
+      - p05
+      - p06
+  - id: q02
+    type: compare
+    speaker: narrator
+    prompt: How do standardized air temperature and heat exposure answer different questions?
+    answer: Standardized temperature compares air under controlled setups; exposure also considers surfaces, shade, location, duration, movement, and people's experience.
+    page_refs:
+      - p04
+      - p07
+      - p08
+      - p09
+      - p12
+  - id: q03
+    type: cause-effect
+    speaker: narrator
+    prompt: Why does Lin remove the wall-adjacent reading from the comparable dataset?
+    answer: The warm wall and poor airflow violate the shared setup, so its difference may come from placement rather than neighborhood air.
+    page_refs:
+      - p05
+      - p13
+      - p14
+  - id: q04
+    type: evaluate
+    speaker: narrator
+    prompt: Why can a stop without the highest air reading still receive improvements first?
+    answer: Long waits, missing shade, hot surfaces, difficult movement, and many users can create greater practical exposure and need.
+    page_refs:
+      - p12
+      - p15
+      - p16
+      - p17
+      - p18
+  - id: q05
+    type: character-motive
+    speaker: narrator
+    prompt: Why does Lin preserve the rejected reading as a placement lesson?
+    answer: She wants the record to explain the error and help future volunteers avoid repeating it, rather than conceal it.
+    page_refs:
+      - p13
+      - p14
+      - p23
+  - id: q06
+    type: main-idea
+    speaker: narrator
+    prompt: What central change improves the project?
+    answer: The team strengthens measurement consistency and expands its question from ranking temperature to understanding where people experience harmful heat burdens.
+    page_refs:
+      - p04
+      - p05
+      - p09
+      - p12
+      - p16
+      - p18
+      - p23
+      - p24

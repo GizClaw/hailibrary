@@ -1,37 +1,227 @@
-schema_version: 1
+schema_version: 2
 language: en-US
 writer: silver-bell
 title: The Pass of Turning Flags
 summary: Qiao studies three streamers at an unsigned mountain fork. The steadiest streamer points through a sheltered pass, so Qiao helps Dan carry his bowls safely to the village.
-cast:
-  narrator: {display_name: Narrator, tts: {delivery: observant and lively, timbre: clear adult voice, pace: medium, pitch: medium}}
-  qiao: {display_name: Qiao, tts: {delivery: curious and methodical, timbre: bright young voice, pace: medium, pitch: medium-high}}
-  dan: {display_name: Dan, tts: {delivery: practical and genial, timbre: warm adult voice, pace: medium-slow, pitch: medium-low}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Qiao reaches three mountain paths."}, {speaker: narrator, text: "None has a sign."}]}
-  - id: p02
-    illustration: p02
-    lines:
-      - speaker: narrator
-        content: [{text: "A cloth "}, {vocabulary: {id: streamer, text: streamer}}, {text: " hangs by each path."}]
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "The low streamer droops."}, {speaker: narrator, text: "Leaves cover that path."}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "The middle streamer snaps sideways."}, {speaker: narrator, text: "Its ledge is open to wind."}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "The high streamer points steadily."}, {speaker: narrator, text: "Rock walls shelter its path."}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Qiao compares the cloth and leaves."}, {speaker: qiao, text: "The high path looks calmer."}]}
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "Dan arrives with a basket of bowls."}, {speaker: dan, text: "Which path is safe?"}]}
-  - {id: p08, illustration: p08, lines: [{speaker: qiao, text: "See the steady streamer?"}, {speaker: qiao, text: "The rocks block strong wind."}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "They enter the broad high path."}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "A gust crosses the ridge."}, {speaker: narrator, text: "The rock walls shelter them."}]}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "They reach the pottery village."}, {speaker: narrator, text: "Every bowl is whole."}]}
-  - id: p12
-    illustration: p12
-    lines:
-      - speaker: narrator
-        content: [{text: "Villagers add more plain "}, {vocabulary: {id: streamer, text: streamers}}, {text: " at the fork."}]
 chapters:
-  - {id: ch01, title: Three Paths, page_refs: [p01, p02, p03, p04, p05, p06]}
-  - {id: ch02, title: The Sheltered Pass, page_refs: [p07, p08, p09, p10, p11, p12]}
+  - id: ch01
+    title: Three Paths
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
+  - id: ch02
+    title: The Sheltered Pass
+    page_refs:
+      - p07
+      - p08
+      - p09
+      - p10
+      - p11
+      - p12
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: "Which streamer points steadily?", answer: "The high streamer.", page_refs: [p05]}
-  - {id: q02, type: sequence, speaker: narrator, prompt: "What does Qiao do before choosing?", answer: "Qiao compares the streamers and paths.", page_refs: [p03, p04, p05, p06]}
-  - {id: q03, type: cause-effect, speaker: narrator, prompt: "Why do the bowls arrive whole?", answer: "The rock walls shelter the high path from wind.", page_refs: [p08, p09, p10, p11]}
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: Which streamer points steadily?
+    answer: The high streamer.
+    page_refs:
+      - p05
+  - id: q02
+    type: sequence
+    speaker: narrator
+    prompt: What does Qiao do before choosing?
+    answer: Qiao compares the streamers and paths.
+    page_refs:
+      - p03
+      - p04
+      - p05
+      - p06
+  - id: q03
+    type: cause-effect
+    speaker: narrator
+    prompt: Why do the bowls arrive whole?
+    answer: The rock walls shelter the high path from wind.
+    page_refs:
+      - p08
+      - p09
+      - p10
+      - p11
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: Qiao reaches a fork with three mountain paths. None has a sign.
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: "A cloth "
+            - vocabulary:
+                id: streamer
+                text: streamer
+            - text: " hangs beside each path."
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: The low streamer droops, and leaves cover its path.
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: The middle streamer whips sideways above an open ledge.
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: The high streamer stays steady between two rock walls.
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: Qiao studies the clues. She says, “The high path has less wind.”
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - text: Dan arrives with a basket of bowls. He asks, “Which path should we take?”
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - text: Qiao points high. She says, “Take this path. The rocks shelter it.”
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - text: They enter the wide high pass together.
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - text: A gust crosses the ridge. The rock walls shelter them.
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - text: They reach the pottery village with every bowl whole.
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - content:
+            - text: "The villagers hang more plain "
+            - vocabulary:
+                id: streamer
+                text: streamers
+            - text: " at the fork."
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: observant and lively
+        timbre: clear adult voice
+        pace: medium
+        pitch: medium
+    qiao:
+      display_name: Qiao
+      tts:
+        delivery: curious and methodical
+        timbre: bright young voice
+        pace: medium
+        pitch: medium-high
+    dan:
+      display_name: Dan
+      tts:
+        delivery: practical and genial
+        timbre: warm adult voice
+        pace: medium-slow
+        pitch: medium-low
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: Qiao reaches a fork with three mountain paths. None has a sign.
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - text: "A cloth "
+            - vocabulary:
+                id: streamer
+                text: streamer
+            - text: " hangs beside each path."
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          text: The low streamer droops, and leaves cover its path.
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: The middle streamer whips sideways above an open ledge.
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: The high streamer stays steady between two rock walls.
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: Qiao studies the streamers and leaves.
+        - id: p06-b02
+          speaker: qiao
+          text: The high path has less wind.
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          text: Dan arrives with a basket of bowls.
+        - id: p07-b02
+          speaker: dan
+          text: Which path should we take?
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          text: Qiao points to the high path.
+        - id: p08-b02
+          speaker: qiao
+          text: Take this path. The rocks shelter it.
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          text: They enter the wide high pass together.
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          text: A gust crosses the ridge, but the rock walls shelter them.
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          text: They reach the pottery village with every bowl whole.
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          content:
+            - text: "The villagers hang more plain "
+            - vocabulary:
+                id: streamer
+                text: streamers
+            - text: " at the fork."

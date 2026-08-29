@@ -1,21 +1,130 @@
-schema_version: 1
+schema_version: 2
 language: zh-CN
 writer: 溪铃
 title: 橡果小船
 summary: 松鼠划着橡果小船接上蜗牛。两个朋友一起过河，又一起上岸。
-cast:
-  narrator: {display_name: 旁白, tts: {delivery: 温暖直接, timbre: 清晰的成年声音, pace: 慢速, pitch: 中音}}
-  squirrel: {display_name: 松鼠, tts: {delivery: 轻快坦率, timbre: 明亮的童声, pace: 中速, pitch: 中高音}}
-  snail: {display_name: 蜗牛, tts: {delivery: 温和耐心, timbre: 柔软的童声, pace: 慢速, pitch: 中音}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, content: [{text: 松鼠有一只}, {vocabulary: {id: acorn, text: 橡果}}, {text: 小船。}]}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 蜗牛在岸边等小船。}]}
-  - {id: p03, illustration: p03, lines: [{speaker: squirrel, text: 蜗牛，快上船吧！}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 松鼠慢慢划小船。}]}
-  - {id: p05, illustration: p05, lines: [{speaker: snail, text: 小船快到对岸啦！}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: 两个朋友下了小船。}]}
 chapters:
-  - {id: ch01, title: 一起过河, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - id: ch01
+    title: 一起过河
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: 谁站在岸边？, answer: 蜗牛。, page_refs: [p02]}
-  - {id: q02, type: explicit-choice, speaker: narrator, prompt: 松鼠和蜗牛怎么过河？, choices: [一起坐小船, 各自走开], answer: 一起坐小船。, page_refs: [p03, p04]}
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: 谁站在岸边？
+    answer: 蜗牛。
+    page_refs:
+      - p02
+  - id: q02
+    type: explicit-choice
+    speaker: narrator
+    prompt: 松鼠和蜗牛怎么过河？
+    choices:
+      - 一起坐小船
+      - 各自走开
+    answer: 一起坐小船。
+    page_refs:
+      - p03
+      - p04
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: 松鼠有一只
+            - vocabulary:
+                id: acorn
+                text: 橡果
+            - text: 小船。
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: 蜗牛在小河边等着。
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: 松鼠喊：“上船吧！”
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: 松鼠慢慢划着小船。
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: 蜗牛说：“快到啦！”
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: 两个朋友一起上了岸。
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖直接
+        timbre: 清晰的成年声音
+        pace: 慢速
+        pitch: 中音
+    squirrel:
+      display_name: 松鼠
+      tts:
+        delivery: 轻快坦率
+        timbre: 明亮的童声
+        pace: 中速
+        pitch: 中高音
+    snail:
+      display_name: 蜗牛
+      tts:
+        delivery: 温和耐心
+        timbre: 柔软的童声
+        pace: 慢速
+        pitch: 中音
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          content:
+            - text: 松鼠有一只
+            - vocabulary:
+                id: acorn
+                text: 橡果
+            - text: 小船。
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          text: 蜗牛在岸边等小船。
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: squirrel
+          text: 蜗牛，快上船吧！
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: 松鼠慢慢划小船。
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: snail
+          text: 小船快到对岸啦！
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: 两个朋友下了小船。

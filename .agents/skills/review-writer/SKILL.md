@@ -11,7 +11,7 @@ For review-only requests, report findings without editing. Apply fixes only when
 
 ## Inspect
 
-Read the Writer prompt, `prompts/writers/index.yaml`, its recommended entries in `prompts/levels/levels.yaml`, and enough neighboring Writers to identify collisions or schema drift. Browse for obvious publishing, author, fictional-character, product, and brand conflicts involving the proposed name or identity.
+Read the Writer prompt, `prompts/writers/index.yaml`, its recommended `prompts/levels/<level>.yaml` files, and enough neighboring Writers to identify collisions or schema drift. Browse for obvious publishing, author, fictional-character, product, and brand conflicts involving the proposed name or identity.
 
 Validate `recommended_levels` against the direct 29-level keys `aa`, `a` through `z`, `z1`, and `z2`; reject legacy compressed meanings or a default mapping whose exact level is absent from the Writer's recommendations.
 
@@ -25,6 +25,8 @@ Check that:
 - the prompt creates an original viewpoint, values, structures, and decisions without copying protected expression;
 - no instruction invites recognizable style imitation, borrowed characters, plots, names, or fictional worlds;
 - the creative guidance is concrete enough to influence writing but cannot override the selected language level;
+- `language_prompt` is present, locale-specific, read-aloud oriented, and concrete about character intent, differentiated voices, natural omission or hesitation, and anti-exposition rules;
+- neither `prompt` nor `language_prompt` duplicates or contradicts the exact Level difficulty contract, and neither contains visual-treatment instructions that belong to a Style;
 - the avatar is original, wordless, appropriate, and neither a real-person likeness nor a protected-character imitation;
 - the avatar exists as WebP and is covered by Git LFS.
 

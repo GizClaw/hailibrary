@@ -1,0 +1,59 @@
+schema_version: 1
+id: d
+external_reference:
+  reading_a_z_label: D
+  age_band: 6-7
+  en_grade_reference: 1
+  en_lexile_reference: 190L-530L
+reading_goal: connect one stated cause with a visible result across adjacent pages
+prompt: Write at HaiLibrary Level D to connect one stated cause with a visible result across adjacent pages. State the essential cause in clear, idiomatic language and show its visible result. Keep dialogue brief and situational, not explanatory.
+text_contract:
+  structure: short beginning middle end
+  syntax: simple sentences with common time and cause connectors
+  vocabulary: everyday plus simple descriptive relations
+  knowledge: one familiar process
+  illustration_reliance: high
+  inference: one supported cause or feeling
+complexity_floor:
+  - two events are causally linked
+  - prose states the essential cause
+pages:
+  min: 10
+  max: 14
+questions:
+  min: 3
+  max: 4
+  types:
+    - picture
+    - explicit-choice
+    - sequence
+    - cause-effect
+  required:
+    - cause-effect
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 5
+      - 8
+    sentences_per_page_max: 3
+    units_per_sentence_max: 10
+    units_per_page_typical:
+      - 7
+      - 14
+    units_per_page_max: 20
+    units_total_min: 50
+    units_total_max: 140
+    new_words_per_page_max: 2
+  zh:
+    mean_sentence_units_typical:
+      - 8
+      - 13
+    sentences_per_page_max: 3
+    units_per_sentence_max: 16
+    units_per_page_typical:
+      - 10
+      - 20
+    units_per_page_max: 28
+    units_total_min: 80
+    units_total_max: 210
+    new_words_per_page_max: 2

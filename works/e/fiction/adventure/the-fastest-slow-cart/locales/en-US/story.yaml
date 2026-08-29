@@ -1,39 +1,296 @@
-schema_version: 1
+schema_version: 2
 language: en-US
 writer: silver-bell
 title: The Fastest Slow Cart
-summary: Miko's small cart moves fast but needs three trips. Zara's larger cart moves slowly and carries six crates at once. They combine their strengths for the next delivery.
-cast:
-  narrator: {display_name: Narrator, tts: {delivery: energetic and clear, timbre: lively adult voice, pace: medium, pitch: medium}}
-  miko: {display_name: Miko, tts: {delivery: quick and bold, timbre: bright young voice, pace: medium-fast, pitch: medium-high}}
-  zara: {display_name: Zara, tts: {delivery: calm and humorous, timbre: steady young voice, pace: medium, pitch: medium}}
-  mr_liu: {display_name: Mr. Liu, tts: {delivery: warm and exact, timbre: mellow older voice, pace: medium-slow, pitch: low-medium}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Mr. Liu shows two couriers a tall crate pile."}, {speaker: mr_liu, text: "Please deliver everything before the market opens."}]}
-  - id: p02
-    illustration: p02
-    lines:
-      - {speaker: narrator, text: "Miko's red cart is small and light."}
-      - speaker: narrator
-        content: [{text: "Its wheels spin freely on the "}, {vocabulary: {id: axle, text: axle}}, {text: "."}]
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "Zara checks her broad blue cart."}, {speaker: zara, text: "It can hold a larger load."}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "Miko loads two crates and races away."}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Zara arranges six crates in one stable stack."}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Miko returns quickly."}, {speaker: narrator, text: "Four crates still wait beside Zara's load."}]}
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "Zara moves slowly around a fruit stall."}, {speaker: narrator, text: "Her six crates stay steady."}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "Miko begins a second fast trip."}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "A loose crate makes Miko stop."}, {speaker: narrator, text: "He ties the load again."}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "Zara arrives with all six crates in place."}]}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "After one more trip, Miko brings the last two."}, {speaker: narrator, text: "The starting pile is empty."}]}
-  - {id: p12, illustration: p12, lines: [{speaker: mr_liu, text: "Zara carried six in one trip."}, {speaker: mr_liu, text: "Miko carried six in three trips."}]}
-  - {id: p13, illustration: p13, lines: [{speaker: miko, text: "Your cart carries more."}, {speaker: zara, text: "Your cart turns quickly."}, {speaker: narrator, text: "They link the carts."}]}
-  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "Miko guides the turns."}, {speaker: narrator, text: "Zara keeps the load steady."}, {speaker: narrator, text: "The next delivery moves smoothly."}]}
+summary: Miko trusts his quick red cart, while Zara trusts her roomy blue one. A loose crate changes the race, and the two couriers discover that speed works best with a steady load.
 chapters:
-  - {id: ch01, title: Two Different Carts, page_refs: [p01, p02, p03, p04, p05]}
-  - {id: ch02, title: Speed and Load, page_refs: [p06, p07, p08, p09, p10, p11, p12]}
-  - {id: ch03, title: Better Together, page_refs: [p13, p14]}
+  - id: ch01
+    title: Two Different Carts
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+  - id: ch02
+    title: Speed and Load
+    page_refs:
+      - p06
+      - p07
+      - p08
+      - p09
+      - p10
+      - p11
+      - p12
+  - id: ch03
+    title: Better Together
+    page_refs:
+      - p13
+      - p14
 questions:
-  - {id: q01, type: sequence, speaker: narrator, prompt: "What happens after Miko starts his second trip?", answer: "He stops to retie a loose crate.", page_refs: [p08, p09]}
-  - {id: q02, type: cause-effect, speaker: narrator, prompt: "Why does Zara need only one trip for six crates?", answer: "Her broad cart holds one large stable load.", page_refs: [p03, p05, p07, p10]}
-  - {id: q03, type: short-answer, speaker: narrator, prompt: "How do Miko and Zara help each other next?", answer: "Miko guides quick turns while Zara steadies the load.", page_refs: [p13, p14]}
-  - {id: q04, type: explicit-choice, speaker: narrator, prompt: "How many trips does Miko use for six crates?", choices: [Three, One, Six], answer: "Three.", page_refs: [p12]}
+  - id: q01
+    type: sequence
+    speaker: narrator
+    prompt: What happens after Miko starts his second trip?
+    answer: He stops to retie a loose crate.
+    page_refs:
+      - p08
+      - p09
+  - id: q02
+    type: cause-effect
+    speaker: narrator
+    prompt: Why does Zara need only one trip for six crates?
+    answer: Her broad cart holds one large stable load.
+    page_refs:
+      - p03
+      - p05
+      - p07
+      - p10
+  - id: q03
+    type: short-answer
+    speaker: narrator
+    prompt: How do Miko and Zara help each other next?
+    answer: Miko guides quick turns while Zara steadies the load.
+    page_refs:
+      - p13
+      - p14
+  - id: q04
+    type: explicit-choice
+    speaker: narrator
+    prompt: How many trips does Miko use for six crates?
+    choices:
+      - Three
+      - One
+      - Six
+    answer: Three.
+    page_refs:
+      - p12
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: Mr. Liu points to a crate pile. “Deliver these before the market opens,” he says.
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: "Miko spins his red cart's wheel. It turns freely around the "
+            - vocabulary:
+                id: axle
+                text: axle
+            - text: .
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: Zara tests her broad blue cart. “Mine carries a bigger load,” she says.
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: Miko grabs two crates and races away.
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: Zara works slowly. She fits six crates into one firm stack.
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: Miko returns, but four crates still wait.
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: Zara rolls around a fruit stall. Her six crates stay steady.
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - text: Miko loads two more crates and starts again.
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - content:
+            - text: A loose crate slips. Miko stops and pulls the rope tight again.
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - content:
+            - text: Zara arrives with all six crates still stacked.
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - content:
+            - text: Miko's third trip brings the last two crates. The pile is gone.
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - content:
+            - text: Mr. Liu says, “Zara took one trip. Miko took three.”
+    - id: p13
+      illustration: p13
+      paragraphs:
+        - content:
+            - text: “Your cart carries more,” Miko tells Zara. “And yours turns quickly,” she replies. They link the carts together.
+    - id: p14
+      illustration: p14
+      paragraphs:
+        - content:
+            - text: Next time, Miko guides each turn. Zara steadies the load, and every crate arrives.
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: energetic and clear
+        timbre: lively adult voice
+        pace: medium
+        pitch: medium
+    miko:
+      display_name: Miko
+      tts:
+        delivery: quick and bold
+        timbre: bright young voice
+        pace: medium-fast
+        pitch: medium-high
+    zara:
+      display_name: Zara
+      tts:
+        delivery: calm and humorous
+        timbre: steady young voice
+        pace: medium
+        pitch: medium
+    mr_liu:
+      display_name: Mr. Liu
+      tts:
+        delivery: warm and exact
+        timbre: mellow older voice
+        pace: medium-slow
+        pitch: low-medium
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          content:
+            - text: Mr. Liu points to a crate pile.
+        - id: p01-b02
+          speaker: mr_liu
+          content:
+            - text: Deliver these before the market opens.
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - text: "Miko spins his red cart's wheel. It turns freely around the "
+            - vocabulary:
+                id: axle
+                text: axle
+            - text: .
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          content:
+            - text: Zara tests her broad blue cart.
+        - id: p03-b02
+          speaker: zara
+          content:
+            - text: Mine carries a bigger load.
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          content:
+            - text: Miko grabs two crates and races away.
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          content:
+            - text: Zara works slowly. She fits six crates into one firm stack.
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          content:
+            - text: Miko returns, but four crates still wait.
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          content:
+            - text: Zara rolls around a fruit stall. Her six crates stay steady.
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          content:
+            - text: Miko loads two more crates and starts again.
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          content:
+            - text: A loose crate slips. Miko stops and pulls the rope tight again.
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          content:
+            - text: Zara arrives with all six crates still stacked.
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          content:
+            - text: Miko's third trip brings the last two crates. The pile is gone.
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          content:
+            - text: Mr. Liu compares their trips.
+        - id: p12-b02
+          speaker: mr_liu
+          content:
+            - text: Zara took one trip. Miko took three.
+    - id: p13
+      illustration: p13
+      blocks:
+        - id: p13-b01
+          speaker: miko
+          content:
+            - text: Your cart carries more.
+        - id: p13-b02
+          speaker: zara
+          content:
+            - text: And yours turns quickly.
+        - id: p13-b03
+          speaker: narrator
+          content:
+            - text: They link the carts together.
+    - id: p14
+      illustration: p14
+      blocks:
+        - id: p14-b01
+          speaker: narrator
+          content:
+            - text: Next time, Miko guides each turn. Zara steadies the load, and every crate arrives.

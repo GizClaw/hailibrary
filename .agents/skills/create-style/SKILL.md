@@ -23,6 +23,8 @@ Define:
 
 Describe controllable visual decisions. Do not hide story content, characters, setting, or page-specific actions inside a reusable Style.
 
+The Style `prompt` is authoritative only for artwork. It must not prescribe narration, dialogue, sentence structure, vocabulary, reading difficulty, or locale adaptation; those belong to the selected Writer and exact Level configurations.
+
 ## Create the thumbnail
 
 Generate a representative, original `thumbnail.webp` directly with Codex image generation. It should demonstrate the medium, palette, shapes, lighting, and composition without depending on a particular existing book.

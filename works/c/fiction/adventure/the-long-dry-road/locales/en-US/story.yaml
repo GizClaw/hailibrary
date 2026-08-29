@@ -1,31 +1,185 @@
-schema_version: 1
+schema_version: 2
 language: en-US
 writer: sage-paw
 title: The Long Dry Road
 summary: Badger avoids a slippery shortcut to keep a juice jar safe. On the longer road, Badger helps Tortoise lift a tipped cart.
-cast:
-  narrator: {display_name: Narrator, tts: {delivery: calm and clear, timbre: warm adult voice, pace: medium-slow, pitch: medium}}
-  badger: {display_name: Badger, tts: {delivery: practical and steady, timbre: clear youthful voice, pace: medium, pitch: medium-low}}
-  tortoise: {display_name: Tortoise, tts: {delivery: patient and observant, timbre: soft youthful voice, pace: slow, pitch: medium}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Badger secures a jar of berry juice."}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: "Mud covers the short path."}, {speaker: narrator, text: "A dry road curves away."}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "The mud looks slippery."}, {speaker: narrator, text: "Badger holds the jar steady."}]}
-  - id: p04
-    illustration: p04
-    lines:
-      - speaker: narrator
-        content: [{text: "Badger takes the dry "}, {vocabulary: {id: detour, text: detour}}, {text: "."}]
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "The jar stays upright as Badger walks."}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Tortoise's little cart has tipped over."}]}
-  - {id: p07, illustration: p07, lines: [{speaker: tortoise, text: "One wheel is stuck between stones."}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "Badger sets down the jar."}, {speaker: narrator, text: "They lift the cart together."}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "The friends follow the long dry road."}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "The jar and cart arrive safely."}]}
 chapters:
-  - {id: ch01, title: A Dry Detour, page_refs: [p01, p02, p03, p04, p05]}
-  - {id: ch02, title: A Stuck Cart, page_refs: [p06, p07, p08, p09, p10]}
+  - id: ch01
+    title: A Dry Detour
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+  - id: ch02
+    title: A Stuck Cart
+    page_refs:
+      - p06
+      - p07
+      - p08
+      - p09
+      - p10
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: "What covers the short path?", answer: "Mud.", page_refs: [p02]}
-  - {id: q02, type: sequence, speaker: narrator, prompt: "What does Badger do before lifting the cart?", answer: "Badger sets down the jar.", page_refs: [p08]}
-  - {id: q03, type: cause-effect, speaker: narrator, prompt: "Why does Badger take the dry road?", answer: "The short path looks slippery.", page_refs: [p02, p03, p04]}
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: What covers the short path?
+    answer: Mud.
+    page_refs:
+      - p02
+  - id: q02
+    type: sequence
+    speaker: narrator
+    prompt: What does Badger do before lifting the cart?
+    answer: Badger sets down the jar.
+    page_refs:
+      - p08
+  - id: q03
+    type: cause-effect
+    speaker: narrator
+    prompt: Why does Badger take the dry road?
+    answer: The short path looks slippery.
+    page_refs:
+      - p02
+      - p03
+      - p04
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: Badger straps a juice jar into its basket.
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: Mud covers the shortcut. A dry road curves around.
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: Badger holds the jar. He says, “That mud is slick.”
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: "Badger takes the dry "
+            - vocabulary:
+                id: detour
+                text: detour
+            - text: .
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: The jar stays upright on the long road.
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: Badger finds Tortoise beside a tipped cart.
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - text: Tortoise says, “One wheel is stuck between stones.”
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - text: Badger sets the jar down. Together they lift the cart.
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - text: The friends follow the long dry road.
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - text: The juice and cart reach the cottage safely.
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: calm and clear
+        timbre: warm adult voice
+        pace: medium-slow
+        pitch: medium
+    badger:
+      display_name: Badger
+      tts:
+        delivery: practical and steady
+        timbre: clear youthful voice
+        pace: medium
+        pitch: medium-low
+    tortoise:
+      display_name: Tortoise
+      tts:
+        delivery: patient and observant
+        timbre: soft youthful voice
+        pace: slow
+        pitch: medium
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: Badger straps a juice jar into its basket.
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          text: Mud covers the shortcut. A dry road curves around.
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          text: Badger holds the jar.
+        - id: p03-b02
+          speaker: badger
+          text: That mud is slick.
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          content:
+            - text: "Badger takes the dry "
+            - vocabulary:
+                id: detour
+                text: detour
+            - text: .
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: The jar stays upright on the long road.
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: Badger finds Tortoise beside a tipped cart.
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: tortoise
+          text: One wheel is stuck between stones.
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          text: Badger sets the jar down. Together they lift the cart.
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          text: The friends follow the long dry road.
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          text: The juice and cart reach the cottage safely.

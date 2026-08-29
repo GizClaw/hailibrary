@@ -8,12 +8,13 @@ Directory keys are `aa`, `a` through `z`, `z1`, and `z2`. Never compress neighbo
 
 The authoritative records are:
 
-- `prompts/levels/levels.yaml`: order, age/grade and English Lexile references, page and unit ranges, sentence limits, text contract, inference, complexity floor, and questions;
+- `prompts/levels/index.yaml`: ordered level registry and shared contracts;
+- `prompts/levels/<level>.yaml`: the selected level's age/grade and English Lexile references, page and unit ranges, sentence limits, text contract, inference, complexity floor, prompt, and questions;
 - `prompts/levels/locale-references.yaml`: age band plus separate English grade/Lexile and Chinese curriculum checkpoints for every exact level;
 - `prompts/vocabulary/ranges.yaml`: exact-level English and Chinese lexical scope;
 - `prompts/vocabulary/index.yaml`: concrete queryable lists, lookup order, source metadata, and evidence limits.
 
-Read the complete exact-level record in all four files before drafting or reviewing. Do not interpolate from a nearby letter and do not use this summary instead of the YAML.
+Read the index, the complete selected exact-level record, and all three supporting reference files before drafting or reviewing. Do not interpolate from a nearby letter and do not use this summary instead of the YAML.
 
 ## Quantitative overview
 

@@ -1,21 +1,163 @@
-schema_version: 1
+schema_version: 2
 language: zh-CN
 writer: 溪铃
 title: 兔子的雨靴
 summary: 兔子把黄雨靴借给刺猬。刺猬穿过浅水坑后，把雨靴还给兔子。
-cast:
-  narrator: {display_name: 旁白, tts: {delivery: 轻松直接, timbre: 清晰的成年声音, pace: 慢速, pitch: 中音}}
-  rabbit: {display_name: 兔子, tts: {delivery: 爽快友善, timbre: 明亮的童声, pace: 中速, pitch: 中高音}}
-  hedgehog: {display_name: 刺猬, tts: {delivery: 小心真诚, timbre: 柔和的童声, pace: 慢速, pitch: 中音}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 路上有个浅水坑。}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, content: [{text: 兔子穿着黄}, {vocabulary: {id: rain-boots, text: 雨靴}}, {text: 。}]}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 刺猬停在水坑边。}]}
-  - {id: p04, illustration: p04, lines: [{speaker: rabbit, content: [{text: 穿我的}, {vocabulary: {id: rain-boots, text: 雨靴}}, {text: 吧。}]}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, content: [{text: 刺猬穿着}, {vocabulary: {id: rain-boots, text: 雨靴}}, {text: 过水坑。}]}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, content: [{text: 刺猬把}, {vocabulary: {id: rain-boots, text: 雨靴}}, {text: 还给兔子。}]}]}
 chapters:
-  - {id: ch01, title: 先借给你, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - id: ch01
+    title: 先借给你
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: 路上有什么？, answer: 水坑。, page_refs: [p01]}
-  - {id: q02, type: explicit-choice, speaker: narrator, prompt: 兔子把雨靴借给了谁？, choices: [刺猬, 松鼠], answer: 刺猬。, page_refs: [p04, p05]}
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: 路上有什么？
+    answer: 水坑。
+    page_refs:
+      - p01
+  - id: q02
+    type: explicit-choice
+    speaker: narrator
+    prompt: 兔子把雨靴借给了谁？
+    choices:
+      - 刺猬
+      - 松鼠
+    answer: 刺猬。
+    page_refs:
+      - p04
+      - p05
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: 浅水坑挡住了小路。
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: 兔子穿着黄
+            - vocabulary:
+                id: rain-boots
+                text: 雨靴
+            - text: 。
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: 刺猬停在水坑边。
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: 兔子说：“穿我的
+            - vocabulary:
+                id: rain-boots
+                text: 雨靴
+            - text: 吧。”
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: 刺猬穿着
+            - vocabulary:
+                id: rain-boots
+                text: 雨靴
+            - text: 过水坑。
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: 刺猬还回
+            - vocabulary:
+                id: rain-boots
+                text: 雨靴
+            - text: ，说：“谢谢！”
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 轻松直接
+        timbre: 清晰的成年声音
+        pace: 慢速
+        pitch: 中音
+    rabbit:
+      display_name: 兔子
+      tts:
+        delivery: 爽快友善
+        timbre: 明亮的童声
+        pace: 中速
+        pitch: 中高音
+    hedgehog:
+      display_name: 刺猬
+      tts:
+        delivery: 小心真诚
+        timbre: 柔和的童声
+        pace: 慢速
+        pitch: 中音
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: 路上有个浅水坑。
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - text: 兔子穿着黄
+            - vocabulary:
+                id: rain-boots
+                text: 雨靴
+            - text: 。
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          text: 刺猬停在水坑边。
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: rabbit
+          content:
+            - text: 穿我的
+            - vocabulary:
+                id: rain-boots
+                text: 雨靴
+            - text: 吧。
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          content:
+            - text: 刺猬穿着
+            - vocabulary:
+                id: rain-boots
+                text: 雨靴
+            - text: 过水坑。
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          content:
+            - text: 刺猬把
+            - vocabulary:
+                id: rain-boots
+                text: 雨靴
+            - text: 还给兔子。
+        - id: p06-b02
+          speaker: hedgehog
+          text: 谢谢！

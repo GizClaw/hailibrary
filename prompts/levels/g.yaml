@@ -1,0 +1,61 @@
+schema_version: 1
+id: g
+external_reference:
+  reading_a_z_label: G
+  age_band: 6-7
+  en_grade_reference: 1
+  en_lexile_reference: 190L-530L
+reading_goal: track a goal, obstacle, revised attempt, and outcome across the whole book
+prompt: Write at HaiLibrary Level G to track a goal, obstacle, revised attempt, and outcome across the whole book. Sustain goal, obstacle, revision, and outcome with natural sentence variety. Preserve causal links without turning dialogue into a step-by-step explanation.
+text_contract:
+  structure: failed attempt revision outcome
+  syntax: simple and compound sentences with controlled subordination
+  vocabulary: broader everyday and transparent new terms
+  knowledge: one unfamiliar detail explained in text
+  illustration_reliance: medium-high
+  inference: several local inferences
+complexity_floor:
+  - the revision responds to failure
+  - the ending depends on an earlier clue
+pages:
+  min: 10
+  max: 16
+questions:
+  min: 4
+  max: 5
+  types:
+    - explicit-choice
+    - sequence
+    - cause-effect
+    - short-answer
+    - character-motive
+  required:
+    - cause-effect
+    - short-answer
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 6
+      - 10
+    sentences_per_page_max: 4
+    units_per_sentence_max: 13
+    units_per_page_typical:
+      - 10
+      - 21
+    units_per_page_max: 31
+    units_total_min: 110
+    units_total_max: 260
+    new_words_per_page_max: 2
+  zh:
+    mean_sentence_units_typical:
+      - 10
+      - 17
+    sentences_per_page_max: 4
+    units_per_sentence_max: 22
+    units_per_page_typical:
+      - 16
+      - 31
+    units_per_page_max: 44
+    units_total_min: 170
+    units_total_max: 390
+    new_words_per_page_max: 2

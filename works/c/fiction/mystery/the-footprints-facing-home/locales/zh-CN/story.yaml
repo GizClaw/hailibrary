@@ -1,27 +1,181 @@
-schema_version: 1
+schema_version: 2
 language: zh-CN
 writer: 栗叶灯
 title: 朝着家的脚印
 summary: 门廊上的湿脚印都朝着小乔家的门。小乔和小山对过鞋底才发现，小乔拉小车倒着走时留下了这些脚印。
-cast:
-  narrator: {display_name: 旁白, tts: {delivery: 俏皮细致, timbre: 清楚的成年声音, pace: 中速, pitch: 中音}}
-  jo: {display_name: 小乔, tts: {delivery: 自信活泼, timbre: 明亮的童声, pace: 中快, pitch: 中高音}}
-  sam: {display_name: 小山, tts: {delivery: 平静带笑, timbre: 柔和的童声, pace: 中速, pitch: 中低音}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: 一串湿脚印穿过小乔的门廊。}]}
-  - {id: p02, illustration: p02, lines: [{speaker: narrator, text: 鞋尖都朝着小乔家的门。}, {speaker: jo, text: 谁来过这里？}]}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: 小乔叫来小山。}, {speaker: jo, text: 快看这串脚印！}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: 小山拿脚印和小乔的鞋比。}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: 两边都有一颗小星星。}]}
-  - {id: p06, illustration: p06, lines: [{speaker: sam, text: 鞋尖只说明脚朝哪边。}, {speaker: sam, text: 人也能倒着走。}]}
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: 小乔想起自己倒着拉小车。}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: 小乔拉着小车倒着走。}, {speaker: narrator, text: 小山笑了。}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: 小乔的鞋和脚印正好一样。}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: 小乔擦干门廊。}, {speaker: narrator, text: 小山放好小车。}]}
 chapters:
-  - {id: ch01, title: 奇怪的脚印, page_refs: [p01, p02, p03, p04, p05]}
-  - {id: ch02, title: 倒着走, page_refs: [p06, p07, p08, p09, p10]}
+  - id: ch01
+    title: 奇怪的脚印
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+  - id: ch02
+    title: 倒着走
+    page_refs:
+      - p06
+      - p07
+      - p08
+      - p09
+      - p10
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: 每个脚印里有什么形状？, answer: 一颗小星星。, page_refs: [p05]}
-  - {id: q02, type: sequence, speaker: narrator, prompt: 小乔想起来以前，小山先做了什么？, answer: 对过鞋底，还说明人能倒着走。, page_refs: [p04, p05, p06, p07]}
-  - {id: q03, type: cause-effect, speaker: narrator, prompt: 脚印为什么朝着家门？, answer: 小乔面朝家门，倒着拉小车。, page_refs: [p06, p07, p08]}
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: 每个脚印里有什么形状？
+    answer: 一颗小星星。
+    page_refs:
+      - p05
+  - id: q02
+    type: sequence
+    speaker: narrator
+    prompt: 小乔想起来以前，小山先做了什么？
+    answer: 对过鞋底，还说明人能倒着走。
+    page_refs:
+      - p04
+      - p05
+      - p06
+      - p07
+  - id: q03
+    type: cause-effect
+    speaker: narrator
+    prompt: 脚印为什么朝着家门？
+    answer: 小乔面朝家门，倒着拉小车。
+    page_refs:
+      - p06
+      - p07
+      - p08
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: 一串湿脚印穿过小乔的门廊。
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: 鞋尖都朝着小乔家。小乔问：“谁来过？”
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: 小乔叫来小山，说：“快看这串脚印。”
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: 小山拿一只脚印和小乔的鞋比。
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: 鞋底和脚印都有一颗小星星。
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: 小山指着鞋尖。他说：“鞋尖只说明脚朝哪边。”
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - text: 小乔想起那辆红色小车。
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - text: 雨停前，她曾拉着小车倒着走。
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - text: 鞋和脚印一样大，都有星星。
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - text: 小乔擦干门廊，小山放好小车。
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 俏皮细致
+        timbre: 清楚的成年声音
+        pace: 中速
+        pitch: 中音
+    jo:
+      display_name: 小乔
+      tts:
+        delivery: 自信活泼
+        timbre: 明亮的童声
+        pace: 中快
+        pitch: 中高音
+    sam:
+      display_name: 小山
+      tts:
+        delivery: 平静带笑
+        timbre: 柔和的童声
+        pace: 中速
+        pitch: 中低音
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: 一串湿脚印穿过小乔的门廊。
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          text: 鞋尖都朝着小乔家。
+        - id: p02-b02
+          speaker: jo
+          text: 谁来过？
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          text: 小乔叫来小山。
+        - id: p03-b02
+          speaker: jo
+          text: 快看这串脚印。
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: 小山拿一只脚印和小乔的鞋比。
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: 鞋底和脚印都有一颗小星星。
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: sam
+          text: 鞋尖只说明脚朝哪边。
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          text: 小乔想起那辆红色小车。
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          text: 雨停前，她曾拉着小车倒着走。
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          text: 小乔的鞋和脚印一样大，也有星星。
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          text: 小乔擦干门廊，小山放好小车。

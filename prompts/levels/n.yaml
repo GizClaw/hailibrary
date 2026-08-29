@@ -1,0 +1,63 @@
+schema_version: 1
+id: n
+external_reference:
+  reading_a_z_label: N
+  age_band: 8-9
+  en_grade_reference: 3
+  en_lexile_reference: 520L-820L
+reading_goal: sustain a multi-step chain and distinguish evidence from an initial guess
+prompt: Write at HaiLibrary Level N to sustain a multi-step chain and distinguish evidence from an initial guess. Let new evidence overturn an initial guess through natural narration, thought, and dialogue. Preserve uncertainty without report-like exchanges.
+text_contract:
+  structure: assumption evidence revision
+  syntax: varied complex sentences with controlled embedding
+  vocabulary: recurring academic and domain terms
+  knowledge: small interacting system
+  illustration_reliance: supporting-complementary
+  inference: revise a prediction
+complexity_floor:
+  - new information overturns an assumption
+  - the resolution uses three linked facts
+pages:
+  min: 16
+  max: 22
+questions:
+  min: 6
+  max: 8
+  types:
+    - cause-effect
+    - short-answer
+    - character-motive
+    - main-idea
+    - evidence
+    - compare
+    - evaluate
+  required:
+    - evidence
+    - compare
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 10
+      - 14
+    sentences_per_page_max: 7
+    units_per_sentence_max: 21
+    units_per_page_typical:
+      - 26
+      - 48
+    units_per_page_max: 68
+    units_total_min: 500
+    units_total_max: 900
+    new_words_per_page_max: 4
+  zh:
+    mean_sentence_units_typical:
+      - 16
+      - 26
+    sentences_per_page_max: 7
+    units_per_sentence_max: 34
+    units_per_page_typical:
+      - 39
+      - 70
+    units_per_page_max: 99
+    units_total_min: 750
+    units_total_max: 1350
+    new_words_per_page_max: 4

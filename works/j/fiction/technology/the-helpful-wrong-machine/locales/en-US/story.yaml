@@ -1,44 +1,363 @@
-schema_version: 1
+schema_version: 2
 language: en-US
 writer: rain-song
 title: The Helpful Wrong Machine
 summary: Em builds Pebble to sort market returns, but the robot mistakes look-alike objects for one another. Tala helps Em replace blind confidence with clearer rules, human review, and an accessible work area.
-cast:
-  narrator: {display_name: Narrator, tts: {delivery: lively and observant, timbre: clear adult voice, pace: medium, pitch: medium}}
-  em: {display_name: Em, tts: {delivery: quick and thoughtful, timbre: bright teen voice, pace: medium-fast, pitch: medium-high}}
-  tala: {display_name: Tala, tts: {delivery: practical with dry humor, timbre: warm older-adult voice, pace: medium-slow, pitch: medium-low}}
-  pebble: {display_name: Pebble, tts: {delivery: pleasant and literal, timbre: soft synthetic voice, pace: medium, pitch: medium}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Em unveils Pebble at the market return counter."}, {speaker: em, text: "It can sort every object in a blink."}]}
-  - id: p02
-    illustration: p02
-    lines:
-      - speaker: narrator
-        content: [{text: "Pebble "}, {vocabulary: {id: sort, text: sorts}}, {text: " round oranges into the produce tray."}]
-      - {speaker: pebble, text: "Round and orange. Match found."}
-  - {id: p03, illustration: p03, lines: [{speaker: narrator, text: "Then it drops a red toy ball beside the oranges."}, {speaker: em, text: "That is one very bouncy fruit."}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "Em laughs and removes the ball."}, {speaker: narrator, text: "She expects the next choice to be better."}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Pebble sends a smooth green soap bar toward the vegetables."}, {speaker: pebble, text: "Green and smooth. Match found."}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Tala stops the belt before soap reaches the food."}, {speaker: tala, text: "A wrong match can make a real mess."}]}
-  - {id: p07, illustration: p07, lines: [{speaker: narrator, text: "Em checks Pebble's sensors."}, {speaker: em, text: "It notices color and shape, but not use or material."}]}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "Tala holds up a cup, a planter, and a broken lampshade."}, {speaker: tala, text: "These shapes look alike. They belong in different places."}]}
-  - {id: p09, illustration: p09, lines: [{speaker: narrator, text: "Pebble pauses between the three objects."}, {speaker: pebble, text: "One shape. Three possible groups."}]}
-  - {id: p10, illustration: p10, lines: [{speaker: narrator, text: "Em adds trays with different openings and surfaces."}, {speaker: em, text: "Now material and use matter too."}]}
-  - {id: p11, illustration: p11, lines: [{speaker: narrator, text: "Tala asks workers to bring unusual objects."}, {speaker: tala, text: "A good test includes difficult cases."}]}
-  - {id: p12, illustration: p12, lines: [{speaker: narrator, text: "A child offers a wooden toy shaped like fruit."}, {speaker: pebble, text: "Its shape says food. Its material says toy."}]}
-  - {id: p13, illustration: p13, lines: [{speaker: narrator, text: "Em adds a coral paddle that pauses the belt."}, {speaker: em, text: "People can stop a doubtful choice."}]}
-  - {id: p14, illustration: p14, lines: [{speaker: narrator, text: "Pebble sends ordinary items onward."}, {speaker: narrator, text: "It places uncertain objects on a review table."}]}
-  - {id: p15, illustration: p15, lines: [{speaker: narrator, text: "Tala reaches toward the table, but it is too high beside her cane."}, {speaker: tala, text: "Review only works if everyone can reach it."}]}
-  - {id: p16, illustration: p16, lines: [{speaker: narrator, text: "Em lowers the table and clears space around it."}, {speaker: em, text: "The whole system needs testing, not only the robot."}]}
-  - {id: p17, illustration: p17, lines: [{speaker: narrator, text: "Workers examine the unusual objects together."}, {speaker: narrator, text: "Their explanations help Em improve the rules."}]}
-  - {id: p18, illustration: p18, lines: [{speaker: narrator, text: "By evening, the food is safe and the review pile is small."}, {speaker: em, text: "Pebble helps most when it knows when to ask."}]}
 chapters:
-  - {id: ch01, title: Quick Matches, page_refs: [p01, p02, p03, p04, p05, p06]}
-  - {id: ch02, title: Difficult Cases, page_refs: [p07, p08, p09, p10, p11, p12]}
-  - {id: ch03, title: A Better System, page_refs: [p13, p14, p15, p16, p17, p18]}
+  - id: ch01
+    title: Quick Matches
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
+  - id: ch02
+    title: Difficult Cases
+    page_refs:
+      - p07
+      - p08
+      - p09
+      - p10
+      - p11
+      - p12
+  - id: ch03
+    title: A Better System
+    page_refs:
+      - p13
+      - p14
+      - p15
+      - p16
+      - p17
+      - p18
 questions:
-  - {id: q01, type: cause-effect, speaker: narrator, prompt: "Why does Pebble put the toy ball with the oranges?", answer: "It uses color and shape, so the round red toy seems like round fruit.", page_refs: [p02, p03, p07]}
-  - {id: q02, type: evidence, speaker: narrator, prompt: "What evidence shows that appearance is not enough for sorting?", answer: "The toy ball and soap go to unsafe groups, and three similar shapes have different uses.", page_refs: [p03, p05, p06, p08]}
-  - {id: q03, type: character-motive, speaker: narrator, prompt: "Why does Tala bring unusual objects to the counter?", answer: "She wants to test the rules with difficult cases before people depend on them.", page_refs: [p08, p11, p12]}
-  - {id: q04, type: main-idea, speaker: narrator, prompt: "What makes the improved sorting system more reliable?", answer: "It uses clearer features, pauses uncertain choices, includes human review, and makes the review area accessible.", page_refs: [p10, p13, p14, p15, p16, p17]}
-  - {id: q05, type: short-answer, speaker: narrator, prompt: "How does Em respond to each new problem?", answer: "She studies the cause, changes the system, and tests the change with other people.", page_refs: [p07, p10, p13, p16, p17]}
+  - id: q01
+    type: cause-effect
+    speaker: narrator
+    prompt: Why does Pebble put the toy ball with the oranges?
+    answer: It uses color and shape, so the round red toy seems like round fruit.
+    page_refs:
+      - p02
+      - p03
+      - p07
+  - id: q02
+    type: evidence
+    speaker: narrator
+    prompt: What evidence shows that appearance is not enough for sorting?
+    answer: The toy ball and soap go to unsafe groups, and three similar shapes have different uses.
+    page_refs:
+      - p03
+      - p05
+      - p06
+      - p08
+  - id: q03
+    type: character-motive
+    speaker: narrator
+    prompt: Why does Tala bring unusual objects to the counter?
+    answer: She wants to test the rules with difficult cases before people depend on them.
+    page_refs:
+      - p08
+      - p11
+      - p12
+  - id: q04
+    type: main-idea
+    speaker: narrator
+    prompt: What makes the improved sorting system more reliable?
+    answer: It uses clearer features, pauses uncertain choices, includes human review, and makes the review area accessible.
+    page_refs:
+      - p10
+      - p13
+      - p14
+      - p15
+      - p16
+      - p17
+  - id: q05
+    type: short-answer
+    speaker: narrator
+    prompt: How does Em respond to each new problem?
+    answer: She studies the cause, changes the system, and tests the change with other people.
+    page_refs:
+      - p07
+      - p10
+      - p13
+      - p16
+      - p17
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: Em unveils Pebble at the market return counter. “It can sort every object in a blink.”
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: Pebble sorts round oranges into the produce tray and announces, “Round and orange. Match found.”
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: Then Pebble drops a red toy ball beside the oranges. “That is one very bouncy fruit,” Em jokes.
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: "Em laughs and removes the ball. "
+            - text: She expects the next choice to be better.
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: Pebble sends a smooth green soap bar toward the vegetables. “Green and smooth. Match found.”
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: Tala stops the belt before the soap reaches the food. “A wrong match can make a real mess.”
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - text: Em checks Pebble’s sensors. “It notices color and shape, but not use or material.”
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - text: Tala holds up a cup, a planter, and a broken lampshade. “These shapes look alike, but they belong in different places.”
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - text: Pebble pauses between the three objects. “One shape. Three possible groups.”
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - text: Em adds trays with different openings and surfaces. “Now material and use matter too.”
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - text: Tala calls the market workers over. “Bring the objects that are hardest to sort.”
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - text: A child offers a wooden toy shaped like fruit. Pebble scans it. “Its shape says food. Its material says toy.”
+    - id: p13
+      illustration: p13
+      paragraphs:
+        - text: Em adds a coral paddle that pauses the belt. “Anyone can stop a doubtful choice.”
+    - id: p14
+      illustration: p14
+      paragraphs:
+        - content:
+            - text: "Pebble sends ordinary items onward. "
+            - text: It places uncertain objects on a review table.
+    - id: p15
+      illustration: p15
+      paragraphs:
+        - text: Tala reaches toward the review table, but it sits too high beside her cane. “I cannot reach that pile,” she tells Em.
+    - id: p16
+      illustration: p16
+      paragraphs:
+        - text: Em lowers the table and clears a wide path around it. “I tested Pebble, but I forgot this work area.”
+    - id: p17
+      illustration: p17
+      paragraphs:
+        - content:
+            - text: "Workers examine the unusual objects together. "
+            - text: Their explanations help Em improve the rules.
+    - id: p18
+      illustration: p18
+      paragraphs:
+        - text: By evening, the food is safe and the review pile is small. Pebble sets down one strange object. “Human review, please.”
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: lively and observant
+        timbre: clear adult voice
+        pace: medium
+        pitch: medium
+    em:
+      display_name: Em
+      tts:
+        delivery: quick and thoughtful
+        timbre: bright teen voice
+        pace: medium-fast
+        pitch: medium-high
+    tala:
+      display_name: Tala
+      tts:
+        delivery: practical with dry humor
+        timbre: warm older-adult voice
+        pace: medium-slow
+        pitch: medium-low
+    pebble:
+      display_name: Pebble
+      tts:
+        delivery: pleasant and literal
+        timbre: soft synthetic voice
+        pace: medium
+        pitch: medium
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: Em unveils Pebble at the market return counter.
+        - id: p01-b02
+          speaker: em
+          text: It can sort every object in a blink.
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - text: "Pebble "
+            - vocabulary:
+                id: sort
+                text: sorts
+            - text: " round oranges into the produce tray."
+        - id: p02-b02
+          speaker: pebble
+          text: Round and orange. Match found.
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          text: Then it drops a red toy ball beside the oranges.
+        - id: p03-b02
+          speaker: em
+          text: That is one very bouncy fruit.
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: Em laughs and removes the ball.
+        - id: p04-b02
+          speaker: narrator
+          text: She expects the next choice to be better.
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: Pebble sends a smooth green soap bar toward the vegetables.
+        - id: p05-b02
+          speaker: pebble
+          text: Green and smooth. Match found.
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: Tala stops the belt before soap reaches the food.
+        - id: p06-b02
+          speaker: tala
+          text: A wrong match can make a real mess.
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          text: Em checks Pebble's sensors.
+        - id: p07-b02
+          speaker: em
+          text: It notices color and shape, but not use or material.
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          text: Tala holds up a cup, a planter, and a broken lampshade.
+        - id: p08-b02
+          speaker: tala
+          text: These shapes look alike. They belong in different places.
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          text: Pebble pauses between the three objects.
+        - id: p09-b02
+          speaker: pebble
+          text: One shape. Three possible groups.
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          text: Em adds trays with different openings and surfaces.
+        - id: p10-b02
+          speaker: em
+          text: Now material and use matter too.
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          text: Tala calls the market workers over.
+        - id: p11-b02
+          speaker: tala
+          text: Bring the objects that are hardest to sort.
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          text: A child offers a wooden toy shaped like fruit.
+        - id: p12-b02
+          speaker: pebble
+          text: Its shape says food. Its material says toy.
+    - id: p13
+      illustration: p13
+      blocks:
+        - id: p13-b01
+          speaker: narrator
+          text: Em adds a coral paddle that pauses the belt.
+        - id: p13-b02
+          speaker: em
+          text: People can stop a doubtful choice.
+    - id: p14
+      illustration: p14
+      blocks:
+        - id: p14-b01
+          speaker: narrator
+          text: Pebble sends ordinary items onward.
+        - id: p14-b02
+          speaker: narrator
+          text: It places uncertain objects on a review table.
+    - id: p15
+      illustration: p15
+      blocks:
+        - id: p15-b01
+          speaker: narrator
+          text: Tala reaches toward the review table, but it sits too high beside her cane.
+        - id: p15-b02
+          speaker: tala
+          text: I cannot reach that pile.
+    - id: p16
+      illustration: p16
+      blocks:
+        - id: p16-b01
+          speaker: narrator
+          text: Em lowers the table and clears a wide path around it.
+        - id: p16-b02
+          speaker: em
+          text: I tested Pebble, but I forgot this work area.
+    - id: p17
+      illustration: p17
+      blocks:
+        - id: p17-b01
+          speaker: narrator
+          text: Workers examine the unusual objects together.
+        - id: p17-b02
+          speaker: narrator
+          text: Their explanations help Em improve the rules.
+    - id: p18
+      illustration: p18
+      blocks:
+        - id: p18-b01
+          speaker: narrator
+          text: By evening, the food is safe and the review pile is small. Pebble sets down one strange object.
+        - id: p18-b02
+          speaker: pebble
+          text: Human review, please.

@@ -1,0 +1,63 @@
+schema_version: 1
+id: r
+external_reference:
+  reading_a_z_label: R
+  age_band: 9-10
+  en_grade_reference: 4
+  en_lexile_reference: 740L-940L
+reading_goal: evaluate decisions under competing constraints with distributed evidence
+prompt: Write at HaiLibrary Level R to evaluate decisions under competing constraints with distributed evidence. Make competing constraints concrete in scenes and decisions. Dialogue should reveal priorities and relationships, not sound like a policy meeting written for the reader.
+text_contract:
+  structure: consequential value conflict
+  syntax: purposeful multi-clause sentences
+  vocabulary: nuanced evaluative technical and figurative terms
+  knowledge: no frictionless solution
+  illustration_reliance: complementary-enriching
+  inference: alternatives and long-range consequences
+complexity_floor:
+  - two legitimate values are in tension
+  - multiple evidence paths support a reasoned answer
+pages:
+  min: 18
+  max: 26
+questions:
+  min: 7
+  max: 10
+  types:
+    - short-answer
+    - character-motive
+    - main-idea
+    - evidence
+    - compare
+    - evaluate
+    - synthesis
+  required:
+    - evaluate
+    - synthesis
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 11
+      - 17
+    sentences_per_page_max: 9
+    units_per_sentence_max: 25
+    units_per_page_typical:
+      - 42
+      - 75
+    units_per_page_max: 107
+    units_total_min: 1100
+    units_total_max: 1700
+    new_words_per_page_max: 6
+  zh:
+    mean_sentence_units_typical:
+      - 18
+      - 31
+    sentences_per_page_max: 9
+    units_per_sentence_max: 42
+    units_per_page_typical:
+      - 63
+      - 108
+    units_per_page_max: 153
+    units_total_min: 1400
+    units_total_max: 2350
+    new_words_per_page_max: 6

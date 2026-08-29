@@ -1,89 +1,147 @@
-schema_version: 1
+schema_version: 2
 language: zh-CN
 writer: 溪铃
 title: 飞走的风筝
 summary: 风把小狐狸的红风筝吹到树上。小狐狸在一根矮树枝上找到了风筝。
-
-cast:
-  narrator:
-    display_name: 旁白
-    tts:
-      delivery: 温暖、清楚、从容
-      timbre: 柔和清楚的成年声音
-      pace: 慢速
-      pitch: 中音
-  fox:
-    display_name: 小狐狸
-    tts:
-      delivery: 年幼、明亮、情绪清楚
-      timbre: 轻快的幼年声音
-      pace: 中慢速
-      pitch: 中高音
-
-pages:
-  - id: p01
-    illustration: p01
-    lines:
-      - speaker: narrator
-        content:
-          - text: 小狐狸有一只红
-          - vocabulary: { id: kite, text: 风筝 }
-          - text: 。
-
-  - id: p02
-    illustration: p02
-    lines:
-      - speaker: narrator
-        content:
-          - vocabulary: { id: wind, text: 风 }
-          - text: 拉着风筝。
-
-  - id: p03
-    illustration: p03
-    lines:
-      - speaker: narrator
-        text: 风吹走了风筝！
-      - speaker: fox
-        text: 我的风筝！
-
-  - id: p04
-    illustration: p04
-    lines:
-      - speaker: narrator
-        content:
-          - text: 小狐狸在
-          - vocabulary: { id: tree, text: 树 }
-          - text: 边找风筝。
-
-  - id: p05
-    illustration: p05
-    lines:
-      - speaker: narrator
-        text: 风筝挂在矮树枝上。
-
-  - id: p06
-    illustration: p06
-    lines:
-      - speaker: narrator
-        text: 小狐狸拿回风筝。
-
 chapters:
   - id: ch01
     title: 风筝找到了
-    page_refs: [p01, p02, p03, p04, p05, p06]
-
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
 questions:
   - id: q01
     type: explicit-choice
     speaker: narrator
     prompt: 风筝是什么颜色？
-    choices: [红色, 蓝色, 绿色]
+    choices:
+      - 红色
+      - 蓝色
+      - 绿色
     answer: 红色
-    page_refs: [p01]
-
+    page_refs:
+      - p01
   - id: q02
     type: picture
     speaker: narrator
     prompt: 小狐狸在哪里找到风筝？
     answer: 在矮树枝上。
-    page_refs: [p05]
+    page_refs:
+      - p05
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: 小狐狸有一只红
+            - vocabulary:
+                id: kite
+                text: 风筝
+            - text: 。
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - vocabulary:
+                id: wind
+                text: 风
+            - text: 拉紧了风筝线。
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: 风筝飞走了。小狐狸喊：“等等！”
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: 小狐狸在
+            - vocabulary:
+                id: tree
+                text: 树
+            - text: 边找。
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: 风筝落在矮树枝上。
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: 小狐狸笑了：“找到啦！”
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖、清楚、从容
+        timbre: 柔和清楚的成年声音
+        pace: 慢速
+        pitch: 中音
+    fox:
+      display_name: 小狐狸
+      tts:
+        delivery: 年幼、明亮、情绪清楚
+        timbre: 轻快的幼年声音
+        pace: 中慢速
+        pitch: 中高音
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          content:
+            - text: 小狐狸有一只红
+            - vocabulary:
+                id: kite
+                text: 风筝
+            - text: 。
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - vocabulary:
+                id: wind
+                text: 风
+            - text: 拉着风筝。
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          text: 风吹走了风筝！
+        - id: p03-b02
+          speaker: fox
+          text: 等等！
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          content:
+            - text: 小狐狸在
+            - vocabulary:
+                id: tree
+                text: 树
+            - text: 边找风筝。
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: 风筝挂在矮树枝上。
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: 小狐狸拿回风筝。
+        - id: p06-b02
+          speaker: fox
+          text: 找到啦！

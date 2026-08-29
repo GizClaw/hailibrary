@@ -1,0 +1,60 @@
+schema_version: 1
+id: h
+external_reference:
+  reading_a_z_label: H
+  age_band: 6-7
+  en_grade_reference: 1
+  en_lexile_reference: 190L-530L
+reading_goal: integrate description and dialogue to explain motive and consequence
+prompt: Write at HaiLibrary Level H to integrate description and dialogue to explain motive and consequence. Use description and distinct, speakable character voices so dialogue changes the action. Do not make speakers recite motive or consequence as complete conclusions.
+text_contract:
+  structure: two connected scenes
+  syntax: compound and short complex sentences
+  vocabulary: mixed everyday frequency with emotion and relation words
+  knowledge: modest social or factual context
+  illustration_reliance: medium
+  inference: motive from two nearby clues
+complexity_floor:
+  - dialogue changes the action
+  - two scenes contribute to the solution
+pages:
+  min: 12
+  max: 16
+questions:
+  min: 4
+  max: 6
+  types:
+    - explicit-choice
+    - sequence
+    - cause-effect
+    - short-answer
+    - character-motive
+  required:
+    - character-motive
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 7
+      - 11
+    sentences_per_page_max: 4
+    units_per_sentence_max: 14
+    units_per_page_typical:
+      - 12
+      - 24
+    units_per_page_max: 35
+    units_total_min: 140
+    units_total_max: 320
+    new_words_per_page_max: 3
+  zh:
+    mean_sentence_units_typical:
+      - 11
+      - 19
+    sentences_per_page_max: 4
+    units_per_sentence_max: 24
+    units_per_page_typical:
+      - 18
+      - 35
+    units_per_page_max: 50
+    units_total_min: 220
+    units_total_max: 470
+    new_words_per_page_max: 3

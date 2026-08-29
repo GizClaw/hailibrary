@@ -1,21 +1,137 @@
-schema_version: 1
+schema_version: 2
 language: en-US
 writer: mossy-kite
 title: The Pinwheel Wakes
 summary: Mina lifts one bent blue blade. Then the wind turns her pinwheel again.
-cast:
-  narrator: {display_name: Narrator, tts: {delivery: clear and reassuring, timbre: warm adult voice, pace: slow, pitch: medium}}
-  mina: {display_name: Mina, tts: {delivery: curious and bright, timbre: light child voice, pace: slow, pitch: medium-high}}
-  lee: {display_name: Lee, tts: {delivery: calm and helpful, timbre: soft child voice, pace: slow, pitch: medium}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: The blue pinwheel is still.}]}
-  - {id: p02, illustration: p02, lines: [{speaker: mina, text: Spin!}, {speaker: narrator, text: The blue pinwheel stays still.}]}
-  - {id: p03, illustration: p03, lines: [{speaker: lee, text: One blue blade is bent.}]}
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: Mina lifts the blue blade.}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, content: [{text: "The "}, {vocabulary: {id: wind, text: wind}}, {text: " turns the blue pinwheel."}]}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: The wind turns it fast.}, {speaker: mina, text: My blue pinwheel spins!}]}
 chapters:
-  - {id: ch01, title: A Small Repair, page_refs: [p01, p02, p03, p04, p05, p06]}
+  - id: ch01
+    title: A Small Repair
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: "What is bent?", answer: One blue pinwheel blade., page_refs: [p03]}
-  - {id: q02, type: explicit-choice, speaker: narrator, prompt: "What makes the pinwheel turn?", choices: [The wind, A book, A cup], answer: The wind., page_refs: [p05, p06]}
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: What is bent?
+    answer: One blue pinwheel blade.
+    page_refs:
+      - p03
+  - id: q02
+    type: explicit-choice
+    speaker: narrator
+    prompt: What makes the pinwheel turn?
+    choices:
+      - The wind
+      - A book
+      - A cup
+    answer: The wind.
+    page_refs:
+      - p05
+      - p06
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: The blue pinwheel is still.
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: Mina blows and says, “Spin!”
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: “One blade is bent,” Lee says.
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: Mina gently lifts the bent blade.
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: "The "
+            - vocabulary:
+                id: wind
+                text: wind
+            - text: " turns the blue pinwheel."
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: “It spins!” Mina cheers.
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: clear and reassuring
+        timbre: warm adult voice
+        pace: slow
+        pitch: medium
+    mina:
+      display_name: Mina
+      tts:
+        delivery: curious and bright
+        timbre: light child voice
+        pace: slow
+        pitch: medium-high
+    lee:
+      display_name: Lee
+      tts:
+        delivery: calm and helpful
+        timbre: soft child voice
+        pace: slow
+        pitch: medium
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: The blue pinwheel is still.
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: mina
+          text: Spin!
+        - id: p02-b02
+          speaker: narrator
+          text: The blue pinwheel stays still.
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: lee
+          text: One blue blade is bent.
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: Mina lifts the blue blade.
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          content:
+            - text: "The "
+            - vocabulary:
+                id: wind
+                text: wind
+            - text: " turns the blue pinwheel."
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: The wind turns it fast.
+        - id: p06-b02
+          speaker: mina
+          text: My blue pinwheel spins!

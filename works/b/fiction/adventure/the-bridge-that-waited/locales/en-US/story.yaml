@@ -1,38 +1,191 @@
-schema_version: 1
+schema_version: 2
 language: en-US
 writer: sage-paw
 title: The Bridge That Waited
 summary: Yu stops at a bridge with one loose board. Bo helps from the other bank, checks the bridge, and lets Yu cross.
-cast:
-  narrator: {display_name: Narrator, tts: {delivery: friendly and steady, timbre: warm adult voice, pace: medium-slow, pitch: medium}}
-  yu: {display_name: Yu, tts: {delivery: practical and cheerful, timbre: clear child voice, pace: medium, pitch: medium-high}}
-  bo: {display_name: Bo, tts: {delivery: patient with a smile, timbre: mellow older voice, pace: slow, pitch: low-medium}}
-pages:
-  - {id: p01, illustration: p01, lines: [{speaker: narrator, text: "Yu walks toward the garden."}]}
-  - id: p02
-    illustration: p02
-    lines:
-      - speaker: narrator
-        content: [{text: "One "}, {vocabulary: {id: bridge, text: bridge}}, {text: " board is loose."}]
-  - id: p03
-    illustration: p03
-    lines:
-      - speaker: narrator
-        content: [{text: "Yu stops by the "}, {vocabulary: {id: bridge, text: bridge}}, {text: "."}]
-  - {id: p04, illustration: p04, lines: [{speaker: narrator, text: "Bo comes to help."}]}
-  - {id: p05, illustration: p05, lines: [{speaker: narrator, text: "Yu slides Bo a long branch."}]}
-  - {id: p06, illustration: p06, lines: [{speaker: narrator, text: "Bo pushes the board flat."}]}
-  - id: p07
-    illustration: p07
-    lines:
-      - speaker: narrator
-        content: [{text: "Bo checks the "}, {vocabulary: {id: bridge, text: bridge}}, {text: "."}]
-      - {speaker: narrator, text: "Yu crosses."}
-  - {id: p08, illustration: p08, lines: [{speaker: narrator, text: "They walk to the garden."}]}
 chapters:
-  - {id: ch01, title: A Loose Board, page_refs: [p01, p02, p03, p04]}
-  - {id: ch02, title: Bo Helps, page_refs: [p05, p06, p07, p08]}
+  - id: ch01
+    title: A Loose Board
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+  - id: ch02
+    title: Bo Helps
+    page_refs:
+      - p05
+      - p06
+      - p07
+      - p08
 questions:
-  - {id: q01, type: picture, speaker: narrator, prompt: "What is loose?", answer: "One bridge board.", page_refs: [p02]}
-  - {id: q02, type: sequence, speaker: narrator, prompt: "What does Yu do first?", answer: "Yu stops by the bridge.", page_refs: [p02, p03]}
-  - {id: q03, type: explicit-choice, speaker: narrator, prompt: "Who checks the bridge?", choices: [Bo, Yu], answer: "Bo.", page_refs: [p07]}
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: What is loose?
+    answer: One bridge board.
+    page_refs:
+      - p02
+  - id: q02
+    type: sequence
+    speaker: narrator
+    prompt: What does Yu do first?
+    answer: Yu stops by the bridge.
+    page_refs:
+      - p02
+      - p03
+  - id: q03
+    type: explicit-choice
+    speaker: narrator
+    prompt: Who checks the bridge?
+    choices:
+      - Bo
+      - Yu
+    answer: Bo.
+    page_refs:
+      - p07
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: Yu walks toward the garden.
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: "One "
+            - vocabulary:
+                id: bridge
+                text: bridge
+            - text: " board is loose."
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: "At the "
+            - vocabulary:
+                id: bridge
+                text: bridge
+            - text: ", Yu calls, “Bo!”"
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: Bo comes from the far bank. “Stay there,” he says.
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: Yu slides Bo a long branch.
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: Bo pushes the board flat from shore.
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: "Bo checks the "
+            - vocabulary:
+                id: bridge
+                text: bridge
+            - text: . “Now cross,” he says.
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - text: Yu crosses. They walk to the garden.
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: friendly and steady
+        timbre: warm adult voice
+        pace: medium-slow
+        pitch: medium
+    yu:
+      display_name: Yu
+      tts:
+        delivery: practical and cheerful
+        timbre: clear child voice
+        pace: medium
+        pitch: medium-high
+    bo:
+      display_name: Bo
+      tts:
+        delivery: patient with a smile
+        timbre: mellow older voice
+        pace: slow
+        pitch: low-medium
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: Yu walks toward the garden.
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - text: "One "
+            - vocabulary:
+                id: bridge
+                text: bridge
+            - text: " board is loose."
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          content:
+            - text: "Yu stops by the "
+            - vocabulary:
+                id: bridge
+                text: bridge
+            - text: .
+        - id: p03-b02
+          speaker: yu
+          text: Bo!
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: Bo comes from the far bank.
+        - id: p04-b02
+          speaker: bo
+          text: Stay there.
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: Yu slides Bo a long branch.
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: Bo pushes the board flat from shore.
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          content:
+            - text: "Bo checks the "
+            - vocabulary:
+                id: bridge
+                text: bridge
+            - text: .
+        - id: p07-b02
+          speaker: bo
+          text: Now cross.
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          text: Yu crosses. They walk to the garden.

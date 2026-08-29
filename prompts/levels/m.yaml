@@ -1,0 +1,61 @@
+schema_version: 1
+id: m
+external_reference:
+  reading_a_z_label: M
+  age_band: 7-8
+  en_grade_reference: 2
+  en_lexile_reference: 420L-650L
+reading_goal: compare alternatives and follow evidence across chapters or clear sections
+prompt: Write at HaiLibrary Level M to compare alternatives and follow evidence across chapters or clear sections. Compare alternatives through events, consequences, and distinct viewpoints across sections. Avoid giving characters polished summaries of the book's argument.
+text_contract:
+  structure: two choices with different results
+  syntax: varied subordination and discourse modes
+  vocabulary: academic plus supported domain terms
+  knowledge: retained and reused concept
+  illustration_reliance: supporting
+  inference: comparison from distributed evidence
+complexity_floor:
+  - two plausible choices have different consequences
+  - a conclusion uses three linked steps
+pages:
+  min: 16
+  max: 22
+questions:
+  min: 5
+  max: 8
+  types:
+    - cause-effect
+    - short-answer
+    - character-motive
+    - main-idea
+    - evidence
+    - compare
+  required:
+    - compare
+languages:
+  en:
+    mean_sentence_units_typical:
+      - 9
+      - 14
+    sentences_per_page_max: 7
+    units_per_sentence_max: 20
+    units_per_page_typical:
+      - 22
+      - 42
+    units_per_page_max: 60
+    units_total_min: 400
+    units_total_max: 750
+    new_words_per_page_max: 4
+  zh:
+    mean_sentence_units_typical:
+      - 15
+      - 25
+    sentences_per_page_max: 7
+    units_per_sentence_max: 33
+    units_per_page_typical:
+      - 33
+      - 62
+    units_per_page_max: 88
+    units_total_min: 600
+    units_total_max: 1150
+    new_words_per_page_max: 4

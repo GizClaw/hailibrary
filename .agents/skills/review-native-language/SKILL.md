@@ -15,9 +15,10 @@ Read the exact `aa`/`a`-`z`/`z1`/`z2` level record, `prompts/levels/locale-refer
 
 For each locale:
 
-1. Read its complete `story.yaml`, referenced Writer prompt, level definition, and relevant vocabulary definitions without opening another locale's prose as a wording template.
+1. Read its complete `story.yaml`, the referenced Writer's `prompt` and `language_prompt`, the exact Level `prompt` and complete level definition, and relevant vocabulary definitions without opening another locale's prose as a wording template.
 2. Reconstruct a source-neutral scene brief from the shared page event, speaker intent, illustration contract, learning goal, and question evidence. Do not treat another locale's sentences as the source text.
 3. Read the locale continuously from title through questions. Assess the work as a story or nonfiction text, not as isolated valid sentences.
+   Read `article` exactly as the user sees it. It must be continuous, and visible dialogue must use natural locale-specific quotation and attribution. Then review `audio_script` separately for speakability and preserved meaning; hidden speaker metadata must not be carrying structure that the article lacks.
 4. Apply the locale guide for every locale present:
    - read [references/zh-CN.md](references/zh-CN.md) for `zh-CN`;
    - read [references/en-US.md](references/en-US.md) for `en-US`;
@@ -47,7 +48,7 @@ If the sources conflict or do not cover the precise context, return `NATIVE_REVI
 Review all learner-facing language:
 
 - title, summary, chapter titles, narration, and dialogue;
-- cast display names and the naturalness of TTS direction wording;
+- `audio_script.cast` display names and the naturalness of TTS direction wording;
 - question prompts, choices, answers, and explanations;
 - inline target-word surface forms and localized vocabulary definitions;
 - punctuation, typography, register, information flow, rhythm, and continuity of voice;
@@ -64,6 +65,7 @@ Treat wording as a finding when a fluent speaker could understand it but would n
 - repeated subjects, possessives, pronouns, articles, or connectives inherited from the other locale;
 - source-language information order, emphasis, politeness, punctuation, or paragraph rhythm;
 - dialogue that explains the plot or moral instead of sounding spoken by the declared character;
+- page-sized fragments, unattributed visible dialogue, or an article that depends on hidden speaker metadata;
 - titles that expose a source-language noun phrase rather than functioning as a native title;
 - short pages padded to resemble the length or shape of another locale;
 - correct individual sentences whose accumulation has no native narrative cadence or recognizable Writer voice.
