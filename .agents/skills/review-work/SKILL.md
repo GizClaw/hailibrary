@@ -83,7 +83,7 @@ Check that:
 
 ## Visual review
 
-Visual review is optional. When the maintainer puts it in scope for the task or linked Issue, apply the complete `$review-artwork` procedure to the cover, every page illustration, and `artwork.yaml`. Otherwise, check only artwork presence, format, Git LFS coverage, and `artwork.yaml` scene contracts, and report visual inspection as out of scope. When run, also preserve the vocabulary-card verdicts from `$review-vocabulary`, the Style-thumbnail verdict from `$review-style`, and Writer-avatar verdicts from `$review-writer`.
+Visual review is optional and out of scope by default; follow the "Visual review scope" rule in `AGENTS.md`. When the task request or linked Issue explicitly puts it in scope, apply the complete `$review-artwork` procedure to the cover, every page illustration, and `artwork.yaml`. Otherwise, check only artwork presence, format, Git LFS coverage, and `artwork.yaml` scene contracts, and report visual inspection as out of scope. When run, also preserve the vocabulary-card verdicts from `$review-vocabulary`, the Style-thumbnail verdict from `$review-style`, and Writer-avatar verdicts from `$review-writer`.
 
 A GitHub binary diff proves only file presence; never claim pixel-level verification without viewing the images. When visual review is in scope, a `FAIL` or uncompleted visual inspection from any required specialized review blocks the complete work from receiving `PASS`.
 

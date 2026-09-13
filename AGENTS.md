@@ -35,7 +35,7 @@ When asked to create or revise a book:
 12. Keep page IDs, meaning, characters, and illustration IDs aligned across locales; never use another locale's article or script as the sentence template.
 13. For a new work, generate the cover and every page illustration directly with Codex image generation using the selected Style. For an existing work under a text-only revision, preserve every image byte-for-byte unless the user explicitly authorizes visual changes. Images must contain no words, letters, numbers, logos, captions, speech bubbles, or watermarks.
 14. For new artwork, save compressed `.webp` images under the book's `artwork/` directory and describe each scene in `artwork.yaml`. Do not recompress, rename, or rewrite existing visual resources during a text-only task.
-15. Visual artwork review is optional: run `$review-artwork` only when the maintainer puts visual review in scope for the task or linked Issue. During a text-only review-fix loop, treat visuals as fixed scene constraints and solve compatibility issues in the text; do not regenerate images.
+15. Visual artwork review is optional and out of scope by default: run `$review-artwork` only when visual review is in scope as defined under "Visual review scope" below. During a text-only review-fix loop, treat visuals as fixed scene constraints and solve compatibility issues in the text; do not regenerate images.
 16. Run `npm run check-work -- <work-directory>` and fix every deterministic resource error.
 17. Run `$review-native-language` for every locale, then run the `review-fix-loop` before marking the work ready for PR review.
 
@@ -97,7 +97,7 @@ Review the complete changed book, not only isolated lines. Fail the review when 
 - a Writer is missing or the prose clearly violates that Writer's constraints.
 - a Style is missing, its prompt creates an IP risk, or the artwork violates its continuity constraints.
 
-Visual inspection of artwork pixels is optional and is required only when the maintainer puts visual review in scope for the task or linked Issue. When it is out of scope, a review checks artwork presence, format, Git LFS coverage, and `artwork.yaml` scene contracts, does not block on pixel-level findings, and must not claim visual proof it does not have. GitHub PR review cannot infer pixels from a binary diff, so it always reviews only artwork presence and `artwork.yaml` scene contracts.
+Visual review scope: visual inspection of artwork pixels, including `$review-artwork`, is optional and is out of scope by default. It is in scope only when the maintainer's task request or the linked Issue explicitly says so, for example with a line such as `Visual review: in scope` or an explicit request to run `$review-artwork`. Silence, a Non-goal, or `Visual review: out of scope` all mean it is out of scope. When it is out of scope, a review checks artwork presence, format, Git LFS coverage, and `artwork.yaml` scene contracts, does not block on pixel-level findings, and must not claim visual proof it does not have. GitHub PR review cannot infer pixels from a binary diff, so it always reviews only artwork presence and `artwork.yaml` scene contracts.
 
 Return actionable findings first. Return `PASS` only when there are no findings, then summarize the level, Writer, locales, page count, artwork count, speakers, and question evidence checked.
 
