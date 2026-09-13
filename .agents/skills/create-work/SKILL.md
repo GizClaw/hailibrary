@@ -108,7 +108,7 @@ Generate the cover and one illustration per page directly with Codex image gener
 
 Visually inspect every generated image, including vocabulary cards. Do not infer image quality from filenames or YAML.
 
-Apply `$review-artwork` after creating or materially changing the cover, page illustrations, or artwork manifest. Fix authorized findings before proceeding.
+When visual review is in scope under the "Visual review scope" rule in `AGENTS.md`, apply `$review-artwork` after creating or materially changing the cover, page illustrations, or artwork manifest, and fix authorized findings before proceeding.
 
 ## Validate and finish
 
