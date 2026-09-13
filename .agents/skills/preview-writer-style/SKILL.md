@@ -25,7 +25,7 @@ If the Writer, locale, or Style cannot be resolved unambiguously, ask one concis
 
 Invent one low-stakes scene with no material real-world factual claim. Keep it independent of existing HaiLibrary works and reference reading.
 
-Compose the prompts with strict ownership:
+Compose the prompts with strict ownership for this disposable level-bound preview:
 
 1. The exact Level controls language and reading difficulty.
 2. The Writer creative prompt controls viewpoint, values, subject choices, and narrative decisions.
@@ -34,7 +34,7 @@ Compose the prompts with strict ownership:
 
 The prose sample is deliberately smaller than a complete book, so do not force full-work page counts, total-unit minimums, chapters, questions, vocabulary cards, research, or artwork manifests into it. Preserve the Level's sentence, vocabulary, inference, and natural-language expectations.
 
-Write the preview first as one continuous article excerpt without speaker markup or page divisions. Do not use this preview Skill to force multiple voices. If the user also wants to inspect the TTS adaptation, apply `$scriptize-article` to the completed excerpt as a separate displayed result.
+Write the preview as one continuous level-bound excerpt without speaker markup or page divisions. It is not a persisted literary `article.md`. Do not pass it directly to `$scriptize-article`; a TTS preview first needs a displayed paginated adaptation equivalent to `$adapt-article` output.
 
 Scale the sample enough to reveal prompt behavior:
 

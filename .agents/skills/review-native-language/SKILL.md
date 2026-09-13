@@ -9,16 +9,15 @@ Judge whether each locale reads as writing composed by a fluent native-language 
 
 Follow `AGENTS.md`. For review-only work, report findings without editing. Apply corrections only when explicitly authorized, then review the complete locale again rather than only the changed sentences.
 
-Read the exact `aa`/`a`-`z`/`z1`/`z2` level record, `prompts/levels/locale-references.yaml`, and its locale vocabulary range. Native wording must satisfy that exact level's age band, sentence, page, lexical, inference, and task limits. Use Lexile only as an English cross-reference; use the declared Chinese curriculum checkpoint for Chinese and never transfer an English Lexile measure. Treat Z1 and Z2 as HaiLibrary higher-education extensions, not official Reading A-Z grade correlations.
+Read the exact `aa`/`a`-`z`/`z1`/`z2` level record, `prompts/levels/locale-references.yaml`, and its locale vocabulary range. The adapted `article.pages` must satisfy that exact level's age band, sentence, page, lexical, inference, and task limits; literary `article.md` is not held to them. Use Lexile only as an English cross-reference; use the declared Chinese curriculum checkpoint for Chinese and never transfer an English Lexile measure. Treat Z1 and Z2 as HaiLibrary higher-education extensions, not official Reading A-Z grade correlations.
 
 ## Review one locale before comparing locales
 
 For each locale:
 
-1. Read its complete `story.yaml`, the referenced Writer's `prompt` and `language_prompt`, the exact Level `prompt` and complete level definition, and relevant vocabulary definitions without opening another locale's prose as a wording template.
-2. Reconstruct a source-neutral scene brief from the shared page event, speaker intent, illustration contract, learning goal, and question evidence. Do not treat another locale's sentences as the source text.
-3. Read the locale continuously from title through questions. Assess the work as a story or nonfiction text, not as isolated valid sentences.
-   Read `article` exactly as the user sees it. It must be continuous, and visible dialogue must use natural locale-specific quotation and attribution. Then review `audio_script` separately for speakability and preserved meaning; hidden speaker metadata must not be carrying structure that the article lacks.
+1. Read its complete `article.md` and `story.yaml`, the referenced Writer's `prompt` and `language_prompt`, the exact Level prompt and record, and relevant vocabulary definitions without opening another locale's prose as a wording template.
+2. Read `article.md` continuously as literature. Judge native voice, scene craft, rhythm, coherence, and safety without applying level ceilings.
+3. Read the adapted `article.pages` continuously exactly as the user sees it. It must remain native, level-compliant, faithful to the novel, and naturally attribute visible dialogue. Review `audio_script` separately for speakability and preserved meaning; hidden speaker metadata must not carry structure that visible prose lacks.
 4. Apply the locale guide for every locale present:
    - read [references/zh-CN.md](references/zh-CN.md) for `zh-CN`;
    - read [references/en-US.md](references/en-US.md) for `en-US`;
@@ -47,12 +46,12 @@ If the sources conflict or do not cover the precise context, return `NATIVE_REVI
 
 Review all learner-facing language:
 
-- title, summary, chapter titles, narration, and dialogue;
+- the `article.md` title and complete literary prose, plus the adapted title, summary, chapter titles, narration, and dialogue;
 - `audio_script.cast` display names and the naturalness of TTS direction wording;
 - question prompts, choices, answers, and explanations;
 - inline target-word surface forms and localized vocabulary definitions;
 - punctuation, typography, register, information flow, rhythm, and continuity of voice;
-- whether the locale Writer is audible in creative decisions rather than merely named in metadata.
+- whether the locale Writer is audible in both the novel and its adaptation rather than merely named in metadata.
 
 Lower proficiency must use natural simple language, not telegraphic or translated language. Higher proficiency may carry complex ideas, but must not become an outline, policy memo, or chain of abstract thesis statements unless that form is intentionally declared.
 
@@ -65,7 +64,7 @@ Treat wording as a finding when a fluent speaker could understand it but would n
 - repeated subjects, possessives, pronouns, articles, or connectives inherited from the other locale;
 - source-language information order, emphasis, politeness, punctuation, or paragraph rhythm;
 - dialogue that explains the plot or moral instead of sounding spoken by the declared character;
-- page-sized fragments, unattributed visible dialogue, or an article that depends on hidden speaker metadata;
+- a novel that reads like a checklist or report, or adapted page-sized fragments, unattributed visible dialogue, or text that depends on hidden speaker metadata;
 - titles that expose a source-language noun phrase rather than functioning as a native title;
 - short pages padded to resemble the length or shape of another locale;
 - correct individual sentences whose accumulation has no native narrative cadence or recognizable Writer voice.
@@ -78,8 +77,8 @@ For each locale, report:
 
 - `PASS`, `FAIL`, or `NATIVE_REVIEW_REQUIRED`;
 - the Writer, level, and the voice/register/rhythm actually observed;
-- coverage of title, summary, every page, chapters, cast wording, questions, and vocabulary wording;
-- representative evidence from the beginning, middle, and end, with exact page or question IDs;
+- coverage of the complete `article.md`, adapted title, summary, every page, chapters, cast wording, questions, and vocabulary wording;
+- representative evidence from the novel and adaptation beginning, middle, and end, with exact page or question IDs where applicable;
 - every finding's current wording, the native-usage problem, a natural alternative, and whether the change affects only that locale or shared alignment;
 - after the independent pass, the result of the cross-locale structural-mirroring check.
 
@@ -89,6 +88,6 @@ When usage is uncertain, follow the locale guide's live-source route. Search exa
 
 ## Fixing authorized findings
 
-Rewrite from the source-neutral scene brief and the locale Writer's constraints. Do not repair one locale by translating another. Preserve the page event, speaker intent, illustration compatibility, learning goal, level, and question evidence, but change sentence structure and phrasing as freely as native expression requires.
+Fix literary problems in `article.md` first, review it again, and re-run `$adapt-article`. Fix adaptation-only wording from the locale novel and Writer constraints without translating another locale. Preserve story authority, page event, illustration compatibility, learning goal, level, and question evidence.
 
 After fixes, reread the entire locale independently, repeat the cross-locale comparison, and issue a fresh evidence-backed verdict.

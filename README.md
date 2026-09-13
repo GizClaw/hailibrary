@@ -8,7 +8,7 @@ Hai! Library is an AI-assisted graded reading library for language learners of a
 works/<level>/<category>/<subcategory>/<title>/
 ```
 
-Books are authored as YAML. Every locale targets the directory level, shares the same wordless page illustrations, and identifies speakers for future TTS. Codex creates and reviews content by following `AGENTS.md`; this repository contains no model-calling generation harness.
+Books are authored as YAML plus one literary `article.md` source for every locale. Each Writer first creates an unconstrained continuous novel, which is then faithfully adapted into level-bound paginated YAML; locales share the same wordless page illustrations and identify speakers for future TTS. Codex creates and reviews content by following `AGENTS.md`; this repository contains no model-calling generation harness.
 
 Vocabulary lives under `vocabulary/<level>/<id>/`. Target words are marked inline in story content; one entry contains all localized terms and one shared word-card image.
 
@@ -56,6 +56,8 @@ Codex can discover the repository Skills in `.agents/skills/` automatically. The
 
 ```text
 $create-work
+$adapt-article
+$scriptize-article
 $review-native-language
 $review-work
 $create-vocabulary

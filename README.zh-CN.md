@@ -8,7 +8,7 @@
 works/<level>/<category>/<subcategory>/<title>/
 ```
 
-图书源文件使用 YAML 编写。每种语言版本都必须符合目录所声明的等级，共用同一组无文字页面插画，并标明每句内容的说话者，以便未来生成 TTS 音频。Codex 按照 `AGENTS.md` 创作和审核内容；仓库代码本身不会调用模型生成故事或插画。
+图书源文件由 YAML 和每种语言各自的文学源稿 `article.md` 组成。每位 Writer 先独立写出不受分级上限约束的连续作品，再忠实改编为符合目录等级的分页 YAML；各语言版本共用同一组无文字页面插画，并标明 TTS 说话者。Codex 按照 `AGENTS.md` 创作和审核内容；仓库代码本身不会调用模型生成故事或插画。
 
 词汇位于 `vocabulary/<level>/<id>/`。故事正文直接标记目标词；每个词汇条目包含所有语言的本地化词语，以及一张共用的无文字词卡图片。
 
@@ -56,6 +56,8 @@ Codex 可以自动发现 `.agents/skills/` 中的项目 Skills，也可以显式
 
 ```text
 $create-work
+$adapt-article
+$scriptize-article
 $review-native-language
 $review-work
 $create-vocabulary

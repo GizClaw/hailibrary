@@ -1,6 +1,6 @@
 # Annotated article contract
 
-Use this contract to derive the persisted `audio_script` layer from the Writer's persisted visible `article` layer.
+Use this contract to derive `audio_script` from the level-adapted visible `story.yaml` `article.pages`, which itself derives from the locale's literary `article.md` source.
 
 ## Shape
 
@@ -27,7 +27,7 @@ annotated_article:
 
 `id` is the stable join key shared by one TTS clip and its subtitle. Use `<page-id>-b<two-digit-index>` within each locale, keep IDs unique, and do not silently reuse an existing ID for different spoken content after publication. `speaker` is a TTS voice marker. Vocabulary remains an inline content marker inside the same spoken block. A speaker's reusable voice direction is defined once in `audio_script.cast`; blocks contain no voice configuration.
 
-The YAML under `works/` remains authoritative. `article.pages[].paragraphs[]` stores exactly what article mode shows, including natural quotation and attribution. `audio_script.pages[].blocks[]` stores the TTS adaptation, stable block IDs, and speaker IDs. A separate script mode may show those blocks for subtitle/audio debugging, but the web reader must not synthesize article prose from them.
+`article.md` is authoritative for the story. YAML `article.pages[].paragraphs[]` stores exactly what article mode shows, including natural quotation and attribution, and is authoritative for visible level-bound wording. `audio_script.pages[].blocks[]` stores the TTS adaptation, stable block IDs, and speaker IDs. A separate script mode may show those blocks for subtitle/audio debugging, but the web reader must not synthesize article prose from them.
 
 ## Preservation invariants
 
@@ -44,7 +44,7 @@ The YAML under `works/` remains authoritative. `article.pages[].paragraphs[]` st
 
 After the annotated article passes a continuous read:
 
-1. choose page boundaries at real scene, action, or paragraph transitions;
+1. retain the page boundaries established by `$adapt-article` at real scene, action, or paragraph transitions;
 2. copy contiguous blocks into each matching `audio_script` page without reordering them;
 3. attach the page illustration ID;
 4. apply vocabulary creation/review for any newly selected terms;

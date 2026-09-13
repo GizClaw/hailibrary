@@ -1,6 +1,6 @@
 # Static API catalog
 
-Books are authored as YAML. The TypeScript catalog build emits a versioned, read-only static API that the website and other clients consume directly.
+Books are authored as YAML plus a persisted literary `article.md` source for each locale. The TypeScript catalog build intentionally compiles only the level-adapted YAML into a versioned, read-only static API; the website and other clients do not load `article.md`.
 
 ```text
 build/

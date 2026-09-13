@@ -1,26 +1,27 @@
 ---
 name: scriptize-article
-description: Convert one complete HaiLibrary locale article into a continuous multi-speaker TTS script—把完整文章标记为 narrator/characters 的自然对白脚本，并保留内联 vocabulary；用于 Writer 完稿后、分页前，不负责从零创作文章或生成插画。
+description: Convert adapted HaiLibrary article.pages into a continuous multi-speaker TTS script—把分级改编后的 article.pages 标记为 narrator/characters 的自然语音脚本并保留内联 vocabulary；不负责创作小说、分级改编或生成插画。
 ---
 
-# Scriptize a complete article
+# Scriptize an adapted article
 
-Turn an already coherent article into a speaker-marked version suitable for HaiLibrary narration and character voices. Scriptization is adaptation, not a second story-generation pass.
+Turn coherent, level-adapted `story.yaml` `article.pages` into `audio_script` for narration and character voices. Scriptization assigns and lightly adapts speech; it is not story generation or level adaptation.
 
 Read [references/annotated-article-contract.md](references/annotated-article-contract.md) before converting content.
 
-## Require a real source article
+## Require a completed adaptation
 
-The input must be one complete locale draft with a beginning, development, and resolution or an appropriate complete nonfiction structure. It must already satisfy the selected Writer and exact Level in substance and language.
+The input must be one complete locale `article.pages` produced from `article.md` by `$adapt-article`. It must already have a beginning, development, and resolution or an appropriate complete nonfiction structure, and satisfy the Writer and exact Level.
 
-If the input is only an outline, page plan, event list, isolated lines, or incomplete fragments, return `ARTICLE_REQUIRED` and identify what is missing. Do not fill the gaps by inventing a story inside this Skill.
+If the input is only `article.md`, an outline, page plan, event list, isolated lines, or incomplete fragments, return `ADAPTED_ARTICLE_REQUIRED` and identify what is missing. Do not fill gaps or perform adaptation inside this Skill.
 
-Read the source article without assigning speakers first. Confirm its event order, causal links, viewpoint, recurring details, conclusion, and paragraph flow. These are the preservation baseline.
+Read the adapted pages continuously without assigning speakers first. Confirm their event order, causal links, viewpoint, recurring details, conclusion, and paragraph flow against `article.md`. The adapted visible text is the scriptization baseline.
 
 When used inside `$create-work`, also read:
 
 - the locale Writer's `prompt` and `language_prompt`;
 - the exact Level prompt and complete level record;
+- the locale `article.md` for story-authority context, without editing it;
 - `book.yaml` character IDs and the locale cast/TTS directions when they already exist;
 - every vocabulary marker already selected for the locale.
 
@@ -53,6 +54,6 @@ After conversion, read only the speaker-marked article continuously from beginni
 
 For a standalone request, output the proposed `audio_script` directly plus a short conversion note naming retained narration, dramatized passages, and any `ARTICLE_REQUIRED` or cast blocker. Do not write repository files without explicit authorization.
 
-Inside an authorized `$create-work` task, write the ordered blocks to `audio_script.pages[].blocks[]` with page IDs and illustrations aligned to `article.pages[]`. Pagination must preserve order and must not rewrite each page as an independent mini-story. This applies to both short and long articles; length does not decide whether an article can be scriptized. `speaker` remains TTS metadata and never supplies visible quotation marks or attribution in article mode. Voice direction belongs once in `audio_script.cast`, never in repeated blocks. The web reader may expose a separate script mode for editorial, subtitle, and audio alignment, but article mode must render only the Writer-authored `article`.
+Inside an authorized `$create-work` task, write the ordered blocks to `audio_script.pages[].blocks[]` with page IDs and illustrations aligned to `article.pages[]`. Preserve existing pagination and order; do not rewrite each page as an independent mini-story. `speaker` remains TTS metadata and never supplies visible quotation marks or attribution in article mode. Voice direction belongs once in `audio_script.cast`, never in repeated blocks. The web reader may expose a separate script mode for editorial, subtitle, and audio alignment, but article mode renders the adapted `article.pages`.
 
-This Skill does not create artwork, questions, chapters, vocabulary entries, or a new article. Those remain separate responsibilities.
+This Skill does not create artwork, questions, chapters, vocabulary entries, `article.md`, or the level adaptation. Those remain separate responsibilities.

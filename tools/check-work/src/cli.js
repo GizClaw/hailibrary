@@ -75,6 +75,27 @@ function requiredString(check, mapping, key, label) {
   return null;
 }
 
+function checkSourceArticle(check, path, locale) {
+  const relativePath = asPosix(relative(check.root, path));
+  if (!check.require(existsSync(path) && statSync(path).isFile(), `missing source article: ${relativePath}`)) return;
+  let article;
+  try {
+    article = new TextDecoder("utf-8", { fatal: true }).decode(readFileSync(path));
+  } catch (error) {
+    check.errors.push(`source article must be valid UTF-8 text: ${relativePath}: ${error instanceof Error ? error.message : String(error)}`);
+    return;
+  }
+  const lines = article.split(/\r?\n/u);
+  check.require(/^# \S.*$/u.test(lines[0] ?? ""), `${locale}: article.md must start with a non-empty level-1 title`);
+  check.require(lines[0] !== "---", `${locale}: article.md must not contain YAML front matter`);
+  const blocks = article.split(/\r?\n[ \t]*\r?\n/u);
+  check.require(
+    blocks.some((block, index) => index > 0 && block.trim().length > 0 && !block.trimStart().startsWith("#")),
+    `${locale}: article.md must contain at least one non-heading prose paragraph`,
+  );
+  check.require(!/\{?vocabulary\s*:/iu.test(article), `${locale}: article.md must not contain vocabulary markers`);
+}
+
 function lineText(line) {
   if (typeof line.text === "string") return line.text;
   if (!Array.isArray(line.content)) return "";
@@ -338,6 +359,7 @@ function checkWork(workArgument) {
     const localeVocabularyRanges = vocabularyRanges[locale];
     check.require(isMapping(localeVocabularyRanges) && isMapping(localeVocabularyRanges.ranges?.[level]), `${locale}: vocabulary range is missing for level ${level}`);
     const story = check.yamlMapping(join(localeDir, locale, "story.yaml"));
+    checkSourceArticle(check, join(localeDir, locale, "article.md"), locale);
     check.require(story.language === locale, `story.language must be ${locale}`);
     const writerId = story.writer;
     if (check.require(typeof writerId === "string" && writerId.length > 0, `${locale}: writer must be a string`)) {

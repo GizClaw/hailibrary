@@ -14,7 +14,7 @@ The authoritative records are:
 - `prompts/vocabulary/ranges.yaml`: exact-level English and Chinese lexical scope;
 - `prompts/vocabulary/index.yaml`: concrete queryable lists, lookup order, source metadata, and evidence limits.
 
-Read the index, the complete selected exact-level record, and all three supporting reference files before drafting or reviewing. Do not interpolate from a nearby letter and do not use this summary instead of the YAML.
+Read the index, the complete selected exact-level record, and all three supporting reference files before adapting or reviewing `story.yaml` reading text. These constraints do not govern the literary `article.md` source. Do not interpolate from a nearby letter and do not use this summary instead of the YAML.
 
 ## Quantitative overview
 
@@ -54,7 +54,7 @@ These are HaiLibrary internal editorial guardrails, not official Reading A-Z wor
 
 The K anchor is intentionally compact: the official Raz-Plus listing for *It's About Time* identifies it as Level K, 401 words, and 550L. Do not treat K as a proxy for Z1-Z2. Higher-education levels increase conceptual, lexical, syntactic, and evidence demands; they do not require book-length padding.
 
-## Required pre-draft brief
+## Required pre-adaptation brief
 
 For each locale record:
 
@@ -85,8 +85,8 @@ Vocabulary plan:
 
 ## Decision rules
 
-- Reject a draft that exceeds page, total-unit, per-page, sentence, or new-word ceilings.
-- Reject a draft below the complexity floor even when its word count fits.
+- Reject an adaptation that exceeds page, total-unit, per-page, sentence, or new-word ceilings.
+- Reject an adaptation below the complexity floor even when its word count fits.
 - Lexile is an English quantitative reference only; never fabricate a Lexile score and never apply Lexile to Chinese.
 - For English, frequency is evidence, not level assignment. From U upward, raw NGSL rank is especially insufficient without sense, register, abstraction, rhetoric, and domain review.
 - For Chinese, verify the complete word and exact textbook evidence; familiar characters do not prove a familiar word.
