@@ -15,17 +15,25 @@ assets:
   - {id: p08, file: artwork/p08.webp, scene: Tessa guards a strong drive cleanly and reaches a loose rebound among taller returning players.}
   - {id: p09, file: artwork/p09.webp, scene: Dev draws two defenders and passes to a smaller teammate waiting open in the corner.}
   - {id: p10, file: artwork/p10.webp, scene: During the final scrimmage, Mara holds the ball as crowded defenders close the lane and her quiet teammates hesitate around her.}
-  - {id: p11, file: artwork/p11.webp, scene: Dev drives past one defender while a second defender turns toward him and Mara becomes open for a pass.}
+  - {id: p11, file: artwork/p11.webp, scene: Dev holds the ball under pressure from one visible defender and turns toward Mara, who is open nearby.}
   - {id: p12, file: artwork/p12.webp, scene: Tessa secures a hard rebound between taller players while Mara and teammates reset around her.}
   - {id: p13, file: artwork/p13.webp, scene: Coach Imani and Mara review an unmarked folder and loose practice charts on the empty bleachers after practice.}
   - {id: p14, file: artwork/p14.webp, scene: Tessa faces Mara beside the empty bleachers, hurt but controlled, while Mara holds two plain practice charts.}
   - {id: p15, file: artwork/p15.webp, scene: Alone at a gym table, Mara weighs the two plain practice charts and writes one recommendation without any visible marks or text.}
   - {id: p16, file: artwork/p16.webp, scene: Mara presents the plain recommendation sheet to Coach Imani in the quiet gym while the coach listens closely.}
-  - {id: p17, file: artwork/p17.webp, scene: In the nearly empty locker area, Dev thanks Mara from a respectful distance while Tessa closes her shoe bag with a hurt expression.}
+  - {id: p17, file: artwork/p17.webp, scene: In the nearly empty locker area, Dev speaks to Mara from a respectful distance while Tessa closes her shoe bag with a hurt expression.}
   - {id: p18, file: artwork/p18.webp, scene: At open gym, Tessa holds a basketball out toward Mara after a clean steal, inviting another one-on-one possession.}
 generation:
   workflow: Codex built-in image generation
   text_in_image_requested: false
   visual_review:
-    status: pending
-    checks: [no-visible-text, character-continuity, clothing-continuity, ball-and-court-plausibility, scene-alignment, safe-play]
+    status: pass
+    checks:
+      - cover-and-all-18-pages-opened-at-original-local-pixels
+      - no-visible-text-letters-numbers-logos-captions-speech-bubbles-or-watermarks
+      - character-face-hair-clothing-and-prop-continuity
+      - all-page-actions-and-emotional-beats-match-the-declared-scenes
+      - bold-ink-comic-medium-palette-texture-and-composition
+      - safe-and-plausible-basketball-action
+      - all-assets-are-webp-at-the-declared-three-to-two-aspect-ratio
+      - webp-files-covered-by-the-repository-git-lfs-rule

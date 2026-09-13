@@ -308,8 +308,13 @@ for (const bookDir of await findBookDirs(worksDir)) {
     continue;
   }
   const stories: StorySource[] = [];
-  for (const locale of book.locales) {
-    stories.push(await readYaml<StorySource>(join(bookDir, "locales", locale, "story.yaml")));
+  try {
+    for (const locale of book.locales) {
+      stories.push(await readYaml<StorySource>(join(bookDir, "locales", locale, "story.yaml")));
+    }
+  } catch (error) {
+    console.warn(`Skipping unreadable work: ${relative(worksDir, bookDir)} (${error instanceof Error ? error.message.split("\n")[0] : error})`);
+    continue;
   }
   const illustrationPaths = [...new Set(stories.flatMap((story) => visiblePages(story).map((page) => join(bookDir, "artwork", `${page.illustration}.webp`))))];
   const missingIllustrations = (await Promise.all(illustrationPaths.map(async (illustrationPath) => await exists(illustrationPath) ? null : illustrationPath))).filter((illustrationPath): illustrationPath is string => illustrationPath !== null);
