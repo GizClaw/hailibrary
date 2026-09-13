@@ -1,0 +1,198 @@
+schema_version: 2
+language: en-US
+writer: sage-paw
+title: What Does a Giant Panda Eat?
+summary: A hungry giant panda eats several parts of bamboo. After a noon nap, it starts eating again.
+chapters:
+  - id: ch01
+    title: Morning Bamboo
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+  - id: ch02
+    title: A Long Meal
+    page_refs:
+      - p06
+      - p07
+      - p08
+      - p09
+      - p10
+questions:
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: What is the panda holding?
+    answer: A soft bamboo shoot.
+    page_refs:
+      - p03
+  - id: q02
+    type: sequence
+    speaker: narrator
+    prompt: What does the panda eat after the shoot?
+    answer: A bamboo stem.
+    page_refs:
+      - p03
+      - p05
+      - p06
+  - id: q03
+    type: explicit-choice
+    speaker: narrator
+    prompt: Does it eat mostly bamboo or fish?
+    answer: Bamboo.
+    page_refs:
+      - p02
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: Morning comes, and a giant panda is hungry.
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: "Almost all its food is "
+            - vocabulary:
+                id: bamboo
+                text: bamboo
+            - text: .
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: "First, it bites a soft bamboo "
+            - vocabulary:
+                id: shoot
+                text: shoot
+            - text: .
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: Soon, that shoot is gone.
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: "The panda pulls a thick "
+            - vocabulary:
+                id: stem
+                text: stem
+            - text: " close."
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: It peels the hard skin away. It eats the soft part under it.
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - text: Next, it gathers a bunch of green leaves.
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - text: At noon, the panda takes a nap.
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - text: Then it wakes and eats again.
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - text: It eats 10 to 14 hours a day. After a nap, it eats again.
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: calm and gently observant
+        timbre: warm clear adult voice
+        pace: medium-slow
+        pitch: medium
+    panda:
+      display_name: Giant Panda
+      tts:
+        delivery: soft and unhurried if a nonverbal cue is ever voiced
+        timbre: low airy animal tone
+        pace: slow
+        pitch: low
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: Morning comes, and a giant panda is hungry.
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - text: "Almost all its food is "
+            - vocabulary:
+                id: bamboo
+                text: bamboo
+            - text: .
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          content:
+            - text: "First, it bites a soft bamboo "
+            - vocabulary:
+                id: shoot
+                text: shoot
+            - text: .
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: Soon, that shoot is gone.
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          content:
+            - text: "The panda pulls a thick "
+            - vocabulary:
+                id: stem
+                text: stem
+            - text: " close."
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: It peels the hard skin away. It eats the soft part under it.
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          text: Next, it gathers a bunch of green leaves.
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          text: At noon, the panda takes a nap.
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          text: Then it wakes and eats again.
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          text: It eats 10 to 14 hours a day.
+        - id: p10-b02
+          speaker: narrator
+          text: After a nap, it eats again.

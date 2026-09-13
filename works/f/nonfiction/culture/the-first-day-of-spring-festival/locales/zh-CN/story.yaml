@@ -1,0 +1,273 @@
+schema_version: 2
+language: zh-CN
+writer: 铜罗盘
+title: 大年初一
+summary: 小雨以为每家过年都吃同一种食物。两次拜年带来两个答案，她就换了一个问法。
+chapters:
+  - id: ch01
+    title: 先去拜年
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+  - id: ch02
+    title: 两个答案
+    page_refs:
+      - p05
+      - p06
+      - p07
+      - p08
+  - id: ch03
+    title: 换个问法
+    page_refs:
+      - p09
+      - p10
+      - p11
+      - p12
+questions:
+  - id: q01
+    type: cause-effect
+    speaker: narrator
+    prompt: 小雨为什么换了一个问法？
+    answer: 奶奶家吃饺子，梅姨妈家却吃汤圆。
+    page_refs:
+      - p04
+      - p06
+      - p07
+      - p09
+  - id: q02
+    type: sequence
+    speaker: narrator
+    prompt: 小雨先做什么，再做什么？
+    answer: 她先向大家拜年，再问每家过年吃什么。
+    page_refs:
+      - p09
+  - id: q03
+    type: explicit-choice
+    speaker: narrator
+    prompt: 梅姨妈家初一常吃什么？
+    choices:
+      - 饺子
+      - 汤圆
+      - 每顿都吃两样
+    answer: 汤圆
+    page_refs:
+      - p06
+      - p10
+  - id: q04
+    type: short-answer
+    speaker: narrator
+    prompt: 奶奶送给小雨什么礼物？
+    answer: 一个红包。
+    page_refs:
+      - p03
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: 大年初一，小雨有个问题。过年到底该吃什么？
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: 小雨和妈妈先去奶奶家。一进门，小雨就说：“奶奶，过年好！”
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: 奶奶笑着拿出一个
+            - vocabulary:
+                id: red-envelope
+                text: 红包
+            - text: ，说：“早就给你备好了。”
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: 一盘热饺子端上了桌。奶奶说：“我们家初一常吃饺子。”
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: 奶奶装好饺子，和她们一起去梅姨妈家。小雨悄悄告诉妈妈：“我找到答案了。一定是饺子。”
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: 到了梅姨妈家，桌上却是汤圆。姨妈家初一常吃汤圆。
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - text: 小雨没有马上吃。她问：“哪一种才对呢？”
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - text: 妈妈说：“都可以。北方有些家庭吃饺子，南方有些家庭吃汤圆。还有人家吃年糕。”
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - text: 小雨有了办法：先拜年，再问每家过年吃什么。
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - text: 拜过年，小雨问梅姨妈：“你小时候过年吃什么？”梅姨妈笑着说：“外婆家常吃汤圆。”
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - text: 两家人坐在一起，桌上有饺子，也有汤圆。奶奶尝了汤圆，梅姨妈又夹起一个饺子。
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - text: 回家路上，小雨牵着妈妈的手。她问：“明年，我们再去谁家问问过年吃什么？”
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖清楚，讲到不同之处时稍作强调
+        timbre: 平滑柔和的成年中低音
+        pace: 平稳适中
+        pitch: 中低
+    xiaoyu:
+      display_name: 小雨
+      tts:
+        delivery: 好奇直率，想法变化时带一点停顿
+        timbre: 清亮轻快的女童声
+        pace: 稍快，问话清楚
+        pitch: 高
+    mom:
+      display_name: 妈妈
+      tts:
+        delivery: 从容实在，带一点笑意
+        timbre: 圆润柔和的成年女声
+        pace: 不急不慢
+        pitch: 中
+    grandma:
+      display_name: 奶奶
+      tts:
+        delivery: 亲切欢迎，说话带笑
+        timbre: 略有沙感的老年女低音
+        pace: 舒缓流畅
+        pitch: 低
+    aunt-mei:
+      display_name: 梅姨妈
+      tts:
+        delivery: 明快亲昵，回想往事时语气轻柔
+        timbre: 清澈饱满的成年女声
+        pace: 适中偏快
+        pitch: 中高
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: 大年初一，小雨有个问题。过年到底该吃什么？
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          text: 小雨和妈妈先去奶奶家。一进门，小雨就说：
+        - id: p02-b02
+          speaker: xiaoyu
+          text: 奶奶，过年好！
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          content:
+            - text: 奶奶笑着拿出一个
+            - vocabulary:
+                id: red-envelope
+                text: 红包
+            - text: ，说：
+        - id: p03-b02
+          speaker: grandma
+          text: 早就给你备好了。
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: 一盘热饺子端上了桌。奶奶说：
+        - id: p04-b02
+          speaker: grandma
+          text: 我们家初一常吃饺子。
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: 奶奶装好饺子，和她们一起去梅姨妈家。小雨悄悄告诉妈妈：
+        - id: p05-b02
+          speaker: xiaoyu
+          text: 我找到答案了。一定是饺子。
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: 到了梅姨妈家，桌上却是汤圆。
+        - id: p06-b02
+          speaker: narrator
+          text: 姨妈家初一常吃汤圆。
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          text: 小雨没有马上吃。她问：
+        - id: p07-b02
+          speaker: xiaoyu
+          text: 哪一种才对呢？
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          text: 妈妈说：
+        - id: p08-b02
+          speaker: mom
+          text: 都可以。北方有些家庭吃饺子，南方有些家庭吃汤圆。还有人家吃年糕。
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          text: 小雨有了办法。
+        - id: p09-b02
+          speaker: narrator
+          text: 她要先拜年，再问每家过年吃什么。
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          text: 拜过年，小雨问梅姨妈：
+        - id: p10-b02
+          speaker: xiaoyu
+          text: 你小时候过年吃什么？
+        - id: p10-b03
+          speaker: narrator
+          text: 梅姨妈笑着说：
+        - id: p10-b04
+          speaker: aunt-mei
+          text: 外婆家常吃汤圆。
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          text: 两家人坐在一起，桌上有饺子，也有汤圆。
+        - id: p11-b02
+          speaker: narrator
+          text: 奶奶尝了汤圆，梅姨妈又夹起一个饺子。
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          text: 回家路上，小雨牵着妈妈的手。她问：
+        - id: p12-b02
+          speaker: xiaoyu
+          text: 明年，我们再去谁家问问过年吃什么？

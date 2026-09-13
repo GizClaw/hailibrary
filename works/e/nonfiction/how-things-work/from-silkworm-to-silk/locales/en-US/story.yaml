@@ -1,0 +1,419 @@
+schema_version: 2
+language: en-US
+writer: silver-bell
+title: From Silkworm to Silk
+summary: A class plans to raise silkworms and pull silk from its own cocoons. After learning what heating does to pupae, the class lets its moths emerge and uses other cocoons.
+chapters:
+  - id: ch01
+    title: Tiny Eggs and Green Leaves
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+  - id: ch02
+    title: Silk Around a Silkworm
+    page_refs:
+      - p05
+      - p06
+      - p07
+      - p08
+  - id: ch03
+    title: Moths and Silk Thread
+    page_refs:
+      - p09
+      - p10
+      - p11
+      - p12
+questions:
+  - id: q01
+    type: sequence
+    speaker: narrator
+    prompt: What happens after the silkworms molt?
+    answer: They stop eating and begin to make silk.
+    page_refs:
+      - p04
+      - p05
+  - id: q02
+    type: cause-effect
+    speaker: narrator
+    prompt: Why does the class let its own moths come out?
+    answer: Heating the closed cocoons would kill the pupae inside.
+    page_refs:
+      - p09
+      - p10
+      - p11
+  - id: q03
+    type: explicit-choice
+    speaker: narrator
+    prompt: What do the silkworms eat?
+    choices:
+      - Fresh mulberry leaves
+      - Dry grass
+      - Flower petals
+    answer: Fresh mulberry leaves.
+    page_refs:
+      - p03
+  - id: q04
+    type: short-answer
+    speaker: narrator
+    prompt: How does boiling water help the worker pull out silk?
+    answer: It softens the sticky coat holding the strands.
+    page_refs:
+      - p12
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: "Ms. Lin brings eggs for the class to raise "
+            - vocabulary:
+                id: silkworm
+                text: silkworms
+            - text: ". They hope to pull silk from their "
+            - vocabulary:
+                id: cocoon
+                text: cocoons
+            - text: .
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: "Days later, "
+            - vocabulary:
+                id: silkworm
+                text: silkworms
+            - text: " hatch. They will become "
+            - vocabulary:
+                id: silk-moth
+                text: silk moths
+            - text: .
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: "The "
+            - vocabulary:
+                id: silkworm
+                text: silkworms
+            - text: " eat fresh "
+            - vocabulary:
+                id: mulberry-leaf
+                text: mulberry leaves
+            - text: ". Maya adds more leaves."
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: "The "
+            - vocabulary:
+                id: silkworm
+                text: silkworms
+            - text: " grow, "
+            - vocabulary:
+                id: molt
+                text: molt
+            - text: ", and leave old skin. Owen saves one."
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: Soon they stop eating. They lift their heads and make silk.
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: "Silk wraps each silkworm. A white "
+            - vocabulary:
+                id: cocoon
+                text: cocoon
+            - text: " hides it. Inside, it becomes a "
+            - vocabulary:
+                id: pupa
+                text: pupa
+            - text: .
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: "Owen waits by a "
+            - vocabulary:
+                id: cocoon
+                text: cocoon
+            - text: ". At last, a "
+            - vocabulary:
+                id: silk-moth
+                text: silk moth
+            - text: " crawls out."
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - text: "Maya asks, “Can we pull long silk from that "
+            - vocabulary:
+                id: cocoon
+                text: cocoon
+            - text: "?” The teacher points to the broken silk."
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - content:
+            - text: "She explains. “People usually heat "
+            - vocabulary:
+                id: cocoon
+                text: cocoons
+            - text: " before moths come out. Heat keeps moths from breaking silk, but it kills "
+            - vocabulary:
+                id: pupa
+                text: pupae
+            - text: ".”"
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - content:
+            - text: "Maya watches the closed "
+            - vocabulary:
+                id: cocoon
+                text: cocoons
+            - text: ". “Then our "
+            - vocabulary:
+                id: pupa
+                text: pupae
+            - text: " won’t become moths,” she whispers."
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - content:
+            - text: "“We changed our plan,” says the teacher. “We will let our moths come out.” A silk worker brings other heated "
+            - vocabulary:
+                id: cocoon
+                text: cocoons
+            - text: .
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - content:
+            - text: "The worker boils other "
+            - vocabulary:
+                id: cocoon
+                text: cocoons
+            - text: ". A sticky coat holds strands, but hot water softens it. She pulls silk as the class's moths rest nearby."
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and quietly observant
+        timbre: clear full adult voice
+        pace: even medium
+        pitch: middle
+    ms_lin:
+      display_name: Ms. Lin
+      tts:
+        delivery: honest, gentle, and reassuring
+        timbre: mellow smooth adult voice
+        pace: unhurried with clear pauses
+        pitch: low
+    maya:
+      display_name: Maya
+      tts:
+        delivery: thoughtful and tender, with direct questions
+        timbre: light clear child voice
+        pace: medium-slow
+        pitch: high
+    owen:
+      display_name: Owen
+      tts:
+        delivery: patient and quietly excited
+        timbre: rounded resonant child voice
+        pace: medium with watchful pauses
+        pitch: middle-low
+    silk_worker:
+      display_name: Silk worker
+      tts:
+        delivery: calm and practical
+        timbre: textured steady adult voice
+        pace: measured medium
+        pitch: middle-low
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          content:
+            - text: "Ms. Lin brings eggs for the class to raise "
+            - vocabulary:
+                id: silkworm
+                text: silkworms
+            - text: ". They hope to pull silk from their "
+            - vocabulary:
+                id: cocoon
+                text: cocoons
+            - text: .
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - text: "Days later, "
+            - vocabulary:
+                id: silkworm
+                text: silkworms
+            - text: " hatch. They will become "
+            - vocabulary:
+                id: silk-moth
+                text: silk moths
+            - text: .
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          content:
+            - text: "The "
+            - vocabulary:
+                id: silkworm
+                text: silkworms
+            - text: " eat fresh "
+            - vocabulary:
+                id: mulberry-leaf
+                text: mulberry leaves
+            - text: ". Maya adds more leaves."
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          content:
+            - text: "The "
+            - vocabulary:
+                id: silkworm
+                text: silkworms
+            - text: " grow, "
+            - vocabulary:
+                id: molt
+                text: molt
+            - text: ", and leave old skin. Owen saves one."
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          content:
+            - text: Soon they stop eating. They lift their heads and make silk.
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          content:
+            - text: "Silk wraps each silkworm. A white "
+            - vocabulary:
+                id: cocoon
+                text: cocoon
+            - text: " hides it. Inside, it becomes a "
+            - vocabulary:
+                id: pupa
+                text: pupa
+            - text: .
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          content:
+            - text: "Owen waits by a "
+            - vocabulary:
+                id: cocoon
+                text: cocoon
+            - text: ". At last, a "
+            - vocabulary:
+                id: silk-moth
+                text: silk moth
+            - text: " crawls out."
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: maya
+          content:
+            - text: "Can we pull long silk from that "
+            - vocabulary:
+                id: cocoon
+                text: cocoon
+            - text: "?"
+        - id: p08-b02
+          speaker: narrator
+          content:
+            - text: Maya asks. The teacher points to the broken silk.
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          content:
+            - text: She explains.
+        - id: p09-b02
+          speaker: ms_lin
+          content:
+            - text: "People usually heat "
+            - vocabulary:
+                id: cocoon
+                text: cocoons
+            - text: " before moths come out. Heat keeps moths from breaking silk, but it kills "
+            - vocabulary:
+                id: pupa
+                text: pupae
+            - text: .
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          content:
+            - text: "Maya watches the closed "
+            - vocabulary:
+                id: cocoon
+                text: cocoons
+            - text: .
+        - id: p10-b02
+          speaker: maya
+          content:
+            - text: "Then our "
+            - vocabulary:
+                id: pupa
+                text: pupae
+            - text: " won’t become moths."
+        - id: p10-b03
+          speaker: narrator
+          content:
+            - text: She whispers.
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: ms_lin
+          content:
+            - text: We changed our plan. We will let our moths come out.
+        - id: p11-b02
+          speaker: narrator
+          content:
+            - text: "A silk worker brings other heated "
+            - vocabulary:
+                id: cocoon
+                text: cocoons
+            - text: .
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: narrator
+          content:
+            - text: "The worker boils other "
+            - vocabulary:
+                id: cocoon
+                text: cocoons
+            - text: ". A sticky coat holds strands, but hot water softens it. She pulls silk as the class's moths rest nearby."

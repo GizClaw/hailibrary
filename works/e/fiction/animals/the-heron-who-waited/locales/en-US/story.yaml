@@ -1,0 +1,172 @@
+schema_version: 2
+language: en-US
+writer: silver-bell
+title: The Heron Who Waited
+summary: Young Nia rushes at some fish, and they hide. An old heron and a yellow leaf help her wait.
+chapters:
+  - id: ch01
+    title: A Noisy Start
+    page_refs: [p01, p02, p03, p04]
+  - id: ch02
+    title: The Yellow Leaf
+    page_refs: [p05, p06, p07, p08]
+  - id: ch03
+    title: Still Water
+    page_refs: [p09, p10, p11, p12]
+questions:
+  - id: q01
+    type: sequence
+    speaker: narrator
+    prompt: What does Nia do after Mara tells her to wait for still water?
+    answer: Nia takes one quiet step and stops.
+    page_refs: [p07, p08]
+  - id: q02
+    type: cause-effect
+    speaker: narrator
+    prompt: Why do the fish hide at first?
+    answer: Nia rushes after them and splashes the water.
+    page_refs: [p02, p03]
+  - id: q03
+    type: explicit-choice
+    speaker: narrator
+    prompt: What returns beside the yellow leaf?
+    choices: [A small fish, A frog, A duck]
+    answer: A small fish.
+    page_refs: [p10]
+  - id: q04
+    type: short-answer
+    speaker: narrator
+    prompt: How does Nia change the way she hunts?
+    answer: She stops rushing, steps quietly, and waits.
+    page_refs: [p02, p03, p08, p09]
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: "Early one morning, Nia, a young heron, walked into the pond. She wanted a fish to eat."
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: Small fish swam near a yellow leaf. Nia ran toward them.
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: Splash! Her feet hit the water. The fish hid in the plants.
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: Nia tried again from the other side. More splashes, no fish.
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: "Mara, an older heron, stood still across the pond. She was still as a tree. The yellow leaf came near her."
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: "“How can you hunt without moving?” Nia called. Mara watched the leaf."
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: "“Wait for the water to be still,” Mara said. “Then take one quiet step.”"
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - text: Nia raised one foot. She set it down softly and stopped.
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - content:
+            - text: "The wind moved the plants. Nia wanted to rush, but she did not move."
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - content:
+            - text: "The last "
+            - vocabulary: {id: ripple, text: ripple}
+            - text: " was gone. A small fish came back by the yellow leaf."
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - content:
+            - text: Nia put her head down slowly. Her neck shot forward. Her beak caught the fish.
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - content:
+            - text: After breakfast, the yellow leaf floated between the two herons. Nia stood quietly beside Mara.
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts: {delivery: warm and observant, timbre: clear adult storyteller, pace: medium, pitch: medium}
+    young_heron:
+      display_name: Nia
+      tts: {delivery: eager with quick flashes of frustration, timbre: light youthful voice, pace: medium-fast, pitch: medium-high}
+    elder_heron:
+      display_name: Mara
+      tts: {delivery: calm and economical, timbre: mellow mature voice, pace: slow, pitch: low-medium}
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - {id: p01-b01, speaker: narrator, content: [{text: "Early one morning, Nia, a young heron, walked into the pond. She wanted a fish to eat."}]}
+    - id: p02
+      illustration: p02
+      blocks:
+        - {id: p02-b01, speaker: narrator, content: [{text: "Small fish swam near a yellow leaf. Nia ran toward them."}]}
+    - id: p03
+      illustration: p03
+      blocks:
+        - {id: p03-b01, speaker: narrator, content: [{text: "Splash! Her feet hit the water. The fish hid in the plants."}]}
+    - id: p04
+      illustration: p04
+      blocks:
+        - {id: p04-b01, speaker: narrator, content: [{text: "Nia tried again from the other side. More splashes, no fish."}]}
+    - id: p05
+      illustration: p05
+      blocks:
+        - {id: p05-b01, speaker: narrator, content: [{text: "Mara, an older heron, stood still across the pond. She was still as a tree. The yellow leaf came near her."}]}
+    - id: p06
+      illustration: p06
+      blocks:
+        - {id: p06-b01, speaker: narrator, content: [{text: Nia called to Mara.}]}
+        - {id: p06-b02, speaker: young_heron, content: [{text: "How can you hunt without moving?"}]}
+        - {id: p06-b03, speaker: narrator, content: [{text: Mara watched the leaf.}]}
+    - id: p07
+      illustration: p07
+      blocks:
+        - {id: p07-b01, speaker: elder_heron, content: [{text: "Wait for the water to be still. Then take one quiet step."}]}
+    - id: p08
+      illustration: p08
+      blocks:
+        - {id: p08-b01, speaker: narrator, content: [{text: "Nia raised one foot. She set it down softly and stopped."}]}
+    - id: p09
+      illustration: p09
+      blocks:
+        - {id: p09-b01, speaker: narrator, content: [{text: "The wind moved the plants. Nia wanted to rush, but she did not move."}]}
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          content:
+            - text: "The last "
+            - vocabulary: {id: ripple, text: ripple}
+            - text: " was gone. A small fish came back by the yellow leaf."
+    - id: p11
+      illustration: p11
+      blocks:
+        - {id: p11-b01, speaker: narrator, content: [{text: "Nia put her head down slowly. Her neck shot forward. Her beak caught the fish."}]}
+    - id: p12
+      illustration: p12
+      blocks:
+        - {id: p12-b01, speaker: narrator, content: [{text: "After breakfast, the yellow leaf floated between the two herons. Nia stood quietly beside Mara."}]}

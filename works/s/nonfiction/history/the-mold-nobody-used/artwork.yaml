@@ -1,0 +1,91 @@
+schema_version: 1
+style: naturalistic-storybook
+aspect_ratio: "3:2"
+embedded_text: prohibited
+shared_by_all_locales: true
+continuity:
+  fleming: Scottish man in his late forties, light skin, receding brown hair, neat mustache, round spectacles, white laboratory coat over a dark brown waistcoat and white shirt.
+  chain: European man in his early thirties, light skin, thick dark wavy hair, round dark spectacles, white laboratory coat over a navy suit and blue tie.
+  florey: Australian man around forty, light skin, short light-brown hair brushed back, clean-shaven face, white laboratory coat over a charcoal suit and pale shirt.
+  heatley: English man in his late twenties, light skin, short dark-brown hair, thin wire spectacles, white laboratory coat with rolled sleeves over a burgundy sweater vest and pale shirt.
+  alexander: English man in his early forties, light skin, short brown hair, clean-shaven face, plain white hospital gown under a cream wool blanket.
+  london-lab: A cramped late-1920s bacteriology laboratory with dark wood benches, brass microscope, glass culture dishes, cloudy daylight, and no visible writing.
+  oxford-lab: A wartime Oxford laboratory with pale tile, dark benches, glass vessels, improvised cream ceramic culture trays, and no visible writing.
+  palette: Restrained sage green, cream, amber glass, dark wood, white coats, muted navy, burgundy, and cool gray daylight.
+assets:
+  - id: cover
+    file: artwork/cover.webp
+    scene: A wordless historical triptych blended into one coherent scene—a clear ring around green mold in a culture dish, Heatley beside stacked cream culture vessels, and workers tending a vast steel fermentation tank—showing the path from observation to medicine without readable marks.
+  - id: p01
+    file: artwork/p01.webp
+    scene: A close culture dish with green mold and a clear ring sits in the foreground, while a sealed amber medicine vial and a huge steel tank remain distant and out of reach, visually separating observation from finished medicine.
+  - id: p02
+    file: artwork/p02.webp
+    scene: Fleming sorts glass culture dishes at a crowded 1928 London laboratory bench and pauses over one mold-contaminated dish in cool window light.
+  - id: p03
+    file: artwork/p03.webp
+    scene: Fleming compares the original dish with fresh test dishes as filtered mold liquid creates new clear zones, all vessels blank and free of writing.
+  - id: p04
+    file: artwork/p04.webp
+    scene: Several culture dishes show different-sized clear areas around samples while Fleming studies the pattern through round spectacles.
+  - id: p05
+    file: artwork/p05.webp
+    scene: Fleming places the unusual dish beside an open but completely blank laboratory notebook and several varied bacterial cultures, emphasizing recorded but limited evidence.
+  - id: p06
+    file: artwork/p06.webp
+    scene: The mold dish sits inside the London laboratory while several possible airy paths—from a high closed window, hallway, and neighboring room—remain visually ambiguous, with no path highlighted as correct.
+  - id: p07
+    file: artwork/p07.webp
+    scene: Fleming and two assistants work with flasks, filters, and small glass tubes, but obtain only a tiny amount of cloudy active liquid.
+  - id: p08
+    file: artwork/p08.webp
+    scene: A preserved mold culture passes carefully from one researcher's hands to another across a 1930s laboratory bench, while an unused hospital bottle remains empty in the background.
+  - id: p09
+    file: artwork/p09.webp
+    scene: In the 1939 Oxford laboratory, Chain, Florey, and Heatley gather around Fleming's preserved mold culture and blank paper records as they plan a broader investigation.
+  - id: p10
+    file: artwork/p10.webp
+    scene: Heatley and Chain operate glass separation vessels, adjusting two liquid layers while Abraham works at a purification column in the background.
+  - id: p11
+    file: artwork/p11.webp
+    scene: Heatley measures clear rings in a culture dish beside several numbered-looking positions represented only by colored dots, with absolutely no actual symbols or writing.
+  - id: p12
+    file: artwork/p12.webp
+    scene: A respectful, non-graphic 1940 laboratory mouse trial shows two separate safe enclosures, four alert treated mice and four quiet covered control spaces, while the Oxford team records results on blank sheets.
+  - id: p13
+    file: artwork/p13.webp
+    scene: Florey and the Oxford team compare the mouse enclosures with a very small vial of pale penicillin powder, showing hope constrained by scarce material.
+  - id: p14
+    file: artwork/p14.webp
+    scene: In a quiet 1941 Oxford hospital room, Albert Alexander rests under a cream blanket as clinicians monitor him beside an almost empty amber treatment vial, with no graphic injury.
+  - id: p15
+    file: artwork/p15.webp
+    scene: Women and men in the wartime Oxford laboratory tend hundreds of shallow culture vessels while Heatley's stackable cream ceramic trays and improvised extraction apparatus fill the room.
+  - id: p16
+    file: artwork/p16.webp
+    scene: Florey and Heatley arrive at the Peoria agricultural laboratory carrying a small culture case, while American scientists and engineers welcome them beside laboratory-scale vessels.
+  - id: p17
+    file: artwork/p17.webp
+    scene: Peoria researchers compare a moldy cantaloupe strain and corn steep liquor cultures in blank glass vessels, with no labels or market signs.
+  - id: p18
+    file: artwork/p18.webp
+    scene: Engineers and production workers monitor a large stainless-steel deep fermentation tank with pipes, cooling jacket, air line, and controlled foam, all gauges blank.
+  - id: p19
+    file: artwork/p19.webp
+    scene: A 1944 production line fills rows of plain amber penicillin vials while diverse laboratory, factory, and medical workers coordinate in the same large facility.
+  - id: p20
+    file: artwork/p20.webp
+    scene: A museum-like wordless arrangement places the original clear-ring dish, Heatley's cream culture vessel, a small vial, and a deep-tank model together, with Fleming, Chain, Florey, Heatley, and unnamed workers visible as equal parts of the historical field.
+generation:
+  workflow: Codex built-in image generation
+  text_in_image_requested: false
+  visual_review:
+    status: pending
+    checks:
+      - no-visible-text
+      - historical-scene-accuracy
+      - character-continuity
+      - clothing-and-prop-continuity
+      - laboratory-process-plausibility
+      - non-graphic-medical-content
+      - scene-and-claim-alignment

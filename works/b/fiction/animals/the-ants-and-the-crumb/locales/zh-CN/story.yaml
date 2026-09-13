@@ -1,0 +1,154 @@
+schema_version: 2
+language: zh-CN
+writer: 栗叶灯
+title: 蚂蚁搬面包
+summary: 点点拉不动一块大面包。圆圆和好多蚂蚁来帮忙，大家把面包搬回了家。
+chapters:
+  - id: ch01
+    title: 面包不动
+    page_refs: [p01, p02, p03, p04]
+  - id: ch02
+    title: 又来了好多蚂蚁
+    page_refs: [p05, p06, p07, p08]
+questions:
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: 点点发现了什么？
+    answer: 一块大面包。
+    page_refs: [p01]
+  - id: q02
+    type: sequence
+    speaker: narrator
+    prompt: 点点喊人帮忙后，谁来了？
+    answer: 小蚂蚁圆圆。
+    page_refs: [p03]
+  - id: q03
+    type: explicit-choice
+    speaker: narrator
+    prompt: 大家一起拉时，面包怎么了？
+    choices: [面包动了, 面包还是不动]
+    answer: 面包动了。
+    page_refs: [p07]
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: 小蚂蚁点点找到一块
+            - vocabulary: {id: bread, text: 面包}
+            - text: 。它好大。
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: 点点
+            - vocabulary: {id: pull, text: 拉}
+            - text: 呀拉，面包不动。
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: 点点喊：“圆圆，帮我！”小蚂蚁圆圆来了。
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: 两只蚂蚁一起
+            - vocabulary: {id: pull, text: 拉}
+            - text: 。面包还是不动。
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: 圆圆喊：“快来帮忙！”又来了一只蚂蚁。
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: 三只蚂蚁一起
+            - vocabulary: {id: pull, text: 拉}
+            - text: 。面包还是不动。
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: 又来了好多蚂蚁，一起
+            - vocabulary: {id: pull, text: 拉}
+            - text: 。面包动了！
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - text: 大家把面包搬回家。
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts: {delivery: 平静而细心, timbre: 温暖清楚的成年声音, pace: 慢速, pitch: 中低音}
+    pip:
+      display_name: 点点
+      tts: {delivery: 热心、明亮、说话直接, timbre: 清亮的幼小声音, pace: 中快速, pitch: 高音}
+    dot:
+      display_name: 圆圆
+      tts: {delivery: 热心而稳当, timbre: 圆润的幼小声音, pace: 中速, pitch: 中高音}
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          content:
+            - text: 小蚂蚁点点找到一块
+            - vocabulary: {id: bread, text: 面包}
+            - text: 。它好大。
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - text: 点点
+            - vocabulary: {id: pull, text: 拉}
+            - text: 呀拉，面包不动。
+    - id: p03
+      illustration: p03
+      blocks:
+        - {id: p03-b01, speaker: narrator, text: 点点喊。}
+        - {id: p03-b02, speaker: pip, text: "圆圆，帮我！"}
+        - {id: p03-b03, speaker: narrator, text: 小蚂蚁圆圆来了。}
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          content:
+            - text: 两只蚂蚁一起
+            - vocabulary: {id: pull, text: 拉}
+            - text: 。面包还是不动。
+    - id: p05
+      illustration: p05
+      blocks:
+        - {id: p05-b01, speaker: narrator, text: 圆圆喊。}
+        - {id: p05-b02, speaker: dot, text: 快来帮忙！}
+        - {id: p05-b03, speaker: narrator, text: 又来了一只蚂蚁。}
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          content:
+            - text: 三只蚂蚁一起
+            - vocabulary: {id: pull, text: 拉}
+            - text: 。面包还是不动。
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          content:
+            - text: 又来了好多蚂蚁，一起
+            - vocabulary: {id: pull, text: 拉}
+            - text: 。面包动了！
+    - id: p08
+      illustration: p08
+      blocks:
+        - {id: p08-b01, speaker: narrator, text: 大家把面包搬回家。}
