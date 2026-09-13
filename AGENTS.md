@@ -35,7 +35,7 @@ When asked to create or revise a book:
 12. Keep page IDs, meaning, characters, and illustration IDs aligned across locales; never use another locale's article or script as the sentence template.
 13. For a new work, generate the cover and every page illustration directly with Codex image generation using the selected Style. For an existing work under a text-only revision, preserve every image byte-for-byte unless the user explicitly authorizes visual changes. Images must contain no words, letters, numbers, logos, captions, speech bubbles, or watermarks.
 14. For new artwork, save compressed `.webp` images under the book's `artwork/` directory and describe each scene in `artwork.yaml`. Do not recompress, rename, or rewrite existing visual resources during a text-only task.
-15. Run `$review-artwork` when visual review is in scope. During a text-only review-fix loop, treat visuals as fixed scene constraints and solve compatibility issues in the text; do not regenerate images.
+15. Visual artwork review is optional: run `$review-artwork` only when the maintainer puts visual review in scope for the task or linked Issue. During a text-only review-fix loop, treat visuals as fixed scene constraints and solve compatibility issues in the text; do not regenerate images.
 16. Run `npm run check-work -- <work-directory>` and fix every deterministic resource error.
 17. Run `$review-native-language` for every locale, then run the `review-fix-loop` before marking the work ready for PR review.
 
@@ -88,7 +88,7 @@ Review the complete changed book, not only isolated lines. Fail the review when 
 - locales change the story meaning or do not reach an equivalent learning difficulty;
 - a page is missing, reordered, or mapped to different artwork across locales;
 - a page or cover lacks an illustration;
-- an image contains visible text or does not match its declared scene;
+- when visual review is in scope, an image contains visible text or does not match its declared scene;
 - a `speaker` is missing from the cast, or TTS direction is insufficient to distinguish speakers;
 - chapters omit, duplicate, or reorder pages;
 - an inline vocabulary ID has no locale entry or word card;
@@ -97,7 +97,7 @@ Review the complete changed book, not only isolated lines. Fail the review when 
 - a Writer is missing or the prose clearly violates that Writer's constraints.
 - a Style is missing, its prompt creates an IP risk, or the artwork violates its continuity constraints.
 
-A local Codex review with image access must visually inspect artwork. GitHub PR review cannot infer pixels from a binary diff, so it reviews artwork presence and `artwork.yaml` scene contracts and must not claim visual proof it does not have.
+Visual inspection of artwork pixels is optional and is required only when the maintainer puts visual review in scope for the task or linked Issue. When it is out of scope, a review checks artwork presence, format, Git LFS coverage, and `artwork.yaml` scene contracts, does not block on pixel-level findings, and must not claim visual proof it does not have. GitHub PR review cannot infer pixels from a binary diff, so it always reviews only artwork presence and `artwork.yaml` scene contracts.
 
 Return actionable findings first. Return `PASS` only when there are no findings, then summarize the level, Writer, locales, page count, artwork count, speakers, and question evidence checked.
 
