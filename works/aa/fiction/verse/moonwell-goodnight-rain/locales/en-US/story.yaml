@@ -1,0 +1,169 @@
+schema_version: 2
+language: en-US
+writer: mossy-kite
+title: "Moonwell Goodnight: Rain"
+summary: Rain taps the well, leaves, and Pip's tree home. Pip listens and falls asleep.
+chapters:
+  - id: ch01
+    title: Good Night, Rain
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
+      - p07
+      - p08
+questions:
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: What does rain tap?
+    choices:
+      - The well
+      - A drum
+    answer: The well
+    page_refs:
+      - p01
+  - id: q02
+    type: explicit-choice
+    speaker: narrator
+    prompt: Does Pip sleep or fly?
+    choices:
+      - Sleep
+      - Fly
+    answer: Sleep
+    page_refs:
+      - p07
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - vocabulary:
+                id: rain
+                text: Rain
+            - text: " taps the well."
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: Plip-plop, like bells.
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - vocabulary:
+                id: rain
+                text: Rain
+            - text: " taps leaves up high."
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: Leaves sigh.
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - vocabulary:
+                id: rain
+                text: Rain
+            - text: " taps on Pip's tree."
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: Pit-pat, falling free.
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - text: Pip sleeps inside.
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - vocabulary:
+                id: rain
+                text: Rain
+            - text: " sings outside."
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and clear, gently sustained rhyme endings
+        timbre: rounded adult alto
+        pace: unhurried with natural phrase pauses
+        pitch: medium-low
+    pip:
+      display_name: Pip
+      tts:
+        delivery: soft, sleepy and gentle
+        timbre: small airy voice
+        pace: very slow with softly trailing endings
+        pitch: light high pitch
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          content:
+            - vocabulary:
+                id: rain
+                text: Rain
+            - text: " taps the well."
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          text: Plip-plop, like bells.
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          content:
+            - vocabulary:
+                id: rain
+                text: Rain
+            - text: " taps leaves up high."
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: Leaves sigh.
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          content:
+            - vocabulary:
+                id: rain
+                text: Rain
+            - text: " taps on Pip's tree."
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: Pit-pat, falling free.
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          text: Pip sleeps inside.
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          content:
+            - vocabulary:
+                id: rain
+                text: Rain
+            - text: " sings outside."

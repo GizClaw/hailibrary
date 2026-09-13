@@ -1,0 +1,172 @@
+schema_version: 2
+language: zh-CN
+writer: 月芽笺
+title: 小苍鹭不扑腾了
+summary: 小苍鹭阿蓝一见鱼就追过去，小鱼都游走了。云姨让她等水静下来，阿蓝换了办法。
+chapters:
+  - id: ch01
+    title: 追鱼的早晨
+    page_refs: [p01, p02, p03, p04]
+  - id: ch02
+    title: 黄叶来到身边
+    page_refs: [p05, p06, p07, p08]
+  - id: ch03
+    title: 水静下来了
+    page_refs: [p09, p10, p11, p12]
+questions:
+  - id: q01
+    type: sequence
+    speaker: narrator
+    prompt: 云姨让阿蓝等水静下来，阿蓝接着怎么做？
+    answer: 她轻轻走了一步，就停住不动。
+    page_refs: [p07, p08]
+  - id: q02
+    type: cause-effect
+    speaker: narrator
+    prompt: 小鱼为什么游走了？
+    answer: 阿蓝急着追，一脚踩进水里，水花飞了起来。
+    page_refs: [p02, p03]
+  - id: q03
+    type: explicit-choice
+    speaker: narrator
+    prompt: 黄叶旁后来出现了什么？
+    choices: [一条小鱼, 一只青蛙, 一只鸭子]
+    answer: 一条小鱼。
+    page_refs: [p10]
+  - id: q04
+    type: short-answer
+    speaker: narrator
+    prompt: 阿蓝后来怎样改变了捉鱼的办法？
+    answer: 她不再急着追，而是轻轻走、静静等。
+    page_refs: [p02, p03, p08, p09]
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - text: 天刚亮，小苍鹭阿蓝走进水里。她想找一条鱼来吃。
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: 一片黄叶旁，小鱼正在游。阿蓝一看，忙追过去。
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - text: 阿蓝一脚踩进水里，水花飞了起来。小鱼都游走了。
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - content:
+            - text: 阿蓝跑到另一边，又快走了两步。水里还是没有鱼。
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: 老苍鹭云姨站在不远处，像一棵树一样不动。黄叶慢慢来到她身边。
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - content:
+            - text: 阿蓝问：“你怎么不追呀？”云姨低头看了看黄叶。
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: 云姨说：“等水静下来，再轻轻走一步。”
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - text: 阿蓝抬起一只脚，轻轻放下，马上停住。
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - content:
+            - text: 风吹过，草弯了。阿蓝很想再追，可她没有动。
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - content:
+            - text: 最后的
+            - vocabulary: {id: ripple, text: 波纹}
+            - text: 不见了。黄叶旁，又游来一条小鱼。
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - content:
+            - text: 阿蓝慢慢低头。她一下把头伸出去，长嘴捉住了鱼。
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - content:
+            - text: 吃过早饭，黄叶停在两只苍鹭中间。阿蓝安静地站在云姨身旁。
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts: {delivery: 温暖细致, timbre: 清亮的成年叙述声, pace: 中速, pitch: 中音}
+    young_heron:
+      display_name: 阿蓝
+      tts: {delivery: 急切又好奇, timbre: 轻快的少年声, pace: 中快, pitch: 中高音}
+    elder_heron:
+      display_name: 云姨
+      tts: {delivery: 平静简短, timbre: 温厚的成年声音, pace: 慢速, pitch: 中低音}
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - {id: p01-b01, speaker: narrator, content: [{text: 天刚亮，小苍鹭阿蓝走进水里。她想找一条鱼来吃。}]}
+    - id: p02
+      illustration: p02
+      blocks:
+        - {id: p02-b01, speaker: narrator, content: [{text: 一片黄叶旁，小鱼正在游。阿蓝一看，忙追过去。}]}
+    - id: p03
+      illustration: p03
+      blocks:
+        - {id: p03-b01, speaker: narrator, content: [{text: 阿蓝一脚踩进水里，水花飞了起来。小鱼都游走了。}]}
+    - id: p04
+      illustration: p04
+      blocks:
+        - {id: p04-b01, speaker: narrator, content: [{text: 阿蓝跑到另一边，又快走了两步。水里还是没有鱼。}]}
+    - id: p05
+      illustration: p05
+      blocks:
+        - {id: p05-b01, speaker: narrator, content: [{text: 老苍鹭云姨站在不远处，像一棵树一样不动。黄叶慢慢来到她身边。}]}
+    - id: p06
+      illustration: p06
+      blocks:
+        - {id: p06-b01, speaker: narrator, content: [{text: 阿蓝问云姨。}]}
+        - {id: p06-b02, speaker: young_heron, content: [{text: 你怎么不追呀？}]}
+        - {id: p06-b03, speaker: narrator, content: [{text: 云姨低头看了看黄叶。}]}
+    - id: p07
+      illustration: p07
+      blocks:
+        - {id: p07-b01, speaker: elder_heron, content: [{text: 等水静下来，再轻轻走一步。}]}
+    - id: p08
+      illustration: p08
+      blocks:
+        - {id: p08-b01, speaker: narrator, content: [{text: 阿蓝抬起一只脚，轻轻放下，马上停住。}]}
+    - id: p09
+      illustration: p09
+      blocks:
+        - {id: p09-b01, speaker: narrator, content: [{text: 风吹过，草弯了。阿蓝很想再追，可她没有动。}]}
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          content:
+            - text: 最后的
+            - vocabulary: {id: ripple, text: 波纹}
+            - text: 不见了。黄叶旁，又游来一条小鱼。
+    - id: p11
+      illustration: p11
+      blocks:
+        - {id: p11-b01, speaker: narrator, content: [{text: 阿蓝慢慢低头。她一下把头伸出去，长嘴捉住了鱼。}]}
+    - id: p12
+      illustration: p12
+      blocks:
+        - {id: p12-b01, speaker: narrator, content: [{text: 吃过早饭，黄叶停在两只苍鹭中间。阿蓝安静地站在云姨身旁。}]}

@@ -1,0 +1,39 @@
+schema_version: 1
+style: bold-ink-comic
+aspect_ratio: "3:2"
+embedded_text: prohibited
+shared_by_all_locales: true
+assets:
+  - {id: cover, file: artwork/cover.webp, scene: Mara stands at center court holding a plain clipboard close to her chest while Tessa and Dev wait on opposite sides and Coach Imani watches from behind; the mood is tense but humane.}
+  - {id: p01, file: artwork/p01.webp, scene: In a school gym after tryouts, Coach Imani speaks to Mara while Tessa and Dev wait apart near a rack of plain basketballs.}
+  - {id: p02, file: artwork/p02.webp, scene: Coach Imani hands Mara a blank unmarked practice chart on a clipboard at the edge of the court.}
+  - {id: p03, file: artwork/p03.webp, scene: Tessa calls to a less experienced practice group while chasing a loose basketball near the sideline.}
+  - {id: p04, file: artwork/p04.webp, scene: Dev drives toward the basket with returning players around him while Mara waits open nearby.}
+  - {id: p05, file: artwork/p05.webp, scene: At a gym water fountain, Tessa's friendly expression fades as Mara looks down at the blank-looking clipboard instead of meeting her eyes.}
+  - {id: p06, file: artwork/p06.webp, scene: At home under a desk lamp, Mara compares two areas of an unmarked practice chart and notices the two different lineup groupings.}
+  - {id: p07, file: artwork/p07.webp, scene: Mara points between two groups of players while asking Coach Imani to swap the lineups; Tessa and Dev wait in the background.}
+  - {id: p08, file: artwork/p08.webp, scene: Tessa guards a strong drive cleanly and reaches a loose rebound among taller returning players.}
+  - {id: p09, file: artwork/p09.webp, scene: Dev draws two defenders and passes to a smaller teammate waiting open in the corner.}
+  - {id: p10, file: artwork/p10.webp, scene: During the final scrimmage, Mara holds the ball as crowded defenders close the lane and her quiet teammates hesitate around her.}
+  - {id: p11, file: artwork/p11.webp, scene: Dev holds the ball under pressure from one visible defender and turns toward Mara, who is open nearby.}
+  - {id: p12, file: artwork/p12.webp, scene: Tessa secures a hard rebound between taller players while Mara and teammates reset around her.}
+  - {id: p13, file: artwork/p13.webp, scene: Coach Imani and Mara review an unmarked folder and loose practice charts on the empty bleachers after practice.}
+  - {id: p14, file: artwork/p14.webp, scene: Tessa faces Mara beside the empty bleachers, hurt but controlled, while Mara holds two plain practice charts.}
+  - {id: p15, file: artwork/p15.webp, scene: Alone at a gym table, Mara weighs the two plain practice charts and writes one recommendation without any visible marks or text.}
+  - {id: p16, file: artwork/p16.webp, scene: Mara presents the plain recommendation sheet to Coach Imani in the quiet gym while the coach listens closely.}
+  - {id: p17, file: artwork/p17.webp, scene: In the nearly empty locker area, Dev speaks to Mara from a respectful distance while Tessa closes her shoe bag with a hurt expression.}
+  - {id: p18, file: artwork/p18.webp, scene: At open gym, Tessa holds a basketball out toward Mara after a clean steal, inviting another one-on-one possession.}
+generation:
+  workflow: Codex built-in image generation
+  text_in_image_requested: false
+  visual_review:
+    status: pass
+    checks:
+      - cover-and-all-18-pages-opened-at-original-local-pixels
+      - no-visible-text-letters-numbers-logos-captions-speech-bubbles-or-watermarks
+      - character-face-hair-clothing-and-prop-continuity
+      - all-page-actions-and-emotional-beats-match-the-declared-scenes
+      - bold-ink-comic-medium-palette-texture-and-composition
+      - safe-and-plausible-basketball-action
+      - all-assets-are-webp-at-the-declared-three-to-two-aspect-ratio
+      - webp-files-covered-by-the-repository-git-lfs-rule

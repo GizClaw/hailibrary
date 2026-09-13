@@ -1,0 +1,243 @@
+schema_version: 2
+language: en-US
+writer: manypath-lantern
+title: Stone Soup
+summary: After a hard winter, a village has little food to give. Mara begins with a pot, water, and a clean stone. Each neighbor chooses one small thing to add, and the full pot feeds them all.
+chapters:
+  - id: ch01
+    title: A Place to Start
+    page_refs: [p01, p02, p03, p04]
+  - id: ch02
+    title: One Small Thing
+    page_refs: [p05, p06, p07, p08]
+  - id: ch03
+    title: A Full Pot
+    page_refs: [p09, p10, p11, p12]
+questions:
+  - id: q01
+    type: sequence
+    speaker: narrator
+    prompt: What did Mara do before the fire was built?
+    answer: She borrowed a pot and filled it with water. Then she cleaned a gray stone and set it in the water.
+    page_refs: [p03, p04]
+  - id: q02
+    type: character-motive
+    speaker: narrator
+    prompt: Why did Nella open her door only a little?
+    answer: The last winter had been hard, so her family had little food left.
+    page_refs: [p02]
+  - id: q03
+    type: cause-effect
+    speaker: narrator
+    prompt: Why did the soup's color and smell change?
+    answer: The villagers added an onion, carrots, beans, salt, and green leaves.
+    page_refs: [p05, p06, p07, p08]
+  - id: q04
+    type: evidence
+    speaker: narrator
+    prompt: What proves that the stone did not become food?
+    answer: Mara lifted out the same hard stone after the vegetables became soft.
+    page_refs: [p10]
+  - id: q05
+    type: main-idea
+    speaker: narrator
+    prompt: How did people with little food make a meal for everyone?
+    answer: Each person gave a small amount or did one job, so there was enough soup for every bowl.
+    page_refs: [p05, p06, p08, p09, p11]
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: Late in the fall, Mara walked into a cold hill village. Her bag was empty, and the road had made her hungry.
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: "Nella opened her door a little. “Last winter was hard,” she said. “My family has little food left.” The other doors stayed shut."
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: "Mara borrowed a wide pot and filled it with water. Then she cleaned a gray stone and set it in the water. “Why that stone?” Nella asked. “It gives us a place to start,” said Mara."
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: "Oren came with a bundle of wood but paused. “I can spare this much,” he said. Bram made sure the pot stood safely. Soon the fire burned, and people came closer."
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - text: "When the water grew warm, Mara spoke to Nella. “Can your family give one onion?” Nella looked at the pot. “One is all right.” Nella washed and cut the first "
+            - vocabulary: {id: ingredient, text: ingredient}
+            - text: ", then added it."
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: "The onion smelled good. Oren washed and cut three carrots, then put them in. Bram arrived with a bowl of cooked beans. He stopped beside the pot."
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - text: "Bram put his beans into the pot. “Do we eat the stone too?” he asked. Mara shook her head and said, “Wait until the vegetables are soft.” Each neighbor had added only a little, yet the pot held more."
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - text: "Steam drifted toward the doors. One neighbor offered a little salt. Another added a few green leaves. Each new "
+            - vocabulary: {id: ingredient, text: ingredient}
+            - text: " changed the soup's color and smell."
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - content:
+            - text: "The villagers began to "
+            - vocabulary: {id: cooperate, text: cooperate}
+            - text: ". Nella stirred while Oren watched the fire. Bram arranged the bowls on a table, and Mara checked a carrot."
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - text: "The vegetables became soft. Mara lifted out the gray stone. Oren touched it with a spoon. “Still hard,” he said. “The stone only helped us begin,” Mara replied."
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - content:
+            - text: "Nella filled the bowls, and Bram broke his last loaf into pieces. At the long table, everyone "
+            - vocabulary: {id: cooperate, text: cooperated}
+            - text: " by passing bowls and bread. Then they sat down and ate together."
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - text: At sunrise, Nella met Mara by the gate. Nella gave her bread and an onion for the road. Mara tucked the stone and Nella's gift into her once-empty bag. Then she returned to the road.
+audio_script:
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and observant, allowing the actions to carry the meaning
+        timbre: clear adult voice with a soft edge
+        pace: steady medium
+        pitch: middle
+    mara:
+      display_name: Mara
+      tts:
+        delivery: calm, direct, and patient under pressure
+        timbre: warm adult voice with a light husky texture
+        pace: measured medium-slow
+        pitch: middle-low
+    nella:
+      display_name: Nella
+      tts:
+        delivery: careful and guarded at first, then practical and open
+        timbre: crisp older adult voice with gentle brightness
+        pace: medium with firm pauses
+        pitch: middle-high
+    oren:
+      display_name: Oren
+      tts:
+        delivery: thoughtful and plainspoken, with quiet care
+        timbre: full adult voice with mellow resonance
+        pace: unhurried medium
+        pitch: low
+    bram:
+      display_name: Bram
+      tts:
+        delivery: curious, friendly, and lightly doubtful
+        timbre: rounded adult voice with grainy warmth
+        pace: lively medium
+        pitch: middle
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - {id: p01-b01, speaker: narrator, text: "Late in the fall, Mara walked into a cold hill village."}
+        - {id: p01-b02, speaker: narrator, text: "Her bag was empty, and the road had made her hungry."}
+    - id: p02
+      illustration: p02
+      blocks:
+        - {id: p02-b01, speaker: narrator, text: "Nella opened her door a little."}
+        - {id: p02-b02, speaker: nella, text: "Last winter was hard. My family has little food left."}
+        - {id: p02-b03, speaker: narrator, text: "The other doors stayed shut."}
+    - id: p03
+      illustration: p03
+      blocks:
+        - {id: p03-b01, speaker: narrator, text: "Mara borrowed a wide pot and filled it with water."}
+        - {id: p03-b02, speaker: narrator, text: "Then she cleaned a gray stone and set it in the water."}
+        - {id: p03-b03, speaker: nella, text: "Why that stone?"}
+        - {id: p03-b04, speaker: mara, text: "It gives us a place to start."}
+    - id: p04
+      illustration: p04
+      blocks:
+        - {id: p04-b01, speaker: narrator, text: "Oren came with a bundle of wood but paused."}
+        - {id: p04-b02, speaker: oren, text: "I can spare this much."}
+        - {id: p04-b03, speaker: narrator, text: "Bram made sure the pot stood safely. Soon the fire burned, and people came closer."}
+    - id: p05
+      illustration: p05
+      blocks:
+        - {id: p05-b01, speaker: narrator, text: "When the water grew warm, Mara spoke to Nella."}
+        - {id: p05-b02, speaker: mara, text: "Can your family give one onion?"}
+        - {id: p05-b03, speaker: narrator, text: "Nella looked at the pot."}
+        - {id: p05-b04, speaker: nella, text: "One is all right."}
+        - id: p05-b05
+          speaker: narrator
+          content:
+            - text: "Nella washed and cut the first "
+            - vocabulary: {id: ingredient, text: ingredient}
+            - text: ", then added it."
+    - id: p06
+      illustration: p06
+      blocks:
+        - {id: p06-b01, speaker: narrator, text: "The onion smelled good."}
+        - {id: p06-b02, speaker: narrator, text: "Oren washed and cut three carrots, then put them in."}
+        - {id: p06-b03, speaker: narrator, text: "Bram arrived with a bowl of cooked beans."}
+        - {id: p06-b04, speaker: narrator, text: "He stopped beside the pot."}
+    - id: p07
+      illustration: p07
+      blocks:
+        - {id: p07-b01, speaker: narrator, text: "Bram put his beans into the pot."}
+        - {id: p07-b02, speaker: bram, text: "Do we eat the stone too?"}
+        - {id: p07-b03, speaker: narrator, text: "Mara shook her head."}
+        - {id: p07-b04, speaker: mara, text: "Wait until the vegetables are soft."}
+        - {id: p07-b05, speaker: narrator, text: "Each neighbor had added only a little, yet the pot held more."}
+    - id: p08
+      illustration: p08
+      blocks:
+        - {id: p08-b01, speaker: narrator, text: "Steam drifted toward the doors."}
+        - {id: p08-b02, speaker: narrator, text: "One neighbor offered a little salt. Another added a few green leaves."}
+        - id: p08-b03
+          speaker: narrator
+          content:
+            - text: "Each new "
+            - vocabulary: {id: ingredient, text: ingredient}
+            - text: " changed the soup's color and smell."
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          content:
+            - text: "The villagers began to "
+            - vocabulary: {id: cooperate, text: cooperate}
+            - text: "."
+        - {id: p09-b02, speaker: narrator, text: "Nella stirred while Oren watched the fire."}
+        - {id: p09-b03, speaker: narrator, text: "Bram arranged the bowls on a table, and Mara checked a carrot."}
+    - id: p10
+      illustration: p10
+      blocks:
+        - {id: p10-b01, speaker: narrator, text: "The vegetables became soft. Mara lifted out the gray stone."}
+        - {id: p10-b02, speaker: narrator, text: "Oren touched it with a spoon."}
+        - {id: p10-b03, speaker: oren, text: "Still hard."}
+        - {id: p10-b04, speaker: mara, text: "The stone only helped us begin."}
+    - id: p11
+      illustration: p11
+      blocks:
+        - {id: p11-b01, speaker: narrator, text: "Nella filled the bowls, and Bram broke his last loaf into pieces."}
+        - id: p11-b02
+          speaker: narrator
+          content:
+            - text: "At the long table, everyone "
+            - vocabulary: {id: cooperate, text: cooperated}
+            - text: " by passing bowls and bread. Then they sat down and ate together."
+    - id: p12
+      illustration: p12
+      blocks:
+        - {id: p12-b01, speaker: narrator, text: "At sunrise, Nella met Mara by the gate."}
+        - {id: p12-b02, speaker: narrator, text: "Nella gave her bread and an onion for the road."}
+        - {id: p12-b03, speaker: narrator, text: "Mara tucked the stone and Nella's gift into her once-empty bag. Then she returned to the road."}

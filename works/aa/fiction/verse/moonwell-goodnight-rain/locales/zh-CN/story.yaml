@@ -1,0 +1,171 @@
+schema_version: 2
+language: zh-CN
+writer: 溪铃
+title: 月井晚安·雨
+summary: 雨点敲着月井、树叶和小咕的树洞。小咕听着听着，睡着了。
+chapters:
+  - id: ch01
+    title: 雨声，晚安
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
+      - p07
+      - p08
+questions:
+  - id: q01
+    type: picture
+    speaker: narrator
+    prompt: 雨敲哪里？
+    choices:
+      - 月井
+      - 小鼓
+    answer: 月井
+    page_refs:
+      - p01
+  - id: q02
+    type: explicit-choice
+    speaker: narrator
+    prompt: 小咕睡了，还是飞了？
+    choices:
+      - 睡了
+      - 飞了
+    answer: 睡了
+    page_refs:
+      - p07
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - content:
+            - vocabulary:
+                id: rain
+                text: 雨
+            - text: 敲月井。
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: 井边，滴答。
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - content:
+            - vocabulary:
+                id: rain
+                text: 雨
+            - text: 敲树叶。
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: 叶上，沙沙。
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - content:
+            - vocabulary:
+                id: rain
+                text: 雨
+            - text: 敲小咕的家。
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: 家门口，滴滴答答。
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - text: 听着听着，睡着了。
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - text: 嘘，
+            - vocabulary:
+                id: rain
+                text: 雨
+            - text: 声轻了。
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖清晰，轻轻念出韵脚
+        timbre: 圆润的成年嗓音
+        pace: 舒缓，每句自然停顿
+        pitch: 中低音
+    pip:
+      display_name: 小咕
+      tts:
+        delivery: 轻柔、困倦，像快睡着了
+        timbre: 细软、略带气声的小嗓音
+        pace: 很慢，轻轻拖长尾音
+        pitch: 轻盈的高音
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          content:
+            - vocabulary:
+                id: rain
+                text: 雨
+            - text: 敲月井。
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          text: 井边，滴答。
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          content:
+            - vocabulary:
+                id: rain
+                text: 雨
+            - text: 敲树叶。
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: 叶上，沙沙。
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          content:
+            - vocabulary:
+                id: rain
+                text: 雨
+            - text: 敲小咕的家。
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: narrator
+          text: 家门口，滴滴答答。
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          text: 听着听着，睡着了。
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          content:
+            - text: 嘘，
+            - vocabulary:
+                id: rain
+                text: 雨
+            - text: 声轻了。

@@ -1,0 +1,76 @@
+schema_version: 1
+style: naturalistic-storybook
+aspect_ratio: "3:2"
+embedded_text: prohibited
+shared_by_all_locales: true
+continuity:
+  setting: A small river town in eastern China at the edge of green rice fields, with a levee path and an old weather-observation garden behind Grandma Ruan's whitewashed tiled house.
+  lili: Chinese girl about 10, same face as Field Notebook 1, long black ponytail, olive field vest with pockets over a cream shirt, orange-covered notebook with blank pages, pencil behind one ear.
+  yan: Chinese boy about 8, same face as Field Notebook 1, short spiky black hair, bright blue raincoat, magnifying glass on a brown cord.
+  grandma-ruan: Chinese woman about 68, same face as Field Notebook 1, short silver hair, wide woven straw hat, gray cardigan, black binoculars.
+  props: The orange notebook has a plain cover and no visible writing; the garden includes the same white instrument shelter, metal rain gauge, stone paths, low walls, flowers, and gray roof tiles as Field Notebook 1.
+  palette: Fresh rice-field greens, weathered white walls, gray tiles and clouds, with olive, blue, and orange character accents; daylight shifts naturally across the seven-day sequence.
+assets:
+  - id: cover
+    file: artwork/cover.webp
+    scene: Lili, Yan, and Grandma Ruan stand together in the old observation garden beneath a sky that contains small rounded cumulus, high thin cirrus, a distant broad gray rain layer, and one far-off tall anvil cloud, arranged as a believable changing-weather panorama rather than simultaneous nearby storms; the rice fields and river town establish the setting.
+  - id: p01
+    file: artwork/p01.webp
+    scene: Monday morning in the old weather garden; Lili opens her plain orange notebook, Yan arrives in his blue raincoat, and Grandma Ruan watches them beneath mixed sunlight and a few distant clouds.
+  - id: p02
+    file: artwork/p02.webp
+    scene: From the levee path, the three study separate cumulus clouds with bright rounded tops, nearly flat gray bases, and plenty of blue sky between them.
+  - id: p03
+    file: artwork/p03.webp
+    scene: Monday evening remains dry; the cumulus clouds have become smaller and farther apart while Yan folds down his unused blue rain hood and Lili records the result on a blank-looking notebook page.
+  - id: p04
+    file: artwork/p04.webp
+    scene: On Tuesday, Lili and Yan look above the tiled roofs at delicate white cirrus filaments high in a deep blue sky as Grandma Ruan holds her binoculars.
+  - id: p05
+    file: artwork/p05.webp
+    scene: Tuesday afternoon stays dry; thin high cirrus stretches over the town while Lili checks the stone path and Yan pauses instead of making another quick rain gesture.
+  - id: p06
+    file: artwork/p06.webp
+    scene: Wednesday morning under a broad gray sheet that hides the sun and seems lower toward the green hills; Lili leaves an open blank area in her notebook while all three watch from the garden.
+  - id: p07
+    file: artwork/p07.webp
+    scene: Fine steady rain crosses the river and rice fields beneath thick nimbostratus; Lili and Yan observe from the sheltered house doorway with Grandma Ruan behind them.
+  - id: p08
+    file: artwork/p08.webp
+    scene: Thursday morning after the steady rain; the gray layer breaks into patches, sunlight returns to wet rice fields, and the three compare the changing sky beside the garden rain gauge.
+  - id: p09
+    file: artwork/p09.webp
+    scene: Thursday after lunch; several small cumulus clouds with rounded white tops and flat bases rise over the warm green rice fields as Lili begins a new observation.
+  - id: p10
+    file: artwork/p10.webp
+    scene: The same afternoon, one cumulus cloud has grown much taller between observations, with layered bright folds and a widening darker base; Lili sketches its outline while Yan watches closely.
+  - id: p11
+    file: artwork/p11.webp
+    scene: At the first distant thunder, Grandma Ruan firmly guides Lili and Yan through the house door, away from the levee and open garden, while the growing tower cloud looms across the river.
+  - id: p12
+    file: artwork/p12.webp
+    scene: Viewed safely from deep inside the room, a tall cumulonimbus with a dark base and spreading anvil top brings a short heavy shower over the old weather garden; no character stands at the window glass.
+  - id: p13
+    file: artwork/p13.webp
+    scene: Friday sunlight glints on garden puddles while Lili lays two blank-picture sketches side by side, comparing Monday's low cumulus shape with Thursday's tall storm tower; Yan points to the height difference.
+  - id: p14
+    file: artwork/p14.webp
+    scene: On Saturday's levee walk, high thin cirrus and low small cumulus share a dry blue sky; Lili carries the orange notebook and Yan carries rather than wears his blue raincoat.
+  - id: p15
+    file: artwork/p15.webp
+    scene: Sunday over warm rice fields, a row of modest cumulus clouds rises but remains low; Yan watches their height while Lili checks the sky and Grandma Ruan waits calmly nearby.
+  - id: p16
+    file: artwork/p16.webp
+    scene: At Sunday sunset in the garden, the clouds have stopped growing and no rain has fallen; Lili closes the plain orange notebook while Yan looks thoughtfully at one white cloud with a gray base and Grandma Ruan smiles.
+generation:
+  workflow: Codex built-in image generation
+  text_in_image_requested: false
+  visual_review:
+    status: pass
+    checks:
+      - no-visible-text
+      - cloud-type-accuracy
+      - seven-day-weather-continuity
+      - character-face-clothing-and-prop-continuity
+      - setting-continuity-with-field-notebook-1
+      - lightning-safety

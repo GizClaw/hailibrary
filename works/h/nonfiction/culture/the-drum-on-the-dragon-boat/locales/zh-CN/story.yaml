@@ -1,0 +1,312 @@
+schema_version: 2
+language: zh-CN
+writer: 铜罗盘
+title: 龙舟上的鼓声
+summary: 小梅第一次为龙舟队击鼓。她学会跟着第一排阿涛的桨，让后排听清节拍，全队终于一起划过终点。
+chapters:
+  - id: ch01
+    title: 鼓点怎么打
+    page_refs:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
+      - p07
+  - id: ch02
+    title: 全船一起划
+    page_refs:
+      - p08
+      - p09
+      - p10
+      - p11
+      - p12
+questions:
+  - id: q01
+    type: explicit-choice
+    speaker: narrator
+    prompt: 小梅坐在龙舟的什么地方？
+    choices:
+      - 船头的鼓边
+      - 第一排桨手中间
+      - 船尾的舵边
+    answer: 船头的鼓边
+    page_refs:
+      - p01
+      - p04
+  - id: q02
+    type: sequence
+    speaker: narrator
+    prompt: 后排队员说听不清以后，小梅先做了什么？
+    answer: 她先停手，没有继续敲鼓。
+    page_refs:
+      - p06
+  - id: q03
+    type: cause-effect
+    speaker: narrator
+    prompt: 鼓点跟上第一排的桨以后，龙舟有什么变化？
+    answer: 后排跟上了，所有桨一起入水，船也直直向前走了。
+    page_refs:
+      - p07
+  - id: q04
+    type: character-motive
+    speaker: narrator
+    prompt: 浪打来以后，小梅为什么故意把鼓打慢？
+    answer: 她听出后排慢了，又看见阿涛放慢，就跟着他的桨放慢鼓点。
+    page_refs:
+      - p09
+      - p10
+      - p12
+  - id: q05
+    type: short-answer
+    speaker: narrator
+    prompt: 为什么书中说救屈原的故事是传说？
+    answer: 因为这是人们讲的故事，不能确定是真的。各地还讲着别的故事。
+    page_refs:
+      - p02
+      - p03
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: 端午节早晨，小梅来到河边。她扣好救生衣，坐到船头的鼓边。今天是她第一次为全队击鼓。
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - content:
+            - text: 岸上有人带来
+            - vocabulary:
+                id: zongzi
+                text: 粽子
+            - text: ，也有孩子戴着香包。各地过端午的习惯不全一样。
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: 端午的传说不只一种。一个传说里，屈原落入江中。人们划船去救他，一路击鼓。有些地方还讲着别的故事。
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: 方教练检查船和救生衣。队员两人一排，面向船头。阿涛坐第一排，带着大家划。小梅守着鼓，船尾的人掌方向。
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: 试划开始。阿涛和同伴稳稳地划。小梅时快时停。后排的桨乱了，船身一晃。
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: '后排有人喊：“听不清什么时候划！”小梅停手。阿涛说：“看我的桨。”方教练说：“跟着阿涛打，让后排听清鼓点。”'
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - content:
+            - text: 小梅看着阿涛的桨，跟着敲鼓。鼓声把第一排的
+            - vocabulary:
+                id: rhythm
+                text: 节拍
+            - text: 传到后排，帮全队一起划。所有桨一同入水，船直直向前。
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - content:
+            - text: 龙舟赛开始了。发令声一响，河上鼓声连成一片。小梅跟着阿涛的
+            - vocabulary:
+                id: rhythm
+                text: 节拍
+            - text: 敲鼓，全队一起用力。
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - text: 一道浪摇了摇船，后排慢了半步。小梅仍跟着阿涛的桨，却听见后排的两下水声晚了。
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - text: 阿涛示意全队放慢。小梅没有加快，而是跟着他的桨放慢鼓点。阿涛喊：“先稳住！”后排的水声渐渐追上来。
+    - id: p11
+      illustration: p11
+      paragraphs:
+        - text: 很快，所有桨又一起入水。阿涛渐渐加快，小梅紧跟着他的桨。桨整齐起落，龙舟冲过终点。
+    - id: p12
+      illustration: p12
+      paragraphs:
+        - text: 上岸后，阿涛问：“你为什么没有马上加快？”小梅说：“后排慢了，我跟着你放慢鼓点，让大家赶上。”远处，下一场的鼓响了。
+audio_script:
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 清楚、温暖，带一点节日的活力
+        timbre: 明亮而圆润的成人声
+        pace: 匀速适中
+        pitch: 中音
+    mei:
+      display_name: 小梅
+      tts:
+        delivery: 专心思考，声音里的信心慢慢增加
+        timbre: 清亮而有力的年轻女声
+        pace: 适中，思考时略停
+        pitch: 中高音
+    tao:
+      display_name: 阿涛
+      tts:
+        delivery: 直接、有力，也愿意给同伴鼓劲
+        timbre: 温厚有力的年轻男声
+        pace: 稍快
+        pitch: 中低音
+    back-paddler:
+      display_name: 后排队员
+      tts:
+        delivery: 声音清楚，带一点着急，也愿意配合
+        timbre: 略带沙哑的成年声
+        pace: 稍快
+        pitch: 中音
+    coach-fang:
+      display_name: 方教练
+      tts:
+        delivery: 沉着、干脆，指点清楚
+        timbre: 低沉柔和的成年女声
+        pace: 从容
+        pitch: 低音
+  pages:
+    - id: p01
+      illustration: p01
+      blocks:
+        - id: p01-b01
+          speaker: narrator
+          text: 端午节早晨，小梅来到河边。她扣好救生衣，坐到船头的鼓边。
+        - id: p01-b02
+          speaker: narrator
+          text: 今天，她第一次为全队击鼓。
+    - id: p02
+      illustration: p02
+      blocks:
+        - id: p02-b01
+          speaker: narrator
+          content:
+            - text: 岸上有人带来
+            - vocabulary:
+                id: zongzi
+                text: 粽子
+            - text: ，也有孩子戴着香包。
+        - id: p02-b02
+          speaker: narrator
+          text: 各地过端午的习惯不全一样。
+    - id: p03
+      illustration: p03
+      blocks:
+        - id: p03-b01
+          speaker: narrator
+          text: 端午的传说不只一种。
+        - id: p03-b02
+          speaker: narrator
+          text: 一个传说里，屈原落入江中。人们划船去救他，一路击鼓。
+        - id: p03-b03
+          speaker: narrator
+          text: 有些地方还讲着别的故事。
+    - id: p04
+      illustration: p04
+      blocks:
+        - id: p04-b01
+          speaker: narrator
+          text: 方教练检查船和救生衣。
+        - id: p04-b02
+          speaker: narrator
+          text: 队员两人一排，面向船头。
+        - id: p04-b03
+          speaker: narrator
+          text: 阿涛坐第一排，带着大家划。小梅守着鼓，船尾的人掌方向。
+    - id: p05
+      illustration: p05
+      blocks:
+        - id: p05-b01
+          speaker: narrator
+          text: 试划开始。阿涛和同伴稳稳地划。
+        - id: p05-b02
+          speaker: narrator
+          text: 小梅时快时停。后排的桨乱了，船身一晃。
+    - id: p06
+      illustration: p06
+      blocks:
+        - id: p06-b01
+          speaker: back-paddler
+          text: 听不清什么时候划！
+        - id: p06-b02
+          speaker: narrator
+          text: 后排有人喊。小梅停手。
+        - id: p06-b03
+          speaker: tao
+          text: 看我的桨。
+        - id: p06-b04
+          speaker: coach-fang
+          text: 跟着阿涛打，让后排听清鼓点。
+    - id: p07
+      illustration: p07
+      blocks:
+        - id: p07-b01
+          speaker: narrator
+          content:
+            - text: 小梅看着阿涛的桨，跟着敲鼓。鼓声把第一排的
+            - vocabulary:
+                id: rhythm
+                text: 节拍
+            - text: 传到后排，帮全队一起划。所有桨一同入水，船直直向前。
+    - id: p08
+      illustration: p08
+      blocks:
+        - id: p08-b01
+          speaker: narrator
+          content:
+            - text: 龙舟赛开始了。发令声一响，河上鼓声连成一片。小梅跟着阿涛的
+            - vocabulary:
+                id: rhythm
+                text: 节拍
+            - text: 敲鼓，全队一起用力。
+    - id: p09
+      illustration: p09
+      blocks:
+        - id: p09-b01
+          speaker: narrator
+          text: 一道浪摇了摇船，后排慢了半步。小梅仍跟着阿涛的桨。
+        - id: p09-b02
+          speaker: narrator
+          text: 她却听见后排的两下水声晚了。
+    - id: p10
+      illustration: p10
+      blocks:
+        - id: p10-b01
+          speaker: narrator
+          text: 阿涛示意全队放慢。小梅没有加快，而是跟着他的桨放慢鼓点。
+        - id: p10-b02
+          speaker: tao
+          text: 先稳住！
+        - id: p10-b03
+          speaker: narrator
+          text: 阿涛朝全队喊。后排的水声渐渐追上来。
+    - id: p11
+      illustration: p11
+      blocks:
+        - id: p11-b01
+          speaker: narrator
+          text: 很快，所有桨又一起入水。
+        - id: p11-b02
+          speaker: narrator
+          text: 阿涛渐渐加快，小梅紧跟着他的桨。
+        - id: p11-b03
+          speaker: narrator
+          text: 桨整齐起落，龙舟冲过终点。
+    - id: p12
+      illustration: p12
+      blocks:
+        - id: p12-b01
+          speaker: tao
+          text: 你为什么没有马上加快？
+        - id: p12-b02
+          speaker: narrator
+          text: 阿涛上岸后问。
+        - id: p12-b03
+          speaker: mei
+          text: 后排慢了，我跟着你放慢鼓点，让大家赶上。
+        - id: p12-b04
+          speaker: narrator
+          text: 远处，下一场的鼓响了。

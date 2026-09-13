@@ -1,0 +1,85 @@
+schema_version: 1
+style: clay-diorama
+aspect_ratio: "3:2"
+embedded_text: prohibited
+shared_by_all_locales: true
+continuity:
+  museum: A warm modern print-history gallery built as a tactile clay miniature, with honey-colored display tables, indigo walls, soft amber lights, and no readable labels or signs.
+  mei: Chinese girl age 9 with the same round face, black hair in two low loops, teal cotton jacket, rust-red skirt over dark leggings, and small tan satchel.
+  dr-chen: Chinese woman age 42 with the same oval face, black hair in a low bun, warm gray cardigan, indigo shirt, dark trousers, thin round glasses, and cream cotton gloves when handling objects.
+  reconstruction: The same imagined Northern Song artisan model with a broad clay face, brown cloth cap, muted ochre cross-collar robe, and charcoal apron; historical uncertainty is shown by museum framing, never by giving him invented writing or speech.
+  song-workshop: Plain wooden bench, small clay type pieces shown mostly from the side or back, shallow iron trays, charcoal brazier, wooden leveling board, brushes, inkstone, stacked blank cream paper, and compartmented storage cases.
+  text_exclusion: All books, sheets, type faces, labels, screens, and cards are blank or turned away; no letters, numbers, glyphs, symbols, logos, captions, speech bubbles, signatures, or watermarks.
+  palette: Warm ochre and terracotta, charcoal gray, honey wood, cream paper, muted indigo, Mei's teal and rust accents, with soft amber studio lighting.
+assets:
+  - id: cover
+    file: artwork/cover.webp
+    scene: Mei and Dr. Chen lean over a museum table where individual terracotta type pieces can be moved between two iron trays; behind them, an enclosed clay reconstruction shows the Song artisan working at a bench, with all surfaces blank and wordless.
+  - id: p01
+    file: artwork/p01.webp
+    scene: In the quiet museum before opening, Mei stands beside an empty portrait frame and a nearly blank exhibit table while Dr. Chen carries a tray of clay replicas; their different goals are visible in Mei's eager pose and Dr. Chen's careful handling.
+  - id: p02
+    file: artwork/p02.webp
+    scene: Mei examines one full-page carved wooden block replica beside a stack of blank paper; Dr. Chen indicates the single fixed page surface, with no readable carving visible.
+  - id: p03
+    file: artwork/p03.webp
+    scene: Dr. Chen opens a facsimile volume on a cradle while Mei looks closely; pages are angled away and blank-looking, and a small isolated clay type rests nearby as the link to the recorded passage.
+  - id: p04
+    file: artwork/p04.webp
+    scene: A museum reconstruction within the gallery shows the imagined Song artisan shaping many small clay pieces at a plain bench; the framing clearly signals a model rather than a witnessed scene.
+  - id: p05
+    file: artwork/p05.webp
+    scene: Close wordless reconstruction of hands carving shallow relief into small sticky-clay pieces and setting them near a charcoal brazier; all type faces are turned down or unreadable.
+  - id: p06
+    file: artwork/p06.webp
+    scene: Hardened terracotta type pieces cool beside the brazier while one unbaked piece has slumped; the imagined artisan compares them without any visible glyphs.
+  - id: p07
+    file: artwork/p07.webp
+    scene: The imagined artisan spreads a dark binding mixture over a shallow iron board, then places an iron frame on it; pine resin, wax, and paper ash appear as unlabeled materials.
+  - id: p08
+    file: artwork/p08.webp
+    scene: Individual clay pieces fill the iron frame tightly and a flat wooden board levels their upper surface; faces remain abstract and illegible.
+  - id: p09
+    file: artwork/p09.webp
+    scene: Two iron boards sit side by side in the Song workshop, one being inked for printing while the imagined artisan arranges loose type in the other.
+  - id: p10
+    file: artwork/p10.webp
+    scene: The imagined artisan alternates between the two boards as a modest stack of blank cream sheets grows; movement and efficiency are shown without printed marks.
+  - id: p11
+    file: artwork/p11.webp
+    scene: Many duplicate clay pieces occupy a compartmented wooden case, with several identical plain-backed pieces grouped together and no paper labels or readable marks.
+  - id: p12
+    file: artwork/p12.webp
+    scene: The imagined artisan quickly shapes one additional clay piece beside a small grass-fed flame while an incomplete row in the frame waits for it.
+  - id: p13
+    file: artwork/p13.webp
+    scene: Heat softens the binding bed and freed clay pieces lift cleanly from the iron board into the artisan's palm; no type face is visible.
+  - id: p14
+    file: artwork/p14.webp
+    scene: Back in the museum, Mei compares a full-page woodblock replica with a tray of many separate clay pieces while Dr. Chen watches her physically rearrange the pieces.
+  - id: p15
+    file: artwork/p15.webp
+    scene: A damp, uneven set of rough wooden letter-sized blocks sticks in a waxy bed beside cleanly released clay pieces, presented as a model of Shen Kuo's stated material problem with no visible glyphs.
+  - id: p16
+    file: artwork/p16.webp
+    scene: Mei and Dr. Chen study a later wooden movable-type demonstration with smooth reusable pieces in organized trays, clearly separated in the gallery from the Song clay reconstruction.
+  - id: p17
+    file: artwork/p17.webp
+    scene: A later Korean metal-type display shows dark cast pieces, a bound book safely behind glass, and a small map-like globe without markings; Mei observes while Dr. Chen keeps the historical displays separate.
+  - id: p18
+    file: artwork/p18.webp
+    scene: The completed museum exhibit uses the empty portrait frame, the movable clay replicas, a face-down full-page woodblock, later wood and metal displays, and three blank color-coded evidence trays; Mei watches a visiting child safely move one replica while Dr. Chen smiles.
+generation:
+  workflow: Codex built-in image generation
+  text_in_image_requested: false
+  visual_review:
+    status: passed
+    checks:
+      - no-visible-text-or-glyphs
+      - exact-scene-match
+      - mei-and-dr-chen-continuity
+      - song-artisan-reconstruction-continuity
+      - printing-process-and-prop-continuity
+      - clay-diorama-style
+      - safe-museum-handling
+      - 3-to-2-webp-dimensions

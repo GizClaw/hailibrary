@@ -9,8 +9,8 @@ export type CatalogShard = { id: string; level: string; category: string; subcat
 export type SiteIndex = { schemaVersion: number; generatedAt: string; bookCount: number; localeCount: number; locales: string[]; levels: string[]; categories: string[]; catalogs: CatalogShard[]; shards: string[]; labels: string; taxonomy: CatalogTaxonomy; pages: { home: Record<string, string>; catalog: string; writers: Record<string, string>; styles: string; vocabulary: string } };
 export type HomePageData = { schemaVersion: number; bookCount: number; localeCount: number; readableCount: number; taxonomy: CatalogTaxonomy; cards: BookCard[] };
 export type CatalogPageIndex = SiteIndex;
-export type BookCard = { id: string; path: string; manifest: string; level: string; category: string; subcategory: string; locales: string[]; titles: Record<string, string>; summaries: Record<string, string>; writers: Record<string, WriterSummary>; style: StyleSummary; concepts: string[]; labels: Record<string, string[]>; pageCount: number; cover: string; title: string; summary: string; writer: WriterSummary };
-type BookCardSource = Omit<BookCard, "title" | "summary" | "writer">;
+export type BookCard = { id: string; path: string; manifest: string; level: string; category: string; subcategory: string; locales: string[]; titles: Record<string, string>; summaries: Record<string, string>; writers: Record<string, WriterSummary>; style: StyleSummary; concepts: string[]; labels: Record<string, string[]>; pageCount: number; cover: string; title: string; summary: string; writer: WriterSummary; contentLocale?: string };
+type BookCardSource = Omit<BookCard, "title" | "summary" | "writer" | "contentLocale">;
 export type StoryContentPart = { text?: string; vocabulary?: { id: string; text: string } };
 export type StoryBlock = { id?: string; speaker: string; text?: string; content?: StoryContentPart[] };
 export type StoryPage = { id: string; illustration: string; lines?: StoryBlock[]; blocks?: StoryBlock[] };
@@ -48,6 +48,47 @@ export const READING_LEVEL_ORDER = ["aa", ..."abcdefghijklmnopqrstuvwxyz", "z1",
 const readingLevelRank = new Map(READING_LEVEL_ORDER.map((level, index) => [level, index]));
 export const sortReadingLevels = (levels: string[]) => [...levels].sort((left, right) => (readingLevelRank.get(left) ?? Number.MAX_SAFE_INTEGER) - (readingLevelRank.get(right) ?? Number.MAX_SAFE_INTEGER) || left.localeCompare(right));
 
+export function resolveContentLocale(requestedLocale: string, availableLocales: string[]) {
+  return availableLocales.includes(requestedLocale)
+    ? requestedLocale
+    : availableLocales.includes("en-US")
+      ? "en-US"
+      : availableLocales[0] ?? requestedLocale;
+}
+
+export function localizedValue(values: Record<string, string>, locale: string, fallback = "") {
+  return values[locale] ?? values["en-US"] ?? Object.values(values)[0] ?? fallback;
+}
+
+export function localizeBookCard(card: BookCardSource | BookCard, requestedLocale: string): BookCard {
+  const contentLocale = resolveContentLocale(requestedLocale, card.locales);
+  const writer = card.writers[contentLocale] ?? card.writers["en-US"] ?? Object.values(card.writers)[0] ?? { id: "unknown", displayName: "" };
+  return {
+    ...card,
+    contentLocale,
+    title: localizedValue(card.titles, contentLocale, card.id),
+    summary: localizedValue(card.summaries, contentLocale),
+    writer,
+  };
+}
+
+export function bookCardLocaleView(card: BookCardSource | BookCard, taxonomy: CatalogTaxonomy | undefined, labels: LabelCatalog | null | undefined, interfaceLocale: string, learningLocale: string) {
+  const localizedCard = localizeBookCard(card, learningLocale);
+  const contentLocale = localizedCard.contentLocale ?? learningLocale;
+  const taxonomyName = (group: TaxonomyGroup | undefined, id: string, locale: string) => localizedValue(group?.[id]?.names ?? {}, locale, id);
+  const labelName = (groupId: string, id: string) => localizedValue(labels?.groups[groupId]?.labels[id] ?? {}, contentLocale, id);
+  return {
+    card: localizedCard,
+    contentLocale,
+    category: taxonomyName(taxonomy?.categories, localizedCard.category, contentLocale),
+    subcategory: taxonomyName(taxonomy?.subcategories, localizedCard.subcategory, contentLocale),
+    labels: Object.entries(localizedCard.labels ?? {}).flatMap(([groupId, ids]) => ids.map((id) => labelName(groupId, id))).slice(0, 3),
+    level: taxonomyName(taxonomy?.levels, localizedCard.level, interfaceLocale),
+    pageUnit: interfaceLocale === "zh-CN" ? "页" : "pages",
+    writerLabel: interfaceLocale === "zh-CN" ? "作家" : "Writer",
+  };
+}
+
 type ProfileIndex = { schemaVersion: number; profiles: Array<{ id: string; url: string }> };
 const jsonCache = new Map<string, Promise<unknown>>();
 const apiUrl = (url: string) => url.startsWith("./") || url.startsWith("../") || /^https?:/.test(url) ? url : `./${url}`;
@@ -66,22 +107,20 @@ const getJson = async <T>(url: string): Promise<T> => {
 export const loadIndex = () => getJson<SiteIndex>("catalog.json");
 export const loadHome = async (locale: string) => {
   const index = await loadIndex();
-  return getJson<HomePageData>(index.pages.home[locale] ?? index.pages.home["en-US"]);
+  const url = index.pages.home[locale] ?? index.pages.home["en-US"] ?? Object.values(index.pages.home)[0];
+  const data = await getJson<HomePageData>(url);
+  return { ...data, cards: data.cards.map((card) => localizeBookCard(card, locale)) };
 };
 export const loadCatalogPageIndex = () => loadIndex();
 export const loadSearch = async (locale: string) => {
   const index = await loadIndex();
   const shards = await Promise.all(index.catalogs.map((catalog) => getJson<BookCardSource[]>(catalog.url)));
-  return shards.flat().filter((card) => card.locales.includes(locale)).map((card): BookCard => ({
-    ...card,
-    title: card.titles[locale] ?? card.titles["en-US"] ?? card.id,
-    summary: card.summaries[locale] ?? card.summaries["en-US"] ?? "",
-    writer: card.writers[locale] ?? card.writers["en-US"] ?? Object.values(card.writers)[0],
-  }));
+  return shards.flat().map((card) => localizeBookCard(card, locale));
 };
 export const loadWriters = async (locale: string) => {
   const index = await loadIndex();
-  const profileIndex = await getJson<ProfileIndex>(index.pages.writers[locale] ?? index.pages.writers["en-US"]);
+  const url = index.pages.writers[locale] ?? index.pages.writers["en-US"] ?? Object.values(index.pages.writers)[0];
+  const profileIndex = await getJson<ProfileIndex>(url);
   return Promise.all(profileIndex.profiles.map((profile) => getJson<WriterProfile>(profile.url)));
 };
 export const loadStyles = async () => {

@@ -1,0 +1,156 @@
+schema_version: 1
+required: true
+scope: Four particular objects in a brief supervised water test. Realistic
+  illustrative scenario; not a report of a measured experiment. No weight-only
+  rule, no universal leaf/stone/toy claim.
+sources:
+  - id: acs-density
+    title: "Density: Sink and Float for Solids"
+    publisher: American Chemical Society
+    url: https://www.acs.org/middleschoolchemistry/lessonplans/chapter3/lesson4.html
+    accessed: 2026-09-13
+    supports:
+      - Weight alone does not determine floating; relative density and object
+        shape matter. A solid metal object sinks, whereas an appropriately
+        shaped boat can float.
+  - id: teachengineering-rock-boat
+    title: "Rock and Boat: Density, Buoyancy and Archimedes’ Principle"
+    publisher: TeachEngineering / University of Houston
+    url: https://www.teachengineering.org/activities/uoh_fluidmechanics_lesson01_activity2
+    accessed: 2026-09-13
+    supports:
+      - A rock sinks in a tub while a boat can float; source supports the
+        modeled contrast, not every possible rock or toy.
+  - id: sciencebuddies-leaves
+    title: Measure Photosynthesis with Floating Leaves
+    publisher: Science Buddies
+    url: https://www.sciencebuddies.org/stem-activities/photosynthesis-floating-leaves
+    accessed: 2026-09-13
+    supports:
+      - Leaves initially float with internal air; removal of air can make them
+        sink. Floating is a conditional observation, not an eternal property of
+        all leaves.
+  - id: acs-supervision
+    title: Rooting for Sink and Float
+    publisher: American Chemical Society
+    url: https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/rooting-sink-float.html
+    accessed: 2026-09-13
+    supports:
+      - Children should work with adult supervision for water experiments.
+  - id: cpsc-water
+    title: In-Home Drowning
+    publisher: U.S. Consumer Product Safety Commission
+    url: https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/In-Home-Drowning-Safety-Information-Center
+    accessed: 2026-09-13
+    supports:
+      - Close supervision is necessary around water. A shallow container does
+        not justify leaving children alone.
+  - id: oxford-float
+    title: Float — American Dictionary
+    publisher: Oxford University Press
+    url: https://www.oxfordlearnersdictionaries.com/definition/american_english/float_1
+    accessed: 2026-09-13
+    supports:
+      - Intransitive surface-support sense, /floʊt/, third-person floats.
+  - id: oxford-stone
+    title: Stone — American Dictionary
+    publisher: Oxford University Press
+    url: https://www.oxfordlearnersdictionaries.com/definition/american_english/stone_1
+    accessed: 2026-09-13
+    supports:
+      - Countable small piece of rock, /stoʊn/, plural stones.
+  - id: handian-float
+    title: 浮
+    publisher: 汉典
+    url: https://www.zdic.net/hans/浮
+    accessed: 2026-09-13
+    supports:
+      - Modern verb for remaining at water surface, pronunciation fú and
+        character 浮.
+  - id: handian-stone
+    title: 石头
+    publisher: 汉典
+    url: https://www.zdic.net/hans/石头
+    accessed: 2026-09-13
+    supports:
+      - Hard mineral material, shí tou with neutral second syllable, simplified
+        石头.
+  - id: illinois-buoyancy
+    title: Buoyancy
+    publisher: University of Illinois Physics Van
+    url: https://van.physics.illinois.edu/ask/listing/2147
+    accessed: 2026-09-13
+    supports:
+      - "Independent review corroboration: average density and air inside boats
+        matter; a boat need not sink because its material is dense."
+claims:
+  - claim: The selected leaf stays at the surface during this short observation.
+    source_ids:
+      - sciencebuddies-leaves
+    pages:
+      - p03
+      - p04
+      - p05
+      - p06
+      - p07
+      - p08
+  - claim: The selected dense rounded stone reaches the bottom.
+    source_ids:
+      - teachengineering-rock-boat
+      - acs-density
+    pages:
+      - p04
+      - p05
+      - p06
+      - p07
+      - p08
+  - claim: The empty watertight toy boat stays at the surface.
+    source_ids:
+      - teachengineering-rock-boat
+      - acs-density
+      - illinois-buoyancy
+    pages:
+      - p05
+      - p06
+      - p07
+      - p08
+  - claim: A plain solid brass key without a float attachment sinks in water;
+      inference from dense solid metal behavior, not a claim about every kind of
+      key.
+    source_ids:
+      - acs-density
+    pages:
+      - p07
+      - p08
+  - claim: Adult-supervised tabletop water play is depicted; no unattended water or
+      object mouthing is endorsed.
+    source_ids:
+      - acs-supervision
+      - cpsc-water
+    pages:
+      - p01
+      - p02
+      - p03
+      - p04
+      - p05
+      - p06
+      - p07
+      - p08
+  - claim: Target terms denote floating at the surface and a small hard piece of rock.
+    source_ids:
+      - oxford-float
+      - oxford-stone
+      - handian-float
+      - handian-stone
+    pages:
+      - p03
+      - p04
+      - p06
+      - p08
+limitations:
+  - Material and watertightness conditions are fixed in the artwork contract;
+    the prose reports results, not mechanisms.
+  - Clays represent real objects artistically; the boat is not presented as a
+    solid modeling-clay lump.
+  - No exact curriculum exposure, certified Lexile, or actual physical
+    experiment is claimed.

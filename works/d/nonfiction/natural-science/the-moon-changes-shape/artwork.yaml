@@ -1,0 +1,57 @@
+schema_version: 1
+style: watercolor-gouache
+aspect_ratio: "3:2"
+embedded_text: prohibited
+shared_by_all_locales: true
+continuity:
+  setting: The same cozy child's bedroom across one month, with a wide unmarked window, dark blue night sky, low wooden desk, warm amber desk lamp, cream curtains, and no clocks, calendars, signs, letters, or numbers.
+  mina: Seven-year-old child with medium-brown skin, round dark eyes, chin-length wavy black hair held by one plain sky-blue clip, coral long-sleeved pajamas, and teal slippers.
+  dad: Adult man with medium-brown skin, short curly black hair, mustard knit sweater, navy trousers, and brown house shoes.
+  props: One sky-blue sketchbook with blank unmarked pages, one dark blue pencil without markings, and one plain white ball introduced with Dad on p09 and left on the desk on p10.
+  moon: A natural gray-white Moon without a face; its visible lit portion follows the declared phase on each page, with no fixed left-right orientation claim.
+  palette: Cool indigo and blue-violet nights balanced by warm amber lamplight, coral pajamas, mustard sweater, teal slippers, and soft gray-white moonlight.
+assets:
+  - id: cover
+    file: artwork/cover.webp
+    scene: Mina and Dad sit together by the bedroom window with the plain white ball and sky-blue sketchbook; several wordless Moon-shape drawings from thin crescent through full lie in a neat arc, and a half-lit Moon hangs outside.
+  - id: p01
+    file: artwork/p01.webp
+    scene: At dusk, Mina places a new sky-blue sketchbook and dark blue pencil on the low desk beside her bedroom window, ready to begin a month of Moon drawings.
+  - id: p02
+    file: artwork/p02.webp
+    scene: On the first clear night, Mina carefully draws a thin crescent Moon seen through the bedroom window.
+  - id: p03
+    file: artwork/p03.webp
+    scene: A few nights later in the same bedroom, Mina compares her earlier crescent drawing with a half-lit Moon outside and adds a new drawing.
+  - id: p04
+    file: artwork/p04.webp
+    scene: Mina smiles as a large full Moon glows outside the same window and she draws a big round Moon on a blank unmarked page.
+  - id: p05
+    file: artwork/p05.webp
+    scene: Later in the month, Mina studies a Moon whose visible bright part is smaller than before, with the full-Moon drawing still beside her for comparison.
+  - id: p06
+    file: artwork/p06.webp
+    scene: On a clear dark night with no Moon visible through the window, Mina pauses over one clean blank sketchbook page and does not draw.
+  - id: p07
+    file: artwork/p07.webp
+    scene: About one phase cycle after the first drawing, a thin crescent is visible again while Mina lays out a wordless sequence of her crescent, half, full, half, blank, and crescent pages.
+  - id: p08
+    file: artwork/p08.webp
+    scene: Mina spreads all her wordless Moon drawings across the low desk and asks Dad a puzzled question, touching the blank page while Dad listens.
+  - id: p09
+    file: artwork/p09.webp
+    scene: Dad holds a plain round white ball beside the warm desk lamp so one half is lit while Mina watches; the real Moon remains visible outside without a diagram, arrows, or labels.
+  - id: p10
+    file: artwork/p10.webp
+    scene: Mina begins a fresh row of wordless Moon-shape drawings at the window; Dad's plain white ball rests beside the lamp and the completed first row lies nearby.
+generation:
+  workflow: Codex built-in image generation; cwebp compression
+  text_in_image_requested: false
+  visual_review:
+    status: pass
+    checks:
+      - no-visible-text
+      - character-face-hair-clothing-and-prop-continuity
+      - moon-phase-sequence
+      - scene-alignment
+      - watercolor-gouache-style
