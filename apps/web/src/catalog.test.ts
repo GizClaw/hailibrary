@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { bookCardLocaleView, localizeBookCard, READING_LEVEL_ORDER, resolveContentLocale, sortReadingLevels, type BookCard, type CatalogTaxonomy, type LabelCatalog } from "./catalog.ts";
+import { bookCardLocaleView, flattenSeriesBooks, localizeBookCard, READING_LEVEL_ORDER, resolveContentLocale, searchSeries, sortReadingLevels, type BookCard, type CatalogTaxonomy, type LabelCatalog, type SeriesCard, type SeriesManifest } from "./catalog.ts";
 
 test("Reading levels preserve AA, A-Z, Z1, Z2 order", () => {
   assert.equal(READING_LEVEL_ORDER.length, 29);
@@ -24,6 +24,7 @@ const card: BookCard = {
   labels: { topics: ["animals", "adventure"], themes: ["cooperation"] },
   pageCount: 6,
   cover: "works/the-acorn-boat/artwork/cover.webp",
+  source: { series: "the-acorn-journey", volume: 1, volumes: 2 },
   title: "橡果小船",
   summary: "橡果小船载着两个朋友。",
   writer: { id: "溪铃", displayName: "溪铃" },
@@ -63,4 +64,24 @@ test("book locale selection falls back to an available edition", () => {
   assert.equal(resolveContentLocale("ja-JP", card.locales), "en-US");
   assert.equal(resolveContentLocale("ja-JP", ["zh-CN"]), "zh-CN");
   assert.equal(localizeBookCard(card, "ja-JP").title, "The Acorn Boat");
+});
+
+test("book cards preserve their source-series position", () => {
+  const localized = localizeBookCard(card, "en-US");
+  assert.deepEqual(localized.source, { series: "the-acorn-journey", volume: 1, volumes: 2 });
+});
+
+test("series book groups flatten in taxonomy-group and volume order", () => {
+  const groups: SeriesManifest["bookGroups"] = [
+    { level: "a", books: [{ id: "a-1", level: "a", volume: 1, volumes: 2, titles: {}, cover: "a.webp", manifest: "works/a-1/index.json" }, { id: "a-2", level: "a", volume: 2, volumes: 2, titles: {}, cover: "b.webp", manifest: "works/a-2/index.json" }] },
+    { level: "d", books: [{ id: "d-1", level: "d", volume: 1, volumes: 1, titles: {}, cover: "d.webp", manifest: "works/d-1/index.json" }] },
+  ];
+  assert.deepEqual(flattenSeriesBooks(groups).map(({ id, level, volume }) => ({ id, level, volume })), [{ id: "a-1", level: "a", volume: 1 }, { id: "a-2", level: "a", volume: 2 }, { id: "d-1", level: "d", volume: 1 }]);
+});
+
+test("series search includes localized titles, type, and Writers", () => {
+  const series = { id: "mountains", manifest: "series/mountains/index.json", category: "fiction", genre: "folktale", style: "woodblock", labels: {}, availableLocales: ["en-US", "zh-CN"], titles: { "en-US": "The Road", "zh-CN": "愚公移山" }, writers: { "en-US": { id: "lantern", displayName: "Manypath Lantern" }, "zh-CN": { id: "百径灯", displayName: "百径灯" } }, cover: "series/mountains/cover.webp", bookSetCount: 2, bookCount: 5 } satisfies SeriesCard;
+  assert.equal(searchSeries([series], "愚公").length, 1);
+  assert.equal(searchSeries([series], "folktale").length, 1);
+  assert.equal(searchSeries([series], "missing").length, 0);
 });

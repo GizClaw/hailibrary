@@ -6,10 +6,11 @@ export type LabelCatalog = { schemaVersion: number; groups: Record<string, { nam
 export type TaxonomyGroup = Record<string, { names: Record<string, string> }>;
 export type CatalogTaxonomy = { schemaVersion: number; levels: TaxonomyGroup; categories: TaxonomyGroup; subcategories: TaxonomyGroup };
 export type CatalogShard = { id: string; level: string; category: string; subcategory: string; count: number; url: string };
-export type SiteIndex = { schemaVersion: number; generatedAt: string; bookCount: number; localeCount: number; locales: string[]; levels: string[]; categories: string[]; catalogs: CatalogShard[]; shards: string[]; labels: string; taxonomy: CatalogTaxonomy; pages: { home: Record<string, string>; catalog: string; writers: Record<string, string>; styles: string; vocabulary: string } };
+export type SiteIndex = { schemaVersion: number; generatedAt: string; bookCount: number; localeCount: number; locales: string[]; levels: string[]; categories: string[]; catalogs: CatalogShard[]; shards: string[]; labels: string; taxonomy: CatalogTaxonomy; pages: { home: Record<string, string>; catalog: string; writers: Record<string, string>; styles: string; vocabulary: string; series: string } };
 export type HomePageData = { schemaVersion: number; bookCount: number; localeCount: number; readableCount: number; taxonomy: CatalogTaxonomy; cards: BookCard[] };
 export type CatalogPageIndex = SiteIndex;
-export type BookCard = { id: string; path: string; manifest: string; level: string; category: string; subcategory: string; locales: string[]; titles: Record<string, string>; summaries: Record<string, string>; writers: Record<string, WriterSummary>; style: StyleSummary; concepts: string[]; labels: Record<string, string[]>; pageCount: number; cover: string; title: string; summary: string; writer: WriterSummary; contentLocale?: string };
+export type BookSource = { series: string; volume: number; volumes: number; titles?: Record<string, string> };
+export type BookCard = { id: string; path: string; manifest: string; level: string; category: string; subcategory: string; locales: string[]; titles: Record<string, string>; summaries: Record<string, string>; writers: Record<string, WriterSummary>; style: StyleSummary; concepts: string[]; labels: Record<string, string[]>; pageCount: number; cover: string; source: BookSource; title: string; summary: string; writer: WriterSummary; contentLocale?: string };
 type BookCardSource = Omit<BookCard, "title" | "summary" | "writer" | "contentLocale">;
 export type StoryContentPart = { text?: string; vocabulary?: { id: string; text: string } };
 export type StoryBlock = { id?: string; speaker: string; text?: string; content?: StoryContentPart[] };
@@ -39,7 +40,12 @@ export const storyArticlePages = (story: Story): ArticlePage[] => story.article?
 }));
 export const storyAudioPages = (story: Story) => story.audio_script?.pages ?? story.pages ?? [];
 export const storyCast = (story: Story) => story.audio_script?.cast ?? story.cast ?? {};
-export type Book = { id: string; level: string; category: string; subcategory: string; cover: string; availableLocales: string[]; locales: Record<string, { title: string; summary: string; story: string; writer: WriterSummary & { profile: string } }>; artwork: { cover: string; pages: Record<string, string> }; vocabulary: { level: string; entries: Record<string, string> } };
+export type Book = { id: string; level: string; category: string; subcategory: string; cover: string; source: BookSource; availableLocales: string[]; locales: Record<string, { title: string; summary: string; story: string; writer: WriterSummary & { profile: string } }>; artwork: { cover: string; pages: Record<string, string> }; vocabulary: { level: string; entries: Record<string, string> } };
+export type SeriesBook = { id: string; level: string; volume: number; volumes: number; titles: Record<string, string>; cover: string; manifest: string };
+export type SeriesCard = { id: string; manifest: string; category: string; genre: string; style: string; labels: Record<string, string[]>; availableLocales: string[]; titles: Record<string, string>; writers: Record<string, WriterSummary>; cover: string; bookSetCount: number; bookCount: number };
+export type SeriesIndex = { schemaVersion: number; count: number; series: SeriesCard[] };
+export type SeriesArticle = { schemaVersion: number; language: string; title: string; chapters: Array<{ title: string; paragraphs: string[] }> };
+export type SeriesManifest = SeriesCard & { schemaVersion: number; characters: Array<{ id: string; description: string }>; locales: Record<string, { title: string; writer: WriterSummary & { profile: string }; article: string; audioScript?: string }>; bookGroups: Array<{ level: string; books: SeriesBook[] }> };
 export type VocabularyEntry = { id: string; card: string; locales: Record<string, { term: string; part_of_speech: string; pronunciation?: string; definition: string }> };
 export type VocabularyCatalogCard = { id: string; level: string; card: string; term: string; partOfSpeech: string; pronunciation?: string; definition: string };
 export type VocabularyPageIndex = { schemaVersion: number; pageSize: number; levels: TaxonomyGroup; locales: Record<string, Record<string, { count: number; pages: string[] }>> };
@@ -134,4 +140,9 @@ export const loadStory = (id: string, locale: string) => getJson<Story>(`works/$
 export const loadVocabulary = (level: string, id: string) => getJson<VocabularyEntry>(`vocabulary/${level}/${id}.json`);
 export const loadVocabularyPageIndex = async () => getJson<VocabularyPageIndex>((await loadIndex()).pages.vocabulary);
 export const loadVocabularyCatalogPage = (url: string) => getJson<VocabularyCatalogCard[]>(url);
+export const loadSeriesIndex = async () => getJson<SeriesIndex>((await loadIndex()).pages.series);
+export const loadSeries = (id: string) => getJson<SeriesManifest>(`series/${id}/index.json`);
+export const loadSeriesArticle = (id: string, locale: string) => getJson<SeriesArticle>(`series/${id}/${locale}.json`);
+export function searchSeries(cards: SeriesCard[], query: string) { const needle = query.trim().normalize("NFKC").toLocaleLowerCase(); if (!needle) return cards; return cards.filter((card) => [card.id, card.category, card.genre, card.style, ...Object.values(card.titles), ...Object.values(card.writers).flatMap((writer) => [writer.id, writer.displayName]), ...Object.values(card.labels ?? {}).flat()].join(" ").normalize("NFKC").toLocaleLowerCase().includes(needle)) }
+export function flattenSeriesBooks(groups: SeriesManifest["bookGroups"]) { return groups.flatMap((group) => group.books.map((book) => ({ ...book, level: group.level }))) }
 export function searchCards(cards: BookCard[], query: string) { const needle = query.trim().normalize("NFKC").toLocaleLowerCase(); if (!needle) return cards; return cards.filter((card) => [card.title, card.summary, card.writer.displayName, card.style.displayName, ...Object.values(card.style.names ?? {}), ...Object.values(card.titles), ...Object.values(card.summaries), ...card.concepts, ...Object.values(card.labels ?? {}).flat()].join(" ").normalize("NFKC").toLocaleLowerCase().includes(needle)) }

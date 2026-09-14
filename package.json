@@ -7,7 +7,7 @@
     "catalog": "pnpm --filter @hailibrary/catalog build",
     "dev": "pnpm catalog && pnpm --filter @hailibrary/web dev",
     "build": "pnpm catalog && pnpm --filter @hailibrary/web build",
-    "test": "pnpm --filter @hailibrary/web test && pnpm --filter @hailibrary/imagegen test && pnpm --filter @hailibrary/check-work test",
+    "test": "pnpm --filter @hailibrary/catalog test && pnpm --filter @hailibrary/web test && pnpm --filter @hailibrary/imagegen test && pnpm --filter @hailibrary/check-work test",
     "typecheck": "pnpm --filter @hailibrary/web typecheck"
   },
   "devDependencies": {
