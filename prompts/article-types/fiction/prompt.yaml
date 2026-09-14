@@ -1,0 +1,82 @@
+schema_version: 1
+id: fiction
+display_name: Fiction
+description: Realistic fiction, fairy tales, fables, folktales, and other invented stories that are not science fiction, mystery, or historical fiction.
+
+localizations:
+  zh-CN:
+    display_name: 小说
+    description: 现实题材与童话、寓言、民间故事等不属于科幻小说、悬疑小说或历史小说的小说。
+
+taxonomy:
+  category: fiction
+  allowed_subcategories:
+    - adventure
+    - animals
+    - everyday-life
+    - fantasy
+    - folktale
+    - magical-realism
+
+research: optional
+research_guidance: Research is required whenever the story uses material real-world facts; a folktale, fable, or traditional-story retelling must identify its source and consulted version.
+
+length:
+  zh-CN:
+    unit: Han characters
+    min: 800
+    max: 3000
+  en-US:
+    unit: words
+    min: 700
+    max: 2400
+
+picture_book:
+  level_range: {min: aa, max: n}
+  adaptation_notes: Preserve one complete causal arc in one book. Compress subplots before cutting the protagonist's want, obstacle, choice, consequence, turn, or resolution; select a target level whose language and page limits can carry the essential events.
+  localizations:
+    zh-CN:
+      adaptation_notes: 一本绘本保留一条完整因果弧；先删减支线，不可删掉主角的愿望、阻碍、选择、后果、转折或解决，并选择语言与页数足以承载核心事件的目标等级。
+
+prompt: |-
+  Write fiction that a child wants to follow, while leaving the selected Writer
+  free to supply knowledge, experience, interests, and voice. Center one
+  child-accessible protagonist—not necessarily a human child—with a concrete
+  want. Put something specific in the way. Make the protagonist choose, allow
+  the choice to be mistaken or funny, and let it cause a consequence that
+  changes what can happen next. Build a clear opening situation, escalating
+  attempts, a consequential turn, and an earned resolution.
+
+  Keep the viewpoint close enough for the reader to notice what the protagonist
+  notices, hope for what they hope for, and understand decisions from available
+  knowledge. Use concrete settings, actions, sensory details, and differentiated,
+  speakable dialogue to move scenes. Let humor come from personality, timing,
+  misunderstanding, inventive plans, or harmless embarrassment; never make
+  cruelty or a vulnerable person the joke. Make imagination internally
+  consistent. Plant solutions before they are used, and let the protagonist's
+  action—not coincidence or an adult lecture—decide the central outcome.
+
+  Fairy tales, fables, fantasy, and folktale retellings are welcome. For a
+  retelling, research and record the traditional source, cultural origin when
+  known, and exact consulted version; preserve only the necessary traditional
+  plot spine and create the prose, dialogue, names, scene details, and expression
+  anew. Mark legend as legend. Research historical, scientific, cultural,
+  geographic, health, and safety claims even inside an invented plot.
+
+  Do not append a moral, announce a lesson, make characters speak slogans, or
+  turn dialogue into exposition. Avoid passive protagonists, interchangeable
+  voices, scenic episodes that change nothing, repeated obstacles without new
+  choices, unexplained rule changes, humiliation, convenient rescues, and
+  endings that merely stop or summarize what the reader should think.
+
+  中文要点：让孩子贴近主角的愿望和判断；用场景、行动和对白推动；允许主角犯错、
+  闹笑话并承担后果；让幽默和想象服务因果；不说教、不喊口号。童话、寓言及民间
+  故事转述必须查明并记录来源，具体表达重新创作。
+
+
+exclusions:
+  - A passive protagonist whose problem is solved chiefly by coincidence, rescue, or an adult's answer.
+  - Slogan dialogue, appended morals, direct preaching, or punishment presented as the lesson.
+  - Obstacles or scene changes that do not arise from character action and established story rules.
+  - Humor based on cruelty, identity, disability, poverty, accent, fear, or sustained humiliation.
+  - Copying or near-copying a modern story or retelling, or presenting legend and invention as verified fact.

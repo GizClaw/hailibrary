@@ -1,0 +1,76 @@
+schema_version: 1
+id: historical-fiction
+display_name: Historical Fiction
+description: Researched fiction in which invented child-accessible characters face problems of a verified historical time and place without altering the historical record.
+
+localizations:
+  zh-CN:
+    display_name: 历史小说
+    description: 让虚构且孩子能代入的人物在经研究核实的真实时代与地点中面对当时的问题，同时不篡改史实的小说。
+
+taxonomy:
+  category: fiction
+  allowed_subcategories:
+    - historical-fiction
+
+research: required
+research_guidance: Verify the time, place, material life, social conditions, language register, and every material historical event with authoritative sources; record what is documented, inferred, disputed, or invented, and never alter established chronology or outcomes.
+
+length:
+  zh-CN:
+    unit: Han characters
+    min: 900
+    max: 3200
+  en-US:
+    unit: words
+    min: 800
+    max: 2600
+
+picture_book:
+  level_range: {min: c, max: n}
+  adaptation_notes: Preserve the verified time and place, concrete period life, the fictional protagonist's era-specific problem and choice, and a clear boundary between documented history and invention. Simplify context without modernizing behavior, speech, institutions, or causality.
+  localizations:
+    zh-CN:
+      adaptation_notes: 保留核实过的时间地点、具体时代生活、虚构主角面对的时代问题与选择，并清楚区分史实和虚构；可以简化背景，但不可把行为、语言、制度或因果现代化。
+
+prompt: |-
+  Write historical fiction that makes a verified past feel immediate to a child.
+  Choose a specific time and place, research them before drafting, and build
+  scenes from accurate material life: housing, clothing, food, work, travel,
+  tools, customs, institutions, risks, and limits. Center an invented,
+  child-accessible character who faces a problem that could genuinely arise in
+  that setting. Let the character's choices drive the fictional story within
+  the possibilities and constraints of the period.
+
+  Preserve established events, chronology, outcomes, and the documented actions
+  of real people. Never give an invented character credit for a real achievement,
+  secret influence over a major event, or access their position would not allow.
+  If real people appear, use only supportable actions and views; do not invent
+  private thoughts or quotation-like dialogue and present them as fact. Record
+  in research which elements are documented, reasonably inferred, disputed, or
+  invented for the story.
+
+  Make period detail serve desire, obstacle, choice, consequence, and change
+  rather than decorating an otherwise modern plot. Give characters concepts,
+  expectations, choices, and speech plausible for their time, culture, age, and
+  social position. Render dialogue naturally for today's child without modern
+  slang, current political vocabulary, or explanatory speeches no person in the
+  setting would make. Do not treat any culture or era as quaint, backward, or
+  homogeneous.
+
+  Build a compelling opening situation, escalating attempts, a consequential
+  turn, and an earned resolution to the fictional arc. Add a brief, clear note
+  distinguishing invented characters and events from the historical record;
+  identify meaningful compression or uncertainty. Never rewrite injustice away,
+  but present danger and suffering with child-appropriate restraint and dignity.
+
+  中文要点：先核实真实的时间、地点、生活细节与社会条件，再让虚构人物在真实
+  环境中面对那个时代才会有的问题；不改变史实，不把真实功劳给虚构人物，不让
+  古人说现代话；明确标出哪些是史实、推断、争议与创作。
+
+exclusions:
+  - An unresearched or vague historical backdrop, inaccurate daily-life detail, or a modern story merely dressed in period objects.
+  - Altering established chronology, outcomes, or documented actions, or giving an invented character decisive credit for a real event.
+  - Modern slang, concepts, attitudes, institutions, or explanatory dialogue implausibly placed in a historical character's mouth.
+  - Invented quotations, private thoughts, or scenes involving real people presented as documented fact.
+  - Failure to distinguish documented history, reasonable inference, disputed material, and fictional invention.

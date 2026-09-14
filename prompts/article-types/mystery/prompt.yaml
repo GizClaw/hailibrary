@@ -1,0 +1,72 @@
+schema_version: 1
+id: mystery
+display_name: Mystery
+description: Tense but non-frightening fiction built around a child-solvable puzzle, fairly planted clues, plausible misdirection, and an earned reveal.
+
+localizations:
+  zh-CN:
+    display_name: 悬疑小说
+    description: 围绕孩子能够参与破解的谜题展开，以公平铺设的线索、合理误导和有依据的揭晓制造紧张但不恐怖的故事。
+
+taxonomy:
+  category: fiction
+  allowed_subcategories:
+    - mystery
+
+research: optional
+research_guidance: Research is required when the mystery depends on material scientific, historical, cultural, geographic, legal, health, safety, or technical facts; every solution-critical fact must be accurate and available to the reader before the reveal.
+
+length:
+  zh-CN:
+    unit: Han characters
+    min: 800
+    max: 3000
+  en-US:
+    unit: words
+    min: 700
+    max: 2400
+
+picture_book:
+  level_range: {min: aa, max: n}
+  adaptation_notes: Preserve one solvable question, every solution-critical clue, the protagonist's reasoning or test, and the reveal that reconnects the clues. Remove secondary suspects and red herrings before removing fair-play evidence.
+  localizations:
+    zh-CN:
+      adaptation_notes: 保留一个可破解的问题、所有决定解答的关键线索、主角的推理或验证，以及回扣线索的揭晓；先删次要嫌疑与误导，不可删掉公平解谜所需的证据。
+
+prompt: |-
+  Write a mystery that invites a child to solve alongside the protagonist.
+  Establish one concrete puzzle early: something missing, an unexplained pattern,
+  a mixed-up message, an impossible-seeming event, or another question with a
+  knowable answer. Give the reader and protagonist the same solution-relevant
+  information at the same time. Plant every necessary clue clearly before the
+  reveal, while letting its importance remain unnoticed.
+
+  Center a child-accessible protagonist who observes, asks, compares, tests, and
+  revises an idea. Let choices and reasoning move the investigation. Misdirection
+  must grow from an understandable assumption, ambiguous evidence, coincidence,
+  or a character's plausible behavior; never hide decisive information in the
+  narration or lie about what the viewpoint character perceives. Make alternate
+  explanations possible, then narrow them through evidence available on the page.
+
+  Build curiosity and manageable tension through unanswered questions, time
+  pressure, near discoveries, and changing interpretations—not threats, gore,
+  cruelty, supernatural terror, or prolonged fear. At the reveal, explain how
+  the answer accounts for the mystery and explicitly reconnect each critical
+  clue so the child can recognize that the solution was fair. Resolve meaningful
+  consequences and relationships after the answer is known.
+
+  Keep clues concrete, memorable, and suited to the intended reader's knowledge.
+  Research any real-world fact on which the solution depends. Do not confuse the
+  child with too many suspects, indistinguishable names, arbitrary codes, or a
+  solution that requires specialist knowledge never supplied in the story.
+
+  中文要点：让孩子和主角一起破解一个明确谜题；关键线索必须提前公平出现，读者
+  与主角同时掌握信息；误导源于合理假设或歧义证据；揭晓时逐一回扣前文线索。
+  用疑问和推理制造紧张感，但不写成恐怖故事。
+
+exclusions:
+  - A solution that depends on a hidden decisive clue, narrator deception, coincidence, confession alone, or information introduced only at the reveal.
+  - A reader who receives less solution-relevant information than the protagonist.
+  - Arbitrary red herrings, implausible behavior used only to create suspicion, or specialist knowledge not supplied in the story.
+  - Gore, cruelty, supernatural terror, sustained fear, or threats too intense for the intended child reader.
+  - A reveal that announces the answer without reconnecting the earlier clues and resolving their apparent contradictions.
