@@ -5,7 +5,7 @@ description: Turn a final multilingual HaiLibrary series article into complete a
 
 # Adapt a series into picture books
 
-Own the complete derivative workflow for `works/<level>/<category>/<subcategory>/<slug>/`: adaptation, vocabulary, artwork generation, and deterministic validation. Do not write or repair the source series here. Read [references/level-and-vocabulary-contract.md](references/level-and-vocabulary-contract.md) before choosing levels or vocabulary.
+Own the complete derivative workflow for `works/<level>/<category>/<subcategory>/<slug>/`: adaptation, vocabulary, artwork generation, and deterministic validation. Do not write or repair the source series here. Book slugs are global IDs: name each volume `<series-id>-<level>-<volume>` (for example `the-helper-we-built-j-1`) so no two books share a slug across levels. Read [references/level-and-vocabulary-contract.md](references/level-and-vocabulary-contract.md) before choosing levels or vocabulary.
 
 ## Load source and contracts
 

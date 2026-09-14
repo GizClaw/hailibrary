@@ -500,6 +500,9 @@ function checkWork(workArgument) {
   }
   check.require(labelIndex.schema_version === 1, "label index schema_version must be 1");
   check.require(book.id === slug, `book id must match directory slug: ${slug}`);
+  for (const other of pictureBookDirs(root)) {
+    if (resolve(other) !== resolve(work) && other.split(sep).at(-1) === slug) check.errors.push(`book slug ${slug} is not unique: ${asPosix(relative(root, other))} uses it too`);
+  }
   requiredString(check, book, "status", "book");
   const source = isMapping(book.source) ? book.source : {};
   check.require(isMapping(book.source), "book.source must be a mapping");
