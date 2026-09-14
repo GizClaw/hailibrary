@@ -30,10 +30,11 @@ const ARTWORK_KEYS = new Set(["schema_version", "style", "aspect_ratio", "embedd
 const STORY_KEYS = new Set(["schema_version", "language", "writer", "title", "summary", "chapters", "questions", "article"]);
 const STORY_ARTICLE_KEYS = new Set(["pages"]);
 const STORY_PAGE_KEYS = new Set(["id", "illustration", "paragraphs"]);
-const SERIES_ARTICLE_KEYS = new Set(["schema_version", "id", "category", "genre", "style", "labels", "research", "premise", "characters", "locales", "picture_books", "cover_prompt"]);
+const SERIES_ARTICLE_KEYS = new Set(["schema_version", "id", "type", "category", "genre", "style", "labels", "research", "premise", "characters", "locales", "picture_book", "picture_books", "cover_prompt"]);
 const SERIES_CHARACTER_KEYS = new Set(["id", "description"]);
 const SERIES_LOCALE_KEYS = new Set(["writer", "working_title", "length"]);
 const PICTURE_BOOK_PROPOSAL_KEYS = new Set(["level", "volumes"]);
+const PICTURE_BOOK_KEYS = new Set(["level"]);
 const RESEARCH_KEYS = new Set(["schema_version", "required", "sources", "notes"]);
 const RESEARCH_SOURCE_KEYS = new Set(["url", "authority", "claims"]);
 
@@ -341,6 +342,16 @@ function checkSeries(work, root, seriesId) {
   requireOnlyKeys(check, article, SERIES_ARTICLE_KEYS, "article.yaml");
   check.require(article.schema_version === 1, "article.schema_version must be 1");
   check.require(article.id === seriesId, `article id must match directory: ${seriesId}`);
+  if (Object.hasOwn(article, "type")) {
+    const articleType = requiredString(check, article, "type", "article");
+    if (articleType !== null) {
+      check.require(TYPE_PART.test(articleType), "article.type must be a lowercase identifier");
+      const typeIndex = check.yamlMapping(join(root, "prompts", "article-types", "index.yaml"));
+      check.require(Array.isArray(typeIndex.type_order) && typeIndex.type_order.includes(articleType), `article type must be listed in prompts/article-types/index.yaml: ${articleType}`);
+      const typePrompt = check.yamlMapping(join(root, "prompts", "article-types", articleType, "prompt.yaml"));
+      check.require(typePrompt.schema_version === 1 && typePrompt.id === articleType, `article type must exist and match id: ${articleType}`);
+    }
+  }
   for (const key of ["category", "genre"]) {
     const value = requiredString(check, article, key, "article");
     if (value !== null) check.require(TYPE_PART.test(value), `article.${key} must be a lowercase identifier`);
@@ -426,6 +437,12 @@ function checkSeries(work, root, seriesId) {
         }
       });
     });
+  }
+  if (Object.hasOwn(article, "picture_book")) {
+    if (check.require(isMapping(article.picture_book), "article.picture_book must be a mapping")) {
+      requireOnlyKeys(check, article.picture_book, PICTURE_BOOK_KEYS, "article.picture_book");
+      check.require(PICTURE_BOOK_LEVELS.includes(article.picture_book.level), `article.picture_book.level must be one of aa, a-n: ${article.picture_book.level}`);
+    }
   }
   if (Array.isArray(article.picture_books)) {
     article.picture_books.forEach((proposal, index) => requireOnlyKeys(check, proposal, PICTURE_BOOK_PROPOSAL_KEYS, `article.picture_books[${index}]`));
@@ -514,9 +531,11 @@ function checkWork(workArgument) {
   check.require(hasOnlyKeys(source, new Set(["series", "volume", "volumes"])), "book.source contains an unknown field");
   const sourceSeries = requiredString(check, source, "series", "book.source");
   if (sourceSeries !== null) check.require(existsSync(join(root, "works", "series", sourceSeries, "article.yaml")), `book.source.series does not exist: ${sourceSeries}`);
-  check.require(Number.isInteger(source.volume) && source.volume > 0, "book.source.volume must be a positive integer");
-  check.require(Number.isInteger(source.volumes) && source.volumes > 0, "book.source.volumes must be a positive integer");
-  if (Number.isInteger(source.volume) && Number.isInteger(source.volumes)) check.require(source.volume <= source.volumes, "book.source.volume must not exceed book.source.volumes");
+  const sourceVolume = source.volume ?? 1;
+  const sourceVolumes = source.volumes ?? 1;
+  check.require(Number.isInteger(sourceVolume) && sourceVolume > 0, "book.source.volume must be a positive integer when present");
+  check.require(Number.isInteger(sourceVolumes) && sourceVolumes > 0, "book.source.volumes must be a positive integer when present");
+  if (Number.isInteger(sourceVolume) && Number.isInteger(sourceVolumes)) check.require(sourceVolume <= sourceVolumes, "book.source.volume must not exceed book.source.volumes");
   const workType = typePath(check, book.type, "book.type");
   const levelRules = levelRulesById[level];
   check.require(isMapping(levelRules), `unknown reading level: ${level}`);
@@ -780,12 +799,12 @@ function checkWork(workArgument) {
     for (const questionType of requiredQuestionTypes) check.require(presentQuestionTypes.has(questionType), `${locale}: level ${level} requires a ${questionType} question`);
   }
 
-  if (sourceSeries !== null && Number.isInteger(source.volume)) {
+  if (sourceSeries !== null && Number.isInteger(sourceVolume)) {
     const seenSiblingPrompts = new Map();
     for (const siblingWork of pictureBookDirs(root)) {
       if (resolve(siblingWork) === resolve(work)) continue;
       const siblingBook = readYamlMappingQuietly(join(siblingWork, "book.yaml"));
-      if (siblingBook?.source?.series !== sourceSeries || siblingBook?.source?.volume === source.volume) continue;
+      if (siblingBook?.source?.series !== sourceSeries) continue;
       const siblingLocales = Array.isArray(siblingBook.locales) ? siblingBook.locales : [];
       for (const siblingLocale of siblingLocales) {
         const siblingStory = readYamlMappingQuietly(join(siblingWork, "locales", siblingLocale, "story.yaml"));
