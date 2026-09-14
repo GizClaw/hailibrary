@@ -58,7 +58,6 @@ Codex 可以自动发现 `.agents/skills/` 中的项目 Skills，也可以显式
 $create-work
 $adapt-article
 $scriptize-article
-$review-native-language
 $review-work
 $create-vocabulary
 $review-vocabulary

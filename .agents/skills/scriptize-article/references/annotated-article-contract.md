@@ -36,6 +36,11 @@ annotated_article:
 - Speaker labels may change delivery, but must not change who knows what or what happened.
 - A dialogue block requires a present speaker, an addressee or plausible self-directed utterance, and an immediate conversational purpose.
 - Narration remains the default for exposition and transitions.
+- Split blocks only when the speaker changes. Merge contiguous content from the same speaker; merge contiguous narration and preserve its source paragraphs with line breaks inside the block.
+- Split one narrator block only when it exceeds about 400 Chinese characters or 250 English words, and split only at an original paragraph boundary.
+- If one utterance is interrupted only by an attribution such as `他说`, `身后有人说`, `he said`, or `someone behind her said`, remove the attribution and merge the utterance into one speaker block.
+- A narrator block must not end with a comma, colon, `说`, `问`, `said`, or `asked`. Rewrite a half-sentence that introduces dialogue as a complete sentence or merge it into the preceding narrator block.
+- Preserve source order: never move an intervening action after dialogue to merge blocks, and never invent connective narration such as `她提出了疑问。`.
 - Every speaker ID must resolve to the locale cast before final serialization.
 - Every block ID must be unique inside the locale and stable enough to address one future audio clip and subtitle cue.
 - Existing vocabulary IDs and surface forms remain byte-for-byte unchanged during scriptization.

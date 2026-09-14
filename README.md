@@ -20,7 +20,6 @@ Hai! Library uses a layered review harness rather than trusting a single generat
 
 - source rules constrain every work's level, structure, locales, speakers, questions, vocabulary, and shared artwork;
 - the local checker validates schemas, cross-locale page alignment, referenced Writers, Styles, vocabulary entries, files, and Git LFS resources;
-- native-language review reads each locale independently and consults live monolingual dictionaries, language standards, corpora, and genre-matched native writing when usage is uncertain;
 - full-work review checks level fit, narrative coherence, question evidence, vocabulary, artwork, and independently verifies real-world claims with authoritative web sources;
 - after any fix, the complete deterministic and editorial reviews run again. A work is ready only when the checker passes and a fresh review reports no findings.
 
@@ -58,7 +57,6 @@ Codex can discover the repository Skills in `.agents/skills/` automatically. The
 $create-work
 $adapt-article
 $scriptize-article
-$review-native-language
 $review-work
 $create-vocabulary
 $review-vocabulary

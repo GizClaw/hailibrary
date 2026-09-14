@@ -112,12 +112,11 @@ series/<series-id>/series.yaml
 ## 6. 质量门槛（每部作品的完成定义）
 
 1. `npx --no-install hailibrary-check-work <work>` 退出码 0。
-2. 每个 locale 独立通过 `$review-native-language`，并提供开头、中段、结尾的证据。
-3. 每个词条通过 `$review-vocabulary`；新卡片通过 `$create-vocabulary`。
-4. 新作品通过 `$review-artwork`（本地有图像访问时须目视检查）。
-5. `research.yaml` 覆盖所有可核查事实；fresh 审核独立联网复核，不只依赖 `research.yaml`。
-6. 有声书附加项：脱图可听、读音词表完整、cast 声线可区分、章节标题可朗读、系列角色与 `series.yaml` 一致。
-7. fresh full-work review 返回 `PASS` 后改为 `status: ready`，并在 PR 描述中写明审核摘要。
+2. 每个词条通过 `$review-vocabulary`；新卡片通过 `$create-vocabulary`。
+3. 新作品通过 `$review-artwork`（本地有图像访问时须目视检查）。
+4. `research.yaml` 覆盖所有可核查事实；fresh 审核独立联网复核，不只依赖 `research.yaml`。
+5. 有声书附加项：脱图可听、读音词表完整、cast 声线可区分、章节标题可朗读、系列角色与 `series.yaml` 一致。
+6. fresh full-work review 返回 `PASS` 后改为 `status: ready`，并在 PR 描述中写明审核摘要。
 
 执行节奏：一部作品一个 PR。可以用多个 worktree 并行创作，但每部作品单独走审核循环，不合批放行。每完成一波，做一次语料层面的复盘：各等级分布、词汇复用、标题与主题是否重复、跨作品角色是否冲突。
 

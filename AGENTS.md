@@ -26,7 +26,7 @@ When asked to create or revise a book:
 3. Browse the web before writing when the story depends on science, nature, geography, history, culture, health, safety, a real person, or another checkable real-world claim. Prefer primary and authoritative sources.
 4. Record every story-relevant source and supported claim in `research.yaml`. If research is unnecessary for a purely invented story, record `required: false` and a short reason.
 5. Design shared events, learning goals, factual boundaries, characters, and a shared page plan. A level measures the later reading adaptation, not the literary ambition of the source novel.
-6. From those shared events, let each locale Writer independently draft `locales/<locale>/article.md` as continuous natural prose using its `prompt` and `language_prompt`. Do not apply level ceilings, paginate, plan questions, or add IDs, metadata, or vocabulary markers. Review and fix each novel as literature and native-language writing before adaptation.
+6. From those shared events, let each locale Writer independently draft `locales/<locale>/article.md` as continuous natural prose using its `prompt` and `language_prompt`. Do not apply level ceilings, paginate, plan questions, or add IDs, metadata, or vocabulary markers. Review and fix each novel as literature before adaptation.
 7. Run `$adapt-article` for every locale. Apply the exact level and vocabulary contracts while faithfully adapting the locale's own novel into `story.yaml` `article.pages[].paragraphs[]` on the shared page and illustration IDs.
 8. Define every narrator and character in `book.yaml`; define localized display names and complete abstract TTS direction (`delivery`, `timbre`, `pace`, and `pitch`) once in `audio_script.cast`.
 9. Run `$scriptize-article` on each adapted `article.pages`. Preserve order, facts, causality, vocabulary markers, and speaker intent in `audio_script.pages[].blocks[]`; assign stable `<page-id>-b<two-digit-index>` IDs.
@@ -38,13 +38,13 @@ When asked to create or revise a book:
 15. For new artwork, save compressed `.webp` images under the book's `artwork/` directory and describe each scene in `artwork.yaml`. Do not recompress, rename, or rewrite existing visual resources during a text-only task.
 16. Visual artwork review is optional and out of scope by default: run `$review-artwork` only when visual review is in scope as defined under "Visual review scope" below. During a text-only review-fix loop, treat visuals as fixed scene constraints and solve compatibility issues in the text; do not regenerate images.
 17. Run `npm run check-work -- <work-directory>` and fix every deterministic resource error.
-18. Run `$review-native-language` for every locale, then run the `review-fix-loop` before marking the work ready for PR review.
+18. Run the `review-fix-loop` before marking the work ready for PR review.
 
 Existing works received deterministic placeholder `article.md` files backfilled from their picture-book text. These are not rewritten novels and may later be replaced by a real locale novel followed by re-adaptation.
 
 ## `adapt-article` workflow
 
-Use `$adapt-article` after the locale novel passes literary and native-language review. It reads `article.md`, the exact level and locale contracts, the Writer, `book.yaml`, the shared page plan, and `artwork.yaml` when present. It may condense, cut subplots, simplify, and re-sentence to meet every level ceiling and complexity floor, but must preserve the novel's events, causality, facts, characters, point of view, tone, and ending. It writes only `story.yaml` `article.pages[].paragraphs[]`, paginates at real transitions on shared page and illustration IDs, and marks only vocabulary already present in the adapted prose. If the novel is defective, fix `article.md` first and re-adapt; never repair the source indirectly in YAML.
+Use `$adapt-article` after the locale novel is complete. It reads `article.md`, the exact level and locale contracts, the Writer, `book.yaml`, the shared page plan, and `artwork.yaml` when present. It may condense, cut subplots, simplify, and re-sentence to meet every level ceiling and complexity floor, but must preserve the novel's events, causality, facts, characters, point of view, tone, and ending. It writes only `story.yaml` `article.pages[].paragraphs[]`, paginates at real transitions on shared page and illustration IDs, and marks only vocabulary already present in the adapted prose. If the novel is defective, fix `article.md` first and re-adapt; never repair the source indirectly in YAML.
 
 ## `scriptize-article` workflow
 
@@ -77,13 +77,12 @@ Create a reusable visual treatment at `prompts/styles/<name>/` with `prompt.yaml
 
 Use a fresh reviewer pass independent from the creation pass:
 
-1. Run `$review-native-language` as an independent, evidence-backed pass for every locale before cross-locale comparison. Another locale's prose must not be used as the wording template; `PASS` requires representative evidence from the beginning, middle, and end.
-2. Run `$review-writer` for every referenced Writer, `$review-style` for the referenced Style, and `$review-vocabulary` for every referenced entry. Run `$review-artwork` when visual review is in scope; for an explicitly text-only loop, preserve images byte-for-byte and use their declared scenes as fixed constraints.
-3. Review the complete work against its directory level, research evidence, book YAML, every locale, questions, and all specialized-review verdicts. Independently browse authoritative sources to discover and verify explicit facts and implicit knowledge, causality, safety, and common-sense assumptions; do not rely only on `research.yaml`.
-4. Report concrete findings with file and page IDs.
-5. Fix every actionable finding when the task authorizes fixes.
-6. Start fresh specialized and full-work reviews; do not merely check the edited lines.
-7. Repeat review and fix until every fresh pass produces no findings.
+1. Run `$review-writer` for every referenced Writer, `$review-style` for the referenced Style, and `$review-vocabulary` for every referenced entry. Run `$review-artwork` when visual review is in scope; for an explicitly text-only loop, preserve images byte-for-byte and use their declared scenes as fixed constraints.
+2. Review the complete work against its directory level, research evidence, book YAML, every locale, questions, and all specialized-review verdicts. Independently browse authoritative sources to discover and verify explicit facts and implicit knowledge, causality, safety, and common-sense assumptions; do not rely only on `research.yaml`.
+3. Report concrete findings with file and page IDs.
+4. Fix every actionable finding when the task authorizes fixes.
+5. Start fresh specialized and full-work reviews; do not merely check the edited lines.
+6. Repeat review and fix until every fresh pass produces no findings.
 
 For review-only requests and GitHub PR review, report findings and do not modify the work.
 

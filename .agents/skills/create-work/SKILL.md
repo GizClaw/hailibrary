@@ -61,7 +61,7 @@ For each locale, let the selected Writer independently draft `locales/<locale>/a
 
 Write a real literary work: a character wants something, meets obstacles, and makes choices; scenes carry concrete sensory detail; dialogue sounds spoken and does not explain the lesson; rhythm varies; the ending is earned. Nonfiction likewise needs purposeful movement rather than a checklist or report. Do not plant details for future questions and do not think in pages.
 
-Review the novel as literature and native-language writing. Fix coherence, safety, factual, causal, voice, transition, or ending problems in `article.md` before adaptation. Do not apply level vocabulary, sentence-length, total-length, page-count, question, or illustration-reliance limits to the novel.
+Review the novel as literature. Fix coherence, safety, factual, causal, voice, transition, or ending problems in `article.md` before adaptation. Do not apply level vocabulary, sentence-length, total-length, page-count, question, or illustration-reliance limits to the novel.
 
 ## Adapt, then scriptize
 
@@ -122,6 +122,6 @@ Run:
 npm run check-work -- works/<level>/<category>/<subcategory>/<slug>
 ```
 
-Fix every deterministic error. Then apply `$review-native-language` independently to every locale and preserve its evidence-backed verdicts. After every locale passes, apply the full `$review-work` procedure, including its independent web fact-check of explicit claims, implicit common-sense assumptions, questions, vocabulary, and artwork. Repeat validation and both complete reviews after fixes.
+Fix every deterministic error. Then apply the full `$review-work` procedure, including its independent web fact-check of explicit claims, implicit common-sense assumptions, questions, vocabulary, and artwork. Repeat validation and the complete review after fixes.
 
 Finish only when the command passes and the full review has no findings. Summarize the path, level, Writers, Style, locales, page/artwork counts, vocabulary, research status, and validation result.

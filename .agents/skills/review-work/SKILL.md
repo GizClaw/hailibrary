@@ -40,12 +40,6 @@ npm run check-work -- works/<level>/<category>/<subcategory>/<slug>
 
 Treat validator failures as findings, but do not stop there.
 
-## Native-language editorial pass
-
-Apply the complete `$review-native-language` procedure to every locale. This is a required independent pass, not an optional checklist inside the general review. Preserve its per-locale evidence and verdicts in the final work review.
-
-Do not inspect another locale's prose before completing the independent editorial pass for the current locale. A semantically accurate translation is not sufficient. If `$review-native-language` returns `FAIL` or `NATIVE_REVIEW_REQUIRED` for any locale, the complete work cannot receive `PASS`.
-
 ## Independent web fact-check
 
 Every review must browse the web independently to look for knowledge, factual, causal, safety, and ordinary common-sense errors. Do not limit the review to claims already listed in `research.yaml`, and do not treat `required: false` as permission to skip this step.
@@ -72,7 +66,7 @@ Check that:
 - the work has a coherent beginning, development, and resolution or an appropriate nonfiction structure;
 - vocabulary, syntax, sentence/page totals, inference, narrative structure, and question types fit the directory level;
 - the English edition uses its declared age/grade and English-only Lexile reference, while the Chinese edition is judged against its own curriculum checkpoint without importing English Lexile claims; retained Reading A-Z labels are not mistaken for official later-grade correlations;
-- each locale passes its own native-language editorial review, remains equivalent in meaning and learning difficulty, and is independently phrased rather than translated line by line;
+- locales remain equivalent in meaning and learning difficulty and are independently phrased rather than translated line by line;
 - each locale's visible `article.pages` is continuous and attributes dialogue naturally; its `audio_script` preserves the adaptation's order, transitions, causality, evidence, and conclusion rather than replacing them with alternating explanations;
 - Writers shape high-level creative choices without copied expression or recognizable imitation;
 - every character and narrator exists in every locale `audio_script.cast` with distinct, complete TTS direction;
@@ -93,4 +87,4 @@ A GitHub binary diff proves only file presence; never claim pixel-level verifica
 
 Return actionable findings first, ordered by severity. Include exact file paths and page, question, artwork, vocabulary, or cast IDs. Explain the concrete learner-facing or contract impact, and cite the sources that establish each factual finding.
 
-Return `PASS` only when there are no findings, `$review-native-language` has produced an evidence-backed `PASS` for every locale, and the independent web fact-check is complete. Then summarize the level, Writers, Style, locales, per-locale editorial evidence and verdicts, page count, artwork count, speakers, vocabulary, claim categories searched, research evidence, question evidence, visual inspection, and validator result. If legal uncertainty remains around a Writer or Style, return `NEEDS_LEGAL_REVIEW` instead of `PASS`.
+Return `PASS` only when there are no findings and the independent web fact-check is complete. Then summarize the level, Writers, Style, locales, page count, artwork count, speakers, vocabulary, claim categories searched, research evidence, question evidence, visual inspection, and validator result. If legal uncertainty remains around a Writer or Style, return `NEEDS_LEGAL_REVIEW` instead of `PASS`.

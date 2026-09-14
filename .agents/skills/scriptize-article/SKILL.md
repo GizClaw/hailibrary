@@ -35,15 +35,18 @@ Build one ordered annotated article:
 4. Give each speaker partial knowledge, intent, emotion, relationship, vocabulary, and rhythm. People may interrupt, hesitate, misunderstand, answer indirectly, or remain silent.
 5. Preserve every source event, claim, causal link, uncertainty, and conclusion. Do not add facts, lessons, characters, conflicts, solutions, or interview questions merely to create more voices.
 6. Keep one speaker per block. Put visible action in narrator blocks instead of parenthetical stage directions that TTS might read aloud.
-7. Give every block a stable locale-local ID in `<page-id>-b<two-digit-index>` form, such as `p07-b03`. The ID is the durable join key for one TTS clip and its subtitle; do not recycle an ID for different spoken content after publication.
-8. Preserve existing inline vocabulary markers exactly. New vocabulary work remains owned by `$create-vocabulary` and `$review-vocabulary`.
+7. Split blocks only when the speaker changes. Merge contiguous content from the same speaker; merge contiguous narration and preserve its source paragraphs with line breaks inside the block.
+8. Split one narrator block only when it exceeds about 400 Chinese characters or 250 English words, and split only at an original paragraph boundary.
+9. When one utterance is interrupted only by an attribution such as `他说`, `身后有人说`, `he said`, or `someone behind her said`, remove the attribution and merge the utterance into one speaker block.
+10. A narrator block must not end with a comma, colon, `说`, `问`, `said`, or `asked`. Rewrite a half-sentence that introduces dialogue as a complete sentence or merge it into the preceding narrator block.
+11. Preserve source order. Do not move an intervening action after dialogue to merge blocks, and do not invent connective narration such as `她提出了疑问。`.
+12. Give every block a stable locale-local ID in `<page-id>-b<two-digit-index>` form, such as `p07-b03`. The ID is the durable join key for one TTS clip and its subtitle; do not recycle an ID for different spoken content after publication.
+13. Preserve existing inline vocabulary markers exactly. New vocabulary work remains owned by `$create-vocabulary` and `$review-vocabulary`.
 
 Multi-speaker does not mean dialogue-heavy. A narrator-only passage is correct when conversation would be artificial. Never turn an article into a staged interview, classroom recitation, policy meeting, or sequence of characters explaining the text to one another.
 
 ## Optimize for speech
 
-- Use natural punctuation and breath-length turns appropriate to the locale and Level.
-- Split an overlong turn at a semantic boundary, but do not create choppy one-sentence fragments merely to alternate speakers.
 - Do not put delivery labels such as `angrily`, `温柔地`, or bracketed stage directions in spoken text; abstract delivery belongs in the cast TTS fields.
 - Do not include provider voice IDs, SSML, audio filenames, or synthesis parameters.
 - Keep narrator and character IDs stable and valid for the work cast.
