@@ -54,6 +54,44 @@ export const READING_LEVEL_ORDER = ["aa", ..."abcdefghijklmnopqrstuvwxyz", "z1",
 const readingLevelRank = new Map(READING_LEVEL_ORDER.map((level, index) => [level, index]));
 export const sortReadingLevels = (levels: string[]) => [...levels].sort((left, right) => (readingLevelRank.get(left) ?? Number.MAX_SAFE_INTEGER) - (readingLevelRank.get(right) ?? Number.MAX_SAFE_INTEGER) || left.localeCompare(right));
 
+export type SeriesFilterOption = { id: string; title: string };
+
+export function catalogSeriesOptions(cards: Array<Pick<BookCard, "source">>, series: SeriesCard[], locale: string): SeriesFilterOption[] {
+  const seriesById = new Map(series.map((item) => [item.id, item]));
+  const sourceTitles = new Map(cards.map((card) => [card.source.series, card.source.titles ?? {}]));
+  return [...new Set([...series.map((item) => item.id), ...cards.map((card) => card.source.series)])]
+    .map((id) => ({ id, title: localizedValue(seriesById.get(id)?.titles ?? sourceTitles.get(id) ?? {}, locale, id) }))
+    .sort((left, right) => left.title.localeCompare(right.title, locale) || left.id.localeCompare(right.id));
+}
+
+export function filterAndSortCatalogBySeries<T extends { id: string; level: string; source: BookSource }>(cards: T[], seriesId: string) {
+  if (seriesId === "all") return [...cards];
+  return cards
+    .filter((card) => card.source.series === seriesId)
+    .sort((left, right) => (readingLevelRank.get(left.level) ?? Number.MAX_SAFE_INTEGER) - (readingLevelRank.get(right.level) ?? Number.MAX_SAFE_INTEGER)
+      || left.level.localeCompare(right.level)
+      || left.source.volume - right.source.volume
+      || left.id.localeCompare(right.id));
+}
+
+export function selectHomeSeriesCards<T extends { id: string; level: string; source?: BookSource }>(cards: T[]) {
+  const selected = new Map<string, T>();
+  for (const card of cards) {
+    const seriesKey = card.source ? `series:${card.source.series}` : `book:${card.id}`;
+    const current = selected.get(seriesKey);
+    if (!current) {
+      selected.set(seriesKey, card);
+      continue;
+    }
+    const levelDifference = (readingLevelRank.get(card.level) ?? Number.MAX_SAFE_INTEGER) - (readingLevelRank.get(current.level) ?? Number.MAX_SAFE_INTEGER)
+      || card.level.localeCompare(current.level);
+    if (levelDifference < 0 || (levelDifference === 0 && (card.source?.volume ?? Number.MAX_SAFE_INTEGER) < (current.source?.volume ?? Number.MAX_SAFE_INTEGER))) {
+      selected.set(seriesKey, card);
+    }
+  }
+  return [...selected.values()];
+}
+
 export function resolveContentLocale(requestedLocale: string, availableLocales: string[]) {
   return availableLocales.includes(requestedLocale)
     ? requestedLocale

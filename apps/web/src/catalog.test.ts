@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { bookCardLocaleView, flattenSeriesBooks, localizeBookCard, READING_LEVEL_ORDER, resolveContentLocale, searchSeries, sortReadingLevels, type BookCard, type CatalogTaxonomy, type LabelCatalog, type SeriesCard, type SeriesManifest } from "./catalog.ts";
+import { bookCardLocaleView, catalogSeriesOptions, filterAndSortCatalogBySeries, flattenSeriesBooks, localizeBookCard, READING_LEVEL_ORDER, resolveContentLocale, searchSeries, selectHomeSeriesCards, sortReadingLevels, type BookCard, type CatalogTaxonomy, type LabelCatalog, type SeriesCard, type SeriesManifest } from "./catalog.ts";
 
 test("Reading levels preserve AA, A-Z, Z1, Z2 order", () => {
   assert.equal(READING_LEVEL_ORDER.length, 29);
@@ -69,6 +69,44 @@ test("book locale selection falls back to an available edition", () => {
 test("book cards preserve their source-series position", () => {
   const localized = localizeBookCard(card, "en-US");
   assert.deepEqual(localized.source, { series: "the-acorn-journey", volume: 1, volumes: 2 });
+});
+
+test("series filter options use interface-localized series titles and include catalog-only series", () => {
+  const makeSeries = (id: string, titles: Record<string, string>): SeriesCard => ({ id, titles, manifest: `series/${id}/index.json`, category: "fiction", genre: "adventure", style: "watercolor", labels: {}, availableLocales: Object.keys(titles), writers: {}, cover: `series/${id}/cover.webp`, bookSetCount: 1, bookCount: 1 });
+  const series = [makeSeries("the-acorn-journey", { "en-US": "The Acorn Journey", "zh-CN": "橡果之旅" }), makeSeries("a-new-work", { "en-US": "A New Work", "zh-CN": "一个新作品" })];
+
+  assert.deepEqual(catalogSeriesOptions([card], series, "zh-CN"), [
+    { id: "the-acorn-journey", title: "橡果之旅" },
+    { id: "a-new-work", title: "一个新作品" },
+  ]);
+});
+
+test("selected series is filtered and sorted by reading level then volume", () => {
+  const makeCard = (id: string, level: string, series: string, volume: number): BookCard => ({ ...card, id, level, source: { series, volume, volumes: 3 } });
+  const cards = [makeCard("oak-c-2", "c", "oak", 2), makeCard("river-a-1", "a", "river", 1), makeCard("oak-a-3", "a", "oak", 3), makeCard("oak-a-1", "a", "oak", 1)];
+
+  assert.deepEqual(filterAndSortCatalogBySeries(cards, "oak").map((item) => item.id), ["oak-a-1", "oak-a-3", "oak-c-2"]);
+  assert.deepEqual(filterAndSortCatalogBySeries(cards, "all").map((item) => item.id), cards.map((item) => item.id));
+});
+
+test("home recommendations select the first volume from each series' lowest level set", () => {
+  const makeCard = (id: string, level: string, series: string, volume: number): BookCard => ({ ...card, id, level, source: { series, volume, volumes: 2 } });
+  const cards = [
+    makeCard("oak-d-2", "d", "oak", 2),
+    makeCard("river-b-2", "b", "river", 2),
+    makeCard("oak-a-2", "a", "oak", 2),
+    makeCard("river-b-1", "b", "river", 1),
+    makeCard("oak-a-1", "a", "oak", 1),
+  ];
+
+  assert.deepEqual(selectHomeSeriesCards(cards).map((item) => item.id), ["oak-a-1", "river-b-1"]);
+});
+
+test("home recommendations treat books without a source as separate series", () => {
+  const standaloneOne = { ...card, id: "standalone-one", source: undefined };
+  const standaloneTwo = { ...card, id: "standalone-two", source: undefined };
+
+  assert.deepEqual(selectHomeSeriesCards([standaloneOne, standaloneTwo]).map((item) => item.id), ["standalone-one", "standalone-two"]);
 });
 
 test("series book groups flatten in taxonomy-group and volume order", () => {
