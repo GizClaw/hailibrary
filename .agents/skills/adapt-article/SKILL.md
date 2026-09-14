@@ -23,7 +23,7 @@ Adapt each locale naturally at the exact Level while keeping page meanings and i
 
 Choose a reusable Style and stable character `visual_identity` values. Every cover/page asset needs a concise scene and a complete prompt describing visible action, setting, exact character appearance, continuity, camera, composition, focus, and exclusions. Leave medium and treatment to the Style. Never request visible text, letters, numbers, logos, captions, speech bubbles, signatures, or watermarks.
 
-After prompts are committed, run `go run ./tools/imagegen <work-dir> [flags]`. Preserve existing image bytes for text-only changes. Run `npx --no-install hailibrary-check-work <work-dir>` and fix every deterministic error.
+After prompts are committed, run `npx --no-install hailibrary-imagegen <work-dir> [flags]`. Preserve existing image bytes for text-only changes. Run `npx --no-install hailibrary-check-work <work-dir>` and fix every deterministic error.
 
 ## Author self-reflection
 

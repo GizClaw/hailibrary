@@ -11,7 +11,7 @@ Read the Writer index, every recommended exact Level file, and nearby Writers. R
 
 Create an original editorial persona, never a disguise for a real writer. Include schema version, directory-matching ID, native display name, locale, recommended levels, avatar path, an original-persona declaration, personality, values, creative preferences, strengths, structures or endings, meaningful avoidances, disclosed references, and concise generation guidance. Keep reading difficulty in the Level contract. Add a locale-specific `language_prompt` for natural read-aloud prose, differentiated voices, intent and emotion, and resistance to exposition, moral recitation, or learning-goal dialogue. Never request recognizable imitation or borrow names, characters, plots, signature expression, or protected worlds.
 
-Generate an original wordless `avatar.webp` with image generation. It must communicate the persona without text, logos, protected characters, or a real person's likeness. Save compressed WebP, confirm Git LFS, and update the Writer index only when the user requests or the task explicitly changes a default.
+Write a complete wordless `avatar_prompt` in `prompt.yaml`, then generate `avatar.webp` with `npx --no-install hailibrary-imagegen prompts/writers/<locale>/<name>`. It must communicate the persona without text, logos, protected characters, or a real person's likeness. Save compressed WebP, confirm Git LFS, and update the Writer index only when the user requests or the task explicitly changes a default.
 
 ## Author self-reflection
 

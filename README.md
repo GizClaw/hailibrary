@@ -52,14 +52,15 @@ The same local CLI can also be invoked directly with:
 npx --no-install hailibrary-check-work works/a/fiction/animals/the-lost-kite
 ```
 
-Generate a derived book's committed cover/page assets or a vocabulary card with:
+Generate committed artwork for any supported target, or scan all pending targets with no path:
 
 ```sh
-go run ./tools/imagegen works/a/fiction/animals/the-lost-kite
-go run ./tools/imagegen vocabulary/a/jump
+npx --no-install hailibrary-imagegen works/a/fiction/animals/the-lost-kite
+npx --no-install hailibrary-imagegen vocabulary/a/jump
+npx --no-install hailibrary-imagegen --dry-run
 ```
 
-The command reads `OPENAI_API_KEY` and optional `OPENAI_IMAGE_MODEL` from the environment or repository-root `.env`; environment variables take precedence.
+The command supports picture-book artwork, series covers, vocabulary cards, Writer avatars, and Style thumbnails. It records resumable progress in each target's `imagegen-state.yaml`; a Style ID change rebuilds that complete target, while prompt-only changes require `--force`. It reads `OPENAI_API_KEY`, optional `OPENAI_IMAGE_MODEL`, and optional `OPENAI_BASE_URL` from the environment or repository-root `.env`; environment variables take precedence. Use `--help` for all options and exit statuses.
 
 ## Project Skills
 

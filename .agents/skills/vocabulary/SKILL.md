@@ -11,7 +11,7 @@ Determine one shared concept, its exact story sense and grammatical role, stable
 
 Write schema-1 `entry.yaml` with matching ID and level, `card: card.webp`, and a non-empty `card_prompt` that completely depicts the shared concept without visible text. Each locale needs a natural term, part of speech, supported pronunciation, level-appropriate definition, forms, writing metadata, and alignments. Inline surfaces must already occur in final prose and equal the term or a declared form.
 
-For a new or changed card, run `go run ./tools/imagegen vocabulary/<level>/<id> [flags]`. The tool adds a fixed neutral illustration treatment and no-text constraint; do not add a Style. Preserve existing card bytes for text-only changes. Open the generated WebP and confirm Git LFS coverage.
+For a new or changed card, run `npx --no-install hailibrary-imagegen vocabulary/<level>/<id> [flags]`. The tool adds a fixed neutral illustration treatment and no-text constraint; do not add a Style. Preserve existing card bytes for text-only changes. Open the generated WebP and confirm Git LFS coverage.
 
 ## Author self-reflection
 
