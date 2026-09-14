@@ -22,6 +22,8 @@ const ARTWORK_ASSET_KEYS = new Set(["id", "file", "scene", "prompt"]);
 const CHARACTER_KEYS = new Set(["id", "kind", "description", "visual_identity"]);
 const CAST_ENTRY_KEYS = new Set(["display_name", "tts"]);
 const TTS_KEYS = new Set(["delivery", "timbre", "pace", "pitch"]);
+const AUDIO_BLOCK_KEYS = new Set(["id", "speaker", "text", "emotion"]);
+const AUDIO_EMOTIONS = new Set(["happy", "sad", "angry", "fearful", "disgusted", "surprised", "calm"]);
 const CONTENT_YAML_FILES = new Set(["book.yaml", "artwork.yaml", "story.yaml", "article.yaml", "audio_script.yaml", "research.yaml"]);
 const BOOK_KEYS = new Set(["schema_version", "id", "type", "style", "status", "locales", "labels", "characters", "cover", "source"]);
 const ARTWORK_KEYS = new Set(["schema_version", "style", "aspect_ratio", "embedded_text", "shared_by_all_locales", "assets"]);
@@ -410,7 +412,7 @@ function checkSeries(work, root, seriesId) {
       check.require(blocks.length > 0, `${locale}: chapter ${expectedChapterId} blocks must not be empty`);
       blocks.forEach((block, blockIndex) => {
         if (!check.require(isMapping(block), `${locale}/${expectedChapterId}: block must be a mapping`)) return;
-        check.require(hasOnlyKeys(block, new Set(["id", "speaker", "text"])), `${locale}/${expectedChapterId}: block contains an unknown field`);
+        check.require(hasOnlyKeys(block, AUDIO_BLOCK_KEYS), `${locale}/${expectedChapterId}: block contains an unknown field`);
         const expectedBlockId = `${expectedChapterId}-b${String(blockIndex + 1).padStart(2, "0")}`;
         check.require(block.id === expectedBlockId, `${locale}/${expectedChapterId}: block ${blockIndex + 1} id must be ${expectedBlockId}`);
         if (typeof block.id === "string") {
@@ -419,6 +421,9 @@ function checkSeries(work, root, seriesId) {
         }
         check.require(typeof block.speaker === "string" && Object.hasOwn(cast, block.speaker), `${locale}/${expectedBlockId}: speaker must exist in cast`);
         requiredString(check, block, "text", `${locale}.${expectedBlockId}`);
+        if (Object.hasOwn(block, "emotion")) {
+          check.require(AUDIO_EMOTIONS.has(block.emotion), `${locale}/${expectedBlockId}: emotion must be one of ${[...AUDIO_EMOTIONS].join(", ")}`);
+        }
       });
     });
   }
