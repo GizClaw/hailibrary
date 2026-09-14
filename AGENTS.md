@@ -49,7 +49,7 @@ Write complete cover and page prompts before image generation. Asset prompts own
 ## Vocabulary and artwork workflows
 
 - Select target words only after adapted prose is stable. Mark only present forms, create entries through `$create-vocabulary`, and review every referenced entry through `$review-vocabulary`. Apply locale rules separately.
-- Run `go run ./tools/imagegen <work-dir> [flags]` for new book artwork. It reads repository-root `.env` (`OPENAI_API_KEY` required; `OPENAI_IMAGE_MODEL` defaults to `gpt-image-2.5`), with environment variables taking precedence. `.env` must remain ignored.
+- Run `go run ./tools/imagegen <work-dir> [flags]` for new book artwork. It reads repository-root `.env` (`OPENAI_API_KEY` required; `OPENAI_IMAGE_MODEL` defaults to `gpt-image-2.5-flare`), with environment variables taking precedence. `.env` must remain ignored.
 - Tools may validate, compile, and render committed content, but never generate stories or prompts. Image generation is allowed only through `tools/imagegen` and only from committed asset and Style prompts.
 - Preserve all image bytes for text-only changes. Run `$review-artwork` only when pixel review is explicitly in scope.
 

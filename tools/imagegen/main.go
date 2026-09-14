@@ -19,7 +19,7 @@ import (
 )
 
 const (
-	defaultModel = "gpt-image-2.5"
+	defaultModel = "gpt-image-2.5-flare"
 	defaultBase  = "https://api.openai.com"
 	noTextRule   = "The image must contain no text, letters, numbers, logos, captions, speech bubbles, signatures, or watermarks."
 )
@@ -139,14 +139,14 @@ Flags:
   --force             overwrite existing files (default: skip them)
   --dry-run           print final prompts; do not call the API or write files
   --concurrency N     maximum concurrent requests (default 2)
-  --model MODEL       override OPENAI_IMAGE_MODEL (default gpt-image-2.5)
+  --model MODEL       override OPENAI_IMAGE_MODEL (default gpt-image-2.5-flare)
   --size SIZE         override the size derived from aspect_ratio
   --quality QUALITY   optional image quality sent to the API
   -h, --help          show this help without changing repository state
 
 Environment:
   OPENAI_API_KEY      required except with --dry-run
-  OPENAI_IMAGE_MODEL  image model (default gpt-image-2.5)
+  OPENAI_IMAGE_MODEL  image model (default gpt-image-2.5-flare)
   OPENAI_BASE_URL     API base URL (default https://api.openai.com)
 
 Exit status: 0 success, 1 generation or validation failure, 2 usage error.`)
