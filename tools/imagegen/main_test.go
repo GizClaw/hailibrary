@@ -53,6 +53,15 @@ assets:
 	return fixture{root: root, work: work}
 }
 
+func newVocabularyFixture(t *testing.T) fixture {
+	t.Helper()
+	root := t.TempDir()
+	work := filepath.Join(root, "vocabulary", "a", "jump")
+	mustWrite(t, filepath.Join(root, "prompts", "levels", "a.yaml"), "id: a\n")
+	mustWrite(t, filepath.Join(work, "entry.yaml"), "card: card.webp\ncard_prompt: A child jumping over a small puddle.\n")
+	return fixture{root: root, work: work}
+}
+
 func mustWrite(t *testing.T, path, content string) {
 	t.Helper()
 	if err := os.MkdirAll(filepath.Dir(path), 0o755); err != nil {
@@ -135,6 +144,56 @@ func TestOnlyAndSizeOverride(t *testing.T) {
 	}
 	if _, err := os.Stat(filepath.Join(f.work, "artwork", "cover.webp")); !os.IsNotExist(err) {
 		t.Fatalf("cover unexpectedly exists: %v", err)
+	}
+}
+
+func TestVocabularyGeneration(t *testing.T) {
+	f := newVocabularyFixture(t)
+	var request generationRequest
+	client := testClient(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		if err := json.NewDecoder(r.Body).Decode(&request); err != nil {
+			t.Error(err)
+		}
+		fmt.Fprintf(w, `{"data":[{"b64_json":%q}]}`, base64.StdEncoding.EncodeToString(testWebP))
+	}))
+	t.Setenv("OPENAI_API_KEY", "secret")
+	t.Setenv("OPENAI_BASE_URL", "https://images.test")
+	var out, errOut bytes.Buffer
+	if code := run(context.Background(), []string{"--only", "card", f.work}, &out, &errOut, client); code != 0 {
+		t.Fatalf("code %d, stderr %s", code, errOut.String())
+	}
+	if request.Size != "1024x1024" || !strings.Contains(request.Prompt, "child jumping") || !strings.Contains(request.Prompt, vocabularyTreatment) || !strings.HasSuffix(request.Prompt, noTextRule) {
+		t.Fatalf("request = %+v", request)
+	}
+	got, err := os.ReadFile(filepath.Join(f.work, "card.webp"))
+	if err != nil || !bytes.Equal(got, testWebP) {
+		t.Fatalf("webp = %q, err = %v", got, err)
+	}
+}
+
+func TestVocabularyDryRunAndValidation(t *testing.T) {
+	f := newVocabularyFixture(t)
+	cleanEnv(t)
+	_ = os.Unsetenv("OPENAI_API_KEY")
+	var stdout, stderr bytes.Buffer
+	if code := run(context.Background(), []string{"--dry-run", "--only", "card", f.work}, &stdout, &stderr, http.DefaultClient); code != 0 {
+		t.Fatalf("code=%d stderr=%q", code, stderr.String())
+	}
+	if !strings.Contains(stdout.String(), "[card]") || !strings.Contains(stdout.String(), vocabularyTreatment) || !strings.Contains(stdout.String(), noTextRule) {
+		t.Fatalf("stdout=%q", stdout.String())
+	}
+	mustWrite(t, filepath.Join(f.work, "entry.yaml"), "card: card.webp\ncard_prompt: '   '\n")
+	stderr.Reset()
+	if code := run(context.Background(), []string{"--dry-run", f.work}, &bytes.Buffer{}, &stderr, http.DefaultClient); code != 1 || !strings.Contains(stderr.String(), "card_prompt must be a non-empty string") {
+		t.Fatalf("code=%d stderr=%q", code, stderr.String())
+	}
+}
+
+func TestVocabularyOnlyRejectsUnknownAsset(t *testing.T) {
+	f := newVocabularyFixture(t)
+	var stderr bytes.Buffer
+	if code := run(context.Background(), []string{"--dry-run", "--only", "cover", f.work}, &bytes.Buffer{}, &stderr, http.DefaultClient); code != 2 || !strings.Contains(stderr.String(), "unknown asset IDs") {
+		t.Fatalf("code=%d stderr=%q", code, stderr.String())
 	}
 }
 

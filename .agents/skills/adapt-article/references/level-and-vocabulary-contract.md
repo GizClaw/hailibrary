@@ -14,7 +14,7 @@ The authoritative records are:
 - `prompts/vocabulary/ranges.yaml`: exact-level English and Chinese lexical scope;
 - `prompts/vocabulary/index.yaml`: concrete queryable lists, lookup order, source metadata, and evidence limits.
 
-Read the index, the complete selected exact-level record, and all three supporting reference files before adapting or reviewing `story.yaml` reading text. These constraints do not govern the literary `article.md` source. Do not interpolate from a nearby letter and do not use this summary instead of the YAML.
+Read the index, the complete selected exact-level record, and all three supporting reference files before adapting `story.yaml` reading text. These constraints do not govern the literary `article.md` source. Do not interpolate from a nearby letter and do not use this summary instead of the YAML.
 
 ## Quantitative overview
 
@@ -88,7 +88,7 @@ Vocabulary plan:
 - Reject an adaptation that exceeds page, total-unit, per-page, sentence, or new-word ceilings.
 - Reject an adaptation below the complexity floor even when its word count fits.
 - Lexile is an English quantitative reference only; never fabricate a Lexile score and never apply Lexile to Chinese.
-- For English, frequency is evidence, not level assignment. From U upward, raw NGSL rank is especially insufficient without sense, register, abstraction, rhetoric, and domain review.
+- For English, frequency is evidence, not level assignment. From U upward, raw NGSL rank is especially insufficient without checking sense, register, abstraction, rhetoric, and domain.
 - For Chinese, verify the complete word and exact textbook evidence; familiar characters do not prove a familiar word.
 - Lower levels must remain natural, not telegraphic. Higher levels must remain readable, not a policy memo or jargon stack.
 - Shared page meaning and evidence must align across locales, but wording, sentence boundaries, information order, idiom, and target terms should be independently native.

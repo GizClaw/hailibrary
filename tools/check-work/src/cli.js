@@ -206,6 +206,7 @@ function checkContentSegments(check, root, level, locale, content, label, vocabu
       check.require(entry.level === level, `${level}/${vocabularyId}: vocabulary level does not match directory`);
       const card = requiredString(check, entry, "card", `${level}/${vocabularyId}`);
       if (card !== null) check.resource(join(entryDir, card), `vocabulary card for ${level}/${vocabularyId}`);
+      if (Object.hasOwn(entry, "card_prompt")) requiredString(check, entry, "card_prompt", `${level}/${vocabularyId}`);
       check.require(isMapping(entry.locales) && Object.keys(entry.locales).length > 0, `${level}/${vocabularyId}.locales must be a mapping`);
     }
     const entry = vocabularyCache.get(cacheKey);

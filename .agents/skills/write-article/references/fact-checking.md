@@ -1,10 +1,10 @@
-# Work fact-checking policy
+# Article research and fact-checking policy
 
-The purpose is to prevent a language-learning text from teaching false knowledge or normalizing implausible or unsafe behavior. Review both stated facts and assumptions embedded in narrative causality or artwork.
+The purpose is to prevent a language-learning text from teaching false knowledge or normalizing implausible or unsafe behavior. Check both stated facts and assumptions embedded in narrative causality.
 
 ## Build the claim inventory
 
-Inspect all locales, questions, vocabulary definitions, research notes, artwork scene descriptions, and visible images. Record the exact file/page and the proposition a learner could reasonably take away.
+Inspect all locale articles, planning metadata, and research notes. Record the exact file/page and the proposition a learner could reasonably take away.
 
 Look beyond obvious nonfiction sentences. Common hidden claim categories include:
 
@@ -27,7 +27,7 @@ Prefer sources closest to the claim:
 - museums, archives, libraries, universities, primary documents, and recognized scholarly institutions for history and culture;
 - official geographic, meteorological, astronomical, environmental, and statistical agencies for place and natural-world claims;
 - manufacturers' technical documentation or standards organizations for how a device or material works;
-- authoritative language sources under `$review-vocabulary` for lexical claims.
+- authoritative monolingual dictionaries and language standards for lexical claims.
 
 Use current sources when facts, classifications, guidance, names, or standards may have changed. Open the actual source. Do not use a search snippet, model answer, unsourced summary, commercial content farm, or user-edited encyclopedia as the sole support for a material claim.
 
@@ -51,6 +51,7 @@ Do not excuse an accidental factual error merely because the genre is fantasy. C
 
 ## Research manifest
 
-`research.yaml` is an auditable publication record, not a substitute for review. Confirm that each story-relevant source supports the exact claim attributed to it, that uncertainty and scope are represented honestly, and that every material real-world claim is covered.
+`research.yaml` is an auditable publication record. Confirm that each story-relevant source supports the exact claim attributed to it, that uncertainty and scope are represented honestly, and that every material real-world claim is covered.
 
-If independent review finds a material claim that required research, `required: false` is a finding. If fixes are authorized, correct the story, question, artwork scene, or research manifest as appropriate, then repeat the full fact-check rather than reviewing only the edited claim.
+If self-reflection finds an uncovered material claim, correct the article or research manifest and repeat the complete fact-check, not only the edited claim.
+

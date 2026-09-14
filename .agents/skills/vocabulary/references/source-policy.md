@@ -21,7 +21,7 @@ Prefer current entries from:
 
 Use official curriculum/assessment publications for alignment, such as Cambridge English word lists when the entry declares a Cambridge alignment. Verify the exact edition, list, headword, and level; a dictionary entry does not prove curriculum placement.
 
-If UK and US pronunciations differ, store the supported US form for `en-US` and mention the distinction in the review. Do not combine symbols from different transcription systems.
+If UK and US pronunciations differ, store the supported US form for `en-US` and record the distinction in the evidence notes. Do not combine symbols from different transcription systems.
 
 ## Simplified Chinese (`zh-CN`)
 
@@ -45,6 +45,7 @@ For pinyin:
 
 ## Additional locales
 
-Prefer that locale's national language authority, official orthography/pronunciation standard, and recognized monolingual learner dictionary. Then use an official curriculum list for alignment. Document the chosen hierarchy in the review when the repository adds a locale not covered above.
+Prefer that locale's national language authority, official orthography/pronunciation standard, and recognized monolingual learner dictionary. Then use an official curriculum list for alignment. Document the chosen hierarchy in the evidence notes when the repository adds a locale not covered above.
 
 Do not use a translation engine, model output, Wiktionary, or an unsourced word-list mirror as the sole authority. They may help locate a candidate term but cannot establish a normative or curriculum claim by themselves.
+

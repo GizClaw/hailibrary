@@ -12,17 +12,15 @@ Status: series-first content architecture in progress.
 
 1. `$write-article`: plan, research, independently write each locale, and complete strict literary revision.
 2. `$scriptize-article`: convert each final locale article into a complete chaptered audiobook script.
-3. `$adapt-article`: choose one or more `aa`–`n` levels, divide each set into narratively complete volumes, create shared page plans, select Style, and write schema-2 book/artwork plus schema-3 locale stories.
-4. `$create-vocabulary` and `$review-vocabulary`: select targets only after prose stabilizes.
-5. `go run ./tools/imagegen <work-dir> [flags]`: generate cover and page WebP assets from committed artwork and Style prompts.
-6. Validate, run fresh specialized reviews and `$review-work`, fix, and repeat.
+3. `$adapt-article`: choose `aa`–`n` levels and complete volumes, create aligned locale stories and artwork prompts, invoke `$vocabulary` after prose stabilizes, generate and inspect all images, run the deterministic checker, and self-correct until clear.
+4. Use `$writer` and `$style` when creating or materially revising those reusable resources.
 
 ## Quality gates
 
 - Locale articles share events and factual boundaries but are independently written in their native languages.
 - Every volume has its own beginning, development, turn, and resolution; it is not an arbitrary article slice.
 - Derived prose remains faithful to its own locale source, meets the exact level, and shares page meanings and artwork IDs across locales.
-- Series `research.yaml` covers story-relevant claims; fresh review independently verifies facts, causality, safety, and ordinary assumptions.
+- Series `research.yaml` covers story-relevant claims; the article author's final self-reflection verifies facts, causality, safety, and ordinary assumptions.
 - Picture books have no audio script, cast, speaker, local research file, or legacy top-level pages.
 - Every artwork asset has a committed scene and content/composition prompt; book images are generated only through `tools/imagegen`.
 

@@ -10,23 +10,23 @@ works/<level>/<category>/<subcategory>/<title>/
 
 不分级的多语言文学作品位于 `works/series/`：每种语言由对应 Writer 用母语独立创作 `article.md`，再由 `$scriptize-article` 生成整篇有声书脚本。分级绘本是 `works/<level>/...` 下的衍生物，只使用 `aa` 到 `n`；各语言共用无文字插画，正文采用 schema 3，绘本没有 audio script。
 
-Codex 按 `AGENTS.md` 创作文章和已提交的插画 prompt。仓库代码绝不生成故事或 prompt；封面和页面插图只能由 `tools/imagegen` 读取已提交的 `artwork.yaml` 和 Style prompt 后生成。
+Codex 按 `AGENTS.md` 创作文章和已提交的插画 prompt。仓库代码绝不生成故事或 prompt；封面、页面插图和词卡只能由 `tools/imagegen` 根据已提交的 prompt 生成。
 
 词汇位于 `vocabulary/<level>/<id>/`。故事正文直接标记目标词；每个词汇条目包含所有语言的本地化词语，以及一张共用的无文字词卡图片。
 
 分级索引见 `prompts/levels/index.yaml`，每一级的独立标准见 `prompts/levels/<level>.yaml`，词汇数据集及来源见 `prompts/vocabulary/index.yaml`，各语言的词汇分级规则见 `prompts/vocabulary/ranges.yaml`，分片式运行时 JSON 设计见 `docs/catalog.md`。
 
-## 内容质量保障体系
+## 内容质量
 
-嗨！图书馆使用分层审核体系，不依赖单次生成或单个 Agent 的判断：
+嗨！图书馆通过明确的源文件契约、同一作者自省和确定性校验保障质量：
 
 - 源文件规则明确区分系列文学作品及有声书，与分级绘本的结构、问题、词汇和共用插画；
 - 本地检查工具验证文件结构、跨语言页面对齐、作家、画风、词汇条目、资源文件和 Git LFS 状态；
-- 母语审校分别独立阅读每种语言；用法存疑时，在线查阅单语词典、语言规范、语料库以及文体相近的母语作品；
-- 整书审核检查等级适配、叙事连贯性、题目证据、词汇和插画，并通过权威网页独立核查现实世界中的事实和常识；
-- 修复任何问题后，都要重新执行完整的确定性检查和编辑审核。只有检查工具通过，并且新一轮审核没有发现问题，作品才可以视为就绪。
+- 六个内容 Skill 都先完成产出，再由同一作者按该步骤的具体清单自省，发现问题就修改并再次自省，直到没有问题；
+- 文章研究使用权威来源，词汇创建实时核实单语词典、语言规范和课程证据；
+- `$adapt-article` 生成并逐张查看图片，然后修复确定性检查器报告的错误。
 
-这套流程不能保证机器辅助创作的内容绝对不会出错，但它让审核证据、失败条件以及需要人工介入的情况变得明确且可重复。完整规则位于 `AGENTS.md` 和 `.agents/skills/`。
+这套流程不能保证机器辅助创作的内容绝对不会出错，但它让内容依据、失败条件和修正步骤变得明确且可重复。完整规则位于 `AGENTS.md` 和 `.agents/skills/`。
 
 ## Web 应用
 
@@ -52,10 +52,11 @@ npm run check-work -- works/a/fiction/animals/the-lost-kite
 npx --no-install hailibrary-check-work works/a/fiction/animals/the-lost-kite
 ```
 
-根据已提交的 prompt 生成一本衍生绘本的封面和页面插图：
+根据已提交的 prompt 生成一本衍生绘本的封面、页面插图或词卡：
 
 ```sh
 go run ./tools/imagegen works/a/fiction/animals/the-lost-kite
+go run ./tools/imagegen vocabulary/a/jump
 ```
 
 命令从环境变量或仓库根目录 `.env` 读取 `OPENAI_API_KEY` 和可选的 `OPENAI_IMAGE_MODEL`，环境变量优先。
@@ -66,15 +67,9 @@ Codex 可以自动发现 `.agents/skills/` 中的项目 Skills，也可以显式
 
 ```text
 $write-article
-$create-work
-$adapt-article
 $scriptize-article
-$review-work
-$create-vocabulary
-$review-vocabulary
-$create-writer
-$review-writer
-$create-style
-$review-style
-$review-artwork
+$adapt-article
+$vocabulary
+$writer
+$style
 ```

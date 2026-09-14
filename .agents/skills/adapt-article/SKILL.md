@@ -1,40 +1,40 @@
 ---
 name: adapt-article
-description: Derive one or more aa-n graded picture-book sets from a complete multilingual HaiLibrary series article—把完整多语言系列文章忠实改编为一套或多套 aa-n 分级绘本，规划册数、分页、共享画面、Style 和生图 prompt；不写源文章、不生成图片。
+description: Turn a final multilingual HaiLibrary series article into complete aa-n picture-book volumes, vocabulary, prompts, images, and validated files—把最终版多语言系列文章完整制作成 aa-n 分级绘本，包括分册分页、词汇、prompt、生图和确定性校验。
 ---
 
-# Adapt a series article into picture books
+# Adapt a series into picture books
 
-Derive complete picture-book volumes from `works/series/<series-id>/`. Each locale adapts its own `article.md`; locales share volume structure, page IDs, visual events, and artwork. Follow `AGENTS.md`.
+Own the complete derivative workflow for `works/<level>/<category>/<subcategory>/<slug>/`: adaptation, vocabulary, artwork generation, and deterministic validation. Do not write or repair the source series here. Read [references/level-and-vocabulary-contract.md](references/level-and-vocabulary-contract.md) before choosing levels or vocabulary.
 
 ## Load source and contracts
 
-Read complete `article.yaml`, optional `research.yaml`, every requested locale `article.md`, and each Writer prompt. Confirm articles are final, native, mutually consistent in shared events, and factually supported. Return `ARTICLE_FIX_REQUIRED` instead of repairing a defective source indirectly.
+Read the complete series plan, optional research, every requested locale article, selected Writers, exact `aa`–`n` Level files and locale references, labels, vocabulary ranges/index, and candidate Styles. Each locale adapts its own article; all locales share volumes, page IDs, meanings, visual events, and artwork.
 
-Read `prompts/levels/index.yaml`, every candidate exact level file, `prompts/levels/locale-references.yaml`, `prompts/vocabulary/index.yaml`, `prompts/vocabulary/ranges.yaml`, `prompts/labels/index.yaml`, and candidate Style prompts. Target only `aa`, `a` through `n`.
+## Design and write the volumes
 
-## Design sets and volumes
+For each selected level, choose coherent volumes and page counts. Every volume needs its own beginning, development, meaningful turn, and resolution. Condense, simplify, omit subplots, and re-sentence while preserving facts, causality, characters, viewpoint, tone, and ending; do not invent lessons, motivations, solutions, dialogue, or facts.
 
-For each selected level decide total volumes, page count per volume, and a shared page plan. Every volume needs a complete beginning, development, meaningful turn, and satisfying resolution or complete nonfiction movement. Do not slice at a page-count boundary or leave a volume as mere setup.
+Create schema-2 `book.yaml`, schema-2 `artwork.yaml`, and schema-3 `locales/<locale>/story.yaml`. Use required `source: {series, volume, volumes}`. Chapters cover every page once in order; questions are supported by stable `page_refs`. Picture books contain no `article.md`, `research.yaml`, audio script, cast, speaker, voice identity, or legacy top-level `pages`.
 
-Condense and select source material while preserving essential events, facts, causality, characters, viewpoint, tone, and ending. You may omit subplots and re-sentence, but may not invent lessons, motivations, solutions, dialogue, or facts. Choose an existing Style and define stable character `visual_identity` descriptions sufficient for asset continuity.
+Adapt each locale naturally at the exact Level while keeping page meanings and illustration IDs aligned. Stabilize prose and pagination before selecting target words. Then invoke `$vocabulary` for every new or changed entry and add only surface forms already present in the prose.
 
-## Write each book
+## Author artwork prompts and generate images
 
-For every volume create schema-2 `book.yaml` with required `source: {series, volume, volumes}`; schema-2 `artwork.yaml`; and schema-3 `locales/<locale>/story.yaml` with `language`, `writer`, `title`, `summary`, ordered `chapters`, `questions`, and `article.pages`.
+Choose a reusable Style and stable character `visual_identity` values. Every cover/page asset needs a concise scene and a complete prompt describing visible action, setting, exact character appearance, continuity, camera, composition, focus, and exclusions. Leave medium and treatment to the Style. Never request visible text, letters, numbers, logos, captions, speech bubbles, signatures, or watermarks.
 
-Adapt each locale independently from its own article using exact level and locale contracts. Keep shared page events and illustration IDs aligned while allowing natural sentence order, emphasis, idiom, and rhythm. Dialogue uses native quotation and attribution. Pages remain continuous prose, not isolated summaries.
+After prompts are committed, run `go run ./tools/imagegen <work-dir> [flags]`. Preserve existing image bytes for text-only changes. Run `npx --no-install hailibrary-check-work <work-dir>` and fix every deterministic error.
 
-Paragraphs use `{text}` or `content` segments containing `{text}` and later `{vocabulary: {id, text}}`. Do not select vocabulary until prose and pagination are stable. Do not create picture-book `article.md`, `research.yaml`, `audio_script`, `cast`, `speaker`, or top-level `pages`.
+## Author self-reflection
 
-Chapters cover every page exactly once and in order. Questions follow stable pagination; every answer is supported by `page_refs` and fits the exact level.
+After the complete output exists, the same author checks, fixes, and repeats until no issue remains:
 
-## Author artwork prompts
+- Does every volume have complete beginning, development, turn, and resolution and remain faithful to its locale source?
+- Does prose stay inside the exact Level's lower and upper bounds, sound natural in each locale, and remain continuous from page to page?
+- Are cross-locale page meanings, chapters, questions, evidence, vocabulary markers, and illustration IDs aligned?
+- Is every artwork prompt compatible with its page text, and are character appearance, props, locations, and action continuous across pages?
+- After generation, has every cover, page, and vocabulary card been opened and inspected for visible text, scene accuracy, concept clarity, continuity, and declared treatment?
+- Does the deterministic checker pass after all fixes?
 
-Each asset uses `id: cover` or its page ID, `file: artwork/<id>.webp`, a one-sentence `scene`, and a complete `prompt`. Describe visible action, setting, characters using exact `visual_identity`, continuity, camera, composition, focus, and exclusions. Do not repeat Style medium or aesthetics; the image tool appends the committed Style prompt. Do not request text, letters, numbers, logos, captions, speech bubbles, signatures, or watermarks.
+Only deliver the corrected, generated, validated books.
 
-Quote every YAML string containing a comma or colon, especially flow values. This Skill writes prompts only and never generates images.
-
-## Validate and hand off
-
-Read each volume and the whole set continuously. Check exact-level ceilings and floors, complete arcs, source fidelity, locale equivalence, shared page alignment, question evidence, prompt-to-page compatibility, and schemas. Then use `$create-vocabulary` and `$review-vocabulary`; later generate images with `go run ./tools/imagegen <work-dir> [flags]`, validate, and run `$review-work`.

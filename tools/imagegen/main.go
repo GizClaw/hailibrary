@@ -19,9 +19,10 @@ import (
 )
 
 const (
-	defaultModel = "gpt-image-2.5-flare"
-	defaultBase  = "https://api.openai.com"
-	noTextRule   = "The image must contain no text, letters, numbers, logos, captions, speech bubbles, signatures, or watermarks."
+	defaultModel        = "gpt-image-2.5-flare"
+	defaultBase         = "https://api.openai.com"
+	noTextRule          = "The image must contain no text, letters, numbers, logos, captions, speech bubbles, signatures, or watermarks."
+	vocabularyTreatment = "Create a simple, original, neutral educational illustration centered on one clearly recognizable concept. Use a clean uncluttered square composition, accessible shapes, balanced natural color, and no culture-specific decoration unless essential to the concept."
 )
 
 type options struct {
@@ -56,6 +57,11 @@ type asset struct {
 
 type styleFile struct {
 	Prompt string `yaml:"prompt"`
+}
+
+type vocabularyFile struct {
+	Card       string `yaml:"card"`
+	CardPrompt string `yaml:"card_prompt"`
 }
 
 type generationRequest struct {
@@ -121,7 +127,7 @@ func parseArgs(args []string, stderr io.Writer) (options, string, error) {
 	}
 	if fs.NArg() != 1 {
 		fs.Usage()
-		return o, "", fmt.Errorf("expected exactly one <work-dir>")
+		return o, "", fmt.Errorf("expected exactly one <target-dir>")
 	}
 	if o.concurrency < 1 {
 		return o, "", fmt.Errorf("--concurrency must be at least 1")
@@ -130,9 +136,13 @@ func parseArgs(args []string, stderr io.Writer) (options, string, error) {
 }
 
 func printUsage(w io.Writer) {
-	fmt.Fprintln(w, `Usage: imagegen [flags] <work-dir>
+	fmt.Fprintln(w, `Usage: imagegen [flags] <target-dir>
 
-Generate committed artwork.yaml assets with the work's committed prompts.
+Generate picture-book artwork or a vocabulary card from committed prompts.
+
+Targets:
+  works/<level>/<category>/<subcategory>/<slug>
+  vocabulary/<level>/<id>
 
 Flags:
   --only <id,...>     generate only the listed asset IDs
@@ -153,7 +163,7 @@ Exit status: 0 success, 1 generation or validation failure, 2 usage error.`)
 }
 
 func execute(ctx context.Context, o options, workArg string, stdout io.Writer, client *http.Client) error {
-	repoRoot, workDir, err := resolvePaths(workArg)
+	repoRoot, targetDir, targetKind, err := resolvePaths(workArg)
 	if err != nil {
 		return err
 	}
@@ -182,32 +192,14 @@ func execute(ctx context.Context, o options, workArg string, stdout io.Writer, c
 		return fmt.Errorf("OPENAI_API_KEY is required (set it in the environment or repository .env)")
 	}
 
-	var book bookFile
-	if err := readYAML(filepath.Join(workDir, "book.yaml"), &book); err != nil {
+	assets, defaultSize, err := loadAssets(repoRoot, targetDir, targetKind)
+	if err != nil {
 		return err
-	}
-	var artwork artworkFile
-	if err := readYAML(filepath.Join(workDir, "artwork.yaml"), &artwork); err != nil {
-		return err
-	}
-	if book.Style == "" || artwork.Style == "" || book.Style != artwork.Style {
-		return fmt.Errorf("book.yaml and artwork.yaml must declare the same non-empty style")
-	}
-	var style styleFile
-	if err := readYAML(filepath.Join(repoRoot, "prompts", "styles", book.Style, "prompt.yaml"), &style); err != nil {
-		return err
-	}
-	if strings.TrimSpace(style.Prompt) == "" {
-		return fmt.Errorf("style %q has an empty prompt", book.Style)
 	}
 	if o.size == "" {
-		o.size, err = sizeForRatio(artwork.AspectRatio)
-		if err != nil {
-			return err
-		}
+		o.size = defaultSize
 	}
-
-	selected, err := selectAssets(artwork.Assets, o.only)
+	selected, err := selectAssets(assets, o.only)
 	if err != nil {
 		return err
 	}
@@ -218,11 +210,11 @@ func execute(ctx context.Context, o options, workArg string, stdout io.Writer, c
 	}
 	jobs := make([]job, 0, len(selected))
 	for _, a := range selected {
-		outPath, err := safeAssetPath(workDir, a)
+		outPath, err := safeAssetPath(targetDir, a)
 		if err != nil {
 			return err
 		}
-		prompt := joinPrompt(a.Prompt, style.Prompt)
+		prompt := a.Prompt
 		if o.dryRun {
 			fmt.Fprintf(stdout, "[%s]\n%s\n", a.ID, prompt)
 			continue
@@ -282,6 +274,51 @@ func execute(ctx context.Context, o options, workArg string, stdout io.Writer, c
 	default:
 		return nil
 	}
+}
+
+func loadAssets(repoRoot, targetDir, targetKind string) ([]asset, string, error) {
+	if targetKind == "vocabulary" {
+		var entry vocabularyFile
+		if err := readYAML(filepath.Join(targetDir, "entry.yaml"), &entry); err != nil {
+			return nil, "", err
+		}
+		if strings.TrimSpace(entry.Card) == "" {
+			return nil, "", fmt.Errorf("entry.yaml card must be a non-empty string")
+		}
+		if strings.TrimSpace(entry.CardPrompt) == "" {
+			return nil, "", fmt.Errorf("entry.yaml card_prompt must be a non-empty string")
+		}
+		return []asset{{ID: "card", File: entry.Card, Prompt: joinPrompt(entry.CardPrompt, vocabularyTreatment)}}, "1024x1024", nil
+	}
+
+	var book bookFile
+	if err := readYAML(filepath.Join(targetDir, "book.yaml"), &book); err != nil {
+		return nil, "", err
+	}
+	var artwork artworkFile
+	if err := readYAML(filepath.Join(targetDir, "artwork.yaml"), &artwork); err != nil {
+		return nil, "", err
+	}
+	if book.Style == "" || artwork.Style == "" || book.Style != artwork.Style {
+		return nil, "", fmt.Errorf("book.yaml and artwork.yaml must declare the same non-empty style")
+	}
+	var style styleFile
+	if err := readYAML(filepath.Join(repoRoot, "prompts", "styles", book.Style, "prompt.yaml"), &style); err != nil {
+		return nil, "", err
+	}
+	if strings.TrimSpace(style.Prompt) == "" {
+		return nil, "", fmt.Errorf("style %q has an empty prompt", book.Style)
+	}
+	size, err := sizeForRatio(artwork.AspectRatio)
+	if err != nil {
+		return nil, "", err
+	}
+	assets := make([]asset, 0, len(artwork.Assets))
+	for _, item := range artwork.Assets {
+		item.Prompt = joinPrompt(item.Prompt, style.Prompt)
+		assets = append(assets, item)
+	}
+	return assets, size, nil
 }
 
 func generate(ctx context.Context, client *http.Client, baseURL, apiKey string, o options, prompt, outputPath string) error {
@@ -355,28 +392,35 @@ func generate(ctx context.Context, client *http.Client, baseURL, apiKey string, 
 	return nil
 }
 
-func resolvePaths(workArg string) (string, string, error) {
+func resolvePaths(workArg string) (string, string, string, error) {
 	workDir, err := filepath.Abs(workArg)
 	if err != nil {
-		return "", "", err
+		return "", "", "", err
 	}
 	workDir = filepath.Clean(workDir)
 	root := workDir
 	for {
-		if filepath.Base(root) == "works" {
+		base := filepath.Base(root)
+		if base == "works" || base == "vocabulary" {
 			repoRoot := filepath.Dir(root)
 			rel, err := filepath.Rel(root, workDir)
 			if err != nil {
-				return "", "", err
+				return "", "", "", err
 			}
 			parts := strings.Split(filepath.ToSlash(rel), "/")
-			if len(parts) != 4 || !validPictureLevel(parts[0]) {
-				return "", "", usageError{"work-dir must be works/<level>/<category>/<subcategory>/<slug> with level aa or a-n"}
+			if len(parts) == 0 || !validPictureLevel(parts[0]) {
+				return "", "", "", usageError{"target level must be aa or a-n"}
 			}
-			if _, err := os.Stat(filepath.Join(repoRoot, "prompts", "styles")); err != nil {
-				return "", "", fmt.Errorf("locate repository root: %w", err)
+			if base == "works" && len(parts) != 4 {
+				return "", "", "", usageError{"target must be works/<level>/<category>/<subcategory>/<slug>"}
 			}
-			return repoRoot, workDir, nil
+			if base == "vocabulary" && len(parts) != 2 {
+				return "", "", "", usageError{"target must be vocabulary/<level>/<id>"}
+			}
+			if _, err := os.Stat(filepath.Join(repoRoot, "prompts")); err != nil {
+				return "", "", "", fmt.Errorf("locate repository root: %w", err)
+			}
+			return repoRoot, workDir, base, nil
 		}
 		parent := filepath.Dir(root)
 		if parent == root {
@@ -384,7 +428,7 @@ func resolvePaths(workArg string) (string, string, error) {
 		}
 		root = parent
 	}
-	return "", "", usageError{"work-dir must be inside the repository works directory"}
+	return "", "", "", usageError{"target must be inside the repository works or vocabulary directory"}
 }
 
 func validPictureLevel(level string) bool {
