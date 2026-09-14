@@ -29,7 +29,7 @@ Browse primary or authoritative sources for checkable article claims and live mo
 
 ## Catalog contract
 
-The TypeScript build emits immutable catalog indexes and shards, localized labels and taxonomy, one manifest and independently loadable locale file per picture book, Writer and Style profiles, and vocabulary entries. The website displays picture books only in this phase; series articles and audiobooks are not catalog content. Store relative URLs without a leading slash. Do not hand-edit generated JSON or commit `dist/`.
+The TypeScript build emits immutable catalog indexes and shards, localized labels and taxonomy, one manifest and independently loadable locale file per picture book, one index plus manifest and independently loadable article/audio files per source series, Writer and Style profiles, and vocabulary entries. Series manifests group every derived picture book in taxonomy level order and source-volume order. Store relative URLs without a leading slash. Do not hand-edit generated JSON or commit `dist/`.
 
 ## CLI help
 

@@ -20,6 +20,17 @@ type BookSource = {
   cover: string;
   learning?: { goals?: string[]; concepts?: string[] };
   labels: Record<string, string[]>;
+  source: { series: string; volume: number; volumes: number };
+};
+
+type SeriesSource = {
+  id: string;
+  category: string;
+  genre: string;
+  style: string;
+  labels: Record<string, string[]>;
+  characters: Array<{ id: string; description: string }>;
+  locales: Record<string, { writer: string; working_title: string }>;
 };
 
 type StorySource = {
@@ -131,6 +142,29 @@ const collectVocabularyIds = (value: unknown, ids = new Set<string>()): Set<stri
   }
   return ids;
 };
+
+export function parseSeriesArticle(markdown: string) {
+  const lines = markdown.replace(/\r\n/g, "\n").split("\n");
+  const title = lines.find((line) => /^#\s+/.test(line))?.replace(/^#\s+/, "").trim() ?? "";
+  const chapters: Array<{ title: string; paragraphs: string[] }> = [{ title: "", paragraphs: [] }];
+  let chapter = chapters[0];
+  let paragraph: string[] = [];
+  const flushParagraph = () => {
+    const text = paragraph.join(" ").trim();
+    if (text) chapter.paragraphs.push(text);
+    paragraph = [];
+  };
+  for (const line of lines) {
+    if (/^##\s+/.test(line)) {
+      flushParagraph();
+      chapter = { title: line.replace(/^##\s+/, "").trim(), paragraphs: [] };
+      chapters.push(chapter);
+    } else if (!line.trim()) flushParagraph();
+    else if (!/^#\s+/.test(line)) paragraph.push(line.trim());
+  }
+  flushParagraph();
+  return { title, chapters: chapters.filter((item) => item.title || item.paragraphs.length > 0) };
+}
 
 async function findBookDirs(base: string, depth = 0): Promise<string[]> {
   const entries = await readdir(base, { withFileTypes: true });
@@ -293,6 +327,18 @@ await writeJson(join(publicDir, "styles", "index.json"), {
 const cards: Array<Record<string, unknown>> = [];
 const searchByLocale = new Map<string, Array<Record<string, unknown>>>();
 const compiledBookIds = new Set<string>();
+const seriesTitleCache = new Map<string, Record<string, string>>();
+const seriesTitles = async (seriesId: string) => {
+  const cached = seriesTitleCache.get(seriesId);
+  if (cached) return cached;
+  const source = await readYaml<SeriesSource>(join(worksDir, "series", seriesId, "article.yaml"));
+  const titles = Object.fromEntries(await Promise.all(Object.entries(source.locales).map(async ([locale, localized]) => {
+    const article = parseSeriesArticle(await readFile(join(worksDir, "series", seriesId, "locales", locale, "article.md"), "utf8"));
+    return [locale, article.title || localized.working_title];
+  })));
+  seriesTitleCache.set(seriesId, titles);
+  return titles;
+};
 
 for (const bookDir of await findBookDirs(worksDir)) {
   const pathParts = relative(worksDir, bookDir).split("/");
@@ -332,6 +378,7 @@ for (const bookDir of await findBookDirs(worksDir)) {
   const cardStyle = { id: style.id, displayName: style.displayName, names: style.names };
   const sourcePath = `${level}/${category}/${subcategory}/${slug}`;
   const runtimePath = book.id;
+  const source = { ...book.source, titles: await seriesTitles(book.source.series) };
   compiledBookIds.add(book.id);
   const card = {
     id: book.id,
@@ -351,6 +398,7 @@ for (const bookDir of await findBookDirs(worksDir)) {
     labels: book.labels,
     pageCount: stories[0] ? visiblePages(stories[0]).length : 0,
     cover: `works/${runtimePath}/${book.cover}`,
+    source,
   };
   cards.push(card);
 
@@ -370,6 +418,7 @@ for (const bookDir of await findBookDirs(worksDir)) {
     ...book,
     schemaVersion: 2,
     sourcePath,
+    source,
     level,
     category,
     subcategory,
@@ -427,6 +476,43 @@ for (const catalog of catalogs) {
   await writeJson(join(publicDir, "catalog", `${catalog.id}.json`), shardGroups.get(`${catalog.level}/${catalog.category}/${catalog.subcategory}`));
 }
 
+const seriesCards: Array<Record<string, unknown>> = [];
+const seriesRoot = join(worksDir, "series");
+for (const entry of await readdir(seriesRoot, { withFileTypes: true })) {
+  if (!entry.isDirectory()) continue;
+  const seriesDir = join(seriesRoot, entry.name);
+  const source = await readYaml<SeriesSource>(join(seriesDir, "article.yaml"));
+  const localeEntries: Record<string, unknown> = {};
+  const titles: Record<string, string> = {};
+  const writers: Record<string, { id: string; displayName: string }> = {};
+  for (const [locale, localized] of Object.entries(source.locales)) {
+    const article = parseSeriesArticle(await readFile(join(seriesDir, "locales", locale, "article.md"), "utf8"));
+    const audioPath = join(seriesDir, "locales", locale, "audio_script.yaml");
+    const writer = writerProfiles.get(`${locale}/${localized.writer}`);
+    if (!writer) throw new Error(`Unknown writer ${locale}/${localized.writer} in series/${source.id}`);
+    titles[locale] = article.title || localized.working_title;
+    writers[locale] = { id: writer.id, displayName: writer.displayName };
+    const articleUrl = `series/${source.id}/${locale}.json`;
+    const audioUrl = await exists(audioPath) ? `series/${source.id}/${locale}-audio.json` : undefined;
+    await writeJson(join(publicDir, articleUrl), { schemaVersion: 1, language: locale, title: titles[locale], chapters: article.chapters });
+    if (audioUrl) await writeJson(join(publicDir, audioUrl), await readYaml<unknown>(audioPath));
+    localeEntries[locale] = { title: titles[locale], writer: { ...writers[locale], profile: `writers/${locale}/${writer.id}.json` }, article: articleUrl, ...(audioUrl ? { audioScript: audioUrl } : {}) };
+  }
+  const books = cards
+    .filter((card) => (card.source as BookSource["source"] | undefined)?.series === source.id)
+    .map((card) => ({ id: card.id, level: card.level, volume: (card.source as BookSource["source"]).volume, volumes: (card.source as BookSource["source"]).volumes, titles: card.titles, cover: card.cover, manifest: card.manifest }))
+    .sort((left, right) => compareLevels(String(left.level), String(right.level)) || Number(left.volume) - Number(right.volume));
+  const groups = levelOrder.filter((level) => books.some((book) => book.level === level)).map((level) => ({ level, books: books.filter((book) => book.level === level) }));
+  const manifestUrl = `series/${source.id}/index.json`;
+  const cover = `series/${source.id}/cover.webp`;
+  const manifest = { schemaVersion: 1, id: source.id, category: source.category, genre: source.genre, style: source.style, labels: source.labels, characters: source.characters, availableLocales: Object.keys(source.locales), locales: localeEntries, titles, writers, cover, bookSetCount: groups.length, bookCount: books.length, bookGroups: groups };
+  await writeJson(join(publicDir, manifestUrl), manifest);
+  await cp(join(seriesDir, "cover.webp"), join(publicDir, cover));
+  seriesCards.push({ id: source.id, manifest: manifestUrl, category: source.category, genre: source.genre, style: source.style, labels: source.labels, availableLocales: Object.keys(source.locales), titles, writers, cover, bookSetCount: groups.length, bookCount: books.length });
+}
+seriesCards.sort((left, right) => String((left.titles as Record<string, string>)["en-US"] ?? left.id).localeCompare(String((right.titles as Record<string, string>)["en-US"] ?? right.id)));
+await writeJson(join(publicDir, "series.json"), { schemaVersion: 1, count: seriesCards.length, series: seriesCards });
+
 await writeJson(join(publicDir, "catalog.json"), {
   schemaVersion: 2,
   generatedAt: new Date().toISOString(),
@@ -445,6 +531,7 @@ await writeJson(join(publicDir, "catalog.json"), {
     writers: Object.fromEntries([...writerCatalogs.keys()].map((locale) => [locale, `writers/${locale}/index.json`])),
     styles: "styles/index.json",
     vocabulary: "vocabulary/index.json",
+    series: "series.json",
   },
 });
 

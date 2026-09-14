@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node --experimental-strip-types src/build.ts"
+    "build": "node --experimental-strip-types src/build.ts",
+    "test": "pnpm build && node --experimental-strip-types --test test/*.test.ts"
   },
   "dependencies": {
     "yaml": "^2.9.0"
