@@ -6,6 +6,9 @@
   "bin": {
     "hailibrary-check-work": "./src/cli.js"
   },
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/*.test.ts"
+  },
   "dependencies": {
     "yaml": "^2.8.1"
   }
