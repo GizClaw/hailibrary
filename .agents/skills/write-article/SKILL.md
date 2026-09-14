@@ -25,13 +25,16 @@ Use a title, continuous prose, and optional natural chapters. Add no IDs, page m
 
 ## Author self-reflection
 
-After writing, the same author performs a strict literary-editor pass, fixes every problem found, and repeats the pass until none remain:
+This is the work's editorial review. The same author must execute every action below, record or retain enough notes to know each item was actually checked, fix every finding, then restart the complete checklist from the first item. Do not hand off until a full fresh pass finds nothing:
 
-- Does every scene advance desire, conflict, choice, and consequence, with a strong opening, causal middle, earned turn, and satisfying ending?
-- Are character voice, viewpoint, dialogue, time, place, and object continuity consistent?
-- Is the prose specific, speakable, well paced, and free of cliché, redundancy, preaching, slogan dialogue, and generic description?
-- Does every factual claim match `research.yaml` without overstating uncertainty, folklore, or inference?
-- Are Chinese and English each natural, idiomatic native-language works that share events and factual boundaries without reading like translations?
+1. Outline the opening, each scene's desire or pressure, resistance, character choice, immediate consequence, turn, and ending. Repair any scene that changes nothing, any coincidence that solves the conflict, and any turn or ending that has not been earned by prior action.
+2. Read each character's dialogue alone from beginning to end. Confirm the voices remain distinguishable and speakable, every line serves an immediate character intention, and no character recites exposition, a learning goal, a slogan, or the story's moral. Rewrite preachy or interchangeable dialogue.
+3. Read the ending against the opening conflict and every planted promise. Confirm that the central consequence is faced, the emotional and causal arcs close, and the ending does not merely stop, summarize a lesson, or introduce an unprepared solution.
+4. Make a scene-by-scene continuity table for time, location, character position and knowledge, carried or moved objects, clothing, injuries, weather, and other persistent state. Trace every change forward and repair contradictions, impossible travel, missing objects, or knowledge a character could not yet have.
+5. Build a claim inventory for each locale using `references/fact-checking.md`. Include explicit facts and implicit ordinary assumptions about scale, timing, physical causality, character capability and knowledge, culture, health, and safety. For each item, open the cited authoritative source, locate the supporting passage, and match it to a claim in `research.yaml`; use a second independent authority for contested, surprising, culturally sensitive, medical, historical, or safety-critical claims.
+6. Classify each claim as supported, misleadingly simplified, unsupported, outdated, culturally overgeneralized, common-sense or causal error, internally inconsistent, declared fiction, or acceptable learner simplification. Correct the article or evidence, preserve stated uncertainty and scope, and rerun the complete claim inventory after any factual edit. A fantasy label does not excuse an accidental real-world error.
+7. Create a shared-event list and compare every locale against it from beginning to end. Confirm premise, characters, events, causality, viewpoint, factual boundaries, turn, and ending agree; then read each locale without looking at the other and remove translation-shaped syntax, matched sentence scaffolding, unnatural idiom, and non-native dialogue while preserving those shared events.
+8. Inspect the complete work for age-appropriate audience safety. Repair normalized dangerous imitation, missing consequences, frightening or humiliating treatment unsupported by the audience and story, stereotypes, exclusion, or illustrations implied by the prose that would make an unsafe action look ordinary.
+9. Read each locale aloud from beginning to end. Remove cliché, redundancy, report-shaped exposition, generic description, pacing stalls, and unintentional ambiguity; confirm sensory detail and scene transitions remain concrete and clear.
 
-Only hand off the corrected final source.
-
+Only hand off the corrected final source after the restarted checklist passes.

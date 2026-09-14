@@ -50,30 +50,37 @@ jobs:
       effort: medium
       max-diff-bytes: 5000000
       review-instructions: >-
-        Follow the trusted-base AGENTS.md book-review workflow. Treat YAML under
-        works/ as production reading content, not incidental data. Review every
-        changed book as a complete work for narrative coherence, audience safety,
-        directory-level conformance, Writer-profile conformance, equivalent
-        multilingual adaptation, stable page and illustration mapping, complete
-        cast and speaker data for TTS, and answerable questions with page evidence.
-        Require complete chapters and resolve every inline vocabulary marker to
-        a locale entry with a Git LFS word-card image.
-        Require one cover and one wordless illustration declaration per page.
-        Review changed Writer profiles under prompts/writers/ for originality,
-        disclosed references, locale fit, and imitation or identity risk. Review
-        changed visual Styles under prompts/styles/ for reusable treatment quality,
-        continuity constraints, and artist or protected-character imitation risk.
-        Binary diffs do not provide pixel evidence: review artwork.yaml scene
-        contracts and file presence, and never claim visual inspection of pixels.
+        Follow the trusted-base AGENTS.md and use each applicable creation skill's
+        author self-reflection checklist as the review standard. Treat YAML under
+        works/ as production content. For changed series, review article.yaml,
+        research.yaml when present, each locale's independently written article.md,
+        and its faithful chaptered audio_script.yaml for literary quality, shared
+        events, factual support, safety, continuity, verbatim source coverage, and
+        correct speakers. For derived aa-n picture books, review every volume as a
+        complete beginning-development-turn-resolution arc, faithful exact-level
+        adaptation, aligned locale page events, page IDs, illustration IDs and
+        chapter coverage, answerable non-duplicated questions with correct page
+        evidence and question type, resolved vocabulary, and artwork scene/prompt
+        agreement with page text and every visible fixed character's visual_identity.
+        Review changed Writers, Styles, and vocabulary by their own self-reflection
+        criteria. Require imagegen-generated cover/page/card/avatar/thumbnail files,
+        matching imagegen-state.yaml, and Git LFS coverage. Binary diffs do not
+        provide pixel evidence: review prompt contracts and file presence, and do
+        not claim that pixels were visually inspected.
       issue-review-instructions: >-
         Review linked Issues against the repository content model in AGENTS.md.
-        Require the intended level, category, Writer, locales, learning goal,
-        page scope, illustration scope, and measurable acceptance criteria.
+        Require the source series path and every volume path, exact level, category
+        and subcategory, Chinese and English Writer IDs, Style ID, learning goals,
+        per-volume page and illustration counts, and measurable acceptance criteria
+        for check-work, generated images and imagegen-state, Git LFS, and question
+        evidence.
       pr-readiness-instructions: >-
         Require valid PR metadata and native closing-Issue linkage, complete
-        implementation of the linked content or platform scope, all required
-        YAML and Git LFS pointers, and no actionable story, schema, artwork,
-        localization, TTS, question-evidence, correctness, or security findings.
+        implementation of the linked series article, audiobook script, picture-book,
+        image generation, or platform scope, all required YAML, imagegen-state files,
+        and Git LFS pointers, successful deterministic checks, and no actionable
+        literary, factual, safety, schema, adaptation, localization, artwork-contract,
+        question-evidence, vocabulary, Writer, Style, correctness, or security findings.
       pull_request_number: ${{ inputs.pull_request_number }}
     secrets:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

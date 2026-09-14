@@ -13,14 +13,14 @@ Generate a representative original wordless `thumbnail.webp` that demonstrates t
 
 ## Author self-reflection
 
-After producing the Style, the same author fixes and repeats until clear:
+This is the Style's usability, visual, and IP-risk review. The same author must execute every action, fix every finding, then restart the complete checklist; perform at least two full passes:
 
-- Are ID, directory, display names, schema, localizations, and thumbnail path consistent?
-- Are medium, texture, shapes, palette, lighting, composition, and continuity rules concrete, compatible, and reusable?
-- Is the prompt concise and operational, without story, language, Level, artist-imitation, franchise, or brand leakage?
-- Do exclusions adequately cover text, logos, unsafe material, identity confusion, and protected designs?
-- Does the opened thumbnail visibly demonstrate the declared treatment, remain wordless and original, and avoid recognizable artists, studios, franchises, or characters?
-- Is the thumbnail WebP covered by Git LFS?
+1. Compare schema version, kebab-case ID, directory, localized display names and descriptions, and thumbnail path. Read neighboring Styles and repair schema drift or confusing duplication.
+2. Trace medium, material, texture, shape language, palette, lighting, composition, and continuity controls into the concise generation prompt. Replace vague or mutually incompatible directions and confirm each structured choice has an operational visual effect.
+3. Apply the Style mentally to three unrelated settings and casts. Remove any embedded plot, character, prop, setting, page action, prose, vocabulary, reading Level, or locale assumption that prevents reuse.
+4. Check continuity rules one category at a time: recurring face and body, clothing, props, object construction, locations, scale, palette roles, and motifs. Add concrete controls where repeated pages could drift without turning the Style into book-specific content.
+5. Search the name and prompt for living artists, studios, franchises, protected characters, and branded visual identities. Remove direct or euphemistic recognizable imitation and protected-design requests. If material IP uncertainty remains, stop with `NEEDS_LEGAL_REVIEW`.
+6. Verify exclusions explicitly prohibit visible text, letters, numbers, logos, captions, speech bubbles, signatures, watermarks, unsafe material, clutter, identity confusion, and protected designs.
+7. Open `thumbnail.webp` at original pixels. Confirm it visibly demonstrates the declared medium, texture, shapes, palette, lighting, and composition; remains a representative book-independent, wordless, original scene; and does not resemble a protected character, franchise, studio, or artist. Verify WebP and Git LFS, correcting the prompt, regenerating, and reopening when needed.
 
-Only deliver after the second self-check finds no issue.
-
+Only deliver after two complete restarted passes find no issue.

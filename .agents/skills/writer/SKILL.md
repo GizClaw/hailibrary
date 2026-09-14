@@ -15,14 +15,13 @@ Write a complete wordless `avatar_prompt` in `prompt.yaml`, then generate `avata
 
 ## Author self-reflection
 
-After producing the Writer, the same author fixes and repeats until clear:
+This is the Writer's identity, usability, and IP-risk review. The same author must execute every action, fix every finding, then restart the complete checklist; perform at least two full passes:
 
-- Are ID, directory, locale, levels, index use, schema, and avatar path consistent?
-- Is the name original and free of likely identity, publishing, character, product, or brand confusion?
-- Are references disclosed and reduced to broad features rather than recognizable imitation or protected expression?
-- Are `prompt` and `language_prompt` clear, useful, locale-specific, non-visual, and free of Level duplication or contradictions?
-- Is the opened avatar original, wordless, aligned with the persona, and unlike a real person or protected character?
-- Is the avatar WebP covered by Git LFS?
+1. Compare schema version, ID, directory name, locale, native display name, avatar path, recommended levels, and any index/default reference. Open every recommended exact Level file and remove absent, legacy-compressed, or contradictory levels.
+2. Search the proposed name and identity together with terms for author, publisher, book, fictional character, product, and brand. Inspect the results rather than snippets; rename any confusing match. If material identity or IP uncertainty remains, stop with `NEEDS_LEGAL_REVIEW` rather than declaring success.
+3. For every consulted reference, confirm disclosure includes the source and only broad interests, values, structures, or decisions extracted from it. Search the prompt for borrowed names, characters, plots, worlds, signature devices, wording, and requests to imitate a recognizable writer; remove them and rewrite the persona from independent choices.
+4. Apply `prompt` to two substantially different hypothetical stories. Identify the concrete decisions it changes in viewpoint, values, conflict, structure, and ending; tighten generic guidance, and remove any clause that dictates visual treatment or overrides reading difficulty.
+5. Read `language_prompt` aloud in the target locale. Confirm it gives locale-specific, actionable guidance for natural read-aloud prose, character intention, differentiated voices, omission or hesitation, and resistance to exposition, slogans, moral recitation, and learning-goal dialogue. Remove translated boilerplate and any contradiction or duplication of Level rules.
+6. Open `avatar.webp` at original pixels and compare it with the persona and `avatar_prompt`. Confirm it is wordless, original, non-branded, and not a real-person likeness or protected character; verify WebP format and Git LFS coverage. Correct the prompt, regenerate, and reopen when needed.
 
-Only deliver after the second self-check finds no issue.
-
+Only deliver after two complete restarted passes find no issue.

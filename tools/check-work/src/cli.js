@@ -22,6 +22,18 @@ const ARTWORK_ASSET_KEYS = new Set(["id", "file", "scene", "prompt"]);
 const CHARACTER_KEYS = new Set(["id", "kind", "description", "visual_identity"]);
 const CAST_ENTRY_KEYS = new Set(["display_name", "tts"]);
 const TTS_KEYS = new Set(["delivery", "timbre", "pace", "pitch"]);
+const CONTENT_YAML_FILES = new Set(["book.yaml", "artwork.yaml", "story.yaml", "article.yaml", "audio_script.yaml", "research.yaml"]);
+const BOOK_KEYS = new Set(["schema_version", "id", "type", "style", "status", "locales", "labels", "characters", "cover", "source"]);
+const ARTWORK_KEYS = new Set(["schema_version", "style", "aspect_ratio", "embedded_text", "shared_by_all_locales", "assets"]);
+const STORY_KEYS = new Set(["schema_version", "language", "writer", "title", "summary", "chapters", "questions", "article"]);
+const STORY_ARTICLE_KEYS = new Set(["pages"]);
+const STORY_PAGE_KEYS = new Set(["id", "illustration", "paragraphs"]);
+const SERIES_ARTICLE_KEYS = new Set(["schema_version", "id", "category", "genre", "style", "labels", "research", "premise", "characters", "locales", "picture_books", "cover_prompt"]);
+const SERIES_CHARACTER_KEYS = new Set(["id", "description"]);
+const SERIES_LOCALE_KEYS = new Set(["writer", "working_title", "length"]);
+const PICTURE_BOOK_PROPOSAL_KEYS = new Set(["level", "volumes"]);
+const RESEARCH_KEYS = new Set(["schema_version", "required", "sources", "notes"]);
+const RESEARCH_SOURCE_KEYS = new Set(["url", "authority", "claims"]);
 
 // A plain scalar inside `{...}` ends at the first comma, so `{scene: A, then B}` silently parses as
 // `{scene: "A", "then B": null}`. Report every flow-mapping key that has no value.
@@ -34,6 +46,18 @@ function flowKeysWithoutValue(document) {
     },
   });
   return keys;
+}
+
+function nullValuePaths(value, path = []) {
+  if (Array.isArray(value)) return value.flatMap((item, index) => nullValuePaths(item, [...path, String(index)]));
+  if (!isMapping(value)) return [];
+  const paths = [];
+  for (const [key, item] of Object.entries(value)) {
+    const itemPath = [...path, key];
+    if (item === null || item === undefined) paths.push(itemPath.join("."));
+    else paths.push(...nullValuePaths(item, itemPath));
+  }
+  return paths;
 }
 
 class Check {
@@ -60,6 +84,11 @@ class Check {
         this.errors.push(`expected YAML mapping: ${asPosix(relative(this.root, path))}`);
         return {};
       }
+      if (CONTENT_YAML_FILES.has(path.split(sep).at(-1))) {
+        for (const valuePath of nullValuePaths(value)) {
+          this.errors.push(`YAML key has an empty value: ${asPosix(relative(this.root, path))}: ${valuePath} (quote YAML text containing commas or colons)`);
+        }
+      }
       return value;
     } catch (error) {
       this.errors.push(`invalid YAML: ${asPosix(relative(this.root, path))}: ${error instanceof Error ? error.message : String(error)}`);
@@ -73,6 +102,45 @@ class Check {
     const relativePath = asPosix(relative(this.root, path));
     const result = spawnSync("git", ["check-attr", "filter", "--", relativePath], { cwd: this.root, encoding: "utf8" });
     if (result.status !== 0 || !result.stdout.trimEnd().endsWith("filter: lfs")) this.errors.push(`media is not covered by Git LFS: ${relativePath}`);
+  }
+}
+
+function requireOnlyKeys(check, value, allowed, label) {
+  if (isMapping(value)) check.require(hasOnlyKeys(value, allowed), `${label} contains an unknown field (quote YAML text containing commas or colons)`);
+}
+
+function normalizedQuestionPrompt(value) {
+  return typeof value === "string" ? value.normalize("NFKC").toLocaleLowerCase().replace(/[\p{P}\p{S}\s]+/gu, "") : "";
+}
+
+function pictureBookDirs(root) {
+  const works = join(root, "works");
+  const found = [];
+  if (!existsSync(works)) return found;
+  for (const levelEntry of readdirSync(works, { withFileTypes: true })) {
+    if (!levelEntry.isDirectory() || levelEntry.name === "series") continue;
+    const levelDir = join(works, levelEntry.name);
+    for (const categoryEntry of readdirSync(levelDir, { withFileTypes: true })) {
+      if (!categoryEntry.isDirectory()) continue;
+      const categoryDir = join(levelDir, categoryEntry.name);
+      for (const subcategoryEntry of readdirSync(categoryDir, { withFileTypes: true })) {
+        if (!subcategoryEntry.isDirectory()) continue;
+        const subcategoryDir = join(categoryDir, subcategoryEntry.name);
+        for (const bookEntry of readdirSync(subcategoryDir, { withFileTypes: true })) {
+          if (bookEntry.isDirectory() && existsSync(join(subcategoryDir, bookEntry.name, "book.yaml"))) found.push(join(subcategoryDir, bookEntry.name));
+        }
+      }
+    }
+  }
+  return found;
+}
+
+function readYamlMappingQuietly(path) {
+  try {
+    const value = YAML.parse(readFileSync(path, "utf8"));
+    return isMapping(value) ? value : null;
+  } catch {
+    return null;
   }
 }
 
@@ -193,6 +261,7 @@ function checkContentSegments(check, root, level, locale, content, label, vocabu
       check.errors.push(`${segmentLabel} must be text or vocabulary`);
       return;
     }
+    requireOnlyKeys(check, marker, new Set(["id", "text"]), `${segmentLabel}.vocabulary`);
     const vocabularyId = requiredString(check, marker, "id", `${segmentLabel}.vocabulary`);
     const surface = requiredString(check, marker, "text", `${segmentLabel}.vocabulary`);
     if (vocabularyId === null) return;
@@ -267,6 +336,7 @@ function checkSeries(work, root, seriesId) {
   check.require(existsSync(work) && statSync(work).isDirectory(), `missing work directory: ${work}`);
   const article = check.yamlMapping(join(work, "article.yaml"));
   const labelIndex = check.yamlMapping(join(root, "prompts", "labels", "index.yaml"));
+  requireOnlyKeys(check, article, SERIES_ARTICLE_KEYS, "article.yaml");
   check.require(article.schema_version === 1, "article.schema_version must be 1");
   check.require(article.id === seriesId, `article id must match directory: ${seriesId}`);
   for (const key of ["category", "genre"]) {
@@ -279,12 +349,12 @@ function checkSeries(work, root, seriesId) {
     check.require(style.schema_version === 1 && style.id === styleId, `Style must exist and match id: ${styleId}`);
   }
   check.require(article.research === "required" || article.research === "none", "article.research must be required or none");
-  if (article.research === "required") check.yamlMapping(join(work, "research.yaml"));
   const characters = Array.isArray(article.characters) ? article.characters : [];
   check.require(characters.length > 0, "article.characters must not be empty");
   const characterIds = [];
   for (const character of characters) {
     if (!check.require(isMapping(character), "every article character must be a mapping")) continue;
+    requireOnlyKeys(check, character, SERIES_CHARACTER_KEYS, "article.character");
     const id = requiredString(check, character, "id", "article.character");
     requiredString(check, character, "description", `article.character.${id ?? "<unknown>"}`);
     if (id !== null) characterIds.push(id);
@@ -300,6 +370,7 @@ function checkSeries(work, root, seriesId) {
   for (const locale of locales) {
     const plan = localePlans[locale];
     if (!check.require(isMapping(plan), `article.locales.${locale} must be a mapping`)) continue;
+    requireOnlyKeys(check, plan, SERIES_LOCALE_KEYS, `article.locales.${locale}`);
     const writerId = requiredString(check, plan, "writer", `article.locales.${locale}`);
     if (writerId !== null) {
       const writer = check.yamlMapping(join(root, "prompts", "writers", locale, writerId, "prompt.yaml"));
@@ -331,6 +402,7 @@ function checkSeries(work, root, seriesId) {
     const blockIds = new Set();
     chapters.forEach((chapter, chapterIndex) => {
       if (!check.require(isMapping(chapter), `${locale}: audio chapter must be a mapping`)) return;
+      requireOnlyKeys(check, chapter, new Set(["id", "title", "blocks"]), `${locale}: audio chapter`);
       const expectedChapterId = `ch${String(chapterIndex + 1).padStart(2, "0")}`;
       check.require(chapter.id === expectedChapterId, `${locale}: chapter ${chapterIndex + 1} id must be ${expectedChapterId}`);
       requiredString(check, chapter, "title", `${locale}.chapter.${expectedChapterId}`);
@@ -350,6 +422,14 @@ function checkSeries(work, root, seriesId) {
       });
     });
   }
+  if (Array.isArray(article.picture_books)) {
+    article.picture_books.forEach((proposal, index) => requireOnlyKeys(check, proposal, PICTURE_BOOK_PROPOSAL_KEYS, `article.picture_books[${index}]`));
+  }
+  if (article.research === "required") {
+    const research = check.yamlMapping(join(work, "research.yaml"));
+    requireOnlyKeys(check, research, RESEARCH_KEYS, "research.yaml");
+    if (Array.isArray(research.sources)) research.sources.forEach((source, index) => requireOnlyKeys(check, source, RESEARCH_SOURCE_KEYS, `research.sources[${index}]`));
+  }
   return { work, errors: check.errors };
 }
 
@@ -367,6 +447,8 @@ function checkWork(workArgument) {
   check.require(existsSync(work) && statSync(work).isDirectory(), `missing work directory: ${work}`);
   const book = check.yamlMapping(join(work, "book.yaml"));
   const artwork = check.yamlMapping(join(work, "artwork.yaml"));
+  requireOnlyKeys(check, book, BOOK_KEYS, "book.yaml");
+  requireOnlyKeys(check, artwork, ARTWORK_KEYS, "artwork.yaml");
   const levelIndex = check.yamlMapping(join(root, "prompts", "levels", "index.yaml"));
   const levelRulesById = Object.fromEntries(
     READING_A_Z_LEVELS.map((levelId) => [levelId, check.yamlMapping(join(root, "prompts", "levels", `${levelId}.yaml`))]),
@@ -513,12 +595,15 @@ function checkWork(workArgument) {
   check.require(JSON.stringify([...locales].sort()) === JSON.stringify(actualLocales), "book.locales must exactly match locales/ directories");
 
   let canonicalPageIds = null;
+  let canonicalPageLayout = null;
+  let canonicalChapterCoverage = null;
   const usedIllustrations = new Set();
   const vocabularyCache = new Map();
   for (const locale of locales) {
     const localeVocabularyRanges = vocabularyRanges[locale];
     check.require(isMapping(localeVocabularyRanges) && isMapping(localeVocabularyRanges.ranges?.[level]), `${locale}: vocabulary range is missing for level ${level}`);
     const story = check.yamlMapping(join(localeDir, locale, "story.yaml"));
+    requireOnlyKeys(check, story, STORY_KEYS, `${locale}: story.yaml`);
     check.require(story.language === locale, `story.language must be ${locale}`);
     const writerId = story.writer;
     if (check.require(typeof writerId === "string" && writerId.length > 0, `${locale}: writer must be a string`)) {
@@ -541,6 +626,7 @@ function checkWork(workArgument) {
     check.require(!Object.hasOwn(story, "cast"), `${locale}: picture-book story must not contain cast`);
     check.require(!Object.hasOwn(story, "pages"), `${locale}: picture-book story must not contain top-level pages`);
     check.require(isMapping(story.article), `${locale}: article must be a mapping`);
+    requireOnlyKeys(check, story.article, STORY_ARTICLE_KEYS, `${locale}: story.article`);
     const pages = Array.isArray(story.article?.pages) ? story.article.pages : [];
     const unitLanguage = locale.toLowerCase().startsWith("zh") ? "zh" : locale.toLowerCase().startsWith("en") ? "en" : null;
     const languageRules = unitLanguage === null || !isMapping(levelRules?.languages) ? null : levelRules.languages[unitLanguage];
@@ -554,6 +640,7 @@ function checkWork(workArgument) {
       }
       const pageId = page.id;
       pageIds.push(pageId);
+      requireOnlyKeys(check, page, STORY_PAGE_KEYS, `${locale}/${pageId}: page`);
       check.require(typeof page.illustration === "string", `${locale}/${pageId}: illustration must be an id`);
       if (typeof page.illustration === "string") {
         check.require(assetById.has(page.illustration), `${locale}/${pageId}: missing artwork id ${page.illustration}`);
@@ -617,6 +704,9 @@ function checkWork(workArgument) {
 
     if (canonicalPageIds === null) canonicalPageIds = pageIds;
     else check.require(JSON.stringify(pageIds) === JSON.stringify(canonicalPageIds), `${locale}: page order differs from other locales`);
+    const pageLayout = pages.filter(isMapping).map((page) => [page.id, page.illustration]);
+    if (canonicalPageLayout === null) canonicalPageLayout = pageLayout;
+    else check.require(JSON.stringify(pageLayout) === JSON.stringify(canonicalPageLayout), `${locale}: page IDs and illustrations must exactly match other locales`);
 
     if (isMapping(levelRules) && workType.includes("reading") && isMapping(levelRules.pages)) {
       const { min, max } = levelRules.pages;
@@ -645,6 +735,9 @@ function checkWork(workArgument) {
     }
     check.require(new Set(chapterIds).size === chapterIds.length, `${locale}: chapter ids must be unique`);
     check.require(JSON.stringify(chapterPageIds) === JSON.stringify(pageIds), `${locale}: chapters must cover every page exactly once and in order`);
+    const chapterCoverage = chapters.filter(isMapping).map((chapter) => [chapter.id, Array.isArray(chapter.page_refs) ? chapter.page_refs : []]);
+    if (canonicalChapterCoverage === null) canonicalChapterCoverage = chapterCoverage;
+    else check.require(JSON.stringify(chapterCoverage) === JSON.stringify(canonicalChapterCoverage), `${locale}: chapter IDs and page coverage must exactly match other locales`);
 
     const questions = Array.isArray(story.questions) ? story.questions : [];
     if (isMapping(levelRules) && isMapping(levelRules.questions)) {
@@ -677,6 +770,33 @@ function checkWork(workArgument) {
     }
     const requiredQuestionTypes = isMapping(levelRules?.questions) && Array.isArray(levelRules.questions.required) ? levelRules.questions.required : [];
     for (const questionType of requiredQuestionTypes) check.require(presentQuestionTypes.has(questionType), `${locale}: level ${level} requires a ${questionType} question`);
+  }
+
+  if (sourceSeries !== null && Number.isInteger(source.volume)) {
+    const seenSiblingPrompts = new Map();
+    for (const siblingWork of pictureBookDirs(root)) {
+      if (resolve(siblingWork) === resolve(work)) continue;
+      const siblingBook = readYamlMappingQuietly(join(siblingWork, "book.yaml"));
+      if (siblingBook?.source?.series !== sourceSeries || siblingBook?.source?.volume === source.volume) continue;
+      const siblingLocales = Array.isArray(siblingBook.locales) ? siblingBook.locales : [];
+      for (const siblingLocale of siblingLocales) {
+        const siblingStory = readYamlMappingQuietly(join(siblingWork, "locales", siblingLocale, "story.yaml"));
+        if (!Array.isArray(siblingStory?.questions)) continue;
+        for (const siblingQuestion of siblingStory.questions) {
+          const normalized = normalizedQuestionPrompt(siblingQuestion?.prompt);
+          if (normalized) seenSiblingPrompts.set(`${siblingLocale}\0${normalized}`, { work: asPosix(relative(root, siblingWork)), id: siblingQuestion?.id ?? "<unknown>" });
+        }
+      }
+    }
+    for (const locale of locales) {
+      const story = readYamlMappingQuietly(join(localeDir, locale, "story.yaml"));
+      if (!Array.isArray(story?.questions)) continue;
+      for (const question of story.questions) {
+        const normalized = normalizedQuestionPrompt(question?.prompt);
+        const duplicate = normalized ? seenSiblingPrompts.get(`${locale}\0${normalized}`) : null;
+        if (duplicate) check.errors.push(`${locale}/${question?.id ?? "<unknown>"}: question prompt duplicates another volume in series ${sourceSeries}: ${duplicate.work}/${duplicate.id} (compared after removing whitespace and punctuation)`);
+      }
+    }
   }
 
   const declaredPageAssets = new Set([...assetById.keys()].filter((assetId) => assetId !== "cover"));
