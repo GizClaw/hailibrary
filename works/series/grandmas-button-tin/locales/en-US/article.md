@@ -92,7 +92,7 @@ Only the rain spoke for a moment. Grandma did not say how adorable Nora had been
 
 “Then we'll wait for one you remember,” she said.
 
-The answer bothered Nora more than an argument would have. She had wanted the tin to prove she already belonged. Grandma made it sound as if her place had not happened yet.
+Nora looked at the bear button through the narrow crack. Then she pressed the lid shut herself. She still wanted a button whose story she could remember, but she did not want to borrow someone else's. For now, that choice was hers.
 
 ## The Coat They Could Touch
 
@@ -140,9 +140,11 @@ Grandma passed her the seam ripper.
 
 Removing the little stitches took far longer than making them. Halfway through, Nora's palm grew damp and she wanted to leave the rest. Then she thought of Mom's pearl button, held through an entire song in a sweaty fist. She changed her grip and picked out the next stitch.
 
-At ten that night, the coat had a shape. It had a cream body, pale blue edging, and two soft sleeves. Grandma pushed the button tin across the table.
+At ten that night, the coat had a shape. It had a cream body, pale blue edging, and two soft sleeves. Grandma laid two broad pieces of soft hook-and-loop tape beside it. They would be stitched flat inside the overlapping fronts, with no loose small pieces for the baby to pull free.
 
-“Choose.”
+“These will close it,” Grandma said. “We can finish them tomorrow.”
+
+Then she pushed the button tin across the table. “You may still choose one for the keepsake scrap.”
 
 Nora reached at once for the large green button. Against the cream cloth, it looked like a leaf after rain. She lifted it, then noticed that Grandma had not moved.
 
@@ -150,21 +152,13 @@ Nora reached at once for the large green button. Against the cream cloth, it loo
 
 Grandma rolled a thread end between her fingers. “Your mother had a green sweater when she was five. A neighbor gave it to her. She wore it until the sleeves stopped halfway down her arms. When I unraveled the sweater, I used the other buttons. This one stayed.”
 
-Nora closed her fingers around it. She loved the button. Suddenly she did not want to fasten it to a coat that a baby would spit up on, pull, and outgrow.
+Nora closed her fingers around it. She loved the button, but it still held someone else's story. She set it on a scrap of cream cloth and did not ask for the needle yet.
 
-“Do you have new ones?”
-
-“In the drawer.”
-
-The new white buttons were identical. They sat in straight rows inside a clear packet, without rust or scratches or anything a person remembered. Nora placed the green button on the coat, then removed it. She tried a white one and removed that too.
-
-Grandma threaded a needle and waited.
-
-## The Missing Button
+## The Unfinished Fastening
 
 Aunt May and the baby came home a day early. The door opened, and the apartment filled with noise: shopping bags crackling, a thermos knocking against the wall, Mom warning everyone about the shoes, Uncle Rob promising he would stay only five minutes while carrying in three bags.
 
-The coat still needed its button.
+The coat still needed its soft fastening.
 
 Nora hid it behind her back. She had planned to clip every thread and present it properly. But Grandma was helping Aunt May sit down, and Mom was changing the baby. No one noticed Nora in the middle of the room.
 
@@ -182,58 +176,42 @@ Aunt May touched the pale blue edge. Her tired eyes curved. “Neither is she. L
 
 Grandma laid the coat lightly over the baby. It fit, but the two front pieces slipped apart like doors that would not stay closed.
 
-“It needs a button,” Mom said.
+“It needs its fastening,” Mom said.
 
-Nora had two answers in her pocket: the old green button and a smooth new white one. She felt the tiny chip in the green edge, then the perfect circle of the white.
+The broad fabric strips waited on the table beside the green button and cream scrap.
 
 The baby caught Nora's smallest finger. The hand was astonishingly small, but its grip was serious. Nora did not move. She saw the empty place on the coat and understood that she did not need the tin to give her a piece of the past. She was here at the table, beside the curtain, inside this small hand's grasp, making today.
 
 She did not say any of that.
 
-“Use the green one,” she told Grandma.
+“Use the soft strips for her coat,” she told Grandma. “I want the green button for the scrap.”
 
 Grandma asked only, “Sure?”
 
-“If it falls off, we'll look for it together.”
+“It will stay in the tin, away from the baby.”
 
 Nora sat by the window and pushed the thread toward the needle's eye. Grandma did not take it from her. She only knotted the end after Nora got it through. The first stitch came up crooked. Nora drew it back and tried again.
 
 Mom lifted her phone for a picture. Nora shook her head. “When I'm done.”
 
-The needle traveled through the four holes. With every pull, the green button settled closer to the cream cloth. Grandma showed Nora how to wind the thread beneath it and tie two knots.
+Nora stitched one broad strip flat around all four edges while Grandma secured its partner to the other front. When they pressed the two soft pieces together, the coat closed without a loose button. The baby's chin moved above the pale blue edge.
 
-Nora clipped the thread and fastened the coat. The baby's chin moved. The green button rose and fell with her breath.
+“Is the story hers now?” Nora asked.
 
-“Is it hers now?” Nora asked.
+Grandma set the tin beside her. “The coat is hers. The story started with both of you.”
 
-Grandma set the tin beside her. “The coat is hers. She'll have to make the story.”
-
-## What Filled the Space
+## The Button from Today
 
 After the baby fell asleep, the apartment quieted. Aunt May drank soup on the sofa. Mom and Uncle Rob argued in whispers about who would wash the dishes. Nora returned the needles to their wooden case and counted them twice, the way Grandma had taught her.
 
-Without the green button, a bright turquoise circle showed on the bottom of the tin. The empty spot was more noticeable than any button around it.
+Nora brought back the green button and its scrap of cream cloth. Three times she practiced with spare cloth. On the fourth, she sewed the button firmly to the keepsake scrap. The knots on the back looked like a nest built in a hurry. She left them.
 
-“It looks wrong,” Nora said.
-
-“It'll be a jumble again soon.” Grandma nudged the red button and wooden toggle closer. “Tins are poor at remembering places.”
-
-Nora considered the metal pin on her backpack. Her class had received it on a fall field trip. She touched the clasp, then left it where it was. A pin was not a button, and she still needed it.
-
-The new white button remained in her pocket. It had been the green button's replacement. Now it had no job.
-
-“Can this go in?” Nora asked.
-
-Grandma reached for it, but Nora pulled her hand back. “Wait.”
-
-She found a scrap of the cream cloth and cut an uneven circle. Three times she practiced. On the fourth, she sewed the white button firmly to the scrap. The knots on the back looked like a nest built in a hurry. She left them.
-
-Nora placed the scrap in the tin. It covered the turquoise circle exactly.
+Nora placed the scrap in the tin, where the old buttons crowded around it.
 
 “Whose button is that?” Grandma asked.
 
-Nora borrowed Grandma's brisk voice. “Something I didn't finish using.”
+Nora borrowed Grandma's brisk voice. “One I remember.”
 
-Grandma laughed and shut the lid. Old buttons and the new one rattled together.
+Grandma laughed and shut the lid. Old buttons rattled around the new scrap.
 
-From the bedroom came a small grunt. Nora went to look. The cream coat rested on the side of the cradle, its green button facing the door. As Nora approached, the button caught the night-light. It gleamed once, then settled against the soft cloth as the baby breathed.
+From the bedroom came a small grunt. Nora went to look. The baby slept in Aunt May's arms. The cream coat lay folded on a chair, its soft fastening hidden safely inside. Behind Nora, the closed tin gave one quiet rattle as Grandma moved it from the table.
