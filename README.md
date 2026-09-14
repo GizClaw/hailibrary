@@ -8,7 +8,9 @@ Hai! Library is an AI-assisted graded reading library for language learners of a
 works/<level>/<category>/<subcategory>/<title>/
 ```
 
-Books are authored as YAML plus one literary `article.md` source for every locale. Each Writer first creates an unconstrained continuous novel, which is then faithfully adapted into level-bound paginated YAML; locales share the same wordless page illustrations and identify speakers for future TTS. Codex creates and reviews content by following `AGENTS.md`; this repository contains no model-calling generation harness.
+Ungraded multilingual literature lives under `works/series/`: each locale Writer independently writes a native-language `article.md`, and `$scriptize-article` creates its audiobook script. Graded picture books are derivatives under `works/<level>/...`, limited to `aa` through `n`; they share wordless artwork, use schema-version-3 page text, and have no audio script.
+
+Codex writes articles and committed artwork prompts by following `AGENTS.md`. Repository code never generates stories or prompts. Cover and page images are generated only by `tools/imagegen`, which consumes committed `artwork.yaml` and Style prompts.
 
 Vocabulary lives under `vocabulary/<level>/<id>/`. Target words are marked inline in story content; one entry contains all localized terms and one shared word-card image.
 
@@ -18,7 +20,7 @@ See `prompts/levels/index.yaml` and the exact files in `prompts/levels/<level>.y
 
 Hai! Library uses a layered review harness rather than trusting a single generation or review pass:
 
-- source rules constrain every work's level, structure, locales, speakers, questions, vocabulary, and shared artwork;
+- source rules separate series literature and audiobooks from graded picture-book structure, questions, vocabulary, and shared artwork;
 - the local checker validates schemas, cross-locale page alignment, referenced Writers, Styles, vocabulary entries, files, and Git LFS resources;
 - full-work review checks level fit, narrative coherence, question evidence, vocabulary, artwork, and independently verifies real-world claims with authoritative web sources;
 - after any fix, the complete deterministic and editorial reviews run again. A work is ready only when the checker passes and a fresh review reports no findings.
@@ -49,11 +51,20 @@ The same local CLI can also be invoked directly with:
 npx --no-install hailibrary-check-work works/a/fiction/animals/the-lost-kite
 ```
 
+Generate a derived book's committed cover and page assets with:
+
+```sh
+go run ./tools/imagegen works/a/fiction/animals/the-lost-kite
+```
+
+The command reads `OPENAI_API_KEY` and optional `OPENAI_IMAGE_MODEL` from the environment or repository-root `.env`; environment variables take precedence.
+
 ## Project Skills
 
 Codex can discover the repository Skills in `.agents/skills/` automatically. They can also be invoked explicitly:
 
 ```text
+$write-article
 $create-work
 $adapt-article
 $scriptize-article

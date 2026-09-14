@@ -1,30 +1,40 @@
 ---
 name: adapt-article
-description: Adapt one persisted HaiLibrary locale novel into level-bound paginated story.yaml article.pages—把每种语言的 article.md 文学源稿忠实改编为符合精确分级、共享分页和插画约束的可见正文；不改写源稿、不生成语音脚本。
+description: Derive one or more aa-n graded picture-book sets from a complete multilingual HaiLibrary series article—把完整多语言系列文章忠实改编为一套或多套 aa-n 分级绘本，规划册数、分页、共享画面、Style 和生图 prompt；不写源文章、不生成图片。
 ---
 
-# Adapt a literary article
+# Adapt a series article into picture books
 
-Turn one locale's reviewed `article.md` into the level-bound visible reading text at `story.yaml` `article.pages[].paragraphs[]`. Follow `AGENTS.md`. The novel remains authoritative for the story; this Skill never edits it.
+Derive complete picture-book volumes from `works/series/<series-id>/`. Each locale adapts its own `article.md`; locales share volume structure, page IDs, visual events, and artwork. Follow `AGENTS.md`.
 
-## Load the source and contracts
+## Load source and contracts
 
-Read the complete locale `article.md`, `book.yaml`, the shared page plan, and `artwork.yaml` when it exists. Read `prompts/levels/index.yaml`, the exact `prompts/levels/<level>.yaml` record and prompt, `prompts/levels/locale-references.yaml`, `prompts/vocabulary/index.yaml`, `prompts/vocabulary/ranges.yaml`, and the locale Writer's complete `prompt.yaml`. The Writer governs voice; the level records govern adaptation difficulty.
+Read complete `article.yaml`, optional `research.yaml`, every requested locale `article.md`, and each Writer prompt. Confirm articles are final, native, mutually consistent in shared events, and factually supported. Return `ARTICLE_FIX_REQUIRED` instead of repairing a defective source indirectly.
 
-Confirm that the novel is coherent, audience-safe, factually supported by `research.yaml`, native in its locale, and consistent with the shared events. If the source needs repair, return `ARTICLE_FIX_REQUIRED`; fix and review the novel first, then re-adapt.
+Read `prompts/levels/index.yaml`, every candidate exact level file, `prompts/levels/locale-references.yaml`, `prompts/vocabulary/index.yaml`, `prompts/vocabulary/ranges.yaml`, `prompts/labels/index.yaml`, and candidate Style prompts. Target only `aa`, `a` through `n`.
 
-## Build a faithful level adaptation
+## Design sets and volumes
 
-Meet every exact-level ceiling and complexity floor for page count, total units, sentence and page length, vocabulary, cohesion, knowledge demand, inference, illustration reliance, and reading task. A rare novel already within the limits may remain nearly verbatim, but it must still be paginated and meet the complexity floor.
+For each selected level decide total volumes, page count per volume, and a shared page plan. Every volume needs a complete beginning, development, meaningful turn, and satisfying resolution or complete nonfiction movement. Do not slice at a page-count boundary or leave a volume as mere setup.
 
-Preserve the novel's events, causal links, facts, characters, point of view, tone, and ending. You may condense, cut subplots, simplify wording or syntax, and re-sentence. Do not add events, facts, lessons, motivations, solutions, or dialogue unsupported by the novel. Do not turn pages into isolated summaries.
+Condense and select source material while preserving essential events, facts, causality, characters, viewpoint, tone, and ending. You may omit subplots and re-sentence, but may not invent lessons, motivations, solutions, dialogue, or facts. Choose an existing Style and define stable character `visual_identity` descriptions sufficient for asset continuity.
 
-Keep visible dialogue natural, with locale-correct quotation and attribution. Paginate at real scene, action, or paragraph transitions using the shared page IDs and illustration IDs identically across locales. Adapt each locale from its own novel, never another locale's wording.
+## Write each book
 
-Mark target vocabulary inline only on words already present in the adapted prose. Create or change entries only through `$create-vocabulary`, and review every used entry through `$review-vocabulary`.
+For every volume create schema-2 `book.yaml` with required `source: {series, volume, volumes}`; schema-2 `artwork.yaml`; and schema-3 `locales/<locale>/story.yaml` with `language`, `writer`, `title`, `summary`, ordered `chapters`, `questions`, and `article.pages`.
 
-## Validate the result
+Adapt each locale independently from its own article using exact level and locale contracts. Keep shared page events and illustration IDs aligned while allowing natural sentence order, emphasis, idiom, and rhythm. Dialogue uses native quotation and attribution. Pages remain continuous prose, not isolated summaries.
 
-Read the adapted pages continuously and compare them with `article.md`. Fail if transitions break, the adaptation becomes checklist-shaped, difficulty falls below the floor or exceeds a ceiling, or any story invariant changes. Do not create `audio_script`; after this adaptation passes, `$scriptize-article` owns that step.
+Paragraphs use `{text}` or `content` segments containing `{text}` and later `{vocabulary: {id, text}}`. Do not select vocabulary until prose and pagination are stable. Do not create picture-book `article.md`, `research.yaml`, `audio_script`, `cast`, `speaker`, or top-level `pages`.
 
-Inside an authorized `$create-work` task, write only the adapted `article.pages[].paragraphs[]` and required inline markers in `story.yaml`. Preserve unrelated YAML and all images. Run `npm run check-work -- <work-directory>` after the complete work is assembled.
+Chapters cover every page exactly once and in order. Questions follow stable pagination; every answer is supported by `page_refs` and fits the exact level.
+
+## Author artwork prompts
+
+Each asset uses `id: cover` or its page ID, `file: artwork/<id>.webp`, a one-sentence `scene`, and a complete `prompt`. Describe visible action, setting, characters using exact `visual_identity`, continuity, camera, composition, focus, and exclusions. Do not repeat Style medium or aesthetics; the image tool appends the committed Style prompt. Do not request text, letters, numbers, logos, captions, speech bubbles, signatures, or watermarks.
+
+Quote every YAML string containing a comma or colon, especially flow values. This Skill writes prompts only and never generates images.
+
+## Validate and hand off
+
+Read each volume and the whole set continuously. Check exact-level ceilings and floors, complete arcs, source fidelity, locale equivalence, shared page alignment, question evidence, prompt-to-page compatibility, and schemas. Then use `$create-vocabulary` and `$review-vocabulary`; later generate images with `go run ./tools/imagegen <work-dir> [flags]`, validate, and run `$review-work`.

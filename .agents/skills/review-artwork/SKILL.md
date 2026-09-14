@@ -1,42 +1,16 @@
 ---
 name: review-artwork
-description: Review or fix a HaiLibrary book's cover and page illustrations—插画审核、画面文字、场景匹配、角色连续性、Style、一致性和 Git LFS. Use for artwork-only audits or authorized illustration corrections; not for reusable Style prompts or full editorial review.
+description: Review or fix a derived HaiLibrary picture book's generated cover and page illustrations—审核或修复衍生绘本封面与页面插图的文字、场景、角色连续性、Style、prompt 契约和 Git LFS；不审核系列文章。
 ---
 
-# Review HaiLibrary artwork
+# Review picture-book artwork
 
-Review one complete work's `artwork.yaml`, cover, and every page illustration. Follow `AGENTS.md`. For review-only requests, report findings without editing or regenerating images. Apply corrections only when explicitly authorized, then repeat the complete visual review.
+Review one complete picture book's `book.yaml`, schema-2 `artwork.yaml`, cover, and every page image. Report only unless corrections are explicitly authorized.
 
-## Load the visual contract
+Read all locale page events, character `visual_identity`, the referenced Style prompt, and the asset inventory. Confirm each asset has a one-sentence `scene` and a complete content/composition `prompt`; prompts must match visual identities, omit Style treatment, and never request visible text. Use locale prose only to resolve the shared event.
 
-Read:
+Open original pixels for every asset. Check scene action, character and prop continuity, Style compliance, wordlessness, anatomy and object use, safety, composition, crop, aspect ratio, resolution, WebP compression, exact one-to-one page coverage, and Git LFS. A filename, prompt, scene, diff, or generation success is not visual evidence.
 
-- `book.yaml`, `artwork.yaml`, and every locale page event relevant to each illustration;
-- the referenced `prompts/styles/<style>/prompt.yaml`;
-- character, clothing, prop, location, palette, and continuity declarations;
-- the complete asset inventory and Git LFS rules.
+When an authorized fix needs regeneration, first correct the committed prompt if its contract is wrong, then run `go run ./tools/imagegen <work-dir> [flags]`. Do not call image generation by another path. Reinspect the complete set after any change.
 
-Use locale prose only to understand the shared page event. Do not require an image to depict language-specific wording that is absent from the shared scene.
-
-## Inspect every image
-
-Open the original local pixels for the cover and every page image. A filename, YAML scene, generated-image prompt, Git diff, or prior `visual_review.status` is not visual evidence.
-
-For every asset, check:
-
-- the declared page action, characters, setting, objects, direction, and emotional state are visibly correct;
-- recurring characters, clothing, scale, props, locations, palette, and physical layout remain continuous;
-- the image follows the referenced Style's medium, texture, shapes, lighting, palette, composition, and exclusions;
-- no visible words, letters, numbers, logos, captions, speech bubbles, signatures, or watermarks appear;
-- anatomy, object use, spatial causality, audience safety, and ordinary physical details are plausible unless clearly established as fantasy;
-- cropping, aspect ratio, compression, and resolution are usable for publication;
-- the cover represents the work without contradicting later pages or exposing a false event;
-- every declared asset exists once, every required page has one illustration, files are WebP, and publishable images are covered by Git LFS.
-
-Inspect vocabulary cards with `$review-vocabulary`, Style thumbnails with `$review-style`, and Writer avatars with `$review-writer`; this skill owns only the work cover and page artwork.
-
-## Result
-
-Return actionable findings first with exact artwork ID, file path, visible region, declared scene, and learner-facing or continuity impact. Distinguish a pixel-level defect from an incorrect `artwork.yaml` scene contract.
-
-Return `PASS` only after visually inspecting the cover and every page image and finding no defects. Summarize asset count, scene coverage, character and prop continuity, Style compliance, text exclusion, safety, dimensions/format, and Git LFS status.
+Return findings with artwork ID, path, visible region or prompt field, declared scene, and impact. Return `PASS` only after every cover/page pixel and contract passes; summarize asset count, continuity, Style, text exclusion, safety, format, and LFS.

@@ -1,59 +1,16 @@
 ---
 name: create-vocabulary
-description: Create or materially revise a HaiLibrary vocabulary entry or word card—新增词汇、词条、词卡、拼音、IPA、释义和课程对齐. Use for standalone vocabulary creation or when create-work needs a new target concept; not for review-only audits.
+description: Create or materially revise a HaiLibrary picture-book vocabulary entry or word card after adapted prose is stable—在绘本改编文字稳定后创建或修改词汇条目、词卡、拼音、IPA、释义和课程对齐；不为系列文章预埋词汇。
 ---
 
-# Create HaiLibrary vocabulary
+# Create picture-book vocabulary
 
-Create or materially revise one shared concept at `vocabulary/<level>/<id>/entry.yaml` with one wordless `card.webp`. Follow `AGENTS.md`; the entry is level-scoped, and localized terms describe the same concept rather than loosely related translations.
+Create or revise `vocabulary/<level>/<id>/entry.yaml` and one wordless `card.webp`. Picture-book vocabulary levels are only `aa` through `n`. Read the exact level, locale references, vocabulary ranges/index, all inline usages, nearby entries, and `$review-vocabulary` source policy.
 
-## Establish the concept and usage
+Choose one shared concept, exact story sense and grammatical role, stable ID, required locales, learner definition, and only evidence-backed alignments. English Lexile evidence never establishes Chinese placement; verify whole Chinese words rather than inferring from characters. Browse current authoritative monolingual or normative sources for terms, senses, parts of speech, pronunciation, forms, writing data, and claimed curricula.
 
-Read `prompts/levels/index.yaml`, the selected `prompts/levels/<level>.yaml`, `prompts/levels/locale-references.yaml`, every story usage of the intended level-scoped ID, and nearby entries for schema conventions. Resolve:
+Write schema-1 `entry.yaml` with matching ID/level, `card: card.webp`, and each locale's natural term, part of speech, supported pronunciation, level-appropriate definition, forms, writing metadata, and alignments. Inline markers may be added only after adapted prose is final; their surface form must already occur and equal a term or declared form.
 
-- one concrete shared concept and stable kebab-case ID;
-- the owning level and every required locale;
-- the exact story sense and grammatical role;
-- the learner-facing definition scope;
-- whether a curriculum alignment is actually required and supportable.
+Preserve existing cards during text-only work. For an authorized new card, create an original wordless image that depicts the shared concept across locales, save compressed WebP, confirm LFS, and visually inspect it. Picture-book `tools/imagegen` is for `artwork.yaml` cover/page assets, not vocabulary cards.
 
-Use the exact ordered level key (`aa`, `a` through `z`, `z1`, or `z2`) and read that exact locale range. Never translate from a compressed or neighboring level.
-
-For English, record the HaiLibrary age/grade band and English-only Lexile as reference evidence. For Chinese, use the declared curriculum checkpoint and exact term evidence; never assign a Chinese term from an English Lexile or US grade band. Z1 is undergraduate and Z2 is advanced undergraduate, graduate, or professional in HaiLibrary; do not present those meanings as official Reading A-Z correlations.
-
-Do not create duplicate IDs for the same concept without checking existing entries. Do not force unrelated locale words into one card merely because they appear in the same translated sentence.
-
-## Research before writing
-
-Apply the source hierarchy and live-evidence requirements from `$review-vocabulary`. Open current authoritative monolingual dictionary or normative sources for every locale before choosing terms, pronunciations, parts of speech, forms, writing metadata, or alignments.
-
-An empty alignment list is valid. Never infer curriculum placement from familiarity, a dictionary definition, or another locale's level.
-
-## Write the entry
-
-Create `entry.yaml` with:
-
-- `schema_version: 1`, a directory-matching `id`, and the directory level;
-- `card: card.webp`;
-- a locale entry for every required edition;
-- natural term, correct part of speech, supported pronunciation, level-appropriate definition, valid forms where needed, writing metadata, and evidence-backed alignments.
-
-For `en-US`, use supported American English broad IPA. For `zh-CN`, use standard Putonghua Hanyu Pinyin with tone marks, unmarked neutral tones, and exact simplified characters.
-
-Update inline story vocabulary markers only when the task authorizes changing the affected work. The marked surface form must equal the entry term or a declared form.
-
-## Word-card scope
-
-When revising text or lexical metadata for an existing entry, preserve `card.webp` byte-for-byte unless the user explicitly authorizes a visual change. A text-only task must not regenerate, edit, recompress, rename, or delete the card.
-
-For a genuinely new vocabulary entry, create the word card as follows.
-
-Generate one original `card.webp` that depicts the shared concept without text, letters, numbers, logos, captions, speech bubbles, or watermarks. The image must remain recognizable for every locale term and must not encode a locale-specific spelling or cultural assumption that changes the concept.
-
-Compress to WebP, confirm Git LFS coverage, and visually inspect the card rather than inferring its contents from the filename.
-
-## Validate and review
-
-Apply the complete `$review-vocabulary` procedure as a fresh evidence-backed pass. Run `npm run check-work -- <work-directory>` for every affected work.
-
-Return `PASS` only when the entry, live language evidence, card, story forms, alignments, and affected-work validation have no findings.
+Run a fresh `$review-vocabulary` pass and validate every affected book. Return `PASS` only when evidence, metadata, usages, card, and validation have no findings.

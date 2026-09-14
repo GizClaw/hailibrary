@@ -8,7 +8,9 @@
 works/<level>/<category>/<subcategory>/<title>/
 ```
 
-图书源文件由 YAML 和每种语言各自的文学源稿 `article.md` 组成。每位 Writer 先独立写出不受分级上限约束的连续作品，再忠实改编为符合目录等级的分页 YAML；各语言版本共用同一组无文字页面插画，并标明 TTS 说话者。Codex 按照 `AGENTS.md` 创作和审核内容；仓库代码本身不会调用模型生成故事或插画。
+不分级的多语言文学作品位于 `works/series/`：每种语言由对应 Writer 用母语独立创作 `article.md`，再由 `$scriptize-article` 生成整篇有声书脚本。分级绘本是 `works/<level>/...` 下的衍生物，只使用 `aa` 到 `n`；各语言共用无文字插画，正文采用 schema 3，绘本没有 audio script。
+
+Codex 按 `AGENTS.md` 创作文章和已提交的插画 prompt。仓库代码绝不生成故事或 prompt；封面和页面插图只能由 `tools/imagegen` 读取已提交的 `artwork.yaml` 和 Style prompt 后生成。
 
 词汇位于 `vocabulary/<level>/<id>/`。故事正文直接标记目标词；每个词汇条目包含所有语言的本地化词语，以及一张共用的无文字词卡图片。
 
@@ -18,7 +20,7 @@ works/<level>/<category>/<subcategory>/<title>/
 
 嗨！图书馆使用分层审核体系，不依赖单次生成或单个 Agent 的判断：
 
-- 源文件规则约束每部作品的等级、结构、语言版本、说话者、问题、词汇和共用插画；
+- 源文件规则明确区分系列文学作品及有声书，与分级绘本的结构、问题、词汇和共用插画；
 - 本地检查工具验证文件结构、跨语言页面对齐、作家、画风、词汇条目、资源文件和 Git LFS 状态；
 - 母语审校分别独立阅读每种语言；用法存疑时，在线查阅单语词典、语言规范、语料库以及文体相近的母语作品；
 - 整书审核检查等级适配、叙事连贯性、题目证据、词汇和插画，并通过权威网页独立核查现实世界中的事实和常识；
@@ -50,11 +52,20 @@ npm run check-work -- works/a/fiction/animals/the-lost-kite
 npx --no-install hailibrary-check-work works/a/fiction/animals/the-lost-kite
 ```
 
+根据已提交的 prompt 生成一本衍生绘本的封面和页面插图：
+
+```sh
+go run ./tools/imagegen works/a/fiction/animals/the-lost-kite
+```
+
+命令从环境变量或仓库根目录 `.env` 读取 `OPENAI_API_KEY` 和可选的 `OPENAI_IMAGE_MODEL`，环境变量优先。
+
 ## 项目 Skills
 
 Codex 可以自动发现 `.agents/skills/` 中的项目 Skills，也可以显式调用：
 
 ```text
+$write-article
 $create-work
 $adapt-article
 $scriptize-article

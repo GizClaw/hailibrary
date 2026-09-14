@@ -1,90 +1,53 @@
 ---
 name: review-work
-description: Review or audit a complete HaiLibrary book—整本书审核、验收、review、事实核查、等级、多语言对齐、词汇、问题和插画. Use for full-work review or authorized review-and-fix; use specialized skills for language-only, Writer-only, Style-only, or artwork-only requests.
+description: Review a complete HaiLibrary series article or derived picture-book set—审核完整系列文章或衍生分级绘本，覆盖文学、事实、有声书忠实度、改编忠实度、级别、分页、多语言、问题、词汇与插画契约。
 ---
 
-# Review a HaiLibrary work
+# Review HaiLibrary source and derivatives
 
-Review the whole work, not only changed lines. Follow `AGENTS.md`: each locale's `article.md` is authoritative for story and voice, `story.yaml` `article.pages` for visible level-bound text, and `audio_script` for voice assignment.
+Review the whole requested series, picture-book set, or both. For review-only requests, report without editing. With fix authorization, preserve unrelated work and rerun fresh complete reviews after changes. Text-only scope preserves every image byte-for-byte.
 
-Resolve the exact directory level from the 29 ordered labels (`aa`, `a` through `z`, `z1`, `z2`). Compare only with that exact HaiLibrary age-aligned record; never use the former compressed A-K mapping, treat K as advanced, or claim that HaiLibrary's secondary and higher-education extensions are official Reading A-Z grade meanings.
+## Review a series article
 
-## Authorization boundary
+Read `works/series/<id>/article.yaml`, optional `research.yaml`, every locale `article.md` and `audio_script.yaml`, all locale Writer prompts, and controlled labels. Check:
 
-For a review-only request or GitHub PR review, do not modify files. If the user explicitly authorizes fixes, fix actionable findings, rerun every check, and start a fresh full review rather than checking only edited locations.
+- each locale is independently written native-language literature, not translation-shaped, and ignores Writer grading clauses;
+- premise, characters, events, factual boundaries, causality, viewpoint, tone, and ending are coherent across locales without requiring matching sentences;
+- scenes, conflict, choices, sensory detail, pacing, dialogue, and ending meet a professional literary bar; prose is not preachy, report-shaped, or engineered for derivatives;
+- every material real-world claim and uncertainty is accurately covered by series `research.yaml`;
+- each audiobook covers its own article completely and in order, preserves narration verbatim, assigns quotation correctly, adds only necessary minimal attribution, and has valid stable IDs and complete abstract TTS cast data.
 
-If the authorized scope is text-only, preserve every image byte-for-byte. Do not regenerate, edit, recompress, rename, or delete cover, page, Style, Writer-avatar, or vocabulary-card images. Resolve artwork compatibility findings by revising text within the shared scene contract or report a blocker.
+Series plans may propose picture books only at `aa` through `n`.
 
-## Load the complete context
+## Review derived picture books
 
-Read:
-
-- the work directory, every locale `article.md`, and all YAML files;
-- `prompts/levels/index.yaml` and the directory level's `prompts/levels/<level>.yaml`, including the exact Level `prompt`;
-- `prompts/levels/locale-references.yaml` for the exact English or Chinese reference checkpoint and its authority limits;
-- `prompts/labels/index.yaml` and every label selected by the work;
-- every referenced locale Writer's creative `prompt` and native-language `language_prompt`;
-- the referenced Style prompt, applied only to artwork;
-- every referenced vocabulary entry;
-- every cited source needed to assess a real-world claim.
-
-Apply the `$review-vocabulary` evidence procedure to every vocabulary entry referenced by the work; structural validity alone does not establish lexical or pronunciation correctness.
-
-Apply `$review-writer` to every referenced locale Writer and `$review-style` to the referenced visual Style. Preserve their findings and verdicts; a referenced Writer or Style that does not pass blocks the complete work from receiving `PASS`.
-
-Run the deterministic validator first:
+Read the source series, every volume file, exact level records, locale references, Writers, Style, labels, vocabulary entries, and `artwork.yaml`. Run:
 
 ```sh
 npm run check-work -- works/<level>/<category>/<subcategory>/<slug>
 ```
 
-Treat validator failures as findings, but do not stop there.
+For every volume check:
 
-## Independent web fact-check
+- the directory level is `aa` through `n`; `book.yaml` schema 2 has correct source series and 1-based volume metadata;
+- the volume has a complete beginning, development, turn, and resolution, not an arbitrary source slice;
+- every locale adapts its own series article faithfully without inventing or changing essential events, facts, causality, characters, viewpoint, tone, or ending;
+- schema-3 `story.yaml` has no audiobook, cast, speaker, or top-level pages; visible prose is continuous, naturally attributed, and meets the exact level's ceilings and complexity floor;
+- locales share page IDs, meanings, illustration IDs, and visual events while remaining independently natural at equivalent difficulty;
+- chapters cover every page once in order and every question is supported by declared page evidence;
+- inline vocabulary resolves to correct level-scoped entries, locale forms, definitions, and wordless cards;
+- every artwork asset has a matching page/cover, one-sentence scene, complete content/composition prompt consistent with `visual_identity`, and no embedded Style prose or requested text.
 
-Every review must browse the web independently to look for knowledge, factual, causal, safety, and ordinary common-sense errors. Do not limit the review to claims already listed in `research.yaml`, and do not treat `required: false` as permission to skip this step.
+Apply `$review-writer`, `$review-style`, and `$review-vocabulary` to all referenced resources.
 
-Read [references/fact-checking.md](references/fact-checking.md), then build a claim inventory from every locale story, question and answer, vocabulary definition, `artwork.yaml` scene, and any factual implication visible in the artwork. Include implicit claims such as whether an animal can perform an action, an object works as depicted, a cause can produce the stated result, a season or location is plausible, or a behavior is safe.
+## Independent fact-check and visuals
 
-For each material claim:
+Read `references/fact-checking.md`. Build a claim inventory from series articles, derived prose, questions, vocabulary, scenes, and visible artwork when inspected. Browse current primary or authoritative sources; open evidence pages rather than relying on snippets. Use at least two independent authoritative sources for contested, sensitive, historical, medical, or safety-critical claims. Compare the source series `research.yaml` with exact claims and flag missing, overstated, or contradictory support.
 
-1. Classify it as real-world fact, simplified explanation, ordinary physical or social assumption, cultural practice, historical claim, speculative premise, or purely invented detail.
-2. Search current primary or authoritative sources and open the supporting pages; search snippets are not evidence.
-3. Compare the sources with the exact page wording, illustration, answer, and cross-locale meaning.
-4. Check whether `research.yaml` records every source that the published work needs and describes the supported claim accurately.
-
-Use at least two independent authoritative sources for contested, safety-critical, culturally sensitive, medical, historical, or otherwise high-risk claims. A fictional or magical premise may be accepted when the work clearly establishes it, but nearby real-world facts and consequences must remain accurate or clearly fictionalized.
-
-Distinguish a factual error from a harmless fantasy convention, an age-appropriate simplification, an unsupported assertion, and an internal-consistency error. When uncertainty is real, the work must not present one interpretation as settled fact.
-
-## Editorial review
-
-Check that:
-
-- every `article.md` is well-formed, coherent, audience-safe literature with purposeful scenes or nonfiction movement rather than a checklist or report;
-- each locale's `article.pages` faithfully adapts its own `article.md` without adding, dropping, or changing events, causality, facts, characters, point of view, tone, or ending;
-- the work has a coherent beginning, development, and resolution or an appropriate nonfiction structure;
-- vocabulary, syntax, sentence/page totals, inference, narrative structure, and question types fit the directory level;
-- the English edition uses its declared age/grade and English-only Lexile reference, while the Chinese edition is judged against its own curriculum checkpoint without importing English Lexile claims; retained Reading A-Z labels are not mistaken for official later-grade correlations;
-- locales remain equivalent in meaning and learning difficulty and are independently phrased rather than translated line by line;
-- each locale's visible `article.pages` is continuous and attributes dialogue naturally; its `audio_script` preserves the adaptation's order, transitions, causality, evidence, and conclusion rather than replacing them with alternating explanations;
-- Writers shape high-level creative choices without copied expression or recognizable imitation;
-- every character and narrator exists in every locale `audio_script.cast` with distinct, complete TTS direction;
-- pages and chapters are complete, unique, ordered, and aligned across locales;
-- discovery labels are relevant, non-duplicated, centrally defined, and neither misleading nor a substitute for learning concepts;
-- each question is answerable from its declared page evidence;
-- inline vocabulary markers resolve to correct locale terms/forms, definitions, and wordless cards;
-- every explicit or implicit checkable claim survives independent web research and is supported accurately by `research.yaml`, including uncertainty;
-- ordinary actions, physical causality, scale, sequence, motivations, object use, cultural behavior, and safety advice remain plausible unless clearly established as fictional.
-
-## Visual review
-
-Visual review is optional and out of scope by default; follow the "Visual review scope" rule in `AGENTS.md`. When the task request or linked Issue explicitly puts it in scope, apply the complete `$review-artwork` procedure to the cover, every page illustration, and `artwork.yaml`. Otherwise, check only artwork presence, format, Git LFS coverage, and `artwork.yaml` scene contracts, and report visual inspection as out of scope. When run, also preserve the vocabulary-card verdicts from `$review-vocabulary`, the Style-thumbnail verdict from `$review-style`, and Writer-avatar verdicts from `$review-writer`.
-
-A GitHub binary diff proves only file presence; never claim pixel-level verification without viewing the images. When visual review is in scope, a `FAIL` or uncompleted visual inspection from any required specialized review blocks the complete work from receiving `PASS`.
+Visual review is out of scope by default. When explicitly in scope, run `$review-artwork` on every cover and page. Otherwise check only presence, WebP format, Git LFS, and manifest contracts, and state that pixels were not reviewed.
 
 ## Result
 
-Return actionable findings first, ordered by severity. Include exact file paths and page, question, artwork, vocabulary, or cast IDs. Explain the concrete learner-facing or contract impact, and cite the sources that establish each factual finding.
+Return actionable findings first, ordered by severity, with exact paths and stable series, volume, page, question, artwork, vocabulary, chapter, or block IDs. Cite factual evidence near each finding.
 
-Return `PASS` only when there are no findings and the independent web fact-check is complete. Then summarize the level, Writers, Style, locales, page count, artwork count, speakers, vocabulary, claim categories searched, research evidence, question evidence, visual inspection, and validator result. If legal uncertainty remains around a Writer or Style, return `NEEDS_LEGAL_REVIEW` instead of `PASS`.
+Return `PASS` only after a fresh review has no findings and the independent fact-check is complete. Summarize reviewed series/locales/Writers, audiobook chapters and speakers when applicable, picture-book levels/volumes/pages/Style/artwork, vocabulary, question evidence, visual scope, and validator results.
