@@ -29,13 +29,14 @@ audio_script:
         - id: ch01-b01
           speaker: narrator
           text: |-
-            Xiaoman stopped beside the path. Grandpa said,
+            Xiaoman stopped beside the path. Grandpa stamped his foot and shouted,
         - id: ch01-b02
           speaker: grandpa
-          text: Listen to the echo first.
+          text: Listen to the echo first!
+          emotion: angry
 ```
 
-The root contains exactly `audio_script`. It contains one locale `language`, one `cast` mapping, and an ordered `chapters` list. Each chapter has `id`, `title`, and ordered `blocks`; each block has only `id`, `speaker`, and plain `text`.
+The root contains exactly `audio_script`. It contains one locale `language`, one `cast` mapping, and an ordered `chapters` list. Each chapter has `id`, `title`, and ordered `blocks`; each block has `id`, `speaker`, plain `text`, and optionally one `emotion`.
 
 ## Identity and voice
 
@@ -44,6 +45,13 @@ The root contains exactly `audio_script`. It contains one locale `language`, one
 - Include `narrator` even when narration is brief.
 - Each cast entry has localized `display_name` plus abstract `tts.delivery`, `tts.timbre`, `tts.pace`, and `tts.pitch` strings.
 - Cast contains no provider voice ID. Blocks contain no voice configuration, SSML, audio filename, synthesis setting, stage direction, or delivery annotation.
+
+## Dialogue emotion
+
+- The optional block `emotion` is limited to MiniMax-supported `happy`, `sad`, `angry`, `fearful`, `disgusted`, `surprised`, or `calm`.
+- Generally leave narration unannotated. Use `emotion` only on character dialogue whose emotion is explicit and whose meaning or delivery would be distorted by a flat reading.
+- Derive the value from the original article's context and speech markers, such as “she stamped her foot in anger”; do not invent an emotion from the words alone when the source is ambiguous.
+- Do not mark every line merely to make the performance expressive. A block has at most one `emotion`; when uncertain, omit it.
 
 ## Chapter and block identity
 
@@ -61,6 +69,6 @@ The root contains exactly `audio_script`. It contains one locale `language`, one
 - Change blocks when the speaker changes; merge consecutive content from the same speaker. Keep original paragraph breaks as newlines inside merged narrator text.
 - Split long narration only above about 400 Chinese characters or 250 English words and only at an original paragraph boundary.
 - Narration may end with a source dialogue lead-in such as `说：`, `问：`, or `said,`.
-- Never add dialogue, facts, actions, emotions, thoughts, or explanatory material.
+- Never add dialogue, facts, actions, emotion words, thoughts, or explanatory material to the spoken text.
 
 `article.md` remains authoritative. If it is incomplete or internally defective, report the source problem instead of repairing the story indirectly in `audio_script.yaml`.

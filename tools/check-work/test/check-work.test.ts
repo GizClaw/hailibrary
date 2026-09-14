@@ -18,6 +18,7 @@ const write = async (path: string, contents: string | Uint8Array) => {
 };
 
 type Fixture = { root: string; first: string; second: string };
+type SeriesFixture = { root: string; series: string; script: string };
 
 function story(locale: "en-US" | "zh-CN", prompt: string) {
   const texts = locale === "en-US" ? ["Red cat.", "Blue cat.", "Big cat.", "Small cat."] : ["红猫走。", "蓝猫走。", "大猫走。", "小猫走。"];
@@ -110,6 +111,62 @@ async function check(fixture: Fixture, book = fixture.second) {
   }
 }
 
+async function seriesFixture(emotion?: string): Promise<SeriesFixture> {
+  const root = await mkdtemp(join(tmpdir(), "check-work-series-test-"));
+  await exec("git", ["init", "-q", root]);
+  await cp(join(repositoryRoot, "prompts/labels/index.yaml"), join(root, "prompts/labels/index.yaml"));
+  await write(join(root, "prompts/styles/test-style/prompt.yaml"), "schema_version: 1\nid: test-style\nprompt: Test style\n");
+  await write(join(root, "prompts/writers/en-US/test-writer/prompt.yaml"), "schema_version: 1\nid: test-writer\nlocale: en-US\n");
+  const series = join(root, "works/series/test-series");
+  await write(join(series, "article.yaml"), `schema_version: 1
+id: test-series
+category: fiction
+genre: adventure
+style: test-style
+labels: {topics: [], themes: [], moods: []}
+research: none
+premise: A test premise
+characters:
+  - {id: child, description: A child}
+locales:
+  en-US: {writer: test-writer, working_title: Test Series, length: 100 words}
+cover_prompt: A wordless test cover
+`);
+  await write(join(series, "locales/en-US/article.md"), "# Test Series\n\n## One\n\nThe child shouted, “Wait!”\n");
+  const script = join(series, "locales/en-US/audio_script.yaml");
+  await write(script, `audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts: {delivery: neutral, timbre: clear, pace: measured, pitch: medium}
+    child:
+      display_name: Child
+      tts: {delivery: direct, timbre: young, pace: natural, pitch: high}
+  chapters:
+    - id: ch01
+      title: One
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: The child shouted,
+        - id: ch01-b02
+          speaker: child
+          text: Wait!
+${emotion === undefined ? "" : `          emotion: ${emotion}\n`}`);
+  return { root, series, script };
+}
+
+async function checkSeriesFixture(fixture: SeriesFixture) {
+  try {
+    const result = await exec(process.execPath, [cli, relative(fixture.root, fixture.series)], { cwd: fixture.root });
+    return { code: 0, stdout: result.stdout, stderr: result.stderr };
+  } catch (error) {
+    const result = error as Error & { code: number; stdout: string; stderr: string };
+    return { code: result.code, stdout: result.stdout, stderr: result.stderr };
+  }
+}
+
 async function replace(path: string, from: string, to: string) {
   const contents = await readFile(path, "utf8");
   assert.ok(contents.includes(from), `fixture mutation source not found: ${from}`);
@@ -119,6 +176,18 @@ async function replace(path: string, from: string, to: string) {
 test("accepts distinct questions in different volumes of one series", async () => {
   const f = await fixture();
   assert.equal((await check(f)).code, 0);
+});
+
+test("accepts a supported emotion on an audio-script block", async () => {
+  const f = await seriesFixture("angry");
+  assert.equal((await checkSeriesFixture(f)).code, 0);
+});
+
+test("rejects an unsupported emotion on an audio-script block", async () => {
+  const f = await seriesFixture("excited");
+  const result = await checkSeriesFixture(f);
+  assert.equal(result.code, 1);
+  assert.match(result.stderr, /emotion must be one of happy, sad, angry, fearful, disgusted, surprised, calm/);
 });
 
 test("rejects volume 2 copying volume 1 question after whitespace and punctuation normalization", async () => {

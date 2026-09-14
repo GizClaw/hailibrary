@@ -6,7 +6,7 @@ Every content skill ends with the same-author loop: finish the output, execute e
 
 ## Source of truth
 
-- Series live at `works/series/<series-id>/`. `article.yaml` holds planning metadata; optional `research.yaml` records evidence. Each locale has an independently written native-language `locales/<locale>/article.md` and a faithful `audio_script.yaml` made by `$scriptize-article`.
+- Series live at `works/series/<series-id>/`. `article.yaml` holds planning metadata; optional `research.yaml` records evidence. Each locale has an independently written native-language `locales/<locale>/article.md` and a faithful `audio_script.yaml` made by `$scriptize-article`. Audio blocks contain `id`, `speaker`, and `text`, plus an optional `emotion` limited to `happy`, `sad`, `angry`, `fearful`, `disgusted`, `surprised`, or `calm`.
 - Picture books live at `works/<level>/<category>/<subcategory>/<slug>/`, limited to `aa`, `a` through `n`. Each derives from one series through required `book.yaml` `source: {series, volume, volumes}`; every volume has a complete beginning, development, turn, and resolution.
 - Schema-2 `book.yaml` contains `id`, `type`, `style`, `status`, `locales`, `labels`, `characters`, `cover`, and `source`. Characters have `id`, `kind`, `description`, and `visual_identity`; picture books have no voice identity or cast.
 - Schema-2 `artwork.yaml` declares Style, aspect ratio, prohibited embedded text, shared locale artwork, and cover/page assets. Each asset has an ID, WebP file, concise scene, and complete content/composition prompt; Style treatment stays in the referenced Style prompt.

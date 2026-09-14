@@ -43,7 +43,7 @@ build/
 
 Each `works/<work-id>/index.json` is a self-describing picture-book manifest. It lists locale story URLs, Writer and Style profile URLs, cover and page artwork URLs, source-series metadata, and referenced vocabulary-entry URLs. Locale files contain only that edition's prose, chapters, questions, and answers; picture books contain no cast or audio script.
 
-`series.json` is the lightweight Works index. Each `series/<series-id>/index.json` contains metadata, localized titles and Writers, locale article/audio URLs, the copied cover URL, and all derived books grouped in taxonomy level order and sorted by `source.volume`. Each `<locale>.json` contains only the parsed title, `##` chapters, and paragraphs. Optional `<locale>-audio.json` files preserve the complete future audiobook script.
+`series.json` is the lightweight Works index. Each `series/<series-id>/index.json` contains metadata, localized titles and Writers, locale article/audio URLs, the copied cover URL, and all derived books grouped in taxonomy level order and sorted by `source.volume`. Each `<locale>.json` contains only the parsed title, `##` chapters, and paragraphs. Optional `<locale>-audio.json` files preserve the complete audiobook script. Each audio block contains `id`, `speaker`, and `text`; character dialogue may also carry one optional MiniMax `emotion`: `happy`, `sad`, `angry`, `fearful`, `disgusted`, `surprised`, or `calm`. The catalog copies this field unchanged when present and does not emit it when absent.
 
 The website loads data by route:
 
