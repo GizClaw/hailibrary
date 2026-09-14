@@ -100,11 +100,11 @@ Dev saw the flash of yellow paper through the crowd. He reached for the remote. 
 
 Helper dropped the picture into the paper bin. The boy leaned over the rim but could not reach it. A gust snatched a small embroidered blanket from another chair. Helper turned toward it, green light blinking.
 
-“Main battery!” Nora shouted.
+“Emergency cutoff!” Nora shouted.
 
 She ran from the far side of the screen. Dev climbed over two rows of chairs and crushed somebody’s popcorn. Helper caught one corner of the blanket and dragged. Its owner held the other end. The motor whined.
 
-Dev reached the robot, tore open the rear cover, and pulled the red connector. The wheels stopped, but the claw remained locked. He and Nora loosened the joint with a wrench while the movie audience stood in a silent half circle.
+Dev reached the robot, opened the rear emergency flap, and pulled the insulated cutoff handle built for that purpose. The wheels stopped, but the claw remained locked. He and Nora loosened the joint with a wrench while the movie audience stood in a silent half circle.
 
 They recovered the planet picture. Spilled lemonade had soaked one corner, turning blue Saturn into a cloud. The boy took it without looking at them. The blanket carried a black wheel mark. From the bins they also retrieved a case containing someone’s dentures, cat food Mrs. Patel had set down, and Mr. Lewis’s box of screws.
 
@@ -158,7 +158,7 @@ Dev slid an empty bottle toward Helper. “It can suggest. It can’t throw anyt
 
 They removed autonomous collection completely. Helper would remain inside the sorting station. A resident had to place an item on a tray and press a button. The robot could suggest a bin, but it could not drop anything. An uncertain result stayed amber. Even a confident green result waited for human hands. Mr. Lewis received a physical key that cut power to the motors.
 
-Nora wired the key on a separate circuit, so it worked even if the computer failed. Dev disconnected the computer and tested it twelve times. Mrs. Patel held the tray while its motor pushed, making sure resistance caused it to release instead of fighting her.
+Nora wired the key on a separate circuit, so it worked even if the computer failed. Dev disconnected the computer and tested it twelve times. Mrs. Patel watched as they used a padded test block to resist the tray, making sure the motor released instead of pushing harder.
 
 Rebuilding took three weeks. Each time Dev tried to make Helper “smarter,” the test table defeated him: a muddy toy truck, an empty lunch container going home, headphones with a broken wire waiting to be repaired. Every object looked disposable. Every object had an owner ready to take it back.
 
@@ -176,7 +176,7 @@ There was no applause on the first day. Someone complained about pressing an ext
 
 On the third day, Mr. Lewis counted forty-two bin lids he had not lifted. He removed his gloves and flexed his fingers. “Now that is help.”
 
-On reopening day, there were no judges and no applause. Mrs. Patel arrived with a bag of empty bottles. She placed them on the tray one at a time. Helper gave six green lights. Her seventh item was the frame of an umbrella.
+Later that day, Mrs. Patel arrived with a bag of empty bottles. She placed them on the tray one at a time. Helper gave six green lights. Her seventh item was the frame of an umbrella.
 
 The camera blinked. Amber.
 
@@ -192,4 +192,4 @@ The boy ran over and picked up his picture. He checked the corners. Then he plac
 
 Helper turned amber.
 
-After thinking, the boy snapped off the lid and tucked it into his pocket. He pushed the box into recycling himself. Helper’s claw hung still while its green light shone in the evening air.
+After thinking, the boy snapped off the lid and tucked it into his pocket. He pushed the box into recycling himself. Helper’s claw hung still while its amber light shone in the evening air.
