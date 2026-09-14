@@ -5,7 +5,7 @@ description: Plan, research, write, and rigorously self-revise a complete ungrad
 
 # Write a series article
 
-Create or materially revise `works/series/<series-id>/article.yaml`, optional `research.yaml`, and every requested `locales/<locale>/article.md`. Follow `AGENTS.md`. Finish this source before `$scriptize-article` or `$adapt-article`.
+Create or materially revise `works/series/<series-id>/article.yaml`, optional `research.yaml`, and every requested `locales/<locale>/article.md`. Follow `AGENTS.md`. Finish this source before `$scriptize-article` or `$adapt-article`. Once the article and its Style are final, add a complete wordless `cover_prompt` to `article.yaml` and generate `cover.webp` with `npx --no-install hailibrary-imagegen works/series/<series-id>`.
 
 ## Plan
 

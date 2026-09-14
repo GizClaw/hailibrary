@@ -52,14 +52,15 @@ npm run check-work -- works/a/fiction/animals/the-lost-kite
 npx --no-install hailibrary-check-work works/a/fiction/animals/the-lost-kite
 ```
 
-根据已提交的 prompt 生成一本衍生绘本的封面、页面插图或词卡：
+根据已提交的 prompt 为任一支持的目标生图；不传路径时扫描全仓待生成目标：
 
 ```sh
-go run ./tools/imagegen works/a/fiction/animals/the-lost-kite
-go run ./tools/imagegen vocabulary/a/jump
+npx --no-install hailibrary-imagegen works/a/fiction/animals/the-lost-kite
+npx --no-install hailibrary-imagegen vocabulary/a/jump
+npx --no-install hailibrary-imagegen --dry-run
 ```
 
-命令从环境变量或仓库根目录 `.env` 读取 `OPENAI_API_KEY` 和可选的 `OPENAI_IMAGE_MODEL`，环境变量优先。
+命令支持绘本插图、系列封面、词卡、Writer 头像和 Style 缩略图，并在各目标的 `imagegen-state.yaml` 中记录可续作进度。Style ID 变化会重建整个目标，只有 prompt 变化时需显式使用 `--force`。命令从环境变量或仓库根目录 `.env` 读取 `OPENAI_API_KEY`、可选的 `OPENAI_IMAGE_MODEL` 和 `OPENAI_BASE_URL`，环境变量优先。全部参数和退出码见 `--help`。
 
 ## 项目 Skills
 

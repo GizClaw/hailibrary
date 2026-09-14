@@ -11,6 +11,9 @@ importers:
       '@hailibrary/check-work':
         specifier: workspace:*
         version: link:tools/check-work
+      '@hailibrary/imagegen':
+        specifier: workspace:*
+        version: link:tools/imagegen
 
   apps/web:
     dependencies:
@@ -80,6 +83,12 @@ importers:
     dependencies:
       yaml:
         specifier: ^2.8.1
+        version: 2.9.0
+
+  tools/imagegen:
+    dependencies:
+      yaml:
+        specifier: ^2.9.0
         version: 2.9.0
 
 packages:

@@ -42,26 +42,30 @@ The work path must be exactly two segments below `works/` for a series or four f
 Show image generator help without changing state:
 
 ```sh
-go run ./tools/imagegen --help
+npx --no-install hailibrary-imagegen --help
 ```
 
-Generate picture-book assets or one vocabulary card from committed prompts:
+Generate every pending repository image, or limit generation to one or more target directories:
 
 ```sh
-go run ./tools/imagegen works/<level>/<category>/<subcategory>/<slug>
-go run ./tools/imagegen vocabulary/<level>/<id>
-go run ./tools/imagegen --only cover,p01 --force --concurrency 2 --size 1536x1024 --quality high works/<level>/<category>/<subcategory>/<slug>
-go run ./tools/imagegen --only card --force --dry-run vocabulary/<level>/<id>
+npx --no-install hailibrary-imagegen
+npx --no-install hailibrary-imagegen works/<level>/<category>/<subcategory>/<slug>
+npx --no-install hailibrary-imagegen works/series/<id> prompts/writers/<locale>/<id>
+npx --no-install hailibrary-imagegen vocabulary/<level>/<id>
+npx --no-install hailibrary-imagegen --only cover,p01 --force --concurrency 2 --size 1536x1024 --quality high works/<level>/<category>/<subcategory>/<slug>
+npx --no-install hailibrary-imagegen --only card --force --dry-run vocabulary/<level>/<id>
 ```
 
-The tool accepts a schema-2 picture-book directory or a `vocabulary/<level>/<id>` directory. For books it combines each `artwork.yaml` asset prompt with the referenced Style prompt and derives size from `aspect_ratio`. For vocabulary it reads `entry.yaml.card_prompt`, writes the file named by `entry.yaml.card`, appends a fixed concise neutral illustration treatment plus the no-text rule, and defaults to `1024x1024`.
+With no directory arguments, the tool scans the repository. It recognizes schema-2 picture books, `works/series/<id>` covers, vocabulary cards, Writer avatars, and Style thumbnails. Picture books use `artwork.yaml` plus the referenced Style and derive size from `aspect_ratio`; series covers use `article.yaml.cover_prompt` and its Style; vocabulary cards use `entry.yaml.card_prompt` plus the built-in neutral treatment; Writer avatars use `avatar_prompt`; and Style thumbnails use `thumbnail_prompt` plus that Style's own prompt. Defaults are `1536x1024` for books with `3:2`, series covers, and Style thumbnails, and `1024x1024` for vocabulary cards and Writer avatars. Every final prompt prohibits embedded text. A missing optional prompt is reported and skipped for compatibility with older content.
 
-It reads `OPENAI_API_KEY`, optional `OPENAI_IMAGE_MODEL`, and optional `OPENAI_BASE_URL` from the process environment first and repository-root `.env` second. `OPENAI_BASE_URL` defaults to `https://api.openai.com` and may point to a proxy or gateway. By default it skips existing assets, uses two concurrent requests, and requests compressed WebP. `--only <id,...>`, `--force`, `--dry-run`, `--concurrency N`, `--model`, `--size`, and `--quality` apply to both directory types; the vocabulary asset ID is `card`. Exit status `0` means success/help, `1` generation or validation failure, and `2` invalid usage.
+Each target stores committed progress in `imagegen-state.yaml`: schema version, effective Style ID or `null`, model, and per-image status, timestamp, and optional error. A missing state or any status other than `done` is generated; each success or failure is persisted immediately so the next run resumes unfinished work. A changed Style ID regenerates the complete target. Prompt text changes, including edits to a Style prompt, do not regenerate completed images; use `--force` and optionally `--only` when that is intended. `--dry-run` prints planned images and a total without API calls or file writes.
+
+The tool reads `OPENAI_API_KEY`, optional `OPENAI_IMAGE_MODEL`, and optional `OPENAI_BASE_URL` from the process environment first and repository-root `.env` second. It uses two concurrent requests by default and requests compressed WebP. `--only <id,...>`, `--force`, `--dry-run`, `--concurrency N`, `--model`, `--size`, and `--quality` apply to every target. Exit status `0` means success/help, `1` generation or validation failure, and `2` invalid usage.
 
 ## Repository rules
 
 - Never embed provider keys or voice IDs. Keep `.env` ignored.
 - Writers express original preferences, not recognizable imitation; artwork prompts must not name living artists or protected characters.
 - Preserve all 29 Level files and ordered labels, but create picture books only at `aa` through `n`.
-- Generate book images and vocabulary cards only through `tools/imagegen` from committed prompts.
+- Generate book images, series covers, vocabulary cards, Writer avatars, and Style thumbnails only through `tools/imagegen` from committed prompts; commit each target's `imagegen-state.yaml` with its media.
 - Do not commit uncompressed generated PNG sources unless explicitly required.
