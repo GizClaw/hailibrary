@@ -27,40 +27,42 @@ chapters:
 questions:
   - id: q01
     type: sequence
-    prompt: 林遥先发现了什么？
-    answer: 十三路波束同时出现短促扫频。
+    prompt: 团队在提前开门之前，先怎样测试微波炉？
+    answer: 他们放入一杯水，让计时自然结束，还更换功率和机器。
     page_refs:
       - p02
       - p03
   - id: q02
     type: cause-effect
-    prompt: 为什么汤姆怀疑附近干扰？
-    answer: 因为远处点源通常不会同时照亮全部波束。
+    prompt: 为什么林遥不能把偶然出现的信号算作成功？
+    answer: 因为当时两台微波炉都在使用，无法判断是哪一个动作造成信号。
     page_refs:
-      - p03
       - p04
   - id: q03
     type: character-motive
-    prompt: 露丝为什么要求能失败的预测？
-    answer: 她想让测试有边界，不浪费观测时间。
+    prompt: 林遥为什么还要争取最后一次测试？
+    answer: 她想寻找日常使用与原来测试之间不同的动作，而不是重复失败步骤。
     page_refs:
-      - p08
+      - p05
+      - p06
   - id: q04
     type: evidence
-    prompt: 哪两条线索让团队看向厨房？
-    answer: 信号多在正午附近出现，高频活动也在白天更多。
+    prompt: 哪些结果证明提前开门是关键条件之一？
+    answer: 每次提前开门，弧线与高频活动都同时出现；碟面挡住厨房后，同样动作不再产生信号。
     page_refs:
-      - p09
+      - p10
       - p11
       - p12
   - id: q05
     type: main-idea
-    prompt: 林遥的计划怎样改变？
-    answer: 她从只查天空和设备，改为先查午餐时常用的微波炉。
+    prompt: 团队怎样把失败测试变成一条完整证据链？
+    answer: 他们从正常运行没有信号出发，找到提前开门这个动作，再用望远镜方向检验接收条件。
     page_refs:
+      - p02
+      - p03
       - p10
+      - p12
       - p13
-      - p14
 article:
   pages:
     - id: p01
