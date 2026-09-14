@@ -15,5 +15,12 @@ Write root `audio_script` with `language`, `cast`, and ordered chapters/blocks. 
 
 ## Author self-reflection
 
-After producing the script, the same author concatenates its spoken text and compares it word for word and in order with the article, fixes every discrepancy, and repeats until none remain. Confirm every quote has the correct speaker, narrator paragraphs and chapter order are intact, cast and IDs are complete and stable, and only indispensable audio attribution was added.
+This is the script's editorial review. The same author must execute every action, fix every finding, then restart the complete checklist until a fresh pass finds nothing:
 
+1. Reconstruct the article from the script in chapter and block order: restore quotation marks around character blocks where the source has them and remove only explicitly added audio attributions. Compare the reconstruction with `article.md` character for character, including paragraph order and punctuation. Fix every omission, repetition, reordering, paraphrase, or invented word.
+2. For every quoted span in the article, point to its script block and identify the speaking character from the surrounding source. Confirm the block uses that exact cast ID; split interrupted speech around narration and repair any guessed or swapped speaker.
+3. Mark every word present in the script but absent from the source. Keep only the shortest locale-natural speaker attribution required to disambiguate otherwise unclear consecutive dialogue by ear; delete stage directions, delivery notes, explanations, actions, emotions, transitions, and all other additions.
+4. Compare source headings and paragraph boundaries with script chapters and narrator newlines. Confirm source order is intact, natural chaptering is used only when headings are absent, speaker changes create blocks, adjacent same-speaker content is merged, and long narration is split only at an original paragraph boundary.
+5. Resolve every block speaker to one complete cast entry, verify sequential stable chapter and block IDs, and confirm TTS direction is abstract and reusable with no provider ID, SSML, filename, synthesis setting, or per-block voice data.
+
+Only hand off after the restarted checklist passes.

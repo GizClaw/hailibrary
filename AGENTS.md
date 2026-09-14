@@ -2,7 +2,7 @@
 
 HaiLibrary separates ungraded series literature from graded picture books. Codex writes source content and committed prompts directly; repository code never generates stories, literary text, or prompts.
 
-Every content skill ends with the same-author loop: finish the output, perform that skill's concrete self-reflection, fix every issue, and repeat until no issue remains.
+Every content skill ends with the same-author loop: finish the output, execute every item in that skill's concrete self-reflection checklist, fix every issue, and restart the complete checklist until a fresh pass finds no issue. This same-author self-reflection is the required editorial review; there is no separate review stage.
 
 ## Source of truth
 
@@ -20,6 +20,10 @@ Every content skill ends with the same-author loop: finish the output, perform t
 2. `$scriptize-article`: convert each final locale article into a faithful chaptered multi-speaker audiobook script and compare it back to the source.
 3. `$adapt-article`: derive complete `aa`–`n` picture-book volumes, stabilize prose and pagination, invoke `$vocabulary`, author artwork prompts, generate all images with `tools/imagegen`, visually inspect them, and run `check-work`.
 4. Use `$writer` or `$style` when creating or materially revising those reusable resources; each includes originality, usability, identity, and IP risk self-checks.
+
+After every skill finishes creating or changing content, execute its self-reflection checklist item by item. Do not replace the concrete actions with a general quality judgment, check only edited lines, or hand off after fixes without restarting the full checklist.
+
+Before opening a content pull request, create or identify a natively linked Issue. The Issue must state the source series path and every derived volume path; exact level; category and subcategory; Chinese and English Writer IDs; Style ID; learning goals; page count and illustration count for every volume; and measurable acceptance criteria covering successful `hailibrary-check-work`, complete generated images and matching `imagegen-state.yaml`, Git LFS coverage, and page-level evidence for every question.
 
 Browse primary or authoritative sources for checkable article claims and live monolingual dictionaries, language standards, and curriculum sources for vocabulary evidence. Tools may validate, compile, render, and generate images only from committed prompts. Preserve image bytes for text-only changes.
 

@@ -15,14 +15,15 @@ For a new or changed card, run `npx --no-install hailibrary-imagegen vocabulary/
 
 ## Author self-reflection
 
-After producing the entry and card, the same author fixes every issue found and repeats this check until none remain:
+This is the entry's lexical and visual review. The same author must execute every action, fix every finding, and restart the complete checklist until a fresh pass finds nothing:
 
-- Does each term express the same story sense and grammatical role across locales?
-- Do definitions, part of speech, pronunciation, pinyin or IPA, forms, writing data, and alignments exactly match the cited live evidence?
-- Are inline surfaces present forms, and is the selected level supported rather than inferred from familiarity or another locale?
-- Is `card_prompt` concrete, wordless, culturally neutral where appropriate, and centered on the shared concept?
-- Does the generated card contain no text and clearly express that concept without contradicting a locale?
-- Do affected books pass the deterministic checker?
+1. Open every inline occurrence in every affected book. For each locale, write down the exact surface, sentence context, intended sense, and grammatical role; confirm all locales express the same shared concept rather than merely dictionary translations.
+2. Open the current authoritative monolingual dictionary or normative source for each locale and locate the exact sense. Verify term, part of speech, pronunciation, region, register, learner definition, forms, and writing metadata field by field. Use a second independent source for ambiguous sense, pronunciation, region, polyphony, simplification, or part of speech, and record source URLs and access details in the entry's evidence structure.
+3. For every pronunciation, compare the stored value symbol by symbol with the source: broad American English IPA where declared; standard Putonghua pinyin, tone marks, neutral tone, syllable spelling, and exact polyphonic reading for `zh-CN`. Do not combine transcription systems or infer a word's reading from one character.
+4. For every alignment, open the declared curriculum or assessment document and locate the exact edition, list, headword or whole Chinese word, grade/level, recognition-versus-writing scope, and page or appendix. Delete unsupported alignments; never infer them from familiarity, another locale, English Lexile, frequency rank alone, or familiarity of component Chinese characters.
+5. Compare every inline surface literally with `term` and `forms`; add only evidence-supported forms and fix stale or mismatched markers. Confirm directory ID, entry ID, level, schema, required locale coverage, card path, and index usage agree.
+6. Read `card_prompt` against the shared sense. Confirm it shows one concrete, culturally appropriate concept without relying on spelling, typography, flags, locale-specific wordplay, or a scene that supports only one locale.
+7. Open `card.webp` at original pixels. Confirm the intended concept is immediately recognizable, no text or symbol acts as a label, no locale is contradicted, and the image is original, safe, WebP, and covered by Git LFS. Correct the prompt, regenerate, and reopen when needed.
+8. Run the deterministic checker for every affected book, fix all findings, and restart this full checklist.
 
-Only deliver the corrected entry and inspected card.
-
+Only deliver the corrected entry and inspected card after the restarted checklist passes.
