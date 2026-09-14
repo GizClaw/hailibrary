@@ -8,21 +8,23 @@ Hai! Library is an AI-assisted graded reading library for language learners of a
 works/<level>/<category>/<subcategory>/<title>/
 ```
 
-Books are authored as YAML. Every locale targets the directory level, shares the same wordless page illustrations, and identifies speakers for future TTS. Codex creates and reviews content by following `AGENTS.md`; this repository contains no model-calling generation harness.
+Ungraded multilingual literature lives under `works/series/`: each locale Writer independently writes a native-language `article.md`, and `$scriptize-article` creates its audiobook script. Graded picture books are derivatives under `works/<level>/...`, limited to `aa` through `n`; they share wordless artwork, use schema-version-3 page text, and have no audio script.
+
+Codex writes articles and committed artwork prompts by following `AGENTS.md`. Repository code never generates stories or prompts. Cover, page, and vocabulary-card images are generated only by `tools/imagegen` from committed prompts.
 
 Vocabulary lives under `vocabulary/<level>/<id>/`. Target words are marked inline in story content; one entry contains all localized terms and one shared word-card image.
 
 See `prompts/levels/index.yaml` and the exact files in `prompts/levels/<level>.yaml` for the draft level standard, `prompts/vocabulary/index.yaml` for concrete vocabulary datasets and provenance, `prompts/vocabulary/ranges.yaml` for locale-specific grading criteria, and `docs/catalog.md` for the sharded runtime JSON design.
 
-## Content quality harness
+## Content quality
 
-Hai! Library uses a layered review harness rather than trusting a single generation or review pass:
+Hai! Library combines explicit source contracts, same-author self-reflection, and deterministic validation:
 
-- source rules constrain every work's level, structure, locales, speakers, questions, vocabulary, and shared artwork;
+- source rules separate series literature and audiobooks from graded picture-book structure, questions, vocabulary, and shared artwork;
 - the local checker validates schemas, cross-locale page alignment, referenced Writers, Styles, vocabulary entries, files, and Git LFS resources;
-- native-language review reads each locale independently and consults live monolingual dictionaries, language standards, corpora, and genre-matched native writing when usage is uncertain;
-- full-work review checks level fit, narrative coherence, question evidence, vocabulary, artwork, and independently verifies real-world claims with authoritative web sources;
-- after any fix, the complete deterministic and editorial reviews run again. A work is ready only when the checker passes and a fresh review reports no findings.
+- each of the six content Skills finishes its output, performs a task-specific self-reflection, fixes every issue, and repeats until clear;
+- article research uses authoritative sources, while vocabulary creation verifies live dictionaries, language standards, and curriculum evidence;
+- `$adapt-article` generates and inspects artwork, then fixes deterministic checker failures.
 
 This process cannot make machine-authored content infallible, but it makes the evidence, failure conditions, and required human escalation explicit and repeatable. The detailed contract lives in `AGENTS.md` and `.agents/skills/`.
 
@@ -50,19 +52,24 @@ The same local CLI can also be invoked directly with:
 npx --no-install hailibrary-check-work works/a/fiction/animals/the-lost-kite
 ```
 
+Generate a derived book's committed cover/page assets or a vocabulary card with:
+
+```sh
+go run ./tools/imagegen works/a/fiction/animals/the-lost-kite
+go run ./tools/imagegen vocabulary/a/jump
+```
+
+The command reads `OPENAI_API_KEY` and optional `OPENAI_IMAGE_MODEL` from the environment or repository-root `.env`; environment variables take precedence.
+
 ## Project Skills
 
 Codex can discover the repository Skills in `.agents/skills/` automatically. They can also be invoked explicitly:
 
 ```text
-$create-work
-$review-native-language
-$review-work
-$create-vocabulary
-$review-vocabulary
-$create-writer
-$review-writer
-$create-style
-$review-style
-$review-artwork
+$write-article
+$scriptize-article
+$adapt-article
+$vocabulary
+$writer
+$style
 ```

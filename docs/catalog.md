@@ -1,6 +1,6 @@
 # Static API catalog
 
-Books are authored as YAML. The TypeScript catalog build emits a versioned, read-only static API that the website and other clients consume directly.
+Ungraded source literature and audiobook scripts live under `works/series/`. Picture books at levels `aa` through `n` derive from those series and store schema-version-3 locale page text. The current catalog intentionally compiles only derived picture books; the website does not load series `article.md` or `audio_script.yaml`.
 
 ```text
 build/
@@ -35,7 +35,7 @@ build/
 
 `catalog.json` is the only global entry point. It contains supported locales, taxonomy, page indexes, and an array of lightweight catalog-shard descriptors. Each descriptor points to one independently cacheable `catalog/<level>-<category>-<subcategory>.json` file.
 
-Each `works/<work-id>/index.json` is a self-describing book manifest. It lists locale story URLs, Writer and Style profile URLs, cover and page artwork URLs, and every referenced vocabulary-entry URL. Locale files contain only that edition's prose, cast, chapters, questions, and answers.
+Each `works/<work-id>/index.json` is a self-describing picture-book manifest. It lists locale story URLs, Writer and Style profile URLs, cover and page artwork URLs, source-series metadata, and referenced vocabulary-entry URLs. Locale files contain only that edition's prose, chapters, questions, and answers; picture books contain no cast or audio script.
 
 The website loads data by route:
 

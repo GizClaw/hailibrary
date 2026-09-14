@@ -27,15 +27,12 @@ type StorySource = {
   writer: string;
   title: string;
   summary: string;
-  article?: { pages: Array<{ id: string; illustration: string; paragraphs: unknown[] }> };
-  audio_script?: { cast: Record<string, unknown>; pages: Array<{ id: string; illustration: string; lines?: unknown[]; blocks?: unknown[] }> };
-  cast?: Record<string, unknown>;
-  chapters?: Array<{ id: string; title?: string; pages: string[] }>;
-  pages?: Array<{ id: string; illustration: string; lines?: unknown[]; blocks?: unknown[] }>;
+  article: { pages: Array<{ id: string; illustration: string; paragraphs: unknown[] }> };
+  chapters?: Array<{ id: string; title?: string; page_refs: string[] }>;
   questions?: unknown[];
 };
 
-const visiblePages = (story: StorySource) => story.article?.pages ?? story.pages ?? [];
+const visiblePages = (story: StorySource) => story.article.pages;
 
 type WriterSource = {
   id: string;
@@ -140,7 +137,7 @@ async function findBookDirs(base: string, depth = 0): Promise<string[]> {
   if (entries.some((entry) => entry.isFile() && entry.name === "book.yaml")) return [base];
   if (depth >= 4) return [];
   const nested = await Promise.all(
-    entries.filter((entry) => entry.isDirectory()).map((entry) => findBookDirs(join(base, entry.name), depth + 1)),
+    entries.filter((entry) => entry.isDirectory() && !(depth === 0 && entry.name === "series")).map((entry) => findBookDirs(join(base, entry.name), depth + 1)),
   );
   return nested.flat();
 }
