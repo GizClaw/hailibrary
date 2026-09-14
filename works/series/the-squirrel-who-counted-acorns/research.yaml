@@ -1,47 +1,28 @@
 schema_version: 1
-subject: Scatter-hoarding squirrels, acorn recovery, and oak regeneration
-scope_note: The characters speak and Hazel counts as declared animal-story invention. Ecological behavior and seasonal causality follow the evidence below without claiming that real squirrels count this way or simply forget every unrecovered cache.
-claims:
-  - id: scatter-hoarding
-    claim: Some tree squirrels store individual acorns or small groups in many widely separated caches rather than one central store.
-    sources: [usfs-cache-study, squirrel-oak-review]
-  - id: recovery-and-loss
-    claim: Scatter-hoarders recover many caches using spatial memory and other cues, but some cached acorns remain unrecovered; loss can also result from theft, death, or other causes, so the story treats forgetting as one possible cause rather than the only one.
-    sources: [scatter-hoarding-history, squirrel-oak-review]
-  - id: burial-and-germination
-    claim: Shallow burial and dispersal away from the parent tree can place some acorns in suitable conditions to germinate and can contribute to oak recruitment.
-    sources: [usfs-cache-study, usfs-black-oak, squirrel-oak-review]
-  - id: seasonal-sprouting
-    claim: An intact unrecovered acorn may germinate when conditions become favorable; the story shows shoots in spring but does not imply that every buried acorn survives or sprouts.
-    sources: [nps-oaks, usfs-black-oak]
+required: true
+notes: "The characters speak and Hazel counts as declared animal-story invention. Ecological behavior and seasonal causality follow the evidence below without claiming that real squirrels count this way or simply forget every unrecovered cache."
 sources:
-  - id: usfs-cache-study
-    title: Mammal Caching of Oak Acorns in a Red Pine and a Mixed-Oak Stand
-    organization: United States Forest Service research archive
-    url: https://www.nrs.fs.usda.gov/pubs/ch/ch08/chvolume08page299.pdf
-    accessed: 2026-09-14
-    supports: Defines scatter-hoarding as numerous widely scattered small caches and explains why burial and distribution can benefit oak regeneration.
-  - id: usfs-black-oak
-    title: Quercus kelloggii, California black oak
-    organization: United States Forest Service, Fire Effects Information System
-    url: https://research.fs.usda.gov/feis/species-reviews/quekel
-    accessed: 2026-09-14
-    supports: Documents squirrels as important acorn cachers and dispersers that move and bury acorns away from parent trees.
-  - id: squirrel-oak-review
-    title: "Squirrel-Seed Interactions: The Evolutionary Strategies and Impact of Squirrels as Both Seed Predators and Seed Dispersers"
-    organization: Frontiers in Ecology and Evolution
-    url: https://doi.org/10.3389/fevo.2020.00259
-    accessed: 2026-09-14
-    supports: Peer-reviewed synthesis of squirrel scatter-hoarding decisions and their effects on seed dispersal and establishment across oak systems.
-  - id: scatter-hoarding-history
-    title: The history of scatter hoarding studies
-    organization: Philosophical Transactions of the Royal Society B
-    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2830248/
-    accessed: 2026-09-14
-    supports: Reviews cache spacing, recovery, pilferage, and the role of unrecovered buried seeds in plant dispersal.
-  - id: nps-oaks
-    title: Oak Trees
-    organization: U.S. National Park Service, Grand Canyon-Parashant National Monument
-    url: https://www.nps.gov/para/learn/nature/oak-trees.htm
-    accessed: 2026-09-14
-    supports: Public-agency explanation that some cached acorns left in the soil can sprout when weather warms.
+  - url: "https://www.nrs.fs.usda.gov/pubs/ch/ch08/chvolume08page299.pdf"
+    authority: "United States Forest Service research archive; Mammal Caching of Oak Acorns in a Red Pine and a Mixed-Oak Stand; accessed 2026-09-14"
+    claims:
+      - "Some tree squirrels store individual acorns or small groups in numerous widely scattered caches."
+      - "Burial and distribution away from a parent tree can benefit oak regeneration."
+  - url: "https://research.fs.usda.gov/feis/species-reviews/quekel"
+    authority: "United States Forest Service Fire Effects Information System; Quercus kelloggii, California black oak; accessed 2026-09-14"
+    claims:
+      - "Squirrels are important acorn cachers and dispersers that move and bury acorns away from parent trees."
+      - "Some buried acorns can germinate when conditions are favorable."
+  - url: "https://doi.org/10.3389/fevo.2020.00259"
+    authority: "Frontiers in Ecology and Evolution peer-reviewed review; Squirrel-Seed Interactions; accessed 2026-09-14"
+    claims:
+      - "Scatter-hoarding decisions affect seed dispersal and establishment across oak systems."
+      - "Not every cached acorn is recovered or survives to grow."
+  - url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2830248/"
+    authority: "Philosophical Transactions of the Royal Society B review; The history of scatter hoarding studies; accessed 2026-09-14"
+    claims:
+      - "Scatter-hoarders use spatial memory and other cues to recover many caches."
+      - "Pilferage and unrecovered buried seeds are among the possible outcomes of caching."
+  - url: "https://www.nps.gov/para/learn/nature/oak-trees.htm"
+    authority: "U.S. National Park Service; Oak Trees; accessed 2026-09-14"
+    claims:
+      - "Some cached acorns left in soil can sprout when weather warms."
