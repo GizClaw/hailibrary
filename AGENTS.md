@@ -143,6 +143,24 @@ The work path may be absolute or relative to the repository root, but it must re
 
 Whenever a repository package adds another `bin` command, add its `--help` invocation, arguments, examples, effects, and exit statuses to this section in the same change. Every CLI must implement `-h` and `--help` without changing repository state.
 
+### `imagegen`
+
+Show the image generator's built-in help without changing repository state:
+
+```sh
+go run ./tools/imagegen --help
+```
+
+Generate the missing WebP cover and page illustrations declared by one picture book, or select assets and override generation settings:
+
+```sh
+go run ./tools/imagegen works/<level>/<category>/<subcategory>/<slug>
+go run ./tools/imagegen --only cover,p01 --force --concurrency 2 --size 1536x1024 --quality high works/<level>/<category>/<subcategory>/<slug>
+go run ./tools/imagegen --dry-run works/<level>/<category>/<subcategory>/<slug>
+```
+
+The tool reads `OPENAI_API_KEY`, optional `OPENAI_IMAGE_MODEL`, and optional `OPENAI_BASE_URL` from the process environment first and the repository-root `.env` second. It reads only the committed prompts in the work's `artwork.yaml` and referenced Style `prompt.yaml`; repository tooling must not generate stories or prompts. By default it skips existing assets, uses two concurrent requests, derives the image size from `aspect_ratio`, and asks the API for compressed WebP output. Use `--only <id,...>` to select assets, `--force` to overwrite them, `--dry-run` to print final prompts without an API call or file writes, `--concurrency N` to set parallelism, `--model` to override the model, `--size` to override dimensions, and `--quality` to set image quality. Exit status `0` means success, `1` means generation or validation failed, and `2` means command usage was invalid.
+
 ## Repository rules
 
 - Repository tooling must never generate stories, prompts, or artwork.
