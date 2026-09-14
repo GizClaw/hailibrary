@@ -90,7 +90,7 @@ On March 12 they pointed the telescope toward directions associated with earlier
 
 Mara removed her headset. “Give me one more window. Not another repeat of today. I want to know what ordinary use does that our test does not.”
 
-Tom leaned against the doorway, turning the cold mug between his palms. “Ordinary people don't always wait for the beep. If five seconds feel too long, they pull the door.”
+Tom leaned against the doorway, turning the cold mug between his palms. “Ordinary use has one action our test left out. Some people pull the door before the beep. That is not a kitchen experiment to copy. If we test it, trained staff must do it under Ruth's approved maintenance plan.”
 
 Ruth looked up. “You are proposing an action, not a machine.”
 
@@ -100,7 +100,7 @@ Ruth closed the folder. “Twenty minutes in the maintenance window. Write the s
 
 ## When the Door Opened
 
-On March 17, sunlight came through the Woolshed blinds in bright bars. The microwave was older than Mara, with fine scratches along its cream-colored case. Tom placed the mug of water inside. Mara remained at the control-room displays while Ruth stood between the two rooms with a radio and a clock.
+On March 17, sunlight came through the Woolshed blinds in bright bars. The microwave was older than Mara, with fine scratches along its cream-colored case. Tom placed the mug of water inside. Mara remained at the control-room displays while Ruth stood between the two rooms with a radio and a clock. This was a controlled test during scheduled maintenance, performed only by trained observatory staff. Children and ordinary kitchen users should never open or tamper with an operating microwave.
 
 For the first run, Tom let the magnetron operate for several seconds. Then he pulled open the door.
 
