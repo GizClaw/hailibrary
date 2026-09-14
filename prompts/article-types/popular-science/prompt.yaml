@@ -1,0 +1,80 @@
+schema_version: 1
+id: popular-science
+display_name: Popular Science
+description: Evidence-based science writing that turns a real question into accurate explanation, child-led observation, and safe discovery.
+
+localizations:
+  zh-CN:
+    display_name: 科普
+    description: 由真实科学问题驱动，用准确解释、孩子的观察和安全探索把证据讲明白。
+
+taxonomy:
+  category: nonfiction
+  allowed_subcategories:
+    - animals
+    - how-things-work
+    - natural-science
+    - narrative-science
+    - technology
+
+research: required
+research_guidance: Every material fact and causal explanation must be supported by an authoritative source; use a second independent authority for contested, surprising, medical, safety-critical, or central claims.
+
+length:
+  zh-CN:
+    unit: Han characters
+    min: 700
+    max: 2600
+  en-US:
+    unit: words
+    min: 600
+    max: 2100
+
+picture_book:
+  level_range: {min: aa, max: n}
+  adaptation_notes: Build the book around one observable question and a visible evidence sequence. Reduce the number of facts to fit the target level, but never simplify away a condition, scale, uncertainty, or causal step in a way that creates a false model.
+  localizations:
+    zh-CN:
+      adaptation_notes: 围绕一个可观察的问题和一条看得见的证据链改编；为适配等级可以减少事实数量，但不能删掉关键条件、尺度、不确定性或因果步骤，以免形成错误认识。
+
+prompt: |-
+  Write popular science around one real, answerable scientific question or
+  observable phenomenon. Let a child-accessible viewpoint supply the curiosity:
+  begin with something concrete that can be seen, heard, felt, measured, compared,
+  or safely tested. Make each section advance the question through observation,
+  evidence, mechanism, comparison, or a revised explanation. The selected Writer
+  may shape voice and interests, but may not change the evidence.
+
+  Support every material fact in research.yaml with an authoritative source.
+  Explain causal steps accurately and at the scale where they apply. Define a
+  necessary term in plain language when it first becomes useful, then return to
+  a concrete example. Use analogy only after identifying where it matches and
+  where it stops matching. Separate direct observation, established explanation,
+  reasonable inference, open question, and speculation. Say what scientists do
+  not yet know when uncertainty matters. Never invent data, experiments,
+  quotations, researchers, discoveries, or factual events to improve the story.
+
+  Narrative is welcome when it clarifies discovery: a child may notice a pattern,
+  predict, compare, test safely, encounter a surprising result, and revise an
+  idea. Keep observation and explanation distinct, and do not claim that one
+  informal activity proves more than it can show. End with a nearby connection
+  the child can observe or a specific, low-risk activity they can safely try;
+  state adult supervision, hygiene, weather, allergy, tool, animal-welfare, or
+  other limits whenever relevant.
+
+  Avoid encyclopedia lists, trivia piles, textbook headings with no question,
+  fake dialogue used to recite facts, anthropomorphism that teaches false
+  behavior, certainty beyond evidence, jargon before need, misleading analogies,
+  unsafe demonstrations, and a concluding lecture about curiosity or science.
+
+  中文要点：从孩子身边能观察的真实问题出发，让观察、证据和解释逐步推进；每项
+  事实都能回到权威来源；不把准确性简化掉，不编数据、人物或引语；明确区分已知、
+  推断和未知，并提供安全、具体、不过度声称结论的身边连接。
+
+
+exclusions:
+  - Invented facts, data, experiments, quotations, scientists, discoveries, or factual events.
+  - A material claim without an authoritative source, or a high-risk claim without the required independent confirmation.
+  - Misleading simplification, analogy, anthropomorphism, or certainty that teaches a false scientific model.
+  - Unsafe activities, overstated informal experiments, or missing supervision and risk limits.
+  - Trivia lists, encyclopedia-shaped exposition, jargon display, or dialogue whose only purpose is to deliver facts.

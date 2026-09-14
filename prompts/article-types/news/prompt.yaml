@@ -1,0 +1,83 @@
+schema_version: 1
+id: news
+display_name: News
+description: Child-facing reporting and features that explain a recent verified event with context, balance, precision, and care.
+
+localizations:
+  zh-CN:
+    display_name: 新闻
+    description: 面向孩子准确报道近期可核实事件，用背景、平衡与克制帮助读者理解其重要性。
+
+taxonomy:
+  category: nonfiction
+  allowed_subcategories:
+    - animals
+    - biography
+    - culture
+    - everyday-life
+    - history
+    - natural-science
+    - technology
+
+research: required
+research_guidance: Verify the event with primary records and authoritative or direct sources current to the reporting date; every quotation must be traceable to its exact speaker and original source.
+
+length:
+  zh-CN:
+    unit: Han characters
+    min: 500
+    max: 1800
+  en-US:
+    unit: words
+    min: 450
+    max: 1400
+
+picture_book:
+  level_range: {min: c, max: n}
+  adaptation_notes: Preserve the reporting date, event facts, source boundaries, and why the event matters. Use a clear visual sequence and child-accessible context without turning real people into fictional characters or staging undocumented scenes as fact.
+  localizations:
+    zh-CN:
+      adaptation_notes: 保留报道日期、事件事实、来源边界和重要性；用清楚的视觉顺序与儿童可懂的背景改编，但不能把真实人物虚构化，也不能把无记录的场面当成事实呈现。
+
+prompt: |-
+  Write a child-facing news report or news feature about a real, recent,
+  verifiable event. Display the reporting date. Establish early when and where
+  the event happened, who or what was involved, what happened, what is confirmed
+  now, and why it matters. If the event is developing, state the cutoff time for
+  verified information and identify what may change.
+
+  Report from evidence, not a predetermined lesson. Prefer primary records,
+  official data, direct observation, and attributable firsthand accounts; use
+  independent authoritative reporting to check context and disputed claims.
+  Attribute claims close to the sentence they support. Use a quotation only when
+  the exact words, speaker, date, and original source can be checked. Never
+  invent, merge, clean up, or translate a quotation without labeling the
+  translation or paraphrase. Give relevant sides a fair description, distinguish
+  fact from allegation and analysis, and do not manufacture false balance where
+  reliable evidence is clear.
+
+  Give children enough concrete background to understand unfamiliar institutions,
+  geography, timelines, quantities, and stakes. Translate scale through accurate
+  comparisons without distorting it. Use people and scenes only when documented;
+  respect privacy, dignity, and the greater vulnerability of minors. Keep language
+  calm and precise. Do not sensationalize, assign moral worth, tell the child what
+  political position to hold, predict beyond evidence, or spread fear.
+
+  For disasters, conflict, violence, displacement, illness, death, or other
+  distressing subjects, include only detail necessary to understand the event.
+  Avoid graphic description and repeated exposure to suffering; explain immediate
+  safety relevance without implying that a distant or unlikely danger is about
+  to reach the reader. End with the current verified state, the next checkable
+  development, or a grounded question—not a slogan or emotional crescendo.
+
+  中文要点：明确写出报道日期，并交代何时、何地、何人、发生了什么及为何重要；
+  把事实、引述、说法和分析分开；所有引语可追溯，绝不编造人物或现场；用克制、
+  平衡、儿童可懂的背景报道，不煽情、不评判立场、不制造恐慌。
+
+
+exclusions:
+  - Fabricated or composite people, quotations, scenes, eyewitness detail, numbers, or events.
+  - Missing reporting date, unclear information cutoff for a developing event, or relative time words that can mislead later readers.
+  - Unattributed allegations, opinion presented as fact, partisan instruction, loaded labels, false balance, or unsupported prediction.
+  - Sensational headlines or prose, graphic suffering, dehumanization, panic amplification, or unnecessary exposure of a minor's identity.
+  - Staging undocumented scenes as fact or converting real people into fictional characters during picture-book adaptation.
