@@ -10,9 +10,10 @@ This repository is a multilingual graded-reading library. Codex creates the sour
 - Every locale references exactly one original Writer directory at `prompts/writers/<locale>/<name>/`, containing `prompt.yaml` and `avatar.webp`.
 - Every book references exactly one visual Style directory at `prompts/styles/<name>/`, containing `prompt.yaml` and `thumbnail.webp`. All locale editions share that artwork.
 - Every locale Writer independently authors `article.md` from the shared events. It is the authoritative literary source for events, facts, characters, point of view, voice, and ending; it is not a translation of another locale and is not constrained by the directory level.
-- Every locale targets the directory level by adapting its own novel with `$adapt-article`, not by translating another locale. `story.yaml` schema version 2 persists the level-bound visible text in `article.pages[].paragraphs[]`; `audio_script.cast` plus `audio_script.pages[].blocks[]` is the TTS adaptation shown in script mode. Every script block has a stable ID joining one future audio clip to one subtitle cue. Visible prose must use natural quotation and attribution; speaker IDs never repair or replace readable prose.
+- Every locale targets the directory level by adapting its own novel with `$adapt-article`, not by translating another locale. `story.yaml` schema version 2 persists the level-bound visible text in `article.pages[].paragraphs[]`. Picture-book page text is sent directly to TTS and has no `audio_script` layer. Visible prose must use natural quotation and attribution.
 - Every page has exactly one shared, wordless illustration. All locales use the same page IDs and artwork.
-- Mark target words inline in visible `article` paragraph content and preserve them in the corresponding `audio_script` block content; do not maintain a separate page vocabulary list.
+- Mark target words inline in visible `article` paragraph content; do not maintain a separate page vocabulary list.
+- Store complete, ungraded series works at `works/series/<id>/`. For each locale, `locales/<locale>/article.md` is the authoritative literary source and `audio_script.yaml` is its chaptered multi-speaker audiobook script. Series character IDs come from `works/series/<id>/article.yaml`.
 - Store each referenced concept at `vocabulary/<level>/<id>/entry.yaml` with one shared wordless `card.webp`; keep all localized terms inside that entry. External curriculum alignments are references, not substitutes for the HaiLibrary level review.
 - Use only controlled discovery labels from `prompts/labels/index.yaml`. Store stable label IDs in `book.labels`; localized display names belong in the central label index, not in individual books.
 - Track publishable images, audio, music, and video with Git LFS.
@@ -28,17 +29,14 @@ When asked to create or revise a book:
 5. Design shared events, learning goals, factual boundaries, characters, and a shared page plan. A level measures the later reading adaptation, not the literary ambition of the source novel.
 6. From those shared events, let each locale Writer independently draft `locales/<locale>/article.md` as continuous natural prose using its `prompt` and `language_prompt`. Do not apply level ceilings, paginate, plan questions, or add IDs, metadata, or vocabulary markers. Review and fix each novel as literature before adaptation.
 7. Run `$adapt-article` for every locale. Apply the exact level and vocabulary contracts while faithfully adapting the locale's own novel into `story.yaml` `article.pages[].paragraphs[]` on the shared page and illustration IDs.
-8. Define every narrator and character in `book.yaml`; define localized display names and complete abstract TTS direction (`delivery`, `timbre`, `pace`, and `pitch`) once in `audio_script.cast`.
-9. Run `$scriptize-article` on each adapted `article.pages`. Preserve order, facts, causality, vocabulary markers, and speaker intent in `audio_script.pages[].blocks[]`; assign stable `<page-id>-b<two-digit-index>` IDs.
-10. Keep article and audio-script page IDs and illustration IDs exactly aligned. `article.md` is authoritative for the story, `article.pages` for visible level-bound wording, and `audio_script` for voice assignment. The web app reads only `story.yaml` and compiled JSON.
-11. Mark target words already present in adapted text and run `$create-vocabulary` for every new entry or card and `$review-vocabulary` for every new, reused, or changed entry.
-12. Define chapters that cover every page exactly once and in reading order; add questions only after the adaptation is stable, with answers supported by declared page evidence.
-13. Keep page IDs, meaning, characters, and illustration IDs aligned across locales; never use another locale's novel, adaptation, or script as the sentence template.
-14. For a new work, generate the cover and every page illustration directly with Codex image generation using the selected Style. For an existing work under a text-only revision, preserve every image byte-for-byte unless the user explicitly authorizes visual changes. Images must contain no words, letters, numbers, logos, captions, speech bubbles, or watermarks.
-15. For new artwork, save compressed `.webp` images under the book's `artwork/` directory and describe each scene in `artwork.yaml`. Do not recompress, rename, or rewrite existing visual resources during a text-only task.
-16. Visual artwork review is optional and out of scope by default: run `$review-artwork` only when visual review is in scope as defined under "Visual review scope" below. During a text-only review-fix loop, treat visuals as fixed scene constraints and solve compatibility issues in the text; do not regenerate images.
-17. Run `npm run check-work -- <work-directory>` and fix every deterministic resource error.
-18. Run the `review-fix-loop` before marking the work ready for PR review.
+8. Mark target words already present in adapted text and run `$create-vocabulary` for every new entry or card and `$review-vocabulary` for every new, reused, or changed entry.
+9. Define chapters that cover every page exactly once and in reading order; add questions only after the adaptation is stable, with answers supported by declared page evidence.
+10. Keep page IDs, meaning, characters, and illustration IDs aligned across locales; never use another locale's novel or adaptation as the sentence template.
+11. For a new work, generate the cover and every page illustration directly with Codex image generation using the selected Style. For an existing work under a text-only revision, preserve every image byte-for-byte unless the user explicitly authorizes visual changes. Images must contain no words, letters, numbers, logos, captions, speech bubbles, or watermarks.
+12. For new artwork, save compressed `.webp` images under the book's `artwork/` directory and describe each scene in `artwork.yaml`. Do not recompress, rename, or rewrite existing visual resources during a text-only task.
+13. Visual artwork review is optional and out of scope by default: run `$review-artwork` only when visual review is in scope as defined under "Visual review scope" below. During a text-only review-fix loop, treat visuals as fixed scene constraints and solve compatibility issues in the text; do not regenerate images.
+14. Run `npm run check-work -- <work-directory>` and fix every deterministic resource error.
+15. Run the `review-fix-loop` before marking the work ready for PR review.
 
 Works created before this pipeline have no `article.md`. Add one only as a real locale novel, then re-adapt the work from it; never backfill it from existing page text.
 
@@ -48,7 +46,7 @@ Use `$adapt-article` after the locale novel is complete. It reads `article.md`, 
 
 ## `scriptize-article` workflow
 
-Use `$scriptize-article` only after `$adapt-article` has completed `story.yaml` `article.pages`. It writes `audio_script` with stable block IDs for clip/subtitle alignment and stable `speaker` IDs for TTS, preserves inline vocabulary markers, retains narration where exposition belongs, and converts material into dialogue only when a character has an immediate reason to speak. It must not return to or rewrite `article.md`, replace the visible adaptation, invent story, generate artwork, or create vocabulary entries.
+Use `$scriptize-article` only for a complete, ungraded series work at `works/series/<id>/locales/<locale>/article.md`. It writes `audio_script.yaml` beside the source as a faithful, chaptered multi-speaker audiobook script. Preserve `## ` chapters or divide an unheaded work at natural scene transitions into 3–7 chapters; use `ch01` chapter IDs and `<chapter-id>-b<two-digit-index>` block IDs. Prefer character IDs from the series `article.yaml`, add other speaking characters to the cast, and define abstract `delivery`, `timbre`, `pace`, and `pitch` without provider voice IDs, SSML, or audio filenames. Narration reads all prose outside quotation marks verbatim, including speech tags and action; quoted speech goes to its character without quotation marks. Add only a minimal speaker attribution when dialogue would otherwise be ambiguous by ear. Do not rewrite, omit, reorder, or invent story content. Graded picture books do not use this Skill because their page text goes directly to TTS.
 
 ## `create-writer` workflow
 
@@ -91,13 +89,13 @@ Review the complete changed book, not only isolated lines. Fail the review when 
 - the story is incoherent, unsafe, misleading, or lacks a clear beginning, event, and resolution appropriate to its level;
 - a new or re-adapted work lacks `article.md`, or it is empty, malformed, incoherent, unsafe, or reads like a checklist or report rather than literature;
 - the adaptation adds, drops, or changes events, causality, facts, characters, point of view, tone, or ending relative to `article.md`;
-- the visible `article` is not continuous, dialogue lacks natural quotation or attribution, or scriptization introduces repetition, missing transitions, changed causality, or explanatory dialogue absent from the article;
+- the visible graded `article` is not continuous or dialogue lacks natural quotation or attribution;
 - vocabulary, sentence structure, page length, inference, or questions exceed the level standard;
 - locales change the story meaning or do not reach an equivalent learning difficulty;
 - a page is missing, reordered, or mapped to different artwork across locales;
 - a page or cover lacks an illustration;
 - when visual review is in scope, an image contains visible text or does not match its declared scene;
-- a `speaker` is missing from the cast, or TTS direction is insufficient to distinguish speakers;
+- in a series audiobook script, a `speaker` is missing from the cast, TTS direction is incomplete, or the script omits, repeats, reorders, or rewrites source prose;
 - chapters omit, duplicate, or reorder pages;
 - an inline vocabulary ID has no locale entry or word card;
 - a question cannot be answered from its declared page evidence;

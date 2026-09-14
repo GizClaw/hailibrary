@@ -1,62 +1,75 @@
 ---
 name: scriptize-article
-description: Convert adapted HaiLibrary article.pages into a continuous multi-speaker TTS script—把分级改编后的 article.pages 标记为 narrator/characters 的自然语音脚本并保留内联 vocabulary；不负责创作小说、分级改编或生成插画。
+description: Convert a complete, ungraded HaiLibrary series article into a chaptered multi-speaker audiobook script without rewriting it—把系列文章的完整文学原文转换为分章、多角色的有声书脚本；不用于分级绘本、文学创作或内容改写。
 ---
 
-# Scriptize an adapted article
+# Scriptize a series article
 
-Turn coherent, level-adapted `story.yaml` `article.pages` into `audio_script` for narration and character voices. Scriptization assigns and lightly adapts speech; it is not story generation or level adaptation.
+Convert one complete `works/series/<id>/locales/<locale>/article.md` into `audio_script.yaml` in the same directory. This is faithful audiobook markup, not a rewrite, adaptation, radio drama, or story-generation step.
 
-Read [references/annotated-article-contract.md](references/annotated-article-contract.md) before converting content.
+Read [references/annotated-article-contract.md](references/annotated-article-contract.md) before writing the script.
 
-## Require a completed adaptation
+## Inputs
 
-The input must be one complete locale `article.pages` produced from `article.md` by `$adapt-article`. It must already have a beginning, development, and resolution or an appropriate complete nonfiction structure, and satisfy the Writer and exact Level.
+- Read the complete locale `article.md` as the authoritative literary work.
+- Read `works/series/<id>/article.yaml` for canonical character IDs. Prefer those IDs for matching speakers.
+- Add any other person with quoted dialogue to `cast` using a stable, descriptive ID.
+- Use `narrator` for all narration and include it in `cast`.
 
-If the input is only `article.md`, an outline, page plan, event list, isolated lines, or incomplete fragments, return `ADAPTED_ARTICLE_REQUIRED` and identify what is missing. Do not fill gaps or perform adaptation inside this Skill.
+Do not use this Skill for graded picture books under `works/<level>/...`; their page text is sent directly to TTS and needs no `audio_script`.
 
-Read the adapted pages continuously without assigning speakers first. Confirm their event order, causal links, viewpoint, recurring details, conclusion, and paragraph flow against `article.md`. The adapted visible text is the scriptization baseline.
+## Preserve the work
 
-When used inside `$create-work`, also read:
+- Cover the entire article in source order. Preserve its facts, events, causality, viewpoint, tone, and ending.
+- Narration is the default. Do not invent dialogue, facts, scenes, actions, or explanations.
+- Keep exactly one speaker in each block and keep IDs stable when updating an existing script.
+- Scriptization may add only the minimal attribution allowed below when otherwise necessary for audio comprehension.
 
-- the locale Writer's `prompt` and `language_prompt`;
-- the exact Level prompt and complete level record;
-- the locale `article.md` for story-authority context, without editing it;
-- `book.yaml` character IDs and the locale cast/TTS directions when they already exist;
-- every vocabulary marker already selected for the locale.
+## Audiobook block rules
 
-## Convert, do not replace
+This is an audiobook script, not a film or radio-drama script. The listener cannot see the text, so narration must make clear who is speaking and what is happening.
 
-Build one ordered annotated article:
+1. The narrator reads verbatim all prose outside quotation marks, including speech tags such as `爷爷说`, `小满问`, `he said`, and `she asked`, plus actions and expressions. Do not delete, rewrite, or move it.
+2. Assign words inside quotation marks to their speaker; do not read the quotation marks. When a speech tag interrupts one person's utterance, preserve source order as character, narrator, character blocks. For example, `“先别急着砸山，”身后有人说，“我有个更省力的办法。”` becomes three blocks.
+3. If consecutive dialogue omits speech tags and would be ambiguous by ear, the narrator may add the shortest possible attribution, such as `小满问。`, `爷爷说。`, or `Grandpa said.` Place it where natural for the language. Add only who spoke or asked—never action, delivery, or thought—and add nothing where the audio is already clear.
+4. Start a new block when the speaker changes. Merge consecutive content by the same speaker. Merge consecutive narration, preserving original paragraph breaks with newlines. Split a narrator block only when it exceeds about 400 Chinese characters or 250 English words, and only at an original paragraph boundary.
+5. A narrator block may end with a dialogue lead-in such as `说：`, `问：`, or `said,`.
+6. Cover the full text without reordering it. Do not invent dialogue or facts, and do not put action or delivery labels inside dialogue.
 
-1. Keep narration for setting, action, transitions, explanation, internal context, and information no person would naturally say aloud.
-2. Assign existing quoted speech to the actual speaker.
-3. Convert narration into dialogue only when a present character has an immediate reason to say it to a particular listener in that moment.
-4. Give each speaker partial knowledge, intent, emotion, relationship, vocabulary, and rhythm. People may interrupt, hesitate, misunderstand, answer indirectly, or remain silent.
-5. Preserve every source event, claim, causal link, uncertainty, and conclusion. Do not add facts, lessons, characters, conflicts, solutions, or interview questions merely to create more voices.
-6. Keep one speaker per block. Put visible action in narrator blocks instead of parenthetical stage directions that TTS might read aloud.
-7. Split blocks only when the speaker changes. Merge contiguous content from the same speaker; merge contiguous narration and preserve its source paragraphs with line breaks inside the block.
-8. Split one narrator block only when it exceeds about 400 Chinese characters or 250 English words, and split only at an original paragraph boundary.
-9. When one utterance is interrupted only by an attribution such as `他说`, `身后有人说`, `he said`, or `someone behind her said`, remove the attribution and merge the utterance into one speaker block.
-10. A narrator block must not end with a comma, colon, `说`, `问`, `said`, or `asked`. Rewrite a half-sentence that introduces dialogue as a complete sentence or merge it into the preceding narrator block.
-11. Preserve source order. Do not move an intervening action after dialogue to merge blocks, and do not invent connective narration such as `她提出了疑问。`.
-12. Give every block a stable locale-local ID in `<page-id>-b<two-digit-index>` form, such as `p07-b03`. The ID is the durable join key for one TTS clip and its subtitle; do not recycle an ID for different spoken content after publication.
-13. Preserve existing inline vocabulary markers exactly. New vocabulary work remains owned by `$create-vocabulary` and `$review-vocabulary`.
+## Chapters and IDs
 
-Multi-speaker does not mean dialogue-heavy. A narrator-only passage is correct when conversation would be artificial. Never turn an article into a staged interview, classroom recitation, policy meeting, or sequence of characters explaining the text to one another.
+- Preserve every `## ` chapter heading from `article.md` as a chapter and use its title.
+- If the source has no `## ` headings, divide it at natural scene transitions into 3–7 chapters and give each a concise title grounded in the text.
+- Assign chapter IDs sequentially as `ch01`, `ch02`, and so on.
+- Assign block IDs within each chapter as `<chapter-id>-b<two-digit-index>`, for example `ch01-b01`. IDs are stable join keys; do not reuse an existing ID for different spoken content after publication.
 
-## Optimize for speech
+## Output
 
-- Do not put delivery labels such as `angrily`, `温柔地`, or bracketed stage directions in spoken text; abstract delivery belongs in the cast TTS fields.
-- Do not include provider voice IDs, SSML, audio filenames, or synthesis parameters.
-- Keep narrator and character IDs stable and valid for the work cast.
+Write this shape to the locale's `audio_script.yaml`:
 
-After conversion, read only the speaker-marked article continuously from beginning to end. Fail the conversion if removing speaker labels reveals broken transitions, repeated explanations, lost evidence, changed causality, or a conclusion that now depends on dialogue invented by this Skill.
+```yaml
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: calm and attentive
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: 山脚的声音
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 小满停下脚步。爷爷说：
+        - id: ch01-b02
+          speaker: grandpa
+          text: 先听一听山里的回声。
+```
 
-## Deliver the result
+Every cast member must have a localized `display_name` and complete abstract TTS direction: `delivery`, `timbre`, `pace`, and `pitch`. Do not include provider voice IDs, SSML, audio filenames, synthesis parameters, stage directions, or parenthetical performance labels.
 
-For a standalone request, output the proposed `audio_script` directly plus a short conversion note naming retained narration, dramatized passages, and any `ARTICLE_REQUIRED` or cast blocker. Do not write repository files without explicit authorization.
-
-Inside an authorized `$create-work` task, write the ordered blocks to `audio_script.pages[].blocks[]` with page IDs and illustrations aligned to `article.pages[]`. Preserve existing pagination and order; do not rewrite each page as an independent mini-story. `speaker` remains TTS metadata and never supplies visible quotation marks or attribution in article mode. Voice direction belongs once in `audio_script.cast`, never in repeated blocks. The web reader may expose a separate script mode for editorial, subtitle, and audio alignment, but article mode renders the adapted `article.pages`.
-
-This Skill does not create artwork, questions, chapters, vocabulary entries, `article.md`, or the level adaptation. Those remain separate responsibilities.
+After conversion, read the blocks continuously chapter by chapter. Fix missing or duplicated prose, changed order, incorrect speakers, unstable IDs, incomplete cast entries, and unnecessary added attributions before delivering the file.
