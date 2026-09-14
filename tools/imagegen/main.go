@@ -20,7 +20,7 @@ import (
 
 const (
 	defaultModel        = "gpt-image-2.5-flare"
-	defaultBase         = "https://api.openai.com"
+	imageGenerationURL  = "https://api.openai.com/v1/images/generations"
 	noTextRule          = "The image must contain no text, letters, numbers, logos, captions, speech bubbles, signatures, or watermarks."
 	vocabularyTreatment = "Create a simple, original, neutral educational illustration centered on one clearly recognizable concept. Use a clean uncluttered square composition, accessible shapes, balanced natural color, and no culture-specific decoration unless essential to the concept."
 )
@@ -157,7 +157,6 @@ Flags:
 Environment:
   OPENAI_API_KEY      required except with --dry-run
   OPENAI_IMAGE_MODEL  image model (default gpt-image-2.5-flare)
-  OPENAI_BASE_URL     API base URL (default https://api.openai.com)
 
 Exit status: 0 success, 1 generation or validation failure, 2 usage error.`)
 }
@@ -182,10 +181,6 @@ func execute(ctx context.Context, o options, workArg string, stdout io.Writer, c
 	}
 	if o.model == "" {
 		o.model = defaultModel
-	}
-	baseURL := strings.TrimRight(getenv("OPENAI_BASE_URL"), "/")
-	if baseURL == "" {
-		baseURL = defaultBase
 	}
 	apiKey := getenv("OPENAI_API_KEY")
 	if !o.dryRun && apiKey == "" {
@@ -219,6 +214,9 @@ func execute(ctx context.Context, o options, workArg string, stdout io.Writer, c
 			fmt.Fprintf(stdout, "[%s]\n%s\n", a.ID, prompt)
 			continue
 		}
+		if err := validateOutputPath(targetDir, outPath); err != nil {
+			return fmt.Errorf("asset %q output path: %w", a.ID, err)
+		}
 		if !o.force {
 			if _, err := os.Stat(outPath); err == nil {
 				fmt.Fprintf(stdout, "skip %s: %s already exists\n", a.ID, a.File)
@@ -245,7 +243,7 @@ func execute(ctx context.Context, o options, workArg string, stdout io.Writer, c
 		go func() {
 			defer wg.Done()
 			for j := range jobCh {
-				if err := generate(ctx, client, baseURL, apiKey, o, j.prompt, j.path); err != nil {
+				if err := generate(ctx, client, targetDir, apiKey, o, j.prompt, j.path); err != nil {
 					select {
 					case errCh <- fmt.Errorf("generate %s: %w", j.ID, err):
 						cancel()
@@ -321,12 +319,12 @@ func loadAssets(repoRoot, targetDir, targetKind string) ([]asset, string, error)
 	return assets, size, nil
 }
 
-func generate(ctx context.Context, client *http.Client, baseURL, apiKey string, o options, prompt, outputPath string) error {
+func generate(ctx context.Context, client *http.Client, targetDir, apiKey string, o options, prompt, outputPath string) error {
 	payload, err := json.Marshal(generationRequest{Model: o.model, Prompt: prompt, Size: o.size, OutputFormat: "webp", OutputCompression: 85, Quality: o.quality})
 	if err != nil {
 		return err
 	}
-	req, err := http.NewRequestWithContext(ctx, http.MethodPost, baseURL+"/v1/images/generations", strings.NewReader(string(payload)))
+	req, err := http.NewRequestWithContext(ctx, http.MethodPost, imageGenerationURL, strings.NewReader(string(payload)))
 	if err != nil {
 		return err
 	}
@@ -362,7 +360,13 @@ func generate(ctx context.Context, client *http.Client, baseURL, apiKey string, 
 	if len(image) < 12 || string(image[:4]) != "RIFF" || string(image[8:12]) != "WEBP" {
 		return fmt.Errorf("API response is not a WebP image")
 	}
+	if err := validateOutputPath(targetDir, outputPath); err != nil {
+		return err
+	}
 	if err := os.MkdirAll(filepath.Dir(outputPath), 0o755); err != nil {
+		return err
+	}
+	if err := validateOutputPath(targetDir, outputPath); err != nil {
 		return err
 	}
 	tmp, err := os.CreateTemp(filepath.Dir(outputPath), ".imagegen-*.webp")
@@ -383,6 +387,9 @@ func generate(ctx context.Context, client *http.Client, baseURL, apiKey string, 
 		err = closeErr
 	}
 	if err != nil {
+		return err
+	}
+	if err := validateOutputPath(targetDir, outputPath); err != nil {
 		return err
 	}
 	if err := os.Rename(tmpName, outputPath); err != nil {
@@ -539,6 +546,60 @@ func safeAssetPath(workDir string, a asset) (string, error) {
 		return "", fmt.Errorf("asset %q file escapes work-dir", a.ID)
 	}
 	return p, nil
+}
+
+func validateOutputPath(targetDir, outputPath string) error {
+	targetDir = filepath.Clean(targetDir)
+	outputPath = filepath.Clean(outputPath)
+	parentDir := filepath.Dir(outputPath)
+	relOutput, err := filepath.Rel(targetDir, outputPath)
+	if err != nil || relOutput == ".." || strings.HasPrefix(relOutput, ".."+string(filepath.Separator)) {
+		return fmt.Errorf("output parent escapes target directory")
+	}
+
+	current := targetDir
+	components := []string{"."}
+	if relOutput != "." {
+		components = append(components, strings.Split(relOutput, string(filepath.Separator))...)
+	}
+	for _, component := range components {
+		if component != "." {
+			current = filepath.Join(current, component)
+		}
+		info, err := os.Lstat(current)
+		if errors.Is(err, os.ErrNotExist) {
+			break
+		}
+		if err != nil {
+			return fmt.Errorf("inspect %s: %w", current, err)
+		}
+		if info.Mode()&os.ModeSymlink != 0 {
+			return fmt.Errorf("refusing symbolic link in output path: %s", current)
+		}
+		if current != outputPath && !info.IsDir() {
+			return fmt.Errorf("output path component is not a directory: %s", current)
+		}
+	}
+
+	resolvedTarget, err := filepath.EvalSymlinks(targetDir)
+	if err != nil {
+		return fmt.Errorf("resolve target directory: %w", err)
+	}
+	relParent, err := filepath.Rel(targetDir, parentDir)
+	if err != nil {
+		return fmt.Errorf("relate output parent: %w", err)
+	}
+	resolvedParent, err := filepath.EvalSymlinks(parentDir)
+	if errors.Is(err, os.ErrNotExist) {
+		resolvedParent = filepath.Join(resolvedTarget, relParent)
+	} else if err != nil {
+		return fmt.Errorf("resolve output parent: %w", err)
+	}
+	resolvedRel, err := filepath.Rel(resolvedTarget, resolvedParent)
+	if err != nil || resolvedRel == ".." || strings.HasPrefix(resolvedRel, ".."+string(filepath.Separator)) {
+		return fmt.Errorf("resolved output parent escapes target directory")
+	}
+	return nil
 }
 
 func joinPrompt(assetPrompt, stylePrompt string) string {

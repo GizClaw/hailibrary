@@ -56,7 +56,7 @@ go run ./tools/imagegen --only card --force --dry-run vocabulary/<level>/<id>
 
 The tool accepts a schema-2 picture-book directory or a `vocabulary/<level>/<id>` directory. For books it combines each `artwork.yaml` asset prompt with the referenced Style prompt and derives size from `aspect_ratio`. For vocabulary it reads `entry.yaml.card_prompt`, writes the file named by `entry.yaml.card`, appends a fixed concise neutral illustration treatment plus the no-text rule, and defaults to `1024x1024`.
 
-It reads `OPENAI_API_KEY`, optional `OPENAI_IMAGE_MODEL`, and optional `OPENAI_BASE_URL` from the process environment first and repository-root `.env` second. By default it skips existing assets, uses two concurrent requests, and requests compressed WebP. `--only <id,...>`, `--force`, `--dry-run`, `--concurrency N`, `--model`, `--size`, and `--quality` apply to both directory types; the vocabulary asset ID is `card`. Exit status `0` means success/help, `1` generation or validation failure, and `2` invalid usage.
+It reads `OPENAI_API_KEY` and optional `OPENAI_IMAGE_MODEL` from the process environment first and repository-root `.env` second, and sends API requests only to `https://api.openai.com`. By default it skips existing assets, uses two concurrent requests, and requests compressed WebP. `--only <id,...>`, `--force`, `--dry-run`, `--concurrency N`, `--model`, `--size`, and `--quality` apply to both directory types; the vocabulary asset ID is `card`. Exit status `0` means success/help, `1` generation or validation failure, and `2` invalid usage.
 
 ## Repository rules
 

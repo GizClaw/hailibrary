@@ -74,16 +74,20 @@ func mustWrite(t *testing.T, path, content string) {
 
 func cleanEnv(t *testing.T) {
 	t.Helper()
-	for _, key := range []string{"OPENAI_API_KEY", "OPENAI_IMAGE_MODEL", "OPENAI_BASE_URL"} {
+	for _, key := range []string{"OPENAI_API_KEY", "OPENAI_IMAGE_MODEL"} {
 		t.Setenv(key, "")
 	}
 }
 
 func TestGenerationRequestAndWebP(t *testing.T) {
 	f := newFixture(t)
+	mustWrite(t, filepath.Join(f.root, ".env"), "OPENAI_BASE_URL=https://dotenv-attacker.invalid\n")
 	var mu sync.Mutex
 	requests := map[string]generationRequest{}
 	client := testClient(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		if r.URL.String() != imageGenerationURL {
+			t.Errorf("URL = %s", r.URL)
+		}
 		if r.URL.Path != "/v1/images/generations" {
 			t.Errorf("path = %s", r.URL.Path)
 		}
@@ -100,7 +104,7 @@ func TestGenerationRequestAndWebP(t *testing.T) {
 		fmt.Fprintf(w, `{"data":[{"b64_json":%q}]}`, base64.StdEncoding.EncodeToString(testWebP))
 	}))
 	t.Setenv("OPENAI_API_KEY", "secret")
-	t.Setenv("OPENAI_BASE_URL", "https://images.test")
+	t.Setenv("OPENAI_BASE_URL", "https://attacker.invalid")
 	var out, errOut bytes.Buffer
 	if code := run(context.Background(), []string{"--model", "model-x", "--quality", "high", f.work}, &out, &errOut, client); code != 0 {
 		t.Fatalf("code %d, stderr %s", code, errOut.String())
@@ -135,7 +139,6 @@ func TestOnlyAndSizeOverride(t *testing.T) {
 		fmt.Fprintf(w, `{"data":[{"b64_json":%q}]}`, base64.StdEncoding.EncodeToString(testWebP))
 	}))
 	t.Setenv("OPENAI_API_KEY", "secret")
-	t.Setenv("OPENAI_BASE_URL", "https://images.test")
 	if code := run(context.Background(), []string{"--only", "p01", "--size", "1024x1024", f.work}, &bytes.Buffer{}, &bytes.Buffer{}, client); code != 0 {
 		t.Fatalf("code = %d", code)
 	}
@@ -157,7 +160,6 @@ func TestVocabularyGeneration(t *testing.T) {
 		fmt.Fprintf(w, `{"data":[{"b64_json":%q}]}`, base64.StdEncoding.EncodeToString(testWebP))
 	}))
 	t.Setenv("OPENAI_API_KEY", "secret")
-	t.Setenv("OPENAI_BASE_URL", "https://images.test")
 	var out, errOut bytes.Buffer
 	if code := run(context.Background(), []string{"--only", "card", f.work}, &out, &errOut, client); code != 0 {
 		t.Fatalf("code %d, stderr %s", code, errOut.String())
@@ -207,7 +209,6 @@ func TestSkipExistingAndForce(t *testing.T) {
 		fmt.Fprintf(w, `{"data":[{"b64_json":%q}]}`, base64.StdEncoding.EncodeToString(testWebP))
 	}))
 	t.Setenv("OPENAI_API_KEY", "secret")
-	t.Setenv("OPENAI_BASE_URL", "https://images.test")
 	if code := run(context.Background(), []string{"--only", "cover", f.work}, &bytes.Buffer{}, &bytes.Buffer{}, client); code != 0 {
 		t.Fatal(code)
 	}
@@ -242,7 +243,6 @@ func TestDotEnvAndEnvironmentPrecedence(t *testing.T) {
 		seenModel = body.Model
 		fmt.Fprintf(w, `{"data":[{"b64_json":%q}]}`, base64.StdEncoding.EncodeToString(testWebP))
 	}))
-	t.Setenv("OPENAI_BASE_URL", "https://images.test")
 	// An explicitly empty environment variable has precedence, so restore the two
 	// variables to an absent state for the .env portion of this test.
 	_ = os.Unsetenv("OPENAI_API_KEY")
@@ -263,6 +263,54 @@ func TestDotEnvAndEnvironmentPrecedence(t *testing.T) {
 	}
 	if seenAuth != "Bearer process-key" || seenModel != "process-model" {
 		t.Fatalf("process values: auth=%q model=%q", seenAuth, seenModel)
+	}
+}
+
+func TestRejectsSymlinkArtworkDirectory(t *testing.T) {
+	f := newFixture(t)
+	external := t.TempDir()
+	if err := os.Symlink(external, filepath.Join(f.work, "artwork")); err != nil {
+		t.Fatal(err)
+	}
+	t.Setenv("OPENAI_API_KEY", "secret")
+	var stderr bytes.Buffer
+	if code := run(context.Background(), []string{"--only", "cover", f.work}, &bytes.Buffer{}, &stderr, testClient(http.NotFoundHandler())); code != 1 {
+		t.Fatalf("code=%d stderr=%q", code, stderr.String())
+	}
+	if !strings.Contains(stderr.String(), "symbolic link") {
+		t.Fatalf("stderr=%q", stderr.String())
+	}
+	if _, err := os.Stat(filepath.Join(external, "cover.webp")); !os.IsNotExist(err) {
+		t.Fatalf("external output unexpectedly exists: %v", err)
+	}
+}
+
+func TestRejectsSymlinkIntermediateDirectory(t *testing.T) {
+	f := newFixture(t)
+	external := t.TempDir()
+	if err := os.Mkdir(filepath.Join(f.work, "artwork"), 0o755); err != nil {
+		t.Fatal(err)
+	}
+	if err := os.Symlink(external, filepath.Join(f.work, "artwork", "nested")); err != nil {
+		t.Fatal(err)
+	}
+	mustWrite(t, filepath.Join(f.work, "artwork.yaml"), `style: test-style
+aspect_ratio: "3:2"
+assets:
+  - id: cover
+    file: artwork/nested/cover.webp
+    prompt: COVER PROMPT
+`)
+	t.Setenv("OPENAI_API_KEY", "secret")
+	var stderr bytes.Buffer
+	if code := run(context.Background(), []string{"--only", "cover", f.work}, &bytes.Buffer{}, &stderr, testClient(http.NotFoundHandler())); code != 1 {
+		t.Fatalf("code=%d stderr=%q", code, stderr.String())
+	}
+	if !strings.Contains(stderr.String(), "symbolic link") {
+		t.Fatalf("stderr=%q", stderr.String())
+	}
+	if _, err := os.Stat(filepath.Join(external, "cover.webp")); !os.IsNotExist(err) {
+		t.Fatalf("external output unexpectedly exists: %v", err)
 	}
 }
 
@@ -290,7 +338,11 @@ func TestUsageErrors(t *testing.T) {
 	if code := run(context.Background(), []string{"--concurrency", "0", "work"}, &bytes.Buffer{}, &bytes.Buffer{}, http.DefaultClient); code != 2 {
 		t.Fatalf("code=%d", code)
 	}
-	if code := run(context.Background(), []string{"--help"}, &bytes.Buffer{}, &bytes.Buffer{}, http.DefaultClient); code != 0 {
+	var help bytes.Buffer
+	if code := run(context.Background(), []string{"--help"}, &bytes.Buffer{}, &help, http.DefaultClient); code != 0 {
 		t.Fatalf("help code=%d", code)
+	}
+	if strings.Contains(help.String(), "OPENAI_BASE_URL") {
+		t.Fatalf("help still advertises OPENAI_BASE_URL: %q", help.String())
 	}
 }
