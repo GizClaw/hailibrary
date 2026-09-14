@@ -1,0 +1,71 @@
+schema_version: 3
+language: zh-CN
+writer: 铜罗盘
+title: '藏起来的水'
+summary: '孩子跟随线索，寻找地下水到达老井的路径。'
+chapters:
+  - id: ch01
+    title: '井水低了'
+    page_refs: [p01, p02, p03, p04, p05]
+  - id: ch02
+    title: '慢慢来的证据'
+    page_refs: [p06, p07, p08, p09, p10]
+questions:
+  - id: q01
+    type: sequence
+    prompt: '孩子先做了什么？'
+    answer: '阿满的桶碰到井底。村里缺水了。'
+    page_refs: [p01]
+  - id: q02
+    type: cause-effect
+    prompt: '为什么计划改变了？'
+    answer: '阿满明白，地下水在小空隙里慢慢移动。'
+    page_refs: [p06]
+  - id: q03
+    type: short-answer
+    prompt: '结尾发生了什么？'
+    answer: '阿满记下水位，又给明天留出一格。'
+    page_refs: [p10]
+article:
+  pages:
+    - id: p01
+      illustration: p01
+      paragraphs:
+        - text: '阿满的桶碰到井底。村里缺水了。'
+    - id: p02
+      illustration: p02
+      paragraphs:
+        - text: '他问石伯：“井水从哪里来？”'
+    - id: p03
+      illustration: p03
+      paragraphs:
+        - text: '他们量过低水位，沿着干河床出发。'
+    - id: p04
+      illustration: p04
+      paragraphs:
+        - text: '倒木下面有湿沙。水从沙粒间慢慢渗出。'
+    - id: p05
+      illustration: p05
+      paragraphs:
+        - text: '水穿过砂砾很快，却停在黏土上。'
+    - id: p06
+      illustration: p06
+      paragraphs:
+        - text: '阿满明白，地下水在小空隙里慢慢移动。'
+    - id: p07
+      illustration: p07
+      paragraphs:
+        - text: '他画了一条粗线，从山坡直通老井。'
+    - id: p08
+      illustration: p08
+      paragraphs:
+        - text: '石伯说水路也许会转弯。他们还要找证据。'
+    - id: p09
+      illustration: p09
+      paragraphs:
+        - text: '大雨来了，可井水没有马上涨满。'
+    - id: p10
+      illustration: p10
+      paragraphs:
+        - text: '阿满记下水位，又给明天留出一格。'
+
