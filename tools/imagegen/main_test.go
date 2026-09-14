@@ -74,18 +74,17 @@ func mustWrite(t *testing.T, path, content string) {
 
 func cleanEnv(t *testing.T) {
 	t.Helper()
-	for _, key := range []string{"OPENAI_API_KEY", "OPENAI_IMAGE_MODEL"} {
+	for _, key := range []string{"OPENAI_API_KEY", "OPENAI_IMAGE_MODEL", "OPENAI_BASE_URL"} {
 		t.Setenv(key, "")
 	}
 }
 
 func TestGenerationRequestAndWebP(t *testing.T) {
 	f := newFixture(t)
-	mustWrite(t, filepath.Join(f.root, ".env"), "OPENAI_BASE_URL=https://dotenv-attacker.invalid\n")
 	var mu sync.Mutex
 	requests := map[string]generationRequest{}
 	client := testClient(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		if r.URL.String() != imageGenerationURL {
+		if r.URL.String() != defaultBaseURL+"/v1/images/generations" {
 			t.Errorf("URL = %s", r.URL)
 		}
 		if r.URL.Path != "/v1/images/generations" {
@@ -104,7 +103,6 @@ func TestGenerationRequestAndWebP(t *testing.T) {
 		fmt.Fprintf(w, `{"data":[{"b64_json":%q}]}`, base64.StdEncoding.EncodeToString(testWebP))
 	}))
 	t.Setenv("OPENAI_API_KEY", "secret")
-	t.Setenv("OPENAI_BASE_URL", "https://attacker.invalid")
 	var out, errOut bytes.Buffer
 	if code := run(context.Background(), []string{"--model", "model-x", "--quality", "high", f.work}, &out, &errOut, client); code != 0 {
 		t.Fatalf("code %d, stderr %s", code, errOut.String())
@@ -266,6 +264,36 @@ func TestDotEnvAndEnvironmentPrecedence(t *testing.T) {
 	}
 }
 
+func TestBaseURLFromDotEnvAndEnvironmentPrecedence(t *testing.T) {
+	f := newFixture(t)
+	var requestURLs []string
+	client := testClient(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		requestURLs = append(requestURLs, r.URL.String())
+		fmt.Fprintf(w, `{"data":[{"b64_json":%q}]}`, base64.StdEncoding.EncodeToString(testWebP))
+	}))
+	mustWrite(t, filepath.Join(f.root, ".env"), "OPENAI_API_KEY=file-key\nOPENAI_BASE_URL=https://dotenv-gateway.test/proxy/\n")
+	cleanEnv(t)
+	_ = os.Unsetenv("OPENAI_API_KEY")
+	_ = os.Unsetenv("OPENAI_BASE_URL")
+	if code := run(context.Background(), []string{"--only", "cover", f.work}, &bytes.Buffer{}, &bytes.Buffer{}, client); code != 0 {
+		t.Fatalf(".env base URL code = %d", code)
+	}
+	if got := requestURLs[len(requestURLs)-1]; got != "https://dotenv-gateway.test/proxy/v1/images/generations" {
+		t.Fatalf(".env request URL = %q", got)
+	}
+	if err := os.Remove(filepath.Join(f.work, "artwork", "cover.webp")); err != nil {
+		t.Fatal(err)
+	}
+	t.Setenv("OPENAI_API_KEY", "process-key")
+	t.Setenv("OPENAI_BASE_URL", "https://environment-gateway.test/api")
+	if code := run(context.Background(), []string{"--only", "cover", f.work}, &bytes.Buffer{}, &bytes.Buffer{}, client); code != 0 {
+		t.Fatalf("environment base URL code = %d", code)
+	}
+	if got := requestURLs[len(requestURLs)-1]; got != "https://environment-gateway.test/api/v1/images/generations" {
+		t.Fatalf("environment request URL = %q", got)
+	}
+}
+
 func TestRejectsSymlinkArtworkDirectory(t *testing.T) {
 	f := newFixture(t)
 	external := t.TempDir()
@@ -342,7 +370,7 @@ func TestUsageErrors(t *testing.T) {
 	if code := run(context.Background(), []string{"--help"}, &bytes.Buffer{}, &help, http.DefaultClient); code != 0 {
 		t.Fatalf("help code=%d", code)
 	}
-	if strings.Contains(help.String(), "OPENAI_BASE_URL") {
-		t.Fatalf("help still advertises OPENAI_BASE_URL: %q", help.String())
+	if !strings.Contains(help.String(), "OPENAI_BASE_URL") || !strings.Contains(help.String(), defaultBaseURL) {
+		t.Fatalf("help does not document OPENAI_BASE_URL and its default: %q", help.String())
 	}
 }

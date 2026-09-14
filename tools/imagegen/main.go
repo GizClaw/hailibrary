@@ -20,7 +20,7 @@ import (
 
 const (
 	defaultModel        = "gpt-image-2.5-flare"
-	imageGenerationURL  = "https://api.openai.com/v1/images/generations"
+	defaultBaseURL      = "https://api.openai.com"
 	noTextRule          = "The image must contain no text, letters, numbers, logos, captions, speech bubbles, signatures, or watermarks."
 	vocabularyTreatment = "Create a simple, original, neutral educational illustration centered on one clearly recognizable concept. Use a clean uncluttered square composition, accessible shapes, balanced natural color, and no culture-specific decoration unless essential to the concept."
 )
@@ -157,6 +157,7 @@ Flags:
 Environment:
   OPENAI_API_KEY      required except with --dry-run
   OPENAI_IMAGE_MODEL  image model (default gpt-image-2.5-flare)
+  OPENAI_BASE_URL     API base URL (default https://api.openai.com)
 
 Exit status: 0 success, 1 generation or validation failure, 2 usage error.`)
 }
@@ -186,6 +187,11 @@ func execute(ctx context.Context, o options, workArg string, stdout io.Writer, c
 	if !o.dryRun && apiKey == "" {
 		return fmt.Errorf("OPENAI_API_KEY is required (set it in the environment or repository .env)")
 	}
+	baseURL := getenv("OPENAI_BASE_URL")
+	if baseURL == "" {
+		baseURL = defaultBaseURL
+	}
+	imageGenerationURL := strings.TrimRight(baseURL, "/") + "/v1/images/generations"
 
 	assets, defaultSize, err := loadAssets(repoRoot, targetDir, targetKind)
 	if err != nil {
@@ -243,7 +249,7 @@ func execute(ctx context.Context, o options, workArg string, stdout io.Writer, c
 		go func() {
 			defer wg.Done()
 			for j := range jobCh {
-				if err := generate(ctx, client, targetDir, apiKey, o, j.prompt, j.path); err != nil {
+				if err := generate(ctx, client, targetDir, imageGenerationURL, apiKey, o, j.prompt, j.path); err != nil {
 					select {
 					case errCh <- fmt.Errorf("generate %s: %w", j.ID, err):
 						cancel()
@@ -319,7 +325,7 @@ func loadAssets(repoRoot, targetDir, targetKind string) ([]asset, string, error)
 	return assets, size, nil
 }
 
-func generate(ctx context.Context, client *http.Client, targetDir, apiKey string, o options, prompt, outputPath string) error {
+func generate(ctx context.Context, client *http.Client, targetDir, imageGenerationURL, apiKey string, o options, prompt, outputPath string) error {
 	payload, err := json.Marshal(generationRequest{Model: o.model, Prompt: prompt, Size: o.size, OutputFormat: "webp", OutputCompression: 85, Quality: o.quality})
 	if err != nil {
 		return err
