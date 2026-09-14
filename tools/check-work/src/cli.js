@@ -16,6 +16,24 @@ const asPosix = (value) => value.split(sep).join("/");
 const isMapping = (value) => value !== null && typeof value === "object" && !Array.isArray(value);
 const sameSet = (left, right) => left.size === right.size && [...left].every((value) => right.has(value));
 const hasOnlyKeys = (value, allowed) => Object.keys(value).every((key) => allowed.has(key));
+const hasNoNullValues = (value) => Object.values(value).every((item) => item !== null && item !== undefined);
+const ARTWORK_ASSET_KEYS = new Set(["id", "file", "scene"]);
+const CHARACTER_KEYS = new Set(["id", "kind", "description", "visual_identity", "voice_identity"]);
+const CAST_ENTRY_KEYS = new Set(["display_name", "tts"]);
+const TTS_KEYS = new Set(["delivery", "timbre", "pace", "pitch"]);
+
+// A plain scalar inside `{...}` ends at the first comma, so `{scene: A, then B}` silently parses as
+// `{scene: "A", "then B": null}`. Report every flow-mapping key that has no value.
+function flowKeysWithoutValue(document) {
+  const keys = [];
+  YAML.visit(document, {
+    Pair(_, pair, path) {
+      const parent = path[path.length - 1];
+      if (YAML.isMap(parent) && parent.flow && (pair.value === null || (YAML.isScalar(pair.value) && pair.value.value === null))) keys.push(String(YAML.isScalar(pair.key) ? pair.key.value : pair.key));
+    },
+  });
+  return keys;
+}
 
 class Check {
   constructor(root) {
@@ -31,7 +49,12 @@ class Check {
   yamlMapping(path) {
     if (!this.require(existsSync(path) && statSync(path).isFile(), `missing file: ${asPosix(relative(this.root, path))}`)) return {};
     try {
-      const value = YAML.parse(readFileSync(path, "utf8"));
+      const document = YAML.parseDocument(readFileSync(path, "utf8"));
+      if (document.errors.length) throw document.errors[0];
+      for (const key of flowKeysWithoutValue(document)) {
+        this.errors.push(`flow mapping key has no value: ${asPosix(relative(this.root, path))}: ${JSON.stringify(key)} (quote YAML text containing commas)`);
+      }
+      const value = document.toJS();
       if (!isMapping(value)) {
         this.errors.push(`expected YAML mapping: ${asPosix(relative(this.root, path))}`);
         return {};
@@ -280,6 +303,11 @@ function checkWork(workArgument) {
   const characterIds = characters.filter(isMapping).map((item) => item.id);
   check.require(characterIds.length === characters.length && characterIds.every((item) => typeof item === "string" && item.length > 0), "every character must have a string id");
   check.require(new Set(characterIds).size === characterIds.length, "character ids must be unique");
+  for (const character of characters.filter(isMapping)) {
+    const characterLabel = `book.characters.${typeof character.id === "string" ? character.id : "<unknown>"}`;
+    check.require(hasOnlyKeys(character, CHARACTER_KEYS), `${characterLabel} contains an unknown field (quote YAML text containing commas)`);
+    check.require(hasNoNullValues(character), `${characterLabel} contains an empty field (quote YAML text containing commas)`);
+  }
 
   const assets = Array.isArray(artwork.assets) ? artwork.assets : [];
   check.require(assets.length > 0, "artwork.assets must not be empty");
@@ -291,6 +319,8 @@ function checkWork(workArgument) {
     }
     if (assetById.has(asset.id)) check.errors.push(`duplicate artwork id: ${asset.id}`);
     assetById.set(asset.id, asset);
+    check.require(hasOnlyKeys(asset, ARTWORK_ASSET_KEYS), `artwork ${asset.id} contains an unknown field (quote YAML scenes containing commas)`);
+    check.require(hasNoNullValues(asset), `artwork ${asset.id} contains an empty field (quote YAML scenes containing commas)`);
     if (check.require(typeof asset.file === "string", `artwork ${asset.id} must declare file`)) check.resource(join(work, asset.file), `artwork ${asset.id}`);
     check.require(typeof asset.scene === "string" && asset.scene.length > 0, `artwork ${asset.id} needs a scene`);
   }
@@ -368,9 +398,11 @@ function checkWork(workArgument) {
     for (const [castId, castEntry] of Object.entries(cast)) {
       check.require(characterIds.includes(castId), `${locale}: cast id is not in book.characters: ${castId}`);
       if (!check.require(isMapping(castEntry), `${locale}: cast ${castId} must be a mapping`)) continue;
+      check.require(hasOnlyKeys(castEntry, CAST_ENTRY_KEYS), `${locale}: ${castPath} ${castId} contains an unknown field`);
       requiredString(check, castEntry, "display_name", `${locale}.${castPath}.${castId}`);
       const tts = castEntry.tts;
       if (!check.require(isMapping(tts), `${locale}: ${castPath} ${castId} needs TTS direction`)) continue;
+      check.require(hasOnlyKeys(tts, TTS_KEYS), `${locale}: ${castPath} ${castId} TTS direction contains an unknown field (quote YAML text containing commas)`);
       for (const field of ["delivery", "timbre", "pace", "pitch"]) requiredString(check, tts, field, `${locale}.${castPath}.${castId}.tts`);
     }
 
