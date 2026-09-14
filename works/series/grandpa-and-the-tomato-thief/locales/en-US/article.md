@@ -126,15 +126,15 @@ He moved the candy into his cheek.
 
 A white shape crossed the wall. Mittens dropped into the garden and went straight to the crate. His nose nearly touched the ground. Something gray-brown flashed behind the wood and vanished under the broad squash leaves.
 
-Mittens pounced. Bean pods snapped and rattled.
+Mittens froze with his ears pointed toward the leaves. Behind the crate, bean pods snapped and rattled.
 
-Grandpa burst from the shed, struck his knee on the frame, and made a sound that was not quite a word. The cat shot up the wall. The gray-brown animal disappeared.
+Grandpa jumped up, struck his knee on the frame, and made a sound that was not quite a word. He stopped inside the doorway. The cat shot up the wall. The gray-brown animal disappeared.
 
 Several bean pods lay crushed.
 
 “There!” Grandpa rubbed his knee with one hand and pointed with the other. “What did I say?”
 
-Maya crouched beside the broken pods. The cat tracks crossed the path sideways. Under a leaf she found two slender prints with long little toes, heading toward the squash.
+Maya crouched beside the broken pods. The cat tracks crossed the path sideways and stopped short of the leaves. Under a leaf she found two slender prints with long little toes, heading toward the squash.
 
 “Don’t step here.”
 
@@ -142,7 +142,7 @@ Grandpa’s sandal hung above the print. He wobbled on one leg, then stepped bac
 
 Outside the shed, Grandpa picked up a broken bean pod and glanced at the wall. Mittens sat there washing his chest, as if someone else had just fled in panic.
 
-“He did pounce,” Grandpa said.
+“He was there,” Grandpa said.
 
 “Yes.”
 
@@ -150,7 +150,7 @@ Outside the shed, Grandpa picked up a broken bean pod and glanced at the wall. M
 
 “Yes.”
 
-“But we still didn’t see what he chased.”
+“But we still didn’t see what the other animal was.”
 
 Maya wrote his words down without polishing them into a grand conclusion.
 
@@ -164,7 +164,7 @@ Grandpa frowned at the bags. “How will we catch it if it can’t steal anythin
 
 Mrs. Alvarez was hanging a sheet on the other side of the wall. Grandpa lowered his voice. “That cat was still in the garden.”
 
-“Chasing something.”
+“Watching something.”
 
 “Could be partners.”
 
