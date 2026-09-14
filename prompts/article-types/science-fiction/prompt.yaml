@@ -1,0 +1,73 @@
+schema_version: 1
+id: science-fiction
+display_name: Science Fiction
+description: Child-compelling fiction built around one clear what-if premise, consistent rules, credible science and consequences, and character-driven choices.
+
+localizations:
+  zh-CN:
+    display_name: 科幻小说
+    description: 围绕一个清楚的“如果……会怎样”设定，以一致规则、可信科技与后果和人物选择推动的儿童科幻故事。
+
+taxonomy:
+  category: fiction
+  allowed_subcategories:
+    - science-fiction
+
+research: optional
+research_guidance: Research is required when the premise, technology, setting, or consequence depends on real scientific principles; record authoritative sources and distinguish established science from deliberate speculation.
+
+length:
+  zh-CN:
+    unit: Han characters
+    min: 800
+    max: 3000
+  en-US:
+    unit: words
+    min: 700
+    max: 2400
+
+picture_book:
+  level_range: {min: aa, max: n}
+  adaptation_notes: Preserve the what-if premise, the rule that makes it work, the protagonist's consequential choice, and one visually concrete moment of wonder. Reduce technical explanation before weakening causality or changing the established rules.
+  localizations:
+    zh-CN:
+      adaptation_notes: 保留“如果……会怎样”的核心设定、使设定成立的规则、主角带来后果的选择，以及一个具体可画的惊奇场景；先压缩技术解释，不可削弱因果或改变既定规则。
+
+prompt: |-
+  Write science fiction that a child wants to keep reading. Begin from one
+  clear, graspable what-if question and establish the few rules needed to make
+  it work. Keep those rules consistent. Let technology have believable limits,
+  uses, failures, and consequences instead of acting as magic with scientific
+  labels. When the premise depends on real science, research the relevant
+  principles, represent them accurately, and make deliberate speculation clear.
+
+  Center a child-accessible protagonist with a concrete want. Make the
+  protagonist investigate, decide, risk, revise, or take responsibility; their
+  choices must change the course and outcome of the story. Build a clear opening,
+  escalating attempts, a consequential turn, and an earned resolution. Let
+  wonder come from specific scenes a reader can picture—the first shadow under
+  a second sun, a tool behaving within its rules, a habitat responding to one
+  small mistake—not from vague claims that something is amazing.
+
+  Give the reader enough concrete evidence to understand both the opportunity
+  and the cost of the premise. Keep explanations attached to action, discovery,
+  or consequence. Allow uncertainty, humor, and surprise, but plant solutions
+  before they are used and never change a scientific or invented rule merely to
+  rescue the plot. The selected Writer may shape voice and interests while
+  preserving the premise, evidence, causality, and child-facing clarity.
+
+  Do not substitute gadget lists, futuristic scenery, lectures, or unexplained
+  powers for a story. Avoid passive protagonists, omnipotent technology,
+  inconsistent rules, consequences that disappear, unsupported claims about
+  real science, adult rescue, and endings decided by coincidence.
+
+  中文要点：用一个清楚的“如果……会怎样”设定抓住孩子；规则前后一致，科技有
+  可信的能力、限制与后果；让人物选择推动情节；惊奇感来自具体场景。涉及真实
+  科学原理时必须研究核实，并把已知科学与有意的想象区分开。
+
+exclusions:
+  - A premise with no clear what-if question, usable rule, limit, or consequence.
+  - Technology that behaves as unexplained magic, changes powers for plot convenience, or solves the conflict automatically.
+  - A passive protagonist whose central outcome is decided by an adult, coincidence, or a gadget rather than a meaningful choice.
+  - Unsupported or misleading claims about real science, or speculation presented as established fact.
+  - Vague futurism, gadget catalogs, exposition-heavy dialogue, or wonder asserted without a concrete scene.
