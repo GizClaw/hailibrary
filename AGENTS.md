@@ -71,10 +71,18 @@ Use only the repository-installed CLI with `--no-install`.
 
 ```sh
 npx --no-install hailibrary-check-work --help
+```
+
+Validate either one complete ungraded series article (including locale source articles and optional audiobook scripts) or one schema-v2/schema-v3 graded picture book and all of its referenced Writer, Style, vocabulary, artwork, locale, chapter, question, source-series, and Git LFS resources:
+
+```sh
+npx --no-install hailibrary-check-work works/series/<id>
 npx --no-install hailibrary-check-work works/<level>/<category>/<subcategory>/<slug>
 ```
 
-The work path may be absolute or relative and must resolve to exactly four segments below `works/`. Exit `0` means passed, `1` failed, and `2` invalid usage. Validation does not replace editorial, vocabulary, visual, or fact review. Every added CLI must document help, arguments, examples, effects, and exits here, and support `-h`/`--help` without mutation.
+The work path may be absolute or relative to the repository root. It must resolve to exactly two segments below `works/` for `works/series/<id>`, or exactly four segments for a picture book at level `aa` or `a` through `n`. Exit status `0` means the deterministic checks passed or help was shown, `1` means validation failed, and `2` means command usage was invalid. This command does not replace the editorial, visual, vocabulary, or independent web fact-check performed by the review Skills.
+
+Whenever a repository package adds another `bin` command, add its `--help` invocation, arguments, examples, effects, and exit statuses to this section in the same change. Every CLI must implement `-h` and `--help` without changing repository state.
 
 ## Repository rules
 
