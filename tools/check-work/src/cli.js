@@ -77,7 +77,8 @@ function requiredString(check, mapping, key, label) {
 
 function checkSourceArticle(check, path, locale) {
   const relativePath = asPosix(relative(check.root, path));
-  if (!check.require(existsSync(path) && statSync(path).isFile(), `missing source article: ${relativePath}`)) return;
+  if (!existsSync(path)) return;
+  if (!check.require(statSync(path).isFile(), `source article must be a file: ${relativePath}`)) return;
   let article;
   try {
     article = new TextDecoder("utf-8", { fatal: true }).decode(readFileSync(path));

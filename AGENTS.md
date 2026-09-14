@@ -40,7 +40,7 @@ When asked to create or revise a book:
 17. Run `npm run check-work -- <work-directory>` and fix every deterministic resource error.
 18. Run the `review-fix-loop` before marking the work ready for PR review.
 
-Existing works received deterministic placeholder `article.md` files backfilled from their picture-book text. These are not rewritten novels and may later be replaced by a real locale novel followed by re-adaptation.
+Works created before this pipeline have no `article.md`. Add one only as a real locale novel, then re-adapt the work from it; never backfill it from existing page text.
 
 ## `adapt-article` workflow
 
@@ -89,7 +89,7 @@ For review-only requests and GitHub PR review, report findings and do not modify
 Review the complete changed book, not only isolated lines. Fail the review when any of these are true:
 
 - the story is incoherent, unsafe, misleading, or lacks a clear beginning, event, and resolution appropriate to its level;
-- `article.md` is missing, empty, malformed, incoherent, unsafe, or reads like a checklist or report rather than literature;
+- a new or re-adapted work lacks `article.md`, or it is empty, malformed, incoherent, unsafe, or reads like a checklist or report rather than literature;
 - the adaptation adds, drops, or changes events, causality, facts, characters, point of view, tone, or ending relative to `article.md`;
 - the visible `article` is not continuous, dialogue lacks natural quotation or attribution, or scriptization introduces repetition, missing transitions, changed causality, or explanatory dialogue absent from the article;
 - vocabulary, sentence structure, page length, inference, or questions exceed the level standard;
@@ -135,7 +135,7 @@ Show its current built-in help:
 npx --no-install hailibrary-check-work --help
 ```
 
-Validate one complete source work, each locale's persisted `article.md` format, and every referenced Writer, Style, vocabulary entry, artwork file, locale, chapter, question, and Git LFS resource:
+Validate one complete source work, the format of each locale's `article.md` when present, and every referenced Writer, Style, vocabulary entry, artwork file, locale, chapter, question, and Git LFS resource:
 
 ```sh
 npx --no-install hailibrary-check-work works/<level>/<category>/<subcategory>/<slug>
