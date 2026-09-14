@@ -1,25 +1,31 @@
 ---
 name: adapt-article
-description: Turn a final multilingual HaiLibrary series article into complete aa-n picture-book volumes, vocabulary, prompts, images, and validated files—把最终版多语言系列文章完整制作成 aa-n 分级绘本，包括分册分页、词汇、prompt、生图和确定性校验。
+description: Turn one final multilingual HaiLibrary series article into one complete aa-n picture book by summarizing first, compressing to a target page count, then creating vocabulary, prompts, images, and validated files—把一篇最终版多语言系列文章先概括、再压缩成一本 aa-n 分级绘本，并完成词汇、prompt、生图和校验。
 ---
 
-# Adapt a series into picture books
+# Adapt one series article into one picture book
 
-Own the complete derivative workflow for `works/<level>/<category>/<subcategory>/<slug>/`: adaptation, vocabulary, artwork generation, and deterministic validation. Do not write or repair the source series here. Book slugs are global IDs: name each volume `<series-id>-<level>-<volume>` (for example `the-helper-we-built-j-1`) so no two books share a slug across levels. Read [references/level-and-vocabulary-contract.md](references/level-and-vocabulary-contract.md) before choosing levels or vocabulary.
+Own the complete derivative workflow for one `works/<level>/<category>/<subcategory>/<slug>/`. One series article produces exactly one picture book at one level; do not split it into sets or volumes. Prefer `slug: <series-id>` so the book and series share an ID. Because book slugs are global, use `<series-id>-<level>` only when the preferred slug is already occupied or unsuitable. Read [references/level-and-vocabulary-contract.md](references/level-and-vocabulary-contract.md) before choosing the level or vocabulary.
 
-## Load source and contracts
+## Read the source and choose the target
 
-Read the complete series plan, optional research, every requested locale article, selected Writers, exact `aa`–`n` Level files and locale references, labels, vocabulary ranges/index, and candidate Styles. Each locale adapts its own article; all locales share volumes, page IDs, meanings, visual events, and artwork.
+Read the complete `article.yaml` and every requested locale's complete `article.md`. Read `article.yaml.type`, then read `prompts/article-types/<type>/prompt.yaml`, especially `picture_book.level_range` and `picture_book.adaptation_notes`. Also read the source research when present, selected Writers, labels, candidate Styles, and the Level and vocabulary references required by the linked contract.
 
-## Design and write the volumes
+Choose one exact level within both the article type's allowed range and `aa`–`n`. Read the complete exact Level file and locale references before deciding the page count. Select one target page count inside that Level's page range that can carry the essential causal arc without padding or crowding. Use the source's `picture_book.level` when already decided; do not write the legacy `picture_books` list.
 
-For each selected level, choose coherent volumes and page counts. Every volume needs its own beginning, development, meaningful turn, and resolution. Condense, simplify, omit subplots, and re-sentence while preserving facts, causality, characters, viewpoint, tone, and ending; do not invent lessons, motivations, solutions, dialogue, or facts.
+## Summarize, then compress
 
-Create schema-2 `book.yaml`, schema-2 `artwork.yaml`, and schema-3 `locales/<locale>/story.yaml`. Use required `source: {series, volume, volumes}`. Chapters cover every page once in order; questions are supported by stable `page_refs`. Picture books contain no `article.md`, `research.yaml`, audio script, cast, speaker, voice identity, or legacy top-level `pages`.
+Before writing pages, make a concise story synopsis for each locale from that locale's own `article.md`. Each synopsis must state the beginning, development, meaningful turn, and resolution, plus the characters, events, causal links, and facts that must survive adaptation. Compare the locale synopses only to align their shared events and factual boundary; do not translate one synopsis into the other.
 
-Adapt each locale naturally at the exact Level while keeping page meanings and illustration IDs aligned. Stabilize prose and pagination before selecting target words. Then invoke `$vocabulary` for every new or changed entry and add only surface forms already present in the prose.
+Create one shared target-page map. For every page ID, identify which synopsis beat it carries and what happens visibly on that page. Fit the map to the chosen page count by removing side plots, repetition, secondary detail, and excess explanation while preserving the main line and ending. Do not add an event, clue, motivation, solution, dialogue, fact, or lesson absent from the source. If the complete arc cannot fit the selected Level honestly, choose a more suitable allowed level rather than splitting the work.
 
-## Author artwork prompts and generate images
+Only after the synopsis and page map are stable, write each locale's page text independently under the exact Level language requirements. The locales share page count, page IDs, page meanings, visible events, and illustration IDs, while retaining native wording, information order, sentence structure, and idiom. Then write questions with stable page-level evidence and author the illustration scenes and prompts from the shared visual event map.
+
+Create schema-2 `book.yaml`, schema-2 `artwork.yaml`, and schema-3 `locales/<locale>/story.yaml`. Use `source: {series: <series-id>}`; `volume` and `volumes` are legacy optional fields and default to `1/1`. Chapters cover every page once in order. Picture books contain no `article.md`, `research.yaml`, audio script, cast, speaker, voice identity, or legacy top-level `pages`.
+
+Stabilize prose and pagination before selecting target words. Then invoke `$vocabulary` for every new or changed entry and add only surface forms already present in the prose.
+
+## Author artwork and generate images
 
 Choose a reusable Style and stable character `visual_identity` values. Every cover/page asset needs a concise scene and a complete prompt describing visible action, setting, exact character appearance, continuity, camera, composition, focus, and exclusions. Leave medium and treatment to the Style. Never request visible text, letters, numbers, logos, captions, speech bubbles, signatures, or watermarks.
 
@@ -27,20 +33,19 @@ After prompts are committed, run `npx --no-install hailibrary-imagegen <work-dir
 
 ## Author self-reflection
 
-This is the complete editorial and visual review. The same author must execute every action for every volume and locale, fix every finding, then restart the entire checklist from item 1. Checking only edited lines is not sufficient.
+The same author must execute every item for the complete book and every locale, fix every finding, then restart the entire checklist from item 1. Checking only edited lines is insufficient.
 
-1. Write a four-part beat line for each volume: beginning, development, meaningful turn, and resolution. Point each beat to actual pages. Even at `aa` and other low levels, reject an arbitrary source slice, a final page that merely stops, or a problem left unresolved; repaginate or redraw the volume boundary until it has a complete arc.
-2. Compare every page and question with that locale's source article. Mark the source event supporting it and delete any added event, fact, motivation, solution, moral, explanatory lesson, or dialogue. Confirm omissions and simplifications do not change causality, viewpoint, tone, character, factual boundary, turn, or ending.
-3. Read the exact Level file and locale reference, then measure page count, total units, per-page units, sentence units, sentence count, and new words. Separately test the qualitative lower bound: reading goal, structure, cohesion, knowledge demand, illustration reliance, inference, and required question types. Fix both material that exceeds the ceiling and material simplified below the floor.
-4. Read pages in order without the source beside them. At every page turn, state what changed and how the next page follows. Repair unexplained jumps in time, place, character position or knowledge, object state, action, pronoun reference, and causality.
-5. Build a row for every page ID with each locale's event and illustration ID. Confirm the page-ID sequence, illustration ID, visible participants, action, setting, object state, and narrative function match across locales; confirm chapter IDs and page coverage match exactly. Rewrite each locale independently so alignment does not produce translated or unnatural wording.
-6. For each page, read all locale text, then its `artwork.yaml` `scene` and `prompt`. List every visible action, character, prop, location, and state required by the text; confirm scene and prompt depict the same moment without contradiction, omission, or an event borrowed from another page.
-7. For each cover and page prompt, list every fixed character said to appear. Copy that character's complete appearance from `book.yaml.visual_identity`, then verify the prompt explicitly describes all of those traits and does not substitute another locale's name or appearance. Check recurring clothing, body, props, location, and object construction across the complete asset set.
-8. For every question, open every page named by `page_refs`, quote in working notes the exact sentence or sentences that establish the answer, and add every evidence page needed for the answer. Remove wrong or irrelevant refs. Confirm the prompt and answer require only this volume, not another volume or the source article.
-9. For every question, demonstrate that its declared type matches the cited evidence: sequence asks for order, cause-effect contains an actual cause and result, evidence asks the reader to locate support, main-idea spans the volume, and other types meet the exact Level contract. Rewrite mislabeled or unsupported questions.
-10. Normalize each question prompt by removing whitespace and punctuation and compare it with every question in every other volume of the same series, in every locale. Replace copied or near-identical prompts, and also compare meanings so translated or lightly reworded duplicates do not survive the mechanical check.
-11. Inspect `book.yaml`, `artwork.yaml`, and every `story.yaml` scalar containing a comma or colon and quote it. Parse every YAML file, inspect the resulting keys and null values, and repair flow mappings truncated into unintended extra keys.
-12. Open the original pixels of every generated cover, page image, and new vocabulary card; do not infer quality from filenames, prompts, or generation success. Check for visible text, letters, numbers, logos, captions, bubbles, signatures, watermarks, wrong scene, missing or altered characters, visual-identity drift, unsafe or impossible action, broken anatomy or objects, bad crop, aspect ratio, Style mismatch, and cross-page continuity. Correct the committed prompt when needed, regenerate, and reinspect the complete set.
-13. Run `npx --no-install hailibrary-check-work <work-dir>` for every volume. Fix every error, rerun it, then restart this entire editorial checklist because deterministic success does not prove narrative, evidence, or visual correctness.
+1. Re-read the complete source article and type prompt. Write the book's beginning, development, meaningful turn, and resolution with actual page references; reject an arbitrary slice, unresolved problem, changed factual boundary, or ending that merely stops.
+2. Compare each locale's synopsis with its own complete source. Account for every must-preserve character, event, causal link, fact, viewpoint, tone, turn, and ending; remove invented material and repair omissions that change the main line.
+3. Compare the shared page map with every synopsis. Confirm every page advances a named beat, all essential beats fit the target count, removed material is genuinely secondary, and no page is padding or an unsupported bridge.
+4. Read the exact Level file and locale reference, then measure page count, total units, per-page units, sentence units, sentence count, and new words. Separately test the qualitative floor: reading goal, structure, cohesion, knowledge demand, illustration reliance, inference, and required question types.
+5. Read pages in order without the source beside them. At every turn state what changed and how the next page follows; repair jumps in time, place, position, knowledge, object state, action, reference, or causality.
+6. Build one row per page ID with every locale's event and illustration ID. Confirm page order, visible participants, action, setting, object state, and narrative function align, while each locale remains independently natural.
+7. For each page, compare all locale text with its artwork scene and prompt. List every visible action, character, prop, location, and state required by the text; repair contradiction, omission, or a moment borrowed from another page.
+8. For every cover/page prompt, copy the complete fixed appearance of each present character from `book.yaml.visual_identity`; verify recurring clothing, body, props, location, object construction, composition, and exclusions across the asset set.
+9. For every question, open all `page_refs` and record the exact sentence or sentences establishing the answer. Confirm its declared type matches the Level contract and the answer requires only this book. If legacy data leaves multiple books for the same series, also remove copied or near-identical question prompts across those books.
+10. Inspect every YAML scalar containing a comma or colon, quote it, parse every YAML file, and repair unintended keys or null values.
+11. Open the original pixels of every generated cover, page image, and new vocabulary card. Check text artifacts, wrong scene, missing or altered characters, identity drift, unsafe or impossible action, anatomy or object errors, crop, aspect ratio, Style, and cross-page continuity; correct prompts, regenerate, and reinspect the complete set.
+12. Run `npx --no-install hailibrary-check-work <work-dir>`. Fix every error, rerun it, then restart this entire checklist because deterministic success does not prove narrative, evidence, or visual correctness.
 
-Only deliver corrected, generated, visually inspected books after a full restarted pass has no finding.
+Only deliver the corrected, generated, visually inspected single book after a full restarted pass has no finding.

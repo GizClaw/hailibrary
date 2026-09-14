@@ -12,13 +12,13 @@ Status: series-first content architecture in progress.
 
 1. `$write-article`: plan, research, independently write each locale, and complete strict literary revision.
 2. `$scriptize-article`: convert each final locale article into a complete chaptered audiobook script.
-3. `$adapt-article`: choose `aa`–`n` levels and complete volumes, create aligned locale stories and artwork prompts, invoke `$vocabulary` after prose stabilizes, generate and inspect all images, run the deterministic checker, and self-correct until clear.
+3. `$adapt-article`: choose one `aa`–`n` level, summarize each locale source, compress the shared story into one target-page-count picture book, create aligned locale stories and artwork prompts, invoke `$vocabulary` after prose stabilizes, generate and inspect all images, run the deterministic checker, and self-correct until clear.
 4. Use `$writer` and `$style` when creating or materially revising those reusable resources.
 
 ## Quality gates
 
 - Locale articles share events and factual boundaries but are independently written in their native languages.
-- Every volume has its own beginning, development, turn, and resolution; it is not an arbitrary article slice.
+- The one derived book preserves a complete beginning, development, turn, and resolution; it is not an arbitrary article slice.
 - Derived prose remains faithful to its own locale source, meets the exact level, and shares page meanings and artwork IDs across locales.
 - Series `research.yaml` covers story-relevant claims; the article author's final self-reflection verifies facts, causality, safety, and ordinary assumptions.
 - Picture books have no audio script, cast, speaker, local research file, or legacy top-level pages.

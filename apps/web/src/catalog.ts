@@ -54,6 +54,8 @@ export const READING_LEVEL_ORDER = ["aa", ..."abcdefghijklmnopqrstuvwxyz", "z1",
 const readingLevelRank = new Map(READING_LEVEL_ORDER.map((level, index) => [level, index]));
 export const sortReadingLevels = (levels: string[]) => [...levels].sort((left, right) => (readingLevelRank.get(left) ?? Number.MAX_SAFE_INTEGER) - (readingLevelRank.get(right) ?? Number.MAX_SAFE_INTEGER) || left.localeCompare(right));
 
+export const isMultiVolume = (source: { volumes?: number }) => (source.volumes ?? 1) > 1;
+
 export type SeriesFilterOption = { id: string; title: string };
 
 export function catalogSeriesOptions(cards: Array<Pick<BookCard, "source">>, series: SeriesCard[], locale: string): SeriesFilterOption[] {

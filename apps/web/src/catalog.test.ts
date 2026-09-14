@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { bookCardLocaleView, catalogSeriesOptions, filterAndSortCatalogBySeries, flattenSeriesBooks, localizeBookCard, READING_LEVEL_ORDER, resolveContentLocale, searchSeries, selectHomeSeriesCards, sortReadingLevels, type BookCard, type CatalogTaxonomy, type LabelCatalog, type SeriesCard, type SeriesManifest } from "./catalog.ts";
+import { bookCardLocaleView, catalogSeriesOptions, filterAndSortCatalogBySeries, flattenSeriesBooks, isMultiVolume, localizeBookCard, READING_LEVEL_ORDER, resolveContentLocale, searchSeries, selectHomeSeriesCards, sortReadingLevels, type BookCard, type CatalogTaxonomy, type LabelCatalog, type SeriesCard, type SeriesManifest } from "./catalog.ts";
 
 test("Reading levels preserve AA, A-Z, Z1, Z2 order", () => {
   assert.equal(READING_LEVEL_ORDER.length, 29);
@@ -69,6 +69,12 @@ test("book locale selection falls back to an available edition", () => {
 test("book cards preserve their source-series position", () => {
   const localized = localizeBookCard(card, "en-US");
   assert.deepEqual(localized.source, { series: "the-acorn-journey", volume: 1, volumes: 2 });
+});
+
+test("volume navigation metadata is shown only for actual multi-volume books", () => {
+  assert.equal(isMultiVolume({}), false);
+  assert.equal(isMultiVolume({ volumes: 1 }), false);
+  assert.equal(isMultiVolume({ volumes: 2 }), true);
 });
 
 test("series filter options use interface-localized series titles and include catalog-only series", () => {

@@ -115,6 +115,7 @@ async function seriesFixture(emotion?: string): Promise<SeriesFixture> {
   const root = await mkdtemp(join(tmpdir(), "check-work-series-test-"));
   await exec("git", ["init", "-q", root]);
   await cp(join(repositoryRoot, "prompts/labels/index.yaml"), join(root, "prompts/labels/index.yaml"));
+  await cp(join(repositoryRoot, "prompts/article-types"), join(root, "prompts/article-types"), { recursive: true });
   await write(join(root, "prompts/styles/test-style/prompt.yaml"), "schema_version: 1\nid: test-style\nprompt: Test style\n");
   await write(join(root, "prompts/writers/en-US/test-writer/prompt.yaml"), "schema_version: 1\nid: test-writer\nlocale: en-US\n");
   const series = join(root, "works/series/test-series");
@@ -176,6 +177,45 @@ async function replace(path: string, from: string, to: string) {
 test("accepts distinct questions in different volumes of one series", async () => {
   const f = await fixture();
   assert.equal((await check(f)).code, 0);
+});
+
+test("accepts book source with omitted volume metadata as volume 1 of 1", async () => {
+  const f = await fixture();
+  await replace(join(f.second, "book.yaml"), "source: {series: test-series, volume: 2, volumes: 2}", "source: {series: test-series}");
+  assert.equal((await check(f)).code, 0);
+});
+
+test("still rejects duplicate questions when multiple same-series books omit volume metadata", async () => {
+  const f = await fixture();
+  await replace(join(f.first, "book.yaml"), "source: {series: test-series, volume: 1, volumes: 2}", "source: {series: test-series}");
+  await replace(join(f.second, "book.yaml"), "source: {series: test-series, volume: 2, volumes: 2}", "source: {series: test-series}");
+  await replace(join(f.second, "locales/en-US/story.yaml"), "Where is the cat?", "What is the cat doing?");
+  const result = await check(f);
+  assert.equal(result.code, 1);
+  assert.match(result.stderr, /question prompt duplicates another volume/);
+});
+
+test("accepts the new singular picture_book proposal", async () => {
+  const f = await seriesFixture();
+  await replace(join(f.series, "article.yaml"), "cover_prompt: A wordless test cover", "picture_book: {level: c}\ncover_prompt: A wordless test cover");
+  assert.equal((await checkSeriesFixture(f)).code, 0);
+});
+
+test("accepts the legacy picture_books proposal list", async () => {
+  const f = await seriesFixture();
+  await replace(join(f.series, "article.yaml"), "cover_prompt: A wordless test cover", "picture_books:\n  - {level: c, volumes: 2}\ncover_prompt: A wordless test cover");
+  assert.equal((await checkSeriesFixture(f)).code, 0);
+});
+
+test("validates an article type reference when present", async () => {
+  const f = await seriesFixture();
+  await replace(join(f.series, "article.yaml"), "id: test-series", "id: test-series\ntype: fiction");
+  assert.equal((await checkSeriesFixture(f)).code, 0);
+
+  await replace(join(f.series, "article.yaml"), "type: fiction", "type: missing-type");
+  const result = await checkSeriesFixture(f);
+  assert.equal(result.code, 1);
+  assert.match(result.stderr, /article type must exist and match id: missing-type/);
 });
 
 test("accepts a supported emotion on an audio-script block", async () => {
