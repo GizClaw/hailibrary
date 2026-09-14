@@ -116,7 +116,7 @@ It was the first time he had allowed his answer to grow faint. Maya let him keep
 
 ## The Bean-Pod Alarm
 
-For the third watch, he put one soft tomato under a tilted basket and covered the path with dry bean pods. He and Maya hid in the tool shed with two stools and a flashlight.
+For the third watch, he spread dry bean pods along the paths between the wall, the crate, and the vines. They would make a harmless crackle if anything passed. He and Maya hid in the tool shed with two stools and a flashlight.
 
 After dark, the garden’s daytime noise folded away. Crickets worked in the corners. Damp soil smelled cool through the door crack. Grandpa shifted his stiff knee every few minutes, and a peppermint clicked against his teeth.
 
@@ -130,27 +130,27 @@ Mittens pounced. Bean pods snapped and rattled.
 
 Grandpa burst from the shed, struck his knee on the frame, and made a sound that was not quite a word. The cat shot up the wall. The gray-brown animal disappeared.
 
-The bait tomato was gone.
+Several bean pods lay crushed.
 
 “There!” Grandpa rubbed his knee with one hand and pointed with the other. “What did I say?”
 
-Maya crouched beside the basket. A drag mark ran from the tomato to the squash. The cat tracks crossed it sideways. Under a leaf she found two slender prints with long little toes.
+Maya crouched beside the broken pods. The cat tracks crossed the path sideways. Under a leaf she found two slender prints with long little toes, heading toward the squash.
 
 “Don’t step here.”
 
 Grandpa’s sandal hung above the print. He wobbled on one leg, then stepped back. Retreating those six inches seemed harder for him than saying a whole sentence.
 
-Outside the shed, the basket still rocked. Grandpa picked up a broken bean pod and glanced at the wall. Mittens sat there washing his chest, as if someone else had just fled in panic.
+Outside the shed, Grandpa picked up a broken bean pod and glanced at the wall. Mittens sat there washing his chest, as if someone else had just fled in panic.
 
 “He did pounce,” Grandpa said.
 
 “Yes.”
 
-“And the tomato did disappear.”
+“And something else crossed the pods.”
 
 “Yes.”
 
-“But something we didn’t see came between those facts.”
+“But we still didn’t see what he chased.”
 
 Maya wrote his words down without polishing them into a grand conclusion.
 
@@ -180,7 +180,7 @@ Grandpa studied the notebook, borrowed her pencil, and added, peppermint also ma
 
 ## The Face in the Moonlight
 
-Moonlight filled the tool shed that night. Mittens did not come. Near nine, a pointed nose appeared beside the crate. Round ears followed, then dark eyes set in a pale mask. A raccoon stepped out, smaller and thinner than the ones Maya had seen near trash cans.
+Moonlight filled the tool shed that night. Mittens did not come. Near nine, a pointed nose appeared beside the crate. Round ears followed, then dark eyes set in a pale mask. A small Asian palm civet stepped out, gray-brown and cautious.
 
 It ignored the covered tomatoes. Under the vines it found half a split fruit and held it between its front paws. After several bites, it carried the rest toward the drain.
 
@@ -188,7 +188,7 @@ Thin squeaks answered from inside.
 
 “Babies?” Grandpa said, much too loudly.
 
-The raccoon dropped the tomato. The shed hinge squealed as he leaned forward. In a blink she was back behind the crate.
+The civet dropped the tomato. The shed hinge squealed as he leaned forward. In a blink she was back behind the crate.
 
 Maya switched on the flashlight but did not approach. The broken drain opening hid under ivy. Something small moved inside. Grandpa knelt for a long moment, keeping the beam on the ground outside the hole.
 
@@ -214,7 +214,7 @@ Her notebook lay open beside him. Paw print, drag mark, and long-toed tracks fac
 
 At Mrs. Alvarez’s door, however, he hid the basket behind his leg. Mittens sat in her arms.
 
-“We had a visitor,” Grandpa began. “A raccoon with kits. I mistook the tracks. Also, one of my basins made a great deal of noise and frightened your cat.”
+“We had a visitor,” Grandpa began. “An Asian palm civet with kits. I mistook the tracks. Also, one of my basins made a great deal of noise and frightened your cat.”
 
 Mrs. Alvarez did not reach for the tomatoes. “I thought the basin fell by itself.”
 
@@ -238,7 +238,7 @@ He looked at her and tried again. “I paid them to the neighbor I blamed.”
 
 No one teased him. Instead, the men competed over stories of accusing the wrong dog, carrying off the wrong umbrella, and blaming rain for a leaking roof. By the end, not even the noodle broth remained.
 
-A wildlife officer inspected the drain. The mother and kits needed time to leave, she said. The neighbors removed the crate, secured their trash, and installed a motion light away from the den. Nobody fed the raccoons or blocked the exit while the young were inside. Weeks later, when the family had moved on, the officer covered the broken opening.
+A wildlife officer inspected the drain. The mother and kits needed time to leave, she said. The neighbors removed the crate, secured their trash, and installed a motion light away from the den. Nobody fed the civets or blocked the exit while the young were inside. Weeks later, when the family had moved on, the officer covered the broken opening.
 
 Grandpa found two dried tomato stems beneath the crate. He dropped them into one of Maya’s evidence envelopes.
 
