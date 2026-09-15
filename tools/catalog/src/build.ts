@@ -20,7 +20,7 @@ type BookSource = {
   cover: string;
   learning?: { goals?: string[]; concepts?: string[] };
   labels: Record<string, string[]>;
-  source: { series: string; volume?: number; volumes?: number };
+  source?: { series: string; volume?: number; volumes?: number };
 };
 
 type SeriesSource = {
@@ -378,7 +378,9 @@ for (const bookDir of await findBookDirs(worksDir)) {
   const cardStyle = { id: style.id, displayName: style.displayName, names: style.names };
   const sourcePath = `${level}/${category}/${subcategory}/${slug}`;
   const runtimePath = book.id;
-  const source = { ...book.source, volume: book.source.volume ?? 1, volumes: book.source.volumes ?? 1, titles: await seriesTitles(book.source.series) };
+  const source = book.source
+    ? { ...book.source, volume: book.source.volume ?? 1, volumes: book.source.volumes ?? 1, titles: await seriesTitles(book.source.series) }
+    : undefined;
   compiledBookIds.add(book.id);
   const card = {
     id: book.id,
@@ -398,7 +400,7 @@ for (const bookDir of await findBookDirs(worksDir)) {
     labels: book.labels,
     pageCount: stories[0] ? visiblePages(stories[0]).length : 0,
     cover: `works/${runtimePath}/${book.cover}`,
-    source,
+    ...(source ? { source } : {}),
   };
   cards.push(card);
 
@@ -418,7 +420,7 @@ for (const bookDir of await findBookDirs(worksDir)) {
     ...book,
     schemaVersion: 2,
     sourcePath,
-    source,
+    ...(source ? { source } : {}),
     level,
     category,
     subcategory,

@@ -10,7 +10,7 @@ export type SiteIndex = { schemaVersion: number; generatedAt: string; bookCount:
 export type HomePageData = { schemaVersion: number; bookCount: number; localeCount: number; readableCount: number; taxonomy: CatalogTaxonomy; cards: BookCard[] };
 export type CatalogPageIndex = SiteIndex;
 export type BookSource = { series: string; volume: number; volumes: number; titles?: Record<string, string> };
-export type BookCard = { id: string; path: string; manifest: string; level: string; category: string; subcategory: string; locales: string[]; titles: Record<string, string>; summaries: Record<string, string>; writers: Record<string, WriterSummary>; style: StyleSummary; concepts: string[]; labels: Record<string, string[]>; pageCount: number; cover: string; source: BookSource; title: string; summary: string; writer: WriterSummary; contentLocale?: string };
+export type BookCard = { id: string; path: string; manifest: string; level: string; category: string; subcategory: string; locales: string[]; titles: Record<string, string>; summaries: Record<string, string>; writers: Record<string, WriterSummary>; style: StyleSummary; concepts: string[]; labels: Record<string, string[]>; pageCount: number; cover: string; source?: BookSource; title: string; summary: string; writer: WriterSummary; contentLocale?: string };
 type BookCardSource = Omit<BookCard, "title" | "summary" | "writer" | "contentLocale">;
 export type StoryContentPart = { text?: string; vocabulary?: { id: string; text: string } };
 export type StoryBlock = { id?: string; speaker: string; text?: string; content?: StoryContentPart[] };
@@ -40,7 +40,7 @@ export const storyArticlePages = (story: Story): ArticlePage[] => story.article?
 }));
 export const storyAudioPages = (story: Story) => story.audio_script?.pages ?? story.pages ?? [];
 export const storyCast = (story: Story) => story.audio_script?.cast ?? story.cast ?? {};
-export type Book = { id: string; level: string; category: string; subcategory: string; cover: string; source: BookSource; availableLocales: string[]; locales: Record<string, { title: string; summary: string; story: string; writer: WriterSummary & { profile: string } }>; artwork: { cover: string; pages: Record<string, string> }; vocabulary: { level: string; entries: Record<string, string> } };
+export type Book = { id: string; level: string; category: string; subcategory: string; cover: string; source?: BookSource; availableLocales: string[]; locales: Record<string, { title: string; summary: string; story: string; writer: WriterSummary & { profile: string } }>; artwork: { cover: string; pages: Record<string, string> }; vocabulary: { level: string; entries: Record<string, string> } };
 export type SeriesBook = { id: string; level: string; volume: number; volumes: number; titles: Record<string, string>; cover: string; manifest: string };
 export type SeriesCard = { id: string; manifest: string; category: string; genre: string; style: string; labels: Record<string, string[]>; availableLocales: string[]; titles: Record<string, string>; writers: Record<string, WriterSummary>; cover: string; bookSetCount: number; bookCount: number };
 export type SeriesIndex = { schemaVersion: number; count: number; series: SeriesCard[] };
@@ -60,16 +60,17 @@ export type SeriesFilterOption = { id: string; title: string };
 
 export function catalogSeriesOptions(cards: Array<Pick<BookCard, "source">>, series: SeriesCard[], locale: string): SeriesFilterOption[] {
   const seriesById = new Map(series.map((item) => [item.id, item]));
-  const sourceTitles = new Map(cards.map((card) => [card.source.series, card.source.titles ?? {}]));
-  return [...new Set([...series.map((item) => item.id), ...cards.map((card) => card.source.series)])]
+  const sourcedCards = cards.filter((card): card is { source: BookSource } => Boolean(card.source));
+  const sourceTitles = new Map(sourcedCards.map((card) => [card.source.series, card.source.titles ?? {}]));
+  return [...new Set([...series.map((item) => item.id), ...sourcedCards.map((card) => card.source.series)])]
     .map((id) => ({ id, title: localizedValue(seriesById.get(id)?.titles ?? sourceTitles.get(id) ?? {}, locale, id) }))
     .sort((left, right) => left.title.localeCompare(right.title, locale) || left.id.localeCompare(right.id));
 }
 
-export function filterAndSortCatalogBySeries<T extends { id: string; level: string; source: BookSource }>(cards: T[], seriesId: string) {
+export function filterAndSortCatalogBySeries<T extends { id: string; level: string; source?: BookSource }>(cards: T[], seriesId: string) {
   if (seriesId === "all") return [...cards];
   return cards
-    .filter((card) => card.source.series === seriesId)
+    .filter((card): card is T & { source: BookSource } => card.source?.series === seriesId)
     .sort((left, right) => (readingLevelRank.get(left.level) ?? Number.MAX_SAFE_INTEGER) - (readingLevelRank.get(right.level) ?? Number.MAX_SAFE_INTEGER)
       || left.level.localeCompare(right.level)
       || left.source.volume - right.source.volume

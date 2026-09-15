@@ -254,9 +254,9 @@ function CatalogBookCard({ card, interfaceLocale, learningLocale, labelCatalog, 
 
 function LibraryBookCard({ card, interfaceLocale, learningLocale, labelCatalog, taxonomy }: { card: BookCard; interfaceLocale: string; learningLocale: string; labelCatalog?: LabelCatalog | null; taxonomy?: CatalogTaxonomy }) {
   const view = bookCardLocaleView(card, taxonomy, labelCatalog, interfaceLocale, learningLocale);
-  const sourceTitle = localizedValue(card.source.titles ?? {}, view.contentLocale, card.source.series);
+  const sourceTitle = card.source ? localizedValue(card.source.titles ?? {}, view.contentLocale, card.source.series) : "";
   const readUrl = `#/read/${view.card.path}?lang=${encodeURIComponent(view.contentLocale)}`;
-  return <Card className="catalog-book-card"><a className="catalog-cover" href={readUrl}><img src={view.card.cover} alt={`${view.card.title} cover`} /><Badge>{view.level}</Badge></a><div><p className="catalog-book-meta">{view.subcategory} · {view.card.pageCount} {view.pageUnit}</p><h2><a href={readUrl}>{view.card.title}</a></h2><a className="book-series-link" href={`#/series/${card.source.series}?lang=${encodeURIComponent(view.contentLocale)}`}>{sourceTitle}{isMultiVolume(card.source) && <> · {interfaceLocale === "zh-CN" ? `第 ${card.source.volume}/${card.source.volumes} 册` : `Volume ${card.source.volume}/${card.source.volumes}`}</>}</a><p>{view.card.summary}</p>{view.labels.length > 0 && <div className="catalog-labels">{view.labels.map((label) => <Badge key={label} variant="secondary">{label}</Badge>)}</div>}<div className="catalog-book-footer"><span>{view.writerLabel} · {view.card.writer.displayName}</span></div></div></Card>;
+  return <Card className="catalog-book-card"><a className="catalog-cover" href={readUrl}><img src={view.card.cover} alt={`${view.card.title} cover`} /><Badge>{view.level}</Badge></a><div><p className="catalog-book-meta">{view.subcategory} · {view.card.pageCount} {view.pageUnit}</p><h2><a href={readUrl}>{view.card.title}</a></h2>{card.source && <a className="book-series-link" href={`#/series/${card.source.series}?lang=${encodeURIComponent(view.contentLocale)}`}>{sourceTitle}{isMultiVolume(card.source) && <> · {interfaceLocale === "zh-CN" ? `第 ${card.source.volume}/${card.source.volumes} 册` : `Volume ${card.source.volume}/${card.source.volumes}`}</>}</a>}<p>{view.card.summary}</p>{view.labels.length > 0 && <div className="catalog-labels">{view.labels.map((label) => <Badge key={label} variant="secondary">{label}</Badge>)}</div>}<div className="catalog-book-footer"><span>{view.writerLabel} · {view.card.writer.displayName}</span></div></div></Card>;
 }
 
 function VocabularyPage({ interfaceLocale, learningLocale }: { interfaceLocale: string; learningLocale: string }) {
@@ -461,7 +461,7 @@ function Reader({ path, locale, interfaceLocale }: { path: string; locale: strin
     setStory(null);
     loadBook(workId).then(async (book) => {
       const selectedLocale = resolveContentLocale(locale, book.availableLocales);
-      const [nextStory, sourceSeries] = await Promise.all([loadStory(workId, selectedLocale), loadSeries(book.source.series)]);
+      const [nextStory, sourceSeries] = await Promise.all([loadStory(workId, selectedLocale), book.source ? loadSeries(book.source.series) : Promise.resolve(null)]);
       const articlePages = storyArticlePages(nextStory);
       const ids = [...new Set(articlePages.flatMap((item) => item.paragraphs.flatMap((paragraph) => paragraph.content?.flatMap((part) => part.vocabulary?.id ?? []) ?? [])))];
       const entries = await Promise.all(ids.map(async (id) => [id, await loadVocabulary(book.level, id)] as const));
@@ -471,9 +471,11 @@ function Reader({ path, locale, interfaceLocale }: { path: string; locale: strin
       setBookLevel(book.level);
       setBookCover(book.artwork.cover);
       setBookLocales(book.availableLocales);
-      const siblings = flattenSeriesBooks(sourceSeries.bookGroups).filter((item) => item.level === book.level).sort((left, right) => left.volume - right.volume);
-      const siblingIndex = siblings.findIndex((item) => item.id === book.id);
-      setSourceMeta({ series: sourceSeries, volume: book.source.volume, volumes: book.source.volumes, previous: isMultiVolume(book.source) ? siblings[siblingIndex - 1]?.id : undefined, next: isMultiVolume(book.source) ? siblings[siblingIndex + 1]?.id : undefined });
+      if (book.source && sourceSeries) {
+        const siblings = flattenSeriesBooks(sourceSeries.bookGroups).filter((item) => item.level === book.level).sort((left, right) => left.volume - right.volume);
+        const siblingIndex = siblings.findIndex((item) => item.id === book.id);
+        setSourceMeta({ series: sourceSeries, volume: book.source.volume, volumes: book.source.volumes, previous: isMultiVolume(book.source) ? siblings[siblingIndex - 1]?.id : undefined, next: isMultiVolume(book.source) ? siblings[siblingIndex + 1]?.id : undefined });
+      } else setSourceMeta(null);
       setContentLocale(selectedLocale);
       setVocabulary(Object.fromEntries(entries));
       setPage(Math.min(targetBook?.page ?? 0, Math.max(0, articlePages.length - 1)));
