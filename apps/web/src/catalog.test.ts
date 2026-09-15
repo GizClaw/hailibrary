@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { bookCardLocaleView, catalogSeriesOptions, filterAndSortCatalogBySeries, flattenSeriesBooks, isMultiVolume, localizeBookCard, READING_LEVEL_ORDER, resolveContentLocale, searchSeries, selectHomeSeriesCards, sortReadingLevels, type BookCard, type CatalogTaxonomy, type LabelCatalog, type SeriesCard, type SeriesManifest } from "./catalog.ts";
+import { bookCardLocaleView, catalogSeriesOptions, filterAndSortCatalogBySeries, filterArticles, flattenSeriesBooks, isMultiVolume, localizeBookCard, READING_LEVEL_ORDER, resolveContentLocale, searchSeries, selectHomeSeriesCards, sortReadingLevels, type BookCard, type CatalogTaxonomy, type LabelCatalog, type SeriesCard, type SeriesManifest } from "./catalog.ts";
 
 test("Reading levels preserve AA, A-Z, Z1, Z2 order", () => {
   assert.equal(READING_LEVEL_ORDER.length, 29);
@@ -78,7 +78,7 @@ test("volume navigation metadata is shown only for actual multi-volume books", (
 });
 
 test("series filter options use interface-localized series titles and include catalog-only series", () => {
-  const makeSeries = (id: string, titles: Record<string, string>): SeriesCard => ({ id, titles, manifest: `series/${id}/index.json`, category: "fiction", genre: "adventure", style: "watercolor", labels: {}, availableLocales: Object.keys(titles), writers: {}, cover: `series/${id}/cover.webp`, bookSetCount: 1, bookCount: 1 });
+  const makeSeries = (id: string, titles: Record<string, string>): SeriesCard => ({ id, titles, manifest: `series/${id}/index.json`, category: "fiction", genre: "adventure", style: "watercolor", labels: {}, levels: ["a"], availableLocales: Object.keys(titles), writers: {}, cover: `series/${id}/cover.webp`, bookSetCount: 1, bookCount: 1 });
   const series = [makeSeries("the-acorn-journey", { "en-US": "The Acorn Journey", "zh-CN": "橡果之旅" }), makeSeries("a-new-work", { "en-US": "A New Work", "zh-CN": "一个新作品" })];
 
   assert.deepEqual(catalogSeriesOptions([card], series, "zh-CN"), [
@@ -124,8 +124,11 @@ test("series book groups flatten in taxonomy-group and volume order", () => {
 });
 
 test("series search includes localized titles, type, and Writers", () => {
-  const series = { id: "mountains", manifest: "series/mountains/index.json", category: "fiction", genre: "folktale", style: "woodblock", labels: {}, availableLocales: ["en-US", "zh-CN"], titles: { "en-US": "The Road", "zh-CN": "愚公移山" }, writers: { "en-US": { id: "lantern", displayName: "Manypath Lantern" }, "zh-CN": { id: "百径灯", displayName: "百径灯" } }, cover: "series/mountains/cover.webp", bookSetCount: 2, bookCount: 5 } satisfies SeriesCard;
+  const series = { id: "mountains", manifest: "series/mountains/index.json", type: "fiction", typeNames: { "en-US": "Fiction", "zh-CN": "小说" }, category: "fiction", genre: "folktale", style: "woodblock", labels: { topics: ["history"], themes: ["responsibility"], moods: ["hopeful"] }, levels: ["c", "n"], availableLocales: ["en-US", "zh-CN"], titles: { "en-US": "The Road", "zh-CN": "愚公移山" }, writers: { "en-US": { id: "lantern", displayName: "Manypath Lantern" }, "zh-CN": { id: "百径灯", displayName: "百径灯" } }, cover: "series/mountains/cover.webp", bookSetCount: 2, bookCount: 5 } satisfies SeriesCard;
   assert.equal(searchSeries([series], "愚公").length, 1);
   assert.equal(searchSeries([series], "folktale").length, 1);
   assert.equal(searchSeries([series], "missing").length, 0);
+  assert.equal(filterArticles([series], { type: "fiction", classification: "genre:folktale", writer: "百径灯", style: "woodblock", topic: "history", theme: "responsibility", mood: "hopeful", level: "n" }, "zh-CN").length, 1);
+  assert.equal(filterArticles([series], { writer: "lantern" }, "zh-CN").length, 0);
+  assert.equal(filterArticles([series], { query: "愚公", level: "a" }, "zh-CN").length, 0);
 });

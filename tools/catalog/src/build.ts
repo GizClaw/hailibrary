@@ -9,6 +9,7 @@ const worksDir = join(rootDir, "works");
 const vocabularyDir = join(rootDir, "vocabulary");
 const writersDir = join(rootDir, "prompts", "writers");
 const stylesDir = join(rootDir, "prompts", "styles");
+const articleTypesDir = join(rootDir, "prompts", "article-types");
 const publicDir = join(rootDir, "apps/web/public");
 
 type BookSource = {
@@ -25,12 +26,19 @@ type BookSource = {
 
 type SeriesSource = {
   id: string;
+  type?: string;
   category: string;
   genre: string;
   style: string;
   labels: Record<string, string[]>;
   characters: Array<{ id: string; description: string }>;
   locales: Record<string, { writer: string; working_title: string }>;
+};
+
+type ArticleTypeSource = {
+  id: string;
+  display_name: string;
+  localizations?: Record<string, { display_name?: string }>;
 };
 
 type StorySource = {
@@ -178,6 +186,17 @@ async function findBookDirs(base: string, depth = 0): Promise<string[]> {
 
 await rm(publicDir, { recursive: true, force: true });
 await mkdir(publicDir, { recursive: true });
+
+const articleTypeIndex = await readYaml<{ type_order: string[] }>(join(articleTypesDir, "index.yaml"));
+const articleTypes = Object.fromEntries(await Promise.all(articleTypeIndex.type_order.map(async (id) => {
+  const source = await readYaml<ArticleTypeSource>(join(articleTypesDir, id, "prompt.yaml"));
+  return [source.id, {
+    names: {
+      "en-US": source.display_name,
+      ...Object.fromEntries(Object.entries(source.localizations ?? {}).flatMap(([locale, localized]) => localized.display_name ? [[locale, localized.display_name]] : [])),
+    },
+  }];
+})));
 await cp(join(rootDir, "about"), join(publicDir, "about"), { recursive: true });
 
 const labelSource = await readYaml<LabelSource>(join(rootDir, "prompts", "labels", "index.yaml"));
@@ -507,13 +526,15 @@ for (const entry of await readdir(seriesRoot, { withFileTypes: true })) {
   const groups = levelOrder.filter((level) => books.some((book) => book.level === level)).map((level) => ({ level, books: books.filter((book) => book.level === level) }));
   const manifestUrl = `series/${source.id}/index.json`;
   const cover = `series/${source.id}/cover.webp`;
-  const manifest = { schemaVersion: 1, id: source.id, category: source.category, genre: source.genre, style: source.style, labels: source.labels, characters: source.characters, availableLocales: Object.keys(source.locales), locales: localeEntries, titles, writers, cover, bookSetCount: groups.length, bookCount: books.length, bookGroups: groups };
+  const levels = groups.map((group) => group.level);
+  const typeNames = source.type ? articleTypes[source.type]?.names : undefined;
+  const manifest = { schemaVersion: 1, id: source.id, ...(source.type ? { type: source.type, typeNames } : {}), category: source.category, genre: source.genre, style: source.style, labels: source.labels, levels, characters: source.characters, availableLocales: Object.keys(source.locales), locales: localeEntries, titles, writers, cover, bookSetCount: groups.length, bookCount: books.length, bookGroups: groups };
   await writeJson(join(publicDir, manifestUrl), manifest);
   await cp(join(seriesDir, "cover.webp"), join(publicDir, cover));
-  seriesCards.push({ id: source.id, manifest: manifestUrl, category: source.category, genre: source.genre, style: source.style, labels: source.labels, availableLocales: Object.keys(source.locales), titles, writers, cover, bookSetCount: groups.length, bookCount: books.length });
+  seriesCards.push({ id: source.id, manifest: manifestUrl, ...(source.type ? { type: source.type, typeNames } : {}), category: source.category, genre: source.genre, style: source.style, labels: source.labels, levels, availableLocales: Object.keys(source.locales), titles, writers, cover, bookSetCount: groups.length, bookCount: books.length });
 }
 seriesCards.sort((left, right) => String((left.titles as Record<string, string>)["en-US"] ?? left.id).localeCompare(String((right.titles as Record<string, string>)["en-US"] ?? right.id)));
-await writeJson(join(publicDir, "series.json"), { schemaVersion: 1, count: seriesCards.length, series: seriesCards });
+await writeJson(join(publicDir, "series.json"), { schemaVersion: 1, count: seriesCards.length, articleTypes, series: seriesCards });
 
 await writeJson(join(publicDir, "catalog.json"), {
   schemaVersion: 2,

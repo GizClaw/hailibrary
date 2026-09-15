@@ -52,6 +52,23 @@ test("series books are grouped by taxonomy level and sorted by source volume", a
   assert.equal(bookCount, seriesBookCount);
 });
 
+test("article cards expose localized types and derived picture-book levels", async () => {
+  const index = await readJson("series.json");
+  assert.equal(index.articleTypes.fiction.names["en-US"], "Fiction");
+  assert.equal(index.articleTypes.fiction.names["zh-CN"], "小说");
+  for (const card of index.series) {
+    const manifest = await readJson(card.manifest);
+    assert.deepEqual(card.levels, manifest.bookGroups.map((group: { level: string }) => group.level));
+    assert.deepEqual(manifest.levels, card.levels);
+    if (card.type) {
+      assert.deepEqual(card.typeNames, index.articleTypes[card.type].names);
+      assert.deepEqual(manifest.typeNames, card.typeNames);
+    } else {
+      assert.equal(Object.hasOwn(card, "typeNames"), false);
+    }
+  }
+});
+
 test("series-derived book cards and manifests expose localized source metadata while independent books omit it", async () => {
   const catalog = await readJson("catalog.json");
   const shards = await Promise.all(catalog.shards.map(readJson));
