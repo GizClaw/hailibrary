@@ -42,8 +42,9 @@ export const storyAudioPages = (story: Story) => story.audio_script?.pages ?? st
 export const storyCast = (story: Story) => story.audio_script?.cast ?? story.cast ?? {};
 export type Book = { id: string; level: string; category: string; subcategory: string; cover: string; source?: BookSource; availableLocales: string[]; locales: Record<string, { title: string; summary: string; story: string; writer: WriterSummary & { profile: string } }>; artwork: { cover: string; pages: Record<string, string> }; vocabulary: { level: string; entries: Record<string, string> } };
 export type SeriesBook = { id: string; level: string; volume: number; volumes: number; titles: Record<string, string>; cover: string; manifest: string };
-export type SeriesCard = { id: string; manifest: string; category: string; genre: string; style: string; labels: Record<string, string[]>; availableLocales: string[]; titles: Record<string, string>; writers: Record<string, WriterSummary>; cover: string; bookSetCount: number; bookCount: number };
-export type SeriesIndex = { schemaVersion: number; count: number; series: SeriesCard[] };
+export type SeriesCard = { id: string; manifest: string; type?: string; typeNames?: Record<string, string>; category: string; genre: string; style: string; labels: Record<string, string[]>; levels: string[]; availableLocales: string[]; titles: Record<string, string>; writers: Record<string, WriterSummary>; cover: string; bookSetCount: number; bookCount: number };
+export type SeriesIndex = { schemaVersion: number; count: number; articleTypes: Record<string, { names: Record<string, string> }>; series: SeriesCard[] };
+export type ArticleFilters = { query?: string; type?: string; classification?: string; writer?: string; style?: string; topic?: string; theme?: string; mood?: string; level?: string };
 export type SeriesArticle = { schemaVersion: number; language: string; title: string; chapters: Array<{ title: string; paragraphs: string[] }> };
 export type SeriesManifest = SeriesCard & { schemaVersion: number; characters: Array<{ id: string; description: string }>; locales: Record<string, { title: string; writer: WriterSummary & { profile: string }; article: string; audioScript?: string }>; bookGroups: Array<{ level: string; books: SeriesBook[] }> };
 export type VocabularyEntry = { id: string; card: string; locales: Record<string, { term: string; part_of_speech: string; pronunciation?: string; definition: string }> };
@@ -184,6 +185,24 @@ export const loadVocabularyCatalogPage = (url: string) => getJson<VocabularyCata
 export const loadSeriesIndex = async () => getJson<SeriesIndex>((await loadIndex()).pages.series);
 export const loadSeries = (id: string) => getJson<SeriesManifest>(`series/${id}/index.json`);
 export const loadSeriesArticle = (id: string, locale: string) => getJson<SeriesArticle>(`series/${id}/${locale}.json`);
-export function searchSeries(cards: SeriesCard[], query: string) { const needle = query.trim().normalize("NFKC").toLocaleLowerCase(); if (!needle) return cards; return cards.filter((card) => [card.id, card.category, card.genre, card.style, ...Object.values(card.titles), ...Object.values(card.writers).flatMap((writer) => [writer.id, writer.displayName]), ...Object.values(card.labels ?? {}).flat()].join(" ").normalize("NFKC").toLocaleLowerCase().includes(needle)) }
+export function searchSeries(cards: SeriesCard[], query: string) { const needle = query.trim().normalize("NFKC").toLocaleLowerCase(); if (!needle) return cards; return cards.filter((card) => [card.id, card.type, ...Object.values(card.typeNames ?? {}), card.category, card.genre, card.style, ...Object.values(card.titles), ...Object.values(card.writers).flatMap((writer) => [writer.id, writer.displayName]), ...Object.values(card.labels ?? {}).flat()].join(" ").normalize("NFKC").toLocaleLowerCase().includes(needle)) }
+export function filterArticles(cards: SeriesCard[], filters: ArticleFilters, readingLocale: string) {
+  const selected = (value: string | undefined) => value && value !== "all" ? value : undefined;
+  const type = selected(filters.type);
+  const classification = selected(filters.classification);
+  const writer = selected(filters.writer);
+  const style = selected(filters.style);
+  const level = selected(filters.level);
+  const labels = [["topics", selected(filters.topic)], ["themes", selected(filters.theme)], ["moods", selected(filters.mood)]] as const;
+  return searchSeries(cards, filters.query ?? "").filter((card) => {
+    const locale = resolveContentLocale(readingLocale, card.availableLocales);
+    return (!type || card.type === type)
+      && (!classification || classification === `category:${card.category}` || classification === `genre:${card.genre}`)
+      && (!writer || card.writers[locale]?.id === writer)
+      && (!style || card.style === style)
+      && (!level || (card.levels ?? []).includes(level))
+      && labels.every(([group, value]) => !value || (card.labels[group] ?? []).includes(value));
+  });
+}
 export function flattenSeriesBooks(groups: SeriesManifest["bookGroups"]) { return groups.flatMap((group) => group.books.map((book) => ({ ...book, level: group.level }))) }
 export function searchCards(cards: BookCard[], query: string) { const needle = query.trim().normalize("NFKC").toLocaleLowerCase(); if (!needle) return cards; return cards.filter((card) => [card.title, card.summary, card.writer.displayName, card.style.displayName, ...Object.values(card.style.names ?? {}), ...Object.values(card.titles), ...Object.values(card.summaries), ...card.concepts, ...Object.values(card.labels ?? {}).flat()].join(" ").normalize("NFKC").toLocaleLowerCase().includes(needle)) }

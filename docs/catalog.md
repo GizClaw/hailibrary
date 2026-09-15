@@ -43,7 +43,7 @@ build/
 
 Each `works/<work-id>/index.json` is a self-describing picture-book manifest. It lists locale story URLs, Writer and Style profile URLs, cover and page artwork URLs, source-series metadata, and referenced vocabulary-entry URLs. Locale files contain only that edition's prose, chapters, questions, and answers; picture books contain no cast or audio script.
 
-`series.json` is the lightweight Works index. Each `series/<series-id>/index.json` contains metadata, localized titles and Writers, locale article/audio URLs, the copied cover URL, and derived books grouped in taxonomy level order and sorted by `source.volume`. A book source may omit `volume` and `volumes`; the catalog normalizes that single-book case to `1/1` while preserving explicit legacy multi-volume metadata. Each `<locale>.json` contains only the parsed title, `##` chapters, and paragraphs. Optional `<locale>-audio.json` files preserve the complete audiobook script. Each audio block contains `id`, `speaker`, and `text`; character dialogue may also carry one optional MiniMax `emotion`: `happy`, `sad`, `angry`, `fearful`, `disgusted`, `surprised`, or `calm`. The catalog copies this field unchanged when present and does not emit it when absent.
+`series.json` is the lightweight Articles index. It includes the article-type catalog with names localized from `prompts/article-types/*/prompt.yaml`. Each article card and `series/<series-id>/index.json` contains its optional `type` and localized `typeNames`, category, genre, Style ID, labels, localized titles and Writers, and the distinct `levels` of its derived picture books. Articles without `type` omit both type fields and are not offered by the type filter. The manifest also contains locale article/audio URLs, the copied cover URL, and derived books grouped in taxonomy level order and sorted by `source.volume`. A book source may omit `volume` and `volumes`; the catalog normalizes that single-book case to `1/1` while preserving explicit legacy multi-volume metadata. Each `<locale>.json` contains only the parsed title, `##` chapters, and paragraphs. Optional `<locale>-audio.json` files preserve the complete audiobook script. Each audio block contains `id`, `speaker`, and `text`; character dialogue may also carry one optional MiniMax `emotion`: `happy`, `sad`, `angry`, `fearful`, `disgusted`, `surprised`, or `calm`. The catalog copies this field unchanged when present and does not emit it when absent.
 
 The website loads data by route:
 
@@ -52,7 +52,7 @@ The website loads data by route:
 - the reader loads one book manifest, one selected locale, and only that work's referenced vocabulary entries;
 - Writer and Style pages load their own indexes and individual profiles;
 - the vocabulary page loads its index and one locale/level/page shard at a time.
-- the Works page loads `series.json`; a detail page loads one series manifest and only the selected article locale, leaving audio unloaded until needed.
+- the Articles page loads `series.json`; a detail page loads one series manifest and only the selected article locale, leaving audio unloaded until needed.
 
 All URLs stored in JSON are relative to the API root. Do not add a leading slash: relative URLs continue to work when the release is hosted below a path such as `https://open.haivivi.com/hai-library/`.
 
