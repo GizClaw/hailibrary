@@ -185,6 +185,12 @@ test("accepts book source with omitted volume metadata as volume 1 of 1", async 
   assert.equal((await check(f)).code, 0);
 });
 
+test("accepts an independent picture book without source", async () => {
+  const f = await fixture();
+  await replace(join(f.second, "book.yaml"), "source: {series: test-series, volume: 2, volumes: 2}\n", "");
+  assert.equal((await check(f)).code, 0);
+});
+
 test("still rejects duplicate questions when multiple same-series books omit volume metadata", async () => {
   const f = await fixture();
   await replace(join(f.first, "book.yaml"), "source: {series: test-series, volume: 1, volumes: 2}", "source: {series: test-series}");

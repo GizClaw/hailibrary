@@ -526,16 +526,19 @@ function checkWork(workArgument) {
     if (resolve(other) !== resolve(work) && other.split(sep).at(-1) === slug) check.errors.push(`book slug ${slug} is not unique: ${asPosix(relative(root, other))} uses it too`);
   }
   requiredString(check, book, "status", "book");
+  const hasSource = Object.hasOwn(book, "source");
   const source = isMapping(book.source) ? book.source : {};
-  check.require(isMapping(book.source), "book.source must be a mapping");
-  check.require(hasOnlyKeys(source, new Set(["series", "volume", "volumes"])), "book.source contains an unknown field");
-  const sourceSeries = requiredString(check, source, "series", "book.source");
+  if (hasSource) check.require(isMapping(book.source), "book.source must be a mapping when present");
+  if (hasSource) check.require(hasOnlyKeys(source, new Set(["series", "volume", "volumes"])), "book.source contains an unknown field");
+  const sourceSeries = hasSource ? requiredString(check, source, "series", "book.source") : null;
   if (sourceSeries !== null) check.require(existsSync(join(root, "works", "series", sourceSeries, "article.yaml")), `book.source.series does not exist: ${sourceSeries}`);
-  const sourceVolume = source.volume ?? 1;
-  const sourceVolumes = source.volumes ?? 1;
-  check.require(Number.isInteger(sourceVolume) && sourceVolume > 0, "book.source.volume must be a positive integer when present");
-  check.require(Number.isInteger(sourceVolumes) && sourceVolumes > 0, "book.source.volumes must be a positive integer when present");
-  if (Number.isInteger(sourceVolume) && Number.isInteger(sourceVolumes)) check.require(sourceVolume <= sourceVolumes, "book.source.volume must not exceed book.source.volumes");
+  const sourceVolume = hasSource ? source.volume ?? 1 : null;
+  const sourceVolumes = hasSource ? source.volumes ?? 1 : null;
+  if (hasSource) {
+    check.require(Number.isInteger(sourceVolume) && sourceVolume > 0, "book.source.volume must be a positive integer when present");
+    check.require(Number.isInteger(sourceVolumes) && sourceVolumes > 0, "book.source.volumes must be a positive integer when present");
+    if (Number.isInteger(sourceVolume) && Number.isInteger(sourceVolumes)) check.require(sourceVolume <= sourceVolumes, "book.source.volume must not exceed book.source.volumes");
+  }
   const workType = typePath(check, book.type, "book.type");
   const levelRules = levelRulesById[level];
   check.require(isMapping(levelRules), `unknown reading level: ${level}`);

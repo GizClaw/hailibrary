@@ -36,6 +36,8 @@ test("series output has independently loadable locale articles and optional audi
 
 test("series books are grouped by taxonomy level and sorted by source volume", async () => {
   const [index, taxonomy, catalog] = await Promise.all([readJson("series.json"), readJson("taxonomy.json"), readJson("catalog.json")]);
+  const shards = await Promise.all(catalog.shards.map(readJson));
+  const seriesBookCount = shards.flat().filter((card: { source?: unknown }) => card.source).length;
   const rank = new Map(Object.keys(taxonomy.levels).map((level, position) => [level, position]));
   let bookCount = 0;
   for (const card of index.series) {
@@ -47,18 +49,22 @@ test("series books are grouped by taxonomy level and sorted by source volume", a
       bookCount += group.books.length;
     }
   }
-  assert.equal(bookCount, catalog.bookCount);
+  assert.equal(bookCount, seriesBookCount);
 });
 
-test("book cards and manifests expose localized source metadata", async () => {
+test("series-derived book cards and manifests expose localized source metadata while independent books omit it", async () => {
   const catalog = await readJson("catalog.json");
   const shards = await Promise.all(catalog.shards.map(readJson));
   for (const card of shards.flat()) {
+    const manifest = await readJson(card.manifest);
+    if (!card.source) {
+      assert.equal(Object.hasOwn(manifest, "source"), false);
+      continue;
+    }
     assert.deepEqual(Object.keys(card.source).sort(), ["series", "titles", "volume", "volumes"]);
     assert.ok(card.source.series);
     assert.ok(card.source.volume >= 1 && card.source.volume <= card.source.volumes);
     assert.ok(Object.keys(card.source.titles).length > 0);
-    const manifest = await readJson(card.manifest);
     assert.deepEqual(manifest.source, card.source);
   }
 });
