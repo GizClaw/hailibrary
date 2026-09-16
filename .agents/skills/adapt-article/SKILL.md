@@ -1,11 +1,11 @@
 ---
 name: adapt-article
-description: Turn one final multilingual HaiLibrary series article into one complete aa-n picture book by summarizing first, compressing to a target page count, then creating vocabulary, prompts, images, and validated files—把一篇最终版多语言系列文章先概括、再压缩成一本 aa-n 分级绘本，并完成词汇、prompt、生图和校验。
+description: Turn one final multilingual HaiLibrary article into one complete aa-n picture book by summarizing first, compressing to a target page count, then creating vocabulary, prompts, images, and validated files—把一篇最终版多语言文章先概括、再压缩成一本 aa-n 分级绘本，并完成词汇、prompt、生图和校验。
 ---
 
-# Adapt one series article into one picture book
+# Adapt one article into one picture book
 
-Own the complete derivative workflow for one `works/<level>/<category>/<subcategory>/<slug>/`. One series article produces exactly one picture book at one level; do not split it into sets or volumes. Prefer `slug: <series-id>` so the book and series share an ID. Because book slugs are global, use `<series-id>-<level>` only when the preferred slug is already occupied or unsuitable. Read [references/level-and-vocabulary-contract.md](references/level-and-vocabulary-contract.md) before choosing the level or vocabulary.
+Own the complete derivative workflow for one `works/<level>/<category>/<subcategory>/<slug>/`. One standalone article at `works/articles/<article-id>/` or series child at `works/series/<series-id>/<article-id>/` produces exactly one picture book at one level; do not split it into sets or volumes. Prefer `slug: <article-id>` so the book and source article share an ID. Because book slugs are global, use `<article-id>-<level>` only when the preferred slug is already occupied or unsuitable. Read [references/level-and-vocabulary-contract.md](references/level-and-vocabulary-contract.md) before choosing the level or vocabulary.
 
 ## Read the source and choose the target
 
@@ -23,7 +23,7 @@ Only after the synopsis and page map are stable, write each locale's page text i
 
 The locales share page count, page IDs, page meanings, visible events, and illustration IDs, while retaining native wording, information order, sentence structure, and idiom. Then write questions with stable page-level evidence and author the illustration scenes and prompts from the shared visual event map.
 
-Create schema-2 `book.yaml`, schema-2 `artwork.yaml`, and schema-3 `locales/<locale>/story.yaml`. Use `source: {series: <series-id>}`; `volume` and `volumes` are legacy optional fields and default to `1/1`. Chapters cover every page once in order. Picture books contain no `article.md`, `research.yaml`, audio script, cast, speaker, voice identity, or legacy top-level `pages`.
+Create schema-2 `book.yaml`, schema-2 `artwork.yaml`, and schema-3 `locales/<locale>/story.yaml`. Use `source: {article: <article-id>}` for a derived book regardless of which article layout contains the globally unique ID; never use `source.series`. `volume` and `volumes` are legacy optional fields and default to `1/1`. Chapters cover every page once in order. Picture books contain no `article.md`, `research.yaml`, audio script, cast, speaker, voice identity, or legacy top-level `pages`.
 
 Stabilize prose and pagination before selecting target words. Then invoke `$vocabulary` for every new or changed entry and add only surface forms already present in the prose.
 
@@ -31,7 +31,7 @@ Stabilize prose and pagination before selecting target words. Then invoke `$voca
 
 Choose a reusable Style and stable character `visual_identity` values. Every cover/page asset needs a concise scene and a complete prompt describing visible action, setting, exact character appearance, continuity, camera, composition, focus, and exclusions. Leave medium and treatment to the Style. Never request visible text, letters, numbers, logos, captions, speech bubbles, signatures, or watermarks.
 
-After prompts are committed, run `npx --no-install hailibrary-imagegen <work-dir> [flags]`. Preserve existing image bytes for text-only changes. Run `npx --no-install hailibrary-check-work <work-dir>` and fix every deterministic error.
+After prompts are committed, run `npx --no-install hailibrary-imagegen <work-dir> [flags]`. Preserve existing image bytes for text-only changes.
 
 ## Author self-reflection
 
@@ -46,9 +46,8 @@ The same author must execute every item for the complete book and every locale, 
 7. Build one row per page ID with every locale's event and illustration ID. Confirm page order, visible participants, action, setting, object state, and narrative function align, while each locale remains independently natural.
 8. For each page, compare all locale text with its artwork scene and prompt. List every visible action, character, prop, location, and state required by the text; repair contradiction, omission, or a moment borrowed from another page.
 9. For every cover/page prompt, copy the complete fixed appearance of each present character from `book.yaml.visual_identity`; verify recurring clothing, body, props, location, object construction, composition, and exclusions across the asset set.
-10. For every question, open all `page_refs` and record the exact sentence or sentences establishing the answer. Confirm its declared type matches the Level contract and the answer requires only this book. If legacy data leaves multiple books for the same series, also remove copied or near-identical question prompts across those books.
+10. For every question, open all `page_refs` and record the exact sentence or sentences establishing the answer. Confirm its declared type matches the Level contract and the answer requires only this book. If legacy data leaves multiple books for the same source article, also remove copied or near-identical question prompts across those books.
 11. Inspect every YAML scalar containing a comma or colon, quote it, parse every YAML file, and repair unintended keys or null values.
 12. Open the original pixels of every generated cover, page image, and new vocabulary card. Check text artifacts, wrong scene, missing or altered characters, identity drift, unsafe or impossible action, anatomy or object errors, crop, aspect ratio, Style, and cross-page continuity; correct prompts, regenerate, and reinspect the complete set.
-13. Run `npx --no-install hailibrary-check-work <work-dir>`. Fix every error, rerun it, then restart this entire checklist because deterministic success does not prove narrative, evidence, or visual correctness.
 
 Only deliver the corrected, generated, visually inspected single book after a full restarted pass has no finding.

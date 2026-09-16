@@ -1,6 +1,6 @@
-# Series audiobook script contract
+# Article audiobook script contract
 
-Use this contract to derive `audio_script.yaml` by retelling the complete, ungraded literary source at `works/series/<id>/locales/<locale>/article.md`.
+Use this contract to derive `audio_script.yaml` by retelling the complete, ungraded literary source at `works/articles/<article-id>/locales/<locale>/article.md` or `works/series/<series-id>/<article-id>/locales/<locale>/article.md`.
 
 ## Shape
 
@@ -40,11 +40,11 @@ The root contains exactly `audio_script`. It contains one locale `language`, one
 ## Identity and voice
 
 - Adapt each locale only from its own complete `article.md`. Never translate, align, or use another locale's script as source. Locale scripts need not match in blocks, block count, inferred chaptering, attribution placement, or emotion placement.
-- Prefer speaker IDs declared in the series-level `article.yaml` `characters` data.
+- Prefer speaker IDs declared in the article's effective `characters` data.
 - Add stable IDs for other people who speak in the source. A line the source gives to an unnamed person, an unidentified voice, or a crowd uses a generic group speaker; never reassign it to a named character. Every block speaker resolves to exactly one cast entry.
 - Include `narrator` even when narration is brief.
 - When a script already exists, keep its cast entries, including `display_name` and TTS direction, unless a speaker is added or removed or an entry breaks this contract.
-- Keep series-declared character IDs shared across locales. Each cast entry has locale-native `display_name` plus locale-native abstract `tts.delivery`, `tts.timbre`, `tts.pace`, and `tts.pitch` strings; all spoken text is locale-native too.
+- Keep declared character IDs shared across locales. Each cast entry has locale-native `display_name` plus locale-native abstract `tts.delivery`, `tts.timbre`, `tts.pace`, and `tts.pitch` strings; all spoken text is locale-native too.
 - Cast contains no provider voice ID. Blocks contain no voice configuration, SSML, audio filename, synthesis setting, stage direction, or delivery annotation.
 
 ## Dialogue emotion
