@@ -4,7 +4,7 @@ Status: series-first content architecture in progress.
 
 ## Content layers
 
-1. `works/series/<id>/` stores complete, ungraded literature. Shared planning lives in `article.yaml`, factual evidence in optional `research.yaml`, and each locale independently owns `article.md` plus its faithful `audio_script.yaml`.
+1. `works/series/<id>/` stores complete, ungraded literature. Shared planning lives in `article.yaml`, factual evidence in optional `research.yaml`, and each locale independently owns `article.md` plus its story-faithful, listening-first `audio_script.yaml`.
 2. `works/<level>/<category>/<subcategory>/<slug>/` stores picture books derived from one series. Picture-book levels are limited to `aa`, `a` through `n`; higher reading is served by the complete series articles.
 3. The current website and catalog continue to publish picture books only.
 

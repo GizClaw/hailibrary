@@ -90,5 +90,13 @@ Vocabulary plan:
 - Lexile is an English quantitative reference only; never fabricate a Lexile score and never apply Lexile to Chinese.
 - For English, frequency is evidence, not level assignment. From U upward, raw NGSL rank is especially insufficient without checking sense, register, abstraction, rhetoric, and domain.
 - For Chinese, verify the complete word and exact textbook evidence; familiar characters do not prove a familiar word.
-- Lower levels must remain natural, not telegraphic. Higher levels must remain readable, not a policy memo or jargon stack.
+- Lower levels must remain grammatical and natural, not telegraphic. Simplify by shortening sentences and reducing complexity, never by dropping required constituents or function words. Higher levels must remain readable, not a policy memo or jargon stack.
+- Compose each locale independently from the shared page meaning, never word for word from another locale. Supply every constituent the chosen construction and intended meaning demand. Allow native imperatives, licensed ellipsis and null subjects or objects, topic-comment structures, and intentional minor sentences; reject accidental omissions, word-list prose, telegraphic calques, and any Chinese line that works only because the English original does. If a natural sentence cannot fit the Level's unit limit, re-plan the page meaning.
+- In English, treat crowded modifier stacks and awkward adjective, adverb, or prepositional-phrase placement as warning signs. Choose idiomatic order for the intended meaning and register; keep required function words, tense, agreement, articles, plurals, and pronoun reference. Never drop a required article or copula for brevity, and never apply an ordering mnemonic mechanically.
+- In Chinese, treat crowded 定语/状语 chains and unnatural function or aspect marking as warning signs. Choose idiomatic modifier order and use 的/地/得、量词、把/被、了/着/过 only when the construction and intended meaning call for them. Never stuff particles, classifiers, 把/被, or aspect markers into a sentence merely to satisfy a checklist. Preserve the narrator's and characters' register; allow native topic-comment structure and contextually licensed omission.
 - Shared page meaning and evidence must align across locales, but wording, sentence boundaries, information order, idiom, and target terms should be independently native.
+
+Grammar repair examples:
+
+- zh, before: `小猫轻轻地一个红球推。` → after: `小猫轻轻地推一个红球。`
+- en, before: `Bird on branch happy.` → after: `The bird is happy on the branch.`

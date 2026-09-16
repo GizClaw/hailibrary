@@ -6,7 +6,7 @@ Every content skill ends with the same-author loop: finish the output, execute e
 
 ## Source of truth
 
-- Series live at `works/series/<series-id>/`. `article.yaml` holds planning metadata, including an article `type` from `prompts/article-types/` and one `picture_book: {level}` proposal; optional `research.yaml` records evidence. Legacy articles without `type` and with `picture_books` remain compatible. Each locale has an independently written native-language `locales/<locale>/article.md` and a faithful `audio_script.yaml` made by `$scriptize-article`. Audio blocks contain `id`, `speaker`, and `text`, plus an optional `emotion` limited to `happy`, `sad`, `angry`, `fearful`, `disgusted`, `surprised`, or `calm`.
+- Series live at `works/series/<series-id>/`. `article.yaml` holds planning metadata, including an article `type` from `prompts/article-types/` and one `picture_book: {level}` proposal; optional `research.yaml` records evidence. Legacy articles without `type` and with `picture_books` remain compatible. Each locale has an independently written native-language `locales/<locale>/article.md` and a story-faithful, listening-first `audio_script.yaml` made by `$scriptize-article`. Audio blocks contain `id`, `speaker`, and `text`, plus an optional `emotion` limited to `happy`, `sad`, `angry`, `fearful`, `disgusted`, `surprised`, or `calm`.
 - Picture books live at `works/<level>/<category>/<subcategory>/<slug>/`, limited to `aa`, `a` through `n`. Low-level picture books may exist independently without a series article; an independent book omits `book.yaml.source`. A series-derived book uses `source: {series}`; optional legacy `volume` and `volumes` default to `1`. The book has a complete beginning, development, turn, and resolution.
 - Schema-2 `book.yaml` contains `id`, `type`, `style`, `status`, `locales`, `labels`, `characters`, `cover`, and `source`. Characters have `id`, `kind`, `description`, and `visual_identity`; picture books have no voice identity or cast.
 - Schema-2 `artwork.yaml` declares Style, aspect ratio, prohibited embedded text, shared locale artwork, and cover/page assets. Each asset has an ID, WebP file, concise scene, and complete content/composition prompt; Style treatment stays in the referenced Style prompt.
@@ -17,7 +17,7 @@ Every content skill ends with the same-author loop: finish the output, execute e
 ## Workflow
 
 1. `$write-article`: plan the series, research when needed, independently write each locale in its native language, and self-revise strictly.
-2. `$scriptize-article`: convert each final locale article into a faithful chaptered multi-speaker audiobook script and compare it back to the source.
+2. `$scriptize-article`: adapt each final locale article into a natural chaptered multi-speaker audiobook script, then check complete story fidelity and read-aloud quality against the source.
 3. `$adapt-article`: summarize each locale article, compress the shared story into one `aa`–`n` picture book at a chosen target page count, stabilize prose and pagination, invoke `$vocabulary`, author artwork prompts, generate all images with `tools/imagegen`, visually inspect them, and run `check-work`.
 4. Use `$writer` or `$style` when creating or materially revising those reusable resources; each includes originality, usability, identity, and IP risk self-checks.
 
