@@ -2,7 +2,7 @@
 
 HaiLibrary separates ungraded series literature from graded picture books. Codex writes source content and committed prompts directly; repository code never generates stories, literary text, or prompts.
 
-Every content skill ends with the same-author loop: finish the output, execute every item in that skill's concrete self-reflection checklist, fix every issue, and restart the complete checklist until a fresh pass finds no issue. This same-author self-reflection is the required editorial review; there is no separate review stage.
+Every content skill ends with the same-author loop: finish the output, execute every item in that skill's concrete self-reflection checklist, fix every issue, and restart the complete checklist until a fresh pass finds no issue, unless the skill declares a single check pass. This same-author self-reflection is the required editorial review; there is no separate review stage.
 
 ## Source of truth
 
@@ -21,7 +21,7 @@ Every content skill ends with the same-author loop: finish the output, execute e
 3. `$adapt-article`: summarize each locale article, compress the shared story into one `aa`–`n` picture book at a chosen target page count, stabilize prose and pagination, invoke `$vocabulary`, author artwork prompts, generate all images with `tools/imagegen`, visually inspect them, and run `check-work`.
 4. Use `$writer` or `$style` when creating or materially revising those reusable resources; each includes originality, usability, identity, and IP risk self-checks.
 
-After every skill finishes creating or changing content, execute its self-reflection checklist item by item. Do not replace the concrete actions with a general quality judgment, check only edited lines, or hand off after fixes without restarting the full checklist.
+After every skill finishes creating or changing content, execute its self-reflection checklist item by item. Do not replace the concrete actions with a general quality judgment, check only edited lines, or hand off after fixes without restarting the full checklist, except in a skill that declares a single check pass.
 
 Before opening a content pull request, create or identify a natively linked Issue. The Issue must state the source series path and derived book path; exact level; category and subcategory; Chinese and English Writer IDs; Style ID; learning goals; page count and illustration count; and measurable acceptance criteria covering successful `hailibrary-check-work`, complete generated images and matching `imagegen-state.yaml`, Git LFS coverage, and page-level evidence for every question.
 
