@@ -1,0 +1,410 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts: {delivery: "warm, observant, and gently playful", timbre: "clear and inviting", pace: measured, pitch: medium}
+    meg:
+      display_name: Meg
+      tts: {delivery: "graceful, earnest, and sisterly", timbre: "soft and polished", pace: measured, pitch: medium}
+    jo:
+      display_name: Jo
+      tts: {delivery: "spirited, blunt, and quick to laugh", timbre: "bright and slightly husky", pace: lively, pitch: medium-low}
+    beth:
+      display_name: Beth
+      tts: {delivery: "shy, gentle, and quietly sincere", timbre: "light and tender", pace: unhurried, pitch: medium-high}
+    amy:
+      display_name: Amy
+      tts: {delivery: "proper, dramatic, and confidently young", timbre: "clear and delicate", pace: measured, pitch: high}
+    laurie:
+      display_name: Laurie
+      tts: {delivery: "courteous, sensitive, and boyishly playful", timbre: "clear and youthful", pace: measured, pitch: medium}
+    marmee:
+      display_name: Marmee
+      tts: {delivery: "loving, steady, and encouraging", timbre: "warm and full", pace: unhurried, pitch: medium-low}
+    hannah:
+      display_name: Hannah
+      tts: {delivery: "plainspoken, bustling, and warmly devoted", timbre: "sturdy and homely", pace: brisk, pitch: medium-low}
+    mr_laurence:
+      display_name: Mr. Laurence
+      tts: {delivery: "gruff, generous, and deeply kind", timbre: "rich and weathered", pace: measured, pitch: low}
+    mr_brooke:
+      display_name: Mr. Brooke
+      tts: {delivery: "quiet, thoughtful, and courteous", timbre: "gentle and clear", pace: measured, pitch: medium-low}
+    barber:
+      display_name: Barber
+      tts: {delivery: "businesslike and mildly skeptical", timbre: "light and neat", pace: measured, pitch: medium}
+    barber_wife:
+      display_name: Barber's Wife
+      tts: {delivery: "kindhearted and practical", timbre: "warm and plain", pace: measured, pitch: medium}
+  chapters:
+    - id: ch01
+      title: A Dull November Day
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: One gray November afternoon, Meg stood at the window looking over the frostbitten garden.
+        - id: ch01-b02
+          speaker: meg
+          text: November is the worst month of the whole year.
+        - id: ch01-b03
+          speaker: jo
+          text: That must be why I was born in it.
+        - id: ch01-b04
+          speaker: narrator
+          text: Jo said this thoughtfully, without noticing the ink blot on her nose.
+        - id: ch01-b05
+          speaker: beth
+          text: If something especially nice happened now, we'd think November was wonderful.
+        - id: ch01-b06
+          speaker: narrator
+          text: Beth could find hope in almost anything, even November. Meg was out of sorts and could not agree.
+        - id: ch01-b07
+          speaker: meg
+          text: But nothing nice ever happens in this family. Every day we work and work, with hardly any change or fun. We might as well be walking on a treadmill.
+        - id: ch01-b08
+          speaker: jo
+          text: Goodness, aren't we gloomy! I don't blame you much, poor Meg. You watch other girls having splendid times while you keep grinding away year after year. I wish I could arrange your life the way I arrange things for my heroines. A rich relation would suddenly leave you a fortune. You'd become an heiress, snub everyone who ever slighted you, travel abroad, and come home as Lady Something in a blaze of elegance.
+        - id: ch01-b09
+          speaker: meg
+          text: People don't inherit fortunes that way anymore. Men have to work, and women have to marry for money. The world is terribly unfair.
+          emotion: angry
+        - id: ch01-b10
+          speaker: narrator
+          text: Amy sat in a corner making little clay birds, fruit, and faces. Hannah called them mud pies.
+        - id: ch01-b11
+          speaker: amy
+          text: Jo and I will make fortunes for all of you. Wait ten years. You'll see.
+        - id: ch01-b12
+          speaker: meg
+          text: I can't wait that long, and I don't have much faith in ink and dirt. Still, thank you for meaning well.
+        - id: ch01-b13
+          speaker: narrator
+          text: Meg sighed and turned back to the garden. Jo groaned over the table. Amy kept patting her clay with determination. Then Beth smiled from the other window.
+        - id: ch01-b14
+          speaker: beth
+          text: Two nice things are about to happen. Marmee is coming down the street, and Laurie is stomping through the garden as if he has good news.
+        - id: ch01-b15
+          speaker: narrator
+          text: Both of them came in. Mrs. March asked her usual question.
+        - id: ch01-b16
+          speaker: marmee
+          text: Any letter from Father, girls?
+        - id: ch01-b17
+          speaker: laurie
+          text: Would some of you come for a drive? I've worked at mathematics until my thoughts are all tangled, and I need some brisk air. The day is dull, but it isn't too cold. I'm taking Mr. Brooke home, so at least it will be cheerful inside the carriage. Come on, Jo. You and Beth will go, won't you?
+        - id: ch01-b18
+          speakers: [jo, beth]
+          ensemble: duo
+          text: Of course we will.
+        - id: ch01-b19
+          speaker: meg
+          text: Thank you, but I'm busy.
+        - id: ch01-b20
+          speaker: narrator
+          text: Meg quickly pulled out her workbasket. She and her mother had agreed that Meg, at least, should not go driving too often with the young gentleman.
+        - id: ch01-b21
+          speaker: amy
+          text: The three of us will be ready in a minute!
+        - id: ch01-b22
+          speaker: narrator
+          text: Amy ran off to wash the clay from her hands. Laurie bent over Mrs. March's chair with the affection he always showed her.
+        - id: ch01-b23
+          speaker: laurie
+          text: Is there anything I can do for you, Madam Mother?
+        - id: ch01-b24
+          speaker: marmee
+          text: Only one thing, dear. Please stop at the post office. We should have a letter today, but the postman hasn't come. Father writes as regularly as the sun, so perhaps it was delayed.
+    - id: ch02
+      title: The Telegram
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: A sharp ring cut her off. A minute later, Hannah entered carrying a letter as though it might burst in her hand.
+        - id: ch02-b02
+          speaker: hannah
+          text: It's one of those awful telegram things, ma'am.
+          emotion: fearful
+        - id: ch02-b03
+          speaker: narrator
+          text: At the word telegram, Mrs. March snatched the paper and read its two lines. Then she fell back in her chair, white as if the message had sent a bullet into her heart. Laurie raced downstairs for water. Meg and Hannah held her up, while Jo read the message aloud in a frightened voice.
+        - id: ch02-b04
+          speaker: jo
+          text: Mrs. March. Your husband is very ill. Come at once. S. Hale, Blank Hospital, Washington.
+          emotion: fearful
+        - id: ch02-b05
+          speaker: narrator
+          text: The room went utterly still. Outside, the day seemed to darken. The girls crowded around their mother, feeling that the happiness and support of their lives might be taken from them.
+        - id: ch02-b06
+          speaker: narrator
+          text: Mrs. March quickly mastered herself. She read the message once more, then reached for her daughters. They never forgot her voice.
+        - id: ch02-b07
+          speaker: marmee
+          text: I must go at once, but I may already be too late. Oh, my children, help me bear this!
+          emotion: sad
+        - id: ch02-b08
+          speaker: narrator
+          text: For several minutes, the room held only sobs, broken words of comfort, promises of help, and hopeful whispers that ended in tears. Hannah recovered first. Work was her cure for almost every sorrow, and she gave the others an example to follow. She wiped her face on her apron and clasped her mistress's hand in her own hard one.
+        - id: ch02-b09
+          speaker: hannah
+          text: May the Lord keep the dear man! I won't spend another minute crying. I'll get your things ready right now, ma'am.
+        - id: ch02-b10
+          speaker: narrator
+          text: Hannah hurried away and worked with the strength of three women.
+        - id: ch02-b11
+          speaker: marmee
+          text: She's right. We have no time for tears now. Try to be calm, girls, and let me think.
+          emotion: calm
+        - id: ch02-b12
+          speaker: narrator
+          text: The girls tried. Their mother sat pale but steady, putting her grief aside while she planned what each of them must do. Once her first decisions were made, she looked up.
+        - id: ch02-b13
+          speaker: marmee
+          text: Where is Laurie?
+        - id: ch02-b14
+          speaker: narrator
+          text: Laurie hurried in from the next room. He had withdrawn because their first grief felt too private for even a close friend to witness.
+        - id: ch02-b15
+          speaker: laurie
+          text: I'm here, ma'am. Please, let me help!
+        - id: ch02-b16
+          speaker: marmee
+          text: Send a telegram to say I'll come at once. The next train leaves early tomorrow morning. I'll be on it.
+        - id: ch02-b17
+          speaker: laurie
+          text: What else? The horses are ready. I'll go anywhere you need and do anything.
+        - id: ch02-b18
+          speaker: marmee
+          text: Take a note to Aunt March. Jo, please bring me pen and paper.
+        - id: ch02-b19
+          speaker: narrator
+          text: Jo tore the blank side from one of the pages she had just copied and pulled the table close. She knew her mother had to borrow money for the long, sad journey. At that moment, Jo felt she could do anything to add even a little to what they needed for Father.
+        - id: ch02-b20
+          speaker: marmee
+          text: Go now, dear, but don't hurt yourself by riding too fast. There is no need.
+        - id: ch02-b21
+          speaker: narrator
+          text: Her warning did no good. Five minutes later, Laurie flew past the window on his swift horse as if his own life depended on the errand.
+        - id: ch02-b22
+          speaker: marmee
+          text: Jo, tell Mrs. King I can't come to the rooms, and buy the things on this list along the way. I must be ready to nurse Father, and hospitals don't always have good supplies. Beth, ask Mr. Laurence for two bottles of his old wine. I'm not too proud to beg for Father. He must have the best. Amy, tell Hannah to bring down the black trunk. Meg, help me find my things. I can hardly think straight.
+        - id: ch02-b23
+          speaker: narrator
+          text: Mrs. March was writing, thinking, and giving orders at once. Meg begged her to rest quietly in her room and let the girls work. Everyone scattered like leaves in a gust. One little sheet of paper had broken apart their quiet, happy household as suddenly as an evil spell.
+    - id: ch03
+      title: Help for the Journey
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Mr. Laurence soon hurried back with Beth. The kind old gentleman brought every comfort he could think of for the sick man. He also promised to look after the girls while their mother was gone, which eased Mrs. March's mind. He offered everything from his own dressing gown to himself as her escort.
+        - id: ch03-b02
+          speaker: narrator
+          text: Mrs. March would not allow him to make such a long journey. Still, relief showed on her face when he offered. Worry had left her in no condition to travel alone. Mr. Laurence noticed. He drew his heavy eyebrows together, rubbed his hands, and started away.
+        - id: ch03-b03
+          speaker: mr_laurence
+          text: I'll be back shortly.
+        - id: ch03-b04
+          speaker: narrator
+          text: Everyone was too busy to think about him again. Then Meg hurried through the entry with a pair of rubber shoes in one hand and tea in the other, and nearly ran into Mr. Brooke.
+        - id: ch03-b05
+          speaker: mr_brooke
+          text: I'm very sorry, Miss March. I've come to travel with your mother. Mr. Laurence has business for me in Washington, and I would be truly glad to help her while we're there.
+        - id: ch03-b06
+          speaker: narrator
+          text: Meg dropped the shoes and nearly dropped the tea. She held out her hand, and her face showed so much gratitude that Mr. Brooke would have felt repaid for a far greater sacrifice than a little time and comfort.
+        - id: ch03-b07
+          speaker: meg
+          text: You are all so kind! I'm sure Mother will agree. Knowing someone will be there to care for her is such a relief. Thank you. Thank you so much!
+        - id: ch03-b08
+          speaker: narrator
+          text: Meg spoke from her heart and forgot herself completely. Then something in the brown eyes looking down at her reminded her of the cooling tea. She led Mr. Brooke into the parlor and went to call her mother.
+        - id: ch03-b09
+          speaker: narrator
+          text: By the time Laurie returned, everything was settled. He brought a note from Aunt March with the money they needed. The note repeated her usual opinions. She had always said it was foolish for Mr. March to join the army. She had always known no good would come of it. Perhaps next time they would listen to her.
+        - id: ch03-b10
+          speaker: narrator
+          text: Mrs. March fed the note to the fire, put the money in her purse, and continued packing. Her lips pressed into a tight line that Jo would have understood if she had been there.
+        - id: ch03-b11
+          speaker: narrator
+          text: The brief afternoon slipped away. The other errands were finished. Meg and her mother sewed things needed for the trip. Beth and Amy prepared tea, while Hannah finished her ironing with what she called a slap and a bang. But Jo did not return.
+        - id: ch03-b12
+          speaker: narrator
+          text: At last they grew worried. Laurie went to find her, because nobody could guess what wild plan Jo might have taken into her head. He missed her on the way. Soon Jo walked in wearing such a strange mixture of amusement, fear, satisfaction, and regret that everyone stared. Then she put a roll of bills before her mother.
+        - id: ch03-b13
+          speaker: jo
+          text: Here's my share toward keeping Father comfortable and bringing him home.
+        - id: ch03-b14
+          speaker: marmee
+          text: My dear, where did you get this? Twenty-five dollars! Jo, you haven't done anything reckless, have you?
+          emotion: surprised
+        - id: ch03-b15
+          speaker: jo
+          text: No. It belongs to me honestly. I didn't beg, borrow, or steal. I earned it by selling something that was mine, and I don't think you'll blame me.
+        - id: ch03-b16
+          speaker: narrator
+          text: Jo took off her bonnet. Every voice rose at once. Her thick, abundant hair had been cut short.
+        - id: ch03-b17
+          speakers: [meg, amy]
+          ensemble: duo
+          text: Your beautiful hair! Jo, how could you?
+          emotion: surprised
+        - id: ch03-b18
+          speaker: marmee
+          text: My dear girl, you didn't need to do this.
+          emotion: sad
+        - id: ch03-b19
+          speaker: beth
+          text: You don't look like my Jo anymore, but I love you so much for doing it!
+          emotion: sad
+        - id: ch03-b20
+          speaker: narrator
+          text: Beth hugged Jo's cropped head. Jo tried to look unconcerned, but she fooled no one. She ruffled the short brown bush as though she liked it.
+        - id: ch03-b21
+          speaker: jo
+          text: My haircut won't change the fate of the nation, so please don't cry, Beth. It will cure my vanity. I was getting much too proud of that wig. My brain may work better without the heavy mop, and my head feels wonderfully light and cool. The barber says it will soon grow into a curly crop. That will look boyish, suit me nicely, and be easy to manage. I'm perfectly satisfied. Please take the money, and let's eat supper.
+    - id: ch04
+      title: Jo's Story
+      blocks:
+        - id: ch04-b01
+          speaker: marmee
+          text: Tell me how it happened, Jo. I'm not entirely pleased, but I can't blame you. I know you gave up your vanity, as you call it, because you love Father. Still, it wasn't necessary, and I'm afraid you'll regret it someday.
+        - id: ch04-b02
+          speaker: jo
+          text: No, I won't!
+        - id: ch04-b03
+          speaker: narrator
+          text: Jo answered firmly, much relieved that her mother had not wholly condemned her daring act.
+        - id: ch04-b04
+          speaker: amy
+          text: But what made you do it?
+        - id: ch04-b05
+          speaker: narrator
+          text: Amy could no more imagine cutting off her pretty hair than cutting off her head. The family gathered around the supper table. Even in trouble, healthy young people must eat.
+        - id: ch04-b06
+          speaker: jo
+          text: I was desperate to do something for Father. I hate borrowing money as much as Mother does. And I knew Aunt March would complain. She always does if you ask her for even a few cents. Meg gave her whole quarter's wages for the rent, while I spent mine on clothes. I felt awful. I was determined to raise money, even if I had to sell the nose off my face.
+        - id: ch04-b07
+          speaker: marmee
+          text: You had no reason to feel awful, my child. You needed winter clothes, and you bought the plainest ones with money you earned yourself.
+        - id: ch04-b08
+          speaker: narrator
+          text: The look Mrs. March gave her warmed Jo's heart.
+        - id: ch04-b09
+          speaker: jo
+          text: At first, selling my hair never crossed my mind. I kept walking and wondering what I could do. I felt ready to dive into one of those rich shops and take what we needed. Then I saw lengths of hair in a barber's window with prices beside them. One black piece wasn't nearly as thick as mine, and it cost forty dollars. Suddenly I realized I had something I could turn into money. Before I could think better of it, I went inside and asked whether they bought hair and what mine was worth.
+        - id: ch04-b10
+          speaker: beth
+          text: I don't understand how you were brave enough.
+        - id: ch04-b11
+          speaker: jo
+          text: The barber was a little man who looked as if his only purpose in life was oiling his hair. He stared at me. Girls probably don't often rush into his shop asking him to buy theirs. He said mine wasn't a fashionable color, he didn't especially want it, and he never paid much for raw hair anyway. All the work done afterward was what made it expensive.
+        - id: ch04-b12
+          speaker: barber
+          text: This color isn't in fashion, miss. I couldn't offer you very much for it.
+        - id: ch04-b13
+          speaker: jo
+          text: It was getting late, and I knew I might lose my courage if he didn't cut it at once. Once I decide to do something, you know how I hate giving up. So I begged him to buy it and explained why I needed the money so quickly. I probably sounded foolish. I got excited and told everything in my usual mixed-up way. But his wife heard me, and that changed his mind.
+        - id: ch04-b14
+          speaker: barber_wife
+          text: Take it, Thomas, and help the young lady. I'd do the same for our Jimmy any day, if I had a strand of hair worth selling.
+        - id: ch04-b15
+          speaker: amy
+          text: Who was Jimmy?
+        - id: ch04-b16
+          speaker: jo
+          text: Her son. He's in the army. Things like that can make strangers feel like friends, can't they? She talked the whole time her husband was cutting, and kept my thoughts busy.
+        - id: ch04-b17
+          speaker: meg
+          text: When he made the first cut, didn't you feel terrible?
+          emotion: fearful
+        - id: ch04-b18
+          speaker: jo
+          text: I looked at my hair one last time while he got his tools ready. After that, I was done thinking about it. I don't cry over little things like hair. Though I admit it felt strange when I saw the dear old hair spread on the table and touched the short, rough ends on my head. It almost felt as if I'd lost an arm or a leg. The barber's wife saw me looking. She chose one long lock for me to keep.
+        - id: ch04-b19
+          speaker: jo
+          text: I'll give the lock to you, Marmee, so you can remember my former glory. This crop is so comfortable that I may never grow a mane again.
+        - id: ch04-b20
+          speaker: narrator
+          text: Mrs. March folded the wavy chestnut lock and placed it in her desk beside a short gray one.
+        - id: ch04-b21
+          speaker: marmee
+          text: Thank you, deary.
+          emotion: sad
+        - id: ch04-b22
+          speaker: narrator
+          text: Something in her face made the girls turn to brighter subjects. They talked about Mr. Brooke's kindness, the hope of fine weather tomorrow, and the happy days they would have when Father came home for them to nurse.
+    - id: ch05
+      title: Light Behind the Clouds
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Nobody wanted to go to bed. At ten o'clock, Mrs. March put aside the last finished piece of work.
+        - id: ch05-b02
+          speaker: marmee
+          text: Come, girls.
+        - id: ch05-b03
+          speaker: narrator
+          text: Beth went to the piano and played Father's favorite hymn. They all began bravely, but one voice after another broke down. At last Beth sang alone with all her heart. Music was always a sweet comfort to her.
+        - id: ch05-b04
+          speaker: marmee
+          text: Go to bed without talking. We must rise early, and we'll need all the sleep we can get. Good night, my darlings.
+        - id: ch05-b05
+          speaker: narrator
+          text: No one wanted to attempt another hymn. The girls kissed their mother quietly and went upstairs as silently as if their sick father were lying in the next room.
+        - id: ch05-b06
+          speaker: narrator
+          text: In spite of their trouble, Beth and Amy soon slept. Meg stayed awake, thinking the most serious thoughts she had ever known. Jo lay so still that Meg thought she was asleep. Then a muffled sob made Meg reach over and touch a wet cheek.
+        - id: ch05-b07
+          speaker: meg
+          text: Jo, dear, what is it? Are you crying about Father?
+        - id: ch05-b08
+          speaker: jo
+          text: No. Not now.
+          emotion: sad
+        - id: ch05-b09
+          speaker: meg
+          text: Then what is it?
+        - id: ch05-b10
+          speaker: jo
+          text: My... my hair!
+          emotion: sad
+        - id: ch05-b11
+          speaker: narrator
+          text: Poor Jo buried her face in the pillow but could not hold back the words. Meg did not find it funny at all. She kissed and comforted her suffering heroine as tenderly as she could.
+        - id: ch05-b12
+          speaker: jo
+          text: I'm not sorry. I'd do it again tomorrow if I could. It's only the vain part of me crying in this foolish way. Don't tell anyone. I'm finished now. I thought you were asleep, so I let myself have one little private cry for my only beauty. Why are you still awake?
+          emotion: sad
+        - id: ch05-b13
+          speaker: meg
+          text: I'm too worried to sleep.
+        - id: ch05-b14
+          speaker: jo
+          text: Think of something pleasant. You'll drift off soon.
+        - id: ch05-b15
+          speaker: meg
+          text: I tried, but it only made me more awake.
+        - id: ch05-b16
+          speaker: jo
+          text: What were you thinking about?
+        - id: ch05-b17
+          speaker: meg
+          text: Handsome faces. Mostly eyes.
+        - id: ch05-b18
+          speaker: narrator
+          text: Meg smiled to herself in the darkness.
+        - id: ch05-b19
+          speaker: jo
+          text: What color eyes do you like best?
+        - id: ch05-b20
+          speaker: meg
+          text: Brown, sometimes. Blue eyes are lovely too.
+        - id: ch05-b21
+          speaker: narrator
+          text: Jo laughed. Meg sharply told her to stop talking, then kindly promised to curl Jo's short hair. Soon Meg fell asleep and dreamed of living in her castle in the air.
+        - id: ch05-b22
+          speaker: narrator
+          text: Midnight sounded from the clocks, and the house grew very still. A figure moved softly from one bed to another. She smoothed one blanket and settled another pillow. She paused over each sleeping face, looking long and tenderly, kissing each child with lips that gave a silent blessing, and praying the deep prayers only mothers speak.
+        - id: ch05-b23
+          speaker: narrator
+          text: Mrs. March lifted the curtain and looked into the dreary night. Just then, the moon came out from behind the clouds. It shone on her like a bright, gentle face, seeming to whisper through the silence, “Take comfort, dear soul. There is always light behind the clouds.”
