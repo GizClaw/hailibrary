@@ -1,0 +1,43 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 温柔从容，带着古老童谣的轻盈节拍
+        timbre: 清澈温暖
+        pace: 舒缓
+        pitch: 中
+    singer_1:
+      display_name: 第一个唱歌的孩子
+      tts:
+        delivery: 明快有礼，歌谣感自然
+        timbre: 清亮稚嫩
+        pace: 轻快
+        pitch: 中高
+    singer_2:
+      display_name: 第二个唱歌的孩子
+      tts:
+        delivery: 欢欣亲切，歌谣感自然
+        timbre: 柔和稚嫩
+        pace: 轻快
+        pitch: 高
+    singer_3:
+      display_name: 第三个唱歌的孩子
+      tts:
+        delivery: 活泼爽朗，歌谣感自然
+        timbre: 明亮稚嫩
+        pace: 轻快
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 那就敲响钟儿！那就敲响钟儿！
+      blocks:
+        - id: ch01-b01
+          speakers: [singer_1, singer_2, singer_3]
+          ensemble: chorus
+          text: 五月的好时光到了。我们捧着花儿一路唱，请听听歌里说的是什么。
+        - id: ch01-b02
+          speakers: [singer_1, singer_2, singer_3]
+          ensemble: chorus
+          text: 把钟儿敲响，把钟儿敲响！不管谁来，我们都愿和他一起唱。愿您年年欢喜，也愿我们每人得到一便士。

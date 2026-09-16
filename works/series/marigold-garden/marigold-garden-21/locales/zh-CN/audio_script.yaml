@@ -1,0 +1,61 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 叙述者
+      tts:
+        delivery: 温暖亲切，带着轻盈自然的童谣感
+        timbre: 清澈柔和
+        pace: 舒缓
+        pitch: 中音
+    willy:
+      display_name: 威利
+      tts:
+        delivery: 热切认真，带着孩子气的期待
+        timbre: 明亮稚嫩
+        pace: 轻快
+        pitch: 中高音
+    sister:
+      display_name: 姐姐
+      tts:
+        delivery: 亲切爽快，语气自然笃定
+        timbre: 柔和清亮
+        pace: 适中
+        pitch: 中音
+  chapters:
+    - id: ch01
+      title: 姐姐，带我去吧
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 威利想跟姐姐一起出门，便开口央求她。
+        - id: ch01-b02
+          speaker: willy
+          text: 姐姐，求求你，也带上我，好不好？
+        - id: ch01-b03
+          speaker: sister
+          text: 可以呀，不过你去了以后，可得一直乖乖的。
+        - id: ch01-b04
+          speaker: willy
+          text: 那你带我到磨坊里看看，行吗？
+        - id: ch01-b05
+          speaker: sister
+          text: 行。你这么听话，我当然愿意带你去。
+    - id: ch02
+      title: 磨坊里的好东西
+      blocks:
+        - id: ch02-b01
+          speaker: willy
+          text: 磨坊主可和气了。磨出的面粉撒得他满身都是，瞧着白白的。
+        - id: ch02-b02
+          speaker: willy
+          text: 地板上还堆着好多好多谷物呢。他一定肯让我玩那些谷物。
+    - id: ch03
+      title: 转呀，转呀，转呀
+      blocks:
+        - id: ch03-b01
+          speaker: willy
+          text: 我最爱听大水轮哗啦哗啦地响，也爱看清亮的水一圈一圈，又一圈地流。
+        - id: ch03-b02
+          speaker: willy
+          text: 所以你就带我去磨坊吧。到了那儿，你就知道，我是真的、真的想做个顶乖顶乖的好孩子。

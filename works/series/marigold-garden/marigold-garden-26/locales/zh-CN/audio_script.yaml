@@ -1,0 +1,39 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 叙述者
+      tts:
+        delivery: 温暖明快，带着迎候庆典的期待
+        timbre: 清澈柔和
+        pace: 舒展
+        pitch: 中音
+    child_1:
+      display_name: 孩子甲
+      tts:
+        delivery: 欢欣热切，像在人群中高声招呼伙伴
+        timbre: 清亮稚嫩
+        pace: 轻快
+        pitch: 中高音
+    child_2:
+      display_name: 孩子乙
+      tts:
+        delivery: 兴奋爽朗，带着节日般的雀跃
+        timbre: 明亮甜润
+        pace: 轻快
+        pitch: 中高音
+    child_3:
+      display_name: 孩子丙
+      tts:
+        delivery: 真挚喜悦，声音里满是盼望
+        timbre: 轻盈清脆
+        pace: 轻快
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 城墙顶上
+      blocks:
+        - id: ch01-b01
+          speakers: [child_1, child_2, child_3]
+          ensemble: chorus
+          text: 城墙这么高，我们在墙顶上向前跑。离天空越来越近，嘿，离太阳也越来越近。你给我一便士，我就给你两个，因为好邻居本来就该这么做呀。

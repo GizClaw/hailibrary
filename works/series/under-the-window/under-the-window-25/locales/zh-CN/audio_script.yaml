@@ -1,0 +1,62 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 温柔从容，带一点童谣的奇趣
+        timbre: 年轻清亮
+        pace: 舒缓
+        pitch: 中高
+    questioner:
+      display_name: 问话人
+      tts:
+        delivery: 逗趣好奇，最后透出一本正经的古怪
+        timbre: 温暖清晰
+        pace: 从容
+        pitch: 中
+    boy_1:
+      display_name: 第一个男孩
+      tts:
+        delivery: 急切直爽
+        timbre: 明亮稚嫩
+        pace: 轻快
+        pitch: 高
+    boy_2:
+      display_name: 第二个男孩
+      tts:
+        delivery: 欢快坦率
+        timbre: 轻盈稚嫩
+        pace: 轻快
+        pitch: 中高
+    boy_3:
+      display_name: 第三个男孩
+      tts:
+        delivery: 活泼爽朗
+        timbre: 温暖稚嫩
+        pace: 轻快
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 三个小男孩
+      blocks:
+        - id: ch01-b01
+          speaker: questioner
+          text: 三个小男孩，告诉我，你们正盼着什么呀？想吃点什么？
+        - id: ch01-b02
+          speakers: [boy_1, boy_2, boy_3]
+          ensemble: chorus
+          text: 我们想吃苹果，或者来块姜饼！要不就给我们一面漂亮的大鼓，让我们咚咚地敲！
+        - id: ch01-b03
+          speaker: questioner
+          text: 可你们三个要拿什么来换这些好东西呢？
+        - id: ch01-b04
+          speakers: [boy_1, boy_2, boy_3]
+          ensemble: chorus
+          text: 我们有面包、奶酪和几颗小萝卜，还可以把那只会唱歌的棕色小鸟送给你。
+        - id: ch01-b05
+          speaker: questioner
+          text: 不行，不行，小伙伴们，这些还不够。我要更好的。
+        - id: ch01-b06
+          speaker: questioner
+          text: 我要你们的两根手指，再要两只大拇指，把它们全都搁进你们最大那顶帽子的帽顶里！

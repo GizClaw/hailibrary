@@ -1,0 +1,40 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 温柔亲切，带着轻快的童谣韵律
+        timbre: 年轻清亮
+        pace: 舒缓
+        pitch: 中高
+    boy_1:
+      display_name: 男孩甲
+      tts:
+        delivery: 淘气顽皮，起哄时毫不收敛
+        timbre: 稚嫩明亮
+        pace: 轻快
+        pitch: 中高
+    boy_2:
+      display_name: 男孩乙
+      tts:
+        delivery: 调皮爱闹，取笑人时带着得意
+        timbre: 稚嫩清脆
+        pace: 轻快
+        pitch: 中
+  chapters:
+    - id: ch01
+      title: 波莉、佩格和波佩蒂
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: |-
+            妈妈心地善良。一个快活的日子，她送给每个姑娘一条小围巾，还配了一顶小风帽。
+
+            她又给每人买了顶女帽，是用来遮太阳的。可碰上下雪或下雨，姑娘们还是照样戴着，觉得这样玩特别有趣。
+
+            不过，姑娘们玩耍时，有时会遇上几个淘气男孩。男孩们冲着她们大喊，还说出这么一句很没礼貌的话：
+        - id: ch01-b02
+          speakers: [boy_1, boy_2]
+          ensemble: duo
+          text: 嘿，快瞧呀！今天有三个老太太出门啦！
