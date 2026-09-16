@@ -1,0 +1,66 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 叙述者
+      tts:
+        delivery: 轻快明朗，带着童谣般的跃动感
+        timbre: 清澈温暖
+        pace: 轻快
+        pitch: 中音
+    child_1:
+      display_name: 一个孩子
+      tts:
+        delivery: 淘气爽朗，答话时带着藏不住的得意
+        timbre: 明亮清脆
+        pace: 轻快
+        pitch: 中高音
+    boy_2:
+      display_name: 小男孩乙
+      tts:
+        delivery: 活泼大方，语气自然又欢快
+        timbre: 清亮温暖
+        pace: 轻快
+        pitch: 中音
+    girl_1:
+      display_name: 小姑娘甲
+      tts:
+        delivery: 天真轻盈，满是游戏中的快乐
+        timbre: 清澈圆润
+        pace: 轻快
+        pitch: 中高音
+    girl_2:
+      display_name: 小姑娘乙
+      tts:
+        delivery: 俏皮明快，话音里带着笑意
+        timbre: 轻盈甜润
+        pace: 轻快
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 围成圈儿
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 男孩们围成一圈，女孩们也围成一圈。大家转了一圈又一圈，扭呀，旋呀，快乐地打着转。
+    - id: ch02
+      title: 快活的孩子
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 瞧，这群孩子多快活！他们从哪儿来呢？
+        - id: ch02-b02
+          speakers: [child_1, boy_2, girl_1, girl_2]
+          ensemble: chorus
+          text: 对呀，我们可快活啦！我们离这儿不远。
+          emotion: happy
+    - id: ch03
+      title: 你抓不住我
+      blocks:
+        - id: ch03-b01
+          speakers: [child_1, boy_2, girl_1, girl_2]
+          ensemble: chorus
+          text: 我们有的住在山里，有的住在树上。
+        - id: ch03-b02
+          speaker: child_1
+          text: 我呀，住在河床底下。你可抓不住我！

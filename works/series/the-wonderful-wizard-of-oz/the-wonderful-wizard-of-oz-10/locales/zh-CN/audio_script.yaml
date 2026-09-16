@@ -1,0 +1,217 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖从容，带着童话讲述者的悬念感
+        timbre: 清澈柔和
+        pace: 舒缓而富于变化
+        pitch: 中音
+    dorothy:
+      display_name: 多萝茜
+      tts:
+        delivery: 真诚直接，遇到危险时仍显坚定
+        timbre: 清亮稚嫩
+        pace: 自然而轻快
+        pitch: 中高音
+    scarecrow:
+      display_name: 稻草人
+      tts:
+        delivery: 朴实机敏，思考时认真而坦率
+        timbre: 轻柔干爽
+        pace: 稍慢而清楚
+        pitch: 中高音
+    tin_woodman:
+      display_name: 铁皮樵夫
+      tts:
+        delivery: 温和善良，话语诚恳而略带忧郁
+        timbre: 清脆而温润
+        pace: 平稳
+        pitch: 中音
+    mouse_queen:
+      display_name: 田鼠女王
+      tts:
+        delivery: 尖细端庄，受惊时怯弱，发号施令时果断
+        timbre: 轻细明亮
+        pace: 轻快而清楚
+        pitch: 高音
+    field_mouse_1:
+      display_name: 大田鼠
+      tts:
+        delivery: 恭敬热心，语气朴实
+        timbre: 细亮柔和
+        pace: 稍快
+        pitch: 高音
+    field_mouse_2:
+      display_name: 田鼠随从甲
+      tts:
+        delivery: 忠诚恭敬，遇险时急切
+        timbre: 轻巧清亮
+        pace: 快而清楚
+        pitch: 高音
+    field_mouse_3:
+      display_name: 田鼠随从乙
+      tts:
+        delivery: 忠诚活泼，合声时整齐有力
+        timbre: 纤细明快
+        pace: 轻快
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 第九章　田鼠女王
+      blocks:
+        - id: ch01-b01
+          speaker: scarecrow
+          text: 我们现在离黄砖路不会太远。河水把我们冲出去多远，我们差不多已经走回来多远了。
+        - id: ch01-b02
+          speaker: narrator
+          text: 稻草人正站在多萝茜身边。铁皮樵夫刚要回答，忽然听见一声低吼。他转动那颗装在铰链上、十分灵便的脑袋，看见一头怪兽正越过草地，朝他们飞奔而来。那是一只巨大的黄色野猫。它双耳紧紧贴在脑后，嘴巴张得老大，里面露出两排难看的尖牙。一双红眼睛像两团火球，亮得吓人。看它那副模样，樵夫猜，它一定在追什么东西。
+        - id: ch01-b03
+          speaker: narrator
+          text: 等野猫跑近，铁皮樵夫终于看清了。原来前面还有一只小灰田鼠，正在拼命逃命。樵夫虽然没有心，可他知道，野猫想杀害这样一只可爱又无害的小动物，实在不应该。他举起斧头。野猫从身旁蹿过的一刹那，他飞快地劈了下去。野猫的脑袋齐齐掉下，断成两截的身子滚倒在他脚边。
+        - id: ch01-b04
+          speaker: narrator
+          text: 小田鼠摆脱敌人，马上停住脚步。它慢慢走到铁皮樵夫面前，用尖细的小嗓音说话了。
+        - id: ch01-b05
+          speaker: mouse_queen
+          text: 谢谢您！真是太感谢了，您救了我的命！
+        - id: ch01-b06
+          speaker: tin_woodman
+          text: 请别放在心上。你知道，我没有心，所以总要多留意那些需要朋友帮助的人，哪怕对方只是一只老鼠。
+        - id: ch01-b07
+          speaker: mouse_queen
+          text: 什么叫只是一只老鼠！我可是一位女王，是所有田鼠的女王！
+          emotion: angry
+        - id: ch01-b08
+          speaker: narrator
+          text: 铁皮樵夫听了，向它鞠了一躬。
+        - id: ch01-b09
+          speaker: tin_woodman
+          text: 原来您真是一位女王。
+        - id: ch01-b10
+          speaker: mouse_queen
+          text: 所以呀，您救了我的命，不但十分勇敢，还立下了一件大功。
+        - id: ch01-b11
+          speaker: narrator
+          text: 这时，好几只田鼠迈开小短腿，飞快地赶来了。它们一看见自己的女王，立刻叫了起来。
+        - id: ch01-b12
+          speakers: [field_mouse_1, field_mouse_2, field_mouse_3]
+          ensemble: chorus
+          text: 陛下！我们还以为您会被杀死呢！您是怎么从那只大野猫手里逃出来的？
+        - id: ch01-b13
+          speaker: narrator
+          text: 田鼠们朝女王深深行礼，身子弯得太低，几乎全都要倒立起来。
+        - id: ch01-b14
+          speaker: mouse_queen
+          text: 是这个有趣的铁皮人杀了野猫，救下了我。从今往后，你们都要为他效劳。不管他有什么小小的要求，你们都得照办。
+        - id: ch01-b15
+          speakers: [field_mouse_1, field_mouse_2, field_mouse_3]
+          ensemble: chorus
+          text: 我们一定照办！
+        - id: ch01-b16
+          speaker: narrator
+          text: 可田鼠们刚说完，就往四面八方逃开了。原来托托已经从睡梦中醒来。它看见周围聚着这么多田鼠，高兴地叫了一声，一头跳进鼠群中央。托托以前住在堪萨斯时，一向喜欢追着老鼠跑，在它看来，这根本不是什么坏事。
+        - id: ch01-b17
+          speaker: narrator
+          text: 铁皮樵夫赶紧把托托抱起来，牢牢搂在怀里，又朝逃走的田鼠们喊。
+        - id: ch01-b18
+          speaker: tin_woodman
+          text: 快回来！都回来吧！我不会让托托伤害你们。
+        - id: ch01-b19
+          speaker: narrator
+          text: 田鼠女王从一丛草下面探出脑袋，声音有些发怯。
+        - id: ch01-b20
+          speaker: mouse_queen
+          text: 您真的能保证，它不会咬我们吗？
+          emotion: fearful
+        - id: ch01-b21
+          speaker: tin_woodman
+          text: 我不会让它咬你们。放心回来吧。
+          emotion: calm
+        - id: ch01-b22
+          speaker: narrator
+          text: 听了这句话，田鼠才一只接一只，小心翼翼地爬回来。托托没有再叫，却一直扭动身子，想从铁皮樵夫的手臂里挣出去。要不是它很清楚樵夫浑身是铁，咬一口也没有用，恐怕早就一口咬下去了。最后，个头最大的一只田鼠站出来说话了。
+        - id: ch01-b23
+          speaker: field_mouse_1
+          text: 您救了女王的命。有什么事能让我们替您做，好好报答您吗？
+        - id: ch01-b24
+          speaker: tin_woodman
+          text: 我一时想不出什么事来。
+        - id: ch01-b25
+          speaker: narrator
+          text: 稻草人一直在努力想，可他的脑袋里塞满稻草，怎么也想不出来。突然，他有了主意。
+        - id: ch01-b26
+          speaker: scarecrow
+          text: 有了！你们可以救救我们的朋友胆小的狮子。他正在罂粟花丛里沉睡。
+        - id: ch01-b27
+          speaker: mouse_queen
+          text: 一头狮子！那他还不把我们全都吃掉？
+          emotion: fearful
+        - id: ch01-b28
+          speaker: scarecrow
+          text: 不会。这是一头胆小的狮子。
+        - id: ch01-b29
+          speaker: mouse_queen
+          text: 他真的是胆小鬼吗？
+        - id: ch01-b30
+          speaker: scarecrow
+          text: 是他亲口告诉我们的。只要是我们的朋友，他绝不会伤害。你们帮我们救出他，我保证，他也一定会好好对待你们。
+        - id: ch01-b31
+          speaker: mouse_queen
+          text: 好吧，我们相信你。那我们要怎么救他？
+        - id: ch01-b32
+          speaker: scarecrow
+          text: 像它们这样叫你女王、愿意服从你的田鼠，还有很多吗？
+        - id: ch01-b33
+          speaker: mouse_queen
+          text: 当然，多着呢，足足有几千只。
+        - id: ch01-b34
+          speaker: scarecrow
+          text: 那就快把它们全叫到这里来，还要让每一只都带上一根长绳子。
+        - id: ch01-b35
+          speaker: narrator
+          text: 女王马上命令身边的田鼠，把所有臣民都召集过来。几只田鼠领了命，飞快地奔向四面八方。
+        - id: ch01-b36
+          speaker: scarecrow
+          text: 铁皮樵夫，现在请你到河边那些树下，造一辆能运狮子的车。
+        - id: ch01-b37
+          speaker: narrator
+          text: 铁皮樵夫立刻走到河边的树下，动手干活。他砍下粗壮的树枝，把上面的叶子和小枝条全都削掉，再用木钉把车架牢牢钉在一起。接着，他从一根粗树干上截下四小段，做成四只轮子。他做得又快又好。等田鼠开始赶来，整辆车已经造好了。
+        - id: ch01-b38
+          speaker: narrator
+          text: 田鼠从四面八方涌来，足有几千只。大的，小的，不大不小的，每一只嘴里都衔着一根绳子。就在这时，多萝茜从长长的一觉中醒来。她睁开眼，发现自己躺在草地上，几千只田鼠正怯生生地围着她看，不禁大吃一惊。稻草人把发生的事全告诉了她，接着郑重地转向那只小田鼠。
+        - id: ch01-b39
+          speaker: scarecrow
+          text: 多萝茜，请允许我为你介绍田鼠女王陛下。
+        - id: ch01-b40
+          speaker: narrator
+          text: 多萝茜一本正经地点了点头，女王也屈膝行礼。没过多久，它就和小姑娘亲近起来。
+        - id: ch01-b41
+          speaker: narrator
+          text: 稻草人和铁皮樵夫开始把田鼠套到车前。它们带来的每根绳子，一头系在田鼠脖子上，另一头系住车子。这辆车比任何一只田鼠都要大上千倍。可几千只田鼠一起拉，车子走起来就轻松了。连稻草人和铁皮樵夫都坐了上去，由这些古怪的小马拉着，飞快赶到狮子沉睡的地方。
+        - id: ch01-b42
+          speaker: narrator
+          text: 狮子实在太重。大家费了好大力气，才把他抬到车上。女王赶紧命令田鼠出发。它担心臣民们留在罂粟花丛里太久，也会一个个睡过去。
+        - id: ch01-b43
+          speaker: narrator
+          text: 刚开始，田鼠虽然多得数不清，还是几乎拉不动这辆载着狮子的沉重车子。铁皮樵夫和稻草人赶紧来到车后，一起用力往前推，车轮总算越转越顺。没过多久，他们终于把狮子拉出罂粟花丛，来到绿油油的田野。狮子再也不用闻那些有毒的花香，又能呼吸清甜新鲜的空气了。
+        - id: ch01-b44
+          speaker: narrator
+          text: 多萝茜迎上来，热切地感谢这些小田鼠。要不是它们帮忙，她的伙伴很可能就没命了。一路走来，她已经越来越喜欢这头大狮子。现在看见他终于被救出花海，心里真是说不出的高兴。
+        - id: ch01-b45
+          speaker: narrator
+          text: 大家解开绳子，田鼠们立刻钻过草丛，各自回家去了。田鼠女王留在最后。
+        - id: ch01-b46
+          speaker: mouse_queen
+          text: 以后再需要我们，就到田野里呼唤吧。我们听见了，一定会赶来帮助你们。再见！
+        - id: ch01-b47
+          speakers: [dorothy, scarecrow, tin_woodman]
+          ensemble: chorus
+          text: 再见！
+        - id: ch01-b48
+          speaker: narrator
+          text: 女王飞快地跑远了。多萝茜紧紧抱住托托，免得它追上去，吓坏女王。
+        - id: ch01-b49
+          speaker: narrator
+          text: 接下来，他们坐在狮子身旁，等着他醒来。稻草人从附近的树上摘来一些果子，多萝茜便拿这些果子当作晚餐。

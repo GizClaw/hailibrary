@@ -1,0 +1,189 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and thoughtful
+        timbre: clear and welcoming
+        pace: measured
+        pitch: medium
+    dorothy:
+      display_name: Dorothy
+      tts:
+        delivery: openhearted and direct
+        timbre: clear and youthful
+        pace: natural
+        pitch: medium-high
+    scarecrow:
+      display_name: Scarecrow
+      tts:
+        delivery: friendly and guileless
+        timbre: dry and husky
+        pace: easy
+        pitch: medium
+    cowardly_lion:
+      display_name: Cowardly Lion
+      tts:
+        delivery: hearty but uncertain
+        timbre: deep and rumbling
+        pace: natural
+        pitch: low
+    tiger:
+      display_name: Tiger
+      tts:
+        delivery: grave and respectful
+        timbre: strong and rough
+        pace: deliberate
+        pitch: low
+    bear:
+      display_name: Bear
+      tts:
+        delivery: earnest and forceful
+        timbre: heavy and woolly
+        pace: measured
+        pitch: low
+    wolf:
+      display_name: Wolf
+      tts:
+        delivery: alert and emphatic
+        timbre: lean and raspy
+        pace: brisk
+        pitch: medium-low
+    fox:
+      display_name: Fox
+      tts:
+        delivery: quick and clear
+        timbre: light and sharp
+        pace: brisk
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Lion Becomes the King of Beasts
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Once the travelers climbed down from the china wall, they entered a miserable country of bogs and marshes. Tall, coarse grass covered the ground and hid muddy holes beneath it. They had to watch every step to keep from falling into the mud. By choosing their way carefully, they made it safely to firm ground.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            On firm ground, the land seemed wilder than ever. They pushed through thick underbrush for a long, tiring time. At last, they came into another forest. Here the trees were older and larger than any they had seen before.
+        - id: ch01-b03
+          speaker: cowardly_lion
+          text: >-
+            What a wonderful forest! I've never seen any place more beautiful.
+          emotion: happy
+        - id: ch01-b04
+          speaker: scarecrow
+          text: >-
+            It looks rather gloomy to me.
+        - id: ch01-b05
+          speaker: cowardly_lion
+          text: >-
+            Oh, not at all. I could live here for the rest of my life. Feel those soft, dry leaves under your feet. Look at the deep green moss on these old trees. What wild beast could ask for a better home?
+        - id: ch01-b06
+          speaker: dorothy
+          text: >-
+            Maybe wild beasts are already living here.
+        - id: ch01-b07
+          speaker: cowardly_lion
+          text: >-
+            I suppose they are, but I haven't seen one yet.
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            They went on until the forest became too dark for travel. Dorothy, Toto, and the Lion lay down to sleep. As always, the Scarecrow and the Tin Woodman stayed awake to guard them.
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            In the morning, they set out again. Before long, a low rumble reached them, like a great many wild animals growling together. Toto gave a little whimper, but none of his companions was frightened. They kept walking along the well-worn path until it brought them to a clearing in the woods.
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            Hundreds of beasts had gathered there. Dorothy saw tigers, elephants, bears, wolves, foxes, and every other animal she might have found in a natural history book. For a moment, the sight frightened her. The Lion explained that the animals were holding a meeting. From all their snarling and growling, he could tell they were in serious trouble.
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            While the Lion was explaining this, several beasts noticed him. The whole gathering fell silent at once, as though by magic. The largest tiger stepped forward and bowed to him.
+        - id: ch01-b12
+          speaker: tiger
+          text: >-
+            Welcome, King of Beasts! You've arrived just when we need you. Fight our enemy, and bring peace back to the animals of this forest.
+        - id: ch01-b13
+          speaker: cowardly_lion
+          text: >-
+            What kind of trouble are you in?
+        - id: ch01-b14
+          speaker: tiger
+          text: >-
+            A terrible enemy came into our forest not long ago, and now every one of us is in danger. It's an enormous monster shaped like a spider. Its body is as big as an elephant, and each of its eight legs is as long as a tree trunk. When it crawls through the forest, it grabs an animal with one leg, pulls the animal to its mouth, and eats it just as a spider eats a fly. None of us will be safe while that creature is alive. We called this meeting to decide how to protect ourselves. Then you appeared.
+        - id: ch01-b15
+          speaker: narrator
+          text: >-
+            The Lion stopped to think.
+        - id: ch01-b16
+          speaker: cowardly_lion
+          text: >-
+            Are there any other lions in this forest?
+        - id: ch01-b17
+          speaker: tiger
+          text: >-
+            No. There used to be a few, but the monster ate them all. Besides, none of them was nearly as large or as brave as you are.
+        - id: ch01-b18
+          speaker: cowardly_lion
+          text: >-
+            If I destroy your enemy, will you accept me as King of the Forest and obey me?
+        - id: ch01-b19
+          speaker: tiger
+          text: >-
+            Gladly!
+        - id: ch01-b20
+          speakers: [tiger, bear, wolf, fox]
+          ensemble: chorus
+          text: >-
+            We will!
+        - id: ch01-b21
+          speaker: cowardly_lion
+          text: >-
+            Where is this giant spider now?
+        - id: ch01-b22
+          speaker: tiger
+          text: >-
+            Over there, among the oak trees.
+        - id: ch01-b23
+          speaker: narrator
+          text: >-
+            The tiger pointed with one forefoot.
+        - id: ch01-b24
+          speaker: cowardly_lion
+          text: >-
+            Take good care of my friends. I'll go fight the monster right now.
+        - id: ch01-b25
+          speaker: narrator
+          text: >-
+            The Lion said goodbye to his companions. Then he marched proudly away to meet the enemy.
+        - id: ch01-b26
+          speaker: narrator
+          text: >-
+            When the Lion found the great spider among the trees, it was asleep. The creature looked so ugly that he turned up his nose in disgust. Its legs really were as long as the tiger had said, and coarse black hair covered its huge, pudgy body. Its enormous mouth held a row of sharp teeth, each one a foot long.
+        - id: ch01-b27
+          speaker: narrator
+          text: >-
+            But the monster's head was attached to its thick body by a neck as narrow as a wasp's waist. That showed the Lion exactly how to attack. He knew the spider would be easier to fight asleep than awake. With one mighty leap, he landed squarely on its back. Then he struck once with his heavy paw and sharp claws, knocking the spider's head from its body.
+        - id: ch01-b28
+          speaker: narrator
+          text: >-
+            The Lion jumped to the ground and watched. When the monster's long legs finally stopped moving, he knew it was dead.
+        - id: ch01-b29
+          speaker: narrator
+          text: >-
+            He returned to the clearing, where all the forest animals were waiting. He stood before them proudly.
+        - id: ch01-b30
+          speaker: cowardly_lion
+          text: >-
+            You don't need to fear your enemy anymore.
+        - id: ch01-b31
+          speaker: narrator
+          text: >-
+            Every beast bowed down before the Lion and accepted him as their King. He promised to come back and rule the forest as soon as Dorothy was safely on her way to Kansas.
