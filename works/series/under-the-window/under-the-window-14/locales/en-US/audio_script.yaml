@@ -1,0 +1,40 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: gentle and quietly delighted
+        timbre: young and clear
+        pace: unhurried
+        pitch: medium-high
+    old_dame:
+      display_name: Old Dame
+      tts:
+        delivery: sharp and impatient
+        timbre: elderly and dry
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: Off They Go
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Four of nine geese went walking together, off to find breakfast and dinner.
+    - id: ch02
+      title: Feeling Fine
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: As they went, the four geese stretched their necks and smoothed their feathers. Cackle, cackle, cackle! They felt very fine indeed.
+    - id: ch03
+      title: The Old Dame
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: An ancient dame walked by alone. She heard them and spoke.
+        - id: ch03-b02
+          speaker: old_dame
+          text: I wish every one of you would starve until you were nothing but skin and bone! Stop that cackling right now, and leave me alone!
+          emotion: angry

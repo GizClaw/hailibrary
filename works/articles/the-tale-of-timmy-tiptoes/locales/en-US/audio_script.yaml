@@ -1,0 +1,298 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant storytelling with gentle humor
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    timmy:
+      display_name: Timmy Tiptoes
+      tts:
+        delivery: good-natured, practical, and quietly cheerful
+        timbre: soft and full
+        pace: relaxed
+        pitch: medium-low
+    goody:
+      display_name: Goody Tiptoes
+      tts:
+        delivery: affectionate, capable, and plainly expressive
+        timbre: warm and bright
+        pace: moderate
+        pitch: medium-high
+    silvertail:
+      display_name: Silvertail
+      tts:
+        delivery: impulsive, suspicious, and sharp
+        timbre: dry and wiry
+        pace: quick
+        pitch: medium-high
+    squirrel_2:
+      display_name: Second Squirrel
+      tts:
+        delivery: excitable and forceful
+        timbre: light and rough
+        pace: quick
+        pitch: medium
+    squirrel_3:
+      display_name: Third Squirrel
+      tts:
+        delivery: bustling and emphatic
+        timbre: crisp and reedy
+        pace: quick
+        pitch: high
+    first_bird:
+      display_name: First Little Bird
+      tts:
+        delivery: bright, musical, and repetitive
+        timbre: tiny and bell-like
+        pace: lively
+        pitch: high
+    second_bird:
+      display_name: Second Little Bird
+      tts:
+        delivery: jaunty and sing-song
+        timbre: small and clear
+        pace: lively
+        pitch: high
+    chippy:
+      display_name: Chippy Hackee
+      tts:
+        delivery: chirpy, hospitable, and mischievously amused
+        timbre: thin and lively
+        pace: brisk
+        pitch: high
+    mrs_chippy:
+      display_name: Mrs. Chippy Hackee
+      tts:
+        delivery: brisk, proper, and increasingly exasperated
+        timbre: fine and bright
+        pace: quick
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: Nuts for Winter
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a comfortable little gray squirrel named Timmy Tiptoes. He was rather fat, and he lived with his wife, Goody, in a nest at the top of a tall tree. Their roof was neatly thatched with leaves.
+        - id: ch01-b02
+          speaker: narrator
+          text: One day Timmy sat outside in the breeze. He flicked his tail and chuckled.
+        - id: ch01-b03
+          speaker: timmy
+          text: Goody, my dear, the nuts are ripe. We need to put plenty away for winter and spring.
+        - id: ch01-b04
+          speaker: narrator
+          text: Goody was busy stuffing moss beneath the leafy roof.
+        - id: ch01-b05
+          speaker: goody
+          text: It's wonderfully cozy in here. We can sleep right through the winter.
+        - id: ch01-b06
+          speaker: timmy
+          text: And we'll wake up much thinner if there's no food left for spring.
+        - id: ch01-b07
+          speaker: narrator
+          text: So Timmy and Goody went to the nut thicket. Other squirrels were already there. Timmy took off his jacket, hung it on a twig, and he and Goody worked quietly by themselves.
+        - id: ch01-b08
+          speaker: narrator
+          text: Every day they made several trips. They filled bags with nuts and carried them to hollow stumps near their nest. When those stumps were full, they found a round hole high in another tree. A woodpecker had once lived there. They poured in their nuts, and the nuts rattled down, down, down inside.
+        - id: ch01-b09
+          speaker: goody
+          text: How will you ever get them back out? That hole is like a money box!
+        - id: ch01-b10
+          speaker: narrator
+          text: Timmy peered into the opening.
+        - id: ch01-b11
+          speaker: timmy
+          text: I'll be much thinner by springtime, my love.
+        - id: ch01-b12
+          speaker: narrator
+          text: Timmy and Goody gathered a great many nuts because they did not lose them. Squirrels that buried nuts in the ground lost more than half. They simply could not remember every hiding place.
+    - id: ch02
+      title: The Little Bird's Song
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Silvertail was the most forgetful squirrel in the whole wood. He started digging for his nuts, forgot where they were, and dug somewhere else. There he found nuts that belonged to another squirrel, and a fight broke out. Soon squirrels were digging everywhere. The whole wood was in an uproar.
+        - id: ch02-b02
+          speaker: narrator
+          text: Just then, a flock of little birds came flitting from bush to bush. They were hunting green caterpillars and spiders, and each kind of bird twittered a different song.
+        - id: ch02-b03
+          speaker: first_bird
+          text: Who's been digging up my nuts? Who's been digging up my nuts?
+        - id: ch02-b04
+          speaker: second_bird
+          text: A little bit of bread and no cheese! A little bit of bread and no cheese!
+        - id: ch02-b05
+          speaker: narrator
+          text: The squirrels stopped to listen. The first little bird flew into the bush where Timmy and Goody were quietly tying their bags.
+        - id: ch02-b06
+          speaker: first_bird
+          text: Who's been digging up my nuts? Who's been digging up my nuts?
+        - id: ch02-b07
+          speaker: narrator
+          text: Timmy kept working and said nothing. The bird did not expect an answer. That was only its natural song, and the words meant nothing at all.
+        - id: ch02-b08
+          speaker: narrator
+          text: But the other squirrels heard the song and rushed at Timmy. They cuffed him, scratched him, and knocked over his bag. The innocent little bird that had caused the trouble flew away in fright.
+        - id: ch02-b09
+          speaker: narrator
+          text: Timmy rolled over and over. Then he turned and ran toward his nest, with the crowd racing after him.
+        - id: ch02-b10
+          speakers: [silvertail, squirrel_2, squirrel_3]
+          ensemble: chorus
+          text: Who's been digging up my nuts?
+          emotion: angry
+        - id: ch02-b11
+          speaker: narrator
+          text: They caught Timmy and dragged him up to the very tree with the little round hole. Then they pushed him in. The opening was far too small for his fat body. They squeezed him so terribly that it was a wonder his ribs did not break.
+        - id: ch02-b12
+          speaker: silvertail
+          text: We'll leave him in there until he admits it!
+          emotion: angry
+        - id: ch02-b13
+          speaker: narrator
+          text: Silvertail shouted down through the hole.
+        - id: ch02-b14
+          speaker: silvertail
+          text: Who dug up my nuts?
+          emotion: angry
+        - id: ch02-b15
+          speaker: narrator
+          text: Timmy did not answer. He had fallen deep inside the tree and landed on half a peck of his own nuts. He lay there stunned and still.
+    - id: ch03
+      title: Inside the Tree
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Goody picked up the nut bags and went home. She made Timmy a cup of tea, but he did not come. She waited and waited.
+        - id: ch03-b02
+          speaker: narrator
+          text: Goody spent a lonely, unhappy night. The next morning, she dared to return to the nut bushes and look for him. The unkind squirrels chased her away.
+        - id: ch03-b03
+          speaker: narrator
+          text: She wandered all through the wood, calling his name.
+        - id: ch03-b04
+          speaker: goody
+          text: Timmy Tiptoes! Timmy Tiptoes! Oh, where are you, Timmy?
+          emotion: sad
+        - id: ch03-b05
+          speaker: narrator
+          text: Meanwhile, Timmy came to his senses. He was tucked into a little bed of moss. It was very dark, and his whole body felt sore. The place seemed to be underground. His ribs hurt, so he coughed and groaned.
+        - id: ch03-b06
+          speaker: narrator
+          text: Then Timmy heard a chirpy sound. A small striped chipmunk appeared, carrying a night-light.
+        - id: ch03-b07
+          speaker: chippy
+          text: Ah, you're awake. Are you feeling any better?
+        - id: ch03-b08
+          speaker: narrator
+          text: The chipmunk was very kind. He lent Timmy his nightcap, and his home was packed with food. He explained how the nuts had come raining down through the top of the tree.
+        - id: ch03-b09
+          speaker: chippy
+          text: And besides all those, I found a few nuts buried in the ground!
+          emotion: happy
+        - id: ch03-b10
+          speaker: narrator
+          text: When Chippy Hackee heard Timmy's story, he laughed and chuckled. Timmy had to stay in bed, and Chippy coaxed him to eat enormous amounts.
+        - id: ch03-b11
+          speaker: timmy
+          text: But how can I fit through that hole unless I get thinner? Goody will be worried about me!
+        - id: ch03-b12
+          speaker: chippy
+          text: Have one more nut. Or two! I'll crack them open for you.
+        - id: ch03-b13
+          speaker: narrator
+          text: And so Timmy Tiptoes grew fatter and fatter.
+    - id: ch04
+      title: Another Shower of Nuts
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Goody went back to gathering nuts by herself. She put no more into the woodpecker's hole. She had always wondered how they could possibly get those nuts out again. Instead, she hid them beneath a tree root. They rattled down, down, down.
+        - id: ch04-b02
+          speaker: narrator
+          text: One day she emptied an extra-large bag into the hollow and heard a definite squeak. When she returned with another bag, a little striped chipmunk scrambled out in a hurry.
+        - id: ch04-b03
+          speaker: mrs_chippy
+          text: Downstairs is completely full! The sitting room is buried, and nuts are rolling through the passage. Now my husband, Chippy Hackee, has run off and left me. Why are nuts showering into my house?
+        - id: ch04-b04
+          speaker: goody
+          text: Oh, I am very sorry. I had no idea anyone lived down there. But where is Chippy Hackee? My husband, Timmy Tiptoes, has disappeared too.
+        - id: ch04-b05
+          speaker: mrs_chippy
+          text: I know where Chippy is. A little bird told me.
+        - id: ch04-b06
+          speaker: narrator
+          text: Mrs. Chippy Hackee led Goody to the woodpecker's tree. They stopped beside the hole and listened. Far below, nutcrackers clicked. Then a fat squirrel voice and a thin chipmunk voice began to sing together.
+        - id: ch04-b07
+          speakers: [timmy, chippy]
+          ensemble: duo
+          text: My little old man and I fell out. How shall we bring this matter about? Bring it about as well as you can, and get you gone, you little old man!
+        - id: ch04-b08
+          speaker: goody
+          text: You're small enough to slip through that round little opening.
+        - id: ch04-b09
+          speaker: mrs_chippy
+          text: I could fit, yes. But I'm not going in. Chippy bites!
+        - id: ch04-b10
+          speaker: narrator
+          text: More nuts cracked and crunched below. Then the fat voice and the thin voice sang again.
+        - id: ch04-b11
+          speakers: [timmy, chippy]
+          ensemble: duo
+          text: For the diddlum day, day diddle dum di! Day diddle diddle dum day!
+        - id: ch04-b12
+          speaker: narrator
+          text: Goody peered into the hole and called down.
+        - id: ch04-b13
+          speaker: goody
+          text: Timmy Tiptoes! Oh, Timmy, you ought to be ashamed!
+        - id: ch04-b14
+          speaker: timmy
+          text: Goody Tiptoes, is that really you? Why, it certainly is!
+        - id: ch04-b15
+          speaker: narrator
+          text: Timmy climbed up and kissed Goody through the opening. But he had grown so fat that he could not get out.
+        - id: ch04-b16
+          speaker: narrator
+          text: Chippy was thin enough to leave, but he did not want to. He stayed below and chuckled.
+    - id: ch05
+      title: The Wind Opens the Tree
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: This went on for two weeks. Then a great wind tore the top from the tree. The hole opened wide, and rain poured in.
+        - id: ch05-b02
+          speaker: narrator
+          text: At last Timmy Tiptoes came out. He went home carrying an umbrella.
+        - id: ch05-b03
+          speaker: narrator
+          text: Chippy Hackee stayed and camped in the tree for another week, even though it was uncomfortable.
+    - id: ch06
+      title: Home Again
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: At last, a large bear came walking through the wood. Perhaps the bear was looking for nuts too. It seemed to be sniffing all around.
+        - id: ch06-b02
+          speaker: narrator
+          text: Chippy Hackee hurried home.
+        - id: ch06-b03
+          speaker: narrator
+          text: By the time Chippy got there, he had caught a cold in his head. Now he felt more uncomfortable than ever.
+        - id: ch06-b04
+          speaker: narrator
+          text: These days, Timmy and Goody keep their nut store shut tight with a little padlock.
+        - id: ch06-b05
+          speaker: narrator
+          text: Whenever the little bird sees the chipmunks, it still sings the same song.
+        - id: ch06-b06
+          speaker: first_bird
+          text: Who's been digging up my nuts? Who's been digging up my nuts?
+        - id: ch06-b07
+          speaker: narrator
+          text: But nobody ever answers.

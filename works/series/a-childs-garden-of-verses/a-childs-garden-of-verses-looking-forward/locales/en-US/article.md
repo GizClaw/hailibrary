@@ -1,8 +1,0 @@
-# Looking Forward
-
-When I am grown to man's estate  
-I shall be very proud and great,  
-And tell the other girls and boys  
-Not to meddle with my toys.  
-
-XIII

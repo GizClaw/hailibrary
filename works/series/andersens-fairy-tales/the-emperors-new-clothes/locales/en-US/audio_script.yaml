@@ -1,0 +1,352 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant fairy-tale storytelling
+        timbre: clear and gently textured
+        pace: measured
+        pitch: medium
+    emperor:
+      display_name: Emperor
+      tts:
+        delivery: vain, grand, and easily unsettled
+        timbre: polished and full
+        pace: measured
+        pitch: medium
+    swindler_one:
+      display_name: First Swindler
+      tts:
+        delivery: smooth, confident, and sly
+        timbre: sleek and resonant
+        pace: moderate
+        pitch: medium-low
+    swindler_two:
+      display_name: Second Swindler
+      tts:
+        delivery: charming, quick, and calculating
+        timbre: crisp and bright
+        pace: brisk
+        pitch: medium
+    old_minister:
+      display_name: Old Minister
+      tts:
+        delivery: dignified, careful, and quietly anxious
+        timbre: warm and aged
+        pace: unhurried
+        pitch: medium-low
+    courtier:
+      display_name: Courtier
+      tts:
+        delivery: proper, cautious, and eager to please
+        timbre: clear and refined
+        pace: moderate
+        pitch: medium
+    courtier_one:
+      display_name: First Courtier
+      tts:
+        delivery: formal, admiring, and deferential
+        timbre: smooth and clear
+        pace: measured
+        pitch: medium
+    courtier_two:
+      display_name: Second Courtier
+      tts:
+        delivery: ceremonious, eager, and emphatic
+        timbre: bright and polished
+        pace: moderate
+        pitch: medium-high
+    courtier_three:
+      display_name: Third Courtier
+      tts:
+        delivery: respectful, assured, and theatrical
+        timbre: rounded and resonant
+        pace: measured
+        pitch: medium-low
+    master_of_ceremonies:
+      display_name: Master of Ceremonies
+      tts:
+        delivery: precise, official, and composed
+        timbre: firm and clear
+        pace: measured
+        pitch: medium-low
+    child:
+      display_name: Child
+      tts:
+        delivery: innocent, direct, and unguarded
+        timbre: light and youthful
+        pace: natural
+        pitch: high
+    father:
+      display_name: Father
+      tts:
+        delivery: startled, earnest, and gentle
+        timbre: warm and grounded
+        pace: moderate
+        pitch: medium-low
+    townsman:
+      display_name: Townsman
+      tts:
+        delivery: hesitant at first, then plainly convinced
+        timbre: sturdy and clear
+        pace: moderate
+        pitch: medium
+    townswoman:
+      display_name: Townswoman
+      tts:
+        delivery: cautious at first, then openly emphatic
+        timbre: bright and clear
+        pace: moderate
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: The Wonderful Cloth
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Many, many years ago, there lived an emperor who cared for new clothes more than anything else. He spent all his money on them. He had no interest in his soldiers, and the theater could not amuse him. His one ambition was to look perfectly dressed at every moment. He only wanted to ride out and show everyone his latest suit.
+        - id: ch01-b02
+          speaker: narrator
+          text: He owned a different coat for every hour of the day. People usually said that a king was in his council chamber. But with this emperor, they always knew where he was. He was in his dressing room.
+        - id: ch01-b03
+          speaker: narrator
+          text: The emperor lived in a lively city. Travelers arrived there every day from all over the world. Then, one day, two swindlers came to town. They claimed to be weavers who could make the finest cloth anyone could imagine.
+        - id: ch01-b04
+          speaker: swindler_one
+          text: Our colors are more beautiful than any you have ever seen.
+        - id: ch01-b05
+          speaker: swindler_two
+          text: And our patterns are extraordinary. But the cloth has another wonderful quality. Anyone who is unfit for his job, or hopelessly stupid, cannot see it at all.
+        - id: ch01-b06
+          speaker: emperor
+          text: What marvelous cloth! If I wore a suit made from it, I could discover which men in my empire were unfit for their positions. I could tell the clever ones from the fools. They must weave it for me at once!
+        - id: ch01-b07
+          speaker: narrator
+          text: The emperor paid the swindlers a large sum in advance so they could begin right away. They set up two looms and acted as if they were working very hard. In truth, there was nothing on either loom.
+        - id: ch01-b08
+          speaker: narrator
+          text: They asked for the finest silk and the most precious gold thread. Then they kept it all for themselves. Night after night, they worked late at their empty looms.
+        - id: ch01-b09
+          speaker: emperor
+          text: I would very much like to know how the cloth is coming along.
+        - id: ch01-b10
+          speaker: narrator
+          text: But then the emperor remembered that anyone unfit for his office could not see it. He believed he had nothing to fear. Even so, he decided it would be wiser to send someone else first.
+        - id: ch01-b11
+          speaker: narrator
+          text: Everyone in town had heard about the cloth's remarkable power. Each person was eager to find out how bad or foolish the neighbors might be.
+        - id: ch01-b12
+          speaker: emperor
+          text: I will send my honest old minister. He has good judgment, he is intelligent, and no one understands his duties better than he does.
+    - id: ch02
+      title: The Old Minister's Visit
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The good old minister entered the room where the swindlers sat at their empty looms. He opened his eyes wide.
+        - id: ch02-b02
+          speaker: old_minister
+          text: Heaven help me! I cannot see a thing.
+          emotion: fearful
+        - id: ch02-b03
+          speaker: narrator
+          text: But he did not say those words aloud. Both swindlers asked him to step closer. They pointed at the bare looms and invited him to admire the delicate pattern and brilliant colors.
+        - id: ch02-b04
+          speaker: swindler_one
+          text: Come closer, Your Excellency. Just look at this exquisite pattern.
+        - id: ch02-b05
+          speaker: swindler_two
+          text: And what do you think of these beautiful colors?
+        - id: ch02-b06
+          speaker: narrator
+          text: The poor minister stared as hard as he could. He saw nothing, because there was nothing there.
+        - id: ch02-b07
+          speaker: old_minister
+          text: Oh, dear. Could I really be so stupid? I never imagined that. No one must ever know. Or am I unfit for my office? No, I cannot admit that I cannot see the cloth.
+          emotion: fearful
+        - id: ch02-b08
+          speaker: swindler_one
+          text: Well, Your Excellency? Do you have nothing to say?
+        - id: ch02-b09
+          speaker: narrator
+          text: The swindler kept moving his hands as if he were busily weaving.
+        - id: ch02-b10
+          speaker: old_minister
+          text: Oh, it is lovely. Truly beautiful! Through my glasses I can see such a splendid pattern and such brilliant colors. I will tell the emperor how much I admire it.
+        - id: ch02-b11
+          speakers: [swindler_one, swindler_two]
+          ensemble: duo
+          text: We are delighted to hear that.
+        - id: ch02-b12
+          speaker: narrator
+          text: The two men named the colors and explained every detail of the pattern that did not exist. The old minister listened carefully so he could repeat it all to the emperor. And that was exactly what he did.
+        - id: ch02-b13
+          speaker: narrator
+          text: Soon the swindlers demanded more money, more silk, and more gold thread for their weaving. Once again, they kept everything. Not a single thread reached the looms, though they went right on pretending to work.
+    - id: ch03
+      title: The Emperor Sees the Cloth
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Before long, the emperor sent another honest courtier to see how the work was going and whether the cloth was nearly finished. Like the old minister, the courtier looked and looked. He saw nothing, because there was nothing to see.
+        - id: ch03-b02
+          speaker: swindler_two
+          text: Isn't this a beautiful piece of cloth?
+        - id: ch03-b03
+          speaker: narrator
+          text: The two swindlers showed him the magnificent pattern and described it in detail, though it existed only in their words.
+        - id: ch03-b04
+          speaker: courtier
+          text: I know I am not stupid. Then perhaps I am not fit for my excellent position. How strange. But no one can ever find out.
+        - id: ch03-b05
+          speaker: narrator
+          text: So he praised the cloth he could not see. He spoke with great delight about the lovely colors and the fine pattern.
+        - id: ch03-b06
+          speaker: courtier
+          text: The cloth is excellent, Your Majesty.
+        - id: ch03-b07
+          speaker: narrator
+          text: Soon everyone in the city was talking about the precious cloth. At last, while it was still on the looms, the emperor decided to see it himself. He went with several courtiers, including the two officials who had already visited.
+        - id: ch03-b08
+          speaker: narrator
+          text: The clever swindlers were moving their hands faster than ever. Still, they used no thread at all.
+        - id: ch03-b09
+          speakers: [old_minister, courtier]
+          ensemble: duo
+          text: Isn't it magnificent? Your Majesty, look at those colors and that pattern!
+        - id: ch03-b10
+          speaker: narrator
+          text: The two officials pointed toward the empty looms. Each one believed that everyone else could see the cloth.
+        - id: ch03-b11
+          speaker: emperor
+          text: What is happening? I cannot see anything! This is terrible. Am I stupid? Am I unfit to be emperor? Nothing could be more dreadful.
+          emotion: fearful
+        - id: ch03-b12
+          speaker: emperor
+          text: Yes, indeed. We give this cloth our most gracious approval.
+        - id: ch03-b13
+          speaker: narrator
+          text: He nodded with satisfaction and stared at the empty loom. He would not admit that he saw nothing. Every attendant looked closely too, but none of them saw more than the emperor did.
+        - id: ch03-b14
+          speakers: [courtier_one, courtier_two, courtier_three]
+          ensemble: chorus
+          text: It is very beautiful!
+        - id: ch03-b15
+          speaker: narrator
+          text: They all advised the emperor to wear the magnificent new clothes in the grand procession that would soon take place.
+        - id: ch03-b16
+          speaker: courtier_one
+          text: Magnificent!
+        - id: ch03-b17
+          speaker: courtier_two
+          text: Beautiful!
+        - id: ch03-b18
+          speaker: courtier_three
+          text: Excellent!
+        - id: ch03-b19
+          speaker: narrator
+          text: Everyone appeared delighted. The emperor named the two swindlers Imperial Court Weavers.
+    - id: ch04
+      title: The Emperor's New Suit
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The night before the procession, the swindlers pretended to work without stopping. They burned more than sixteen candles so everyone would see how busy they were finishing the emperor's new suit.
+        - id: ch04-b02
+          speaker: narrator
+          text: They acted as if they were taking the cloth off the looms. They cut the air with enormous scissors and sewed with needles that held no thread.
+        - id: ch04-b03
+          speakers: [swindler_one, swindler_two]
+          ensemble: duo
+          text: The emperor's new suit is ready!
+        - id: ch04-b04
+          speaker: narrator
+          text: The emperor and all his barons came into the hall. The swindlers raised their arms as though they were holding garments.
+        - id: ch04-b05
+          speaker: swindler_one
+          text: Here are the trousers!
+        - id: ch04-b06
+          speaker: swindler_two
+          text: And here is the coat!
+        - id: ch04-b07
+          speaker: swindler_one
+          text: This is the cloak!
+        - id: ch04-b08
+          speaker: swindler_two
+          text: Every piece is as light as a cobweb. You will feel as if you have nothing on at all.
+        - id: ch04-b09
+          speaker: swindler_one
+          text: That is exactly what makes the suit so wonderful.
+        - id: ch04-b10
+          speakers: [courtier_one, courtier_two, courtier_three]
+          ensemble: chorus
+          text: Indeed!
+        - id: ch04-b11
+          speaker: narrator
+          text: But none of the courtiers could see a thing, because there was nothing there.
+        - id: ch04-b12
+          speaker: swindler_one
+          text: Would Your Majesty kindly undress? Then we can help you put on the new suit in front of the large mirror.
+        - id: ch04-b13
+          speaker: narrator
+          text: The emperor undressed. The swindlers pretended to dress him in the new suit, one piece at a time. He turned before the mirror and studied himself from every side.
+        - id: ch04-b14
+          speaker: courtier_one
+          text: It looks wonderful on you!
+        - id: ch04-b15
+          speaker: courtier_two
+          text: And it fits perfectly!
+        - id: ch04-b16
+          speaker: courtier_three
+          text: What a beautiful pattern and such fine colors! It is a magnificent suit!
+        - id: ch04-b17
+          speaker: master_of_ceremonies
+          text: Your Majesty, the men who will carry the canopy in the procession are ready.
+        - id: ch04-b18
+          speaker: emperor
+          text: I am ready. Doesn't my suit fit me marvelously?
+        - id: ch04-b19
+          speaker: narrator
+          text: He turned toward the mirror one last time so everyone would think he was admiring his new clothes.
+        - id: ch04-b20
+          speaker: narrator
+          text: The chamberlains who were supposed to carry the train reached down toward the floor. They lifted their empty hands and acted as if a long train rested there. They did not want anyone to know that they could see nothing.
+    - id: ch05
+      title: The Procession
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The emperor marched through the streets beneath the beautiful canopy. People watched from the sidewalks and from their windows.
+        - id: ch05-b02
+          speaker: townsman
+          text: The emperor's new suit is beyond compare!
+        - id: ch05-b03
+          speaker: townswoman
+          text: Look at that long train. And see how well the suit fits him!
+        - id: ch05-b04
+          speaker: narrator
+          text: No one wanted others to know that they saw nothing. If they admitted it, they might be called stupid or unfit for their jobs. Never had an emperor's clothes received so much praise.
+        - id: ch05-b05
+          speaker: child
+          text: But he isn't wearing anything at all!
+        - id: ch05-b06
+          speaker: father
+          text: Good heavens! Listen to that innocent child.
+          emotion: surprised
+        - id: ch05-b07
+          speaker: narrator
+          text: One person whispered the child's words to another. The truth passed through the crowd.
+        - id: ch05-b08
+          speakers: [townsman, townswoman, father]
+          ensemble: chorus
+          text: But he isn't wearing anything at all!
+        - id: ch05-b09
+          speaker: narrator
+          text: The cry struck the emperor deeply, because he suspected the people were right.
+        - id: ch05-b10
+          speaker: emperor
+          text: I must see this through to the end.
+        - id: ch05-b11
+          speaker: narrator
+          text: So the emperor kept marching. Behind him, the chamberlains walked with even greater dignity, pretending to carry a train that did not exist.

@@ -1,8 +1,0 @@
-# Auntie's Skirts
-
-Whenever Auntie moves around,  
-Her dresses make a curious sound,  
-They trail behind her up the floor,  
-And trundle after through the door.  
-
-XVI

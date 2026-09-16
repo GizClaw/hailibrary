@@ -1,0 +1,283 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant storytelling with gentle humor
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    mrs_tittlemouse:
+      display_name: Mrs. Tittlemouse
+      tts:
+        delivery: precise, brisk, and increasingly flustered
+        timbre: small and crisp
+        pace: moderately quick
+        pitch: medium-high
+    spider:
+      display_name: Spider
+      tts:
+        delivery: politely inquisitive with quiet confidence
+        timbre: dry and light
+        pace: unhurried
+        pitch: medium-low
+    babbitty_bumble:
+      display_name: Babbitty Bumble
+      tts:
+        delivery: buzzy, peevish, and sharp
+        timbre: bright and raspy
+        pace: quick
+        pitch: high
+    bee_2:
+      display_name: Second Bumblebee
+      tts:
+        delivery: fierce and insistent
+        timbre: buzzy and light
+        pace: quick
+        pitch: high
+    bee_3:
+      display_name: Third Bumblebee
+      tts:
+        delivery: fierce and insistent
+        timbre: buzzy and light
+        pace: quick
+        pitch: medium-high
+    bee_4:
+      display_name: Fourth Bumblebee
+      tts:
+        delivery: fierce and insistent
+        timbre: buzzy and rough
+        pace: quick
+        pitch: medium
+    mr_jackson:
+      display_name: Mr. Jackson
+      tts:
+        delivery: genial, complacent, and ponderous
+        timbre: broad and throaty
+        pace: leisurely
+        pitch: low
+  chapters:
+    - id: ch01
+      title: A Very Tidy House
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Mrs. Tittlemouse lived in a bank beneath a hedge. And what a funny house it was! Sandy passages ran on for yards and yards among the hedge roots. They led to storerooms, nut cellars, and seed cellars. She had a kitchen, a parlor, a pantry, and a larder. Her bedroom even had a little box bed.
+        - id: ch01-b02
+          speaker: narrator
+          text: Mrs. Tittlemouse was a terribly tidy, particular little mouse. She was forever sweeping and dusting those soft sandy floors. Sometimes a beetle wandered into her passages and lost its way.
+        - id: ch01-b03
+          speaker: mrs_tittlemouse
+          text: Shoo! Shoo! Look at those dirty little feet!
+        - id: ch01-b04
+          speaker: narrator
+          text: She would clatter her dustpan at it. One day, a little old ladybird in a red spotted cloak went running up and down the house.
+        - id: ch01-b05
+          speaker: mrs_tittlemouse
+          text: Your house is burning, Mother Ladybird! Fly home to your children!
+        - id: ch01-b06
+          speaker: narrator
+          text: On another day, a big fat spider came inside to get out of the rain.
+        - id: ch01-b07
+          speaker: spider
+          text: Excuse me. Isn't this Miss Muffet's house?
+        - id: ch01-b08
+          speaker: mrs_tittlemouse
+          text: Out you go, you bold, bad spider! You're trailing cobwebs through my nice clean house!
+        - id: ch01-b09
+          speaker: narrator
+          text: She bundled him out through a window. The spider lowered himself down the hedge on one long, thin thread.
+        - id: ch01-b10
+          speaker: narrator
+          text: Then Mrs. Tittlemouse set off for a faraway storeroom to fetch cherry stones and thistledown seed for dinner. As she went, she sniffed the air and studied the floor.
+        - id: ch01-b11
+          speaker: mrs_tittlemouse
+          text: I smell honey. Could it be the cowslips outside in the hedge? And I'm sure those are marks from dirty little feet.
+        - id: ch01-b12
+          speaker: narrator
+          text: All at once, she turned a corner and met Babbitty Bumble.
+        - id: ch01-b13
+          speaker: babbitty_bumble
+          text: Zizz, bizz, bizzz!
+        - id: ch01-b14
+          speaker: narrator
+          text: Mrs. Tittlemouse gave the bumblebee a severe look. If only she had brought a broom.
+        - id: ch01-b15
+          speaker: mrs_tittlemouse
+          text: Good day, Babbitty Bumble. I'd be happy to buy some beeswax, but what are you doing down here? Why must you always fly through a window, buzzing, “Zizz, bizz, bizzz”?
+        - id: ch01-b16
+          speaker: narrator
+          text: Mrs. Tittlemouse was getting cross.
+        - id: ch01-b17
+          speaker: babbitty_bumble
+          text: Zizz, wizz, wizzz!
+          emotion: angry
+        - id: ch01-b18
+          speaker: narrator
+          text: Babbitty answered with a peevish squeak. She edged along a passage and vanished into the storeroom that had held the acorns.
+    - id: ch02
+      title: Bees in the Storeroom
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Mrs. Tittlemouse had eaten those acorns before Christmas, so the room should have been empty. Instead, it was stuffed with untidy dry moss. She began pulling the moss out. Three or four more bees poked out their heads and buzzed fiercely at her.
+        - id: ch02-b02
+          speaker: mrs_tittlemouse
+          text: I don't rent out rooms. You have no right to be here! I'll have you all put out!
+          emotion: angry
+        - id: ch02-b03
+          speakers: [babbitty_bumble, bee_2, bee_3, bee_4]
+          ensemble: chorus
+          text: Buzz! Buzz! Buzzz!
+        - id: ch02-b04
+          speaker: mrs_tittlemouse
+          text: But who could help me?
+        - id: ch02-b05
+          speaker: babbitty_bumble
+          text: Bizz, wizz, wizzz!
+        - id: ch02-b06
+          speaker: mrs_tittlemouse
+          text: I won't ask Mr. Jackson. He never wipes his feet.
+        - id: ch02-b07
+          speaker: narrator
+          text: She decided the bees could wait until after dinner. But when she returned to the parlor, she heard someone coughing in a fat voice. There was Mr. Jackson himself.
+        - id: ch02-b08
+          speaker: narrator
+          text: He covered nearly all of a little rocking chair. He sat there smiling and twiddling his thumbs, with both feet on the fender. Mr. Jackson lived in a drain below the hedge, beside a very wet and dirty ditch.
+        - id: ch02-b09
+          speaker: mrs_tittlemouse
+          text: How do you do, Mr. Jackson? Oh dear, you're soaking wet!
+          emotion: surprised
+        - id: ch02-b10
+          speaker: mr_jackson
+          text: Thank you, thank you, Mrs. Tittlemouse! I'll stay here a while and dry off.
+        - id: ch02-b11
+          speaker: narrator
+          text: Mr. Jackson sat and smiled while water dripped from the tails of his coat. Mrs. Tittlemouse followed the drips with a mop. He stayed so long that at last she had to ask him to dinner.
+    - id: ch03
+      title: Mr. Jackson Looks for Honey
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: First, Mrs. Tittlemouse offered him cherry stones.
+        - id: ch03-b02
+          speaker: mr_jackson
+          text: Thank you, thank you, Mrs. Tittlemouse! But no teeth, no teeth, no teeth!
+        - id: ch03-b03
+          speaker: narrator
+          text: He opened his mouth much wider than he needed to. There truly wasn't one tooth in his head. Next, she offered him thistledown seed.
+        - id: ch03-b04
+          speaker: mr_jackson
+          text: Tiddly, widdly, widdly! Poof, poof, puff!
+        - id: ch03-b05
+          speaker: narrator
+          text: He blew the thistledown everywhere.
+        - id: ch03-b06
+          speaker: mr_jackson
+          text: Thank you, thank you, Mrs. Tittlemouse! What I'd really, truly like is a little dish of honey.
+        - id: ch03-b07
+          speaker: mrs_tittlemouse
+          text: I'm afraid I don't have any honey, Mr. Jackson.
+        - id: ch03-b08
+          speaker: mr_jackson
+          text: Tiddly, widdly, widdly, Mrs. Tittlemouse! I can smell honey. That's why I came to visit.
+        - id: ch03-b09
+          speaker: narrator
+          text: Mr. Jackson heaved himself up from the table and started peering into the cupboards. Mrs. Tittlemouse trailed after him with a dishcloth, wiping his great wet footprints from the parlor floor.
+        - id: ch03-b10
+          speaker: narrator
+          text: Once he was sure the cupboards held no honey, he started down the passage.
+        - id: ch03-b11
+          speaker: mrs_tittlemouse
+          text: Really, Mr. Jackson, you're going to get stuck!
+        - id: ch03-b12
+          speaker: mr_jackson
+          text: Tiddly, widdly, widdly, Mrs. Tittlemouse!
+        - id: ch03-b13
+          speaker: narrator
+          text: First, he squeezed into the pantry.
+        - id: ch03-b14
+          speaker: mr_jackson
+          text: Tiddly, widdly, widdly? No honey? None at all, Mrs. Tittlemouse?
+        - id: ch03-b15
+          speaker: narrator
+          text: Three creepy-crawly creatures were hiding in the plate rack. Two escaped, but Mr. Jackson caught the smallest one. Then he squeezed into the larder. Miss Butterfly had been tasting the sugar, but she flew out the window.
+        - id: ch03-b16
+          speaker: mr_jackson
+          text: Tiddly, widdly, widdly, Mrs. Tittlemouse. You certainly have a lot of visitors!
+        - id: ch03-b17
+          speaker: mrs_tittlemouse
+          text: And not one of them was invited!
+          emotion: angry
+    - id: ch04
+      title: What a Dreadful Mess
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Mrs. Thomasina Tittlemouse and Mr. Jackson went on through the sandy passage.
+        - id: ch04-b02
+          speaker: mr_jackson
+          text: Tiddly, widdly—
+        - id: ch04-b03
+          speakers: [babbitty_bumble, bee_2, bee_3, bee_4]
+          ensemble: chorus
+          text: Buzz! Wizz! Wizz!
+        - id: ch04-b04
+          speaker: narrator
+          text: Mr. Jackson met Babbitty around the corner. He snapped her up, then put her down again.
+        - id: ch04-b05
+          speaker: mr_jackson
+          text: I don't care for bumblebees. They're covered all over with bristles.
+        - id: ch04-b06
+          speaker: narrator
+          text: He wiped his mouth on his coat sleeve.
+        - id: ch04-b07
+          speaker: babbitty_bumble
+          text: Get out of here, you nasty old toad!
+          emotion: angry
+        - id: ch04-b08
+          speaker: mrs_tittlemouse
+          text: This will drive me out of my mind!
+          emotion: angry
+        - id: ch04-b09
+          speaker: narrator
+          text: Mrs. Tittlemouse shut herself in the nut cellar while Mr. Jackson tore out the bees' nest. The stings didn't seem to bother him at all. By the time she dared to come out, everyone had gone.
+        - id: ch04-b10
+          speaker: narrator
+          text: But the mess was dreadful.
+        - id: ch04-b11
+          speaker: mrs_tittlemouse
+          text: I've never seen anything like it! Honey smeared everywhere, moss and thistledown everywhere, and dirty footprints, big and small, all through my nice clean house!
+          emotion: angry
+        - id: ch04-b12
+          speaker: narrator
+          text: She collected the moss and what was left of the beeswax. Then she went outside for some twigs and partly blocked the front door.
+        - id: ch04-b13
+          speaker: mrs_tittlemouse
+          text: There. Now the door will be too small for Mr. Jackson!
+        - id: ch04-b14
+          speaker: narrator
+          text: From the storeroom, she brought soft soap, flannel, and a new scrubbing brush. But she was too tired to work anymore. She fell asleep in her chair first, and then she went to bed.
+        - id: ch04-b15
+          speaker: mrs_tittlemouse
+          text: Will my house ever be tidy again?
+          emotion: sad
+    - id: ch05
+      title: Spring Cleaning and a Party
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Early the next morning, Mrs. Tittlemouse began her spring cleaning. It took her two whole weeks. She swept and scrubbed and dusted. She polished the furniture with beeswax and shined every one of her little tin spoons.
+        - id: ch05-b02
+          speaker: narrator
+          text: When the house was beautifully neat and clean again, she invited five other little mice to a party. Mr. Jackson was not invited.
+        - id: ch05-b03
+          speaker: narrator
+          text: He smelled the party and came climbing up the bank. But he could no longer squeeze through the door. So the mice passed acorn cups full of honeydew out to him through the window. Mr. Jackson wasn't offended at all.
+        - id: ch05-b04
+          speaker: narrator
+          text: He sat outside in the sunshine.
+        - id: ch05-b05
+          speaker: mr_jackson
+          text: Tiddly, widdly, widdly! Here's to your very good health, Mrs. Tittlemouse!

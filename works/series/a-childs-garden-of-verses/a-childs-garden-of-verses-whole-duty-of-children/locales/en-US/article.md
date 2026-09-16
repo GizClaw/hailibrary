@@ -1,8 +1,0 @@
-# Whole Duty of Children
-
-A child should always say what's true  
-And speak when he is spoken to,  
-And behave mannerly at table;  
-At least as far as he is able.  
-
-VI
