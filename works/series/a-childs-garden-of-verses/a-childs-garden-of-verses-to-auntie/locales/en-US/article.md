@@ -1,0 +1,8 @@
+# To Auntie
+
+"Chief of our aunts"--not only I,  
+But all your dozen of nurselings cry--  
+"What did the other children do?  
+And what were childhood, wanting you?"  
+
+IV

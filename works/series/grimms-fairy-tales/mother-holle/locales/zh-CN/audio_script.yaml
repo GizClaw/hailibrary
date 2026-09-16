@@ -1,0 +1,170 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 古老童话般从容而清晰
+        timbre: 温暖沉静
+        pace: 舒缓有变化
+        pitch: 中音
+    industrious_daughter:
+      display_name: 勤快姑娘
+      tts:
+        delivery: 真诚朴实，语气柔和
+        timbre: 清亮年轻
+        pace: 自然
+        pitch: 中高音
+    stepmother:
+      display_name: 继母
+      tts:
+        delivery: 冷硬而不耐烦
+        timbre: 尖利干涩
+        pace: 稍快
+        pitch: 中高音
+    bread:
+      display_name: 面包
+      tts:
+        delivery: 急切地齐声呼喊
+        timbre: 明亮
+        pace: 稍快
+        pitch: 中高音
+    apple_tree:
+      display_name: 苹果树
+      tts:
+        delivery: 热切而响亮
+        timbre: 浑厚清楚
+        pace: 适中
+        pitch: 中音
+    mother_holle:
+      display_name: 霍勒大妈
+      tts:
+        delivery: 坦率稳重，亲切时温和
+        timbre: 苍老厚实
+        pace: 从容
+        pitch: 中低音
+    rooster:
+      display_name: 公鸡
+      tts:
+        delivery: 像报晓一样高声唱念
+        timbre: 嘹亮
+        pace: 明快
+        pitch: 高音
+    lazy_daughter:
+      display_name: 懒姑娘
+      tts:
+        delivery: 傲慢懒散，满不在乎
+        timbre: 年轻偏尖
+        pace: 略慢
+        pitch: 中高音
+  chapters:
+    - id: ch01
+      title: 井底的花园
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "从前，有个寡妇，家里有两个女儿。继女漂亮又勤快，亲生女儿却又丑又懒。寡妇偏疼自己的女儿，家里的活儿便全落在继女身上。那可怜的姑娘成了家中的灰姑娘，每天坐在大路旁的井边纺线，常常纺到手指流出血来。一天，梭子沾了血。她把它伸到井水里清洗，手一滑，梭子便沉进了井底。姑娘哭着跑回去，把这件祸事告诉继母。"
+        - id: ch01-b02
+          speaker: stepmother
+          text: "梭子是你弄掉的，你就自己下去把它找回来！"
+          emotion: angry
+        - id: ch01-b03
+          speaker: narrator
+          text: "姑娘挨了一顿狠骂，只好回到井边。她急得没有办法，心里又难受，便跳进井里去找梭子。她随即失去了知觉。再醒来时，她竟躺在一片美丽的草地上。头顶阳光明亮，身边开着成千上万朵花。她顺着草地向前走，来到一座烤炉旁。炉中塞满了面包。"
+        - id: ch01-b04
+          speaker: bread
+          text: "快把我们拿出来吧！我们已经烤了很久，再不出来就要焦啦！"
+        - id: ch01-b05
+          speaker: narrator
+          text: "姑娘马上拿起面包铲，把面包一只接一只地全铲了出来。再往前走，她又看见一棵结满果子的苹果树。"
+        - id: ch01-b06
+          speaker: apple_tree
+          text: "请你摇摇我吧！树上的苹果都已经熟透啦！"
+        - id: ch01-b07
+          speaker: narrator
+          text: "姑娘抱住树干用力摇。苹果像雨点似的落下来，她一直摇到枝头再没有一只苹果，又把满地的苹果收拢成一堆，才继续上路。"
+    - id: ch02
+      title: 霍勒大妈的羽毛床
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "走到最后，姑娘看见一座小屋。屋里有位老婆婆探头望着她，那两排牙齿大得惊人。姑娘吓得转身要跑，老婆婆却开口叫住了她。"
+        - id: ch02-b02
+          speaker: mother_holle
+          text: "孩子，你不用怕。留下来陪我吧。只要你把屋里的事情都认真做好，你一定不会吃亏。别的都不难，只要记得给我铺好床，再用力抖一抖，让羽毛飞起来。羽毛一飞，人间就会下雪。我就是霍勒大妈。"
+        - id: ch02-b03
+          speaker: narrator
+          text: "霍勒大妈待她很和气，姑娘这才放下心来，答应为她做事。此后，姑娘把每件活儿都收拾得妥帖，霍勒大妈十分满意。她抖起床来尤其卖力，羽毛总会像雪花一样飞得满屋都是。姑娘在这里过得舒心，从没听过一句责骂，每天还能吃到水煮肉或烤肉。"
+    - id: ch03
+      title: 金雨送姑娘回家
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "姑娘跟霍勒大妈住了一段日子，心里却慢慢忧愁起来。起先她自己也说不出缘故，后来才明白，她是想家了。这里的日子虽然比家里好上千倍万倍，她还是一心想回去。终于，她把心里的话告诉了霍勒大妈。"
+        - id: ch03-b02
+          speaker: industrious_daughter
+          text: "我一直想着家。这里待我再好，我也住不下去了。我得回到上面，回到家里人身边。"
+          emotion: sad
+        - id: ch03-b03
+          speaker: mother_holle
+          text: "你没有忘记自己的家，我很高兴。你这样尽心地帮我做事，我会亲自把你送回去。"
+        - id: ch03-b04
+          speaker: narrator
+          text: "霍勒大妈牵起她的手，领她来到一扇大门前。门一打开，姑娘刚走到门洞下面，一阵沉甸甸的金雨便从头顶倾泻下来。金子全都粘在她身上，将她从头到脚盖了起来。"
+        - id: ch03-b05
+          speaker: mother_holle
+          text: "这些金子归你，因为你一直这样勤快。"
+        - id: ch03-b06
+          speaker: narrator
+          text: "霍勒大妈又把那只掉进井里的梭子交还给她，随后关上大门。姑娘转眼已回到上面的人间，离母亲的家并不远。她走进院子时，公鸡正站在井旁。"
+        - id: ch03-b07
+          speaker: rooster
+          text: "喔喔喔，喔喔喔！金灿灿的姑娘回家喽！"
+        - id: ch03-b08
+          speaker: narrator
+          text: "姑娘披着一身金子进了家门。母亲和妹妹见她这样回来，都好好地迎接了她。"
+    - id: ch04
+      title: 懒姑娘走上同一条路
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "勤快姑娘把全部经历讲给家里人听。母亲知道那些金子是怎么来的，立刻想让又丑又懒的亲生女儿也得到同样的好运。她叫女儿坐到井边纺线。懒姑娘为了让梭子染上血，故意把手伸进荆棘丛，刺破了手指。随后，她将梭子扔进井里，自己也跳了下去。她同样来到鲜花盛开的草地，又沿着原来的路朝前走。到了烤炉旁，面包再次喊了起来。"
+        - id: ch04-b02
+          speaker: bread
+          text: "快点把我们拿出来！我们烤得太久，再不出来就要焦啦！"
+        - id: ch04-b03
+          speaker: lazy_daughter
+          text: "我可不愿意为了你们，把自己弄得脏兮兮的。"
+        - id: ch04-b04
+          speaker: narrator
+          text: "她丢下面包继续赶路。没过多久，那棵苹果树也向她呼喊。"
+        - id: ch04-b05
+          speaker: apple_tree
+          text: "请摇一摇我的树枝吧！所有苹果都已经熟啦！"
+        - id: ch04-b06
+          speaker: lazy_daughter
+          text: "我才不干呢！要是有一只苹果落下来，正好砸中我的脑袋怎么办？"
+        - id: ch04-b07
+          speaker: narrator
+          text: "她就这样走开了。等她来到霍勒大妈的小屋，看到那两排大牙齿也不怕，因为她早已听说过这件事。她一到门前，便马上答应留下来做事。"
+    - id: ch05
+      title: 洗不掉的沥青
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: "第一天，懒姑娘硬逼着自己认真干活。霍勒大妈叫她做什么，她都照办，脑子里想的全是将来能拿到的金子。第二天，她开始偷懒。第三天，她比前一天更懒。后来每天早晨，她连床都不肯起。霍勒大妈的床，她不按规矩铺，也不愿用力抖，自然没有羽毛飞起来。没多久，霍勒大妈便受够了，叫她离开。懒姑娘正巴不得走，还认定自己的金雨马上就要来了。"
+        - id: ch05-b02
+          speaker: narrator
+          text: "霍勒大妈同样领她来到大门前。懒姑娘站到门洞底下，等着金子落下来。可这回从上面浇下的不是金雨，而是满满一大锅沥青。"
+        - id: ch05-b03
+          speaker: mother_holle
+          text: "这就是你做工应得的报酬。"
+        - id: ch05-b04
+          speaker: narrator
+          text: "霍勒大妈说完便关上了门。懒姑娘只能回家去，浑身都裹着黑黏黏的沥青。井边的公鸡一看见她，马上高声叫起来。"
+        - id: ch05-b05
+          speaker: rooster
+          text: "喔喔喔，喔喔喔！黑黏黏的姑娘回家喽！"
+        - id: ch05-b06
+          speaker: narrator
+          text: "那层沥青牢牢粘在懒姑娘身上，直到她死去，也没能洗掉。"

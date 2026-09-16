@@ -1,0 +1,83 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: "朴实沉稳，带着寓言故事的从容意味"
+        timbre: 温暖清晰
+        pace: 舒缓而有变化
+        pitch: 中音
+    shepherd_boy:
+      display_name: 牧童
+      tts:
+        delivery: "活泼直接，遇险时明显慌张"
+        timbre: 清亮稚嫩
+        pace: 轻快
+        pitch: 中高音
+    villagers:
+      display_name: 村民们
+      tts:
+        delivery: "质朴直率，众人同声回应"
+        timbre: 厚实自然
+        pace: 中等
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 无聊的牧场
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "从前，有个男孩替主人守着一群羊。羊儿吃草的地方就在幽暗的森林边上，村子也离得不远。这样的日子很快就让他厌烦了。想解解闷，他只能跟狗聊上几句，或是拿起牧笛吹一阵。"
+        - id: ch01-b02
+          speaker: narrator
+          text: "一天，男孩坐在牧场上。眼前是羊群，旁边的森林一点声响也没有。他心里想，要是狼突然来了，我会怎么做？这一想，他倒想出一个取乐的办法。"
+    - id: ch02
+      title: 两次假警报
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "主人交代过，狼来袭击羊群时，一定要呼救。村民们听到后，就会过来赶狼。眼下，男孩明明什么也没瞧见，更没有狼，却忽然往村子那边跑，扯着嗓子喊了起来。"
+        - id: ch02-b02
+          speaker: shepherd_boy
+          text: 狼来了！狼来了！
+        - id: ch02-b03
+          speaker: narrator
+          text: "喊声一传来，村民们马上撂下手里的活儿，慌忙跑向牧场。到了地方，他们哪里看得到狼，只看到男孩笑得弯下了腰。原来，他正拿这场恶作剧取笑大家呢。"
+        - id: ch02-b04
+          speaker: narrator
+          text: 没过几天，男孩又扯开嗓门。
+        - id: ch02-b05
+          speaker: shepherd_boy
+          text: 狼来了！狼来了！
+        - id: ch02-b06
+          speaker: narrator
+          text: "大家再次赶去相救，换来的还是男孩的嘲笑。"
+    - id: ch03
+      title: 狼真的来了
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "后来，有个傍晚，太阳落到了森林后面，暮色沿着牧场一点点铺开。突然，一只狼蹿出灌木，真的扑进了羊群。"
+        - id: ch03-b02
+          speaker: narrator
+          text: "男孩吓坏了，拔腿就往村子跑，嘴里不停地喊。"
+        - id: ch03-b03
+          speaker: shepherd_boy
+          text: 狼来了！狼来了！
+          emotion: fearful
+        - id: ch03-b04
+          speaker: narrator
+          text: "这声呼救，村民们全都听到了。可这一次，没有人像先前那样赶去救他。"
+        - id: ch03-b05
+          speaker: villagers
+          text: 他别想再骗我们了。
+    - id: ch04
+      title: 无人相信
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "就这样，狼咬死了许多羊，随后钻回森林，不见了踪影。"
+        - id: ch04-b02
+          speaker: narrator
+          text: "说谎的人，即使讲了真话，也没人相信。"

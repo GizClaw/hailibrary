@@ -1,0 +1,8 @@
+# A Thought
+
+It is very nice to think  
+The world is full of meat and drink,  
+With little children saying grace  
+In every Christian kind of place.  
+
+III

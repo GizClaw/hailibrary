@@ -1,0 +1,13 @@
+# AT SCHOOL
+
+
+  Five little Girls, sitting on a form,
+  Five little Girls, with lessons to learn,
+  Five little Girls, who, I'm afraid,
+  Won't know them a bit when they have to be said.
+
+  For little eyes are given to look
+  Anywhere else than on their book;
+  And little thoughts are given to stray
+  Anywhere--ever so far away.
+

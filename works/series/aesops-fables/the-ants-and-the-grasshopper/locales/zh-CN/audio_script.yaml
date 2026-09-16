@@ -1,0 +1,61 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 朴素沉稳，带着讲述古老寓言的分寸感
+        timbre: 温暖清晰
+        pace: 从容
+        pitch: 中
+    ants:
+      display_name: 蚂蚁们
+      tts:
+        delivery: 干脆利落，集体说话时整齐有力
+        timbre: 明亮清楚
+        pace: 稍快
+        pitch: 中高
+    grasshopper:
+      display_name: 蚱蜢
+      tts:
+        delivery: 虚弱窘迫，话里带着哀求
+        timbre: 单薄柔和
+        pace: 稍慢
+        pitch: 中
+  chapters:
+    - id: ch01
+      title: 深秋的阳光
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 深秋的一天，太阳暖暖地照着。蚂蚁一家把夏天存下的谷物搬出来，忙着晒干。这时，饿坏了的蚱蜢夹着小提琴走过来，低声求他们分一口吃的。
+    - id: ch02
+      title: 夏天去了哪里
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 蚂蚁们听了，吃惊地叫起来。
+        - id: ch02-b02
+          speaker: ants
+          text: 什么？你一点过冬的粮食也没存？那整个夏天，你到底在忙些什么？
+          emotion: surprised
+        - id: ch02-b03
+          speaker: grasshopper
+          text: 我根本抽不出空来存吃的。我天天忙着拉琴，等我回过神，夏天早就过去了。
+          emotion: sad
+        - id: ch02-b04
+          speaker: narrator
+          text: 蚂蚁们厌恶地耸了耸肩。
+    - id: ch03
+      title: 现在跳舞吧
+      blocks:
+        - id: ch03-b01
+          speaker: ants
+          text: 这么说，你整个夏天都在拉琴？那好啊，现在你就跳舞去吧！
+          emotion: disgusted
+        - id: ch03-b02
+          speaker: narrator
+          text: 说完，蚂蚁们转过身，接着忙自己的活，不再理那只蚱蜢。
+        - id: ch03-b03
+          speaker: narrator
+          text: 做事有做事的时候，玩耍也有玩耍的时候。

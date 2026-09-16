@@ -1,0 +1,8 @@
+# Time to Rise
+
+A birdie with a yellow bill  
+Hopped upon my window sill,  
+Cocked his shining eye and said:  
+"Ain't you 'shamed, you sleepy-head!"  
+
+XXXV

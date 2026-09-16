@@ -1,0 +1,25 @@
+# Historical Associations
+
+Dear Uncle Jim, this garden ground  
+That now you smoke your pipe around,  
+Has seen immortal actions done  
+And valiant battles lost and won.  
+
+Here we had best on tip-toe tread,  
+While I for safety march ahead,  
+For this is that enchanted ground  
+Where all who loiter slumber sound.  
+
+Here is the sea, here is the sand,  
+Here is simple Shepherd's Land,  
+Here are the fairy hollyhocks,  
+And there are Ali Baba's rocks.  
+
+But yonder, see! apart and high,  
+Frozen Siberia lies; where I,  
+With Robert Bruce and William Tell,  
+Was bound by an enchanter's spell.  
+
+ENVOYS  
+
+I

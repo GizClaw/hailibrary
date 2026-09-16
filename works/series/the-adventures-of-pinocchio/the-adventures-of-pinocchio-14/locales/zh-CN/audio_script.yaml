@@ -1,0 +1,146 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖从容，带一点一本正经的幽默
+        timbre: 清晰醇厚
+        pace: 舒缓，遇到惊奇处略微加快
+        pitch: 中
+    pinocchio:
+      display_name: 匹诺曹
+      tts:
+        delivery: 任性直率，嘴硬而孩子气，发怒时冲动急躁
+        timbre: 清亮，带木偶般的脆响
+        pace: 偏快，争辩时更急
+        pitch: 中高
+    masked_assassins:
+      display_name: 两个蒙面凶徒
+      tts:
+        delivery: 阴森凶恶，两道声音一起逼迫威吓
+        timbre: 粗哑低沉，仿佛从坟墓里传来
+        pace: 短促有力
+        pitch: 低
+    tall_assassin:
+      display_name: 高个子凶徒
+      tts:
+        delivery: 阴森凶狠，威胁时冷酷强硬
+        timbre: 低沉粗哑，仿佛从坟墓里传来
+        pace: 缓慢而逼迫
+        pitch: 低
+    short_assassin:
+      display_name: 矮个子凶徒
+      tts:
+        delivery: 阴险暴躁，附和同伴时短促凶恶
+        timbre: 干涩尖利，带着压低的沙哑
+        pace: 偏快，动怒时急促
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 黑暗里的脚步声
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 匹诺曹重新上路以后，又在心里嘀咕起来。
+        - id: ch01-b02
+          speaker: pinocchio
+          text: 我们这些可怜的孩子，运气真是太坏了。谁见了都要训上几句，再讲一大堆道理。就说那只讨厌的蟋蟀吧，我不过是不肯听他啰唆，照他说的，往后还不知道有多少灾祸等着我呢！居然连杀人凶徒都会碰见！可我才不信世上真有这种人，从来就不信。那都是爸爸们编出来的，专门吓唬夜里想出门的孩子。就算真在路上遇见了，我也一点儿不怕。我会走到他们面前说，杀人凶徒先生，你们找我干什么？跟我可不能开玩笑，快去忙你们自己的事，别来打扰我！他们听了，准会像风一样逃走。要是他们没教养，不肯逃，那我自己逃不就行了？事情到这里也就完啦。
+        - id: ch01-b03
+          speaker: narrator
+          text: 匹诺曹这套道理还没想完，忽然听见身后的树叶轻轻一响。他回头望去，只见昏暗中出现两个面目凶恶的黑影。他们从头到脚都裹在木炭袋里，踮着脚追过来，一蹦老高，活像两个幽灵。
+        - id: ch01-b04
+          speaker: pinocchio
+          text: 他们真的来啦！
+          emotion: fearful
+        - id: ch01-b05
+          speaker: narrator
+          text: 匹诺曹不知道该把金币藏到哪里，干脆全塞进嘴里，压在舌头底下。接着，他拔腿就要逃。可一步还没迈出去，胳膊已经被人抓住。两个可怕的声音在他耳边响起，阴森森的，仿佛是从坟墓里传来的。
+        - id: ch01-b06
+          speaker: masked_assassins
+          text: 把钱交出来，不然就要你的命！
+          emotion: angry
+    - id: ch02
+      title: 要钱还是要命
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 匹诺曹嘴里含着金币，一个字也说不出来。他只好一次又一次地鞠躬，还拼命用手比画，想让这两个蒙面家伙明白，他只是个穷木偶，口袋里连一枚假镍币都没有。那两个人裹得严严实实，只有眼睛从袋子的窟窿里露出来。
+        - id: ch02-b02
+          speaker: masked_assassins
+          text: 行啦，少耍花样！快把钱拿出来！
+          emotion: angry
+        - id: ch02-b03
+          speaker: narrator
+          text: 匹诺曹摊开双手，又比了个手势，告诉他们自己没钱。
+        - id: ch02-b04
+          speaker: tall_assassin
+          text: 交出钱来，不然你就没命了。
+          emotion: angry
+        - id: ch02-b05
+          speaker: short_assassin
+          text: 对，没命！
+          emotion: angry
+        - id: ch02-b06
+          speaker: tall_assassin
+          text: 等杀了你，我们还要去杀你的爸爸！
+          emotion: angry
+        - id: ch02-b07
+          speaker: short_assassin
+          text: 连你爸爸也杀！
+          emotion: angry
+        - id: ch02-b08
+          speaker: pinocchio
+          text: 不，不，不！别杀我可怜的爸爸！
+          emotion: fearful
+        - id: ch02-b09
+          speaker: narrator
+          text: 匹诺曹绝望地喊了出来，金币立刻在他嘴里叮当作响。
+        - id: ch02-b10
+          speaker: tall_assassin
+          text: 好啊，你这个小坏蛋！原来把钱藏在舌头底下了。马上给我吐出来！
+          emotion: angry
+        - id: ch02-b11
+          speaker: narrator
+          text: 匹诺曹就是不肯。他死死闭着嘴，一声不出。
+        - id: ch02-b12
+          speaker: short_assassin
+          text: 还跟我们装聋？你等着，我们自有办法让你把钱交出来。
+          emotion: angry
+        - id: ch02-b13
+          speaker: narrator
+          text: 一个凶徒捏住匹诺曹的鼻尖，另一个托住他的下巴。一个往上扯，一个往下掰，非逼他张嘴不可。可他们怎么折腾都没用。匹诺曹的嘴像是先钉死了，又拿铆钉牢牢铆住，一点缝也没有。
+    - id: ch03
+      title: 猫爪与燃烧的松树
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 矮个子凶徒拔出一把吓人的刀，把刀尖塞到匹诺曹的两片嘴唇中间，想像用撬棍或凿子那样，把他的嘴硬撬开。匹诺曹快得像一道闪电，一口咬住那家伙的手，狠狠咬了下来，又呸地吐到地上。可地上躺着的并不是一只手，竟是一只猫爪！连匹诺曹自己都看呆了。
+        - id: ch03-b02
+          speaker: narrator
+          text: 这一仗赢了，匹诺曹胆子大起来。他又抓又挠，终于挣脱两个凶徒，跳过路边的树篱，飞也似的冲过田野。两个杀人凶徒在后面穷追不舍，就像两条猎狗追着一只野兔。那个掉了一只爪子的家伙，居然用一条腿照样奔跑。至于他是怎么跑的，谁也一直没有弄明白。
+        - id: ch03-b03
+          speaker: narrator
+          text: 跑了好几英里以后，匹诺曹实在跑不动了。他觉得自己这回准完了，便爬上一棵高高的松树，坐在最顶端的枝杈上。两个凶徒也往树上爬，可爬到一半就滑了下来，重重摔回地面，手掌和膝盖全磨破了皮。
+        - id: ch03-b04
+          speaker: narrator
+          text: 可这点小挫折吓不退他们。两个家伙捡来许多干柴，堆在松树下面，一把火点着了。转眼间，松树便呼呼燃烧起来。风吹着火苗来回摇晃，整棵树就像一支巨大的蜡烛。火焰越蹿越高，匹诺曹可不愿像烤鸽子一样丢掉性命。他从树顶猛地跳下，又穿过田野和葡萄园拼命逃跑。两个杀人凶徒还是跟在后面，一刻也不肯罢休。
+    - id: ch04
+      title: 咖啡色的水沟
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 天开始亮了，可追赶还没有停。忽然，一条又宽又深的沟挡住了匹诺曹。沟里全是死水，颜色就像咖啡。他该怎么办？
+        - id: ch04-b02
+          speaker: pinocchio
+          text: 一！二！三！
+        - id: ch04-b03
+          speaker: narrator
+          text: 匹诺曹助跑几步，一下跳到对岸。两个凶徒也跟着跳，可他们没看准距离。扑通！扑通！两个人正掉在沟中央。匹诺曹听见落水声，又听见哗啦啦的水响，一边笑，一边继续往前跑，还回头高声喊了一句。
+        - id: ch04-b04
+          speaker: pinocchio
+          text: 两位杀人凶徒先生，祝你们洗个痛快！
+          emotion: happy
+        - id: ch04-b05
+          speaker: narrator
+          text: 匹诺曹以为他们准淹死了。可他回头一看，那两个家伙非但没死，还裹着袋子在后面追呢。两个人浑身不停地滴水，活像两只漏水的空篮子。

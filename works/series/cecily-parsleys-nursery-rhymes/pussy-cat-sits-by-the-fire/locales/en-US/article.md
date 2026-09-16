@@ -1,0 +1,11 @@
+# Pussy-cat sits by the fire
+
+    How should she be fair?
+  In walks the little dog,
+    Says "Pussy! are you there?"
+
+  "How do you do, Mistress Pussy?
+    Mistress Pussy, how do you do?"
+  "I thank you kindly, little dog,
+    I fare as well as you!"
+

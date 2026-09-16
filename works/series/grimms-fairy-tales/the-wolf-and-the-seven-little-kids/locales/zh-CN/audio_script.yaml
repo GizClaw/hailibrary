@@ -1,0 +1,161 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 沉稳从容，带古老童话的讲述感
+        timbre: 温暖清亮
+        pace: 舒缓而有张力
+        pitch: 中音
+    mother_goat:
+      display_name: 山羊妈妈
+      tts:
+        delivery: 慈爱坚定，危急时果断
+        timbre: 柔和成熟
+        pace: 从容
+        pitch: 中高音
+    little_kids:
+      display_name: 小山羊们
+      tts:
+        delivery: 天真活泼，齐声说话时清楚有力
+        timbre: 稚嫩明亮
+        pace: 稍快
+        pitch: 高音
+    youngest_kid:
+      display_name: 最小的山羊
+      tts:
+        delivery: 年幼真诚，受惊时声音轻细
+        timbre: 细小清亮
+        pace: 稍慢
+        pitch: 高音
+    wolf:
+      display_name: 狼
+      tts:
+        delivery: 狡猾凶狠，伪装时故作温柔
+        timbre: 粗沉沙哑
+        pace: 中等
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 妈妈出门了
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，一只老山羊养着七个孩子。她把他们个个都当宝贝一样疼爱，就像所有母亲疼自己的孩子一样。一天，她要去森林里找吃的，临走前，把七只小山羊都叫到跟前。
+        - id: ch01-b02
+          speaker: mother_goat
+          text: 孩子们，我得去森林一趟。你们千万提防狼，别让他进屋。他会把你们连皮带毛全吞掉。那个恶棍常常变着样子骗人，可他嗓音粗哑，脚又乌黑，你们凭这两样就能认出他。
+        - id: ch01-b03
+          speaker: little_kids
+          text: 妈妈，我们会照顾好自己。您安心去吧，不用挂念我们。
+        - id: ch01-b04
+          speaker: narrator
+          text: 老山羊咩咩叫了两声，放下心来，动身去了森林。
+    - id: ch02
+      title: 狼的两次伪装
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 没多久，屋门响了。有人站在外面敲门。
+        - id: ch02-b02
+          speaker: wolf
+          text: 亲爱的孩子们，快开门！妈妈回来了，还给你们每个人都带了东西。
+        - id: ch02-b03
+          speaker: narrator
+          text: 小山羊们听见那粗哑的声音，立刻认出了狼。
+        - id: ch02-b04
+          speaker: little_kids
+          text: 我们才不开门！你不是妈妈。妈妈说话又柔和又好听，你的嗓子这么粗，你就是狼！
+        - id: ch02-b05
+          speaker: narrator
+          text: 狼只好走开。他来到一家店铺，买了一大块白垩，吞进肚里，把粗嗓子弄得柔和起来。随后，他回到小山羊家，再一次敲响屋门。
+        - id: ch02-b06
+          speaker: wolf
+          text: 孩子们，开开门！妈妈给你们每个孩子都带了东西回来。
+        - id: ch02-b07
+          speaker: narrator
+          text: 可他把黑爪子搭在窗上，孩子们看得清清楚楚。
+        - id: ch02-b08
+          speaker: little_kids
+          text: 不开，不开！妈妈的脚不是黑的。你就是狼！
+        - id: ch02-b09
+          speaker: narrator
+          text: 狼跑去找面包师，谎称自己的脚受了伤，让面包师在上面抹一层面团。面包师照做以后，他又跑去找磨坊主，要磨坊主往他的脚上撒白面粉。磨坊主心想，这头狼准是要骗什么人，于是不肯帮忙。
+        - id: ch02-b10
+          speaker: wolf
+          text: 你要是不照办，我就吃了你！
+          emotion: angry
+        - id: ch02-b11
+          speaker: narrator
+          text: 磨坊主害怕了，只好把狼的爪子弄白。人嘛，说到底就是这样。
+    - id: ch03
+      title: 狼进了屋
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 这一次，狼第三次来到门外。他敲了敲门。
+        - id: ch03-b02
+          speaker: wolf
+          text: 孩子们，给我开门。你们亲爱的妈妈回来了，还从森林给大家带了东西。
+        - id: ch03-b03
+          speaker: little_kids
+          text: 先把爪子伸给我们看。我们得知道你到底是不是妈妈。
+        - id: ch03-b04
+          speaker: narrator
+          text: 狼从窗户伸进雪白的爪子。小山羊们看见以后，以为他刚才说的全是真话，便打开屋门。可进来的哪里是妈妈，分明是狼！孩子们吓得四处躲藏。第一只钻到桌子底下，第二只藏进床里，第三只躲进炉子，第四只奔进厨房，第五只藏进碗橱，第六只钻到洗脸盆下面，老幺则躲进了钟柜。
+        - id: ch03-b05
+          speaker: narrator
+          text: 狼一个接一个地把他们找了出来，毫不客气地吞下肚去。只有钟柜里的老幺逃过一劫。狼吃饱以后出了门，走到屋外的绿草地上，躺在一棵树下睡着了。
+        - id: ch03-b06
+          speaker: narrator
+          text: 不久，老山羊从森林回来。啊，她看见了怎样一番景象！门敞着，桌子、椅子和长凳倒了一地，洗脸盆摔成了碎片，被子、枕头也全从床上扯了下来。她找遍屋子，哪里都没有孩子的踪影。她挨个呼唤孩子的名字，却始终没有回答。直到叫出老幺的名字，钟柜里才传来细细的声音。
+        - id: ch03-b07
+          speaker: youngest_kid
+          text: 妈妈，我在钟柜里。
+          emotion: fearful
+        - id: ch03-b08
+          speaker: narrator
+          text: 妈妈把老幺抱出来。孩子告诉她，狼闯进屋，把另外六只小山羊全吃了。你可以想见，老山羊为可怜的孩子们哭得有多伤心。
+    - id: ch04
+      title: 六只小山羊回来了
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 哭过以后，老山羊悲伤地走出屋，老幺跟着她。来到草地上，他们看见狼躺在树旁，鼾声震得树枝直颤。老山羊绕着他看了一圈，发现他鼓鼓的肚子里，有什么东西正在动弹、挣扎。
+        - id: ch04-b02
+          speaker: mother_goat
+          text: 天哪，难道我那些可怜的孩子还活着吗？狼明明把他们吞下去当了晚饭呀！
+          emotion: surprised
+        - id: ch04-b03
+          speaker: narrator
+          text: 老幺赶忙跑回家，拿来剪刀、针和线。老山羊开始剪开怪物的肚皮。她才剪下一刀，一只小山羊就探出了头。等她继续往下剪，六个孩子一个接一个跳了出来。他们全都活着，身上一点伤也没有。原来，这怪物实在太贪心，竟把他们一个个整个吞了下去。
+        - id: ch04-b04
+          speaker: narrator
+          text: 小山羊们欢喜极了。他们抱住妈妈，蹦跳得就像参加婚礼的水手。
+        - id: ch04-b05
+          speaker: mother_goat
+          text: 快去找些大石头。趁这个坏东西还在睡，我们把石头塞进他的肚子。
+        - id: ch04-b06
+          speaker: narrator
+          text: 七只小山羊飞快地拖来石头，能放多少就放多少。妈妈赶紧缝好狼的肚皮。狼毫无察觉，连动也没动一下。
+    - id: ch05
+      title: 井边的结局
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 狼终于睡足，站起身来。肚里的石头让他渴得厉害，他便往井边走，想去喝水。可他每走一步，石头就在肚子里互相碰撞，咔啦咔啦直响。
+        - id: ch05-b02
+          speaker: wolf
+          text: 什么东西滚来撞去，撞得我骨头咚咚响？我还以为是六只小羊，原来是石头装满了肚肠。
+          emotion: surprised
+        - id: ch05-b03
+          speaker: narrator
+          text: 狼走到井旁，俯身凑近水面，刚要喝水，沉重的石头便把他坠进井里。他再也爬不上来，悲惨地淹死了。七只小山羊看见以后，全跑到了井边。
+        - id: ch05-b04
+          speaker: little_kids
+          text: 狼死啦！狼死啦！
+          emotion: happy
+        - id: ch05-b05
+          speaker: narrator
+          text: 他们和妈妈一起围着水井，欢欢喜喜地跳起舞来。
