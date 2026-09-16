@@ -1,0 +1,159 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Black Beauty
+      tts:
+        delivery: reflective and gently expressive
+        timbre: warm and clear
+        pace: measured
+        pitch: medium-low
+    john:
+      display_name: John Manly
+      tts:
+        delivery: steady, good-humored, and deeply sincere
+        timbre: mature and grounded
+        pace: unhurried
+        pitch: medium-low
+    joe_green:
+      display_name: Joe Green
+      tts:
+        delivery: earnest, gentle, and quick when excited
+        timbre: youthful and clear
+        pace: conversational
+        pitch: medium-high
+    master:
+      display_name: Master
+      tts:
+        delivery: dignified, thoughtful, and quietly caring
+        timbre: mature and resonant
+        pace: measured
+        pitch: medium-low
+    mistress:
+      display_name: Mistress
+      tts:
+        delivery: gentle, gracious, and softly expressive
+        timbre: warm and delicate
+        pace: unhurried
+        pitch: medium
+    villager_1:
+      display_name: Villager One
+      tts:
+        delivery: sincere and subdued
+        timbre: mature and clear
+        pace: measured
+        pitch: medium
+    villager_2:
+      display_name: Villager Two
+      tts:
+        delivery: heartfelt and subdued
+        timbre: mature and warm
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Parting
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            I had spent three happy years in that place. Then sad changes began closing in around us. From time to time, we heard that our mistress was ill. The doctor came often, and the master looked worried and serious. At last, word came that she must leave home right away and spend two or three years in a warmer country.
+
+            The news struck the household like a deathbell. Everyone was sorry. The master immediately began making plans to close up the home and leave England. We heard the servants talking in the stable, and for a while, they could talk of nothing else.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            John worked in sorrowful silence, and Joe hardly whistled at all. People were constantly coming and going, so Ginger and I stayed very busy.
+
+            Miss Jessie and Flora were the first to leave, along with their governess. Before they went, they came to say goodbye. They hugged poor Merrylegs as they would an old friend, because that was exactly what he was.
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            Then we learned what the master had arranged for us. He had sold Ginger and me to his old friend, the Earl of W----. He believed we would be treated well there. He gave Merrylegs to the vicar, who needed a pony for Mrs. Blomefield. But the gift came with a condition. Merrylegs must never be sold. When he grew too old to work, he was to be shot and buried.
+
+            Joe had been hired to care for Merrylegs and help in the house, so I felt that our little friend would be all right. John had been offered several good positions, but he said he would wait awhile and see what else he might find.
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            On the evening before the family left, the master came into the stable. He had a few instructions to give, and he wanted to pat his horses one last time. His voice told me how low his spirits were. I believe horses hear more in a person's voice than many people ever notice.
+        - id: ch01-b05
+          speaker: master
+          text: >-
+            Have you settled on what you'll do, John? I hear you haven't taken either of those positions.
+        - id: ch01-b06
+          speaker: john
+          text: >-
+            No, sir. I've decided I'd like to work for a first-rate man who breaks and trains colts. Too many young horses are frightened and ruined because they're handled the wrong way. That doesn't have to happen when the right person works with them. Horses and I have always gotten along well. If I could give some of those young ones a fair start, I'd feel I was doing something worthwhile. What do you think, sir?
+        - id: ch01-b07
+          speaker: master
+          text: >-
+            I can't think of anyone better suited to that work. You understand horses, and somehow, they understand you. In time, you may even start a business of your own. I believe this is the best choice you could make. If I can help you in any way, write to me. I'll speak with my agent in London and leave him a recommendation for you.
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            The master gave John the agent's name and address. Then he thanked him for all his years of loyal service. That was more than John could bear.
+        - id: ch01-b09
+          speaker: john
+          text: >-
+            Please don't thank me, sir. I can't bear it. You and my dear mistress have done more for me than I could ever repay. We'll never forget either of you. And God willing, someday we'll see the mistress come home healthy and herself again. We have to keep hoping, sir.
+          emotion: sad
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            The master held out his hand to John, but he could not speak. Then the two of them left the stable.
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            At last, the sad final day arrived. The footman and the heavy luggage had gone ahead the day before. Only the master, the mistress, and her maid remained. For the last time, Ginger and I pulled the carriage up to the front door.
+
+            The servants carried out cushions, rugs, and many other things. Once everything was ready, the master came down the steps with the mistress in his arms. I stood on the side nearest the house, so I saw it all. He carefully placed her in the carriage while the household servants gathered around in tears.
+        - id: ch01-b12
+          speaker: master
+          text: >-
+            Goodbye once more. We won't forget any of you.
+          emotion: sad
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            The master climbed in.
+        - id: ch01-b14
+          speaker: master
+          text: >-
+            Drive on, John.
+        - id: ch01-b15
+          speaker: narrator
+          text: >-
+            Joe jumped up, and we moved slowly through the park and then through the village. People stood in their doorways for one last look.
+        - id: ch01-b16
+          speakers: [villager_1, villager_2]
+          ensemble: duo
+          text: >-
+            God bless them.
+          emotion: sad
+        - id: ch01-b17
+          speaker: narrator
+          text: >-
+            At the railway station, I believe the mistress walked from the carriage into the waiting room. Then I heard her sweet voice.
+        - id: ch01-b18
+          speaker: mistress
+          text: >-
+            Goodbye, John. God bless you.
+        - id: ch01-b19
+          speaker: narrator
+          text: >-
+            I felt a small twitch on the rein, but John said nothing. Perhaps he was unable to speak. After Joe took the things from the carriage, John asked him to stay beside us while he went onto the platform. Poor Joe stood close to our heads so no one would see his tears.
+
+            Before long, the train came puffing into the station. Two or three minutes passed. The doors slammed, the guard blew his whistle, and the train slipped away. All it left behind was a cloud of white smoke and some very heavy hearts.
+        - id: ch01-b20
+          speaker: narrator
+          text: >-
+            When the train had completely disappeared, John came back.
+        - id: ch01-b21
+          speaker: john
+          text: >-
+            We'll never see her again. Never.
+          emotion: sad
+        - id: ch01-b22
+          speaker: narrator
+          text: >-
+            John took the reins and climbed onto the driver's seat. With Joe beside him, he drove us slowly back. But it wasn't our home anymore.

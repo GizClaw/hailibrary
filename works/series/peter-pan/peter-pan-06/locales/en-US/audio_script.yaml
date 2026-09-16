@@ -1,0 +1,664 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant, and gently playful
+        timbre: clear and story-rich
+        pace: measured
+        pitch: medium
+    peter:
+      display_name: Peter Pan
+      tts:
+        delivery: daring, playful, and proudly matter-of-fact
+        timbre: bright and boyish
+        pace: lively
+        pitch: high
+    wendy:
+      display_name: Wendy
+      tts:
+        delivery: thoughtful, practical, and naturally confident
+        timbre: bright and youthful
+        pace: easy
+        pitch: high
+    john:
+      display_name: John
+      tts:
+        delivery: proper, lively, and eager to sound grown-up
+        timbre: clear and boyish
+        pace: brisk
+        pitch: high
+    michael:
+      display_name: Michael
+      tts:
+        delivery: young, direct, and openly emotional
+        timbre: soft and childlike
+        pace: quick
+        pitch: high
+    tootles:
+      display_name: Tootles
+      tts:
+        delivery: gentle, earnest, and eager to help
+        timbre: soft and boyish
+        pace: easy
+        pitch: high
+    nibs:
+      display_name: Nibs
+      tts:
+        delivery: cheerful, openhearted, and adventurous
+        timbre: clear and boyish
+        pace: brisk
+        pitch: high
+    slightly:
+      display_name: Slightly
+      tts:
+        delivery: self-important, animated, and quick to boast
+        timbre: bright and boyish
+        pace: brisk
+        pitch: high
+    curly:
+      display_name: Curly
+      tts:
+        delivery: mischievous, impulsive, and good-natured
+        timbre: lively and boyish
+        pace: quick
+        pitch: high
+    twin_1:
+      display_name: First Twin
+      tts:
+        delivery: cautious, agreeable, and closely attentive
+        timbre: light and boyish
+        pace: easy
+        pitch: high
+    twin_2:
+      display_name: Second Twin
+      tts:
+        delivery: cautious, agreeable, and closely attentive
+        timbre: light and boyish
+        pace: easy
+        pitch: high
+    tinker_bell:
+      display_name: Tinker Bell
+      tts:
+        delivery: tiny, fierce, and fiercely jealous
+        timbre: bright and bell-like
+        pace: very quick
+        pitch: very high
+  chapters:
+    - id: ch01
+      title: The Terrible Mistake
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Foolish Tootles stood over Wendy like a victorious hunter when the other boys burst from their trees, weapons in hand.
+        - id: ch01-b02
+          speaker: tootles
+          text: "You're too late! I shot the Wendy. Peter will be so proud of me."
+        - id: ch01-b03
+          speaker: tinker_bell
+          text: "You silly ass!"
+          emotion: angry
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            Tinker Bell streaked away to hide. No one else heard her. The boys crowded around Wendy, and a dreadful silence settled over the woods. If her heart had made even one beat, they would all have heard it.
+        - id: ch01-b05
+          speaker: slightly
+          text: "That isn't a bird. I'm scared it's really a lady."
+          emotion: fearful
+        - id: ch01-b06
+          speaker: tootles
+          text: "A lady?"
+          emotion: fearful
+        - id: ch01-b07
+          speaker: narrator
+          text: Tootles began to tremble.
+        - id: ch01-b08
+          speaker: nibs
+          text: "And we've killed her."
+          emotion: sad
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            Every boy pulled off his cap.
+        - id: ch01-b10
+          speaker: curly
+          text: "Now I understand. Peter was bringing her here for us."
+          emotion: sad
+        - id: ch01-b11
+          speaker: narrator
+          text: Curly dropped sorrowfully to the ground.
+        - id: ch01-b12
+          speaker: twin_1
+          text: "At last we were going to have a lady take care of us, and you killed her!"
+          emotion: angry
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            They felt sorry for Tootles, but they felt even sorrier for themselves. When he stepped toward them, they turned away. His face had gone white. Yet for the first time, he carried himself with dignity.
+        - id: ch01-b14
+          speaker: tootles
+          text: >-
+            I did it. Ladies used to visit me in dreams, and I would call, "Pretty mother, pretty mother." Then a real one finally came, and I shot her.
+          emotion: sad
+        - id: ch01-b15
+          speaker: narrator
+          text: He slowly started away.
+        - id: ch01-b16
+          speakers: [nibs, slightly, curly, twin_1]
+          ensemble: chorus
+          text: "Please don't go!"
+          emotion: sad
+        - id: ch01-b17
+          speaker: tootles
+          text: "I have to. I'm so afraid of Peter."
+          emotion: fearful
+        - id: ch01-b18
+          speaker: narrator
+          text: >-
+            At that tragic moment, a sound sent every boy's heart into his throat. Peter crowed. That was always how he announced his return.
+        - id: ch01-b19
+          speakers: [nibs, slightly, curly, twin_1]
+          ensemble: chorus
+          text: "Peter!"
+          emotion: fearful
+        - id: ch01-b20
+          speakers: [nibs, slightly]
+          ensemble: duo
+          text: "Hide her!"
+          emotion: fearful
+        - id: ch01-b21
+          speaker: narrator
+          text: >-
+            They hurried around Wendy, but Tootles stayed apart. Peter crowed once more, loud and clear, then dropped in front of them.
+        - id: ch01-b22
+          speaker: peter
+          text: "Hello, boys!"
+        - id: ch01-b23
+          speaker: narrator
+          text: >-
+            They saluted without thinking. Then the silence returned, and Peter frowned.
+        - id: ch01-b24
+          speaker: peter
+          text: "I'm back! Why aren't you cheering?"
+          emotion: angry
+        - id: ch01-b25
+          speaker: narrator
+          text: >-
+            Their mouths opened, but no cheer came. Peter was in too much of a hurry to notice for long.
+        - id: ch01-b26
+          speaker: peter
+          text: "I have wonderful news. I've finally brought you all a mother!"
+          emotion: happy
+        - id: ch01-b27
+          speaker: narrator
+          text: >-
+            Still no one spoke. Tootles fell to his knees with a soft thump.
+        - id: ch01-b28
+          speaker: peter
+          text: "Haven't you seen her? She flew this way."
+        - id: ch01-b29
+          speaker: twin_1
+          text: "Oh, what misery."
+          emotion: sad
+        - id: ch01-b30
+          speaker: twin_2
+          text: "What a terrible day."
+          emotion: sad
+        - id: ch01-b31
+          speaker: tootles
+          text: "Peter, I'll show you where she is."
+        - id: ch01-b32
+          speaker: narrator
+          text: >-
+            The others still tried to keep Wendy hidden.
+        - id: ch01-b33
+          speaker: tootles
+          text: "Move back, twins. Peter has to see."
+        - id: ch01-b34
+          speaker: narrator
+          text: >-
+            They stepped aside. Peter stared at Wendy for a while, with no idea what he ought to do.
+        - id: ch01-b35
+          speaker: peter
+          text: "She's dead. Maybe being dead frightened her."
+    - id: ch02
+      title: The Kiss That Saved Wendy
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            Peter thought he might hop away in a funny fashion until Wendy was out of sight, then never return to that spot. Every boy would gladly have followed him. But then he saw the arrow. He pulled it from Wendy's heart and turned on his band.
+        - id: ch02-b02
+          speaker: peter
+          text: "Who fired this arrow?"
+          emotion: angry
+        - id: ch02-b03
+          speaker: tootles
+          text: "I did, Peter."
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            Tootles stayed on his knees. Peter called the deed cowardly and lifted the arrow like a dagger. Tootles never moved away. He uncovered his chest.
+        - id: ch02-b05
+          speaker: tootles
+          text: "Do it, Peter. Make sure you strike true."
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            Twice Peter raised the arrow. Twice his hand dropped.
+        - id: ch02-b07
+          speaker: peter
+          text: "I can't do it. Something is holding my hand back."
+          emotion: surprised
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            Everyone stared at him in wonder except Nibs, who happened to be watching Wendy.
+        - id: ch02-b09
+          speaker: nibs
+          text: "It's Wendy! Look at her arm!"
+          emotion: surprised
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            Wonderfully, Wendy had lifted one arm. Nibs bent close and listened as if he were in church.
+        - id: ch02-b11
+          speaker: nibs
+          text: "I think she said, 'Poor Tootles.'"
+        - id: ch02-b12
+          speaker: peter
+          text: "She's alive."
+        - id: ch02-b13
+          speaker: slightly
+          text: "The Wendy lady is alive!"
+          emotion: happy
+        - id: ch02-b14
+          speaker: narrator
+          text: >-
+            Peter knelt beside her and found his button. You may remember that Wendy had hung it from a chain around her neck.
+        - id: ch02-b15
+          speaker: peter
+          text: "Look! The arrow hit this instead. It's the kiss I gave her, and it saved her life."
+          emotion: happy
+        - id: ch02-b16
+          speaker: slightly
+          text: "I know all about kisses. Let me look. Yes, that's definitely one."
+        - id: ch02-b17
+          speaker: narrator
+          text: >-
+            Peter paid no attention. He begged Wendy to recover quickly so he could show her the mermaids. She was still in a terrible faint and could not answer. Then a wail floated down from above.
+        - id: ch02-b18
+          speaker: curly
+          text: "Hear Tink crying? She's upset because Wendy is alive."
+        - id: ch02-b19
+          speaker: narrator
+          text: >-
+            The boys had to tell Peter what Tinker Bell had done. They had almost never seen him look so stern.
+        - id: ch02-b20
+          speaker: peter
+          text: "Listen to me, Tinker Bell. We're not friends anymore. Go away forever!"
+          emotion: angry
+        - id: ch02-b21
+          speaker: narrator
+          text: >-
+            Tinker Bell flew to his shoulder and pleaded with him, but he brushed her away. Only when Wendy raised her arm once more did Peter soften a little.
+        - id: ch02-b22
+          speaker: peter
+          text: "All right, not forever. But you must stay away for a whole week."
+        - id: ch02-b23
+          speaker: narrator
+          text: >-
+            Was Tinker Bell grateful to Wendy for saving her? Oh, no. She had never wanted to pinch Wendy more. Fairies are strange creatures. Peter understood them better than anyone, and even he often cuffed them.
+    - id: ch03
+      title: A House Around Her
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            But what could they do for Wendy while she was so weak?
+        - id: ch03-b02
+          speaker: curly
+          text: "We could carry her down into our house."
+        - id: ch03-b03
+          speaker: slightly
+          text: "Yes. That's the proper thing to do with a lady."
+        - id: ch03-b04
+          speaker: peter
+          text: "No! Nobody touches her. That wouldn't be respectful enough."
+        - id: ch03-b05
+          speaker: slightly
+          text: "Exactly what I was thinking."
+        - id: ch03-b06
+          speaker: tootles
+          text: "But she'll die if we leave her here."
+          emotion: fearful
+        - id: ch03-b07
+          speaker: slightly
+          text: "Yes, she will. There isn't anything we can do."
+          emotion: sad
+        - id: ch03-b08
+          speaker: peter
+          text: "There is! We'll build a little house all around her."
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            The idea delighted them.
+        - id: ch03-b10
+          speaker: peter
+          text: "Quick, bring me the best things we own. Empty out our house. Hurry!"
+        - id: ch03-b11
+          speaker: narrator
+          text: >-
+            At once they became as busy as tailors the night before a wedding. They rushed down for bedding and up for firewood. While they worked, John and Michael arrived, dragging their feet along the ground. They fell asleep standing, woke up, took one more step, and fell asleep again.
+        - id: ch03-b12
+          speaker: michael
+          text: "John, wake up! Where are Nana and Mother?"
+        - id: ch03-b13
+          speaker: john
+          text: "So it really happened. We did fly."
+        - id: ch03-b14
+          speaker: narrator
+          text: >-
+            They were greatly relieved when they found Peter.
+        - id: ch03-b15
+          speakers: [john, michael]
+          ensemble: duo
+          text: "Hello, Peter."
+        - id: ch03-b16
+          speaker: peter
+          text: "Hello."
+        - id: ch03-b17
+          speaker: narrator
+          text: >-
+            Peter answered pleasantly, though he had forgotten who they were. He was measuring Wendy with his feet to find out how large the house should be. Naturally, he planned to leave space for chairs and a table. The brothers watched him.
+        - id: ch03-b18
+          speakers: [john, michael]
+          ensemble: duo
+          text: "Is Wendy sleeping?"
+        - id: ch03-b19
+          speaker: peter
+          text: "Yes."
+        - id: ch03-b20
+          speaker: michael
+          text: "John, let's wake her up and ask her to make our supper."
+        - id: ch03-b21
+          speaker: narrator
+          text: >-
+            Just then, several boys ran past carrying branches.
+        - id: ch03-b22
+          speaker: michael
+          text: "Look at them!"
+          emotion: surprised
+        - id: ch03-b23
+          speaker: peter
+          text: "Curly, put these two to work building the house."
+        - id: ch03-b24
+          speaker: curly
+          text: "Yes, Captain!"
+        - id: ch03-b25
+          speaker: john
+          text: "We're building a house?"
+          emotion: surprised
+        - id: ch03-b26
+          speaker: curly
+          text: "It's for the Wendy."
+        - id: ch03-b27
+          speaker: john
+          text: "For Wendy? But she's only a girl!"
+          emotion: surprised
+        - id: ch03-b28
+          speaker: curly
+          text: "That's why we're her servants."
+        - id: ch03-b29
+          speaker: john
+          text: "You are Wendy's servants?"
+          emotion: surprised
+        - id: ch03-b30
+          speaker: peter
+          text: "Yes, and you are too. Take them away."
+        - id: ch03-b31
+          speaker: narrator
+          text: >-
+            The astonished brothers were hauled off to cut, chop, and carry.
+        - id: ch03-b32
+          speaker: peter
+          text: "Bring chairs and a fireplace guard first. Then we'll put the house around them."
+        - id: ch03-b33
+          speaker: slightly
+          text: "Of course. Now I remember. That's how houses are built."
+    - id: ch04
+      title: Doctor Slightly
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Peter had thought of everything.
+        - id: ch04-b02
+          speaker: peter
+          text: "Slightly, go find a doctor."
+        - id: ch04-b03
+          speaker: slightly
+          text: "Right away!"
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            Slightly disappeared, scratching his head. Peter had to be obeyed, so a moment later Slightly returned in John's hat with a very serious look.
+        - id: ch04-b05
+          speaker: peter
+          text: "Excuse me, sir. Are you a doctor?"
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            At times like this, the other boys knew they were pretending. Peter did not. To him, make-believe and truth were exactly the same. This could be troublesome, especially when the boys had to pretend they had eaten dinner. If their pretending failed, Peter rapped their knuckles. Slightly's knuckles were sore, so he answered anxiously.
+        - id: ch04-b07
+          speaker: slightly
+          text: "Yes, young man, I am."
+        - id: ch04-b08
+          speaker: peter
+          text: "Doctor, there's a lady who is terribly ill."
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            Wendy lay right at their feet, but Slightly wisely pretended not to see her.
+        - id: ch04-b10
+          speaker: slightly
+          text: "Tut, tut, tut. And where is this lady?"
+        - id: ch04-b11
+          speaker: peter
+          text: "Over there in the clearing."
+        - id: ch04-b12
+          speaker: slightly
+          text: "I'll place a glass thing in her mouth."
+        - id: ch04-b13
+          speaker: narrator
+          text: >-
+            He pretended to do it. Peter waited nervously while the doctor pulled the imaginary glass thing out again.
+        - id: ch04-b14
+          speaker: peter
+          text: "How is she?"
+        - id: ch04-b15
+          speaker: slightly
+          text: "Tut, tut, tut. That cured her."
+        - id: ch04-b16
+          speaker: peter
+          text: "I'm so glad!"
+          emotion: happy
+        - id: ch04-b17
+          speaker: slightly
+          text: "I'll return this evening. Give her beef tea from a cup with a spout."
+        - id: ch04-b18
+          speaker: narrator
+          text: >-
+            Slightly gave John his hat back, then blew several enormous breaths. He always did that after escaping a difficult situation.
+
+            Meanwhile, axes had filled the woods with noise. Almost everything needed for a cozy home now lay beside Wendy.
+        - id: ch04-b19
+          speaker: twin_1
+          text: "If we only knew what kind of house she likes."
+        - id: ch04-b20
+          speaker: twin_2
+          text: "Peter, she's moving in her sleep!"
+          emotion: surprised
+        - id: ch04-b21
+          speaker: curly
+          text: "Her mouth is opening. Oh, how lovely!"
+          emotion: happy
+        - id: ch04-b22
+          speaker: peter
+          text: "Maybe she'll sing while she sleeps. Wendy, sing about the house you want."
+        - id: ch04-b23
+          speaker: narrator
+          text: Without opening her eyes, Wendy began to sing.
+        - id: ch04-b24
+          speaker: wendy
+          text: >-
+            I wish I had a pretty house,
+            The littlest ever seen,
+            With funny little red walls
+            And roof of mossy green.
+        - id: ch04-b25
+          speaker: narrator
+          text: >-
+            The boys gurgled with delight. By wonderful luck, their branches oozed red sap, and moss covered the ground. As they knocked the little house together, they sang back to her.
+        - id: ch04-b26
+          speakers: [tootles, nibs, slightly, curly]
+          ensemble: chorus
+          text: >-
+            We've built the little walls and roof
+            And made a lovely door,
+            So tell us, mother Wendy,
+            What are you wanting more?
+        - id: ch04-b27
+          speaker: narrator
+          text: Wendy answered rather greedily.
+        - id: ch04-b28
+          speaker: wendy
+          text: >-
+            Oh, really next I think I'll have
+            Gay windows all about,
+            With roses peeping in, you know,
+            And babies peeping out.
+        - id: ch04-b29
+          speaker: narrator
+          text: >-
+            The boys punched openings for windows and hung large yellow leaves as blinds. But what about the roses?
+        - id: ch04-b30
+          speaker: peter
+          text: "Roses!"
+        - id: ch04-b31
+          speaker: narrator
+          text: >-
+            Quickly they pretended the loveliest roses were growing up the walls. Then there were the babies. Before Peter could order them to produce some, the boys rushed into another song.
+        - id: ch04-b32
+          speakers: [tootles, nibs, slightly, curly]
+          ensemble: chorus
+          text: >-
+            We've made the roses peeping out,
+            The babes are at the door,
+            We cannot make ourselves, you know,
+            'Cause we've been made before.
+        - id: ch04-b33
+          speaker: narrator
+          text: >-
+            Peter saw at once that this was a good idea, so he pretended it had been his. The house looked beautiful. Wendy must have been very cozy inside, though no one could see her now. Peter marched back and forth, ordering each finishing touch. His sharp eyes missed nothing. Just when the house seemed completely done, he stopped.
+        - id: ch04-b34
+          speaker: peter
+          text: "The door doesn't have a knocker."
+        - id: ch04-b35
+          speaker: narrator
+          text: >-
+            The boys were ashamed. Tootles offered the sole of his shoe, and it made a splendid knocker. Surely the house was finished now.
+        - id: ch04-b36
+          speaker: narrator
+          text: It was not.
+        - id: ch04-b37
+          speaker: peter
+          text: "There's no chimney. A house has to have a chimney."
+        - id: ch04-b38
+          speaker: john
+          text: "It certainly does."
+        - id: ch04-b39
+          speaker: narrator
+          text: >-
+            That gave Peter an idea. He snatched John's hat, knocked out the bottom, and set it on the roof. The little house was so pleased with its excellent chimney that smoke came out at once, as if the house were saying thank you.
+    - id: ch05
+      title: Mother Wendy
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            Now the house truly was finished. There was nothing left to do but knock.
+        - id: ch05-b02
+          speaker: peter
+          text: "Everyone look your best. First impressions matter terribly."
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            Peter was relieved that no one asked what first impressions were. They were all too busy looking their best. He knocked politely. The children and the woods went perfectly still. Only Tinker Bell made a sound as she sat on a branch, openly sneering.
+
+            The boys wondered whether anyone would answer. And if a lady came to the door, what would she be like?
+
+            The door opened. A lady stepped out. It was Wendy. Every boy swept off his hat. She looked properly surprised, exactly as they had hoped.
+        - id: ch05-b04
+          speaker: wendy
+          text: "Where am I?"
+          emotion: surprised
+        - id: ch05-b05
+          speaker: slightly
+          text: "Wendy lady, we built this house especially for you."
+        - id: ch05-b06
+          speaker: nibs
+          text: "Please tell us you like it!"
+        - id: ch05-b07
+          speaker: wendy
+          text: "What a lovely little house, darlings."
+          emotion: happy
+        - id: ch05-b08
+          speaker: narrator
+          text: Those were the very words the boys had wanted to hear.
+        - id: ch05-b09
+          speakers: [twin_1, twin_2]
+          ensemble: duo
+          text: "And we're your children!"
+          emotion: happy
+        - id: ch05-b10
+          speaker: narrator
+          text: >-
+            They all knelt and reached their arms toward her.
+        - id: ch05-b11
+          speakers: [tootles, nibs, slightly, curly]
+          ensemble: chorus
+          text: "Oh, Wendy lady, will you be our mother?"
+        - id: ch05-b12
+          speaker: wendy
+          text: >-
+            Should I? It sounds wonderfully exciting, but I'm only a little girl. I don't have any real experience.
+        - id: ch05-b13
+          speaker: peter
+          text: "That doesn't matter. We just need someone who's kind and motherly."
+        - id: ch05-b14
+          speaker: narrator
+          text: >-
+            Peter spoke as though he knew more than anyone there, though in truth he knew the least.
+        - id: ch05-b15
+          speaker: wendy
+          text: "Oh, dear. I do believe that's exactly the sort of person I am."
+        - id: ch05-b16
+          speakers: [tootles, nibs, slightly, curly]
+          ensemble: chorus
+          text: "You are! We knew it right away!"
+          emotion: happy
+        - id: ch05-b17
+          speaker: wendy
+          text: >-
+            Very well, I'll try my best. Come inside this minute, you naughty children. Your feet must be damp. There's just enough time before bed for me to finish the story of Cinderella.
+        - id: ch05-b18
+          speaker: narrator
+          text: >-
+            They all went in. I cannot explain how they fit, but in the Neverland you can squeeze yourself very small. That was the first of many happy evenings with Wendy.
+
+            Later, she tucked them into the great bed beneath the trees. Wendy spent that night inside her little house while Peter stood guard outside with his sword drawn. Far away, the pirates could be heard celebrating, and wolves prowled through the dark.
+
+            The little house looked warm and safe. Light shone through its leafy blinds, smoke curled beautifully from the chimney, and Peter kept watch by the door. After a while, he fell asleep. Some fairies returning unsteadily from a wild party had to climb over him. If any other boy had blocked their path at night, they would have played a cruel trick on him. But they only tweaked Peter's nose and went on their way.

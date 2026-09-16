@@ -1,0 +1,387 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖从容，带着童话讲述者的悬念感
+        timbre: 清澈柔和
+        pace: 舒缓而富于变化
+        pitch: 中音
+    dorothy:
+      display_name: 多萝茜
+      tts:
+        delivery: 真诚直接，遇到危险时仍显坚定
+        timbre: 清亮稚嫩
+        pace: 自然而轻快
+        pitch: 中高音
+    scarecrow:
+      display_name: 稻草人
+      tts:
+        delivery: 朴实机敏，思考时认真而坦率
+        timbre: 轻柔干爽
+        pace: 稍慢而清楚
+        pitch: 中高音
+    tin_woodman:
+      display_name: 铁皮樵夫
+      tts:
+        delivery: 温和善良，话语诚恳而略带忧郁
+        timbre: 清脆而温润
+        pace: 平稳
+        pitch: 中音
+    cowardly_lion:
+      display_name: 胆小的狮子
+      tts:
+        delivery: 浑厚坦率，威猛中总透出不安
+        timbre: 低沉宽厚
+        pace: 稍慢，紧张时加快
+        pitch: 低音
+    guardian:
+      display_name: 城门守卫
+      tts:
+        delivery: 守礼而健谈，惊讶时直率爽快
+        timbre: 明亮结实
+        pace: 中等
+        pitch: 中音
+    oz:
+      display_name: 奥兹
+      tts:
+        delivery: 起初故作威严，露馅后局促软弱又善于辩解
+        timbre: 略显苍老，声音灵活
+        pace: 中等，心虚时稍快
+        pitch: 中音
+  chapters:
+    - id: ch01
+      title: 第十五章　可怕的奥兹真相大白
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 四位旅人走到翡翠城高大的城门前，摇了好几遍门铃。门终于开了，站在里面的，还是他们上次见过的城门守卫。
+        - id: ch01-b02
+          speaker: guardian
+          text: 怎么回事？你们居然又回来了？
+          emotion: surprised
+        - id: ch01-b03
+          speaker: scarecrow
+          text: 我们不是好端端站在你眼前吗？
+        - id: ch01-b04
+          speaker: guardian
+          text: 可你们不是去找西方恶女巫了吗？
+        - id: ch01-b05
+          speaker: scarecrow
+          text: 对啊，我们已经见过她了。
+        - id: ch01-b06
+          speaker: guardian
+          text: 她还肯放你们回来？
+          emotion: surprised
+        - id: ch01-b07
+          speaker: scarecrow
+          text: 她想拦也拦不住了，因为她已经融化啦。
+        - id: ch01-b08
+          speaker: guardian
+          text: 融化了？这真是天大的好消息！是谁干的？
+          emotion: surprised
+        - id: ch01-b09
+          speaker: cowardly_lion
+          text: 是多萝茜。
+        - id: ch01-b10
+          speaker: guardian
+          text: 我的天哪！
+          emotion: surprised
+        - id: ch01-b11
+          speaker: narrator
+          text: 守卫赶紧向多萝茜深深鞠了一躬，又把大家领进自己的小屋。他打开那只大箱子，取出绿眼镜，像上次一样，给每个人牢牢扣在眼前，这才领他们穿过城门。城里人从守卫口中听说，多萝茜融化了西方恶女巫，全都围了过来。他们跟着四位旅人，汇成浩浩荡荡的一大群人，一路来到奥兹的宫殿。
+        - id: ch01-b12
+          speaker: narrator
+          text: 绿胡子士兵还守在宫门前。他一认出大家，马上放他们进去。美丽的绿衣姑娘也迎了上来，把四位旅人一个个送回从前住过的房间，让大家好好休息，等伟大的奥兹准备好以后再召见他们。
+        - id: ch01-b13
+          speaker: narrator
+          text: 士兵立刻派人禀报，说多萝茜和伙伴们消灭了恶女巫，已经回到宫里。奥兹却一声不回。大家本以为他会马上召见，可他们等了一天，又等一天，接着再等一天，始终没有半点消息。这种等待既无聊，又折磨人。奥兹叫他们去吃尽苦头，还害得他们做了奴隶，现在竟这样冷落他们。大家越等越气。最后，稻草人请绿衣姑娘再带一句话给奥兹。
+        - id: ch01-b14
+          speaker: scarecrow
+          text: 他要是还不马上见我们，我们就请飞猴来帮忙。到时候，倒要看看他究竟守不守信用。
+        - id: ch01-b15
+          speaker: narrator
+          text: 奥兹一听，吓坏了，连忙叫他们第二天上午九点过四分到王座厅。他以前在西方的国土上遇见过飞猴，可不想再碰上它们。
+        - id: ch01-b16
+          speaker: narrator
+          text: 那天夜里，四位旅人谁也睡不着。稻草人想着脑子，铁皮樵夫想着心，狮子想着勇气，多萝茜则盼着回到堪萨斯。他们心里装的，全是奥兹答应过的礼物。多萝茜只迷迷糊糊睡着过一次。梦里，她已经回到堪萨斯。爱姆婶婶正告诉她，自己的小姑娘终于到家，她心里有多么高兴。
+        - id: ch01-b17
+          speaker: narrator
+          text: 第二天九点整，绿胡子士兵准时来接他们。又过了四分钟，大家一起踏进伟大奥兹的王座厅。他们原以为会看见奥兹上次显出的某一种模样，谁知四下望去，厅里竟然一个人也没有。大家不敢往前走，只能紧贴着门，还彼此挨得紧紧的。空荡荡的厅堂一片死寂，甚至比奥兹从前那些可怕模样更吓人。
+        - id: ch01-b18
+          speaker: narrator
+          text: 过了一会儿，他们听见一个庄严的声音。那声音高高地飘下来，仿佛来自巨大穹顶的顶端附近。
+        - id: ch01-b19
+          speaker: oz
+          text: 我是伟大而可怕的奥兹。你们到这里来，有什么事？
+        - id: ch01-b20
+          speaker: narrator
+          text: 他们又找遍整个厅堂，还是看不到半个人影。
+        - id: ch01-b21
+          speaker: dorothy
+          text: 你到底在哪儿？
+        - id: ch01-b22
+          speaker: oz
+          text: 我到处都在，只是普通人的眼睛看不见我。现在我要坐到王座上，你们可以跟我说话了。
+        - id: ch01-b23
+          speaker: narrator
+          text: 这一次，声音果然像是从王座上传来。大家走过去，站成一排。多萝茜先开了口。
+        - id: ch01-b24
+          speaker: dorothy
+          text: 奥兹，我们来拿你答应给我们的东西。
+        - id: ch01-b25
+          speaker: oz
+          text: 我答应过什么？
+        - id: ch01-b26
+          speaker: dorothy
+          text: 你说过，只要恶女巫被消灭，就送我回堪萨斯。
+        - id: ch01-b27
+          speaker: scarecrow
+          text: 你说过要给我脑子。
+        - id: ch01-b28
+          speaker: tin_woodman
+          text: 还要给我一颗心。
+        - id: ch01-b29
+          speaker: cowardly_lion
+          text: 还有我的勇气。
+        - id: ch01-b30
+          speaker: oz
+          text: 那个恶女巫，真的已经完了吗？
+        - id: ch01-b31
+          speaker: narrator
+          text: 那声音虽然还在故作威严，多萝茜却听出来，它似乎微微发着抖。
+        - id: ch01-b32
+          speaker: dorothy
+          text: 真的。我拿一桶水把她融化了。
+        - id: ch01-b33
+          speaker: oz
+          text: 哎呀，这也太突然了。你们明天再来吧，我得想一想。
+          emotion: surprised
+        - id: ch01-b34
+          speaker: tin_woodman
+          text: 你已经想得够久了！
+          emotion: angry
+        - id: ch01-b35
+          speaker: scarecrow
+          text: 我们连一天也不会再等。
+        - id: ch01-b36
+          speaker: dorothy
+          text: 你非兑现承诺不可！
+          emotion: angry
+        - id: ch01-b37
+          speaker: narrator
+          text: 狮子想，或许该吓一吓魔法师。他张开大嘴，猛地发出一声又响又凶的咆哮。那吼声太可怕，连托托也吓得从他身边跳开，一下撞翻了墙角的屏风。屏风轰然倒地，大家转头一看，全都惊得说不出话。屏风刚才挡住的地方，竟站着一个秃头的小老头。他满脸皱纹，望着他们时，好像也吓了一大跳。铁皮樵夫立刻举起斧头，直冲到他面前。
+        - id: ch01-b38
+          speaker: tin_woodman
+          text: 你究竟是什么人？
+        - id: ch01-b39
+          speaker: oz
+          text: 我就是伟大而可怕的奥兹！可别砍我，求求你了！只要你们不动手，要我做什么都行。
+          emotion: fearful
+        - id: ch01-b40
+          speaker: narrator
+          text: 四位朋友望着这个发抖的小老头，既吃惊，又失望。
+        - id: ch01-b41
+          speaker: dorothy
+          text: 可我见到的奥兹，明明是一颗巨大的脑袋。
+        - id: ch01-b42
+          speaker: scarecrow
+          text: 我见到的是一位漂亮的女子。
+        - id: ch01-b43
+          speaker: tin_woodman
+          text: 我见到的分明是一头可怕的怪兽。
+        - id: ch01-b44
+          speaker: cowardly_lion
+          text: 我面前的奥兹，是个大火球！
+        - id: ch01-b45
+          speaker: oz
+          text: 你们看到的都不是真的。那些全是我假装的。
+        - id: ch01-b46
+          speaker: dorothy
+          text: 全是假装的？那你根本不是伟大的魔法师吗？
+          emotion: surprised
+        - id: ch01-b47
+          speaker: oz
+          text: 嘘，小声点！让别人听见，我可就完了。大家一直以为我是个伟大的魔法师。
+          emotion: fearful
+        - id: ch01-b48
+          speaker: dorothy
+          text: 可你到底是不是呢？
+        - id: ch01-b49
+          speaker: oz
+          text: 一点儿也不是。我就是个普通人。
+        - id: ch01-b50
+          speaker: scarecrow
+          text: 你可不普通。你是个大骗子。
+          emotion: sad
+        - id: ch01-b51
+          speaker: oz
+          text: 说得完全对！我就是个大骗子。
+        - id: ch01-b52
+          speaker: tin_woodman
+          text: 这下可糟了。我的心要去哪里找呢？
+        - id: ch01-b53
+          speaker: cowardly_lion
+          text: 那我还能得到勇气吗？
+        - id: ch01-b54
+          speaker: scarecrow
+          text: 我的脑子怎么办啊？
+          emotion: sad
+        - id: ch01-b55
+          speaker: narrator
+          text: 稻草人一边哀号，一边拿衣袖擦眼泪。
+        - id: ch01-b56
+          speaker: oz
+          text: 朋友们，别只想着这些小事。你们该替我想想。我的秘密被发现了，这才是天大的麻烦！
+        - id: ch01-b57
+          speaker: dorothy
+          text: 还有别人知道你是骗子吗？
+        - id: ch01-b58
+          speaker: oz
+          text: 除了你们四个和我，再也没人知道。我骗了所有人这么多年，一直以为自己永远不会露馅。让你们走进王座厅，真是我犯下的大错。平常就连自己的臣民，我也从不接见。正因为谁都见不到我，大家才相信我是个可怕的魔法师。
+        - id: ch01-b59
+          speaker: dorothy
+          text: 我还是想不通。那颗巨大的脑袋，你是怎么变出来的？
+        - id: ch01-b60
+          speaker: oz
+          text: 那只是个把戏。跟我来吧，我把秘密全都说给你们听。
+        - id: ch01-b61
+          speaker: narrator
+          text: 奥兹走在前面，把大家领进王座厅后面的一间小屋。所有人都跟了进去。他指着墙角，那颗巨头正躺在那里。原来，它是拿许多层纸一层层糊成的，脸孔画得十分细致。
+        - id: ch01-b62
+          speaker: oz
+          text: 我拿铁丝把它吊在天花板上，再躲到屏风后面拉细线。线一动，它的眼睛就会转，嘴巴也会张开。
+        - id: ch01-b63
+          speaker: dorothy
+          text: 可它说话的声音是从哪儿来的？
+        - id: ch01-b64
+          speaker: oz
+          text: 我会口技。我想让声音从哪里传来，它听上去就从哪里传来，所以你才以为是巨头在说话。再看看这些，它们也是我骗你们用的。
+        - id: ch01-b65
+          speaker: narrator
+          text: 奥兹又拿出一件裙子和一副面具。稻草人这才明白，上次那位美丽的女子，就是奥兹穿戴上这些东西扮成的。铁皮樵夫也看见了那头可怕的怪兽。它不过是许多张兽皮缝在一起，里面用木条撑开两侧。那个火球同样被奥兹吊在天花板上，其实只是个棉花球。往上面一浇油，它就会烧起猛烈的火焰。
+        - id: ch01-b66
+          speaker: scarecrow
+          text: 你骗人骗了这么久，真该觉得害臊。
+        - id: ch01-b67
+          speaker: oz
+          text: 我当然害臊，真的非常害臊。可那时候，我能做的只有这件事。大家坐下吧，这里有的是椅子。我从头说起，把自己的来历全都讲给你们听。
+          emotion: sad
+        - id: ch01-b68
+          speaker: narrator
+          text: 于是大家各自找了一把椅子坐好，静静听奥兹讲起下面这段往事。
+        - id: ch01-b69
+          speaker: oz
+          text: 我出生在奥马哈……
+        - id: ch01-b70
+          speaker: dorothy
+          text: 咦，奥马哈离堪萨斯不远呀！
+          emotion: surprised
+        - id: ch01-b71
+          speaker: oz
+          text: 是不太远，可它离这儿远得多。
+          emotion: sad
+        - id: ch01-b72
+          speaker: narrator
+          text: 小老头难过地摇了摇头，又说了下去。
+        - id: ch01-b73
+          speaker: oz
+          text: 我长大后当了口技艺人，还跟一位好师傅认真学过。无论什么鸟叫兽鸣，我都模仿得出来。
+        - id: ch01-b74
+          speaker: narrator
+          text: 说到这里，他忽然学起小猫叫，那声音实在太像了。托托一下竖起耳朵，朝四面八方看个不停，想找出那只小猫。
+        - id: ch01-b75
+          speaker: oz
+          text: 后来我厌倦了口技，就去做气球飞行员。
+        - id: ch01-b76
+          speaker: dorothy
+          text: 气球飞行员是做什么的？
+        - id: ch01-b77
+          speaker: oz
+          text: 马戏团演出的日子，我就坐气球飞上天，把人群引过来。人来了，自然会掏钱看马戏。
+        - id: ch01-b78
+          speaker: dorothy
+          text: 哦，这下我懂了。
+        - id: ch01-b79
+          speaker: oz
+          text: 有一天，我坐气球升空，绳索突然缠在一起，怎么也降不下去了。气球越升越高，一直飞到云层上面。就在那儿，一股气流撞上气球，把我带到很远很远的地方。我就这样在天上漂了一天一夜。第二天早晨醒来，低头一看，气球正在一片又陌生又美丽的国土上空。
+        - id: ch01-b80
+          speaker: oz
+          text: 气球一点一点降了下去，最后平安落地，我连一点伤也没受。可我发现，自己正落在一群陌生人中间。他们亲眼看见我从云里下来，就把我当成伟大的魔法师。我当然由着他们这样想。大家都怕我，还答应无论我提出什么要求，他们都会照办。
+        - id: ch01-b81
+          speaker: oz
+          text: 我想给自己找点乐子，也让这些善良的人有事可忙，就叫他们建造这座城市，还有我的宫殿。他们心甘情愿，样样都建得很好。我看这里青翠又美丽，便把城市叫作翡翠城。为了让名字更像真的，我又让所有人戴上绿眼镜。这样一来，他们看见的所有东西就都是绿色了。
+        - id: ch01-b82
+          speaker: dorothy
+          text: 难道城里的东西不是真的绿色吗？
+        - id: ch01-b83
+          speaker: oz
+          text: 它并不比别的城市更绿。可你戴着绿眼镜，看到的东西当然都是绿色。翡翠城是许多年前建的。气球把我送来时，我还年轻，如今已经是个老头了。臣民们戴绿眼镜戴了太久，大多数人真把这里当成了翡翠做的城市。当然，这地方确实很漂亮，到处都有珠宝和贵重金属，也有一切能叫人过得幸福的好东西。我一直善待大家，他们也喜欢我。可是宫殿一建成，我就把自己关了起来，从此再也不见任何人。
+        - id: ch01-b84
+          speaker: oz
+          text: 我最怕的就是女巫。我半点魔法也不会，可到了这里不久，我就发现她们真有神奇的本领。这个国家共有四位女巫，分别统治住在东南西北四方的人民。北方和南方的女巫很善良，我知道她们不会害我。可东方和西方的女巫邪恶极了。要不是她们以为我的法力比她们更强，早就把我消灭了。就算这样，我还是一连怕了她们许多年。
+        - id: ch01-b85
+          speaker: oz
+          text: 所以，听说你的房子压死了东方恶女巫，我不知道有多高兴。你来求我时，只要你肯除掉另一个女巫，我什么都愿意答应。现在你真的把她融化了，我却没本事兑现承诺。说出来实在丢脸。
+          emotion: sad
+        - id: ch01-b86
+          speaker: dorothy
+          text: 我觉得，你是个很坏的人。
+        - id: ch01-b87
+          speaker: oz
+          text: 不，不是这样的。我其实是个很好的人，只是个糟透了的魔法师。这一点，我承认。
+        - id: ch01-b88
+          speaker: scarecrow
+          text: 那你真的不能给我脑子吗？
+        - id: ch01-b89
+          speaker: oz
+          text: 你不需要别人给。你每天都在学东西。婴儿也有脑子，可他知道的很少。人只有经历事情，才能得到知识。活得越久，经历自然也越多。
+        - id: ch01-b90
+          speaker: scarecrow
+          text: 也许你说得没错。可是拿不到脑子，我还是会很难过。
+          emotion: sad
+        - id: ch01-b91
+          speaker: narrator
+          text: 假魔法师没有立刻回答。他从头到脚仔细打量了稻草人一番，然后才叹了口气。
+        - id: ch01-b92
+          speaker: oz
+          text: 好吧，我确实不太会魔法。不过你明天早晨来，我就往你头里塞进脑子。至于怎么用，我教不了，你得自己想办法。
+        - id: ch01-b93
+          speaker: scarecrow
+          text: 太谢谢你了！我一定会想出用法，你放心吧！
+          emotion: happy
+        - id: ch01-b94
+          speaker: cowardly_lion
+          text: 可我的勇气呢？
+        - id: ch01-b95
+          speaker: oz
+          text: 我看你的勇气已经够多了。你少的是相信自己。任何活物遇见危险都会害怕。明明害怕，还是敢去面对危险，这才是真正的勇气。这样的勇气，你一点儿也不缺。
+        - id: ch01-b96
+          speaker: cowardly_lion
+          text: 也许我有，可我还是会怕。你要是不给我一种能忘记害怕的勇气，我会一直很难过。
+          emotion: sad
+        - id: ch01-b97
+          speaker: oz
+          text: 好吧，明天我就给你那种勇气。
+        - id: ch01-b98
+          speaker: tin_woodman
+          text: 那我的心怎么办？
+        - id: ch01-b99
+          speaker: oz
+          text: 我倒觉得，你不该想要心。它会让大多数人不快乐。你没有心，其实很幸运，只是自己不知道。
+        - id: ch01-b100
+          speaker: tin_woodman
+          text: 每个人的想法不一样。只要你肯给我一颗心，它带来多少不快乐，我都愿意忍受，绝不抱怨。
+        - id: ch01-b101
+          speaker: oz
+          text: 那就这么办。明天来吧，你会得到一颗心。我装了这么多年的魔法师，再多演一会儿也没什么。
+        - id: ch01-b102
+          speaker: dorothy
+          text: 现在轮到我了。我究竟怎么才能回堪萨斯？
+        - id: ch01-b103
+          speaker: oz
+          text: 这件事得好好想一想。给我两三天，我会尽力找个办法，带你越过那片沙漠。这几天，你们都是我的贵客。只要住在宫殿里，我的臣民就会服侍你们，连你们最小的愿望也会听从。我能给的帮助也许不多，只求你们拿一件事作为回报。请替我保守秘密，千万别告诉任何人我是个骗子。
+        - id: ch01-b104
+          speaker: narrator
+          text: 大家答应绝不把刚刚知道的秘密说出去，便兴高采烈地回到自己的房间。稻草人盼着明早得到脑子，铁皮樵夫盼着得到心，狮子也盼着拿到那种能忘掉害怕的勇气。就连多萝茜也重新有了希望。她给奥兹取了个新名字，叫“伟大而可怕的大骗子”。只要这个大骗子真能想出办法，把她送回堪萨斯，她愿意原谅他做过的一切。
