@@ -1,0 +1,522 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant fairy-tale storytelling
+        timbre: clear and gently textured
+        pace: measured
+        pitch: medium
+    mother_duck:
+      display_name: Mother Duck
+      tts:
+        delivery: practical, protective, and motherly
+        timbre: warm and rounded
+        pace: moderate
+        pitch: medium
+    duckling:
+      display_name: Duckling
+      tts:
+        delivery: young, earnest, and sensitive
+        timbre: soft and clear
+        pace: moderate
+        pitch: medium-high
+    old_duck:
+      display_name: Old Duck
+      tts:
+        delivery: knowing and matter-of-fact
+        timbre: dry and mature
+        pace: unhurried
+        pitch: medium-low
+    grand_duck:
+      display_name: Grand Duck
+      tts:
+        delivery: dignified and self-important
+        timbre: full and mature
+        pace: measured
+        pitch: medium-low
+    spiteful_duck:
+      display_name: Spiteful Duck
+      tts:
+        delivery: sharp and scornful
+        timbre: nasal and crisp
+        pace: brisk
+        pitch: medium-high
+    sibling_1:
+      display_name: First Duckling
+      tts:
+        delivery: young and unkindly teasing
+        timbre: light and clear
+        pace: quick
+        pitch: high
+    sibling_2:
+      display_name: Second Duckling
+      tts:
+        delivery: young and unkindly teasing
+        timbre: light and slightly breathy
+        pace: quick
+        pitch: high
+    wild_duck_1:
+      display_name: First Wild Duck
+      tts:
+        delivery: blunt and curious
+        timbre: outdoorsy and bright
+        pace: moderate
+        pitch: medium
+    wild_duck_2:
+      display_name: Second Wild Duck
+      tts:
+        delivery: blunt and amused
+        timbre: outdoorsy and rough
+        pace: moderate
+        pitch: medium-low
+    gosling:
+      display_name: Wild Gosling
+      tts:
+        delivery: cocky and playful
+        timbre: youthful and ringing
+        pace: brisk
+        pitch: medium-high
+    old_woman:
+      display_name: Old Woman
+      tts:
+        delivery: bustling and excitable
+        timbre: aged and warm
+        pace: moderate
+        pitch: medium-high
+    hen:
+      display_name: Chickie Short Legs
+      tts:
+        delivery: fussy, certain, and lecturing
+        timbre: clipped and bright
+        pace: brisk
+        pitch: high
+    tom_cat:
+      display_name: Tom Cat
+      tts:
+        delivery: smug and superior
+        timbre: smooth and resonant
+        pace: leisurely
+        pitch: low
+    youngest_child:
+      display_name: Youngest Child
+      tts:
+        delivery: delighted and spontaneous
+        timbre: clear and youthful
+        pace: quick
+        pitch: high
+    child_2:
+      display_name: Second Child
+      tts:
+        delivery: joyful and excited
+        timbre: bright and youthful
+        pace: quick
+        pitch: high
+    child_3:
+      display_name: Third Child
+      tts:
+        delivery: joyful and excited
+        timbre: light and youthful
+        pace: quick
+        pitch: high
+  chapters:
+    - id: ch01
+      title: Under the Burdock Leaves
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: It was lovely summer weather in the country. Golden corn and green oats filled the fields, and haystacks rose across the meadows. A stork walked on long red legs, chattering in the Egyptian language his mother had taught him. Great forests surrounded the fields and meadows, and deep pools lay hidden among the trees. It was a delightful place to wander.
+        - id: ch01-b02
+          speaker: narrator
+          text: Near a deep river stood a pleasant old farmhouse. Huge burdock leaves grew between the house and the water. They were so tall that a small child could stand beneath the biggest ones. The place felt as wild and hidden as the middle of a thick wood.
+        - id: ch01-b03
+          speaker: narrator
+          text: A duck sat there on her nest, waiting for her brood to hatch. She was tired of waiting. The ducklings were taking a very long time, and visitors were rare. The other ducks preferred swimming in the river to climbing the slippery bank for a chat beneath a leaf.
+        - id: ch01-b04
+          speaker: narrator
+          text: At last, one shell cracked. Then another. A living little creature pushed out of each egg, lifted its head, and peeped.
+        - id: ch01-b05
+          speakers: [sibling_1, sibling_2]
+          ensemble: duo
+          text: Peep, peep!
+        - id: ch01-b06
+          speaker: mother_duck
+          text: Quack, quack!
+        - id: ch01-b07
+          speaker: narrator
+          text: The little ones quacked as well as they could and stared in every direction at the great green leaves. Their mother let them look. Green, she knew, was good for their eyes.
+        - id: ch01-b08
+          speakers: [sibling_1, sibling_2]
+          ensemble: duo
+          text: The world is enormous! There is so much more room out here than there was inside our shells!
+          emotion: surprised
+        - id: ch01-b09
+          speaker: mother_duck
+          text: You think this is the whole world? Just wait until you see the garden. It reaches all the way to the parson's field, though I have never gone that far myself. Now, are all of you out?
+        - id: ch01-b10
+          speaker: narrator
+          text: She stood and looked over the nest. The largest egg was still lying there, unbroken.
+        - id: ch01-b11
+          speaker: mother_duck
+          text: No, the biggest one is still here. How much longer can this take? I am worn out.
+        - id: ch01-b12
+          speaker: narrator
+          text: And down she sat on the nest again.
+        - id: ch01-b13
+          speaker: old_duck
+          text: Well, how is everything going?
+        - id: ch01-b14
+          speaker: narrator
+          text: An old duck had come to visit.
+        - id: ch01-b15
+          speaker: mother_duck
+          text: One egg still will not hatch. But look at the others. Have you ever seen prettier ducklings? They look just like their father. He is so unkind that he never even comes to see them.
+        - id: ch01-b16
+          speaker: old_duck
+          text: Show me that stubborn egg. Yes, just as I thought. It must be a turkey egg. I once let someone talk me into hatching some. After all my work, the young ones were terrified of the water. I quacked and clucked, but nothing could make them go in. Take my advice. Leave this egg and teach the others to swim.
+        - id: ch01-b17
+          speaker: mother_duck
+          text: I think I will give it a little longer. I have already been here so long that a few more days will not matter.
+        - id: ch01-b18
+          speaker: old_duck
+          text: Suit yourself.
+        - id: ch01-b19
+          speaker: narrator
+          text: The old duck went away. At last, the large shell broke, and a young bird crawled out.
+        - id: ch01-b20
+          speaker: duckling
+          text: Peep, peep!
+        - id: ch01-b21
+          speaker: narrator
+          text: He was very large, and he was ugly. His mother stared at him.
+        - id: ch01-b22
+          speaker: mother_duck
+          text: He is huge, and he looks nothing like the others. Could he really be a turkey? We will find out at the water. He is going in, even if I have to push him myself.
+        - id: ch01-b23
+          speaker: narrator
+          text: The next day was bright and beautiful. Sunlight shone on the green burdock leaves as the mother led her brood down to the water. She jumped in with a splash.
+        - id: ch01-b24
+          speaker: mother_duck
+          text: Quack, quack! Come along!
+        - id: ch01-b25
+          speaker: narrator
+          text: One by one, the ducklings jumped. Water closed over their heads, and an instant later they bobbed up again. Their small legs paddled as easily as could be beneath them. They all swam beautifully, and the ugly duckling was right there in the water, swimming with the rest.
+        - id: ch01-b26
+          speaker: mother_duck
+          text: Oh, he is no turkey! Look how well he uses his legs and how straight he holds himself. He is my own child. When you look at him properly, he is not so ugly after all.
+        - id: ch01-b27
+          speaker: mother_duck
+          text: Now follow me. I will introduce you to grand society in the farmyard. Stay close, or someone may step on you. Most of all, watch out for the cat.
+    - id: ch02
+      title: The Farmyard
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The farmyard was in an uproar when they arrived. Two duck families were fighting over an eel's head. In the end, the cat carried it off.
+        - id: ch02-b02
+          speaker: mother_duck
+          text: You see, children? That is how the world works.
+        - id: ch02-b03
+          speaker: narrator
+          text: She sharpened her beak. She would have liked that eel's head herself.
+        - id: ch02-b04
+          speaker: mother_duck
+          text: Come on now. Use your legs, and show me your best manners. Bow nicely to that old duck. She is the highest-born duck here and has Spanish blood. See the red ribbon tied around her leg? That is a great honor. It means people and animals alike want to recognize her and make sure she is never lost.
+        - id: ch02-b05
+          speaker: mother_duck
+          text: And do not turn your toes inward. A well-bred duckling spreads its feet apart, just like its mother and father. There. Now bend your neck and say quack.
+        - id: ch02-b06
+          speaker: narrator
+          text: The ducklings did exactly as she told them. But the other ducks stared.
+        - id: ch02-b07
+          speaker: spiteful_duck
+          text: Oh, look. Another brood, when we already have more than enough! And what is that strange-looking creature? We do not want him here.
+          emotion: disgusted
+        - id: ch02-b08
+          speaker: narrator
+          text: One duck rushed forward and bit the ugly duckling on the neck.
+        - id: ch02-b09
+          speaker: mother_duck
+          text: Leave him alone. He has done nothing to you.
+          emotion: angry
+        - id: ch02-b10
+          speaker: spiteful_duck
+          text: But he is so big and ugly. He has to go.
+          emotion: disgusted
+        - id: ch02-b11
+          speaker: grand_duck
+          text: Your other children are graceful enough. That one is the exception. It is a shame you cannot improve him a little.
+        - id: ch02-b12
+          speaker: mother_duck
+          text: I cannot change how he looks, Your Grace. But he is sweet-natured, and he swims as well as the others. Maybe even better. I think he will grow prettier and perhaps become smaller. He stayed in the egg too long, so his shape did not come out quite right.
+        - id: ch02-b13
+          speaker: narrator
+          text: She stroked his neck and smoothed his feathers.
+        - id: ch02-b14
+          speaker: mother_duck
+          text: Besides, he is a drake, so his looks do not matter as much. He will grow strong enough to take care of himself.
+        - id: ch02-b15
+          speaker: grand_duck
+          text: The rest of the ducklings will do nicely. Make yourselves at home. And if you happen to find an eel's head, bring it to me.
+        - id: ch02-b16
+          speaker: narrator
+          text: So the family settled in. But the poor duckling, who had hatched last and looked so different, was bitten, shoved, and mocked. The ducks did it. The chickens did it too.
+        - id: ch02-b17
+          speakers: [spiteful_duck, sibling_1, sibling_2]
+          ensemble: chorus
+          text: He is much too big!
+        - id: ch02-b18
+          speaker: narrator
+          text: The turkey cock had been born with spurs and imagined he was an emperor. He puffed himself up like a ship with every sail full, charged at the duckling, and turned red in the head with rage. The little bird had nowhere to go. Everyone in the farmyard laughed at his ugliness, and he was miserable.
+        - id: ch02-b19
+          speaker: narrator
+          text: This went on day after day, and every day was worse than the one before. Everyone chased him from place to place. Even his own brothers and sisters turned against him.
+        - id: ch02-b20
+          speakers: [sibling_1, sibling_2]
+          ensemble: duo
+          text: You ugly thing! We wish the cat would catch you!
+          emotion: angry
+        - id: ch02-b21
+          speaker: narrator
+          text: His mother wished he had never been born. Ducks pecked him. Chickens struck him. The girl who fed the poultry kicked him. At last, he ran away. As he flew over the fence, the little birds in the hedge scattered in fear.
+        - id: ch02-b22
+          speaker: duckling
+          text: They are frightened of me because I am so ugly.
+          emotion: sad
+        - id: ch02-b23
+          speaker: narrator
+          text: He shut his eyes and kept flying until he reached a wide moor where wild ducks lived. He spent the whole night there, exhausted and full of sorrow.
+        - id: ch02-b24
+          speaker: narrator
+          text: In the morning, the wild ducks rose into the air. When they saw the stranger, they gathered around him and stared.
+        - id: ch02-b25
+          speakers: [wild_duck_1, wild_duck_2]
+          ensemble: duo
+          text: What kind of duck are you?
+        - id: ch02-b26
+          speaker: narrator
+          text: He bowed as politely as he could, but gave them no answer.
+        - id: ch02-b27
+          speaker: wild_duck_1
+          text: You are remarkably ugly. Still, that will not bother us, as long as you do not try to marry into our family.
+        - id: ch02-b28
+          speaker: narrator
+          text: Marriage was the last thing on his mind. He only wanted permission to rest among the rushes and drink some water from the moor.
+        - id: ch02-b29
+          speaker: narrator
+          text: Two days passed. Then two young wild geese arrived. They had not been out of their eggs for long, and they were very bold.
+        - id: ch02-b30
+          speaker: gosling
+          text: Listen, friend. You are so ugly that we like you. Why not travel with us? There is another moor nearby with some pretty young wild geese, all unmarried. Even with your looks, you might get lucky and find a wife.
+        - id: ch02-b31
+          speaker: narrator
+          text: Pop! Pop! The shots cracked through the air. Both young geese fell dead among the rushes, and their blood colored the water. More shots echoed across the moor. Whole flocks of wild geese burst from their hiding places.
+        - id: ch02-b32
+          speaker: narrator
+          text: The shooting came from every direction. Hunters had surrounded the entire moor, and some even sat on tree branches where they could see across the rushes. Blue gun smoke rose like clouds over the dark trees, then floated slowly away across the water. Hunting dogs bounded into the marsh. Wherever they ran, the tall rushes bent beneath them.
+        - id: ch02-b33
+          speaker: narrator
+          text: The duckling was terrified. He turned his head and tried to hide it under his wing. At that instant, a huge and frightening dog came close. Its mouth hung open. Its tongue lolled out, and its eyes glared. The dog pushed its nose toward him and showed its sharp teeth.
+        - id: ch02-b34
+          speaker: narrator
+          text: Then it splashed into the water and went on without touching him.
+        - id: ch02-b35
+          speaker: duckling
+          text: Oh, thank goodness I am so ugly. Even a dog will not bite me.
+        - id: ch02-b36
+          speaker: narrator
+          text: He lay perfectly still while shot rattled through the rushes and gun after gun fired over him. The moor did not grow quiet until late in the day. Even then, the poor young bird was afraid to move. He waited quietly for several more hours. Only after looking carefully all around did he rise and hurry away from the moor as fast as he could.
+    - id: ch03
+      title: The Cottage in the Storm
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: He ran across one field and meadow after another until a storm rose around him. The wind was so fierce that he could barely fight his way forward. By evening, he came to a poor little cottage. It looked ready to fall down and seemed to be standing only because it could not decide which way to fall first.
+        - id: ch03-b02
+          speaker: narrator
+          text: The storm was too violent for him to go any farther. He sat beside the cottage and noticed that one broken hinge kept the door from closing. A narrow gap remained at the bottom. It was just wide enough for him to slip through. Quietly, he went inside and found shelter for the night.
+        - id: ch03-b03
+          speaker: narrator
+          text: An old woman lived there with a tom cat and a hen. The woman called the cat her little son and favored him greatly. He could arch his back and purr. If someone stroked his fur the wrong way, he could even make sparks fly from it.
+        - id: ch03-b04
+          speaker: narrator
+          text: The hen had such short legs that everyone called her Chickie Short Legs. She laid fine eggs, and the woman loved her as if she were her own child.
+        - id: ch03-b05
+          speaker: narrator
+          text: In the morning, the cat purred and the hen clucked over the strange visitor.
+        - id: ch03-b06
+          speaker: old_woman
+          text: What is all that noise about?
+        - id: ch03-b07
+          speaker: narrator
+          text: Her eyesight was poor. When she looked around and saw the duckling, she mistook him for a fat duck that had wandered away from home.
+        - id: ch03-b08
+          speaker: old_woman
+          text: What a wonderful find! I hope this is not a drake. If it is a duck, I may get duck eggs. We will have to wait and see.
+          emotion: happy
+        - id: ch03-b09
+          speaker: narrator
+          text: The duckling was allowed to stay for three weeks while the woman tested him, but no eggs appeared. In that house, the tom cat acted as master and the hen as mistress. They always spoke of themselves as "we and the world." In their minds, they made up half the world, and they were certain theirs was the better half.
+        - id: ch03-b10
+          speaker: narrator
+          text: The duckling thought other creatures might have a different opinion, but the hen would hear none of it.
+        - id: ch03-b11
+          speaker: hen
+          text: Can you lay eggs?
+        - id: ch03-b12
+          speaker: duckling
+          text: No.
+        - id: ch03-b13
+          speaker: hen
+          text: Then please keep quiet.
+        - id: ch03-b14
+          speaker: tom_cat
+          text: Can you arch your back? Can you purr or make sparks fly from your fur?
+        - id: ch03-b15
+          speaker: duckling
+          text: No.
+        - id: ch03-b16
+          speaker: tom_cat
+          text: Then you have no business giving an opinion while sensible people are talking.
+        - id: ch03-b17
+          speaker: narrator
+          text: The duckling sat in a corner and felt very low. Then sunshine and fresh air streamed through the open door. A powerful longing came over him. He wanted to swim so badly that he had to tell the hen.
+        - id: ch03-b18
+          speaker: hen
+          text: What a ridiculous idea. You have nothing useful to do, so foolish notions fill your head. If you could purr or lay eggs, they would soon disappear.
+        - id: ch03-b19
+          speaker: duckling
+          text: But swimming on the water feels wonderful. I love when the water closes over my head and I dive all the way to the bottom.
+        - id: ch03-b20
+          speaker: hen
+          text: Wonderful? You must have lost your mind! Ask the cat. He is the cleverest animal I know. Ask whether he wants to swim or dive underwater. I will not even mention my own opinion. Or ask our mistress. No one in the world is wiser than she is. Do you think she would want water closing over her head?
+        - id: ch03-b21
+          speaker: duckling
+          text: You do not understand me.
+          emotion: sad
+        - id: ch03-b22
+          speaker: hen
+          text: We do not understand you? Then who does? Do you think you are smarter than the cat or the old woman? I will leave myself out of it. Stop filling your head with nonsense, child. You should be grateful we took you in. You have a warm room and good company to teach you something.
+        - id: ch03-b23
+          speaker: hen
+          text: But you talk too much, and you are not pleasant company. Believe me, I say this for your own good. A true friend tells you things you may not like. My advice is simple. Learn to lay eggs and purr as soon as you can.
+        - id: ch03-b24
+          speaker: duckling
+          text: Then I think I must go back out into the world.
+        - id: ch03-b25
+          speaker: hen
+          text: Yes. You should.
+        - id: ch03-b26
+          speaker: narrator
+          text: So the duckling left the cottage. Before long, he found water where he could swim and dive. But every animal stayed away from him because of his ugly appearance.
+    - id: ch04
+      title: The Long Winter
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Autumn came, and the leaves in the forest turned orange and gold. As winter drew near, the wind caught them as they fell and spun them through the cold air. Clouds heavy with hail and snowflakes hung low in the sky. A raven stood among the ferns, crying, "Croak, croak." Just looking at him could make you shiver with cold.
+        - id: ch04-b02
+          speaker: narrator
+          text: It was a sad time for the poor duckling. Then, one evening, the sun went down behind radiant clouds. A great flock of beautiful birds came out of the bushes. He had never seen birds like them before.
+        - id: ch04-b03
+          speaker: narrator
+          text: They were swans. Their long necks curved gracefully, and their soft feathers shone with dazzling whiteness. They gave a strange cry, spread their glorious wings, and flew away from the cold land toward warmer countries across the sea.
+        - id: ch04-b04
+          speaker: narrator
+          text: As they climbed higher and higher, a feeling the duckling had never known swept through him. He spun in the water like a wheel, stretched his neck toward them, and gave such a strange cry that he frightened himself.
+        - id: ch04-b05
+          speaker: narrator
+          text: He could never forget those beautiful, happy birds. When they disappeared from sight, he dived beneath the water. He came up almost beside himself with excitement. He did not know what the birds were called or where they had gone. He only knew that no other bird had ever made him feel this way.
+        - id: ch04-b06
+          speaker: narrator
+          text: He did not envy those beautiful creatures. He simply wished that he could be as lovely as they were. Poor ugly bird, he would gladly have lived among the ordinary ducks if only they had offered him a little encouragement and kindness.
+        - id: ch04-b07
+          speaker: narrator
+          text: Winter grew colder and colder. The duckling had to keep swimming so the water would not freeze around him. Each night, the open space grew smaller. Soon the ice was so hard that it crackled whenever he moved. He paddled with all his strength to keep the opening from closing.
+        - id: ch04-b08
+          speaker: narrator
+          text: At last, his strength failed. He stopped moving and froze fast in the ice, helpless.
+        - id: ch04-b09
+          speaker: narrator
+          text: Early the next morning, a peasant happened to pass by and saw what had happened. The man broke the ice into pieces with his wooden shoe, lifted the frozen duckling out, and carried him home to his wife. In the warmth of their house, the poor little creature slowly came back to life.
+        - id: ch04-b10
+          speaker: narrator
+          text: The children came close because they wanted to play with him. But after all he had suffered, the duckling thought they meant to hurt him. He sprang up in terror, fluttered straight into the milk pan, and sent milk splashing all around the room.
+        - id: ch04-b11
+          speaker: narrator
+          text: The woman clapped her hands, and that frightened him even more. He flew into the butter cask, then into the tub of meal, and out again. What a mess he was!
+        - id: ch04-b12
+          speaker: narrator
+          text: By then he was in a terrible state. The woman screamed and swung at him with the tongs. The children laughed and shrieked, tumbling over one another as they tried to catch him. Luckily, the door had been left open. The poor creature just managed to squeeze outside. He slipped in among the bushes and lay down there, completely exhausted, in the newly fallen snow.
+        - id: ch04-b13
+          speaker: narrator
+          text: It would be too sad to tell every misery and hardship the poor duckling suffered through that bitter winter. But at last, winter did pass. One morning, he found himself lying among the rushes on a moor. The warm sun shone on him. He heard a lark singing, and everywhere he looked, spring had made the world beautiful again.
+    - id: ch05
+      title: The New Swan
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The young bird beat his wings against his sides and felt how strong they had become. He rose high into the air. Those powerful wings carried him swiftly onward, farther than he expected to go. Almost before he understood how it had happened, he found himself in a large and beautiful garden.
+        - id: ch05-b02
+          speaker: narrator
+          text: Apple trees stood covered in blossoms. Fragrant elder trees bent their long green branches over a stream, and the stream wound around a smooth green lawn. Everything in the garden looked beautiful in the freshness of early spring.
+        - id: ch05-b03
+          speaker: narrator
+          text: Three beautiful white swans came from a nearby thicket. Their feathers rustled as they glided lightly over the smooth water. The duckling remembered the lovely birds he had seen flying away in autumn, and his strange sadness became deeper than ever.
+        - id: ch05-b04
+          speaker: duckling
+          text: I will fly to those royal birds. They will kill me for being so ugly and daring to come near them. But I do not care. It is better to die by their beaks than to be pecked by ducks, beaten by hens, shoved by the girl in the farmyard, or left to starve through winter.
+          emotion: sad
+        - id: ch05-b05
+          speaker: narrator
+          text: He flew down to the water and swam toward the beautiful swans. As soon as they saw the stranger, they spread their wings and rushed to meet him.
+        - id: ch05-b06
+          speaker: duckling
+          text: Kill me.
+          emotion: sad
+        - id: ch05-b07
+          speaker: narrator
+          text: He bent his head to the surface and waited for death. But there, in the clear water below, he saw his own reflection. He was no longer a dark gray bird, ugly and unpleasant to see. He was a graceful, beautiful swan.
+        - id: ch05-b08
+          speaker: narrator
+          text: It does not matter if a bird is born in a duck's nest in a farmyard, when that bird was hatched from a swan's egg.
+        - id: ch05-b09
+          speaker: narrator
+          text: Now he felt glad that he had lived through so much sorrow and trouble. Because of it, he could enjoy all the pleasure and happiness around him even more. The great swans circled the newcomer and welcomed him by gently stroking his neck with their beaks.
+        - id: ch05-b10
+          speaker: narrator
+          text: Before long, some little children came into the garden. When they reached the water, they began tossing pieces of bread and cake out to the swans.
+        - id: ch05-b11
+          speaker: youngest_child
+          text: Look! There is a new one!
+          emotion: surprised
+        - id: ch05-b12
+          speaker: narrator
+          text: The other children were delighted. They ran to their father and mother, dancing and clapping.
+        - id: ch05-b13
+          speakers: [youngest_child, child_2, child_3]
+          ensemble: chorus
+          text: Another swan is here! A new one has come!
+          emotion: happy
+        - id: ch05-b14
+          speaker: narrator
+          text: They threw more bread and cake into the water.
+        - id: ch05-b15
+          speakers: [youngest_child, child_2, child_3]
+          ensemble: chorus
+          text: The new one is the most beautiful! He is so young and handsome!
+          emotion: happy
+        - id: ch05-b16
+          speaker: narrator
+          text: The older swans bowed their heads before him. He grew shy and hid his head beneath his wing. He did not know what to do. He was so happy, but he was not proud.
+        - id: ch05-b17
+          speaker: narrator
+          text: He had been hunted and despised because everyone thought he was ugly. Now he heard them call him the most beautiful bird of all. Even the elder tree bent its long branches down into the water before him, while the sun shone warm and bright over the garden.
+        - id: ch05-b18
+          speaker: narrator
+          text: The young swan rustled his feathers and curved his slender neck.
+        - id: ch05-b19
+          speaker: duckling
+          text: When I was an ugly duckling, I never dreamed I could be this happy.
+          emotion: happy
