@@ -22,7 +22,7 @@ const ARTWORK_ASSET_KEYS = new Set(["id", "file", "scene", "prompt"]);
 const CHARACTER_KEYS = new Set(["id", "kind", "description", "visual_identity"]);
 const CAST_ENTRY_KEYS = new Set(["display_name", "tts"]);
 const TTS_KEYS = new Set(["delivery", "timbre", "pace", "pitch"]);
-const AUDIO_BLOCK_KEYS = new Set(["id", "speaker", "text", "emotion"]);
+const AUDIO_BLOCK_KEYS = new Set(["id", "speaker", "speakers", "ensemble", "text", "emotion"]);
 const AUDIO_EMOTIONS = new Set(["happy", "sad", "angry", "fearful", "disgusted", "surprised", "calm"]);
 const CONTENT_YAML_FILES = new Set(["book.yaml", "artwork.yaml", "story.yaml", "article.yaml", "series.yaml", "audio_script.yaml", "research.yaml"]);
 const BOOK_KEYS = new Set(["schema_version", "id", "type", "style", "status", "locales", "labels", "characters", "cover", "source"]);
@@ -501,7 +501,14 @@ function checkArticle(work, root, articleId, inherited = null, seriesId = null) 
           check.require(!blockIds.has(block.id), `${locale}: duplicate audio block id ${block.id}`);
           blockIds.add(block.id);
         }
-        check.require(typeof block.speaker === "string" && Object.hasOwn(cast, block.speaker), `${locale}/${expectedBlockId}: speaker must exist in cast`);
+        if (Object.hasOwn(block, "speakers") || Object.hasOwn(block, "ensemble")) {
+          check.require(!Object.hasOwn(block, "speaker"), `${locale}/${expectedBlockId}: use either speaker or speakers, not both`);
+          const voices = Array.isArray(block.speakers) ? block.speakers : [];
+          check.require(voices.length >= 2 && voices.every((voice) => typeof voice === "string" && Object.hasOwn(cast, voice)) && new Set(voices).size === voices.length, `${locale}/${expectedBlockId}: speakers must list distinct cast ids`);
+          check.require(block.ensemble === "duo" ? voices.length === 2 : block.ensemble === "chorus" ? voices.length >= 3 : false, `${locale}/${expectedBlockId}: ensemble must be duo for two speakers or chorus for three or more`);
+        } else {
+          check.require(typeof block.speaker === "string" && Object.hasOwn(cast, block.speaker), `${locale}/${expectedBlockId}: speaker must exist in cast`);
+        }
         requiredString(check, block, "text", `${locale}.${expectedBlockId}`);
         if (Object.hasOwn(block, "emotion")) {
           check.require(AUDIO_EMOTIONS.has(block.emotion), `${locale}/${expectedBlockId}: emotion must be one of ${[...AUDIO_EMOTIONS].join(", ")}`);

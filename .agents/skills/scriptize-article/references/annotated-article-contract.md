@@ -33,15 +33,21 @@ audio_script:
           speaker: grandpa
           text: <spoken dialogue>
           emotion: angry
+        - id: ch01-b03
+          speakers: [ming, lan]
+          ensemble: duo
+          text: <a line both children say together>
 ```
 
-The root contains exactly `audio_script`. It contains one locale `language`, one `cast` mapping, and an ordered `chapters` list. Each chapter has `id`, `title`, and ordered `blocks`; each block has `id`, `speaker`, plain `text`, and optionally one `emotion`.
+The root contains exactly `audio_script`. It contains one locale `language`, one `cast` mapping, and an ordered `chapters` list. Each chapter has `id`, `title`, and ordered `blocks`; each block has `id`, exactly one of `speaker` or `speakers` + `ensemble`, plain `text`, and optionally one `emotion`.
 
 ## Identity and voice
 
 - Adapt each locale only from its own complete `article.md`. Never translate, align, or use another locale's script as source. Locale scripts need not match in blocks, block count, inferred chaptering, attribution placement, or emotion placement.
 - Prefer speaker IDs declared in the article's effective `characters` data.
-- Add stable IDs for other people who speak in the source. A line the source gives to an unnamed person, an unidentified voice, or a crowd uses a generic group speaker; never reassign it to a named character. Every block speaker resolves to exactly one cast entry.
+- Add stable IDs for other people who speak in the source. A line the source gives to an unnamed person or an unidentified voice gets its own individual speaker (for example `passerby`); never reassign it to a named character.
+- Every cast entry is exactly one voice: one person, animal, or personified thing. Never create a group cast entry such as "two children", "the kids", "the courtiers", or "the crowd".
+- When several voices say a line together, give the block `speakers` (a list of distinct cast IDs, in speaking order) and `ensemble` instead of `speaker`: `ensemble: duo` for exactly two voices, `ensemble: chorus` for three or more. A named group in the source (the seven kids, the crowd) is voiced by individual cast entries such as `kid_1`, `kid_2`, `kid_3`; use at most four voices for a chorus. A line only one member of a group says uses that member's single `speaker`.
 - Include `narrator` even when narration is brief.
 - When a script already exists, keep its cast entries, including `display_name` and TTS direction, unless a speaker is added or removed or an entry breaks this contract.
 - Keep declared character IDs shared across locales. Each cast entry has locale-native `display_name` plus locale-native abstract `tts.delivery`, `tts.timbre`, `tts.pace`, and `tts.pitch` strings; all spoken text is locale-native too.
