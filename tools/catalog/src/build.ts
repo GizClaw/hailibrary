@@ -171,7 +171,10 @@ export function parseSeriesArticle(markdown: string) {
   let chapter = chapters[0];
   let paragraph: string[] = [];
   const flushParagraph = () => {
-    const text = paragraph.join(" ").trim();
+    // Verse keeps its line breaks: a Markdown hard break (two trailing spaces), an indented line, or a CJK line.
+    // Other hard-wrapped prose lines join with a space.
+    const keepsBreak = (previous: string, line: string) => / {2,}$/.test(previous) || /^\s/.test(line) || /[\u3400-\u9fff]/.test(previous);
+    const text = paragraph.reduce((joined, line, index) => index === 0 ? line : `${joined}${keepsBreak(paragraph[index - 1], line) ? "\n" : " "}${line}`, "").split("\n").map((line) => line.trim()).join("\n").trim();
     if (text) chapter.paragraphs.push(text);
     paragraph = [];
   };
@@ -181,7 +184,7 @@ export function parseSeriesArticle(markdown: string) {
       chapter = { title: line.replace(/^##\s+/, "").trim(), paragraphs: [] };
       chapters.push(chapter);
     } else if (!line.trim()) flushParagraph();
-    else if (!/^#\s+/.test(line)) paragraph.push(line.trim());
+    else if (!/^#\s+/.test(line)) paragraph.push(line);
   }
   flushParagraph();
   // A heading with no body (a subtitle such as "IN SEVEN STORIES") prefixes the next chapter's title.
