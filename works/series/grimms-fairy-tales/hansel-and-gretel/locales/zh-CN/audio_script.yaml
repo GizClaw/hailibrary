@@ -43,13 +43,6 @@ audio_script:
         timbre: 苍老沙哑
         pace: 忽缓忽急
         pitch: 中低音
-    children:
-      display_name: 两个孩子
-      tts:
-        delivery: 一同应答，顽皮而警觉
-        timbre: 两个清亮的童声
-        pace: 轻快
-        pitch: 高音
   chapters:
     - id: ch01
       title: 月光下的白石子
@@ -213,7 +206,8 @@ audio_script:
           speaker: witch
           text: 啃呀啃，咬呀咬，是谁在啃我的小屋角？
         - id: ch03-b06
-          speaker: children
+          speakers: [hansel, gretel]
+          ensemble: duo
           text: 是风呀，是风呀，那是天上吹来的风呀。
         - id: ch03-b07
           speaker: narrator

@@ -50,13 +50,20 @@ audio_script:
         timbre: 温暖明亮
         pace: 自然
         pitch: 中高音
-    sparrows:
-      display_name: 麻雀们
+    sparrow_1:
+      display_name: 麻雀甲
       tts:
-        delivery: 轻快齐声
-        timbre: 细小清脆
+        delivery: 轻快热心，语气笃定
+        timbre: 细小清亮
         pace: 偏快
         pitch: 高音
+    sparrow_2:
+      display_name: 麻雀乙
+      tts:
+        delivery: 活泼亲切，带着安慰
+        timbre: 轻细圆润
+        pace: 轻快
+        pitch: 中高音
     old_woman:
       display_name: 会施魔法的老妇人
       tts:
@@ -64,13 +71,20 @@ audio_script:
         timbre: 柔和年长
         pace: 舒缓
         pitch: 中音
-    roses:
-      display_name: 玫瑰
+    rose_1:
+      display_name: 玫瑰甲
       tts:
-        delivery: 温柔而诚实
-        timbre: 轻柔
+        delivery: 温柔坦诚，语气安定
+        timbre: 柔和清润
         pace: 缓慢
         pitch: 中高音
+    rose_2:
+      display_name: 玫瑰乙
+      tts:
+        delivery: 恬静真挚，回答直接
+        timbre: 轻柔明净
+        pace: 舒缓
+        pitch: 高音
     tiger_lily:
       display_name: 卷丹
       tts:
@@ -127,13 +141,27 @@ audio_script:
         timbre: 清晰沙哑
         pace: 从容
         pitch: 中音
-    court_ladies:
-      display_name: 宫廷女官们
+    court_lady_1:
+      display_name: 宫廷女官甲
       tts:
-        delivery: 兴奋整齐
-        timbre: 明亮的群声
+        delivery: 兴奋爽朗，吐字利落
+        timbre: 明亮清脆
         pace: 自然
         pitch: 中高音
+    court_lady_2:
+      display_name: 宫廷女官乙
+      tts:
+        delivery: 欣喜热切，语气轻盈
+        timbre: 柔亮圆润
+        pace: 偏快
+        pitch: 高音
+    court_lady_3:
+      display_name: 宫廷女官丙
+      tts:
+        delivery: 欢快端庄，语气笃定
+        timbre: 清晰温润
+        pace: 从容
+        pitch: 中音
     princess:
       display_name: 公主
       tts:
@@ -148,13 +176,27 @@ audio_script:
         timbre: 年轻温润
         pace: 自然
         pitch: 中音
-    robbers:
-      display_name: 强盗们
+    robber_1:
+      display_name: 强盗甲
       tts:
-        delivery: 粗野喧闹
-        timbre: 混杂粗厚的群声
+        delivery: 粗野急切，喊声响亮
+        timbre: 粗厚沙哑
         pace: 快
+        pitch: 低音
+    robber_2:
+      display_name: 强盗乙
+      tts:
+        delivery: 贪婪亢奋，笑声放肆
+        timbre: 浑厚嘶哑
+        pace: 偏快
         pitch: 中低音
+    robber_3:
+      display_name: 强盗丙
+      tts:
+        delivery: 粗鲁戏谑，语气起伏大
+        timbre: 干硬响亮
+        pace: 自然偏快
+        pitch: 中音
     robber_woman:
       display_name: 强盗婆
       tts:
@@ -169,13 +211,20 @@ audio_script:
         timbre: 结实清脆
         pace: 偏快
         pitch: 中音
-    wood_pigeons:
-      display_name: 野鸽子
+    wood_pigeon_1:
+      display_name: 野鸽子甲
       tts:
-        delivery: 低声咕哝，惊惧不安
-        timbre: 柔闷的齐声
+        delivery: 低声咕哝，惊惧急促
+        timbre: 柔闷微哑
         pace: 舒缓
         pitch: 中音
+    wood_pigeon_2:
+      display_name: 野鸽子乙
+      tts:
+        delivery: 小心低语，余悸未消
+        timbre: 低柔发颤
+        pace: 缓慢
+        pitch: 中高音
     reindeer:
       display_name: 驯鹿
       tts:
@@ -376,7 +425,8 @@ audio_script:
           text: 凯已经死了，再也不会回来了。
           emotion: sad
         - id: ch03-b05
-          speaker: sparrows
+          speakers: [sparrow_1, sparrow_2]
+          ensemble: duo
           text: 我们不相信。
         - id: ch03-b06
           speaker: narrator
@@ -391,7 +441,8 @@ audio_script:
           speaker: narrator
           text: 小船没有系住，随着她的动作离开了岸。格尔达急忙往船头跑，可船已经漂出一米多远，而且越来越快。她害怕得大哭。只有麻雀听见，却不能把她带回去，只能沿岸跟着飞。
         - id: ch03-b10
-          speaker: sparrows
+          speakers: [sparrow_1, sparrow_2]
+          ensemble: duo
           text: 我们在这儿！我们在这儿！
         - id: ch03-b11
           speaker: narrator
@@ -441,7 +492,8 @@ audio_script:
           text: 唉，我耽搁了这么久！我原来是要去找凯的。你们知道他在哪儿吗？他是不是已经死了？
           emotion: sad
         - id: ch03-b26
-          speaker: roses
+          speakers: [rose_1, rose_2]
+          ensemble: duo
           text: 不，他没有死。我们在地下待过，所有死去的人都在那里，可凯不在那里。
         - id: ch03-b27
           speaker: gerda
@@ -566,7 +618,8 @@ audio_script:
           speaker: narrator
           text: 她决定找一个丈夫。别人同他说话时，他得知道怎么回答，不能只摆出堂皇气派的样子，那太乏味。她叫人擂鼓，把女官全召来。
         - id: ch04-b15
-          speaker: court_ladies
+          speakers: [court_lady_1, court_lady_2, court_lady_3]
+          ensemble: chorus
           text: 听到这件事，我们真高兴！前几天，我们自己还在谈呢。
           emotion: happy
         - id: ch04-b16
@@ -703,7 +756,8 @@ audio_script:
           speaker: narrator
           text: 这一篇讲小强盗姑娘。金马车驶进茂密的森林，像一支火炬照亮道路，也晃花了几个强盗的眼睛。他们可不肯让马车平安过去。
         - id: ch05-b02
-          speaker: robbers
+          speakers: [robber_1, robber_2, robber_3]
+          ensemble: chorus
           text: 是金子！是金子！
         - id: ch05-b03
           speaker: narrator
@@ -721,7 +775,8 @@ audio_script:
           speaker: narrator
           text: 她又咬了母亲一口，疼得老妇人腾空跳起来。强盗们全笑了。
         - id: ch05-b08
-          speaker: robbers
+          speakers: [robber_1, robber_2, robber_3]
+          ensemble: chorus
           text: 看哪，她正和自己的小崽子跳舞呢！
         - id: ch05-b09
           speaker: robber_girl
@@ -782,14 +837,16 @@ audio_script:
           speaker: narrator
           text: 格尔达只好把自己的故事从头再讲一遍。她讲屋顶上的玫瑰，讲凯怎样失踪，也讲自己一路怎样找来。头顶笼子里的两只野鸽低低地咕咕叫着，其余鸽子已经全都睡着了。小强盗姑娘听完以后，用一条胳膊搂住格尔达的脖子，另一只手仍旧握着那把刀。没过多久，她就呼呼地睡熟了。格尔达却根本不敢闭眼。她不知道等到天亮时，自己究竟还活着，还是已经死了。强盗们围坐在火边，一面大口喝酒，一面放声唱歌。强盗婆摇摇晃晃地走来走去。对一个小姑娘来说，眼前的景象实在太可怕了。
         - id: ch05-b28
-          speaker: wood_pigeons
+          speakers: [wood_pigeon_1, wood_pigeon_2]
+          ensemble: duo
           text: 咕咕，咕咕。我们见过凯。一只白鸡驮着他的雪橇，他坐在冰雪女王的车里。我们还在巢里的时候，她从森林穿过去。她朝我们吹了一口气，雏鸽全死了，只剩我们两个。咕咕，咕咕。
         - id: ch05-b29
           speaker: gerda
           text: 你们在说什么？冰雪女王去了哪里？你们知道吗？
           emotion: surprised
         - id: ch05-b30
-          speaker: wood_pigeons
+          speakers: [wood_pigeon_1, wood_pigeon_2]
+          ensemble: duo
           text: 她多半去了拉普兰。那里一年到头都有冰雪。你问问那边被绳子拴住的驯鹿。
         - id: ch05-b31
           speaker: reindeer

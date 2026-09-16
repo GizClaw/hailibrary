@@ -22,12 +22,19 @@ audio_script:
         timbre: 清澈柔和
         pace: 从容
         pitch: 中高
-    schoolmates:
-      display_name: 同学们
+    schoolmate_1:
+      display_name: 同学甲
       tts:
-        delivery: 热闹随性，带着孩子们贪嘴的顽皮
-        timbre: 多个清亮的少年声音
-        pace: 明快
+        delivery: 爽快外向，带着嘴馋后改口的顽皮
+        timbre: 清亮有活力的少年声音
+        pace: 明快利落
+        pitch: 偏高
+    schoolmate_2:
+      display_name: 同学乙
+      tts:
+        delivery: 随性俏皮，故意装出勉强答应的口气
+        timbre: 略带鼻音的少年声音
+        pace: 轻快，句尾稍稍拖长
         pitch: 中高
     candlewick:
       display_name: 灯芯
@@ -74,7 +81,8 @@ audio_script:
           speaker: narrator
           text: 匹诺曹没再多说，告别了待他像母亲一样的仙女，唱着歌，跳着舞，出了门。还不到一个钟头，他就请遍了所有朋友。有些孩子马上痛快地答应，有些起先不肯，还要他再三央求。可大家一听说，配咖啡的小面包两面都抹着黄油，便全都改了口。
         - id: ch01-b12
-          speaker: schoolmates
+          speakers: [schoolmate_1, schoolmate_2]
+          ensemble: duo
           text: 那我们也来吧，就当是给你面子。
     - id: ch02
       title: 灯芯说起玩儿国

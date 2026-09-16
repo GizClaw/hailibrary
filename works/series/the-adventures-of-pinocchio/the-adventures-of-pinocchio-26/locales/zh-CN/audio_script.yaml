@@ -15,13 +15,27 @@ audio_script:
         timbre: 清亮，带木偶般的脆响
         pace: 偏快，争辩时更急
         pitch: 中高
-    schoolboys:
-      display_name: 同学们
+    schoolboy_1:
+      display_name: 同学甲
       tts:
-        delivery: 顽皮吵闹，起哄时满是恶作剧般的得意
-        timbre: 明亮稚嫩，带少年人的喧闹感
-        pace: 偏快
+        delivery: 顽皮大胆，带头起哄时满是恶作剧般的得意
+        timbre: 明亮稚嫩，声音清脆
+        pace: 快而利落
+        pitch: 高
+    schoolboy_2:
+      display_name: 同学乙
+      tts:
+        delivery: 爱逞强，挨了疼也要抢着反驳
+        timbre: 稚嫩略沙，带一点倔强
+        pace: 偏快，重话咬字清楚
         pitch: 中高
+    schoolboy_3:
+      display_name: 同学丙
+      tts:
+        delivery: 油嘴滑舌，怂恿伙伴时轻佻又自信
+        timbre: 清亮偏薄，带少年人的笑意
+        pace: 轻快，劝诱时连贯紧凑
+        pitch: 中
     fairy:
       display_name: 蓝发仙女
       tts:
@@ -44,19 +58,20 @@ audio_script:
           text: 你们可小心点儿！我来学校不是给你们当小丑的。我尊重别人，你们也得尊重我。
           emotion: angry
         - id: ch01-b04
-          speaker: schoolboys
+          speakers: [schoolboy_1, schoolboy_2, schoolboy_3]
+          ensemble: chorus
           text: 说得可真漂亮啊，大话精！你简直像一本会说话的书！
         - id: ch01-b05
           speaker: narrator
           text: 小坏蛋们笑得直不起腰，还扯着嗓子起哄。其中最放肆的一个伸出手，想揪住匹诺曹的鼻尖。可他的手还没碰到，匹诺曹已经从桌子底下伸出腿，狠狠踢中了他的小腿骨。
         - id: ch01-b06
-          speaker: schoolboys
+          speaker: schoolboy_1
           text: 哎哟！他的脚怎么这么硬？
         - id: ch01-b07
           speaker: narrator
           text: 挨踢的孩子大叫着，赶紧去揉那块淤青。另一个刚才也在胡闹，肚子上已经吃过匹诺曹一肘子。
         - id: ch01-b08
-          speaker: schoolboys
+          speaker: schoolboy_2
           text: 他的胳膊肘更硬，比脚还要硬！
         - id: ch01-b09
           speaker: narrator
@@ -89,49 +104,50 @@ audio_script:
           speaker: narrator
           text: 一个晴朗的日子，匹诺曹正走在上学路上，几个平常总跟他一起玩的伙伴围了过来。
         - id: ch03-b02
-          speaker: schoolboys
+          speaker: schoolboy_1
           text: 你听说那个天大的消息了吗？
         - id: ch03-b03
           speaker: pinocchio
           text: 我还没听说。
         - id: ch03-b04
-          speaker: schoolboys
+          speaker: schoolboy_2
           text: 附近海里来了一条大鲨鱼，足足有一座山那么大！
         - id: ch03-b05
           speaker: pinocchio
           text: 真的吗？会不会就是我爸爸遇难时，待在那片海里的大鲨鱼？
         - id: ch03-b06
-          speaker: schoolboys
+          speaker: schoolboy_3
           text: 我们正要去海边看它。你也跟我们去吧？
         - id: ch03-b07
           speaker: pinocchio
           text: 我不去，我还要上学。
         - id: ch03-b08
-          speaker: schoolboys
+          speaker: schoolboy_1
           text: 上学有什么要紧？明天再去不就行了。多上一堂课，少上一堂课，反正我们还是一样的蠢驴。
         - id: ch03-b09
           speaker: pinocchio
           text: 可是老师会怎么说？
         - id: ch03-b10
-          speaker: schoolboys
+          speaker: schoolboy_2
           text: 老师爱说什么就说什么。他领了薪水，本来就是要整天数落人的。
         - id: ch03-b11
           speaker: pinocchio
           text: 那我妈妈会怎么说？
         - id: ch03-b12
-          speaker: schoolboys
+          speakers: [schoolboy_1, schoolboy_2, schoolboy_3]
+          ensemble: chorus
           text: 当妈妈的什么也不懂。
         - id: ch03-b13
           speaker: pinocchio
           text: 那我告诉你们我的打算吧。我确实有理由去看那条大鲨鱼，不过我要等放学以后再去。
         - id: ch03-b14
-          speaker: schoolboys
+          speaker: schoolboy_3
           text: 你这个可怜的蠢驴！那么大的鱼难道会等你有空吗？它在这儿待腻了，就会游去别的地方。到那时，你想看也来不及了。
         - id: ch03-b15
           speaker: pinocchio
           text: 从这里走到海边，要用多长时间？
         - id: ch03-b16
-          speaker: schoolboys
+          speaker: schoolboy_1
           text: 一个钟头就能来回一趟。
     - id: ch04
       title: 朝海边飞奔

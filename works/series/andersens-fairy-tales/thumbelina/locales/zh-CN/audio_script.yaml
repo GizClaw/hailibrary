@@ -43,20 +43,48 @@ audio_script:
         timbre: 粗哑
         pace: 缓慢
         pitch: 低
-    birds:
-      display_name: 林中小鸟
+    bird_1:
+      display_name: 小鸟甲
       tts:
-        delivery: 欢快轻盈，像短短的歌声
+        delivery: 欢快轻盈，像清晨第一声短歌
         timbre: 明亮清脆
         pace: 轻快
         pitch: 高
-    fish:
-      display_name: 小鱼们
+    bird_2:
+      display_name: 小鸟乙
       tts:
-        delivery: 同情而果断，众声轻轻相和
-        timbre: 清亮
+        delivery: 活泼灵巧，带着惊喜的跳跃感
+        timbre: 轻巧透亮
+        pace: 明快
+        pitch: 中高
+    bird_3:
+      display_name: 小鸟丙
+      tts:
+        delivery: 欢欣柔和，尾音像歌声一样舒展
+        timbre: 清甜圆润
+        pace: 轻快从容
+        pitch: 高
+    fish_1:
+      display_name: 小鱼甲
+      tts:
+        delivery: 同情而果断，语气干脆
+        timbre: 清亮细柔
         pace: 稍快
         pitch: 中高
+    fish_2:
+      display_name: 小鱼乙
+      tts:
+        delivery: 急切正直，带着不平
+        timbre: 明净轻薄
+        pace: 轻快
+        pitch: 高
+    fish_3:
+      display_name: 小鱼丙
+      tts:
+        delivery: 坚定热心，语气沉着
+        timbre: 柔和清脆
+        pace: 自然
+        pitch: 中
     beetle:
       display_name: 大金龟子
       tts:
@@ -64,13 +92,34 @@ audio_script:
         timbre: 硬亮
         pace: 自然
         pitch: 中
-    beetles:
-      display_name: 金龟子们
+    female_beetle_1:
+      display_name: 雌金龟子甲
       tts:
-        delivery: 挑剔刻薄，七嘴八舌
-        timbre: 尖细杂乱
+        delivery: 挑剔刻薄，句句带着嫌弃
+        timbre: 尖细硬亮
         pace: 稍快
         pitch: 中高
+    female_beetle_2:
+      display_name: 雌金龟子乙
+      tts:
+        delivery: 冷淡挑剔，说话短促直接
+        timbre: 薄而清锐
+        pace: 自然偏快
+        pitch: 高
+    female_beetle_3:
+      display_name: 雌金龟子丙
+      tts:
+        delivery: 刻薄夸张，带着轻蔑的鼻音
+        timbre: 尖亮偏粗
+        pace: 稍慢
+        pitch: 中
+    female_beetle_4:
+      display_name: 雌金龟子丁
+      tts:
+        delivery: 大惊小怪，嘲讽得毫不遮掩
+        timbre: 细亮清脆
+        pace: 快而清楚
+        pitch: 高
     field_mouse:
       display_name: 田鼠
       tts:
@@ -155,7 +204,8 @@ audio_script:
 
             水下的小鱼听见了癞蛤蟆的话，都探出头来看。它们一见拇指姑娘那么美，再想到她就要过那样的日子，心里很不好受。
         - id: ch01-b16
-          speaker: fish
+          speakers: [fish_1, fish_2, fish_3]
+          ensemble: chorus
           text: 不行，绝不能让她嫁给那只癞蛤蟆！
         - id: ch01-b17
           speaker: narrator
@@ -167,7 +217,8 @@ audio_script:
           speaker: narrator
           text: 拇指姑娘漂过一座又一座城镇。灌木里的小鸟看见她，都唱起歌来。
         - id: ch02-b02
-          speaker: birds
+          speakers: [bird_1, bird_2, bird_3]
+          ensemble: chorus
           text: 快看呀，多可爱的小人儿！
         - id: ch02-b03
           speaker: narrator
@@ -184,36 +235,46 @@ audio_script:
           speaker: narrator
           text: 没过多久，住在这棵树上的金龟子一个接一个都来了。他们围着拇指姑娘，把她从头看到脚，还翘起触须，仔细议论这个从没见过的小姑娘。
         - id: ch02-b07
-          speaker: beetles
-          text: 她怎么只有两条腿？看着真难看。她连一根触须都没有！腰还细成那个样子。呸，简直就像个人！哎呀，她可真丑！
+          speaker: female_beetle_1
+          text: 她怎么只有两条腿？看着真难看。
         - id: ch02-b08
+          speaker: female_beetle_2
+          text: 她连一根触须都没有！
+        - id: ch02-b09
+          speaker: female_beetle_3
+          text: 腰还细成那个样子。呸，简直就像个人！
+        - id: ch02-b10
+          speakers: [female_beetle_1, female_beetle_2, female_beetle_3, female_beetle_4]
+          ensemble: chorus
+          text: 哎呀，她可真丑！
+        - id: ch02-b11
           speaker: narrator
           text: 其实，拇指姑娘明明十分美丽。可带她来的金龟子听大家都说她丑，自己也信了。他不想再和她待在一起，便把她送到树下，放在一朵雏菊上，叫她自己走。
 
             拇指姑娘哭了。她以为自己真的丑，连金龟子也嫌弃她。可她是世上最可爱的生灵，柔嫩得就像一片玫瑰花瓣。
-        - id: ch02-b09
+        - id: ch02-b12
           speaker: narrator
           text: 整个夏天，可怜的拇指姑娘都独自住在广阔的森林里。她把一根根草叶编成小床，再把床挂到一片宽叶子下面，这样下雨时就不会淋湿。饿了，她就到花朵里吸一点花蜜。每天清晨，她喝叶片上亮晶晶的露珠。
 
             夏天走了，秋天也走了，漫长又寒冷的冬天来了。那些曾经为她甜甜歌唱的小鸟全都飞走了，树木和花儿也渐渐枯萎。替她遮风挡雨的大苜蓿叶缩成一团，只剩下一根黄黄的枯梗。她的衣服已经破了，身子又那么纤弱娇小，几乎要冻死了。
-        - id: ch02-b10
+        - id: ch02-b13
           speaker: narrator
           text: 雪也落了下来。别忘了，拇指姑娘只有一英寸高。一片雪花压到她身上，就像一整铲雪砸在我们身上。她拿枯叶紧紧裹住自己，可叶子从中间裂开了，根本挡不住寒气，她还是冷得浑身发抖。
 
             森林旁边有片收割过的麦田。麦子早已割完，冻得又硬又冷的地里，只立着光秃秃的枯麦茬。对拇指姑娘来说，那些麦茬就像一座大森林。她在里面一步步挣扎着向前走，冷得抖个不停。最后，她终于来到一只田鼠的门前。
-        - id: ch02-b11
+        - id: ch02-b14
           speaker: narrator
           text: 田鼠的洞挖在麦茬下面，屋里温暖舒服，粮食堆得满满的，还有厨房和漂亮的饭厅。拇指姑娘像个小乞丐一样站在门口，只求一粒麦子。她已经两天什么也没吃了。
-        - id: ch02-b12
+        - id: ch02-b15
           speaker: field_mouse
           text: 可怜的小东西，快进来暖和暖和，跟我一起吃饭吧。
-        - id: ch02-b13
+        - id: ch02-b16
           speaker: narrator
           text: 这是一只善良的老田鼠。她很喜欢拇指姑娘，吃饭时又提出了一个主意。
-        - id: ch02-b14
+        - id: ch02-b17
           speaker: field_mouse
           text: 你愿意的话，整个冬天都住在我这里。只要把屋子收拾干净，再讲些故事给我听就行。我最喜欢听故事。
-        - id: ch02-b15
+        - id: ch02-b18
           speaker: narrator
           text: 拇指姑娘答应了。她认真做事，也常给田鼠讲故事，在地下的小屋里过得很舒服。
     - id: ch03

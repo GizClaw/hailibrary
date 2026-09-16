@@ -22,13 +22,20 @@ audio_script:
         timbre: 圆润明亮
         pace: 中等偏快
         pitch: 中音
-    ducklings:
-      display_name: 小鸭子们
+    duckling_1:
+      display_name: 小鸭子甲
       tts:
-        delivery: 幼小好奇，说话整齐又活泼
-        timbre: 清亮稚嫩
+        delivery: 幼小好奇，开口轻快，透着刚见到世界的惊喜
+        timbre: 清脆稚嫩
         pace: 轻快
         pitch: 高音
+    duckling_2:
+      display_name: 小鸭子乙
+      tts:
+        delivery: 天真活泼，语气雀跃，句尾带一点兴奋的上扬
+        timbre: 柔亮稚嫩
+        pace: 稍快
+        pitch: 中高音
     old_duck:
       display_name: 老鸭
       tts:
@@ -36,13 +43,27 @@ audio_script:
         timbre: 略沙哑
         pace: 从容
         pitch: 中低音
-    farm_ducks:
-      display_name: 养鸭场的鸭子们
+    farm_duck_1:
+      display_name: 养鸭场鸭子甲
       tts:
-        delivery: 挑剔排外，七嘴八舌
-        timbre: 尖亮嘈杂
-        pace: 偏快
+        delivery: 挑剔排外，抢先发话，语气尖刻
+        timbre: 尖亮干脆
+        pace: 快
         pitch: 中高音
+    farm_duck_2:
+      display_name: 养鸭场鸭子乙
+      tts:
+        delivery: 不耐烦地附和，话里满是嫌弃
+        timbre: 粗哑响亮
+        pace: 中等偏快
+        pitch: 中音
+    farm_duck_3:
+      display_name: 养鸭场鸭子丙
+      tts:
+        delivery: 爱起哄，排斥陌生者时说得又急又冲
+        timbre: 细亮聒噪
+        pace: 很快
+        pitch: 高音
     spiteful_duck:
       display_name: 刻薄的鸭子
       tts:
@@ -57,20 +78,41 @@ audio_script:
         timbre: 厚而苍老
         pace: 缓慢
         pitch: 中低音
-    siblings:
-      display_name: 兄弟姐妹
+    sibling_1:
+      display_name: 手足甲
       tts:
-        delivery: 不耐烦地奚落排斥
-        timbre: 年幼尖细
+        delivery: 年幼刻薄，奚落时直白又不耐烦
+        timbre: 尖细清亮
         pace: 快
         pitch: 高音
-    wild_ducks:
-      display_name: 野鸭们
+    sibling_2:
+      display_name: 手足乙
       tts:
-        delivery: 好奇直白，带着漫不经心的嘲弄
-        timbre: 粗亮
+        delivery: 跟着排斥，语气急促，带着冷淡的嘲笑
+        timbre: 稚嫩偏哑
+        pace: 中等偏快
+        pitch: 中高音
+    wild_duck_1:
+      display_name: 野鸭甲
+      tts:
+        delivery: 好奇直白，问话时毫不避讳
+        timbre: 粗亮开阔
         pace: 中等
         pitch: 中音
+    wild_duck_2:
+      display_name: 野鸭乙
+      tts:
+        delivery: 漫不经心地打量，嘲弄中带点随意
+        timbre: 沙哑轻薄
+        pace: 稍慢
+        pitch: 中低音
+    wild_duck_3:
+      display_name: 野鸭丙
+      tts:
+        delivery: 爱凑热闹，插话干脆，语气轻佻
+        timbre: 清亮偏粗
+        pace: 偏快
+        pitch: 中高音
     young_goose:
       display_name: 小野雁
       tts:
@@ -106,12 +148,26 @@ audio_script:
         timbre: 清亮稚嫩
         pace: 快
         pitch: 高音
-    children:
-      display_name: 孩子们
+    child_1:
+      display_name: 孩子甲
       tts:
-        delivery: 欢快兴奋，争着分享新发现
-        timbre: 明亮活泼
+        delivery: 欢快兴奋，发现新天鹅时急着告诉大人
+        timbre: 明亮清脆
         pace: 轻快
+        pitch: 高音
+    child_2:
+      display_name: 孩子乙
+      tts:
+        delivery: 热情活泼，夸赞时语气真诚又响亮
+        timbre: 圆润稚嫩
+        pace: 中等偏快
+        pitch: 中高音
+    child_3:
+      display_name: 孩子丙
+      tts:
+        delivery: 雀跃外向，跟伙伴一起喊时节奏轻巧
+        timbre: 轻柔明快
+        pace: 稍快
         pitch: 高音
   chapters:
     - id: ch01
@@ -130,7 +186,8 @@ audio_script:
           speaker: narrator
           text: 小鸭子们使足了劲跟着嘎嘎叫，还转动脑袋，朝四周那些比自己大得多的绿叶看个不停，像是怎么也看不够。鸭妈妈让他们尽情看，反正绿色对眼睛有好处。
         - id: ch01-b05
-          speaker: ducklings
+          speakers: [duckling_1, duckling_2]
+          ensemble: duo
           text: 外面的世界真大呀！蛋壳里可没有这么宽敞。
         - id: ch01-b06
           speaker: mother_duck
@@ -184,7 +241,8 @@ audio_script:
           speaker: narrator
           text: 小鸭子们照做了。别的鸭子却盯住他们。
         - id: ch02-b04
-          speaker: farm_ducks
+          speakers: [farm_duck_1, farm_duck_2, farm_duck_3]
+          ensemble: chorus
           text: 怎么又来一窝？这里还不够挤吗？哎哟，那一只是什么怪模样？我们可不要他！
         - id: ch02-b05
           speaker: narrator
@@ -214,13 +272,15 @@ audio_script:
           speaker: narrator
           text: 他们就这样在养鸭场住了下来。别的小鸭子很快有了自己的位置，可最后出壳的丑小鸭却受尽欺负。鸭子见了他就咬他、推他、笑话他，连其他家禽也都拿他寻开心，仿佛谁都能来欺负他一下。
         - id: ch02-b14
-          speaker: farm_ducks
+          speakers: [farm_duck_1, farm_duck_2, farm_duck_3]
+          ensemble: chorus
           text: 他的个头也太大了！
         - id: ch02-b15
           speaker: narrator
           text: 一只雄火鸡天生长着一对距，就把自己当成了真正的皇帝。他鼓起全身羽毛，像一艘张满帆的船，气势汹汹地冲向丑小鸭，脑袋也气得通红。可怜的小家伙躲都没处躲。他本来就为自己的模样难过，现在整个养鸭场又都在嘲笑他。日子一天天过去，情形不但没变，反而越来越糟。谁见了都赶他，连兄弟姐妹也不肯善待他。
         - id: ch02-b16
-          speaker: siblings
+          speakers: [sibling_1, sibling_2]
+          ensemble: duo
           text: 你这个丑东西，真希望猫把你叼走！
           emotion: disgusted
         - id: ch02-b17
@@ -234,13 +294,15 @@ audio_script:
           speaker: narrator
           text: 他闭上眼睛，继续往远处飞，直到一片辽阔的荒原。那里住着许多野鸭。他在荒原上过了一夜，疲倦又悲伤。
         - id: ch02-b20
-          speaker: wild_ducks
+          speakers: [wild_duck_1, wild_duck_2, wild_duck_3]
+          ensemble: chorus
           text: 你到底是哪一种鸭子？
         - id: ch02-b21
           speaker: narrator
           text: 清晨，野鸭们发现了这位新伙伴，围着他问个不停。他只是低头行礼，客气得不能再客气，却没回答。
         - id: ch02-b22
-          speaker: wild_ducks
+          speakers: [wild_duck_1, wild_duck_2, wild_duck_3]
+          ensemble: chorus
           text: 你可真够丑的。不过只要你不想娶我们家的姑娘，那就没关系。
         - id: ch02-b23
           speaker: narrator
@@ -383,14 +445,16 @@ audio_script:
           speaker: narrator
           text: 其他孩子听见了，也全都高兴极了。他们一边蹦跳，一边拍手，又跑到爸爸妈妈身边，急着把这个新发现告诉大人。
         - id: ch05-b10
-          speaker: children
+          speakers: [child_1, child_2, child_3]
+          ensemble: chorus
           text: 又来了一只天鹅！来了一只新的！
           emotion: happy
         - id: ch05-b11
           speaker: narrator
           text: 他们往水里投了更多面包和糕点。
         - id: ch05-b12
-          speaker: children
+          speakers: [child_1, child_2, child_3]
+          ensemble: chorus
           text: 新来的这只最漂亮！他这么年轻，又这么好看。
           emotion: happy
         - id: ch05-b13

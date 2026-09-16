@@ -15,13 +15,20 @@ audio_script:
         timbre: 厚实
         pace: 偏慢
         pitch: 中低音
-    ducks:
-      display_name: 鸭子们
+    duck_1:
+      display_name: 鸭子甲
       tts:
-        delivery: 友善而认真
-        timbre: 明亮
+        delivery: 友善而耐心，叮嘱时格外认真
+        timbre: 清亮柔和
         pace: 适中
         pitch: 中高音
+    duck_2:
+      display_name: 鸭子乙
+      tts:
+        delivery: 热心而稳重，语气坚定
+        timbre: 明朗厚实
+        pace: 稍慢
+        pitch: 中音
     crow:
       display_name: 乌鸦
       tts:
@@ -46,7 +53,10 @@ audio_script:
           speaker: narrator
           text: 一天，乌龟遇见两只鸭子，就把心里的烦恼全说给他们听。
         - id: ch02-b02
-          speaker: ducks
+          speakers:
+            - duck_1
+            - duck_2
+          ensemble: duo
           text: 想看看这个世界，我们有办法。你用牙咬紧这根木棍，我们带你飞到高空。到了上面，整片乡野都能看见。只是一路上千万别开口，不然你一定会后悔。
         - id: ch02-b03
           speaker: narrator

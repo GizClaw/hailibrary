@@ -36,13 +36,27 @@ audio_script:
         timbre: 明亮
         pace: 自然
         pitch: 中
-    house_girls:
-      display_name: 屋里的姑娘们
+    house_girl_1:
+      display_name: 姑娘甲
       tts:
-        delivery: 齐声歌唱，轻盈欢快
-        timbre: 清亮和谐
-        pace: 流畅
+        delivery: 轻盈欢快，歌声明朗
+        timbre: 清亮透彻
+        pace: 轻快流畅
         pitch: 中高
+    house_girl_2:
+      display_name: 姑娘乙
+      tts:
+        delivery: 温柔愉快，歌声舒展
+        timbre: 柔和圆润
+        pace: 从容流畅
+        pitch: 中
+    house_girl_3:
+      display_name: 姑娘丙
+      tts:
+        delivery: 活泼欢畅，歌声灵动
+        timbre: 清脆明快
+        pace: 稍快
+        pitch: 高
   chapters:
     - id: ch01
       title: 红太阳与圆月亮
@@ -186,7 +200,8 @@ audio_script:
           speaker: narrator
           text: 没过多久，冬天也过去了。嗓音嘶哑的看院老狗仍旧不停地一声接一声叫着“走啦，走啦”，屋里的姑娘们却已经唱起了歌。
         - id: ch05-b06
-          speaker: house_girls
+          speakers: [house_girl_1, house_girl_2, house_girl_3]
+          ensemble: chorus
           text: “绿百里香，离开芬芳的家，快来吧。柳树呀，舒展你柔软的枝条。月月催来甜美的春光，云雀在天空唱得多欢畅。温柔的太阳快来吧，杜鹃正在歌唱，我一路学着它的声调。”
           emotion: happy
         - id: ch05-b07

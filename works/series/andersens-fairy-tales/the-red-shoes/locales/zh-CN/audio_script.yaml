@@ -57,13 +57,34 @@ audio_script:
         timbre: 低沉粗哑
         pace: 沉稳
         pitch: 低音
-    pastor_household:
-      display_name: 牧师一家
+    pastor:
+      display_name: 牧师
       tts:
-        delivery: 亲切温和，众声自然相合
-        timbre: 明朗柔和
-        pace: 适中
+        delivery: 宽厚庄重，亲切而诚恳
+        timbre: 沉稳温和
+        pace: 从容
+        pitch: 中低音
+    pastor_wife:
+      display_name: 牧师妻子
+      tts:
+        delivery: 慈爱体贴，语气真挚
+        timbre: 柔和明朗
+        pace: 舒缓
         pitch: 中音
+    child_1:
+      display_name: 孩子甲
+      tts:
+        delivery: 天真热切，话音轻快
+        timbre: 清脆稚嫩
+        pace: 稍快
+        pitch: 高音
+    child_2:
+      display_name: 孩子乙
+      tts:
+        delivery: 单纯友善，语气轻柔
+        timbre: 明亮稚嫩
+        pace: 适中
+        pitch: 中高音
   chapters:
     - id: ch01
       title: 第一章　红布鞋
@@ -246,7 +267,8 @@ audio_script:
           speaker: narrator
           text: 仿佛教堂来到了可怜姑娘的窄房间，又仿佛小屋去到了教堂里。珈伦已经和牧师一家坐在同一排长椅上。一曲唱完，大家抬头看见她，便向她点头。
         - id: ch05-b07
-          speaker: pastor_household
+          speakers: [pastor, pastor_wife, child_1, child_2]
+          ensemble: chorus
           text: 珈伦，你来到这里就对了。
         - id: ch05-b08
           speaker: karen

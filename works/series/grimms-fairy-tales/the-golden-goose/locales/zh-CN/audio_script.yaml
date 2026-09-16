@@ -50,13 +50,13 @@ audio_script:
         timbre: 年轻清亮
         pace: 稍快
         pitch: 中高
-    older_sisters:
-      display_name: 两个姐姐
+    second_daughter:
+      display_name: 二女儿
       tts:
-        delivery: 慌张急切，声音相叠
-        timbre: 年轻明亮
-        pace: 快
-        pitch: 高
+        delivery: 慌张急切，语气直率
+        timbre: 年轻清脆
+        pace: 稍快
+        pitch: 中高
     youngest_daughter:
       display_name: 三女儿
       tts:
@@ -174,7 +174,8 @@ audio_script:
           text: >-
             最后，三女儿也为了同样的事走了过来。两个姐姐一看见她，马上惊叫起来。
         - id: ch02-b10
-          speaker: older_sisters
+          speakers: [eldest_daughter, second_daughter]
+          ensemble: duo
           text: >-
             别过来！求你了，千万别靠近我们！
           emotion: fearful

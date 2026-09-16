@@ -22,13 +22,34 @@ audio_script:
         timbre: 苍老温厚
         pace: 舒缓
         pitch: 中低
-    sisters:
-      display_name: 姐姐们
+    sister_1:
+      display_name: 大姐
       tts:
-        delivery: 亲密活泼，忧伤时仍保持柔和
-        timbre: 清脆和谐
+        delivery: 亲切稳重，忧伤时语气低柔克制
+        timbre: 清澈温润
+        pace: 稍慢
+        pitch: 中
+    sister_2:
+      display_name: 二姐
+      tts:
+        delivery: 温柔爽朗，急切时仍吐字清楚
+        timbre: 明亮柔和
         pace: 中等
         pitch: 中高
+    sister_3:
+      display_name: 三姐
+      tts:
+        delivery: 坦率坚定，悲伤时带着轻微颤抖
+        timbre: 清亮有力
+        pace: 稍快
+        pitch: 中
+    sister_4:
+      display_name: 四姐
+      tts:
+        delivery: 细腻谨慎，哀伤时轻声而急迫
+        timbre: 柔细清脆
+        pace: 中等偏慢
+        pitch: 高
     sea_witch:
       display_name: 海巫婆
       tts:
@@ -137,7 +158,8 @@ audio_script:
           speaker: narrator
           text: 最后，她把秘密告诉了一位姐姐。消息很快传遍姐妹，又传到认识王子的美人鱼那里。姐姐们终于知道了他的国家和宫殿。
         - id: ch02-b11
-          speaker: sisters
+          speakers: [sister_1, sister_2, sister_3, sister_4]
+          ensemble: chorus
           text: 来吧，小妹妹，我们带你去找他。
         - id: ch02-b12
           speaker: narrator
@@ -337,7 +359,8 @@ audio_script:
           speaker: narrator
           text: 她正等待时，姐姐们忽然从海里升起。她们的脸和妹妹一样苍白，曾经迎风飘动的美丽长发却全都不见了，原来已经被齐齐剪掉。
         - id: ch05-b12
-          speaker: sisters
+          speakers: [sister_1, sister_2, sister_3, sister_4]
+          ensemble: chorus
           text: 我们把头发交给巫婆，求她救你。她给了我们这把锋利的刀。太阳升起以前，你得把刀刺进王子的心。只要他的热血落在你的脚上，两条腿就会重新合成鱼尾。你能回到我们身边，再活三百年，最后才化成海沫。快动手！日出以前，你和他必须死一个。老祖母哭得白发一根根脱落，就像我们的头发落在巫婆剪刀下一样。杀了王子，回来吧！天边已经亮了，再过几分钟，你就要死了！
           emotion: sad
         - id: ch05-b13

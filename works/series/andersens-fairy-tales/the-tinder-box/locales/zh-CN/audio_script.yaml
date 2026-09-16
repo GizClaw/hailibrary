@@ -29,13 +29,20 @@ audio_script:
         timbre: 浑厚
         pace: 稳定
         pitch: 低音
-    townspeople:
-      display_name: 城里人
+    townsperson_1:
+      display_name: 城里人甲
       tts:
-        delivery: 爱谈新鲜事的众人口吻
-        timbre: 清楚自然
+        delivery: 热心健谈，说起城中传闻时兴致勃勃
+        timbre: 清亮自然
         pace: 轻快
-        pitch: 中音
+        pitch: 中高音
+    townsperson_2:
+      display_name: 城里人乙
+      tts:
+        delivery: 直截了当，传话时带一点严肃
+        timbre: 朴实厚润
+        pace: 稍慢
+        pitch: 中低音
     queen:
       display_name: 王后
       tts:
@@ -50,13 +57,41 @@ audio_script:
         timbre: 洪亮厚实
         pace: 稳重
         pitch: 低音
-    crowd:
-      display_name: 众人
+    official_1:
+      display_name: 官员甲
       tts:
-        delivery: 齐声呼喊，情绪鲜明
-        timbre: 开阔响亮
-        pace: 明快
+        delivery: 谨慎拘礼，发现线索时脱口而出
+        timbre: 清晰偏细
+        pace: 稍快
+        pitch: 中高音
+    official_2:
+      display_name: 官员乙
+      tts:
+        delivery: 稳重克制，惊讶时仍带宫廷礼数
+        timbre: 圆润沉着
+        pace: 从容
+        pitch: 中低音
+    onlooker_1:
+      display_name: 围观者甲
+      tts:
+        delivery: 受惊后急切高喊，声音冲在最前
+        timbre: 明亮有力
+        pace: 急促
+        pitch: 中高音
+    onlooker_2:
+      display_name: 围观者乙
+      tts:
+        delivery: 慌张而恳切，呼喊中带着颤意
+        timbre: 略显沙哑
+        pace: 偏快
         pitch: 中音
+    onlooker_3:
+      display_name: 围观者丙
+      tts:
+        delivery: 惊惧中用力附和，语气响亮坚决
+        timbre: 浑厚开阔
+        pace: 明快
+        pitch: 低音
   chapters:
     - id: ch01
       title: 空心树里的三条狗
@@ -161,7 +196,7 @@ audio_script:
           speaker: soldier
           text: 要到哪里才能见到公主？
         - id: ch02-b04
-          speaker: townspeople
+          speaker: townsperson_1
           text: 谁也见不到她。她被留在一座四周都是高墙和塔楼的铜城堡里，只有国王能进出。预言说她会嫁给一个普通士兵，国王怎么也受不了这件事。
         - id: ch02-b05
           speaker: narrator
@@ -230,10 +265,14 @@ audio_script:
           speaker: queen
           text: 不对，亲爱的丈夫，准是那一家。
         - id: ch03-b13
-          speaker: crowd
-          text: 这里也有！那边还有一个！
+          speaker: official_1
+          text: 这里也有！
           emotion: surprised
         - id: ch03-b14
+          speaker: official_2
+          text: 那边还有一个！
+          emotion: surprised
+        - id: ch03-b15
           speaker: narrator
           text: 放眼望去，这边一扇门有十字，那边一扇门也有，四面八方的门竟没有一扇例外。国王、王后和官员们再也分不出哪一个记号是真的，只好承认，继续寻找也没有用了。
     - id: ch04
@@ -249,7 +288,7 @@ audio_script:
           speaker: narrator
           text: 第二天一早，国王和王后看见地上的面粉，便沿着那条白色的痕迹一直追下去。他们终于查明女儿夜里到了哪里。士兵马上被人抓起来，关进监狱。他坐在阴暗的牢房里，四周又黑又难受。
         - id: ch04-b04
-          speaker: townspeople
+          speaker: townsperson_2
           text: 明天你就要被绞死了。
         - id: ch04-b05
           speaker: narrator
@@ -289,7 +328,8 @@ audio_script:
           speaker: narrator
           text: 可最大的那条狗根本不听国王的话。它一把抓住国王，连王后也一起抓了起来，把他们朝那些法官和大臣摔去。这一下，四周的士兵和成千上万的百姓全都吓坏了。
         - id: ch05-b08
-          speaker: crowd
+          speakers: [onlooker_1, onlooker_2, onlooker_3]
+          ensemble: chorus
           text: 好士兵，你来做我们的国王吧！再娶美丽的公主做王后！
           emotion: fearful
         - id: ch05-b09

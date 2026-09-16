@@ -22,13 +22,20 @@ audio_script:
         timbre: 冷硬低沉
         pace: 稍慢
         pitch: 中低
-    roses:
-      display_name: 玫瑰
+    rose_1:
+      display_name: 玫瑰甲
       tts:
         delivery: 轻柔诚恳
         timbre: 明亮细腻
         pace: 轻快
         pitch: 高
+    rose_2:
+      display_name: 玫瑰乙
+      tts:
+        delivery: 温柔真挚，语气笃定
+        timbre: 清透柔和
+        pace: 舒展
+        pitch: 中高
     hymn_book:
       display_name: 赞美诗集
       tts:
@@ -92,12 +99,26 @@ audio_script:
         timbre: 平实
         pace: 自然
         pitch: 中
-    crowd:
-      display_name: 人群
+    townsman_1:
+      display_name: 市民甲
       tts:
-        delivery: 嘈杂冲动，随情势转变
-        timbre: 混合群声
+        delivery: 急躁冲动，容易被人群煽动
+        timbre: 粗粝沉厚
         pace: 偏快
+        pitch: 中低
+    townsman_2:
+      display_name: 市民乙
+      tts:
+        delivery: 尖锐急切，情绪起伏明显
+        timbre: 明亮偏薄
+        pace: 快
+        pitch: 中高
+    townsman_3:
+      display_name: 市民丙
+      tts:
+        delivery: 直率跟随，转为议论时声音收敛
+        timbre: 朴实沙哑
+        pace: 自然偏快
         pitch: 中
   chapters:
     - id: ch01
@@ -124,7 +145,8 @@ audio_script:
           text: >-
             农舍里的艾丽莎没有别的玩具，只能拿一片绿叶来玩。她在叶上戳个小洞，透过小洞看太阳，仿佛又看见哥哥们明亮的眼睛。阳光暖暖地照着脸颊，她就想起哥哥给过自己的亲吻。日子一天接一天过去。风有时吹响玫瑰丛，悄悄问谁能比玫瑰更美。
         - id: ch01-b06
-          speaker: roses
+          speakers: [rose_1, rose_2]
+          ensemble: duo
           text: 艾丽莎比我们更美。
         - id: ch01-b07
           speaker: narrator
@@ -377,7 +399,8 @@ audio_script:
           text: >-
             城门打开，人们潮水般涌出去，都要看女巫怎样被烧死。一匹老马拉着囚车，艾丽莎就坐在车上。她穿着粗麻袋做的衣裳，美丽的长发散落肩头，双颊惨白得没有一丝血色。她的嘴唇无声地动着，手指仍旧在不停处理绿色的荨麻纤维。就算已经走在赴死的路上，她也不肯放弃自己的任务。十件衣服整整齐齐放在脚边，她正拼命赶织第十一件。
         - id: ch05-b05
-          speaker: crowd
+          speakers: [townsman_1, townsman_2, townsman_3]
+          ensemble: chorus
           text: >-
             快看这个女巫！她还在偷偷念咒。手里不拿赞美诗，偏抱着那堆邪恶的巫术。把那些东西全撕碎！一片也别留下！
           emotion: angry
@@ -386,7 +409,8 @@ audio_script:
           text: >-
             人群向囚车挤去，伸手就要抢走荨麻衣。就在这一刻，十一只野天鹅飞到艾丽莎上方，落在车上。大翅膀一起扇动，吓得人们慌忙退开。
         - id: ch05-b07
-          speaker: crowd
+          speakers: [townsman_1, townsman_2, townsman_3]
+          ensemble: chorus
           text: 这一定是上天给的征兆。她没有罪。
         - id: ch05-b08
           speaker: narrator

@@ -10,9 +10,6 @@ audio_script:
     cinderella:
       display_name: 灰姑娘
       tts: {delivery: 纯真而坚定, timbre: 清亮, pace: 适中, pitch: 中高}
-    stepsisters:
-      display_name: 两个继姐
-      tts: {delivery: 傲慢而刻薄, timbre: 尖亮, pace: 稍快, pitch: 高}
     elder_sister:
       display_name: 姐姐
       tts: {delivery: 骄横而急切, timbre: 明亮, pace: 适中, pitch: 中高}
@@ -28,9 +25,12 @@ audio_script:
     prince:
       display_name: 王子
       tts: {delivery: 坚定而直接, timbre: 清朗, pace: 适中, pitch: 中}
-    birds:
-      display_name: 鸽子
-      tts: {delivery: 整齐而清脆, timbre: 轻亮, pace: 轻快, pitch: 高}
+    pigeon_1:
+      display_name: 鸽子甲
+      tts: {delivery: 清脆而警醒, timbre: 轻亮, pace: 轻快, pitch: 高}
+    pigeon_2:
+      display_name: 鸽子乙
+      tts: {delivery: 坚定而明快, timbre: 圆润, pace: 稍快, pitch: 中高}
   chapters:
     - id: ch01
       title: 炉灰里的姑娘
@@ -45,14 +45,16 @@ audio_script:
           speaker: narrator
           text: 说完，母亲闭上眼睛，离开了人世。姑娘天天到母亲坟前哭泣，也始终善良虔诚。冬天，白雪像洁白的被单盖住坟墓。等春天的太阳把雪融去，父亲已经娶了新的妻子。继母带来两个女儿。她们长得白净漂亮，心肠却又黑又坏。从那以后，可怜姑娘的苦日子开始了。
         - id: ch01-b04
-          speaker: stepsisters
+          speakers: [elder_sister, younger_sister]
+          ensemble: duo
           text: 这只蠢鹅也想跟我们坐在客厅？想吃面包，就得干活。出去吧，厨房丫头！
           emotion: disgusted
         - id: ch01-b05
           speaker: narrator
           text: 她们脱下姑娘漂亮的衣服，给她套上灰旧的罩衣，又扔来一双木鞋。
         - id: ch01-b06
-          speaker: stepsisters
+          speakers: [elder_sister, younger_sister]
+          ensemble: duo
           text: 快看这位骄傲的公主！她穿得可真气派呀！
           emotion: happy
         - id: ch01-b07
@@ -83,7 +85,8 @@ audio_script:
           speaker: narrator
           text: 后来，国王要举行三天庆典，请全国年轻漂亮的姑娘都来，好让王子挑选新娘。两个继姐听说自己也能参加，高兴极了。
         - id: ch02-b02
-          speaker: stepsisters
+          speakers: [elder_sister, younger_sister]
+          ensemble: duo
           text: 灰姑娘，快来给我们梳头，把鞋刷好，再扣上鞋扣。我们要进王宫参加庆典啦！
           emotion: happy
         - id: ch02-b03
@@ -196,7 +199,8 @@ audio_script:
           speaker: narrator
           text: 姐姐拿刀割掉大脚趾，把脚硬塞进鞋里。她强忍着疼痛走到王子面前。王子以为找到了新娘，扶她上马，带着她离开。可他们必须从墓地旁经过。母亲坟前的榛树上坐着两只鸽子，它们看见这位新娘，立刻叫了起来。
         - id: ch04-b06
-          speaker: birds
+          speakers: [pigeon_1, pigeon_2]
+          ensemble: duo
           text: 回头瞧，回头瞧，鞋里鲜血往外冒。这只鞋儿太嫌小，真新娘还在家中等你找。
         - id: ch04-b07
           speaker: narrator
@@ -208,7 +212,8 @@ audio_script:
           speaker: narrator
           text: 妹妹拿刀削掉一块脚后跟，忍着疼把脚硬塞进鞋里，再走出去见王子。王子也把她当成新娘，扶她上马，带着她离开。可他们经过榛树时，两只小鸽子又坐在枝头叫了起来。
         - id: ch04-b10
-          speaker: birds
+          speakers: [pigeon_1, pigeon_2]
+          ensemble: duo
           text: 回头瞧，回头瞧，鞋里鲜血往外冒。这只鞋儿太嫌小，真新娘还在家中等你找。
         - id: ch04-b11
           speaker: narrator
@@ -236,7 +241,8 @@ audio_script:
           speaker: narrator
           text: 继母和两个姐姐吓坏了，又气得脸色煞白。王子扶灰姑娘上马，带她离去。经过榛树时，两只白鸽唱道——
         - id: ch04-b19
-          speaker: birds
+          speakers: [pigeon_1, pigeon_2]
+          ensemble: duo
           text: 回头瞧，回头瞧，鞋里一滴血没有。这只鞋儿正正好，真新娘就在马上跟你走。
         - id: ch04-b20
           speaker: narrator

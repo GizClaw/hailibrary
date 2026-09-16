@@ -36,13 +36,34 @@ audio_script:
         timbre: 细弱微颤
         pace: 中快，惊魂未定时断续
         pitch: 高音
-    animals:
-      display_name: 鸟兽们
+    animal_1:
+      display_name: 鸟兽甲
       tts:
-        delivery: 七嘴八舌，热闹而急切
-        timbre: 层次丰富的群声
+        delivery: 机灵急切，说话干脆利落
+        timbre: 清亮偏细
+        pace: 快速
+        pitch: 中高音
+    animal_2:
+      display_name: 鸟兽乙
+      tts:
+        delivery: 忙乱认真，语气直率
+        timbre: 圆润清楚
         pace: 中快
         pitch: 中音
+    animal_3:
+      display_name: 鸟兽丙
+      tts:
+        delivery: 胆怯谨慎，着急时略显慌张
+        timbre: 轻薄微颤
+        pace: 稍快
+        pitch: 高音
+    animal_4:
+      display_name: 鸟兽丁
+      tts:
+        delivery: 热心爽快，招呼同伴时响亮有力
+        timbre: 略粗而明朗
+        pace: 中快
+        pitch: 中低音
   chapters:
     - id: ch01
       title: 兔子派小比尔进来
@@ -167,87 +188,131 @@ audio_script:
           speaker: narrator
           text: 她等了好一阵，终于听见小车轮滚来，还有一大群声音在外面吵成一团。
         - id: ch01-b38
-          speaker: animals
-          text: 另一架梯子在哪儿？我只需要带一架，另一架在比尔那里！比尔，小子，把它拿过来！把两架梯子搭在这个墙角。不对，先捆在一起，要不连一半高也够不到。哎呀，这样就能用了，别那么挑剔！比尔，抓住这根绳子。屋顶撑得住吗？当心那块松瓦！不好，它掉下来啦，下面的人快低头！
+          speaker: animal_1
+          text: 另一架梯子在哪儿？
         - id: ch01-b39
+          speaker: animal_2
+          text: 我只需要带一架，另一架在比尔那里！
+        - id: ch01-b40
+          speaker: animal_3
+          text: 比尔，小子，把它拿过来！
+        - id: ch01-b41
+          speaker: animal_4
+          text: 把两架梯子搭在这个墙角。
+        - id: ch01-b42
+          speaker: animal_1
+          text: 不对，先捆在一起，要不连一半高也够不到。
+        - id: ch01-b43
+          speaker: animal_2
+          text: 哎呀，这样就能用了，别那么挑剔！
+        - id: ch01-b44
+          speaker: animal_3
+          text: 比尔，抓住这根绳子。
+        - id: ch01-b45
+          speaker: animal_4
+          text: 屋顶撑得住吗？
+        - id: ch01-b46
+          speaker: animal_1
+          text: 当心那块松瓦！
+        - id: ch01-b47
+          speaker: animal_2
+          text: 不好，它掉下来啦，下面的人快低头！
+        - id: ch01-b48
           speaker: narrator
           text: 屋外轰隆一声巨响，众人又吵着追问是谁闯的祸。有人猜一定是比尔干的。接着，它们开始商量谁从烟囱下去，却一个推一个，谁也不肯往里钻。最后，白兔替大家作了决定。
-        - id: ch01-b40
+        - id: ch01-b49
           speaker: white_rabbit
           text: 就让比尔去。比尔，主人命令你从烟囱下去！
-        - id: ch01-b41
+        - id: ch01-b50
           speaker: alice
           text: 原来要让比尔下来。它们什么事都推给他，我可不愿意跟他换位置。烟道虽然窄，我应该还能踢上一脚。
-        - id: ch01-b42
+        - id: ch01-b51
           speaker: narrator
           text: 爱丽丝把脚伸进烟囱，尽量往低处放。上方有只小动物抓抓蹭蹭地爬下来，她也猜不出是哪一种。等声音靠近，她认定那就是比尔，猛地踢出一脚。
-        - id: ch01-b43
-          speaker: animals
-          text: 比尔飞出去啦！篱笆边上的快接住他！托住他的头，拿白兰地来，别呛着他！老伙计，刚才出了什么事？快告诉我们！
-        - id: ch01-b44
+        - id: ch01-b52
+          speakers: [animal_1, animal_2, animal_3, animal_4]
+          ensemble: chorus
+          text: 比尔飞出去啦！
+        - id: ch01-b53
+          speaker: white_rabbit
+          text: 篱笆边上的快接住他！
+        - id: ch01-b54
+          speaker: animal_1
+          text: 托住他的头，
+        - id: ch01-b55
+          speaker: animal_2
+          text: 拿白兰地来，
+        - id: ch01-b56
+          speaker: animal_3
+          text: 别呛着他！
+        - id: ch01-b57
+          speaker: animal_4
+          text: 老伙计，刚才出了什么事？快告诉我们！
+        - id: ch01-b58
           speaker: narrator
           text: 白兔又叫篱笆边上的伙伴接住比尔。外面忽然安静下来，随后才乱成一团。大家忙着托住比尔的头，找来白兰地，又怕把他呛着，还七嘴八舌地追问他遇上了什么。闹了好一会儿，一个虚弱的尖嗓子才终于响起。爱丽丝听出那就是比尔。
-        - id: ch01-b45
+        - id: ch01-b59
           speaker: bill
           text: 我也不知道发生了什么。谢谢，别再给我喝了，我已经好多了。可我慌得什么都说不清。我只知道，有个东西像盒子里的弹簧小人一样朝我冲过来，我就像火箭一样飞上了天！
           emotion: fearful
-        - id: ch01-b46
-          speaker: animals
+        - id: ch01-b60
+          speakers: [animal_1, animal_2, animal_3, animal_4]
+          ensemble: chorus
           text: 老伙计，你确实飞上去了！
-        - id: ch01-b47
+        - id: ch01-b61
           speaker: white_rabbit
           text: 我们只好把房子烧掉！
           emotion: angry
-        - id: ch01-b48
+        - id: ch01-b62
           speaker: alice
           text: 你们敢烧房子，我就叫黛娜来对付你们！
           emotion: angry
-        - id: ch01-b49
+        - id: ch01-b63
           speaker: narrator
           text: 外面立刻静得一点声音也没有。爱丽丝等着它们的下一步，怎么猜也猜不出来。她心想，这群家伙只要稍微有点头脑，就该把屋顶整个掀开。过了一两分钟，外面终于又传来走动的声音。
-        - id: ch01-b50
+        - id: ch01-b64
           speaker: white_rabbit
           text: 先推满满一独轮车过来，这些应该够用了。
-        - id: ch01-b51
+        - id: ch01-b65
           speaker: alice
           text: 它说的是满满一车什么东西？
-        - id: ch01-b52
+        - id: ch01-b66
           speaker: narrator
           text: 她没来得及多想，答案马上就来了。一阵小石子从窗口噼里啪啦地飞进屋里，在地板上蹦得到处都是，还有几颗直接砸中了爱丽丝的脸。
-        - id: ch01-b53
+        - id: ch01-b67
           speaker: alice
           text: 你们最好别再扔了！
           emotion: angry
-        - id: ch01-b54
+        - id: ch01-b68
           speaker: narrator
           text: 外面再次安静了。爱丽丝惊讶地发现，落在地板上的石子竟一个个变成了小蛋糕。她马上想到，吃下一块准会改变自己的大小。既然不可能变得更大，那就只能变小了。她吞下一块，果然立刻缩了起来。身子刚小到能穿过门，她便冲出房子。门外挤满了小动物和鸟儿。可怜的小蜥蜴比尔躺在中间，由两只豚鼠扶着。它们正从一个瓶子里倒出东西给他喝。大家一看见爱丽丝便全扑过来。她只得拼命奔跑，很快逃进茂密的树林，这才觉得安全。
-        - id: ch01-b55
+        - id: ch01-b69
           speaker: alice
           text: 现在先让自己恢复原来的大小，再想办法走进那座美丽的花园。这样安排最好。
-        - id: ch01-b56
+        - id: ch01-b70
           speaker: narrator
           text: 这计划听来又清楚又简单，几乎没有比它更好的安排了。唯一的问题是，爱丽丝连第一步该怎么做都不知道。她正焦急地从树木之间往远处细看，头顶忽然传来又短又尖的一声犬吠。她吓了一跳，连忙抬起头。
-        - id: ch01-b57
+        - id: ch01-b71
           speaker: narrator
           text: 一只大得吓人的小狗正用圆眼睛望着她，还笨拙地伸出爪子来碰她。
-        - id: ch01-b58
+        - id: ch01-b72
           speaker: alice
           text: 可怜的小家伙，过来呀！
-        - id: ch01-b59
+        - id: ch01-b73
           speaker: narrator
           text: 爱丽丝努力吹着口哨哄它，心里却一直怕得要命。要是小狗正饿着，不管她说多少好话，它还是很可能一口把她吃掉。她自己也不知道该怎么办，慌乱中捡起一小截树枝，举到小狗面前。小狗顿时欢叫一声，四只脚同时跳离地面。它冲向树枝，装出要狠狠撕咬一番的样子。爱丽丝赶快躲到一株大蓟后面，以免被它踩扁。
-        - id: ch01-b60
+        - id: ch01-b74
           speaker: narrator
           text: 她刚从大蓟另一边露头，小狗又扑向树枝，急得一头栽倒，翻了个跟头。爱丽丝觉得，跟这么大的小狗玩耍，简直像在逗一匹拉车的马。她随时都可能被踩在脚下，只能又绕着大蓟跑一圈。小狗接连朝树枝发起短短的冲锋，每回只往前跑一点，却要退回很远，还不停地发出粗哑的叫声。最后，它总算在远处坐下来，舌头长长地垂在嘴外，呼哧呼哧直喘气，两只圆圆的大眼睛也半闭上了。
-        - id: ch01-b61
+        - id: ch01-b75
           speaker: narrator
           text: 爱丽丝看见小狗累得坐下，知道逃跑的好机会来了，立刻转身便跑。她一直跑到浑身没力气，连气也喘不上来，这才停下。小狗的叫声已经落在很远的地方，传到耳边只剩微弱的一点。她靠着一株毛茛休息，还摘下一片叶子给自己扇风。
-        - id: ch01-b62
+        - id: ch01-b76
           speaker: alice
           text: 它其实真可爱。要是我的大小合适，我很想教它几样把戏。糟了，我差点忘记还得长大！该怎么做呢？多半要吃点或喝点什么，可到底该吃什么、喝什么？
-        - id: ch01-b63
+        - id: ch01-b77
           speaker: narrator
           text: 这确实是最要紧的问题。爱丽丝看遍四周的花朵和一片片草叶，没有一样像是眼下该吃或该喝的东西。附近倒有一朵大蘑菇，长得跟她差不多高。她先弯腰瞧了瞧蘑菇底下，又仔细看过两边，还特意绕到后面找了一遍。既然四周都看过了，她便踮起脚尖，伸长身子，想看看蘑菇顶上有什么。
-        - id: ch01-b64
+        - id: ch01-b78
           speaker: narrator
           text: 她刚从边缘探出头，就对上了一双眼睛。蘑菇顶上坐着一条蓝色的大毛毛虫。它双臂交叉，安静地抽着长水烟袋，既不理爱丽丝，也不在意周围的任何事情。

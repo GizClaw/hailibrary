@@ -19,15 +19,21 @@ audio_script:
     disappointed_man:
       display_name: 失意的人
       tts: {delivery: 低沉感慨, timbre: 略显疲惫, pace: 缓慢, pitch: 中低音}
-    charity_children:
-      display_name: 慈善学校的孩子们
-      tts: {delivery: 天真齐整, timbre: 明亮稚嫩, pace: 适中, pitch: 高音}
+    charity_child_1:
+      display_name: 慈善学校的孩子甲
+      tts: {delivery: 天真活泼而满怀想象, timbre: 清亮稚嫩, pace: 稍快, pitch: 高音}
+    charity_child_2:
+      display_name: 慈善学校的孩子乙
+      tts: {delivery: 认真直率而充满好奇, timbre: 柔亮稚嫩, pace: 适中, pitch: 中高音}
     mathematical_master:
       display_name: 数学老师
       tts: {delivery: 严肃挑剔, timbre: 干净偏硬, pace: 适中, pitch: 中低音}
-    other_swallows:
-      display_name: 燕子们
-      tts: {delivery: 七嘴八舌又爱评议, timbre: 清脆, pace: 稍快, pitch: 中高音}
+    other_swallow_1:
+      display_name: 燕子甲
+      tts: {delivery: 伶俐尖锐而爱评议, timbre: 清脆轻巧, pace: 稍快, pitch: 高音}
+    other_swallow_2:
+      display_name: 燕子乙
+      tts: {delivery: 直率世故而带几分戏谑, timbre: 明亮利落, pace: 快, pitch: 中高音}
     palace_lady:
       display_name: 宫廷姑娘
       tts: {delivery: 娇贵而漫不经心, timbre: 明亮, pace: 适中, pitch: 中高音}
@@ -40,30 +46,42 @@ audio_script:
     ornithology_professor:
       display_name: 鸟类学教授
       tts: {delivery: 郑重而学究气, timbre: 清晰, pace: 缓慢, pitch: 中低音}
-    sparrows:
-      display_name: 麻雀们
-      tts: {delivery: 好奇而兴奋, timbre: 轻快, pace: 稍快, pitch: 高音}
+    sparrow_1:
+      display_name: 麻雀甲
+      tts: {delivery: 好奇兴奋而热情, timbre: 轻盈清亮, pace: 快, pitch: 高音}
+    sparrow_2:
+      display_name: 麻雀乙
+      tts: {delivery: 机灵雀跃而爱凑热闹, timbre: 清脆圆润, pace: 稍快, pitch: 中高音}
     playwright:
       display_name: 年轻剧作家
       tts: {delivery: 敏感而充满幻想, timbre: 清朗偏弱, pace: 适中, pitch: 中音}
-    sailors:
-      display_name: 水手们
-      tts: {delivery: 齐声用力, timbre: 粗犷, pace: 有力, pitch: 中低音}
+    sailor_1:
+      display_name: 水手甲
+      tts: {delivery: 豪爽有力而节奏鲜明, timbre: 粗犷浑厚, pace: 短促, pitch: 低音}
+    sailor_2:
+      display_name: 水手乙
+      tts: {delivery: 干练响亮而富有号子感, timbre: 洪亮结实, pace: 稍快, pitch: 中低音}
     match_girl:
       display_name: 卖火柴的小女孩
       tts: {delivery: 稚嫩而惊喜, timbre: 纤细, pace: 稍快, pitch: 高音}
-    hungry_boys:
-      display_name: 挨饿的男孩们
-      tts: {delivery: 寒冷虚弱, timbre: 稚嫩, pace: 缓慢, pitch: 高音}
+    hungry_boy_1:
+      display_name: 挨饿的男孩甲
+      tts: {delivery: 寒冷虚弱而怯生生, timbre: 纤细稚嫩, pace: 缓慢, pitch: 高音}
+    hungry_boy_2:
+      display_name: 挨饿的男孩乙
+      tts: {delivery: 饥饿疲惫而相互依偎, timbre: 沙哑稚嫩, pace: 很慢, pitch: 中高音}
     watchman:
       display_name: 巡夜人
       tts: {delivery: 生硬粗暴, timbre: 洪亮, pace: 短促, pitch: 中低音}
     mayor:
       display_name: 市长
       tts: {delivery: 官气十足而自负, timbre: 饱满, pace: 适中, pitch: 中低音}
-    town_councillors:
-      display_name: 市议员们
-      tts: {delivery: 附和而争强, timbre: 整齐厚实, pace: 适中, pitch: 中音}
+    town_councillor_2:
+      display_name: 市议员乙
+      tts: {delivery: 急于附和又暗自争强, timbre: 偏亮圆滑, pace: 稍快, pitch: 中高音}
+    town_councillor_3:
+      display_name: 市议员丙
+      tts: {delivery: 一本正经而自以为是, timbre: 厚实偏硬, pace: 稍慢, pitch: 中低音}
     art_professor:
       display_name: 艺术教授
       tts: {delivery: 冷淡武断, timbre: 干涩, pace: 缓慢, pitch: 中低音}
@@ -97,7 +115,8 @@ audio_script:
           text: 世上总算还有一个人是真正快乐的。
           emotion: sad
         - id: ch01-b07
-          speaker: charity_children
+          speakers: [charity_child_1, charity_child_2]
+          ensemble: duo
           text: 你们看，他就像一位天使！
         - id: ch01-b08
           speaker: narrator
@@ -106,7 +125,8 @@ audio_script:
           speaker: mathematical_master
           text: 你们从来没见过天使，怎么会知道他像不像？
         - id: ch01-b10
-          speaker: charity_children
+          speakers: [charity_child_1, charity_child_2]
+          ensemble: duo
           text: 可我们在梦里见过呀！
         - id: ch01-b11
           speaker: narrator
@@ -121,7 +141,8 @@ audio_script:
           speaker: narrator
           text: 小燕子向来有话直说。芦苇弯下腰，深深行了个礼。他便绕着她一圈圈地飞，翅尖轻轻掠过水面，留下一道道银色涟漪。这样的求爱持续了一整个夏天。
         - id: ch01-b15
-          speaker: other_swallows
+          speakers: [other_swallow_1, other_swallow_2]
+          ensemble: duo
           text: 这门恋爱太荒唐了！她一文不名，亲戚还多得数不清。
         - id: ch01-b16
           speaker: narrator
@@ -249,7 +270,8 @@ audio_script:
           speaker: narrator
           text: 教授特意写了一封长信投给当地报纸。信里塞满大家看不懂的词，反倒叫人人都爱引用。小燕子想到当晚就能去埃及，心情好极了。他在城里到处游逛，参观了所有公共纪念建筑，还在教堂尖顶上坐了很久。
         - id: ch02-b21
-          speaker: sparrows
+          speakers: [sparrow_1, sparrow_2]
+          ensemble: duo
           text: 快看，多么不凡的一位外乡客！
         - id: ch02-b22
           speaker: narrator
@@ -296,7 +318,8 @@ audio_script:
           speaker: narrator
           text: 年轻人满脸欢喜。第二天，小燕子飞到港口，停在一艘大船的桅杆上。他看着水手们放下粗绳，再合力把一只只沉重的大箱子从船舱深处吊上来。
         - id: ch03-b11
-          speaker: sailors
+          speakers: [sailor_1, sailor_2]
+          ensemble: duo
           text: 嗨哟，大家一起使劲拉！
         - id: ch03-b12
           speaker: swallow
@@ -358,7 +381,8 @@ audio_script:
           speaker: narrator
           text: 小燕子从城市的一头飞到另一头。他看见富人们聚在漂亮房子里寻欢作乐，乞丐却只能坐在大门外。他又转进一条条阴暗的小巷。那里，挨饿的孩子脸色苍白，从屋里向外望着漆黑的街道，眼神已经麻木。桥洞下面，两个小男孩躺在那里，紧紧抱住对方，想从彼此身上得到一点暖意。
         - id: ch04-b04
-          speaker: hungry_boys
+          speakers: [hungry_boy_1, hungry_boy_2]
+          ensemble: duo
           text: 我们好饿啊！
           emotion: sad
         - id: ch04-b05
@@ -375,7 +399,8 @@ audio_script:
           speaker: narrator
           text: 小燕子一片又一片地啄下细薄的金叶，快乐王子身上的光彩也一寸寸消失，直到整尊雕像变得灰暗无光。他又把每一片金叶送到穷人手里。挨饿的孩子终于有了食物，苍白的脸渐渐红润，又能在街上笑着追逐，重新玩起游戏。
         - id: ch04-b09
-          speaker: charity_children
+          speakers: [charity_child_1, charity_child_2]
+          ensemble: duo
           text: 我们有面包吃啦！
           emotion: happy
         - id: ch04-b10
@@ -416,7 +441,8 @@ audio_script:
           text: 哎呀，快乐王子怎么变得这么破旧！
           emotion: surprised
         - id: ch05-b03
-          speaker: town_councillors
+          speakers: [town_councillor, town_councillor_2, town_councillor_3]
+          ensemble: chorus
           text: 的确太破旧了！
         - id: ch05-b04
           speaker: narrator
@@ -425,7 +451,8 @@ audio_script:
           speaker: mayor
           text: 剑上的红宝石没了，两只眼睛也不见了，身上一点金色都没有。现在的他，简直跟乞丐差不多！
         - id: ch05-b06
-          speaker: town_councillors
+          speakers: [town_councillor, town_councillor_2, town_councillor_3]
+          ensemble: chorus
           text: 简直跟乞丐差不多！
         - id: ch05-b07
           speaker: mayor
@@ -443,7 +470,8 @@ audio_script:
           speaker: mayor
           text: 当然应该再铸一尊雕像，而且要铸成我的模样。
         - id: ch05-b12
-          speaker: town_councillors
+          speakers: [town_councillor, town_councillor_2, town_councillor_3]
+          ensemble: chorus
           text: 不，该铸成我的模样！
           emotion: angry
         - id: ch05-b13

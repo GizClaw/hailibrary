@@ -16,9 +16,15 @@ audio_script:
     page:
       display_name: 小侍童
       tts: {delivery: 机灵快活, timbre: 年轻清脆, pace: 轻快, pitch: 高音}
-    crowd:
-      display_name: 众人
-      tts: {delivery: 热烈齐声, timbre: 层次丰富, pace: 明快, pitch: 中音}
+    crowd_1:
+      display_name: 众人甲
+      tts: {delivery: 热情直率, timbre: 洪亮清朗, pace: 明快, pitch: 中音}
+    crowd_2:
+      display_name: 众人乙
+      tts: {delivery: 兴奋爽朗, timbre: 明亮饱满, pace: 轻快, pitch: 中高音}
+    crowd_3:
+      display_name: 众人丙
+      tts: {delivery: 热烈庄重, timbre: 浑厚清晰, pace: 稳健, pitch: 中低音}
     squib:
       display_name: 小爆竹
       tts: {delivery: 单纯兴奋, timbre: 小巧清脆, pace: 快, pitch: 高音}
@@ -49,9 +55,12 @@ audio_script:
     duck:
       display_name: 白鸭
       tts: {delivery: 平和实际, timbre: 宽厚略沙哑, pace: 不紧不慢, pitch: 中音}
-    boys:
-      display_name: 小男孩们
-      tts: {delivery: 随意活泼, timbre: 稚嫩清亮, pace: 快, pitch: 高音}
+    boy_1:
+      display_name: 小男孩甲
+      tts: {delivery: 好奇又活泼, timbre: 稚嫩清亮, pace: 轻快, pitch: 高音}
+    boy_2:
+      display_name: 小男孩乙
+      tts: {delivery: 爽快又调皮, timbre: 稚嫩圆亮, pace: 快, pitch: 中高音}
     goose:
       display_name: 鹅
       tts: {delivery: 受惊慌张, timbre: 响亮粗直, pace: 急促, pitch: 中高音}
@@ -63,7 +72,8 @@ audio_script:
           speaker: narrator
           text: 国王的儿子要结婚了，举国上下都在庆祝。王子等了整整一年，新娘终于来了。她是一位俄罗斯公主，从芬兰一路坐雪橇来到这里，拉雪橇的是六头驯鹿。那辆雪橇做成一只巨大的金天鹅，公主本人就躺在天鹅两翼之间。她披着一件长长的白鼬皮斗篷，一直垂到脚面，头上还戴着银丝织成的小帽。她的脸色很白，就像她从小住惯的冰雪宫殿。她实在太白了，雪橇穿过街道时，人人都看得惊奇，纷纷从阳台把鲜花抛向她。
         - id: ch01-b02
-          speaker: crowd
+          speakers: [crowd_1, crowd_2, crowd_3]
+          ensemble: chorus
           text: 她就像一朵白玫瑰！
           emotion: surprised
         - id: ch01-b03
@@ -93,14 +103,16 @@ audio_script:
           speaker: narrator
           text: 国王又把他的薪水加了一倍。
         - id: ch01-b11
-          speaker: crowd
+          speakers: [crowd_1, crowd_2, crowd_3]
+          ensemble: chorus
           text: 多大的荣誉啊！
           emotion: happy
         - id: ch01-b12
           speaker: narrator
           text: 国宴以后还要举行舞会。王子和公主要一同跳玫瑰舞，国王也答应亲自吹笛子。其实国王吹得很糟，只是从来没人敢告诉他，因为他毕竟是国王。他总共只会两支曲子，自己还从来弄不清正在吹哪一支。不过这又有什么关系呢？无论他吹成什么样，众人都会大声叫好。
         - id: ch01-b13
-          speaker: crowd
+          speakers: [crowd_1, crowd_2, crowd_3]
+          ensemble: chorus
           text: 妙极了！真是妙极了！
         - id: ch01-b14
           speaker: narrator
@@ -267,7 +279,8 @@ audio_script:
           speaker: narrator
           text: 火气球一边告别，一边升上天空，身后撒下点点蓝色火星。爆竹们玩得开心极了，用一声声“砰！砰！”来回应。每一枚焰火都大获成功，只有那枚了不起的火箭没有。他先前哭得太湿，根本没能点燃。他身上最好的东西就是火药，可那些火药也被眼泪浸透，已经毫无用处。至于他那些可怜的亲戚，平时他就算肯跟他们说话，也只会冷嘲热讽。如今他们全都飞上天空，像一朵朵奇妙的金花，绽开了火焰的花瓣。
         - id: ch03-b06
-          speaker: crowd
+          speakers: [crowd_1, crowd_2, crowd_3]
+          ensemble: chorus
           text: 万岁！万岁！
           emotion: happy
         - id: ch03-b07
@@ -386,7 +399,7 @@ audio_script:
           speaker: narrator
           text: 火箭说完，又往泥里沉得更深了一点。他开始认真思索，像自己这样的天才为什么总是如此孤独。就在这时，两个穿白色罩衫的小男孩沿着河岸跑了下来。他们一个提着水壶，另一个抱着一捆柴。火箭看见他们，马上认定，前来拜见自己的代表团终于到了。
         - id: ch04-b13
-          speaker: boys
+          speaker: boy_1
           text: 嘿，瞧这根老木棍！它怎么跑到这里来了？
           emotion: surprised
         - id: ch04-b14
@@ -396,7 +409,7 @@ audio_script:
           speaker: rocket
           text: 老木棍？不可能。他说的是“金木棍”。这可是极大的赞美。他一定把我当成宫廷显贵了。
         - id: ch04-b16
-          speaker: boys
+          speaker: boy_2
           text: 把它扔进火里吧，正好帮我们烧水。
         - id: ch04-b17
           speaker: narrator
@@ -406,7 +419,8 @@ audio_script:
           text: 太了不起了！他们要在大白天发射我，让所有人都看见。
           emotion: happy
         - id: ch04-b19
-          speaker: boys
+          speakers: [boy_1, boy_2]
+          ensemble: duo
           text: 咱们睡一会儿。醒来以后，水就开了。
         - id: ch04-b20
           speaker: narrator

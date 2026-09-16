@@ -22,13 +22,27 @@ audio_script:
         timbre: 温和朴实
         pace: 稍慢
         pitch: 中
-    inn_guests:
-      display_name: 客店里的众人
+    inn_guest_1:
+      display_name: 客人甲
       tts:
-        delivery: 紧张顺从，合唱时竭力提高声音
-        timbre: 混合而朴实的乡民群声
+        delivery: 紧张顺从，为免惹怒船长而用力跟唱
+        timbre: 粗朴微哑的成年男声
         pace: 稍快
-        pitch: 中
+        pitch: 中低
+    inn_guest_2:
+      display_name: 客人乙
+      tts:
+        delivery: 胆怯拘谨，跟唱时急着盖过旁人的声音
+        timbre: 清瘦发紧的年轻男声
+        pace: 偏快
+        pitch: 中高
+    inn_guest_3:
+      display_name: 客人丙
+      tts:
+        delivery: 忐忑而勉强，竭力装出响亮顺从的样子
+        timbre: 朴实浑厚的中年男声
+        pace: 稍慢
+        pitch: 低
     doctor_livesey:
       display_name: 利弗西医生
       tts:
@@ -86,7 +100,8 @@ audio_script:
           speaker: narrator
           text: 可我虽然怕极了独腿水手，却没有别人那么怕船长。船长有些晚上喝下的朗姆酒兑水，远远超过了脑袋能承受的分量。他有时独自坐着，不理任何人，只唱那些古老、邪恶又狂野的海歌。有时，他又给在场每个人叫上一杯酒，逼满屋子发抖的人听他的故事，还要替他合唱。整座客店常常随着歌声震动。邻居们仿佛性命都悬在上面，只能拼命跟着唱，还争着比别人更响，免得被他挑中。
         - id: ch02-b07
-          speaker: inn_guests
+          speakers: [inn_guest_1, inn_guest_2, inn_guest_3]
+          ensemble: chorus
           text: 哟嗬嗬，再来一瓶朗姆酒！
         - id: ch02-b08
           speaker: narrator

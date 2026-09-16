@@ -78,13 +78,6 @@ audio_script:
         timbre: 年轻清朗
         pace: 明快
         pitch: 中音
-    girls:
-      display_name: 姑娘们
-      tts:
-        delivery: 年轻活泼，齐声时层次清楚
-        timbre: 清亮多声部
-        pace: 明快
-        pitch: 中高音
   chapters:
     - id: ch01
       title: 第十章　匹克威克社与邮政局
@@ -258,7 +251,8 @@ audio_script:
           speaker: jo
           text: 大家记住，那可是我们的劳里。现在一起说“赞成”！
         - id: ch01-b57
-          speaker: girls
+          speakers: [meg, beth, amy]
+          ensemble: chorus
           text: 赞成！赞成！赞成！
           emotion: happy
         - id: ch01-b58
@@ -268,7 +262,8 @@ audio_script:
           speaker: narrator
           text: 乔猛地打开壁橱门。其余三人惊恐地看见，劳里正坐在一袋碎布上。他忍笑忍得满脸通红，两只眼睛亮闪闪的。
         - id: ch01-b60
-          speaker: girls
+          speakers: [meg, beth, amy]
+          ensemble: chorus
           text: 你这个坏蛋！你这个叛徒！乔，你怎么能这样？
           emotion: surprised
         - id: ch01-b61

@@ -29,13 +29,27 @@ audio_script:
         timbre: 柔和略哑
         pace: 中等
         pitch: 中音
-    brothers:
-      display_name: 哥哥们
+    brother_1:
+      display_name: 哥哥甲
       tts:
-        delivery: 稚嫩而齐声应答
-        timbre: 清脆多声部
-        pace: 稍快
+        delivery: 稚嫩直率，开口干脆
+        timbre: 清亮的少年音
+        pace: 稍快而利落
+        pitch: 中高音
+    brother_2:
+      display_name: 哥哥乙
+      tts:
+        delivery: 稚嫩急切，语气带着依赖
+        timbre: 柔和的少年音
+        pace: 中等偏快
         pitch: 偏高
+    brother_3:
+      display_name: 哥哥丙
+      tts:
+        delivery: 稚嫩活泼，回应清楚有力
+        timbre: 明亮略细的少年音
+        pace: 轻快
+        pitch: 高音
     ogress:
       display_name: 食人魔的妻子
       tts:
@@ -105,7 +119,8 @@ audio_script:
           text: 我的孩子们究竟在哪里？我那些可怜的孩子啊！
           emotion: sad
         - id: ch01-b16
-          speaker: brothers
+          speakers: [little_thumb, brother_1, brother_2, brother_3]
+          ensemble: chorus
           text: 我们在这里！我们都在这里！
         - id: ch01-b17
           speaker: narrator

@@ -29,13 +29,20 @@ audio_script:
         timbre: 苍老柔和
         pace: 稍慢
         pitch: 中低
-    fishermen:
-      display_name: 渔夫们
+    fisherman_1:
+      display_name: 渔夫甲
       tts:
-        delivery: 低沉悲悯，像海边人共同发出的叹息
-        timbre: 粗粝混合
+        delivery: 沉稳悲悯，话语像压低声音的一声叹息
+        timbre: 粗粝浑厚
         pace: 缓慢
         pitch: 低
+    fisherman_2:
+      display_name: 渔夫乙
+      tts:
+        delivery: 朴实哀伤，语气克制而带着不忍
+        timbre: 沙哑清瘦
+        pace: 稍慢，尾音轻轻落下
+        pitch: 中低
   chapters:
     - id: ch01
       title: 消失的小屋
@@ -191,7 +198,8 @@ audio_script:
           speaker: narrator
           text: 突然，一道巨浪高高卷起，小船消失了。岸上的人都等着，盼它再次浮上海面。可是等了又等，那条船始终没有出现。
         - id: ch04-b10
-          speaker: fishermen
+          speakers: [fisherman_1, fisherman_2]
+          ensemble: duo
           text: 唉，那个可怜的人啊！
           emotion: sad
         - id: ch04-b11

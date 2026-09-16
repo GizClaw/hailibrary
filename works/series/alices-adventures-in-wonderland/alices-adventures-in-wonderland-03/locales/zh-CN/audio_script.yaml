@@ -50,13 +50,27 @@ audio_script:
         timbre: 清脆明亮
         pace: 快
         pitch: 高音
-    animals:
-      display_name: 鸟兽们
+    bird_1:
+      display_name: 鸟儿甲
       tts:
-        delivery: 七嘴八舌，热闹而急切
-        timbre: 层次丰富的群声
+        delivery: 活泼直率，发问时迫不及待
+        timbre: 清亮轻盈
+        pace: 较快
+        pitch: 高音
+    bird_2:
+      display_name: 鸟儿乙
+      tts:
+        delivery: 认真热切，说话干脆
+        timbre: 明亮圆润
         pace: 中快
-        pitch: 中音
+        pitch: 中高音
+    animal_1:
+      display_name: 小兽甲
+      tts:
+        delivery: 朴实爽快，跟着伙伴热心应和
+        timbre: 温厚清楚
+        pace: 中等
+        pitch: 中低音
     old_crab:
       display_name: 老螃蟹
       tts:
@@ -163,7 +177,8 @@ audio_script:
           speaker: narrator
           text: 也许哪一个冬日，你也想试试，那就听听渡渡鸟怎么安排。它先划出一条大致呈圆形的跑道，还特别说明，究竟是什么形状并不重要。接着，它让大家沿着跑道东一个、西一个地站好。这里没有谁来喊“一、二、三，跑”。谁高兴什么时候开跑，就什么时候开跑。谁想停下，也随时可以停下。这样一来，谁都瞧不出比赛究竟何时才算结束。大家乱纷纷地跑了大约半个钟头，身子终于全干透了。渡渡鸟忽然高声宣布比赛结束。所有人都气喘吁吁地围了上来，只想知道最要紧的那件事。
         - id: ch01-b25
-          speaker: animals
+          speakers: [bird_1, bird_2, animal_1]
+          ensemble: chorus
           text: 可是谁赢了呢？
         - id: ch01-b26
           speaker: narrator
@@ -172,7 +187,8 @@ audio_script:
           speaker: dodo
           text: 人人都赢了，所以人人都该得奖。
         - id: ch01-b28
-          speaker: animals
+          speakers: [bird_1, bird_2, animal_1]
+          ensemble: chorus
           text: 可奖品由谁来发？
         - id: ch01-b29
           speaker: dodo
@@ -181,7 +197,8 @@ audio_script:
           speaker: narrator
           text: 渡渡鸟指向爱丽丝。大伙儿立刻把她团团围住。
         - id: ch01-b31
-          speaker: animals
+          speakers: [bird_1, bird_2, animal_1]
+          ensemble: chorus
           text: 奖品！快发奖品！
         - id: ch01-b32
           speaker: narrator
@@ -255,7 +272,8 @@ audio_script:
           speaker: alice
           text: 求你回来，把故事讲完吧！
         - id: ch01-b54
-          speaker: animals
+          speakers: [bird_1, bird_2, animal_1]
+          ensemble: chorus
           text: 是啊，求你讲完吧！
         - id: ch01-b55
           speaker: narrator

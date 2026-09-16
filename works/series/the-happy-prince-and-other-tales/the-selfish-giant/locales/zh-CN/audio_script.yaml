@@ -15,20 +15,34 @@ audio_script:
         timbre: 浑厚低沉
         pace: 稍慢
         pitch: 低
-    children:
-      display_name: 孩子们
+    child_1:
+      display_name: 孩子甲
       tts:
-        delivery: 天真自然，众声活泼但清楚整齐
-        timbre: 明亮稚嫩
+        delivery: 天真爽朗，说话直率而有朝气
+        timbre: 清亮稚嫩
         pace: 轻快
         pitch: 高
-    snow_and_frost:
-      display_name: 雪和霜
+    child_2:
+      display_name: 孩子乙
       tts:
-        delivery: 得意而顽皮，带着冷冰冰的欢喜
-        timbre: 清脆冰冷
-        pace: 中等
+        delivery: 活泼自然，语气柔和而真挚
+        timbre: 明快柔嫩
+        pace: 稍快
         pitch: 中高
+    snow:
+      display_name: 雪
+      tts:
+        delivery: 得意而轻盈，带着冷冰冰的欢喜
+        timbre: 柔亮冰凉
+        pace: 舒缓
+        pitch: 中高
+    frost:
+      display_name: 霜
+      tts:
+        delivery: 顽皮而干脆，透着冷冷的兴奋
+        timbre: 清脆锐亮
+        pace: 中等
+        pitch: 高
     north_wind:
       display_name: 北风
       tts:
@@ -65,7 +79,8 @@ audio_script:
           speaker: narrator
           text: 每天下午一放学，孩子们都会跑进巨人的花园玩。那座花园又大又美，绿草柔软，花朵像星星一样散落在草地上。园里有十二棵桃树，春天开出粉红和珠白的花，秋天结满果实。鸟儿在枝头唱得那么甜，孩子们常常玩到一半就停下来听。
         - id: ch01-b02
-          speaker: children
+          speakers: [child_1, child_2]
+          ensemble: duo
           text: 在这里玩，我们真快活呀！
           emotion: happy
         - id: ch01-b03
@@ -89,7 +104,8 @@ audio_script:
           speaker: narrator
           text: 可怜的孩子们再也找不到玩耍的地方。他们试过在路上玩，可那里满是飞扬的尘土和坚硬的石块，一点儿也不好。每次放学以后，他们只能沿着高墙走来走去，一遍遍说起墙内那座美丽的花园。
         - id: ch01-b09
-          speaker: children
+          speakers: [child_1, child_2]
+          ensemble: duo
           text: 从前能在花园里玩，那时候多快活呀。
           emotion: sad
     - id: ch02
@@ -99,7 +115,8 @@ audio_script:
           speaker: narrator
           text: 春天来了。全国各处都有小花开放，也有小鸟歌唱，只有自私巨人的花园还留在冬天里。没有孩子，鸟儿不愿唱，树也忘记了开花。有朵美丽的小花探出草地，正想开放，却看见了那块告示牌。它想起那些无处可玩的孩子，难过得缩回地下，又睡着了。只有雪和霜高兴得不得了。
         - id: ch02-b02
-          speaker: snow_and_frost
+          speakers: [snow, frost]
+          ensemble: duo
           text: 春天已经忘了这座花园。那就让我们整年都住在这里吧！
           emotion: happy
         - id: ch02-b03
@@ -175,7 +192,8 @@ audio_script:
           speaker: narrator
           text: 巨人最喜欢那个男孩，因为男孩亲过他。
         - id: ch04-b04
-          speaker: children
+          speakers: [child_1, child_2]
+          ensemble: duo
           text: 我们不知道。他已经走了。
         - id: ch04-b05
           speaker: giant

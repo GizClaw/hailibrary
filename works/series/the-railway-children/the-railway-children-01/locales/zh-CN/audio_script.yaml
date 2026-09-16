@@ -50,20 +50,6 @@ audio_script:
         timbre: 略粗亮的年轻女声
         pace: 偏快
         pitch: 中音
-    children:
-      display_name: 孩子们
-      tts:
-        delivery: 三个孩子异口同声，真诚急切
-        timbre: 混合的童声
-        pace: 自然
-        pitch: 中高音
-    girls:
-      display_name: 女孩们
-      tts:
-        delivery: 两个女孩同时开口，惊慌而清楚
-        timbre: 混合的女孩声
-        pace: 稍快
-        pitch: 高音
     cart_driver:
       display_name: 赶车人
       tts:
@@ -318,7 +304,8 @@ audio_script:
           speaker: narrator
           text: 听见“不许吵架”，罗伯塔和彼得心虚地看了对方一眼。
         - id: ch03-b24
-          speaker: children
+          speakers: [roberta, peter, phyllis]
+          ensemble: chorus
           text: 我们不会再吵了。真的不会！
         - id: ch03-b25
           speaker: narrator
@@ -555,7 +542,8 @@ audio_script:
           speaker: narrator
           text: 赶车人把箱子都搬进来，正要离开，大家忽然听见一阵窸窣声和奔跑声，好像就藏在房子的墙壁里面。
         - id: ch05-b26
-          speaker: girls
+          speakers: [roberta, phyllis]
+          ensemble: duo
           text: 啊，那是什么声音？
           emotion: fearful
         - id: ch05-b27

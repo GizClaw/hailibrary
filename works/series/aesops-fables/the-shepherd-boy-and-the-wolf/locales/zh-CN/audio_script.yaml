@@ -15,12 +15,26 @@ audio_script:
         timbre: 清亮稚嫩
         pace: 轻快
         pitch: 中高音
-    villagers:
-      display_name: 村民们
+    villager_1:
+      display_name: 村民甲
       tts:
-        delivery: "质朴直率，众人同声回应"
-        timbre: 厚实自然
+        delivery: "质朴直率，语气坚决"
+        timbre: 粗厚自然
         pace: 中等
+        pitch: 低音
+    villager_2:
+      display_name: 村民乙
+      tts:
+        delivery: "爽利干脆，带着受骗后的不满"
+        timbre: 清晰硬朗
+        pace: 稍快
+        pitch: 中音
+    villager_3:
+      display_name: 村民丙
+      tts:
+        delivery: "沉着朴实，回应毫不迟疑"
+        timbre: 醇厚稳重
+        pace: 稍慢
         pitch: 中低音
   chapters:
     - id: ch01
@@ -70,7 +84,8 @@ audio_script:
           speaker: narrator
           text: "这声呼救，村民们全都听到了。可这一次，没有人像先前那样赶去救他。"
         - id: ch03-b05
-          speaker: villagers
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
           text: 他别想再骗我们了。
     - id: ch04
       title: 无人相信

@@ -15,13 +15,27 @@ audio_script:
         timbre: 柔和成熟
         pace: 从容
         pitch: 中高音
-    little_kids:
-      display_name: 小山羊们
+    little_kid_1:
+      display_name: 小山羊甲
       tts:
-        delivery: 天真活泼，齐声说话时清楚有力
-        timbre: 稚嫩明亮
+        delivery: 天真大胆，说话干脆利落
+        timbre: 清脆明亮
         pace: 稍快
         pitch: 高音
+    little_kid_2:
+      display_name: 小山羊乙
+      tts:
+        delivery: 活泼机灵，语气警觉清楚
+        timbre: 稚嫩清亮
+        pace: 明快
+        pitch: 中高音
+    little_kid_3:
+      display_name: 小山羊丙
+      tts:
+        delivery: 认真直率，开口坚定有力
+        timbre: 轻柔明净
+        pace: 中等偏快
+        pitch: 较高音
     youngest_kid:
       display_name: 最小的山羊
       tts:
@@ -47,7 +61,8 @@ audio_script:
           speaker: mother_goat
           text: 孩子们，我得去森林一趟。你们千万提防狼，别让他进屋。他会把你们连皮带毛全吞掉。那个恶棍常常变着样子骗人，可他嗓音粗哑，脚又乌黑，你们凭这两样就能认出他。
         - id: ch01-b03
-          speaker: little_kids
+          speakers: [little_kid_1, little_kid_2, little_kid_3, youngest_kid]
+          ensemble: chorus
           text: 妈妈，我们会照顾好自己。您安心去吧，不用挂念我们。
         - id: ch01-b04
           speaker: narrator
@@ -65,7 +80,8 @@ audio_script:
           speaker: narrator
           text: 小山羊们听见那粗哑的声音，立刻认出了狼。
         - id: ch02-b04
-          speaker: little_kids
+          speakers: [little_kid_1, little_kid_2, little_kid_3, youngest_kid]
+          ensemble: chorus
           text: 我们才不开门！你不是妈妈。妈妈说话又柔和又好听，你的嗓子这么粗，你就是狼！
         - id: ch02-b05
           speaker: narrator
@@ -77,7 +93,8 @@ audio_script:
           speaker: narrator
           text: 可他把黑爪子搭在窗上，孩子们看得清清楚楚。
         - id: ch02-b08
-          speaker: little_kids
+          speakers: [little_kid_1, little_kid_2, little_kid_3, youngest_kid]
+          ensemble: chorus
           text: 不开，不开！妈妈的脚不是黑的。你就是狼！
         - id: ch02-b09
           speaker: narrator
@@ -99,7 +116,8 @@ audio_script:
           speaker: wolf
           text: 孩子们，给我开门。你们亲爱的妈妈回来了，还从森林给大家带了东西。
         - id: ch03-b03
-          speaker: little_kids
+          speakers: [little_kid_1, little_kid_2, little_kid_3, youngest_kid]
+          ensemble: chorus
           text: 先把爪子伸给我们看。我们得知道你到底是不是妈妈。
         - id: ch03-b04
           speaker: narrator
@@ -153,7 +171,8 @@ audio_script:
           speaker: narrator
           text: 狼走到井旁，俯身凑近水面，刚要喝水，沉重的石头便把他坠进井里。他再也爬不上来，悲惨地淹死了。七只小山羊看见以后，全跑到了井边。
         - id: ch05-b04
-          speaker: little_kids
+          speakers: [little_kid_1, little_kid_2, little_kid_3, youngest_kid]
+          ensemble: chorus
           text: 狼死啦！狼死啦！
           emotion: happy
         - id: ch05-b05

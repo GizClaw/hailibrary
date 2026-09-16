@@ -29,13 +29,27 @@ audio_script:
         timbre: 细小明亮
         pace: 稍快
         pitch: 高
-    others:
-      display_name: 其他伙伴
+    other_1:
+      display_name: 伙伴甲
       tts:
-        delivery: 七嘴八舌，急着得到注意
-        timbre: 轻快活泼的群声
+        delivery: 直率外向，抢先把疑问喊出来
+        timbre: 清脆明亮
         pace: 稍快
         pitch: 中高
+    other_2:
+      display_name: 伙伴乙
+      tts:
+        delivery: 急切好奇，紧跟着同伴发问
+        timbre: 柔和轻盈
+        pace: 中等偏快
+        pitch: 中等
+    other_3:
+      display_name: 伙伴丙
+      tts:
+        delivery: 活泼坦率，认真争取被注意
+        timbre: 饱满清亮
+        pace: 轻快
+        pitch: 中低
   chapters:
     - id: ch01
       title: 维尼噗这个名字
@@ -102,7 +116,8 @@ audio_script:
           speaker: pooh
           text: 有些人有脑子，有些人没有。事情就是这样。
         - id: ch03-b09
-          speaker: others
+          speakers: [other_1, other_2, other_3]
+          ensemble: chorus
           text: 那我们呢？
         - id: ch03-b10
           speaker: narrator

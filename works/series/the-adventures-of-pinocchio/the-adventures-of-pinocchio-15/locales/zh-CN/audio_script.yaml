@@ -15,13 +15,20 @@ audio_script:
         timbre: 清亮，带木偶般的脆响
         pace: 偏快，争辩时更急
         pitch: 中高
-    masked_assassins:
-      display_name: 两个蒙面凶徒
+    masked_assassin_1:
+      display_name: 蒙面凶徒甲
       tts:
-        delivery: 阴森凶恶，两道声音一起逼迫威吓
-        timbre: 粗哑低沉，仿佛从坟墓里传来
-        pace: 短促有力
+        delivery: 阴森凶恶，逼迫威吓时冷酷果断
+        timbre: 粗哑低沉，带干涩的摩擦感
+        pace: 短促急迫
         pitch: 低
+    masked_assassin_2:
+      display_name: 蒙面凶徒乙
+      tts:
+        delivery: 凶狠躁厉，附和同伴时带着残忍的兴奋
+        timbre: 沙哑阴冷，声音比同伴稍尖
+        pace: 急促有力
+        pitch: 中低
     blue_haired_child:
       display_name: 蓝发女孩
       tts:
@@ -81,14 +88,16 @@ audio_script:
           speaker: narrator
           text: 匹诺曹连最后一个字都没说完，衣领就被人揪住了。那两个阴森的声音又贴着他响了起来。
         - id: ch02-b03
-          speaker: masked_assassins
+          speakers: [masked_assassin_1, masked_assassin_2]
+          ensemble: duo
           text: 这一次，你再也逃不掉了！
           emotion: angry
         - id: ch02-b04
           speaker: narrator
           text: 死亡就在眼前，匹诺曹抖得厉害。两条木腿的关节咯吱咯吱响，藏在舌头下面的金币也叮当作响。
         - id: ch02-b05
-          speaker: masked_assassins
+          speakers: [masked_assassin_1, masked_assassin_2]
+          ensemble: duo
           text: 怎么样？你到底肯不肯张嘴？还不说话？好，那就由我们亲手把你的嘴打开！
           emotion: angry
         - id: ch02-b06
@@ -98,13 +107,13 @@ audio_script:
           speaker: narrator
           text: 可匹诺曹是用硬木头做的。两把刀一下碎成无数片，凶徒们手里只剩下刀柄。他们愣愣地看着对方。
         - id: ch02-b08
-          speaker: masked_assassins
+          speaker: masked_assassin_1
           text: 有办法了。把他吊起来！吊死他！
         - id: ch02-b09
           speaker: narrator
           text: 另一个凶徒马上跟着喊，也要把他吊死。
         - id: ch02-b10
-          speaker: masked_assassins
+          speaker: masked_assassin_2
           text: 对，把他吊死！
     - id: ch03
       title: 大橡树
@@ -119,7 +128,8 @@ audio_script:
           speaker: narrator
           text: 两个凶徒等得不耐烦了，便抬头嘲笑他。
         - id: ch03-b04
-          speaker: masked_assassins
+          speakers: [masked_assassin_1, masked_assassin_2]
+          ensemble: duo
           text: 再见啦，明天见。等我们回来，你可要懂点礼貌，乖乖死透，把嘴张得大大的，让我们一眼就能看见。
         - id: ch03-b05
           speaker: narrator

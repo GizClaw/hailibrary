@@ -1,0 +1,266 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 吉姆
+      tts:
+        delivery: 沉着而有画面感，带着回忆往事的亲历感
+        timbre: 清亮温暖的少年音色
+        pace: 舒缓中带有冒险故事的张力
+        pitch: 中高
+    sailor_messenger:
+      display_name: 传话水手
+      tts:
+        delivery: 粗朴恭敬，带着水手的直率
+        timbre: 结实略带沙哑
+        pace: 适中
+        pitch: 中低
+    captain_smollett:
+      display_name: 斯莫列特船长
+      tts:
+        delivery: 严肃克制，判断谨慎，说话干脆而有权威
+        timbre: 冷峻坚实
+        pace: 稳健
+        pitch: 中低
+    squire_trelawney:
+      display_name: 特里劳尼乡绅
+      tts:
+        delivery: 豪爽热烈，说话直截了当而充满自信
+        timbre: 洪亮饱满
+        pace: 明快
+        pitch: 中低
+    doctor_livesey:
+      display_name: 利弗西医生
+      tts:
+        delivery: 冷静清醒，措辞从容而判断明确
+        timbre: 温和清晰
+        pace: 从容
+        pitch: 中
+    crewman:
+      display_name: 水手
+      tts:
+        delivery: 随意爽快，带着干活时的水手口吻
+        timbre: 粗犷有力
+        pace: 明快
+        pitch: 中
+    silver:
+      display_name: 高个子约翰·西尔弗
+      tts:
+        delivery: 圆滑爽朗，善于用水手口吻取信于人，激动时夸张有力
+        timbre: 洪亮厚实，带一点粗粝感
+        pace: 灵活明快
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 船长有话要说
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 伊斯帕尼奥拉号停在离岸稍远的水面上。我们乘小船过去，从许多大船的船首像下面穿过，又绕过一艘艘船尾。有时，锚缆擦过我们的龙骨，有时又高高荡过头顶。我们终于靠上了伊斯帕尼奥拉号。刚踏上甲板，大副亚罗先生就迎来向我们致意。他皮肤黝黑，是个上了年纪的水手，两耳戴着耳环，眼睛还有些斜。他跟乡绅很亲热，可我很快发现，乡绅和船长之间完全不是这么回事。
+        - id: ch01-b02
+          speaker: narrator
+          text: 船长目光锐利，仿佛看船上什么都不顺眼。他为什么不痛快，我们很快就知道了。我们才下到船舱，一个水手便跟了进来。
+        - id: ch01-b03
+          speaker: sailor_messenger
+          text: 先生，斯莫列特船长请求见您。
+        - id: ch01-b04
+          speaker: squire_trelawney
+          text: 船长随时吩咐，我随时听候。请他进来。
+        - id: ch01-b05
+          speaker: narrator
+          text: 原来船长紧跟在传话人身后，离门口只有几步。他立刻走进舱房，又回身把门关好，这才面对我们。
+        - id: ch01-b06
+          speaker: squire_trelawney
+          text: 好吧，斯莫列特船长，你有什么话？我希望一切顺利，船也样样齐整，足可出海？
+        - id: ch01-b07
+          speaker: captain_smollett
+          text: 先生，哪怕会得罪人，我也得把话说明白。我不喜欢这次航行，不喜欢这些船员，也不喜欢我的大副。就这么简单。
+        - id: ch01-b08
+          speaker: narrator
+          text: 我看得出，乡绅一下子气坏了。
+        - id: ch01-b09
+          speaker: squire_trelawney
+          text: 那么，先生，也许连这条船你也不喜欢？
+        - id: ch01-b10
+          speaker: captain_smollett
+          text: 船还没真正下海试过，我不能乱下判断。眼下看起来，它倒是条灵便的好船。除此以外，我什么也不能说。
+        - id: ch01-b11
+          speaker: squire_trelawney
+          text: 也许连雇你的人，你也不喜欢？
+        - id: ch01-b12
+          speaker: narrator
+          text: 利弗西医生听到这里，马上打断了他们。
+        - id: ch01-b13
+          speaker: doctor_livesey
+          text: 且慢，且慢。这样问只会伤和气。船长要么说得太多，要么还没说够。我必须请他解释清楚。船长，你为什么不喜欢这次航行？
+        - id: ch01-b14
+          speaker: captain_smollett
+          text: 雇我的时候，给我的是密封命令。这位先生叫我把船开到哪儿，我就开到哪儿，本来没有问题。可如今，前甲板上的每个水手都比我知道得多。你说这公平吗？
+        - id: ch01-b15
+          speaker: doctor_livesey
+          text: 不公平。
+        - id: ch01-b16
+          speaker: captain_smollett
+          text: 接着，我从自己手下的水手那里听说，我们要去寻宝。请各位留意，是他们告诉了我。寻宝本来就是件险事，我无论如何都不喜欢这种航行。若这趟航行还应当保密，秘密却闹得连鹦鹉都知道了，那就更糟。请特里劳尼先生原谅。
+        - id: ch01-b17
+          speaker: squire_trelawney
+          text: 你说的是西尔弗的鹦鹉？
+        - id: ch01-b18
+          speaker: captain_smollett
+          text: 我只是打个比方。我的意思是，秘密早就嚷嚷出去了。依我看，二位根本不知道自己在做什么。这事关系生死，胜负只在一线之间。
+    - id: ch02
+      title: 三项防范
+      blocks:
+        - id: ch02-b01
+          speaker: doctor_livesey
+          text: 这话说得很清楚，我想也确实不假。风险我们愿意承担，可我们并不像你想的那么一无所知。再说下一件事吧。你不喜欢这批船员，难道他们不是好水手？
+        - id: ch02-b02
+          speaker: captain_smollett
+          text: 我就是不喜欢他们。既然说到这里，我认为本该由我亲自挑选手下。
+        - id: ch02-b03
+          speaker: doctor_livesey
+          text: 也许确实应该。我的朋友挑选船员的时候，或许该把你一起带去。就算这件事怠慢了你，也绝不是有意的。那么，你连亚罗先生也不喜欢？
+        - id: ch02-b04
+          speaker: captain_smollett
+          text: 不喜欢。我相信他是个好水手，可他跟船员太不分彼此，做不好大副。大副应当跟手下保持距离，不能和前甲板的水手一起喝酒。
+        - id: ch02-b05
+          speaker: squire_trelawney
+          text: 你是说他喝酒？
+        - id: ch02-b06
+          speaker: captain_smollett
+          text: 不是。我只说他跟他们过分亲近。
+        - id: ch02-b07
+          speaker: doctor_livesey
+          text: 好了，船长，长话短说。你究竟希望我们怎么做？
+        - id: ch02-b08
+          speaker: captain_smollett
+          text: 各位先生，你们是铁了心要走这一趟吗？
+        - id: ch02-b09
+          speaker: squire_trelawney
+          text: 铁了心。
+        - id: ch02-b10
+          speaker: captain_smollett
+          text: 很好。我刚才说了些没有证据的话，各位仍耐心听完了，那就请再听几句。眼下，船员正要把火药和武器放进前货舱。客舱下面明明有个合适的地方，为什么不放在那里？这是第一点。你们还带了四个自己人上船，可我听说其中几个人要住到前舱去。为什么不把客舱旁边的铺位给他们？这是第二点。
+        - id: ch02-b11
+          speaker: squire_trelawney
+          text: 还有吗？
+        - id: ch02-b12
+          speaker: captain_smollett
+          text: 还有一点。泄露出去的话已经太多了。
+        - id: ch02-b13
+          speaker: doctor_livesey
+          text: 的确多得太过分了。
+        - id: ch02-b14
+          speaker: captain_smollett
+          text: 我把自己亲耳听见的话说给你们。水手们知道，你们有一张海岛地图，图上画着叉号，标明了宝藏埋在哪里。他们甚至知道，那座岛的位置在……
+        - id: ch02-b15
+          speaker: narrator
+          text: 接着，船长准确地报出了经纬度。
+        - id: ch02-b16
+          speaker: squire_trelawney
+          text: 我从没把这件事告诉过任何人！
+        - id: ch02-b17
+          speaker: captain_smollett
+          text: 可水手们全都知道，先生。
+        - id: ch02-b18
+          speaker: squire_trelawney
+          text: 利弗西，一定是你或者霍金斯说出去的！
+        - id: ch02-b19
+          speaker: doctor_livesey
+          text: 是谁说的并不重要。
+        - id: ch02-b20
+          speaker: narrator
+          text: 医生和船长都不大理会乡绅的辩白。说实话，我也没有把他的话放在心上，因为他平时实在管不住嘴。不过这一回，我相信他讲的是真话。我们当中没有人把那座岛的位置说出去。
+        - id: ch02-b21
+          speaker: captain_smollett
+          text: 我不知道地图在谁手里，但必须坚持一件事。这个秘密连我和亚罗先生也不能知道，否则，我只好请你们准许我辞职。
+        - id: ch02-b22
+          speaker: doctor_livesey
+          text: 我明白了。你要我们把整件事瞒严，还要把船尾变成一座堡垒，由乡绅自己的人把守，再把所有武器和火药放在那里。换句话说，你担心有人叛变。
+        - id: ch02-b23
+          speaker: captain_smollett
+          text: 先生，我无意冒犯，可你不能把这种话塞进我嘴里。任何船长若真有足够的理由断定会发生叛变，就根本不该让船出海。我相信亚罗先生完全诚实。有些水手也是一样，依我所知，没准所有人都很诚实。可是船的安危，还有船上每一个人的性命，都由我负责。我眼看着事情在发展，觉得有些地方不大对头，所以请你们采取我刚才说的防范措施。否则，就准许我辞去船长的职务。我要说的只有这些。
+    - id: ch03
+      title: 乡绅很不痛快
+      blocks:
+        - id: ch03-b01
+          speaker: doctor_livesey
+          text: 斯莫列特船长，你听过高山临盆生老鼠的寓言吗？请别见怪，可你今天实在让我想起那个故事。我敢拿自己头上的假发打赌，你刚走进这间舱房时，心里想说的远不止这些。
+        - id: ch03-b02
+          speaker: captain_smollett
+          text: 医生，你很精明。我进来时，本想请你们解雇我。我没料到特里劳尼先生肯听进去半个字。
+        - id: ch03-b03
+          speaker: squire_trelawney
+          text: 要不是利弗西在这里，我确实一个字也不会听，早把你赶到鬼那里去了！现在我听完了，也会照你的要求去做。不过，我反而更瞧不起你了。
+          emotion: angry
+        - id: ch03-b04
+          speaker: captain_smollett
+          text: 那就悉听尊便。往后你会看到，我会尽好自己的职责。
+        - id: ch03-b05
+          speaker: narrator
+          text: 船长说完，不再为自己辩解，也没有多留，转身便离开了舱房。
+        - id: ch03-b06
+          speaker: doctor_livesey
+          text: 特里劳尼，这真推翻了我先前所有的看法。你竟给自己找来了两个老实人，一个是刚才这位，另一个是约翰·西尔弗。
+        - id: ch03-b07
+          speaker: squire_trelawney
+          text: 约翰·西尔弗还算得上。至于刚才那个叫人受不了的骗子，我敢说，他的举止既不像男子汉，也不像水手，简直连英国人的样子都没有。
+          emotion: angry
+        - id: ch03-b08
+          speaker: doctor_livesey
+          text: 好吧，究竟谁说得对，往后走着瞧。
+        - id: ch03-b09
+          speaker: narrator
+          text: 我们回到甲板时，船员已经动手从原来的地方搬出武器和火药。他们一面使劲，一面喊着水手号子。船长和亚罗先生都站在旁边，监督他们重新安放这些东西。
+        - id: ch03-b10
+          speaker: narrator
+          text: 新安排很合我的心意。整条双桅纵帆船早已重新布置过，主货舱后部隔出了六个铺位。这几间舱房跟厨房和前甲板之间，只靠左舷一条装着木栅的通道相连。原本，船长、亚罗先生、亨特、乔伊斯、医生和乡绅各住一个铺位。如今，雷德鲁斯和我各得了一个，亚罗先生和船长则改睡甲板上的舱口棚。
+        - id: ch03-b11
+          speaker: narrator
+          text: 舱口棚两边都拓宽了，几乎能叫作一间甲板室。当然，里面仍旧很矮，不过足以挂起两张吊床。看来连大副也很满意。也许他心里也怀疑这批船员，不过这只是我的猜测。诸位很快就会听到，我们并没有来得及听他多发表什么看法。
+    - id: ch04
+      title: 船上不许偏袒
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 我们全都忙得不可开交，一面挪动火药，一面调换铺位。这时，最后一两个水手跟高个子约翰一道，乘岸上的小船来到大船旁。厨子爬船舷时身手灵巧得像只猴子。他一上甲板，就看见大家正在忙什么。
+        - id: ch04-b02
+          speaker: silver
+          text: 嘿，伙计们！这是在干什么？
+        - id: ch04-b03
+          speaker: crewman
+          text: 我们在挪火药呢，杰克。
+        - id: ch04-b04
+          speaker: silver
+          text: 老天在上！真要这么折腾，早潮可就赶不上了！
+          emotion: surprised
+        - id: ch04-b05
+          speaker: captain_smollett
+          text: 这是我的命令！你下去吧。水手们还等着吃晚饭。
+        - id: ch04-b06
+          speaker: silver
+          text: 是，是，先生。
+        - id: ch04-b07
+          speaker: narrator
+          text: 厨子抬手碰了碰额发，规规矩矩地行了礼，随后一句也不多问，立刻朝自己的厨房去了。
+        - id: ch04-b08
+          speaker: doctor_livesey
+          text: 这人不错，船长。
+        - id: ch04-b09
+          speaker: captain_smollett
+          text: 很可能吧，先生。慢着点，伙计们，慢着点！
+        - id: ch04-b10
+          speaker: narrator
+          text: 船长一边叫搬火药的人慢些，一边忽然看见我正在端详船中部那门炮。那是装在旋架上的长身黄铜九磅炮。
+        - id: ch04-b11
+          speaker: captain_smollett
+          text: 喂，船上的小子，别待在那里！到厨子那儿去，找点活干！
+        - id: ch04-b12
+          speaker: narrator
+          text: 听见船长的喝令，我不敢停留，赶紧朝厨房跑去。就在我跑开时，又听见船长故意用很响的声音对医生说话。
+        - id: ch04-b13
+          speaker: captain_smollett
+          text: 在我的船上，谁也别想受到偏袒。
+        - id: ch04-b14
+          speaker: narrator
+          text: 我敢向你保证，当时我的想法跟乡绅完全一样。听了船长那些话，又被他这样支使，我从心底里恨透了他。

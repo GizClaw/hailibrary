@@ -16,19 +16,19 @@ audio_script:
         pace: 稍慢
         pitch: 中低音
     swindler_one:
-      display_name: 一个骗子
+      display_name: 骗子甲
       tts:
         delivery: 殷勤机灵，胸有成竹
         timbre: 明亮灵活
         pace: 轻快
         pitch: 中音
-    swindlers:
-      display_name: 两个骗子
+    swindler_two:
+      display_name: 骗子乙
       tts:
-        delivery: 热络圆滑，配合默契
-        timbre: 清亮利落
-        pace: 轻快
-        pitch: 中音
+        delivery: 油滑热络，善于顺势帮腔
+        timbre: 轻细清亮
+        pace: 稍快
+        pitch: 中高音
     old_minister:
       display_name: 老大臣
       tts:
@@ -43,20 +43,20 @@ audio_script:
         timbre: 清楚沉稳
         pace: 中等
         pitch: 中低音
-    old_statesmen:
-      display_name: 两位老臣
+    courtier_two:
+      display_name: 朝臣乙
       tts:
-        delivery: 恭敬热切，刻意赞叹
-        timbre: 成熟厚实
-        pace: 中等
-        pitch: 中低音
-    courtiers:
-      display_name: 朝臣们
-      tts:
-        delivery: 齐声附和，夸张恭维
-        timbre: 整齐明亮
-        pace: 中等
+        delivery: 热切逢迎，赞叹得格外响亮
+        timbre: 洪亮圆润
+        pace: 稍快
         pitch: 中音
+    courtier_three:
+      display_name: 朝臣丙
+      tts:
+        delivery: 谨慎附和，语气恭敬殷勤
+        timbre: 轻柔清晰
+        pace: 中等
+        pitch: 中高音
     master_ceremonies:
       display_name: 典礼官
       tts:
@@ -78,13 +78,27 @@ audio_script:
         timbre: 温和朴实
         pace: 中等
         pitch: 中低音
-    crowd:
-      display_name: 百姓们
+    onlooker_one:
+      display_name: 百姓甲
       tts:
-        delivery: 从窃窃私语转为齐声高喊
-        timbre: 层次丰富
-        pace: 由缓到快
+        delivery: 兴奋赞叹，后来震惊高喊
+        timbre: 粗犷响亮
+        pace: 稍快
         pitch: 中音
+    onlooker_two:
+      display_name: 百姓乙
+      tts:
+        delivery: 起初殷勤称赞，后来直率响应
+        timbre: 清脆明亮
+        pace: 中等
+        pitch: 中高音
+    onlooker_three:
+      display_name: 百姓丙
+      tts:
+        delivery: 随众热切附和，醒悟后坚定喊出真相
+        timbre: 温厚有力
+        pace: 稳健
+        pitch: 中低音
   chapters:
     - id: ch01
       title: 奇妙的布
@@ -137,7 +151,8 @@ audio_script:
           speaker: old_minister
           text: 真漂亮，实在太美了！瞧这花纹，还有这鲜亮的颜色！我一定告诉皇帝，我非常喜欢这块布。
         - id: ch02-b08
-          speaker: swindlers
+          speakers: [swindler_one, swindler_two]
+          ensemble: duo
           text: 听您这么说，我们真高兴。
           emotion: happy
         - id: ch02-b09
@@ -147,7 +162,8 @@ audio_script:
           speaker: narrator
           text: 不久，皇帝又派来一位忠诚的官员。他要这位官员查清织布的进展，也看看那块布是不是快要完成了。官员和老大臣一样，看了又看，还是什么也看不见。那里当然没有任何东西可看。
         - id: ch02-b11
-          speaker: swindlers
+          speakers: [swindler_one, swindler_two]
+          ensemble: duo
           text: 您看，这块布难道不美吗？
         - id: ch02-b12
           speaker: narrator
@@ -169,7 +185,8 @@ audio_script:
           speaker: narrator
           text: 很快，全城都在谈论这块珍贵的布。皇帝终于也想趁它还在织机上，亲自去看一看。他带着一群朝臣来到两个聪明的骗子那里，先前来过的两位官员也跟着。骗子正拼命干活，手里却连一根线也没有。
         - id: ch03-b02
-          speaker: old_statesmen
+          speakers: [old_minister, courtier]
+          ensemble: duo
           text: 真是华美极了！陛下快看，这颜色，这花纹，多值得欣赏啊！
         - id: ch03-b03
           speaker: narrator
@@ -188,10 +205,15 @@ audio_script:
           speaker: narrator
           text: 随行的朝臣一个个看了又看，也和别人一样什么都看不见。可他们全都学着皇帝开口赞美，还一致劝他在即将举行的盛大游行上，穿上这套华美的新衣。
         - id: ch03-b08
-          speaker: courtiers
-          text: 真是太美了！华美，漂亮，好极了！
+          speaker: courtier
+          text: 真是太美了！
           emotion: happy
         - id: ch03-b09
+          speakers: [old_minister, courtier_two, courtier_three]
+          ensemble: chorus
+          text: 华美，漂亮，好极了！
+          emotion: happy
+        - id: ch03-b10
           speaker: narrator
           text: 四下里全是华美、漂亮、好极了的赞叹声，人人仿佛都欢喜极了。皇帝还封两个骗子做了皇家御用织工。
     - id: ch04
@@ -201,38 +223,46 @@ audio_script:
           speaker: narrator
           text: 游行前一夜，两个骗子装模作样地忙了整整一夜，点掉了十六支还不止的蜡烛。他们就是要让大家看见，自己正忙着赶制皇帝的新衣。两人假装从织机上取下布料，拿着大剪刀在空中剪来剪去，又用没有线的针缝了起来。
         - id: ch04-b02
-          speaker: swindlers
+          speakers: [swindler_one, swindler_two]
+          ensemble: duo
           text: 皇帝的新装已经做好了！
           emotion: happy
         - id: ch04-b03
           speaker: narrator
           text: 皇帝带着所有贵族来到大厅。两个骗子高高举起双臂，好像手里真的托着什么东西，随后把那套看不见的新装一件件介绍起来。
         - id: ch04-b04
-          speaker: swindlers
+          speakers: [swindler_one, swindler_two]
+          ensemble: duo
           text: 这是裤子，这是外套，这边是披风！它们轻得像蛛网，穿在身上简直感觉不到。这正是它们最妙的地方。
         - id: ch04-b05
-          speaker: courtiers
+          speakers: [courtier, courtier_two, courtier_three]
+          ensemble: chorus
           text: 可不是吗！
         - id: ch04-b06
           speaker: narrator
           text: 其实朝臣们什么也看不见，因为那里根本没有衣服。
         - id: ch04-b07
-          speaker: swindlers
+          speakers: [swindler_one, swindler_two]
+          ensemble: duo
           text: 请陛下开恩，宽衣吧。让我们在这面大穿衣镜前，服侍陛下换上新装。
         - id: ch04-b08
           speaker: narrator
           text: 皇帝脱下衣服。两个骗子装作把新装一件一件给他穿上。皇帝站在镜子前，转来转去，从各个方向打量自己。
         - id: ch04-b09
-          speaker: courtiers
-          text: 多么漂亮，多么合身！花纹真美，颜色真鲜亮！这身衣服实在太华美了！
+          speaker: courtier_two
+          text: 多么漂亮，多么合身！
           emotion: happy
         - id: ch04-b10
+          speaker: courtier_three
+          text: 花纹真美，颜色真鲜亮！这身衣服实在太华美了！
+          emotion: happy
+        - id: ch04-b11
           speaker: master_ceremonies
           text: 陛下，游行时为您擎华盖的人已经准备好了。
-        - id: ch04-b11
+        - id: ch04-b12
           speaker: emperor
           text: 朕也准备好了。这身衣服不是合身得出奇吗？
-        - id: ch04-b12
+        - id: ch04-b13
           speaker: narrator
           text: 他又转身照了一遍镜子，好让别人相信，他正在欣赏身上的衣服。
     - id: ch05
@@ -245,32 +275,39 @@ audio_script:
           speaker: narrator
           text: 皇帝走在华美的华盖下，跟着游行队伍向前。街道两旁和窗前的人一见他，全都高声赞叹。
         - id: ch05-b03
-          speaker: crowd
-          text: 皇帝的新装真是无与伦比！瞧那衣裾，拖得多长啊！穿在身上多合适啊！
+          speaker: onlooker_one
+          text: 皇帝的新装真是无与伦比！
         - id: ch05-b04
+          speaker: onlooker_two
+          text: 瞧那衣裾，拖得多长啊！
+        - id: ch05-b05
+          speaker: onlooker_three
+          text: 穿在身上多合适啊！
+        - id: ch05-b06
           speaker: narrator
           text: 谁也不愿让别人知道自己什么都没看见。不然，别人就会觉得他不称职，或者愚蠢至极。从来没有哪位皇帝的衣服得到过这么多赞美。
-        - id: ch05-b05
+        - id: ch05-b07
           speaker: child
           text: 可是，他根本什么也没穿呀！
           emotion: surprised
-        - id: ch05-b06
+        - id: ch05-b08
           speaker: father
           text: 天哪，听听这天真孩子说的话吧！
           emotion: surprised
-        - id: ch05-b07
-          speaker: narrator
-          text: 人们交头接耳，把孩子的话一个传给另一个。最后，所有人都喊了起来。
-        - id: ch05-b08
-          speaker: crowd
-          text: 可是，他根本什么也没穿！
-          emotion: surprised
         - id: ch05-b09
           speaker: narrator
-          text: 皇帝深受震动，因为他觉得百姓说得没错。
+          text: 人们交头接耳，把孩子的话一个传给另一个。最后，所有人都喊了起来。
         - id: ch05-b10
+          speakers: [onlooker_one, onlooker_two, onlooker_three]
+          ensemble: chorus
+          text: 可是，他根本什么也没穿！
+          emotion: surprised
+        - id: ch05-b11
+          speaker: narrator
+          text: 皇帝深受震动，因为他觉得百姓说得没错。
+        - id: ch05-b12
           speaker: emperor
           text: 事到如今，朕一定要撑到最后。
-        - id: ch05-b11
+        - id: ch05-b13
           speaker: narrator
           text: 侍从们也越发庄严地向前走着，仿佛手中真的托着那根本不存在的衣裾。

@@ -15,13 +15,34 @@ audio_script:
         timbre: 苍老而响亮
         pace: 中等，争吵时急促
         pitch: 中高
-    onlookers:
-      display_name: 围观的人们
+    onlooker_1:
+      display_name: 围观者甲
       tts:
-        delivery: 七嘴八舌，自以为是，带着看热闹的兴奋
-        timbre: 混杂而清楚
+        delivery: 爱凑热闹，语气笃定又急着替木偶抱不平
+        timbre: 清亮而略显尖锐
         pace: 稍快
+        pitch: 中高
+    onlooker_2:
+      display_name: 围观者乙
+      tts:
+        delivery: 随声附和，带着看热闹时夸张的同情
+        timbre: 厚实而响亮
+        pace: 中等偏快
+        pitch: 中低
+    onlooker_3:
+      display_name: 围观者丙
+      tts:
+        delivery: 不怀好意，像在煞有介事地散布猜测
+        timbre: 干涩而清楚
+        pace: 中等
         pitch: 中
+    onlooker_4:
+      display_name: 围观者丁
+      tts:
+        delivery: 起哄添乱，越说越夸张
+        timbre: 轻薄而响亮
+        pace: 急促
+        pitch: 高
   chapters:
     - id: ch01
       title: 木偶有了名字
@@ -120,13 +141,15 @@ audio_script:
           speaker: narrator
           text: 匹诺曹听完，索性躺到地上，再也不肯走一步。没过多久，一群闲着没事又爱看热闹的人围了上来。他们站成一圈，七嘴八舌，什么话都说。
         - id: ch03-b07
-          speaker: onlookers
+          speakers: [onlooker_1, onlooker_2]
+          ensemble: duo
           text: 这个木偶真可怜！他不肯回家就对了。杰佩托那个坏老头，还不知道会怎么打他呢！
         - id: ch03-b08
           speaker: narrator
           text: 另一些人更坏，故意在旁边添油加醋。
         - id: ch03-b09
-          speaker: onlookers
+          speakers: [onlooker_3, onlooker_4]
+          ensemble: duo
           text: 杰佩托表面上像个好人，对孩子却是个十足的暴君！把这可怜的木偶交给他，他没准会把木偶撕成碎片！
         - id: ch03-b10
           speaker: narrator

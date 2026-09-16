@@ -13,15 +13,27 @@ audio_script:
     giant:
       display_name: 山顶的巨人
       tts: {delivery: 粗鲁傲慢, timbre: 粗厚低沉, pace: 偏慢, pitch: 低音}
-    onlookers:
-      display_name: 围观的人们
-      tts: {delivery: 好奇而敬畏, timbre: 自然齐整, pace: 中速, pitch: 中音}
+    onlooker_1:
+      display_name: 围观者甲
+      tts: {delivery: 惊奇而敬畏, timbre: 清亮自然, pace: 稍快, pitch: 中高音}
+    onlooker_2:
+      display_name: 围观者乙
+      tts: {delivery: 好奇而郑重, timbre: 温和厚实, pace: 中速, pitch: 中音}
+    onlooker_3:
+      display_name: 围观者丙
+      tts: {delivery: 热切而笃定, timbre: 明朗有力, pace: 稍缓, pitch: 中低音}
     courtier:
       display_name: 王宫侍臣
       tts: {delivery: 恭敬正式, timbre: 清晰沉稳, pace: 中速, pitch: 中音}
-    soldiers:
-      display_name: 士兵们
-      tts: {delivery: 忧虑戒备, timbre: 厚实, pace: 中速, pitch: 中低音}
+    soldier_1:
+      display_name: 士兵甲
+      tts: {delivery: 紧张而戒备, timbre: 低沉厚实, pace: 稍快, pitch: 低音}
+    soldier_2:
+      display_name: 士兵乙
+      tts: {delivery: 忧虑而谨慎, timbre: 稳重清晰, pace: 中速, pitch: 中低音}
+    soldier_3:
+      display_name: 士兵丙
+      tts: {delivery: 不安而坚决, timbre: 粗粝有力, pace: 稍缓, pitch: 中音}
     king:
       display_name: 国王
       tts: {delivery: 威严中藏着算计, timbre: 低沉端正, pace: 从容, pitch: 低音}
@@ -31,9 +43,15 @@ audio_script:
     second_forest_giant:
       display_name: 第二个森林巨人
       tts: {delivery: 粗野不耐烦, timbre: 沙哑厚重, pace: 中速, pitch: 低音}
-    horsemen:
-      display_name: 骑兵们
-      tts: {delivery: 谨慎而疑惑, timbre: 齐整有力, pace: 中速, pitch: 中低音}
+    horseman_1:
+      display_name: 骑兵甲
+      tts: {delivery: 谨慎而惊疑, timbre: 清晰沉稳, pace: 中速, pitch: 中低音}
+    horseman_2:
+      display_name: 骑兵乙
+      tts: {delivery: 关切而怀疑, timbre: 温厚有力, pace: 稍缓, pitch: 低音}
+    horseman_3:
+      display_name: 骑兵丙
+      tts: {delivery: 诧异而警觉, timbre: 明亮结实, pace: 稍快, pitch: 中音}
     queen:
       display_name: 年轻的王后
       tts: {delivery: 骄矜而不安, timbre: 清亮, pace: 中速, pitch: 中高音}
@@ -157,7 +175,8 @@ audio_script:
           text: 小裁缝顺着鼻尖所指的方向走了很久，来到王宫庭院。他累得倒在草地上睡着了。人们围过来，看见腰带上的字，都把他当成了大战士。
             大家从四面看了又看，越看那行字，越觉得睡在眼前的一定是位威名赫赫的大人物。
         - id: ch02-b08
-          speaker: onlookers
+          speakers: [onlooker_1, onlooker_2, onlooker_3]
+          ensemble: chorus
           text: 太平无事的时候，这位大英雄来做什么？他一定是个了不起的大人物！若有战争，他会很有用，千万不能让他走。
           emotion: surprised
         - id: ch02-b09
@@ -171,7 +190,8 @@ audio_script:
           speaker: narrator
           text: 他受到隆重接待，还有了自己的宅院。士兵们却害怕得很，恨不得他远在千里之外。
         - id: ch02-b12
-          speaker: soldiers
+          speakers: [soldier_1, soldier_2, soldier_3]
+          ensemble: chorus
           text: 这可怎么办？要是和他争起来，他每一击都会打倒我们七个人，谁也拦不住他。我们不愿跟这样的人待在一起，请让我们退役吧！
           emotion: fearful
         - id: ch02-b13
@@ -226,7 +246,8 @@ audio_script:
           speaker: tailor
           text: 已经办完了，我给了他们最后一击！这一仗可不轻松。他们走投无路，拔起树来抵抗。可碰见我这样一击能杀七个的人，再挣扎也没用。
         - id: ch03-b11
-          speaker: horsemen
+          speakers: [horseman_1, horseman_2, horseman_3]
+          ensemble: chorus
           text: 你真的一点伤也没受吗？
         - id: ch03-b12
           speaker: tailor

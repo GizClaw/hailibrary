@@ -36,20 +36,48 @@ audio_script:
         timbre: 清脆明亮
         pace: 偏快
         pitch: 高
-    puppets:
-      display_name: 木偶们
+    puppet_1:
+      display_name: 木偶甲
       tts:
-        delivery: 众声欢腾，亲热而喧闹
-        timbre: 高低错落的群声
+        delivery: 欢腾热烈，招呼人时格外亲切
+        timbre: 清亮轻快
+        pace: 偏快
+        pitch: 高
+    puppet_2:
+      display_name: 木偶乙
+      tts:
+        delivery: 爽朗兴奋，欢呼时干脆有力
+        timbre: 明亮结实
         pace: 快
-        pitch: 中高
-    audience:
-      display_name: 观众们
+        pitch: 中
+    puppet_3:
+      display_name: 木偶丙
       tts:
-        delivery: 众声不耐烦，催促得直截了当
-        timbre: 嘈杂厚实的群声
+        delivery: 热情活泼，语气亲昵而富有舞台感
+        timbre: 柔和灵动
+        pace: 中等偏快
+        pitch: 中高
+    audience_1:
+      display_name: 观众甲
+      tts:
+        delivery: 不耐烦，催促时直截了当
+        timbre: 粗亮有力
         pace: 中等偏快
         pitch: 中
+    audience_2:
+      display_name: 观众乙
+      tts:
+        delivery: 急躁强硬，喊话时短促响亮
+        timbre: 尖亮紧绷
+        pace: 快
+        pitch: 中高
+    audience_3:
+      display_name: 观众丙
+      tts:
+        delivery: 恼火急切，催促时重音鲜明
+        timbre: 低厚洪亮
+        pace: 中等
+        pitch: 低
     showman:
       display_name: 班主
       tts:
@@ -86,7 +114,8 @@ audio_script:
           speaker: narrator
           text: 木偶们从四面八方跳上舞台，一齐欢呼。
         - id: ch01-b08
-          speaker: puppets
+          speakers: [puppet_1, puppet_2, puppet_3]
+          ensemble: chorus
           text: 匹诺曹来了！我们的兄弟匹诺曹来了！匹诺曹万岁！
           emotion: happy
         - id: ch01-b09
@@ -103,7 +132,8 @@ audio_script:
           speaker: narrator
           text: 这一幕当然很动人，可池座里的观众见戏停了，渐渐等得不耐烦，纷纷扯开嗓子催促。
         - id: ch01-b13
-          speaker: audience
+          speakers: [audience_1, audience_2, audience_3]
+          ensemble: chorus
           text: 我们要看戏！快接着演！
           emotion: angry
         - id: ch01-b14

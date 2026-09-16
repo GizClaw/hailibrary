@@ -29,19 +29,33 @@ audio_script:
         timbre: 轻盈柔和
         pace: 从容
         pitch: 中高音
-    sparrows:
-      display_name: 麻雀们
+    sparrow_1:
+      display_name: 麻雀甲
       tts:
-        delivery: 叽叽喳喳，兴奋而好奇
-        timbre: 清脆活泼
-        pace: 轻快
+        delivery: 兴奋爽快，抢着分享刚看见的新鲜事
+        timbre: 清脆明亮
+        pace: 轻快利落
         pitch: 高音
-    swallows:
-      display_name: 燕子们
+    sparrow_2:
+      display_name: 麻雀乙
       tts:
-        delivery: 轻快清脆，彼此呼应着鸣唱
-        timbre: 纤细明亮
-        pace: 轻快
+        delivery: 好奇活泼，带着叽叽喳喳的雀跃
+        timbre: 轻细清亮
+        pace: 稍快而跳跃
+        pitch: 高音
+    swallow_1:
+      display_name: 燕子甲
+      tts:
+        delivery: 欢快轻盈，像飞行中清脆鸣唱
+        timbre: 纤细通透
+        pace: 轻快流畅
+        pitch: 高音
+    swallow_2:
+      display_name: 燕子乙
+      tts:
+        delivery: 明朗雀跃，鸣声带着俏皮的上扬
+        timbre: 清亮柔细
+        pace: 明快灵巧
         pitch: 高音
     air_and_sunlight:
       display_name: 空气和阳光
@@ -57,19 +71,54 @@ audio_script:
         timbre: 浑厚清楚
         pace: 平稳
         pitch: 中低音
-    young_ladies:
-      display_name: 年轻小姐们
+    young_lady_1:
+      display_name: 年轻小姐甲
       tts:
-        delivery: 欣喜热切，彼此呼应
-        timbre: 明亮轻柔
-        pace: 轻快
+        delivery: 热情爽朗，喜悦时语气明快
+        timbre: 明亮清柔
+        pace: 轻快利落
         pitch: 中高音
-    children:
-      display_name: 孩子们
+    young_lady_2:
+      display_name: 年轻小姐乙
       tts:
-        delivery: 天真热闹，情绪来得直接
-        timbre: 清脆稚嫩
-        pace: 活泼
+        delivery: 温柔活泼，惊讶时语速自然加快
+        timbre: 柔和圆润
+        pace: 轻快流畅
+        pitch: 中高音
+    young_lady_3:
+      display_name: 年轻小姐丙
+      tts:
+        delivery: 细致轻盈，情绪鲜明但不过分夸张
+        timbre: 清澈纤细
+        pace: 稍快
+        pitch: 高音
+    child_1:
+      display_name: 孩子甲
+      tts:
+        delivery: 直爽兴奋，喊话时干脆有力
+        timbre: 清脆结实
+        pace: 活泼稍快
+        pitch: 中高音
+    child_2:
+      display_name: 孩子乙
+      tts:
+        delivery: 好奇雀跃，说话带着急切的期待
+        timbre: 明亮稚嫩
+        pace: 轻快
+        pitch: 高音
+    child_3:
+      display_name: 孩子丙
+      tts:
+        delivery: 热闹外向，欢呼时节奏跳跃
+        timbre: 清亮轻细
+        pace: 快而清楚
+        pitch: 高音
+    child_4:
+      display_name: 孩子丁
+      tts:
+        delivery: 天真投入，语气柔软却充满兴致
+        timbre: 稚嫩圆润
+        pace: 活泼适中
         pitch: 高音
     storyteller:
       display_name: 讲故事的老先生
@@ -85,20 +134,41 @@ audio_script:
         timbre: 细小明快
         pace: 稍快
         pitch: 高音
-    mice:
-      display_name: 小老鼠们
+    mouse_2:
+      display_name: 小老鼠乙
       tts:
-        delivery: 好奇热烈，听故事时满是惊叹
-        timbre: 轻细活泼
-        pace: 轻快
+        delivery: 热切机灵，提问时一个接着一个
+        timbre: 轻细清亮
+        pace: 轻快稍急
         pitch: 高音
-    rats:
-      display_name: 大老鼠们
+    mouse_3:
+      display_name: 小老鼠丙
       tts:
-        delivery: 挑剔自负，说话一本正经
-        timbre: 粗哑低沉
+        delivery: 天真专注，听到新奇处满是惊叹
+        timbre: 细柔明亮
+        pace: 活泼适中
+        pitch: 高音
+    mouse_4:
+      display_name: 小老鼠丁
+      tts:
+        delivery: 欢喜外向，反应快而充满兴致
+        timbre: 轻巧活泼
+        pace: 明快
+        pitch: 中高音
+    rat_1:
+      display_name: 大老鼠甲
+      tts:
+        delivery: 挑剔自负，质问时一本正经
+        timbre: 粗哑厚重
         pace: 稍慢
         pitch: 低音
+    rat_2:
+      display_name: 大老鼠乙
+      tts:
+        delivery: 冷淡傲慢，回应短促而不耐烦
+        timbre: 低沉干涩
+        pace: 平缓偏慢
+        pitch: 中低音
     youngest_child:
       display_name: 最小的孩子
       tts:
@@ -178,7 +248,8 @@ audio_script:
           text: >-
             它们要去哪儿？它们一点也不比我高，还有一棵比我矮得多呢。人们为什么不砍掉它们的枝条？到底要把它们带去哪里？
         - id: ch02-b03
-          speaker: sparrows
+          speakers: [sparrow_1, sparrow_2]
+          ensemble: duo
           text: >-
             我们知道！我们从城里人家的窗户往里看过。那些树会被打扮得可漂亮啦！它们站在温暖的屋子中央，身上挂着蜜饼、镀金的苹果、玩具，还有几百支蜡烛。什么好东西都有！
         - id: ch02-b04
@@ -186,7 +257,8 @@ audio_script:
           text: >-
             然后呢？这些以后还会发生什么？
         - id: ch02-b05
-          speaker: sparrows
+          speakers: [sparrow_1, sparrow_2]
+          ensemble: duo
           text: >-
             再往后，我们没看见。不过，只看见这些就已经够啦。
         - id: ch02-b06
@@ -225,7 +297,8 @@ audio_script:
           text: >-
             枞树抖个不停，不知道下一刻会发生什么。几位年轻小姐来了，仆人们帮她们一起装饰树。彩纸做的小口袋里装满糖果，一个个挂上枝头。旁边还有镀金的苹果和核桃，看起来就像从树上长出来的。几百支红色、蓝色和白色的蜡烛系满枝条，从上到下，到处都是。绿叶底下摆着枞树从未见过的娃娃，个个像真婴儿。最高处安着一颗金属箔做的星星，闪闪发亮。整棵树美极了。
         - id: ch03-b03
-          speaker: young_ladies
+          speakers: [young_lady_1, young_lady_2, young_lady_3]
+          ensemble: chorus
           text: >-
             等到今晚，它一定会亮得不得了！
           emotion: happy
@@ -238,7 +311,8 @@ audio_script:
           text: >-
             枞树猜个没完，猜得树皮都疼了。纤细的枞树受这种疼，就像人犯了头疼一样难受。终于，所有蜡烛都亮起来。整棵树被光焰照得耀眼夺目。枞树欢喜得浑身发颤，一支蜡烛掉进绿叶间，烧焦了几片叶子。
         - id: ch03-b06
-          speaker: young_ladies
+          speakers: [young_lady_1, young_lady_2, young_lady_3]
+          ensemble: chorus
           text: >-
             快来呀！着火了，快来呀！
           emotion: fearful
@@ -255,7 +329,8 @@ audio_script:
           text: >-
             蜡烛越烧越短，一直烧到紧靠树枝的地方，才被吹灭。孩子们终于可以把树上的东西抢个精光了。他们一拥而上，挤得枝条咔嚓作响。要不是树顶那颗亮星连着天花板，枞树早被推倒了。孩子们拿着玩具四处玩耍，没人再看它一眼。只有照看孩子的女仆来翻了翻枝条，看有没有遗漏的苹果或无花果。
         - id: ch03-b10
-          speaker: children
+          speakers: [child_1, child_2, child_3, child_4]
+          ensemble: chorus
           text: >-
             我们要听故事！讲一个故事吧！
         - id: ch03-b11
@@ -267,34 +342,39 @@ audio_script:
           text: >-
             这里正好有一片绿荫，连这棵树也能听故事，高兴一下。不过，我今天只讲一个。你们想听《伊维德—阿维德》，还是听《矮胖子》？矮胖子摔下楼梯，很快又爬起来，最后还娶了公主。
         - id: ch03-b13
-          speaker: children
+          speaker: child_1
           text: >-
-            我要听《伊维德—阿维德》！我要听《矮胖子》！
+            我要听《伊维德—阿维德》！
         - id: ch03-b14
+          speaker: child_2
+          text: >-
+            我要听《矮胖子》！
+        - id: ch03-b15
           speaker: narrator
           text: >-
             孩子们你喊你的，我叫我的，屋里闹成一片。枞树安静地站着，猜想这件事是不是也和自己有关。其实，它给孩子们的快乐已经够多了。老先生最后讲的是《矮胖子》。他讲矮胖子怎样摔下楼梯，怎样被人扶起来，后来又怎样娶了公主。
-        - id: ch03-b15
-          speaker: children
+        - id: ch03-b16
+          speakers: [child_1, child_2, child_3, child_4]
+          ensemble: chorus
           text: >-
             再讲一个吧！我们还想听一个！
-        - id: ch03-b16
+        - id: ch03-b17
           speaker: narrator
           text: >-
             孩子们还想听《伊维德—阿维德》，可那一晚，他们只听到了《矮胖子》。枞树沉默下来，陷入了沉思。森林里的鸟儿从来没有讲过这样的事。矮胖子明明摔下楼梯，竟然还能娶到公主。
-        - id: ch03-b17
+        - id: ch03-b18
           speaker: fir_tree
           text: >-
             原来世上的事会这样发生。那位先生那么和善，他讲的话一定是真的。谁说得准呢？也许我有一天也会摔倒，然后娶到一位公主。
-        - id: ch03-b18
+        - id: ch03-b19
           speaker: narrator
           text: >-
             枞树满怀欢喜地等待第二天晚上。它以为自己还会戴上灯烛、玩具、金子和果实。
-        - id: ch03-b19
+        - id: ch03-b20
           speaker: fir_tree
           text: >-
             明天我一定不发抖。我要好好享受这一身华彩，还要再听一次《矮胖子》。说不定，他们也会讲《伊维德—阿维德》。
-        - id: ch03-b20
+        - id: ch03-b21
           speaker: narrator
           text: >-
             它安静地想着这些事，整整想了一夜。
@@ -330,7 +410,8 @@ audio_script:
           text: >-
             我才不老。比我年长的树多得是。
         - id: ch04-b08
-          speaker: mice
+          speakers: [mouse, mouse_2]
+          ensemble: duo
           text: >-
             那你从哪里来？你都知道些什么？见过世上最美的地方吗？快讲给我们听听。你去过储藏室没有？架子上全是奶酪，天花板上吊着火腿。我们能在牛油蜡烛上跑来跑去，进去时瘦瘦的，出来就吃得胖胖的。
         - id: ch04-b09
@@ -342,7 +423,8 @@ audio_script:
           text: >-
             于是，枞树把自己年轻时的事情全讲了出来。小老鼠一辈子也没听过这样的见闻，听得入了神。
         - id: ch04-b11
-          speaker: mice
+          speakers: [mouse, mouse_2]
+          ensemble: duo
           text: >-
             你见过这么多事情！那时候，你一定过得特别幸福吧。
         - id: ch04-b12
@@ -354,7 +436,8 @@ audio_script:
           text: >-
             枞树接着讲起圣诞夜，说自己身上怎样挂满蜜饼和灯烛。
         - id: ch04-b14
-          speaker: mice
+          speakers: [mouse, mouse_2]
+          ensemble: duo
           text: >-
             老枞树，那时你该有多幸福啊！
         - id: ch04-b15
@@ -362,7 +445,8 @@ audio_script:
           text: >-
             我根本不老。今年冬天，我才离开森林。只是现在没法再长高了。
         - id: ch04-b16
-          speaker: mice
+          speakers: [mouse, mouse_2]
+          ensemble: duo
           text: >-
             你讲的故事真精彩！
           emotion: happy
@@ -371,7 +455,8 @@ audio_script:
           text: >-
             第二天夜里，两只小老鼠又带来四个伙伴，围在树旁听它讲。枞树越讲，记起的事就越多。那些曾被它忽略的日子，此刻一件件回到了眼前。它觉得从前很幸福，又相信那样的日子还可能回来。《矮胖子》里的主人公摔下楼梯，最后都能娶到公主，它说不定也可以。它想起森林里那棵秀美的小桦树。在它心里，那就是真正的美丽公主。
         - id: ch04-b18
-          speaker: mice
+          speakers: [mouse, mouse_2, mouse_3, mouse_4]
+          ensemble: chorus
           text: >-
             矮胖子是谁？快把他的故事也讲给我们听。
         - id: ch04-b19
@@ -379,7 +464,7 @@ audio_script:
           text: >-
             枞树把那个故事从头到尾讲了一遍，每个字都还记得。小老鼠们高兴得恨不得一下蹦到树梢。下一夜，来听故事的老鼠更多了。到了星期日，还有两只大老鼠也来了。可它们听完以后，一点也不喜欢。小老鼠们听见这种评价，心里很难过，连自己也觉得故事没那么好了。
         - id: ch04-b20
-          speaker: rats
+          speaker: rat_1
           text: >-
             你就只会这一个故事吗？
         - id: ch04-b21
@@ -387,7 +472,7 @@ audio_script:
           text: >-
             我只会这一个。它是我在一生最幸福的那个夜晚听来的，可当时的我根本不知道自己那么幸福。
         - id: ch04-b22
-          speaker: rats
+          speaker: rat_1
           text: >-
             这故事可真糟。你不会讲熏肉的故事吗？或者讲讲储藏室里的牛油？
         - id: ch04-b23
@@ -395,7 +480,7 @@ audio_script:
           text: >-
             我不会讲那样的故事。
         - id: ch04-b24
-          speaker: rats
+          speaker: rat_1
           text: >-
             那就多谢你了。
         - id: ch04-b25
@@ -424,7 +509,8 @@ audio_script:
           text: >-
             枞树迎着阳光和新鲜空气，满心欢喜。它很快被抬下楼，送进院子，快得来不及想自己的模样，只顾着四处看。院子旁边就是花园，里面花开得正好。新鲜芬芳的玫瑰越过矮栅栏垂下来，椴树也开着花。燕子在空中来来回回地飞，欢快地叫着。
         - id: ch05-b05
-          speaker: swallows
+          speakers: [swallow_1, swallow_2]
+          ensemble: duo
           text: >-
             啾啾，啾啾，我的伴儿就要来啦！
         - id: ch05-b06
@@ -458,7 +544,8 @@ audio_script:
           text: >-
             一个小伙子走过来，把枞树劈成短短的木块，很快就在地上堆成一大捆。木块被塞进铜锅底下的火炉，转眼烧起明亮的火焰。枞树深深地叹气，每一声都像手枪发出的砰响。玩耍的孩子们跑来，坐在火炉前看火。
         - id: ch05-b13
-          speaker: children
+          speakers: [child_1, youngest_child]
+          ensemble: duo
           text: >-
             砰！砰！又响了一声！
         - id: ch05-b14

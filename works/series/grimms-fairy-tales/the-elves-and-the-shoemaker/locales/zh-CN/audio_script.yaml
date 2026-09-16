@@ -22,13 +22,20 @@ audio_script:
         timbre: 柔和明亮
         pace: 自然而利落
         pitch: 中高音
-    little_men:
-      display_name: 两个小人儿
+    little_man_1:
+      display_name: 小人儿甲
       tts:
-        delivery: 轻快活泼，歌唱时充满欢喜
+        delivery: 轻快活泼，歌唱时欢喜又俏皮
         timbre: 清亮轻盈
         pace: 明快
         pitch: 高音
+    little_man_2:
+      display_name: 小人儿乙
+      tts:
+        delivery: 活泼爽朗，歌唱时热烈又欢快
+        timbre: 明亮圆润
+        pace: 轻快而有弹性
+        pitch: 中高音
   chapters:
     - id: ch01
       title: 第一个故事
@@ -73,7 +80,8 @@ audio_script:
           speaker: narrator
           text: 午夜时分，两个小人儿蹦蹦跳跳地来了。他们本想马上干活，却没找到皮料，只看到一件件漂亮的小衣裳。两个人先是一愣，接着高兴极了。他们飞快地把衣裳穿好，一边穿，一边唱了起来。
         - id: ch01-b14
-          speaker: little_men
+          speakers: [little_man_1, little_man_2]
+          ensemble: duo
           text: 如今我们穿得俏，何必还把鞋来造？
           emotion: happy
         - id: ch01-b15
