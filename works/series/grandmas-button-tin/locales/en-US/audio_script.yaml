@@ -3,591 +3,329 @@ audio_script:
   cast:
     narrator:
       display_name: Narrator
-      tts:
-        delivery: observant and composed
-        timbre: warm and clear
-        pace: measured
-        pitch: medium
+      tts: {delivery: intimate and observant, timbre: warm and clear, pace: relaxed, pitch: medium}
     lin:
       display_name: Nora
-      tts:
-        delivery: alert and firm
-        timbre: clear young girl voice
-        pace: naturally brisk
-        pitch: medium-high
+      tts: {delivery: alert and candid with a stubborn edge, timbre: clear young girl voice, pace: naturally brisk, pitch: medium-high}
     grandma:
       display_name: Grandma June
-      tts:
-        delivery: practical with dry humor
-        timbre: soft older woman voice
-        pace: unhurried
-        pitch: medium-low
+      tts: {delivery: practical and dryly funny, timbre: soft older woman voice, pace: unhurried, pitch: medium-low}
     mom:
       display_name: Mom
-      tts:
-        delivery: busy and affectionate
-        timbre: bright adult woman voice
-        pace: natural
-        pitch: medium
+      tts: {delivery: busy and affectionate, timbre: bright adult woman voice, pace: natural, pitch: medium}
     aunt_mei:
       display_name: Aunt May
-      tts:
-        delivery: tired and gentle
-        timbre: soft adult woman voice
-        pace: relaxed
-        pitch: medium
+      tts: {delivery: tired and gentle, timbre: soft adult woman voice, pace: relaxed, pitch: medium}
   chapters:
     - id: ch01
       title: Weather Under the Bed
       blocks:
         - id: ch01-b01
           speaker: narrator
-          text: |+
-            The first storm Nora heard at Grandma June's apartment was under the guest-room bed.
+          text: |-
+            The first storm Nora heard at Grandma June's apartment wasn't outside. It was under the guest-room bed.
 
-            She had flattened one cheek against the floor and reached into the cool dark for her charging cable. Her fingertips struck something round. When she pulled, the thing answered with a bright metal rattle, as if a pocketful of hard candy had rolled down a fire escape.
-
-            Nora jerked back. Grandma June appeared in the doorway with damp sheets piled in her arms and three raindrops shining on her glasses.
-
+            Nora had one cheek on the floor and one arm in the cool dark, searching for her charging cable. Her fingers hit something round. She pulled, and it answered with a sharp metal rattle, like hard candy tumbling down a fire escape. Nora jumped back. Grandma appeared in the doorway with damp sheets in her arms and three raindrops shining on her glasses.
         - id: ch01-b02
           speaker: grandma
           text: What are you hunting?
         - id: ch01-b03
-          speaker: narrator
-          text: |2+
-             she asked.
-
+          speaker: lin
+          text: My cable. It fell back there last night. And I didn't put that thing there.
         - id: ch01-b04
-          speaker: lin
-          text: My cable. It fell back there last night.
-        - id: ch01-b05
-          speaker: narrator
-          text: " Nora pointed beneath the bed. "
-        - id: ch01-b06
-          speaker: lin
-          text: |+
-            I didn't put that thing there.
-
-        - id: ch01-b07
           speaker: grandma
           text: That thing was here before you were.
-        - id: ch01-b08
-          speaker: narrator
-          text: |+
-            
-
-            Together they tugged out a round tin. It had once been turquoise, but years had faded it to the color of a cloudy pond. Cream flowers circled the lid, and a thumbprint of rust marked one hinge. Grandma wiped away the dust with her apron. She did not open it.
-
-            At ten, Nora had recently become old enough for adults to tell her she was old enough. Her new cousin would come home from the hospital in two days, and everyone said Nora would be the big girl now. The phrase pleased her for half a second, then pinched. It seemed to mean that she should know how to hold a baby and make one stop crying without anybody showing her.
-
-            The silent tin was more interesting.
-
-        - id: ch01-b09
-          speaker: lin
-          text: |+
-            What's inside?
-
-        - id: ch01-b10
-          speaker: grandma
-          text: |+
-            Things I didn't finish using.
-
-        - id: ch01-b11
-          speaker: lin
-          text: Then why are they under the bed?
-        - id: ch01-b12
+        - id: ch01-b05
           speaker: narrator
           text: |-
-            
+            Together they tugged out a round tin. It had once been turquoise. Now it was the color of a cloudy pond, with faded cream flowers and a thumbprint of rust near one hinge. Grandma wiped it with her apron but didn't open it.
 
-            Grandma raised one eyebrow. 
-        - id: ch01-b13
-          speaker: grandma
-          text: Why is your unfinished charging cable under there?
-        - id: ch01-b14
-          speaker: narrator
-          text: |+
-            
-
-            Nora laughed. Grandma pressed her thumb to the lid. It sprang open with a soft pop.
-
-            Buttons crowded the tin: shell white, honey yellow, ink blue. Some gleamed. Others were scratched cloudy. There were buttons with two holes and buttons with four, a narrow wooden toggle, and one large green button that looked up with four quiet eyes.
-
-            Nora reached for it. Grandma's hand covered the tin first.
-
-        - id: ch01-b15
-          speaker: grandma
-          text: |+
-            Dusty fingers.
-
-        - id: ch01-b16
+            Nora was ten, which meant adults kept telling her she was old enough. Her new cousin was coming home from the hospital, and everyone said Nora would be the big girl now. That sounded nice for half a second. Then it pinched. Apparently she was supposed to know how to hold a baby and stop one crying without anyone showing her. The silent tin was much more interesting.
+        - id: ch01-b06
           speaker: lin
-          text: |+
-            Buttons don't mind dust.
-
-        - id: ch01-b17
+          text: What's inside? And if you didn't finish using it, why hide it under the bed?
+        - id: ch01-b07
+          speaker: grandma
+          text: Things I didn't finish using. So why is your unfinished charging cable under there?
+        - id: ch01-b08
+          speaker: narrator
+          text: |-
+            Nora laughed. Grandma pressed her thumb to the lid, and it popped open. Buttons crowded inside: shell white, honey yellow, ink blue. Some shone; some were scratched cloudy. There were two-hole buttons, four-hole buttons, a wooden toggle, and one large green button staring up with four quiet eyes. Nora reached for it, but Grandma covered the tin first.
+        - id: ch01-b09
+          speaker: grandma
+          text: Dusty fingers.
+        - id: ch01-b10
+          speaker: lin
+          text: Buttons don't mind dust.
+        - id: ch01-b11
           speaker: grandma
           text: One of them might.
-        - id: ch01-b18
+        - id: ch01-b12
           speaker: narrator
-          text: " Grandma dug near the bottom and lifted a pearl button no bigger than a lentil. Light rested softly on its curved face. "
-        - id: ch01-b19
+          text: Grandma dug near the bottom and lifted a pearl button no bigger than a lentil. Light rested softly on its curved face.
+        - id: ch01-b13
           speaker: grandma
-          text: |+
-            This came from your mother's white concert blouse. At her first solo, she worried the top button loose and held it in her fist through the whole song. I found it in her wet palm afterward.
-
-        - id: ch01-b20
+          text: This came from your mother's white concert blouse. At her first solo, she worried the top button loose and held it in her fist through the whole song. I found it in her wet palm afterward.
+        - id: ch01-b14
           speaker: lin
           text: Mom got scared?
           emotion: surprised
-        - id: ch01-b21
+        - id: ch01-b15
           speaker: narrator
-          text: |2+
-             Nora sat up.
-
-        - id: ch01-b22
+          text: Nora sat up.
+        - id: ch01-b16
           speaker: grandma
-          text: |+
-            She claimed she wasn't.
-
-        - id: ch01-b23
+          text: She claimed she wasn't.
+        - id: ch01-b17
           speaker: lin
-          text: |+
-            Then why did she pull off her button?
-
-        - id: ch01-b24
+          text: Then why did she pull off her button?
+        - id: ch01-b18
           speaker: grandma
           text: You can ask her.
-        - id: ch01-b25
+        - id: ch01-b19
           speaker: narrator
-          text: |2+
-             Grandma's mouth bent at one corner.
-
-            Nora looked into the tin again. The buttons no longer seemed like spare parts. Each one appeared to have been stopped just before it rolled out of a story.
-
-
+          text: One corner of Grandma's mouth lifted. When Nora looked into the tin again, she didn't see spare parts. Each button seemed to have been caught just before it rolled out of a story.
     - id: ch02
       title: Three That Stayed
       blocks:
         - id: ch02-b01
           speaker: narrator
-          text: |+
-            Rain ticked against the balcony rail. Grandma draped the damp sheets over chair backs, and Nora forgot her charging cable. She sat cross-legged on the rug and chose a flat red button.
-
+          text: Rain ticked against the balcony rail. Grandma draped the damp sheets over chair backs. Nora forgot her cable, sat cross-legged on the rug, and picked up a flat red button.
         - id: ch02-b02
           speaker: lin
-          text: |+
-            This one?
-
+          text: What about this one?
         - id: ch02-b03
           speaker: grandma
-          text: |+
-            Your uncle's raincoat. He was seven, and the hood kept falling over his eyes. He came home with one button missing and two minnows in his boots.
-
+          text: Your uncle's raincoat. He was seven, and the hood kept falling over his eyes. He came home with one button missing and two minnows in his boots.
         - id: ch02-b04
           speaker: lin
-          text: |+
-            How did fish get into his boots?
-
+          text: How did fish get into his boots?
         - id: ch02-b05
           speaker: grandma
           text: He stepped in the creek. He remembered to rescue the fish and forgot to rescue the button.
         - id: ch02-b06
           speaker: narrator
-          text: |+
-            
+          text: |-
+            Nora laughed so hard the button nearly fell through the heating grate. Grandma caught it with a hand far too quick for anyone's idea of an old lady.
 
-            Nora laughed so hard that the red button nearly dropped through the heating grate. Grandma caught it with a hand too quick to belong to anybody's idea of an old lady.
+            A blue glass button came from Grandpa's favorite sweater. For a family photograph, he wore the sweater backward so its patched elbow would face away from the camera. His collar leaned sideways in the picture, but that blue button shone like a bead of water.
 
-            A blue glass button had belonged to Grandpa's favorite sweater. On the day of a family photograph, he wore the sweater backward because the patched elbow looked better on the side away from the camera. In the finished picture, his collar leaned sideways, but the blue button shone like a bead of water.
-
-            The wooden toggle belonged to Grandma herself. Long ago, she had taken a bus to another city to learn dressmaking. Cold air leaked through the window, so she fastened her brown coat to the throat. When the bus arrived, the toggle hung by one thread. She guarded it in her fist all the way to the tailor shop and sewed it back before she took off her coat.
-
+            The wooden toggle was Grandma's. Years ago, she rode a bus to another city to learn dressmaking. Cold air leaked through the window, so she fastened her coat right to the throat. When she arrived, the toggle hung by one thread. She guarded it in her fist all the way to the tailor shop and sewed it back on before she even took off her coat.
         - id: ch02-b07
           speaker: lin
-          text: Why did you cut it off later?
+          text: Then why did you cut it off later?
         - id: ch02-b08
-          speaker: narrator
-          text: |2+
-             Nora asked.
-
-        - id: ch02-b09
           speaker: grandma
-          text: |+
-            The coat wore out.
-
-        - id: ch02-b10
+          text: The coat wore out.
+        - id: ch02-b09
           speaker: lin
-          text: |+
-            But you kept the button.
-
-        - id: ch02-b11
+          text: But you kept the button.
+        - id: ch02-b10
           speaker: grandma
           text: The wood didn't wear out.
-        - id: ch02-b12
+        - id: ch02-b11
           speaker: narrator
-          text: |2+
-             Grandma said it briskly, as if that settled the matter.
-
-            Nora lined the three buttons across her knee: red, blue, brown. She liked the stories, but something in her tightened. Every button knew what the adults had been like before they were adults. Nora felt like a guest who had arrived after all the good chairs were taken.
-
-        - id: ch02-b13
+          text: Grandma said it as if that settled everything. Nora lined up the red, blue, and brown buttons on her knee. She loved their stories, but something in her tightened. Every button knew the adults before they were adults. Nora felt like a guest who'd arrived after all the good chairs were taken.
+        - id: ch02-b12
           speaker: lin
           text: Is there one from me?
+        - id: ch02-b13
+          speaker: narrator
+          text: Grandma found a pale yellow bear button from the overalls Nora had worn at three. Nora didn't remember the overalls. She only remembered the picture of her round toddler face that Mom loved showing relatives.
         - id: ch02-b14
-          speaker: narrator
-          text: |+
-            
-
-            Grandma searched and found a pale yellow button shaped like a bear. Nora recognized it from the overalls she had worn at three. She could not remember the overalls. She only remembered the photograph of her round toddler face, which Mom displayed to relatives whenever she wanted Nora to groan.
-
-        - id: ch02-b15
           speaker: lin
-          text: "I don't want that one,"
-        - id: ch02-b16
+          text: I don't want that one.
+        - id: ch02-b15
           speaker: narrator
-          text: |2-
-             Nora said.
-
-            Grandma's hand stopped between them. 
-        - id: ch02-b17
+          text: Grandma's hand stopped between them.
+        - id: ch02-b16
           speaker: grandma
-          text: |+
-            Why not?
-
-        - id: ch02-b18
+          text: Why not?
+        - id: ch02-b17
           speaker: lin
           text: Because I don't remember it. That's your story about me.
+          emotion: sad
+        - id: ch02-b18
+          speaker: narrator
+          text: For a moment, only the rain spoke. Grandma didn't call her adorable or tell her to be grateful. She put the bear back and left the lid open just a crack.
         - id: ch02-b19
-          speaker: narrator
-          text: |+
-            
-
-            Only the rain spoke for a moment. Grandma did not say how adorable Nora had been. She did not tell her to be grateful. She returned the bear button to the tin and left the lid resting on a narrow crack.
-
-        - id: ch02-b20
           speaker: grandma
-          text: "Then we'll wait for one you remember,"
-        - id: ch02-b21
+          text: Then we'll wait for one you remember.
+        - id: ch02-b20
           speaker: narrator
-          text: |2+
-             she said.
-
-            Nora looked at the bear button through the narrow crack. Then she pressed the lid shut herself. She still wanted a button whose story she could remember, but she did not want to borrow someone else's. For now, that choice was hers.
-
-
+          text: Nora looked through the crack, then pressed the lid shut herself. She still wanted a button with a story she could remember, but she wouldn't borrow someone else's. At least that choice belonged to her.
     - id: ch03
       title: The Coat They Could Touch
       blocks:
         - id: ch03-b01
           speaker: narrator
-          text: |+
-            That evening, Mom called from the hospital. On the screen, Aunt May lay against a white pillow with a wrinkled red face tucked beside her. The baby's eyes were closed. Her mouth worked in sleep as if she were tasting a secret.
-
+          text: That evening, Mom called from the hospital. On the screen, Aunt May rested against a white pillow with a wrinkled red face tucked beside her. The baby's eyes were closed, and her mouth moved as if she were tasting a secret in her sleep.
         - id: ch03-b02
           speaker: mom
-          text: "Your cousin is meeting you,"
+          text: Your cousin is meeting you.
         - id: ch03-b03
           speaker: narrator
-          text: |2-
-             Mom said, bringing the phone closer.
-
-            Nora leaned away without meaning to. 
+          text: Mom brought the phone closer. Nora leaned away without meaning to.
         - id: ch03-b04
           speaker: lin
-          text: |+
-            She can't see me, can she?
-
+          text: She can't see me, can she?
         - id: ch03-b05
           speaker: mom
           text: She'll be at Grandma's in two days. Didn't you say you had a present?
         - id: ch03-b06
           speaker: narrator
-          text: |+
-            
+          text: |-
+            Nora had said she had a present. She'd saved enough allowance for a jacket with rabbit ears on the hood. The picture was still on her phone, but the store had sold out. Every other jacket felt like a last-minute substitute, and she didn't want an adult choosing one and saying babies could wear anything.
 
-            Nora had said that. She had saved enough allowance for a jacket with rabbit ears on the hood. The picture waited in her phone. But the store had sold out, and every other jacket felt like something chosen at the last minute. Nora did not want an adult to buy one and say that babies could wear anything.
-
-            After the call, she found Grandma spreading cream-colored cloth over the dining table. A paper pattern, ruler, chalk, and spools of thread waited beside it.
-
+            After the call, Grandma spread cream-colored cloth over the table. A paper pattern, ruler, chalk, and spools of thread waited beside it.
         - id: ch03-b07
           speaker: lin
-          text: |+
-            What's that for?
-
+          text: What's that for?
         - id: ch03-b08
-          speaker: grandma
-          text: I planned to make a small blanket.
-        - id: ch03-b09
           speaker: narrator
-          text: " Grandma rubbed the cloth between two fingers. "
-        - id: ch03-b10
+          text: Grandma rubbed the cloth between two fingers.
+        - id: ch03-b09
           speaker: grandma
-          text: |+
-            There's enough for a coat.
-
-        - id: ch03-b11
+          text: I planned to make a small blanket. There's enough for a coat.
+        - id: ch03-b10
           speaker: lin
-          text: |+
-            It won't have rabbit ears.
-
-        - id: ch03-b12
+          text: It won't have rabbit ears.
+        - id: ch03-b11
           speaker: grandma
           text: You can keep waiting for the store.
+        - id: ch03-b12
+          speaker: narrator
+          text: Grandma's voice was flat, but Nora heard the dare. She enlarged the saved picture. The rabbit-ear hood, pink zipper, and smiling face looked perfect while her screen glowed. When it went dark, the real cloth was still under her hand.
         - id: ch03-b13
-          speaker: narrator
-          text: |+
-            
-
-            Grandma's voice was flat, but Nora heard the dare inside it. She enlarged the saved picture. The pink zipper and smiling rabbit face looked perfect while the screen glowed. When it went dark, only the cream cloth remained under her hand.
-
-        - id: ch03-b14
           speaker: lin
-          text: |+
-            Can we finish in time?
-
+          text: Can we finish in time?
+        - id: ch03-b14
+          speaker: grandma
+          text: I can't finish tonight alone. Together, we still might not.
         - id: ch03-b15
-          speaker: grandma
-          text: I can't finish tonight alone.
-        - id: ch03-b16
-          speaker: narrator
-          text: " Grandma held out the ruler. "
-        - id: ch03-b17
-          speaker: grandma
-          text: "Together, we still might not."
-        - id: ch03-b18
           speaker: narrator
           text: |-
-            
+            Grandma held out the ruler, and Nora took it.
 
-            Nora took it.
+            Nora held the paper pattern while Grandma traced it. Nora's first cut wandered inside the chalk line. Grandma didn't grab the scissors. She simply redrew that short edge a little narrower, and Nora kept going. Snip by snip, the storm moved farther away. They laid out two front pieces, one back, and two sleeves. Together, the pieces looked like a little animal that hadn't learned to stand.
 
-            She held the paper pattern while Grandma drew around it. Nora's first cut wandered inside the chalk line. Grandma did not take the scissors away. She redrew that short edge a little narrower, and Nora continued. Snip by snip, the storm moved farther off. They arranged two front pieces, a back, and two sleeves on the table. The parts looked like a small animal that had not learned to stand.
-
-            Grandma lifted her sewing machine from the cabinet. The needle flashed when she pressed the pedal. Nora stayed clear and watched the cloth edge. Whenever it began to drift, she tapped the table once. At the cuff, Grandma let her try.
-
-            The machine leaped. A line of stitches ran crooked across the cloth.
-
-            Nora pulled her foot away. 
-        - id: ch03-b19
+            Grandma lifted the sewing machine from the cabinet and pressed the pedal. The needle flashed. Nora stayed clear and watched the cloth edge, tapping the table whenever it started to drift. At the cuff, Grandma let her try. The machine leaped, and the stitches shot crooked across the cloth. Nora pulled her foot away.
+        - id: ch03-b16
           speaker: lin
-          text: |+
-            Take it out.
-
-        - id: ch03-b20
+          text: Take it out.
+        - id: ch03-b17
           speaker: grandma
-          text: "The cuff folds over it,"
-        - id: ch03-b21
-          speaker: narrator
-          text: " Grandma said. "
-        - id: ch03-b22
-          speaker: grandma
-          text: |+
-            No one will see.
-
-        - id: ch03-b23
+          text: The cuff folds over it. No one will see.
+        - id: ch03-b18
           speaker: lin
           text: I will.
-        - id: ch03-b24
+        - id: ch03-b19
           speaker: narrator
-          text: |+
-            
+          text: |-
+            Grandma handed her the seam ripper. Taking the stitches out was much slower than putting them in. Halfway through, Nora's palm grew damp and she wanted to quit. Then she remembered Mom's pearl button in that sweaty fist. She changed her grip and picked out the next stitch.
 
-            Grandma passed her the seam ripper.
-
-            Removing the little stitches took far longer than making them. Halfway through, Nora's palm grew damp and she wanted to leave the rest. Then she thought of Mom's pearl button, held through an entire song in a sweaty fist. She changed her grip and picked out the next stitch.
-
-            At ten that night, the coat had a shape. It had a cream body, pale blue edging, and two soft sleeves. Grandma laid two broad pieces of soft hook-and-loop tape beside it. They would be stitched flat inside the overlapping fronts, with no loose small pieces for the baby to pull free.
-
-        - id: ch03-b25
+            At ten that night, the coat finally had a shape: a cream body, pale blue edging, and two soft sleeves. Grandma set down two broad pieces of soft hook-and-loop tape. They would be sewn flat inside the overlapping fronts, with no small loose piece for the baby to pull free.
+        - id: ch03-b20
           speaker: grandma
-          text: These will close it,
-        - id: ch03-b26
+          text: These will close the coat. We can finish them tomorrow. You can still pick a button for the keepsake scrap.
+        - id: ch03-b21
           speaker: narrator
-          text: " Grandma said. "
-
-        - id: ch03-b27
-          speaker: grandma
-          text: We can finish them tomorrow.
-        - id: ch03-b28
-          speaker: narrator
-          text: "\n\nThen she pushed the button tin across the table. "
-        - id: ch03-b29
-          speaker: grandma
-          text: You may still choose one for the keepsake scrap.
-        - id: ch03-b30
-          speaker: narrator
-          text: |+
-            
-
-            Nora reached at once for the large green button. Against the cream cloth, it looked like a leaf after rain. She lifted it, then noticed that Grandma had not moved.
-
-        - id: ch03-b31
+          text: Nora reached at once for the big green button. Against the cream cloth, it looked like a leaf after rain. She lifted it, then noticed Grandma hadn't moved.
+        - id: ch03-b22
           speaker: lin
-          text: |+
-            Whose was this?
-
-        - id: ch03-b32
+          text: Whose was this?
+        - id: ch03-b23
           speaker: narrator
-          text: "Grandma rolled a thread end between her fingers. "
-        - id: ch03-b33
+          text: Grandma rolled a thread end between her fingers.
+        - id: ch03-b24
           speaker: grandma
-          text: |+
-            Your mother had a green sweater when she was five. A neighbor gave it to her. She wore it until the sleeves stopped halfway down her arms. When I unraveled the sweater, I used the other buttons. This one stayed.
-
-        - id: ch03-b34
+          text: Your mother had a green sweater when she was five. A neighbor gave it to her. She wore it until the sleeves stopped halfway down her arms. When I unraveled it, I used the other buttons. This one stayed.
+        - id: ch03-b25
           speaker: narrator
-          text: |+
-            Nora closed her fingers around it. She loved the button, but it still held someone else's story. She set it on a scrap of cream cloth and did not ask for the needle yet.
-
-
+          text: Nora closed her fingers around the green button. She loved it, but it still carried someone else's story. She set it on a scrap of cream cloth and didn't ask for the needle yet.
     - id: ch04
       title: The Unfinished Fastening
       blocks:
         - id: ch04-b01
           speaker: narrator
-          text: |+
-            Aunt May and the baby came home a day early. The door opened, and the apartment filled with noise: shopping bags crackling, a thermos knocking against the wall, Mom warning everyone about the shoes, Uncle Rob promising he would stay only five minutes while carrying in three bags.
+          text: |-
+            Aunt May and the baby came home a day early. Suddenly the apartment was full of crackling bags, a thermos knocking against the wall, Mom warning everyone about the shoes, and Uncle Rob claiming he'd stay five minutes while carrying in three bags. The baby was wrapped in a pale gray blanket, and her face looked much smaller than it had on the phone.
 
-            The coat still needed its soft fastening.
-
-            Nora hid it behind her back. She had planned to clip every thread and present it properly. But Grandma was helping Aunt May sit down, and Mom was changing the baby. No one noticed Nora in the middle of the room.
-
-            Then the baby cried. It was not the thin sound from the phone. Her whole face turned red. Her fists rose beside her ears as if she objected to every lamp and hand. Nora stood holding the coat, unsure whether to step closer or disappear.
-
+            The coat still needed its soft fastening. Nora hid it behind her back. She'd planned to trim every thread and present it properly. But Grandma was helping Aunt May sit down, Mom was changing the baby, and no one noticed Nora in the middle of the room. Then the baby cried. It wasn't the thin sound she'd made on the phone. Her whole face turned red, and her fists rose beside her ears as if she objected to every lamp and hand in the room. Nora stood there with the coat, unsure whether to step closer or move aside.
         - id: ch04-b02
           speaker: aunt_mei
           text: Could someone close the curtain halfway?
-          emotion: calm
         - id: ch04-b03
           speaker: narrator
-          text: |2+
-             Aunt May asked. Her voice was almost lost beneath the crying.
-
-            Nora moved first. The room softened, and soon the cries grew shorter. Aunt May saw the coat in Nora's arms.
-
+          text: Aunt May's voice was almost lost under the crying. Nora moved first. The room softened, and the cries grew shorter. Then Aunt May noticed the coat.
         - id: ch04-b04
           speaker: aunt_mei
-          text: |+
-            Did you make that?
-
+          text: Did you make that?
         - id: ch04-b05
           speaker: lin
           text: Grandma and I did. It isn't finished.
         - id: ch04-b06
-          speaker: narrator
-          text: |-
-            
-
-            Aunt May touched the pale blue edge. Her tired eyes curved. 
-        - id: ch04-b07
           speaker: aunt_mei
           text: Neither is she. Let's try it.
           emotion: happy
-        - id: ch04-b08
-          speaker: narrator
-          text: |+
-            
-
-            Grandma laid the coat lightly over the baby. It fit, but the two front pieces slipped apart like doors that would not stay closed.
-
-        - id: ch04-b09
-          speaker: mom
-          text: "It needs its fastening,"
-        - id: ch04-b10
-          speaker: narrator
-          text: |2+
-             Mom said.
-
-            The broad fabric strips waited on the table beside the green button and cream scrap.
-
-            The baby caught Nora's smallest finger. The hand was astonishingly small, but its grip was serious. Nora did not move. She saw the empty place on the coat and understood that she did not need the tin to give her a piece of the past. She was here at the table, beside the curtain, inside this small hand's grasp, making today.
-
-            She did not say any of that.
-
-        - id: ch04-b11
-          speaker: lin
-          text: "Use the soft strips for her coat,"
-        - id: ch04-b12
-          speaker: narrator
-          text: " she told Grandma. "
-        - id: ch04-b13
-          speaker: lin
-          text: |+
-            I want the green button for the scrap.
-
-        - id: ch04-b14
-          speaker: narrator
-          text: "Grandma asked only, "
-        - id: ch04-b15
-          speaker: grandma
-          text: |+
-            Sure?
-
-        - id: ch04-b16
-          speaker: lin
-          text: It will stay in the tin, away from the baby.
-        - id: ch04-b17
+        - id: ch04-b07
           speaker: narrator
           text: |-
-            
+            Aunt May touched the pale blue edge, and her tired eyes curved. Grandma laid the coat lightly over the baby. It fit, but the fronts slipped apart like doors that wouldn't stay closed.
+        - id: ch04-b08
+          speaker: mom
+          text: It needs its fastening.
+        - id: ch04-b09
+          speaker: narrator
+          text: |-
+            The broad fabric strips waited on the table beside the green button and cream scrap.
 
-            Nora sat by the window and pushed the thread toward the needle's eye. Grandma did not take it from her. She only knotted the end after Nora got it through. The first stitch came up crooked. Nora drew it back and tried again.
-
-            Mom lifted her phone for a picture. Nora shook her head. 
-        - id: ch04-b18
+            Then the baby caught Nora's smallest finger. Such a tiny hand, but such a serious grip. Nora didn't move. Looking at the empty place on the coat, she understood she didn't need the tin to give her a piece of the past. She was right here at the table, beside the curtain, inside that little hand's grasp. She was making today. She didn't say any of that out loud.
+        - id: ch04-b10
+          speaker: lin
+          text: Use the soft strips for her coat. I want the green button for the scrap.
+        - id: ch04-b11
+          speaker: grandma
+          text: Sure?
+        - id: ch04-b12
+          speaker: lin
+          text: It'll stay in the tin, away from the baby.
+        - id: ch04-b13
+          speaker: narrator
+          text: Nora sat by the window and pushed the thread toward the needle's eye. Grandma didn't take it from her. She only knotted the end once Nora got it through. The first stitch came up crooked, so Nora backed it out and tried again. When Mom raised her phone for a picture, Nora shook her head.
+        - id: ch04-b14
           speaker: lin
           text: When I'm done.
-        - id: ch04-b19
+        - id: ch04-b15
           speaker: narrator
-          text: |+
-            
-
-            Nora stitched one broad strip flat around all four edges while Grandma secured its partner to the other front. When they pressed the two soft pieces together, the coat closed without a loose button. The baby's chin moved above the pale blue edge.
-
-        - id: ch04-b20
+          text: Nora sewed one broad strip flat around all four edges while Grandma secured its partner to the other front. Pressed together, they closed the coat without a loose button. The baby's chin moved above the pale blue edge.
+        - id: ch04-b16
           speaker: lin
           text: Is the story hers now?
-        - id: ch04-b21
+        - id: ch04-b17
           speaker: narrator
-          text: |2-
-             Nora asked.
-
-            Grandma set the tin beside her. 
-        - id: ch04-b22
+          text: Grandma set the tin beside Nora.
+        - id: ch04-b18
           speaker: grandma
-          text: |+
-            The coat is hers. The story started with both of you.
-
-
+          text: The coat is hers. The story started with both of you.
     - id: ch05
       title: The Button from Today
       blocks:
         - id: ch05-b01
           speaker: narrator
-          text: |+
-            After the baby fell asleep, the apartment quieted. Aunt May drank soup on the sofa. Mom and Uncle Rob argued in whispers about who would wash the dishes. Nora returned the needles to their wooden case and counted them twice, the way Grandma had taught her.
+          text: |-
+            After the baby fell asleep, the apartment finally quieted. Aunt May drank soup on the sofa. Mom and Uncle Rob whisper-argued over the dishes. Nora put away the needles and counted them twice, just as Grandma had taught her.
 
-            Nora brought back the green button and its scrap of cream cloth. Three times she practiced with spare cloth. On the fourth, she sewed the button firmly to the keepsake scrap. The knots on the back looked like a nest built in a hurry. She left them.
-
-            Nora placed the scrap in the tin, where the old buttons crowded around it.
-
+            She brought back the green button and the cream scrap. Three times she practiced on spare cloth. On the fourth, she sewed the button firmly in place. The knots on the back looked like a nest built in a hurry. She left them. Then she set the scrap in the tin, and the old buttons crowded around it.
         - id: ch05-b02
           speaker: grandma
           text: Whose button is that?
         - id: ch05-b03
           speaker: narrator
-          text: |2-
-             Grandma asked.
-
-            Nora borrowed Grandma's brisk voice. 
+          text: Nora borrowed Grandma's brisk voice.
         - id: ch05-b04
           speaker: lin
-          text: "One I remember.\n\n"
-          emotion: happy
+          text: One I remember.
         - id: ch05-b05
           speaker: narrator
-          text: |
-            Grandma laughed and shut the lid. Old buttons rattled around the new scrap.
-
-            From the bedroom came a small grunt. Nora went to look. The baby slept in Aunt May's arms. The cream coat lay folded on a chair, its soft fastening hidden safely inside. Behind Nora, the closed tin gave one quiet rattle as Grandma moved it from the table.
+          text: Grandma laughed and shut the lid. Old buttons rattled around the new scrap. From the bedroom came a little grunt. Nora went to look. The baby slept in Aunt May's arms, and the cream coat lay folded on a chair with its soft fastening safely hidden inside. Behind Nora, the closed tin gave one quiet rattle as Grandma moved it from the table.

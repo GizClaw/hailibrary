@@ -1,55 +1,13 @@
 audio_script:
   language: zh-CN
   cast:
-    narrator:
-      display_name: 旁白
-      tts:
-        delivery: 贴近孩子视角，安静而清楚
-        timbre: 温暖清亮
-        pace: 舒缓
-        pitch: 中
-    linlin:
-      display_name: 林林
-      tts:
-        delivery: 起初谨慎，后来好奇
-        timbre: 清脆稚嫩
-        pace: 自然
-        pitch: 中高
-    mama:
-      display_name: 妈妈
-      tts:
-        delivery: 沉着温柔，带一点干脆的幽默
-        timbre: 柔和稳健
-        pace: 从容
-        pitch: 中
-    papa:
-      display_name: 爸爸
-      tts:
-        delivery: 亲切认真，偶尔自嘲
-        timbre: 温暖厚实
-        pace: 自然
-        pitch: 中低
-    grandma-wu:
-      display_name: 吴奶奶
-      tts:
-        delivery: 爽快慈爱
-        timbre: 略带沙哑
-        pace: 不疾不徐
-        pitch: 中低
-    a-jun:
-      display_name: 阿俊
-      tts:
-        delivery: 兴奋活泼
-        timbre: 明亮少年感
-        pace: 稍快
-        pitch: 中高
-    neighbors:
-      display_name: 邻居
-      tts:
-        delivery: 隔楼传话，亲切自然
-        timbre: 清楚朴实
-        pace: 自然
-        pitch: 中
+    narrator: {display_name: 旁白, tts: {delivery: 像在孩子身边讲故事，安静而清楚, timbre: 温暖清亮, pace: 舒缓自然, pitch: 中}}
+    linlin: {display_name: 林林, tts: {delivery: 起初小心怯生，后来好奇放松, timbre: 清脆稚嫩, pace: 自然, pitch: 中高}}
+    mama: {display_name: 妈妈, tts: {delivery: 沉着温柔，带一点干脆的幽默, timbre: 柔和稳健, pace: 从容, pitch: 中}}
+    papa: {display_name: 爸爸, tts: {delivery: 亲切认真，也会拿自己开玩笑, timbre: 温暖厚实, pace: 自然, pitch: 中低}}
+    grandma-wu: {display_name: 吴奶奶, tts: {delivery: 爽快慈爱，说话直截了当, timbre: 略带沙哑, pace: 不疾不徐, pitch: 中低}}
+    a-jun: {display_name: 阿俊, tts: {delivery: 爱说爱笑，兴奋劲藏不住, timbre: 明亮少年感, pace: 稍快, pitch: 中高}}
+    neighbors: {display_name: 邻居们, tts: {delivery: 隔着楼层互相传话，亲切自然, timbre: 清楚朴实, pace: 自然, pitch: 中}}
   chapters:
     - id: ch01
       title: 冰箱不响了
@@ -57,525 +15,203 @@ audio_script:
         - id: ch01-b01
           speaker: narrator
           text: |-
-            那天热得很慢。太阳早就落下去了，墙里还藏着白天的温度。林林洗完澡，头发没吹干，发梢一下一下扫着睡衣领子。她趴在客厅地板上拼一座纸板城，最后一块屋顶总是卡不稳。电风扇朝她转过来，呼地吹起一张小纸片；转开时，屋里又只剩蝉声。
+            那天的热气散得特别慢。太阳早下山了，墙里还存着白天的温度。林林刚洗完澡，湿发梢一下下扫着睡衣领子。她趴在客厅地板上搭纸板城，最后一块屋顶怎么都卡不稳。风扇转过来，呼一下吹跑一张纸；转开后，屋里就只听得见蝉叫。
 
-            妈妈在厨房切西瓜。刀碰到盘子，叮的一声。爸爸坐在餐桌边回消息，手机不时亮一下。林林把那块屋顶按住，对城里的纸片小人说：
-        - id: ch01-b02
-          speaker: linlin
-          text: 现在谁也不许呼吸。
+            妈妈在厨房切西瓜，刀碰着盘子，叮的一声。爸爸坐在餐桌边回消息，手机隔一会儿就亮一下。林林按住屋顶，对纸片小人说：
+        - {id: ch01-b02, speaker: linlin, text: 现在谁也不许呼吸。}
         - id: ch01-b03
           speaker: narrator
-          text: |+
-            
+          text: |-
+            偏偏这时候，灯灭了。风扇越转越慢，呼——呼——，最后停住。空调的小绿点也没了，妈妈的刀停在半空。整栋楼像一下闭了嘴。接着，林林听见一个从没留意过的声音——冰箱也不响了。
 
-            就在这时，灯灭了。
-
-            风扇的叶子慢下来，先是呼——呼——，再也不动。空调的小绿点没了。厨房里那把刀停在半空。整栋楼像忽然闭上嘴，接着，林林听见了一个以前从没注意过的声音：冰箱也不响了。
-
-            黑暗一下子变得很大。纸板城不见了，妈妈不见了，连自己的膝盖也不见了。林林伸手去摸地板，却碰倒一座小楼。纸板哗啦散开，她的心也跟着往下一沉。
-
-        - id: ch01-b04
-          speaker: linlin
-          text: |+
-            妈妈？
-
-          emotion: fearful
-        - id: ch01-b05
-          speaker: mama
-          text: 我在厨房，先别跑。
+            黑暗忽然变得好大。纸板城、妈妈，连自己的膝盖都看不见。林林伸手摸地板，反倒碰翻一座小楼。纸板哗啦散开，她的心也跟着往下一沉。
+        - {id: ch01-b04, speaker: linlin, text: 妈妈？, emotion: fearful}
+        - {id: ch01-b05, speaker: mama, text: 我在厨房。先别跑，地上有你的城，踩着会疼。, emotion: calm}
         - id: ch01-b06
           speaker: narrator
-          text: 妈妈的声音从黑暗里过来，
-        - id: ch01-b07
-          speaker: mama
-          text: 地上有你的城，脚会踩疼。
-        - id: ch01-b08
-          speaker: narrator
-          text: |-
-            
-
-            爸爸的椅子响了一下。他说：
+          text: 爸爸那边椅子一响。他说要开手机灯。一小团白光亮了，正好从下往上照着他的下巴，活像个讲鬼故事的人。林林本来快哭了，一看他那两个圆圆的鼻孔，眼泪倒停在眼眶里。
+        - {id: ch01-b07, speaker: mama, text: 先照路，别先吓孩子。}
+        - {id: ch01-b08, speaker: papa, text: 我在找手电筒啊。它明明一直住在这个抽屉里。}
         - id: ch01-b09
-          speaker: papa
-          text: 我开手机灯。
-        - id: ch01-b10
           speaker: narrator
           text: |-
-            
+            爸爸把光挪向抽屉。里面有胶带、旧电池、两支写不出字的笔，还有一只孤零零的手套，就是没有手电筒。他又去拉第二个抽屉。林林抱着膝盖，只盯住那团会走的白光。光从桌腿爬上墙，照出一家三口长长短短的影子。
 
-            一小团白光亮起来，先照到爸爸的下巴，像讲鬼故事的人。林林本来要哭，看到他鼻孔被照得圆圆的，眼泪停在眼眶里。妈妈在厨房说：
+            门外咔哒一声，吴奶奶隔着门问：
+        - {id: ch01-b10, speaker: grandma-wu, text: 你们家也黑啦？}
         - id: ch01-b11
-          speaker: mama
-          text: |+
-            别先吓孩子，先照路。
-
-        - id: ch01-b12
-          speaker: papa
-          text: 我是在找手电筒。
+          speaker: narrator
+          text: 妈妈摸到门边，把门打开。对门的吴奶奶举着蒲扇，身后也是黑的。只有楼道应急灯绿莹莹地亮着，把每个人的脸照得有点陌生。爸爸探头看了看。
+        - {id: ch01-b12, speaker: papa, text: 不是咱们家的问题，整层都停了。}
         - id: ch01-b13
           speaker: narrator
-          text: 爸爸把光移到抽屉上，
-        - id: ch01-b14
-          speaker: papa
-          text: 它明明一直住在这里。
+          text: 楼上的阿俊马上喊下来：
+        - {id: ch01-b14, speaker: a-jun, text: 不是整层！是整栋！我从阳台看见了，下面全黑了！}
         - id: ch01-b15
           speaker: narrator
-          text: |-
-            
-
-            抽屉里有胶带、旧电池、两支不出水的笔，还有一只孤零零的手套，就是没有手电筒。爸爸又拉开第二个抽屉。林林抱住自己的膝盖，努力只看那团会移动的白光。它从桌腿爬到墙上，照出三个人长长短短的影子。
-
-            门外传来咔哒一声。接着是吴奶奶的声音：
-        - id: ch01-b16
-          speaker: grandma-wu
-          text: 你们家也黑啦？
-        - id: ch01-b17
-          speaker: narrator
-          text: |+
-            
-
-            妈妈摸到门边，打开门。对门的吴奶奶举着一把蒲扇，身后也黑着。楼道的应急灯亮着，绿莹莹的，照得每个人的脸都有点陌生。
-
-        - id: ch01-b18
-          speaker: papa
-          text: 不是我们家的问题。
-        - id: ch01-b19
-          speaker: narrator
-          text: 爸爸探头看了看，
-        - id: ch01-b20
-          speaker: papa
-          text: 整层都停了。
-        - id: ch01-b21
-          speaker: narrator
-          text: |-
-            
-
-            楼上传来阿俊的喊声：
-        - id: ch01-b22
-          speaker: a-jun
-          text: 不是整层！是整栋！我从阳台看见，下面全黑了！
-        - id: ch01-b23
-          speaker: narrator
-          text: |-
-            
-
-            他说得像宣布一件大新闻。林林却觉得整栋两个字让黑暗又长高了一截。
+          text: 阿俊说得像在宣布一条大新闻。可林林一听“整栋”两个字，只觉得黑暗又往上长了一大截。
     - id: ch02
       title: 一点小火
       blocks:
         - id: ch02-b01
           speaker: narrator
-          text: 妈妈找到了蜡烛，却找不到烛台。那是一根去年生日剩下的短蜡烛，细细的，歪着脖子。爸爸说可以滴一点蜡把它立在盘子上，妈妈摇头：
-        - id: ch02-b02
-          speaker: mama
-          text: 放进玻璃罐里，别碰着窗帘。
+          text: 妈妈找出一根去年生日剩下的短蜡烛，细细的，还歪着脖子。可烛台找不到。爸爸说，不如滴点蜡粘在盘子上。妈妈摇摇头。
+        - {id: ch02-b02, speaker: mama, text: 放进玻璃罐里，还得离窗帘远一点。}
         - id: ch02-b03
           speaker: narrator
-          text: |+
-            
-
-            她把一只空果酱罐洗干净，擦去水，放到阳台的小圆凳上。爸爸点火时，林林站得远远的。火柴擦过盒边，刺啦一声，一颗橙色的火突然冒出来。她往妈妈身后躲了半步。
-
-            短蜡烛在玻璃罐里站稳了。火苗很小，小得照不亮整个客厅，只把凳子边、妈妈的手和林林脚上的黄色拖鞋照出来。可黑暗不再是一整块了。它退到门后、沙发底下和走廊尽头，留下几个可以看清的地方。
-
-            爸爸终于在鞋柜顶上的工具箱里找到了手电筒。他按了两次，手电筒没亮。
-
-        - id: ch02-b04
-          speaker: papa
-          text: 旧电池。
-        - id: ch02-b05
-          speaker: narrator
           text: |-
-            他说。
+            她洗净一只空果酱罐，擦干水，放到阳台的小圆凳上。爸爸划火柴时，林林远远站着。刺啦一声，橙色的火蹿出来，她赶紧往妈妈身后躲了半步。
 
-            妈妈把一盘西瓜端到阳台：
+            短蜡烛在罐里稳稳立住。火苗很小，只照得见凳子边、妈妈的手和林林的黄色拖鞋。可黑暗不再是严严实实的一整块了。它退到门后、沙发底下和走廊尽头，留下几处能看清的地方。
+
+            爸爸终于在鞋柜顶的工具箱里找到手电筒。他按了两下，没亮。
+        - {id: ch02-b04, speaker: papa, text: 电池旧了。}
+        - {id: ch02-b05, speaker: mama, text: 那就让它接着睡吧。今晚也不用非把什么修好。}
         - id: ch02-b06
-          speaker: mama
-          text: 那就让它继续睡吧。我们也不用修今晚。
-        - id: ch02-b07
           speaker: narrator
           text: |-
-            
+            妈妈端着西瓜去了阳台，林林却不想跟过去。外头没了亮窗、路灯和商店招牌，两栋楼之间像一口深井。她站在推拉门里，紧紧抓着门框。
 
-            林林不想去阳台。阳台外面没有玻璃一样亮的窗户，没有路灯照着树，也没有对面商店的招牌。楼与楼之间像一口深井。她站在推拉门里，手指抓着门框。
-
-            妈妈没有拉她，只把一块西瓜放在靠门的小凳上。爸爸坐到地垫上，用蒲扇给自己扇风。扇了三下，吴奶奶在对面阳台笑起来：
+            妈妈没拉她，只把一块西瓜放在靠门的小凳上。爸爸坐到地垫上，拿蒲扇扇风。才扇三下，吴奶奶就笑了。
+        - {id: ch02-b07, speaker: grandma-wu, text: 小程，你那扇子拿倒啦。, emotion: happy}
         - id: ch02-b08
-          speaker: grandma-wu
-          text: 小程，你那把扇子拿倒了。
-          emotion: happy
-        - id: ch02-b09
           speaker: narrator
-          text: |-
-            
-
-            爸爸低头一看，蒲扇的柄果然朝外。他把扇子转过来，嘴上不服：
-        - id: ch02-b10
-          speaker: papa
-          text: |+
-            倒着也有风。
-
+          text: 爸爸低头一瞧，还真是，扇柄朝外了。他把扇子掉过来，嘴上还不服。
+        - {id: ch02-b09, speaker: papa, text: 倒着也有风。}
+        - {id: ch02-b10, speaker: grandma-wu, text: 那是你胳膊累出来的风。, emotion: happy}
         - id: ch02-b11
-          speaker: grandma-wu
-          text: 那是你胳膊累出来的风。
-        - id: ch02-b12
           speaker: narrator
-          text: |-
-            吴奶奶说。
-
-            几户人家的阳台门都开了。有人问电梯里有没有人，有人回答物业已经去看；有人抱怨冰棍要化了，另一个声音说：
+          text: 好几户的阳台门都开了。有人问电梯里有没有人，有人说物业已经去看了。还有人抱怨冰棍快化了，黑暗里立刻有人接话：
+        - {id: ch02-b12, speaker: neighbors, text: 那就先吃，别浪费！}
         - id: ch02-b13
-          speaker: neighbors
-          text: 先吃，别浪费。
-        - id: ch02-b14
-          speaker: narrator
-          text: |+
-            不一会儿，楼上小孩齐声欢呼，像冰棍融化是今晚最好的消息。
-
-            这些声音平时都被电视、抽油烟机和车声盖住。现在它们从黑暗里一层一层落下来。林林听出六楼的婴儿在哼，九楼有人收衣架，十二楼阿俊正把每一扇亮着手机光的窗户数得乱七八糟。
-
-        - id: ch02-b15
-          speaker: a-jun
-          text: |+
-            三盏、五盏、八盏——
-
-        - id: ch02-b16
-          speaker: linlin
-          text: 你漏了七。
-        - id: ch02-b17
           speaker: narrator
           text: |-
-            林林忍不住说。
+            楼上的孩子们一齐欢呼，好像冰棍融化成了今晚最棒的消息。
 
-            楼上安静了一秒。阿俊趴到栏杆边：
-        - id: ch02-b18
-          speaker: a-jun
-          text: 林林，你出来了？
-        - id: ch02-b19
+            平时，这些声音都被电视、抽油烟机和车声盖着。今晚，它们一层层从黑暗里落下来。林林听见六楼的婴儿哼哼，九楼有人收衣架，十二楼的阿俊正把亮着手机光的窗户数得乱七八糟。
+        - {id: ch02-b14, speaker: a-jun, text: 三盏、五盏、八盏——}
+        - {id: ch02-b15, speaker: linlin, text: 你漏了七。}
+        - id: ch02-b16
           speaker: narrator
-          text: |+
-            
-
-            林林这才发现，自己已经从门框后面走到了小凳旁。她手里还拿着那块西瓜。汁顺着手腕往下流，凉凉的。
-
-        - id: ch02-b20
-          speaker: linlin
-          text: 我只出来一点。
+          text: 楼上安静一秒。阿俊趴到栏杆边。
+        - {id: ch02-b17, speaker: a-jun, text: 林林，你出来啦？, emotion: surprised}
+        - id: ch02-b18
+          speaker: narrator
+          text: 林林这才发现，自己已经离开门框，站到了小凳旁。她手里还拿着西瓜，凉凉的汁正顺着手腕往下淌。
+        - {id: ch02-b19, speaker: linlin, text: 我只出来一点。}
+        - {id: ch02-b20, speaker: a-jun, text: 一点也算。}
         - id: ch02-b21
           speaker: narrator
-          text: |+
-            她说。
-
-        - id: ch02-b22
-          speaker: a-jun
-          text: 一点也算。
-        - id: ch02-b23
-          speaker: narrator
-          text: |-
-            阿俊回答。
-
-            院子里，物业的陈叔叔举着手电，从单元门走出来。他仰头说还要等一会儿，请大家不要坐电梯。声音传到高处已经不大了，各层却有人接着往上传：
-        - id: ch02-b24
-          speaker: neighbors
-          text: 还要等一会儿——别坐电梯——
+          text: 院子里，物业的陈叔叔举着手电走出单元门。他仰头说还得等一会儿，请大家别坐电梯。声音传到高处已经不大了，各层还是一个接一个往上传。传到阿俊那里，却成了：
+        - {id: ch02-b22, speaker: a-jun, text: 还要等一会儿，大家坐好！}
+        - {id: ch02-b23, speaker: linlin, text: 不是坐好，是别坐电梯。}
+        - {id: ch02-b24, speaker: a-jun, text: 我知道。我是叫冰棍坐好，别往地上滴。, emotion: happy}
         - id: ch02-b25
           speaker: narrator
-          text: 传到阿俊那里，他喊成了：
-        - id: ch02-b26
-          speaker: a-jun
-          text: |+
-            要等一会儿，大家坐好！
-
-        - id: ch02-b27
-          speaker: linlin
-          text: 不是坐好，是别坐电梯。
-        - id: ch02-b28
-          speaker: narrator
-          text: |+
-            林林纠正他。
-
-        - id: ch02-b29
-          speaker: a-jun
-          text: 我知道。
-        - id: ch02-b30
-          speaker: narrator
-          text: 阿俊说，
-        - id: ch02-b31
-          speaker: a-jun
-          text: 我是叫冰棍坐好，别往地上滴。
-        - id: ch02-b32
-          speaker: narrator
-          text: |-
-            
-
-            楼上又响起一阵笑。林林咬了一口西瓜。这回她没有急着缩回门里。
-
-            夜风把她的湿发梢吹离了脖子。
+          text: 楼上又笑成一片。林林咬了一口西瓜。这次，她没急着躲回门里。夜风吹过来，把湿发梢轻轻吹离了她的脖子。
     - id: ch03
       title: 黑暗里的楼
       blocks:
         - id: ch03-b01
           speaker: narrator
-          text: |+
-            蜡烛把一家三口的影子投在阳台墙上。爸爸举起蒲扇，墙上便游过一条扁扁的大鱼。林林也张开手，做出一只嘴巴会动的小狗。妈妈的手影总对不准，她索性伸出两根手指，说那是一只耳朵特别长的兔子。
-
-        - id: ch03-b02
-          speaker: linlin
-          text: 兔子的头呢？
-        - id: ch03-b03
-          speaker: narrator
-          text: |+
-            林林问。
-
-        - id: ch03-b04
-          speaker: mama
-          text: 藏在黑里。
+          text: 蜡烛把一家三口的影子映在阳台墙上。爸爸举起蒲扇，一条扁扁的大鱼就游过去。林林变出一只会动嘴的小狗。妈妈怎么也对不准，干脆竖起两根手指，说那是只耳朵特别长的兔子。
+        - {id: ch03-b02, speaker: linlin, text: 兔子的头呢？}
+        - {id: ch03-b03, speaker: mama, text: 藏在黑里。}
+        - {id: ch03-b04, speaker: linlin, text: 那它怎么知道往哪儿跳？}
         - id: ch03-b05
           speaker: narrator
-          text: |+
-            妈妈说。
-
-        - id: ch03-b06
-          speaker: linlin
-          text: 那它怎么知道往哪儿跳？
+          text: 妈妈想了想。
+        - {id: ch03-b06, speaker: mama, text: 也许，它听别人说话。}
         - id: ch03-b07
           speaker: narrator
           text: |-
-            
+            林林忽然觉得，这栋楼也像那只没做完的兔子。虽然看不清，可一点也不空。有人咳嗽、笑、开门关门。谁家的勺子掉了，谁家的猫叫了，谁把半盆水泼到花盆外，全听得清清楚楚。
 
-            妈妈想了想：
-        - id: ch03-b08
-          speaker: mama
-          text: 也许它听别人说话。
+            七楼有人哼歌，哼两句就忘了。八楼叔叔接错调，十楼又有人接回来。谁也没从头唱到尾，可歌还是在楼里绕了一圈。歌声停下后，林林听见几条街外的公交车报站，轻得像隔着枕头传来。
+
+            平时睡前，她总嫌楼上拖椅子、楼下关门、院里电动车响。现在每个声音都单独冒出来，她反而听得出哪个近、哪个远。原来最吓人的不是声音，而是刚停电时，她以为身边什么都没有了。
+        - {id: ch03-b08, speaker: grandma-wu, text: 林林，还怕不怕？}
         - id: ch03-b09
           speaker: narrator
-          text: |-
-            
-
-            林林没再问。她忽然觉得这栋楼也像那只没做完的兔子。看不清，却不是空的。楼上楼下的人咳嗽、笑、开门、关门；谁家的勺子掉在地上，谁家的猫在叫，谁把半盆水泼到了花盆外面，都听得一清二楚。
-
-            七楼有人开始哼歌，只哼了两句就忘了后面。八楼的叔叔接错了调，十楼又有人把它接回来。没有谁从头唱到尾，那支歌却在楼里绕了一圈。唱完以后，大家安静了一阵。林林听见远处一辆公交车报站，声音隔着几条街，轻得像从枕头另一面传来。
-
-            她想起平时睡前总嫌楼上拖椅子、楼下关门、院子里的电动车响。现在那些声音一个个露出来，她反倒能分清哪个近，哪个远。最让她害怕的并不是声音，而是刚停电时，她以为身边什么都没有了。
-
-            吴奶奶问：
-        - id: ch03-b10
-          speaker: grandma-wu
-          text: 林林，怕不怕？
-        - id: ch03-b11
-          speaker: narrator
-          text: |+
-            
-
-            林林想说不怕。这个答案短，也显得勇敢。可她看了看客厅深处，那里还是黑得像没有底。
-
+          text: 林林很想说“不怕”。两个字又短，又显得勇敢。可客厅深处还是黑得没底。
+        - {id: ch03-b10, speaker: linlin, text: 还有一点怕。, emotion: fearful}
+        - {id: ch03-b11, speaker: grandma-wu, text: 我也怕一点。我怕摸黑找眼镜，最后把蒲扇戴脸上。, emotion: happy}
         - id: ch03-b12
-          speaker: linlin
-          text: 还有一点怕。
-          emotion: fearful
-        - id: ch03-b13
           speaker: narrator
-          text: |+
-            她说。
-
+          text: 阿俊在楼上笑得直咳嗽。爸爸也接了一句：
+        - {id: ch03-b13, speaker: papa, text: 那我怕手电筒明早醒了，怪我今晚没叫它。, emotion: happy}
         - id: ch03-b14
-          speaker: grandma-wu
-          text: 我也怕一点。
-        - id: ch03-b15
           speaker: narrator
-          text: 吴奶奶摇着扇子，
-        - id: ch03-b16
-          speaker: grandma-wu
-          text: 我怕摸黑找眼镜，把蒲扇当成它戴上。
+          text: |-
+            妈妈没说自己怕什么。她擦干净林林黏糊糊的手腕，又把玻璃罐往阳台中间挪了挪，离窗帘更远。林林靠着她，闻见衣服上淡淡的肥皂味。
+
+            风终于从楼缝里钻进来。它不像空调风那样一直吹，只碰了碰林林汗湿的额头，又去掀桌上的纸巾，随后消失。过一会儿，风从另一个方向回来，把火苗压得矮矮的。
+        - {id: ch03-b15, speaker: linlin, text: 它会灭吗？, emotion: fearful}
+        - {id: ch03-b16, speaker: mama, text: 可能会。可就算灭了，我们也还坐在这里。, emotion: calm}
         - id: ch03-b17
           speaker: narrator
           text: |-
-            
+            妈妈把手拢在玻璃罐外，没有碰火。那点火苗没因为整栋楼都黑就变大，只安安静静守住自己照得到的一小圈。
 
-            阿俊立刻在楼上笑得咳嗽起来。爸爸说：
-        - id: ch03-b18
-          speaker: papa
-          text: 那我怕手电筒明天醒了，怪我今晚没有叫它。
-        - id: ch03-b19
-          speaker: narrator
-          text: |+
-            
+            林林脱下拖鞋，踩上凉凉的地砖，又往栏杆边走了两步。下面的院子已经不像深井了。几部手机在树下晃，有人搬出折叠椅，保安叔叔正从门房走向配电间。更远的街道还有灯，车灯慢慢滑过楼墙。
 
-            妈妈没有说自己怕什么。她把林林黏糊糊的手腕擦干净，又把玻璃罐往阳台中央挪了挪，离窗帘更远。林林靠着她的胳膊，听见妈妈衣服上淡淡的肥皂味。
-
-            风终于从楼缝里来了。不是空调那种一直吹的风。它先碰一下林林汗湿的额头，又去翻桌上的纸巾，随后消失。过一会儿，它从另一个方向回来，把火苗压得矮矮的。
-
-        - id: ch03-b20
-          speaker: linlin
-          text: 它会灭吗？
-        - id: ch03-b21
-          speaker: narrator
-          text: |+
-            林林问。
-
-        - id: ch03-b22
-          speaker: mama
-          text: 可能会。
-        - id: ch03-b23
-          speaker: narrator
-          text: 妈妈把手拢在玻璃罐外，却没有碰火，
-        - id: ch03-b24
-          speaker: mama
-          text: 灭了，我们还坐在这里。
-        - id: ch03-b25
-          speaker: narrator
-          text: |+
-            
-
-            林林望着那点火。它并没有因为整栋楼都黑就变大，只是守着自己能照到的一小圈。她把脚从拖鞋里抽出来，踩上凉凉的地砖。然后，她往栏杆边走了两步。
-
-            下面的院子不再像深井了。几部手机在树下晃，有人把折叠椅搬出来，保安叔叔正从门房走向配电间。更远的街道还有灯，车从路口经过，光在楼墙上慢慢滑走。原来黑暗不是把世界拿走了，只是让熟悉的东西换了位置。
-
-        - id: ch03-b26
-          speaker: papa
-          text: 林林，
-        - id: ch03-b27
-          speaker: narrator
-          text: 爸爸忽然说，
-        - id: ch03-b28
-          speaker: papa
-          text: 往上看。
+            原来黑暗没把世界拿走。它只是把熟悉的东西挪到了不熟悉的位置。爸爸忽然叫她：
+        - {id: ch03-b18, speaker: papa, text: 林林，往上看。}
     - id: ch04
       title: 屋顶上的星星
       blocks:
         - id: ch04-b01
           speaker: narrator
-          text: |+
-            她先看见屋檐的一条黑边。再往上，是一片很深的蓝。平时对面楼顶总浮着一层白亮的光，天空像洗不干净的玻璃。今晚那层光淡了，屋顶上方露出许多小点。
-
-            林林仰着头。
-
-        - id: ch04-b02
-          speaker: linlin
-          text: |+
-            那些都是星星吗？
-
-        - id: ch04-b03
-          speaker: papa
-          text: 至少我们看见的这些是。
+          text: 林林先看见屋檐黑黑的一道边。再往上，是很深很深的蓝。平时，对面楼顶总罩着一层白光，天空像块怎么也擦不净的玻璃。今晚那层光淡了，屋顶上方露出好多小亮点。
+        - {id: ch04-b02, speaker: linlin, text: 那些都是星星吗？, emotion: surprised}
+        - {id: ch04-b03, speaker: papa, text: 至少咱们看见的这些是。不过，我也叫不出名字。}
         - id: ch04-b04
           speaker: narrator
-          text: 爸爸说，
-        - id: ch04-b05
-          speaker: papa
-          text: 我也叫不出名字。
-        - id: ch04-b06
-          speaker: narrator
-          text: |-
-            
-
-            阿俊在楼上喊：
+          text: 阿俊又从楼上喊下来：
+        - {id: ch04-b05, speaker: a-jun, text: 我认识最亮的那颗！}
+        - {id: ch04-b06, speaker: grandma-wu, text: 那它叫什么？}
         - id: ch04-b07
-          speaker: a-jun
-          text: 我认识最亮的那颗！
-        - id: ch04-b08
           speaker: narrator
-          text: |-
-            
-
-            吴奶奶立刻问：
+          text: 阿俊憋了半天，才回答：
+        - {id: ch04-b08, speaker: a-jun, text: 最亮的那颗。, emotion: happy}
         - id: ch04-b09
-          speaker: grandma-wu
-          text: 叫什么？
-        - id: ch04-b10
           speaker: narrator
           text: |-
-            
+            笑声从十二楼落到八楼，又落进院子。林林也笑了，头还仰着。她不用知道每颗星叫什么。有的大，有的小；有的像一眨眼就没了，再一看，还在原处。
 
-            阿俊停了半天：
-        - id: ch04-b11
-          speaker: a-jun
-          text: 最亮的那颗。
+            妈妈关掉手机灯，爸爸也关了。阳台上只剩罐里一点黄光。林林刚想叫他们开灯，可话到了嘴边，她没说。等眼睛慢慢习惯，她又看清妈妈的侧脸、爸爸搭在膝盖上的手，还有吴奶奶一起一落的扇子。星星好像也更多了。
+
+            有颗亮星正好挨着对面楼顶的水箱。林林伸出食指，隔空量了量。从这里看，星星离水箱只有一根手指那么远。她知道这不是真正的距离，可就是喜欢这么量。
+        - {id: ch04-b10, speaker: linlin, text: 它们以前去哪儿了？}
+        - {id: ch04-b11, speaker: mama, text: 哪儿也没去。只是今晚，我们更容易看见它们了。}
         - id: ch04-b12
           speaker: narrator
-          text: |+
-            
+          text: |-
+            林林想起纸板城。灯亮时，她总嫌那块屋顶歪。灯灭后，她连整座城在哪儿都看不见。可也正是在什么都看不清时，她听见了整栋楼，还第一次看清楼顶的天空。
 
-            大家笑起来。笑声从十二楼掉到八楼，又从八楼落进院子。林林也笑，头还仰着。她不需要知道每一颗叫什么。它们有的大，有的小；有的好像一眨眼就不见了，再看又在原处。
-
-            妈妈关掉了自己的手机灯。爸爸也关掉。阳台上只剩玻璃罐里的一点黄光。林林起初想叫他们打开，可那句话到了嘴边，没有出来。眼睛慢慢习惯以后，她看见妈妈的侧脸、爸爸搭在膝盖上的手、吴奶奶扇子起落的轮廓。星星也好像更多了。
-
-            一颗很亮的星正好停在对面楼顶的水箱旁。林林伸出食指，隔着空气量了量。星星离水箱只有她一根手指那么远。她知道那不是真的距离，但她喜欢这个量法。
-
-        - id: ch04-b13
-          speaker: linlin
-          text: 以前它们去哪儿了？
+            忽然，楼道里响起电梯启动的低鸣。对面一排窗户一格格亮起来，有白的，也有黄的。空调响了，冰箱重新哼起来。客厅灯把阳台照得像白天，林林眯起眼。
+        - {id: ch04-b13, speaker: neighbors, text: 来电啦！, emotion: happy}
         - id: ch04-b14
           speaker: narrator
-          text: |+
-            她问。
-
-        - id: ch04-b15
-          speaker: mama
-          text: 没去哪儿。
+          text: 爸爸站起来。
+        - {id: ch04-b15, speaker: papa, text: 我去看看冰箱。}
         - id: ch04-b16
           speaker: narrator
-          text: 妈妈说，
-        - id: ch04-b17
-          speaker: mama
-          text: 是我们今晚容易看见了。
+          text: 妈妈正要吹灭蜡烛，林林轻轻按住她的手腕。
+        - {id: ch04-b17, speaker: linlin, text: 等一下。}
         - id: ch04-b18
           speaker: narrator
-          text: |-
-            
-
-            林林想起自己的纸板城。灯亮的时候，她总嫌那一块屋顶歪；灯灭以后，她连整座城在哪里都不知道。可就在什么都看不清的时候，她听见了整栋楼，也第一次看清楼顶上的天空。
-
-            楼道里忽然传来电梯启动的低鸣。紧接着，对面一排窗户同时亮起，白的、黄的，一格一格跳出来。空调响了，冰箱也重新哼起来。客厅里的灯把阳台照得像白天，林林眯起眼睛。
-
-            楼上有人欢呼：
-        - id: ch04-b19
-          speaker: neighbors
-          text: 来电啦！
-          emotion: happy
+          text: 妈妈看着她。
+        - {id: ch04-b19, speaker: linlin, text: 再看一颗。}
         - id: ch04-b20
           speaker: narrator
-          text: |-
-            
-
-            爸爸站起来：
-        - id: ch04-b21
-          speaker: papa
-          text: 我去看看冰箱。
+          text: 爸爸都走到门边了，又回来关掉客厅灯。对面两户也把灯关了，接着又是一户。阿俊在楼上喊：
+        - {id: ch04-b21, speaker: a-jun, text: 谁先找到最暗的那颗？}
         - id: ch04-b22
           speaker: narrator
-          text: |+
-            
-
-            妈妈要吹灭蜡烛。林林轻轻按住她的手腕。
-
-        - id: ch04-b23
-          speaker: linlin
-          text: 等一下。
-        - id: ch04-b24
-          speaker: narrator
-          text: |+
-            
-
-            妈妈看着她。
-
-        - id: ch04-b25
-          speaker: linlin
-          text: 再看一颗。
-        - id: ch04-b26
-          speaker: narrator
           text: |-
-            林林说。
+            空调还在吹，电梯还在跑，城市的亮光正一点点爬回天空。玻璃罐里的蜡烛只剩短短一小截。
 
-            爸爸已经走到门边，又回来关掉客厅灯。对面有两户也把灯关了，接着又一户。阿俊在楼上喊：
-        - id: ch04-b27
-          speaker: a-jun
-          text: 谁先找到最暗的那颗？
-        - id: ch04-b28
-          speaker: narrator
-          text: |-
-            
-
-            空调还在吹，电梯还在跑，城市的亮光正在一点点爬回天空。玻璃罐里的蜡烛短了，只剩一小截。林林靠在妈妈肩上，挑中水箱旁边那颗最不起眼的星。
+            林林靠在妈妈肩上，挑中了水箱旁边那颗最不起眼的星。
 
             她没有告诉别人。

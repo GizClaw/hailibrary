@@ -1,609 +1,246 @@
 audio_script:
   language: en-US
   cast:
-    narrator:
-      display_name: Narrator
-      tts:
-        delivery: "close, observant, and calm"
-        timbre: warm and clear
-        pace: measured
-        pitch: medium
-    linlin:
-      display_name: June
-      tts:
-        delivery: "cautious at first, then curious"
-        timbre: young and bright
-        pace: natural
-        pitch: medium-high
-    mama:
-      display_name: Mom
-      tts:
-        delivery: steady with dry warmth
-        timbre: soft and grounded
-        pace: unhurried
-        pitch: medium
-    papa:
-      display_name: Dad
-      tts:
-        delivery: earnest and gently comic
-        timbre: warm and full
-        pace: natural
-        pitch: medium-low
-    grandma-wu:
-      display_name: Mrs. Wu
-      tts:
-        delivery: plainspoken and kind
-        timbre: lightly weathered
-        pace: unhurried
-        pitch: medium-low
-    a-jun:
-      display_name: Milo
-      tts:
-        delivery: eager and buoyant
-        timbre: bright and youthful
-        pace: quick
-        pitch: medium-high
-    neighbor:
-      display_name: Neighbor
-      tts:
-        delivery: friendly and matter-of-fact
-        timbre: clear and natural
-        pace: natural
-        pitch: medium
+    narrator: {display_name: Narrator, tts: {delivery: close and observant like a storyteller beside the listener, timbre: warm and clear, pace: measured and natural, pitch: medium}}
+    linlin: {display_name: June, tts: {delivery: cautious at first and increasingly curious, timbre: young and bright, pace: natural, pitch: medium-high}}
+    mama: {display_name: Mom, tts: {delivery: steady with dry warmth, timbre: soft and grounded, pace: unhurried, pitch: medium}}
+    papa: {display_name: Dad, tts: {delivery: earnest with gentle self-mocking humor, timbre: warm and full, pace: natural, pitch: medium-low}}
+    grandma-wu: {display_name: Mrs. Wu, tts: {delivery: plainspoken and kind, timbre: lightly weathered, pace: unhurried, pitch: medium-low}}
+    a-jun: {display_name: Milo, tts: {delivery: talkative and openly excited, timbre: bright and youthful, pace: quick, pitch: medium-high}}
+    neighbor: {display_name: Neighbor, tts: {delivery: calling naturally across the courtyard, timbre: clear and friendly, pace: natural, pitch: medium}}
   chapters:
     - id: ch01
       title: The Last Little Window
       blocks:
         - id: ch01-b01
           speaker: narrator
-          text: |+
-            The heat had stayed after sunset, pressed into the brick walls and the balcony tiles. June came out of the shower with the ends of her black hair dripping down the back of her pajama shirt. The air conditioner hummed above the television. On the rug, she was building an apartment tower from cereal boxes, tape, and scraps of colored paper.
+          text: |-
+            The sun was down, but the day's heat was still trapped in the brick walls and balcony tiles. June came out of the shower with the ends of her black hair dripping down her pajama shirt. The air conditioner hummed over the television. On the rug, she was building an apartment tower out of cereal boxes, tape, and colored paper.
 
-            One paper window remained.
-
-            June held it against the top floor. The fan swung toward her and blew it from her fingers. It landed under the coffee table.
-
-        - id: ch01-b02
-          speaker: linlin
-          text: "You have terrible timing,"
+            She had one paper window left. She held it against the top floor, and right then the fan swung her way and blew it under the coffee table.
+        - {id: ch01-b02, speaker: linlin, text: You have terrible timing.}
         - id: ch01-b03
           speaker: narrator
-          text: |2+
-             she told the fan.
+          text: |-
+            Mom was cutting melon in the kitchen. Dad sat at the table answering a message and promising he'd put his phone away in one minute. He'd already made that promise twice.
 
-            Her mother was cutting a melon in the kitchen. Her father sat at the table, answering a message and promising he would put his phone away in one minute. He had already made that promise twice.
+            June crawled under the table, found the window beside one yellow sandal, and pressed the paper flat. Back at her tower, she held her breath and dabbed glue on it.
 
-            June crawled under the table for the window. She found it beside one of her yellow sandals. She pressed the paper flat, returned to her tower, and held her breath while she dabbed glue on the back.
+            Then the room went dark.
 
-            The room went dark.
-
-            The fan slowed with a long falling sigh. The air conditioner stopped. In the kitchen, the knife clicked against a plate and stayed there. June’s paper window vanished between her fingers.
-
-            At first she thought she had closed her eyes. She opened them as wide as she could. Nothing changed.
+            The fan slowed with a long, falling sigh. The air conditioner stopped. In the kitchen, the knife clicked against a plate and went still. The paper window disappeared between June's fingers. For a second, she thought she'd shut her eyes. She opened them as wide as she could. Nothing changed.
 
             Then the refrigerator stopped humming too.
 
-            The silence was not truly silent. Cicadas buzzed in the trees. A car horn sounded on the street. Water moved through a pipe behind the wall. Yet the apartment felt as if it had stepped backward and left June alone in the middle of the rug.
-
-            She reached for her tower and knocked it over. Boxes tumbled. Something small rolled beneath the sofa.
-
-        - id: ch01-b04
-          speaker: linlin
-          text: |+
-            Mom?
-
-          emotion: fearful
-        - id: ch01-b05
-          speaker: mama
-          text: "I’m in the kitchen. Stay where you are,"
+            It wasn't truly silent. Cicadas buzzed outside. A horn sounded on the street. Water moved through a pipe in the wall. Even so, the apartment felt as if it had stepped backward and left June alone on the rug. She reached for her tower and knocked it over. Boxes tumbled, and something small rolled under the sofa.
+        - {id: ch01-b04, speaker: linlin, text: "Mom?", emotion: fearful}
+        - {id: ch01-b05, speaker: mama, text: I'm in the kitchen. Stay where you are. Your city is all over the floor., emotion: calm}
         - id: ch01-b06
           speaker: narrator
-          text: " her mother called. "
-        - id: ch01-b07
-          speaker: mama
-          text: |+
-            Your city is all over the floor.
-
+          text: Dad's chair scraped.
+        - {id: ch01-b07, speaker: papa, text: I can get a light.}
         - id: ch01-b08
-          speaker: papa
-          text: "I can get a light,"
-        - id: ch01-b09
           speaker: narrator
-          text: |2-
-             her father said.
-
-            His chair scraped. A white glow appeared under his chin. His eyes floated above it, and his nostrils made two enormous shadows.
-
-            June gave a startled hiccup.
-
-            Her mother said, 
-        - id: ch01-b10
-          speaker: mama
-          text: |+
-            Perhaps point the phone away from your face.
-
-        - id: ch01-b11
-          speaker: papa
-          text: |+
-            I was checking whether it worked.
-
+          text: A white glow came on under Dad's chin. His eyes floated above it, and his nostrils threw two enormous shadows. June gave a startled hiccup.
+        - {id: ch01-b09, speaker: mama, text: Maybe point the phone away from your face.}
+        - {id: ch01-b10, speaker: papa, text: I was checking if it worked.}
+        - {id: ch01-b11, speaker: mama, text: Your face works.}
         - id: ch01-b12
-          speaker: mama
-          text: Your face works.
-        - id: ch01-b13
-          speaker: narrator
-          text: |+
-            
-
-            The light moved down. June almost laughed, but she still wanted her mother close enough to touch. She heard careful steps. Then her mother’s hand found her shoulder.
-
-        - id: ch01-b14
-          speaker: mama
-          text: "There you are,"
-        - id: ch01-b15
-          speaker: narrator
-          text: |2+
-             Mom said.
-
-        - id: ch01-b16
-          speaker: linlin
-          text: |+
-            I was here the whole time.
-
-        - id: ch01-b17
-          speaker: mama
-          text: So was I.
-        - id: ch01-b18
           speaker: narrator
           text: |-
-            
-
+            Dad lowered the light. June almost laughed, though she still wanted Mom close enough to touch. Careful footsteps crossed the room, and then Mom's hand found her shoulder.
+        - {id: ch01-b13, speaker: mama, text: There you are., emotion: calm}
+        - {id: ch01-b14, speaker: linlin, text: I was here the whole time.}
+        - {id: ch01-b15, speaker: mama, text: So was I., emotion: calm}
+        - id: ch01-b16
+          speaker: narrator
+          text: |-
             Dad opened the drawer where the flashlight was supposed to live. He found string, tape, old batteries, a toy wheel, and one wool mitten left from winter. No flashlight.
 
-            There was a knock across the hall. Mrs. Wu called through the door, 
-        - id: ch01-b19
-          speaker: grandma-wu
-          text: Did your lights go out too?
+            Someone knocked across the hall. Mrs. Wu called through the door:
+        - {id: ch01-b17, speaker: grandma-wu, text: "Did your lights go out too?"}
+        - id: ch01-b18
+          speaker: narrator
+          text: Mom opened the door. The hallway's emergency light turned the walls green. Mrs. Wu stood there in a flowered nightdress, holding her folding fan like a paddle.
+        - {id: ch01-b19, speaker: papa, text: The whole floor is dark.}
         - id: ch01-b20
           speaker: narrator
-          text: |+
-            
-
-            Mom opened it. The emergency light in the hallway made the walls green. Mrs. Wu stood there in a flowered nightdress, holding her folding fan like a paddle.
-
-        - id: ch01-b21
-          speaker: papa
-          text: "The whole floor is dark,"
+          text: Milo's voice dropped from the balcony above.
+        - {id: ch01-b21, speaker: a-jun, text: The whole building! I looked down. Every floor is out!}
         - id: ch01-b22
           speaker: narrator
-          text: |2-
-             Dad said.
-
-            From the balcony above came Milo’s voice. 
-        - id: ch01-b23
-          speaker: a-jun
-          text: The whole building! I looked down. Every floor is out!
-          emotion: happy
-        - id: ch01-b24
-          speaker: narrator
-          text: |-
-            
-
-            He sounded delighted to have breaking news. June did not feel delighted. The words every floor stacked the darkness higher than her fallen tower.
+          text: Milo sounded thrilled to have breaking news. June wasn't thrilled. The words “every floor” stacked the darkness higher than her fallen tower.
     - id: ch02
       title: One Small Flame
       blocks:
         - id: ch02-b01
           speaker: narrator
-          text: |+
-            Mom found a short candle left from somebody’s birthday, but there was no candleholder. Dad suggested melting wax onto a saucer. Mom shook her head.
-
-        - id: ch02-b02
-          speaker: mama
-          text: "A glass jar,"
+          text: Mom found a short candle left from somebody's birthday, but no candleholder. Dad suggested melting it onto a saucer. Mom shook her head.
+        - {id: ch02-b02, speaker: mama, text: Put it in a glass jar. And keep it far from the curtain.}
         - id: ch02-b03
           speaker: narrator
-          text: " she said. "
-        - id: ch02-b04
-          speaker: mama
-          text: And far from the curtain.
-        - id: ch02-b05
-          speaker: narrator
-          text: |+
-            
+          text: |-
+            She washed and dried an empty jam jar, then set it on the round stool in the middle of the balcony. June stayed in the doorway while Dad struck a match. At that sharp scratch, an orange flame jumped up, and June stepped behind Mom.
 
-            She washed an empty jam jar, dried it, and set it on the round stool in the middle of the balcony. June stayed in the doorway while Dad struck a match. The scratch was sharp. An orange flame jumped up so quickly that June stepped behind Mom.
+            The candle stood inside the jar. Its light only reached the stool, Mom's hands, and the toes of June's sandals. It couldn't fill the living room. Still, the dark wasn't one huge thing anymore. Now it had corners. It had edges.
 
-            The little candle stood inside the jar. Its light reached the rim of the stool, Mom’s hands, and the toes of June’s sandals. It could not fill the living room. Still, the dark was no longer one huge thing. It had corners now. It had edges.
-
-            Dad found the flashlight at last, sleeping in the toolbox on top of the shoe cabinet. He pressed the switch. Nothing happened. He rolled the batteries against his palm as if that might wake them.
-
+            Dad finally found the flashlight in the toolbox on top of the shoe cabinet. He pressed the switch. Nothing. He rolled the batteries against his palm as if he might wake them.
+        - {id: ch02-b04, speaker: papa, text: Dead.}
+        - {id: ch02-b05, speaker: mama, text: Then it can have the night off.}
         - id: ch02-b06
-          speaker: papa
-          text: "Dead,"
-        - id: ch02-b07
           speaker: narrator
-          text: |2+
-             he said.
+          text: |-
+            Mom carried three melon slices out to the balcony. June didn't follow. Beyond the open door, the courtyard looked like a deep, empty bowl. No streetlights, no bright corner-shop sign. Even the familiar tree looked like a stranger leaning over the wall.
 
+            Mom didn't pull her outside. She left a melon slice on a stool near the doorway and sat by the candle. Dad borrowed Mrs. Wu's folding fan. After three waves, Mrs. Wu laughed from the next balcony.
+        - {id: ch02-b07, speaker: grandma-wu, text: "The handle goes in your hand, Henry.", emotion: happy}
         - id: ch02-b08
-          speaker: mama
-          text: "Then let it have the night off,"
-        - id: ch02-b09
           speaker: narrator
-          text: |2+
-             Mom said. She carried three slices of melon to the balcony.
-
-            June did not follow. Beyond the open door, the courtyard was a deep empty bowl. The streetlights were out. The bright sign above the corner shop was gone. Even the familiar tree looked like a stranger leaning over the wall.
-
-            Mom did not pull her outside. She placed a melon slice on a stool near the doorway and sat down beside the candle. Dad borrowed Mrs. Wu’s folding fan and waved it three times before she laughed from the next balcony.
-
-        - id: ch02-b10
-          speaker: grandma-wu
-          text: "Handle goes in your hand, Henry."
-          emotion: happy
-        - id: ch02-b11
-          speaker: narrator
-          text: |+
-            
-
-            Dad looked at the fan. He had been holding it by the wide end.
-
+          text: Dad looked down. He'd been holding the fan by its wide end.
+        - {id: ch02-b09, speaker: papa, text: I was testing another method.}
+        - {id: ch02-b10, speaker: grandma-wu, text: "Does the other method make wind?", emotion: happy}
+        - {id: ch02-b11, speaker: papa, text: It makes my arm tired., emotion: happy}
         - id: ch02-b12
-          speaker: papa
-          text: |+
-            I was testing another method.
-
-        - id: ch02-b13
-          speaker: grandma-wu
-          text: |+
-            Does the other method make wind?
-
+          speaker: narrator
+          text: |-
+            Balcony doors slid open above and below. A woman asked if anyone was in the elevator. Someone in the courtyard said the building manager had checked. A man worried aloud about the ice cream melting in his freezer.
+        - {id: ch02-b13, speaker: neighbor, text: Eat it now!}
         - id: ch02-b14
-          speaker: papa
-          text: It makes my arm tired.
-        - id: ch02-b15
           speaker: narrator
-          text: |+
-            
-
-            Doors slid open above and below them. A woman asked whether anyone was in the elevator. Someone in the courtyard answered that the building manager had checked. A man worried about ice cream melting in his freezer.
-
-        - id: ch02-b16
-          speaker: neighbor
-          text: "Eat it now,"
-        - id: ch02-b17
-          speaker: narrator
-          text: |2+
-             another neighbor called.
-
+          text: |-
             Children cheered on three different floors.
 
-            Usually those voices were covered by televisions, kitchen fans, traffic, and music. Tonight they floated through the open center of the building. June heard a baby fussing on six, clothes hangers clicking on nine, and Milo on twelve trying to count every phone light.
-
-        - id: ch02-b18
-          speaker: a-jun
-          text: |+
-            Two, four, seven, eleven—
-
-        - id: ch02-b19
-          speaker: linlin
-          text: "You missed five,"
-        - id: ch02-b20
+            Usually, televisions, kitchen fans, traffic, and music covered all those voices. Tonight they floated through the open middle of the building. June heard a baby fussing on six, hangers clicking on nine, and Milo on twelve trying to count every phone light.
+        - {id: ch02-b15, speaker: a-jun, text: "Two, four, seven, eleven—"}
+        - {id: ch02-b16, speaker: linlin, text: You missed five.}
+        - id: ch02-b17
           speaker: narrator
-          text: |2+
-             June said before she meant to.
-
-            There was a pause above.
-
-        - id: ch02-b21
-          speaker: a-jun
-          text: June? Are you outside?
+          text: June had spoken before she meant to. Everything above went quiet for a beat.
+        - {id: ch02-b18, speaker: a-jun, text: "June? Are you outside?", emotion: surprised}
+        - id: ch02-b19
+          speaker: narrator
+          text: Milo leaned over his railing, just a shape against the sky. June looked down and realized she'd left the doorway. She stood beside the stool, melon in hand, with cool juice running along her wrist.
+        - {id: ch02-b20, speaker: linlin, text: Only a little outside.}
+        - {id: ch02-b21, speaker: a-jun, text: It still counts.}
         - id: ch02-b22
           speaker: narrator
-          text: |2+
-             Milo leaned over his railing, only a shape against the sky.
-
-            June looked down. She had left the doorway. She was standing beside the little stool with the melon in her hand. Juice ran cool along her wrist.
-
-        - id: ch02-b23
-          speaker: linlin
-          text: "Only a little outside,"
-        - id: ch02-b24
-          speaker: narrator
-          text: |2+
-             she said.
-
-        - id: ch02-b25
-          speaker: a-jun
-          text: It still counts.
+          text: |-
+            Mr. Bell, the building manager, came outside with a flashlight. He asked everyone to wait and reminded them not to use the elevator until the power had been checked. Neighbors passed the message from floor to floor. By the time it reached Milo, it had turned into this:
+        - {id: ch02-b23, speaker: a-jun, text: Everybody sit down and wait!}
+        - {id: ch02-b24, speaker: linlin, text: He said not to use the elevator.}
+        - {id: ch02-b25, speaker: a-jun, text: I know. I was talking to my ice cream., emotion: happy}
         - id: ch02-b26
           speaker: narrator
-          text: |-
-            
-
-            Mr. Bell, the building manager, came out below with a flashlight. He asked everyone to wait and reminded them not to use the elevator until the power was checked. Neighbors repeated the message from floor to floor. By the time it reached Milo, it had become, 
-        - id: ch02-b27
-          speaker: a-jun
-          text: |+
-            Everybody sit down and wait!
-
-        - id: ch02-b28
-          speaker: linlin
-          text: "He said not to use the elevator,"
-        - id: ch02-b29
-          speaker: narrator
-          text: |2+
-             June called.
-
-        - id: ch02-b30
-          speaker: a-jun
-          text: I know. I was talking to my ice cream.
-        - id: ch02-b31
-          speaker: narrator
-          text: |-
-            
-
-            More laughter moved through the building. June took another bite of melon. This time she did not hurry toward the door.
+          text: Laughter moved through the building again. June took another bite of melon. This time she didn't hurry back to the door.
     - id: ch03
       title: What the Dark Kept
       blocks:
         - id: ch03-b01
           speaker: narrator
-          text: |+
-            The candle threw three shadows onto the balcony wall. Dad raised Mrs. Wu’s fan, and a flat fish swam above June’s head. June made a dog with her hands. Its mouth opened and closed. Mom tried to make a rabbit, but her fingers became two ears with nothing beneath them.
-
-        - id: ch03-b02
-          speaker: linlin
-          text: Where is its head?
-        - id: ch03-b03
-          speaker: narrator
-          text: |2+
-             June asked.
-
-        - id: ch03-b04
-          speaker: mama
-          text: |+
-            Hidden in the dark.
-
+          text: The candle threw three shadows on the balcony wall. Dad lifted Mrs. Wu's fan, and a flat fish swam over June's head. June made a dog whose mouth opened and closed. Mom tried a rabbit, but all she got was two ears with nothing under them.
+        - {id: ch03-b02, speaker: linlin, text: "Where's its head?"}
+        - {id: ch03-b03, speaker: mama, text: Hidden in the dark.}
+        - {id: ch03-b04, speaker: linlin, text: "Then how does it know where to hop?"}
         - id: ch03-b05
-          speaker: linlin
-          text: How does it know where to hop?
-        - id: ch03-b06
+          speaker: narrator
+          text: Mom looked at her unfinished rabbit.
+        - {id: ch03-b06, speaker: mama, text: Maybe it listens.}
+        - id: ch03-b07
           speaker: narrator
           text: |-
-            
+            June thought the building was like that rabbit. A lot of it had disappeared, but it wasn't empty. A spoon fell in one apartment. A cat complained in another. A door opened, and someone called a name down the stairs. Mrs. Wu's fan snapped shut, then opened with a soft wooden clap.
 
-            Mom studied the unfinished rabbit. 
-        - id: ch03-b07
-          speaker: mama
-          text: Maybe it listens.
-        - id: ch03-b08
-          speaker: narrator
-          text: |+
-            
+            Someone on seven hummed two lines of a song and forgot the rest. A man on eight picked up the wrong tune. Another voice found the first tune and sent it upward again. Nobody sang the whole song, but it still traveled around the courtyard. When it faded, June heard a bus announce a stop several streets away. The voice was so faint, it sounded as if it came through the other side of a pillow.
 
-            The building was like that rabbit, June thought. Much of it had disappeared, but it was not empty. A spoon fell in one apartment. A cat complained in another. A door opened, and someone called a name down the stairs. Mrs. Wu’s fan snapped shut, then opened again with a soft wooden clap.
-
-            Someone on seven began humming a song and forgot it after two lines. A man on eight picked up the wrong tune. Another voice found the first tune and sent it upward again. Nobody sang the whole song, but it traveled around the courtyard before fading. In the quiet afterward, June heard a city bus announce a stop several streets away. The faint voice seemed to come through the other side of a pillow.
-
-            At bedtime, she often complained about chairs scraping upstairs or the gate closing below. Now each sound stood by itself. She could tell what was near and what was far. The sounds were not what had frightened her. The worst moment had been the first one, when she had believed the dark meant nothing was there.
-
+            At bedtime, June often complained about chairs scraping upstairs or the gate closing below. Now every sound stood on its own. She could tell what was near and what was far. The sounds weren't what had scared her. The worst part had been that first moment, when she'd thought the dark meant nothing was there.
+        - {id: ch03-b08, speaker: grandma-wu, text: "Still frightened?"}
         - id: ch03-b09
-          speaker: grandma-wu
-          text: Still frightened?
-        - id: ch03-b10
           speaker: narrator
-          text: |2+
-             Mrs. Wu asked June.
-
-            June wanted to say no. No was quick. No sounded brave. But the hallway behind her was still dark enough to hide every room.
-
-        - id: ch03-b11
-          speaker: linlin
-          text: "Some,"
-          emotion: fearful
+          text: June wanted to say no. “No” was quick. It sounded brave. But the hallway behind her was still dark enough to hide every room.
+        - {id: ch03-b10, speaker: linlin, text: Some., emotion: fearful}
+        - {id: ch03-b11, speaker: grandma-wu, text: "Me too. Without my glasses, I might put this fan on my nose.", emotion: happy}
         - id: ch03-b12
           speaker: narrator
-          text: |2+
-             June said.
-
-        - id: ch03-b13
-          speaker: grandma-wu
-          text: "Me too,"
+          text: Milo laughed until he coughed. Dad joined in.
+        - {id: ch03-b13, speaker: papa, text: I'm afraid the flashlight will wake up tomorrow and be mad we didn't invite it., emotion: happy}
         - id: ch03-b14
           speaker: narrator
-          text: " Mrs. Wu replied. "
-        - id: ch03-b15
-          speaker: grandma-wu
-          text: "Without my glasses, I might put this fan on my nose."
+          text: |-
+            Mom didn't say what she was afraid of. She wiped the melon juice from June's wrist, moved the jar farther from the curtain, and made sure it sat flat on the stool.
+
+            A breeze came through the gap between buildings. It wasn't like the air conditioner's steady push. It touched June's damp hair and left. It lifted one corner of a napkin, changed its mind, and disappeared. When it came back, it bent the candle flame low inside the jar.
+        - {id: ch03-b15, speaker: linlin, text: "Will it go out?", emotion: fearful}
         - id: ch03-b16
           speaker: narrator
-          text: |+
-            
-
-            Milo laughed so hard above them that he coughed. Dad said he was afraid the flashlight would wake in the morning and be offended that nobody had invited it.
-
-            Mom said nothing about being afraid. She wiped the melon juice from June’s wrist. Then she moved the jar farther from the curtain and checked that it stood flat on the stool.
-
-            A breeze came through the gap between buildings. It was not like the steady push of the air conditioner. It touched June’s damp hair and left. It lifted the corner of a napkin, changed its mind, and disappeared. When it returned, it bent the candle flame low inside the jar.
-
-        - id: ch03-b17
-          speaker: linlin
-          text: Will it go out?
+          text: Mom cupped her hands near the glass without touching it.
+        - {id: ch03-b17, speaker: mama, text: "It might. But if it does, we'll still be here.", emotion: calm}
         - id: ch03-b18
           speaker: narrator
-          text: |2+
-             June asked.
-
-        - id: ch03-b19
-          speaker: mama
-          text: It might.
-        - id: ch03-b20
-          speaker: narrator
-          text: " Mom cupped her hands near the glass without touching it. "
-        - id: ch03-b21
-          speaker: mama
-          text: "If it does, we will still be here."
-        - id: ch03-b22
-          speaker: narrator
           text: |-
-            
+            June watched the flame stand up again. It hadn't grown just because the whole building was dark. It simply kept one small circle bright.
 
-            June watched the flame straighten. It did not grow simply because the building was dark. It kept one small circle bright.
+            She slipped off her sandals, felt the cool tile under her feet, and took two steps toward the railing. The courtyard wasn't an empty bowl anymore. Phone lights moved under the tree. People carried folding chairs outside. Mr. Bell crossed from the front desk toward the electrical room. The next block still had power, and headlights from the intersection slid slowly over the walls.
 
-            She slipped off her sandals. The balcony tile felt cool under her feet. She walked two steps closer to the railing.
+            The dark hadn't taken the world away. It had moved familiar things into unfamiliar places.
 
-            The courtyard was no longer an empty bowl. Phone lights moved beneath the tree. A few people carried folding chairs outside. The building manager crossed from the front desk toward the electrical room. Beyond the gate, the next block still had power. Cars passed through an intersection, and their headlights slid slowly over the walls.
-
-            The dark had not taken the world. It had moved familiar things into unfamiliar places.
-
-            Dad touched June’s shoulder. 
-        - id: ch03-b23
-          speaker: papa
-          text: Look up.
+            Dad touched June's shoulder.
+        - {id: ch03-b19, speaker: papa, text: Look up.}
     - id: ch04
       title: Above the Water Tank
       blocks:
         - id: ch04-b01
           speaker: narrator
-          text: |+
-            At first June saw the black edge of the roof. Above it was a blue so deep it seemed to go on behind everything. On most nights, pale city light hovered over the rooftops. Tonight that glow was thinner, and small bright points showed through.
-
-            June tipped her head back.
-
-        - id: ch04-b02
-          speaker: linlin
-          text: |+
-            Are those all stars?
-
-        - id: ch04-b03
-          speaker: papa
-          text: "The ones we can see are,"
+          text: June first saw the black edge of the roof. Above that was a blue so deep it seemed to go on behind everything. Most nights, pale city light hung over the rooftops. Tonight it was thinner, and little bright points showed through. June tipped her head back.
+        - {id: ch04-b02, speaker: linlin, text: "Are those all stars?", emotion: surprised}
+        - {id: ch04-b03, speaker: papa, text: The ones we can see are. I don't know their names.}
         - id: ch04-b04
           speaker: narrator
-          text: " Dad said. "
-        - id: ch04-b05
-          speaker: papa
-          text: I don’t know their names.
-        - id: ch04-b06
-          speaker: narrator
-          text: |-
-            
-
-            Milo called from above, 
+          text: Milo called from above.
+        - {id: ch04-b05, speaker: a-jun, text: I know the brightest one!}
+        - {id: ch04-b06, speaker: grandma-wu, text: "What's it called?"}
         - id: ch04-b07
-          speaker: a-jun
-          text: I know the brightest one!
-        - id: ch04-b08
           speaker: narrator
-          text: |-
-            
-
-            Mrs. Wu answered at once. 
+          text: Milo took a long time to answer.
+        - {id: ch04-b08, speaker: a-jun, text: The brightest one., emotion: happy}
         - id: ch04-b09
-          speaker: grandma-wu
-          text: What is it called?
-        - id: ch04-b10
           speaker: narrator
           text: |-
-            
+            Laughter fell from the twelfth floor to the eighth, then down into the courtyard. June laughed too, still looking up. She didn't need every star to have a name. Some were sharp, some faint. One vanished when she looked straight at it and came back when she looked a little to the side.
 
-            Milo was quiet for a long time. 
-        - id: ch04-b11
-          speaker: a-jun
-          text: The brightest one.
+            Mom switched off her phone light. Dad switched off his. Now the candle was the only yellow glow on the balcony. June almost asked them to turn the phones back on. She could feel the words waiting behind her teeth. But before she spoke, the dark began to change. She found the pale curve of Mom's cheek, Dad's hand on his knee, and Mrs. Wu's fan slowly opening and closing. More stars seemed to arrive above the roof.
+
+            One bright point sat beside the water tank on the opposite building. June held up a finger. From where she stood, the star was only a fingertip from the tank. She knew that wasn't the real distance. She liked measuring it that way anyway.
+        - {id: ch04-b10, speaker: linlin, text: "Where were they before?"}
+        - {id: ch04-b11, speaker: mama, text: Right there. Tonight they're just easier for us to see.}
         - id: ch04-b12
           speaker: narrator
-          text: |+
-            
+          text: |-
+            June thought about her box building. With the lights on, she'd worried about one crooked paper window. With the lights off, the whole tower had disappeared. But in that same darkness, she'd heard a building full of people and found the sky above its roof.
 
-            Laughter fell from the twelfth floor to the eighth and then down into the courtyard. June laughed too. She did not need every star to have a name. Some were sharp. Some were faint. One disappeared when she looked straight at it, then returned when she looked a little to the side.
-
-            Mom turned off her phone light. Dad turned off his. The candle was the only yellow glow on the balcony.
-
-            June almost asked them to turn the phones on again. She felt the request waiting behind her teeth. Before she spoke, the dark began to change. Her eyes found the pale curve of Mom’s cheek, Dad’s hand resting on one knee, and the slow opening and closing of Mrs. Wu’s fan. More stars seemed to arrive above the roof.
-
-            One bright point sat just beside the water tank on the opposite building. June held up one finger. From where she stood, the star was only a fingertip away from the tank. She knew her finger was not measuring the true distance. She liked the measurement anyway.
-
-        - id: ch04-b13
-          speaker: linlin
-          text: Where were they before?
+            The elevator started with a low hum. Across the courtyard, windows flashed on in a row—white, gold, blue-white. The air conditioner sighed awake. The refrigerator began its familiar song. The living-room lamp flooded the balcony, and June squinted.
+        - {id: ch04-b13, speaker: neighbor, text: Power's back!, emotion: happy}
         - id: ch04-b14
           speaker: narrator
-          text: |2+
-             she asked.
-
-        - id: ch04-b15
-          speaker: mama
-          text: "Right there,"
+          text: Dad stood up.
+        - {id: ch04-b15, speaker: papa, text: I'll check the freezer.}
         - id: ch04-b16
           speaker: narrator
-          text: " Mom said. "
-        - id: ch04-b17
-          speaker: mama
-          text: Tonight they are easier for us to see.
+          text: Mom leaned toward the candle. June put a hand lightly on her wrist.
+        - {id: ch04-b17, speaker: linlin, text: Wait.}
         - id: ch04-b18
           speaker: narrator
-          text: |-
-            
-
-            June thought of her box building. With the lights on, she had worried about one crooked paper window. With the lights off, the whole tower had vanished. Yet in that same darkness she had heard a building full of people and found a sky above its roof.
-
-            The elevator started with a low hum.
-
-            Across the courtyard, windows flashed on in a row—white, gold, blue-white. The air conditioner sighed awake. The refrigerator began its familiar song. The living-room lamp flooded the balcony, and June squinted.
-
-            Someone shouted, 
-        - id: ch04-b19
-          speaker: neighbor
-          text: Power’s back!
+          text: Mom looked at her.
+        - {id: ch04-b19, speaker: linlin, text: One more star.}
         - id: ch04-b20
           speaker: narrator
           text: |-
-            
-
-            Dad stood. 
-        - id: ch04-b21
-          speaker: papa
-          text: I’ll check the freezer.
+            Dad had reached the doorway, but he came back and switched off the living-room lamp. One apartment across the courtyard went dark again. Then another. Milo called from above:
+        - {id: ch04-b21, speaker: a-jun, text: "Who can find the faintest one?"}
         - id: ch04-b22
           speaker: narrator
           text: |-
-            
+            The air conditioner was running. The elevator was moving. The city's glow was already climbing back into the sky. Inside the glass jar, the candle had shortened to one warm bead of light.
 
-            Mom leaned toward the candle.
-
-            June put one hand lightly on her wrist. 
-        - id: ch04-b23
-          speaker: linlin
-          text: Wait.
-        - id: ch04-b24
-          speaker: narrator
-          text: |+
-            
-
-            Mom looked at her.
-
-        - id: ch04-b25
-          speaker: linlin
-          text: One more star.
-        - id: ch04-b26
-          speaker: narrator
-          text: |-
-            
-
-            Dad had reached the doorway. He came back and switched off the living-room lamp. One apartment across the courtyard went dark again. Then another. Above them, Milo called, 
-        - id: ch04-b27
-          speaker: a-jun
-          text: Who can find the faintest one?
-        - id: ch04-b28
-          speaker: narrator
-          text: |-
-            
-
-            The air conditioner was running. The elevator was moving. The city glow was already climbing back into the sky. Inside the glass jar, the candle had shortened to a warm bead of light.
-
-            June rested her head against Mom’s shoulder and chose the smallest star beside the water tank.
+            June rested her head on Mom's shoulder and chose the smallest star beside the water tank.
 
             She kept it to herself.
