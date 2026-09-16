@@ -14,7 +14,7 @@ Codex 按 `AGENTS.md` 创作文章和已提交的插画 prompt。仓库代码绝
 
 词汇位于 `vocabulary/<level>/<id>/`。故事正文直接标记目标词；每个词汇条目包含所有语言的本地化词语，以及一张共用的无文字词卡图片。
 
-分级索引见 `prompts/levels/index.yaml`，每一级的独立标准见 `prompts/levels/<level>.yaml`，词汇数据集及来源见 `prompts/vocabulary/index.yaml`，各语言的词汇分级规则见 `prompts/vocabulary/ranges.yaml`，分片式运行时 JSON 设计见 `docs/catalog.md`。
+分级索引见 `prompts/levels/index.yaml`，每一级的独立标准见 `prompts/levels/<level>.yaml`，词汇数据集及来源见 `prompts/vocabulary/index.yaml`，各语言的词汇分级规则见 `prompts/vocabulary/ranges.yaml`。
 
 ## 内容质量
 
