@@ -1,0 +1,277 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, grave, and quietly suspenseful
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    miller:
+      display_name: The Miller
+      tts:
+        delivery: boastful and eager to impress
+        timbre: rough and earthy
+        pace: natural
+        pitch: medium-low
+    millers_daughter:
+      display_name: The Miller's Daughter
+      tts:
+        delivery: gentle, sincere, and emotionally open
+        timbre: clear and youthful
+        pace: natural
+        pitch: medium-high
+    king:
+      display_name: The King
+      tts:
+        delivery: dignified, firm, and fatherly
+        timbre: deep and full
+        pace: deliberate
+        pitch: low
+    manikin:
+      display_name: The Little Man
+      tts:
+        delivery: sly, nimble, and sharply self-assured
+        timbre: thin and bright
+        pace: quick
+        pitch: high
+    messenger:
+      display_name: The Messenger
+      tts:
+        delivery: dutiful, alert, and plainspoken
+        timbre: light and steady
+        pace: natural
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Miller's Boast
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Once there was a poor miller with a beautiful daughter. One day, the miller had to speak with the King. He wanted to seem important, so he made a boast about his daughter.
+        - id: ch01-b02
+          speaker: miller
+          text: >-
+            My daughter can spin ordinary straw and turn it into gold.
+        - id: ch01-b03
+          speaker: king
+          text: >-
+            Now, that is a skill I would like to see. If your daughter is truly as clever as you claim, bring her to my palace tomorrow. I will put her to the test.
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            The next day, the girl was brought before the King. He led her into a room packed with straw. Inside stood a spinning wheel and a reel.
+        - id: ch01-b05
+          speaker: king
+          text: >-
+            Get to work. By early tomorrow morning, every piece of this straw must be spun into gold. If it is not, you will die.
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            Then the King locked the door and left her there alone. The poor miller's daughter sat looking at all that straw. She had no idea how anyone could spin it into gold. She grew more miserable by the moment, until at last she began to cry.
+    - id: ch02
+      title: Three Rooms of Straw
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            All at once, the door opened and a little man stepped into the room.
+        - id: ch02-b02
+          speaker: manikin
+          text: >-
+            Good evening, Mistress Miller. Why are you crying like this?
+        - id: ch02-b03
+          speaker: millers_daughter
+          text: >-
+            Oh, I have to spin all this straw into gold, and I don't know how!
+          emotion: sad
+        - id: ch02-b04
+          speaker: manikin
+          text: >-
+            What will you give me if I do the spinning for you?
+        - id: ch02-b05
+          speaker: millers_daughter
+          text: >-
+            You may have my necklace.
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            The little man took the necklace and sat down at the wheel. Whirr, whirr, whirr! After three turns, the reel was full. He put on another reel. Whirr, whirr, whirr! Three more turns, and that one was full too. He kept going through the night. By morning, not a piece of straw remained. Every reel held gold.
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            The King arrived at daybreak. The gold amazed and delighted him, but it only made him greedier. He brought the miller's daughter to a second room. This one was much larger and was full of straw from end to end.
+        - id: ch02-b08
+          speaker: king
+          text: >-
+            Spin this straw into gold before morning, too, if you want to stay alive.
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            Again, the girl could see no way out. She was crying when the door opened and the little man returned.
+        - id: ch02-b10
+          speaker: manikin
+          text: >-
+            And what will you give me to turn this straw into gold?
+        - id: ch02-b11
+          speaker: millers_daughter
+          text: >-
+            You may take the ring from my finger.
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            The little man took her ring and set the wheel turning once more. By morning, he had spun the whole roomful into glittering gold.
+    - id: ch03
+      title: The Third Promise
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            The sight made the King happier than ever, but even then he did not have enough gold. He took the miller's daughter to a third room, larger than either of the others and filled with still more straw.
+        - id: ch03-b02
+          speaker: king
+          text: >-
+            You must spin all of this before the night is over. If you succeed, you will become my wife.
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            The King thought that even though she was only a miller's daughter, he could never find a richer wife anywhere in the world.
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            When the girl was alone, the little man came for the third time.
+        - id: ch03-b05
+          speaker: manikin
+          text: >-
+            What will you give me if I spin the straw for you again tonight?
+        - id: ch03-b06
+          speaker: millers_daughter
+          text: >-
+            I have nothing left to give you.
+        - id: ch03-b07
+          speaker: manikin
+          text: >-
+            Then make me a promise. If you ever become Queen, give me your first child.
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            The miller's daughter wondered if she would ever truly become Queen. But she knew of no other way to save herself, so she gave the little man the promise he wanted. In return, he spun the straw into gold one last time.
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            In the morning, the King found everything just as he had demanded. He married the miller's daughter, and she became Queen.
+    - id: ch04
+      title: The Little Man Returns
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            A year passed, and the Queen had a beautiful child. By then she had completely forgotten the little man. But one day he suddenly appeared in her room.
+        - id: ch04-b02
+          speaker: manikin
+          text: >-
+            Give me what you promised me.
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            The Queen was struck with horror. She offered him every treasure in the kingdom if only he would leave her child with her.
+        - id: ch04-b04
+          speaker: manikin
+          text: >-
+            No. Something alive is more precious to me than every treasure in the world.
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            The Queen wept and cried until the little man felt sorry for her.
+        - id: ch04-b06
+          speaker: manikin
+          text: >-
+            I will give you three days. If you discover my name before that time is over, you may keep your child.
+    - id: ch05
+      title: Three Days of Names
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            The Queen spent the whole night thinking of every name she had ever heard. She also sent a messenger across the country to search far and wide for names she did not know.
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            The little man came back the next day. The Queen tried Caspar, Melchior, and Balthazar. One after another, she gave him every name she knew. Each time, he gave the same answer.
+        - id: ch05-b03
+          speaker: manikin
+          text: >-
+            That is not my name.
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            On the second day, the Queen had people search the whole neighborhood. When the little man returned, she tested the strangest and most unusual names they had found.
+        - id: ch05-b05
+          speaker: millers_daughter
+          text: >-
+            Could your name be Shortribs? Or Sheepshanks? Maybe it is Laceleg?
+        - id: ch05-b06
+          speaker: manikin
+          text: >-
+            No. Not one of those is my name.
+        - id: ch05-b07
+          speaker: narrator
+          text: >-
+            On the third day, the messenger returned to the Queen.
+        - id: ch05-b08
+          speaker: messenger
+          text: >-
+            I could not find a single new name. But at the far end of the forest, I came to a high mountain, where the fox and the hare say good night to each other. There I saw a little house with a fire burning outside. A ridiculous little man was hopping around that fire on one leg. As he jumped, he shouted this.
+        - id: ch05-b09
+          speaker: manikin
+          text: |-
+            Today I bake, tomorrow I brew.
+            Next day, the young Queen's child is due.
+            Oh, how glad I am that no one knows
+            Rumpelstiltskin is the name I chose!
+        - id: ch05-b10
+          speaker: narrator
+          text: >-
+            Just imagine how glad the Queen was when she heard that name.
+    - id: ch06
+      title: The Name Revealed
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: >-
+            Soon afterward, the little man came into her room and demanded his answer.
+        - id: ch06-b02
+          speaker: manikin
+          text: >-
+            Well, Mistress Queen, what is my name?
+        - id: ch06-b03
+          speaker: millers_daughter
+          text: >-
+            Is it Conrad?
+        - id: ch06-b04
+          speaker: manikin
+          text: >-
+            No.
+        - id: ch06-b05
+          speaker: millers_daughter
+          text: >-
+            Then is it Harry?
+        - id: ch06-b06
+          speaker: manikin
+          text: >-
+            No.
+        - id: ch06-b07
+          speaker: millers_daughter
+          text: >-
+            Perhaps your name is Rumpelstiltskin.
+        - id: ch06-b08
+          speaker: manikin
+          text: >-
+            The devil told you that! The devil told you that!
+          emotion: angry
+        - id: ch06-b09
+          speaker: narrator
+          text: >-
+            The little man flew into such a rage that he drove his right foot deep into the ground, all the way up to his leg. Then he seized his left leg with both hands and pulled so hard that he tore himself in two.
