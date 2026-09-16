@@ -545,6 +545,11 @@ function checkSeries(work, root, seriesId) {
   const typeIndex = check.yamlMapping(join(root, "prompts", "article-types", "index.yaml"));
   if (articleType !== null) check.require(typeIndex.type_order?.includes(articleType), `series type must be listed in prompts/article-types/index.yaml: ${articleType}`);
   for (const key of ["category", "genre"]) requiredString(check, source, key, "series");
+  if (Object.hasOwn(source, "style")) {
+    const styleId = requiredString(check, source, "style", "series");
+    if (styleId !== null) { const style = check.yamlMapping(join(root, "prompts", "styles", styleId, "prompt.yaml")); check.require(style.schema_version === 1 && style.id === styleId, `Style must exist and match id: ${styleId}`); }
+  }
+  if (Object.hasOwn(source, "cover_prompt")) check.require(typeof source.cover_prompt === "string" && source.cover_prompt.trim().length > 0, "series.cover_prompt must be a non-empty string");
   checkAgeRange(check, source.age_range, "series.age_range");
   check.require(isMapping(source.titles) && Object.keys(source.titles).length > 0, "series.titles must be a non-empty mapping");
   if (articleType === "classic") validateOriginal(check, source.original, "series.original");

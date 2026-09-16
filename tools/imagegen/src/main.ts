@@ -35,6 +35,7 @@ scan the repository rooted at the current directory and process every target.
 Targets:
   works/<level>/<category>/<subcategory>/<slug>  picture-book artwork, 3:2 -> 1536x1024
   works/articles/<id>                            article cover, 1536x1024
+  works/series/<series-id>                       series cover, 1536x1024
   works/series/<series-id>/<article-id>          series article cover, 1536x1024
   vocabulary/<level>/<id>                       vocabulary card, 1024x1024
   prompts/writers/<locale>/<id>                 Writer avatar, 1024x1024
@@ -98,6 +99,7 @@ function targetKind(root: string, dir: string): string {
   const parts = posix(relative(root, dir)).split("/");
   if (parts.length === 5 && parts[0] === "works" && validLevel(parts[1])) return "book";
   if (parts.length === 3 && parts[0] === "works" && parts[1] === "articles") return "article";
+  if (parts.length === 3 && parts[0] === "works" && parts[1] === "series") return "series";
   if (parts.length === 4 && parts[0] === "works" && parts[1] === "series") return "article";
   if (parts.length === 3 && parts[0] === "vocabulary" && validLevel(parts[1])) return "vocabulary";
   if (parts.length === 4 && parts[0] === "prompts" && parts[1] === "writers") return "writer";
@@ -116,6 +118,7 @@ async function scanTargets(root: string): Promise<string[]> {
   const candidates = (await Promise.all([
     walkMatches(join(root, "works", "articles"), "article.yaml", 1),
     walkMatches(join(root, "works", "series"), "article.yaml", 2),
+    walkMatches(join(root, "works", "series"), "series.yaml", 1),
     walkMatches(join(root, "works"), "artwork.yaml", 4),
     walkMatches(join(root, "vocabulary"), "entry.yaml", 2),
     walkMatches(join(root, "prompts", "writers"), "prompt.yaml", 2),
@@ -187,10 +190,11 @@ async function loadTarget(root: string, dir: string, model: string, stdout: Stre
     if (!book.style || !artwork.style || book.style !== artwork.style) throw new Error(`${posix(relative(root, dir))}: book.yaml and artwork.yaml must declare the same non-empty style`);
     style = book.style; hasStyle = true; size = sizeForRatio(artwork.aspect_ratio); const stylePrompt = await loadStylePrompt(root, style);
     assets = (artwork.assets ?? []).map((asset) => ({ ...asset, prompt: joinPrompt(asset.prompt, stylePrompt) }));
-  } else if (kind === "article") {
-    const article = await readYaml<{ style?: string; cover_prompt?: string }>(join(dir, "article.yaml"));
+  } else if (kind === "article" || kind === "series") {
+    const article = await readYaml<{ style?: string; cover_prompt?: string }>(join(dir, kind === "series" ? "series.yaml" : "article.yaml"));
     if (!article.cover_prompt?.trim()) { writeLine(stdout, `skip ${posix(relative(root, dir))}: cover_prompt is missing`); return null }
-    style = article.style ?? ""; hasStyle = Boolean(style); assets = [{ id: "cover", file: "cover.webp", prompt: joinPrompt(article.cover_prompt, hasStyle ? await loadStylePrompt(root, style) : "") }];
+    const inheritedStyle = kind === "article" && !article.style && posix(relative(root, dir)).startsWith("works/series/") ? (await readYaml<{ style?: string }>(join(dirname(dir), "series.yaml"))).style : undefined;
+    style = article.style ?? inheritedStyle ?? ""; hasStyle = Boolean(style); assets = [{ id: "cover", file: "cover.webp", prompt: joinPrompt(article.cover_prompt, hasStyle ? await loadStylePrompt(root, style) : "") }];
   } else if (kind === "vocabulary") {
     const entry = await readYaml<{ card?: string; card_prompt?: string }>(join(dir, "entry.yaml"));
     if (!entry.card_prompt?.trim()) { writeLine(stdout, `skip ${posix(relative(root, dir))}: card_prompt is missing`); return null }
