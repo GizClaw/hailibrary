@@ -3,46 +3,22 @@ audio_script:
   cast:
     narrator:
       display_name: Narrator
-      tts:
-        delivery: Measured and lucid, with the calm breadth of legend
-        timbre: Warm and resonant
-        pace: Unhurried with steady momentum
-        pitch: Low to mid
+      tts: {delivery: Calm and vivid like a folktale told aloud, timbre: Warm and resonant, pace: Measured with room for images to land, pitch: Low to mid}
     yugong:
       display_name: Yu
-      tts:
-        delivery: Plainspoken, patient, and unwavering
-        timbre: Weathered and grounded
-        pace: Deliberate
-        pitch: Low
+      tts: {delivery: Plainspoken patient and quietly certain, timbre: Weathered and grounded, pace: Deliberate, pitch: Low}
     lian:
       display_name: Lian
-      tts:
-        delivery: Practical, perceptive, and warmly firm
-        timbre: Clear and mature
-        pace: Natural
-        pitch: Mid
+      tts: {delivery: Practical and perceptive with warmth beneath her firmness, timbre: Clear and mature, pace: Natural, pitch: Mid}
     zhisou:
       display_name: Old Zhi
-      tts:
-        delivery: Direct and skeptical, softening into reflection
-        timbre: Dry and lightly gravelled
-        pace: Moderate
-        pitch: Low to mid
+      tts: {delivery: Direct and reasonable with dry humor and later hesitation, timbre: Lightly gravelled, pace: Moderate, pitch: Low to mid}
     jun:
       display_name: Jun
-      tts:
-        delivery: Bright, earnest, and energetic
-        timbre: Clear and youthful
-        pace: Lively
-        pitch: Mid to high
+      tts: {delivery: Bright earnest and brisk, timbre: Clear and youthful, pace: Lively, pitch: Mid to high}
     neighbor_father:
-      display_name: Jun’s Neighbor
-      tts:
-        delivery: Breathless with urgent concern
-        timbre: Adult and strained
-        pace: Quick
-        pitch: Mid
+      display_name: The Girl’s Father
+      tts: {delivery: Urgent and breathless with worry, timbre: Strained adult voice, pace: Quick, pitch: Mid}
   chapters:
     - id: ch01
       title: The Mountains in the Way
@@ -50,113 +26,95 @@ audio_script:
         - id: ch01-b01
           speaker: narrator
           text: |-
-            In the old legend, two mountains stood south of a village, shoulder to shoulder. Their peaks disappeared into weather. Their shadows arrived early and left late, and anyone bound for the southern fields had to follow a stony trail east, squeeze through a ravine, and double back.
-            One wet autumn evening, Yu heard a cart before he saw it. A wheel spun in the mud outside his gate. The neighbor’s daughter lay under a quilt, shaking with fever, while her parents pushed and pulled.
+            The old legend begins with two mountains standing shoulder to shoulder, just south of a village. Their peaks vanished into the weather. Their shadows came early and stayed late. And if you needed to reach the southern fields, you had to go east along a stony trail, squeeze through a ravine, and double back.
+
+            One rainy autumn evening, Yu heard a cart before he saw it. A wheel was spinning in the mud outside his gate. The neighbor’s daughter lay under a quilt, shaking with fever, while her mother pulled and her father pushed.
         - id: ch01-b02
           speaker: neighbor_father
-          text: The healer is across the mountains,
+          text: The healer’s across the mountains!
           emotion: fearful
         - id: ch01-b03
           speaker: narrator
-          text: |2-
-             her father gasped.
-            Yu and three others lifted the wheel free. Mud filled his sandals. Long after darkness covered the village, he could still hear the cart knocking against stones on the long way around.
-            At dawn he walked to the place where Taihang and Wangwu met. With a straight stick, he drew a line from the village road toward the hidden south. Wind streamed down the rock face and lifted his white hair.
-            At supper he laid the stick beside the bowls. 
+          text: |-
+            Her father could barely get the words out. Yu and three others heaved the wheel free. Mud filled Yu’s sandals. Long after dark covered the village, he could still hear the cart knocking over stones on that long road around.
+
+            At dawn, Yu walked to the place where Taihang and Wangwu met. He took a straight stick and drew a line in the ground, from the village road toward the hidden south. Wind poured down the rock face and lifted his white hair.
+
+            That evening, he laid the stick beside the supper bowls.
         - id: ch01-b04
           speaker: yugong
           text: I want to open a road between the mountains.
         - id: ch01-b05
           speaker: narrator
-          text: His sons stared. His grandchildren stopped chewing. Lian, his wife, set the soup in front of him.
+          text: His sons stared. His grandchildren stopped chewing. Lian, his wife, set down the soup and started with the practical questions.
         - id: ch01-b06
           speaker: lian
-          text: You rested three times climbing the lower slope yesterday,
+          text: You rested three times just climbing the lower slope yesterday. A hoe hits that rock and throws sparks. Say you do break some loose. Where will you put it?
         - id: ch01-b07
-          speaker: narrator
-          text: " she said. "
-        - id: ch01-b08
-          speaker: lian
-          text: A hoe strikes that rock and throws sparks. Suppose you break some loose. Where does it go?
-        - id: ch01-b09
           speaker: yugong
-          text: Soil to the hollow ground. Flat stones on the road. The rest can be carried toward the distant water.
+          text: The soil can fill the hollows. Flat stones can go on the road. We’ll carry the rest toward the distant water.
+        - id: ch01-b08
+          speaker: narrator
+          text: Lian held up an old basket. Two strips had split along the rim.
+        - id: ch01-b09
+          speaker: lian
+          text: How far can you carry this when it’s full? Who cuts the winter wood while you’re walking? Who looks after the grain?
         - id: ch01-b10
           speaker: narrator
-          text: "Lian lifted an old basket. Two strips had split along its rim. "
+          text: Yu took a sip of soup. It was already cooling.
         - id: ch01-b11
-          speaker: lian
-          text: How far can you carry this full? Who cuts winter wood while you walk? Who tends the grain?
+          speaker: yugong
+          text: Tomorrow, we count all of that.
         - id: ch01-b12
           speaker: narrator
-          text: "Yu tasted his cooling soup. "
+          text: The next morning, they were measuring the lowest rock face when Old Zhi appeared with a handcart. He’d tied on a sleeping mat, two chests, and a cooking pot.
         - id: ch01-b13
-          speaker: yugong
-          text: We count all of that tomorrow.
+          speaker: zhisou
+          text: Before you attack a mountain, try my smaller plan. Move south. The market’s close, there’s more winter sun, and you can carry a household one load at a time.
         - id: ch01-b14
           speaker: narrator
-          text: They were measuring the lowest rock face next morning when Old Zhi appeared with a handcart. A sleeping mat, two chests, and a cooking pot were tied on top.
+          text: |-
+            Lian wanted to know what a move would really cost. Yu lifted the heavier chest off Zhi’s cart. They left the pot, the mat, and some clothes, then started out in the cool morning air.
+
+            At the loose-stone slope, the cart lurched from one hole to the next. Zhi hauled the shafts. Yu pushed with his shoulder. Lian kept crouching to clear rocks from the wheels. At noon, they were still inside Taihang’s shadow. Whenever the pot started knocking, Zhi stopped to tighten the rope.
+
+            They finally reached the southern fields near sunset. The warm air smelled of grain drying on mats. Zhi opened his blistered hands and smiled anyway.
         - id: ch01-b15
           speaker: zhisou
-          text: Before you attack a mountain,
+          text: There. A few more trips, and it’s done.
+          emotion: happy
         - id: ch01-b16
           speaker: narrator
-          text: " he said, "
+          text: Yu looked back. The ridge hid every roof in the village. Lian rubbed her aching shoulder.
         - id: ch01-b17
-          speaker: zhisou
-          text: try my smaller plan. Move south. The market is near, the winter sun lasts longer, and a household can be carried a load at a time.
+          speaker: lian
+          text: If we move here, what happens to Jun and her mother? Old Zhou’s mother can’t walk this road. Who moves first? Who goes back to help the next family?
         - id: ch01-b18
           speaker: narrator
-          text: |-
-            Lian wanted to know what such a move would truly cost. Yu took the heavier chest off Zhi’s cart. They left the pot, mat, and clothes and set out while the air was cool.
-            At the loose-stone slope, the cart lurched from one hole to another. Zhi hauled the shafts. Yu pushed with his shoulder. Lian crouched again and again to clear rocks from the wheels. By noon they were still inside Taihang’s shadow. Each time the pot began to knock, Zhi stopped to tighten its rope.
-            They reached the southern fields near sunset. Grain drying on mats scented the warm air. Zhi opened blistered hands and smiled anyway.
+          text: Zhi steadied the pot.
         - id: ch01-b19
           speaker: zhisou
-          text: There. A few more trips, and it ends.
-          emotion: happy
+          text: Every family has to choose for itself. Your road could take your whole life and still be nothing but a dent.
         - id: ch01-b20
-          speaker: narrator
-          text: |-
-            Yu looked back. The ridge hid every roof in the village.
-            Lian rubbed her shoulder. 
-        - id: ch01-b21
-          speaker: lian
-          text: If we come here, what about Jun and her mother? Old Zhou’s mother cannot walk this route. Who moves first, and who goes back to help the next family?
-        - id: ch01-b22
-          speaker: narrator
-          text: "Zhi steadied his pot. "
-        - id: ch01-b23
-          speaker: zhisou
-          text: Each family must choose. Your road may consume your whole life and still be a dent.
-        - id: ch01-b24
           speaker: yugong
-          text: Then we should find out whether the dent is worth making,
-        - id: ch01-b25
+          text: Then we should find out if the dent is worth making.
+        - id: ch01-b21
           speaker: narrator
-          text: |2-
-             Yu said.
-            They returned by moonlight. At home Lian tended the blisters on Yu’s feet, finished the work they had missed, and replaced the broken strips on the basket.
-        - id: ch01-b26
+          text: They came home by moonlight. Lian tended the blisters on Yu’s feet, finished the chores they’d missed, and replaced the broken strips on the basket.
+        - id: ch01-b22
           speaker: lian
-          text: I’m not afraid people will laugh,
-        - id: ch01-b27
-          speaker: narrator
-          text: " she said. "
-        - id: ch01-b28
-          speaker: lian
-          text: I’m afraid the mountain will remain and you won’t. If we do this, we measure the loads. We divide the days. I decide when you rest.
+          text: I’m not afraid people will laugh. I’m afraid the mountain will still be standing, and you won’t. If we do this, we measure the loads. We divide the days. And I decide when you rest.
           emotion: fearful
-        - id: ch01-b29
+        - id: ch01-b23
           speaker: yugong
           text: And if I refuse?
-        - id: ch01-b30
+        - id: ch01-b24
           speaker: lian
           text: I hide the baskets.
-        - id: ch01-b31
+        - id: ch01-b25
           speaker: yugong
-          text: You would not.
-        - id: ch01-b32
+          text: You wouldn’t.
+        - id: ch01-b26
           speaker: lian
           text: The hammers too.
     - id: ch02
@@ -165,149 +123,155 @@ audio_script:
         - id: ch02-b01
           speaker: narrator
           text: |-
-            Before the first frost, iron rang against stone. Yu’s first strike numbed his fingers and freed a chip no bigger than a bean. His family loosened earth, drove wooden wedges, and carried rubble away. Lian sorted the pieces. Broad stones went into the muddy village road; small ones filled baskets. At dusk, the mountain had lost one corner.
-            Zhi measured it with the end of his cane. 
+            Before the first frost, iron rang against stone. Yu’s first blow numbed his fingers and knocked loose a chip no bigger than a bean.
+
+            His family dug earth, drove wooden wedges, and carried rubble. Lian sorted every piece. Broad stones went into the muddy village road. Small ones went into baskets. By dusk, the mountain had lost one tiny corner.
+
+            Zhi measured it with the end of his cane.
         - id: ch02-b02
           speaker: zhisou
-          text: At this pace, Wangwu will grow bored waiting for you to finish Taihang.
+          text: At this pace, Wangwu will get tired of waiting before you finish Taihang.
         - id: ch02-b03
           speaker: yugong
-          text: If it walks away from boredom, we save ourselves some labor.
+          text: If it walks away from boredom, that saves us some work.
         - id: ch02-b04
           speaker: narrator
-          text: "Zhi laughed, then frowned. "
+          text: Zhi laughed. Then his face turned serious.
         - id: ch02-b05
           speaker: zhisou
           text: I don’t want to watch you ruin your last years. Tomorrow you remove another corner. How many tomorrows do you own?
         - id: ch02-b06
           speaker: yugong
-          text: I only need the next one,
+          text: I only need the next one.
         - id: ch02-b07
           speaker: narrator
-          text: |2-
-             Yu said.
-            Zhi’s loaded cart remained in his yard, covered in rain and uncovered in sun. He disliked abandoning his old house. He disliked admitting that one hard trip had not answered every question.
+          text: Zhi’s loaded cart stayed in his yard. He covered it when it rained and uncovered it in the sun. He didn’t want to leave his old home. And he didn’t want to admit that one hard trip had failed to answer every question.
     - id: ch03
-      title: Hands That Follow
+      title: More Hands at the Mountain
       blocks:
         - id: ch03-b01
           speaker: narrator
-          text: Jun, the neighbor’s child, watched the work from a safe distance. Her mother allowed her to carry water but not to approach the hammers. One afternoon a loosened rock rolled to Jun’s feet. She did not touch it. The next morning she returned with a basket barely larger than a soup bowl.
+          text: |-
+            Jun, the neighbor’s child, watched from a safe distance. Her mother let her carry water, but not go near the hammers.
+
+            One afternoon, a loosened rock rolled right up to Jun’s feet. She didn’t touch it. The next morning, she came back with a basket barely bigger than a soup bowl.
         - id: ch03-b02
           speaker: jun
-          text: I’ll pick up only the pieces already broken,
+          text: I’ll pick up only the pieces that are already broken.
         - id: ch03-b03
           speaker: narrator
-          text: |2-
-             she told her mother.
-            She put in three stones and walked the new stretch of road without running. Her mother shortened the strap and folded cloth beneath it.
-            The stones made a brief rain sound when Jun emptied them into a hollow. On her second trip she piled the basket high. Lian removed half.
+          text: |-
+            Jun put three stones in the basket and walked the new stretch of road without running. When she returned, her mother shortened the strap and folded a cloth beneath it.
+
+            The first time Jun emptied her basket into a hollow, the stones sounded like a quick burst of rain. On the second trip, she piled the basket high. Lian took half of them out.
         - id: ch03-b04
           speaker: lian
-          text: A load you can carry ten times is better than one that carries you down.
+          text: Better a load you can carry ten times than one that carries you down.
         - id: ch03-b05
           speaker: narrator
           text: |-
-            Jun scowled until halfway there. Then she shifted the strap to her other shoulder. The next day she came back.
-            Other villagers came too, not because they expected the mountains to vanish soon, but because the stone-covered road no longer swallowed wheels after rain. One brought a hammer. Another shaped wedges. Some stayed an hour; some returned once every ten days. Yu did not ask for promises. He showed them which cracks had opened.
+            Jun scowled—at least until she got halfway there. Then she shifted the strap to her other shoulder. The next day, she came back.
+
+            Other villagers came too. Not because they thought the mountains would disappear anytime soon. They came because the stone-covered road no longer swallowed wheels after rain.
+
+            One person brought a hammer. Another shaped wedges. Some stayed an hour. Some came back every ten days. Yu never asked them to promise anything. He just showed them which cracks had opened.
     - id: ch04
-      title: One Season After Another
+      title: Season After Season
       blocks:
         - id: ch04-b01
           speaker: narrator
-          text: Winter silenced the hammers. Yu repaired handles by the fire, but his right hand trembled and the cord slipped from his fingers. Lian took it and tied the knot.
+          text: Winter silenced the hammers. Yu repaired handles beside the fire, but his right hand shook, and the cord kept slipping from his fingers. Lian took it and tied the knot for him.
         - id: ch04-b02
           speaker: lian
-          text: Less hammering in spring,
+          text: Less hammering when spring comes.
         - id: ch04-b03
-          speaker: narrator
-          text: " she said."
-        - id: ch04-b04
           speaker: yugong
-          text: Then someone else must do more.
-        - id: ch04-b05
+          text: Then someone else will have to do more.
+        - id: ch04-b04
           speaker: lian
-          text: Let them. A road does not remember whose arm struck it.
-        - id: ch04-b06
+          text: Let them. A road doesn’t remember whose arm struck it.
+        - id: ch04-b05
           speaker: narrator
           text: |-
-            Outside, Jun and other children scraped snow from the first paved section with branches. Their voices came through the wall. They were deciding where to extend it when the ground softened.
-            In spring, workers were already at the mountain when Yu arrived. Jun’s basket looked smaller because she had grown. Young hands lifted the hammer when Yu’s breath ran short.
-            Seasons changed. Summer blows mixed with cicadas. Baskets whispered through autumn leaves. Snow filled the cut, then melted, and the ringing began from a little deeper inside.
-            At last Zhi chose a clear morning to move his belongings south. He stopped his cart beside Yu, who leaned on a hoe and waited for his breathing to settle.
-        - id: ch04-b07
+            Outside, Jun and the other children used branches to scrape snow off the first paved stretch. Yu could hear them deciding where to extend it once the ground softened.
+
+            In spring, workers were already at the mountain when Yu arrived. Jun’s basket looked smaller because she’d grown. And when Yu ran short of breath, younger hands lifted the hammer.
+
+            The seasons kept turning. In summer, hammer blows mixed with cicadas. In autumn, baskets whispered over dry leaves. Snow filled the cut, then melted, and the ringing began again, a little deeper inside.
+
+            At last, Zhi picked a clear morning to move south. He stopped his cart beside Yu, who was leaning on a hoe, waiting for his breath to settle.
+        - id: ch04-b06
           speaker: zhisou
-          text: Look at your hands,
-        - id: ch04-b08
+          text: Look at your hands. Look at your back. How many more years can you guard this hole?
+        - id: ch04-b07
           speaker: narrator
-          text: " Zhi said. "
+          text: A young man took the hammer from Yu and struck the seam Yu had marked. Jun passed with an empty basket. Farther down the road, two women pressed gravel into the roadbed.
+        - id: ch04-b08
+          speaker: yugong
+          text: When I was young, one trip around the mountains seemed cheap. I thought I had all the time in the world for detours. Now my time is short, and I can see that this detour outlives everyone.
         - id: ch04-b09
           speaker: zhisou
-          text: Look at your back. How many more years can you guard this hole?
+          text: That’s exactly why you shouldn’t throw the years you have left into it.
         - id: ch04-b10
-          speaker: narrator
-          text: A young man took the hammer from Yu and struck the seam Yu had marked. Jun passed with an empty basket. Farther down, two women pressed gravel into the roadbed.
+          speaker: yugong
+          text: My years will end. But the stone we took out won’t grow back. Whoever comes tomorrow starts after our last blow, not before our first.
         - id: ch04-b11
-          speaker: yugong
-          text: When I was young,
+          speaker: narrator
+          text: Zhi opened his mouth. Maybe he meant to say that children make different choices, or storms destroy roads, or no sensible person bets on people who haven’t been born yet. But just then, Jun squeezed between the two old men.
         - id: ch04-b12
-          speaker: narrator
-          text: " Yu said, "
-        - id: ch04-b13
-          speaker: yugong
-          text: one trip around the mountains seemed cheap. I thought I had endless time to spend on detours. Now my time is short, and I see that this detour outlives everyone.
-        - id: ch04-b14
-          speaker: zhisou
-          text: Which is why you shouldn’t throw your remaining years at it.
-        - id: ch04-b15
-          speaker: yugong
-          text: My years will end. That stone we removed will not grow back. Whoever comes tomorrow starts after our last blow, not before our first.
-        - id: ch04-b16
-          speaker: narrator
-          text: Zhi opened his mouth. He might have said that children make different choices, or storms ruin roads, or no sensible man bets on people not yet born. Jun squeezed between them.
-        - id: ch04-b17
           speaker: jun
-          text: Grandfather Zhi, your cart is blocking the baskets.
-        - id: ch04-b18
+          text: Grandfather Zhi, your cart’s blocking the baskets!
+        - id: ch04-b13
           speaker: narrator
-          text: He rolled it aside. Its wheels settled firmly on the gravel the workers had laid. Zhi looked down, then began the long route south.
+          text: Zhi rolled the cart aside. Its wheels settled firmly onto the gravel the workers had laid. He looked down at them for a moment. Then he started along the long road south.
     - id: ch05
       title: The Guardian’s Report
       blocks:
         - id: ch05-b01
           speaker: narrator
           text: |-
-            The old tale says a guardian spirit lived in the mountains. At first he ignored the tapping below. Mountains had endured lightning, floods, and earthquakes; iron hammers were lighter than woodpeckers.
-            But the sound returned after every winter. It crept inward. The old man slowed while the child grew. Some faces disappeared and new ones took their places. No one could name the day the road would be finished. No one filled the opening already made.
-            For the first time, the guardian was afraid. A single human tired, aged, or changed his mind. This labor had learned how to pass from one pair of hands to another.
-            He rose through the clouds and reported to the Ruler of Heaven. He did not pretend the opening was greater than it was. He said only that it deepened each year, and that younger hands had taken up the old man’s tools.
-            In the legend, the Ruler of Heaven called the two mighty sons of Kua’e and ordered them to carry Taihang and Wangwu away.
+            The old tale says a guardian spirit lived inside the mountains.
+
+            At first, he ignored the faint tapping below. Mountains had survived lightning, floods, and earthquakes. A few iron hammers felt lighter than woodpeckers.
+
+            But after every winter, the sound came back. Little by little, it crept inward. The old man slowed down while the child grew taller. Some faces disappeared. New ones took their places. No one could say when the road would be finished. But no one filled in the opening they’d already made.
+
+            For the first time, the guardian was afraid. One human being could grow tired, grow old, or change his mind. But this work had learned to pass from one pair of hands to the next.
+
+            So the guardian rose through the clouds and reported to the Ruler of Heaven. He didn’t pretend the opening was larger than it was. He only said it grew deeper every year. And he didn’t claim Yu would live forever. He only said that younger hands had already taken up the old man’s tools.
+
+            In the legend, the Ruler of Heaven summoned the two mighty sons of Kua’e and ordered them to carry Taihang and Wangwu away.
     - id: ch06
-      title: The Southern Light
+      title: Southern Light
       blocks:
         - id: ch06-b01
           speaker: narrator
           text: |-
-            No villager saw them arrive. During the night, Jun woke to a low sound like spring thunder traveling beneath the floor. Water trembled in Lian’s bowl. Yu sat up in darkness and listened.
-            At sunrise, the first person through the village gate stopped.
-            Southern light lay across the well, the roofs, and the faces gathering in the road. Where the mountains had met, level ground ran straight toward the fields. Taihang stood impossibly far to the east; Wangwu rested at the distant southern horizon. Their shadows could no longer touch the village.
-            People rolled carts down the open road and walked halfway to the fields simply to turn and walk back. Jun ran farthest. She searched for the first notch that had held one of her feet, but it had gone with the mountains. Beside the village, the short gravel road remained. A thin green shoot rose between its stones.
-            Late that morning, Zhi came from the south with part of his household loaded on his cart.
-            Lian eyed the chests. 
+            No one in the village saw them arrive.
+
+            That night, Jun woke to a low rumble, like spring thunder rolling under the floor. Water trembled in Lian’s bowl. Yu sat up in the darkness and listened.
+
+            At sunrise, the first person through the village gate stopped cold.
+
+            Southern light spread across the well, the rooftops, and all the faces gathering in the road. Where the mountains had met, level ground now ran straight to the fields. Taihang stood impossibly far away in the east. Wangwu rested on the distant southern horizon. Their shadows could no longer reach the village.
+
+            People rolled carts down the open road. Some walked halfway to the fields just so they could turn around and walk back. Jun ran farthest. She looked for the first notch, the one that had been wide enough for her foot. But it had gone with the mountains.
+
+            The short gravel road beside the village was still there. A thin green shoot had risen between its stones.
+
+            Late that morning, Zhi came from the south with part of his household loaded on his cart. Lian looked over the chests.
         - id: ch06-b02
           speaker: lian
           text: Bringing everything back?
         - id: ch06-b03
-          speaker: zhisou
-          text: The road is short now,
-        - id: ch06-b04
           speaker: narrator
-          text: " he said quickly. "
-        - id: ch06-b05
+          text: Zhi answered quickly, as though he didn’t want another question.
+        - id: ch06-b04
           speaker: zhisou
-          text: Why should I live away?
-        - id: ch06-b06
+          text: The road’s short now. Why should I live away?
+        - id: ch06-b05
           speaker: narrator
           text: |-
-            At the gravel, one rope came loose. Lian tightened it. Yu took hold of the cart shaft without smiling, and Zhi did not explain further.
-            Jun passed them with her little basket swinging empty from one shoulder. The two old men turned the cart toward home and pushed it together along the new road.
+            At the gravel road, one rope came loose. Lian tightened it. Yu took hold of the cart shaft without smiling. Zhi offered no more explanations.
+
+            Jun passed them with her little basket swinging empty from one shoulder. The two old men turned the cart toward home. Then, side by side, they pushed it together along the new road.
