@@ -4,6 +4,22 @@ HaiLibrary separates ungraded series literature from graded picture books. Codex
 
 Every content skill ends with the same-author loop: finish the output, execute every item in that skill's concrete self-reflection checklist, fix every issue, and restart the complete checklist until a fresh pass finds no issue, unless the skill declares a single check pass. This same-author self-reflection is the required editorial review; there is no separate review stage.
 
+## Repository layout
+
+```text
+works/series/<series-id>/                 ungraded source literature and audio scripts
+works/<level>/<category>/<subcategory>/   graded picture books (aa, a–n)
+vocabulary/<level>/<id>/                  vocabulary entries and cards
+prompts/                                  levels, vocabulary ranges, taxonomy, labels, article types, Writers, Styles
+about/                                    site about page content and artwork
+.agents/skills/                           content skills ($write-article, $scriptize-article, $adapt-article, ...)
+tools/catalog, tools/check-work, tools/imagegen   build, validation, and image generation CLIs
+apps/web/                                 reader website
+build/, apps/web/public/                  generated catalog output; never commit
+```
+
+This file is the only repository documentation besides the READMEs; do not add a separate `docs/` tree.
+
 ## Source of truth
 
 - Series live at `works/series/<series-id>/`. `article.yaml` holds planning metadata, including an article `type` from `prompts/article-types/` and one `picture_book: {level}` proposal; optional `research.yaml` records evidence. Legacy articles without `type` and with `picture_books` remain compatible. Each locale has an independently written native-language `locales/<locale>/article.md` and a story-faithful, listening-first `audio_script.yaml` made by `$scriptize-article`. Audio blocks contain `id`, `speaker`, and `text`, plus an optional `emotion` limited to `happy`, `sad`, `angry`, `fearful`, `disgusted`, `surprised`, or `calm`.

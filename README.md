@@ -14,7 +14,7 @@ Codex writes articles and committed artwork prompts by following `AGENTS.md`. Re
 
 Vocabulary lives under `vocabulary/<level>/<id>/`. Target words are marked inline in story content; one entry contains all localized terms and one shared word-card image.
 
-See `prompts/levels/index.yaml` and the exact files in `prompts/levels/<level>.yaml` for the draft level standard, `prompts/vocabulary/index.yaml` for concrete vocabulary datasets and provenance, `prompts/vocabulary/ranges.yaml` for locale-specific grading criteria, and `docs/catalog.md` for the sharded runtime JSON design.
+See `prompts/levels/index.yaml` and the exact files in `prompts/levels/<level>.yaml` for the draft level standard, `prompts/vocabulary/index.yaml` for concrete vocabulary datasets and provenance, and `prompts/vocabulary/ranges.yaml` for locale-specific grading criteria.
 
 ## Content quality
 
