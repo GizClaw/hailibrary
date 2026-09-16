@@ -1,0 +1,211 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and steady folktale storytelling
+        timbre: clear and gently resonant
+        pace: measured
+        pitch: medium
+    dummling:
+      display_name: Dummling
+      tts:
+        delivery: sincere and straightforward
+        timbre: youthful and open
+        pace: moderate
+        pitch: medium
+    father:
+      display_name: Father
+      tts:
+        delivery: blunt and dismissive
+        timbre: firm and weathered
+        pace: moderate
+        pitch: low
+    eldest_son:
+      display_name: Eldest Son
+      tts:
+        delivery: self-assured and curt
+        timbre: young and solid
+        pace: brisk
+        pitch: medium-low
+    second_son:
+      display_name: Second Son
+      tts:
+        delivery: practical and impatient
+        timbre: young and clear
+        pace: brisk
+        pitch: medium
+    grey_man:
+      display_name: Little Gray Man
+      tts:
+        delivery: humble at first, then warmly approving
+        timbre: small and aged
+        pace: unhurried
+        pitch: medium-high
+    eldest_daughter:
+      display_name: Eldest Innkeeper's Daughter
+      tts:
+        delivery: sly and determined
+        timbre: bright and mature
+        pace: moderate
+        pitch: medium
+    second_daughter:
+      display_name: Second Innkeeper's Daughter
+      tts:
+        delivery: eager and calculating
+        timbre: light and youthful
+        pace: moderate
+        pitch: medium-high
+    third_daughter:
+      display_name: Youngest Innkeeper's Daughter
+      tts:
+        delivery: curious and impulsive
+        timbre: light and clear
+        pace: quick
+        pitch: high
+    parson:
+      display_name: Parson
+      tts:
+        delivery: stern and proper
+        timbre: full and authoritative
+        pace: deliberate
+        pitch: low
+    sexton:
+      display_name: Sexton
+      tts:
+        delivery: dutiful and easily startled
+        timbre: crisp and nasal
+        pace: quick
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: The Two Older Brothers
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: There once was a man with three sons. The youngest was called Dummling, and everyone looked down on him. They mocked him and pushed him aside whenever they could. One day, the eldest son decided to go into the forest and cut wood. His mother packed him a lovely sweet cake and a bottle of wine, so he would not go hungry or thirsty.
+        - id: ch01-b02
+          speaker: narrator
+          text: In the forest, a little gray-haired old man met him, wished him a good day, and made a request.
+        - id: ch01-b03
+          speaker: grey_man
+          text: Would you share a piece of that cake in your pocket and give me a drink of your wine? I'm terribly hungry and thirsty.
+        - id: ch01-b04
+          speaker: eldest_son
+          text: If I share my cake and wine with you, there won't be any left for me. Now go away.
+        - id: ch01-b05
+          speaker: narrator
+          text: He left the little man there and went on. But soon after he began chopping a tree, his ax slipped and cut his arm. He had to return home and have the wound bandaged. The little gray man had caused it.
+        - id: ch01-b06
+          speaker: narrator
+          text: Then the second son went into the forest. His mother gave him a cake and a bottle of wine, just as she had given his brother. The little gray man met him too and asked for cake and wine.
+        - id: ch01-b07
+          speaker: second_son
+          text: Anything I give you comes out of my own share. Get out of here!
+        - id: ch01-b08
+          speaker: narrator
+          text: He also walked off and left the old man behind. His punishment came quickly. After only a few swings at a tree, he struck his own leg and had to be carried home.
+    - id: ch02
+      title: Dummling Shares His Meal
+      blocks:
+        - id: ch02-b01
+          speaker: dummling
+          text: Father, please let me go cut wood.
+        - id: ch02-b02
+          speaker: father
+          text: Your brothers both got hurt doing it. Leave it alone. You don't know anything about cutting wood.
+        - id: ch02-b03
+          speaker: narrator
+          text: Dummling kept begging until his father finally gave in.
+        - id: ch02-b04
+          speaker: father
+          text: Fine, then go. Maybe hurting yourself will teach you some sense.
+        - id: ch02-b05
+          speaker: narrator
+          text: His mother gave him a cake made with water and baked in the ashes, along with a bottle of sour beer. When Dummling reached the forest, the little gray-haired man greeted him and asked for something to eat and drink.
+        - id: ch02-b06
+          speaker: grey_man
+          text: Please give me some of your cake and a drink from your bottle. I'm so hungry and thirsty.
+        - id: ch02-b07
+          speaker: dummling
+          text: All I have is ash cake and sour beer. But if that's good enough for you, let's sit down and share it.
+        - id: ch02-b08
+          speaker: narrator
+          text: They sat together. When Dummling brought out the ash cake, it had turned into a fine sweet cake. The sour beer had become good wine. They ate and drank, and then the little man spoke.
+        - id: ch02-b09
+          speaker: grey_man
+          text: You have a kind heart, and you were willing to share all you had. So I'll bring you good luck. See that old tree? Cut it down, and you'll find something among its roots.
+        - id: ch02-b10
+          speaker: narrator
+          text: The little man said goodbye. Dummling cut down the old tree, and when it fell, he found a goose sitting among the roots. Every one of her feathers was pure gold. He picked her up and carried her to an inn, where he planned to spend the night.
+    - id: ch03
+      title: The Golden Goose
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The innkeeper had three daughters. When they saw the marvelous goose, they wondered what kind of bird she could be. Each one wanted a golden feather.
+        - id: ch03-b02
+          speaker: eldest_daughter
+          text: I'll get my chance to pull out one of those feathers soon enough.
+        - id: ch03-b03
+          speaker: narrator
+          text: As soon as Dummling stepped out, the eldest daughter grabbed the goose by the wing. Her fingers and hand stuck fast.
+        - id: ch03-b04
+          speaker: narrator
+          text: The second daughter came along soon afterward, thinking of nothing but getting a feather of her own. The instant she touched her sister, she stuck fast too.
+        - id: ch03-b05
+          speakers: [eldest_daughter, second_daughter]
+          ensemble: duo
+          text: Stay back! Please, stay back!
+        - id: ch03-b06
+          speaker: narrator
+          text: They shouted when their youngest sister came near, but she could not understand their warning.
+        - id: ch03-b07
+          speaker: third_daughter
+          text: They're both over there. I might as well join them.
+        - id: ch03-b08
+          speaker: narrator
+          text: She ran over and touched her sister. At once, she was stuck as well. So all three daughters spent the night attached to the goose.
+    - id: ch04
+      title: The Growing Procession
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The next morning, Dummling tucked the goose under his arm and started on his way. He paid no attention to the three girls hanging behind her. They had to run wherever he went, first to one side, then to the other.
+        - id: ch04-b02
+          speaker: narrator
+          text: Out in the fields, a parson saw the strange procession.
+        - id: ch04-b03
+          speaker: parson
+          text: Shame on you, you good-for-nothing girls! Why are you chasing this young man across the fields? That's no way to behave!
+        - id: ch04-b04
+          speaker: narrator
+          text: He seized the youngest girl's hand to pull her away. The moment he touched her, he stuck fast and had to run behind them too.
+        - id: ch04-b05
+          speaker: narrator
+          text: Before long, the sexton came by. He was amazed to see his master, the parson, running behind three girls.
+        - id: ch04-b06
+          speaker: sexton
+          text: Your Reverence! Where are you rushing off to? Don't forget, we have a christening today!
+        - id: ch04-b07
+          speaker: narrator
+          text: The sexton ran after him and grabbed his sleeve. He stuck fast as well. Now the five of them trotted along, one behind another. Two laborers came from the fields carrying their hoes, and the parson called to them.
+        - id: ch04-b08
+          speaker: parson
+          text: Help us! Pull the sexton and me free!
+        - id: ch04-b09
+          speaker: narrator
+          text: But as soon as the two laborers touched the sexton, they stuck fast. Now seven people ran behind Dummling and his goose.
+    - id: ch05
+      title: The Princess Laughs
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Not long afterward, Dummling reached a city ruled by a king. The king had a daughter who was so serious that no one had ever been able to make her laugh. The king had proclaimed that whoever could make her laugh would marry her.
+        - id: ch05-b02
+          speaker: narrator
+          text: When Dummling heard about the proclamation, he brought his goose and the whole trailing procession before the princess. She saw all seven people running on and on, one behind another. At once, she burst into loud laughter and seemed as if she might never stop.
+        - id: ch05-b03
+          speaker: narrator
+          text: Dummling then asked to have the princess as his wife, and their wedding was celebrated. After the king died, Dummling inherited the kingdom. He and his wife lived contentedly together for many years.

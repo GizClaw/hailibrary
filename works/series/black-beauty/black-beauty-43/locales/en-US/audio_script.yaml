@@ -1,0 +1,261 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Black Beauty
+      tts:
+        delivery: reflective and gently expressive
+        timbre: warm and clear
+        pace: measured
+        pitch: medium-low
+    jerry:
+      display_name: Jerry
+      tts:
+        delivery: principled, plainspoken, and steady
+        timbre: warm and sturdy
+        pace: measured
+        pitch: medium-low
+    young_woman:
+      display_name: Young Woman
+      tts:
+        delivery: humble, anxious, and tender
+        timbre: soft and weary
+        pace: moderate
+        pitch: medium-high
+    campaigner_1:
+      display_name: First Campaigner
+      tts:
+        delivery: entitled, forceful, and impatient
+        timbre: firm and brash
+        pace: brisk
+        pitch: medium
+    campaigner_2:
+      display_name: Second Campaigner
+      tts:
+        delivery: blustering and self-important
+        timbre: rough and resonant
+        pace: brisk
+        pitch: medium-low
+    porter:
+      display_name: Hospital Porter
+      tts:
+        delivery: clear and businesslike
+        timbre: strong and plain
+        pace: brisk
+        pitch: medium
+    former_mistress:
+      display_name: Polly's Former Mistress
+      tts:
+        delivery: gracious, attentive, and composed
+        timbre: polished and mature
+        pace: measured
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: Election Day
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Election day finally arrived, and Jerry and I had plenty of work. First, a stout gentleman came puffing up with a carpetbag and asked for Bishopsgate Station. Then a whole party hired us for Regent's Park. After that, we went to a side street, where a nervous old lady was waiting for a ride to the bank. We had to wait there and take her home again.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            We had barely set her down when a red-faced gentleman ran up, out of breath and clutching a handful of papers. Before Jerry could climb down, the man opened the door, jumped inside, and shouted for Bow Street Police Station as fast as we could go. We hurried off. After another fare or two, we returned to the stand and found that every other cab was gone.
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            Jerry slipped my feed bag over my nose.
+        - id: ch01-b04
+          speaker: jerry
+          text: >-
+            On a day like this, we have to eat whenever we get the chance. So go on, Jack. Keep munching, old boy, and use the time while you've got it.
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            Inside the bag were crushed oats, dampened with a little bran. That would have been a treat on any day, and just then it tasted wonderfully refreshing. Jerry was always so kind and thoughtful. What horse wouldn't do his best for a master like that? Jerry took out one of Polly's meat pies and stood beside me to eat it.
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            The streets were packed. Cabs decorated in the candidates' colors rushed through the crowd as though no one's life or limbs mattered. We saw two people knocked down that day, and one of them was a woman. The poor horses were having a miserable time, but the voters inside the cabs didn't care. Many were half drunk. Whenever their own party passed, they leaned out the windows and cheered.
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            It was the first election I had ever seen, and I never wanted to see another. I have heard that things are better now.
+    - id: ch02
+      title: A Ride to the Hospital
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            Jerry and I had eaten only a few mouthfuls when a poor young woman came down the street carrying a heavy child. She kept looking from side to side and seemed completely lost. At last she came over to Jerry and asked how to reach St. Thomas' Hospital, and how far away it was.
+        - id: ch02-b02
+          speaker: narrator
+          text: >-
+            She explained that she had arrived from the country that morning in a market cart. She knew nothing about the election and had never been to London before. She had an order admitting her little boy to the hospital. In her arms, the child gave a weak, miserable cry.
+        - id: ch02-b03
+          speaker: young_woman
+          emotion: sad
+          text: >-
+            My poor little boy is in terrible pain. He's four years old, but he can't walk any better than a baby. The doctor said he might get well if I could take him to the hospital. Please, sir, how far is it? Which way should I go?
+        - id: ch02-b04
+          speaker: jerry
+          text: >-
+            Ma'am, you can't walk there through crowds like these. It's three miles away, and that child is much too heavy to carry so far.
+        - id: ch02-b05
+          speaker: young_woman
+          text: >-
+            Yes, bless him, he is heavy. But I'm strong, thank God. If you'll only show me the way, I believe I can manage somehow. Please tell me where to go.
+        - id: ch02-b06
+          speaker: jerry
+          text: >-
+            No, you can't risk it. You could be knocked down, and the child might be run over. Here, climb into my cab. I'll get you safely to the hospital. And look, the rain is about to start.
+        - id: ch02-b07
+          speaker: young_woman
+          text: >-
+            No, sir, I can't. Thank you, but I have only enough money left for my journey home. Please, just point me in the right direction.
+        - id: ch02-b08
+          speaker: jerry
+          text: >-
+            Listen, ma'am. I have a wife and dear children waiting at home, so I know how a father feels. Get into the cab. I'll take you for free. I'd be ashamed to let a woman and a sick child face danger like this.
+        - id: ch02-b09
+          speaker: young_woman
+          emotion: sad
+          text: >-
+            Heaven bless you!
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            She burst into tears.
+        - id: ch02-b11
+          speaker: jerry
+          emotion: calm
+          text: >-
+            There, now. Try to cheer up, my dear. I'll have you there soon. Come, let me help you inside.
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            As Jerry went to open the door, two men came running toward us. Both wore campaign colors in their hats and buttonholes.
+        - id: ch02-b13
+          speakers: [campaigner_1, campaigner_2]
+          ensemble: duo
+          text: >-
+            Cab!
+        - id: ch02-b14
+          speaker: jerry
+          text: >-
+            Sorry, I'm engaged.
+        - id: ch02-b15
+          speaker: narrator
+          text: >-
+            One man shoved past the woman and sprang into the cab. The other followed him. Jerry's face turned as stern as a policeman's.
+        - id: ch02-b16
+          speaker: jerry
+          text: >-
+            Gentlemen, this cab has already been hired by that lady.
+        - id: ch02-b17
+          speaker: campaigner_1
+          text: >-
+            That lady? She can wait. Our business matters much more. Besides, we got into the cab first, so we have every right to stay. And we're not moving.
+        - id: ch02-b18
+          speaker: narrator
+          text: >-
+            A mischievous smile crossed Jerry's face as he shut the door on them.
+        - id: ch02-b19
+          speaker: jerry
+          text: >-
+            Very well, gentlemen. Stay there as long as you please. I can wait while you sit and rest.
+        - id: ch02-b20
+          speaker: narrator
+          text: >-
+            Then he turned his back on the men and walked over to the young woman, who was standing beside me.
+        - id: ch02-b21
+          speaker: jerry
+          text: >-
+            They'll leave soon enough. Don't you worry, my dear.
+        - id: ch02-b22
+          speaker: narrator
+          text: >-
+            Jerry laughed, and before long the men understood his trick. They climbed out, called him all sorts of bad names, and threatened to report his cab number and have him summoned.
+    - id: ch03
+      title: At St. Thomas' Hospital
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            After that brief delay, we set off for the hospital. Jerry kept to the side streets whenever he could. When we arrived, he rang the great bell and helped the young woman down from the cab.
+        - id: ch03-b02
+          speaker: young_woman
+          text: >-
+            Thank you, sir, a thousand times over. I could never have made it here by myself.
+        - id: ch03-b03
+          speaker: jerry
+          text: >-
+            You're very welcome. I hope your dear little boy will soon be well.
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            Jerry watched until she had gone through the door. Then he spoke softly to himself.
+        - id: ch03-b05
+          speaker: jerry
+          text: >-
+            Inasmuch as ye have done it to one of the least of these.
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            He patted my neck, as he always did when something had pleased him.
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            By then the rain was pouring down. Just as we started to leave the hospital, the door opened again and the porter called to us.
+        - id: ch03-b08
+          speaker: porter
+          text: >-
+            Cab!
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            We stopped, and a lady came down the steps. Jerry seemed to recognize her right away. She lifted her veil.
+        - id: ch03-b10
+          speaker: former_mistress
+          text: >-
+            Barker! Why, is that Jeremiah Barker? I'm so glad I've found you. You're exactly the friend I need today. It's terribly hard to find a cab in this part of London.
+        - id: ch03-b11
+          speaker: jerry
+          text: >-
+            I'd be proud to help you, ma'am, and I'm very glad I happened to be here. Where would you like me to take you?
+        - id: ch03-b12
+          speaker: former_mistress
+          text: >-
+            Paddington Station, please. If we arrive in good time, and I think we will, you can tell me all about Mary and the children.
+    - id: ch04
+      title: A Kind Offer
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            We reached the station with time to spare. Once the lady was under shelter, she stood talking with Jerry for quite a while. From their conversation, I learned that she had once been Polly's mistress. She asked many questions about Polly before turning to Jerry's work.
+        - id: ch04-b02
+          speaker: former_mistress
+          text: >-
+            How are you managing with cab work in the winter? I know Mary was rather worried about you last year.
+        - id: ch04-b03
+          speaker: jerry
+          text: >-
+            Yes, ma'am, she was. I caught a bad cough, and it stayed with me well into the warm weather. Whenever I'm kept out late, Mary worries a great deal. Cab work means every hour and every kind of weather, and that can wear a man down. Still, I'm doing fairly well. And without horses to care for, I think I'd feel lost. I grew up around them, and I'm afraid I wouldn't be as good at any other kind of work.
+        - id: ch04-b04
+          speaker: former_mistress
+          text: >-
+            Well, Barker, it would be a great shame if this work seriously damaged your health. You must think of Mary and the children as well as yourself. Plenty of places need a good driver or groom. If you ever decide you should leave cab work, please let me know.
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            She sent kind messages to Mary. Then she placed something in Jerry's hand.
+        - id: ch04-b06
+          speaker: former_mistress
+          text: >-
+            Here are five shillings for each of the two children. Mary will know the best way to spend it.
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            Jerry thanked her and looked very pleased. At last we left the station and made our way home. I, for one, was tired.

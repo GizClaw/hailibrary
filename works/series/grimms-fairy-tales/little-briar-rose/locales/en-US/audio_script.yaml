@@ -1,0 +1,248 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, grave, and quietly suspenseful
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    king:
+      display_name: The King
+      tts:
+        delivery: dignified, loving, and earnest
+        timbre: full and warm
+        pace: measured
+        pitch: medium-low
+    queen:
+      display_name: The Queen
+      tts:
+        delivery: gentle, hopeful, and gracious
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    frog:
+      display_name: The Frog
+      tts:
+        delivery: assured, mysterious, and direct
+        timbre: small and resonant
+        pace: deliberate
+        pitch: medium-high
+    thirteenth_wise_woman:
+      display_name: The Thirteenth Wise Woman
+      tts:
+        delivery: cold, offended, and severe
+        timbre: sharp and dark
+        pace: deliberate
+        pitch: medium-low
+    twelfth_wise_woman:
+      display_name: The Twelfth Wise Woman
+      tts:
+        delivery: solemn, compassionate, and steady
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    briar_rose:
+      display_name: Briar-Rose
+      tts:
+        delivery: bright, curious, and sweet-natured
+        timbre: youthful and clear
+        pace: natural
+        pitch: medium-high
+    old_woman:
+      display_name: The Old Woman
+      tts:
+        delivery: quiet, matter-of-fact, and elderly
+        timbre: thin and weathered
+        pace: unhurried
+        pitch: medium-high
+    prince:
+      display_name: The Prince
+      tts:
+        delivery: brave, earnest, and resolute
+        timbre: clear and youthful
+        pace: natural
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Thirteen Wise Women
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Long ago, a King and Queen wished every day for a child, but no child came.
+        - id: ch01-b02
+          speakers: [king, queen]
+          ensemble: duo
+          text: >-
+            Oh, if only we had a child!
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            Then one day, as the Queen was bathing, a frog crawled out of the water and onto the land.
+        - id: ch01-b04
+          speaker: frog
+          text: >-
+            Your wish will come true. Before a year has passed, you will have a daughter.
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            And the frog's promise came true. The Queen had a little girl, and she was so lovely that the King could hardly contain his joy. He ordered a magnificent feast. He invited his relatives, his friends, and everyone he knew. He also meant to invite all the Wise Women in the kingdom, so they would look kindly on the child.
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            There were thirteen Wise Women, but the King owned only twelve golden plates for them. Because one guest would have no golden plate, one Wise Woman was left at home.
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            The feast was splendid. At its end, the Wise Women gathered around the baby and gave her their magic gifts. One promised her virtue. Another promised beauty. A third promised riches. One after another, they gave her everything anyone in the world could wish for.
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            Eleven had spoken when the thirteenth Wise Woman suddenly entered. She had come to take revenge because she had not been invited. She greeted no one and did not even look around the room. She only cried out in a loud voice.
+        - id: ch01-b09
+          speaker: thirteenth_wise_woman
+          text: >-
+            In her fifteenth year, the King's daughter will prick herself on a spindle and fall down dead!
+          emotion: angry
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            Without another word, she turned and left. Everyone was horrified. But the twelfth Wise Woman had not yet given her gift. She could not take back the terrible sentence. She could only make it less cruel, so she stepped forward.
+        - id: ch01-b11
+          speaker: twelfth_wise_woman
+          text: >-
+            The princess will not die. She will fall into a deep sleep that lasts a hundred years.
+        - id: ch01-b12
+          speaker: narrator
+          text: >-
+            The King wanted to protect his dear child from that fate. He commanded that every spindle in the kingdom be burned.
+    - id: ch02
+      title: The Spindle in the Tower
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            As the girl grew, all the Wise Women's good gifts came true. She was beautiful, modest, kind, and wise. Everyone who saw her loved her.
+        - id: ch02-b02
+          speaker: narrator
+          text: >-
+            On the very day she turned fifteen, the King and Queen were away from home. The princess was left alone in the palace. She wandered wherever she pleased, peeking into rooms and bedchambers, until at last she came to an old tower.
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            She climbed a narrow staircase that wound round and round. At the top was a little door with a rusty key in its lock. She turned the key. The door flew open, and inside the little room, an old woman sat spinning flax with a spindle.
+        - id: ch02-b04
+          speaker: briar_rose
+          text: >-
+            Good day. What are you doing up here?
+        - id: ch02-b05
+          speaker: old_woman
+          text: >-
+            I'm spinning.
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            The old woman nodded as she worked. The spindle spun round with a cheerful rattle, and the princess watched it.
+        - id: ch02-b07
+          speaker: briar_rose
+          text: >-
+            What is that little thing turning so merrily?
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            Briar-Rose reached for the spindle. She wanted to try spinning too. The instant her hand touched it, the magic sentence came true. The spindle pricked her finger.
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            As soon as she felt the prick, she fell onto the bed in the room and sank into a deep sleep.
+    - id: ch03
+      title: The Sleeping Castle
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            The sleep spread through the entire palace. The King and Queen had just returned and stepped into the great hall. There they began to sleep, and the whole court fell asleep with them.
+        - id: ch03-b02
+          speaker: narrator
+          text: >-
+            The horses slept in the stable, the dogs in the yard, and the pigeons on the roof. Even the flies stopped on the wall. The flames on the hearth grew still and slept. The roasting meat stopped sizzling.
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            The cook had been about to pull the scullery boy's hair because the boy had forgotten something. Now the cook let him go and fell asleep. The wind died away. Outside the castle, not a single leaf moved on the trees.
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            A thorn hedge began growing around the castle. Every year it rose higher. At last, it closed over the whole castle until nothing could be seen, not even the flag on the roof.
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            Still, people across the country told the story of the beautiful sleeping princess. Her name was Briar-Rose. From time to time, young princes came and tried to force their way through the hedge to reach her.
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            None of them could pass. The thorns clung together as if they had hands. They caught the young men and would not let them go, and the princes died there in misery.
+    - id: ch04
+      title: The Hundredth Year
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            Many, many years later, another prince came to that country. He heard an old man speak of the thorn hedge and the castle said to be hidden behind it. In that castle, the old man told him, a wonderfully beautiful princess named Briar-Rose had slept for a hundred years. The King, the Queen, and the entire court slept there too.
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            The old man had heard the tale from his own grandfather. Many princes had already tried to cross the hedge. The thorns had trapped them, and they had died a pitiful death. But the young prince would not turn back.
+        - id: ch04-b03
+          speaker: prince
+          text: >-
+            I'm not afraid. I'll go and see the beautiful Briar-Rose.
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            The good old man did all he could to change the prince's mind, but the prince would not listen.
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            By then, the hundred years had just ended. The day had come for Briar-Rose to wake. When the prince reached the thorn hedge, he found no thorns at all. Large, beautiful flowers stood before him. They opened a path on their own and let him walk through unharmed. Once he had passed, they closed behind him and became a hedge again.
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            In the castle yard, the horses and spotted hounds lay asleep. Pigeons sat on the roof with their heads tucked under their wings. Inside the castle, flies slept on the wall. In the kitchen, the cook still held out his hand to grab the boy, and a maid sat beside the black hen she had been about to pluck.
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            The prince went farther. In the great hall, the whole court lay sleeping. Near the throne were the King and Queen, asleep like everyone else.
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            He went on, and the silence was so deep that he could hear a breath. At last, he climbed the tower and opened the door to the little room. Briar-Rose lay there sleeping. She was so beautiful that he could not look away. He bent down and kissed her.
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            At that very moment, Briar-Rose opened her eyes. She was awake, and she looked at the prince sweetly.
+    - id: ch05
+      title: The Castle Wakes
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            Briar-Rose and the prince went downstairs together. The King woke, and so did the Queen. All through the court, people opened their eyes and stared at one another in astonishment.
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            The horses in the yard stood and shook themselves. The hounds sprang up and wagged their tails. On the roof, the pigeons drew their heads out from under their wings. They looked around, then flew away over the open country. The flies began crawling along the wall again.
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            In the kitchen, the fire leaped up and flickered beneath the meat. The joint began turning and sizzling once more. The cook finished what he had started and boxed the boy's ear so hard that the boy screamed. The maid finished plucking the bird for the spit.
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            Then the prince and Briar-Rose were married in great splendor.
+        - id: ch05-b05
+          speaker: narrator
+          text: >-
+            And they lived contented to the end of their days.
