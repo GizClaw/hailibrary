@@ -1,0 +1,935 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant, and gently playful
+        timbre: clear and story-rich
+        pace: measured
+        pitch: medium
+    peter:
+      display_name: Peter Pan
+      tts:
+        delivery: daring, playful, and proudly matter-of-fact
+        timbre: bright and boyish
+        pace: lively
+        pitch: high
+    wendy:
+      display_name: Wendy
+      tts:
+        delivery: caring, composed, and quietly resolute
+        timbre: warm and youthful
+        pace: measured
+        pitch: medium-high
+    john:
+      display_name: John
+      tts:
+        delivery: proper, thoughtful, and brave
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium-high
+    michael:
+      display_name: Michael
+      tts:
+        delivery: innocent, direct, and sleepily earnest
+        timbre: soft and very young
+        pace: gentle
+        pitch: high
+    mrs_darling:
+      display_name: Mrs. Darling
+      tts:
+        delivery: tender, gracious, and deeply feeling
+        timbre: warm and maternal
+        pace: unhurried
+        pitch: medium
+    mr_darling:
+      display_name: Mr. Darling
+      tts:
+        delivery: dignified, earnest, and touchingly self-important
+        timbre: rounded and mature
+        pace: measured
+        pitch: medium-low
+    first_twin:
+      display_name: First Twin
+      tts:
+        delivery: proud, polite, and quick to take offense
+        timbre: clear and boyish
+        pace: measured
+        pitch: medium-high
+    second_twin:
+      display_name: Second Twin
+      tts:
+        delivery: agreeable, earnest, and boyishly direct
+        timbre: light and youthful
+        pace: measured
+        pitch: high
+    nibs:
+      display_name: Nibs
+      tts:
+        delivery: practical, eager, and good-natured
+        timbre: bright and youthful
+        pace: brisk
+        pitch: medium-high
+    tootles:
+      display_name: Tootles
+      tts:
+        delivery: earnest, loyal, and impulsively helpful
+        timbre: soft and boyish
+        pace: brisk
+        pitch: medium-high
+    curly:
+      display_name: Curly
+      tts:
+        delivery: cheerful, straightforward, and ready to agree
+        timbre: round and youthful
+        pace: measured
+        pitch: medium-high
+    slightly:
+      display_name: Slightly
+      tts:
+        delivery: confident, knowing, and a little self-important
+        timbre: lively and youthful
+        pace: brisk
+        pitch: medium-high
+    tinker_bell:
+      display_name: Tinker Bell
+      tts:
+        delivery: quick, fiery, and sharply indignant
+        timbre: tiny and bell-bright
+        pace: rapid
+        pitch: very high
+    jane:
+      display_name: Jane
+      tts:
+        delivery: curious, serious, and quietly adventurous
+        timbre: clear and young
+        pace: measured
+        pitch: high
+  chapters:
+    - id: ch01
+      title: A Home for the Boys
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            You may be wondering what happened to the other boys. They waited downstairs while Wendy explained about them. After counting to five hundred, they walked up by the stairs because they thought that would make a better impression. They stood in a row before Mrs. Darling, hats in hand, wishing they were not dressed as pirates. They said nothing. Their eyes asked her to keep them. They should have looked at Mr. Darling, too, but they forgot him.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            Mrs. Darling agreed at once. Mr. Darling looked strangely gloomy, though. Six boys seemed like a great many to him.
+        - id: ch01-b03
+          speaker: mr_darling
+          text: >-
+            Wendy, when you do something, you certainly do all of it.
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            The twins thought that reluctant remark was aimed at them. The first twin was the proud one. He flushed and spoke up.
+        - id: ch01-b05
+          speaker: first_twin
+          text: >-
+            Do you think the two of us would be too much trouble, sir? If you do, we can leave.
+        - id: ch01-b06
+          speaker: wendy
+          text: >-
+            Father!
+          emotion: surprised
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            Wendy was shocked, but the cloud stayed over him. He knew he was acting badly, and still he could not stop.
+        - id: ch01-b08
+          speaker: nibs
+          text: >-
+            We could curl up two at a time.
+        - id: ch01-b09
+          speaker: wendy
+          text: >-
+            And I always cut their hair myself.
+        - id: ch01-b10
+          speaker: mrs_darling
+          text: >-
+            George!
+          emotion: sad
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            It hurt Mrs. Darling to see her dear husband behaving so poorly. Then Mr. Darling burst into tears, and out came the truth. He was just as glad to welcome the boys as she was. But he thought they should have asked his permission, too, instead of acting as if he were a zero in his own home.
+        - id: ch01-b12
+          speaker: tootles
+          text: >-
+            I don't think you're a zero at all! Curly, do you?
+        - id: ch01-b13
+          speaker: curly
+          text: >-
+            No, I certainly don't. Slightly, what about you?
+        - id: ch01-b14
+          speaker: slightly
+          text: >-
+            Not a bit. Twin, what do you say?
+        - id: ch01-b15
+          speaker: narrator
+          text: >-
+            Not one boy thought Mr. Darling was a zero. This pleased him far more than it should have. He promised to find room for them all in the drawing room, if they could squeeze in.
+        - id: ch01-b16
+          speakers: [first_twin, second_twin, nibs, tootles]
+          ensemble: chorus
+          text: >-
+            We'll squeeze in, sir!
+        - id: ch01-b17
+          speaker: mr_darling
+          text: >-
+            Then follow the leader! I can't promise we truly have a drawing room, but we'll pretend we do, and that works just as well. Hoop-la!
+          emotion: happy
+        - id: ch01-b18
+          speaker: narrator
+          text: >-
+            He danced away through the house. The boys shouted, “Hoop-la!” and danced after him, hunting for the drawing room. I cannot remember whether they found it. They did find corners, though, and somehow every one of them fit.
+    - id: ch02
+      title: Peter's Farewell
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            Peter saw Wendy once more before he left. He did not quite come to the window. He only brushed against it as he passed, so she could open it and call if she wished. And that is exactly what she did.
+        - id: ch02-b02
+          speaker: peter
+          text: >-
+            Hello, Wendy. Good-bye.
+        - id: ch02-b03
+          speaker: wendy
+          text: >-
+            Oh, are you really leaving?
+        - id: ch02-b04
+          speaker: peter
+          text: >-
+            Yes.
+        - id: ch02-b05
+          speaker: wendy
+          text: >-
+            Peter, isn't there something very sweet you might want to ask my parents about?
+        - id: ch02-b06
+          speaker: peter
+          text: >-
+            No.
+        - id: ch02-b07
+          speaker: wendy
+          text: >-
+            Something about me?
+        - id: ch02-b08
+          speaker: peter
+          text: >-
+            No.
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            Mrs. Darling came to the window. Just then, she was watching Wendy very carefully. She told Peter that she had adopted all the other boys and wanted to adopt him, too.
+        - id: ch02-b10
+          speaker: peter
+          text: >-
+            Would you make me go to school?
+        - id: ch02-b11
+          speaker: mrs_darling
+          text: >-
+            Yes.
+        - id: ch02-b12
+          speaker: peter
+          text: >-
+            And after that, would I have to work in an office?
+        - id: ch02-b13
+          speaker: mrs_darling
+          text: >-
+            I expect you would.
+        - id: ch02-b14
+          speaker: peter
+          text: >-
+            Would I become a man soon?
+        - id: ch02-b15
+          speaker: mrs_darling
+          text: >-
+            Very soon.
+        - id: ch02-b16
+          speaker: peter
+          text: >-
+            I won't go to school and learn serious things! I don't want to grow into a man. Oh, Wendy's mother, what if I woke up one morning and had a beard?
+          emotion: fearful
+        - id: ch02-b17
+          speaker: wendy
+          text: >-
+            Peter, I would still love you with a beard.
+          emotion: calm
+        - id: ch02-b18
+          speaker: narrator
+          text: >-
+            Mrs. Darling held out her arms. Peter pushed her away.
+        - id: ch02-b19
+          speaker: peter
+          text: >-
+            Stay back, lady! Nobody is going to catch me and turn me into a man.
+          emotion: fearful
+        - id: ch02-b20
+          speaker: mrs_darling
+          text: >-
+            Then where will you live?
+        - id: ch02-b21
+          speaker: peter
+          text: >-
+            With Tink, in the house we built for Wendy. The fairies will put it high in the treetops, where they sleep at night.
+        - id: ch02-b22
+          speaker: wendy
+          text: >-
+            Oh, how lovely!
+        - id: ch02-b23
+          speaker: narrator
+          text: >-
+            Wendy sounded so full of longing that Mrs. Darling held her tighter.
+        - id: ch02-b24
+          speaker: mrs_darling
+          text: >-
+            I thought every fairy had died.
+        - id: ch02-b25
+          speaker: wendy
+          text: >-
+            There are always plenty of young fairies. The first time a new baby laughs, a new fairy is born. And because there are always new babies, there are always new fairies. They live in nests at the tops of trees. The mauve ones are boys, the white ones are girls, and the blue ones are silly little things that haven't decided what they are.
+        - id: ch02-b26
+          speaker: narrator
+          text: >-
+            Wendy spoke as an expert now. Peter watched her as he answered.
+        - id: ch02-b27
+          speaker: peter
+          text: >-
+            I'm going to have wonderful fun.
+          emotion: happy
+        - id: ch02-b28
+          speaker: wendy
+          text: >-
+            Evenings may feel lonely, sitting there beside the fire.
+        - id: ch02-b29
+          speaker: peter
+          text: >-
+            Tink will be with me.
+        - id: ch02-b30
+          speaker: wendy
+          text: >-
+            Tink isn't even a twentieth as good as having me there.
+          emotion: angry
+        - id: ch02-b31
+          speaker: tinker_bell
+          text: >-
+            You sneaky little tattletale!
+          emotion: angry
+        - id: ch02-b32
+          speaker: narrator
+          text: >-
+            Tinker Bell's voice came from somewhere around the corner.
+        - id: ch02-b33
+          speaker: peter
+          text: >-
+            It makes no difference.
+        - id: ch02-b34
+          speaker: wendy
+          text: >-
+            Oh, Peter, you know it does.
+        - id: ch02-b35
+          speaker: peter
+          text: >-
+            Then come back with me to the little house.
+        - id: ch02-b36
+          speaker: wendy
+          text: >-
+            May I go, Mother?
+        - id: ch02-b37
+          speaker: mrs_darling
+          text: >-
+            Certainly not. Now that I have you home, I intend to keep you.
+        - id: ch02-b38
+          speaker: wendy
+          text: >-
+            But Peter needs a mother so badly.
+        - id: ch02-b39
+          speaker: mrs_darling
+          text: >-
+            So do you, my love.
+        - id: ch02-b40
+          speaker: peter
+          text: >-
+            Oh, all right.
+        - id: ch02-b41
+          speaker: narrator
+          text: >-
+            He acted as though he had invited her only to be polite, but Mrs. Darling saw his mouth tremble. So she made a generous offer. Wendy could visit him for one week each year and do his spring cleaning. Wendy wanted something more lasting, and spring seemed terribly far away. Still, the promise made Peter cheerful again.
+        - id: ch02-b42
+          speaker: narrator
+          text: >-
+            Peter had no sense of time. He was so crowded with adventures that everything I have told you is only a halfpenny's worth of them. Perhaps Wendy knew that. Her last words sounded a little sorrowful.
+        - id: ch02-b43
+          speaker: wendy
+          text: >-
+            You won't forget me before spring cleaning time, will you, Peter?
+          emotion: sad
+        - id: ch02-b44
+          speaker: narrator
+          text: >-
+            Peter promised he would not, and then he flew away. He carried Mrs. Darling's kiss with him, the kiss that had belonged to no one else. Peter took it quite easily. Funny. Yet she seemed content.
+    - id: ch03
+      title: Spring Cleaning
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            Of course, all the boys went to school. Most entered Class Three. Slightly was first put in Class Four and then moved down to Class Five. Class One was the highest. Before a week had passed, they understood what fools they had been to leave the island. By then it was too late. Soon they became as ordinary as you or me or young Jenkins.
+        - id: ch03-b02
+          speaker: narrator
+          text: >-
+            Sadly, their power to fly slowly faded. At first Nana tied their feet to the bedposts so they could not float away at night. During the day, they amused themselves by pretending to fall from buses. Before long, they stopped pulling against the ropes in bed, and discovered that letting go of a bus really hurt. In time, they could not even fly after their hats. They called it lack of practice. The truth was that they no longer believed.
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            Michael kept believing longer than the others, though they teased him for it. So when Peter came for Wendy at the end of the first year, Michael was there. Wendy flew away in the dress she had woven from leaves and berries in the Neverland. She worried Peter might see how short it had become. He never noticed. He was too busy talking about himself.
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            Wendy had dreamed of wonderful talks about the old days. But Peter's new adventures had pushed the old ones out of his mind. When she mentioned their greatest enemy, he looked interested.
+        - id: ch03-b05
+          speaker: peter
+          text: >-
+            Who was Captain Hook?
+        - id: ch03-b06
+          speaker: wendy
+          text: >-
+            Don't you remember killing him and saving every one of us?
+          emotion: surprised
+        - id: ch03-b07
+          speaker: peter
+          text: >-
+            Once I kill them, I forget them.
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            Wendy said she hoped Tinker Bell would be glad to see her, though she did not sound certain.
+        - id: ch03-b09
+          speaker: peter
+          text: >-
+            Who is Tinker Bell?
+        - id: ch03-b10
+          speaker: wendy
+          text: >-
+            Oh, Peter!
+          emotion: surprised
+        - id: ch03-b11
+          speaker: narrator
+          text: >-
+            Even after Wendy explained, he remembered nothing.
+        - id: ch03-b12
+          speaker: peter
+          text: >-
+            There are so many fairies. She's probably gone by now.
+        - id: ch03-b13
+          speaker: narrator
+          text: >-
+            He was probably right. Fairies do not live long, but they are so small that a short while feels like a long one to them.
+        - id: ch03-b14
+          speaker: narrator
+          text: >-
+            Wendy was hurt to learn that the whole past year felt no longer than yesterday to Peter. For her, it had been a very long year of waiting. Still, he was just as fascinating as ever, and together they had a lovely spring cleaning in the little house among the treetops.
+        - id: ch03-b15
+          speaker: narrator
+          text: >-
+            The following year, Peter did not come. Wendy waited in a new dress because the old one could no longer close around her. But he never appeared.
+        - id: ch03-b16
+          speaker: michael
+          text: >-
+            Maybe he's sick.
+        - id: ch03-b17
+          speaker: wendy
+          text: >-
+            You know Peter never gets sick.
+        - id: ch03-b18
+          speaker: narrator
+          text: >-
+            Michael moved close and whispered with a shiver.
+        - id: ch03-b19
+          speaker: michael
+          text: >-
+            Wendy, maybe there isn't any Peter Pan.
+          emotion: fearful
+        - id: ch03-b20
+          speaker: narrator
+          text: >-
+            Wendy would have cried if Michael had not already been crying. Peter returned at the next spring cleaning, and the strangest thing was that he had no idea he had missed a year.
+        - id: ch03-b21
+          speaker: narrator
+          text: >-
+            That was the last time the girl Wendy saw him. For a while longer, she tried not to have growing pains, for Peter's sake. Winning a prize for general knowledge made her feel disloyal to him. But the years kept passing, and the careless boy did not come. When they met again, Wendy was married. Peter meant no more to her then than a little dust in the box where she once kept her toys.
+        - id: ch03-b22
+          speaker: narrator
+          text: >-
+            Wendy had grown up. You need not feel sorry for her. She was someone who liked growing up. In the end, she chose it freely, one day sooner than other girls.
+    - id: ch04
+      title: Wendy and Jane
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            By then, all the boys had grown up and were finished with childhood, so there is hardly any point in saying more about them. Any day, you might see the twins, Nibs, and Curly walking to an office with little bags and umbrellas. Michael drives a train. Slightly married a titled lady and became a lord. See that judge in a wig coming through the iron door? He used to be Tootles. And the bearded man who cannot think of a single story for his children was once John.
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            Wendy married in white, with a pink sash. It is strange that Peter never landed in the church to stop the wedding.
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            More years rolled by, and Wendy had a daughter. That should not be written in ink. It deserves a splash of gold.
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            Her name was Jane. From the moment she reached the mainland, she wore a curious look, as if she already had questions. When she became old enough to ask them, most were about Peter Pan. She loved hearing about him, and Wendy told her everything she could remember in the nursery where that famous flight began.
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            The nursery belonged to Jane now. Her father had bought it from Wendy's father with money invested at three percent, because Mr. Darling no longer cared for stairs. Mrs. Darling had died and been forgotten.
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            Only two beds remained, one for Jane and one for her nurse. The kennel was gone, for Nana had died of old age. Toward the end, she was sometimes hard to live with. She was completely certain that nobody but Nana knew how to care for children.
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            Jane's nurse had one evening off each week. On those nights, Wendy put Jane to bed, and story time began. Jane invented a tent by lifting the sheet over both their heads. In the terrible darkness beneath it, she would whisper.
+        - id: ch04-b08
+          speaker: jane
+          text: >-
+            What can we see now?
+        - id: ch04-b09
+          speaker: wendy
+          text: >-
+            I don't think I can see anything tonight.
+        - id: ch04-b10
+          speaker: narrator
+          text: >-
+            Wendy felt sure Nana would have objected if she were there.
+        - id: ch04-b11
+          speaker: jane
+          text: >-
+            Yes, you can. You can see yourself when you were little.
+        - id: ch04-b12
+          speaker: wendy
+          text: >-
+            That was so long ago, sweetheart. My, how the years fly!
+        - id: ch04-b13
+          speaker: jane
+          text: >-
+            Do they fly the same way you flew when you were little?
+        - id: ch04-b14
+          speaker: narrator
+          text: >-
+            Jane knew exactly where she was leading her mother.
+        - id: ch04-b15
+          speaker: wendy
+          text: >-
+            The way I flew? Sometimes I wonder if I truly did fly at all.
+        - id: ch04-b16
+          speaker: jane
+          text: >-
+            You did. I know you did.
+        - id: ch04-b17
+          speaker: wendy
+          text: >-
+            Those dear old days, when I still knew how!
+        - id: ch04-b18
+          speaker: jane
+          text: >-
+            Why can't you fly anymore, Mother?
+        - id: ch04-b19
+          speaker: wendy
+          text: >-
+            Because I'm grown up, darling. Grown-ups forget how.
+        - id: ch04-b20
+          speaker: jane
+          text: >-
+            Why do they forget?
+        - id: ch04-b21
+          speaker: wendy
+          text: >-
+            Because they aren't joyful and innocent and heartless anymore. Only the joyful, innocent, and heartless can fly.
+        - id: ch04-b22
+          speaker: jane
+          text: >-
+            What does joyful and innocent and heartless mean? I wish I could be all three.
+        - id: ch04-b23
+          speaker: narrator
+          text: >-
+            Other nights, Wendy admitted that she did see something.
+        - id: ch04-b24
+          speaker: wendy
+          text: >-
+            Why, I think I see this very nursery.
+        - id: ch04-b25
+          speaker: jane
+          text: >-
+            I think so, too. Keep going.
+        - id: ch04-b26
+          speaker: narrator
+          text: >-
+            Then they began the great adventure of the night Peter flew in to find his shadow.
+        - id: ch04-b27
+          speaker: wendy
+          text: >-
+            That silly boy tried to fasten his shadow with soap. When it wouldn't stick, he cried. The sound woke me, and I sewed it back on.
+        - id: ch04-b28
+          speaker: jane
+          text: >-
+            You skipped something. When you found him crying on the floor, what did you say?
+        - id: ch04-b29
+          speaker: narrator
+          text: >-
+            By now, Jane knew the tale better than her mother did.
+        - id: ch04-b30
+          speaker: wendy
+          text: >-
+            I sat up in bed and asked, “Boy, why are you crying?”
+        - id: ch04-b31
+          speaker: jane
+          text: >-
+            Yes. That's exactly it.
+        - id: ch04-b32
+          speaker: narrator
+          text: >-
+            Jane let out one great breath.
+        - id: ch04-b33
+          speaker: wendy
+          text: >-
+            Then he flew all of us to the Neverland. There were fairies and pirates, the redskins, the mermaids' lagoon, the underground home, and the little house.
+        - id: ch04-b34
+          speaker: jane
+          text: >-
+            Yes! Which place did you love most?
+        - id: ch04-b35
+          speaker: wendy
+          text: >-
+            I think I loved our underground home best.
+        - id: ch04-b36
+          speaker: jane
+          text: >-
+            So do I. And what were the last words Peter ever said to you?
+        - id: ch04-b37
+          speaker: wendy
+          text: >-
+            He said, “Keep waiting for me, and one night you'll hear me crow.”
+        - id: ch04-b38
+          speaker: jane
+          text: >-
+            Yes.
+        - id: ch04-b39
+          speaker: wendy
+          text: >-
+            But he forgot me completely.
+        - id: ch04-b40
+          speaker: narrator
+          text: >-
+            Wendy could smile when she said it. She was that grown up.
+        - id: ch04-b41
+          speaker: jane
+          text: >-
+            What did Peter's crow sound like?
+        - id: ch04-b42
+          speaker: narrator
+          text: >-
+            One evening, Wendy tried to make the sound for her.
+        - id: ch04-b43
+          speaker: jane
+          text: >-
+            No, that's not right. It sounded like this.
+        - id: ch04-b44
+          speaker: narrator
+          text: >-
+            Jane crowed far better than Wendy could. Her mother stared at her.
+        - id: ch04-b45
+          speaker: wendy
+          text: >-
+            Darling, how could you possibly know?
+          emotion: surprised
+        - id: ch04-b46
+          speaker: jane
+          text: >-
+            I hear it a lot when I'm asleep.
+        - id: ch04-b47
+          speaker: wendy
+          text: >-
+            Yes, many girls hear it in their sleep. But I was the only girl who heard it while awake.
+        - id: ch04-b48
+          speaker: jane
+          text: >-
+            You were lucky.
+    - id: ch05
+      title: Peter Comes Back
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            Then, one night, the tragedy came. It was spring. That night's story was over, and Jane lay asleep. Wendy sat on the floor close to the fire, darning by its light because the nursery had no other lamp. As she worked, she heard a crow. The window blew open, just as it had long ago, and Peter dropped to the floor.
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            He looked exactly the same. Wendy saw at once that he still had every one of his first teeth. He was a little boy, but she was grown. She crouched beside the fire, too guilty and helpless to move. She was a large woman now.
+        - id: ch05-b03
+          speaker: peter
+          text: >-
+            Hello, Wendy.
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            Peter noticed no difference because he was mostly thinking about himself. In the dim room, her white dress might have been the nightgown she wore when they first met.
+        - id: ch05-b05
+          speaker: wendy
+          text: >-
+            Hello, Peter.
+        - id: ch05-b06
+          speaker: narrator
+          text: >-
+            Her voice was faint. She tried to make herself as small as she could, while something inside her cried, “Woman, woman, let me go.”
+        - id: ch05-b07
+          speaker: peter
+          text: >-
+            Where's John?
+        - id: ch05-b08
+          speaker: narrator
+          text: >-
+            He had suddenly noticed the third bed was gone.
+        - id: ch05-b09
+          speaker: wendy
+          text: >-
+            John doesn't live here now.
+        - id: ch05-b10
+          speaker: peter
+          text: >-
+            Is Michael asleep?
+        - id: ch05-b11
+          speaker: narrator
+          text: >-
+            He glanced carelessly at Jane.
+        - id: ch05-b12
+          speaker: wendy
+          text: >-
+            Yes.
+        - id: ch05-b13
+          speaker: narrator
+          text: >-
+            Now Wendy felt she was betraying Jane as well as Peter. She corrected herself quickly, before judgment could fall on her.
+        - id: ch05-b14
+          speaker: wendy
+          text: >-
+            No, that isn't Michael.
+        - id: ch05-b15
+          speaker: peter
+          text: >-
+            Oh. Is this a new child?
+        - id: ch05-b16
+          speaker: wendy
+          text: >-
+            Yes.
+        - id: ch05-b17
+          speaker: peter
+          text: >-
+            A boy or a girl?
+        - id: ch05-b18
+          speaker: wendy
+          text: >-
+            A girl.
+        - id: ch05-b19
+          speaker: narrator
+          text: >-
+            Surely he would understand now. He did not understand at all.
+        - id: ch05-b20
+          speaker: wendy
+          text: >-
+            Peter, did you come because you expect me to fly away with you?
+        - id: ch05-b21
+          speaker: peter
+          text: >-
+            Of course. Why else would I be here? You haven't forgotten it's spring cleaning time, have you?
+        - id: ch05-b22
+          speaker: narrator
+          text: >-
+            He spoke rather sternly. Wendy knew there was no use reminding him how many spring cleanings he had missed.
+        - id: ch05-b23
+          speaker: wendy
+          text: >-
+            I can't go. I've forgotten how to fly.
+          emotion: sad
+        - id: ch05-b24
+          speaker: peter
+          text: >-
+            I'll teach you again in no time.
+        - id: ch05-b25
+          speaker: wendy
+          text: >-
+            Oh, Peter, don't waste fairy dust on me.
+        - id: ch05-b26
+          speaker: narrator
+          text: >-
+            Wendy stood. At last, fear came over Peter. He shrank away.
+        - id: ch05-b27
+          speaker: peter
+          text: >-
+            What is it?
+          emotion: fearful
+        - id: ch05-b28
+          speaker: wendy
+          text: >-
+            I'll turn up the light. Then you'll understand.
+        - id: ch05-b29
+          speaker: narrator
+          text: >-
+            For almost the only time in his life, Peter was afraid.
+        - id: ch05-b30
+          speaker: peter
+          text: >-
+            Don't turn on the light!
+          emotion: fearful
+        - id: ch05-b31
+          speaker: narrator
+          text: >-
+            Wendy let her fingers move through the tragic boy's hair. She was no longer a little girl with a broken heart. She was a grown woman who could smile at it all, though her eyes were wet.
+        - id: ch05-b32
+          speaker: narrator
+          text: >-
+            Then she raised the light, and Peter saw her. He cried out in pain. When that tall, beautiful woman bent to gather him into her arms, he pulled sharply away.
+        - id: ch05-b33
+          speaker: peter
+          text: >-
+            What happened to you?
+          emotion: fearful
+        - id: ch05-b34
+          speaker: narrator
+          text: >-
+            Wendy had to tell him.
+        - id: ch05-b35
+          speaker: wendy
+          text: >-
+            I'm old now, Peter. I'm much older than twenty. I grew up years ago.
+          emotion: sad
+        - id: ch05-b36
+          speaker: peter
+          text: >-
+            You promised you wouldn't!
+          emotion: angry
+        - id: ch05-b37
+          speaker: wendy
+          text: >-
+            I couldn't stop it. Peter, I'm married.
+        - id: ch05-b38
+          speaker: peter
+          text: >-
+            No, you aren't.
+        - id: ch05-b39
+          speaker: wendy
+          text: >-
+            I am. The little girl in that bed is my daughter.
+        - id: ch05-b40
+          speaker: peter
+          text: >-
+            No, she isn't.
+        - id: ch05-b41
+          speaker: narrator
+          text: >-
+            But he knew that she was. He stepped toward the sleeping child with his dagger raised. Of course he did not use it. Instead, he sank to the floor and sobbed. Once, Wendy would have known exactly how to comfort him. Now she did not. She was only a woman. She hurried out of the room to think.
+    - id: ch06
+      title: Peter and Jane
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: >-
+            Peter kept crying until his sobs woke Jane. She sat up in bed and became interested at once.
+        - id: ch06-b02
+          speaker: jane
+          text: >-
+            Boy, why are you crying?
+        - id: ch06-b03
+          speaker: narrator
+          text: >-
+            Peter stood and bowed to her. Jane bowed back from the bed.
+        - id: ch06-b04
+          speaker: peter
+          text: >-
+            Hello.
+        - id: ch06-b05
+          speaker: jane
+          text: >-
+            Hello.
+        - id: ch06-b06
+          speaker: peter
+          text: >-
+            I'm Peter Pan.
+        - id: ch06-b07
+          speaker: jane
+          text: >-
+            Yes, I know.
+        - id: ch06-b08
+          speaker: peter
+          text: >-
+            I came back for my mother. I'm taking her to the Neverland.
+        - id: ch06-b09
+          speaker: jane
+          text: >-
+            I know. I've been waiting for you.
+        - id: ch06-b10
+          speaker: narrator
+          text: >-
+            Wendy returned uncertainly. Peter was sitting on the bedpost, crowing gloriously. Jane, in her nightgown, flew around the room in solemn delight.
+        - id: ch06-b11
+          speaker: peter
+          text: >-
+            She's my mother now.
+        - id: ch06-b12
+          speaker: narrator
+          text: >-
+            Jane floated down beside him. She wore the very look Peter liked to see when ladies gazed at him.
+        - id: ch06-b13
+          speaker: jane
+          text: >-
+            He really does need a mother.
+        - id: ch06-b14
+          speaker: wendy
+          text: >-
+            Yes, I know. Nobody knows that better than I do.
+          emotion: sad
+        - id: ch06-b15
+          speaker: peter
+          text: >-
+            Good-bye, Wendy.
+        - id: ch06-b16
+          speaker: narrator
+          text: >-
+            Peter rose into the air, and shameless Jane went up with him. Flying had already become her easiest way to move. Wendy rushed to the window.
+        - id: ch06-b17
+          speaker: wendy
+          text: >-
+            No! No!
+          emotion: fearful
+        - id: ch06-b18
+          speaker: jane
+          text: >-
+            It's only for spring cleaning. He wants me to do it every year.
+        - id: ch06-b19
+          speaker: wendy
+          text: >-
+            If only I could come with you.
+          emotion: sad
+        - id: ch06-b20
+          speaker: jane
+          text: >-
+            But you can't fly.
+        - id: ch06-b21
+          speaker: narrator
+          text: >-
+            In the end, Wendy let them go together. We see her one last time at the window, watching them fade into the sky until they look as small as stars.
+        - id: ch06-b22
+          speaker: narrator
+          text: >-
+            As you watch Wendy, her hair may turn white and her figure may grow small again, because all of this happened long ago. Jane is an ordinary grown-up now, with a daughter named Margaret. Each spring cleaning time, unless Peter forgets, he comes for Margaret and takes her to the Neverland. There she tells him stories about himself, and he listens eagerly.
+        - id: ch06-b23
+          speaker: narrator
+          text: >-
+            When Margaret grows up, she will have a daughter. That child will become Peter's mother next. And so it will continue, as long as children are joyful and innocent and heartless.

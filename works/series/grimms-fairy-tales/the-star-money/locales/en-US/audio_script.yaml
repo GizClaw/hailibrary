@@ -1,0 +1,115 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and steady folktale storytelling
+        timbre: clear and gently resonant
+        pace: measured
+        pitch: medium
+    girl:
+      display_name: Little Girl
+      tts:
+        delivery: gentle and sincere, with quiet faith
+        timbre: young and clear
+        pace: measured
+        pitch: high
+    poor_man:
+      display_name: Poor Man
+      tts:
+        delivery: weary and pleading
+        timbre: thin and rough
+        pace: slow
+        pitch: low
+    first_child:
+      display_name: First Child
+      tts:
+        delivery: soft and mournful
+        timbre: young and light
+        pace: slow
+        pitch: high
+    third_child:
+      display_name: Third Child
+      tts:
+        delivery: timid and pleading
+        timbre: young and clear
+        pace: measured
+        pitch: high
+    fourth_child:
+      display_name: Fourth Child
+      tts:
+        delivery: quiet and hopeful
+        timbre: young and delicate
+        pace: slow
+        pitch: high
+  chapters:
+    - id: ch01
+      title: Nothing but a Piece of Bread
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a little girl whose father and mother had died. She was so poor that she had no room to live in and no bed to sleep in. In the end, all she had were the clothes she wore and a small piece of bread that a kind soul had given her.
+        - id: ch01-b02
+          speaker: narrator
+          text: Even so, she was good and faithful. With no one in the world to care for her, she set out across the open country and placed her trust in God.
+        - id: ch01-b03
+          speaker: narrator
+          text: Before long, a poor man met her.
+        - id: ch01-b04
+          speaker: poor_man
+          text: Oh, please give me something to eat. I'm so hungry!
+        - id: ch01-b05
+          speaker: narrator
+          text: The girl held out her whole piece of bread.
+        - id: ch01-b06
+          speaker: girl
+          text: May God bless this food for you.
+        - id: ch01-b07
+          speaker: narrator
+          text: Then she continued on her way.
+    - id: ch02
+      title: Gifts Along the Road
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Soon she came upon a child who was moaning.
+        - id: ch02-b02
+          speaker: first_child
+          text: My head is freezing. Please give me something to cover it.
+        - id: ch02-b03
+          speaker: narrator
+          text: So the girl took off her hood and gave it to the child.
+        - id: ch02-b04
+          speaker: narrator
+          text: A little farther down the road, she met another child. The child had no jacket and was freezing, so the girl gave away her own jacket.
+        - id: ch02-b05
+          speaker: narrator
+          text: Farther on, a third child asked her for a dress.
+        - id: ch02-b06
+          speaker: third_child
+          text: Please, could you give me a dress?
+        - id: ch02-b07
+          speaker: narrator
+          text: She gave that away as well.
+    - id: ch03
+      title: The Stars from Heaven
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: At last, the girl entered a forest. Night had already fallen. There she met one more child, who asked her for a little shirt.
+        - id: ch03-b02
+          speaker: fourth_child
+          text: Please, will you give me a little shirt?
+        - id: ch03-b03
+          speaker: girl
+          text: It's dark, and no one can see me. I can give away my little shirt.
+        - id: ch03-b04
+          speaker: narrator
+          text: So she took it off and handed it to the child.
+        - id: ch03-b05
+          speaker: narrator
+          text: Now she stood there without a single thing left. All at once, stars began to fall from heaven. But when they reached her, they were hard, smooth pieces of money. And though she had just given her little shirt away, she found herself wearing a new one made of the finest linen.
+        - id: ch03-b06
+          speaker: narrator
+          text: She gathered the money into her new shirt, and she was rich for the rest of her life.

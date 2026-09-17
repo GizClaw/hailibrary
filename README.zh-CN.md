@@ -8,7 +8,7 @@
 works/<level>/<category>/<subcategory>/<title>/
 ```
 
-不分级的多语言文学作品位于 `works/series/`：每种语言由对应 Writer 用母语独立创作 `article.md`，再由 `$scriptize-article` 生成整篇有声书脚本。分级绘本是 `works/<level>/...` 下的衍生物，只使用 `aa` 到 `n`；各语言共用无文字插画，正文采用 schema 3，绘本没有 audio script。
+不分级文学作品分为两种布局：独立文章位于 `works/articles/<article-id>/`，系列则由 `works/series/<series-id>/series.yaml` 和有序的子文章目录组成。每篇文章都有适读 `age_range`，本地化 `titles` 用于展示标题。`classic` 类型记录公版原著的 `original` 来源信息；尚未导入正文时，可以只有 YAML skeleton，并使用 `locales: {}`。对于原创多语言文章，每种语言由对应 Writer 用母语独立创作 `article.md`，再由 `$scriptize-article` 生成整篇有声书脚本。分级绘本是 `works/<level>/...` 下的衍生物，只使用 `aa` 到 `n`，并通过 `book.yaml` 的 `source: {article: <article-id>}` 关联源文章；各语言共用无文字插画，正文采用 schema 3，绘本没有 audio script。
 
 Codex 按 `AGENTS.md` 创作文章和已提交的插画 prompt。仓库代码绝不生成故事或 prompt；封面、页面插图和词卡只能由 `tools/imagegen` 根据已提交的 prompt 生成。
 
@@ -20,7 +20,7 @@ Codex 按 `AGENTS.md` 创作文章和已提交的插画 prompt。仓库代码绝
 
 嗨！图书馆通过明确的源文件契约、同一作者自省和确定性校验保障质量：
 
-- 源文件规则明确区分系列文学作品及有声书，与分级绘本的结构、问题、词汇和共用插画；
+- 源文件规则明确区分文章、文章系列及有声书，与分级绘本的结构、问题、词汇和共用插画；
 - 本地检查工具验证文件结构、跨语言页面对齐、作家、画风、词汇条目、资源文件和 Git LFS 状态；
 - 六个内容 Skill 都先完成产出，再由同一作者按该步骤的具体清单自省，发现问题就修改并再次自省，直到没有问题；
 - 文章研究使用权威来源，词汇创建实时核实单语词典、语言规范和课程证据；
@@ -60,7 +60,7 @@ npx --no-install hailibrary-imagegen vocabulary/a/jump
 npx --no-install hailibrary-imagegen --dry-run
 ```
 
-命令支持绘本插图、系列封面、词卡、Writer 头像和 Style 缩略图，并在各目标的 `imagegen-state.yaml` 中记录可续作进度。Style ID 变化会重建整个目标，只有 prompt 变化时需显式使用 `--force`。命令从环境变量或仓库根目录 `.env` 读取 `OPENAI_API_KEY`、可选的 `OPENAI_IMAGE_MODEL` 和 `OPENAI_BASE_URL`，环境变量优先。全部参数和退出码见 `--help`。
+命令支持绘本插图、文章封面、词卡、Writer 头像和 Style 缩略图，并在各目标的 `imagegen-state.yaml` 中记录可续作进度。Style ID 变化会重建整个目标，只有 prompt 变化时需显式使用 `--force`。命令从环境变量或仓库根目录 `.env` 读取 `OPENAI_API_KEY`、可选的 `OPENAI_IMAGE_MODEL` 和 `OPENAI_BASE_URL`，环境变量优先。全部参数和退出码见 `--help`。
 
 ## 项目 Skills
 

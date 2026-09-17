@@ -1,0 +1,295 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Jim Hawkins
+      tts:
+        delivery: vivid, thoughtful first-person storytelling
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    mother:
+      display_name: Mrs. Hawkins
+      tts:
+        delivery: caring, practical, and easily flustered
+        timbre: warm and gentle
+        pace: brisk
+        pitch: medium-high
+    pew:
+      display_name: Pew
+      tts:
+        delivery: harsh, commanding, and quick to rage
+        timbre: thin and rasping
+        pace: urgent
+        pitch: high
+    pirate_1:
+      display_name: First Pirate
+      tts:
+        delivery: rough and wary
+        timbre: coarse and dark
+        pace: brisk
+        pitch: low
+    pirate_2:
+      display_name: Second Pirate
+      tts:
+        delivery: gruff and impatient
+        timbre: gravelly
+        pace: medium
+        pitch: low-medium
+    pirate_3:
+      display_name: Third Pirate
+      tts:
+        delivery: nervous and blunt
+        timbre: wiry
+        pace: quick
+        pitch: medium
+    pirate_4:
+      display_name: Fourth Pirate
+      tts:
+        delivery: guarded and practical
+        timbre: weathered
+        pace: medium
+        pitch: medium-low
+    mr_dance:
+      display_name: Mr. Dance
+      tts:
+        delivery: confident, good-humored, and official
+        timbre: sturdy and resonant
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Last of the Blind Man
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Curiosity got the better of my fear. I could not stay hidden where I was, so I crept back up the bank. With my head tucked behind a broom bush, I had a clear view of the road in front of our inn.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            I had barely settled there when my enemies arrived. Seven or eight men came running hard, their footsteps falling out of rhythm along the road. A man with a lantern led them by several paces. Behind him, three men ran hand in hand. Even through the mist, I could tell the one in the middle was the blind beggar. Then I heard his voice and knew for certain.
+        - id: ch01-b03
+          speaker: pew
+          text: >-
+            Break down that door!
+          emotion: angry
+        - id: ch01-b04
+          speakers: [pirate_1, pirate_2, pirate_3]
+          ensemble: chorus
+          text: >-
+            Aye, aye, sir!
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            They rushed the Admiral Benbow, with the lantern-bearer close behind. But at the entrance they stopped. I heard them muttering to one another, surprised that the door already stood open. Pew gave them only a moment. His voice rose sharp and loud, burning with eagerness and fury.
+        - id: ch01-b06
+          speaker: pew
+          text: >-
+            Get inside! Go on, all of you! Stop wasting time!
+          emotion: angry
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            Four or five went in at once. Two stayed in the road beside the fearsome beggar. For a moment all was still. Then someone cried out, and a voice called from inside the inn.
+        - id: ch01-b08
+          speaker: pirate_1
+          text: >-
+            Bill is dead!
+          emotion: surprised
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            Pew cursed them for delaying again.
+        - id: ch01-b10
+          speaker: pew
+          text: >-
+            Then search him, you lazy dogs! The rest of you, get upstairs and find the chest!
+          emotion: angry
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            Their feet thundered up our old staircase so hard that the whole house must have shaken. Almost at once, I heard new shouts of surprise. The window of the captain's room flew open with a crash and a jingle of broken glass. One man leaned into the moonlight and called down to Pew.
+        - id: ch01-b12
+          speaker: pirate_2
+          text: >-
+            Pew! Somebody beat us here. They've searched the chest from top to bottom.
+        - id: ch01-b13
+          speaker: pew
+          text: >-
+            Is the thing still there?
+        - id: ch01-b14
+          speaker: pirate_2
+          text: >-
+            The money is.
+        - id: ch01-b15
+          speaker: narrator
+          text: >-
+            Pew cursed the money.
+        - id: ch01-b16
+          speaker: pew
+          text: >-
+            I mean Flint's fist!
+          emotion: angry
+        - id: ch01-b17
+          speaker: pirate_2
+          text: >-
+            We can't find it anywhere.
+        - id: ch01-b18
+          speaker: pew
+          text: >-
+            You down there! Was it on Bill?
+        - id: ch01-b19
+          speaker: narrator
+          text: >-
+            Another man came to the inn door. He must have been the one searching the captain's body.
+        - id: ch01-b20
+          speaker: pirate_3
+          text: >-
+            Somebody searched Bill already. There's nothing on him.
+        - id: ch01-b21
+          speaker: pew
+          text: >-
+            The innkeepers took it. That boy took it! I should've put his eyes out when I had the chance. They were here not long ago. The door was bolted when I tried it. Spread out, lads. Find them!
+          emotion: angry
+        - id: ch01-b22
+          speaker: pirate_2
+          text: >-
+            They left their light burning, sure enough.
+        - id: ch01-b23
+          speaker: pew
+          text: >-
+            Search everywhere! Tear the whole house apart!
+          emotion: angry
+        - id: ch01-b24
+          speaker: narrator
+          text: >-
+            He beat his stick against the road. Then a terrible racket filled our old inn. Heavy feet pounded back and forth. Furniture toppled. Doors were kicked in. The noise echoed from the rocks. One by one, the men came outside again and said they had found no trace of us.
+        - id: ch01-b25
+          speaker: narrator
+          text: >-
+            Suddenly, the same whistle that had frightened Mother and me while we counted the dead captain's money sounded through the night. This time it came twice. I had thought the whistle was Pew's signal to call his men to attack. Now I understood. It came from the hillside toward the hamlet, and the pirates' reaction told me it was a warning. Danger was coming.
+        - id: ch01-b26
+          speaker: pirate_1
+          text: >-
+            That's Dirk again. Two whistles! We have to move, mates.
+        - id: ch01-b27
+          speaker: pew
+          text: >-
+            Run away, you coward? Dirk has always been a fool. Pay no attention to him. Those two have to be close. The thing is nearly in your hands! Spread out and hunt them down, you dogs! Oh, curse these blind eyes of mine!
+          emotion: angry
+        - id: ch01-b28
+          speaker: narrator
+          text: >-
+            His words had some effect. Two men began searching among the scattered lumber. But they did it halfheartedly, and all the while they watched for danger. The others stood in the road, unable to decide what to do.
+        - id: ch01-b29
+          speaker: pew
+          text: >-
+            There are thousands waiting for you, and you fools won't move! Find it and you'll be rich as kings. You know it's here, but you stand around hiding. Not one of you dared face Bill. I did, and I'm blind! Now I'm supposed to lose my chance because of you? I'm supposed to crawl around begging for rum when I could ride in a coach? If you had the courage of a bug in a biscuit, you'd still catch them!
+          emotion: angry
+        - id: ch01-b30
+          speaker: pirate_1
+          text: >-
+            Blast it, Pew. We already have the gold coins.
+        - id: ch01-b31
+          speaker: pirate_4
+          text: >-
+            Maybe they hid the thing. Take the English money and quit your yelling.
+        - id: ch01-b32
+          speaker: narrator
+          text: >-
+            Yelling was exactly what Pew was doing. Their objections drove him into such a rage that he began swinging his stick blindly from side to side. It landed hard on more than one man. They cursed him back, threatened him with awful things, and tried without success to tear the stick from his hands.
+        - id: ch01-b33
+          speaker: narrator
+          text: >-
+            That quarrel saved us. While it raged, another sound came over the hill from the hamlet. Horses were galloping toward us. Almost at the same moment, a pistol flashed beside the hedge and its shot cracked through the night. This was plainly the final warning.
+        - id: ch01-b34
+          speaker: narrator
+          text: >-
+            The pirates turned and fled at once. They scattered in every direction. One ran toward the sea along the cove. Another cut sideways across the hill. Within half a minute, every one of them had vanished except Pew.
+        - id: ch01-b35
+          speaker: narrator
+          text: >-
+            They had left him behind. Perhaps they panicked, or perhaps they wanted revenge for his insults and blows. I could not tell. Pew tapped wildly up and down the road, feeling his way and shouting for his companions. At last he turned the wrong way and ran several steps past my hiding place toward the hamlet.
+        - id: ch01-b36
+          speaker: pew
+          text: >-
+            Johnny! Black Dog! Dirk! Mates, you won't leave old Pew. Not old Pew!
+          emotion: fearful
+        - id: ch01-b37
+          speaker: narrator
+          text: >-
+            Then the horses came over the rise. Four or five riders appeared in the moonlight and swept down the slope at a full gallop. Pew realized his mistake. He screamed, spun around, and ran straight into the ditch. He rolled to the bottom, but in a second he was back on his feet. Completely confused now, he dashed directly in front of the nearest horse.
+        - id: ch01-b38
+          speaker: narrator
+          text: >-
+            The rider tried to avoid him, but there was no time. Pew went down with a cry that rang high into the night. Four hooves struck and kicked him as the horse passed over. He fell on his side, slowly collapsed onto his face, and never moved again.
+        - id: ch01-b39
+          speaker: narrator
+          text: >-
+            I jumped up and called to the riders. They were already pulling their horses to a stop, horrified by what had happened. I soon learned who they were. The rider trailing behind was the boy the villagers had sent to Dr. Livesey. The others were revenue officers he had met on the road. He had wisely turned around and brought them back at once.
+        - id: ch01-b40
+          speaker: narrator
+          text: >-
+            Word of the smuggling boat in Kitt's Hole had reached Supervisor Dance and sent him riding our way that night. Without that news, the officers would not have reached us in time. It was what saved Mother and me from being killed.
+        - id: ch01-b41
+          speaker: narrator
+          text: >-
+            Pew was dead. There could be no doubt about it. We carried Mother up to the hamlet, where a little cold water and smelling salts soon brought her around. Her terrible fright did her no lasting harm, though she still mourned the money she had been forced to leave behind.
+        - id: ch01-b42
+          speaker: narrator
+          text: >-
+            Meanwhile, the supervisor rode toward Kitt's Hole as fast as he could. His men had to dismount when they reached the narrow valley. They felt their way down, leading their horses and sometimes holding them up, always afraid that an ambush waited in the dark. By the time they reached the Hole, it was no surprise that the smuggling boat had already set sail, though it was still nearby.
+        - id: ch01-b43
+          speaker: narrator
+          text: >-
+            Mr. Dance called out to the boat. A voice answered from the darkness.
+        - id: ch01-b44
+          speaker: pirate_3
+          text: >-
+            Stay out of the moonlight, or you'll get a bullet in you!
+        - id: ch01-b45
+          speaker: narrator
+          text: >-
+            At that instant, a bullet whistled close to the supervisor's arm. Soon afterward, the boat rounded the point and disappeared. Mr. Dance later said he stood there like a fish out of water, with no way to stop them. He sent one man to B---- to warn the government cutter, but he knew the warning would do little good.
+        - id: ch01-b46
+          speaker: mr_dance
+          text: >-
+            They're gone clean away. That's the end of it. Still, I'm glad I stepped on Master Pew's toes.
+        - id: ch01-b47
+          speaker: narrator
+          text: >-
+            By then, he had heard my whole story. I returned with him to the Admiral Benbow. You cannot imagine the wreck we found. In their furious search for Mother and me, those men had even knocked down the clock. They had taken nothing except the captain's money bag and a little silver from the cash drawer. Even so, one look told me that we were ruined. Mr. Dance could not understand what he saw.
+        - id: ch01-b48
+          speaker: mr_dance
+          text: >-
+            You say they got the money. Then what in the world were they hunting for, Hawkins? More money, I suppose?
+        - id: ch01-b49
+          speaker: narrator
+          text: >-
+            No, sir. I don't think it was money. I believe I have the very thing in my coat pocket. And honestly, I want to put it somewhere safe.
+        - id: ch01-b50
+          speaker: mr_dance
+          text: >-
+            Of course, boy. That's sensible. I'll hold it for you if you'd like.
+        - id: ch01-b51
+          speaker: narrator
+          text: >-
+            I was thinking Dr. Livesey might—
+        - id: ch01-b52
+          speaker: mr_dance
+          text: >-
+            Yes, exactly! He's a gentleman and a magistrate. Come to think of it, I should ride over there myself and make a report to him, or to the squire. Master Pew is dead. I can't say I'm sorry, but dead he is. And if anyone can blame an officer of His Majesty's revenue, you may be sure they'll try. I'll tell you what, Hawkins. You can come with me if you want.
+          emotion: happy
+        - id: ch01-b53
+          speaker: narrator
+          text: >-
+            I thanked him with all my heart. We walked back to the hamlet, where the horses were waiting. I told Mother what I planned to do, and by the time I finished, the officers had all mounted.
+        - id: ch01-b54
+          speaker: mr_dance
+          text: >-
+            Dogger, you've got a strong horse. Put the boy up behind you.
+        - id: ch01-b55
+          speaker: narrator
+          text: >-
+            I climbed on and held tight to Dogger's belt. The supervisor gave the order, and the whole party set off at a lively trot along the road to Dr. Livesey's house.

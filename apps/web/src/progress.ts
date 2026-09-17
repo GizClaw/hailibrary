@@ -1,5 +1,6 @@
 export type BookProgress = { page: number; completed: boolean; updatedAt: string; quiz?: { answers: Record<string, string>; reviewed: string[]; completed: boolean } };
-export type ReadingProgress = { version: 1; settings: { interfaceLocale: string; learningLocale: string }; books: Record<string, BookProgress> };
+export type ArticleProgress = { chapter: string; locale: string; scroll: number; updatedAt: string };
+export type ReadingProgress = { version: 1; settings: { interfaceLocale: string; learningLocale: string }; books: Record<string, BookProgress>; articles?: Record<string, ArticleProgress> };
 const key = "hailibrary.progress.v1";
 const emptyProgress = (): ReadingProgress => ({ version: 1, settings: { interfaceLocale: "zh-CN", learningLocale: "en-US" }, books: {} });
 const invalidProgressMessage = "这不是有效的“嗨！图书馆”进度文件。";
@@ -16,6 +17,7 @@ export function parseProgress(value: unknown): ReadingProgress {
       if (!isRecord(quiz) || !isStringRecord(quiz.answers) || !Array.isArray(quiz.reviewed) || !quiz.reviewed.every((item) => typeof item === "string") || typeof quiz.completed !== "boolean") throw new Error(invalidProgressMessage);
     }
   }
+  if (value.articles !== undefined && (!isRecord(value.articles) || !Object.values(value.articles).every((item) => isRecord(item) && typeof item.chapter === "string" && typeof item.locale === "string" && typeof item.scroll === "number" && typeof item.updatedAt === "string"))) throw new Error(invalidProgressMessage);
   return value as ReadingProgress;
 }
 
@@ -26,3 +28,5 @@ export function savePage(path: string, locale: string, page: number, pageCount: 
 export function saveQuizAnswer(path: string, locale: string, questionId: string, answer: string, questionCount: number) { const progress = readProgress(); const bookKey = `${path}::${locale}`; const book = progress.books[bookKey] ?? { page: 0, completed: false, updatedAt: new Date().toISOString() }; const quiz = book.quiz ?? { answers: {}, reviewed: [], completed: false }; quiz.answers[questionId] = answer; if (!quiz.reviewed.includes(questionId)) quiz.reviewed.push(questionId); quiz.completed = quiz.reviewed.length >= questionCount; progress.books[bookKey] = { ...book, quiz, updatedAt: new Date().toISOString() }; writeProgress(progress) }
 export function exportProgress() { const blob = new Blob([`${JSON.stringify(readProgress(), null, 2)}\n`], { type: "application/json" }); const url = URL.createObjectURL(blob); const anchor = document.createElement("a"); anchor.href = url; anchor.download = `hailibrary-progress-${new Date().toISOString().slice(0, 10)}.json`; anchor.click(); URL.revokeObjectURL(url) }
 export async function importProgress(file: File) { writeProgress(parseProgress(JSON.parse(await file.text()))) }
+export function readArticleProgress(collectionId: string): ArticleProgress | undefined { return readProgress().articles?.[collectionId] }
+export function saveArticleProgress(collectionId: string, chapter: string, locale: string, scroll: number) { try { const progress = readProgress(); progress.articles = { ...(progress.articles ?? {}), [collectionId]: { chapter, locale, scroll: Math.max(0, Math.min(1, scroll)), updatedAt: new Date().toISOString() } }; localStorage.setItem(key, JSON.stringify(progress)) } catch { /* storage unavailable */ } }

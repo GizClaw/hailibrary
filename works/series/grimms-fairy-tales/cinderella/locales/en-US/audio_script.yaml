@@ -1,0 +1,380 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, grave, and quietly suspenseful
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    cinderella:
+      display_name: Cinderella
+      tts:
+        delivery: gentle, sincere, and quietly resolute
+        timbre: light and clear
+        pace: natural
+        pitch: medium-high
+    mother:
+      display_name: Mother
+      tts:
+        delivery: tender, fading, and reassuring
+        timbre: soft and warm
+        pace: unhurried
+        pitch: medium
+    father:
+      display_name: Father
+      tts:
+        delivery: subdued, uncertain, and plainspoken
+        timbre: mature and resonant
+        pace: measured
+        pitch: low
+    stepmother:
+      display_name: Stepmother
+      tts:
+        delivery: cold, commanding, and calculating
+        timbre: firm and dry
+        pace: deliberate
+        pitch: medium-low
+    elder_stepsister:
+      display_name: Elder Stepsister
+      tts:
+        delivery: proud, cutting, and self-satisfied
+        timbre: polished and sharp
+        pace: brisk
+        pitch: medium-high
+    younger_stepsister:
+      display_name: Younger Stepsister
+      tts:
+        delivery: vain, mocking, and eager
+        timbre: bright and brittle
+        pace: quick
+        pitch: high
+    prince:
+      display_name: Prince
+      tts:
+        delivery: attentive, determined, and courtly
+        timbre: clear and confident
+        pace: steady
+        pitch: medium-low
+    pigeon_one:
+      display_name: First Pigeon
+      tts:
+        delivery: rhythmic, watchful, and clear
+        timbre: light and fluting
+        pace: measured
+        pitch: high
+    pigeon_two:
+      display_name: Second Pigeon
+      tts:
+        delivery: rhythmic, watchful, and clear
+        timbre: light and airy
+        pace: measured
+        pitch: high
+  chapters:
+    - id: ch01
+      title: Ashes and the Hazel Tree
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: A rich man's wife became very ill. When she knew she was near the end of her life, she called her only daughter to her bedside.
+        - id: ch01-b02
+          speaker: mother
+          text: My dear child, stay good and faithful. Then the good God will always protect you. I will look down from heaven and remain close to you.
+          emotion: calm
+        - id: ch01-b03
+          speaker: narrator
+          text: With that, she closed her eyes and died. The girl went to her mother's grave every day and wept. Through it all, she remained good and faithful. Winter came and spread a white sheet of snow over the grave. When the spring sun had melted it away, her father married another woman.
+        - id: ch01-b04
+          speaker: narrator
+          text: His new wife brought two daughters with her. Both had beautiful faces, but cruel hearts. From then on, the man's child suffered terribly in her own home.
+        - id: ch01-b05
+          speaker: elder_stepsister
+          text: Why should that stupid goose sit in the parlor with us?
+        - id: ch01-b06
+          speaker: younger_stepsister
+          text: If she wants bread, she can work for it. Send the kitchen maid outside!
+        - id: ch01-b07
+          speaker: narrator
+          text: They took away her fine clothes, dressed her in an old gray smock, and put wooden shoes on her feet.
+        - id: ch01-b08
+          speakers: [elder_stepsister, younger_stepsister]
+          ensemble: duo
+          text: Look at the proud princess now! See how beautifully she's dressed!
+        - id: ch01-b09
+          speaker: narrator
+          text: Laughing, they led her into the kitchen. She worked from morning until night. Before dawn, she had to rise, carry water, light the fires, cook, and wash. Her stepsisters mocked her and found every way they could to hurt her. They even poured peas and lentils into the ashes so she had to sit and pick them out again.
+        - id: ch01-b10
+          speaker: narrator
+          text: At night, when she was worn out from work, she had no bed. She slept beside the fire in the ashes. Dust and soot always covered her, and that was why they called her Cinderella.
+        - id: ch01-b11
+          speaker: narrator
+          text: One day, her father prepared to go to the fair. He asked his stepdaughters what gifts they wanted him to bring home.
+        - id: ch01-b12
+          speaker: elder_stepsister
+          text: Bring me beautiful dresses.
+        - id: ch01-b13
+          speaker: younger_stepsister
+          text: I want pearls and jewels.
+        - id: ch01-b14
+          speaker: father
+          text: And what would you like, Cinderella?
+        - id: ch01-b15
+          speaker: cinderella
+          text: Father, on your way home, please break off the first branch that brushes against your hat.
+        - id: ch01-b16
+          speaker: narrator
+          text: At the fair, he bought dresses, pearls, and jewels for the two sisters. On his ride home through a green thicket, a hazel branch struck his hat and knocked it off. He broke off the branch and carried it home.
+        - id: ch01-b17
+          speaker: narrator
+          text: He gave each girl what she had asked for. Cinderella thanked him for the hazel branch. She planted it on her mother's grave and wept until her tears fell on it and watered it. The branch grew into a handsome tree.
+        - id: ch01-b18
+          speaker: narrator
+          text: Three times each day, Cinderella sat beneath the tree to weep and pray. A little white bird always came to its branches. Whenever Cinderella made a wish, the bird threw down exactly what she had wished for.
+    - id: ch02
+      title: The Lentils in the Ashes
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Some time later, the King announced a festival that would last for three days. Every beautiful young woman in the country was invited so that the King's son could choose a bride. Cinderella's stepsisters were delighted when they heard that they were invited too.
+        - id: ch02-b02
+          speaker: elder_stepsister
+          text: Cinderella, come comb our hair.
+        - id: ch02-b03
+          speaker: younger_stepsister
+          text: And brush our shoes and fasten our buckles. We're going to the festival at the King's palace!
+        - id: ch02-b04
+          speaker: narrator
+          text: Cinderella obeyed, but she wept because she wanted to go to the dance as well. She begged her stepmother for permission.
+        - id: ch02-b05
+          speaker: stepmother
+          text: You want to go, Cinderella? You're covered in dust and dirt, and you think you belong at a royal festival? You have no dress, no proper shoes, and you want to dance?
+        - id: ch02-b06
+          speaker: narrator
+          text: Cinderella kept asking. At last, her stepmother poured a dish of lentils into the ashes.
+        - id: ch02-b07
+          speaker: stepmother
+          text: Pick every lentil out of those ashes in two hours. If you finish, you may come with us.
+        - id: ch02-b08
+          speaker: narrator
+          text: Cinderella went through the back door into the garden and called to the birds.
+        - id: ch02-b09
+          speaker: cinderella
+          text: Tame pigeons, turtledoves, and every bird beneath the sky, please come help me. Put the good ones in the pot, and the bad ones in your crop.
+        - id: ch02-b10
+          speaker: narrator
+          text: Two white pigeons flew in through the kitchen window. The turtledoves followed, and then all the birds beneath the sky came whirring and crowding in. They settled among the ashes. The pigeons bobbed their heads and began to pick, pick, pick, pick. All the other birds did the same. They gathered every good grain into the dish. Before one hour had passed, the work was done, and they all flew out again.
+        - id: ch02-b11
+          speaker: narrator
+          text: Cinderella carried the full dish to her stepmother. She was happy, certain that she could now go to the festival.
+        - id: ch02-b12
+          speaker: stepmother
+          text: No, Cinderella. You have nothing fit to wear, and you don't know how to dance. People would only laugh at you.
+        - id: ch02-b13
+          speaker: narrator
+          text: Cinderella began to cry. Then her stepmother offered her another task.
+        - id: ch02-b14
+          speaker: stepmother
+          text: Pick two dishes of lentils out of the ashes in one hour. If you can do that, then you may come.
+        - id: ch02-b15
+          speaker: narrator
+          text: But to herself, the woman thought Cinderella could never finish. She emptied two dishes of lentils into the ashes. Once again, Cinderella hurried through the back door and called to the birds.
+        - id: ch02-b16
+          speaker: cinderella
+          text: Tame pigeons, turtledoves, and every bird under heaven, please help me again. Put the good ones in the pot, and the bad ones in your crop.
+        - id: ch02-b17
+          speaker: narrator
+          text: The two white pigeons came through the window, followed by the turtledoves and all the birds beneath the sky. They crowded into the ashes, bobbing and picking. Pick, pick, pick, pick. They filled both dishes with the good seeds. In less than half an hour, they had finished and flown away.
+        - id: ch02-b18
+          speaker: narrator
+          text: Cinderella eagerly carried the dishes to her stepmother. Again, she believed she would be allowed to go.
+        - id: ch02-b19
+          speaker: stepmother
+          text: None of this makes any difference. You are not coming. You have no clothes for a festival, and you cannot dance. We would be ashamed of you.
+        - id: ch02-b20
+          speaker: narrator
+          text: The stepmother turned her back and hurried away with her two proud daughters.
+    - id: ch03
+      title: The First Night of the Festival
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Once the house was empty, Cinderella went to her mother's grave beneath the hazel tree.
+        - id: ch03-b02
+          speaker: cinderella
+          text: Shiver and quiver, little tree. Throw silver and gold down over me.
+        - id: ch03-b03
+          speaker: narrator
+          text: The bird dropped a dress of gold and silver, along with slippers embroidered in silk and silver. Cinderella dressed as quickly as she could and went to the festival.
+        - id: ch03-b04
+          speaker: narrator
+          text: Her stepmother and stepsisters did not recognize her. In that golden dress, she looked so beautiful that they took her for a foreign princess. It never entered their minds that she could be Cinderella. They thought Cinderella was still at home in the dirt, picking lentils from the ashes.
+        - id: ch03-b05
+          speaker: narrator
+          text: The Prince came to meet her, took her hand, and danced with her. He would not dance with anyone else, and he never let go of her hand. Whenever another person asked her for a dance, he gave the same answer.
+        - id: ch03-b06
+          speaker: prince
+          text: She is dancing with me.
+        - id: ch03-b07
+          speaker: narrator
+          text: Cinderella danced until evening. Then she wanted to return home.
+        - id: ch03-b08
+          speaker: prince
+          text: Let me walk with you and keep you company.
+        - id: ch03-b09
+          speaker: narrator
+          text: The Prince wanted to discover where the beautiful young woman lived. But Cinderella escaped him and jumped into the pigeon house. He waited until her father came home and told him what had happened.
+        - id: ch03-b10
+          speaker: prince
+          text: The young stranger got away from me. She jumped into your pigeon house.
+        - id: ch03-b11
+          speaker: narrator
+          text: Her father wondered if the stranger could possibly be Cinderella. He had an ax and a pickax brought to him, then broke the pigeon house apart. No one was inside.
+        - id: ch03-b12
+          speaker: narrator
+          text: When the family entered the house, Cinderella lay among the ashes in her dirty clothes. A dim little oil lamp burned on the mantel. She had slipped down from the back of the pigeon house and run to the hazel tree. There, she had left her beautiful clothes on the grave for the bird to take away. Then she had put on her gray smock and returned to the kitchen ashes.
+    - id: ch04
+      title: The Second and Third Nights
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The next day, the festival began again. After her father, stepmother, and stepsisters had left, Cinderella returned to the hazel tree.
+        - id: ch04-b02
+          speaker: cinderella
+          text: Shiver and quiver, my little tree. Throw silver and gold down over me.
+        - id: ch04-b03
+          speaker: narrator
+          text: This time, the bird dropped a dress far more beautiful than the one from the day before. When Cinderella entered the festival, everyone stared at her in wonder. The Prince had been waiting for her. At once, he took her hand, and he danced with no one else.
+        - id: ch04-b04
+          speaker: prince
+          text: She is my partner.
+        - id: ch04-b05
+          speaker: narrator
+          text: Evening came, and Cinderella tried to leave. The Prince followed, hoping to see which house she entered. She darted away and ran into the garden behind her home. A tall, beautiful tree stood there, covered with magnificent pears. Cinderella climbed through its branches as quickly as a squirrel, and the Prince could not tell where she had gone.
+        - id: ch04-b06
+          speaker: narrator
+          text: Again, he waited for her father.
+        - id: ch04-b07
+          speaker: prince
+          text: The young stranger escaped me again. I believe she climbed your pear tree.
+        - id: ch04-b08
+          speaker: narrator
+          text: Her father once more wondered if the stranger might be Cinderella. He brought an ax and cut down the tree, but no one was hiding in it.
+        - id: ch04-b09
+          speaker: narrator
+          text: In the kitchen, Cinderella was lying among the ashes as usual. She had jumped from the far side of the tree, returned her beautiful dress to the bird in the hazel tree, and put on her old gray smock.
+        - id: ch04-b10
+          speaker: narrator
+          text: On the third day, after the others had gone to the festival, Cinderella went once more to her mother's grave.
+        - id: ch04-b11
+          speaker: cinderella
+          text: Shiver and quiver, my little tree. Throw silver and gold down over me.
+        - id: ch04-b12
+          speaker: narrator
+          text: Now the bird gave her the most splendid dress she had ever worn, and the slippers were made of gold. When Cinderella appeared at the festival, everyone was too astonished to speak. The Prince danced only with her. Each time someone else invited her, he refused.
+        - id: ch04-b13
+          speaker: prince
+          text: She is my partner.
+        - id: ch04-b14
+          speaker: narrator
+          text: That evening, Cinderella wanted to leave, and the Prince meant to follow. But she escaped so quickly that he could not keep up. He had planned for this. Beforehand, he had ordered the entire staircase to be covered with pitch. As Cinderella ran down the stairs, her left slipper stuck fast.
+        - id: ch04-b15
+          speaker: narrator
+          text: The Prince picked it up. It was small and delicate, and it was made entirely of gold.
+    - id: ch05
+      title: The Golden Slipper
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The next morning, the Prince carried the golden slipper to Cinderella's father.
+        - id: ch05-b02
+          speaker: prince
+          text: I will marry no one except the woman whose foot fits this golden slipper.
+        - id: ch05-b03
+          speaker: narrator
+          text: The two stepsisters were pleased, because they had pretty feet. The elder sister took the slipper into her room, with her mother beside her. But her big toe would not go in. The slipper was too small.
+        - id: ch05-b04
+          speaker: stepmother
+          text: Cut off your toe. Once you're Queen, you won't need to walk anymore.
+        - id: ch05-b05
+          speaker: narrator
+          text: The elder sister cut off her toe. She forced her foot into the slipper, hid her pain, and went out to the Prince. He placed her on his horse as his bride and rode away.
+        - id: ch05-b06
+          speaker: narrator
+          text: Their path took them past the grave. The two pigeons were sitting in the hazel tree, and together they called down.
+        - id: ch05-b07
+          speakers: [pigeon_one, pigeon_two]
+          ensemble: duo
+          text: Turn and look, turn and look. There is blood inside the shoe. The slipper is too small for her. Your true bride is waiting for you.
+        - id: ch05-b08
+          speaker: narrator
+          text: The Prince looked at the woman's foot and saw blood streaming from it. He turned his horse around, took the false bride home, and said she was not the right woman. Then he told the younger sister to try the slipper.
+        - id: ch05-b09
+          speaker: narrator
+          text: The younger sister went into her room. Her toes slipped in easily, but her heel was too large.
+        - id: ch05-b10
+          speaker: stepmother
+          text: Cut a piece off your heel. When you're Queen, you won't have to walk anywhere.
+        - id: ch05-b11
+          speaker: narrator
+          text: The younger sister cut off part of her heel. She pushed her foot into the slipper, swallowed the pain, and went out to the Prince. He set her on his horse as his bride and rode away.
+        - id: ch05-b12
+          speaker: narrator
+          text: When they passed the hazel tree, the two pigeons called to him again.
+        - id: ch05-b13
+          speakers: [pigeon_one, pigeon_two]
+          ensemble: duo
+          text: Turn and look, turn and look. There is blood inside the shoe. The slipper is too small for her. Your true bride is waiting for you.
+        - id: ch05-b14
+          speaker: narrator
+          text: The Prince looked down. Blood was running from her shoe and staining her white stocking. He turned the horse around and brought the second false bride home.
+        - id: ch05-b15
+          speaker: prince
+          text: She is not the right woman either. Do you have another daughter?
+        - id: ch05-b16
+          speaker: father
+          text: No. My late wife did leave a small, stunted kitchen maid behind, but she could not possibly be your bride.
+        - id: ch05-b17
+          speaker: narrator
+          text: The Prince ordered him to send for her.
+        - id: ch05-b18
+          speaker: stepmother
+          text: Oh, no! She's far too dirty to appear before you.
+        - id: ch05-b19
+          speaker: narrator
+          text: The Prince insisted, so Cinderella had to be called. She washed her hands and face, then came in and bowed before him. He handed her the golden slipper.
+        - id: ch05-b20
+          speaker: narrator
+          text: Cinderella sat on a stool and pulled her foot from the heavy wooden shoe. She slipped it into the golden slipper, and it fit perfectly. When she stood, the Prince looked into her face. He recognized the beautiful young woman who had danced with him.
+        - id: ch05-b21
+          speaker: prince
+          text: She is the true bride!
+          emotion: surprised
+        - id: ch05-b22
+          speaker: narrator
+          text: The stepmother and her daughters were terrified. Their faces went pale with rage. The Prince lifted Cinderella onto his horse and rode away with her.
+        - id: ch05-b23
+          speaker: narrator
+          text: As they passed the hazel tree, the two white pigeons sang out.
+        - id: ch05-b24
+          speakers: [pigeon_one, pigeon_two]
+          ensemble: duo
+          text: Turn and look, turn and look. There is no blood inside the shoe. The slipper is not too small for her. Your true bride rides with you.
+        - id: ch05-b25
+          speaker: narrator
+          text: Then the pigeons flew down. One settled on Cinderella's right shoulder, and the other on her left. They stayed there as she rode on.
+    - id: ch06
+      title: The Wedding
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: When the time came for Cinderella and the Prince to marry, the two false sisters appeared. They hoped to win Cinderella's favor and share in her good fortune.
+        - id: ch06-b02
+          speaker: narrator
+          text: As the couple walked to the church, the elder sister went on their right and the younger sister on their left. The pigeons pecked out one eye from each sister.
+        - id: ch06-b03
+          speaker: narrator
+          text: On the way back, the elder sister walked on the left and the younger on the right. The pigeons pecked out each sister's other eye.
+        - id: ch06-b04
+          speaker: narrator
+          text: And so, because of their cruelty and lies, the sisters were punished with blindness for the rest of their lives.

@@ -1,0 +1,344 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and storybook-like
+        timbre: clear and gentle
+        pace: measured
+        pitch: medium
+    little_thumb:
+      display_name: Little Thumb
+      tts:
+        delivery: quiet and quick-witted
+        timbre: small and clear
+        pace: steady
+        pitch: high
+    father:
+      display_name: Father
+      tts:
+        delivery: weary and plainspoken
+        timbre: rough and low
+        pace: measured
+        pitch: low
+    mother:
+      display_name: Mother
+      tts:
+        delivery: tender and emotional
+        timbre: warm and full
+        pace: natural
+        pitch: medium
+    peter:
+      display_name: Peter
+      tts:
+        delivery: youthful and earnest
+        timbre: clear and boyish
+        pace: natural
+        pitch: medium-high
+    brother_2:
+      display_name: Second Brother
+      tts:
+        delivery: youthful and direct
+        timbre: light and boyish
+        pace: natural
+        pitch: medium-high
+    brother_3:
+      display_name: Third Brother
+      tts:
+        delivery: youthful and open
+        timbre: soft and boyish
+        pace: natural
+        pitch: high
+    ogress:
+      display_name: Ogre's Wife
+      tts:
+        delivery: compassionate and anxious
+        timbre: mature and warm
+        pace: measured
+        pitch: medium-low
+    ogre:
+      display_name: Ogre
+      tts:
+        delivery: booming and brutal
+        timbre: deep and coarse
+        pace: deliberate
+        pitch: very low
+    king:
+      display_name: King
+      tts:
+        delivery: authoritative and businesslike
+        timbre: resonant and clear
+        pace: steady
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Trail of White Pebbles
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there lived a woodcutter and his wife with seven sons. The oldest boy was only ten, and the youngest was seven. The family was terribly poor, and none of the children was old enough to earn his own food.
+        - id: ch01-b02
+          speaker: narrator
+          text: The youngest boy was small and delicate. He hardly ever spoke, so people thought he was foolish. They were wrong. He listened closely and thought about everything. He had been no bigger than a thumb when he was born, and that was why everyone called him Little Thumb. Though his family blamed him for everything and made him do the hardest chores, he was the cleverest and most sensible of all the brothers.
+        - id: ch01-b03
+          speaker: narrator
+          text: Then a terrible famine came. One night, after the boys had gone to bed, their father sat beside the fire with their mother. His heart was nearly breaking as he spoke.
+        - id: ch01-b04
+          speaker: father
+          text: We can't feed the children anymore. I can't sit here and watch them starve. Tomorrow, we'll take them into the woods. While they're gathering sticks, we'll slip away and leave them there.
+          emotion: sad
+        - id: ch01-b05
+          speaker: mother
+          text: How could you take your own children into the woods and abandon them?
+          emotion: surprised
+        - id: ch01-b06
+          speaker: narrator
+          text: He tried again and again to make her understand how desperate their poverty had become, but at first she refused. She had no money, but she was still their mother. Then she pictured the children dying of hunger right before her eyes. The thought brought her so much grief that at last she agreed, and went to bed in tears.
+        - id: ch01-b07
+          speaker: narrator
+          text: Little Thumb had heard every word. When he realized his parents were discussing something serious, he had slipped beneath his father's chair and listened unseen. Back in bed, he stayed awake all night, planning what to do.
+        - id: ch01-b08
+          speaker: narrator
+          text: Early the next morning, he went to the brook and filled his pockets with small white pebbles. Then he returned home. He said nothing to his brothers when the whole family set out.
+        - id: ch01-b09
+          speaker: narrator
+          text: They went deep into a forest so thick that a person ten paces away could not be seen. The father cut wood while the boys tied sticks into bundles. Once the children were busy, their parents slipped onto a winding side path and ran away.
+        - id: ch01-b10
+          speaker: narrator
+          text: When the boys discovered they were alone, they cried as loudly as they could. Little Thumb let them cry. He already knew the way home, because he had dropped a white pebble at every step of their journey.
+        - id: ch01-b11
+          speaker: little_thumb
+          text: Don't be scared. Father and Mother left us here, but I can take you home. Just stay behind me.
+          emotion: calm
+        - id: ch01-b12
+          speaker: narrator
+          text: His brothers followed him all the way back along the trail of stones. When they reached their house, they were afraid to enter. They stood outside the door and listened.
+        - id: ch01-b13
+          speaker: narrator
+          text: The moment the parents came home, the lord of the manor sent them ten crowns that he had owed them for years. They had given up all hope of ever receiving the money. It felt like new life to two people who had been close to starving. The father sent his wife straight to the butcher. Because it had been so long since either of them had eaten a proper meal, she bought three times more meat than two people needed for supper.
+        - id: ch01-b14
+          speaker: mother
+          text: Oh, where are our poor children now? They could have eaten all this food we have left. William, this was your plan. I told you we'd be sorry. What if the wolves have eaten them already? How could you leave your own children like that?
+          emotion: sad
+        - id: ch01-b15
+          speaker: narrator
+          text: She told him over and over that he would regret what he had done and that she had been right all along. By the twentieth time, the father had lost his patience. He may have been even more sorry than she was, but he could no longer bear her scolding. He warned that he would beat her if she did not stop. Still she wept bitterly, and at last she cried out louder than before.
+        - id: ch01-b16
+          speaker: mother
+          text: Where are my children? Oh, my poor children!
+          emotion: sad
+        - id: ch01-b17
+          speakers: [little_thumb, peter, brother_2, brother_3]
+          ensemble: chorus
+          text: We're here! We're here!
+        - id: ch01-b18
+          speaker: narrator
+          text: Their mother rushed to open the door and wrapped her arms around them.
+        - id: ch01-b19
+          speaker: mother
+          text: My dear children, I'm so happy you're back! You must be tired and hungry. Peter, you're covered in mud. Come inside and let me clean you up.
+          emotion: happy
+        - id: ch01-b20
+          speaker: narrator
+          text: Peter was the oldest. His mother loved him best because he had red hair, just like hers. The boys sat down at the table and ate with such eager appetites that both parents were pleased to watch them. Then they described how frightened they had been in the forest, nearly all talking at once. Their father and mother were delighted to have every child home again. That happiness lasted for as long as the ten crowns did.
+    - id: ch02
+      title: The Crumbs and the Distant Light
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: When the money was gone, the old worries returned. The parents decided to abandon the children again, much farther from home this time. Little Thumb overheard them and planned to use white pebbles once more. But when he rose early, he found the front door locked twice over.
+        - id: ch02-b02
+          speaker: narrator
+          text: He did not know what to do until his father gave each boy a piece of bread for breakfast. Little Thumb tucked his bread into his pocket. He would scatter crumbs instead of stones.
+        - id: ch02-b03
+          speaker: narrator
+          text: Their parents led them to the darkest, thickest part of the forest. Once again, they slipped down a side path and left the boys behind. Little Thumb was not worried at first. He felt sure the bread would lead them home just as the pebbles had. He had dropped crumbs all along the way. But when he went to find the trail, not one crumb remained. The birds had eaten every one of them.
+        - id: ch02-b04
+          speaker: narrator
+          text: Now the boys were truly in trouble. The more they wandered, the deeper they went into the forest. Night fell, and a fierce wind rose around them. From every side, they thought they heard wolves howling and coming to devour them. They barely dared to speak or even turn their heads. Then the rain poured down and soaked them through. Their feet slipped at every step. They fell into the mud so often that their hands were covered with it, and they had no idea what to do next.
+        - id: ch02-b05
+          speaker: narrator
+          text: Little Thumb climbed all the way to the top of a tree and searched in every direction. Far beyond the forest, he finally saw a tiny light, like the flame of a candle. But when he climbed down, he could not see it from the ground, and his heart sank. He still remembered the direction. He led his brothers that way for some time, and when they came out of the woods, the light shone before them again.
+        - id: ch02-b06
+          speaker: narrator
+          text: They reached the house at last, though the journey frightened them many times. Whenever the path dipped into a hollow, the light vanished from sight. At the door, they knocked, and a kind-looking woman answered.
+        - id: ch02-b07
+          speaker: narrator
+          text: She asked what they wanted.
+        - id: ch02-b08
+          speaker: little_thumb
+          text: We're poor children, ma'am. We got lost in the forest. Please let us stay here tonight.
+        - id: ch02-b09
+          speaker: narrator
+          text: The woman saw their sweet young faces and began to cry.
+        - id: ch02-b10
+          speaker: ogress
+          text: Oh, you poor little things! Don't you know whose house this is? A cruel Ogre lives here, and he eats children.
+          emotion: sad
+        - id: ch02-b11
+          speaker: narrator
+          text: Little Thumb and all his brothers trembled from head to foot.
+        - id: ch02-b12
+          speaker: little_thumb
+          text: Then what can we do, ma'am? If you turn us away, the wolves will eat us tonight. We'd rather take our chance with the gentleman here. Maybe he'll spare us if you ask him.
+          emotion: fearful
+        - id: ch02-b13
+          speaker: narrator
+          text: The Ogre's wife thought she could hide them until morning. She brought them inside to a blazing fire, where a whole sheep was roasting for her husband's supper.
+    - id: ch03
+      title: The Ogre Comes Home
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: As the boys warmed themselves, three or four heavy blows shook the door. The Ogre had come home. His wife quickly hid the children under the bed and let him in.
+        - id: ch03-b02
+          speaker: narrator
+          text: The Ogre asked at once whether supper was ready and the wine had been drawn from the cask. Then he settled himself at the table. The whole sheep was not cooked through yet. In fact, it was still raw, which was exactly how he liked it. But before he began to eat, he lifted his head and sniffed to his right and left.
+        - id: ch03-b03
+          speaker: ogre
+          text: I smell fresh meat.
+        - id: ch03-b04
+          speaker: ogress
+          text: You must smell the calf I just killed and skinned.
+        - id: ch03-b05
+          speaker: ogre
+          text: I said I smell fresh meat. Something strange is going on here.
+          emotion: angry
+        - id: ch03-b06
+          speaker: narrator
+          text: He rose from the table and walked straight to the bed. There he found the seven boys.
+        - id: ch03-b07
+          speaker: ogre
+          text: So this is how you planned to trick me! I might eat you too, if you weren't so tough. These little fellows have arrived just in time. Three Ogre friends are visiting me in a day or two, and now I'll have something fine to serve them.
+          emotion: angry
+        - id: ch03-b08
+          speaker: narrator
+          text: He dragged the children from beneath the bed one at a time. The poor boys dropped to their knees and begged him to forgive them and let them live. But this was one of the cruelest Ogres in the world. Their pleas did not move him at all. In his mind, he was already devouring them. He told his wife that, once she made a good sauce, the boys would be tender eating.
+        - id: ch03-b09
+          speaker: narrator
+          text: The Ogre took out a huge knife. Holding a great whetstone in his left hand, he sharpened the blade as he came toward them. He had already seized one child when his wife spoke.
+        - id: ch03-b10
+          speaker: ogress
+          text: Why do it tonight? Won't there be plenty of time tomorrow?
+        - id: ch03-b11
+          speaker: ogre
+          text: Stop your chatter. They'll be more tender this way.
+          emotion: angry
+        - id: ch03-b12
+          speaker: ogress
+          text: But there's already so much meat. We have a calf, two sheep, and half a pig.
+        - id: ch03-b13
+          speaker: ogre
+          text: That's true. Feed the boys well so they don't grow thin, and then put them to bed.
+        - id: ch03-b14
+          speaker: narrator
+          text: His wife was overjoyed to have saved them for the moment. She served the boys a fine supper, though they were so afraid that they could not eat. The Ogre returned to the table and drank, delighted that he now had enough special food to entertain his friends. He swallowed twelve glasses more than he usually did. The extra wine went straight to his head, and before long he was forced to go to bed.
+    - id: ch04
+      title: Crowns in the Dark
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The Ogre had seven daughters, all still small children. Each girl had a fine complexion, but her eyes were small, gray, and perfectly round. Each had a hooked nose, an enormous mouth, and long sharp teeth with wide spaces between them. They were not wicked yet, but they showed every sign that they soon would be. They had already begun biting little children.
+        - id: ch04-b02
+          speaker: narrator
+          text: All seven girls slept in one bed, each wearing a gold crown. Another bed of the same size stood in the room. The Ogre's wife put the seven boys there, then went to bed herself.
+        - id: ch04-b03
+          speaker: narrator
+          text: Little Thumb had noticed the golden crowns. He feared the Ogre might regret waiting until morning and come to kill them during the night. Around midnight, he quietly got out of bed. First he took the caps from all six of his brothers, then removed his own. Next he slipped every crown from an Ogre daughter's head. He put the boys' caps on the girls and the crowns on himself and his brothers. In the dark, the Ogre would take the crowned boys for his daughters and the capped girls for the boys he meant to kill.
+        - id: ch04-b04
+          speaker: narrator
+          text: That was exactly what happened. The Ogre awoke around midnight, angry with himself for putting off the work he could have done before bed. He jumped up and grabbed his knife.
+        - id: ch04-b05
+          speaker: ogre
+          text: Let's see how those little rascals are doing. I'll finish the whole job now.
+        - id: ch04-b06
+          speaker: narrator
+          text: Knife in hand, he groped his way upstairs to the children's room. He came first to the bed where the seven brothers lay. Six were fast asleep. Only Little Thumb was awake, and he was terribly afraid. The Ogre's great hand moved over his head, then over each of his brothers' heads in turn. Every time, his fingers found a golden crown.
+        - id: ch04-b07
+          speaker: ogre
+          text: I nearly made a terrible mistake. I clearly drank too much last night.
+        - id: ch04-b08
+          speaker: narrator
+          text: Then he felt the little caps on the heads in the other bed.
+        - id: ch04-b09
+          speaker: ogre
+          text: Ah, there you are, my merry lads. Time to get to work.
+        - id: ch04-b10
+          speaker: narrator
+          text: Without another thought, he killed all seven of his own daughters. He was thoroughly pleased with what he had done, went back to his bed, and fell asleep again.
+        - id: ch04-b11
+          speaker: narrator
+          text: As soon as Little Thumb heard the Ogre snoring, he woke his brothers. He told them to dress quickly and follow him. They crept into the garden, climbed over the wall, and ran all night. They trembled as they ran and had no idea which way they were going.
+    - id: ch05
+      title: The Seven-League Boots
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: In the morning, the Ogre called to his wife.
+        - id: ch05-b02
+          speaker: ogre
+          text: Go upstairs and dress those young rascals who came last night.
+        - id: ch05-b03
+          speaker: narrator
+          text: His wife was amazed by what sounded like kindness from her husband. She never guessed what he meant by the word dress. She thought he had ordered her upstairs to help the boys put on their clothes. But when she entered the room, she found her own seven daughters lying dead. The sight was so horrible that she fainted at once.
+        - id: ch05-b04
+          speaker: narrator
+          text: When she took too long, the Ogre went up to help. He was just as shocked as she was.
+        - id: ch05-b05
+          speaker: ogre
+          text: What have I done? Those wretches will pay for this right now!
+          emotion: angry
+        - id: ch05-b06
+          speaker: narrator
+          text: He threw a pitcher of water over his wife's face until she came around.
+        - id: ch05-b07
+          speaker: ogre
+          text: Bring me my seven-league boots, quickly! I'm going after them.
+          emotion: angry
+        - id: ch05-b08
+          speaker: narrator
+          text: Once he had the boots, the Ogre raced out across the countryside. He ran first one way and then another, searching everywhere for the children. At last he reached the very road the boys were following. They were less than a hundred paces from their father's house when they saw him coming. One of his steps carried him from mountain to mountain, and he crossed wide rivers as easily as if they were the narrowest brooks.
+        - id: ch05-b09
+          speaker: narrator
+          text: Little Thumb spotted a hollow rock nearby. He hid his brothers inside and squeezed in after them, keeping watch on the Ogre.
+        - id: ch05-b10
+          speaker: narrator
+          text: The long, useless search had exhausted the Ogre. Seven-league boots carried a traveler far, but they also wore him out. He badly needed to rest. By chance, he sat down on the very rock where the boys were hidden. After resting there a while, he fell asleep and began to snore. The sound was so terrible that the brothers were just as frightened as when he had stood over them with his great knife, ready to take their lives.
+        - id: ch05-b11
+          speaker: narrator
+          text: Little Thumb was less afraid than the others.
+        - id: ch05-b12
+          speaker: little_thumb
+          text: Run home now, while he's sleeping so deeply. Don't worry about me.
+          emotion: calm
+        - id: ch05-b13
+          speaker: narrator
+          text: The brothers followed his advice. They slipped away from the sleeping Ogre, ran toward their father's house, and quickly reached home. Little Thumb stayed behind. He crept right up to the Ogre and gently pulled off the enormous boots, one after the other. Then he put them on his own small legs. They were fairy boots, with the power to become large or small according to the person wearing them. In a moment, they fit his feet and legs as perfectly as if they had been made for him.
+        - id: ch05-b14
+          speaker: narrator
+          text: Wearing the boots, Little Thumb went straight back to the Ogre's house. He found the Ogre's wife weeping bitterly over her daughters.
+        - id: ch05-b15
+          speaker: little_thumb
+          text: Your husband is in terrible danger. A gang of thieves has captured him, and they'll kill him unless he gives them all his gold and silver. They had their knives at his throat when he saw me. He sent me to tell you to hand over everything valuable in the house. If you keep back even one thing, they'll show him no mercy. He told me to wear his seven-league boots so I could hurry, and so you'd know he truly sent me.
+        - id: ch05-b16
+          speaker: narrator
+          text: The frightened woman believed every word and gave him everything of value in the house. She could not bear the thought of her husband being killed. The Ogre may have eaten little children, but he had always been a very good husband to her. Little Thumb gathered up all the Ogre's gold, silver, and money and carried it home to his father's house. His family received him with tremendous joy.
+    - id: ch06
+      title: Another Ending to the Tale
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: But many people do not agree with that ending. They insist that Little Thumb never stole the Ogre's money at all. They say he believed he had every right to take the seven-league boots, because the Ogre used them for nothing but chasing little children. These people claim to be quite certain. After all, they say, they often ate and drank at the woodcutter's house and heard the story there.
+        - id: ch06-b02
+          speaker: narrator
+          text: In their version, Little Thumb pulled the boots from the sleeping Ogre and went straight to the royal court. There he learned that everyone was anxious about an army two hundred leagues away. A battle was being fought, and no one at court knew whether it had succeeded or failed. Little Thumb went before the King and offered to bring back news from the distant army before nightfall.
+        - id: ch06-b03
+          speaker: king
+          text: Succeed, and I will pay you a great sum of money.
+        - id: ch06-b04
+          speaker: narrator
+          text: Little Thumb completed the journey and returned with the news that very same night. That first mission made his remarkable speed known throughout the court. After that, he could earn as much as he wished. The King paid him generously whenever he carried royal orders to the army. Many ladies also hired him to deliver their messages, and that work brought him a great deal of money.
+        - id: ch06-b05
+          speaker: narrator
+          text: For some time, Little Thumb worked as a messenger and built a great fortune. Then he returned to his father's house, where the family's joy was more than words could express. He used his wealth to make all of them comfortable. He bought good positions for his father and every one of his brothers, and in that way he settled them handsomely in the world. As for Little Thumb, he kept using his gifts and continued to make his own way successfully.

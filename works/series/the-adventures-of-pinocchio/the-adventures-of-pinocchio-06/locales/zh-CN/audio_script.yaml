@@ -1,0 +1,99 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖从容，带一点一本正经的幽默
+        timbre: 清晰醇厚
+        pace: 舒缓，遇到惊奇处略微加快
+        pitch: 中
+    pinocchio:
+      display_name: 匹诺曹
+      tts:
+        delivery: 任性直率，嘴硬而孩子气，发怒时冲动急躁
+        timbre: 清亮，带木偶般的脆响
+        pace: 偏快，争辩时更急
+        pitch: 中高
+    old_man:
+      display_name: 小老头
+      tts:
+        delivery: 睡意未消，戒备而不耐烦
+        timbre: 苍老干涩
+        pace: 中等，斥问时短促
+        pitch: 中高
+    geppetto:
+      display_name: 杰佩托
+      tts:
+        delivery: 活泼直率，发怒时火爆而有喜剧感
+        timbre: 苍老而响亮
+        pace: 中等，争吵时急促
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 风雨夜里进村
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 那一夜，外面狂风大作，暴雨倾盆。雷声震得人耳朵发疼，闪电一道接着一道，照得天空像着了火。
+        - id: ch01-b02
+          speaker: narrator
+          text: 匹诺曹最怕打雷，可这会儿，肚子饿比什么都难熬。他关好屋门，朝村子飞奔过去。蹿了上百步以后，他总算到了。只见他舌头伸在外面，呼哧呼哧直喘，就像一条追猎物追累了的狗。
+        - id: ch01-b03
+          speaker: narrator
+          text: 村里却又黑又静，连个人影也没有。店门全关着，窗户也都闭得严严实实。街上别说人了，连一条狗都瞧不见，简直像走进了死人的国土。
+    - id: ch02
+      title: 一帽子的冷水
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 匹诺曹又饿又绝望，便抓住一户人家的门铃，使劲摇个不停。他心里还想着，这一回准能把人叫出来。
+        - id: ch02-b02
+          speaker: narrator
+          text: 果然，窗口很快探出一个戴睡帽的小老头。老人满肚子火气，冲下面喊了起来。
+        - id: ch02-b03
+          speaker: old_man
+          text: 都这么晚了，你到底要干什么？
+          emotion: angry
+        - id: ch02-b04
+          speaker: pinocchio
+          text: 请您行行好，能给我一点面包吃吗？
+        - id: ch02-b05
+          speaker: old_man
+          text: 你就在那儿等着，我马上回来。
+        - id: ch02-b06
+          speaker: narrator
+          text: 小老头还以为，门外是个专门捣乱的坏小子。那种孩子最爱半夜乱摇门铃，把睡得好好的体面人吵起来，自己却觉得有趣。
+        - id: ch02-b07
+          speaker: narrator
+          text: 只过了半分钟，窗户又开了。还是那个小老头，他再次朝下面大声喊。
+        - id: ch02-b08
+          speaker: old_man
+          text: 到窗户正下方来，把你的帽子伸出来！
+        - id: ch02-b09
+          speaker: narrator
+          text: 匹诺曹赶紧摘下帽子。谁知帽子刚伸出去，一大盆水就从上面哗地倒了下来。他从头湿到脚，活像一盆快要干死的天竺葵，被人猛浇了一通。
+    - id: ch03
+      title: 烧成灰的双脚
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 匹诺曹像只落汤鸡一样回到家。他又累又饿，连站着的力气都没了，只能坐下来，把湿漉漉、沾满泥的双脚搭在火盆上。盆里的余烬还是红通通的。
+        - id: ch03-b02
+          speaker: narrator
+          text: 没过多久，他就睡着了。那双脚是木头做的，睡着睡着便着了火。火苗一点点往上烧，最后，两只脚全变成了灰。
+        - id: ch03-b03
+          speaker: narrator
+          text: 匹诺曹什么也不知道，照样呼呼大睡，鼾声响个不停，好像烧掉的是别人的脚。直到天快亮时，外面有人敲门，他才终于醒过来。
+        - id: ch03-b04
+          speaker: narrator
+          text: 他打了个大哈欠，又揉了揉眼睛。
+        - id: ch03-b05
+          speaker: pinocchio
+          text: 谁在外面呀？
+        - id: ch03-b06
+          speaker: geppetto
+          text: 是我！
+        - id: ch03-b07
+          speaker: narrator
+          text: 匹诺曹一下就听出来了。门外是杰佩托。

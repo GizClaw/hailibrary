@@ -1,0 +1,59 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 叙述者
+      tts:
+        delivery: 轻快明朗，带着童谣般的跃动感
+        timbre: 清澈温暖
+        pace: 轻快
+        pitch: 中音
+    girl_1:
+      display_name: 小姑娘甲
+      tts:
+        delivery: 天真活泼，满是出发远游的兴奋
+        timbre: 明亮清脆
+        pace: 轻快
+        pitch: 中高音
+    girl_2:
+      display_name: 小姑娘乙
+      tts:
+        delivery: 俏皮大胆，语气里带着淘气的笑意
+        timbre: 清亮圆润
+        pace: 轻快
+        pitch: 中高音
+    girl_3:
+      display_name: 小姑娘丙
+      tts:
+        delivery: 欢欣爽朗，充满对远方的好奇
+        timbre: 轻盈甜润
+        pace: 轻快
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 一路跳到远方
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 小姑娘们跳呀，跳呀，一路向前。今天要从这座城跳出去，一直跳进下一座城。她们还想一跃跳过月亮，从早晨跳到中午也不停。
+        - id: ch01-b02
+          speakers: [girl_1, girl_2, girl_3]
+          ensemble: chorus
+          text: 要是整夜都这么跳个不停，妈妈们会不会吓一大跳？
+    - id: ch02
+      title: 越过大海
+      blocks:
+        - id: ch02-b01
+          speakers: [girl_1, girl_2, girl_3]
+          ensemble: chorus
+          text: 跳呀，跳呀，我们还要越过大海！海那边有多少奇妙的景象，都等着我们亲眼去看。
+        - id: ch02-b02
+          speaker: narrator
+          text: 她们就这样跳呀，跳呀，把一路碰见的所有坏事，全都远远甩在身后。
+    - id: ch03
+      title: 改日回家
+      blocks:
+        - id: ch03-b01
+          speakers: [girl_1, girl_2, girl_3]
+          ensemble: chorus
+          text: 跳呀，跳呀，先跳到很远很远的地方吧。等到改日，我们会一个不少地回家！

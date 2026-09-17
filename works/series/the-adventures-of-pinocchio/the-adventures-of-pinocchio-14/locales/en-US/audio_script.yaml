@@ -1,0 +1,147 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and story-rich
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    pinocchio:
+      display_name: Pinocchio
+      tts:
+        delivery: impulsive and defiant
+        timbre: bright and wooden
+        pace: quick
+        pitch: medium-high
+    tall_assassin:
+      display_name: The Tall Assassin
+      tts:
+        delivery: cold and threatening
+        timbre: deep and hollow
+        pace: slow
+        pitch: low
+    short_assassin:
+      display_name: The Short Assassin
+      tts:
+        delivery: harsh and menacing
+        timbre: rough and hollow
+        pace: clipped
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: Footsteps in the Dark
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Pinocchio started down the road again, talking to himself as he went.
+        - id: ch01-b02
+          speaker: pinocchio
+          text: We poor boys certainly have bad luck. Everyone scolds us and tells us what to do. Just look at that tiresome Cricket. He thinks all kinds of terrible things are going to happen to me. He even says I'll meet assassins! But I'm not worried. I don't believe in assassins, and I never have. Fathers must have made them up just to scare boys who go out at night. And if I did meet some right here on the road, would they frighten me? Not one bit. I'd march straight up and say, "Gentlemen assassins, what do you want? You can't play games with me, so go away and leave me alone!" They'd run off like the wind. And if they were rude enough to stay, then I'd run away. That would settle it.
+        - id: ch01-b03
+          speaker: narrator
+          text: Before he could finish, Pinocchio heard leaves rustling softly behind him. He turned around. In the darkness, two wicked-looking black figures were coming after him. Both were wrapped from head to foot in charcoal sacks. They ran on tiptoe, taking huge leaps like a pair of ghosts.
+        - id: ch01-b04
+          speaker: pinocchio
+          text: They're real after all!
+          emotion: fearful
+        - id: ch01-b05
+          speaker: narrator
+          text: He had no idea where to hide his gold pieces, so he slipped them into his mouth and tucked them under his tongue. Then he tried to get away. He had not taken a single step when one of the figures grabbed his arm. Two dreadful voices, hollow as voices from a tomb, spoke at once.
+        - id: ch01-b06
+          speakers: [tall_assassin, short_assassin]
+          ensemble: duo
+          text: Hand over your money, or we'll take your life!
+    - id: ch02
+      title: The Gold Under His Tongue
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: With the coins filling his mouth, Pinocchio could not answer a word. He bowed again and again. He waved his hands and acted out everything he wanted to say, trying to make the muffled figures understand that he was only a poor puppet. He did not have so much as a counterfeit nickel in his pocket. Through holes in their sacks, only the assassins' eyes could be seen.
+        - id: ch02-b02
+          speakers: [tall_assassin, short_assassin]
+          ensemble: duo
+          text: Stop that foolishness and give us the money!
+          emotion: angry
+        - id: ch02-b03
+          speaker: narrator
+          text: Pinocchio held out his empty hands to say he had none.
+        - id: ch02-b04
+          speaker: tall_assassin
+          text: Give it to us, or you're dead.
+        - id: ch02-b05
+          speaker: short_assassin
+          text: Dead!
+        - id: ch02-b06
+          speaker: tall_assassin
+          text: And once we've killed you, we'll kill your father too!
+        - id: ch02-b07
+          speaker: short_assassin
+          text: Your father too!
+        - id: ch02-b08
+          speaker: pinocchio
+          text: No, no, no! Not my poor Papa!
+          emotion: fearful
+        - id: ch02-b09
+          speaker: narrator
+          text: As he cried out in despair, the gold coins clinked inside his mouth.
+        - id: ch02-b10
+          speaker: tall_assassin
+          text: Ah, you little crook! You've hidden the money under your tongue. Spit it out, now!
+          emotion: angry
+        - id: ch02-b11
+          speaker: narrator
+          text: Pinocchio refused.
+        - id: ch02-b12
+          speaker: short_assassin
+          text: So you're pretending you can't hear us? Just wait. We'll make you hand it over.
+        - id: ch02-b13
+          speaker: narrator
+          text: One assassin grabbed the end of Pinocchio's nose. The other caught him by the chin. One pulled up while the other pulled down, tugging with all their strength to force his mouth open. Nothing worked. No matter how brutally they pulled, Pinocchio kept his mouth closed. His lips might as well have been nailed and riveted together.
+        - id: ch02-b14
+          speaker: narrator
+          text: Then the shorter assassin drew an ugly knife and tried to pry Pinocchio's lips apart, as if the blade were a lever or a chisel. Quick as lightning, Pinocchio caught the assassin's hand in his teeth. He bit it clean off and spat it onto the ground. But when he looked down, there was no hand at his feet. It was a cat's paw.
+    - id: ch03
+      title: The Burning Pine
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: That first victory gave Pinocchio courage. He went at his attackers with his nails and scratched until he finally tore himself free. Then he jumped over the hedge beside the road and raced away across the open countryside.
+        - id: ch03-b02
+          speaker: narrator
+          text: The assassins chased him like two dogs after a hare. The one who had lost a paw ran on a single leg, though no one ever knew how he managed it.
+        - id: ch03-b03
+          speaker: narrator
+          text: The chase went on for miles. At last, Pinocchio's strength gave out and he could run no farther. Certain that he was lost, he climbed the trunk of a towering pine and pulled himself all the way up. There he sat among the highest branches.
+        - id: ch03-b04
+          speaker: narrator
+          text: The assassins climbed after him. Halfway up, they lost their grip and slid all the way back to the ground, scraping the skin from their hands and knees.
+        - id: ch03-b05
+          speaker: narrator
+          text: A fall like that was not enough to stop them. They gathered all the dry wood they could find, carried it to the pine, and piled it around the trunk. Then they set the heap on fire. Almost at once, the tree began to burn and blaze like a candle flickering in the wind.
+        - id: ch03-b06
+          speaker: narrator
+          text: The flames climbed higher and higher. Pinocchio had no wish to end his life like a roasted pigeon, so he made one tremendous leap from the top of the tree. Off he ran again, across fields and vineyards. The assassins followed close behind and never once gave up.
+    - id: ch04
+      title: The Ditch at Daybreak
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Dawn began to break, and still they chased him. Then a wide, deep ditch blocked Pinocchio's way. It was filled with stagnant water the color of coffee. What could he do?
+        - id: ch04-b02
+          speaker: pinocchio
+          text: One! Two! Three!
+        - id: ch04-b03
+          speaker: narrator
+          text: Pinocchio took a running start and sprang clear across. The assassins jumped too, but they had not judged the distance. Splash! Splash! Both landed right in the middle of the ditch.
+        - id: ch04-b04
+          speaker: narrator
+          text: Pinocchio heard the plunge and the water splashing behind him. Without slowing down, he laughed and called back to them.
+        - id: ch04-b05
+          speaker: pinocchio
+          text: Enjoy your bath, gentlemen assassins!
+          emotion: happy
+        - id: ch04-b06
+          speaker: narrator
+          text: He was sure they had drowned in the deep, dirty water. But when he turned to look, he saw that the exact opposite was true. Both assassins had climbed out and were still running after him. They were still wrapped in their charcoal sacks, now completely soaked. Water streamed from them as if they were two hollow baskets.

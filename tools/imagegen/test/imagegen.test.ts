@@ -13,7 +13,7 @@ const write = async (path: string, contents: string) => { await mkdir(join(path,
 type Fixture = { root: string; book: string; series: string; vocab: string; writer: string; style: string };
 async function fixture(): Promise<Fixture> {
   const root = await mkdtemp(join(tmpdir(), "imagegen-test-"));
-  const value = { root, book: join(root, "works/a/x/y/book"), series: join(root, "works/series/story"), vocab: join(root, "vocabulary/a/jump"), writer: join(root, "prompts/writers/en-US/writer"), style: join(root, "prompts/styles/ink") };
+  const value = { root, book: join(root, "works/a/x/y/book"), series: join(root, "works/articles/story"), vocab: join(root, "vocabulary/a/jump"), writer: join(root, "prompts/writers/en-US/writer"), style: join(root, "prompts/styles/ink") };
   await write(join(value.style, "prompt.yaml"), "id: ink\nprompt: STYLE\nthumbnail_prompt: STYLE THUMB\n");
   await write(join(value.book, "book.yaml"), "style: ink\n");
   await write(join(value.book, "artwork.yaml"), "style: ink\naspect_ratio: '3:2'\nassets:\n  - {id: cover, file: cover.webp, prompt: BOOK COVER}\n  - {id: p01, file: p01.webp, prompt: BOOK PAGE}\n");

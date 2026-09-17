@@ -1,0 +1,461 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts: {delivery: 从容而含蓄地讲述，反讽处不刻意点破, timbre: 温暖清晰, pace: 舒缓有变化, pitch: 中音}
+    prince:
+      display_name: 王子
+      tts: {delivery: 温柔真挚, timbre: 清亮柔和, pace: 从容, pitch: 中高音}
+    princess:
+      display_name: 公主
+      tts: {delivery: 天真好奇, timbre: 轻柔明亮, pace: 自然, pitch: 高音}
+    king:
+      display_name: 国王
+      tts: {delivery: 自信威严又不自知地滑稽, timbre: 洪亮圆润, pace: 稳健, pitch: 中低音}
+    page:
+      display_name: 小侍童
+      tts: {delivery: 机灵快活, timbre: 年轻清脆, pace: 轻快, pitch: 高音}
+    crowd_1:
+      display_name: 众人甲
+      tts: {delivery: 热情直率, timbre: 洪亮清朗, pace: 明快, pitch: 中音}
+    crowd_2:
+      display_name: 众人乙
+      tts: {delivery: 兴奋爽朗, timbre: 明亮饱满, pace: 轻快, pitch: 中高音}
+    crowd_3:
+      display_name: 众人丙
+      tts: {delivery: 热烈庄重, timbre: 浑厚清晰, pace: 稳健, pitch: 中低音}
+    squib:
+      display_name: 小爆竹
+      tts: {delivery: 单纯兴奋, timbre: 小巧清脆, pace: 快, pitch: 高音}
+    roman_candle:
+      display_name: 罗马烛光
+      tts: {delivery: 务实直率, timbre: 扎实明亮, pace: 稳健, pitch: 中音}
+    catherine_wheel:
+      display_name: 转轮焰火
+      tts: {delivery: 多愁善感而自我陶醉, timbre: 轻颤柔细, pace: 缓慢, pitch: 中高音}
+    rocket:
+      display_name: 火箭
+      tts: {delivery: 傲慢郑重，始终沉醉于自己, timbre: 尖亮而装腔作势, pace: 刻意缓慢, pitch: 中高音}
+    cracker:
+      display_name: 爆竹
+      tts: {delivery: 活跃爽朗, timbre: 爆发力强, pace: 快, pitch: 中高音}
+    bengal_light:
+      display_name: 孟加拉焰火
+      tts: {delivery: 较真又容易受挫, timbre: 明亮略尖, pace: 稍快, pitch: 高音}
+    fire_balloon:
+      display_name: 火气球
+      tts: {delivery: 乐观轻盈, timbre: 柔亮通透, pace: 轻快, pitch: 中高音}
+    frog:
+      display_name: 青蛙
+      tts: {delivery: 自得健谈, timbre: 圆润带鼻音, pace: 连贯偏快, pitch: 中音}
+    dragonfly:
+      display_name: 蜻蜓
+      tts: {delivery: 机敏讥诮, timbre: 轻薄清亮, pace: 明快, pitch: 高音}
+    duck:
+      display_name: 白鸭
+      tts: {delivery: 平和实际, timbre: 宽厚略沙哑, pace: 不紧不慢, pitch: 中音}
+    boy_1:
+      display_name: 小男孩甲
+      tts: {delivery: 好奇又活泼, timbre: 稚嫩清亮, pace: 轻快, pitch: 高音}
+    boy_2:
+      display_name: 小男孩乙
+      tts: {delivery: 爽快又调皮, timbre: 稚嫩圆亮, pace: 快, pitch: 中高音}
+    goose:
+      display_name: 鹅
+      tts: {delivery: 受惊慌张, timbre: 响亮粗直, pace: 急促, pitch: 中高音}
+  chapters:
+    - id: ch01
+      title: 白玫瑰与婚礼
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 国王的儿子要结婚了，举国上下都在庆祝。王子等了整整一年，新娘终于来了。她是一位俄罗斯公主，从芬兰一路坐雪橇来到这里，拉雪橇的是六头驯鹿。那辆雪橇做成一只巨大的金天鹅，公主本人就躺在天鹅两翼之间。她披着一件长长的白鼬皮斗篷，一直垂到脚面，头上还戴着银丝织成的小帽。她的脸色很白，就像她从小住惯的冰雪宫殿。她实在太白了，雪橇穿过街道时，人人都看得惊奇，纷纷从阳台把鲜花抛向她。
+        - id: ch01-b02
+          speakers: [crowd_1, crowd_2, crowd_3]
+          ensemble: chorus
+          text: 她就像一朵白玫瑰！
+          emotion: surprised
+        - id: ch01-b03
+          speaker: narrator
+          text: 王子等在城堡门口。他有紫罗兰色的眼睛，金丝一样的头发。公主一到，他便单膝跪下，吻了她的手。
+        - id: ch01-b04
+          speaker: prince
+          text: 画像上的你已经很美，可你本人比画像还美。
+        - id: ch01-b05
+          speaker: narrator
+          text: 小公主红了脸。
+        - id: ch01-b06
+          speaker: page
+          text: 刚才她还是白玫瑰，现在变成红玫瑰啦。
+          emotion: happy
+        - id: ch01-b07
+          speaker: narrator
+          text: 满朝的人听了都很开心。接下来的三天，大家走到哪儿都念着“白玫瑰，红玫瑰；红玫瑰，白玫瑰”。国王听得高兴，下令把小侍童的薪水加一倍。偏偏侍童原来一分钱薪水也没有，加一倍对他当然毫无用处。不过，宫里仍把这当成天大的荣誉，还郑重其事地把消息登上了《宫廷公报》。
+        - id: ch01-b08
+          speaker: narrator
+          text: 三天后，婚礼举行了，典礼盛大非凡。王子和公主手牵着手，从紫天鹅绒华盖下走过，华盖上绣满一颗颗小珍珠。接着是国宴，足足持续了五个小时。他们并肩坐在大厅上首，共饮一只澄澈的水晶杯。只有真心相爱的人才能用这只杯子。只要虚情假意的嘴唇碰到它，它马上就会变得灰暗、黯淡又浑浊。
+        - id: ch01-b09
+          speaker: page
+          text: 他们当然彼此相爱。这件事清楚得像水晶一样！
+          emotion: happy
+        - id: ch01-b10
+          speaker: narrator
+          text: 国王又把他的薪水加了一倍。
+        - id: ch01-b11
+          speakers: [crowd_1, crowd_2, crowd_3]
+          ensemble: chorus
+          text: 多大的荣誉啊！
+          emotion: happy
+        - id: ch01-b12
+          speaker: narrator
+          text: 国宴以后还要举行舞会。王子和公主要一同跳玫瑰舞，国王也答应亲自吹笛子。其实国王吹得很糟，只是从来没人敢告诉他，因为他毕竟是国王。他总共只会两支曲子，自己还从来弄不清正在吹哪一支。不过这又有什么关系呢？无论他吹成什么样，众人都会大声叫好。
+        - id: ch01-b13
+          speakers: [crowd_1, crowd_2, crowd_3]
+          ensemble: chorus
+          text: 妙极了！真是妙极了！
+        - id: ch01-b14
+          speaker: narrator
+          text: 节目的最后一项，是在午夜整点燃放一场盛大的焰火。小公主一生还没见过焰火，国王便下令，在她成婚这一天召来皇家焰火师候命。一天早晨，她正在露台上散步，便好奇地问起身旁的王子。
+        - id: ch01-b15
+          speaker: princess
+          text: 焰火是什么样的？
+        - id: ch01-b16
+          speaker: king
+          text: 焰火像北极光，不过自然得多。我喜欢焰火胜过星星，因为你总知道它什么时候出现。它还和我的笛声一样迷人。你一定得看看。
+        - id: ch01-b17
+          speaker: narrator
+          text: 这个问题原本是问王子的，国王却照例替别人回答了。于是，人们在御花园尽头搭起一座大台子。皇家焰火师把每一件东西都摆到合适的位置，刚刚忙完，台上的焰火们便互相攀谈起来。
+    - id: ch02
+      title: 焰火们的谈话
+      blocks:
+        - id: ch02-b01
+          speaker: squib
+          text: 世界真漂亮！看看那些黄郁金香。就算它们是真爆竹，也不会更美了。幸亏我出来旅行过。旅行能开阔头脑，还能赶走偏见。
+          emotion: happy
+        - id: ch02-b02
+          speaker: roman_candle
+          text: 御花园可不等于全世界，你这枚傻爆竹。世界是个大得不得了的地方，一个人要想把它从头到尾仔细看完，至少得花上整整三天。
+        - id: ch02-b03
+          speaker: catherine_wheel
+          text: 一个人爱着哪里，哪里对他来说就是整个世界。可惜爱情早就不时兴了，是诗人亲手把它害死的。他们写得太多，弄得谁也不再相信爱情，这也不奇怪。真正的爱情会忍受一切，却一声不响。我还记得，自己从前也曾经……算了，现在再提也没有用。浪漫早已成了过去。
+          emotion: sad
+        - id: ch02-b04
+          speaker: roman_candle
+          text: 胡说，浪漫永远不会死。它就像天上的月亮，会一直活下去。拿今天的新郎和新娘来说吧，他们彼此爱得很深。今天早晨，一枚棕纸筒弹把他们的事全告诉了我。他碰巧跟我住在同一个抽屉里，宫里最近有什么消息，他都知道得清清楚楚。
+        - id: ch02-b05
+          speaker: catherine_wheel
+          text: 浪漫死了。浪漫死了。浪漫死了。
+          emotion: sad
+        - id: ch02-b06
+          speaker: narrator
+          text: 转轮焰火一边说，一边摇着头。她正是那种人，总觉得一句话只要反反复复说上许多遍，最后就会变成真的。这时，旁边忽然传来一声尖厉又干涩的咳嗽。大家全都转头去看。原来声音来自一枚绑在长棍末端的高瘦火箭。他神气傲慢，每次发表意见以前都要先咳一咳，好把所有人的注意力引到自己身上。
+        - id: ch02-b07
+          speaker: rocket
+          text: 咳！咳！
+        - id: ch02-b08
+          speaker: cracker
+          text: 肃静！肃静！
+        - id: ch02-b09
+          speaker: narrator
+          text: 爆竹多少算个政治人物，地方选举时总少不了他，所以很会说议会里的话。转轮焰火仍在摇头，她低声补了一句“死透了”，这才睡着。等四下完全安静，火箭第三次咳嗽，慢慢开讲。他每个字都说得很清楚，仿佛正在口授自己的回忆录。跟人讲话时，他还总越过对方的肩膀，望着别处。那副派头，真是非同凡响。
+        - id: ch02-b10
+          speaker: rocket
+          text: 国王的儿子真幸运，正好选在我升空这天结婚。就算事先安排，也不会对他更有利。不过，王子的运气总是很好。
+        - id: ch02-b11
+          speaker: squib
+          text: 咦？我还以为是我们为了向王子致敬，才要升空呢。
+          emotion: surprised
+        - id: ch02-b12
+          speaker: rocket
+          text: 你们也许是为了王子，我当然不怀疑。可我不一样。我是一枚非常了不起的火箭，父母也都同样了不起。母亲是她那个时代最出名的转轮焰火，大家都夸她舞姿优美。她第一次在盛大场合公开亮相，熄灭以前整整转了十九圈。每转一圈，她都会向空中抛出七颗粉红色的星。她直径足有三英尺半，身体里装的全是最上等的火药。父亲跟我一样，也是一枚火箭，还有法国血统。他飞得实在太高，大家都怕他再也回不来。可他生性和善，最后还是回来了，还化作一阵耀眼的金雨落下。报纸把那场表演夸得不得了，《宫廷公报》更说，那是烟火艺术的一场伟大胜利。
+        - id: ch02-b13
+          speaker: bengal_light
+          text: 是“焰火”，不是“烟火”。我自己的铁罐上就写着“焰火”。
+        - id: ch02-b14
+          speaker: rocket
+          text: 我说的就是“烟火”。
+          emotion: angry
+        - id: ch02-b15
+          speaker: narrator
+          text: 孟加拉焰火觉得受了压制，马上欺负起小爆竹，好证明自己仍很重要。火箭却忘了自己讲到哪里。
+        - id: ch02-b16
+          speaker: roman_candle
+          text: 你刚才一直在谈自己。
+        - id: ch02-b17
+          speaker: rocket
+          text: 当然。我就知道，被粗鲁地打断以前，我谈的是个有趣话题。我最恨无礼，因为我特别敏感。我敢说，世上没人比我更敏感。
+        - id: ch02-b18
+          speaker: cracker
+          text: 什么样的人才叫敏感？
+        - id: ch02-b19
+          speaker: roman_candle
+          text: 就是自己脚上长鸡眼，所以总踩别人脚趾的人。
+        - id: ch02-b20
+          speaker: narrator
+          text: 爆竹差点笑炸了。
+        - id: ch02-b21
+          speaker: rocket
+          text: 你笑什么？我又没笑。
+        - id: ch02-b22
+          speaker: cracker
+          text: 我高兴，所以笑啊。
+          emotion: happy
+        - id: ch02-b23
+          speaker: rocket
+          text: 这个理由实在太自私了。你凭什么高兴？你应该多想想别人。说得更明白一点，你应该想想我。我时时刻刻都想着自己，也希望所有人都这样做。这就叫同情心，是一种美好的品德，而我拥有的同情心格外多。假如今晚我出了什么事，那对每个人都会是天大的不幸。王子和公主从此再也不会幸福，他们一辈子的婚姻生活都会毁掉。至于国王，我知道他无论如何也承受不住。说真的，只要想到自己的地位有多重要，我就几乎要感动得掉下眼泪。
+          emotion: angry
+        - id: ch02-b24
+          speaker: roman_candle
+          text: 你真想让别人开心，就该让自己保持干燥。
+        - id: ch02-b25
+          speaker: bengal_light
+          text: 没错，这只是常识。
+        - id: ch02-b26
+          speaker: rocket
+          text: 常识？你们忘了，我一点也不寻常，而且非常了不起。只要没有想象力，谁都可以有常识。可我偏偏富有想象力。我从来不照事物本来的样子去想，总要把它们想成截然不同的模样。至于保持干燥，这里显然没有一个人懂得欣赏多愁善感的天性。幸好我并不在乎。一个人活在世上，唯一的支柱就是知道所有人都远远不如自己。这种感觉，我一直用心培养。可你们没有一个人有心。王子和公主才刚刚结婚，你们就在这里说笑取乐，好像根本没有这回事。
+          emotion: angry
+        - id: ch02-b27
+          speaker: fire_balloon
+          text: 为什么不能笑？今天是大喜日子。我飞上天空后，会把婚礼告诉星星。等我说起美丽的新娘，你们就会看见星星眨眼。
+          emotion: happy
+        - id: ch02-b28
+          speaker: rocket
+          text: 你对人生的看法真是太浅薄了，不过我早就料到了。你里面什么都没有，本来就是空的。也许王子和公主会搬到一个有深河的国家。也许他们只生一个儿子，是个金发的小男孩，眼睛像王子一样呈紫罗兰色。也许有一天，保姆带他出去散步，又在一棵高大的接骨木树下睡着。也许那个小男孩会掉进深河，被水淹死。那会是多么可怕的不幸！可怜的王子和公主，竟然失去唯一的儿子。这件事实在太悲惨，我这一辈子都承受不了。
+          emotion: sad
+        - id: ch02-b29
+          speaker: roman_candle
+          text: 他们根本没失去儿子，什么不幸都没发生。
+        - id: ch02-b30
+          speaker: rocket
+          text: 我没说已经发生，我说可能发生。真发生了，再讲也没用。我讨厌打翻牛奶才哭的人。正因为他们可能失去儿子，我才这么难过。
+          emotion: sad
+        - id: ch02-b31
+          speaker: bengal_light
+          text: 你的确很会“难过”。我从没见过比你更装腔作势的人。
+        - id: ch02-b32
+          speaker: rocket
+          text: 我也没见过比你更无礼的人。你一点都不懂我对王子的友情。
+          emotion: angry
+        - id: ch02-b33
+          speaker: roman_candle
+          text: 你连王子都不认识。
+        - id: ch02-b34
+          speaker: rocket
+          text: 我从没说认识他。要是真认识，我也许根本不会做他的朋友。认识自己的朋友，是很危险的事。
+        - id: ch02-b35
+          speaker: fire_balloon
+          text: 你还是保持干燥吧，这才要紧。
+        - id: ch02-b36
+          speaker: rocket
+          text: 对你当然要紧。可我想哭就哭。
+        - id: ch02-b37
+          speaker: narrator
+          text: 火箭说哭就哭，真的流下了眼泪。泪珠像雨点一样，顺着绑住他的长棍往下淌。附近有两只小甲虫，正打算一起成家，四处寻找一块舒适又干燥的地方居住。火箭的泪水一下子涌过来，差一点就把它们淹死了。
+        - id: ch02-b38
+          speaker: catherine_wheel
+          text: 没有伤心事也能哭，他一定真正懂得浪漫。
+          emotion: sad
+        - id: ch02-b39
+          speaker: narrator
+          text: 她叹了口气，又想起那只旧松木箱。罗马烛光和孟加拉焰火却气得不停大喊“胡扯”。他们很实际，凡是不赞成的东西，都叫胡扯。
+    - id: ch03
+      title: 没有升空的火箭
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 月亮升起来了，像一面奇妙的银盾。星星开始闪耀，宫殿里也传出了音乐。王子和公主领着众人跳舞。他们跳得太美，高高的白百合都探进窗口观看，大朵的红罂粟也跟着点头，为他们打起拍子。钟先敲了十下，接着又敲了十一下，然后是十二下。午夜最后一声钟响落下，所有人都走到露台，国王派人去召皇家焰火师。
+        - id: ch03-b02
+          speaker: king
+          text: 开始放焰火吧。
+        - id: ch03-b03
+          speaker: narrator
+          text: 皇家焰火师向国王深深鞠了一躬，大步走向花园尽头。他身后跟着六名助手，每个人手里都举着一根长杆，杆头燃着火把。那场表演果真壮丽极了。转轮焰火嗖嗖作响，一圈接一圈地飞旋。罗马烛光轰轰炸开，小爆竹们在各处蹦跳起舞，孟加拉焰火则把周围的一切映得通红。
+        - id: ch03-b04
+          speaker: fire_balloon
+          text: 再见啦！
+          emotion: happy
+        - id: ch03-b05
+          speaker: narrator
+          text: 火气球一边告别，一边升上天空，身后撒下点点蓝色火星。爆竹们玩得开心极了，用一声声“砰！砰！”来回应。每一枚焰火都大获成功，只有那枚了不起的火箭没有。他先前哭得太湿，根本没能点燃。他身上最好的东西就是火药，可那些火药也被眼泪浸透，已经毫无用处。至于他那些可怜的亲戚，平时他就算肯跟他们说话，也只会冷嘲热讽。如今他们全都飞上天空，像一朵朵奇妙的金花，绽开了火焰的花瓣。
+        - id: ch03-b06
+          speakers: [crowd_1, crowd_2, crowd_3]
+          ensemble: chorus
+          text: 万岁！万岁！
+          emotion: happy
+        - id: ch03-b07
+          speaker: narrator
+          text: 小公主高兴地笑了。
+        - id: ch03-b08
+          speaker: rocket
+          text: 他们一定把我留给更盛大的场合。准是这样。
+        - id: ch03-b09
+          speaker: narrator
+          text: 第二天，工人们来到花园，把昨夜留下的东西收拾干净。火箭一见他们，就认定这是来拜见自己的代表团，觉得应该拿出与身份相称的威严接待。他赶紧把鼻子抬到空中，紧紧皱起眉头，装作正在思考一件非常重大的事情。工人们始终没注意他，直到快要离开时，才有一个人发现了他。那人只喊了一声“好一枚坏火箭”，就随手把他扔过围墙，丢进了水沟。
+        - id: ch03-b10
+          speaker: rocket
+          text: 坏火箭？不可能。他说的一定是“大火箭”。“坏”和“大”听着很像，而且常常就是一回事。
+        - id: ch03-b11
+          speaker: narrator
+          text: 火箭掉进泥里。
+        - id: ch03-b12
+          speaker: rocket
+          text: 这里不太舒服。不过，这准是时髦的温泉疗养地。他们让我来恢复健康。我的神经确实受了损伤，需要休养。
+        - id: ch03-b13
+          speaker: narrator
+          text: 一只穿着绿色斑纹外衣、眼睛像宝石的小青蛙游过来。
+        - id: ch03-b14
+          speaker: frog
+          text: 原来来了一位新客人！话说回来，世上没有什么比泥巴更好了。只要给我雨天，再给我一条水沟，我就心满意足。你觉得下午会下雨吗？我真心盼着下一场雨，可天空这么蓝，连一片云也没有。实在太遗憾了。
+        - id: ch03-b15
+          speaker: rocket
+          text: 咳！咳！
+          emotion: angry
+        - id: ch03-b16
+          speaker: frog
+          text: 你的声音真好听，听起来简直像蛙鸣。蛙鸣当然是世界上最美妙的音乐。今晚你会听见我们的合唱团。我们坐在农舍旁边的旧鸭池里，月亮一升起来，大家便一起开唱。歌声迷人得不得了，每个人都会躺在那里不睡，只为了听我们唱。就在昨天，我还听见农夫的妻子对她母亲说，因为我们，她夜里连眼都合不上。知道自己这么受欢迎，真叫人高兴。
+          emotion: happy
+        - id: ch03-b17
+          speaker: narrator
+          text: 火箭又咳了两声，而且咳得很生气。他已经恼火极了，因为青蛙从头说到尾，根本没有给他留下插进一句话的机会。
+        - id: ch03-b18
+          speaker: frog
+          text: 你的声音确实美妙。希望你记得来鸭池。我现在得去找我的女儿们了。我有六个漂亮的女儿，就怕那条狗鱼正好遇见她们。那家伙十足是个恶棍，真碰上了，绝不会犹豫，一定会把她们当成早餐。好了，再见！我向你保证，刚才这番交谈真让我愉快。
+        - id: ch03-b19
+          speaker: rocket
+          text: 这也叫谈话？一直是你在说，我一句都没说。
+        - id: ch03-b20
+          speaker: frog
+          text: 总得有人听嘛。我喜欢自己把话说完，既省时间，也不会争吵。
+        - id: ch03-b21
+          speaker: rocket
+          text: 可我喜欢争论。
+        - id: ch03-b22
+          speaker: frog
+          text: 希望你别喜欢。争论太俗气，上流社会的人意见全都一样。再见，我看见女儿们了。
+        - id: ch03-b23
+          speaker: narrator
+          text: 青蛙游走了。
+        - id: ch03-b24
+          speaker: rocket
+          text: 这个人真叫人恼火，而且一点教养也没有。我正想讲自己，他却只顾讲他自己，这才叫自私。自私本来就是最可恶的东西，尤其是在我这种性情的人面前。谁都知道，我最会体贴别人。他真应该学学我，因为再也找不到比我更好的榜样了。现在机会就在眼前，他却不懂得利用。我马上就要回到宫廷，那里的人都很喜欢我。可惜他只是个乡下人，根本不懂宫里的事。他甚至不知道，王子和公主昨天就是为了向我致敬才结婚的。
+        - id: ch03-b25
+          speaker: dragonfly
+          text: 别对他说了。他早就走远了。
+        - id: ch03-b26
+          speaker: rocket
+          text: 损失的是他，不是我。我可不会仅仅因为他不听，就停下来不再对他说话。我最喜欢听自己讲话，这是我最大的乐趣之一。我常常一个人跟自己长谈，而且我实在太聪明了，有时候连自己说的话都听不懂一个字。
+        - id: ch03-b27
+          speaker: dragonfly
+          text: 那你真该去讲哲学。
+        - id: ch03-b28
+          speaker: narrator
+          text: 蜻蜓展开薄纱一样的翅膀，飞走了。
+        - id: ch03-b29
+          speaker: rocket
+          text: 他竟然不肯留下来，真是愚蠢透顶。他平常一定很少碰到这样的机会，可以留下来增进自己的见识。不过，我一点也不在乎。像我这样的天才，就算暂时不被人明白，总有一天也一定会得到赏识。
+        - id: ch03-b30
+          speaker: narrator
+          text: 火箭说完，又往泥里陷下去一点。过了一会儿，一只大白鸭游到他身边。她长着黄色的腿，脚趾之间连着蹼。附近的动物都认为她是位大美人，因为她走路时总是摇摇摆摆，姿态十分特别。
+    - id: ch04
+      title: 天才的最后一次轰动
+      blocks:
+        - id: ch04-b01
+          speaker: duck
+          text: 嘎，嘎，嘎。你的样子真怪。你生下来就这样，还是后来出了意外？
+        - id: ch04-b02
+          speaker: rocket
+          text: 你显然一辈子都住在乡下，不然就会知道我是谁。不过，我原谅你的无知。不能指望别人都像我一样了不起。听说我能飞上天空，再化成金雨落下，你一定很吃惊。
+        - id: ch04-b03
+          speaker: duck
+          text: 我看不出这有什么用。你要是能像牛一样耕地，像马一样拉车，像牧羊犬一样看羊，那才算本事。
+        - id: ch04-b04
+          speaker: rocket
+          text: 我的好家伙，我一听就知道，你属于下等阶层。像我这样有身份的人，从来不需要派上什么用场。我们自有各种了不起的才艺，这就完全足够了。我本人对任何劳作都没有好感，尤其不喜欢你刚才提到的那几样。其实我一向认为，只有那些没有任何事情可做的人，才会躲进辛苦的工作里。
+        - id: ch04-b05
+          speaker: duck
+          text: 好吧，各人有各人的爱好。我只希望你打算住在这里。
+          emotion: calm
+        - id: ch04-b06
+          speaker: rocket
+          text: 当然不！我只是来这里做客，而且是一位尊贵的客人。说实话，这个地方实在有些乏味。这里既没有人可以来往，又没法真正安静地独处，完完全全是个郊区。我大概很快就会回到宫廷，因为我早就知道，自己命中注定要轰动整个世界。
+        - id: ch04-b07
+          speaker: duck
+          text: 我从前也想过参与公共事务，因为需要改革的事情实在太多了。有一次，我还主持过一场会议。我们在会上通过了好些决议，把所有不喜欢的东西都谴责了一遍。不过，那些决议后来似乎没起多少作用。如今我一心过家庭生活，只管照料自己的家人。
+        - id: ch04-b08
+          speaker: rocket
+          text: 我生来就该参与公共事务，我所有的亲戚也一样，哪怕其中最不起眼的也不例外。我们每一次出现，都会引起极大的关注。我本人确实还没有正式出现过，可等到我出现时，那一定会是一幅壮丽的景象。至于家庭生活，它只会让人很快衰老，还会分散一个人的心神，叫人再也顾不上那些更高尚的事。
+        - id: ch04-b09
+          speaker: duck
+          text: 人生中更高尚的事，真美好！这倒提醒我，我饿了。嘎，嘎，嘎。
+        - id: ch04-b10
+          speaker: narrator
+          text: 白鸭顺着水流游走了。
+        - id: ch04-b11
+          speaker: rocket
+          text: 回来！我还有很多话没说呢！算了，她走了更好。她的思想彻头彻尾属于中产阶级。
+          emotion: angry
+        - id: ch04-b12
+          speaker: narrator
+          text: 火箭说完，又往泥里沉得更深了一点。他开始认真思索，像自己这样的天才为什么总是如此孤独。就在这时，两个穿白色罩衫的小男孩沿着河岸跑了下来。他们一个提着水壶，另一个抱着一捆柴。火箭看见他们，马上认定，前来拜见自己的代表团终于到了。
+        - id: ch04-b13
+          speaker: boy_1
+          text: 嘿，瞧这根老木棍！它怎么跑到这里来了？
+          emotion: surprised
+        - id: ch04-b14
+          speaker: narrator
+          text: 一个男孩把火箭从沟里捡起来。
+        - id: ch04-b15
+          speaker: rocket
+          text: 老木棍？不可能。他说的是“金木棍”。这可是极大的赞美。他一定把我当成宫廷显贵了。
+        - id: ch04-b16
+          speaker: boy_2
+          text: 把它扔进火里吧，正好帮我们烧水。
+        - id: ch04-b17
+          speaker: narrator
+          text: 男孩们堆好柴，把火箭放在最上面，点起火。
+        - id: ch04-b18
+          speaker: rocket
+          text: 太了不起了！他们要在大白天发射我，让所有人都看见。
+          emotion: happy
+        - id: ch04-b19
+          speakers: [boy_1, boy_2]
+          ensemble: duo
+          text: 咱们睡一会儿。醒来以后，水就开了。
+        - id: ch04-b20
+          speaker: narrator
+          text: 两个男孩说完，便躺在草地上，闭起眼睛。火箭身上还湿得厉害，所以在火堆里烧了很长时间，也没有烧起来。不过最后，火焰终于一点点烘干他的身体，接着引燃了里面的火药。
+        - id: ch04-b21
+          speaker: rocket
+          text: 我要升空了！我会飞得比星星高，比月亮高，比太阳还高。我会飞得那么高，高到——
+          emotion: happy
+        - id: ch04-b22
+          speaker: narrator
+          text: 嘶！嘶！嘶！火箭笔直冲上天空。
+        - id: ch04-b23
+          speaker: rocket
+          text: 太美妙了！我要永远这样飞下去。我真是太成功了！
+          emotion: happy
+        - id: ch04-b24
+          speaker: narrator
+          text: 火箭对自己的表现满意极了。可实际上，地面上谁也没有看见他。飞了一会儿以后，他忽然觉得浑身上下生出一阵奇怪的麻痒。
+        - id: ch04-b25
+          speaker: rocket
+          text: 现在我要爆炸了！我要点燃全世界，还要发出震天巨响。往后整整一年，谁都只会谈论我！
+          emotion: happy
+        - id: ch04-b26
+          speaker: narrator
+          text: 他果真爆炸了。砰！砰！砰！身体里的火药确实发出了响声，这一点没有任何疑问。可是谁也没有听见，连草地上的两个小男孩也没有，因为他们正睡得香。爆炸以后，火箭身上只剩下那根木棍。木棍从空中掉下来，正好落在一只鹅的背上。那只鹅当时正在水沟旁边散步。
+        - id: ch04-b27
+          speaker: goose
+          text: 天哪！要下木棍雨啦！
+          emotion: fearful
+        - id: ch04-b28
+          speaker: narrator
+          text: 鹅吓了一跳，慌忙离开河岸，一头冲进水里。
+        - id: ch04-b29
+          speaker: rocket
+          text: 我早就知道，自己一定会引起巨大轰动。
+        - id: ch04-b30
+          speaker: narrator
+          text: 火箭上气不接下气地说完，便熄灭了。

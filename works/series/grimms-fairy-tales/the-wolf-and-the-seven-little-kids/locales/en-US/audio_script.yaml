@@ -1,0 +1,234 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and steady folktale storytelling
+        timbre: clear and gently resonant
+        pace: measured
+        pitch: medium
+    mother_goat:
+      display_name: Mother Goat
+      tts:
+        delivery: loving and watchful, with firm resolve when danger comes
+        timbre: warm and mature
+        pace: measured
+        pitch: medium
+    wolf:
+      display_name: Wolf
+      tts:
+        delivery: cunning and forceful, shifting between false sweetness and rough menace
+        timbre: deep and coarse
+        pace: deliberate
+        pitch: low
+    miller:
+      display_name: Miller
+      tts:
+        delivery: wary and reluctant
+        timbre: sturdy and weathered
+        pace: moderate
+        pitch: medium-low
+    kid_1:
+      display_name: First Little Kid
+      tts:
+        delivery: alert and earnest
+        timbre: young and clear
+        pace: quick
+        pitch: high
+    kid_2:
+      display_name: Second Little Kid
+      tts:
+        delivery: cautious and direct
+        timbre: young and light
+        pace: moderate
+        pitch: high
+    kid_3:
+      display_name: Third Little Kid
+      tts:
+        delivery: lively and watchful
+        timbre: youthful and bright
+        pace: quick
+        pitch: medium-high
+    kid_4:
+      display_name: Fourth Little Kid
+      tts:
+        delivery: serious and plainspoken
+        timbre: young and steady
+        pace: moderate
+        pitch: medium-high
+    kid_5:
+      display_name: Fifth Little Kid
+      tts:
+        delivery: spirited and emphatic
+        timbre: small and crisp
+        pace: brisk
+        pitch: high
+    kid_6:
+      display_name: Sixth Little Kid
+      tts:
+        delivery: gentle and attentive
+        timbre: soft and youthful
+        pace: moderate
+        pitch: high
+    kid_7:
+      display_name: Youngest Little Kid
+      tts:
+        delivery: tender and brave, with simple childlike directness
+        timbre: small and soft
+        pace: moderate
+        pitch: high
+  chapters:
+    - id: ch01
+      title: Mother Goat's Warning
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was an old goat with seven little kids. She loved them as dearly as any mother loves her children. One day, she needed to go into the forest for food. Before she left, she called all seven close.
+        - id: ch01-b02
+          speaker: mother_goat
+          text: My dear children, I have to go into the forest. Watch out for the wolf. If he gets inside, he'll eat every one of you, skin, hair, and all. He often wears disguises, but his rough voice and black feet will give him away.
+        - id: ch01-b03
+          speakers: [kid_1, kid_2, kid_3, kid_4]
+          ensemble: chorus
+          text: Don't worry, Mother. We'll be very careful. You can go without being afraid for us.
+        - id: ch01-b04
+          speaker: narrator
+          text: Mother Goat gave a little bleat and went on her way with an easy mind.
+    - id: ch02
+      title: The Wolf at the Door
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Before long, someone knocked on the door.
+        - id: ch02-b02
+          speaker: wolf
+          text: Open up, dear children. Your mother is home, and I've brought something for each of you.
+        - id: ch02-b03
+          speaker: narrator
+          text: The kids heard the rough voice and knew it was the wolf.
+        - id: ch02-b04
+          speakers: [kid_1, kid_2, kid_3, kid_4]
+          ensemble: chorus
+          text: We won't open the door! You're not our mother. Her voice is soft and pleasant, but yours is rough. You're the wolf!
+        - id: ch02-b05
+          speaker: narrator
+          text: The wolf went to a shopkeeper, bought a large piece of chalk, and ate it. That made his voice soft. Then he returned and knocked again.
+        - id: ch02-b06
+          speaker: wolf
+          text: Let me in, dear children. Your mother has come back, and I have something for every one of you.
+        - id: ch02-b07
+          speaker: narrator
+          text: But the wolf had pressed his black paws against the window. The children saw them at once.
+        - id: ch02-b08
+          speakers: [kid_2, kid_3, kid_5, kid_6]
+          ensemble: chorus
+          text: We're not letting you in! Our mother doesn't have black feet like those. You're the wolf!
+        - id: ch02-b09
+          speaker: narrator
+          text: Off the wolf ran to a baker.
+        - id: ch02-b10
+          speaker: wolf
+          text: I've hurt my feet. Rub some dough on them for me.
+        - id: ch02-b11
+          speaker: narrator
+          text: The baker covered his feet with dough. Next, the wolf hurried to a miller.
+        - id: ch02-b12
+          speaker: wolf
+          text: Sprinkle white flour all over my feet.
+        - id: ch02-b13
+          speaker: miller
+          text: That wolf is trying to trick someone.
+        - id: ch02-b14
+          speaker: narrator
+          text: The miller refused to help him.
+        - id: ch02-b15
+          speaker: wolf
+          text: Do it, or I'll eat you!
+          emotion: angry
+        - id: ch02-b16
+          speaker: narrator
+          text: The miller grew afraid and whitened the wolf's paws. That is how people can be.
+    - id: ch03
+      title: The Wolf Gets In
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: For the third time, the wicked wolf came to the door and knocked.
+        - id: ch03-b02
+          speaker: wolf
+          text: Open the door, children. Your dear mother is back from the forest, and she brought something for each of you.
+        - id: ch03-b03
+          speakers: [kid_1, kid_2, kid_3, kid_4]
+          ensemble: chorus
+          text: Show us your paws first. Then we'll know whether you really are our dear mother.
+        - id: ch03-b04
+          speaker: narrator
+          text: The wolf put his paws through the window. When the kids saw that they were white, they believed his story and opened the door. But the creature who stepped inside was the wolf.
+        - id: ch03-b05
+          speaker: narrator
+          text: The kids were terrified and rushed to hide. The first crawled under the table. The second climbed into the bed. The third hid in the stove, and the fourth ran into the kitchen. The fifth slipped into the cupboard, the sixth crouched under the washing bowl, and the youngest squeezed into the clock case.
+        - id: ch03-b06
+          speaker: narrator
+          text: The wolf found them one after another. He showed no mercy and swallowed each one straight down his throat. Only the youngest, hidden in the clock case, escaped him. Once the wolf had eaten his fill, he went outside to the green meadow. He lay down beneath a tree and fell asleep.
+        - id: ch03-b07
+          speaker: narrator
+          text: Soon Mother Goat returned from the forest. What a sight met her eyes! The front door stood wide open. The table, chairs, and benches had been knocked over. The washing bowl was smashed, and the quilts and pillows had been torn from the bed.
+        - id: ch03-b08
+          speaker: narrator
+          text: She searched everywhere, but she could not find her children. She called each one by name. No one answered. Then she called the youngest, and a soft voice came from the clock case.
+        - id: ch03-b09
+          speaker: kid_7
+          text: Mother, I'm here in the clock case.
+        - id: ch03-b10
+          speaker: narrator
+          text: She lifted the youngest kid out. The little one told her that the wolf had come in and eaten all the others. You can imagine how bitterly Mother Goat wept for her poor children.
+    - id: ch04
+      title: Six Little Kids Set Free
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: At last, Mother Goat went outside in her grief, with the youngest kid running beside her. When they reached the meadow, they found the wolf asleep under the tree. His snores were so loud that the branches shook.
+        - id: ch04-b02
+          speaker: narrator
+          text: Mother Goat walked around him and looked closely. Something inside his stuffed belly was moving and struggling.
+        - id: ch04-b03
+          speaker: mother_goat
+          text: Oh, heavens! Could my poor children still be alive inside him, even after he swallowed them for his supper?
+          emotion: surprised
+        - id: ch04-b04
+          speaker: narrator
+          text: She sent the youngest kid home for scissors, a needle, and thread. Then she cut open the monster's stomach. She had barely made the first cut when one little head poked out. As she cut farther, all six kids sprang free, one after another.
+        - id: ch04-b05
+          speaker: narrator
+          text: Every one of them was alive and unharmed, because the greedy wolf had gulped them down whole. What joy there was! The kids hugged their dear mother and leaped about like a sailor at his wedding.
+        - id: ch04-b06
+          speaker: mother_goat
+          text: Now find some big stones. We'll fill this wicked beast's stomach while he's still asleep.
+        - id: ch04-b07
+          speaker: narrator
+          text: All seven kids hurried to drag over the stones. They packed in as many as the wolf's stomach would hold. Then Mother Goat quickly sewed him up. The wolf noticed nothing. He did not even stir.
+    - id: ch05
+      title: The Wolf and the Well
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: At last, the wolf finished sleeping and got to his feet. The stones in his stomach made him terribly thirsty, so he started toward a well for a drink. As he walked, the stones knocked together and rattled inside him.
+        - id: ch05-b02
+          speaker: wolf
+          text: What rumbles and tumbles against my poor bones? I thought it was six kids, but it's nothing but big stones!
+          emotion: surprised
+        - id: ch05-b03
+          speaker: narrator
+          text: The wolf reached the well and bent over the water. Just as he was about to drink, the heavy stones pulled him in. There was no escape, and he drowned miserably.
+        - id: ch05-b04
+          speaker: narrator
+          text: When the seven little kids saw what had happened, they ran to the well.
+        - id: ch05-b05
+          speakers: [kid_1, kid_2, kid_3, kid_4]
+          ensemble: chorus
+          text: The wolf is dead! The wolf is dead!
+          emotion: happy
+        - id: ch05-b06
+          speaker: narrator
+          text: And the seven kids danced for joy around the well with their mother.

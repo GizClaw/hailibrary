@@ -1,0 +1,455 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant storytelling with gentle dramatic weight
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    eliza:
+      display_name: Eliza
+      tts:
+        delivery: gentle, earnest, and quietly determined
+        timbre: young and clear
+        pace: natural
+        pitch: medium-high
+    wicked_queen:
+      display_name: Wicked Queen
+      tts:
+        delivery: cold, spiteful, and controlled
+        timbre: smooth and dark
+        pace: deliberate
+        pitch: medium-low
+    father_king:
+      display_name: Eliza's Father
+      tts:
+        delivery: regal but easily shaken
+        timbre: mature and resonant
+        pace: measured
+        pitch: medium-low
+    wind:
+      display_name: Wind
+      tts:
+        delivery: airy, curious, and whispering
+        timbre: soft and breathy
+        pace: flowing
+        pitch: medium-high
+    roses:
+      display_name: Rose
+      tts:
+        delivery: sweet and certain
+        timbre: light and delicate
+        pace: gentle
+        pitch: high
+    hymn_book:
+      display_name: Hymn Book
+      tts:
+        delivery: solemn and truthful
+        timbre: dry and quiet
+        pace: slow
+        pitch: medium
+    old_woman:
+      display_name: Old Woman
+      tts:
+        delivery: kindly and matter-of-fact
+        timbre: aged and warm
+        pace: unhurried
+        pitch: medium-low
+    eldest_brother:
+      display_name: Eldest Brother
+      tts:
+        delivery: protective, thoughtful, and steady
+        timbre: youthful and grounded
+        pace: measured
+        pitch: medium-low
+    brother:
+      display_name: Brother
+      tts:
+        delivery: loving and resolute
+        timbre: young and clear
+        pace: natural
+        pitch: medium
+    youngest_brother:
+      display_name: Youngest Brother
+      tts:
+        delivery: tender, hopeful, and devoted
+        timbre: youthful and bright
+        pace: natural
+        pitch: medium-high
+    fairy:
+      display_name: Fairy
+      tts:
+        delivery: luminous, grave, and exact
+        timbre: clear and otherworldly
+        pace: deliberate
+        pitch: medium-high
+    young_king:
+      display_name: Young King
+      tts:
+        delivery: kind, confident, and sincere
+        timbre: rich and youthful
+        pace: measured
+        pitch: medium-low
+    archbishop:
+      display_name: Archbishop
+      tts:
+        delivery: severe, suspicious, and self-assured
+        timbre: dry and austere
+        pace: deliberate
+        pitch: low
+    crowd_1:
+      display_name: First Onlooker
+      tts:
+        delivery: excitable and quick to judge
+        timbre: rough and bright
+        pace: lively
+        pitch: medium
+    crowd_2:
+      display_name: Second Onlooker
+      tts:
+        delivery: nervous and easily led
+        timbre: thin and clear
+        pace: quick
+        pitch: medium-high
+    crowd_3:
+      display_name: Third Onlooker
+      tts:
+        delivery: hushed and cautious
+        timbre: soft and plain
+        pace: measured
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Children Driven Away
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Far away, in the country where the swallows go for winter, there lived a king with eleven sons and one daughter named Eliza. The boys were princes. Each morning they went to school with a shining star on his chest and a sword hanging at his side. Their pencils were made of diamond, and their slates were gold. They learned every lesson quickly and read with such ease that no one could mistake them for ordinary children. Their sister sat on a little stool of clear glass and turned the pages of a picture book that had cost half a kingdom. Those twelve children were truly happy then, though their happiness was not meant to last.
+        - id: ch01-b02
+          speaker: narrator
+          text: Their father married a wicked queen who had no love for them. The children knew it on the first day after the wedding. While the palace celebrated, they played at receiving guests. Usually they were given the leftover cakes and apples. This time the queen handed them a teacup of sand and told them to pretend it was cake. A week later, she sent Eliza away to live with a peasant and his wife. Then she filled the king's ears with lies about his sons until he stopped caring what became of them.
+        - id: ch01-b03
+          speaker: wicked_queen
+          text: Go make your own way in the world. Fly off like great birds, and never speak again.
+          emotion: angry
+        - id: ch01-b04
+          speaker: narrator
+          text: The queen wanted to make the princes ugly, but her magic could not do it. Instead, they became eleven beautiful wild swans. With a strange cry, they swept through the palace windows, crossed the park, and flew toward the forest. Early that morning they passed the cottage where Eliza lay asleep in her room. They circled the roof, bending their long necks and beating their wings. No one saw them. No one heard them. At last they had to leave. They climbed high into the clouds, crossed the wide world, and came to a thick, dark forest that stretched all the way to the seashore.
+        - id: ch01-b05
+          speaker: narrator
+          text: Eliza was left alone with nothing to play with but a green leaf. She poked a hole in it and looked at the sun. The light seemed like her brothers' bright eyes, and its warmth on her cheeks reminded her of their kisses. Day followed day. Sometimes the wind stirred the rosebush beside the cottage.
+        - id: ch01-b06
+          speaker: wind
+          text: Roses, could anyone be lovelier than you?
+        - id: ch01-b07
+          speaker: roses
+          text: Eliza is lovelier.
+        - id: ch01-b08
+          speaker: narrator
+          text: On Sundays, the old woman sat at the door reading her hymn book. The wind fluttered its pages.
+        - id: ch01-b09
+          speaker: wind
+          text: Could anyone be more devout than you?
+        - id: ch01-b10
+          speaker: hymn_book
+          text: Eliza is more devout.
+        - id: ch01-b11
+          speaker: narrator
+          text: The roses and the hymn book spoke the truth. When Eliza was fifteen, she returned to the palace. The queen saw how beautiful she had become, and spite burned inside her. She wanted to turn Eliza into a swan too, but the king had asked to see his daughter, so she did not dare. One morning she carried three toads into the marble bath chamber and kissed them.
+        - id: ch01-b12
+          speaker: wicked_queen
+          text: When Eliza steps into the bath, sit on her head and make her as stupid as you are.
+        - id: ch01-b13
+          speaker: wicked_queen
+          text: You, settle on her forehead. Make her as ugly as you are, so her father won't know her.
+        - id: ch01-b14
+          speaker: wicked_queen
+          text: And you, lie over her heart. Fill her with evil thoughts, and make her suffer for them.
+        - id: ch01-b15
+          speaker: narrator
+          text: The queen dropped the toads into the clear bathwater, and they turned green at once. Then she called Eliza, helped her undress, and led her into the bath. Eliza lowered her head beneath the water. One toad clung to her hair, another settled on her forehead, and the third rested over her heart. She did not seem to notice any of them. When she stood again, the toads were gone. Three red poppies floated on the water instead. If those creatures had not been poisonous and kissed by a witch, they would have turned into red roses. Still, they became flowers because they had touched Eliza's head and heart. The queen's magic could find no hold in someone so innocent and good.
+        - id: ch01-b16
+          speaker: narrator
+          text: The queen smeared walnut juice over Eliza's face until it was brown. She knotted the girl's beautiful hair and rubbed it with foul ointment. No one could recognize her. Her father recoiled when he saw her.
+        - id: ch01-b17
+          speaker: father_king
+          text: This cannot be my daughter.
+          emotion: surprised
+        - id: ch01-b18
+          speaker: narrator
+          text: Only the watchdog and the swallows knew Eliza, and they could not tell anyone. She wept for her eleven missing brothers. Then she slipped away from the palace and walked all day over fields and moors until she entered the great forest. She had no idea which way to turn. Still, she meant to find the brothers who had been driven out just as she had.
+        - id: ch01-b19
+          speaker: narrator
+          text: Night came before she had gone far, and she lost the path completely. She lay down on the soft moss, said her evening prayer, and rested her head against a tree stump. The whole forest was still. Mild air moved across her forehead. Hundreds of glowworms glimmered among the grass and moss like little points of green fire. Whenever her hand barely touched a twig, the bright insects dropped around her like shooting stars.
+    - id: ch02
+      title: The Swans by the Sea
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: All night Eliza dreamed of her brothers. They were children again, playing together as they had in the palace. The boys sat with their golden slates and wrote with diamond pencils. But they were no longer practicing simple lines and letters. Now they were recording the noble deeds they had done and everything they had traveled far enough to discover and see. Eliza held the beautiful picture book that had cost half a kingdom, and every picture inside it was alive. Birds sang from the pages. People stepped out of the book and spoke with Eliza and her brothers. Each time a page began to turn, the birds and people darted back to their proper places so everything would be in order.
+        - id: ch02-b02
+          speaker: narrator
+          text: By the time Eliza woke, the sun stood high. She could not see it through the lofty trees and the thick roof of branches, but rays slipped between the leaves like golden mist. Fresh green plants scented the air, and birds came so near that they almost perched upon her shoulders. She heard water rippling from several springs. Each one flowed into a lake whose bottom was golden sand. Bushes grew thick around the shore, except in one place where a deer had pushed through. Eliza followed that opening to the water. The lake was so clear and still that the reflected branches might have been painted beneath its surface. Every leaf appeared there, whether it grew in shade or sunlight.
+        - id: ch02-b03
+          speaker: narrator
+          text: The sight of her own reflection terrified her. Her face looked brown and ugly, just as the queen had made it. Eliza dipped one hand into the lake and rubbed her eyes and forehead. White skin gleamed through. She undressed and lowered herself into the fresh water. When she came out, no king's daughter anywhere in the world could have looked more beautiful. Eliza dressed again, braided her long hair, and went to the bubbling spring. She cupped her hand beneath it and drank.
+        - id: ch02-b04
+          speaker: narrator
+          text: Eliza wandered on without knowing where she was going. She thought of her brothers and trusted that God would not leave her. Wild apples grew in the woods for hungry travelers, and she found a tree so heavy with fruit that its branches bent toward the ground. She ate her midday meal there. Before leaving, she placed supports under the burdened boughs. Then she entered the gloomiest part of the forest. It was quiet enough for her to hear her own steps and every dry leaf that broke beneath her feet. No bird appeared, and no sunbeam could pass through the great dark branches. Tall trunks crowded together on every side. Looking ahead, she felt shut behind a wooden lattice. She had never known such loneliness. That night was utterly dark. Not one glowworm lit the moss.
+        - id: ch02-b05
+          speaker: narrator
+          text: She lay down sadly. After a while, the branches seemed to open above her, and the gentle eyes of angels looked down from heaven. In the morning she could not tell whether it had happened or been a dream. She had taken only a few more steps when she met an old woman carrying berries. The woman shared some with her, and Eliza asked whether eleven princes had ridden through the forest.
+        - id: ch02-b06
+          speaker: old_woman
+          text: No, I haven't seen any princes. But yesterday I saw eleven swans swimming nearby. Each one wore a golden crown.
+        - id: ch02-b07
+          speaker: narrator
+          text: The old woman led Eliza a little farther, to a river winding below a sloping bank. Trees on opposite shores stretched their leafy branches toward one another. Where they could not meet by growing, some roots had pulled free from the earth, letting the branches lean out until their leaves mingled above the water. Eliza said goodbye to the old woman. Then she followed the flowing river until it brought her to the open sea.
+        - id: ch02-b08
+          speaker: narrator
+          text: The whole ocean lay before her, without a sail or even a boat. How could she go any farther? Along the shore, water had worn pebbles, glass, iron, and stone smooth beneath her hand.
+        - id: ch02-b09
+          speaker: eliza
+          text: The water never grows tired. It keeps rolling until every hard edge is smooth. I won't grow tired either. Thank you for teaching me, bright waves. My heart says you'll lead me to my dear brothers.
+        - id: ch02-b10
+          speaker: narrator
+          text: Eleven white swan feathers lay on the foam-covered seaweed. Eliza gathered them and placed them together. Drops of water clung to the feathers, though no one could tell whether they were dew or tears. The shore was lonely, but she hardly noticed. In a few hours, the restless sea showed more changes than a lake could show in a year. When a heavy black cloud rose, the water seemed to say that it too could look dark and angry. Wind swept over it, and the rolling waves turned white with foam. When the wind rested and the clouds glowed red, the sea looked like a rose petal. Even when its pale, glassy surface grew calm, there was always movement at the shore. The waves rose and fell like the chest of a sleeping child.
+        - id: ch02-b11
+          speaker: narrator
+          text: Near sunset, eleven white swans came flying toward land. Golden crowns shone on their heads, and they followed one another like a long white ribbon. Eliza ran down the slope and hid behind the bushes. The swans landed close by. The moment the sun slipped beneath the water, their feathers fell away, and eleven handsome princes stood there.
+        - id: ch02-b12
+          speaker: narrator
+          text: Eliza gave a loud cry. The brothers had changed greatly since she last saw them, but she knew them at once. She rushed into their arms and called every one by name. Their joy was just as great. They recognized their little sister even though she had grown tall and beautiful. They laughed, they wept, and they held one another close. Soon they had told enough of their stories to understand how cruelly their stepmother had treated them all.
+        - id: ch02-b13
+          speaker: eldest_brother
+          text: While the sun is up, we fly as wild swans. When it drops behind the hills, we become men again. We must always find solid ground before sunset. If the change came while we were high among the clouds, we would fall into the sea.
+        - id: ch02-b14
+          speaker: eldest_brother
+          text: We live across the ocean in another beautiful land. There is no island on the way, only one little rock where we can barely crowd together. Rough waves break over us, but we thank God for that rock. Without it, we could never survive the two long days it takes to cross.
+        - id: ch02-b15
+          speaker: eldest_brother
+          text: Once a year, we may return home for eleven days. We fly over the forest to see Father's palace, the place where we were born, and the church where Mother is buried. The trees and bushes here feel like family. We see the wild horses we knew as children and hear the charcoal burners sing the songs we danced to. Love keeps drawing us back. And now, dear sister, we have found you.
+        - id: ch02-b16
+          speaker: eldest_brother
+          text: We can stay only two more days. Then we must return to that lovely country that is not our home. How can we bring you? We have no ship and no boat.
+        - id: ch02-b17
+          speaker: eliza
+          text: Tell me how to break the spell.
+        - id: ch02-b18
+          speaker: narrator
+          text: Eliza talked about it nearly all night and slept only a few hours. The sound of wings woke her. Her brothers were swans again, circling higher and farther until they vanished. Only the youngest stayed. He laid his head in her lap while she stroked his wings, and they spent the day together. At evening, the other swans returned and took human form with the sunset.
+        - id: ch02-b19
+          speaker: brother
+          text: Tomorrow we must leave, and we won't return for a year. But we cannot abandon you here. Are you brave enough to come? One arm could carry you through the forest. Surely all our wings can carry you over the sea.
+        - id: ch02-b20
+          speaker: eliza
+          text: Yes. Take me with you.
+    - id: ch03
+      title: Across the Ocean
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The brothers spent the whole night weaving flexible willow branches and rushes. By morning, they had made a net that was both wide and strong. Eliza lay down upon it. When the sun rose, the princes became wild swans once more. They took the net in their beaks and carried their sleeping sister high into the clouds. Sunbeams fell across her face as they flew. One swan climbed above her and spread his broad wings, making shade so she could go on sleeping.
+        - id: ch03-b02
+          speaker: narrator
+          text: They were far from shore when Eliza woke. She wondered if she was still dreaming. Nothing could feel stranger than being carried through the sky over the sea. Beside her lay ripe berries and a bundle of sweet roots. Her youngest brother had gathered them, and she smiled her thanks. She knew he was also the swan flying overhead to protect her from the sun.
+        - id: ch03-b03
+          speaker: narrator
+          text: From that height, a great ship looked no larger than a white gull on the waves. A cloud behind them rose like a mountain. Across its face she saw her own huge shadow and the shadows of eleven swans. It was more beautiful than any picture she had known. As the sun climbed and the cloud fell behind them, the image disappeared.
+        - id: ch03-b04
+          speaker: narrator
+          text: They flew on through the entire day like one great winged arrow. Yet they moved more slowly than usual because they carried their sister. The weather began to threaten a storm. Eliza watched the sun dropping lower and lower, and still the little rock did not appear. The swans seemed to force each beat of their wings. She knew they were losing time because of her weight. At sunset they would become men. If that happened while they were still over the ocean, they would plunge into the water and drown. No rock showed beneath them. Dark clouds came closer, and every gust warned that the storm was near. Eliza prayed from the depths of her heart.
+        - id: ch03-b05
+          speaker: narrator
+          text: Dark clouds closed in. Wind gusted around them, and lightning broke again and again through the heavy sky. The sun touched the edge of the sea. Suddenly the swans plunged so fast that Eliza's head shook. She thought they were falling, but they leveled out and flew on.
+        - id: ch03-b06
+          speaker: narrator
+          text: Then she caught sight of the rock directly below. From the air it looked no bigger than a seal's head rising out of the water. By then, half the sun had disappeared beneath the waves. The swans dropped with frightening speed. At the very moment their feet touched stone, the remaining light shone like one small star. Then it vanished like the final spark on a piece of burned paper. Eliza looked up and saw her brothers in human form. They stood packed tightly around her with their arms linked. The rock held them, but there was not one bit of space to spare.
+        - id: ch03-b07
+          speaker: narrator
+          text: The sea crashed against the tiny rock and washed them with spray. Lightning kept opening the sky, and one roll of thunder followed another. There was nowhere to move and nowhere to hide. Eliza and her brothers sat close, holding one another's hands. Together they sang hymns through the storm. The songs gave them courage and kept their hope alive. In the first light of dawn, the wind quieted and the air became still. When the sun rose, the brothers turned back into swans. They lifted the net and carried Eliza away from the rock.
+        - id: ch03-b08
+          speaker: narrator
+          text: The ocean was still rough when they left the rock. From high in the sky, white foam spread across the dark green waves like millions of swans swimming below. As the sun climbed, Eliza saw a chain of mountains floating in the air. Masses of ice shone on their peaks. In the middle rose a castle that looked a mile long, with rows of columns one above another. Palm trees waved around it, and flowers bloomed as wide as mill wheels. Eliza asked whether this was the land they were trying to reach. The swans shook their heads.
+        - id: ch03-b09
+          speaker: narrator
+          text: What she saw was one of the beautiful, changing cloud palaces of the Fata Morgana. No mortal could enter it. Eliza kept staring while the mountains, forests, and castle melted away. In their place rose twenty stately churches, each with tall towers and pointed windows. She imagined that organ music was reaching her across the air, but the sound came from the murmuring sea. As they drew closer, the churches changed into a fleet of ships sailing beneath her. When she looked again, even the ships were gone. There was only sea mist sliding over the water.
+        - id: ch03-b10
+          speaker: narrator
+          text: At last the true land came into view, with blue mountains, cedar forests, cities, and palaces. Long before sunset, Eliza was sitting on a rock before a large cave. Fine green vines covered its floor like an embroidered carpet. The youngest brother showed her where she would sleep.
+        - id: ch03-b11
+          speaker: youngest_brother
+          text: Tonight we'll be waiting to hear what you dream about.
+        - id: ch03-b12
+          speaker: eliza
+          text: May Heaven let me dream of a way to save you.
+        - id: ch03-b13
+          speaker: narrator
+          text: The thought filled her completely. She prayed earnestly for help and kept praying even after she fell asleep. In her dream, she flew toward the palace of the Fata Morgana. A radiant fairy came to meet her. The fairy looked strangely like the old woman who had shared her berries and told her about the crowned swans.
+        - id: ch03-b14
+          speaker: fairy
+          text: You can free your brothers if you have courage and patience. Water is softer than your hands, yet it wears stones smooth. Water feels no pain and has no soul. You will suffer agony that water can never know.
+        - id: ch03-b15
+          speaker: fairy
+          text: Look at this stinging nettle. The same kind grows around your cave, but only nettles from a churchyard can help you. Gather them even when they burn blisters into your skin. Crush them with your hands and feet until they become flax. Spin and weave that flax into eleven long-sleeved coats. Throw the coats over the swans, and the spell will break.
+        - id: ch03-b16
+          speaker: fairy
+          text: But once you begin, you must not speak until every coat is done, even if the work takes years. Your first word would strike your brothers' hearts like a deadly knife. Their lives depend on your silence. Remember everything I have told you.
+        - id: ch03-b17
+          speaker: narrator
+          text: The fairy touched Eliza's hand with the nettle. A pain like fire woke her.
+    - id: ch04
+      title: The Silent Work
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Broad daylight filled the cave. Beside the place where Eliza had slept lay a nettle just like the one in her dream. She fell to her knees and thanked God. Then she left the cave to begin the task with her own delicate hands. She reached among the ugly weeds, though every touch raised burning blisters across her hands and arms. If this pain could release her dear brothers, she was determined to bear it gladly. With her bare feet she crushed and bruised the nettles. Then she worked their fibers into flax and began to spin.
+        - id: ch04-b02
+          speaker: narrator
+          text: Her brothers returned at sunset and found that she could no longer speak. At first they feared their stepmother had cast a new spell. Then they saw Eliza's wounded hands and understood that she was working for them. The youngest wept. Wherever his tears fell, the burning stopped and the blisters disappeared.
+        - id: ch04-b03
+          speaker: narrator
+          text: Eliza kept working all night. She could not let herself rest while her brothers remained under the spell. Through the following day, she sat in complete solitude. Yet time had never seemed to pass so quickly. One coat was finished, and she had already begun the second, when a hunter's horn rang through the forest. Fear struck her. The sound drew nearer. Dogs began barking, and their voices came closer too. Eliza fled into the cave, quickly tied all her gathered nettles into one bundle, and sat on top of it to hide them.
+        - id: ch04-b04
+          speaker: narrator
+          text: One great dog bounded out of the ravine, then another and another. They barked, raced away, and returned. Within minutes, hunters gathered before the cave. The handsomest among them was the king of that country. He had never seen anyone as beautiful as Eliza.
+        - id: ch04-b05
+          speaker: young_king
+          text: Sweet child, how did you come to be here?
+        - id: ch04-b06
+          speaker: narrator
+          text: Eliza only shook her head. One word would cost her brothers their lives. She hid her hands beneath her apron so the king could not see how badly they hurt.
+        - id: ch04-b07
+          speaker: young_king
+          text: Come away with me. You cannot stay in this cave. If your heart is as good as your face is beautiful, I will dress you in silk and velvet. You will wear a golden crown, rule beside me, and make your home in my finest castle.
+        - id: ch04-b08
+          speaker: narrator
+          text: He lifted her onto his horse. She wept and wrung her hands.
+        - id: ch04-b09
+          speaker: young_king
+          text: I want only to make you happy. Someday, you will thank me.
+        - id: ch04-b10
+          speaker: narrator
+          text: The king galloped over the mountains with Eliza held before him, and the hunters rode behind. Near sunset they reached a splendid royal city filled with churches and domes. At the castle he led her into marble rooms. Great fountains played there, and rich paintings covered every wall and ceiling. Eliza had no eyes for any of it. She could only mourn and weep. She did not resist when the palace women gathered around to prepare her for court.
+        - id: ch04-b11
+          speaker: narrator
+          text: Eliza stood patiently while the palace women dressed her in royal robes. They wove pearls through her hair and pulled soft gloves over her blistered fingers. When she stood before the court in all that splendor, her beauty dazzled everyone, and the people bowed low. The king announced that he meant to make her his bride. Only the archbishop objected. He shook his head and whispered that the lovely young woman was really a witch. In his mind, she had blinded the king's eyes so he could not see the truth, and she had put a spell upon his heart.
+        - id: ch04-b12
+          speaker: narrator
+          text: The king refused to listen. He called for music, delicate food, and dancing. He led Eliza through fragrant gardens and lofty halls, but her eyes never brightened and her lips never smiled. She looked like grief itself.
+        - id: ch04-b13
+          speaker: narrator
+          text: At last he opened her sleeping chamber. Green tapestries made it resemble the cave. On the floor lay the nettle flax she had spun, and her finished coat hung overhead. One hunter had brought them back as curiosities.
+        - id: ch04-b14
+          speaker: young_king
+          text: Here you can imagine yourself back in your cave. This is the work you used to do. Now that you live among all this splendor, it may please you to remember those days.
+        - id: ch04-b15
+          speaker: narrator
+          text: The moment Eliza saw the bundle of flax and the coat, she knew that the things nearest to her heart had been saved. A smile touched her mouth for the first time, and warm color rushed into her cheeks. She thought of her brothers and of the freedom these rough fibers might bring them. Joy rose so suddenly that she bent and kissed the king's hand. He saw her happiness and pressed her close.
+        - id: ch04-b16
+          speaker: narrator
+          text: Soon joyful church bells announced the wedding feast. The beautiful silent girl from the forest would become queen of the country. The archbishop kept whispering cruel warnings into the king's ear, but none of them entered the king's heart. The marriage went forward, and the archbishop himself had to place the crown upon the bride. His spite had not softened. He forced the narrow golden circlet so tightly against Eliza's forehead that it caused her pain.
+        - id: ch04-b17
+          speaker: narrator
+          text: Eliza barely felt the pain around her head. A heavier band already circled her heart. It was sorrow for her brothers. Her mouth had to stay closed, because one word would cost all eleven their lives. Yet she loved the handsome, kind king with her whole heart. He did more each day to make her happy, and her eyes shone with the love she could not speak. If only she could have trusted him with her grief. But silence had to last until the task was finished. So every night she slipped into the little room that looked like her cave and hurried to weave one coat after another.
+    - id: ch05
+      title: Nettles from the Churchyard
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: When Eliza began the seventh coat, her flax ran out. The nettles she needed grew in the churchyard, and no one else could gather them. How could she reach them?
+        - id: ch05-b02
+          speaker: eliza
+          text: What is the pain in my hands compared with the pain in my heart? I have to try. Heaven will not refuse to help me.
+        - id: ch05-b03
+          speaker: narrator
+          text: Her heart trembled as if she were about to do something wicked. She left the castle in the broad moonlight and crept into the garden. From there she passed through narrow paths and deserted streets until she reached the churchyard. A group of ghouls sat on one of the broad tombstones. The hideous creatures pulled off their rags as though they meant to bathe. Then their long, bony fingers clawed open the fresh graves. They dragged out the bodies and ate their flesh. Those were the graves where the needed nettles grew, and there was no other path to them.
+        - id: ch05-b04
+          speaker: narrator
+          text: Eliza had to pass close beside them. Their wicked eyes followed her, but she prayed without a sound. She gathered the burning nettles and carried them back to the castle. Only one person had seen her. The archbishop had been awake while everyone else slept.
+        - id: ch05-b05
+          speaker: narrator
+          text: Now the archbishop felt certain he had been right. The queen was a witch. She had enchanted the king and all his people. He secretly told the king what he had witnessed and what he feared. As the bitter words left his mouth, carved figures of saints shook their heads.
+        - id: ch05-b06
+          speakers: [crowd_2, crowd_3]
+          ensemble: duo
+          text: No. Eliza is innocent.
+        - id: ch05-b07
+          speaker: narrator
+          text: The archbishop read the sign backward. He believed the saints were giving evidence against Eliza and shaking their heads at her wickedness. Two great tears rolled down the king's face. He returned home with doubt pressing on his heart. That night he lay down and pretended to sleep, but no true sleep came to his eyes. He saw Eliza get up and disappear into her private room. Night after night, the same thing happened, and he watched her go.
+        - id: ch05-b08
+          speaker: narrator
+          text: Each day the king's face grew darker. Eliza saw the change but could not understand it. Fear for her brothers made her heart tremble. Her hot tears shone like pearls against velvet and diamonds, while those who saw her wished they could be queens themselves.
+        - id: ch05-b09
+          speaker: narrator
+          text: Meanwhile, Eliza came very near the end of her task. Ten coats were complete. Only one remained. Once again, she had no flax left and not a single nettle. One more time, and only one, she would have to walk to the churchyard and gather several handfuls. She thought with terror of the lonely streets and the horrible ghouls waiting among the tombs. Even so, her will stayed firm, and so did her trust in God's care. Eliza went out into the night. Behind her, unseen, the king and the archbishop followed.
+        - id: ch05-b10
+          speaker: narrator
+          text: They saw her pass through the little gate. When they drew near, the ghouls were sitting on the tombstone. The king turned his face away. He thought Eliza was one of them, though her head had rested against him that very evening.
+        - id: ch05-b11
+          speaker: young_king
+          text: The people must judge her.
+          emotion: sad
+        - id: ch05-b12
+          speaker: narrator
+          text: The people quickly condemned Eliza to die by fire. She was led away from the splendid royal rooms and locked inside a dark, miserable cell. Wind whistled through its iron bars. Her velvet and silk dresses were taken from her. In their place, the guards gave her the coats she had woven to use as a covering. They tossed in the bundle of nettles for her pillow. They meant these things as part of her punishment, but nothing they could have given her would have pleased her more.
+        - id: ch05-b13
+          speaker: narrator
+          text: Eliza went on with her task joyfully and prayed for help as she worked. Boys in the street sang cruel, mocking songs about her. Not one person came to comfort her with a kind word. Toward evening, she heard the flutter of a swan's wing outside the barred window. Her youngest brother had found her. Eliza sobbed with joy. She knew this would probably be the last night she had to live, but hope had not left her. The final coat was nearly done, and her brothers had come.
+        - id: ch05-b14
+          speaker: narrator
+          text: The archbishop came to spend her last hours beside her, as he had promised the king. Eliza shook her head and pleaded with looks and gestures for him to leave. She had to finish that night, or every wound, every tear, and every sleepless hour would have been wasted. He went away speaking bitterly against her. Eliza knew she was innocent and worked on.
+        - id: ch05-b15
+          speaker: narrator
+          text: Little mice ran over the floor and pulled nettles toward her feet, helping as much as they could. Outside the window, a thrush sang sweetly through the whole night to keep up her courage.
+        - id: ch05-b16
+          speaker: narrator
+          text: It was still twilight, with at least an hour left before sunrise, when all eleven brothers stood at the castle gate. They demanded to be taken before the king. They were told that it could not be done. The darkness had hardly lifted, the king was sleeping, and no one dared disturb him. The brothers threatened the men at the gate. Then they begged. The noise grew until the guard came to investigate, and even the king appeared to ask what the commotion meant.
+        - id: ch05-b17
+          speaker: narrator
+          text: At that moment, the sun rose. The eleven brothers vanished, and eleven wild swans flew over the castle.
+    - id: ch06
+      title: The Eleventh Coat
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: Now people streamed out through the city gates to watch the witch being burned. An old horse pulled the cart where Eliza sat. The rich clothes of a queen were gone. She wore a rough sackcloth dress, and her lovely hair hung loose across her shoulders. Her cheeks were deathly pale. Her lips moved in silent prayer while her fingers continued working the green flax. Even as the cart carried her toward death, she would not abandon the task.
+        - id: ch06-b02
+          speaker: narrator
+          text: Ten coats lay at her feet while she labored over the eleventh. The mob jeered around her.
+        - id: ch06-b03
+          speakers: [crowd_1, crowd_2, crowd_3]
+          ensemble: chorus
+          text: Look at the witch muttering to herself! She carries no hymn book. All she has is that ugly magic. Tear it into a thousand pieces!
+          emotion: angry
+        - id: ch06-b04
+          speaker: narrator
+          text: The crowd pushed toward the cart to destroy the coats. At that instant, eleven wild swans flew down and landed around Eliza. Their broad wings beat the air, and the frightened people drew back.
+        - id: ch06-b05
+          speakers: [crowd_2, crowd_3]
+          ensemble: duo
+          text: The swans are a sign from heaven. She must be innocent.
+          emotion: surprised
+        - id: ch06-b06
+          speaker: narrator
+          text: Many people whispered the same thing, but none of them dared call it out. Then the executioner seized Eliza's hand and began lifting her from the cart. She moved at once. One after another, she threw all eleven nettle coats over the swans. The birds immediately became eleven handsome princes. The spell had broken. But the youngest brother had a swan's wing in place of one arm. Eliza had finished the final coat, but there had not been time to complete its last sleeve.
+        - id: ch06-b07
+          speaker: eliza
+          text: Now I can speak. I am innocent!
+        - id: ch06-b08
+          speaker: narrator
+          text: Everyone had seen what happened. The same people who had mocked Eliza now bowed before her as they would bow before a saint. But she had reached the end of her strength. All the waiting, fear, anguish, and pain overcame her at once. She sank into her brothers' arms, still and unconscious.
+        - id: ch06-b09
+          speaker: eldest_brother
+          text: Yes, she is innocent.
+        - id: ch06-b10
+          speaker: narrator
+          text: The eldest brother told the king and the people everything that had happened. While he spoke, a fragrance rose into the air, as if millions of roses had opened at once. Every piece of firewood in the execution pile sent roots into the ground. Branches sprang from the wood and twined together. In moments, the pile had become a thick, high hedge covered in roses. Above every red blossom grew one white and shining flower, glittering like a star.
+        - id: ch06-b11
+          speaker: narrator
+          text: The king reached up, picked the white flower that glittered like a star, and placed it against Eliza's heart. She opened her eyes and woke from her faint. At last, peace and happiness filled her heart. Every church bell in the city began ringing without a hand to move it. Birds came from every direction in great flocks and filled the air above them.
+        - id: ch06-b12
+          speaker: narrator
+          text: With all the church bells ringing by themselves and great flocks of birds gathering overhead, the wedding procession returned all the way to the royal castle. It was grander and more wonderful than any procession a king had ever seen.

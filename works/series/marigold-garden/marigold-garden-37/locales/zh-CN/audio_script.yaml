@@ -1,0 +1,46 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 叙述者
+      tts:
+        delivery: 温暖而轻快，带着童谣般的好奇
+        timbre: 清澈柔和
+        pace: 舒缓
+        pitch: 中音
+    king:
+      display_name: 国王
+      tts:
+        delivery: 亲切直爽，像在随口闲谈
+        timbre: 浑厚清晰
+        pace: 从容
+        pitch: 中低音
+    queen:
+      display_name: 王后
+      tts:
+        delivery: 温雅自然，带着轻松的谈兴
+        timbre: 明亮柔润
+        pace: 从容
+        pitch: 中音
+  chapters:
+    - id: ch01
+      title: 夏日出游
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 夏日里，国王和王后一道骑马出游。一只乌鸫从他们头顶飞过，悄悄听着两人的谈话。
+    - id: ch02
+      title: 苹果和梨
+      blocks:
+        - id: ch02-b01
+          speaker: king
+          text: 我喜欢苹果。
+        - id: ch02-b02
+          speaker: queen
+          text: 我喜欢梨。
+    - id: ch03
+      title: 听见谈话的乌鸫
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 可这只乌鸫是无意间听见的，我们该拿它怎么办才好呢？

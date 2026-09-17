@@ -1,13 +1,13 @@
 ---
 name: scriptize-article
-description: Retell a final ungraded HaiLibrary series article as a story-faithful, genuinely spoken, listening-first chaptered multi-speaker audiobook script and self-check it against the source—把最终版不分级系列文章用讲故事的口吻重新讲成忠于故事、真正口语、适合聆听的分章多人有声书脚本，并对照原文自查；不用于绘本。
+description: Retell a final ungraded HaiLibrary article as a story-faithful, genuinely spoken, listening-first chaptered multi-speaker audiobook script and self-check it against the source—把最终版不分级文章用讲故事的口吻重新讲成忠于故事、真正口语、适合聆听的分章多人有声书脚本，并对照原文自查；不用于绘本。
 ---
 
-# Scriptize a final series article
+# Scriptize a final article
 
-Retell one final `works/series/<id>/locales/<locale>/article.md` as adjacent `audio_script.yaml`, working as a storyteller and script director preparing it for listening. Read [references/annotated-article-contract.md](references/annotated-article-contract.md) first. Do not repair or rewrite the literary source here. Picture books have no audio script.
+Retell one final standalone `works/articles/<article-id>/locales/<locale>/article.md` or series child `works/series/<series-id>/<article-id>/locales/<locale>/article.md` as adjacent `audio_script.yaml`, working as a storyteller and script director preparing it for listening. Read [references/annotated-article-contract.md](references/annotated-article-contract.md) first. Do not repair or rewrite the literary source here. Picture books have no audio script.
 
-Adapt each locale only from its own complete `article.md`. Locale scripts are independent: never translate, align, or use another locale's script as source, and do not force matching blocks, block counts, inferred chapters, attributions, or emotion placement. Keep series-declared character IDs shared, but make `display_name`, TTS direction, and all spoken text native to the locale.
+Adapt each locale only from its own complete `article.md`. Locale scripts are independent: never translate, align, or use another locale's script as source, and do not force matching blocks, block counts, inferred chapters, attributions, or emotion placement. Keep declared character IDs shared, but make `display_name`, TTS direction, and all spoken text native to the locale.
 
 ## Three equal failures
 
@@ -25,6 +25,8 @@ Get it right while writing; the final check is a single pass, not a revision loo
 
 1. **Beat sheet (scratch, not committed).** For each source chapter, list in order every protected beat: event, action, state change, who speaks, and what each line means and intends. Mark at most 3–5 signatures per chapter: recurring images, key narration moments, and at most two key dialogue lines that carry the work's theme or turning point, such as a title character's central answer. Keep signatures close to source wording, smoothing only what the ear cannot follow and keeping their core nouns and verbs. Every other dialogue line, including a character's joke, survives by its idea, not its wording. Note who each unnamed voice is in the source.
 2. **Tell it.** Write each chapter from the beat sheet, not from the source sentences, the way a storyteller would tell it out loud to a child beside them, giving every character the words that person would really say in that moment. Consult the source only for a signature or a needed fact. When two spoken versions work, choose the shorter one. Apply the narration, dialogue, and reference rules as you write.
+
+Write every block by hand as the storyteller. Never generate, split, or copy script text with code, regular expressions, or quotation-mark parsing: a quoted name, title, word, or sound inside narration stays inside its narration sentence, and a speech tag is never left as its own block. Code may only count or validate a script the author already wrote.
 
 When `audio_script.yaml` already exists, keep its `cast` entries, including `display_name` and TTS direction, unless a speaker must be added or removed or an entry breaks the reference; rewrite only the chapters.
 
@@ -51,7 +53,6 @@ Run this checklist once, after the script is complete. Fix each finding in place
 1. **Fidelity.** Walk the beat sheet against the script: every beat and dialogue line present, in order, with the right speaker; no invented event, fact, intent, or moral. Trace each narration sentence to its source passage and delete any detail, motive, or result that has none. Confirm each signature is still recognizable with its core nouns and verbs.
 2. **Spoken register.** Scan the text for the reference's written-register signs, and reread every dialogue line and every narration sentence that still matches its source apart from small word swaps and is not a signature image. Rewrite those sentences.
 3. **Length.** Count non-whitespace characters of the source body and of all block text, and record the ratio. Above 105%, cut filler, reassurance words, doubled explanations, and extra clauses until it is at most 105%, without cutting protected beats.
-4. **Structure.** Chapters follow the source; IDs equal array positions; every speaker resolves to one cast entry and unnamed voices are not attributed to named characters; ending paragraph breaks are kept; cast has no provider data; each emotion tag has a clear source marker and neutral lines are untagged.
-5. Run `npx --no-install hailibrary-check-work works/series/<id>`; fix and rerun only until it exits `0`.
+4. **Structure.** Chapters follow the source; IDs equal array positions; every speaker resolves to one single-voice cast entry, lines said together use `speakers` with `ensemble: duo` or `chorus` and no group cast entry exists, and unnamed voices are not attributed to named characters; ending paragraph breaks are kept; cast has no provider data; each emotion tag has a clear source marker and neutral lines are untagged.
 
-Hand off when the single pass is done and check-work passes.
+Hand off when the single pass is done.

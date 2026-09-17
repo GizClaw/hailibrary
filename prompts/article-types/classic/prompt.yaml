@@ -1,0 +1,61 @@
+schema_version: 1
+id: classic
+display_name: Classics
+description: Faithful imports of public-domain literature in the original language or a public-domain translation.
+
+localizations:
+  zh-CN:
+    display_name: 经典名著
+    description: 忠实导入公版原著或公版译本。
+
+taxonomy:
+  categories: [fiction, nonfiction]
+  allowed_subcategories:
+    - adventure
+    - animals
+    - everyday-life
+    - biography
+    - culture
+    - fantasy
+    - folktale
+    - historical-fiction
+    - history
+    - how-things-work
+    - magical-realism
+    - mystery
+    - natural-science
+    - narrative-science
+    - science-fiction
+    - technology
+    - verse
+
+research: required
+research_guidance: Record the public-domain basis and identify the exact source edition or translation used for the imported text.
+
+picture_book:
+  level_range: {min: aa, max: n}
+  adaptation_notes: Preserve the original story and causal structure when adapting it into a graded picture book.
+  localizations:
+    zh-CN:
+      adaptation_notes: 改编为分级绘本时保留原作故事与因果结构。
+
+prompt: |-
+  Import a public-domain original or public-domain translation faithfully. Keep
+  the original chapter structure and wording. Do not rewrite, modernize,
+  abridge, expand, or add explanatory prose. Apply only mechanical cleanup such
+  as removing transcriber notes, page numbers, scan artifacts, and redundant
+  running headers while preserving meaningful punctuation and paragraph breaks.
+
+  Record the public-domain basis and the exact edition or translation used.
+  Additional locales may later be translated independently by a Writer; those
+  translations must remain faithful to this source and are separate editorial
+  works.
+
+  中文要点：忠实导入公版原著或公版译本，保留原章节结构，不改写、不缩写、
+  不扩写；只清理录入说明、页码、扫描瑕疵和重复页眉等机械噪声。记录公版依据
+  及所用版本或译本；其他语言版本以后可由 Writer 独立忠实翻译。
+
+exclusions:
+  - Rewriting, modernization, abridgment, expansion, or invented connective prose.
+  - Removing or rearranging original chapters, scenes, paragraphs, or meaningful notes.
+  - Importing a copyrighted edition or translation without a documented public-domain basis.

@@ -1,0 +1,360 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: observant, intimate, and story-forward
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    mary:
+      display_name: Mary Lennox
+      tts:
+        delivery: imperious, clipped, and distinctly childlike
+        timbre: thin and sharp
+        pace: brisk
+        pitch: high
+    basil:
+      display_name: Basil
+      tts:
+        delivery: bold, teasing, and boyishly smug
+        timbre: bright and clear
+        pace: lively
+        pitch: high
+    crawford_child_1:
+      display_name: Crawford Child One
+      tts:
+        delivery: playful and mischievous
+        timbre: light and youthful
+        pace: lively
+        pitch: high
+    crawford_child_2:
+      display_name: Crawford Child Two
+      tts:
+        delivery: playful and mischievous
+        timbre: light and youthful
+        pace: lively
+        pitch: high
+    mrs_crawford:
+      display_name: Mrs. Crawford
+      tts:
+        delivery: proper, pitying, and conversational
+        timbre: gentle and clear
+        pace: measured
+        pitch: medium-high
+    mr_crawford:
+      display_name: Mr. Crawford
+      tts:
+        delivery: thoughtful and quietly reproachful
+        timbre: warm and steady
+        pace: unhurried
+        pitch: medium-low
+    officers_wife:
+      display_name: Officer's Wife
+      tts:
+        delivery: practical and good-natured
+        timbre: clear and matronly
+        pace: measured
+        pitch: medium
+    mrs_medlock:
+      display_name: Mrs. Medlock
+      tts:
+        delivery: brisk, blunt, and firmly self-assured
+        timbre: full and edged
+        pace: steady
+        pitch: medium-low
+    mr_craven:
+      display_name: Mr. Archibald Craven
+      tts:
+        delivery: cold, brief, and commanding
+        timbre: low and restrained
+        pace: measured
+        pitch: low
+  chapters:
+    - id: ch01
+      title: Mistress Mary Quite Contrary
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Mary had enjoyed looking at her mother from across a room and had always thought her beautiful. But Mary had known so little of her that she could hardly have loved her, and after her mother died, she did not miss her at all. Mary thought only about herself, just as she always had. An older child might have been frightened to find herself alone in the world. Mary was so young, and so used to being cared for, that she simply expected the care to continue. She only wondered whether the people waiting for her would be pleasant, polite, and willing to let her have her own way, as her Ayah and the other servants had done.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            She already knew she would not remain at the English clergyman's house where she had first been taken, and she was glad. The clergyman was poor and had five children close to one another in age. They wore shabby clothes, quarreled constantly, and grabbed toys from one another. Mary hated their messy bungalow. She behaved so badly toward the children that within a day or two, none of them would play with her. By the second day, they had found a nickname for her, and it made her furious.
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            Basil invented it. He was a little boy with bold blue eyes and a turned-up nose, and Mary could not stand him. One day she sat alone beneath a tree, much as she had on the day the cholera came. She was shaping dirt into garden beds and little paths. Basil stopped nearby to watch. Before long, the garden caught his interest, and he leaned over to point at its center.
+        - id: ch01-b04
+          speaker: basil
+          text: >-
+            You could pile some stones right there and make believe it's a rock garden.
+        - id: ch01-b05
+          speaker: mary
+          text: >-
+            Go away! I don't want any boys here. Leave me alone!
+          emotion: angry
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            Basil looked angry for a moment. Then he decided to tease her instead, the way he often teased his sisters. He danced around Mary, pulling faces, laughing, and singing.
+        - id: ch01-b07
+          speaker: basil
+          text: |-
+            Mistress Mary, quite contrary,
+            How does your garden grow?
+            With silver bells, and cockle shells,
+            And marigolds all in a row.
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            He kept singing until the other children heard him and joined in. The angrier Mary became, the more they repeated the words.
+        - id: ch01-b09
+          speakers: [basil, crawford_child_1, crawford_child_2]
+          ensemble: chorus
+          text: >-
+            Mistress Mary, quite contrary!
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            From then on, for as long as she stayed with them, they called her Mistress Mary Quite Contrary, both among themselves and straight to her face.
+        - id: ch01-b11
+          speaker: basil
+          text: >-
+            They're sending you home at the end of the week, and all of us are happy you're going.
+        - id: ch01-b12
+          speaker: mary
+          text: >-
+            I'm happy too. But where is home?
+        - id: ch01-b13
+          speaker: basil
+          text: >-
+            She doesn't even know where home is! England, obviously. Our grandmother lives there. Our sister Mabel went to stay with her last year. But you don't have a grandmother. You're being sent to your uncle, Mr. Archibald Craven.
+        - id: ch01-b14
+          speaker: mary
+          text: >-
+            I know nothing about him.
+        - id: ch01-b15
+          speaker: basil
+          text: >-
+            Of course you don't. You don't know anything. Girls never do. I heard my father and mother talking about him. He lives way out in the country in a huge, lonely old house. Nobody visits him. He's so cross he won't allow it, and nobody would want to go even if he did. His back is hunched, and he's horrible.
+        - id: ch01-b16
+          speaker: mary
+          text: >-
+            I don't believe you.
+        - id: ch01-b17
+          speaker: narrator
+          text: >-
+            Mary turned her back and pushed her fingers into her ears. She would not hear another word. But afterward, she thought about everything Basil had said.
+    - id: ch02
+      title: Sent Away to England
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            That night, Mrs. Crawford told Mary she would sail for England in a few days. There she would live with her uncle, Mr. Archibald Craven, at Misselthwaite Manor. Mary listened with a hard, stubborn face and seemed not to care. The Crawfords did not know what to make of her. They tried to show her kindness, but when Mrs. Crawford bent to kiss her, Mary turned away. When Mr. Crawford patted her shoulder, she held her whole body stiff.
+        - id: ch02-b02
+          speaker: mrs_crawford
+          text: >-
+            She's such a plain little girl, and her mother was so lovely. Her mother had charming manners too. But Mary has the most unpleasant ways I've ever seen in a child. The children call her Mistress Mary Quite Contrary. I know it's naughty, but I can see why they do it.
+        - id: ch02-b03
+          speaker: mr_crawford
+          text: >-
+            Perhaps Mary might have learned some charming ways if her mother had brought that pretty face and those manners into the nursery more often. Now that the poor beautiful woman is gone, it's terribly sad to remember how many people never even knew she had a daughter.
+        - id: ch02-b04
+          speaker: mrs_crawford
+          text: >-
+            I hardly think she ever looked at Mary. Once the Ayah died, no one gave the child a thought. Imagine all those servants running off and leaving her alone in that empty bungalow. Colonel McGrew said he nearly leaped out of his skin when he opened the door and found her standing all by herself in the middle of the room.
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            Mary crossed the ocean under the care of an officer's wife who was taking her own children to boarding school. The woman was busy with her little boy and girl, and she was relieved when they reached London and she could hand Mary over to the woman Mr. Craven had sent.
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            That woman was Mrs. Medlock, the housekeeper at Misselthwaite Manor. She was stout, with bright red cheeks and sharp black eyes. Her dress was deep purple. Over it she wore a black silk mantle edged with shiny fringe, and on her black bonnet stood purple velvet flowers that trembled whenever she moved her head. Mary disliked her at once. That was hardly surprising, since Mary rarely liked anyone. And Mrs. Medlock clearly was not impressed by Mary either.
+        - id: ch02-b07
+          speaker: mrs_medlock
+          text: >-
+            My word, she's a plain little thing! We heard her mother was a beauty. She didn't pass much of that beauty on, did she, ma'am?
+        - id: ch02-b08
+          speaker: officers_wife
+          text: >-
+            Perhaps she'll look better when she's older. Her features aren't bad. If she weren't so yellow and wore a kinder expression, you might notice that. Children can change a great deal.
+        - id: ch02-b09
+          speaker: mrs_medlock
+          text: >-
+            This one will need to change a great deal. And if you ask me, Misselthwaite isn't the place to make a child improve.
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            The women thought Mary was not listening. She stood a short distance away at the private hotel's window, watching buses, cabs, and people go past. But she heard every word, and now she was deeply curious about her uncle and his home. What kind of place was Misselthwaite? What was Mr. Craven like? And what exactly was a hunchback? Mary had never seen one. Perhaps there were no hunchbacks in India.
+    - id: ch03
+      title: The Journey to Yorkshire
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            Since Mary had begun staying in other people's homes without her Ayah, loneliness had crept in. It brought strange thoughts she had never had before. She wondered why she had never belonged to anyone, even when her parents were alive. Other children seemed to belong to their mothers and fathers, but Mary had never felt that she was truly anybody's little girl. Servants had given her food and clothes and waited on her, yet no one had paid attention to her. Mary did not understand that people kept away because she was disagreeable. She often saw disagreeableness in everyone else, but never in herself.
+        - id: ch03-b02
+          speaker: narrator
+          text: >-
+            As far as Mary was concerned, Mrs. Medlock was the most disagreeable person she had ever met, with her ordinary, brightly colored face and her showy bonnet. The next day, when they left for Yorkshire, Mary walked through the station with her head held high. She kept as far from Mrs. Medlock as she could on the way to the train. The idea that anyone might mistake her for Mrs. Medlock's daughter would have made her furious.
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            Mrs. Medlock paid no attention to Mary's feelings. She was a woman who would tolerate no foolishness from children, as she herself would have put it. She had not wanted to leave London just before her niece's wedding. Still, her comfortable position as housekeeper paid well, and keeping it meant obeying Mr. Craven immediately. She did not even dare ask him a question.
+        - id: ch03-b04
+          speaker: mr_craven
+          text: >-
+            Captain Lennox and his wife have died of cholera. He was my wife's brother, so their daughter is now my responsibility. She will live here. Go to London and bring her back yourself.
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            So Mrs. Medlock packed a small trunk and made the journey.
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            In the railway carriage, Mary sat tucked into a corner, looking plain and cross. She had no book and nothing to watch. Her thin hands, covered by black gloves, lay folded in her lap. The black dress made her skin look more yellow than ever, and pale, limp strands of hair escaped beneath her black mourning hat.
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            Mrs. Medlock thought she had never seen such a spoiled, sulky-looking child. In Yorkshire, she would have called Mary marred. She had certainly never known a child who could sit so still and do absolutely nothing. At last, she grew tired of watching and spoke in her brisk, hard voice.
+        - id: ch03-b08
+          speaker: mrs_medlock
+          text: >-
+            I might as well tell you about the place you're going. Do you know anything about your uncle?
+        - id: ch03-b09
+          speaker: mary
+          text: >-
+            No.
+        - id: ch03-b10
+          speaker: mrs_medlock
+          text: >-
+            Your father and mother never spoke about him?
+        - id: ch03-b11
+          speaker: mary
+          text: >-
+            No.
+        - id: ch03-b12
+          speaker: narrator
+          text: >-
+            Mary frowned. Her parents had never spoken to her about anything that mattered. They certainly had never explained things to her.
+        - id: ch03-b13
+          speaker: mrs_medlock
+          text: >-
+            Hmm.
+        - id: ch03-b14
+          speaker: narrator
+          text: >-
+            Mrs. Medlock studied Mary's odd, blank little face. For a few moments, she said nothing. Then she tried again.
+        - id: ch03-b15
+          speaker: mrs_medlock
+          text: >-
+            You ought to hear a little about it, so you'll know what to expect. It's a strange place you're going to.
+        - id: ch03-b16
+          speaker: narrator
+          text: >-
+            Mary gave no answer. Her complete lack of interest unsettled Mrs. Medlock, but the housekeeper took a breath and continued.
+    - id: ch04
+      title: Misselthwaite Manor
+      blocks:
+        - id: ch04-b01
+          speaker: mrs_medlock
+          text: >-
+            It's a grand, enormous place, though gloomy enough. Mr. Craven takes pride in it, in his own gloomy fashion. The house is six hundred years old and stands right at the edge of the moor. It has nearly a hundred rooms, but most are closed and locked. There are paintings, beautiful old furniture, and things that have been there for centuries. A great park surrounds it, with gardens and trees. Some of the branches trail all the way to the ground.
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            Mrs. Medlock paused for another breath.
+        - id: ch04-b03
+          speaker: mrs_medlock
+          text: >-
+            And that's all there is.
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            In spite of herself, Mary was listening now. Everything sounded completely unlike India, and anything unfamiliar caught her interest. But she refused to show it. That was another of her unhappy habits, so she stayed perfectly still.
+        - id: ch04-b05
+          speaker: mrs_medlock
+          text: >-
+            Well? What do you make of all that?
+        - id: ch04-b06
+          speaker: mary
+          text: >-
+            Nothing. I've never known a place like that.
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            Mrs. Medlock gave a short laugh.
+        - id: ch04-b08
+          speaker: mrs_medlock
+          text: >-
+            Listen to you. You sound like an old woman. Don't you care at all?
+        - id: ch04-b09
+          speaker: mary
+          text: >-
+            It makes no difference whether I care.
+        - id: ch04-b10
+          speaker: mrs_medlock
+          text: >-
+            You're right about that. It doesn't make any difference. I don't know why you're being kept at Misselthwaite, except that it's the simplest arrangement. He certainly won't bother with you. He never bothers with anyone.
+        - id: ch04-b11
+          speaker: narrator
+          text: >-
+            Mrs. Medlock stopped, as though she had nearly said too much. Then she chose another part of the story.
+        - id: ch04-b12
+          speaker: mrs_medlock
+          text: >-
+            His back is crooked. That's what made him bitter. He was a sour young man who got no pleasure from his money or that great house, not until he married.
+        - id: ch04-b13
+          speaker: narrator
+          text: >-
+            Mary could not keep her eyes from turning toward Mrs. Medlock. She had never imagined that the hunchback might have had a wife, and the thought surprised her. Mrs. Medlock noticed. Since she enjoyed talking, she warmed to her story. At least it helped pass the time.
+        - id: ch04-b14
+          speaker: mrs_medlock
+          text: >-
+            She was sweet and beautiful. If she'd asked for one blade of grass, he would have crossed the whole world to fetch it. No one expected her to marry him. People claimed she only wanted his money, but that wasn't true. It was not true. And then she died...
+        - id: ch04-b15
+          speaker: narrator
+          text: >-
+            Mary gave a small, sudden jump.
+        - id: ch04-b16
+          speaker: mary
+          text: >-
+            Oh! She died?
+          emotion: surprised
+        - id: ch04-b17
+          speaker: narrator
+          text: >-
+            The words escaped before Mary could stop them. She had remembered a French fairy tale she once read, Riquet with the Tuft. It was about a poor hunchback and a beautiful princess, and for the first time she felt sorry for Mr. Archibald Craven.
+        - id: ch04-b18
+          speaker: mrs_medlock
+          text: >-
+            Yes, she died. After that, he became stranger than ever. He cares for no one and refuses to see people. Most of the time he's away. When he does come to Misselthwaite, he locks himself in the West Wing and sees no one but Pitcher. Pitcher is an old man who looked after him when he was a boy, so he understands his ways.
+        - id: ch04-b19
+          speaker: narrator
+          text: >-
+            It sounded like something from a book, but it did not cheer Mary. A house at the edge of a moor, whatever a moor might be. Nearly a hundred rooms, most of them locked. And a man with a crooked back who locked himself away too. She pressed her lips together and stared through the window. Rain had begun to pour in slanting gray lines, splashing and streaming down the glass. Somehow, that seemed exactly right.
+        - id: ch04-b20
+          speaker: narrator
+          text: >-
+            If the lovely wife had lived, perhaps she could have brightened the house. Mary imagined someone like her own mother, hurrying in and out, going to parties in dresses covered with lace. But Mr. Craven's wife was gone.
+        - id: ch04-b21
+          speaker: mrs_medlock
+          text: >-
+            Don't expect to meet him, because you almost certainly won't. And don't think there will be people waiting to talk to you. You'll have to amuse yourself and take care of yourself. Someone will tell you which rooms you may enter and which ones are forbidden. There are plenty of gardens. But inside the house, don't wander around or pry into things. Mr. Craven won't allow that.
+        - id: ch04-b22
+          speaker: mary
+          text: >-
+            I won't want to wander around and pry.
+        - id: ch04-b23
+          speaker: narrator
+          text: >-
+            Mary spoke sourly. Just as quickly as she had begun to pity Mr. Craven, she stopped. Now she decided he was unpleasant enough to deserve everything that had happened to him.
+        - id: ch04-b24
+          speaker: narrator
+          text: >-
+            She turned back to the streaming window and watched the gray storm. It looked as though the rain might last forever. Mary stared so long that the grayness grew heavier and heavier before her eyes. At last, she fell asleep.

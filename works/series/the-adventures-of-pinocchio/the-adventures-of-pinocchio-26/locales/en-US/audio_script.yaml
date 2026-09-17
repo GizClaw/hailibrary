@@ -1,0 +1,163 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and story-rich
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    pinocchio:
+      display_name: Pinocchio
+      tts:
+        delivery: impulsive and defiant
+        timbre: bright and wooden
+        pace: quick
+        pitch: medium-high
+    little_woman:
+      display_name: Little Woman
+      tts:
+        delivery: kind and gently playful
+        timbre: soft and luminous
+        pace: unhurried
+        pitch: medium-high
+    schoolboy_1:
+      display_name: First Schoolboy
+      tts:
+        delivery: bold and taunting
+        timbre: youthful and sharp
+        pace: quick
+        pitch: medium-high
+    schoolboy_2:
+      display_name: Second Schoolboy
+      tts:
+        delivery: mischievous and animated
+        timbre: youthful and clear
+        pace: lively
+        pitch: high
+    schoolboy_3:
+      display_name: Third Schoolboy
+      tts:
+        delivery: sly and teasing
+        timbre: youthful and light
+        pace: brisk
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: A Puppet at School
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: The next day, Pinocchio went to the government school. Imagine how delighted all those little rogues were when a puppet walked into their school! They let out a roar of laughter that seemed as if it would never end. Then they tried every trick they could think of. One snatched his cap. Another tugged the back of his jacket. A boy tried to paint an inky mustache under his nose, while another tried to tie strings to his hands and feet and make him dance.
+        - id: ch01-b02
+          speaker: narrator
+          text: For a while, Pinocchio acted as though none of it bothered him. He put up with the missing cap, the tugging, and all the other teasing, and he did his best to carry on. At last, his patience ran out. He turned on the boys who had bothered him the most and glared at them angrily.
+        - id: ch01-b03
+          speaker: pinocchio
+          text: Watch yourselves, boys! I didn't come here to be your clown. I treat other people with respect, and you'd better respect me too.
+          emotion: angry
+        - id: ch01-b04
+          speakers: [schoolboy_1, schoolboy_2, schoolboy_3]
+          ensemble: chorus
+          text: Listen to the big talker! He sounds just like a schoolbook!
+        - id: ch01-b05
+          speaker: narrator
+          text: The young rascals howled with laughter. The rudest one reached out to grab Pinocchio by the tip of his nose. He was too slow. From beneath the desk, Pinocchio shot out a leg and kicked him hard in the shin.
+        - id: ch01-b06
+          speaker: schoolboy_1
+          text: Ow! His feet are hard as rocks!
+          emotion: surprised
+        - id: ch01-b07
+          speaker: narrator
+          text: The boy yelled and rubbed the bruise Pinocchio had given him.
+        - id: ch01-b08
+          speaker: schoolboy_2
+          text: You should feel his elbows. They're even harder than his feet!
+        - id: ch01-b09
+          speaker: narrator
+          text: That boy had been playing his own rude tricks and had taken a blow in the stomach. Strange as it may seem, the kick and the jab won Pinocchio the sympathy and respect of every boy in the school. They all made friends with him and soon liked him very much.
+    - id: ch02
+      title: Too Many Friends
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Even the schoolmaster praised Pinocchio. He was attentive, eager to learn, and clever. Every day, he arrived before anyone else and stayed until everyone else had gone home.
+        - id: ch02-b02
+          speaker: narrator
+          text: But Pinocchio had one fault. He made far too many friends, including several young rascals who were famous for hating their lessons and loving trouble. His schoolmaster warned him every day. The good Fairy warned him again and again too.
+        - id: ch02-b03
+          speaker: little_woman
+          text: Be careful, Pinocchio. Sooner or later, those bad schoolmates will make you stop caring about your studies. They may even bring some terrible trouble down on you.
+        - id: ch02-b04
+          speaker: pinocchio
+          text: That won't happen to me!
+        - id: ch02-b05
+          speaker: narrator
+          text: The puppet shrugged and tapped his forehead, as if to say that he had plenty of sense in there.
+    - id: ch03
+      title: The Terrible Dog-Fish
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Then, one fine day, Pinocchio met several of his usual companions on the way to school. They hurried up to him.
+        - id: ch03-b02
+          speakers: [schoolboy_1, schoolboy_2, schoolboy_3]
+          ensemble: chorus
+          text: Have you heard the big news?
+        - id: ch03-b03
+          speaker: pinocchio
+          text: No. What happened?
+        - id: ch03-b04
+          speaker: schoolboy_1
+          text: A Dog-Fish as big as a mountain has shown up in the sea near here.
+        - id: ch03-b05
+          speaker: pinocchio
+          text: Really? Could it be the same Dog-Fish that was there when my papa drowned?
+          emotion: surprised
+        - id: ch03-b06
+          speaker: schoolboy_2
+          text: We're going down to the shore to see him. Want to come?
+        - id: ch03-b07
+          speaker: pinocchio
+          text: No. I'm going to school.
+        - id: ch03-b08
+          speaker: schoolboy_3
+          text: Who cares about school? We can go tomorrow. One lesson more or less won't change anything. We'll still be the same donkeys.
+        - id: ch03-b09
+          speaker: pinocchio
+          text: But what will the schoolmaster say?
+        - id: ch03-b10
+          speaker: schoolboy_1
+          text: Let him say whatever he wants. He gets paid to grumble all day.
+        - id: ch03-b11
+          speaker: pinocchio
+          text: What about my mamma?
+        - id: ch03-b12
+          speakers: [schoolboy_1, schoolboy_2, schoolboy_3]
+          ensemble: chorus
+          text: Mammas don't know anything.
+        - id: ch03-b13
+          speaker: pinocchio
+          text: Here's what I'll do. I have my own reasons for wanting to see the Dog-Fish, but I'll go after school.
+        - id: ch03-b14
+          speaker: schoolboy_2
+          text: You poor donkey! Do you think a fish that big will wait until you're ready? The moment he gets tired of this place, he'll swim off somewhere else. Then you'll be too late.
+        - id: ch03-b15
+          speaker: pinocchio
+          text: How long would it take us to get to the shore?
+        - id: ch03-b16
+          speaker: schoolboy_3
+          text: We can go there and come back in an hour.
+        - id: ch03-b17
+          speaker: pinocchio
+          text: Then let's go! Whoever runs fastest is the best!
+        - id: ch03-b18
+          speaker: narrator
+          text: That was the signal. The boys raced across the fields with their books and copybooks tucked under their arms. Pinocchio stayed out in front, as if he had wings on his feet.
+        - id: ch03-b19
+          speaker: narrator
+          text: Now and then, he looked back to tease the others. They were far behind, panting for breath, covered in dust, with their tongues hanging out. Pinocchio laughed with all his heart.
+        - id: ch03-b20
+          speaker: narrator
+          text: The unfortunate boy had no idea what terror and dreadful disasters were waiting for him.

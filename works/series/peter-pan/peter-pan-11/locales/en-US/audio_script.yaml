@@ -1,0 +1,741 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant, and gently playful
+        timbre: clear and story-rich
+        pace: measured
+        pitch: medium
+    peter:
+      display_name: Peter Pan
+      tts:
+        delivery: daring, playful, and proudly matter-of-fact
+        timbre: bright and boyish
+        pace: lively
+        pitch: high
+    wendy:
+      display_name: Wendy
+      tts:
+        delivery: thoughtful, practical, and naturally confident
+        timbre: bright and youthful
+        pace: easy
+        pitch: high
+    nibs:
+      display_name: Nibs
+      tts:
+        delivery: frank, energetic, and mischievous
+        timbre: clear and boyish
+        pace: brisk
+        pitch: medium-high
+    john:
+      display_name: John
+      tts:
+        delivery: sensible, assertive, and slightly proper
+        timbre: youthful and clear
+        pace: measured
+        pitch: medium-high
+    first_twin:
+      display_name: First Twin
+      tts:
+        delivery: lively, loyal, and matter-of-fact
+        timbre: bright and boyish
+        pace: brisk
+        pitch: high
+    second_twin:
+      display_name: Second Twin
+      tts:
+        delivery: lively, loyal, and matter-of-fact
+        timbre: bright and boyish
+        pace: brisk
+        pitch: high
+    tootles:
+      display_name: Tootles
+      tts:
+        delivery: humble, hesitant, and sweetly earnest
+        timbre: soft and boyish
+        pace: unhurried
+        pitch: medium-high
+    michael:
+      display_name: Michael
+      tts:
+        delivery: young, blunt, and comfortably certain
+        timbre: small and bright
+        pace: quick
+        pitch: high
+    curly:
+      display_name: Curly
+      tts:
+        delivery: playful, impulsive, and quick to protest
+        timbre: light and boyish
+        pace: brisk
+        pitch: high
+    tinker_bell:
+      display_name: Tinker Bell
+      tts:
+        delivery: fiery, impudent, and sharply expressive
+        timbre: tiny and bell-bright
+        pace: quick
+        pitch: very high
+  chapters:
+    - id: ch01
+      title: Wendy's Story
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Wendy settled down to tell her story. Michael sat at her feet, and all seven boys squeezed together on the bed.
+        - id: ch01-b02
+          speaker: wendy
+          text: >-
+            All right, listen. Once there was a gentleman—
+        - id: ch01-b03
+          speaker: curly
+          text: >-
+            I'd rather it started with a lady.
+        - id: ch01-b04
+          speaker: nibs
+          text: >-
+            I wish it started with a white rat!
+        - id: ch01-b05
+          speaker: wendy
+          text: >-
+            Boys, quiet. There was a lady too, and—
+        - id: ch01-b06
+          speaker: first_twin
+          text: >-
+            Oh, Mother, you mean there still is a lady, don't you? She isn't dead, is she?
+        - id: ch01-b07
+          speaker: wendy
+          text: >-
+            No, no. She isn't dead.
+        - id: ch01-b08
+          speaker: tootles
+          text: >-
+            I'm so glad. Aren't you glad, John?
+          emotion: happy
+        - id: ch01-b09
+          speaker: john
+          text: >-
+            Naturally.
+        - id: ch01-b10
+          speaker: tootles
+          text: >-
+            What about you, Nibs?
+        - id: ch01-b11
+          speaker: nibs
+          text: >-
+            Very glad.
+        - id: ch01-b12
+          speaker: tootles
+          text: >-
+            And you two, Twins?
+        - id: ch01-b13
+          speakers: [first_twin, second_twin]
+          ensemble: duo
+          text: >-
+            We're glad too.
+        - id: ch01-b14
+          speaker: wendy
+          text: >-
+            Oh, dear.
+        - id: ch01-b15
+          speaker: narrator
+          text: >-
+            Peter thought the story was dreadful, but he was determined that Wendy should get a fair hearing.
+        - id: ch01-b16
+          speaker: peter
+          text: >-
+            Keep the noise down over there.
+        - id: ch01-b17
+          speaker: wendy
+          text: >-
+            The gentleman was Mr. Darling, and the lady was Mrs. Darling.
+        - id: ch01-b18
+          speaker: john
+          text: >-
+            I knew them.
+        - id: ch01-b19
+          speaker: narrator
+          text: >-
+            John only said that to make the others jealous.
+        - id: ch01-b20
+          speaker: michael
+          text: >-
+            I think maybe I knew them too.
+        - id: ch01-b21
+          speaker: wendy
+          text: >-
+            They were married. And can you guess what they had?
+        - id: ch01-b22
+          speaker: nibs
+          text: >-
+            White rats!
+        - id: ch01-b23
+          speaker: wendy
+          text: >-
+            No.
+        - id: ch01-b24
+          speaker: tootles
+          text: >-
+            This is really hard to guess.
+        - id: ch01-b25
+          speaker: narrator
+          text: >-
+            Tootles knew the whole story by heart.
+        - id: ch01-b26
+          speaker: wendy
+          text: >-
+            Hush, Tootles. They had three descendants.
+        - id: ch01-b27
+          speaker: first_twin
+          text: >-
+            What's a descendant?
+        - id: ch01-b28
+          speaker: wendy
+          text: >-
+            Well, you're one, Twin.
+        - id: ch01-b29
+          speaker: first_twin
+          text: >-
+            Did you hear that, John? I'm a descendant!
+          emotion: happy
+        - id: ch01-b30
+          speaker: john
+          text: >-
+            It only means you're a child.
+        - id: ch01-b31
+          speaker: wendy
+          text: >-
+            Oh, dear, oh, dear. Now, the three children had a faithful nurse named Nana. Mr. Darling got angry with her and chained her in the yard. That was how all three children came to fly away.
+        - id: ch01-b32
+          speaker: nibs
+          text: >-
+            This story is awfully good.
+        - id: ch01-b33
+          speaker: wendy
+          text: >-
+            They flew all the way to the Neverland, where the lost children live.
+        - id: ch01-b34
+          speaker: curly
+          text: >-
+            I knew it! Somehow, I knew that's where they went!
+        - id: ch01-b35
+          speaker: tootles
+          text: >-
+            Wendy, was one of those lost children named Tootles?
+        - id: ch01-b36
+          speaker: wendy
+          text: >-
+            Yes, one was.
+        - id: ch01-b37
+          speaker: tootles
+          text: >-
+            Nibs, I'm in a story! Hurrah! I'm really in it!
+          emotion: happy
+        - id: ch01-b38
+          speaker: wendy
+          text: >-
+            Hush now. I want you to imagine those poor parents after every one of their children had flown away.
+        - id: ch01-b39
+          speakers: [tootles, nibs, curly, first_twin]
+          ensemble: chorus
+          text: >-
+            Ooooh!
+        - id: ch01-b40
+          speaker: narrator
+          text: >-
+            They moaned nicely, though not one of them was really thinking about the poor parents.
+        - id: ch01-b41
+          speaker: wendy
+          text: >-
+            Just think of all those empty beds!
+        - id: ch01-b42
+          speakers: [tootles, nibs, curly, second_twin]
+          ensemble: chorus
+          text: >-
+            Ooooh!
+        - id: ch01-b43
+          speaker: first_twin
+          text: >-
+            What a terribly sad story!
+          emotion: happy
+        - id: ch01-b44
+          speaker: second_twin
+          text: >-
+            I can't imagine how this could end happily. Can you, Nibs?
+        - id: ch01-b45
+          speaker: nibs
+          text: >-
+            I'm terribly worried.
+        - id: ch01-b46
+          speaker: wendy
+          text: >-
+            If you understood how powerful a mother's love is, you wouldn't worry at all.
+        - id: ch01-b47
+          speaker: narrator
+          text: >-
+            Wendy had reached the part Peter hated most. Tootles struck Nibs with a pillow.
+        - id: ch01-b48
+          speaker: tootles
+          text: >-
+            I like a mother's love. Do you like it, Nibs?
+        - id: ch01-b49
+          speaker: nibs
+          text: >-
+            I certainly do!
+        - id: ch01-b50
+          speaker: narrator
+          text: >-
+            Nibs hit him back.
+        - id: ch01-b51
+          speaker: wendy
+          text: >-
+            You see, our heroine knew her mother would always keep the window open, waiting for her children to fly home. So the children stayed away for years and had a wonderful time.
+        - id: ch01-b52
+          speaker: nibs
+          text: >-
+            But did they go home in the end?
+        - id: ch01-b53
+          speaker: wendy
+          text: >-
+            Now let's look ahead into the future.
+        - id: ch01-b54
+          speaker: narrator
+          text: >-
+            Everyone gave the little twist that makes it easier to look into the future. Wendy gathered herself for the finest part of her performance.
+        - id: ch01-b55
+          speaker: wendy
+          text: >-
+            Many years have passed. Who is that elegant lady, no longer quite young, stepping down at London Station?
+        - id: ch01-b56
+          speaker: nibs
+          text: >-
+            Oh, Wendy, who can she be?
+        - id: ch01-b57
+          speaker: narrator
+          text: >-
+            Nibs sounded as excited as though he did not already know.
+        - id: ch01-b58
+          speaker: wendy
+          text: >-
+            Could it be? Yes! No! Why, it is the lovely Wendy herself!
+        - id: ch01-b59
+          speakers: [tootles, nibs, curly, first_twin]
+          ensemble: chorus
+          text: >-
+            Oh!
+        - id: ch01-b60
+          speaker: wendy
+          text: >-
+            And who are those two fine, well-rounded gentlemen beside her, both grown into men? Could they be John and Michael? They are!
+        - id: ch01-b61
+          speakers: [tootles, nibs, curly, second_twin]
+          ensemble: chorus
+          text: >-
+            Oh!
+        - id: ch01-b62
+          speaker: wendy
+          text: >-
+            Look, dear brothers. The window is still open. At last, our noble faith in a mother's love has been rewarded! Then they flew up to their mother and father. No words could possibly describe that happy scene, so we shall gently draw a curtain over it.
+        - id: ch01-b63
+          speaker: narrator
+          text: >-
+            That was the end, and the boys were every bit as pleased as Wendy was. Everything had turned out exactly as it should. Children fly away without a thought and enjoy themselves selfishly. Then, the moment they want special care, they return with noble confidence, expecting a reward instead of a scolding.
+        - id: ch01-b64
+          speaker: narrator
+          text: >-
+            Their faith in a mother's love was so great that they felt perfectly safe being heartless a little longer.
+    - id: ch02
+      title: What Peter Knew
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            But one person in the room believed he knew better. As soon as Wendy finished, Peter gave a hollow groan.
+        - id: ch02-b02
+          speaker: wendy
+          text: >-
+            Peter, what's wrong?
+          emotion: fearful
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            Wendy ran over, afraid he was sick, and felt around below his chest.
+        - id: ch02-b04
+          speaker: wendy
+          text: >-
+            Where does it hurt, Peter?
+        - id: ch02-b05
+          speaker: peter
+          text: >-
+            It isn't that sort of hurt.
+        - id: ch02-b06
+          speaker: wendy
+          text: >-
+            Then what sort is it?
+        - id: ch02-b07
+          speaker: peter
+          text: >-
+            Wendy, what you said about mothers isn't true.
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            His distress was so frightening that everyone crowded close. Then, with perfect honesty, Peter told them the thing he had always kept secret.
+        - id: ch02-b09
+          speaker: peter
+          text: >-
+            A long time ago, I believed what you believe. I thought my mother would keep my window open forever. So I stayed away for moon after moon after moon. When I finally flew back, the window had bars across it. My mother had forgotten me, and another little boy was asleep in my bed.
+          emotion: sad
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            Perhaps Peter's story was not true. Still, Peter believed it, and every child in the room was scared.
+        - id: ch02-b11
+          speaker: first_twin
+          text: >-
+            Are you certain mothers really do that?
+          emotion: fearful
+        - id: ch02-b12
+          speaker: peter
+          text: >-
+            Yes.
+        - id: ch02-b13
+          speaker: narrator
+          text: >-
+            So that was the truth about mothers. What toads they were! Better to be careful. And children always know the moment when they ought to give in.
+        - id: ch02-b14
+          speakers: [john, michael]
+          ensemble: duo
+          text: >-
+            Wendy, let's go home!
+          emotion: fearful
+        - id: ch02-b15
+          speaker: wendy
+          text: >-
+            Yes. We'll go.
+        - id: ch02-b16
+          speaker: narrator
+          text: >-
+            She clutched both her brothers.
+        - id: ch02-b17
+          speaker: tootles
+          text: >-
+            You don't mean tonight, do you?
+          emotion: surprised
+        - id: ch02-b18
+          speaker: narrator
+          text: >-
+            The lost boys were bewildered. Deep in what they called their hearts, they knew a boy could manage perfectly well without a mother. Only mothers thought he could not.
+        - id: ch02-b19
+          speaker: wendy
+          text: >-
+            We have to leave right now.
+        - id: ch02-b20
+          speaker: narrator
+          text: >-
+            A horrible thought had struck her. Perhaps her mother was already wearing half-mourning for her. The fear was so strong that Wendy forgot how Peter must feel.
+        - id: ch02-b21
+          speaker: wendy
+          text: >-
+            Peter, please make all the arrangements.
+        - id: ch02-b22
+          speaker: narrator
+          text: >-
+            Her voice was rather sharp.
+        - id: ch02-b23
+          speaker: peter
+          text: >-
+            If that's what you want.
+        - id: ch02-b24
+          speaker: narrator
+          text: >-
+            Peter answered as coolly as if Wendy had asked him to pass the nuts. Neither one said a single sorry word about parting. If Wendy did not care, Peter meant to show that he did not care either.
+        - id: ch02-b25
+          speaker: narrator
+          text: >-
+            Of course, Peter cared very much. He was furious with the grown-ups for spoiling everything again. Once inside his tree, he began taking quick, sharp breaths on purpose, about five every second. The Neverland has a saying that a grown-up dies each time you breathe. Peter was angrily trying to finish them off as fast as he could.
+    - id: ch03
+      title: Tootles Stands Up
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            Peter gave the necessary orders to the island warriors, then returned to the underground home. While he was gone, a shameful scene had begun. The lost boys panicked at the thought of losing Wendy. They moved toward her in a threatening way.
+        - id: ch03-b02
+          speaker: curly
+          text: >-
+            Everything will be worse than it was before she came!
+          emotion: fearful
+        - id: ch03-b03
+          speaker: nibs
+          text: >-
+            We won't allow her to leave!
+          emotion: angry
+        - id: ch03-b04
+          speaker: first_twin
+          text: >-
+            We could make her our prisoner.
+        - id: ch03-b05
+          speaker: second_twin
+          text: >-
+            Yes, let's put her in chains.
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            At that desperate moment, Wendy's instinct told her exactly which boy to call on.
+        - id: ch03-b07
+          speaker: wendy
+          text: >-
+            Tootles, help me. I'm counting on you!
+          emotion: fearful
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            It was strange that she chose Tootles, the silliest boy of them all. But Tootles answered magnificently. For one moment, all his silliness fell away, and he spoke with dignity.
+        - id: ch03-b09
+          speaker: tootles
+          text: >-
+            I'm only Tootles, and nobody ever listens to me. But if anyone here fails to treat Wendy like an English gentleman should, I'll make him bleed for it.
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            He drew back his sword. For that one instant, his sun stood at noon. The others backed away uneasily. Then Peter came in, and they knew at once that he would not take their side. Peter would never hold any girl in the Neverland if she wanted to leave.
+        - id: ch03-b11
+          speaker: peter
+          text: >-
+            Wendy, the island warriors will guide you safely through the woods. Flying makes you tired.
+        - id: ch03-b12
+          speaker: narrator
+          text: >-
+            Peter strode back and forth as he spoke.
+        - id: ch03-b13
+          speaker: wendy
+          text: >-
+            Thank you, Peter.
+        - id: ch03-b14
+          speaker: peter
+          text: >-
+            After that, Tinker Bell will guide you over the sea. Nibs, wake her up.
+        - id: ch03-b15
+          speaker: narrator
+          text: >-
+            His voice was short and sharp, the voice of someone used to being obeyed. Nibs knocked twice before Tinker Bell answered, though she had been sitting awake in bed for quite a while, listening.
+        - id: ch03-b16
+          speaker: tinker_bell
+          text: >-
+            Who's there? How dare you bother me? Go away!
+          emotion: angry
+        - id: ch03-b17
+          speaker: nibs
+          text: >-
+            Get up, Tink. You're supposed to take Wendy on a journey.
+        - id: ch03-b18
+          speaker: narrator
+          text: >-
+            Tinker Bell was delighted that Wendy was leaving. But she had no intention of serving as Wendy's guide, and she said so in even ruder words. Then she pretended to fall asleep again.
+        - id: ch03-b19
+          speaker: nibs
+          text: >-
+            She says she won't do it!
+          emotion: surprised
+        - id: ch03-b20
+          speaker: narrator
+          text: >-
+            Nibs was shocked by such disobedience. Peter marched sternly toward Tink's little room.
+        - id: ch03-b21
+          speaker: peter
+          text: >-
+            Tink, get up and get dressed right now, or I'll open your curtains and let everyone see you in your nightclothes.
+          emotion: angry
+        - id: ch03-b22
+          speaker: narrator
+          text: >-
+            Tinker Bell sprang straight to the floor.
+        - id: ch03-b23
+          speaker: tinker_bell
+          text: >-
+            Who ever said I wasn't getting up?
+          emotion: angry
+    - id: ch04
+      title: The Choice to Leave
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            Meanwhile, Wendy stood ready for the journey with John and Michael. The lost boys stared at her sadly. They were unhappy about losing her, of course. But they were also beginning to suspect that she was going somewhere wonderful and had not invited them. As always, the promise of something new was calling.
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            Wendy mistook their feelings for something nobler, and her heart softened.
+        - id: ch04-b03
+          speaker: wendy
+          text: >-
+            Dear boys, why don't you all come home with me? I'm almost certain my mother and father will adopt every one of you.
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            She meant the invitation especially for Peter. But each boy thought only of himself and leaped for joy.
+        - id: ch04-b05
+          speaker: nibs
+          text: >-
+            Won't that be too many children for them?
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            Nibs asked while he was still in the middle of his jump. Wendy worked out the details as fast as she could.
+        - id: ch04-b07
+          speaker: wendy
+          text: >-
+            Oh, no. We'll only need a few extra beds in the drawing room. On first Thursdays, we can hide them behind the screens.
+        - id: ch04-b08
+          speakers: [nibs, tootles, curly, first_twin]
+          ensemble: chorus
+          text: >-
+            Peter, may we go with her? Please?
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            They assumed Peter would come if he let them go. The truth was, they hardly cared whether he did. Children are always ready to leave the ones they love best when something new comes knocking.
+        - id: ch04-b10
+          speaker: peter
+          text: >-
+            All right. You can go.
+        - id: ch04-b11
+          speaker: narrator
+          text: >-
+            Peter gave them a bitter smile. At once, the boys rushed away to gather their things. Wendy thought she had solved everything.
+        - id: ch04-b12
+          speaker: wendy
+          text: >-
+            Before we leave, Peter, it's time for your medicine.
+        - id: ch04-b13
+          speaker: narrator
+          text: >-
+            Wendy loved giving the boys medicine and probably gave them far too much. It was only water, but it came from a bottle. She always shook the bottle and carefully counted the drops, which made it seem like real medicine. But this time Peter never drank it. As soon as Wendy prepared the dose, she saw his face, and her heart sank.
+        - id: ch04-b14
+          speaker: wendy
+          text: >-
+            Peter, go and get your things!
+          emotion: fearful
+        - id: ch04-b15
+          speaker: narrator
+          text: >-
+            Her voice shook.
+        - id: ch04-b16
+          speaker: peter
+          text: >-
+            No. I'm not going with you, Wendy.
+        - id: ch04-b17
+          speaker: narrator
+          text: >-
+            He tried to sound as though it did not matter.
+        - id: ch04-b18
+          speaker: wendy
+          text: >-
+            Yes, you are, Peter.
+        - id: ch04-b19
+          speaker: peter
+          text: >-
+            No, I'm not.
+        - id: ch04-b20
+          speaker: narrator
+          text: >-
+            To prove her leaving meant nothing to him, Peter skipped around the room and played a merry tune on his heartless pipes. Wendy had to chase after him, though it was not very dignified.
+        - id: ch04-b21
+          speaker: wendy
+          text: >-
+            But you could find your mother.
+        - id: ch04-b22
+          speaker: narrator
+          text: >-
+            She coaxed him, but Peter no longer missed having a mother, if he had ever truly had one. He had considered mothers carefully and remembered only the bad things about them.
+        - id: ch04-b23
+          speaker: peter
+          text: >-
+            No. She might tell me I've grown old. I want to stay a little boy forever and always have fun.
+        - id: ch04-b24
+          speaker: wendy
+          text: >-
+            Oh, Peter—
+        - id: ch04-b25
+          speaker: peter
+          text: >-
+            No.
+        - id: ch04-b26
+          speaker: narrator
+          text: >-
+            Wendy had to tell the others.
+        - id: ch04-b27
+          speaker: wendy
+          text: >-
+            Peter isn't coming with us.
+        - id: ch04-b28
+          speaker: narrator
+          text: >-
+            Peter, not coming? The boys stared at him. Each carried a stick over his shoulder with a bundle tied to it. Their first thought was that Peter must have changed his mind about letting them go. But he was much too proud to stop them.
+        - id: ch04-b29
+          speaker: peter
+          text: >-
+            If you manage to find your mothers, I hope you enjoy them.
+        - id: ch04-b30
+          speaker: narrator
+          text: >-
+            His dark words made everyone uncomfortable. Most of the boys began to have doubts. Their faces seemed to ask whether leaving might be a foolish idea after all.
+        - id: ch04-b31
+          speaker: peter
+          text: >-
+            That's enough. No fussing and no crying. Good-bye, Wendy.
+        - id: ch04-b32
+          speaker: narrator
+          text: >-
+            Peter held out his hand cheerfully, as though it was time for them to go because he had more important things to do. Wendy had no choice but to take it. He gave no sign that he would rather have a thimble.
+        - id: ch04-b33
+          speaker: wendy
+          text: >-
+            You'll remember to change your flannels, won't you, Peter?
+        - id: ch04-b34
+          speaker: narrator
+          text: >-
+            Wendy lingered. She was always particular about the boys' flannels.
+        - id: ch04-b35
+          speaker: peter
+          text: >-
+            Yes.
+        - id: ch04-b36
+          speaker: wendy
+          text: >-
+            And you'll take your medicine?
+        - id: ch04-b37
+          speaker: peter
+          text: >-
+            Yes.
+        - id: ch04-b38
+          speaker: narrator
+          text: >-
+            There seemed to be nothing else to say. An awkward silence followed, but Peter would never break down in front of other people.
+        - id: ch04-b39
+          speaker: peter
+          text: >-
+            Are you ready, Tinker Bell?
+        - id: ch04-b40
+          speaker: tinker_bell
+          text: >-
+            Aye, aye!
+        - id: ch04-b41
+          speaker: peter
+          text: >-
+            Then go on. Lead the way.
+        - id: ch04-b42
+          speaker: narrator
+          text: >-
+            Tinker Bell shot up the nearest tree. No one followed her. At that very moment, the pirates launched their terrible attack on the warriors above. The quiet air split open with screams and clashing steel.
+        - id: ch04-b43
+          speaker: narrator
+          text: >-
+            Down in the home, everyone went completely silent. Their mouths fell open and stayed that way. Wendy dropped to her knees, reaching both arms toward Peter. Every other arm reached toward him too, as if a sudden wind had blown them all his way. Without speaking, they begged him not to leave them now.
+        - id: ch04-b44
+          speaker: narrator
+          text: >-
+            Peter seized his sword, the very sword he believed had killed Barbecue. The hunger for battle shone in his eyes.

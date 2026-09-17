@@ -1,0 +1,554 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖机敏，带着含蓄的幽默讲述
+        timbre: 清澈柔和
+        pace: 从容而富于变化
+        pitch: 中音
+    wendy:
+      display_name: 温迪
+      tts:
+        delivery: 天真笃定，懂事中带一点小大人的口气
+        timbre: 明亮稚嫩
+        pace: 轻快自然
+        pitch: 中高音
+    john:
+      display_name: 约翰
+      tts:
+        delivery: 认真自信，模仿大人时一本正经
+        timbre: 清亮稚嫩
+        pace: 明快利落
+        pitch: 中高音
+    michael:
+      display_name: 迈克尔
+      tts:
+        delivery: 年幼直率，任性时理直气壮
+        timbre: 柔软稚气
+        pace: 短促活泼
+        pitch: 高音
+    peter:
+      display_name: 彼得·潘
+      tts:
+        delivery: 神气活现又天真任性，兴奋时像快乐的小公鸡
+        timbre: 清脆明亮
+        pace: 敏捷跳脱
+        pitch: 中高音
+    tinker_bell:
+      display_name: 小叮当
+      tts:
+        delivery: 伶俐急躁，生气时像一串尖锐的小铃
+        timbre: 晶莹细亮
+        pace: 飞快
+        pitch: 高音
+    tootles:
+      display_name: 嘟嘟
+      tts:
+        delivery: 谦逊温和，紧张时仍旧认真
+        timbre: 柔和稚嫩
+        pace: 稍慢
+        pitch: 中高音
+    nibs:
+      display_name: 尼布斯
+      tts:
+        delivery: 快活爽朗，惊奇时直率热切
+        timbre: 清亮稚嫩
+        pace: 明快
+        pitch: 中高音
+    slightly:
+      display_name: 斯莱特利
+      tts:
+        delivery: 自负爱表现，讲话总像比别人多懂一点
+        timbre: 清脆偏亮
+        pace: 轻快
+        pitch: 中高音
+    curly:
+      display_name: 卷毛
+      tts:
+        delivery: 淘气机灵，反应又快又直接
+        timbre: 活泼清亮
+        pace: 明快
+        pitch: 中高音
+    twin_1:
+      display_name: 双胞胎哥哥
+      tts:
+        delivery: 乖顺谨慎，说话带一点迟疑
+        timbre: 稚嫩清亮
+        pace: 适中
+        pitch: 中高音
+    twin_2:
+      display_name: 双胞胎弟弟
+      tts:
+        delivery: 乖顺谨慎，常跟着哥哥开口
+        timbre: 稚嫩柔和
+        pace: 适中
+        pitch: 高音
+    unidentified_boy_1:
+      display_name: 一个孩子
+      tts:
+        delivery: 年幼直率，紧张时脱口而出
+        timbre: 清亮稚嫩
+        pace: 适中
+        pitch: 中高音
+    unidentified_boy_2:
+      display_name: 另一个孩子
+      tts:
+        delivery: 年幼敏感，情绪流露自然
+        timbre: 柔和稚嫩
+        pace: 适中
+        pitch: 中高音
+    unidentified_boy_3:
+      display_name: 第三个孩子
+      tts:
+        delivery: 天真好奇，说话认真直接
+        timbre: 清脆稚嫩
+        pace: 轻快
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 小房子
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 糊涂的嘟嘟像个凯旋的征服者，正站在温迪身旁。其他孩子拿着武器，从树里一个个蹿了出来。
+        - id: ch01-b02
+          speaker: tootles
+          text: 你们来迟啦！温迪是我射下来的，彼得见了一定特别高兴。
+        - id: ch01-b03
+          speaker: narrator
+          text: 小叮当在头顶骂了声“蠢驴”，立刻飞去躲了起来。谁也没有听见她。大家全挤到温迪身边，低头望着她，树林里突然静得可怕。静到什么地步呢？要是温迪的心还在跳，他们准能听得一清二楚。
+        - id: ch01-b04
+          speaker: slightly
+          text: 这不是鸟。我看她是一位小姐。
+          emotion: fearful
+        - id: ch01-b05
+          speaker: tootles
+          text: 一位小姐？
+          emotion: fearful
+        - id: ch01-b06
+          speaker: nibs
+          text: 我们把她杀死了。
+          emotion: sad
+        - id: ch01-b07
+          speaker: narrator
+          text: 大家猛地摘下帽子。卷毛忽然明白了，彼得原来是要把这位小姐带给他们。他难过得整个人扑倒在地。
+        - id: ch01-b08
+          speaker: curly
+          text: 彼得是要把她带给我们的。
+          emotion: sad
+        - id: ch01-b09
+          speaker: twin_1
+          text: 好不容易来了一位小姐照顾我们，你却把她杀了！
+          emotion: angry
+        - id: ch01-b10
+          speaker: narrator
+          text: 他们也替嘟嘟难过，可说到底，还是更替自己难过。嘟嘟刚朝伙伴们走近一步，大家便纷纷背过身去。他的脸色白得吓人，可身上忽然有了一种从未有过的尊严。
+        - id: ch01-b11
+          speaker: tootles
+          text: 是我干的。从前梦里有小姐来，我总叫她“漂亮妈妈”。现在她真的来了，我却射中了她。
+          emotion: sad
+        - id: ch01-b12
+          speaker: narrator
+          text: 嘟嘟慢慢走开。大家可怜他，都叫他别走。
+        - id: ch01-b13
+          speakers: [nibs, slightly, curly, twin_1]
+          ensemble: chorus
+          text: 嘟嘟，别走！
+        - id: ch01-b14
+          speaker: tootles
+          text: 我必须走。我太怕彼得了。
+          emotion: fearful
+        - id: ch01-b15
+          speaker: narrator
+          text: 就在这悲惨的一刻，远处传来一个声音。孩子们一听，心全提到了嗓子眼。那是彼得像公鸡一样发出的啼叫，也是他每次回来时发出的信号。
+        - id: ch01-b16
+          speakers: [tootles, nibs, slightly, curly]
+          ensemble: chorus
+          text: 是彼得！快把温迪藏起来！
+          emotion: fearful
+        - id: ch01-b17
+          speaker: narrator
+          text: 大家压低声音，慌忙围住温迪，想把她藏起来。只有嘟嘟不肯过去，独自站在一边。清亮的啼叫再次响起，彼得从空中落到他们面前。孩子们听见他的招呼，不由自主地敬了礼，随后又是一片沉默。
+        - id: ch01-b18
+          speaker: peter
+          text: 你们好啊，孩子们！我回来了，你们怎么不欢呼？
+          emotion: angry
+        - id: ch01-b19
+          speaker: narrator
+          text: 他们张开嘴，却发不出欢呼。彼得急着说出好消息，根本没顾上追究。
+        - id: ch01-b20
+          speaker: peter
+          text: 有个天大的好消息！我终于给你们带来一位妈妈啦！
+          emotion: happy
+        - id: ch01-b21
+          speaker: narrator
+          text: 还是没人说话。四周静悄悄的，只听扑通一声，嘟嘟跪了下来。彼得这才觉得不对，开始不安起来。
+        - id: ch01-b22
+          speaker: peter
+          text: 你们没见到她吗？她明明朝这边飞来了。
+        - id: ch01-b23
+          speaker: unidentified_boy_1
+          text: 唉，怎么会这样！
+          emotion: sad
+        - id: ch01-b24
+          speaker: unidentified_boy_2
+          text: 今天真是太悲惨了。
+          emotion: sad
+        - id: ch01-b25
+          speaker: tootles
+          text: 彼得，我带你看她。双胞胎，让开，让彼得看清楚。
+        - id: ch01-b26
+          speaker: narrator
+          text: 其他孩子还想把温迪遮住，嘟嘟却坚持要彼得看。大家终于退到两旁。彼得站在那里，望了温迪好一阵，却不知道接下来该怎么办。
+        - id: ch01-b27
+          speaker: peter
+          text: 她死了。也许死这件事把她吓着了。
+        - id: ch01-b28
+          speaker: narrator
+          text: 彼得很想装出滑稽的样子，一蹦一跳地离开。只要跳到温迪看不见的地方，他就可以再也不靠近这里。要是彼得真这样做，其他孩子也会高高兴兴地跟他逃走。可是，那支箭还插在那里。彼得没法假装看不见。他把箭从温迪心口拔出，回身面对自己的队伍。
+        - id: ch01-b29
+          speaker: peter
+          text: 这是谁的箭？
+          emotion: angry
+        - id: ch01-b30
+          speaker: tootles
+          text: 是我的，彼得。
+        - id: ch01-b31
+          speaker: narrator
+          text: 嘟嘟依然跪着。彼得骂那只射箭的手卑鄙，又把箭高高举起，准备当作匕首刺下去。嘟嘟连眼睛也没有躲闪。他露出自己的胸膛，坚定地迎着彼得。
+        - id: ch01-b32
+          speaker: tootles
+          text: 刺吧，彼得。一定要刺准。
+        - id: ch01-b33
+          speaker: narrator
+          text: 彼得举了两次箭，手又两次垂了下来。
+        - id: ch01-b34
+          speaker: peter
+          text: 我刺不下去。有个东西拦住了我的手。
+          emotion: surprised
+        - id: ch01-b35
+          speaker: narrator
+          text: 大家都惊奇地看着彼得，只有尼布斯恰好在看温迪。
+        - id: ch01-b36
+          speaker: nibs
+          text: 是温迪小姐！看，她的手臂动了！
+          emotion: surprised
+        - id: ch01-b37
+          speaker: narrator
+          text: 真是不可思议，温迪竟然真的抬起了手臂。尼布斯怀着敬意俯下身，把耳朵凑近她，仔细听了听，然后压低了声音。
+        - id: ch01-b38
+          speaker: nibs
+          text: 我想，她说的是“可怜的嘟嘟”。
+        - id: ch01-b39
+          speaker: peter
+          text: 她还活着。
+        - id: ch01-b40
+          speaker: slightly
+          text: 温迪小姐还活着！
+          emotion: happy
+        - id: ch01-b41
+          speaker: narrator
+          text: 彼得跪到温迪身旁，发现了自己的纽扣。温迪曾把它穿在链子上，挂在脖子上。
+        - id: ch01-b42
+          speaker: peter
+          text: 你们看，箭碰到了这个。这是我送她的吻，是这个吻救了她。
+        - id: ch01-b43
+          speaker: slightly
+          text: 吻这东西我记得。快让我看看。没错，这就是一个吻。
+        - id: ch01-b44
+          speaker: narrator
+          text: 彼得根本没听斯莱特利说话。他只顾求温迪快点好起来，因为他还想带她去看美人鱼。可温迪依旧深深昏迷着，当然没法回答。正在这时，头顶上响起一声哭泣似的哀鸣。
+        - id: ch01-b45
+          speaker: curly
+          text: 听，是小叮。温迪活下来了，她在哭呢。
+        - id: ch01-b46
+          speaker: narrator
+          text: 孩子们只好说出小叮做的坏事。彼得的脸色严厉得吓人。
+        - id: ch01-b47
+          speaker: peter
+          text: 小叮当，你听着，我再也不做你的朋友了。走开，永远别回来！
+          emotion: angry
+        - id: ch01-b48
+          speaker: narrator
+          text: 小叮立刻飞到彼得肩上，苦苦求他原谅。彼得却一把将她拂开。直到温迪再次抬起手臂替她求情，他才稍微软下来。
+        - id: ch01-b49
+          speaker: peter
+          text: 好吧，不是永远。不过你整整一个星期都不许回来。
+        - id: ch01-b50
+          speaker: narrator
+          text: 你以为小叮会因为温迪替她求情，就对温迪感激不尽吗？哎呀，才不会呢。她从来没有像现在这样，恨不得狠狠掐温迪一把。仙子就是这样古怪，连最了解她们的彼得，也常常忍不住打她们。
+        - id: ch01-b51
+          speaker: narrator
+          text: 可眼下还有一个难题。温迪刚刚从箭下逃过一命，身体正虚弱得很，孩子们该拿她怎么办呢？
+        - id: ch01-b52
+          speaker: curly
+          text: 我们把她搬进地下之家吧。
+        - id: ch01-b53
+          speaker: slightly
+          text: 对，照料小姐就应该这么办。
+        - id: ch01-b54
+          speaker: peter
+          text: 不行，你们不能碰她。这样太不尊重了。
+        - id: ch01-b55
+          speaker: slightly
+          text: 对，我刚才也是这么想的。
+        - id: ch01-b56
+          speaker: tootles
+          text: 可她一直躺在这里，会死的。
+        - id: ch01-b57
+          speaker: slightly
+          text: 是啊，她会死。可我们没有办法。
+        - id: ch01-b58
+          speaker: peter
+          text: 有办法！就在她周围盖一座小房子！
+          emotion: happy
+        - id: ch01-b59
+          speaker: narrator
+          text: 这个主意让大家高兴极了。彼得催他们快去，每个人都要拿出自己最好的东西，哪怕把地下之家掏空也不在乎。转眼间，他们忙得像婚礼前夜的裁缝。有人跑下去拿被褥，有人跑上来找木柴，来来回回，没有一个闲着。
+        - id: ch01-b60
+          speaker: narrator
+          text: 正忙着呢，约翰和迈克尔拖着脚走来了。他们困得连路都走不动，站着站着就睡了过去。然后停下，惊醒，往前挪一步，又在原地睡着。
+        - id: ch01-b61
+          speaker: michael
+          text: 约翰，快醒醒！娜娜在哪里？妈妈又在哪里？
+        - id: ch01-b62
+          speaker: john
+          text: 原来是真的。我们真的飞过来了。
+        - id: ch01-b63
+          speaker: narrator
+          text: 他们看见彼得，总算松了一口气，赶紧向他问好。彼得也很友善地答应，虽然他其实早把这兄弟俩忘了。这会儿，他忙着拿自己的脚当尺子，一步一步量过温迪的身体，算算房子究竟要盖多大。当然，桌子和椅子的地方也得留出来。
+        - id: ch01-b64
+          speakers: [john, michael]
+          ensemble: duo
+          text: 彼得，你好。温迪睡着了吗？
+        - id: ch01-b65
+          speaker: peter
+          text: 她睡着了。
+        - id: ch01-b66
+          speaker: michael
+          text: 约翰，我们把她叫醒，让她给我们做晚饭吧。咦，你看他们！
+        - id: ch01-b67
+          speaker: narrator
+          text: 话音还没落，几个孩子扛着造房子的树枝冲了过来。迈克尔看得目瞪口呆，连忙叫约翰也看。彼得立刻摆出十足的船长派头，开始发号施令。
+        - id: ch01-b68
+          speaker: peter
+          text: 卷毛，让这两个孩子也去盖房子。
+        - id: ch01-b69
+          speaker: curly
+          text: 遵命，长官。
+        - id: ch01-b70
+          speaker: john
+          text: 你们要盖一座房子？
+          emotion: surprised
+        - id: ch01-b71
+          speaker: curly
+          text: 给温迪盖。
+        - id: ch01-b72
+          speaker: john
+          text: 给温迪？她不过是个女孩子呀！
+          emotion: surprised
+        - id: ch01-b73
+          speaker: curly
+          text: 就因为她是女孩子，我们才要做她的仆人。
+        - id: ch01-b74
+          speaker: john
+          text: 你们居然成了温迪的仆人！
+          emotion: surprised
+        - id: ch01-b75
+          speaker: peter
+          text: 你们也是。把他们带去干活。
+        - id: ch01-b76
+          speaker: narrator
+          text: 兄弟俩还在发愣，就被孩子们拖走，只好跟着又砍、又削、又搬。彼得还在后面发号施令，要他们先摆好椅子和炉栏，再围着这些家具把房子盖起来。
+        - id: ch01-b77
+          speaker: slightly
+          text: 没错，房子就该这样盖。我全记起来了。
+        - id: ch01-b78
+          speaker: narrator
+          text: 彼得好像什么都想得到。他又命令斯莱特利去找一位医生。斯莱特利嘴上立刻答应，走开时却直挠头。不过他知道，彼得的命令非听不可。没过多久，他就戴着约翰的帽子回来了，脸上的神情十分庄重。
+        - id: ch01-b79
+          speaker: peter
+          text: 请问，先生，您是医生吗？
+        - id: ch01-b80
+          speaker: narrator
+          text: 这种时候，你就能看出彼得和别的孩子哪里不同。其他孩子知道这全是假装的，彼得却觉得假装和真实根本没有区别。要是大家装着装着露了馅，他还会敲他们的指关节。以前，他们甚至得假装自己已经吃过晚饭。这可真叫人为难。
+        - id: ch01-b81
+          speaker: slightly
+          text: 是的，小家伙。
+        - id: ch01-b82
+          speaker: narrator
+          text: 斯莱特利答得很不安，因为他的指关节已经皲裂了。
+        - id: ch01-b83
+          speaker: peter
+          text: 先生，有一位小姐病得很重。
+        - id: ch01-b84
+          speaker: narrator
+          text: 温迪明明就在脚边，斯莱特利却很懂规矩，装作没看见。
+        - id: ch01-b85
+          speaker: slightly
+          text: 啧，啧，啧。她躺在哪儿？
+        - id: ch01-b86
+          speaker: peter
+          text: 就在那边的林中空地。
+        - id: ch01-b87
+          speaker: slightly
+          text: 我要把一个玻璃东西放进她嘴里。
+        - id: ch01-b88
+          speaker: narrator
+          text: 斯莱特利装作把玻璃东西放进温迪嘴里，彼得站在旁边，紧张地等着。过了一会儿，医生终于把它取了出来。那一刻真叫人捏一把汗，彼得赶紧追问病情。
+        - id: ch01-b89
+          speaker: peter
+          text: 她怎么样了？
+        - id: ch01-b90
+          speaker: slightly
+          text: 啧，啧，啧。这个已经把她治好了。
+        - id: ch01-b91
+          speaker: peter
+          text: 太好啦！
+          emotion: happy
+        - id: ch01-b92
+          speaker: slightly
+          text: 晚上我再来。记得用带嘴的杯子喂她牛肉茶。
+        - id: ch01-b93
+          speaker: narrator
+          text: 斯莱特利说完，把那顶帽子还给约翰，这才大口大口地喘起气来。每次好不容易从难题里脱身，他总会这样喘一阵。
+        - id: ch01-b94
+          speaker: narrator
+          text: 与此同时，斧头声响遍了整片树林。孩子们干得飞快。没过多久，造一座温暖舒适的小房子需要的东西，几乎全都堆到了温迪脚边。
+        - id: ch01-b95
+          speaker: unidentified_boy_1
+          text: 要是知道她最喜欢什么样的房子就好了。
+        - id: ch01-b96
+          speaker: unidentified_boy_2
+          text: 彼得，她睡着还在动呢！
+        - id: ch01-b97
+          speaker: unidentified_boy_3
+          text: 她张开嘴了。啊，真美！
+        - id: ch01-b98
+          speaker: peter
+          text: 她也许要在梦里唱歌。温迪，唱唱你想住什么样的房子。
+        - id: ch01-b99
+          speaker: narrator
+          text: 温迪没有睁眼，立刻唱了起来。
+        - id: ch01-b100
+          speaker: wendy
+          text: 我想要一座漂亮房子，小得不能再小。红红的墙多么有趣，绿苔铺满屋顶梢。
+        - id: ch01-b101
+          speaker: narrator
+          text: 孩子们听得喉咙里咯咯直笑。运气真是好极了，他们搬来的树枝上正好黏着红色树汁，地面又铺着一层厚厚的苔藓。大家噼噼啪啪地搭起房子，手里不停，嘴上也唱了起来。
+        - id: ch01-b102
+          speakers: [tootles, nibs, slightly, curly]
+          ensemble: chorus
+          text: 小小的墙和屋顶搭好，漂亮的门也造妥。请说吧，温迪妈妈，你还想再要什么？
+        - id: ch01-b103
+          speaker: narrator
+          text: 温迪有点贪心地接着唱。
+        - id: ch01-b104
+          speaker: wendy
+          text: 接下来，我想四面都有明亮快活的窗户。玫瑰探头朝里张望，婴儿探头朝外瞧。
+        - id: ch01-b105
+          speaker: narrator
+          text: 孩子们挥起拳头，在墙上砸出了窗户，又拿宽大的黄叶挂在窗边，当作窗帘。窗户有了，可温迪歌里唱的玫瑰又该怎么办呢？
+        - id: ch01-b106
+          speaker: peter
+          text: 还要玫瑰。
+        - id: ch01-b107
+          speaker: narrator
+          text: 听见彼得的命令，大家赶紧假装让最美的玫瑰长出来，一路爬满墙壁。可温迪还唱到了婴儿。这个又该怎么办？孩子们生怕彼得真的命令他们造出几个婴儿，急忙再次唱了起来。
+        - id: ch01-b108
+          speakers: [tootles, nibs, slightly, curly]
+          ensemble: chorus
+          text: 玫瑰已经探出头，婴儿也来到门口。我们可造不出自己，因为早有人把我们造就。
+        - id: ch01-b109
+          speaker: narrator
+          text: 彼得一看这主意不错，马上装作它本来就是自己想出来的。小房子已经非常漂亮，温迪待在里面一定也很舒服。当然，墙已经围起来了，孩子们再也看不见她。彼得在屋外大步来回走，命令大家做最后的修整。任何一点小事，都逃不过他那双鹰一样的眼睛。
+        - id: ch01-b110
+          speaker: peter
+          text: 门上没有门环。
+        - id: ch01-b111
+          speaker: narrator
+          text: 大家听了，个个羞愧得不得了。嘟嘟赶紧献出自己的一只鞋底，安到门上，正好做成一个再合适不过的门环。他们以为这下总算彻底完工了，可根本不是那么回事，彼得又发现少了一样东西。
+        - id: ch01-b112
+          speaker: peter
+          text: 还没有烟囱。房子一定要有烟囱。
+        - id: ch01-b113
+          speaker: john
+          text: 的确少不了一根烟囱。
+        - id: ch01-b114
+          speaker: narrator
+          text: 约翰煞有介事的一句话，倒给了彼得灵感。彼得一把抢走他的帽子，敲掉帽顶，再把剩下的部分安到屋顶上。小房子有了这么棒的烟囱，简直高兴坏了。它像是在说谢谢，立刻让一缕烟从帽子里冒了出来。
+        - id: ch01-b115
+          speaker: narrator
+          text: 这回，小房子真真正正地完工了。再也没有什么要添，孩子们只剩下一件事可做，那就是上前敲门。
+        - id: ch01-b116
+          speaker: peter
+          text: 大家都收拾得精神一点。第一次见面留下的印象特别要紧。
+        - id: ch01-b117
+          speaker: narrator
+          text: 彼得暗自庆幸，谁也没有问他，那种印象究竟是什么。孩子们都顾不上问，只顾着让自己显得最精神。彼得很有礼貌地敲了敲门。树林和孩子们一样，顿时安静得没有半点声音。只有小叮当坐在树枝上看着，毫不遮掩地嘲笑他们。
+        - id: ch01-b118
+          speaker: narrator
+          text: 等待的时候，大家心里都在猜，敲过门以后，真的会有人来应门吗？要是从里面走出来一位小姐，她又会是什么模样？
+        - id: ch01-b119
+          speaker: narrator
+          text: 门真的开了，一位小姐从里面走出来。正是温迪。孩子们一看见她，立刻全都摘下帽子。温迪脸上的惊讶恰到好处，也正是大家一直盼望看见的样子。
+        - id: ch01-b120
+          speaker: wendy
+          text: 我这是在哪里？
+        - id: ch01-b121
+          speaker: slightly
+          text: 温迪小姐，这座房子是我们特意为你盖的。
+        - id: ch01-b122
+          speaker: nibs
+          text: 快告诉我们，你喜欢它！
+        - id: ch01-b123
+          speaker: wendy
+          text: 真是一座可爱的小房子，亲爱的。
+          emotion: happy
+        - id: ch01-b124
+          speaker: narrator
+          text: 她说的正是大家想听的话。
+        - id: ch01-b125
+          speakers: [twin_1, twin_2]
+          ensemble: duo
+          text: 我们就是你的孩子！
+        - id: ch01-b126
+          speaker: narrator
+          text: 听双胞胎这么一喊，所有孩子都跪了下来。他们一起向温迪伸出双臂，眼巴巴地望着她。
+        - id: ch01-b127
+          speakers: [tootles, nibs, slightly, curly]
+          ensemble: chorus
+          text: 温迪小姐，请你做我们的妈妈吧！
+        - id: ch01-b128
+          speaker: wendy
+          text: 我该答应吗？这当然特别迷人。可是我还只是个小姑娘，根本没有真正的经验。
+          emotion: happy
+        - id: ch01-b129
+          speaker: peter
+          text: 没关系。我们需要的，就是一个温柔又有妈妈样儿的人。
+        - id: ch01-b130
+          speaker: narrator
+          text: 彼得说得像是只有他最懂，其实最不懂的就是他。
+        - id: ch01-b131
+          speaker: wendy
+          text: 哎呀，我觉得自己恰好就是这样的人。
+          emotion: happy
+        - id: ch01-b132
+          speakers: [tootles, nibs, slightly, curly]
+          ensemble: chorus
+          text: 没错！我们第一眼就看出来啦！
+          emotion: happy
+        - id: ch01-b133
+          speaker: wendy
+          text: 那好，我会尽力的。你们这些淘气孩子，马上进屋。脚一定都湿了。睡觉以前，我还来得及把灰姑娘的故事讲完。
+        - id: ch01-b134
+          speaker: narrator
+          text: 他们全都挤进屋里。我也不知道这么小的房子怎么装得下这么多人，可在梦幻岛，大家只要紧紧挤一挤，总能腾出地方。那是孩子们和温迪度过的第一个欢乐夜晚。以后，他们还会一起度过许多个这样的夜晚。
+        - id: ch01-b135
+          speaker: narrator
+          text: 夜深以后，温迪把孩子们一个个塞进树下之家那张大床，自己却留在小房子里睡。彼得拔出剑，守在门外。因为远处能听见海盗纵饮狂欢的声音，狼群也正在四处觅食。黑暗里，小房子显得那么温暖，那么安全。明亮的灯光透过窗帘，烟囱漂亮地冒着烟，彼得就站在门前守卫。
+        - id: ch01-b136
+          speaker: narrator
+          text: 过了一阵，彼得也睡着了。几个酒步不稳的仙子纵饮作乐归来，发现他正挡在路上，只好从他身上爬过去。夜里要是换成别的孩子挡住仙子的路，她们准会狠狠捉弄一番。可这一次，她们只拧了拧彼得的鼻子，便跨过他继续回家了。

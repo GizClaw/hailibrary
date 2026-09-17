@@ -1,0 +1,219 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant, and gently amused
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    anne_shirley:
+      display_name: Anne Shirley
+      tts:
+        delivery: vivid, earnest, and eagerly imaginative
+        timbre: clear and youthful
+        pace: lively
+        pitch: medium-high
+    jane_andrews:
+      display_name: Jane Andrews
+      tts:
+        delivery: practical, confident, and good-natured
+        timbre: clear and youthful
+        pace: steady
+        pitch: medium
+    students_1:
+      display_name: First Student
+      tts:
+        delivery: exuberant and full-voiced
+        timbre: bright and youthful
+        pace: quick
+        pitch: medium
+    students_2:
+      display_name: Second Student
+      tts:
+        delivery: exuberant and full-voiced
+        timbre: clear and youthful
+        pace: quick
+        pitch: medium-high
+    students_3:
+      display_name: Third Student
+      tts:
+        delivery: exuberant and full-voiced
+        timbre: light and youthful
+        pace: quick
+        pitch: high
+    matthew_cuthbert:
+      display_name: Matthew Cuthbert
+      tts:
+        delivery: shy, gentle, and quietly devoted
+        timbre: soft and weathered
+        pace: unhurried
+        pitch: low
+    marilla_cuthbert:
+      display_name: Marilla Cuthbert
+      tts:
+        delivery: firm, practical, and deeply caring beneath restraint
+        timbre: clear and mature
+        pace: measured
+        pitch: medium-low
+    miss_josephine_barry:
+      display_name: Miss Josephine Barry
+      tts:
+        delivery: assured, discerning, and matter-of-fact
+        timbre: crisp and mature
+        pace: measured
+        pitch: medium-low
+    diana_barry:
+      display_name: Diana Barry
+      tts:
+        delivery: affectionate, sincere, and gently sensitive
+        timbre: warm and youthful
+        pace: steady
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: The Glory and the Dream
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "On the morning the final examination results were due at Queen's, Anne and Jane walked down the street together. Jane was smiling. The exams were finished, and she felt sure she had passed. That was enough for her, and she gave no thought to anything more. She had no high ambitions to make her restless. Everything worth gaining has its price. Ambition is worth having, but it demands hard work and sacrifice. It also brings worry and discouragement. Anne looked pale and said very little. In ten minutes she would know who had won the medal and who had won the Avery scholarship. Just then, nothing beyond those ten minutes seemed worthy of being called time."
+        - id: ch01-b02
+          speaker: jane_andrews
+          text: "You're bound to win one of them. I can't imagine the faculty being so unfair as to decide anything else."
+        - id: ch01-b03
+          speaker: anne_shirley
+          text: "I don't expect to win the Avery. Everyone says it will be Emily Clay. And I simply can't walk up to that bulletin board in front of everyone. I haven't got the courage. I'll go straight to the girls' dressing room. Read the notices, Jane, then come tell me as fast as you can. If I've failed, say it plainly. Don't try to soften it, and please don't feel sorry for me. Promise."
+        - id: ch01-b04
+          speaker: narrator
+          text: "Jane gave her solemn promise, but Anne never needed it. The hall at Queen's was packed when they climbed the entrance steps. A crowd of boys had Gilbert Blythe on their shoulders, and they were shouting at the top of their lungs."
+        - id: ch01-b05
+          speakers: [students_1, students_2, students_3]
+          ensemble: chorus
+          text: "Three cheers for Blythe, the medal winner!"
+        - id: ch01-b06
+          speaker: narrator
+          text: "For one moment, defeat and disappointment made Anne feel sick. So Gilbert had won, and she had lost. Well, Matthew would be sorry. He had felt so sure that she would win. Then everything changed. Another voice rang out."
+        - id: ch01-b07
+          speaker: students_1
+          text: "Three cheers for Miss Shirley, winner of the Avery!"
+        - id: ch01-b08
+          speaker: narrator
+          text: "Anne and Jane hurried through the hearty cheers and escaped into the girls' dressing room."
+        - id: ch01-b09
+          speaker: jane_andrews
+          text: "Oh, Anne, I'm so proud of you! Isn't it wonderful?"
+          emotion: happy
+        - id: ch01-b10
+          speaker: narrator
+          text: "The other girls crowded around Anne. She stood at the center of a laughing, excited group, with congratulations coming from every side. They pounded her shoulders, shook her hands, pulled her this way and that, and hugged her. In the middle of it all, Anne managed to whisper to Jane."
+        - id: ch01-b11
+          speaker: anne_shirley
+          text: "Matthew and Marilla will be so pleased! I have to write home right away."
+          emotion: happy
+        - id: ch01-b12
+          speaker: narrator
+          text: "Next came commencement. The ceremony filled the Academy's great assembly hall. There were speeches, essays, and songs. Diplomas, prizes, and medals were presented in public. Matthew and Marilla were there, but they had eyes and ears for only one student on the platform. She was a tall girl in pale green, with softly flushed cheeks and shining eyes. She read the finest essay, and people pointed her out in whispers as the Avery winner. When Anne finished, Matthew spoke for the first time since entering the hall."
+        - id: ch01-b13
+          speaker: matthew_cuthbert
+          text: "Well now, I suppose you're glad we kept her, Marilla?"
+        - id: ch01-b14
+          speaker: marilla_cuthbert
+          text: "I've been glad plenty of times before this. You certainly like reminding me, Matthew Cuthbert."
+        - id: ch01-b15
+          speaker: narrator
+          text: "Miss Barry sat behind them. She leaned forward and poked Marilla in the back with her parasol."
+        - id: ch01-b16
+          speaker: miss_josephine_barry
+          text: "Aren't you proud of that Anne girl? I certainly am."
+        - id: ch01-b17
+          speaker: narrator
+          text: "That evening, Anne went home to Avonlea with Matthew and Marilla. She had been away since April, and now that commencement was over, she couldn't wait one more day. Apple trees were in bloom, and the whole world felt fresh and young. Diana was waiting at Green Gables to welcome her. Upstairs in Anne's own white room, Marilla had placed a flowering rose on the windowsill. Anne looked around at the room she loved and let out one long, happy breath."
+        - id: ch01-b18
+          speaker: anne_shirley
+          text: "Oh, Diana, being home feels so good. Look at the pointed firs against that pink sky, and the white orchard, and our old Snow Queen. Can't you smell the mint? And that tea rose! It's like a song, a hope, and a prayer all together. And Diana, it's so good to see you."
+          emotion: happy
+        - id: ch01-b19
+          speaker: diana_barry
+          text: "I thought you liked Stella Maynard more than me. Josie Pye said you did. She said you were completely taken with her."
+        - id: ch01-b20
+          speaker: narrator
+          text: "Anne laughed and tossed the faded June lilies from her bouquet at Diana."
+        - id: ch01-b21
+          speaker: anne_shirley
+          text: "Stella Maynard is the dearest girl in the world except for one, and that one is you. I love you more than ever, Diana. I have so much to tell you, but right now I'm happy just sitting here and looking at you. I think I'm tired of studying and striving. Tomorrow I'm going to lie in the orchard grass for at least two hours and think about absolutely nothing."
+          emotion: happy
+        - id: ch01-b22
+          speaker: diana_barry
+          text: "You did wonderfully, Anne. Now that you've won the Avery, I suppose you won't be teaching."
+        - id: ch01-b23
+          speaker: anne_shirley
+          text: "No, I'm going to Redmond in September. Isn't that amazing? After three glorious golden months of vacation, I'll have a whole new supply of ambition. Jane and Ruby are going to teach. And isn't it wonderful that every one of us passed, even Moody Spurgeon and Josie Pye?"
+          emotion: happy
+        - id: ch01-b24
+          speaker: diana_barry
+          text: "The Newbridge trustees have already offered Jane their school. Gilbert Blythe is going to teach too. He has no choice. His father can't afford to send him to college next year after all, so Gilbert plans to earn the money himself. If Miss Ames leaves, I expect he'll get the school here."
+        - id: ch01-b25
+          speaker: narrator
+          text: "Anne was startled and strangely dismayed. She hadn't known. She had expected Gilbert to go to Redmond too. Without their rivalry to push her, what would she do? Even at a college where men and women studied together and she could work toward a real degree, the work might feel rather dull without her friend and enemy."
+        - id: ch01-b26
+          speaker: narrator
+          text: "At breakfast the next morning, Anne suddenly noticed that Matthew didn't look well. He was much grayer than he had been a year ago. After he went outside, she asked Marilla about him."
+        - id: ch01-b27
+          speaker: anne_shirley
+          text: "Marilla, is Matthew really all right?"
+        - id: ch01-b28
+          speaker: marilla_cuthbert
+          text: "No, he isn't. He's had some very bad spells with his heart this spring, and he won't slow down at all. I've been terribly worried. He has been a little better lately, and we've hired a good man, so maybe he'll rest and get stronger. Having you home may help. You always brighten him up."
+        - id: ch01-b29
+          speaker: narrator
+          text: "Anne reached across the table and held Marilla's face in both hands."
+        - id: ch01-b30
+          speaker: anne_shirley
+          text: "You don't look as well as I want you to, either. You look tired, Marilla. I'm afraid you've been doing too much. Now that I'm home, you have to rest. I'll take today to visit all my dear old places and find my old dreams. Then tomorrow, you can be the lazy one while I do the work."
+        - id: ch01-b31
+          speaker: narrator
+          text: "Marilla gave her girl an affectionate smile."
+        - id: ch01-b32
+          speaker: marilla_cuthbert
+          text: "It isn't the work. It's my head. I keep getting pain behind my eyes. Doctor Spencer has tried different glasses, but none of them help. A famous eye specialist is coming to the Island at the end of June, and the doctor says I must see him. I suppose I'll have to. Reading and sewing hurt too much now. But Anne, you truly did well at Queen's. A First Class License in one year, and the Avery scholarship too! Mrs. Lynde says pride comes before a fall. She doesn't approve of higher education for women, either. She says it makes them unfit for a woman's proper place. I don't believe one word of that. And speaking of Rachel, have you heard anything lately about the Abbey Bank?"
+        - id: ch01-b33
+          speaker: anne_shirley
+          text: "I heard it might be in trouble. Why?"
+        - id: ch01-b34
+          speaker: marilla_cuthbert
+          text: "That's what Rachel said. She came by last week and told us people were talking. Matthew got very worried. Every cent we've saved is in that bank. I wanted him to use the Savings Bank from the beginning, but old Mr. Abbey was a close friend of Father's, and Father always banked with him. Matthew said any bank run by Mr. Abbey was good enough for anyone."
+        - id: ch01-b35
+          speaker: anne_shirley
+          text: "I think Mr. Abbey has only been the head in name for years. He's very old now. His nephews are really running the bank."
+        - id: ch01-b36
+          speaker: marilla_cuthbert
+          text: "Once Rachel told us that, I wanted Matthew to take our money out at once. He said he'd think about it. But yesterday Mr. Russell told him the bank was safe."
+        - id: ch01-b37
+          speaker: narrator
+          text: "Anne spent a beautiful day outdoors, and she never forgot it. The hours were bright, golden, and full of blossoms, without a shadow anywhere. She rested in the orchard, then visited the Dryad's Bubble, Willowmere, and Violet Vale. At the manse, she had a long, satisfying talk with Mrs. Allan. In the evening, she and Matthew went to fetch the cows. They followed Lovers' Lane to the back pasture while sunset filled the woods and poured warm light through the gaps in the western hills. Matthew walked slowly with his head bent. Anne was tall and straight beside him, but she shortened her lively steps to match his."
+        - id: ch01-b38
+          speaker: anne_shirley
+          text: "You've worked too hard today, Matthew. Why won't you take it easier?"
+        - id: ch01-b39
+          speaker: narrator
+          text: "Matthew opened the gate and let the cows pass through."
+        - id: ch01-b40
+          speaker: matthew_cuthbert
+          text: "Well now, I don't seem able to. I'm getting old, Anne, and I keep forgetting it. I've worked hard all my life. I suppose I'd rather keep working to the very end."
+        - id: ch01-b41
+          speaker: anne_shirley
+          text: "If I'd been the boy you meant to bring home, I could help you so much now. I could make things easier for you in a hundred ways. Just for that, I almost wish I had been a boy."
+          emotion: sad
+        - id: ch01-b42
+          speaker: narrator
+          text: "Matthew patted her hand."
+        - id: ch01-b43
+          speaker: matthew_cuthbert
+          text: "Well now, I'd rather have you than a dozen boys, Anne. Don't you ever forget it. A boy didn't win the Avery scholarship, did he? A girl did. My girl. And I'm proud of her."
+        - id: ch01-b44
+          speaker: narrator
+          text: "He gave her his shy smile and went into the yard. Anne carried the memory of that smile upstairs with her. She sat at her open window for a long time that night, thinking about the past and dreaming of what lay ahead. Outside, the Snow Queen looked misty white in the moonlight, and frogs sang in the marsh beyond Orchard Slope. Anne would always remember the silver peace, the beauty, and the sweet stillness of that night."
+        - id: ch01-b45
+          speaker: narrator
+          text: "It was the last night before sorrow touched her life. Once that cold, solemn touch comes, no life is ever quite the same again."

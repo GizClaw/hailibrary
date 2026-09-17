@@ -1,0 +1,53 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 叙述者
+      tts:
+        delivery: 温柔明快，带着五月童谣般的轻盈起伏
+        timbre: 清澈柔和
+        pace: 舒缓
+        pitch: 中音
+    cowslip:
+      display_name: 黄花九轮草
+      tts:
+        delivery: 轻快亲切，像在春风里与伙伴说话
+        timbre: 纤细明亮
+        pace: 从容
+        pitch: 中高音
+    butterfly:
+      display_name: 蝴蝶
+      tts:
+        delivery: 欢欣灵动，带着发现美景时的惊喜
+        timbre: 轻盈清亮
+        pace: 轻快
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 五月的草地
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 五月花开，小女孩走进草地。小羊羔欢快地蹦跳，夜里睡在绿草间。鸟儿整天歌唱，歌声多快活呀！
+    - id: ch02
+      title: 白昼与夜晚
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 白天，太阳明亮地照着。到了夜里，小星星一颗颗闪起光来。
+        - id: ch02-b02
+          speaker: cowslip
+          text: 报春花，你瞧，春天的小风吹得多轻柔呀！
+    - id: ch03
+      title: 蓝天下的花城
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 小雏菊和毛茛花每次抬起头，都会唱起歌。甜美的蓝天下，一只美丽的蝴蝶就在它们上方。
+        - id: ch03-b02
+          speaker: narrator
+          text: 蝴蝶往下一看，满眼都是花朵。
+        - id: ch03-b03
+          speaker: butterfly
+          text: 多么美丽的花城啊！
+          emotion: happy

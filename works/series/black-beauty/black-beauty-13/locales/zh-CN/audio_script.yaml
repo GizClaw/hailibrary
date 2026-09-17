@@ -1,0 +1,134 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 黑骏马
+      tts:
+        delivery: 温和真挚，讲述成长经历时细腻而坦率
+        timbre: 清朗柔和
+        pace: 舒缓而自然
+        pitch: 中低
+    john:
+      display_name: 约翰
+      tts:
+        delivery: 稳重耐心，谈起马匹时专业而亲切
+        timbre: 温厚沉稳
+        pace: 从容
+        pitch: 中低
+    bill:
+      display_name: 比尔
+      tts:
+        delivery: 骄横任性，吃痛求助时慌乱狼狈
+        timbre: 年轻尖亮
+        pace: 偏快
+        pitch: 中高
+    farmer_bushby:
+      display_name: 布什比先生
+      tts:
+        delivery: 朴实直率，管教儿子时严肃果断
+        timbre: 粗厚清晰
+        pace: 稳健
+        pitch: 中低
+    mrs_bushby:
+      display_name: 布什比太太
+      tts:
+        delivery: 疼爱孩子，焦急时语气慌张
+        timbre: 柔细而紧张
+        pace: 稍快
+        pitch: 中高
+    james:
+      display_name: 詹姆斯
+      tts:
+        delivery: 开朗随和，谈话时自然爽快
+        timbre: 年轻清亮
+        pace: 适中
+        pitch: 中
+  chapters:
+    - id: ch01
+      title: 栅门前的教训
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 有一天，约翰和我替主人办完事，正沿着一条笔直的长路慢慢回家。远处有个男孩，非要让一匹矮马跃过栅门。矮马不肯跳，他就拿鞭子抽。矮马闪向这边，他再抽，它又躲到那边。
+        - id: ch01-b02
+          speaker: narrator
+          text: 男孩索性跳下马，狠狠揍它，还朝它头上乱打。接着，他又骑上去，一边使劲踢，一边逼它跳那道栅门。矮马始终不肯。
+        - id: ch01-b03
+          speaker: narrator
+          text: 我们快走到跟前时，矮马突然低下头，后蹄猛地一扬，利利落落地把男孩送进了宽阔的山楂树篱。随后，它拖着缰绳，飞快地跑回家去了。约翰忍不住放声大笑。
+        - id: ch01-b04
+          speaker: john
+          text: 这下他可活该。
+        - id: ch01-b05
+          speaker: bill
+          text: 哎哟！哎哟！喂，快来把我拉出去！
+        - id: ch01-b06
+          speaker: narrator
+          text: 男孩在满是尖刺的树篱里挣扎，约翰却没有下马，也没有答应他。
+        - id: ch01-b07
+          speaker: john
+          text: 谢谢你，我看你待在那儿正合适。让刺划上几道，也许能教会你，别再逼小马跳它根本跳不过去的栅门。
+    - id: ch02
+      title: 布什比家的门前
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 约翰骑着我走开了。他自言自语地说，那小子既然这样残忍，没准还会撒谎。于是，他决定从布什比农夫家绕回去。这样若有人来问，我们就能把亲眼看见的事说清楚。
+        - id: ch02-b02
+          speaker: narrator
+          text: 我们向右转去，很快到了堆草场，从那里已经看得见农舍。布什比先生正急匆匆地往路上赶，他的妻子站在门口，神色十分惊慌。
+        - id: ch02-b03
+          speaker: farmer_bushby
+          text: 你们看见我儿子了吗？他一个钟头前骑着我的黑色矮马出去，可那匹马刚才自己回来了，背上没人。
+        - id: ch02-b04
+          speaker: john
+          text: 先生，除非有人肯好好骑它，否则它背上没人倒更好。
+        - id: ch02-b05
+          speaker: farmer_bushby
+          text: 你这是什么意思？
+        - id: ch02-b06
+          speaker: john
+          text: 我看见令郎逼那匹温顺的小马跳一道过高的栅门。它不肯，他就拿鞭子抽，用脚踢，还朝它头上乱打，实在不像话。那匹马一直规规矩矩，没有半点恶习。后来，它才扬起后蹄，把那位小少爷掀进了山楂树篱。
+        - id: ch02-b07
+          speaker: john
+          text: 他叫我帮忙拉他出来，请您原谅，我实在不想管。他没有摔断骨头，最多被刺划破几处。我爱马，看见有人虐待它们就来气。把牲畜逼到动蹄子不是好办法，有了第一回，往往还会有下一回。
+        - id: ch02-b08
+          speaker: mrs_bushby
+          text: 哎呀，我可怜的比尔！我得去接他，他一定受伤了！
+          emotion: fearful
+        - id: ch02-b09
+          speaker: farmer_bushby
+          text: 你还是回屋吧。比尔该受个教训，我会让他好好记住。这已经不是他头一回，也不是第二回虐待那匹小马了。我非制止不可。多谢你了，曼利。晚上好。
+    - id: ch03
+      title: 詹姆斯记得的往事
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 我们继续赶路，约翰一路都在低声发笑。回家后，他把事情讲给詹姆斯听，詹姆斯听了也笑起来。
+        - id: ch03-b02
+          speaker: james
+          text: 活该。我在学校就认识他。他仗着父亲是农夫，总觉得自己了不起，成天耀武扬威，欺负年纪小的孩子。我们这些大孩子可不许他胡来。我们让他明白，在教室和操场上，农夫的儿子和雇工的儿子没有什么两样。
+        - id: ch03-b03
+          speaker: james
+          text: 有一天下午，上课前，我看见他在大窗户旁捉苍蝇，还把它们的翅膀一只只扯下来。他没瞧见我，我走过去给了他一记耳光，把他打得摔在地板上。我本来气坏了，可他叫得又响又惨，连我都吓了一跳。
+        - id: ch03-b04
+          speaker: james
+          text: 孩子们从操场上一股脑儿冲进来，老师也从路上跑进教室，还以为有人被杀了。我马上老实说清楚自己做了什么，又为什么这样做。我把那些苍蝇指给老师看。有的被压死了，有的没了翅膀，还在地上无助地爬。扯下来的翅膀就散在窗台上。
+        - id: ch03-b05
+          speaker: james
+          text: 我从没见老师发过那么大的火。不过，比尔还在鬼哭狼嚎，胆小得很，老师便没有再动手罚他，只叫他站在凳子上过完那一下午，还罚他整整一个星期不许出去玩。
+        - id: ch03-b06
+          speaker: james
+          text: 接着，老师非常严肃地对全班说，伤害弱小无助的生灵，既铁石心肠，又十分怯懦。有一句话，我一直记得最牢。他说，残忍正是魔鬼自己的印记。谁要是以残忍为乐，我们就能看出他属于谁，因为魔鬼从一开始就是杀人者，到最后也是折磨人的恶徒。
+        - id: ch03-b07
+          speaker: james
+          text: 老师还说，反过来，谁要是爱自己的邻人，对人和牲畜都怀着善意，我们就能看出，那是上帝留下的印记。
+    - id: ch04
+      title: 没有爱，就没有信仰
+      blocks:
+        - id: ch04-b01
+          speaker: john
+          text: 你的老师从没教过比这更真的道理。没有爱，就谈不上信仰。人们尽管可以把自己的信仰说得天花乱坠，可它若不能教人善待人和牲畜，那就是假的。
+        - id: ch04-b02
+          speaker: john
+          text: 全是假的，詹姆斯。等到万事都被翻过来，看清里外的时候，它绝对经不起检验。

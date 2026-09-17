@@ -24,7 +24,7 @@ const card: BookCard = {
   labels: { topics: ["animals", "adventure"], themes: ["cooperation"] },
   pageCount: 6,
   cover: "works/the-acorn-boat/artwork/cover.webp",
-  source: { series: "the-acorn-journey", volume: 1, volumes: 2 },
+  source: { article: "the-acorn-journey", volume: 1, volumes: 2 },
   title: "橡果小船",
   summary: "橡果小船载着两个朋友。",
   writer: { id: "溪铃", displayName: "溪铃" },
@@ -66,9 +66,9 @@ test("book locale selection falls back to an available edition", () => {
   assert.equal(localizeBookCard(card, "ja-JP").title, "The Acorn Boat");
 });
 
-test("book cards preserve their source-series position", () => {
+test("book cards preserve their source-article position", () => {
   const localized = localizeBookCard(card, "en-US");
-  assert.deepEqual(localized.source, { series: "the-acorn-journey", volume: 1, volumes: 2 });
+  assert.deepEqual(localized.source, { article: "the-acorn-journey", volume: 1, volumes: 2 });
 });
 
 test("volume navigation metadata is shown only for actual multi-volume books", () => {
@@ -78,7 +78,7 @@ test("volume navigation metadata is shown only for actual multi-volume books", (
 });
 
 test("series filter options use interface-localized series titles and include catalog-only series", () => {
-  const makeSeries = (id: string, titles: Record<string, string>): SeriesCard => ({ id, titles, manifest: `series/${id}/index.json`, category: "fiction", genre: "adventure", style: "watercolor", labels: {}, levels: ["a"], availableLocales: Object.keys(titles), writers: {}, cover: `series/${id}/cover.webp`, bookSetCount: 1, bookCount: 1 });
+  const makeSeries = (id: string, titles: Record<string, string>): SeriesCard => ({ id, titles, manifest: `series/${id}/index.json`, category: "fiction", genre: "adventure", style: "watercolor", labels: {}, ageRange: { min: 8, max: 10 }, levels: ["a"], availableLocales: Object.keys(titles), writers: {}, cover: `series/${id}/cover.webp`, bookSetCount: 1, bookCount: 1 });
   const series = [makeSeries("the-acorn-journey", { "en-US": "The Acorn Journey", "zh-CN": "橡果之旅" }), makeSeries("a-new-work", { "en-US": "A New Work", "zh-CN": "一个新作品" })];
 
   assert.deepEqual(catalogSeriesOptions([card], series, "zh-CN"), [
@@ -88,7 +88,7 @@ test("series filter options use interface-localized series titles and include ca
 });
 
 test("selected series is filtered and sorted by reading level then volume", () => {
-  const makeCard = (id: string, level: string, series: string, volume: number): BookCard => ({ ...card, id, level, source: { series, volume, volumes: 3 } });
+  const makeCard = (id: string, level: string, series: string, volume: number): BookCard => ({ ...card, id, level, source: { article: series, volume, volumes: 3 } });
   const cards = [makeCard("oak-c-2", "c", "oak", 2), makeCard("river-a-1", "a", "river", 1), makeCard("oak-a-3", "a", "oak", 3), makeCard("oak-a-1", "a", "oak", 1)];
 
   assert.deepEqual(filterAndSortCatalogBySeries(cards, "oak").map((item) => item.id), ["oak-a-1", "oak-a-3", "oak-c-2"]);
@@ -96,7 +96,7 @@ test("selected series is filtered and sorted by reading level then volume", () =
 });
 
 test("home recommendations select the first volume from each series' lowest level set", () => {
-  const makeCard = (id: string, level: string, series: string, volume: number): BookCard => ({ ...card, id, level, source: { series, volume, volumes: 2 } });
+  const makeCard = (id: string, level: string, series: string, volume: number): BookCard => ({ ...card, id, level, source: { article: series, volume, volumes: 2 } });
   const cards = [
     makeCard("oak-d-2", "d", "oak", 2),
     makeCard("river-b-2", "b", "river", 2),
@@ -124,11 +124,13 @@ test("series book groups flatten in taxonomy-group and volume order", () => {
 });
 
 test("series search includes localized titles, type, and Writers", () => {
-  const series = { id: "mountains", manifest: "series/mountains/index.json", type: "fiction", typeNames: { "en-US": "Fiction", "zh-CN": "小说" }, category: "fiction", genre: "folktale", style: "woodblock", labels: { topics: ["history"], themes: ["responsibility"], moods: ["hopeful"] }, levels: ["c", "n"], availableLocales: ["en-US", "zh-CN"], titles: { "en-US": "The Road", "zh-CN": "愚公移山" }, writers: { "en-US": { id: "lantern", displayName: "Manypath Lantern" }, "zh-CN": { id: "百径灯", displayName: "百径灯" } }, cover: "series/mountains/cover.webp", bookSetCount: 2, bookCount: 5 } satisfies SeriesCard;
+  const series = { id: "mountains", manifest: "series/mountains/index.json", type: "fiction", typeNames: { "en-US": "Fiction", "zh-CN": "小说" }, category: "fiction", genre: "folktale", style: "woodblock", ageRange: { min: 8, max: 10 }, labels: { topics: ["history"], themes: ["responsibility"], moods: ["hopeful"] }, levels: ["c", "n"], availableLocales: ["en-US", "zh-CN"], titles: { "en-US": "The Road", "zh-CN": "愚公移山" }, writers: { "en-US": { id: "lantern", displayName: "Manypath Lantern" }, "zh-CN": { id: "百径灯", displayName: "百径灯" } }, cover: "series/mountains/cover.webp", bookSetCount: 2, bookCount: 5 } satisfies SeriesCard;
   assert.equal(searchSeries([series], "愚公").length, 1);
   assert.equal(searchSeries([series], "folktale").length, 1);
   assert.equal(searchSeries([series], "missing").length, 0);
   assert.equal(filterArticles([series], { type: "fiction", classification: "genre:folktale", writer: "百径灯", style: "woodblock", topic: "history", theme: "responsibility", mood: "hopeful", level: "n" }, "zh-CN").length, 1);
   assert.equal(filterArticles([series], { writer: "lantern" }, "zh-CN").length, 0);
   assert.equal(filterArticles([series], { query: "愚公", level: "a" }, "zh-CN").length, 0);
+  assert.equal(filterArticles([series], { age: "8-10" }, "zh-CN").length, 1);
+  assert.equal(filterArticles([series], { age: "12-plus" }, "zh-CN").length, 0);
 });

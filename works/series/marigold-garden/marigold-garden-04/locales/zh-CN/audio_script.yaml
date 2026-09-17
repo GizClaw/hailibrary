@@ -1,0 +1,39 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 叙述者
+      tts:
+        delivery: 亲切轻快，带着街头童谣般鲜明的节拍
+        timbre: 清亮温暖
+        pace: 舒缓
+        pitch: 中音
+    little_bird:
+      display_name: 小鸟
+      tts:
+        delivery: 稚气活泼，最后一句带着机灵的得意
+        timbre: 轻盈清脆
+        pace: 轻快
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 喇叭响了
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 噗噗噗，喇叭响起来了。小男孩、小姑娘，快来看街头表演！
+    - id: ch02
+      title: 小猫上树
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 数到一、二、三，小猫一下蹿上了树。
+    - id: ch03
+      title: 小鸟飞走
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 可小鸟已经展翅飞走了。
+        - id: ch03-b02
+          speaker: little_bird
+          text: 她才没捉到我呢！

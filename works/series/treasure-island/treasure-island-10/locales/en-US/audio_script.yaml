@@ -1,0 +1,235 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Jim Hawkins
+      tts:
+        delivery: vivid, thoughtful first-person storytelling
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    squire_trelawney:
+      display_name: Squire Trelawney
+      tts:
+        delivery: grand, impulsive, and warmhearted
+        timbre: broad and booming
+        pace: lively
+        pitch: medium-low
+    long_john_silver:
+      display_name: Long John Silver
+      tts:
+        delivery: hearty, quick-witted, and commanding
+        timbre: deep and robust
+        pace: lively
+        pitch: low
+    dr_livesey:
+      display_name: Dr. Livesey
+      tts:
+        delivery: composed, discerning, and precise
+        timbre: clear and refined
+        pace: measured
+        pitch: medium
+    captain_smollett:
+      display_name: Captain Smollett
+      tts:
+        delivery: blunt, disciplined, and unshakably professional
+        timbre: firm and weathered
+        pace: measured
+        pitch: medium-low
+    mr_arrow:
+      display_name: Mr. Arrow
+      tts:
+        delivery: sociable and easygoing
+        timbre: rough and seasoned
+        pace: relaxed
+        pitch: medium-low
+    sailor:
+      display_name: Sailor
+      tts:
+        delivery: respectful and matter-of-fact
+        timbre: sturdy and plain
+        pace: measured
+        pitch: medium
+    crewman:
+      display_name: Crewman
+      tts:
+        delivery: practical and informal
+        timbre: rugged and clear
+        pace: brisk
+        pitch: medium
+    israel_hands:
+      display_name: Israel Hands
+      tts:
+        delivery: shrewd, seasoned, and admiring
+        timbre: coarse and weathered
+        pace: steady
+        pitch: low
+    captain_flint:
+      display_name: Captain Flint
+      tts:
+        delivery: piercing, rapid, and mechanical
+        timbre: harsh and squawking
+        pace: very quick
+        pitch: high
+  chapters:
+    - id: ch01
+      title: Setting Sail
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            We spent the whole night in a rush, putting everything where it belonged. Boat after boat brought the squire's friends out to wish him a good voyage and a safe return. Mr. Blandly was among them. I had never worked half so hard on any night at the Admiral Benbow. By the time the boatswain piped just before dawn and the crew took their places at the capstan bars, I was worn out. I could have been twice as tired and still not left the deck. Everything held my attention: the short orders, the sharp whistle, and the men hurrying to their stations through the dim light of the ship's lanterns.
+        - id: ch01-b02
+          speaker: sailor
+          text: >-
+            Come on, Barbecue. Give us a song!
+        - id: ch01-b03
+          speaker: crewman
+          text: >-
+            Sing the old one!
+        - id: ch01-b04
+          speaker: long_john_silver
+          text: >-
+            Aye, mates. Here it is. Fifteen men on the dead man's chest—
+        - id: ch01-b05
+          speakers: [sailor, crewman, israel_hands, mr_arrow]
+          ensemble: chorus
+          text: >-
+            Yo-ho-ho, and a bottle of rum!
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            On the third "ho," they threw their strength against the bars. Even in all that excitement, the song carried me straight back to the old Admiral Benbow. For a moment, I could almost hear the old captain joining in. Soon the anchor came free of the bottom. Then it hung dripping at the bow, the sails began to pull, and the land and ships slipped past us on both sides. Before I could go below and steal an hour of sleep, the Hispaniola had begun her voyage to Treasure Island.
+    - id: ch02
+      title: Mr. Arrow Goes Overboard
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            I won't tell every detail of the voyage. On the whole, it went well. The Hispaniola proved to be a fine ship, her crew were capable sailors, and Captain Smollett understood his work completely. But before we reached Treasure Island, several things happened that you need to know.
+        - id: ch02-b02
+          speaker: narrator
+          text: >-
+            First, Mr. Arrow turned out to be even worse than the captain had feared. He had no control over the men. They did whatever they pleased. Worse still, after a day or two at sea, he began coming on deck with cloudy eyes, red cheeks, and a stumbling tongue. He was plainly drunk. Again and again, he was sent below in disgrace. Sometimes he fell and cut himself. Sometimes he spent the whole day in his narrow bunk beside the companionway. Then he might stay almost sober for a day or two and do his work well enough.
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            None of us could discover where he found the liquor. That became the great mystery of the ship. We watched him, but learned nothing. If we asked him directly while he was drunk, he only laughed. If he was sober, he swore he never drank anything but water.
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            He was useless as an officer, he set a bad example for the men, and at that rate he was bound to kill himself. So no one was greatly surprised, or very sorry, when he vanished one dark night in a rough head sea. We never saw him again.
+        - id: ch02-b05
+          speaker: captain_smollett
+          text: >-
+            Overboard. Well, gentlemen, at least we won't have to put him in irons.
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            Now we had no mate, so one of the crew had to step up. The boatswain, Job Anderson, was the best man for the place. He kept his old title but did a mate's work. Mr. Trelawney had been to sea before, and his knowledge made him useful. In easy weather, he often stood a watch himself. Israel Hands, the coxswain, was careful, sly, and experienced. In a difficult moment, he could be trusted with almost any task.
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            Hands was also one of Long John Silver's closest companions. And that brings me to our cook, the man the crew called Barbecue.
+    - id: ch03
+      title: Barbecue and Captain Flint
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            At sea, Silver wore his crutch on a cord around his neck so both hands were free. In the galley, he would brace its foot against a wall and lean on it, giving with every roll of the ship. Even so, he cooked as steadily as if he were standing on dry land. Watching him cross the deck in the worst weather was stranger still. Ropes had been rigged across the widest spaces for him. The sailors called them Long John's earrings. He swung himself from place to place, sometimes using the crutch and sometimes letting it trail from its cord, and he moved as quickly as any man could walk. Sailors who had known him before still pitied him when they saw what he had been reduced to.
+        - id: ch03-b02
+          speaker: israel_hands
+          text: >-
+            Barbecue isn't an ordinary man. He learned plenty when he was young, and when he chooses, he can talk as fine as any book. And brave? A lion's nothing next to Long John. I once saw him grab four men and knock their heads together, and he didn't even have a weapon.
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            Everyone aboard respected Silver, and they usually did as he said. He knew how to speak to each man in just the right way, and he always found some particular favor he could do for him. He never tired of being kind to me. Whenever I came to the galley, he welcomed me in. He kept the place as clean as a new pin, with polished dishes hanging on the walls and his parrot's cage in one corner.
+        - id: ch03-b04
+          speaker: long_john_silver
+          text: >-
+            Come in, Hawkins, and have a talk with old John. There's nobody I'd rather see, my boy. Sit down and hear the latest. This is Captain Flint. I named my parrot after the famous pirate. Captain Flint here says our voyage will be a success. Isn't that right, Captain?
+        - id: ch03-b05
+          speaker: captain_flint
+          text: >-
+            Pieces of eight! Pieces of eight! Pieces of eight!
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            The parrot rattled out the words so fast that I wondered how she kept breathing. At last, Silver would toss his handkerchief over the cage.
+        - id: ch03-b07
+          speaker: long_john_silver
+          text: >-
+            That bird may be two hundred years old, Hawkins. Parrots mostly live forever. If anyone has seen more wickedness than she has, it must be the devil. She sailed with the great pirate Captain England. She's been to Madagascar, Malabar, Surinam, Providence, and Portobello. She was there when they raised the treasure from the wrecked Spanish ships. That's where she learned to say "pieces of eight," and no wonder. There were three hundred and fifty thousand coins, Hawkins! She even helped board the Viceroy of the Indies out of Goa. Look at her now, and you'd think she was a baby. But you smelled the gunpowder, didn't you, Captain?
+        - id: ch03-b08
+          speaker: captain_flint
+          text: >-
+            Stand by to go about!
+        - id: ch03-b09
+          speaker: long_john_silver
+          text: >-
+            Ah, she's a fine little vessel.
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            He would take sugar from his pocket and feed her. The bird pecked at the bars and began swearing so terribly that it was hard to believe.
+        - id: ch03-b11
+          speaker: long_john_silver
+          text: >-
+            You can't handle tar without getting dirty, lad. My poor innocent bird heard all that wicked language, but she never understood a word of it. Why, she'd swear just the same in front of a chaplain.
+        - id: ch03-b12
+          speaker: narrator
+          text: >-
+            Then John would touch his forehead in that solemn way of his, and I would think he was the finest man alive.
+        - id: ch03-b13
+          speaker: narrator
+          text: >-
+            Meanwhile, the squire and Captain Smollett still kept their distance. The squire openly despised him. The captain spoke only when someone addressed him, and then every answer was sharp, dry, and brief. When pressed, he admitted that he might have judged the crew too harshly. Some were as lively as he could wish, and every man had behaved well enough. He had also grown very fond of the ship.
+        - id: ch03-b14
+          speaker: captain_smollett
+          text: >-
+            She'll sail closer to the wind than a man has any right to expect from his own wife, sir. Still, we aren't home yet, and I don't like this voyage.
+        - id: ch03-b15
+          speaker: narrator
+          text: >-
+            At that, the squire would turn away and stride along the deck with his chin in the air.
+        - id: ch03-b16
+          speaker: squire_trelawney
+          text: >-
+            One more word from that man, and I shall burst.
+    - id: ch04
+      title: The Apple Barrel
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            We met some rough weather, and it only showed how well the Hispaniola could sail. Everyone aboard seemed happy. They had little reason not to be, because no crew had ever been treated so generously since Noah went to sea. The men received double rum on the slightest excuse. They got pudding on special days, including whenever the squire heard it was someone's birthday. And an open barrel of apples always stood amidships, ready for anyone who wanted one.
+        - id: ch04-b02
+          speaker: captain_smollett
+          text: >-
+            I've never seen any good come from this, Doctor. Spoil the men in the forecastle, and you'll turn them into devils. That's what I believe.
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            But the apple barrel did bring us good. Without it, we would have had no warning. Treachery might have killed us all.
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            This is how it happened. We had sailed up through the trade winds so we could approach the island from the right direction. I'm not allowed to say more than that. Now we were running toward it, with lookouts posted day and night. Even by the longest estimate, this was the final day of our outward voyage. We expected to see Treasure Island sometime that night, or by noon the next day at the latest.
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            We were steering south-southwest. A steady breeze crossed the ship, and the sea was quiet. The Hispaniola rolled gently, dipping her bowsprit into a puff of spray now and then. Every sail, high and low, pulled well. Everyone was in high spirits because the first part of our adventure was almost over.
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            Just after sunset, my work was done, and I was heading for my bunk when I decided I wanted an apple. I ran up on deck. The watch had gathered at the bow to look for the island. The helmsman watched the edge of the sail and softly whistled to himself. Except for that, I heard only the sea washing against the bow and along the ship's sides.
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            I climbed right inside the apple barrel. Hardly any apples remained. I sat in the darkness while the ship rocked and the water whispered around me. I must have fallen asleep, or come very close to it. Then a heavy man sat down nearby with a thump. The barrel shook as he leaned his back against it.
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            I was about to jump out when the man began to talk. The voice was Silver's. Before he had spoken a dozen words, nothing in the world could have made me show myself. I stayed hidden, trembling as I listened, terrified and desperate to hear more. From those first few words, I knew the lives of every honest man aboard depended on me alone.

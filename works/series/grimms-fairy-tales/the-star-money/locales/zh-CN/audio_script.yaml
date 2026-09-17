@@ -1,0 +1,86 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 温柔而郑重，带有古老童话的从容感
+        timbre: 温暖清澈
+        pace: 舒缓
+        pitch: 中音
+    girl:
+      display_name: 小姑娘
+      tts:
+        delivery: 纯真坚定，说话简短真诚
+        timbre: 清亮稚嫩
+        pace: 稍慢
+        pitch: 中高音
+    poor_man:
+      display_name: 穷人
+      tts:
+        delivery: 虚弱恳求，语气朴实
+        timbre: 沙哑低沉
+        pace: 缓慢
+        pitch: 低音
+    child:
+      display_name: 孩子
+      tts:
+        delivery: 冷得难受，带着哭腔恳求
+        timbre: 稚嫩单薄
+        pace: 稍慢
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 只剩一块面包
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个小姑娘，父母都不在了。她实在太穷，既没有小屋安身，也没有床可睡。后来，她所有的东西，就只剩身上的衣裳，还有好心人送的一小块面包。可她依旧善良，也虔诚地信奉上帝。世上再没有谁照顾她，她只好相信仁慈的上帝，独自走到田野里去。
+        - id: ch01-b02
+          speaker: narrator
+          text: 走着走着，她碰见一个穷人。那人饿得厉害，开口求她。
+        - id: ch01-b03
+          speaker: poor_man
+          text: 求你给我一点吃的吧，我太饿了！
+        - id: ch01-b04
+          speaker: narrator
+          text: 小姑娘把整块面包都递了过去。
+        - id: ch01-b05
+          speaker: girl
+          text: 愿上帝赐福，让这块面包填饱你的肚子。
+        - id: ch01-b06
+          speaker: narrator
+          text: 说完，她继续往前走。
+    - id: ch02
+      title: 一件又一件
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 没走多远，一个孩子哭着来求她。
+        - id: ch02-b02
+          speaker: child
+          text: 我的头好冷，给我点东西遮住头吧！
+        - id: ch02-b03
+          speaker: narrator
+          text: 小姑娘摘下风帽，送给了那个孩子。再往前走一会儿，她又遇到一个孩子。那孩子没有短外套，冻得浑身发冷，她就把自己的短外套送了出去。又走了一段，还有个孩子向她讨裙子，她连裙子也给了。
+        - id: ch02-b04
+          speaker: narrator
+          text: 最后，小姑娘走进一片森林。天已经黑了，又有一个孩子来向她讨贴身小衫。
+        - id: ch02-b05
+          speaker: girl
+          text: 夜这么黑，谁也看不见我，把小衫送出去也没关系。
+        - id: ch02-b06
+          speaker: narrator
+          text: 她便脱下最后这件小衫，也送给了那个孩子。
+    - id: ch03
+      title: 星星落下来
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 小姑娘站在黑暗的森林里，身上一件东西也没有了。就在这时，天上的星星忽然纷纷落下。落到地上的星星，全变成了一枚枚坚硬光滑的银币。
+        - id: ch03-b02
+          speaker: narrator
+          text: 她明明刚把小衫送走，身上却又有了一件新的，还是用最上等的细麻布做成的。
+        - id: ch03-b03
+          speaker: narrator
+          text: 小姑娘用新衫兜起银币，从此一生富足。

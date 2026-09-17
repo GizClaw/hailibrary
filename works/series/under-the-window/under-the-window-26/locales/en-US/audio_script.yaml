@@ -1,0 +1,45 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: gentle and quietly delighted
+        timbre: young and clear
+        pace: unhurried
+        pitch: medium-high
+    singer_1:
+      display_name: First Singer
+      tts:
+        delivery: bright and welcoming
+        timbre: clear and youthful
+        pace: lively
+        pitch: high
+    singer_2:
+      display_name: Second Singer
+      tts:
+        delivery: cheerful and open
+        timbre: light and youthful
+        pace: lively
+        pitch: medium-high
+    singer_3:
+      display_name: Third Singer
+      tts:
+        delivery: warm and festive
+        timbre: gentle and youthful
+        pace: lively
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: O ring the bells! O ring the bells!
+      blocks:
+        - id: ch01-b01
+          speakers: [singer_1, singer_2, singer_3]
+          ensemble: chorus
+          text: |-
+            Ring the bells! Ring the bells! Good morning, kind sirs. Please give thanks for our bright flowers, so lovely to wear.
+        - id: ch01-b02
+          speakers: [singer_1, singer_2, singer_3]
+          ensemble: chorus
+          text: |-
+            Ring the bells! Ring the bells! Kind sirs, accept our greeting. The woods we've visited are green. So, hey! Until we meet again!

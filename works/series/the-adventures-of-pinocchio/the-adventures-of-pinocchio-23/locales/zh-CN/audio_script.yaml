@@ -1,0 +1,219 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖从容，带一点一本正经的幽默
+        timbre: 清晰醇厚
+        pace: 舒缓，遇到惊奇处略微加快
+        pitch: 中
+    pinocchio:
+      display_name: 匹诺曹
+      tts:
+        delivery: 任性直率，嘴硬而孩子气，发怒时冲动急躁
+        timbre: 清亮，带木偶般的脆响
+        pace: 偏快，争辩时更急
+        pitch: 中高
+    pigeon:
+      display_name: 鸽子
+      tts:
+        delivery: 爽快可靠，劝说时朴实沉稳
+        timbre: 明亮宽厚
+        pace: 中等，飞行途中从容不迫
+        pitch: 中
+    old_woman:
+      display_name: 老妇人
+      tts:
+        delivery: 关切忧虑，说起海难时紧张而清楚
+        timbre: 苍老柔和
+        pace: 稍慢
+        pitch: 中低
+    fisherman_1:
+      display_name: 渔夫甲
+      tts:
+        delivery: 沉稳悲悯，话语像压低声音的一声叹息
+        timbre: 粗粝浑厚
+        pace: 缓慢
+        pitch: 低
+    fisherman_2:
+      display_name: 渔夫乙
+      tts:
+        delivery: 朴实哀伤，语气克制而带着不忍
+        timbre: 沙哑清瘦
+        pace: 稍慢，尾音轻轻落下
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 消失的小屋
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 狗项圈终于解下来了。匹诺曹顾不得歇息，立刻穿过田野，一路跑到通往仙女家的大路。他远远看见了那棵大橡树的树梢。自己曾经被吊在那儿，他当然不会认错。可是蓝发女孩住过的小屋呢？他望遍四周，怎么也找不到。
+        - id: ch01-b02
+          speaker: narrator
+          text: 匹诺曹心里生出不祥的预感。他用尽剩下的力气往前跑，几分钟后赶到了那片田野。白色小屋原先就在那里，如今却不见了。原地只剩一块大理石碑，上面刻着几行悲伤的话。碑文说，这里长眠着蓝发女孩。她因悲伤而死，只因弟弟匹诺曹抛弃了她。
+        - id: ch01-b03
+          speaker: narrator
+          text: 木偶费了好大劲，才把碑上的字一个个读出来。他是什么心情，你大概想得到。他扑倒在地，朝墓碑亲了千百遍，放声痛哭。整整一夜，他都没停下。天亮以后，眼泪已经流干了，他还在抽泣哀号。那声音尖锐又凄惨，惊醒了四周山岭间的回声。
+        - id: ch01-b04
+          speaker: pinocchio
+          text: 小仙女，你为什么死了？该死的应该是我啊！我这么坏，你却那么好！我的爸爸又在哪里？请你告诉我该去哪儿找他吧。我以后要永远跟他在一起，再也不离开他了！
+          emotion: sad
+        - id: ch01-b05
+          speaker: pinocchio
+          text: 小仙女，你快告诉我，你死了不是真的！你要是还疼爱自己的弟弟，就活过来吧。看见我一个人被大家抛下，你不难过吗？要是强盗再来，他们会把我吊回树上。那一次，我可就真的死了。
+          emotion: sad
+        - id: ch01-b06
+          speaker: pinocchio
+          text: 我孤零零留在世上，还能怎么办？你和爸爸都不在，谁给我吃的？晚上我睡在哪儿？谁给我做新上衣？我还不如也死了，死上一百回都更好！对，我要死！啊！啊！啊！
+          emotion: sad
+        - id: ch01-b07
+          speaker: narrator
+          text: 匹诺曹绝望得想揪头发。可他的头发也是木头做的，连把手指插进去狠狠抓上一把都不行。
+    - id: ch02
+      title: 鸽子带来的消息
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 就在这时候，一只大鸽子从头顶飞过。它张开双翼，停在高高的空中，朝下面喊话。
+        - id: ch02-b02
+          speaker: pigeon
+          text: 孩子，你待在那里做什么？
+        - id: ch02-b03
+          speaker: pinocchio
+          text: 你没看见吗？我在哭啊！
+        - id: ch02-b04
+          speaker: narrator
+          text: 匹诺曹抬头寻找声音，一边用上衣擦眼睛。鸽子又问了下去。
+        - id: ch02-b05
+          speaker: pigeon
+          text: 你的伙伴里面，有没有一个叫匹诺曹的木偶？
+        - id: ch02-b06
+          speaker: pinocchio
+          text: 你说的是匹诺曹吗？我就是匹诺曹！
+          emotion: surprised
+        - id: ch02-b07
+          speaker: narrator
+          text: 木偶一下跳了起来。鸽子听见回答，迅速落到地面。它的个头比火鸡还大。
+        - id: ch02-b08
+          speaker: pigeon
+          text: 那么，你也认识杰佩托吧？
+        - id: ch02-b09
+          speaker: pinocchio
+          text: 我当然认识，他就是我可怜的爸爸！他向你提过我吗？你能带我去找他吗？他还活着吗？求求你，快告诉我，他还活着吗？
+        - id: ch02-b10
+          speaker: pigeon
+          text: 三天前，我在海岸边见过他。
+        - id: ch02-b11
+          speaker: pinocchio
+          text: 他在那里做什么？
+        - id: ch02-b12
+          speaker: pigeon
+          text: 他正在造一条小船，准备横渡大海。三个多月来，那个可怜人到处奔波，一直在找你。可他没有找到，现在又打算去遥远的新大陆寻你。
+        - id: ch02-b13
+          speaker: pinocchio
+          text: 从这里到海岸有多远？
+        - id: ch02-b14
+          speaker: narrator
+          text: 匹诺曹问得上气不接下气。鸽子告诉他，路程有六百多英里。
+        - id: ch02-b15
+          speaker: pinocchio
+          text: 六百英里！好心的鸽子，我要是长着你这样的翅膀就好了！
+        - id: ch02-b16
+          speaker: pigeon
+          text: 你真想去，我可以把你驮到那里。
+        - id: ch02-b17
+          speaker: pinocchio
+          text: 你怎么驮我？
+        - id: ch02-b18
+          speaker: pigeon
+          text: 你坐到我背上。你很重吗？
+        - id: ch02-b19
+          speaker: pinocchio
+          text: 我一点儿也不重，简直和羽毛一样轻。
+    - id: ch03
+      title: 飞往海岸
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 匹诺曹不等鸽子再开口，便跳到它背上，像骑马一样跨坐稳当。他高兴极了，马上催促这匹长羽毛的坐骑赶路。
+        - id: ch03-b02
+          speaker: pinocchio
+          text: 快跑呀，我的小马儿，快一点儿！我真想立刻就赶到海岸！
+          emotion: happy
+        - id: ch03-b03
+          speaker: narrator
+          text: 鸽子腾空飞起。才过了几分钟，他们就高得几乎碰到云彩。匹诺曹忍不住回头朝下面看，顿时觉得天旋地转。他怕自己摔下去，连忙把鸽子的脖子抱得紧紧的。
+        - id: ch03-b04
+          speaker: narrator
+          text: 他们飞了整整一天。傍晚时，鸽子说自己渴得厉害。
+        - id: ch03-b05
+          speaker: pinocchio
+          text: 我也已经饿坏了！
+        - id: ch03-b06
+          speaker: pigeon
+          text: 那就在前面的鸽舍歇几分钟吧。吃点东西，我们再接着飞，明天天亮就能赶到海岸。
+        - id: ch03-b07
+          speaker: narrator
+          text: 那是一座没人住的鸽舍。里面只有一盆水，还有一篮野豌豆。匹诺曹以前从来不肯吃野豌豆。他总说，那东西一入口就让他恶心。可这天晚上，他吃了个饱，差点把整篮都吃空。
+        - id: ch03-b08
+          speaker: pinocchio
+          text: 真没想到，野豌豆原来这么好吃！
+        - id: ch03-b09
+          speaker: pigeon
+          text: 孩子，人真饿了，又找不到别的吃食，连野豌豆也是美味。肚子饿的时候，可顾不上挑剔，也顾不上贪嘴。
+        - id: ch03-b10
+          speaker: narrator
+          text: 他们匆匆吃完这顿简单的饭，再次飞上天空。到了第二天清晨，海岸终于出现在眼前。鸽子把匹诺曹放到地上。它做了好事，却不愿听人道谢，立刻飞走，转眼便没了踪影。
+    - id: ch04
+      title: 风浪中的小船
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 海岸上挤满了人。大家望着海面，又喊又打手势。匹诺曹赶紧问身边的一位老妇人出了什么事。
+        - id: ch04-b02
+          speaker: old_woman
+          text: 有个可怜的父亲丢了儿子。他驾着小船，想到海的另一边去找孩子。可今天风浪太大，那条船快要沉了。
+        - id: ch04-b03
+          speaker: pinocchio
+          text: 那条小船在哪里？
+        - id: ch04-b04
+          speaker: old_woman
+          text: 顺着我的手指看，就在那里。
+        - id: ch04-b05
+          speaker: narrator
+          text: 老妇人指向海面。远处的小船只有核桃壳那么大，船里的人更是小得几乎看不清。匹诺曹盯着那边看了又看，忽然尖叫起来。
+        - id: ch04-b06
+          speaker: pinocchio
+          text: 那是我爸爸！是我爸爸！
+          emotion: surprised
+        - id: ch04-b07
+          speaker: narrator
+          text: 小船正挨着狂浪的拍打。一会儿，它沉进波谷，一会儿又冒上海面。匹诺曹站上高高的礁石，不停呼喊父亲的名字。他挥动双手，又挥手帕和帽子，用尽办法朝父亲发信号。
+        - id: ch04-b08
+          speaker: narrator
+          text: 杰佩托离得那么远，似乎还是认出了儿子。他也脱下帽子挥舞，又连连比画。匹诺曹看懂了。爸爸是说，只要有办法，他一定会回来。可是海上的风浪太凶，船桨根本用不了，小船无法靠岸。
+        - id: ch04-b09
+          speaker: narrator
+          text: 突然，一道巨浪高高卷起，小船消失了。岸上的人都等着，盼它再次浮上海面。可是等了又等，那条船始终没有出现。
+        - id: ch04-b10
+          speakers: [fisherman_1, fisherman_2]
+          ensemble: duo
+          text: 唉，那个可怜的人啊！
+          emotion: sad
+        - id: ch04-b11
+          speaker: narrator
+          text: 渔夫们低声祈祷了一番，转过身，准备各自回家。
+    - id: ch05
+      title: 跳进大海
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 就在这个时候，众人听见一声绝望的喊叫。他们回头一看，一个小男孩正从礁石上纵身跳向大海。
+        - id: ch05-b02
+          speaker: pinocchio
+          text: 我要去救我爸爸！
+        - id: ch05-b03
+          speaker: narrator
+          text: 匹诺曹是木头做的，浮在水上毫不费力，游起来也像一条鱼。狂浪不断卷来。人们一会儿看见他被拖进水下，一会儿又看见他挣扎着浮出来，拼命挥动一条腿或一只胳膊。最后，他彻底消失了。海面上再也看不见他的踪影。

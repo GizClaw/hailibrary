@@ -1,0 +1,54 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and gently observant
+        timbre: clear and tender
+        pace: unhurried
+        pitch: medium
+    cat_1:
+      display_name: First Cat
+      tts:
+        delivery: bright and politely eager
+        timbre: light and furry
+        pace: lively
+        pitch: medium-high
+    cat_2:
+      display_name: Second Cat
+      tts:
+        delivery: friendly and expectant
+        timbre: soft and rounded
+        pace: lively
+        pitch: medium
+    cat_3:
+      display_name: Third Cat
+      tts:
+        delivery: cheerful and sociable
+        timbre: crisp and playful
+        pace: lively
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The Cats Have Come to Tea
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: What did she see? Oh, what could it be, as she stood there leaning against the tree? Why, all the cats had come to tea!
+        - id: ch01-b02
+          speaker: narrator
+          text: What a grand crowd they made. Cats had come from houses all around. Now here they were, scampering and calling out.
+        - id: ch01-b03
+          speakers: [cat_1, cat_2, cat_3]
+          ensemble: chorus
+          text: Mew, mew, mew! We hope you're feeling well today!
+        - id: ch01-b04
+          speaker: narrator
+          text: Oh, what was she going to do? Just think how much milk all those cats would drink. And still they went on with their mew, mew, mew!
+        - id: ch01-b05
+          speaker: narrator
+          text: She didn't know, she truly didn't know, whether they would care for bread and butter. What if they wanted little mice instead? Oh! Oh! Oh!
+        - id: ch01-b06
+          speaker: narrator
+          text: Oh, dear. Every one of those cats had come to tea.

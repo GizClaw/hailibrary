@@ -1,0 +1,330 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 亲切从容，带着一本正经的幽默
+        timbre: 温暖清亮
+        pace: 舒展而富有变化
+        pitch: 中音
+    alice:
+      display_name: 爱丽丝
+      tts:
+        delivery: 好奇伶俐，想到什么就自然说出来
+        timbre: 清脆稚嫩
+        pace: 轻快，思索时稍慢
+        pitch: 中高音
+    king_of_hearts:
+      display_name: 红心国王
+      tts:
+        delivery: 胆怯又爱摆威严，遇事急着讲道理
+        timbre: 偏细而清楚
+        pace: 中等
+        pitch: 中高音
+    queen_of_hearts:
+      display_name: 红心王后
+      tts:
+        delivery: 暴躁专横，命令像吼叫
+        timbre: 尖厉响亮
+        pace: 急促有力
+        pitch: 高音
+    white_rabbit:
+      display_name: 白兔
+      tts:
+        delivery: 匆忙焦急，说话短促
+        timbre: 细而清楚
+        pace: 快
+        pitch: 高音
+    juror:
+      display_name: 陪审员
+      tts:
+        delivery: 认真又糊涂，提问时煞有介事
+        timbre: 平实清楚
+        pace: 中等
+        pitch: 中音
+    knave_of_hearts:
+      display_name: 红心武士
+      tts:
+        delivery: 委屈克制，辩解时谨慎急切
+        timbre: 清楚柔和
+        pace: 中等偏慢
+        pitch: 中音
+    sister:
+      display_name: 姐姐
+      tts:
+        delivery: 温柔沉静，话语里带着亲昵
+        timbre: 柔和温暖
+        pace: 舒缓
+        pitch: 中音
+  chapters:
+    - id: ch01
+      title: 爱丽丝作证
+      blocks:
+        - id: ch01-b01
+          speaker: alice
+          text: 我在这里！
+        - id: ch01-b02
+          speaker: narrator
+          text: 爱丽丝一慌，忘了自己这几分钟已经长得很高大。她急匆匆地猛然跳起，裙边正好兜住陪审席，一下把它掀翻了。所有陪审员全摔到下面人群的头顶上，一个个伸胳膊蹬腿，四脚朝天地躺在那里。爱丽丝看着他们，越看越像上星期被她不小心打翻的那一缸金鱼。
+        - id: ch01-b03
+          speaker: alice
+          text: 哎呀，实在对不起！
+          emotion: fearful
+        - id: ch01-b04
+          speaker: narrator
+          text: 她吓坏了，连忙弯腰把陪审员一个个捡起来，动作快得不能再快。那缸金鱼的意外一直在她脑子里打转。她模模糊糊觉得，这些陪审员也得立刻收拢起来，再放回陪审席。不然的话，他们说不定也会像离开水的金鱼一样死掉。
+        - id: ch01-b05
+          speaker: king_of_hearts
+          text: 所有陪审员都得回到自己的位置，审判才能继续。听清楚，是所有陪审员。
+        - id: ch01-b06
+          speaker: narrator
+          text: 国王说得异常严肃，还紧盯着爱丽丝。爱丽丝一看，原来她刚才忙乱中把蜥蜴头朝下塞进了陪审席。可怜的小家伙动也不能动，只能凄凉地甩尾巴。她赶紧把它拔出来，正着放好。
+        - id: ch01-b07
+          speaker: alice
+          text: 其实也没多大关系。头朝上还是朝下，它在审判里大概都一样没用。
+        - id: ch01-b08
+          speaker: narrator
+          text: 陪审员们从被掀翻的惊吓中稍稍定下神。有人找回他们的石板和铅笔，又一一交还给他们。于是他们马上低下头，勤勤恳恳地记录起这场意外的来龙去脉。只有蜥蜴还没缓过来。它什么也做不了，只张着嘴坐在那里，呆呆望着法庭屋顶。
+        - id: ch01-b09
+          speaker: king_of_hearts
+          text: 这件案子，你知道些什么？
+        - id: ch01-b10
+          speaker: alice
+          text: 什么也不知道。
+        - id: ch01-b11
+          speaker: king_of_hearts
+          text: 当真什么也不知道？
+        - id: ch01-b12
+          speaker: alice
+          text: 当真什么也不知道。
+        - id: ch01-b13
+          speaker: king_of_hearts
+          text: 这非常重要。
+        - id: ch01-b14
+          speaker: narrator
+          text: 陪审员正要记下来，白兔打断了国王。他嘴上恭恭敬敬，脸上却不停地冲国王皱眉挤眼。
+        - id: ch01-b15
+          speaker: white_rabbit
+          text: 陛下当然是说，这非常不重要。
+        - id: ch01-b16
+          speaker: king_of_hearts
+          text: 对，对，我就是这个意思。不重要，重要，重要，不重要……
+        - id: ch01-b17
+          speaker: narrator
+          text: 国王低声把“重要”和“不重要”翻来覆去地念，像在试哪个词听着更顺耳。有些陪审员把“重要”写上石板，另一些写的却是“不重要”。爱丽丝离他们很近，稍稍一看就能看清每块石板上写了什么。
+        - id: ch01-b18
+          speaker: alice
+          text: 反正这根本无所谓。
+    - id: ch02
+      title: 第四十二条规则
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 国王低着头，在小本子上忙个不停，已经写了好一会儿。忽然，他像母鸡一样尖声叫大家肃静，接着照本宣读。
+        - id: ch02-b02
+          speaker: king_of_hearts
+          text: 第四十二条，身高超过一英里的人，一律离开法庭。
+        - id: ch02-b03
+          speaker: narrator
+          text: 所有人都转头看爱丽丝。
+        - id: ch02-b04
+          speaker: alice
+          text: 我才没有一英里高。
+        - id: ch02-b05
+          speaker: king_of_hearts
+          text: 你有。
+        - id: ch02-b06
+          speaker: queen_of_hearts
+          text: 她差不多有两英里高。
+        - id: ch02-b07
+          speaker: alice
+          text: 不管怎样，我都不走。这也不是正式规则，是你刚刚才编的。
+        - id: ch02-b08
+          speaker: king_of_hearts
+          text: 这是本册里最古老的规则。
+        - id: ch02-b09
+          speaker: alice
+          text: 那它就该排在第一条。
+        - id: ch02-b10
+          speaker: narrator
+          text: 爱丽丝这一反问，国王的脸一下白了。他匆忙把那本规则合起来。接着，他转向陪审员，说话的声音又低又抖。
+        - id: ch02-b11
+          speaker: king_of_hearts
+          text: 请陪审团商议裁决。
+        - id: ch02-b12
+          speaker: narrator
+          text: 白兔慌忙跳起来。
+        - id: ch02-b13
+          speaker: white_rabbit
+          text: 陛下，后面还有证据。这张纸刚被人捡到。
+        - id: ch02-b14
+          speaker: queen_of_hearts
+          text: 里面是什么？
+        - id: ch02-b15
+          speaker: white_rabbit
+          text: 我还没把它打开。不过看起来像是一封信，是犯人写给……写给某个人的。
+        - id: ch02-b16
+          speaker: king_of_hearts
+          text: 那当然是写给某个人的。除非它是写给没人的，不过信通常不这么写，你们知道。
+        - id: ch02-b17
+          speaker: juror
+          text: 收信人是谁？
+        - id: ch02-b18
+          speaker: white_rabbit
+          text: 没写是寄给谁的。其实这张纸外面一个字也没有。等我把它展开看看。原来这不是信，是一首诗。
+        - id: ch02-b19
+          speaker: juror
+          text: 是犯人的笔迹吗？
+        - id: ch02-b20
+          speaker: white_rabbit
+          text: 不是。这才是最奇怪的地方。
+        - id: ch02-b21
+          speaker: narrator
+          text: 陪审员们全都露出一脸糊涂的神情。
+        - id: ch02-b22
+          speaker: king_of_hearts
+          text: 他一定模仿了别人的笔迹。
+        - id: ch02-b23
+          speaker: narrator
+          text: 陪审员立刻又像全明白了。
+        - id: ch02-b24
+          speaker: knave_of_hearts
+          text: 陛下，那不是我写的。他们也证明不了是我写的，末尾连名字都没有。
+        - id: ch02-b25
+          speaker: king_of_hearts
+          text: 没签名反而更糟。你肯定想干坏事，不然早像诚实人那样签上名字了。
+        - id: ch02-b26
+          speaker: narrator
+          text: 法庭里顿时响起一片掌声。大家似乎都很佩服这番推理，毕竟这是国王那一天头一回说出一句真正聪明的话。
+        - id: ch02-b27
+          speaker: queen_of_hearts
+          text: 这就证明他有罪。
+        - id: ch02-b28
+          speaker: alice
+          text: 这什么也证明不了！你们连诗在说什么都不知道！
+          emotion: angry
+        - id: ch02-b29
+          speaker: king_of_hearts
+          text: 把它念出来。
+        - id: ch02-b30
+          speaker: narrator
+          text: 白兔戴上眼镜。
+        - id: ch02-b31
+          speaker: white_rabbit
+          text: 陛下，我该从哪里念起？
+        - id: ch02-b32
+          speaker: king_of_hearts
+          text: 从开头念起，一直念到结尾，然后停下。
+    - id: ch03
+      title: 一首没有意思的诗
+      blocks:
+        - id: ch03-b01
+          speaker: white_rabbit
+          text: 他们说你曾去见她，还向他把我提起。她说我人品很不差，可惜不会游水嬉。他捎信说我没有去，这件事我们都知。若她一定追究下去，你又将会变成何事？我给了她一个，他们给他俩，你给我们三个还多。它们从他手里全回到你那，可从前它们属于我。倘若我或她碰巧卷入这一桩麻烦事情，他相信你会放他们自由，让我们恢复旧情形。我原以为，在她发作之前你就已挡在他、我们，还有它之间，成了一重阻碍。别让他知道她最喜欢它们，此事必须永藏心底。瞒住其余所有的人，只在你我之间保密。
+        - id: ch03-b02
+          speaker: king_of_hearts
+          text: 这是目前最重要的证据。现在让陪审团……
+        - id: ch03-b03
+          speaker: alice
+          text: 谁能解释这首诗，我就给他六便士。依我看，它连一丁点儿意思也没有。
+        - id: ch03-b04
+          speaker: narrator
+          text: 过去几分钟里，爱丽丝越长越高大，现在根本不怕打断国王。陪审员们听了她的话，全都低头在石板上写：“她认为这首诗连一丁点儿意思也没有。”他们把这句话记得清清楚楚，却没有一个人试着解释那张纸。
+        - id: ch03-b05
+          speaker: king_of_hearts
+          text: 没有意思倒省了大把麻烦，我们不必费心去找它的意思。不过嘛，也说不定。让我把诗摊在膝盖上，用一只眼睛好好瞧瞧。我好像还是看出了一点儿意思。这里说，“可惜不会游水嬉”。红心武士，你不会游泳，对不对？
+        - id: ch03-b06
+          speaker: narrator
+          text: 红心武士难过地摇摇头。他从头到脚都是一张平平的纸牌，看起来当然一点儿也不会游泳。
+        - id: ch03-b07
+          speaker: knave_of_hearts
+          text: 我像是会游泳的样子吗？
+          emotion: sad
+        - id: ch03-b08
+          speaker: king_of_hearts
+          text: 到这里说得通。“这件事我们都知”，当然是陪审团。“我给了她一个，他们给他俩”，这一定是在说他怎么分那些馅饼。
+        - id: ch03-b09
+          speaker: alice
+          text: 可后面还说，它们从他手里全回到你那。
+        - id: ch03-b10
+          speaker: king_of_hearts
+          text: 瞧，它们不就在桌上吗？这再清楚不过。还有“在她犯病之前”。亲爱的，你应该从来没有犯过病吧？
+        - id: ch03-b11
+          speaker: queen_of_hearts
+          text: 从来没有！
+          emotion: angry
+        - id: ch03-b12
+          speaker: narrator
+          text: 王后边吼边抄起墨水瓶，朝蜥蜴砸了过去。倒霉的小比尔原本一直用手指在石板上写，后来发现连一道印子也留不下，才终于停了手。现在墨水顺着他的脸往下淌，他赶紧又动起手指，趁墨水还没流完，蘸着脸上的墨水继续写。
+        - id: ch03-b13
+          speaker: king_of_hearts
+          text: 这么说，诗里的这几个字也犯不着你了。
+        - id: ch03-b14
+          speaker: narrator
+          text: 国王笑着扫视法庭，四周却一片死寂。
+        - id: ch03-b15
+          speaker: king_of_hearts
+          text: 这是个双关笑话！请陪审团商议裁决。
+          emotion: angry
+        - id: ch03-b16
+          speaker: narrator
+          text: 众人这才都笑了。这已经是国王当天第二十次催陪审团裁决。
+        - id: ch03-b17
+          speaker: queen_of_hearts
+          text: 不，不！先判刑，后裁决。
+        - id: ch03-b18
+          speaker: alice
+          text: 胡说八道！哪有先判刑的道理！
+          emotion: angry
+        - id: ch03-b19
+          speaker: queen_of_hearts
+          text: 闭嘴！
+          emotion: angry
+        - id: ch03-b20
+          speaker: alice
+          text: 我偏不！
+        - id: ch03-b21
+          speaker: queen_of_hearts
+          text: 砍掉她的头！
+          emotion: angry
+        - id: ch03-b22
+          speaker: narrator
+          text: 王后扯着嗓子尖叫，可谁也没有动。爱丽丝这时已经完全恢复原来的大小。
+        - id: ch03-b23
+          speaker: alice
+          text: 谁会怕你？你们不过是一副纸牌！
+        - id: ch03-b24
+          speaker: narrator
+          text: 话音刚落，整副纸牌突然飞上半空，接着像一阵暴雨，纷纷朝爱丽丝脸上扑下来。她又害怕又生气，轻叫一声，挥起双手使劲去赶。可下一刻，她发现自己正躺在岸边，头枕在姐姐的膝盖上。刚才扑向她的不过是几片从树上飘下来的枯叶，姐姐正温柔地替她一片片拂开。
+    - id: ch04
+      title: 梦醒以后
+      blocks:
+        - id: ch04-b01
+          speaker: sister
+          text: 醒醒，亲爱的爱丽丝。瞧你这一觉睡了多久！
+        - id: ch04-b02
+          speaker: alice
+          text: 啊，我做了一个多么奇怪的梦！
+          emotion: surprised
+        - id: ch04-b03
+          speaker: narrator
+          text: 爱丽丝把自己还能记得的奇遇，一件接一件，全都讲给姐姐听。那些正是你刚刚听过的怪事。她一直讲到再也没有什么可讲，姐姐才俯下身，亲了亲她。
+        - id: ch04-b04
+          speaker: sister
+          text: 的确是个奇怪的梦，亲爱的。现在快回去喝下午茶吧，天色已经晚了。
+        - id: ch04-b05
+          speaker: narrator
+          text: 爱丽丝站起来，飞快地朝家里跑去。一路上，她一直想着自己那个梦，觉得它实在奇妙极了。姐姐却仍旧坐在原处，和爱丽丝离开时一模一样。她用手托着头，静静看着夕阳西沉，心里想着小爱丽丝，也想着那些奇妙的历险。想着想着，她自己也仿佛走进了梦里。
+        - id: ch04-b06
+          speaker: narrator
+          text: 梦里，小爱丽丝又来到她面前。那双小手再次交叠在姐姐膝上，明亮热切的眼睛仰望着她。姐姐仿佛又听见爱丽丝说话时那特有的声音，也看见她古怪地一甩头，想把那几绺老爱溜进眼睛里的头发甩开。姐姐静静听着，或者说仿佛在听着。渐渐地，四周的一切都活了起来，妹妹梦里的奇异生灵全都回来了。
+        - id: ch04-b07
+          speaker: narrator
+          text: 白兔匆匆跑过，脚边长草沙沙作响。受惊的老鼠哗啦哗啦游过附近的池塘。三月兔和朋友们守着吃不完的茶点，茶杯叮当碰个不停。王后尖声命令，把不幸的客人押去处死。公爵夫人膝上的猪宝宝又打起喷嚏，四周碟盘摔得粉碎。鹰头狮的叫声、蜥蜴铅笔的吱吱声，还有被压住的豚鼠透不过气的声音，一起充满空气。远处还传来假海龟悲惨的呜咽。
+        - id: ch04-b08
+          speaker: narrator
+          text: 姐姐就这样闭着眼睛坐在那里，几乎相信自己真的也到了仙境。可她心里知道，只要重新睁开眼，一切都会变回平淡的现实。长草只是被风吹得沙沙响，池水只是随着芦苇摇动泛起波纹。茶杯的叮当声会变成羊铃的轻响，王后的尖叫会变成牧童的呼喊。宝宝的喷嚏、鹰头狮的叫声和其他所有怪声，会混在一起，变成繁忙农场里的嘈杂。远处牛群低沉的哞叫，则会代替假海龟沉重的哭泣。
+        - id: ch04-b09
+          speaker: narrator
+          text: 最后，姐姐想象这个小妹妹有一天会长成大人。走过许多年岁，她仍会保有童年那颗纯真温柔的心。她会把别的孩子聚在自己身边，给他们讲一个又一个奇异的故事。孩子们听着，眼睛也会变得像她今天这样明亮热切。也许，她还会讲起很久以前那个仙境之梦。孩子们有纯真的忧伤，她会真切体会。孩子们有单纯的快乐，她也会跟着欢喜。因为她始终记得自己的童年，记得那些幸福的夏日。

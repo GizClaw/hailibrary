@@ -1,0 +1,170 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and story-rich
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    pinocchio:
+      display_name: Pinocchio
+      tts:
+        delivery: impulsive and defiant
+        timbre: bright and wooden
+        pace: quick
+        pitch: medium-high
+    harlequin:
+      display_name: Harlequin
+      tts:
+        delivery: theatrical and warmhearted
+        timbre: nimble and resonant
+        pace: lively
+        pitch: medium-high
+    punch:
+      display_name: Punch
+      tts:
+        delivery: boisterous and emphatic
+        timbre: round and reedy
+        pace: lively
+        pitch: medium
+    miss_rose:
+      display_name: Miss Rose
+      tts:
+        delivery: bright and animated
+        timbre: light and ringing
+        pace: quick
+        pitch: high
+    puppet_actor:
+      display_name: Puppet Actor
+      tts:
+        delivery: jubilant and theatrical
+        timbre: crisp and youthful
+        pace: lively
+        pitch: medium-high
+    audience_member_1:
+      display_name: Audience Member One
+      tts:
+        delivery: impatient and forceful
+        timbre: sturdy and clear
+        pace: brisk
+        pitch: medium
+    audience_member_2:
+      display_name: Audience Member Two
+      tts:
+        delivery: impatient and forceful
+        timbre: sharp and carrying
+        pace: brisk
+        pitch: medium-high
+    audience_member_3:
+      display_name: Audience Member Three
+      tts:
+        delivery: impatient and forceful
+        timbre: full and rough
+        pace: brisk
+        pitch: low
+    showman:
+      display_name: The Showman
+      tts:
+        delivery: harsh and commanding
+        timbre: deep and gravelly
+        pace: deliberate
+        pitch: low
+  chapters:
+    - id: ch01
+      title: Pinocchio Is Recognized
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Pinocchio stepped inside the little puppet theater, and what happened next nearly started a revolution. The curtain was already up, and the play had begun. Onstage, Harlequin and Punch were quarreling as usual, each one threatening to hit the other.
+        - id: ch01-b02
+          speaker: narrator
+          text: Then Harlequin stopped in the middle of the scene. He turned toward the audience and pointed dramatically at someone far back in the pit. His voice rang out in a grand theatrical tone.
+        - id: ch01-b03
+          speaker: harlequin
+          text: Heavens above! Am I dreaming, or am I awake? Why, that has to be Pinocchio!
+          emotion: surprised
+        - id: ch01-b04
+          speaker: punch
+          text: It really is Pinocchio!
+          emotion: surprised
+        - id: ch01-b05
+          speaker: narrator
+          text: Miss Rose peeked out from behind the scenery and cried out.
+        - id: ch01-b06
+          speaker: miss_rose
+          text: Yes! That's him!
+          emotion: surprised
+        - id: ch01-b07
+          speakers: [harlequin, punch, miss_rose, puppet_actor]
+          ensemble: chorus
+          text: Pinocchio! Pinocchio! Our brother Pinocchio! Long live Pinocchio!
+          emotion: happy
+        - id: ch01-b08
+          speaker: narrator
+          text: Puppets came leaping onto the stage from every side.
+        - id: ch01-b09
+          speaker: harlequin
+          text: Pinocchio, come up here! Come hug your wooden brothers!
+          emotion: happy
+    - id: ch02
+      title: A Family Reunion on Stage
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: That loving invitation was all Pinocchio needed. He jumped from the back of the pit into the reserved seats. One more leap put him right on the orchestra leader's head, and from there he sprang onto the stage.
+        - id: ch02-b02
+          speaker: narrator
+          text: The whole company of puppet actors and actresses crowded around him. They hugged him, gave him friendly pinches, and showed such warm brotherly affection that words could hardly describe it.
+        - id: ch02-b03
+          speaker: narrator
+          text: It was a touching sight. But the people down in the pit saw that the play had stopped, and they soon lost patience.
+        - id: ch02-b04
+          speakers: [audience_member_1, audience_member_2, audience_member_3]
+          ensemble: chorus
+          text: We want the play! Get on with the play!
+          emotion: angry
+        - id: ch02-b05
+          speaker: narrator
+          text: The audience might as well have saved its breath. Instead of returning to the play, the puppets made twice as much noise. They lifted Pinocchio onto their shoulders and carried him triumphantly to the footlights at the front of the stage.
+    - id: ch03
+      title: The Showman Appears
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Just then, the showman came out. He was huge and so ugly that the mere sight of him could frighten anyone. His beard was black as ink and hung all the way from his chin to the ground. When he walked, he stepped on it. His mouth was as big as an oven. His eyes looked like two red glass lanterns with lights burning inside. In one hand he held a great whip made from snakes and fox tails twisted together, and he cracked it constantly.
+        - id: ch03-b02
+          speaker: narrator
+          text: The moment he appeared, the theater went completely silent. No one dared even breathe. In that stillness, you could have heard a fly. Every poor puppet trembled like a leaf.
+        - id: ch03-b03
+          speaker: showman
+          text: Why did you come here and cause trouble in my theater?
+          emotion: angry
+        - id: ch03-b04
+          speaker: narrator
+          text: His voice was as rough as a goblin with a terrible head cold.
+        - id: ch03-b05
+          speaker: pinocchio
+          text: Please believe me, sir. None of this was my fault!
+          emotion: fearful
+        - id: ch03-b06
+          speaker: showman
+          text: Enough! You and I will settle this tonight.
+          emotion: angry
+    - id: ch04
+      title: The Fire in the Kitchen
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: When the play ended, the showman went into the kitchen. A fine sheep meant for his supper was turning slowly on a spit before the fire. But there was not enough wood to finish roasting it and make it brown. So he called Harlequin and Punch.
+        - id: ch04-b02
+          speaker: showman
+          text: Bring me that puppet. You'll find him hanging from a nail. He looks like very dry wood. Throw him on the fire, and he'll make a fine blaze for my roast.
+        - id: ch04-b03
+          speaker: narrator
+          text: Harlequin and Punch hesitated at first. But one severe look from their master frightened them into obeying. Before long, they came back to the kitchen carrying poor Pinocchio. He twisted and wriggled like an eel pulled from the water, and he screamed desperately.
+        - id: ch04-b04
+          speaker: pinocchio
+          text: Papa! Papa, save me! I don't want to die! I don't want to die!
+          emotion: fearful

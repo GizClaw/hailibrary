@@ -1,0 +1,488 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant storytelling with a playful touch
+        timbre: clear and gently rounded
+        pace: measured with lively turns
+        pitch: medium
+    alice:
+      display_name: Alice
+      tts:
+        delivery: bright, curious, and candid
+        timbre: clear and youthful
+        pace: naturally quick with thoughtful pauses
+        pitch: medium-high
+    march_hare:
+      display_name: March Hare
+      tts:
+        delivery: restless, argumentative, and cheerfully contrary
+        timbre: wiry and lightly nasal
+        pace: quick with sudden pauses
+        pitch: medium-high
+    hatter:
+      display_name: Hatter
+      tts:
+        delivery: eccentric, sharp, and confidently absurd
+        timbre: bright and slightly reedy
+        pace: brisk with emphatic turns
+        pitch: medium
+    dormouse:
+      display_name: Dormouse
+      tts:
+        delivery: drowsy, faint, and dreamily matter-of-fact
+        timbre: soft and husky
+        pace: slow with drifting pauses
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: No Room at the Table
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: A table stood under a tree in front of the house. The March Hare and the Hatter were having tea there, with a Dormouse fast asleep between them. They rested their elbows on the poor creature as if it were a cushion and talked right over its head. Alice thought it must be terribly uncomfortable, though perhaps the sleeping Dormouse did not mind.
+        - id: ch01-b02
+          speaker: narrator
+          text: The table was large, but all three of them had crowded into one corner. The moment they saw Alice coming, the Hatter and the March Hare shouted together.
+        - id: ch01-b03
+          speakers: [hatter, march_hare]
+          ensemble: duo
+          text: No room! No room!
+        - id: ch01-b04
+          speaker: alice
+          text: There's plenty of room!
+          emotion: angry
+        - id: ch01-b05
+          speaker: narrator
+          text: Alice thought that was nonsense. There was clearly plenty of space. She walked to the far end of the table and sat down indignantly in a large armchair.
+        - id: ch01-b06
+          speaker: march_hare
+          text: Would you like some wine?
+        - id: ch01-b07
+          speaker: narrator
+          text: The March Hare sounded encouraging, but Alice searched the whole table and saw nothing there except tea.
+        - id: ch01-b08
+          speaker: alice
+          text: I don't see any wine.
+        - id: ch01-b09
+          speaker: march_hare
+          text: There isn't any.
+        - id: ch01-b10
+          speaker: alice
+          text: Then offering it wasn't very polite.
+          emotion: angry
+        - id: ch01-b11
+          speaker: march_hare
+          text: And sitting down without an invitation wasn't very polite either.
+        - id: ch01-b12
+          speaker: alice
+          text: I didn't know this was your table. It's set for many more than three people.
+        - id: ch01-b13
+          speaker: narrator
+          text: The Hatter had been staring at Alice for some time, studying her with great curiosity. This was the first thing he had said to her.
+        - id: ch01-b14
+          speaker: hatter
+          text: Your hair needs cutting.
+        - id: ch01-b15
+          speaker: alice
+          text: You shouldn't make personal remarks. It's very rude.
+        - id: ch01-b16
+          speaker: narrator
+          text: The Hatter opened his eyes very wide, but he answered with a riddle instead.
+        - id: ch01-b17
+          speaker: hatter
+          text: Why is a raven like a writing desk?
+        - id: ch01-b18
+          speaker: narrator
+          text: Alice brightened at once. Now they were asking riddles, she thought, so perhaps they could finally have some fun. She felt sure she could guess this one.
+        - id: ch01-b19
+          speaker: alice
+          text: I'm glad you've started asking riddles. I think I can work that one out.
+        - id: ch01-b20
+          speaker: march_hare
+          text: You mean you think you can find the answer?
+        - id: ch01-b21
+          speaker: alice
+          text: That's exactly what I mean.
+        - id: ch01-b22
+          speaker: march_hare
+          text: Then you ought to say what you mean.
+        - id: ch01-b23
+          speaker: alice
+          text: I do! Well, at least I mean what I say. That's the same thing, isn't it?
+        - id: ch01-b24
+          speaker: hatter
+          text: Not at all! You might as well claim that "I see what I eat" means "I eat what I see."
+        - id: ch01-b25
+          speaker: march_hare
+          text: Or that "I like what I get" means "I get what I like."
+        - id: ch01-b26
+          speaker: dormouse
+          text: Or that "I breathe when I sleep" means "I sleep when I breathe."
+        - id: ch01-b27
+          speaker: narrator
+          text: The Dormouse seemed to be talking in its sleep.
+        - id: ch01-b28
+          speaker: hatter
+          text: Those two are the same for you.
+        - id: ch01-b29
+          speaker: narrator
+          text: After that, the conversation stopped. For a whole minute, everyone sat silent. Alice spent the time searching her memory for everything she knew about ravens and writing desks, but that did not give her very much to work with.
+    - id: ch02
+      title: The Hatter's Watch
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The Hatter broke the silence first. He turned toward Alice, pulled a watch from his pocket, and stared at it uneasily. Every now and then, he shook it and held it close to his ear.
+        - id: ch02-b02
+          speaker: hatter
+          text: What day of the month is it?
+        - id: ch02-b03
+          speaker: narrator
+          text: Alice thought for a moment.
+        - id: ch02-b04
+          speaker: alice
+          text: The fourth.
+        - id: ch02-b05
+          speaker: hatter
+          text: It's two days wrong! I told you butter would ruin the works!
+          emotion: angry
+        - id: ch02-b06
+          speaker: march_hare
+          text: It was the very best butter.
+        - id: ch02-b07
+          speaker: hatter
+          text: Yes, but you must have put crumbs in too. You shouldn't have used the bread knife.
+        - id: ch02-b08
+          speaker: narrator
+          text: The March Hare took the watch and examined it gloomily. He turned it over, dipped it right into his cup of tea, and looked at it again. Even after all that, he could think of nothing new to say about it.
+        - id: ch02-b09
+          speaker: march_hare
+          text: It really was the best butter.
+        - id: ch02-b10
+          speaker: narrator
+          text: Alice peered over his shoulder.
+        - id: ch02-b11
+          speaker: alice
+          text: What a strange watch! It shows the date, but it doesn't show the time.
+        - id: ch02-b12
+          speaker: hatter
+          text: Why should it? Does your watch show what year it is?
+        - id: ch02-b13
+          speaker: alice
+          text: Of course not. We stay in the same year for such a long time.
+        - id: ch02-b14
+          speaker: hatter
+          text: That's exactly how it is with my watch.
+        - id: ch02-b15
+          speaker: narrator
+          text: Alice was completely puzzled. The Hatter's answer did not seem to make any sense at all. Every word was certainly English, yet putting the words together had not helped her understand him.
+        - id: ch02-b16
+          speaker: alice
+          text: I'm afraid I don't understand.
+        - id: ch02-b17
+          speaker: hatter
+          text: The Dormouse has fallen asleep again.
+        - id: ch02-b18
+          speaker: narrator
+          text: As if that settled the matter, the Hatter poured a little hot tea right onto the Dormouse's nose. The Dormouse shook its head impatiently but did not even open its eyes.
+        - id: ch02-b19
+          speaker: dormouse
+          text: Of course, of course. That's just what I was about to say.
+        - id: ch02-b20
+          speaker: hatter
+          text: Have you solved the riddle yet?
+        - id: ch02-b21
+          speaker: alice
+          text: No, I give up. What's the answer?
+        - id: ch02-b22
+          speaker: hatter
+          text: I have no idea at all.
+        - id: ch02-b23
+          speaker: march_hare
+          text: Neither do I.
+        - id: ch02-b24
+          speaker: narrator
+          text: Alice let out a tired sigh.
+        - id: ch02-b25
+          speaker: alice
+          text: You could do something better with your time than ask riddles that don't have answers.
+        - id: ch02-b26
+          speaker: hatter
+          text: If you knew Time the way I do, you wouldn't talk about wasting it. Time is a him.
+        - id: ch02-b27
+          speaker: alice
+          text: I don't know what you mean.
+        - id: ch02-b28
+          speaker: hatter
+          text: Of course you don't! I suppose you've never even spoken to Time.
+        - id: ch02-b29
+          speaker: alice
+          text: Maybe not. But when I practice music, I have to beat time.
+        - id: ch02-b30
+          speaker: hatter
+          text: Ah, that's the trouble. Time can't stand being beaten. If you stayed friendly with him, he'd do almost anything you wanted with the clock. Suppose it was nine in the morning and lessons were about to start. You'd only have to whisper to Time, and the clock would spin around in a flash. Half past one! Dinner time!
+        - id: ch02-b31
+          speaker: march_hare
+          text: I wish it were.
+        - id: ch02-b32
+          speaker: narrator
+          text: The March Hare whispered the words to himself.
+        - id: ch02-b33
+          speaker: alice
+          text: That would be wonderful. But I wouldn't be hungry yet.
+        - id: ch02-b34
+          speaker: hatter
+          text: Maybe not at first. You could keep the clock at half past one until you were.
+        - id: ch02-b35
+          speaker: alice
+          text: Is that what you do?
+        - id: ch02-b36
+          speaker: narrator
+          text: The Hatter shook his head sadly.
+        - id: ch02-b37
+          speaker: hatter
+          text: No, not me. Time and I had a quarrel last March, just before the March Hare went mad.
+        - id: ch02-b38
+          speaker: narrator
+          text: The Hatter pointed his teaspoon at the March Hare. Then he explained that the quarrel had happened during the great concert given by the Queen of Hearts.
+        - id: ch02-b39
+          speaker: hatter
+          text: I had to stand up and sing, "Twinkle, twinkle, little bat! How I wonder what you're at!" Perhaps you know the song?
+        - id: ch02-b40
+          speaker: alice
+          text: I've heard something like it.
+        - id: ch02-b41
+          speaker: hatter
+          text: Then it goes, "Up above the world you fly, like a tea tray in the sky. Twinkle, twinkle..."
+        - id: ch02-b42
+          speaker: narrator
+          text: The Dormouse stirred and began singing in its sleep.
+        - id: ch02-b43
+          speaker: dormouse
+          text: Twinkle, twinkle, twinkle, twinkle...
+        - id: ch02-b44
+          speaker: narrator
+          text: It went on so long that the other two had to pinch the Dormouse to stop it.
+        - id: ch02-b45
+          speaker: hatter
+          text: I'd barely finished the first verse when the Queen jumped up and shouted, "He's murdering the time! Off with his head!"
+        - id: ch02-b46
+          speaker: alice
+          text: How terribly cruel!
+        - id: ch02-b47
+          speaker: hatter
+          text: Ever since then, Time won't do anything I ask. Now it's always six o'clock.
+          emotion: sad
+        - id: ch02-b48
+          speaker: narrator
+          text: A bright idea suddenly came to Alice. If the clock was always stuck at six, perhaps it explained the strange table in front of her.
+        - id: ch02-b49
+          speaker: alice
+          text: Is that why there are so many tea things on the table?
+        - id: ch02-b50
+          speaker: hatter
+          text: Exactly. It's always tea time, so there's never time to wash anything.
+        - id: ch02-b51
+          speaker: alice
+          text: Then you just keep moving around the table?
+        - id: ch02-b52
+          speaker: hatter
+          text: That's right. We move on whenever the things in front of us are used.
+        - id: ch02-b53
+          speaker: alice
+          text: But what happens when you reach the beginning again?
+    - id: ch03
+      title: The Dormouse's Story
+      blocks:
+        - id: ch03-b01
+          speaker: march_hare
+          text: Let's talk about something else. I'm tired of this. The young lady should tell us a story.
+        - id: ch03-b02
+          speaker: narrator
+          text: The March Hare cut in with a yawn. He was tired of the subject and wanted a change. His suggestion that Alice should tell them a story alarmed her rather more than she cared to admit.
+        - id: ch03-b03
+          speaker: alice
+          text: I'm afraid I don't know any stories.
+        - id: ch03-b04
+          speakers: [march_hare, hatter]
+          ensemble: duo
+          text: Then the Dormouse can tell one! Wake up, Dormouse!
+        - id: ch03-b05
+          speaker: narrator
+          text: The Hatter and the March Hare pinched the Dormouse from both sides at the same time. Very slowly, the sleepy little creature opened its eyes.
+        - id: ch03-b06
+          speaker: dormouse
+          text: I wasn't asleep. I heard every word you two said.
+        - id: ch03-b07
+          speaker: march_hare
+          text: Tell us a story.
+        - id: ch03-b08
+          speaker: alice
+          text: Yes, please do.
+        - id: ch03-b09
+          speaker: hatter
+          text: And hurry, or you'll fall asleep before you finish.
+        - id: ch03-b10
+          speaker: dormouse
+          text: Once there were three little sisters named Elsie, Lacie, and Tillie. They lived at the bottom of a well...
+        - id: ch03-b11
+          speaker: narrator
+          text: The Dormouse began the story in a great hurry. Alice, who was always interested in food and drink, interrupted at once.
+        - id: ch03-b12
+          speaker: alice
+          text: What did they live on?
+        - id: ch03-b13
+          speaker: narrator
+          text: The Dormouse thought for a minute or two.
+        - id: ch03-b14
+          speaker: dormouse
+          text: They lived on treacle.
+        - id: ch03-b15
+          speaker: alice
+          text: They couldn't live on that. It would make them sick.
+        - id: ch03-b16
+          speaker: dormouse
+          text: It did. They were very sick.
+        - id: ch03-b17
+          speaker: narrator
+          text: Alice tried to picture what it would be like to live at the bottom of a well and eat nothing but treacle. The whole arrangement was so extraordinary that imagining it only left her more puzzled.
+        - id: ch03-b18
+          speaker: alice
+          text: But why did they live at the bottom of a well?
+        - id: ch03-b19
+          speaker: march_hare
+          text: Have some more tea.
+        - id: ch03-b20
+          speaker: alice
+          text: I haven't had any tea yet, so I can't have more.
+        - id: ch03-b21
+          speaker: hatter
+          text: You mean you can't have less. Taking more than nothing is easy.
+        - id: ch03-b22
+          speaker: alice
+          text: Nobody asked what you thought.
+        - id: ch03-b23
+          speaker: hatter
+          text: And now who's making personal remarks?
+        - id: ch03-b24
+          speaker: narrator
+          text: The Hatter looked delighted with that answer. Alice could not think of anything to say back. Instead, she helped herself to some tea and bread and butter. When she was settled, she turned to the Dormouse and asked her question again.
+        - id: ch03-b25
+          speaker: alice
+          text: Why did those sisters live at the bottom of a well?
+        - id: ch03-b26
+          speaker: narrator
+          text: The Dormouse took another minute or two to think.
+        - id: ch03-b27
+          speaker: dormouse
+          text: It was a treacle well.
+        - id: ch03-b28
+          speaker: alice
+          text: There's no such thing!
+          emotion: angry
+        - id: ch03-b29
+          speakers: [hatter, march_hare]
+          ensemble: duo
+          text: Sh! Sh!
+        - id: ch03-b30
+          speaker: dormouse
+          text: If you can't be polite, you can finish the story yourself.
+          emotion: angry
+        - id: ch03-b31
+          speaker: alice
+          text: No, please keep going. I won't interrupt again. I suppose there might be one treacle well.
+        - id: ch03-b32
+          speaker: dormouse
+          text: One, indeed! Anyway, the three sisters were learning to draw...
+          emotion: angry
+        - id: ch03-b33
+          speaker: narrator
+          text: The Dormouse agreed to continue, and Alice immediately forgot her promise.
+        - id: ch03-b34
+          speaker: alice
+          text: What did they draw?
+        - id: ch03-b35
+          speaker: dormouse
+          text: Treacle.
+        - id: ch03-b36
+          speaker: hatter
+          text: I want a clean cup. Everyone move one place over.
+        - id: ch03-b37
+          speaker: narrator
+          text: The Hatter moved to the next place while he spoke, and the Dormouse followed him. The March Hare slid into the Dormouse's old seat. Alice did not want to move, but she finally took the March Hare's place. The Hatter was the only one who gained anything from this change. Alice was much worse off, because the March Hare had just knocked the milk jug over into his plate.
+        - id: ch03-b38
+          speaker: narrator
+          text: Alice did not want to offend the Dormouse again, so she asked her next question very carefully.
+        - id: ch03-b39
+          speaker: alice
+          text: I still don't understand. Where did they draw the treacle from?
+        - id: ch03-b40
+          speaker: hatter
+          text: You can draw water from a water well. So you can draw treacle from a treacle well. Isn't that obvious, stupid?
+        - id: ch03-b41
+          speaker: alice
+          text: But the sisters were inside the well.
+        - id: ch03-b42
+          speaker: narrator
+          text: Alice spoke to the Dormouse and ignored the Hatter's insult.
+        - id: ch03-b43
+          speaker: dormouse
+          text: Of course they were. They were well in.
+        - id: ch03-b44
+          speaker: narrator
+          text: Alice could not tell whether the Dormouse meant the sisters were far inside the well or that they were feeling well. The answer confused her so completely that, for once, she let the story continue without interrupting.
+        - id: ch03-b45
+          speaker: dormouse
+          text: They were learning to draw, and they drew all kinds of things. Everything that starts with M...
+        - id: ch03-b46
+          speaker: narrator
+          text: The Dormouse yawned and rubbed its eyes. It was growing sleepier and sleepier.
+        - id: ch03-b47
+          speaker: alice
+          text: Why did everything start with M?
+        - id: ch03-b48
+          speaker: march_hare
+          text: Why not?
+        - id: ch03-b49
+          speaker: narrator
+          text: Alice had nothing to say to that. By now the Dormouse's eyes had closed, and it was drifting into another doze. The Hatter pinched it awake. The Dormouse gave a little shriek, picked up the broken thread of its story, and went on.
+        - id: ch03-b50
+          speaker: dormouse
+          text: Things starting with M, like mousetraps, the moon, memory, and muchness. You know how people say things are much of a muchness. Have you ever seen a drawing of muchness?
+        - id: ch03-b51
+          speaker: alice
+          text: Now that you ask, I don't think...
+        - id: ch03-b52
+          speaker: hatter
+          text: Then you shouldn't speak.
+    - id: ch04
+      title: Into the Garden
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: That final piece of rudeness was more than Alice could bear. Thoroughly disgusted with the whole tea party, she pushed back from the table, stood up, and walked away. The Dormouse fell asleep the instant she left. Neither the Hatter nor the March Hare paid the slightest attention to her going.
+        - id: ch04-b02
+          speaker: narrator
+          text: As she went, Alice looked back once or twice. Part of her still hoped that someone would call after her, but no one did. The last time she turned around, the Hatter and the March Hare were busy trying to squeeze the sleeping Dormouse into the teapot.
+        - id: ch04-b03
+          speaker: alice
+          text: I'm never going back there! That was the stupidest tea party I've ever been to!
+          emotion: angry
+        - id: ch04-b04
+          speaker: narrator
+          text: As Alice picked her way through the woods, she noticed a door set right into one of the trees.
+        - id: ch04-b05
+          speaker: alice
+          text: That's very curious. But everything has been curious today. I might as well go in right now.
+        - id: ch04-b06
+          speaker: narrator
+          text: She did not wait to wonder about it any longer. She opened the door and went straight in. Once again, Alice found herself in the familiar long hall, standing close beside the little glass table.
+        - id: ch04-b07
+          speaker: alice
+          text: This time, I'll do it properly.
+        - id: ch04-b08
+          speaker: narrator
+          text: First she picked up the little golden key from the glass table and unlocked the tiny door that led toward the garden. Then she took the piece of mushroom she had saved in her pocket. She nibbled at it carefully until she was only about a foot tall. At that size, she could walk down the narrow little passage. And then, at long last, Alice stepped into the beautiful garden, among the bright flower beds and the cool fountains.

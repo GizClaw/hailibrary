@@ -1,0 +1,10 @@
+# HEY DIDDLE DIDDLE
+
+Hey, diddle, diddle,
+The Cat
+and the Fiddle,
+The Cow jumped over the Moon,
+The little Dog laughed
+to see such fun.
+And the Dish ran away with the Spoon.
+

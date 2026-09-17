@@ -64,7 +64,7 @@ characters:
     description: A cat
     visual_identity: A red cat
 cover: artwork/cover.webp
-source: {series: test-series, volume: ${volume}, volumes: 2}
+source: {article: test-series, volume: ${volume}, volumes: 2}
 `);
   await write(join(book, "artwork.yaml"), `schema_version: 2
 style: test-style
@@ -95,7 +95,7 @@ async function fixture(): Promise<Fixture> {
     await write(join(root, `prompts/writers/${locale}/test-writer/prompt.yaml`), `schema_version: 1\nid: test-writer\nlocale: ${locale}\nrecommended_levels: [aa]\nprompt: Test writer\nlanguage_prompt: Test language\navatar: avatar.webp\n`);
     await write(join(root, `prompts/writers/${locale}/test-writer/avatar.webp`), media);
   }
-  await write(join(root, "works/series/test-series/article.yaml"), "schema_version: 1\nid: test-series\n");
+  await write(join(root, "works/articles/test-series/article.yaml"), "schema_version: 1\nid: test-series\n");
   const first = await writeBook(root, "volume-one", 1, { "en-US": "What is the cat doing?", "zh-CN": "小猫在做什么？" });
   const second = await writeBook(root, "volume-two", 2, { "en-US": "Where is the cat?", "zh-CN": "小猫在哪里？" });
   return { root, first, second };
@@ -115,12 +115,15 @@ async function seriesFixture(emotion?: string): Promise<SeriesFixture> {
   const root = await mkdtemp(join(tmpdir(), "check-work-series-test-"));
   await exec("git", ["init", "-q", root]);
   await cp(join(repositoryRoot, "prompts/labels/index.yaml"), join(root, "prompts/labels/index.yaml"));
+  await cp(join(repositoryRoot, "prompts/taxonomy/index.yaml"), join(root, "prompts/taxonomy/index.yaml"));
   await cp(join(repositoryRoot, "prompts/article-types"), join(root, "prompts/article-types"), { recursive: true });
   await write(join(root, "prompts/styles/test-style/prompt.yaml"), "schema_version: 1\nid: test-style\nprompt: Test style\n");
   await write(join(root, "prompts/writers/en-US/test-writer/prompt.yaml"), "schema_version: 1\nid: test-writer\nlocale: en-US\n");
-  const series = join(root, "works/series/test-series");
+  const series = join(root, "works/articles/test-series");
   await write(join(series, "article.yaml"), `schema_version: 1
 id: test-series
+type: fiction
+age_range: {min: 8, max: 10}
 category: fiction
 genre: adventure
 style: test-style
@@ -174,27 +177,27 @@ async function replace(path: string, from: string, to: string) {
   await writeFile(path, contents.replace(from, to));
 }
 
-test("accepts distinct questions in different volumes of one series", async () => {
+test("accepts distinct questions in different volumes of one article", async () => {
   const f = await fixture();
   assert.equal((await check(f)).code, 0);
 });
 
 test("accepts book source with omitted volume metadata as volume 1 of 1", async () => {
   const f = await fixture();
-  await replace(join(f.second, "book.yaml"), "source: {series: test-series, volume: 2, volumes: 2}", "source: {series: test-series}");
+  await replace(join(f.second, "book.yaml"), "source: {article: test-series, volume: 2, volumes: 2}", "source: {article: test-series}");
   assert.equal((await check(f)).code, 0);
 });
 
 test("accepts an independent picture book without source", async () => {
   const f = await fixture();
-  await replace(join(f.second, "book.yaml"), "source: {series: test-series, volume: 2, volumes: 2}\n", "");
+  await replace(join(f.second, "book.yaml"), "source: {article: test-series, volume: 2, volumes: 2}\n", "");
   assert.equal((await check(f)).code, 0);
 });
 
-test("still rejects duplicate questions when multiple same-series books omit volume metadata", async () => {
+test("still rejects duplicate questions when multiple same-article books omit volume metadata", async () => {
   const f = await fixture();
-  await replace(join(f.first, "book.yaml"), "source: {series: test-series, volume: 1, volumes: 2}", "source: {series: test-series}");
-  await replace(join(f.second, "book.yaml"), "source: {series: test-series, volume: 2, volumes: 2}", "source: {series: test-series}");
+  await replace(join(f.first, "book.yaml"), "source: {article: test-series, volume: 1, volumes: 2}", "source: {article: test-series}");
+  await replace(join(f.second, "book.yaml"), "source: {article: test-series, volume: 2, volumes: 2}", "source: {article: test-series}");
   await replace(join(f.second, "locales/en-US/story.yaml"), "Where is the cat?", "What is the cat doing?");
   const result = await check(f);
   assert.equal(result.code, 1);
@@ -215,7 +218,6 @@ test("accepts the legacy picture_books proposal list", async () => {
 
 test("validates an article type reference when present", async () => {
   const f = await seriesFixture();
-  await replace(join(f.series, "article.yaml"), "id: test-series", "id: test-series\ntype: fiction");
   assert.equal((await checkSeriesFixture(f)).code, 0);
 
   await replace(join(f.series, "article.yaml"), "type: fiction", "type: missing-type");
