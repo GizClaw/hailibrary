@@ -1,0 +1,94 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 亲切风趣，像在孩子身边娓娓讲述森林故事
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中等
+    bobby:
+      display_name: 浣熊博比
+      tts:
+        delivery: 天真敏感，困惑时迟疑，受惊时急促
+        timbre: 清亮稚气
+        pace: 轻快而随情绪变化
+        pitch: 中高
+    peter_rabbit:
+      display_name: 兔子彼得
+      tts:
+        delivery: 热心好奇，话语轻快，偶尔透出顽皮
+        timbre: 清脆明亮
+        pace: 明快灵活
+        pitch: 中高
+    prickly_porky:
+      display_name: 豪猪波基
+      tts:
+        delivery: 耿直倔强，恼火时短促有力
+        timbre: 粗哑厚实
+        pace: 稍慢而干脆
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 犯错的时候
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 朋友要是犯了错，自己还一点儿也不知道，等他终于明白过来时，但愿你不在旁边。
+        - id: ch01-b02
+          speaker: narrator
+          text: 自己发现犯了错，已经够难受了。要是别人也知道，那滋味就更不好受。所以，你明知朋友出了差错，却已经来不及提醒，最体贴的办法就是装作没看见。可兔子彼得偏偏守在那根老空心圆木旁，看着浣熊博比在里面打盹儿。这可不怎么厚道。
+        - id: ch01-b03
+          speaker: narrator
+          text: 没过多久，彼得的长耳朵听见圆木里有了动静。先是咔啦咔啦的刮擦声和窸窸窣窣的响声，接着又响起呼噜声和尖叫声，最后变成了低吼和咆哮。那低吼和咆哮，正是博比发出来的。
+    - id: ch02
+      title: 圆木里的争执
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 博比坚持要留在原地。不管对方是谁，他都说自己半步也不会挪。彼得听见了，赶紧捂住嘴，免得笑出声。他满怀期待地瞪圆眼睛，紧盯着圆木一头的洞口。
+        - id: ch02-b02
+          speaker: narrator
+          text: 彼得知道这根圆木的底细，也知道谁住在里面。他刚才想告诉博比的，正是这件事。这时，他听见博比又在里面大声嚷嚷。
+        - id: ch02-b03
+          speaker: bobby
+          text: 我才不挪呢，一步也不挪！你待在那儿别动，等我睡完再说。你要是再靠近，我就——
+          emotion: angry
+        - id: ch02-b04
+          speaker: narrator
+          text: 后面的话，彼得没听见。也许博比根本没来得及说完。一阵巨大的咔啦声和窸窣声打断了他，随后又响起一声呼噜。那声音又恼火，又毫不含糊。
+        - id: ch02-b05
+          speaker: narrator
+          text: 博比再次低吼起来，还说自己绝不挪动。可彼得听得出来，博比的声音已经比刚才更靠近圆木敞开的这一头了。紧接着，又是一声呼噜，又是一阵咔啦咔啦、窸窸窣窣。
+    - id: ch03
+      title: 豪猪波基出来了
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 浣熊博比终于从老圆木的一头倒退着钻了出来。他还在低吼咆哮，嘴里仍说自己半步也不挪。彼得再也憋不住了。眼前的情景实在太可笑，他非笑出来不可。
+        - id: ch03-b02
+          speaker: narrator
+          text: 接着，豪猪波基黑黑的鼻子和两只黯淡的小眼睛露了出来。每只眼睛里都有一点小小的怒火，倒比平时亮了几分。看得出来，波基真生气了。
+        - id: ch03-b03
+          speaker: narrator
+          text: 波基一到外面，立刻竖起藏在外衣里的上千根小长矛，猛地朝博比冲过去一小段。博比转身就跑。他怕极了那些尖利的小长矛。其实，谁都怕它们，就连大块头熊巴斯特也一样。
+        - id: ch03-b04
+          speaker: narrator
+          text: 原来，彼得先前听见的那些咔啦声和窸窣声，就是波基的小长矛擦过老圆木内壁时发出的。
+        - id: ch03-b05
+          speaker: prickly_porky
+          text: 这只浣熊太放肆了！闯进我的家，连问也不问就躺下睡觉，还说没有他的准许，我就不能出去！真是太放肆了！
+          emotion: angry
+        - id: ch03-b06
+          speaker: narrator
+          text: 波基气呼呼地哼着，上千根小长矛也被他抖得咔啦作响。
+    - id: ch04
+      title: 博比明白了
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 博比这才明白，自己想钻进老圆木打盹儿以前，没有先看看里面是不是有人在家，实在犯了一个大错。
+        - id: ch04-b02
+          speaker: narrator
+          text: 想到自己这样粗心，竟闹出这种事，他已经羞臊得不得了。再想到兔子彼得从头到尾全看见了，博比就更加难为情了。

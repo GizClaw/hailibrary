@@ -1,0 +1,468 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, playful, and story-rich
+        timbre: clear and rounded
+        pace: measured with lively turns
+        pitch: medium
+    lionel:
+      display_name: Lionel
+      tts:
+        delivery: candid, eager, and boyishly determined
+        timbre: bright and youthful
+        pace: quick
+        pitch: medium-high
+    nurse:
+      display_name: Nurse
+      tts:
+        delivery: practical, affectionate, and firm
+        timbre: warm and sturdy
+        pace: steady
+        pitch: medium-low
+    chancellor:
+      display_name: Chancellor
+      tts:
+        delivery: grave, fussy, and easily agitated
+        timbre: dry and resonant
+        pace: deliberate
+        pitch: low
+    prime_minister:
+      display_name: Prime Minister
+      tts:
+        delivery: formal, cautious, and gently comic
+        timbre: smooth and dignified
+        pace: measured
+        pitch: medium-low
+    people_1:
+      display_name: First Citizen
+      tts:
+        delivery: hearty and outspoken
+        timbre: clear and full
+        pace: medium
+        pitch: medium
+    people_2:
+      display_name: Second Citizen
+      tts:
+        delivery: emphatic and skeptical
+        timbre: crisp and grounded
+        pace: medium
+        pitch: medium-low
+    people_3:
+      display_name: Third Citizen
+      tts:
+        delivery: earnest and excitable
+        timbre: light and clear
+        pace: brisk
+        pitch: medium-high
+    hippogriff:
+      display_name: Hippogriff
+      tts:
+        delivery: gentle, modest, and quietly brave
+        timbre: soft and silvery
+        pace: unhurried
+        pitch: medium
+    manticora:
+      display_name: Manticora
+      tts:
+        delivery: mournful, timid, and formal
+        timbre: plaintive and furry
+        pace: slow
+        pitch: medium-low
+    rocking_horse:
+      display_name: Rocking Horse
+      tts:
+        delivery: polite and wistful
+        timbre: woody and mellow
+        pace: measured
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: I. The Book of Beasts
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Lionel was building a Palace when the news arrived. He left all the bricks scattered across the nursery floor for Nurse to clear away, but the news was remarkable enough to excuse almost anything. There had been a knock at the front door and voices downstairs. Lionel supposed the man had come about the gas. No one had been allowed to light it since Lionel tied his skipping rope to the gas bracket and made a swing.
+        - id: ch01-b02
+          speaker: nurse
+          text: Master Lionel, dear, some gentlemen have come to take you away. You are going to be King.
+          emotion: surprised
+        - id: ch01-b03
+          speaker: narrator
+          text: Nurse hurried to change his smock, wash his face and hands, and brush his hair. Lionel wriggled and fidgeted through it all.
+        - id: ch01-b04
+          speaker: lionel
+          text: Oh, please don't, Nurse. My ears are clean enough. And my hair is all right. That will do now.
+        - id: ch01-b05
+          speaker: nurse
+          text: Anyone would think you were going away to be an eel, not a King.
+        - id: ch01-b06
+          speaker: narrator
+          text: The instant Nurse let go, Lionel dashed away without even waiting for his clean handkerchief. In the drawing room he found two very grave gentlemen. They wore red robes trimmed with fur and gold coronets with velvet rising from the middle like cream in the most expensive jam tarts. Both gentlemen bowed very low.
+        - id: ch01-b07
+          speaker: chancellor
+          text: Sire, the King of this country, your great-great-great-great-great-grandfather, is dead. You must come with us and take his place as King.
+        - id: ch01-b08
+          speaker: lionel
+          text: Yes, please, sir. When do I start?
+        - id: ch01-b09
+          speaker: prime_minister
+          text: Your coronation will be this afternoon.
+        - id: ch01-b10
+          speaker: lionel
+          text: Shall I bring Nurse? What time must I be ready? Perhaps I ought to wear my velvet suit with the lace collar.
+        - id: ch01-b11
+          speaker: narrator
+          text: Lionel had often gone out to tea, so he knew that clothes and being fetched mattered on important visits.
+        - id: ch01-b12
+          speaker: prime_minister
+          text: Nurse will be brought to the Palace later. There is no need to change. The Royal robes will hide your suit.
+        - id: ch01-b13
+          speaker: narrator
+          text: The two gentlemen led him outside. A coach drawn by eight white horses stood before Lionel's house, which was Number Seven on the left as you went up the street. At the very last moment Lionel ran upstairs again. He kissed Nurse.
+        - id: ch01-b14
+          speaker: lionel
+          text: Thank you for washing me. I wish I had let you wash my other ear too. No, there isn't time. Give me the handkerchief. Good-bye, Nurse.
+        - id: ch01-b15
+          speaker: nurse
+          text: Good-bye, ducky. Be a good little King. Remember your please and thank you. Pass the cake to the little girls, and never take more than two helpings of anything.
+        - id: ch01-b16
+          speaker: narrator
+          text: And so Lionel went away to be made a King. He had expected it no more than you would, and everything was new. As the coach rolled through town, he bit his tongue to make sure he was awake. If his tongue was real, then surely he could not be dreaming. Half an hour ago he had been building with bricks. Now flags fluttered over the streets. People crowded every window, waving handkerchiefs and throwing flowers. Scarlet soldiers lined the pavements. Every church bell rang madly, and thousands of voices rose through the ringing.
+        - id: ch01-b17
+          speakers: [people_1, people_2, people_3]
+          ensemble: chorus
+          text: Long live Lionel! Long live our little King!
+          emotion: happy
+        - id: ch01-b18
+          speaker: narrator
+          text: At first Lionel regretted not wearing his best clothes, but he soon forgot. If he had been a girl, he might have worried about them the whole time. As the coach went on, the Chancellor and Prime Minister explained whatever puzzled him.
+        - id: ch01-b19
+          speaker: lionel
+          text: But I thought this was a Republic. We have not had a King for ages.
+        - id: ch01-b20
+          speaker: prime_minister
+          text: Sire, your great-great-great-great-great-grandfather died when my grandfather was a boy. Ever since then, your loyal people have been saving for your crown. Those with excellent pocket money gave sixpence each week, and those with less gave as little as a halfpenny. The people must pay for the crown. That is the rule.
+        - id: ch01-b21
+          speaker: lionel
+          text: Didn't my great-great-however-many-greats-grandfather have a crown of his own?
+        - id: ch01-b22
+          speaker: prime_minister
+          text: He did, but he feared becoming vain, so he sent it away to be covered with tin. He sold all its jewels and bought books. He was a very good King, though he had his faults. He was fond of books. Almost at his final breath he sent off that crown, and he died before paying the tinsmith.
+        - id: ch01-b23
+          speaker: narrator
+          text: The Prime Minister wiped away a tear. Just then the coach stopped, and Lionel was taken inside to be crowned. A coronation is far more tiring than you might suppose. Once it was over, Lionel still had to wear the Royal robes for another hour or two. Then everyone whose duty it was came and kissed his hand. By the end he was completely worn out and very glad to reach the Palace nursery. Nurse was waiting there, and tea was ready. There was seedy cake and plummy cake, jam and hot buttered toast. The prettiest china was set out, painted with red, gold, and blue flowers. Best of all, it was real tea, and Lionel could drink as many cups as he liked.
+        - id: ch01-b24
+          speaker: lionel
+          text: I think I would like a book now. Nurse, will you fetch one for me?
+        - id: ch01-b25
+          speaker: nurse
+          text: Bless the child! Becoming King has not stopped your legs from working. Run along and fetch your own books.
+        - id: ch01-b26
+          speaker: narrator
+          text: Lionel went down to the library. The Prime Minister and Chancellor were there. They bowed until they were very low indeed and had just begun, with great politeness, to ask why he had come bothering them.
+        - id: ch01-b27
+          speaker: lionel
+          text: Oh! There are books everywhere! Do they all belong to you?
+        - id: ch01-b28
+          speaker: chancellor
+          text: They belong to Your Majesty. They were owned by the late King, your great-great—
+        - id: ch01-b29
+          speaker: lionel
+          text: Yes, yes, I know. I shall read every one of them. I love books, and I am very glad I learned to read.
+        - id: ch01-b30
+          speaker: prime_minister
+          text: If Your Majesty will accept my advice, you should leave these books alone. Your great—
+        - id: ch01-b31
+          speaker: lionel
+          text: Well? What about him?
+        - id: ch01-b32
+          speaker: prime_minister
+          text: He was certainly a good King. A most superior King, in his own fashion. But he was a little unusual.
+        - id: ch01-b33
+          speaker: lionel
+          text: Do you mean he was mad?
+        - id: ch01-b34
+          speakers: [chancellor, prime_minister]
+          ensemble: duo
+          text: No, no! Not mad!
+          emotion: surprised
+        - id: ch01-b35
+          speaker: prime_minister
+          text: If I may put it this way, he was much too clever. I would rather my little King had nothing to do with his books.
+        - id: ch01-b36
+          speaker: narrator
+          text: Lionel looked puzzled. The Chancellor twisted his red beard uneasily.
+        - id: ch01-b37
+          speaker: chancellor
+          text: The truth is, your great—
+        - id: ch01-b38
+          speaker: lionel
+          text: Go on, then.
+        - id: ch01-b39
+          speaker: chancellor
+          text: People called him a wizard.
+        - id: ch01-b40
+          speaker: lionel
+          text: But he was not one, was he?
+        - id: ch01-b41
+          speaker: chancellor
+          text: Certainly not. Your great— was a most worthy King.
+        - id: ch01-b42
+          speaker: lionel
+          text: I understand.
+        - id: ch01-b43
+          speaker: chancellor
+          text: Even so, I would not touch any of his books.
+        - id: ch01-b44
+          speaker: narrator
+          text: Lionel put both hands on a great brown book lying on the study table.
+        - id: ch01-b45
+          speaker: lionel
+          text: Only this one. I must see this one.
+        - id: ch01-b46
+          speaker: narrator
+          text: Golden patterns covered its brown leather. Its gold clasps held twisted turquoises and rubies, and gold protected its corners from wear. Across the spine, in large letters, Lionel read, “The Book of Beasts.”
+        - id: ch01-b47
+          speaker: chancellor
+          text: Do not be a foolish little King.
+        - id: ch01-b48
+          speaker: narrator
+          text: But Lionel had already undone the clasps. On the first yellow page was a magnificent butterfly, painted red, brown, yellow, and blue. It looked alive.
+        - id: ch01-b49
+          speaker: lionel
+          text: Look how lovely it is! Why, it—
+        - id: ch01-b50
+          speaker: narrator
+          text: The Butterfly fluttered its many-colored wings, rose from the page, and flew out through the window. Wonder seemed to lodge in the Prime Minister's throat and choke off his words. At last he managed to speak.
+        - id: ch01-b51
+          speaker: prime_minister
+          text: That is magic. There can be no doubt about it.
+          emotion: surprised
+        - id: ch01-b52
+          speaker: narrator
+          text: Before he finished, Lionel had turned the page. A shining bird stood there, beautiful in every blue feather. Beneath it were the words “Blue Bird of Paradise.” While Lionel stared, enchanted, the Blue Bird spread its wings and flew out of the book. The Prime Minister snatched the book away, shut it on the empty page, and placed it on a very high shelf. The Chancellor shook Lionel hard.
+        - id: ch01-b53
+          speaker: chancellor
+          text: You are a naughty, disobedient little King!
+          emotion: angry
+        - id: ch01-b54
+          speaker: narrator
+          text: Lionel hated being shaken, as every boy does. He would much rather have been slapped.
+        - id: ch01-b55
+          speaker: lionel
+          text: I cannot see that I have hurt anyone.
+        - id: ch01-b56
+          speaker: chancellor
+          text: No harm? What can you know about that? Suppose the next page held a snake, a worm, a centipede, a revolutionist, or some other dreadful thing!
+          emotion: angry
+        - id: ch01-b57
+          speaker: lionel
+          text: I am sorry I upset you. Come, let us kiss and make friends.
+        - id: ch01-b58
+          speaker: narrator
+          text: Lionel kissed the Prime Minister, and the quarrel was settled. The two of them sat down for a peaceful game of noughts and crosses, while the Chancellor went away to add up his accounts. That should have been the end of the matter. But when Lionel went to bed, he could not sleep. He kept thinking about the wonderful book and wondering what waited on the pages after the Blue Bird. At last the full moon was shining with all her might and light. Lionel slipped out of bed, crept quietly down to the library, climbed up to the high shelf, and took down The Book of Beasts.
+        - id: ch01-b59
+          speaker: narrator
+          text: He carried it to the terrace, where moonlight made everything bright as day. The Butterfly page and the Blue Bird page were empty except for their names. Lionel turned to the next picture. A red creature sat beneath a palm tree. The word underneath was “Dragon.” It did not move. Lionel shut the book rather quickly and went back to bed.
+        - id: ch01-b60
+          speaker: narrator
+          text: The next day he longed to see it again. He took the book into the garden and unfastened its jeweled clasps. It opened by itself to the Dragon. Sunlight poured across the page. Suddenly a great Red Dragon came out, spread enormous scarlet wings, and flew over the garden toward the distant hills. Only the green palm, yellow desert, and a few red streaks outside the old pencil outline remained.
+        - id: ch01-b61
+          speaker: narrator
+          text: Then Lionel knew what he had done. He had been King for less than a day, yet he had set a Red Dragon loose to torment the loyal people who had saved for so long to buy his crown. Lionel began to cry. Nurse, the Chancellor, and the Prime Minister came running. One look at the book told them everything.
+        - id: ch01-b62
+          speaker: chancellor
+          text: You naughty little King! Nurse, put him to bed and leave him to think about this.
+          emotion: angry
+        - id: ch01-b63
+          speaker: prime_minister
+          text: Perhaps, my lord, we should first discover exactly what has happened.
+        - id: ch01-b64
+          speaker: lionel
+          text: It was a Red Dragon. It flew away toward the hills. I am so sorry. Oh, please forgive me!
+          emotion: sad
+        - id: ch01-b65
+          speaker: narrator
+          text: The Prime Minister and Chancellor had more urgent things to think about than forgiving Lionel. They hurried away to consult the police and decide what could possibly be done. Everyone tried whatever seemed useful. Some people sat on committees. Others stood guard or lay hidden, waiting for the Dragon to appear. But the creature stayed high in the hills, where no one could reach him, and at last there was nothing more they could do. Nurse, meanwhile, did not forget her own duty. Perhaps she did more than anyone. She slapped the King, put him to bed without any tea, and when darkness came, she refused him even a candle to read by.
+        - id: ch01-b66
+          speaker: nurse
+          text: You have been a very naughty little King, and now nobody will love you.
+          emotion: angry
+        - id: ch01-b67
+          speaker: narrator
+          text: The Dragon stayed quiet the next day, though the more poetic citizens claimed they could plainly see his red glow shining through the green trees. Lionel put on his crown, sat upon his throne, and announced that he wished to make laws. Nurse and the ministers might think poorly of Lionel's private judgment. They might slap him or send him to bed. Yet the moment he wore his crown upon the throne, he became infallible. That meant everything he said was right, and a mistake was impossible.
+        - id: ch01-b68
+          speaker: lionel
+          text: From now on, no one may open a book in school or anywhere else.
+        - id: ch01-b69
+          speaker: narrator
+          text: At least half his subjects supported that law with all their hearts. The other half, who were the grown-up half, pretended they thought the King was perfectly right. Lionel next made a law that everyone must always have enough to eat. That pleased nearly everybody. Only the people who had always had too much were displeased. He went on making several more pleasant new laws, and each one was carefully written down. When the work of ruling was finished, Lionel went home, built little houses out of mud, and felt very happy with his day.
+        - id: ch01-b70
+          speaker: lionel
+          text: People will love me now, Nurse. I have made so many lovely new laws for them.
+        - id: ch01-b71
+          speaker: nurse
+          text: Do not count your chickens yet, my dear. That Dragon has not finished with you.
+        - id: ch01-b72
+          speaker: narrator
+          text: The next day was Saturday. That afternoon the Dragon plunged down upon the common in all his hideous redness. He carried away the Soccer Players, both umpires, the goal-posts, and the ball.
+        - id: ch01-b73
+          speakers: [people_1, people_2, people_3]
+          ensemble: chorus
+          text: We might as well be a Republic! And after all those years of saving for his crown!
+          emotion: angry
+        - id: ch01-b74
+          speaker: narrator
+          text: Wise people shook their heads and predicted that the nation would lose its love of sport. Soccer truly did become unpopular for quite a while. Through the following week Lionel tried his hardest to be good, and his subjects began to forgive him for freeing the Dragon.
+        - id: ch01-b75
+          speaker: people_1
+          text: Soccer is dangerous, after all. Perhaps discouraging it was sensible.
+        - id: ch01-b76
+          speaker: narrator
+          text: Most people decided the tough, hard Soccer Players must have disagreed so badly with the Dragon that he had gone somewhere people played only cat's cradle and other games that did not make anyone tough. Even so, Parliament met the next Saturday afternoon to decide what to do about him. Saturday suited the Members because most were free to attend.
+        - id: ch01-b77
+          speaker: narrator
+          text: Unfortunately, the Dragon had not gone away at all. He had only been asleep. Saturday woke him, and while Parliament considered the Dragon, the Dragon considered Parliament. Afterward there was not a single Member left. The country tried to make a new Parliament, but the position had somehow become every bit as unpopular as playing soccer. No one would agree to be elected. In the end, the country simply had to carry on without any Parliament at all. When another Saturday came around, everyone waited nervously to see what would happen. The Red Dragon was fairly quiet that day. He ate only an Orphanage.
+        - id: ch01-b78
+          speaker: narrator
+          text: Lionel was deeply unhappy. He knew his own disobedience had brought disaster upon the Soccer Players, Parliament, and the Orphanage. He also knew he must try to put things right. But what could he do? The Blue Bird sang beautifully in the Palace rose garden, and the tame Butterfly perched on his shoulder as he walked among the tall lilies.
+        - id: ch01-b79
+          speaker: narrator
+          text: Those gentle creatures proved that not every beast in the book was wicked. Lionel wondered whether he might release another beast that could fight the Dragon. He carried The Book of Beasts into the rose garden and opened the page next to the Dragon's by the smallest crack, only far enough to glimpse part of a name. He could see the letters “cora.” Then the middle of the page began swelling with a creature struggling to emerge.
+        - id: ch01-b80
+          speaker: narrator
+          text: Lionel dropped the book and sat down on it, hard and fast. That was the only way he managed to close it. He fastened the ruby-and-turquoise clasps and sent for the Chancellor. The Chancellor had been ill on Saturday, which had saved him from being eaten with Parliament.
+        - id: ch01-b81
+          speaker: lionel
+          text: What sort of animal has a name ending in “cora”?
+        - id: ch01-b82
+          speaker: chancellor
+          text: Why, the Manticora, of course.
+        - id: ch01-b83
+          speaker: lionel
+          text: And what does a Manticora look like?
+        - id: ch01-b84
+          speaker: chancellor
+          text: It is the Dragon's sworn enemy and drinks Dragon blood. It is yellow, with a lion's body and a man's face. If only we had a few here now! Sadly, the last Manticora died centuries ago.
+        - id: ch01-b85
+          speaker: narrator
+          text: Lionel ran back and opened the book to the page ending in “cora.” There it was, exactly as the Chancellor had described it. A yellow creature with the body of a lion and the face of a man, and the full name “Manticora” printed beneath.
+        - id: ch01-b86
+          speaker: narrator
+          text: After a few minutes, the Manticora crept sleepily out of the page. It rubbed its eyes with its hands and mewed in a miserable little voice. It seemed extremely foolish. Lionel pushed it toward the hills.
+        - id: ch01-b87
+          speaker: lionel
+          text: Go along now. Find the Dragon and fight him.
+        - id: ch01-b88
+          speaker: narrator
+          text: The Manticora tucked its tail between its legs and ran away. It hid behind the Town Hall. That night, while everyone slept, it prowled through town and ate every pussy-cat. Afterward it mewed more pitifully than before.
+        - id: ch01-b89
+          speaker: narrator
+          text: On Saturday morning, people were afraid to venture outside because the Dragon never kept regular calling hours. The Manticora wandered along the streets, drank all the milk left by people's doors for tea, and ate the cans too. It swallowed the final halfpenny's worth, which was rather short measure because the milkman's nerves were badly shaken.
+        - id: ch01-b90
+          speaker: narrator
+          text: Just then the Red Dragon came down the street hunting for the Manticora. The yellow beast edged away. It was plainly not the Dragon-fighting kind. The only open door belonged to the General Post Office, so the hunted creature rushed inside and tried to hide among the ten o'clock mail.
+        - id: ch01-b91
+          speaker: narrator
+          text: The Dragon found the Manticora hiding among the ten o'clock mail and fell upon it at once. Piles of letters offered no defense at all. The Manticora's mewing could be heard from one end of town to the other. All the pussy-cats it had eaten, and all the milk it had drunk, seemed to have made that mew much stronger. Then came a sad silence. Presently, people whose windows faced the Post Office saw the Dragon walking down the front steps. He spat out fire and smoke as he went, along with tufts of Manticora fur and torn pieces of registered letters.
+        - id: ch01-b92
+          speaker: narrator
+          text: Matters were becoming terribly serious. No matter how popular Lionel became during the week, the Dragon always ruined his subjects' loyalty on Saturday. All that day the creature was a perfect nuisance, except at noon. Then he had to rest beneath a tree or the sun would set him on fire, since he was already so hot inside.
+        - id: ch01-b93
+          speaker: narrator
+          text: At last there came a Saturday when the Dragon marched straight into the Royal nursery and took the King's own beloved Rocking Horse. Lionel cried for six whole days. On the seventh day he had worn himself out so completely that he simply had to stop. He heard the Blue Bird singing among the roses and watched the Butterfly moving between the lilies.
+        - id: ch01-b94
+          speaker: lionel
+          text: Please wipe my face, Nurse. I have finished crying now.
+        - id: ch01-b95
+          speaker: narrator
+          text: Nurse washed his face and told him not to be a silly little King.
+        - id: ch01-b96
+          speaker: nurse
+          text: Crying has never helped anyone yet.
+        - id: ch01-b97
+          speaker: lionel
+          text: I am not sure about that. After crying for a week, I think I can see and hear more clearly. Nurse, dear, I know what I must do. Kiss me in case I never return. I have to try to save my people.
+        - id: ch01-b98
+          speaker: nurse
+          text: If you must go, then you must. Mind you do not tear your clothes or get your feet wet.
+        - id: ch01-b99
+          speaker: narrator
+          text: Lionel set off. The Blue Bird had never sung more sweetly, and the Butterfly had never shone more brightly. Once again, he carried The Book of Beasts into the rose garden. He opened it very quickly, before fear could make him change his mind.
+        - id: ch01-b100
+          speaker: narrator
+          text: The book fell open near the middle. At the foot of the page was the name “Hippogriff.” Before Lionel could study the picture, great wings fluttered, hoofs stamped, and a soft, friendly neigh sounded. Out stepped a beautiful white horse. It had a long white mane, a long white tail, enormous wings like a swan's, and the kindest eyes in the world. It stood among the roses and rubbed its silky, milky-white nose against the little King's shoulder.
+        - id: ch01-b101
+          speaker: narrator
+          text: Except for those wings, Lionel thought, the Hippogriff looked very much like his poor lost Rocking Horse. The Blue Bird sang loud and sweet. Then Lionel looked up. Across the sky came the loose, sprawling, wicked shape of the Red Dragon. At once Lionel understood what he had to do.
+        - id: ch01-b102
+          speaker: narrator
+          text: He snatched up The Book of Beasts, climbed onto the gentle Hippogriff's back, and leaned toward one sharp white ear.
+        - id: ch01-b103
+          speaker: lionel
+          text: Fly, dear Hippogriff. Fly as fast as you can to the Pebbly Waste.
+        - id: ch01-b104
+          speaker: narrator
+          text: The Dragon saw them rise from the garden. He wheeled around and flew after them at once. His great wings flapped through the sky like clouds at sunset, while the Hippogriff's wide white wings were snowy as clouds at moonrise. People in the town saw the Dragon pursuing their little King and came pouring out of their houses to watch. They followed the chase with their eyes until both flying beasts and Lionel disappeared in the distance. Then everyone made up their minds that the worst must have happened, and they began discussing what clothes they ought to wear for mourning at Court.
+        - id: ch01-b105
+          speaker: narrator
+          text: But the Dragon could not catch them. His red wings were larger, yet the white wings were stronger. The Hippogriff flew on and on, with the Dragon close behind, until they reached the very heart of the Pebbly Waste.
+        - id: ch01-b106
+          speaker: narrator
+          text: The Pebbly Waste was like a stretch of seashore without any sand. Loose, round stones shifted everywhere. Not a blade of grass grew there, and there was not a tree for a hundred miles.
+        - id: ch01-b107
+          speaker: narrator
+          text: Lionel jumped from the white horse, hurriedly undid the clasps of The Book of Beasts, and spread it open upon the stones. Then he scrambled back, clattering over the pebbles, and had only just mounted when the Dragon arrived.
+        - id: ch01-b108
+          speaker: narrator
+          text: The Dragon flew weakly now and searched desperately in every direction for a tree. It was exactly noon. The sun shone in the blue sky like a golden coin, but for a hundred miles there was no shade at all.
+        - id: ch01-b109
+          speaker: narrator
+          text: The white-winged horse circled while the Dragon twisted on the dry stones. He grew hotter and hotter. Parts of him had begun to smoke. Unless he found a tree in another minute, he would certainly burst into flame. He clawed at Lionel and the Hippogriff, but weakness kept him from reaching them. He did not dare strain harder and make himself hotter still.
+        - id: ch01-b110
+          speaker: narrator
+          text: Then he noticed The Book of Beasts lying open on the pebbles. At the foot of the page was the word “Dragon,” and in the picture stood his own palm tree. He stared. He hesitated. He stared once more. With one final, furious squirm, the Dragon wriggled back into the picture and sat beneath the palm. The page was slightly scorched as he went in.
+        - id: ch01-b111
+          speaker: narrator
+          text: Lionel waited until he was certain the Dragon had been forced to sit beneath his own tree, the only tree for miles. Then he leaped down and slammed the book shut.
+        - id: ch01-b112
+          speaker: lionel
+          text: Hurrah! We have truly done it now!
+          emotion: happy
+        - id: ch01-b113
+          speaker: narrator
+          text: He fastened the turquoise-and-ruby clasps as tightly as he could.
+        - id: ch01-b114
+          speaker: lionel
+          text: Oh, my precious Hippogriff! You are the bravest, dearest, most beautiful—
+          emotion: happy
+        - id: ch01-b115
+          speaker: hippogriff
+          text: Hush. We are not alone, you know.
+        - id: ch01-b116
+          speaker: narrator
+          text: The modest Hippogriff was right. A great crowd had appeared around them upon the Pebbly Waste. The Prime Minister was there, and so were all the Members of Parliament. The Soccer Players stood with them, along with everyone from the Orphanage, the Manticora, the Rocking Horse, and every other creature and person the Dragon had swallowed. You see, the Dragon could not take any of them back into the book. The picture was such a tight fit that there was barely room for one Dragon. Of course, when he wriggled onto his page, he had been forced to leave everyone else outside on the pebbles.
+        - id: ch01-b117
+          speaker: narrator
+          text: Somehow, everyone made the journey home, and afterward they all lived happily ever after. Lionel asked the Manticora where it wished to live.
+        - id: ch01-b118
+          speaker: manticora
+          text: Please allow me to return to the book. Public life does not suit me.
+        - id: ch01-b119
+          speaker: narrator
+          text: The Manticora knew the way to its own page. There was no chance of opening the wrong one and freeing the Dragon again. It climbed back into its picture and never came out. That is why, for as long as you live, you will see a Manticora only in a picture book. Naturally it left all the pussy-cats outside, because there was no space for them on the page. The milk cans stayed outside too.
+        - id: ch01-b120
+          speaker: narrator
+          text: Then the wooden Rocking Horse made a request of its own.
+        - id: ch01-b121
+          speaker: rocking_horse
+          text: I would like to live on the Hippogriff's page, where no Dragon can reach me.
+        - id: ch01-b122
+          speaker: narrator
+          text: The beautiful white-winged Hippogriff showed the Rocking Horse how to enter. There it remained until the King had it brought out again for his great-great-great-great-grandchildren to play with.
+        - id: ch01-b123
+          speaker: narrator
+          text: The Hippogriff accepted the post of the King's Own Rocking Horse, left empty when the wooden horse retired. And the Blue Bird and the Butterfly still sing and flutter among the lilies and roses of the Palace garden to this very day.

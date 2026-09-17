@@ -1,0 +1,95 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，带一点讲动物故事时的诙谐
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中音
+    unc_billy_possum:
+      display_name: 负鼠比利大叔
+      tts:
+        delivery: 慢悠悠又爱打趣，带着老弗吉尼亚乡音般的亲切腔调
+        timbre: 粗暖松弛
+        pace: 从容偏慢
+        pitch: 中低音
+    happy_jack_squirrel:
+      display_name: 松鼠快乐杰克
+      tts:
+        delivery: 活泼爽快，兴奋时语调跳跃，生气时干脆有力
+        timbre: 明亮轻巧
+        pace: 轻快
+        pitch: 中高音
+  chapters:
+    - id: ch01
+      title: 快乐杰克帮助负鼠比利大叔
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 你以为自己的粮仓空着，便一头冲进去，谁知里面竟睡着一个人，还睡得像在自己家一样。这可真会把人吓一大跳，也足以叫人发火。松鼠快乐杰克就气坏了。
+        - id: ch01-b02
+          speaker: narrator
+          text: 可要是你正梦见暖洋洋的夏天，忽然有人跳下来，正好砸在你身上，那也一样吓人，一样会让人恼火。负鼠比利大叔也气坏了。
+        - id: ch01-b03
+          speaker: narrator
+          text: 快乐杰克坐到空心树外的树枝上。那座旧粮仓就在树洞里。他不停地责骂比利大叔，还给人家起难听的外号。每说一个字，他的尾巴就愤怒地甩一下。比利大叔呢，坐在树洞口冲他龇牙，说出口的话也很难听。这两个家伙吵起架来，实在糟糕透了。
+        - id: ch01-b04
+          speaker: narrator
+          text: 不过，比利大叔本来是个好脾气。等他从惊吓里缓过来，又明白自己占的是快乐杰克的粮仓，怒气马上消失了。他先咧嘴笑起来，接着便哈哈大笑。
+        - id: ch01-b05
+          speaker: narrator
+          text: 吵架总要有两个人才行。要是你气着的那个人不肯陪你生气，你就很难一直板着脸。快乐杰克使劲憋着，不肯消气。可每次看见比利大叔亮晶晶的眼睛，还有那张咧得大大的笑嘴，他的火气就少一点。很快，他也笑得和比利大叔一样厉害了。
+        - id: ch01-b06
+          speakers: [happy_jack_squirrel, unc_billy_possum]
+          ensemble: duo
+          text: 呵，呵，呵！哈，哈，哈！
+          emotion: happy
+        - id: ch01-b07
+          speaker: narrator
+          text: 两个人笑到喘不过气，只好停了下来。等快乐杰克终于止住笑，便问比利大叔。
+        - id: ch01-b08
+          speaker: happy_jack_squirrel
+          text: 比利大叔，你怎么跑到我的粮仓里来了？
+        - id: ch01-b09
+          speaker: narrator
+          text: 比利大叔把经过全讲了一遍。他是从另一棵树爬过来的。这样，雪地上就不会留下脚印，布朗农场主家的男孩也没法循着脚印找到他。
+        - id: ch01-b10
+          speaker: unc_billy_possum
+          text: 可俺现在想回家呀。俺的家在绿森林深处，就在那棵大空心树里。可雪地会留下俺的脚印，俺没法回去。
+          emotion: sad
+        - id: ch01-b11
+          speaker: narrator
+          text: 快乐杰克把头偏到一边，认真地想了又想。
+        - id: ch01-b12
+          speaker: happy_jack_squirrel
+          text: 比利大叔，那你就留在这儿，等雪化了再回去，不行吗？
+        - id: ch01-b13
+          speaker: unc_billy_possum
+          text: 俺寻思，俺家老婆子怕是都快担心死了。
+          emotion: sad
+        - id: ch01-b14
+          speaker: narrator
+          text: 比利大叔说得愁眉苦脸。接着，他眼睛里闪起调皮的亮光，又添了一句。
+        - id: ch01-b15
+          speaker: unc_billy_possum
+          text: 再说，俺刚弄明白，这么不错的小屋，原来是俺一位邻居的。
+        - id: ch01-b16
+          speaker: narrator
+          text: 快乐杰克笑了。
+        - id: ch01-b17
+          speaker: happy_jack_squirrel
+          text: 比利大叔，你想住多久都行，我欢迎你。你就安心待在这里吧。我去告诉负鼠老太太，让她知道你在哪儿。
+        - id: ch01-b18
+          speaker: unc_billy_possum
+          text: 谢谢你，谢谢你！松鼠兄弟，你真是好心肠。这下可帮了俺的大忙，俺总算不用再悬着心啦。
+        - id: ch01-b19
+          speaker: happy_jack_squirrel
+          text: 别客气，比利大叔！
+        - id: ch01-b20
+          speaker: narrator
+          text: 快乐杰克说完就动身了。他要去给负鼠老太太送信。一路踩着雪飞奔，他嘴里还念着一首小诗。
+        - id: ch01-b21
+          speaker: happy_jack_squirrel
+          text: 自己惹上麻烦事，原来容易得很。我看别人也会为你操一份心。可要脱离麻烦事，却是另一番光景。你越扭越想挣脱，反倒困得越久越深。
