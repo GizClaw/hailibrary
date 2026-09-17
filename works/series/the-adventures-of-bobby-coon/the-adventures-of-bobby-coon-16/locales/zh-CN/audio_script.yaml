@@ -1,0 +1,124 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 亲切风趣，像在孩子身边娓娓讲述森林故事
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中等
+    bobby:
+      display_name: 浣熊博比
+      tts:
+        delivery: 天真敏感，困惑时迟疑，受惊时急促
+        timbre: 清亮稚气
+        pace: 轻快而随情绪变化
+        pitch: 中高
+    blacky_crow:
+      display_name: 乌鸦布莱基
+      tts:
+        delivery: 大胆顽皮，捉弄别人时兴高采烈
+        timbre: 尖亮沙哑
+        pace: 明快，带着逗弄人的重音
+        pitch: 中高
+    crow_1:
+      display_name: 第一只乌鸦
+      tts:
+        delivery: 兴奋吵闹
+        timbre: 明亮沙哑
+        pace: 急促
+        pitch: 高
+    crow_2:
+      display_name: 第二只乌鸦
+      tts:
+        delivery: 兴奋吵闹
+        timbre: 粗哑响亮
+        pace: 急促
+        pitch: 中高
+    crow_3:
+      display_name: 第三只乌鸦
+      tts:
+        delivery: 兴奋吵闹
+        timbre: 清脆高亢
+        pace: 急促
+        pitch: 中等
+  chapters:
+    - id: ch01
+      title: 第十六章　乌鸦布莱基发现了博比
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 乌鸦布莱基眼睛尖，最爱东瞧西打探。唉呀，这话虽不好听，他真是个黑衣小捣蛋。
+        - id: ch01-b02
+          speaker: narrator
+          text: 很遗憾，这话一点不假。布莱基最高兴的，就是捉弄别人，闹得人家不得安宁。他天生就是个淘气鬼。不管手头有什么正事，他总会留一只眼睛四处寻找机会，好拿别人寻开心。
+        - id: ch01-b03
+          speaker: narrator
+          text: 那双锐利的眼睛，很少会漏掉什么。凡是能瞧见的事，他全瞧得见。是的，先生，这一点你尽管相信布莱基！
+        - id: ch01-b04
+          speaker: narrator
+          text: 浣熊博比的运气实在太坏了。他刚在绿森林那截空心树桩里睡着，布莱基就从树梢上飞来了。他本来正往自己的窝赶，却照旧仔细看着下面有什么动静。
+        - id: ch01-b05
+          speaker: narrator
+          text: 偏巧，他从树桩正上方飞过，低头就能把里面看个清楚。瞧，博比正蜷在那里睡觉。没错，布莱基确实看见他了。
+        - id: ch01-b06
+          speaker: narrator
+          text: 布莱基猛地收住翅膀，在树桩上方悬停了一会儿。他那双尖眼睛里，淘气的念头简直跳起舞来。接着，他转过身，悄无声息地落在老树桩边缘。
+        - id: ch01-b07
+          speaker: narrator
+          text: 他坐在那里低头看了博比好一阵子，嘴里一直暗暗偷笑。随后，他飞上树顶，扯开嗓门叫了起来。
+        - id: ch01-b08
+          speaker: blacky_crow
+          text: 嘎——嘎，嘎，嘎——啊——嘎，嘎，嘎！嘎，嘎——啊——嘎，嘎！
+          emotion: happy
+        - id: ch01-b09
+          speaker: narrator
+          text: 几乎就在同时，远处传来了回应。不一会儿，布莱基的亲朋好友从四面八方赶来。每一只都扯着嗓子嘎嘎叫，追问他发现了什么。可布莱基偏要等到最后一只乌鸦赶来，才叫大家去瞧那截空心老树桩。
+        - id: ch01-b10
+          speaker: blacky_crow
+          text: 都从那截老树桩上飞过去，往里面看看！
+        - id: ch01-b11
+          speaker: narrator
+          text: 乌鸦们一个接一个飞过树桩，低头一看，又一个接一个快活地叫起来。能在树桩边缘找到地方的，全落了上去。其余的有些停在四周的树上，有些在头顶来回飞。随后，他们一起使出全身力气大叫。那动静可真吵翻了天！
+        - id: ch01-b12
+          speakers: [blacky_crow, crow_1, crow_2, crow_3]
+          ensemble: chorus
+          text: 嘎，嘎！嘎——啊——嘎！嘎，嘎，嘎——啊——嘎！嘎，嘎，嘎！
+          emotion: happy
+        - id: ch01-b13
+          speaker: narrator
+          text: 博比当然睡不成了。谁也不可能在这种吵闹声里睡下去。他睁开眼睛，抬头一看，只见一圈黑脑袋正朝下面望着自己。那一双双尖眼睛里，全跳动着淘气的光。乌鸦们一知道他醒了，声音立刻响了一倍。
+        - id: ch01-b14
+          speakers: [blacky_crow, crow_1, crow_2, crow_3]
+          ensemble: chorus
+          text: 嘎——啊——嘎，嘎——啊——嘎，嘎——啊——嘎！嘎，嘎！嘎——啊——嘎！嘎，嘎，嘎！
+          emotion: happy
+        - id: ch01-b15
+          speaker: narrator
+          text: 博比龇开嘴唇，怒吼一声。折磨他的家伙们见了，高兴得几乎尖叫起来。接着，布莱基朝博比丢下一根小树枝，另一只乌鸦也跟着来了一下。
+        - id: ch01-b16
+          speaker: narrator
+          text: 博比猛地站起来，开始向上爬。乌鸦们立刻飞到空中，叫得比刚才更响。博比停住了。爬到他们能碰着自己的地方去，又有什么用呢？他们准会揪他的毛，把他折腾得难受极了。博比心里明白，就算拼了命，他也抓不到其中任何一只。
+        - id: ch01-b17
+          speaker: narrator
+          text: 他只好退回树桩底下，坐在那里怒冲冲地瞪着上面，还对乌鸦们发起狠来。
+        - id: ch01-b18
+          speaker: bobby
+          text: 你们等着！要是哪天被我抓住，我非狠狠收拾你们不可！
+          emotion: angry
+        - id: ch01-b19
+          speaker: narrator
+          text: 这下布莱基和朋友们更开心了。他们可真玩得痛快。
+        - id: ch01-b20
+          speaker: narrator
+          text: 最后，博比做了最聪明的事。他又蜷起身子，对那群黑色小捣蛋再也不理不睬。乌鸦们闹成这样，他当然睡不着，不过他装作已经睡着了。
+        - id: ch01-b21
+          speaker: narrator
+          text: 你知道，要是一个人受了捉弄，却一点也不肯露出来，再去招惹他就没什么意思了。过了一阵，布莱基和朋友们叫累了。他们已经尽了兴，便一个接一个，各忙各的去了。
+        - id: ch01-b22
+          speaker: narrator
+          text: 到最后，绿森林里静得不能再静。
+        - id: ch01-b23
+          speaker: narrator
+          text: 博比如释重负地叹了口气，又一次进入了梦乡。
