@@ -1,0 +1,88 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 亲切而略带诙谐的讲述
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中音
+    peter_rabbit:
+      display_name: 彼得兔
+      tts:
+        delivery: 活泼直率，情绪来得快
+        timbre: 清脆稚气
+        pace: 轻快
+        pitch: 中高音
+    ol_mistah_buzzard:
+      display_name: 老秃鹫先生
+      tts:
+        delivery: 悠然风趣，话里藏着笑意
+        timbre: 粗粝宽厚
+        pace: 从容
+        pitch: 中低音
+    merry_breeze_1:
+      display_name: 快乐小微风甲
+      tts:
+        delivery: 轻盈顽皮，笑意明快
+        timbre: 清亮
+        pace: 轻快
+        pitch: 高音
+    merry_breeze_2:
+      display_name: 快乐小微风乙
+      tts:
+        delivery: 活泼俏皮，语气灵动
+        timbre: 柔亮
+        pace: 轻快
+        pitch: 中高音
+    merry_breeze_3:
+      display_name: 快乐小微风丙
+      tts:
+        delivery: 欢快淘气，话音带笑
+        timbre: 轻柔清脆
+        pace: 轻快
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 苦思新名字
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 彼得兔一点胃口也没有。要是哪一天，他连吃东西都忘了，那准是有一件大事压在心头。至少彼得自己觉得，那件事很大。他已经打定主意，要把名字换掉。“彼得兔”听着太普通，可真要选个更好的，他想出的每一个名字又都不合心意。他只好想了又想。想得越久，就越不想吃东西。
+        - id: ch01-b02
+          speaker: narrator
+          text: 彼得只向臭鼬吉米抱怨过自己的名字。劝他改名的也正是吉米。吉米觉得这事太有意思，转头就把消息传遍了青草地和森林。小居民们听说彼得兔要改名字，全都笑了起来。大家还悄悄商量好，等彼得说出新名字，一定要好好逗逗他。
+    - id: ch02
+      title: 棉尾巴兄弟
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 一天早晨，彼得坐在老荆棘丛边上。老秃鹫先生正好从低空飞过。他眼里闪着笑意，朝下面招呼了一声。
+        - id: ch02-b02
+          speaker: ol_mistah_buzzard
+          text: “早上好，棉尾巴兄弟。”
+        - id: ch02-b03
+          speaker: narrator
+          text: 彼得起初没明白，这句话原来是说给自己听的。等他反应过来，老秃鹫先生已经飞得高高的，钻进了蓝蓝的天空，想答话也来不及了。彼得一遍遍念着那个称呼，嘴角慢慢有了笑意。每多念一次，他就更喜欢一点。
+        - id: ch02-b04
+          speaker: peter_rabbit
+          text: “棉尾巴，彼得·棉尾巴！这可比彼得兔好听多了。听见这个名字，谁都会知道我是个了不起的人物。对，先生，我要的就是它！我得马上通知所有朋友，从今以后，我不叫彼得兔，只叫彼得·棉尾巴。”
+          emotion: happy
+    - id: ch03
+      title: 请叫他彼得·棉尾巴
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 彼得一高兴，就照老样子滑稽地踢起脚后跟。可他忽然想到，“彼得·棉尾巴”这个名字又长又响亮，自己也该有点庄重的样子。他赶紧停下来，练习怎样摆气派。练习之前，他叫住快乐小微风，把改名的消息郑重地说了一遍。他还请他们告诉所有朋友，以后喊“彼得兔”，自己绝不答应，非得喊“彼得·棉尾巴”不可。
+        - id: ch03-b02
+          speaker: narrator
+          text: 彼得说得又认真又严肃，俨然成了大人物。快乐小微风当着他的面，拼命忍住笑。可一带着消息离开，他们立刻笑出了声。这件事实在太好玩了！他们一路咯咯笑着，把消息送给森林和青草地上的每一位小居民。
+        - id: ch03-b03
+          speakers: [merry_breeze_1, merry_breeze_2, merry_breeze_3]
+          ensemble: chorus
+          text: “彼得兔把名字改，从今往后要记牢。如果有事称呼他，请叫彼得·棉尾巴先生。”
+          emotion: happy
+        - id: ch03-b04
+          speaker: narrator
+          text: 就在快乐小微风四处传话的时候，彼得又回到了老荆棘丛。他还在练习新的派头，竭力摆出高高在上、威风十足的大人物模样。毕竟在他看来，有了“彼得·棉尾巴”这么响亮的名字，就该是这副样子。

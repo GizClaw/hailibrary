@@ -1,0 +1,387 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 沉稳有力，带古老传说的庄重感
+        timbre: 温厚清晰
+        pace: 舒缓而富有张力
+        pitch: 中低
+    jose:
+      display_name: 何塞
+      tts:
+        delivery: 善良诚恳，危急时仍坚韧克制
+        timbre: 年轻清朗
+        pace: 自然稳健
+        pitch: 中
+    younger_brother:
+      display_name: 何塞的弟弟
+      tts:
+        delivery: 粗鲁阴狠，奉承时故作谨慎
+        timbre: 偏冷尖利
+        pace: 稍快
+        pitch: 中高
+    poor_woman:
+      display_name: 穷苦女人
+      tts:
+        delivery: 悲伤无助，抽泣中带着恳切
+        timbre: 柔弱沙哑
+        pace: 断续缓慢
+        pitch: 中
+    king:
+      display_name: 老国王
+      tts:
+        delivery: 专横急躁，激动时气息急促
+        timbre: 苍老浑厚
+        pace: 忽快忽慢
+        pitch: 低
+    servant:
+      display_name: 王宫仆人
+      tts:
+        delivery: 恭顺利落，听命时干脆
+        timbre: 清楚朴实
+        pace: 稍快
+        pitch: 中
+    white_horse:
+      display_name: 白马
+      tts:
+        delivery: 睿智镇定，劝告时温和而坚定
+        timbre: 柔和深沉
+        pace: 从容
+        pitch: 中低
+    bella_flor:
+      display_name: 贝拉-弗洛尔公主
+      tts:
+        delivery: 聪慧高傲，受困时克制而果断
+        timbre: 清澈明亮
+        pace: 自然
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 旧木箱里的欠据
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个人膝下有两个儿子。兄弟俩长大以后，哥哥去了遥远的异乡闯荡谋生，从此多年没有消息。弟弟一直留在家中陪伴父亲。父亲安享高寿，去世时留下了一大笔财产。
+        - id: ch01-b02
+          speaker: narrator
+          text: 弟弟以为家业全归自己，花起钱来一点也不心疼。一天，他正下楼，看见一个陌生人走进厅堂，还四处打量，仿佛这里本来就是他的家。弟弟吃了一惊。
+        - id: ch01-b03
+          speaker: jose
+          text: 你不记得我了吗？
+        - id: ch01-b04
+          speaker: younger_brother
+          text: 我根本不认识你，哪来的忘记？
+        - id: ch01-b05
+          speaker: jose
+          text: 我是你哥哥。我没挣到原先想挣的钱，只好回来了。村里人却告诉我，父亲已经去世。钱没挣到算什么，我只盼还能见他一面！
+          emotion: sad
+        - id: ch01-b06
+          speaker: younger_brother
+          text: 他半年前就死了。留给你的遗产只有阁楼里一个旧木箱。你自己去找吧，我没空陪你耗。
+        - id: ch01-b07
+          speaker: narrator
+          text: 弟弟说完就走了。哥哥来到仓房顶上的阁楼，果然找到一个旧得快要散架的木箱。这个漂泊归来的人名叫何塞。
+        - id: ch01-b08
+          speaker: jose
+          text: 这破箱子能有什么用？劈了生火吧，至少能暖暖身子。事情总算还没有坏到底。
+        - id: ch01-b09
+          speaker: narrator
+          text: 何塞把箱子背回客店，借来一把斧头，动手劈箱子。没想到，箱里竟藏着一个暗格，里面放着一张纸。他起初不知道纸上写了什么，展开以后才惊讶地发现，那是一份欠据，证明有人欠父亲一大笔钱。何塞把这张宝贵的纸收进口袋，马上向店主问清欠债人的住处，跑去找他。
+        - id: ch01-b10
+          speaker: narrator
+          text: 欠债的是个住在村子另一头的老吝啬鬼。这几个月，他一直盼着欠据早已丢失或毁掉。如今见何塞拿着它上门，他怎么也不肯还钱。
+        - id: ch01-b11
+          speaker: jose
+          text: 你再不还，我就把你带到国王面前！
+        - id: ch01-b12
+          speaker: narrator
+          text: 老吝啬鬼见何塞真要把自己带去见国王，知道再也躲不过去了，只得把金币一枚一枚数出来。何塞把钱全装进口袋，回到客店，心想自己如今也算一个有钱人了。
+        - id: ch01-b13
+          speaker: narrator
+          text: 几星期后，何塞走在附近城镇的街上，遇见一个穷苦女人正在痛哭。他停下来问她出了什么事。
+        - id: ch01-b14
+          speaker: poor_woman
+          text: 我丈夫快死了，债主偏偏还来逼债。他们说，我们还不起钱，就要把他送进监牢。我真不知道该怎么办了！
+          emotion: sad
+        - id: ch01-b15
+          speaker: jose
+          text: 别难过。他们不能把你丈夫送进监牢，也不能卖掉你家的东西。我替他把债还清。万一他去世，安葬的钱也由我来出。你先回家，好好照料他吧。
+          emotion: calm
+        - id: ch01-b16
+          speaker: narrator
+          text: 女人听从何塞的话，回家尽心照料丈夫。可是无论她怎么照顾，丈夫还是去世了，何塞也照约定出钱安葬了他。还债和安葬的花费都远比预想的多，全部付清以后，何塞发现自己只剩三枚金币。
+        - id: ch01-b17
+          speaker: jose
+          text: 我接下来该怎么办？看来只有去宫廷，为国王做事了。
+        - id: ch01-b18
+          speaker: narrator
+          text: 起初，何塞只是个普通仆人，每天给国王送洗澡水，再按规定铺好床。他事事尽心，国王很快注意到他，没过多久就让他做了御前侍臣。
+        - id: ch01-b19
+          speaker: narrator
+          text: 这时候，弟弟早把继承来的财产挥霍光了，自己又不会挣钱。他听说哥哥成了国王身边的红人，便可怜巴巴地来到王宫，请这个曾受他欺负的哥哥收留他，再替他找份差事。
+        - id: ch01-b20
+          speaker: younger_brother
+          text: 哥哥，求你帮帮我吧。替我向国王说句话，让我也能在宫里做事。
+        - id: ch01-b21
+          speaker: narrator
+          text: 何塞一向乐于助人，便替弟弟向国王求情。第二天，弟弟也进宫当差了。
+    - id: ch02
+      title: 白马指引的路
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 可这个新来的人天性恶毒，嫉妒心又重，容不得别人比自己走运。他从钥匙孔里窥探，又贴在门外偷听，终于得知老国王虽然年老貌丑，却爱上了贝拉-弗洛尔公主。公主根本不肯理他，早已躲进山中一座城堡，没有人知道那座城堡究竟在哪里。
+        - id: ch02-b02
+          speaker: younger_brother
+          text: 这机会来得正好。让国王派哥哥去找她，实在太容易了。找不到，哥哥回来就得送命。不管怎样，他都能从我眼前消失。
+        - id: ch02-b03
+          speaker: narrator
+          text: 他搓着双手想完这番毒计，立刻去见宫廷大臣，说自己有极其重要的消息，非得当面禀报国王。国王准他进入觐见厅，催他赶紧开口。
+        - id: ch02-b04
+          speaker: younger_brother
+          text: 陛下！贝拉-弗洛尔公主……
+        - id: ch02-b05
+          speaker: narrator
+          text: 他故意停下来，装出害怕的样子。
+        - id: ch02-b06
+          speaker: king
+          text: 贝拉-弗洛尔公主怎么了？
+        - id: ch02-b07
+          speaker: younger_brother
+          text: 我听人说，宫里都在暗暗议论，陛下很想知道她躲在哪里。
+        - id: ch02-b08
+          speaker: king
+          text: 谁把她带到我面前，我就分给他半个王国！快说，你这无赖！难道是天上的鸟把秘密告诉了你？
+        - id: ch02-b09
+          speaker: younger_brother
+          text: 知道秘密的不是我，是我哥哥。陛下只要问他……
+        - id: ch02-b10
+          speaker: narrator
+          text: 他还没说完，国王已经举起权杖，重重敲响墙上的金盘。巨响一落，仆人马上跑来听命。
+        - id: ch02-b11
+          speaker: king
+          text: 立刻叫何塞来见我！
+          emotion: angry
+        - id: ch02-b12
+          speaker: servant
+          text: 遵命，陛下。
+        - id: ch02-b13
+          speaker: narrator
+          text: 何塞走进大厅，还不知道出了什么事。国王又恼怒又激动，话都快说不清了。
+        - id: ch02-b14
+          speaker: king
+          text: 马上把贝拉-弗洛尔公主带来！你要是空手回来，我就叫人淹死你！
+          emotion: angry
+        - id: ch02-b15
+          speaker: narrator
+          text: 国王一句也不肯多说，丢下又惊又怕的何塞，径自走出大厅。
+        - id: ch02-b16
+          speaker: jose
+          text: 我连贝拉-弗洛尔公主都没见过，上哪儿找她？可留在这里也只有死路一条。
+          emotion: fearful
+        - id: ch02-b17
+          speaker: narrator
+          text: 何塞慢慢走到马厩，准备给自己挑一匹马。那里一排接一排，全是骏马，每匹马的名字都用金字写在栏位上方。他从这匹看到那匹，始终拿不定主意。就在这时，一匹年老的白马忽然回过头，示意他靠近。
+        - id: ch02-b18
+          speaker: white_horse
+          text: 选我吧，一切都会顺利。
+          emotion: calm
+        - id: ch02-b19
+          speaker: narrator
+          text: 何塞还被国王的命令搅得头脑发蒙，听见马说话，竟忘了惊讶。他握住缰绳，把白马牵出马厩，刚要上马，白马又开口了。
+        - id: ch02-b20
+          speaker: white_horse
+          text: 把你看见的三条面包捡起来，放进口袋。
+        - id: ch02-b21
+          speaker: narrator
+          text: 何塞依言照办。他急着离开，也顾不上多问，翻身坐上马鞍。他们赶了很远的路，一直没有遇到什么事，后来才在一座蚁丘旁停下。
+        - id: ch02-b22
+          speaker: white_horse
+          text: 把三条面包捏碎，喂给蚂蚁。
+        - id: ch02-b23
+          speaker: jose
+          text: 可我们自己也许还得吃这些面包呢！
+        - id: ch02-b24
+          speaker: white_horse
+          text: 别管这些，喂给它们吧。只要有机会帮助别人，就别错过。
+        - id: ch02-b25
+          speaker: narrator
+          text: 何塞把面包屑全撒在路上，白马便带着他继续飞奔。过了一阵，他们进了两山之间的石峡，看见一只鹰被困在猎人的网里。
+        - id: ch02-b26
+          speaker: white_horse
+          text: 下马割断网绳，让那只可怜的鹰重获自由。
+        - id: ch02-b27
+          speaker: jose
+          text: 这样会耽搁很久，我们也许就错过公主了。
+        - id: ch02-b28
+          speaker: white_horse
+          text: 别管这些。只要有机会帮助别人，就别错过。
+        - id: ch02-b29
+          speaker: narrator
+          text: 何塞割断网绳，放走了鹰。白马又向前飞奔。他们已经赶了许多英里，最后来到河边，看见一条小鱼搁浅在沙滩上，正张着嘴艰难喘气。
+        - id: ch02-b30
+          speaker: white_horse
+          text: 看见那条小鱼了吗？你不把它送回水里，它就会死。
+        - id: ch02-b31
+          speaker: jose
+          text: 可我们一路这样耽搁，真的永远也找不到贝拉-弗洛尔公主了！
+        - id: ch02-b32
+          speaker: white_horse
+          text: 帮助别人，从来不是浪费时间。
+        - id: ch02-b33
+          speaker: narrator
+          text: 何塞把小鱼放回河里。没过多久，它便欢快地游远了。
+    - id: ch03
+      title: 公主留下的三件东西
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 又走了一会儿，他们来到一座藏在茂密树林中央的城堡。贝拉-弗洛尔公主正在正门前喂鸡。
+        - id: ch03-b02
+          speaker: white_horse
+          text: 现在听好。我会蹦蹦跳跳，做些小动作逗公主开心。她会说想骑着我走一小段，你就扶她上来。等她坐稳，我会嘶叫踢跳。你要告诉她，我从没驮过女人，你得坐在她身后才能管住我。等你也上马，我们就像风一样奔回王宫。
+        - id: ch03-b03
+          speaker: narrator
+          text: 何塞完全照白马的话去做，事情也一件件照它预言的发生了。公主看白马有趣，果然想骑一小段路。她坐稳后，何塞也坐到她身后。直到白马驮着两人快马加鞭地奔向王宫，贝拉-弗洛尔才明白自己被劫走。她没有声张，只悄悄打开装着鸡食麸皮的围裙。转眼间，麸皮全撒在了地上。
+        - id: ch03-b04
+          speaker: bella_flor
+          text: 哎呀，我把麸皮全弄掉了！请你下马，替我捡回来吧。
+        - id: ch03-b05
+          speaker: jose
+          text: 我们要去的地方，麸皮多得是。
+        - id: ch03-b06
+          speaker: narrator
+          text: 白马没有停步，继续飞奔。他们穿过一片森林时，公主掏出手帕，往上一抛。手帕挂在了一棵树最高的枝头。
+        - id: ch03-b07
+          speaker: bella_flor
+          text: 哎呀，我真笨，手帕被风吹走了。你能爬上树，替我取下来吗？
+        - id: ch03-b08
+          speaker: jose
+          text: 我们要去的地方，手帕多得是。
+        - id: ch03-b09
+          speaker: narrator
+          text: 白马还是不停。出了森林，他们来到一条河边。公主从手指上褪下一枚戒指，让它滚进水中。她喘着气，眼泪也流了下来。
+        - id: ch03-b10
+          speaker: bella_flor
+          text: 瞧我多不小心，把最心爱的戒指也丢了。求你停一会儿，看看还能不能找到它。
+          emotion: sad
+        - id: ch03-b11
+          speaker: jose
+          text: 你要去的地方，戒指多得是。
+        - id: ch03-b12
+          speaker: narrator
+          text: 白马一路飞奔，终于进了王宫大门。老国王见到心爱的贝拉-弗洛尔，欢喜得心都快跳出来。公主却像赶苍蝇一样把他拨开，随后把自己锁进最近的一间屋里。国王在门外怎么哀求，她也不肯开门。
+        - id: ch03-b13
+          speaker: bella_flor
+          text: 把我一路丢下的三件东西全拿回来，也许我才会考虑开门。
+        - id: ch03-b14
+          speaker: narrator
+          text: 她只肯说这一句。国王毫无办法，只好绝望地找何塞商量。
+        - id: ch03-b15
+          speaker: king
+          text: 看来没有别的法子了。只有你知道东西丢在什么地方，所以还得由你去找。你若空手回来，我就叫人把你淹死。
+        - id: ch03-b16
+          speaker: narrator
+          text: 何塞烦恼极了。他原以为差事已经办完，自己的命也保住了。可他仍恭敬地鞠了一躬，退出去找白马商量。
+        - id: ch03-b17
+          speaker: white_horse
+          text: 别烦恼。跳上来吧，我们一起把三件东西找回来。
+          emotion: calm
+        - id: ch03-b18
+          speaker: narrator
+          text: 何塞立刻上了马。他们一路回到那座蚁丘，白马停下来问他。
+        - id: ch03-b19
+          speaker: white_horse
+          text: 你想把那些麸皮拿回来吗？
+        - id: ch03-b20
+          speaker: jose
+          text: 想又能怎么样呢？
+        - id: ch03-b21
+          speaker: white_horse
+          text: 呼唤那些蚂蚁，让它们替你搬来。要是有些麸皮被风吹散了，就用你喂它们的面包里的谷粒补上。
+        - id: ch03-b22
+          speaker: narrator
+          text: 何塞听得十分惊讶，也不太相信这个办法。可他想不出更好的主意，只好呼唤蚂蚁，吩咐它们尽快把麸皮收集起来。随后，他坐到一棵树下等候，白马在旁边低头啃食青青的草皮。
+        - id: ch03-b23
+          speaker: white_horse
+          text: 快看那边！
+          emotion: surprised
+        - id: ch03-b24
+          speaker: narrator
+          text: 何塞回头一看，身后已经堆起一座麸皮小山。他把麸皮装进马鞍旁的袋子。
+        - id: ch03-b25
+          speaker: white_horse
+          text: 善行迟早会结出果实。不过我们还要走很远，快上马吧。
+    - id: ch04
+      title: 善行结出的果实
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 他们赶到那棵树下，看见手帕还像一面旗子，在最高的枝头飘动。何塞的心又沉了下去。
+        - id: ch04-b02
+          speaker: jose
+          text: 手帕挂得那么高，我怎么拿得到？除非这里有雅各通天的梯子！
+        - id: ch04-b03
+          speaker: white_horse
+          text: 别怕。呼唤那只被你救出猎网的鹰，它会替你拿下来。
+          emotion: calm
+        - id: ch04-b04
+          speaker: narrator
+          text: 何塞呼唤雄鹰。鹰飞上树梢，用嘴衔回手帕。何塞向它道了谢，翻身上马，又赶向河边。
+        - id: ch04-b05
+          speaker: narrator
+          text: 夜里下过一场大雨，河水不像先前那样清澈了。浑浊的水不停翻腾，什么也看不见。
+        - id: ch04-b06
+          speaker: jose
+          text: 我不知道戒指掉在哪里，连水下都看不清，怎么可能从河底捞出来？
+        - id: ch04-b07
+          speaker: white_horse
+          text: 别怕。呼唤那条被你救过的小鱼，它会替你找到戒指。
+          emotion: calm
+        - id: ch04-b08
+          speaker: narrator
+          text: 何塞呼唤小鱼。小鱼潜到河底，在一块块巨石后游过，又用尾巴拨开小石头，终于找出戒指，衔到何塞面前。
+        - id: ch04-b09
+          speaker: narrator
+          text: 三件东西全找到了，何塞满心欢喜地回到王宫。国王把麸皮、手帕和戒指交给贝拉-弗洛尔。可公主又说，除非把劫走她的强盗放进油里炸熟，否则她绝不开门。
+        - id: ch04-b10
+          speaker: bella_flor
+          text: 把那个劫走我的强盗放进油里炸熟，我才肯开门。
+        - id: ch04-b11
+          speaker: king
+          text: 何塞，我很抱歉。我实在不愿这样做，可你也看见了，我没有别的选择。
+          emotion: sad
+        - id: ch04-b12
+          speaker: narrator
+          text: 仆人们架起一口大锅烧油。何塞来到马厩，问白马朋友，有没有办法让自己逃过这场劫难。
+        - id: ch04-b13
+          speaker: jose
+          text: 他们要把我放进滚烫的油里。朋友，你还能救我吗？
+          emotion: fearful
+        - id: ch04-b14
+          speaker: white_horse
+          text: 别怕，骑到我背上来。我会不停奔跑，直到全身汗湿。你把我的汗涂遍身体，油再烫，也伤不到你。
+          emotion: calm
+        - id: ch04-b15
+          speaker: narrator
+          text: 何塞没有多问，骑上白马。白马不停奔跑，直到全身汗湿。何塞把它的汗涂遍身体，一切都照吩咐做了。人们把他放进沸腾的油锅时，惊讶地看见，他脸上仍带着轻松愉快的神情。
+        - id: ch04-b16
+          speaker: narrator
+          text: 何塞一直待在锅里，直到贝拉-弗洛尔说，他无论如何也该炸熟了。可从油锅里走出来的，却是一个无比年轻俊美的小伙子。所有人一见都喜欢上了他，其中最倾心的，正是贝拉-弗洛尔。
+    - id: ch05
+      title: 白马的真相
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 老国王知道自己已经满盘皆输。他绝望地跳进油锅，代替何塞被炸死了。
+        - id: ch05-b02
+          speaker: narrator
+          text: 人们随即拥立何塞为王，条件是他必须娶贝拉-弗洛尔为妻。何塞答应第二天举行婚礼。不过在婚礼以前，他先去了马厩，找到那匹白马。
+        - id: ch05-b03
+          speaker: jose
+          text: 我的性命和王位都是你给的。你为什么一直这样帮助我？
+        - id: ch05-b04
+          speaker: white_horse
+          text: 我就是那个不幸死去的人的灵魂。你曾为了他花光所有钱财。我看见你面临死亡，便请求来帮助你，就像你当初帮助我一样。因为我早就告诉过你，善行自会结出果实！

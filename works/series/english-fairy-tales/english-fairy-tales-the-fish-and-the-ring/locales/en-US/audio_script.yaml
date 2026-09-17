@@ -1,0 +1,198 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    baron:
+      display_name: Baron Albert
+      tts:
+        delivery: proud and commanding, with cold certainty behind every word
+        timbre: deep and stern
+        pace: measured
+        pitch: low
+    poor_father:
+      display_name: Poor Father
+      tts:
+        delivery: humble and weary, speaking with honest worry
+        timbre: rough and subdued
+        pace: unhurried
+        pitch: medium-low
+    companion:
+      display_name: Hunting Companion
+      tts:
+        delivery: easy and curious, with the confidence of a nobleman's companion
+        timbre: open and clear
+        pace: conversational
+        pitch: medium
+    girl:
+      display_name: The Girl
+      tts:
+        delivery: gentle and plainspoken, growing firm when courage is needed
+        timbre: young and clear
+        pace: measured
+        pitch: medium-high
+    robber_captain:
+      display_name: Robber Captain
+      tts:
+        delivery: brisk and rough-edged, with an unexpected sense of justice
+        timbre: gravelly and strong
+        pace: steady
+        pitch: medium-low
+    noble:
+      display_name: Noble Host
+      tts:
+        delivery: dignified and direct, with warm authority
+        timbre: resonant and clear
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Book of Fate
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, a mighty baron lived in the North Countrie. He was a great magician, and he knew everything that was still to come. When his little boy was four years old, the Baron opened the Book of Fate to learn what lay ahead for him.
+        - id: ch01-b02
+          speaker: narrator
+          text: What he saw filled him with dismay. His son was destined to marry a lowly girl who had just been born in a house beneath the shadow of York Minster. The girl's father was terribly poor. He already had five children to feed.
+        - id: ch01-b03
+          speaker: narrator
+          text: The Baron called for his horse and rode into York. When he passed the poor man's house, he saw the father sitting sadly beside the door. The Baron got down and went over to him.
+        - id: ch01-b04
+          speaker: baron
+          text: What troubles you, my good man?
+        - id: ch01-b05
+          speaker: poor_father
+          text: Well, your honor, I already have five children, and now a sixth has come, a little girl. How I'll find enough bread for all their mouths, I truly can't say.
+          emotion: sad
+        - id: ch01-b06
+          speaker: baron
+          text: Don't lose heart. If that is your trouble, I can help. Let me take the youngest child away, and you will no longer have to provide for her.
+        - id: ch01-b07
+          speaker: poor_father
+          text: Thank you kindly, sir.
+        - id: ch01-b08
+          speaker: narrator
+          text: The man went inside, brought out the baby, and gave her to the Baron. The Baron mounted his horse and carried her away. At the bank of the River Ouse, he threw the little girl into the water. Then he rode home to his castle.
+        - id: ch01-b09
+          speaker: narrator
+          text: But the baby did not sink. Her clothes held her up for a while, and she floated on and on until the river cast her ashore in front of a fisherman's hut.
+        - id: ch01-b10
+          speaker: narrator
+          text: The fisherman found her there. He took pity on the poor little child and brought her into his home. She lived with him until she was fifteen years old, and by then she had grown into a fine, handsome girl.
+    - id: ch02
+      title: The Fatal Letter
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: One day, the Baron was hunting with several companions along the banks of the Ouse. They stopped at the fisherman's hut for a drink, and the girl came out to serve them. Everyone noticed how beautiful she was.
+        - id: ch02-b02
+          speaker: companion
+          text: You can read people's fates, Baron. Who do you think this girl will marry?
+        - id: ch02-b03
+          speaker: baron
+          text: Oh, that is easy enough to guess. She'll marry some country fellow. Still, I can cast her horoscope. Come here, girl. What day were you born?
+        - id: ch02-b04
+          speaker: girl
+          text: I don't know, sir. I was found right here after the river carried me down about fifteen years ago.
+        - id: ch02-b05
+          speaker: narrator
+          text: At once, the Baron knew who she was. He rode away with the others, but then he turned back and spoke to the girl alone.
+        - id: ch02-b06
+          speaker: baron
+          text: Listen, girl. I am going to make your fortune. Carry this letter to my brother in Scarborough, and you will be provided for all your life.
+        - id: ch02-b07
+          speaker: narrator
+          text: The girl took the letter and agreed to go. But the message the Baron had written was this.
+        - id: ch02-b08
+          speaker: baron
+          text: Dear Brother, put the bearer of this letter to death at once. Yours affectionately, Albert.
+        - id: ch02-b09
+          speaker: narrator
+          text: Soon afterward, the girl set out for Scarborough. That night she slept at a little inn. A band of robbers broke into the place while she was there. They searched her, but she had no money. All they found was the letter.
+        - id: ch02-b10
+          speaker: narrator
+          text: The robbers opened it and read what the Baron had ordered. They thought it was shameful. Their captain took up a pen and paper and wrote a different message.
+        - id: ch02-b11
+          speaker: robber_captain
+          text: Dear Brother, have the bearer of this letter marry my son at once. Yours affectionately, Albert.
+        - id: ch02-b12
+          speaker: narrator
+          text: He gave the new letter to the girl and told her to be on her way. She continued to Scarborough and reached the home of the Baron's brother, a noble knight. The Baron's son was staying there too.
+        - id: ch02-b13
+          speaker: narrator
+          text: When the knight read the letter, he ordered the wedding to be prepared without delay. The girl and the Baron's son were married that very day.
+    - id: ch03
+      title: The Ring in the Sea
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Before long, the Baron came to his brother's castle. Imagine his surprise when he discovered that the very thing he had tried to prevent had happened after all.
+        - id: ch03-b02
+          speaker: narrator
+          text: Even then, he would not give up. He said he was taking the girl for a walk along the cliffs. Once they were alone, he seized her by the arms and was about to throw her over the edge. She pleaded desperately for her life.
+        - id: ch03-b03
+          speaker: girl
+          text: I haven't done anything wrong. Please spare me, and I'll do whatever you ask. I won't see you or your son again until you say I may.
+          emotion: fearful
+        - id: ch03-b04
+          speaker: narrator
+          text: The Baron pulled a gold ring from his finger and threw it far out into the sea.
+        - id: ch03-b05
+          speaker: baron
+          text: Do not show me your face again until you can show me that ring.
+        - id: ch03-b06
+          speaker: narrator
+          text: With that, he let her go.
+        - id: ch03-b07
+          speaker: narrator
+          text: The poor girl wandered on and on. At last she came to the castle of a great noble and asked if there was any work she could do. They made her the castle's scullion, since she already knew that kind of work from the fisherman's hut.
+
+    - id: ch04
+      title: The Fish at the Feast
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Then one day, she saw three visitors approaching the nobleman's house. They were the Baron, his brother, and the Baron's son, who was her husband. She did not know what to do, but she hoped they would never notice her down in the castle kitchen.
+        - id: ch04-b02
+          speaker: narrator
+          text: With a sigh, she returned to her work. A huge fish had to be cleaned and boiled for their dinner, so she set about preparing it.
+        - id: ch04-b03
+          speaker: narrator
+          text: As she cleaned the fish, something inside it began to shine. And what do you think she found? There lay the Baron's ring, the very ring he had thrown from the cliff at Scarborough.
+        - id: ch04-b04
+          speaker: narrator
+          text: The girl was overjoyed to see it. She cooked the fish as carefully as she could and sent it up to the table.
+        - id: ch04-b05
+          speaker: narrator
+          text: The guests liked the fish so much that they asked their host who had cooked it. The noble said he did not know. Then he called to his servants.
+        - id: ch04-b06
+          speaker: noble
+          text: Ho there! Send up the cook who prepared this excellent fish.
+        - id: ch04-b07
+          speaker: narrator
+          text: The servants went down to the kitchen and told the girl she was wanted in the hall. She washed, made herself tidy, and slipped the Baron's gold ring onto her thumb. Then she went upstairs to meet the company.
+
+    - id: ch05
+      title: Fate Has Its Way
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The people at the feast were astonished to see that the cook was so young and beautiful. But the Baron flew into a towering rage. He sprang up as though he meant to harm her.
+        - id: ch05-b02
+          speaker: narrator
+          text: The girl walked straight to him with one hand held out before her. The ring was there on her thumb. She took it off and laid it on the table in front of him.
+        - id: ch05-b03
+          speaker: narrator
+          text: At last, the Baron understood that no one could fight against Fate. He led the girl to a seat and told the whole company that she was his son's true wife.
+        - id: ch05-b04
+          speaker: narrator
+          text: Then he took her and his son home to his own castle.
+        - id: ch05-b05
+          speaker: narrator
+          text: And from that time on, they all lived as happily as anyone could ever wish.

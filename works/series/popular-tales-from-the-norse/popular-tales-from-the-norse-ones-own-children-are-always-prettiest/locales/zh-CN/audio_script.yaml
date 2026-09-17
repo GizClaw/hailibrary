@@ -1,0 +1,67 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容而清醒，带一点克制的诙谐
+        timbre: 温厚清晰
+        pace: 舒缓有致
+        pitch: 中低
+    sportsman:
+      display_name: 猎人
+      tts:
+        delivery: 爽快直率，辩解时带一点诧异
+        timbre: 明朗结实
+        pace: 中等
+        pitch: 中低
+    snipe:
+      display_name: 沙锥鸟
+      tts:
+        delivery: 恳切而爱子心切，悲叹中带着责怪
+        timbre: 清亮纤细
+        pace: 中等偏快
+        pitch: 中等偏高
+  chapters:
+    - id: ch01
+      title: 林中的请求
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个猎人进林子打猎，路上碰见一只沙锥鸟。
+        - id: ch01-b02
+          speaker: snipe
+          text: 好朋友，求你别打我的孩子！
+        - id: ch01-b03
+          speaker: sportsman
+          text: 可我怎么知道哪些是你的孩子？它们是什么模样？
+        - id: ch01-b04
+          speaker: snipe
+          text: 这片林子里最漂亮的那些，就是我的孩子。
+        - id: ch01-b05
+          speaker: sportsman
+          text: 好，我一定不打它们。你放心吧。
+    - id: ch02
+      title: 猎人归来
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 可等猎人从林子里回来，手里竟提着一长串刚打下来的小沙锥鸟。沙锥鸟认出自己的孩子，顿时惊叫起来。
+        - id: ch02-b02
+          speaker: snipe
+          text: 哎呀！你不是答应过我吗？为什么还是把我的孩子打死了？
+          emotion: sad
+        - id: ch02-b03
+          speaker: sportsman
+          text: 什么？它们就是你的孩子？我明明只挑最丑的鸟儿打，真的！
+          emotion: surprised
+    - id: ch03
+      title: 谁家的孩子最漂亮
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 沙锥鸟听了，只能伤心地叹气。
+        - id: ch03-b02
+          speaker: snipe
+          text: 我真命苦啊！难道你不知道吗？谁都觉得自家的孩子是世上最漂亮的。
+          emotion: sad

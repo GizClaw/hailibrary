@@ -1,0 +1,357 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    queen:
+      display_name: Queen
+      tts:
+        delivery: dignified and deeply feeling
+        timbre: warm and mature
+        pace: measured
+        pitch: medium
+    troll_witch:
+      display_name: Troll Witch
+      tts:
+        delivery: cold and certain
+        timbre: dry and aged
+        pace: deliberate
+        pitch: low
+    snow_white_rosy_red:
+      display_name: Snow-white and Rosy-red
+      tts:
+        delivery: gentle, earnest, and resolute
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium-high
+    eldest_prince:
+      display_name: Eldest Prince
+      tts:
+        delivery: commanding and severe
+        timbre: firm and youthful
+        pace: measured
+        pitch: medium-low
+    youngest_prince:
+      display_name: Youngest Prince
+      tts:
+        delivery: compassionate and candid
+        timbre: light and youthful
+        pace: medium
+        pitch: medium-high
+    second_prince:
+      display_name: Second Prince
+      tts:
+        delivery: direct and steady
+        timbre: clear and youthful
+        pace: medium
+        pitch: medium
+    third_prince:
+      display_name: Third Prince
+      tts:
+        delivery: open and warm
+        timbre: bright and youthful
+        pace: medium
+        pitch: medium
+    young_king:
+      display_name: Young King
+      tts:
+        delivery: thoughtful and kindhearted
+        timbre: rich and clear
+        pace: measured
+        pitch: medium-low
+    old_queen:
+      display_name: Old Queen
+      tts:
+        delivery: haughty and spiteful
+        timbre: sharp and mature
+        pace: deliberate
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Queen's Wish
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Once, on a winter day after fresh snow had fallen, a Queen went out driving. Before she had gone far, her nose began to bleed, and she had to leave her sledge. She leaned against a fence and looked at the red blood on the white snow. Then she thought of her twelve sons and of how she had no daughter.
+        - id: ch01-b02
+          speaker: queen
+          text: >-
+            If only I had a daughter as white as snow and as red as blood, I wouldn't care what happened to any of my sons.
+        - id: ch01-b03
+          speaker: narrator
+          text: The words had barely left her mouth when an old Troll witch came up to her.
+        - id: ch01-b04
+          speaker: troll_witch
+          text: >-
+            You shall have a daughter. She will be as white as snow and as red as blood. Your sons will belong to me, though you may keep them until the baby is christened.
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            In time, the Queen had a daughter, just as the Troll had promised. The child was white as snow and red as blood, so they named her Snow-white and Rosy-red. The whole court rejoiced, and no one was happier than the Queen. But then she remembered her bargain with the witch.
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            She called for a silversmith and ordered twelve silver spoons, one for each prince. When those were finished, she asked him for one more and gave it to the Princess. But the promised day could not be avoided. As soon as Snow-white and Rosy-red was christened, all twelve princes changed into wild ducks. Away they flew, and no one at the palace ever saw them again.
+    - id: ch02
+      title: The Sister Sets Out
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            Snow-white and Rosy-red grew tall and beautiful, yet a strange sadness often came over her. No one at the court could understand what was missing from her life. One evening, the Queen was sorrowful too, for thoughts of her lost sons had returned. She turned to her daughter and asked what troubled her.
+        - id: ch02-b02
+          speaker: queen
+          text: >-
+            Why are you so unhappy, my daughter? Is there something you want? Tell me, and you shall have it.
+          emotion: sad
+        - id: ch02-b03
+          speaker: snow_white_rosy_red
+          text: >-
+            It feels so empty and lonely here. Everyone else has brothers or sisters, but I have no one. That is why I'm sad.
+          emotion: sad
+        - id: ch02-b04
+          speaker: queen
+          text: >-
+            You did have brothers. I had twelve sons, and they were your brothers. But I gave them all away so I could have you.
+          emotion: sad
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            The Queen told her everything. Once the Princess knew the truth, she could find no peace. Her mother wept, pleaded, and did all she could to stop her, but Snow-white and Rosy-red meant to find her brothers. She believed their fate was her fault. At last, she was allowed to leave the palace.
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            She walked on and on into the wide world, farther than anyone would have thought a young lady could walk. One day, deep in a vast wood, she grew tired. She sat on a mound of moss and fell asleep.
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            She dreamed that she went still deeper among the trees and found a small wooden hut. Her brothers were inside. When she woke, a worn path lay straight before her in the green moss. She followed it for a long while, and there stood the very wooden house she had seen in her dream.
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            No one was home. Inside were twelve beds, twelve chairs, twelve spoons, and twelve of everything else. The Princess knew at once that her brothers lived there, and she felt happier than she had in many years.
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            She lit the fire, swept the room, made the beds, cooked dinner, and put the whole house in order. When the work was done, she ate her meal and crawled beneath her youngest brother's bed to rest. But she left her own silver spoon on the table.
+    - id: ch03
+      title: The Twelve Princes
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            She had scarcely settled there when the air filled with flapping and whirring. Twelve wild ducks swept into the house. The moment they crossed the threshold, they became princes again.
+        - id: ch03-b02
+          speakers: [eldest_prince, second_prince, third_prince, youngest_prince]
+          ensemble: chorus
+          text: >-
+            How warm and pleasant it is! Heaven bless whoever lit the fire and made us such a fine dinner.
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            Each prince picked up his silver spoon and prepared to eat. Once they all had their own, one spoon still lay on the table. It looked so much like the others that they could hardly tell them apart.
+        - id: ch03-b04
+          speakers: [eldest_prince, second_prince, third_prince, youngest_prince]
+          ensemble: chorus
+          text: >-
+            That belongs to our sister. If her spoon is here, she must be close by.
+        - id: ch03-b05
+          speaker: eldest_prince
+          text: >-
+            If our sister is here, she must die. All our suffering is her fault.
+        - id: ch03-b06
+          speaker: narrator
+          text: The Princess lay beneath the bed and heard every word.
+        - id: ch03-b07
+          speaker: youngest_prince
+          text: >-
+            No. It would be shameful to kill her for this. She did not cause our suffering. If anyone is to blame, it is our mother.
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            The brothers searched everywhere. At last, they looked beneath the beds. When they reached the youngest prince's bed, they found the Princess and pulled her out. The eldest prince again wanted her killed, but she pleaded for her life.
+        - id: ch03-b09
+          speaker: snow_white_rosy_red
+          text: >-
+            Oh, please don't kill me! I have spent three years searching for you. If I could free you, I would gladly give my life.
+          emotion: fearful
+        - id: ch03-b10
+          speakers: [eldest_prince, second_prince, third_prince, youngest_prince]
+          ensemble: chorus
+          text: >-
+            If you free us, you may live. You can do it, if you choose.
+        - id: ch03-b11
+          speaker: snow_white_rosy_red
+          text: >-
+            Then tell me how. Whatever it takes, I will do it.
+        - id: ch03-b12
+          speakers: [eldest_prince, second_prince, third_prince, youngest_prince]
+          ensemble: chorus
+          text: >-
+            Gather thistledown. Card it, spin it, and weave it. Then cut and sew twelve coats, twelve shirts, and twelve neckerchiefs, one of each for every brother. Until all the work is done, you must not speak, laugh, or weep. Do that, and we will be free.
+        - id: ch03-b13
+          speaker: snow_white_rosy_red
+          text: >-
+            But where can I find enough thistledown for so many coats, shirts, and neckerchiefs?
+        - id: ch03-b14
+          speakers: [eldest_prince, second_prince, third_prince, youngest_prince]
+          ensemble: chorus
+          text: We will show you.
+        - id: ch03-b15
+          speaker: narrator
+          text: >-
+            The Princes led her out to a broad moor. Thistles grew there in such numbers that she had never seen anything like it. Their heads nodded and nodded in the breeze. All around them, the down drifted through the sunbeams, shining like fine spiderwebs. At once, she began to pluck and gather it as quickly and carefully as she could.
+        - id: ch03-b16
+          speaker: narrator
+          text: >-
+            When she returned home that night, she started carding the down and spinning it into yarn. For a long, long time, she went back to the moor to gather more. Then she carded, spun, and worked at the cloth without ever speaking, laughing, or crying. All the while, she kept the Princes' house, cooked their meals, and made their beds. Each evening, they came home with wings flapping and whirring. As soon as they entered, they were Princes for the whole night. In the morning, they became wild ducks again and flew away for the day.
+    - id: ch04
+      title: The Silent Bride
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            One day, the Princess went out to gather thistledown again. If the old tale is right, this was to be her last trip to the moor. The young King who ruled that country happened to be hunting nearby. He rode across the open land, saw the lovely lady walking alone and picking thistledown, and drew his horse to a stop. He could not imagine who she might be.
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            The King asked her name, but she gave no answer. That astonished him even more. He liked her so well that he was determined to take her to his castle and marry her. He ordered his servants to lift her onto his horse.
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            Snow-white and Rosy-red wrung her hands. She tried to make the servants understand by pointing again and again to the bags that held all her work. When the King saw what she wanted, he ordered his men to bring the bags with them. Only then did the Princess slowly recover from her alarm. The King was wise and handsome, and he treated her with the gentleness and care of a doctor.
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            When they reached the palace, the King's stepmother saw Snow-white and Rosy-red. The old Queen became bitterly jealous because the Princess was so beautiful.
+        - id: ch04-b05
+          speaker: old_queen
+          text: >-
+            Can't you see that the creature you brought home to marry is a witch? She cannot speak, laugh, or even weep!
+          emotion: angry
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            The King cared nothing for her warning. He went ahead with the wedding and married Snow-white and Rosy-red. They lived together in joy and splendor, while the young Queen continued sewing her brothers' shirts.
+    - id: ch05
+      title: The Stolen Children
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            Before the year was over, Snow-white and Rosy-red gave birth to a prince. The old Queen grew more jealous and spiteful than ever. In the middle of the night, she crept into the young Queen's room while she slept. She stole the baby and threw him into a pit filled with snakes.
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            Then she cut the sleeping Queen's finger, smeared the blood around her mouth, and hurried to the King.
+        - id: ch05-b03
+          speaker: old_queen
+          text: >-
+            Come and see what sort of creature you made your Queen. She has eaten her own baby.
+        - id: ch05-b04
+          speaker: narrator
+          text: The King was so heartbroken that he nearly wept.
+        - id: ch05-b05
+          speaker: young_king
+          text: >-
+            It must be true, because I can see it with my own eyes. Still, I am sure she will never do it again. I will spare her life this time.
+          emotion: sad
+        - id: ch05-b06
+          speaker: narrator
+          text: >-
+            Before another year had passed, the young Queen had a second son. The King's stepmother became still more jealous and spiteful. She waited until night, when Snow-white and Rosy-red was asleep, and slipped into her room. She carried off the baby and threw him into the pit full of snakes. Then she cut the young Queen's finger, spread the blood over her mouth, and went to the King. She told him that his wife had eaten her own child again.
+        - id: ch05-b07
+          speaker: narrator
+          text: The King was more sorrowful than anyone could imagine.
+        - id: ch05-b08
+          speaker: young_king
+          text: >-
+            It must be true, because I can see it with my own eyes. But I believe she will never do it again. This time, too, I will let her live.
+          emotion: sad
+        - id: ch05-b09
+          speaker: narrator
+          text: >-
+            Before the following year ended, Snow-white and Rosy-red gave birth to a daughter. The old Queen stole this child as well while the mother slept and cast her into the pit of snakes. She cut the young Queen's finger, stained her mouth with blood, and went back to the King.
+        - id: ch05-b10
+          speaker: old_queen
+          text: >-
+            Now come and see whether I was right. She is a wicked, wicked witch. She has eaten her third baby too.
+          emotion: angry
+        - id: ch05-b11
+          speaker: narrator
+          text: >-
+            The King's grief had no end. After the third child, he believed he could spare his wife no longer. He ordered Snow-white and Rosy-red to be burned alive on a pile of wood.
+    - id: ch06
+      title: The Wild Ducks Return
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: >-
+            The woodpile was already blazing, and they were just about to place the young Queen upon it. Still unable to speak, she made signs until they understood that she wanted twelve boards laid around the fire. On each board, she set out a neckerchief, a shirt, and a coat for one of her brothers. She had finished every piece except the youngest brother's shirt. There had not been time to sew its left sleeve.
+        - id: ch06-b02
+          speaker: narrator
+          text: >-
+            As soon as the clothes were in place, the air rang with a great flapping and whirring. Twelve wild ducks flew over the forest and swooped down. Each caught up his clothes in his bill and flew away with them.
+        - id: ch06-b03
+          speaker: old_queen
+          text: >-
+            There! Wasn't I right when I called her a witch? Hurry and burn her before the fire dies down.
+          emotion: angry
+        - id: ch06-b04
+          speaker: young_king
+          text: >-
+            We have plenty of wood. I will wait a little longer. I want to see how this ends.
+        - id: ch06-b05
+          speaker: narrator
+          text: >-
+            While he spoke, twelve princes came riding toward them. They were as handsome and well grown as any young men could be. But the youngest prince had a wild duck's wing where his left arm should have been.
+        - id: ch06-b06
+          speakers: [eldest_prince, second_prince, third_prince, youngest_prince]
+          ensemble: chorus
+          text: What is happening here?
+        - id: ch06-b07
+          speaker: young_king
+          text: >-
+            My Queen is going to be burned. She is a witch, and she has eaten her own babies.
+        - id: ch06-b08
+          speakers: [eldest_prince, second_prince, third_prince, youngest_prince]
+          ensemble: chorus
+          text: >-
+            She did not eat them. Speak now, sister. You freed us and saved our lives. Now save your own.
+        - id: ch06-b09
+          speaker: narrator
+          text: >-
+            Snow-white and Rosy-red could speak at last, and she told the whole story from beginning to end. Each time she had given birth, the King's stepmother had waited until night and crept into the room while she slept. The old Queen had taken each baby away, cut Snow-white and Rosy-red's little finger, and smeared the blood around her mouth so the King would believe the terrible lie.
+        - id: ch06-b10
+          speaker: narrator
+          text: >-
+            The Princes led the King to the snake pit. There lay all three children, playing among adders and toads. No lovelier children had ever been seen.
+    - id: ch07
+      title: The Queen's Own Doom
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: >-
+            The King had his children lifted out at once. Then he went to his stepmother and asked what punishment was deserved by a woman who could betray an innocent Queen and three blessed little children.
+        - id: ch07-b02
+          speaker: old_queen
+          text: >-
+            Bind her tightly between twelve wild, unbroken horses, so each one may tear away its share.
+        - id: ch07-b03
+          speaker: young_king
+          text: >-
+            You have named your own punishment. It shall be done to you at once.
+        - id: ch07-b04
+          speaker: narrator
+          text: >-
+            So the wicked old Queen was bound between twelve unbroken horses, and each took its share of her. Then the King gathered Snow-white and Rosy-red, their three rescued children, and all twelve Princes. The whole family set out together. They traveled home to the Princes' father and mother and told them everything that had happened since the brothers first flew away.
+        - id: ch07-b05
+          speaker: narrator
+          text: >-
+            Joy and gladness spread through the whole kingdom. The Princess had been saved and set free, and she had saved and freed all twelve of her brothers.

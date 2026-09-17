@@ -1,0 +1,265 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 郑重而亲切，带着学者讲述旧日故事的从容
+        timbre: 温暖清晰，沉稳而有书卷气
+        pace: 舒缓，论述转折处稍作停顿
+        pitch: 中低
+    king:
+      display_name: 国王
+      tts:
+        delivery: 威严中带着求子心切，隐瞒时略显迟疑
+        timbre: 浑厚端正
+        pace: 适中
+        pitch: 中低
+    fakir:
+      display_name: 法基尔
+      tts:
+        delivery: 神秘冷静，发号施令时不容置疑
+        timbre: 干涩低沉
+        pace: 稍缓
+        pitch: 低
+    prince:
+      display_name: 王子
+      tts:
+        delivery: 年轻果敢，答话机敏，表明身份时坦荡自信
+        timbre: 清朗有力
+        pace: 适中偏快
+        pitch: 中
+    ant_lame:
+      display_name: 瘸腿蚂蚁
+      tts:
+        delivery: 疲惫却据理力争，护念孩子时恳切
+        timbre: 细弱清楚
+        pace: 稍快
+        pitch: 偏高
+    ant_strong:
+      display_name: 强壮蚂蚁
+      tts:
+        delivery: 直接强硬，听懂道理后不再纠缠
+        timbre: 细亮结实
+        pace: 稍快
+        pitch: 高
+    bald_man:
+      display_name: 秃头男人
+      tts:
+        delivery: 粗豪好斗，说起赌约干脆利落
+        timbre: 粗厚响亮
+        pace: 适中偏快
+        pitch: 中低
+    princess:
+      display_name: 公主
+      tts:
+        delivery: 心意坚定，吩咐侍女时从容果断
+        timbre: 明亮柔和
+        pace: 适中
+        pitch: 中高
+    city_king:
+      display_name: 城中之王
+      tts:
+        delivery: 庄重持重，得知女婿身份后喜悦而慷慨
+        timbre: 宽厚沉稳
+        pace: 稍缓
+        pitch: 中低
+    handmaiden:
+      display_name: 侍女
+      tts:
+        delivery: 恭谨机敏，面对议论时回答利落
+        timbre: 清脆平稳
+        pace: 适中
+        pitch: 中高
+    townsman_1:
+      display_name: 城中男子甲
+      tts:
+        delivery: 好奇多议，随众发问时直率
+        timbre: 普通清晰
+        pace: 适中
+        pitch: 中
+    townsman_2:
+      display_name: 城中男子乙
+      tts:
+        delivery: 好奇多议，语气里带着怀疑
+        timbre: 略粗明亮
+        pace: 适中
+        pitch: 中低
+    townsman_3:
+      display_name: 城中男子丙
+      tts:
+        delivery: 好奇多议，随人群一起评说
+        timbre: 清亮平实
+        pace: 适中
+        pitch: 中
+  chapters:
+    - id: ch01
+      title: 十字路口的约定
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有位国王一直没有儿女。一天，他来到四条大路交会的地方，横身躺下歇息。这样一来，凡是从路口经过的人，都非得从他身上跨过去不可。
+        - id: ch01-b02
+          speaker: fakir
+          text: 喂，你为什么躺在路中央？
+        - id: ch01-b03
+          speaker: narrator
+          text: 来问话的是一位法基尔。
+        - id: ch01-b04
+          speaker: king
+          text: 法基尔，已经有一千个人从我身上跨过去了。你也走吧。
+        - id: ch01-b05
+          speaker: fakir
+          text: 先告诉我，你是什么人？
+        - id: ch01-b06
+          speaker: king
+          text: 我是一国之君，财宝黄金样样不缺，可我活了这么久，始终没有孩子。我犯过太多罪，才躺到这十字路口，让人人从身上跨过去。也许罪孽能因此洗清，真主会怜悯我，赐我一个儿子。
+        - id: ch01-b07
+          speaker: fakir
+          text: 国王，要是你有了孩子，准备给我什么？
+        - id: ch01-b08
+          speaker: king
+          text: 你要什么，我就给什么。
+        - id: ch01-b09
+          speaker: fakir
+          text: 我也不缺财宝。这样吧，我替你祈祷，你会得到两个儿子，其中一个归我。
+        - id: ch01-b10
+          speaker: narrator
+          text: 法基尔拿出两块甜糕，递到国王手中。
+        - id: ch01-b11
+          speaker: fakir
+          text: 把甜糕带回去，送给你最宠爱的两位妻子。一年以后我再来，那时两个儿子一个归你，一个归我。
+        - id: ch01-b12
+          speaker: narrator
+          text: 国王把甜糕揣进怀里。
+        - id: ch01-b13
+          speaker: king
+          text: 好，我答应你。
+        - id: ch01-b14
+          speaker: narrator
+          text: 法基尔继续赶路，国王也回到宫里，把两块甜糕分别给了两位妻子。过了一段日子，两人果然各生下一个儿子。国王却把孩子藏进早已在地下造好的密室，不叫人看见。
+    - id: ch02
+      title: 蚂蚁泄露的秘密
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 过了一些时候，法基尔如约来到宫中。
+        - id: ch02-b02
+          speaker: fakir
+          text: 国王，把许给我的儿子交出来！
+        - id: ch02-b03
+          speaker: narrator
+          text: 国王竟领来两个女奴的儿子，冒充自己的孩子。就在法基尔坐着等候时，真正的王子正在地下密室吃饭。一只饥饿的瘸腿蚂蚁从他们的食物里搬走一粒米，要带回去给孩子们。另一只更强壮的蚂蚁追上来袭击她，想把那粒米抢走。
+        - id: ch02-b04
+          speaker: ant_lame
+          text: 你为什么抢我的米？我的腿瘸了这么久，好不容易才找到这一粒，要带回去给孩子们。国王的儿子正在地下密室吃饭，你去那里搬吧，别抢我的。
+        - id: ch02-b05
+          speaker: narrator
+          text: 强壮蚂蚁听懂了，便松开对方，不再抢夺，转身去找地下密室里的食物。坐在上面的法基尔也把这番话听得清清楚楚。
+        - id: ch02-b06
+          speaker: fakir
+          text: 国王，你领来的根本不是亲生儿子。快去把那两个正在地下密室里吃饭的孩子带上来。
+        - id: ch02-b07
+          speaker: narrator
+          text: 国王只得去密室领来亲生儿子。法基尔挑中长子，带着他踏上旅途。回到自己的住处，他又叫王子出去拾燃料。王子出门捡来一堆牛粪，法基尔看了看他，便架起一口大锅。
+        - id: ch02-b08
+          speaker: fakir
+          text: 徒弟，到锅这边来。
+        - id: ch02-b09
+          speaker: prince
+          text: 师父先请，徒弟随后。
+        - id: ch02-b10
+          speaker: narrator
+          text: 法基尔先叫了一遍，又叫第二遍、第三遍，王子每次都用同一句话回答。最后，法基尔猛扑过去，想抓住王子，扔进锅里。锅中装着约莫一百加仑油，下面的火烧得正旺。
+        - id: ch02-b11
+          speaker: narrator
+          text: 王子反倒一把举起法基尔，猛地将他掼进锅中。法基尔被滚油烧得焦熟，成了一块烤肉。王子看见旁边有法基尔的一把钥匙，便捡起来打开屋门，救出许多被囚禁的人。法基尔的棚子里还站着两匹马，拴着两只灵缇，囚着两只西摩鸟，另外还有两只老虎。王子把它们全带到屋外。动物们重获自由，一齐感谢真主。
+        - id: ch02-b12
+          speaker: narrator
+          text: 王子又打开牢门，放走所有被囚禁的人。随后，他带上两匹马、两只老虎、两只猎犬和两只西摩鸟，离开法基尔的屋子，一同向另一个国家出发。
+    - id: ch03
+      title: 路上的较量
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 王子沿着大路走去，看见前面高处有个秃头男人，正在放一群牛犊。那人一瞧见他，便隔着老远大声喊话。
+        - id: ch03-b02
+          speaker: bald_man
+          text: 喂，你到底会不会打架？
+        - id: ch03-b03
+          speaker: prince
+          text: 小时候我还会打上几下。现在谁要同我较量，我也不会没出息到转身逃跑。来吧！
+        - id: ch03-b04
+          speaker: bald_man
+          text: 我摔倒你，你就给我做奴仆。你摔倒我，我就给你做奴仆。
+        - id: ch03-b05
+          speaker: narrator
+          text: 两人当即摆开架势，扭打起来。较量了一番以后，王子把秃头男人重重摔倒在地。
+        - id: ch03-b06
+          speaker: prince
+          text: 我要进城看看热闹。西摩鸟、老虎、猎犬和马全留在这里，老虎负责看守我的财物。你如今是我的奴仆，也必须留下，替我照看所有东西。
+        - id: ch03-b07
+          speaker: narrator
+          text: 王子把自己的伙伴和财物都留在原地，独自进城看热闹。不久，他来到一座清澈宜人的池塘边，觉得在这里洗个澡正合适，便开始脱下衣服。
+    - id: ch04
+      title: 公主选婿
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 那座城的公主正坐在王宫屋顶。她从高处望见王子身上的王族印记，立刻明白了他的身份。
+        - id: ch04-b02
+          speaker: princess
+          text: 这个人是位国王。将来我要嫁人，非他不嫁。
+        - id: ch04-b03
+          speaker: narrator
+          text: 她随即去见父亲。
+        - id: ch04-b04
+          speaker: princess
+          text: 父王，我想成婚了。
+        - id: ch04-b05
+          speaker: city_king
+          text: 好。
+        - id: ch04-b06
+          speaker: narrator
+          text: 国王立刻下诏，叫全国无论贵贱的男子当天都来议事厅，让公主亲自挑选丈夫。全国的男子纷纷聚集。远游的王子也穿着法基尔留下的衣裳来了。他一心想看看这场大典，便走进厅里，找了个地方坐下。
+        - id: ch04-b07
+          speaker: narrator
+          text: 公主从宫中出来，坐上露台，目光从满堂人群中一个一个扫过去，很快看见了那个身穿法基尔衣裳的旅人。
+        - id: ch04-b08
+          speaker: princess
+          text: 端上这盘指甲花，到那个穿着法基尔衣裳的旅人面前去，把盘里的香水洒在他身上。
+        - id: ch04-b09
+          speaker: narrator
+          text: 侍女遵照公主的吩咐，端着指甲花走到王子面前，把盘里的香水洒在他身上。
+        - id: ch04-b10
+          speakers: [townsman_1, townsman_2, townsman_3]
+          ensemble: chorus
+          text: 女奴弄错了！
+        - id: ch04-b11
+          speaker: handmaiden
+          text: 女奴没弄错，弄错的是她的女主人。
+        - id: ch04-b12
+          speaker: narrator
+          text: 国王只得把女儿嫁给那个法基尔。可他其实不是法基尔，而是一位王子。命运注定的事，就这样在那个国家成真了。两人成了夫妻，国王心里却很难过。当时那么多首领贵族坐在堂上，女儿一个也没选，偏偏挑中了那个法基尔。不过，他把这些念头藏得严严实实，谁也没有告诉。
+    - id: ch05
+      title: 狩猎与王位
+      blocks:
+        - id: ch05-b01
+          speaker: prince
+          text: 请国王所有的女婿今天都同我出去打猎。
+        - id: ch05-b02
+          speakers: [townsman_1, townsman_2, townsman_3]
+          ensemble: chorus
+          text: 这个法基尔算什么人，也配出去打猎？
+        - id: ch05-b03
+          speaker: narrator
+          text: 不管人们怎样议论，国王的女婿们到底一同出发去打猎了，还约好狩猎结束后在一座池塘边会合。新婚的王子找到自己的老虎，叫老虎和猎犬捕杀大批瞪羚、猪鹿和捻角山羊，统统带到他面前。它们领命而去，转眼便猎来许许多多。
+        - id: ch05-b04
+          speaker: narrator
+          text: 王子带着这些猎物来到约好的池塘边。城中之王的其他女婿也陆续到了，却全都空着手，只有新来的王子满载而归。随后，众人带着猎物一起回到城中，来到岳父国王面前，把各自狩猎的结果呈献给他。
+        - id: ch05-b05
+          speaker: narrator
+          text: 这位国王一直没有儿子。就在这时，新女婿终于说出了真相，原来他并非贫穷的法基尔，而是一位远游的王子。岳父听了喜出望外，亲手拉住他的手，紧紧拥抱他，又请他独自坐上尊贵的席位。
+        - id: ch05-b06
+          speaker: city_king
+          text: 王子啊，感谢真主把你送到这里，做了我的女婿！我实在欢喜，现在就把我的王国交给你。

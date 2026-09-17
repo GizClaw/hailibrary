@@ -1,0 +1,58 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 郑重而亲切，带着学者讲述旧日故事的从容
+        timbre: 温暖清晰，沉稳而有书卷气
+        pace: 舒缓，论述转折处稍作停顿
+        pitch: 中低
+    future_buddha:
+      display_name: 未来佛
+      tts:
+        delivery: 清醒沉着，吟诵偈语时简洁有力
+        timbre: 温厚清朗
+        pace: 舒缓
+        pitch: 中低
+    hawker:
+      display_name: 小贩
+      tts:
+        delivery: 世故直率，感叹时带着懊悔
+        timbre: 粗朴清楚
+        pace: 适中
+        pitch: 中
+  chapters:
+    - id: ch01
+      title: 披上狮皮
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 那时，梵授王正统治贝拿勒斯。未来佛出生在一个农民家里，长大后靠种田过活。
+        - id: ch01-b02
+          speaker: narrator
+          text: 当地有个小贩，常赶着驴四处卖货。每到一处，他卸下驴背上的货物，就给驴披上狮皮，再放进稻田和大麦田，让它随意吃庄稼。守田人从远处望见，以为真是狮子来了，根本不敢靠近。
+    - id: ch02
+      title: 一声驴鸣
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 有一天，小贩在一个村庄停下，忙着准备自己的早饭。他又把狮皮披到驴身上，放它进大麦田吃庄稼。守田人不敢上前，赶紧回村报信。村民们拿起兵器，一起赶来。他们吹着海螺，擂着大鼓，走近田边高声呐喊。
+        - id: ch02-b02
+          speaker: narrator
+          text: 驴吓坏了，以为这回性命难保，张嘴便叫。那哪里是什么狮吼，分明是一声驴鸣！未来佛听见，马上明白狮皮底下藏着什么，于是吟出一首偈语。
+        - id: ch02-b03
+          speaker: future_buddha
+          text: 这不是雄狮怒吼，也不是虎豹咆哮。身上虽然披着狮皮，出声的却是一头可怜的驴！
+    - id: ch03
+      title: 开口招祸
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 村民们这才认出，眼前不过是一头驴。他们一拥而上，把驴打得骨头尽断，又剥下狮皮带走了。小贩回来，看见驴倒在那里，已经被打得不成样子，也吟出一首偈语。
+        - id: ch03-b02
+          speaker: hawker
+          text: 驴儿要是不出声，披着狮皮，本可以一直吃那青翠的大麦。可它偏偏叫了！这一开口，祸事就来了。
+        - id: ch03-b03
+          speaker: narrator
+          text: 小贩的话还没说完，那头驴就在原地断了气！

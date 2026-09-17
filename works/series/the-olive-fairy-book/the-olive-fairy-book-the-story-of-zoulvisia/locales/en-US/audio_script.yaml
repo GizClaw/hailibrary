@@ -1,0 +1,640 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: genial, reflective, and lightly amused
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    young_king:
+      display_name: The Young King
+      tts:
+        delivery: brave, warm-hearted, and sometimes impulsive
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium
+    citizen_1:
+      display_name: First Citizen
+      tts:
+        delivery: anxious and pleading
+        timbre: plain and mature
+        pace: measured
+        pitch: medium
+    citizen_2:
+      display_name: Second Citizen
+      tts:
+        delivery: anxious and pleading
+        timbre: light and clear
+        pace: measured
+        pitch: medium-high
+    citizen_3:
+      display_name: Third Citizen
+      tts:
+        delivery: anxious and pleading
+        timbre: steady and resonant
+        pace: measured
+        pitch: medium-low
+    zoulvisia:
+      display_name: Zoulvisia
+      tts:
+        delivery: proud and commanding, softening into warmth
+        timbre: bright and luminous
+        pace: measured
+        pitch: medium-high
+    fairy_1:
+      display_name: First Old Fairy
+      tts:
+        delivery: kindly but easily frightened
+        timbre: dry and delicate
+        pace: unhurried
+        pitch: high
+    fairy_2:
+      display_name: Second Old Fairy
+      tts:
+        delivery: kindly but easily frightened
+        timbre: soft and aged
+        pace: unhurried
+        pitch: medium-high
+    fairy_3:
+      display_name: Third Old Fairy
+      tts:
+        delivery: kindly but easily frightened
+        timbre: low and papery
+        pace: unhurried
+        pitch: medium-low
+    old_prisoner:
+      display_name: The Old Prisoner
+      tts:
+        delivery: bitter, watchful, and grave
+        timbre: rough and hollow
+        pace: slow
+        pitch: low
+    chamberlain:
+      display_name: The Chamberlain
+      tts:
+        delivery: formal, forceful, and eager for advantage
+        timbre: polished and firm
+        pace: measured
+        pitch: medium-low
+    witch:
+      display_name: The Witch
+      tts:
+        delivery: wheedling and crafty, turning coldly triumphant
+        timbre: thin and rasping
+        pace: measured
+        pitch: medium-high
+    maid:
+      display_name: Zoulvisia's Maid
+      tts:
+        delivery: lively, trusting, and open
+        timbre: young and bright
+        pace: brisk
+        pitch: high
+    fairy_son_1:
+      display_name: First Fairy Son
+      tts:
+        delivery: loyal and quick-thinking
+        timbre: small and clear
+        pace: brisk
+        pitch: high
+    fairy_son_2:
+      display_name: Second Fairy Son
+      tts:
+        delivery: loyal and practical
+        timbre: light and steady
+        pace: brisk
+        pitch: medium-high
+    fairy_son_3:
+      display_name: Third Fairy Son
+      tts:
+        delivery: loyal and earnest
+        timbre: warm and compact
+        pace: measured
+        pitch: medium
+    cottage_woman:
+      display_name: The Cottage Woman
+      tts:
+        delivery: talkative, curious, and shrewd
+        timbre: weathered and lively
+        pace: brisk
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: The Enchanted Mountain
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Somewhere in Asia, in the middle of a sandy desert, there stood a high mountain covered in beautiful trees. Travelers crossing the barren land found the sight refreshing. Waterfalls flashed white in the sun. In the clear, still air, they could hear birds singing and smell the flowers. White tents among the trees showed that people lived there. Yet kings and princes traveling toward Babylon or Baalbec never dared to enter those woods. If anyone did go in, he never returned.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            The mountain had such an evil name that dying fathers begged their sons never to seek its secrets. Still, every year, a few young men declared that they would visit it. None of them were seen again.
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            Across the desert lived a powerful king with seven sons. As he lay dying, he gave them the same warning. But no sooner was he dead than his eldest son took the throne and announced that he would hunt on the enchanted mountain. The old men pleaded with him and shook their heads. They called the plan madness and begged him to abandon it. He would not listen. He rode away, never came back, and in time the next brother became king.
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            The same thing happened to five more brothers. When the youngest became king and announced that he too would hunt there, a great cry rose through the city.
+        - id: ch01-b05
+          speakers: [citizen_1, citizen_2, citizen_3]
+          ensemble: chorus
+          text: >-
+            If you die, who will rule us? And you surely will die! Stay here with us. We will make you happy.
+          emotion: fearful
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            For a while, the young king listened to their prayers. Under his rule, the land became rich and prosperous. But after a few years, that restless longing seized him again. This time, he would hear no argument. He was determined to hunt in the forbidden forest. He called together his friends and attendants, and one morning they rode across the desert toward the mountain.
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            As they passed through a rocky valley, a deer sprang up and bounded away. The king chased it at once, with his attendants behind him. The deer ran too fast for them. At last it disappeared deep among the trees.
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            Only then did the king stop and look around. His companions were far behind. When he glanced back, he saw them entering tents scattered through the woods. He preferred the cool, fresh forest to any feast, however fine, and wandered for hours wherever he pleased.
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            Darkness began to gather. Thinking it was time to return to the palace, he left the forest with a sigh and went down to the tents. There he found his men lying everywhere, some dead and some dying. They could not speak, but they did not need to. The wine they had drunk was poisoned.
+        - id: ch01-b10
+          speaker: young_king
+          text: >-
+            My poor friends, I have come too late to save you. But I can still avenge you. Whoever laid this trap will return to see whether it worked. I will hide and learn who they are.
+          emotion: sad
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            A great walnut tree stood nearby, and the king climbed into it. Night fell. Nothing disturbed the silence. Then, at the first light of dawn, he heard galloping hoofs.
+        - id: ch01-b12
+          speaker: narrator
+          text: >-
+            He pushed aside the branches and saw a young rider approaching on a white horse. The rider dismounted beside the tents and carefully examined every body. One by one, the dead men were dragged to a nearby ravine and thrown into the lake at the bottom. Meanwhile, the servants who had followed the rider led away the dead men's horses. The courtiers received orders to release the deer that had served as a lure, then cover the tables once more with food and wine for the next travelers.
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            When everything was ready, the rider strolled through the forest and discovered a beautiful horse hidden in a thicket.
+        - id: ch01-b14
+          speaker: zoulvisia
+          text: >-
+            Every dead man had a horse. Then who owns this one?
+        - id: ch01-b15
+          speaker: young_king
+          text: >-
+            I do! Who are you, luring men into your power and poisoning them? You will do it no longer. Go home, wherever your home is, and I will fight you there!
+          emotion: angry
+        - id: ch01-b16
+          speaker: narrator
+          text: >-
+            The rider was speechless with anger. At last, with a great effort, came the answer.
+        - id: ch01-b17
+          speaker: zoulvisia
+          text: >-
+            I accept your challenge. Mount your horse and follow me. I am Zoulvisia.
+          emotion: angry
+        - id: ch01-b18
+          speaker: narrator
+          text: >-
+            Zoulvisia sprang into the saddle and vanished so quickly that the king barely had time to notice the light flowing from rider and horse. Beneath the helmet, the rider's hair shone like liquid gold. Then he understood that the young cavalier was a woman. But who could she be? A queen above all queens? The leader of a band of robbers? She was neither one. She was simply a beautiful maiden.
+        - id: ch01-b19
+          speaker: narrator
+          text: >-
+            Wrapped in those thoughts, the king stood beneath the walnut tree long after horse and rider had disappeared. At last he came to himself with a start and remembered his challenge. He had to find his enemy's home, though he had no idea where it was. There was nothing to do but take the path by which she had come. He walked along it for many hours, until he reached three huts standing side by side. An old fairy and her sons lived in each one.
+        - id: ch01-b20
+          speaker: narrator
+          text: >-
+            By then he was so tired and hungry that he could hardly speak. After some milk and a short rest, he answered their eager questions.
+        - id: ch01-b21
+          speaker: young_king
+          text: >-
+            I am searching for Zoulvisia. She killed my brothers and many of my people, and I mean to avenge them.
+        - id: ch01-b22
+          speaker: narrator
+          text: >-
+            He had spoken in only one hut, but an answer came from all three.
+        - id: ch01-b23
+          speakers: [fairy_1, fairy_2, fairy_3]
+          ensemble: chorus
+          text: >-
+            What a pity we did not know! She passed our doors twice today. We might have held her prisoner.
+        - id: ch01-b24
+          speaker: narrator
+          text: >-
+            Their words sounded brave, but their hearts were not. The mere thought of Zoulvisia made them tremble.
+        - id: ch01-b25
+          speakers: [fairy_1, fairy_2, fairy_3]
+          ensemble: chorus
+          text: >-
+            Forget Zoulvisia and stay here. You can be our big brother, and we will be your little brothers.
+          emotion: fearful
+        - id: ch01-b26
+          speaker: narrator
+          text: >-
+            The king refused. From his pocket he drew a pair of scissors, a razor, and a mirror, and gave one object to each fairy.
+        - id: ch01-b27
+          speaker: young_king
+          text: >-
+            I cannot give up my vengeance, but I gladly accept your friendship. Keep these three tokens. If blood appears on any of them, my life is in danger. Remember our sworn brotherhood and come to help me.
+        - id: ch01-b28
+          speakers: [fairy_1, fairy_2, fairy_3]
+          ensemble: chorus
+          text: We will come.
+        - id: ch01-b29
+          speaker: narrator
+          text: >-
+            The king mounted his horse and followed the road they showed him.
+    - id: ch02
+      title: Zoulvisia's Crystal Tower
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            Before long, moonlight showed the king a splendid palace. He rode all the way around it, and then around it again, but nowhere could he find a door. He stopped to consider what he should try next. Just then he heard loud snoring, and the sound seemed to rise from beneath his feet. He looked down. At the bottom of a deep pit outside the palace wall, an old man lay asleep with a lantern beside him.
+        - id: ch02-b02
+          speaker: narrator
+          text: >-
+            The king thought the sleeper might advise him. With some difficulty, he climbed into the pit and touched the old man's shoulder.
+        - id: ch02-b03
+          speaker: old_prisoner
+          text: >-
+            Are you a bird or a snake? How else could you enter this place?
+          emotion: surprised
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            The king said that he was only a mortal and that he had come seeking Zoulvisia.
+        - id: ch02-b05
+          speaker: old_prisoner
+          text: >-
+            Zoulvisia, the curse of the world! She has killed thousands. I alone escaped, though I cannot guess why she spared me only to leave me in this living death.
+          emotion: angry
+        - id: ch02-b06
+          speaker: young_king
+          text: >-
+            Then help me, if you can.
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            The king told his whole story, and the old man listened closely.
+        - id: ch02-b08
+          speaker: old_prisoner
+          text: >-
+            Listen carefully. Every morning at sunrise, Zoulvisia puts on her pearl jacket and climbs her crystal watchtower. From there she sees across all her lands. If any man or demon enters, she gives such terrible cries that anyone who hears them dies of fright. Hide in the cave near the foot of the tower, and plant a forked stick before it. After her third cry, step out boldly and look up at her. Do not be afraid. You will have broken her power.
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            The king did exactly as the old man had told him. He found the cave by the tower and planted a forked stick before its mouth. There he waited while Zoulvisia gave her first fearful cry, then her second, and then her third. Only after the third cry did he step boldly from hiding and look up at the crystal tower. His eyes met Zoulvisia's.
+        - id: ch02-b10
+          speaker: zoulvisia
+          text: >-
+            You have defeated me. You are worthy to be my husband, for no man before you has heard my voice and lived.
+        - id: ch02-b11
+          speaker: narrator
+          text: >-
+            She loosened her golden hair and let it fall from the tower. Using it like a rope, she drew the king all the way to the summit. From there, she led him into the great audience hall and presented the man who had conquered her to everyone in her household.
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            Later they sat together on a mossy bank beside the stream. Zoulvisia smiled and spoke in a whisper.
+        - id: ch02-b13
+          speaker: zoulvisia
+          text: >-
+            Ask me for anything you wish, and it is yours.
+        - id: ch02-b14
+          speaker: narrator
+          text: >-
+            The king asked her to free the old man who had saved his life and send him home to his own country.
+    - id: ch03
+      title: The Pearl Case
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            On the day they married, Zoulvisia spoke to her husband.
+        - id: ch03-b02
+          speaker: zoulvisia
+          text: >-
+            I am done with hunting and riding through my lands. From now on, you must provide for us all.
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            She ordered her attendants to bring her horse of fire.
+        - id: ch03-b04
+          speaker: zoulvisia
+          text: >-
+            O steed of flame, this is your master now. Serve him as faithfully as you served me.
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            She kissed the horse between the eyes and placed the bridle in her husband's hand. For a moment, the horse stood looking at its new master. Then it bent its head in acceptance. The king patted the animal's neck and gently smoothed its tail. Before long, horse and rider felt as though they had known each other for years.
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            He mounted to carry out Zoulvisia's command. Before he left, she gave him a pearl case with one of her hairs inside. He tucked it into the front of his coat.
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            For some time he rode without finding any game for dinner. Then a fine stag sprang up almost beneath the horse's feet. The king chased it at once. The stag twisted this way and that, never giving him a clear shot, until it reached a broad river and leaped in.
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            As the stag swam across, the king fitted a bolt to his crossbow and took aim. He wounded the animal, but it reached the opposite bank. In the excitement, he did not notice the pearl case falling into the water.
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            The river was deep and swift. It swept the pearl case along for miles and miles and miles, carrying it far from Zoulvisia's land. At last, the little box washed ashore in a different country. One of the palace water carriers found it and took it to his king. The case was made in such a curious way, and its pearls were so rare, that the king could not persuade himself to part with it. He paid the water carrier a good price and sent him away.
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            Then he summoned his chamberlain and ordered him to discover the case's history within three days, or lose his head. Every magician and wise man failed to solve the riddle. At last, an old woman came to the palace and offered the answer in exchange for two handfuls of gold.
+        - id: ch03-b11
+          speaker: narrator
+          text: >-
+            The chamberlain gladly paid her. She told him that the pearl case and the hair belonged to Zoulvisia.
+        - id: ch03-b12
+          speaker: chamberlain
+          text: >-
+            Bring Zoulvisia here, old woman, and you shall have enough gold to stand in.
+        - id: ch03-b13
+          speaker: witch
+          text: >-
+            I will see what I can do.
+        - id: ch03-b14
+          speaker: narrator
+          text: >-
+            The old woman returned to her hut deep in the forest. Standing in the doorway, she gave a soft whistle. The dead leaves on the ground began to shift and rustle. From beneath them came a long procession of serpents, all wriggling toward the witch's feet. She bent down, patted their heads one after another, and poured milk for each serpent into a red earthen bowl.
+        - id: ch03-b15
+          speaker: narrator
+          text: >-
+            When they had drunk, she whistled again. Two or three serpents coiled around her arms and neck. She changed one into a cane and another into a whip. At the riverbank, she turned a stick into a raft, sat down comfortably, and pushed into the current.
+        - id: ch03-b16
+          speaker: narrator
+          text: >-
+            She floated all that day and through the next night. Near sunset on the following evening, the raft approached Zoulvisia's garden just as the young king returned from hunting on the horse of fire.
+        - id: ch03-b17
+          speaker: young_king
+          text: >-
+            Who are you? Why have you come here?
+          emotion: surprised
+        - id: ch03-b18
+          speaker: narrator
+          text: >-
+            It was no common sight to find an old woman traveling on a raft in that country.
+        - id: ch03-b19
+          speaker: witch
+          text: >-
+            I am a poor pilgrim, my son. I missed my caravan and wandered through the desert for many days without food. At last I reached the river and found this tiny raft. I trusted myself to it, not knowing whether I would live or die. Now that you have found me, please give me bread. Let me spend the night beside the dog that guards your door.
+        - id: ch03-b20
+          speaker: narrator
+          text: >-
+            The old woman's pitiful tale touched the young king's heart. He promised not only to bring her food, but also to let her spend the night safely inside his palace instead of beside the guard dog.
+        - id: ch03-b21
+          speaker: young_king
+          text: >-
+            Climb up behind me, good woman. You have traveled far, and the palace is still a long way off.
+        - id: ch03-b22
+          speaker: narrator
+          text: >-
+            He leaned down to help her, but the horse swerved away. The same thing happened a second time, and then a third. The witch understood why, though the king did not.
+        - id: ch03-b23
+          speaker: witch
+          text: >-
+            I am afraid I might fall. Your kind heart already pities me, so ride slowly. I am lame, but I think I can keep up.
+        - id: ch03-b24
+          speaker: narrator
+          text: >-
+            At the palace door, the king told her to rest while he fetched whatever she needed. But when Zoulvisia heard whom he had brought, her face went pale. She begged him to feed the old woman and send her away before she caused them harm.
+        - id: ch03-b25
+          speaker: young_king
+          text: >-
+            From the way you speak, anyone would think she was a witch! And even if she were, what harm could she do to us?
+        - id: ch03-b26
+          speaker: narrator
+          text: >-
+            He laughed at Zoulvisia's fears. Then he ordered the maidens to take the old woman some food and let her sleep in their room.
+    - id: ch04
+      title: The Stolen Sabre
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            The old woman was very cunning. That night, she filled the maidens' room with one strange story after another and kept them awake until half the night was gone. The next morning, they were dressing Zoulvisia when one maid remembered an especially funny adventure and suddenly burst out laughing. The others remembered it too and joined her.
+        - id: ch04-b02
+          speaker: zoulvisia
+          text: >-
+            What are you all laughing about?
+        - id: ch04-b03
+          speaker: maid
+          text: >-
+            I was remembering a funny adventure our new guest told us last night. Oh, madam, perhaps she is a witch, as people say, but I am certain she would never cast a spell to hurt a fly! Her stories could brighten many dull hours while my lord is away.
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            In an evil hour, Zoulvisia agreed to see the old woman. From then on, they were hardly ever apart.
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            One day, the witch began praising the young king. She claimed that in all her travels she had never seen another man like him.
+        - id: ch04-b06
+          speaker: witch
+          text: >-
+            How clever he was to discover your secret and win your heart. Of course, he shared his own secret with you afterward?
+        - id: ch04-b07
+          speaker: zoulvisia
+          text: >-
+            No. I do not think he has any secrets.
+        - id: ch04-b08
+          speaker: witch
+          text: >-
+            No secrets? Nonsense! Every man has one, and he always tells it to the woman he loves. If your husband has not told you his, then he does not love you.
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            That thought troubled Zoulvisia deeply, though she would not admit it to the witch. The next time she was alone with her husband, she coaxed him to reveal the secret of his strength. For a long while he put her off with caresses. When she refused to let the matter rest, he finally answered.
+        - id: ch04-b10
+          speaker: young_king
+          text: >-
+            My strength comes from my sabre, which stays beside me day and night. Now that I have told you, swear on this ring that you will tell no one. I will give you the ring in exchange for yours.
+        - id: ch04-b11
+          speaker: narrator
+          text: >-
+            Zoulvisia swore the oath. Then she went straight to the old woman and betrayed the secret.
+        - id: ch04-b12
+          speaker: narrator
+          text: >-
+            Four nights later, while everyone slept, the witch crept softly into the king's chamber. She took the sabre from his side, opened the lattice, flew onto the terrace, and dropped the sword into the river.
+        - id: ch04-b13
+          speaker: narrator
+          text: >-
+            The next morning, everyone wondered why the king had not risen early to hunt. The attendants listened at his door and heard heavy breathing. No one dared enter until Zoulvisia pushed past them.
+        - id: ch04-b14
+          speaker: narrator
+          text: >-
+            A terrible sight met them. The king lay almost dead, with foam at his mouth and his eyes already closed. They wept and called to him, but he gave no answer.
+        - id: ch04-b15
+          speaker: narrator
+          text: >-
+            Suddenly, a shriek broke from the people standing farthest back. The witch strode into the room, and now serpents coiled around her neck, her arms, and even her hair. She made a sign. At once, the snakes flung themselves hissing upon the maidens and pierced them with their poisonous fangs. When the attendants had fallen, the witch turned to Zoulvisia.
+        - id: ch04-b16
+          speaker: witch
+          text: >-
+            Choose. Will you come with me, or shall my serpents kill you too?
+        - id: ch04-b17
+          speaker: narrator
+          text: >-
+            Zoulvisia stared at her in terror, unable to speak. The witch seized her arm and dragged her to the raft hidden among the rushes. Once they were aboard, the witch took the oars. They floated downriver into the neighboring country, where she sold Zoulvisia to the king for a sack of gold.
+    - id: ch05
+      title: The Sabre in the River
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            Ever since the young king had visited the three huts, the fairies' sons had examined his scissors, razor, and mirror every morning. Until now, all three objects had remained bright and clear. But on this morning, drops of blood covered the scissors and razor, while a cloud darkened the little mirror.
+        - id: ch05-b02
+          speakers: [fairy_son_1, fairy_son_2, fairy_son_3]
+          ensemble: chorus
+          text: >-
+            Something terrible has happened to our little brother. We must hurry and save him before it is too late.
+          emotion: fearful
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            They lost no time. The fairy sons put on their magic slippers and set off at once for the palace. The servants greeted them eagerly and crowded around, ready to pour out everything they knew. But they knew very little. The king's sabre had vanished from his side during the night, and no one could say who had taken it or where it had gone.
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            The newcomers searched through the palace for the whole day, but the sabre was nowhere to be found. By the time night closed in, they were exhausted and hungry. The king had not gone hunting that day, and without his catch there was nothing for anyone to eat. The little men began to despair. Then a ray of moonlight suddenly lit the river flowing beneath the palace walls.
+        - id: ch05-b05
+          speakers: [fairy_son_1, fairy_son_2, fairy_son_3]
+          ensemble: chorus
+          text: >-
+            How foolish we are! There are fish in the river.
+        - id: ch05-b06
+          speaker: narrator
+          text: >-
+            They ran to the bank, caught several fine fish, and cooked them there. After eating, they felt better and began to look around.
+        - id: ch05-b07
+          speaker: narrator
+          text: >-
+            Farther out, near the middle of the stream, they heard a strange splashing. Before long, the body of a huge fish appeared at the surface. It twisted and thrashed as if something inside it were causing terrible pain. Every brother fixed his eyes on that spot. Then the fish leaped high into the air, and a bright gleam flashed through the night.
+        - id: ch05-b08
+          speakers: [fairy_son_1, fairy_son_2, fairy_son_3]
+          ensemble: chorus
+          text: It is the sabre!
+          emotion: surprised
+        - id: ch05-b09
+          speaker: narrator
+          text: >-
+            They plunged into the water. With one sharp pull, they drew the sword from the fish, which lay exhausted on the surface. The brothers swam ashore, carefully dried the sabre on their coats, and carried it to the palace.
+        - id: ch05-b10
+          speaker: narrator
+          text: >-
+            The moment they laid it on the king's pillow, color returned to his waxen face and his hollow cheeks filled out. He sat up and opened his eyes.
+        - id: ch05-b11
+          speaker: young_king
+          text: Where is Zoulvisia?
+        - id: ch05-b12
+          speakers: [fairy_son_1, fairy_son_2, fairy_son_3]
+          ensemble: chorus
+          text: >-
+            That we do not know. But now that you are safe, you will soon discover it.
+        - id: ch05-b13
+          speaker: narrator
+          text: >-
+            They told him everything that had happened after Zoulvisia revealed his secret to the witch.
+        - id: ch05-b14
+          speaker: young_king
+          text: Take me to my horse.
+        - id: ch05-b15
+          speaker: narrator
+          text: >-
+            The king hurried to the stable, but the sight inside almost made him weep. His favorite horse was in nearly as sad a state as its master had been. When the door swung open, the weak animal only turned its head. Then it recognized the king. It rose with an effort and rubbed its head against him.
+        - id: ch05-b16
+          speaker: young_king
+          text: >-
+            Oh, my poor horse! You were wiser than I was. If I had followed your example, I would never have lost Zoulvisia. But you and I will search for her together.
+          emotion: sad
+    - id: ch06
+      title: The Ring and the Bride
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: >-
+            For a long time, the king and the horse followed the river through country after country. Everywhere he asked for news, but nowhere could he learn anything about Zoulvisia. At last, one evening, they stopped to rest beside a cottage not far from a great city. The king stretched out on the grass and idly watched his horse crop the short turf. An old woman came from the cottage carrying a wooden bowl of fresh milk, which she offered to the traveler.
+        - id: ch06-b02
+          speaker: narrator
+          text: >-
+            He drank eagerly, for he was very thirsty. Then he set down the bowl and began talking with her. She was delighted to find someone willing to listen.
+        - id: ch06-b03
+          speaker: cottage_woman
+          text: >-
+            You are lucky to pass this way now. In five days, our king will hold his wedding feast. The bride does not want him, even with her blue eyes and golden hair. She keeps poison beside her and swears she will drink it before she becomes his wife. Yet our king is handsome and would make a proper husband. She could hardly expect better when no one knows where she came from, and a witch sold her to him.
+        - id: ch06-b04
+          speaker: narrator
+          text: >-
+            The young king started. Could he have found her at last? His heart beat so violently that he could barely force out a question.
+        - id: ch06-b05
+          speaker: young_king
+          text: Is her name Zoulvisia?
+        - id: ch06-b06
+          speaker: cottage_woman
+          text: >-
+            Yes, that is the name she gives. Though the old witch... But what is wrong with you?
+        - id: ch06-b07
+          speaker: narrator
+          text: >-
+            The king sprang up and caught the woman's wrists.
+        - id: ch06-b08
+          speaker: young_king
+          text: Listen. Can you keep a secret?
+        - id: ch06-b09
+          speaker: cottage_woman
+          text: I can, if you pay me.
+        - id: ch06-b10
+          speaker: young_king
+          text: >-
+            You will be paid as much as you could wish. Here is one handful of gold, and you shall have another if you do exactly as I ask. Buy a dress fit for a lady at court. Find a way into the palace and reach Zoulvisia. Show her this ring. After that, she will tell you what to do.
+        - id: ch06-b11
+          speaker: narrator
+          text: >-
+            The old woman nodded and set out at once. She bought the sort of clothing worn by ladies at court, choosing a dress of yellow silk. Then she wrapped a veil closely around her head. Dressed that way, she boldly climbed the palace steps behind a group of merchants. The king had summoned them to show Zoulvisia rich gifts for the coming wedding.
+        - id: ch06-b12
+          speaker: narrator
+          text: >-
+            At first, the unwilling bride would speak to none of them. Then she saw the ring and became as meek as a lamb. She thanked the merchants and sent them away, leaving herself alone with the visitor. As soon as the door was safely shut, she spoke.
+        - id: ch06-b13
+          speaker: zoulvisia
+          text: >-
+            Grandmother, where is the man who owns this ring?
+        - id: ch06-b14
+          speaker: cottage_woman
+          text: >-
+            He is waiting for your orders in my cottage.
+        - id: ch06-b15
+          speaker: zoulvisia
+          text: >-
+            Tell him to stay there for three days. Then go to this country's king and say you have persuaded me to accept him. He will stop watching me and leave me alone. On the third day, I will walk in the garden near the river. Your guest will find me there. What happens next is my concern.
+    - id: ch07
+      title: The Horse of Fire
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: >-
+            On the morning of the third day, the first sunlight brought a great bustle to the palace. That evening, the king was to marry Zoulvisia. Servants raised tents of fine scarlet cloth, hung them with sweet-smelling white flowers, and spread the wedding feast inside.
+        - id: ch07-b02
+          speaker: narrator
+          text: >-
+            When every tent and table was ready, a procession formed to fetch the bride. Zoulvisia had wandered through the palace gardens since daybreak, just as she had planned. Crowds lined the way, waiting to see her pass. Now and then, they caught a glimpse of her golden gauze dress as she moved from one flowering thicket to another, always near the river.
+        - id: ch07-b03
+          speaker: narrator
+          text: >-
+            Suddenly, the crowd swayed and shrank back. What looked like a thunderbolt flashed from the sky to the place where Zoulvisia stood. But it was no thunderbolt. It was the horse of fire. When the people looked again, the horse was racing away with two riders on its back.
+        - id: ch07-b04
+          speaker: narrator
+          text: >-
+            Zoulvisia and her husband both learned how to hold on to happiness once they had found it. Many men and women never learn that lesson at all. And no one else can teach it. Every boy and girl must learn it for themselves.
