@@ -1,0 +1,127 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容而清醒，带一点克制的诙谐
+        timbre: 温厚清晰
+        pace: 舒缓有致
+        pitch: 中低
+    youngest_gruff:
+      display_name: 小山羊格鲁夫
+      tts:
+        delivery: 怯生生地央求，声音轻巧
+        timbre: 细嫩清亮
+        pace: 稍快
+        pitch: 高
+    second_gruff:
+      display_name: 第二只山羊格鲁夫
+      tts:
+        delivery: 小心应对，说话朴实
+        timbre: 年轻清晰
+        pace: 中等
+        pitch: 中高
+    big_gruff:
+      display_name: 大山羊格鲁夫
+      tts:
+        delivery: 勇猛强硬，毫不畏缩
+        timbre: 粗粝沙哑
+        pace: 沉稳
+        pitch: 低
+    troll:
+      display_name: 山怪
+      tts:
+        delivery: 凶狠蛮横，威吓意味强烈
+        timbre: 粗重刺耳
+        pace: 缓慢
+        pitch: 低
+  chapters:
+    - id: ch01
+      title: 桥下的山怪
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前有三只公山羊，他们全都叫格鲁夫。他们想到山坡上去，把自己养得肥肥的。上山必须经过一座横跨小溪的桥，可桥底下住着一个又大又丑的山怪。他的眼睛像碟子那么大，鼻子像拨火棍那么长。
+    - id: ch02
+      title: 最小的山羊
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 最小的山羊格鲁夫先来到桥边。他踩上桥板，脚下响起轻轻的“嗒，嗒；嗒，嗒”。山怪在桥下听见了，朝上面大吼。
+        - id: ch02-b02
+          speaker: troll
+          text: 谁在我的桥上嗒嗒地走？
+          emotion: angry
+        - id: ch02-b03
+          speaker: youngest_gruff
+          text: 是我，最小最小的山羊格鲁夫。我要到山坡上去，把自己养胖。
+        - id: ch02-b04
+          speaker: narrator
+          text: 小山羊的声音细细的。
+        - id: ch02-b05
+          speaker: troll
+          text: 那我现在就来一口吞掉你。
+        - id: ch02-b06
+          speaker: youngest_gruff
+          text: 求你别吃我！我实在太小了。等第二只山羊格鲁夫来吧，他可比我大多了。
+        - id: ch02-b07
+          speaker: troll
+          text: 好吧，快滚！
+    - id: ch03
+      title: 第二只山羊
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 过了一小会儿，第二只山羊格鲁夫也来过桥。桥板在他脚下响得更响了，“嗒，嗒！嗒，嗒！嗒，嗒！”山怪听见，又从桥下吼起来。
+        - id: ch03-b02
+          speaker: troll
+          text: 谁在我的桥上嗒嗒地走？
+          emotion: angry
+        - id: ch03-b03
+          speaker: second_gruff
+          text: 是我，第二只山羊格鲁夫。我要上山坡去，把自己养胖。
+        - id: ch03-b04
+          speaker: narrator
+          text: 这只山羊的声音可没有刚才那么细。
+        - id: ch03-b05
+          speaker: troll
+          text: 那我现在就来一口吞掉你。
+        - id: ch03-b06
+          speaker: second_gruff
+          text: 别吃我！再等一等，大山羊格鲁夫马上就来了。他比我大得多。
+        - id: ch03-b07
+          speaker: troll
+          text: 那好，快滚！
+    - id: ch04
+      title: 大山羊来了
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 就在这时，大山羊格鲁夫走了过来。“嗵，嗵！嗵，嗵！嗵，嗵！”他太沉了，压得整座桥嘎吱作响，像在呻吟。山怪听见沉重的脚步，再一次大吼。
+        - id: ch04-b02
+          speaker: troll
+          text: 谁在我的桥上咚咚地踩？
+          emotion: angry
+        - id: ch04-b03
+          speaker: big_gruff
+          text: 是我，大山羊格鲁夫！
+        - id: ch04-b04
+          speaker: narrator
+          text: 他的嗓音又粗又哑，听着可不怎么悦耳。
+        - id: ch04-b05
+          speaker: troll
+          text: 那我现在就来一口吞掉你！
+          emotion: angry
+        - id: ch04-b06
+          speaker: big_gruff
+          text: 来吧，快上前！我有两支长矛尖，能把你的眼珠戳到耳朵边。我还有两块又重又圆的冰壶石，能把你的皮肉骨头全碾烂！
+        - id: ch04-b07
+          speaker: narrator
+          text: 大山羊话音一落，便猛冲过去。他用双角戳瞎山怪的眼睛，把山怪连皮带骨撞得粉碎，又将他挑进溪水里。随后，大山羊也上了山坡。
+        - id: ch04-b08
+          speaker: narrator
+          text: 三只山羊在山坡上吃得滚圆滚胖，回家时几乎连路都走不动了。要是身上的肥肉还没掉，他们如今准还胖着呢。
+        - id: ch04-b09
+          speaker: narrator
+          text: 咔嚓，啪嗒，收起嘴巴。这个故事讲完啦。

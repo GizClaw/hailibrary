@@ -1,0 +1,130 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 亲切活泼，带着讲故事的幽默感
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中音
+    grandfather_frog:
+      display_name: 青蛙爷爷
+      tts:
+        delivery: 年长稳重，受窘时仍爱逞强
+        timbre: 浑厚圆润
+        pace: 稍慢
+        pitch: 低音
+    striped_chipmunk:
+      display_name: 花栗鼠条纹
+      tts:
+        delivery: 淘气快活，遇到新鲜事时机灵而好奇
+        timbre: 清脆明亮
+        pace: 轻快
+        pitch: 中高音
+    merry_breeze_1:
+      display_name: 第一阵快乐小微风
+      tts:
+        delivery: 热心机敏，说话轻快而坚定
+        timbre: 清亮轻盈
+        pace: 稍快
+        pitch: 高音
+    merry_breeze_2:
+      display_name: 第二阵快乐小微风
+      tts:
+        delivery: 热情直率，遇到急事语气急切
+        timbre: 明亮柔和
+        pace: 稍快
+        pitch: 中高音
+    merry_breeze_3:
+      display_name: 第三阵快乐小微风
+      tts:
+        delivery: 爽快干脆，回答时毫不迟疑
+        timbre: 轻柔清脆
+        pace: 明快
+        pitch: 高音
+    merry_breeze_4:
+      display_name: 第四阵快乐小微风
+      tts:
+        delivery: 好奇敏锐，发问时认真急迫
+        timbre: 轻细明净
+        pace: 稍快
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 第二十一章　快乐小风儿安慰青蛙爷爷
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 快乐小风儿把青蛙爷爷留在长巷里，赶紧去找他的朋友帮忙。可他们拼命赶遍了朋友们的家，又找遍了大家平常爱去的地方，连一个影子也没见着。没有谁在家，也没有谁待在平常总能找到他们的地方。小风儿找了又找，最后只好一个接一个，难过地折回长巷。他们一想到青蛙爷爷还孤零零地留在那里，心里就难受，几乎不敢回去看。
+        - id: ch01-b02
+          speaker: narrator
+          text: 等他们赶到那里，却看见花栗鼠条纹正冲着农夫布朗家的男孩不停地数落，小嘴快得像停不下来似的。
+        - id: ch01-b03
+          speakers: [merry_breeze_1, merry_breeze_2, merry_breeze_3, merry_breeze_4]
+          ensemble: chorus
+          text: 他在哪儿？
+        - id: ch01-b04
+          speaker: narrator
+          text: 花栗鼠条纹停了一下，抬手指向农夫布朗家的男孩。男孩这会儿正在草丛里翻来翻去，想找出青蛙爷爷留下的踪迹。
+        - id: ch01-b05
+          speakers: [merry_breeze_1, merry_breeze_2, merry_breeze_3, merry_breeze_4]
+          ensemble: chorus
+          text: 谁问他啦，你这个笨蛋！这么大个人，我们自己看得见。我们问的是青蛙爷爷，他在哪儿？
+        - id: ch01-b06
+          speaker: striped_chipmunk
+          text: 我哪知道。再说，我根本不在乎！
+        - id: ch01-b07
+          speaker: narrator
+          text: 这当然是假话。花栗鼠条纹可不是无情无义的家伙，他不过嘴上这么说，心里根本不是这么想。快乐小风儿全都明白。他们知道，花栗鼠条纹跟大家一样惦记青蛙爷爷，于是假装没听见那句话，也不理他那副气鼓鼓的样子。
+        - id: ch01-b08
+          speaker: narrator
+          text: 过了一会儿，花栗鼠条纹终于把经过告诉了他们。是他让青蛙爷爷重获自由，青蛙爷爷随后就朝长巷另一边的泉眼去了。快乐小风儿听到这个好消息，高兴极了，对花栗鼠条纹说了一大堆好听的话。他听着听着，连刚才还在数落农夫布朗家的男孩都忘了。
+        - id: ch01-b09
+          speaker: narrator
+          text: 小风儿欢欢喜喜地舞动起来，一路赶向泉边。他们认定青蛙爷爷到了那里一定平安无事，还满心期待着，会看见他舒舒服服地住在自己的新家里。
+        - id: ch01-b10
+          speakers: [merry_breeze_1, merry_breeze_2, merry_breeze_3, merry_breeze_4]
+          ensemble: chorus
+          text: 青蛙爷爷，你好呀！这个新家住得怎么样？
+        - id: ch01-b11
+          speaker: narrator
+          text: 他们探头望进泉里，青蛙爷爷却一声不响，只把两只凸鼓鼓的大眼睛转向他们。那双眼里满是泪水。
+        - id: ch01-b12
+          speakers: [merry_breeze_1, merry_breeze_2, merry_breeze_3, merry_breeze_4]
+          ensemble: chorus
+          text: 怎——怎么啦，青蛙爷爷？这回又出什么事了？
+          emotion: surprised
+        - id: ch01-b13
+          speaker: grandfather_frog
+          text: 咕咕隆……我出不去了。
+          emotion: sad
+        - id: ch01-b14
+          speaker: narrator
+          text: 青蛙爷爷的声音哽在喉咙里。直到这时，小风儿才第一次留意到，四周的泉壁又直又滑，青蛙爷爷待在很深很深的下面，离泉口实在太远了。他们终于明白，青蛙爷爷说得一点也没错。
+        - id: ch01-b15
+          speaker: narrator
+          text: 他们先试着把泉边长着的草吹弯下去，好让草叶垂进泉里。可没有一根草长得够长，连水面都碰不到。其实，只要停下来想一想，他们就该知道，就算草叶够得到，青蛙爷爷也没法顺着它爬上来。小风儿又想把一根大木棍抬进泉里，可木棍太沉了，他们费了劲，还是怎么也挪不动。
+        - id: ch01-b16
+          speaker: narrator
+          text: 不过，小风儿到底设法吹进去一块旧木瓦。青蛙爷爷总算有了落脚的地方，可以坐在木瓦上歇一歇，心里也稍稍好受了一点。接着，小风儿把能想到的安慰话全说了出来。他们告诉青蛙爷爷，待在泉里不会遇到什么危险，除非农夫布朗家的男孩碰巧看见了他。
+        - id: ch01-b17
+          speaker: grandfather_frog
+          text: 我怕的就是这个！他要是来喝水，肯定会看见我。这里连个能躲的地方都没有。
+          emotion: fearful
+        - id: ch01-b18
+          speaker: merry_breeze_1
+          text: 也许他根本不会来呢。
+        - id: ch01-b19
+          speaker: merry_breeze_2
+          text: 就算他来了，你也能躲到那块木瓦底下。这样，他就不会知道你在这里了。
+        - id: ch01-b20
+          speaker: narrator
+          text: 青蛙爷爷听完，顿时打起了精神。
+        - id: ch01-b21
+          speaker: grandfather_frog
+          text: 对呀！这个主意不错，我就这么办。
+          emotion: happy
+        - id: ch01-b22
+          speaker: narrator
+          text: 于是，一阵快乐小风儿答应留下来替青蛙爷爷望风，专门留意农夫布朗家的男孩。其余的小风儿再次出发，又去四处寻找愿意帮忙的人。他们一定要想办法，让青蛙爷爷摆脱眼前这个新麻烦。
