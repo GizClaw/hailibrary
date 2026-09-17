@@ -1,0 +1,149 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, legendary, and composed
+        timbre: rich and clear
+        pace: measured
+        pitch: medium
+    storyteller:
+      display_name: Story-teller
+      tts: {delivery: "earnest, expressive, and easily troubled", timbre: "mature and resonant", pace: measured, pitch: medium}
+    wife:
+      display_name: The Story-teller's Wife
+      tts: {delivery: "practical, warm, and firm", timbre: "clear and mature", pace: measured, pitch: medium}
+    angus:
+      display_name: The Lank Grey Beggarman
+      tts: {delivery: "wry, mysterious, and confidently playful", timbre: "rough and agile", pace: measured, pitch: medium-low}
+    odonnell:
+      display_name: Red Hugh O'Donnell
+      tts: {delivery: "commanding, weary, and dryly amused", timbre: "broad and deep", pace: unhurried, pitch: low}
+    chiefs_lad:
+      display_name: The Chief's Lad
+      tts: {delivery: "bold, eager, and boastful", timbre: "young and bright", pace: brisk, pitch: medium-high}
+    climbing_lad:
+      display_name: The Climbing Lad
+      tts: {delivery: "brave and impulsive", timbre: "young and clear", pace: brisk, pitch: medium}
+    leinster_king:
+      display_name: The King of Leinster
+      tts: {delivery: "regal, tired, and quick-tempered", timbre: "full and mature", pace: measured, pitch: medium-low}
+    king_doorkeeper:
+      display_name: The King's Doorkeeper
+      tts: {delivery: "watchful and respectful", timbre: "clear and steady", pace: measured, pitch: medium}
+    guard_captain:
+      display_name: Captain of the Guard
+      tts: {delivery: "blunt, dutiful, and increasingly baffled", timbre: "sturdy and rough", pace: measured, pitch: medium-low}
+    harper_one:
+      display_name: First Harper
+      tts: {delivery: "proud and hot-tempered", timbre: "sharp and mature", pace: brisk, pitch: medium}
+    harper_two:
+      display_name: Second Harper
+      tts: {delivery: "proud and hot-tempered", timbre: "clear and mature", pace: brisk, pitch: medium}
+    harper_three:
+      display_name: Third Harper
+      tts: {delivery: "proud and hot-tempered", timbre: "dark and mature", pace: brisk, pitch: medium-low}
+  chapters:
+    - id: ch01
+      title: No Story for the King
+      blocks:
+        - {id: ch01-b01, speaker: narrator, text: "When the Tuatha De Dannan ruled Ireland, a king in Leinster loved stories above all things. His favorite story-teller held a great estate on one condition: every night, before the king slept, he must tell a tale the king had never heard. The man had served to a good old age without failing once. However heavily the cares of rule weighed on the king, his tales always sent him peacefully to sleep."}
+        - {id: ch01-b02, speaker: narrator, text: "One morning the story-teller rose early and walked through his garden, searching for something new and strange. He paced over all his land, but found nothing. He could begin with a king who had three sons, or with the king of all Ireland, but he could go no farther. At last he came in late to breakfast, where his wife was waiting."}
+        - {id: ch01-b03, speaker: wife, text: "Why haven't you come to breakfast, my dear?"}
+        - {id: ch01-b04, speaker: storyteller, text: "I can't eat. In all my years serving the King of Leinster, I've never sat down to breakfast without that night's story ready. Today my mind is locked tight. What am I to do? I may as well lie down and die. When the king calls for me tonight, I'll be disgraced forever."}
+        - {id: ch01-b05, speaker: narrator, text: "Just then his wife looked through the window and pointed toward the far end of the field."}
+        - {id: ch01-b06, speaker: wife, text: "Do you see that black shape out there?"}
+        - {id: ch01-b07, speaker: storyteller, text: "I do."}
+        - {id: ch01-b08, speaker: narrator, text: "They went closer. On the ground lay a miserable old man, with a wooden leg beside him."}
+        - {id: ch01-b09, speaker: storyteller, text: "Who are you, good man?"}
+        - {id: ch01-b10, speaker: angus, text: "Who I am matters little. I'm only a poor, old, lame, worn-out creature resting here awhile."}
+        - {id: ch01-b11, speaker: storyteller, text: "Then why are you holding that box and those dice?"}
+        - {id: ch01-b12, speaker: angus, text: "I'm waiting for someone to play a game with me."}
+        - {id: ch01-b13, speaker: storyteller, text: "Play with you? What could a poor old man have to wager?"}
+        - {id: ch01-b14, speaker: angus, text: "There are a hundred gold pieces in this leather purse."}
+        - {id: ch01-b15, speaker: wife, text: "You may as well play. Perhaps the game will give you a story for tonight."}
+    - id: ch02
+      title: Four Throws of the Dice
+      blocks:
+        - {id: ch02-b01, speaker: narrator, text: "They set a smooth stone between them and cast the dice. Before long, the story-teller had lost every penny he owned."}
+        - {id: ch02-b02, speaker: storyteller, text: "May the money do you good, friend. What other luck could a fool like me expect?"}
+        - {id: ch02-b03, speaker: angus, text: "Will you play once more?"}
+        - {id: ch02-b04, speaker: storyteller, text: "Don't talk nonsense. You already have all my money."}
+        - {id: ch02-b05, speaker: angus, text: "You still have your chariot, horses, and hounds. I'll risk all the gold against them."}
+        - {id: ch02-b06, speaker: storyteller, text: "Not for all Ireland's gold! I won't risk making my lady walk home."}
+        - {id: ch02-b07, speaker: angus, text: "You might win."}
+        - {id: ch02-b08, speaker: storyteller, text: "And I might not."}
+        - {id: ch02-b09, speaker: wife, text: "Play, husband. I don't mind walking if you don't, love."}
+        - {id: ch02-b10, speaker: storyteller, text: "I've never refused you before, and I won't begin now."}
+        - {id: ch02-b11, speaker: narrator, text: "He sat down again. One throw cost him his houses, hounds, and chariot. The beggar asked for another game, but the story-teller had nothing left."}
+        - {id: ch02-b12, speaker: angus, text: "I'll wager everything I've won against your wife."}
+        - {id: ch02-b13, speaker: narrator, text: "The story-teller turned away without a word, but his wife stopped him."}
+        - {id: ch02-b14, speaker: wife, text: "Take the wager. This is the third game. Who knows how your luck may turn? Surely you'll win now."}
+        - {id: ch02-b15, speaker: narrator, text: "He played, and lost again. To his sorrow and amazement, his wife went at once and sat beside the ugly old beggar."}
+        - {id: ch02-b16, speaker: storyteller, text: "So this is how you leave me?"}
+        - {id: ch02-b17, speaker: wife, text: "He won me fairly. You wouldn't cheat a poor man, would you?"}
+        - {id: ch02-b18, speaker: angus, text: "Have you anything else to wager? I'll risk the whole lot, wife and all, against your own self."}
+        - {id: ch02-b19, speaker: narrator, text: "They cast once more, and once more the story-teller lost."}
+        - {id: ch02-b20, speaker: storyteller, text: "Well, here I am. What do you mean to do with me?"}
+        - {id: ch02-b21, speaker: angus, text: "You'll know soon enough. Would you rather be a deer, a fox, or a hare? Choose now. Later, you may not be allowed to."}
+        - {id: ch02-b22, speaker: narrator, text: "The story-teller chose the hare. The old man took out a long cord and a wand, threw the cord around him, and struck him. In an instant, a long-eared hare went frisking over the grass."}
+    - id: ch03
+      title: The Hare and the Journey
+      blocks:
+        - {id: ch03-b01, speaker: narrator, text: "His wife called the hounds and set them on him. A high wall enclosed the field, so the hare could only race, twist, and double while the beggar and the lady watched. He fled to his wife for shelter, but she kicked him back toward his own dogs. At last the beggar stopped the chase and struck him with the wand. The story-teller stood before them again, panting and breathless."}
+        - {id: ch03-b02, speaker: angus, text: "Well, how did you enjoy the sport?"}
+        - {id: ch03-b03, speaker: storyteller, text: "Others may call it sport. I could gladly do without it. Won't you tell me who you are, where you came from, and why you enjoy tormenting a poor old man?"}
+        - {id: ch03-b04, speaker: angus, text: "I'm an odd, good-for-little fellow, poor one day and rich the next. Come with me, and you may learn more about me than you ever could alone."}
+        - {id: ch03-b05, speaker: storyteller, text: "I'm no longer my own master, whether I go or stay."}
+        - {id: ch03-b06, speaker: narrator, text: "The stranger reached into his wallet and drew out a healthy middle-aged man. He ordered him to guard the lady, carriage, and horses until they were wanted. Then everything vanished. The story-teller found himself at Foxes' Ford near Red Hugh O'Donnell's castle. He could see everyone, though no one could see him."}
+    - id: ch04
+      title: Tricks at O'Donnell's Court
+      blocks:
+        - {id: ch04-b01, speaker: narrator, text: "O'Donnell sat in his hall, heavy in body and weary in spirit. At his order, a doorkeeper looked outside and saw a lank grey beggarman. A sword showed behind him. Road water sloshed in his shoes, his ears stuck through his hat, his shoulders through his ragged cloak, and he carried a green holly wand."}
+        - {id: ch04-b02, speaker: angus, text: "God save you, O'Donnell. I come from earth's farthest stream, from the glens of white swans. I spent a night in Islay, a night in Man, and a night on the cold hillside."}
+        - {id: ch04-b03, speaker: odonnell, text: "And God save you. You're a great traveler, then. What trade did you learn on the road?"}
+        - {id: ch04-b04, speaker: angus, text: "I'm a juggler. For five silver pieces, I'll show you a trick."}
+        - {id: ch04-b05, speaker: narrator, text: "O'Donnell agreed. The beggar laid three straws on his palm and promised to blow away the middle one while leaving the others. Everyone said it was impossible. He pinned the outer straws with two fingers and blew the middle one away. O'Donnell laughed and paid."}
+        - {id: ch04-b06, speaker: chiefs_lad, text: "For half that money, I can do the same."}
+        - {id: ch04-b07, speaker: narrator, text: "The lad copied him, but his fist flew away with the straw."}
+        - {id: ch04-b08, speaker: odonnell, text: "You're hurt now, and you'll be hurt worse yet."}
+        - {id: ch04-b09, speaker: narrator, text: "For six more pieces, the beggar promised to move one ear without the other. He simply pulled one ear with his hand. O'Donnell laughed and paid again. The injured lad declared anyone could do that. When he pulled, both ear and head came away. O'Donnell gave him the same warning."}
+        - {id: ch04-b10, speaker: angus, text: "Those tricks were strange, O'Donnell, but for the same price I'll show you a stranger one."}
+        - {id: ch04-b11, speaker: narrator, text: "He unwound a silk ball and tossed its thread into the blue sky, where it became a ladder. A hare ran up it, followed by a red-eared hound."}
+        - {id: ch04-b12, speaker: climbing_lad, text: "I'll follow them."}
+        - {id: ch04-b13, speaker: angus, text: "Go, then. But if my hare is killed, I'll cut off your head when you return."}
+        - {id: ch04-b14, speaker: narrator, text: "The lad climbed until all three disappeared. After a long wait, the beggar feared the hound was eating the hare while the lad slept. He wound the thread in. Down came the sleeping lad, then the hound with the hare's last morsel. The beggar cut off the lad's head and dealt no more kindly with the dog."}
+        - {id: ch04-b15, speaker: odonnell, text: "I'm deeply angered that a lad and a hound have been killed in my court."}
+        - {id: ch04-b16, speaker: angus, text: "Pay ten silver pieces for each, and their heads will be restored."}
+        - {id: ch04-b17, speaker: narrator, text: "O'Donnell paid. At once the lad and hound were whole. From then on, the lad kept his eyes open, and the hound never touched another hare. Then the beggar vanished, and no one knew whether air or earth had taken him."}
+    - id: ch05
+      title: The Harper at Leinster
+      blocks:
+        - {id: ch05-b01, speaker: narrator, text: "He sped like wave over wave, whirlwind after whirlwind, and a fierce winter blast. Without stopping, he reached the Leinster king's court and leaped lightly over city, court, and turret. The king was weary. Story time had come, but no messenger could find his story-teller. At the door stood the same ragged beggar, now carrying a three-stringed harp."}
+        - {id: ch05-b02, speaker: king_doorkeeper, text: "What can you do?"}
+        - {id: ch05-b03, speaker: angus, text: "I can play. And you, story-teller, needn't fear. You will see everything, but no man will see you."}
+        - {id: ch05-b04, speaker: narrator, text: "The king admitted him, then ordered his own celebrated harpers to perform."}
+        - {id: ch05-b05, speaker: leinster_king, text: "Have you ever heard anything finer?"}
+        - {id: ch05-b06, speaker: angus, text: "Have you heard a cat purr over broth, beetles buzz at twilight, or a sharp-tongued old woman scold you senseless? The worst of those sounds is sweeter than your finest harping."}
+        - {id: ch05-b07, speaker: narrator, text: "The furious harpers drew their swords. Yet every blow meant for the beggar struck another harper. Soon each man was cracking his neighbor's skull and having his own cracked in return."}
+        - {id: ch05-b08, speaker: leinster_king, text: "Hang the fellow who started this. If I cannot have a story, at least let me have peace."}
+        - {id: ch05-b09, speaker: narrator, text: "The guards hanged the beggar and returned. There he sat on a bench, drinking ale from a flagon."}
+        - {id: ch05-b10, speaker: guard_captain, text: "You're not welcome here! We hanged you this very minute. How are you back?"}
+        - {id: ch05-b11, speaker: angus, text: "Me? May your hand turn into a pig's foot whenever you think of tying a rope! Why speak of hanging me?"}
+        - {id: ch05-b12, speaker: narrator, text: "At the gallows, the guards found the king's favorite brother hanging instead. The king had fallen asleep when they reported it."}
+        - {id: ch05-b13, speaker: leinster_king, text: "Hang him again."}
+        - {id: ch05-b14, speaker: narrator, text: "This time they found the king's chief harper on the rope. The captain was utterly puzzled."}
+        - {id: ch05-b15, speaker: angus, text: "Would you like to hang me a third time?"}
+        - {id: ch05-b16, speaker: guard_captain, text: "Go wherever you please, as fast and as far as you can. You've caused trouble enough."}
+        - {id: ch05-b17, speaker: angus, text: "Now you're reasonable. Since you've stopped hanging strangers for criticizing music, look by the gallows. Your friends are sitting on the grass, none the worse."}
+    - id: ch06
+      title: Angus of the Bruff
+      blocks:
+        - {id: ch06-b01, speaker: narrator, text: "With those words he vanished. The story-teller stood again where they had first met. His wife waited there with carriage and horses."}
+        - {id: ch06-b02, speaker: angus, text: "I won't torment you any longer. Here are your carriage, horses, money, and wife. Do as you please with them."}
+        - {id: ch06-b03, speaker: storyteller, text: "Thank you for my carriage, houses, and hounds. You may keep my wife and money."}
+        - {id: ch06-b04, speaker: angus, text: "I want neither. Don't blame your wife. She couldn't help what she did."}
+        - {id: ch06-b05, speaker: storyteller, text: "Couldn't help kicking me toward my own hounds? Couldn't help leaving me for a beggarly old—"}
+        - {id: ch06-b06, speaker: angus, text: "I'm not so beggarly or old as you think. I am Angus of the Bruff. You've done me many good turns with the King of Leinster. My magic showed me your trouble this morning, so I came to get you out of it. The power that changed your body changed your wife's mind. Forget and forgive, as husband and wife should. And now you have a story when the king calls."}
+        - {id: ch06-b07, speaker: narrator, text: "Angus disappeared. The story-teller truly had a tale fit for a king. He told everything that had happened, from first to last. The king laughed so long and loudly that he could not sleep at all. He ordered the man never to worry about finding another new tale. Every night for the rest of his life, the king heard the story of the lank grey beggarman again, and every night he laughed afresh."}

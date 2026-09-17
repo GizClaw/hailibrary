@@ -1,0 +1,223 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: witty, reflective, and lightly theatrical
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    child_1:
+      display_name: Older Child
+      tts:
+        delivery: direct and earnest
+        timbre: clear and youthful
+        pace: conversational
+        pitch: high
+    child_2:
+      display_name: Younger Child
+      tts:
+        delivery: open and easily startled
+        timbre: soft and youthful
+        pace: conversational
+        pitch: high
+    neighbour:
+      display_name: The Nurse
+      tts:
+        delivery: practical, spirited, and plainspoken
+        timbre: warm and weathered
+        pace: conversational
+        pitch: medium
+    dark_man:
+      display_name: The Dark Man
+      tts:
+        delivery: commanding and guarded
+        timbre: dark and smooth
+        pace: measured
+        pitch: low
+    molly:
+      display_name: Molly
+      tts:
+        delivery: gentle, urgent, and sincere
+        timbre: warm and clear
+        pace: conversational
+        pitch: medium
+    john:
+      display_name: John
+      tts:
+        delivery: devoted and resolute
+        timbre: sturdy and warm
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: Molly Vanishes
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once, near Coolgarrow, there lived a small farmer named John, his wife Molly, and their three children. The youngest was still a baby when this happened. Molly was a good wife, but her thoughts stayed on the family and the farm. Whenever she knelt to pray, she nearly fell asleep, and every service at the chapel seemed twice as long as it needed to be.
+        - id: ch01-b02
+          speaker: narrator
+          text: One day she sent John and the two older children ahead to Mass while she asked a fairy man what to do for a sick cow. She reached the chapel late. John was deeply hurt, and because Molly loved him dearly, she regretted it for the rest of the day.
+        - id: ch01-b03
+          speakers: [child_1, child_2]
+          ensemble: duo
+          text: Mother! Mother!
+          emotion: fearful
+        - id: ch01-b04
+          speaker: narrator
+          text: Late that night, the children's cries woke John. He sat up and rubbed his eyes. Molly was not beside him. When he asked where she had gone, the children told him the room had filled with lovely little men and women in white, red, and green. Molly had walked among them and out through the door as if she were asleep.
+        - id: ch01-b05
+          speaker: narrator
+          text: John rushed outside and searched all around the house. But for many days, he found no sign and heard no news of her.
+        - id: ch01-b06
+          speaker: narrator
+          text: The poor man was miserable, for he loved Molly as much as she loved him. Tears ran down his cheeks when he saw how dirty and neglected the children had become. They would have been worse off without a kind neighbour who came whenever she could. The baby had been sent away with a nurse.
+    - id: ch02
+      title: A Ride in the Dark
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: About six weeks later, John was setting out for work when that kind neighbour came up beside him. She cared for women when they were ill. All the way to the field, she told him what had happened the night before.
+        - id: ch02-b02
+          speaker: neighbour
+          text: I was just falling asleep when I heard a horse trampling the grass and someone knocking at my door. I went out and found a handsome dark man on a black horse. He told me to hurry and get ready because a lady needed me badly.
+        - id: ch02-b03
+          speaker: neighbour
+          text: I put on my cloak and the rest of my things. Then he took my hand, and before I even felt myself move, I was sitting behind him on the horse.
+        - id: ch02-b04
+          speaker: neighbour
+          text: Where are we going, sir?
+        - id: ch02-b05
+          speaker: dark_man
+          text: You'll find out soon enough.
+        - id: ch02-b06
+          speaker: neighbour
+          text: He passed his fingers over my eyes, and I couldn't see a single ray of light. I held him tightly. I couldn't tell whether we were moving forward or backward, and I had no idea how long we rode. At last he took my hand again, and I felt solid ground beneath my feet.
+        - id: ch02-b07
+          speaker: neighbour
+          text: He drew his fingers back across my eyes. We were standing before a castle. He led me through the door, across a great hall, and into one grand room after another. Everything was painted a beautiful green, with bands and ornaments of red and gold. There were splendid carpets, chairs, tables, and curtains, and grand ladies and gentlemen walked everywhere.
+        - id: ch02-b08
+          speaker: neighbour
+          text: At last we entered a bedroom. A beautiful lady lay there with a fine, healthy baby boy beside her. She clapped her hands. The Dark Man came in, kissed the lady and the baby, and praised me. Then he gave me a bottle of green ointment and told me to rub it all over the child.
+    - id: ch03
+      title: What the Ointment Revealed
+      blocks:
+        - id: ch03-b01
+          speaker: neighbour
+          text: I rubbed the child, just as he told me. But my right eye began to sting, so I touched it with one ointment-covered finger. Then I stared. I had never been so frightened in my life.
+          emotion: fearful
+        - id: ch03-b02
+          speaker: neighbour
+          text: The lovely room was really a great rough cave. Water seeped over the stone edges and through the clay. The lady, the lord, and the child were shrivelled, starved-looking creatures, all skin and bone. Their rich clothes were nothing but old rags.
+        - id: ch03-b03
+          speaker: neighbour
+          text: I gave no sign that anything had changed. After a while, the Dark Man spoke to me.
+        - id: ch03-b04
+          speaker: dark_man
+          text: Go ahead to the hall door. I'll join you in a moment and see you safely home.
+        - id: ch03-b05
+          speaker: neighbour
+          text: I turned into the outer cave. And there, watching near the door, was poor Molly. She looked around in terror and whispered to me.
+        - id: ch03-b06
+          speaker: molly
+          text: They've brought me here to nurse the child of the fairy king and queen. But I have one chance to escape. Next Friday night, the whole court will pass the cross near Templeshambo on their way to visit the fairies of Old Ross.
+          emotion: fearful
+        - id: ch03-b07
+          speaker: molly
+          text: If John can catch my hand or my cloak as I ride by, and if he has the courage to keep hold of me, I'll be safe. The king is coming. Don't answer me. I saw what the ointment did.
+          emotion: fearful
+        - id: ch03-b08
+          speaker: neighbour
+          text: The Dark Man never looked toward Molly, and he didn't seem to suspect me. Once we were outside, I looked around. Would you believe it? We were in the ditch beside the Rath of Cromogue.
+        - id: ch03-b09
+          speaker: neighbour
+          text: I was put back on the horse, but now I could see it was only a great ragweed. Every moment I feared I would fall. Still, nothing happened, and soon I was standing inside my own cabin.
+        - id: ch03-b10
+          speaker: narrator
+          text: As soon as she reached the ground, the fairy king slipped five guineas into her hand.
+        - id: ch03-b11
+          speaker: dark_man
+          text: Thank you. Good night.
+        - id: ch03-b12
+          speaker: neighbour
+          text: I hope I never see his face again. I went to bed but lay awake for a long time. Before sleeping, I'd put those five guineas in the table drawer. This morning I looked at them. They had turned into five withered oak leaves. Bad luck to the giver!
+          emotion: angry
+    - id: ch04
+      title: Waiting at the Crossroads
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Think of all the fear, joy, and grief that filled poor John when the neighbour finished. They talked on and on, but their words need not keep us here. Friday night came, and the two of them stood where the mountain road crossed the road to Ross.
+        - id: ch04-b02
+          speaker: narrator
+          text: In the dead of night, they watched the road toward the bridge of Thuar. A little moonlight shone over Kilachdiarmid. Suddenly, the neighbour started.
+        - id: ch04-b03
+          speaker: neighbour
+          text: Here they come! I can hear bridles jingling and see feathers tossing!
+          emotion: surprised
+        - id: ch04-b04
+          speaker: narrator
+          text: John looked, but saw nothing. The neighbour trembled, her eyes wide as she stared down the road toward the ford of Ballinacoola.
+        - id: ch04-b05
+          speaker: neighbour
+          text: I see Molly. She's riding along the outer edge, close enough to brush against us. We'll walk quietly and pretend we suspect nothing. When we pass her, I'll give you a shove. Then you must do your part, or sorrow will come to you!
+          emotion: fearful
+    - id: ch05
+      title: Holding Fast
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: They walked forward slowly, though both their hearts were pounding. John still saw nothing. Then he heard faint jingling, trampling, and rustling. At last, the neighbour gave him the promised push.
+        - id: ch05-b02
+          speaker: narrator
+          text: John threw out his arms. Molly's waist was between them, and suddenly he could see her clearly. A wild uproar burst around him, as if the earth itself were shaking. Horrible creatures crowded close, roaring and trying to tear Molly away.
+        - id: ch05-b03
+          speaker: narrator
+          text: John made the sign of the cross. He held his wife as though his arms were made of iron.
+        - id: ch05-b04
+          speaker: john
+          text: Be gone, in God's name!
+        - id: ch05-b05
+          speaker: narrator
+          text: In one instant, everything became as quiet as the grave. Molly lay unconscious in the arms of her husband and her good neighbour.
+        - id: ch05-b06
+          speaker: narrator
+          text: In time, Molly returned to caring for her family and the farm. After such a fright, you may be sure she spent longer on her knees. She stayed away from fairy men every day of the week, and especially on Sundays.
+    - id: ch06
+      title: The Mark of the Fairies
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: It is hard to deal with the good people without carrying away some mark from them. The brave nurse did not escape one either.
+        - id: ch06-b02
+          speaker: narrator
+          text: One Thursday, she went to the market at Enniscorthy. Among the tubs of butter, she saw the Dark Man. He looked very hungry and was taking a scoop from one tub, then another.
+        - id: ch06-b03
+          speaker: neighbour
+          text: Oh, sir, I hope your lady and the baby are well.
+        - id: ch06-b04
+          speaker: dark_man
+          text: They're well enough, thank you. How do I look in my new suit?
+        - id: ch06-b05
+          speaker: narrator
+          text: He stepped to one side of her.
+        - id: ch06-b06
+          speaker: neighbour
+          text: I can't see you clearly at all from there, sir.
+        - id: ch06-b07
+          speaker: dark_man
+          text: What about now?
+        - id: ch06-b08
+          speaker: narrator
+          text: He moved behind her and came around on the other side.
+        - id: ch06-b09
+          speaker: neighbour
+          text: Well, sir, your coat looks no better than a withered dock leaf.
+        - id: ch06-b10
+          speaker: dark_man
+          text: Perhaps it will look different now.
+        - id: ch06-b11
+          speaker: narrator
+          text: He struck the eye nearest him with a switch. From that day until her death, the nurse never saw even a glimmer with that eye again.

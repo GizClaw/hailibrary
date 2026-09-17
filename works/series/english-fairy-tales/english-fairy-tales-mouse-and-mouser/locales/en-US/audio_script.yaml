@@ -1,0 +1,92 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    mouse:
+      display_name: Mouse
+      tts:
+        delivery: courteous and lilting, growing cautious as the conversation turns dangerous
+        timbre: small and clear
+        pace: medium
+        pitch: high
+    cat:
+      display_name: Cat
+      tts:
+        delivery: blunt and rough-edged, with menace gathering beneath each reply
+        timbre: low and rasping
+        pace: measured
+        pitch: low
+  chapters:
+    - id: ch01
+      title: Behind the Hall Door
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: One day, Mouse went to visit Cat and found her sitting behind the hall door, busy at her spinning.
+        - id: ch01-b02
+          speaker: mouse
+          text: What are you doing, my lady, my lady? What are you doing, my lady?
+        - id: ch01-b03
+          speaker: cat
+          text: I'm spinning old breeches, good body, good body. Old breeches are what I'm spinning, good body.
+        - id: ch01-b04
+          speaker: mouse
+          text: Then may you wear them for a long time, my lady, my lady. May you wear them for a long time, my lady.
+        - id: ch01-b05
+          speaker: cat
+          text: I'll wear them out and tear them up, good body, good body. I'll wear them and tear them, good body.
+
+    - id: ch02
+      title: The Silver Sixpence
+      blocks:
+        - id: ch02-b01
+          speaker: mouse
+          text: I was sweeping my room, my lady, my lady. I was sweeping my room, my lady.
+        - id: ch02-b02
+          speaker: cat
+          text: Then your room would be cleaner, good body, good body. Your room would be cleaner, good body.
+        - id: ch02-b03
+          speaker: mouse
+          text: While I swept, I found a silver sixpence, my lady, my lady. I found a silver sixpence, my lady.
+        - id: ch02-b04
+          speaker: cat
+          text: Then you were all the richer, good body, good body. You were all the richer, good body.
+        - id: ch02-b05
+          speaker: mouse
+          text: So I went off to the market, my lady, my lady. I went off to the market, my lady.
+        - id: ch02-b06
+          speaker: cat
+          text: Then you went all the farther, good body, good body. You went all the farther, good body.
+        - id: ch02-b07
+          speaker: mouse
+          text: And I bought myself a pudding, my lady, my lady. I bought myself a pudding, my lady.
+        - id: ch02-b08
+          speaker: cat
+          text: Then you had all the more to eat, good body, good body. You had all the more to eat, good body.
+
+    - id: ch03
+      title: The Pudding in the Window
+      blocks:
+        - id: ch03-b01
+          speaker: mouse
+          text: I set the pudding in the window to cool, my lady. I set it in the window to cool.
+        - id: ch03-b02
+          speaker: cat
+          text: Then you could eat it all the faster, good body, good body. You could eat it all the faster, good body.
+        - id: ch03-b03
+          speaker: mouse
+          text: But the cat came and ate it, my lady, my lady. The cat came and ate it, my lady.
+          emotion: fearful
+        - id: ch03-b04
+          speaker: cat
+          text: And now I'll eat you, good body, good body. Yes, now I'll eat you, good body.
+          emotion: angry
+        - id: ch03-b05
+          speaker: narrator
+          text: Cat sprang upon Mouse and killed Mouse.

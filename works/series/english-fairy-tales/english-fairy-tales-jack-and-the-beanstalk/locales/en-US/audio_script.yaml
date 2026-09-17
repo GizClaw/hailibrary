@@ -1,0 +1,356 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    jack:
+      display_name: Jack
+      tts:
+        delivery: quick-witted and daring, with openhearted youthful confidence
+        timbre: bright and clear
+        pace: medium-quick
+        pitch: medium-high
+    mother:
+      display_name: Jack's Mother
+      tts:
+        delivery: practical and careworn, turning sharp when worry overtakes her
+        timbre: mature and warm
+        pace: medium
+        pitch: medium
+    old_man:
+      display_name: Old Man
+      tts:
+        delivery: sly and playful, with an air of knowing more than he says
+        timbre: dry and weathered
+        pace: measured
+        pitch: medium-low
+    ogres_wife:
+      display_name: Ogre's Wife
+      tts:
+        delivery: blunt and wary, with kindness hidden beneath her warnings
+        timbre: deep and sturdy
+        pace: medium
+        pitch: medium-low
+    ogre:
+      display_name: Ogre
+      tts:
+        delivery: booming and threatening, with heavy deliberate force
+        timbre: massive and rough
+        pace: measured
+        pitch: very low
+    golden_harp:
+      display_name: Golden Harp
+      tts:
+        delivery: musical and piercing, ringing out with urgent loyalty
+        timbre: bright and resonant
+        pace: medium
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The Magic Beans
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, a poor widow lived with her only son, Jack, and their cow, Milky-white. Each morning the cow gave milk. They carried it to market and sold it, and that was all they had to live on. Then one morning, Milky-white gave no milk at all. Jack and his mother did not know what to do.
+        - id: ch01-b02
+          speaker: mother
+          text: What are we going to do? Oh, what are we going to do?
+          emotion: sad
+        - id: ch01-b03
+          speaker: narrator
+          text: The widow wrung her hands.
+        - id: ch01-b04
+          speaker: jack
+          text: Cheer up, Mother. I'll go somewhere and find work.
+        - id: ch01-b05
+          speaker: mother
+          text: We've tried that already, and no one would hire you. We must sell Milky-white. Then we can use the money to start a shop, or do something else with it.
+        - id: ch01-b06
+          speaker: jack
+          text: All right, Mother. Today's market day. I'll sell Milky-white quickly, and then we'll decide what to do.
+        - id: ch01-b07
+          speaker: narrator
+          text: Jack took the cow's halter and set off. Before he had gone far, he met a funny-looking old man.
+        - id: ch01-b08
+          speaker: old_man
+          text: Good morning, Jack.
+        - id: ch01-b09
+          speaker: jack
+          text: Good morning to you.
+        - id: ch01-b10
+          speaker: narrator
+          text: Jack wondered how the stranger knew his name.
+        - id: ch01-b11
+          speaker: old_man
+          text: Well, Jack, where are you going?
+        - id: ch01-b12
+          speaker: jack
+          text: I'm taking our cow to market to sell her.
+        - id: ch01-b13
+          speaker: old_man
+          text: You look like just the fellow for selling cows. But tell me, do you know how many beans make five?
+        - id: ch01-b14
+          speaker: jack
+          text: Two in each hand and one in your mouth.
+        - id: ch01-b15
+          speaker: narrator
+          text: Jack answered as sharp as a needle.
+        - id: ch01-b16
+          speaker: old_man
+          text: That's right! And here are those very beans.
+        - id: ch01-b17
+          speaker: narrator
+          text: He pulled several strange-looking beans from his pocket.
+        - id: ch01-b18
+          speaker: old_man
+          text: Since you're so clever, I'll make a trade with you. Your cow for these beans.
+        - id: ch01-b19
+          speaker: jack
+          text: Oh, wouldn't you like that!
+        - id: ch01-b20
+          speaker: old_man
+          text: Ah, but you don't know what kind of beans these are. Plant them tonight, and by morning they'll grow all the way up to the sky.
+        - id: ch01-b21
+          speaker: jack
+          text: Really? You don't mean it!
+          emotion: surprised
+        - id: ch01-b22
+          speaker: old_man
+          text: It's true. If they don't grow as I say, you may have your cow back.
+        - id: ch01-b23
+          speaker: jack
+          text: Then it's a bargain.
+        - id: ch01-b24
+          speaker: narrator
+          text: Jack handed over Milky-white's halter, slipped the beans into his pocket, and turned for home. Since he had met the old man before going very far, his journey back was short. It was not even dusk when he reached his own door.
+        - id: ch01-b25
+          speaker: mother
+          text: Back already, Jack? Milky-white is gone, so you must have sold her. How much did you get?
+        - id: ch01-b26
+          speaker: jack
+          text: You'll never guess, Mother.
+        - id: ch01-b27
+          speaker: mother
+          text: No! You did well, then. Five pounds? Ten? Fifteen? Surely it can't be twenty!
+        - id: ch01-b28
+          speaker: jack
+          text: I told you that you'd never guess. Look at these beans! They're magic. You plant them at night, and—
+        - id: ch01-b29
+          speaker: mother
+          text: What? You foolish boy! You gave away my Milky-white, the best milker in the parish and fine beef besides, for a handful of worthless beans? Take that, and that, and that! Out the window go your precious beans. Now get to bed. You won't have one sip or one bite tonight!
+          emotion: angry
+        - id: ch01-b30
+          speaker: narrator
+          text: Jack climbed to his little attic room. He was sad and sorry, as much for his mother's sake as for losing his supper. At last, he fell asleep.
+
+    - id: ch02
+      title: The Castle in the Sky
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: When Jack woke, his room looked very strange. Sunlight filled one part, but the rest was dark with shade. He jumped up, dressed, and went to the window. And what do you think he saw? The beans his mother had thrown into the garden had sprung into a huge beanstalk. It climbed up and up and up until it reached the sky. The old man had spoken the truth after all.
+        - id: ch02-b02
+          speaker: narrator
+          text: The stalk grew right past Jack's window. He only had to open it and jump onto the plant, which was woven like a huge ladder. He climbed and climbed, higher and higher, until at last he reached the sky. There he found a long, broad road running straight as a dart. He walked and walked along it until he came to a great big, tall house. A great big, tall woman stood on the doorstep.
+        - id: ch02-b03
+          speaker: jack
+          text: Good morning, ma'am. Would you please give me some breakfast?
+        - id: ch02-b04
+          speaker: narrator
+          text: Jack had eaten nothing the night before, and he was as hungry as a hunter.
+        - id: ch02-b05
+          speaker: ogres_wife
+          text: Breakfast, is it? You'll be breakfast if you don't leave. My husband is an ogre, and he likes nothing better than boys broiled on toast. Go now, before he comes home.
+        - id: ch02-b06
+          speaker: jack
+          text: Oh, please, ma'am, give me something to eat. I truly haven't eaten since yesterday morning. I might as well be broiled as die of hunger.
+        - id: ch02-b07
+          speaker: narrator
+          text: The ogre's wife was not so bad after all. She brought Jack into the kitchen and gave him a great chunk of bread and cheese with a jug of milk. Hungry as he was, Jack had not eaten even half of it when thump, thump, thump! Someone was coming, and the noise of every step made the whole house tremble.
+        - id: ch02-b08
+          speaker: ogres_wife
+          text: Goodness gracious! It's my husband. What am I going to do? Quick, jump in here!
+          emotion: fearful
+        - id: ch02-b09
+          speaker: narrator
+          text: She bundled Jack into the oven just as the ogre entered. He was an enormous creature, to be sure. Three calves hung by their heels from his belt. He unhooked all three, flung them down on the table, and called to his wife.
+        - id: ch02-b10
+          speaker: ogre
+          text: Wife, broil two of these for my breakfast. Ah! What's that I smell? Fee-fi-fo-fum! I smell the blood of an Englishman. Be he alive, or be he dead, I'll grind his bones to make my bread!
+        - id: ch02-b11
+          speaker: ogres_wife
+          text: Nonsense, dear. You're dreaming. Perhaps you smell the scraps from that little boy you enjoyed for dinner yesterday. Go wash and tidy yourself. Your breakfast will be ready when you return.
+        - id: ch02-b12
+          speaker: narrator
+          text: The ogre went away. Jack was about to leap from the oven and run, but the woman stopped him.
+        - id: ch02-b13
+          speaker: ogres_wife
+          text: Don't go yet. Wait until he's asleep. He always takes a nap after breakfast.
+        - id: ch02-b14
+          speaker: narrator
+          text: The ogre ate his breakfast. Then he opened a large chest, took out two bags of gold, and sat counting the coins. At last his head began to nod. Soon he was snoring so loudly that the whole house shook again.
+        - id: ch02-b15
+          speaker: narrator
+          text: Jack crept out of the oven on tiptoe. As he passed the sleeping ogre, he tucked one of the two bags of gold under his arm and raced from the house. He ran until he reached the beanstalk. Then he threw the bag over the edge, and down it fell, all the way into his mother's garden. Jack climbed down and down after it until at last he was home. He told his mother the whole adventure and showed her the gold.
+        - id: ch02-b16
+          speaker: jack
+          text: Well, Mother, wasn't I right about those beans? You see, they truly are magic.
+
+    - id: ch03
+      title: The Hen with the Golden Eggs
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Jack and his mother lived on the bag of gold for some time. At last, it was all gone. So Jack decided to try his luck once more at the top of the beanstalk.
+        - id: ch03-b02
+          speaker: narrator
+          text: Early one fine morning, he got onto the beanstalk and began the long climb. He climbed and climbed and climbed until at last he reached the road in the sky again. He followed it back to the same great big, tall house. Sure enough, the great big, tall woman was standing on the doorstep.
+        - id: ch03-b03
+          speaker: jack
+          text: Good morning, ma'am. Would you be kind enough to give me something to eat?
+        - id: ch03-b04
+          speaker: ogres_wife
+          text: Go away, my boy, or my husband will eat you for breakfast. Wait. Aren't you the youngster who came here before? That very day, one of my husband's bags of gold went missing.
+        - id: ch03-b05
+          speaker: jack
+          text: How strange. I might be able to tell you something about that, but I'm too hungry to speak until I've eaten.
+        - id: ch03-b06
+          speaker: narrator
+          text: The great tall woman was terribly curious to hear what Jack might know. She let him in and gave him something to eat. Jack had scarcely begun. He munched each bite as slowly as he possibly could, but then came the familiar thump, thump, thump of the ogre's footsteps. His wife hurried Jack back into the oven.
+        - id: ch03-b07
+          speaker: narrator
+          text: Everything happened as before. The ogre came in, cried, “Fee-fi-fo-fum,” and ate three broiled oxen for breakfast. Then he called to his wife.
+        - id: ch03-b08
+          speaker: ogre
+          text: Wife, bring me the hen that lays the golden eggs.
+        - id: ch03-b09
+          speaker: narrator
+          text: She brought the hen to him.
+        - id: ch03-b10
+          speaker: ogre
+          text: Lay!
+        - id: ch03-b11
+          speaker: narrator
+          text: The hen laid an egg made entirely of gold. Then the ogre's head began to nod, and soon his snores shook the house.
+        - id: ch03-b12
+          speaker: narrator
+          text: Jack slipped from the oven on tiptoe, caught hold of the wonderful hen, and ran. He was away before you could say “Jack Robinson.” This time, though, the hen let out a loud cackle. The sound woke the ogre. Just as Jack escaped through the door, he heard a roar from inside the house.
+        - id: ch03-b13
+          speaker: ogre
+          text: Wife! Wife! What have you done with my golden hen?
+          emotion: angry
+        - id: ch03-b14
+          speaker: ogres_wife
+          text: Why, my dear?
+        - id: ch03-b15
+          speaker: narrator
+          text: That was all Jack heard. He rushed to the beanstalk and climbed down like a house on fire. At home, he showed his mother the marvelous hen.
+        - id: ch03-b16
+          speaker: jack
+          text: Lay!
+        - id: ch03-b17
+          speaker: narrator
+          text: Each time Jack gave that command, the hen laid a golden egg.
+
+    - id: ch04
+      title: The Golden Harp
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Still, Jack was not content. Before long, he decided to test his luck once again at the top of the beanstalk. One fine morning he rose early and climbed all the way to the top.
+        - id: ch04-b02
+          speaker: narrator
+          text: This time, Jack knew better than to walk straight to the ogre's house. He hid behind a bush nearby. When the ogre's wife came out carrying a pail for water, Jack crept inside and hid in the copper.
+        - id: ch04-b03
+          speaker: narrator
+          text: He had not waited long when the old thump, thump, thump sounded again. The ogre and his wife came in.
+        - id: ch04-b04
+          speaker: ogre
+          text: Fee-fi-fo-fum! I smell the blood of an Englishman. I smell him, wife. I smell him!
+        - id: ch04-b05
+          speaker: ogres_wife
+          text: Do you, dear? If it's that little rogue who stole your gold and your golden hen, he'll be hiding in the oven.
+        - id: ch04-b06
+          speaker: narrator
+          text: They both rushed to the oven. Luckily, Jack was not there.
+        - id: ch04-b07
+          speaker: ogres_wife
+          text: There you go again with your fee-fi-fo-fum. Of course you smell the boy you caught last night. I broiled him for your breakfast. How forgetful of me—and how careless of you, when you can't tell a live boy from a dead one!
+        - id: ch04-b08
+          speaker: narrator
+          text: The ogre sat down and ate his breakfast. Every now and then, he muttered to himself.
+        - id: ch04-b09
+          speaker: ogre
+          text: I could have sworn...
+        - id: ch04-b10
+          speaker: narrator
+          text: Then he would rise from the table and search the larder. He opened the cupboards and looked through everything else he could think of. Each time, Jack stayed hidden. Luckily, the ogre never thought to lift the lid of the copper.
+        - id: ch04-b11
+          speaker: narrator
+          text: When breakfast was over, the ogre shouted for his wife.
+        - id: ch04-b12
+          speaker: ogre
+          text: Wife! Wife! Bring me my golden harp.
+        - id: ch04-b13
+          speaker: narrator
+          text: She brought the harp and set it on the table before him.
+        - id: ch04-b14
+          speaker: ogre
+          text: Sing!
+        - id: ch04-b15
+          speaker: narrator
+          text: The golden harp sang beautifully. It sang on and on until the ogre fell asleep and began to snore like thunder.
+        - id: ch04-b16
+          speaker: narrator
+          text: Very quietly, Jack raised the copper lid. He climbed down as softly as a mouse and crawled on his hands and knees to the table. Then he sprang up, snatched the golden harp, and dashed for the door.
+        - id: ch04-b17
+          speaker: golden_harp
+          text: Master! Master!
+        - id: ch04-b18
+          speaker: narrator
+          text: The harp's loud cry woke the ogre. He opened his eyes just in time to see Jack running away with it.
+
+    - id: ch05
+      title: Down the Beanstalk
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Jack ran as fast as he could, and the ogre came thundering after him. The ogre would soon have caught him, but Jack had started first. He dodged this way and that, and he knew exactly where the road would take him. That small advantage kept him ahead.
+        - id: ch05-b02
+          speaker: narrator
+          text: When Jack reached the beanstalk, the ogre was no more than twenty yards behind. Jack suddenly vanished over the edge. At the end of the road, the ogre looked down and saw him climbing for his life.
+        - id: ch05-b03
+          speaker: narrator
+          text: The ogre did not trust that strange ladder. He stood there waiting, and Jack gained more distance.
+        - id: ch05-b04
+          speaker: golden_harp
+          text: Master! Master!
+        - id: ch05-b05
+          speaker: narrator
+          text: At the harp's cry, the ogre swung himself onto the beanstalk. It shook beneath his weight. Down climbed Jack, and down came the ogre after him.
+        - id: ch05-b06
+          speaker: narrator
+          text: Jack climbed down and down until he was almost home. Then he called with all his might.
+        - id: ch05-b07
+          speaker: jack
+          text: Mother! Mother! Bring me an axe! Bring me an axe!
+        - id: ch05-b08
+          speaker: narrator
+          text: His mother came rushing from the house with the axe in her hand. But when she reached the foot of the beanstalk, she stopped stock-still with fright. She looked up and saw the huge ogre climbing down toward them. He had already appeared below the clouds.
+        - id: ch05-b09
+          speaker: narrator
+          text: Jack jumped to the ground, seized the axe, and chopped the beanstalk halfway through. The ogre felt it shake and quiver. He stopped to see what was wrong.
+        - id: ch05-b10
+          speaker: narrator
+          text: Jack swung the axe again. The beanstalk split in two and began to topple. The ogre fell, broke his crown, and the beanstalk crashed down after him.
+        - id: ch05-b11
+          speaker: narrator
+          text: Then Jack showed his mother the golden harp. With the harp to show and the golden eggs to sell, Jack and his mother became very rich.
+        - id: ch05-b12
+          speaker: narrator
+          text: Jack married a great princess, and they lived happily ever after.

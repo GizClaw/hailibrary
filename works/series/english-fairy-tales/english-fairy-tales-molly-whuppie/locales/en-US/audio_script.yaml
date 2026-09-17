@@ -1,0 +1,237 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    molly_whuppie:
+      display_name: Molly Whuppie
+      tts:
+        delivery: quick-witted and bold, with crisp confidence
+        timbre: bright and clear
+        pace: medium-fast
+        pitch: medium-high
+    eldest_sister:
+      display_name: Eldest Sister
+      tts:
+        delivery: gentle and earnest, with a cautious manner
+        timbre: light and clear
+        pace: medium
+        pitch: medium-high
+    second_sister:
+      display_name: Second Sister
+      tts:
+        delivery: soft-spoken and sincere, with quiet alertness
+        timbre: clear and youthful
+        pace: medium
+        pitch: medium-high
+    giant_wife:
+      display_name: Giant's Wife
+      tts:
+        delivery: plainspoken and wary, with a rough domestic warmth
+        timbre: full and weathered
+        pace: medium
+        pitch: medium-low
+    giant:
+      display_name: Giant
+      tts:
+        delivery: booming and threatening, with heavy deliberate force
+        timbre: deep and coarse
+        pace: slow
+        pitch: very low
+    king:
+      display_name: King
+      tts:
+        delivery: stately and direct, with measured authority
+        timbre: resonant and clear
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The House in the Wood
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, a man and his wife had more children than they could feed. They took their three youngest daughters into a wood and left them there.
+        - id: ch01-b02
+          speaker: narrator
+          text: The girls walked on and on without seeing a single house. Darkness began to fall, and they were hungry. At last, they saw a light. They hurried toward it and found a house.
+        - id: ch01-b03
+          speaker: narrator
+          text: They knocked, and a woman opened the door.
+        - id: ch01-b04
+          speaker: giant_wife
+          text: What is it you want?
+        - id: ch01-b05
+          speakers: [eldest_sister, second_sister, molly_whuppie]
+          ensemble: chorus
+          text: Please let us come in and give us something to eat.
+        - id: ch01-b06
+          speaker: giant_wife
+          text: I can't. My man is a giant. If he comes home and finds you here, he'll kill you.
+        - id: ch01-b07
+          speaker: narrator
+          text: The girls begged her to help them.
+        - id: ch01-b08
+          speakers: [eldest_sister, second_sister, molly_whuppie]
+          ensemble: chorus
+          text: Just let us stay a little while. We'll leave before he comes back.
+        - id: ch01-b09
+          speaker: narrator
+          text: So the woman brought them inside. She sat them by the fire and gave them bread and milk. They had only begun to eat when a great knock shook the door, and a dreadful voice called out.
+        - id: ch01-b10
+          speaker: giant
+          text: Fee, fie, fo, fum! I smell the blood of some earthly one. Who have you got in there, wife?
+        - id: ch01-b11
+          speaker: giant_wife
+          text: Oh, it's only three poor girls. They're cold and hungry, and they'll soon be gone. You won't touch them, man.
+        - id: ch01-b12
+          speaker: narrator
+          text: The giant said no more. He ate a huge supper, then ordered the girls to stay for the night. He had three daughters of his own, and the strangers were to share their bed.
+
+    - id: ch02
+      title: The Gold Chains
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Molly Whuppie was the youngest of the three strangers, and she was very clever. Before they went to bed, she watched the giant tie straw ropes around her neck and her sisters' necks. Around his own daughters' necks, he fastened gold chains.
+        - id: ch02-b02
+          speaker: narrator
+          text: Molly stayed awake until everyone else was sound asleep. Then she climbed quietly from the bed. She removed the straw ropes from herself and her sisters, and took the gold chains from the giant's daughters. She put the straw ropes on those three girls and the gold chains on herself and her sisters. Then she lay down again.
+        - id: ch02-b03
+          speaker: narrator
+          text: In the middle of the night, the giant rose with a great club in his hands. The room was dark. He felt for the necks wearing straw ropes, dragged his own daughters onto the floor, and beat them to death. Thinking he had done very well, he went back to bed.
+        - id: ch02-b04
+          speaker: narrator
+          text: Molly knew it was time to get away. She woke her sisters and warned them to make no sound. All three slipped safely out of the house. They ran without stopping until morning, when a grand house appeared ahead of them.
+        - id: ch02-b05
+          speaker: narrator
+          text: It was a king's house. Molly went inside and told the king the whole story, from being left in the wood to escaping from the giant.
+        - id: ch02-b06
+          speaker: king
+          text: You are a clever girl, Molly, and you've done well. But do better still. Go back and steal the sword hanging behind the giant's bed, and I'll give my eldest son in marriage to your eldest sister.
+        - id: ch02-b07
+          speaker: molly_whuppie
+          text: I'll try.
+
+    - id: ch03
+      title: The Giant's Sword
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Molly returned to the giant's house. She slipped inside and hid beneath the bed. The giant came home, ate another enormous supper, and went to sleep.
+        - id: ch03-b02
+          speaker: narrator
+          text: When he began to snore, Molly crept out. She reached across him and lifted down the sword. But as she drew it over the bed, it rattled. The giant sprang up. Molly dashed through the door with the sword, and the giant raced after her.
+        - id: ch03-b03
+          speaker: narrator
+          text: They ran until they reached the Bridge of One Hair. Molly crossed it, but the giant could not.
+        - id: ch03-b04
+          speaker: giant
+          text: Woe to you, Molly Whuppie! Never come back here again!
+          emotion: angry
+        - id: ch03-b05
+          speaker: molly_whuppie
+          text: Twice more, old man, I'll come to Spain!
+        - id: ch03-b06
+          speaker: narrator
+          text: Molly carried the sword to the king, and her eldest sister married his eldest son.
+
+    - id: ch04
+      title: The Purse Beneath the Pillow
+      blocks:
+        - id: ch04-b01
+          speaker: king
+          text: You've done well, Molly. Now do better. Steal the purse beneath the giant's pillow, and I'll marry your second sister to my second son.
+        - id: ch04-b02
+          speaker: molly_whuppie
+          text: I'll try.
+        - id: ch04-b03
+          speaker: narrator
+          text: Molly set off for the giant's house once more. She slipped in and hid beneath the bed. After the giant had eaten his supper and fallen sound asleep, she crept out and slid her hand under his pillow. She pulled out the purse.
+        - id: ch04-b04
+          speaker: narrator
+          text: Just as Molly was leaving, the giant woke and chased her. On they ran to the Bridge of One Hair. Molly crossed safely, but once again the giant could not follow.
+        - id: ch04-b05
+          speaker: giant
+          text: Woe to you, Molly Whuppie! Never come back here again!
+          emotion: angry
+        - id: ch04-b06
+          speaker: molly_whuppie
+          text: Once more, old man, I'll come to Spain!
+        - id: ch04-b07
+          speaker: narrator
+          text: Molly brought the purse to the king, and her second sister married the king's second son.
+
+    - id: ch05
+      title: The Giant's Ring
+      blocks:
+        - id: ch05-b01
+          speaker: king
+          text: Molly, you are a clever girl. But do better one last time. Steal the ring from the giant's finger, and I'll give you my youngest son for your own husband.
+        - id: ch05-b02
+          speaker: molly_whuppie
+          text: I'll try.
+        - id: ch05-b03
+          speaker: narrator
+          text: Back Molly went to the giant's house, and again she hid beneath his bed. Before long, the giant came home. He ate a great supper, climbed into bed, and was soon snoring loudly.
+        - id: ch05-b04
+          speaker: narrator
+          text: Molly crept out and reached across the bed for his hand. She pulled and pulled until the ring came free. But the moment it slipped off, the giant woke and seized her by the hand.
+        - id: ch05-b05
+          speaker: giant
+          text: Now I've caught you, Molly Whuppie. If I'd hurt you as much as you've hurt me, what would you do to me?
+        - id: ch05-b06
+          speaker: molly_whuppie
+          text: I'd put you in a sack with the cat and the dog. I'd put in a needle, thread, and shears. Then I'd hang the sack on the wall, go into the wood, and choose the thickest stick I could find. When I came home, I'd take you down and beat you until you were dead.
+        - id: ch05-b07
+          speaker: giant
+          text: Well, Molly, that is exactly what I'll do to you.
+        - id: ch05-b08
+          speaker: narrator
+          text: The giant fetched a sack. He put Molly inside with the cat, the dog, a needle, thread, and shears. Then he hung the sack on the wall and went into the wood to choose a stick.
+        - id: ch05-b09
+          speaker: molly_whuppie
+          text: Oh, if only you could see what I see!
+        - id: ch05-b10
+          speaker: giant_wife
+          text: What can you see, Molly?
+        - id: ch05-b11
+          speaker: narrator
+          text: Molly gave her no answer. She only sang the same words again.
+        - id: ch05-b12
+          speaker: molly_whuppie
+          text: Oh, if only you could see what I see!
+        - id: ch05-b13
+          speaker: narrator
+          text: The giant's wife begged Molly to lift her into the sack so that she could see it too. Molly cut a hole with the shears, climbed out with the needle and thread, and helped the woman into the sack. Then she sewed the hole shut.
+        - id: ch05-b14
+          speaker: narrator
+          text: The woman saw nothing and asked to be let down, but Molly paid no attention. She hid behind the door.
+        - id: ch05-b15
+          speaker: narrator
+          text: The giant returned carrying a great tree. He took down the sack and began to batter it.
+        - id: ch05-b16
+          speaker: giant_wife
+          text: It's me, man!
+          emotion: fearful
+        - id: ch05-b17
+          speaker: narrator
+          text: But the dog barked and the cat mewed, so the giant did not recognize his wife's voice. Then Molly stepped out from behind the door. The giant saw her and gave chase.
+        - id: ch05-b18
+          speaker: narrator
+          text: He ran and she ran until they came to the Bridge of One Hair. Molly crossed it. The giant could not.
+        - id: ch05-b19
+          speaker: giant
+          text: Woe to you, Molly Whuppie! Never come back here again!
+          emotion: angry
+        - id: ch05-b20
+          speaker: molly_whuppie
+          text: Never again, old man! I'll never come back to Spain.
+        - id: ch05-b21
+          speaker: narrator
+          text: Molly took the ring to the king. She married his youngest son, and she never saw the giant again.

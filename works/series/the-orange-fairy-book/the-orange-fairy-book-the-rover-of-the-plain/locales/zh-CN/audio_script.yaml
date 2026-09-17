@@ -1,0 +1,379 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 沉稳有力，带古老传说的庄重感
+        timbre: 温厚清晰
+        pace: 舒缓而富有张力
+        pitch: 中低
+    young_man:
+      display_name: 年轻人
+      tts:
+        delivery: 执拗直率，经历悲剧后沉痛低落
+        timbre: 清朗结实
+        pace: 适中
+        pitch: 中
+    father:
+      display_name: 年轻人的父亲
+      tts:
+        delivery: 务实严肃，劝诫时语重心长
+        timbre: 苍老浑厚
+        pace: 稍慢
+        pitch: 低
+    mother:
+      display_name: 年轻人的母亲
+      tts:
+        delivery: 务实稳重，言语直接
+        timbre: 温厚清晰
+        pace: 适中
+        pitch: 中低
+    bride:
+      display_name: 新娘
+      tts:
+        delivery: 坚决能干，悲痛时哀切而急迫
+        timbre: 明亮有力
+        pace: 适中
+        pitch: 中高
+    bride_father:
+      display_name: 新娘的父亲
+      tts:
+        delivery: 世故郑重，劝女儿时忧心恳切
+        timbre: 苍老厚实
+        pace: 稍慢
+        pitch: 低
+    bride_mother:
+      display_name: 新娘的母亲
+      tts:
+        delivery: 精明操持，劝说时急切关怀
+        timbre: 成熟圆润
+        pace: 适中
+        pitch: 中
+    rover:
+      display_name: 平原漫游者
+      tts:
+        delivery: 忠厚顺从，饥饿时虚弱克制
+        timbre: 深沉粗厚
+        pace: 稍慢
+        pitch: 低
+    villager_1:
+      display_name: 村民甲
+      tts:
+        delivery: 直爽响亮，随众人同声应和
+        timbre: 粗实清楚
+        pace: 适中
+        pitch: 中低
+    villager_2:
+      display_name: 村民乙
+      tts:
+        delivery: 质朴直接，随众人同声应和
+        timbre: 明亮结实
+        pace: 适中
+        pitch: 中
+    villager_3:
+      display_name: 村民丙
+      tts:
+        delivery: 情绪鲜明，随众人同声应和
+        timbre: 清晰偏高
+        pace: 适中
+        pitch: 中高
+    mother_in_law:
+      display_name: 婆婆
+      tts:
+        delivery: 严厉操心，责备中带着关切
+        timbre: 成熟厚实
+        pace: 适中
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 远方来的新娘
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 很久以前，遥远的东非海岸附近住着一对夫妻。他们有一儿一女，对两个孩子都十分疼爱，也像别处的父母一样，总爱谈起孩子将来能有怎样的好姻缘。那里无论男孩女孩，成婚都早。在母亲看来，好像没过多久，大山另一边的一个富人就捎来口信，愿用一群肥壮的牛迎娶他们的女儿。家里和村里人人欢喜，姑娘就这样去了新家。等热闹过去，父亲便对儿子提起婚事。
+        - id: ch01-b02
+          speaker: father
+          text: 咱们如今有这么一大群好牛，你也赶快娶个妻子吧，免得牛群染病。附近有一两个姑娘，只用不到一半的牛就能娶来。你喜欢谁，我们替你去说。
+        - id: ch01-b03
+          speaker: young_man
+          text: 我见过的姑娘都不中意。真要娶妻，就让我自己出门去找。
+        - id: ch01-b04
+          speakers: [father, mother]
+          ensemble: duo
+          text: 那就依你。可日后出了麻烦，错在你，不在我们。
+        - id: ch01-b05
+          speaker: narrator
+          text: 年轻人不肯听劝，辞别父母上了路。他走了很远很远，翻过群山，渡过河流，终于来到一个村庄。那里的人和他的族人全然不同。他四下打量，只见姑娘们生得好看，有的舂玉米，有的守着陶锅炖煮食物。那香味对一个又热又累的旅人尤其诱人。有位姑娘回过头，请这个异乡人吃了顿饭。他立刻拿定主意，自己非她不娶。
+        - id: ch01-b06
+          speaker: narrator
+          text: 他托人向姑娘的父母求婚。第二天，老夫妻带来了答复。
+        - id: ch01-b07
+          speakers: [bride_father, bride_mother]
+          ensemble: duo
+          text: 你若出得起好聘礼，我们就把女儿嫁给你。再没有比她更勤快的姑娘了，她一走，我们真不知道怎么过日子。不过，你父母总会亲自送聘礼来吧？
+        - id: ch01-b08
+          speaker: young_man
+          text: 不必，我已经带来了。金币都在这里，请收下。
+        - id: ch01-b09
+          speaker: narrator
+          text: 年轻人把一把金币放在地上，叫他们尽管拿去。老夫妻的眼睛顿时闪出贪婪的光。不过按规矩，婚事没有全部说定以前，他们还不能碰这份聘礼。
+        - id: ch01-b10
+          speakers: [bride_father, bride_mother]
+          ensemble: duo
+          text: 那么，至少请你父母来接新娘吧？
+        - id: ch01-b11
+          speaker: young_man
+          text: 他们不惯于远行。婚礼马上办吧，我们得立刻启程，路还远着呢。
+        - id: ch01-b12
+          speaker: narrator
+          text: 父母唤来正在茅屋外晒太阳的姑娘。当着全村人的面，他们宰了一只山羊，跳过神圣的舞，又把祝福送给一对新人。婚礼结束后，父亲把新娘领到一旁。照规矩，女儿出嫁以前，该由父亲教她婚后如何持家做人。
+        - id: ch01-b13
+          speaker: bride_father
+          text: 好好侍奉丈夫的父母，凡事听丈夫的话。
+        - id: ch01-b14
+          speaker: narrator
+          text: 姑娘顺从地点头。接着，母亲照族里的规矩问她。
+        - id: ch01-b15
+          speaker: bride_mother
+          text: 你想带哪个妹妹去？她可以替你砍柴挑水。
+        - id: ch01-b16
+          speaker: bride
+          text: 一个也不要。她们都不中用，不是掉了柴，就是洒了水。
+        - id: ch01-b17
+          speaker: bride_mother
+          text: 那么带别的孩子呢？家里有的是孩子。
+        - id: ch01-b18
+          speaker: bride
+          text: 谁也不要！把咱家的水牛平原漫游者给我。只有他能服侍我。
+        - id: ch01-b19
+          speakers: [bride_father, bride_mother]
+          ensemble: duo
+          text: 这是什么傻话！全家人的性命都系在平原漫游者身上。他在这里有好草吃，也睡得舒服。到了别国，万一没有好草，他会饿死。他若死了，我们也活不成。
+          emotion: fearful
+        - id: ch01-b20
+          speaker: bride
+          text: 不会的，我能照顾好他。太阳快下山了，叫他准备上路吧。
+        - id: ch01-b21
+          speaker: narrator
+          text: 她转身收拾了一小罐治病的药草、一只给病人医治时用的角、一把小刀，还有一个装着鹿油的葫芦。她把这些东西偷偷藏在身上，辞别父母，陪丈夫翻山而去。年轻人没有看见，那头水牛也离开了自己的家，一路跟在后面，要给他的妻子当仆役。
+    - id: ch02
+      title: 水牛仆役
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 谁也不知消息怎样传回了年轻人的村子。夫妻俩进村时，男女老少都站在路上欢呼迎接。
+        - id: ch02-b02
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
+          text: 原来你还活着！咱们村的姑娘你谁也不要，总算找到了中意的妻子。路是你自己挑的，日后有祸事，可别埋怨别人。
+        - id: ch02-b03
+          speaker: narrator
+          text: 第二天，丈夫带妻子去看田地，仔细指给她哪些属于自己，哪些属于母亲。姑娘把他说的话全听在心里，陪他往回走。两人来到茅屋门前，她忽然停住了。
+        - id: ch02-b04
+          speaker: bride
+          text: 我的珠串项链掉在田里了，我得回去找。
+        - id: ch02-b05
+          speaker: narrator
+          text: 她其实什么也没丢，只想借机寻找水牛。水牛正伏在树下，一见她就快活地喷起鼻息。
+        - id: ch02-b06
+          speaker: bride
+          text: 这几块田都是我丈夫的，你可以随便走。那片树林也归他，你就藏在那里。其余的田属于他母亲，千万别碰。
+        - id: ch02-b07
+          speaker: rover
+          text: 我会当心。
+        - id: ch02-b08
+          speaker: narrator
+          text: 姑娘拍了拍他的头便走了。这个仆役，比她不肯带来的任何一个小姑娘都能干。要水时，她只需穿过茅屋后面的玉米地，找到水牛藏身的地方，把桶放在他身边。她自己舒舒服服地坐着，水牛会走到湖边，带回满得快要溢出来的一桶水。要柴时，水牛便从树上折下枝条，整齐堆在她脚边。村民看她背着那么多东西回来，都觉得不可思议。
+        - id: ch02-b09
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
+          text: 她家乡的姑娘一定格外强壮。咱们这里谁也不能这么快砍好柴，还背回这么多！
+        - id: ch02-b10
+          speaker: narrator
+          text: 谁也不知道，她有水牛做仆役。可这么长时间里，她始终没给可怜的水牛一点吃的。新家只有一个盘子，她和丈夫得共用；在故乡，却另有一只盘子专供平原漫游者吃饭。水牛忍了又忍。终于有一天，女主人又叫他去湖边取水时，他已经饿得两膝发软，差点倒下。白天他仍旧一声不响，到了傍晚才终于开口。
+        - id: ch02-b11
+          speaker: rover
+          text: 我快饿死了。来到这里以后，一口东西也没吃过。我再也干不动活了。
+        - id: ch02-b12
+          speaker: bride
+          text: 唉，我能怎么办？屋里只有一只盘子。你到田里偷些豆子吧。这边吃一点，那边吃一点，别在同一个地方吃得太多，免得田主发现。
+        - id: ch02-b13
+          speaker: narrator
+          text: 水牛一向过着诚实本分的日子，可主人既然不喂他，他只能自己找吃的。夜深以后，等全村人都睡熟了，他才走出树林，东吃几颗豆，西吃几颗豆，严格照着女主人的吩咐，不在一处多吃。直到肚子填饱，他才悄悄爬回藏身处。然而水牛终究不是仙灵，走过田地总会留下痕迹。第二天，女人们来到田里，一眼就看出了异样。
+        - id: ch02-b14
+          speakers: [villager_2, villager_3]
+          ensemble: duo
+          text: 快看！野兽糟蹋了庄稼，地上还有他的脚印！
+          emotion: surprised
+        - id: ch02-b15
+          speaker: narrator
+          text: 她们急忙回村报信。傍晚，姑娘偷偷去见水牛。
+        - id: ch02-b16
+          speaker: bride
+          text: 他们已经看出来了。今晚到远一点的地方找吃的吧。
+        - id: ch02-b17
+          speaker: narrator
+          text: 水牛点头，照她的主意去更远的田里吃豆。可是第二天，那里的女人来干活，又看见了清清楚楚的蹄印。她们赶忙告诉丈夫，请男人们带上枪，守候偷庄稼的贼。姑娘的丈夫恰好枪法全村最好，便藏在一棵大树的树干后静静等着。水牛心想，人们多半会搜查昨晚遭殃的田地，于是反而回到女主人家的豆田。年轻人惊讶地看见他走来。
+        - id: ch02-b18
+          speaker: young_man
+          text: 咦，是水牛！这个地方从来没见过水牛！
+          emotion: surprised
+        - id: ch02-b19
+          speaker: narrator
+          text: 他举枪瞄准水牛耳后。水牛猛地跃上半空，随后重重摔回地面，倒在那里死去了。
+        - id: ch02-b20
+          speaker: young_man
+          text: 真是漂亮的一枪。
+        - id: ch02-b21
+          speaker: narrator
+          text: 他跑回村子，把漂亮的一枪告诉大家，说偷庄稼的贼已经受罚。等他走进自己的茅屋，却看见妻子不知怎么早已听到消息。她扭动着身子，眼泪流个不停。
+        - id: ch02-b22
+          speaker: young_man
+          text: 你病了吗？
+        - id: ch02-b23
+          speaker: bride
+          text: 是的，我浑身都疼。
+        - id: ch02-b24
+          speaker: narrator
+          text: 她并没有病，只是那头水牛一直忠心服侍她，如今死了，她悲痛极了。丈夫十分担忧，连忙请来巫医。她装作认真听巫医说话，等人一走，立刻把他留下的药全扔出了门。
+    - id: ch03
+      title: 三次复活
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 天刚露出第一线晨光，全村人便醒了。女人提着篮子，男人拿着刀，一同出发去分割水牛。只有姑娘留在茅屋里。过了一阵，她也走了出去，一路呻吟哭泣，赶到众人身边。
+        - id: ch03-b02
+          speaker: young_man
+          text: 你怎么来了？既然病了，就该待在家里。
+        - id: ch03-b03
+          speaker: bride
+          text: 我不能一个人留在村里。
+        - id: ch03-b04
+          speaker: narrator
+          text: 婆婆停下手里的活儿，走过来责骂她，说她这样胡来会把自己害死。姑娘根本不肯听，只在一旁坐下，看着众人动手。牛肉分完以后，每个女人都把一家人的那份装进自己的篮子。异乡来的妻子这才站起身。
+        - id: ch03-b05
+          speaker: bride
+          text: 把水牛头给我。
+        - id: ch03-b06
+          speakers: [villager_1, villager_2]
+          ensemble: duo
+          text: 那么重，你拿不动。何况你还病着。
+        - id: ch03-b07
+          speaker: bride
+          text: 你们不知道我有多大力气。
+        - id: ch03-b08
+          speaker: narrator
+          text: 众人拗不过她，终于把水牛头交了出来。她没有和其他人一道回村，而是故意落在后面。到了家，她也没有走进茅屋，反倒悄悄溜进一座存放炊具和玉米的小棚，把水牛头放下，坐在旁边。丈夫来找她，求她离开棚子回去睡觉，说她一定已经累坏了。婆婆也过来劝她，她却怎么都不肯走。
+        - id: ch03-b09
+          speaker: bride
+          text: 让我清静一会儿！总有人进来，我怎么睡得着？
+          emotion: angry
+        - id: ch03-b10
+          speaker: narrator
+          text: 她背过身去，连家人送来的食物也不肯吃。丈夫和婆婆只好离开。年轻人很快躺上草席，却被妻子的怪异举动搅得整夜不安，一直侧耳听着外面的动静。等四周彻底安静，姑娘生起火，在锅里把水烧滚，再撒进从家乡带来的药。她拿起水牛头，用小刀在耳后和中弹的太阳穴附近划开几道伤口。然后，她把那只角贴在伤处，用尽全力吹气，直到血终于重新流动。接着，她从葫芦里取出鹿油涂在伤口上，又把伤处放在热水蒸气上熏。做完这一切，她压低声音，为平原漫游者唱起挽歌。
+        - id: ch03-b11
+          speaker: narrator
+          text: 最后一句歌声落下，水牛头动了，四肢也回到身上。水牛渐渐活转，摇摇双角，站起来舒展身体。偏偏就在这时，丈夫心里起了念头。
+        - id: ch03-b12
+          speaker: young_man
+          text: 不知道她还哭不哭，到底怎么了？我还是去看看吧。
+        - id: ch03-b13
+          speaker: narrator
+          text: 他起身呼唤妻子，朝棚子走去。
+        - id: ch03-b14
+          speaker: bride
+          text: 走开！我不要你来！
+          emotion: angry
+        - id: ch03-b15
+          speaker: narrator
+          text: 已经太迟了。水牛倒在地上，又死了，头上的枪伤也恢复原样。年轻人不像族里的大多数男人，他害怕妻子，所以什么也没看见就退回床上，心里却一直猜不透她整夜在做什么。姑娘等了几分钟，又把所有步骤从头做了一遍，终于第二次让水牛站起来。她正为大功告成而欢喜，丈夫却再次闯进来，想知道妻子究竟在做什么。这回他索性在棚里坐下，说自己一定要看清发生的一切。姑娘只得拿起水罐和所有物件，离开棚子，换个地方第三次施救。
+        - id: ch03-b16
+          speaker: narrator
+          text: 可惜已经晚了。她才刚刚动手，晨光就从天边升起。水牛头掉到地上，再也接不回身体，又像先前一样死去腐坏。
+        - id: ch03-b17
+          speaker: narrator
+          text: 姑娘回到茅屋，丈夫和婆婆正在准备出门。
+        - id: ch03-b18
+          speaker: bride
+          text: 我想到湖里洗澡。
+        - id: ch03-b19
+          speakers: [young_man, mother_in_law]
+          ensemble: duo
+          text: 你怎么走得了那么远？你累得连站都快站不住了！
+        - id: ch03-b20
+          speaker: narrator
+          text: 姑娘不听，仍朝湖边去了。没过多久，她哭着回来。
+        - id: ch03-b21
+          speaker: bride
+          text: 我遇见一个家乡人。他说母亲病得很重。我若不马上回去，还没到家，她就会死。我会尽快回来，只能先告别了。
+          emotion: sad
+        - id: ch03-b22
+          speaker: narrator
+          text: 她说完便朝群山走去。这番话全是借口，她根本不知道母亲近来怎样了。她只是想要一个理由回到故乡，亲口告诉家人，他们先前的预言已经应验，水牛真的死了。
+    - id: ch04
+      title: 平原漫游者之歌
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 她把篮子稳稳顶在头上，一路向故乡走去。丈夫的村子刚被抛在身后，她便再也压不住悲伤，唱起平原漫游者之歌。她整整走了一天。到了日暮，终于看见父母居住的那群茅屋。亲友们全都跑来迎接，她流着泪告诉大家，水牛已经死了。
+        - id: ch04-b02
+          speaker: narrator
+          text: 这悲惨的消息像闪电一样传遍了整个地方。人们从远近四方成群结队地赶到她父母的家，为失去那头曾令所有人骄傲的水牛放声哀哭。
+        - id: ch04-b03
+          speakers: [bride_father, bride_mother, villager_1]
+          ensemble: chorus
+          text: 你若肯听劝，他现在还活着！我们给你挑了那么多小姑娘，你谁也不要，只要水牛。巫医早说过，水牛若死，我们也得死！
+          emotion: sad
+        - id: ch04-b04
+          speaker: narrator
+          text: 众人你对我、我对你地哀叹着共同的命运。过了好一阵，竟没有人留意姑娘的丈夫也坐在人群中央，把那支枪靠在旁边的树上。终于，有个人转过身看见了他，便朝他故意弯下腰，讥讽地行礼。
+        - id: ch04-b05
+          speaker: villager_1
+          text: 向杀人凶手致敬！你害死了我们所有人！
+          emotion: angry
+        - id: ch04-b06
+          speaker: narrator
+          text: 年轻人瞪着眼睛，完全不懂这话的意思。
+        - id: ch04-b07
+          speaker: young_man
+          text: 我只打死了一头水牛，你为什么叫我杀人凶手？
+        - id: ch04-b08
+          speaker: villager_2
+          text: 是水牛没错，可他是你妻子的仆役！替她砍柴挑水的都是他。难道你不知道？
+        - id: ch04-b09
+          speaker: young_man
+          text: 我不知道。为什么从来没人告诉我？我要是知道，当然不会开枪！
+          emotion: surprised
+        - id: ch04-b10
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
+          text: 可他已经死了，我们也必须死。
+          emotion: sad
+        - id: ch04-b11
+          speaker: narrator
+          text: 姑娘拿起一只盛着毒草汁的碗，双手捧住，放声哀哭。
+        - id: ch04-b12
+          speaker: bride
+          text: 我的父亲啊，平原漫游者！
+          emotion: sad
+        - id: ch04-b13
+          speaker: narrator
+          text: 她从碗里深深喝下一大口毒汁，随即向后倒去，死了。她的父母、兄弟和姐妹也一个接一个接过那只碗，饮下毒汁。他们唱着悼念平原漫游者的挽歌，一个接一个倒下死去。
+    - id: ch05
+      title: 悲伤的归途
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 姑娘的丈夫惊恐地看着这一切，随后独自踏上归途，悲伤地翻过群山。他走进自己的茅屋，一头扑倒在地，累得久久说不出话。父母守在一旁看着他。过了很久，他终于抬起头，把发生的事情从头到尾讲了一遍。父母听完，不住地摇头。
+        - id: ch05-b02
+          speakers: [father, mother]
+          ensemble: duo
+          text: 现在你明白了吧？我们早说过这桩婚事会招来祸事。我们替你挑了能干勤快的好妻子，你偏偏不要。如今你不但丢了妻子，也丢了财产。他们全死了，谁来退还你的聘礼？
+        - id: ch05-b03
+          speaker: young_man
+          text: 父亲，您说得对。
+          emotion: sad
+        - id: ch05-b04
+          speaker: narrator
+          text: 年轻人承认父亲说得不错。可在他的心里，那些送出去的金币根本算不了什么。失去妻子的痛苦，远远超过失去聘礼的懊恼。这则故事出自亨利·朱诺的《巴龙加民族志研究》。

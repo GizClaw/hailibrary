@@ -1,0 +1,369 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried
+        timbre: clear and story-rich
+        pace: measured
+        pitch: medium
+    old_woman:
+      display_name: The Old Woman
+      tts:
+        delivery: stern and commanding
+        timbre: aged and sharp
+        pace: deliberate
+        pitch: medium-low
+    youngest_maiden:
+      display_name: The Youngest Maiden
+      tts:
+        delivery: gentle and earnest
+        timbre: bright and youthful
+        pace: steady
+        pitch: medium-high
+    eldest_maiden:
+      display_name: The Eldest Maiden
+      tts:
+        delivery: thoughtful and protective
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium
+    second_maiden:
+      display_name: The Second Maiden
+      tts:
+        delivery: cautious and sincere
+        timbre: soft and youthful
+        pace: measured
+        pitch: medium
+    prince:
+      display_name: The Prince
+      tts:
+        delivery: courteous and resolute
+        timbre: warm and youthful
+        pace: steady
+        pitch: medium
+    raven:
+      display_name: The Raven
+      tts:
+        delivery: clever and dependable
+        timbre: dark and crisp
+        pace: brisk
+        pitch: medium-low
+    wind_wizards_son:
+      display_name: The Wind Wizard's Son
+      tts:
+        delivery: attentive and helpful
+        timbre: clear and youthful
+        pace: steady
+        pitch: medium
+    king:
+      display_name: The King
+      tts:
+        delivery: dignified and fatherly
+        timbre: full and mature
+        pace: measured
+        pitch: low
+    finnish_wizard:
+      display_name: The Wizard of Finland
+      tts:
+        delivery: grave and knowing
+        timbre: aged and resonant
+        pace: unhurried
+        pitch: low
+    thrush:
+      display_name: The Thrush
+      tts:
+        delivery: observant and lively
+        timbre: light and musical
+        pace: brisk
+        pitch: high
+    magpie:
+      display_name: The Magpie
+      tts:
+        delivery: sharp and certain
+        timbre: bright and crisp
+        pace: brisk
+        pitch: medium-high
+    swallow_1:
+      display_name: The First Swallow
+      tts:
+        delivery: quick and cheerful
+        timbre: light and airy
+        pace: brisk
+        pitch: high
+    swallow_2:
+      display_name: The Second Swallow
+      tts:
+        delivery: quick and agreeable
+        timbre: light and clear
+        pace: brisk
+        pitch: high
+    eagle:
+      display_name: The Eagle
+      tts:
+        delivery: stately and precise
+        timbre: strong and resonant
+        pace: measured
+        pitch: low
+    crow:
+      display_name: The Crow
+      tts:
+        delivery: blunt and urgent
+        timbre: rough and clear
+        pace: brisk
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Hidden Hut
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, an old woman lived with three maidens in a hut deep inside a great forest. All three were beautiful, and the youngest was the fairest. Trees hid the hut so completely that only the sun, the moon, and the stars ever saw the girls. From morning until night, the old woman made them spin golden flax into yarn. The moment one distaff was empty, she handed them another. Their thread had to be fine and even, and when it was finished, she locked it in a secret room.
+        - id: ch01-b02
+          speaker: narrator
+          text: Two or three times each summer, the old woman went away on a journey. Before leaving, she measured out the spinning each girl must finish on every day she was gone. She always returned in the darkness of night. The maidens never saw what she brought home, and she would not tell them where the golden flax came from or what it was meant for.
+        - id: ch01-b03
+          speaker: narrator
+          text: Before one such journey, she gave each maiden six days of work and repeated her usual warning.
+        - id: ch01-b04
+          speaker: old_woman
+          text: Children, keep your eyes on your work. Above all, do not speak to any man. If you do, your thread will lose its shine, and every kind of trouble will follow.
+        - id: ch01-b05
+          speakers: [eldest_maiden, second_maiden, youngest_maiden]
+          ensemble: chorus
+          text: How could golden thread ever lose its shine? And where would we even find a man to speak to?
+        - id: ch01-b06
+          speaker: narrator
+          text: The girls laughed at the warning. But three days after the old woman left, a young prince was hunting in the forest. He became separated from his companions and lost his way. Tired from searching, he lay beneath a tree, let his horse graze, and fell asleep.
+        - id: ch01-b07
+          speaker: narrator
+          text: The sun had gone down when he woke. He set off again, looking for a way out, until he found a narrow path that led to the hidden hut. The maidens were sitting outside in the cool evening air. The two elder sisters remembered the warning and hurried to go in. The youngest stayed where she was.
+        - id: ch01-b08
+          speaker: youngest_maiden
+          text: I have never seen anyone like him. Let me look at him just once.
+        - id: ch01-b09
+          speakers: [eldest_maiden, second_maiden]
+          ensemble: duo
+          text: Please, come inside with us.
+        - id: ch01-b10
+          speaker: narrator
+          text: She would not go. The prince came up, greeted her politely, and explained that he was lost, hungry, and tired. She gave him food. His conversation delighted her so much that she forgot the old woman's warning, and the two talked for hours.
+        - id: ch01-b11
+          speaker: narrator
+          text: Meanwhile, the prince's companions searched everywhere. When they could not find him, they sent messengers to the king. The king at once ordered cavalry and infantry into the forest. After three days, they found the hut. The prince was still beside the door. He had been so happy with the maiden that those three days had seemed like a single hour.
+        - id: ch01-b12
+          speaker: prince
+          text: I will come back for you. I will take you to my father's court and make you my bride.
+        - id: ch01-b13
+          speaker: narrator
+          text: After he left, the maiden sat at her wheel to make up for the hours she had lost. Then she saw that her thread no longer shone. Her heart pounded, and she wept bitterly. The warning had come true, and she had no idea what sorrow might follow.
+    - id: ch02
+      title: The Raven's Message
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The old woman returned that night. One look at the dull thread told her what had happened. She flew into a rage and said the maiden had brought misery upon both herself and the prince. The girl could think of nothing else. At last, she could bear the fear no longer and decided to ask the prince for help.
+        - id: ch02-b02
+          speaker: narrator
+          text: When she was a child, the maiden had learned the language of birds. Now she saw a raven preening its feathers on a pine branch and called softly to it.
+        - id: ch02-b03
+          speaker: youngest_maiden
+          text: Dear raven, you are the cleverest of birds and one of the swiftest. Will you help me?
+        - id: ch02-b04
+          speaker: raven
+          text: What can I do for you?
+        - id: ch02-b05
+          speaker: youngest_maiden
+          text: Fly until you reach a splendid town with a king's palace. Find the king's son and tell him that something terrible has happened to me.
+        - id: ch02-b06
+          speaker: narrator
+          text: She told the raven how her thread had turned dull, how terribly angry the old woman had become, and how she feared that some great disaster was near. The raven faithfully promised to carry every word. It spread its black wings and flew away. The old woman would no longer let the youngest spin, so she spent the day winding the yarn her sisters made. Near evening, she heard the raven's harsh call from the pine tree and ran eagerly to hear its answer.
+        - id: ch02-b07
+          speaker: narrator
+          text: By good fortune, the raven had found the wind wizard's son in the palace garden. He understood the speech of birds and delivered the message. The prince was deeply troubled. He asked his friends how the maiden might be freed, then turned to the wind wizard's son.
+        - id: ch02-b08
+          speaker: prince
+          text: Ask the raven to hurry back. Tell her to be ready on the ninth night. I will come and take her away.
+        - id: ch02-b09
+          speaker: narrator
+          text: The wind wizard's son gave the raven the prince's answer. The bird flew so quickly that it reached the hut that same evening. The maiden thanked it with all her heart, then went home without telling either sister or the old woman what she had heard.
+    - id: ch03
+      title: The Witch's Revenge
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: As the ninth night approached, the maiden grew more and more afraid that some terrible accident would ruin their escape. That night, she slipped quietly from the hut and waited nearby, trembling. Soon she heard the muffled beat of horses' hooves. An armed troop appeared, led by the prince. He had wisely marked the trees beforehand so he could find the way again.
+        - id: ch03-b02
+          speaker: narrator
+          text: The moment he saw her, he leaped down, lifted her into the saddle, and mounted behind her. They rode toward home beneath a moon so bright that the marks on the trees were easy to see.
+        - id: ch03-b03
+          speaker: narrator
+          text: At dawn, all the birds began to talk at once. Their voices carried a warning that could have saved the travelers from much sorrow. But the prince did not understand them, and the maiden was not listening. The two were thinking only of each other. By the time they left the forest, the sun stood high in the sky.
+        - id: ch03-b04
+          speaker: narrator
+          text: The next morning, the old woman noticed that the youngest maiden had not come to work. Her sisters claimed they knew nothing, but the old woman guessed the truth. She was really a wicked witch, and she meant to punish the fugitives.
+        - id: ch03-b05
+          speaker: narrator
+          text: She gathered nine kinds of enchanters' nightshade and added salt that she had bewitched. She wrapped it all in cloth to make a soft ball, then sent it flying after them on the wind.
+        - id: ch03-b06
+          speaker: old_woman
+          text: Whirlwind, mother of the wind, help me punish the girl who sinned. Carry this magic ball. Tear her from his arms forever and bury her in the rippling river.
+          emotion: angry
+        - id: ch03-b07
+          speaker: narrator
+          text: At midday, the prince and his men reached a deep river. Its bridge was so narrow that the riders had to cross one at a time. The prince's horse had just reached the middle when the magic ball shot past. The frightened horse reared and threw the maiden into the swift water below.
+        - id: ch03-b08
+          speaker: narrator
+          text: The prince tried to throw himself into the river after her, but his men seized him and held him back. He fought to escape their grasp, yet they carried him home. For six weeks, he shut himself in a secret room. He would neither eat nor drink because his grief was so great. At last, he became dangerously ill, and everyone feared he would die.
+        - id: ch03-b09
+          speaker: narrator
+          text: The alarmed king summoned every wizard in the country, but not one could cure his son. At last, the wind wizard's son offered some advice.
+        - id: ch03-b10
+          speaker: wind_wizards_son
+          text: Send for the old wizard of Finland. He knows more than all the wizards in your kingdom together.
+        - id: ch03-b11
+          speaker: narrator
+          text: A messenger left at once. One week later, the old wizard arrived from Finland on the wings of the wind.
+        - id: ch03-b12
+          speaker: finnish_wizard
+          text: Honored King, the wind brought this sickness upon your son. A magic ball has stolen his beloved, and that is why his grief will not leave him. Let the wind blow over him and carry his sorrow away.
+        - id: ch03-b13
+          speaker: narrator
+          text: The king made the prince go outside into the wind. Little by little, he recovered, and then he told his father the whole story.
+        - id: ch03-b14
+          speaker: king
+          text: Forget this maiden, my son. Choose another bride.
+        - id: ch03-b15
+          speaker: prince
+          text: I can never love anyone else.
+          emotion: sad
+    - id: ch04
+      title: The Singing Water-Lily
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: A year later, the prince came unexpectedly to the bridge where he had lost his beloved. The memory made him weep. He would have given everything he owned to see her alive again. Then, through his grief, he thought he heard someone singing. He looked around, but no one was there.
+        - id: ch04-b02
+          speaker: youngest_maiden
+          text: Alas, I lie here bewitched and forsaken. My beloved has never thought to free the bride he once held dear.
+          emotion: sad
+        - id: ch04-b03
+          speaker: narrator
+          text: Astonished, the prince jumped from his horse and searched beneath the bridge. He found no one. Then he noticed a yellow water-lily floating among its broad leaves. Flowers could not sing, he thought, so he waited in wonder. Again, the same sorrowful song came from the water.
+        - id: ch04-b04
+          speaker: youngest_maiden
+          text: Alas, I lie here bewitched and forsaken. My beloved has never thought to free the bride he once held dear.
+          emotion: sad
+        - id: ch04-b05
+          speaker: narrator
+          text: The prince suddenly remembered the gold-spinners. Perhaps they could explain the strange voice. He rode straight to their hut and found the two elder maidens beside the fountain. He told them how their sister had fallen into the river a year before, and how he had heard a song when no singer could be seen.
+        - id: ch04-b06
+          speaker: eldest_maiden
+          text: That yellow water-lily must be our sister. The magic ball did not kill her. It changed her into a flower.
+        - id: ch04-b07
+          speaker: narrator
+          text: Before the prince went to sleep, the eldest maiden gathered magic herbs and baked them into a cake for him. He ate it, and that night he dreamed he was living in the forest. Every bird spoke clearly, and he understood every word. In the morning, he told the sisters what he had dreamed.
+        - id: ch04-b08
+          speaker: eldest_maiden
+          text: The enchanted cake gave you that power. Listen closely to the birds and learn what they can tell you. When your bride is free, please come back and rescue us from this miserable bondage.
+        - id: ch04-b09
+          speaker: narrator
+          text: The prince promised. He rode home joyfully, and all through the forest he could understand the birds. A thrush was speaking to a magpie.
+        - id: ch04-b10
+          speaker: thrush
+          text: How foolish men are! They cannot understand the simplest thing. The maiden has been a water-lily for a whole year. She sings so sadly that everyone crossing the bridge must hear her, but no one helps. Her old bridegroom heard her only a few days ago, and even he understood nothing.
+        - id: ch04-b11
+          speaker: magpie
+          text: And all her trouble began because of him. If he listens only to men, she will stay a flower forever. The old wizard of Finland could soon tell him how to free her.
+        - id: ch04-b12
+          speaker: narrator
+          text: The prince wondered how he could send a message all the way to Finland. Just then, he heard two swallows talking.
+        - id: ch04-b13
+          speaker: swallow_1
+          text: Come, let us fly to Finland. We can build better nests there.
+        - id: ch04-b14
+          speaker: prince
+          text: Wait, kind friends! Will you help me?
+        - id: ch04-b15
+          speakers: [swallow_1, swallow_2]
+          ensemble: duo
+          text: We will.
+        - id: ch04-b16
+          speaker: prince
+          text: Take a thousand greetings to the wizard of Finland. Ask him how I can restore a maiden who has been changed into a flower.
+        - id: ch04-b17
+          speaker: narrator
+          text: The swallows flew away. The prince went on to the bridge and waited for the song, but he heard only rushing water and the wind moaning. Disappointed, he rode home.
+    - id: ch05
+      title: The Wizard's Answer
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Soon afterward, the prince sat in the garden, wondering if the swallows had forgotten him. An eagle appeared high above. It circled lower and lower, then settled on a nearby tree.
+        - id: ch05-b02
+          speaker: eagle
+          text: The wizard of Finland sends his greetings and tells you how to free the maiden. Go to the river and cover yourself with mud. Say, "From a man into a crab," and you will become a crab. Dive into the water and swim to the water-lily's roots. Work them loose from the mud and reeds, grip them in your claws, and rise with them to the surface.
+        - id: ch05-b03
+          speaker: eagle
+          text: Let the water wash over the flower, and drift downstream until you reach a mountain ash on the left bank. A large stone stands nearby. Stop there and say, "From a crab into a man, from a water-lily into a maiden." Then both of you will have your true forms again.
+        - id: ch05-b04
+          speaker: narrator
+          text: The prince was full of fear and doubt. Some time passed before he found the courage to attempt the rescue. Then a crow spoke to him.
+        - id: ch05-b05
+          speaker: crow
+          text: Why do you wait? The old wizard told you the truth, and the birds have not deceived you. Hurry and dry the maiden's tears.
+        - id: ch05-b06
+          speaker: prince
+          text: The worst that can happen is death, and death is better than sorrow without end.
+          emotion: sad
+        - id: ch05-b07
+          speaker: narrator
+          text: He mounted his horse and rode to the bridge. Once more, the water-lily's lament rose from the river. This time, he did not delay. He smeared mud over his whole body.
+        - id: ch05-b08
+          speaker: prince
+          text: From a man into a crab.
+        - id: ch05-b09
+          speaker: narrator
+          text: He plunged boldly into the river. For one moment, the water hissed in his ears. Then everything became silent. In his crab's body, he swam as close as he could to the plant and began working its roots free. They were fixed deep in the mud and wound tightly among the reeds, so the task took a long time.
+        - id: ch05-b10
+          speaker: narrator
+          text: At last, he gripped the roots and rose to the surface, letting water flow over the flower. The current swept them downstream. He searched and searched for the mountain ash. Finally, he saw it on the left bank, beside the great stone. He stopped there.
+        - id: ch05-b11
+          speaker: prince
+          text: From a crab into a man, from a water-lily into a maiden.
+        - id: ch05-b12
+          speaker: narrator
+          text: In an instant, he was a prince again, and the maiden stood beside him. She was ten times lovelier than before. Her pale yellow robe glittered with jewels.
+        - id: ch05-b13
+          speaker: youngest_maiden
+          text: You have freed me from the cruel witch's power. Thank you. I will gladly be your bride.
+          emotion: happy
+    - id: ch06
+      title: The Prince Returns
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: When they returned to the bridge, the prince's horse had vanished. He believed he had spent only a few hours beneath the water, but more than ten days had really passed. As they wondered how to reach his father's court, a splendid coach came along the riverbank. Six horses in bright harness drew it.
+        - id: ch06-b02
+          speaker: narrator
+          text: They climbed into the coach and were driven to the palace. The king and queen were at church, weeping for the son they had long believed was dead. When the prince entered and led the beautiful maiden forward by the hand, his parents could hardly believe their eyes. Their delight was as great as their astonishment. The wedding was celebrated at once, and the whole kingdom feasted and made merry for six weeks.
+    - id: ch07
+      title: The Gold-Spinners Set Free
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: Some time later, the prince and his bride were sitting in the garden when a crow called down to them.
+        - id: ch07-b02
+          speaker: crow
+          text: Ungrateful pair! Have you forgotten the two poor maidens who helped you? Must they spin golden flax forever? Show the old witch no pity. All three maidens are princesses. She stole them together when they were children, along with their silver vessels, and turned the silver into golden flax. Poison is the punishment she deserves.
+          emotion: angry
+        - id: ch07-b03
+          speaker: narrator
+          text: The prince was ashamed that he had forgotten his promise. He set out immediately and, by great good fortune, reached the hut while the old woman was away. The sisters had dreamed that he was coming and stood ready to leave. First, though, they baked a cake with poison in it and placed it where the old woman would see it when she returned.
+        - id: ch07-b04
+          speaker: narrator
+          text: The old woman found the cake. It looked so tempting that she greedily ate every bit, and she died at once.
+        - id: ch07-b05
+          speaker: narrator
+          text: When they opened the secret room, they discovered fifty wagonloads of golden flax stored inside. A search of the ground revealed another fifty wagonloads buried nearby. They tore the witch's hut down to the earth. Then the prince, his bride, and her two sisters lived happily ever after.

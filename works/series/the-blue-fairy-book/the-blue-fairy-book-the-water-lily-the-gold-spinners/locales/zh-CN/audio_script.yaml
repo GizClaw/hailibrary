@@ -1,0 +1,273 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts: {delivery: 沉稳而富有童话色彩, timbre: 温暖清澈, pace: 舒缓有变化, pitch: 中音}
+    old_woman:
+      display_name: 老婆婆
+      tts: {delivery: 严厉阴沉而富有威慑力, timbre: 苍老沙哑, pace: 缓慢, pitch: 中低音}
+    youngest_maiden:
+      display_name: 小姑娘
+      tts: {delivery: 温柔真挚而勇敢, timbre: 清亮年轻, pace: 从容, pitch: 中高音}
+    elder_sister:
+      display_name: 大姐姐
+      tts: {delivery: 谨慎沉着而关切, timbre: 柔和成熟, pace: 中等, pitch: 中音}
+    middle_sister:
+      display_name: 二姐姐
+      tts: {delivery: 朴实谨慎而亲切, timbre: 清柔年轻, pace: 中等, pitch: 中高音}
+    prince:
+      display_name: 王子
+      tts: {delivery: 真诚坚定而彬彬有礼, timbre: 温暖年轻, pace: 从容有力, pitch: 中音}
+    raven:
+      display_name: 渡鸦
+      tts: {delivery: 机敏可靠而干脆, timbre: 粗哑清晰, pace: 稍快, pitch: 中低音}
+    wind_wizards_son:
+      display_name: 风术士的儿子
+      tts: {delivery: 聪敏稳重而热心, timbre: 清朗年轻, pace: 中等, pitch: 中音}
+    king:
+      display_name: 国王
+      tts: {delivery: 威严中带着父亲的忧虑, timbre: 浑厚成熟, pace: 从容, pitch: 中低音}
+    old_wizard:
+      display_name: 芬兰老术士
+      tts: {delivery: 深沉笃定而神秘, timbre: 苍老浑厚, pace: 缓慢, pitch: 低音}
+    thrush:
+      display_name: 鸫鸟
+      tts: {delivery: 伶俐直率而略带嘲讽, timbre: 清脆明亮, pace: 轻快, pitch: 中高音}
+    magpie:
+      display_name: 喜鹊
+      tts: {delivery: 尖锐果断而爱议论, timbre: 清亮锐利, pace: 稍快, pitch: 高音}
+    swallow_1:
+      display_name: 燕子甲
+      tts: {delivery: 轻快活泼而热心, timbre: 轻盈清亮, pace: 较快, pitch: 高音}
+    swallow_2:
+      display_name: 燕子乙
+      tts: {delivery: 轻快温和而爽利, timbre: 轻柔清亮, pace: 较快, pitch: 高音}
+    eagle:
+      display_name: 鹰
+      tts: {delivery: 庄重清楚而不容置疑, timbre: 高亢坚实, pace: 从容, pitch: 中低音}
+    crow:
+      display_name: 乌鸦
+      tts: {delivery: 直率严厉而富有洞察力, timbre: 粗哑有力, pace: 中等, pitch: 中低音}
+  chapters:
+    - id: ch01
+      title: 森林里的纺金姑娘
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，大森林深处住着一个老婆婆和三个美丽的姑娘，其中小妹妹最为动人。树木把她们的小屋遮得严严实实，白天只有太阳能看见她们，夜里也只有月亮和星星瞧得见。
+        - id: ch01-b02
+          speaker: narrator
+          text: 老婆婆逼她们从早到晚纺金色亚麻。一根纺杆上的麻刚纺完，下一根马上又递过来，连喘口气的工夫也没有。金线还必须又细又匀，纺好以后，全被老婆婆锁进一间密室。每年夏天，她会出门两三次。临走前，她按离开的天数分派活计，回来时又总挑在夜里。姑娘们从没看见她带回什么。金色亚麻从哪里来，纺出的线要拿去做什么，她也一句都不肯说。
+        - id: ch01-b03
+          speaker: old_woman
+          text: 这次我要出去六天。你们别东张西望，更不许跟男人说话。谁要是不听，金线就会失去光泽，各种灾祸都会找上门来。
+        - id: ch01-b04
+          speakers: [elder_sister, middle_sister, youngest_maiden]
+          ensemble: chorus
+          text: 金线怎么会失去光泽？我们又怎么可能碰见男人呢？
+        - id: ch01-b05
+          speaker: narrator
+          text: 老婆婆走后第三天，一位年轻王子在林中打猎，同随从走散了。他找路找得精疲力尽，便躺在树下睡着了，任马儿在一旁吃草。
+        - id: ch01-b06
+          speaker: narrator
+          text: 醒来时太阳已经落山。王子沿一条窄路走到小屋前，恰好看见三个姑娘坐在门外乘凉。两个姐姐记着警告，吓得要躲起来，小妹妹却舍不得移开目光。
+        - id: ch01-b07
+          speaker: youngest_maiden
+          text: 我从没见过像他这样的人。就让我再看一眼吧。
+        - id: ch01-b08
+          speaker: narrator
+          text: 姐姐们怎么劝也没用，只好丢下她，自己进了屋。王子走到近前，很有礼貌地问候姑娘，说自己在森林里迷了路，现在又饿又累。小姑娘赶紧拿出食物招待他。王子说的话令她满心欢喜，两人一谈就是好几个钟头，她早把老婆婆的警告忘得一干二净。另一边，王子的随从到处寻找，始终没有结果，只好派两名信使回去报信。国王听到坏消息，立刻派出一团骑兵和一团步兵寻找儿子。
+        - id: ch01-b09
+          speaker: narrator
+          text: 搜寻了三天，他们终于找到小屋。王子仍坐在门边。和姑娘相处实在太快活，整整三天在他心里竟像一个钟头。临行时，他答应一定回来，接姑娘到父王的宫廷去，娶她做自己的新娘。
+        - id: ch01-b10
+          speaker: narrator
+          text: 姑娘赶紧回到纺车前补做耽误的活，却发现手里的金线已经暗淡无光。她想起老婆婆的话，吓得心跳不止，哭个不停。
+        - id: ch01-b11
+          speaker: narrator
+          text: 老婆婆夜里回来，一眼便看出了真相。她怒不可遏，说姑娘不但害了自己，也害了王子。小姑娘再也无法安心，决定向王子求助。
+    - id: ch02
+      title: 第九夜与魔法球
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 小姑娘自幼听得懂鸟语。她看见一只渡鸦在松枝上梳理羽毛，便轻声向它求助。
+        - id: ch02-b02
+          speaker: youngest_maiden
+          text: 亲爱的鸟儿，你既聪明又飞得快，愿意帮帮我吗？
+        - id: ch02-b03
+          speaker: raven
+          text: 你想让我怎么帮你？
+        - id: ch02-b04
+          speaker: youngest_maiden
+          text: 请飞到一座有王宫的大城，找到国王的儿子。告诉他，我遇上了大祸。
+        - id: ch02-b05
+          speaker: narrator
+          text: 她把金线如何失去光泽、老婆婆如何发怒，还有自己多么害怕灾祸降临，全都说了。渡鸦郑重答应替她传话，随即展翅飞走。姑娘回到家里。老婆婆再也不许她碰纺车，她只好整天替两个姐姐绕好纺出的细纱。将近傍晚，她听见松树上传来“哇——哇——”的叫声，知道渡鸦回来了，急忙跑去听王子的回音。
+        - id: ch02-b06
+          speaker: narrator
+          text: 渡鸦运气很好，在王宫花园里遇见了风术士的儿子。这个年轻人听得懂鸟语，渡鸦便把口信托付给他。王子得知姑娘遇上大祸，十分难过，立刻找朋友们商量怎样救她。最后，他请风术士的儿子再替自己传一句话。
+        - id: ch02-b07
+          speaker: prince
+          text: 请渡鸦马上回去。告诉她，第九夜准备好，我会来接她。
+        - id: ch02-b08
+          speaker: narrator
+          text: 风术士的儿子把话转给渡鸦。它飞得极快，当天傍晚便回到小屋，把回音带给姑娘。姑娘真心谢过它，回家后没有向任何人透露。第九夜越近，她越是忧心，总怕突然出现可怕的意外，把全部希望毁掉。那晚，她悄悄溜出屋子，在离小屋不远的地方颤抖着等待。
+        - id: ch02-b09
+          speaker: narrator
+          text: 沉闷的马蹄声终于响起。王子领着武装人马赶来，还事先在沿路的树上做了标记。他把姑娘抱上马鞍，自己坐在后面，借着明亮月光往家赶。
+        - id: ch02-b10
+          speaker: narrator
+          text: 渐渐地，晨光照进森林，睡了一夜的百鸟纷纷开口。王子若是听得懂它们的话，或姑娘肯静下心来听一听，他们本来可以避开后来许多苦难。可一路上，两个人眼里只有彼此，谁也没有留意鸟儿在说什么。等他们终于走出森林，太阳已经高高挂在天上。
+        - id: ch02-b11
+          speaker: narrator
+          text: 老婆婆发现小姑娘不见了，两个姐姐都装作不知情。可她其实是个恶毒女巫，很快猜出了一切。她找来九种魔法毒草，又把盐施上咒，裹成一只毛茸茸的球，送上风的翅膀。
+        - id: ch02-b12
+          speaker: old_woman
+          text: 旋风啊，风的母亲！助我惩罚那罪人！带上这只魔法球，让她永远离开爱人的怀抱，埋进水波荡漾的河流。
+        - id: ch02-b13
+          speaker: narrator
+          text: 正午时，他们来到一条深河边。河上只有一座窄桥，每次仅容一名骑手通过。王子与姑娘共乘的马刚刚走到桥中央，魔球便从旁边飞过。马儿吓得猛然扬起前蹄。谁也来不及拉住它，姑娘已经被甩出马鞍，跌进桥下湍急的河水。
+        - id: ch02-b14
+          speaker: narrator
+          text: 王子立刻要跳下去救她，部下却死死拉住他，不顾他的挣扎，把他带回了王宫。此后，王子把自己关进一间密室，整整六个星期不吃也不喝。他悲痛到了极点，病得越来越重，最后人人都以为他活不成了。
+        - id: ch02-b15
+          speaker: narrator
+          text: 国王惊恐万分，把全国的术士都召进宫来，却没有一个人治得好王子。最后，风术士的儿子告诉国王，芬兰有一位老术士，他一个人懂得的事，比这个王国所有术士加起来还多。信使马上赶往芬兰。一个星期以后，老术士亲自乘风来到王宫。
+        - id: ch02-b16
+          speaker: old_wizard
+          text: 尊贵的国王，是风把病吹到了您儿子身上，魔法球又夺走了他的爱人。他才会一直悲伤。让风吹一吹他，也把悲伤吹走吧。
+        - id: ch02-b17
+          speaker: narrator
+          text: 王子走到风中，渐渐恢复，随后把一切告诉了父亲。
+        - id: ch02-b18
+          speaker: king
+          text: 忘了那个姑娘，另娶一个新娘吧。
+        - id: ch02-b19
+          speaker: prince
+          text: 我永远不会再爱上别人。
+    - id: ch03
+      title: 会唱歌的睡莲
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 一年后，王子无意中又来到爱人丧命的那座桥。他想起当日的灾祸，伤心得放声痛哭。只要姑娘能重新活过来，他情愿交出自己拥有的一切。就在这时，他仿佛听见一个声音在唱歌。王子四下张望，却看不见歌者。那声音停了一会儿，又唱了起来。
+        - id: ch03-b02
+          speaker: youngest_maiden
+          text: 可怜我中了魔法，被人遗忘，只能永远困在这个地方！心上人早已把我忘记，不来解救他深爱的新娘。
+          emotion: sad
+        - id: ch03-b03
+          speaker: narrator
+          text: 王子惊讶万分，跳下马来，桥上桥下找遍了，想看看是不是有人躲在那里，可四周空无一人。后来，他才注意到水面上漂着一朵黄色睡莲，半藏在宽大的叶片后面。然而，花怎么会唱歌呢？他满心惊疑地等在原地，希望再听见什么。没过多久，那首悲歌果然又响了一遍。
+        - id: ch03-b04
+          speaker: youngest_maiden
+          text: 可怜我中了魔法，被人遗忘，只能永远困在这个地方！心上人早已把我忘记，不来解救他深爱的新娘。
+          emotion: sad
+        - id: ch03-b05
+          speaker: prince
+          text: 我去找那些纺金姑娘。说不定她们知道这是怎么回事。
+        - id: ch03-b06
+          speaker: narrator
+          text: 王子立刻赶到小屋，在泉边见到两个姐姐。他告诉她们，一年前妹妹怎样从桥上落水，自己又怎样两次听见奇怪的歌声，却始终没有找到唱歌的人。姐妹俩听完便说，那朵黄色睡莲一定就是她们的妹妹。魔球只把她变成了一朵花，并没有夺走她的性命。
+        - id: ch03-b07
+          speaker: narrator
+          text: 王子要睡觉以前，大姐姐用几种魔法药草烤了一块饼，拿给他吃。夜里，他梦见自己住在森林里，能听懂所有鸟儿相互交谈。第二天一早，他把梦告诉姐妹俩。她们解释说，是那块魔法饼给了他听懂鸟语的本领。
+        - id: ch03-b08
+          speaker: elder_sister
+          text: 回去后仔细听鸟儿说话，它们也许知道救人的办法。等你救回妹妹，别忘了回来，把我们也救出这里。
+        - id: ch03-b09
+          speaker: narrator
+          text: 王子答应了。归途中，他果然听懂了一只鸫鸟对喜鹊说的话。
+        - id: ch03-b10
+          speaker: thrush
+          text: 人真愚蠢，连这么浅显的事都不懂。姑娘变成睡莲已经整整一年。她唱得那么伤心，过桥的人全能听见，却始终没人来救她。几天前，她从前的未婚夫也骑马过了那座桥。他亲耳听见歌声，照样和其他人一样，什么都没明白。
+        - id: ch03-b11
+          speaker: magpie
+          text: 她受的苦全怪那个王子。他要是只听人的话，她就得永远做一朵花。把这事告诉芬兰的老术士，她很快就能得救。
+        - id: ch03-b12
+          speaker: narrator
+          text: 王子正发愁怎么给芬兰送信，又听见两只燕子商量搬家。
+        - id: ch03-b13
+          speaker: swallow_1
+          text: 我们飞去芬兰吧，那里更适合筑巢。
+        - id: ch03-b14
+          speaker: prince
+          text: 好心的朋友，请等一等！你们愿意替我办件事吗？
+        - id: ch03-b15
+          speakers: [swallow_1, swallow_2]
+          ensemble: duo
+          text: 愿意，你说吧。
+        - id: ch03-b16
+          speaker: prince
+          text: 请代我向芬兰的术士送上一千声问候，问问他，怎样才能让变成花的姑娘恢复原形。
+        - id: ch03-b17
+          speaker: narrator
+          text: 两只燕子展翅飞往芬兰。王子则继续赶到那座桥边，站在那里等候，希望再次听见睡莲的歌声。可他等了很久，耳边始终只有河水奔腾，还有风在低低呜咽。最后，他只得满怀失望地回了家。
+    - id: ch04
+      title: 螃蟹救回姑娘
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 过了不久，王子坐在花园里，正担心燕子忘了托付，忽见一只鹰从空中落到近旁的树上。
+        - id: ch04-b02
+          speaker: eagle
+          text: 芬兰的术士向你问好。他说，你先到河边，把全身涂满泥，再念“人变螃蟹”，就会变成一只螃蟹。你要勇敢地跳进水里，尽量游到睡莲的根旁，把根从淤泥和芦苇里一点点解开。等所有根须都松脱了，就用钳子牢牢夹住，带着它浮上水面。让河水流过整朵花，再和它一起顺流漂下去。
+        - id: ch04-b03
+          speaker: eagle
+          text: 看见左岸的花楸树就停下，那里还有一块大石头。你念“螃蟹变回人，睡莲变回姑娘”，两个人便都能复原。
+        - id: ch04-b04
+          speaker: narrator
+          text: 王子又怀疑又害怕，过了好一阵也不敢尝试。一只乌鸦看出了他的犹豫。
+        - id: ch04-b05
+          speaker: crow
+          text: 你还等什么？老术士没有骗你，鸟儿们也没有骗你。快去擦干姑娘的眼泪吧。
+        - id: ch04-b06
+          speaker: prince
+          text: 最坏也不过一死。死了也比永远悲伤好。
+        - id: ch04-b07
+          speaker: narrator
+          text: 王子骑马赶到桥边。睡莲的悲歌再次传来，他把全身涂满泥，不再犹豫。
+        - id: ch04-b08
+          speaker: prince
+          text: 人变螃蟹。
+        - id: ch04-b09
+          speaker: narrator
+          text: 他跳进河里。水流在耳边嘶嘶响了一瞬，四周随即安静下来。变成螃蟹的王子游到睡莲旁，开始松动它的根。那些根牢牢缠在淤泥和芦苇之间，他费了很长时间，才把它们一一解开。随后，他用钳子夹紧根须，带着整株睡莲浮上水面，让清清的河水从花朵上流过。
+        - id: ch04-b10
+          speaker: narrator
+          text: 水流载着他们不断向下游漂去。王子一路寻找，却怎么也看不见鹰所说的花楸树，心里越来越着急。漂了很久以后，他终于发现左岸立着一棵花楸树，旁边果然还有一块大石头。他赶紧在那里停下。
+        - id: ch04-b11
+          speaker: prince
+          text: 螃蟹变回人，睡莲变回姑娘。
+        - id: ch04-b12
+          speaker: narrator
+          text: 转眼间，他恢复了王子的模样，姑娘也重新站在身旁。王子欢喜得不得了。姑娘比从前美丽十倍，身穿一袭华美的淡黄色长袍，衣裙上缀满珠宝，在日光下闪闪发亮。
+        - id: ch04-b13
+          speaker: youngest_maiden
+          text: 谢谢你救我脱离女巫的魔法。我愿意嫁给你。
+        - id: ch04-b14
+          speaker: narrator
+          text: 他们回到桥边，王子留在那里的马却不见了。他以为自己只在水里做了几个钟头的螃蟹，其实已经过去十多天。两人正发愁怎样才能回到父王的宫廷，河岸上忽然驶来一辆华丽马车，前面套着六匹披挂鲜艳的骏马。
+        - id: ch04-b15
+          speaker: narrator
+          text: 他们乘上马车，一路回到王宫。国王和王后正在教堂里为儿子流泪。他们寻找了那么久，早已当王子死了。如今王子竟牵着美丽姑娘的手走了进来，父母又惊又喜，几乎不敢相信自己的眼睛。婚礼立刻举行，整个王国宴饮欢庆，足足热闹了六个星期。
+    - id: ch05
+      title: 被解救的公主们
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 过了一段日子，王子和新娘正坐在花园里，一只乌鸦忽然开口责备他们。
+        - id: ch05-b02
+          speaker: crow
+          text: 忘恩负义的人！你们忘了那两个帮助过你们的可怜姑娘吗？难道要让她们永远纺金色亚麻？别去可怜老女巫。三个姑娘本来都是公主，小时候一起被她偷走。她还把偷来的银器全变成了金色亚麻。让她服毒，才是最合适的惩罚。
+          emotion: angry
+        - id: ch05-b03
+          speaker: narrator
+          text: 王子这才想起自己的诺言，羞愧不已，立即动身赶往森林。运气很好，他来到小屋时，老婆婆恰好不在。两个姐姐早已梦见王子会来，也已经做好离开的准备。不过，临走以前，她们烤了一块饼，把毒药放在里面，再把饼留在桌上。老婆婆一回来，准能一眼看见。
+        - id: ch05-b04
+          speaker: narrator
+          text: 老婆婆回来以后，果然一眼就发现了桌上的饼。那块饼看起来香甜诱人，她根本没有怀疑，贪婪地一口气全吃了下去，随即当场死去。
+        - id: ch05-b05
+          speaker: narrator
+          text: 人们打开那间一直紧锁的密室，竟从里面找出足足五十车金色亚麻。后来又有人发现，地下还埋着同样多的数量。女巫的小屋被彻底夷为平地。从此以后，王子、新娘和她的两个姐姐终于摆脱所有魔法，永远幸福地生活在一起。

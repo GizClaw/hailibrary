@@ -1,0 +1,246 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    titty_mouse:
+      display_name: Titty Mouse
+      tts:
+        delivery: bright and practical
+        timbre: small and clear
+        pace: medium
+        pitch: high
+    tatty_mouse:
+      display_name: Tatty Mouse
+      tts:
+        delivery: gentle and earnest, weighed down by grief after the accident
+        timbre: soft and delicate
+        pace: measured
+        pitch: high
+    stool:
+      display_name: Three-Legged Stool
+      tts:
+        delivery: sturdy and matter-of-fact
+        timbre: dry and wooden
+        pace: medium
+        pitch: medium-low
+    broom:
+      display_name: Broom
+      tts:
+        delivery: brisk and alert
+        timbre: light and scratchy
+        pace: medium-fast
+        pitch: medium-high
+    door:
+      display_name: Door
+      tts:
+        delivery: slow and weighty
+        timbre: deep and creaking
+        pace: measured
+        pitch: low
+    window:
+      display_name: Window
+      tts:
+        delivery: curious and airy
+        timbre: thin and glassy
+        pace: medium
+        pitch: medium-high
+    old_form:
+      display_name: Old Form
+      tts:
+        delivery: elderly and determined
+        timbre: worn and woody
+        pace: unhurried
+        pitch: medium-low
+    walnut_tree:
+      display_name: Walnut Tree
+      tts:
+        delivery: stately and solemn
+        timbre: broad and resonant
+        pace: slow
+        pitch: low
+    little_bird:
+      display_name: Little Bird
+      tts:
+        delivery: quick and tender
+        timbre: light and flute-like
+        pace: medium-fast
+        pitch: high
+    little_girl:
+      display_name: Little Girl
+      tts:
+        delivery: young and direct
+        timbre: clear and youthful
+        pace: medium
+        pitch: medium-high
+    old_man:
+      display_name: Old Man
+      tts:
+        delivery: plainspoken and firm
+        timbre: rough and weathered
+        pace: measured
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Two Puddings
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Titty Mouse and Tatty Mouse lived together in one house. One day, Titty went out leasing, and Tatty went out leasing too. So off they went together.
+        - id: ch01-b02
+          speaker: narrator
+          text: Titty found an ear of corn, and Tatty found one as well. Then each mouse made a pudding from what she had gathered.
+        - id: ch01-b03
+          speaker: narrator
+          text: Tatty Mouse put her pudding into the pot to boil. But when Titty tried to put hers in, the pot toppled over. The boiling water scalded Titty, and she died.
+        - id: ch01-b04
+          speaker: narrator
+          text: Tatty sat down and began to weep. A three-legged stool heard her crying.
+        - id: ch01-b05
+          speaker: stool
+          text: Tatty, what are you crying for?
+        - id: ch01-b06
+          speaker: tatty_mouse
+          text: Titty is dead. That's why I'm crying.
+          emotion: sad
+        - id: ch01-b07
+          speaker: stool
+          text: Then I'll start hopping.
+        - id: ch01-b08
+          speaker: narrator
+          text: And the three-legged stool hopped about.
+
+    - id: ch02
+      title: The House Joins In
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: A broom stood in the corner of the room. When it saw the stool hopping, it spoke.
+        - id: ch02-b02
+          speaker: broom
+          text: Stool, why are you hopping?
+        - id: ch02-b03
+          speaker: stool
+          text: Titty is dead, Tatty is crying, and that's why I hop.
+        - id: ch02-b04
+          speaker: broom
+          text: Then I'll start sweeping.
+        - id: ch02-b05
+          speaker: narrator
+          text: So the broom swept across the room. Then the door asked the broom what it was doing.
+        - id: ch02-b06
+          speaker: door
+          text: Broom, why are you sweeping?
+        - id: ch02-b07
+          speaker: broom
+          text: Titty is dead, Tatty is crying, the stool is hopping, and that's why I sweep.
+        - id: ch02-b08
+          speaker: door
+          text: Then I'll shake in my frame.
+        - id: ch02-b09
+          speaker: narrator
+          text: The door began to jar. The window heard the noise and called down to it.
+        - id: ch02-b10
+          speaker: window
+          text: Door, why are you jarring?
+        - id: ch02-b11
+          speaker: door
+          text: Titty is dead, Tatty is crying, the stool is hopping, the broom is sweeping, and that's why I jar.
+        - id: ch02-b12
+          speaker: window
+          text: Then I'll start creaking.
+        - id: ch02-b13
+          speaker: narrator
+          text: And the window creaked.
+
+    - id: ch03
+      title: The Form and the Walnut Tree
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Outside the house stood an old wooden form. It heard the window creaking and asked what was wrong.
+        - id: ch03-b02
+          speaker: old_form
+          text: Window, why are you creaking?
+        - id: ch03-b03
+          speaker: window
+          text: Titty is dead, Tatty is crying, the stool is hopping, the broom is sweeping, the door is jarring, and that's why I creak.
+        - id: ch03-b04
+          speaker: old_form
+          text: Then I'll run around the house.
+        - id: ch03-b05
+          speaker: narrator
+          text: So the old form ran round and round the house. Beside the cottage grew a fine, tall walnut tree. The tree watched the form pass by.
+        - id: ch03-b06
+          speaker: walnut_tree
+          text: Form, why are you running around the house?
+        - id: ch03-b07
+          speaker: old_form
+          text: Titty is dead, Tatty is crying, the stool is hopping, the broom is sweeping, the door is jarring, the window is creaking, and that's why I run around the house.
+        - id: ch03-b08
+          speaker: walnut_tree
+          text: Then I'll let all my leaves fall.
+        - id: ch03-b09
+          speaker: narrator
+          text: The walnut tree shed every one of its beautiful green leaves.
+
+    - id: ch04
+      title: Feathers and Milk
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: A little bird had been perched on one of the walnut tree's branches. When all the leaves came tumbling down, the bird asked why.
+        - id: ch04-b02
+          speaker: little_bird
+          text: Walnut Tree, why are you dropping all your leaves?
+        - id: ch04-b03
+          speaker: walnut_tree
+          text: Titty is dead, Tatty is crying, the stool is hopping, the broom is sweeping, the door is jarring, the window is creaking, the old form is running around the house, and that's why I shed my leaves.
+        - id: ch04-b04
+          speaker: little_bird
+          text: Then I'll lose all my feathers.
+        - id: ch04-b05
+          speaker: narrator
+          text: So the little bird moulted every one of his pretty feathers. Down below, a little girl was walking past. She carried a jug of milk for her brothers' and sisters' supper. When she saw the poor bird lose his feathers, she stopped to ask him about it.
+        - id: ch04-b06
+          speaker: little_girl
+          text: Little Bird, why are all your feathers falling out?
+        - id: ch04-b07
+          speaker: little_bird
+          text: Titty is dead, Tatty is crying, the stool is hopping, the broom is sweeping, the door is jarring, the window is creaking, the old form is running around the house, the walnut tree is shedding its leaves, and that's why I lose my feathers.
+        - id: ch04-b08
+          speaker: little_girl
+          text: Then I'll spill the milk.
+        - id: ch04-b09
+          speaker: narrator
+          text: The little girl dropped the jug, and all the milk spilled out.
+
+    - id: ch05
+      title: The Final Crash
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Nearby, an old man stood at the top of a ladder, thatching a rick. He saw the girl spill the milk.
+        - id: ch05-b02
+          speaker: old_man
+          text: Little girl, why did you spill that milk? Now your little brothers and sisters will have no supper.
+        - id: ch05-b03
+          speaker: little_girl
+          text: Titty is dead, Tatty is crying, the stool is hopping, the broom is sweeping, the door is jarring, the window is creaking, the old form is running around the house, the walnut tree is shedding all its leaves, the little bird is losing all his feathers, and that's why I spill the milk.
+        - id: ch05-b04
+          speaker: old_man
+          text: Then I'll fall from this ladder and break my neck.
+        - id: ch05-b05
+          speaker: narrator
+          text: The old man tumbled from the ladder and broke his neck. At that very moment, the great walnut tree came crashing down. It knocked over the old form and the house.
+        - id: ch05-b06
+          speaker: narrator
+          text: As the house fell, it knocked out the window. The window knocked down the door, the door toppled the broom, and the broom upset the stool.
+        - id: ch05-b07
+          speaker: narrator
+          text: And poor little Tatty Mouse was buried beneath the ruins.

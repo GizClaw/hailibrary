@@ -1,0 +1,192 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, legendary, and composed
+        timbre: rich and clear
+        pace: measured
+        pitch: medium
+    mistress:
+      display_name: Mistress of the House
+      tts:
+        delivery: kind, practical, and increasingly resolute
+        timbre: warm and mature
+        pace: moderate
+        pitch: medium
+    witch_one:
+      display_name: Witch of One Horn
+      tts:
+        delivery: sharp, commanding, and uncanny
+        timbre: dry and piercing
+        pace: brisk
+        pitch: medium-high
+    witch_two:
+      display_name: Witch of Two Horns
+      tts:
+        delivery: forceful, cold, and impatient
+        timbre: hard and clear
+        pace: rapid
+        pitch: medium
+    witch_three:
+      display_name: Third Witch
+      tts:
+        delivery: harsh, demanding, and uncanny
+        timbre: rough and hollow
+        pace: brisk
+        pitch: medium-low
+    witch_four:
+      display_name: Fourth Witch
+      tts:
+        delivery: fierce, shrill, and vengeful
+        timbre: thin and cutting
+        pace: rapid
+        pitch: high
+    spirit_of_well:
+      display_name: Spirit of the Well
+      tts:
+        delivery: mysterious, guiding, and steady
+        timbre: clear and airy
+        pace: unhurried
+        pitch: medium
+    feet_water:
+      display_name: Feet-Water
+      tts:
+        delivery: firm, distant, and matter-of-fact
+        timbre: fluid and cool
+        pace: measured
+        pitch: medium-high
+    door:
+      display_name: Door
+      tts:
+        delivery: solid, restrained, and immovable
+        timbre: deep and wooden
+        pace: slow
+        pitch: low
+    cake:
+      display_name: Cake
+      tts:
+        delivery: bruised, grave, and unwavering
+        timbre: muted and coarse
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Women at the Fire
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: One night, a rich woman stayed up late to card and prepare wool. Everyone else in the house was asleep, family and servants alike. Then someone knocked at the door, and a voice called from outside.
+        - id: ch01-b02
+          speaker: witch_one
+          text: Open the door! Open!
+        - id: ch01-b03
+          speaker: mistress
+          text: Who is there?
+        - id: ch01-b04
+          speaker: witch_one
+          text: I am the Witch of One Horn.
+        - id: ch01-b05
+          speaker: narrator
+          text: The mistress thought a neighbor had come for help, so she opened the door. In walked a woman carrying a pair of wool-carders. A single horn rose from her forehead as though it grew there. Without a word, she sat beside the fire and began carding the wool with furious speed. Then she stopped and spoke aloud.
+        - id: ch01-b06
+          speaker: witch_one
+          text: Where are the other women? They are taking far too long.
+        - id: ch01-b07
+          speaker: narrator
+          text: A second knock sounded, followed by the same call.
+        - id: ch01-b08
+          speaker: witch_two
+          text: Open the door! Open!
+        - id: ch01-b09
+          speaker: narrator
+          text: The mistress felt she had no choice but to answer. As soon as she opened the door, another witch entered. This one had two horns on her forehead and carried a spinning wheel.
+        - id: ch01-b10
+          speaker: witch_two
+          text: Make room for me. I am the Witch of Two Horns.
+        - id: ch01-b11
+          speaker: narrator
+          text: She set to work, spinning as quickly as lightning. The knocking and calling went on. One witch after another came inside, until twelve women sat around the fire. The first had one horn, and the last had twelve.
+        - id: ch01-b12
+          speaker: narrator
+          text: They carded thread, turned their wheels, wound yarn, and wove cloth. All twelve sang an ancient rhyme together, but not one spoke to the mistress. With their horns and whirling wheels, they were strange to hear and terrifying to see. The mistress thought she might die of fear. She tried to get up and call for help, but the witches' spell held her still and silent. At last, one witch called to her in Irish.
+        - id: ch01-b13
+          speaker: witch_three
+          text: Get up, woman, and bake us a cake.
+        - id: ch01-b14
+          speaker: narrator
+          text: The mistress looked for a vessel so she could fetch water from the well, mix the meal, and make the cake. She could not find one anywhere.
+        - id: ch01-b15
+          speakers: [witch_one, witch_two, witch_three, witch_four]
+          ensemble: chorus
+          text: Take a sieve and carry the water in that.
+    - id: ch02
+      title: The Spirit of the Well
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: She took the sieve down to the well, but the water ran straight through it. There was no way to bring any back for the cake. She sat beside the well and wept.
+        - id: ch02-b02
+          speaker: spirit_of_well
+          text: Gather yellow clay and moss. Bind them together, then plaster the sieve until it can hold water.
+        - id: ch02-b03
+          speaker: narrator
+          text: The voice seemed to come from beside her. The mistress did as it said, and this time the sieve held the water. Then the voice gave her another command.
+        - id: ch02-b04
+          speaker: spirit_of_well
+          text: Go back to the house. When you reach its northern corner, cry out three times, “The mountain of the Fenian women and the sky above it are all on fire!”
+        - id: ch02-b05
+          speaker: narrator
+          text: She returned and called out those words three times. The witches heard her from inside. A dreadful cry burst from them, and they rushed out with wild shrieks and wails. Away they fled to Slievenamon, the mountain where they made their chief home.
+        - id: ch02-b06
+          speaker: narrator
+          text: But the Spirit of the Well told the mistress to go inside. She must prepare the house against the witches' enchantments in case they came back.
+    - id: ch03
+      title: Breaking the Spells
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: First, the mistress took the water in which she had washed her child's feet. To break the witches' spells, she sprinkled that feet-water across the threshold outside the door.
+        - id: ch03-b02
+          speaker: narrator
+          text: While she had been gone, the witches had baked their cake. They had mixed the meal with blood drawn from her sleeping family. She broke the cake into pieces and put one piece into the mouth of every sleeper. At once, they were restored.
+        - id: ch03-b03
+          speaker: narrator
+          text: Next, she took the cloth the witches had woven. She laid it across the chest so that half was inside and half remained outside, then fixed the padlock. Last, she barred the door with a great crossbeam set firmly in the jambs. The witches would not be able to enter. When all was ready, she waited.
+    - id: ch04
+      title: The Witches Return
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The witches soon came back. They raged outside the house and screamed for revenge.
+        - id: ch04-b02
+          speakers: [witch_one, witch_two, witch_three, witch_four]
+          ensemble: chorus
+          text: Open! Open for us, feet-water!
+          emotion: angry
+        - id: ch04-b03
+          speaker: feet_water
+          text: I cannot open the way. I lie scattered on the ground, and my path runs down to the Lough.
+        - id: ch04-b04
+          speakers: [witch_one, witch_two, witch_three, witch_four]
+          ensemble: chorus
+          text: Open, wood and trees! Open, door and beam!
+          emotion: angry
+        - id: ch04-b05
+          speaker: door
+          text: I cannot open. The beam is fixed in the jambs, and I have no power to move.
+        - id: ch04-b06
+          speakers: [witch_one, witch_two, witch_three, witch_four]
+          ensemble: chorus
+          text: Open for us, cake we made and mixed with blood!
+          emotion: angry
+        - id: ch04-b07
+          speaker: cake
+          text: I cannot open. I am broken and bruised, and my blood is on the sleeping children's lips.
+        - id: ch04-b08
+          speaker: narrator
+          text: With great cries, the witches flew through the air and fled back to Slievenamon. As they went, they hurled strange curses at the Spirit of the Well, who had meant to ruin them.
+        - id: ch04-b09
+          speaker: narrator
+          text: The woman and her household were left in peace. One witch had dropped a mantle as she fled, and the mistress hung it up to remember that night. Her family kept the mantle from one generation to the next for five hundred years.

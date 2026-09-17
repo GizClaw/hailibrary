@@ -1,0 +1,326 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    king:
+      display_name: King
+      tts:
+        delivery: dignified but openhearted, with feeling close to the surface
+        timbre: mature and resonant
+        pace: measured
+        pitch: medium-low
+    queen:
+      display_name: Queen
+      tts:
+        delivery: gentle and thoughtful, with quiet royal dignity
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    giant:
+      display_name: Giant
+      tts:
+        delivery: booming and forceful, with a rough, threatening edge
+        timbre: deep and gravelly
+        pace: deliberate
+        pitch: very low
+    hen_wifes_boy:
+      display_name: Hen-Wife's Boy
+      tts:
+        delivery: young and plainspoken, with innocent directness
+        timbre: light and clear
+        pace: medium
+        pitch: high
+    gardeners_boy:
+      display_name: Gardener's Boy
+      tts:
+        delivery: young and straightforward, with a country lilt
+        timbre: clear and youthful
+        pace: medium
+        pitch: medium-high
+    nix_nought_nothing:
+      display_name: Nix Nought Nothing
+      tts:
+        delivery: earnest and brave, growing from youthful candor into steady resolve
+        timbre: clear and youthful
+        pace: medium
+        pitch: medium
+    giants_daughter:
+      display_name: Giant's Daughter
+      tts:
+        delivery: kind, quick-minded, and urgent when danger draws near
+        timbre: bright and warm
+        pace: medium
+        pitch: medium-high
+    hen_wife:
+      display_name: Hen-Wife
+      tts:
+        delivery: sharp and bitter, with tightly held anger
+        timbre: dry and weathered
+        pace: measured
+        pitch: medium
+    gardeners_daughter:
+      display_name: Gardener's Daughter
+      tts:
+        delivery: vain and self-assured, with youthful brightness
+        timbre: light and clear
+        pace: medium-fast
+        pitch: high
+    gardener:
+      display_name: Gardener
+      tts:
+        delivery: practical and direct, with a kindly country manner
+        timbre: sturdy and warm
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Name and the Promise
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Long ago, there lived a king and queen. They had been married many years, but they had no children. At last, while the king was away in distant countries, the queen had a baby boy.
+        - id: ch01-b02
+          speaker: queen
+          text: I will wait until his father comes home before I have him christened. Until then, we shall simply call him Nix Nought Nothing.
+        - id: ch01-b03
+          speaker: narrator
+          text: The king stayed away so long that the baby grew into a fine little lad. At last, the king started home. A great river stood in his path. A whirlpool churned through it, and he could find no way across. Then a giant came up to him.
+        - id: ch01-b04
+          speaker: giant
+          text: I can carry you across the river.
+        - id: ch01-b05
+          speaker: king
+          text: And what do you want in payment?
+        - id: ch01-b06
+          speaker: giant
+          text: Give me Nix Nought Nothing, and I will carry you over on my back.
+        - id: ch01-b07
+          speaker: narrator
+          text: The king had never heard the name his son was using. He thought the giant had asked for nothing at all.
+        - id: ch01-b08
+          speaker: king
+          text: Gladly. You may have that, and my thanks as well.
+        - id: ch01-b09
+          speaker: narrator
+          text: The giant carried him safely across. When the king reached home, he was overjoyed to see his wife and their young son. Then the queen explained why the boy was still waiting for his proper name.
+        - id: ch01-b10
+          speaker: queen
+          text: I never named him while you were gone. I have only called him Nix Nought Nothing until you could come home and name him yourself.
+        - id: ch01-b11
+          speaker: narrator
+          text: At once, the king understood his terrible mistake.
+        - id: ch01-b12
+          speaker: king
+          text: What have I done? I promised Nix Nought Nothing to the giant who carried me over the river.
+          emotion: fearful
+        - id: ch01-b13
+          speaker: narrator
+          text: The king and queen were filled with sorrow. Then they made a plan. When the giant came, they would give him the hen-wife's boy and hope he would never know the difference.
+
+    - id: ch02
+      title: The Giant Claims His Due
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The next day, the giant came to claim the promise. He carried the hen-wife's boy away on his back. After a long journey, he reached a great stone and sat down to rest.
+        - id: ch02-b02
+          speaker: giant
+          text: Hidge, Hodge, riding on my back, what time of day is it?
+        - id: ch02-b03
+          speaker: hen_wifes_boy
+          text: It must be the time when my mother, the hen-wife, gathers the eggs for the queen's breakfast.
+        - id: ch02-b04
+          speaker: narrator
+          text: The giant knew he had been tricked. In a fury, he dashed the poor boy's head against the stone and killed him. Then he stormed back to the king's house. This time, they gave him the gardener's boy.
+        - id: ch02-b05
+          speaker: narrator
+          text: Once again, the giant carried a boy away on his back. Once again, he stopped to rest at the great stone.
+        - id: ch02-b06
+          speaker: giant
+          text: Hidge, Hodge, riding on my back, what time do you say it is?
+        - id: ch02-b07
+          speaker: gardeners_boy
+          text: Why, it must be the time when my mother takes the vegetables in for the queen's dinner.
+        - id: ch02-b08
+          speaker: narrator
+          text: The giant went wild with anger. He dashed the gardener's boy against the stone and killed him too. Then he marched back to the king and queen and threatened to destroy them all unless they gave him Nix Nought Nothing.
+        - id: ch02-b09
+          speaker: narrator
+          text: They could deceive him no longer. They gave him the prince, and the giant carried the boy away. At the great stone, he asked his question once more.
+        - id: ch02-b10
+          speaker: giant
+          text: What time of day is it now?
+        - id: ch02-b11
+          speaker: nix_nought_nothing
+          text: It is the hour when my father, the king, will be sitting down to supper.
+        - id: ch02-b12
+          speaker: giant
+          text: Now I have the right one.
+        - id: ch02-b13
+          speaker: narrator
+          text: The giant took Nix Nought Nothing home with him and raised him there until he was a man.
+
+    - id: ch03
+      title: Three Impossible Tasks
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The giant had a beautiful daughter. As the years passed, she and Nix Nought Nothing became very fond of one another. Then one day, the giant called the young man to him.
+        - id: ch03-b02
+          speaker: giant
+          text: I have a task for you tomorrow. My stable is seven miles long and seven miles wide, and it has not been cleaned for seven years. You must clean it all in one day, or I will eat you for my supper.
+        - id: ch03-b03
+          speaker: narrator
+          text: Early the next morning, Nix Nought Nothing set to work. But whenever he cleared one part of the stable, the filth fell straight back into place. The giant's daughter brought him breakfast and found him in a terrible state. She promised to help.
+        - id: ch03-b04
+          speaker: narrator
+          text: She called to every beast in the fields and every bird in the air. In a moment, they all came rushing and flying to the stable. Together, they carried away everything inside and left it clean before the giant returned.
+        - id: ch03-b05
+          speaker: giant
+          text: Shame on the clever mind that helped you. Tomorrow's task will be worse.
+          emotion: angry
+        - id: ch03-b06
+          speaker: narrator
+          text: Then the giant told Nix Nought Nothing what he must do next.
+        - id: ch03-b07
+          speaker: giant
+          text: There is a lake seven miles long, seven miles wide, and seven miles deep. Drain it before nightfall tomorrow, or I will eat you for my supper.
+        - id: ch03-b08
+          speaker: narrator
+          text: Nix Nought Nothing began at dawn. He dipped his pail into the lake again and again, but the water never fell. Then the giant's daughter called every fish in the sea to come and drink. Soon the fish had swallowed all the water, and the lake was dry.
+        - id: ch03-b09
+          speaker: narrator
+          text: When the giant saw that the second task was finished, rage came over him.
+        - id: ch03-b10
+          speaker: giant
+          text: Tomorrow I will give you a harder task still. There is a tree seven miles high, with no branch until the very top. A nest up there holds seven eggs. Bring every egg down without breaking one, or I will eat you for my supper.
+          emotion: angry
+        - id: ch03-b11
+          speaker: narrator
+          text: At first, the giant's daughter could see no way to help. At last, she cut off her fingers and toes and made them into steps. Nix Nought Nothing climbed the tree and brought the seven eggs down safely. But just as he reached the bottom, one egg broke.
+        - id: ch03-b12
+          speaker: narrator
+          text: They knew they had to flee. The giant's daughter tidied her hair, took her magic flask, and set out with Nix Nought Nothing. Together, they ran as fast as they could.
+
+    - id: ch04
+      title: The Flight from the Giant
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: They had crossed only three fields when they looked behind them. The giant was racing after them at full speed.
+        - id: ch04-b02
+          speaker: giants_daughter
+          text: Quick! Pull the comb from my hair and throw it down!
+          emotion: fearful
+        - id: ch04-b03
+          speaker: narrator
+          text: Nix Nought Nothing threw down the comb. From every tooth sprang a thick, thorny briar that blocked the giant's way. It took him a long time to force his way through, and by then the two young people had run far ahead.
+        - id: ch04-b04
+          speaker: narrator
+          text: Before long, the giant broke free and chased them again. He came so close that he was almost upon them.
+        - id: ch04-b05
+          speaker: giants_daughter
+          text: Take the dagger from my hair! Throw it down, quickly!
+          emotion: fearful
+        - id: ch04-b06
+          speaker: narrator
+          text: Nix Nought Nothing cast the hair dagger behind him. At once, it grew into a dense hedge of sharp razors, crossed one over another. The giant had to pick his way through with great care. Meanwhile, the young lovers ran on and on until they were nearly out of sight.
+        - id: ch04-b07
+          speaker: narrator
+          text: At last, the giant passed the razor hedge. He gained on them quickly. Soon he was stretching out his hand to seize Nix Nought Nothing.
+        - id: ch04-b08
+          speaker: narrator
+          text: The giant's daughter snatched out her magic flask and smashed it on the ground. A great wave poured from the broken flask. It rose to the giant's waist, then to his neck, and then over his head. The water drowned him completely, and that was the end of the giant.
+
+    - id: ch05
+      title: The Spell at the Castle
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Nix Nought Nothing and the giant's daughter kept going. And where do you think their road led? It brought them close to the castle where his father and mother lived.
+        - id: ch05-b02
+          speaker: narrator
+          text: By then, the giant's daughter was so weary that she could not take another step. Nix Nought Nothing asked her to wait while he went ahead and found them somewhere to spend the night. Then he walked toward the castle lights.
+        - id: ch05-b03
+          speaker: narrator
+          text: On the way, he came to the cottage of the hen-wife. Her son was the first boy the giant had killed at the great stone. She recognized Nix Nought Nothing at once, and she hated him because his escape from the giant had led to her son's death.
+        - id: ch05-b04
+          speaker: narrator
+          text: Nix Nought Nothing asked her to show him the way to the castle. Instead, the hen-wife put a spell on him. As soon as the castle doors opened and he stepped inside, he fell into a deep sleep on a bench in the hall.
+        - id: ch05-b05
+          speaker: narrator
+          text: The king and queen tried everything they could think of, but nothing woke the sleeping stranger. At last, the king promised that any lady who could wake him would become his wife.
+        - id: ch05-b06
+          speaker: narrator
+          text: All this time, the giant's daughter waited for Nix Nought Nothing to return. She waited and waited. At last, she climbed into a tree so she could watch for him.
+
+    - id: ch06
+      title: The Shadow in the Well
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: The gardener's daughter came to the well to draw water. When she looked down, she saw the reflection of the beautiful lady sitting in the tree above her. But she thought the face in the water was her own.
+        - id: ch06-b02
+          speaker: gardeners_daughter
+          text: If I am so beautiful and so grand, why should anyone send me to fetch water?
+        - id: ch06-b03
+          speaker: narrator
+          text: She threw down her pail and went to see whether she might marry the sleeping stranger. First, she visited the hen-wife. The hen-wife taught her a little counter-charm that would keep Nix Nought Nothing awake for as long as the gardener's daughter wished.
+        - id: ch06-b04
+          speaker: narrator
+          text: The gardener's daughter went up to the castle and sang the charm. Nix Nought Nothing woke for a little while. Since she appeared to have broken the spell, it was agreed that she would marry him.
+        - id: ch06-b05
+          speaker: narrator
+          text: Later, the gardener himself went to the well for water. He saw the same lovely face reflected there. This time, he looked up. He found the giant's daughter in the tree, helped her down, and brought her into his house.
+        - id: ch06-b06
+          speaker: gardener
+          text: A stranger at the castle is to marry my daughter. Come with me, and I will show you the man.
+        - id: ch06-b07
+          speaker: narrator
+          text: The gardener led her to the castle. There, asleep in a chair, sat Nix Nought Nothing. The giant's daughter knew him at once.
+        - id: ch06-b08
+          speaker: giants_daughter
+          text: Wake up! Please wake and speak to me!
+          emotion: sad
+        - id: ch06-b09
+          speaker: narrator
+          text: But Nix Nought Nothing did not stir. She called to him again, telling him what she had done for his sake.
+        - id: ch06-b10
+          speaker: giants_daughter
+          text: I cleaned the stable, I emptied the lake, and I climbed the tree. I did it all for love of you, yet you will not wake and speak to me.
+          emotion: sad
+
+    - id: ch07
+      title: Nix Nought Nothing Awakens
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: The king and queen heard her words and came to the beautiful young woman.
+        - id: ch07-b02
+          speaker: giants_daughter
+          text: No matter what I try, I cannot make Nix Nought Nothing speak to me.
+          emotion: sad
+        - id: ch07-b03
+          speaker: narrator
+          text: The king and queen were astonished to hear that name. They asked her where Nix Nought Nothing was.
+        - id: ch07-b04
+          speaker: giants_daughter
+          text: He is the man sitting there in the chair.
+        - id: ch07-b05
+          speaker: narrator
+          text: They hurried to him, kissed him, and called him their own dear son. Then they sent for the gardener's daughter and ordered her to sing the charm again.
+        - id: ch07-b06
+          speaker: narrator
+          text: The gardener's daughter sang, and Nix Nought Nothing woke. He told his father and mother everything the giant's daughter had done for him. He told them of her kindness, of the impossible tasks she had helped him finish, and of their flight from the giant.
+        - id: ch07-b07
+          speaker: narrator
+          text: The king and queen embraced and kissed the giant's daughter. They said she would now be their daughter, because their son would marry her.
+        - id: ch07-b08
+          speaker: narrator
+          text: The hen-wife was sent for and put to death. And after that, they lived happily for all their days.

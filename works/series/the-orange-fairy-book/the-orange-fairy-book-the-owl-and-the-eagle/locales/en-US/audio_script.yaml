@@ -1,0 +1,199 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: "steady, vivid folktale storytelling"
+        timbre: "warm and resonant"
+        pace: "measured"
+        pitch: "medium"
+    owl:
+      display_name: The Owl
+      tts:
+        delivery: "courteous, thoughtful, and softly spoken"
+        timbre: "low and rounded"
+        pace: "unhurried"
+        pitch: "medium-low"
+    eagle:
+      display_name: The Eagle
+      tts:
+        delivery: "direct, capable, and good-natured"
+        timbre: "strong and clear"
+        pace: "steady"
+        pitch: "medium-low"
+    elder_sister:
+      display_name: The Elder Sister
+      tts:
+        delivery: "resourceful, brave, and matter-of-fact"
+        timbre: "warm and firm"
+        pace: "measured"
+        pitch: "medium"
+    younger_sister:
+      display_name: The Younger Sister
+      tts:
+        delivery: "openhearted, alert, and courageous"
+        timbre: "bright and clear"
+        pace: "natural"
+        pitch: "medium-high"
+    frog:
+      display_name: The Frog Boy
+      tts:
+        delivery: "young, stubborn, and blunt"
+        timbre: "small and throaty"
+        pace: "quick"
+        pitch: "high"
+    ogress:
+      display_name: The Ogress
+      tts:
+        delivery: "thundering, cruel, and menacing"
+        timbre: "harsh and heavy"
+        pace: "deliberate"
+        pitch: "low"
+  chapters:
+    - id: ch01
+      title: Two Friends and Two Wives
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "Once upon a time, in a wild country where deep snow covered the ground for much of the year, an owl and an eagle became great friends. Though very different, they shared a home. The eagle hunted by day, and the owl by night. They rarely saw each other, which may have helped them get along. They were perfectly happy except that each wanted a wife."
+        - id: ch01-b02
+          speaker: eagle
+          text: "By the time I come home each evening, I'm too tired to clean the house."
+        - id: ch01-b03
+          speaker: owl
+          text: "And after hunting all night, I'm far too sleepy at dawn to sweep and dust."
+        - id: ch01-b04
+          speaker: narrator
+          text: "So both birds decided to find wives. In their spare time, they called on the young women they knew. But every one said she wanted one husband, not two. The birds began to lose hope. Then one evening, they returned from hunting together and found two sisters asleep on their beds. The eagle looked at the owl, and the owl looked back."
+        - id: ch01-b05
+          speakers: [eagle, owl]
+          ensemble: duo
+          text: "They'll make excellent wives, if only they'll stay with us."
+        - id: ch01-b06
+          speaker: narrator
+          text: "The birds flew off to wash and make themselves look smart before the sisters woke. The young women slept for hours. They had traveled a long way from a town where there was scarcely any food, and they were weak and weary. At last, they opened their eyes and saw the owl and the eagle watching them."
+        - id: ch01-b07
+          speaker: owl
+          text: "I hope you've had a good rest."
+        - id: ch01-b08
+          speakers: [elder_sister, younger_sister]
+          ensemble: duo
+          text: "Yes, thank you. But we're terribly hungry. Could you please give us something to eat?"
+        - id: ch01-b09
+          speaker: eagle
+          text: "Of course!"
+        - id: ch01-b10
+          speaker: narrator
+          text: "The eagle flew to a farmhouse a mile or two away and brought back a nest of eggs in his strong beak. The owl took a tin pot to a cottage where an old woman kept a cow. He slipped through the shed window and dipped it into a pail of fresh milk. Delighted by their kind and clever hosts, the sisters agreed at once when the birds asked them to marry and stay forever. The eagle married the younger sister, and the owl married the elder. No home could have been more peaceful."
+    - id: ch02
+      title: The Missing Husbands
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "Several months passed happily. Then, on the very same day, the eagle's wife had a son and the owl's wife gave birth to a frog. The frog did not seem to like the house, so his mother placed him beside a nearby stream. Both children grew quickly. They never tired of playing together and wanted no other companions."
+        - id: ch02-b02
+          speaker: narrator
+          text: "One spring night, after the ice and snow were gone, the sisters sat spinning as they waited for their husbands. The owl and the eagle did not return that night, the next day, or for days afterward. At last, the wives gave up hope of their return. But they were sensible women. Instead of sitting down to cry, they called their children and set out to search the whole world for their husbands."
+        - id: ch02-b03
+          speaker: narrator
+          text: "The sisters had no idea which way the birds had gone. But some distance away stood a thick forest where the hunting was good. Perhaps their husbands were there, or someone had news of them. Glad to be doing something, the women walked quickly. The younger sister went a little ahead and suddenly cried out."
+        - id: ch02-b04
+          speaker: younger_sister
+          text: "Oh, look at that lake! We'll never be able to cross it."
+          emotion: surprised
+        - id: ch02-b05
+          speaker: elder_sister
+          text: "Yes, we will. I know exactly what to do."
+        - id: ch02-b06
+          speaker: narrator
+          text: "The elder sister took a long piece of string from her pocket and fastened it in the frog's mouth like a bit. Then she bent down and placed him in the water."
+        - id: ch02-b07
+          speaker: elder_sister
+          text: "Swim across the lake. We'll walk over the line behind you."
+        - id: ch02-b08
+          speaker: narrator
+          text: "And that was what they did. But when they reached the middle of the lake, the frog boy stopped."
+        - id: ch02-b09
+          speaker: frog
+          text: "I don't like this, and I won't go another step!"
+          emotion: angry
+        - id: ch02-b10
+          speaker: narrator
+          text: "His mother had to promise him all kinds of good things before he would move again. At last, they reached the far shore. The owl's wife removed the line and told the frog to rest and play by the lake until they returned. Then the sisters and the eagle's son continued toward the great forest."
+    - id: ch03
+      title: The Hut in the Forest
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "They had traveled a long way by then, and they were very tired. So they were glad to see smoke curling from a little hut in front of them."
+        - id: ch03-b02
+          speaker: younger_sister
+          text: "Let's go inside and ask for some water."
+        - id: ch03-b03
+          speaker: narrator
+          text: "They entered the hut. At first, it was too dark to see. Then a weak croak came from one corner. The sisters turned and found their husbands. The owl and the eagle were tied by their wings and feet with deer thongs, and their eyes were sunken."
+        - id: ch03-b04
+          speaker: narrator
+          text: "Quick as lightning, the wives cut their bonds. Pain and hunger had left the birds able only to make soft sounds of joy. But hardly were they free when a voice like thunder made both sisters jump. The little boy clung tightly to his mother."
+        - id: ch03-b05
+          speaker: ogress
+          text: "What are you doing in my house?"
+          emotion: angry
+        - id: ch03-b06
+          speakers: [elder_sister, younger_sister]
+          ensemble: duo
+          text: "We've found our husbands, and we're going to save them from a wicked witch like you."
+        - id: ch03-b07
+          speaker: narrator
+          text: "The two wives answered boldly. The ogress gave them a hideous grin."
+        - id: ch03-b08
+          speaker: ogress
+          text: "Then I'll give you a chance. Let's see whether you can slide down this mountain. Reach the bottom of the cavern, and you may have your husbands back."
+        - id: ch03-b09
+          speaker: narrator
+          text: "She drove them out of the hut and up to the edge of a precipice that dropped straight down for hundreds of feet. Without letting the witch see, the elder sister tied one end of the magic line around herself. She whispered to the little boy to hold tightly to the other end. She had barely finished when the witch turned around."
+        - id: ch03-b10
+          speaker: ogress
+          text: "You don't seem very pleased with our bargain."
+        - id: ch03-b11
+          speaker: elder_sister
+          text: "Oh, I'm ready. I was only waiting for you."
+        - id: ch03-b12
+          speaker: narrator
+          text: "She sat down and slid deeper and deeper, until even the witch could not see her. Thinking her dead, the witch ordered the younger sister to take her place. Just then, the elder sister's head rose above the rock, pulled up by the magic line. The witch howled with disgust and covered her face. While she was not looking, the younger sister tied the cord around her waist."
+    - id: ch04
+      title: The Ogress's Challenges
+      blocks:
+        - id: ch04-b01
+          speaker: ogress
+          text: "You can't hope to be that lucky twice."
+        - id: ch04-b02
+          speaker: narrator
+          text: "The younger sister slid over the edge. A few minutes later, she too came back. The witch knew she had failed and feared her power was fading. Though trembling with rage, she hid it behind another hideous laugh."
+        - id: ch04-b03
+          speaker: ogress
+          text: "I won't release my prisoners so easily! Make my hair as thick and black as yours, or your husbands will never see daylight again."
+          emotion: angry
+        - id: ch04-b04
+          speaker: elder_sister
+          text: "That's simple enough. But you'll have to endure the same treatment we did, and you may not enjoy it."
+        - id: ch04-b05
+          speaker: ogress
+          text: "If you could bear it, then of course I can."
+        - id: ch04-b06
+          speaker: narrator
+          text: "The sisters told her that they had smeared pitch over their heads and then put hot stones on top."
+        - id: ch04-b07
+          speakers: [elder_sister, younger_sister]
+          ensemble: duo
+          text: "It hurts terribly, but we don't know any other way. To make certain it works, one of us will hold you still while the other pours on the pitch."
+        - id: ch04-b08
+          speaker: narrator
+          text: "And so they began. The elder sister let down her own long hair until it hung over the witch's eyes. That made the ogress believe her new hair was already growing. Then the younger sister brought an enormous stone. That was the end of the witch. The sisters were savages who had never seen a missionary."
+    - id: ch05
+      title: A New Home
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: "When the sisters saw that the witch was dead, they returned to the hut. They cared for their husbands until the owl and the eagle were strong again. Then they collected the frog from the lakeside, and all of them crossed the great lake to make another home on the other side."

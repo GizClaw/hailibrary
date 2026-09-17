@@ -1,0 +1,185 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容机敏，带着温和而克制的诙谐
+        timbre: 温暖清晰的成熟男声
+        pace: 舒缓而富有变化
+        pitch: 中低
+    king:
+      display_name: 国王
+      tts:
+        delivery: 温和克制，烦恼时迟疑，决断时严肃坚定
+        timbre: 沉稳清晰的成年男声
+        pace: 适中
+        pitch: 中低
+    queen:
+      display_name: 王后
+      tts:
+        delivery: 骄傲执拗，追问时急切尖锐
+        timbre: 明亮有力的成年女声
+        pace: 稍快
+        pitch: 中高
+    ant_1:
+      display_name: 搬米的蚂蚁
+      tts:
+        delivery: 忙碌直率，回答干脆利落
+        timbre: 轻细清亮的年轻男声
+        pace: 稍快
+        pitch: 高
+    ant_2:
+      display_name: 脏靴子的蚂蚁
+      tts:
+        delivery: 客气恳切，又格外讲究礼数
+        timbre: 轻柔细小的年轻女声
+        pace: 适中
+        pitch: 高
+    billy_goat:
+      display_name: 公山羊
+      tts:
+        delivery: 老练直率，不耐烦时带着粗厉的讥讽
+        timbre: 粗哑厚实的老年男声
+        pace: 稍缓
+        pitch: 低
+    nanny_goat:
+      display_name: 母山羊
+      tts:
+        delivery: 贪嘴任性，央求时急切缠人
+        timbre: 略尖而有活力的成年女声
+        pace: 稍快
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 会说话的米粒
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前有位国王，听得懂飞禽走兽和虫豸说的话。这本领是仙女教母送给他的，却算不上省心的礼物。他一旦把听来的秘密说出去，立刻就会变成石头。在这个故事开始以前，他究竟怎样忍住了那么多年，我也不知道。总之，他平安长大，娶了妻子，日子过得和国王们通常一样幸福。
+        - id: ch01-b02
+          speaker: narrator
+          text: 我得告诉你，这位国王是个印度教徒。印度教徒吃饭，会在地上选一小块地方，刚刚用泥抹得干干净净，再只穿很少的衣服坐在正中。那可跟我们的吃法很不一样。
+        - id: ch01-b03
+          speaker: narrator
+          text: 有一天，国王就在这样一块用泥抹过、干净齐整的地方吃饭。王后坐在对面，一边服侍他，一边陪着他。国王吃着吃着，几粒米饭掉在地上。一只忙着四处寻找食物的小蚂蚁抓起一粒，朝自己的洞穴搬去。它刚走出国王用餐的圈子，就碰见另一只蚂蚁。国王听见后来那只开口央求。
+        - id: ch01-b04
+          speaker: ant_2
+          text: 好朋友，把这粒米让给我吧，你再拿一粒就好。我的靴子太脏了，要是走进国王吃饭的地方，准会把那里弄脏。那多失礼呀，我可不能进去。
+        - id: ch01-b05
+          speaker: narrator
+          text: 搬着米的蚂蚁一点也不客气。
+        - id: ch01-b06
+          speaker: ant_1
+          text: 你想吃米，就自己去拿。谁会留意你的脏靴子？难道咱们所有亲戚的米，都得由我来搬吗？
+        - id: ch01-b07
+          speaker: narrator
+          text: 国王听懂了，忍不住笑出声。王后把自己从头到脚仔细看了一遍。她既没看出，也没感觉到自己的模样有什么地方值得丈夫发笑。
+        - id: ch01-b08
+          speaker: queen
+          text: 你在笑什么？
+        - id: ch01-b09
+          speaker: king
+          text: 我笑了吗？
+        - id: ch01-b10
+          speaker: queen
+          text: 当然笑了！你要是觉得我可笑，就干脆说出来，别做出这副蠢样子。你到底笑什么？
+        - id: ch01-b11
+          speaker: king
+          text: 我没笑什么。
+        - id: ch01-b12
+          speaker: queen
+          text: 可你明明笑了，我一定要知道为什么。
+        - id: ch01-b13
+          speaker: king
+          text: 恐怕这件事不能告诉你。
+        - id: ch01-b14
+          speaker: queen
+          text: 你非说不可！没什么好笑的，你却突然发笑，不是病了，就是疯了。你到底怎么回事？
+          emotion: angry
+    - id: ch02
+      title: 国王的秘密
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 国王仍旧不肯开口，王后却一遍遍说，自己一定要知道，而且非知道不可。这场争吵拖了好几天，她闹得丈夫片刻不得安宁。可怜的国王几乎被逼疯了。他觉得，只要争吵不停，活着也没什么意思，索性说出秘密，任凭那个可怕的后果降临算了。
+        - id: ch02-b02
+          speaker: king
+          text: 不过，我就算非变成石头不可，只要还有得选，也绝不要躺在尘土飞扬的大路上。人和牲口会把我踢来踢去，有人会拿我打狗，顽皮孩子还会拿我当玩物，害得我四处滚动，永远不得安宁，只能受苦。我要沉到清凉的河底，在水下轻轻滚动，直到找到一处稳妥的落脚地，永远留在那里。
+        - id: ch02-b03
+          speaker: narrator
+          text: 于是，国王告诉妻子，只要她愿意和自己骑马来到河中央，他就说出那天发笑的原因。王后以为丈夫是在开玩笑，笑着答应了。两人随即命人备好马，一同上路。
+        - id: ch02-b04
+          speaker: narrator
+          text: 途中，他们在几棵高大繁茂的树下看见一口漂亮的水井，宽展的枝叶遮出一片浓荫。国王提议下马歇一会儿，喝些清凉的井水再走。王后答应了。两个人便下了马，坐到井边的树荫里休息。
+    - id: ch03
+      title: 井边的山羊
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 附近恰好有一只老公山羊和它的妻子在四处吃草。国王和王后坐着休息时，母山羊来到井沿，探头往下一看，井壁上竟抽出几枝鲜嫩可爱的绿叶，正朝井里伸展。
+        - id: ch03-b02
+          speaker: nanny_goat
+          text: 快来瞧呀！这里的叶子馋得我直流口水。你快替我把它们弄上来！
+        - id: ch03-b03
+          speaker: narrator
+          text: 公山羊慢悠悠地走来，往井里看了看，又有些恼火地瞧着妻子。
+        - id: ch03-b04
+          speaker: billy_goat
+          text: 你想让我去拿那些叶子？那你倒说说，我究竟怎么才够得着？你根本没想过。你要是肯动动脑子，就该知道我一伸头去够，准会掉进井里淹死！
+          emotion: angry
+        - id: ch03-b05
+          speaker: nanny_goat
+          text: 你怎么会掉下去呢？试一试嘛，替我拿来！
+        - id: ch03-b06
+          speaker: billy_goat
+          text: 我才不干这种傻事。
+        - id: ch03-b07
+          speaker: narrator
+          text: 母山羊还是不停地哭求。公山羊终于忍无可忍。
+        - id: ch03-b08
+          speaker: billy_goat
+          text: 听着，世上的傻瓜多得很，我可不是其中一个。你瞧那个蠢国王，他治不住妻子，不让她问个没完，竟打算白白送命。可我知道怎么治你这股傻劲儿，现在就治给你看。
+          emotion: angry
+        - id: ch03-b09
+          speaker: narrator
+          text: 说完，公山羊狠狠顶了妻子一顿。不到两分钟，母山羊就服服帖帖地走开，到别处吃草去了。它已经拿定主意，井里的叶子根本不值得费心。国王把这番话听得一清二楚，又一次笑出声来。
+    - id: ch04
+      title: 不再追问
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 王后满腹怀疑地望着丈夫。国王却站起身，穿过两人之间的空地，走到她坐着的地方。
+        - id: ch04-b02
+          speaker: king
+          text: 你还是非要知道，我那天为什么发笑吗？
+        - id: ch04-b03
+          speaker: queen
+          text: 当然要知道。
+          emotion: angry
+        - id: ch04-b04
+          speaker: king
+          text: 那好。我已经决定不告诉你了，而且我要叫你以后再也不提这件事。
+        - id: ch04-b05
+          speaker: narrator
+          text: 国王说着，用马鞭轻轻敲了敲自己的腿。王后顿时不安起来。
+        - id: ch04-b06
+          speaker: queen
+          text: 你这话究竟是什么意思？
+          emotion: fearful
+        - id: ch04-b07
+          speaker: king
+          text: 我刚才看见，那只公山羊只要对妻子不满意，就用角顶它一下，事情马上解决了——
+        - id: ch04-b08
+          speaker: queen
+          text: 你是说，你要打我？
+          emotion: surprised
+        - id: ch04-b09
+          speaker: king
+          text: 要是非这么做不可，我会非常难过。可我总得让你乖乖回家。以后我说有些问题不能回答，你就别再追着问了。当然，你要是偏不肯罢休，那么——
+        - id: ch04-b10
+          speaker: narrator
+          text: 王后回家去了，国王也回家去了。据说从那以后，他们两个人都比过去更幸福，也更聪明了。
+        - id: ch04-b11
+          speaker: narrator
+          text: 这个故事来自旁遮普，由坎贝尔少校采录于费罗兹普尔。

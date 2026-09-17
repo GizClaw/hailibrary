@@ -1,0 +1,82 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    teeny_tiny_woman:
+      display_name: Teeny-Tiny Woman
+      tts:
+        delivery: small and precise, growing shakier as fear rises
+        timbre: light and delicate
+        pace: measured
+        pitch: high
+    cupboard_voice:
+      display_name: Voice from the Cupboard
+      tts:
+        delivery: eerie and insistent, returning each time with greater force
+        timbre: thin and hollow
+        pace: slow
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The Bone in the Churchyard
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, a teeny-tiny woman lived in a teeny-tiny house in a teeny-tiny village. One day, she put on her teeny-tiny bonnet and left her teeny-tiny house for a teeny-tiny walk.
+        - id: ch01-b02
+          speaker: narrator
+          text: The teeny-tiny woman had gone only a teeny-tiny way when she came to a teeny-tiny gate. She opened the teeny-tiny gate and stepped into a teeny-tiny churchyard. There, on a teeny-tiny grave, the teeny-tiny woman saw a teeny-tiny bone.
+        - id: ch01-b03
+          speaker: teeny_tiny_woman
+          text: This teeny-tiny bone will make some teeny-tiny soup for my teeny-tiny supper.
+        - id: ch01-b04
+          speaker: narrator
+          text: The teeny-tiny woman slipped the teeny-tiny bone into her teeny-tiny pocket. Then she went home to her teeny-tiny house.
+
+    - id: ch02
+      title: The Voice in the Cupboard
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: When the teeny-tiny woman reached home, she felt a teeny-tiny bit tired. She climbed her teeny-tiny stairs to her teeny-tiny bed and put the bone away in a teeny-tiny cupboard. Then she slept for a teeny-tiny time.
+        - id: ch02-b02
+          speaker: narrator
+          text: A teeny-tiny voice from inside the cupboard woke her.
+        - id: ch02-b03
+          speaker: cupboard_voice
+          text: Give me back my bone!
+        - id: ch02-b04
+          speaker: narrator
+          text: The teeny-tiny woman was a teeny-tiny bit frightened. She tucked her teeny-tiny head beneath the teeny-tiny bedclothes and went back to sleep.
+        - id: ch02-b05
+          speaker: narrator
+          text: The teeny-tiny woman slept again for a teeny-tiny time. Then the teeny-tiny voice called from the teeny-tiny cupboard once more. This time, it was a teeny-tiny bit louder.
+        - id: ch02-b06
+          speaker: cupboard_voice
+          text: Give me back my bone!
+        - id: ch02-b07
+          speaker: narrator
+          text: Now the teeny-tiny woman was more frightened. She pushed her teeny-tiny head even farther beneath the teeny-tiny bedclothes.
+
+    - id: ch03
+      title: The Loudest Teeny-Tiny Voice
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The teeny-tiny woman slept for another teeny-tiny time. Then the teeny-tiny voice came from inside the teeny-tiny cupboard once more. This time, it was a teeny-tiny bit louder.
+        - id: ch03-b02
+          speaker: cupboard_voice
+          text: Give me back my bone!
+        - id: ch03-b03
+          speaker: narrator
+          text: The teeny-tiny woman was more frightened still. But this time, she poked her teeny-tiny head out from beneath the teeny-tiny bedclothes. Then, in the loudest teeny-tiny voice she had, she answered.
+        - id: ch03-b04
+          speaker: teeny_tiny_woman
+          text: TAKE IT!
+          emotion: fearful

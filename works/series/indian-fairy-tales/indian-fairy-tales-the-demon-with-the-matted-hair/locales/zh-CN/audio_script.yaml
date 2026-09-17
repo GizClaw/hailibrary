@@ -1,0 +1,214 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 郑重而亲切，带着学者讲述旧日故事的从容
+        timbre: 温暖清晰，沉稳而有书卷气
+        pace: 舒缓，论述转折处稍作停顿
+        pitch: 中低
+    teacher:
+      display_name: 导师
+      tts:
+        delivery: 慈悲庄重，开示时平和而坚定
+        timbre: 深厚清朗
+        pace: 舒缓
+        pitch: 中低
+    brother:
+      display_name: 弟子
+      tts:
+        delivery: 恭敬低沉，答话简短
+        timbre: 温和朴实
+        pace: 稍缓
+        pitch: 中
+    brahmin_1:
+      display_name: 婆罗门一
+      tts:
+        delivery: 庄重笃定，如宣告吉兆
+        timbre: 苍老清晰
+        pace: 适中偏慢
+        pitch: 中低
+    brahmin_2:
+      display_name: 婆罗门二
+      tts:
+        delivery: 庄重笃定，如宣告吉兆
+        timbre: 沉稳清晰
+        pace: 适中偏慢
+        pitch: 中
+    brahmin_3:
+      display_name: 婆罗门三
+      tts:
+        delivery: 庄重笃定，如宣告吉兆
+        timbre: 温厚清晰
+        pace: 适中偏慢
+        pitch: 中低
+    king:
+      display_name: 国王
+      tts:
+        delivery: 威严慈爱，对王子寄予厚望
+        timbre: 浑厚端正
+        pace: 适中
+        pitch: 中低
+    prince:
+      display_name: 五兵王子
+      tts:
+        delivery: 年轻勇毅，临危时果断无畏
+        timbre: 清朗有力
+        pace: 适中
+        pitch: 中
+    traveler_1:
+      display_name: 路人一
+      tts:
+        delivery: 热心急切，警告时十分紧张
+        timbre: 粗亮清楚
+        pace: 偏快
+        pitch: 中
+    traveler_2:
+      display_name: 路人二
+      tts:
+        delivery: 热心急切，警告时十分紧张
+        timbre: 明亮清楚
+        pace: 偏快
+        pitch: 中高
+    demon:
+      display_name: 乱发妖魔
+      tts:
+        delivery: 起初凶暴狂妄，后来惊惧而驯服
+        timbre: 粗沉低哑
+        pace: 适中偏慢
+        pitch: 低
+  chapters:
+    - id: ch01
+      title: 不肯精进的弟子
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 在祇园精舍里，有一位弟子不肯再精进修行。导师知道以后，便把他叫来。
+        - id: ch01-b02
+          speaker: teacher
+          text: 你当真已经不肯再努力了吗？
+        - id: ch01-b03
+          speaker: brother
+          text: 是的，世尊。
+        - id: ch01-b04
+          speaker: teacher
+          text: 弟子啊，往昔的智者懂得在该努力的时候奋发不懈，所以最终登上了王位。
+        - id: ch01-b05
+          speaker: narrator
+          text: 说到这里，导师讲起一桩久远以前的故事。
+    - id: ch02
+      title: 五兵王子
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 从前，梵授王统治着贝拿勒斯。那时，菩萨投生为王后的儿子。王子命名的那一天，宫里请来八百位婆罗门，满足了他们所有的愿望，又请他们察看王子的吉相。那些精通相术的婆罗门见他相貌非凡，便一同作出预言。
+        - id: ch02-b02
+          speakers: [brahmin_1, brahmin_2, brahmin_3]
+          ensemble: chorus
+          text: 大王，您的儿子福德深厚。您去世以后，他会继承王位。他将精通五般兵器，名扬四方，成为全印度最出众的人物。
+        - id: ch02-b03
+          speaker: narrator
+          text: 众人听过这番话，便给他取名五兵王子。所谓五兵，就是剑、矛、弓、战斧和盾牌。王子渐渐长大，到了十六岁那年，国王叫他前来。
+        - id: ch02-b04
+          speaker: king
+          text: 孩子，你该去完成学业了。
+        - id: ch02-b05
+          speaker: prince
+          text: 父王，我该拜谁为师呢？
+        - id: ch02-b06
+          speaker: king
+          text: 犍陀罗国的塔克西拉城里，有一位远近闻名的老师。你去跟他求学吧。这一千枚钱币拿去交作学费。
+        - id: ch02-b07
+          speaker: narrator
+          text: 国王说完，便送儿子上路。王子来到塔克西拉，在那位老师门下学成了本领。临别时，老师又把五般兵器赠给他。王子辞别老师，带着这些兵器，踏上了返回贝拿勒斯的路。
+    - id: ch03
+      title: 乱发妖魔
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 途中，王子来到一片森林。林中住着一个乱发妖魔。王子刚走到林边，几名路人看见他，急忙高声阻拦。
+        - id: ch03-b02
+          speakers: [traveler_1, traveler_2]
+          ensemble: duo
+          text: 年轻人，千万别进去！林子里有个乱发妖魔，谁叫他撞见，谁就活不了！
+          emotion: fearful
+        - id: ch03-b03
+          speaker: narrator
+          text: 路人们竭力想拦住王子，可王子深信自己的本领。他毫不害怕，像一头鬃毛威武的雄狮，径直走进林中。到了森林深处，妖魔出现了。他把身子变得和棕榈树一样高，脑袋大如宝塔，双眼好似盘子。两根獠牙上尽是瘤结，脸像鹰隼，肚皮斑斓，手脚一片青蓝。
+        - id: ch03-b04
+          speaker: demon
+          text: 你要上哪儿去？站住！正好给我当一顿饭！
+          emotion: angry
+        - id: ch03-b05
+          speaker: prince
+          text: 妖魔，我敢走进来，靠的是自己的本领。你想靠近我，可得小心。我这支箭蘸了剧毒，一箭就能叫你倒下！
+        - id: ch03-b06
+          speaker: narrator
+          text: 王子把毒箭搭上弓弦，一箭射去。那支箭却牢牢粘在妖魔的乱发里。他不停地射，一连射出五十支箭，结果每一支都粘住了。妖魔把箭全部折断，扔在脚边，随后向他逼近。王子拔出三十三英寸长的剑，一面喝斥，一面挥剑就砍，剑也粘在乱发里。他又用长矛去刺，长矛也粘住了。再抡起棍棒去打，棍棒还是没有例外。
+        - id: ch03-b07
+          speaker: prince
+          text: 妖魔，你难道没听说过五兵王子吗？我明知这是你的森林还敢进来，凭的可不是弓箭和兵器。今天，我非把你砸烂，碾成粉末不可！
+        - id: ch03-b08
+          speaker: narrator
+          text: 王子喊了一声，挥起右拳打去，右手粘住了。他再用左拳打，左手也粘住了。他抬起右脚去踢，右脚粘住了。换上左脚，左脚还是粘住了。最后，他用脑袋猛撞妖魔。
+        - id: ch03-b09
+          speaker: prince
+          text: 我一定要把你砸成粉末！
+        - id: ch03-b10
+          speaker: narrator
+          text: 这一回，连他的脑袋也牢牢粘住了。王子的身体被五处缠住，整个人悬在半空。可他毫无惧色，连一丝慌乱也没有。
+    - id: ch04
+      title: 藏在腹中的霹雳
+      blocks:
+        - id: ch04-b01
+          speaker: demon
+          text: 这是个雄狮般的男子，是个高贵的勇士，简直不是凡人！他落在我这样的妖魔手里，怎么一点也不怕？我在这条路上横行这么久，从没见过这样的人。他究竟为什么不怕？
+          emotion: surprised
+        - id: ch04-b02
+          speaker: narrator
+          text: 妖魔心里这样想着，竟不敢把王子吃掉，只得开口问他。
+        - id: ch04-b03
+          speaker: demon
+          text: 年轻人，你为什么没有吓得要死？
+        - id: ch04-b04
+          speaker: prince
+          text: 妖魔，我为什么要怕？人活一世，只能死一次。再说，我肚子里藏着一枚霹雳。你要是吃了我，绝对消化不了它。它会把你的五脏六腑撕碎，让你送命。到头来，我们两个一起死。所以，我什么也不怕。
+        - id: ch04-b05
+          speaker: narrator
+          text: 王子所说的霹雳，其实是他心中的智慧之兵。妖魔听完，信以为真。
+        - id: ch04-b06
+          speaker: demon
+          text: 这个年轻人说的是真话。像他这样勇猛如狮的人，哪怕只吃下一块菜豆那么大的肉，我也一定消化不了。还是放他走吧！
+          emotion: fearful
+        - id: ch04-b07
+          speaker: narrator
+          text: 妖魔怕得要命，立刻放开王子。
+        - id: ch04-b08
+          speaker: demon
+          text: 年轻人，你真是雄狮一样的勇士！我不吃你了。月食过后，罗睺会把月亮从口中吐出来。现在，我也放你离开手掌。回到亲友身边去吧！
+          emotion: fearful
+        - id: ch04-b09
+          speaker: prince
+          text: 妖魔，我会照你的话离开。你今生变成残忍嗜血、吞食别人血肉的妖魔，正是因为前世作了恶。要是继续作恶，你只会从一重黑暗走进另一重黑暗。可你今天见过我以后，就不能再这样下去了。杀害生灵，来世可能投生为畜生，可能落入饿鬼世界，也可能生为阿修罗。就算再世为人，也会短命。
+        - id: ch04-b10
+          speaker: narrator
+          text: 王子又讲明五种恶行的害处和五种善行的益处，从各方面教诲、震慑妖魔。妖魔终于被他降服，学会克制自己，遵守五种善行。王子还叫他敬拜林中接受供奉的神灵，再三叮嘱以后，才离开森林。
+    - id: ch05
+      title: 斩断锁链
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 回到林口，王子把自己的遭遇全都告诉了附近的人，又带着五般兵器继续前往贝拿勒斯。后来，正如婆罗门预言的那样，他果然登上王位，以正道治理国家。他一生布施行善，最后依照自己的业报离开人世。
+        - id: ch05-b02
+          speaker: narrator
+          text: 故事讲完，导师彻悟了其中的道理，念出一首偈颂。
+        - id: ch05-b03
+          speaker: teacher
+          text: 心念不为诸般欲望牵缠，以善行追寻那宁静安然。终有一日，他将斩断所有把生命缚住的重重锁链。
+        - id: ch05-b04
+          speaker: narrator
+          text: 导师以圣者的修为和佛法的教诲登临顶峰，接着宣讲四谛。四谛讲完，那位弟子也证得了圣果。随后，导师点明今世与前生的因缘，揭开这则本生故事的谜底。
+        - id: ch05-b05
+          speaker: teacher
+          text: 那时的妖魔，就是鸯掘摩罗。五兵王子，便是我自己。
