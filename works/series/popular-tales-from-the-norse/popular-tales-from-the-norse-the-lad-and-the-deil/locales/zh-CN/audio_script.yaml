@@ -1,0 +1,88 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容而清醒，带一点克制的诙谐
+        timbre: 温厚清晰
+        pace: 舒缓有致
+        pitch: 中低
+    lad:
+      display_name: 小伙子
+      tts:
+        delivery: 机灵大胆，话里常带笑意
+        timbre: 年轻清朗
+        pace: 中等偏快
+        pitch: 中
+    deil:
+      display_name: 魔鬼
+      tts:
+        delivery: 自负干脆，毫不怀疑自己的本领
+        timbre: 低沉粗粝
+        pace: 中等
+        pitch: 低
+    smith:
+      display_name: 铁匠
+      tts:
+        delivery: 爽直有力，受挫后急躁恼火
+        timbre: 粗厚响亮
+        pace: 中等
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 魔鬼钻进坚果
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个小伙子沿着大路往前走，边走边敲开坚果吃。他拿到一颗生了虫的坚果时，正巧遇见了魔鬼。
+        - id: ch01-b02
+          speaker: lad
+          text: 大家都说，你想变多小就能变多小，连针眼也钻得过去。这话是真的吗？
+        - id: ch01-b03
+          speaker: deil
+          text: 当然是真的。
+        - id: ch01-b04
+          speaker: lad
+          text: 是吗？那就让我开开眼。你钻进这颗坚果里给我瞧瞧。
+        - id: ch01-b05
+          speaker: narrator
+          text: 魔鬼果真照办了。他顺着虫蛀的小孔钻到坚果深处，小伙子立刻拿出一根针，把洞口堵得严严实实。
+        - id: ch01-b06
+          speaker: lad
+          text: 好了，这下你可逃不掉了。
+        - id: ch01-b07
+          speaker: narrator
+          text: 小伙子说完，便把坚果揣进了衣袋。
+    - id: ch02
+      title: 铁匠的大锤
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 他又走了一程，来到一间铁匠铺，便进去请铁匠替他砸开那颗坚果。
+        - id: ch02-b02
+          speaker: smith
+          text: 行啊，这点小事容易得很。
+        - id: ch02-b03
+          speaker: narrator
+          text: 铁匠拿起最小的锤子，把坚果放上铁砧，敲了一下。坚果却连一道缝也没裂。他换了把稍大的，还是不够重。再换一把更大的，依旧砸不开。铁匠顿时火冒三丈，一把抄起那柄大铁锤。
+        - id: ch02-b04
+          speaker: smith
+          text: 这一次，我非把你砸个粉碎不可！
+          emotion: angry
+        - id: ch02-b05
+          speaker: narrator
+          text: 铁匠使出浑身力气，一锤砸了下去。只听轰的一声，坚果炸得粉碎，铁匠铺的屋顶掀掉了半边。整座屋子吱呀作响，仿佛眼看就要塌了。
+    - id: ch03
+      title: 坚果里的魔鬼
+      blocks:
+        - id: ch03-b01
+          speaker: smith
+          text: 嘿！要我说，那颗坚果里准是藏着魔鬼。
+          emotion: surprised
+        - id: ch03-b02
+          speaker: lad
+          text: 可不就是他嘛。你猜得一点不错！
+        - id: ch03-b03
+          speaker: narrator
+          text: 小伙子大笑着走远了。

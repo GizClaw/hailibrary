@@ -1,0 +1,267 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and observant storytelling
+        timbre: clear and gently rounded
+        pace: measured
+        pitch: medium
+    johnny_chuck:
+      display_name: Johnny Chuck
+      tts:
+        delivery: curious, plainspoken, and earnest
+        timbre: warm and sturdy
+        pace: relaxed
+        pitch: medium-low
+    skimmer_tree_swallow:
+      display_name: Skimmer the Tree Swallow
+      tts:
+        delivery: lively, confident, and quick to take offense
+        timbre: bright and airy
+        pace: quick
+        pitch: medium-high
+    jenny_wren:
+      display_name: Jenny Wren
+      tts:
+        delivery: sharp, knowing, and playfully teasing
+        timbre: crisp and light
+        pace: brisk
+        pitch: high
+    orchard_bird_1:
+      display_name: Orchard Bird One
+      tts:
+        delivery: outraged and forceful
+        timbre: bright and clear
+        pace: brisk
+        pitch: medium
+    orchard_bird_2:
+      display_name: Orchard Bird Two
+      tts:
+        delivery: indignant and emphatic
+        timbre: light and ringing
+        pace: brisk
+        pitch: medium-high
+    orchard_bird_3:
+      display_name: Orchard Bird Three
+      tts:
+        delivery: sharp and accusatory
+        timbre: crisp and lively
+        pace: quick
+        pitch: high
+    blacky_crow:
+      display_name: Blacky the Crow
+      tts:
+        delivery: bold, mocking, and self-satisfied
+        timbre: rough and resonant
+        pace: deliberate
+        pitch: medium-low
+    weaver_orchard_oriole:
+      display_name: Weaver the Orchard Oriole
+      tts:
+        delivery: keen-eyed and decisive
+        timbre: bright and ringing
+        pace: brisk
+        pitch: medium-high
+    mr_chebec:
+      display_name: Mr. Chebec
+      tts:
+        delivery: quiet, practical, and tender
+        timbre: small and dry
+        pace: measured
+        pitch: high
+    mrs_chebec:
+      display_name: Mrs. Chebec
+      tts:
+        delivery: gentle, sensible, and determined
+        timbre: soft and clear
+        pace: measured
+        pitch: high
+    peter_rabbit:
+      display_name: Peter Rabbit
+      tts:
+        delivery: curious, friendly, and occasionally mischievous
+        timbre: warm and youthful
+        pace: lively
+        pitch: medium
+    sammy_jay:
+      display_name: Sammy Jay
+      tts:
+        delivery: clever, vain, and quick-tongued
+        timbre: sharp and bright
+        pace: brisk
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: Trouble at the Robins' Home
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            The happy cries of the birds told Johnny Chuck it was safe to come out. He was eager to tell Skimmer the Tree Swallow how glad he was that Mr. Blacksnake had been chased away before reaching Skimmer's eggs. But as Johnny poked his head through his doorway, he heard something wrong in the Old Orchard. A sound of grief and trouble cut through all that rejoicing. He knew the voices at once. They belonged to Welcome Robin and Mrs. Robin. No other birds in the Orchard could pour so much worry and sorrow into their cries.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            Johnny looked out just in time to see every bird hurry toward the Robins' home. The glad chorus changed to angry shouts.
+        - id: ch01-b03
+          speakers: [orchard_bird_1, orchard_bird_2, orchard_bird_3]
+          ensemble: chorus
+          text: Robber! Thief! Wretch!
+          emotion: angry
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            The commotion was every bit as great as it had been when Mr. Blacksnake tried to rob Skimmer and Mrs. Skimmer. But it could not be Mr. Blacksnake again. Farmer Brown's boy had chased him in a completely different direction.
+        - id: ch01-b05
+          speaker: johnny_chuck
+          text: What has happened now?
+        - id: ch01-b06
+          speaker: narrator
+          text: Skimmer was still talking excitedly with Mrs. Skimmer about their recent fright.
+        - id: ch01-b07
+          speaker: skimmer_tree_swallow
+          text: I don't know, but I'm going over there to find out.
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            Skimmer darted away, and Johnny waited. The birds grew noisier by the moment. Their chatter and angry cries rose higher and higher. Only Welcome and Mrs. Robin did not sound angry. Their mournful voices made them seem heartbroken. Before long, Skimmer flew back with the news for Mrs. Skimmer.
+        - id: ch01-b09
+          speaker: skimmer_tree_swallow
+          text: >-
+            The Robins' eggs are gone! All four were broken and eaten. Mrs. Robin left the nest to help us drive Mr. Blacksnake away. While she was here, somebody ate every egg. No one knows who did it because all the Old Orchard birds were gathered here. It could have been Chatterer the Red Squirrel, Sammy Jay, Creaker the Grackle, or Blacky the Crow. Whoever it was saw an empty nest, slipped over there, and robbed it with no one watching.
+    - id: ch02
+      title: Two Robbers in the Old Orchard
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Just then, a mocking call came from the direction of the Green Forest.
+        - id: ch02-b02
+          speaker: blacky_crow
+          text: Caw, caw, caw!
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            For one moment, every voice in the Old Orchard fell silent. Then the uproar began again, louder than before. Now none of the birds had any doubt. Blacky the Crow had robbed the Robins. Angry tongues flew from bird to bird. They could think of nothing bad enough to call him. Each one joined in promising dreadful things if they ever caught Blacky inside the Old Orchard.
+        - id: ch02-b04
+          speaker: blacky_crow
+          text: Caw, caw, caw!
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            Blacky called again from far away. He sounded as though he thought he had done something very clever. One thing was clear. He was not sorry. The birds crowded around Welcome and Mrs. Robin and tried to comfort them. Everyone was so angry and excited that the meeting lasted a long time. At last, the birds went back to their own homes and duties.
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            Almost at once, another cry of distress rang out. Mr. and Mrs. Chebec had lost their eggs too. While they were at the Robins' home joining the angry meeting, a thief had seized the chance to steal their eggs and escape.
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            Once more, all the birds hurried over to offer their sympathy to the Chebecs. They repeated every threat against this unknown thief that they had already made against Blacky. Yet this time Blacky could not have done it. All of them had heard him calling from the edge of the Green Forest while the eggs were being stolen. As everyone argued excitedly over who the new robber might be, Weaver the Orchard Oriole noticed a blue and white feather lying on the ground beneath the Chebecs' nest.
+        - id: ch02-b08
+          speaker: weaver_orchard_oriole
+          text: Sammy Jay did it! That feather proves it. Sammy Jay was the robber!
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            One look at that telltale feather told the birds Weaver was right. With Scrapper the Kingbird leading them, they began a noisy search through every part of the Old Orchard. Sammy was nowhere to be found. Soon they gave up. No bird dared stay away from home any longer, in case something happened there while the nest was unwatched. Welcome and Mrs. Robin kept crying sadly. Little Mr. and Mrs. Chebec faced their own loss almost without a sound.
+        - id: ch02-b10
+          speaker: mr_chebec
+          text: >-
+            There is one good thing, my dear. Sally Sly's egg was taken with ours. At least we won't have to bring up that troublesome orphan.
+        - id: ch02-b11
+          speaker: mrs_chebec
+          text: >-
+            That's true. Crying won't change what happened, and sitting here in tears only wastes time. Come along, Chebec. We'll find a place for another nest. Next time, I won't leave the eggs alone for even a minute.
+    - id: ch03
+      title: Jenny Wren Explains the Cousins
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            Meanwhile, Jenny Wren's tongue was flying. Peter Rabbit had arrived in the middle of the excitement, and of course he wanted to hear everything.
+        - id: ch03-b02
+          speaker: jenny_wren
+          text: >-
+            Blacky the Crow has a heart as black as his feathers. His cousin Sammy Jay is not much better. That whole family is full of robbers.
+        - id: ch03-b03
+          speaker: peter_rabbit
+          text: Wait. Are Blacky the Crow and Sammy Jay really cousins?
+        - id: ch03-b04
+          speaker: jenny_wren
+          text: >-
+            Goodness, Peter! Don't you know even that? Of course they're cousins. They may not look much alike, but they belong to the same family. With Blacky dressed all in black, I would expect nearly any bad deed from him. But Sammy is such a handsome bird that I cannot understand how he does such dreadful things. He isn't quite as bad as Blacky, either, because Sammy does plenty of good. He eats great numbers of caterpillars and other pests that cause trouble for everyone.
+        - id: ch03-b05
+          speaker: jenny_wren
+          text: >-
+            No one anywhere has sharper eyes than Sammy Jay. I must give him credit for this too. Whenever he discovers danger, he calls out a warning to the rest of us. Those warnings have saved the lives of a great many birds. If Sammy didn't have that habit of stealing our eggs, I would not have one word to say against him. Even with that bad habit, he is not as bad as Blacky. People say Blacky does some good by eating white grubs and other harmful pests. But he is a true cannibal. He is just as fond of young birds as he is of eggs. The harm he does by eating them is greater than all the good he does in other ways. If you ask me, Blacky is bold, black, and bad.
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            Jenny suddenly remembered her work at home and vanished inside her house, as abruptly as ever. Peter stayed nearby for a while. No one had time to talk with him, so he decided to visit the Green Forest and look for friends there.
+    - id: ch04
+      title: Peter Finds Sammy's Secret
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            Peter had not gone far into the Green Forest when he saw a flash of blue slipping away among the trees. He knew that coat at once. It could belong only to Sammy Jay. Peter looked up into the tree Sammy had just left. Halfway up, a nest rested in the fork of two branches.
+        - id: ch04-b02
+          speaker: peter_rabbit
+          text: >-
+            I wonder if Sammy was stealing eggs from that nest, or if the nest belongs to him.
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            Peter raced after Sammy, lipperty-lipperty-lip. As he ran, he happened to glance behind him. He was just in time to see Mrs. Jay settle onto the nest. Now Peter knew he had found Sammy's home, and he chuckled all the way after him.
+        - id: ch04-b04
+          speaker: peter_rabbit
+          text: I've discovered your secret, Sammy Jay!
+          emotion: happy
+        - id: ch04-b05
+          speaker: sammy_jay
+          text: Then I hope you'll act like a gentleman and keep it to yourself.
+          emotion: angry
+        - id: ch04-b06
+          speaker: narrator
+          text: Sammy looked far from pleased.
+        - id: ch04-b07
+          speaker: peter_rabbit
+          text: Of course I will. I would never tell anyone. My, Sammy, you really are handsome.
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            That pleased Sammy. He was a little vain, and no one could deny that he was handsome. He stood just a little taller than Welcome Robin. Grayish blue covered his back. His bright blue tail had small black bars and white edges. His blue wings were barred with white and black. His throat and breast were a soft grayish white, with a black collar around them. A pointed cap rose from his head, but it was a very useful cap. Whenever he wished, he could draw it down until the point disappeared.
+        - id: ch04-b09
+          speaker: peter_rabbit
+          text: Why did you steal Mrs. Chebec's eggs?
+        - id: ch04-b10
+          speaker: narrator
+          text: The question did not trouble Sammy in the least.
+        - id: ch04-b11
+          speaker: sammy_jay
+          text: >-
+            Because I enjoy eggs. If birds leave their eggs with no one guarding them, they should expect those eggs to disappear. But how did you know I took them?
+        - id: ch04-b12
+          speaker: peter_rabbit
+          text: Never mind how I know, Sammy. A little bird told me.
+        - id: ch04-b13
+          speaker: narrator
+          text: Peter said it mischievously. Sammy opened his bill to give him a sharp answer, but a warning cry came out instead.
+    - id: ch05
+      title: Good and Bad Together
+      blocks:
+        - id: ch05-b01
+          speaker: sammy_jay
+          text: Run, Peter! Run! Reddy Fox is coming!
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            Peter plunged headfirst beneath a great brush pile. He was perfectly safe there. As he waited for Reddy Fox to leave, he thought about Sammy Jay.
+        - id: ch05-b03
+          speaker: peter_rabbit
+          text: >-
+            It's strange that so much good and so much bad can be mixed together. Sammy stole the Chebecs' eggs, and then he saved my life. I know he would warn Mr. and Mrs. Chebec too, or any other bird in danger. He can steal eggs for only a short time during the spring. When I think of everything he does, I believe the good is greater than the harm. Anyway, that's what I am going to believe.
+        - id: ch05-b04
+          speaker: narrator
+          text: Peter was right. Sammy Jay really does do more good than harm.

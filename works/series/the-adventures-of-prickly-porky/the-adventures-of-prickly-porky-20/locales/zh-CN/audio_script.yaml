@@ -1,0 +1,103 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖从容，带着轻快而略显调皮的讲故事口吻
+        timbre: 清澈柔和
+        pace: 舒缓而富有变化
+        pitch: 中音
+    peter_rabbit:
+      display_name: 彼得兔
+      tts:
+        delivery: 活泼淘气，说话快而直接，遇险时惊慌失措
+        timbre: 清脆稚嫩
+        pace: 偏快
+        pitch: 中高音
+    jimmy_skunk:
+      display_name: 臭鼬吉米
+      tts:
+        delivery: 爽朗顽皮，笑声里满是看热闹的兴奋
+        timbre: 明亮结实
+        pace: 轻快
+        pitch: 中音
+    mrs_peter:
+      display_name: 彼得太太
+      tts:
+        delivery: 温柔细致，担忧时语气急切，却仍带着亲切和关怀
+        timbre: 柔和清亮
+        pace: 中速，焦急时稍快
+        pitch: 中高音
+    unc_billy:
+      display_name: 负鼠比利大叔
+      tts:
+        delivery: 慢条斯理又爱逗趣，乡音里透着藏不住的得意
+        timbre: 温厚而略带沙哑
+        pace: 舒缓
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 第二十章　吓唬老郊狼的计谋
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 恶作剧呀，总会引来下一场恶作剧。爱玩闹的人，尝到一点乐趣，往往还想再多来一点。
+        - id: ch01-b02
+          speaker: narrator
+          text: 彼得兔刚从老狐狸奶奶的爪下逃出来，险得不能再险。照理说，吉米、比利大叔、彼得和刺毛闹了这么久，总该满足了吧？他们才不满足呢！危险才过去一会儿，就已经被他们丢到了脑后。
+        - id: ch01-b03
+          speaker: narrator
+          text: 彼得躺进山顶那座老屋，身下刚刚安顿舒服，四个淘气鬼就又打起了主意。那个没有头、没有腿、也没有尾巴的怪东西，先后吓跑了雷迪和老狐狸奶奶。接下来，该轮到谁了呢？
+        - id: ch01-b04
+          speaker: peter_rabbit
+          text: 老郊狼怎么样？他老是欺负比自己又小又弱的动物。要是能看他吓得转身逃跑，那才好玩呢！
+        - id: ch01-b05
+          speaker: jimmy_skunk
+          text: 对，就是老郊狼！不过，他真会上当吗？他可比老狐狸奶奶还精。奶奶头一眼看见时是怕得要命，可没过多久，她就看穿了。咱们怎么才能把老郊狼引上山？
+        - id: ch01-b06
+          speaker: unc_billy
+          text: 这好办。把计划告诉冠蓝鸦萨米，让他去跟郊狼老兄说，兔子老兄在豪猪老兄的山上受了伤，回不了家。别的一个字也不用多说。
+        - id: ch01-b07
+          speaker: unc_billy
+          text: 郊狼老兄一听，准会急吼吼地往这里赶。他会跑得舌头都挂在嘴外边，一心只想着，这儿正有一顿大餐等他来吃哩。
+        - id: ch01-b08
+          speaker: narrator
+          text: 彼得太太听不下去了。她为了照顾彼得，连自己最害怕的绿森林都敢进。这会儿，她立刻站出来反对。
+        - id: ch01-b09
+          speaker: mrs_peter
+          text: 绝对不行！彼得这次吃的苦还不够多吗？我不会再让他招来新的麻烦。这件事到此为止！
+        - id: ch01-b10
+          speaker: jimmy_skunk
+          text: 彼得不会有事的。你们两个只要待在老屋里，就跟躲在老荆棘丛一样安全，谁也伤不到你们。
+        - id: ch01-b11
+          speaker: jimmy_skunk
+          text: 彼得太太，别这么糊涂嘛。老郊狼吓唬过你们多少次，你又不喜欢他。现在让他也结结实实地吓一跳，替你和彼得出口气，你不想看看吗？
+        - id: ch01-b12
+          speaker: narrator
+          text: 这一问，彼得太太只好承认，她确实很想看。大伙儿又劝了好一阵，她总算点头，答应让他们试一试。
+        - id: ch01-b13
+          speaker: narrator
+          text: 吉米正准备出门找萨米，萨米却刚巧飞到了这里。他听完要办的事，马上答应下来。只要有恶作剧可玩，萨米哪一次肯落在后面呢？
+        - id: ch01-b14
+          speaker: narrator
+          text: 萨米刚要去找老郊狼，比利大叔忽然又想出一招。
+        - id: ch01-b15
+          speaker: unc_billy
+          text: 咱们拿雷迪和老狐狸奶奶开心了那么久，现在也该请他们来看看老郊狼。让他们亲眼瞧瞧，他头一回撞见那个怪东西，会吓成什么样。这才叫公平嘛。
+        - id: ch01-b16
+          speaker: unc_billy
+          text: 奶奶现在已经知道，那东西根本不用怕。要是让她看见老郊狼转身逃走，说不准她连对咱们的气都消了。反正她对老郊狼从来没什么好感。你们说呢？
+        - id: ch01-b17
+          speakers: [peter_rabbit, mrs_peter]
+          ensemble: duo
+          text: 我们不同意这么做！
+        - id: ch01-b18
+          speaker: narrator
+          text: 彼得夫妇异口同声地反对。吉米和刺毛却觉得这主意不错，萨米自然更愿意去办。
+        - id: ch01-b19
+          speaker: narrator
+          text: 大家又告诉彼得夫妇，只要两人藏在大树桩后面的老屋里，就不会遇到半点危险。劝着劝着，他们终于答应了。
+        - id: ch01-b20
+          speaker: narrator
+          text: 于是，冠蓝鸦萨米动身去办这件差事。

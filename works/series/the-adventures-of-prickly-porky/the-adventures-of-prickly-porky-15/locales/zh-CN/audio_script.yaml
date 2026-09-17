@@ -1,0 +1,98 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖从容，带着轻快而略显调皮的讲故事口吻
+        timbre: 清澈柔和
+        pace: 舒缓而富有变化
+        pitch: 中音
+    granny_fox:
+      display_name: 老狐狸奶奶
+      tts:
+        delivery: 精明严厉，说起道理干脆利落，带着长辈不容争辩的口气
+        timbre: 苍老而尖亮
+        pace: 中速
+        pitch: 中高音
+    unc_billy:
+      display_name: 负鼠比利大叔
+      tts:
+        delivery: 慢条斯理又爱逗趣，乡音里透着藏不住的得意
+        timbre: 温厚而略带沙哑
+        pace: 舒缓
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 什么叫调查
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: “调查”听起来是个又长又大的词，意思倒很简单。仔细看看一件事，想办法把它的来龙去脉全弄清楚，这就是调查。雷迪说完自己在豪猪刺毛住的山脚下受了怎样一场惊吓，老狐狸奶奶便开始调查这件事了。
+        - id: ch01-b02
+          speaker: narrator
+          text: 你们都知道，老狐狸奶奶既狡猾，又精明，还很聪慧。跟她一比，雷迪狐狸简直有点儿笨。也许将来他也会变得跟奶奶一样狡猾、精明又聪慧。可在那一天到来以前，他还有好多东西要学呢。
+        - id: ch01-b03
+          speaker: narrator
+          text: 要是让雷迪去查，他准会直奔豪猪刺毛住的山，一边四处张望，一边拐着弯儿问问题。这样一来，谁见了他都知道，他正在打听什么事。
+    - id: ch02
+      title: 山上的奇怪痕迹
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 老狐狸奶奶可不会那么做。哎呀，当然不会！她像平常一样出门寻找晚餐。看上去，她只惦记着晚餐，对四周正在发生的事一点儿也没留意。她把鼻子贴近地面，一会儿跑这边，一会儿跑那边，像是在寻找什么踪迹。她还往空心老木头里瞧，到小堆的灌木枝下面找。找着找着，她就来到了豪猪刺毛住的那座山。
+        - id: ch02-b02
+          speaker: narrator
+          text: 雷迪说过，自己当时站在山脚，那个可怕的东西是从山上朝他滚下来的。奶奶还听说，彼得兔和负鼠比利大叔遇见它时也是这样。所以她没从山脚下的洼地过去，而是绕到了另一边。
+        - id: ch02-b03
+          speaker: granny_fox
+          text: 那里真有东西，我也会走到它后头，不会挡在它前面。
+        - id: ch02-b04
+          speaker: narrator
+          text: 这正是老狐狸奶奶的精明之处。快到豪猪刺毛家时，她眼睛睁得大大的，耳朵也竖得高高的，却一直装作只顾寻找晚餐。谁也猜不出，她心里还惦记着别的事。
+        - id: ch02-b05
+          speaker: narrator
+          text: 奶奶在整座山上东找西找，什么反常的动静也没听见，什么反常的东西也没看到。只有一样东西很奇怪。山坡上留着一些痕迹，看起来像是有什么东西从那里滚了下去。她一路追到山脚，可痕迹到了那里就消失了。
+    - id: ch03
+      title: 比利大叔亲眼见过
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 回家时，老狐狸奶奶沿着穿过绿森林的孤零零小径一路小跑，碰见了负鼠比利大叔。其实，这也不能算碰见。比利大叔先看到了她，没等她发现自己，就赶紧爬上了一棵树。
+        - id: ch03-b02
+          speaker: unc_billy
+          text: 俺想，你准听说那个吓人的怪物了吧？今天一大早，它差点儿把雷迪的魂都吓没了。
+        - id: ch03-b03
+          speaker: narrator
+          text: 老狐狸奶奶停在树下，抬头望着他。
+        - id: ch03-b04
+          speaker: granny_fox
+          text: 年轻又没见过世面的家伙，一点儿小事就能吓着，负鼠先生。我可不会听见什么就信什么。我刚把豪猪刺毛住的山找了个遍，连一只能当晚餐的林鼠都没找着。负鼠先生，这种傻话你也相信吗？
+        - id: ch03-b05
+          speaker: narrator
+          text: 比利大叔用一只手掩住嘴，咳嗽了一声。
+        - id: ch03-b06
+          speaker: unc_billy
+          text: 信，狐狸太太，俺得承认，俺还真不能不信。那东西可是俺亲眼看见的，俺当然得相信自己的眼睛啦。
+        - id: ch03-b07
+          speaker: granny_fox
+          text: 哼！我倒要亲眼瞧瞧。等我看见了，说不定就信了！
+          emotion: angry
+    - id: ch04
+      title: 明早准会来
+      blocks:
+        - id: ch04-b01
+          speaker: unc_billy
+          text: 只有太阳刚升起来的时候，才能瞧见它。太阳一出来，谁要是从刺毛老弟住的山脚下那条洼地走过，准会一辈子忘不了碰见的事。俺可不愿再走一回了。不，一回就够你比利大叔受的啦。
+        - id: ch04-b02
+          speaker: granny_fox
+          text: 哼，我才不信呢！
+        - id: ch04-b03
+          speaker: narrator
+          text: 老狐狸奶奶从鼻子里重重喷了一声，继续小跑着走了。
+        - id: ch04-b04
+          speaker: narrator
+          text: 比利大叔一直望着她，直到她消失在远处，这才咧开嘴笑了。
+        - id: ch04-b05
+          speaker: unc_billy
+          text: 明天早晨太阳老弟一露面，老狐狸奶奶准会到那里去。俺得赶紧给刺毛老弟、臭鼬老弟和兔子老弟送个信。

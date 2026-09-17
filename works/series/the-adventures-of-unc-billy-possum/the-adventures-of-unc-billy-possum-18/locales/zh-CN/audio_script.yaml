@@ -1,0 +1,77 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，带一点讲动物故事时的诙谐
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中音
+    unc_billy_possum:
+      display_name: 负鼠比利大叔
+      tts:
+        delivery: 慢悠悠又爱打趣，带着老弗吉尼亚乡音般的亲切腔调
+        timbre: 粗暖松弛
+        pace: 从容偏慢
+        pitch: 中低音
+    farmer_browns_boy:
+      display_name: 农夫布朗家的男孩
+      tts:
+        delivery: 直率活泼，遇到意外时反应鲜明
+        timbre: 清脆明朗的少年声线
+        pace: 中等偏快
+        pitch: 中高音
+  chapters:
+    - id: ch01
+      title: 暗处看着他放夹子
+      blocks:
+        - id: ch01-b01
+          speaker: unc_billy_possum
+          text: |-
+            我家就在空心树——
+            回家的路好长！
+            多想在家，不在这儿——
+            回家的路好长！
+            若是安分守己，
+            不出来淘气，
+            如今哪会后悔不已——
+            回家的路好长！
+        - id: ch01-b02
+          speaker: narrator
+          text: 负鼠比利大叔蜷在干草底下。那是鸡舍最高一排的鸡窝，又在最暗的角落里。他怕布朗农场主家的男孩发现自己，一点儿也不敢睡。再说，他还想看看男孩到底在忙什么。比利大叔从草缝里悄悄往外瞧。男孩忙得很，他在做什么呢？比利大叔知道。是的，先生，他看得一清二楚。男孩正在放捕兽夹。
+        - id: ch01-b03
+          speaker: narrator
+          text: 比利大叔瞧着瞧着，眼睛里闪起了笑意。他知道这些夹子都是为自己放的，可每只夹子在哪儿，他已经全看见了，还有什么好怕的？男孩忙着把夹子一只只藏好，一心以为藏得巧极了，除非哪个倒霉的家伙亲脚踩进去，被夹个正着，否则绝不会发现。比利大叔却一直躲在暗处看着，只觉得这事再好笑不过。
+        - id: ch01-b04
+          speaker: farmer_browns_boy
+          text: 好了！这下我倒要看看，还有什么家伙能溜进鸡舍，却不被夹住！
+    - id: ch02
+      title: 笑到一半
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 男孩放好了最后一只捕兽夹。比利大叔差一点儿就笑出了声。是的，先生，他真的险些笑起来。男孩费了这么大的劲儿，处处放下夹子，只想抓住正要溜进鸡舍的比利大叔。可他哪儿知道，自己要抓的家伙根本不用进来，比利大叔早就在鸡舍里面了！
+        - id: ch02-b02
+          speaker: narrator
+          text: 男孩关上鸡舍门，吹着口哨走远了。比利大叔在暗处笑了起来。
+        - id: ch02-b03
+          speaker: unc_billy_possum
+          text: 这事可太好笑啦！嚯，嚯，嚯！哈，哈，哈！嘻，嘻……
+          emotion: happy
+        - id: ch02-b04
+          speaker: narrator
+          text: 可他笑到一半，忽然停住了。他刚刚想到一件事，而这件事一点儿也不好笑。鸡舍每个出口都放着捕兽夹，外面的家伙要进来，一定会被夹住。那么，已经在里面的家伙要出去，不也一样会被夹住吗？
+    - id: ch03
+      title: 回家的路好长
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 原来这场笑话并没有落在布朗农场主家的男孩身上，反倒落在比利大叔自己身上。可比利大叔一点儿也笑不出来。他成了囚徒，被困在男孩家的鸡舍里，怎么想也想不出逃走的办法。
+        - id: ch03-b02
+          speaker: narrator
+          text: 他从一道裂缝里望向绿森林，满心发愁。
+        - id: ch03-b03
+          speaker: unc_billy_possum
+          text: 回家的路好长。
+          emotion: sad

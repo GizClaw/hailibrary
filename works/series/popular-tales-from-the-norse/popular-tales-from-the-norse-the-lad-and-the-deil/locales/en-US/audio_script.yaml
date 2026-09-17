@@ -1,0 +1,88 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    lad:
+      display_name: The Lad
+      tts:
+        delivery: clever and playfully bold
+        timbre: youthful and clear
+        pace: lively
+        pitch: medium-high
+    deil:
+      display_name: The Deil
+      tts:
+        delivery: proud and self-assured
+        timbre: dark and resonant
+        pace: deliberate
+        pitch: low
+    smith:
+      display_name: The Smith
+      tts:
+        delivery: sturdy and quick to anger
+        timbre: rough and full
+        pace: moderate
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Worm-Eaten Nut
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, a lad went down the road cracking nuts as he walked. One nut had a wormhole in it, and at that very moment he met the Deil.
+        - id: ch01-b02
+          speaker: lad
+          text: People say you can make yourself as small as you please and squeeze through a pinhole. Is that really true?
+        - id: ch01-b03
+          speaker: deil
+          text: Yes, it is.
+        - id: ch01-b04
+          speaker: lad
+          text: Is that so? Then show me. Creep inside this nut.
+        - id: ch01-b05
+          speaker: narrator
+          text: The Deil did just that. Once he had crawled all the way through the wormhole, the lad plugged it with a pin.
+        - id: ch01-b06
+          speaker: lad
+          text: There. Now I've got you safely shut in.
+        - id: ch01-b07
+          speaker: narrator
+          text: He slipped the nut into his pocket and walked on for a bit.
+    - id: ch02
+      title: Hammer After Hammer
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: After a while, the lad came to a smithy. He stepped inside and asked the smith if he would kindly crack the nut for him.
+        - id: ch02-b02
+          speaker: smith
+          text: Aye, that's an easy enough job.
+        - id: ch02-b03
+          speaker: narrator
+          text: The smith took his smallest hammer, set the nut on the anvil, and struck it. The shell did not break. He tried a slightly larger hammer, but that one was not heavy enough either. Then he chose a bigger one, and still the nut held fast. At last the smith lost his temper and seized his great sledgehammer.
+    - id: ch03
+      title: The Great Blow
+      blocks:
+        - id: ch03-b01
+          speaker: smith
+          text: Now I'll smash you to pieces!
+          emotion: angry
+        - id: ch03-b02
+          speaker: narrator
+          text: He brought the sledgehammer down with all his strength. The nut burst apart with such a bang that half the smithy's roof blew off. The whole building creaked and groaned as if it might tumble down.
+        - id: ch03-b03
+          speaker: smith
+          text: Why, I believe the Deil himself was inside that nut!
+          emotion: surprised
+        - id: ch03-b04
+          speaker: lad
+          text: He was. You've got it exactly right.
+        - id: ch03-b05
+          speaker: narrator
+          text: And the lad went on his way, laughing.

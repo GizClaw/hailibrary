@@ -1,0 +1,142 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    king:
+      display_name: The King
+      tts:
+        delivery: commanding and fatherly
+        timbre: deep and resonant
+        pace: measured
+        pitch: low
+    boots:
+      display_name: Boots
+      tts:
+        delivery: humble and openhearted
+        timbre: youthful and clear
+        pace: moderate
+        pitch: medium
+    brother_1:
+      display_name: Eldest Brother
+      tts:
+        delivery: proud and dismissive
+        timbre: firm and youthful
+        pace: brisk
+        pitch: medium-low
+    brother_2:
+      display_name: Second Brother
+      tts:
+        delivery: smug and impatient
+        timbre: bright and sharp
+        pace: brisk
+        pitch: medium
+    brother_3:
+      display_name: Third Brother
+      tts:
+        delivery: scornful and certain
+        timbre: youthful and dry
+        pace: moderate
+        pitch: medium
+    little_lass:
+      display_name: The Little Lass
+      tts:
+        delivery: friendly and inviting
+        timbre: tiny and bell-clear
+        pace: light
+        pitch: high
+    doll:
+      display_name: Doll i' the Grass
+      tts:
+        delivery: gracious and self-assured
+        timbre: delicate and luminous
+        pace: gentle
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The King's Challenge
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, a King had twelve sons. When they were grown, he sent them out into the world to find wives.
+        - id: ch01-b02
+          speaker: king
+          text: The woman each of you brings home must be able to spin the thread, weave the cloth, and sew a shirt, all in one day. If she cannot, I will not have her as my daughter-in-law.
+        - id: ch01-b03
+          speaker: narrator
+          text: He gave every son a horse and a new suit of mail. Then all twelve rode away to search for their brides. They had not gone far when the older brothers decided they did not want Boots, the youngest, with them.
+        - id: ch01-b04
+          speakers: [brother_1, brother_2, brother_3]
+          ensemble: chorus
+          text: Boots is no use to us. We won't take him along.
+        - id: ch01-b05
+          speaker: narrator
+          text: So Boots was left behind. He had no idea what to do or where to go. At last he grew so miserable that he climbed down from his horse, sat among the tall grass, and wept.
+    - id: ch02
+      title: Beneath the Grass
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: After he had been sitting there for a while, one tuft of grass began to stir. A little white figure came out of it and drew near. Boots saw a charming lass, but she was the tiniest little thing.
+        - id: ch02-b02
+          speaker: little_lass
+          text: Will you come below with me and meet Doll i' the Grass?
+        - id: ch02-b03
+          speaker: boots
+          text: Yes, I'd be very glad to.
+        - id: ch02-b04
+          speaker: narrator
+          text: Down he went. There sat Doll i' the Grass upon a chair, lovely and finely dressed. She asked where he was bound and what had brought him there.
+        - id: ch02-b05
+          speaker: boots
+          text: There are twelve of us brothers. The King gave each of us a horse and a suit of mail, then sent us into the world to find wives. Each wife must spin, weave, and sew a shirt in a single day.
+        - id: ch02-b06
+          speaker: boots
+          text: But if you'll say right now that you'll marry me, I won't go one step farther.
+        - id: ch02-b07
+          speaker: narrator
+          text: Doll i' the Grass was quite willing. She hurried to spin the thread, weave the cloth, and sew the shirt. She finished it all, but the shirt was tiny. It was only about so long.
+        - id: ch02-b08
+          speaker: narrator
+          text: Boots carried it home. When the time came to show it, he was almost ashamed because it was so small. Still, the King declared that Boots might marry the woman who had made it.
+    - id: ch03
+      title: The Silver Spoon
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Boots set out again, glad and happy, to fetch his little sweetheart. When he reached Doll i' the Grass, he wanted her to ride in front of him on his horse.
+        - id: ch03-b02
+          speaker: doll
+          text: No, I won't ride that way. I'll sit in my silver spoon and drive beside you. I have two little white horses to pull it.
+        - id: ch03-b03
+          speaker: narrator
+          text: So away they went. Boots rode his horse, while Doll i' the Grass sat in her silver spoon. Her two little white horses were really two tiny white mice. Boots kept to the far side of the road because she was so small, and he feared his horse might trample her.
+        - id: ch03-b04
+          speaker: narrator
+          text: Before long they came to a great stretch of water. Boots's horse took fright and shied across the road. It knocked over the spoon, and Doll i' the Grass tumbled into the water.
+        - id: ch03-b05
+          speaker: narrator
+          text: Boots was terribly sad. He could not think of any way to bring her out again. But after a little while, a merman rose from the water with Doll i' the Grass. Now she was as tall as other men and women. She was well, and lovelier than ever.
+        - id: ch03-b06
+          speaker: narrator
+          text: Boots lifted her onto his horse in front of him, and together they rode home.
+    - id: ch04
+      title: The Wedding Feast
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: By the time Boots arrived, all his brothers had returned with their sweethearts. Those women were ugly, filthy, and wicked. They had done nothing but quarrel with one another all the way home.
+        - id: ch04-b02
+          speaker: narrator
+          text: Each one wore a hat smeared with tar and soot. Rain had streamed from the hats down over their faces, making them look even uglier and nastier than before.
+        - id: ch04-b03
+          speaker: narrator
+          text: When the brothers saw Boots with his beautiful sweetheart, they were bitterly jealous. The King, though, was overjoyed with the two of them. He sent all the others away.
+        - id: ch04-b04
+          speaker: narrator
+          text: And so Boots held his wedding feast with Doll i' the Grass. They lived well and happily together for a long, long time. If they have not died, why, they are living still.
