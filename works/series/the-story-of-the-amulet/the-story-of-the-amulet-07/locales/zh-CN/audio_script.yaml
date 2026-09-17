@@ -1,0 +1,876 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖机敏，带一点郑重其事的幽默
+        timbre: 清澈柔和
+        pace: 舒缓而富有变化
+        pitch: 中
+    cyril:
+      display_name: 西里尔
+      tts:
+        delivery: 聪明果断，偶尔故作老练
+        timbre: 清亮的少年声
+        pace: 中等偏快
+        pitch: 中高
+    robert:
+      display_name: 罗伯特
+      tts:
+        delivery: 直率活泼，略带顽皮
+        timbre: 明朗的少年声
+        pace: 中等
+        pitch: 中
+    anthea:
+      display_name: 安西娅
+      tts:
+        delivery: 体贴坚定，认真而自然
+        timbre: 温柔清亮的少女声
+        pace: 中等
+        pitch: 中高
+    jane:
+      display_name: 简
+      tts:
+        delivery: 稚气坦率，情绪写在声音里
+        timbre: 轻软的女孩声
+        pace: 中等偏慢
+        pitch: 高
+    psammead:
+      display_name: 赛米德
+      tts:
+        delivery: 古老敏感，抱怨中带着骄傲和亲昵
+        timbre: 沙哑细小而奇特
+        pace: 中等偏慢
+        pitch: 中高
+    queen:
+      display_name: 巴比伦王后
+      tts:
+        delivery: 华贵亲切，活泼中带着任性
+        timbre: 明丽柔美的成年女声
+        pace: 中等偏快
+        pitch: 中高
+    first_woman:
+      display_name: 申诉的女人
+      tts:
+        delivery: 委屈急切，努力把事情说清楚
+        timbre: 朴实的成年女声
+        pace: 中等偏快
+        pitch: 中
+    veiled_woman:
+      display_name: 戴面纱的女人
+      tts:
+        delivery: 哭泣中带着恳切和机敏
+        timbre: 略显沙哑的成年女声
+        pace: 中等
+        pitch: 中
+    ritti_marduk:
+      display_name: 里蒂-马尔杜克
+      tts:
+        delivery: 恭谨周到，遇到魔法时明显胆怯
+        timbre: 平滑沉稳的成年男声
+        pace: 中等
+        pitch: 中低
+    king:
+      display_name: 巴比伦国王
+      tts:
+        delivery: 豪迈威严，盛怒时如雷霆
+        timbre: 洪亮厚重的成年男声
+        pace: 中等偏慢
+        pitch: 低
+    dancer:
+      display_name: 舞女
+      tts:
+        delivery: 谦恭圆滑，熟悉宫廷礼数
+        timbre: 柔亮的成年女声
+        pace: 中等
+        pitch: 中高
+    guard_captain:
+      display_name: 卫队长
+      tts:
+        delivery: 冷酷严厉，把残忍当作公事
+        timbre: 粗硬低沉的成年男声
+        pace: 中等
+        pitch: 低
+    jailer:
+      display_name: 狱卒
+      tts:
+        delivery: 阴沉疲惫，粗鲁中留着一点怜悯
+        timbre: 沙哑厚重的成年男声
+        pace: 中等偏慢
+        pitch: 低
+    nisroch:
+      display_name: 尼思洛克
+      tts:
+        delivery: 古老庄严，服从中带着不可逼视的力量
+        timbre: 粗粝如生锈钥匙转动
+        pace: 缓慢
+        pitch: 低
+  chapters:
+    - id: ch01
+      title: 第七章　城堡护城河下最深的地牢
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            王后从宝座上拿下三只绣着红金花纹的靠垫，往大理石台阶上一扔，请孩子们坐。
+        - id: ch01-b02
+          speaker: queen
+          text: >-
+            坐那儿吧，舒服些。我真想马上听你们讲那个奇妙的国家，讲你们怎么来的，什么都讲。可我每天早晨还得主持公道，真烦人。你们国家也这样主持公道吗？
+        - id: ch01-b03
+          speaker: cyril
+          text: >-
+            不这样。当然，我们也尽量公平，不过事情都是私下处理，不会公开办。
+        - id: ch01-b04
+          speaker: queen
+          text: >-
+            我也喜欢私下接见，省事多了。可是民意不能不管。主持公道太累人啦，就算从小受的就是这种教养，也还是一样。
+        - id: ch01-b05
+          speaker: anthea
+          text: >-
+            我们不用主持公道，可我和简每天得练二十分钟音阶，也讨厌得要命。
+        - id: ch01-b06
+          speaker: queen
+          text: 音阶是什么？简又是什么？
+        - id: ch01-b07
+          speaker: anthea
+          text: 简是我小妹妹，现在由一个守门卫兵的妻子照看。音阶嘛，就是音乐。
+        - id: ch01-b08
+          speaker: queen
+          text: 我没听说过这种乐器。你们会唱歌吗？
+        - id: ch01-b09
+          speaker: anthea
+          text: 会呀，我们还能分声部唱。
+        - id: ch01-b10
+          speaker: queen
+          text: 那才叫魔法呢！唱以前，你们每个人得切成几部分？
+        - id: ch01-b11
+          speaker: robert
+          text: >-
+            一点也不用切！切开了还怎么唱？待会儿我们唱给您听。
+        - id: ch01-b12
+          speaker: queen
+          text: >-
+            那就说定了。现在乖乖坐着，听我断案。大家一向很欣赏我的办法。这话听着是不是太自负了？不过在你们面前，我不在意。真奇怪，我总觉得早就认识你们了。
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            王后坐上宝座，朝侍从打了个手势。孩子们挤在靠垫中间，低声商量了一番。他们都觉得王后美丽又亲切，只是也许稍微轻浮了一点。
+        - id: ch01-b14
+          speaker: narrator
+          text: >-
+            第一个来求王后主持公道的是个女人。她说父亲留给自己的钱被哥哥拿走了，哥哥却一口咬定钱在叔叔手里。几个人你一句我一句，翻来覆去争了很久。孩子们起初还认真听着，后来越来越厌烦。就在这时，王后忽然拍起手来。
+        - id: ch01-b15
+          speaker: queen
+          text: 把那两个男人都关起来，直到其中一个肯承认另一个是清白的。
+        - id: ch01-b16
+          speaker: cyril
+          text: 可要是钱是他们俩一起拿的呢？
+        - id: ch01-b17
+          speaker: queen
+          text: 那他们正该待在监狱里。
+        - id: ch01-b18
+          speaker: cyril
+          text: 可要是他们谁也没拿呢？
+        - id: ch01-b19
+          speaker: queen
+          text: >-
+            不可能。没人做，一件事怎么会发生？还有，不许插嘴。
+        - id: ch01-b20
+          speaker: narrator
+          text: >-
+            接着，一个哭哭啼啼的女人走来。她的面纱破了，头上撒着像炉灰的东西，也可能只是路上的尘土。她说丈夫被关进了监狱。
+        - id: ch01-b21
+          speaker: queen
+          text: 为什么关他？
+        - id: ch01-b22
+          speaker: veiled_woman
+          text: >-
+            他们说他诋毁陛下。可他没有，是有人故意害他，就是这样。
+        - id: ch01-b23
+          speaker: queen
+          text: 你怎么知道他没诋毁我？
+        - id: ch01-b24
+          speaker: veiled_woman
+          text: 见过您这么美的容颜，谁还会说您的坏话呢？
+        - id: ch01-b25
+          speaker: queen
+          text: 放了他。下一桩。
+        - id: ch01-b26
+          speaker: narrator
+          text: >-
+            下一个案子，是个男孩偷了一只狐狸。罗伯特低声说，这倒像那个斯巴达男孩。王后却认定，世上根本没有谁非养狐狸不可，既然用不着养，自然更用不着偷。何况她压根不相信巴比伦有狐狸，至少她自己从来没见过。于是那个男孩当场获释。
+        - id: ch01-b27
+          speaker: narrator
+          text: >-
+            后面来的人，也都是为了各种家庭争吵和邻里误会。有人说，兄弟之间为了怎么分遗产，已经打得不可开交。还有个女人，在上一次新年庆典时向别人借走一口锅，直到现在也不肯归还。大家一致认为，这样做既不诚实，也不友善。无论案子多么琐碎，王后每一件都判得果断极了。最后，她忽然使劲拍了几下手，声音响得惊人。
+        - id: ch01-b28
+          speaker: queen
+          text: 今天就审到这里。
+        - id: ch01-b29
+          speakers: [first_woman, veiled_woman, ritti_marduk]
+          ensemble: chorus
+          text: 愿王后万寿无疆！
+        - id: ch01-b30
+          speaker: narrator
+          text: >-
+            众人退了出去。司法大厅里，只剩孩子们、王后和她的女官。
+        - id: ch01-b31
+          speaker: queen
+          text: >-
+            总算完啦！就算拿埃及王冠来换，我也审不了针尖那么一点儿案子了。咱们去花园，好好聊一阵子。
+        - id: ch01-b32
+          speaker: narrator
+          text: >-
+            王后领他们离开司法大厅，穿过一道又一道狭长的走廊。也不知道为什么，孩子们一路走，一路觉得两边的墙厚得惊人，仿佛永远也走不到外面。最后，他们终于来到一座庭院般的花园。茂密的灌木紧挨着生长，蔷薇爬满格架，在头顶遮出一大片宜人的浓荫。这样的阴凉实在少不了，因为太阳已经热得像英格兰八月里的海滨。
+        - id: ch01-b33
+          speaker: narrator
+          text: >-
+            奴隶在低矮的大理石台上铺好靠垫。一个脸庞光滑的大个子端来冰凉的饮料，装在镶着绿柱石的金杯里。他把王后的杯子递过去以前，先喝了一小口。
+        - id: ch01-b34
+          speaker: robert
+          text: 这习惯也太恶心了。
+        - id: ch01-b35
+          speaker: narrator
+          text: >-
+            罗伯特想起大人教过他，伦敦饮水处那些用链子拴住的漂亮金属杯，不彻底涮净绝不能喝。王后听见了他的低语。
+        - id: ch01-b36
+          speaker: queen
+          text: >-
+            一点儿也不恶心。里蒂-马尔杜克干净得很。再说，总得先让人尝尝，免得酒里有毒呀。
+        - id: ch01-b37
+          speaker: narrator
+          text: >-
+            一听见毒这个字，孩子们身上一阵发冷。不过他们亲眼看见，每一只杯子都由里蒂-马尔杜克尝过，便觉得自己相当安全，放心喝了起来。饮料美味极了，冰凉冰凉的，味道一半像柠檬水，一半像一便士一份的冰点。王后叫所有人退下。宫廷女官们排成一队，慢慢离开。她们层层叠叠的彩裙美丽极了，上面还缀满流苏。最后，花园里只剩王后和孩子们。
+        - id: ch01-b38
+          speaker: queen
+          text: 好啦，现在把你们自己的事从头到尾讲给我听。
+        - id: ch01-b39
+          speaker: cyril
+          text: 鲍勃，你讲。
+        - id: ch01-b40
+          speaker: robert
+          text: 不，还是安西娅讲。
+        - id: ch01-b41
+          speaker: anthea
+          text: >-
+            不，西里尔，你来。上次你给印度王后讲我们的事，她不是很高兴吗？
+        - id: ch01-b42
+          speaker: narrator
+          text: >-
+            西里尔嘟囔着说，上一次当然容易得多。那时候，他只要把凤凰与魔毯的故事原原本本说出来就行。现在可不同。他得编出一个叫人信服的故事，既不能提到护符，更不能承认他们其实住在两千五百年后的伦敦。这样的故事，可不是随口就能讲出来的。
+        - id: ch01-b43
+          speaker: narrator
+          text: >-
+            西里尔想来想去，只好拿赛米德和它那种让愿望成真的神奇本领来应付。以前，孩子们无论怎么努力，都不能把这件事告诉任何人。可现在西里尔惊讶地发现，那道在伦敦让他们无法开口的魔法，到了这里竟然失效了。他暗暗想，大概是因为他们现在身在过去。
+        - id: ch01-b44
+          speaker: queen
+          text: >-
+            太有意思啦！今晚宴会一定要请赛米德来。它的表演肯定最受欢迎。它在哪儿？
+        - id: ch01-b45
+          speaker: narrator
+          text: 安西娅把他们为什么不知道赛米德在哪儿解释了一遍。
+        - id: ch01-b46
+          speaker: queen
+          text: >-
+            这再简单不过。叫里蒂-马尔杜克去城门问问，看你妹妹跟哪个卫兵回家了。
+        - id: ch01-b47
+          speaker: narrator
+          text: 大家听了都深深松了口气。
+        - id: ch01-b48
+          speaker: anthea
+          text: >-
+            能请他现在就去吗？不会耽误他吃饭，或者耽误别的事吧？
+        - id: ch01-b49
+          speaker: queen
+          text: >-
+            当然现在就去。他要是哪一顿都能按时吃上，就该觉得自己走运了。
+        - id: ch01-b50
+          speaker: narrator
+          text: 王后爽快地拍了拍手。
+        - id: ch01-b51
+          speaker: cyril
+          text: 我能写封信吗？
+        - id: ch01-b52
+          speaker: narrator
+          text: >-
+            西里尔掏出一本红封皮的一便士账簿，又在各个口袋里找那截铅笔头。
+        - id: ch01-b53
+          speaker: queen
+          text: 当然。我叫书记官来。
+        - id: ch01-b54
+          speaker: cyril
+          text: 不用啦，我自己会写，谢谢。
+        - id: ch01-b55
+          speaker: narrator
+          text: >-
+            西里尔终于找到铅笔，先舔舔笔尖。笔太钝，他只好咬掉一点木头。
+        - id: ch01-b56
+          speaker: queen
+          text: 你可真聪明！一定让我看着你写。
+        - id: ch01-b57
+          speaker: narrator
+          text: >-
+            西里尔翻开账簿。纸又粗又起毛，许多纤维伸在外面，要是用钢笔写，准会勾住笔尖。纸上还印着记账用的格线。他写信叫简在来这里以前把护符藏得万分严实，绝不能提起它，读完信马上毁掉。他还告诉她，一切顺利得头等完美，王后真是妙极了，什么也不用怕。
+        - id: ch01-b58
+          speaker: queen
+          text: 这些符号真怪，这片扁扁的东西也真怪。你刻了些什么？
+        - id: ch01-b59
+          speaker: cyril
+          text: >-
+            我写的是，您很美，像一场节庆。我还叫她别害怕，马上过来。
+        - id: ch01-b60
+          speaker: narrator
+          text: >-
+            里蒂-马尔杜克已经走进来，站在一旁等西里尔写完。他那双巴比伦人的眼睛，几乎要从巴比伦人的脑袋里瞪出来。等西里尔把信交给他时，他伸手接了过去，脸上却写满了不情愿。
+        - id: ch01-b61
+          speaker: ritti_marduk
+          text: >-
+            王后陛下，愿您万寿无疆！这是符咒吗？伟大的女主人，这道符咒很厉害吗？
+          emotion: fearful
+        - id: ch01-b62
+          speaker: robert
+          text: >-
+            是符咒。不过你把它交给简以前，它不会伤人。简拿到就会毁掉它，以后它也害不了谁。它厉害极了，简直跟……跟薄荷神一样厉害！
+        - id: ch01-b63
+          speaker: narrator
+          text: 罗伯特突然收住了口。里蒂-马尔杜克吓得弯下腰。
+        - id: ch01-b64
+          speaker: ritti_marduk
+          text: 我不认识这位神。
+          emotion: fearful
+        - id: ch01-b65
+          speaker: robert
+          text: >-
+            她收到就会把信撕碎，符咒也就破了。你现在动身，什么都不用怕。
+        - id: ch01-b66
+          speaker: narrator
+          text: >-
+            里蒂-马尔杜克走了，看着仍不太放心。王后立刻热切地夸起账簿和铅笔。西里尔看出来，除了把它们送给她，已经没有别的办法。王后欢喜地拨弄着哗啦作响的纸页。
+        - id: ch01-b67
+          speaker: queen
+          text: >-
+            这种材料真奇妙！你就是用这根刻笔制作符咒的吗？也给我做一道吧。你知不知道，你们遥远国度里那些伟大人物的名字？
+        - id: ch01-b68
+          speaker: cyril
+          text: 当然知道！
+        - id: ch01-b69
+          speaker: narrator
+          text: >-
+            他飞快写下阿尔弗雷德大帝、莎士比亚、纳尔逊、戈登、比肯斯菲尔德勋爵、拉迪亚德·吉卜林先生和夏洛克·福尔摩斯先生。王后屏住了安西娅后来所谓的毫无诱饵的呼吸，在一旁看着。
+        - id: ch01-b70
+          speaker: narrator
+          text: 王后接过账簿，虔敬地藏进衣裙鲜亮的褶裥。
+        - id: ch01-b71
+          speaker: queen
+          text: >-
+            以后你得教我念这些伟大的名字，还有他们的大臣。伟大的尼思洛克，也许就是一位大臣吧？
+        - id: ch01-b72
+          speaker: cyril
+          text: >-
+            我想不是。坎贝尔-班纳曼先生是首相，伯恩斯先生是大臣，坎特伯雷大主教好像也是，不过我不敢肯定。帕克博士从前是一个，还有……
+        - id: ch01-b73
+          speaker: queen
+          text: >-
+            别说啦！这么多伟大的名字，我头都晕了。下次再教我吧。你们既然来了，当然会住上好一阵子，对不对？现在告诉我……算了，你们这么聪明，我已经累坏了。我敢说，你们也想听我讲点什么吧？
+        - id: ch01-b74
+          speaker: anthea
+          text: 我想知道国王为什么离开……
+        - id: ch01-b75
+          speaker: queen
+          text: 对不起，你应该说，国王陛下，愿他万寿无疆。
+        - id: ch01-b76
+          speaker: anthea
+          text: >-
+            请您原谅。国王陛下，愿他万寿无疆，为什么去接第十四位妻子？我想连蓝胡子都没有这么多妻子。而且，他至少还没杀掉您。
+        - id: ch01-b77
+          speaker: narrator
+          text: 王后一脸迷惑。
+        - id: ch01-b78
+          speaker: robert
+          text: >-
+            她是说，英格兰国王只有一个妻子。亨利八世倒有过七八个，但也不是同时娶的。
+        - id: ch01-b79
+          speaker: queen
+          text: >-
+            在我们这里，国王若只有一个妻子，一天都坐不稳王位。谁也不会尊敬他，这不是理所当然的吗？
+        - id: ch01-b80
+          speaker: anthea
+          text: 那另外十三位都还活着吗？
+        - id: ch01-b81
+          speaker: queen
+          text: >-
+            当然。那群可怜又没出息的女人！我才不同她们来往。我是王后，她们只是妻子。
+        - id: ch01-b82
+          speaker: anthea
+          text: 我明白了。
+        - id: ch01-b83
+          speaker: narrator
+          text: 安西娅倒吸了一口气。
+        - id: ch01-b84
+          speaker: queen
+          text: >-
+            可是亲爱的，为了最后这位妻子，闹出的乱子才叫大呢！我们想要一位埃及公主。国王陛下，愿他万寿无疆，已经娶了大多数重要国家的女子，一心要再添一个埃及人，把收藏凑齐。我们先送去好多黄金。埃及国王只回赠了几匹马，小气得要命！他又说，比起黄金，他们更缺青金石，我们只好再送青金石。
+        - id: ch01-b85
+          speaker: queen
+          text: >-
+            可那时他已经拿我们的黄金包太阳神庙的屋梁，剩下的不够完工，我们又得送黄金。这样来来回回，足足折腾了好几年，每一趟都至少要走六个月。最后，我们终于向他的女儿求婚。
+        - id: ch01-b86
+          speaker: anthea
+          text: 后来呢？
+        - id: ch01-b87
+          speaker: narrator
+          text: 安西娅急着听公主的事。
+        - id: ch01-b88
+          speaker: queen
+          text: >-
+            等他把能弄走的东西全弄到手，只送来几样最寒酸的回礼，他才派人说，结亲是莫大的荣耀，可惜他没有女儿。不过他希望很快会有。真生了女儿，一定给巴比伦国王留着！
+        - id: ch01-b89
+          speaker: cyril
+          text: 真会骗人！
+        - id: ch01-b90
+          speaker: queen
+          text: >-
+            可不是吗？于是我们说，他妹妹也行。接着又是送礼，又是一趟趟来回。现在那个讨厌的黑发女人总算要来了。国王陛下，愿他万寿无疆，赶了七天路去卡赫美士迎接她，还乘了最好那辆战车。车身镶着青金石和黄金，车轮包金，轮毂嵌着缟玛瑙。依我看，她才配不上呢！
+        - id: ch01-b91
+          speaker: queen
+          text: >-
+            今晚宫里会办盛宴，不过她本人不能参加。她还得沐浴、涂油，忙上一大堆。外国新娘总得仔细洗干净，要洗两三个星期。现在该吃午饭了。你们一看就出身高贵，来跟我一起吃吧。
+        - id: ch01-b92
+          speaker: narrator
+          text: >-
+            王后领着他们走进一座幽暗凉爽的大厅，地上铺了许多靠垫。大家挨着坐下，仆人抬来一张又一张矮桌。桌子用光滑漂亮的蓝色石料做成，四周镶着黄金，上面还摆了金托盘。可是托盘旁既没有刀，也没有叉子或勺子。孩子们还以为王后会叫人去取，她却什么也没说，只管伸手抓着吃起来。
+        - id: ch01-b93
+          speaker: narrator
+          text: >-
+            第一道菜装在一只大盘里，是煮熟的谷粒、肉和葡萄干，所有东西全混在一起，上面又浇满融化的油脂。要学王后的样子用手抓着吃，同时又勉强守住自己心目中的餐桌礼貌，实在难得很。后面还有炖榅桲、泡在糖浆里的椰枣，以及浓稠微黄的奶油。这样的午饭，在菲茨罗伊街几乎永远也吃不到。
+        - id: ch01-b94
+          speaker: narrator
+          text: 午饭一吃完，所有人都睡着了。就连心里还惦记着简和赛米德的孩子们，也没能例外。不知过了多久，王后猛地惊醒过来。
+        - id: ch01-b95
+          speaker: queen
+          text: >-
+            天哪，我们怎么睡了这么久！我得赶快换上宴会礼服，剩下的时间只怕刚刚够。
+        - id: ch01-b96
+          speaker: anthea
+          text: 里蒂-马尔杜克还没把妹妹和赛米德带来吗？
+        - id: ch01-b97
+          speaker: queen
+          text: >-
+            我完全忘了问，真对不起。我不吩咐，除非到了主持公道的时候，他们当然不会通报她。我想她就在外面等着，我去看看。
+        - id: ch01-b98
+          speaker: narrator
+          text: 过了一会儿，里蒂-马尔杜克进来了。
+        - id: ch01-b99
+          speaker: ritti_marduk
+          text: >-
+            很遗憾，我没找到您的妹妹。她篮里的野兽咬了守门人的孩子，她就带着那野兽来找你们了。警察已经有了线索，再过几个星期，一定能得到消息。
+        - id: ch01-b100
+          speaker: narrator
+          text: >-
+            他说完鞠了一躬，退了出去。简、赛米德和护符，竟然一下子全丢了。这三重可怕的打击，正好成了王后更衣时三个孩子谈话的题目。他们说的全是阴沉的话，每个人都把同一个意思翻来覆去说了许多遍。说到最后，三个人都怪另外两个不该让简离开。你一定知道这种谈话是什么样。
+        - id: ch01-b101
+          speaker: cyril
+          text: >-
+            不管怎么说，她跟赛米德在一起，不会有事。赛米德也很会保护自己。我们又没遇到危险。大家打起精神，好好参加宴会吧。
+        - id: ch01-b102
+          speaker: narrator
+          text: >-
+            他们果真享受起宴会来。先舒舒服服洗了一个澡，那滋味妙极了。接着，别人从他们的头发开始，把油厚厚涂遍全身，这可难受极了。随后，他们重新穿好衣服，被引去觐见国王。国王和蔼得不得了。宴会持续了很久，各种好吃的东西应有尽有，人人似乎都吃了许多，也喝了许多。
+        - id: ch01-b103
+          speaker: narrator
+          text: >-
+            宾客们全都斜倚在靠垫和卧榻上，女士在大厅的一边，男士在另一边。等大家吃完，每位女士才走到一位男士身旁坐下。那些男士大概是她们的情人或丈夫，因为两个人一坐到一起，就显得亲热极了。所有宫廷礼服里都织着金线，颜色鲜明，光彩耀眼，美丽得非同寻常。
+        - id: ch01-b104
+          speaker: narrator
+          text: >-
+            大厅中央特意空出一片场地，各种人轮番上前表演有趣的节目。先有魔术师，又有杂耍艺人，后来还有弄蛇人。最后这一种节目，安西娅一点儿也不喜欢。等天完全黑下来，人们点亮了火把。浸过油的雪松木片放在高杆顶端的铜盘里，烧出熊熊火光。
+        - id: ch01-b105
+          speaker: narrator
+          text: >-
+            后来上场的是一位舞女。说她是舞女，可她几乎不跳舞，只是站在场地中央，一个接一个地变换姿势。她身上的衣服少得不能再少，人也一点儿不漂亮。孩子们看了一阵，觉得这节目相当乏味。可是周围其他人却全都兴高采烈，国王也不例外。
+        - id: ch01-b106
+          speaker: king
+          text: 凭宁录的胡须起誓！姑娘，你想要什么尽管说，我一定赏给你！
+          emotion: happy
+        - id: ch01-b107
+          speaker: dancer
+          text: >-
+            我什么也不要。能让国王陛下高兴，愿他万寿无疆，就是对我最好的奖赏。
+        - id: ch01-b108
+          speaker: narrator
+          text: >-
+            国王很喜欢这番谦逊懂事的话，从颈上摘下一只金项圈赏给她。
+        - id: ch01-b109
+          speaker: cyril
+          text: 我的天！
+          emotion: surprised
+        - id: ch01-b110
+          speaker: narrator
+          text: 这么贵重的礼物，让西里尔顿时肃然起敬。
+        - id: ch01-b111
+          speaker: queen
+          text: >-
+            没什么，那远不是他最好的项圈。这种场合要送的便宜首饰，我们总备着不少。对了，你们答应唱歌给我们听。要不要我的乐师伴奏？
+        - id: ch01-b112
+          speaker: anthea
+          text: 不用了，谢谢您！
+        - id: ch01-b113
+          speaker: narrator
+          text: >-
+            乐师们一直断断续续地演奏。那音乐让安西娅想起从前十一月五日，她和几个孩子组织过的乐队。他们用的是一便士号角、锡哨、茶盘、火钳、警察摇铃和玩具鼓，当时演奏得别提有多开心。可换成别人制造同样的音乐，听起来却完全是另一种感受。直到这一刻，安西娅才终于明白，父亲当初叫他们停止那阵令人发狂的喧闹，并不是真正的冷酷无情，也不是蛮不讲理。
+        - id: ch01-b114
+          speaker: cyril
+          text: 我们唱什么？
+        - id: ch01-b115
+          speaker: anthea
+          text: 唱《轻柔又低回》怎么样？
+        - id: ch01-b116
+          speaker: cyril
+          text: 太轻了。还是《谁愿越过山岗》吧。来，一、二、三。
+        - id: ch01-b117
+          speakers: [cyril, robert, anthea]
+          ensemble: chorus
+          text: |-
+            谁愿自由越山岗，
+            谁愿与我并辔行，
+            谁愿随我向前闯，
+            赢得佳人花般容？
+
+            她的父亲锁了门，
+            她的母亲守钥匙，
+            门闩铁栓也休想，
+            拦我与真爱相逢。
+        - id: ch01-b118
+          speaker: narrator
+          text: >-
+            平时唱女低音的简不在这里。罗伯特又像歌里那个姑娘的母亲一样，从来都守不住调门。即便如此，这首歌跟巴比伦宫廷里任何人听过的音乐都相去甚远。对他们来说，这几个孩子的歌声新奇得不得了，整座大厅立刻陷入了最狂热的兴奋。
+        - id: ch01-b119
+          speaker: king
+          text: >-
+            再唱，再唱！凭我的胡须起誓，这野蛮人的音乐真新鲜。再来一首！
+          emotion: happy
+        - id: ch01-b120
+          speakers: [cyril, robert, anthea]
+          ensemble: chorus
+          text: |-
+            暮色苍茫，我见她绣房，
+            卫兵环绕，守得严密。
+            破晓时分，我再望绣房，
+            那里已经无人守卫。
+
+            仆从个个沉入梦乡，
+            没人瞧见，没有谁知，
+            我与心爱的姑娘相逢，
+            彼此问候，温柔甜蜜。
+        - id: ch01-b121
+          speaker: narrator
+          text: >-
+            一节唱完，喝彩声从四面涌来。国王怎么也听不够。孩子们会唱的三首合唱曲，每首都唱了两遍，最后又一起唱完《哈勒赫的战士》，他才肯罢休。国王穿着王袍，戴着窄窄的高冠站了起来。
+        - id: ch01-b122
+          speaker: king
+          text: >-
+            凭尼思洛克的鹰喙起誓！来自日不落之国的异乡人，你们想要什么，只管说！
+        - id: ch01-b123
+          speaker: anthea
+          text: 我们该像刚才的舞女一样，说这份荣耀已经足够了。
+        - id: ch01-b124
+          speaker: robert
+          text: 不，咱们得要那个。
+        - id: ch01-b125
+          speaker: anthea
+          text: 不，我敢说另一种回答才有礼貌。
+        - id: ch01-b126
+          speaker: narrator
+          text: >-
+            可音乐、火把、满堂喝彩和眼前这个大好机会，已经让罗伯特激动万分。别人还没来得及拦，他就喊了出来。
+        - id: ch01-b127
+          speaker: robert
+          text: >-
+            请把那半块护符赐给我们，就是刻着乌尔——赫考——塞切这个名字的半块。国王陛下，愿您万寿无疆！
+        - id: ch01-b128
+          speaker: narrator
+          text: >-
+            那个伟大名字一出口，柱厅里所有人都伏倒在地，一动不动。王后双手抱住头，蜷在靠垫里。只有国王直挺挺站着，纹丝不动，像一尊石头刻成的国王像。片刻之后，他雷鸣般的声音突然炸响。
+        - id: ch01-b129
+          speaker: king
+          text: 卫兵！把他们抓起来！
+          emotion: angry
+        - id: ch01-b130
+          speaker: narrator
+          text: >-
+            八名士兵像从空中冒出来似的。他们穿着镶金的明亮铠甲和红白短袍，威风凛凛，也让人胆战心惊。
+        - id: ch01-b131
+          speaker: king
+          text: >-
+            不敬神明、亵渎圣物的恶徒！关进地牢！明天自有办法让他们开口。他们一定知道失落的另一半藏在哪里！
+          emotion: angry
+        - id: ch01-b132
+          speaker: narrator
+          text: >-
+            士兵短袍的猩红与雪白，铠甲的钢铁与黄金，在孩子们周围合成一堵密不透风的墙。他们被紧紧夹在中间，身不由己地向前走，穿过大厅里数也数不清的柱子。朝臣们惊恐的喊声一直从身后追来，直到一行人匆匆离开大厅。
+        - id: ch01-b133
+          speaker: cyril
+          text: 这回你可闯下大祸了。
+        - id: ch01-b134
+          speaker: narrator
+          text: 西里尔的声音苦涩极了。
+        - id: ch01-b135
+          speaker: anthea
+          text: >-
+            不会有事的，一定不会。我们哪一次不是最后都逢凶化吉？
+        - id: ch01-b136
+          speaker: narrator
+          text: >-
+            安西娅拼命这么说，仿佛只要说得够坚定，事情就真会变好。卫兵围得太紧，孩子们根本看不见要去哪里。他们只能从脚底感觉路线。起初踩的是光滑的大理石，后来渐渐变成粗糙的石面，再往前，又成了松散的泥土和沙子。夜风吹到他们身上，接着脚下再次出现石面，最后又走上一段不断向下的台阶。
+        - id: ch01-b137
+          speaker: cyril
+          text: 看来这回，我们真要被关进城堡护城河下面最深的地牢了。
+        - id: ch01-b138
+          speaker: narrator
+          text: >-
+            果真如此。准确地说，那地方并不在城堡护城河下面，而是在幼发拉底河下面。可那也没有好到哪里去，甚至可能更糟。地牢黑得吓人，又潮湿得要命，空气里还有一股古怪的霉味，很像牡蛎壳。里面只点着一支火把，也就是在一根高杆上安了铜篮，篮里烧着浸过油的木柴。
+        - id: ch01-b139
+          speaker: narrator
+          text: >-
+            孩子们借着那一点火光，看见四面的墙都泛着湿冷的绿色。一缕又一缕水顺着墙壁往下流，更多的水从洞顶一滴滴落下来。地面上有些东西，看着很像水螈。更黑的角落里，还有滑溜发亮的东西在迟缓地蠕动。谁也看不清那究竟是什么，只觉得不安，也恶心得可怕。
+        - id: ch01-b140
+          speaker: narrator
+          text: >-
+            罗伯特的心一路往下沉，最后简直沉进了脚上那双真正靠得住的靴子里。安西娅和西里尔也各自在心里，同人人体内都有的那股恶意打了一仗，那东西有时被叫作旧亚当。两个人都赢了。他们谁也没有对罗伯特说，这全是你害的，还竭力连想也不去想。安西娅更忍住了另一个诱惑，没有补上一句，我早就告诉过你。
+        - id: ch01-b141
+          speaker: guard_captain
+          text: >-
+            亵渎圣物，冒犯神明。国王什么时候高兴，什么时候再放。我猜明天国王会从他们身上找点乐子，好好给他们挠挠痒！
+        - id: ch01-b142
+          speaker: jailer
+          text: 可怜的小家伙。
+        - id: ch01-b143
+          speaker: guard_captain
+          text: >-
+            可不是。我自己也有孩子，不过不能让家里的儿女情长耽误公务。晚安。
+        - id: ch01-b144
+          speaker: narrator
+          text: >-
+            红白短袍、钢铁和黄金随着沉重的脚步远去了。狱卒攥着一大串钥匙，怜悯地看着孩子们，摇了两次头，也走了出去。
+        - id: ch01-b145
+          speaker: anthea
+          text: >-
+            勇敢一点！我知道一定会没事。这只是一场梦，一定是！我才不信时间只是思想的什么东西。这里就是梦。我们早晚会醒来，平平安安的。
+        - id: ch01-b146
+          speaker: cyril
+          text: 哼。
+        - id: ch01-b147
+          speaker: narrator
+          text: 西里尔苦涩地哼了一声。罗伯特忽然开口。
+        - id: ch01-b148
+          speaker: robert
+          text: >-
+            都怪我。要是真的全完了，求你们别老拿这件事压我。还要告诉爸爸……哦，我忘了。
+          emotion: sad
+        - id: ch01-b149
+          speaker: narrator
+          text: >-
+            他忘了，父亲远在三千英里之外，中间还隔着五千年，甚至更久的岁月。
+        - id: ch01-b150
+          speaker: cyril
+          text: 没事的，鲍勃，老伙计。
+        - id: ch01-b151
+          speaker: narrator
+          text: 安西娅握住罗伯特的手，用力捏了捏。
+        - id: ch01-b152
+          speaker: narrator
+          text: >-
+            狱卒又回来了，带来一盘粗粮做的硬扁饼和一罐水。那跟宫里奶油丰厚、椰枣多汁的盛宴可完全不同。
+        - id: ch01-b153
+          speaker: jailer
+          text: 拿去。
+        - id: ch01-b154
+          speaker: anthea
+          text: 太谢谢您了，您真好。
+        - id: ch01-b155
+          speaker: jailer
+          text: 睡吧。角落里有稻草，明天很快就会来。
+        - id: ch01-b156
+          speaker: anthea
+          text: 亲爱的狱卒先生，他们明天究竟要把我们怎么样？
+        - id: ch01-b157
+          speaker: jailer
+          text: >-
+            他们会设法逼你们说出事情来。听我的，要是没什么可说，就编一点。说不定他们会把你们卖给北方的民族，那可是一群十足的野蛮人。晚安。
+        - id: ch01-b158
+          speakers: [cyril, robert, anthea]
+          ensemble: chorus
+          text: 晚安。
+          emotion: fearful
+        - id: ch01-b159
+          speaker: narrator
+          text: >-
+            三个声音全都抖得厉害。声音的主人拼命想让这句晚安听起来坚定一点，至少别叫狱卒听出他们有多害怕，可不管怎么努力也做不到。狱卒拿着钥匙离开了，脚步声越来越远。最后，三个孩子独自留在这座阴湿、昏暗，又不知道藏着什么东西的地牢里。
+        - id: ch01-b160
+          speaker: cyril
+          text: 这火撑不了多久，我知道。
+        - id: ch01-b161
+          speaker: anthea
+          text: 没有护符，念出力量之名还会有用吗？
+        - id: ch01-b162
+          speaker: cyril
+          text: 我看没用，不过可以试试。
+        - id: ch01-b163
+          speaker: narrator
+          text: 他们试了。阴湿的地牢仍旧空洞而寂静，一点儿变化也没有。
+        - id: ch01-b164
+          speaker: cyril
+          text: >-
+            王后刚才说的名字是什么？尼斯贝思，还是内斯比特？差不多是这个吧，就是那个服侍伟大人物的仆人。
+        - id: ch01-b165
+          speaker: robert
+          text: >-
+            等等，我不明白你问这个干什么。努斯罗克，尼斯罗克……尼思洛克！对，就是它。
+        - id: ch01-b166
+          speaker: narrator
+          text: >-
+            安西娅振作起来，全身的肌肉都绷紧了。要是思想和灵魂也有肌肉，那些肌肉也一起绷紧了。
+        - id: ch01-b167
+          speaker: anthea
+          text: 乌尔——赫考——塞切！伟大诸神的仆人尼思洛克，快来帮助我们！
+        - id: ch01-b168
+          speaker: narrator
+          text: >-
+            四周一片寂静，仿佛地牢里的一切都屏住气息，正在等待。过了一会儿，堆着稻草的角落亮起一片冰冷的蓝光。在那片蓝光里，孩子们看见一个奇异又可怕的身影，正一步一步向他们走来。
+        - id: ch01-b169
+          speaker: narrator
+          text: >-
+            我不打算把它的模样从头到脚说一遍，因为书里的图已经画得分毫不差。那幅图跟它当时的样子一样，也跟古代巴比伦人刻在石头上的样子一样。直到今天，你还能在大英博物馆亲眼看见。我只告诉你，它长着鹰的翅膀、鹰的头，却有人的身体。它就这样向孩子们走来，强大得可怕。那种恐怖，简直没法用话形容。
+        - id: ch01-b170
+          speaker: anthea
+          text: 快走开！
+          emotion: fearful
+        - id: ch01-b171
+          speaker: cyril
+          text: 不，留下！
+        - id: ch01-b172
+          speaker: narrator
+          text: 怪物迟疑了一下，随即站在湿漉漉的地面上，朝他们深深鞠躬。
+        - id: ch01-b173
+          speaker: nisroch
+          text: >-
+            说吧。伟大诸神的仆人，也是你们的仆人。念出尼思洛克之名召唤我的人，你们需要什么？
+        - id: ch01-b174
+          speaker: narrator
+          text: 它的声音粗粝刺耳，像许多把生锈的钥匙一起在锁孔里转动。
+        - id: ch01-b175
+          speaker: robert
+          text: 我们想回家。
+        - id: ch01-b176
+          speaker: anthea
+          text: 不，不！我们要去简所在的地方！
+        - id: ch01-b177
+          speaker: narrator
+          text: >-
+            尼思洛克抬起一条巨大的手臂，笔直指向地牢的墙壁。它这么一指，整面墙立刻消失了。刚才还阴湿发绿的岩石表面无影无踪，原来的墙外出现了一间明亮温暖、流光溢彩的房间。墙上垂着华丽的红绸帷幔，绣满金色睡莲。房里摆着一张张铺了软垫的卧榻，还有一面又一面打磨得发亮的钢镜。
+        - id: ch01-b178
+          speaker: narrator
+          text: >-
+            王后就在这间房里，面前摆着一只红靠枕。赛米德端端正正坐在靠枕上，浑身的毛都气恼地耸着，一看就知道它非常不满。简则躺在一张蒙着蓝布的卧榻上，对眼前发生的事一无所知，依旧睡得正熟。
+        - id: ch01-b179
+          speaker: nisroch
+          text: >-
+            不要害怕，向前走。念出伟大名字的人，伟大名字的仆人还能替你们做什么？
+        - id: ch01-b180
+          speaker: cyril
+          text: 不用了，真的不用。现在都好了。太感谢你了。
+        - id: ch01-b181
+          speaker: anthea
+          text: >-
+            你真是太好了！谢谢，谢谢你。不过请你现在就走吧！
+        - id: ch01-b182
+          speaker: narrator
+          text: >-
+            安西娅根本不知道自己在说什么。她抓住怪物的手，那只手又冷又硬，像石头刻成的一样。
+        - id: ch01-b183
+          speaker: nisroch
+          text: 向前走。
+        - id: ch01-b184
+          speaker: narrator
+          text: 他们跨过墙原来所在的地方，来到王后面前。
+        - id: ch01-b185
+          speaker: queen
+          text: >-
+            哦，我的老天哪！你们怎么会突然来到这里？我就知道你们一定会魔法。我本来还打算等到明天一早，找个机会从这里溜出去，立刻赶去地牢放你们出来。不过感谢达贡，你们自己先想出了办法！现在你们必须赶快离开。我这就叫醒首席女官，让她把里蒂-马尔杜克叫来。他会悄悄从后门放你们出去，然后……
+        - id: ch01-b186
+          speaker: anthea
+          text: 求您别叫醒任何人，只要叫醒简。我来叫她。
+        - id: ch01-b187
+          speaker: narrator
+          text: 安西娅使劲摇简，简终于慢慢醒了。
+        - id: ch01-b188
+          speaker: queen
+          text: >-
+            其实，里蒂-马尔杜克在几个钟头以前，就已经把简和赛米德送来了。只是我一时很想把赛米德独占一会儿，所以才没有告诉你们。这个无伤大雅的小骗局，你们会原谅我的吧？你们知道，这可是巴比伦人的天性。不过我绝不愿意看见你们出事，还是让我叫个人过来帮忙吧。
+        - id: ch01-b189
+          speaker: anthea
+          text: 不，不，不！
+        - id: ch01-b190
+          speaker: narrator
+          text: >-
+            安西娅急得不得了。巴比伦人被叫醒后会是什么样，她觉得自己已经知道得够多了。
+        - id: ch01-b191
+          speaker: anthea
+          text: >-
+            我们能用自己的魔法离开。还有，请告诉国王，这不是狱卒的错，是尼思洛克做的。
+        - id: ch01-b192
+          speaker: queen
+          text: 尼思洛克！你们果真是魔法师。
+          emotion: surprised
+        - id: ch01-b193
+          speaker: narrator
+          text: 简坐起来，睡眼惺忪地眨着眼。
+        - id: ch01-b194
+          speaker: cyril
+          text: 举起护符，念那个名字！
+        - id: ch01-b195
+          speaker: narrator
+          text: >-
+            西里尔一把抱起赛米德。赛米德本能地咬了他一口，不过咬得很轻。
+        - id: ch01-b196
+          speaker: jane
+          text: 哪边是东方？
+        - id: ch01-b197
+          speaker: queen
+          text: 我身后。怎么了？
+        - id: ch01-b198
+          speaker: jane
+          text: 乌尔——赫考——塞切。
+        - id: ch01-b199
+          speaker: narrator
+          text: >-
+            简还没有完全清醒。她困倦地念出那个名字，同时把护符举了起来。就在这一眨眼的工夫，巴比伦王后的房间消失了，他们所有人都平安回到了菲茨罗伊街三百号那间熟悉的餐厅。
+        - id: ch01-b200
+          speaker: cyril
+          text: 简，去把赛米德那盘沙子拿下来。
+        - id: ch01-b201
+          speaker: narrator
+          text: 简上楼去了。等她的靴子声渐渐远去，西里尔赶紧开口。
+        - id: ch01-b202
+          speaker: cyril
+          text: >-
+            听着，地牢里的事别告诉她。只会吓得她以后再也不肯去任何地方。
+        - id: ch01-b203
+          speaker: robert
+          text: 好嘞！
+        - id: ch01-b204
+          speaker: narrator
+          text: 安西娅却觉得，就算要她的命，她也一个字都说不出来。
+        - id: ch01-b205
+          speaker: jane
+          text: >-
+            你们为什么这么急着回来？我觉得巴比伦好玩极了，我喜欢得不得了！
+        - id: ch01-b206
+          speaker: narrator
+          text: 简端着沙盘回来了。
+        - id: ch01-b207
+          speaker: cyril
+          text: >-
+            是啊，当然挺好玩。不过我觉得已经待得够久了。妈妈总说，做客可不能久到惹主人厌烦！

@@ -1,0 +1,536 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 温暖机敏，带着克制的幽默讲述
+        timbre: 清澈柔和
+        pace: 从容而富有变化
+        pitch: 中音
+    caroline:
+      display_name: 卡罗琳
+      tts:
+        delivery: 大方热情，努力摆出长姐的懂事
+        timbre: 明亮清脆
+        pace: 自然轻快
+        pitch: 中高音
+    charlotte:
+      display_name: 夏洛特
+      tts:
+        delivery: 活泼直率，想到什么便说什么
+        timbre: 轻盈清亮
+        pace: 偏快
+        pitch: 高音
+    charles:
+      display_name: 查尔斯
+      tts:
+        delivery: 淘气认真，笑话总说得一本正经
+        timbre: 清亮的男孩声
+        pace: 轻快
+        pitch: 中高音
+    aunt_emmeline:
+      display_name: 埃默琳姨妈
+      tts:
+        delivery: 平静克制，礼貌得近乎严肃
+        timbre: 淡雅平稳
+        pace: 不疾不徐
+        pitch: 中音
+    rupert:
+      display_name: 鲁珀特
+      tts:
+        delivery: 闷闷不乐又坦率，熟络后带着少年人的热切
+        timbre: 清亮略低的少年声
+        pace: 自然，激动时稍快
+        pitch: 中音
+    reverend_macpherson:
+      display_name: 麦克弗森牧师
+      tts:
+        delivery: 冷淡严厉，字字带着管束人的威势
+        timbre: 冷硬干涩
+        pace: 缓慢刻板
+        pitch: 中低音
+    mrs_wilmington:
+      display_name: 威尔明顿太太
+      tts:
+        delivery: 客气克制，始终保持管家的端庄
+        timbre: 纤细平直
+        pace: 稍慢
+        pitch: 中音
+    uncle_charles:
+      display_name: 查尔斯舅公
+      tts:
+        delivery: 温和飘忽，偶尔流露出幽微的兴味
+        timbre: 轻柔低沉
+        pace: 舒缓
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 第二章　庄园宅邸
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: |-
+            出门前收拾行李，总免不了一场忙乱。三个孩子楼上楼下跑个不停。真正叫人为难的，往往不是该带什么，而是非得留下什么。桑德尔小姐被成堆的书本和玩具围在中间。那一堆堆东西实在太大，就算衣服一件不装，也休想全部塞进箱子。最后她想出了办法。凡是落下的东西，只要三个孩子都认定，少了它便不会幸福，她随后就用邮局或货运给他们寄去。
+        - id: ch01-b02
+          speaker: aunt_emmeline
+          text: |-
+            豹皮实在太占地方。你们舅公家里应该有野兽皮，也有动物标本。
+        - id: ch01-b03
+          speaker: narrator
+          text: |-
+            于是，豹皮也留下了。那天早晨，孩子们一直悄声商量，神神秘秘地翻着书。埃默琳姨妈也许觉得奇怪，也许根本没有。她一向很沉静。可等马车来到门口，三个孩子各捧一束花站到她面前，她一定明白了。
+        - id: ch01-b04
+          speakers: [caroline, charlotte, charles]
+          ensemble: chorus
+          text: |-
+            这些花送给您。
+        - id: ch01-b05
+          speaker: narrator
+          text: |-
+            夏洛特先献上一束花园里的香蜂草。
+        - id: ch01-b06
+          speaker: charlotte
+          text: |-
+            它表示“同情”。您肯那样说当然很好，可我们知道，您要去的那些地理书上的地方，绝不可能真的比查尔斯舅公家更好。
+        - id: ch01-b07
+          speaker: narrator
+          text: |-
+            查尔斯拿的是旋花。他解释说，那表示“希望已死”，花倒也很漂亮。接着，他忽然捧出一盆栽在红花盆里的小仙人掌。
+        - id: ch01-b08
+          speaker: charles
+          text: |-
+            这个也是送您的，我特地买的。它表示“你并未离去”。
+        - id: ch01-b09
+          speaker: aunt_emmeline
+          text: |-
+            你们真贴心！
+        - id: ch01-b10
+          speaker: narrator
+          text: |-
+            埃默琳姨妈转向卡罗琳。卡罗琳抱着一大束常春藤和金盏花，几乎整个人都藏在后面。
+        - id: ch01-b11
+          speaker: caroline
+          text: |-
+            常春藤表示友谊。金盏花不算，我只是喜欢它们金灿灿的样子。要是非算不可，那就表示命运很残酷，因为您不能跟我们走。里面还藏着一朵紫色三色堇，虽然我也找不着了。它表示“我思念你”。
+        - id: ch01-b12
+          speaker: aunt_emmeline
+          text: |-
+            真的太谢谢你们了。我简直说不出自己有多高兴。你们三个都这样惦记我。
+        - id: ch01-b13
+          speaker: narrator
+          text: |-
+            这场献花仪式让启程也变得光彩照人。到了最后一刻，卡罗琳还从车窗里探出身子。
+        - id: ch01-b14
+          speaker: caroline
+          text: |-
+            埃默琳姨妈，等佩基特小姐来做完那几件要寄给我们的细棉布裙子，您替我送她一朵风铃草，好吗？她应该懂它的意思。万一不懂，书上说它代表“感激”。我们写信时，也会夹上花来告诉您我们的心情。再见！
+        - id: ch01-b15
+          speaker: narrator
+          text: |-
+            珀西瓦尔姨父把他们送到了车站。至于坐火车的滋味，还用得着细讲吗？车里满是灰尘，阳光晒得人睁不开眼。孩子们想放下遮帘，一位穿着十分讲究、带着坏脾气灰色小狗的太太却偏说不行。你一定也知道，坐完火车，手会变得黑乎乎，座垫摸着满是沙砾。连脸也会莫名其妙地黑了，尽管你敢保证，自己绝没有用手碰过脸。这一回，眼睛里落进火车煤屑的是查尔斯。总会有人中招，因为不管印出来的告示怎样警告，总有人非把头探出车窗不可。
+        - id: ch01-b16
+          speaker: narrator
+          text: |-
+            真正值得讲的，是他们在换乘站发生的事。列车员一路仔细照看，领着他们换过车，可下一班还得等上一阵。三个孩子先去看书报摊。那摊子又小又无趣，差不多只摆着报纸。没什么可看以后，他们只好开始打量那些同样等车的人。大多数人看着也很乏味，只有一位高个子先生不同。三个孩子一致认定，他活像《大卫·科波菲尔》里的谋得斯通先生。
+        - id: ch01-b17
+          speaker: charlotte
+          text: |-
+            快看！他还把大卫也带来了！
+        - id: ch01-b18
+          speaker: narrator
+          text: |-
+            这位“谋得斯通先生”买了《雅典娜神殿》《旁观者》，还有一本七便士的马可·奥勒留著作重印本。他走到一张长凳前，那里坐着个满脸不高兴的男孩。先生对男孩说了一句话，男孩答过以后，他便走开了。
+        - id: ch01-b19
+          speaker: charles
+          text: |-
+            他准是一个人吃小圆面包去了。自私的猪！
+        - id: ch01-b20
+          speaker: caroline
+          text: |-
+            咱们也去那张长凳上坐。查尔斯，你挨着他，说不定他愿意跟我们讲话。
+        - id: ch01-b21
+          speaker: narrator
+          text: |-
+            他们坐了过去。那个闷闷不乐的男孩后来果真开口了，不过得等查尔斯先跟他说话。
+        - id: ch01-b22
+          speaker: charles
+          text: |-
+            你也坐下一班火车吗？要是坐，我们可以去你的车厢，陪你一起走。
+        - id: ch01-b23
+          speaker: rupert
+          text: |-
+            陪我又有什么用？等你们走了，只会更难受。
+        - id: ch01-b24
+          speaker: charles
+          text: |-
+            什么会更难受？
+        - id: ch01-b25
+          speaker: rupert
+          text: |-
+            又剩下我一个人。
+        - id: ch01-b26
+          speaker: narrator
+          text: |-
+            卡罗琳绕到男孩另一边坐下。
+        - id: ch01-b27
+          speaker: caroline
+          text: |-
+            可你现在不是一个人了。到底出了什么事？那个人是谁？
+        - id: ch01-b28
+          speaker: rupert
+          text: |-
+            他是个教书先生。这还看不出来吗？
+        - id: ch01-b29
+          speaker: caroline
+          text: |-
+            我们觉得他像谋得斯通先生。
+        - id: ch01-b30
+          speaker: rupert
+          text: |-
+            不是像，简直一模一样。
+        - id: ch01-b31
+          speaker: charlotte
+          text: |-
+            原来你读过《大卫·科波菲尔》！太好了！
+          emotion: happy
+        - id: ch01-b32
+          speaker: narrator
+          text: |-
+            大家一下子全高兴了。读过并且喜欢同样的书，是世上最牢靠的纽带。一阵友谊的潮水，转眼漫过了这一小群人。接着他们发现，男孩还读过《爱丽丝漫游奇境》《我所知道的野生动物》《赫里沃德传奇》，也读过《海滨杂志》上伊迪丝·内斯比特写给孩子们的故事。等这些书名一个个说完，他们都觉得，彼此哪里才刚认识，分明已经做了好几年朋友。
+        - id: ch01-b33
+          speaker: charles
+          text: |-
+            趁他还没回来，快把事情全告诉我们！说不定我们能用绳梯给你送果酱馅饼和苹果，帮你逃出来。我们到死都站在你这边，你可别忘了！你叫什么名字？住在哪儿？又要去哪里？快说呀！
+        - id: ch01-b34
+          speaker: narrator
+          text: |-
+            于是，男孩把一切都说了出来。他叫鲁珀特·威克斯，正在一所还不算太坏的学校念书。教古典文学的老菲隆，原本要带他和另外两个男孩去威尔士过假期。偏偏那两个男孩都得了麻疹，连老菲隆也病倒了。事情这才落到老麦格的哥哥手里。老麦格当然不真叫麦格，他姓麦克弗森，而他的哥哥就是威廉·麦克弗森牧师。不错，正是眼前这个谋得斯通模样的人。他打算把鲁珀特带回自己在乡下那所可恶的学校。
+        - id: ch01-b35
+          speaker: rupert
+          text: |-
+            现在放假，学校里一个别的男孩也没有。只有老麦格那个可恶的哥哥和我，我们要这样待上好多天、好多星期、好多年，一直等到其他人回来。我真想死了算了！
+          emotion: sad
+        - id: ch01-b36
+          speaker: caroline
+          text: |-
+            千万别这么说，太可怕了！我们学校出了猩红热，所以才这么早放假。打起精神来，吃点坚果巧克力吧。
+        - id: ch01-b37
+          speaker: narrator
+          text: |-
+            卡罗琳在口袋里费力摸了一阵，终于掏出一个边角有些磨破的纸包。那是埃默琳姨妈送她的临别礼物。鲁珀特接过巧克力，连声道谢。
+        - id: ch01-b38
+          speaker: charles
+          text: |-
+            老麦格的哥哥真跟他的长相一样混账吗？
+        - id: ch01-b39
+          speaker: rupert
+          text: |-
+            他比看起来还要混账得多。
+        - id: ch01-b40
+          speaker: charlotte
+          text: |-
+            换作我，就像书里的英雄那样逃出学校，先经历一番冒险，再回家找亲人。
+        - id: ch01-b41
+          speaker: rupert
+          text: |-
+            可我根本没有地方能逃。我的家人都在印度，所以假期只能留在那所可恶的学校。我宁愿当狗舍里的一条狗，真的。
+        - id: ch01-b42
+          speaker: charlotte
+          text: |-
+            我也宁愿。不过不管跟什么相比，我几乎都愿意做狗，狗多可爱呀。真希望我们要去的地方养着狗。
+        - id: ch01-b43
+          speaker: narrator
+          text: |-
+            鲁珀特只是出于礼貌，问他们要去哪里。
+        - id: ch01-b44
+          speaker: caroline
+          text: |-
+            我把地址写给你。
+        - id: ch01-b45
+          speaker: narrator
+          text: |-
+            她拿出珀西瓦尔姨父送的灰色皮面新袖珍簿，在一页上写了起来。
+        - id: ch01-b46
+          speaker: caroline
+          text: |-
+            把这个放进口袋。你要写信告诉我们后来怎样了。也许不会那么糟。快，他回来了！
+        - id: ch01-b47
+          speaker: narrator
+          text: |-
+            高个子的“谋得斯通先生”正朝这边走。卡罗琳把纸塞进鲁珀特的外套口袋，三个孩子赶紧离开他，沿站台往前走。
+        - id: ch01-b48
+          speaker: charles
+          text: |-
+            幸亏咱们给了他巧克力。
+        - id: ch01-b49
+          speaker: narrator
+          text: |-
+            话音刚落，一只冰冷坚硬的手就碰上查尔斯的肩膀。他猛地转头，脸颊也擦过那只手。随即，一个同样冰冷坚硬的声音传来。
+        - id: ch01-b50
+          speaker: reverend_macpherson
+          text: |-
+            小男孩，我不许由我照管的人收陌生孩子的糖果，尤其是肮脏孩子给的。
+        - id: ch01-b51
+          speaker: narrator
+          text: |-
+            说完，他把巧克力塞回查尔斯手中，又走回自己的猎物身边。
+        - id: ch01-b52
+          speaker: charles
+          text: |-
+            畜生！恶棍！畜生！
+          emotion: angry
+        - id: ch01-b53
+          speaker: narrator
+          text: |-
+            受了这番气，三个孩子还是跟鲁珀特和押着他的人上了同一节车厢。夏洛特后来把这叫作孤军死守、战死街垒的勇气。可他们实在不必费这个劲。麦克弗森牧师把鲁珀特塞进角落，自己坐在正前方，把报纸展开得大大的，严严实实挡在中间。到了下一站，他干脆带鲁珀特换了车厢。走的时候，他还拉着男孩的手。查尔斯说，那副样子仿佛鲁珀特不是什么大男孩，只是个“随便哪个小丫头片子”。
+        - id: ch01-b54
+          speaker: narrator
+          text: |-
+            鲁珀特离开时，卡罗琳靠过去悄声叮嘱他。
+        - id: ch01-b55
+          speaker: caroline
+          text: |-
+            找点琉璃苣吃。
+        - id: ch01-b56
+          speaker: narrator
+          text: |-
+            鲁珀特满脸疑惑，像是在问为什么。
+        - id: ch01-b57
+          speaker: caroline
+          text: |-
+            琉璃苣会给你勇气呀！
+        - id: ch01-b58
+          speaker: narrator
+          text: |-
+            可她说得太迟。鲁珀特还没来得及听见，就被人匆匆带走了。三个孩子只看着他离开，从此再也没有见过他。火车继续向前，他们却一路都在谈论鲁珀特，直到列车终于停在东法利。那正是他们该下车的地方。
+        - id: ch01-b59
+          speaker: narrator
+          text: |-
+            车站外有一辆四轮马车接他们，另有一辆大车专门运送行李。车夫一见面就说，不论在哪里，他都能认出卡罗琳。她长得实在太像母亲了。当年他还只是园丁手下的小学徒时，就已经记得孩子们的母亲。听了这番旧日相识的话，大家心里都暖洋洋的，仿佛这趟路不是去做客，而是回家。
+        - id: ch01-b60
+          speaker: narrator
+          text: |-
+            一路上真是痛快。马车驶过美丽的桥，爬上山坡，穿过村庄，又沿着大路走了一英里多。绿色树篱蒙着薄薄的尘土。过往大车从这里经过，车顶上的干草被荆棘勾住，留下一簇又一簇。这些零星的干草，比什么都更能让人相信，真正的乡下终于到了。这可不是埃默琳姨妈和珀西瓦尔姨父住的那种郊区，那里只有光秃秃的田地。无论走到哪里，眼前总逃不开一幢幢红砖黄砖的别墅。
+        - id: ch01-b61
+          speaker: narrator
+          text: |-
+            后来，赶行李车的男孩跳下车，替他们打开一扇大门。四轮马车穿门而过，驶上一条林间小路。树荫下面长着一丛丛蕨草，还有正在开花的荆棘。这里的树木一片青绿，再也看不见一点尘土。
+        - id: ch01-b62
+          speaker: narrator
+          text: |-
+            马车走出树林，一座平展展、绿茸茸的草木公园便铺在眼前。园里疏疏落落地点缀着一棵棵树。公园正中央，栗树和悬铃木围成一道半圆，宅邸就站在它们怀中。
+        - id: ch01-b63
+          speaker: narrator
+          text: |-
+            宅邸通体洁白，装着弓形凸窗。一端伸出一座阳台。门廊前立着白色柱子，还有两级宽阔的台阶。青草没有在远处停下，而是一直长到门阶跟前。这样的景象并不常见，却实在美丽。整个园子里看不到一朵花，放眼望去只有青草。四轮马车当然不能从草地上直穿过去，只好顺着车道绕到侧门。那扇门的上半截镶着玻璃。
+        - id: ch01-b64
+          speaker: narrator
+          text: |-
+            管家威尔明顿太太就在这扇侧门前迎接他们。她身材瘦削，脸色苍白。人倒颇为和善，却一点也不显得亲切。
+        - id: ch01-b65
+          speaker: charlotte
+          text: |-
+            她满脑子都在想怎样才像个淑女，根本没空想别的。她应该戴半指手套才对。
+        - id: ch01-b66
+          speaker: narrator
+          text: |-
+            夏洛特说这话时，三个孩子正在洗手，准备下楼喝茶。
+        - id: ch01-b67
+          speaker: caroline
+          text: |-
+            做管家的，大概得时时小心，免得别人把自己当成仆人。真是胡闹！你们说，这地方是不是太棒了？
+        - id: ch01-b68
+          speaker: narrator
+          text: |-
+            她正站在大房间的弓形凸窗前。房间十分宽敞，脚下铺着蓝玫瑰花样的地毯。窗外则是公园辉煌的绿意，满满铺展在阳光下面。那座公园看起来也像一张地毯，只是比屋里的美得多。地毯上的花纹不是玫瑰，而是一棵又一棵真正的树。
+        - id: ch01-b69
+          speaker: narrator
+          text: |-
+            后来，他们下楼喝茶。这栋房子啊，到处都是美丽的东西！孩子们当时来不及仔细看，我现在也来不及一件件说给你听。那就只说餐厅吧。地上铺着土耳其地毯，四周摆着桃花心木家具，一切都让人觉得舒适极了。窗前还有一幅幅红色窗帘。
+        - id: ch01-b70
+          speaker: mrs_wilmington
+          text: |-
+            卡罗琳小姐，请您来斟茶好吗？
+        - id: ch01-b71
+          speaker: narrator
+          text: |-
+            威尔明顿太太说完就走了。
+        - id: ch01-b72
+          speaker: charles
+          text: |-
+            幸好咱们不用跟她一起喝茶。
+        - id: ch01-b73
+          speaker: narrator
+          text: |-
+            就在这时，查尔斯舅公进来了。他完全不是孩子们想象的模样。其实，谁也不可能事先想象出这样一个人。他身上的影子气，比你以为一个人所能有的还要浓。真要打个比方，他就像一张印得很淡的照片。那张照片的底片曝光不足，冲洗时又没有好好显影。他跟威尔明顿太太同样又瘦又白，却一点也不显得坚硬或嶙峋。他整个人都像影子那样柔和。他的声音柔和，伸来握手的手柔和，就连望着孩子们的眼睛也柔和。
+        - id: ch01-b74
+          speaker: uncle_charles
+          text: |-
+            你们都叫什么名字？
+        - id: ch01-b75
+          speaker: narrator
+          text: |-
+            他同每个人握过手，卡罗琳便把三人的名字告诉了他。查尔斯忍不住补了一句。
+        - id: ch01-b76
+          speaker: charles
+          text: |-
+            舅公，您竟然不知道，真有意思！我们三个可都是照您的名字起的。
+        - id: ch01-b77
+          speaker: uncle_charles
+          text: |-
+            卡罗琳，查尔斯，夏洛特。对，我想的确是这样。我的茶请泡得很淡，多放牛奶，不加糖。
+        - id: ch01-b78
+          speaker: narrator
+          text: |-
+            卡罗琳紧张地摆弄着银器和瓷器，弄得叮当直响。替一位疏远多年、刚刚重逢的舅公斟真正的茶，她还从来没做过。
+        - id: ch01-b79
+          speaker: uncle_charles
+          text: |-
+            希望你们在这里过得愉快。要是我不能每顿饭都陪你们，请别见怪。我正在做一部著作，也就是在写一本书。
+        - id: ch01-b80
+          speaker: narrator
+          text: |-
+            除了被茶炊烫到的卡罗琳，大家都觉得这事有趣。查尔斯马上问那本书写什么。
+        - id: ch01-b81
+          speaker: uncle_charles
+          text: |-
+            写魔法。更确切地说，是魔法的一个分支。我想把它叫作《所谓魔法中暗示作用所扮演的心理与生理角色之简要探讨》。
+        - id: ch01-b82
+          speaker: caroline
+          text: |-
+            听着很有趣。至少，要是我懂一点这方面的事，我一定会觉得有趣。
+        - id: ch01-b83
+          speaker: narrator
+          text: |-
+            卡罗琳尽力说得既诚实又有礼貌。
+        - id: ch01-b84
+          speaker: charles
+          text: |-
+            书名也太长了。书脊上怎么印得下？
+        - id: ch01-b85
+          speaker: charlotte
+          text: |-
+            还有，别用“所谓”。那样听着好像您不信魔法。
+        - id: ch01-b86
+          speaker: uncle_charles
+          text: |-
+            要是别人以为我相信魔法，就不会读我的书了。他们会觉得我疯了。
+        - id: ch01-b87
+          speaker: charlotte
+          text: |-
+            可为什么？我们相信魔法，也没有疯呀。舅公，您会咒语吗？我们特别想试一个。这真是我们一生的梦想。
+        - id: ch01-b88
+          speaker: narrator
+          text: |-
+            一丝淡淡的笑意，掠过查尔斯舅公那张牡蛎壳般苍白的脸。
+        - id: ch01-b89
+          speaker: uncle_charles
+          text: |-
+            原来你们也对魔法有兴趣。至少这一点，我们彼此相同。
+        - id: ch01-b90
+          speaker: charles
+          text: |-
+            我们当然有兴趣。其实人人都有，只是不敢说。连仆人都会算命、解梦。您读过护身符、凤凰和力量之语的故事吗？还有，请递给我面包和黄油。
+        - id: ch01-b91
+          speaker: uncle_charles
+          text: |-
+            看来你认真研究过。是谁告诉你力量之语的？
+        - id: ch01-b92
+          speaker: charlotte
+          text: |-
+            《护身符》里写着。舅公，您就教我们几个咒语吧。
+        - id: ch01-b93
+          speaker: narrator
+          text: |-
+            查尔斯舅公叹了口气。
+        - id: ch01-b94
+          speaker: uncle_charles
+          text: |-
+            恐怕咒语的时代已经过去了。不过，对你们这个年纪的人，也许还没有。要是关于她的故事都是真的，她本可以教你们许多咒语。
+        - id: ch01-b95
+          speaker: narrator
+          text: |-
+            他指向壁炉台上方的一幅画像。画中女子金发黑眼，颈上戴着轮状皱领。
+        - id: ch01-b96
+          speaker: uncle_charles
+          text: |-
+            她是我们的一位女祖先，学问大得惊人。
+        - id: ch01-b97
+          speaker: charlotte
+          text: |-
+            她后来怎么样了？
+        - id: ch01-b98
+          speaker: uncle_charles
+          text: |-
+            人们把她当作女巫烧死了。知道得太多，有时也是一种错误。
+        - id: ch01-b99
+          speaker: narrator
+          text: |-
+            这句话听着格外称心。珀西瓦尔姨父和埃默琳姨妈以前总爱说“知识就是力量”，或者“除了无知，世上没有黑暗”。这些话都把知识说成好东西，跟舅公的话正好完全相反。三个孩子抬头望着画像。那位女士穿着黑天鹅绒衣裙，颈上围着雪白的皱领。看了一会儿，他们都觉得很喜欢她的面容。
+        - id: ch01-b100
+          speakers: [caroline, charlotte, charles]
+          ensemble: chorus
+          text: |-
+            太不公平了！
+        - id: ch01-b101
+          speaker: uncle_charles
+          text: |-
+            是啊。你们看，她的一只手放在两本书上。传说那两本书里藏着她的魔法秘密。我年轻时找过，却一直没有找到，一直没有。
+        - id: ch01-b102
+          speaker: narrator
+          text: |-
+            他又叹了一口气。
+        - id: ch01-b103
+          speaker: charlotte
+          text: |-
+            我们来找，舅公！我们可以找吧？年轻脑袋胜过年老肩膀，对不对？这话好像有点无礼。我的意思是，两个脑袋比您一个强……不，也不对。厨子太多会把……也不是。我们绝不会弄坏东西。对了，人多好办事！我想说的是这个。
+        - id: ch01-b104
+          speaker: narrator
+          text: |-
+            舅公说，她的意思从一开始就很清楚。他喝完茶，放下那只美丽的杯子。杯子红蓝相间，还描着金色，跟埃默琳姨妈家的白瓷器完全不同。
+        - id: ch01-b105
+          speaker: uncle_charles
+          text: |-
+            你们当然可以找。不过，搜索时要爱惜这栋房子。
+        - id: ch01-b106
+          speaker: caroline
+          text: |-
+            舅公，您的房子是我们见过最可爱、最华丽、最辉煌、最美丽的房子，而且……
+        - id: ch01-b107
+          speaker: charles
+          text: |-
+            我们连它头上的一根头发也不会碰伤。
+        - id: ch01-b108
+          speaker: narrator
+          text: |-
+            舅公又笑了笑，说了两声“好吧”，便像一道影子似的淡出了房间。
+        - id: ch01-b109
+          speaker: charlotte
+          text: |-
+            找不到那两本书，我们就死！
+        - id: ch01-b110
+          speaker: charles
+          text: |-
+            那——当然！
+        - id: ch01-b111
+          speaker: caroline
+          text: |-
+            不管怎样，我们一定去找。现在先去摘片常春藤叶，夹进给亲爱的埃默琳姨妈的信里吧。我要告诉你们一件事。
+        - id: ch01-b112
+          speakers: [charlotte, charles]
+          ensemble: duo
+          text: |-
+            什么事？
+        - id: ch01-b113
+          speaker: caroline
+          text: |-
+            书里写到“奢华”时，我一直梦想的就是这样的房子。
+        - id: ch01-b114
+          speaker: charlotte
+          text: |-
+            我也是。
+        - id: ch01-b115
+          speaker: charles
+          text: |-
+            我也——是。

@@ -1,0 +1,89 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容而清醒，带一点克制的诙谐
+        timbre: 温厚清晰
+        pace: 舒缓有致
+        pitch: 中低
+    lion:
+      display_name: 狮子
+      tts:
+        delivery: 沉着威严，心里有主意时语气含蓄
+        timbre: 浑厚有力
+        pace: 稍缓
+        pitch: 低
+    goat:
+      display_name: 山羊
+      tts:
+        delivery: 机敏果断，说话干脆自然
+        timbre: 清亮温和
+        pace: 中等
+        pitch: 中高
+    baboon:
+      display_name: 狒狒
+      tts:
+        delivery: 圆滑多话，得意时轻快，遇险时慌张
+        timbre: 灵活偏亮
+        pace: 稍快
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 狒狒登门
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，狮子娶了山羊做妻子。一天，山羊去赶集。狮子也出了门，在树林里碰见一只狒狒。
+        - id: ch01-b02
+          speaker: narrator
+          text: 狒狒生怕狮子吃掉自己，赶紧上前攀交情，还请狮子去他家坐坐。狮子一想，眼下倒是个好机会，便反过来邀狒狒到自己家看看孩子。
+        - id: ch01-b03
+          speaker: baboon
+          text: 哟，你家竟有这么多小山羊！
+        - id: ch01-b04
+          speaker: lion
+          text: 对，他们都是我的孩子。
+        - id: ch01-b05
+          speaker: baboon
+          text: 既然是小山羊，那可都是上好的肉啊。
+        - id: ch01-b06
+          speaker: lion
+          text: 小点声。他们的妈妈快回来了，到时你就知道了。
+    - id: ch02
+      title: 山羊的办法
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 小山羊们装作没听见，出门迎妈妈，把家里的事从头到尾说了一遍。
+        - id: ch02-b02
+          speaker: goat
+          text: 你们先回家，只当什么都不知道。我随后就到，自有办法对付他。
+        - id: ch02-b03
+          speaker: narrator
+          text: 山羊转身去买了些糖蜜，这才带着糖蜜回家。狮子见了她，马上问起外面的消息。
+        - id: ch02-b04
+          speaker: lion
+          text: 你回来啦？今天有什么新鲜事？
+        - id: ch02-b05
+          speaker: goat
+          text: 有啊，是件好事。你先尝尝这个。
+        - id: ch02-b06
+          speaker: narrator
+          text: 狮子尝了一口。
+        - id: ch02-b07
+          speaker: lion
+          text: 味道真好，这是蜂蜜吧。
+    - id: ch03
+      title: 狒狒逃走了
+      blocks:
+        - id: ch03-b01
+          speaker: goat
+          text: 这是狒狒的血。今天有人宰了一只，血淌得满街都是，大家都在往家里装呢。
+        - id: ch03-b02
+          speaker: lion
+          text: 嘘，屋里正好就有一只。这下我们可以吃掉他了。
+        - id: ch03-b03
+          speaker: narrator
+          text: 狒狒听到这里，拔腿就跑。等狮子和山羊再找他时，他已经无影无踪。打那以后，狒狒再也没敢靠近过这家门。几个小山羊也因此保住了性命。

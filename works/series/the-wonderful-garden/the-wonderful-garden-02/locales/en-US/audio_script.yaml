@@ -1,0 +1,432 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant storytelling with a gently amused touch
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    caroline:
+      display_name: Caroline
+      tts:
+        delivery: lively, affectionate, and increasingly careful when being polite
+        timbre: bright and clear
+        pace: medium
+        pitch: medium-high
+    charlotte:
+      display_name: Charlotte
+      tts:
+        delivery: eager, curious, and quick with an idea
+        timbre: light and energetic
+        pace: brisk
+        pitch: high
+    charles:
+      display_name: Charles
+      tts:
+        delivery: proud, teasing, and boyishly direct
+        timbre: youthful and crisp
+        pace: medium-fast
+        pitch: medium-high
+    aunt_emmeline:
+      display_name: Aunt Emmeline
+      tts:
+        delivery: composed, precise, and unfailingly mild
+        timbre: soft and restrained
+        pace: unhurried
+        pitch: medium
+    rupert:
+      display_name: Rupert Wix
+      tts:
+        delivery: blunt and gloomy at first, warming quickly among friends
+        timbre: youthful and slightly husky
+        pace: medium
+        pitch: medium-high
+    reverend_macpherson:
+      display_name: Reverend Macpherson
+      tts:
+        delivery: cold, rigid, and disapproving
+        timbre: hard and dry
+        pace: deliberate
+        pitch: low
+    mrs_wilmington:
+      display_name: Mrs. Wilmington
+      tts:
+        delivery: correct, reserved, and carefully ladylike
+        timbre: pale and precise
+        pace: measured
+        pitch: medium
+    uncle_charles:
+      display_name: Uncle Charles
+      tts:
+        delivery: soft, thoughtful, and faintly absent-minded
+        timbre: airy and gentle
+        pace: unhurried
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: Flowers for Aunt Emmeline
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Packing meant running up and down the stairs and deciding what must be left behind. That was much harder than choosing what to take. Toys and books lay in heaps around Aunt Emmeline. There were far too many for the trunks, even if they had packed no clothes at all. At last she settled the matter. Anything left behind could follow by post or carrier, as long as all three children agreed that they needed it for their happiness.
+        - id: ch01-b02
+          speaker: aunt_emmeline
+          text: The leopard skin takes up so much room. I believe your uncle has wild-animal skins and stuffed creatures at his house already.
+        - id: ch01-b03
+          speaker: narrator
+          text: So the leopard skin stayed too. All morning the children whispered, held mysterious meetings, and consulted books. Aunt Emmeline may have wondered what it all meant, though perhaps she did not. She was always very calm. In any case, she must have understood when the cab drew up at the door. All three children appeared before her, each holding a bouquet.
+        - id: ch01-b04
+          speakers: [caroline, charlotte, charles]
+          ensemble: chorus
+          text: These are for you.
+        - id: ch01-b05
+          speaker: narrator
+          text: Charlotte handed her a bunch of balm from the garden.
+        - id: ch01-b06
+          speaker: charlotte
+          text: Balm means sympathy. It's kind of you to pretend, but we know those places on the map can't really be as nice as Uncle Charles's house.
+        - id: ch01-b07
+          speaker: narrator
+          text: Charles had brought convolvulus and a tiny cactus in a red pot.
+        - id: ch01-b08
+          speaker: charles
+          text: The convolvulus means dead hope, though it's pretty too. And I bought you this cactus. It means, "Thou leavest not."
+        - id: ch01-b09
+          speaker: aunt_emmeline
+          text: How charming of you!
+          emotion: happy
+        - id: ch01-b10
+          speaker: narrator
+          text: Then she turned to Caroline, who was nearly hidden behind a great mass of ivy and marigolds.
+        - id: ch01-b11
+          speaker: caroline
+          text: The ivy means friendship. The marigolds don't count. I only chose them because they're so bright and golden. If they have to mean something, they mean Fate's cruelty because you aren't coming. There's a purple pansy in there too. That means, "I think of you."
+        - id: ch01-b12
+          speaker: aunt_emmeline
+          text: Thank you very, very much. I can't tell you how pleased I am. This is sweet of all of you.
+          emotion: happy
+        - id: ch01-b13
+          speaker: narrator
+          text: Their grand presentation of flowers gave the whole departure a glow and a glory it had not possessed before. At the very last moment, as the cab was ready to carry them away, Caroline leaned out of the window for one more request.
+        - id: ch01-b14
+          speaker: caroline
+          text: Aunt Emmeline! When Miss Peckitt comes to finish the muslin dresses you're sending us, could you give her a Canterbury bell from me? She'll know what it means. If she doesn't, the book says it's gratitude. We'll put flowers in our letters to tell you how we feel. Goodbye!
+    - id: ch02
+      title: A Boy at the Junction
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Uncle Percival took them to the station. But why describe a railway journey? You know what one is like. This one was dusty and so sunny that the children wanted the blinds down. A very neatly dressed lady with a cross little gray dog said no. Their hands grew black, and the cushions felt gritty. Somehow their faces grew black too, though they were certain they had never touched them. Charles was the one who got a tiny bit of the engine in his eye this time. Someone always does, because someone always puts a head out of the carriage window, whatever the printed notices say.
+        - id: ch02-b02
+          speaker: narrator
+          text: What you don't know is what happened at the junction. The guard carefully saw the children off one train, and they had a long wait for the next. First they inspected the bookstall. It was small and dull, and nearly everything on it was a newspaper. Then they began inspecting the other waiting passengers. Most of those looked dull too. One tall gentleman, however, looked exactly like Mr. Murdstone from David Copperfield. All three children agreed on that.
+        - id: ch02-b03
+          speaker: charlotte
+          text: Look! He's even got David with him.
+          emotion: surprised
+        - id: ch02-b04
+          speaker: narrator
+          text: The gentleman bought the Athenaeum, the Spectator, and a cheap edition of Marcus Aurelius. Then he went to a bench where a sulky-looking boy sat. He spoke to the boy, heard his answer, and walked away.
+        - id: ch02-b05
+          speaker: charles
+          text: He's gone to eat a bun all by himself. What a selfish pig!
+        - id: ch02-b06
+          speaker: caroline
+          text: Let's sit on that bench. Charles, you sit beside the boy. Perhaps he'll talk to us.
+        - id: ch02-b07
+          speaker: narrator
+          text: They sat down, but the boy said nothing until Charles spoke first.
+        - id: ch02-b08
+          speaker: charles
+          text: Are you taking the next train? If you are, we could ride in your carriage and keep you company.
+        - id: ch02-b09
+          speaker: rupert
+          text: What good would that do? It would only feel worse afterward.
+        - id: ch02-b10
+          speaker: charles
+          text: What would feel worse?
+        - id: ch02-b11
+          speaker: rupert
+          text: Being alone.
+        - id: ch02-b12
+          speaker: narrator
+          text: Caroline moved around to his other side.
+        - id: ch02-b13
+          speaker: caroline
+          text: Well, you're not alone now. What's wrong? And who is that man?
+        - id: ch02-b14
+          speaker: rupert
+          text: He's a schoolmaster. I thought anyone could see that.
+        - id: ch02-b15
+          speaker: caroline
+          text: We thought he looked like Mr. Murdstone.
+        - id: ch02-b16
+          speaker: rupert
+          text: He does. Exactly like him.
+        - id: ch02-b17
+          speaker: charlotte
+          text: Oh, then you've read David Copperfield! How splendid!
+          emotion: happy
+        - id: ch02-b18
+          speaker: narrator
+          text: They were delighted to discover that Rupert knew David Copperfield. Nothing brings people together quite like finding that they have read and loved the same books. The friendliness between them rose like a tide. Then they learned that he had also read Alice in Wonderland, Wild Animals I Have Known, Hereward the Wake, and E. Nesbit's children's stories in the Strand Magazine. Before long, all four felt as though they had been friends for years.
+    - id: ch03
+      title: Rupert's Holiday
+      blocks:
+        - id: ch03-b01
+          speaker: charles
+          text: Tell us everything before he comes back. Maybe we can help. We could bring you jam tarts and apples with a rope ladder. We're yours to the death, so don't forget it. What's your name? Where do you live, and where are you going? Quick, tell us!
+        - id: ch03-b02
+          speaker: narrator
+          text: The whole story came tumbling out. The boy was Rupert Wix, and his school was not half bad. A classics master named Filon had planned to take Rupert and two other boys to Wales for the holidays. Then both boys caught measles, and Filon caught it too. Another master was called old Mug, though his real name was Macpherson. Old Mug's brother had been sent to fetch Rupert instead. That brother was the Reverend William Macpherson, the very man who looked like Mr. Murdstone, and he was taking Rupert to his own dreadful country school.
+        - id: ch03-b03
+          speaker: rupert
+          text: There won't be another boy there because it's vacation. It'll be that awful brother and me for days and weeks and years, until the school comes back. I wish I were dead!
+          emotion: sad
+        - id: ch03-b04
+          speaker: caroline
+          text: Oh, don't say that. How horrible! Scarlet fever closed our school, so our holidays started early. Please cheer up. Have some nut chocolate.
+        - id: ch03-b05
+          speaker: narrator
+          text: Caroline struggled briefly with her pocket and finally pulled out a packet of nut chocolate. The edges were rather worn, but it was Aunt Emmeline's parting gift and still worth having. Rupert thanked her as he ate it.
+        - id: ch03-b06
+          speaker: charles
+          text: Is old Mug's brother as nasty as he looks?
+        - id: ch03-b07
+          speaker: rupert
+          text: Much nastier.
+        - id: ch03-b08
+          speaker: charlotte
+          text: I know what I'd do. I'd run away like a hero in a book, have adventures, and then go home to my family.
+        - id: ch03-b09
+          speaker: rupert
+          text: That's the trouble. I've nowhere to run. My family is in India, so I have to spend my holidays at a horrible school. I'd much rather be a dog in a kennel.
+        - id: ch03-b10
+          speaker: charlotte
+          text: So would I. But I'd almost rather be a dog than anything. Dogs are such darlings. I hope there are dogs where we're going.
+        - id: ch03-b11
+          speaker: narrator
+          text: Rupert asked where that was, mostly to be polite.
+        - id: ch03-b12
+          speaker: caroline
+          text: I'll write the address down for you. Put it in your pocket, then write and tell us what happens. Perhaps it won't be so bad. Hurry, he's coming!
+        - id: ch03-b13
+          speaker: narrator
+          text: Caroline used a page from the new gray leather pocketbook Uncle Percival had given her. She wrote down the place where they were going and told Rupert to keep it. As the tall, Murdstone-like figure came toward the bench, she hurriedly stuffed the paper into Rupert's jacket pocket. Then the three children left him and walked away along the platform.
+        - id: ch03-b14
+          speaker: charles
+          text: I'm glad we gave him the chocolate.
+        - id: ch03-b15
+          speaker: narrator
+          text: A cold, hard hand touched Charles's shoulder and brushed his cheek when he spun around. A cold, hard voice spoke above him.
+        - id: ch03-b16
+          speaker: reverend_macpherson
+          text: Little boy, I do not permit children in my care to take sweets from strangers, particularly dirty children.
+        - id: ch03-b17
+          speaker: narrator
+          text: Reverend Macpherson thrust the chocolate into Charles's hand and returned to Rupert.
+        - id: ch03-b18
+          speaker: charles
+          text: Beast! Brute! Beast!
+          emotion: angry
+        - id: ch03-b19
+          speaker: narrator
+          text: After that insult, only the desperate courage of people dying on a barricade could have made the children enter the same carriage as Rupert and his captor. That was how Charlotte described it later. They might as well have saved themselves the trouble. Reverend Macpherson put Rupert in a corner, sat directly in front of him, and spread his newspaper wide between Rupert and the others. At the next station he moved to another carriage. He took Rupert by the hand as if, Charles said, Rupert were some little baby girl.
+        - id: ch03-b20
+          speaker: caroline
+          text: Find some borage and eat it.
+        - id: ch03-b21
+          speaker: narrator
+          text: Rupert's face asked why as he was led away.
+        - id: ch03-b22
+          speaker: caroline
+          text: Borage gives you courage!
+        - id: ch03-b23
+          speaker: narrator
+          text: She called too late. Rupert was whisked away before he heard her, and they never saw him again. Still, they talked about him until their train reached East Farleigh.
+    - id: ch04
+      title: The Manor House
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: At East Farleigh, a waggonette waited to carry the children, while a separate cart took their luggage. The coachman said he would have recognized Caroline anywhere because she looked so much like her mother. He remembered her mother from long ago, when he himself had only been the gardener's boy. His words made everyone feel pleasantly as though they were not arriving among strangers at all, but coming home.
+        - id: ch04-b02
+          speaker: narrator
+          text: The drive carried them over a beautiful bridge, up a hill, through a village, and along more than a mile of road. Dust powdered the green hedges, and brambles caught wisps of hay from passing wagons. Those scraps of hay made this feel like real country, not the bare fields near Aunt Emmeline's suburb, where red and yellow brick villas were always in sight.
+        - id: ch04-b03
+          speaker: narrator
+          text: At last the boy driving the luggage cart climbed down to open a gate. The waggonette passed through, then followed a woodland road. Ferns and flowering brambles grew beneath trees that were deep green and free of dust. After the dusty hedges, the shade felt like another world. The wood opened into a smooth grassy park scattered with trees. In the center stood the house, cradled by a half-circle of chestnuts and sycamores.
+        - id: ch04-b04
+          speaker: narrator
+          text: It was white, with bow windows, a balcony at one end, and a porch with white pillars and two broad steps. Grass grew right up to the front steps, which was unusual and very pretty. There were no flowers anywhere, only grass. The waggonette stayed on the drive and went around to a half-glass side door.
+        - id: ch04-b05
+          speaker: narrator
+          text: Mrs. Wilmington, the housekeeper, received them at the side door. She was pale and thin. She seemed quite kind, but not at all friendly. Later, as the children washed their hands before tea, Charlotte decided that Mrs. Wilmington used up all her thoughts on appearing ladylike.
+        - id: ch04-b06
+          speaker: charlotte
+          text: I don't think she has time to think about anything except being ladylike. She ought to wear mittens.
+        - id: ch04-b07
+          speaker: caroline
+          text: I suppose housekeepers have to make sure no one mistakes them for servants. What nonsense! But look out here. Isn't this more like it?
+        - id: ch04-b08
+          speaker: narrator
+          text: Caroline stood at the bow window of the large room where they were washing. A carpet patterned with blue roses covered the floor. Outside, the full green glory of the park lay shining in the sun. It looked like another carpet, far lovelier than the one indoors, with the scattered trees making its pattern.
+        - id: ch04-b09
+          speaker: narrator
+          text: Then they went down to tea. What a house it was, and how full of beautiful things! The children had no time to examine them then, and there is no time to describe them all now. The dining room alone was perfect in its comfort. It had a Turkey carpet, rich mahogany furniture, and, best of all after the Sandals' pale house, red curtains.
+        - id: ch04-b10
+          speaker: mrs_wilmington
+          text: Miss Caroline, will you pour the tea, please?
+        - id: ch04-b11
+          speaker: narrator
+          text: Mrs. Wilmington left the room.
+        - id: ch04-b12
+          speaker: charles
+          text: At least we don't have to take tea with her.
+    - id: ch05
+      title: Uncle Charles and the Magic Books
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Then Uncle Charles entered. He was nothing like the children expected, though really he could not have been what anybody expected. He seemed more shadowy than a person ought to be. The closest comparison would be a photograph printed too lightly from a negative that had not been properly exposed or developed. He was as thin and pale as Mrs. Wilmington, but there was nothing hard or bony about him. His voice was soft as a shadow, and so were his hand and his eyes. He shook hands with each child.
+        - id: ch05-b02
+          speaker: uncle_charles
+          text: And what are your names?
+        - id: ch05-b03
+          speaker: narrator
+          text: Caroline told him.
+        - id: ch05-b04
+          speaker: charles
+          text: It's funny that you don't know. We're all named after you!
+        - id: ch05-b05
+          speaker: uncle_charles
+          text: Caroline, Charles, Charlotte. Yes, I suppose you are. Please make my tea very weak, with plenty of milk and no sugar.
+        - id: ch05-b06
+          speaker: narrator
+          text: Caroline clattered nervously among the silver and china. She had never poured proper tea for an uncle who had been estranged from the family for years.
+        - id: ch05-b07
+          speaker: uncle_charles
+          text: I hope you enjoy yourselves here. You must excuse me if I don't always join you at meals. I am busy with a work. That is, I am writing a book.
+        - id: ch05-b08
+          speakers: [charlotte, charles]
+          ensemble: duo
+          text: What fun!
+          emotion: happy
+        - id: ch05-b09
+          speaker: narrator
+          text: Caroline would have joined them, but she had just burned herself on the tea urn.
+        - id: ch05-b10
+          speaker: charles
+          text: What's the book about?
+        - id: ch05-b11
+          speaker: uncle_charles
+          text: Magic, or one part of magic. I thought I might call it "A Brief Consideration of the Psychological and Physiological Part Played by Suggestion in So-Called Magic."
+        - id: ch05-b12
+          speaker: caroline
+          text: It sounds interesting. At least, I'm sure it would if I understood the subject.
+        - id: ch05-b13
+          speaker: narrator
+          text: She was trying to be truthful and polite at the same time.
+        - id: ch05-b14
+          speaker: charles
+          text: That's a very long title. How could they fit it all on the back of the book?
+        - id: ch05-b15
+          speaker: charlotte
+          text: And please don't call it "so-called magic." That makes it sound as if you don't believe magic is real.
+        - id: ch05-b16
+          speaker: uncle_charles
+          text: If people thought I believed in magic, they would never read my books. They would think I was mad.
+        - id: ch05-b17
+          speaker: charlotte
+          text: Why would they? We believe in magic, and we aren't mad. Do you know any spells, Uncle? We long to try one. We truly do.
+        - id: ch05-b18
+          speaker: narrator
+          text: The ghost of a smile passed across Uncle Charles's pale face.
+        - id: ch05-b19
+          speaker: uncle_charles
+          text: So magic interests you. Then we have at least one thing in common.
+        - id: ch05-b20
+          speaker: charles
+          text: Of course it interests us. Everyone cares about magic, but most people are afraid to admit it. Even servants tell fortunes and explain dreams. Have you read about the Amulet, the Phoenix, or the Words of Power? And may I have some bread and butter?
+        - id: ch05-b21
+          speaker: uncle_charles
+          text: You have clearly studied the subject. Who told you about Words of Power?
+        - id: ch05-b22
+          speaker: charlotte
+          text: They're in The Amulet. Oh, Uncle, please tell us some spells.
+        - id: ch05-b23
+          speaker: uncle_charles
+          text: Ah, I fear the time of spells has passed, except perhaps for children your age. She could have taught you plenty of spells, if all the tales about her are true.
+        - id: ch05-b24
+          speaker: narrator
+          text: He pointed above the mantelpiece. A portrait there showed a fair-haired, dark-eyed lady wearing a ruff.
+        - id: ch05-b25
+          speaker: uncle_charles
+          text: She was one of our ancestors, and she was wonderfully learned.
+        - id: ch05-b26
+          speaker: charlotte
+          text: What happened to her?
+        - id: ch05-b27
+          speaker: uncle_charles
+          text: They burned her as a witch. Sometimes it is a mistake to know too much.
+        - id: ch05-b28
+          speaker: narrator
+          text: That answer was pleasantly different from the things Uncle Percival and Aunt Emmeline used to say. Their sayings included "Knowledge is power" and "There is no darkness but ignorance." The children gazed up at the learned lady in her white ruff and black velvet dress. They liked her face, and the thought of what had happened to her troubled them.
+        - id: ch05-b29
+          speakers: [caroline, charlotte, charles]
+          ensemble: chorus
+          text: What a shame!
+        - id: ch05-b30
+          speaker: uncle_charles
+          text: Yes. Look at the portrait. You see how she rests her hand on two books? There is an old family tradition that those books contain her magical secret. I used to search for them when I was young, but I never found them. I never found them.
+        - id: ch05-b31
+          speaker: narrator
+          text: He sighed again.
+        - id: ch05-b32
+          speaker: charlotte
+          text: We'll search for them, Uncle. We may, mayn't we? Young heads are better than old shoulders. Oh, that sounded rude. I mean two heads are better than yours. No, that isn't right either. Too many cooks spoil the... No. We wouldn't spoil anything. Many hands make light work. That's what I meant!
+        - id: ch05-b33
+          speaker: uncle_charles
+          text: I understood you the first time. Of course you may look, but you must respect the place you're searching.
+        - id: ch05-b34
+          speaker: narrator
+          text: Uncle Charles finished his tea and set down his cup. It was a beautiful thing in red, blue, and gold, wonderfully unlike Aunt Emmeline's plain white china. Even the teacup seemed to belong to the rich and splendid house the children had dreamed about.
+        - id: ch05-b35
+          speaker: caroline
+          text: Uncle, this is the loveliest, grandest, most glorious and beautiful house we have ever seen, and...
+        - id: ch05-b36
+          speaker: charles
+          text: We wouldn't hurt a hair on its head.
+        - id: ch05-b37
+          speaker: narrator
+          text: Uncle Charles smiled once more.
+        - id: ch05-b38
+          speaker: uncle_charles
+          text: Well, well.
+        - id: ch05-b39
+          speaker: narrator
+          text: Then he faded away like a shadow.
+        - id: ch05-b40
+          speaker: charlotte
+          text: We'll find those books or perish.
+        - id: ch05-b41
+          speaker: charles
+          text: Rather!
+        - id: ch05-b42
+          speaker: caroline
+          text: We'll look for them, anyway. Now let's pick an ivy leaf for poor Aunt Emmeline and put it in a letter. And I'll tell you something.
+        - id: ch05-b43
+          speakers: [charlotte, charles]
+          ensemble: duo
+          text: What is it?
+        - id: ch05-b44
+          speaker: caroline
+          text: Whenever books talk about luxury, this is the kind of house I've always imagined.
+        - id: ch05-b45
+          speaker: charlotte
+          text: So have I.
+        - id: ch05-b46
+          speaker: charles
+          text: And so have I.

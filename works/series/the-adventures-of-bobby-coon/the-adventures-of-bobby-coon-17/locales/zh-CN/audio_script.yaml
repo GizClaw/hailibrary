@@ -1,0 +1,87 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 亲切风趣，像在孩子身边娓娓讲述森林故事
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中等
+    bobby:
+      display_name: 浣熊博比
+      tts:
+        delivery: 天真敏感，困惑时迟疑，受惊时急促
+        timbre: 清亮稚气
+        pace: 轻快而随情绪变化
+        pitch: 中高
+    peter_rabbit:
+      display_name: 兔子彼得
+      tts:
+        delivery: 热心好奇，话语轻快，偶尔透出顽皮
+        timbre: 清脆明亮
+        pace: 明快灵活
+        pitch: 中高
+    buster_bear:
+      display_name: 巴斯特熊
+      tts:
+        delivery: 憨直而警觉，饥饿时带着急切和粗声嘟囔
+        timbre: 低沉浑厚
+        pace: 稍慢，行动时加快
+        pitch: 低
+  chapters:
+    - id: ch01
+      title: 彼得舍不得走
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 兔子彼得早就该回到亲爱的老荆棘丛了。他也知道，自己迟迟不回家，彼得太太准会担心。她每次都是这样。可这会儿，彼得满脑子都是浣熊博比。他太想知道，博比接下来还会遇见什么，竟把彼得太太忘了个干净。
+        - id: ch01-b02
+          speaker: narrator
+          text: 彼得多少有些同情博比。不过，一个那么贪睡的家伙偏偏怎么也睡不成，实在又叫他觉得好笑。所以，这番热闹他看得还挺有兴致。
+        - id: ch01-b03
+          speaker: narrator
+          text: 布莱基和朋友们终于闹累了，一个个各忙各的去了。彼得这才想到，自己也该回老荆棘丛了。
+        - id: ch01-b04
+          speaker: peter_rabbit
+          text: 这下博比总能安稳睡觉了吧。我再也想不出，还有什么事会来打扰他。可怜的博比，为了打这个盹儿，可真吃了不少苦头。
+        - id: ch01-b05
+          speaker: narrator
+          text: 可彼得还是没走。他也不知道为什么，只觉得现在离开，准会错过点什么。你知道，只要有值得一看的事，彼得错过以后就绝不会原谅自己。于是，布莱基他们都走了，他还在那儿等了好一阵。
+    - id: ch02
+      title: 巴斯特熊来了
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 最后，彼得总算拿定主意，该动身回家了。偏在这时，一根小树枝“啪”地断了，把他吓了一跳。他从一棵大树后面探出头，朝声音传来的地方望去。没一会儿，一个黑乎乎的庞大身影出现了。
+        - id: ch02-b02
+          speaker: peter_rabbit
+          text: 是巴斯特熊！这是我今年春天头一回见到他。哎呀，他怎么瘦成这样了！
+          emotion: surprised
+        - id: ch02-b03
+          speaker: narrator
+          text: 彼得赶紧四下看看，先找好了一条随时可以逃跑的路。接着，他屏住呼吸，盯着巴斯特慢慢走近。巴斯特走几步就停一停，看看四周，听听动静，再闻一闻空气。彼得顿时明白了。
+        - id: ch02-b04
+          speaker: peter_rabbit
+          text: 他一定听见那群乌鸦吵闹，所以过来瞧瞧出了什么事。
+        - id: ch02-b05
+          speaker: narrator
+          text: 彼得猜得一点不错。巴斯特知道，布莱基和朋友们刚才就是在这附近闹腾。他那双馋巴巴的小眼睛到处搜寻，想看看这里先前发生了什么。可是，四周只有一根黑羽毛，落在高高的老树桩脚下。
+        - id: ch02-b06
+          speaker: narrator
+          text: 凭这根羽毛，巴斯特确定自己找对了地方。可除了羽毛，那里什么也没有。乌鸦们为什么待在这里，他还是找不到半点线索。巴斯特直起身子坐着，一边眨眼，一边琢磨。等他再看看那截老树桩，眼睛忽然亮了。
+        - id: ch02-b07
+          speaker: buster_bear
+          text: 那群乌鸦为什么闹腾，我是不知道了，恐怕永远也弄不明白。不过，这一趟来得倒巧。这截老树桩已经朽了，里面也是空的。我以前在这样的树桩里找到过蚂蚁窝，还有甲虫和蛴螬。让我瞧瞧，这一截里有什么。
+    - id: ch03
+      title: 两位表亲都吃了一惊
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 巴斯特走到树桩旁，把巨大的爪子钩进一道裂缝，拼命往外一扯。彼得仍躲在旁边看着，激动得连气都不敢喘。
+        - id: ch03-b02
+          speaker: narrator
+          text: 只听一声尖锐的“喀嚓”，老树桩的一整面忽然垮了下来。垮得实在太突然，巴斯特一点防备也没有，仰面摔倒在地。
+        - id: ch03-b03
+          speaker: narrator
+          text: 就在这时，浣熊博比从树桩里滚了出来。他还半梦半醒，却已经吓得魂都快飞了。巴斯特熊和浣熊博比，这两位表亲究竟哪一个更吃惊，还真说不准。
