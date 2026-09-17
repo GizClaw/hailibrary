@@ -1,0 +1,191 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，带着温和的学者式幽默
+        timbre: 温暖清晰，沉稳而不厚重
+        pace: 舒缓，遇到年代与专名时略作停顿
+        pitch: 中音
+    old_man_hind:
+      display_name: 牵母鹿的老人
+      tts:
+        delivery: 谦和稳重，面对精灵时恭敬而勇敢
+        timbre: 苍老醇厚，语气沉着
+        pace: 从容偏慢，请求时字句清楚
+        pitch: 中低音
+    old_man_wife:
+      display_name: 老人的妻子
+      tts:
+        delivery: 强硬尖刻，执意催逼时冷酷急切
+        timbre: 成熟清晰，带着阴冷的锋芒
+        pace: 自然适中，逼迫时稍快
+        pitch: 中音
+    steward:
+      display_name: 管家
+      tts:
+        delivery: 忠厚谨慎，禀报要事时郑重诚恳
+        timbre: 朴实稳重，略显低沉
+        pace: 平稳偏慢
+        pitch: 中低音
+    steward_daughter:
+      display_name: 管家的女儿
+      tts:
+        delivery: 聪慧果断，说起魔法时镇定自信
+        timbre: 年轻清亮，柔和而坚定
+        pace: 清楚从容
+        pitch: 中高音
+    genius:
+      display_name: 精灵
+      tts:
+        delivery: 暴烈森严，发怒时咄咄逼人
+        timbre: 粗粝浑厚，带着可怖的压迫感
+        pace: 缓慢沉重，威吓时突然加重
+        pitch: 低音
+    old_man_black_dogs:
+      display_name: 牵黑狗的老人
+      tts:
+        delivery: 自信持重，提出请求时恭敬而笃定
+        timbre: 苍老清晰，沉稳有力
+        pace: 从容偏慢
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 妻子的魔法
+      blocks:
+        - id: ch01-b01
+          speaker: old_man_hind
+          text: 精灵王子，请听我讲自己的故事。您眼前这头母鹿，其实就是我的妻子。我们没有亲生儿女，我便收养了一个宠爱的女奴所生的孩子，准备让他继承家业。
+        - id: ch01-b02
+          speaker: old_man_hind
+          text: |-
+            可我的妻子暗中恨透了他们母子，一直不让我知道。等我发觉她的心思，一切都已经太迟了。养子十岁左右时，我要出门整整一年。临行前，我把母子二人托付给妻子，请她好好照看。谁知我不在家，她竟为了实现那个恶毒的图谋，悄悄学会了魔法。等到法术学得足够精熟，她把孩子带到远处，变成小牛，又交给管家，说是自己买来的。那位女奴也被她变成母牛，送去了管家那里。
+        - id: ch01-b03
+          speaker: old_man_hind
+          text: 我回家以后，马上问妻子，那女奴和孩子去了哪里。
+        - id: ch01-b04
+          speaker: old_man_wife
+          text: 你的女奴已经死了。至于你的儿子，我两个月都没有见到他，哪里知道他去了什么地方。
+        - id: ch01-b05
+          speaker: old_man_hind
+          text: |-
+            我听说女奴死了，心里十分难过。可儿子只是失踪，我还以为只要耐心寻找，很快就能把他找回来。谁知一连八个月过去，他还是没有半点消息。就在这时，拜拉姆节到了。
+    - id: ch02
+      title: 献祭牲畜的眼泪
+      blocks:
+        - id: ch02-b01
+          speaker: old_man_hind
+          text: |-
+            为了庆祝节日，我让管家牵一头最肥的母牛来献祭。他牵来的，正是变成母牛的女奴。我把牛捆好，刚要动刀，她突然凄惨地哞叫起来，两眼不停流泪。我觉得这情形太反常，又实在可怜她，就叫管家把她牵走，换一头来。
+        - id: ch02-b02
+          speaker: old_man_hind
+          text: 妻子就在一旁。她见自己的恶毒打算要落空，反倒嘲笑我心软。
+        - id: ch02-b03
+          speaker: old_man_wife
+          text: 你在做什么？快把这头牛杀了！拿来献祭的牛里，就数她最好。
+          emotion: angry
+        - id: ch02-b04
+          speaker: old_man_hind
+          text: |-
+            为了顺她的意，我又举起刀。可是那母牛再次哀叫，眼泪也流个不停，我怎么都下不了手。
+        - id: ch02-b05
+          speaker: old_man_hind
+          text: 把她牵走吧。你替我杀了她，我实在做不到。
+        - id: ch02-b06
+          speaker: old_man_hind
+          text: |-
+            管家只好照办。可他杀了母牛，剥下牛皮以后才发现，这头牛看着那么肥，皮下竟然只有一副骨头。我实在又懊恼又失望。
+        - id: ch02-b07
+          speaker: old_man_hind
+          text: 这头牛归你了。你若还有肥壮的小牛，就牵一头来代替她。
+        - id: ch02-b08
+          speaker: old_man_hind
+          text: |-
+            不久，管家牵来一头很肥的小牛。那时我哪里知道，他就是我的儿子。小牛使劲挣着绳子，想奔到我身边。他扑在我脚下，头贴着地面，分明是在求我可怜他，不要取他的性命。
+        - id: ch02-b09
+          speaker: old_man_hind
+          text: |-
+            这比母牛流泪更让我吃惊，也更叫我心软。我对管家说，把小牛带回去，好好养着，立刻另换一头来。
+        - id: ch02-b10
+          speaker: old_man_wife
+          text: 丈夫，你到底在做什么？要献祭，就只能杀这头小牛！
+          emotion: angry
+        - id: ch02-b11
+          speaker: old_man_hind
+          text: 不行，我绝不会杀他。
+        - id: ch02-b12
+          speaker: old_man_hind
+          text: |-
+            任凭妻子怎么反对，我都没有让步。最后，我叫人杀了另一头小牛，把这一头牵了回去。
+    - id: ch03
+      title: 管家女儿的秘密
+      blocks:
+        - id: ch03-b01
+          speaker: old_man_hind
+          text: 第二天，管家找到我，请求私下说几句话。
+        - id: ch03-b02
+          speaker: steward
+          text: |-
+            主人，我有个消息，您听了一定会高兴。我的女儿懂魔法。昨天我把您饶过的小牛牵回去，她一看见它，先笑了起来，紧接着却又哭了。我便问她这是怎么回事。
+        - id: ch03-b03
+          speaker: steward_daughter
+          text: |-
+            父亲，这头小牛就是主人的儿子。我见他还活着，当然高兴。可他的母亲昨天变成母牛，被人献祭了，我想到这里又很难过。他们母子都是被主人的妻子变成牲畜的，因为那个女人恨他们。
+          emotion: sad
+        - id: ch03-b04
+          speaker: old_man_hind
+          text: |-
+            精灵王子，您可以想象，我听完有多么震惊。我一刻也不肯耽搁，立刻和管家一起去找他的女儿，想要亲自问个明白。不过在此之前，我先去了牛棚。我抚摸儿子，他虽然说不了话，却用小牛的样子回应着我的每一次爱抚。
+        - id: ch03-b05
+          speaker: old_man_hind
+          text: 管家的女儿一到，我就问她，能不能让我的儿子恢复人形。
+        - id: ch03-b06
+          speaker: steward_daughter
+          text: 能，不过您要答应我两个条件。第一，请让他娶我。第二，请准许我惩罚那个把他变成小牛的女人。
+        - id: ch03-b07
+          speaker: old_man_hind
+          text: |-
+            第一个条件，我满心答应，还会给你一份丰厚的嫁妆。第二个条件，我也答应，只求你别取她性命。
+        - id: ch03-b08
+          speaker: steward_daughter
+          text: 我不会杀她。她怎么对待您的儿子，我便怎么对待她。
+        - id: ch03-b09
+          speaker: old_man_hind
+          text: |-
+            姑娘拿来一只盛水的器皿，对着水念了几句我听不懂的话。接着，她把水泼到小牛身上。就在那一刻，我的儿子重新变回了年轻人。
+        - id: ch03-b10
+          speaker: old_man_hind
+          text: 我的儿子，我亲爱的儿子！这位善良的姑娘把你从可怕的魔法里救了出来。为了报答她，你一定愿意娶她吧！
+          emotion: happy
+        - id: ch03-b11
+          speaker: old_man_hind
+          text: |-
+            我欣喜若狂，一边喊，一边亲吻儿子。他也欢欢喜喜地答应了婚事。
+    - id: ch04
+      title: 眼前的母鹿
+      blocks:
+        - id: ch04-b01
+          speaker: old_man_hind
+          text: |-
+            可在他们成婚以前，姑娘先施展魔法，把我的妻子变成了母鹿，就是您现在看见的这一头。我宁愿她变成母鹿，而不是一种陌生的模样。这样留在家里，我们看见她也不会觉得厌恶。
+        - id: ch04-b02
+          speaker: old_man_hind
+          text: |-
+            后来，我的儿媳去世，儿子成了鳏夫，便外出远游。如今，我正要踏上旅程去寻找他。我又不愿把妻子交给别人照管，只好一路带着她。精灵王子，您说，这个故事难道不够奇妙吗？
+        - id: ch04-b03
+          speaker: genius
+          text: 的确奇妙。看在这个故事的分上，我免去那商人三分之一的刑罚。
+        - id: ch04-b04
+          speaker: narrator
+          text: 第一个老人讲完后，牵着两条黑狗的第二个老人也走上前，对精灵开口了。
+        - id: ch04-b05
+          speaker: old_man_black_dogs
+          text: |-
+            现在，请听听发生在我身上的事。我相信，您会觉得我的故事比刚才那个更惊奇。等我说完，您是否也肯免去商人三分之一的刑罚？
+        - id: ch04-b06
+          speaker: genius
+          text: 可以。但你的故事必须比母鹿的故事更奇妙。
+        - id: ch04-b07
+          speaker: narrator
+          text: 双方就这样约定下来，第二个老人开始讲述自己的故事。

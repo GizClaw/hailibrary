@@ -1,0 +1,16 @@
+# VIII. BOB FOOLS HIS NEIGHBORS
+
+"All's fair in love and war,” 'tis said.
+Of course this isn't true.
+A lot is done that's most unfair
+And no one ought to do.
+
+IT is always so when hate rules, and the queer thing is it is also true sometimes when love rules. Love quite often does unfair things and then tries to excuse them. But Bob White didn't feel that there was anything unfair in trying to fool his neighbors. Not a bit of it. You see, he was doing it for love and war both. He was doing it for love of shy little Mrs. Bob and their home, and for the kind of war that is always going on in the Green Forest and the Green Meadows. Of course, the little people who live there don't call it war, but you know how it is--the big people all the time trying to catch those smaller than themselves, and the little people all the time trying to get the best of the big people.
+
+So Bob White felt that it was perfectly fair and right that he should fool those of his neighbors who were hunting for his home, and so it was. He would sit on a fence-post whistling as only he can whistle, and telling all the world that he, Bob White, was there. Presently he would see Reddy Fox trotting down the Crooked Little Path and pretending that he was just out for a stroll and not at all interested in Bob or his affairs. Then Bob would pretend to look all around as if to see that no danger was near. After that he would fly over to a certain place which looked to be just the kind of a place for a nest, and there he would hide in the grass.
+
+Just as soon as he disappeared, Reddy Fox would grin in that sly way of his and say to himself, “So that's where your nest is! I think I'll have a look over there.”
+
+Then he would steal over to where he had seen Bob disappear and poke his sharp nose into every bunch of grass and peek under every little bush. Bob would wait until he heard those soft footsteps very near him, then he would fly up with a great noise of his swift little wings as if he were terribly frightened, and from a distant fence-post he would call in the most anxious sounding voice. Reddy would be sure then that he was near the nest and would hunt and hunt. All the time little Mrs. Bob would be sitting comfortably on those precious eggs in the nest in the weed-patch close beside the Crooked Little Path, chuckling to herself as she listened to Bob's voice. You see, she knew just what he was doing.
+
+It was the same way with Jimmy Skunk and Granny Fox and even Peter Rabbit. All of them hunted and hunted for that nest and watched Bob White and were sure that they knew just where to look for his home, and afterward wondered why it was that they couldn't find it. Jimmy Skunk wanted some of those eggs. Reddy and Granny Fox wanted to catch Mrs. Bob or be ready to gobble up the babies when they should hatch out of those beautiful white eggs. As for Peter Rabbit, he wanted to know where that nest was just out of curiosity. He wouldn't have harmed Mrs. Bob or one of those eggs for the world. But Bob knew that if Peter knew where that nest was he might visit it when some one was watching him, and something dreadful might happen as a result. So he thought it best to fool Peter just as he did the others, and I think it was. Don't you?

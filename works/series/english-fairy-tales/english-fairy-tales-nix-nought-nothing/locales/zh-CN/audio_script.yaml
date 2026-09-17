@@ -1,0 +1,217 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容讲述古老童话，诙谐中渐渐透出紧张
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中
+    king:
+      display_name: 国王
+      tts:
+        delivery: 诚厚却糊涂，焦急时失去平日的威严
+        timbre: 沉稳宽厚
+        pace: 中等
+        pitch: 中低
+    queen:
+      display_name: 王后
+      tts:
+        delivery: 温柔端庄，忧虑时语气沉重
+        timbre: 柔和清润
+        pace: 中等偏慢
+        pitch: 中
+    giant:
+      display_name: 巨人
+      tts:
+        delivery: 粗暴专横，威胁别人时咄咄逼人
+        timbre: 粗砺浑厚
+        pace: 中等偏慢
+        pitch: 低
+    henwife_boy:
+      display_name: 养鸡婆的儿子
+      tts:
+        delivery: 年幼老实，毫无戒心地回答
+        timbre: 清亮稚嫩
+        pace: 中等
+        pitch: 高
+    gardener_boy:
+      display_name: 园丁的儿子
+      tts:
+        delivery: 爽直自然，回答得干脆
+        timbre: 明亮稚嫩
+        pace: 中等
+        pitch: 中高
+    nix_nought_nothing:
+      display_name: 没名没姓没什么
+      tts:
+        delivery: 年轻真诚，历险中从不失勇气
+        timbre: 清朗温厚
+        pace: 中等
+        pitch: 中
+    giant_daughter:
+      display_name: 巨人的女儿
+      tts:
+        delivery: 聪慧坚定，危急时急促有力，哀伤时克制
+        timbre: 清澈柔韧
+        pace: 中等
+        pitch: 中
+    gardener_daughter:
+      display_name: 园丁的女儿
+      tts:
+        delivery: 自负任性，说话直冲冲的
+        timbre: 明亮尖细
+        pace: 偏快
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 没名没姓没什么
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "从前有一位国王和一位王后。他们成婚多年，始终没有孩子。国王远赴异国时，王后终于生下一个男孩。她想等国王回来再为孩子受洗取名。"
+        - id: ch01-b02
+          speaker: queen
+          text: "父王回来以前，我们就先叫他‘没名没姓没什么’吧。"
+        - id: ch01-b03
+          speaker: narrator
+          text: "国王迟迟未归，孩子已经长成可爱的小男孩。国王终于回来，却被一条有漩涡的大河拦住，怎么也过不去。一个巨人走过来，说愿意背他过河。"
+        - id: ch01-b04
+          speaker: king
+          text: "你想要什么报酬？"
+        - id: ch01-b05
+          speaker: giant
+          text: "把没名、没姓、没什么给我，我就背你过去。"
+        - id: ch01-b06
+          speaker: narrator
+          text: "国王不知道儿子的临时名字，听来听去，只当巨人什么也不要。"
+        - id: ch01-b07
+          speaker: king
+          text: "好啊，那就给你，还要多谢你呢。"
+        - id: ch01-b08
+          speaker: narrator
+          text: "回到家，国王见到妻子和幼小的儿子，欢喜极了。可王后一说出孩子的名字，他顿时慌了神。"
+        - id: ch01-b09
+          speaker: king
+          text: "我究竟干了什么呀？那个背我过河的巨人要我交出‘没名没姓没什么’，我已经答应他了！"
+          emotion: fearful
+        - id: ch01-b10
+          speaker: narrator
+          text: "国王和王后又悲伤又懊悔，决定拿养鸡婆的儿子冒充王子，以为巨人看不出差别。第二天，巨人来讨报酬，背走了那个孩子。走到一块大石头旁，他坐下歇脚。"
+        - id: ch01-b11
+          speaker: giant
+          text: "背上驮着小东西，你说眼下什么时？"
+        - id: ch01-b12
+          speaker: henwife_boy
+          text: "这会儿，我娘养鸡婆正在收鸡蛋，预备王后的早饭呢。"
+        - id: ch01-b13
+          speaker: narrator
+          text: "巨人勃然大怒，把孩子的头撞在石头上，杀死了他。"
+    - id: ch02
+      title: 巨人讨走王子
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "巨人怒气冲冲地回去，国王夫妇又把园丁的儿子交给了他。到了那块石头旁，巨人再次坐下。"
+        - id: ch02-b02
+          speaker: giant
+          text: "背上驮着小东西，你说眼下什么时？"
+        - id: ch02-b03
+          speaker: gardener_boy
+          text: "那还用说，这会儿我娘正在收蔬菜，预备王后的晚饭。"
+        - id: ch02-b04
+          speaker: narrator
+          text: "巨人暴跳如雷，又把这个孩子的脑袋撞在石头上，撞得脑浆迸裂。他回到王宫，威胁说，再不交出没名没姓没什么，就把所有人统统毁掉。国王夫妇只得交出亲生儿子。走到大石头旁，巨人照旧问他现在是什么时辰。"
+        - id: ch02-b05
+          speaker: nix_nought_nothing
+          text: "这会儿，我父王正在坐下来用晚饭呢。"
+        - id: ch02-b06
+          speaker: giant
+          text: "这回总算抓对了。"
+        - id: ch02-b07
+          speaker: narrator
+          text: "巨人把没名没姓没什么带回家，一直养到他长大成人。巨人有个漂亮的女儿，她和小伙子渐渐彼此倾心。一天，巨人给没名没姓没什么派下一件活儿。"
+        - id: ch02-b08
+          speaker: giant
+          text: "有座马厩长七英里，宽七英里，整整七年没有打扫。明天把它清理干净，不然我就拿你当晚饭。"
+    - id: ch03
+      title: 三件不可能的活儿
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "第二天一早，巨人的女儿来送早饭，只见小伙子急得不知如何是好。他刚清出一点脏东西，转眼又落回原处。姑娘答应帮忙，把田野里的百兽和空中的百鸟全都唤来。它们顷刻赶到，把马厩清理得干干净净。巨人回来一看，很不高兴。"
+        - id: ch03-b02
+          speaker: giant
+          text: "帮你想出这办法的人真该羞死！明天还有更难的。那座湖长七英里、宽七英里、深七英里。天黑以前把水排干，不然我就拿你当晚饭。"
+        - id: ch03-b03
+          speaker: narrator
+          text: "次日一早，没名没姓没什么提着桶不停舀水，湖面却一点也不见低。巨人的女儿又来相助。她唤来海中所有的鱼，鱼儿很快就把湖水喝干了。巨人看到以后大发雷霆。"
+        - id: ch03-b04
+          speaker: giant
+          text: "明天还有更难的。那棵树高七英里，只有树顶才有枝杈。顶上的鸟巢里有七枚蛋。把它们一枚不少地取下来，一枚也不许摔破，不然我就拿你当晚饭。"
+        - id: ch03-b05
+          speaker: narrator
+          text: "这一回，巨人的女儿起初也没有办法。后来，她割下自己的手指和脚趾，把它们变成一级级台阶。没名没姓没什么踩着台阶爬到树顶，取下七枚蛋。可快到地面时，还是摔破了一枚。两人决定立刻逃走。姑娘稍稍理好头发，带上魔法瓶，和心上人拼命向前跑。"
+    - id: ch04
+      title: 巨人的追赶
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "他们才跑过三块田地，一回头，就看见巨人迈开大步追来。"
+        - id: ch04-b02
+          speaker: giant_daughter
+          text: "快！取下我头发上的梳子，把它扔到地上！"
+        - id: ch04-b03
+          speaker: narrator
+          text: "没名没姓没什么扔下梳子，每根梳齿落下的地方都长出茂密的荆棘。巨人费了很久才钻出来，两个年轻人已经跑出老远。可是他很快又追上来，眼看就要抓住他们。"
+        - id: ch04-b04
+          speaker: giant_daughter
+          text: "快把我的发簪取下来，扔到地上！快！"
+        - id: ch04-b05
+          speaker: narrator
+          text: "发簪一落地，立刻长成一道密密的篱笆，交错排着锋利的剃刀。巨人只能小心穿过。年轻人不停地跑啊，跑啊，跑啊，几乎消失在远方。可巨人终于闯过篱笆，又赶了上来。他伸出手，差一点就抓住没名没姓没什么。就在这时，姑娘把魔法瓶狠狠摔在地上。瓶中涌出一股巨浪，越涨越高，淹过巨人的腰，淹过他的脖子，最后没过头顶。巨人淹死了，死了，的的确确死透了。于是，他就此退出这个故事。"
+    - id: ch05
+      title: 沉睡的陌生人
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: "两人继续逃，竟来到没名没姓没什么父母的城堡附近。巨人的女儿累得一步也走不动，小伙子叫她留下等候，自己去找过夜的住处。他朝城堡的灯火走去，途中来到养鸡婆的小屋。养鸡婆认出他，想到自己的儿子因他而死，心里恨透了他。他来问路，她却暗中施了魔法。没名没姓没什么刚进城堡，就倒在大厅的长凳上沉沉睡去。国王和王后怎么也唤不醒他。"
+        - id: ch05-b02
+          speaker: king
+          text: "不管哪位姑娘，只要能把他唤醒，就可以嫁给他。"
+        - id: ch05-b03
+          speaker: narrator
+          text: "巨人的女儿等了又等，始终不见心上人回来，只好爬到树上盼望。园丁的女儿来井边打水，看见水里的姑娘倒影，还以为那是自己。"
+        - id: ch05-b04
+          speaker: gardener_daughter
+          text: "我既然这么美，又这么了不起，你们凭什么还让我来打水？"
+        - id: ch05-b05
+          speaker: narrator
+          text: "她扔下水桶，想去嫁给那个沉睡的陌生人。养鸡婆教给她一段解咒歌诀，只要她愿意，就能叫没名没姓没什么醒上一会儿。她到城堡唱出歌诀，小伙子果然短暂醒来，众人便答应把他许配给她。后来，园丁亲自到井边，也看见水里的倒影。他抬头发现树上的姑娘，把她接下来，领回家中。园丁告诉她，有个陌生人就要娶自己的女儿，又带她去城堡。她一眼便认出椅子上沉睡的人。"
+        - id: ch05-b06
+          speaker: giant_daughter
+          text: "醒醒，醒醒，跟我说句话吧！"
+          emotion: sad
+        - id: ch05-b07
+          speaker: narrator
+          text: "没名没姓没什么毫无反应。姑娘哭着唱起来。"
+        - id: ch05-b08
+          speaker: giant_daughter
+          text: "马厩是我扫，湖水是我舀，高树也是我助你攀。只因一颗心，全都为你甘，你却不肯醒来同我谈。"
+          emotion: sad
+        - id: ch05-b09
+          speaker: narrator
+          text: "国王和王后听见歌声，来到她面前。"
+        - id: ch05-b10
+          speaker: giant_daughter
+          text: "不管我怎么做，都没法让没名没姓没什么开口跟我说话。"
+        - id: ch05-b11
+          speaker: narrator
+          text: "国王和王后一听这个名字，惊讶万分，连忙问她人在何处。"
+        - id: ch05-b12
+          speaker: giant_daughter
+          text: "就是坐在那把椅子上的人。"
+        - id: ch05-b13
+          speaker: narrator
+          text: "他们奔过去亲吻他，唤他作亲爱的儿子，又叫园丁的女儿唱出解咒歌诀。没名没姓没什么醒了，把巨人的女儿为他做过的一切和她的种种好处全都讲了出来。国王和王后把姑娘搂在怀里亲吻，说儿子要娶她为妻，从此她就是自己的女儿。他们又派人捉来养鸡婆，把她处死了。一家人从此幸福地生活了一辈子。"

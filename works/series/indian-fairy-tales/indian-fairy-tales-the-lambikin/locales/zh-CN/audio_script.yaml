@@ -1,0 +1,195 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 郑重而亲切，带着学者讲述旧日故事的从容
+        timbre: 温暖清晰，沉稳而有书卷气
+        pace: 舒缓，论述转折处稍作停顿
+        pitch: 中低
+    lambikin:
+      display_name: 小羊羔
+      tts:
+        delivery: 天真活泼，得意时机灵俏皮
+        timbre: 清亮稚嫩
+        pace: 稍快，唱歌时节奏鲜明
+        pitch: 高
+    granny:
+      display_name: 奶奶
+      tts:
+        delivery: 慈爱爽快，对孙儿有求必应
+        timbre: 苍老温暖
+        pace: 舒缓
+        pitch: 中
+    jackal:
+      display_name: 豺
+      tts:
+        delivery: 狡猾阴冷，识破伪装时尖锐得意
+        timbre: 干涩锐利
+        pace: 适中
+        pitch: 中低
+    vulture:
+      display_name: 秃鹫
+      tts:
+        delivery: 饥饿贪婪，言语直截了当
+        timbre: 粗哑低沉
+        pace: 适中偏慢
+        pitch: 低
+    tiger:
+      display_name: 老虎
+      tts:
+        delivery: 凶猛直接，带着不容反抗的威势
+        timbre: 浑厚有力
+        pace: 稍慢
+        pitch: 低
+    wolf:
+      display_name: 狼
+      tts:
+        delivery: 急切贪婪，口气凶狠
+        timbre: 沙哑紧绷
+        pace: 稍快
+        pitch: 中低
+    dog:
+      display_name: 狗
+      tts:
+        delivery: 粗声粗气，威吓时干脆有力
+        timbre: 厚实响亮
+        pace: 适中
+        pitch: 中低
+    eagle:
+      display_name: 鹰
+      tts:
+        delivery: 高傲敏锐，懊恼时仍带着威严
+        timbre: 高亢清晰
+        pace: 适中
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 去奶奶家的路上
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前有一只小小的小羊羔。他的腿还不大稳，却成天蹦来跳去，别提多快活了。
+        - id: ch01-b02
+          speaker: narrator
+          text: 有一天，小羊羔要去看奶奶。一想到奶奶会给他多少好东西吃，他就高兴得一路直蹦。走着走着，一只豺拦住了他。豺眼看这小家伙又鲜又嫩，张口就说要吃他。
+        - id: ch01-b03
+          speaker: jackal
+          text: “小羊羔，小羊羔！我要把你吃掉！”
+        - id: ch01-b04
+          speaker: narrator
+          text: 小羊羔不慌不忙，只轻轻一跳。
+        - id: ch01-b05
+          speaker: lambikin
+          text: “我要去奶奶家，吃得肥肥再回来，到时任你吃个快。”
+        - id: ch01-b06
+          speaker: narrator
+          text: 豺一听，觉得很有道理，便放他走了。没过多久，小羊羔又碰上一只秃鹫。秃鹫饿得很，盯着眼前这块嫩肉不肯挪眼。
+        - id: ch01-b07
+          speaker: vulture
+          text: “小羊羔，小羊羔！我要把你吃掉！”
+        - id: ch01-b08
+          speaker: narrator
+          text: 小羊羔还是轻轻一跳，又唱起刚才那几句。
+        - id: ch01-b09
+          speaker: lambikin
+          text: “我要去奶奶家，吃得肥肥再回来，到时任你吃个快。”
+        - id: ch01-b10
+          speaker: narrator
+          text: 秃鹫也觉得有理，让他过去了。再往前，小羊羔先后遇见了老虎、狼、狗和鹰。他们见了这鲜嫩的小家伙，个个都想吃他。
+        - id: ch01-b11
+          speakers: [tiger, wolf, dog, eagle]
+          ensemble: chorus
+          text: “小羊羔，小羊羔！我要把你吃掉！”
+        - id: ch01-b12
+          speaker: narrator
+          text: 每一回，小羊羔都轻轻一跃，用同一首小歌回答他们。
+        - id: ch01-b13
+          speaker: lambikin
+          text: “我要去奶奶家，吃得肥肥再回来，到时任你吃个快。”
+    - id: ch02
+      title: 粮仓和小鼓儿
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 小羊羔总算平安到了奶奶家。他一进门，便急匆匆地央求奶奶。
+        - id: ch02-b02
+          speaker: lambikin
+          text: “亲爱的奶奶，我答应了人家，要让自己长得肥肥的。答应过的事就得做到，请您马上把我放进粮仓吧！”
+        - id: ch02-b03
+          speaker: narrator
+          text: 奶奶夸他是个好孩子，照他说的做了。小羊羔在粮仓里一待就是七天。他吃了又吃，吃个不停，到后来胖得连路都快走不动了。奶奶说，他已经够肥，该回家了。
+        - id: ch02-b04
+          speaker: narrator
+          text: 可小羊羔很机灵。他说自己现在又肥又嫩，若照原路回去，准会让哪只野兽一口吃掉。他想出了一个办法。
+        - id: ch02-b05
+          speaker: lambikin
+          text: “奶奶，您用我死去的小弟弟那张皮，给我做面小鼓儿吧。我坐进鼓里，就可以舒舒服服地滚回去。您瞧，我自己也圆得像面鼓啦！”
+        - id: ch02-b06
+          speaker: narrator
+          text: 奶奶真的做了一面漂亮的小鼓儿，还把羊毛留在鼓里。小羊羔蜷进鼓心，浑身又暖又软，便高高兴兴地滚上了回家的路。
+    - id: ch03
+      title: 会唱歌的小鼓儿
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 没过多久，小鼓儿遇见了鹰。鹰冲着它高声发问。
+        - id: ch03-b02
+          speaker: eagle
+          text: “小鼓儿，小鼓儿！你见过小羊羔没有？”
+        - id: ch03-b03
+          speaker: narrator
+          text: 小羊羔舒舒服服地蜷在温暖的鼓心里，开口回答。
+        - id: ch03-b04
+          speaker: lambikin
+          text: “他掉进火里烧掉了，你也一样跑不了！小鼓儿呀，咚巴，咚嘟！”
+        - id: ch03-b05
+          speaker: eagle
+          text: “真叫人生气！”
+        - id: ch03-b06
+          speaker: narrator
+          text: 鹰叹着气，懊悔自己放跑了那块鲜嫩的肉。小羊羔却在鼓里暗暗发笑，一路滚，一路唱。
+        - id: ch03-b07
+          speaker: lambikin
+          text: “咚巴，咚嘟！咚巴，咚嘟！”
+        - id: ch03-b08
+          speaker: narrator
+          text: 后来，他遇见的每一只走兽、每一只飞鸟，都朝小鼓儿打听。
+        - id: ch03-b09
+          speakers: [vulture, tiger, wolf, dog]
+          ensemble: chorus
+          text: “小鼓儿，小鼓儿！你见过小羊羔没有？”
+        - id: ch03-b10
+          speaker: narrator
+          text: 小滑头每次都用那套歌儿糊弄他们。
+        - id: ch03-b11
+          speaker: lambikin
+          text: “他掉进火里烧掉了，你也一样跑不了！小鼓儿呀，咚巴，咚嘟；咚巴，咚嘟；咚巴，咚嘟！”
+        - id: ch03-b12
+          speaker: narrator
+          text: 想到自己放跑了那块鲜嫩的肉，他们一个个都叹起气来。
+    - id: ch04
+      title: 豺认出了声音
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 最后，豺一瘸一拐地走来了。别看他模样可怜，心眼却尖得像针。他也冲着小鼓儿高声问话。
+        - id: ch04-b02
+          speaker: jackal
+          text: “小鼓儿，小鼓儿！你见过小羊羔没有？”
+        - id: ch04-b03
+          speaker: narrator
+          text: 小羊羔蜷在舒适的鼓心里，快活地唱了起来。
+        - id: ch04-b04
+          speaker: lambikin
+          text: “他掉进火里烧掉了，你也一样跑不了！小鼓儿呀，咚巴——”
+        - id: ch04-b05
+          speaker: narrator
+          text: 这次，他没能把歌唱完。豺一下就认出了他的声音。
+        - id: ch04-b06
+          speaker: jackal
+          text: “哈！原来你把自己里外翻了个个儿。快从里面给我出来！”
+        - id: ch04-b07
+          speaker: narrator
+          text: 豺随即撕开小鼓儿，一口吞掉了小羊羔。

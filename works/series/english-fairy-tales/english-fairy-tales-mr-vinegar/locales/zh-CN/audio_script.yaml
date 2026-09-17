@@ -1,0 +1,194 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容讲述古老童话，诙谐中渐渐透出紧张
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中
+    mr_vinegar:
+      display_name: 醋先生
+      tts:
+        delivery: 天真冒失，想到什么就兴冲冲地说出来
+        timbre: 明亮而略显单薄
+        pace: 中等偏快
+        pitch: 中高
+    mrs_vinegar:
+      display_name: 醋太太
+      tts:
+        delivery: 能干直率，着急时急促，拿定主意后干脆
+        timbre: 清晰结实
+        pace: 中等
+        pitch: 中
+    robber:
+      display_name: 强盗
+      tts:
+        delivery: 惊魂未定，越说越慌张
+        timbre: 粗哑紧绷
+        pace: 偏快
+        pitch: 中低
+    bagpiper:
+      display_name: 风笛手
+      tts:
+        delivery: 圆滑自得，顺着对方的话推销
+        timbre: 爽亮油滑
+        pace: 中等
+        pitch: 中
+    glove_man:
+      display_name: 戴手套的人
+      tts:
+        delivery: 精明爽快，说话带着占到便宜的热络
+        timbre: 厚实清楚
+        pace: 中等
+        pitch: 中低
+    stick_man:
+      display_name: 拿手杖的人
+      tts:
+        delivery: 老练随和，慢条斯理地促成交换
+        timbre: 温厚低沉
+        pace: 舒缓
+        pitch: 低
+    parrot:
+      display_name: 鹦鹉
+      tts:
+        delivery: 尖刻伶俐，越数落越得意
+        timbre: 尖亮清脆
+        pace: 偏快
+        pitch: 高
+  chapters:
+    - id: ch01
+      title: 醋瓶里的房子
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "醋先生和醋太太住在一只醋瓶里。一天，醋先生出了门，能干的醋太太留在家里，正忙忙碌碌地扫着地。扫帚不巧猛撞了一下，只听稀里哗啦，稀里哗啦，整幢房子全塌到了她头上。她伤心得不得了，赶紧跑出去迎丈夫。丈夫一出现，她便迎上前去。"
+        - id: ch01-b02
+          speaker: mrs_vinegar
+          text: "哎呀，醋先生，我们全完了！我把房子撞塌了，已经摔得七零八落啦！"
+          emotion: sad
+        - id: ch01-b03
+          speaker: mr_vinegar
+          text: "亲爱的，先看看还能怎么办吧。这里剩下一扇门，我把它背上，咱们出门去寻找幸福。"
+        - id: ch01-b04
+          speaker: narrator
+          text: "夫妻俩走了整整一天，天黑时来到一片茂密的森林。他们实在太累了。"
+        - id: ch01-b05
+          speaker: mr_vinegar
+          text: "亲爱的，我先爬到树上，把门拖上去，你再跟着上来。"
+        - id: ch01-b06
+          speaker: narrator
+          text: "醋先生照着自己的主意办了。两个人躺在门板上，舒展开疲惫的手脚，很快就沉沉睡着了。"
+    - id: ch02
+      title: 树下的意外之财
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "半夜里，树下传来说话声，把醋先生惊醒了。他往下一看，吓得魂都快没了。一伙强盗正聚在那里分赃。"
+        - id: ch02-b02
+          speaker: robber
+          text: "杰克，这五英镑给你。比尔，你拿十英镑。鲍勃，这三英镑归你。"
+        - id: ch02-b03
+          speaker: narrator
+          text: "醋先生越听越害怕，浑身抖个不停，竟把身下的门板抖落了。门板正好砸在强盗们头上，他们撒腿便逃。可醋先生还是不敢下树，一直躲到天色大亮。"
+        - id: ch02-b04
+          speaker: narrator
+          text: "等他笨手笨脚地爬下来，再把门板抬起，眼前竟是一大堆金灿灿的基尼。"
+        - id: ch02-b05
+          speaker: mr_vinegar
+          text: "醋太太，快下来呀！我们发财了，我们发财了！快下来！"
+          emotion: surprised
+        - id: ch02-b06
+          speaker: narrator
+          text: "醋太太飞快地下了树。看到那些钱，她高兴得跳起来。"
+        - id: ch02-b07
+          speaker: mrs_vinegar
+          text: "亲爱的，你听我说。邻镇正在赶集，你带上这四十基尼，去买一头奶牛。我来做黄油和奶酪，你拿到集市上卖，往后咱们就能舒舒服服地过日子了。"
+          emotion: happy
+    - id: ch03
+      title: 红牛换风笛
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "醋先生欢欢喜喜地答应了。他带上四十基尼，动身到邻镇赶集。到了那里，他来来回回逛了好久，终于看见一头漂亮的红牛。那头牛奶水很多，浑身上下好得挑不出一点毛病。"
+        - id: ch03-b02
+          speaker: mr_vinegar
+          text: "我要是有了这头牛，一定会成为世上最幸福的人。"
+        - id: ch03-b03
+          speaker: narrator
+          text: "醋先生走上前，开价四十基尼。牛主人说，既然大家是朋友，愿意行这个方便。买卖就这么做成了。醋先生牵到红牛，赶着它来来回回地走，好让人人都瞧见这头漂亮的牛。"
+        - id: ch03-b04
+          speaker: narrator
+          text: "没过多久，他听见有人吹风笛，嘀哩嗒，嘀哩嘀。孩子们前前后后跟着风笛手，钱也像是从四面八方落进了那人的口袋。"
+        - id: ch03-b05
+          speaker: mr_vinegar
+          text: "我要是有了那件漂亮的乐器，就会成为世上最幸福的人。我的好运可就来了。"
+        - id: ch03-b06
+          speaker: mr_vinegar
+          text: "朋友，你这乐器真漂亮。靠着它，你一定能赚很多钱吧？"
+        - id: ch03-b07
+          speaker: bagpiper
+          text: "那当然，我的确赚了不少钱。这可是一件神奇的乐器。"
+        - id: ch03-b08
+          speaker: mr_vinegar
+          text: "啊，我真想把它据为己有！"
+        - id: ch03-b09
+          speaker: bagpiper
+          text: "既然大家是朋友，我也不是舍不得。你把那头红牛给我，风笛就归你。"
+        - id: ch03-b10
+          speaker: mr_vinegar
+          text: "好，我拿红牛跟你换。成交！"
+          emotion: happy
+        - id: ch03-b11
+          speaker: narrator
+          text: "那头漂亮的红牛就这样换成了风笛。醋先生拿着新换来的乐器，在集市上走来走去。他一遍遍试着吹曲子，却怎么也吹不出来。铜板一枚也没进他的口袋，男孩们倒一路跟在后面，对他又嘘又笑，还拿东西砸他。"
+    - id: ch04
+      title: 手套又换成手杖
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "可怜的醋先生冻得手指冰凉。快走出小镇时，他碰见一个人，那人戴着一双又厚又好的手套。"
+        - id: ch04-b02
+          speaker: mr_vinegar
+          text: "我的手指冷极了。我要是有了那双漂亮的手套，就会成为世上最幸福的人。朋友，你这双手套可真不错。"
+        - id: ch04-b03
+          speaker: glove_man
+          text: "一点不假。十一月这么冷，我的两只手却暖和得不能再暖和了。"
+        - id: ch04-b04
+          speaker: mr_vinegar
+          text: "那么，我可真想要这双手套。"
+        - id: ch04-b05
+          speaker: glove_man
+          text: "你拿什么来换？看在大家是朋友的分上，我可以把手套给你，只要你拿那只风笛来换。"
+        - id: ch04-b06
+          speaker: mr_vinegar
+          text: "好，我用风笛换手套。成交！"
+          emotion: happy
+        - id: ch04-b07
+          speaker: narrator
+          text: "风笛换成了手套。醋先生马上戴起来，两只冰凉的手很快就暖和了。他心满意足地离开小镇，一步一步往家走。走着走着，他实在累坏了。正巧，一个人迎面走来，手里拿着一根结实的粗手杖。"
+        - id: ch04-b08
+          speaker: mr_vinegar
+          text: "我要是有了那根手杖就好了！那样我就是世上最幸福的人。朋友，你这根手杖真是难得的好东西。"
+        - id: ch04-b09
+          speaker: stick_man
+          text: "是啊，它陪我走过许多里路，一直是我的好朋友。不过，你既然喜欢，我愿意拿它换你那双手套。咱们都是朋友嘛。"
+        - id: ch04-b10
+          speaker: narrator
+          text: "这根手杖陪那人走过许多里路，可交换还是说定了。醋先生的手暖烘烘的，双腿却累得发酸。他很高兴地交出那双好手套，拿走了手杖，继续朝妻子等候的树林走去。"
+    - id: ch05
+      title: 鹦鹉的数落
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: "醋先生快走到那片树林时，忽然听见树上有只鹦鹉叫他的名字。"
+        - id: ch05-b02
+          speaker: parrot
+          text: "醋先生，你这个傻瓜、笨蛋、呆子！你把所有的钱都花掉，买了一头牛，还不知足，又拿牛换了风笛。你根本不会吹，那风笛连原来价钱的十分之一都不值。你这个蠢货，你刚拿到风笛，马上又换成了手套，那双手套连原来价钱的四分之一都不值。手套才到手，你又拿它换了一根又破又寒酸的手杖。现在呢？四十基尼、牛、风笛和手套全没了。你能拿给人看的，只有这根破手杖，而随便哪道树篱上，你都能砍下一根来！"
+        - id: ch05-b03
+          speaker: narrator
+          text: "鹦鹉说完，笑个不停。醋先生气得发了狂，举起手杖就朝它的脑袋扔去。手杖卡在树上，再也拿不回来了。"
+        - id: ch05-b04
+          speaker: narrator
+          text: "醋先生回到妻子身边时，钱、牛、风笛、手套和手杖一样也没有。醋太太立刻拿棍子把他结结实实地痛打了一顿，险些把他浑身的骨头全打断。"

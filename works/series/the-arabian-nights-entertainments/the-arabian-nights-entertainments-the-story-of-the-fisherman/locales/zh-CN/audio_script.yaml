@@ -1,0 +1,183 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，带着温和的学者式幽默
+        timbre: 温暖清晰，沉稳而不厚重
+        pace: 舒缓，遇到年代与专名时略作停顿
+        pitch: 中音
+    fisherman:
+      display_name: 渔夫
+      tts:
+        delivery: 朴实坚韧，受惊时慌乱，设下计策后机敏坚定
+        timbre: 苍老微哑，带着常年劳作的粗粝感
+        pace: 自然偏慢，紧张时稍快
+        pitch: 中低音
+    genius:
+      display_name: 精灵
+      tts:
+        delivery: 暴烈森严，发怒时咄咄逼人
+        timbre: 粗粝浑厚，带着可怖的压迫感
+        pace: 缓慢沉重，威吓时突然加重
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 四次撒网
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: |-
+            陛下，从前有个年老的渔夫，穷得几乎养不活妻子和三个孩子。他每天趁天还没亮就去捕鱼，而且从不多撒网，一天只撒四次。
+        - id: ch01-b02
+          speaker: narrator
+          text: |-
+            一天清晨，月光还照着海面，他来到岸边，脱下衣裳，撒出了第一网。收网时分量很沉，他满心以为捕到一条大鱼，拉上来才发现，网里竟是一头死驴。更糟的是，渔网还被扯破了好几处。
+        - id: ch01-b03
+          speaker: narrator
+          text: |-
+            渔夫又恼又失望。他补好破洞，撒出第二网。这回仍是沉甸甸的，他以为终于捞到了许多鱼，谁知只有一只装满垃圾的大筐。
+        - id: ch01-b04
+          speaker: fisherman
+          text: 命运啊，别再拿我这个穷渔夫取乐了！我连一家人都快养不起啦！
+          emotion: angry
+        - id: ch01-b05
+          speaker: narrator
+          text: |-
+            他倒掉垃圾，把网上的污物洗净，又撒出第三网。拉上来的却是石头、贝壳和烂泥。渔夫几乎绝望，可一天还有最后一次机会。
+        - id: ch01-b06
+          speaker: narrator
+          text: |-
+            第四网落进海里。收网时，他费了好大的力气，仍旧没见到鱼，只捞上来一只沉重的黄色罐子。罐口用铅封得严严实实，上面还盖着一枚印章。他立刻高兴起来。
+        - id: ch01-b07
+          speaker: fisherman
+          text: 把这只罐子卖给铸匠，换来的钱就够买一斗麦子了。
+    - id: ch02
+      title: 罐中精灵
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: |-
+            渔夫把罐子翻来覆去地看，又使劲摇了摇，里面一点声音也没有。可那道封口和印章让他相信，罐中准有宝物。他掏出小刀，费力撬开铅盖，再把罐子倒过来，里面却什么也没掉出来。
+        - id: ch02-b02
+          speaker: narrator
+          text: |-
+            他把罐子放在面前，正看得出神，一股浓烟忽然从罐口涌出来，逼得他连退几步。烟一直升到云端，又铺满海面和岸边，四周顿时一片迷蒙。等罐里的烟全出来以后，它们聚成黑压压的一团，变成了一个精灵。那精灵足有世上最高大的巨人两倍那么高。
+        - id: ch02-b03
+          speaker: narrator
+          text: |-
+            渔夫见到这个可怕的怪物，只想赶快逃走，可他吓得浑身发抖，连一步也挪不动。
+        - id: ch02-b04
+          speaker: genius
+          text: 伟大的精灵之王，我再也不敢违抗您了！
+          emotion: fearful
+        - id: ch02-b05
+          speaker: narrator
+          text: |-
+            听到这句话，渔夫才稍稍壮起胆子。
+        - id: ch02-b06
+          speaker: fisherman
+          text: 大精灵，你这话是什么意思？告诉我，你究竟是什么来历，又怎么会被关在这只罐子里？
+        - id: ch02-b07
+          speaker: narrator
+          text: |-
+            精灵高傲地俯视着他。
+        - id: ch02-b08
+          speaker: genius
+          text: 对我客气一点，否则我现在就杀了你。
+          emotion: angry
+        - id: ch02-b09
+          speaker: fisherman
+          text: 你为什么要杀我？我刚刚才救你出来，你这么快就忘了吗？
+          emotion: fearful
+        - id: ch02-b10
+          speaker: genius
+          text: |-
+            我当然没忘，可你照样得死。我只给你一个恩典，你可以亲自挑选自己的死法。
+        - id: ch02-b11
+          speaker: fisherman
+          text: 我到底做了什么，要受这样的报答？
+        - id: ch02-b12
+          speaker: genius
+          text: 我非这样做不可。想知道为什么，就好好听我的故事。
+    - id: ch03
+      title: 精灵的誓言
+      blocks:
+        - id: ch03-b01
+          speaker: genius
+          text: |-
+            我曾经背叛精灵之王。他把我关进这只铜罐，用铅盖封住罐口，又在盖上印下带有法力的印章，让我再也逃不出去。随后，他命人把罐子沉入大海。
+        - id: ch03-b02
+          speaker: genius
+          text: |-
+            被囚禁的第一个百年里，我发誓，谁能在百年期满前放我出去，我就让他生前死后都富有。可整整一百年过去，没有一个人来救我。
+        - id: ch03-b03
+          speaker: genius
+          text: |-
+            第二个百年里，我又许下诺言，要把世间所有的珍宝送给救我的人。可这个人还是没有出现。
+        - id: ch03-b04
+          speaker: genius
+          text: |-
+            到了第三个百年，我答应让救我的人当上国王。我会永远陪伴他，每天替他实现三个愿望。然而这一百年也过去了，我仍旧被困在罐中。
+        - id: ch03-b05
+          speaker: genius
+          text: |-
+            漫长的囚禁终于让我怒火冲天。我发誓，从此无论谁放我出去，我都立刻杀了他，只让他自己选择死法。今天救我的人就是你。现在说吧，你想怎么死？
+          emotion: angry
+        - id: ch03-b06
+          speaker: narrator
+          text: |-
+            渔夫听完，心中又悲伤又害怕。
+        - id: ch03-b07
+          speaker: fisherman
+          text: 我救你出来，反倒给自己招来杀身之祸！求你饶我一命吧！
+          emotion: fearful
+        - id: ch03-b08
+          speaker: genius
+          text: 我说过了，绝不可能。快挑一种死法，别再浪费时间。
+          emotion: angry
+        - id: ch03-b09
+          speaker: narrator
+          text: |-
+            渔夫知道求饶无用，便暗暗想出了一个计策。
+        - id: ch03-b10
+          speaker: fisherman
+          text: |-
+            既然我一定要死，请你先以自己的荣誉起誓，老实回答我。你刚才真的待在这只罐子里吗？等我知道答案，再选择死法。
+        - id: ch03-b11
+          speaker: genius
+          text: 不错，我刚才就在里面。
+        - id: ch03-b12
+          speaker: fisherman
+          text: |-
+            我不信。这只罐子连你一只脚都装不下，怎么可能装得下整个身体？除非你亲自进去让我看看，否则我绝不会相信。
+    - id: ch04
+      title: 渔夫的计策
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: |-
+            精灵立刻化成烟雾，又一次铺满海面和岸边。接着，浓烟聚拢过来，一缕接一缕地流进罐中，直到外面什么也没剩下。
+        - id: ch04-b02
+          speaker: genius
+          text: 多疑的渔夫，我已经回到罐子里了。现在你总该相信了吧？
+        - id: ch04-b03
+          speaker: narrator
+          text: |-
+            渔夫一句话也没回答。他一把抓起铅盖，飞快地封住了罐口。
+        - id: ch04-b04
+          speaker: fisherman
+          text: |-
+            现在该轮到你求我饶命，再挑选自己的死法了！不，我还是把你扔回原来的海里吧。我还要在岸边盖一座屋子，警告来这里撒网的渔夫，千万别捞起你这个狠毒的精灵。别人救了你，你竟然还要杀死恩人！
+        - id: ch04-b05
+          speaker: narrator
+          text: |-
+            精灵拼命冲撞，想从罐中逃出来。可铅盖上的法力牢牢困着他，一切挣扎都没有用。他只好换个办法，打算哄骗渔夫。
+        - id: ch04-b06
+          speaker: genius
+          text: 只要你打开盖子，我一定好好报答你。
+        - id: ch04-b07
+          speaker: fisherman
+          text: |-
+            不行。我如果再相信你，只怕你会像那位希腊国王对待杜班医生一样对待我。听着，我这就把他们的故事讲给你听。

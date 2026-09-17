@@ -1,0 +1,243 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 沉静庄重，带着古老传说的悠远与克制的哀愁
+        timbre: 温暖清澈，低沉而有回响
+        pace: 舒缓从容，在景物转换处自然停顿
+        pitch: 中低
+    felician:
+      display_name: 费利西安神父
+      tts:
+        delivery: 庄重慈悲，劝诫时坚定而满含哀痛
+        timbre: 深沉温厚，清晰而有回响
+        pace: 徐缓有分量，在祷词前自然停顿
+        pitch: 中低
+    evangeline:
+      display_name: 伊凡吉林
+      tts:
+        delivery: 温柔真挚，悲痛时克制而颤抖
+        timbre: 清澈柔和，年轻而明亮
+        pace: 平稳舒缓，情绪激越时略快
+        pitch: 中
+    parishioner_1:
+      display_name: 教民甲
+      tts:
+        delivery: 虔诚悔恨，随众祈祷时低声而真切
+        timbre: 朴实温厚
+        pace: 缓慢整齐
+        pitch: 中
+    parishioner_2:
+      display_name: 教民乙
+      tts:
+        delivery: 虔诚悔恨，随众祈祷时低声而真切
+        timbre: 粗粝低沉
+        pace: 缓慢整齐
+        pitch: 低
+    parishioner_3:
+      display_name: 教民丙
+      tts:
+        delivery: 虔诚悔恨，随众祈祷时低声而真切
+        timbre: 柔和清亮
+        pace: 缓慢整齐
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 最后的回望
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: |-
+            太阳升起又落下，已经整整四次。第五天清晨，雄鸡欢快地叫起来，唤醒了农舍里的女仆。
+        - id: ch01-b02
+          speaker: narrator
+          text: |-
+            不久，附近村落和农场里的阿卡迪亚妇女赶着沉重的大车，穿过金黄的田野，默默走向海岸。车上装着她们的全部家当。道路拐进林木以前，她们一次次停下来，回头再看自己的房屋。孩子们跟在车边跑，催着牛往前走，手里还紧紧攥着几件残破的玩具。
+        - id: ch01-b03
+          speaker: narrator
+          text: |-
+            到了加斯佩罗河口，只见农人的家什乱纷纷地堆在海滩上。载货的小船一整天都在岸边和大船之间来回，大车也一辆接一辆，吃力地从村里驶下来。
+        - id: ch01-b04
+          speaker: narrator
+          text: |-
+            午后将尽，太阳快落山了。教堂墓园忽然响起鼓声，滚滚越过田野。女人和孩子全拥了过去。教堂大门猛地打开，卫兵列队而出。被关了许久的阿卡迪亚农人忍耐着跟在后面，排成一支阴沉的队伍。
+        - id: ch01-b05
+          speaker: narrator
+          text: |-
+            远行的朝圣者会一路唱歌，让歌声替他们忘掉疲惫。农人们也唱着歌，从教堂走向海边，穿过妻子和女儿聚成的人群。年轻人走在最前面，嘴唇发抖，却仍一同唱起传教会的圣歌。
+        - id: ch01-b06
+          speakers: [parishioner_1, parishioner_2, parishioner_3]
+          ensemble: chorus
+          text: |-
+            救世主的圣心啊，永不枯竭的泉源！求你今日使我们的心充满力量、顺从与忍耐！
+        - id: ch01-b07
+          speaker: narrator
+          text: |-
+            行进的老人和路旁的妇女也加入歌声。阳光下，鸟儿在他们头顶和鸣，仿佛离世的灵魂也在歌唱。
+        - id: ch01-b08
+          speaker: narrator
+          text: |-
+            走到半路，伊凡吉林正静静等着。苦难没有压垮她。她沉静而忧伤地望着队伍走近，终于看见加布里埃尔那张因激动而苍白的脸。
+        - id: ch01-b09
+          speaker: narrator
+          text: |-
+            她的眼里立刻涌满泪水。她跑过去握住他的双手，把头靠在他的肩上，微笑着轻声安慰他。
+        - id: ch01-b10
+          speaker: evangeline
+          text: |-
+            加布里埃尔，振作起来！只要我们彼此相爱，无论遇上什么不幸，就没有什么真能伤害我们！
+          emotion: calm
+        - id: ch01-b11
+          speaker: narrator
+          text: |-
+            话刚说完，她忽然停住了。父亲正从人群中慢慢走来。他脸上的红润消失了，眼里的光也熄灭了。胸中那颗沉重的心，仿佛连他的脚步也压得更沉。
+        - id: ch01-b12
+          speaker: narrator
+          text: |-
+            伊凡吉林含着微笑叹了口气，搂住父亲的脖子。安慰已经没有用，她只能紧紧抱着他，一遍遍说些亲昵的话。悲伤的队伍就这样继续走向河口。
+    - id: ch02
+      title: 海滩上的长夜
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: |-
+            河口全是登船的喧闹，四处乱成一团。小船满载着人和物，忙着来回运送。妻子被硬生生拉离丈夫。母亲回过神来时，才看见孩子还留在岸上，伸出双臂拼命哀求。
+        - id: ch02-b02
+          speaker: narrator
+          text: |-
+            巴西尔和加布里埃尔被押上了不同的船。伊凡吉林和父亲仍站在岸边，绝望地望着他们。
+        - id: ch02-b03
+          speaker: narrator
+          text: |-
+            太阳已经落下，登船的事还没办完一半。暮色越来越深，四周渐渐黑暗。海水退得飞快，在长长的沙滩上留下潮水带来的碎物、海带和滑腻的海草。
+        - id: ch02-b04
+          speaker: narrator
+          text: |-
+            再往岸上看，无家可归的农人挤在家什和大车之间，像吉卜赛人的营地，也像战后被围困的军营。大海截断了退路，哨兵就在近旁。他们只能在这里过夜。
+        - id: ch02-b05
+          speaker: narrator
+          text: |-
+            咆哮的海一直退回深处，拖得滩上的卵石哗啦作响。水手的小船全搁在远离水边的高处。
+        - id: ch02-b06
+          speaker: narrator
+          text: |-
+            天黑以后，牲畜从牧场回来了。潮湿安静的空气里，飘着乳房散出的奶香。它们守在熟悉的栅门前，低声叫着，等了又等。可是挤奶女工的声音没有响起，那双熟悉的手也没有出现。
+        - id: ch02-b07
+          speaker: narrator
+          text: |-
+            村里的街道静得没有一点声息。教堂没有晚祷钟声，屋顶上没有炊烟，窗子里也不见灯光。
+    - id: ch03
+      title: 篝火旁的悲哀
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: |-
+            海滩上已经点起一堆堆篝火。烧的是风暴中遇难船只留下的残木。火边聚着阴暗的身影和悲伤的面孔。男人女人低声说着话，孩子的哭声夹在其中。
+        - id: ch03-b02
+          speaker: narrator
+          text: |-
+            费利西安神父从一堆火走向另一堆火，就像平日里走遍教区的一户户人家。他安慰众人，为他们祝福，也让他们鼓起勇气。此刻的神父，就像海难后的保罗，走在马耳他荒凉的岸边。
+        - id: ch03-b03
+          speaker: narrator
+          text: |-
+            他来到伊凡吉林和父亲身旁。摇动的火光下，老人的脸瘦削、灰白，没有思想，也没有表情，像一面被取走指针的钟。
+        - id: ch03-b04
+          speaker: narrator
+          text: |-
+            伊凡吉林又劝又哄，轻轻抚慰父亲，还把食物递给他。老人却不动，不看，也不说话，只用空洞的眼神盯着火光。
+        - id: ch03-b05
+          speaker: felician
+          text: |-
+            愿主赐福！
+          emotion: sad
+        - id: ch03-b06
+          speaker: narrator
+          text: |-
+            神父还想说下去，可悲痛堵住了胸口，话到了唇边，又颤抖着停住。他像一个孩子来到门槛前，被眼前的一切和悲哀可怖的威严震住，再也迈不出脚步。
+        - id: ch03-b07
+          speaker: narrator
+          text: |-
+            他默默把手放在少女头上，含泪望向星空。那些寂静的星辰仍沿着自己的路运行，丝毫不受人间冤屈和苦难的惊扰。神父随后坐到她身边，两个人一起无声地哭泣。
+    - id: ch04
+      title: 燃烧的村庄
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: |-
+            突然，南方升起一道亮光。它像秋日里血红的月亮攀上水晶般的天壁，又像一个泰坦巨人，从地平线上伸出百只手，越过山岭和草地，抓住岩石与河流，把巨大的阴影层层堆起。
+        - id: ch04-b02
+          speaker: narrator
+          text: |-
+            光亮铺上村庄的屋顶，越铺越宽。天空、海面，还有锚地里的船，全都被照亮了。明亮的烟柱直冲上天，火焰从层层烟雾里伸出来，又一下缩回去，像殉道者颤动的手。
+        - id: ch04-b03
+          speaker: narrator
+          text: |-
+            风卷起火星和燃烧的茅草，把它们高高抛进空中。转眼之间，上百座屋顶一齐涌出大片浓烟，火光在烟里不停闪动。
+        - id: ch04-b04
+          speaker: narrator
+          text: |-
+            岸上和船上的人惊恐地望着这一切。起初，谁也说不出话。接着，痛苦的哭喊一齐爆发出来。
+        - id: ch04-b05
+          speakers: [parishioner_1, parishioner_2, parishioner_3]
+          ensemble: chorus
+          text: |-
+            我们再也看不见大草原村的家园了！
+          emotion: sad
+        - id: ch04-b06
+          speaker: narrator
+          text: |-
+            农场里的雄鸡忽然高声啼叫，以为天已经亮了。牛群的低鸣乘着晚风传来，又被一阵阵犬吠打断。
+        - id: ch04-b07
+          speaker: narrator
+          text: |-
+            随后，黑夜里涌起一阵骇人的巨响。那声音就像西部大草原和内布拉斯加边缘的森林里，受惊的野马卷过沉睡的营地，又像咆哮的野牛群冲向河边。
+        - id: ch04-b08
+          speaker: narrator
+          text: |-
+            原来，牛群和马群撞破了畜栏与围墙，正在草地上疯狂奔逃。
+    - id: ch05
+      title: 海边的葬礼
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: |-
+            神父和少女被眼前的景象压倒了。他们一句话也说不出，只望着那片恐怖的红光在面前不断扩大。
+        - id: ch05-b02
+          speaker: narrator
+          text: |-
+            过了许久，两人终于转过身，想同身旁沉默的老人说话。老人却已经从座位上倒下，直直躺在海滩上。他的身体一动不动，灵魂已经离去了。
+        - id: ch05-b03
+          speaker: narrator
+          text: |-
+            神父慢慢托起他失去生命的头。伊凡吉林跪在父亲身边，惊恐地放声哀号。随后，她昏了过去，头枕在父亲胸前。
+        - id: ch05-b04
+          speaker: narrator
+          text: |-
+            整整一夜，她都沉睡在无知无觉之中。等她醒来，才发现许多人围在身边。那些都是朋友熟悉的脸，一个个苍白、含泪，怀着深深的怜悯望着她。
+        - id: ch05-b05
+          speaker: narrator
+          text: |-
+            村庄还在燃烧。烈焰照亮大地，染红天空，也映着周围的脸。伊凡吉林神志恍惚，只觉得末日审判已经来到。就在这时，她听见了一个熟悉的声音。
+        - id: ch05-b06
+          speaker: felician
+          text: |-
+            我们把他安葬在海边吧。将来，如果幸福的时日能把我们从陌生的流亡之地带回家园，我们再虔敬地把他的遗骨安葬到教堂墓园里。
+          emotion: sad
+        - id: ch05-b07
+          speaker: narrator
+          text: |-
+            人们就在海边匆匆埋葬了大草原村的老农人。燃烧的村庄投来刺眼的光，代替了送葬的火炬。这里没有钟声，也没有祈祷书。
+        - id: ch05-b08
+          speaker: narrator
+          text: |-
+            神父念起葬礼祷文。海洋用悲沉的涛声庄严回答，仿佛庞大的会众也在应和，把轰鸣融进了挽歌。
+        - id: ch05-b09
+          speaker: narrator
+          text: |-
+            那是归来的潮水。它从遥远荒凉的海上涌来，迎着破晓最初的微光，翻滚着奔向陆地。
+        - id: ch05-b10
+          speaker: narrator
+          text: |-
+            登船的喧闹再次开始。潮水退去时，船只驶出了港湾。死者被留在岸上，村庄也被留在废墟之中。

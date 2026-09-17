@@ -1,0 +1,17 @@
+# XXII. GRANDFATHER FROG'S TROUBLES GROW
+
+Head first in; no way out; It's best to know what you're about!
+
+Grandfather Frog had had plenty of time to realize how very true this is. As he sat on the old shingle which the Merry Little Breezes had blown into the spring where he was a prisoner, he thought a great deal about that little word "if." _If_ he hadn't left the Smiling Pool, _if_ he hadn't been stubborn and set in his ways, _if_ he hadn't been in such a hurry, _if_ he had looked to see where he was leaping--well, any one of these _ifs_ would have kept him out of his present trouble.
+
+It really wasn't so bad in the spring. That is, it wouldn't have been so bad but for the fear that Farmer Brown's boy might come for a drink and find him there. That was Grandfather Frog's one great fear, and it gave him bad dreams whenever he tried to take a nap. He grew cold all over at the very thought of being caught again by Farmer Brown's boy, and when at last one of the Merry Little Breezes hurried up to tell him that Farmer Brown's boy actually was coming, poor old Grandfather Frog was so frightened that the Merry Little Breeze had to tell him twice to hide under the old shingle as it floated on the water.
+
+At last he got it through his head, and drawing a very long breath, he dived into the water and swam under the old shingle. He was just in time. Yes, Sir, he was just in time. If Farmer Brown's boy hadn't been thinking of something else, he certainly would have noticed the little rings on the water made by Grandfather Frog when he dived in. But he was thinking of something else, and it wasn't until he dipped a cup in for the second time that he even saw the old shingle.
+
+"Hello!" he exclaimed. "That must have blown in since I was here yesterday. We can't have anything like that in our nice spring."
+
+With that he reached out for the old shingle, and Grandfather Frog, hiding under it, gave himself up for lost. But the anxious Little Breeze had been watching sharply and the instant he saw what Farmer Brown's boy was going to do, he played the old, old trick of snatching his hat from his head. The truth is, he couldn't think of anything else to do. Farmer Brown's boy grabbed at his hat, and then, because he was in a hurry and had other things to do, he started off without once thinking of the old shingle again.
+
+"Chugarum!" cried Grandfather Frog, as he swam out from under the shingle and climbed up on it, "That certainly was a close call. If I have many more like it, I certainly shall die of fright."
+
+Nothing more happened for a long time, and Grandfather Frog was wondering if it wouldn't be safe to take a nap when he saw peeping over the edge above him two eyes. They were greenish yellow eyes, and they stared and stared. Grandfather Frog stared and stared back. He just couldn't help it. He didn't know who they belonged to. He couldn't remember ever having seen them before. He was afraid, and yet somehow he couldn't make up his mind to jump. He stared so hard at the eyes that he didn't notice a long furry paw slowly, very slowly, reaching down towards him. Nearer it crept and nearer. Then suddenly it moved like a flash. Grandfather Frog felt sharp claws in his white and yellow waistcoat, and before he could even open his mouth to cry "Chugarum," he was sent flying through the air and landed on his back in the grass. Pounce! Two paws pinned him down, and the greenish yellow eyes were not an inch from his own. They belonged to Black Pussy, Farmer Brown's cat.

@@ -1,0 +1,592 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 沉稳有力，带古老传说的庄重感
+        timbre: 温厚清晰
+        pace: 舒缓而富有张力
+        pitch: 中低
+    ian:
+      display_name: 伊恩
+      tts:
+        delivery: 勇敢直率，历经挫折后更显沉着
+        timbre: 年轻清朗
+        pace: 适中而有冲劲
+        pitch: 中
+    elder_brother:
+      display_name: 大哥
+      tts:
+        delivery: 稳重谨慎，遇险时慌张
+        timbre: 青年浑厚
+        pace: 适中
+        pitch: 中低
+    second_brother:
+      display_name: 二哥
+      tts:
+        delivery: 谨慎随和，底气稍弱
+        timbre: 青年清晰
+        pace: 适中
+        pitch: 中
+    knight:
+      display_name: 格里亚奈格骑士
+      tts:
+        delivery: 威严深沉，悲愤中不失公正
+        timbre: 成熟厚重
+        pace: 稳健
+        pitch: 低
+    overseer:
+      display_name: 岩壁监工
+      tts:
+        delivery: 平实直接
+        timbre: 成熟清晰
+        pace: 适中
+        pitch: 中
+    raven:
+      display_name: 黑色短尾乌鸦
+      tts:
+        delivery: 机敏严肃，告诫时意味深长
+        timbre: 沙哑清晰
+        pace: 稍快
+        pitch: 中高
+    eldest_daughter:
+      display_name: 骑士大女儿
+      tts:
+        delivery: 温柔忧伤，挽留时恳切
+        timbre: 柔和清亮
+        pace: 舒缓
+        pitch: 中高
+    second_daughter:
+      display_name: 骑士二女儿
+      tts:
+        delivery: 忧虑柔和，恳求时真切
+        timbre: 清柔
+        pace: 舒缓
+        pitch: 中高
+    youngest_daughter:
+      display_name: 骑士小女儿
+      tts:
+        delivery: 真挚敏锐，决断时坚定
+        timbre: 明亮清澈
+        pace: 适中
+        pitch: 中高
+    giant_1:
+      display_name: 大巨人
+      tts:
+        delivery: 粗暴自负
+        timbre: 低沉洪亮
+        pace: 缓慢有压迫感
+        pitch: 低
+    giant_2:
+      display_name: 二巨人
+      tts:
+        delivery: 凶狠傲慢
+        timbre: 粗粝有力
+        pace: 适中
+        pitch: 低
+    giant_3:
+      display_name: 三巨人
+      tts:
+        delivery: 强横多疑
+        timbre: 深沉震耳
+        pace: 沉缓
+        pitch: 低
+    warrior:
+      display_name: 勇士
+      tts:
+        delivery: 庄重直率
+        timbre: 坚实清晰
+        pace: 稳健
+        pitch: 中低
+    witch:
+      display_name: 老妖婆
+      tts:
+        delivery: 阴冷命令式
+        timbre: 苍老干涩
+        pace: 缓慢
+        pitch: 中低
+    mare:
+      display_name: 母马
+      tts:
+        delivery: 果断冷静，劝告时严肃
+        timbre: 柔韧清晰
+        pace: 适中
+        pitch: 中
+    woman:
+      display_name: 门前的女人
+      tts:
+        delivery: 朴实爽直
+        timbre: 成熟温和
+        pace: 适中
+        pitch: 中
+    smith:
+      display_name: 铁匠
+      tts:
+        delivery: 忧心急切，带几分憨直
+        timbre: 粗厚清晰
+        pace: 适中
+        pitch: 中低
+    raven_youth:
+      display_name: 棕发青年
+      tts:
+        delivery: 明朗真诚
+        timbre: 年轻温暖
+        pace: 适中
+        pitch: 中
+    mare_maiden:
+      display_name: 美丽姑娘
+      tts:
+        delivery: 轻快释然
+        timbre: 柔和明亮
+        pace: 适中
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 海边失踪与岩壁上的乌鸦
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 西方的格里亚奈格住着一位骑士。他的三个女儿又善良又美丽，各个岛屿上都找不到能和她们相比的姑娘，人人都爱她们。一天，三姐妹坐在海边岩石上，把脚浸在水里。一头巨兽忽然从浪底蹿出，把她们卷进了海中。从此没人知道她们去了哪里，也没人知道该去哪里寻找。人们只能为她们放声痛哭。
+        - id: ch01-b02
+          speaker: narrator
+          text: 几英里外的城镇里住着一个士兵，他有三个英俊强壮的儿子，三人也是当地最好的曲棍球手。那年圣诞，家家团聚，四处都摆着宴席。最小的儿子伊恩忽然有了主意。
+        - id: ch01-b03
+          speaker: ian
+          text: 咱们去骑士的草坪上赛一场吧。那里地方更宽，草地也平整得多。
+        - id: ch01-b04
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: 不行。骑士还在伤心，看见我们打球，他又会想起从前女儿们在旁边看球的日子。
+        - id: ch01-b05
+          speaker: ian
+          text: 不管他高兴还是生气，今天我们都去他的草坪打球。
+        - id: ch01-b06
+          speaker: narrator
+          text: 三兄弟果真去了，伊恩一连三场都赢了哥哥。骑士从窗口看见，气得命人把他们带进大厅。见到三个年轻人，他心里稍稍软了些，脸上却依旧满是怒气。
+        - id: ch01-b07
+          speaker: knight
+          text: 你们明知道我看见球赛就会想起女儿，为什么偏偏到我的城堡前来？你们让我受了多少痛苦，自己也要受多少痛苦。
+          emotion: angry
+        - id: ch01-b08
+          speaker: ian
+          text: 既然我们冒犯了您，就请您替我们造一艘船。我们去找您的女儿。不管她们在上风处、下风处，还是在大海四方褐色的边界下面，一年零一天之内，我们一定把她们带回格里亚奈格。
+        - id: ch01-b09
+          speaker: narrator
+          text: 七天后，装满食物和美酒的船造好了。兄弟三人驶进大海，又过七天，船自己冲上一片白沙滩。他们登岸四望，看见不远处有人在岩壁上干活，旁边还站着一名监工。
+        - id: ch01-b10
+          speaker: elder_brother
+          text: 这里是什么地方？
+        - id: ch01-b11
+          speaker: overseer
+          text: 骑士的三个女儿就住在这里。明天，她们要分别嫁给三个巨人。
+        - id: ch01-b12
+          speaker: elder_brother
+          text: 我们怎样才能见到她们？
+        - id: ch01-b13
+          speaker: overseer
+          text: 坐进这只篮子，我们会用绳子沿岩壁把你们拉上去。
+        - id: ch01-b14
+          speaker: elder_brother
+          text: 哦，那很容易。
+        - id: ch01-b15
+          speaker: narrator
+          text: 大哥跳进篮子，篮子不断向上升。到了半途，一只肥胖的黑乌鸦猛扑过来，拼命啄他，差点啄瞎他的眼睛。他只得叫人把自己放回地面。二哥接着上去，也被乌鸦逼了回来。
+        - id: ch01-b16
+          speaker: ian
+          text: 现在轮到我了。
+        - id: ch01-b17
+          speaker: narrator
+          text: 伊恩升到半途，乌鸦照样扑向了他。
+        - id: ch01-b18
+          speaker: ian
+          text: 快拉！再快一点！不然我的眼睛就要被它啄瞎了！
+          emotion: fearful
+        - id: ch01-b19
+          speaker: narrator
+          text: 岩顶的人拼命拉绳，转眼就把伊恩拉了上去。乌鸦落到他的身后，也安静下来。
+        - id: ch01-b20
+          speaker: raven
+          text: 能给我一小块烟草吗？
+        - id: ch01-b21
+          speaker: ian
+          text: 你这个无赖，刚才还想啄瞎我，现在竟来讨烟草？
+          emotion: angry
+        - id: ch01-b22
+          speaker: raven
+          text: 那是我的职责。你要肯给我一块，我会让你知道，我也能做你的好朋友。
+        - id: ch01-b23
+          speaker: narrator
+          text: 伊恩掰下一小块烟草。乌鸦把它藏进翅膀底下，答应带伊恩去大巨人的家。骑士的大女儿就在那里不停地缝衣，泪水已经湿透了顶针。乌鸦一路蹦跳着领他来到一座大宅。两人走过一间又一间大厅，终于看见那位姑娘，情形果然和乌鸦说的一样。
+    - id: ch02
+      title: 三座城堡里的巨人
+      blocks:
+        - id: ch02-b01
+          speaker: eldest_daughter
+          text: 你怎么会来到这里？
+        - id: ch02-b02
+          speaker: ian
+          text: 你能来的地方，我为什么不能来？
+        - id: ch02-b03
+          speaker: eldest_daughter
+          text: 我是被一个巨人抢来的。
+        - id: ch02-b04
+          speaker: ian
+          text: 这我知道。你只要告诉我他在哪里，我去找他。
+        - id: ch02-b05
+          speaker: eldest_daughter
+          text: 他在狩猎山上。摇动大门外的铁链，才能叫他回来。可无论上风处、下风处，还是大海四方褐色的边界以内，只有士兵之子伊恩能和他交战。伊恩才十六岁，怎么可能打得过他？
+        - id: ch02-b06
+          speaker: ian
+          text: 在我来的地方，像伊恩那么强壮的人多得很。
+        - id: ch02-b07
+          speaker: narrator
+          text: 伊恩来到门外，使劲扯铁链，自己反而跪倒在地。他马上站起来，聚起全身力气再摇，终于摇断了一枚铁环。狩猎山上的巨人听见响声，抬起了头。
+        - id: ch02-b08
+          speaker: giant_1
+          text: 这动静听着像士兵之子伊恩。可他只有十六岁。不管了，我还是回去看看。
+        - id: ch02-b09
+          speaker: narrator
+          text: 巨人赶回城堡，一进门就盯住伊恩。
+        - id: ch02-b10
+          speaker: giant_1
+          text: 你是士兵之子伊恩吗？
+        - id: ch02-b11
+          speaker: ian
+          text: 当然不是。
+        - id: ch02-b12
+          speaker: giant_1
+          text: 那你究竟是谁？上风处、下风处和大海四方褐色的边界以内，还有谁能摇动我的战链？
+        - id: ch02-b13
+          speaker: ian
+          text: 和我摔一场，你自然会知道。我在家也常和母亲摔跤，一回她赢，两回她赢不了。
+        - id: ch02-b14
+          speaker: narrator
+          text: 两人抱住对方，扭打起来。巨人先把伊恩压得单膝跪地。
+        - id: ch02-b15
+          speaker: ian
+          text: 你的力气更大。
+        - id: ch02-b16
+          speaker: giant_1
+          text: 这还用你说！
+        - id: ch02-b17
+          speaker: narrator
+          text: 他们再次较量，伊恩终于把巨人摔倒。他刚想到乌鸦要是在这里就好了，乌鸦便飞来了。
+        - id: ch02-b18
+          speaker: raven
+          text: 把手伸到我的右翼下面。那里有一把刀，锋利得能砍掉他的脑袋。
+        - id: ch02-b19
+          speaker: narrator
+          text: 伊恩取出刀，只一下便斩下巨人的头。
+        - id: ch02-b20
+          speaker: raven
+          text: 去告诉骑士的大女儿吧，但别答应留下来。她会想办法留住你，你还得去找二女儿。等找到她，再给我一小块烟草。
+        - id: ch02-b21
+          speaker: ian
+          text: 就算把我一半的东西给你，你也配得上。
+        - id: ch02-b22
+          speaker: raven
+          text: 你只知道身后发生过什么，却不知道前面等着什么。用清水洗净身体，再取下门顶器皿里的香膏，涂遍全身。明天，你一个人就会有许多人的力气，我也会领你去找二女儿。
+        - id: ch02-b23
+          speaker: narrator
+          text: 伊恩照做了。大女儿再三挽留，他还是继续上路。找到二女儿时，她也坐着缝衣，眼泪一滴滴落在顶针上。
+        - id: ch02-b24
+          speaker: second_daughter
+          text: 你怎么会来到这里？
+        - id: ch02-b25
+          speaker: ian
+          text: 你能来，我为什么不能？你又为什么哭？
+        - id: ch02-b26
+          speaker: second_daughter
+          text: 再过一天，我就得嫁给狩猎山上的巨人了。
+        - id: ch02-b27
+          speaker: ian
+          text: 怎么才能叫他回来？
+        - id: ch02-b28
+          speaker: second_daughter
+          text: 得摇动大门外的铁链。可下风处、西方和大海四方褐色的边界以内，只有士兵之子伊恩能与他一战，而伊恩才十六岁。
+        - id: ch02-b29
+          speaker: ian
+          text: 我来的地方，有许多人和伊恩一样强壮。
+        - id: ch02-b30
+          speaker: narrator
+          text: 伊恩第一次扯铁链，又被压得跪倒在地。第二次，他用尽全力，竟摇断了三枚铁环。第二个巨人听见响声，也从狩猎山赶了回来。
+        - id: ch02-b31
+          speaker: giant_2
+          text: 这声音像是士兵之子伊恩弄出来的，可他才十六岁。我得回去看看。你就是伊恩吗？
+        - id: ch02-b32
+          speaker: ian
+          text: 当然不是。不过我可以把自己当成伊恩，和你摔上一场。
+        - id: ch02-b33
+          speaker: narrator
+          text: 两人抓住彼此的肩膀。巨人把伊恩压得双膝跪地，伊恩却重新站起来，张开双臂抱住了他。
+        - id: ch02-b34
+          speaker: ian
+          text: 你力气更大，可我还没输！
+        - id: ch02-b35
+          speaker: narrator
+          text: 他们前后摇晃，你压过我，我又压过你。最后，伊恩把腿绕到巨人腿后，将他摔倒。他一声呼唤，乌鸦便扇着翅膀飞来，又让他从右翼下取刀。伊恩一刀斩落了巨人的头。
+        - id: ch02-b36
+          speaker: raven
+          text: 用温水洗净身体，再把香膏涂遍全身。明天你又会增添许多人的力气。也别让这位姑娘把你留下。现在给我一小块烟草，我该走了。
+        - id: ch02-b37
+          speaker: ian
+          text: 我很乐意给你。
+        - id: ch02-b38
+          speaker: narrator
+          text: 伊恩给了乌鸦一大块烟草。那一夜，他洗净身体，涂好香膏。第二天早晨，二女儿请他留下做丈夫，说城堡里有数不尽的金银。伊恩没有答应，一直走到小女儿的城堡。她正在大厅里缝衣，眼泪也落在顶针上。
+        - id: ch02-b39
+          speaker: youngest_daughter
+          text: 你怎么会来到这里？
+        - id: ch02-b40
+          speaker: ian
+          text: 你能来，我为什么不能？
+        - id: ch02-b41
+          speaker: youngest_daughter
+          text: 我是被巨人抢来的。你是士兵之子伊恩吗？
+        - id: ch02-b42
+          speaker: ian
+          text: 对，我就是。你为什么哭？
+        - id: ch02-b43
+          speaker: youngest_daughter
+          text: 巨人明天要从狩猎山回来，我非嫁给他不可。
+          emotion: sad
+        - id: ch02-b44
+          speaker: ian
+          text: 怎么才能把他叫回来？
+        - id: ch02-b45
+          speaker: youngest_daughter
+          text: 摇动大门外的铁链。
+        - id: ch02-b46
+          speaker: narrator
+          text: 伊恩出去猛扯铁链，反被带得直挺挺摔倒。他立刻起身，再使出全力一摇，四枚铁环落进了手里。第三个巨人正在狩猎山装猎物，听见响声便站了起来。
+        - id: ch02-b47
+          speaker: giant_3
+          text: 除了士兵之子伊恩，没人能这样摇动我的铁链。他既然找到了我，我的两个兄弟想必已经死在他身后了。
+        - id: ch02-b48
+          speaker: narrator
+          text: 巨人大步赶回城堡，每落下一脚，大地都跟着震动。
+        - id: ch02-b49
+          speaker: giant_3
+          text: 你是士兵之子伊恩吗？
+        - id: ch02-b50
+          speaker: ian
+          text: 当然不是。
+        - id: ch02-b51
+          speaker: giant_3
+          text: 那你是谁？世上只有十六岁的伊恩能摇动我的战链。
+        - id: ch02-b52
+          speaker: ian
+          text: 先和我摔一场，我再让你知道我是谁。
+        - id: ch02-b53
+          speaker: narrator
+          text: 两人紧紧抱住对方。巨人把伊恩压得双膝跪地，伊恩转眼又站了起来。他把一条腿绕过巨人的肩头，狠狠将巨人摔倒。
+        - id: ch02-b54
+          speaker: ian
+          text: 黑色短尾乌鸦，快来！
+        - id: ch02-b55
+          speaker: narrator
+          text: 乌鸦飞来，用翅膀不断拍打巨人的头，让他爬不起来。它又叫伊恩从羽毛下取出平日割浆果的利刃。伊恩一刀砍下巨人的脑袋。
+        - id: ch02-b56
+          speaker: raven
+          text: 今夜再休息一晚。明天带三位姑娘去岩壁边，那里通向下面的世界。记住，你一定要先下去，再让她们下来。临走前，再给我一小块烟草。
+        - id: ch02-b57
+          speaker: ian
+          text: 全拿去吧，这都是你该得的。
+        - id: ch02-b58
+          speaker: raven
+          text: 不，一小块就够了。你知道身后有什么，却不知道前面有什么。
+    - id: ch03
+      title: 被遗忘在岩顶
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 第二天，小女儿把城堡里的金银装上驴背，和伊恩去找二姐。二女儿已经备好财宝，等他们到了大女儿的城堡，大女儿也牵出了驮满珍宝的驴子。众人一起来到岩壁边。伊恩向下高喊，下面的人便把篮子拉了上来。
+        - id: ch03-b02
+          speaker: narrator
+          text: 伊恩把三位姑娘一个接一个放到岩底。乌鸦明明告诫过他，要自己先下去，再让姑娘们跟上，可他全忘了。他只怕她们出事，反而让她们先走，只向小女儿要了她头上那顶小金帽。三姐妹原本各有一顶同样的帽子。
+        - id: ch03-b03
+          speaker: narrator
+          text: 伊恩等了很久，篮子始终没有回来。三姐妹重获自由，欢喜得把他忘得一干二净。她们登上兄弟三人来时乘的船，向格里亚奈格驶去。
+        - id: ch03-b04
+          speaker: narrator
+          text: 伊恩渐渐明白自己被丢下了。正当他独自盘算该怎么办时，乌鸦来到身边，神情十分严肃。
+        - id: ch03-b05
+          speaker: raven
+          text: 你没有照我说的做。
+        - id: ch03-b06
+          speaker: ian
+          text: 是，我没听你的话，所以才落到这一步。
+          emotion: sad
+        - id: ch03-b07
+          speaker: raven
+          text: 过去已经无法挽回。不肯听劝，就得迎接争斗。今夜去巨人的城堡睡吧。现在再给我一小块烟草。
+        - id: ch03-b08
+          speaker: ian
+          text: 烟草我会给你。可你能不能留在城堡陪我？
+        - id: ch03-b09
+          speaker: raven
+          text: 我不能留下，不过明天会回来。
+    - id: ch04
+      title: 巨女岛的复活水
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 第二天，乌鸦果然来了。它告诉伊恩，巨人的马厩里有一匹母马，无论陆地还是海洋，她都能飞驰而过。
+        - id: ch04-b02
+          speaker: raven
+          text: 进马厩时千万小心。那扇门不停地前后摆动，只要碰到你，就会叫你疼得喊出来。我先进去，让你看看该怎么做。
+        - id: ch04-b03
+          speaker: ian
+          text: 那你先去吧。
+        - id: ch04-b04
+          speaker: narrator
+          text: 乌鸦一点头，纵身跳向门内，以为绝不会出错。谁知门猛地合拢，夹住它尾巴上的一根羽毛，疼得它大声尖叫。伊恩退后几步，向前冲去，再用力一跃，可门还是夹住了他的一只脚。他摔进马厩，当场昏了过去。
+        - id: ch04-b05
+          speaker: narrator
+          text: 乌鸦赶紧用喙和爪子抓起伊恩，把他带回城堡，又给伤脚敷满药膏，直到那只脚完全复原。
+        - id: ch04-b06
+          speaker: raven
+          text: 现在出去走走。不管看见什么，都别惊奇，也不要碰任何东西。先给我一小块烟草。
+        - id: ch04-b07
+          speaker: narrator
+          text: 岛上的怪事比伊恩想象的还多。他走进一道山谷，看见三位勇士仰面躺着，每个人胸前都插着长矛，已经死去。伊恩什么也没说，只把三支长矛拔了出来。三个人立刻坐起身。
+        - id: ch04-b08
+          speakers: [warrior, elder_brother, second_brother]
+          ensemble: chorus
+          text: 你就是士兵之子伊恩。你身上有一道魔咒，命你和我们一起去黑渔夫的洞穴。
+        - id: ch04-b09
+          speaker: narrator
+          text: 四人一同来到洞穴。一位勇士先进去查看，里面坐着一个面目可怕的老妖婆。他还没开口，老妖婆便一棒把他变成了石头。其余两位勇士进去，也落得同样下场。最后，伊恩走进洞中，照样被变成了石头。
+        - id: ch04-b10
+          speaker: witch
+          text: 这些人中了魔咒。你必须去巨女岛取水，拿水涂在他们身上，不然他们永远不能复活。路上不许耽搁。
+        - id: ch04-b11
+          speaker: narrator
+          text: 伊恩心情沉重地离开了。他一心只想赶快追上骑士的小女儿，眼下却又添了一件必须完成的事。乌鸦跳到他身边。
+        - id: ch04-b12
+          speaker: raven
+          text: 就因为你没听劝，麻烦才找上门。现在去睡。明天骑那匹母马去巨女岛，她能越过陆地和海洋。到了那里，会有十六个男孩迎接你。他们会送来马料，还会抢着替母马卸鞍，千万别让他们碰她。你要亲自喂她，亲自牵她进马厩，再锁好门。他们把锁转几圈，你也照样转几圈。再给我一块烟草吧。
+        - id: ch04-b13
+          speaker: narrator
+          text: 第二天一早，伊恩把母马牵出马厩。这一次，摆动的门没有伤到他。他骑着母马跨海来到巨女岛，十六个马童立刻围上来，都想替他牵马、喂马，再把马送进马厩。
+        - id: ch04-b14
+          speaker: ian
+          text: 不用你们，我要亲自送她进去，亲自照料她。
+        - id: ch04-b15
+          speaker: narrator
+          text: 伊恩把母马安顿好，又亲手给她擦拭身体。这时，母马忽然开口说话。
+        - id: ch04-b16
+          speaker: mare
+          text: 他们会送来各种饮料。不管拿来什么，你都别喝，只能喝乳清和清水。
+        - id: ch04-b17
+          speaker: narrator
+          text: 事情果然如此。伊恩什么都不肯碰，十六个马童只好把那些饮料全喝了，一个接一个倒在桌边。伊恩很高兴自己没被他们的花言巧语骗倒，却忘了母马的另一句警告。
+        - id: ch04-b18
+          speaker: mare
+          text: 千万别睡着，不然会白白错过回去的机会。
+        - id: ch04-b19
+          speaker: narrator
+          text: 马童们睡得正沉，一阵甜美的音乐飘进伊恩耳中，他听着听着也睡着了。母马立刻撞破马厩大门，狠狠踢了他一脚，把他惊醒。
+        - id: ch04-b20
+          speaker: mare
+          text: 你又没听劝。现在渡海回去，也不知道会不会太迟。先取下墙上的剑，砍掉十六个马童的脑袋。
+        - id: ch04-b21
+          speaker: narrator
+          text: 伊恩想起自己又因不听劝吃了苦头，心里满是羞愧。他照母马说的做了，又跑到井边，把井水装进皮囊，随即跃上马背，跨海回到乌鸦等候的岛。
+        - id: ch04-b22
+          speaker: raven
+          text: 把母马牵进马厩，然后去睡。明天你要救活勇士，再杀掉老妖婆。千万小心，别再像今天这样犯傻。
+        - id: ch04-b23
+          speaker: ian
+          text: 你留下陪陪我吧。
+        - id: ch04-b24
+          speaker: narrator
+          text: 乌鸦摇摇头，还是飞走了。天一亮，伊恩便赶到老妖婆的洞穴，趁她来不及施咒，当场杀死了她。然后，他把取来的水洒在勇士们身上，三人立刻复活。大家一同走到岛的另一边，乌鸦正在那里等候。
+        - id: ch04-b25
+          speaker: raven
+          text: 你总算肯听别人的劝了。如今你学会了谨慎，可以回格里亚奈格。骑士的两个大女儿今天要嫁给你的两个哥哥，小女儿要嫁给岩壁边的监工。她那顶金帽先交给我。你想要时，只要想起我，我就会送来。还有，别人问你从哪里来，就说从身后来；问你到哪里去，就说往前方去。
+    - id: ch05
+      title: 母马与乌鸦的魔咒
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 伊恩骑上母马，让她面朝大海，背对海岸。母马一路飞奔，终于来到格里亚奈格的教堂。伊恩在草地的一口水井旁下了马。
+        - id: ch05-b02
+          speaker: mare
+          text: 现在拔出剑，砍掉我的头。
+        - id: ch05-b03
+          speaker: ian
+          text: 你帮了我这么多，我要是这样回报你，实在太无情了。
+        - id: ch05-b04
+          speaker: mare
+          text: 只有这样，我和乌鸦才能摆脱巨人下的魔咒。我原来是个姑娘，乌鸦原来是一个向我求爱的年轻人。别害怕，照我说的做。
+        - id: ch05-b05
+          speaker: narrator
+          text: 伊恩只好拔剑砍下母马的头，然后头也不回地继续赶路。他看见一个女人站在自家门外。女人问他从哪里来，他照乌鸦教的，回答自己从身后来。女人再问他到哪里去，他便说要往前方去，只是现在口渴，想讨水喝。
+        - id: ch05-b06
+          speaker: woman
+          text: 你这年轻人真没规矩。不过我还是给你一点喝的吧。
+        - id: ch05-b07
+          speaker: narrator
+          text: 女人拿来一些牛奶，说家里只剩这些，要等丈夫回来才会再有。
+        - id: ch05-b08
+          speaker: ian
+          text: 你的丈夫去了哪里？
+        - id: ch05-b09
+          speaker: woman
+          text: 他在骑士的城堡里，正想用金银打一顶帽子给骑士的小女儿。帽子必须和她两个姐姐的一模一样，可这片土地根本找不到。你看，他回来了，我们正好听听办得怎么样。
+        - id: ch05-b10
+          speaker: narrator
+          text: 男人进门，看见家里坐着一个陌生青年，便问他做什么营生。
+        - id: ch05-b11
+          speaker: smith
+          text: 小伙子，你是做什么的？
+        - id: ch05-b12
+          speaker: ian
+          text: 我是铁匠。
+        - id: ch05-b13
+          speaker: smith
+          text: 那我可走运了。你能帮我给骑士的女儿打一顶帽子。
+        - id: ch05-b14
+          speaker: ian
+          text: 你自己也知道，那顶帽子根本做不出来。
+        - id: ch05-b15
+          speaker: smith
+          text: 可我非试不可，不然就会被吊死在树上。你肯帮我，也算救我一命。
+        - id: ch05-b16
+          speaker: ian
+          text: 能帮我自然会帮，金银都留给你。今晚把我锁进铁匠铺，我会用自己的法子解决。
+        - id: ch05-b17
+          speaker: narrator
+          text: 男人虽然满心疑惑，还是把伊恩锁进了铁匠铺。钥匙刚在锁孔里转过，伊恩就在心里呼唤乌鸦。乌鸦果然来了，嘴中衔着小女儿的金帽。
+        - id: ch05-b18
+          speaker: raven
+          text: 现在砍掉我的头。
+        - id: ch05-b19
+          speaker: ian
+          text: 你帮过我那么多次，我怎么能这样报答你？
+        - id: ch05-b20
+          speaker: raven
+          text: 只有这样，才算真正报答我。魔咒落到我身上以前，我也是一个和你一样的年轻人。
+        - id: ch05-b21
+          speaker: narrator
+          text: 伊恩拔剑砍下乌鸦的头，随即闭紧眼睛，什么也不看。他躺下来，一直睡到天亮。铁匠开门进来，把他摇醒。
+        - id: ch05-b22
+          speaker: ian
+          text: 帽子在这里。
+        - id: ch05-b23
+          speaker: narrator
+          text: 伊恩睡意蒙眬地从枕头下拿出金帽，说完又睡着了。再次醒来时，太阳已经高高升起，一个棕色头发的高个青年正站在他身旁。
+        - id: ch05-b24
+          speaker: raven_youth
+          text: 我就是那只乌鸦，魔咒已经破了。起来，跟我走吧。
+        - id: ch05-b25
+          speaker: narrator
+          text: 两人回到伊恩留下母马的地方。死马已经不见了，那里站着一位美丽的姑娘。
+        - id: ch05-b26
+          speaker: mare_maiden
+          text: 我就是那匹母马。我的魔咒也破了。
+        - id: ch05-b27
+          speaker: narrator
+          text: 姑娘说完，便和棕发青年一同离开了。

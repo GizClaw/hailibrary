@@ -1,0 +1,210 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 清楚从容，像在为听众介绍一本童话集的篇目
+        timbre: 温暖明亮
+        pace: 舒缓，每个篇名之间留出自然停顿
+        pitch: 中音
+    prince:
+      display_name: 王子
+      tts:
+        delivery: 诚恳有礼，年轻而坚定
+        timbre: 清朗
+        pace: 中速
+        pitch: 中音
+    king_father:
+      display_name: 老国王
+      tts:
+        delivery: 威严直接，带长辈的笃定
+        timbre: 浑厚
+        pace: 稍慢
+        pitch: 中低音
+    old_woman_one:
+      display_name: 第一位老妇人
+      tts:
+        delivery: 阅历深厚，答话坦率
+        timbre: 苍老柔和
+        pace: 稍慢
+        pitch: 中低音
+    old_man:
+      display_name: 老人
+      tts:
+        delivery: 平实好客，不疾不徐
+        timbre: 苍老低沉
+        pace: 稍慢
+        pitch: 低音
+    old_woman_two:
+      display_name: 第二位老妇人
+      tts:
+        delivery: 神秘而亲切，话里带着警示
+        timbre: 苍老清晰
+        pace: 稍慢
+        pitch: 中低音
+    magpie:
+      display_name: 瘸腿喜鹊
+      tts:
+        delivery: 机敏利落，直截了当
+        timbre: 清脆略沙
+        pace: 稍快
+        pitch: 中高音
+    maiden_one:
+      display_name: 第一位姑娘
+      tts:
+        delivery: 温柔恳切，带着急切的请求
+        timbre: 轻柔清亮
+        pace: 中速
+        pitch: 中高音
+    maiden_two:
+      display_name: 第二位姑娘
+      tts:
+        delivery: 温柔恳切，带着急切的请求
+        timbre: 轻柔明净
+        pace: 中速
+        pitch: 中高音
+    ilonka:
+      display_name: 伊隆卡
+      tts:
+        delivery: 温柔真挚，受苦时克制而深情
+        timbre: 清澈柔美
+        pace: 中速偏慢
+        pitch: 中高音
+  chapters:
+    - id: ch01
+      title: 寻找三根灯心草
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有一位王子想娶妻成家，便把心愿告诉了父王。
+        - id: ch01-b02
+          speaker: king_father
+          text: 不行，不行，你不能这么性急。先去立下一番大功吧。你看我腰间这把金剑，当年我赢得它以后，你祖父才准我成婚。
+        - id: ch01-b03
+          speaker: narrator
+          text: 王子失望极了，却从没想过违抗父命。他绞尽脑汁，盘算着能做什么大事。留在家里等不来机会，于是有一天，他出门闯荡，想到世上碰碰运气。走着走着，他来到一间小茅屋，看见一位老妇人蜷在炉火旁。
+        - id: ch01-b04
+          speaker: prince
+          text: 晚上好，老妈妈。您活了这么多年，见识一定很广。您听说过三根灯心草吗？
+        - id: ch01-b05
+          speaker: old_woman_one
+          text: 我活得是够久，去过的地方也不少，可你问的东西，我从来没见过，也没听过。你若肯住一夜，明天我也许能替你问出一点消息。
+        - id: ch01-b06
+          speaker: narrator
+          text: 王子留了下来。第二天一大早，老妇人拿出小笛子一吹，天下所有的乌鸦转眼间全飞到了她身边，一只也不少。她问乌鸦们知不知道三根灯心草，可谁也不知道。
+        - id: ch01-b07
+          speaker: narrator
+          text: 王子继续赶路。没走多远，他又遇到一间茅屋，屋里住着一位老人。老人也没听过三根灯心草，却请王子过夜。第二天早晨，他召来天下所有的渡鸦，可它们同样没有半点消息。
+        - id: ch01-b08
+          speaker: narrator
+          text: 王子告别老人，再次上路。他一路走啊走，穿过了七个王国。终于在一天傍晚，他来到一座小屋，里面住着另一位老妇人。
+        - id: ch01-b09
+          speaker: prince
+          text: 晚上好，亲爱的老妈妈。
+        - id: ch01-b10
+          speaker: old_woman_two
+          text: 晚上好，亲爱的孩子。幸亏你先向我问好，否则你准会死得很惨。不过，你这是要到哪里去？
+        - id: ch01-b11
+          speaker: prince
+          text: 我在寻找三根灯心草。您知道它们在哪里吗？
+        - id: ch01-b12
+          speaker: old_woman_two
+          text: 我自己不知道。你等到明天吧，也许到时候我能告诉你。
+        - id: ch01-b13
+          speaker: narrator
+          text: 第二天早晨，老妇人吹响小笛，天下的喜鹊全飞来了。确切地说，只有一只没来。那只喜鹊摔断了一条腿和一边翅膀，老妇人立刻派鸟去接它。等她逐一询问，竟然只有这只残疾的喜鹊知道三根灯心草的下落。
+    - id: ch02
+      title: 灯心草里的姑娘
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 王子带着瘸腿喜鹊出发了。他们走了又走，最后来到一堵高得望不到顶的巨大石墙前。
+        - id: ch02-b02
+          speaker: magpie
+          text: 王子，那三根灯心草就在这堵墙后面。
+        - id: ch02-b03
+          speaker: narrator
+          text: 王子毫不耽搁，纵马冲向石墙，一跃而过。他在墙后找到了三根灯心草，连根拔起，带着它们回家。途中，一根灯心草不巧撞上了东西，忽然裂开。你猜怎么着？一位美丽的姑娘竟从里面跳了出来。
+        - id: ch02-b04
+          speaker: maiden_one
+          text: 我的心上人，你属于我，我也属于你。请给我一杯水吧。
+        - id: ch02-b05
+          speaker: narrator
+          text: 可四下里根本没有水，王子怎么给她呢？美丽的姑娘只得飞走了。王子想试一试，又剖开第二根灯心草，结果一模一样。
+        - id: ch02-b06
+          speaker: maiden_two
+          text: 我的心上人，你属于我，我也属于你。请给我一杯水吧。
+        - id: ch02-b07
+          speaker: narrator
+          text: 王子这才知道厉害，把第三根灯心草看护得万分仔细。等来到一口井边，他才将它剖开。里面跳出一位姑娘，比先前两位还要美上七倍。
+        - id: ch02-b08
+          speaker: ilonka
+          text: 我的心上人，我属于你，你也属于我。请给我一杯水吧。
+        - id: ch02-b09
+          speaker: narrator
+          text: 这一次，水就在眼前，姑娘没有飞走。她和王子约定永远相爱，随后一起踏上归途。
+    - id: ch03
+      title: 井边的骗局
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 他们很快回到王子的国土。王子想用华美的马车迎接未婚妻，便独自进城去取。水井旁的田野里，国王的猪倌和牛倌正在放牧。王子把姑娘托付给他们照看。这位姑娘，名叫伊隆卡。
+        - id: ch03-b02
+          speaker: narrator
+          text: 不巧，猪倌头领有个又老又丑的女儿。趁王子离开，他给女儿换上漂亮衣裳，又把伊隆卡扔进了井里。
+        - id: ch03-b03
+          speaker: narrator
+          text: 没过多久，王子便回来了。他还带来了父王、母后和浩浩荡荡的一群廷臣，要护送伊隆卡回宫。众人一看见猪倌那丑陋的女儿，全都惊得瞪大了眼睛。可他们无计可施，只好把她接回去。两天后，王子娶了她，父王也把王位传给了他。
+        - id: ch03-b04
+          speaker: narrator
+          text: 可新国王一刻也不得安宁。他明知道自己受了骗，却怎么也想不出缘故。有一回，他想尝尝伊隆卡落入的那口井里的水，便叫马车夫去取。马车夫提起水桶，看见桶里游着一只漂亮的小鸭子。他正惊奇地瞧着，小鸭子突然不见了，身边却多了一个衣衫肮脏的姑娘。姑娘跟他回到王宫，设法当上了女仆。
+    - id: ch04
+      title: 三次夜访
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 姑娘整天忙个不停，只要得空，就坐下来纺线。她的绕线杆会自己转，纺锤会自己纺，亚麻线也会自己绕下来。无论用了多少，剩下的总还是那么多。
+        - id: ch04-b02
+          speaker: narrator
+          text: 王后，也就是猪倌的女儿，听说后十分想要那根绕线杆，姑娘却断然不肯。后来姑娘答应了，条件是让她在国王房中睡一夜。王后气得狠狠骂了她一顿，可又实在舍不得绕线杆，最后只得同意。晚餐时，她偷偷给国王喝下了安眠药。
+        - id: ch04-b03
+          speaker: narrator
+          text: 夜里，姑娘来到国王房中，看起来比以往还要美上七倍。她俯身望着熟睡的国王。
+        - id: ch04-b04
+          speaker: ilonka
+          text: 我的心上人，我属于你，你也属于我。只和我说一句话吧，我就是你的伊隆卡。
+          emotion: sad
+        - id: ch04-b05
+          speaker: narrator
+          text: 国王睡得太沉，既听不见，也开不了口。伊隆卡伤心地离开了，还以为国王是羞于认她。
+        - id: ch04-b06
+          speaker: narrator
+          text: 不久，王后又派人来说，她想买下纺锤。姑娘仍旧提出上次的条件，王后也再次给国王服了安眠药。伊隆卡又来到国王房中，温柔地低声呼唤他，却依然等不到半句回答。
+        - id: ch04-b07
+          speaker: narrator
+          text: 国王的几个仆人早就留意到了。他们提醒主人，王后递来的食物和饮料都不要碰，因为她已经连续两夜让他喝下安眠药。王后不知道事情已经败露。几天后，她又看中了那些亚麻。就算要付出同样的代价，她也丝毫不怕。
+        - id: ch04-b08
+          speaker: narrator
+          text: 那天晚餐时，王后把各式美味送到国王面前，可国王说自己不饿，早早上床去了。
+        - id: ch04-b09
+          speaker: narrator
+          text: 王后为自己的承诺后悔不已，可现在反悔已经晚了。伊隆卡走进国王的房间。国王躺在那里，焦急地等着某件事发生，连自己也不知道究竟在等什么。忽然，一位美丽的姑娘出现在眼前，俯身望着他。
+        - id: ch04-b10
+          speaker: ilonka
+          text: 我最亲爱的心上人，我属于你，你也属于我。和我说句话吧，我就是你的伊隆卡。
+    - id: ch05
+      title: 真正的婚礼
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 听到这几句话，国王的心怦怦直跳。他一跃而起，把伊隆卡紧紧搂在怀里，又亲吻了她。伊隆卡把从他离开以后发生的一切，全都说了出来。
+        - id: ch05-b02
+          speaker: narrator
+          text: 国王得知伊隆卡受了这么多苦，自己又遭人欺骗，便发誓要报仇。他下令绞死猪倌和他的妻子、女儿，三个人果然都被处死了。
+        - id: ch05-b03
+          speaker: narrator
+          text: 第二天，国王在举国欢庆中迎娶了美丽的伊隆卡。要是他们还没有死——那么，他们直到今天依然活着。
+        - id: ch05-b04
+          speaker: narrator
+          text: 这个故事选自《匈牙利童话》。
