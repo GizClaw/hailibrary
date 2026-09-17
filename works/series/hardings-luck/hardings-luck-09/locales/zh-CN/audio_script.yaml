@@ -1,0 +1,742 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 亲切机敏，带着克制的幽默与讲故事的悬念
+        timbre: 温暖清亮
+        pace: 舒展而有变化
+        pitch: 中音
+    dickie:
+      display_name: 迪基
+      tts:
+        delivery: 聪明敏感，街头口吻直率，学书中人物说话时郑重夸张
+        timbre: 清脆稚嫩
+        pace: 稍快，受委屈时断续
+        pitch: 中高音
+    mr_beale:
+      display_name: 比尔先生
+      tts:
+        delivery: 爽朗随和，热情背后藏着迟疑与盘算
+        timbre: 粗粝有力
+        pace: 不紧不慢
+        pitch: 低音
+    amelia:
+      display_name: 阿米莉亚
+      tts:
+        delivery: 麻利爽直，说话干脆，偶尔带点不服气
+        timbre: 明亮厚实
+        pace: 稍快
+        pitch: 中音
+    old_beale:
+      display_name: 老比尔
+      tts:
+        delivery: 年迈质朴，嘴硬心软，乡间口吻自然
+        timbre: 苍老清瘦
+        pace: 缓慢
+        pitch: 中低音
+    edred:
+      display_name: 埃德雷德
+      tts:
+        delivery: 坦率好奇，闹别扭时固执又认真
+        timbre: 明净的少年音
+        pace: 中等，着急时稍快
+        pitch: 中高音
+    elfrida:
+      display_name: 埃尔弗里达
+      tts:
+        delivery: 热情果断，好奇心强，说话爽快有主见
+        timbre: 清亮灵动
+        pace: 稍快
+        pitch: 高音
+    lord_arden:
+      display_name: 阿登勋爵
+      tts:
+        delivery: 亲切快活，待人真诚而有分寸
+        timbre: 温厚清朗
+        pace: 从容
+        pitch: 中低音
+    lady_talbot:
+      display_name: 塔尔博特夫人
+      tts:
+        delivery: 热情爽朗，善解人意，说话干脆而体贴
+        timbre: 明亮柔和
+        pace: 中等
+        pitch: 中音
+    maid:
+      display_name: 女仆
+      tts:
+        delivery: 礼貌简洁，通报时清楚稳妥
+        timbre: 清晰平和
+        pace: 中等
+        pitch: 中音
+    crest_mouldiwarp:
+      display_name: 冠饰莫尔迪沃普
+      tts:
+        delivery: 文雅神秘，客气中带着智者的疏离
+        timbre: 细润沉静
+        pace: 缓慢
+        pitch: 中低音
+    kidnapper_1:
+      display_name: 绑匪甲
+      tts:
+        delivery: 凶狠压低，命令短促而具有威胁性
+        timbre: 粗哑阴沉
+        pace: 稍快
+        pitch: 低音
+    kidnapper_2:
+      display_name: 绑匪乙
+      tts:
+        delivery: 冷硬蛮横，威胁时不留余地
+        timbre: 沉闷粗粝
+        pace: 中等
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 遭绑架
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            如今再想新十字区，那地方像是已经退到很远很远的地方去了。那里的街道脏乱，人们为了糊口，什么寒酸办法都得用。一张张脸总带着愁容，好像手里拥有的一切，永远都差那么一点。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            可迪基现在住的是一间可爱的小屋。窗外有起伏的绿色丘陵，还有银蓝两色、平滑如镜的大海。一出门，脚下不再是肮脏的人行道，而是一条干净的砖路，从盛开的花丛中间穿过。
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            更好的是，阿登就在附近。过去七个月的辛苦，为的就是来到这里。迪基又能见到埃德雷德和埃尔弗里达了。他要帮他们找出埋藏的宝物，就像当初帮他们找回父亲一样。这念头那么快活，像是给他的幸福戴上了一顶王冠。
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            可他很快就发现，自己虽然离城堡这么近，要见阿登家的孩子却还是不容易。他总不能走进城堡废墟的庭院，按响陌生人家的门铃，再请求见两个只在梦里，或者几乎只在梦里认识的人。
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            好在命运替他安排好了。那天，迪基刚走到通往村子的小路拐角，就迎面碰上了埃德雷德和埃尔弗里达。他们和梦里那两个同他玩过、也吵过的孩子一模一样。
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            迪基停下脚步，倚着拐杖等他们走近。那两个孩子一路盯着他，严厉些的人多半会说，他们简直是在瞪人。可他们走到迪基面前，却一句话都没说，就那么过去了。迪基只看见他们正热切地互相说着什么。
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            他站在小路上，望着两人的背影，心里真难受。不过他很快又打起精神。他们刚才说得那么起劲，埃尔弗里达还回过半边身子。也许是他身上的破旧衣服让他们犹豫，拿不准他究竟是不是那个迪基。
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            要是他们根本没认出来，那就不能怪他们不肯相认。迪基用一只脚站稳，拿拐杖敲着地，扯开嗓子喊了两声。
+        - id: ch01-b09
+          speaker: dickie
+          text: 喂！哈啰！
+        - id: ch01-b10
+          speaker: narrator
+          text: 两个孩子回过身，犹豫了一会儿，这才走回来。
+        - id: ch01-b11
+          speaker: elfrida
+          text: 怎么了？你是不是受伤了？
+        - id: ch01-b12
+          speaker: narrator
+          text: 小姑娘来到他跟前，一双眼睛亲切地望着他。
+        - id: ch01-b13
+          speaker: dickie
+          text: 没有。不过，我想问你们一件事。
+        - id: ch01-b14
+          speaker: narrator
+          text: 两个孩子先看看他，又对望了一眼。
+        - id: ch01-b15
+          speaker: edred
+          text: 那你问吧。
+        - id: ch01-b16
+          speaker: dickie
+          text: 你们住在城堡里，对吧？能不能带我下去看看？
+        - id: ch01-b17
+          speaker: elfrida
+          text: 当然能。跟我们来吧。
+        - id: ch01-b18
+          speaker: dickie
+          text: 等一等。
+        - id: ch01-b19
+          speaker: narrator
+          text: >-
+            迪基鼓起勇气，准备迎接考验。要是他们不记得他，一定会以为他疯了，以后再也不肯带他去看城堡。可他顾不得了，只能试一试。
+        - id: ch01-b20
+          speaker: dickie
+          text: >-
+            你们以前是不是有个家庭教师，叫帕拉多斯先生？
+        - id: ch01-b21
+          speaker: narrator
+          text: 两个孩子又看看他，再看看对方。迪基赶紧接着说。
+        - id: ch01-b22
+          speaker: dickie
+          text: >-
+            你们背地里叫他“鹦鹉鼻子”。还曾经铲起一大堆雪，全倒到他头上，然后坐着天鹅拉的车跑掉。是不是？
+        - id: ch01-b23
+          speaker: elfrida
+          text: >-
+            真的是你！埃德雷德，他就是迪基！我们刚才一直在猜是不是你。亲爱的迪基，你的脚怎么会受伤呢？
+          emotion: surprised
+        - id: ch01-b24
+          speaker: narrator
+          text: 埃尔弗里达一把抱住了迪基。迪基的脸红了。
+        - id: ch01-b25
+          speaker: dickie
+          text: 我的脚一直就是这样。在现代就是这样。我们在魔法时代相遇的时候，我跟大家一样，对不对？
+        - id: ch01-b26
+          speaker: narrator
+          text: 埃尔弗里达又抱了抱他，再没提那只脚。
+        - id: ch01-b27
+          speaker: elfrida
+          text: >-
+            没想到真能在这里找到你，太好了！我们还以为你不是真人呢。我们按照你给的传单上那个地址写了信，可信又被退回来了，上面写着“查无此人”。
+        - id: ch01-b28
+          speaker: dickie
+          text: 你们写的是哪个地址？
+        - id: ch01-b29
+          speaker: edred
+          text: 新十字区劳里树林路。
+        - id: ch01-b30
+          speaker: dickie
+          text: >-
+            哦，那是比尔先生随口编的，是为了让地址听起来气派一点。我记得他说过。他就是跟我一起生活的人。我叫他爸爸，因为他待我很好。我的亲爸爸已经去世了。
+        - id: ch01-b31
+          speaker: elfrida
+          text: 咱们到丘陵上去吧。找个地方坐下，你从头开始，把所有事都讲给我们听。
+        - id: ch01-b32
+          speaker: narrator
+          text: >-
+            三个孩子上了丘陵，坐到金雀花丛中。迪基把自己的故事全讲了出来，和你已经听过的一样多。这花了很长时间。之后，他们又互相提醒，回想起三个人在魔法世界，也就是梦境世界里的相遇，还想起迪基怎样帮他们救出了父亲。那些事，都写在《阿登庄园》里。
+        - id: ch01-b33
+          speaker: edred
+          text: >-
+            可我们已经没有魔法了。为了找回爸爸，我们只好答应再也不用魔法。现在永远也找不到宝物，不能买回旧土地，不能修好城堡，也不能给护城河重新引水，更不能替佃户盖干燥、暖和又舒服的屋子。不过，我们到底还是找回了爸爸。
+          emotion: sad
+        - id: ch01-b34
+          speaker: dickie
+          text: >-
+            可你听我说，我的魔法还在。老奶妈说过，我可以替你们用。我到这里来，本来就是为了这件事。这样咱们就能一起去找宝物了。
+        - id: ch01-b35
+          speaker: elfrida
+          text: 迪基，你真好。
+        - id: ch01-b36
+          speaker: edred
+          text: 你的魔法是什么？
+        - id: ch01-b37
+          speaker: narrator
+          text: 迪基拿出叮当儿、白印章和月光花种子，在草地上摆开，给他们讲解起来。
+        - id: ch01-b38
+          speaker: narrator
+          text: >-
+            话才讲到一半，一道影子忽然落下来，同时罩住了三个孩子，也罩住了草地上的叮当儿、种子和印章。一位高大英俊的绅士站在他们面前，低头望着他们。
+        - id: ch01-b39
+          speaker: lord_arden
+          text: 埃德雷德，你该给我介绍一下这位朋友吧。
+        - id: ch01-b40
+          speaker: edred
+          text: 哦，迪基，这是我爸爸。
+        - id: ch01-b41
+          speaker: narrator
+          text: >-
+            埃德雷德边说边爬起来。迪基拄着拐杖，站起来要慢一些。他赶紧说出自己的名字。
+        - id: ch01-b42
+          speaker: dickie
+          text: 我叫迪克·哈丁。
+        - id: ch01-b43
+          speaker: narrator
+          text: >-
+            阿登勋爵伸手拉了他一把。这个穿着破旧衣裳、腿脚不便的孩子站稳后，却没像穷孩子平时受教的那样，用手碰碰额头行礼。他反而伸出手。这大概让阿登勋爵吃了一惊。
+        - id: ch01-b44
+          speaker: dickie
+          text: 您好，阿登勋爵。
+        - id: ch01-b45
+          speaker: lord_arden
+          text: 我很好，谢谢你。你是从哪儿来的？我猜，你不是本地人吧？
+        - id: ch01-b46
+          speaker: dickie
+          text: >-
+            不是，不过我的养父是本地人。我跟他从伦敦来看他父亲，就是老比尔先生。我们现在住在他的小屋里。
+        - id: ch01-b47
+          speaker: narrator
+          text: >-
+            阿登勋爵便在孩子们身边坐下，问了迪基许多事。他出生在哪里，跟谁生活过，见过什么，做过什么，过去又是什么样的人。迪基一件件如实回答，说得很直接。他当然没提魔法，也没说自己在那个世界里，和阿登勋爵的孩子既是朋友，又是表亲。
+        - id: ch01-b48
+          speaker: narrator
+          text: >-
+            阿登勋爵始终凝视着迪基的脸，只偶尔才看一眼叮当儿和白印章。有一次，他拿起这两样东西，仔细看着上面的纹章。
+        - id: ch01-b49
+          speaker: lord_arden
+          text: 你是从哪里得到这些东西的？
+        - id: ch01-b50
+          speaker: narrator
+          text: 迪基把来历告诉了他。阿登勋爵还回印章和叮当儿，然后继续问了下去。
+        - id: ch01-b51
+          speaker: narrator
+          text: >-
+            最后，埃尔弗里达搂住父亲的脆子，凑到他耳边。她先向迪基解释了一句。
+        - id: ch01-b52
+          speaker: elfrida
+          text: 我知道这样不太礼貌，不过迪基不会在意的。
+        - id: ch01-b53
+          speaker: narrator
+          text: 说完，她才压低声音，对父亲耳语起来。
+        - id: ch01-b54
+          speaker: lord_arden
+          text: 当然可以。也到喝下午茶的时候了。迪基，你愿意到我们家里喝茶吗？
+        - id: ch01-b55
+          speaker: dickie
+          text: 我得先告诉比尔先生。要是我不回去，他会担心。
+        - id: ch01-b56
+          speaker: lord_arden
+          text: 我背你下去，会不会弄疼你？
+        - id: ch01-b57
+          speaker: narrator
+          text: >-
+            下一刻，阿登勋爵已经背着迪基下了山坡，朝城堡走去。埃德雷德则回到比尔的小屋，告诉他们迪基去了哪里。等他赶回城堡，客厅里的下午茶已经摆好，迪基正舒舒服服地靠在扶手椅里休息。
+        - id: ch01-b58
+          speaker: edred
+          text: 老比尔真是个有趣的老头儿，对不对？他说迪基长着这样一张脸，就该住在阿登城堡。他到底是什么意思？你踢我干吗？
+        - id: ch01-b59
+          speaker: narrator
+          text: 埃德雷德说到后来，声音里全是委屈，因为埃尔弗里达刚刚在桌子底下踢了他的手。
+        - id: ch01-b60
+          speaker: narrator
+          text: >-
+            下午茶还没吃完，庭院里忽然响起马蹄声和车轮声。女仆打开客厅的门，走进来通报。
+        - id: ch01-b61
+          speaker: maid
+          text: 塔尔博特夫人到。
+        - id: ch01-b62
+          speaker: narrator
+          text: >-
+            迪基明明记得塔尔博特夫人对自己多么好，这时却恨不得钻到桌底下去。她一定会认出他。到时候，这些人全会知道他以前做过贼，也会知道塔尔博特夫人想收养他，他却像个忘恩负义的人那样逃走了。他浑身发抖。这实在太难熬了。
+        - id: ch01-b63
+          speaker: narrator
+          text: 塔尔博特夫人和大家一一握手，然后转向迪基。
+        - id: ch01-b64
+          speaker: lady_talbot
+          text: 埃德雷德，这位小朋友是谁呀？哎呀，原来是我那个逃跑的小家伙！
+          emotion: surprised
+        - id: ch01-b65
+          speaker: dickie
+          text: 我不是忘恩负义。我不是……我非走不可。
+        - id: ch01-b66
+          speaker: narrator
+          text: >-
+            迪基的眼睛里带着恳求。塔尔博特夫人看懂了。迪基永远都会因为这一刻爱她。她一句也没提他做过贼的事。
+        - id: ch01-b67
+          speaker: lady_talbot
+          text: 阿登勋爵，我以前想收养迪基，可他不肯留下。
+        - id: ch01-b68
+          speaker: dickie
+          text: 我得回爸爸身边去。
+        - id: ch01-b69
+          speaker: lady_talbot
+          text: >-
+            不管怎么样，咱们又见面了，总是件高兴的事。我一直盼着有一天能再见到你。不要糖，谢谢你，埃尔弗里达。
+        - id: ch01-b70
+          speaker: narrator
+          text: >-
+            她坐下喝茶，还是那么快活随和。只有一件事让迪基有点不自在。塔尔博特夫人忽然转向主人。
+        - id: ch01-b71
+          speaker: lady_talbot
+          text: 阿登勋爵，他没让你想起什么人吗？
+        - id: ch01-b72
+          speaker: lord_arden
+          text: 也许是有一点。
+        - id: ch01-b73
+          speaker: narrator
+          text: >-
+            阿登勋爵脸上的神情，正是大人们在说“别当着孩子谈，我们过后再说”时常有的样子。
+        - id: ch01-b74
+          speaker: narrator
+          text: >-
+            不久，三个孩子就被打发到外面玩了。迪基参观城堡废墟，阿登勋爵和塔尔博特夫人则在开满雏菊的草地上走来走去，谈了很久。迪基知道他们谈的是自己，却不在意。他已经觉得，这些大人真的懂得如何处理事情，可以信赖。
+        - id: ch01-b75
+          speaker: narrator
+          text: 一辆漂亮的小马车送迪基回到小屋。比尔一见他，便打趣起来。
+        - id: ch01-b76
+          speaker: mr_beale
+          text: >-
+            用不了多久，你就要阔得不肯搭理我们这种人啦，小鬼。看看你那些阔朋友，连阿登勋爵都有呢。
+        - id: ch01-b77
+          speaker: dickie
+          text: >-
+            他们好得不得了。谁都没有阿登勋爵那样待我好，塔尔博特夫人也一样。当然，除了你，爸爸。
+        - id: ch01-b78
+          speaker: mr_beale
+          text: 啊，他可真知道怎么哄老爸爸开心，是不是？
+        - id: ch01-b79
+          speaker: narrator
+          text: 比尔这话是对自己的老父亲说的。
+        - id: ch01-b80
+          speaker: old_beale
+          text: 他为什么用那种腔调说话？他明明能像个小绅士一样好好说，我们都听见了。
+        - id: ch01-b81
+          speaker: dickie
+          text: 哦，伦敦那边就是这么说话的。那些文雅的话，是我从书里学的。
+        - id: ch01-b82
+          speaker: narrator
+          text: >-
+            比尔先生一声没响。不过那天晚上，他竟然捧着一本精装的《卫斯理宗杂志》，足足读了快十分钟。第二天下午，阿登勋爵来的时候，他正对着这本妙趣横生的读物打瞌睡。
+        - id: ch01-b83
+          speaker: narrator
+          text: >-
+            你多半已经猜到阿登勋爵为什么来。迪基隐约觉得，他也许像老比尔一样，从迪基的脸上看出了阿登家的样子。所以，迪基没有太吃惊。真正吃惊的是比尔先生。
+        - id: ch01-b84
+          speaker: mr_beale
+          text: >-
+            你就算拿十字镐对着我敲上一下，我也不会比那时候更懵。三个大人加一个小孩都能作证，真的。这事实在太怪了。
+        - id: ch01-b85
+          speaker: mr_beale
+          text: >-
+            勋爵说，有个女人这阵子一直给他写信，说她找到了他失散多年的外甥呀、表亲呀，反正是这么个人。她想从他手里弄钱，到底是为什么，天才知道。
+        - id: ch01-b86
+          speaker: mr_beale
+          text: >-
+            他还说，小鬼，你真正的姓应该是阿登。他想把你接过去，跟自己的孩子一起养大。得，你跟我这就算到头了，老伙计迪基。他说的那些话，我连一半都没听懂。可这一层我听明白了。
+        - id: ch01-b87
+          speaker: mr_beale
+          text: >-
+            你和我，还有阿米莉亚、那些狗、咱们的小家，这些全完啦。你就要去当绅士了，我只能独自上路，再做回那个讨钱的穷可怜虫。最后准是这样。我知道。
+          emotion: sad
+        - id: ch01-b88
+          speaker: dickie
+          text: >-
+            你别自己瞎操心。我不会离开你。塔尔博特夫人不是也想让我做她的孩子吗？可我不是马上就跑回你身边了？
+          emotion: calm
+        - id: ch01-b89
+          speaker: dickie
+          text: >-
+            只要阿登勋爵同意，我会跟那些孩子一起玩。不过我不会离开你，现在还不会。所以，还没有人伤你的心，你就别先抽抽搭搭了，爸爸。明白吗？
+          emotion: calm
+        - id: ch01-b90
+          speaker: narrator
+          text: 不过，这是阿登勋爵第二次和比尔先生谈话以前的事。等他们谈过，比尔的话就变了。
+        - id: ch01-b91
+          speaker: mr_beale
+          text: >-
+            听我说，小鬼，我可不会挡你的路。你要往上走，对吧？好，也不是只有你一个人往上走。阿登勋爵已经买下我爸爸的小屋，还要再添几间屋子。我会把所有狗都搬来，再登报出售。你以后也会回来看我们。
+        - id: ch01-b92
+          speaker: dickie
+          text: 那阿米莉亚呢？还有那些小家伙呢？
+        - id: ch01-b93
+          speaker: mr_beale
+          text: >-
+            嗯，我是这么想的。请阿米莉亚到这儿来，跟狗们住在一起。要是把她跟狗拆开，还真有点可惜。这主意是阿登勋爵放进我脑子里的。
+        - id: ch01-b94
+          speaker: mr_beale
+          text: >-
+            他对我可客气了，跟我像两个男人一样说话。他问我，“你也该成个家了。难道没有哪个年轻姑娘，可以让我给她一点钱，帮你们安个家吗？”
+        - id: ch01-b95
+          speaker: mr_beale
+          text: >-
+            我这么一想，就想到了阿米莉亚。找她总不会比找别人更差，她又熟悉那些狗。勋爵说的“一点钱”，可是整整一百英镑。就这些。就这些！所以邮差这趟一来，我就给她寄信。
+        - id: ch01-b96
+          speaker: mr_beale
+          text: >-
+            结婚这事儿叫人拿不准，不过阿米莉亚也不是外人。出了这么一大堆事，再想回到以前只有咱们两个和小鬼的日子，也不可能了。你觉得呢？
+        - id: ch01-b97
+          speaker: narrator
+          text: >-
+            我不知道迪基回答了什么。他心里大概在想，我一直努力守着比尔，帮他把日子过起来。我从很久很久以前的另一个世界回来，也是为了帮他。我忍下许多不喜欢的事，一直坚持着，就想让他安顿下来。
+        - id: ch01-b98
+          speaker: narrator
+          text: >-
+            迪基还想，比尔原是分给自己做的一份工作。可现在忽然有别人来了，从他手里接过这份工作，替他做完。比尔有人照料，也安顿好了。可他本来打算亲自照料比尔。他不喜欢这样。
+        - id: ch01-b99
+          speaker: narrator
+          text: >-
+            刚开始，他的确是这样想的。可后来，他不得不承认，这对比尔来说实在幸运得不得了。对他自己也一样。
+        - id: ch01-b100
+          speaker: narrator
+          text: >-
+            迪基发现，整天住在阿登城堡，跟埃德雷德和埃尔弗里达一起玩，一起上课，几乎和在美丽的古老梦境里同他们生活一样好。以前他还是德特福德的迪基，现代生活里的一切都叫他厌恶。可如今，他成了理查德·阿登，那些事再也烦不到他了。富有和贫穷之间的差别，就像温暖和寒冷之间的差别那么大。
+        - id: ch01-b101
+          speaker: narrator
+          text: >-
+            头一天过去以后，三个孩子之间忽然有了一点羞怯。他们不再谈那些一起经历过的奇异冒险，只玩平常的游戏。玩着玩着，他们几乎忘了这世上还有魔法，也忘了自己以前遇见过魔法。
+        - id: ch01-b102
+          speaker: narrator
+          text: >-
+            其实，他们现在的生活本身就已经很幸福，没有魔法也能心满意足。直到阿米莉亚和比尔先生举行婚礼后，迪基才想起来，他回到这个现代世界，原本还有一个理由，就是替表兄妹寻找阿登家的宝物。
+        - id: ch01-b103
+          speaker: narrator
+          text: >-
+            我真希望自己有时间，把那场婚礼从头到尾讲给你听。光写这一场婚礼，就能写满整整一本书。
+        - id: ch01-b104
+          speaker: narrator
+          text: >-
+            阿米莉亚从伦敦赶来，在阿登教堂举行了婚礼。她穿着白裙，戴着一顶大帽子，帽上绕着橙花花环，还配了轻纱面罩和真正的小山羊皮手套。这些都是阿登勋爵的妹妹伊迪丝·阿登小姐送的。
+        - id: ch01-b105
+          speaker: narrator
+          text: >-
+            阿登勋爵送来一只大得惊人的结婚蛋糕，还有一桌丰盛无比的婚宴。他亲自把新娘交给新郎，又发表了演说。他说，比尔先生善待他的外甥理查德·阿登，他欠比尔先生一份重重的恩情。宾客们听见迪基的新名字，个个都大吃一惊。
+        - id: ch01-b106
+          speaker: narrator
+          text: >-
+            所有的狗都系上了白色礼花，每一只还分到一小块结婚蛋糕。婚宴结束，宾客散去以后，新娘把白裙卷起来，塞到一条大围裙底下，动手在新房间里安置那些“破烂家具”。那都是迪基和比尔在德特福德的小家里一点点凑起来的，如今装在货车上，从德特福德一路运到了阿登。
+        - id: ch01-b107
+          speaker: narrator
+          text: >-
+            阿登一家已经回城堡了，迪基也跟他们一起走了。比尔仍然坐在前门外那把惯常的椅子上抽烟，所以没有别人听见他是怎么称赞自己的新娘的。阿米莉亚正在掸壁炉台上的灰，他从后面走来，一条胳膊搂住了她。
+        - id: ch01-b108
+          speaker: amelia
+          text: 去你的吧。要是让人看见，还以为我们在谈恋爱呢。
+        - id: ch01-b109
+          speaker: mr_beale
+          text: >-
+            我们本来就在谈。咱们该谈的恋爱，从现在开始都得补回来。明白吗？
+        - id: ch01-b110
+          speaker: narrator
+          text: 比尔说着，生平第一次亲了阿米莉亚。接着，他若有所思地补充了一句。
+        - id: ch01-b111
+          speaker: mr_beale
+          text: 我原本也可以挑一挑的。不过嘛……我想，我也可能挑到更糟的。
+        - id: ch01-b112
+          speaker: narrator
+          text: 阿米莉亚听了这句称赞，高兴得红了脸，又继续掸起灰来。
+        - id: ch01-b113
+          speaker: narrator
+          text: 阿登一家踏着短草往家走时，阿登勋爵对自己的妹妹说起了心事。
+        - id: ch01-b114
+          speaker: lord_arden
+          text: >-
+            我真希望这一带的每间小屋，都能像比尔家那样。其实也没花多少钱。要是能把剩下的土地买回来，我就能让一些人看看，真正的模范村庄应该是什么样子。可惜我买不回来。那个人开的价钱，远远超过我们能凑出的数目。
+        - id: ch01-b115
+          speaker: narrator
+          text: >-
+            迪基听见了。所以，下一次他单独跟表兄妹在一起时，就向他们提起了宝物。
+        - id: ch01-b116
+          speaker: dickie
+          text: >-
+            听我说。你们不能再用魔法回到过去找宝物，可我能。咱们一起去找吧。等找到了，你们的爸爸就能买回从前的土地，盖起新屋，再把阿登城堡修好，恢复成以前的样子。
+        - id: ch01-b117
+          speaker: elfrida
+          text: 哦，那就去吧！
+          emotion: happy
+        - id: ch01-b118
+          speaker: edred
+          text: 我不知道。
+        - id: ch01-b119
+          speaker: narrator
+          text: 三个孩子正坐在门楼的窗边，俯视城堡庭院里的绿草。埃尔弗里达立刻追问起来。
+        - id: ch01-b120
+          speaker: elfrida
+          text: 什么叫你不知道？
+        - id: ch01-b121
+          speaker: edred
+          text: >-
+            我就是不知道。我觉得，咱们现在这样已经很好了。我以前以为自己喜欢魔法，也喜欢那些事。可你仔细想想，每次我们用魔法回到过去，总会遇到可怕的事。不是被人追，就是被关进牢里，要不就是别的麻烦。
+        - id: ch01-b122
+          speaker: edred
+          text: >-
+            唯一真正愉快的那次，是看别人把宝物藏起来。那就像看一幅会动的画，我们什么都不用做。反正我们也不知道宝物在哪里。我现在才明白，自己没有原来以为的那么喜欢冒险。咱们现在过得很好，也很快活。要我说，还是别去了。
+        - id: ch01-b123
+          speaker: narrator
+          text: 这盆冷水只把另外两个人的兴致浇灭了几分钟。埃尔弗里达很快就向迪基解释起来。
+        - id: ch01-b124
+          speaker: elfrida
+          text: >-
+            事情是这样的。我们的魔法带我们回到过去找宝物。有一次，我们贴起来的一张照相底片像电影一样动了，我们就看见有人把宝物藏好。
+        - id: ch01-b125
+          speaker: dickie
+          text: 那咱们只要回到你们看见的地方，记住位置，再回家把宝物挖出来就行了。
+        - id: ch01-b126
+          speaker: elfrida
+          text: >-
+            宝物不是埋在土里的。它被放进一间有门的屋子，那里有点像地窖。城堡里剩下的每个角落，我们都找遍了，连一枚小小的银戒指都没找到。
+        - id: ch01-b127
+          speaker: dickie
+          text: 我明白了。可要是我直接用魔法，许愿去到宝物所在的地方呢？
+        - id: ch01-b128
+          speaker: edred
+          text: >-
+            我不去！我说什么也不去。我看宝物准是砌在墙里。要是我们也像那个作恶的修女一样，被封死在一间地窖里，那样子可一定好看极了。说不定我们连怎么出来都忘了。我才不去。
+          emotion: fearful
+        - id: ch01-b129
+          speaker: narrator
+          text: 埃德雷德实在厌恶这个主意，两只靴子用力踢着塔楼的石头。
+        - id: ch01-b130
+          speaker: elfrida
+          text: 你用不着这么大惊小怪。谁都不会被砌进地窖里。
+        - id: ch01-b131
+          speaker: dickie
+          text: 你说得对，老兄。刚才我确实没想到这一层。
+        - id: ch01-b132
+          speaker: elfrida
+          text: 我们总得做点什么呀。
+          emotion: angry
+        - id: ch01-b133
+          speaker: dickie
+          text: >-
+            你们觉得这样行不行？我试试看，能不能见到冠饰莫尔迪沃普。他比徽记莫尔迪沃普更有力量，也许能指点我们。咱们用魔法只求见他一面，怎么样？
+        - id: ch01-b134
+          speaker: edred
+          text: 我不想离开这里。
+        - id: ch01-b135
+          speaker: dickie
+          text: 你用不着离开。我就在这里把月光花种子和其他东西摆到地板上。你等着看吧。
+        - id: ch01-b136
+          speaker: narrator
+          text: >-
+            迪基用月光花种子摆出两个交叉的三角形，然后和表兄妹一起站了进去。他开口时，语气就像你敲开某位先生的家门，向出来应门的人打听那位先生一样。
+        - id: ch01-b137
+          speaker: dickie
+          text: 请问，我们可以见见冠饰莫尔迪沃普吗？
+        - id: ch01-b138
+          speaker: narrator
+          text: >-
+            四周立刻变得一片漆黑。孩子们还没来得及盼望光明重现，黑暗的帷幕上就现出一轮亮光。冠饰莫尔迪沃普就在亮光里，和迪基上次见到他时一模一样。他文雅地鞠了一躬。
+        - id: ch01-b139
+          speaker: crest_mouldiwarp
+          text: 理查德·阿登勋爵，今天有什么事需要我效劳？
+        - id: ch01-b140
+          speaker: edred
+          text: 他不是阿登勋爵。我从前才是。可现在连我也不是了，我爸爸才是。
+        - id: ch01-b141
+          speaker: crest_mouldiwarp
+          text: 是吗？你说的这件事，令我深感兴趣。不过，我的问题还没有得到回答。
+        - id: ch01-b142
+          speaker: narrator
+          text: 冠饰莫尔迪沃普摆出彬彬有礼的感兴趣神情。
+        - id: ch01-b143
+          speaker: dickie
+          text: >-
+            我想找到阿登家失落的宝物。这样就能重新修建古老的城堡，买回从前的土地，还能把老旧的小屋收拾得漂亮又好住。请问，您能给我指点吗？
+        - id: ch01-b144
+          speaker: narrator
+          text: 亮光里的冠饰莫尔迪沃普像是抬起一只前爪，若有所思地挠了挠鼻子。
+        - id: ch01-b145
+          speaker: crest_mouldiwarp
+          text: >-
+            这件事能办成，不过很难。要想找到宝物，几乎不可能不惊醒至尊莫尔迪沃普。他就坐在阿登家纹章那片绿白相间的方格田上。只有一桩高尚的行为，才能把他唤醒。
+        - id: ch01-b146
+          speaker: crest_mouldiwarp
+          text: >-
+            不过，高尚的行为随时都可能出现。而且，你出门寻找一种宝物，也许反而会找到另一种宝物。我的话说完了。
+        - id: ch01-b147
+          speaker: narrator
+          text: 他的身影开始变淡。埃尔弗里达赶紧叫住他。
+        - id: ch01-b148
+          speaker: elfrida
+          text: 啊，别走！您说话简直跟希腊神谕一样。就不能说得明白、直接一点吗？
+        - id: ch01-b149
+          speaker: crest_mouldiwarp
+          text: 可以。
+        - id: ch01-b150
+          speaker: narrator
+          text: 冠饰莫尔迪沃普的声音里已经有了一点不耐烦。
+        - id: ch01-b151
+          speaker: crest_mouldiwarp
+          text: 伟大的阿登领主，休想再得宝藏。除非阿登领主，失而复得一场。
+        - id: ch01-b152
+          speaker: edred
+          text: 爸爸的确失踪过，又被我们找回来了。所以这一条没问题。
+        - id: ch01-b153
+          speaker: crest_mouldiwarp
+          text: 勇敢启程，将那宝藏寻访。须到世间最不可能的地方。
+        - id: ch01-b154
+          speaker: narrator
+          text: >-
+            话音一落，冠饰莫尔迪沃普就彻底消失了，四周的黑暗也随之散去。三个孩子仍然站在塔楼的房间里。叮当儿、白印章和月光花种子也还在，阳光照着地板。
+        - id: ch01-b155
+          speaker: edred
+          text: 这话可真有用。好像找出不可能的地方，不会跟找出可能的地方一样难似的。
+        - id: ch01-b156
+          speaker: dickie
+          text: 我有个主意。
+        - id: ch01-b157
+          speaker: narrator
+          text: >-
+            偏偏在这时，午餐铃响了。迪基还没来得及说出主意，三个孩子就只好离开，去吃烤羊肉和李子馅饼。他们还得装成普普通通、从来没遇见过魔法的孩子。那一天，他们几乎再没有机会谈这件事。
+        - id: ch01-b158
+          speaker: narrator
+          text: >-
+            午饭一过，埃德雷德和埃尔弗里达就要去克利夫维尔量脚做新鞋，迪基则要去比尔、阿米莉亚和狗儿们那里过下午。三个孩子穿戴整齐，正等轻便马车来到门前，迪基找到一点工夫，悄声对埃尔弗里达说。
+        - id: ch01-b159
+          speaker: dickie
+          text: >-
+            咱们都好好想想，哪些地方最不可能。明天再挑出最不可能的那一个，一起到那里去。埃德雷德要是不愿意，可以不参加。你很想去，对不对？
+        - id: ch01-b160
+          speaker: elfrida
+          text: 那当然！
+          emotion: happy
+        - id: ch01-b161
+          speaker: narrator
+          text: >-
+            埃尔弗里达只来得及说出这一句。下午，比尔、阿米莉亚，还有那些一点也不比他们逊色的狗，在小屋里热烈欢迎了迪基。有了这番热闹，不管是谁，都会把什么“不可能的地方”全抛到脑后。
+        - id: ch01-b162
+          speaker: narrator
+          text: >-
+            小屋里总有那么多有意思的事可做。迪基帮忙给特鲁洗了澡，把刀子擦亮，又冲洗了下午茶要吃的生菜。喝完茶，他还帮着擦干茶具。比尔太太从院子里收回洗好的衣物，一捧捧白布的折痕干爽又清香，迪基还帮她把衣物叠好了。
+        - id: ch01-b163
+          speaker: narrator
+          text: >-
+            到了黄昏，他逐一拥抱每只狗，向大家道过晚安，然后动身走向不远处的十字路口。从克利夫维尔回来的轻便马车会在那里接他。可小马掉了一只蹄铁，得送去给铁匠处理，所以马车晚了一点。
+        - id: ch01-b164
+          speaker: narrator
+          text: >-
+            迪基等了一会儿，就像每个等不到别人按时来的人一样，开始怀疑是不是自己记错了时间，或者小屋的钟走慢了。又过了一阵，他觉得继续等下去简直傻透了。他便拿起拐杖，从一直坐着的里程碑上站起来，朝城堡走去。
+        - id: ch01-b165
+          speaker: narrator
+          text: >-
+            他一路想了许多事。其中一件是，詹姆斯国王时代的记忆已经变得模糊而遥远。他从高处望着阿登城堡，心里爱极了它。只要能跟表兄妹和他们的父亲在这里住上一辈子，他就再也想不出更好的愿望了。生活本身已经这么美好幸福，梦中人生里的魔法，终究不是非要不可。
+        - id: ch01-b166
+          speaker: narrator
+          text: >-
+            就在这时，树篱里咸嚓一声，一根细枝断了。紧接着，十来根枝条一起簌簌作响，纷纷折断。一个像巨大黑鸟的东西朝他飞过来，张开翅膀裹住了他。
+        - id: ch01-b167
+          speaker: narrator
+          text: >-
+            那不是鸟。下一刻，迪基就知道了。那是一件又大又黑的斗篷。有人把斗篷抛到他的头顶和肩上，又隔着斗篷，用有力的手死死抓住了他。
+        - id: ch01-b168
+          speaker: kidnapper_1
+          text: 不许出声！你敢吱一下，就有你好受的。
+        - id: ch01-b169
+          speaker: dickie
+          text: 救命！
+          emotion: fearful
+        - id: ch01-b170
+          speaker: narrator
+          text: >-
+            迪基立刻喊了起来，却被重重摔在地上。几只手摸索了一阵，先把斗篷从他脸上扯开，又把一块裹着圆石子的手帕塞进他嘴里，让他再也说不出话。接着，那些人把他拖到树篱后面，按在那里。
+        - id: ch01-b171
+          speaker: narrator
+          text: >-
+            斗篷又蒙住了迪基的头。他什么也看不见，却还能听见两个声音在他头顶低声交谈。
+        - id: ch01-b172
+          speaker: kidnapper_2
+          text: 嘘！他们来了。
+        - id: ch01-b173
+          speaker: narrator
+          text: 随后，迪基听见了马蹄声和车轮声，还听见阿登勋爵快活的声音。
+        - id: ch01-b174
+          speaker: lord_arden
+          text: 他一定已经往前走了。咱们准能追上他。
+        - id: ch01-b175
+          speaker: narrator
+          text: >-
+            车轮和马蹄的声音越去越远。几只粗硬的手把迪基拉起来，又把拐杖塞到他的腋下。
+        - id: ch01-b176
+          speaker: kidnapper_1
+          text: 走！给我走快点，听见没有？不然我就教训你！有辆马车正等着你呢。
+        - id: ch01-b177
+          speaker: narrator
+          text: >-
+            迪基只好往前走，他没有别的办法。蒙眼的斗篷已经被拿开了。走了一阵，他看见前面有一辆小贩用的手推车，他们正朝那里靠近。
+        - id: ch01-b178
+          speaker: narrator
+          text: >-
+            那些人把迪基放进手推车，盖上斗篷，再在上面堆满西葫芦和卷心菜，只给他留下一丁点可以呼吸的空隙。
+        - id: ch01-b179
+          speaker: kidnapper_2
+          text: 现在给我老实躺着，不然你这条小命就保不住了！你要是敢动上一寸，我就揍到你再也站不起来！这下听明白了吧。
+        - id: ch01-b180
+          speaker: narrator
+          text: >-
+            迪基一动不动地躺着。痛苦和绝望让他浑身僵硬。因为这两个声音对他来说并不陌生。
+        - id: ch01-b181
+          speaker: narrator
+          text: 他实在太熟悉它们了。
