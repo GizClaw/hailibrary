@@ -1,0 +1,299 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容机敏，带着温和而克制的诙谐
+        timbre: 温暖清晰的成熟男声
+        pace: 舒缓而富有变化
+        pitch: 中低
+    samba:
+      display_name: 桑巴
+      tts:
+        delivery: 平日随和亲切，害怕时慌乱退缩，鼓起勇气后坦率坚定
+        timbre: 明亮厚实的青年男声
+        pace: 适中，慌张时稍快
+        pitch: 中
+    samba_father:
+      display_name: 桑巴的父亲
+      tts:
+        delivery: 威严持重，忧虑时低沉克制
+        timbre: 浑厚的老年男声
+        pace: 舒缓
+        pitch: 低
+    friend:
+      display_name: 国王的朋友
+      tts:
+        delivery: 善意宽慰，说话朴实自然
+        timbre: 清晰的成年男声
+        pace: 适中
+        pitch: 中
+    townsman_1:
+      display_name: 城民甲
+      tts:
+        delivery: 热情直率，随众欢呼时响亮有力
+        timbre: 明亮的成年男声
+        pace: 适中偏快
+        pitch: 中
+    townsman_2:
+      display_name: 城民乙
+      tts:
+        delivery: 热烈爽朗，情绪来得直接
+        timbre: 清亮的青年女声
+        pace: 适中偏快
+        pitch: 中高
+    townsman_3:
+      display_name: 城民丙
+      tts:
+        delivery: 质朴响亮，带着群体欢呼的力量
+        timbre: 粗犷的成年男声
+        pace: 适中
+        pitch: 中低
+    crowd_voice:
+      display_name: 人群中的声音
+      tts:
+        delivery: 嘲弄尖刻，喊话短促
+        timbre: 尖亮的青年男声
+        pace: 快
+        pitch: 中高
+    princess:
+      display_name: 公主
+      tts:
+        delivery: 聪慧果决，温柔时明快，失望时冷峻克制
+        timbre: 清澈坚定的年轻女声
+        pace: 适中
+        pitch: 中高
+    slave:
+      display_name: 奴仆
+      tts:
+        delivery: 恭敬谨慎，禀报简洁
+        timbre: 平稳清晰的成年男声
+        pace: 适中
+        pitch: 中
+    old_king:
+      display_name: 老国王
+      tts:
+        delivery: 慈爱宽厚，赞许时真挚热烈
+        timbre: 温厚洪亮的老年男声
+        pace: 舒缓
+        pitch: 低
+    youngest_prince:
+      display_name: 小王子
+      tts:
+        delivery: 机敏倔强，受嘲笑时仍沉着自信
+        timbre: 清亮的少年男声
+        pace: 适中
+        pitch: 中高
+    elder_prince_1:
+      display_name: 大王子甲
+      tts:
+        delivery: 自信随意，取笑弟弟时带着得意
+        timbre: 稳亮的青年男声
+        pace: 适中
+        pitch: 中
+    elder_prince_2:
+      display_name: 大王子乙
+      tts:
+        delivery: 爽直轻快，附和兄长时语气笃定
+        timbre: 清朗的青年男声
+        pace: 适中
+        pitch: 中
+    moor_1:
+      display_name: 摩尔人甲
+      tts:
+        delivery: 狡黠自负，盘算时压低声音
+        timbre: 略显沙哑的成年男声
+        pace: 适中
+        pitch: 中低
+    moor_2:
+      display_name: 摩尔人乙
+      tts:
+        delivery: 轻率得意，附和同伴时干脆
+        timbre: 紧实的青年男声
+        pace: 适中偏快
+        pitch: 中
+  chapters:
+    - id: ch01
+      title: 胆小的王子
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 遥远的南方有个辽阔的国度，尼罗河从那里流过。国王只有一个孩子，名叫桑巴。桑巴刚会走路，大家就看出他什么都怕，而且年纪越大，胆子越小。起初，国王的朋友们并没有把这件事看得太重。
+        - id: ch01-b02
+          speaker: friend
+          text: 咱们族里的孩子，听到大象吼叫就躲进茅屋，见了只有他一半大的小狮子还直发抖，确实少见。不过，他还是个娃娃。等长大了，自然会像大家一样勇敢。
+        - id: ch01-b03
+          speaker: samba_father
+          text: 是啊，他还小，以后会好的。
+        - id: ch01-b04
+          speaker: narrator
+          text: 国王是无意间听到这些话的，可他说着说着，却叹了口气。朋友们看了看他，没再接话。几年过去，桑巴长成了高大健壮的青年。他和善又亲切，人人都喜欢他。国王带人打猎时，危险的地方虽然总不见桑巴，可大家太喜欢他，也就不好多说什么。人们仍像小时候那样替他找理由。他们相信，等国王举行盛宴，正式宣布桑巴继承王位，他便不再是个孩子，也不会继续胆小了。
+        - id: ch01-b05
+          speakers: [townsman_1, townsman_2, townsman_3]
+          ensemble: chorus
+          text: 桑巴！就是桑巴！他比所有人都高，一定能保护我们，赶走那些强盗部族！
+        - id: ch01-b06
+          speaker: narrator
+          text: 典礼那天，大家都这样欢呼，心也因喜悦怦怦直跳。可没过几个星期，村民早晨醒来，才发现敌人已经趁夜赶走所有牲畜，还抓走牧人，把他们卖去做奴隶。这正是桑巴显出男子汉勇气的时候。他本该骑在武士们前面，带领本族人追赶敌人。人们却到处找不到他，只得撇下他出发。
+        - id: ch01-b07
+          speaker: narrator
+          text: 又过了许多天，桑巴才昂着头回来。他告诉大家，自己一路追踪一头狮子，直到它的巢穴，又冒着生命危险把它杀死。要是事情发生得早一些，族人会欢欢喜喜地迎接他，也会相信这个故事。可现在再说，已经没有用了。
+        - id: ch01-b08
+          speaker: crowd_voice
+          text: 胆小鬼桑巴！
+        - id: ch01-b09
+          speaker: narrator
+          text: 这个名字从此黏在了他身上。连孩子们见了也这样喊，父亲同样毫不宽容。桑巴终于再也受不了。他听说另一个国家自从人们记事以来，一直太平无事，便决定离开故乡，到那里生活。第二天一大早，他悄悄溜进父亲的马厩，挑出能找到的最温顺的一匹马，独自向北而去。
+        - id: ch01-b10
+          speaker: narrator
+          text: 那一路的恐惧，桑巴终生难忘。夜里，他总觉得每块岩石、每丛灌木后都藏着野兽，几乎不敢睡。白天，远处一声狮吼就能让他猛地一跳，险些摔下马背。他有十几次想掉头回家。逼着他继续赶路的，并不是怕听见族人的嘲笑，而是怕回去以后不得不参加战争。终于，一座大得超出想象的城池出现在前方，他心里才充满了感激。
+    - id: ch02
+      title: 公主的丈夫
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 桑巴把身子挺得笔直，神气地骑进城门，又从王宫前经过。公主每天都会坐在宫殿平台的屋顶上，看着下面街道里的热闹。那一天，她正好看见桑巴骑着高大的黑马，在拥挤的人群中灵巧地穿行。公主觉得这个陌生人十分英武，便招来一名奴仆，命他去问问对方是谁，又从哪里来。
+        - id: ch02-b02
+          speaker: slave
+          text: 公主殿下，他是国王的儿子，也是大河附近一个国家的王位继承人。
+        - id: ch02-b03
+          speaker: narrator
+          text: 公主听完，马上把父亲叫来，告诉他，若不能嫁给这个陌生人，她宁可终身不嫁。老国王和许多父亲一样，什么事都不忍心拒绝女儿。何况公主回绝过那么多求婚者，他正担心世上根本没有人能让她满意。他亲自和桑巴谈了一番话，也喜欢上这个脾气随和、举止亲切的青年，于是答应了婚事。三天后，一场无比盛大的婚礼便举行了。
+        - id: ch02-b04
+          speaker: narrator
+          text: 起初，公主很满足。她和高大英俊的丈夫坐在棕榈树下，听他讲故事，也听他讲故乡那些不同的风俗。可是过了一阵，她还希望全城的人都能为桑巴骄傲。
+        - id: ch02-b05
+          speaker: princess
+          text: 我真希望北方那些摩尔强盗来抢一次。那样，我就能看你带着我们的武士追出去，把他们赶回老家。等全城都传颂你的功绩，我该多高兴啊！
+        - id: ch02-b06
+          speaker: narrator
+          text: 公主满怀爱意地望着丈夫，桑巴却忽然沉下了脸。
+        - id: ch02-b07
+          speaker: samba
+          text: 别再跟我提摩尔人，也别提打仗。我离开自己的国家，就是为了躲开战争。只要听见敌人来了，我马上就会离开你，再也不回来。
+        - id: ch02-b08
+          speaker: princess
+          text: 你可真有意思！长得这么高大，竟然会怕摩尔人。不过，这种话只能告诉我。让别人听见，他们没准会当真的。
+        - id: ch02-b09
+          speaker: narrator
+          text: 公主听完，笑出了声。
+    - id: ch03
+      title: 铠甲里的公主
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 不久，全城的人都到城墙外参加一场盛宴。一队摩尔人已经暗中藏了好几天，他们趁四周无人，把正在山坡上安静吃草的绵羊和山羊全部赶走。过了几个小时，人们才发现牲畜不见了。国王立刻命人擂响战鼓。武士们聚到王宫前的大广场上，想到敌人竟敢这样羞辱他们，气得浑身发抖。他们高喊着要马上复仇，又一遍遍呼唤国王的女婿桑巴，请他领兵。可桑巴始终没有出现。
+        - id: ch03-b02
+          speaker: narrator
+          text: 其实，桑巴就在王宫里。他躲进一间阴凉昏暗的地窖，缩在几口装满粮食的大陶罐之间。公主在那里找到了丈夫，只觉得一阵痛楚冲上心头。她用尽力气，想让桑巴生出一点羞耻心，却怎么也办不到。将来，他也许会因臣民的鄙视而遇到危险，可在桑巴眼中，那点危险根本比不上此刻出战的危险。
+        - id: ch03-b03
+          speaker: princess
+          text: 把锁子甲脱下来，交给我。头盔、剑和长矛，也全都拿来。
+        - id: ch03-b04
+          speaker: narrator
+          text: 公主的声音又冷又硬，熟悉她的人听了，也会以为那是另一个人。桑巴惊慌地左看右看，脱掉那身只有国王女婿才有资格穿的镶金铠甲，又缩回角落。公主始终没有看他一眼，只默默接过一件件甲胄，用坚定的双手穿在身上。她系紧最后一枚搭扣，放下面甲，走出地窖，跨上桑巴的马，发出信号，带着武士们出发了。
+        - id: ch03-b05
+          speaker: narrator
+          text: 公主虽比丈夫矮得多，在女子中却已经十分高挑。桑巴的马也高过别人的坐骑。武士们远远看见那身镶金锁子甲，都以为桑巴终于来到了该来的地方，马上高声欢呼。公主低头回应，却始终放着面甲。她用马刺一磕马腹，率领全队飞驰在前，向敌人冲去。摩尔人没料到追兵来得这么快，几乎还没列好阵势，便被打得四散逃走。小小的骑兵队回城时，人人都在称颂统帅桑巴。
+        - id: ch03-b06
+          speaker: narrator
+          text: 一到王宫，公主就把缰绳扔给马夫，从侧楼梯悄悄回到自己的房间，谁也没有看见。桑巴还懒洋洋地躺在一堆席子上。门一开，他不安地抬起头，因为猜不出妻子会怎样对待自己。可公主一句重话也没说，只飞快脱下铠甲，叫他立刻穿好。桑巴不敢发问，乖乖照办。随后，公主叫他跟着自己，领他登上屋顶平台。下面的人群早已聚在那里，欢呼声一阵高过一阵。
+        - id: ch03-b07
+          speakers: [townsman_1, townsman_2, townsman_3]
+          ensemble: chorus
+          text: 国王的女婿桑巴！勇士中的勇士！快出来让我们看看！
+        - id: ch03-b08
+          speaker: narrator
+          text: 桑巴一露面，欢呼和掌声更响了。
+        - id: ch03-b09
+          speakers: [townsman_1, townsman_2, townsman_3]
+          ensemble: chorus
+          text: 看哪，他多谦逊！他把荣耀都让给别人了！
+        - id: ch03-b10
+          speaker: narrator
+          text: 桑巴只笑着挥手，什么也没说。聚来向他致敬的人多得数不清，只有公主最小的弟弟没有欢呼。这个少年眼光敏锐，交战时留意到统帅身上的几处细节。那些地方让他想到姐姐，怎么看也不像姐夫。他让几个哥哥答应保守秘密，这才说出自己的疑心。哥哥们却只管笑他，叫他把梦话拿到别处去说。
+        - id: ch03-b11
+          speaker: youngest_prince
+          text: 那就等着瞧吧。下次再和摩尔人交战，我一定在统帅身上留下一个只有我知道的记号。
+    - id: ch04
+      title: 腿上的伤口
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 吃过一次败仗，摩尔人并没有罢手。几天后，他们又派来一队人马偷牛。公主再次穿上丈夫的铠甲，率领复仇的队伍追出去。这一回，战斗比上次激烈得多。混战中，小王子靠到姐姐身边，在她腿上刺出一道浅伤。公主当时正忙着战斗，根本顾不上，也几乎没有感觉到疼。可等敌人逃走，小队回到王宫，她忽然一阵眩晕，连楼梯都站不稳，只能踉跄着走回房间。
+        - id: ch04-b02
+          speaker: princess
+          text: 我受伤了，不过真的不重，你别担心。你只要在同一个地方也弄出一道浅伤，就没人会猜到上战场的是我，不是你。
+        - id: ch04-b03
+          speaker: samba
+          text: 什么？你怎么会觉得我肯做这种又没用又疼的事？要这样，我还不如自己去打仗！
+          emotion: fearful
+        - id: ch04-b04
+          speaker: princess
+          text: 是啊，我早该想到的。
+        - id: ch04-b05
+          speaker: narrator
+          text: 公主的声音仿佛从很远的地方传来。可桑巴刚一转过身，她便快得像一道闪光，举起长矛刺破了他光着的腿。桑巴大叫一声，踉跄着向后退去。他并没有多疼，只是万万没想到妻子会这样做。没等他开口，公主已经走出房间，去找王宫里的巫医。
+        - id: ch04-b06
+          speaker: princess
+          text: 我的丈夫受伤了。请快去救治，他流了很多血，已经十分虚弱。
+        - id: ch04-b07
+          speaker: narrator
+          text: 公主说这话时，特意让好几个人都听见。于是，那一整天，百姓不断挤到宫门前，打听他们那位英勇战士的伤势。几个年长的王子还亲自进了房间，看见桑巴躺在那里不停呻吟。出来以后，他们马上找到最小的弟弟。
+        - id: ch04-b08
+          speakers: [elder_prince_1, elder_prince_2]
+          ensemble: duo
+          text: 聪明的小弟弟，你看见了吧？我们说得对，你说错了。桑巴确实亲自上了战场。
+        - id: ch04-b09
+          speaker: narrator
+          text: 小王子没有回答，只是半信半疑地摇了摇头。
+        - id: ch04-b10
+          speaker: narrator
+          text: 仅仅两天后，摩尔人第三次来了。人们已经把牲畜换到一个新的、更安全的地方拴好，可它们还是像前两次一样，转眼就被抢走了。摩尔人早已打好了算盘。
+        - id: ch04-b11
+          speakers: [moor_1, moor_2]
+          ensemble: duo
+          text: 他们刚把我们打得那么惨，一定想不到我们这么快就敢回来。
+        - id: ch04-b12
+          speaker: narrator
+          text: 召集武士的鼓声又一次响起。公主站起身，去找桑巴。
+    - id: ch05
+      title: 胆小鬼的勇气
+      blocks:
+        - id: ch05-b01
+          speaker: princess
+          text: 桑巴，我的伤比想象中严重。现在几乎不能走，没人扶的话，连马也上不去。今天我没法替你出战了，你得替我去。
+        - id: ch05-b02
+          speaker: samba
+          text: 这是什么胡话！我会受伤，说不定还会送命！你有三个弟弟，让国王挑一个去吧。
+        - id: ch05-b03
+          speaker: princess
+          text: 他们都太年轻，武士不会听他们指挥。你实在不肯去，至少帮我把马具套好。
+        - id: ch05-b04
+          speaker: narrator
+          text: 只要没有危险，别人请桑巴帮什么忙，他总是很痛快。于是，马很快备好了。
+        - id: ch05-b05
+          speaker: princess
+          text: 你先骑到城门外的集合地点。我走近路过去，再和你换回来。
+        - id: ch05-b06
+          speaker: narrator
+          text: 和平的时候，桑巴最喜欢骑马。他放心地跨上马背，刚刚坐稳，公主就狠狠抽了那匹马一鞭。马猛地冲过全城，又穿过正在等候统帅的武士队伍。大家看见桑巴冲了出去，顷刻间全都行动起来，跟在他身后。桑巴拼命拉住缰绳，想让坐骑停下，可那就像想拦住狂风一样毫无用处。仿佛只过了几分钟，他已经冲到摩尔人面前，不得不和他们短兵相接。
+        - id: ch05-b07
+          speaker: narrator
+          text: 接着，奇迹发生了。那个胆怯的、总躲起来的、吓破了胆的桑巴，发现敌人步步紧逼，自己再也逃不掉，心里竟有一样东西突然醒了过来。他使出全身力气作战。像他这样高大强壮的人，一旦真的动手，往往打得很好。
+        - id: ch05-b08
+          speaker: narrator
+          text: 这一天的胜利，的的确确是桑巴赢来的。人们的欢呼比前两次更加响亮。桑巴回到城中时，还带着摩尔首领的宝剑。老国王看见他，立刻张开双臂，把他紧紧抱在怀里。
+        - id: ch05-b09
+          speaker: old_king
+          text: 我的孩子，你立下这么大的功劳，我要怎样才能让你知道，我有多感激你？
+        - id: ch05-b10
+          speaker: narrator
+          text: 桑巴只要不被恐惧控制，原本就是个善良忠诚的人。这一次，他坦坦荡荡地说出了实情。
+        - id: ch05-b11
+          speaker: samba
+          text: 父王，不该谢我，应该谢您的女儿。是她把从前那个胆小鬼，变成了一个勇敢的人。
+        - id: ch05-b12
+          speaker: narrator
+          text: 这个故事来自苏丹，由C·蒙泰伊采录。

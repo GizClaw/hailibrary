@@ -1,0 +1,200 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖亲切，带着轻快的讲故事感
+        timbre: 清澈柔和
+        pace: 舒展而富有变化
+        pitch: 中音
+    old_mother_west_wind:
+      display_name: 西风妈妈
+      tts:
+        delivery: 慈爱从容，说话温和而意味深长
+        timbre: 温暖柔和的女声
+        pace: 舒缓
+        pitch: 中音
+    striped_chipmunk:
+      display_name: 条纹花栗鼠
+      tts:
+        delivery: 活泼急切，想到坚果便满怀期待
+        timbre: 清脆明亮的少年声
+        pace: 轻快
+        pitch: 中高音
+    peter_rabbit:
+      display_name: 兔子彼得
+      tts:
+        delivery: 好奇冲动，想到好吃的便兴奋起来
+        timbre: 轻盈活泼的少年声
+        pace: 稍快
+        pitch: 中高音
+    bobby_coon:
+      display_name: 浣熊博比
+      tts:
+        delivery: 好奇顽皮，说起玩乐便兴致勃勃
+        timbre: 清亮活泼的少年声
+        pace: 轻快
+        pitch: 中高音
+    jimmy_skunk:
+      display_name: 臭鼬吉米
+      tts:
+        delivery: 自负傲慢，心虚时仍勉强装腔作势
+        timbre: 略低而圆滑的男声
+        pace: 从容偏慢
+        pitch: 中低音
+    reddy_fox:
+      display_name: 狐狸雷迪
+      tts:
+        delivery: 机灵淘气，出主意时得意又干脆
+        timbre: 明亮灵巧的少年声
+        pace: 稍快
+        pitch: 中音
+    johnny_chuck:
+      display_name: 土拨鼠约翰尼
+      tts:
+        delivery: 老实直率，刚睡醒时含混困倦
+        timbre: 厚实温和的男声
+        pace: 平稳偏慢
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 世上最好的东西
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 西风妈妈停下脚步，跟纤细的冷杉聊了起来。条纹花栗鼠正好坐在树下，西风妈妈接下来说的话，他听得清清楚楚。
+        - id: ch01-b02
+          speaker: old_mother_west_wind
+          text: 我刚从绿草地那边过来，还在那里看见了世上最好的东西。
+        - id: ch01-b03
+          speaker: narrator
+          text: 世上最好的东西？条纹花栗鼠一下来了精神。他在心里猜呀猜，很快便有了答案。在他看来，再好的东西也不可能比一堆又一堆的坚果和橡子更好。
+        - id: ch01-b04
+          speaker: striped_chipmunk
+          text: 我知道了！肯定是好多好多坚果和橡子。我要去找出来！
+        - id: ch01-b05
+          speaker: narrator
+          text: 他立刻沿着林中的孤独小径往下跑，能跑多快就跑多快。没过多久，他碰见了兔子彼得。
+        - id: ch01-b06
+          speaker: peter_rabbit
+          text: 条纹花栗鼠，你跑这么急，要去哪儿？
+        - id: ch01-b07
+          speaker: striped_chipmunk
+          text: 去绿草地，找世上最好的东西！
+        - id: ch01-b08
+          speaker: narrator
+          text: 条纹花栗鼠答完便加快脚步，头也不回地往前跑。兔子彼得听见“世上最好的东西”，马上也想到了自己最爱吃的东西。
+        - id: ch01-b09
+          speaker: peter_rabbit
+          text: 那一定是堆成山的胡萝卜和卷心菜！我也去找。
+        - id: ch01-b10
+          speaker: narrator
+          text: 兔子彼得也顺着孤独小径飞奔起来，紧紧追在条纹花栗鼠后面。
+    - id: ch02
+      title: 队伍越来越长
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 两个伙伴跑过那棵大空心树时，浣熊博比从树洞里探出了脑袋。
+        - id: ch02-b02
+          speaker: bobby_coon
+          text: 你们急急忙忙的，这是要去哪儿？
+        - id: ch02-b03
+          speakers: [striped_chipmunk, peter_rabbit]
+          ensemble: duo
+          text: 去绿草地找世上最好的东西！
+        - id: ch02-b04
+          speaker: narrator
+          text: 两个人一边喊，一边使出更大的力气往前跑。博比听了，望着他们跑远，也在心里盘算起世上最好的东西会是什么。
+        - id: ch02-b05
+          speaker: bobby_coon
+          text: 世上最好的东西，一定是满满一田又甜又多汁的嫩玉米。这个我可不能错过！
+        - id: ch02-b06
+          speaker: narrator
+          text: 再没有什么比嫩玉米更合博比的胃口了。他赶紧爬下空心树，沿着孤独小径往下追。到了树林边上，三个伙伴遇见了臭鼬吉米。
+        - id: ch02-b07
+          speaker: jimmy_skunk
+          text: 你们跑这么快，到底要去哪儿？
+        - id: ch02-b08
+          speakers: [striped_chipmunk, peter_rabbit, bobby_coon]
+          ensemble: chorus
+          text: 去绿草地找世上最好的东西！
+        - id: ch02-b09
+          speaker: narrator
+          text: 喊完以后，三个伙伴谁也不肯落后，又拼命加快了脚步。臭鼬吉米一听“世上最好的东西”，也想出了一个最合自己心意的答案。
+        - id: ch02-b10
+          speaker: jimmy_skunk
+          text: 那一定是一群又一群的甲虫！
+        - id: ch02-b11
+          speaker: narrator
+          text: 这一次，连平日做什么都不着急的吉米也着急了。这可是他平生难得的一回。他赶紧追着前面的伙伴，一路匆匆赶下孤独小径。
+        - id: ch02-b12
+          speaker: narrator
+          text: 大家跑得实在太快，只顾盯着前面的路，根本没看见藏在高草里的狐狸雷迪。直到雷迪突然从草丛里跳出来，拦住他们发问。
+        - id: ch02-b13
+          speaker: reddy_fox
+          text: 你们这么着急，是要跑到哪儿去？
+        - id: ch02-b14
+          speakers: [striped_chipmunk, peter_rabbit, bobby_coon, jimmy_skunk]
+          ensemble: chorus
+          text: 去找世上最好的东西！
+        - id: ch02-b15
+          speaker: narrator
+          text: 四个伙伴谁也没停，反而跑得更卖力了。雷迪望着他们，心里也冒出了主意。
+        - id: ch02-b16
+          speaker: reddy_fox
+          text: 那准是满满一栏鲜嫩的小鸡。我非把它们弄到手不可！
+        - id: ch02-b17
+          speaker: narrator
+          text: 雷迪撒腿便追。他顺着孤独小径飞奔，很快也加入了这支越跑越长的队伍。
+    - id: ch03
+      title: 约翰尼没有出发
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 跑着跑着，大家来到了土拨鼠约翰尼家门口。约翰尼看见他们匆匆忙忙，觉得很奇怪。
+        - id: ch03-b02
+          speaker: johnny_chuck
+          text: 你们一个个跑得这么急，要上哪儿去？
+        - id: ch03-b03
+          speakers: [striped_chipmunk, peter_rabbit, bobby_coon, jimmy_skunk]
+          ensemble: chorus
+          text: 去找世上最好的东西！
+        - id: ch03-b04
+          speaker: narrator
+          text: 狐狸雷迪也跟着他们一起喊。可约翰尼听了，只是想了想。
+        - id: ch03-b05
+          speaker: johnny_chuck
+          text: 世上最好的东西吗？我想不出还有什么，比自己的小家、暖洋洋的太阳和美丽的蓝天更好。
+        - id: ch03-b06
+          speaker: narrator
+          text: 所以，约翰尼哪儿也没去。他留在家里，在花丛中跟西风妈妈的欢乐小风玩了一整天，心里别提多快活了。
+        - id: ch03-b07
+          speaker: narrator
+          text: 另外五个伙伴却在绿草地上东跑西跑，找了一整天。他们一会儿跑到这边，一会儿又奔向那边。太阳晒得好热，他们跑得那么远，又跑得那么快，一个个热得要命，也累得要命，可还是没找到世上最好的东西。
+    - id: ch04
+      title: 知足
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 漫长的一天总算结束了。大家沿着孤独小径往回走，从约翰尼家门前经过，再各自回家。这回谁也不着急了，因为他们实在累得跑不动啦。他们拖着脚步往前走，还全都气呼呼的，越想越生气。
+        - id: ch04-b02
+          speaker: narrator
+          text: 条纹花栗鼠连一颗坚果也没找到。兔子彼得连一片卷心菜叶也没找到。浣熊博比没尝到一丁点又甜又多汁的嫩玉米。臭鼬吉米连一只甲虫也没看见。狐狸雷迪更是连小鸡的一声啾啾都没听见。忙活了一整天，他们还个个饿得肚子空空。
+        - id: ch04-b03
+          speaker: narrator
+          text: 走到半路，他们碰见西风妈妈。她正沿着小径，往山后面的家走。
+        - id: ch04-b04
+          speaker: old_mother_west_wind
+          text: 你们找到世上最好的东西了吗？
+        - id: ch04-b05
+          speakers: [striped_chipmunk, peter_rabbit, bobby_coon, jimmy_skunk]
+          ensemble: chorus
+          text: 没有！
+        - id: ch04-b06
+          speaker: narrator
+          text: 狐狸雷迪也和他们一起喊出了这句话。西风妈妈却告诉大家，约翰尼早已找到了。
+        - id: ch04-b07
+          speaker: old_mother_west_wind
+          text: 有了自己拥有的东西就觉得快活，不去眼馋别人拥有的东西，这才是世上最好的东西。它有一个名字，叫作知——足。

@@ -1,0 +1,218 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖亲切，带着轻快的讲故事感
+        timbre: 清澈柔和
+        pace: 舒展而富有变化
+        pitch: 中音
+    bobby_coon:
+      display_name: 浣熊博比
+      tts:
+        delivery: 好奇顽皮，说起玩乐便兴致勃勃
+        timbre: 清亮活泼的少年声
+        pace: 轻快
+        pitch: 中高音
+    reddy_fox:
+      display_name: 狐狸雷迪
+      tts:
+        delivery: 机灵淘气，出主意时得意又干脆
+        timbre: 明亮灵巧的少年声
+        pace: 稍快
+        pitch: 中音
+    jimmy_skunk:
+      display_name: 臭鼬吉米
+      tts:
+        delivery: 自负傲慢，心虚时仍勉强装腔作势
+        timbre: 略低而圆滑的男声
+        pace: 从容偏慢
+        pitch: 中低音
+    johnny_chuck:
+      display_name: 土拨鼠约翰尼
+      tts:
+        delivery: 老实直率，刚睡醒时含混困倦
+        timbre: 厚实温和的男声
+        pace: 平稳偏慢
+        pitch: 中低音
+    hooty_owl:
+      display_name: 猫头鹰胡迪
+      tts:
+        delivery: 沉稳好奇，答话简短利落
+        timbre: 圆润柔和的男声
+        pace: 从容
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 月光下的伙伴
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 夜深了。小星星全都俯望着大地，一闪，一闪。月亮妈妈也在尽力发光，想把绿草地照得亮堂堂的，就像太阳先生白天照耀时一样。
+        - id: ch01-b02
+          speaker: narrator
+          text: 除了猫头鹰胡迪、夜鹰布默，还有吵吵嚷嚷的三声夜鹰先生，所有小鸟都在自己的小窝里睡熟了。西风妈妈的欢乐小风也全睡着了。四下里静极啦！真的，周围实在太安静。浣熊博比沿着林中的孤独小径走来，走着走着，忍不住自言自语。
+        - id: ch01-b03
+          speaker: bobby_coon
+          text: 大家为什么偏要白天玩、晚上睡呢？夜里出来活动才最好。说到狐狸雷迪——
+        - id: ch01-b04
+          speaker: reddy_fox
+          text: 你要说狐狸雷迪，可得当心点儿。
+        - id: ch01-b05
+          speaker: narrator
+          text: 声音忽然从身后传来。博比吓了一跳，赶紧转过身来。他原以为这条路上只有自己一个，谁知狐狸雷迪本人就在眼前，正沿着林中的孤独小径一路小跑过来。
+        - id: ch01-b06
+          speaker: bobby_coon
+          text: 雷迪，我还当你在家睡得正香呢。
+        - id: ch01-b07
+          speaker: reddy_fox
+          text: 那你想错啦。我这是出来踏着月光散步呢。
+        - id: ch01-b08
+          speaker: narrator
+          text: 两个伙伴便结伴沿着林中的孤独小径往下走，一直来到绿草地。他们在那里碰见臭鼬吉米。吉米刚刚梦见山上有好多好多甲虫，这会儿正打算沿着弯弯小径爬上山，看看那个梦是不是真的。
+        - id: ch01-b09
+          speakers: [bobby_coon, reddy_fox]
+          ensemble: duo
+          text: 你好啊，吉米！跟我们一起去绿草地吧。
+        - id: ch01-b10
+          speaker: narrator
+          text: 吉米说他愿意，于是三个伙伴一起走上绿草地。博比走在最前面，雷迪跟在中间，吉米慢悠悠地落在最后。你要知道，吉米做什么都不着急。没过多久，他们就来到了土拨鼠约翰尼家门口。
+    - id: ch02
+      title: 门口的大石头
+      blocks:
+        - id: ch02-b01
+          speaker: bobby_coon
+          text: 听，土拨鼠约翰尼已经睡熟了。
+        - id: ch02-b02
+          speaker: narrator
+          text: 三个伙伴全都站住，侧耳细听。果然，呼噜声从地下传了上来。约翰尼正躺在那张温暖舒适的小床上，睡得香极了。
+        - id: ch02-b03
+          speaker: reddy_fox
+          text: 咱们给约翰尼来个惊喜吧。
+        - id: ch02-b04
+          speaker: bobby_coon
+          text: 你想怎么做？
+        - id: ch02-b05
+          speaker: reddy_fox
+          text: 有了！把那块大石头滚到他门口，堵得严严实实。明早他想出来，只能自己挖路啦。
+        - id: ch02-b06
+          speaker: narrator
+          text: 博比和雷迪立刻动起手来。他们推了又拉，拉了又推，对着那块大石头使足了力气，终于把它滚到约翰尼门前，把门堵了起来。吉米把这一切都看在眼里，却故意装作什么也没瞧见。
+        - id: ch02-b07
+          speaker: bobby_coon
+          text: 现在去欢笑溪吧！咱们叫醒老青蛙爷爷，听他来一声“咕咚隆”。
+        - id: ch02-b08
+          speaker: reddy_fox
+          text: 快走，我肯定第一个到！
+        - id: ch02-b09
+          speaker: narrator
+          text: 雷迪马上沿着孤独小径飞奔而去，博比也拔腿追在后面。他们一路跑向欢笑溪，要把老青蛙爷爷从绿荷叶上那场又香又舒服的觉里叫醒。
+        - id: ch02-b10
+          speaker: narrator
+          text: 吉米却没有跟去。他留在原地，一直望着两个伙伴，直到他们快跑到欢笑溪边，才转身去挖大石头一旁的泥土。哎呀，他刨得可真快，泥土飞得到处都是！不一会儿，他便挖出一个小洞，大小正好能让自己的声音传进去。约翰尼还在下面那张温暖舒适的小床上呼呼大睡呢。
+        - id: ch02-b11
+          speaker: jimmy_skunk
+          text: 土拨鼠约翰尼，尼，尼！约翰尼土拨鼠！
+        - id: ch02-b12
+          speaker: narrator
+          text: 可约翰尼只顾打呼噜，一点儿也没有醒来的意思。吉米只好再喊一遍。
+        - id: ch02-b13
+          speaker: jimmy_skunk
+          text: 土拨鼠约翰尼，尼，尼！约翰尼土拨鼠！
+        - id: ch02-b14
+          speaker: narrator
+          text: 约翰尼还是只顾打呼噜。吉米又喊了一次，这一回，他把嗓门提得比先前更高。
+        - id: ch02-b15
+          speaker: johnny_chuck
+          text: 谁呀？
+        - id: ch02-b16
+          speaker: jimmy_skunk
+          text: 是我，臭鼬吉米。快穿上外套，到这儿来！
+        - id: ch02-b17
+          speaker: johnny_chuck
+          text: 吉米，你走开吧。我还想睡呢！
+        - id: ch02-b18
+          speaker: jimmy_skunk
+          text: 我给你准备了一个惊喜。你最好上来瞧瞧！
+        - id: ch02-b19
+          speaker: narrator
+          text: 一听吉米说有惊喜，约翰尼立刻想知道那究竟是什么。他虽然困得眼睛都快睁不开了，还是穿好外套，从地下的小床一路走到门前。那块大石头就堵在那里，他当然吃惊得不得了。
+        - id: ch02-b20
+          speaker: narrator
+          text: 约翰尼还以为是吉米故意捉弄自己，气了好一会儿。吉米赶紧说明白，告诉他真正把大石头推来堵门的是谁。
+        - id: ch02-b21
+          speaker: jimmy_skunk
+          text: 约翰尼，你从里面推，我从外面拉。咱们很快就能把石头挪走。
+        - id: ch02-b22
+          speaker: narrator
+          text: 约翰尼在里面使劲推，吉米在外面用力拉。果然没过多久，他们便把那块大石头从约翰尼的家门口挪开了。
+    - id: ch03
+      title: 恶作剧转了个弯
+      blocks:
+        - id: ch03-b01
+          speaker: jimmy_skunk
+          text: 现在，咱们把石头沿着孤独小径滚到雷迪家，也送他一个惊喜。
+        - id: ch03-b02
+          speaker: narrator
+          text: 约翰尼和吉米一会儿拖，一会儿拉，又一起推着石头往前滚。他们沿孤独小径一直来到雷迪家，再把石头放到门前。那块石头果然把雷迪的入口堵得严严实实。
+        - id: ch03-b03
+          speaker: johnny_chuck
+          text: 晚安，吉米。
+        - id: ch03-b04
+          speaker: narrator
+          text: 约翰尼说完便沿着孤独小径朝家跑去。从雷迪家一直到自己家，他一路都在暗自发笑。吉米则慢悠悠地沿孤独小径朝树林走去，因为他做什么都不着急。
+        - id: ch03-b05
+          speaker: narrator
+          text: 没过多久，吉米走到一棵大空心树前。那正是博比居住的地方，猫头鹰胡迪也恰好在那里。
+        - id: ch03-b06
+          speaker: hooty_owl
+          text: 你好，吉米。你刚才去哪儿了？
+        - id: ch03-b07
+          speaker: jimmy_skunk
+          text: 没去哪儿，只是散了散步。对了，谁住在这棵大空心树里？
+        - id: ch03-b08
+          speaker: narrator
+          text: 其实，吉米从一开始就知道这是谁的家。可他什么也没说，偏偏装出一副完全不知道的样子。
+        - id: ch03-b09
+          speaker: hooty_owl
+          text: 哦，这里是浣熊博比的家。
+        - id: ch03-b10
+          speaker: jimmy_skunk
+          text: 那咱们也给博比一个惊喜吧。
+        - id: ch03-b11
+          speaker: hooty_owl
+          text: 要怎么做？
+        - id: ch03-b12
+          speaker: jimmy_skunk
+          text: 把他的屋子塞满树枝和叶子。
+        - id: ch03-b13
+          speaker: narrator
+          text: 胡迪觉得这个玩笑准有意思。于是，吉米四处寻找，把能找到的枯枝落叶全都收集起来。胡迪守在空心树旁，一把一把往里面塞。最后，博比的家被塞得满满当当，再也放不下一根树枝，也添不进一片叶子了。
+        - id: ch03-b14
+          speaker: jimmy_skunk
+          text: 晚安。
+        - id: ch03-b15
+          speaker: narrator
+          text: 吉米一边道别，一边沿着弯弯小径爬上山，回自己那座温暖舒适的小家去了。
+        - id: ch03-b16
+          speaker: hooty_owl
+          text: 晚安。
+        - id: ch03-b17
+          speaker: narrator
+          text: 胡迪展开翅膀，飞向大松树。他从夜色中掠过，活像一道又大又轻的影子。
+    - id: ch04
+      title: 谁也不肯说的笑话
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 过了好一阵，年迈的月亮妈妈正准备回家睡觉，小星星也困得再没有力气闪烁。雷迪和博比这才沿着孤独小径走回来。他们也累坏了。
+        - id: ch04-b02
+          speaker: narrator
+          text: 两个伙伴在欢笑溪玩得浑身湿透，这会儿只想一头倒进各自温暖舒适的小床。他们边走边偷笑，想着自己怎样用石头堵住约翰尼的家门，怎样吵醒老青蛙爷爷，还有这一夜做过的种种恶作剧。
+        - id: ch04-b03
+          speaker: narrator
+          text: 可等他们各自回到家，一个看见自己的门被大石头堵住，另一个发现空心树里塞满枯枝落叶，这才知道别人也跟他们玩起了恶作剧。你猜，他们会说些什么呢？
+        - id: ch04-b04
+          speaker: narrator
+          text: 我可怎么也猜不出来。不过，天亮时，圆圆的红太阳先生从山头探出脸来。他一看见狐狸雷迪和浣熊博比，就笑得可厉害啦。你若问他为什么，他却怎么也不肯说。

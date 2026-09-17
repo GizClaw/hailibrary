@@ -1,0 +1,460 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts: {delivery: 沉稳而富有童话色彩, timbre: 温暖清澈, pace: 舒缓有变化, pitch: 中音}
+    youth:
+      display_name: 年轻人
+      tts: {delivery: 直率天真而无所畏惧, timbre: 年轻清亮, pace: 中等偏快, pitch: 中音}
+    father:
+      display_name: 父亲
+      tts: {delivery: 疲惫严厉而满怀失望, timbre: 成熟低沉, pace: 中等, pitch: 中低音}
+    elder_brother:
+      display_name: 哥哥
+      tts: {delivery: 聪明自负而带嘲弄, timbre: 年轻清晰, pace: 中等, pitch: 中音}
+    sexton:
+      display_name: 司事
+      tts: {delivery: 自信世故而略带狡黠, timbre: 成熟粗粝, pace: 中等, pitch: 中低音}
+    sexton_wife:
+      display_name: 司事的妻子
+      tts: {delivery: 直率急切而容易激动, timbre: 成熟响亮, pace: 稍快, pitch: 中高音}
+    traveler:
+      display_name: 过路人
+      tts: {delivery: 好事而自以为聪明, timbre: 成熟朴实, pace: 中等, pitch: 中音}
+    carrier:
+      display_name: 脚夫
+      tts: {delivery: 爽直粗放而不以为然, timbre: 粗厚清晰, pace: 明快, pitch: 中低音}
+    innkeeper:
+      display_name: 店主
+      tts: {delivery: 见多识广而带着戏谑, timbre: 成熟温厚, pace: 中等, pitch: 中音}
+    innkeeper_wife:
+      display_name: 店主的妻子
+      tts: {delivery: 善良谨慎而忧心忡忡, timbre: 成熟柔和, pace: 稍快, pitch: 中音}
+    king:
+      display_name: 国王
+      tts: {delivery: 威严持重而心地宽厚, timbre: 成熟浑厚, pace: 从容, pitch: 中低音}
+    black_cat_1:
+      display_name: 黑猫甲
+      tts: {delivery: 阴森狡猾而咄咄逼人, timbre: 尖细沙哑, pace: 稍慢, pitch: 高音}
+    black_cat_2:
+      display_name: 黑猫乙
+      tts: {delivery: 阴森狡猾而咄咄逼人, timbre: 尖细沙哑, pace: 稍慢, pitch: 高音}
+    ninepin_player:
+      display_name: 打九柱戏的鬼
+      tts: {delivery: 冷淡怪异而漫不经心, timbre: 空洞低哑, pace: 中等, pitch: 低音}
+    corpse:
+      display_name: 棺中死人
+      tts: {delivery: 僵冷凶恶而突然暴怒, timbre: 干涩阴沉, pace: 稍慢, pitch: 低音}
+    white_bearded_spirit:
+      display_name: 白胡子幽灵
+      tts: {delivery: 凶狠自大后转为哀求, timbre: 苍老洪亮, pace: 中等, pitch: 低音}
+    maid:
+      display_name: 侍女
+      tts: {delivery: 机灵笃定而带着笑意, timbre: 年轻清脆, pace: 明快, pitch: 中高音}
+  chapters:
+    - id: ch01
+      title: 不懂害怕的孩子
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个父亲养了两个儿子。哥哥聪明伶俐，做什么都心里有数。弟弟却愚笨得很，什么也学不会，什么也弄不明白。见过他的人都忍不住说，这孩子往后准会成为父亲的累赘。
+        - id: ch01-b02
+          speaker: narrator
+          text: 家里只要有事，总由哥哥去办。不过事情若拖到天黑，或非得半夜出门，路上又要经过墓地那样阴森的地方，哥哥便怎么也不肯去了。原来，他最怕那些地方。
+        - id: ch01-b03
+          speaker: elder_brother
+          text: 不行，父亲！我说什么也不去那里，一想到那地方，我就直打哆嗦！
+          emotion: fearful
+        - id: ch01-b04
+          speaker: narrator
+          text: 晚上，人们围着火讲那些令人毛骨悚然的故事。听到可怕的地方，大家也常说自己直打哆嗦。弟弟独自坐在角落里，把这句话听了一遍又一遍，却怎么也不明白是什么意思。
+        - id: ch01-b05
+          speaker: youth
+          text: 他们总说打哆嗦，打哆嗦。可我从来不会。看来这门本事太高深，我怎么也学不会。
+        - id: ch01-b06
+          speaker: father
+          text: 坐在角落里的小子，听着！你已经长得又高又壮，该学会自己挣饭吃了。你哥哥肯下功夫，我花在你学业上的钱却全白费了。
+        - id: ch01-b07
+          speaker: youth
+          text: 父亲，我愿意学。要是可以，我最想学会怎么打哆嗦。到现在我还一点儿也不懂呢。
+        - id: ch01-b08
+          speaker: narrator
+          text: 哥哥听了放声大笑，心想，天哪，弟弟真是个傻瓜，一辈子也不会有出息。树苗长歪了，大树也休想长直。
+        - id: ch01-b09
+          speaker: father
+          text: 打哆嗦，你很快就会学会。可那本事养活不了你。
+        - id: ch01-b10
+          speaker: narrator
+          text: 不久，教堂的司事来家中作客。父亲忍不住向他大倒苦水，说小儿子做什么都不成，既没本事，也什么都学不会。自己问儿子以后打算靠什么谋生，那小子竟说只想学会打哆嗦。
+        - id: ch01-b11
+          speaker: sexton
+          text: 他只想学这个？那好办。把他送到我家来，我很快就能把他教好。
+        - id: ch01-b12
+          speaker: narrator
+          text: 父亲听了很高兴，觉得正好让儿子受些管教。年轻人便住进司事家，负责敲钟。几天后，司事半夜叫醒他，命他爬上钟楼敲钟。司事心想，这回一定能教会他打哆嗦，于是悄悄抢先出门，披成一个白影，躲在钟楼天窗对面的楼梯上。
+        - id: ch01-b13
+          speaker: youth
+          text: 谁在那里？快回答，不然就走开！半夜三更，你不该待在这里。
+        - id: ch01-b14
+          speaker: narrator
+          text: 白影一动不动。司事想让年轻人以为自己撞见了鬼。
+        - id: ch01-b15
+          speaker: youth
+          text: 你来干什么？是正经人就开口，不然我把你推下楼去！
+        - id: ch01-b16
+          speaker: narrator
+          text: 司事不信他真敢动手，仍像石头一样站着。年轻人第三次警告，他还是不答。于是年轻人猛冲过去，把白影推下楼梯。司事滚下十来级台阶，倒在角落里不动了。年轻人照常敲响钟，回到家一句话也没说，倒头便睡。
+        - id: ch01-b17
+          speaker: sexton_wife
+          text: 你知道我丈夫在哪儿吗？他在你前面去了钟楼，可到现在还没回来。
+        - id: ch01-b18
+          speaker: youth
+          text: 不知道。楼梯上倒是站着个人。他不回答，也不肯走，我以为是歹徒，就把他推下去了。你最好去看看。要真是他，我可要难过了。
+        - id: ch01-b19
+          speaker: narrator
+          text: 司事的妻子跑上钟楼，发现丈夫躺在角落里呻吟，一条腿已经摔断。她把人背下来，又一路大声哭诉着赶到年轻人的父亲家。
+        - id: ch01-b20
+          speaker: sexton_wife
+          text: 你儿子闯大祸了！他把我丈夫推下楼梯，摔断了腿。快把这个没用的坏东西领走！
+          emotion: angry
+
+    - id: ch02
+      title: 绞刑架下的一夜
+      blocks:
+        - id: ch02-b01
+          speaker: father
+          text: 你干的是什么邪门恶事？一定是魔鬼钻进了你的脑袋！
+          emotion: angry
+        - id: ch02-b02
+          speaker: youth
+          text: 父亲，我没有错。他半夜站在那里，像要害人。我不知道他是谁，已经警告了三次，叫他开口或是离开。
+        - id: ch02-b03
+          speaker: father
+          text: 你只会给我惹祸！快走开，我再也不管你了。
+          emotion: angry
+        - id: ch02-b04
+          speaker: youth
+          text: 好啊。等天一亮，我就出门学打哆嗦。有了这门本事，我也能靠它谋生。
+        - id: ch02-b05
+          speaker: father
+          text: 随你学什么。这里有五十块钱，拿着到外面去。可不准告诉别人你从哪里来，也不准说父亲是谁，我以你为耻。
+        - id: ch02-b06
+          speaker: youth
+          text: 都听您的。只要记住这一件事，那很容易。
+        - id: ch02-b07
+          speaker: narrator
+          text: 天亮后，年轻人揣着五十块钱，踏上坚硬的大路。一路上，他不停念叨，只盼有人教会他打哆嗦。一个过路人听见了。两人同行一段，走到能远远看见绞刑架的地方，那人指着树上吊着的七具尸体。
+        - id: ch02-b08
+          speaker: traveler
+          text: 瞧，那七个人正挂在树上学飞呢。你坐到下面等天黑，很快就知道打哆嗦是什么滋味了。
+        - id: ch02-b09
+          speaker: youth
+          text: 只要这样就行？那太容易了。我要是真学会了，这五十块钱都给你。明早只管来找我。
+        - id: ch02-b10
+          speaker: narrator
+          text: 年轻人在绞刑架下坐着，一直等到晚上。天冷了，他生起一堆火。到了半夜，寒气越来越重，就算守着火也暖和不起来。风把一具具尸体吹得来回摇摆，彼此碰撞。他心想，自己坐在火边尚且冻成这样，上面那些可怜家伙一定抖得更厉害。
+        - id: ch02-b11
+          speaker: narrator
+          text: 他心肠一软，架起梯子爬上去，把七具尸体一个接一个解下来。他重新拨旺火苗，吹亮余烬，又让他们围着火坐成一圈，好好暖暖身子。可死人坐着一动不动，衣裳很快烧了起来。
+        - id: ch02-b12
+          speaker: youth
+          text: 自己当心，不然我又把你们挂回去！
+        - id: ch02-b13
+          speaker: narrator
+          text: 尸体当然听不见，身上的破衣仍在燃烧。年轻人生了气。
+        - id: ch02-b14
+          speaker: youth
+          text: 你们自己都不管，我也没法帮忙。总不能叫我陪着一起烧吧。
+        - id: ch02-b15
+          speaker: narrator
+          text: 他把七具尸体重新一个挨一个挂回树上，自己回到火边睡着了。第二天一早，过路人赶来，满以为年轻人已经学会害怕，那五十块钱也已经到手。
+        - id: ch02-b16
+          speaker: traveler
+          text: 现在你总该明白打哆嗦是什么滋味了吧？
+        - id: ch02-b17
+          speaker: youth
+          text: 我怎么会明白？上面那些家伙一句话也不说，蠢得连身上仅有的几片破布烧着了都不管。
+        - id: ch02-b18
+          speaker: narrator
+          text: 过路人这才明白，今天无论如何也拿不到那五十块钱。他只得空着手走开，一边走，一边说自己活了一辈子，从没遇见过这样的人。
+
+    - id: ch03
+      title: 闹鬼的城堡
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 年轻人继续赶路，嘴里仍旧念叨着想学会打哆嗦。走在后面的脚夫听见了，先问他是谁，又问他从哪里来，父亲是谁。年轻人牢牢记着父亲的话，一个问题也没有好好回答。
+        - id: ch03-b02
+          speaker: youth
+          text: 我不知道自己是谁，也不知道从哪里来。父亲是谁，我不能说。我只知道，要是能学会打哆嗦，我什么都肯给，可没人教得会我。
+        - id: ch03-b03
+          speaker: carrier
+          text: 胡说八道！跟我走吧，很快就能叫你如愿。
+        - id: ch03-b04
+          speaker: narrator
+          text: 年轻人跟着脚夫继续走。傍晚，两人来到一家客店，准备在那里过夜。年轻人刚跨进屋门，又扯开嗓门念起那句话，只盼自己能打哆嗦。店主听见以后笑了起来。
+        - id: ch03-b05
+          speaker: innkeeper
+          text: 你若一心想学，在这里可有的是机会。
+        - id: ch03-b06
+          speaker: innkeeper_wife
+          text: 别乱说！那么多人因为好奇送了命。要是这双漂亮眼睛再也见不到天光，那多可惜。
+        - id: ch03-b07
+          speaker: youth
+          text: 再难我也要学。我出门就是为了这件事。
+        - id: ch03-b08
+          speaker: narrator
+          text: 他缠着店主不放。店主终于告诉他，附近有座闹鬼的城堡。只要敢在里面守上三个晚上，谁都能轻轻松松学会打哆嗦。国王已经许诺，无论哪个男人敢去，便把天底下最美丽的公主嫁给他。城堡里还有邪灵守护的财宝，也会因此重见天日，足够让穷人变得富过头。许多人已经进去试过，却没有一个活着出来。
+        - id: ch03-b09
+          speaker: youth
+          text: 请准许我进城堡守三个晚上。
+        - id: ch03-b10
+          speaker: narrator
+          text: 年轻人马上去见国王，请求到城堡里守上三夜。国王仔细打量他，觉得这个年轻人很讨人喜欢，便答应了他的请求。
+        - id: ch03-b11
+          speaker: king
+          text: 你可以要三样东西带进去，只要都不是活物。
+        - id: ch03-b12
+          speaker: youth
+          text: 那么，我要一堆火、一张车床，还有一张带刀的木工台。
+        - id: ch03-b13
+          speaker: narrator
+          text: 第二天，国王命人把三样东西全都送进城堡。夜幕落下，年轻人在一间屋里点起熊熊的火，把带刀的木工台摆在旁边，自己坐上车床。他叹着气，觉得在这里恐怕还是学不会打哆嗦。快到半夜，他俯下身，正要把火吹旺，角落里忽然传来尖叫。
+        - id: ch03-b14
+          speakers: [black_cat_1, black_cat_2]
+          ensemble: duo
+          text: 嗷呜，喵呜！我们好冷啊！
+        - id: ch03-b15
+          speaker: youth
+          text: 一群傻瓜！冷就来烤火，叫什么叫？
+        - id: ch03-b16
+          speaker: narrator
+          text: 话音刚落，两只硕大的黑猫猛扑出来，一左一右坐在年轻人身边。它们用火焰般的眼睛恶狠狠地盯住他。等身上烤暖了，两只猫又一同开口。
+        - id: ch03-b17
+          speakers: [black_cat_1, black_cat_2]
+          ensemble: duo
+          text: 朋友，跟我们玩几局牌吧？
+        - id: ch03-b18
+          speaker: youth
+          text: 好啊。不过先让我看看你们的爪子。
+        - id: ch03-b19
+          speaker: narrator
+          text: 黑猫伸出长长的利爪。年轻人一把揪住它们的后颈，提上木工台，将爪子牢牢夹住。
+        - id: ch03-b20
+          speaker: youth
+          text: 好长的指甲！我得先替你们剪掉。仔细看过你们以后，我可不想打牌了。
+        - id: ch03-b21
+          speaker: narrator
+          text: 他打死两只黑猫，把它们扔进外面的水里。可刚送走这两个家伙，准备坐回火边，各个角落又涌出成群的黑猫和黑狗，身上拖着燃烧的锁链。怪物越聚越多，把四周堵得严严实实，让他根本无处可躲。它们发出最可怕的号叫，纷纷扑进火堆，把燃烧的柴块和火星踢得四处飞散，拼命想要将火踩灭。年轻人安静地看了一阵，直到它们闹得太过分，才抓起木工刀。
+        - id: ch03-b22
+          speaker: youth
+          text: 滚开，你们这群乌合之众！
+          emotion: angry
+        - id: ch03-b23
+          speaker: narrator
+          text: 他挥刀冲进怪物中间。有些黑猫黑狗掉头逃走了，其余的都被他打死，一个个扔进城堡下面的池塘。年轻人回到屋里，重新吹旺散落的火星，又坐下取暖。坐着坐着，他的眼睛再也睁不开，困意悄悄袭来。他环顾四周，看见角落里有张大床，便说这正合心意，躺了上去。
+        - id: ch03-b24
+          speaker: narrator
+          text: 他刚合眼，床就自己动起来，绕着城堡飞奔。
+        - id: ch03-b25
+          speaker: youth
+          text: 好极了，再快一点儿！
+          emotion: happy
+        - id: ch03-b26
+          speaker: narrator
+          text: 床越跑越快，像由六匹马拉着。它越过一道道门槛，冲上楼梯，又从楼梯上奔下来，一会儿上，一会儿下。忽然砰砰两响，它猛地翻了个底朝天，像一座山似的压住年轻人。他把毯子和枕头全掀到空中，从下面钻了出来。
+        - id: ch03-b27
+          speaker: youth
+          text: 谁还想兜风，只管自己去吧。
+        - id: ch03-b28
+          speaker: narrator
+          text: 他不再理会那张床，回到火边躺下，一觉睡到天亮。早晨，国王亲自走进城堡。看见年轻人倒在地上，他以为这个好小伙终究斗不过鬼怪，已经丢了性命。
+        - id: ch03-b29
+          speaker: king
+          text: 真可惜，多好的一个年轻人啊。
+          emotion: sad
+        - id: ch03-b30
+          speaker: youth
+          text: 还没到那个地步呢。
+        - id: ch03-b31
+          speaker: narrator
+          text: 年轻人突然起身，国王又惊又喜，赶紧问他这一夜到底过得如何。
+        - id: ch03-b32
+          speaker: youth
+          text: 好得很。第一夜既然平安熬过去了，另外两夜也一定不会有事。
+        - id: ch03-b33
+          speaker: narrator
+          text: 年轻人后来回到客店。店主一见他，眼睛瞪得滚圆，怎么也没料到这个小伙子还能活着回来。
+        - id: ch03-b34
+          speaker: innkeeper
+          text: 现在你学会打哆嗦了吗？
+        - id: ch03-b35
+          speaker: youth
+          text: 没有，简直毫无指望。要是有人肯告诉我，那究竟是什么滋味就好了！
+
+    - id: ch04
+      title: 骷髅头的九柱戏
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 第二天夜里，年轻人又来到古堡，坐在火边，念起那句老话。他只想学会打哆嗦。快到半夜时，四周响起一阵喧闹。起先声音很轻，后来越来越响，接着又突然安静了片刻。最后，一声惨叫划破寂静，半个人从烟囱里掉下来，正好落在他面前。
+        - id: ch04-b02
+          speaker: youth
+          text: 喂，上面的！还少一半呢，只有这些可不够。
+        - id: ch04-b03
+          speaker: narrator
+          text: 四周的喧闹声又响起来，尖叫和号哭混在一起。过了一会儿，另外半个人终于也从烟囱里落了下来。
+        - id: ch04-b04
+          speaker: youth
+          text: 等一下，我替你把火拨旺些。
+        - id: ch04-b05
+          speaker: narrator
+          text: 年轻人拨旺了火，再回头一看，那两半身子已经合在一起。一个模样骇人的男人好端端坐在那里，而且偏偏占了他的位子。
+        - id: ch04-b06
+          speaker: youth
+          text: 这可不成。那是我的座位。
+        - id: ch04-b07
+          speaker: narrator
+          text: 那男人想把他从座位上推走，他却半步也不肯让，反而使劲推开对方，重新坐回自己的地方。随后，更多人一个接一个从烟囱落下。他们搬来九根死人腿和两个骷髅头，把腿当成木柱，把头当成球，摆好以后玩起九柱戏。年轻人看得手痒，也想加入。
+        - id: ch04-b08
+          speaker: youth
+          text: 喂，我也能一起玩吗？
+        - id: ch04-b09
+          speaker: ninepin_player
+          text: 可以，只要你有钱。
+        - id: ch04-b10
+          speaker: youth
+          text: 钱我有的是。不过你们的球不够圆。
+        - id: ch04-b11
+          speaker: narrator
+          text: 他把两个骷髅头放上车床，车得圆溜溜的。
+        - id: ch04-b12
+          speaker: youth
+          text: 现在好滚多了。嗨呀，这下可有得玩了！
+          emotion: happy
+        - id: ch04-b13
+          speaker: narrator
+          text: 年轻人和鬼怪兴高采烈地打起九柱戏，玩了好一阵，还输掉几个小钱。十二点的钟声一响，眼前的鬼怪、死人腿和骷髅头突然全都消失了。他并不觉得害怕，只管躺下来，安安稳稳睡到早晨。国王惦记着他，天一亮便急着赶来问消息。
+        - id: ch04-b14
+          speaker: king
+          text: 这一夜过得怎么样？
+        - id: ch04-b15
+          speaker: youth
+          text: 我打了几局九柱戏，输了几个小钱。
+        - id: ch04-b16
+          speaker: king
+          text: 那你还是没打哆嗦？
+        - id: ch04-b17
+          speaker: youth
+          text: 哪有这样的好运气。我玩得倒很快活。唉，要是我知道打哆嗦是什么滋味就好了！
+
+    - id: ch05
+      title: 棺材与白胡子幽灵
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 第三天夜里，年轻人又坐上那张木工台。他已经有些沮丧，嘴里还是念着，自己要是能打哆嗦就好了。夜渐渐深了，六个身材高大的男人走进屋里，肩上还抬着一口棺材。
+        - id: ch05-b02
+          speaker: youth
+          text: 哈！里面多半是我那个几天前刚死的小表弟。来吧，小表弟，过来吧。
+        - id: ch05-b03
+          speaker: narrator
+          text: 六个大汉把棺材放在地上。年轻人走过去，揭开棺盖，看见里面躺着一个死人。他伸手摸了摸那张脸，发现那人的皮肤冷得像冰。
+        - id: ch05-b04
+          speaker: youth
+          text: 等一等，我给你暖和暖和。
+        - id: ch05-b05
+          speaker: narrator
+          text: 他到火边烤热双手，贴在死人脸上，可死人仍旧冰冷。于是他把尸体抱出来，自己坐到火边，将他横放在膝头，替他揉搓手臂，想让血重新流动，依旧没有用。年轻人又想到，两个人同睡一张床，就能彼此取暖。他便把死人放进床里，盖好被子，自己也躺在旁边。过了一阵，尸体真的渐渐暖起来，开始动了。
+        - id: ch05-b06
+          speaker: youth
+          text: 小表弟，你瞧，要不是我替你取暖，你会落到什么地步！
+        - id: ch05-b07
+          speaker: corpse
+          text: 现在我要掐死你！
+          emotion: angry
+        - id: ch05-b08
+          speaker: youth
+          text: 什么？我帮了你，你就这样报答？那还是回棺材里去吧。
+        - id: ch05-b09
+          speaker: narrator
+          text: 他立刻抱起死人，把他重新扔进棺材，又结结实实合上盖子。那六个大汉随即走进屋，将棺材重新抬起来，原路带走了。
+        - id: ch05-b10
+          speaker: youth
+          text: 我就是不会打哆嗦。看来在这里住一辈子也学不会。
+        - id: ch05-b11
+          speaker: narrator
+          text: 棺材被抬走以后，又有一个男人走进来。他的身材高得异乎寻常，模样也极其可怕。可是仔细一看，他已经很老了，脸上长着一把雪白的长胡子。
+        - id: ch05-b12
+          speaker: white_bearded_spirit
+          text: 你这个可怜虫，这回马上就知道打哆嗦是什么滋味了。因为你非死不可！
+          emotion: angry
+        - id: ch05-b13
+          speaker: youth
+          text: 没那么快。要我死，你得先抓住我。
+        - id: ch05-b14
+          speaker: white_bearded_spirit
+          text: 抓住你还不容易？
+        - id: ch05-b15
+          speaker: youth
+          text: 慢着，别把牛皮吹得太大。我的力气和你一样大，说不定还胜过你。
+        - id: ch05-b16
+          speaker: white_bearded_spirit
+          text: 那就试试。你要是比我强，我便放你走。来，比一比！
+        - id: ch05-b17
+          speaker: narrator
+          text: 老人领着年轻人穿过一条又一条黑暗的过道，最后来到一间铁匠铺。他抓起一把斧头，抡圆了朝铁砧劈下去，只一下就把整座铁砧深深砸进地里。
+        - id: ch05-b18
+          speaker: youth
+          text: 我能做得更好！
+        - id: ch05-b19
+          speaker: narrator
+          text: 年轻人走到另一座铁砧前。老人为了看个清楚，也跟着凑近过去，长长的白胡子一直垂到铁砧上。年轻人抡起斧头，把铁砧从中劈开，再将老人的胡子牢牢夹进裂缝。
+        - id: ch05-b20
+          speaker: youth
+          text: 这下抓住你了。现在轮到你送命！
+        - id: ch05-b21
+          speaker: narrator
+          text: 他抄起一根铁棍，狠狠抽打老人。老人疼得呜咽哀号，不住求他停手，还答应送给他一大笔财富。年轻人听见这个条件，这才拔出斧头，放开老人的胡子。老人领他沿原路回到城堡，在一间地窖里指给他看三只装满黄金的大箱子。
+        - id: ch05-b22
+          speaker: white_bearded_spirit
+          text: 一箱属于穷人，一箱属于国王，第三箱归你。
+        - id: ch05-b23
+          speaker: narrator
+          text: 老人的话刚说完，十二点的钟声就在这时响起。幽灵骤然从眼前消失，只把年轻人独自留在地窖的黑暗里。
+        - id: ch05-b24
+          speaker: youth
+          text: 我总能找到出去的路。
+        - id: ch05-b25
+          speaker: narrator
+          text: 他在漆黑的城堡里摸索了半天，碰过一道道墙，终于找到出去的路，回到原先生火的屋子。他在火边倒下，很快睡着了。第二天早上，国王又来查看他是否平安。
+        - id: ch05-b26
+          speaker: king
+          text: 怎么样，这下总该学会打哆嗦了吧？
+        - id: ch05-b27
+          speaker: youth
+          text: 没有。打哆嗦究竟是什么？我死去的小表弟来过，一个白胡子老人还带我到地下看了成堆的钱，可从头到尾，仍旧没人告诉我什么叫打哆嗦。
+        - id: ch05-b28
+          speaker: king
+          text: 你已经解除了城堡的诅咒。现在，你可以娶我的女儿了。
+        - id: ch05-b29
+          speaker: youth
+          text: 那当然好极了。不过我还是不知道打哆嗦是什么滋味。
+
+    - id: ch06
+      title: 终于学会打哆嗦
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: 三箱黄金全被搬出城堡，年轻人也同公主举行了一场盛大的婚礼。他成了年轻的国王，十分疼爱妻子，日子过得快活极了。可他嘴里仍旧不停念叨，自己要是能打哆嗦就好了。一天又一天，公主终于被他说得几乎绝望，只好向侍女诉苦。
+        - id: ch06-b02
+          speaker: maid
+          text: 我来帮您。我们很快就能叫他打哆嗦。
+        - id: ch06-b03
+          speaker: narrator
+          text: 侍女来到流过花园的小溪边，叫人替她捞来满满一桶活蹦乱跳的小鲦鱼。到了夜里，年轻的国王睡熟了。公主照着侍女教的办法，轻轻掀开丈夫身上的被子，把一桶小鱼全倒了上去。冰凉的小鱼贴着他的身体，在他身边不停游来游去。年轻的国王猛地惊醒。
+        - id: ch06-b04
+          speaker: youth
+          text: 哎呀，我直打哆嗦，我直打哆嗦，亲爱的妻子！对了，现在我终于知道打哆嗦是什么滋味了！
+          emotion: surprised

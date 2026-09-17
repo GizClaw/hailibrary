@@ -1,0 +1,628 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, thoughtful, and gently amused
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    prince:
+      display_name: Prince
+      tts:
+        delivery: courteous, alert, and youthful
+        timbre: clear and bright
+        pace: moderate
+        pitch: medium
+    ogress:
+      display_name: Ogress
+      tts:
+        delivery: smooth, deceptive, and watchful
+        timbre: rich and shadowed
+        pace: measured
+        pitch: medium-low
+    ogress_child_1:
+      display_name: First Ogress Child
+      tts:
+        delivery: hungry and impatient
+        timbre: rough and youthful
+        pace: quick
+        pitch: medium-high
+    ogress_child_2:
+      display_name: Second Ogress Child
+      tts:
+        delivery: eager and menacing
+        timbre: thin and sharp
+        pace: quick
+        pitch: high
+    kings_vizir:
+      display_name: King's Vizir
+      tts:
+        delivery: grave, calculating, and persuasive
+        timbre: dry and controlled
+        pace: measured
+        pitch: medium-low
+    greek_king:
+      display_name: Greek King
+      tts:
+        delivery: regal, uncertain, and easily swayed
+        timbre: full and mature
+        pace: measured
+        pitch: medium-low
+    physician_douban:
+      display_name: Physician Douban
+      tts:
+        delivery: dignified, earnest, and resolute
+        timbre: warm and mature
+        pace: measured
+        pitch: medium
+    executioner:
+      display_name: Executioner
+      tts:
+        delivery: formal and impassive
+        timbre: deep and firm
+        pace: deliberate
+        pitch: low
+    courtier_1:
+      display_name: First Courtier
+      tts:
+        delivery: urgent and respectful
+        timbre: clear and mature
+        pace: moderate
+        pitch: medium
+    courtier_2:
+      display_name: Second Courtier
+      tts:
+        delivery: concerned and respectful
+        timbre: soft and mature
+        pace: measured
+        pitch: medium
+    fisherman:
+      display_name: Fisherman
+      tts:
+        delivery: practical, cautious, and quietly determined
+        timbre: weathered and warm
+        pace: unhurried
+        pitch: medium-low
+    genius:
+      display_name: Genius
+      tts:
+        delivery: powerful and solemn
+        timbre: deep and resonant
+        pace: deliberate
+        pitch: low
+    sultan:
+      display_name: Sultan
+      tts:
+        delivery: commanding, curious, and resolute
+        timbre: rich and authoritative
+        pace: measured
+        pitch: medium-low
+    grand_vizir:
+      display_name: Grand Vizir
+      tts:
+        delivery: dutiful, thoughtful, and composed
+        timbre: clear and mature
+        pace: measured
+        pitch: medium-low
+    cook:
+      display_name: Cook
+      tts:
+        delivery: capable, direct, and easily startled
+        timbre: warm and clear
+        pace: moderate
+        pitch: medium
+    damsel:
+      display_name: Mysterious Damsel
+      tts:
+        delivery: ceremonial, distant, and commanding
+        timbre: luminous and clear
+        pace: deliberate
+        pitch: medium-high
+    fish_white:
+      display_name: White Fish
+      tts:
+        delivery: uncanny and rhythmic
+        timbre: light and clear
+        pace: measured
+        pitch: high
+    fish_red:
+      display_name: Red Fish
+      tts:
+        delivery: uncanny and rhythmic
+        timbre: bright and ringing
+        pace: measured
+        pitch: medium-high
+    fish_blue:
+      display_name: Blue Fish
+      tts:
+        delivery: uncanny and rhythmic
+        timbre: cool and smooth
+        pace: measured
+        pitch: medium
+    fish_yellow:
+      display_name: Yellow Fish
+      tts:
+        delivery: uncanny and rhythmic
+        timbre: soft and reedy
+        pace: measured
+        pitch: medium-high
+    palace_slave:
+      display_name: Palace Slave
+      tts:
+        delivery: terrible, proud, and commanding
+        timbre: thunderous and dark
+        pace: deliberate
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Prince and the Ogress
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Long ago, a king had a son who loved to hunt. The king often let the young prince enjoy the chase, but he always sent his grand-vizir along with strict orders never to let the prince out of his sight.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            One day, the huntsman startled a stag from its hiding place. The prince thought the vizir was close behind him, so he spurred after it. He rode so hard that before long, he was completely alone. When the stag disappeared, he stopped and turned back. The vizir had failed to keep up, and the prince could no longer find the road.
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            As he searched for the way, he saw a beautiful young woman beside the road, weeping bitterly. He reined in his horse and asked who she was, why she was alone, and whether he could help her.
+        - id: ch01-b04
+          speaker: ogress
+          text: >-
+            I am the daughter of an Indian king. I was riding through the countryside when I fell asleep and tumbled from my horse. It ran away, and I have no idea where it has gone.
+          emotion: sad
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            The prince felt sorry for her. He offered her a place behind him on his horse, and she climbed on. When they passed a ruined building, the young woman got down and went inside. The prince followed her.
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            Then he heard her speaking to someone hidden in the ruins, and her words stopped him cold.
+        - id: ch01-b07
+          speaker: ogress
+          text: >-
+            Rejoice, my children! I have brought you a fine, fat young man.
+          emotion: happy
+        - id: ch01-b08
+          speakers: [ogress_child_1, ogress_child_2]
+          ensemble: duo
+          text: >-
+            Where is he, Mamma? We are starving. Let us eat him now!
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            At once, the prince understood his danger. This was no Indian princess. She was an ogress who lived in lonely places. She knew a thousand tricks for surprising passing travelers and devouring them. Terrified, he rushed back to his horse and mounted.
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            The false princess came out just then. She saw that her prey had escaped her trap.
+        - id: ch01-b11
+          speaker: ogress
+          text: >-
+            There is no need to be frightened. Tell me what you are looking for.
+        - id: ch01-b12
+          speaker: prince
+          text: >-
+            I have lost my way. I only want to find the road again.
+          emotion: fearful
+        - id: ch01-b13
+          speaker: ogress
+          text: >-
+            Ride straight ahead. You will find it that way.
+        - id: ch01-b14
+          speaker: narrator
+          text: >-
+            The prince could hardly believe what he had heard. He galloped away as fast as he could, found the road, and reached his father's home safely. There he told the king how the grand-vizir's carelessness had placed him in terrible danger. The king flew into a rage and ordered the vizir strangled at once.
+    - id: ch02
+      title: The Vizir's Warning
+      blocks:
+        - id: ch02-b01
+          speaker: kings_vizir
+          text: >-
+            Sire, that is what happened to the careless vizir. Now let us return to the physician Douban. Unless you guard yourself, you will regret trusting him. He cured you with his remedy, but who can say what harm it may do as time passes?
+        - id: ch02-b02
+          speaker: narrator
+          text: >-
+            The Greek king was weak by nature. He did not recognize the wicked purpose behind his vizir's advice, and he could not hold firmly to his first decision.
+        - id: ch02-b03
+          speaker: greek_king
+          text: >-
+            Vizir, perhaps you are right. Douban may truly have come here to kill me. A single breath of one of his drugs might be enough. I must decide what to do.
+        - id: ch02-b04
+          speaker: kings_vizir
+          text: >-
+            There is only one safe course, sire. Send for him now, and the moment he arrives, have his head cut off.
+        - id: ch02-b05
+          speaker: greek_king
+          text: >-
+            Yes. I believe that is the best way.
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            The king ordered a minister to fetch the physician. Douban came without delay.
+        - id: ch02-b07
+          speaker: greek_king
+          text: >-
+            I summoned you because I mean to be rid of you. I am going to take your life.
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            The physician was stunned. He could scarcely understand that the king meant to put him to death.
+        - id: ch02-b09
+          speaker: physician_douban
+          text: >-
+            Your Majesty, what crime have I committed?
+          emotion: surprised
+        - id: ch02-b10
+          speaker: greek_king
+          text: >-
+            I have learned that you are a spy who plans to kill me. I will strike first. Executioner, rid me of this assassin.
+          emotion: angry
+        - id: ch02-b11
+          speaker: narrator
+          text: >-
+            At that cruel command, Douban fell to his knees.
+        - id: ch02-b12
+          speaker: physician_douban
+          text: >-
+            Spare my life, and your own life will be spared!
+          emotion: fearful
+        - id: ch02-b13
+          speaker: narrator
+          text: >-
+            At this point in the tale, the fisherman paused to speak to the genius trapped inside the vase.
+        - id: ch02-b14
+          speaker: fisherman
+          text: >-
+            You see, the very thing that passed between the Greek king and his physician has now passed between us.
+        - id: ch02-b15
+          speaker: narrator
+          text: >-
+            Then the fisherman continued his story. The Greek king showed Douban no mercy, and the executioner covered the physician's eyes. Everyone at court pleaded for Douban's life, but the king refused to listen.
+        - id: ch02-b16
+          speakers: [courtier_1, courtier_2]
+          ensemble: duo
+          text: >-
+            Please, Your Majesty, spare the physician. Do not take the life of the man who cured you.
+        - id: ch02-b17
+          speaker: physician_douban
+          text: >-
+            Then grant me enough time to put my affairs in order and leave my books to people who will use them well. There is one precious book I wish to give Your Majesty. Keep it safely in your treasury.
+        - id: ch02-b18
+          speaker: physician_douban
+          text: >-
+            The book holds many wonders. The greatest is this. After my head has been cut off, open the book to the sixth leaf. Read the third line on the left-hand page, and my head will answer any question you ask.
+        - id: ch02-b19
+          speaker: narrator
+          text: >-
+            The king longed to witness such a marvel. He delayed the execution until the next day and sent Douban home under heavy guard. The physician settled his affairs there.
+    - id: ch03
+      title: The Physician's Book
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            The next day, a great crowd filled the hall. They had come to watch Douban's death and see the wonder that was supposed to follow it. The physician approached the foot of the throne carrying a large book and a basin. He spread the book's covering across the basin and offered the book to the king.
+        - id: ch03-b02
+          speaker: physician_douban
+          text: >-
+            Sire, take this book. When my head is cut off, have it placed in the basin upon the book's covering. The blood will stop flowing as soon as my head touches it. Then open the book, and my head will answer your questions. But I beg you once more, have mercy. I am innocent.
+        - id: ch03-b03
+          speaker: greek_king
+          text: >-
+            Your pleading will do no good. Even if I had no other reason, I would still put you to death just to hear your severed head speak.
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            The king took the book from Douban's hands and ordered the executioner to carry out the sentence.
+        - id: ch03-b05
+          speaker: greek_king
+          text: >-
+            Do your duty.
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            The executioner struck so skillfully that the physician's head fell straight into the basin. At once, the blood stopped flowing. Then, to the king's great astonishment, the eyes opened.
+        - id: ch03-b07
+          speaker: physician_douban
+          text: >-
+            Your Majesty, open the book.
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            The king opened it, but the first leaf clung to the second. To separate them, he wet his finger in his mouth. He did the same with each leaf until he reached the sixth page. There was nothing written there.
+        - id: ch03-b09
+          speaker: greek_king
+          text: >-
+            Physician, this page is blank.
+        - id: ch03-b10
+          speaker: physician_douban
+          text: >-
+            Turn a few more pages.
+        - id: ch03-b11
+          speaker: narrator
+          text: >-
+            The king kept turning the leaves, putting his finger to his mouth each time. Every page had been dipped in poison. Soon it began to work. His sight failed, and he collapsed at the foot of his throne.
+        - id: ch03-b12
+          speaker: narrator
+          text: >-
+            The physician's head saw that the poison had taken hold and that the king had only moments left to live.
+        - id: ch03-b13
+          speaker: physician_douban
+          text: >-
+            Tyrant, now you see how cruelty and injustice are punished!
+          emotion: angry
+        - id: ch03-b14
+          speaker: narrator
+          text: >-
+            The words had scarcely left his lips when the king died. At the same moment, the last spark of life left the physician's head.
+        - id: ch03-b15
+          speaker: narrator
+          text: >-
+            That was the end of the Greek king's story. Now the fisherman returned to his own struggle with the genius.
+        - id: ch03-b16
+          speaker: fisherman
+          text: >-
+            If the Greek king had spared the physician, he would not have died that way. The same is true for you. I am going to throw you back into the sea.
+        - id: ch03-b17
+          speaker: genius
+          text: >-
+            My friend, do not be so cruel. You must not treat me as Imma treated Ateca.
+        - id: ch03-b18
+          speaker: fisherman
+          text: >-
+            What did Imma do to Ateca?
+        - id: ch03-b19
+          speaker: genius
+          text: >-
+            How can I tell you while I am shut inside this vase? Let me out, and I will make you rich.
+        - id: ch03-b20
+          speaker: narrator
+          text: >-
+            The thought of escaping poverty weakened the fisherman's resolve.
+        - id: ch03-b21
+          speaker: fisherman
+          text: >-
+            Give me your promise, and I will lift the lid. I do not believe you would dare break your word.
+        - id: ch03-b22
+          speaker: narrator
+          text: >-
+            The genius gave his promise, and the fisherman opened the vase. Smoke rushed out at once and gathered into the genius's true form. His first act was to kick the vase into the sea.
+        - id: ch03-b23
+          speaker: narrator
+          text: >-
+            The fisherman was frightened, but the genius only laughed.
+        - id: ch03-b24
+          speaker: genius
+          text: >-
+            Do not be afraid. I kicked it away only to frighten you. I mean to keep my promise. Take up your nets and follow me.
+        - id: ch03-b25
+          speaker: narrator
+          text: >-
+            The genius walked ahead, and the fisherman followed with uneasy thoughts, still unsure what might happen. Their path took them past the town and up the side of a mountain. After crossing it, they descended into a broad plain. There, surrounded by four hills, lay a great lake.
+    - id: ch04
+      title: The Lake of Four Colors
+      blocks:
+        - id: ch04-b01
+          speaker: genius
+          text: >-
+            Cast your net into this lake and catch some fish.
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            The fisherman did as he was told. He could see plenty of fish in the clear water, so he hoped for a good catch. But when he pulled in his net, he stared in amazement. He had caught four fish, and each was a different kind. One was white, one red, one blue, and one yellow.
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            He had never seen fish like them. Their beauty delighted him, and he began to imagine how much money they might bring.
+        - id: ch04-b04
+          speaker: genius
+          text: >-
+            Take these fish to the Sultan. He will pay you more for them than you have ever received in your life. You may return to this lake each day, but cast your net only once. If you cast it more than once in a day, harm will come to you. Follow my warning exactly, and it will serve you well.
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            Then the genius struck the ground with his foot. The earth opened beneath him, and after he disappeared into it, it closed again at once.
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            The fisherman resolved to obey every word. He did not cast his net again. Instead, he carried the four fish into town and presented them at the palace.
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            The Sultan was astonished. He studied each fish in turn, admiring all four for a long while.
+        - id: ch04-b08
+          speaker: sultan
+          text: >-
+            Vizir, take these fish to the skilled cook sent to me by the Emperor of the Greeks. They must taste every bit as wonderful as they look.
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            The grand-vizir carried the fish to the cook himself.
+        - id: ch04-b10
+          speaker: grand_vizir
+          text: >-
+            These four fish were brought to the Sultan, and he wishes you to cook them.
+        - id: ch04-b11
+          speaker: narrator
+          text: >-
+            The vizir returned to the Sultan, who ordered him to give the fisherman four hundred gold pieces. The poor man had never possessed such a large sum all at once. He could hardly believe his good fortune. He went straight home, relieved his family's needs, and made good use of the money.
+    - id: ch05
+      title: The Damsel in the Wall
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            Meanwhile, confusion was about to fill the palace kitchen. The cook cleaned the fish and laid them in a pan of oil. Once the first side was done, she turned them over.
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            At that very moment, the kitchen wall opened. A beautiful young woman stepped through. She wore flowered Egyptian satin, pearl earrings and a pearl necklace, and gold bracelets set with rubies. In one hand, she carried a wand of myrtle.
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            The cook was so astonished that she could not move. The damsel crossed to the pan and tapped one fish with her wand.
+        - id: ch05-b04
+          speaker: damsel
+          text: >-
+            Fish, fish, are you doing your duty?
+        - id: ch05-b05
+          speaker: narrator
+          text: >-
+            The fish gave no answer. The damsel asked them again. This time, all four raised their heads together and spoke distinctly.
+        - id: ch05-b06
+          speakers: [fish_white, fish_red, fish_blue, fish_yellow]
+          ensemble: chorus
+          text: >-
+            Yes, yes. If you reckon, we reckon. If you pay your debts, we pay ours. If you fly, we conquer, and we are content.
+        - id: ch05-b07
+          speaker: narrator
+          text: >-
+            As soon as they finished, the damsel overturned the pan. Then she stepped back through the opening, and the wall closed behind her without a mark.
+        - id: ch05-b08
+          speaker: narrator
+          text: >-
+            When the cook recovered from her fright, she picked the fish out of the ashes. They were as black as cinders and could never be served to the Sultan. She burst into tears.
+        - id: ch05-b09
+          speaker: cook
+          text: >-
+            Oh, what can I possibly tell the Sultan? He will be furious with me, and I know he will never believe this!
+          emotion: fearful
+        - id: ch05-b10
+          speaker: narrator
+          text: >-
+            While she was still crying, the grand-vizir entered and asked whether the fish were ready. The cook told him everything that had happened. He was deeply surprised, and he immediately sent for the fisherman.
+        - id: ch05-b11
+          speaker: grand_vizir
+          text: >-
+            Fisherman, bring me four more fish like the first ones. An accident has ruined them, and they cannot be placed before the Sultan.
+        - id: ch05-b12
+          speaker: narrator
+          text: >-
+            The fisherman kept the genius's warning secret. He explained that the lake was too far away for him to return that day, but he promised to bring four more fish the next morning.
+        - id: ch05-b13
+          speaker: narrator
+          text: >-
+            During the night, he made the long journey back to the lake and cast his net once, just as the genius had commanded. When he drew it in, there were four more fish, one of each color, just like the first. He returned at once and carried them to the grand-vizir, keeping the promise he had made.
+        - id: ch05-b14
+          speaker: narrator
+          text: >-
+            The vizir took the fish to the kitchen and locked himself inside with the cook. She prepared them exactly as before. When she was about to turn them, the wall opened. The same damsel appeared, touched the fish, and asked the same question.
+        - id: ch05-b15
+          speaker: damsel
+          text: >-
+            Fish, fish, are you doing your duty?
+        - id: ch05-b16
+          speakers: [fish_white, fish_red, fish_blue, fish_yellow]
+          ensemble: chorus
+          text: >-
+            Yes, yes. If you reckon, we reckon. If you pay your debts, we pay ours. If you fly, we conquer, and we are content.
+        - id: ch05-b17
+          speaker: narrator
+          text: >-
+            Once more, the damsel overturned the pan and vanished through the wall. The grand-vizir could only stare.
+        - id: ch05-b18
+          speaker: grand_vizir
+          text: >-
+            I must tell the Sultan everything that has happened here.
+        - id: ch05-b19
+          speaker: narrator
+          text: >-
+            And that is exactly what he did.
+    - id: ch06
+      title: The Sultan Sees the Marvel
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: >-
+            The Sultan was amazed by the vizir's report. Hearing about the wonder was not enough. He wanted to stand beside the pan and see it happen with his own eyes. He summoned the fisherman and ordered him to bring four more fish. The fisherman asked for three days to make the journey, and the Sultan granted them.
+        - id: ch06-b02
+          speaker: narrator
+          text: >-
+            Once again, the fisherman cast his net in the lake and caught four fish of four different colors. The Sultan was delighted when they arrived and rewarded him with another four hundred gold pieces.
+        - id: ch06-b03
+          speaker: narrator
+          text: >-
+            The Sultan had the fish carried into his own room, along with the pan, oil, and everything else needed to cook them. Then he shut the door and remained inside with the grand-vizir. The vizir cleaned and prepared the fish, laid them in the pan, and cooked one side. As soon as he turned them over, the wall opened.
+        - id: ch06-b04
+          speaker: narrator
+          text: >-
+            This time, it was not the damsel who appeared. An enormously tall slave stepped from the wall, carrying a great green stick. He touched the fish with it and spoke in a terrible voice.
+        - id: ch06-b05
+          speaker: palace_slave
+          text: >-
+            Fish, fish, are you doing your duty?
+        - id: ch06-b06
+          speaker: narrator
+          text: >-
+            The four fish lifted their heads and answered him together.
+        - id: ch06-b07
+          speakers: [fish_white, fish_red, fish_blue, fish_yellow]
+          ensemble: chorus
+          text: >-
+            Yes, yes. If you reckon, we reckon. If you pay your debts, we pay ours. If you fly, we conquer, and we are content.
+        - id: ch06-b08
+          speaker: narrator
+          text: >-
+            The slave overturned the pan in the middle of the room, and the fish became cinders. Then he stepped proudly back into the wall, which closed around him.
+        - id: ch06-b09
+          speaker: sultan
+          text: >-
+            I cannot rest after seeing this. These fish hide some mystery, and I must discover what it is.
+        - id: ch06-b10
+          speaker: narrator
+          text: >-
+            The Sultan sent for the fisherman.
+        - id: ch06-b11
+          speaker: sultan
+          text: >-
+            Fisherman, these fish have greatly troubled me. Tell me where you caught them.
+        - id: ch06-b12
+          speaker: fisherman
+          text: >-
+            Sire, they came from a lake that lies between four hills, beyond those mountains.
+        - id: ch06-b13
+          speaker: sultan
+          text: >-
+            Vizir, do you know this lake?
+        - id: ch06-b14
+          speaker: grand_vizir
+          text: >-
+            No, sire. I have hunted around that mountain many times, but I have never even heard of such a lake.
+        - id: ch06-b15
+          speaker: narrator
+          text: >-
+            The fisherman said the journey took only three hours. At once, the Sultan ordered his whole court to mount their horses, and the fisherman led the way.
+        - id: ch06-b16
+          speaker: narrator
+          text: >-
+            The whole company climbed the mountain. On the far side, they saw the lake exactly where the fisherman had said it would be, lying between the four hills. The water was so clear that they could see the four kinds of fish swimming beneath the surface. White, red, blue, and yellow shapes moved through the lake. The court watched them for some time. Then the Sultan ordered everyone to make camp at the water's edge.
+    - id: ch07
+      title: The Palace of Black Marble
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: >-
+            When night fell, the Sultan called his grand-vizir to him.
+        - id: ch07-b02
+          speaker: sultan
+          text: >-
+            I have made up my mind to solve this mystery. I will leave the camp alone. You must stay here in my tent. When the ministers come tomorrow, tell them I am ill and cannot receive them. Give them the same answer every day until I return.
+        - id: ch07-b03
+          speaker: narrator
+          text: >-
+            The vizir tried to persuade his master not to go, but all his efforts were useless. The Sultan would not change his mind. He removed his royal robe, fastened on his sword, and waited until the entire camp was quiet. Then he set out alone into the night.
+        - id: ch07-b04
+          speaker: narrator
+          text: >-
+            He climbed one of the four hills and then crossed the great plain beyond it. He walked on through the night. Just as the sun began to rise, he saw a large building far ahead of him. As he drew near, he found a splendid palace built of beautiful, polished black marble. Its walls were covered in steel that shone as smooth as a mirror.
+        - id: ch07-b05
+          speaker: narrator
+          text: >-
+            The palace gate stood half open. The Sultan knocked, but no one answered. He went inside and crossed a magnificent courtyard. Though he called out several times, he still saw no one.

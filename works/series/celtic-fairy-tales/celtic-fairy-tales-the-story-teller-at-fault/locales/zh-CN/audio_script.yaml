@@ -1,0 +1,422 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 沉静而富有古老传说的神秘感
+        timbre: 温暖清澈
+        pace: 从容舒缓
+        pitch: 中音
+    storyteller:
+      display_name: 说书人
+      tts:
+        delivery: 善良风趣，受窘时慌张又不失自嘲
+        timbre: 温和略显苍老
+        pace: 中速
+        pitch: 中音
+    storyteller_wife:
+      display_name: 说书人的妻子
+      tts:
+        delivery: 亲切直爽，受魔法影响时若无其事
+        timbre: 柔和清亮
+        pace: 中速
+        pitch: 中高音
+    angus:
+      display_name: 瘦长的灰衣乞丐
+      tts:
+        delivery: 神秘诙谐，捉弄人时从容又狡黠
+        timbre: 干瘦而有穿透力
+        pace: 从容
+        pitch: 中低音
+    odonnell:
+      display_name: 奥唐奈
+      tts:
+        delivery: 威严豪爽，看戏法时兴致盎然
+        timbre: 浑厚洪亮
+        pace: 稍慢
+        pitch: 中低音
+    court_lad_1:
+      display_name: 宫廷小伙甲
+      tts:
+        delivery: 年轻好胜，急着卖弄本领
+        timbre: 明亮有力
+        pace: 稍快
+        pitch: 中高音
+    court_lad_2:
+      display_name: 宫廷小伙乙
+      tts:
+        delivery: 大胆冲动，接受挑战毫不迟疑
+        timbre: 年轻爽朗
+        pace: 稍快
+        pitch: 中音
+    court_lad_3:
+      display_name: 宫廷小伙丙
+      tts:
+        delivery: 随众起哄，语气热烈
+        timbre: 年轻清亮
+        pace: 中速
+        pitch: 中高音
+    king_leinster:
+      display_name: 伦斯特国王
+      tts:
+        delivery: 威严而倦怠，听见妙事时笑声爽朗
+        timbre: 厚重沉稳
+        pace: 稍慢
+        pitch: 中低音
+    leinster_doorkeeper:
+      display_name: 伦斯特王宫守门人
+      tts:
+        delivery: 尽职而直截了当
+        timbre: 清楚结实
+        pace: 中速
+        pitch: 中音
+    guard_captain:
+      display_name: 卫兵队长
+      tts:
+        delivery: 粗直强硬，遇上怪事后惊慌困惑
+        timbre: 粗厚响亮
+        pace: 中速
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 没有新故事的早晨
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 图哈·德·达南人统治爱尔兰时，伦斯特有位国王，最爱听故事。岛上的王公首领都有自己宠爱的说书人，他也不例外。国王赐给说书人大片庄园，条件是对方一生之中，每晚都要在他睡前讲一个新故事。那人知道的故事着实不少，年纪已经老大，却从未误过一晚。他讲故事的本领也高，无论国事还是别的烦恼怎样压在国王心头，总能让国王安然入睡。
+        - id: ch01-b02
+          speaker: narrator
+          text: 一天清早，说书人早早起床，照例在花园散步。他一路翻动心里的奇闻异事，想把它们编成当晚的故事。可这一天，他走遍整座庄园，脑中仍没有一件新鲜稀奇的事。开头倒很容易，什么从前有个国王，生了三个儿子，什么有一天，全爱尔兰的国王。可再往下，他一个字也续不出来。等他终于回到屋里，妻子正奇怪他为何迟迟不来吃早饭。
+        - id: ch01-b03
+          speaker: storyteller_wife
+          text: 亲爱的，你怎么还不来吃饭？
+        - id: ch01-b04
+          speaker: storyteller
+          text: 我什么也吃不下。我为伦斯特国王讲了这么多年故事，从没空着脑袋坐到早餐桌前。可今天，我的脑子全堵住了。晚上国王叫我上殿，我就要永远丢尽脸啦。还不如现在躺下死了算了！
+        - id: ch01-b05
+          speaker: narrator
+          text: 妻子朝窗外一望，指着田野尽头一个黑乎乎的东西。丈夫也看见了。两人走过去，原来是个凄惨的老头躺在地上，一条木腿搁在身旁。
+        - id: ch01-b06
+          speaker: storyteller
+          text: 好人，你是谁？手里为什么还拿着骰盒和骰子？
+        - id: ch01-b07
+          speaker: angus
+          text: 我是谁并不打紧。我不过是个又穷又老、瘸腿残疾的可怜人，在这儿坐着歇歇。我带着骰子，是想等个人陪我赌一局。
+        - id: ch01-b08
+          speaker: storyteller
+          text: 陪你赌？你这样一个穷老头，拿什么下注？
+        - id: ch01-b09
+          speaker: angus
+          text: 我这只皮钱袋里，有一百枚金币。
+        - id: ch01-b10
+          speaker: storyteller_wife
+          text: 你就陪他玩一局吧。没准到了晚上，你会有故事讲给国王听。
+        - id: ch01-b11
+          speaker: narrator
+          text: 两人之间放下一块光滑的石头，就在石面上轮流掷起骰子。说书人原本还盼着能撞见一段新鲜经历，没想到才过一小会儿，身上的钱就输得一枚不剩。
+        - id: ch01-b12
+          speaker: storyteller
+          text: 朋友，愿这些钱给你带来福气。我这样一个傻瓜，还能盼着什么好运呢！
+        - id: ch01-b13
+          speaker: angus
+          text: 再来一局吗？
+        - id: ch01-b14
+          speaker: storyteller
+          text: 别开玩笑了。我的钱都归你了。
+        - id: ch01-b15
+          speaker: angus
+          text: 你不是还有马车、骏马和猎犬吗？我把赢来的钱全押上。
+        - id: ch01-b16
+          speaker: storyteller
+          text: 胡说！哪怕拿全爱尔兰的钱来换，我也不能冒险让夫人走路回家。
+        - id: ch01-b17
+          speaker: angus
+          text: 也许你会赢。
+        - id: ch01-b18
+          speaker: storyteller
+          text: 也许我不会赢。
+        - id: ch01-b19
+          speaker: storyteller_wife
+          text: 丈夫，跟他赌吧。亲爱的，只要你不介意，我走路也没什么。
+        - id: ch01-b20
+          speaker: storyteller
+          text: 从前我从没拒绝过你，这一次也不会。
+        - id: ch01-b21
+          speaker: narrator
+          text: 说书人重新坐下。这一回更快，只掷了一次骰子，他的房屋、猎犬和马车就都归了乞丐。老头又问他还赌不赌。他又气又恼，反问自己已经输得精光，哪里还找得出东西下注。
+        - id: ch01-b22
+          speaker: angus
+          text: 我拿赢来的一切，赌你的妻子。
+        - id: ch01-b23
+          speaker: narrator
+          text: 说书人默默转身，妻子却拦住了他。
+        - id: ch01-b24
+          speaker: storyteller_wife
+          text: 答应吧。这已经是第三回，谁知道会交上什么好运？这次你一定赢。
+        - id: ch01-b25
+          speaker: narrator
+          text: 结果他又输了。更让他又伤心又吃惊的是，妻子立刻走到丑陋的老乞丐身边坐下。
+        - id: ch01-b26
+          speaker: storyteller
+          text: 你就这样离开我吗？
+        - id: ch01-b27
+          speaker: storyteller_wife
+          text: 我已经被他赢走了呀。你总不能骗这个可怜人吧？
+        - id: ch01-b28
+          speaker: angus
+          text: 你还有什么能下注？
+        - id: ch01-b29
+          speaker: storyteller
+          text: 你明知道我什么也没有了。
+        - id: ch01-b30
+          speaker: angus
+          text: 那我把所有东西连你的妻子都押上，赌你本人。
+        - id: ch01-b31
+          speaker: narrator
+          text: 两人第四次掷起骰子，说书人还是输了。如今连他本人都归了老头，只好站在那里问，乞丐究竟想拿他做什么。老头并不急着回答，只从口袋里慢慢掏出一根长绳，又取出一根魔杖。
+        - id: ch01-b32
+          speaker: angus
+          text: 鹿、狐狸、野兔，你想变成哪一种？现在还让你自己挑，待会儿可就未必了。
+    - id: ch02
+      title: 野兔和神秘旅程
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 说书人想来想去，选了野兔。老头把长绳往他身上一套，又用魔杖一敲。转眼间，一只长耳朵的野兔已经在绿地上活蹦乱跳。可这模样没维持多久。他的妻子马上唤来猎犬，放狗追他。野兔在前面逃，群犬在后面咬。田野四周全是高墙，他跑得再快也找不到出口。看着他一会儿急转，一会儿折回，乞丐和夫人都乐坏了。
+        - id: ch02-b02
+          speaker: narrator
+          text: 野兔走投无路，只好奔向妻子身边求救。谁知妻子不肯护住他，反而一脚把他踢回猎犬嘴边。他只得再次拼命逃跑。直到最后，乞丐才喝住群犬，挥动魔杖敲了一下，把野兔变回人形。说书人重新站在他们面前，胸口剧烈起伏，已经累得喘不过气。
+        - id: ch02-b03
+          speaker: angus
+          text: 这场游戏玩得怎么样？
+        - id: ch02-b04
+          speaker: storyteller
+          text: 别人也许觉得有趣，我可宁愿不要这样的乐子。能不能告诉我，你究竟是谁，从哪儿来，又为什么偏爱折磨我这个可怜老头？
+        - id: ch02-b05
+          speaker: angus
+          text: 我是个古怪的无用家伙，今天穷，明天富。你若想多知道些我的来历和习惯，就跟我走。也许我能让你看到一些独自摸索永远也弄不明白的事。
+        - id: ch02-b06
+          speaker: storyteller
+          text: 我已经不是自己的主人，走还是留，都由不得我。
+          emotion: sad
+        - id: ch02-b07
+          speaker: narrator
+          text: 陌生人听罢，把一只手伸进随身的钱袋。说书人和妻子眼睁睁看着他从小小的钱袋里拉出一个相貌堂堂的中年男子，好像那人一直待在里面似的。
+        - id: ch02-b08
+          speaker: angus
+          text: 凭你在我钱袋里听到和看到的一切，好好照管这位夫人、马车和骏马。等我需要时，把它们准备妥当。
+        - id: ch02-b09
+          speaker: narrator
+          text: 话音刚落，眼前万物全都消失了。说书人来到狐狸渡口，就在红休·奥唐奈的城堡附近。他看得见别人，却没人看得见他。
+        - id: ch02-b10
+          speaker: narrator
+          text: 奥唐奈坐在大厅里，身子沉重，心神倦怠。他派守门人出去，看看有什么人或东西来了。守门人走到门外，看见一个瘦长的灰衣乞丐。那人臀后露着半截出鞘的剑，两只鞋灌满一路踩来的冷水，每走一步都哗啦作响。两只耳朵尖钻出破帽，双肩露在窄小褴褛的斗篷外，手里还握着一根青绿的冬青木杖。
+        - id: ch02-b11
+          speaker: angus
+          text: 愿你平安，奥唐奈。
+        - id: ch02-b12
+          speaker: odonnell
+          text: 也愿你平安。你从哪里来，靠什么手艺谋生？
+        - id: ch02-b13
+          speaker: angus
+          text: 我来自大地尽头的溪流，来自白天鹅游过的山谷。一夜宿在艾莱岛，一夜宿在马恩岛，又一夜睡在冰冷的山坡。
+        - id: ch02-b14
+          speaker: odonnell
+          text: 你可真是个远行客，一路上一定学会了些本事。
+        - id: ch02-b15
+          speaker: angus
+          text: 我是个变戏法的。给我五枚银币，就让你看一手。
+        - id: ch02-b16
+          speaker: narrator
+          text: 奥唐奈答应付钱。乞丐拿出三根细麦秆，放在手掌上。
+        - id: ch02-b17
+          speaker: angus
+          text: 我会吹走中间这根，两边的一动不动。
+        - id: ch02-b18
+          speakers: [court_lad_1, court_lad_2, court_lad_3]
+          ensemble: chorus
+          text: 你办不到！
+        - id: ch02-b19
+          speaker: narrator
+          text: 乞丐只用两根手指按住外侧的麦秆，呼地一吹，中间那根就飞了。奥唐奈笑着付给他五枚银币。
+        - id: ch02-b20
+          speaker: court_lad_1
+          text: 给我一半的钱，我也能变这个戏法。
+        - id: ch02-b21
+          speaker: court_lad_3
+          text: 奥唐奈，那就照他说的办吧。
+        - id: ch02-b22
+          speaker: narrator
+          text: 小伙子照样放好三根麦秆，按住两边，张嘴一吹。谁料他的拳头竟跟麦秆一起飞走了。
+        - id: ch02-b23
+          speaker: odonnell
+          text: 你已经吃了苦头，还要吃更大的苦头。
+        - id: ch02-b24
+          speaker: angus
+          text: 再给我六枚银币，我就变另一手。看见我的耳朵了吗？我能只动一只，另一只纹丝不动。
+        - id: ch02-b25
+          speaker: odonnell
+          text: 当然看得见，它们那么大。可你绝不可能只动一只耳朵。
+        - id: ch02-b26
+          speaker: narrator
+          text: 瘦长的灰衣乞丐抬起手，抓住自己一只耳朵，轻轻扯了一下。另一只耳朵当然没有动。奥唐奈看懂了这手一本正经的把戏，不禁大笑起来，照约定付给他六枚银币。
+        - id: ch02-b27
+          speaker: court_lad_1
+          text: 这也算戏法？谁都做得到。
+        - id: ch02-b28
+          speaker: narrator
+          text: 没了拳头的小伙子伸手扯自己的耳朵，竟把耳朵连同脑袋一起扯了下来。
+        - id: ch02-b29
+          speaker: odonnell
+          text: 你已经吃了苦头，还要吃更大的苦头。
+    - id: ch03
+      title: 通往天空的丝线
+      blocks:
+        - id: ch03-b01
+          speaker: angus
+          text: 奥唐奈，刚才的把戏很稀奇，可我还能用同样的价钱，再变一手更稀奇的。
+        - id: ch03-b02
+          speaker: odonnell
+          text: 我答应付钱。
+        - id: ch03-b03
+          speaker: narrator
+          text: 乞丐从腋下取出一只袋子，又从袋里拿出一团丝线。他一点点解开线团，忽然斜斜抛向澄澈的蓝天。那根细线越升越高，立刻化成一道通往天上的梯子。他接着取出一只野兔，把它放在线上。野兔顺着细线飞快跑上去。他又放出一条红耳猎犬，猎犬也踏上线，紧追野兔上了天。
+        - id: ch03-b04
+          speaker: angus
+          text: 有谁愿意跟着猎犬，沿这条路跑一趟？
+        - id: ch03-b05
+          speaker: court_lad_2
+          text: 我愿意。
+        - id: ch03-b06
+          speaker: angus
+          text: 那就上去吧。不过先说好，要是你让我的野兔被咬死，等你下来，我就砍掉你的脑袋。
+        - id: ch03-b07
+          speaker: narrator
+          text: 小伙子沿着丝线跑了上去，很快，他和野兔、猎犬全都消失在众人眼前。大家仰头等了很久，天上却一点动静也没有。乞丐说，恐怕猎犬正在吃野兔，派去照看的小伙子反倒睡着了。他一边说，一边把丝线往回收。小伙子先从天上掉下来，果然睡得正熟。红耳猎犬接着落地，嘴里只剩野兔最后一小块肉。
+        - id: ch03-b08
+          speaker: narrator
+          text: 乞丐见小伙子没有保护好野兔，拔出剑来，用剑刃猛地一挥，砍掉了他的脑袋。至于那条吞吃野兔的红耳猎犬，乞丐也没有轻饶，同样一剑砍下了它的头。
+        - id: ch03-b09
+          speaker: odonnell
+          text: 一条猎犬和一个小伙子死在我的宫廷里，我很不高兴，也实在恼火。
+          emotion: angry
+        - id: ch03-b10
+          speaker: angus
+          text: 每个付我两份五枚银币，我就把他们的脑袋照原样安回去。
+        - id: ch03-b11
+          speaker: narrator
+          text: 奥唐奈照数付钱，五枚，又五枚，银币全交到乞丐手中。转眼间，小伙子重新有了脑袋，猎犬也重新有了脑袋。哪怕他们一直活到时间的尽头，那条狗也再不肯碰一只野兔，小伙子也牢牢记着，无论发生什么都要睁大眼睛。乞丐刚做完这件事，便从众人面前消失。谁也说不清他是飞上了天，还是被大地一口吞了进去。
+        - id: ch03-b12
+          speaker: narrator
+          text: 他像一浪追着一浪，像一阵旋风赶着一阵旋风，又像冬日狂风怒吼。他跑得迅疾、矫健，满心欢畅，神气昂扬，片刻不停，一路来到伦斯特国王的宫廷。他轻快地纵身一跃，越过那里的城头、宫殿与城池。
+    - id: ch04
+      title: 王宫里的三弦竖琴
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 伦斯特国王这时也身子沉重，心神疲倦。往常听故事的时辰已经到了，他左边派人，右边派人，四处寻找那个从不误事的说书人。可无论谁回来，都带不回半点消息。他只好命守门人去门口看看，外面有没有一个人影，能告诉他，说书人究竟去了哪里。
+        - id: ch04-b02
+          speaker: narrator
+          text: 守门人来到门外，果然看见一个瘦长的灰衣乞丐。那人臀后仍露着半截出鞘的剑，两只旧鞋里灌满路上的冷水，走一步响一声。耳朵尖从破帽里钻出来，两边肩膀也露在窄小的烂斗篷外。这一回，他没有拿冬青木杖，手里抱的是一架三弦竖琴。
+        - id: ch04-b03
+          speaker: leinster_doorkeeper
+          text: 你会做什么？
+        - id: ch04-b04
+          speaker: angus
+          text: 我会弹琴。
+        - id: ch04-b05
+          speaker: narrator
+          text: 瘦长的灰衣乞丐又悄悄转向说书人。
+        - id: ch04-b06
+          speaker: angus
+          text: 别怕。你会看见所有事，却没有一个人能看见你。
+        - id: ch04-b07
+          speaker: narrator
+          text: 国王听说门外来了竖琴师，立刻命人把他领进大厅。
+        - id: ch04-b08
+          speaker: king_leinster
+          text: 全爱尔兰五方国土上，最好的竖琴师都在我这里。现在就弹给他听。
+        - id: ch04-b09
+          speaker: narrator
+          text: 王宫琴师们一齐演奏，瘦长的灰衣乞丐站在那里听完了。
+        - id: ch04-b10
+          speaker: king_leinster
+          text: 你以前听过这样的琴声吗？
+        - id: ch04-b11
+          speaker: angus
+          text: 国王啊，你听过猫守着肉汤呼噜呼噜吗？听过暮色里的甲虫嗡嗡叫吗？或者，一个尖嗓门老太婆骂得你耳根不得清静？
+        - id: ch04-b12
+          speaker: king_leinster
+          text: 这些我常常听见。
+        - id: ch04-b13
+          speaker: angus
+          text: 在我听来，这些声音里最难听的一种，也比你的琴师最美的琴声悦耳。
+        - id: ch04-b14
+          speaker: narrator
+          text: 王宫琴师们一听这话，全都拔出剑，怒气冲冲地扑向乞丐。可他们一剑也没砍中他，反倒刀刀落在彼此身上。很快，大厅里没有一个人闲着。人人都在敲破邻人的脑壳，自己的脑壳也轮流挨敲。国王看着这场混战，只觉得十分荒唐。这帮琴师糟蹋音乐还不够，竟又非要自相残杀不可。
+        - id: ch04-b15
+          speaker: king_leinster
+          text: 把挑起乱子的家伙吊死！既然听不到故事，至少让我清静一会儿。
+        - id: ch04-b16
+          speaker: narrator
+          text: 卫兵立刻一拥而上，抓住瘦长的灰衣乞丐。他们把人押出王宫，一路送到绞刑架前，再将他吊得高高的，确信他已经死透。可等众人列队回到大厅，抬头一看，那个乞丐已经舒舒服服坐在长凳上，正把嘴凑到一大壶麦酒旁，大口大口往肚里灌。
+        - id: ch04-b17
+          speaker: guard_captain
+          text: 没人欢迎你回来！我们刚才明明吊死了你，你怎么又跑到这里？
+          emotion: surprised
+        - id: ch04-b18
+          speaker: angus
+          text: 你说的是我本人吗？
+        - id: ch04-b19
+          speaker: guard_captain
+          text: 不是你还能是谁？
+        - id: ch04-b20
+          speaker: angus
+          text: 等你再想拿绳子捆人，愿你的手变成猪蹄！你为什么偏说吊死了我？
+        - id: ch04-b21
+          speaker: narrator
+          text: 卫兵们听得心惊，急急忙忙赶回绞刑架。方才明明挂着乞丐的地方，如今吊着的竟是国王最宠爱的兄弟。众人吓得转身又跑，一路冲回大厅，想把这件怪事禀告国王。可就在这短短工夫里，国王已经沉沉睡着了。
+        - id: ch04-b22
+          speaker: guard_captain
+          text: 启禀陛下，我们吊死了那个四处游荡的无赖，可他又回来了，浑身上下好端端的。
+        - id: ch04-b23
+          speaker: king_leinster
+          text: 那就再吊死他一次。
+        - id: ch04-b24
+          speaker: narrator
+          text: 国王迷迷糊糊说完，又一次睡了过去。卫兵不敢违抗，只得把瘦长的灰衣乞丐抓走，照命令再吊一次。可等他们回头查看，应该挂着乞丐的绳子上，竟换成了国王的首席琴师。卫兵队长看着眼前的人，再想想大厅里的乞丐，完全给弄糊涂了。
+        - id: ch04-b25
+          speaker: angus
+          text: 你还想第三次吊死我吗？
+        - id: ch04-b26
+          speaker: guard_captain
+          text: 你爱去哪儿就去哪儿，想走多快都行，只求你走得越远越好。你惹的麻烦已经够多了。
+        - id: ch04-b27
+          speaker: angus
+          text: 这才讲道理。你们总算不再因为外乡人挑剔几句琴声，就非要吊死他。回绞刑架看看吧，你的朋友们正坐在草地上，一点伤也没有。
+    - id: ch05
+      title: 配得上国王的故事
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 乞丐刚说完，身影便从王宫中消失。说书人眼前一晃，也回到两人早晨最初相遇的田野。妻子仍在原处，守着失而复得的马车和骏马，安安静静等在那里。
+        - id: ch05-b02
+          speaker: angus
+          text: 我不再折磨你了。你的马车、骏马、钱财和妻子都在这里，随你怎样处置。
+        - id: ch05-b03
+          speaker: storyteller
+          text: 你还给我马车、房屋和猎犬，我很感激。不过，我的妻子和钱财，你尽管留下。
+        - id: ch05-b04
+          speaker: angus
+          text: 不，这两样我都不要。也别怪你的妻子，她当时身不由己。
+        - id: ch05-b05
+          speaker: storyteller
+          text: 身不由己？把我踢进自家猎犬嘴里，也是身不由己？为了一个穷酸老头就抛下我，也叫身不由己？
+          emotion: angry
+        - id: ch05-b06
+          speaker: angus
+          text: 我没有你想的那么穷，也没有那么老。我是布鲁夫的安格斯。你在伦斯特国王面前帮过我许多次。今早，魔法告诉我你遇到了难题，我便来替你解围。改变你身体的力量，也改变了你妻子的心意。夫妻该忘掉怨恨，彼此宽恕。如今国王再召你上殿，你已经有故事可讲了。
+        - id: ch05-b07
+          speaker: narrator
+          text: 安格斯说完便消失不见。他说得一点不错。说书人如今不但有了故事，还是一个配得上国王的好故事。他回到伦斯特王宫，把从早晨掷下第一回骰子开始，直到安格斯显露身份为止，所有遭遇从头讲到尾。国王听得笑声又久又响。这一晚，故事没有哄他入睡，反而让他笑得根本睡不着。国王告诉说书人，往后再也不必为新故事发愁。此后余生，每个晚上，他都要重听一遍瘦长灰衣乞丐的故事。每听一回，又会像头一次听见那样，重新大笑一场。

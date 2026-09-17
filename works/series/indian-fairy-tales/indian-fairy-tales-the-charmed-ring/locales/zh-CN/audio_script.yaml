@@ -1,0 +1,324 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 郑重而亲切，带着学者讲述旧日故事的从容
+        timbre: 温暖清晰，沉稳而有书卷气
+        pace: 舒缓，论述转折处稍作停顿
+        pitch: 中低
+    merchant_son:
+      display_name: 商人的儿子
+      tts:
+        delivery: 善良诚恳，遭逢变故时悲痛而不失温厚
+        timbre: 清朗温和
+        pace: 适中
+        pitch: 中
+    merchant:
+      display_name: 商人
+      tts:
+        delivery: 严厉急躁，训斥儿子时怒气冲冲
+        timbre: 浑厚粗硬
+        pace: 适中偏快
+        pitch: 中低
+    snake:
+      display_name: 蛇王子
+      tts:
+        delivery: 知恩图报，言谈恭敬而周到
+        timbre: 柔和清晰，略带神秘感
+        pace: 舒缓
+        pitch: 中
+    cat:
+      display_name: 猫
+      tts:
+        delivery: 机敏果断，说话简洁而有主见
+        timbre: 清亮灵巧
+        pace: 适中偏快
+        pitch: 中高
+    dog:
+      display_name: 狗
+      tts:
+        delivery: 忠诚直率，嫉妒时蛮横，犯错后慌张羞愧
+        timbre: 厚实有力
+        pace: 适中偏快
+        pitch: 中低
+    ogress:
+      display_name: 罗刹女
+      tts:
+        delivery: 善于伪装，哄骗时亲热，得手后干脆利落
+        timbre: 苍老沙哑而富于变化
+        pace: 适中
+        pitch: 中低
+    princess:
+      display_name: 美貌公主
+      tts:
+        delivery: 温柔端庄，受困时克制而忧虑
+        timbre: 清澈柔和
+        pace: 适中偏慢
+        pitch: 中高
+    prince:
+      display_name: 王子
+      tts:
+        delivery: 痴情急切，恳求时热烈而执拗
+        timbre: 年轻明亮
+        pace: 适中偏快
+        pitch: 中
+    rat_prince:
+      display_name: 鼠王子
+      tts:
+        delivery: 受惊时急促哀求
+        timbre: 细亮微颤
+        pace: 快
+        pitch: 高
+    rat_1:
+      display_name: 老鼠甲
+      tts:
+        delivery: 焦急团结，回答干脆
+        timbre: 轻细清楚
+        pace: 快
+        pitch: 高
+    rat_2:
+      display_name: 老鼠乙
+      tts:
+        delivery: 焦急团结，回答干脆
+        timbre: 略带鼻音
+        pace: 快
+        pitch: 中高
+    rat_3:
+      display_name: 老鼠丙
+      tts:
+        delivery: 焦急团结，回答干脆
+        timbre: 尖细有力
+        pace: 快
+        pitch: 高
+  chapters:
+    - id: ch01
+      title: 三位伙伴
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个商人给儿子三百卢比，让他去异乡做买卖，靠自己闯出一条路。年轻人带钱上路，没走多远，就碰见几个牧人在争一条狗，其中有人非要把狗杀掉。他心肠柔软，赶紧上前求情。
+        - id: ch01-b02
+          speaker: merchant_son
+          text: 请别杀这条狗。我愿意出一百卢比，把它买下来。
+        - id: ch01-b03
+          speaker: narrator
+          text: 牧人当然答应了。这个傻小伙领着狗继续赶路，又遇见一群人为一只猫争执。有人要杀猫，也有人拦着不让。
+        - id: ch01-b04
+          speaker: merchant_son
+          text: 请你们也别杀这只猫。我再出一百卢比，把它交给我吧。
+        - id: ch01-b05
+          speaker: narrator
+          text: 那些人马上收钱，把猫给了他。年轻人继续往前，来到一个村庄。那里的人围着一条刚捉到的蛇吵个不停，也是有人想杀，有人不肯。
+        - id: ch01-b06
+          speaker: merchant_son
+          text: 请放了这条蛇。最后一百卢比，我拿来买它。
+        - id: ch01-b07
+          speaker: narrator
+          text: 村民们一口答应，个个喜出望外。可年轻人的三百卢比已经一枚也不剩了。这小伙子真是傻透了！往后怎么办呢？除了回父亲那里，他还能到哪儿去？于是，他只好领着三个伙伴回家。
+        - id: ch01-b08
+          speaker: narrator
+          text: 父亲听说三百卢比就这样没了，气得破口大骂。
+        - id: ch01-b09
+          speaker: merchant
+          text: 你这个蠢货，无赖！滚到牲口棚里去，好好想想自己干的傻事。从今以后，不许再进我的家门！
+          emotion: angry
+        - id: ch01-b10
+          speaker: narrator
+          text: 年轻人便住进牲口棚，睡在喂牲口的草料上。日子久了，高价救下的三个伙伴都和他格外亲近。它们白天跟着他到处走，夜里也守在身边。猫睡在他脚旁，狗卧在头边，蛇横在身上，头尾分别垂在两侧。
+        - id: ch01-b11
+          speaker: narrator
+          text: 一天，蛇和主人闲谈起来，终于说出了自己的身世。
+        - id: ch01-b12
+          speaker: snake
+          text: 主人，我是因陀罗沙王的儿子。那天我钻出地面透气，正好被人捉住。要不是您及时赶到，我早就没命了。您救了我，我却不知道该怎么报答。要是您能见见我父亲就好了。见到救我性命的人，他一定高兴极了。
+        - id: ch01-b13
+          speaker: merchant_son
+          text: 你父亲住在哪里？只要去得成，我很愿意见他。
+        - id: ch01-b14
+          speaker: snake
+          text: 那就太好了。您看见远处那座山了吗？山脚下有一眼圣泉。跟我一起潜进泉里，就能到达父亲的国土。他一定想送东西谢您。若问您想要什么，就请您说，想要他右手上的戒指，还有那口有名的锅和那把勺子。只要对戒指说句话，它就会变出一座陈设齐全的华美宅院。锅和勺子则能送来各种珍奇美食。有了它们，您再也不会缺少什么。
+        - id: ch01-b15
+          speaker: narrator
+          text: 年轻人带着三个伙伴来到圣泉旁，照蛇说的，准备跳进水里。猫和狗见他真要下去，赶忙叫住他。
+        - id: ch01-b16
+          speakers: [cat, dog]
+          ensemble: duo
+          text: 主人，您走了，我们该怎么办？又能到哪里去呢？
+        - id: ch01-b17
+          speaker: merchant_son
+          text: 你们就在这里等我。我不会走远，也不会离开太久。
+        - id: ch01-b18
+          speaker: narrator
+          text: 说完，年轻人潜入水中，转眼不见了。
+        - id: ch01-b19
+          speaker: dog
+          text: 现在只剩下咱们两个，该怎么办啊？
+        - id: ch01-b20
+          speaker: cat
+          text: 主人叫我们等，我们就在这儿等。吃东西不用担心，我去别人家里找，保准咱们两个都饿不着。
+        - id: ch01-b21
+          speaker: narrator
+          text: 猫说到做到。它每天到别人家里寻找食物，带回来和狗一起吃。主人离开的日子里，两个伙伴一直过得很安稳，直到年轻人从圣泉回来，重新和它们相聚。
+        - id: ch01-b22
+          speaker: narrator
+          text: 年轻人和蛇也平安到了目的地。有人把他们到来的消息禀报给国王。国王命令儿子和陌生人一起来见他。蛇却说，陌生人救它免于一场可怕的惨死，它已经是恩人的奴仆。除非恩人还它自由，否则不能去见父亲。因陀罗沙王只好亲自赶来，先把儿子紧紧抱住，又向年轻人致意，欢迎他来到自己的国土。
+        - id: ch01-b23
+          speaker: narrator
+          text: 年轻人在那里住了几天。国王为了答谢他救下王子，果然送出右手上的戒指，还有那口锅和那把勺子。年轻人告辞以后，从圣泉平安浮回地面。狗和猫还在原处等他。分别以来发生过什么，他们互相说了个明白，大家都很高兴。随后，三个伙伴一起来到河边，决定当场试一试这些宝物究竟有多大的本领。
+    - id: ch02
+      title: 金发与失窃的戒指
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 商人的儿子向戒指说出愿望，一座美丽的房屋立刻出现在眼前，屋里还住着一位金发公主。他又吩咐锅和勺子，各种可口的菜肴马上摆满桌面。年轻人娶了公主，两个人幸福地生活了好几年。
+        - id: ch02-b02
+          speaker: narrator
+          text: 一天早晨，公主梳妆时，把掉下的头发装进一截空心芦管，扔进窗下的河里。芦管顺水漂了许多英里，最后被这个国家的王子捡到。他觉得好奇，打开一看，里面竟是金色的头发。王子立刻奔回王宫，把自己锁在房中，说什么也不出来。他疯狂地爱上了头发的主人。除非有人把她带来，否则他就不肯吃，不肯喝，不肯睡觉，甚至连动也不动。
+        - id: ch02-b03
+          speaker: narrator
+          text: 国王为了这件事愁苦万分，完全不知道该怎么办。他怕儿子就这样死去，自己从此再没有继承人。最后，他决定去请教姑母。那位姑母是个罗刹女。老太婆答应帮忙，还叫国王不必忧虑。她很有把握，一定能把那个美人带回来，嫁给王子。
+        - id: ch02-b04
+          speaker: narrator
+          text: 罗刹女化作一只蜜蜂，嗡嗡、嗡嗡、嗡嗡地一路飞去。她的嗅觉十分灵敏，很快便循着气息找到美貌公主。等她出现在公主面前时，又变成一个丑陋的老太婆，手里拄着一根棍子支撑身体。
+        - id: ch02-b05
+          speaker: ogress
+          text: 我是你的姑母。你从没见过我，那是因为你刚出生，我就离开这个国家了。
+        - id: ch02-b06
+          speaker: narrator
+          text: 她说着还抱住公主，亲了亲她，好让谎话更像真的。公主完全受了骗，也亲热地回抱她，还请她留在家里，想住多久就住多久。公主处处敬重这位假姑母，对她照料得无微不至。罗刹女看在眼里，暗暗盘算，知道自己的差事很快就能办成。
+        - id: ch02-b07
+          speaker: narrator
+          text: 住到第三天，罗刹女开始谈起那枚魔法戒指。她劝公主以后亲自保管，因为公主的丈夫总是外出打猎，还常常参加其他远行，说不定哪天就会把宝物弄丢。公主觉得有理，便向丈夫索要戒指。年轻人毫不迟疑，立刻给了她。
+        - id: ch02-b08
+          speaker: narrator
+          text: 罗刹女又耐心等了一天，才请公主把宝贝拿给她瞧瞧。公主一点也没怀疑。戒指才拿出来，罗刹女就一把夺走，变回蜜蜂，飞去了王宫。那时，王子已经躺得奄奄一息。
+        - id: ch02-b09
+          speaker: ogress
+          text: 起来，高兴些，别再难过了。你想见的女人，现在只要一声召唤就会出现。能把她带来的宝物，我已经拿到了。
+        - id: ch02-b10
+          speaker: narrator
+          text: 王子听了，欢喜得几乎发狂。他急着见到那位美人，立刻向戒指说出愿望。那座房屋连同里面的公主，随即降落在王宫花园中央。王子马上走进屋里，把自己那份炽烈的爱意全说给公主听，又苦苦恳求她嫁给自己。
+        - id: ch02-b11
+          speaker: narrator
+          text: 公主看不到逃脱的办法，只得答应下来，不过她提出了一个条件。
+        - id: ch02-b12
+          speaker: princess
+          text: 我可以答应你，但你必须等我一个月。
+        - id: ch02-b13
+          speaker: narrator
+          text: 与此同时，商人的儿子打猎归来。房屋不见了，妻子也不见了，眼前只剩原先那片空地，一切和因陀罗沙王送他戒指、他还没有试过戒指的神通时完全一样。他悲痛极了，坐下来，决意结束自己的性命。猫和狗先前亲眼看见房屋和里面的一切突然消失，便跑开躲了起来。这时，它们重新来到主人身边，赶紧拦住他。
+        - id: ch02-b14
+          speakers: [cat, dog]
+          ensemble: duo
+          text: 主人，请您别伤害自己。这场灾难虽然很大，却还有办法挽回。给我们一个月，我们一定设法找回您的妻子和房屋。
+        - id: ch02-b15
+          speaker: merchant_son
+          text: 去吧，愿伟大的神帮助你们。只要你们带回我的妻子，我就活下去。
+          emotion: sad
+    - id: ch03
+      title: 老鼠婚礼
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 猫和狗一路飞奔，直到找见女主人和房屋被带去的地方。猫望着面前的王宫，觉得事情不好办。
+        - id: ch03-b02
+          speaker: cat
+          text: 你看，国王把主人的妻子和房屋占去了。你先留在这里，我进屋想办法见见女主人。
+        - id: ch03-b03
+          speaker: narrator
+          text: 狗坐下来等。猫爬上公主房间的窗户，钻进屋里。公主认出它，把自己离开以后遭遇的一切都讲了出来。
+        - id: ch03-b04
+          speaker: princess
+          text: 我还有办法从这些人手里逃出去吗？
+        - id: ch03-b05
+          speaker: cat
+          text: 有办法。您只要告诉我，魔法戒指藏在哪里。
+        - id: ch03-b06
+          speaker: princess
+          text: 戒指被罗刹女吞进肚子里了。
+        - id: ch03-b07
+          speaker: cat
+          text: 那就行。我会把它取回来。只要戒指到手，房屋和您就都能回去了。
+        - id: ch03-b08
+          speaker: narrator
+          text: 猫爬下屋墙，来到一个老鼠洞旁，直挺挺躺在地上装死。正巧当地的老鼠正在举行一场盛大的婚礼，附近所有老鼠都聚进了这个洞穴。今天要成亲的，还是鼠王的长子。猫弄清楚以后，立刻有了主意。它要抓住新郎，逼老鼠们提供自己急需的帮助。
+        - id: ch03-b09
+          speaker: narrator
+          text: 婚礼队伍吱吱叫着，蹦蹦跳跳地涌出洞口。猫一眼认出新郎，猛地扑过去，把它按在爪下。鼠王子吓坏了。
+        - id: ch03-b10
+          speaker: rat_prince
+          text: 放开我！求求你，快放开我！
+          emotion: fearful
+        - id: ch03-b11
+          speakers: [rat_1, rat_2, rat_3]
+          ensemble: chorus
+          text: 请放了它吧！今天可是它成婚的日子！
+          emotion: fearful
+        - id: ch03-b12
+          speaker: cat
+          text: 不行，除非你们替我办一件事。王子夫妇的屋里住着一个罗刹女。她吞下了一枚戒指，我一定要拿回来。你们替我取到戒指，我就让鼠王子平安离开。要是取不到，它就会死在我的爪下。
+        - id: ch03-b13
+          speakers: [rat_prince, rat_1, rat_2, rat_3]
+          ensemble: chorus
+          text: 好，我们答应！要是拿不到戒指，你就把我们全吃了吧！
+        - id: ch03-b14
+          speaker: narrator
+          text: 这话说得大胆，可老鼠们真把事情办成了。到了午夜，罗刹女睡得正熟。一只老鼠爬到床上，又爬上她的脸，把尾巴伸进她的喉咙。罗刹女猛烈地咳起来，戒指从嘴里滚落到地板上。老鼠叼起戒指，飞快送到鼠王手中。鼠王十分欢喜，马上拿着它去见猫，换回了自己的儿子。
+    - id: ch04
+      title: 戒指失而复得
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 猫一拿到戒指，便和狗踏上归途，要把好消息告诉主人。眼下一切似乎都稳妥了。它们只要把戒指交给主人，主人对它说一句话，就能唤回公主和房屋，日子也会像从前一样幸福。它们一路想着，主人见到戒指该有多高兴，四条腿能跑多快就跑多快。
+        - id: ch04-b02
+          speaker: narrator
+          text: 回去的路上有一条小河。狗下水游，猫伏在它背上。狗嫉妒猫立了功，非要猫把戒指交给自己，还威胁说，不给就把猫掀进水里。猫只好照办。可戒指刚到狗嘴里，就掉进河中，被一条鱼吞了。
+        - id: ch04-b03
+          speaker: dog
+          text: 哎呀，我该怎么办？这下到底该怎么办？
+          emotion: fearful
+        - id: ch04-b04
+          speaker: cat
+          text: 已经发生的事，后悔也没用了。我们得把戒指找回来。要是找不到，就一起淹死在这条河里吧。我有个主意。你去咬死一只小羊，带到这里来。
+        - id: ch04-b05
+          speaker: dog
+          text: 好，我这就去。
+        - id: ch04-b06
+          speaker: narrator
+          text: 狗很快带回一只死去的小羊。猫钻进羊肚子里藏好，让狗走远一点，安静等着。过了不久，一只纳达尔鸟在小羊上空盘旋。这种鸟只要看上一眼，就能使鱼骨断裂。它终于俯冲下来，准备抓走小羊。猫突然钻出来，扑到鸟身上，威胁说，如果找不回戒指，就杀了它。
+        - id: ch04-b07
+          speaker: narrator
+          text: 纳达尔鸟立刻答应，飞去命令鱼王查问自己的臣民，交出那枚戒指。鱼王照着办了。戒指很快被找到，送回猫的手里。
+        - id: ch04-b08
+          speaker: cat
+          text: 走吧，戒指已经找回来了。
+        - id: ch04-b09
+          speaker: dog
+          text: 不行，你得把戒指给我，不然我就不走。我一样能保管好它。马上交出来，否则我就咬死你！
+          emotion: angry
+        - id: ch04-b10
+          speaker: narrator
+          text: 猫被逼得没有办法，只能再次交出戒指。粗心的狗没走多远，又把它掉了。一只鸢鸟飞下来，衔起戒指就走。
+        - id: ch04-b11
+          speaker: cat
+          text: 快看！它飞走了，落到那棵大树上了！
+          emotion: surprised
+        - id: ch04-b12
+          speaker: dog
+          text: 哎呀，我究竟做了什么！
+          emotion: fearful
+        - id: ch04-b13
+          speaker: cat
+          text: 你这个笨蛋，我就知道会这样！别叫了，不然那只鸟会被吓到别处。它一飞远，我们就再也追不到了。
+          emotion: angry
+        - id: ch04-b14
+          speaker: narrator
+          text: 猫一直等到天黑，才爬上大树，咬死鸢鸟，夺回戒指。它落回地面，立刻催狗赶路。
+        - id: ch04-b15
+          speaker: cat
+          text: 快走，我们已经耽搁太久了。主人一直悲伤地等着，再拖下去，他会没命的。快走！
+        - id: ch04-b16
+          speaker: narrator
+          text: 狗这时羞愧到了极点，为自己添下的种种麻烦请求猫原谅。它连着两次弄丢戒指，再也不敢第三次索要。两个伙伴终于平平安安地回到悲伤的主人身边，把珍贵的宝物交给他。转眼之间，年轻人的悲哀化成喜悦。他向戒指说出愿望，美貌的妻子和华美的房屋立刻重现眼前。从那以后，他和身边的每一个人都过上了再幸福不过的生活。

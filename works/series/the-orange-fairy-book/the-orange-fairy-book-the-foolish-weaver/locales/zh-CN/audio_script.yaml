@@ -1,0 +1,127 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 沉稳有力，带古老传说的庄重感
+        timbre: 温厚清晰
+        pace: 舒缓而富有张力
+        pitch: 中低
+    weaver:
+      display_name: 织工
+      tts:
+        delivery: 老实迟钝，回答时一本正经
+        timbre: 朴实憨厚
+        pace: 稍缓
+        pitch: 中
+    master_farmer:
+      display_name: 织工的主人
+      tts:
+        delivery: 务实直率，发怒时严厉急促
+        timbre: 粗犷洪亮
+        pace: 适中
+        pitch: 中低
+    village_weaver_1:
+      display_name: 村中织工甲
+      tts:
+        delivery: 热情随和，遇事却同样糊涂
+        timbre: 明朗朴实
+        pace: 适中
+        pitch: 中
+    village_weaver_2:
+      display_name: 村中织工乙
+      tts:
+        delivery: 热心爽快，慌张时语速加快
+        timbre: 清亮厚实
+        pace: 适中
+        pitch: 中
+    village_weaver_3:
+      display_name: 村中织工丙
+      tts:
+        delivery: 质朴直率，情绪来得快
+        timbre: 略显沙哑
+        pace: 稍缓
+        pitch: 中低
+    village_weaver_4:
+      display_name: 村中织工丁
+      tts:
+        delivery: 随声应和，语气诚恳
+        timbre: 温和清楚
+        pace: 适中
+        pitch: 中高
+    roadside_farmer:
+      display_name: 路过的农夫
+      tts:
+        delivery: 精明干脆，带一点不动声色的幽默
+        timbre: 沉稳有力
+        pace: 适中
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 山坡上的豹子
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个织工没有活儿可做，就到一位农夫家当了牧羊人。农夫知道他脑筋转得很慢，不论交代什么，都讲得格外仔细。临出门前，农夫还特意捡起一块大石头，做给他看。
+        - id: ch01-b02
+          speaker: master_farmer
+          text: 要是狼或者别的野兽来伤害羊群，你就捡起这样的大石头，再多扔几块过去。野兽受了惊，自然会逃走。
+        - id: ch01-b03
+          speaker: weaver
+          text: 我明白了。
+        - id: ch01-b04
+          speaker: narrator
+          text: 织工赶着羊群来到山坡，任羊儿在那里吃了一天草。下午，一只豹子忽然出现。他马上拼命往家跑，要取主人刚才指给他看的那些石头，再拿回来打豹子。可等他跑回山坡，羊不是逃散了，就是被豹子咬死了。农夫听完经过，狠狠揍了他一顿。
+        - id: ch01-b05
+          speaker: master_farmer
+          text: 山坡上到处都是石头，你为什么非得回家来拿？真是个没脑子的东西！你根本不配放羊。今天留在家里照看我生病的老母亲吧。你赶不走羊群旁的野兽，说不定还赶得走她脸上的苍蝇！
+          emotion: angry
+    - id: ch02
+      title: 床边的大石头
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 第二天，织工果然留在家里照料老妇人。她躺在屋外的床上，苍蝇总往脸上飞，十分烦人。织工四处寻找可以赶苍蝇的东西，忽然想起主人教过的话。碰上野兽，要捡离自己最近的石头。他认定这回只要照着吩咐做，就能让主人瞧瞧自己有多聪明。他抓起床边一块又大又沉的石头，使劲朝苍蝇砸去，却把可怜的老妇人也砸死了。织工害怕主人回来发怒，赶忙逃走，从此再也没在那一带露过面。
+    - id: ch03
+      title: 干涸的山沟
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 织工走了一整天，又走了一夜，最后来到一个村子。村里住着许多织工，大家见了他，很热情地招呼起来。
+        - id: ch03-b02
+          speakers: [village_weaver_1, village_weaver_2, village_weaver_3, village_weaver_4]
+          ensemble: chorus
+          text: 欢迎你！先吃点东西，再好好睡一觉。明天我们六个人要出去找新羊毛，请你也跟我们一起去吧。
+        - id: ch03-b03
+          speaker: weaver
+          text: 我很愿意。
+        - id: ch03-b04
+          speaker: narrator
+          text: 第二天早晨，七个织工一起出发，去另一个村子买羊毛。半路上，他们遇见一道山沟。不久以前，沟里还涨满了水，现在却干得一滴水也没有。可他们从前总是游过去，这一回竟也照旧脱下衣服，扎在头顶，然后趴到干沙和乱石上，挥动胳膊腿，一路“游”向对岸。七个人总算过去了，除了膝盖和胳膊肘撞得青一块紫一块，并没有受别的伤。
+    - id: ch04
+      title: 六个人变成七个人
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 刚上岸，一名织工就清点人数，想确定所有人都平安过来了。他把同伴逐个数了一遍，却忘记把自己算进去。
+        - id: ch04-b02
+          speaker: village_weaver_2
+          text: 不好了！有人不见了！
+          emotion: fearful
+        - id: ch04-b03
+          speaker: narrator
+          text: 其余人赶紧跟着数。可每个人都只数别人，偏偏漏掉自己，所以人人都只得到六个。他们确信有个同伴失踪了，便沿着山沟两岸来回奔跑，一边急得直搓手，一边寻找落水人的踪迹。一位农夫路过这里，见他们乱成一团，便问发生了什么事。
+        - id: ch04-b04
+          speaker: village_weaver_1
+          text: 唉，我们七个人从对岸出发，过山沟时一定淹死了一个。现在不管怎么数，都只剩下六个人！
+          emotion: sad
+        - id: ch04-b05
+          speaker: narrator
+          text: 农夫打量了他们一会儿，抄起手里的棍子，朝每个织工身上结结实实打了一下。他每打一个，就高声报出一个数。
+        - id: ch04-b06
+          speaker: roadside_farmer
+          text: 一！二！三！四！五！六！七！
+        - id: ch04-b07
+          speaker: narrator
+          text: 织工们听见“七”，这才知道大家一个不少。他们感激极了，还把那农夫当成魔法师。因为在他们看来，眼前明明只有六个人，这位高人竟能凭空变出第七个来。

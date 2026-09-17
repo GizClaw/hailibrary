@@ -1,0 +1,121 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: "steady, vivid folktale storytelling"
+        timbre: "warm and resonant"
+        pace: "measured"
+        pitch: "medium"
+    weaver:
+      display_name: Foolish Weaver
+      tts:
+        delivery: "earnest, literal-minded, and easily confused"
+        timbre: "plain and open"
+        pace: "unhurried"
+        pitch: "medium"
+    farmer:
+      display_name: Farmer
+      tts:
+        delivery: "firm, practical, and quick-tempered"
+        timbre: "sturdy and rough"
+        pace: "steady"
+        pitch: "medium-low"
+    village_weaver_1:
+      display_name: First Village Weaver
+      tts:
+        delivery: "friendly, simple, and sincere"
+        timbre: "light and clear"
+        pace: "steady"
+        pitch: "medium"
+    village_weaver_2:
+      display_name: Second Village Weaver
+      tts:
+        delivery: "good-natured, trusting, and easily puzzled"
+        timbre: "soft and rounded"
+        pace: "unhurried"
+        pitch: "medium-low"
+    village_weaver_3:
+      display_name: Third Village Weaver
+      tts:
+        delivery: "eager, anxious, and guileless"
+        timbre: "bright and wiry"
+        pace: "brisk"
+        pitch: "medium-high"
+    village_weaver_4:
+      display_name: Fourth Village Weaver
+      tts:
+        delivery: "warm, worried, and easily impressed"
+        timbre: "full and gentle"
+        pace: "measured"
+        pitch: "medium"
+    ravine_farmer:
+      display_name: Farmer at the Ravine
+      tts:
+        delivery: "dry, observant, and briskly practical"
+        timbre: "weathered and firm"
+        pace: "steady"
+        pitch: "low"
+  chapters:
+    - id: ch01
+      title: The Shepherd Who Fetched Stones
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "Once there was a weaver who could find no weaving work. So he took a job tending a farmer's sheep. The farmer knew the man was very slow to understand things, and he explained every duty with great care. At the end, he showed him what to do if danger came near the flock."
+        - id: ch01-b02
+          speaker: farmer
+          text: "If a wolf or another wild beast tries to attack the sheep, pick up a large stone like this one. Throw a few stones at the animal, and it will take fright and run off."
+        - id: ch01-b03
+          speaker: narrator
+          text: "The weaver said he understood. Then he led the flock to the hillsides, where the sheep grazed all day. That afternoon, a leopard appeared. At once, the weaver raced all the way home to fetch the stones the farmer had shown him. By the time he returned, the sheep had either scattered or been killed. When the farmer heard what had happened, he gave the weaver a sound beating."
+        - id: ch01-b04
+          speaker: farmer
+          text: "You senseless man! Weren't there any stones on the hillside? Why did you run home for them? You aren't fit to watch sheep. Today you'll stay here and look after my sick old mother. Perhaps you can keep flies off her face, even if you can't keep beasts away from a flock!"
+          emotion: angry
+        - id: ch01-b05
+          speaker: narrator
+          text: "The next day, the weaver stayed home with the farmer's old mother. She lay outdoors on a bed, and the flies began bothering her badly. The weaver looked around for something to drive them away. He remembered being told to grab the nearest stone when beasts threatened the sheep. This time, he thought, he would show how cleverly he could follow orders. He picked up the closest stone, a great heavy one, and hurled it at the flies. But the stone killed the poor old woman too. Afraid of the farmer's anger, the weaver fled. No one in that neighborhood ever saw him again."
+    - id: ch02
+      title: Seven Weavers Set Out
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "He walked through that whole day and the whole night that followed. At last, he reached a village where many weavers lived together. They welcomed the stranger kindly."
+        - id: ch02-b02
+          speakers: [village_weaver_1, village_weaver_2, village_weaver_3, village_weaver_4]
+          ensemble: chorus
+          text: "Come and eat, then get some sleep. Tomorrow, six of us are setting out to find fresh wool for our weaving. We hope you'll come with us."
+        - id: ch02-b03
+          speaker: weaver
+          text: "Gladly. I'll go with you."
+        - id: ch02-b04
+          speaker: narrator
+          text: "The next morning, all seven weavers started toward the village where they could buy the wool they needed. Their road crossed a ravine. Not long before, it had been full of water, but now it was completely dry. The weavers were used to swimming across it. They paid no attention to the empty channel. Instead, they took off their clothes, tied the bundles on their heads, and began to swim over dry sand and rocks. They reached the other side with nothing worse than bruised knees and elbows."
+    - id: ch03
+      title: The Missing Weaver
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "As soon as they were across, one weaver counted the party to make sure everyone was safe. He counted every man except himself."
+        - id: ch03-b02
+          speaker: village_weaver_1
+          text: "Someone is missing!"
+          emotion: fearful
+        - id: ch03-b03
+          speaker: narrator
+          text: "Each weaver tried counting next, and each one made exactly the same mistake. No man remembered to count himself. Soon they were certain that one companion had vanished. In great distress, they hurried up and down the bank, wringing their hands and searching for some sign of the man they thought they had lost. A farmer came upon them and asked what was wrong."
+        - id: ch03-b04
+          speaker: village_weaver_2
+          text: "Oh, what a disaster! Seven of us left the other bank, but now we can find only six. One of us must have drowned while we crossed."
+          emotion: sad
+        - id: ch03-b05
+          speaker: narrator
+          text: "The farmer looked them over for a moment. Then he raised his stick and gave every weaver a ringing blow. With each blow, he counted another man."
+        - id: ch03-b06
+          speaker: ravine_farmer
+          text: "One! Two! Three! Four! Five! Six! Seven!"
+        - id: ch03-b07
+          speaker: narrator
+          text: "The weavers saw that all seven of them were there. They were overwhelmed with gratitude. Surely this farmer must be a magician, they thought, for he had made seven men out of what was plainly only six."

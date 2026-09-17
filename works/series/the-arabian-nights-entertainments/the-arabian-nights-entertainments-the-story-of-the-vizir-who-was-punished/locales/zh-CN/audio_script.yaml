@@ -1,0 +1,530 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，带着温和的学者式幽默
+        timbre: 温暖清晰，沉稳而不厚重
+        pace: 舒缓，遇到年代与专名时略作停顿
+        pitch: 中音
+    prince:
+      display_name: 王子
+      tts:
+        delivery: 年轻坦率，遇险时紧张而克制
+        timbre: 清朗有朝气
+        pace: 明快，受惊时稍快
+        pitch: 中音
+    ogress:
+      display_name: 女妖
+      tts:
+        delivery: 表面柔弱亲切，真面目显露后阴森狡猾
+        timbre: 柔滑而略带冷意
+        pace: 从容，诱骗时刻意放慢
+        pitch: 中音
+    ogress_child_1:
+      display_name: 女妖的孩子甲
+      tts:
+        delivery: 饥饿急切，粗野贪婪
+        timbre: 沙哑尖利
+        pace: 急促
+        pitch: 中高音
+    ogress_child_2:
+      display_name: 女妖的孩子乙
+      tts:
+        delivery: 饥饿急切，粗野贪婪
+        timbre: 浑浊粗哑
+        pace: 急促
+        pitch: 中低音
+    ogress_child_3:
+      display_name: 女妖的孩子丙
+      tts:
+        delivery: 饥饿急切，粗野贪婪
+        timbre: 干涩发紧
+        pace: 急促
+        pitch: 中音
+    greek_king:
+      display_name: 希腊国王
+      tts:
+        delivery: 威严坦率，面对恩人时热情而坚定
+        timbre: 洪亮端正，带着久居王位的沉着
+        pace: 从容有力，驳斥诬陷时稍快
+        pitch: 中低音
+    grand_vizir:
+      display_name: 宰相
+      tts:
+        delivery: 表面恭谨，话语里藏着猜忌与算计
+        timbre: 偏冷而低沉，略带压抑感
+        pace: 徐缓审慎，挑拨时刻意停顿
+        pitch: 中低音
+    physician_douban:
+      display_name: 杜班医生
+      tts:
+        delivery: 睿智沉着，蒙冤时悲痛而不失尊严
+        timbre: 温厚清晰，略带苍老感
+        pace: 平稳，恳求时稍慢
+        pitch: 中低音
+    fisherman:
+      display_name: 渔夫
+      tts:
+        delivery: 朴实谨慎，讲理时坚定，得意时略带机敏
+        timbre: 粗粝而温暖
+        pace: 自然平稳，讨价还价时稍慢
+        pitch: 中低音
+    genius:
+      display_name: 精灵
+      tts:
+        delivery: 高傲多变，求情时狡黠，守诺后带着戏谑
+        timbre: 洪亮深沉，带有空旷回响感
+        pace: 从容有力，威吓时稍慢
+        pitch: 低音
+    sultan:
+      display_name: 苏丹
+      tts:
+        delivery: 威严果断，对奇事充满执着的探究心
+        timbre: 洪亮明净，沉稳有力
+        pace: 从容，作出决定时干脆
+        pitch: 中低音
+    cook:
+      display_name: 厨娘
+      tts:
+        delivery: 勤谨利落，受惊后慌乱无措
+        timbre: 明亮朴实
+        pace: 平常轻快，惊慌时急促
+        pitch: 中音
+    damsel:
+      display_name: 神秘姑娘
+      tts:
+        delivery: 冷静神秘，问话时庄重而疏离
+        timbre: 清澈空灵
+        pace: 缓慢清楚
+        pitch: 中高音
+    fish_white:
+      display_name: 白鱼
+      tts:
+        delivery: 整齐庄重，如同念诵古老誓言
+        timbre: 清亮
+        pace: 平稳
+        pitch: 中高音
+    fish_red:
+      display_name: 红鱼
+      tts:
+        delivery: 整齐庄重，如同念诵古老誓言
+        timbre: 明快
+        pace: 平稳
+        pitch: 中音
+    fish_blue:
+      display_name: 蓝鱼
+      tts:
+        delivery: 整齐庄重，如同念诵古老誓言
+        timbre: 柔和低沉
+        pace: 平稳
+        pitch: 中低音
+    fish_yellow:
+      display_name: 黄鱼
+      tts:
+        delivery: 整齐庄重，如同念诵古老誓言
+        timbre: 轻盈清脆
+        pace: 平稳
+        pitch: 高音
+    black_slave:
+      display_name: 黑奴
+      tts:
+        delivery: 可怖威严，语气如同严厉审问
+        timbre: 粗重低沉
+        pace: 缓慢有压迫感
+        pitch: 低音
+    young_man:
+      display_name: 年轻人
+      tts:
+        delivery: 文雅有礼，悲伤深沉而克制
+        timbre: 清润而疲惫
+        pace: 舒缓
+        pitch: 中音
+  chapters:
+    - id: ch01
+      title: 迷路的王子
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: |-
+            从前有一位国王，他的儿子非常喜欢打猎。国王准他常去狩猎，却严令大宰相每次都要随行，绝不能让王子离开自己的视线。
+        - id: ch01-b02
+          speaker: narrator
+          text: |-
+            一天，猎人赶出一头雄鹿。王子以为宰相正跟在身后，便策马追了上去。他越追越快，等停下马时，雄鹿早已不见踪影，身边也空无一人。王子只好掉头寻找宰相。宰相没有尽心跟上来，王子找着找着，自己反倒迷了路。
+        - id: ch01-b03
+          speaker: narrator
+          text: |-
+            他正四处寻找出路，忽然看见路旁有位美丽的女子，哭得十分伤心。王子勒住马，问她是谁，为什么独自在这里，又问她是否需要帮助。
+        - id: ch01-b04
+          speaker: ogress
+          text: |-
+            我是印度一位国王的女儿。刚才骑马出游时，我不知不觉睡着了，从马背上摔下来。我的马跑得没了踪影，我也不知道它去了哪里。
+        - id: ch01-b05
+          speaker: narrator
+          text: |-
+            王子很同情她，就让她坐在自己身后。路过一座废墟时，女子下马走了进去，王子也跟在后面。谁知，他听见女子朝里面喊道。
+        - id: ch01-b06
+          speaker: ogress
+          text: 孩子们，快高兴吧！我给你们带来一个白白胖胖的年轻人。
+        - id: ch01-b07
+          speakers: [ogress_child_1, ogress_child_2, ogress_child_3]
+          ensemble: chorus
+          text: 妈妈，他在哪儿？我们饿坏了，快让我们吃掉他吧！
+          emotion: happy
+        - id: ch01-b08
+          speaker: narrator
+          text: |-
+            王子一下明白了自己的处境。这个所谓的印度公主，原来是个女妖。她住在荒无人烟的地方，懂得千般诡计，专门诱骗路过的人，再把他们吃掉。王子吓得魂不附体，赶紧冲出废墟，跳上马背。
+        - id: ch01-b09
+          speaker: narrator
+          text: 假公主恰好走出来，看见猎物已经逃脱，便对他说。
+        - id: ch01-b10
+          speaker: ogress
+          text: 别怕呀。你想要什么？
+        - id: ch01-b11
+          speaker: prince
+          text: 我迷路了，正在找出去的路。
+          emotion: fearful
+        - id: ch01-b12
+          speaker: ogress
+          text: 一直往前走，你就能找到路了。
+        - id: ch01-b13
+          speaker: narrator
+          text: |-
+            王子简直不敢相信自己的耳朵，随即策马飞奔。他果然找到了路，平安回到父王宫中，把自己怎样因为大宰相疏忽而险遭吞食，全都讲了出来。国王勃然大怒，当即命人将大宰相绞死。
+    - id: ch02
+      title: 杜班医生蒙冤
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 讲完受罚宰相的故事，宰相继续劝说希腊国王。
+        - id: ch02-b02
+          speaker: grand_vizir
+          text: |-
+            陛下，我们还是说回杜班医生吧。您若不提防他，迟早会后悔曾经信任他。谁知道治好您的那剂药，日后会不会反过来害您呢？
+        - id: ch02-b03
+          speaker: narrator
+          text: |-
+            希腊国王天性软弱。他既没有看穿宰相的恶意，也没有足够的意志坚持原来的决定。
+        - id: ch02-b04
+          speaker: greek_king
+          text: |-
+            好吧，宰相，你说得对。也许他来这里，本就是要取我的性命。他甚至可能只凭某种药物的气味就杀死我。我得想个办法。
+        - id: ch02-b05
+          speaker: grand_vizir
+          text: 陛下，要保全性命，最好立刻把他召来。他一到，就马上砍下他的头。
+        - id: ch02-b06
+          speaker: greek_king
+          text: 我也觉得，这是最好的办法。
+        - id: ch02-b07
+          speaker: narrator
+          text: 国王命一位大臣去召杜班医生。医生很快便来了。
+        - id: ch02-b08
+          speaker: greek_king
+          text: 我召你来，是要取你的性命，好让我永远摆脱你。
+        - id: ch02-b09
+          speaker: narrator
+          text: 医生听说自己将被处死，惊骇得无以复加。
+        - id: ch02-b10
+          speaker: physician_douban
+          text: 陛下，我究竟犯了什么罪？
+          emotion: surprised
+        - id: ch02-b11
+          speaker: greek_king
+          text: |-
+            我已经知道，你是个奸细，想要杀害我。不过，我会抢先杀了你。刽子手，动手！替我除掉这个刺客。
+          emotion: angry
+        - id: ch02-b12
+          speaker: narrator
+          text: 听见这道残酷的命令，医生扑通跪倒在地。
+        - id: ch02-b13
+          speaker: physician_douban
+          text: 饶我一命吧！您若饶了我，自己的性命也会得救。
+          emotion: fearful
+        - id: ch02-b14
+          speaker: narrator
+          text: 渔夫讲到这里，停下来对精灵说道。
+        - id: ch02-b15
+          speaker: fisherman
+          text: |-
+            你看，希腊国王和医生之间发生的事，刚才也发生在我们两个人身上。希腊国王不肯怜悯医生，刽子手便蒙住了医生的眼睛。
+        - id: ch02-b16
+          speaker: narrator
+          text: 在场的人纷纷替医生求情，可国王毫不理会。
+        - id: ch02-b17
+          speaker: physician_douban
+          text: |-
+            至少请准我料理后事，把藏书留给真正用得着它们的人。其中有一本，我想献给陛下。那本书极为珍贵，应当好好收藏在您的宝库里。书中记着许多奇事，其中最奇的一件是，等我的头被砍下以后，陛下只要翻到第六页，读左页第三行，我的头就会回答您提出的任何问题。
+    - id: ch03
+      title: 有毒的奇书
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: |-
+            国王急着见识这桩奇事，把行刑推迟到第二天，又派重兵押医生回家。医生在那里料理好自己的事务。次日，殿堂里聚集了大批人。人人都想亲眼看着医生受死，更想看看他的头被砍下以后，究竟会发生什么。
+        - id: ch03-b02
+          speaker: narrator
+          text: |-
+            医生手捧一本大书，走到王座前。他还带来一只盆，把书的封皮铺在盆上，再将书呈给国王。
+        - id: ch03-b03
+          speaker: physician_douban
+          text: |-
+            陛下，请收下这本书。等我的头被砍下后，请把它放进盆里，搁在书皮上。头一放稳，鲜血就会止住。那时再打开书，我的头便能回答您的问题。可是陛下，我没有罪，求您开恩饶了我吧！
+          emotion: fearful
+        - id: ch03-b04
+          speaker: greek_king
+          text: 求情也没有用。哪怕只是为了听听你死后怎样说话，你也非死不可。
+          emotion: angry
+        - id: ch03-b05
+          speaker: narrator
+          text: 国王说完便从医生手中接过书，命刽子手行刑。刽子手手法极其利落，砍下的头正好掉进铺着书皮的盆中，鲜血立刻止住了。更叫国王惊奇的是，那颗头竟慢慢睁开双眼。
+        - id: ch03-b06
+          speaker: physician_douban
+          text: 陛下，请打开书。
+        - id: ch03-b07
+          speaker: narrator
+          text: |-
+            国王翻开书，却发现第一页和第二页粘在一起。他把手指放进嘴里蘸了蘸，好把书页分开。此后每翻一页，他都照样去做。翻到第六页时，他没看见任何字迹。
+        - id: ch03-b08
+          speaker: greek_king
+          text: 医生，这上面什么也没有啊。
+        - id: ch03-b09
+          speaker: physician_douban
+          text: 再往后多翻几页。
+        - id: ch03-b10
+          speaker: narrator
+          text: |-
+            国王继续往后翻，一次次用嘴蘸湿手指。原来每一页都浸过毒药。毒性很快发作，国王眼前一黑，倒在王座脚下。
+        - id: ch03-b11
+          speaker: narrator
+          text: 医生的头看见毒药已经起效，知道国王只剩几分钟可活，便大声喝道。
+        - id: ch03-b12
+          speaker: physician_douban
+          text: 暴君！你看看，残酷不仁、颠倒是非会得到怎样的惩罚！
+          emotion: angry
+        - id: ch03-b13
+          speaker: narrator
+          text: 话音刚落，国王便死了。那颗头所剩的一点生命，也随之消失。
+        - id: ch03-b14
+          speaker: narrator
+          text: 希腊国王的故事到这里便结束了。现在，让我们回到渔夫和精灵身边。
+        - id: ch03-b15
+          speaker: fisherman
+          text: |-
+            希腊国王若肯饶过医生，就不会落得这样的下场。这个道理也适用于你。现在，我要把你扔回海里去了。
+        - id: ch03-b16
+          speaker: genius
+          text: 朋友，别做这么残忍的事。不要像伊玛对待阿特卡那样对待我。
+          emotion: fearful
+        - id: ch03-b17
+          speaker: fisherman
+          text: 伊玛把阿特卡怎么样了？
+        - id: ch03-b18
+          speaker: genius
+          text: 我被关在这里面，怎么给你讲故事？放我出去，我会让你变得富有。
+        - id: ch03-b19
+          speaker: narrator
+          text: 一想到从此可以摆脱贫困，渔夫终于动摇了。
+        - id: ch03-b20
+          speaker: fisherman
+          text: 你若答应让我富有，我就打开盖子。我想，你总不敢违背诺言吧。
+        - id: ch03-b21
+          speaker: narrator
+          text: |-
+            精灵答应下来，渔夫便掀开盖子。精灵立刻化作烟雾涌出，恢复原形后，第一件事竟是把瓶子一脚踢进海里。渔夫吓了一跳，精灵却笑了。
+        - id: ch03-b22
+          speaker: genius
+          text: |-
+            别害怕。我只是吓唬你一下，也让你知道，我确实打算信守诺言。拿上渔网，跟我来吧。
+    - id: ch04
+      title: 四色鱼
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: |-
+            精灵走在前面，渔夫仍有几分疑惧，跟在后面。他们从城前经过，翻过一座山，来到辽阔的平原。四座山丘环抱着一片大湖，就在平原中央。
+        - id: ch04-b02
+          speaker: genius
+          text: 撒下渔网，捕鱼吧。
+        - id: ch04-b03
+          speaker: narrator
+          text: |-
+            渔夫看见湖中鱼群很多，满心盼着能有好收获，便依言撒网。收网时，他大吃一惊。网中竟有白、红、蓝、黄四种完全不同的鱼，他每种颜色各捕到一条。这样的鱼，他从未见过，不由得细细欣赏起来。一想到它们能卖出许多钱，他更是喜不自胜。
+        - id: ch04-b04
+          speaker: genius
+          text: |-
+            把这些鱼送给苏丹。他给你的钱，会比你这一生所得的还多。你可以每天来捕鱼，但一天只能撒一次网。若是多撒，灾祸就会临头。只要听从我的劝告，你自然会得到好处。
+        - id: ch04-b05
+          speaker: narrator
+          text: |-
+            精灵一脚踏在地上。大地顿时裂开，等他沉入地下，又立刻合拢。渔夫决定严格遵从嘱咐，没有再次撒网，而是进城到王宫卖鱼。
+        - id: ch04-b06
+          speaker: narrator
+          text: 苏丹逐一看过四条鱼，欣赏了好一阵，才吩咐首相。
+        - id: ch04-b07
+          speaker: sultan
+          text: |-
+            把鱼交给希腊皇帝送来的那位能干厨娘。我想，这些鱼有多美，吃起来就会有多鲜美。
+        - id: ch04-b08
+          speaker: grand_vizir
+          text: 这是献给苏丹的四条鱼。苏丹要你把它们烹制好。
+        - id: ch04-b09
+          speaker: narrator
+          text: |-
+            宰相回到苏丹面前。苏丹命他赏给渔夫四百枚金币。渔夫一生从未一下拥有这么多钱，几乎不敢相信自己的好运。他立刻拿钱解了家中的困窘，又妥善用好了余下的钱。
+        - id: ch04-b10
+          speaker: narrator
+          text: |-
+            可这时，厨房里却出了乱子。厨娘把四条鱼收拾干净，倒油入锅，将鱼放进去煎。等她觉得一面火候已足，便把鱼翻到另一面。谁知鱼才翻过来，厨房的墙壁忽然裂开，一位美丽的年轻姑娘从裂口里走了出来。
+        - id: ch04-b11
+          speaker: narrator
+          text: |-
+            她穿着绣花缎制成的埃及服饰，戴着耳环和白珍珠项链，双腕套着镶红宝石的金镯，手中还握着一根桃金娘木杖。姑娘走到锅前，厨娘看得一动不动。她用木杖敲了敲一条鱼。
+        - id: ch04-b12
+          speaker: damsel
+          text: 鱼儿，鱼儿，你们可曾尽到自己的本分？
+        - id: ch04-b13
+          speaker: narrator
+          text: 鱼没有回答。姑娘又问了一遍，四条鱼这才一齐抬起头，清清楚楚地说道。
+        - id: ch04-b14
+          speakers: [fish_white, fish_red, fish_blue, fish_yellow]
+          ensemble: chorus
+          text: 是的，是的。你若算账，我们便算账。你若还债，我们便还债。你若逃走，我们便得胜，而且心满意足。
+        - id: ch04-b15
+          speaker: narrator
+          text: |-
+            鱼刚说完，姑娘便掀翻油锅，转身走进墙上的裂口。墙壁随即合拢，看起来和先前毫无分别。厨娘过了好一阵才从惊恐中缓过神。她把落进灰烬里的鱼一条条捡起来，却发现它们已经黑得像焦炭，根本无法端给苏丹。她急得哭了起来。
+        - id: ch04-b16
+          speaker: cook
+          text: 天哪！我该怎么向苏丹交代？他一定会大发雷霆，而且绝不会相信我的话！
+          emotion: fearful
+        - id: ch04-b17
+          speaker: narrator
+          text: |-
+            大宰相进来询问鱼是否做好。厨娘把刚才发生的一切告诉他。他听得惊讶不已，立即派人召来渔夫。
+        - id: ch04-b18
+          speaker: grand_vizir
+          text: 渔夫，再送四条一模一样的鱼来。先前那四条出了意外，已经不能呈给苏丹了。
+        - id: ch04-b19
+          speaker: narrator
+          text: |-
+            渔夫没有透露精灵的告诫，只说路途遥远，当天无法再送鱼来，答应第二天一定送到。夜里，他来到湖边，只撒了一次网，又捕到四条颜色各异的鱼。随后，他依约将鱼交给了大宰相。
+    - id: ch05
+      title: 墙中的访客
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: |-
+            大宰相把鱼带进厨房，关紧房门，独自陪着厨娘。厨娘像前一天那样烹鱼。正要翻面时，墙壁裂开，那位姑娘再次现身。她向鱼问了同样的话，也得到同样的回答，随后掀翻油锅，消失在墙中。
+        - id: ch05-b02
+          speaker: grand_vizir
+          text: 我一定要把这里发生的一切禀告苏丹。
+          emotion: surprised
+        - id: ch05-b03
+          speaker: narrator
+          text: |-
+            大宰相果真去禀报了。苏丹也大为震惊，决定亲眼看看这桩奇事。他召来渔夫，要他再弄四条鱼来。渔夫请求宽限三天，苏丹答应了。到了约定的日子，渔夫又去湖里撒网，捕到四条颜色各异的鱼。苏丹见他果然把鱼送到，十分高兴，再次赏给他四百枚金币。
+        - id: ch05-b04
+          speaker: narrator
+          text: 苏丹命人把鱼和烹制所需的器具一并拿进自己的房间。他关紧门，只留下大宰相。宰相亲手收拾鱼，放进锅里。一面煎熟，他便将鱼翻了过去。
+        - id: ch05-b05
+          speaker: narrator
+          text: |-
+            墙壁又裂开了。这次出来的不是姑娘，而是一个高大得吓人的黑奴。他手握粗大的绿杖，用它碰了碰鱼，以可怕的声音问道。
+        - id: ch05-b06
+          speaker: black_slave
+          text: 鱼儿，鱼儿，你们可曾尽到自己的本分？
+        - id: ch05-b07
+          speakers: [fish_white, fish_red, fish_blue, fish_yellow]
+          ensemble: chorus
+          text: 是的，是的。你若算账，我们便算账。你若还债，我们便还债。你若逃走，我们便得胜，而且心满意足。
+        - id: ch05-b08
+          speaker: narrator
+          text: |-
+            黑奴把油锅掀翻在房间中央，鱼顿时化成焦炭。接着，他傲然退回墙里，墙壁在身后合拢。
+        - id: ch05-b09
+          speaker: sultan
+          text: 亲眼看过这一幕，我再也无法安心。这些鱼背后必定藏着秘密，我非查清不可。
+        - id: ch05-b10
+          speaker: narrator
+          text: 苏丹命人召来渔夫。
+        - id: ch05-b11
+          speaker: sultan
+          text: 渔夫，你带来的鱼叫我心神不宁。告诉我，你在哪里捕到它们？
+        - id: ch05-b12
+          speaker: fisherman
+          text: 陛下，我是在远处群山之外的一座湖里捕到的。那座湖正好在四座山丘中央。
+        - id: ch05-b13
+          speaker: sultan
+          text: 宰相，你知道这座湖吗？
+        - id: ch05-b14
+          speaker: grand_vizir
+          text: 不知道。我曾多次在那座山周围打猎，却从来没听说那里有湖。
+        - id: ch05-b15
+          speaker: narrator
+          text: |-
+            渔夫说路程只有三个小时。苏丹便命满朝文武上马，由渔夫在前面领路。他们翻过高山，果然在另一边看见了那片湖，一切都和渔夫描述的相同。湖水清澈见底，四色鱼在水中游来游去，看得清清楚楚。众人在岸边观察了好一阵，苏丹才下令就地扎营。
+    - id: ch06
+      title: 黑石宫殿
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: 夜幕降临后，苏丹召来宰相。
+        - id: ch06-b02
+          speaker: sultan
+          text: |-
+            我已经下定决心，要查清这个秘密。我会独自出去，你留在我的帐篷里。明天大臣们若来求见，就说我身体不适，不能见他们。在我回来以前，每天都这样答复。
+        - id: ch06-b03
+          speaker: narrator
+          text: |-
+            大宰相竭力劝阻，苏丹却不改变心意。他脱下礼服，佩上宝剑。等营地里万籁俱寂，便独自出发。
+        - id: ch06-b04
+          speaker: narrator
+          text: |-
+            苏丹登上一座山丘，又从山顶下去，穿过那片辽阔的平原。他走了一整夜。太阳刚刚升起时，他远远看见前方有一座庞大的建筑。走近一看，那是一座富丽堂皇的宫殿。宫墙由光滑美丽的黑色大理石砌成，外面覆着钢板，平整得如同镜面。
+        - id: ch06-b05
+          speaker: narrator
+          text: |-
+            宫门半掩着。苏丹敲了敲，无人应答，便自行进去。他穿过华美的庭院，依旧不见人影。纵然高声呼唤了几次，也没有人回应。
+        - id: ch06-b06
+          speaker: narrator
+          text: |-
+            他走进一间间宽阔的厅堂，里面依旧不见一个人。地上铺着丝毯，卧榻和长椅覆着麦加织锦，四周的帷幔则用最精美的印度金银织物制成。再往前走，他来到一间灿烂夺目的大厅，里面有一座喷泉，由几头金狮稳稳托起。
+        - id: ch06-b07
+          speaker: narrator
+          text: |-
+            清水从金狮口中喷出，落下时竟化作钻石和珍珠。高高跃起的水柱，几乎碰到上方绘饰精美的穹顶。宫殿三面环绕着壮丽的花园、一片片小湖和茂密的树林。鸟儿在枝头歌唱，树冠上方全罩着细网，好让这些鸟永远留在园中，不会飞走。
+        - id: ch06-b08
+          speaker: narrator
+          text: 苏丹始终没看见任何人。忽然，他听见一声凄楚的哀叹。
+        - id: ch06-b09
+          speaker: young_man
+          text: 唉，但愿我能死去！我活得太痛苦，再也不愿继续活下去了！
+          emotion: sad
+        - id: ch06-b10
+          speaker: narrator
+          text: |-
+            苏丹环顾四周，想找出究竟是谁在这样悲叹自己的命运。终于，他看见一个衣着华贵、相貌英俊的年轻人。年轻人坐在一张稍稍高出地面的宝座上，脸上满是深深的哀伤。
+        - id: ch06-b11
+          speaker: narrator
+          text: 苏丹走到年轻人面前，向他行礼。年轻人深深低下头，却没有站起来。
+        - id: ch06-b12
+          speaker: young_man
+          text: 陛下，请恕我不能起身，向您行与您身份相称的礼节。
+        - id: ch06-b13
+          speaker: sultan
+          text: |-
+            阁下不能起身，想必有充分的缘故。我听见你悲痛的呼喊，所以前来相助。这座宫殿属于谁？为什么里面空无一人？
+        - id: ch06-b14
+          speaker: narrator
+          text: |-
+            年轻人没有回答苏丹刚才提出的问题，只是缓缓掀起自己的长袍。苏丹这才清清楚楚地看见，他的身体从腰部以下，竟不是血肉之躯，而是一整块黑色大理石。
+        - id: ch06-b15
+          speaker: narrator
+          text: 苏丹惊骇万分，恳请年轻人讲出自己的故事。
+        - id: ch06-b16
+          speaker: young_man
+          text: 我很愿意把这段悲惨的身世讲给您听。
+          emotion: sad
