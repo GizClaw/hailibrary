@@ -1,0 +1,110 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant storytelling with a gently playful touch
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    peter_rabbit:
+      display_name: Peter Rabbit
+      tts:
+        delivery: lively and impulsive, quick to complain and quick to brighten
+        timbre: youthful and bright
+        pace: brisk
+        pitch: medium-high
+    jimmy_skunk:
+      display_name: Jimmy Skunk
+      tts:
+        delivery: easygoing, knowing, and quietly amused
+        timbre: mellow and dry
+        pace: relaxed
+        pitch: medium-low
+    ol_mistah_buzzard:
+      display_name: Ol' Mistah Buzzard
+      tts:
+        delivery: genial, drawling, and quietly mischievous
+        timbre: rough and airy
+        pace: unhurried
+        pitch: low
+    merry_breeze_1:
+      display_name: First Merry Little Breeze
+      tts:
+        delivery: playful and bubbling with barely hidden laughter
+        timbre: light and clear
+        pace: quick
+        pitch: high
+    merry_breeze_2:
+      display_name: Second Merry Little Breeze
+      tts:
+        delivery: playful and bubbling with barely hidden laughter
+        timbre: light and clear
+        pace: quick
+        pitch: high
+    merry_breeze_3:
+      display_name: Third Merry Little Breeze
+      tts:
+        delivery: playful and bubbling with barely hidden laughter
+        timbre: light and clear
+        pace: quick
+        pitch: high
+  chapters:
+    - id: ch01
+      title: Peter Finds a Name
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "Peter Rabbit had almost stopped eating. And when Peter forgets about food, you can be sure something very important is on his mind. At least, Peter thinks it's important. This time, he had decided once and for all to change his name. Peter Rabbit sounded far too common to him."
+        - id: ch01-b02
+          speaker: narrator
+          text: "The trouble was finding a better name. Peter tried one name after another, but none of them pleased him. So he thought, and thought, and thought some more. The longer he thought, the less he wanted to eat."
+        - id: ch01-b03
+          speaker: narrator
+          text: "Peter had told only Jimmy Skunk how unhappy he was with his name. Jimmy was the one who had suggested changing it. Jimmy thought the whole thing was a splendid joke, and he soon spread the news among all the little people of the meadow and forest."
+        - id: ch01-b04
+          speaker: narrator
+          text: "They all laughed and chuckled at Peter's foolish idea. Then they began planning how much fun they would have when Peter finally told them his grand new name."
+        - id: ch01-b05
+          speaker: narrator
+          text: "One morning, Peter sat at the edge of the Old Briar-patch. Ol' Mistah Buzzard came flying past, low overhead. There was a twinkle in his eye."
+        - id: ch01-b06
+          speaker: ol_mistah_buzzard
+          text: "Good morning, Brer Cottontail."
+        - id: ch01-b07
+          speaker: narrator
+          text: "At first, Peter didn't realize Ol' Mistah Buzzard was talking to him. By the time he understood, it was too late to answer. The old buzzard was already far, far up in the blue sky."
+        - id: ch01-b08
+          speaker: peter_rabbit
+          text: "Cottontail. Cottontail."
+        - id: ch01-b09
+          speaker: narrator
+          text: "Peter repeated the name to himself, and a smile began to spread across his face. Each time he said it, he liked it more."
+        - id: ch01-b10
+          speaker: peter_rabbit
+          text: "Cottontail! Peter Cottontail! That sounds much better than Peter Rabbit. It makes me sound like somebody important. Yes, sir, that's the name for me! I'll tell all my friends that I'm not Peter Rabbit anymore. From now on, I'm Peter Cottontail."
+          emotion: happy
+        - id: ch01-b11
+          speaker: narrator
+          text: "Peter kicked up his heels in the funny way he always did when he was pleased. Then he suddenly remembered that a fine, long, grand-sounding name like Peter Cottontail called for dignity. He stopped kicking his heels and began practicing important airs instead."
+        - id: ch01-b12
+          speaker: narrator
+          text: "But first, he called to the Merry Little Breezes. Peter told them about his new name and asked them to carry the news to all his friends. From now on, he said, he would no longer answer to Peter Rabbit. He would answer only to Peter Cottontail."
+        - id: ch01-b13
+          speaker: peter_rabbit
+          text: "Please tell everyone that my name is Peter Cottontail now. I won't answer to Peter Rabbit anymore."
+        - id: ch01-b14
+          speaker: narrator
+          text: "Peter explained it all with a grave, earnest, important look. The Merry Little Breezes managed to keep straight faces while he spoke. But the moment they left to deliver his message, they burst out laughing. It was such a joke!"
+        - id: ch01-b15
+          speaker: narrator
+          text: "They giggled as they carried the message to each of the little people in the forest and meadow."
+        - id: ch01-b16
+          speakers: [merry_breeze_1, merry_breeze_2, merry_breeze_3]
+          ensemble: chorus
+          text: "Peter Rabbit changed his name. So now, without fail, please be sure to call him Mister Peter Cottontail!"
+          emotion: happy
+        - id: ch01-b17
+          speaker: narrator
+          text: "Meanwhile, Peter was back in the Old Briar-patch, practicing his new airs. He tried his very best to look high and mighty and important, just as someone with a fine name like Peter Cottontail should."

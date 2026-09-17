@@ -1,0 +1,166 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容讲述古老童话，带着轻快而一本正经的诙谐
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中
+    girl:
+      display_name: 姑娘
+      tts:
+        delivery: 善良质朴，受委屈时柔弱，作出决定时勇敢坚定
+        timbre: 清澈柔和
+        pace: 中等
+        pitch: 中高
+    stepmother:
+      display_name: 继母
+      tts:
+        delivery: 冷酷刻薄，命令别人时强硬而不耐烦
+        timbre: 冷硬尖利
+        pace: 中等偏快
+        pitch: 中高
+    frog_prince:
+      display_name: 青蛙王子
+      tts:
+        delivery: 青蛙时声音沙哑而执着，恢复人形后真诚沉稳
+        timbre: 低哑浑厚
+        pace: 舒缓
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 继母的难题
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "从前有一段极好的时光。不过，那不是我生活的年月，也不是你生活的年月，更不是旁人生活的年月。那时候，有个姑娘没了母亲，父亲又娶了一位妻子。"
+        - id: ch01-b02
+          speaker: narrator
+          text: "继母恨她，因为姑娘比自己生得美。她待姑娘十分狠心，把家里所有仆人干的活儿都推给她，一刻安生也不给。后来，继母打定主意，要把她彻底除掉。她递给姑娘一只筛子。"
+        - id: ch01-b03
+          speaker: stepmother
+          text: "你到世界尽头之井去，用这只筛子装满水，再满满地带回来。不然，有你好受的！"
+          emotion: angry
+        - id: ch01-b04
+          speaker: narrator
+          text: "继母认定，姑娘连那口井都找不到。就算找到了，筛子又怎么盛得住水呢？"
+        - id: ch01-b05
+          speaker: narrator
+          text: "姑娘上了路，逢人便问世界尽头之井在哪里。可谁也不知道。她正发愁，连一点办法也想不出，一个古怪的小老太太来了。老太太的腰背弯得像是折成了两截，却知道那口井在哪儿，也告诉了她该怎么走。"
+        - id: ch01-b06
+          speaker: narrator
+          text: "姑娘照着指点一路走，终于来到世界尽头之井。她把筛子浸进冰冷冰冷的井水，水一下就漏光了。再试，还是漏。她试了一回又一回，最后只好坐在地上，伤心得放声大哭，像是连心都要哭碎了。"
+    - id: ch02
+      title: 井边的承诺
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "忽然，她听见一个声音沙哑地呱呱叫。抬头一看，一只硕大的青蛙正瞪着两只鼓眼睛望着她。"
+        - id: ch02-b02
+          speaker: frog_prince
+          text: "小姑娘，你这是怎么啦？"
+        - id: ch02-b03
+          speaker: girl
+          text: "唉，继母让我走这么远，到世界尽头之井来装满这只筛子。可我怎么装，水都会漏光呀。"
+          emotion: sad
+        - id: ch02-b04
+          speaker: frog_prince
+          text: "我有办法。不过你得答应我，今天一整夜，我让你做什么，你都照办。这样我就教你怎么装水。"
+        - id: ch02-b05
+          speaker: narrator
+          text: "姑娘答应了。青蛙便告诉她一个办法。"
+        - id: ch02-b06
+          speaker: frog_prince
+          text: "青苔塞严，黏土抹好，井水盛满，一滴不跑。"
+        - id: ch02-b07
+          speaker: narrator
+          text: "说完，青蛙一蹦，一跃，又一跳，扑通一声落进了世界尽头之井。姑娘四下找到一些青苔，铺在筛子底下，又在上面抹了层黏土。筛子再次浸入井水，这一回，水当真不漏了。姑娘便转身要走。"
+        - id: ch02-b08
+          speaker: narrator
+          text: "姑娘正要离开，青蛙忽然从井里探出脑袋。"
+        - id: ch02-b09
+          speaker: frog_prince
+          text: "可别忘了你答应我的事。"
+        - id: ch02-b10
+          speaker: girl
+          text: "知道啦。一只青蛙又能把我怎么样呢？"
+        - id: ch02-b11
+          speaker: narrator
+          text: "姑娘回到继母家，把盛满世界尽头之井井水的筛子带了回来。继母见她真的办到了，气得要命，却一句话也没说。"
+    - id: ch03
+      title: 门外的青蛙
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "当天晚上，有个东西在门下方笃笃地敲。一个声音从外面传了进来。"
+        - id: ch03-b02
+          speaker: frog_prince
+          text: "开开门呀，我的甜心，我的心肝。开开门呀，我最亲爱的姑娘。别忘了你我说定的话，就在草地那边，世界尽头的井旁。"
+        - id: ch03-b03
+          speaker: stepmother
+          text: "外面究竟是什么东西？"
+          emotion: surprised
+        - id: ch03-b04
+          speaker: narrator
+          text: "姑娘只得把井边发生的事全说了，也说出了自己许下的承诺。继母一听，心里反倒高兴。她巴不得姑娘去听从那只讨厌的青蛙。"
+        - id: ch03-b05
+          speaker: stepmother
+          text: "姑娘家答应过的事，就得做到。马上去开门！"
+        - id: ch03-b06
+          speaker: narrator
+          text: "姑娘打开门，外面果然是井边的青蛙。它一蹦，一跃，又一跳，来到姑娘面前。"
+        - id: ch03-b07
+          speaker: frog_prince
+          text: "抱我上膝呀，我的甜心，我的心肝。抱我上膝呀，我最亲爱的姑娘。记住你我说定的话，就在草地那边，世界尽头的井旁。"
+        - id: ch03-b08
+          speaker: narrator
+          text: "姑娘不愿意碰它。继母立刻逼她照办。"
+        - id: ch03-b09
+          speaker: stepmother
+          text: "马上把它抱起来，你这野丫头！答应过的事，就得做到！"
+          emotion: angry
+        - id: ch03-b10
+          speaker: narrator
+          text: "姑娘终于把青蛙抱到腿上。青蛙躺了一会儿，又开口了。"
+        - id: ch03-b11
+          speaker: frog_prince
+          text: "给我晚饭呀，我的甜心，我的心肝。给我晚饭呀，我亲爱的姑娘。记住你我说定的话，就在草地那边，世界尽头的井旁。"
+    - id: ch04
+      title: 一整夜的吩咐
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "这件事姑娘倒不介意。她拿来一碗牛奶和面包，让青蛙吃了个饱。青蛙吃完，又提出了下一件事。"
+        - id: ch04-b02
+          speaker: frog_prince
+          text: "带我上床呀，我的甜心，我的心肝。带我上床呀，我最亲爱的姑娘。别忘了你对我说过的话，就在那冰冷的井旁，一路走得多辛苦。"
+        - id: ch04-b03
+          speaker: narrator
+          text: "这一回，姑娘说什么也不肯。继母却没有一点商量的意思。"
+        - id: ch04-b04
+          speaker: stepmother
+          text: "你答应了什么，就照着做！姑娘家必须守信。再不听话，你和你的青蛙就一起滚出去！"
+          emotion: angry
+        - id: ch04-b05
+          speaker: narrator
+          text: "姑娘只好带着青蛙上床，还尽量让它离自己远远的。等到天刚要破晓，青蛙又说话了。"
+        - id: ch04-b06
+          speaker: frog_prince
+          text: "砍下我的头呀，我的甜心，我的心肝。砍下我的头呀，我最亲爱的姑娘。记住你对我许下的承诺，就在那冰冷的井旁，一路走得多辛苦。"
+        - id: ch04-b07
+          speaker: narrator
+          text: "姑娘起初不肯。她记得，是这只青蛙在世界尽头之井帮了自己。可是青蛙又把刚才的话说了一遍。姑娘终于取来一把斧头，一斧砍下了它的脑袋。"
+    - id: ch05
+      title: 魔法解除以后
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: "说也奇怪，姑娘眼前站着的，竟是一位英俊的年轻王子。原来，他中了邪恶魔法师的咒语。只有一个姑娘肯整整一夜听从他的吩咐，最后再砍下他的头，他才能恢复原来的模样。"
+        - id: ch05-b02
+          speaker: narrator
+          text: "继母看到的不是那只讨厌的青蛙，而是一位年轻王子，惊得几乎说不出话。王子又告诉她，姑娘替自己解开了魔法，所以他要娶姑娘为妻。继母听了，当然一点也不高兴。"
+        - id: ch05-b03
+          speaker: narrator
+          text: "王子和姑娘成了婚，双双离开这里，住进王子父亲的城堡。那位父亲正是国王。继母唯一能安慰自己的，就是继女能嫁给王子，说到底还全是她促成的。"

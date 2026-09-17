@@ -1,0 +1,723 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, thoughtful, and gently amused
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    aladdin:
+      display_name: Aladdin
+      tts:
+        delivery: youthful, direct, and increasingly assured
+        timbre: bright and clear
+        pace: moderate
+        pitch: medium
+    mother:
+      display_name: Aladdin's Mother
+      tts:
+        delivery: loving, practical, and easily worried
+        timbre: warm and mature
+        pace: moderate
+        pitch: medium
+    african_magician:
+      display_name: African Magician
+      tts:
+        delivery: smooth, calculating, and suddenly fierce
+        timbre: dark and polished
+        pace: measured
+        pitch: medium-low
+    ring_genie:
+      display_name: Genie of the Ring
+      tts:
+        delivery: immense, formal, and obedient
+        timbre: deep and echoing
+        pace: measured
+        pitch: low
+    lamp_genie:
+      display_name: Genie of the Lamp
+      tts:
+        delivery: powerful, formal, and commanding
+        timbre: resonant and otherworldly
+        pace: measured
+        pitch: low
+    sultan:
+      display_name: Sultan
+      tts:
+        delivery: regal, decisive, and deeply affectionate
+        timbre: rich and mature
+        pace: measured
+        pitch: medium-low
+    grand_vizir:
+      display_name: Grand Vizir
+      tts:
+        delivery: controlled, calculating, and envious
+        timbre: dry and refined
+        pace: measured
+        pitch: medium-low
+    princess:
+      display_name: Princess
+      tts:
+        delivery: graceful, sincere, and quietly resolute
+        timbre: clear and luminous
+        pace: moderate
+        pitch: medium-high
+    vizirs_son:
+      display_name: Vizir's Son
+      tts:
+        delivery: proud at first, then shaken and fearful
+        timbre: smooth and youthful
+        pace: moderate
+        pitch: medium
+    citizen:
+      display_name: Citizen
+      tts:
+        delivery: open, lively, and matter-of-fact
+        timbre: clear and friendly
+        pace: moderate
+        pitch: medium
+    palace_servant:
+      display_name: Palace Servant
+      tts:
+        delivery: respectful, observant, and quick
+        timbre: light and clear
+        pace: moderate
+        pitch: medium-high
+    jeweler:
+      display_name: Master Jeweler
+      tts:
+        delivery: respectful, exact, and apologetic
+        timbre: steady and mature
+        pace: measured
+        pitch: medium
+    second_magician:
+      display_name: Magician's Brother
+      tts:
+        delivery: deceptively gentle and coldly cunning
+        timbre: thin and controlled
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The False Uncle
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            A poor tailor once had a son named Aladdin. The boy was careless and idle. From morning until night, he played in the streets with other boys who were just as idle as he was. His father grieved so much over him that he died. Even then, though his mother wept and pleaded, Aladdin would not change.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            One day, a stranger stopped Aladdin in the street. He asked the boy's age and whether he was the son of Mustapha the tailor.
+        - id: ch01-b03
+          speaker: aladdin
+          text: >-
+            Yes, sir, I am. But my father died a long time ago.
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            The stranger was really a famous magician from Africa. He threw his arms around Aladdin and kissed him.
+        - id: ch01-b05
+          speaker: african_magician
+          text: >-
+            I am your uncle. You look so much like my brother that I knew you at once. Go tell your mother I am coming to see her.
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            Aladdin hurried home with the news.
+        - id: ch01-b07
+          speaker: mother
+          text: >-
+            Your father did have a brother, child, but I always believed he was dead.
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            Still, she prepared supper and sent Aladdin to find the man. The magician arrived carrying wine and fruit. He kissed the place where Mustapha used to sit and explained that he had been away from the country for forty years. Then he asked Aladdin what trade he followed. The boy lowered his head, and his mother began to cry.
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            When the magician learned that Aladdin refused to learn any trade, he promised to open a shop and fill it with goods for him. The next morning, he bought Aladdin a fine suit. He showed him all the sights of the city and brought him home at night. His mother was overjoyed to see how splendid her son looked.
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            The day after that, the magician led Aladdin far beyond the city gates into beautiful gardens. They rested beside a fountain and shared a cake from the magician's girdle. Then they walked on toward the mountains. Aladdin grew so tired that he begged to turn back, but the magician kept him moving with pleasant stories.
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            At last they entered a narrow valley between two mountains.
+        - id: ch01-b12
+          speaker: african_magician
+          text: >-
+            We need go no farther. I am going to show you something wonderful. Gather some sticks while I start a fire.
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            When the fire was burning, the magician scattered powder over it and spoke magical words. The ground trembled. Then it opened before them, revealing a square stone with a brass ring in its center. Aladdin tried to flee, but the magician caught him and struck him so hard that he fell.
+        - id: ch01-b14
+          speaker: aladdin
+          text: >-
+            Uncle, what have I done?
+          emotion: fearful
+        - id: ch01-b15
+          speaker: african_magician
+          text: >-
+            Do not be afraid. Just obey me. A treasure lies beneath this stone, and it belongs to you alone. No one else may touch it, so you must follow every word I say.
+        - id: ch01-b16
+          speaker: narrator
+          text: >-
+            The word treasure swept away Aladdin's fear. As instructed, he took the ring and spoke the names of his father and grandfather. The stone rose easily, and a flight of steps appeared below it.
+        - id: ch01-b17
+          speaker: african_magician
+          text: >-
+            Go down those steps. At the bottom, an open door leads to three great halls. Lift your gown and pass through without touching a single thing, or you will die at once. Beyond the halls is a garden full of fruit trees. Cross it to the terrace. You will see a burning lamp in a niche. Pour out its oil and bring the lamp to me.
+        - id: ch01-b18
+          speaker: narrator
+          text: >-
+            The magician slipped a ring from his own finger onto Aladdin's and wished him success. Aladdin went down the steps and through the open door. He crossed all three halls with his gown lifted so that it touched nothing. Beyond them, he found the garden and its fine fruit trees exactly as the magician had said. He walked to the terrace, emptied the oil from the burning lamp, and took it from the niche. On his way back, he gathered some of the strange fruit. Then he crossed the halls again and climbed to the mouth of the cave.
+        - id: ch01-b19
+          speaker: african_magician
+          text: >-
+            Quickly! Hand me the lamp!
+        - id: ch01-b20
+          speaker: narrator
+          text: >-
+            Aladdin refused to give it up until the magician helped him out. In a fury, the man flung more powder on the fire and spoke another spell. The stone rolled shut, trapping Aladdin below.
+        - id: ch01-b21
+          speaker: narrator
+          text: >-
+            The magician left Persia forever. He had never been Aladdin's uncle. His magic books had told him of a wonderful lamp that could make him the most powerful man in the world. He alone knew where it lay, but another person's hand had to give it to him. He had chosen foolish Aladdin to fetch it, planning to take the lamp and kill the boy afterward.
+    - id: ch02
+      title: The Ring and the Lamp
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            Aladdin spent two days in darkness, weeping and crying out. At last he clasped his hands to pray. As he did, he rubbed the ring the magician had forgotten to take. At once, an enormous and frightening genie rose from the earth.
+        - id: ch02-b02
+          speaker: ring_genie
+          text: >-
+            What do you ask of me? I am the Slave of the Ring, and I will obey you in everything.
+        - id: ch02-b03
+          speaker: aladdin
+          text: >-
+            Get me out of this place!
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            The earth opened, and Aladdin suddenly stood outside. When his eyes could bear the daylight, he went home and fainted on the threshold. After he recovered, he told his mother everything. He showed her the lamp and the garden fruit, which was really made of precious stones. Then he asked for food.
+        - id: ch02-b05
+          speaker: mother
+          text: >-
+            Oh, my child, there is no food in the house. I have spun a little cotton. I will sell it and buy us something to eat.
+          emotion: sad
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            Aladdin told her to keep the cotton. He would sell the lamp instead. Because it was filthy, she began rubbing it so it would bring a better price. A hideous genie appeared instantly and asked for her command. Aladdin's mother fainted, but Aladdin seized the lamp.
+        - id: ch02-b07
+          speaker: aladdin
+          text: >-
+            Bring us something to eat!
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            The genie returned with a silver bowl and twelve silver plates covered with rich food. He also brought two silver cups and two bottles of wine. When Aladdin's mother woke and saw it all, she stared in wonder.
+        - id: ch02-b09
+          speaker: mother
+          text: >-
+            Where did this magnificent meal come from?
+          emotion: surprised
+        - id: ch02-b10
+          speaker: aladdin
+          text: >-
+            Do not ask about it now. Come and eat.
+        - id: ch02-b11
+          speaker: narrator
+          text: >-
+            Their breakfast lasted until dinner. Aladdin explained the lamp, but his mother begged him to sell it and stay away from such spirits.
+        - id: ch02-b12
+          speaker: aladdin
+          text: >-
+            No. Now that chance has shown us what the lamp can do, we will use it. We will use the ring as well, and I will always keep that on my finger.
+        - id: ch02-b13
+          speaker: narrator
+          text: >-
+            After the food was gone, Aladdin sold one silver plate, then another, until all twelve were gone. He called the genie again and received another set. In this way, he and his mother lived for many years.
+    - id: ch03
+      title: Aladdin Seeks the Princess
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            One day, the Sultan ordered everyone to stay inside and close their shutters while his daughter went to the bath and returned. The princess always wore a veil, and Aladdin longed to see her face. He hid behind the bathhouse door and looked through a crack. As she entered, she lifted her veil. She was so beautiful that he fell in love at once.
+        - id: ch03-b02
+          speaker: narrator
+          text: >-
+            Aladdin came home so changed that his mother became frightened. He said he loved the princess too deeply to live without her. He meant to ask the Sultan for her hand. His mother laughed at the very thought, but he kept pleading until she agreed to carry his request.
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            She spread out a napkin and filled it with the enchanted garden's fruit. The stones glittered and shone like the finest jewels. She hoped their beauty would please the Sultan, and she trusted that the lamp would help them. At the palace, the grand vizir and the lords of the council had just entered the audience chamber. Aladdin's mother took her place directly in front of the Sultan, holding the bundle where he could see it. Yet he paid no attention to her. She came back day after day and stood in that same place for a week.
+        - id: ch03-b04
+          speaker: sultan
+          text: >-
+            That woman comes to the audience chamber every day with something wrapped in a napkin. When she returns, bring her to me. I want to know what she needs.
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            The next day, the vizir signaled to her. She approached the throne and knelt.
+        - id: ch03-b06
+          speaker: sultan
+          text: >-
+            Stand up, good woman, and tell me what you have come to ask.
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            She hesitated. The Sultan dismissed everyone except the vizir and promised to forgive whatever she might say. Then she told him of Aladdin's desperate love for the princess.
+        - id: ch03-b08
+          speaker: mother
+          text: >-
+            I begged my son to forget her, Your Majesty, but he would not. He said he might do something desperate if I refused to ask for the princess's hand. Please forgive me, and forgive my son Aladdin too.
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            The Sultan kindly asked what lay inside her napkin. She opened it and offered him the jewels. He stared at them in amazement, then turned to his vizir.
+        - id: ch03-b10
+          speaker: sultan
+          text: >-
+            What do you think? Should I not give the princess to a man who offers such a treasure for her?
+          emotion: surprised
+        - id: ch03-b11
+          speaker: narrator
+          text: >-
+            The vizir wanted the princess to marry his own son. He asked the Sultan to wait three months, hoping his son could produce a richer gift. The Sultan agreed. He told Aladdin's mother that he consented to the marriage, but she must not return for three months.
+        - id: ch03-b12
+          speaker: narrator
+          text: >-
+            Aladdin waited patiently. But when only two months had passed, his mother went into the city for oil and found everyone celebrating.
+        - id: ch03-b13
+          speaker: citizen
+          text: >-
+            Have you not heard? The grand vizir's son is marrying the Sultan's daughter tonight!
+        - id: ch03-b14
+          speaker: narrator
+          text: >-
+            She ran home, breathless, and told Aladdin. At first he was crushed. Then he remembered the lamp and rubbed it. The genie appeared.
+        - id: ch03-b15
+          speaker: lamp_genie
+          text: >-
+            What is your will?
+        - id: ch03-b16
+          speaker: aladdin
+          text: >-
+            The Sultan has broken his promise to me. Tonight the vizir's son is to marry the princess. Bring the bride and bridegroom here after they go to bed.
+        - id: ch03-b17
+          speaker: lamp_genie
+          text: >-
+            Master, I obey.
+        - id: ch03-b18
+          speaker: narrator
+          text: >-
+            Aladdin went to his room. At midnight, the genie arrived carrying the bed with the princess and the vizir's son.
+        - id: ch03-b19
+          speaker: aladdin
+          text: >-
+            Take the bridegroom outside into the cold. Bring him back at daybreak.
+        - id: ch03-b20
+          speaker: narrator
+          text: >-
+            The genie carried the young man away and left the princess with Aladdin.
+        - id: ch03-b21
+          speaker: aladdin
+          text: >-
+            Do not be afraid. Your father promised you to me, so you are my wife. I will not harm you.
+          emotion: calm
+        - id: ch03-b22
+          speaker: narrator
+          text: >-
+            The princess was too terrified to answer. She passed the most miserable night of her life while Aladdin lay beside her and slept soundly. At dawn, the genie brought back the shivering bridegroom, put him into bed, and returned the bed to the palace.
+        - id: ch03-b23
+          speaker: narrator
+          text: >-
+            The Sultan soon came to wish his daughter good morning. The vizir's unhappy son leaped up and hid himself. The princess sat sorrowfully and would not say a word to her father. The Sultan sent her mother to learn what was wrong. The princess sighed deeply before she could answer. At last, she described how the bed had been carried out of the palace into a strange house. She told her mother what Aladdin had said and how the bridegroom had been taken away until dawn. Her mother did not believe any of it. She told the princess to get up and dismiss the whole thing as an idle dream.
+        - id: ch03-b24
+          speaker: narrator
+          text: >-
+            The second night was exactly the same. The next morning, the princess again said nothing. This time the Sultan threatened to have her put to death. She confessed the whole story and told him to question the vizir's son.
+        - id: ch03-b25
+          speaker: vizirs_son
+          text: >-
+            It is all true. I love the princess dearly, but I would rather die than suffer another night like that. Please end the marriage.
+          emotion: fearful
+        - id: ch03-b26
+          speaker: narrator
+          text: >-
+            His request was granted. The wedding feasts and celebrations ended.
+    - id: ch04
+      title: The Palace of Wonders
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            When the full three months had passed, Aladdin sent his mother to remind the Sultan of his promise. The Sultan had forgotten him, but the sight of her brought everything back. Her poverty made him less willing than ever to keep his word. He asked the vizir what to do, and the vizir advised him to demand a price no living man could pay.
+        - id: ch04-b02
+          speaker: sultan
+          text: >-
+            A Sultan must keep his promises, and I will keep mine. First, your son must send forty golden basins filled to the brim with jewels. Forty richly dressed black slaves must carry them, with forty white slaves leading the way. Tell him I am waiting for his answer.
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            Aladdin's mother bowed and went home, certain that all was lost.
+        - id: ch04-b04
+          speaker: mother
+          text: >-
+            The Sultan may wait a very long time for your answer!
+        - id: ch04-b05
+          speaker: aladdin
+          text: >-
+            Not as long as you think, Mother. I would do far more than that for the princess.
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            He summoned the genie. In moments, eighty slaves filled the little house and garden. Aladdin sent them toward the palace in pairs, with his mother following. Their rich clothes and jeweled girdles drew crowds. The golden basins shone on their heads.
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            At the palace, they knelt before the Sultan. Then they stood in a half-circle around his throne while Aladdin's mother presented them.
+        - id: ch04-b08
+          speaker: sultan
+          text: >-
+            Good woman, go home and tell your son that I am waiting to welcome him with open arms.
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            She hurried home and urged Aladdin to leave at once. First, he called the genie.
+        - id: ch04-b10
+          speaker: aladdin
+          text: >-
+            Prepare a scented bath and a richly embroidered suit for me. Bring me a horse finer than the Sultan's and twenty slaves to attend me. Give my mother six beautifully dressed servants. Last of all, bring ten purses, each holding a thousand pieces of gold.
+        - id: ch04-b11
+          speaker: narrator
+          text: >-
+            It was done at once. Aladdin rode through the city while his attendants scattered gold. Even the boys who had played with him in childhood did not recognize the handsome young man.
+        - id: ch04-b12
+          speaker: narrator
+          text: >-
+            The Sultan came down from his throne to embrace Aladdin. He led him to a feast and planned to marry him to the princess that very day. Aladdin declined.
+        - id: ch04-b13
+          speaker: aladdin
+          text: >-
+            Before I marry her, I must build a palace worthy of the princess.
+        - id: ch04-b14
+          speaker: narrator
+          text: >-
+            Back at home, Aladdin gave the genie another command.
+        - id: ch04-b15
+          speaker: aladdin
+          text: >-
+            Build me a palace of the finest marble, decorated with jasper, agate, and precious stones. At its center, make a great domed hall with walls of solid gold and silver. Put six windows on each side. Set every lattice with diamonds and rubies, except one window, which you must leave unfinished. Add stables, horses, grooms, and servants. Go and see to it.
+        - id: ch04-b16
+          speaker: narrator
+          text: >-
+            By the next morning, the palace stood complete. The genie carried Aladdin there and led him through it. The marble, precious stones, golden and silver walls, stables, horses, grooms, and servants were all exactly as Aladdin had ordered. Even a velvet carpet stretched all the way from his new palace to the Sultan's. Aladdin's mother dressed with great care and walked to the wedding with her six servants around her. Aladdin followed on his magnificent horse with his own attendants. The Sultan sent musicians with trumpets and cymbals to meet them, and the air rang with music and cheers.
+        - id: ch04-b17
+          speaker: narrator
+          text: >-
+            The princess received Aladdin's mother with great honor. That evening, she said farewell to her father and crossed the velvet carpet with Aladdin's mother beside her and a hundred slaves behind them. When she saw Aladdin waiting, she was delighted.
+        - id: ch04-b18
+          speaker: aladdin
+          text: >-
+            Princess, if my boldness has offended you, you must blame your own beauty for it.
+        - id: ch04-b19
+          speaker: princess
+          text: >-
+            Now that I have seen you, I am glad to obey my father and become your wife.
+        - id: ch04-b20
+          speaker: narrator
+          text: >-
+            They were married. Aladdin led her into the great hall, where they ate together and danced until midnight.
+        - id: ch04-b21
+          speaker: narrator
+          text: >-
+            The next day, the Sultan visited the palace. In the hall, twenty-three windows blazed with rubies, diamonds, and emeralds, while one stood bare.
+        - id: ch04-b22
+          speaker: sultan
+          text: >-
+            This is a wonder of the world! But one thing puzzles me. Was that window left unfinished by mistake?
+          emotion: surprised
+        - id: ch04-b23
+          speaker: aladdin
+          text: >-
+            No, Your Majesty. I left it that way so you could have the honor of completing the palace.
+        - id: ch04-b24
+          speaker: narrator
+          text: >-
+            Pleased, the Sultan called the finest jewelers and ordered them to make the last window match the others.
+        - id: ch04-b25
+          speaker: jeweler
+          text: >-
+            Your Majesty, there are not enough jewels in the city for such a window.
+        - id: ch04-b26
+          speaker: narrator
+          text: >-
+            The Sultan had his own jewels brought from the treasury. The workmen used every one of them, yet they still could not match the other windows. After a full month, their work was not even half finished. Aladdin knew their task was hopeless. He told them to remove everything they had set into the lattice and carry the jewels back to their owners. Then he called the genie, who finished the entire window at one command. The Sultan was astonished when his treasures were returned. He hurried to Aladdin's palace and saw that the bare window now shone like all the rest. He embraced Aladdin, while the envious vizir hinted that only enchantment could have done it.
+        - id: ch04-b27
+          speaker: narrator
+          text: >-
+            Aladdin's gentle manner won the people's hearts. The Sultan made him captain of the army, and Aladdin won several battles. He stayed modest and courteous, and for years he and the princess lived in peace.
+    - id: ch05
+      title: New Lamps for Old
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            Far away in Africa, the magician thought of Aladdin. His magic showed him that the boy had escaped the cave and married a princess. He knew the tailor's son could have gained such wealth only through the lamp. Furious, he traveled day and night to the capital of China, determined to ruin Aladdin.
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            Throughout the city, people were talking about a marvelous palace. The magician stopped one of them.
+        - id: ch05-b03
+          speaker: african_magician
+          text: >-
+            Forgive me, but what palace is everyone speaking about?
+        - id: ch05-b04
+          speaker: citizen
+          text: >-
+            Have you never heard of Prince Aladdin's palace? It is the greatest wonder in the world. I can show you the way if you wish to see it.
+        - id: ch05-b05
+          speaker: narrator
+          text: >-
+            The magician thanked him. One look at the palace told him that the genie of the lamp had built it. Rage nearly drove him mad. He resolved to steal the lamp and throw Aladdin back into poverty.
+        - id: ch05-b06
+          speaker: narrator
+          text: >-
+            Aladdin had gone hunting for eight days, so the magician had time to act. He bought twelve new copper lamps, placed them in a basket, and walked toward the palace calling out his offer. A mocking crowd followed him.
+        - id: ch05-b07
+          speaker: african_magician
+          text: >-
+            New lamps for old! Bring me an old lamp, and take a new one!
+        - id: ch05-b08
+          speaker: narrator
+          text: >-
+            The princess sat in the hall of twenty-four windows. Hearing the noise, she sent a servant to investigate. The young woman returned laughing so hard that the princess scolded her.
+        - id: ch05-b09
+          speaker: palace_servant
+          text: >-
+            Madam, how can anyone keep from laughing? An old fool is trading fine new lamps for battered old ones.
+        - id: ch05-b10
+          speaker: narrator
+          text: >-
+            Another servant remembered an old lamp lying on the cornice. It was the magic lamp, left behind because Aladdin could not take it hunting. The princess knew nothing of its power. Laughing, she ordered the exchange.
+        - id: ch05-b11
+          speaker: palace_servant
+          text: >-
+            Here is an old lamp. Give me a new one for it.
+        - id: ch05-b12
+          speaker: narrator
+          text: >-
+            The magician snatched the old lamp and told the servant to choose whichever new one she liked. The crowd laughed harder at what looked like a foolish bargain, but he did not care. He had the one thing he wanted. He stopped shouting his offer, left the remaining lamps behind, and hurried out through the city gates. In a lonely place beyond the walls, he waited until nightfall. Then he drew out the stolen lamp and rubbed it. Its genie appeared, ready to obey. The magician ordered him to carry the entire palace, with the princess and everyone inside, away from China and into a lonely part of Africa. The command was carried out at once.
+        - id: ch05-b13
+          speaker: narrator
+          text: >-
+            The next morning, the Sultan looked toward Aladdin's palace and rubbed his eyes. It had vanished. He summoned the vizir, who stared at the empty place in disbelief. Again the vizir blamed enchantment. This time the Sultan believed him. He sent thirty horsemen to bring Aladdin back in chains.
+        - id: ch05-b14
+          speaker: narrator
+          text: >-
+            They met Aladdin riding home. They bound him and made him walk to the palace. But the people loved him. An armed crowd followed to protect him. The Sultan ordered the executioner to cut off Aladdin's head. Aladdin was forced to his knees, his eyes were covered, and the sword rose above him.
+        - id: ch05-b15
+          speaker: narrator
+          text: >-
+            At that instant, the vizir saw the crowd pour into the courtyard and begin climbing the walls. He called for the executioner to stop. The people looked so dangerous that the Sultan gave in. He had Aladdin untied and publicly pardoned him.
+        - id: ch05-b16
+          speaker: narrator
+          text: >-
+            Aladdin asked what crime he had committed. The Sultan led him to a window and pointed to the bare ground.
+        - id: ch05-b17
+          speaker: sultan
+          text: >-
+            You false wretch, where are my palace and my daughter? I care less for the building, but I must have my child back. Find her, or you will lose your head.
+          emotion: angry
+        - id: ch05-b18
+          speaker: narrator
+          text: >-
+            Aladdin was too astonished to speak at first. Then he asked for forty days to search. If he failed, he promised to return and accept whatever death the Sultan chose. The Sultan granted his request.
+        - id: ch05-b19
+          speaker: narrator
+          text: >-
+            For three days, Aladdin wandered in misery, asking everyone where his palace had gone. Some laughed at him, and others pitied him. At last he reached a river. He knelt to pray before throwing himself into the water. As he knelt, he rubbed the ring that was still on his finger. The genie from the cave appeared.
+        - id: ch05-b20
+          speaker: aladdin
+          text: >-
+            Save my life. Bring my palace back to me.
+        - id: ch05-b21
+          speaker: ring_genie
+          text: >-
+            I cannot do that. I am only the Slave of the Ring. You must command the Slave of the Lamp.
+        - id: ch05-b22
+          speaker: aladdin
+          text: >-
+            Then take me to the palace and set me beneath my dear wife's window.
+        - id: ch05-b23
+          speaker: narrator
+          text: >-
+            In an instant, Aladdin stood in Africa below the princess's window. Exhaustion overcame him, and he fell asleep.
+    - id: ch06
+      title: The Palace Returns
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: >-
+            Birds woke Aladdin with their singing, and his heart felt lighter. Now he understood that every disaster had followed the loss of the lamp, though he could not imagine who had taken it.
+        - id: ch06-b02
+          speaker: narrator
+          text: >-
+            That morning, the princess rose earlier than usual. Since the palace had been carried to Africa, the magician had forced her to endure his company once each day. She treated him so coldly that he did not dare remain there all the time. As she dressed, one of her women looked outside and saw Aladdin.
+        - id: ch06-b03
+          speaker: narrator
+          text: >-
+            The princess ran to the window and opened it. The sound woke Aladdin. She called him inside, and the two of them were overcome with joy at seeing each other again. After embracing her, Aladdin asked his most urgent question.
+        - id: ch06-b04
+          speaker: aladdin
+          text: >-
+            Princess, before we speak of anything else, please tell me what happened to the old lamp I left on the cornice in the hall when I went hunting. Our lives depend on it.
+        - id: ch06-b05
+          speaker: princess
+          text: >-
+            Oh, Aladdin, I caused all our suffering without knowing it.
+          emotion: sad
+        - id: ch06-b06
+          speaker: narrator
+          text: >-
+            She told him how the old lamp had been traded for a new one.
+        - id: ch06-b07
+          speaker: aladdin
+          text: >-
+            Now I understand. The African magician did this. Where does he keep the lamp?
+        - id: ch06-b08
+          speaker: princess
+          text: >-
+            He carries it inside his coat. I know because he once pulled it out to show me. He says my father had you beheaded, and he wants me to betray you and marry him. He never stops speaking against you, but I answer only with tears. If I keep refusing him, I fear he will use force.
+          emotion: fearful
+        - id: ch06-b09
+          speaker: narrator
+          text: >-
+            Aladdin comforted the princess and assured her that he now knew how they might escape. He left the palace for a short time and went into the nearby town. There he exchanged his clothes with the first person he met, so the magician would not recognize him. Then he found a seller and bought a certain powder. With the powder hidden on him, he returned to the palace. The princess was waiting and let him enter unseen through a small side door.
+        - id: ch06-b10
+          speaker: aladdin
+          text: >-
+            Dress in your finest clothes. When the magician comes, smile at him and make him believe you have forgotten me. Invite him to supper and tell him you want to taste wine from Africa. He will go to fetch it. While he is gone, I will tell you what comes next.
+        - id: ch06-b11
+          speaker: narrator
+          text: >-
+            The princess listened closely. After Aladdin left, she dressed splendidly for the first time since leaving China. She wore a jeweled girdle and a headdress of diamonds. When the magician arrived, her welcome amazed him.
+        - id: ch06-b12
+          speaker: princess
+          text: >-
+            I have accepted that Aladdin is dead, and my tears cannot bring him back. I will mourn no longer, so I have invited you to dine with me. But I am tired of Chinese wine. I would like to taste the wine of Africa.
+        - id: ch06-b13
+          speaker: narrator
+          text: >-
+            The delighted magician hurried to his cellar. While he was gone, the princess put Aladdin's powder into her own cup. When the magician returned, she asked him to drink to her health. As a sign that she had accepted him, she offered him her cup and took his.
+        - id: ch06-b14
+          speaker: narrator
+          text: >-
+            Before drinking, the magician began a long speech praising her beauty. She stopped him.
+        - id: ch06-b15
+          speaker: princess
+          text: >-
+            Let us drink first. Afterward, you may say whatever you please.
+        - id: ch06-b16
+          speaker: narrator
+          text: >-
+            The princess held her untouched cup to her lips. The magician emptied his cup to the last drop and fell back lifeless.
+        - id: ch06-b17
+          speaker: narrator
+          text: >-
+            She opened the door for Aladdin and threw her arms around him. He gently moved her aside because there was still work to do. He took the lamp from the dead magician's coat and ordered its genie to carry the palace and everyone inside back to China.
+        - id: ch06-b18
+          speaker: narrator
+          text: >-
+            The princess felt only two small jolts in her room. She had no idea that she was home again. The Sultan sat alone mourning his daughter. When he looked up and saw the palace standing where it belonged, he rubbed his eyes. Then he rushed across to it.
+        - id: ch06-b19
+          speaker: narrator
+          text: >-
+            Aladdin received him in the hall of twenty-four windows, with the princess beside him. He told the whole story and showed the magician's body as proof. The Sultan proclaimed ten days of feasting. It seemed that Aladdin might live peacefully ever after, but one last danger remained.
+    - id: ch07
+      title: The False Holy Woman
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: >-
+            The African magician had a younger brother who was, if anything, even more wicked and cunning. When he learned what had happened, he traveled all the way to China to avenge the dead man. He sought out a pious woman named Fatima because he thought her good name could help him enter the palace. He forced his way into her lonely cell, pressed a dagger to her breast, and ordered her to rise and obey him on pain of death. He made her give him her clothes. Then he colored his face until it looked like hers, covered himself with her veil, and murdered Fatima so she could never reveal the disguise.
+        - id: ch07-b02
+          speaker: narrator
+          text: >-
+            Disguised as Fatima, he walked toward Aladdin's palace. People crowded around the famous holy woman, kissed her hands, and begged for blessings. The noise reached the princess, who sent a servant to see what was happening.
+        - id: ch07-b03
+          speaker: palace_servant
+          text: >-
+            It is the holy woman Fatima, Madam. People say her touch can cure their illnesses.
+        - id: ch07-b04
+          speaker: narrator
+          text: >-
+            The princess had long wanted to meet Fatima, so she invited the disguised magician inside. He prayed for her health and happiness. Then she asked him to sit beside her and stay in the palace forever. That was exactly what he wanted. He agreed, keeping his veil lowered so she would not recognize him.
+        - id: ch07-b05
+          speaker: narrator
+          text: >-
+            The princess showed him the great hall and asked what he thought of it.
+        - id: ch07-b06
+          speaker: second_magician
+          text: >-
+            It is truly beautiful. Still, I think one thing is missing.
+        - id: ch07-b07
+          speaker: princess
+          text: >-
+            What could it possibly need?
+        - id: ch07-b08
+          speaker: second_magician
+          text: >-
+            If a roc's egg hung from the center of the dome, this hall would become the wonder of the world.
+        - id: ch07-b09
+          speaker: narrator
+          text: >-
+            After hearing that, the princess could think of nothing but a roc's egg. When Aladdin came home from hunting, he found her in a terrible mood. He asked what troubled her. She said the empty center of the dome had ruined all her pleasure in the hall.
+        - id: ch07-b10
+          speaker: princess
+          text: >-
+            I cannot be happy with this hall unless a roc's egg hangs from the dome.
+        - id: ch07-b11
+          speaker: aladdin
+          text: >-
+            If that is all you need, you will soon be happy again.
+        - id: ch07-b12
+          speaker: narrator
+          text: >-
+            Aladdin rubbed the lamp and commanded the genie to bring him a roc's egg. The genie gave such a dreadful roar that the whole hall shook.
+        - id: ch07-b13
+          speaker: lamp_genie
+          text: >-
+            Wretch! Have I not done enough for you? Now you command me to bring my own master and hang him from your dome! You, your wife, and your palace deserve to burn to ashes. But this was not your idea. It came from the brother of the African magician you destroyed. He murdered the holy woman and entered your palace in her clothes. He planted this wish in your wife's mind, and he means to kill you. Guard yourself.
+          emotion: angry
+        - id: ch07-b14
+          speaker: narrator
+          text: >-
+            With that warning, the genie vanished. Aladdin went back to the princess without telling her what he had learned. He said that his head was aching and asked whether the holy Fatima might be brought to lay her healing hands upon it. The princess sent for her guest. The disguised magician came close to Aladdin, believing his chance had arrived. But before he could strike, Aladdin seized the dagger hidden beneath the false holy woman's clothes and drove it through the magician's heart.
+        - id: ch07-b15
+          speaker: princess
+          text: >-
+            What have you done? You have killed the holy woman!
+          emotion: surprised
+        - id: ch07-b16
+          speaker: aladdin
+          text: >-
+            That was no holy woman. It was another wicked magician.
+        - id: ch07-b17
+          speaker: narrator
+          text: >-
+            Aladdin explained how she had been deceived.
+        - id: ch07-b18
+          speaker: narrator
+          text: >-
+            After that, Aladdin and his wife lived in peace. When the Sultan died, Aladdin succeeded him and ruled for many years. He left behind a long line of kings.

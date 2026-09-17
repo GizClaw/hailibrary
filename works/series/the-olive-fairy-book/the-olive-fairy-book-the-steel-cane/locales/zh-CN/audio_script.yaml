@@ -1,0 +1,229 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容温厚，悲剧转折处克制而沉静
+        timbre: 温暖清晰的成熟男声
+        pace: 舒缓而富有变化
+        pitch: 中低
+    old_woman:
+      display_name: 老太太
+      tts:
+        delivery: 直率坚定，发怒时严厉而有威势
+        timbre: 干涩苍老的女声
+        pace: 适中
+        pitch: 中低
+    young_man:
+      display_name: 青年
+      tts:
+        delivery: 粗暴蛮横，语气急躁而怨毒
+        timbre: 粗粝结实的成年男声
+        pace: 适中偏快
+        pitch: 中低
+    wife:
+      display_name: 妻子
+      tts:
+        delivery: 温和勤恳，惊慌时语速加快
+        timbre: 柔和清晰的年轻女声
+        pace: 适中
+        pitch: 中高
+    son:
+      display_name: 儿子
+      tts:
+        delivery: 年幼直接，受惊时急促无助
+        timbre: 清亮稚嫩的男童声
+        pace: 适中偏快
+        pitch: 高
+    passerby:
+      display_name: 路人
+      tts:
+        delivery: 干脆自信，带着不容分说的口气
+        timbre: 厚实朴拙的成年男声
+        pace: 适中偏快
+        pitch: 中
+    companion_1:
+      display_name: 伙伴甲
+      tts:
+        delivery: 粗野凶狠，报复心切
+        timbre: 沙哑坚硬的成年男声
+        pace: 适中偏快
+        pitch: 中低
+    companion_2:
+      display_name: 伙伴乙
+      tts:
+        delivery: 粗野凶狠，附和时尖刻响亮
+        timbre: 尖利的成年男声
+        pace: 适中偏快
+        pitch: 中
+    companion_3:
+      display_name: 伙伴丙
+      tts:
+        delivery: 粗野凶狠，冲动而急切
+        timbre: 粗哑偏薄的成年男声
+        pace: 快
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 平原另一边的男孩
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，有个老太太住在森林边的小屋里。屋后是菜园，什么蔬菜都有。菜园外还有一片牧场，养着两三头奶牛。邻居们觉得她很富有，个个羡慕得很。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            老太太身子硬朗时，每天都在园里干活，从不觉得孤单。后来一场重病让她虚弱了许多，她才想，偶尔能有个人陪自己说说话也好。正巧这时，平原另一边的一对牧羊人夫妇去世了，只留下一个小男孩孤苦无依。
+        - id: ch01-b03
+          speaker: old_woman
+          text: >-
+            这孩子正合我的心意。
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            她派人把孩子接来，打算当亲生儿子养。男孩大约十二岁，新母亲待他和亲生母亲一样慈爱，他本该觉得幸运。可他偏偏结交了几个粗野的坏伙伴。那伙人到处恶作剧，吓得人人不得安宁。老太太也从此天天怀念过去的清静。
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            几年过去，男孩长成了男人。老太太想着，给他娶个妻子，也许就能叫他安分。邻居们帮忙找来一个漂亮、善良又勤快的姑娘。青年没有反对，婚礼立刻办了。夫妻俩就在小屋里与老太太同住。
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            可结婚并没让他改变。丈夫整天跟旧伙伴在外玩乐，直到晚上才回家。妻子只要敢说一句他的不是，他就拿棍子打她。第二年有了孩子，他连孩子也照打不误。
+    - id: ch02
+      title: 钢手杖的第一击
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            老太太终于忍无可忍。这个懒惰又游手好闲的家伙，看来再也不会自己改好。一天，她把他叫到面前，严厉地开了口。
+        - id: ch02-b02
+          speaker: old_woman
+          text: >-
+            你要这样过一辈子吗？你早就不是孩子了，别再胡闹。把坏习惯改掉，好好做工养活妻儿，尤其不准再打他们。否则，我就把你变成一头驴。人们会把重物堆上你的背，骑着你赶路。你只能吃荆棘，还要挨刺棒。到时候，你自然明白挨打是什么滋味。
+          emotion: angry
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            这番警告一点用也没有。青年反而发起火来，粗声冲她叫喊。
+        - id: ch02-b04
+          speaker: young_man
+          text: >-
+            呸！你给我闭嘴，不然我连你也抽！
+          emotion: angry
+        - id: ch02-b05
+          speaker: old_woman
+          text: >-
+            你真敢？
+          emotion: angry
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            老太太的脸沉了下来。她快如闪电，抄起墙角的钢手杖，横着抽在青年肩头。那双耳朵立刻变长，脸也向前伸去。双臂成了四腿，密密的灰毛盖满全身。他真的变成了一头驴，还是一头丑得出奇的驴。
+        - id: ch02-b07
+          speaker: old_woman
+          text: >-
+            滚出这间屋子！
+          emotion: angry
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            灰驴拖着笨拙的脚步晃出门去，站在小路上，不知道该往哪里走。这时，一个男人正好从旁经过。
+        - id: ch02-b09
+          speaker: passerby
+          text: >-
+            嘿，好家伙，我正缺你这么一头驴！你看起来没有主人，那就跟我走。我总会给你找得到活儿干。
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            男人揪住灰驴的一只耳朵，把他牵走了。接下来的七年，他吃尽了老太太预言过的苦头。可他从没想过，这些苦都是自己招来的，也不曾后悔以前的恶行。他的心一年比一年冷硬，也一年比一年怨毒。
+        - id: ch02-b11
+          speaker: narrator
+          text: >-
+            七年期满，驴皮终于磨坏脱落。他重新变回了人，一天又走到那间小屋门前。
+    - id: ch03
+      title: 灰狼的七年
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            妻子听见敲门声，开门认出是他，手里的门闩一下掉在地上。她转身奔进屋，一路高声呼喊。屋里的老太太仍坐在纺车前。
+        - id: ch03-b02
+          speaker: wife
+          text: >-
+            祖母！祖母！您的儿子回来了！
+          emotion: surprised
+        - id: ch03-b03
+          speaker: old_woman
+          text: >-
+            我早知道他会回来。没有他，我们原本过得很好。不过他既然到了门外，大概只好放他进来。
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            青年就这样进了屋。果然，他比从前更加恶劣。老太太任他胡来几个星期，最后实在忍不下去了。
+        - id: ch03-b05
+          speaker: old_woman
+          text: >-
+            看来，那七年的苦什么也没教会你！世上真没有几个人懂得从亲身经历里学乖。你小心些，别逼我把你变成狼，让狗和人一起追猎你！
+          emotion: angry
+        - id: ch03-b06
+          speaker: young_man
+          text: >-
+            你怎么总是说个没完？看我打破你的脑袋！
+          emotion: angry
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            青年要是抬头看看老太太的脸，也许会发现危险。可他正忙着削一支笛子，连眼睛都没抬。下一刻，钢手杖碰上他的肩头，一头硕大的灰狼立刻冲出门去。
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            狗群在后面狂叫，邻居们也大喊着追了上去。整整七年，他都过着一头被人和狗追猎的野兽才过的日子。他常常挨冻，几乎总在挨饿，连一次安稳的熟睡也不敢有。
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            七年过去，狼皮也磨坏脱落。青年第二次站到了小屋门前。
+    - id: ch04
+      title: 屋里的黑乌鸦
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            后一个七年和前一个七年一样，还是没教会他半点东西。他的品行甚至比以前更坏。一天，他把妻子和儿子打得十分凶狠，两人痛得放声呼救。
+        - id: ch04-b02
+          speakers: [wife, son]
+          ensemble: duo
+          text: >-
+            祖母，快来救救我们！
+          emotion: fearful
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            老太太立刻赶来，手里拿着钢手杖。只挥一下，那个恶棍便消失了。屋里出现一只硕大的黑乌鸦，扑着翅膀四处乱飞。
+        - id: ch04-b04
+          speaker: young_man
+          text: >-
+            嘎！嘎！
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            窗户正开着，乌鸦一下蹿了出去。他飞去寻找当初带坏自己的那伙伙伴，竟想办法让他们全都明白了发生在自己身上的事。
+    - id: ch05
+      title: 再也不脱落的羽毛
+      blocks:
+        - id: ch05-b01
+          speakers: [companion_1, companion_2, companion_3]
+          ensemble: chorus
+          text: >-
+            我们替你报仇！
+          emotion: angry
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            那伙人拿起一条绳子，直奔小屋，打算勒死老太太。可老太太早已准备好等着他们。
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            她把钢手杖一挥，所有人便一齐变成了黑乌鸦。这一回，他们身上的羽毛再也没有脱落。直到今天，他们仍旧是黑乌鸦。

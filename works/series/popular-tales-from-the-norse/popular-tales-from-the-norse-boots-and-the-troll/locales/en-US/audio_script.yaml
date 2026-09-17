@@ -1,0 +1,324 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    boots:
+      display_name: Boots
+      tts:
+        delivery: plainspoken and quietly clever
+        timbre: youthful and clear
+        pace: moderate
+        pitch: medium
+    elder_brother_1:
+      display_name: First Elder Brother
+      tts:
+        delivery: scornful and self-important
+        timbre: firm and dry
+        pace: moderate
+        pitch: medium-low
+    elder_brother_2:
+      display_name: Second Elder Brother
+      tts:
+        delivery: sly and resentful
+        timbre: narrow and sharp
+        pace: measured
+        pitch: medium
+    king:
+      display_name: King
+      tts:
+        delivery: commanding and stubborn
+        timbre: full and authoritative
+        pace: measured
+        pitch: low
+    troll:
+      display_name: Troll
+      tts:
+        delivery: booming and blunt
+        timbre: huge and rough
+        pace: deliberate
+        pitch: very low
+    troll_daughter:
+      display_name: Troll's Daughter
+      tts:
+        delivery: practical and unsuspecting
+        timbre: coarse and strong
+        pace: moderate
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: Boots Comes to the Palace
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, a poor man had three sons. After he died, the two older sons set out to seek their fortunes. They refused to take the youngest with them.
+        - id: ch01-b02
+          speakers: [elder_brother_1, elder_brother_2]
+          ensemble: duo
+          text: You? You're no good for anything except sitting by the hearth and poking through the ashes.
+        - id: ch01-b03
+          speaker: narrator
+          text: The two brothers found work at a palace. One served under the coachman, and the other under the gardener. The youngest, whom people called Boots, set out as well. He carried a great kneading trough, the only thing his parents had left behind. His brothers had not thought it worth taking. The trough was heavy, but Boots could not bear to leave it. After a weary walk, he reached the palace and asked for work.
+        - id: ch01-b04
+          speaker: narrator
+          text: At first they turned him away. Boots pleaded so sweetly that they finally let him work in the kitchen, carrying wood and water for the kitchen maid. He was quick and willing, and everyone soon liked him. His brothers were dull workers. They earned more kicks than coins, and when they saw how well Boots was doing, they became terribly jealous.
+    - id: ch02
+      title: The Seven Silver Ducks
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Across a lake from the palace stood a Troll's home. The Troll owned seven silver ducks, and they could be seen swimming on the lake from the palace windows. The king had often wished they were his.
+        - id: ch02-b02
+          speakers: [elder_brother_1, elder_brother_2]
+          ensemble: duo
+          text: Our brother says he could easily bring the king those seven silver ducks, if he cared to.
+        - id: ch02-b03
+          speaker: narrator
+          text: They told the coachman, and the coachman quickly carried the tale to the king. The king summoned Boots.
+        - id: ch02-b04
+          speaker: king
+          text: Your brothers tell me you can get those silver ducks. Go and bring them to me.
+        - id: ch02-b05
+          speaker: boots
+          text: But I never thought of doing such a thing, and I certainly never said I could.
+        - id: ch02-b06
+          speaker: king
+          text: You said it, and you will fetch them.
+        - id: ch02-b07
+          speaker: narrator
+          text: The king would not be contradicted.
+        - id: ch02-b08
+          speaker: boots
+          text: Well, if I must, I must. Give me a bushel of rye and a bushel of wheat, and I'll see what I can do.
+        - id: ch02-b09
+          speaker: narrator
+          text: Boots got the rye and wheat and poured both bushels into the kneading trough he had brought from home. Then he climbed in and used the trough as a boat to cross the lake. On the far shore, he walked along the water's edge, sprinkling grain as he went. Little by little, he coaxed all seven silver ducks into the trough. Then he climbed in beside them and rowed for the palace as fast as he could.
+        - id: ch02-b10
+          speaker: narrator
+          text: Halfway across, Boots saw the Troll come out of his house. The Troll spotted him at once.
+        - id: ch02-b11
+          speaker: troll
+          text: Halloa! Are you the one sailing away with my seven silver ducks?
+        - id: ch02-b12
+          speaker: boots
+          text: Aye, aye!
+        - id: ch02-b13
+          speaker: troll
+          text: Will you be coming back soon?
+        - id: ch02-b14
+          speaker: boots
+          text: Very likely.
+        - id: ch02-b15
+          speaker: narrator
+          text: Boots returned to the palace with the seven silver ducks. Everyone liked him better than ever, and even the king told him he had done well. That only made his brothers more spiteful and jealous.
+    - id: ch03
+      title: The Gold and Silver Quilt
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The brothers went back to the coachman with another story.
+        - id: ch03-b02
+          speakers: [elder_brother_1, elder_brother_2]
+          ensemble: duo
+          text: Our brother says he is quite able to get the Troll's bed quilt for the king. It's the one covered in patches of gold and silver, silver and gold.
+        - id: ch03-b03
+          speaker: narrator
+          text: Once again, the coachman wasted no time in telling the king. The king called Boots and repeated what his brothers had said.
+        - id: ch03-b04
+          speaker: king
+          text: You are to bring me the Troll's quilt with the gold and silver patches. If you fail, you will lose your life.
+        - id: ch03-b05
+          speaker: boots
+          text: I never said it. I never even thought it. But if there is no way out of this, give me three days to think.
+        - id: ch03-b06
+          speaker: narrator
+          text: At the end of the three days, Boots rowed across the lake in his kneading trough and crept about, watching the Troll's cave. At last, the people in the cave came out and hung the quilt in the open air. Boots waited until every one of them had gone back through the opening in the rock. Then he pulled down the quilt, hurried to the shore, climbed into the trough, and rowed away with all his strength.
+        - id: ch03-b07
+          speaker: narrator
+          text: He was halfway across when the Troll rushed out and saw him.
+        - id: ch03-b08
+          speaker: troll
+          text: Halloa! Are you the fellow who took my seven silver ducks?
+        - id: ch03-b09
+          speaker: boots
+          text: Aye, aye!
+        - id: ch03-b10
+          speaker: troll
+          text: And now have you stolen my bed quilt, the one patched with silver and gold, and gold and silver?
+        - id: ch03-b11
+          speaker: boots
+          text: Aye, aye!
+        - id: ch03-b12
+          speaker: troll
+          text: Will you come back again?
+        - id: ch03-b13
+          speaker: boots
+          text: Very likely.
+        - id: ch03-b14
+          speaker: narrator
+          text: When Boots brought the patchwork quilt to the palace, everyone grew fonder of him still. The king made him his own body servant.
+        - id: ch03-b15
+          speaker: narrator
+          text: His brothers were more bitter than ever. They wanted revenge, so they carried a third tale to the coachman.
+        - id: ch03-b16
+          speakers: [elder_brother_1, elder_brother_2]
+          ensemble: duo
+          text: Our brother says he can get the Troll's golden harp for the king. Whenever that harp is played, anyone who hears it becomes glad, no matter how sad they were before.
+        - id: ch03-b17
+          speaker: narrator
+          text: The coachman told the king, just as he had before. The king sent for Boots.
+        - id: ch03-b18
+          speaker: king
+          text: If you made this boast, you must prove it. Bring me the golden harp, and you shall marry the Princess and receive half my kingdom. Fail, and you will lose your life.
+        - id: ch03-b19
+          speaker: boots
+          text: I never said it or dreamed of it. Still, if I have no choice, I may as well try. Give me six days to think.
+        - id: ch03-b20
+          speaker: narrator
+          text: The king allowed him six days. When those days ended, Boots had to go.
+    - id: ch04
+      title: The Fattening Coop
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Boots put three things in his pocket. One was a tenpenny nail, one was a birch pin, and one was the end of a wax taper. He rowed across the lake, then walked back and forth before the Troll's cave, keeping a careful watch. When the Troll came out, he saw Boots immediately.
+        - id: ch04-b02
+          speaker: troll
+          text: Ho, ho! Are you the one who took my seven silver ducks?
+        - id: ch04-b03
+          speaker: boots
+          text: Aye, aye!
+        - id: ch04-b04
+          speaker: troll
+          text: And you're the one who took my quilt with its patches of gold and silver?
+        - id: ch04-b05
+          speaker: boots
+          text: Aye, aye!
+        - id: ch04-b06
+          speaker: narrator
+          text: The Troll seized him and carried him into the cave in the rock.
+        - id: ch04-b07
+          speaker: troll
+          text: Daughter, I've caught the rascal who stole my silver ducks and my gold-and-silver quilt. Put him in the fattening coop. Once he's fat, we'll kill him and give our friends a feast.
+        - id: ch04-b08
+          speaker: narrator
+          text: The Troll's daughter was quite willing. She shut Boots in the coop and fed him the finest meat and drink, as much as he could swallow. After eight days, the Troll told her to cut his little finger and find out whether he was fat enough. She went down to the coop.
+        - id: ch04-b09
+          speaker: troll_daughter
+          text: Stick out your little finger.
+        - id: ch04-b10
+          speaker: narrator
+          text: Boots pushed out the tenpenny nail instead, and she cut at that. Then she returned to her father.
+        - id: ch04-b11
+          speaker: troll_daughter
+          text: No, he's still as hard as iron. We can't eat him yet.
+        - id: ch04-b12
+          speaker: narrator
+          text: Eight more days passed. Again, she came to test his finger. This time Boots held out the birch pin. After cutting it, she went back to the Troll.
+        - id: ch04-b13
+          speaker: troll_daughter
+          text: He's a little softer now, but he'd still be as hard to chew as wood.
+        - id: ch04-b14
+          speaker: narrator
+          text: Another eight days went by. The Troll sent his daughter down once more to see whether Boots was finally fat.
+        - id: ch04-b15
+          speaker: troll_daughter
+          text: Let me have your little finger.
+        - id: ch04-b16
+          speaker: narrator
+          text: This time Boots held out the soft end of the wax taper. She cut it and hurried back.
+        - id: ch04-b17
+          speaker: troll_daughter
+          text: He's ready now. He'll do very nicely.
+        - id: ch04-b18
+          speaker: troll
+          text: Is that so? Then I'll go invite the guests. While I'm gone, kill him. Roast one half and boil the other.
+        - id: ch04-b19
+          speaker: narrator
+          text: The Troll left, and after a little while his daughter began sharpening a great long knife.
+        - id: ch04-b20
+          speaker: boots
+          text: Is that the knife you mean to kill me with?
+        - id: ch04-b21
+          speaker: troll_daughter
+          text: Yes, it is.
+        - id: ch04-b22
+          speaker: boots
+          text: It isn't sharp enough. Let me sharpen it for you. Then killing me will be much easier.
+        - id: ch04-b23
+          speaker: narrator
+          text: She handed him the knife. Boots rubbed the blade back and forth across the whetstone until it was sharp.
+        - id: ch04-b24
+          speaker: boots
+          text: Let me test it on one of your hair plaits. I think the edge is ready now.
+        - id: ch04-b25
+          speaker: narrator
+          text: She agreed. Boots grasped one of her plaits, pulled her head back, and cut off her head with a single stroke. Then he roasted half of her, boiled the other half, and served the meal just as the Troll had ordered.
+        - id: ch04-b26
+          speaker: narrator
+          text: Afterward, Boots put on the Troll's daughter's clothes and sat in a corner to wait.
+    - id: ch05
+      title: The Golden Harp
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The Troll returned with his guests. He mistook Boots for his daughter and called to her to come and have something to eat.
+        - id: ch05-b02
+          speaker: boots
+          text: No, thank you. I don't want any food. I feel so sad and low.
+          emotion: sad
+        - id: ch05-b03
+          speaker: troll
+          text: Oh, is that all? You know how to cure that. Take the harp and play a tune.
+        - id: ch05-b04
+          speaker: boots
+          text: Yes, but where is it? I can't seem to find it.
+        - id: ch05-b05
+          speaker: troll
+          text: You know perfectly well. You were the last to use it. It's hanging over the door, where it always is.
+        - id: ch05-b06
+          speaker: narrator
+          text: Boots needed no second invitation. He took down the golden harp and wandered in and out while he played. Then, without warning, he pushed the kneading trough into the lake, leaped aboard, and rowed away so hard that foam flew all around it.
+        - id: ch05-b07
+          speaker: narrator
+          text: After a while, the Troll wondered why his daughter had been gone so long. He stepped outside to see what was wrong. Far out on the lake, there was Boots in the trough.
+        - id: ch05-b08
+          speaker: troll
+          text: Halloa! Is that you, the fellow who stole my seven silver ducks?
+        - id: ch05-b09
+          speaker: boots
+          text: Aye, aye!
+        - id: ch05-b10
+          speaker: troll
+          text: Are you also the one who stole my quilt with the gold and silver patches?
+        - id: ch05-b11
+          speaker: boots
+          text: Yes!
+        - id: ch05-b12
+          speaker: troll
+          text: And now you've carried off my golden harp?
+          emotion: angry
+        - id: ch05-b13
+          speaker: boots
+          text: Yes, I've got it right here.
+        - id: ch05-b14
+          speaker: troll
+          text: Then didn't I eat you after all?
+          emotion: surprised
+        - id: ch05-b15
+          speaker: boots
+          text: No, no! The one you ate was your own daughter.
+        - id: ch05-b16
+          speaker: narrator
+          text: When the Troll heard that he had eaten his own daughter, his sorrow was so great that he burst. Boots rowed back to the Troll's home and gathered a great heap of gold and silver. He loaded the treasure into the kneading trough, taking as much as the little vessel could carry.
+        - id: ch05-b17
+          speaker: narrator
+          text: He returned to the palace with the golden harp. The king kept his promise. Boots married the Princess and received half the kingdom.
+        - id: ch05-b18
+          speaker: narrator
+          text: As for his brothers, Boots treated them well. He believed they had meant to help him when they made those boasts in his name.

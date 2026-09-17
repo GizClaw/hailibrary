@@ -1,0 +1,315 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 沉稳有力，带古老传说的庄重感
+        timbre: 温厚清晰
+        pace: 舒缓而富有张力
+        pitch: 中低
+    little_boy:
+      display_name: 小男孩
+      tts:
+        delivery: 天真直率，讲到奇事时又惊又兴奋
+        timbre: 稚嫩清亮
+        pace: 明快
+        pitch: 高
+    boys_mother:
+      display_name: 男孩的母亲
+      tts:
+        delivery: 温柔谨慎，忧惧时仍努力镇定
+        timbre: 柔和成熟
+        pace: 适中
+        pitch: 中
+    patto:
+      display_name: 帕托
+      tts:
+        delivery: 坚忍果断，悲愤中藏着机智
+        timbre: 苍老厚实
+        pace: 沉着
+        pitch: 低
+    old_stalo:
+      display_name: 老斯塔洛
+      tts:
+        delivery: 粗暴自大，头脑迟钝
+        timbre: 粗重浑厚
+        pace: 偏慢
+        pitch: 低
+    eldest_stalo:
+      display_name: 大斯塔洛
+      tts:
+        delivery: 蛮横不耐烦，带着困倦
+        timbre: 低沉粗哑
+        pace: 偏慢
+        pitch: 低
+    ogress:
+      display_name: 斯塔洛的母亲
+      tts:
+        delivery: 冷淡多疑，发怒时尖厉凶狠
+        timbre: 苍老干涩
+        pace: 适中
+        pitch: 中低
+    elder_sodno:
+      display_name: 哥哥索德诺
+      tts:
+        delivery: 冷静机敏，说话坚定周全
+        timbre: 年轻稳健
+        pace: 适中
+        pitch: 中低
+    younger_sodno:
+      display_name: 弟弟索德诺
+      tts:
+        delivery: 勇敢利落，善于随机应变
+        timbre: 年轻清朗
+        pace: 明快
+        pitch: 中
+    lyma:
+      display_name: 莉玛
+      tts:
+        delivery: 聪慧勇敢，危急时说话轻而稳
+        timbre: 年轻清澈
+        pace: 适中
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 森林里的斯塔洛
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 一天，一个小男孩抱着一捆树枝，走进拉普兰的一间小屋。那是母亲叫他到外面捡回来的柴。他一进门，就急着说起刚才的见闻。
+        - id: ch01-b02
+          speaker: little_boy
+          text: 妈妈，我刚才看见了一个特别奇怪的人！
+          emotion: surprised
+        - id: ch01-b03
+          speaker: narrator
+          text: 母亲替孩子脱下羊皮外套，拿到门前抖了抖。
+        - id: ch01-b04
+          speaker: boys_mother
+          text: 是吗，孩子？快告诉我，他是什么模样？
+        - id: ch01-b05
+          speaker: little_boy
+          text: 我总弯腰捡树枝，累得靠在树上歇了一会儿。枯叶里忽然响起“沙——沙”的声音。我还以为是狼，一动也不敢动。后来走过来一个高高的男人，足足有爸爸两个人那么高！他有一把红色的长胡子，穿着红上衣，银腰带上还挂着一把银柄小刀。后面跟着一条大狗，看起来比狼厉害，连熊也未必比得过它。妈妈，你怎么一下子脸都白了？
+        - id: ch01-b06
+          speaker: boys_mother
+          text: 那是斯塔洛，是会吃人的斯塔洛！幸亏你藏好了，不然也许永远回不来了。你得记住，他虽然又高又壮，却笨得很。已经有不少拉普人靠着聪明的计策，从他手里逃了出来。
+          emotion: fearful
+        - id: ch01-b07
+          speaker: narrator
+          text: 这番话说过不久，森林里又传开了一件可怕的事。一个名叫帕托的老人，几个孩子先后失踪，谁也不知道他们去了哪里。可怜的父亲在方圆许多英里内来回寻找，却连一只鞋、一方手帕也没找到，根本看不出孩子们走过哪条路。
+        - id: ch01-b08
+          speaker: narrator
+          text: 最后，一个小男孩跑来报信。他看见斯塔洛躲在一口井后，而帕托的孩子们平日常到井边玩。男孩藏在灌木后继续看，发现斯塔洛在通往井边的小路上布置了圈套。谁在那儿绊倒，就会顺着斜坡滚进井水里淹死。
+        - id: ch01-b09
+          speaker: narrator
+          text: 正在这时，帕托最小的女儿欢快地沿小路跑来。到了最陡的地方，她绊上横在路面的绳子，脚下一滑，转眼便滚进水里，正落在斯塔洛伸手就能够到的地方。
+        - id: ch01-b10
+          speaker: narrator
+          text: 帕托听完消息，心里燃起怒火，发誓要替孩子报仇。他从挂钩上取下一件旧皮袄，穿好便进了森林。来到那条通往井边的小路，他先四处张望，确定没有人在看，才躺进水里，装成中了圈套、滚下井的样子，只让脑袋露在水面上。
+        - id: ch01-b11
+          speaker: narrator
+          text: 很快，枯叶里传来了“沙——沙”声。斯塔洛挤过灌木，想看看今天有没有送上门的晚饭。他刚瞧见井里露出的脑袋，立刻放声大笑。
+        - id: ch01-b12
+          speaker: old_stalo
+          text: 哈！哈！这回是那头老蠢驴！不知道他的肉吃起来怎么样？
+          emotion: happy
+        - id: ch01-b13
+          speaker: narrator
+          text: 他把帕托拖出井，往肩上一甩，扛回了家。到了屋里，斯塔洛用绳子捆住帕托，把他吊在火上烤，自己又坐到门前做箱子。等肉烤熟，他就要用那只箱子来装。箱子很快做好了大半，只差用斧头再削去一点木屑。这活搬进屋里更方便，他便叫一个闲坐着的儿子把斧头送出来。
+        - id: ch01-b14
+          speaker: narrator
+          text: 年轻人翻遍屋子也没有找到。原因很简单，帕托早已悄悄拿走斧头，藏进自己的衣服里。
+        - id: ch01-b15
+          speaker: old_stalo
+          text: 没用的蠢东西！养着你究竟有什么用？
+          emotion: angry
+        - id: ch01-b16
+          speaker: narrator
+          text: 斯塔洛接连叫另外几个儿子去找，可谁也没能把斧头拿来。
+        - id: ch01-b17
+          speaker: old_stalo
+          text: 看来还是得让我自己进去拿！
+        - id: ch01-b18
+          speaker: narrator
+          text: 斯塔洛把箱子扔到一旁。可这时候，帕托已经挣脱挂钩，悄悄躲在门后。斯塔洛刚迈进屋，帕托便举起斧头，用尽全力一劈。食人魔的脑袋滚落在地，他的儿子们吓得四散奔逃。帕托终于这样为死去的孩子们报了仇。
+    - id: ch02
+      title: 雪地上的线
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 老斯塔洛死了，他的三个儿子却还活着，而且并没有逃远。他们去找正在牧场照料驯鹿的母亲，说父亲不知中了什么魔法，脑袋竟然从身体上滚了下来。他们怕同样可怕的事落到自己头上，只好来投靠母亲。
+        - id: ch02-b02
+          speaker: narrator
+          text: 女食人魔什么也没有说。她早就知道三个儿子有多愚蠢，只叫他们去挤驯鹿奶，自己回到另一所房子，埋葬丈夫的尸体。
+        - id: ch02-b03
+          speaker: narrator
+          text: 从牧场的小屋出发，要走三天，才能到索德诺兄弟的住处。他们和妹妹莉玛住在一间小屋里。兄弟俩出门打猎时，妹妹就替他们照看一大群驯鹿。近来，人们私下传说，三个年轻的斯塔洛出现在牧场上。索德诺兄弟没有放在心上，只觉得危险还远着呢。
+        - id: ch02-b04
+          speaker: narrator
+          text: 不幸偏偏来了。有一天，莉玛独自留在家里，三个斯塔洛突然闯来，把她和整群驯鹿一起掳走，带回自己的住处。那片地方荒无人烟，本来谁也猜不出他们去了哪里。好在莉玛悄悄把一团线系在后门把手上，让线团一路拖在身后。
+        - id: ch02-b05
+          speaker: narrator
+          text: 线当然不够长，没法一直拖到斯塔洛家门前。可线头停下的地方，恰好是一条积雪小径的边缘，而那条路正通向斯塔洛的房子。
+        - id: ch02-b06
+          speaker: narrator
+          text: 兄弟俩打猎回来，只见小屋和鹿棚都空了。他们站在外面，一声接一声地呼喊妹妹。
+        - id: ch02-b07
+          speakers: [elder_sodno, younger_sodno]
+          ensemble: duo
+          text: 莉玛！莉玛！
+        - id: ch02-b08
+          speaker: narrator
+          text: 没有人回答。他们便在四周细细寻找，希望妹妹留下了什么线索。终于，兄弟俩看见雪地里的细线，马上顺着它追了过去。
+        - id: ch02-b09
+          speaker: narrator
+          text: 他们不停地走啊走。到了线头停住的地方，兄弟俩知道，再赶一天路便能到斯塔洛的住处。他们不敢明着靠近。斯塔洛个个有巨人的力气，一共有三个，而他们只有两个人。于是，两人爬上井边一棵枝叶茂密的大树，躲在伸到井口上方的树枝间。
+        - id: ch02-b10
+          speaker: elder_sodno
+          text: 也许他们会叫妹妹来这口井打水。我们就在这里等她。
+        - id: ch02-b11
+          speaker: narrator
+          text: 月亮升起来以后，莉玛才终于出现。她把水桶往井里放，头顶的树叶忽然像是在低声叫她的名字。
+        - id: ch02-b12
+          speakers: [elder_sodno, younger_sodno]
+          ensemble: duo
+          text: 莉玛！莉玛！
+        - id: ch02-b13
+          speaker: narrator
+          text: 莉玛吃了一惊，抬头寻找，却什么也没看见。紧接着，声音又从树叶间传来。
+        - id: ch02-b14
+          speaker: elder_sodno
+          text: 小心，千万别让他们看出不对。照常把水桶装满，一边干活，一边听我们说。我们会告诉你怎么逃出来，也会把驯鹿一起救走。
+        - id: ch02-b15
+          speaker: narrator
+          text: 莉玛把身子伏得更低，看起来只顾忙着打水。
+        - id: ch02-b16
+          speaker: elder_sodno
+          text: 斯塔洛只要发现食物里掉进了东西，就会一口也不吃，全拿去喂狗。等锅里的肉汤快煮熟，你拨一下柴火，让灰烬飞进锅里。他发现以后，一定叫你把食物倒给狗。你别照做，直接把锅送来给我们。我们已经三天没吃过东西，也没喝过水了。眼下只需做这一件事。
+        - id: ch02-b17
+          speaker: narrator
+          text: 莉玛提起水桶回了屋，一切都照哥哥说的去办。兄弟俩实在饿坏了，只顾大口吃喝，直到锅里空空如也，才又把妹妹叫到面前。
+        - id: ch02-b18
+          speaker: elder_sodno
+          text: 接下来的话也要听清。最大的斯塔洛重新做一顿晚饭，吃饱以后会睡得特别沉，连女巫都叫不醒他，一英里外都听得到鼾声。那时你进他的房间，把盖在身上的铁斗篷拿走，放到火上烧得快要发红。做完再来，我们会告诉你下一步怎么办。
+        - id: ch02-b19
+          speaker: lyma
+          text: 亲爱的哥哥，不管你们叫我做什么，我都会照办。
+        - id: ch02-b20
+          speaker: narrator
+          text: 莉玛答应以后，果然把每件事都办好了。
+    - id: ch03
+      title: 午夜的鹿角
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 就在这天晚上，斯塔洛们从牧场赶回几头驯鹿，拴在屋墙旁边，预备第二天杀来吃。躲在树上的索德诺兄弟看清了他们的举动，也记住了绳子系在哪里。
+        - id: ch03-b02
+          speaker: narrator
+          text: 午夜到了，四下一片寂静。兄弟俩爬下大树，抓住几头驯鹿扣在一起的角，用力搅动。驯鹿受了惊，一边嘶叫，一边乱踢，就像真的打了起来。声响越来越大，竟把最大的斯塔洛吵醒了。这可是从来没有过的事。他从床上撑起身，叫最小的弟弟出去分开驯鹿，免得它们互相弄死。
+        - id: ch03-b03
+          speaker: narrator
+          text: 小斯塔洛听话地走出房门。脚才跨到门外，一个索德诺便刺中了他的心脏。他连哼也没哼，倒在地上。兄弟俩又去拨弄鹿角，外面的响声很快和先前一样大。最大的斯塔洛第二次睁开了眼。
+        - id: ch03-b04
+          speaker: eldest_stalo
+          text: 那小子连几头牲口都分不开。你快去帮他，不然我今晚还怎么睡？
+        - id: ch03-b05
+          speaker: narrator
+          text: 二弟也走了出去。可他刚离开屋子，就被哥哥索德诺一剑杀死。最大的斯塔洛躺着又等了一会儿，盼外面安静下来。鹿角碰撞的喀啦声却一点没停，他终于气冲冲地下了床。
+        - id: ch03-b06
+          speaker: eldest_stalo
+          text: 真是怪事，它们怎么连自己的角都解不开？别人看来都没用，只好我亲自去管了。
+        - id: ch03-b07
+          speaker: narrator
+          text: 他揉着眼睛站到地上，张开两条粗壮的胳膊，打了一个大呵欠，震得四面墙壁都颤起来。楼下的索德诺兄弟听见了，一个守住大门，一个守住后面的小门。他们还不知道敌人会从哪里出来。
+        - id: ch03-b08
+          speaker: narrator
+          text: 大斯塔洛伸手去拿铁斗篷。平日那件斗篷总放在床边，现在却不见了。他想不出是谁动过，便找遍每间屋子，最后才看见斗篷挂在厨房的火上。他伸手一碰，立刻烫得缩了回去，只得空着身子，拿一根棍子从后门出去。
+        - id: ch03-b09
+          speaker: narrator
+          text: 弟弟索德诺早已守在那里。斯塔洛刚跨过门槛，他便朝那颗大脑袋狠狠一击。斯塔洛轰然倒下，再也没有动过。兄弟俩顾不上理会尸体，赶快脱下两个小斯塔洛的衣裳，分别穿到自己身上。
+        - id: ch03-b10
+          speaker: narrator
+          text: 他们静静等着天亮。等太阳出来，就可以穿着这身衣服去见斯塔洛的母亲，哄她说出财宝藏在何处。
+    - id: ch04
+      title: 三处财宝
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 第一缕阳光出现时，弟弟索德诺上了楼，走进老妇人的房间。她早已起床穿好衣服，坐在窗边织东西。年轻人轻轻走近，在地板上蹲下来，把头枕在老妇人的膝上。他先是一声不响，过了一会儿才柔声开口。
+        - id: ch04-b02
+          speaker: younger_sodno
+          text: 亲爱的妈妈，你告诉我吧，大哥把他的财宝藏到哪里去了？
+        - id: ch04-b03
+          speaker: ogress
+          text: 这话问得真奇怪。你怎么可能不知道？
+        - id: ch04-b04
+          speaker: younger_sodno
+          text: 我忘记了。我的记性实在坏得很。
+        - id: ch04-b05
+          speaker: ogress
+          text: 他在门槛下面挖了一个坑，把财宝放在里面。
+        - id: ch04-b06
+          speaker: narrator
+          text: 屋里安静了一阵。年轻人等了一会儿，又问起第二处财宝。
+        - id: ch04-b07
+          speaker: younger_sodno
+          text: 那么，我二哥的钱又放在哪里呢？
+        - id: ch04-b08
+          speaker: ogress
+          text: 难道连这个你也不知道？
+          emotion: surprised
+        - id: ch04-b09
+          speaker: younger_sodno
+          text: 从前当然知道。可我摔过脑袋以后，什么事都记不住了。
+        - id: ch04-b10
+          speaker: ogress
+          text: 他的钱就在炉子后面。
+        - id: ch04-b11
+          speaker: narrator
+          text: 屋里再次没了声音。年轻人隔了一会儿，才装出难为情的样子，问起最后一处。
+        - id: ch04-b12
+          speaker: younger_sodno
+          text: 妈妈，亲爱的妈妈，我真有点不敢问了。可我近来确实变得这么蠢，连自己把钱藏在哪里都忘了。你能再告诉我一次吗？
+        - id: ch04-b13
+          speaker: narrator
+          text: 老妇人一听，顿时大发雷霆。她发誓，只要手边有根棍子，准能把他的记性打回来。幸好她够不到任何棍子。索德诺耐着性子哄了好一阵，终于让老妇人消了气。
+        - id: ch04-b14
+          speaker: ogress
+          text: 最小的斯塔洛把财宝埋在我坐着的这个地方，正下方就是。
+        - id: ch04-b15
+          speaker: narrator
+          text: 莉玛不知什么时候已经悄悄进屋，跪在火前。她听见所有秘密以后，忽然转身问老妇人。
+        - id: ch04-b16
+          speaker: lyma
+          text: 亲爱的妈妈，你知道刚才一直和你说话的人是谁吗？
+        - id: ch04-b17
+          speaker: narrator
+          text: 老妇人吃了一惊，回答时却仍旧平静。
+        - id: ch04-b18
+          speaker: ogress
+          text: 我猜，那是一个索德诺吧？
+        - id: ch04-b19
+          speaker: lyma
+          text: 你猜得一点不错。
+        - id: ch04-b20
+          speaker: narrator
+          text: 斯塔洛的母亲立刻四下寻找自己的铁杖。平日捉到猎物，她总用那根铁杖杀死对方。可铁杖已经不在原处，莉玛早把它放进了火里。
+        - id: ch04-b21
+          speaker: ogress
+          text: 我的铁杖到哪里去了？
+        - id: ch04-b22
+          speaker: lyma
+          text: 就在那里！
+        - id: ch04-b23
+          speaker: narrator
+          text: 莉玛指向熊熊的火焰。老妇人猛扑过去，一把抓住铁杖，衣服却被火焰点着了。没过几分钟，她便烧成了一堆灰烬。
+    - id: ch05
+      title: 拉普兰最富有的人
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 索德诺兄弟按照老妇人说出的地方，找到了埋藏的财宝。他们带上所有财宝，领着妹妹莉玛和那群驯鹿回到自己家中，从此成了整个拉普兰最富有的人。
+        - id: ch05-b02
+          speaker: narrator
+          text: 这个故事，录自J. C. 波斯蒂翁的《拉普兰童话》。

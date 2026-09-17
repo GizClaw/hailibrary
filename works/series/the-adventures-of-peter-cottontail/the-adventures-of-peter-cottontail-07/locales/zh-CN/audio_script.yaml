@@ -1,0 +1,123 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 亲切而略带诙谐的讲述
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中音
+    reddy_fox:
+      display_name: 红狐雷迪
+      tts:
+        delivery: 急躁冲动，发怒时语气逼人
+        timbre: 尖亮而略显粗粝
+        pace: 偏快
+        pitch: 中高音
+    granny_fox:
+      display_name: 老狐狸奶奶
+      tts:
+        delivery: 老练挑剔，说话干脆
+        timbre: 苍老而清晰
+        pace: 从容
+        pitch: 中低音
+    merry_breeze_1:
+      display_name: 快乐的小微风甲
+      tts:
+        delivery: 热心活泼，语气轻快
+        timbre: 清脆明亮
+        pace: 明快
+        pitch: 高音
+    merry_breeze_2:
+      display_name: 快乐的小微风乙
+      tts:
+        delivery: 热心爽朗，带着欢快的朝气
+        timbre: 轻盈清亮
+        pace: 明快
+        pitch: 中高音
+    merry_breeze_3:
+      display_name: 快乐的小微风丙
+      tts:
+        delivery: 热情天真，说话利落
+        timbre: 柔和明亮
+        pace: 稍快
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 奶奶想吃小兔子
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 老狐狸奶奶身体不舒服，接连三天都不能出去打猎。红狐雷迪也忙了三天，一心想找点儿能让奶奶开胃的食物。他先从农夫布朗家的鸡舍捉来一只嫩鸡，又从水貂比利的储藏室偷来一条又肥又美的鳟鱼。可奶奶看也不多看，只把鼻子一翘。
+        - id: ch01-b02
+          speaker: granny_fox
+          text: “我呀，现在只想吃一只鲜嫩的小兔子。”
+        - id: ch01-b03
+          speaker: narrator
+          text: 雷迪很疼爱奶奶。听了这句话，他马上决定，无论如何也要弄一只小兔子回来。可到底该怎么办，他心里一点主意也没有。他一次次去追彼得兔，又一次次眼看着彼得用长腿逃到安全的地方。
+        - id: ch01-b04
+          speaker: reddy_fox
+          text: “硬追是追不上了，我得想个办法骗住彼得兔。”
+        - id: ch01-b05
+          speaker: narrator
+          text: 雷迪坐在门前的台阶上，望着绿色草原。他实在狡猾，谁也很难分清他什么时候诚心诚意，什么时候又在使坏。正想着，他看见快乐的小微风们朝这边来了，便暗暗一笑，等他们靠近后高声问道。
+        - id: ch01-b06
+          speaker: reddy_fox
+          text: “你们能替我办件事吗？”
+        - id: ch01-b07
+          speakers: [merry_breeze_1, merry_breeze_2, merry_breeze_3]
+          ensemble: chorus
+          text: “当然能！”
+          emotion: happy
+        - id: ch01-b08
+          speaker: narrator
+          text: 小微风们最爱帮助别人。
+        - id: ch01-b09
+          speaker: reddy_fox
+          text: “请你们去找彼得兔。就说我在农夫布朗家的菜园里发现了一片刚长出来的嫩胡萝卜，请他明天太阳一升起，就和我一起去吃。”
+        - id: ch01-b10
+          speaker: narrator
+          text: 小微风们飞奔着去找彼得兔，把雷迪的邀请带给了他。没过多久，他们又赶回来报信。彼得非常乐意赴约。第二天太阳一升起，他就会到老荆棘丛边上和雷迪碰面，再一起去吃那些鲜嫩的胡萝卜。雷迪听完，独自偷偷地笑了。他认定这一回准能得手，奶奶明天的早餐就是彼得兔。
+    - id: ch02
+      title: 胡萝卜地里的脚印
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 第二天，太阳还没露面，雷迪就顺着孤零零的小径出发，匆匆穿过绿色草原，赶到老荆棘丛。他特意穿上自己最好的衣裳，看起来又神气又漂亮。到了老荆棘丛边，他四处张望，却连彼得兔的影子也没看见。
+        - id: ch02-b02
+          speaker: narrator
+          text: 雷迪等啊等啊等，始终不见彼得，只好放弃。他决定转身去农夫布朗家的菜园，看看那些嫩胡萝卜。等他赶到那里，你猜他看见了什么？胡萝卜地四周全是脚印，而且每一个脚印，都是彼得兔留下的！
+        - id: ch02-b03
+          speaker: narrator
+          text: 雷迪气得咬牙，嘴里发出恶狠狠的低吼。这下他全明白了。他本想骗彼得，结果反而被彼得骗了一回。这时，西风妈妈手下的一阵快乐小微风正好赶来。
+        - id: ch02-b04
+          speaker: merry_breeze_1
+          text: “早上好，红狐雷迪。”
+        - id: ch02-b05
+          speaker: reddy_fox
+          text: “早上好。”
+        - id: ch02-b06
+          speaker: narrator
+          text: 雷迪心里明明窝着一团火，却藏得严严实实。哪怕当时你站在旁边，既看得见他的脸，又听得见他的声音，也绝不会猜到他有多恼火。
+        - id: ch02-b07
+          speaker: merry_breeze_1
+          text: “彼得兔托我告诉你，他今天早上没能去老荆棘丛，实在很抱歉。他一想到那些嫩胡萝卜，就觉得饿极了，只好赶在太阳出来前先来吃几根。他特别感谢你告诉他这个地方，还说他从来没吃过这么美味的嫩胡萝卜。”
+    - id: ch03
+      title: 雷迪的第二个圈套
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 雷迪心里的怒火越烧越旺，可他没让小微风察觉。他只露出笑脸，请小微风再给彼得送个口信。
+        - id: ch03-b02
+          speaker: reddy_fox
+          text: “请告诉彼得，他喜欢那些胡萝卜，我真是太高兴了。明天太阳一出来，请他还到老荆棘丛边上等我。我刚在老山核桃树附近发现了一片香甜的苜蓿，想带他一起去。”
+        - id: ch03-b03
+          speaker: narrator
+          text: 小微风带着口信，蹦蹦跳跳地走了。不久，他又回来告诉雷迪，彼得兔很乐意第二天早上一起去那片苜蓿地。
+        - id: ch03-b04
+          speaker: narrator
+          text: 雷迪咧嘴笑着，拖着步子往家走。他已经打定主意，明天要抢在彼得之前赶到那片苜蓿地。
+        - id: ch03-b05
+          speaker: reddy_fox
+          text: “明天我要比太阳早一个钟头赶到苜蓿地。这一回，咱们就等着瞧吧！”

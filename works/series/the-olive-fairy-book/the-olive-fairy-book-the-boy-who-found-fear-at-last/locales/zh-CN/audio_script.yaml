@@ -1,0 +1,424 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容温厚，悲剧转折处克制而沉静
+        timbre: 温暖清晰的成熟男声
+        pace: 舒缓而富有变化
+        pitch: 中低
+    boy:
+      display_name: 男孩
+      tts:
+        delivery: 坦率无畏，好奇而干脆
+        timbre: 清亮自然的少年男声
+        pace: 适中偏快
+        pitch: 中高
+    mother:
+      display_name: 母亲
+      tts:
+        delivery: 慈爱敏感，惊惧时声音发紧
+        timbre: 柔和朴素的成年女声
+        pace: 适中
+        pitch: 中
+    robber_captain:
+      display_name: 强盗头领
+      tts:
+        delivery: 粗豪逼人，带着傲慢的威吓
+        timbre: 低沉粗粝的成年男声
+        pace: 稍慢
+        pitch: 低
+    robber:
+      display_name: 强盗
+      tts:
+        delivery: 狡黠试探，说话直截了当
+        timbre: 沙哑结实的成年男声
+        pace: 适中
+        pitch: 中低
+    grave_maiden:
+      display_name: 坟中姑娘
+      tts:
+        delivery: 神秘从容，语气里藏着顽皮
+        timbre: 空灵清冷的年轻女声
+        pace: 稍慢
+        pitch: 中高
+    pool_maiden:
+      display_name: 潭边姑娘
+      tts:
+        delivery: 表面恳切，回忆时爽快坦然
+        timbre: 明亮灵巧的年轻女声
+        pace: 适中
+        pitch: 中高
+    sea_maiden:
+      display_name: 海中姑娘
+      tts:
+        delivery: 冷峻有力，平静中带着奇异威严
+        timbre: 深澈清亮的年轻女声
+        pace: 稍慢
+        pitch: 中
+    jew:
+      display_name: 犹太人
+      tts:
+        delivery: 急切强硬，争辩时咄咄逼人
+        timbre: 尖细干脆的成年男声
+        pace: 稍快
+        pitch: 中高
+    sailor_1:
+      display_name: 水手甲
+      tts:
+        delivery: 惊慌急迫，呼喊响亮
+        timbre: 粗哑的成年男声
+        pace: 快
+        pitch: 中
+    sailor_2:
+      display_name: 水手乙
+      tts:
+        delivery: 惊慌急迫，气息短促
+        timbre: 厚实的成年男声
+        pace: 快
+        pitch: 中低
+    sailor_3:
+      display_name: 水手丙
+      tts:
+        delivery: 惊慌急迫，声音发颤
+        timbre: 清亮的年轻男声
+        pace: 快
+        pitch: 中高
+    townsman:
+      display_name: 城中人
+      tts:
+        delivery: 热心平实，解释清楚自然
+        timbre: 温和的成年男声
+        pace: 适中
+        pitch: 中
+    citizen_1:
+      display_name: 市民甲
+      tts:
+        delivery: 兴奋热烈，欢呼有力
+        timbre: 洪亮的成年男声
+        pace: 适中偏快
+        pitch: 中
+    citizen_2:
+      display_name: 市民乙
+      tts:
+        delivery: 兴奋热烈，语气明快
+        timbre: 清亮的成年女声
+        pace: 适中偏快
+        pitch: 中高
+    citizen_3:
+      display_name: 市民丙
+      tts:
+        delivery: 兴奋热烈，声音饱满
+        timbre: 温厚的成年男声
+        pace: 适中偏快
+        pitch: 中低
+    mysterious_voice:
+      display_name: 神秘声音
+      tts:
+        delivery: 低声郑重，仿佛从远处传来
+        timbre: 轻柔幽远的中性声音
+        pace: 缓慢
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 寻找恐惧
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，有个女人，膝下只有一个儿子，她把孩子看得比什么都珍贵。母子俩住在森林边缘的一间小屋里，四周连一个邻居也没有，日子过得十分冷清。母亲舍不得儿子离开，总把他留在家里陪着自己。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            一个冬夜，母子俩正坐在屋里，外面忽然起了暴风。狂风一下撞开屋门，母亲猛地一惊，浑身都发起抖来。她还越过肩头向后瞥了一眼，仿佛身后随时会冒出什么可怕的东西。随后，她急忙催促儿子关门。
+        - id: ch01-b03
+          speaker: mother
+          text: >-
+            快去关门，我害怕。
+          emotion: fearful
+        - id: ch01-b04
+          speaker: boy
+          text: >-
+            害怕？害怕到底是什么感觉？
+        - id: ch01-b05
+          speaker: mother
+          text: >-
+            就是怕呀。你明明说不清在怕什么，却会突然被那股惧意攫住。
+        - id: ch01-b06
+          speaker: boy
+          text: >-
+            那可真奇怪。我要走遍天下去找恐惧，一直找到它为止。
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            第二天清早，母亲还没起床，男孩就离开了家，连身后的森林也渐渐看不见了。走过几个钟头，他来到一座山前，一路往上爬。快到山顶的地方荒无人烟，到处都是嶙峋的岩石。一伙凶狠的强盗正围着火堆喝酒。男孩又冷又累，见到明亮的火光十分高兴，便走上前问候他们。他硬从强盗中间挤进去坐下，离火近得双脚几乎碰到了燃烧的木柴。
+        - id: ch01-b08
+          speaker: boy
+          text: >-
+            各位先生，愿你们平安！
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            强盗们停下酒杯，稀奇地盯着他。最后，头领开口问话。
+        - id: ch01-b10
+          speaker: robber_captain
+          text: >-
+            全副武装的商队都不敢上这儿来，连鸟也躲着我们的营地。你是什么人，竟敢这么闯进来？
+        - id: ch01-b11
+          speaker: boy
+          text: >-
+            我离开母亲，是出来寻找恐惧的。你们能让我见识一下吗？
+        - id: ch01-b12
+          speaker: robber_captain
+          text: >-
+            我们在哪儿，恐惧就在哪儿。
+        - id: ch01-b13
+          speaker: boy
+          text: >-
+            可它在哪儿呢？我什么也没看见。
+        - id: ch01-b14
+          speaker: robber
+          text: >-
+            拿上锅，再带些面粉、黄油和糖。下面有片墓地，你去那里给我们烤一块晚饭吃的饼。
+        - id: ch01-b15
+          speaker: narrator
+          text: >-
+            男孩这时已经烤暖了身子，便一下跳起来，把锅挎在胳膊上，高高兴兴跑下山。到了墓地，他先捡来树枝生火，再从附近的小溪里打来一锅水。他把面粉、黄油和糖和在一起，放进锅里烤。不久，饼就烤得焦黄酥脆。男孩把它取出来，搁在一块石头上，自己转身去灭火。就在那一刻，一只手从坟墓里伸了出来，还有个声音跟着响起。
+        - id: ch01-b16
+          speaker: grave_maiden
+          text: >-
+            那块饼是给我的吗？
+        - id: ch01-b17
+          speaker: boy
+          text: >-
+            活人的食物，我怎么会给死人吃？
+        - id: ch01-b18
+          speaker: narrator
+          text: >-
+            男孩笑着用勺子敲了敲那只手，拿起饼，一路吹着口哨回到山上。
+        - id: ch01-b19
+          speakers: [robber_captain, robber]
+          ensemble: duo
+          text: >-
+            怎么样，你找到恐惧了吗？
+        - id: ch01-b20
+          speaker: boy
+          text: >-
+            没有，难道它在墓地吗？我只看见一只手伸出坟墓，想拿我的饼。我用勺子敲了敲它的手指，说饼不是给它的，那只手就消失了。啊，还是这火烤着舒服！
+        - id: ch01-b21
+          speaker: narrator
+          text: >-
+            他跪到火前，没看见强盗们正惊讶地彼此使眼色。过了一会儿，一个强盗又给他指了一条路。
+        - id: ch01-b22
+          speaker: robber
+          text: >-
+            山那边有一潭深水。你去看看，也许路上能遇见恐惧。
+        - id: ch01-b23
+          speaker: boy
+          text: >-
+            我正盼着呢。
+    - id: ch02
+      title: 月下的水潭
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            男孩盼着这次真能遇见恐惧，立刻动身翻过山去。没过多久，他便望见一潭深水。月光铺在水面上，一片银光闪烁。他越走越近，这才看清水面上方竟架着一座高高的秋千。秋千里坐着一个孩子，正在伤心地哭个不停。
+        - id: ch02-b02
+          speaker: boy
+          text: >-
+            秋千怎么会架在这种地方？那个孩子又为什么哭呢？
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            他正要赶过去，一个姑娘跑来叫住了他。
+        - id: ch02-b04
+          speaker: pool_maiden
+          text: >-
+            秋千上的孩子是我弟弟，可他离地太高，我抱不下来。你站到潭边，让我踩上你的肩膀，我就能够到他了。
+        - id: ch02-b05
+          speaker: boy
+          text: >-
+            好啊。
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            姑娘一下爬上男孩的肩头。她明明很容易就能够到孩子，却根本不伸手，反而用双脚死死夹住男孩的脖子。男孩很快喘不过气来。他知道，再过一会儿，自己不是会被勒死，就是会一头掉进脚下的深潭。于是，他聚起全身力气，猛地向上一挺，把姑娘甩到身后。姑娘摔在地上，一只镯子也从手臂上滑落。男孩捡起镯子，觉得一路遇见了这么多怪事，正好留它作个纪念。可他转身再找秋千上的孩子时，孩子和秋千都已无影无踪，天边也露出了第一线晨光。
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            男孩戴着镯子，走进山那边的一座小城。他又饿又渴，才踏上大街，一个犹太人就拦住了他。
+        - id: ch02-b08
+          speaker: jew
+          text: >-
+            你从哪儿拿到这只镯子的？它是我的。
+        - id: ch02-b09
+          speaker: boy
+          text: >-
+            不，这是我的。
+        - id: ch02-b10
+          speaker: jew
+          text: >-
+            胡说！马上给我，不然你可要倒霉了！
+          emotion: angry
+        - id: ch02-b11
+          speaker: boy
+          text: >-
+            那就去见法官，把各自的经过讲清楚。他判给你，你便拿走。他判给我，我就留下。
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            犹太人答应了。两人一同走进大堂，请正在那里断案的卡迪裁决。卡迪仔细听完双方的经过，认为谁也不能证明镯子属于自己。除非有人拿来另一只与它成对的镯子，否则眼前这只只能暂时留在法官手中。犹太人和男孩听完，不由得互相望了一眼。他们的眼神都在问，对应的那只镯子究竟要到哪里去找？可他们知道，继续争辩也改变不了判决，只得向卡迪深深鞠躬，离开了大堂。
+    - id: ch03
+      title: 海底的铁链
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            男孩也不知道该往哪里去，就这样一路游荡，最后来到海边。不远处，一艘船撞上藏在水下的暗礁，船身正在飞快下沉。船员们全挤在甲板上，脸色惨白得像死人一样。他们一边尖声呼救，一边绝望地搓着双手。
+        - id: ch03-b02
+          speaker: boy
+          text: >-
+            你们遇见恐惧了吗？
+        - id: ch03-b03
+          speakers: [sailor_1, sailor_2, sailor_3]
+          ensemble: chorus
+          text: >-
+            救命啊！快救救我们！我们要淹死了！
+          emotion: fearful
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            男孩脱掉衣服，游向大船。许多只手伸下来，把他拉上甲板。
+        - id: ch03-b05
+          speakers: [sailor_1, sailor_2, sailor_3]
+          ensemble: chorus
+          text: >-
+            船一直被海浪抛来抛去，马上就要沉了！死神就在眼前，我们怕极了！
+          emotion: fearful
+        - id: ch03-b06
+          speaker: boy
+          text: >-
+            给我一根绳子。
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            男孩接过绳子，把一头牢牢系在自己腰间，另一头绑住桅杆，随后纵身跳进海里。他向下沉去，一直往下，往下，又往下，终于双脚碰到了海底。男孩站稳后四处一看，那里果然有个面目凶恶的海中姑娘。她用抓钩把一条铁链扣在大船上，正拼命拉扯，一点一点把船拖进水底。男孩双手抓住她的胳膊，逼她松开铁链。上面的船终于稳住，水手们也能慢慢让它浮离暗礁。男孩又从脚边的一堆海草中捡起一把生锈的小刀，割断腰间的绳子，再把海中姑娘牢牢绑在石头上，让她不能继续作恶。他向她道别，独自游回海滩。先前脱下的衣服还在那里等着他。
+    - id: ch04
+      title: 三个姑娘
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            男孩很快穿好留在岸上的衣服，继续向前走。他来到一座美丽又幽静的花园。园里到处开着鲜花，一股清澈的溪水从花丛间缓缓流过。那天天气炎热，男孩一路走来也累了，便进门坐到一丛灌木下面。枝头开满芳香的红花，他在花香里渐渐睡着了。
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            忽然，翅膀扑动的声音和一阵凉风惊醒了他。男孩小心地抬起头，看见三只鸽子一头扎进溪里。它们快活地扑腾着水花，又抖抖羽毛，接着潜进一处深潭的潭底。等它们再次浮上水面，已经不再是鸽子，而是三个美丽的姑娘。她们合力捧来一张珍珠母做的桌子，摆上粉红和碧绿贝壳做的酒杯。其中一个姑娘拿起水晶壶，斟满一杯，刚举到嘴边，姐妹便拦住她，问她这一杯要敬谁。
+        - id: ch04-b03
+          speaker: grave_maiden
+          text: >-
+            我要敬那个烤饼的年轻人。我从地下伸手拿饼，他用勺子敲了我一下，却一点也不像别的男人那样害怕。妹妹，你又要敬谁？
+        - id: ch04-b04
+          speaker: pool_maiden
+          text: >-
+            我要敬潭边那个让我踩上肩膀的年轻人。他一下把我甩出去，害我在地上昏了好几个钟头。姐姐，你敬的又是谁？
+        - id: ch04-b05
+          speaker: sea_maiden
+          text: >-
+            我在海底抓住一艘船，又摇又拖，眼看就要把它弄沉。可一个年轻人赶来救了船，还把我绑在石头上。我要为他的健康干杯。
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            她说这话时，和先前拿着铁链作恶的模样完全不同。三个姑娘一同举杯，默默喝下了酒。酒杯刚放回桌上，男孩便走到她们面前。
+        - id: ch04-b07
+          speaker: boy
+          text: >-
+            你们敬的年轻人就是我。现在，请把另一只镯子交给我，让它们配成一对吧。那只镶着宝石的镯子，准是从你们中一人的手臂上掉下来的。一个犹太人想从我手里抢走它，我不肯交给他，他便把我拉到卡迪面前。卡迪扣下镯子，说等我找到另一只，证明它们确实是一对，才肯还给我。我只好四处漂泊寻找，这才走过了这么多奇怪的地方。
+        - id: ch04-b08
+          speakers: [grave_maiden, pool_maiden, sea_maiden]
+          ensemble: chorus
+          text: >-
+            那就跟我们来吧。
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            她们带男孩走下一条过道，来到一座大厅。大厅四周开着许多房门，里面的房间一间比一间华丽。大姐走到一层堆满黄金珠宝的架子前，从上面取下一只镯子。无论怎么看，它都和卡迪保管的那只一模一样。她把镯子拿到男孩身边，亲手戴在他的手臂上。
+        - id: ch04-b10
+          speaker: grave_maiden
+          text: >-
+            立刻拿给卡迪看吧，他会把另一只还给你的。
+        - id: ch04-b11
+          speaker: boy
+          text: >-
+            我永远不会忘记你们。可我们也许很久以后才能再见，因为我不找到恐惧，就绝不会停下来。
+        - id: ch04-b12
+          speaker: narrator
+          text: >-
+            男孩告别了她们，从卡迪那里取回镯子，又上路寻找恐惧。
+    - id: ch05
+      title: 圣鸽的选择
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            他不停地走啊，走啊，恐惧却始终没有出现。一天，男孩来到一座大城。街道和广场都挤满了人，他几乎无路可走。
+        - id: ch05-b02
+          speaker: boy
+          text: >-
+            为什么大家都聚在这里？
+        - id: ch05-b03
+          speaker: townsman
+          text: >-
+            我们的统治者死了，又没有留下子女，所以必须选一位继承人。每天早晨，人们都会从那座高塔放出一只圣鸽。鸽子落到谁身上，谁就是国王。它马上就要飞出来了，你留下看看吧。
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            每个人都抬着头，紧盯主广场中央的高塔。太阳刚好升到塔顶正上方，一扇门便打开了。一只美丽的鸽子冲进天空，粉红、灰、蓝、绿各色光彩在它身上闪动。它向前飞去，一直飞，一直飞，越过了无数仰望的面孔，最后竟落到了男孩头上。整座广场立刻爆发出一阵巨大的欢呼。
+        - id: ch05-b05
+          speakers: [citizen_1, citizen_2, citizen_3]
+          ensemble: chorus
+          text: >-
+            他就是国王！我们的国王！
+          emotion: happy
+        - id: ch05-b06
+          speaker: narrator
+          text: >-
+            男孩听着四周的欢呼，脑中忽然闪过一幅景象，比闪电还快。他看见自己坐在王位上，把一辈子都花在永远做不成的事情上。他要让穷人富足，让苦命人快乐，让恶人变好，却一次也没有成功。身为国王，他再也不能随心去做自己想做的事，甚至不能迎娶自己心爱的姑娘。
+        - id: ch05-b07
+          speaker: boy
+          text: >-
+            不！不要！
+          emotion: fearful
+        - id: ch05-b08
+          speaker: narrator
+          text: >-
+            男孩尖叫着把脸埋进双手。众人却以为未来的无上荣耀让他不知所措，根本没理会他的拒绝。
+        - id: ch05-b09
+          speakers: [citizen_1, citizen_2, citizen_3]
+          ensemble: chorus
+          text: >-
+            为了确定结果，再多放几只鸽子吧。
+        - id: ch05-b10
+          speaker: narrator
+          text: >-
+            后来的每只鸽子都跟随第一只，落在同一个地方。人群的呼声越来越响。
+        - id: ch05-b11
+          speakers: [citizen_1, citizen_2, citizen_3]
+          ensemble: chorus
+          text: >-
+            他就是国王！我们的国王！
+          emotion: happy
+        - id: ch05-b12
+          speaker: narrator
+          text: >-
+            年轻人听着喊声，浑身掠过一阵冰冷的战栗，却不明白那是什么感觉。
+        - id: ch05-b13
+          speaker: mysterious_voice
+          text: >-
+            这就是你寻找已久的恐惧。
+        - id: ch05-b14
+          speaker: narrator
+          text: >-
+            那低低的声音仿佛只传进了他的耳朵。方才那幅可怕的景象再次在眼前闪过，年轻人终于垂下了头。他接受了自己的命运，也做好准备，要在此后的一生中，让刚刚找到的恐惧一直陪伴在身边。

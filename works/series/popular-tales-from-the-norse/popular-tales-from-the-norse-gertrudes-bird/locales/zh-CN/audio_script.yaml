@@ -1,0 +1,59 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容而清醒，带一点克制的诙谐
+        timbre: 温厚清晰
+        pace: 舒缓有致
+        pitch: 中低
+    gertrude:
+      display_name: 格特鲁德
+      tts:
+        delivery: 精明小气，推托时理直气壮
+        timbre: 干脆而略显尖细
+        pace: 中等偏快
+        pitch: 中高
+    lord_jesus:
+      display_name: 主耶稣
+      tts:
+        delivery: 平和庄重，动怒时威严有力
+        timbre: 沉稳清澈
+        pace: 舒缓
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 越擀越大的烙饼
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，主耶稣和圣彼得曾在人间行走。有一天，他们赶了很远的路，饥肠辘辘地来到一户人家。屋里有个名叫格特鲁德的老妇人，头戴红帽，正在烙饼。主耶稣便向她讨一小块饼充饥。格特鲁德答应了，从面团上揪下一丁点儿，拿来擀开。奇怪的是，面团越擀越大，竟把整只烤盘都铺满了。
+        - id: ch01-b02
+          speaker: narrator
+          text: 格特鲁德一看，觉得这张饼太大，不能给他们。她又揪下一块更小的面团，可一擀开，它照样铺满整只烤盘。她还是嫌大，不肯送出去。
+        - id: ch01-b03
+          speaker: narrator
+          text: 到了第三次，她只捏下一点点面团，小得几乎看不见。可擀出来的饼依旧那么大。
+    - id: ch02
+      title: 吝啬的惩罚
+      blocks:
+        - id: ch02-b01
+          speaker: gertrude
+          text: 好了，我实在没什么能给你们。擀出来的这些饼都太大，你们只好饿着走吧。
+        - id: ch02-b02
+          speaker: narrator
+          text: 主耶稣听见这番话，动了怒。
+        - id: ch02-b03
+          speaker: lord_jesus
+          text: 你这样吝惜，连一口食物都舍不得给我，可见你对我没有多少爱心。我要罚你变成一只鸟，从此只能在树皮和树干之间找东西吃。除非天上下雨，你永远也喝不到一滴水。
+          emotion: angry
+    - id: ch03
+      title: 格特鲁德鸟
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 主耶稣的话音刚落，格特鲁德就变成了一只大黑啄木鸟。从此，人们把这种鸟叫作格特鲁德鸟。她离开揉面槽，直冲进烟囱，从烟道里飞了出去。
+        - id: ch03-b02
+          speaker: narrator
+          text: 直到今天，你还能看见她四处飞翔。她头上留着那顶红帽子，身子却被烟囱里的煤灰染得乌黑。为了找吃的，她总在树上凿凿啄啄。雨快来的时候，她就吹起口哨。她总是口渴，正等着一滴雨水，好润一润自己的舌头。

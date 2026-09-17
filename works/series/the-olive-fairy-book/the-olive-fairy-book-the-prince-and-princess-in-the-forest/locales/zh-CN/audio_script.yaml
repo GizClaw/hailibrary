@@ -1,0 +1,928 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容温厚，悲剧转折处克制而沉静
+        timbre: 温暖清晰的成熟男声
+        pace: 舒缓而富有变化
+        pitch: 中低
+    queen:
+      display_name: 王后
+      tts:
+        delivery: 高贵敏锐，惊喜时真挚温柔
+        timbre: 清澈端庄的成年女声
+        pace: 适中
+        pitch: 中高
+    prince:
+      display_name: 王子
+      tts:
+        delivery: 温柔庄重，警告时低沉而忧伤
+        timbre: 清朗沉稳的年轻男声
+        pace: 适中
+        pitch: 中低
+    princess:
+      display_name: 公主
+      tts:
+        delivery: 清晰坚定，从执拗转为悔恨与勇敢
+        timbre: 明净柔韧的年轻女声
+        pace: 适中
+        pitch: 中高
+    robber_chief:
+      display_name: 强盗头子
+      tts:
+        delivery: 粗暴狡诈，威胁时冷酷逼人
+        timbre: 粗粝低沉的成年男声
+        pace: 稍慢
+        pitch: 低
+    arabian_king:
+      display_name: 阿拉伯国王
+      tts:
+        delivery: 威严直率，不悦时毫不掩饰
+        timbre: 浑厚明亮的老年男声
+        pace: 适中
+        pitch: 中低
+    captain:
+      display_name: 船长
+      tts:
+        delivery: 豪爽仁厚，说话干脆
+        timbre: 洪亮温暖的成熟男声
+        pace: 适中
+        pitch: 中低
+    bath_servant:
+      display_name: 浴室奴仆
+      tts:
+        delivery: 朴直随意，略带猜疑
+        timbre: 清楚平实的年轻男声
+        pace: 适中
+        pitch: 中
+    palace_servant:
+      display_name: 王宫侍从
+      tts:
+        delivery: 机敏利落，惊讶时语气上扬
+        timbre: 清亮的成年男声
+        pace: 适中
+        pitch: 中
+    crow_1:
+      display_name: 乌鸦一
+      tts:
+        delivery: 神秘健谈，像在透露秘密
+        timbre: 沙哑轻快的声音
+        pace: 适中
+        pitch: 中高
+    crow_2:
+      display_name: 乌鸦二
+      tts:
+        delivery: 简短沉着，带着好奇
+        timbre: 干涩低哑的声音
+        pace: 稍慢
+        pitch: 中
+    young_man_1:
+      display_name: 年轻人一
+      tts:
+        delivery: 快活随性，回答时冒冒失失
+        timbre: 明亮的年轻男声
+        pace: 稍快
+        pitch: 中高
+    young_man_2:
+      display_name: 年轻人二
+      tts:
+        delivery: 随和爱笑，猜测时犹豫
+        timbre: 清朗的年轻男声
+        pace: 适中
+        pitch: 中
+    young_man_3:
+      display_name: 年轻人三
+      tts:
+        delivery: 热闹爽快，语气轻松
+        timbre: 厚实的年轻男声
+        pace: 适中
+        pitch: 中低
+    mountain_troll:
+      display_name: 老山怪
+      tts:
+        delivery: 表面和气，实则阴险自得
+        timbre: 苍老浑浊的男声
+        pace: 稍慢
+        pitch: 低
+    other_troll:
+      display_name: 另一个山怪
+      tts:
+        delivery: 好奇探问，语气阴沉
+        timbre: 沙哑厚重的男声
+        pace: 稍慢
+        pitch: 低
+  chapters:
+    - id: ch01
+      title: 森林里的两座屋子
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，丹麦有一位国王和一位王后，只有一个聪明俊秀的儿子。王子十八岁那年，老国王忽然病重，再也没有康复的希望。王后和王子想尽办法，也只能看着他的病一天天加重。夏天来了。一天，窗外鸟儿正在歌唱，国王抬头望了很久，随后仰面倒下，离开了人世。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            王后一连几星期吃不下，也睡不着，几乎要被悲痛拖垮。王子怕母亲再这样哭下去，也会送掉性命，便求她陪自己到森林那边一个美丽的地方散散心。过了一些时候，王后终于答应了。王子喜出望外，安排好一切。第二天一早，母子俩便动身上路。
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            他们走了整整一天，王后的精神慢慢好了些，也开始留心沿途的景色。傍晚时，两人走进一片密林。枝叶把阳光遮得严严实实，四周一片漆黑。没过多久，他们就迷了路，只能毫无方向地乱走。
+        - id: ch01-b04
+          speaker: queen
+          text: >-
+            要是在这个可怕的地方过夜，野兽一定会把我们吃掉的！
+          emotion: fearful
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            王后又累又怕，说着便哭了起来。
+        - id: ch01-b06
+          speaker: prince
+          text: >-
+            母亲，打起精神来。我总觉得，我们马上就会碰上好运。
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            果然，转过下一个弯，一座亮着灯的小屋出现在眼前。
+        - id: ch01-b08
+          speaker: prince
+          text: >-
+            您看，我没有说错吧？您先在这里等着，我去找点吃的，再问问能不能借宿一晚。
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            王子飞快地跑进小屋。他们带的食物本来就少，早已经吃光了，两个人都饿得厉害。徒步走这么远的路，谁也不愿背上太重的行李。可是王子从一间房找到另一间房，既没见到人，也没找到食物。正要垂头丧气地离开时，他看见内室墙上挂着一柄剑和一件锁子甲，下面还钉着一张纸。纸上说，谁穿上这件甲衣，带着这柄剑，谁就能躲过一切危险。
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            王子高兴得忘了饥饿。他把锁子甲穿在外衣下面，又把剑藏进斗篷，决定不把这件事告诉别人。等他回到母亲身边，王后早已等得不耐烦了。
+        - id: ch01-b11
+          speaker: queen
+          text: >-
+            你怎么去了这么久？我还以为强盗把你杀了！
+          emotion: angry
+        - id: ch01-b12
+          speaker: prince
+          text: >-
+            我只是到处找了找，可每一处都看过了，还是没有吃的。
+        - id: ch01-b13
+          speaker: queen
+          text: >-
+            我怕那是强盗住的地方。我们就算挨饿，也还是赶紧走吧。
+          emotion: fearful
+        - id: ch01-b14
+          speaker: prince
+          text: >-
+            那里不像强盗窝。不过没有东西吃，我们确实不该留下。也许前面还有别的屋子。
+        - id: ch01-b15
+          speaker: narrator
+          text: >-
+            两人又走了一阵，真的看见了第二座亮着灯的房子。
+        - id: ch01-b16
+          speaker: prince
+          text: >-
+            这一次，我们进去吧。
+        - id: ch01-b17
+          speaker: queen
+          text: >-
+            不，我不敢进去！里面的人会袭击我们，还会杀了我们。那肯定是强盗窝！
+          emotion: fearful
+        - id: ch01-b18
+          speaker: prince
+          text: >-
+            看着确实有点像，可我们没有别的办法。我们已经几个钟头没吃东西了，我也快跟您一样累了。
+        - id: ch01-b19
+          speaker: narrator
+          text: >-
+            王后累得几乎站不稳。她怕得要命，心里却也盼着儿子说服自己。
+        - id: ch01-b20
+          speaker: prince
+          text: >-
+            况且，暴风雨也快来了。
+        - id: ch01-b21
+          speaker: narrator
+          text: >-
+            有宝剑护身，王子已经什么也不怕。母子俩走进屋子，仍然没见到一个人。第一间房里摆着餐桌，上面满是美食和饮料，只空了几只盘子。
+        - id: ch01-b22
+          speaker: prince
+          text: >-
+            嗯，这可太好了。
+        - id: ch01-b23
+          speaker: narrator
+          text: >-
+            王子坐下来，从金盘里取了些堆得高高的鲜美草莓，又倒了一杯冰镇柠檬水，自顾自地吃喝起来。他从没尝过这样可口的东西。可说到底，这次他们闯进的真是强盗窝。桌上那些空盘子，正是强盗们留下的。他们刚刚吃完饭，这会儿全在森林里寻找可以下手的过路人。
+        - id: ch01-b24
+          speaker: narrator
+          text: >-
+            母子俩吃饱以后，才想起自己早已困倦不堪。隔壁房里有一张铺着丝绸床单的舒适大床。
+        - id: ch01-b25
+          speaker: prince
+          text: >-
+            母亲，您睡床上，我躺在旁边守着。别怕，您可以安稳睡到天亮。
+        - id: ch01-b26
+          speaker: narrator
+          text: >-
+            王子握着宝剑，在床边守了一夜。天刚发白，王后便醒了，说自己已经歇足，可以重新上路。
+        - id: ch01-b27
+          speaker: prince
+          text: >-
+            我先去林子里找路。您生起火，煮些咖啡。出发前，我们得好好吃顿早饭。
+        - id: ch01-b28
+          speaker: narrator
+          text: >-
+            王子跑进树林以后，王后生了火，又挨间查看屋里的房间。她走进一间布置雅致的屋子，墙上挂着美丽的画，窗前垂着淡蓝色帘子，黄色软垫摆在扶手椅上。她正一样样欣赏，地板上的暗门突然打开。强盗头子从洞里钻出，一把抓住她的脚踝。王后吓得尖声大叫，跪下来苦苦求饶。
+        - id: ch01-b29
+          speaker: robber_chief
+          text: >-
+            我可以饶你，不过你得答应两件事。第一，带我回你的国家，让我取代你儿子做国王。第二，要是他想夺回王位，你就得杀了他。不答应，我现在就要你的命。
+        - id: ch01-b30
+          speaker: queen
+          text: >-
+            你要我杀死自己的儿子？
+          emotion: fearful
+        - id: ch01-b31
+          speaker: robber_chief
+          text: >-
+            不必亲自动手。等他回来，你躺到床上装病，就说梦见一英里外的森林里有些美丽的苹果。告诉他，吃到苹果你才会好，吃不到你就会死。
+        - id: ch01-b32
+          speaker: narrator
+          text: >-
+            王后一边听，一边浑身发抖。她的确疼爱儿子，却又胆小得可怕。最后，她还是向强盗答应下来，心里只盼会发生什么意外，让王子逃过这一劫。她刚刚许下诺言，门外便响起脚步声，强盗赶紧藏了起来。
+        - id: ch01-b33
+          speaker: prince
+          text: >-
+            母亲！我已经穿过森林，找到原来的路了。我们吃完早饭就走。
+        - id: ch01-b34
+          speaker: queen
+          text: >-
+            啊，我难受极了，一步也走不了。现在只有一种东西能治好我。
+        - id: ch01-b35
+          speaker: prince
+          text: >-
+            什么东西？
+        - id: ch01-b36
+          speaker: queen
+          text: >-
+            我梦见一英里外有片森林，那里长着世上最美的苹果。只要吃上几个，我很快就会好。
+        - id: ch01-b37
+          speaker: prince
+          text: >-
+            梦怎么能当真呢？这附近住着一位魔法师。我去求他给您一道治病的咒语吧。
+        - id: ch01-b38
+          speaker: queen
+          text: >-
+            我的梦从来都有含意。要是吃不到那些苹果，我就会死。
+        - id: ch01-b39
+          speaker: narrator
+          text: >-
+            王后并不知道，强盗为什么偏要把王子骗进那片森林。那里到处都是猛兽，无论哪个旅人闯进去，都会被它们扑倒，撕成碎片。
+        - id: ch01-b40
+          speaker: prince
+          text: >-
+            好，我去。不过我得先吃点早饭。吃饱了，才能走得更快。
+        - id: ch01-b41
+          speaker: queen
+          text: >-
+            你再不赶紧，回来时看到的就只有我的尸体了。
+          emotion: angry
+        - id: ch01-b42
+          speaker: narrator
+          text: >-
+            王后烦躁地低声抱怨，觉得儿子一点也不为她着急。说到后来，就连她自己也开始相信，自己的病真的有那么重。
+    - id: ch02
+      title: 苹果林与被囚的公主
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            王子吃饱喝足，便来到那片森林。狮子、老虎、熊和狼立刻朝他猛冲过来。可它们不但没有撕碎他，反而全趴在地上，亲昵地舔起他的手。王子很快找到了母亲所说的苹果树，只是树枝太高，树干又光滑得无处攀登。
+        - id: ch02-b02
+          speaker: prince
+          text: >-
+            看来是白跑一趟了。我根本爬不上去，这可怎么办？
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            他转身要走，藏在斗篷里的宝剑恰好擦过树身，两只苹果马上掉了下来。王子欢欢喜喜地捡起苹果。正要离开时，一只小狗从附近的山丘里跑出，直冲到他跟前。它一面呜咽，一面咬住他的衣服，使劲往后拖，像是非要把他带到什么地方去不可。
+        - id: ch02-b04
+          speaker: prince
+          text: >-
+            小狗，你想要什么？
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            王子弯下腰，摸了摸它柔软的黑脑袋。小狗随即跑上山丘，在一个洞口前停下。它坐在那里向外望着王子，那副样子，分明像是在说，请跟我进来呀。
+        - id: ch02-b06
+          speaker: prince
+          text: >-
+            那就进去看看吧。
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            洞口小得钻不进人。王子把剑伸进去，入口立刻变大了。
+        - id: ch02-b08
+          speaker: prince
+          text: >-
+            哈，有这柄剑，果然什么都方便。
+          emotion: happy
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            他俯身爬进洞口，沿着黑暗的通道一直走到尽头。前方是一间屋子。一个美丽的姑娘被铁链锁在铁柱上，这便是他第一眼看见的景象。
+        - id: ch02-b10
+          speaker: prince
+          text: >-
+            究竟出了什么可怕的事，把你困在了这里？
+          emotion: surprised
+        - id: ch02-b11
+          speaker: princess
+          text: >-
+            就算告诉你也没有用。恐怕我的厄运还会连累你。
+          emotion: sad
+        - id: ch02-b12
+          speaker: prince
+          text: >-
+            我不怕。请告诉我，你是谁，又是怎么来到这里的。
+        - id: ch02-b13
+          speaker: princess
+          text: >-
+            说来也不长。我是阿拉伯的公主。住在这里的十二个强盗正在互相争斗，看最后该由谁娶我。
+          emotion: sad
+        - id: ch02-b14
+          speaker: prince
+          text: >-
+            你愿意让我救你出去吗？
+        - id: ch02-b15
+          speaker: princess
+          text: >-
+            我当然愿意，可你做不到。光是锁住我的铁链，你又怎么弄得断呢？
+        - id: ch02-b16
+          speaker: prince
+          text: >-
+            这件事再容易不过。
+        - id: ch02-b17
+          speaker: narrator
+          text: >-
+            王子拔出宝剑。剑锋刚碰到铁链，所有链环便纷纷断开，公主终于自由了。
+        - id: ch02-b18
+          speaker: prince
+          text: >-
+            来，我们走！
+        - id: ch02-b19
+          speaker: narrator
+          text: >-
+            王子拉住公主的手，她却往后退去。
+        - id: ch02-b20
+          speaker: princess
+          text: >-
+            不，我不敢！要是在通道里撞见强盗，他们会把我们两个都杀掉的。
+          emotion: fearful
+        - id: ch02-b21
+          speaker: prince
+          text: >-
+            他们办不到！不过，你被关在这里多久了？
+        - id: ch02-b22
+          speaker: princess
+          text: >-
+            我想，大概有二十年了。
+        - id: ch02-b23
+          speaker: prince
+          text: >-
+            二十年！那你最好闭上眼睛。关在这里太久，突然见到阳光，眼睛也许受不了。原来你就是那位阿拉伯公主，世人一直在传颂你的美貌！我也是一位王子。
+          emotion: surprised
+        - id: ch02-b24
+          speaker: princess
+          text: >-
+            你救了我的命，愿不愿意跟我回阿拉伯，娶我为妻？就算我父亲还活着，现在也一定老了。等他去世，你就可以成为国王。
+        - id: ch02-b25
+          speaker: prince
+          text: >-
+            不行。我生在自己的国家，也要死在那里。不过一年以后，我会去找你，再娶你为妻。
+        - id: ch02-b26
+          speaker: narrator
+          text: >-
+            无论公主怎样劝说，王子都不肯改变主意。公主只好从手指上取下一枚沉甸甸的戒指，亲手戴到王子指上。戒面刻着三个人的名字，分别是她的父亲、母亲和她自己。她请王子好好保存这枚戒指，也永远不要忘记两人的约定。
+        - id: ch02-b27
+          speaker: prince
+          text: >-
+            除非我死，否则绝不会取下它。一年期满，只要我还活着，就一定来找你。听说穿过森林就有一个港口，那里有船去阿拉伯。我们现在就走。
+        - id: ch02-b28
+          speaker: narrator
+          text: >-
+            两人手牵着手，一路穿过森林。等他们赶到港口，恰好有一艘船就要启航。公主向王子告别，独自登船回国。她失踪了那么久，父母早已不敢指望今生还能见到她。现在公主平安归来，全国上下无不欢腾。她把获救的经过告诉父母，还说那位王子一年以后会来迎娶她。国王和王后听了，都为女儿感到高兴。
+        - id: ch02-b29
+          speaker: arabian_king
+          text: >-
+            话是这么说，可我真希望他现在就在这里。一年也太久了。
+        - id: ch02-b30
+          speaker: narrator
+          text: >-
+            等公主乘坐的船消失在眼前，王子才猛然想起自己进森林是为了什么，赶紧用最快的速度回到强盗的住处。
+        - id: ch02-b31
+          speaker: narrator
+          text: >-
+            强盗头子的鼻子长得像妖怪一样，隔着老远就闻到了苹果香。他马上对王后说起王子的事。
+        - id: ch02-b32
+          speaker: robber_chief
+          text: >-
+            这小子不简单！他真进了那片森林，早该被野兽吃了。除非他身上有厉害的法宝。要是有，我们非得把它夺过来。
+        - id: ch02-b33
+          speaker: queen
+          text: >-
+            不会的，他什么也没有。
+        - id: ch02-b34
+          speaker: narrator
+          text: >-
+            到这时候，王后已经完全被强盗迷住了。可强盗根本不相信她的话。
+        - id: ch02-b35
+          speaker: robber_chief
+          text: >-
+            得设法让他自己说出来。等他回来，你就说病好了，再给他备些饭菜。吃饭时，你告诉他，你梦见野兽围攻他，然后问他怎么逃了出来。只要秘密到手，我自然有办法夺走他的法宝。
+        - id: ch02-b36
+          speaker: narrator
+          text: >-
+            没过多久，王子回来了。
+        - id: ch02-b37
+          speaker: prince
+          text: >-
+            母亲，您现在觉得怎么样？苹果带回来了。您很快就能好起来，再跟我一起上路。
+          emotion: happy
+        - id: ch02-b38
+          speaker: queen
+          text: >-
+            哦，我已经好多了。你看，饭菜还热着。快吃完，我们就动身。
+        - id: ch02-b39
+          speaker: narrator
+          text: >-
+            王子吃饭的时候，王后说起自己又做了一个梦。
+        - id: ch02-b40
+          speaker: queen
+          text: >-
+            我梦见你走进一片到处是野兽的森林。它们围着你凶狠地咆哮。你到底是怎么逃出来的？
+        - id: ch02-b41
+          speaker: prince
+          text: >-
+            那不过是个梦！
+        - id: ch02-b42
+          speaker: queen
+          text: >-
+            可我的梦从来都会应验。快告诉我，到底发生了什么。
+        - id: ch02-b43
+          speaker: narrator
+          text: >-
+            王子犹豫了很久，不知道该不该开口。最后，他还是决定把秘密告诉母亲。他心里想，一个人不该对自己的母亲隐瞒任何事情。于是，他把藏着的剑和锁子甲拿了出来。
+        - id: ch02-b44
+          speaker: prince
+          text: >-
+            母亲，您看。这柄剑和这件锁子甲，是我在第一座屋子里找到的。只要带着它们，就没有什么能伤害我。那些野兽也正是因此才伤不了我。
+        - id: ch02-b45
+          speaker: queen
+          text: >-
+            我真不知道该怎样感谢上天！
+          emotion: happy
+        - id: ch02-b46
+          speaker: narrator
+          text: >-
+            王子刚一转身，王后就急忙跑去，把所有事情都告诉了强盗。
+    - id: ch03
+      title: 失明的王子
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            强盗一听到消息，马上调好一杯安眠药，吩咐王后当天夜里趁儿子上床前让他喝下去。王子刚有睡意，王后便把药汁递到了他手里。
+        - id: ch03-b02
+          speaker: queen
+          text: >-
+            看在我的分上，把它喝了吧。你吃了那么多苦，这药对身体有好处，也能让你睡个好觉。
+        - id: ch03-b03
+          speaker: prince
+          text: >-
+            这东西的味道真怪！
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            王子一边喝，一边含糊地说着，随即便昏睡过去。强盗走进房间，拿走了宝剑和锁子甲。
+        - id: ch03-b05
+          speaker: robber_chief
+          text: >-
+            这些东西本来就是我兄弟的。
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            等剑和甲衣都到了手，强盗叫醒了王子。
+        - id: ch03-b07
+          speaker: robber_chief
+          text: >-
+            现在，我才是这里的主人。你自己选吧。要么死，要么让人剜掉双眼，再滚回森林。
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            王子听完这番话，只觉得浑身的血都冷了。忽然，他想到强盗为何知道法宝的秘密，便转过身去，厉声质问自己的母亲。
+        - id: ch03-b09
+          speaker: prince
+          text: >-
+            这是你干的吗？
+          emotion: angry
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            王后放声大哭，怎么也不肯承认。可王子知道，她没有说真话。
+        - id: ch03-b11
+          speaker: prince
+          text: >-
+            好吧，只要活着，就还有希望。我回森林去。
+          emotion: sad
+        - id: ch03-b12
+          speaker: narrator
+          text: >-
+            强盗让人剜去王子的双眼，只给他一根手杖和少量食物，便把他赶进森林。强盗认定，王子没有了宝剑和甲衣的保护，很快就会被野兽吃掉，根本不可能活着回来。
+        - id: ch03-b13
+          speaker: robber_chief
+          text: >-
+            现在，我们回你的国家去。
+        - id: ch03-b14
+          speaker: narrator
+          text: >-
+            第二天，强盗和王后乘船出发。回国以后，两人结了婚，强盗也登上王位，当了国王。
+        - id: ch03-b15
+          speaker: narrator
+          text: >-
+            可怜的王子却还在森林里摸索。他盼着能碰见一个愿意帮助自己的人，哪怕只肯收留他做仆人也好。如今，他没有钱，也没有家，除此以外再没有活路。恰好不久前，猎人刚在林中举行过一场大狩猎，野兽全被赶跑，躲藏了起来，因此一路上没有什么来伤害他。
+        - id: ch03-b16
+          speaker: narrator
+          text: >-
+            一天，王子的食物终于全吃光了。他在森林中摸索着前行，心想自己这一次一定会饿死。可就在这时候，他竟来到了那座有船开往阿拉伯的港口。港边正有一艘船准备启航，船长走向船边，一眼看见了孤零零站在那里的王子。
+        - id: ch03-b17
+          speaker: captain
+          text: >-
+            哎，这里有个可怜的盲人！准是被那些强盗害的。我们带他一起去阿拉伯吧。好朋友，你愿意跟我们走吗？
+        - id: ch03-b18
+          speaker: narrator
+          text: >-
+            自从遭到背叛以后，王子终于又听见有人温和地同自己说话，心里不知道有多欢喜。他连忙答应下来，水手们便扶着他攀上船舷。船抵达阿拉伯以后，船长又亲自把王子送到公共浴室，还吩咐一个奴仆替他洗澡。
+        - id: ch03-b19
+          speaker: narrator
+          text: >-
+            洗澡时，公主的戒指从王子手上滑落。清扫浴池的奴仆后来捡到了它，又拿给一位在王宫当差的朋友看。
+        - id: ch03-b20
+          speaker: palace_servant
+          text: >-
+            咦，这不是公主的戒指吗？你从哪里找到的？
+          emotion: surprised
+        - id: ch03-b21
+          speaker: bath_servant
+          text: >-
+            它从一个盲人的手指上掉了下来。我看，准是他偷的。不过你应该能替公主送回去。
+        - id: ch03-b22
+          speaker: narrator
+          text: >-
+            当天晚上，王宫侍从把戒指带回宫中，交给自己的女儿。那姑娘是公主最宠爱的侍女，立刻把戒指呈给了主人。公主一眼认出来，高兴地叫出了声。
+        - id: ch03-b23
+          speaker: princess
+          text: >-
+            这是我送给未婚夫的戒指！马上带我去见他！
+          emotion: happy
+        - id: ch03-b24
+          speaker: narrator
+          text: >-
+            浴室看守觉得十分奇怪，堂堂公主怎么会同一个盲眼乞丐订下婚约。可他不敢违抗，还是照公主的吩咐把人带了过去。公主一见到王子，立刻喊了起来。
+        - id: ch03-b25
+          speaker: princess
+          text: >-
+            你终于来了！一年已经过去，我还以为你死了。我们现在就成婚。
+          emotion: happy
+        - id: ch03-b26
+          speaker: narrator
+          text: >-
+            说完，公主便回到王宫，把王子到来的消息告诉父亲。她请国王派出仪仗，把自己的未婚夫隆重地迎进宫来。国王听说王子突然出现，本来就有些惊讶。等他又听说王子双目失明，更是十分恼火。
+        - id: ch03-b27
+          speaker: arabian_king
+          text: >-
+            我绝不能让一个盲人继承王位。这简直荒唐透顶！
+          emotion: angry
+        - id: ch03-b28
+          speaker: narrator
+          text: >-
+            可公主从小到大总能称心如意，国王最后还是像往常一样让了步。人们用盛大的仪仗把王子迎进宫，国王却一直满心不快。事情已经无法挽回，况且公主仍像从前一样年轻，也确实到了成婚的年纪。过去有几百名骑士和王子向她求婚，她一个也不肯理会。现在她认定了这个失明的王子，谁也不能替代他。
+    - id: ch04
+      title: 仲夏夜与山怪的城堡
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            一个晴朗的傍晚，王子和公主走进花园，在树下坐了下来。附近的灌木上停着两只乌鸦。王子听得懂鸟语，听见第一只乌鸦开了口。
+        - id: ch04-b02
+          speaker: crow_1
+          text: >-
+            你知道今晚是仲夏节前夜吗？
+        - id: ch04-b03
+          speaker: crow_2
+          text: >-
+            知道。
+        - id: ch04-b04
+          speaker: crow_1
+          text: >-
+            那么，花园里那个叫“王后卧榻”的地方，你也知道吧？
+        - id: ch04-b05
+          speaker: crow_2
+          text: >-
+            知道。
+        - id: ch04-b06
+          speaker: crow_1
+          text: >-
+            可有件事，你也许不知道。谁的眼睛出了毛病，哪怕连眼珠都没了，只要今晚用那里的露水洗眼窝，就能重新看见。不过，非得在十二点到一点之间洗才行。
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            王子和公主听见这个秘密，又惊又喜。王子马上请公主带他到“王后卧榻”。那是花园里的一小片草地，因为王后从前常在那里躺下睡午觉，才得了这个名字。两人一直等到午夜十二点。十二点到一点之间，王子用落在草叶上的露水洗了眼窝，发现自己的视力果然完全恢复了。
+        - id: ch04-b08
+          speaker: prince
+          text: >-
+            我看见你了！
+          emotion: happy
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            王子凝望着公主，仿佛这一生从没看见过任何东西。
+        - id: ch04-b10
+          speaker: princess
+          text: >-
+            我不相信。
+        - id: ch04-b11
+          speaker: prince
+          text: >-
+            那你把手帕挂在一丛灌木上。我要是立刻找得到，你就得相信了。
+        - id: ch04-b12
+          speaker: narrator
+          text: >-
+            公主照他说的做了。王子径直走到那方手帕前。
+        - id: ch04-b13
+          speaker: princess
+          text: >-
+            你真的能看见了！真没想到，母亲的卧榻竟能让你恢复光明！
+          emotion: surprised
+        - id: ch04-b14
+          speaker: narrator
+          text: >-
+            公主回到草坡边坐下。天气很热，过了一会儿，她便睡着了。王子望着她，忽然发现她颈上有件东西闪闪发亮。那是一盏明亮的小金灯，用金链挂在颈间。他想凑近看清楚，便解开了链子。谁知手刚一动，金灯就掉在地上。
+        - id: ch04-b15
+          speaker: narrator
+          text: >-
+            王子还没来得及捡，一只鹰猛地飞来，用爪子抓起金灯，振翅飞走。王子拔腿便追，一直跑啊跑，却怎么也赶不上那只鸟，最后还迷失了方向。他为了寻找回去的路，翻上翻下，到处乱走，不知不觉又来到了当初发现公主的那片森林。
+        - id: ch04-b16
+          speaker: narrator
+          text: >-
+            公主醒来时，身边已经空无一人。她起身寻找王子，结果也迷了路。正当她无措地四处乱走，强盗们捉住了她，又把她押回王子曾救她出去的洞穴。两个人吃尽苦头，竟又回到原点，处境和从前一模一样。
+        - id: ch04-b17
+          speaker: narrator
+          text: >-
+            王子一路徘徊，想找回通往阿拉伯的道路。一天，他遇见十二个年轻人。他们兴高采烈地穿过森林，一路唱歌，一路欢笑。
+        - id: ch04-b18
+          speaker: prince
+          text: >-
+            你们这是要到哪里去？
+        - id: ch04-b19
+          speakers: [young_man_1, young_man_2, young_man_3]
+          ensemble: chorus
+          text: >-
+            我们在找活儿干！
+        - id: ch04-b20
+          speaker: prince
+          text: >-
+            要是你们不介意，我也跟你们一起走吧。
+        - id: ch04-b21
+          speakers: [young_man_1, young_man_2, young_man_3]
+          ensemble: chorus
+          text: >-
+            来吧，人越多越热闹！
+        - id: ch04-b22
+          speaker: narrator
+          text: >-
+            王子便和他们一同赶路。众人继续往前走，遇见了一个年老的山怪。
+        - id: ch04-b23
+          speaker: mountain_troll
+          text: >-
+            各位老爷，你们打算去哪里？
+        - id: ch04-b24
+          speakers: [young_man_1, young_man_2, young_man_3]
+          ensemble: chorus
+          text: >-
+            我们想找个地方做事。
+        - id: ch04-b25
+          speaker: mountain_troll
+          text: >-
+            那就来服侍我吧。我那里什么吃的喝的都有，活儿却没多少。一年以后，只要你们答对三个问题，每人都能拿走一袋黄金。答不出来，就得变成野兽。
+        - id: ch04-b26
+          speaker: narrator
+          text: >-
+            年轻人觉得这事容易得很，全都跟山怪回了城堡。
+        - id: ch04-b27
+          speaker: mountain_troll
+          text: >-
+            在这里，你们想要什么都有。只要替我看着屋子就行。我马上出远门，满一年才回来。
+        - id: ch04-b28
+          speaker: narrator
+          text: >-
+            山怪说完就走了。年轻人从此没人约束，日子过得快活极了。他们什么活儿也不干，每天只顾唱歌饮酒，寻欢作乐。到了吃饭的时候，餐桌上自然会摆满好吃好喝的东西。等他们吃完，又有看不见的手把所有杯盘撤走，根本不用谁来收拾。
+        - id: ch04-b29
+          speaker: narrator
+          text: >-
+            只有王子一直思念失散的公主。他吃得少，喝得也少，还每天辛勤做事，把整座屋子收拾得井井有条。
+        - id: ch04-b30
+          speaker: narrator
+          text: >-
+            一天，王子坐在自己房中，忽然听见老山怪在窗下和另一个山怪说话。
+        - id: ch04-b31
+          speaker: mountain_troll
+          text: >-
+            明天，一年就满了。
+        - id: ch04-b32
+          speaker: other_troll
+          text: >-
+            你准备问他们什么？
+        - id: ch04-b33
+          speaker: mountain_troll
+          text: >-
+            第一个问题，我要问他们在这里住了多久。那群年轻的傻瓜根本不知道。第二个问题，我要问城堡屋顶上发亮的是什么。
+        - id: ch04-b34
+          speaker: other_troll
+          text: >-
+            那到底是什么？
+        - id: ch04-b35
+          speaker: mountain_troll
+          text: >-
+            是我趁公主在花园里睡觉时，从她那里偷来的灯。
+        - id: ch04-b36
+          speaker: other_troll
+          text: >-
+            第三个问题呢？
+        - id: ch04-b37
+          speaker: mountain_troll
+          text: >-
+            我要问，他们每天吃的喝的是从哪里来的。那些东西都是我从国王的餐桌上偷来的，可他们一点也不知道。
+    - id: ch05
+      title: 三个问题与第二次营救
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            第二天，老山怪回到了城堡。
+        - id: ch05-b02
+          speaker: mountain_troll
+          text: >-
+            现在该问问题了。先说第一个，你们在这里住了多久？
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            年轻人每天只顾喝酒取乐，早把当初的约定忘得一干二净。大家沉默了半天，才有人试着开口。
+        - id: ch05-b04
+          speaker: young_man_1
+          text: >-
+            一个星期。
+        - id: ch05-b05
+          speaker: young_man_2
+          text: >-
+            两个月吧。
+        - id: ch05-b06
+          speaker: prince
+          text: >-
+            整整一年。
+        - id: ch05-b07
+          speaker: mountain_troll
+          text: >-
+            答对了。第二个问题，城堡屋顶上发亮的是什么？
+        - id: ch05-b08
+          speaker: narrator
+          text: >-
+            年轻人猜了又猜，有人说是太阳，有人说是月亮，可谁也不知道真正的答案。
+        - id: ch05-b09
+          speaker: prince
+          text: >-
+            我可以回答吗？
+        - id: ch05-b10
+          speaker: mountain_troll
+          text: >-
+            当然可以。
+        - id: ch05-b11
+          speaker: prince
+          text: >-
+            那是你趁公主在花园里睡着时，偷走的那盏灯。
+        - id: ch05-b12
+          speaker: narrator
+          text: >-
+            山怪点了点头，接着提出最后一个问题。
+        - id: ch05-b13
+          speaker: mountain_troll
+          text: >-
+            你们在这里吃的食物、喝的饮料，都是从哪里来的？
+        - id: ch05-b14
+          speaker: narrator
+          text: >-
+            这一次，年轻人仍然谁也猜不出来。
+        - id: ch05-b15
+          speaker: prince
+          text: >-
+            这道题，也让我来答吧？
+        - id: ch05-b16
+          speaker: mountain_troll
+          text: >-
+            你要是答得出，就说吧。
+        - id: ch05-b17
+          speaker: prince
+          text: >-
+            全都是从国王的餐桌上拿来的。
+        - id: ch05-b18
+          speaker: narrator
+          text: >-
+            三个问题全都答完了。按照山怪先前的约定，众人每人拿到一袋黄金，可以平安离开城堡。那些年轻人急着带黄金回去，走得实在太快，竟把王子独自落在了后面。不久，他们在路上碰见一个衣衫寒酸的老人。老人拦住他们，开口讨些钱。
+        - id: ch05-b19
+          speakers: [young_man_1, young_man_2, young_man_3]
+          ensemble: chorus
+          text: >-
+            不行，我们一文钱也没有。
+        - id: ch05-b20
+          speaker: narrator
+          text: >-
+            年轻人匆匆走远。过了一会儿，王子也赶到了老人面前。
+        - id: ch05-b21
+          speaker: mountain_troll
+          text: >-
+            老爷，能赏给可怜人一枚钱币吗？
+        - id: ch05-b22
+          speaker: prince
+          text: >-
+            可以，这一整袋都给你。
+        - id: ch05-b23
+          speaker: narrator
+          text: >-
+            王子把全部黄金交了出去。这个老人，其实就是城堡里的老山怪变成的。
+        - id: ch05-b24
+          speaker: mountain_troll
+          text: >-
+            我不要你的黄金。不过你这样慷慨，我就把公主的灯还给你。公主本人正在你第一次发现她的洞穴里。只是没有那柄魔法宝剑，你要怎么再救她一次，我可不知道。
+        - id: ch05-b25
+          speaker: narrator
+          text: >-
+            王子终于知道了公主的下落，也明白营救行动该从哪里开始。他先乔装成一个小贩，赶往自己的城池。母亲和已经做了国王的强盗头子，正在那里生活。进城以后，他找到一间金匠铺，定做了许许多多纯金厨具。金匠平常可接不到这样的生意，不过总算还是把每一件都做好了。平底锅、烧水壶、烤架，样样都由纯金打造。
+        - id: ch05-b26
+          speaker: narrator
+          text: >-
+            王子把金厨具装进篮子，来到王宫，请求面见王后。王后听说有个小贩带来了奇妙的金锅金壶，立刻走出来，把篮子里的东西一件件取出，爱不释手地欣赏。她看得太入迷，王子很快找到机会，悄悄溜进寝宫，取回挂在那里的宝剑和锁子甲，又回到原处。王后丝毫没有发现。
+        - id: ch05-b27
+          speaker: queen
+          text: >-
+            每一件都这么美！你想卖多少钱？
+        - id: ch05-b28
+          speaker: prince
+          text: >-
+            价钱由陛下来定吧。
+        - id: ch05-b29
+          speaker: queen
+          text: >-
+            我实在不知道该出多少。等我丈夫回来吧，男人比较懂这些。你又是外乡人，他大概也想同你聊几句。
+        - id: ch05-b30
+          speaker: narrator
+          text: >-
+            王子鞠了一躬，默默站到角落里等候。没过多久，强盗回来了。
+        - id: ch05-b31
+          speaker: queen
+          text: >-
+            快来看看这些可爱的金平底锅！
+          emotion: happy
+        - id: ch05-b32
+          speaker: narrator
+          text: >-
+            强盗一走进房间，王子便用魔法宝剑碰了他一下。强盗立刻倒在地上。
+        - id: ch05-b33
+          speaker: prince
+          text: >-
+            母亲，现在你应该认出我了。你最好为从前加在我身上的伤害好好悔过，不然你的性命也保不住。
+          emotion: angry
+        - id: ch05-b34
+          speaker: narrator
+          text: >-
+            王子说着，脱下了伪装。
+        - id: ch05-b35
+          speaker: queen
+          text: >-
+            啊，饶了我吧！我实在没有办法，我太害怕了。
+          emotion: fearful
+        - id: ch05-b36
+          speaker: narrator
+          text: >-
+            王子最终还是饶恕了母亲。他命人剥下邪恶国王身上的华服，把他赶进森林。失去法宝保护以后，那里的野兽扑向强盗，把他撕成了碎片。随后，王子把王后送回她自己的国家，自己便立刻启程，前往关押公主的洞穴。
+        - id: ch05-b37
+          speaker: narrator
+          text: >-
+            到了洞穴，王子发现公主果然还在那里。她和从前一样，被一条铁链锁在铁柱上。王子拿出魔法宝剑，毫不费力地斩断铁链，第二次救她重获自由。两人离开洞穴，很快赶到港口，又乘船驶向阿拉伯。他们终于在那里举行了早该举行的婚礼。
+        - id: ch05-b38
+          speaker: narrator
+          text: >-
+            从此以后，直到生命终结，他们一直幸福地统治着两个国家。
+        - id: ch05-b39
+          speaker: narrator
+          text: >-
+            这个故事选自《埃瓦尔德·唐·克里斯滕森搜集记录的吉尔博克童话》，由斯科夫高－彼得森夫人从丹麦语译成英语。
