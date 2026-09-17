@@ -1,0 +1,328 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and storylike
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    father_king:
+      display_name: The King
+      tts:
+        delivery: stern and commanding
+        timbre: deep and firm
+        pace: measured
+        pitch: low
+    queen:
+      display_name: The Queen
+      tts:
+        delivery: tender and sorrowful
+        timbre: warm and gentle
+        pace: unhurried
+        pitch: medium
+    benjamin:
+      display_name: Benjamin
+      tts:
+        delivery: earnest and quick-witted
+        timbre: clear and youthful
+        pace: lively
+        pitch: medium-high
+    brother_1:
+      display_name: First Brother
+      tts:
+        delivery: bold and direct
+        timbre: youthful and sturdy
+        pace: measured
+        pitch: medium-low
+    brother_2:
+      display_name: Second Brother
+      tts:
+        delivery: spirited and plainspoken
+        timbre: clear and youthful
+        pace: brisk
+        pitch: medium
+    brother_3:
+      display_name: Third Brother
+      tts:
+        delivery: resolute and forthright
+        timbre: youthful and resonant
+        pace: measured
+        pitch: medium
+    brother_4:
+      display_name: Fourth Brother
+      tts:
+        delivery: energetic and sincere
+        timbre: bright and youthful
+        pace: brisk
+        pitch: medium-high
+    princess:
+      display_name: The Princess
+      tts:
+        delivery: kind and steadfast
+        timbre: clear and graceful
+        pace: measured
+        pitch: medium-high
+    old_woman:
+      display_name: The Old Woman
+      tts:
+        delivery: grave and knowing
+        timbre: aged and dry
+        pace: unhurried
+        pitch: medium-low
+    young_king:
+      display_name: The Young King
+      tts:
+        delivery: noble and sincere
+        timbre: warm and resonant
+        pace: measured
+        pitch: medium-low
+    king_mother:
+      display_name: The King's Mother
+      tts:
+        delivery: cold and accusing
+        timbre: aged and sharp
+        pace: measured
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Coffins in the Locked Room
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there lived a King and Queen who were happy together and had twelve children, all boys. Then one day the King spoke to his wife.
+        - id: ch01-b02
+          speaker: father_king
+          text: If our thirteenth child is a girl, all twelve boys must die. Then she will be very rich, and the kingdom will belong to her alone.
+        - id: ch01-b03
+          speaker: narrator
+          text: Then he ordered twelve coffins to be made. He filled each one with wood shavings and laid a little pillow inside. The King put them away in an empty room, handed the Queen the key, and commanded her never to tell anyone what was there.
+        - id: ch01-b04
+          speaker: narrator
+          text: The Queen could not be comforted. She grieved for her sons until Benjamin, the youngest, who was always beside her, finally asked what was wrong.
+        - id: ch01-b05
+          speaker: benjamin
+          text: Dear Mother, why are you so sad?
+        - id: ch01-b06
+          speaker: queen
+          text: My child, I am not allowed to tell you why.
+          emotion: sad
+        - id: ch01-b07
+          speaker: narrator
+          text: But Benjamin kept asking. At last she unlocked the hidden room and showed him the twelve coffins, each with its shavings and little pillow.
+        - id: ch01-b08
+          speaker: queen
+          text: My dearest Benjamin, your father had these made for you and your eleven brothers. If my next child is a girl, all of you are to be killed and buried here.
+          emotion: sad
+        - id: ch01-b09
+          speaker: narrator
+          text: She wept bitterly, but Benjamin tried to comfort her.
+        - id: ch01-b10
+          speaker: benjamin
+          text: Don't cry, dear Mother. Somehow we'll escape. We'll run for our lives.
+        - id: ch01-b11
+          speaker: queen
+          text: Yes. Take your eleven brothers into the wood. One of you must always watch the castle tower from the highest tree you can find. If the baby is a boy, I will wave a white flag, and you may safely come home. If it is a girl, I will wave a red one. Then flee as fast as you can, and may kind Heaven have pity on you. Every night I will rise and pray for you. In winter, I will pray that you have a fire to keep you warm. In summer, I will pray that the heat does not make you suffer.
+          emotion: sad
+        - id: ch01-b12
+          speaker: narrator
+          text: The Queen blessed her sons, and the twelve boys went into the wood. They found a very tall oak and took turns sitting in its highest branches, with their eyes always fixed on the castle tower. On the twelfth day it was Benjamin's turn to watch. He saw a flag waving in the air, but alas, it was not white. It was blood red, the sign that all of them were meant to die.
+        - id: ch01-b13
+          speaker: narrator
+          text: When the brothers heard, anger swept through them.
+        - id: ch01-b14
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: Are we supposed to die because of one wretched girl? Let us swear revenge. Any girl we meet, wherever it may be, will die by our hands.
+          emotion: angry
+    - id: ch02
+      title: The Enchanted House
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The brothers went deeper into the wood. In its thickest, darkest part, they found a small enchanted house standing empty.
+        - id: ch02-b02
+          speaker: brother_1
+          text: We can live here. Benjamin, you are the youngest and weakest, so you must stay home and keep house. The rest of us will go out and find food.
+        - id: ch02-b03
+          speaker: narrator
+          text: Every day, the eleven older brothers went hunting. They shot hares, roe deer, birds, wood pigeons, and whatever other game crossed their path. They carried their catch home to Benjamin, and he soon learned to turn it into fine dishes. For ten years the brothers lived merrily in that little house, and the time passed quickly.
+        - id: ch02-b04
+          speaker: narrator
+          text: Meanwhile, their little sister was growing up at the palace. She was kind and beautiful, with a golden star in the middle of her forehead. One day, while a great wash was being done, she looked from her window and saw twelve men's shirts hanging out to dry.
+        - id: ch02-b05
+          speaker: princess
+          text: Who can those shirts belong to? They're much too small for Father.
+        - id: ch02-b06
+          speaker: queen
+          text: Dear child, they belong to your twelve brothers.
+          emotion: sad
+        - id: ch02-b07
+          speaker: princess
+          text: My twelve brothers? Where are they? I have never even heard about them.
+          emotion: surprised
+        - id: ch02-b08
+          speaker: queen
+          text: Only Heaven knows where they may be wandering in this wide world.
+          emotion: sad
+        - id: ch02-b09
+          speaker: narrator
+          text: The Queen led her daughter to the locked room. Inside were the twelve coffins, still filled with shavings, with a little pillow in every one.
+        - id: ch02-b10
+          speaker: queen
+          text: These were meant for your brothers, but they secretly ran away before you were born.
+          emotion: sad
+        - id: ch02-b11
+          speaker: narrator
+          text: She told the Princess everything that had happened.
+        - id: ch02-b12
+          speaker: princess
+          text: Please don't cry, dearest Mother. I will search for my brothers until I find them.
+        - id: ch02-b13
+          speaker: narrator
+          text: The Princess took the twelve shirts and walked straight into the great wood. She traveled all day. That evening she reached the enchanted house, stepped inside, and found a young man there. He stared in wonder at her beauty, her royal clothes, and the golden star on her forehead.
+        - id: ch02-b14
+          speaker: benjamin
+          text: Where have you come from, and where are you going?
+        - id: ch02-b15
+          speaker: princess
+          text: I am a Princess, and I am looking for my twelve brothers. I will wander as far as the blue sky reaches over the earth until I find them.
+        - id: ch02-b16
+          speaker: narrator
+          text: She showed him the twelve shirts she had brought. At once Benjamin knew who she was.
+        - id: ch02-b17
+          speaker: benjamin
+          text: I am Benjamin, your youngest brother.
+        - id: ch02-b18
+          speaker: narrator
+          text: Brother and sister wept for joy. They kissed and hugged each other again and again. Then Benjamin remembered the brothers' vow.
+        - id: ch02-b19
+          speaker: benjamin
+          text: Dear sister, there is one difficulty. We all agreed to kill any girl we met, because a girl was the reason we had to leave our kingdom.
+        - id: ch02-b20
+          speaker: princess
+          text: Then I will gladly die, if my death can give my twelve brothers their home again.
+        - id: ch02-b21
+          speaker: benjamin
+          text: No, you needn't do that. Hide under this tub until the other eleven come home. I will soon put things right with them.
+    - id: ch03
+      title: The Sister Comes Home
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The Princess hid as Benjamin asked. Soon the eleven hunters returned and sat down to supper.
+        - id: ch03-b02
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: Well, Benjamin, what news do you have?
+        - id: ch03-b03
+          speaker: benjamin
+          text: Listen to you! Haven't you got any news for me?
+        - id: ch03-b04
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: No, we have nothing to tell you.
+        - id: ch03-b05
+          speaker: benjamin
+          text: You were out in the wood all day while I stayed quietly at home, but I still know more than you do.
+        - id: ch03-b06
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: Then tell us what it is!
+        - id: ch03-b07
+          speaker: benjamin
+          text: Only if you faithfully promise not to kill the first girl we meet.
+        - id: ch03-b08
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: We will spare her. Now tell us the news.
+        - id: ch03-b09
+          speaker: benjamin
+          text: Our sister is here!
+          emotion: happy
+        - id: ch03-b10
+          speaker: narrator
+          text: Benjamin lifted the tub, and the Princess stepped out. She wore her royal robes, and the golden star shone on her forehead. She looked so lovely, sweet, and charming that every brother loved her at once.
+        - id: ch03-b11
+          speaker: narrator
+          text: They decided that she would stay home with Benjamin and help him with the work. The other eleven went back to hunting hares, roe deer, birds, and wood pigeons. Benjamin and his sister cooked the meals together. She gathered herbs to flavor the vegetables, fetched the firewood, and watched the pots while they cooked. She also put the whole house in order and tidied every room. Whenever her eleven brothers came home, their supper was ready. They were delighted with their sister, and all thirteen lived happily together.
+        - id: ch03-b12
+          speaker: narrator
+          text: One day Benjamin and the Princess prepared a fine feast. When everyone had gathered, they ate, drank, and made merry.
+        - id: ch03-b13
+          speaker: narrator
+          text: Around the enchanted house was a little garden where twelve tall lilies grew. The Princess wanted to please her brothers, so she went into the garden and picked all twelve flowers. She meant to give one lily to each brother as they sat together at supper.
+        - id: ch03-b14
+          speaker: narrator
+          text: The instant she plucked them, her brothers became twelve ravens. They flew croaking over the wood, and the house and garden vanished with them.
+        - id: ch03-b15
+          speaker: narrator
+          text: The poor girl stood alone among the trees. When she looked around, an old woman was beside her.
+        - id: ch03-b16
+          speaker: old_woman
+          text: My child, what have you done? Why couldn't you leave those flowers alone? They were your twelve brothers. Now they have been changed into ravens forever.
+        - id: ch03-b17
+          speaker: princess
+          text: Is there no way to set them free?
+          emotion: sad
+        - id: ch03-b18
+          speaker: old_woman
+          text: There is only one way in the whole world, and it is so hard that you will never manage it. You must stay silent and never laugh for seven years. If you speak even one word, though only an hour remains, all your silence will have been wasted, and that one word will kill your brothers.
+        - id: ch03-b19
+          speaker: narrator
+          text: The Princess made up her mind.
+        - id: ch03-b20
+          speaker: princess
+          text: If that is all, then I know I can free my brothers.
+        - id: ch03-b21
+          speaker: narrator
+          text: She searched until she found a high tree. She climbed into its branches and spent every day spinning, without laughing or speaking a single word.
+    - id: ch04
+      title: The Silent Bride
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: One day, another King came hunting through the wood with a large greyhound. The dog caught the Princess's scent, ran to her tree, and began leaping around it, yelping and barking wildly.
+        - id: ch04-b02
+          speaker: narrator
+          text: The noise drew the King's attention. He looked up and saw the beautiful Princess with the golden star on her forehead. Her beauty enchanted him at once, and he asked her to become his wife.
+        - id: ch04-b03
+          speaker: narrator
+          text: The Princess could give him no answer because of her promise. She only nodded her head a little. Then the King climbed the tree himself, lifted her down from the branches, placed her on his horse, and carried her home to his palace.
+        - id: ch04-b04
+          speaker: narrator
+          text: Their wedding was celebrated with great splendor, but the bride neither spoke nor laughed.
+        - id: ch04-b05
+          speaker: narrator
+          text: They lived happily together for several years. Then the King's mother, a wicked old woman, began to speak against the young Queen.
+        - id: ch04-b06
+          speaker: king_mother
+          text: You have married a low-born beggar girl. Who knows what wicked things she may be planning? If she is deaf and cannot speak, she could at least laugh. You can be sure that anyone who never laughs has a guilty conscience.
+        - id: ch04-b07
+          speaker: narrator
+          text: At first the King ignored her. But his mother went on and on, accusing the young Queen of one terrible thing after another. In the end, the King let himself believe her and condemned his beautiful wife to death.
+    - id: ch05
+      title: The Seven Years End
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: A great fire was lit in the palace courtyard, and the young Queen was brought there to be burned. The King watched everything from a high window. He wept bitterly as the preparations went on, because he still loved his wife dearly.
+        - id: ch05-b02
+          speaker: narrator
+          text: She was tied to the stake. The flames rose and licked her clothes with red tongues. At that very moment, the last instant of the seven years came.
+        - id: ch05-b03
+          speaker: narrator
+          text: Suddenly, a great rushing sound filled the air. Twelve ravens appeared overhead and swept down toward the courtyard. The moment their feet touched the ground, they changed back into the Princess's twelve brothers. She knew then that her seven years of silence had freed them.
+        - id: ch05-b04
+          speaker: narrator
+          text: The brothers beat out the flames and put out the fire. They untied their dear sister, then kissed and hugged her again and again.
+    - id: ch06
+      title: The Truth Is Told
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: Now the young Queen could open her mouth and speak. She told the King why she had stayed silent and why she had never been able to laugh.
+        - id: ch06-b02
+          speaker: narrator
+          text: The King rejoiced when he learned that she was innocent. And from then on, they all lived happily ever after.

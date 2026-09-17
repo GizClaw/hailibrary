@@ -1,0 +1,163 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 沉稳从容，带有含蓄的讽刺意味
+        timbre: 温暖清晰
+        pace: 舒缓而富有变化
+        pitch: 中等
+    prince_edward:
+      display_name: 爱德华亲王
+      tts:
+        delivery: 高贵坚定，受辱时仍保持尊严
+        timbre: 清亮稚嫩
+        pace: 从容有力
+        pitch: 中高
+    miles_hendon:
+      display_name: 迈尔斯·亨顿
+      tts:
+        delivery: 豪爽诙谐，危急时勇敢坚定
+        timbre: 洪亮粗粝
+        pace: 明快有力
+        pitch: 中低
+    constable:
+      display_name: 警役
+      tts:
+        delivery: 圆滑强硬，善于拿腔作势
+        timbre: 粗哑浑厚
+        pace: 稳健
+        pitch: 中低
+    justice:
+      display_name: 治安法官
+      tts:
+        delivery: 审慎威严，心存怜悯
+        timbre: 沉厚清晰
+        pace: 缓慢庄重
+        pitch: 低
+    woman:
+      display_name: 失主妇人
+      tts:
+        delivery: 直率质朴，受惊时慌乱急切
+        timbre: 明亮朴实
+        pace: 中等偏快
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 法律面前
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 亨顿强忍住笑，俯身凑到国王耳边，低声劝他。
+        - id: ch01-b02
+          speaker: miles_hendon
+          text: 别急，我的王子。说话千万小心。算了，索性一个字也别说。相信我，到头来一切都会好起来。
+        - id: ch01-b03
+          speaker: narrator
+          text: 说完，亨顿忽然想起，国王刚才叫他“迈尔斯爵士”。他暗自惊叹，自己竟忘了已经受封为骑士。这个孩子的幻想虽然古怪疯狂，记性却牢得惊人。他那骑士头衔空洞又可笑，可他毕竟当之无愧。在国王那个梦与影的王国里，做一个配得上骑士名号的幽灵，也比在世上某个真实王国里，卑鄙到足以当个伯爵更加光荣。
+        - id: ch01-b04
+          speaker: narrator
+          text: 人群向两边散开，一名警役走了进来。他来到国王面前，正要把手按在孩子肩上，亨顿拦住了他。
+        - id: ch01-b05
+          speaker: miles_hendon
+          text: 轻些，好朋友。把手收回去吧，他会安安分分跟你走，我可以担保。请带路，我们跟着。
+        - id: ch01-b06
+          speaker: narrator
+          text: 警役领路，女人抱着包裹走在旁边。迈尔斯和国王跟在后面，人群则一路尾随。国王想要反抗，亨顿只好低声提醒他。
+        - id: ch01-b07
+          speaker: miles_hendon
+          text: 想一想，陛下。您的法律来自您的王权。难道您自己可以抗拒法律，却要求臣民遵守吗？看来眼下是有人触犯了法律。等您重登宝座，再想起自己身为平民时，曾放下君王的身份，像一个公民那样服从法律，您难道会为此难过吗？
+        - id: ch01-b08
+          speaker: prince_edward
+          text: 你说得对，不必再说了。英格兰国王依法要求臣民承受什么，只要朕还处在臣民的地位，就会亲自承受什么。
+          emotion: calm
+        - id: ch01-b09
+          speaker: narrator
+          text: 到了治安法官面前，女人发誓说，被告席上的小囚犯就是偷东西的人。没人能证明她说得不对，国王便被判定有罪。包裹打开，里面竟是一只肥嘟嘟、已经收拾干净的小猪。
+        - id: ch01-b10
+          speaker: narrator
+          text: 法官顿时面露难色。亨顿脸色煞白，一阵惊恐像电流一样穿过全身。只有国王不明白其中的厉害，依旧神色不动。令人不安的沉默持续片刻，法官终于问那女人。
+        - id: ch01-b11
+          speaker: justice
+          text: 你认为这件东西值多少钱？
+        - id: ch01-b12
+          speaker: narrator
+          text: 女人屈膝行了一礼。
+        - id: ch01-b13
+          speaker: woman
+          text: 三先令八便士，大人。若要诚实地说出它的价值，我连一便士也不能少算。
+        - id: ch01-b14
+          speaker: narrator
+          text: 治安法官不安地环顾四周，又向警役点点头。
+        - id: ch01-b15
+          speaker: justice
+          text: 清空法庭，把门关上。
+    - id: ch02
+      title: 八便士的猪
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 人群退了出去。屋里只剩两名官差、被告、原告，还有迈尔斯·亨顿。亨顿僵在那里，脸上毫无血色。大颗冷汗从额头冒出来，汇到一起，顺着脸颊往下淌。法官再次看向女人，语气里带着怜悯。
+        - id: ch02-b02
+          speaker: justice
+          text: 这是个贫穷无知的孩子，或许是饿得实在受不了，才会走到这一步。如今的日子，对不幸的人太难熬了。你看，他的面相并不坏。可是人一旦被饥饿逼急……好太太，你知道吗？偷来的东西只要价值超过十三个半便士，法律就规定，偷窃的人必须被绞死。
+        - id: ch02-b03
+          speaker: narrator
+          text: 小国王猛地一惊，睁大双眼，满是骇然。可他克制住自己，没有开口。女人却吓得浑身发抖，霍地站了起来。
+        - id: ch02-b04
+          speaker: woman
+          text: 哎呀，我都做了什么！上帝开恩，就算把全世界给我，我也不愿让这个可怜孩子被绞死！大人，求您救我摆脱这件事。我该怎么办？我究竟还能怎么办？
+          emotion: fearful
+        - id: ch02-b05
+          speaker: narrator
+          text: 治安法官仍旧保持着审案时的镇定，只淡淡地回答。
+        - id: ch02-b06
+          speaker: justice
+          text: 价值还没有写进案卷，想必可以重新估定。
+          emotion: calm
+        - id: ch02-b07
+          speaker: woman
+          text: 那么，看在上帝的分上，就把这头猪算成八便士吧！愿上天赐福这一天，让我的良心摆脱这桩可怕的罪过！
+        - id: ch02-b08
+          speaker: narrator
+          text: 亨顿高兴得忘掉一切礼数，一把搂住国王，紧紧抱了他一下。国王既吃惊，尊严也大受冒犯。女人千恩万谢地告辞，抱着小猪向外走。警役替她开门，又跟着她来到外面的狭窄过道。
+        - id: ch02-b09
+          speaker: narrator
+          text: 法官开始往案簿上写字。亨顿一向警觉，很想知道警役为何跟出去，便悄悄溜进昏暗的过道，侧耳偷听。他听见警役对女人说。
+        - id: ch02-b10
+          speaker: constable
+          text: 这头猪挺肥，吃起来一定不错。我买了。给你八便士。
+        - id: ch02-b11
+          speaker: woman
+          text: 八便士？亏你说得出口！想也别想。它花了我三先令八便士，还是上一任国王时期的实在好钱。刚死的老哈里，从没在那些钱上动过手脚。你的八便士一文不值！
+          emotion: angry
+        - id: ch02-b12
+          speaker: constable
+          text: 原来是这么回事？你方才立过誓，却说这东西只值八便士，这就是作伪证。现在跟我回大人面前，为这桩罪受审！到时候，那个孩子也得被绞死。
+        - id: ch02-b13
+          speaker: woman
+          text: 好了，好了，亲爱的，别再说了。我答应就是。把八便士给我，这件事你可别再开口。
+          emotion: sad
+    - id: ch03
+      title: 走向监牢
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 女人哭着走了。亨顿悄悄回到法庭。不久，警役把到手的小猪藏在一个方便的地方，也跟着进来。治安法官又写了一会儿，随后和和气气地教训国王一番。他判这个孩子在普通监牢里短期监禁，刑满以后，还要当众受鞭打。
+        - id: ch03-b02
+          speaker: narrator
+          text: 国王惊得张开了嘴，大概正想命令把这位好法官当场斩首。可他看见亨顿发出的警告，总算及时闭上嘴，没让危险的话溜出来。
+        - id: ch03-b03
+          speaker: narrator
+          text: 亨顿牵起国王的手，向法官行了一礼。两个人跟在警役身后，朝监牢走去。他们刚到街上，怒火中烧的君王便停下脚步，猛地抽回自己的手，厉声喊道。
+        - id: ch03-b04
+          speaker: prince_edward
+          text: 蠢货，你以为朕会活着走进普通监牢吗？
+          emotion: angry
+        - id: ch03-b05
+          speaker: narrator
+          text: 亨顿弯下腰，语气也严厉起来。
+        - id: ch03-b06
+          speaker: miles_hendon
+          text: 您到底肯不肯相信我？安静！别再说这种危险的话，把我们的处境弄得更糟。上帝要什么发生，什么就会发生。您催不来，也改变不了。所以，请耐心等一等。等该发生的事情真的发生以后，再发怒或欢喜也来得及。

@@ -1,0 +1,289 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，像编书人面对孩子娓娓而谈，讽刺处轻巧含笑
+        timbre: 温暖清朗
+        pace: 舒缓而有自然起伏
+        pitch: 中音
+    old_lord:
+      display_name: 老领主
+      tts:
+        delivery: 年迈威严，病中虚弱，得知真相时震惊而决断
+        timbre: 苍老厚重
+        pace: 稍慢
+        pitch: 低音
+    eldest_son:
+      display_name: 长子
+      tts:
+        delivery: 懒散自私，得意时轻佻，心虚时强作镇定
+        timbre: 粗亮偏冷
+        pace: 适中偏快
+        pitch: 中低音
+    second_son:
+      display_name: 次子
+      tts:
+        delivery: 贪图享乐，随声附和，语气轻率
+        timbre: 清亮偏薄
+        pace: 偏快
+        pitch: 中音
+    youngest_son:
+      display_name: 小儿子
+      tts:
+        delivery: 诚恳勇敢，受挫时仍坚韧，表明真相时坦率有力
+        timbre: 清朗温厚
+        pace: 适中
+        pitch: 中音
+    little_hare:
+      display_name: 小野兔
+      tts:
+        delivery: 机敏热心，提醒时认真，责备中仍带关切
+        timbre: 轻快清脆
+        pace: 稍快
+        pitch: 中高音
+    servant_1:
+      display_name: 城堡仆人甲
+      tts:
+        delivery: 警觉直接，代表众人说话时干脆有力
+        timbre: 明亮结实
+        pace: 适中
+        pitch: 中音
+    servant_2:
+      display_name: 城堡仆人乙
+      tts:
+        delivery: 警觉严肃，合声时整齐坚定
+        timbre: 清晰沉稳
+        pace: 适中
+        pitch: 中低音
+    servant_3:
+      display_name: 城堡仆人丙
+      tts:
+        delivery: 谨慎严厉，合声时简洁果断
+        timbre: 稍哑厚实
+        pace: 适中
+        pitch: 低音
+    porcelain_maiden:
+      display_name: 瓷姑娘
+      tts:
+        delivery: 清澈端庄，悲伤时柔弱，揭示真相时明白坚定
+        timbre: 柔润明亮
+        pace: 适中
+        pitch: 中高音
+  chapters:
+    - id: ch01
+      title: 三兄弟上路
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，有位大领主，膝下有三个儿子。一天，他病得很重，请遍各路医生，连接骨师也来了，却没人查得出病因，更没人能让他好受些。最后，一位异国医生赶来，断言只有金色乌鸫能治好他。老领主便派长子去寻找这只神奇的鸟，并许诺，只要找得到，还能把它带回来，就赏给长子大笔财富。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            长子上了路，不久便走到四条路交会的地方。他不知道该选哪一条，索性把帽子抛向空中，让它落下的方向替自己决定。这样走了两三天，他既不知道还要走多久，也不知道到底要去哪里，渐渐厌烦了。看见一家挤满寻欢客的客店，他便停下脚步，要了些吃的喝的。
+        - id: ch01-b03
+          speaker: eldest_son
+          text: >-
+            说真的，再找下去简直蠢透了。父亲已经老了，他一死，财产自然归我。
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            老领主耐心等了许久，仍不见长子回来，只好派次子去找金色乌鸫。次子走了哥哥走过的方向，也在十字路口抛起帽子。帽子竟落在和上次相同的地方。他一路向前，恰好走到哥哥住下的客店。长子正从窗口探出身子，看见弟弟，便高声招呼他留下快活。
+        - id: ch01-b05
+          speaker: second_son
+          text: >-
+            你说得对。就算我走遍天下，也未必找得到金色乌鸫。老头子要是死了，财产还不是我们的。
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            次子进了客店。从此，兄弟俩整日吃喝玩乐，很快花光了钱，甚至还欠下店主一笔账。店主把他们扣作人质，非等还清债款才肯放人。后来，轮到小儿子出发。他也来到这家客店，看见哥哥们仍困在那里。两个哥哥高声叫他停下，使尽办法阻拦他继续赶路。
+        - id: ch01-b07
+          speaker: youngest_son
+          text: >-
+            不。父亲信任我，哪怕走遍天下，我也要找到金色乌鸫。
+        - id: ch01-b08
+          speakers: [eldest_son, second_son]
+          ensemble: duo
+          text: >-
+            呸，我们都没办成，你也休想。父亲要死就让他死吧，到时候我们分财产。
+
+    - id: ch02
+      title: 金色乌鸫与瓷姑娘
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 小儿子不理会哥哥们，独自继续赶路。走着走着，他遇见一只小野兔。野兔没有逃开，反而停下来，仔细打量着这个年轻人。
+        - id: ch02-b02
+          speaker: little_hare
+          text: 朋友，你要到哪里去？
+        - id: ch02-b03
+          speaker: youngest_son
+          text: >-
+            其实我也不清楚。父亲病了，只有金色乌鸫能救他。我已经出来很久，可谁都不知道它在哪里。
+        - id: ch02-b04
+          speaker: little_hare
+          text: 那你还得走至少七百英里，才能到它那里。
+        - id: ch02-b05
+          speaker: youngest_son
+          text: 这么远，我怎么走得到？
+        - id: ch02-b06
+          speaker: little_hare
+          text: 骑到我背上来，我带你去。
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            年轻人听话地骑上兔背。小野兔每一跳就是七英里，没过多久，便把他带到一座城堡前。那座城堡真是能有多宏伟就有多宏伟，能有多美丽就有多美丽。
+        - id: ch02-b08
+          speaker: little_hare
+          text: >-
+            金色乌鸫就在附近的小屋里。它住在一只小笼子里，旁边还有一只金笼。千万别把鸟放进漂亮的笼子，不然城堡里的人马上就会知道。
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            年轻人找到金色乌鸫。它僵直地站在木栖杠上，一动不动，简直像是死了。华美的笼子旁边，正放着那只金笼。他心想，要是把鸟放进这么漂亮的笼子，也许它就能活过来。谁知金色乌鸫才碰到金笼的栏杆，立刻醒来，放声啼啭。城堡里的仆人听见动静，全都跑来察看出了什么事。
+        - id: ch02-b10
+          speakers: [servant_1, servant_2, servant_3]
+          ensemble: chorus
+          text: 你是个贼！我们要把你关进监牢！
+        - id: ch02-b11
+          speaker: youngest_son
+          text: >-
+            我不是贼。我拿走金色乌鸫，只为医治生病的父亲。为了找到它，我赶了七百多英里。
+        - id: ch02-b12
+          speaker: servant_1
+          text: >-
+            好吧，只要你能把瓷姑娘带来，我们就放你走，还会把金色乌鸫送给你。
+        - id: ch02-b13
+          speaker: narrator
+          text: 年轻人没能带走金色乌鸫，只得哭着离开城堡。不久，他又遇见了小野兔。野兔正待在路边，慢慢嚼着野百里香。
+        - id: ch02-b14
+          speaker: little_hare
+          text: 朋友，你为什么哭？
+        - id: ch02-b15
+          speaker: youngest_son
+          text: 城堡里的人说，除非拿瓷姑娘交换，否则不许我带走金色乌鸫。
+          emotion: sad
+        - id: ch02-b16
+          speaker: little_hare
+          text: 你没听我的劝，把鸟放进漂亮笼子了。
+        - id: ch02-b17
+          speaker: youngest_son
+          text: 唉，是的！
+          emotion: sad
+        - id: ch02-b18
+          speaker: little_hare
+          text: >-
+            别灰心。瓷姑娘是个年轻女子，生得像维纳斯一样美，就住在两百英里外。骑到我背上来，我带你过去。
+        - id: ch02-b19
+          speaker: narrator
+          text: 小野兔一步便跨出七英里，转眼就赶到了，在一座湖边停下来。
+        - id: ch02-b20
+          speaker: little_hare
+          text: >-
+            瓷姑娘会和朋友们来洗澡。我去吃几口百里香。等她下水，你就藏好她那身洁白耀眼的衣裳。她不答应跟你走，就别还给她。
+
+    - id: ch03
+      title: 小野兔的第二条计策
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            小野兔刚走，瓷姑娘便和朋友们来到湖边。她脱下衣裳，走进水里。年轻人悄无声息地溜过去，拿走衣裳，藏到远处一块岩石下面。瓷姑娘在水里玩累了，上岸来穿衣服，却上上下下、到处寻找，怎么也找不到。朋友们也帮着她找。最后，大家眼看寻找无望，便全都离开了，只把她独自留在岸边，哭得伤心极了。
+        - id: ch03-b02
+          speaker: youngest_son
+          text: 你为什么哭？
+        - id: ch03-b03
+          speaker: porcelain_maiden
+          text: 我洗澡时，有人偷了我的衣裳，朋友们也把我丢下了。
+          emotion: sad
+        - id: ch03-b04
+          speaker: youngest_son
+          text: 只要你肯跟我走，我就替你找回来。
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            瓷姑娘答应随他同行。年轻人从远处的岩石下取回衣裳，交还给她，又给她买了一匹小马，那匹马跑起来快得像风。小野兔领着他们俩返回金色乌鸫居住的城堡。快要到达时，这位小英雄再次叮嘱年轻人。
+        - id: ch03-b06
+          speaker: little_hare
+          text: >-
+            这回机灵一点，你就能把金色乌鸫和瓷姑娘都带走。一只手拿金笼，鸟仍留在旧笼里，再把旧笼也带走。
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            小野兔说完便消失了。年轻人照它的吩咐行事，城堡里的仆人根本没发现他带走了金色乌鸫。他回到两位哥哥被扣留的客店，替他们还清欠款，把他们救了出来。三兄弟一同赶路，两个哥哥却嫉妒弟弟成功。经过一座湖时，他们抓住机会，一齐扑向弟弟，抢走金色乌鸫，把他扔进水里。随后，两人带着瓷姑娘继续赶路，满以为弟弟已经淹死。幸好，年轻人落水时一把抓住一丛灯心草，便放声呼救。小野兔听见以后，飞快地赶来了。
+        - id: ch03-b08
+          speaker: little_hare
+          text: 抓住我的腿，自己从水里爬上来。
+        - id: ch03-b09
+          speaker: narrator
+          text: 年轻人牢牢抓住小野兔的腿，借力从湖里爬了出来。等他平安回到岸上，小野兔又告诉他一个能揭穿哥哥们的办法。
+        - id: ch03-b10
+          speaker: little_hare
+          text: >-
+            打扮成一个找马童差事的布列塔尼人，去向你父亲自荐。只要进了城堡，你就能让他明白真相。
+
+    - id: ch04
+      title: 乔装的马童
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            年轻人依照小野兔的话，把自己打扮成布列塔尼人，来到父亲的城堡。他装作谁也不认识，开口询问这里是否正缺一个马童。
+        - id: ch04-b02
+          speaker: old_lord
+          text: >-
+            正缺得很，可这份差事不容易。马厩里有匹小马，谁也不许靠近。好几个想替它刷洗的人，都被活活踢死了。
+        - id: ch04-b03
+          speaker: youngest_son
+          text: 我来替它刷洗。我还没见过能吓倒我的马。
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            年轻人走进马厩。那匹踢死过好几个人的小马，竟乖乖让他从头到尾刷洗了一遍，既没有甩一下脑袋，也没有踢上一脚。老领主看得目瞪口呆。
+        - id: ch04-b05
+          speaker: old_lord
+          text: 天哪！别人都不能靠近它，你怎么能让它听话？
+          emotion: surprised
+        - id: ch04-b06
+          speaker: youngest_son
+          text: 也许它认识我。
+        - id: ch04-b07
+          speaker: narrator
+          text: 年轻人就这样留在城堡里做了马童。过了两三天，老领主又来找他，还交给他一桩别人做不了的差事。
+        - id: ch04-b08
+          speaker: old_lord
+          text: >-
+            瓷姑娘也在这里。她美得像晨曦，性情却凶得很，谁靠近就抓谁。你去看看，她肯不肯让你服侍。
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            年轻人走进瓷姑娘所在的房间。刚一露面，金色乌鸫便放声唱起欢快的歌。瓷姑娘也跟着唱了起来，高兴得又蹦又跳。
+        - id: ch04-b10
+          speaker: old_lord
+          text: 天哪！瓷姑娘和金色乌鸫也认识你？
+          emotion: surprised
+        - id: ch04-b11
+          speaker: youngest_son
+          text: 是的。只要瓷姑娘愿意，她能把全部真相告诉您。
+
+    - id: ch05
+      title: 真相大白
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            瓷姑娘果然把事情的全部经过说了出来。她讲起那个捉到金色乌鸫的年轻人，也讲起自己当初怎样答应跟随他。老领主这才知道，眼前的马童正是自己的小儿子。
+        - id: ch05-b02
+          speaker: youngest_son
+          text: >-
+            哥哥们被扣在客店里，是我救了他们。可他们竟把我扔进湖里作为回报。我改换装束来到这里，就是为了向您证明真相。
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            听完真相，老领主一把抱住儿子，许诺将来让他继承自己的全部财产。他又把两个长子处死了，因为他们不但欺骗父亲，还企图杀害自己的亲弟弟。
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            后来，年轻人娶了瓷姑娘。城堡里为他们举办了一场盛大的婚宴，庆贺这对新人终于走到一起。讲述这个故事的人，是塞比约。

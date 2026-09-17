@@ -1,0 +1,407 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and gently dramatic
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    shoemaker:
+      display_name: Master Joseph
+      tts:
+        delivery: quick-witted, spirited, and convincingly earnest
+        timbre: light and nimble
+        pace: lively
+        pitch: medium
+    wife:
+      display_name: Aita
+      tts:
+        delivery: practical, patient, and quietly playful
+        timbre: warm and clear
+        pace: steady
+        pitch: medium
+    first_woman:
+      display_name: First Woman
+      tts:
+        delivery: brisk and generous
+        timbre: clear and mature
+        pace: steady
+        pitch: medium
+    second_woman:
+      display_name: Second Woman
+      tts:
+        delivery: businesslike and generous
+        timbre: bright and mature
+        pace: steady
+        pitch: medium
+    robber_captain:
+      display_name: Robber Captain
+      tts:
+        delivery: commanding, suspicious, and easily excited by riches
+        timbre: rough and deep
+        pace: deliberate
+        pitch: low
+    robber_one:
+      display_name: First Robber
+      tts:
+        delivery: eager, blunt, and hot-tempered
+        timbre: coarse and strong
+        pace: brisk
+        pitch: medium-low
+    robber_two:
+      display_name: Second Robber
+      tts:
+        delivery: greedy, credulous, and animated
+        timbre: dry and raspy
+        pace: quick
+        pitch: medium
+    robber_three:
+      display_name: Third Robber
+      tts:
+        delivery: forceful, impatient, and excitable
+        timbre: broad and gravelly
+        pace: steady
+        pitch: low
+    captain_wife:
+      display_name: Captain's Wife
+      tts:
+        delivery: plainspoken and unimpressed
+        timbre: mature and firm
+        pace: measured
+        pitch: medium
+    captain_daughter:
+      display_name: Captain's Daughter
+      tts:
+        delivery: attentive and straightforward
+        timbre: youthful and clear
+        pace: steady
+        pitch: medium
+    swineherd:
+      display_name: Swineherd
+      tts:
+        delivery: openhearted, wistful, and easily persuaded
+        timbre: rustic and bright
+        pace: relaxed
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: A Lucky Day in Mascalucia
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a shoemaker who could find no work at all. He and his wife were so poor that they nearly starved. They waited and waited, but no work came. At last, he told her there was no use staying where he was. He would go down to Mascalucia, look for work there, and see whether his luck might change.
+        - id: ch01-b02
+          speaker: narrator
+          text: He walked through the streets of Mascalucia, calling out to anyone who needed shoes repaired. Before long, a window flew open and a woman leaned out.
+        - id: ch01-b03
+          speaker: first_woman
+          text: I have a pair that needs patching. Here, take these.
+        - id: ch01-b04
+          speaker: narrator
+          text: The shoemaker sat on her doorstep and patched the shoes. When he finished, the woman asked what she owed him.
+        - id: ch01-b05
+          speaker: shoemaker
+          text: One shilling.
+        - id: ch01-b06
+          speaker: first_woman
+          text: Then take eighteen pence, and may good luck go with you.
+        - id: ch01-b07
+          speaker: narrator
+          text: He went into the next street and called out again. Soon another window opened, and another woman appeared.
+        - id: ch01-b08
+          speaker: second_woman
+          text: You can patch these shoes for me.
+        - id: ch01-b09
+          speaker: narrator
+          text: Once more, he sat on the doorstep and worked. When the shoes were ready, she too asked his price.
+        - id: ch01-b10
+          speaker: shoemaker
+          text: One florin.
+        - id: ch01-b11
+          speaker: second_woman
+          text: Here is a crown piece. Good luck to you.
+        - id: ch01-b12
+          speaker: narrator
+          text: She closed the window, and the shoemaker went on his way. He thought he had done very well indeed. But he decided not to return to his wife just yet. If he kept earning money at this rate, he would soon have enough to buy a donkey.
+        - id: ch01-b13
+          speaker: narrator
+          text: He stayed in town for several more days, until four gold pieces lay safely in his purse. At the market, he spent two of them on a strong donkey. Then he climbed onto its back and set out for home in Catania.
+        - id: ch01-b14
+          speaker: narrator
+          text: His road passed through a thick wood. There, far ahead, he saw a band of robbers hurrying toward him. He felt certain they would take every coin he had earned. Then he would be just as poor as before. For a moment, he wondered what he could possibly do. But Master Joseph was clever and full of spirit, and he did not lose heart. He took out five florins and fastened them out of sight beneath the donkey's thick mane. Then he rode on.
+        - id: ch01-b15
+          speaker: narrator
+          text: The moment the robbers reached him, they seized him and took all the money they could find.
+        - id: ch01-b16
+          speaker: shoemaker
+          text: Oh, my dear friends, I am only a poor shoemaker. This donkey is all I have left in the world.
+        - id: ch01-b17
+          speaker: narrator
+          text: Just then, the donkey shook itself. The five hidden florins dropped to the ground.
+        - id: ch01-b18
+          speaker: robber_one
+          text: Where did those coins come from?
+        - id: ch01-b19
+          speaker: shoemaker
+          text: Ah, now you know my secret. This is a golden donkey. It gives me all my money.
+        - id: ch01-b20
+          speakers: [robber_captain, robber_one, robber_two, robber_three]
+          ensemble: chorus
+          text: Sell him to us! Name any price you please!
+        - id: ch01-b21
+          speaker: narrator
+          text: At first, the shoemaker insisted that nothing could make him sell. At last, he agreed to hand over the donkey for fifty gold pieces.
+        - id: ch01-b22
+          speaker: shoemaker
+          text: But listen carefully. Each of you must own him for one night and one day in turn. Otherwise, you will fight over the money.
+        - id: ch01-b23
+          speaker: narrator
+          text: So they parted. The robbers drove the donkey to their cave, and the shoemaker headed home, delighted that his trick had worked. On the way he bought himself a good dinner. The next day, he spent most of his gains on a small vineyard.
+    - id: ch02
+      title: The Golden Donkey
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: At the robbers' cave, the captain gathered everyone around. He announced that the first night with the donkey belonged to him. The others agreed, and he ordered his wife to put a mattress in the stable.
+        - id: ch02-b02
+          speaker: captain_wife
+          text: Have you lost your mind?
+        - id: ch02-b03
+          speaker: robber_captain
+          text: That is none of your concern. Do what I said, and tomorrow I will bring you treasure.
+          emotion: angry
+        - id: ch02-b04
+          speaker: narrator
+          text: The captain woke very early and searched every part of the stable. He found no money anywhere. Then he understood that Master Joseph had made a fool of them. Still, he decided that if he had been taken in, his companions would not come away any better.
+        - id: ch02-b05
+          speaker: narrator
+          text: One of the robbers soon came to ask eagerly how much money the donkey had produced.
+        - id: ch02-b06
+          speaker: robber_captain
+          text: Oh, comrade, if you only knew! I will say no more until everyone has taken a turn.
+          emotion: happy
+        - id: ch02-b07
+          speaker: narrator
+          text: One after another, the robbers kept the donkey for a night and a day. Not one of them found a single coin. Each man kept quiet until every member of the band had taken his turn. Then they gathered for a council, compared their stories, and saw that all of them had been fooled. They decided to march to the shoemaker's house and punish him well for his cunning.
+        - id: ch02-b08
+          speaker: narrator
+          text: Once again, the shoemaker saw them while they were still far away. He quickly thought of another trick and called his wife.
+        - id: ch02-b09
+          speaker: shoemaker
+          text: Fill a bladder with blood and tie it around your neck. When those robbers demand their money, I will tell you to fetch it. Argue with me and refuse. Then I will push my knife into the bladder, and you must fall as though you are dead. Stay there until I play my guitar. When you hear it, stand up and dance.
+        - id: ch02-b10
+          speaker: narrator
+          text: His wife hurried to do as he said, for there was no time to lose. The robbers were almost at the house. They burst inside with a great noise and crowded around the shoemaker, angrily accusing him of deceiving them about the donkey.
+        - id: ch02-b11
+          speaker: shoemaker
+          text: The poor animal must have lost his power when he changed masters. Still, there is no need to quarrel. I will return all fifty gold pieces. Aita, hurry upstairs to the chest and bring these gentlemen their money.
+        - id: ch02-b12
+          speaker: wife
+          text: Give me a moment. I have to finish baking this fish, or it will be ruined.
+        - id: ch02-b13
+          speaker: shoemaker
+          text: Go now, just as I told you!
+          emotion: angry
+        - id: ch02-b14
+          speaker: narrator
+          text: He stamped as if he were furious. When she still did not move, he drew his knife and stabbed the bladder at her neck. Blood spurted out, and she fell to the floor as though she were dead.
+        - id: ch02-b15
+          speakers: [robber_captain, robber_one, robber_two, robber_three]
+          ensemble: chorus
+          text: What have you done? That poor woman did nothing!
+          emotion: surprised
+        - id: ch02-b16
+          speaker: shoemaker
+          text: Perhaps I acted too quickly, but this is easy to mend.
+        - id: ch02-b17
+          speaker: narrator
+          text: The shoemaker took down his guitar and began to play. He had hardly struck the first notes when his wife sat up. Then she rose to her feet and danced.
+        - id: ch02-b18
+          speaker: narrator
+          text: The robbers stared with their mouths open. At last, they found their voices.
+        - id: ch02-b19
+          speakers: [robber_captain, robber_one, robber_two, robber_three]
+          ensemble: chorus
+          text: Master Joseph, keep the fifty gold pieces. Just tell us your price for that guitar. You must sell it to us!
+        - id: ch02-b20
+          speaker: shoemaker
+          text: Oh, I could never do that! Whenever my wife and I quarrel, I strike her dead and let out all my anger. I do it so often that I doubt I could break the habit. Without this guitar, how would I ever bring her back to life?
+        - id: ch02-b21
+          speaker: narrator
+          text: The robbers refused to take no for an answer. In the end, he accepted forty gold pieces for the guitar.
+    - id: ch03
+      title: The Guitar's Terrible Tune
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The robbers returned to their cave in the forest, delighted with their new purchase. Every one of them longed for a chance to test the guitar's power. But the captain declared that the first trial belonged to him. Once he had tried it, the others could take their turns.
+        - id: ch03-b02
+          speaker: narrator
+          text: That evening, the captain called to his wife and asked what she had made for supper.
+        - id: ch03-b03
+          speaker: captain_wife
+          text: Macaroni.
+        - id: ch03-b04
+          speaker: robber_captain
+          text: Why did you not boil a fish?
+        - id: ch03-b05
+          speaker: narrator
+          text: He stabbed her in the neck, and she fell dead. The captain had not been angry at all. He seized the guitar and played, louder and louder, but the dead woman never moved.
+        - id: ch03-b06
+          speaker: robber_captain
+          text: That lying shoemaker! That miserable knave! He has beaten me twice, but I will make him pay!
+          emotion: angry
+        - id: ch03-b07
+          speaker: narrator
+          text: He raged and swore, but nothing could change what had happened. He had killed his wife, and he could not bring her back.
+        - id: ch03-b08
+          speaker: narrator
+          text: The next morning, another robber came for the guitar and asked how the trial had gone.
+        - id: ch03-b09
+          speaker: robber_one
+          text: Well, did it work?
+        - id: ch03-b10
+          speaker: robber_captain
+          text: Splendidly! I stabbed my wife and started playing. Now she is perfectly well again.
+          emotion: happy
+        - id: ch03-b11
+          speaker: robber_one
+          text: Truly? Then I will try it myself tonight.
+        - id: ch03-b12
+          speaker: narrator
+          text: The same dreadful thing happened again and again. Each robber secretly killed his wife, played the guitar, and found that it had no power at all. None of them admitted the truth to the others. Only when no wives were left did the men whisper the terrible story to one another. Then they swore they would take revenge on the shoemaker.
+        - id: ch03-b13
+          speaker: narrator
+          text: They set out at once. As before, the shoemaker spotted them in the distance. His wife was washing in the kitchen, and he called to her.
+        - id: ch03-b14
+          speaker: shoemaker
+          text: Listen, Aita. When they ask for me, say I have gone to the vineyard. Then order the dog to come and fetch me, and chase him out of the house.
+        - id: ch03-b15
+          speaker: narrator
+          text: Once he had explained the plan, the shoemaker slipped out through the back door and hid behind a barrel. A few minutes later, the robbers arrived and loudly demanded to see him.
+        - id: ch03-b16
+          speaker: wife
+          text: Oh, good gentlemen, he is up at the vineyard. I will send the dog for him at once. Off you go now! Run to the vineyard and tell your master that some gentlemen have come to speak with him. Hurry!
+        - id: ch03-b17
+          speaker: narrator
+          text: She opened the door and let the dog out.
+        - id: ch03-b18
+          speaker: robber_two
+          text: Can you truly depend on that dog to fetch your husband?
+        - id: ch03-b19
+          speaker: wife
+          text: Of course I can. He understands everything, and he always carries any message I give him.
+        - id: ch03-b20
+          speaker: narrator
+          text: After a while, the shoemaker came into the house.
+        - id: ch03-b21
+          speaker: shoemaker
+          text: Good morning, gentlemen. The dog says you wanted to speak with me.
+        - id: ch03-b22
+          speaker: robber_captain
+          text: We certainly do. We came about that guitar. Because of you, we murdered all our wives. We played exactly as you told us, but not one of them came back to life.
+          emotion: angry
+        - id: ch03-b23
+          speaker: shoemaker
+          text: Then you cannot have played it properly. The fault was yours.
+        - id: ch03-b24
+          speaker: robber_one
+          text: We will put the whole matter aside, but only if you sell us that dog.
+        - id: ch03-b25
+          speaker: shoemaker
+          text: Oh, that cannot be done! I could never manage without him.
+        - id: ch03-b26
+          speaker: narrator
+          text: The robbers offered him forty gold pieces. At last, he agreed to let them take the dog.
+    - id: ch04
+      title: The Messenger Dog
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The robbers went back to their cave with the dog. Again, the captain claimed the first trial.
+        - id: ch04-b02
+          speaker: robber_captain
+          text: I am going to the inn. If anyone comes looking for me, untie the dog and send him to fetch me.
+        - id: ch04-b03
+          speaker: narrator
+          text: About an hour later, someone arrived on business. The captain's daughter untied the dog.
+        - id: ch04-b04
+          speaker: captain_daughter
+          text: Go to the inn and bring my father home!
+        - id: ch04-b05
+          speaker: narrator
+          text: The dog bounded away, but he ran straight back to the shoemaker. When the captain came home and found the animal gone, he decided it must have returned to its old master. Night had already fallen, but he went after it.
+        - id: ch04-b06
+          speaker: robber_captain
+          text: Master Joseph, has the dog come here?
+        - id: ch04-b07
+          speaker: shoemaker
+          text: Ah, yes. The poor creature is so fond of me. You must allow him time to learn his new ways.
+        - id: ch04-b08
+          speaker: narrator
+          text: The captain took the dog back to the cave. The next morning, he handed it to another robber. He said nothing about chasing it through the night. He only assured the man that the animal truly could do everything the shoemaker had promised.
+        - id: ch04-b09
+          speaker: narrator
+          text: The second robber carefully kept his own trouble secret too. When the dog ran away, he went to the shoemaker and fetched it back without telling the others. The same thing happened throughout the whole band. Each man passed the dog along as though it had obeyed him perfectly. At last, when every robber had suffered the trick, they met and told one another the whole story.
+        - id: ch04-b10
+          speaker: narrator
+          text: The next day, they marched furiously to the man who had made fools of them. They accused him of deceiving them, tied him inside a sack, and announced that they would throw him into the sea. The shoemaker lay perfectly still and let them do as they wished.
+        - id: ch04-b11
+          speaker: narrator
+          text: They carried him until they reached a church.
+        - id: ch04-b12
+          speaker: robber_three
+          text: The sun is hot, and this sack is heavy. Let us leave it here while we go inside and rest.
+        - id: ch04-b13
+          speaker: narrator
+          text: They set the sack beside the road and entered the church. On a nearby hill, a swineherd watched over a great herd of pigs and whistled merrily. The moment Master Joseph heard him, he began shouting as loudly as he could.
+        - id: ch04-b14
+          speaker: shoemaker
+          text: I will not do it! I tell you, I will not!
+        - id: ch04-b15
+          speaker: swineherd
+          text: What is it that you will not do?
+        - id: ch04-b16
+          speaker: shoemaker
+          text: They want me to marry the king's daughter, and I refuse.
+        - id: ch04-b17
+          speaker: swineherd
+          text: What wonderful luck you have! If only they had chosen me.
+        - id: ch04-b18
+          speaker: shoemaker
+          text: Is that all? Then open this sack, let me out, and climb in yourself.
+        - id: ch04-b19
+          speaker: narrator
+          text: The swineherd opened the sack and took the shoemaker's place. Master Joseph went cheerfully away, driving the pigs ahead of him.
+    - id: ch05
+      title: The Pigs Beneath the Sea
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: When the robbers had rested, they came out of the church. Without looking inside the sack, they lifted it again and carried it all the way to the sea. There they threw it into the water, and it sank at once.
+        - id: ch05-b02
+          speaker: narrator
+          text: On their way back, they met the shoemaker driving the pigs. They stopped and stared at him with open mouths.
+        - id: ch05-b03
+          speaker: shoemaker
+          text: If only you knew how many pigs live in the sea! The deeper you go, the more you find. I brought these up just now, and I mean to go back for more.
+        - id: ch05-b04
+          speaker: robber_two
+          text: Are there really more pigs left down there?
+        - id: ch05-b05
+          speaker: shoemaker
+          text: More than I could ever count. I will show you exactly what to do.
+        - id: ch05-b06
+          speaker: narrator
+          text: He led the robbers back to the shore.
+        - id: ch05-b07
+          speaker: shoemaker
+          text: Each of you must tie a stone around your neck. That will carry you deep enough. The pigs you saw came from very far down.
+        - id: ch05-b08
+          speaker: narrator
+          text: So every robber tied a stone around his neck and jumped into the sea. They all drowned.
+        - id: ch05-b09
+          speaker: narrator
+          text: Master Joseph drove the pigs home, and he remained a rich man for the rest of his days.

@@ -1,0 +1,622 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 温和郑重，带着向读者介绍全书的亲切口吻
+        timbre: 温暖清晰
+        pace: 从容舒展
+        pitch: 中等
+    desiree:
+      display_name: 德西雷
+      tts:
+        delivery: 真诚浪漫，认准心愿后勇敢坚定
+        timbre: 年轻清朗
+        pace: 适中
+        pitch: 中等
+    fat_lord:
+      display_name: 胖墩老爷
+      tts:
+        delivery: 爱抱怨又风趣夸张，对儿子始终藏着疼爱
+        timbre: 浑厚圆润
+        pace: 稍慢
+        pitch: 中低
+    old_man:
+      display_name: 白胡子老人
+      tts:
+        delivery: 睿智和善，叮嘱时沉稳清楚
+        timbre: 苍老温暖
+        pace: 从容
+        pitch: 低
+    witch:
+      display_name: 女巫
+      tts:
+        delivery: 凶狠专横，命令接连逼迫而来
+        timbre: 阴沉粗厉
+        pace: 稍快
+        pitch: 中低
+    oven_woman:
+      display_name: 烤炉女
+      tts:
+        delivery: 饱经辛劳，拒绝时坚决有力
+        timbre: 粗哑厚重
+        pace: 稳健
+        pitch: 低
+    rope:
+      display_name: 绳子
+      tts:
+        delivery: 忍耐已久，回应时干脆坚定
+        timbre: 干涩纤细
+        pace: 适中
+        pitch: 中等
+    dog:
+      display_name: 巨犬
+      tts:
+        delivery: 低沉忠直，表态时毫不犹豫
+        timbre: 粗重有力
+        pace: 稍慢
+        pitch: 低
+    iron_gate:
+      display_name: 铁门
+      tts:
+        delivery: 古老沉着，拒绝时庄重坚定
+        timbre: 沉厚带金属感
+        pace: 缓慢
+        pitch: 低
+    canary_1:
+      display_name: 第一只金丝雀
+      tts:
+        delivery: 虚弱急切，求水时气息轻促
+        timbre: 细小清亮
+        pace: 稍快
+        pitch: 高
+    canary_2:
+      display_name: 第二只金丝雀
+      tts:
+        delivery: 虚弱急切，求水时声音颤抖
+        timbre: 轻柔清脆
+        pace: 稍快
+        pitch: 高
+    zizi:
+      display_name: 齐齐公主
+      tts:
+        delivery: 纯真明快，温柔中带着公主的自尊
+        timbre: 年轻清亮
+        pace: 适中
+        pitch: 中高
+    titi:
+      display_name: 蒂蒂
+      tts:
+        delivery: 粗鲁傲慢，撒谎和算计时狡猾做作
+        timbre: 尖利粗涩
+        pace: 稍快
+        pitch: 中高
+    bricklayer:
+      display_name: 砌砖匠
+      tts:
+        delivery: 务实严厉，被惹恼时直截了当
+        timbre: 粗犷低沉
+        pace: 适中
+        pitch: 低
+    dishwasher:
+      display_name: 洗碗工头
+      tts:
+        delivery: 有礼而老实，受惊时慌张急促
+        timbre: 朴实清楚
+        pace: 适中
+        pitch: 中等
+    cook:
+      display_name: 大厨
+      tts:
+        delivery: 忙乱急躁，发号施令时粗声果断
+        timbre: 成熟洪亮
+        pace: 稍快
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 第一节
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，坎布里努斯国王在位的时候，阿韦讷住着一位领主。他要算整个佛兰德斯最了不起的男子了。当然，我说的是最胖。他每天吃四顿饭，睡上十二个钟头，剩下的消遣只有一件，就是拿弓箭射小鸟。
+        - id: ch01-b02
+          speaker: narrator
+          text: 可他身子又胖又沉，怎么练也射不准。后来，他胖得连路都走不了，只能坐在轮椅里叫人拉着走。大家暗地里笑他，还送了他一个外号，叫胖墩老爷。
+        - id: ch01-b03
+          speaker: narrator
+          text: 胖墩老爷最放心不下的，是自己疼爱的儿子。年轻的王子瘦得像只杜鹃，跟父亲一点也不像。领地里的姑娘们想尽办法讨他喜欢，他却谁都不理，还说自己压根不想结婚。每到黄昏，他宁愿一个人在林子里散步，对月亮说悄悄话，也不去陪姑娘们。姑娘们觉得他古怪，反而更喜欢他。他名叫德西雷，大家便叫他情郎德西雷。
+        - id: ch01-b04
+          speaker: fat_lord
+          text: 你到底还缺什么？软床、美食，还有一桶接一桶的啤酒，你全都有。如今只差一个能带来大片好土地的妻子，你就能胖得像头猪了。快结婚吧，那才叫样样齐全！
+        - id: ch01-b05
+          speaker: desiree
+          text: 我也想结婚，可这里没有一个姑娘合我的心意。她们个个都是粉白的脸，那些一模一样的百合和玫瑰，我早看厌了。
+        - id: ch01-b06
+          speaker: fat_lord
+          text: 老天！难道你要娶个黑人女子，再给我生一群像猴子那么丑、像猫头鹰那么笨的孙子？
+          emotion: surprised
+        - id: ch01-b07
+          speaker: desiree
+          text: 不，父亲，我不是这个意思。可天下总该有不粉也不白的女子。我只说这一次，找不到一个处处合心的人，我就一辈子不结婚。
+    - id: ch02
+      title: 第二节
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 过了一阵，圣阿芒修道院的院长送来一篮橙子，还附上一封字迹秀美的信。信上写着，这些金灿灿的果子来自一个终年有阳光的国度。那时候，佛兰德斯还没有人见过橙子。当晚，胖墩老爷和儿子尝了这些金苹果，都觉得味道好极了。
+        - id: ch02-b02
+          speaker: narrator
+          text: 第二天天刚亮，德西雷就到马厩给白马备鞍。他换好远行的衣服，来到父亲床前。胖墩老爷正抽着当天第一斗烟。
+        - id: ch02-b03
+          speaker: desiree
+          text: 父亲，我来向您告别。昨夜我梦见一片结满金苹果的树林。我打开一只果子，里面走出一位金色肌肤的美丽公主。她就是我要娶的人，我现在去找她。
+        - id: ch02-b04
+          speaker: narrator
+          text: 胖墩老爷惊得烟斗掉到了地上。可他一想到儿子要娶的女子皮肤金黄，还被关在橙子里，就觉得实在可笑，忍不住放声大笑。德西雷等了又等，父亲还是停不下来。他只好握住父亲的手，亲了亲，便推门下楼，跃上白马走了。等胖墩老爷终于笑够，儿子已经跑出一英里远。
+        - id: ch02-b05
+          speaker: fat_lord
+          text: 黄皮肤的妻子！他准是疯了，非穿上拘束衣不可！来人，快把他追回来！
+        - id: ch02-b06
+          speaker: narrator
+          text: 仆人们立刻骑马去追。谁也不知道王子走了哪条路，他们把各个方向都找遍，偏偏漏掉了正确的那一条。天黑时，他们没追回王子，只带着一群累坏了、满身尘土的马回到家。
+    - id: ch03
+      title: 第三节
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 德西雷觉得追兵再也赶不上来，这才放慢马步。前路还长，谨慎的旅人就该这样走。他一路向南，经过村庄、城镇、山岭、谷地和平原，走了好几个星期。太阳变得一天比一天灼热，也一天比一天明亮。
+        - id: ch03-b02
+          speaker: narrator
+          text: 一天傍晚，德西雷感觉阳光暖得不同寻常，猜想梦里的地方已经不远。他来到一片森林边缘，那里有间小屋。白马自己停在门前，一位白胡子老人正坐在门槛上乘凉。王子下马，请老人让他歇歇脚。
+        - id: ch03-b03
+          speaker: old_man
+          text: 进来吧，年轻朋友。屋子虽然不大，留一位远道而来的客人还是住得下。
+        - id: ch03-b04
+          speaker: narrator
+          text: 老人给他摆了一顿简单的饭。等他吃饱，才问起他的来路。
+        - id: ch03-b05
+          speaker: old_man
+          text: 我看你是从很远的地方来的。能不能告诉我，你要到哪儿去？
+        - id: ch03-b06
+          speaker: desiree
+          text: 告诉您也无妨，只怕您听了会笑。我梦见阳光之国有一片橙树林，一位美丽的公主藏在橙子里。她会成为我的妻子，我就是来找她的。
+        - id: ch03-b07
+          speaker: old_man
+          text: 我为什么要笑？年轻人看似痴心的念头，往往才有真智慧。去追你的梦吧。就算最后没找到那份幸福，你也已经尝过追寻它的快乐了。
+    - id: ch04
+      title: 第四节
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 第二天一早，王子起身向老人告辞。
+        - id: ch04-b02
+          speaker: old_man
+          text: 你梦里的树林就在森林深处，顺这条路走，很快就到。那里有一座高墙围起的大园子，中间的城堡住着一个可怕的女巫，她不准任何活物进去。橙树林就在城堡后面。你沿墙找到铁门，千万别硬推，用这瓶油涂在门轴上。
+        - id: ch04-b03
+          speaker: narrator
+          text: 老人说着，递给德西雷一个小瓶子。
+        - id: ch04-b04
+          speaker: old_man
+          text: 门会自己打开。守城堡的巨犬若张嘴扑来，就把这块燕麦饼扔给它。往前还有一个守着滚烫烤炉的女人，把这把刷子送给她。左边有口井，你要取下吊桶的绳子，摊到太阳底下晒。做完这些，别进城堡，绕到后面去摘三只橙子，再赶快跑回大门，从森林另一头离开。
+        - id: ch04-b05
+          speaker: old_man
+          text: 还有一件事，你一定听清楚。不管遇到什么，没有走到河边或泉水旁，都不能打开橙子。每只橙子里都会出来一位公主，你可以从中选一位做妻子。可一旦选定，一刻也不能离开新娘。记住，真正要小心的危险，往往不是你最害怕的那个。
+    - id: ch05
+      title: 第五节
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 德西雷连声道谢，沿老人指的路出发。不到一个钟头，他就来到那堵高得惊人的墙前。他下马把马拴好，很快找到了铁门。他往门轴上滴了油，铁门果然自己敞开，露出里面的古老城堡。王子大着胆子走进庭院。
+        - id: ch05-b02
+          speaker: narrator
+          text: 突然，一阵凶猛的吼声响起。一条驴子那么高的狗冲了过来，眼睛圆得像台球，露出的牙齿排得像一整排餐叉。德西雷把燕麦饼扔过去，巨犬一口接住。他从巨犬身边走过，没有受到一点伤害，便继续向前。
+        - id: ch05-b03
+          speaker: narrator
+          text: 几码外有一座巨大的烤炉，炉口宽阔通红，烈火灼人，像张着一张燃烧的大嘴。一个巨人般高大的女人弯腰守在那里。德西雷递上刷子，她一声不响地收下了。他又走到井边，解下那根烂了一半的绳子，仔细摊开在阳光下。最后，他绕到城堡后面，一头冲进橙树林，从满树果子中挑出三只最漂亮的橙子，转身就往大门跑。
+        - id: ch05-b04
+          speaker: narrator
+          text: 就在这时，太阳突然暗了，大地也颤抖起来。一个声音高声下令。
+        - id: ch05-b05
+          speaker: witch
+          text: 烤炉女，快抓住他的脚，把他扔进火里！
+          emotion: angry
+        - id: ch05-b06
+          speaker: oven_woman
+          text: 不行。我用自己的皮肉擦了这烤炉不知道多少年，你从没给过我一把刷子，他却给了。我要让他平安离开。
+        - id: ch05-b07
+          speaker: witch
+          text: 绳子，快缠住他的脖子，勒死他！
+          emotion: angry
+        - id: ch05-b08
+          speaker: rope
+          text: 不行。这么多年，你只管让我受潮烂掉，他却把我放到太阳下晒。我要让他平安离开。
+        - id: ch05-b09
+          speaker: narrator
+          text: 那声音越发愤怒了。
+        - id: ch05-b10
+          speaker: witch
+          text: 我的好狗儿，扑过去咬断他的喉咙，把他吃掉！
+          emotion: angry
+        - id: ch05-b11
+          speaker: dog
+          text: 不行。我服侍了你这么久，你连一口面包也没给我。他却让我吃饱了。我要让他平安离开。
+        - id: ch05-b12
+          speaker: narrator
+          text: 那声音像雷一样低吼起来。
+        - id: ch05-b13
+          speaker: witch
+          text: 铁门，快倒下去，把他压成粉末！
+          emotion: angry
+        - id: ch05-b14
+          speaker: iron_gate
+          text: 不行。你让我生锈了整整一百年，他却给我的门轴上了油。我要让他平安离开。
+    - id: ch06
+      title: 第六节
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: 德西雷一出大门，就把三只橙子放进马鞍旁的袋子，骑马飞奔出森林。他急着见橙子里的公主，只盼快些遇到河流或泉水。可几个钟头过去了，四周仍没有一滴水。他还很轻松，以为最难的事已经办完，剩下的都不在话下。
+        - id: ch06-b02
+          speaker: narrator
+          text: 快到正午时，他走进一片烈日烤着的沙原，突然渴得难以忍受。他举起水葫芦，里面却空空的。方才他只顾着高兴，竟忘了装水。德西雷忍着痛苦又赶了一段路，终于撑不住，从马背上滑下来，倒在马旁。他喉咙火烧似的，胸口不停起伏，眼前天旋地转，仿佛死神已经来到身边。这时候，他的目光落到马鞍旁的袋子上，三只橙子正从袋口探出来。
+        - id: ch06-b03
+          speaker: narrator
+          text: 这时，他看见袋口露出的橙子。为了梦中的女子，他一路闯过那么多危险，可这一刻，不管是粉白还是金黄的公主，就算全世界的公主都摆在面前，也比不上一滴水。
+        - id: ch06-b04
+          speaker: desiree
+          text: 唉，要是这些真是普通橙子就好了，像我在佛兰德斯吃过的那样，又凉又解渴。可是，谁说得准呢？
+        - id: ch06-b05
+          speaker: narrator
+          text: 这个念头给了他一点力气。他撑起身子，摸出一只橙子，用小刀剖开。里面飞出一只美得出奇的小雌金丝雀。
+        - id: ch06-b06
+          speaker: canary_1
+          text: 给我一点水吧，我快要渴死了。
+        - id: ch06-b07
+          speaker: desiree
+          text: 等一下。
+          emotion: surprised
+        - id: ch06-b08
+          speaker: narrator
+          text: 德西雷惊得忘了自己的痛苦。为了给小鸟找水，他想都没想，又剖开第二只橙子。另一只金丝雀也飞了出来。
+        - id: ch06-b09
+          speaker: canary_2
+          text: 我快渴死了，求你给我一点水吧。
+        - id: ch06-b10
+          speaker: narrator
+          text: 到这时，德西雷才明白自己干了多么糊涂的事。两只金丝雀振翅飞走，他也用尽了最后一点力气，倒在地上失去了知觉。
+    - id: ch07
+      title: 第七节
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: 德西雷醒来时，觉得浑身凉爽舒服。夜已经深了，满天星星闪耀，地上覆着厚厚的露水。他恢复了精神，再次上马。清晨第一道光刚露出来，他便看见前方有条欢快奔流的小溪，于是俯下身，痛痛快快喝了个饱。
+        - id: ch07-b02
+          speaker: narrator
+          text: 他几乎不敢再打开最后一只橙子。昨夜，他没有听从老人的警告，那件事再次浮上心头。那阵要命的干渴，说不定就是狡猾女巫设下的圈套。可即便现在守着溪水，谁又能保证橙子里真有他寻找的公主？要是飞出的仍旧只是一只鸟呢？
+        - id: ch07-b03
+          speaker: narrator
+          text: 他还是拿出小刀，剖开了橙子。飞出来的又是一只小金丝雀，和前两只完全一样。
+        - id: ch07-b04
+          speaker: zizi
+          text: 我好渴，给我一点水喝吧。
+        - id: ch07-b05
+          speaker: narrator
+          text: 德西雷虽然失望，却下定决心，绝不能再让这只鸟飞走。他用手心捧起溪水，送到鸟喙前。金丝雀刚喝下一口，就变成一位美丽的少女。她身材修长得像白杨，眼睛黑亮，肌肤金黄。德西雷从没见过谁有她一半美，只是满心欢喜地望着她。
+        - id: ch07-b06
+          speaker: narrator
+          text: 少女似乎有些迷茫，却用快乐的眼睛望着四周，并不害怕救她的人。德西雷问她叫什么名字，又问她为何会藏在橙子里。她说自己叫齐齐公主，大约十六岁。过去整整十年，女巫一直把她变成金丝雀，关在一只橙子里面。
+        - id: ch07-b07
+          speaker: desiree
+          text: 我迷人的齐齐，那我们马上骑马走吧。我们要逃得远远的，不能让恶毒的女巫追上来。
+        - id: ch07-b08
+          speaker: zizi
+          text: 可是，你要带我去哪儿呢？
+        - id: ch07-b09
+          speaker: desiree
+          text: 去我父亲的城堡。
+        - id: ch07-b10
+          speaker: narrator
+          text: 德西雷骑上马，让齐齐坐在身前，用双臂小心护住她。两人就这样踏上了归途。
+    - id: ch08
+      title: 第八节
+      blocks:
+        - id: ch08-b01
+          speaker: narrator
+          text: 对齐齐来说，路上的一切都新鲜得很。他们经过山岭、峡谷和一座又一座城镇，她一路问了成千上万个问题。无论她问什么，德西雷总是高高兴兴地回答。能把世上的事一件件讲给心爱的人听，实在是甜蜜的事。
+        - id: ch08-b02
+          speaker: zizi
+          text: 你故乡的姑娘长什么样？
+        - id: ch08-b03
+          speaker: desiree
+          text: 她们皮肤粉白，眼睛是蓝色的。
+        - id: ch08-b04
+          speaker: zizi
+          text: 那你喜欢蓝眼睛吗？
+        - id: ch08-b05
+          speaker: narrator
+          text: 德西雷觉得这是探一探她心意的好机会，故意没有作声。
+        - id: ch08-b06
+          speaker: zizi
+          text: 那些姑娘里，一定有你的未婚妻吧？
+        - id: ch08-b07
+          speaker: narrator
+          text: 德西雷还是沉默。齐齐骄傲地挺直了身子。过了一会儿，他才开口。
+        - id: ch08-b08
+          speaker: desiree
+          text: 没有。我从来不觉得故乡的姑娘美，所以才到阳光之国去找妻子。美丽的齐齐，难道我做错了吗？
+        - id: ch08-b09
+          speaker: narrator
+          text: 这一次，换成齐齐一句话也不说了。
+    - id: ch09
+      title: 第九节
+      blocks:
+        - id: ch09-b01
+          speaker: narrator
+          text: 两人一路说着话，离城堡越来越近。在离城门大约四次投石远的地方，他们来到森林里一处泉水旁，便下了马。
+        - id: ch09-b02
+          speaker: desiree
+          text: 亲爱的齐齐，我们总不能像两个散步回来的人，随随便便走到父亲面前。公主进城，应该有些排场。你在这里等我，我一个钟头之内就带着配得上你的马车和骏马回来。
+        - id: ch09-b03
+          speaker: zizi
+          text: 别让我等得太久。
+        - id: ch09-b04
+          speaker: narrator
+          text: 齐齐恋恋不舍地看着他离开。她生平第一次独自待着，又是在茂密的森林里，心里渐渐害怕。树丛突然一响，她以为狼来了，赶紧躲进泉边一株空心垂柳。树干把她完全藏住了，可她把头探在外面，清亮的水中便映出她美丽的脸。
+        - id: ch09-b05
+          speaker: narrator
+          text: 脚步越来越近。来的并不是狼，却是一个和狼一样恶毒、一样丑陋的家伙。她究竟是谁，还得从头说起。
+    - id: ch10
+      title: 第十节
+      blocks:
+        - id: ch10-b01
+          speaker: narrator
+          text: 泉水附近住着一位砌砖匠和他的家人。十五年前，他在森林里发现一个被吉卜赛人遗弃的小女孩，便把她抱回家。妻子可怜这个孩子，让她跟自己的儿子们一起长大。女孩越长越有力气，也越来越狡猾，可头脑和相貌都远远比不上这两样。她额头低、鼻子扁、嘴唇厚，头发又粗又乱。她的皮肤不是齐齐那样的金黄，而像泥土一样。
+        - id: ch10-b02
+          speaker: narrator
+          text: 人们常拿她的肤色开玩笑，她的脾气便变得像山雀一样吵闹凶狠，大家也就叫她蒂蒂。砌砖匠常叫她去泉边打水，可她又傲慢又懒，最恨干这件事。
+        - id: ch10-b03
+          speaker: narrator
+          text: 刚才，正是蒂蒂扛着水罐走来，吓到了齐齐。她弯腰取水，一眼看见泉里映着公主的脸。
+        - id: ch10-b04
+          speaker: titi
+          text: 好漂亮的一张脸！这当然就是我呀！他们凭什么说我丑？我长得这么美，怎么能给他们当挑水的丫头？
+          emotion: surprised
+        - id: ch10-b05
+          speaker: narrator
+          text: 她说完便砸碎水罐，空着手回了家。
+        - id: ch10-b06
+          speaker: bricklayer
+          text: 你的水罐呢？
+        - id: ch10-b07
+          speaker: titi
+          text: 这还用问吗？水罐天天往井边去……
+        - id: ch10-b08
+          speaker: bricklayer
+          text: 早晚总会碎。行了，给你一只摔不破的水桶。
+        - id: ch10-b09
+          speaker: narrator
+          text: 蒂蒂回到泉边，再次对着齐齐的倒影发起脾气。
+        - id: ch10-b10
+          speaker: titi
+          text: 不，我再也不给他们当驮东西的牲口！
+          emotion: angry
+        - id: ch10-b11
+          speaker: narrator
+          text: 她把水桶使劲抛向空中。桶挂在一株橡树的枝头，再也落不下来。她只好又回去撒谎。
+        - id: ch10-b12
+          speaker: titi
+          text: 我碰见一头狼，就拿水桶砸它的鼻子，水桶给砸坏了。
+        - id: ch10-b13
+          speaker: narrator
+          text: 砌砖匠不再追问，抄起扫帚狠狠揍了她一顿，总算打掉她几分傲气。然后，他递来一只旧铜奶罐。
+        - id: ch10-b14
+          speaker: bricklayer
+          text: 这回要是还不装满水带回来，我就打断你的骨头。
+          emotion: angry
+    - id: ch11
+      title: 第十一节
+      blocks:
+        - id: ch11-b01
+          speaker: narrator
+          text: 蒂蒂揉着挨打的地方回到泉边。这一次，她不敢违抗，只能满肚子怨气地弯腰取水。铜奶罐又大又圆，浮在水面上，她试了一次又一次，还是灌不满。到最后，她两条胳膊酸软无力，好容易把罐子按进水中，却再也提不起来。奶罐咕噜噜滚到了泉底。
+        - id: ch11-b02
+          speaker: narrator
+          text: 蒂蒂眼看奶罐沉到泉底，摆出一张凄惨透顶的脸。齐齐一直躲在树洞里，看着她一遍遍折腾，这时终于忍不住放声大笑。蒂蒂猛一回头，这才发现水里的美丽面孔根本不是自己。她气得发狂，当场便打定主意，要报复这个取笑她的姑娘。
+        - id: ch11-b03
+          speaker: titi
+          text: 你长得这么漂亮，为什么要躲在树洞里呀？
+        - id: ch11-b04
+          speaker: zizi
+          text: 我在等我的爱人。
+        - id: ch11-b05
+          speaker: narrator
+          text: 齐齐不久前还只是一只金丝雀，心思十分单纯，便把自己的经历全告诉了蒂蒂，连德西雷很快会带人回来迎接她也说了。蒂蒂以前常见德西雷扛着猎枪来林中打乌鸦。她又丑，衣衫又破旧，王子从没注意过她，她却十分仰慕他，只觉得他若能再胖一点就更好了。
+        - id: ch11-b06
+          speaker: titi
+          text: 原来他喜欢金黄皮肤的女子！我的皮肤也是黄的。只要我能想个办法……
+        - id: ch11-b07
+          speaker: narrator
+          text: 她很快就有了主意。
+        - id: ch11-b08
+          speaker: titi
+          text: 什么？他们要热热闹闹地来迎接你，你却披散着头发？那么多高贵的老爷太太都会看见呀！快下来，可怜的姑娘，我替你好好梳一梳。
+          emotion: surprised
+        - id: ch11-b09
+          speaker: narrator
+          text: 天真的齐齐马上走出树洞，来到蒂蒂身边。蒂蒂替她梳着棕色长发，忽然从紧身胸衣里抽出一枚别针。山雀会用尖嘴去啄红雀和云雀的脑袋，蒂蒂也一样，把针猛地刺进齐齐的头顶。齐齐刚觉得针尖一扎，就又变成小鸟，展开翅膀飞走了。
+        - id: ch11-b10
+          speaker: titi
+          text: 这一招真漂亮。王子要是还有本事找到新娘，那他才算聪明。
+        - id: ch11-b11
+          speaker: narrator
+          text: 她理好衣裙，在草地上坐下，等着德西雷回来。
+    - id: ch12
+      title: 第十二节
+      blocks:
+        - id: ch12-b01
+          speaker: narrator
+          text: 这时，王子正骑马飞奔。胖墩老爷派出一队贵族男女迎接齐齐，他们跟在后面，心急的王子却一直领先五十码。等他来到泉边，看见这个丑陋的姑娘，顿时又惊又怕，连话都说不出来。
+        - id: ch12-b02
+          speaker: titi
+          text: 唉，你认不出可怜的齐齐了吗？你走以后，恶毒的女巫来了，把我变成了这样。可只要你肯娶我，我就会变回从前的美貌。
+          emotion: sad
+        - id: ch12-b03
+          speaker: narrator
+          text: 她说完，装出伤心的样子大哭起来。德西雷不但勇敢，心肠也很柔软。他心想，可怜的齐齐变成这副模样，当然不是她的错。错的是自己。他为什么没听老人劝告？为什么偏要把她独自留在这里？如今只有他能破除魔法。他这样爱她，就绝不能让她永远保留这副模样。
+        - id: ch12-b04
+          speaker: narrator
+          text: 于是，德西雷把蒂蒂介绍给宫廷的老爷太太，还解释说，自己美丽的新娘遭到了可怕的魔法。众人全都装作相信。贵妇们拿出给齐齐准备的华服，替假公主穿戴整齐，又把她扶上一匹华丽的溜蹄马，大家一起返回城堡。
+        - id: ch12-b05
+          speaker: narrator
+          text: 可那些华服和珠宝只把蒂蒂衬得更加难看。德西雷带她进城时，窘得浑身发热，一刻也不自在。钟声齐鸣，乐钟叮咚作响，百姓挤满街道，站在自家门口看迎亲队伍经过。看见王子选了这样古怪的新娘，谁也不敢相信自己的眼睛。
+        - id: ch12-b06
+          speaker: narrator
+          text: 胖墩老爷为了表示敬意，亲自来到大理石长阶下面迎接。一看见蒂蒂，他险些仰面摔倒。
+        - id: ch12-b07
+          speaker: fat_lord
+          text: 什么！这就是你说的绝世美人？
+          emotion: surprised
+        - id: ch12-b08
+          speaker: desiree
+          text: 是的，父亲，就是她。可恶毒的女巫给她施了魔法，只有她成为我的妻子，才能恢复美貌。
+        - id: ch12-b09
+          speaker: fat_lord
+          text: 这都是她自己说的吧？好啊，你连这个都信，那就喝着凉水，想象自己吃的是熏肉吧。
+        - id: ch12-b10
+          speaker: narrator
+          text: 不过，胖墩老爷终究疼爱儿子。他还是向蒂蒂伸出手，把她领进已经摆好订婚宴席的大厅。
+    - id: ch13
+      title: 第十三节
+      blocks:
+        - id: ch13-b01
+          speaker: narrator
+          text: 宴席丰盛极了，德西雷却几乎没吃东西。好在别的客人胃口很大，足以补上他的那一份。至于胖墩老爷，世上没有任何事能让他吃不下饭。
+        - id: ch13-b02
+          speaker: narrator
+          text: 轮到上烤鹅时，宴席忽然停了下来。胖墩老爷正好放下刀叉，稍微歇一歇。可烤鹅迟迟不来，他便派切肉总管去厨房查问。原来，厨房里发生了一件怪事。
+        - id: ch13-b03
+          speaker: narrator
+          text: 一只鹅正在烤叉上慢慢转动，一只美丽的小金丝雀跳上了敞开的窗台。它用银铃般的声音，向守着烤鹅的人问好。
+        - id: ch13-b04
+          speaker: zizi
+          text: 早安，能干的厨师！
+        - id: ch13-b05
+          speaker: dishwasher
+          text: 早安，可爱的金色小鸟。
+        - id: ch13-b06
+          speaker: zizi
+          text: 愿上天叫你睡着，愿烤鹅烧成焦炭，一口也不要留给蒂蒂。
+        - id: ch13-b07
+          speaker: narrator
+          text: 洗碗工头马上睡得不省人事，烤鹅也烧成了一块焦炭。他醒来后吓坏了，赶紧叫人再拔一只鹅，塞进栗子，放到烤叉上。
+        - id: ch13-b08
+          speaker: narrator
+          text: 第二只鹅慢慢烤黄，胖墩老爷又催了一遍。大厨只好亲自上楼赔罪，请他再耐心等等。胖墩老爷所谓的耐心，就是咬着牙痛骂自己的儿子。
+        - id: ch13-b09
+          speaker: fat_lord
+          text: 这小子带回一个身无分文的丑婆娘还不够，如今连烤鹅都烧焦了。他带回来的哪里是妻子，分明就是饥荒！
+    - id: ch14
+      title: 第十四节
+      blocks:
+        - id: ch14-b01
+          speaker: narrator
+          text: 大厨还在楼上，金色小鸟又飞到窗台，用清亮的声音招呼守烤叉的人。
+        - id: ch14-b02
+          speaker: zizi
+          text: 早安，能干的洗碗工！
+        - id: ch14-b03
+          speaker: dishwasher
+          text: 早安，可爱的金色小鸟。
+        - id: ch14-b04
+          speaker: narrator
+          text: 大厨慌乱中忘了提醒他小心这只鸟。
+        - id: ch14-b05
+          speaker: zizi
+          text: 愿上天叫你睡着，愿烤鹅烧成焦炭，一口也不要留给蒂蒂。
+        - id: ch14-b06
+          speaker: narrator
+          text: 洗碗工立刻沉沉睡去。大厨回来时，第二只鹅已经黑得像烟囱。他气得不得了，把洗碗工摇醒。洗碗工怕受罚，便从头到尾说出了小鸟做的事。
+        - id: ch14-b07
+          speaker: cook
+          text: 那只该死的鸟早晚要害我丢掉差事！你们几个躲起来，它再飞来，就抓住它，拧断它的脖子。
+          emotion: angry
+        - id: ch14-b08
+          speaker: narrator
+          text: 大厨把第三只鹅穿上烤叉，添起一大堆火，亲自坐在旁边看守。小鸟果然第三次飞来了。
+        - id: ch14-b09
+          speaker: zizi
+          text: 早安，能干的大厨。
+        - id: ch14-b10
+          speaker: cook
+          text: 早安，可爱的金色小鸟。
+        - id: ch14-b11
+          speaker: narrator
+          text: 金丝雀刚开口念起先前那句叫人入睡、让烤鹅烧焦的咒语，一个躲在外面的洗碗工便冲出来，关紧了百叶窗。小鸟飞进厨房，厨师和洗碗工们立刻挥着围裙围追堵截。它左冲右突，最后还是被其中一个人捉住了。
+        - id: ch14-b12
+          speaker: narrator
+          text: 就在这时，等不及烤鹅的胖墩老爷挥着权杖，亲自走进厨房。洗碗工本要拧断金丝雀的脖子，一看领主来了，马上停住了手。
+    - id: ch15
+      title: 第十五节
+      blocks:
+        - id: ch15-b01
+          speaker: fat_lord
+          text: 谁肯行行好，告诉我这里到底闹出了什么事？
+        - id: ch15-b02
+          speaker: dishwasher
+          text: 大人，全是这只鸟在捣鬼。
+        - id: ch15-b03
+          speaker: narrator
+          text: 洗碗工说着，把小鸟放进领主手里。
+        - id: ch15-b04
+          speaker: fat_lord
+          text: 胡说！这明明是只可爱的小鸟。
+        - id: ch15-b05
+          speaker: narrator
+          text: 他摸了摸鸟儿的脑袋，手指碰到羽毛间的一枚别针，便把它拔了出来。瞧，金丝雀立刻变成一个金色肌肤的美丽姑娘，轻盈地跳到地上。
+        - id: ch15-b06
+          speaker: fat_lord
+          text: 天哪，好漂亮的姑娘！
+          emotion: surprised
+        - id: ch15-b07
+          speaker: narrator
+          text: 正巧这时，德西雷走进了厨房。
+        - id: ch15-b08
+          speaker: desiree
+          text: 父亲，就是她！她才是真正的齐齐！
+          emotion: surprised
+        - id: ch15-b09
+          speaker: narrator
+          text: 他一把抱住了齐齐。
+        - id: ch15-b10
+          speaker: desiree
+          text: 我亲爱的齐齐，能再见到你，我真是太幸福了！
+          emotion: happy
+        - id: ch15-b11
+          speaker: fat_lord
+          text: 好吧，那另外一个该怎么办？
+        - id: ch15-b12
+          speaker: narrator
+          text: 蒂蒂正在悄悄往门口溜。
+        - id: ch15-b13
+          speaker: fat_lord
+          text: 拦住她！我们现在就审判她！
+          emotion: angry
+        - id: ch15-b14
+          speaker: narrator
+          text: 胖墩老爷庄严地坐到烤炉上，判处蒂蒂火刑。随后，贵族和厨师分列两旁，他当众为德西雷与齐齐订下了婚约。
+    - id: ch16
+      title: 第十六节
+      blocks:
+        - id: ch16-b01
+          speaker: narrator
+          text: 几天以后，德西雷和齐齐举行了一场十分盛大的婚礼。乡间所有男孩都赶来参加，手里拿着木剑，肩上还装饰着金纸做成的肩章。
+        - id: ch16-b02
+          speaker: narrator
+          text: 齐齐替蒂蒂求得了赦免。蒂蒂被送回砖场，沿途遭到男孩们的追赶和嘲骂。所以直到今天，乡下男孩见到山雀，还总要拿石头扔它。
+        - id: ch16-b03
+          speaker: narrator
+          text: 婚礼当晚，不管穷人还是富人，家家户户的食品室、地窖、橱柜和桌子都像中了魔法，摆满面包、葡萄酒、啤酒、蛋糕、馅饼、烤云雀，甚至还有烤鹅。胖墩老爷再也不能抱怨，儿子娶回来的是饥荒了。
+        - id: ch16-b04
+          speaker: narrator
+          text: 从此以后，那个国家的食物一直都十分充足。也就是从那时起，佛兰德斯那些金发碧眼的女子中，偶尔会出现几位黑眼睛、金色肌肤的美人。她们全都是齐齐的后代。

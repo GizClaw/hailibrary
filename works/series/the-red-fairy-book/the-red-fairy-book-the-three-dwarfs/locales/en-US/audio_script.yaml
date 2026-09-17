@@ -1,0 +1,332 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and storylike
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    father:
+      display_name: Father
+      tts:
+        delivery: hesitant and plainspoken
+        timbre: mild and weathered
+        pace: unhurried
+        pitch: medium-low
+    stepdaughter:
+      display_name: Stepdaughter
+      tts:
+        delivery: gentle and sincere
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium-high
+    stepmother:
+      display_name: Stepmother
+      tts:
+        delivery: sharp and commanding
+        timbre: hard and dry
+        pace: measured
+        pitch: medium-low
+    stepsister:
+      display_name: Stepsister
+      tts:
+        delivery: haughty and resentful
+        timbre: bright and pinched
+        pace: lively
+        pitch: medium-high
+    dwarf_1:
+      display_name: First Dwarf
+      tts:
+        delivery: kindly and deliberate
+        timbre: small and sturdy
+        pace: measured
+        pitch: medium-high
+    dwarf_2:
+      display_name: Second Dwarf
+      tts:
+        delivery: clear and thoughtful
+        timbre: light and crisp
+        pace: measured
+        pitch: high
+    dwarf_3:
+      display_name: Third Dwarf
+      tts:
+        delivery: firm and certain
+        timbre: warm and reedy
+        pace: unhurried
+        pitch: medium
+    king:
+      display_name: King
+      tts:
+        delivery: noble and compassionate
+        timbre: rich and clear
+        pace: measured
+        pitch: medium-low
+    scullion:
+      display_name: Scullion
+      tts:
+        delivery: humble and attentive
+        timbre: plain and youthful
+        pace: measured
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Boot and the Winter Errand
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a widower with a daughter, and nearby lived a widow with a daughter of her own. The two girls were close friends and often played together.
+        - id: ch01-b02
+          speaker: stepmother
+          text: Tell your father that I will marry him. Then you may wash in milk and drink wine, while my daughter washes in water and drinks water too.
+        - id: ch01-b03
+          speaker: narrator
+          text: The girl went home at once and repeated the widow's message.
+        - id: ch01-b04
+          speaker: father
+          text: What should I do? A marriage may turn out well, or it may turn out badly.
+        - id: ch01-b05
+          speaker: narrator
+          text: He could not make up his mind. At last he took off a boot with a hole in its sole and handed it to his daughter.
+        - id: ch01-b06
+          speaker: father
+          text: Hang this boot from a nail in the hayloft and pour water into it. If the water stays inside, I will marry again. If it runs out, I will not.
+        - id: ch01-b07
+          speaker: narrator
+          text: She did exactly as he asked. The water drew the hole shut, and soon the boot was full to the top. When she told her father, he went to see for himself. There was no mistake. He accepted his fate, proposed to the widow, and married her at once.
+        - id: ch01-b08
+          speaker: narrator
+          text: On the first morning after the wedding, the man's daughter found milk for washing and wine for drinking. Her new stepsister had only water. On the second morning, both girls had water. By the third morning, the promise had been turned around. The stepdaughter received only water, while the widow's own child had milk and wine. That was how things remained.
+        - id: ch01-b09
+          speaker: narrator
+          text: The stepmother hated the girl from the bottom of her heart and did everything she could to make her miserable. The stepdaughter was beautiful and charming, while her own daughter was ugly and unpleasant. Each time the woman compared them, her jealousy grew worse.
+        - id: ch01-b10
+          speaker: narrator
+          text: One winter day, frost lay hard over the land, and snow covered every mountain and valley. The stepmother made a dress out of paper, called the girl to her, and held it out.
+        - id: ch01-b11
+          speaker: stepmother
+          text: Put this on. Go into the woods and bring me a basket full of strawberries.
+        - id: ch01-b12
+          speaker: stepdaughter
+          text: Heaven help me! Strawberries do not grow in winter. The ground is frozen, and snow covers everything. How can I go out in a paper dress? My breath will freeze in that cold. The wind will blow straight through it, and the brambles will tear it off me.
+        - id: ch01-b13
+          speaker: stepmother
+          text: How dare you argue with me! Go now, and do not come back until that basket is full of strawberries.
+          emotion: angry
+        - id: ch01-b14
+          speaker: narrator
+          text: She gave the girl one hard crust of bread and told her it must last all day. In her heart, the stepmother was sure the girl would die outside from hunger and cold. Then she would never trouble her again.
+        - id: ch01-b15
+          speaker: narrator
+          text: The obedient girl put on the paper dress, took her little basket, and set out. Snow stretched in every direction. Not one green blade of grass could be seen.
+    - id: ch02
+      title: The Dwarfs' Gifts
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Deep in the woods, the girl came upon a little house. Three small dwarfs peeped out at her. She wished them good day and knocked politely. They invited her inside, so she sat by the fire to warm herself and eat her breakfast.
+        - id: ch02-b02
+          speakers: [dwarf_1, dwarf_2, dwarf_3]
+          ensemble: chorus
+          text: Please give us some of your food.
+        - id: ch02-b03
+          speaker: stepdaughter
+          text: Of course. I will gladly share it with you.
+        - id: ch02-b04
+          speaker: narrator
+          text: She broke her last crust in two and gave them half. The dwarfs wondered why she had come so far in the middle of winter wearing such a thin dress.
+        - id: ch02-b05
+          speaker: stepdaughter
+          text: I was sent to fill this basket with strawberries. I am not allowed to show my face at home again unless I bring them back.
+        - id: ch02-b06
+          speaker: narrator
+          text: When she finished eating, they gave her a broom and asked her to sweep the snow away from their back door. She went out to do it. While she worked, the three dwarfs decided how to reward a girl who was so kind and good that she had shared her final crust with them.
+        - id: ch02-b07
+          speaker: dwarf_1
+          text: She will become prettier with every passing day.
+        - id: ch02-b08
+          speaker: dwarf_2
+          text: Whenever she opens her mouth to speak, a piece of gold will fall out.
+        - id: ch02-b09
+          speaker: dwarf_3
+          text: A king will come and take her for his wife.
+        - id: ch02-b10
+          speaker: narrator
+          text: At the back door, the girl swept aside the snow. And what do you think she found beneath it? There were heaps of ripe strawberries, glowing dark red against the white snow.
+        - id: ch02-b11
+          speaker: narrator
+          text: She happily gathered enough to fill her basket. Then she thanked the dwarfs for their kindness, shook hands with each of them, and hurried home to bring her stepmother exactly what she had demanded.
+        - id: ch02-b12
+          speaker: stepdaughter
+          text: Good evening.
+        - id: ch02-b13
+          speaker: narrator
+          text: The moment she spoke, a piece of gold fell from her mouth. Then she told them everything that had happened in the woods. With every word, another piece of gold dropped to the floor, until the room was covered with them.
+        - id: ch02-b14
+          speaker: stepsister
+          text: She must have more money than sense if she throws gold all over the floor like that.
+        - id: ch02-b15
+          speaker: narrator
+          text: Secretly, the stepsister burned with jealousy. She decided that she would go into the woods and find strawberries too.
+    - id: ch03
+      title: The Dwarfs' Punishment
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Her mother would not allow it at first.
+        - id: ch03-b02
+          speaker: stepmother
+          text: My dear child, it is much too cold. You might freeze to death out there.
+        - id: ch03-b03
+          speaker: narrator
+          text: But the girl would not stop pestering her. At last, the woman gave in. She made her daughter wear a beautiful fur cloak and packed bread and butter and cakes for the journey.
+        - id: ch03-b04
+          speaker: narrator
+          text: The stepsister went straight to the little house. Once again, the three dwarfs were looking through the window. She ignored them. Without asking permission, she swept into the room, settled herself by the fire, and began eating all her good food.
+        - id: ch03-b05
+          speakers: [dwarf_1, dwarf_2, dwarf_3]
+          ensemble: chorus
+          text: Will you give us some?
+        - id: ch03-b06
+          speaker: stepsister
+          text: No, I will not. There is hardly enough here for me, so you certainly will not get any.
+        - id: ch03-b07
+          speaker: narrator
+          text: After she had eaten, the dwarfs pointed to a broom.
+        - id: ch03-b08
+          speakers: [dwarf_1, dwarf_2, dwarf_3]
+          ensemble: chorus
+          text: Take that broom and clear the snow from our back door.
+        - id: ch03-b09
+          speaker: stepsister
+          text: Not a chance. Clear it yourselves. I am not your servant.
+        - id: ch03-b10
+          speaker: narrator
+          text: When she saw that the dwarfs were not going to give her anything, she stormed out. The three little men considered what should happen to someone so cruel and greedy that she could not bear anyone else's good fortune.
+        - id: ch03-b11
+          speaker: dwarf_1
+          text: Every day, she will grow uglier.
+        - id: ch03-b12
+          speaker: dwarf_2
+          text: Each time she speaks, a toad will leap from her mouth.
+        - id: ch03-b13
+          speaker: dwarf_3
+          text: Her life will end in misery.
+        - id: ch03-b14
+          speaker: narrator
+          text: The stepsister searched through the snow for strawberries, but she could not find a single one. She returned home in a terrible temper. As soon as she opened her mouth to tell her mother what had happened in the woods, a toad jumped out. Everyone who saw it was disgusted with her.
+        - id: ch03-b15
+          speaker: narrator
+          text: The stepmother grew more furious than ever. Day after day, she plotted against the stepdaughter, who kept becoming more beautiful.
+        - id: ch03-b16
+          speaker: narrator
+          text: At last the wicked woman set a large pot on the fire and boiled yarn in it. Once the yarn was scalding hot, she draped it across the poor girl's shoulder. Then she gave her an axe and ordered her to cut a hole in the frozen river and rinse the yarn there.
+        - id: ch03-b17
+          speaker: narrator
+          text: As always, the stepdaughter obeyed. She chopped through the ice and began wringing out the yarn. Just then, a magnificent carriage passed by with the King inside. It stopped beside her.
+        - id: ch03-b18
+          speaker: king
+          text: My child, who are you? What in the world are you doing out here?
+        - id: ch03-b19
+          speaker: stepdaughter
+          text: I am only a poor girl, and I am rinsing yarn in the river.
+        - id: ch03-b20
+          speaker: narrator
+          text: The King felt sorry for her. He also saw how beautiful she was.
+        - id: ch03-b21
+          speaker: king
+          text: Will you leave this place and come with me?
+        - id: ch03-b22
+          speaker: stepdaughter
+          text: Yes, most gladly.
+          emotion: happy
+        - id: ch03-b23
+          speaker: narrator
+          text: She knew how willingly she would leave her stepmother and stepsister, and how pleased they would be to lose her. She climbed into the carriage and rode away with the King.
+        - id: ch03-b24
+          speaker: narrator
+          text: At the palace, they celebrated a splendid wedding. Everything had happened just as the three dwarfs had foretold.
+    - id: ch04
+      title: The Queen in the Stream
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: A year later, the Queen gave birth to a little son. When her stepmother heard of this good fortune, she came to the palace with her daughter. They claimed they were only paying a visit, but then they made themselves at home.
+        - id: ch04-b02
+          speaker: narrator
+          text: One day the King was away, and no one else was near. The stepmother seized the Queen by the head while the stepsister took her by the heels. Together they dragged her from the bed and threw her through the window into the stream below.
+        - id: ch04-b03
+          speaker: narrator
+          text: The stepmother laid her own ugly daughter in the Queen's place and pulled the bedclothes over her until none of her could be seen.
+        - id: ch04-b04
+          speaker: narrator
+          text: When the King returned, he wanted to speak with his wife. The stepmother stopped him.
+        - id: ch04-b05
+          speaker: stepmother
+          text: Be quiet! You must not disturb her. Your wife is very ill, and she needs to rest for the whole day.
+        - id: ch04-b06
+          speaker: narrator
+          text: The King suspected nothing. He waited until the next morning before he came back. But when the woman in the bed answered him, no piece of gold fell from her mouth. A toad jumped out instead.
+        - id: ch04-b07
+          speaker: king
+          text: What does this mean?
+          emotion: surprised
+        - id: ch04-b08
+          speaker: narrator
+          text: The old woman claimed it was only a sign of weakness and promised that the Queen would soon be well again.
+        - id: ch04-b09
+          speaker: narrator
+          text: That evening, the palace scullion saw a duck swimming up the gutter. As it passed, it called to him.
+        - id: ch04-b10
+          speaker: stepdaughter
+          text: Tell me, what is the King doing? Is he awake, or is he sleeping well?
+        - id: ch04-b11
+          speaker: narrator
+          text: No answer came, so the duck asked another question.
+        - id: ch04-b12
+          speaker: stepdaughter
+          text: And all my guests, are they asleep?
+        - id: ch04-b13
+          speaker: scullion
+          text: Yes. Every one of them is sleeping deeply.
+        - id: ch04-b14
+          speaker: stepdaughter
+          text: And what about my precious baby?
+        - id: ch04-b15
+          speaker: scullion
+          text: Your baby is sleeping soundly. There is no need to fear.
+        - id: ch04-b16
+          speaker: narrator
+          text: Then the duck took the shape of the Queen. She went to the child's room, tucked him comfortably into his cradle, and returned to the gutter. There she became a duck again and swam away.
+        - id: ch04-b17
+          speaker: narrator
+          text: The same thing happened on the second night. On the third night, the duck gave the scullion a message.
+        - id: ch04-b18
+          speaker: stepdaughter
+          text: Tell the King to stand at the threshold and swing his sword over me three times.
+    - id: ch05
+      title: The Queen Returns
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The scullion carried the message to the King. The King came with his sword and swung it over the bird once, twice, and then a third time. At once, the duck vanished. In its place stood his wife, alive and as blooming as ever.
+        - id: ch05-b02
+          speaker: narrator
+          text: The King was overjoyed, but he kept the Queen hidden until Sunday, when their child was to be christened. After the christening, he put a question to the stepmother.
+        - id: ch05-b03
+          speaker: king
+          text: What punishment should be given to someone who drags another person out of bed and throws that person into the water?
+        - id: ch05-b04
+          speaker: stepmother
+          text: Such a person deserves nothing less than to be shut inside a barrel lined with sharp nails and rolled down the hill into the water.
+        - id: ch05-b05
+          speaker: king
+          text: You have spoken your own sentence.
+        - id: ch05-b06
+          speaker: narrator
+          text: The King ordered a barrel to be made and lined with sharp nails. The wicked woman and her daughter were put inside, and the barrel was fastened securely.
+        - id: ch05-b07
+          speaker: narrator
+          text: Then it was rolled down the hill until it plunged into the river.

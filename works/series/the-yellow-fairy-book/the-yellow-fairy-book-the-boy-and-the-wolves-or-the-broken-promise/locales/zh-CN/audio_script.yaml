@@ -1,0 +1,118 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 沉静从容，带着古老童话的神秘与幽默
+        timbre: 温暖清朗
+        pace: 舒缓而富有变化
+        pitch: 中音
+    hunter:
+      display_name: 猎人
+      tts:
+        delivery: 温厚庄重，临终嘱托里带着深切的爱
+        timbre: 沉稳厚实
+        pace: 缓慢
+        pitch: 中低音
+    eldest_brother:
+      display_name: 大哥
+      tts:
+        delivery: 年轻直率，后来染上悔恨与焦急
+        timbre: 清亮结实
+        pace: 适中
+        pitch: 中音
+    elder_sister:
+      display_name: 姐姐
+      tts:
+        delivery: 起初体贴清醒，后来渐显冷淡
+        timbre: 柔和年轻
+        pace: 适中
+        pitch: 中高音
+    younger_brother:
+      display_name: 小弟
+      tts:
+        delivery: 稚嫩孤单，歌声渐渐带上野性的呼唤
+        timbre: 清脆幼小
+        pace: 稍慢
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 森林里的家
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个印第安猎人。他心地善良，实在厌倦了从前那些朋友的背叛和残酷，就带着妻子与三个孩子，远远离开了自己的部族。他们走进一片大森林，在清澈的小溪边停下来，砍树搭起帐篷。
+        - id: ch01-b02
+          speaker: narrator
+          text: 一家人在这处僻静的地方安稳住了许多年。除了出去打猎，他们从不离开。猎来的野兽给他们肉吃，皮毛还能做衣服。可是后来，强壮的猎人病倒了。他知道，自己的日子已经不多了。
+        - id: ch01-b03
+          speaker: narrator
+          text: 猎人把家人全叫到身边，留下最后的嘱咐。
+        - id: ch01-b04
+          speaker: hunter
+          text: 妻子啊，你陪了我一辈子。再过不了多少个月亮，你也会跟着我去福地之岛。可是孩子们，你们的人生才刚开始。我躲开的那些邪恶、冷酷和忘恩负义，还在前面等着你们。只要你们答应我，永远彼此相爱，绝不丢下最小的弟弟，我就能放心地走了。
+        - id: ch01-b05
+          speakers: [eldest_brother, elder_sister]
+          ensemble: duo
+          text: 我们绝不会丢下他！
+        - id: ch01-b06
+          speaker: narrator
+          text: 三个孩子一同伸出手。猎人听见了他们的承诺，安然离开了人世。
+    - id: ch02
+      title: 被抛下的小弟
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 还不到八个月亮，妻子果然也追随丈夫去了。临终前，她再次叮嘱两个大孩子，一定要守住诺言，照顾年幼体弱的小弟。大雪盖住大地时，哥哥和姐姐的确一直疼爱他。可等春天一到，泥土又泛了绿，大哥的心却再也安定不下来。他想去看看父亲年轻时住过的村庄，看看那里的族人和帐篷。
+        - id: ch02-b02
+          speaker: narrator
+          text: 他把心里的念头全告诉了姐姐。
+        - id: ch02-b03
+          speaker: elder_sister
+          text: 哥哥，我明白。我们住在这里，一个族人也见不到，你当然会想念他们。可父亲的话呢？难道我们为了自己快活，就能把小弟忘了？
+        - id: ch02-b04
+          speaker: narrator
+          text: 大哥一句也不肯听。他没有回答，只拿起弓箭，走出了小屋。雪落了又化，他始终没有回来。慢慢地，姐姐的心也冷硬起来。她看着小弟，只觉得这个孩子成了累赘。
+        - id: ch02-b05
+          speaker: elder_sister
+          text: 你看，屋里的食物够你吃好多天。你就待在这里，别走出小屋。我去找哥哥，找到他就回来。
+        - id: ch02-b06
+          speaker: narrator
+          text: 姐姐一路辛苦赶到村庄，见哥哥已经娶了妻，日子过得很幸福。后来，一位年轻勇士也来向她求爱。姐姐便把森林里孤零零的小弟忘得干干净净，心里只想着自己的丈夫。
+        - id: ch02-b07
+          speaker: narrator
+          text: 留下的食物很快吃光了。小弟只好进树林采浆果、挖草根。天暖的时候，他还能填饱肚子，也觉得满足。可大雪一落，风在林间吼叫，他饿得肚子发空，手脚冻得冰冷，只能整夜躲在树木之间，白天再爬出来，捡狼群剩下的食物。
+        - id: ch02-b08
+          speaker: narrator
+          text: 小弟再没有别的朋友，便去靠近狼群，坐在一旁看它们吞食猎物。狼群渐渐认得了他，也肯分食物给他。要是没有这些狼，他早就死在雪中了。
+    - id: ch03
+      title: 我快要变成狼
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 终于，积雪消融，大湖上的冰也化了。狼群往湖岸走，小弟就跟着它们。一天，大哥正驾着独木舟在岸边捕鱼，忽然听见一个孩子用印第安人的曲调唱起一支歌。
+        - id: ch03-b02
+          speaker: younger_brother
+          text: 哥哥呀，哥哥！我快要变成狼，我快要变成狼！
+        - id: ch03-b03
+          speaker: narrator
+          text: 歌声一停，小弟便像狼那样长嚎。大哥的心猛地沉了下去。他赶忙朝小弟奔去，一路大声呼唤。
+        - id: ch03-b04
+          speaker: eldest_brother
+          text: 弟弟！小弟弟！快到哥哥这里来！
+        - id: ch03-b05
+          speaker: narrator
+          text: 可小弟已经有一半成了狼，只是一遍遍唱着那支歌。大哥叫得越响，小弟就越快地追着那些狼兄弟逃去，身上的皮毛也越来越厚。
+        - id: ch03-b06
+          speaker: eldest_brother
+          text: 小弟弟，回来！到我这里来！
+        - id: ch03-b07
+          speaker: narrator
+          text: 小弟拖着一声长长的狼嚎，消失在森林深处。
+    - id: ch04
+      title: 背弃的诺言
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 大哥的心里只剩下羞愧和痛苦。他回到村庄，从此和姐姐一起哀悼小弟，也哀悼那个被他们背弃的诺言，直到生命的尽头。

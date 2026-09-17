@@ -1,0 +1,744 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, steady, and quietly mysterious
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    darai:
+      display_name: Sultan Darai
+      tts:
+        delivery: impulsive, plainspoken, and increasingly proud
+        timbre: earthy and full
+        pace: moderate
+        pitch: medium-low
+    gazelle:
+      display_name: The Gazelle
+      tts:
+        delivery: devoted, resourceful, and fearless
+        timbre: bright and clear
+        pace: lively
+        pitch: medium-high
+    trader:
+      display_name: The Gazelle Trader
+      tts:
+        delivery: practical and good-humored
+        timbre: dry and rounded
+        pace: moderate
+        pitch: medium
+    bystander_1:
+      display_name: First Bystander
+      tts:
+        delivery: teasing and skeptical
+        timbre: light and rough
+        pace: quick
+        pitch: medium
+    bystander_2:
+      display_name: Second Bystander
+      tts:
+        delivery: amused and outspoken
+        timbre: clear and wiry
+        pace: quick
+        pitch: medium-high
+    sultan:
+      display_name: The Sultan
+      tts:
+        delivery: gracious, dignified, and decisive
+        timbre: deep and stately
+        pace: measured
+        pitch: low
+    soldier:
+      display_name: The Soldier
+      tts:
+        delivery: alert and formal
+        timbre: firm and clear
+        pace: brisk
+        pitch: medium-low
+    old_woman:
+      display_name: The Old Woman
+      tts:
+        delivery: caring, cautious, and deeply feeling
+        timbre: aged and gentle
+        pace: unhurried
+        pitch: medium
+    snake:
+      display_name: The Seven-Headed Snake
+      tts:
+        delivery: suspicious and menacing
+        timbre: dark and rasping
+        pace: deliberate
+        pitch: low
+    wife:
+      display_name: Sultan Darai's Wife
+      tts:
+        delivery: compassionate, candid, and strong-willed
+        timbre: warm and poised
+        pace: moderate
+        pitch: medium
+    maidservant:
+      display_name: The Maidservant
+      tts:
+        delivery: gentle and attentive
+        timbre: soft and clear
+        pace: moderate
+        pitch: medium-high
+    traveling_lady:
+      display_name: A Traveling Lady
+      tts:
+        delivery: gracious and openly amazed
+        timbre: polished and clear
+        pace: moderate
+        pitch: medium
+    traveling_servant:
+      display_name: A Traveling Servant
+      tts:
+        delivery: warm and enthusiastic
+        timbre: light and bright
+        pace: moderate
+        pitch: medium-high
+    townsman_1:
+      display_name: First Townsman
+      tts:
+        delivery: grieving and resolute
+        timbre: mature and firm
+        pace: measured
+        pitch: medium-low
+    townsman_2:
+      display_name: Second Townsman
+      tts:
+        delivery: sorrowful and direct
+        timbre: clear and sober
+        pace: measured
+        pitch: medium
+    townsman_3:
+      display_name: Third Townsman
+      tts:
+        delivery: mournful and earnest
+        timbre: rough and resonant
+        pace: unhurried
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Eighth and the Gazelle
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a man who wasted every coin he owned. He became so poor that he had to scratch through dust heaps like a hungry fowl, searching for a few grains of corn to eat.
+        - id: ch01-b02
+          speaker: narrator
+          text: One morning, while he was hunting for breakfast in a heap beside the street, he saw a tiny silver coin called an eighth. He snatched it up at once.
+        - id: ch01-b03
+          speaker: darai
+          text: Now I can buy myself a proper meal.
+        - id: ch01-b04
+          speaker: narrator
+          text: He drank water from a well, lay down, and slept all through the day and night. At sunrise he woke and hurried back to the dust heap. Perhaps good luck would find him twice.
+        - id: ch01-b05
+          speaker: narrator
+          text: On the road he met a man carrying a twig cage.
+        - id: ch01-b06
+          speaker: darai
+          text: Hey, fellow! What are you carrying in there?
+        - id: ch01-b07
+          speaker: trader
+          text: Gazelles.
+        - id: ch01-b08
+          speaker: darai
+          text: Bring them over. I want to see them.
+        - id: ch01-b09
+          speaker: narrator
+          text: Two men nearby burst out laughing and warned the trader about his customer.
+        - id: ch01-b10
+          speakers: [bystander_1, bystander_2]
+          ensemble: duo
+          text: Be careful bargaining with him! He owns nothing except what he scratches from the dust. He cannot feed himself, so how could he feed a gazelle?
+        - id: ch01-b11
+          speaker: trader
+          text: At least fifty people have called me over since I left the country, and not one of them bought a thing. A trader must go wherever he is summoned. No one knows where a buyer may be waiting.
+        - id: ch01-b12
+          speaker: narrator
+          text: He carried the cage over, and the laughing men followed.
+        - id: ch01-b13
+          speaker: darai
+          text: How much do you want? Will you sell me one for an eighth?
+        - id: ch01-b14
+          speaker: narrator
+          text: The trader took out a gazelle and held it toward him.
+        - id: ch01-b15
+          speaker: trader
+          text: Here, master. Take this one.
+        - id: ch01-b16
+          speaker: narrator
+          text: The poor man carried the gazelle back to his dust heap. He searched until he found a few grains of corn, then shared them with his new companion. Morning and night, for five days, they divided whatever he found.
+        - id: ch01-b17
+          speaker: narrator
+          text: While the man slept on the fifth night, the gazelle woke him.
+        - id: ch01-b18
+          speaker: gazelle
+          text: Master, wake up.
+        - id: ch01-b19
+          speaker: darai
+          text: What wonder am I seeing?
+          emotion: surprised
+        - id: ch01-b20
+          speaker: gazelle
+          text: What is so wonderful?
+        - id: ch01-b21
+          speaker: darai
+          text: You are a gazelle, and you can speak! My parents never told me of such a thing. No one in the whole world ever did.
+          emotion: surprised
+        - id: ch01-b22
+          speaker: gazelle
+          text: Never mind that. Listen to me. I accepted you as my master, and you spent everything you had to buy me. I will not run away. But please let me find my own food each morning, and I will return every evening. There is not enough in these dust heaps for us both.
+        - id: ch01-b23
+          speaker: darai
+          text: Then go.
+        - id: ch01-b24
+          speaker: narrator
+          text: The gazelle left and came home at sunset. The man was overjoyed, and that night they slept side by side.
+        - id: ch01-b25
+          speaker: gazelle
+          text: I am going out to feed again this morning.
+        - id: ch01-b26
+          speaker: darai
+          text: Go, my son.
+        - id: ch01-b27
+          speaker: narrator
+          text: The man felt lonely as soon as it was gone. He set out early for the dust heap where he usually found the most corn, and he was glad when evening finally let him go home. He lay in the grass chewing tobacco until the gazelle trotted up.
+        - id: ch01-b28
+          speaker: gazelle
+          text: Good evening, master. How did your day go? I found a shady place far inside the forest. It has sweet grass when I am hungry, fresh water when I am thirsty, and a soft breeze in the heat. No one else knows it. Tomorrow I will go there again.
+    - id: ch02
+      title: The Diamond and the Promise
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: For five mornings the gazelle went to that cool place. On the fifth day it reached a patch of bitter grass. It scratched at the ground, trying to tear the bad blades away, and uncovered an enormous, shining diamond.
+        - id: ch02-b02
+          speaker: gazelle
+          text: Ah! Perhaps this can help the master who spent his last coin on me. But I must be careful. People may accuse him of stealing it. I should carry it myself to some great rich man and see what it can win for him.
+        - id: ch02-b03
+          speaker: narrator
+          text: The gazelle took the diamond in its mouth and set off through the forest. It ran on and on, searching everywhere, but found no place where a rich man was likely to live. For two more days it kept going from dawn until dark. Early on the following morning, it finally caught sight of a large town. The sight gave it fresh courage, and it hurried toward the streets.
+        - id: ch02-b04
+          speaker: narrator
+          text: The streets were crowded with people buying and selling at the market. Through them bounded the gazelle, and the diamond flashed brightly as it ran. People called after the strange animal with the jewel in its mouth. The gazelle paid no attention. It crossed the town without slowing and reached the palace, where the sultan was sitting in the cool air. It galloped right up to him and placed the diamond at his feet.
+        - id: ch02-b05
+          speaker: narrator
+          text: The sultan looked down at the great diamond. Then he looked at the gazelle that had brought it. He told his attendants to spread a carpet and arrange cushions so the weary traveler could rest after its long journey. He also ordered them to bring milk for it to drink and rice for it to eat. The gazelle rested on the cushions, ate and drank, and slowly recovered its strength. Only then did the sultan ask why it had come.
+        - id: ch02-b06
+          speaker: sultan
+          text: Tell me the news that brought you here.
+        - id: ch02-b07
+          speaker: gazelle
+          text: I bring this diamond as a pledge from my master, Sultan Darai. He has heard that you have a daughter. He sends this small token and asks you to give her to him as his wife.
+        - id: ch02-b08
+          speaker: sultan
+          text: I agree. My daughter and all her family are his. Let him come to me with empty hands, and I will still be content.
+        - id: ch02-b09
+          speaker: gazelle
+          text: Farewell, my lord. I am returning to our town. In eight days, or perhaps eleven, we will arrive as your guests.
+        - id: ch02-b10
+          speaker: sultan
+          text: So it shall be.
+        - id: ch02-b11
+          speaker: narrator
+          text: Far away, the poor man had been mourning. He believed his gazelle had deserted him forever. When it came through the door, he rushed to embrace it and would not even give it room to speak.
+        - id: ch02-b12
+          speaker: gazelle
+          text: Quiet now, master. Do not cry. Let us sleep, and when I leave in the morning, follow me.
+        - id: ch02-b13
+          speaker: narrator
+          text: At first light they entered the forest. On the fifth day they rested beside a stream. There the gazelle gave its master a hard beating and ordered him to wait. Then it ran toward the palace.
+        - id: ch02-b14
+          speaker: narrator
+          text: Near ten o'clock it reached a road lined with soldiers waiting to honor Sultan Darai. The moment one soldier saw the gazelle, he ran ahead with the news.
+        - id: ch02-b15
+          speaker: soldier
+          text: Sultan Darai is coming! I have seen his gazelle!
+        - id: ch02-b16
+          speaker: narrator
+          text: The sultan called his whole court and rode out to meet it. The gazelle greeted him, and he politely asked where it had left the master it had promised to bring.
+        - id: ch02-b17
+          speaker: gazelle
+          text: Alas, my lord, he lies in the forest. Robbers attacked us on the road. They beat him, robbed him, and took every piece of his clothing. Now he is hiding beneath a bush so no passing stranger will see him.
+          emotion: sad
+        - id: ch02-b18
+          speaker: narrator
+          text: The news about his future son-in-law sent the sultan riding straight back to the palace. He ordered a groom to saddle the finest horse in the stable. Then he told a woman servant to open a chest and pack all the clothes a man would need. The sultan himself chose a tunic, a turban, and a sash for the waist. He added a sword with a golden handle, a dagger, a pair of sandals, and a stick of sweet-smelling wood.
+        - id: ch02-b19
+          speaker: sultan
+          text: Take these things and the soldiers to your master, so he can come to us.
+        - id: ch02-b20
+          speaker: gazelle
+          text: Would I lead soldiers to him while he lies there naked and ashamed? I can manage alone, my lord.
+        - id: ch02-b21
+          speaker: sultan
+          text: How can you manage this horse and all those clothes by yourself?
+        - id: ch02-b22
+          speaker: gazelle
+          text: Easily. Fasten the horse to my neck and tie the clothes firmly to its back. I will be running faster than the horse.
+        - id: ch02-b23
+          speaker: narrator
+          text: The attendants did exactly as the gazelle directed.
+        - id: ch02-b24
+          speaker: gazelle
+          text: Farewell, my lord. I am leaving now.
+        - id: ch02-b25
+          speaker: sultan
+          text: Farewell, gazelle. When will we see you again?
+        - id: ch02-b26
+          speaker: gazelle
+          text: Tomorrow, around five.
+        - id: ch02-b27
+          speaker: narrator
+          text: It tugged the rein, and the gazelle and horse galloped away. The sultan watched until they vanished.
+        - id: ch02-b28
+          speaker: sultan
+          text: That gazelle was raised by gentle hands in a sultan's house. That is why it is unlike any other gazelle.
+        - id: ch02-b29
+          speaker: narrator
+          text: From then on, the sultan regarded the gazelle as someone of great importance.
+    - id: ch03
+      title: Sultan Darai's Wedding
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Meanwhile, the gazelle ran back through the forest to the stream where its master sat waiting. The man's heart laughed when he saw his companion return. The gazelle told him to get up and bathe in the stream. After he had washed, it made him rub himself well with earth and polish his teeth with sand until they were bright and shining. By then the sun had gone down behind the hills. The gazelle brought the clothes from the horse's back, piece by piece. The man dressed in them and could hardly contain his pleasure.
+        - id: ch03-b02
+          speaker: gazelle
+          text: Where we are going, say nothing except a greeting or a request for news. Leave every other word to me. I have found you a wife and told them you gave her fine clothes, turbans, and precious gifts. You have no need to speak.
+        - id: ch03-b03
+          speaker: darai
+          text: I will keep silent. You provided all of this. You are the master now, and I am the servant. I will obey you in everything.
+        - id: ch03-b04
+          speaker: narrator
+          text: So they went on together, the man riding the fine horse and the gazelle leading the way. They traveled farther and farther until the palace at last came into view in the distance.
+        - id: ch03-b05
+          speaker: gazelle
+          text: Master, that is where we are going. You are no longer a poor man, and even your name has changed.
+        - id: ch03-b06
+          speaker: darai
+          text: Then what is my name, my father?
+        - id: ch03-b07
+          speaker: gazelle
+          text: Sultan Darai.
+        - id: ch03-b08
+          speaker: narrator
+          text: Before long, soldiers rode out to meet them. Others turned and raced back to announce that Sultan Darai was approaching. The sultan immediately set off from the palace. His viziers and emirs came behind him, along with the judges and all the rich men of the city. They formed a grand procession on the road.
+        - id: ch03-b09
+          speaker: gazelle
+          text: Your father-in-law is coming. He is the man in the middle, wearing the sky-blue mantle. Dismount and greet him.
+        - id: ch03-b10
+          speaker: narrator
+          text: Sultan Darai obeyed the gazelle and sprang down from his horse. His father-in-law dismounted too. The two men gave each other their hands and greeted one another with kisses. Then they rode and walked together into the palace, with the whole company following behind.
+        - id: ch03-b11
+          speaker: narrator
+          text: The next morning the gazelle went to the sultan's rooms.
+        - id: ch03-b12
+          speaker: gazelle
+          text: My lord, please have the marriage performed. Sultan Darai's heart is eager for his wife.
+        - id: ch03-b13
+          speaker: sultan
+          text: The bride is ready. Call the priest.
+        - id: ch03-b14
+          speaker: narrator
+          text: The priest was called, and Sultan Darai married the sultan's daughter. As soon as the ceremony ended, a cannon thundered to announce the marriage. Musicians began to play, and everyone inside the palace joined a great feast.
+        - id: ch03-b15
+          speaker: gazelle
+          text: Master, tomorrow I must take a journey. I may be gone seven days or longer. Do not leave this palace until I return.
+        - id: ch03-b16
+          speaker: darai
+          text: I will stay inside.
+        - id: ch03-b17
+          speaker: narrator
+          text: Before leaving on its journey, the gazelle also went to the sultan. It explained that Sultan Darai wished to return to his own town and had sent the gazelle ahead to prepare his household. The work should take seven days. If the gazelle had not returned by then, Sultan Darai would wait inside the palace until it came for him.
+        - id: ch03-b18
+          speaker: gazelle
+          text: Sultan Darai is sending me ahead to put his home in order. I need seven days. If I have not returned by then, he will remain here until I do.
+        - id: ch03-b19
+          speaker: sultan
+          text: Very good.
+    - id: ch04
+      title: The House of the Seven-Headed Snake
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The gazelle left the palace and traveled alone through forests and empty wilderness. At last it entered a town filled with fine houses. The buildings were beautiful, yet the gazelle had not seen a single person anywhere in the town. At the far end of the main road stood the greatest house of all. It was an astonishing place, built with sapphire, turquoise, and polished marble.
+        - id: ch04-b02
+          speaker: gazelle
+          text: That is the house for my master. I must find out who lives there. If I die, I die. If I live, I live. I have no plan, so whatever can kill me will have its chance.
+        - id: ch04-b03
+          speaker: narrator
+          text: It knocked twice and called for the door to open. No one answered. It called again, and a voice came from inside.
+        - id: ch04-b04
+          speaker: old_woman
+          text: Who is out there calling for me to open?
+        - id: ch04-b05
+          speaker: gazelle
+          text: It is your grandchild, great mistress.
+        - id: ch04-b06
+          speaker: old_woman
+          text: If you are my grandchild, go back the way you came. Do not die here and bring death upon me too.
+          emotion: fearful
+        - id: ch04-b07
+          speaker: gazelle
+          text: Please open the door, mistress. I have something to tell you.
+        - id: ch04-b08
+          speaker: old_woman
+          text: Grandchild, I am afraid for your life and mine.
+          emotion: fearful
+        - id: ch04-b09
+          speaker: gazelle
+          text: Neither of us will lose our life. Please let me in.
+        - id: ch04-b10
+          speaker: narrator
+          text: The old woman opened the door.
+        - id: ch04-b11
+          speaker: old_woman
+          text: What news do you bring from your home, my grandson?
+        - id: ch04-b12
+          speaker: gazelle
+          text: All is well where I come from. Is all well with you?
+        - id: ch04-b13
+          speaker: old_woman
+          text: Nothing is well here. If you came seeking death, or have never seen it before, today you will learn what dying means.
+          emotion: fearful
+        - id: ch04-b14
+          speaker: gazelle
+          text: If I must learn, then I will. Tell me who owns this house.
+        - id: ch04-b15
+          speaker: old_woman
+          text: This house holds great wealth, many servants, plenty of food, and many horses. All of it belongs to a huge and terrible snake.
+        - id: ch04-b16
+          speaker: gazelle
+          text: Then tell me how to reach that snake and kill him.
+        - id: ch04-b17
+          speaker: old_woman
+          text: Do not say such things! You endanger us both. The snake keeps me here alone to cook. When he comes, a wind rises and throws dust everywhere. He glides into the courtyard and demands the meal waiting in those great pots. He eats his fill, drinks a whole tank of water, and leaves. He comes every second day when the sun stands over the house. And he has seven heads. How could you fight him?
+          emotion: fearful
+        - id: ch04-b18
+          speaker: gazelle
+          text: Never mind what I should or should not do. Does the snake own a sword?
+        - id: ch04-b19
+          speaker: old_woman
+          text: Yes, and it is terribly sharp. It cuts as fast as lightning.
+        - id: ch04-b20
+          speaker: gazelle
+          text: Give it to me, mother.
+        - id: ch04-b21
+          speaker: narrator
+          text: She took the sword down from the wall.
+        - id: ch04-b22
+          speaker: old_woman
+          text: You must hurry. He could arrive at any moment. Listen! Is that the wind? He is here!
+          emotion: fearful
+        - id: ch04-b23
+          speaker: narrator
+          text: They fell silent. The old woman peered from behind a curtain. The snake was emptying the pots in the courtyard. After eating and drinking, he came to the door.
+        - id: ch04-b24
+          speaker: snake
+          text: Old woman! What is that strange smell inside? It is not the smell I find here every day.
+        - id: ch04-b25
+          speaker: old_woman
+          text: Master, I am alone as always. Today, for the first time in many days, I sprinkled fresh scent on myself. That must be what you smell. What else could it be?
+          emotion: fearful
+        - id: ch04-b26
+          speaker: narrator
+          text: All the while, the gazelle had been standing close beside the door with the sword gripped in one front hoof. The great snake had made an opening there, wide enough for his heads to pass through whenever he entered the house. One head came sliding through. The gazelle swung the sword and cut it off so neatly that the snake did not even feel what had happened.
+        - id: ch04-b27
+          speaker: narrator
+          text: The next stroke was not quite as clean. The snake felt something touch him and wondered who was trying to scratch his neck. He pushed another head through the opening to see. The gazelle's blade met it at once, and that head rolled across the ground to join the others. The sword rose and fell again until six of the seven heads were gone.
+        - id: ch04-b28
+          speaker: narrator
+          text: With only one head left, the snake lashed his tail so furiously that dust hid the gazelle and the old woman from each other.
+        - id: ch04-b29
+          speaker: gazelle
+          text: You have climbed every kind of tree, but you will never climb this one!
+        - id: ch04-b30
+          speaker: narrator
+          text: The seventh head darted through the opening, and the gazelle cut it off. Then the sword clattered to the ground as the gazelle fainted.
+        - id: ch04-b31
+          speaker: narrator
+          text: When the old woman saw her enemy lying dead, she shrieked with delight. Then she ran to help the gazelle. She fetched water, sprinkled and bathed it, and fanned it carefully. She moved its faint body to a place where the breeze could blow over it. At last the gazelle stirred and gave a sneeze. The old woman's heart lifted with joy. She gave it more water and waited beside it until it slowly rose to its feet.
+        - id: ch04-b32
+          speaker: gazelle
+          text: Show me the whole house, from top to bottom, inside and out.
+        - id: ch04-b33
+          speaker: narrator
+          text: The old woman took the gazelle through the mansion from beginning to end. She showed it the upper rooms and the lower rooms, the rooms deep inside and the courtyards outside. Some chambers were filled with gold and rare treasures. Other rooms held the many slaves whom the snake had kept there.
+        - id: ch04-b34
+          speaker: old_woman
+          text: The goods and all these servants belong to you now.
+        - id: ch04-b35
+          speaker: gazelle
+          text: Keep everything safe until I bring my master.
+        - id: ch04-b36
+          speaker: narrator
+          text: After the danger and the long struggle, the gazelle remained in the mansion for two full days. The old woman cared for it and fed it milk and rice while it recovered its strength. On the third morning, the gazelle said farewell to her. It left the silent town behind and began the long journey through wilderness and forest back to its waiting master.
+    - id: ch05
+      title: The Home Prepared for Sultan Darai
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: When Sultan Darai heard the gazelle was at the door, he felt as if the hour had come when every prayer would be answered. He rose and kissed it.
+        - id: ch05-b02
+          speaker: darai
+          text: My father, you were gone so long, and you left me in sorrow. I could not eat, drink, laugh, or smile at anything. I thought only of you.
+          emotion: sad
+        - id: ch05-b03
+          speaker: gazelle
+          text: I am well, and all is well where I have been. Four days from now, take your wife and go home.
+        - id: ch05-b04
+          speaker: darai
+          text: You decide, and I will follow wherever you lead.
+        - id: ch05-b05
+          speaker: gazelle
+          text: Then I will carry the news to your father-in-law.
+        - id: ch05-b06
+          speaker: darai
+          text: Go, my son.
+        - id: ch05-b07
+          speaker: narrator
+          text: The gazelle told the sultan that its master would leave with his wife after four days.
+        - id: ch05-b08
+          speaker: sultan
+          text: Must he leave so soon? Sultan Darai and I have hardly sat or talked together. We have not ridden or eaten together, though he has been here fourteen days.
+        - id: ch05-b09
+          speaker: gazelle
+          text: My lord, he wishes to return home, and nothing will stop him.
+        - id: ch05-b10
+          speaker: sultan
+          text: Very well.
+        - id: ch05-b11
+          speaker: narrator
+          text: The sultan accepted that nothing could change Sultan Darai's mind. He summoned all the people of the town and gave orders for his daughter's departure. On the chosen day, the palace ladies were to travel beside her, guards were to protect the company, slaves were to serve them, and horses were to carry them toward her new home.
+        - id: ch05-b12
+          speaker: narrator
+          text: Four days later, a great company left the palace. Ladies surrounded Sultan Darai's wife. Slaves and guards followed, and horses carried them along the road. They traveled through the whole day. When the sun sank behind the hills, they stopped to rest. The gazelle shared out the food it had brought, and everyone ate before lying down to sleep. The journey continued for many days. By the time they neared the end, every traveler, noble or slave, loved the gazelle with a great love, even more than Sultan Darai.
+        - id: ch05-b13
+          speaker: narrator
+          text: At last they saw the shapes of houses far ahead, and the women called to the gazelle.
+        - id: ch05-b14
+          speaker: gazelle
+          text: Yes, my mistresses. That is Sultan Darai's home.
+        - id: ch05-b15
+          speaker: narrator
+          text: The women and slaves rejoiced. Two hours later they reached the gates. The gazelle asked the whole company to wait and led Sultan Darai into the house first.
+        - id: ch05-b16
+          speaker: narrator
+          text: The old woman saw them crossing the courtyard. She leaped with joy, seized the gazelle, and kissed it.
+        - id: ch05-b17
+          speaker: gazelle
+          text: Leave me alone, old woman. My master is the one you should carry and kiss.
+        - id: ch05-b18
+          speaker: old_woman
+          text: Forgive me, my son. I did not know this was our master.
+        - id: ch05-b19
+          speaker: narrator
+          text: She opened every door so Sultan Darai could see the rooms and storerooms with all their treasures.
+        - id: ch05-b20
+          speaker: darai
+          text: Untie the horses and free the people who are bound. Some of you sweep. Some spread the beds, cook the food, or draw water. The rest come out to welcome your mistress.
+        - id: ch05-b21
+          speaker: narrator
+          text: Once the household was ready, Sultan Darai's wife came through the gates with all her ladies and slaves. Inside, they found room after room hung with rich cloth. Servants welcomed them, beds had been spread, and beautiful rice had been cooked for them to eat. The travelers stared at the wealth around them and at the gazelle that had arranged it all.
+        - id: ch05-b22
+          speakers: [traveling_lady, traveling_servant]
+          ensemble: duo
+          text: Gazelle, we have seen grand houses and heard of wonders, but we have never seen or heard of a house like this, or anyone like you.
+          emotion: surprised
+        - id: ch05-b23
+          speaker: narrator
+          text: The visiting ladies stayed for several days, enjoying Sultan Darai's marvelous house. Then they said it was time to return to their own homes. The gazelle pleaded with them to remain longer, but they had made up their minds. It opened the storerooms and brought out many gifts. Each lady received a share, and the slaves received presents too. They left speaking of the gazelle's generosity, and every one of them thought it was a thousand times greater than its master.
+        - id: ch05-b24
+          speaker: narrator
+          text: The gazelle and its master lived in the mansion for many weeks. Then the gazelle spoke privately to the old woman.
+        - id: ch05-b25
+          speaker: gazelle
+          text: I brought my master here and did many good things for him. Yet he has never once asked how I found this house, who owned it, or why the town was empty. I have done him every kindness, and he has never done one kindness for me. People say that if you mean to do someone good, you must also do him harm, and then there will be peace between you. Mother, I want to see whether my master will return the good I have done.
+        - id: ch05-b26
+          speaker: old_woman
+          text: Very well.
+        - id: ch05-b27
+          speaker: narrator
+          text: They went to bed. In the morning the gazelle was feverish. Its stomach was sick and its legs ached.
+        - id: ch05-b28
+          speaker: gazelle
+          text: Mother, are you there?
+        - id: ch05-b29
+          speaker: old_woman
+          text: I am here, my son.
+        - id: ch05-b30
+          speaker: gazelle
+          text: Go upstairs and tell my master that I am very ill.
+        - id: ch05-b31
+          speaker: old_woman
+          text: What shall I say if he asks what hurts?
+        - id: ch05-b32
+          speaker: gazelle
+          text: Tell him my whole body aches. There is not one place without pain.
+        - id: ch05-b33
+          speaker: narrator
+          text: The old woman found Sultan Darai and his wife sitting on a marble couch covered with soft cushions.
+        - id: ch05-b34
+          speaker: darai
+          text: Well, old woman, what do you want?
+        - id: ch05-b35
+          speaker: old_woman
+          text: I came to tell you that the gazelle is ill. Every part of its body hurts.
+        - id: ch05-b36
+          speaker: darai
+          text: What can I do about that? Make some red millet gruel and feed it.
+        - id: ch05-b37
+          speaker: wife
+          text: You would give the gazelle red millet gruel when even a horse would refuse it? That is not right.
+          emotion: surprised
+        - id: ch05-b38
+          speaker: darai
+          text: Do not be foolish. Rice is for people.
+        - id: ch05-b39
+          speaker: wife
+          text: This is no ordinary gazelle. It is the apple of your eye. A grain of sand in your eye would cause you pain, and its suffering should trouble you too.
+        - id: ch05-b40
+          speaker: darai
+          text: Wife, you talk too much.
+        - id: ch05-b41
+          speaker: narrator
+          text: He left the room. The old woman knew her plea had failed and returned in tears.
+        - id: ch05-b42
+          speaker: gazelle
+          text: Mother, why are you crying? Whether the answer is good or bad, please tell me.
+        - id: ch05-b43
+          speaker: narrator
+          text: At first the old woman would not speak. The gazelle pleaded until she finally told the whole story. She had found the husband and wife together on their marble couch. She had said the gazelle was ill and that every part of its body hurt. Sultan Darai had offered only red millet gruel. His wife had protested that even a horse would refuse such food. She had called the gazelle the apple of his eye and the child he did not have. It might have the shape of a gazelle, she said, but its heart and conduct were finer than those of any gentleman. Then the old woman repeated Sultan Darai's answer.
+        - id: ch05-b44
+          speaker: old_woman
+          text: He called her a foolish chatterer. He said he knew your price because he bought you for an eighth, and losing you would cost him nothing.
+          emotion: sad
+        - id: ch05-b45
+          speaker: narrator
+          text: The gazelle was silent for a while.
+        - id: ch05-b46
+          speaker: gazelle
+          text: The elders spoke of one who does good like a mother. I did good for him, and now I understand their saying. Go again. Tell him I am desperately ill and could not drink the red millet gruel.
+          emotion: sad
+        - id: ch05-b47
+          speaker: narrator
+          text: The old woman found the master and mistress drinking coffee. When Sultan Darai heard the message, he shouted at her.
+        - id: ch05-b48
+          speaker: darai
+          text: Be quiet! Stop your feet, close your eyes, and plug your ears with wax. If the gazelle sends for you, say your legs are bent and cannot walk. If it asks you to listen, say your ears are stopped. If it wants to talk, say your tongue is caught on a hook.
+          emotion: angry
+        - id: ch05-b49
+          speaker: narrator
+          text: The old woman's heart wept when she heard those words. She remembered how the gazelle had first entered the town ready to risk its own life to win wealth for its master. It had managed to preserve its life and gain the wealth too. Yet now, after everything it had done, it had no honor in its master's house. Sultan Darai's wife also understood the cruelty of his answer, and tears sprang into her eyes.
+        - id: ch05-b50
+          speaker: wife
+          text: Husband, I am ashamed that you treat the gazelle so cruelly.
+          emotion: sad
+        - id: ch05-b51
+          speaker: darai
+          text: Ignore my wife's talk. Tell that creature to get out of my way. I cannot sleep, eat, or drink because it worries me from morning to night. Why should something I bought for an eighth trouble me so much?
+          emotion: angry
+    - id: ch06
+      title: The Gazelle's Death
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: Downstairs, the gazelle lay with blood flowing from its nostrils. The old woman gathered it into her arms.
+        - id: ch06-b02
+          speaker: old_woman
+          text: My son, all the good you did has been lost. Only patience remains.
+          emotion: sad
+        - id: ch06-b03
+          speaker: gazelle
+          text: Mother, I will die. Anger and bitterness fill my soul. I am ashamed that I did my master good and he repaid me with evil. What do I eat from all the wealth in this house? Half a bowl each day would not make him poorer. Yet the elders spoke of one who does good like a mother.
+          emotion: sad
+        - id: ch06-b04
+          speaker: gazelle
+          text: Tell my master that I am nearer death than life.
+        - id: ch06-b05
+          speaker: narrator
+          text: The old woman climbed the stairs once more, though every step was heavy. She found Sultan Darai and told him plainly that the gazelle was no longer merely ill. It now lay closer to death than to life and had sent her to ask for him one last time.
+        - id: ch06-b06
+          speaker: darai
+          text: I told you not to trouble me again.
+        - id: ch06-b07
+          speaker: wife
+          text: What has the gazelle ever done against you? How has it failed you? Your behavior is wicked, and the people will hate you for it. Everyone loves the gazelle, young and old, women and men. Husband, I thought you had great wisdom. Now I see you have none at all.
+          emotion: angry
+        - id: ch06-b08
+          speaker: darai
+          text: You are mad, wife.
+        - id: ch06-b09
+          speaker: narrator
+          text: The old woman could bear no more of Sultan Darai's answers, so she left the room and went back downstairs. His wife remained troubled. Without telling her husband, she followed the old woman toward the sick gazelle. Then she called one of her maidservants aside and ordered her to bring the comfort and food that Sultan Darai had refused.
+        - id: ch06-b10
+          speaker: wife
+          text: Cook milk and rice for the gazelle. Take this cloth to cover it and this pillow for its head. If it needs anything more, let it ask me instead of its master. If it agrees, I will send it by litter to my father, and he will care for it until it recovers.
+        - id: ch06-b11
+          speaker: narrator
+          text: The maidservant cooked the milk and rice, carried down the cloth and pillow, and arranged them beside the gazelle. She carefully repeated every part of her mistress's message, including the offer to send the gazelle away in a litter to be cared for by the old sultan.
+        - id: ch06-b12
+          speaker: maidservant
+          text: My mistress sent this food, cloth, and pillow. Ask her for anything you need. She will even send you to her father to be nursed back to health.
+        - id: ch06-b13
+          speaker: narrator
+          text: The gazelle gave no answer. It turned onto its side and quietly died.
+        - id: ch06-b14
+          speaker: narrator
+          text: The news of the gazelle's death traveled from the house into the streets and across the town. Everywhere, people began to mourn and weep. When Sultan Darai heard their cries, he rose in a fury and shouted at them.
+        - id: ch06-b15
+          speaker: darai
+          text: You mourn that gazelle as if I had died! It was only a gazelle, and I paid one eighth for it.
+          emotion: angry
+        - id: ch06-b16
+          speaker: wife
+          text: We looked upon the gazelle as we looked upon you. It came to my father to ask for my hand. It brought me here, and my father placed me in its care.
+          emotion: sad
+        - id: ch06-b17
+          speaker: narrator
+          text: When the people heard her, they raised their voices.
+        - id: ch06-b18
+          speakers: [townsman_1, townsman_2, townsman_3]
+          ensemble: chorus
+          text: We never saw you. We saw the gazelle. It shared our troubles and our peace. When someone like that leaves this world, we weep for ourselves, not for the gazelle.
+          emotion: sad
+        - id: ch06-b19
+          speakers: [townsman_1, townsman_2, townsman_3]
+          ensemble: chorus
+          text: The gazelle did you every possible good. Anyone who says it could have done more is a liar. We have done nothing for you, so how will you treat us? The gazelle died from bitterness, and you ordered your slaves to throw it into the well. Leave us alone to mourn.
+          emotion: sad
+        - id: ch06-b20
+          speaker: narrator
+          text: Sultan Darai refused to hear the people's grief or answer their accusation. He gave the order, and his slaves carried the dead gazelle away from the mourning crowd and threw it into the well.
+        - id: ch06-b21
+          speaker: narrator
+          text: When Sultan Darai's wife learned that the gazelle had been cast into the well, she wrote a letter to her father. She chose three slaves, mounted them on donkeys, and sent them away with the message. Her father read the letter and bowed his head. He wept as bitterly as a man who had lost his own mother. Then he commanded his servants to saddle the horses. He called for the governor, the judges, and every rich man of the city to ride with him.
+        - id: ch06-b22
+          speaker: sultan
+          text: Come with me now. We are going to bury the gazelle.
+          emotion: sad
+        - id: ch06-b23
+          speaker: narrator
+          text: The company traveled through the night and continued all day. They did not stop until they reached the well where the gazelle had been thrown. It was a great well built around a rock, with enough room for many people to enter. The sultan climbed down first, followed by the judges and the rich men. When he found the gazelle lying there, fresh tears came to his eyes. He bent down, took it tenderly in his arms, and carried it out himself.
+        - id: ch06-b24
+          speaker: narrator
+          text: The three slaves returned and told their mistress what her father had done and how all the people were mourning.
+        - id: ch06-b25
+          speaker: wife
+          text: Since the gazelle died, I have eaten no food and drunk no water. I have not spoken, and I have not laughed.
+          emotion: sad
+        - id: ch06-b26
+          speaker: narrator
+          text: The sultan carried the gazelle away from the well and gave it a proper burial. Then he ordered all the people to put on mourning clothes in its honor. Great mourning filled the city until the appointed days had passed.
+        - id: ch06-b27
+          speaker: narrator
+          text: When the days of mourning ended, Sultan Darai's wife slept beside her husband. She dreamed she was back in her father's house. When she woke, it was no dream. She truly was there.
+        - id: ch06-b28
+          speaker: narrator
+          text: The man dreamed that he was scratching through the dust heap again. When he opened his eyes, that was no dream either. It was the truth.

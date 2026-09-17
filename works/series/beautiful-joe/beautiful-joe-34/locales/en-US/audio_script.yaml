@@ -1,0 +1,249 @@
+audio_script:
+  language: en-US
+  cast:
+    beautiful_joe:
+      display_name: Beautiful Joe
+      tts:
+        delivery: thoughtful and plainspoken
+        timbre: warm and weathered
+        pace: measured
+        pitch: medium-low
+    mr_morris:
+      display_name: Mr. Morris
+      tts:
+        delivery: compassionate and earnest
+        timbre: warm and mature
+        pace: measured
+        pitch: medium-low
+    fireman_watson:
+      display_name: Jim Watson
+      tts:
+        delivery: brave and matter-of-fact
+        timbre: sturdy and clear
+        pace: brisk
+        pitch: medium-low
+    townsman_1:
+      display_name: Townsman One
+      tts:
+        delivery: urgent and direct
+        timbre: rough and clear
+        pace: quick
+        pitch: medium
+    townsman_2:
+      display_name: Townsman Two
+      tts:
+        delivery: concerned and plainspoken
+        timbre: firm and mature
+        pace: quick
+        pitch: medium-low
+    charlie_montague:
+      display_name: Charlie Montague
+      tts:
+        delivery: young and sensitive
+        timbre: light and clear
+        pace: natural
+        pitch: high
+    italian_showman:
+      display_name: Italian Showman
+      tts:
+        delivery: animated with lightly accented English
+        timbre: resonant and expressive
+        pace: quick
+        pitch: medium
+    mr_montague:
+      display_name: Mr. Montague
+      tts:
+        delivery: restrained and dignified
+        timbre: deep and worn
+        pace: slow
+        pitch: low
+  chapters:
+    - id: ch01
+      title: A FIRE IN FAIRPORT
+      blocks:
+        - id: ch01-b01
+          speaker: beautiful_joe
+          text: >-
+            I had run to fires with the Morris boys several times, so I knew how much noise and excitement there would be. A light came on in the house. Someone was getting up. The boys were good-hearted, and I know they never wished for anyone to lose property. Still, they enjoyed the sight of a blaze. If Fairport went too long without a fire, one of their favorite pleasures was building a bonfire in the garden.
+        - id: ch01-b02
+          speaker: beautiful_joe
+          text: >-
+            Jim and I ran around to the front door and waited. Soon someone came rattling out, and I felt sure it must be Jack. It was Mr. Morris. He said nothing to us and set off toward town at almost a run. We followed. Men hurried out of the houses along the street. Some joined Mr. Morris, while others raced ahead. They had dressed in a rush. They pushed their arms into coat sleeves and fastened buttons as they ran. Some wore hats and some had none. Every face was turned toward the great red glow ahead, which grew brighter by the moment.
+        - id: ch01-b03
+          speakers: [townsman_1, townsman_2]
+          ensemble: duo
+          text: Where is the fire?
+        - id: ch01-b04
+          speaker: townsman_1
+          text: I don't know. I'm afraid it may be the hotel or the town hall. Look at that blaze!
+        - id: ch01-b05
+          speaker: townsman_2
+          text: I hope it isn't. How is the water supply now? This is a terrible time for a fire.
+        - id: ch01-b06
+          speaker: beautiful_joe
+          text: >-
+            As soon as we reached Main Street, we saw that the hotel was burning. People crowded everywhere amid noise, confusion, smoke, and darkness. High above them, bright tongues of flame leaped against the sky. Jim and I stayed close behind Mr. Morris as he forced his way through the crowd. Near the hotel, men carried ladders and axes. Some shouted orders. Others rushed from the building with boxes, bundles, and furniture in their arms. Things came pouring steadily out of the upper windows and fell among the people below.
+        - id: ch01-b07
+          speaker: beautiful_joe
+          text: >-
+            A mirror struck Mr. Morris on the arm. Then a whole bundle of clothes dropped onto his head and nearly buried him. He brushed everything aside and hardly seemed to notice. I knew something was wrong by the anxious sound of his voice whenever he spoke. I couldn't see his face, though the flames made the street as bright as day. The crowd had packed us in so tightly that I had to stay between his feet to keep from being trampled. Jim was larger than I was, and he had already been separated from us.
+        - id: ch01-b08
+          speaker: mr_morris
+          text: Is everyone out of the hotel?
+        - id: ch01-b09
+          speaker: fireman_watson
+          text: I'm going up to find out.
+        - id: ch01-b10
+          speaker: townsman_1
+          text: That's Jim Watson, the fireman. He's risking his life by going into that furnace. Don't do it, Watson!
+          emotion: fearful
+        - id: ch01-b11
+          speaker: beautiful_joe
+          text: >-
+            The brave fireman seemed to pay no attention to the warning. An instant later, the same townsman cried out again.
+        - id: ch01-b12
+          speaker: townsman_1
+          text: He's putting his ladder against the third floor. He means to go in. He'll never get beyond the second floor!
+          emotion: fearful
+        - id: ch01-b13
+          speaker: mr_morris
+          text: Where are the Montagues? Has anyone seen them?
+        - id: ch01-b14
+          speaker: beautiful_joe
+          text: >-
+            A frightened voice called Mr. Morris's name. Young Charlie Montague squeezed through the people until he reached us.
+        - id: ch01-b15
+          speaker: charlie_montague
+          text: Mr. Morris! Where is Papa?
+          emotion: fearful
+        - id: ch01-b16
+          speaker: mr_morris
+          text: I don't know. Where did you last see him?
+        - id: ch01-b17
+          speaker: beautiful_joe
+          text: >-
+            Mr. Morris took Charlie's hand and pulled him close.
+        - id: ch01-b18
+          speaker: charlie_montague
+          text: >-
+            I was asleep in Papa's room. A man knocked and told us the hotel was on fire. He said we had five minutes to dress and get out. Papa told me to put on my clothes and go downstairs. Then he ran up to Mamma.
+          emotion: fearful
+        - id: ch01-b19
+          speaker: mr_morris
+          text: Where was she?
+        - id: ch01-b20
+          speaker: charlie_montague
+          text: >-
+            She was on the fourth floor with her maid, Blanche. You know Mamma hasn't been well and couldn't sleep. Our room was so noisy that she moved upstairs where it was quiet.
+        - id: ch01-b21
+          speaker: beautiful_joe
+          text: Mr. Morris gave a low groan.
+        - id: ch01-b22
+          speaker: charlie_montague
+          text: It's so hot, and the noise is dreadful. I want Mamma!
+          emotion: fearful
+        - id: ch01-b23
+          speaker: beautiful_joe
+          text: >-
+            Charlie burst into tears. Mr. Morris comforted him as well as he could and drew him toward the edge of the crowd.
+        - id: ch01-b24
+          speaker: beautiful_joe
+          text: >-
+            Just then, a piercing cry rose above the uproar. I couldn't see the man who made it, but I knew the Italian showman's voice. In broken English, he screamed that the fire was spreading toward the stables. His animals would burn. Wouldn't anyone help him get them out?
+        - id: ch01-b25
+          speaker: italian_showman
+          text: The fire go to the stables! My animals burn! Somebody help me get them out!
+          emotion: fearful
+        - id: ch01-b26
+          speaker: townsman_1
+          text: Save the people first. Leave the animals!
+        - id: ch01-b27
+          speaker: townsman_2
+          text: Shame on you! Get the horses out!
+          emotion: angry
+        - id: ch01-b28
+          speaker: beautiful_joe
+          text: >-
+            Voices tangled together, but no one seemed to act. The Italian kept crying for help. People near us said they had just learned that several guests sleeping at the top of the hotel were still inside. A poor housemaid had been seen at one of the highest windows, shrieking for someone to save her. From the street, we could see no one at those windows now. Smoke poured out of them.
+        - id: ch01-b29
+          speaker: beautiful_joe
+          text: >-
+            The air felt hot and heavy, and I understood why Charlie was ill. He would have fallen if Mr. Morris hadn't caught him. Mr. Morris carried him clear of the crowd and laid him on the brick sidewalk. He loosened the boy's shirt and left me to watch him. A hose was fastened to a hydrant nearby, and water leaked from it. Mr. Morris held his hands beneath the leak until he had enough water to splash over Charlie's face and chest.
+        - id: ch01-b30
+          speaker: beautiful_joe
+          text: >-
+            When Charlie began to revive, Mr. Morris sat on the curb and held him on his knee. The boy lay in his arms and moaned. Charlie was delicate. He could not bear rough treatment the way the Morris boys could.
+        - id: ch01-b31
+          speaker: beautiful_joe
+          text: >-
+            Mr. Morris was terribly anxious. His face had turned deathly white, and every cry from the burning hotel made him shudder.
+        - id: ch01-b32
+          speaker: mr_morris
+          text: Those poor souls. God help them. Oh, this is awful.
+          emotion: fearful
+        - id: ch01-b33
+          speaker: beautiful_joe
+          text: >-
+            He looked away from the great sheets of flame and held Charlie tightly against his chest. At last, wild shrieks rang out, and I knew they came from no human throat. The flames must have reached the horses. Mr. Morris sprang to his feet, then sank down again. He wanted to go to them, but he knew he could do no good. Hundreds of men stood nearby. The fire had spread too quickly, and there was so little water that they could hardly fight it.
+        - id: ch01-b34
+          speaker: beautiful_joe
+          text: >-
+            I wondered if I could help the poor animals. Fire did not frighten me as it frightened most dogs. The Morris boys had taught me a trick. They would toss a piece of burning paper onto the floor, and I would stamp it out with my front paws. If the flame was too large, I dragged an old scrap of carpet over it and jumped on top.
+        - id: ch01-b35
+          speaker: beautiful_joe
+          text: >-
+            I left Mr. Morris and ran around the street corner to the back of the hotel. The fire had done less damage there. In all the houses around the hotel, people stood on their roofs with wet blankets. Others watched from windows or packed their belongings, ready to move away if the fire spread to their homes.
+        - id: ch01-b36
+          speaker: beautiful_joe
+          text: >-
+            A narrow lane ran partway toward the hotel. I had just started up it when a wailing, piercing sound ahead made me shudder and stop. The Italian's animals were about to burn, and they were calling for their master to free them. They sounded like children in mortal pain. I couldn't bear it. A terrible horror of the fire seized me. I turned and ran, deeply thankful that I was not trapped inside.
+        - id: ch01-b37
+          speaker: beautiful_joe
+          text: >-
+            As I reached the street, I stumbled over something. It was a large parrot. At first I thought it was Bella, but then I remembered Jack saying that the Italian owned a parrot. The bird wasn't dead, though the smoke had left it dazed. I took it gently in my mouth, ran back, and placed it at Mr. Morris's feet. He wrapped it in his handkerchief and laid it beside him.
+        - id: ch01-b38
+          speaker: beautiful_joe
+          text: >-
+            I sat trembling and never left him again. I shall never forget that dreadful night. It felt as though we had been there for hours, though only a short time had passed. Soon the whole hotel was red with flame, and very little smoke remained. The inside of the building had burned away. Nothing else could be saved.
+        - id: ch01-b39
+          speaker: beautiful_joe
+          text: >-
+            The firemen and the people moved back. The noise died away, and everyone stood silently watching the flames. A man came quietly toward Mr. Morris. When I looked at him, I saw Mr. Montague. Usually he was well dressed, with a kind face and thick, grayish-brown hair. Now soot blackened his face. The hair at the front of his head was burned away, and his clothes hung half torn from his back.
+        - id: ch01-b40
+          speaker: beautiful_joe
+          text: Mr. Morris sprang up at the sight of him.
+        - id: ch01-b41
+          speaker: mr_morris
+          text: Where is your wife?
+        - id: ch01-b42
+          speaker: beautiful_joe
+          text: >-
+            Mr. Montague said nothing. He only pointed toward the burning hotel.
+        - id: ch01-b43
+          speaker: mr_morris
+          text: >-
+            No, that can't be! There must be some mistake. Your beautiful young wife, Montague. Can it really be true?
+          emotion: surprised
+        - id: ch01-b44
+          speaker: beautiful_joe
+          text: Mr. Morris trembled from head to foot.
+        - id: ch01-b45
+          speaker: mr_montague
+          text: It is true. Give me the boy.
+          emotion: sad
+        - id: ch01-b46
+          speaker: beautiful_joe
+          text: >-
+            Charlie had fainted again. His father took him in his arms and turned away.
+        - id: ch01-b47
+          speaker: mr_morris
+          text: Montague, my heart aches for you. Is there nothing I can do?
+          emotion: sad
+        - id: ch01-b48
+          speaker: mr_montague
+          text: No, thank you.
+          emotion: sad
+        - id: ch01-b49
+          speaker: beautiful_joe
+          text: >-
+            He did not turn around. There was more anguish in his voice than in Mr. Morris's. Though I was only a dog, I knew his heart was breaking.
