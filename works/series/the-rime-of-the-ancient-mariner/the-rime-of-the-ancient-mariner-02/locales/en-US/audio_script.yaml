@@ -1,0 +1,90 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: grave and vivid storytelling
+        timbre: warm and resonant
+        pace: measured
+        pitch: medium
+    ancient_mariner:
+      display_name: Ancient Mariner
+      tts:
+        delivery: intense and haunted
+        timbre: rough and weathered
+        pace: deliberate
+        pitch: low
+    sailor_1:
+      display_name: First Sailor
+      tts:
+        delivery: blunt and troubled
+        timbre: weathered and clear
+        pace: measured
+        pitch: medium-low
+    sailor_2:
+      display_name: Second Sailor
+      tts:
+        delivery: wary and forceful
+        timbre: firm and rough
+        pace: measured
+        pitch: medium
+    sailor_3:
+      display_name: Third Sailor
+      tts:
+        delivery: tense and changeable
+        timbre: lean and raspy
+        pace: measured
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: Part The Second
+      blocks:
+        - id: ch01-b01
+          speaker: ancient_mariner
+          text: The sun rose through mist on our right and went down into the sea on our left. The good south wind kept blowing behind us. But the sweet bird no longer followed. It never came when the sailors called for food or play.
+        - id: ch01-b02
+          speaker: ancient_mariner
+          text: I had done a hellish thing, and it would bring us trouble. Every man blamed me for killing the bird that made the breeze blow.
+        - id: ch01-b03
+          speakers: [sailor_1, sailor_2, sailor_3]
+          ensemble: chorus
+          text: You wretch! You killed the bird that made the breeze blow!
+          emotion: angry
+        - id: ch01-b04
+          speaker: ancient_mariner
+          text: Then the glorious sun rose clear, no longer dim and red like the head of God. Now every man said I had killed the bird that brought the fog and mist.
+        - id: ch01-b05
+          speakers: [sailor_1, sailor_2, sailor_3]
+          ensemble: chorus
+          text: You were right to kill a bird that brings the fog and mist.
+        - id: ch01-b06
+          speaker: ancient_mariner
+          text: The fair breeze blew. White foam flew, and a wake opened behind us. We were the first to break into that silent sea.
+        - id: ch01-b07
+          speaker: ancient_mariner
+          text: Then the breeze died, and the sails fell limp. It was as sad as could be. We spoke only to break the silence of the sea.
+        - id: ch01-b08
+          speaker: ancient_mariner
+          text: At noon, in a hot copper-colored sky, the bloody sun stood straight above the mast. It looked no bigger than the moon.
+        - id: ch01-b09
+          speaker: ancient_mariner
+          text: Day after day, day after day, we stayed there without a breath or motion, as idle as a painted ship upon a painted ocean.
+        - id: ch01-b10
+          speaker: ancient_mariner
+          text: Water, water, everywhere, while all the boards of the ship shrank dry. Water, water, everywhere, with not a drop to drink.
+        - id: ch01-b11
+          speaker: ancient_mariner
+          text: The deep itself began to rot. Oh, Christ, that this should ever be! Slimy creatures with legs crawled over the slimy sea.
+        - id: ch01-b12
+          speaker: ancient_mariner
+          text: At night, death-fires whirled and danced around us. The water burned green, blue, and white, like oils boiling in a witch's pot.
+        - id: ch01-b13
+          speaker: ancient_mariner
+          text: Some sailors dreamed of the spirit that plagued us. They were certain it had followed nine fathoms under the water from the land of mist and snow.
+        - id: ch01-b14
+          speaker: ancient_mariner
+          text: Our thirst made every tongue wither at the root. We could no more speak than if soot had choked our throats.
+        - id: ch01-b15
+          speaker: ancient_mariner
+          text: What hateful looks they gave me, old and young alike. Then they hung the Albatross around my neck in place of the cross.

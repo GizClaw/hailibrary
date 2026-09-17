@@ -1,0 +1,245 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts: {delivery: 沉稳而富有童话色彩, timbre: 温暖清澈, pace: 舒缓有变化, pitch: 中音}
+    cinderella:
+      display_name: 灰姑娘
+      tts: {delivery: 温柔真挚而不失灵动, timbre: 年轻清澈, pace: 中等有变化, pitch: 中高音}
+    elder_sister:
+      display_name: 大姐
+      tts: {delivery: 骄矜而刻薄, timbre: 年轻明亮, pace: 稍快, pitch: 中高音}
+    charlotte:
+      display_name: 夏洛特
+      tts: {delivery: 自负而尖刻, timbre: 年轻清脆, pace: 稍快, pitch: 高音}
+    one_sister:
+      display_name: 一位姐姐
+      tts: {delivery: 兴奋而炫耀, timbre: 年轻清亮, pace: 明快, pitch: 中高音}
+    godmother:
+      display_name: 仙女教母
+      tts: {delivery: 慈爱而笃定, timbre: 成熟柔和, pace: 从容, pitch: 中音}
+    prince:
+      display_name: 王子
+      tts: {delivery: 热烈而真诚, timbre: 年轻温润, pace: 中等有变化, pitch: 中音}
+    guest_1:
+      display_name: 宾客甲
+      tts: {delivery: 惊叹而兴奋, timbre: 明亮清晰, pace: 明快, pitch: 中音}
+    guest_2:
+      display_name: 宾客乙
+      tts: {delivery: 惊叹而兴奋, timbre: 清脆轻快, pace: 明快, pitch: 中高音}
+    guest_3:
+      display_name: 宾客丙
+      tts: {delivery: 惊叹而兴奋, timbre: 温润清亮, pace: 明快, pitch: 中音}
+    guard_1:
+      display_name: 卫兵甲
+      tts: {delivery: 恭谨而直率, timbre: 成熟沉稳, pace: 中等, pitch: 中低音}
+    guard_2:
+      display_name: 卫兵乙
+      tts: {delivery: 恭谨而直率, timbre: 年轻厚实, pace: 中等, pitch: 中音}
+    royal_envoy:
+      display_name: 王家使者
+      tts: {delivery: 公正而礼貌, timbre: 成熟清晰, pace: 中等, pitch: 中低音}
+  chapters:
+    - id: ch01
+      title: 灰烬里的姑娘
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，一位绅士续弦娶了个骄傲又傲慢的女人。她和前夫生的两个女儿，脾气跟她一模一样。这位绅士和前妻也有个小女儿。姑娘继承了母亲的好心肠，善良温柔，无人能比。
+        - id: ch01-b02
+          speaker: narrator
+          text: 婚礼才结束，继母就露出了真面目。姑娘越好，越显得她自己的女儿可恶，她实在容不下。于是，洗盘子、擦桌子、刷洗太太和两位小姐的卧房，家里最卑贱的活儿都落在姑娘身上。姑娘只能住进一间破败的阁楼，睡在寒酸的草铺上。两个姐姐却住着铺有镶嵌地板的漂亮房间，睡最新式的床，还有一面大得能从头到脚照见自己的镜子。
+        - id: ch01-b03
+          speaker: narrator
+          text: 姑娘什么都忍了，也不敢告诉父亲。父亲完全受妻子摆布，只会反过来骂她。每天干完活，她就坐到壁炉角落的煤渣和灰烬中间，大家因此叫她“灰丫头”。小女儿没姐姐那么粗鲁，叫她“灰姑娘”。灰姑娘衣衫寒酸，却比那两个穿得珠光宝气的姐姐美上一百倍。
+        - id: ch01-b04
+          speaker: narrator
+          text: 一天，王子要举办舞会，请来了所有有身份的人。两位小姐在上流社会很有排场，也收到了邀请。她们高兴坏了，忙着挑选最衬自己的长裙、衬裙和头饰，整天说的只有该怎样打扮。灰姑娘却又多了一堆活儿，要替她们熨平衣物，还要给衣服上的花边打褶。
+        - id: ch01-b05
+          speaker: elder_sister
+          text: 我要穿那套红丝绒衣裳，就是镶法国花边的那套。
+        - id: ch01-b06
+          speaker: charlotte
+          text: 我还穿平日那条衬裙。不过，我会配上金线织花长袍，再穿那件钻石胸衣。那可不是随处都能见到的普通货色。
+        - id: ch01-b07
+          speaker: narrator
+          text: 她们请来最好的梳妆师梳头、调头巾，又从德拉波什小姐那里买了胭脂刷和美人痣贴。凡是打扮的事，她们都要问灰姑娘，因为灰姑娘最有眼光。灰姑娘甚至主动替她们梳头，她们当然愿意。梳头时，两姐妹问她：
+        - id: ch01-b08
+          speakers: [elder_sister, charlotte]
+          ensemble: duo
+          text: 灰姑娘，你不想去参加舞会吗？
+        - id: ch01-b09
+          speaker: cinderella
+          text: 唉，你们只是在笑话我。像我这样的人，哪里能去那种地方呢？
+          emotion: sad
+        - id: ch01-b10
+          speakers: [elder_sister, charlotte]
+          ensemble: duo
+          text: 这倒没说错。舞会上若来了一个灰丫头，大家非笑死不可。
+        - id: ch01-b11
+          speaker: narrator
+          text: 换个人准会故意把她们的头发梳歪，灰姑娘却心地善良，把她们打扮得无可挑剔。姐妹俩兴奋得差不多两天没吃东西。她们想把身形束得苗条些，为此勒断了十几根束带，还不停地跑到镜子前照来照去。盼望已久的舞会终于到了。两人进宫以后，灰姑娘还站在那里目送她们，直到再也看不见，才哭了起来。
+
+    - id: ch02
+      title: 仙女教母的礼物
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 教母看见她满脸泪水，问她出了什么事。
+        - id: ch02-b02
+          speaker: cinderella
+          text: 我真想去参加舞会……真的很想去。
+          emotion: sad
+        - id: ch02-b03
+          speaker: narrator
+          text: 灰姑娘哭得抽抽噎噎，后面的话怎么也说不出来。这位教母原来是个仙女。
+        - id: ch02-b04
+          speaker: godmother
+          text: 你想去参加舞会，对不对？
+        - id: ch02-b05
+          speaker: cinderella
+          text: 是的，我想去。
+          emotion: sad
+        - id: ch02-b06
+          speaker: godmother
+          text: 好。只要你做个好姑娘，我就有办法让你去。快到园子里，给我拿一个南瓜来。
+        - id: ch02-b07
+          speaker: narrator
+          text: 灰姑娘马上挑来园里最大最好的南瓜，却猜不出它能派什么用场。教母把瓜瓤挖得干干净净，只留下外壳，再用魔杖一点。南瓜立刻变成一辆华美的金马车。
+        - id: ch02-b08
+          speaker: narrator
+          text: 教母接着去看捕鼠笼，里面正好有六只活老鼠。她叫灰姑娘稍稍抬起笼门。老鼠一只只钻出来，教母便一只只用魔杖轻点。每只老鼠一挨魔杖，马上变成一匹骏马。六匹马凑成一队，毛色是漂亮的鼠灰色，还带着斑纹。车是有了，可车夫还没着落。
+        - id: ch02-b09
+          speaker: cinderella
+          text: 我去看看捕鼠夹里有没有大老鼠。我们可以把它变成车夫。
+        - id: ch02-b10
+          speaker: godmother
+          text: 这个主意好，快去瞧瞧。
+        - id: ch02-b11
+          speaker: narrator
+          text: 灰姑娘拿来捕鼠夹，里面有三只硕大的老鼠。仙女仔细挑了挑，选中胡须最长的那只。魔杖一点，它就变成一个胖墩墩、乐呵呵的车夫，嘴边还翘着两撇神气的胡子，谁也没见过比这更漂亮的。
+        - id: ch02-b12
+          speaker: godmother
+          text: 再去园子一趟。浇水壶后面有六只蜥蜴，把它们拿给我。
+        - id: ch02-b13
+          speaker: narrator
+          text: 灰姑娘刚把蜥蜴拿来，教母就将它们变成六名仆从。它们穿着缀满金银的号衣，一跃登上马车后方，彼此紧挨着站得稳稳当当，熟练得仿佛这一辈子从来没有做过别的事情。
+        - id: ch02-b14
+          speaker: godmother
+          text: 看，这套车马够体面了。坐着它去舞会，你喜欢吗？
+        - id: ch02-b15
+          speaker: cinderella
+          text: 啊，喜欢极了！可我难道要穿着这身肮脏的破衣服去吗？
+        - id: ch02-b16
+          speaker: narrator
+          text: 教母只用魔杖在她身上轻轻一点，破衣服顿时变成金银织成的礼服，上面到处缀满珠宝。接着，她又送给灰姑娘一双世上最漂亮的玻璃鞋。灰姑娘从头到脚装扮完毕，高高兴兴登上马车。教母却再三告诫她，无论如何也不能留到午夜以后。
+        - id: ch02-b17
+          speaker: godmother
+          text: 午夜一过，哪怕只多待片刻，马车也会变回南瓜，马匹会变回老鼠，车夫会变回大老鼠，仆从会变回蜥蜴，你的衣服也会恢复原样。
+        - id: ch02-b18
+          speaker: narrator
+          text: 灰姑娘答应一定在午夜前离开。马车飞驰而去，她欢喜得几乎坐不住了。
+
+    - id: ch03
+      title: 无人认识的公主
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 王子听说来了一位谁也不认识的尊贵公主，连忙跑出去迎接。他扶灰姑娘下车，亲手把她领进舞厅。大厅里立刻安静下来。舞步停了，小提琴也不响了，每个人都盯着这位陌生姑娘惊人的美貌。四下只剩下一片赞叹：
+        - id: ch03-b02
+          speakers: [guest_1, guest_2, guest_3]
+          ensemble: chorus
+          text: 啊，她多美呀！她真是太美了！
+          emotion: surprised
+        - id: ch03-b03
+          speaker: narrator
+          text: 就连年迈的国王也忍不住一直看她，还悄声告诉王后，自己已经很久没见过这样美丽可爱的人了。贵妇们则忙着仔细端详她的衣裳和头饰，盘算着第二天也照这个样式做一套。可是，她们得先找得到同样华美的料子，还得找得到手艺同样高明的人才行。
+        - id: ch03-b04
+          speaker: narrator
+          text: 王子先把灰姑娘领到全场最尊贵的座位，随后又请她一同跳舞。她的舞姿优美极了，大家看过以后，对她更加赞叹。精美的点心端上来，年轻的王子却一口也没吃。他全神贯注，只顾望着灰姑娘。
+        - id: ch03-b05
+          speaker: narrator
+          text: 灰姑娘坐到两个姐姐身边，对她们百般亲切，还把王子送给自己的橙子和香橼分给她们。姐妹俩根本没认出她，对这份好意惊讶得不得了。正陪她们说着话，灰姑娘听见钟敲了十一点三刻。她立刻起身，向在场宾客行了屈膝礼，随后尽快离开了王宫。
+        - id: ch03-b06
+          speaker: narrator
+          text: 回到家，她赶紧去找教母。谢过教母以后，她说自己打心底希望明天还能去，因为王子亲自邀请了她。她正兴冲冲地讲着舞会上的一切，两个姐姐忽然敲门回来了。灰姑娘赶紧跑去开门，一边打哈欠、揉眼睛、伸懒腰，装得像刚从梦里醒来。其实姐姐们离家以后，她从来没有一丝睡意。
+        - id: ch03-b07
+          speaker: cinderella
+          text: 你们怎么回来得这么晚呀！
+        - id: ch03-b08
+          speaker: one_sister
+          text: 你要是去了，就不会嫌舞会长。今晚来了一位公主，是凡人见过的最美的人。她待我们亲热极了，还送了橙子和香橼给我们。
+        - id: ch03-b09
+          speaker: narrator
+          text: 灰姑娘装作不在意，只问那位公主叫什么。姐姐们也不知道。她们说王子为了那位姑娘心神不宁，恨不得拿全世界换来她的姓名。灰姑娘微微一笑。
+        - id: ch03-b10
+          speaker: cinderella
+          text: 那她一定美极了，你们可真有福气！我就不能见见她吗？亲爱的夏洛特小姐，把你平日穿的那套黄衣裳借给我吧。
+        - id: ch03-b11
+          speaker: charlotte
+          text: 当然可以呀！把我的衣服借给你这个脏兮兮的灰丫头？除非我是个傻瓜！
+        - id: ch03-b12
+          speaker: narrator
+          text: 灰姑娘早知道会听见这种回答，反倒因为她拒绝而松了口气。那句借衣服的话只是玩笑，夏洛特若真的答应，她才不知该怎么办。
+
+    - id: ch04
+      title: 午夜的钟声
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 第二天，姐妹俩又去参加舞会。灰姑娘也去了，打扮得比前一晚还要华丽。王子始终守在她身边，不住地赞美她，对她说着温柔体贴的话。灰姑娘一点也不觉得厌烦，竟把教母的叮嘱忘得干干净净。
+        - id: ch04-b02
+          speaker: narrator
+          text: 灰姑娘一直以为还不到十一点。等钟声响起，她数着数着，才发现已经敲了十二下。她猛然站起来，像小鹿一样飞奔而去。王子立刻追在后面，却怎么也追不上她。
+        - id: ch04-b03
+          speaker: narrator
+          text: 灰姑娘逃跑时落下一只玻璃鞋，王子无比珍重地把它捡了起来。她气喘吁吁地赶到家时，身上已经换回那套肮脏的旧衣服。所有华美的东西都不见了，只剩下另一只小玻璃鞋，和落在宫里的那只正好成对。宫里有人询问守在门口的卫兵，有没有看见一位公主出去。
+        - id: ch04-b04
+          speakers: [guard_1, guard_2]
+          ensemble: duo
+          text: 没有。我们只看见一个穿得很寒酸的年轻姑娘。她更像贫穷的乡下丫头，一点也不像贵族小姐。
+        - id: ch04-b05
+          speaker: narrator
+          text: 两个姐姐回来以后，灰姑娘问她们玩得是否尽兴，那位美丽的小姐有没有到场。
+        - id: ch04-b06
+          speakers: [elder_sister, charlotte]
+          ensemble: duo
+          text: 她来了，可钟一敲十二下，她马上就匆匆跑了。她走得实在太急，落下一只世上最漂亮的小玻璃鞋。王子把鞋捡了起来。整个舞会期间，他除了望着她，什么也没有做。他一定深深爱上了玻璃鞋的美丽主人。
+        - id: ch04-b07
+          speaker: narrator
+          text: 她们说得一点不错。几天后，王子让人吹响号角，向全国宣布，他要娶脚正好穿得下玻璃鞋的姑娘。奉命试鞋的人先找到公主们，接着是公爵夫人，最后连宫中所有女子都试遍了，却没有一人合适。玻璃鞋这才被送到灰姑娘的两个姐姐那里。
+
+    - id: ch05
+      title: 玻璃鞋的主人
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 玻璃鞋终于送到两姐妹面前。她们拼命把脚往鞋里塞，还是穿不进去。灰姑娘认出了自己的鞋，笑着开口。
+        - id: ch05-b02
+          speaker: cinderella
+          text: 让我也试试吧，说不定它正合我的脚呢。
+        - id: ch05-b03
+          speaker: narrator
+          text: 两个姐姐放声大笑，拿她取乐。王家使者却认真看了看灰姑娘，发现她生得十分美丽。
+        - id: ch05-b04
+          speaker: royal_envoy
+          text: 让她试试才公平。王子吩咐过，人人都可以试鞋。
+        - id: ch05-b05
+          speaker: narrator
+          text: 使者请灰姑娘坐下，把玻璃鞋放到她脚边，再替她穿上。鞋子轻轻松松就套进去了，严丝合缝，像是用蜡照着她的脚塑成的。两个姐姐已经惊讶得不得了。可是灰姑娘又从衣袋里拿出另一只玻璃鞋，也穿到脚上时，她们更是目瞪口呆。
+        - id: ch05-b06
+          speaker: narrator
+          text: 就在这时，教母走了进来。魔杖轻轻一点，灰姑娘的衣服变得比从前任何一套都华美。两个姐姐这才认出，她就是舞会上那位美丽的小姐。她们扑倒在灰姑娘脚边，请她原谅从前的一切虐待。
+        - id: ch05-b07
+          speaker: narrator
+          text: 灰姑娘把姐姐们扶起来，拥抱着她们，哭着说：
+        - id: ch05-b08
+          speaker: cinderella
+          text: 我从心底里原谅你们。我只盼你们从今以后永远爱我。
+        - id: ch05-b09
+          speaker: narrator
+          text: 灰姑娘就这样穿着华美的礼服，被带到年轻的王子面前。王子觉得她比以往任何时候都更加迷人。几天以后，他们结了婚。灰姑娘不仅美丽，心地也同样善良。她让两个姐姐住进王宫，还在同一天替她们安排了婚事，把她们分别嫁给宫廷里的两位大贵族。
+        - id: ch05-b10
+          speaker: narrator
+          text: 这个故事由夏尔·佩罗讲述。

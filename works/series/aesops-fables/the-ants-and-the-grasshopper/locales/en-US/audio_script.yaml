@@ -1,0 +1,70 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and gently dramatic
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    ant_1:
+      display_name: First Ant
+      tts:
+        delivery: practical and direct
+        timbre: small and crisp
+        pace: brisk
+        pitch: medium-high
+    ant_2:
+      display_name: Second Ant
+      tts:
+        delivery: hardworking and matter-of-fact
+        timbre: light and clear
+        pace: brisk
+        pitch: high
+    grasshopper:
+      display_name: Grasshopper
+      tts:
+        delivery: weary and pleading
+        timbre: thin and musical
+        pace: unhurried
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: A Hungry Visitor
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: It was a bright day near the end of autumn. In the warm sunshine, a family of Ants hurried about, spreading out the grain they had gathered during the summer so it could dry.
+        - id: ch01-b02
+          speaker: narrator
+          text: Then a starving Grasshopper came along with his fiddle tucked under his arm. He approached the Ants humbly and begged for something to eat.
+    - id: ch02
+      title: All Summer Long
+      blocks:
+        - id: ch02-b01
+          speakers: [ant_1, ant_2]
+          ensemble: duo
+          text: What? You didn't put away any food for winter? Then what were you doing all summer?
+          emotion: surprised
+        - id: ch02-b02
+          speaker: grasshopper
+          text: I had no time to gather food. I was busy making music, and summer was over before I knew it.
+          emotion: sad
+        - id: ch02-b03
+          speaker: narrator
+          text: The Ants shrugged in disgust.
+    - id: ch03
+      title: A Time for Everything
+      blocks:
+        - id: ch03-b01
+          speakers: [ant_1, ant_2]
+          ensemble: duo
+          text: So you spent the summer making music? Very well. Now you can dance!
+          emotion: disgusted
+        - id: ch03-b02
+          speaker: narrator
+          text: The Ants turned their backs on the Grasshopper and went on with their work.
+        - id: ch03-b03
+          speaker: narrator
+          text: There is a time for work and a time for play.

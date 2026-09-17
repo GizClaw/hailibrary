@@ -1,0 +1,200 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 沉着讲述古老民间故事，机敏处带克制的讥诮
+        timbre: 温暖清晰的成年男声
+        pace: 舒缓而富于变化
+        pitch: 中低
+    john:
+      display_name: 约翰
+      tts:
+        delivery: 朴实厚道，忧伤时低沉，保护妻子时坚定有力
+        timbre: 温厚粗粝的成年男声
+        pace: 适中
+        pitch: 中低
+    molly:
+      display_name: 莫莉
+      tts:
+        delivery: 勤劳亲切，被困时压低声音而急切警觉
+        timbre: 柔和朴实的成年女声
+        pace: 适中
+        pitch: 中
+    neighbour:
+      display_name: 女邻居
+      tts:
+        delivery: 热心爽直，讲起怪事时紧张中带着清醒和胆量
+        timbre: 清亮结实的中年女声
+        pace: 稍快而富于变化
+        pitch: 中
+    fairy_king:
+      display_name: 仙王
+      tts:
+        delivery: 表面彬彬有礼，受到识破时透出阴冷和慌张
+        timbre: 低沉光滑的成年男声
+        pace: 从容
+        pitch: 低
+    older_child:
+      display_name: 大孩子
+      tts:
+        delivery: 天真直接，受惊时急促高声
+        timbre: 清脆的儿童声
+        pace: 稍快
+        pitch: 高
+    younger_child:
+      display_name: 二孩子
+      tts:
+        delivery: 稚嫩单纯，害怕时紧跟着兄姊呼喊
+        timbre: 轻细的儿童声
+        pace: 稍快
+        pitch: 高
+  chapters:
+    - id: ch01
+      title: 莫莉失踪
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，库尔加罗附近住着一个小农户和他的妻子莫莉。他们有三个孩子。这件事发生时，最小的那个还在吃奶。莫莉本是个称职的妻子，只是一心全放在家人和农场上。她跪下祷告时常常睡着，还总觉得小教堂里的弥撒足足比该有的长了一倍。
+        - id: ch01-b02
+          speaker: narrator
+          text: 有一天，约翰带着两个大些的孩子先去做弥撒。莫莉为了家里一头病牛，留下来向一个通晓仙家事务的人讨主意。等她赶到小教堂，已经迟了。约翰为此很伤心，莫莉又深爱丈夫，于是后悔了一整天。
+        - id: ch01-b03
+          speaker: narrator
+          text: 到了深夜，孩子们的喊声突然惊醒了约翰。
+        - id: ch01-b04
+          speakers: [older_child, younger_child]
+          ensemble: duo
+          text: “妈妈！妈妈！”
+          emotion: fearful
+        - id: ch01-b05
+          speaker: narrator
+          text: 约翰坐起身，揉了揉眼睛。身边空空的，莫莉不见了。他连忙问孩子们，妈妈去了哪里。孩子们说，刚才屋里挤满了漂亮的小男人和小女人。他们有的穿白衣，有的穿红衣，还有的穿绿衣。莫莉走在他们中间，像梦游一样出了门。
+        - id: ch01-b06
+          speaker: narrator
+          text: 约翰冲出屋子，把四周找了个遍。可一连许多天，莫莉连一点消息也没有。他爱妻子，就像妻子爱他一样，心里苦极了。孩子没人照料，常常又脏又邋遢，他看见便直掉眼泪。好在一位热心的女邻居有空就来帮忙，吃奶的婴儿也送到乳母那里去了。
+        - id: ch01-b07
+          speaker: narrator
+          text: 六个星期左右过去。一天早晨，约翰正要下田，那位平日替人照看产妇的女邻居赶上来，一路陪他走向田间。她告诉约翰，自己昨夜遇上了一件怪事。
+    - id: ch02
+      title: 山洞里的真相
+      blocks:
+        - id: ch02-b01
+          speaker: neighbour
+          text: “昨晚我刚要睡着，就听见草地上传来马蹄声，随后有人敲门。我出门一看，一个相貌堂堂的黑发男人骑在黑马上。他催我赶快穿戴，说有位夫人急等着我去照料。”
+        - id: ch02-b02
+          speaker: neighbour
+          text: “我才披好斗篷，他就抓住我的手。我还没觉得自己动过，人已经坐到了他背后。”
+        - id: ch02-b03
+          speaker: neighbour
+          text: “先生，咱们要去哪儿？”
+        - id: ch02-b04
+          speaker: fairy_king
+          text: “到了你就知道。”
+        - id: ch02-b05
+          speaker: neighbour
+          text: “他说完，用手指从我眼前一抹。我立刻什么光也看不见了，只能紧紧抓住他。我不知道马是向前还是向后，也不知道走了多长时间。后来他又牵住我的手，我才发觉双脚踩到了地面。”
+        - id: ch02-b06
+          speaker: neighbour
+          text: “他的手指反向一抹，我又看得见了。眼前是一座城堡。我们穿过大厅和一间间宽敞的屋子。墙壁漆成鲜绿色，饰边是红色和金色。地毯、桌椅、窗帘全都华贵得不得了，到处有衣着高贵的太太先生。”
+        - id: ch02-b07
+          speaker: neighbour
+          text: “最后，我们走进一间卧房。一位漂亮夫人躺在床上，旁边是个白胖的男婴。她一拍手，黑发男人就进来了。他亲了夫人和孩子，又夸了我几句，拿出一瓶绿色药膏，叫我替孩子从头到脚擦遍。”
+        - id: ch02-b08
+          speaker: neighbour
+          text: “我照他说的擦了。偏偏右眼忽然刺痛，我抬手一揉，再睁眼时，差点吓掉了魂。哪有什么华丽卧房？那里分明是个宽阔粗陋的山洞，石头和泥缝间不断渗水。夫人、老爷和孩子都是干瘪的穷苦怪物，瘦得只剩皮包骨头。那些华服，也全是破布。”
+        - id: ch02-b09
+          speaker: neighbour
+          text: “我假装什么也没看出来。过了一会儿，黑发男人吩咐我先去大厅门口。”
+        - id: ch02-b10
+          speaker: fairy_king
+          text: “你到门口等着。我一会儿就来，送你平安回家。”
+        - id: ch02-b11
+          speaker: neighbour
+          text: “我刚拐进外面的洞穴，就看见可怜的莫莉守在门边。她害怕地四下望了望，贴近我低声说话。”
+        - id: ch02-b12
+          speaker: molly
+          text: “他们抓我来照料仙王和仙后的孩子。不过我还有一次逃走的机会。下星期五晚上，仙家满朝的人要去拜访老罗斯的仙族，会经过坦普尔香博附近的十字路口。”
+        - id: ch02-b13
+          speaker: molly
+          text: “我骑马经过时，只要约翰抓住我的手或斗篷，有胆量一直不松开，我就能得救。国王来了，你千万别回答。我看见你用过那瓶药膏。”
+          emotion: fearful
+        - id: ch02-b14
+          speaker: neighbour
+          text: “黑发男人一眼也没往莫莉那边看，似乎没有怀疑我。等我们出来，我才发现自己竟站在克罗莫格环形堡的壕沟里。我又骑上那匹黑马，可这回看得清楚了，那不过是一大株破布草。我一路都怕摔下来，幸好转眼便回到了自己的小屋。”
+        - id: ch02-b15
+          speaker: neighbour
+          text: “我刚落地，仙王便塞给我五枚基尼金币，向我道谢，还祝我晚安。但愿我永远别再见到他！我躺下以后久久睡不着。昨晚明明把金币放进桌子抽屉，今天早晨再看，里面却只有五片枯橡树叶。送东西的家伙真该倒霉！”
+          emotion: angry
+    - id: ch03
+      title: 十字路口的营救
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 女邻居讲完了。约翰又害怕，又欢喜，又悲痛，心里乱成一团。两个人谈了又谈，至于谈了什么，咱们不必细听。到了星期五夜里，他们一同守在山路与罗斯大道交叉的地方。
+        - id: ch03-b02
+          speaker: narrator
+          text: 夜已经很深。他们朝图尔桥望去，基拉克迪亚米德上空只透出一点月光。女邻居忽然浑身一颤。
+        - id: ch03-b03
+          speaker: neighbour
+          text: “天哪，地哪，他们来了！马笼头叮当乱响，羽饰也在上下翻飞！”
+          emotion: fearful
+        - id: ch03-b04
+          speaker: narrator
+          text: 约翰顺着她的目光看去，却什么也看不到。女邻居双眼睁得大大的，颤抖着望向通往巴利纳库拉浅滩的路。
+        - id: ch03-b05
+          speaker: neighbour
+          text: “我看见莫莉了。她骑在最外边，正好会擦着咱们过去。咱们慢慢往前走，装作什么也不知道。等她经过，我就推你一把。那时你可一定要尽到本分，不然就糟了！”
+          emotion: fearful
+        - id: ch03-b06
+          speaker: narrator
+          text: 两个人若无其事地向前走，心却都在胸口怦怦直跳。约翰仍然看不见仙家队伍，只听到隐约的铃铛声、马蹄声和衣物摩擦的窸窣声。忽然，女邻居照约定推了他一下。
+        - id: ch03-b07
+          speaker: narrator
+          text: 约翰猛地张开双臂，莫莉的腰正好落进怀里。这一刻，他终于清楚地看见了她。四周顿时爆发出震天的喧闹，仿佛大地都摇晃起来。面目狰狞的怪物把他团团围住，一边狂吼，一边拼命争抢莫莉。
+        - id: ch03-b08
+          speaker: narrator
+          text: 约翰在胸前画了十字，奉上帝的名喝令他们退去。他两条胳膊像铁铸的一样，始终死死抱住妻子。转眼之间，一切声音都消失了，四下静得如同坟墓。莫莉已经昏过去，倒在丈夫和好心女邻居怀中。
+        - id: ch03-b09
+          speaker: narrator
+          text: 日子久了，莫莉又像从前一样照料家人，操持家务。我敢担保，受过这场惊吓以后，她跪着祷告的时间长多了。从星期一到星期日，她天天避开那些通晓仙家事务的人，星期日更是躲得远远的。
+    - id: ch04
+      title: 好邻人的记号
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 跟“好邻人”打交道，很难不留下他们给的记号。勇敢的女邻居也没能例外。一个星期四，她到恩尼斯科西赶集，忽然看见仙王在一桶桶黄油之间走动。他一副饿坏了的样子，从这桶挖一勺，又从那桶挖一勺。
+        - id: ch04-b02
+          speaker: neighbour
+          text: “先生，但愿您家夫人和孩子都好。”
+        - id: ch04-b03
+          speaker: narrator
+          text: 她竟糊里糊涂地主动招呼了他。仙王像是吓了一跳。
+        - id: ch04-b04
+          speaker: fairy_king
+          text: “他们挺好，多谢。你看我这身新衣裳怎么样？”
+        - id: ch04-b05
+          speaker: narrator
+          text: 他问着，移到她身体的一侧。
+        - id: ch04-b06
+          speaker: neighbour
+          text: “先生，我一点也看不清您。”
+        - id: ch04-b07
+          speaker: narrator
+          text: 仙王从她背后绕过去，站到另一侧。
+        - id: ch04-b08
+          speaker: fairy_king
+          text: “现在呢？”
+        - id: ch04-b09
+          speaker: neighbour
+          text: “哎呀，先生，说真的，您这件外套还不如一片枯酸模叶。”
+        - id: ch04-b10
+          speaker: fairy_king
+          text: “那么，也许现在会不一样。”
+        - id: ch04-b11
+          speaker: narrator
+          text: 仙王扬起一根细枝，朝离自己最近的那只眼睛抽去。朋友们，从那一天起，直到生命尽头，她那只眼睛再也没见过一丝光亮。
+        - id: ch04-b12
+          speaker: narrator
+          text: 这个故事，出自帕特里克·肯尼迪的《爱尔兰凯尔特人的传说故事》。

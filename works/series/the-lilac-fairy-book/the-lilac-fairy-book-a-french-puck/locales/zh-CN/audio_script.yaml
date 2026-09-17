@@ -1,0 +1,208 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 沉着讲述古老童话，幽默处带温和而克制的调侃
+        timbre: 温暖清晰的成年男声
+        pace: 舒缓而富于变化
+        pitch: 中低
+    puck:
+      display_name: 帕克精灵
+      tts:
+        delivery: 顽皮狡黠，恶作剧得逞时笑意藏也藏不住
+        timbre: 灵动清亮的年轻男声
+        pace: 轻快
+        pitch: 中高
+    william:
+      display_name: 威廉
+      tts:
+        delivery: 善良朴实，受惊时慌乱而真实
+        timbre: 厚实温和的成年男声
+        pace: 适中
+        pitch: 中低
+    hidden_voice:
+      display_name: 神秘声音
+      tts:
+        delivery: 从远处突然发问，语气神秘而简短
+        timbre: 空灵清晰的成年女声
+        pace: 稍慢
+        pitch: 中高
+    bride:
+      display_name: 准新娘
+      tts:
+        delivery: 活泼直率，惊喜和懊恼都自然流露
+        timbre: 明亮柔和的年轻女声
+        pace: 适中偏快
+        pitch: 中高
+    groom:
+      display_name: 准新郎
+      tts:
+        delivery: 热诚爽朗，遇见好运时毫不掩饰欣喜
+        timbre: 清朗的年轻男声
+        pace: 适中
+        pitch: 中
+    man_1:
+      display_name: 男宾甲
+      tts:
+        delivery: 真诚赞叹，声音在人群中清楚可辨
+        timbre: 明朗的成年男声
+        pace: 适中
+        pitch: 中
+    man_2:
+      display_name: 男宾乙
+      tts:
+        delivery: 真诚赞叹，与同伴说话时自然齐整
+        timbre: 温厚的成年男声
+        pace: 适中
+        pitch: 中低
+    woman_1:
+      display_name: 女宾甲
+      tts:
+        delivery: 低声而热切地品评婚礼衣裳
+        timbre: 清脆的成年女声
+        pace: 适中
+        pitch: 中高
+    woman_2:
+      display_name: 女宾乙
+      tts:
+        delivery: 低声而热切地品评婚礼衣裳
+        timbre: 柔亮的成年女声
+        pace: 适中
+        pitch: 中
+    curious_guest:
+      display_name: 好奇的宾客
+      tts:
+        delivery: 好奇认真，独自琢磨时语气笃定
+        timbre: 清晰沉稳的成年女声
+        pace: 适中
+        pitch: 中
+  chapters:
+    - id: ch01
+      title: 午夜的恶作剧
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 法国中部有一片片山间牧场和幽深谷地，那里住着一种顽皮的精灵。他最开心的事就是捉弄别人，牧羊人和放牛人尤其常常遭殃。谁也说不准什么时候才不会遭他捉弄，因为他能变成男人、女人、孩子，也能变成木棍、山羊，甚至一块犁头。
+        - id: ch01-b02
+          speaker: narrator
+          text: 可有一样东西难住了他，那就是针。他能变出针的模样，却怎么也变不出针眼。任何一个女人拿起来一看，马上就能认出是假的。这件事，精灵自己心里也明白。
+        - id: ch01-b03
+          speaker: narrator
+          text: 我们就叫他帕克吧。帕克最爱在午夜动手。那时候，牧人们干了一整天的活，已经睡得很沉。他溜进牛棚，解开每头牛拴在各自栏位上的铁链，让铁链哐啷啷砸到地上。再累的人也会被吵醒，只好拖着脚去把铁链重新扣好。
+        - id: ch01-b04
+          speaker: narrator
+          text: 牧人刚躺回床上，牛棚里又是一声巨响。他们就这样起了又睡，睡了又起，一直折腾到天亮。帕克有时也去马厩，把两匹马的鬃毛和尾巴编在一起。第二天，马夫们得忙上好几个钟头。他呢，就藏在草料棚的干草里探头偷看，越看越快活。
+    - id: ch02
+      title: 肩上的绵羊
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 八十多年前的一个傍晚，威廉沿着溪岸走着，听见一只绵羊大声咩叫。他想，这只羊准是走失了，不如先带回家，找到主人再送还。绵羊好像累得一步也走不动，威廉便把它扛到肩上。
+        - id: ch02-b02
+          speaker: narrator
+          text: 羊沉甸甸的。威廉是个好心人，舍不得把它丢下，只能压着身子，一步一晃地继续往前。走进一条胡桃树夹道时，他暗暗给自己打气。
+        - id: ch02-b03
+          speaker: william
+          text: “就快到了，剩下的路不远了。”
+        - id: ch02-b04
+          speaker: narrator
+          text: 没想到，一个声音忽然从头顶上方传来，吓得威廉浑身一跳。
+        - id: ch02-b05
+          speaker: hidden_voice
+          text: “你在哪儿呢？”
+        - id: ch02-b06
+          speaker: puck
+          text: “我正骑在一头蠢驴的肩膀上呢。”
+        - id: ch02-b07
+          speaker: narrator
+          text: 转眼之间，那只羊落到了地上，威廉却撒腿往家里飞奔。背后传来一阵笑，笑声里还夹着羊叫。他不想听，可帕克得意的话还是一路追进了耳朵。
+        - id: ch02-b08
+          speaker: puck
+          text: “哎呀呀，这一回真把我乐坏啦！”
+          emotion: happy
+    - id: ch03
+      title: 路边的彩色线团
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 帕克从来不在一个地方久留。他挨个村庄去闹，弄得人人都害怕自己会成为下一个受害者。后来，他捉弄牧人捉弄腻了，便想换些人来找乐子。
+        - id: ch03-b02
+          speaker: narrator
+          text: 他听说一对年轻男女要去镇上置办成家的全部用品，认定他们一定会忘掉一样生活里少不了的东西。帕克耐心等到两人坐着马车回来，自己变成一只苍蝇，跟在旁边偷听。
+        - id: ch03-b03
+          speaker: narrator
+          text: 两人谈了很久，都是下个月哪天成婚、该请哪些客人之类的话，帕克听得无聊极了。后来，准新娘说到了婚纱，忽然惊叫起来。
+        - id: ch03-b04
+          speaker: bride
+          text: “哎呀，我怎么会这么糊涂！我忘了买各色线团，衣服没有配色的线可怎么缝呀！”
+          emotion: surprised
+        - id: ch03-b05
+          speaker: groom
+          text: “这可糟了。你不是说，裁缝明天就要来吗？”
+        - id: ch03-b06
+          speaker: bride
+          text: “是呀。咦，你快看那边！”
+          emotion: surprised
+        - id: ch03-b07
+          speaker: narrator
+          text: 准新郎朝路边望去，那里竟放着一个硕大的彩色线团。车后捆着的衣裳有哪几种颜色，线团里便有哪几种颜色。他立刻跳下车，把线团捡了起来。
+        - id: ch03-b08
+          speaker: groom
+          text: “这运气好得简直不敢相信。说不定是哪位仙女特意替我们放在这里的！”
+          emotion: happy
+        - id: ch03-b09
+          speaker: bride
+          text: “说不定还真是仙女送来的呢。”
+          emotion: happy
+        - id: ch03-b10
+          speaker: narrator
+          text: 姑娘笑了起来，随即好像听见马儿那边也传来一阵笑，正好应和着她。当然啦，她觉得这一定是自己听错了。
+    - id: ch04
+      title: 一件完美的婚纱
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 裁缝见到那团线，高兴极了。线的颜色跟每块衣料都配得刚刚好，用起来也从不打结，不像普通的线那样动不动就断。裁缝做得很顺手，比原先料想的早了许多便完了工。
+        - id: ch04-b02
+          speaker: narrator
+          text: 准新娘请她到了婚礼那一天一定要来教堂，亲眼看看自己穿上婚纱的样子。
+        - id: ch04-b03
+          speaker: narrator
+          text: 婚礼那天，教堂里外挤满了人。这对年轻人很受附近居民喜爱，双方的父母也都十分富有。教堂大门开着，众人远远就看见新娘沿着栗树夹道一步步走来。
+        - id: ch04-b04
+          speakers: [man_1, man_2]
+          ensemble: duo
+          text: “这姑娘真美啊！”
+        - id: ch04-b05
+          speakers: [woman_1, woman_2]
+          ensemble: duo
+          text: “快看她那身衣裳，多漂亮呀！”
+    - id: ch05
+      title: 消失的线
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 新娘走进教堂，刚牵住等在那里的新郎，突然，一阵响亮的声音传遍四周。
+        - id: ch05-b02
+          speaker: narrator
+          text: 咔嚓！啪啦！咔嚓！啪啦！整套婚礼礼服一下子散落在地，新娘窘得恨不得藏起来。
+        - id: ch05-b03
+          speaker: narrator
+          text: 不过，这点意外可没让婚礼延期。大家马上送来一件又一件斗篷，替年轻的新娘遮身。她还是羞恼得厉害，拼命忍着才没有哭出来。
+        - id: ch05-b04
+          speaker: narrator
+          text: 宾客中有个人格外好奇。她留在后面，仔细查看散落的婚纱，一心要找出这场祸事究竟是怎么发生的。
+        - id: ch05-b05
+          speaker: curious_guest
+          text: “准是线早就朽了。我来找一根，看能不能扯断。”
+        - id: ch05-b06
+          speaker: narrator
+          text: 可她翻遍了整件衣裳，一根线也没找到。
+        - id: ch05-b07
+          speaker: narrator
+          text: 那些线全都消失了！
+        - id: ch05-b08
+          speaker: narrator
+          text: 这个故事选自保罗·塞比约的《奥弗涅口头文学》。

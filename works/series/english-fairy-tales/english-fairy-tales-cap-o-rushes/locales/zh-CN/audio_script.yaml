@@ -1,0 +1,332 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容讲述古老童话，带着一本正经的诙谐
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中
+    father:
+      display_name: 父亲
+      tts:
+        delivery: 威严自负，醒悟后满怀悔恨
+        timbre: 浑厚苍老
+        pace: 中等偏慢
+        pitch: 低
+    eldest_daughter:
+      display_name: 大女儿
+      tts:
+        delivery: 顺从直白，急于讨父亲欢心
+        timbre: 明亮柔和
+        pace: 中等
+        pitch: 中高
+    second_daughter:
+      display_name: 二女儿
+      tts:
+        delivery: 热切讨好，回答得十分肯定
+        timbre: 清脆圆润
+        pace: 中等
+        pitch: 中高
+    cap_o_rushes:
+      display_name: 灯心草姑娘
+      tts:
+        delivery: 朴实沉静，聪慧坚定，必要时带一点含蓄的机敏
+        timbre: 清澈温柔
+        pace: 从容
+        pitch: 中
+    maid_1:
+      display_name: 女佣甲
+      tts:
+        delivery: 爱说爱笑，遇到新鲜事格外兴奋
+        timbre: 清亮爽朗
+        pace: 轻快
+        pitch: 中高
+    maid_2:
+      display_name: 女佣乙
+      tts:
+        delivery: 热心随和，说话干脆
+        timbre: 柔和明快
+        pace: 中等偏快
+        pitch: 中
+    maid_3:
+      display_name: 女佣丙
+      tts:
+        delivery: 直率活泼，喜欢邀人一同热闹
+        timbre: 明亮轻快
+        pace: 轻快
+        pitch: 中高
+    young_master:
+      display_name: 少爷
+      tts:
+        delivery: 真挚热烈，病中虚弱，重逢后惊喜
+        timbre: 温润清朗
+        pace: 中等
+        pitch: 中
+    cook:
+      display_name: 厨娘
+      tts:
+        delivery: 务实爽快，受盘问时明显紧张
+        timbre: 厚实亲切
+        pace: 中等
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 鲜肉与盐
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "从前，有一位很富有的乡绅，家里有三个女儿。他很想知道女儿们究竟有多爱自己，就先问大女儿。"
+        - id: ch01-b02
+          speaker: father
+          text: "亲爱的，你说说，你有多爱我？"
+        - id: ch01-b03
+          speaker: eldest_daughter
+          text: "我爱您，就像爱自己的性命一样。"
+        - id: ch01-b04
+          speaker: father
+          text: "嗯，这个回答很好。"
+        - id: ch01-b05
+          speaker: narrator
+          text: "父亲又转向二女儿，问了同一个问题。"
+        - id: ch01-b06
+          speaker: father
+          text: "那么你呢，亲爱的？你有多爱我？"
+        - id: ch01-b07
+          speaker: second_daughter
+          text: "我爱您，胜过爱世上的一切。"
+        - id: ch01-b08
+          speaker: father
+          text: "这个回答也很好。"
+        - id: ch01-b09
+          speaker: narrator
+          text: "最后，他问三女儿。"
+        - id: ch01-b10
+          speaker: father
+          text: "亲爱的，你又有多爱我？"
+        - id: ch01-b11
+          speaker: cap_o_rushes
+          text: "我爱您，就像鲜肉爱盐一样。"
+        - id: ch01-b12
+          speaker: narrator
+          text: "父亲一听，顿时火冒三丈。"
+        - id: ch01-b13
+          speaker: father
+          text: "你这叫爱我吗？你根本不爱我！这个家再也不许你待下去。"
+          emotion: angry
+        - id: ch01-b14
+          speaker: narrator
+          text: "他当场把三女儿赶出家门，又把门砰地关在她面前。姑娘只得一直走呀走，最后来到一片沼泽。她采下许多灯心草，编成一件连着兜帽、也说不清是什么样的斗篷。斗篷从头遮到脚，把她那身漂亮衣裳藏得严严实实。"
+    - id: ch02
+      title: 灯心草姑娘
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "姑娘离开沼泽，又走了很久很久，才来到一座大宅子前。"
+        - id: ch02-b02
+          speaker: cap_o_rushes
+          text: "请问，你们这里缺女佣吗？"
+        - id: ch02-b03
+          speakers: [maid_1, maid_2, maid_3]
+          ensemble: chorus
+          text: "不缺，我们不要女佣。"
+        - id: ch02-b04
+          speaker: cap_o_rushes
+          text: "可我实在无处可去。我不要工钱，什么活儿都愿意做。"
+        - id: ch02-b05
+          speakers: [maid_1, maid_2, maid_3]
+          ensemble: chorus
+          text: "那你就留下吧，只要肯洗锅刷盘就行。"
+        - id: ch02-b06
+          speaker: narrator
+          text: "她就这样留了下来，每天洗锅，刷盘，把宅里所有的脏活都包了下来。姑娘始终不肯说自己的姓名，大伙儿见她整天披着那件斗篷，便叫她灯心草姑娘。"
+        - id: ch02-b07
+          speaker: narrator
+          text: "有一天，就在离宅子不远的地方，要举办一场盛大的舞会。宅里的仆人都可以去看贵人们跳舞。灯心草姑娘却说累得很，要独自留在家里。"
+        - id: ch02-b08
+          speaker: narrator
+          text: "众人一走，她马上脱掉灯心草斗篷，把自己梳洗得干干净净，也赶去参加舞会。那天晚上，满场没有一个人比她穿得更漂亮。"
+        - id: ch02-b09
+          speaker: narrator
+          text: "宅子主人的儿子也在舞会上。他刚看见姑娘，立刻就爱上了她，除了她，谁也不肯请来跳舞。"
+        - id: ch02-b10
+          speaker: narrator
+          text: "可舞会还没有结束，姑娘就悄悄溜走，赶回了家。女佣们进门时，她早已披好灯心草斗篷，装作睡着了。"
+        - id: ch02-b11
+          speakers: [maid_1, maid_2, maid_3]
+          ensemble: chorus
+          text: "灯心草姑娘，你昨晚可错过了一场好戏！"
+        - id: ch02-b12
+          speaker: cap_o_rushes
+          text: "哦？我错过什么了？"
+        - id: ch02-b13
+          speaker: maid_1
+          text: "来了一位从没见过的美人，打扮得光彩照人。少爷一直盯着她，眼睛都舍不得移开。"
+        - id: ch02-b14
+          speaker: cap_o_rushes
+          text: "听你这么说，我倒真想看看她。"
+        - id: ch02-b15
+          speaker: maid_2
+          text: "今晚还要办一场舞会，说不定她又会来呢。"
+    - id: ch03
+      title: 三场舞会
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "傍晚到了，灯心草姑娘仍说自己太累，不肯跟女佣们同去。等她们一出门，她就脱去斗篷，梳洗整齐，再次赶到舞会上。"
+        - id: ch03-b02
+          speaker: narrator
+          text: "少爷一直盼着她出现。这一晚，他仍只同她跳舞，目光一刻也没有离开她。可舞会还没散，她又溜回了家。女佣们回来时，看见的还是那个披着灯心草、沉沉睡着的姑娘。"
+        - id: ch03-b03
+          speaker: maid_1
+          text: "灯心草姑娘，你昨天真该来！那位漂亮小姐又出现了，打扮得别提多光彩。少爷还是一直望着她。"
+        - id: ch03-b04
+          speaker: cap_o_rushes
+          text: "真可惜，我多想亲眼看看她呀。"
+        - id: ch03-b05
+          speakers: [maid_1, maid_2, maid_3]
+          ensemble: chorus
+          text: "今晚还有舞会，你一定跟我们去吧。那位小姐准会来的。"
+        - id: ch03-b06
+          speaker: narrator
+          text: "到了第三天傍晚，任凭大家怎么劝，灯心草姑娘还是说累，不肯出门。可女佣们走远后，她照旧换下斗篷，收拾好自己，赶去了舞会。"
+        - id: ch03-b07
+          speaker: narrator
+          text: "少爷一见她，欢喜得不得了。他这一晚还是只陪她跳舞，眼睛始终望着她。姑娘不肯说自己叫什么，也不肯说从哪里来。"
+        - id: ch03-b08
+          speaker: narrator
+          text: "于是少爷取出一枚戒指，郑重地送给了她。"
+        - id: ch03-b09
+          speaker: young_master
+          text: "请你收下这枚戒指。要是从此见不到你，我一定活不下去。"
+        - id: ch03-b10
+          speaker: narrator
+          text: "这一次也是一样。舞会还未结束，姑娘就再次溜回家里。女佣们到家时，她又披着灯心草斗篷，装作已经睡熟。"
+        - id: ch03-b11
+          speaker: maid_3
+          text: "灯心草姑娘，你昨晚还是没来。现在舞会都办完了，你以后再也看不到那位小姐啦。"
+        - id: ch03-b12
+          speaker: cap_o_rushes
+          text: "唉，我本来真的很想见她一面。"
+        - id: ch03-b13
+          speaker: narrator
+          text: "少爷想尽了办法寻找舞会上的姑娘。他走遍能去的地方，问遍能问的人，却连她的一点消息也打听不到。思念让他的身体一天比一天差，最后竟病得只能躺在床上。"
+    - id: ch04
+      title: 粥碗里的戒指
+      blocks:
+        - id: ch04-b01
+          speakers: [maid_1, maid_2, maid_3]
+          ensemble: chorus
+          text: "快给少爷熬点麦片粥吧。他思念那位小姐，眼看就要没命了。"
+        - id: ch04-b02
+          speaker: narrator
+          text: "厨娘正准备熬粥，灯心草姑娘走进厨房。"
+        - id: ch04-b03
+          speaker: cap_o_rushes
+          text: "你这是要做什么？"
+        - id: ch04-b04
+          speaker: cook
+          text: "我得给少爷熬些麦片粥。他太思念那位小姐，病得快没命了。"
+        - id: ch04-b05
+          speaker: cap_o_rushes
+          text: "这碗粥让我来熬吧。"
+        - id: ch04-b06
+          speaker: narrator
+          text: "厨娘起初不答应，后来还是把活儿交给了她。灯心草姑娘熬好粥，趁厨娘端上楼以前，偷偷把那枚戒指放进碗里。"
+        - id: ch04-b07
+          speaker: narrator
+          text: "少爷喝完粥，一低头，就看见戒指躺在碗底。"
+        - id: ch04-b08
+          speaker: young_master
+          text: "快把厨娘叫到这里来。"
+        - id: ch04-b09
+          speaker: narrator
+          text: "厨娘来到楼上，站在少爷面前。"
+        - id: ch04-b10
+          speaker: young_master
+          text: "告诉我，这碗粥究竟是谁熬的？"
+        - id: ch04-b11
+          speaker: cook
+          text: "是我熬的。"
+          emotion: fearful
+        - id: ch04-b12
+          speaker: narrator
+          text: "少爷仔细看了她一眼。"
+        - id: ch04-b13
+          speaker: young_master
+          text: "不是你。只要你说出真正熬粥的人，我保证不会罚你。"
+        - id: ch04-b14
+          speaker: cook
+          text: "好吧，是灯心草姑娘熬的。"
+        - id: ch04-b15
+          speaker: young_master
+          text: "那就请灯心草姑娘来见我。"
+        - id: ch04-b16
+          speaker: narrator
+          text: "灯心草姑娘很快来到他的床前。"
+        - id: ch04-b17
+          speaker: young_master
+          text: "刚才那碗粥，是你熬的吗？"
+        - id: ch04-b18
+          speaker: cap_o_rushes
+          text: "对，是我熬的。"
+        - id: ch04-b19
+          speaker: young_master
+          text: "那么，这枚戒指是从哪里来的？"
+        - id: ch04-b20
+          speaker: cap_o_rushes
+          text: "是送戒指给我的那个人给的。"
+        - id: ch04-b21
+          speaker: young_master
+          text: "那你到底是谁？"
+        - id: ch04-b22
+          speaker: cap_o_rushes
+          text: "我这就让你看清楚。"
+        - id: ch04-b23
+          speaker: narrator
+          text: "她脱下灯心草斗篷，那身漂亮衣裳一下子露了出来。少爷很快恢复了健康，两人决定不久以后成亲。婚礼要办得十分隆重，无论住得近还是远，人人都收到了邀请，就连姑娘的父亲也在其中。可她一直没有告诉任何人，自己究竟是谁。"
+    - id: ch05
+      title: 没有盐的婚宴
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: "婚礼前，灯心草姑娘特意去找厨娘。"
+        - id: ch05-b02
+          speaker: cap_o_rushes
+          text: "婚宴上的每一道菜都不要放盐，连一点点也别放。"
+        - id: ch05-b03
+          speaker: cook
+          text: "一点盐都不放？那做出来会很难吃。"
+        - id: ch05-b04
+          speaker: cap_o_rushes
+          text: "难吃也不要紧，你只管照我的话做。"
+        - id: ch05-b05
+          speaker: cook
+          text: "好吧，那就这样办。"
+        - id: ch05-b06
+          speaker: narrator
+          text: "婚礼那天到了，两人结为夫妻。礼成以后，宾客们一起入席用餐。可盘里的肉淡而无味，大家才尝了一口，就怎么也吃不下去了。"
+        - id: ch05-b07
+          speaker: narrator
+          text: "只有灯心草姑娘的父亲不肯罢休。他先尝尝这道菜，又试试那道菜，忽然放声哭了起来。"
+        - id: ch05-b08
+          speaker: young_master
+          text: "您为什么哭？出了什么事？"
+        - id: ch05-b09
+          speaker: father
+          text: "唉，我曾经有一个女儿。我问她有多爱我，她说，她爱我，就像鲜肉爱盐一样。"
+          emotion: sad
+        - id: ch05-b10
+          speaker: father
+          text: "那时我以为她根本不爱我，就把她赶出了家门。现在我才懂，她原来比谁都爱我。可她如今在哪里？说不定早已经死了。"
+          emotion: sad
+        - id: ch05-b11
+          speaker: cap_o_rushes
+          text: "不，父亲，我就在这里！"
+        - id: ch05-b12
+          speaker: narrator
+          text: "灯心草姑娘走到父亲面前，张开双臂，紧紧抱住了他。"
+        - id: ch05-b13
+          speaker: narrator
+          text: "从此以后，他们一直过着幸福的生活。"

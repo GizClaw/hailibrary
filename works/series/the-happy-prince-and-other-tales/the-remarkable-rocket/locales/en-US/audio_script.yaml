@@ -1,0 +1,632 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant storytelling with quiet gravity
+        timbre: clear and gentle
+        pace: measured
+        pitch: medium
+    prince:
+      display_name: Prince
+      tts:
+        delivery: tender and dreamy
+        timbre: smooth and youthful
+        pace: relaxed
+        pitch: medium
+    princess:
+      display_name: Princess
+      tts:
+        delivery: gentle, curious, and refined
+        timbre: light and clear
+        pace: natural
+        pitch: medium-high
+    king:
+      display_name: King
+      tts:
+        delivery: grand, confident, and cheerfully self-satisfied
+        timbre: full and stately
+        pace: measured
+        pitch: medium-low
+    page:
+      display_name: Young Page
+      tts:
+        delivery: bright, quick, and eager to please
+        timbre: youthful and clear
+        pace: brisk
+        pitch: medium-high
+    courtier_1:
+      display_name: First Courtier
+      tts:
+        delivery: polished and enthusiastically agreeable
+        timbre: smooth and formal
+        pace: natural
+        pitch: medium
+    courtier_2:
+      display_name: Second Courtier
+      tts:
+        delivery: polished and enthusiastically agreeable
+        timbre: crisp and formal
+        pace: natural
+        pitch: medium-high
+    squib:
+      display_name: Little Squib
+      tts:
+        delivery: cheerful, innocent, and easily impressed
+        timbre: small and bright
+        pace: quick
+        pitch: high
+    roman_candle:
+      display_name: Roman Candle
+      tts:
+        delivery: practical, blunt, and dryly amused
+        timbre: broad and steady
+        pace: natural
+        pitch: medium-low
+    catherine_wheel:
+      display_name: Catherine Wheel
+      tts:
+        delivery: mournful, romantic, and self-dramatizing
+        timbre: airy and wistful
+        pace: slow
+        pitch: medium-high
+    rocket:
+      display_name: Remarkable Rocket
+      tts:
+        delivery: pompous, theatrical, and supremely self-important
+        timbre: sharp and polished
+        pace: slow
+        pitch: medium-high
+    cracker:
+      display_name: Cracker
+      tts:
+        delivery: boisterous, political, and quick to laugh
+        timbre: crisp and popping
+        pace: brisk
+        pitch: medium
+    bengal_light:
+      display_name: Bengal Light
+      tts:
+        delivery: precise, touchy, and eager to seem important
+        timbre: bright and cutting
+        pace: natural
+        pitch: medium-high
+    fire_balloon:
+      display_name: Fire-balloon
+      tts:
+        delivery: buoyant, friendly, and sensible
+        timbre: light and rounded
+        pace: relaxed
+        pitch: medium
+    workman:
+      display_name: Workman
+      tts:
+        delivery: casual and matter-of-fact
+        timbre: rough and sturdy
+        pace: brisk
+        pitch: low
+    frog:
+      display_name: Frog
+      tts:
+        delivery: sociable, complacent, and delighted by his own voice
+        timbre: resonant and throaty
+        pace: quick
+        pitch: medium-low
+    dragonfly:
+      display_name: Dragon-fly
+      tts:
+        delivery: dry, light, and teasing
+        timbre: fine and airy
+        pace: brisk
+        pitch: medium-high
+    duck:
+      display_name: White Duck
+      tts:
+        delivery: peaceful, practical, and good-natured
+        timbre: warm and reedy
+        pace: steady
+        pitch: medium
+    boy_1:
+      display_name: First Boy
+      tts:
+        delivery: lively and curious
+        timbre: young and clear
+        pace: quick
+        pitch: high
+    boy_2:
+      display_name: Second Boy
+      tts:
+        delivery: lively and practical
+        timbre: young and bright
+        pace: quick
+        pitch: high
+    goose:
+      display_name: Goose
+      tts:
+        delivery: startled and flustered
+        timbre: loud and nasal
+        pace: quick
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: The Wedding and the Fireworks
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: The King's son was getting married, and the whole kingdom rejoiced. He had waited a full year for his bride. At last, the Russian Princess arrived after traveling all the way from Finland in a sledge drawn by six reindeer. The sledge looked like a great golden swan, and the little Princess lay between its wings. Her long ermine cloak reached right down to her feet, and a tiny cap of silver cloth rested on her head. She was as pale as the Snow Palace where she had always lived. As she passed through the streets, everyone stared in wonder at her pale face.
+        - id: ch01-b02
+          speakers: [courtier_1, courtier_2]
+          ensemble: duo
+          text: She looks like a white rose!
+        - id: ch01-b03
+          speaker: narrator
+          text: People threw flowers from their balconies as she passed. The Prince waited at the castle gate to welcome her. He had dreamy violet eyes and hair like fine gold. The moment he saw her, he sank to one knee and kissed her hand.
+        - id: ch01-b04
+          speaker: prince
+          text: Your portrait was beautiful, but you are even more beautiful.
+        - id: ch01-b05
+          speaker: narrator
+          text: The Princess blushed.
+        - id: ch01-b06
+          speaker: page
+          text: She was a white rose before. Now she is a red rose!
+          emotion: happy
+        - id: ch01-b07
+          speaker: narrator
+          text: The whole Court was delighted by that remark. For the next three days, everyone who crossed the palace repeated, "White rose, red rose. Red rose, white rose." The King was so pleased that he ordered the Page's salary doubled. Since the Page received no salary at all, doubling it did him little good. Still, the courtiers considered the order a great honour, and it was properly announced in the Court Gazette for everyone to admire.
+        - id: ch01-b08
+          speaker: narrator
+          text: When those three days were over, the wedding took place. It was a magnificent ceremony. The bride and groom walked hand in hand beneath a purple velvet canopy embroidered with tiny pearls. Then came a State Banquet that lasted for five hours. The Prince and Princess sat at the head of the Great Hall and drank from a cup of perfectly clear crystal. Only true lovers could drink from it. The moment false lips touched the crystal, it would grow grey, dull, and cloudy.
+        - id: ch01-b09
+          speaker: page
+          text: They clearly love each other. The proof is as clear as that crystal!
+        - id: ch01-b10
+          speaker: narrator
+          text: The King doubled his salary again.
+        - id: ch01-b11
+          speakers: [courtier_1, courtier_2]
+          ensemble: duo
+          text: What a tremendous honour!
+        - id: ch01-b12
+          speaker: narrator
+          text: After the banquet came a ball. The bride and groom would dance the Rose-dance together, while the King played the flute for them. The trouble was that the King played terribly. No one had ever dared tell him, because he was the King. In fact, he knew only two tunes and was never entirely certain which one he happened to be playing. It made no difference to his audience. Whatever sound came from the flute, the Court always gave the same answer.
+        - id: ch01-b13
+          speakers: [courtier_1, courtier_2]
+          ensemble: duo
+          text: Charming! Simply charming!
+        - id: ch01-b14
+          speaker: narrator
+          text: The last event on the program would be a grand firework display, beginning at exactly midnight. The little Princess had never seen a single firework in her life, so the King ordered the Royal Pyrotechnist to attend on her wedding day and prepare a display for her.
+        - id: ch01-b15
+          speaker: princess
+          text: What are fireworks like?
+        - id: ch01-b16
+          speaker: narrator
+          text: She had asked the Prince, but the King always answered questions meant for someone else.
+        - id: ch01-b17
+          speaker: king
+          text: They resemble the Northern Lights, only they are much more natural. I prefer them to stars. With fireworks, you always know when they will appear. They are every bit as delightful as my flute playing. You must see them.
+        - id: ch01-b18
+          speaker: narrator
+          text: A great stand was built at the far end of the King's garden. Once the Royal Pyrotechnist had put every firework in its proper place, they had nothing to do but wait, so they began talking among themselves.
+        - id: ch01-b19
+          speaker: squib
+          text: What a beautiful world! Look at those yellow tulips. Even real crackers could hardly be lovelier. I am so glad I traveled. It opens the mind and chases away prejudice.
+          emotion: happy
+        - id: ch01-b20
+          speaker: roman_candle
+          text: The King's garden is not the whole world, you foolish little Squib. The world is enormous. Seeing all of it properly would take three days.
+        - id: ch01-b21
+          speaker: catherine_wheel
+          text: Wherever your love lives, that place becomes your world. But love has gone out of fashion. The poets wrote about it until no one believed in it. True love suffers without a word. I remember when I—oh, never mind. Romance belongs to the past.
+        - id: ch01-b22
+          speaker: narrator
+          text: The Catherine Wheel had once been fastened to an old plain wooden box, and she believed that early attachment had broken her heart. Ever since then, she took great pride in being sad about it.
+        - id: ch01-b23
+          speaker: roman_candle
+          text: Nonsense. Romance never dies. It lasts like the moon. Just look at the bride and groom. They love each other dearly. A brown-paper cartridge told me all about them this morning. We shared a drawer, and he knew the latest Court news.
+        - id: ch01-b24
+          speaker: catherine_wheel
+          text: Romance is dead. Romance is dead. Romance is dead.
+          emotion: sad
+        - id: ch01-b25
+          speaker: narrator
+          text: She believed that repeating something often enough would make it true. Then a sharp, dry cough made everyone turn around.
+        - id: ch01-b26
+          speaker: rocket
+          text: Ahem! Ahem!
+        - id: ch01-b27
+          speaker: narrator
+          text: The sound came from a tall Rocket tied to a long stick. He looked down on everyone. Before making any remark, he always coughed to attract attention. Everyone listened except the Catherine Wheel, who kept shaking her head.
+        - id: ch01-b28
+          speaker: catherine_wheel
+          text: Romance is dead.
+        - id: ch01-b29
+          speaker: cracker
+          text: Order! Let us have order!
+        - id: ch01-b30
+          speaker: narrator
+          text: The Cracker knew the right expression because he fancied himself a politician and took a leading part in local elections.
+        - id: ch01-b31
+          speaker: catherine_wheel
+          text: Quite dead.
+        - id: ch01-b32
+          speaker: narrator
+          text: Then she fell asleep. Once everything was silent, the Rocket coughed a third time. He spoke slowly and distinctly, as though dictating his life story. He even looked over the shoulder of anyone he addressed. To his own mind, this gave him a most distinguished manner.
+    - id: ch02
+      title: The Remarkable Rocket Speaks
+      blocks:
+        - id: ch02-b01
+          speaker: rocket
+          text: How fortunate for the King's son that his wedding falls on the very day I am to be launched. Even careful planning could not have served him better. Of course, princes are always lucky.
+        - id: ch02-b02
+          speaker: squib
+          text: Oh! I thought we were being launched to honour the Prince.
+          emotion: surprised
+        - id: ch02-b03
+          speaker: rocket
+          text: That may be true for you. In fact, I have no doubt it is. My case is completely different. I am a remarkable Rocket, and I come from remarkable parents. My mother was the most celebrated Catherine Wheel of her time, famous everywhere for the grace of her dancing. During her great public performance, she spun nineteen times before going out. With every turn, she threw seven pink stars high into the air. She measured three and a half feet across and was made from the very finest gunpowder.
+        - id: ch02-b04
+          speaker: rocket
+          text: My father was a Rocket like me, though his family came from France. At his finest performance, he flew so high that people feared he would never return. He did come down, however, because he had a kindly nature. His descent was brilliant, and golden rain poured through the sky around him. The newspapers described his performance in the most flattering language. The Court Gazette itself called him a triumph of Pylotechnic art.
+        - id: ch02-b05
+          speaker: bengal_light
+          text: You mean Pyrotechnic. I know the word because it is printed on my canister.
+        - id: ch02-b06
+          speaker: rocket
+          text: I said Pylotechnic.
+          emotion: angry
+        - id: ch02-b07
+          speaker: narrator
+          text: The Rocket gave this answer in such a severe voice that the Bengal Light felt completely crushed. He could not correct the Rocket again, so he immediately began bullying the little squibs instead. That way, he hoped everyone would see that he was still a person of some importance.
+        - id: ch02-b08
+          speaker: rocket
+          text: As I was saying... what was I saying?
+        - id: ch02-b09
+          speaker: roman_candle
+          text: You were talking about yourself.
+        - id: ch02-b10
+          speaker: rocket
+          text: Naturally. I knew the subject had been interesting before that rude interruption. I cannot bear rudeness or bad manners. I am extremely sensitive. No one else in the whole world is nearly as sensitive as I am.
+        - id: ch02-b11
+          speaker: cracker
+          text: What exactly is a sensitive person?
+        - id: ch02-b12
+          speaker: roman_candle
+          text: Someone with sore feet who spends all day stepping on everyone else's toes.
+        - id: ch02-b13
+          speaker: narrator
+          text: The Cracker nearly exploded with laughter.
+        - id: ch02-b14
+          speaker: rocket
+          text: Why are you laughing? I am not laughing.
+        - id: ch02-b15
+          speaker: cracker
+          text: I am laughing because I feel happy.
+          emotion: happy
+        - id: ch02-b16
+          speaker: rocket
+          text: What a selfish reason! What right have you to feel happy? You should think about other people. More precisely, you should think about me. I think about myself constantly, and I expect everyone else to do the same. That is sympathy, a beautiful virtue which I possess in abundance.
+          emotion: angry
+        - id: ch02-b17
+          speaker: rocket
+          text: Imagine if something happened to me tonight. What a disaster that would be for everyone! The Prince and Princess would never be happy again, and their entire married life would be ruined. As for the King, I know he would never recover from the loss. When I stop and consider the importance of my position, I can hardly hold back my tears.
+        - id: ch02-b18
+          speaker: roman_candle
+          text: If you want to please everybody, you had better stay dry.
+        - id: ch02-b19
+          speaker: bengal_light
+          text: Exactly. That is simple common sense.
+        - id: ch02-b20
+          speaker: rocket
+          text: Common sense? You forget that I am uncommon and remarkable. Anyone without imagination can have common sense. I have plenty of imagination. I never see things as they are. I always see them as something completely different.
+          emotion: angry
+        - id: ch02-b21
+          speaker: rocket
+          text: And now you tell me to keep dry! Clearly, no one here can appreciate an emotional nature. Fortunately for me, I do not care. The one thing that carries a person through life is knowing how enormously inferior everyone else is. I have carefully developed that feeling for years. But none of you has a heart. Here you sit, laughing and making merry, as though the Prince and Princess had not just been married.
+        - id: ch02-b22
+          speaker: fire_balloon
+          text: Why shouldn't we celebrate? A wedding is joyful. When I rise into the sky, I shall tell the stars about the pretty bride. Watch how they twinkle when they hear.
+          emotion: happy
+        - id: ch02-b23
+          speaker: rocket
+          text: What a shallow way to view life. Still, I expected nothing more. You are hollow and empty. Perhaps the Prince and Princess will move to a country with a deep river. Perhaps they will have one son, a fair-haired little boy with his father's violet eyes.
+        - id: ch02-b24
+          speaker: rocket
+          text: Then one day, perhaps his nurse will fall asleep beneath an elder tree while they are out walking. Perhaps the child will tumble into the river and drown. What a terrible disaster! Imagine losing their only son. The thought is too dreadful. I shall never recover.
+          emotion: sad
+        - id: ch02-b25
+          speaker: roman_candle
+          text: But they have not lost a son. Nothing bad has happened to them.
+        - id: ch02-b26
+          speaker: rocket
+          text: I never claimed it had happened. I said it might happen. If they had already lost their only son, there would be no use in saying another word about it. I cannot stand people who go on crying after the milk is spilled. But when I think that the Prince and Princess might lose their child one day, I become deeply affected.
+        - id: ch02-b27
+          speaker: bengal_light
+          text: It certainly does. You are the most affected person I have ever met.
+        - id: ch02-b28
+          speaker: rocket
+          text: And you are the rudest person I have ever met. You cannot understand my friendship with the Prince.
+          emotion: angry
+        - id: ch02-b29
+          speaker: roman_candle
+          text: You do not even know the Prince.
+        - id: ch02-b30
+          speaker: rocket
+          text: I never said I knew him. If I did, I probably would not be his friend. Knowing one's friends can be very dangerous.
+        - id: ch02-b31
+          speaker: fire_balloon
+          text: You truly ought to stay dry. That is what matters now.
+        - id: ch02-b32
+          speaker: rocket
+          text: Perhaps it matters to you. I shall cry whenever I choose.
+        - id: ch02-b33
+          speaker: narrator
+          text: And he really did burst into tears. They ran down his long stick like heavy raindrops and nearly drowned two little beetles nearby. The beetles were thinking of making a home together and had been carefully searching for a pleasant, dry place to live.
+        - id: ch02-b34
+          speaker: catherine_wheel
+          text: He must have a truly romantic nature. He cries when there is nothing to cry about.
+        - id: ch02-b35
+          speaker: narrator
+          text: She sighed deeply and thought of her old wooden box. The Roman Candle and Bengal Light were far less impressed.
+        - id: ch02-b36
+          speakers: [roman_candle, bengal_light]
+          ensemble: duo
+          text: Humbug! What absolute humbug!
+        - id: ch02-b37
+          speaker: narrator
+          text: They were extremely practical. Whenever they disliked something, they called it humbug.
+        - id: ch02-b38
+          speaker: narrator
+          text: Then the moon rose over the garden like a wonderful silver shield. One by one, the stars began to shine, and the sound of music drifted out from the palace. Inside, the Prince and Princess were leading the dance. They moved so beautifully that the tall white lilies peeped through the windows to watch them. The great red poppies nodded their heads and kept time with the music.
+        - id: ch02-b39
+          speaker: narrator
+          text: Ten o'clock struck, then eleven, and finally twelve. At the last stroke of midnight, everyone left the ballroom and came out onto the terrace to watch. The King summoned the Royal Pyrotechnist and waited for the grand display to begin.
+        - id: ch02-b40
+          speaker: king
+          text: Let the fireworks begin!
+        - id: ch02-b41
+          speaker: narrator
+          text: The Royal Pyrotechnist bowed low to the King and marched to the end of the garden. Six attendants followed him. Each man carried a burning torch at the end of a long pole. The display was magnificent. The Catherine Wheel whizzed as she spun round and round. The Roman Candle answered with one deep boom after another. Squibs danced wildly all over the ground, and Bengal Lights made the whole garden glow scarlet. The Crackers banged back and forth, enjoying every moment of their performance.
+        - id: ch02-b42
+          speaker: fire_balloon
+          text: Good-bye, everyone!
+          emotion: happy
+        - id: ch02-b43
+          speaker: narrator
+          text: The Fire-balloon floated away, dropping tiny blue sparks. Crackers banged with delight. Every firework was a great success except the Remarkable Rocket. His tears had soaked the best gunpowder inside him, and he could not go off at all.
+        - id: ch02-b44
+          speaker: narrator
+          text: All his poor relations went off beautifully. The Rocket had never spoken to any of them except with a sneer, yet now they flew into the sky like wonderful golden flowers opening blossoms of fire. The Court cheered from the terrace, and the little Princess laughed aloud with pleasure.
+        - id: ch02-b45
+          speakers: [courtier_1, courtier_2]
+          ensemble: duo
+          text: Hurray! Hurray!
+          emotion: happy
+        - id: ch02-b46
+          speaker: rocket
+          text: They must be saving me for some truly grand occasion. Yes, that must be the reason.
+        - id: ch02-b47
+          speaker: narrator
+          text: He looked down on everyone more proudly than ever.
+    - id: ch03
+      title: The Rocket in the Ditch
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The next day, workmen came to tidy the garden.
+        - id: ch03-b02
+          speaker: rocket
+          text: This is clearly an official delegation. I shall receive them with proper dignity.
+        - id: ch03-b03
+          speaker: narrator
+          text: He lifted his nose high in the air and put on a severe frown, as though he were thinking about a matter of great importance. The workmen paid no attention to him while they cleaned. They were just about to leave when one of them finally noticed him.
+        - id: ch03-b04
+          speaker: workman
+          text: Look at this! What a bad rocket.
+        - id: ch03-b05
+          speaker: narrator
+          text: Without another thought, the man picked him up and tossed him over the garden wall into a muddy ditch.
+        - id: ch03-b06
+          speaker: rocket
+          text: Bad Rocket? That is impossible. He said Grand Rocket. The two expressions sound almost the same. Often, they mean the same thing.
+        - id: ch03-b07
+          speaker: narrator
+          text: He landed in the mud.
+        - id: ch03-b08
+          speaker: rocket
+          text: This is not a comfortable place. It must be a fashionable health resort, and they have sent me here to recover. My nerves are badly shaken. I certainly need rest.
+        - id: ch03-b09
+          speaker: narrator
+          text: A little Frog swam over to inspect the newcomer. His bright eyes shone like jewels, and he wore a green, mottled coat.
+        - id: ch03-b10
+          speaker: frog
+          text: I see we have a new arrival! Nothing compares with mud. Give me rain and a ditch, and I am perfectly happy. Do you think the afternoon will be wet? I hope so, but the sky is blue and cloudless. What a shame!
+        - id: ch03-b11
+          speaker: rocket
+          text: Ahem! Ahem!
+        - id: ch03-b12
+          speaker: frog
+          text: What a lovely voice! It sounds almost like a croak, which is the finest music in the world. You must hear our singing club tonight. We gather at the old duck pond beside the farmhouse and begin when the moon rises.
+          emotion: happy
+        - id: ch03-b13
+          speaker: frog
+          text: Our songs are so delightful that everyone stays awake to listen. Only yesterday, the farmer's wife told her mother she could not sleep a wink because of us. It is wonderful to be so popular.
+        - id: ch03-b14
+          speaker: narrator
+          text: The Rocket coughed again, more angrily this time. The Frog had not paused once to let him answer, and the Rocket was very annoyed that he could not get a word into the conversation.
+        - id: ch03-b15
+          speaker: rocket
+          text: Ahem! Ahem!
+          emotion: angry
+        - id: ch03-b16
+          speaker: frog
+          text: Yes, you certainly have a delightful voice. I hope you will come over to the duck pond this evening. For now, I must go and find my daughters. I have six beautiful girls, and I am terribly afraid the Pike may meet them before I do. He is a perfect monster. He would eat every one of them for breakfast without a second thought. Well, good-bye. I assure you, I have thoroughly enjoyed our conversation.
+        - id: ch03-b17
+          speaker: rocket
+          text: Conversation? You did all the talking. That is not a conversation.
+          emotion: angry
+        - id: ch03-b18
+          speaker: frog
+          text: Someone has to listen, and I prefer to do all the talking. It saves time and stops arguments.
+        - id: ch03-b19
+          speaker: rocket
+          text: But I enjoy arguments.
+        - id: ch03-b20
+          speaker: frog
+          text: I hope you do not. Arguments are terribly vulgar. In good society, everyone holds exactly the same opinions. Good-bye again. I can see my daughters over there.
+        - id: ch03-b21
+          speaker: narrator
+          text: With that second good-bye, the little Frog turned around and swam away to find his six daughters.
+        - id: ch03-b22
+          speaker: rocket
+          text: What an irritating, ill-bred creature! I hate it when someone talks about himself while I am trying to talk about myself. That is selfishness, and selfishness is especially hateful to someone with my temperament. Everyone knows how sympathetic I am.
+        - id: ch03-b23
+          speaker: rocket
+          text: He should copy my example. No better model exists. He ought to seize the chance while he can, because I shall soon return to Court. I am a great favourite there. The Prince and Princess were married yesterday in my honour. Of course, a provincial creature like him knows nothing about Court life.
+        - id: ch03-b24
+          speaker: dragonfly
+          text: There is no point talking to him. He has already gone.
+        - id: ch03-b25
+          speaker: narrator
+          text: A Dragon-fly had been sitting on top of a large brown bulrush, listening to the Rocket talk to someone who was no longer there.
+        - id: ch03-b26
+          speaker: rocket
+          text: That is his loss, not mine. I shall not stop talking merely because no one listens. Hearing myself speak is one of my greatest pleasures. I often hold long conversations alone. I am so clever that sometimes even I cannot understand a word I say.
+        - id: ch03-b27
+          speaker: dragonfly
+          text: In that case, you should give lectures on Philosophy.
+        - id: ch03-b28
+          speaker: narrator
+          text: The Dragon-fly spread his beautiful gauzy wings and flew into the sky.
+        - id: ch03-b29
+          speaker: rocket
+          text: How silly of him to leave! He cannot often get a chance to improve his mind. Still, I do not care. One day, genius like mine will surely be appreciated.
+        - id: ch03-b30
+          speaker: narrator
+          text: Certain that his genius would have its day, he sank a little deeper into the mud and waited.
+    - id: ch04
+      title: The Duck and the Boys
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: After some time, a large White Duck swam toward him. She had yellow legs and broad webbed feet. The other ducks considered her a great beauty because of the graceful way she waddled.
+        - id: ch04-b02
+          speaker: duck
+          text: Quack, quack, quack! What a curious shape you have. Were you born that way, or did something happen to you?
+        - id: ch04-b03
+          speaker: rocket
+          text: Clearly, you have always lived in the country. Otherwise, you would know who I am. Still, I forgive your ignorance. It would be unfair to expect others to be as remarkable as I am. You may be surprised to learn that I can fly into the sky and return in a shower of golden rain.
+        - id: ch04-b04
+          speaker: duck
+          text: That does not impress me. What use is it? If you could plough a field like an ox, pull a cart like a horse, or guard sheep like a collie, then you would be doing something worthwhile.
+        - id: ch04-b05
+          speaker: rocket
+          text: My good creature, I can see that you belong to the lower classes. People in my position are never useful. We have accomplishments, and those are quite enough. I have no sympathy with work, especially the sort you recommend. Hard work is simply what people do when they have nothing else to occupy them.
+        - id: ch04-b06
+          speaker: duck
+          text: Well, everyone likes different things. At least I hope you plan to make your home here.
+        - id: ch04-b07
+          speaker: narrator
+          text: The Duck was peaceful by nature. She never quarreled with anyone, even when she thought they were talking nonsense.
+        - id: ch04-b08
+          speaker: rocket
+          text: Oh, certainly not. I am only visiting, though I am a distinguished visitor. This place bores me. It offers neither company nor solitude. It is thoroughly suburban. I shall probably return to Court, because I am destined to cause a sensation in the world.
+        - id: ch04-b09
+          speaker: duck
+          text: I once considered public life myself. So many things need changing. I even chaired a meeting where we passed resolutions against everything we disliked. They made little difference. Now I prefer family life, and I look after my children.
+        - id: ch04-b10
+          speaker: rocket
+          text: I was made for public life, and so was every member of my family, even the humblest among them. Whenever one of us appears, we attract enormous attention. I admit that I have not actually appeared before the public yet. But when I do, the sight will be magnificent. As for family life, it makes people old too quickly and pulls their minds away from all the higher things.
+        - id: ch04-b11
+          speaker: duck
+          text: Ah, the higher things in life! How fine they are. Speaking of high things reminds me how hungry I feel.
+        - id: ch04-b12
+          speaker: narrator
+          text: She swam away down the stream.
+        - id: ch04-b13
+          speaker: duck
+          text: Quack, quack, quack!
+        - id: ch04-b14
+          speaker: rocket
+          text: Come back! I still have a great deal to tell you!
+        - id: ch04-b15
+          speaker: narrator
+          text: The Duck paid no attention.
+        - id: ch04-b16
+          speaker: rocket
+          text: I am glad she left. Her mind is terribly middle-class.
+        - id: ch04-b17
+          speaker: narrator
+          text: He sank deeper into the mud and began thinking about the loneliness of genius. Just then, two little boys in white smocks came running down the bank. One carried a kettle, and they had gathered bundles of sticks for a fire.
+        - id: ch04-b18
+          speaker: rocket
+          text: This must be the official delegation.
+        - id: ch04-b19
+          speaker: narrator
+          text: He tried to look dignified.
+        - id: ch04-b20
+          speaker: boy_1
+          text: Look at this old stick! How do you suppose it got here?
+        - id: ch04-b21
+          speaker: narrator
+          text: The first boy pulled the Rocket from the ditch.
+        - id: ch04-b22
+          speaker: rocket
+          text: Old Stick? Impossible. He said Gold Stick, which is a great compliment. He must think I am an important officer at Court.
+        - id: ch04-b23
+          speaker: boy_2
+          text: Put it on the fire. It will help boil the kettle.
+        - id: ch04-b24
+          speaker: narrator
+          text: The boys piled their bundles of sticks together, placed the Rocket right on top, and lit the fire beneath him. They wanted the flames to heat their kettle.
+        - id: ch04-b25
+          speaker: rocket
+          text: Magnificent! They mean to launch me in broad daylight so that everyone can watch.
+          emotion: happy
+        - id: ch04-b26
+          speakers: [boy_1, boy_2]
+          ensemble: duo
+          text: We can sleep now. The kettle will be boiling when we wake.
+        - id: ch04-b27
+          speaker: narrator
+          text: They lay down on the grass, shut their eyes, and soon fell asleep. The Rocket was still terribly damp from his tears and the ditch, so he took a long time to catch fire. At last, however, the heat dried him enough, and the flames reached the gunpowder inside him.
+    - id: ch05
+      title: The Great Sensation
+      blocks:
+        - id: ch05-b01
+          speaker: rocket
+          text: Now I am going off! I shall fly higher than the stars, higher than the moon, even higher than the sun. I shall rise so high that—
+        - id: ch05-b02
+          speaker: narrator
+          text: Before he could finish the sentence, there came a long fizzing sound. The Rocket shot straight up into the air at last.
+        - id: ch05-b03
+          speaker: rocket
+          text: Delightful! I shall keep rising forever. What a success I am!
+          emotion: happy
+        - id: ch05-b04
+          speaker: narrator
+          text: But nobody saw him. The boys were still asleep, and no one else was looking toward the ditch. As the Rocket climbed, a strange tingling sensation ran through him from end to end.
+        - id: ch05-b05
+          speaker: rocket
+          text: Now I shall explode! I will set the whole world on fire and make so much noise that no one will discuss anything else for an entire year.
+        - id: ch05-b06
+          speaker: narrator
+          text: He certainly did explode. His gunpowder burst with three loud bangs, so there could be no doubt that he had finally gone off. Yet nobody heard him. Not even the two little boys noticed the noise, because they were still sound asleep on the grass.
+        - id: ch05-b07
+          speaker: narrator
+          text: When the smoke cleared, all that remained of the Remarkable Rocket was his long stick. It dropped from the sky and landed on the back of a Goose who happened to be taking a walk beside the ditch.
+        - id: ch05-b08
+          speaker: goose
+          text: Good heavens! It is going to rain sticks!
+          emotion: surprised
+        - id: ch05-b09
+          speaker: narrator
+          text: She rushed into the water.
+        - id: ch05-b10
+          speaker: rocket
+          text: I knew I would create a great sensation.
+        - id: ch05-b11
+          speaker: narrator
+          text: And with that, the Rocket went out.

@@ -1,0 +1,119 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，带着温和的学者式幽默
+        timbre: 温暖清晰，沉稳而不厚重
+        pace: 舒缓，遇到年代与专名时略作停顿
+        pitch: 中音
+    greek_king:
+      display_name: 希腊国王
+      tts:
+        delivery: 威严坦率，面对恩人时热情而坚定
+        timbre: 洪亮端正，带着久居王位的沉着
+        pace: 从容有力，驳斥诬陷时稍快
+        pitch: 中低音
+    physician_douban:
+      display_name: 杜班医生
+      tts:
+        delivery: 谦恭自信，说话清楚而有分寸
+        timbre: 清朗温和，带着学者的沉静
+        pace: 平稳舒缓，说明医嘱时条理分明
+        pitch: 中音
+    grand_vizir:
+      display_name: 宰相
+      tts:
+        delivery: 表面恭谨，话语里藏着猜忌与算计
+        timbre: 偏冷而低沉，略带压抑感
+        pace: 徐缓审慎，挑拨时刻意停顿
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 杜班医生入宫
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: |-
+            从前，波斯的祖曼国有一位希腊国王。他患了麻风病，宫里的医生想尽办法，也没能治好他。后来，一位医术高明的医生来到宫廷。他名叫杜班，通晓各种语言，对草药和医术也研究得很深。
+        - id: ch01-b02
+          speaker: narrator
+          text: |-
+            杜班听说国王的病情，便穿上最好的长袍，进宫拜见。
+        - id: ch01-b03
+          speaker: physician_douban
+          text: |-
+            陛下，我知道以前的医生都没能治好您。只要您照我的吩咐去做，我不用您服药，也不用往您身上涂药，就能让您痊愈。
+        - id: ch01-b04
+          speaker: narrator
+          text: |-
+            国王听完这个提议，答应了下来。
+        - id: ch01-b05
+          speaker: greek_king
+          text: |-
+            你若真能做到，我一定让你和你的子孙后代永享富贵。
+    - id: ch02
+      title: 球杆里的药
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: |-
+            杜班回到家，做了一根马球杆。他把杆柄掏空，装进配好的药物，又做了一只球。第二天，他带着球杆和球来见国王，请国王打一场马球。国王依言骑上马，来到平日打球的场地。杜班拿着那根特制的球杆走到国王面前。
+        - id: ch02-b02
+          speaker: physician_douban
+          text: |-
+            陛下，请用这根球杆击球，一直打到手掌和全身都热起来。您的手一焐热杆柄里的药，药力就会透进全身。打完以后，请回宫沐浴，再好好睡一觉。等明早醒来，您的病就会好了。
+        - id: ch02-b03
+          speaker: narrator
+          text: |-
+            国王接过球杆，催马追上杜班抛出的球，一杆打了出去。同场的侍臣把球击回来，国王又继续追赶。直到浑身发热，他才停手，回宫沐浴，把杜班的医嘱一一照办。
+        - id: ch02-b04
+          speaker: narrator
+          text: |-
+            第二天早晨，国王起身一看，麻风病竟然完全消失了。他又惊又喜。等他走进议事厅，早已等着看结果的侍臣们发现这神奇的疗法真的奏了效，也全都欢喜万分。
+    - id: ch03
+      title: 国王厚赏医生
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: |-
+            杜班走进大厅，深深俯身行礼。国王一见到恩人，立刻召他上前，让他坐在自己身旁，还处处以礼相待。
+        - id: ch03-b02
+          speaker: narrator
+          text: |-
+            当天晚上，国王赐给杜班一件华贵的长礼袍，又赏了两千枚金币。第二天，各种恩赏仍接连不断。
+        - id: ch03-b03
+          speaker: narrator
+          text: |-
+            可国王手下有一位宰相，既贪婪又善妒，心肠也很坏。他见杜班如此受宠，妒忌得不得了，一心想毁掉这个医生。于是，他请求单独觐见，说有一件极要紧的事必须禀报。
+        - id: ch03-b04
+          speaker: greek_king
+          text: 什么事？
+        - id: ch03-b05
+          speaker: grand_vizir
+          text: |-
+            陛下，一个人的忠心还没有得到证实，君主就信任他，实在太危险了。您怎么知道这个医生不是叛徒，不是特意来行刺您的呢？
+    - id: ch04
+      title: 宰相的挑拨
+      blocks:
+        - id: ch04-b01
+          speaker: greek_king
+          text: |-
+            我确信杜班忠诚正直。他要是想杀我，为什么还要先治好我的病？别再说他的坏话。我看得出，你只是妒忌他。你休想叫我因此对他变心。
+        - id: ch04-b02
+          speaker: greek_king
+          text: |-
+            我记得，辛巴德国王曾想处死自己的王子。那时，也有一位宰相劝阻过他的主人。
+        - id: ch04-b03
+          speaker: narrator
+          text: |-
+            这句话勾起了宰相的好奇心。
+        - id: ch04-b04
+          speaker: grand_vizir
+          text: |-
+            陛下，请您开恩告诉我，那位宰相究竟对辛巴德国王说了什么？
+        - id: ch04-b05
+          speaker: greek_king
+          text: |-
+            他劝辛巴德国王，不能把岳母说的话全都当真。接着，他讲了下面这个故事。

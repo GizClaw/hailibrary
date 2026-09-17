@@ -1,0 +1,111 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容讲述古老童话，带着一本正经的诙谐
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中
+    pupil:
+      display_name: 徒弟
+      tts:
+        delivery: 年轻冒失，害怕时气息急促
+        timbre: 清亮单薄
+        pace: 中等偏快
+        pitch: 中高
+    beelzebub:
+      display_name: 别西卜
+      tts:
+        delivery: 凶恶逼人，命令短促而猛烈
+        timbre: 粗重如炉火轰鸣
+        pace: 缓慢有压迫感
+        pitch: 低
+  chapters:
+    - id: ch01
+      title: 锁在黑书里的秘密
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "从前，北方住着一位学问极深的人。天底下的语言，他样样都懂；造化之中藏着的奥秘，他也全都知晓。"
+        - id: ch01-b02
+          speaker: narrator
+          text: "他有一本黑色小牛皮包面的大书。书角包着铁，书扣也是铁的，还用铁链拴在一张钉死在地板上的桌子上。只有他能拿铁钥匙开锁，也只有他能读书里的内容，因为那里面藏着灵界的一切秘密。"
+        - id: ch01-b03
+          speaker: narrator
+          text: "书里记着天上有多少位天使。他们怎样排成队伍，怎样分班歌唱，各自担任什么职分，那些大能天使又分别叫什么名字，全都写得清清楚楚。"
+        - id: ch01-b04
+          speaker: narrator
+          text: "群魔的事也都记在里面。它们有多少，各有什么法力，做些什么事，叫什么名字，怎样才能把它们召来，又该怎样吩咐它们办事，甚至怎样锁住它们，让它们像奴仆一样听命，书里一样也没有漏掉。"
+        - id: ch01-b05
+          speaker: narrator
+          text: "这位师傅有个徒弟，是个十足的傻小子。他留在大学者身边当仆人，可师傅从不许他碰那本黑书，就连那间密室，也几乎不让他进去。"
+    - id: ch02
+      title: 偷读咒语
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "一天，师傅出了门。小伙子实在压不住好奇心，赶紧溜进那间密室。"
+        - id: ch02-b02
+          speaker: narrator
+          text: "师傅的神奇家什都放在那里。有些器具能把铜变成金，把铅变成银；有一面镜子，能照出世上正在发生的一切；还有一只海螺。只要把它贴到耳边，师傅想打听谁，它就会送来那个人说的每一句话。"
+        - id: ch02-b03
+          speaker: narrator
+          text: "小伙子先摆弄那些坩埚，可铜还是铜，铅还是铅，根本变不成金银。他又盯着镜子看了半天，只见烟雾和云影从镜面掠过，什么也看不清。最后，他把海螺贴到耳边，里面只有模模糊糊的低鸣，像远方的海浪拍着一片无人知晓的岸。"
+        - id: ch02-b04
+          speaker: pupil
+          text: "我什么都做不成。我不知道该念哪些咒语，那些话全锁在那边的书里。"
+        - id: ch02-b05
+          speaker: narrator
+          text: "他回头一看——那本书竟然没锁！原来师傅出门前忘了扣上铁锁。小伙子扑到桌边，翻开大书。纸上的字有红有黑，大半他都不认识。于是，他用手指按住其中一行，一个字一个字地拼了起来。"
+    - id: ch03
+      title: 魔王别西卜
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "他刚念完，屋里顿时一片昏暗，整座房子也抖了起来。一声霹雳沿着走廊滚过，直震进这间老屋。小伙子面前出现了一个可怕至极的怪物。它嘴里喷着火，两只眼睛像燃烧的灯。那是魔王别西卜，小伙子已经把它召来听命了。"
+        - id: ch03-b02
+          speaker: beelzebub
+          text: "给我派件差事！"
+          emotion: angry
+        - id: ch03-b03
+          speaker: narrator
+          text: "那声音像铁炉在轰鸣。小伙子浑身发抖，连头发都一根根竖了起来。"
+        - id: ch03-b04
+          speaker: beelzebub
+          text: "快给我派件差事，不然我就掐死你！"
+          emotion: angry
+        - id: ch03-b05
+          speaker: narrator
+          text: "小伙子怕得一句话也说不出。恶魔一步步逼近，伸手碰住他的喉咙。那些手指烫得他皮肉生疼。"
+        - id: ch03-b06
+          speaker: beelzebub
+          text: "给我派件差事！"
+          emotion: angry
+        - id: ch03-b07
+          speaker: pupil
+          text: "给那盆花浇水！"
+          emotion: fearful
+        - id: ch03-b08
+          speaker: narrator
+          text: "小伙子绝望地指向地板上的一盆天竺葵。恶魔立刻离开屋子，转眼就背着一只大桶回来了。它把整桶水倒在花上，又跑出去运水。一趟，两趟，三趟，水越倒越多，很快便淹过了脚踝。"
+    - id: ch04
+      title: 漫过下巴的水
+      blocks:
+        - id: ch04-b01
+          speaker: pupil
+          text: "够了！够了！"
+          emotion: fearful
+        - id: ch04-b02
+          speaker: narrator
+          text: "小伙子喘着气喊，可恶魔根本不听。他不知道用什么咒语才能把它送走，别西卜还在不停地搬水。"
+        - id: ch04-b03
+          speaker: narrator
+          text: "水先涨到小伙子的膝盖，又漫到腰间。别西卜仍旧一桶接一桶地倒。等水升到腋下，小伙子只好爬到桌面上。水很快顶到了窗边，拍打着玻璃，又在他脚边打着旋儿。接着，水没过了他的胸口。"
+        - id: ch04-b04
+          speaker: narrator
+          text: "任凭小伙子怎么呼喊，恶魔也不肯离开。要不是师傅及时赶回，别西卜恐怕直到今天还在倒水，整个约克郡也早就被它淹掉了。"
+        - id: ch04-b05
+          speaker: narrator
+          text: "原来师傅走在路上，忽然想起那本书没有上锁，便赶紧折返回来。就在水咕嘟咕嘟涌到徒弟下巴边的时候，他冲进屋里，念出咒语，把别西卜赶回了烈火熊熊的老巢。"

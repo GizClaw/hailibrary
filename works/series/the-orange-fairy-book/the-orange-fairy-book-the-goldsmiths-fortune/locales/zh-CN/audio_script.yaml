@@ -1,0 +1,166 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 沉稳有力，带古老传说的庄重感
+        timbre: 温厚清晰
+        pace: 舒缓而富有张力
+        pitch: 中低
+    goldsmith:
+      display_name: 金匠
+      tts:
+        delivery: 圆滑机敏，得意时带着狡黠
+        timbre: 饱满厚实
+        pace: 适中
+        pitch: 中低
+    stranger:
+      display_name: 外乡人
+      tts:
+        delivery: 起初客气，受冷落后暴躁，闯祸后慌乱
+        timbre: 清晰有力
+        pace: 适中偏快
+        pitch: 中
+    villager_1:
+      display_name: 村民甲
+      tts:
+        delivery: 贪婪粗鲁，遇事冲动
+        timbre: 粗哑
+        pace: 稍快
+        pitch: 中低
+    villager_2:
+      display_name: 村民乙
+      tts:
+        delivery: 多疑急躁，容易随众起哄
+        timbre: 干涩响亮
+        pace: 稍快
+        pitch: 中
+    villager_3:
+      display_name: 村民丙
+      tts:
+        delivery: 鲁莽贪心，说话直冲冲
+        timbre: 浑厚
+        pace: 适中偏快
+        pitch: 低
+    villager_4:
+      display_name: 村民丁
+      tts:
+        delivery: 好占便宜，跟风时格外起劲
+        timbre: 尖亮结实
+        pace: 快
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 牧人的毒计
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前有一座村子，住在那里的人坏到了极点，也贪到了极点。可金匠身处这群人当中，日子偏偏过得富足滋润，还把自己养得胖胖的。他只有一个交好的朋友。那是个替村中一户农家放牛的牧人。每天傍晚，金匠总要穿过村子，登门找他。
+        - id: ch01-b02
+          speaker: goldsmith
+          text: 来吧，咱们出去走一走！
+        - id: ch01-b03
+          speaker: narrator
+          text: 牧人在外面放了一整天牛，晚上只想坐着歇息，根本不愿散步。可是金匠天天纠缠，他只好一次次勉强跟去。后来，牧人烦透了，一心想同金匠翻脸，好让对方再也不来找他。他向另一个牧人讨主意，那人竟说，只要杀掉金匠的妻子，金匠必会把他当成仇敌，再也不会邀他散步。牧人本来就糊涂，而当地又没有严明的法律，犯下这种罪也未必会受惩罚。一天傍晚，他拎着粗棍来到金匠家，趁金匠太太独自在屋里，狠狠打中她的脑袋，当场要了她的命。
+        - id: ch01-b04
+          speaker: narrator
+          text: 金匠回家看见妻子死去，什么也没说。他把尸体搬进漆黑的小巷，让她靠着自家墙壁站好，自己躲进院子等着。不久，一个有钱的外乡人走来。他以为墙边站着活人，便向她问候。
+        - id: ch01-b05
+          speaker: stranger
+          text: 晚上好，朋友！今晚天气真不错！
+        - id: ch01-b06
+          speaker: narrator
+          text: 金匠太太一声不响。外乡人放大声音，又说了一遍，还是没有回答。第三回，他扯开嗓子喊起来。
+        - id: ch01-b07
+          speaker: stranger
+          text: 晚上好！你没听见吗？难道你聋了？
+        - id: ch01-b08
+          speaker: narrator
+          text: 墙边的人影仍不作声。外乡人认定对方故意无礼，顿时火冒三丈。他捡起一块大石头，朝那人影扔去。
+        - id: ch01-b09
+          speaker: stranger
+          text: 给你这一石头，看你还懂不懂规矩！
+          emotion: angry
+        - id: ch01-b10
+          speaker: narrator
+          text: 金匠太太一下倒在地上。外乡人以为自己闯下大祸，吓得不知所措。金匠立刻冲出来，一把抓住他。
+        - id: ch01-b11
+          speaker: goldsmith
+          text: 你这个恶棍，竟敢杀死我的妻子！我一定送你去治罪！
+          emotion: angry
+        - id: ch01-b12
+          speaker: narrator
+          text: 外乡人连声分辩求饶，金匠则不住斥骂。两人争吵许久，外乡人苦苦央求他别把事情说出去，还答应拿一大笔钱补偿这场意外。金匠终于平静下来，收下一千枚金币。外乡人马上帮他埋了妻子，又赶回客店收拾行李。天刚亮，他便匆匆逃走，生怕金匠反悔，告他杀人。
+    - id: ch02
+      title: 卖掉死去的妻子
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 没过多久，大家便发现，金匠手里忽然多了许多钱。村民都觉得事情蹊跷，追着他问个不停，最后非要他亲口说出突然发财的缘故。
+        - id: ch02-b02
+          speaker: goldsmith
+          text: 我的妻子死了，我把她卖了。
+        - id: ch02-b03
+          speakers: [villager_1, villager_2, villager_3, villager_4]
+          ensemble: chorus
+          text: 什么？你把死去的妻子卖掉了？
+          emotion: surprised
+        - id: ch02-b04
+          speaker: goldsmith
+          text: 没错。
+        - id: ch02-b05
+          speaker: villager_1
+          text: 那你卖了多少钱？
+        - id: ch02-b06
+          speaker: goldsmith
+          text: 整整一千枚金币。
+        - id: ch02-b07
+          speaker: narrator
+          text: 村民听完立刻回家，各自抓住自己的妻子，把她们活活掐死。第二天，他们带着尸体出门售卖，一英里又一英里，走得疲惫不堪。可每逢开口兜售，别人不是怒骂，就是大笑，或是把最近的墓地指给他们。村民这才明白，他们不知怎么中了金匠的骗局。
+        - id: ch02-b08
+          speaker: narrator
+          text: 众人怒冲冲赶回村里，抓住这个倒霉的金匠。无论他怎样哭喊哀求，都没有人肯停下来听上一句。他们把他一路拖到河岸，专挑水最深、水草最密、也最肮脏的地方，把他扔了进去。扑通一声，金匠沉了下去。
+        - id: ch02-b09
+          speakers: [villager_1, villager_2, villager_3, villager_4]
+          ensemble: chorus
+          text: 这就是捉弄我们的下场！他不会游水，这回一定淹死，再也不能来害人了！
+          emotion: angry
+    - id: ch03
+      title: 河底的水牛
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 金匠确实不会游水。他一落进深河，就沉到了水面下。村民以为他死定了，放心离开。可是河水把半淹半死的金匠冲过下一道弯。那里漂着一根沉木，也就是贴着水面漂流的一截树木或灌木。金匠死死攀住它，侥幸在下游两三英里外爬上了岸。
+        - id: ch03-b02
+          speaker: narrator
+          text: 上岸的地方正好有一头漂亮肥壮的母水牛。金匠二话不说，立刻跨上牛背，一路骑回村子。村民看见本该淹死的人竟骑着水牛回来，全都惊得从家里跑出来，围上前去。
+        - id: ch03-b03
+          speakers: [villager_1, villager_2, villager_3, villager_4]
+          ensemble: chorus
+          text: 你究竟从哪里回来的？这头水牛又是哪儿来的？
+          emotion: surprised
+        - id: ch03-b04
+          speaker: goldsmith
+          text: 你们哪能想到，我遇上了多么美妙的奇事！你们把我扔下去的那片河底，有草地，有树木，还有肥美的牧场。那里到处都是水牛和各种牲口。我实在舍不得回来，只是想着一定得把这个好消息告诉大家。
+        - id: ch03-b05
+          speaker: narrator
+          text: 贪婪的村民听见河底有白白送人的水牛，也想下去牵几头回来。金匠又在一旁不断撺掇。第二天一早，村里几乎所有人都奔到了河边。
+    - id: ch04
+      title: 金匠的好运
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 为了尽快沉到金匠所说的美丽地方，村民把大石头绑在脚上，又挂在脖子上。他们争先恐后，一个接一个跳进河里，结果纷纷被水淹没。只要有人挥动双手，拼命挣扎，金匠便指着水面，朝岸上那些心里犯疑的人高喊。
+        - id: ch04-b02
+          speaker: goldsmith
+          text: 快看，他在招手叫你们下去！他已经找到一头好水牛啦！
+        - id: ch04-b03
+          speaker: narrator
+          text: 原本还在迟疑的人听了，也纷纷跳进水中，最后一个也没有留下。狡猾的金匠回到村里，把整座村子都据为己有，从此成了大富翁。
+        - id: ch04-b04
+          speaker: narrator
+          text: 可他真的幸福吗？一点也不。谎言从来不能让人幸福。金匠的确胜过了那群邪恶贪婪的村民，可他自己也用了同样邪恶、同样贪婪的手段。钱越多，他长得越胖，最后胖得连身子都动不了。一天，他中了风，死去了。世上没有一个人关心他的死活。
+        - id: ch04-b05
+          speaker: narrator
+          text: 这个故事，是一位普什图人讲给坎贝尔少校听的。

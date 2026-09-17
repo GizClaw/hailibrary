@@ -1,0 +1,207 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, thoughtful, and gently amused
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    second_old_man:
+      display_name: Second Old Man
+      tts:
+        delivery: sincere and quietly dignified
+        timbre: warm and weathered
+        pace: unhurried
+        pitch: medium-low
+    eldest_brother:
+      display_name: Eldest Brother
+      tts:
+        delivery: subdued and troubled
+        timbre: dry and mature
+        pace: measured
+        pitch: medium-low
+    second_brother:
+      display_name: Second Brother
+      tts:
+        delivery: eager and persuasive
+        timbre: clear and mature
+        pace: moderate
+        pitch: medium
+    fairy_wife:
+      display_name: Fairy Wife
+      tts:
+        delivery: graceful, firm, and commanding
+        timbre: luminous and clear
+        pace: measured
+        pitch: medium-high
+    genius:
+      display_name: Genius
+      tts:
+        delivery: powerful and solemn
+        timbre: deep and resonant
+        pace: deliberate
+        pitch: low
+    scheherazade:
+      display_name: Scheherazade
+      tts:
+        delivery: poised and captivating
+        timbre: warm and elegant
+        pace: measured
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: Three Brothers
+      blocks:
+        - id: ch01-b01
+          speaker: second_old_man
+          text: >-
+            Great prince of the genii, these two black dogs and I were once three brothers. When our father died, he left each of us a thousand sequins. We all chose the same trade, opened shops, and became merchants.
+        - id: ch01-b02
+          speaker: second_old_man
+          text: >-
+            Before long, my eldest brother sold everything he owned. He bought goods for a voyage and left to trade in foreign lands. A whole year passed. Then one day, a beggar came into my shop. I greeted him, and he greeted me in return.
+        - id: ch01-b03
+          speaker: eldest_brother
+          text: >-
+            Can it be that you don't know me?
+        - id: ch01-b04
+          speaker: second_old_man
+          text: >-
+            I looked closely and saw my own brother. I brought him home and asked what had happened on his journey.
+        - id: ch01-b05
+          speaker: eldest_brother
+          text: >-
+            Please don't ask me. One look at me tells you all I have left. If I spoke of every misfortune that brought me to this state, I would only suffer through it again.
+          emotion: sad
+        - id: ch01-b06
+          speaker: second_old_man
+          text: >-
+            I closed my shop and cared for him. I took him to the bath and gave him my finest robes. Then I examined my accounts. My thousand sequins had become two thousand, so I gave him half.
+        - id: ch01-b07
+          speaker: second_old_man
+          text: >-
+            Brother, take these thousand sequins. Now you can put your losses behind you.
+        - id: ch01-b08
+          speaker: second_old_man
+          text: >-
+            He accepted the money with joy, and we lived together as we had before.
+        - id: ch01-b09
+          speaker: second_old_man
+          text: >-
+            Some time later, my second brother decided to sell his business and travel too. My eldest brother and I tried everything we could to change his mind, but he would not listen. He joined a caravan and left. A year later, he came home as poor as our eldest brother had been. I cared for him and gave him the thousand sequins I could spare. With that money, he opened his shop again.
+    - id: ch02
+      title: The Brothers Set Sail
+      blocks:
+        - id: ch02-b01
+          speaker: second_old_man
+          text: >-
+            One day, both my brothers came to me with a proposal.
+        - id: ch02-b02
+          speakers: [eldest_brother, second_brother]
+          ensemble: duo
+          text: >-
+            Come with us. The three of us can make a trading journey together.
+        - id: ch02-b03
+          speaker: second_old_man
+          text: >-
+            At first, I refused.
+        - id: ch02-b04
+          speaker: second_old_man
+          text: >-
+            You have both tried traveling. What did either of you gain from it?
+        - id: ch02-b05
+          speaker: second_old_man
+          text: >-
+            Still, they returned again and again, asking me to reconsider. I held out for five full years, but at last I gave in. When the time came to prepare, we began choosing the goods for our voyage. That was when I learned that my brothers had spent every one of the thousand sequins I had given each of them.
+        - id: ch02-b06
+          speaker: second_old_man
+          text: >-
+            I did not scold them. By then, I had six thousand sequins. I gave each brother one thousand and kept one thousand for myself. The other three thousand I buried in a corner of my house. Then we bought our merchandise, loaded it onto a ship, and sailed away with a favorable wind.
+        - id: ch02-b07
+          speaker: second_old_man
+          text: >-
+            After two months at sea, we reached a port and went ashore. Our trading there went very well. Before leaving, we used what we had earned to buy the merchandise of that country. Just as we were ready to sail again, a beautiful woman in poor clothes stopped me on the shore. She kissed my hand and begged me to marry her and take her aboard.
+        - id: ch02-b08
+          speaker: second_old_man
+          text: >-
+            I refused at first. But she pleaded so earnestly and promised to be such a good wife that I finally agreed. I found beautiful clothes for her, married her, and took her with me when we set sail.
+    - id: ch03
+      title: Betrayal at Sea
+      blocks:
+        - id: ch03-b01
+          speaker: second_old_man
+          text: >-
+            As the voyage went on, I discovered how many good qualities my wife possessed. Each day, I loved her more. My brothers saw my good fortune and grew jealous. Secretly, they began to plan my death.
+        - id: ch03-b02
+          speaker: second_old_man
+          text: >-
+            One night, while my wife and I were asleep, my brothers threw us both into the sea. But my wife was a fairy. She kept me from drowning and carried me to an island.
+        - id: ch03-b03
+          speaker: second_old_man
+          text: >-
+            At dawn, she told me the truth.
+        - id: ch03-b04
+          speaker: fairy_wife
+          text: >-
+            When I saw you on the shore, I took a great liking to you. I wanted to test your goodness, so I came to you in the poor disguise you saw. You have your reward now, because I saved your life. But your brothers have made me furious. I will not rest until I have killed them.
+          emotion: angry
+        - id: ch03-b05
+          speaker: second_old_man
+          text: >-
+            I thanked the fairy for saving me, but I begged her not to take my brothers' lives. At last, I soothed her anger.
+        - id: ch03-b06
+          speaker: second_old_man
+          text: >-
+            In a single moment, she carried me from the island to the roof of my own house. Then she vanished. I went downstairs, opened the doors, and dug up the three thousand sequins I had buried. After that, I reopened my shop. The other merchants welcomed me back and congratulated me on my return.
+    - id: ch04
+      title: The Two Black Dogs
+      blocks:
+        - id: ch04-b01
+          speaker: second_old_man
+          text: >-
+            When I reached home, two black dogs came toward me with sorrowful faces. I stared at them in astonishment. Just then, the fairy appeared again.
+        - id: ch04-b02
+          speaker: fairy_wife
+          text: >-
+            Do not wonder at these dogs. They are your two brothers. I have sentenced them to live in these shapes for ten years.
+        - id: ch04-b03
+          speaker: second_old_man
+          text: >-
+            She told me where I could find news of her, and then she disappeared.
+        - id: ch04-b04
+          speaker: second_old_man
+          text: >-
+            Those ten years are nearly over, so I am traveling to find her. Along the way, I met this merchant and the old man with the hind. That is why I stopped here with them.
+        - id: ch04-b05
+          speaker: second_old_man
+          text: >-
+            This is my history, O prince of the genii. Do you not agree that it is a most marvelous tale?
+        - id: ch04-b06
+          speaker: genius
+          text: >-
+            Indeed it is. For your story, I give up one third of the merchant's punishment.
+    - id: ch05
+      title: The Merchant Is Freed
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            Then the third old man made the same request as the first two. The genius promised to release the final third of the merchant's punishment if this last tale surpassed both the others.
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            The old man told his story to the genius. I cannot repeat it, because I do not know it. I do know that it was even more marvelous than the first two. The genius listened in astonishment.
+        - id: ch05-b03
+          speaker: genius
+          text: >-
+            I give up the last third of the merchant's punishment. Merchant, you should thank all three old men for taking your part. Without them, you would no longer be alive.
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            With those words, the genius vanished, and everyone rejoiced. The merchant made sure to thank his friends. Then they all went their separate ways. He returned to his wife and children and lived happily with them for the rest of his days.
+        - id: ch05-b05
+          speaker: scheherazade
+          text: >-
+            But, sire, lovely as these stories are, none of them can compare with the story of the Fisherman.

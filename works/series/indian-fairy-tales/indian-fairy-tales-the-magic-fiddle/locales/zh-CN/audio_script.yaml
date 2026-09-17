@@ -1,0 +1,202 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 郑重而亲切，带着学者讲述旧日故事的从容
+        timbre: 温暖清晰，沉稳而有书卷气
+        pace: 舒缓，论述转折处稍作停顿
+        pitch: 中低
+    sister:
+      display_name: 妹妹
+      tts:
+        delivery: 善良温顺，哀歌凄切，面对不公时克制而坚定
+        timbre: 清澈柔和，带有年轻女子的明亮质感
+        pace: 适中，哀歌时缓慢而有韵律
+        pitch: 中高
+    sister_in_law_1:
+      display_name: 大嫂
+      tts:
+        delivery: 心怀怨恨，说话刻薄而算计
+        timbre: 偏冷而清晰
+        pace: 适中，谋划时略快
+        pitch: 中
+    sister_in_law_2:
+      display_name: 二嫂
+      tts:
+        delivery: 随声附和，语气不满而尖刻
+        timbre: 清亮而略薄
+        pace: 稍快
+        pitch: 中高
+    sister_in_law_3:
+      display_name: 三嫂
+      tts:
+        delivery: 冷淡而怨怼，言语干脆
+        timbre: 稳而偏暗
+        pace: 适中
+        pitch: 中低
+    sister_in_law_4:
+      display_name: 四嫂
+      tts:
+        delivery: 工于心计，附和时毫不迟疑
+        timbre: 清楚而微显锋利
+        pace: 稍快
+        pitch: 中
+    jogi:
+      display_name: 乔吉修行者
+      tts:
+        delivery: 见多识广，平日从容，受戏弄时显出急躁
+        timbre: 粗粝而有穿透力
+        pace: 适中
+        pitch: 中低
+    young_chief:
+      display_name: 村长的儿子
+      tts:
+        delivery: 年轻直率，起初好强，动情后真诚果断
+        timbre: 明朗结实
+        pace: 适中偏快
+        pitch: 中
+  chapters:
+    - id: ch01
+      title: 水越涨越高
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有一家兄妹八人，七个哥哥都已经成了亲。嫂嫂们不肯给全家做饭，这件事一直由妹妹操持。她留在家中，既管厨房，也照料一家人的吃用。嫂嫂们见她不用下地，越想越不痛快，便合谋把她赶出厨房，好让她们当中的一个接手。
+        - id: ch01-b02
+          speakers: [sister_in_law_1, sister_in_law_2, sister_in_law_3, sister_in_law_4]
+          ensemble: chorus
+          text: 她整天安安稳稳待在家里，不用下地干活，可每顿饭还是不能按时做好！
+          emotion: angry
+        - id: ch01-b03
+          speaker: narrator
+          text: 她们向自家的邦伽神灵祈求，还许下种种誓愿，终于求得了帮助。
+        - id: ch01-b04
+          speakers: [sister_in_law_1, sister_in_law_2, sister_in_law_3, sister_in_law_4]
+          ensemble: chorus
+          text: 正午，小姑会去打水。请让水见到她的罐子就消失，再慢慢涨回来，把她拖在那里。别让水流进罐子，那个姑娘就送给你。
+        - id: ch01-b05
+          speaker: narrator
+          text: 到了正午，妹妹果然去打水。她刚走到水边，水便忽然干涸了。她哭了起来。过了一阵，水又一点点涨回，先没过她的脚踝。可她把水罐往下一按，罐子怎么也沉不进水里。妹妹害怕了，哭着呼唤哥哥。
+        - id: ch01-b06
+          speaker: sister
+          text: 哥哥呀，水已没到我的脚踝，哥哥呀，水罐还是沉不下来。
+          emotion: fearful
+        - id: ch01-b07
+          speaker: narrator
+          text: 水还在涨，渐渐没到她的膝头。
+        - id: ch01-b08
+          speaker: sister
+          text: 哥哥呀，水已没到我的膝头，哥哥呀，水罐还是沉不下来。
+          emotion: fearful
+        - id: ch01-b09
+          speaker: narrator
+          text: 水继续上涨，很快便到了她的腰间。
+        - id: ch01-b10
+          speaker: sister
+          text: 哥哥呀，水已没到我的腰间，哥哥呀，水罐还是沉不下来。
+          emotion: fearful
+        - id: ch01-b11
+          speaker: narrator
+          text: 水丝毫没有停，又涨到了她的颈项。
+        - id: ch01-b12
+          speaker: sister
+          text: 哥哥呀，水已没到我的颈项，哥哥呀，水罐还是沉不下来。
+          emotion: fearful
+        - id: ch01-b13
+          speaker: narrator
+          text: 最后，水深得快把她整个淹没。她觉得自己就要溺死了，只得放声呼喊。
+        - id: ch01-b14
+          speaker: sister
+          text: 哥哥呀，水已有一人那么高，哥哥呀，水罐终于灌起来了。
+          emotion: fearful
+        - id: ch01-b15
+          speaker: narrator
+          text: 水罐终于灌满，妹妹却跟着它一起沉了下去，淹死在水中。邦伽神灵把她也变成了邦伽，带走了她。
+    - id: ch02
+      title: 竹子做成的提琴
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 一段日子以后，妹妹重新出现了。她化成一根竹子，长在那座池塘的堤岸上，而且越长越高，越长越粗。一个常从那里路过的乔吉修行者看中了它。
+        - id: ch02-b02
+          speaker: jogi
+          text: 这么好的竹子，做出来的提琴一定非同寻常。
+        - id: ch02-b03
+          speaker: narrator
+          text: 一天，乔吉带着斧头回来。他走到竹子根前，刚要动手，竹子忽然说话了。
+        - id: ch02-b04
+          speaker: sister
+          text: 别从根上砍，往高处砍。
+        - id: ch02-b05
+          speaker: narrator
+          text: 乔吉举高斧头，对准竹秆上方。
+        - id: ch02-b06
+          speaker: sister
+          text: 别砍上头，还是从根上砍。
+        - id: ch02-b07
+          speaker: narrator
+          text: 他又回到根部，才摆好架势，竹子却再次改口。
+        - id: ch02-b08
+          speaker: sister
+          text: 不要砍根，往高处砍。
+        - id: ch02-b09
+          speaker: narrator
+          text: 等乔吉把斧头移到高处，它又叫他从根上砍。乔吉认定是哪个邦伽存心吓唬自己，顿时动了怒。他一斧砍断竹根，把竹子带回去，做成了一把提琴。
+        - id: ch02-b10
+          speaker: narrator
+          text: 那把琴的音色好得出奇，听过的人没有一个不喜欢。乔吉每次出门乞讨都带上它。凭着那甜美的琴声，到了晚上，他的袋子总是满的。
+        - id: ch02-b11
+          speaker: narrator
+          text: 乔吉偶尔也会走到姑娘的哥哥们家里。每当他拉起琴，那一家人便深受触动。有几个人甚至落下泪来，因为琴声听着不像乐曲，倒像有人忍着极深的痛苦，在低声哀哭。大哥愿意供养乔吉整整一年，只求他把琴卖给自己。可乔吉知道它有多珍贵，怎么也不肯答应。
+    - id: ch03
+      title: 琴中的姑娘
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 后来，乔吉来到一位村长家。拉过一两支曲子，他便向主人讨些吃的。村长家的人也被琴声迷住了，愿意出高价买琴。乔吉仍旧拒绝。这把琴能替他换来每天的饭食，他不能卖。
+        - id: ch03-b02
+          speaker: narrator
+          text: 见他不肯松口，村长家的人拿出食物，又备下许多酒。乔吉贪杯，很快便醉倒了。众人趁机拿走那把竹琴，放了一把自家的旧琴在他身边。等乔吉清醒，发现琴已被人调换，便向他们索要。可谁也不承认。乔吉没有办法，只能带着旧琴离开。
+        - id: ch03-b03
+          speaker: narrator
+          text: 村长的儿子懂得音律。从此，那把竹琴就由他来弹奏。不管谁听见琴声，都会觉得悦耳极了。
+        - id: ch03-b04
+          speaker: narrator
+          text: 白天，家里人全都下地干活，邦伽姑娘便从竹琴里走出来，为全家做好饭。她吃掉自己的一份，再把村长儿子的饭放到床下，仔细盖住，不让灰尘落进去，然后回到琴中。日子久了，家人以为是哪位相熟的姑娘在照顾年轻人，也就没有追查。
+        - id: ch03-b05
+          speaker: narrator
+          text: 村长的儿子却一定要弄清楚。他以为是某位姑娘让自己在众人面前难堪，便暗暗打定主意。
+        - id: ch03-b06
+          speaker: young_chief
+          text: 今天我非抓住她不可，还要狠狠教训她一顿。
+        - id: ch03-b07
+          speaker: narrator
+          text: 他躲进角落的一堆柴火里。没过多久，姑娘从琴中出来，先梳好头发，打扮整齐，再像往常一样煮饭。她吃过自己的份，又把年轻人的饭盖好，放到床下。就在她要返回琴中时，村长的儿子从柴堆里冲出来，一把抱住了她。
+        - id: ch03-b08
+          speaker: sister
+          text: 呸！呸！你也许是多姆，也许是哈迪，或是别的什么种姓。那样的人，我可不能嫁！
+          emotion: disgusted
+        - id: ch03-b09
+          speaker: young_chief
+          text: 我都不是。从今天开始，你和我就是一体了。
+        - id: ch03-b10
+          speaker: narrator
+          text: 于是，两个人亲亲热热地谈起话来。傍晚，家人从田里回来，看见这位既是人、又是邦伽的姑娘，大家都欢喜极了。
+    - id: ch04
+      title: 她唯一的报复
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 后来，姑娘的娘家渐渐穷了。一次，她的几个哥哥到村长家来做客。姑娘立刻认出了他们，哥哥们却一点也没有认出妹妹。
+        - id: ch04-b02
+          speaker: narrator
+          text: 她先给他们送上水，又端来煮熟的米饭。接着，她在哥哥们身旁坐下，用哀怨的声音，责问他们为什么任由妻子那样欺负自己。她从头说起，把落水以后遭遇的一切都告诉了他们。
+        - id: ch04-b03
+          speaker: sister
+          text: 这些事，你们一定都知道。可那时候，你们谁也没有来救我。
+          emotion: sad
+        - id: ch04-b04
+          speaker: narrator
+          text: 她的报复，便只有这一番话。

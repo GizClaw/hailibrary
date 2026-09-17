@@ -1,0 +1,71 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容讲述古老童话，带着一本正经的诙谐
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中
+    teeny_tiny_woman:
+      display_name: 小小的女人
+      tts:
+        delivery: 小心谨慎，受惊时声音发颤，最后鼓起勇气大喊
+        timbre: 轻细柔和
+        pace: 中等偏慢
+        pitch: 中高
+    cupboard_voice:
+      display_name: 柜中声音
+      tts:
+        delivery: 幽幽催索，声音虽小却一次比一次响亮
+        timbre: 细弱空冷
+        pace: 缓慢
+        pitch: 高
+  chapters:
+    - id: ch01
+      title: 小小的骨头
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "从前，有个小小的女人。她住在一座小小的村庄里，家也是一间小小的屋子。一天，她戴好小小的软帽，走出家门，想到外面散一会儿小小的步。走了小小的一段路，她来到一扇小小的门前。她推开门，发现里面是一片小小的墓地。"
+        - id: ch01-b02
+          speaker: narrator
+          text: "小小的女人走进墓地，看见一根小小的骨头，正放在一座小小的坟上。她心里有了主意。"
+        - id: ch01-b03
+          speaker: teeny_tiny_woman
+          text: "这根小小的骨头，可以煮一小锅小小的汤，正好当作我小小的晚饭。"
+        - id: ch01-b04
+          speaker: narrator
+          text: "于是，她把小小的骨头塞进小小的口袋，带回了那间小小的屋子。"
+    - id: ch02
+      title: 柜子里的声音
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "到家以后，小小的女人觉得有小小的一点儿累。她走上小小的楼梯，来到小小的床边，把骨头收进一个小小的柜子里。睡了小小的一会儿，她忽然醒了。小小的柜子里传出一个小小的声音。"
+        - id: ch02-b02
+          speaker: cupboard_voice
+          text: "把我的骨头还给我！"
+        - id: ch02-b03
+          speaker: narrator
+          text: "小小的女人受了小小的一点儿惊吓，赶紧把小小的脑袋藏到小小的被子底下，又睡着了。过了小小的一会儿，柜子里的声音再次响起，这回稍稍大了一点儿。"
+        - id: ch02-b04
+          speaker: cupboard_voice
+          text: "把我的骨头还给我！"
+    - id: ch03
+      title: 最响亮的小小声音
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "这下，小小的女人又多怕了小小的一点儿。她把脑袋往小小的被子底下缩得更深。小小的女人再次睡了小小的一会儿，柜子里的声音又来了，而且比刚才更响。"
+        - id: ch03-b02
+          speaker: cupboard_voice
+          text: "把我的骨头还给我！"
+        - id: ch03-b03
+          speaker: narrator
+          text: "小小的女人怕得更厉害了。可这一次，她从小小的被子底下探出小小的脑袋，用自己所能发出的最响亮的小小声音喊了回去。"
+        - id: ch03-b04
+          speaker: teeny_tiny_woman
+          text: "那你就拿去吧！"
+          emotion: fearful

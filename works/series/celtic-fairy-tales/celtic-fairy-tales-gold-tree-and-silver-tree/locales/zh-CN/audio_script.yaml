@@ -1,0 +1,248 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 沉静而富有古老传说的神秘感
+        timbre: 温暖清澈
+        pace: 从容舒缓
+        pitch: 中音
+    silver_tree:
+      display_name: 银树
+      tts:
+        delivery: 高傲执拗，问话时急于得到称赞
+        timbre: 冷亮锐利
+        pace: 中速
+        pitch: 中高音
+    gold_tree:
+      display_name: 金树
+      tts:
+        delivery: 温柔真挚，受惊时仍然清楚自然
+        timbre: 清澈柔美
+        pace: 中速
+        pitch: 中高音
+    trout:
+      display_name: 小鳟鱼
+      tts:
+        delivery: 坦率笃定，回答简短而毫不迟疑
+        timbre: 清脆灵动
+        pace: 中速
+        pitch: 高音
+    king:
+      display_name: 国王
+      tts:
+        delivery: 关切诚恳，说话稳重直接
+        timbre: 浑厚温和
+        pace: 从容
+        pitch: 中低音
+    servant_1:
+      display_name: 仆人甲
+      tts:
+        delivery: 忠诚果断，危急时沉着有力
+        timbre: 明朗坚实
+        pace: 中速
+        pitch: 中音
+    servant_2:
+      display_name: 仆人乙
+      tts:
+        delivery: 忠诚果断，与同伴答话整齐
+        timbre: 清亮坚定
+        pace: 中速
+        pitch: 中高音
+    second_wife:
+      display_name: 第二位妻子
+      tts:
+        delivery: 聪慧大度，言语从容而果断
+        timbre: 温润清晰
+        pace: 中速
+        pitch: 中音
+    prince:
+      display_name: 王子
+      tts:
+        delivery: 深情坦率，悲喜都真切自然
+        timbre: 清朗醇厚
+        pace: 中速
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 井里的鳟鱼
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 很久很久以前，有一位国王。他的妻子叫银树，女儿叫金树。一天，母女俩来到一座山谷。谷里有口井，井中住着一条鳟鱼。
+        - id: ch01-b02
+          speaker: silver_tree
+          text: 小鳟鱼，漂亮的小家伙，你说，我是不是世上最美的王后？
+        - id: ch01-b03
+          speaker: trout
+          text: 哦，你当然不是。
+        - id: ch01-b04
+          speaker: silver_tree
+          text: 那谁才是？
+        - id: ch01-b05
+          speaker: trout
+          text: 当然是你的女儿金树。
+        - id: ch01-b06
+          speaker: narrator
+          text: 银树回到家，气得眼前发黑。她倒在床上，发誓非吃到金树的心和肝，自己的病就永远好不了。天黑时，国王回来了。听说妻子病得很重，他赶到床边询问。
+        - id: ch01-b07
+          speaker: king
+          text: 你哪里不舒服？
+        - id: ch01-b08
+          speaker: silver_tree
+          text: 哦，不过是为了一件事。只要你肯做，我的病就能好。
+        - id: ch01-b09
+          speaker: king
+          text: 只要能治好你，无论什么事，我都愿意做。
+        - id: ch01-b10
+          speaker: silver_tree
+          text: 我要吃女儿金树的心和肝。吃到了，我的病就会好。
+        - id: ch01-b11
+          speaker: narrator
+          text: 恰在这时，远方一位大国王的儿子来向金树求婚。国王答应了，金树便随王子去了海外。随后，国王派手下到狩猎山捉来一只公山羊，把山羊的心和肝给银树吃。银树吃完，果然下了床，恢复了健康。
+    - id: ch02
+      title: 毒针
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 一年以后，银树又来到山谷，站在那口井边。
+        - id: ch02-b02
+          speaker: silver_tree
+          text: 小鳟鱼，漂亮的小家伙，现在我该是世上最美的王后了吧？
+        - id: ch02-b03
+          speaker: trout
+          text: 哦，你当然不是。
+        - id: ch02-b04
+          speaker: silver_tree
+          text: 那会是谁？
+        - id: ch02-b05
+          speaker: trout
+          text: 是你的女儿金树。
+        - id: ch02-b06
+          speaker: silver_tree
+          text: 哦，她早就死了。一年前，我已经吃掉了她的心和肝。
+        - id: ch02-b07
+          speaker: trout
+          text: 哦，她没有死。她嫁给了海外的一位大王子。
+        - id: ch02-b08
+          speaker: narrator
+          text: 银树回到家，请国王备好长船。她说，自己太久没有见到亲爱的金树，要去看看女儿。船一备好，他们就出发了。银树亲自掌舵，把船驶得飞快，没过多久便抵达了海外。
+        - id: ch02-b09
+          speaker: narrator
+          text: 那时，王子正在山上打猎。金树认出了父王驶来的长船。
+        - id: ch02-b10
+          speaker: gold_tree
+          text: 母亲来了。她一定会杀死我。
+          emotion: fearful
+        - id: ch02-b11
+          speakers: [servant_1, servant_2]
+          ensemble: duo
+          text: 她绝不能伤害你。我们把你锁进一间屋子，她就靠近不了你。
+        - id: ch02-b12
+          speaker: narrator
+          text: 仆人们照办了。银树一上岸，就站在外面高声呼喊。
+        - id: ch02-b13
+          speaker: silver_tree
+          text: 亲生母亲来看你了，你还不快出来迎接！
+        - id: ch02-b14
+          speaker: gold_tree
+          text: 我出不去。我被锁在屋里，门也打不开。
+        - id: ch02-b15
+          speaker: silver_tree
+          text: 那就把你的小指头从锁眼里伸出来吧，让亲生母亲亲一亲。
+        - id: ch02-b16
+          speaker: narrator
+          text: 金树把小指伸了出去。银树立刻拿毒针刺进她的手指，金树倒在地上，死了。
+    - id: ch03
+      title: 锁住的房间
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 王子回到家，看见金树已经死去，悲痛万分。可她依旧美丽，王子怎么也不肯将她下葬。他把金树锁进一间屋子，不许任何人靠近。
+        - id: ch03-b02
+          speaker: narrator
+          text: 过了一段日子，王子又娶了一位妻子。家中一切都由第二位妻子掌管，只有那间屋子例外。房门的钥匙，王子始终亲自保管。
+        - id: ch03-b03
+          speaker: narrator
+          text: 有一天，王子忘了带走钥匙。第二位妻子走进屋里，竟看见一位女子，美得胜过她一生见过的所有人。她走上前，轻轻翻动金树的身体，想尽办法唤她醒来，忽然发现她的手指上扎着一根毒针。毒针一拔出来，金树立刻活了，仍和从前一样美丽。
+        - id: ch03-b04
+          speaker: narrator
+          text: 天快黑时，王子从狩猎山回来，神情十分沮丧。
+        - id: ch03-b05
+          speaker: second_wife
+          text: 要是我能让你笑起来，你愿意送我什么礼物？
+        - id: ch03-b06
+          speaker: prince
+          text: 哦，除非金树能够死而复生，否则什么也不能让我笑起来。
+          emotion: sad
+        - id: ch03-b07
+          speaker: second_wife
+          text: 那你到楼下那间屋看看吧。她正在那里，活得好好的。
+        - id: ch03-b08
+          speaker: narrator
+          text: 王子见金树果真活了，欢喜得不得了。他抱住金树，亲了又亲，亲了又亲。
+        - id: ch03-b09
+          speaker: second_wife
+          text: 既然她是你先娶的妻子，你就和她在一起吧。我该离开了。
+        - id: ch03-b10
+          speaker: prince
+          text: 哦，你不能走。我要把你们两个都留下。
+    - id: ch04
+      title: 第三次回答
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 又到一年将尽时，银树再次走进山谷，来到住着鳟鱼的井边。
+        - id: ch04-b02
+          speaker: silver_tree
+          text: 小鳟鱼，漂亮的小家伙，我现在是不是世上最美的王后？
+        - id: ch04-b03
+          speaker: trout
+          text: 哦，你当然不是。
+        - id: ch04-b04
+          speaker: silver_tree
+          text: 那到底是谁？
+        - id: ch04-b05
+          speaker: trout
+          text: 还是你的女儿金树。
+        - id: ch04-b06
+          speaker: silver_tree
+          text: 哦，她不可能活着。一年前，我亲手把毒针刺进了她的手指。
+        - id: ch04-b07
+          speaker: trout
+          text: 哦，她根本没死，一点也没有。
+        - id: ch04-b08
+          speaker: narrator
+          text: 银树回到家，又请国王整备长船。她说自己太久没见亲爱的金树了，还要去看她。船备好后，他们再次出发。银树仍旧亲自掌舵，很快便到了海外。
+    - id: ch05
+      title: 珍贵的饮料
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 王子又上山打猎去了。金树认出了父王驶来的船。
+        - id: ch05-b02
+          speaker: gold_tree
+          text: 母亲又来了。她会杀死我的。
+          emotion: fearful
+        - id: ch05-b03
+          speaker: second_wife
+          text: 她不会得逞。这一回，我们一起下去迎接她。
+        - id: ch05-b04
+          speaker: narrator
+          text: 银树上了岸。
+        - id: ch05-b05
+          speaker: silver_tree
+          text: 下来吧，亲爱的金树。你的亲生母亲给你带来了一杯珍贵的饮料。
+        - id: ch05-b06
+          speaker: second_wife
+          text: 我们这个国家有条规矩。谁送来饮料，谁就要先喝一口。
+        - id: ch05-b07
+          speaker: narrator
+          text: 银树把嘴凑到杯边。第二位妻子猛地撞了一下杯子，一口饮料便灌进银树的喉咙。银树当场倒地死去。他们只须把她的尸身运回故乡安葬。
+        - id: ch05-b08
+          speaker: narrator
+          text: 此后，王子和他的两位妻子又活了很久，日子过得安宁而快活。
+        - id: ch05-b09
+          speaker: narrator
+          text: 我把他们留在了那里。

@@ -1,0 +1,176 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 郑重而亲切，带着学者讲述旧日故事的从容
+        timbre: 温暖清晰，沉稳而有书卷气
+        pace: 舒缓，论述转折处稍作停顿
+        pitch: 中低
+    crane:
+      display_name: 鹤
+      tts:
+        delivery: 表面殷勤体贴，得意时尖刻傲慢，求饶时慌乱卑微
+        timbre: 清亮偏薄，略带冷意
+        pace: 适中，盘算时放缓，威吓时加快
+        pitch: 中高
+    fish_1:
+      display_name: 鱼甲
+      tts:
+        delivery: 谨慎直率，遇到危机时焦急
+        timbre: 清晰朴实
+        pace: 适中偏快
+        pitch: 中
+    fish_2:
+      display_name: 鱼乙
+      tts:
+        delivery: 老实随和，疑虑消除后容易信服
+        timbre: 柔和明亮
+        pace: 适中
+        pitch: 中高
+    fish_3:
+      display_name: 鱼丙
+      tts:
+        delivery: 机警而干脆，随同伙伴说话时自然合拍
+        timbre: 稳定清楚
+        pace: 适中
+        pitch: 中低
+    crab:
+      display_name: 螃蟹
+      tts:
+        delivery: 沉着机敏，识破骗局后坚决有力
+        timbre: 结实清晰，带一点粗粝感
+        pace: 从容，反击时短促有力
+        pitch: 中低
+    tree_genius:
+      display_name: 树神
+      tts:
+        delivery: 欣然赞叹，吟诵时庄重而富有韵律
+        timbre: 温厚开阔，略有回响感
+        pace: 舒缓，诗句间停顿分明
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 鹤的好心
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 很久以前，菩萨降生在森林里，成了莲花池畔一棵树的树神。那时还有一座不大的池塘，一到旱季，水就越来越少，里面却住着许多鱼。一只鹤看见了，心里立刻有了坏主意。
+        - id: ch01-b02
+          speaker: crane
+          text: 我得想个办法骗过这些鱼，再把它们一条条吃掉。
+        - id: ch01-b03
+          speaker: narrator
+          text: 鹤走到水边坐下，装出一副忧心忡忡的样子，暗地里却在盘算怎样下手。鱼群见他半天不动，忍不住问起来。
+        - id: ch01-b04
+          speakers: [fish_1, fish_2, fish_3]
+          ensemble: chorus
+          text: 你为什么一直坐在那里？在想什么呢？
+        - id: ch01-b05
+          speaker: crane
+          text: 我是在为你们担心啊。
+        - id: ch01-b06
+          speakers: [fish_1, fish_2, fish_3]
+          ensemble: chorus
+          text: 先生，你替我们担心什么？
+        - id: ch01-b07
+          speaker: crane
+          text: 你们瞧，这池塘的水已经不多了，能吃的东西也越来越少，天气还热成这样。我正发愁，你们今后可怎么活呀？
+        - id: ch01-b08
+          speakers: [fish_1, fish_2, fish_3]
+          ensemble: chorus
+          text: 是啊，先生！那我们该怎么办才好？
+        - id: ch01-b09
+          speaker: crane
+          text: 只要听我的安排，我就用嘴衔着你们，把你们送到一座宽阔美丽的池塘里。那里开满了各种莲花。到了地方，我会把你们好好放进去。
+        - id: ch01-b10
+          speakers: [fish_1, fish_2, fish_3]
+          ensemble: chorus
+          text: 从开天辟地到现在，也没听说过鹤会替鱼操心。你是想把我们挨个儿吃掉吧？
+        - id: ch01-b11
+          speaker: crane
+          text: 我怎么会吃你们？只要你们信我，我就绝不动你们。要是不信真有那座池塘，就先派一个伙伴跟我去看看。
+        - id: ch01-b12
+          speaker: narrator
+          text: 鱼群终于信了。他们选中一条上了年纪的独眼大鱼，觉得这位伙伴无论在水里还是岸上，遇到意外都能机灵应付。鹤衔着独眼鱼飞到那座大池塘，让他下水四处看看，又把他平安带了回来。独眼鱼把那里有多么美、多么宽阔，全都告诉了伙伴们。
+        - id: ch01-b13
+          speakers: [fish_1, fish_2, fish_3]
+          ensemble: chorus
+          text: 好吧，先生！请你带我们过去。
+    - id: ch02
+      title: 树下的鱼骨
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 鹤第一个带走的，正是那条老独眼鱼。他飞到大池塘岸边，落在一棵伐楼拿树上，却没有把鱼放进水里。他把独眼鱼扔进树杈，用尖嘴啄死，吃光鱼肉，再将骨头丢在树脚下。做完这一切，他又飞回小池塘叫喊。
+        - id: ch02-b02
+          speaker: crane
+          text: 那条鱼已经进了新池塘。下一条快来吧！
+        - id: ch02-b03
+          speaker: narrator
+          text: 鹤就用这个办法，一次衔走一条鱼，一次吃掉一条鱼。池塘里的鱼越来越少。最后，他再回来时，一条鱼也找不到了。池里只剩下一只螃蟹。鹤望着螃蟹，心想，不如连他也一并吃掉。
+        - id: ch02-b04
+          speaker: crane
+          text: 好螃蟹，鱼都让我送进那座漂亮的大池塘了。你也来吧，我带你一起走！
+        - id: ch02-b05
+          speaker: crab
+          text: 你打算怎么抓住我，把我带过去？
+        - id: ch02-b06
+          speaker: crane
+          text: 我用嘴衔住你。
+        - id: ch02-b07
+          speaker: crab
+          text: 那可不行。你这样衔着，半路一定会把我摔下去。我不去！
+        - id: ch02-b08
+          speaker: crane
+          text: 放心吧，我从头到尾都会把你衔得紧紧的。
+        - id: ch02-b09
+          speaker: narrator
+          text: 螃蟹却暗暗想，鹤要是抓到了鱼，哪里还会把鱼放进池塘？不过，假如他真肯送自己过去，那当然很好。假如他不肯，自己就夹断他的脖子。打定主意以后，螃蟹开口了。
+        - id: ch02-b10
+          speaker: crab
+          text: 朋友，你的嘴没法把我衔牢。可我们螃蟹的钳子有的是力气。让我用双钳抱住你的脖子，我就愿意跟你去。
+        - id: ch02-b11
+          speaker: narrator
+          text: 鹤根本没看出螃蟹也在设圈套，满口答应下来。螃蟹随即夹住他的脖子，那双钳子牢得就像铁匠夹铁的钳子。
+        - id: ch02-b12
+          speaker: crab
+          text: 好了，现在出发！
+    - id: ch03
+      title: 谁骗过了谁
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 鹤带着螃蟹飞到大池塘上空，先让他看清下面的水，接着却转了方向，直奔那棵伐楼拿树。
+        - id: ch03-b02
+          speaker: crab
+          text: 鹤叔叔！池塘明明在那一边，你怎么带我往这边飞？
+        - id: ch03-b03
+          speaker: crane
+          text: 原来你还真把我当成亲叔叔，把自己当成乖侄儿了！你以为我是你的奴仆，非要托着你四处跑吗？看看那棵伐楼拿树底下的鱼骨头。我把那些鱼全吃了，现在也要把你吞下去！
+        - id: ch03-b04
+          speaker: crab
+          text: 那些鱼落进你的肚子，是因为它们太愚蠢。我可不会让你吃。正相反，今天要送命的是你！你只顾骗我，却没发现我也骗了你。真要死，我们两个就一起死。我先夹断你的脑袋，再把它扔到地上！
+        - id: ch03-b05
+          speaker: narrator
+          text: 话音一落，螃蟹便把双钳收得更紧，像老虎钳一样死死卡住鹤的脖子。鹤喘不过气，眼泪不停往下淌。他想到自己就要死了，吓得浑身发抖，只能开口求饶。
+        - id: ch03-b06
+          speaker: crane
+          text: 大人！我真的没有想吃你。求求你，饶我一命吧！
+          emotion: fearful
+        - id: ch03-b07
+          speaker: crab
+          text: 那好。落到池塘里，把我放下去。
+    - id: ch04
+      title: 恶计的下场
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 鹤只得掉头飞回池塘，落在水边，把螃蟹放到岸边的泥地上。可是，螃蟹没有就这样放过他。他双钳一合，夹断了鹤的脖子，干净利落，就像猎人用刀割断莲茎。直到鹤倒下以后，螃蟹才爬进水中。
+        - id: ch04-b02
+          speaker: narrator
+          text: 住在伐楼拿树里的树神，从头到尾看见了这桩奇事。他高声喝彩，赞叹声传遍整片树林。随后，树神用悦耳的声音吟诵起来。
+        - id: ch04-b03
+          speaker: tree_genius
+          text: 恶徒纵然聪明绝顶，作恶也终究不能得逞。诡计或许能让他一时占先，到头来却像这只鹤，败在螃蟹手中！

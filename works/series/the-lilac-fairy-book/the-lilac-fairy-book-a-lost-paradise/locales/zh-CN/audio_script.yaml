@@ -1,0 +1,201 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 沉着讲述古老民间故事，机敏处带克制的讥诮
+        timbre: 温暖清晰的成年男声
+        pace: 舒缓而富于变化
+        pitch: 中低
+    charcoal_burner:
+      display_name: 烧炭人
+      tts:
+        delivery: 朴实忠厚，面对妻子时温和而容易心软
+        timbre: 结实温厚的成年男声
+        pace: 适中
+        pitch: 中低
+    wife:
+      display_name: 烧炭人的妻子
+      tts:
+        delivery: 爽直健谈，好奇心发作时焦躁执拗
+        timbre: 清亮有力的成年女声
+        pace: 稍快而富于变化
+        pitch: 中
+    king:
+      display_name: 国王
+      tts:
+        delivery: 宽厚从容，告诫与裁决时坚定不容争辩
+        timbre: 洪亮沉稳的成年男声
+        pace: 从容
+        pitch: 中低
+    grandchild_1:
+      display_name: 大孙辈
+      tts:
+        delivery: 天真自信，说起判断来毫不迟疑
+        timbre: 清脆的儿童声
+        pace: 稍快
+        pitch: 高
+    grandchild_2:
+      display_name: 二孙辈
+      tts:
+        delivery: 活泼直率，喜欢跟着同伴热烈附和
+        timbre: 明亮的儿童声
+        pace: 稍快
+        pitch: 高
+    grandchild_3:
+      display_name: 小孙辈
+      tts:
+        delivery: 稚嫩认真，说话干脆而充满把握
+        timbre: 轻细的儿童声
+        pace: 适中
+        pitch: 高
+  chapters:
+    - id: ch01
+      title: 森林里的邀请
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 很久以前，大森林深处住着一个烧炭人和他的妻子。两个人年轻、健壮，模样也好。刚成婚时，他们以为总有做不完的活。可苦日子来了，家里越来越穷，饿着肚子睡觉的夜晚也越来越多。
+        - id: ch01-b02
+          speaker: narrator
+          text: 一天傍晚，国王在附近打猎。经过小屋门前，他听见有人哭。国王生性厚道，便停下来听，想看看能不能帮上忙。
+        - id: ch01-b03
+          speaker: wife
+          text: “世上还有比我们更不幸的人吗！我们情愿从早干到晚，却连一点活也找不到。这都怪老祖母夏娃太好奇。她要是像我一样，什么也不想知道，大家如今都能像国王一样快活，有吃的，也有暖衣裳。你说——”
+          emotion: sad
+        - id: ch01-b04
+          speaker: narrator
+          text: 她正诉苦，门上突然响起重重的敲门声。
+        - id: ch01-b05
+          speaker: wife
+          text: “谁呀？”
+        - id: ch01-b06
+          speaker: king
+          text: “我。”
+        - id: ch01-b07
+          speaker: wife
+          text: “你是谁？”
+        - id: ch01-b08
+          speaker: king
+          text: “国王。开门吧。”
+        - id: ch01-b09
+          speaker: narrator
+          text: 女人惊得跳起来，赶忙抽掉门闩。国王进屋一看，房里一件家具也没有，连把椅子都找不到。为了不让他们难堪，他装作匆忙得顾不上四处看，还说自己不能久留，只问他们是不是遇上了难处，过得是不是很不快活。
+        - id: ch01-b10
+          speaker: wife
+          text: “陛下，我们找不到活，已经两天没吃东西了。除了饿死，真没有别的路了。”
+          emotion: sad
+        - id: ch01-b11
+          speaker: king
+          text: “不，不，你们不能饿死。真要饿死了，也是你们自己的过错。跟我进宫吧，我保证你们会觉得像住进了天堂。在那里，你们不会再挨饿。不过作为回报，你们得答应我一件事。凡是我的吩咐，都要一点不差地照办。”
+        - id: ch01-b12
+          speaker: narrator
+          text: 夫妻俩愣愣地望着国王，简直不敢相信。回过神来以后，他们一齐答应。
+        - id: ch01-b13
+          speakers: [charcoal_burner, wife]
+          ensemble: duo
+          text: “愿意，陛下！您叫我们做什么，我们都照办。您待我们这么好，我们怎么能不听话呢？”
+          emotion: happy
+        - id: ch01-b14
+          speaker: narrator
+          text: 国王笑了，眼睛闪闪发亮。
+        - id: ch01-b15
+          speaker: king
+          text: “那就马上走。锁好门，把钥匙装进口袋。”
+        - id: ch01-b16
+          speaker: narrator
+          text: 妻子觉得锁门很多余，心里认定他们绝不会再回来。可她不敢把这话说出口，还是照国王的吩咐做了。
+    - id: ch02
+      title: 天堂里的一条禁令
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 三个人走过两英里左右的森林，终于来到王宫。国王吩咐下去，仆人便领夫妻俩进了一间又一间华美的屋子。里面那些好东西，他们连做梦也没见过。两人先在绿大理石浴池里洗澡，池水看着就像海水，然后换上柔软舒服的绸衣。等他们收拾妥当，一名贴身服侍国王的仆人进来，把他们带到一座小厅。厅里已经摆好晚餐。看到满桌食物，他们比见到什么都高兴。
+        - id: ch02-b02
+          speaker: narrator
+          text: 两人刚要坐下，国王来了。
+        - id: ch02-b03
+          speaker: king
+          text: “希望仆人把你们照料得周到，也希望这顿晚餐合你们的意。我的管家会让你们什么也不缺，你们想怎么过就怎么过。不过还有一件事。看见桌子中间的汤钵了吗？千万小心，无论如何都别掀开盖子。只要盖子一开，你们的好运就结束了。”
+        - id: ch02-b04
+          speaker: narrator
+          text: 国王向他们鞠了一躬，走出房间。
+        - id: ch02-b05
+          speaker: charcoal_burner
+          text: “你听清国王的话了吗？我们想要什么就有什么，爱做什么就做什么。唯一要紧的，就是绝不能碰那只汤钵。”
+        - id: ch02-b06
+          speaker: wife
+          text: “当然不碰，碰它做什么？不过这事真有点怪，叫人忍不住想知道里面是什么。”
+        - id: ch02-b07
+          speaker: narrator
+          text: 一连许多天，他们的日子都像一场美梦。床铺舒服得让人下不了决心起身，衣裳漂亮得舍不得脱，饭菜又好吃得让人停不了口。宫外的花园里开着珍奇的花，结着少见的果子，还有鸟儿整天歌唱。要是他们想走得远一些，随时都有一辆金马车等候差遣。车身绘着一圈圈勿忘草花环，车厢里还衬着蓝缎。
+        - id: ch02-b08
+          speaker: narrator
+          text: 国王偶尔也会来看他们。他望着烧炭人，总会微微一笑，因为这个男人的脸色一天比一天红润，身子也一天比一天丰满。可目光落到妻子身上时，那双眼睛却像在说：“我早知道会这样。”不过夫妻俩谁也没有发现。
+        - id: ch02-b09
+          speaker: narrator
+          text: 有一天，晚餐已经吃完，妻子竟一句话也没说。烧炭人忍不住问她。
+        - id: ch02-b10
+          speaker: charcoal_burner
+          text: “你怎么不说话？从前你整天说个不停，如今我都快忘了你的声音。”
+        - id: ch02-b11
+          speaker: wife
+          text: “没什么，只是不想说话。可是，你就从来没想过那只汤钵里装着什么吗？”
+        - id: ch02-b12
+          speaker: charcoal_burner
+          text: “从来没有。那不关我们的事。”
+        - id: ch02-b13
+          speaker: narrator
+          text: 话说到这里，又断了。可日子一天天过去，妻子说的话越来越少，模样也越来越痛苦。吃饭时，这样东西她推开，那样东西她也不肯碰。丈夫看在眼里，真怕她出了事。
+        - id: ch02-b14
+          speaker: charcoal_burner
+          text: “好妻子，你总得吃一点。你究竟怎么了？这样下去会没命的。”
+        - id: ch02-b15
+          speaker: wife
+          text: “不知道汤钵里是什么，我宁可死！”
+          emotion: angry
+        - id: ch02-b16
+          speaker: narrator
+          text: 她猛地喊出这句话，把丈夫吓了一跳。
+        - id: ch02-b17
+          speaker: charcoal_burner
+          text: “原来就为这个？你明知道盖子一开，我们会被赶回去挨饿。”
+        - id: ch02-b18
+          speaker: wife
+          text: “不会的。国王那么厚道，哪会为这点小事当真！再说，也不用把盖子整个揭开。你只要提起一个角，让我从缝里看一眼就够了。这里就我们两个，谁也不会知道我们做过什么。”
+    - id: ch03
+      title: 从汤钵里逃走的老鼠
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 男人犹豫起来。这似乎真是件小事，若能让妻子重新安心快活，冒一次险也值得。他握住盖子的把手，小心翼翼地一点点往上提。妻子弯下身，正要朝缝里偷看，一只小老鼠突然从汤钵里蹿出来，差点撞上她的眼睛。她尖叫一声，猛地退开。
+        - id: ch03-b02
+          speaker: narrator
+          text: 老鼠绕着房间一圈又一圈地跑，夫妻俩也在后面一圈又一圈地追。他们一心想捉住它，再塞回汤钵，结果撞翻了椅子，又碰倒了花瓶。就在屋里闹得最厉害的时候，房门开了。老鼠从国王两脚之间逃了出去。夫妻俩一眨眼便钻到桌子底下，从外面看去，房间里好像一个人也没有。
+        - id: ch03-b03
+          speaker: king
+          text: “出来吧，听听我要说什么。”
+        - id: ch03-b04
+          speaker: charcoal_burner
+          text: “我知道。老鼠逃走了。”
+          emotion: sad
+        - id: ch03-b05
+          speaker: narrator
+          text: 烧炭人低着头，不敢看他。
+        - id: ch03-b06
+          speaker: king
+          text: “我会派一队卫兵，把你们一直送回森林里的小屋。门钥匙还在你妻子的口袋里。”
+    - id: ch04
+      title: 孙辈的话
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 后来，烧炭人的孙辈听老人讲完这个故事，立刻一个个叫了起来。
+        - id: ch04-b02
+          speakers: [grandchild_1, grandchild_2, grandchild_3]
+          ensemble: chorus
+          text: “他们真傻！要是当时得到机会的是我们就好了。我们绝不会想知道汤钵里装着什么！”
+        - id: ch04-b03
+          speaker: narrator
+          text: 这个故事，出自保罗·塞比约的《奥弗涅口头文学》。
