@@ -1,0 +1,253 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and attentive fairy-tale storytelling
+        timbre: clear and gently resonant
+        pace: measured
+        pitch: medium
+    mother_pig:
+      display_name: Mother Pig
+      tts:
+        delivery: loving, sensible, and gently admonishing
+        timbre: warm and mature
+        pace: unhurried
+        pitch: medium
+    browny:
+      display_name: Browny
+      tts:
+        delivery: carefree, stubborn, and easily frightened
+        timbre: earthy and youthful
+        pace: natural
+        pitch: medium
+    whitey:
+      display_name: Whitey
+      tts:
+        delivery: eager, self-centered, and quick to worry
+        timbre: bright and youthful
+        pace: lively
+        pitch: medium-high
+    blacky:
+      display_name: Blacky
+      tts:
+        delivery: thoughtful, alert, and quietly brave
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium
+    fox:
+      display_name: The Fox
+      tts:
+        delivery: sly and falsely charming, turning rough when angered
+        timbre: lean and rasping
+        pace: deliberate
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: Three Very Different Pigs
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, a mother pig lived with her three children in a large, comfortable, old-fashioned farmyard. The eldest was Browny. Whitey came next, and Blacky was the youngest and best-looking of the three.
+        - id: ch01-b02
+          speaker: narrator
+          text: Browny was a very dirty little pig. More than anything, he loved rolling and wallowing in mud. On wet days, when the farmyard turned soft, thick, and sloppy, he slipped away from his mother, found the muddiest spot he could, and rolled in it to his heart's content.
+        - id: ch01-b03
+          speaker: mother_pig
+          text: Oh, Browny. One day you'll be sorry you didn't listen to your old mother.
+          emotion: sad
+        - id: ch01-b04
+          speaker: narrator
+          text: Again and again, his mother found him in the mud and sadly shook her head. But no advice or warning could cure Browny of that bad habit.
+        - id: ch01-b05
+          speaker: narrator
+          text: Whitey was clever, but she was greedy. Her thoughts were always on food and the next meal. Whenever the farm girl crossed the yard carrying pails, Whitey rose on her hind legs and danced with excitement. The instant food reached the trough, she shoved Browny and Blacky aside so she could grab the biggest and best pieces.
+        - id: ch01-b06
+          speaker: narrator
+          text: Her mother scolded her for being selfish. She warned Whitey that all her greedy grabbing would bring trouble one day.
+        - id: ch01-b07
+          speaker: narrator
+          text: Blacky was neither dirty nor greedy. He had neat, dainty ways for a pig, and his skin stayed as smooth and shining as black satin. He was far cleverer than Browny and Whitey. Whenever the farmer's friends said the little black fellow would become a prize pig, his mother's heart swelled with pride.
+        - id: ch01-b08
+          speaker: narrator
+          text: In time, the mother pig grew old and weak. She knew she would not live much longer, so one day she called all three children around her.
+        - id: ch01-b09
+          speaker: mother_pig
+          text: My children, I'm growing old and feeble, and I don't have long to live. Before I die, I want to build each of you a house. A new family will be given this dear old sty where we've been so happy, and you'll have to leave it. Browny, what kind of house would you like?
+          emotion: sad
+        - id: ch01-b10
+          speaker: narrator
+          text: Browny gazed longingly at a wet puddle in the corner of the yard.
+        - id: ch01-b11
+          speaker: browny
+          text: I'd like a house made of mud.
+        - id: ch01-b12
+          speaker: narrator
+          text: His foolish choice disappointed his mother.
+        - id: ch01-b13
+          speaker: mother_pig
+          text: And what would you like, Whitey?
+          emotion: sad
+        - id: ch01-b14
+          speaker: narrator
+          text: Whitey's mouth was full. She hardly lifted her snout from the trough where she was hunting for potato peelings.
+        - id: ch01-b15
+          speaker: whitey
+          text: I want a house made of cabbage.
+        - id: ch01-b16
+          speaker: mother_pig
+          text: What a foolish child! Blacky, what sort of house shall I have built for you?
+        - id: ch01-b17
+          speaker: blacky
+          text: A brick house, please, Mother. It will be warm in winter, cool in summer, and safe all year round.
+        - id: ch01-b18
+          speaker: mother_pig
+          text: That's a sensible little pig. I'll have all three houses made at once. Now listen to one last warning. You've heard me speak of our old enemy, the fox. Once he learns that I'm dead, he'll try to carry you away to his den. He is very sly. He may disguise himself and pretend to be your friend. Promise me that, whatever he says, you will never let him into your houses.
+        - id: ch01-b19
+          speaker: narrator
+          text: The little pigs had heard terrible stories about the fox, and they were all afraid of him.
+        - id: ch01-b20
+          speakers: [browny, whitey, blacky]
+          ensemble: chorus
+          text: We promise, Mother.
+        - id: ch01-b21
+          speaker: narrator
+          text: The three houses were made ready at once. A short time later, the old mother pig died. Then Browny, Whitey, and Blacky left the old sty and each went to live in the house that had been built for them.
+    - id: ch02
+      title: The House of Mud
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Browny was delighted with his soft mud walls and clay floor. Before long, the whole place looked like one enormous mud pie, which was exactly how he liked it. He rolled around all day, covering himself with mud, and could not have been happier.
+        - id: ch02-b02
+          speaker: narrator
+          text: One day, while Browny lay half asleep in the mud, someone gave a soft knock at his door. A gentle voice called from outside.
+        - id: ch02-b03
+          speaker: fox
+          text: May I come in, Master Browny? I'd like to see your beautiful new house.
+        - id: ch02-b04
+          speaker: narrator
+          text: Browny jumped up in terror. The voice sounded kind, but he was sure someone was pretending, and he feared it was the fox.
+        - id: ch02-b05
+          speaker: browny
+          text: Who are you?
+          emotion: fearful
+        - id: ch02-b06
+          speaker: fox
+          text: Just a friend who's come to visit you.
+        - id: ch02-b07
+          speaker: browny
+          text: No, I don't believe you're my friend. You're the wicked fox our mother warned us about. I won't let you inside!
+          emotion: fearful
+        - id: ch02-b08
+          speaker: narrator
+          text: At once, the fox dropped his gentle voice and spoke in his own rough one.
+        - id: ch02-b09
+          speaker: fox
+          text: Oh, so that's how you answer me? We'll soon find out who's master here!
+          emotion: angry
+        - id: ch02-b10
+          speaker: narrator
+          text: He clawed at the soft mud walls until he had scraped out a large hole. A moment later, he sprang through it, caught Browny by the neck, tossed him over his shoulders, and trotted away to his den.
+    - id: ch03
+      title: The House of Cabbage
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The next day, Whitey was nibbling a few cabbage leaves from a corner of her own house. The fox crept up to her door. He was determined to carry her away and put her in his den with Browny. Once again, he called out in the same false, gentle voice he had used before.
+        - id: ch03-b02
+          speaker: fox
+          text: I'm a friend who's come to see you. I'd also like some of your fine cabbage for my dinner.
+        - id: ch03-b03
+          speaker: narrator
+          text: His words frightened Whitey badly.
+        - id: ch03-b04
+          speaker: whitey
+          text: Please don't eat it! Those cabbages are the walls of my house. If you chew a hole in them, the wind and rain will get in, and I'll catch cold. Go away! I'm sure you're not a friend. You're our wicked enemy, the fox!
+          emotion: fearful
+        - id: ch03-b05
+          speaker: narrator
+          text: Poor Whitey whined and whimpered. Now she wished she had not been so greedy. If only she had chosen something stronger than cabbages for her house. But it was too late.
+        - id: ch03-b06
+          speaker: narrator
+          text: Within a minute, the fox had eaten straight through the cabbage wall. He seized the trembling, shivering Whitey and carried her away to his den.
+    - id: ch04
+      title: The House of Brick
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: On the following day, the fox set out for Blacky's house. His plan was to gather all three little pigs in his den, kill them, and invite his friends to a feast.
+        - id: ch04-b02
+          speaker: narrator
+          text: When he reached the brick house, he found the door bolted and barred. So he tried his slyest manner.
+        - id: ch04-b03
+          speaker: fox
+          text: Dear Blacky, please let me in. I've brought you a present. It's some eggs I found in a farmyard on my way here.
+        - id: ch04-b04
+          speaker: blacky
+          text: No, Mister Fox. I'm not opening my door for you. I know all about your tricks. You carried off poor Browny and Whitey, but you won't get me.
+        - id: ch04-b05
+          speaker: narrator
+          text: The fox flew into a rage. He hurled himself against the wall with all his strength and tried to knock it down. The house was too strong and too well built. He scraped and tore at the bricks with his paws, but only injured himself. At last, he gave up and limped away. His front paws were bleeding and sore.
+        - id: ch04-b06
+          speaker: fox
+          text: Never mind! I'll catch you another day. Just wait and see! Once I have you in my den, I'll grind your bones to powder!
+          emotion: angry
+        - id: ch04-b07
+          speaker: narrator
+          text: He snarled fiercely and bared his teeth as he went.
+        - id: ch04-b08
+          speaker: narrator
+          text: The next day, Blacky went to the neighboring town to do some shopping and buy a large kettle. He was walking home with the kettle slung over his shoulder when he heard quiet footsteps creeping along behind him.
+        - id: ch04-b09
+          speaker: narrator
+          text: For a moment, Blacky's heart seemed to stop with fear. Then a happy idea came to him. He had just reached the top of a hill, and down below, nestled among the trees at its foot, he could see his own little house.
+        - id: ch04-b10
+          speaker: narrator
+          text: Blacky snatched the lid from the kettle and climbed inside. He curled himself snugly into the bottom and used one front leg to pull the lid into place. Now he was completely hidden.
+        - id: ch04-b11
+          speaker: narrator
+          text: One little kick from inside sent the kettle rolling at full speed down the hill. When the fox arrived, he saw nothing but a big black kettle spinning rapidly over the ground.
+        - id: ch04-b12
+          speaker: narrator
+          text: The disappointed fox was about to turn back. Then he saw the kettle stop beside the brick house. A moment later, Blacky popped out, carried the kettle indoors, bolted and barred the door, and closed the shutter over the window.
+        - id: ch04-b13
+          speaker: fox
+          text: Oh, you think you can escape me that way, do you? We'll soon see about that, my friend.
+          emotion: angry
+        - id: ch04-b14
+          speaker: narrator
+          text: Keeping very quiet, the fox prowled around the house and searched for a way onto the roof.
+        - id: ch04-b15
+          speaker: narrator
+          text: Meanwhile, Blacky filled the kettle with water and set it on the fire. Then he sat down and calmly waited for it to boil. The kettle had just begun to sing, with steam curling from its spout, when Blacky heard a soft, muffled sound overhead. Patter, patter, patter.
+        - id: ch04-b16
+          speaker: narrator
+          text: The next moment, the fox's head and front paws appeared in the chimney. Wise Blacky had left the lid off the kettle. The fox dropped straight into the boiling water with a yelp of pain. Before he could get out, Blacky clapped on the lid, and the scalding water killed the fox.
+    - id: ch05
+      title: Safe Together
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Once Blacky was certain that their wicked enemy was truly dead and could never hurt them again, he set off to rescue Browny and Whitey.
+        - id: ch05-b02
+          speaker: narrator
+          text: As he drew near the fox's den, he heard pitiful grunts and squeals. His poor brother and sister had lived in constant fear that the fox would kill and eat them.
+        - id: ch05-b03
+          speaker: narrator
+          text: Then Browny and Whitey saw Blacky standing at the entrance to the den. Their joy knew no bounds. After living in fear for so long, their brother had come to set them free.
+        - id: ch05-b04
+          speakers: [browny, whitey]
+          ensemble: duo
+          text: Blacky! You came to save us!
+          emotion: happy
+        - id: ch05-b05
+          speaker: narrator
+          text: Blacky quickly found a sharp stone. He used it to cut the ropes that tied Browny and Whitey to a stake in the ground.
+        - id: ch05-b06
+          speaker: narrator
+          text: Then all three little pigs hurried back to Blacky's house, where they lived happily ever after.
+        - id: ch05-b07
+          speaker: narrator
+          text: Browny gave up rolling in the mud, and Whitey stopped being greedy. Neither of them ever forgot how close those faults had brought them to an early end.

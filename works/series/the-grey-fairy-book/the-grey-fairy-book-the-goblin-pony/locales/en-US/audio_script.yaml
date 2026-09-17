@@ -1,0 +1,135 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant, and gently dramatic
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    old_peggy:
+      display_name: Old Peggy
+      tts:
+        delivery: wise, watchful, and firmly affectionate
+        timbre: weathered and warm
+        pace: unhurried
+        pitch: medium-low
+    eldest:
+      display_name: Eldest Brother
+      tts:
+        delivery: bold, impatient, and self-assured
+        timbre: clear and youthful
+        pace: brisk
+        pitch: medium
+    second:
+      display_name: Second Brother
+      tts:
+        delivery: defiant, energetic, and adventurous
+        timbre: bright and youthful
+        pace: quick
+        pitch: medium-high
+    third:
+      display_name: Third Child
+      tts:
+        delivery: lively and eager
+        timbre: light and youthful
+        pace: quick
+        pitch: medium-high
+    richard:
+      display_name: Little Richard
+      tts:
+        delivery: young, curious, and increasingly uneasy
+        timbre: soft and childlike
+        pace: natural
+        pitch: high
+  chapters:
+    - id: ch01
+      title: Old Peggy's Warning
+      blocks:
+        - id: ch01-b01
+          speaker: old_peggy
+          text: Stay by the fireplace tonight. The wind is so fierce that it's shaking the house. And this is Halloween. The witches are out, and their goblin servants are roaming around in all kinds of disguises, looking for ways to harm people's children.
+        - id: ch01-b02
+          speaker: eldest
+          text: Why should I stay inside? I have to see what old Jacob the rope-maker's daughter is doing. If I don't visit her father before the moon goes down, she won't close those blue eyes all night.
+        - id: ch01-b03
+          speaker: second
+          text: And I have lobsters and crabs to catch. Every witch and goblin in the world couldn't stop me.
+        - id: ch01-b04
+          speaker: narrator
+          text: They all chose their own errands and pleasures over Old Peggy's good advice. Only the youngest child paused when she spoke to him.
+        - id: ch01-b05
+          speaker: old_peggy
+          text: Stay with me, little Richard. I'll tell you some beautiful stories.
+        - id: ch01-b06
+          speaker: narrator
+          text: But Richard wanted to gather wild thyme and blackberries in the moonlight. He ran outside after the others.
+        - id: ch01-b07
+          speakers: [eldest, second, third, richard]
+          ensemble: chorus
+          text: She talks about wind and storms, but the weather has never been finer. The sky is perfectly clear. Look at the moon marching so grandly through those transparent clouds!
+    - id: ch02
+      title: The Little Black Pony
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: All at once, they noticed a little black pony standing close beside them.
+        - id: ch02-b02
+          speakers: [eldest, second, third, richard]
+          ensemble: chorus
+          text: Oh, look! That's old Valentine's pony. It must have escaped from the stable and started down to the horse pond for a drink.
+        - id: ch02-b03
+          speaker: eldest
+          text: There, pretty little pony. Don't wander too far. I'll take you to the pond myself.
+        - id: ch02-b04
+          speaker: narrator
+          text: The eldest jumped onto its back. The second brother climbed up behind him, then the third child, and then the rest. Even little Richard mounted because he did not want to be left behind.
+        - id: ch02-b05
+          speaker: narrator
+          text: On the way, they met several companions and invited every one of them to climb aboard. The little creature seemed not to mind the added weight. It trotted merrily on.
+        - id: ch02-b06
+          speaker: narrator
+          text: The faster it went, the more the young riders enjoyed themselves. They pressed their heels into the pony's sides and shouted.
+        - id: ch02-b07
+          speakers: [eldest, second, third, richard]
+          ensemble: chorus
+          text: Gallop, little horse! You've never carried such brave riders before!
+    - id: ch03
+      title: Into the Sea
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: By then, the wind had risen again, and the waves had begun to howl. The pony paid no attention. Instead of turning toward the pond, it cantered cheerfully toward the seashore.
+        - id: ch03-b02
+          speaker: narrator
+          text: Richard began to wish he had gone after his thyme and blackberries. The eldest brother remembered the blue-eyed daughter of Jacob the rope-maker. He caught the pony by the mane and tried to turn it around, but all his pulling did no good.
+        - id: ch03-b03
+          speaker: narrator
+          text: The pony galloped straight into the sea until the water reached its forefeet. The instant it felt the waves, it gave a mighty neigh and leaped about with delight. Then it pushed quickly onward into the foaming water.
+        - id: ch03-b04
+          speaker: narrator
+          text: When the waves rose over the children's legs, they were sorry at last for behaving so carelessly. They cried out together.
+        - id: ch03-b05
+          speakers: [eldest, second, third, richard]
+          ensemble: chorus
+          text: This wicked little black pony is bewitched! If only we'd listened to Old Peggy, we wouldn't be lost now!
+          emotion: fearful
+        - id: ch03-b06
+          speaker: narrator
+          text: Still the pony moved farther out, and the sea climbed higher. At last, the waves closed over the children's heads, and they all drowned.
+    - id: ch04
+      title: Old Peggy's Search
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Near morning, Old Peggy went outside. She was anxious about what had happened to her grandchildren. She searched high and low, but they were nowhere to be found.
+        - id: ch04-b02
+          speaker: narrator
+          text: She asked every neighbor whether anyone had seen the children. No one knew where they were. They could only say that the eldest had never visited the blue-eyed daughter of Jacob the rope-maker.
+        - id: ch04-b03
+          speaker: narrator
+          text: Old Peggy turned homeward, bowed down with grief. Then she saw a little black pony coming toward her, springing and prancing this way and that.
+        - id: ch04-b04
+          speaker: narrator
+          text: When it came close, it neighed loudly. Then it raced past her so fast that, a moment later, it had vanished from sight.

@@ -1,0 +1,394 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, clear, and quietly cautionary
+        timbre: gentle and resonant
+        pace: measured
+        pitch: medium
+    ferko:
+      display_name: Ferko
+      tts:
+        delivery: kind-hearted, earnest, and quietly brave
+        timbre: clear and youthful
+        pace: moderate
+        pitch: medium
+    eldest_brother:
+      display_name: Eldest Brother
+      tts:
+        delivery: jealous, calculating, and harsh
+        timbre: dry and youthful
+        pace: moderate
+        pitch: medium-low
+    second_brother:
+      display_name: Second Brother
+      tts:
+        delivery: sly, resentful, and cold
+        timbre: narrow and youthful
+        pace: brisk
+        pitch: medium
+    first_raven:
+      display_name: First Raven
+      tts:
+        delivery: curious and conversational
+        timbre: rough and dark
+        pace: moderate
+        pitch: medium-low
+    second_raven:
+      display_name: Second Raven
+      tts:
+        delivery: knowing and matter-of-fact
+        timbre: crisp and dark
+        pace: measured
+        pitch: medium
+    wolf:
+      display_name: The Wolf
+      tts:
+        delivery: loyal, hearty, and encouraging
+        timbre: deep and rugged
+        pace: moderate
+        pitch: low
+    mouse:
+      display_name: The Mouse
+      tts:
+        delivery: quick, bright, and dependable
+        timbre: light and nimble
+        pace: brisk
+        pitch: high
+    queen_bee:
+      display_name: The Queen Bee
+      tts:
+        delivery: gracious, confident, and cheerful
+        timbre: bright and delicate
+        pace: moderate
+        pitch: medium-high
+    king:
+      display_name: The King
+      tts:
+        delivery: prudent, formal, and firm
+        timbre: rich and mature
+        pace: measured
+        pitch: medium-low
+    princess:
+      display_name: The Princess
+      tts:
+        delivery: gentle and earnest, growing steadfast under trial
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: Three Brothers Set Out
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there lived a man and woman with three fine-looking sons. The family was so poor that there was scarcely enough food for the parents, much less for the boys. The sons knew there was no fortune for them at home. So all three decided to go out into the world and try their luck. Before they left, their mother gave each one a whole loaf of bread and her blessing. The brothers said a tender farewell to their mother and father, then set off together on their travels.
+        - id: ch01-b02
+          speaker: narrator
+          text: The youngest brother was named Ferko. He was a splendid young man, with blue eyes, fair hair, and cheeks like milk and roses. His brothers were terribly jealous. They felt sure everyone would favor Ferko for his handsome face, while they would never be so lucky.
+        - id: ch01-b03
+          speaker: narrator
+          text: One hot day, the brothers stopped to rest beneath a tree. They were tired from walking, and Ferko soon fell fast asleep. The other two stayed awake. The eldest turned to the second brother.
+        - id: ch01-b04
+          speaker: eldest_brother
+          text: Why don't we do Ferko some harm? Everyone likes him because he's so handsome, but no one cares for us that way. We might have better luck if we could get rid of him.
+        - id: ch01-b05
+          speaker: second_brother
+          text: I agree. Let's eat his loaf. Then, when he asks for some of ours, we'll refuse unless he lets us put out his eyes or break his legs.
+        - id: ch01-b06
+          speaker: narrator
+          text: The eldest brother was delighted with this cruel plan. While Ferko slept, the two of them took his loaf and ate every bit.
+        - id: ch01-b07
+          speaker: narrator
+          text: When Ferko woke, he was very hungry and reached for his bread. His brothers shouted at him before he could ask where it had gone.
+        - id: ch01-b08
+          speakers: [eldest_brother, second_brother]
+          ensemble: duo
+          text: You greedy fellow! You ate your loaf in your sleep. You can starve as long as you like, because you won't get a crumb of ours.
+          emotion: angry
+        - id: ch01-b09
+          speaker: narrator
+          text: Ferko was completely puzzled. How could he have eaten a whole loaf while he was asleep? Still, he said nothing to his brothers. He walked on without food for the rest of that day, and he fasted all through the night as well.
+        - id: ch01-b10
+          speaker: narrator
+          text: By the next morning, hunger had brought him to tears. He begged his brothers for one small piece of bread. They laughed and gave him the same cruel answer. Ferko kept pleading until the eldest finally offered him a bargain.
+        - id: ch01-b11
+          speaker: eldest_brother
+          text: Let us put out one of your eyes and break one of your legs. Then we'll give you a piece.
+        - id: ch01-b12
+          speaker: narrator
+          text: Ferko wept harder and endured the pain of hunger until the sun stood high. At last he could bear no more. He agreed, and they put out his left eye and broke his left leg. He reached eagerly for the bread, but they gave him only a tiny scrap. He swallowed it at once and begged for another.
+        - id: ch01-b13
+          speaker: narrator
+          text: Ferko told them he was dying of hunger, but that only made his brothers laugh harder. They called him greedy and refused to give him another bite. He suffered the pains of starvation all day. When night came, his strength finally failed him. For one more piece of bread, he let them put out his right eye and break his right leg.
+        - id: ch01-b14
+          speaker: narrator
+          text: His brothers looked at the harm they had done and believed Ferko was maimed and disfigured for life. They left him groaning alone on the ground, then continued their journey without him.
+    - id: ch02
+      title: The Ravens' Secret
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Ferko ate the second scrap they had left and wept bitterly, but no one heard him. No one came to help. Night fell, and the poor blind young man had no eyes to close. With both legs broken, he could only crawl over the ground, with no idea where he was going.
+        - id: ch02-b02
+          speaker: narrator
+          text: When the sun climbed high again, its fierce heat scorched him. Ferko longed for a cool, shady place where his aching limbs could rest. Though both legs were broken, he dragged himself to the top of a hill and lay down in the grass. He felt a tall wooden shape beside him and believed he had found the shade of a great tree. In truth, he was leaning against a gallows, and two ravens were perched above him.
+        - id: ch02-b03
+          speaker: first_raven
+          text: Is there anything strange or wonderful in this neighborhood?
+        - id: ch02-b04
+          speaker: second_raven
+          text: Oh, yes. There are wonders here that you won't find anywhere else. Down below us is a lake. Anyone who bathes in it becomes healthy at once, even at the very edge of death. And anyone who washes his eyes with dew from this hill will see as sharply as an eagle, even if he has been blind since childhood.
+        - id: ch02-b05
+          speaker: first_raven
+          text: My eyes need no cure, thank Heaven. They're as good as ever. But my wing has been weak ever since an arrow struck it years ago. Let's fly to that lake now, so I can be strong and healthy again.
+        - id: ch02-b06
+          speaker: narrator
+          text: The two ravens flew away. Their words filled Ferko's heart with joy. He could hardly wait for evening, when the precious dew would form and he could rub it over his sightless eyes.
+        - id: ch02-b07
+          speaker: narrator
+          text: At last dusk came. The sun sank behind the mountains, the hill grew cooler, and dew gathered on the grass. Ferko pressed his face into the wet ground until the drops touched his eyes. In one instant, he could see more clearly than ever before.
+        - id: ch02-b08
+          speaker: narrator
+          text: The moon shone brightly over the hill. By its light, Ferko could see the lake where his broken legs might be healed. He crawled down to the shore and dipped his aching limbs into the water. The moment the water touched them, his legs became as sound and strong as they had been before his brothers injured them.
+        - id: ch02-b09
+          speaker: narrator
+          text: Ferko thanked the kind fate that had led him to the hill and let him hear the ravens. He filled a bottle with healing water. Then, in the best of spirits, he continued on his way.
+    - id: ch03
+      title: Three Creatures in Need
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Ferko had not gone far when he met a wolf. The poor animal limped sadly on three legs. As soon as the wolf saw Ferko, he began to howl.
+        - id: ch03-b02
+          speaker: ferko
+          text: Take heart, my good friend. I can heal that leg for you.
+        - id: ch03-b03
+          speaker: narrator
+          text: With those words, Ferko poured some of the precious water over the wolf's injured paw. In a moment, the sad, limping animal was springing about on four sound legs. The grateful wolf thanked his benefactor warmly. He promised that if Ferko ever needed help, he would gladly do him a good turn.
+        - id: ch03-b04
+          speaker: narrator
+          text: Ferko walked on until he reached a plowed field. There he saw a little mouse dragging herself along on her hind legs. Both front paws had been broken in a trap.
+        - id: ch03-b05
+          speaker: narrator
+          text: Ferko felt very sorry for the tiny creature. He spoke to her in the friendliest way and washed both small paws with the healing water. At once, the mouse was sound and whole again. She thanked the kind young healer, then scampered lightly away across the long furrows of the plowed field.
+        - id: ch03-b06
+          speaker: narrator
+          text: Before Ferko had gone much farther, a queen bee flew against him. One wing trailed behind her, torn in two by a large bird. Ferko was just as willing to help her as he had been to help the wolf and the mouse. He let a few healing drops fall on the wounded wing, and it was cured on the spot.
+        - id: ch03-b07
+          speaker: queen_bee
+          text: I am deeply grateful for your kindness. One day, I will reward you.
+        - id: ch03-b08
+          speaker: narrator
+          text: The queen bee flew away with a cheerful hum. Ferko continued his journey, wandering for many long days, until he came to a strange kingdom.
+    - id: ch04
+      title: The Palace of Flowers
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: In this strange kingdom, Ferko had heard that the King's daughter was as beautiful as the day. He decided there was no use wandering any longer. He might as well go straight to the royal palace, present himself to the King, and offer to enter the King's service.
+        - id: ch04-b02
+          speaker: narrator
+          text: The first people Ferko saw inside were his two brothers. They had found places in the King's service. When they recognized Ferko, with his eyes and legs perfectly healed, they were frightened to death. They feared he would tell the King what they had done and that they would be hanged.
+        - id: ch04-b03
+          speaker: narrator
+          text: Every eye in the palace turned toward the handsome stranger. Even the Princess gazed at him in wonder, for she had never seen anyone so handsome. His brothers noticed. Now envy and jealousy joined their fear, and once again they decided to destroy him.
+        - id: ch04-b04
+          speaker: narrator
+          text: "The brothers went before the King and told him a cruel lie. They said Ferko was a wicked magician who had come to the palace for one purpose: to carry off the Princess. The King believed their accusation and ordered the handsome stranger to be brought before him."
+        - id: ch04-b05
+          speaker: king
+          text: They say you are a magician who plans to steal my daughter. For that, I condemn you to death. But I will spare you if you complete three tasks for me and then leave this country. Fail at any one of them, and you will hang from the nearest tree.
+        - id: ch04-b06
+          speaker: narrator
+          text: Then the King turned to Ferko's brothers.
+        - id: ch04-b07
+          speaker: king
+          text: Choose a task for him. Make it as difficult as you please. He must succeed or die.
+        - id: ch04-b08
+          speakers: [eldest_brother, second_brother]
+          ensemble: duo
+          text: Make him build Your Majesty a palace more beautiful than this one in a single day. If he cannot, let him hang.
+        - id: ch04-b09
+          speaker: narrator
+          text: The King liked their proposal and commanded Ferko to begin the next morning. His brothers were delighted. They thought they had finally gotten rid of him forever.
+        - id: ch04-b10
+          speaker: narrator
+          text: Ferko was heartbroken. He cursed the hour when he had crossed into the King's land. He wandered through the meadows around the palace, trying to imagine how he could escape death. Then a little bee flew past, settled on his shoulder, and whispered in his ear.
+        - id: ch04-b11
+          speaker: queen_bee
+          text: What is troubling you, my kind benefactor? Can I help? I am the bee whose wing you healed, and I would be glad to repay you.
+        - id: ch04-b12
+          speaker: ferko
+          text: Alas, how could you help me? I have been given a task that no one in the world could do, no matter how clever he was. Tomorrow I must build a palace more beautiful than the King's, and it must be ready before evening.
+          emotion: sad
+        - id: ch04-b13
+          speaker: queen_bee
+          text: Is that all? Then don't lose heart. Before the sun sets tomorrow, a palace will stand here unlike any the King has ever lived in. Stay where you are until I return and tell you it is finished.
+          emotion: calm
+        - id: ch04-b14
+          speaker: narrator
+          text: The bee flew merrily away. Comforted by her promise, Ferko lay on the grass and slept peacefully until morning.
+        - id: ch04-b15
+          speaker: narrator
+          text: At daybreak, the whole town was stirring. Everyone wondered where the stranger would build his marvelous palace, and how he could possibly do it. Only the Princess was quiet and sorrowful. She had cried all night until her pillow was wet, because she cared so deeply about what would happen to Ferko.
+        - id: ch04-b16
+          speaker: narrator
+          text: Ferko waited in the meadows all day. When evening came, the queen bee returned and perched on his shoulder.
+        - id: ch04-b17
+          speaker: queen_bee
+          text: The wonderful palace is ready. Be cheerful now, and bring the King to the hill just beyond the city wall.
+          emotion: happy
+        - id: ch04-b18
+          speaker: narrator
+          text: She hummed away, and Ferko hurried to tell the King that his task was finished. The whole court went out to see.
+        - id: ch04-b19
+          speaker: narrator
+          text: A splendid palace rose on the hill outside the city. It was made from the loveliest flowers ever grown in a human garden. Crimson roses covered the roof. Lilies formed the windows, and white carnations made the walls. The floors glowed with auriculas and violets. Tulips and narcissi became the doors, with sunflowers for knockers. Hyacinths and other sweet flowers bloomed thickly all around, scenting the air far and wide and enchanting everyone who stood there.
+        - id: ch04-b20
+          speaker: narrator
+          text: The grateful queen bee had built it. She had called every other bee in the kingdom to help her.
+        - id: ch04-b21
+          speaker: narrator
+          text: The King could hardly believe his eyes. The Princess looked from the flower palace to Ferko, and her eyes shone with delight. Ferko was delighted too. But his brothers turned green with envy. They only insisted more loudly that he was a wicked magician.
+    - id: ch05
+      title: Every Stalk of Grain
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The King had been astonished by the way his command was carried out. Even so, he was deeply annoyed that Ferko might escape with his life. He would not accept the flower palace as proof of anything but wicked magic. He turned again to the two brothers and asked them for another task.
+        - id: ch05-b02
+          speaker: king
+          text: He has completed the first task, no doubt with his evil magic. What shall we demand next? Make it as hard as you can. If he fails, he dies.
+          emotion: angry
+        - id: ch05-b03
+          speaker: eldest_brother
+          text: The corn has been cut, but none of it is in the barns. Order this knave to gather every bit of grain in the kingdom into one great heap before tomorrow night. If even one stalk remains, put him to death.
+        - id: ch05-b04
+          speaker: narrator
+          text: The Princess went white with terror when she heard this. Ferko, however, felt more hopeful than he had during the first task. He walked out into the meadows again, wondering how he could meet this new demand. Still, no answer came to him.
+        - id: ch05-b05
+          speaker: narrator
+          text: The sun set and darkness fell. Then a little mouse slipped out of the grass at Ferko's feet.
+        - id: ch05-b06
+          speaker: mouse
+          text: I'm so glad to see you, my kind benefactor. Why do you look so sad? Perhaps I can help you and repay the kindness you showed me.
+        - id: ch05-b07
+          speaker: narrator
+          text: Ferko recognized the mouse whose front paws he had healed.
+        - id: ch05-b08
+          speaker: ferko
+          text: Alas, how could you help with something beyond any person's power? Before tomorrow night, every grain stalk in the kingdom must be gathered into one enormous heap. If a single stalk is missing, I will pay with my life.
+        - id: ch05-b09
+          speaker: mouse
+          text: Is that all? You needn't be so troubled. Trust me. Before the sun sets tomorrow, you will hear that the work is done.
+          emotion: calm
+        - id: ch05-b10
+          speaker: narrator
+          text: The little mouse scampered away into the fields. Ferko never doubted that she would keep her word. He lay down on the soft grass, comforted, and slept soundly until morning.
+        - id: ch05-b11
+          speaker: narrator
+          text: The next day seemed to pass very slowly. Ferko stayed in the meadow and waited, trusting the little mouse but hearing no news as the hours went by. At last evening came, and the mouse returned to him from the fields.
+        - id: ch05-b12
+          speaker: mouse
+          text: Not one stalk of corn remains in any field. Every last one has been gathered into a single heap on that hill.
+        - id: ch05-b13
+          speaker: narrator
+          text: Ferko joyfully told the King that the task was complete. The whole court went out and marveled just as they had before. On the hill lay all the grain in the country, piled higher than the royal palace. Not one stalk had been left behind.
+        - id: ch05-b14
+          speaker: narrator
+          text: The little mouse had summoned every mouse in the land. Working together, they had gathered the kingdom's grain.
+        - id: ch05-b15
+          speaker: narrator
+          text: The King could not hide his astonishment, but his anger grew at the same time. Ferko's brothers stood near him, repeating again and again that no ordinary man could have done this. Ferko must be a wicked magician. The King was more willing than ever to believe them. The beautiful Princess alone rejoiced in Ferko's success. She looked at him with friendly eyes, and the young man returned her gaze.
+    - id: ch06
+      title: The Final Task
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: The longer the cruel King stared at the great heap of grain, the angrier he became. He had given his word, so he could not put Ferko to death. Once more, he turned to the brothers.
+        - id: ch06-b02
+          speaker: king
+          text: His evil magic has saved him again. What shall his third task be? It may be utterly impossible, but he must do it or die.
+          emotion: angry
+        - id: ch06-b03
+          speaker: eldest_brother
+          text: Make him drive every wolf in the kingdom onto this hill before tomorrow night. If he succeeds, he may leave freely. If not, hang him as you promised.
+        - id: ch06-b04
+          speaker: narrator
+          text: At those words, the Princess burst into tears. When the King saw her crying, he ordered that she be locked in a high tower and carefully guarded. She must stay there until the dangerous magician had either left the kingdom or been hanged from the nearest tree.
+        - id: ch06-b05
+          speaker: narrator
+          text: Ferko went back into the fields and sat alone on a tree stump. He wondered what he could possibly do next, but no plan came to him. Suddenly, a large wolf ran up across the field and stopped before him.
+        - id: ch06-b06
+          speaker: wolf
+          text: I am very glad to see you again, my kind benefactor. Why are you sitting here alone, so deep in thought? Just tell me if I can help. I want to show you how grateful I am.
+        - id: ch06-b07
+          speaker: narrator
+          text: Ferko knew him at once. It was the wolf whose broken leg he had healed. He explained what he must do the next day if he wanted to save his life.
+        - id: ch06-b08
+          speaker: ferko
+          text: But how in the world can I gather every wolf in the kingdom on that hill?
+        - id: ch06-b09
+          speaker: wolf
+          text: If that is all you need, don't worry. I will take care of it. You will hear from me before sunset tomorrow. Keep your spirits up.
+          emotion: calm
+        - id: ch06-b10
+          speaker: narrator
+          text: The wolf trotted quickly away. Ferko rejoiced, because now he knew his life was safe. Yet the thought of the beautiful Princess made him sad. If he left the country, he would never see her again. He lay on the grass once more and soon fell fast asleep.
+        - id: ch06-b11
+          speaker: narrator
+          text: Ferko wandered through the fields all the following day. Toward evening, the wolf came running back in a great hurry.
+        - id: ch06-b12
+          speaker: wolf
+          text: I have brought together all the wolves in the kingdom. They are waiting for you in the wood. Hurry to the King and tell him to come to the hill, so he can see your wonder for himself. Then come straight back, climb onto my back, and I will help you drive the wolves before us.
+    - id: ch07
+      title: The Wolves on the Hill
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: Ferko went straight to the palace. He told the King he was ready to perform the final task and asked him to watch from the hill. Then Ferko returned to the fields, mounted the wolf's back, and rode toward the nearby wood.
+        - id: ch07-b02
+          speaker: narrator
+          text: The wolf raced around the wood as quick as lightning. In a moment, hundreds of wolves rose before him. More appeared every second. Soon they could be counted by the thousands. Riding on the back of his grateful friend, Ferko drove the whole enormous pack out of the wood and onto the hill. The wolves crowded closer as still more poured from among the trees. The King, his whole court, and Ferko's two brothers stood there waiting to see the task performed with their own eyes.
+        - id: ch07-b03
+          speaker: narrator
+          text: Only the Princess was missing. She was still shut in her tower, weeping bitterly.
+        - id: ch07-b04
+          speaker: narrator
+          text: Ferko's brothers stamped and foamed with rage when they saw their wicked plan fail. But terror seized the King as the enormous pack came closer and closer.
+        - id: ch07-b05
+          speaker: king
+          text: Enough! Enough! We want no more wolves!
+          emotion: fearful
+        - id: ch07-b06
+          speaker: wolf
+          text: Go on! Go on!
+        - id: ch07-b07
+          speaker: narrator
+          text: Many more wolves rushed up the hill. They howled horribly and showed their white teeth.
+        - id: ch07-b08
+          speaker: king
+          text: Wait! I will give you half my kingdom if you drive these wolves away!
+          emotion: fearful
+        - id: ch07-b09
+          speaker: narrator
+          text: Ferko pretended not to hear him. He drove several thousand more wolves forward, until everyone on the hill shook with fear.
+        - id: ch07-b10
+          speaker: king
+          text: Stop! You may have my whole kingdom. Only send the wolves back where they came from!
+          emotion: fearful
+        - id: ch07-b11
+          speaker: wolf
+          text: Go on! Go on!
+        - id: ch07-b12
+          speaker: narrator
+          text: Ferko kept leading the wolves ahead. At last, they fell upon the King and the wicked brothers. In a moment, the wolves had eaten them and the entire court.
+        - id: ch07-b13
+          speaker: narrator
+          text: Ferko went straight to the palace and freed the Princess from her tower. That same day, they married, and Ferko was crowned King of the country.
+        - id: ch07-b14
+          speaker: narrator
+          text: The wolves returned peacefully to their homes. Ferko and his bride lived together in peace and happiness for many years, beloved by both great and small throughout the land.

@@ -1,0 +1,161 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, steady, and quietly mysterious
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    young_warrior:
+      display_name: Young Warrior
+      tts:
+        delivery: brave, alert, and straightforward
+        timbre: clear and youthful
+        pace: moderate
+        pitch: medium
+    grieving_woman:
+      display_name: Grieving Woman
+      tts:
+        delivery: anguished and pleading
+        timbre: worn and trembling
+        pace: uneven
+        pitch: medium-high
+    villager:
+      display_name: Villager
+      tts:
+        delivery: grave, resigned, and plainspoken
+        timbre: earthy and mature
+        pace: measured
+        pitch: medium-low
+    dog_owner:
+      display_name: Schippeitaro's Master
+      tts:
+        delivery: cautious and firm
+        timbre: sturdy and mature
+        pace: moderate
+        pitch: medium-low
+    cat_1:
+      display_name: First Cat
+      tts:
+        delivery: harsh, secretive, and chanting
+        timbre: sharp and rasping
+        pace: quick
+        pitch: high
+    cat_2:
+      display_name: Second Cat
+      tts:
+        delivery: harsh, secretive, and chanting
+        timbre: thin and scratchy
+        pace: quick
+        pitch: medium-high
+    cat_3:
+      display_name: Third Cat
+      tts:
+        delivery: harsh, secretive, and chanting
+        timbre: rough and throaty
+        pace: quick
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Road to the Wild Mountain
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: In old Japan, when a boy came of age, it was the custom for him to leave home and roam the country in search of adventure. Sometimes he met another young man with the same purpose. The two would have a friendly fight, just to learn which was stronger. At other times he met a robber who had terrified the whole neighborhood, and then the fight was deadly serious.
+        - id: ch01-b02
+          speaker: narrator
+          text: One day, a young man left his own village. He had made up his mind not to return until some great deed had made his name famous. For a long while, though, he wandered without finding any adventure at all. There were no fierce giants to face and no damsels in distress to rescue.
+        - id: ch01-b03
+          speaker: narrator
+          text: Then he saw a wild mountain in the distance, half hidden under a thick forest. That looked promising, so he took the road toward it at once. He climbed huge rocks, crossed deep rivers, and went around thorny stretches of ground. The way was difficult, but each obstacle only made his heart beat faster. He was truly brave, not merely brave when he had no other choice, as so many people are.
+        - id: ch01-b04
+          speaker: narrator
+          text: Still, he could not find his way out of the forest. Night was drawing near, and he thought he might have to sleep among the trees. He searched once more for shelter and spotted a small chapel in a clearing. He hurried over, curled up in a warm corner, and soon fell asleep.
+    - id: ch02
+      title: The Cats in the Moonlight
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: For several hours, not a sound stirred in the forest. Then midnight came, and such a dreadful clamor broke out that the exhausted young man woke at once.
+        - id: ch02-b02
+          speaker: narrator
+          text: He peered carefully between the chapel's wooden pillars. A troop of hideous cats was dancing wildly in the full moonlight. Their yells made the whole night horrible. The young warrior could only stare in amazement, but he took great care to stay perfectly still. If the cats discovered him, he knew he would be in danger.
+        - id: ch02-b03
+          speakers: [cat_1, cat_2, cat_3]
+          ensemble: chorus
+          text: Do not tell Schippeitaro! Keep it hidden and secret! Do not tell Schippeitaro!
+        - id: ch02-b04
+          speaker: narrator
+          text: Those were the words he seemed to hear among all their shrieks. Once the midnight hour had passed, every cat vanished. The youth was alone again. Worn out by everything that had happened around him, he lay down and slept until sunrise.
+    - id: ch03
+      title: The Village's Sorrow
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The moment he woke, he was ravenously hungry and began wondering where he could find food. He set off again, and before long he came upon a narrow side path marked with human footprints. He followed the track past a few scattered huts and saw a village beyond them. Delighted by the sight, he was about to hurry on. Then he heard a woman weeping and lamenting inside one of the huts. She was begging the men around her to take pity and help.
+        - id: ch03-b02
+          speaker: grieving_woman
+          text: Please, have mercy on her! Won't any of you help us?
+          emotion: sad
+        - id: ch03-b03
+          speaker: narrator
+          text: Her grief drove every thought of hunger from the young man's mind. He strode into the hut and asked what had happened. The men only shook their heads. They said no one could help. The Spirit of the Mountain caused this sorrow, and every year the village had to give him a maiden to eat.
+        - id: ch03-b04
+          speaker: villager
+          text: The dreadful creature comes for his meal tomorrow night. The girl you hear crying is the one chosen by lot.
+        - id: ch03-b05
+          speaker: young_warrior
+          text: Do you mean he takes her from her own home?
+        - id: ch03-b06
+          speaker: villager
+          text: No. We put a large cask in the forest chapel and fasten her inside it.
+        - id: ch03-b07
+          speaker: narrator
+          text: The young man longed to save the maiden from such a fate. At the mention of the chapel, he remembered the moonlit dance and went over every detail in his mind. Then one name came back to him.
+        - id: ch03-b08
+          speaker: young_warrior
+          text: Who is Schippeitaro? Does anyone here know?
+        - id: ch03-b09
+          speaker: villager
+          text: Schippeitaro is the great dog owned by our prince's overseer. He lives close by.
+        - id: ch03-b10
+          speaker: narrator
+          text: The villagers laughed. To them, his question sounded strange and pointless. The young man did not laugh with them. He left the hut and went straight to the dog's owner.
+    - id: ch04
+      title: Schippeitaro in the Cask
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: He begged the man to lend him Schippeitaro for just one night. The dog's master knew nothing about this stranger and was very unwilling to trust him with the animal.
+        - id: ch04-b02
+          speaker: dog_owner
+          text: You ask me to hand my great dog over to someone I have never met. How can I be sure you will bring him back?
+        - id: ch04-b03
+          speaker: young_warrior
+          text: I give you my word. Schippeitaro will be back with you tomorrow.
+        - id: ch04-b04
+          speaker: narrator
+          text: At last the owner agreed, and the youth led the dog away after faithfully promising to return him the next day. Next he hurried to the maiden's hut and pleaded with her parents to lock her safely in a closet. Then he brought Schippeitaro to the great cask and fastened him inside. He knew the villagers would place the cask in the chapel that evening. So he hid there and waited.
+        - id: ch04-b05
+          speaker: narrator
+          text: At midnight, the full moon rose above the mountain. Once again the cats crowded into the chapel. They shrieked, yelled, and danced just as they had the night before. This time, a huge black cat stood among them like a king. The young man guessed that this monster was the Spirit of the Mountain.
+        - id: ch04-b06
+          speaker: narrator
+          text: The great cat searched eagerly around the chapel. The moment he saw the cask, his eyes flashed with joy. He sprang high into the air, crying out with delight. Then he came close and pulled back the bolts.
+    - id: ch05
+      title: The End of the Mountain Spirit
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The monster expected to sink his teeth into a beautiful maiden. Instead, Schippeitaro's teeth closed on him. The young warrior rushed forward and cut off the great cat's head with his sword.
+        - id: ch05-b02
+          speaker: narrator
+          text: The other cats were so stunned by this sudden turn that they forgot to flee. They had expected a helpless maiden, not a warrior and a great dog. Before they recovered, the youth and Schippeitaro killed several more. Only then did the rest think of escaping into the night.
+        - id: ch05-b03
+          speaker: narrator
+          text: At sunrise, the brave dog was returned to his master. From that day onward, the maidens of the mountain were safe.
+        - id: ch05-b04
+          speaker: narrator
+          text: And every year, the people held a feast in memory of the young warrior and the dog Schippeitaro.

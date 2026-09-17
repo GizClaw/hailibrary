@@ -1,0 +1,176 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 温和郑重，带着向读者介绍全书的亲切口吻
+        timbre: 温暖清晰
+        pace: 从容舒展
+        pitch: 中等
+    young_woman:
+      display_name: 姑娘
+      tts:
+        delivery: 天真认真，对荒唐的忧虑深信不疑
+        timbre: 柔和明亮
+        pace: 适中
+        pitch: 中高
+    mother:
+      display_name: 母亲
+      tts:
+        delivery: 慈爱热心，和女儿一样容易陷入糊涂念头
+        timbre: 温暖圆润
+        pace: 稍慢
+        pitch: 中等
+    father:
+      display_name: 父亲
+      tts:
+        delivery: 朴实笃定，说起荒唐事也一本正经
+        timbre: 浑厚清晰
+        pace: 适中
+        pitch: 中低
+    suitor:
+      display_name: 求婚的年轻人
+      tts:
+        delivery: 爽直机敏，从惊讶不耐转为轻松自信
+        timbre: 清朗有力
+        pace: 适中
+        pitch: 中等
+    orchard_worker_1:
+      display_name: 果园里的人甲
+      tts:
+        delivery: 费解又发愁，说话直来直去
+        timbre: 朴实清晰
+        pace: 适中
+        pitch: 中等
+    orchard_worker_2:
+      display_name: 果园里的人乙
+      tts:
+        delivery: 费解又发愁，语气认真憨直
+        timbre: 粗朴明亮
+        pace: 适中
+        pitch: 中高
+    pig_owner:
+      display_name: 猪的主人
+      tts:
+        delivery: 憨厚卖力，醒悟时毫不掩饰惊奇
+        timbre: 粗厚朴实
+        pace: 稍慢
+        pitch: 中低
+    trouser_man:
+      display_name: 穿裤子的男人
+      tts:
+        delivery: 笨拙坦率，佩服别人时真心实意
+        timbre: 明亮质朴
+        pace: 适中
+        pitch: 中等
+  chapters:
+    - id: ch01
+      title: 地窖里的难题
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个姑娘都三十七岁了，还从来没人追求过她。原因也简单，她实在太傻，谁都不愿意娶她。可有一天，真有一个年轻人上门求婚了。母亲喜得满脸放光，赶紧叫女儿到地窖里打一壶啤酒。
+        - id: ch01-b02
+          speaker: narrator
+          text: 女儿去了很久，一直没回来。母亲下楼一看，只见她坐在楼梯上，双手抱着头。啤酒的龙头没有关，酒已经淌得满地都是。
+        - id: ch01-b03
+          speaker: mother
+          text: 你怎么坐在这里？
+        - id: ch01-b04
+          speaker: young_woman
+          text: 我在想，以后嫁给那个年轻人，生了第一个孩子，该取什么名字才好。历书上的名字全让别人用过了呀。
+        - id: ch01-b05
+          speaker: narrator
+          text: 母亲听完，也挨着她坐到了楼梯上。
+        - id: ch01-b06
+          speaker: mother
+          text: 好孩子，那我跟你一起想吧。
+        - id: ch01-b07
+          speaker: narrator
+          text: 父亲还在楼上陪客人。他等了又等，见妻子和女儿都不回来，便下楼去找。到了地窖，他看见母女俩坐在楼梯上，敞开的龙头旁边，啤酒还在不停地流。
+        - id: ch01-b08
+          speaker: father
+          text: 你们到底在忙什么？酒都流得满地都是了！
+        - id: ch01-b09
+          speaker: mother
+          text: 我们在替女儿将来的孩子想名字呢。等她嫁给楼上那个年轻人，肯定会生孩子，可历书上的名字都已经有人用了。
+        - id: ch01-b10
+          speaker: father
+          text: 这样啊，那我也坐下来帮你们想。
+        - id: ch01-b11
+          speaker: narrator
+          text: 于是父亲也不回去了。楼上的年轻人越等越不耐烦，只好自己下地窖看看。他发现一家三口全坐在楼梯上，任凭啤酒从龙头里流出来。
+        - id: ch01-b12
+          speaker: suitor
+          text: 你们怎么还不上楼？到底在这里干什么？啤酒都白白流光了！
+        - id: ch01-b13
+          speaker: father
+          text: 我知道，孩子。可你娶了我女儿以后，你们的孩子用什么名字呢？历书上的名字早就全让人占了。
+        - id: ch01-b14
+          speaker: narrator
+          text: 年轻人听了这个回答，马上作了决定。
+        - id: ch01-b15
+          speaker: suitor
+          text: 那好，再见吧，我这就走。等我找到三个比你们还傻的人，我再回来娶她。
+    - id: ch02
+      title: 果园和橡树
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 年轻人上了路，走出很远，来到一片果园。他看见几个人把核桃从树上打下来，又举着草叉，想把核桃扔进一辆大车。
+        - id: ch02-b02
+          speaker: suitor
+          text: 你们这是在做什么？
+        - id: ch02-b03
+          speakers: [orchard_worker_1, orchard_worker_2]
+          ensemble: duo
+          text: 我们想把核桃装上车，可怎么也弄不上去。
+        - id: ch02-b04
+          speaker: narrator
+          text: 年轻人告诉他们，先把核桃装进篮子，再倒进车里就行。
+        - id: ch02-b05
+          speaker: suitor
+          text: 这就找到了第一个。果然有人比地窖里的那三位还傻。
+        - id: ch02-b06
+          speaker: narrator
+          text: 他继续赶路。不久，他走进一片树林，看见一个男人正拼尽力气，要让自己的猪爬上一棵橡树，好吃树上的橡子。
+        - id: ch02-b07
+          speaker: suitor
+          text: 好心人，你费这么大劲儿做什么呢？
+        - id: ch02-b08
+          speaker: pig_owner
+          text: 我想喂猪吃橡子，可它怎么都不肯爬上树。
+        - id: ch02-b09
+          speaker: suitor
+          text: 你自己上树，把橡子摇下来，猪不就能在地上捡着吃了吗？
+        - id: ch02-b10
+          speaker: pig_owner
+          text: 哎呀，我竟然一直没想到这个办法！
+        - id: ch02-b11
+          speaker: suitor
+          text: 好了，第二个傻瓜也找到了。
+    - id: ch03
+      title: 从没穿过裤子的人
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 年轻人沿着大路又走了一段，看见一个从来没穿过裤子的男人。那人把一条裤子系在树上，然后一次次拼命往空中跳。他打算落下来时，正好把两条腿伸进两只裤管。
+        - id: ch03-b02
+          speaker: suitor
+          text: 你还是把裤子拿在手里吧。先伸进一条腿，再伸另一条，不就容易多了吗？
+        - id: ch03-b03
+          speaker: trouser_man
+          text: 天哪，你说得真对！你比我聪明多了，我压根儿没想过还能这么穿。
+    - id: ch04
+      title: 年轻人回来了
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 这样一来，年轻人真的找到了三个比那位姑娘和她父母更傻的人。他便照自己说过的话回去，娶了那位姑娘。
+        - id: ch04-b02
+          speaker: narrator
+          text: 后来，他们生了许许多多的孩子。
+        - id: ch04-b03
+          speaker: narrator
+          text: 这个故事采自埃诺，见于勒穆瓦纳的《传统》第三十四期。

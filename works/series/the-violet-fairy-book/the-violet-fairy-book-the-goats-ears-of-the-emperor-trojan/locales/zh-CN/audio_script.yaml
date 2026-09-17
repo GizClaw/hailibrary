@@ -1,0 +1,168 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 编者
+      tts:
+        delivery: 亲切而略带诙谐的讲述
+        timbre: 温暖清晰的成年男声
+        pace: 从容舒展
+        pitch: 中低音
+    emperor_trojan:
+      display_name: 特洛扬皇帝
+      tts:
+        delivery: 威严多疑，口气不容违抗
+        timbre: 深沉坚硬的成年男声
+        pace: 稍慢
+        pitch: 低音
+    apprentice:
+      display_name: 年轻学徒
+      tts:
+        delivery: 诚实谨慎，紧张时仍努力镇定
+        timbre: 清亮柔和的年轻男声
+        pace: 适中
+        pitch: 中高音
+    master_barber:
+      display_name: 理发师傅
+      tts:
+        delivery: 实在沉稳，耐心宽厚
+        timbre: 温暖成熟的成年男声
+        pace: 从容缓慢
+        pitch: 中低音
+    flute:
+      display_name: 魔笛
+      tts:
+        delivery: 清脆诡奇，带着反复吟唱的韵律
+        timbre: 空灵尖亮的声音
+        pace: 适中
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 皇帝的秘密
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前有位特洛扬皇帝，偏偏长着一双山羊耳朵。每天早晨，都会有一名新理发师来替他剃胡子。活儿一做完，皇帝就问，对方有没有看见什么怪处。理发师只要说出那双山羊耳朵，马上就会被处死。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            这样过了很久，城里的理发师差不多都死光了。终于，轮到理发师行会的师傅进宫。可他临出门时忽然病倒，只好派一个学徒代替自己。
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            年轻人来到皇帝的寝宫。特洛扬皇帝一见来人不是师傅，便问他是怎么回事。
+        - id: ch01-b04
+          speaker: apprentice
+          text: >-
+            陛下，我师傅病了。除了我，他找不到别人来担这份差事。
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            皇帝听了很满意。他坐下来，让人围上一条细麻布。年轻人动手剃胡子时，也看见了那双山羊耳朵，却始终没有开口。等胡子剃好，皇帝照例问他。
+        - id: ch01-b06
+          speaker: emperor_trojan
+          text: >-
+            你有没有发现，我身上有什么怪处？
+        - id: ch01-b07
+          speaker: apprentice
+          text: >-
+            没有，陛下。我什么也没发现。
+          emotion: calm
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            皇帝一听，十分高兴，当场赏给他十二枚达克特金币。
+        - id: ch01-b09
+          speaker: emperor_trojan
+          text: >-
+            从今往后，你每天都来替我剃胡子。
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            学徒回到家，师傅连忙问他，在皇帝那里是否顺利。
+        - id: ch01-b11
+          speaker: apprentice
+          text: >-
+            顺利极了。皇帝叫我以后每天都去，还赏了我十二枚达克特金币。
+        - id: ch01-b12
+          speaker: narrator
+          text: >-
+            可那双山羊耳朵，他一个字也没提。
+
+    - id: ch02
+      title: 埋进大地的秘密
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            从那以后，学徒天天进宫，每个早晨都能拿到十二枚金币。起初，他把秘密守得严严实实。可日子一久，那秘密就像一团火，在他心里越烧越旺。他实在想找个人说出来。师傅看出他心事重重，便问他出了什么事。
+        - id: ch02-b02
+          speaker: apprentice
+          text: >-
+            这个秘密已经折磨我好几个月了。要是没人替我分担，我心里永远也安定不下来。
+        - id: ch02-b03
+          speaker: master_barber
+          text: >-
+            那就告诉我，我一定替你保密。你若不愿意，也可以去向牧师忏悔。还有一个办法。到城外的田野里挖个洞，跪在洞边，把秘密轻声说三遍。然后把土填好，转身回来。
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            学徒觉得最后一个办法最好。当天午后，他走到城外的草地，挖了一个深洞。他跪在洞边，对着里面低声说了三遍。
+        - id: ch02-b05
+          speaker: apprentice
+          text: >-
+            特洛扬皇帝长着山羊耳朵。特洛扬皇帝长着山羊耳朵。特洛扬皇帝长着山羊耳朵。
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            话一说完，压在他心上的重担仿佛滚落了。年轻人仔细把土铲回洞里，脚步轻快地跑回家去。
+
+    - id: ch03
+      title: 只会唱一句话的笛子
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            几个星期过去，埋秘密的地方长出一棵接骨木。它有三根枝干，每一根都像白杨那么笔直。附近的牧人放羊时发现了它，其中一人砍下一根枝干，拿去做成笛子。谁知笛子一吹响，半支曲子也不肯奏，只会反复唱一句话。
+        - id: ch03-b02
+          speaker: flute
+          text: >-
+            特洛扬皇帝长着山羊耳朵。
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            没过多久，全城都知道了这支奇妙的笛子，也知道它唱的是什么。消息最后传进王宫，到了皇帝耳中。特洛扬立刻把学徒召来。
+        - id: ch03-b04
+          speaker: emperor_trojan
+          text: >-
+            你到底在我的百姓中间说了些什么？
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            年轻人连忙申辩，说自己从没有把看见的事告诉任何人。皇帝却根本不听，拔剑出鞘。学徒一见那把剑，吓得只好把经过全说出来。
+        - id: ch03-b06
+          speaker: apprentice
+          text: >-
+            我只对着泥土说了三遍真话。后来，那里长出一棵接骨木。有人拿枝干做成笛子，那些笛子就一直重复我说过的话。
+          emotion: fearful
+
+    - id: ch04
+      title: 大地也守不住秘密
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            皇帝马上命人备好马车，带着学徒赶往那片草地。他要亲眼看看，这番供词究竟是真是假。两人到了那里，只见接骨木还剩最后一根枝干。皇帝叫侍从把它砍下来，为自己做一支笛子。
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            笛子做好后，皇帝命宫廷总管吹奏。那位总管明明是宫中最出色的吹笛人，却怎么也吹不出曲调。笛子里传出的，还是同一句话。
+        - id: ch04-b03
+          speaker: flute
+          text: >-
+            特洛扬皇帝长着山羊耳朵。
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            这下，特洛扬皇帝终于明白，就连大地也会泄露藏在腹中的秘密。他饶了年轻人的性命，却从此再也不许他替自己剃胡子。

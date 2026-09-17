@@ -1,0 +1,731 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，带一点温和的诙谐
+        timbre: 温暖清晰
+        pace: 舒缓
+        pitch: 中音
+    dschemil:
+      display_name: 贾米尔
+      tts:
+        delivery: 真挚执着，危急时果断急切
+        timbre: 清朗坚定
+        pace: 适中
+        pitch: 中低音
+    dschemila:
+      display_name: 贾米拉
+      tts:
+        delivery: 温柔聪慧，困境中机敏而坚韧
+        timbre: 清澈柔和
+        pace: 适中
+        pitch: 中高音
+    mother:
+      display_name: 贾米拉的母亲
+      tts:
+        delivery: 慈爱直率，忧急时情真意切
+        timbre: 温厚略哑
+        pace: 适中
+        pitch: 中音
+    father:
+      display_name: 贾米拉的父亲
+      tts:
+        delivery: 朴实沉重，措辞简短
+        timbre: 低沉厚实
+        pace: 稍缓
+        pitch: 低音
+    companion_1:
+      display_name: 女伴甲
+      tts:
+        delivery: 直爽利落，语气自然
+        timbre: 年轻明亮
+        pace: 稍快
+        pitch: 中高音
+    companion_2:
+      display_name: 女伴乙
+      tts:
+        delivery: 朴素随和，语气自然
+        timbre: 年轻清亮
+        pace: 适中
+        pitch: 中高音
+    townsman_1:
+      display_name: 城中男子甲
+      tts:
+        delivery: 热心直率，说话响亮
+        timbre: 粗犷清晰
+        pace: 适中
+        pitch: 中低音
+    townsman_2:
+      display_name: 城中男子乙
+      tts:
+        delivery: 务实谨慎，语气笃定
+        timbre: 沉稳朴实
+        pace: 适中
+        pitch: 中音
+    traveler:
+      display_name: 迷路的旅人
+      tts:
+        delivery: 豪爽健谈，受惊时恭谨急促
+        timbre: 略带风尘的明亮嗓音
+        pace: 适中
+        pitch: 中音
+    brother:
+      display_name: 贾米尔的兄弟
+      tts:
+        delivery: 随意直爽，压低声音时略显慌张
+        timbre: 年轻厚实
+        pace: 适中
+        pitch: 中低音
+    ogre:
+      display_name: 食人魔
+      tts:
+        delivery: 粗暴多疑，得意时带阴冷笑意
+        timbre: 浑厚沙哑
+        pace: 稍缓
+        pitch: 低音
+    human_meat:
+      display_name: 人肉
+      tts:
+        delivery: 神秘警醒，像短促的歌谣
+        timbre: 细弱空灵
+        pace: 稍缓
+        pitch: 高音
+    lamb_meat:
+      display_name: 羊羔肉
+      tts:
+        delivery: 平静应和，像短促的歌谣
+        timbre: 柔细空灵
+        pace: 稍缓
+        pitch: 中高音
+    dog:
+      display_name: 食人魔的狗
+      tts:
+        delivery: 机警讥讽，吐字清楚
+        timbre: 粗哑尖利
+        pace: 适中
+        pitch: 中音
+    neighbor_1:
+      display_name: 邻人甲
+      tts:
+        delivery: 好奇热心，说话爽快
+        timbre: 朴实明亮
+        pace: 适中
+        pitch: 中音
+    neighbor_2:
+      display_name: 邻人乙
+      tts:
+        delivery: 爱劝说，语气直白
+        timbre: 清晰厚实
+        pace: 适中
+        pitch: 中低音
+    merchant:
+      display_name: 犹太商人
+      tts:
+        delivery: 谨慎恭敬，疲惫时气息虚弱
+        timbre: 干涩清晰
+        pace: 适中
+        pitch: 中音
+    elder:
+      display_name: 老人
+      tts:
+        delivery: 稳重明理，语气不疾不徐
+        timbre: 苍老温厚
+        pace: 稍缓
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 铁臼与假坟
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前有个男子叫贾米尔，他的表妹叫贾米拉。两人还小的时候，父母就替他们订了婚。后来贾米尔觉得该成亲了，便赶了两三天路，到最近的大城去买新房里的家具。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            他走以后，贾米拉和女伴们到附近的树林捡柴。她在地上发现一只铁臼，就把它放到柴捆上。可是每次她想把柴捆扛上肩，铁臼都会从旁边滑下来。她只好解开柴捆，想把铁臼牢牢绑在正中。这时，女伴们催她快走，因为天就要黑了。
+        - id: ch01-b03
+          speakers: [companion_1, companion_2]
+          ensemble: duo
+          text: 贾米拉，你还在忙什么？想跟我们回去，就快一点呀！
+        - id: ch01-b04
+          speaker: dschemila
+          text: 你们先走吧。我不能把这只铁臼扔在这里，就算忙到半夜，我也得把它带回去。
+        - id: ch01-b05
+          speaker: companion_1
+          text: 那就随你吧。
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            姑娘们动身回家，树林很快黑了下来。最后一点天光刚消失，那只铁臼忽然变成了食人魔。他把贾米拉往背上一扔，带到荒漠深处一座城堡里。那里离她的家足有一个月的路。食人魔叫她别害怕，说不会伤她的性命，随后便回妻子那里去了。贾米拉独自哭泣，后悔自己惹来了这场灾祸。
+        - id: ch01-b07
+          speaker: narrator
+          text: 这时，女伴们已经回城。贾米拉的母亲赶出来，焦急地追问女儿去了哪里。
+        - id: ch01-b08
+          speaker: mother
+          text: 你们把她怎么了？她为什么没跟你们回来？
+          emotion: fearful
+        - id: ch01-b09
+          speaker: companion_2
+          text: 我们只好把她留在树林。她捡到一只铁臼，怎么也搬不动，又不肯放下。
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            母亲马上赶往树林，一路走，一路喊女儿。城里人听见了，劝她回家，说寻找姑娘要靠身强力壮的男人。她却一定要跟着去，还怕最后只能找到女儿的尸首，怕她被毒蛇咬死，或是叫野兽吃掉。
+        - id: ch01-b11
+          speaker: townsman_1
+          text: 你先回家，我们替你去找。你一个女人，做不了这种事，还是让强壮的男人去吧。
+        - id: ch01-b12
+          speaker: mother
+          text: 你们去，我也去！说不定我们只能找到她的尸首。她也许被蛇咬了，也许已经落进野兽嘴里。
+          emotion: fearful
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            男人们劝不动她，便带上一位女伴，让她领路。他们在林中找到了贾米拉丢下的柴捆，却找不到人。众人一遍遍高喊她的名字，没有半点回应。一个男人提议生火，姑娘若还在林中，也许能看见。于是大家点起篝火，分头穿过树林，到处寻找。他们一边走，一边低声猜测。若是狮子伤了她，地上总该留下痕迹。若她只是在哪棵树下睡着了，大家的喊声早该把她惊醒。若她中了蛇毒，至少也该找到她的尸首。
+        - id: ch01-b14
+          speakers: [townsman_1, townsman_2, companion_1]
+          ensemble: chorus
+          text: 贾米拉！贾米拉！你在哪里？
+        - id: ch01-b15
+          speaker: townsman_2
+          text: 点一堆火吧。她要是看见火光，也许会自己走过来。
+        - id: ch01-b16
+          speaker: narrator
+          text: >-
+            众人找了一整夜。天亮以后，他们又累又失望，便说贾米拉准是跟一个男人私奔了，再找也没用。母亲答应回去，却坚持先到河里看一眼，怕有人把女儿扔进了水中。河里仍旧没有她。
+        - id: ch01-b17
+          speaker: townsman_1
+          text: 别再找了，跟我们回家吧。你女儿没有遇上别的事，她一定是跟人私奔了。
+        - id: ch01-b18
+          speaker: mother
+          text: 我跟你们回去。不过先让我看看河里，也许有人把她扔进去了。
+        - id: ch01-b19
+          speaker: narrator
+          text: >-
+            父母在家守候了四天，每一天都盼着孩子忽然回来。等到最后一点希望也没有了，他们才坐下来商量。贾米尔很快就会带着新房里的东西回城，到时该怎样对他说呢？他们怕他知道未婚妻失踪以后，立刻又出门寻找，最后连他也回不来。于是两人想出一个办法。他们杀掉一只山羊，把羊头埋进坟墓，打算告诉贾米尔，贾米拉已经死了。
+        - id: ch01-b20
+          speaker: father
+          text: 贾米尔回来以后，我们怎么对他说？不如埋一只山羊头，给贾米拉做座坟，就说她已经死了。
+        - id: ch01-b21
+          speaker: narrator
+          text: >-
+            没过多久，贾米尔带着新买的地毯和柔软靠垫回来了。才进城，贾米拉的父亲便迎上去，祝他平安，又告诉他贾米拉死了。贾米尔放声大哭，许久才问出她葬在哪里。
+        - id: ch01-b22
+          speaker: father
+          text: 愿你平安。贾米拉已经死了。
+          emotion: sad
+        - id: ch01-b23
+          speaker: dschemil
+          text: 她葬在哪里？
+          emotion: sad
+        - id: ch01-b24
+          speaker: townsman_2
+          text: 跟我来，我带你去墓地。
+        - id: ch01-b25
+          speaker: narrator
+          text: >-
+            贾米尔带上几件为新房买来的精美物品，跟那人来到坟前。他把东西一件件放在草地上，望着坟墓又哭了起来。他在那里待了整整一天，直到夜色降临，才收起那些织物，独自带回家中。可是第二天天一亮，他又把它们全抱到坟前，在那里守过整个白昼，还轻轻吹奏长笛。第三天、第四天也是如此。整整六个月，他天天带着为新房买来的东西来到坟边，陪伴那个他以为长眠在地下的人。
+    - id: ch02
+      title: 从远方送来的口信
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            一天清晨，一个旅人在荒漠里迷了路。他四处游荡，撞见一座孤零零的城堡。太阳晒得厉害，他也累极了，便躺到城堡的阴影下。正要睡着，窗口忽然传来一个轻轻的声音。
+        - id: ch02-b02
+          speaker: dschemila
+          text: 你是鬼，还是人？
+        - id: ch02-b03
+          speaker: traveler
+          text: 我是人，还比你父亲和祖父都强得多。
+        - id: ch02-b04
+          speaker: dschemila
+          text: 愿好运伴着你。可你怎么闯进了食人魔和妖怪出没的地方？
+        - id: ch02-b05
+          speaker: traveler
+          text: 难道这座城堡里真的住着食人魔？
+          emotion: surprised
+        - id: ch02-b06
+          speaker: dschemila
+          text: 当然。天快黑了，他很快就回来。朋友，赶紧走吧，不然他会抓住你，把你当晚饭吃掉。
+        - id: ch02-b07
+          speaker: traveler
+          text: 可我快渴死了！求你给我一点水吧。这么大的荒漠，总该有一眼泉水呀！
+        - id: ch02-b08
+          speaker: dschemila
+          text: 食人魔每次带水回来，都是从那个方向来的。你顺着那边找，也许能找到泉水。
+        - id: ch02-b09
+          speaker: narrator
+          text: 旅人立刻起身。刚要走，贾米拉又问他去哪里。他反问她为何想知道。
+        - id: ch02-b10
+          speaker: dschemila
+          text: 我想托你办件事，不过你得先告诉我，你往东走，还是往西走？
+        - id: ch02-b11
+          speaker: traveler
+          text: 我要去大马士革。
+        - id: ch02-b12
+          speaker: dschemila
+          text: >-
+            那就请你经过我们村子时，找一个叫贾米尔的人。告诉他，贾米拉从远方那座随风摇撼的城堡向他问候。我的坟里只有一只山羊。请他振作起来。
+        - id: ch02-b13
+          speaker: narrator
+          text: >-
+            旅人答应下来，照她指的方向找到泉水，痛痛快快喝足，又在岸边睡了一觉。醒来后，他想到是姑娘救了自己的命，再迟几个钟头，他就会渴死。于是他决心一定找到她的故乡，把口信送到。
+        - id: ch02-b14
+          speaker: narrator
+          text: >-
+            一个月后，旅人终于来到贾米尔住的城镇。贾米尔正坐在自家门前，胡子没有刮，乱发垂下来遮着眼睛。他招呼远客进屋休息吃饭。旅人和贾米拉的父亲、兄弟们，还有贾米尔一家围桌坐下，只有贾米尔仍蹲在门槛上。
+        - id: ch02-b15
+          speaker: dschemil
+          text: 欢迎你，远方来的客人。你从哪里来？
+        - id: ch02-b16
+          speaker: traveler
+          text: 我从西边来，要往东边去。你怎么不一起来吃？
+        - id: ch02-b17
+          speaker: brother
+          text: 别管他，也别问了。他只在夜里吃东西。
+        - id: ch02-b18
+          speaker: narrator
+          text: >-
+            客人继续吃饭。贾米尔的兄弟忽然叫贾米尔拿水，旅人这才想起口信，问这里是否有个叫贾米尔的人，还说自己在荒漠中见过一座城堡和窗口的姑娘。众人慌忙叫他住口，可贾米尔已经听见，立即走了过来。
+        - id: ch02-b19
+          speaker: traveler
+          text: 这里有个叫贾米尔的人吗？我在荒漠里迷路时，见过一座城堡。窗口有个姑娘探出头来。
+        - id: ch02-b20
+          speakers: [father, brother, townsman_1]
+          ensemble: chorus
+          text: 别说了！快别说了！
+        - id: ch02-b21
+          speaker: dschemil
+          text: 你到底看见了什么？一句不漏地告诉我，不然我马上砍下你的脑袋！
+          emotion: angry
+        - id: ch02-b22
+          speaker: traveler
+          text: >-
+            老爷，我在荒漠里又热又累，看见一座大城堡，就想到墙根的阴影下休息。一个姑娘从窗口问我是鬼还是人。我说自己是人，还比她父亲和祖父都强。我渴得快死了，她没有水，却告诉我，食人魔总从同一个方向带水回来，往那边走多半能找到泉水。临走时，她托我找到贾米尔，告诉他，贾米拉从远方那座随风摇撼的城堡向他问候。她的坟里只有一只山羊。请他振作起来。
+        - id: ch02-b23
+          speaker: dschemil
+          text: 这是真的吗？贾米拉根本没有死，她只是被人从家里掳走了？
+          emotion: surprised
+        - id: ch02-b24
+          speakers: [father, brother]
+          ensemble: duo
+          text: 不是真的！他说的全是谎话。贾米拉确实死了，人人都知道。
+        - id: ch02-b25
+          speaker: dschemil
+          text: 我会亲眼查个明白。
+        - id: ch02-b26
+          speaker: narrator
+          text: >-
+            他抓起铁锹，飞奔到埋着羊头的坟墓。家人再也瞒不住，只好从头说出真相。贾米拉在树林里捡到一只铁臼，想把它带回家。她既搬不动，又不肯丢下，女伴们只好先走。天黑后，全城的人出门找了她一整夜，却什么也没找到。家人想到贾米尔第二天就要回来。他若知道未婚妻失踪，一定会去找，到时恐怕连他也要失去。他们这才杀了山羊，埋下羊头，骗他说姑娘死了。现在真相已经讲明，贾米尔想怎样做都由他。不过他若一定要去，最好带上见过贾米拉的旅人，让那个人引路。
+        - id: ch02-b27
+          speaker: father
+          text: >-
+            现在你全知道了，想怎么做就怎么做。可你真要找她，就带上这个见过她的人，让他给你引路。
+        - id: ch02-b28
+          speaker: dschemil
+          text: 这是最好的办法。替我备好食物，把剑拿来，我们马上出发。
+        - id: ch02-b29
+          speaker: traveler
+          text: 我可不肯白走一个月，领你去那座城堡！要是一两天还行，整整一个月，绝对不行。
+        - id: ch02-b30
+          speaker: dschemil
+          text: 那就陪我走三天，把我领上正确的路。我会重重酬谢你。
+        - id: ch02-b31
+          speaker: traveler
+          text: 好吧，就这样办。
+        - id: ch02-b32
+          speaker: narrator
+          text: >-
+            两人一连三天从日出走到日落。第三天结束时，旅人告诉贾米尔，只要一直往前，到一眼泉水那里再走不远，就会看见城堡。贾米尔答应照办，旅人便告辞，独自沿原路回去了。
+    - id: ch03
+      title: 城堡里的重逢
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            贾米尔又走了二十六天，终于看见沙漠里冒出一小片绿色。他赶到泉边，跪下痛饮清水，又躺在凉爽的草地上。他想，旅人若没说错，城堡一定就在附近，不如睡上一夜，明天再找。醒来时太阳已经很高。他洗过脸和手，继续赶路。没走多远，城堡忽然出现在眼前，刚才那里还连影子也没有。
+        - id: ch03-b02
+          speaker: narrator
+          text: >-
+            他怕敲门惊动食人魔，便爬上城墙，在墙头等了约莫一个钟头。上方的窗子忽然打开，贾米拉叫出了他的名字。贾米尔抬头一看，竟是自己以为已经死去的姑娘，眼泪一下涌了出来。
+        - id: ch03-b03
+          speaker: dschemila
+          text: 亲爱的表哥，你怎么会来到这里？
+        - id: ch03-b04
+          speaker: dschemil
+          text: 我失去了你，心里痛苦极了。
+          emotion: sad
+        - id: ch03-b05
+          speaker: dschemila
+          text: 快走！食人魔回来以后，一定会杀了你。
+          emotion: fearful
+        - id: ch03-b06
+          speaker: dschemil
+          text: >-
+            我以你的头起誓，我心中的女王。我好不容易找到你，绝不会再失去你！如果非死不可，那就死吧！
+        - id: ch03-b07
+          speaker: dschemila
+          text: 唉，那我能替你做什么？我放一根绳子下去，你能系在腋下，顺着绳子爬上来吗？
+        - id: ch03-b08
+          speaker: dschemil
+          text: 当然能。
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            贾米拉放下绳子，贾米尔把它缚在身上，爬进窗口。两个人紧紧相拥，欢喜得哭了起来。可食人魔随时会回来。贾米尔叫她放心，她便让他藏进存衣服的大箱子，躺在箱底，千万别动。
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            他刚躲好，箱盖才合上，楼梯上就响起沉重的脚步。食人魔猛地推门进来，给自己带了人肉，也给贾米拉带了羊羔肉。他一进门便嗅到了活人的气味，怒吼着追问那人来做什么。
+        - id: ch03-b11
+          speaker: ogre
+          text: 我闻见活人的气味了！那个人来这里干什么？
+          emotion: angry
+        - id: ch03-b12
+          speaker: dschemila
+          text: 这片荒漠里怎么可能有人来？
+        - id: ch03-b13
+          speaker: narrator
+          text: 贾米拉说着哭了起来。食人魔反倒安慰她，猜是乌鸦从爪子里掉了碎肉。
+        - id: ch03-b14
+          speaker: ogre
+          text: 别哭。也许是一只乌鸦飞过时，掉下了几块碎肉。
+        - id: ch03-b15
+          speaker: dschemila
+          text: 对了，我差点忘记。确实有只乌鸦掉下来几根骨头。
+        - id: ch03-b16
+          speaker: ogre
+          text: 把骨头烧成粉末，我要吞下去。
+        - id: ch03-b17
+          speaker: narrator
+          text: >-
+            贾米拉拿几根骨头烧成灰，交给食人魔。他吞下粉末，伸开四肢躺下，很快睡着。过了一会儿，锅里正在烹煮的人肉忽然唱起来，羊羔肉也跟着应和。
+        - id: ch03-b18
+          speaker: human_meat
+          text: 嘘，嘘，别出声！箱子里面藏着一个人！
+        - id: ch03-b19
+          speaker: lamb_meat
+          text: 他是你的兄弟，也是她的表亲。
+        - id: ch03-b20
+          speaker: ogre
+          text: 那块肉说了什么，贾米拉？
+        - id: ch03-b21
+          speaker: dschemila
+          text: 它只说，千万别忘了加盐。
+        - id: ch03-b22
+          speaker: ogre
+          text: 那就加盐。
+        - id: ch03-b23
+          speaker: dschemila
+          text: 已经加过了。
+        - id: ch03-b24
+          speaker: narrator
+          text: >-
+            食人魔很快又睡熟了。人肉第二次叫出箱里藏人的秘密，羊羔肉也照样应和。食人魔又问，贾米拉便说肉在提醒她加胡椒。他叫她加，她回答已经加了。
+        - id: ch03-b25
+          speaker: human_meat
+          text: 嘘，嘘，别出声！箱子里面藏着一个人！
+        - id: ch03-b26
+          speaker: lamb_meat
+          text: 他是你的兄弟，也是她的表亲。
+        - id: ch03-b27
+          speaker: dschemila
+          text: 它说该放胡椒了。我已经放好了。
+        - id: ch03-b28
+          speaker: narrator
+          text: >-
+            食人魔打猎累了一天，再也撑不住眼皮。人肉第三次叫喊，羊羔肉第三次回答。贾米拉这回说，肉已经熟了，正催她把锅端下火。食人魔立即叫她把肉送来。
+        - id: ch03-b29
+          speaker: human_meat
+          text: 嘘，嘘，别出声！箱子里面藏着一个人！
+        - id: ch03-b30
+          speaker: lamb_meat
+          text: 他是你的兄弟，也是她的表亲。
+        - id: ch03-b31
+          speaker: dschemila
+          text: 它说肉已经熟了，我该把锅端下来了。
+        - id: ch03-b32
+          speaker: ogre
+          text: 既然熟了，就拿来给我吃。
+        - id: ch03-b33
+          speaker: narrator
+          text: >-
+            贾米拉把煮好的人肉端到食人魔面前。食人魔大口吃着自己的晚饭，她则吃了羊羔肉，还悄悄替藏在箱里的表哥留下一些。食人魔吃饱以后洗过手，说自己累了，叫贾米拉替他铺床。她把床铺好，在他头下放上一只柔软舒服的枕头，又仔细替他盖好被子。等他躺定，她忽然叫了声父亲。
+        - id: ch03-b34
+          speaker: dschemila
+          text: 亲爱的父亲，你若真的睡着了，为什么眼睛总是睁着？
+        - id: ch03-b35
+          speaker: ogre
+          text: 你问这个做什么？难道你想暗算我？
+        - id: ch03-b36
+          speaker: dschemila
+          text: 我怎么会暗算你？昨夜我醒来，看见四周都闪着红光，心里害怕，所以才问。
+        - id: ch03-b37
+          speaker: ogre
+          text: 我睡得最沉的时候，才会出现红光。
+        - id: ch03-b38
+          speaker: dschemila
+          text: 你总把这根大头针仔细收着，它有什么用？还有缝补针和短柄斧呢？
+        - id: ch03-b39
+          speaker: ogre
+          text: >-
+            大头针扔出去，会变成一座铁山。缝补针会变成一片大海。短柄斧会变成谁也穿不过的荆棘篱笆。可你为什么问个不停？你一定藏着什么念头。
+        - id: ch03-b40
+          speaker: dschemila
+          text: 我只是好奇。再说，这种地方有谁能找到我呢？
+        - id: ch03-b41
+          speaker: narrator
+          text: >-
+            她又哭了。食人魔说自己只是开玩笑，很快再次睡去。城堡里先透出黄光。贾米尔在箱中催她快逃，她却说黄光表示食人魔还没有睡熟。两人等了一个钟头，贾米拉偷偷去看，终于看见四周闪着红光。
+        - id: ch03-b42
+          speaker: dschemil
+          text: 快来！他睡着了，我们必须马上逃走。
+        - id: ch03-b43
+          speaker: dschemila
+          text: 刚才还是黄光，他没有睡熟。现在红光亮了，可我们怎么出去？
+        - id: ch03-b44
+          speaker: dschemil
+          text: 把绳子拿来，我先放你下去。
+        - id: ch03-b45
+          speaker: narrator
+          text: >-
+            贾米拉取来绳子，又把短柄斧、大头针和缝补针全都交给表哥，叫他放进斗篷口袋，千万别弄丢。贾米尔把绳子系在她身上，小心地从墙头往下放。等她说自己平安落地，他才叫她解开绳子，又把绳子拉上来。几分钟以后，贾米尔也下了城墙，站在她身边。
+        - id: ch03-b46
+          speaker: dog
+          text: 沉睡的人啊，你还在做好梦吗？贾米拉早就抛下你逃走了。
+        - id: ch03-b47
+          speaker: narrator
+          text: 这段时间里，食人魔一直沉睡，城墙上的动静一点也没听见。他的狗走到床边提醒他。食人魔爬下床，狠狠踢了狗一脚，根本不肯相信它的话，接着又回到床上，一直睡到天亮。
+    - id: ch04
+      title: 逃亡与食人魔的诅咒
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            天一亮，食人魔便起身高喊贾米拉的名字。城堡里空荡荡的，回答他的只有自己的回声。他赶紧穿好衣服，佩上长剑，吹口哨把狗叫来。他认定逃亡者只有一条路可走，立刻沿着那条路追去。贾米拉忽然回头，看见远处的食人魔还只有一根针那么高。她和贾米尔拼命奔跑，可食人魔和狗还是越来越近。再多跑几步，他们就要被追上了。
+        - id: ch04-b02
+          speaker: dschemila
+          text: 表哥，食人魔追来了！他还在远处，看起来只有一根针那么高。
+          emotion: fearful
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            眼看就要被追上，贾米拉把缝补针抛到身后。一座铁山猛然拔地而起，挡在双方之间。食人魔怒吼着要和狗一起把山凿穿。他们果真撞出通路，很快又逼近了。
+        - id: ch04-b04
+          speaker: ogre
+          text: 我和我的狗一定会把这座铁山凿穿！
+          emotion: angry
+        - id: ch04-b05
+          speaker: dschemila
+          text: 表哥，他们又追上来了！
+          emotion: fearful
+        - id: ch04-b06
+          speaker: dschemil
+          text: 你跑在前面，别停下！
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            两人继续飞奔，食人魔和狗越来越近。贾米拉叫表哥扔出大头针。贾米尔把针往身后一抛，地上立刻长出密密的荆棘，把追兵挡住。
+        - id: ch04-b08
+          speaker: ogre
+          text: 就算从地下钻过去，我也不会放过你们！
+          emotion: angry
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            没过多久，食人魔和狗又到了另一边。贾米尔叫贾米拉只管往前跑，不要害怕。可她跑了一段，又停下说敌人只剩几码远。贾米尔把短柄斧扔到地上，一片大湖顿时横在身后。
+        - id: ch04-b10
+          speaker: ogre
+          text: 我要把湖水喝干，我的狗也会喝，一直喝到一滴不剩！
+          emotion: angry
+        - id: ch04-b11
+          speaker: narrator
+          text: >-
+            狗喝得太多，肚子胀破死了。食人魔仍不肯停，很快把整片湖喝得几乎见底。他气得大声诅咒贾米拉，要她的头变成驴头，头发变成兽毛。诅咒立刻应验。
+        - id: ch04-b12
+          speaker: ogre
+          text: 贾米拉，愿你的头变成驴头，头发变成野兽的毛！
+          emotion: angry
+        - id: ch04-b13
+          speaker: dschemil
+          text: 她原来真是一头驴，根本不是女人！
+          emotion: fearful
+        - id: ch04-b14
+          speaker: narrator
+          text: >-
+            贾米尔看着眼前的驴头和兽毛，恐惧压过了他亲眼见过的一切。他就这样丢下贾米拉，独自往家走。可怜的姑娘孤身游荡了两天，伤心地哭个不停。直到表哥快要回到故乡，他才一遍遍想起自己做了什么，心里越来越羞愧。他安慰自己，贾米拉也许已经恢复原样了。无论怎样，他都要回去看看。想到这里，他立刻转身，拼命沿原路往回赶。
+        - id: ch04-b15
+          speaker: narrator
+          text: >-
+            他拼命赶路，终于看见贾米拉坐在一块岩石上。她四周围着一群狼，只能竭力抵挡。那些狼馋得口水直流，正想把孤零零的姑娘当作一顿晚餐。贾米尔冲过去赶走群狼，这才来到她面前，叫她快起来，说自己若再晚到一步，她恐怕就没命了。
+        - id: ch04-b16
+          speaker: dschemila
+          text: 真好啊，我的朋友。你劝我跟你逃走，最后却把无依无靠的我扔下，任我死活。
+          emotion: sad
+        - id: ch04-b17
+          speaker: dschemil
+          text: 我说实话吧。我以为你是女巫，心里害怕。
+        - id: ch04-b18
+          speaker: dschemila
+          text: 我变形以前，你不是见过我吗？食人魔念出诅咒时，你也亲眼看着呀！
+        - id: ch04-b19
+          speaker: dschemil
+          text: >-
+            可我该怎么办？若把你带进城，人人都会笑话我。他们会说，你带回来的是什么怪物？手脚和身体都像女人，偏偏长着驴头和兽毛。
+        - id: ch04-b20
+          speaker: dschemila
+          text: 那就趁夜把我送回母亲家，别让任何人知道。
+        - id: ch04-b21
+          speaker: narrator
+          text: >-
+            两人等到天色将暗才回城。贾米尔轻轻敲门，告诉姨母自己找到了贾米拉，就站在身后。母亲一看见女儿便尖叫起来，问贾米尔是不是在戏弄她，自己怎么可能生过一头驴。
+        - id: ch04-b22
+          speaker: mother
+          text: 你是在拿我寻开心吗？我什么时候生过一头驴？
+          emotion: surprised
+        - id: ch04-b23
+          speaker: dschemil
+          text: 嘘，别让所有人都听见。你看看她的身体，她身上应该有两道伤疤。
+        - id: ch04-b24
+          speaker: dschemila
+          text: 母亲，你真的认不出自己的女儿了吗？
+          emotion: sad
+        - id: ch04-b25
+          speaker: narrator
+          text: >-
+            母亲说，一道伤疤在大腿上，是狗咬伤的，另一道在胸口，是她小时候扯倒油灯烫伤的。贾米拉露出两道伤疤，母亲这才哭着紧紧抱住她。
+        - id: ch04-b26
+          speaker: mother
+          text: 亲爱的女儿，你究竟遭了什么可怕的厄运？
+          emotion: sad
+        - id: ch04-b27
+          speaker: dschemila
+          text: 食人魔先把我掳走，后来又对我施了咒。请把我藏起来，别告诉任何人。表哥，邻居若问，就说你没有找到我。
+        - id: ch04-b28
+          speaker: dschemil
+          text: 我会照你说的做。
+        - id: ch04-b29
+          speaker: narrator
+          text: >-
+            贾米尔答应替她保守秘密。他和姨母把贾米拉带到楼上，藏进一只壁橱。她在那里住了整整一个月。白天无论听见外面有什么声音，她都不能露面，只有等屋里所有人都睡熟以后，才敢从狭小的藏身处出来走一走。
+        - id: ch04-b30
+          speaker: narrator
+          text: >-
+            贾米尔回家后，父母、兄弟和邻居都欢欢喜喜地迎接他，问他何时回来，有没有找到贾米拉。他说自己找遍整个世界，也没听见她的半点消息。众人又问那个同他出发的旅人去了哪里。他回答，两人才走三天，那人就虚弱得毫无用处，再也走不动了，算起来已经回家一个月。后来他独自继续赶路，探过每一座城堡，找过每一间屋子，却始终没有贾米拉的踪迹，最后只得放弃。
+        - id: ch04-b31
+          speakers: [neighbor_1, neighbor_2]
+          ensemble: duo
+          text: 我们早说找不到。她准是被食人男妖或食人女妖吞掉了。
+        - id: ch04-b32
+          speaker: dschemil
+          text: 我太爱她，不能什么都不做。
+        - id: ch04-b33
+          speaker: neighbor_1
+          text: 那就另娶一个吧。比贾米拉漂亮的姑娘多得是。新房里的地毯和靠垫放久了，也会被蛾子吃光。
+        - id: ch04-b34
+          speaker: dschemil
+          text: >-
+            就算那些东西在箱里放十年，我也只娶贾米拉。让我安静休息一两个月，我还会出去找她。自己的事情该怎么办，每个人心里最清楚。
+        - id: ch04-b35
+          speaker: narrator
+          text: 邻人说他才是大惊小怪。贾米尔不愿争吵，转身进了屋。
+    - id: ch05
+      title: 镜子、梳子与婚礼
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            三个月后，一个犹太商人穿过荒漠，来到那座城堡，在墙根下歇息。傍晚，食人魔发现了他，问他来做什么，有没有货物出售。商人怕得要命，说自己只有几件衣服。
+        - id: ch05-b02
+          speaker: ogre
+          text: 别怕，我不会吃你。说真的，我还想跟你走一段路。
+        - id: ch05-b03
+          speaker: merchant
+          text: 尊贵的老爷要我做什么，我都听从。
+        - id: ch05-b04
+          speaker: ogre
+          text: >-
+            一直往前走，你会到一座城。那里有个姑娘叫贾米拉，还有个年轻人叫贾米尔。把这面镜子和这把梳子交给贾米拉。告诉她，她的父亲食人魔向她问好。她照一照镜子，脸就会恢复原样，再用梳子梳头，头发也会复原。你若不照办，下次见面我就吃掉你。
+        - id: ch05-b05
+          speaker: merchant
+          text: 我一定一丝不差，全都照办！
+          emotion: fearful
+        - id: ch05-b06
+          speaker: narrator
+          text: >-
+            三十天后，商人终于走进城门。他才来到遇见的第一条街，就坐了下来。这一路走得他又饿又渴，浑身疲惫，一点力气也没有。贾米尔恰好从那里经过，看见一个人坐在烈日底下，便停步叫他快起来，不然一定会中暑。商人叹着气说，自己走了整整一个月，现在累得再也动不了了。
+        - id: ch05-b07
+          speaker: dschemil
+          text: 你从哪个方向来？走了一个月，有没有见过什么稀奇的事？
+        - id: ch05-b08
+          speaker: merchant
+          text: >-
+            我从那边来。路上看见一座城堡，就躺在阴影里休息。一个食人魔把我叫醒，要我来这座城找一个叫贾米尔的年轻人，还有一个叫贾米拉的姑娘。
+        - id: ch05-b09
+          speaker: dschemil
+          text: 我就是贾米尔。食人魔要你做什么？
+        - id: ch05-b10
+          speaker: merchant
+          text: 他托我给贾米拉带了礼物。我怎样才能见到她？
+        - id: ch05-b11
+          speaker: dschemil
+          text: 跟我来，你可以亲手交给她。
+        - id: ch05-b12
+          speaker: narrator
+          text: >-
+            贾米尔把商人领到叔父家，告诉姨母，这人从食人魔那里来，带着一面镜子和一把梳子。姨母怕这是食人魔的恶毒诡计，贾米尔却认为不会，劝她把东西交给贾米拉。
+        - id: ch05-b13
+          speaker: mother
+          text: 这也许是食人魔设下的圈套。
+        - id: ch05-b14
+          speaker: dschemil
+          text: 我看不会。还是把东西给她吧。
+        - id: ch05-b15
+          speaker: narrator
+          text: 贾米拉从藏身处出来，走到商人面前，问他从哪里来，又问食人魔派他来做什么。
+        - id: ch05-b16
+          speaker: merchant
+          text: >-
+            我从你的父亲食人魔那里来。他叫我交给你这面镜子和这把梳子。他说，只要照照镜子，再用梳子梳头，你的脸和头发就会恢复原样。
+        - id: ch05-b17
+          speaker: narrator
+          text: >-
+            贾米拉接过镜子，按照食人魔捎来的话，先把镜面举到自己面前照了照。接着，她又拿起那把梳子，从长满兽毛的头上梳过去。奇迹就在母亲和表哥眼前发生了。那副可怕的驴头消失不见，粗硬的兽毛也恢复成她原来的头发。贾米拉重新变成了从前那位美丽的姑娘。母亲和表哥看着她，喜悦极了。她平安归来的消息很快传遍街巷，邻居们一个接一个涌到家里问候。他们追问她是什么时候回来的，又问贾米尔，既然早已把人带回，为什么还对大家说没有找到她。
+        - id: ch05-b18
+          speaker: dschemila
+          text: 是表哥把我带回来的。
+        - id: ch05-b19
+          speaker: neighbor_2
+          text: 可他明明告诉我们，他没有找到你呀！
+        - id: ch05-b20
+          speaker: dschemil
+          text: 我是故意那样说的，不想让所有人都知道。现在马上准备，婚礼今天就办。
+        - id: ch05-b21
+          speaker: narrator
+          text: >-
+            人们备好一顶华美的轿子，要把新娘送到新家。贾米拉却畏缩着不肯上去。她害怕食人魔再次把她掳走。众人觉得她多虑了，说亲友全都守在这里，足足有两千个人，而且每个男人腰间都佩着剑。食人魔就算有再大的胆子，也绝不可能当着这么多人的面碰到她。可贾米拉知道，那怪物不只力气大，还是一位法力强大的国王。他若存心抓人，总能想出旁人料不到的办法。因此无论大家怎样劝，她还是不肯坐进轿子。
+        - id: ch05-b22
+          speaker: dschemila
+          text: 他总能想出办法。他是一位法力强大的国王！你们不了解那个怪物，我了解。我不走。
+          emotion: fearful
+        - id: ch05-b23
+          speaker: elder
+          text: 她说得有道理。既然她害怕，就撤掉轿子，让她走路吧。
+        - id: ch05-b24
+          speakers: [neighbor_1, neighbor_2]
+          ensemble: duo
+          text: 这太荒唐了！食人魔怎么可能抓到她？
+        - id: ch05-b25
+          speaker: narrator
+          text: 众人争执不休时，新郎到了。
+        - id: ch05-b26
+          speaker: dschemil
+          text: 别逼她。让她留在父亲家里，我搬过来住就是了。现在把婚宴准备起来吧。
+        - id: ch05-b27
+          speaker: narrator
+          text: >-
+            众人听了新郎的话，终于不再逼迫贾米拉登上轿子。他们就在她父亲家中摆开婚宴，为这对历尽磨难的新人庆祝。于是，贾米尔和贾米拉终于成了亲。从那以后，他们共同度过一生，两个人从来没有争吵过一次。

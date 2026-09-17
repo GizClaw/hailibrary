@@ -1,0 +1,545 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 温暖机敏，带着克制的幽默讲述
+        timbre: 清澈柔和
+        pace: 从容而富有变化
+        pitch: 中音
+    caroline:
+      display_name: 卡罗琳
+      tts:
+        delivery: 大方热情，努力摆出长姐的懂事
+        timbre: 明亮清脆
+        pace: 自然轻快
+        pitch: 中高音
+    charlotte:
+      display_name: 夏洛特
+      tts:
+        delivery: 活泼直率，想到什么便说什么
+        timbre: 轻盈清亮
+        pace: 偏快
+        pitch: 高音
+    charles:
+      display_name: 查尔斯
+      tts:
+        delivery: 淘气认真，笑话总说得一本正经
+        timbre: 清亮的男孩声
+        pace: 轻快
+        pitch: 中高音
+    rupert:
+      display_name: 鲁珀特
+      tts:
+        delivery: 直爽开朗，病中说话虚弱而迷糊
+        timbre: 清亮的少年声
+        pace: 自然，发烧时忽快忽慢
+        pitch: 中高音
+    uncle_charles:
+      display_name: 查尔斯舅舅
+      tts:
+        delivery: 温和飘忽，偶尔流露出幽微的兴味
+        timbre: 轻柔低沉
+        pace: 舒缓
+        pitch: 中低音
+    eleanour:
+      display_name: 埃莉诺夫人
+      tts:
+        delivery: 庄重温柔，声音仿佛带着遥远星光
+        timbre: 空灵明澈
+        pace: 缓慢
+        pitch: 中高音
+  chapters:
+    - id: ch01
+      title: 麻疹过后的坦白
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: |-
+            这场悲剧，你一眼就能看出来。安多尔勋爵的宴会和鲁珀特回来，都定在下下个星期，三个孩子却偏偏得了麻疹。他们是什么心情，实在很难说得清。查尔斯或许最倒霉。其实他只是患了很重的普通感冒，跟麻疹毫无关系，大家却一直怀疑他就要发病。他不能吹风，不能游泳，只能让威尔明顿太太领出去散步，日子简直无聊透顶。两个姑娘躺在床上，反倒比他好受。她们每天都能盼着吃食变好，从果冻和牛肉清汤，到鱼和鸡，再到真正的牛肉和布丁，最后总算能起床吃早饭。
+        - id: ch01-b02
+          speaker: narrator
+          text: |-
+            三个人重新聚齐的那天，正好就是安多尔勋爵举行宴会的日子。他们当然不能去，因为大人说要防着他们受凉。茶点撤走以后，查尔斯仔细关好饭厅的门。他神情沉重，终于开了口。
+        - id: ch01-b03
+          speaker: charles
+          text: |-
+            我有件事得坦白。可我说出来，你们大概一辈子都不肯理我了。
+        - id: ch01-b04
+          speakers: [caroline, charlotte]
+          ensemble: duo
+          text: |-
+            那你倒是说呀？
+        - id: ch01-b05
+          speaker: charlotte
+          text: |-
+            别学别人那套样子。你要是真做了什么，就痛快说出来。反正我们会站在你这边。
+        - id: ch01-b06
+          speaker: charles
+          text: |-
+            我真的很对不起，也希望没把整件事全都毁掉。可你们不知道我一个人有多烦。威尔明顿太太一天到晚管这管那，舅舅每回离开他的书都超不过一分钟。有一天，我觉得自己连一刻也忍不下去了，就做了那件事。
+        - id: ch01-b07
+          speaker: caroline
+          text: |-
+            到底是什么事，亲爱的？
+        - id: ch01-b08
+          speaker: charles
+          text: |-
+            我看了帘子后面。
+          emotion: sad
+        - id: ch01-b09
+          speaker: charlotte
+          text: |-
+            我就知道你会看！只要我早些想到，就一定猜得到。你总是这样，我以后再也不跟你一起施魔法了。
+          emotion: angry
+        - id: ch01-b10
+          speaker: charles
+          text: |-
+            好啊，你只管往伤口上撒盐吧。
+        - id: ch01-b11
+          speaker: caroline
+          text: |-
+            我看你真的把一切都毁了。查尔斯，你怎么能这样？
+        - id: ch01-b12
+          speaker: charles
+          text: |-
+            我比你们更难过，因为魔法已经开始了。她从画框里出去了。
+          emotion: sad
+        - id: ch01-b13
+          speakers: [caroline, charlotte]
+          ensemble: duo
+          text: |-
+            出去了？
+          emotion: surprised
+        - id: ch01-b14
+          speaker: charles
+          text: |-
+            彻底不见了。帘子后面黑漆漆的，她不在那里，千真万确。
+        - id: ch01-b15
+          speaker: narrator
+          text: |-
+            两个姑娘都扑向帘子，查尔斯连忙抓住她们的胳膊，把两个人拦下。
+        - id: ch01-b16
+          speaker: charles
+          text: |-
+            别看，先等等！我已经想过好多遍了，反正我也没有别的事可做。
+        - id: ch01-b17
+          speaker: charlotte
+          text: |-
+            可怜的查尔斯。对不起，我刚才冲你发火了。可这件事真的很叫人生气，是不是？
+        - id: ch01-b18
+          speaker: charles
+          text: |-
+            这事对你们又没有坏处。你们没有看帘子后面，也没破坏自己那一份魔法。你们当然没事，准能见到她。见不到她的是我，只有我再也见不到她了。
+        - id: ch01-b19
+          speaker: caroline
+          text: |-
+            也许你那一看已经破了咒，她现在又回到画像里了。
+        - id: ch01-b20
+          speaker: charles
+          text: |-
+            别碰帘子！咒没有破，魔法还在继续。我后来又看过，想知道咒破了没有，可她还是不在。
+          emotion: fearful
+        - id: ch01-b21
+          speaker: caroline
+          text: |-
+            你到底看过多少次？
+        - id: ch01-b22
+          speaker: charles
+          text: |-
+            从你们卧床那天起，我每天都看。第一次就是你们上床休息的那天。她那天不在，现在也不在。别再拿这件事挤对我了。我反正见不到她，光是这一点就够我难受啦，你们何必还说个没完。
+          emotion: sad
+        - id: ch01-b23
+          speaker: caroline
+          text: |-
+            我们不再说了。不过，你不会再偷看了吧？
+        - id: ch01-b24
+          speaker: charles
+          text: |-
+            你们已经回来了，我也不想看了。
+        - id: ch01-b25
+          speaker: narrator
+          text: |-
+            原来，姐姐们回来以后，查尔斯就再也不觉得孤单了。这句无意中的恭维一下把她们的心说软了。从此，谁也没再提查尔斯那次不该有的冒失。
+    - id: ch02
+      title: 大理石桌上的信
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: |-
+            第二天，舅舅问卡罗琳和夏洛特愿不愿意去给客厅掸灰。威尔明顿太太要参加安多尔勋爵的庆典，正忙得不可开交。她把钥匙交给姑娘们，两个人打扫得格外认真，做得又仔细又彻底，简直不肯漏过一点灰尘。查尔斯也来帮忙，可他实在不会使掸子。他更喜欢守着那个瓷人，看它苍老的头缓缓点动，看它脸上画出的微笑，还有交叠在胸前的瓷手。
+        - id: ch02-b02
+          speaker: charlotte
+          text: |-
+            想想吧，威尔明顿太太能去，汽水女人能去，鲁珀特能去，所有人都能去，偏偏我们不能！
+          emotion: sad
+        - id: ch02-b03
+          speaker: caroline
+          text: |-
+            别难过。我们还可以盼着心愿之花开放，鲁珀特也快回来了。再想想，安多尔勋爵送了那么多葡萄，字母表先生还送了巧克力呢。
+        - id: ch02-b04
+          speaker: narrator
+          text: |-
+            卡罗琳拿起一块旧丝绸手帕，去擦一张大壁桌的大理石桌面。威尔明顿太太觉得客厅太神圣，普通抹布根本配不上它，所以只许用丝绸打扫。卡罗琳刚把手帕移到桌面上，便发现那里多了一件平日没有的东西。它方方正正，很像一封信，用绿白丝线编成的带子捆好，还封着火漆。带子的一端垂下三英寸左右，末端另挂着一枚绿色的大火漆印。
+        - id: ch02-b05
+          speaker: caroline
+          text: |-
+            夏尔，快看，多奇怪！它好像是用羊皮纸写的，古老得不得了。火漆印上还是舅舅家的纹章。
+        - id: ch02-b06
+          speaker: charlotte
+          text: |-
+            拿给舅舅看吧。咦，你怎么了？
+        - id: ch02-b07
+          speaker: narrator
+          text: |-
+            卡罗琳的手抖了起来，伸出的信也跟着颤。她的声音同样在发抖。
+        - id: ch02-b08
+          speaker: caroline
+          text: |-
+            看呀！这上面写着我们的名字！
+          emotion: surprised
+        - id: ch02-b09
+          speaker: narrator
+          text: |-
+            方形羊皮纸上果然写着三个名字。第一行是卡罗琳，第二行是夏洛特，最后一行是查尔斯。每个名字都端端正正地排在纸面上。笔迹陌生，却清楚可辨。那墨色仿佛经过了许多许多年的缓慢冲刷，已经一点一点褪淡。
+        - id: ch02-b10
+          speaker: charlotte
+          text: |-
+            卡萝，你来拆。
+        - id: ch02-b11
+          speaker: charles
+          text: |-
+            对，卡萝，你拆吧。
+        - id: ch02-b12
+          speaker: narrator
+          text: |-
+            绿色火漆印这么古老，弄坏实在可惜。孩子们把信稍稍一折，编织的丝带便轻易滑了下来，大家都松了一口气。可里面的第二枚绿色火漆印，还是非打破不可。卡罗琳的手不太稳，羊皮纸在她手里窸窣作响。她小心地把信展开，里面出现了几行字。那字迹与信封上一样陌生，却清清楚楚，墨色也同样经过漫长年月，变得暗淡陈旧。
+        - id: ch02-b13
+          speaker: eleanour
+          text: |-
+            晚钟八点，凭此石案，凝眸镜中，便可见我，与我交谈。但只许看镜，不得出声。耳后簪粉红马鞭草，心前佩玫瑰。你们的亲族，埃莉诺。
+        - id: ch02-b14
+          speaker: charles
+          text: |-
+            那我没有毁掉这件事，连自己那一份也没毁。信上也写了我的名字，跟你们一样。
+          emotion: happy
+        - id: ch02-b15
+          speaker: caroline
+          text: |-
+            是啊。不过你得站在我们俩中间，而且绝对不能回头看。
+        - id: ch02-b16
+          speaker: charles
+          text: |-
+            好像我还会想做那种事似的。
+    - id: ch03
+      title: 镜中的埃莉诺夫人
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: |-
+            那天晚上七点五十五分，三个名字都以C开头的孩子站在大壁桌前。他们耳后插着粉红马鞭草，胸前别着红玫瑰。就在当天早晨，威尔明顿太太刚刚收拾过饭厅里的花瓶。说来也怪，她挑中的恰好就是玫瑰和粉红马鞭草。
+        - id: ch03-b02
+          speaker: charlotte
+          text: |-
+            连威尔明顿太太都能支使，这魔法一定很强。花语是秘密，还有一家团聚。
+        - id: ch03-b03
+          speaker: narrator
+          text: |-
+            夏日的这个时刻，屋里当然还不算黑，却也不再十分明亮。三个孩子一动不动地等着。查尔斯站在中间，这是一个受到严密看守的位置。过了一会儿，他们清清楚楚、真真切切地看见，镜子里那扇通往舅舅秘密楼梯的门打开了，绝没有看错。一位夫人拖着长长的丝绒衣裙，从门里走进来。正是画像上的夫人。
+        - id: ch03-b04
+          speaker: narrator
+          text: |-
+            她围着熟悉的轮状皱领，戴着贴发帽。深色宝石闪着幽光，眼睛里流转着柔和的光。孩子们怎么会认不出她呢？这几个星期以来，他们每天都在饭厅的古老雕花画框里见到这张脸，早已把每个细节记在心里。很遗憾，查尔斯立刻想回头，幸亏两个姐姐同时伸出胳膊，搂住他的脖子，把他牢牢拦了下来。
+        - id: ch03-b05
+          speaker: narrator
+          text: |-
+            夫人轻盈地滑到一处，从那里，她可以望进镜子，也可以直望进孩子们的眼睛。
+        - id: ch03-b06
+          speaker: eleanour
+          text: |-
+            我来了。不要动，也不要说话。你们相信古老而美好的事物，所以我才来到你们面前。你们曾寻找我的书，也真的找到了它们。你们还试着用书中的魔法帮助穷苦无助的人，让彼此争执的人重新和好。因此，你们终于见到了自己渴望见到的人。等花开的时节来临，你们也会得到心中所愿。
+        - id: ch03-b07
+          speaker: eleanour
+          text: |-
+            不要说话，也不要动，不然魔法就会破灭。现在，我要为你们唱一首歌。最后一个音符消失以后，请闭上眼睛，很慢很慢地数到二十七。你们的亲族埃莉诺，在人世正好度过了二十七年。
+        - id: ch03-b08
+          speaker: narrator
+          text: |-
+            美丽的身影沿着房间向竖琴移去。镜框上的金色早已黯淡，可竖琴正好也在它圈出的景象里。她坐上那张绣面已经褪色的椅子，把金色竖琴拉到面前，用刚才说话时那种星光般的声音，轻轻唱了起来。孩子们谁也听不懂歌里的语言。查尔斯后来认定那是拉丁语，可姑娘们从没听过这样的拉丁语。
+        - id: ch03-b09
+          speaker: narrator
+          text: |-
+            连音乐也像闪着星光。那首歌的意思，仿佛是爱与离别，是希望与高贵的梦，也是人对一切伟大美好之事的向往。听着它，人会感到无比幸福，却又觉得自己非哭出来不可。歌声越来越轻，越来越远。竖琴温柔而悠扬的回声也越来越轻。最后一个音符消失，一曲唱完了。
+        - id: ch03-b10
+          speaker: eleanour
+          text: |-
+            现在，永别了！
+          emotion: sad
+        - id: ch03-b11
+          speaker: narrator
+          text: |-
+            孩子们闭上眼睛。卡罗琳把手盖在查尔斯手上，确保他不会偷看。歌声和整场奇遇的美丽奥秘深深打动了查尔斯，他几乎连扭也没有扭一下。身后传来一阵轻柔的窸窣声。三个孩子极慢极慢地从一数到二十七。卡罗琳另一只手紧握着夏洛特的手。数完以后，两只手长久地互相捏了一下。她们不用说话，也知道彼此都数完了。
+        - id: ch03-b12
+          speaker: narrator
+          text: |-
+            他们终于睁开眼睛，一起转过身。刚才还传来歌声与竖琴声的客厅，如今空无一人。这件事似乎绝不可能，可眼前的一切又明明白白，千真万确。
+        - id: ch03-b13
+          speaker: charles
+          text: |-
+            全结束了。
+        - id: ch03-b14
+          speaker: caroline
+          text: |-
+            可我们真的见到她了。
+        - id: ch03-b15
+          speaker: charlotte
+          text: |-
+            也听见她唱歌了。
+        - id: ch03-b16
+          speaker: charles
+          text: |-
+            从现在起，只要我活着，每一分钟都要做个十全十美的好人。真希望鲁珀特也在。他听过那首歌，以后也不会再做错事了。比如他那回——
+        - id: ch03-b17
+          speaker: charlotte
+          text: |-
+            记着别人做过的错事，本身就很不对。走吧，回饭厅去。她不在这里，客厅里怪冷清的。
+        - id: ch03-b18
+          speaker: narrator
+          text: |-
+            他们回到饭厅，坐在那里一遍遍谈论这场伟大而神秘的奇遇。三个人说话时，声音几乎都压成了耳语。他们一直谈到该上床的时候，仍然舍不得停下。
+        - id: ch03-b19
+          speaker: charlotte
+          text: |-
+            明天我们就能出门了。心愿之花也该开了，我们播种到现在正好七个星期。
+        - id: ch03-b20
+          speaker: caroline
+          text: |-
+            我当然也记得。要是非得说出自己的心愿，你会许什么愿？
+        - id: ch03-b21
+          speaker: charlotte
+          text: |-
+            我想再见到她，再听一次那星光般的声音。
+    - id: ch04
+      title: 帘子后面的画像
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: |-
+            第二天早晨，三个孩子刚走进饭厅，就争论起那幅帘子到底该不该取下。两个姑娘想把它原样留下。她们甚至打算，只要还住在庄园里，就天天换上一圈新花。查尔斯却已经挂够了。两个姐姐生麻疹的那段日子，都是他每天亲自换上鲜花。那些花虽然不是次次都编成花环，却从没少过一天。
+        - id: ch04-b02
+          speaker: charles
+          text: |-
+            她肯定也挂够了。花环是为了请她来，她已经来过。你们要是永远挂下去，她也不会再来了。
+        - id: ch04-b03
+          speaker: narrator
+          text: |-
+            舅舅一反常态，竟和孩子们一起吃早饭。查尔斯马上请他评理。
+        - id: ch04-b04
+          speaker: charles
+          text: |-
+            我们昨天真的见到她了，是她本人。魔法已经成功，我们不该再挂花环了，对不对？
+        - id: ch04-b05
+          speaker: uncle_charles
+          text: |-
+            你们真的见到她了？
+        - id: ch04-b06
+          speaker: narrator
+          text: |-
+            孩子们把经过全告诉了他。舅舅听到最后，做出了决定。
+        - id: ch04-b07
+          speaker: uncle_charles
+          text: |-
+            那么，我们可以把帘子拉开了。魔法已经完成，一切也该恢复原样。
+        - id: ch04-b08
+          speaker: charles
+          text: |-
+            我早就这么说了。
+        - id: ch04-b09
+          speaker: uncle_charles
+          text: |-
+            要我把帘子取下来吗？
+        - id: ch04-b10
+          speakers: [caroline, charlotte, charles]
+          ensemble: chorus
+          text: |-
+            要！
+        - id: ch04-b11
+          speaker: narrator
+          text: |-
+            舅舅拉住绿色的帘褶，用力一扯。帘子和昨天已经低垂的柔软花朵混成一堆，一起落在地板上。画像重新露了出来。画中夫人美丽的眼睛从画框里俯视着他们，目光仿佛有了一层新的意味，嘴唇也像下一刻就要对孩子们微笑了。
+        - id: ch04-b12
+          speaker: caroline
+          text: |-
+            可她再也不会跟我们说话了。
+          emotion: sad
+        - id: ch04-b13
+          speaker: charlotte
+          text: |-
+            也不会再唱歌给我们听了。
+          emotion: sad
+        - id: ch04-b14
+          speaker: charles
+          text: |-
+            也不会再叫我们慢慢数到二十七了。
+          emotion: sad
+        - id: ch04-b15
+          speaker: uncle_charles
+          text: |-
+            可你们毕竟见过她。就算只有一次，也很了不起，不是吗？
+        - id: ch04-b16
+          speaker: narrator
+          text: |-
+            有过这样奇妙的经历，威尔明顿太太再说什么，也破坏不了它的魔力。她讲的解释实在空洞。按照她的说法，画像只是借出去参加画展了，展出的都是从前曾在附近住过的名人。前一夜很晚，佣人们全都睡下以后，画像才给送回来。送画的人里还有一位先生，专门托她转告孩子们，说字母表先生向他们问好。
+        - id: ch04-b17
+          speaker: narrator
+          text: |-
+            她还说，安多尔勋爵的成年庆典里有一场盛装游行，那是整个庆典的一项重头节目。一位从伦敦来的大演员也参加了。那位夫人十分和气，还特意打扮得跟画像里的人物一模一样。节目单上把她写作“埃莉诺夫人”。威尔明顿太太甚至愿意拿出那张在缎纹纸上印着银字的节目单，给孩子们亲眼看看，好证明自己没有编故事。
+        - id: ch04-b18
+          speaker: caroline
+          text: |-
+            威尔明顿太太说的也许全是真的，可那又怎么样？我们的夫人可不是打扮得像画像里的样子。她就是那幅画像。说不定，我们的心愿最后就是再见她一次。走吧，去看看那粒种子开花没有。
+    - id: ch05
+      title: 心愿之花开了
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: |-
+            花果然开了。老园丁曾在台地花园的一块花圃里，插下一块用铅笔写的小标签。如今那里抽出了七根笔直高挺的花茎。奇妙花园那片泥土里长出的每一株植物，叶片和茎秆总是完美无瑕，这七株也一样整齐匀称。每根茎上只开一朵花。花瓣洁白，形如星辰，还散发着一种奇异而甜美的香气。
+        - id: ch05-b02
+          speaker: charlotte
+          text: |-
+            真希望鲁珀特也在。我们应该等他来。
+        - id: ch05-b03
+          speaker: narrator
+          text: |-
+            她刚说完，鲁珀特便从下层花园的花丛间走来。
+        - id: ch05-b04
+          speaker: rupert
+          text: |-
+            这么说，花已经开了。
+        - id: ch05-b05
+          speaker: caroline
+          text: |-
+            对，我们现在要吃掉它们，得到心中所愿。鲁珀特，真希望你也相信这一切。
+        - id: ch05-b06
+          speaker: rupert
+          text: |-
+            也许我已经信了。老麦克弗森这阵子待我那么仗义，叫人觉得什么事都能相信。
+        - id: ch05-b07
+          speaker: caroline
+          text: |-
+            那就吃吧。每人先吃一朵，剩下三朵，我们尽量分匀。
+        - id: ch05-b08
+          speaker: narrator
+          text: |-
+            每个孩子都摘下一朵白色星形花。花梗像报春花的梗一样鲜嫩清脆，一折便干净地断开。随后，四个人各伸出一只手，同时握住第五朵花的梗，合力把它折开。第六朵和第七朵也照样分了。卡罗琳格外仔细，力求把这三朵花分得准确又均匀，再把每个人应得的那一份，一一递到各人手中。
+        - id: ch05-b09
+          speaker: narrator
+          text: |-
+            四个孩子在阳光灿烂的花园里围成一圈，吃下了白花。那滋味香甜，却又十分奇特。有几分像菠萝，有几分像洋蓟花，而洋蓟花的滋味是世上最神秘的。它还有几分像香料，又有几分像人在梦里吃到的果实。
+        - id: ch05-b10
+          speaker: narrator
+          text: |-
+            他们刚吃完，台阶上便传来脚步声。大家回过头，看见舅舅正向他们走来。他一只手拿着几张浅色纸，另一只手捧着一束蜡白色的花。孩子们都很喜欢查尔斯舅舅，可在这个时刻，谁也不觉得他来得正是时候。
+        - id: ch05-b11
+          speaker: charles
+          text: |-
+            唉，真烦！
+        - id: ch05-b12
+          speaker: narrator
+          text: |-
+            查尔斯说得很轻，却又刚好差一点就能让人听清。舅舅没有理会，只是亲切地微笑着走到他们面前，从那束蜡白色的花中抽出几朵，给每个孩子递了一朵。
+        - id: ch05-b13
+          speaker: uncle_charles
+          text: |-
+            我今天到这里来，是要送你们一件礼物。我又查了你们那本迷人的《花语》。书上说，要表达我此刻怀着的心情，最合适的办法，就是在来到你们面前时送上这种花。
+        - id: ch05-b14
+          speakers: [caroline, charlotte, charles, rupert]
+          ensemble: chorus
+          text: |-
+            太谢谢您了。
+        - id: ch05-b15
+          speaker: caroline
+          text: |-
+            可这朵花是什么意思，舅舅？
+        - id: ch05-b16
+          speaker: uncle_charles
+          text: |-
+            怎么，你们的书只教了你们这么一点东西？
+        - id: ch05-b17
+          speaker: caroline
+          text: |-
+            我连这种花叫什么都不知道。不过，不管怎样，您实在太好了。
+        - id: ch05-b18
+          speaker: uncle_charles
+          text: |-
+            原来你问的是花名。它叫素馨花。
+        - id: ch05-b19
+          speaker: caroline
+          text: |-
+            可素馨花的意思是“你愿意陪我去东方吗？”
+          emotion: surprised
+        - id: ch05-b20
+          speaker: uncle_charles
+          text: |-
+            那么，你们愿意吗？
+        - id: ch05-b21
+          speaker: caroline
+          text: |-
+            去东方？
+        - id: ch05-b22
+          speaker: uncle_charles
+          text: |-
+            对。我们坐到台阶上，好好谈谈这个主意。
+    - id: ch06
+      title: 每个人的心愿
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: |-
+            大家一起在台阶上坐下，准备把这个主意好好谈一谈。等所有人都安静下来，舅舅才慢慢说起这个意外提议的原委。
+        - id: ch06-b02
+          speaker: uncle_charles
+          text: |-
+            你们找到的那些书，彻底改变了我对魔法的看法。我原来的书已经没法照原先的想法写完，只能把它扔回熔炉，全部重写。可要从头写起，我还需要许多自己没有的知识。所以我打算出门旅行，亲自去考察其他国家、其他土地上的魔法。
+        - id: ch06-b03
+          speaker: uncle_charles
+          text: |-
+            我要去的第一个国家就是印度。我忽然想到，你们也许愿意跟我一起出发，亲自去探望自己的爸爸妈妈。我已经用电报跟他们来回商量过了。你们的爸爸妈妈一听说全家可以团聚，也就是粉红马鞭草的花语，高兴极了。只要这个主意也合你们的心意，我们下星期便出发。
+        - id: ch06-b04
+          speakers: [caroline, charlotte, charles]
+          ensemble: chorus
+          text: |-
+            舅舅！
+          emotion: surprised
+        - id: ch06-b05
+          speaker: charlotte
+          text: |-
+            可鲁珀特怎么办？
+        - id: ch06-b06
+          speaker: uncle_charles
+          text: |-
+            鲁珀特也去。他和我们一起走到苏伊士，他父亲会在那里接他。
+        - id: ch06-b07
+          speaker: rupert
+          text: |-
+            爸爸要回来了吗？
+          emotion: surprised
+        - id: ch06-b08
+          speaker: uncle_charles
+          text: |-
+            他回来休假一年。不过，你们还没有回答素馨花的问题。愿意陪我去东方吗？
+        - id: ch06-b09
+          speaker: narrator
+          text: |-
+            卡罗琳没有立刻回答。她飞快地跑到一块花圃边，摘下几种叶子和花，又一路跑回来，一把塞进舅舅手中。她要用花语来回答舅舅的问题。
+        - id: ch06-b10
+          speaker: caroline
+          text: |-
+            白色小风铃草、酢浆草、耧斗菜。它们的意思是，无比幸福，我们爱您爱得没法衡量，还有，愿意。愿意！愿意！
+          emotion: happy
+        - id: ch06-b11
+          speaker: narrator
+          text: |-
+            大家转身向宅子走去，又看见那七根曾经开出白色星形花的空茎。就在那一刻，每个孩子都忽然真真切切地明白了。方才，舅舅正是沿着台阶向他们走来，一只手拿着一叠浅色纸，另一只手捧着一束素馨花。原来，他真的把每个孩子的心愿都带来了。

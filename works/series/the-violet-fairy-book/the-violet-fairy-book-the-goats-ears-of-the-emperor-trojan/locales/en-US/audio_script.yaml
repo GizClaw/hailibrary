@@ -1,0 +1,137 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, steady, and quietly mysterious
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    emperor_trojan:
+      display_name: Emperor Trojan
+      tts:
+        delivery: proud, guarded, and commanding
+        timbre: deep and firm
+        pace: measured
+        pitch: low
+    apprentice:
+      display_name: Young Apprentice
+      tts:
+        delivery: honest, careful, and youthful
+        timbre: clear and light
+        pace: moderate
+        pitch: medium-high
+    master_barber:
+      display_name: Master Barber
+      tts:
+        delivery: practical, patient, and reassuring
+        timbre: warm and mature
+        pace: unhurried
+        pitch: medium-low
+    flute:
+      display_name: Enchanted Flute
+      tts:
+        delivery: bright, uncanny, and sing-song
+        timbre: airy and piercing
+        pace: moderate
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The Emperor's Secret
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was an emperor named Trojan, and his ears were shaped like a goat's. Each morning, a new barber came to shave him. Afterward, the emperor always asked whether the man had noticed anything strange. Each barber told the truth about the goat's ears, and each one was immediately put to death.
+        - id: ch01-b02
+          speaker: narrator
+          text: This went on for so long that scarcely a barber remained in town. At last, the Master of the Company of Barbers was ordered to the palace. But just when he should have left, he suddenly fell ill. He sent one of his apprentices in his place.
+        - id: ch01-b03
+          speaker: narrator
+          text: In the emperor's bedroom, Trojan himself asked why the apprentice had come instead of his master.
+        - id: ch01-b04
+          speaker: apprentice
+          text: My master is ill, Your Majesty. There was no one else he could trust with this honor.
+        - id: ch01-b05
+          speaker: narrator
+          text: The answer satisfied the emperor. He sat down and allowed a fine linen sheet to be wrapped around him. As soon as the young man began shaving him, he saw the goat's ears. Still, he finished his work without a word. Then Trojan asked his usual question.
+        - id: ch01-b06
+          speaker: emperor_trojan
+          text: Did you notice anything unusual about me?
+        - id: ch01-b07
+          speaker: apprentice
+          text: No, Your Majesty. Nothing at all.
+          emotion: calm
+        - id: ch01-b08
+          speaker: narrator
+          text: The emperor was delighted. He gave the apprentice twelve ducats.
+        - id: ch01-b09
+          speaker: emperor_trojan
+          text: From now on, you will shave me every day.
+        - id: ch01-b10
+          speaker: narrator
+          text: When the apprentice returned, his master asked how things had gone at the palace.
+        - id: ch01-b11
+          speaker: apprentice
+          text: Very well. The emperor wants me to shave him every day, and look, he paid me twelve ducats.
+        - id: ch01-b12
+          speaker: narrator
+          text: But he said nothing about Emperor Trojan's goat's ears.
+    - id: ch02
+      title: A Secret in the Earth
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: From then on, the apprentice went to the palace regularly and received twelve ducats each morning. For a while, he guarded the secret closely. But soon it seemed to burn inside him, and he longed to tell someone. His master noticed that something was troubling him and asked what was wrong.
+        - id: ch02-b02
+          speaker: apprentice
+          text: I have tormented myself over this for months. I will never feel at ease until someone else knows my secret.
+        - id: ch02-b03
+          speaker: master_barber
+          text: Then tell me, and I will keep it to myself. If you would rather not, confess it to your pastor. Or go to a field outside town and dig a hole. Kneel beside it and whisper your secret into the hole three times. Then cover it with earth and walk away.
+        - id: ch02-b04
+          speaker: narrator
+          text: The apprentice decided the last idea was best. That very afternoon, he went to a meadow beyond the town and dug a deep hole. He knelt beside it and whispered the same words three times.
+        - id: ch02-b05
+          speaker: apprentice
+          text: Emperor Trojan has goat's ears. Emperor Trojan has goat's ears. Emperor Trojan has goat's ears.
+        - id: ch02-b06
+          speaker: narrator
+          text: As he spoke, a great burden seemed to roll away from him. He carefully shoveled the earth back into the hole, then ran lightly home.
+    - id: ch03
+      title: The Flute That Told the Truth
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Several weeks went by. From the buried hole, an elder tree sprang up with three stems, each one as straight as a poplar. Some shepherds tending their flocks nearby noticed it. One of them cut down a stem and made flutes from the wood. But whenever he tried to play, every flute sang the same words.
+        - id: ch03-b02
+          speaker: flute
+          text: Emperor Trojan has goat's ears.
+        - id: ch03-b03
+          speaker: narrator
+          text: Before long, the whole town had heard about the marvelous flute and its song. At last, the news reached the emperor in his palace. Trojan immediately summoned the apprentice.
+        - id: ch03-b04
+          speaker: emperor_trojan
+          text: What have you been telling all my people about me?
+        - id: ch03-b05
+          speaker: narrator
+          text: The young man tried to explain that he had never told anyone what he had seen. The emperor would not listen. He drew his sword, and the sight of it terrified the apprentice. At once, the young man confessed everything.
+        - id: ch03-b06
+          speaker: apprentice
+          text: I whispered the truth into the earth three times. An elder tree grew in that very place. People cut flutes from its wood, and now those flutes repeat the words I said.
+          emotion: fearful
+    - id: ch04
+      title: Even the Earth Gives Up Its Secrets
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The emperor ordered his coach prepared and took the apprentice with him. He meant to see with his own eyes whether the confession was true. When they reached the meadow, only one stem remained on the elder tree. Trojan told his attendants to cut it down and make him a flute.
+        - id: ch04-b02
+          speaker: narrator
+          text: When the flute was ready, the emperor ordered his chamberlain to play it. The chamberlain was the finest flute player at court, but he could not produce a single tune. Only the same words came out.
+        - id: ch04-b03
+          speaker: flute
+          text: Emperor Trojan has goat's ears.
+        - id: ch04-b04
+          speaker: narrator
+          text: Then Emperor Trojan understood that even the earth gives up its secrets. He spared the young man's life, but he never allowed the apprentice to shave him again.

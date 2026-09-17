@@ -1,0 +1,174 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 编者
+      tts:
+        delivery: 亲切而略带诙谐的讲述
+        timbre: 温暖清晰的成年男声
+        pace: 从容舒展
+        pitch: 中低音
+    young_warrior:
+      display_name: 年轻武士
+      tts:
+        delivery: 勇敢坦率，机警而坚定
+        timbre: 清朗有力的年轻男声
+        pace: 适中
+        pitch: 中音
+    grieving_woman:
+      display_name: 哭泣的妇人
+      tts:
+        delivery: 悲痛无助，语带哀求
+        timbre: 颤抖疲惫的成年女声
+        pace: 时快时慢
+        pitch: 中高音
+    villager:
+      display_name: 村民
+      tts:
+        delivery: 沉重无奈，口气朴实
+        timbre: 厚实低沉的成年男声
+        pace: 稍慢
+        pitch: 中低音
+    cat_1:
+      display_name: 第一只猫
+      tts:
+        delivery: 尖厉诡秘，带着急促的吟唱感
+        timbre: 尖细沙哑的声音
+        pace: 稍快
+        pitch: 高音
+    cat_2:
+      display_name: 第二只猫
+      tts:
+        delivery: 阴森急切，带着诡异的吟唱感
+        timbre: 干涩刺耳的声音
+        pace: 稍快
+        pitch: 中高音
+    cat_3:
+      display_name: 第三只猫
+      tts:
+        delivery: 凶狠警觉，带着低沉的吟唱感
+        timbre: 粗粝嘶哑的声音
+        pace: 稍快
+        pitch: 中音
+  chapters:
+    - id: ch01
+      title: 前往荒山
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，日本有个习俗。男孩长大以后，要离开家乡，到各地寻找奇遇。有时，他会碰上一个同样出来闯荡的年轻人。两人友好地较量一番，看看谁更强壮。可要是碰上为害乡里的强盗，那就得动真格，拼个你死我活了。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            一天，一个年轻人离开故乡。他发誓，不做成一件扬名天下的大事，绝不回来。可是他走了很久，既没遇见凶恶的巨人，也没碰到落难的姑娘。远处终于出现了一座荒山，半山都被茂密的森林遮住了。他觉得那里准有奇遇，立刻朝山上走去。
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            一路上，他攀巨岩，涉深河，还得绕过遍地荆棘。困难越多，他越兴奋，因为他是真的勇敢，不像有些人，只有无路可退时才装出勇敢的样子。可是走来走去，他始终没能穿出森林。眼看要在林中过夜，他又极目四望，想找个能够遮风栖身的地方，终于看见前方一片小空地上有座神堂。他赶紧走进去，在暖和的角落蜷起身子，很快睡着了。
+
+    - id: ch02
+      title: 月光下的群猫
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            好几个时辰过去，森林里一点声音也没有。到了半夜，一阵可怕的喧闹突然响起。年轻人累成那样，还是立刻惊醒了。他从木柱之间悄悄望出去，只见一群丑陋的猫正在满月下疯狂起舞。它们叫得凄厉极了，搅得整片黑夜都不安宁。
+        - id: ch02-b02
+          speaker: narrator
+          text: >-
+            月光照着眼前这幅诡异的景象。年轻武士惊讶地看着，一动也不敢动，生怕被发现。听了一会儿，他从一片尖叫里辨出了几句话。
+        - id: ch02-b03
+          speakers: [cat_1, cat_2, cat_3]
+          ensemble: chorus
+          text: >-
+            千万别告诉西佩太郎！把秘密藏好！千万别告诉西佩太郎！
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            子夜一过，群猫突然消失，只剩下年轻人。他被这一夜的怪事折腾得精疲力尽，倒在地上，又睡到太阳升起。
+
+    - id: ch03
+      title: 村庄里的哭声
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            年轻人醒来时饿极了，便动身去找吃的。没走多远，他发现一条留有人类脚印的小路。顺着路走过去，他先看见几间零散的小屋，又望见后面的村庄，心里顿时欢喜起来。他正要快步进村，忽然听见一个女人在屋里哭泣，求身边的男人可怜她，救救她。
+        - id: ch03-b02
+          speaker: grieving_woman
+          text: >-
+            求求你们，可怜可怜我，救救她吧！
+          emotion: sad
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            听见这哭声，年轻人连饥饿也忘了。他大步走进小屋，问出了什么事。男人们只是摇头，说谁也救不了那个姑娘。原来，山神每年都要村里献上一名少女，把她吃掉。
+        - id: ch03-b04
+          speaker: villager
+          text: >-
+            明天夜里，那个可怕的怪物就要来吃晚饭。你听见的哭声，就是那个抽中死签的姑娘发出来的。
+        - id: ch03-b05
+          speaker: young_warrior
+          text: >-
+            它会直接把姑娘从家里带走吗？
+        - id: ch03-b06
+          speaker: villager
+          text: >-
+            不。我们会把一只大木桶放进林中的神堂，再把姑娘锁在桶里。
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            年轻人听了，一心要把姑娘救出来。神堂两个字，让他想起昨夜的怪事。他把每个细节都重新想了一遍，突然记起群猫反复叫喊的那个名字。
+        - id: ch03-b08
+          speaker: young_warrior
+          text: >-
+            西佩太郎是谁？你们有谁知道？
+        - id: ch03-b09
+          speaker: villager
+          text: >-
+            西佩太郎是我们领主管事养的一条大狗，就住在附近。
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            村民觉得这个问题又怪又没用，都笑了起来。年轻人却没有笑。他走出小屋，径直去找西佩太郎的主人。
+
+    - id: ch04
+      title: 木桶里的西佩太郎
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            年轻人恳求主人把狗借给他一夜。主人不认识这个陌生人，起初怎么也不肯答应。年轻人再三保证，第二天一定把狗送回来，主人这才点了头。
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            他带着西佩太郎赶到少女家，请她的父母把女儿稳稳妥妥地藏进壁橱。接着，他把大狗关进那只木桶。傍晚，村民会把木桶送到神堂里。他便先藏起来，静静等着。
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            半夜，满月升到山顶上方，群猫又挤满神堂，像昨夜一样又叫又跳。这一次，它们中间多了一只硕大无比的黑猫，简直像群猫之王。年轻人猜想，这个怪物就是山神。
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            巨猫急切地四下张望。一看见木桶，它的眼睛便闪起喜悦的光。它高高跳到空中，兴奋得连声嘶叫，随后扑到桶边，拉开插销。
+
+    - id: ch05
+      title: 山神的末日
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            巨猫原想把利齿咬进美丽少女的脖颈，可这一回，西佩太郎的牙齿反倒死死咬住了它！年轻武士冲上前去，一剑砍下巨猫的脑袋。
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            其余的猫被这场变故惊呆了，连逃跑都忘了。等它们终于回过神，年轻人和西佩太郎已经合力杀死了好几只，剩下的这才仓皇逃命。
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            太阳升起时，勇敢的西佩太郎被送回主人身边。从那天起，山里的姑娘们再也不用害怕被山神抓走。
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            此后每一年，人们都要举行宴会，纪念那位年轻武士和大狗西佩太郎。

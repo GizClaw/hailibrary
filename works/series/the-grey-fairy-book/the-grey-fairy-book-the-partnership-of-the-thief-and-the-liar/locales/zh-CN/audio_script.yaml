@@ -1,0 +1,269 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，带一点温和的诙谐
+        timbre: 温暖清晰
+        pace: 舒缓
+        pitch: 中音
+    thief:
+      display_name: 小偷
+      tts:
+        delivery: 机灵大胆，满口自信
+        timbre: 灵活明亮
+        pace: 稍快
+        pitch: 中音
+    liar:
+      display_name: 说谎人
+      tts:
+        delivery: 镇定圆滑，谎话说得煞有介事
+        timbre: 清晰沉稳
+        pace: 适中
+        pitch: 中低音
+    first_king:
+      display_name: 第一位国王
+      tts:
+        delivery: 威严认真，遇事喜欢较真
+        timbre: 浑厚清晰
+        pace: 适中
+        pitch: 中低音
+    first_servant:
+      display_name: 第一位仆人
+      tts:
+        delivery: 办事急切，容易轻信
+        timbre: 朴实清楚
+        pace: 适中
+        pitch: 中音
+    second_king:
+      display_name: 第二位国王
+      tts:
+        delivery: 直截了当，不肯轻易服输
+        timbre: 饱满清晰
+        pace: 适中
+        pitch: 中低音
+    second_servant:
+      display_name: 第二位仆人
+      tts:
+        delivery: 爽快务实，语气笃定
+        timbre: 平实清楚
+        pace: 适中
+        pitch: 中音
+    third_king:
+      display_name: 第三位国王
+      tts:
+        delivery: 庄重果断，说话毫不含糊
+        timbre: 深厚清晰
+        pace: 适中
+        pitch: 低音
+    third_servant:
+      display_name: 第三位仆人
+      tts:
+        delivery: 好奇爽朗，急着交差
+        timbre: 明朗清楚
+        pace: 适中
+        pitch: 中音
+    thief_wife:
+      display_name: 小偷的妻子
+      tts:
+        delivery: 机敏配合，装哭时煞有介事
+        timbre: 柔和清晰
+        pace: 适中
+        pitch: 中高音
+    robber_chief:
+      display_name: 强盗头子
+      tts:
+        delivery: 粗暴蛮横，发号施令
+        timbre: 粗沉有力
+        pace: 稍慢
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 会游水的石头
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前有个小偷，一时找不到活儿，便独自在海边来来回回地闲逛。他一路走去，看见一个男人一动不动地站在那里望着海浪，就走过去搭话。
+        - id: ch01-b02
+          speaker: thief
+          text: >-
+            朋友，你见过石头在水里游吗？
+        - id: ch01-b03
+          speaker: liar
+          text: >-
+            当然见过。我还亲眼看见那块石头跳出水面，从天上飞过去呢。
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            小偷听了大喜，当场邀他合伙。小偷负责进宫编出骇人听闻的故事，那人随后赶来替谎话作证，两人便能一起发财。说谎人答应了。他们马上动身，走了好几天，终于来到邻国的王城。两人先分开几个钟头，小偷独自去觐见国王，一开口便请陛下赏他一杯啤酒。
+        - id: ch01-b05
+          speaker: first_king
+          text: >-
+            今年庄稼全都歉收，啤酒花和葡萄也没长成。整个王国既没有啤酒，也没有葡萄酒，我怎么赏给你？
+        - id: ch01-b06
+          speaker: thief
+          text: >-
+            真奇怪！我刚来的那个国家收成好极了。一根啤酒花的枝蔓，就酿出了十二桶啤酒。
+        - id: ch01-b07
+          speaker: first_king
+          text: >-
+            我拿三百弗罗林赌你说的是假话。
+        - id: ch01-b08
+          speaker: thief
+          text: >-
+            那我也押三百弗罗林，赌它是真的。
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            两人各自拿出三百弗罗林作为赌注。国王要弄清输赢，便派仆人亲自到那个国家查证。仆人骑马走在路上，正好遇见说谎人，先问他从哪里来。听说他来自自己的目的地，仆人连忙打听，那里的啤酒花究竟有多高，一根枝蔓又能酿多少桶酒。
+        - id: ch01-b10
+          speaker: liar
+          text: >-
+            能酿多少酒，我可不知道。不过收啤酒花时我就在场。三个男人抡着斧头砍了整整三天，才砍下一根枝蔓。
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            仆人一听，觉得自己不必再跑那趟远路了。他给说谎人十个弗罗林，叫对方把刚才的话再讲给国王听。两人一同返回宫殿，来到国王面前。国王立刻问起啤酒花的事是真是假。
+        - id: ch01-b12
+          speaker: first_servant
+          text: >-
+            是真的，陛下。我还带回一个从那个国家来的人，他能证明这件事。
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            国王只好交出三百弗罗林。两个同伙拿了钱，再次上路。途中，小偷告诉说谎人，下一回他要去见另一位国王，编个更加惊人的故事。说谎人还得随后出现，替他把谎话说圆。小偷断定，这一回他们照样能从国王手中弄到钱。
+    - id: ch02
+      title: 巨大的花椰菜
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            到了第二个王国，小偷仍旧独自进宫，这一回他请国王赏他一棵花椰菜。国王告诉他，国内的蔬菜全遭了病害，眼下根本找不到花椰菜。
+        - id: ch02-b02
+          speaker: thief
+          text: >-
+            这倒稀奇。我刚来的那个国家，花椰菜长得可好啦，一颗就装满了十二个大水桶。
+        - id: ch02-b03
+          speaker: second_king
+          text: >-
+            我不信。
+        - id: ch02-b04
+          speaker: thief
+          text: >-
+            那我押六百弗罗林，赌这件事是真的。
+        - id: ch02-b05
+          speaker: second_king
+          text: >-
+            我也押六百，赌它是假的。
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            国王叫来一名仆人，命他立刻动身，到小偷所说的国家查清真相。仆人骑马赶路，半途遇见说谎人，便勒住马问他从哪里来。听说他正从那个国家来，仆人赶紧问，那里的花椰菜是不是真能大到装满十二只水桶。
+        - id: ch02-b07
+          speaker: liar
+          text: >-
+            那样的我没见过。不过我见过十二匹马拉着十二辆大车，把一颗花椰菜运到集市。
+        - id: ch02-b08
+          speaker: second_servant
+          text: >-
+            好汉，这十个弗罗林给你。你替我省了好长一段路，跟我回去把这件事讲给国王听吧。
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            说谎人答应下来，跟着仆人一路回到宫殿，两人一同站到国王面前。国王一问查到了什么，仆人就说，先前听到的故事句句是真，身边这位从那个国家来的人便能作证。国王没有办法，只能付出六百弗罗林。两个同伙把这笔钱和先前赢来的钱放在一起，带着九百弗罗林，再次踏上旅途。
+    - id: ch03
+      title: 长嘴鸟与怪鸟蛋
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            两人来到邻近的王国。小偷拜见第三位国王，装作闲谈一般，问他可曾听说，附近有座城，城中教堂的尖塔上落着一只鸟。那座塔高得伸进天空，鸟嘴又长得出奇，竟把星星啄落了几颗。
+        - id: ch03-b02
+          speaker: third_king
+          text: >-
+            我不相信这种事。
+        - id: ch03-b03
+          speaker: thief
+          text: >-
+            我敢拿一千二百弗罗林赌它是真的。
+        - id: ch03-b04
+          speaker: third_king
+          text: >-
+            那我也押一千二百弗罗林，赌你说的是谎话。
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            国王马上派仆人到邻国查证。仆人骑马赶路，迎面遇见说谎人，便叫住他询问来处。说谎人自称刚从仆人的目的地出来，仆人听了，便问那座城里长嘴鸟的传闻究竟是真是假。
+        - id: ch03-b06
+          speaker: liar
+          text: >-
+            鸟我从没见过，所以不敢说。不过有一回，我看见十二个男人拼命拿扫帚推一颗怪大的鸟蛋，想把它推进地窖。
+        - id: ch03-b07
+          speaker: third_servant
+          text: >-
+            太好了！这十个弗罗林归你。跟我回宫讲给国王听，我就不用再走那趟远路了。
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            说谎人跟着仆人回宫，把怪鸟蛋的事当着国王的面又讲了一遍。国王再也无法推脱，只得把一千二百弗罗林付给小偷。两个同伙带着骗来的钱离开，把所有钱分成相等的两份。可是小偷暗中扣下三个弗罗林，没有放进说谎人的那一份。没过多久，两个人各自娶妻成家，也有了自己的住处。直到有一天，说谎人才发现自己少了三个弗罗林。他算明白以后，便找上同伴的家门，非要讨回那笔钱不可。
+    - id: ch04
+      title: 三个弗罗林
+      blocks:
+        - id: ch04-b01
+          speaker: thief
+          text: >-
+            下个星期六再来吧，到时候我就还你。
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            小偷嘴上答应，心里根本不想还钱。星期六早晨，他直挺挺躺在床上装死，又吩咐妻子对来人说他已经死了。妻子拿洋葱擦了擦眼睛。说谎人一来到门口，她便满脸泪水地迎上去，说丈夫已经去世，那三个弗罗林自然没法还了。可说谎人太熟悉同伴的花招，一听就猜到了真相。
+        - id: ch04-b03
+          speaker: liar
+          text: >-
+            他欠我的钱还没给。既然死了，我就结结实实抽他三鞭子，算是回敬。
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            小偷一听要挨鞭子，立刻从床上跳起来，跑到门口答应下周六一定还钱。说谎人得了这个承诺，才满意地离开。第二个星期六，小偷又一大早起床，躲进干草棚，藏在一捆干草底下。说谎人准时上门讨钱，妻子照旧含着眼泪迎出来，说丈夫已经死了。
+        - id: ch04-b05
+          speaker: liar
+          text: >-
+            你们把他埋在哪儿了？
+        - id: ch04-b06
+          speaker: thief_wife
+          text: >-
+            就埋在干草棚里。
+        - id: ch04-b07
+          speaker: liar
+          text: >-
+            那我去拿些干草，抵掉他欠我的钱。
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            说谎人径直走进干草棚，拿起干草叉，把堆着的草挑来挑去，还一叉一叉往草捆深处扎。小偷藏在下面，越看越怕自己送命，只得爬出来，再次答应到了下周六一定付清那三个弗罗林。
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            第三个星期六天刚亮，小偷溜进附近礼拜堂的地下墓室，僵直地躺进一具旧石棺，连动也不动一下。说谎人和他一样聪明，很快便猜到这个藏身处，也赶往礼拜堂。他刚踏进墓室，眼睛还没适应黑暗，便听见铁窗外传来低语。原来一伙强盗带着财宝来了，打算把钱藏在这里，再出去干新的勾当。他们一边商量，一边拆除窗上的铁条，眼看就要钻进来发现他了。
+        - id: ch04-b10
+          speaker: narrator
+          text: >-
+            说谎人急中生智，赶紧用斗篷裹住全身，直挺挺站进墙上的壁龛。借着昏暗的光线一看，他就像一尊古老的石像。十二个强盗钻进墓室，立刻动手分金子。头领不小心把金子分成十三堆，发现错了，却说他们没时间全部重数，便想出一个主意。
+        - id: ch04-b11
+          speaker: robber_chief
+          text: >-
+            谁能一斧头砍掉那尊老石像的脑袋，第十三堆金子就归谁！
+        - id: ch04-b12
+          speaker: narrator
+          text: >-
+            强盗头子说完，亲自抄起一把斧头，朝说谎人站着的壁龛一步步走去。他把斧头高高举过头顶，正准备一斧劈下。就在这时，石棺里忽然传出一个阴森森的声音。
+        - id: ch04-b13
+          speaker: thief
+          text: >-
+            快滚出去！不然死人就要爬出棺材，石像也要从墙上走下来，把你们一个个赶得半死不活！
+        - id: ch04-b14
+          speaker: narrator
+          text: >-
+            话音刚落，小偷便从石棺里一跃而起，说谎人也跳下壁龛。强盗们吓得魂飞魄散，争先恐后地逃出墓室，连全部金子都丢在身后。他们一边逃，一边发誓再也不踏进这个闹鬼的地方。两个同伙留下来，把强盗的金子平均分掉，各自搬回家去。从此以后，故事再也没有提起过他们。
