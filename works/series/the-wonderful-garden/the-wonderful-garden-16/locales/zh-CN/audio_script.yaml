@@ -1,0 +1,613 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 温暖机敏，带着克制的幽默讲述
+        timbre: 清澈柔和
+        pace: 从容而富有变化
+        pitch: 中音
+    caroline:
+      display_name: 卡罗琳
+      tts:
+        delivery: 大方热情，努力摆出长姐的懂事
+        timbre: 明亮清脆
+        pace: 自然轻快
+        pitch: 中高音
+    charlotte:
+      display_name: 夏洛特
+      tts:
+        delivery: 活泼直率，想到什么便说什么
+        timbre: 轻盈清亮
+        pace: 偏快
+        pitch: 高音
+    charles:
+      display_name: 查尔斯
+      tts:
+        delivery: 淘气认真，笑话总说得一本正经
+        timbre: 清亮的男孩声
+        pace: 轻快
+        pitch: 中高音
+    rupert:
+      display_name: 鲁珀特
+      tts:
+        delivery: 直爽开朗，病中说话虚弱而迷糊
+        timbre: 清亮的少年声
+        pace: 自然，发烧时忽快忽慢
+        pitch: 中高音
+    mineral_woman:
+      display_name: 汽水女人
+      tts:
+        delivery: 朴实直爽，乡间口吻里带着生活磨出的辛劳
+        timbre: 略显粗哑的中年女声
+        pace: 自然，伤心时断续
+        pitch: 中音
+    lodge_woman:
+      display_name: 门房老太太
+      tts:
+        delivery: 急躁刻薄，命令说得又快又硬
+        timbre: 尖利苍老
+        pace: 偏快
+        pitch: 中高音
+    footman:
+      display_name: 男仆
+      tts:
+        delivery: 拿腔作势，得意时带着轻慢的窃笑
+        timbre: 光滑而略显尖细
+        pace: 慢条斯理
+        pitch: 中音
+    checkles:
+      display_name: 切克尔斯
+      tts:
+        delivery: 谨慎守礼，答话简短利落
+        timbre: 厚实沉稳的老年男声
+        pace: 从容
+        pitch: 中低音
+    lord_andore:
+      display_name: 安多尔勋爵
+      tts:
+        delivery: 爽朗亲切，带着大男孩般的幽默和真诚
+        timbre: 开阔温暖的青年男声
+        pace: 自然舒展
+        pitch: 中低音
+    mrs_wilmington:
+      display_name: 威尔明顿太太
+      tts:
+        delivery: 一本正经，话里总带着挑剔和自以为是
+        timbre: 干脆冷硬的中年女声
+        pace: 稍慢
+        pitch: 中音
+  chapters:
+    - id: ch01
+      title: 第十六章　向恺撒申诉
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: |-
+            三个孩子要去见安多尔勋爵，把那位不幸的佃户，还有那些看中她小屋的周末度假客，全都告诉他。一路上都很顺利，偏偏到了庄园门房，麻烦来了。孩子们刚进大门，长门就在身后咔嗒一声关好。一个戴黑帽、系紫色缎带的老妇人从窗口探出头。
+        - id: ch01-b02
+          speaker: lodge_woman
+          text: |-
+            不许进！
+          emotion: angry
+        - id: ch01-b03
+          speaker: charlotte
+          text: |-
+            我们偏要进。
+        - id: ch01-b04
+          speaker: lodge_woman
+          text: |-
+            村里的孩子不准进来。
+        - id: ch01-b05
+          speaker: charles
+          text: |-
+            我们又不是村里的孩子。
+        - id: ch01-b06
+          speaker: narrator
+          text: |-
+            那顶帽子从窗口消失了，转眼又来到门口。这才看清，帽子下面是个怒气冲冲的老太太，尖尖的长鼻子活像威尔明顿太太的祖母。
+        - id: ch01-b07
+          speaker: lodge_woman
+          text: |-
+            从哪儿进来的，就从哪儿出去，这是规矩。你们到底想干什么？
+          emotion: angry
+        - id: ch01-b08
+          speaker: caroline
+          text: |-
+            我们给安多尔勋爵带来了一束花。
+        - id: ch01-b09
+          speaker: lodge_woman
+          text: |-
+            那就留到十五号吧。爵爷成年庆典和游园会以前，村里人一概不许进。到那天再来。现在出去，我可没耐性陪你们磨蹭。
+          emotion: angry
+        - id: ch01-b10
+          speaker: narrator
+          text: |-
+            叫一束花再留两个星期，当然是句傻话，可孩子们还是只能退回去。有件难为情的事，我真希望能替查尔斯瞒住各位，可惜不能。他走过老太太身边时，竟朝她吐了舌头。讲出这种事，实在叫人痛心。唯一能安慰我的，是两个女孩没有学他。夏洛特只做了个鬼脸，卡罗琳则规矩得无可挑剔。
+        - id: ch01-b11
+          speaker: caroline
+          text: |-
+            还记得刚才路过的那处破栅栏吗？
+        - id: ch01-b12
+          speaker: narrator
+          text: |-
+            卡罗琳咬着牙说出这句话，活像英雄到了危急关头。另外两人马上懂了。三个人找到破栅栏，从缝里钻了进去。卡罗琳的裙子撕坏了一大块。夏洛特只是裙褶松了，塞进腰带就能遮住，不过腰上鼓了一团，裙摆也一边长一边短。查尔斯的袜子则被钉子狠狠撕开。
+        - id: ch01-b13
+          speaker: narrator
+          text: |-
+            灌木丛里满是荆棘，枝叶纠缠，还离门房近得让人不放心。他们不时能望见门房的白墙，总怕门房的总管也会看见他们。可是，存心找一样东西和压根没想到要找，毕竟不一样。那个帽子女人怎么也想不到，竟有人敢违抗她。
+        - id: ch01-b14
+          speaker: narrator
+          text: |-
+            三个孩子就这样悄悄往前钻，没有被人发现，也没有引起怀疑。荆棘一路拉扯、刮擦着蓝纱裙。那些裙子本来就已经不复最初的鲜亮，一截粗壮的栗树桩还把夏洛特的白帽子从头上揪了下来。那束花原先就算不上同类里最漂亮的，这一趟旅行更没让它添半点光彩。不过，热带探险家谁没遇上过这种灾难呢？他们继续前进，终于钻进宽阔平坦的园地。三个人全都热得厉害，身上也脏兮兮的。越过一带安静的树林，他们看见浅灰色的城堡塔楼映着天空高高耸起。回头再看，门房已经不见了。
+        - id: ch01-b15
+          speaker: caroline
+          text: |-
+            好，这一关过去了。现在要走得快，又不能让人看出我们在赶路。大步走应该最合适。要是知道正门在哪儿就好了，万一走错后门，让安多尔勋爵的爪……爪牙赶出来，那可糟透了。
+        - id: ch01-b16
+          speaker: charlotte
+          text: |-
+            我猜他的后门也比我们的正门气派。非得等那些爪……什么牙的来赶人，我们才分得出来。
+        - id: ch01-b17
+          speaker: caroline
+          text: |-
+            要是来得及装成大人就好了。夏尔，快把帽子上那条布扯掉，简直像衬裙带子掉出来了。我们要是带着名片，他们就会当我们是来拜访的，除非勋爵不在家，不然总得领我们进去。
+        - id: ch01-b18
+          speaker: charlotte
+          text: |-
+            他一定在家。要是偏偏不在，那也太过分了。
+        - id: ch01-b19
+          speaker: narrator
+          text: |-
+            夏洛特扯掉帽子上的长布条。那顶倒霉的帽子，现在与其说像帽子，不如说像一朵被人坐过、正在枯萎的花。他们穿过树林，踏上一条黄得刺眼的碎石车道。石子踩上去又烫又硌脚，看起来也刺得眼睛难受。他们顺着车道走，转过一个弯，城堡突然出现在面前，比想象中大得多。两座灰色高塔夹着一道巨大的拱门，车道直通里面，正门准是这里。奇怪的是，四下既没有门铃，也没有门环。他们仔细看了又看，甚至根本看不见一扇门。
+        - id: ch01-b20
+          speaker: charles
+          text: |-
+            我好像成了《杰克与巨人杀手》里的杰克。可惜这里没有号角给我吹。
+        - id: ch01-b21
+          speaker: narrator
+          text: |-
+            他几乎是在耳语，可在回声荡漾的拱门下面，声音听起来又响又空。穿过门洞阴凉幽深的暗处，能看见那边洒满阳光。草地碧绿，粉红的天竺葵从石花瓶里一直漫到瓶沿外。喷泉在庭院中央腾起又落下，水花哗啦啦地溅进石池。庭院对面终于有一扇门，也是一道拱形的门，几级台阶通到门前。台阶上站着一个男仆。
+        - id: ch01-b22
+          speaker: caroline
+          text: |-
+            他跟《爱丽丝》里的男仆一模一样。鼓起勇气，赶快行动。
+        - id: ch01-b23
+          speaker: narrator
+          text: |-
+            三个孩子又热、又脏、又不整齐，就这样穿过修剪得齐齐整整的花坛。男仆好奇地从头到脚打量他们，目光停得最久的，是那束饱受摧残的花、夏洛特已经无法形容的帽子，还有查尔斯撕得厉害的长袜。卡罗琳迎着他的目光往前走，心怦怦跳得又沉又急。
+        - id: ch01-b24
+          speaker: caroline
+          text: |-
+            劳驾，我们想见安多尔勋爵。
+        - id: ch01-b25
+          speaker: footman
+          text: |-
+            爵爷不在家。
+        - id: ch01-b26
+          speaker: charlotte
+          text: |-
+            他什么时候回来？
+        - id: ch01-b27
+          speaker: narrator
+          text: |-
+            卡罗琳忽然希望，他们至少把手套带来了。男仆却拿出一根针剔起牙来，说话的腔调像极了威尔明顿太太。
+        - id: ch01-b28
+          speaker: footman
+          text: |-
+            这个嘛，我可说不准。
+        - id: ch01-b29
+          speaker: charles
+          text: |-
+            我们真的很想见他。你看，还给他带了花呢。
+        - id: ch01-b30
+          speaker: footman
+          text: |-
+            看见了，你们的确带了。要不要留下？等爵爷回来，准会大吃一惊。
+        - id: ch01-b31
+          speaker: narrator
+          text: |-
+            男仆说着嗤嗤笑起来，越发像威尔明顿太太。
+        - id: ch01-b32
+          speaker: caroline
+          text: |-
+            那么，他其实就在这里？我是说，他没有去伦敦？
+        - id: ch01-b33
+          speaker: footman
+          text: |-
+            爵爷没有去伦敦。还要问什么？我最乐意陪你们背教义问答了。
+        - id: ch01-b34
+          speaker: narrator
+          text: |-
+            孩子们转身想走，打算私下商量商量。男仆又在后面笑出了声。
+        - id: ch01-b35
+          speaker: footman
+          text: |-
+            不留下大名吗？爵爷一定急着知道，是哪几位来拜访过。
+        - id: ch01-b36
+          speaker: narrator
+          text: |-
+            夏洛特猛地转回来。
+        - id: ch01-b37
+          speaker: charlotte
+          text: |-
+            我们叫什么，不劳你费心。我才不信安多尔勋爵知道，他不在时你会这样对待客人。至少，他现在还不知道。
+        - id: ch01-b38
+          speaker: footman
+          text: |-
+            小姐，我可没有冒犯的意思。
+        - id: ch01-b39
+          speaker: charlotte
+          text: |-
+            你的道歉，我们接受了。现在我们就在这里等安多尔勋爵回来。
+        - id: ch01-b40
+          speaker: footman
+          text: |-
+            等等，你们听我说。这里可不能让你们等。
+        - id: ch01-b41
+          speaker: narrator
+          text: |-
+            男仆急得往下走了一级。卡罗琳却在第二级台阶上坐好，另外两个也跟着坐下。
+        - id: ch01-b42
+          speaker: caroline
+          text: |-
+            当然能等。
+        - id: ch01-b43
+          speaker: charles
+          text: |-
+            看吧！
+        - id: ch01-b44
+          speaker: caroline
+          text: |-
+            嘘！
+        - id: ch01-b45
+          speaker: charlotte
+          text: |-
+            我们从没去过这样的人家，既不请客人进去，也不给客人椅子坐。不过，你们家要是这样，也没关系。幸好今天天气不错。
+        - id: ch01-b46
+          speaker: footman
+          text: |-
+            这样不行，待会儿还有客人来。我不能让一群衣衫褴褛的孩子像过五朔节一样坐满台阶。
+        - id: ch01-b47
+          speaker: charlotte
+          text: |-
+            真对不起。可你们要是没有合适的屋子请我们进去，那恐怕只能让我们坐在这里了。
+        - id: ch01-b48
+          speaker: narrator
+          text: |-
+            三个人头也不回，只管望着明亮的花园和跳跃的喷泉。男仆在他们身后虚张声势。
+        - id: ch01-b49
+          speaker: footman
+          text: |-
+            你们听着，这叫放肆！快点走，听见没有？还是非要我动手？
+          emotion: angry
+        - id: ch01-b50
+          speaker: caroline
+          text: |-
+            我们听见了。
+        - id: ch01-b51
+          speaker: narrator
+          text: |-
+            愤怒、失望、害怕和疑虑一齐堵在卡罗琳胸口，她几乎喘不过气，却尽量把话说得平静。
+        - id: ch01-b52
+          speaker: charlotte
+          text: |-
+            我倒要看你敢不敢碰你主人客人的一根手指。你根本不知道我们是谁，我们还没说过名字呢。
+        - id: ch01-b53
+          speaker: narrator
+          text: |-
+            男仆听完准是忽然没了底。他站在那里迟疑了一会儿，嘴里咕哝着要去见切克尔斯先生，随后退进门里，把整个阵地都让给了孩子们。三个孩子仍旧并排坐在安多尔勋爵家的台阶上，还把花束仔仔细细放到身后高一级的台阶，免得再受损伤。灰墙围成的庭院里，静得出奇，除了他们，一个人也没有。
+        - id: ch01-b54
+          speaker: charles
+          text: |-
+            我说，咱们走吧。反正已经胜过他了。趁他没带着我们斗不过的人回来，赶快溜掉。说不定他会带来成千上万个威风凛凛的管家。
+        - id: ch01-b55
+          speaker: charlotte
+          text: |-
+            绝不走。
+        - id: ch01-b56
+          speaker: narrator
+          text: |-
+            夏洛特激动得双手冰凉，还在微微发抖。
+        - id: ch01-b57
+          speaker: caroline
+          text: |-
+            但愿切克尔斯先生是个绅士，就是我们平常认识的那一种。爵爷家的仆人好像比别人家的还粗俗，我猜爵爷本人也跟他们一样。人家不是说，有其主必有其仆吗？
+        - id: ch01-b58
+          speaker: narrator
+          text: |-
+            像是在回应卡罗琳的愿望，墙上一扇门打开了，门后露出另一座花园的一角。一个满脸喜气的年轻人从那里朝他们走来。他是个块头很大的青年，身上那套尘土色的哈里斯粗花呢衣服也格外宽松。他怎么看都像高年级的中学生。查尔斯一见他，立刻觉得，这个人是男子汉，也是自己的兄弟。于是他站起来，走过草地迎接来人，只用最简单的方式打了声招呼。
+        - id: ch01-b59
+          speaker: charles
+          text: |-
+            你好！
+        - id: ch01-b60
+          speaker: lord_andore
+          text: |-
+            你好！
+          emotion: happy
+        - id: ch01-b61
+          speaker: charles
+          text: |-
+            我们要是愿意留在这里等，其实没有什么理由说不可以，对不对？
+        - id: ch01-b62
+          speaker: lord_andore
+          text: |-
+            完全没有。只要你们确定等的东西会来，而且这里正是等它最合适的地方。
+        - id: ch01-b63
+          speaker: caroline
+          text: |-
+            我们在等安多尔勋爵。你来得正好，我们实在弄不懂英国男仆。在印度，我们登门时，那里的仆人可不这样。
+        - id: ch01-b64
+          speaker: lord_andore
+          text: |-
+            这里的仆人对你们做了什么？
+        - id: ch01-b65
+          speaker: charles
+          text: |-
+            噢，没什么。我的意思是，我们接受了他的道歉，就不能再告状了。
+        - id: ch01-b66
+          speaker: caroline
+          text: |-
+            告诉你不算告状。你当然会以名誉担保，不把事情告诉安多尔勋爵。我们已经接受了道歉，就不想让别人家的仆人惹麻烦。可是那个男仆确实有一点……
+        - id: ch01-b67
+          speaker: narrator
+          text: |-
+            话还没说完，男仆本人已经出现在台阶顶上，身旁还有一个上了年纪、留着络腮胡、穿一身黑衣的男人。孩子们没有猜错，那个人就是管家。两人原本急匆匆从门里出来，一看见孩子们和他们的新同伴，男仆立刻停住不动。照查尔斯后来的说法，他简直被变成了一块石头。只有管家继续走近，因为穿粗花呢衣服的青年已经沉下声音，简短地叫他过去。
+        - id: ch01-b68
+          speaker: lord_andore
+          text: |-
+            过来，切克尔斯！
+        - id: ch01-b69
+          speaker: checkles
+          text: |-
+            是，爵爷！
+        - id: ch01-b70
+          speaker: narrator
+          text: |-
+            三个C听了这声称呼，大吃一惊。你却一定不会像他们那么惊讶。
+        - id: ch01-b71
+          speaker: lord_andore
+          text: |-
+            马上把茶摆到露台上，叫他们别磨蹭一整天。
+        - id: ch01-b72
+          speaker: narrator
+          text: |-
+            切克尔斯走了，男仆也跟着走了。夏洛特始终相信，男仆最后看她的那一眼不是挑衅，而是在求她饶命。
+        - id: ch01-b73
+          speaker: charles
+          text: |-
+            原来你就是安多尔勋爵。太棒了！
+          emotion: surprised
+        - id: ch01-b74
+          speaker: narrator
+          text: |-
+            卡罗琳却觉得，不管这些话听起来多么中听，现在也没有工夫谈谁是谁了。安多尔勋爵的下午茶马上就来，他多半正急着喝茶，而且这时候早已过了大多数人喝茶的钟点。她怕再耽搁下去，只好突然把花束伸到他面前。
+        - id: ch01-b75
+          speaker: caroline
+          text: |-
+            这束花送给你，是我们特意配的。请你收下，好吗？
+        - id: ch01-b76
+          speaker: lord_andore
+          text: |-
+            你们真是太好了。太感谢啦！
+        - id: ch01-b77
+          speaker: narrator
+          text: |-
+            安多尔勋爵接过花束，先认真闻了闻，又把鼻子整个埋进花朵中间。那里面有耧斗菜、月月红、矢车菊、柠檬马鞭草、紫藤、唐菖蒲，还有那一根麦秆。虽然一路折腾得不成样子，他接花时却没有露出半点嫌弃。
+        - id: ch01-b78
+          speaker: caroline
+          text: |-
+            恐怕它不怎么好看。要同时翻两本书，就没法挑最好看的花。它的意思有“欢迎你，美丽的陌生人”，“意外相逢”，还有“我们焦虑颤抖”。原来还想放“信心”，可那种花没找到。最后还有“同意”，因为我们希望你会答应。
+        - id: ch01-b79
+          speaker: lord_andore
+          text: |-
+            真有意思。你们对我太好啦。
+        - id: ch01-b80
+          speaker: charlotte
+          text: |-
+            这可不是一束普通的花。也请你别谢我们，因为送花不是为了讨你喜欢，是为了办成自己的事。当然，如果早知道你人这么好，又知道你喜欢花，我们马上也会送的。
+        - id: ch01-b81
+          speaker: lord_andore
+          text: |-
+            我明白了。
+        - id: ch01-b82
+          speaker: caroline
+          text: |-
+            我敢说你还没明白。请别跟我们客气，不懂就直说。我们要的是正义。你有个佃户，你父亲还在世、你还没继承这里时，她就住在那间小屋里。现在有人要赶她出去，因为几个周末来度假的人看中了小屋。那里有她种的花，有她父亲搭的凉亭，还有她舅舅从剑桥郡送来的月季。她说你不知道，我们觉得你应该知道，所以配了花，亲自来告诉你。现在我们该走了。这张纸上有她的名字和地址，对不起，是用铅笔写的。你会替她主持公道吧？
+        - id: ch01-b83
+          speaker: lord_andore
+          text: |-
+            你们这样关心我的佃户，实在很难得。
+        - id: ch01-b84
+          speaker: charlotte
+          text: |-
+            你看，我们就怕你说这种话。我们不是想多管闲事。我们去喝姜汁汽水，卡罗正好发现她在哭。她家还有一座很老的鹅耳枥凉亭。你住这么漂亮的城堡，每星期少几先令，对你也没什么分别。你祖先墓上的格言还写着“平地正义”呢。我们只求最最平常的公道。星期日我们在教堂看过那座墓，墓上还有戴轮状皱领的儿子和女儿。
+        - id: ch01-b85
+          speaker: lord_andore
+          text: |-
+            停一停！我只是个可怜的柔弱家伙，现在非喝茶不可。你们也一起来，等喝上茶，我再慢慢弄明白这件事。
+        - id: ch01-b86
+          speakers: [caroline, charlotte, charles]
+          ensemble: chorus
+          text: |-
+            太感谢了！
+        - id: ch01-b87
+          speaker: caroline
+          text: |-
+            不过请别让我们喝太久。我们六点半以前必须回家，现在一定已经很晚了。
+        - id: ch01-b88
+          speaker: lord_andore
+          text: |-
+            放心，我保证让你们六点半到家。
+        - id: ch01-b89
+          speaker: narrator
+          text: |-
+            安多尔勋爵领头走在前面。他巨大的身影裹着那身尘土色的衣服，带孩子们穿过刚才那扇小门，来到一座舒服的石露台。露台的旧石栏杆又矮又粗，已经有了年头。月季从栏杆里面钻到外面，又从下面爬到上面，绕来绕去，几乎把它整个包住了。
+        - id: ch01-b90
+          speaker: lord_andore
+          text: |-
+            茶来了。
+        - id: ch01-b91
+          speaker: narrator
+          text: |-
+            茶果然已经摆好。一张不小的桌子铺着洁白的桌布，这顿茶绝对值得他们等到现在。桌上有蜂蜜、果酱、各式各样的蛋糕，还有桃子和草莓。男仆一直在旁边转来转去，可三个孩子里，好像只有查尔斯真正看见了他。查尔斯心里别提多痛快了。这个骄傲的敌人，刚才连安多尔勋爵家台阶上那一点卑微的款待都想从他们手里夺走，现在却低声下气地捧来茶炊，还亲手点起酒精炉，替这几个被他赶过的客人烧水沏茶。
+        - id: ch01-b92
+          speaker: lord_andore
+          text: |-
+            快来，你们一定饿坏了。这里的规矩是蛋糕先吃。要是你们坚持，面包黄油就放到后面。茶里加奶，还是加糖？
+        - id: ch01-b93
+          speaker: narrator
+          text: |-
+            为了表示对主人的尊敬，孩子们喝下了远比他们这个年纪该喝的浓得多的茶。安多尔勋爵显然已经忘了，他自己还是小男孩的时候，下午茶桌上喝的其实是牛奶。他没有催孩子们，只是慢慢问，一个问题接着一个问题。后来，他又临时定下一条规矩：任何人一次开口，不许一口气说超过三十七个词。这样仔细问下去，三个孩子那些挤在一起的话，总算变成了他能完全听懂的故事。
+        - id: ch01-b94
+          speaker: lord_andore
+          text: |-
+            嗯，我明白了。这一回我真的明白了。
+        - id: ch01-b95
+          speaker: narrator
+          text: |-
+            他每听完一点，就说一遍自己明白了，然后再问下一个问题。慢慢地，下午茶真的吃到了尾声。最后一个桃子被人高高兴兴地接受了，最后一颗草莓却因为大家实在吃不下，只好遗憾地谢绝。等桌上再也没人能吃下一口，安多尔勋爵才站起身来。
+        - id: ch01-b96
+          speaker: lord_andore
+          text: |-
+            你们肯费这么大的力气，真是几个顶呱呱的好孩子。我确实非常感激。我的确想公平公正地对待佃户，可要是没人把事情告诉我，我也很难知道。你们帮了我一个大忙，谢谢你们。
+        - id: ch01-b97
+          speaker: charlotte
+          text: |-
+            那么，你会吗？
+        - id: ch01-b98
+          speaker: caroline
+          text: |-
+            她是问，你不会让人把那个女人赶出小屋吧？
+        - id: ch01-b99
+          speaker: charles
+          text: |-
+            就是汽水女人。
+        - id: ch01-b100
+          speaker: lord_andore
+          text: |-
+            我当然不会。我的意思是，我当然会管。总之，事情没问题了。我开车送你们回家。哪怕晚了一两分钟，我也会向你们舅舅解释。
+        - id: ch01-b101
+          speaker: narrator
+          text: |-
+            安多尔城堡的两座高塔夹着巨大拱门，拱门外已经停好一辆汽车。那辆车漂亮得像一场梦，前排宽敞得很，三个C全都能坐在司机旁边，而握方向盘的司机正是安多尔勋爵本人。那个男仆也等在那里。接下来发生的事，成了查尔斯一整天里最得意的时刻。安多尔勋爵郑重地把那束被他们带来请愿的花，交到了男仆手里。
+        - id: ch01-b102
+          speaker: lord_andore
+          text: |-
+            把花插进水里，小心一点。再告诉他们，今晚要摆在餐桌上。
+        - id: ch01-b103
+          speaker: footman
+          text: |-
+            是，爵爷。
+        - id: ch01-b104
+          speaker: narrator
+          text: |-
+            男仆答得规规矩矩，仿佛这一辈子从来没见过那束花。至于夏洛特，她最得意的时刻来得稍晚一些。汽车开到庄园门口，先前把他们赶出去的老太太站在门房前，不得不向车里的勋爵和孩子们屈膝行礼。汽车一路开回他们自己的门房。鲁珀特已经在那里等着了，一看见这样漂亮的车，他的眼睛顿时瞪得像两枚便士那么圆。
+        - id: ch01-b105
+          speakers: [caroline, charlotte, charles]
+          ensemble: chorus
+          text: |-
+            停一下，是鲁珀特！
+        - id: ch01-b106
+          speaker: narrator
+          text: |-
+            汽车停下来，鲁珀特很快被塞进后座。他独自一人坐在那里，四周空空荡荡，倒显得气派极了。可这份荣耀也没能改变他的想法。等汽车离开，三个C从钻破栅栏讲起，把沿途所有冒险，还有魔法花束怎样取得辉煌胜利，全都细细讲给他听。鲁珀特听完以后，仍旧不肯相信是魔法起了作用。
+        - id: ch01-b107
+          speaker: rupert
+          text: |-
+            我早说了，这只是运气。纯粹是偶然。巧……那个词怎么讲来着？对，巧合。就算你们没带那堆又难看、又老、又杂乱的干草垛，一切也照样发生。
+        - id: ch01-b108
+          speaker: charlotte
+          text: |-
+            你还是这么讨厌？
+        - id: ch01-b109
+          speaker: charles
+          text: |-
+            噢，照样会发生，是吧？你也就懂这么多。
+        - id: ch01-b110
+          speaker: rupert
+          text: |-
+            我懂的才不止这些。我知道好多你们不知道的事。只要我想，还能弄懂更多。就是这样！
+        - id: ch01-b111
+          speaker: caroline
+          text: |-
+            鲁珀特，大家正高兴呢，你别生气。我真希望你也在场，尤其是喝下午茶的时候。
+        - id: ch01-b112
+          speaker: rupert
+          text: |-
+            我没生气。你们回来以前，我的心情好得不得了。
+        - id: ch01-b113
+          speaker: caroline
+          text: |-
+            别这样，我们讲和吧。还有一半有趣的小事没告诉你。你不能相信魔法，是你自己不走运。我们知道你不是故意不相信，也知道你没办法。我们知道自己是对的，你觉得自己是对的。
+        - id: ch01-b114
+          speaker: rupert
+          text: |-
+            正好相反。
+        - id: ch01-b115
+          speaker: caroline
+          text: |-
+            你这样想，当然是正好相反。可我们这样想，就是反过来的正好相反。讲和吧，讲和，讲和！
+        - id: ch01-b116
+          speaker: rupert
+          text: |-
+            好吧。我痛痛快快游了一场泳。你们的彭福尔德先生其实挺不错，还教了我一种新的侧泳。
+        - id: ch01-b117
+          speaker: narrator
+          text: |-
+            可谁都看得出来，鲁珀特心里仍旧阴云密布，一点也不舒服。
+        - id: ch01-b118
+          speaker: narrator
+          text: |-
+            第二天，三个C和鲁珀特正吃爱尔兰炖肉，威尔明顿太太忽然衣裙窸窣地走进来，把他们吓了一跳。
+        - id: ch01-b119
+          speaker: mrs_wilmington
+          text: |-
+            有个人想见你，卡罗琳。是个十足的穷人。我让她等你们吃完饭，可她说，希望你现在就去，因为她马上就该动身回家了。
+        - id: ch01-b120
+          speaker: caroline
+          text: |-
+            当然去！一定是汽水女人。
+          emotion: surprised
+        - id: ch01-b121
+          speaker: mrs_wilmington
+          text: |-
+            依我看，她长着一张动物似的脸。
+        - id: ch01-b122
+          speaker: narrator
+          text: |-
+            卡罗琳早已跑到门厅。一个人从橡木椅上客气地站起来。她虽然穿着星期日的好衣裳，可再怎么装扮，也分明还是汽水女人。
+        - id: ch01-b123
+          speaker: mineral_woman
+          text: |-
+            噢，小姐！噢，小姐！
+          emotion: happy
+        - id: ch01-b124
+          speaker: narrator
+          text: |-
+            她抓住卡罗琳两只手使劲摇，可这还不够。她先亲了卡罗琳两边脸颊，又一把将她紧紧抱住。
+        - id: ch01-b125
+          speaker: mineral_woman
+          text: |-
+            噢，小姐！噢，小姐！
+          emotion: happy
+        - id: ch01-b126
+          speaker: narrator
+          text: |-
+            汽水女人从随身的黑提包里摸出手帕，响亮地擤起鼻子。威尔明顿太太穿过门厅时，脚步已经放得慢得不能再慢。可就算是她，也没法慢到等汽水女人暂时擤完鼻子以后再离开。她终于穿过那扇蒙着绿色呢料的门时，身后又传来一声“噢，小姐”。五分钟以后，威尔明顿太太特意再次经过门厅。这一回，她听见了真正的消息。
+        - id: ch01-b127
+          speaker: mineral_woman
+          text: |-
+            事情全解决了，小姐！爵爷还给了两张崭新的五镑钞票，说是“拿去多买些月季栽”。他亲手写信，感谢我们把那里收拾得那么漂亮。我这一辈子都能租住那间屋了。这全是你做的，愿上天保佑你的好心，所以我特意来告诉你。我从没想到，会这样喜欢一个素不相识的小姑娘。全是你做的呀，小姐，亲爱的小姐！
+          emotion: happy
+        - id: ch01-b128
+          speaker: narrator
+          text: |-
+            对一个完全不知内情的管家太太来说，偶然听到这样一番话，当然既神秘又让人激动。她怎么也猜不出，一个贫穷的陌生女人为什么这样感谢卡罗琳。可对于那个知道全部秘密、又正听着感谢的小姑娘来说，这番话却再暖心、再愉快也不过了。
+        - id: ch01-b129
+          speaker: caroline
+          text: |-
+            你们看，魔法每次都灵验。
+          emotion: happy

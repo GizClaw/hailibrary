@@ -1,0 +1,180 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant, and gently ironic
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    henry:
+      display_name: King Henry VIII
+      tts:
+        delivery: commanding, volatile, and weakened by illness
+        timbre: deep and worn
+        pace: measured and uneven
+        pitch: low
+    attendant:
+      display_name: Attendant
+      tts:
+        delivery: respectful and restrained
+        timbre: clear and subdued
+        pace: measured
+        pitch: medium
+    lord_chancellor:
+      display_name: Lord Chancellor
+      tts:
+        delivery: formal, deferential, and increasingly nervous
+        timbre: mature and polished
+        pace: measured
+        pitch: medium-low
+    lord_hertford:
+      display_name: Lord Hertford
+      tts:
+        delivery: careful, loyal, and grave
+        timbre: mature and steady
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: Troublous Dreams
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            At about five o'clock, Henry the Eighth awoke from a restless nap.
+        - id: ch01-b02
+          speaker: henry
+          text: >-
+            Troublous dreams, troublous dreams! My end is close. These warnings tell me so, and my failing pulse confirms it.
+          emotion: fearful
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            Then a wicked light flared in his eyes, and he muttered again.
+        - id: ch01-b04
+          speaker: henry
+          text: >-
+            But I will not die until he goes before me.
+          emotion: angry
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            The attendants saw that he was awake. One of them asked what he wished them to do about the Lord Chancellor, who was waiting outside.
+        - id: ch01-b06
+          speaker: attendant
+          text: >-
+            Your Majesty, shall we admit the Lord Chancellor?
+        - id: ch01-b07
+          speaker: henry
+          text: >-
+            Admit him! Bring him in!
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            The king called for him eagerly. The Lord Chancellor entered at once and knelt beside the king's couch.
+        - id: ch01-b09
+          speaker: lord_chancellor
+          text: >-
+            I have given the order, Your Majesty. As you commanded, the peers of the realm are wearing their robes and standing at the bar of the House. They have confirmed the Duke of Norfolk's sentence, and now they wait humbly for your further command in the matter.
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            Fierce joy lit the king's face.
+        - id: ch01-b11
+          speaker: henry
+          text: >-
+            Lift me up! I will go before Parliament myself. With my own hand, I will seal the warrant that rids me of—
+          emotion: happy
+        - id: ch01-b12
+          speaker: narrator
+          text: >-
+            His voice gave out. An ashen paleness swept the color from his cheeks, and the attendants gently lowered him onto his pillows. They hurried to give him medicines and revive him. When he could speak again, his voice was full of sorrow.
+        - id: ch01-b13
+          speaker: henry
+          text: >-
+            Ah, how I have longed for this sweet hour! Now it has come too late, and I have lost the chance I wanted so dearly. But hurry! Let others perform this happy duty since I cannot. Put my Great Seal in the hands of a commission. Choose the lords who will serve on it, and begin the work. Hurry, man! Before the sun rises and sets once more, bring me his head so I may look upon it.
+          emotion: sad
+    - id: ch02
+      title: The Missing Great Seal
+      blocks:
+        - id: ch02-b01
+          speaker: lord_chancellor
+          text: >-
+            It shall be done as Your Majesty commands. Will you order the Seal returned to me now, so I can begin this business?
+        - id: ch02-b02
+          speaker: henry
+          text: >-
+            The Seal? Who has it but you?
+        - id: ch02-b03
+          speaker: lord_chancellor
+          text: >-
+            Your Majesty took it from me two days ago. You said it would do no more work until your own royal hand used it on the Duke of Norfolk's warrant.
+        - id: ch02-b04
+          speaker: henry
+          text: >-
+            Yes, that is true. I remember now. What did I do with it? I am very weak. So often these days, my memory betrays me. It is strange. Very strange.
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            The king's words faded into confused mumbling. Now and then he shook his gray head and struggled to remember what he had done with the Seal. At last, Lord Hertford dared to kneel and offer an answer.
+        - id: ch02-b06
+          speaker: lord_hertford
+          text: >-
+            Sire, if I may be so bold, several of us remember this. You gave the Great Seal to His Highness, the Prince of Wales, to keep until the day when—
+        - id: ch02-b07
+          speaker: henry
+          text: >-
+            True, quite true! Fetch it. Go! Time is flying!
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            Lord Hertford rushed away to question Tom. Before long, he returned to the king, looking troubled and carrying nothing in his hands.
+        - id: ch02-b09
+          speaker: lord_hertford
+          text: >-
+            My lord the King, it pains me to bring such heavy and unwelcome news. God has willed that the prince's illness remains, and he cannot remember receiving the Seal. I came back quickly because it would waste precious time and likely gain us nothing to search the long line of chambers and great halls belonging to His Royal Highness—
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            A groan from the king cut him off. After a while, Henry spoke with deep sadness.
+        - id: ch02-b11
+          speaker: henry
+          text: >-
+            Trouble the poor child no more. God's hand lies heavily upon him. My heart is full of love and pity for him. I only wish I could carry his burden on my old, careworn shoulders and give him peace.
+          emotion: sad
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            He closed his eyes and began to mumble. Soon he fell silent.
+    - id: ch03
+      title: The Small Seal
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            After some time, the king opened his eyes. He stared blankly around the room until he noticed the Lord Chancellor still kneeling there. At once, his face burned with rage.
+        - id: ch03-b02
+          speaker: henry
+          text: >-
+            What? Are you still here? By the glory of God, if you do not attend to that traitor's business, your mitre will have no head to sit upon tomorrow!
+          emotion: angry
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            The Chancellor trembled as he answered.
+        - id: ch03-b04
+          speaker: lord_chancellor
+          text: >-
+            Mercy, Your Majesty! I was only waiting for the Seal.
+          emotion: fearful
+        - id: ch03-b05
+          speaker: henry
+          text: >-
+            Man, have you lost your wits? The small Seal I used to carry when I traveled is in my treasury. The Great Seal has flown away, but will that one not serve? Have you lost your wits? Go! And listen well. Do not return until you bring me his head.
+          emotion: angry
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            The poor Chancellor wasted no time in leaving that dangerous place. The commission wasted no time either. It gave royal approval to the obedient Parliament's work and appointed the following day for the beheading. So the unfortunate Duke of Norfolk, the highest-ranking peer in England, was to lose his head.
