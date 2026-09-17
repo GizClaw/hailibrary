@@ -1,0 +1,421 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant, and gently ironic
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    edward:
+      display_name: Edward
+      tts:
+        delivery: dignified, direct, and quick to command
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium-high
+    john_canty:
+      display_name: John Canty
+      tts:
+        delivery: coarse, threatening, and drunken
+        timbre: low and harsh
+        pace: uneven
+        pitch: low
+    mother_canty:
+      display_name: Mother Canty
+      tts:
+        delivery: tender, anxious, and careworn
+        timbre: soft and weary
+        pace: measured
+        pitch: medium
+    grandmother_canty:
+      display_name: Grandmother Canty
+      tts:
+        delivery: bitter, cruel, and sharp
+        timbre: cracked and harsh
+        pace: deliberate
+        pitch: medium-low
+    nan:
+      display_name: Nan
+      tts:
+        delivery: timid, kind, and earnest
+        timbre: gentle and youthful
+        pace: measured
+        pitch: medium-high
+    bet:
+      display_name: Bet
+      tts:
+        delivery: cautious, pleading, and sincere
+        timbre: light and youthful
+        pace: measured
+        pitch: high
+    visitor:
+      display_name: Visitor
+      tts:
+        delivery: urgent and hushed
+        timbre: rough and clear
+        pace: brisk
+        pitch: medium
+    waterman:
+      display_name: Waterman
+      tts:
+        delivery: boisterous, stubborn, and merry
+        timbre: hearty and booming
+        pace: lively
+        pitch: medium-low
+    reveler_1:
+      display_name: First Reveler
+      tts:
+        delivery: festive and insistent
+        timbre: bright and strong
+        pace: lively
+        pitch: medium
+    reveler_2:
+      display_name: Second Reveler
+      tts:
+        delivery: rowdy and amused
+        timbre: rough and ringing
+        pace: brisk
+        pitch: medium-low
+    reveler_3:
+      display_name: Third Reveler
+      tts:
+        delivery: cheerful and bold
+        timbre: clear and energetic
+        pace: quick
+        pitch: medium-high
+    reveler_4:
+      display_name: Fourth Reveler
+      tts:
+        delivery: playful and loud
+        timbre: youthful and full
+        pace: lively
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The Prince in the toils.
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            John Canty dragged the rightful prince into Offal Court, with a noisy, delighted mob close behind. Only one man spoke up for the captive boy. In all that uproar, no one listened. They could hardly hear him. Edward kept fighting to get free and raging at the way they treated him. At last, John Canty lost the little patience he had left and swung his oak club up over the prince's head.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            The man who had pleaded for Edward sprang forward to stop the blow. The club struck his wrist instead.
+        - id: ch01-b03
+          speaker: john_canty
+          text: >-
+            So you want to interfere, do you? Then take this for your trouble!
+          emotion: angry
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            Canty's club crashed down on the man's head. He groaned, and his shadowy figure sank among the crowd's feet. A moment later, he lay there alone in the darkness. The mob had already pushed onward. Not one bit of their enjoyment had been spoiled by what they had seen.
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            Before long, Edward was inside John Canty's home, and the door was shut against everyone outside. A tallow candle stuck in a bottle gave only a dim light. Even so, Edward could make out the filthy room and the people in it. Two untidy girls and a middle-aged woman huddled against one wall. They looked like creatures who had suffered harsh treatment so often that they were always waiting in fear for the next blow. From another corner came a dried-up old woman with loose gray hair and cruel eyes.
+        - id: ch01-b06
+          speaker: john_canty
+          text: >-
+            Wait, Mother. We have a fine show here. Don't spoil it before you've enjoyed it. After that, strike as hard as you please. Now, boy, stand out here. Let's hear that foolish tale again, if you still remember it. Tell us your name. Who are you?
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            Edward flushed at the insult. He looked steadily and angrily into Canty's face.
+        - id: ch01-b08
+          speaker: edward
+          text: >-
+            A man like you has no right to order me to speak. But I will tell you once more. I am Edward, Prince of Wales, and no one else.
+          emotion: angry
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            The answer stopped the old woman where she stood and nearly took her breath away. She stared at Edward in dull amazement. Her brutal son found that so funny that he burst out laughing. Tom Canty's mother and sisters reacted very differently. Until then, they had been afraid of being beaten. Now that fear vanished, because they believed something terrible had happened to Tom's mind. They rushed toward Edward with grief and alarm on their faces.
+        - id: ch01-b10
+          speakers: [mother_canty, nan, bet]
+          ensemble: chorus
+          text: >-
+            Oh, poor Tom! Poor boy!
+          emotion: sad
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            His mother dropped to her knees, put both hands on Edward's shoulders, and searched his face as tears filled her eyes.
+        - id: ch01-b12
+          speaker: mother_canty
+          text: >-
+            Oh, my poor boy! All that reading has finally done this to you. It has taken away your senses. Why did you keep at it when I warned you so often? Tom, you've broken your mother's heart.
+          emotion: sad
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            Edward looked into her face and answered gently.
+        - id: ch01-b14
+          speaker: edward
+          text: >-
+            Your son is safe, good woman, and his mind is sound. Please, don't be afraid. Let me go to the palace, where he is now, and my father the king will send him straight back to you.
+          emotion: calm
+        - id: ch01-b15
+          speaker: mother_canty
+          text: >-
+            The king, your father? Oh, my child, take back those deadly words before they ruin you and everyone near you. Wake from this terrible dream. Try to remember. Look at me. Aren't I the mother who gave birth to you and loves you?
+          emotion: fearful
+        - id: ch01-b16
+          speaker: narrator
+          text: >-
+            Edward shook his head. He hated to hurt her, but he answered honestly.
+        - id: ch01-b17
+          speaker: edward
+          text: >-
+            Heaven knows I do not wish to cause you pain. But I have truly never seen your face before today.
+          emotion: sad
+        - id: ch01-b18
+          speaker: narrator
+          text: >-
+            The woman sank back onto the floor. She covered her eyes and broke into heartbroken sobs.
+        - id: ch01-b19
+          speaker: john_canty
+          text: >-
+            Let the show go on! Nan! Bet! Have you forgotten your manners? You can't stand there in the prince's presence. Down on your knees, you penniless trash, and show him some respect!
+        - id: ch01-b20
+          speaker: narrator
+          text: >-
+            Canty followed his command with another rough laugh. The girls began timidly begging him to spare their brother.
+        - id: ch01-b21
+          speaker: nan
+          text: >-
+            Father, please let him go to bed. Some rest and sleep may cure his madness. Please.
+        - id: ch01-b22
+          speaker: bet
+          text: >-
+            Yes, Father. He's more worn out than usual. By tomorrow he'll be himself again. He'll beg hard and won't come home empty-handed.
+        - id: ch01-b23
+          speaker: narrator
+          text: >-
+            That reminder ended Canty's amusement and brought his mind back to money. He turned on Edward angrily.
+        - id: ch01-b24
+          speaker: john_canty
+          text: >-
+            Tomorrow we owe the owner of this hole two pennies. Two whole pennies for half a year's rent! If we don't pay, we're out. Now show me what your lazy begging brought in.
+          emotion: angry
+        - id: ch01-b25
+          speaker: edward
+          text: >-
+            Do not trouble me with your filthy concerns. I have told you already. I am the king's son.
+        - id: ch01-b26
+          speaker: narrator
+          text: >-
+            Canty's broad hand struck Edward's shoulder and sent him stumbling into Mother Canty's arms. She held the boy to her chest and put her own body between him and the storm of blows. The terrified girls fled back to their corner, but the grandmother hurried forward to help her son. Edward pulled away from the woman protecting him.
+        - id: ch01-b27
+          speaker: edward
+          text: >-
+            Madam, you must not suffer for me. Let these swine do whatever they mean to do to me alone.
+        - id: ch01-b28
+          speaker: narrator
+          text: >-
+            Being called swine made Canty and his mother furious. They began at once and beat Edward soundly. Then they beat the girls and their mother too, simply because they had shown the boy some kindness.
+        - id: ch01-b29
+          speaker: john_canty
+          text: >-
+            That's enough. All of you, go to bed. This entertainment has worn me out.
+        - id: ch01-b30
+          speaker: narrator
+          text: >-
+            The candle went out, and the family settled down for the night.
+        - id: ch01-b31
+          speaker: narrator
+          text: >-
+            When the snores of John Canty and his mother showed that both were asleep, the two girls crept over to Edward. They covered him tenderly against the cold with straw and rags. Their mother came too. She stroked his hair, wept over him, and whispered broken words of comfort and pity into his ear. She had even saved him a little food. But all his pain had taken away his appetite, especially for a black, tasteless crust.
+        - id: ch01-b32
+          speaker: narrator
+          text: >-
+            Her brave defense had cost her a beating, and her compassion touched him. He thanked her in the noble manner of a prince and begged her to sleep and try to forget her troubles.
+        - id: ch01-b33
+          speaker: edward
+          text: >-
+            My father the king will see that your loyal kindness and courage are rewarded.
+        - id: ch01-b34
+          speaker: narrator
+          text: >-
+            His promise about the king seemed to her like another return to his madness, and it broke her heart all over again. She clasped him to her chest again and again. Then, drowned in tears, she returned to her bed.
+        - id: ch01-b35
+          speaker: narrator
+          text: >-
+            As Mother Canty lay there thinking and grieving, a thought slowly crept into her mind. There was something about this boy that Tom had never possessed, whether Tom was sane or mad. She could not describe it or say exactly what it was. Still, her sharp instinct as a mother seemed to detect it. What if this boy really was not her son after all?
+        - id: ch01-b36
+          speaker: narrator
+          text: >-
+            No, the idea was absurd. In spite of all her sorrow and trouble, she nearly smiled at it. Yet the thought would not go away. It followed her, worried her, and clung to her no matter how she tried to push it aside. At last, she knew she would have no peace until she found a test that proved clearly and beyond all question whether this boy was her son. Such a test could drive away every wearing doubt. So she set her mind to work at once.
+        - id: ch01-b37
+          speaker: narrator
+          text: >-
+            Finding a perfect test was much harder than deciding she needed one. She turned over one promising idea after another, then had to reject every one of them. None was absolutely certain, and an imperfect answer could never satisfy her. It seemed that all this painful thinking had been useless. She began to believe she would have to give the whole matter up.
+        - id: ch01-b38
+          speaker: narrator
+          text: >-
+            While that discouraging thought passed through her mind, she heard the boy breathing evenly and knew he had fallen asleep. As she listened, his steady breathing broke with the soft, startled cry of someone caught in a troubled dream. That chance sound gave her a plan better than all the tests she had struggled to invent. Feverishly but without making a noise, she began relighting the candle.
+        - id: ch01-b39
+          speaker: mother_canty
+          text: >-
+            If only I had seen him just then, I would know! Ever since the day the powder burst in his face, Tom has always done the same thing when suddenly startled from sleep or deep thought. He throws a hand in front of his eyes, but not as other people do. His palm turns outward. I've seen it a hundred times. It has never changed and never failed. Now I will know.
+        - id: ch01-b40
+          speaker: narrator
+          text: >-
+            Carrying the shaded candle, she crept to the sleeping boy. She bent over him with great care, scarcely breathing in her excitement. Then she flashed the light into his face and struck the floor beside his ear with her knuckles. His eyes flew open, and he stared around in alarm. But his hands made no special movement.
+        - id: ch01-b41
+          speaker: narrator
+          text: >-
+            Surprise and grief left the poor woman almost helpless. Somehow, she managed to hide what she felt and soothe the boy back to sleep. Then she crept away and miserably considered the terrible result of her test. She tried to believe that Tom's madness had wiped out the old gesture, but she could not make herself believe it.
+        - id: ch01-b42
+          speaker: mother_canty
+          text: >-
+            No. His hands aren't mad. They could never forget such an old habit so quickly. Oh, what a bitter day this is for me!
+          emotion: sad
+        - id: ch01-b43
+          speaker: narrator
+          text: >-
+            But her hope was now as stubborn as her doubt had been before. She could not make herself accept the test's answer. She told herself the failure must have been an accident, so she had to try again. After waiting a while between each attempt, she startled Edward from sleep a second time and then a third. Both times, the result was exactly the same. At last, she dragged herself sorrowfully back to bed.
+        - id: ch01-b44
+          speaker: mother_canty
+          text: >-
+            But I can't give him up. No, I can't. He must be my boy!
+          emotion: sad
+        - id: ch01-b45
+          speaker: narrator
+          text: >-
+            Mother Canty disturbed him no more. Little by little, Edward's pain lost its power to keep him awake. Complete exhaustion closed his eyes, and at last he fell into a deep, peaceful sleep. One hour after another slipped away while he slept like the dead. Four or five hours went by before that heavy sleep began to lift.
+        - id: ch01-b46
+          speaker: narrator
+          text: >-
+            Half asleep and half awake, Edward began to murmur.
+        - id: ch01-b47
+          speaker: edward
+          text: >-
+            Sir William... Sir William Herbert! Come here and hear the strangest dream that ever... Sir William, can you hear me? I dreamed I had been changed into a pauper, and... Guards! Sir William! Is no groom of the chamber waiting? Someone will pay dearly for this...
+        - id: ch01-b48
+          speaker: nan
+          text: >-
+            What's wrong? Who are you calling for?
+        - id: ch01-b49
+          speaker: edward
+          text: >-
+            Sir William Herbert. And who are you?
+        - id: ch01-b50
+          speaker: nan
+          text: >-
+            Who would I be but your sister Nan? Oh, Tom, I forgot. You're still mad. Poor boy, you're still mad. I wish I hadn't woken up to find it true again. Please, control your tongue, or we'll all be beaten to death!
+          emotion: fearful
+        - id: ch01-b51
+          speaker: narrator
+          text: >-
+            Edward started and lifted himself partway up. Pain from his stiff bruises brought everything back. He fell onto the foul straw with a moan.
+        - id: ch01-b52
+          speaker: edward
+          text: >-
+            Then it was not a dream after all!
+          emotion: sad
+        - id: ch01-b53
+          speaker: narrator
+          text: >-
+            In an instant, all the heavy sorrow and misery that sleep had taken away came down on him again. He understood that he was no longer a cherished prince in a palace, with the loving eyes of a whole nation upon him. Now he was a pauper and an outcast, dressed in rags and held prisoner in a den fit only for beasts, with beggars and thieves for company.
+        - id: ch01-b54
+          speaker: narrator
+          text: >-
+            In the middle of his misery, Edward noticed merry shouts and laughter coming from a street or two away. Then several sharp knocks struck the door. John Canty stopped snoring.
+        - id: ch01-b55
+          speaker: john_canty
+          text: >-
+            Who's knocking? What do you want?
+        - id: ch01-b56
+          speaker: visitor
+          text: >-
+            Do you know who you struck with that club?
+        - id: ch01-b57
+          speaker: john_canty
+          text: >-
+            No, and I don't care either.
+        - id: ch01-b58
+          speaker: visitor
+          text: >-
+            You'll care soon enough. If you want to save your neck, run now. The man is dying this very moment. It was Father Andrew, the priest!
+        - id: ch01-b59
+          speaker: john_canty
+          text: >-
+            Heaven have mercy! All of you, get up and run, or stay here and die!
+          emotion: fearful
+        - id: ch01-b60
+          speaker: narrator
+          text: >-
+            Canty roused the family as he gave the hoarse command. There was no time for questions or delay. Less than five minutes later, the whole Canty household was out in the street, fleeing for their lives. John kept a hard grip on Edward's wrist and hurried him along the dark road. As they ran, he gave the boy a warning in a low voice.
+        - id: ch01-b61
+          speaker: john_canty
+          text: >-
+            Watch your tongue, you mad fool. Don't speak our name. I'll choose a new one quickly, so the law's dogs lose our trail. Do you hear me? Watch your tongue!
+        - id: ch01-b62
+          speaker: narrator
+          text: >-
+            Then he growled orders at the rest of the family.
+        - id: ch01-b63
+          speaker: john_canty
+          text: >-
+            If we get separated, each of you must head for London Bridge. Go as far as the last linen shop on the bridge and wait there for the others. Once we're together, we'll escape into Southwark.
+        - id: ch01-b64
+          speaker: narrator
+          text: >-
+            Just then, the family burst out of darkness into brilliant light and straight into a great mass of people singing, dancing, and shouting along the river. Bonfires stretched beside the Thames as far as anyone could see, both up and down the river. London Bridge blazed with lights, and so did Southwark Bridge. The whole river glowed with the flash and shine of colored light. Fireworks burst constantly overhead. Their twisting trails of brilliance crossed the sky, and thick showers of dazzling sparks fell until night almost looked like day. Revelers crowded everywhere. It seemed that all London had come outside.
+        - id: ch01-b65
+          speaker: narrator
+          text: >-
+            John Canty let out a furious curse and ordered everyone to turn back, but it was already too late. The surging crowd swallowed him and his family like a great human hive. In a single instant, the others were hopelessly scattered from him. Edward was the only one Canty did not lose, because he still held the prince tight by the wrist. But now Edward's heart began to beat high with hope of escape.
+        - id: ch01-b66
+          speaker: narrator
+          text: >-
+            A broad, strong waterman who had enjoyed plenty to drink was shoved roughly by Canty as Canty forced his way through. The man planted a large hand on his shoulder.
+        - id: ch01-b67
+          speaker: waterman
+          text: >-
+            Why such a hurry, friend? Are you going to stain your soul with dull business while every loyal, honest man is celebrating?
+        - id: ch01-b68
+          speaker: john_canty
+          text: >-
+            My affairs belong to me. They're no concern of yours. Take your hand away and let me through.
+        - id: ch01-b69
+          speaker: waterman
+          text: >-
+            With manners like that, you won't pass until you've drunk a toast to the Prince of Wales. I promise you that.
+        - id: ch01-b70
+          speaker: john_canty
+          text: >-
+            Then give me the cup, and be quick about it!
+        - id: ch01-b71
+          speaker: narrator
+          text: >-
+            By then, other revelers had taken an interest.
+        - id: ch01-b72
+          speakers: [reveler_1, reveler_2, reveler_3, reveler_4]
+          ensemble: chorus
+          text: >-
+            Bring the loving cup! Make the sour fellow drink from it, or we'll feed him to the fishes!
+        - id: ch01-b73
+          speaker: narrator
+          text: >-
+            Someone brought an enormous loving cup. Following the old custom, the waterman held one handle and supported the end of an imaginary napkin with his free hand as he offered it to Canty. Canty had to take the other handle with one hand and lift the lid with the other.
+        - id: ch01-b74
+          speaker: narrator
+          text: >-
+            The old ceremony left both of Canty's hands occupied, and for one second Edward was free. He did not waste that second. He plunged into the forest of legs around him and disappeared. A moment later, the crowd had closed over him completely. Finding him beneath that tossing sea of life would have been as hard as finding a lost sixpence under the waves of the Atlantic.
+        - id: ch01-b75
+          speaker: narrator
+          text: >-
+            Edward soon understood how completely the crowd had hidden him. He put John Canty out of his mind and turned at once to his own affairs. Then another fact became clear. Somewhere in this celebration, the city was feasting a false Prince of Wales in Edward's place. To him, there could be only one explanation. The pauper boy, Tom Canty, had deliberately seized his astonishing chance and made himself a usurper.
+        - id: ch01-b76
+          speaker: narrator
+          text: >-
+            There was only one thing to do. Edward would reach the Guildhall, reveal who he was, and denounce the impostor.
+        - id: ch01-b77
+          speaker: narrator
+          text: >-
+            He also decided to give Tom a reasonable time to prepare his soul. Then Tom would be hanged, drawn, and quartered, as the law and custom of that age required for high treason.

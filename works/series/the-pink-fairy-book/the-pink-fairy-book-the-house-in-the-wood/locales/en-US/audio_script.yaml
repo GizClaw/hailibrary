@@ -1,0 +1,303 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and gently dramatic
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    woodcutter:
+      display_name: Woodcutter
+      tts:
+        delivery: plainspoken and firm
+        timbre: sturdy and weathered
+        pace: steady
+        pitch: medium-low
+    wife:
+      display_name: Woodcutter's Wife
+      tts:
+        delivery: caring and anxious
+        timbre: warm and mature
+        pace: measured
+        pitch: medium
+    eldest_daughter:
+      display_name: Eldest Daughter
+      tts:
+        delivery: direct and self-concerned
+        timbre: clear and youthful
+        pace: steady
+        pitch: medium-high
+    second_daughter:
+      display_name: Second Daughter
+      tts:
+        delivery: matter-of-fact and self-concerned
+        timbre: light and youthful
+        pace: steady
+        pitch: medium-high
+    youngest_daughter:
+      display_name: Youngest Daughter
+      tts:
+        delivery: gentle, thoughtful, and sincere
+        timbre: soft and youthful
+        pace: measured
+        pitch: medium-high
+    old_man:
+      display_name: Old Man
+      tts:
+        delivery: gruff and deliberate
+        timbre: deep and aged
+        pace: unhurried
+        pitch: low
+    cock:
+      display_name: Cock
+      tts:
+        delivery: brisk and watchful
+        timbre: bright and crisp
+        pace: lively
+        pitch: high
+    hen:
+      display_name: Hen
+      tts:
+        delivery: practical and alert
+        timbre: light and rounded
+        pace: measured
+        pitch: medium-high
+    brindled_cow:
+      display_name: Brindled Cow
+      tts:
+        delivery: gentle and steady
+        timbre: rich and mellow
+        pace: unhurried
+        pitch: low
+    servant_1:
+      display_name: First Servant
+      tts:
+        delivery: respectful and attentive
+        timbre: clear and polished
+        pace: measured
+        pitch: medium
+    servant_2:
+      display_name: Second Servant
+      tts:
+        delivery: respectful and attentive
+        timbre: warm and polished
+        pace: measured
+        pitch: medium-low
+    servant_3:
+      display_name: Third Servant
+      tts:
+        delivery: respectful and attentive
+        timbre: light and polished
+        pace: measured
+        pitch: medium-high
+    kings_son:
+      display_name: King's Son
+      tts:
+        delivery: gracious and earnest
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Lost Path
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: A poor woodcutter lived with his wife and their three daughters in a little hut at the edge of a great forest. One morning, as he left for work, he told his wife what to do.
+        - id: ch01-b02
+          speaker: woodcutter
+          text: Have our eldest girl bring my lunch into the woods. I'll scatter millet along the path, so she won't lose her way.
+        - id: ch01-b03
+          speaker: narrator
+          text: When the sun stood high above the trees, the eldest daughter set out with a basin of soup. But sparrows, larks, finches, blackbirds, and greenfinches had already eaten every grain of millet. The girl could no longer tell which way to go.
+        - id: ch01-b04
+          speaker: narrator
+          text: She wandered until the sun went down. The trees rustled in the dark, and owls hooted around her. Fear began to take hold. Then a light twinkled through the trees in the distance.
+        - id: ch01-b05
+          speaker: eldest_daughter
+          text: Someone must live over there. Perhaps they'll let me stay for the night.
+        - id: ch01-b06
+          speaker: narrator
+          text: She followed the light and soon reached a house with bright windows. She knocked on the outer door.
+        - id: ch01-b07
+          speaker: old_man
+          text: Come in!
+        - id: ch01-b08
+          speaker: narrator
+          text: The girl entered a dark hallway and tapped on the door of the room beyond.
+        - id: ch01-b09
+          speaker: old_man
+          text: Just come inside.
+        - id: ch01-b10
+          speaker: narrator
+          text: At the table sat an old, gray-haired man. He rested his face in his hands, and his white beard flowed across the table, almost to the floor. Three animals lay beside the stove. They were a cock, a hen, and a brindled cow. The girl explained how she had lost her way and asked to spend the night.
+        - id: ch01-b11
+          speaker: old_man
+          text: Pretty cock, pretty hen, and you, pretty brindled cow, what do you say now?
+        - id: ch01-b12
+          speakers: [cock, hen, brindled_cow]
+          ensemble: chorus
+          text: Duks!
+        - id: ch01-b13
+          speaker: narrator
+          text: That must have meant they agreed, for the old man gave the girl her answer.
+        - id: ch01-b14
+          speaker: old_man
+          text: We have plenty. Go into the back kitchen and make supper for us.
+        - id: ch01-b15
+          speaker: narrator
+          text: The kitchen held everything she needed. She cooked a fine meal, but gave no thought to the animals. She carried the full dishes to the table, sat opposite the old man, and ate until she had enough.
+        - id: ch01-b16
+          speaker: eldest_daughter
+          text: I'm so tired now. Where can I find a bed?
+        - id: ch01-b17
+          speakers: [cock, hen, brindled_cow]
+          ensemble: chorus
+          text: You ate with him and drank with him, but never thought of us. Now sleep as you ought!
+        - id: ch01-b18
+          speaker: old_man
+          text: Go upstairs. You'll find a bedroom there. Shake out the bed, put on clean sheets, and go to sleep.
+        - id: ch01-b19
+          speaker: narrator
+          text: The girl went upstairs, made the bed, and lay down. Some time later, the old man came in with a candle. He looked at her and shook his head. When he saw that she was sound asleep, he opened a trapdoor and dropped her into the cellar.
+    - id: ch02
+      title: The Second Daughter
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The woodcutter returned late that evening and blamed his wife for leaving him hungry all day.
+        - id: ch02-b02
+          speaker: wife
+          text: But I didn't! Our daughter left with your dinner. She must have lost her way, but I'm sure she'll come back tomorrow.
+        - id: ch02-b03
+          speaker: narrator
+          text: At daybreak, the woodcutter set out again. This time, he asked for his second daughter to bring the food.
+        - id: ch02-b04
+          speaker: woodcutter
+          text: I'll scatter lentils today. They're bigger than millet, so she'll see them more easily and find the path.
+        - id: ch02-b05
+          speaker: narrator
+          text: At noon, the second daughter carried the meal into the woods. Yet the birds had eaten all the lentils, just as they had eaten the millet. She could no longer find the trail. She wandered among the trees until night came. Then she reached the old man's house in the same way her sister had, and asked for food and a place to sleep.
+        - id: ch02-b06
+          speaker: old_man
+          text: Pretty cock, pretty hen, and you, pretty brindled cow, what do you say now?
+        - id: ch02-b07
+          speakers: [cock, hen, brindled_cow]
+          ensemble: chorus
+          text: Duks!
+        - id: ch02-b08
+          speaker: narrator
+          text: Everything happened as it had the day before. The girl cooked a good supper. She ate and drank with the old man, without troubling herself about the animals.
+        - id: ch02-b09
+          speaker: second_daughter
+          text: Where may I sleep tonight?
+        - id: ch02-b10
+          speakers: [cock, hen, brindled_cow]
+          ensemble: chorus
+          text: You ate with him and drank with him, but never thought of us. Now sleep as you ought!
+        - id: ch02-b11
+          speaker: narrator
+          text: The second daughter went upstairs to bed. Once she was asleep, the old man stood over her and shook his head. Then he dropped her through the trapdoor into the cellar.
+    - id: ch03
+      title: Kindness at Supper
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: On the third morning, the woodcutter spoke to his wife once more.
+        - id: ch03-b02
+          speaker: woodcutter
+          text: Send our youngest girl with my dinner today. She's always good and obedient. She'll stay on the proper path instead of straying like her lazy sisters.
+        - id: ch03-b03
+          speaker: wife
+          text: Must I lose my dearest child as well?
+          emotion: fearful
+        - id: ch03-b04
+          speaker: woodcutter
+          text: Don't be afraid. She's far too clever to lose her way. I'll scatter plenty of peas. They're larger than lentils and will mark the path clearly.
+          emotion: calm
+        - id: ch03-b05
+          speaker: narrator
+          text: But when the youngest daughter started out with the basket on her arm, wood pigeons had eaten every pea. She had no idea which way to turn. She worried about her hungry father and her anxious mother as she wandered on.
+        - id: ch03-b06
+          speaker: narrator
+          text: Darkness fell. The girl saw the little light among the trees and came to the house in the wood. She politely asked if she could stay there for the night. Again, the white-bearded man turned to his animals.
+        - id: ch03-b07
+          speaker: old_man
+          text: Pretty cock, pretty hen, and you, pretty brindled cow, what do you say now?
+        - id: ch03-b08
+          speakers: [cock, hen, brindled_cow]
+          ensemble: chorus
+          text: Duks!
+        - id: ch03-b09
+          speaker: narrator
+          text: The girl went over to the stove. She stroked the cock and the hen, then scratched the brindled cow between its horns. At the old man's request, she cooked a good supper. But when the dishes were ready, she stopped before sitting down.
+        - id: ch03-b10
+          speaker: youngest_daughter
+          text: Why should I have plenty when these good animals have nothing? There's food outside. I'll look after them first.
+        - id: ch03-b11
+          speaker: narrator
+          text: She fetched barley and scattered it for the cock and hen. Then she brought the cow an armful of sweet-smelling hay.
+        - id: ch03-b12
+          speaker: youngest_daughter
+          text: Eat, dear animals. When you're thirsty, I'll bring you a good drink.
+        - id: ch03-b13
+          speaker: narrator
+          text: She returned with a bowl of water. The cock and hen perched on its rim, dipped in their beaks, and lifted their heads to swallow. The brindled cow drank until she had enough. Only after the animals were satisfied did the girl sit beside the old man and eat what remained.
+        - id: ch03-b14
+          speaker: narrator
+          text: Before long, the cock and hen tucked their heads beneath their wings, and the cow's eyes began to close.
+        - id: ch03-b15
+          speaker: youngest_daughter
+          text: Isn't it time for all of us to rest?
+        - id: ch03-b16
+          speaker: old_man
+          text: Pretty cock, pretty hen, and you, pretty brindled cow, what do you say now?
+        - id: ch03-b17
+          speakers: [cock, hen, brindled_cow]
+          ensemble: chorus
+          text: Duks! You ate with us and drank with us. You cared for us well, so we wish you good night.
+        - id: ch03-b18
+          speaker: narrator
+          text: The maiden went upstairs, made the bed with clean sheets, and fell asleep.
+    - id: ch04
+      title: Midnight in the House
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: She slept peacefully until midnight. Then a terrible noise woke her. The whole house trembled and shook. The animals leaped up and hurled themselves against the wall in terror. Beams swayed as though they might tear loose. The stairs seemed to collapse, and at last the roof fell with a crash.
+        - id: ch04-b02
+          speaker: narrator
+          text: Then everything was quiet. The maiden had come to no harm, so she lay down and went back to sleep.
+        - id: ch04-b03
+          speaker: narrator
+          text: In broad daylight, she opened her eyes to an astonishing sight. She was lying in a splendid room, furnished like a royal chamber. Golden flowers covered green walls. Her bed was made of ivory, with a velvet cover, and a pair of pearl-studded slippers rested on a nearby stool. Nothing looked like the poor house where she had gone to sleep. The maiden thought she must still be dreaming.
+        - id: ch04-b04
+          speaker: narrator
+          text: Three richly dressed servants entered and asked what she wished them to do.
+        - id: ch04-b05
+          speakers: [servant_1, servant_2, servant_3]
+          ensemble: chorus
+          text: What are your commands?
+        - id: ch04-b06
+          speaker: youngest_daughter
+          text: You may go. I'll get up now and cook supper for the old man. Then I'll feed the pretty cock, the hen, and the brindled cow.
+        - id: ch04-b07
+          speaker: narrator
+          text: At that moment, the door opened, and a handsome young man came in.
+    - id: ch05
+      title: The Broken Spell
+      blocks:
+        - id: ch05-b01
+          speaker: kings_son
+          text: I am a king's son. A wicked witch condemned me to live in these woods as an old man. My only companions were my three servants, changed into a cock, a hen, and a brindled cow. The spell could be broken only by a maiden who showed kindness to animals as well as people. You are that maiden. At midnight, you set us free, and this poor house became my royal palace once more.
+        - id: ch05-b02
+          speaker: narrator
+          text: As they stood together, the king's son ordered the three servants to fetch the maiden's parents, so they could attend the wedding feast.
+        - id: ch05-b03
+          speaker: youngest_daughter
+          text: But where are my two sisters?
+        - id: ch05-b04
+          speaker: kings_son
+          text: I locked them in the cellar. This morning, they will be taken into the forest to serve a charcoal burner. They must stay there until they've learned to do better and will never let poor animals go hungry again.

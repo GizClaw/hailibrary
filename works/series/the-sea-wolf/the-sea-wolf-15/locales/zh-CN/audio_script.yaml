@@ -1,0 +1,332 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 叙述者
+      tts:
+        delivery: 克制而敏锐，带着文人的观察与自嘲
+        timbre: 温润清晰的成年男声
+        pace: 舒缓，在惊险处自然加快
+        pitch: 中音
+    humphrey:
+      display_name: 汉弗莱
+      tts:
+        delivery: 文雅清醒，虚弱中仍保持礼貌
+        timbre: 清朗而略显单薄的成年男声
+        pace: 从迟缓逐渐恢复平稳
+        pitch: 中高音
+    wolf_larsen:
+      display_name: 海狼·拉森
+      tts:
+        delivery: 冷静强横，温和时也藏着钢铁般的威压
+        timbre: 深沉有力的成年男声
+        pace: 从容果断，暴怒时骤然加快
+        pitch: 中低音
+    leach:
+      display_name: 利奇
+      tts:
+        delivery: 倔强激烈，愤怒时近乎不顾一切
+        timbre: 紧绷而略带沙哑的年轻男声
+        pace: 明快，激动时急促爆发
+        pitch: 中高音
+    louis:
+      display_name: 路易
+      tts:
+        delivery: 爽朗健谈，谈到预兆时透出郑重与神秘
+        timbre: 浑厚而饱经风霜的成年男声
+        pace: 起伏鲜明，兴奋时语流加快
+        pitch: 中低音
+    johnson:
+      display_name: 约翰逊
+      tts:
+        delivery: 迟缓沉着，坦率而不肯屈服
+        timbre: 粗粝厚实的成年男声
+        pace: 缓慢，每句话都说得清楚郑重
+        pitch: 中低音
+    latimer:
+      display_name: 拉蒂默
+      tts:
+        delivery: 谨慎警觉，紧急时干脆有力
+        timbre: 明亮结实的成年男声
+        pace: 平稳，呼喊时加快
+        pitch: 中音
+    parsons:
+      display_name: 帕森斯
+      tts:
+        delivery: 阴沉粗鲁，受伤时仍带着水手的硬气
+        timbre: 低沉沙哑的成年男声
+        pace: 稍慢而短促
+        pitch: 中低音
+    kelly:
+      display_name: 凯利
+      tts:
+        delivery: 好斗暴躁，色厉内荏
+        timbre: 粗硬响亮的成年男声
+        pace: 急促冲动
+        pitch: 中音
+    oofty_oofty:
+      display_name: 乌夫蒂—乌夫蒂
+      tts:
+        delivery: 安静敏捷，冲突中冷峻果断
+        timbre: 柔和而结实的成年男声
+        pace: 简短沉稳
+        pitch: 中音
+    sailor_1:
+      display_name: 水手甲
+      tts:
+        delivery: 粗率紧张，急着为自己开脱
+        timbre: 粗朴的成年男声
+        pace: 略快
+        pitch: 中音
+    sailor_2:
+      display_name: 水手乙
+      tts:
+        delivery: 慌张多话，盘算时透着侥幸
+        timbre: 干涩的成年男声
+        pace: 偏快
+        pitch: 中高音
+  chapters:
+    - id: ch01
+      title: 第十五章
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            梯子底下，刚才压成一团的水手们咒骂着、呻吟着，一个个勉强爬起身来。
+        - id: ch01-b02
+          speaker: parsons
+          text: 谁来点个灯？我的拇指脱臼了。
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            说话的是帕森斯。他肤色黝黑，总是阴沉着脸，是斯坦迪什艇上的鱼叉手。哈里森也在那条艇上，负责划桨。利奇坐到了我藏身的铺位边沿。
+        - id: ch01-b04
+          speaker: leach
+          text: 到系缆桩边找找吧，说不定你的拇指正在那儿蹦跶。
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            黑暗中有人四处摸索，有人一根接一根地划火柴。船灯总算腾地亮了起来，光线昏暗，还冒着烟。光腿的男人们在那诡异的灯影里来回走动，有的揉着瘀伤，有的照看破口。乌夫蒂—乌夫蒂抓紧帕森斯的拇指，先用力往外一拉，再咔地一声接回原位。这时我也看清了他的双手。每个指节都裂开了，伤口横贯过去，白骨直接露在外面。他却咧嘴露出一口漂亮的白牙，把手伸给大家看，还解释说，这些伤都是一拳拳打在海狼·拉森嘴上留下的。
+        - id: ch01-b06
+          speaker: kelly
+          text: 原来是你干的，你这个黑皮混蛋？
+          emotion: angry
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            凯利是个爱尔兰裔美国人，从前在码头干活，这是第一次出海，如今在克尔富特的艇上划桨。他一面质问，一面吐出满嘴的血和断牙，把那张好斗的脸直逼到乌夫蒂—乌夫蒂眼前。卡纳卡人向后一跃，先退回自己的铺位，紧接着又纵身跳回来，手里已经多了一把长刀，正迎面挥舞。
+        - id: ch01-b08
+          speaker: leach
+          text: >-
+            得了，躺下吧，你真叫人心烦。滚开，凯利，别去惹乌夫蒂。黑灯瞎火的，他哪知道打到的是你？
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            利奇虽然年轻，海上的经验也不多，却显然镇得住整个水手舱。凯利嘴里还在嘟囔，气焰却已经消了。乌夫蒂—乌夫蒂朝利奇露出白牙，感激地笑了笑。他生得十分俊美，身材线条柔和悦目，几乎带着女子的秀气。那双大眼睛温柔又朦胧，跟他凭真本事挣来的好勇善战的名声放在一起，实在显得矛盾。
+        - id: ch01-b10
+          speaker: johnson
+          text: 他怎么会逃出去？
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            约翰逊坐在铺位边，整个身子都垮了下来，像是再也看不见一点希望。刚才那番拼命的搏斗耗尽了他的力气，他到现在还在大口喘气。衬衫已经被彻底撕掉，赤裸的胸膛完全露了出来。脸颊上的伤口仍在流血。鲜血顺着胸口往下淌，又斜斜越过雪白的大腿，拖出一道醒目的红线，最后一滴一滴落到地板上。
+        - id: ch01-b12
+          speaker: leach
+          text: 我早说过，因为他就是魔鬼！
+          emotion: angry
+        - id: ch01-b13
+          speaker: narrator
+          text: 利奇跳起来，眼里含着泪，气得发狂。他一遍遍抱怨。
+        - id: ch01-b14
+          speaker: leach
+          text: 你们这么多人，竟然没一个去拿刀！
+          emotion: angry
+        - id: ch01-b15
+          speaker: narrator
+          text: >-
+            别的水手都怕极了接下来的报复，没人理他。凯利满脸杀气地扫视四周。
+        - id: ch01-b16
+          speaker: kelly
+          text: 他怎么分得清谁是谁？除非有人去告密。
+        - id: ch01-b17
+          speaker: parsons
+          text: 他只要看我们一眼就知道。尤其是你这副嘴脸，一眼就够了。
+        - id: ch01-b18
+          speaker: louis
+          text: >-
+            你就说甲板突然蹦起来，把你的牙从嘴里凿掉了。等着吧，明天让他瞧见你们这帮人的脸，那才热闹呢。
+          emotion: happy
+        - id: ch01-b19
+          speaker: narrator
+          text: >-
+            路易是唯一没有离开铺位的人。他身上没有瘀伤，不会向拉森暴露自己也参加过今晚的事，所以格外开心，一边说还一边吃吃发笑。别的水手听了，也赶紧替自己编起借口。
+        - id: ch01-b20
+          speaker: sailor_1
+          text: 我们就说，当时以为挨打的是大副。
+        - id: ch01-b21
+          speaker: sailor_2
+          text: >-
+            我会说，我听见外面打起来，刚跳下铺位，下巴就白挨了狠狠一下。我当然也动手了。黑暗里什么都分不清，只能乱打。
+        - id: ch01-b22
+          speaker: kelly
+          text: 对，你打中的当然就是我。
+        - id: ch01-b23
+          speaker: narrator
+          text: >-
+            凯利的脸暂时亮了起来。利奇和约翰逊却没有参加这场商议，始终一声不响。伙伴们看他们的眼神已经说明了一切。最坏的结局注定落到这两个人头上，他们没救了，简直已经跟死人一样。利奇忍了好一阵，听够了大家的恐惧和埋怨，终于又炸开了。
+        - id: ch01-b24
+          speaker: leach
+          text: >-
+            看见你们就烦，真是一帮饭桶！你们要是少拿嘴说几句，多用手干点事，他早就没命了。我喊着要刀，怎么连一个人，哪怕只有一个，都不肯替我拿？现在又哭哭啼啼，好像他抓住你们就会宰掉一样。你们明知道他不会，他也舍不得。这里没有招水手的经纪，也没有码头闲汉给他随手补人。他做这门买卖急着用你们。少了你们，谁划艇，谁掌舵，谁驾船？真正得承受后果的是我和约翰逊。都滚回铺位，闭上你们的嘴。我要睡觉。
+          emotion: angry
+        - id: ch01-b25
+          speaker: parsons
+          text: >-
+            话是没错。他也许不会杀我们，可记住吧，从今天起，这条船会比地狱的冰窖还冷。
+          emotion: fearful
+        - id: ch01-b26
+          speaker: narrator
+          text: >-
+            我一直在担心自己。他们发现我躲在这里，会做什么？我可没法像拉森一样打出去。偏偏这时，拉蒂默从舱口上方喊了下来。
+        - id: ch01-b27
+          speaker: latimer
+          text: 汉普！老头子叫你！
+        - id: ch01-b28
+          speaker: parsons
+          text: 他不在下面！
+        - id: ch01-b29
+          speaker: humphrey
+          text: 不，我在。
+        - id: ch01-b30
+          speaker: narrator
+          text: >-
+            我从铺位里滑出来，竭力稳住声音。水手们惊骇地盯着我。恐惧占满了他们的脸，也把他们变得凶恶。
+        - id: ch01-b31
+          speaker: humphrey
+          text: 我这就上来！
+        - id: ch01-b32
+          speaker: kelly
+          text: 你休想！你这个该死的小奸细，我先让你闭嘴！
+          emotion: angry
+        - id: ch01-b33
+          speaker: narrator
+          text: 凯利挡在梯子前，右手张开，像一只要扼断喉咙的铁爪。利奇仍坐在原处。
+        - id: ch01-b34
+          speaker: leach
+          text: 让他走。
+        - id: ch01-b35
+          speaker: kelly
+          text: 想都别想。
+          emotion: angry
+        - id: ch01-b36
+          speaker: narrator
+          text: 利奇一动不动，声音却像砂砾擦过钢铁。
+        - id: ch01-b37
+          speaker: leach
+          text: 我说，让他走。
+        - id: ch01-b38
+          speaker: narrator
+          text: >-
+            凯利犹豫了。我试着从他身边迈过去，他终于让到一边。等我抓住梯子，又回头看了看那一圈人。一张张残忍又恶毒的脸从半明半暗中盯着我。就在那一刻，我心里忽然涌起深深的怜悯。我想起那个伦敦佬说过的话。上帝该有多恨他们，才让他们受这样的折磨。
+        - id: ch01-b39
+          speaker: humphrey
+          text: 相信我，我什么也没看见，也什么都没听见。
+          emotion: calm
+        - id: ch01-b40
+          speaker: leach
+          text: 我就说他靠得住。他跟你我一样不喜欢老头子。
+        - id: ch01-b41
+          speaker: narrator
+          text: >-
+            我在舱房找到海狼·拉森。他脱得精光，浑身是血，早已等在那里。见我进来，他迎面送来一个异想天开似的古怪微笑。
+        - id: ch01-b42
+          speaker: wolf_larsen
+          text: >-
+            来吧，医生，干活。这趟航程看来够你大展医术了。真不知道“幽灵号”少了你该怎么办。我要是也有那么高尚的情操，一定会告诉你，船主人对你感激极了。
+        - id: ch01-b43
+          speaker: narrator
+          text: >-
+            “幽灵号”上只有一只简陋的药箱，我已经熟悉里面的东西。我在舱房炉子上烧水，把清洗和包扎伤口要用的东西一样样准备好。他却光着身子走来走去，一直说笑，还用一种计算般冷静的目光查看每一处伤。我以前从没见过他赤裸的身体。这一看，竟让我屏住了呼吸。我向来不推崇肉体，甚至很反感这种事。可我毕竟还有几分艺术家的眼光，眼前的奇妙叫人无法否认。
+        - id: ch01-b44
+          speaker: narrator
+          text: >-
+            海狼·拉森身体的线条近乎完美，那是一种可怕的美，让我看得入了迷。水手舱里也有不少肌肉强健的人，可他们的身体总有某处不对。这里发育不足，那里又长得过分。不是扭曲，就是弯斜，破坏了整体的匀称。有人的腿太长，有人的腿太短，有的筋骨显得太多，有的又显得太少。只有乌夫蒂—乌夫蒂的身材还算悦目，而他身上那份悦目，恰恰又近乎女性。
+        - id: ch01-b45
+          speaker: narrator
+          text: >-
+            海狼·拉森却像是男人本身，是阳刚的典型。他的完美几乎接近神祇。一走动，一抬起手臂，硕大的肌肉就在缎子般的皮肤下跳跃、移动。我忘了说，他身上的古铜色只到脸庞为止。因为流着斯堪的纳维亚人的血，他的身体白得惊人，足以跟最白皙的女子相比。他抬手去摸头顶的伤，我看着肱二头肌在白色皮肤下面像活物一样游走。正是那块肌肉，曾经差点把我的命挤出身体。我也亲眼见过它挥出许多致命的重拳。我怎么也移不开眼，只管站在那里一动不动。手里那卷消毒棉已经自行松开，一路垂落到地板上，我都没有发觉。
+        - id: ch01-b46
+          speaker: narrator
+          text: 他发现了我的目光。我这才明白，自己竟一直盯着他。
+        - id: ch01-b47
+          speaker: humphrey
+          text: 上帝把你造得真好。
+        - id: ch01-b48
+          speaker: wolf_larsen
+          text: 是吗？我也常这么想，却一直不明白为什么。
+        - id: ch01-b49
+          speaker: humphrey
+          text: 是为了某种目的——
+        - id: ch01-b50
+          speaker: wolf_larsen
+          text: >-
+            是为了实用。这副身体就是拿来用的。这些肌肉能抓住、撕裂、毁灭挡在我和生存之间的活物。别的活物也有肌肉，也能做同样的事。可它们一挡路，我就抓得更紧，撕得更狠，把它们毁得更彻底。所谓目的解释不了这些，实用才说得通。
+        - id: ch01-b51
+          speaker: humphrey
+          text: 可这并不美。
+        - id: ch01-b52
+          speaker: wolf_larsen
+          text: 你是说，生命并不美。可你刚说我造得很好。看看这个。
+        - id: ch01-b53
+          speaker: narrator
+          text: >-
+            他分开双腿站稳，脚趾像要抓住地板。成块、成脊的肌肉在皮肤下扭动聚拢。
+        - id: ch01-b54
+          speaker: wolf_larsen
+          text: 摸摸看。
+        - id: ch01-b55
+          speaker: narrator
+          text: >-
+            那些肌肉硬得像铁。我还注意到，他整个身体不知不觉间都收紧了，既紧张又警觉。髋部四周的肌肉缓缓爬动，改变形状。这阵波动又沿着背脊向上，越过肩头。双臂微微抬起，手臂上的肌肉跟着收缩。十根手指一点点弯曲，最后让双手变成了一对利爪。就连他的眼神也变了。里面有警戒，有冷静的估量，还亮起了一道只属于战斗的光。
+        - id: ch01-b56
+          speaker: wolf_larsen
+          text: >-
+            这叫稳定和平衡。双脚抓地，双腿站稳，也承受冲击。手臂、双手、牙齿和指甲则拿来搏斗。我要杀死对手，也不让对手杀死我。目的？不，还是实用更准确。
+        - id: ch01-b57
+          speaker: narrator
+          text: >-
+            他说完的一刹那，紧绷的全身立刻放松，身体又沉回原先安适的状态。我没有再跟他争辩。方才显露在眼前的，是一头原始猛兽用来厮杀的完整机能。那景象给我的震撼，仿佛亲眼看见一艘巨大战舰，或一艘横渡大西洋的邮轮，内部所有机器一齐运转。
+        - id: ch01-b58
+          speaker: narrator
+          text: >-
+            想到水手舱里那场凶猛的恶斗，他的伤大多只在表面，实在让我惊讶。我也颇为得意，自己处理得相当熟练。除了几处严重的伤口，其余只是重度的瘀伤和撕裂伤。他落水前挨的那一下，在头皮上豁开了几英寸长的口子。我照他的指点，先剃掉伤口边缘的头发，再仔细清洗，最后缝合起来。他的小腿肚也撕裂得很厉害，看上去简直像被斗牛犬咬烂了。他告诉我，搏斗刚开始时，有个水手一口咬住那里，死也不肯松开。拉森就拖着那个人，一直爬到水手舱梯子的顶端，最后才一脚把他踹掉。
+        - id: ch01-b59
+          speaker: wolf_larsen
+          text: >-
+            对了，汉普，我说过你很能派上用场。我们少了一个大副。从现在起，你要轮班值守，每月七十五美元。以后不管前甲板还是后甲板，所有人都得叫你范韦登先生。
+        - id: ch01-b60
+          speaker: humphrey
+          text: 可我……我不懂航海啊。
+          emotion: surprised
+        - id: ch01-b61
+          speaker: wolf_larsen
+          text: 根本不必懂。
+        - id: ch01-b62
+          speaker: humphrey
+          text: >-
+            我实在不想坐到那么高的位置上。我现在身份卑微，活着都已经够危险了，又毫无经验。平庸也有平庸的好处。
+        - id: ch01-b63
+          speaker: narrator
+          text: 海狼·拉森只笑了笑，那神情仿佛这件事早已决定，根本没有再商量的余地。
+        - id: ch01-b64
+          speaker: humphrey
+          text: 我绝不在这条地狱船上当大副！
+        - id: ch01-b65
+          speaker: narrator
+          text: 他的脸顿时硬了下来，眼里闪出冷酷无情的寒光。他转过身，一直走到自己房间的门口。
+        - id: ch01-b66
+          speaker: wolf_larsen
+          text: 那么，范韦登先生，晚安。
+        - id: ch01-b67
+          speaker: humphrey
+          text: 晚安，拉森先生。

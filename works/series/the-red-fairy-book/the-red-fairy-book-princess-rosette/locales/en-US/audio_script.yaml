@@ -1,0 +1,638 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and storylike
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    queen:
+      display_name: Queen
+      tts:
+        delivery: loving and earnest
+        timbre: warm and graceful
+        pace: measured
+        pitch: medium
+    fairy_1:
+      display_name: First Fairy
+      tts:
+        delivery: solemn and gentle
+        timbre: light and clear
+        pace: measured
+        pitch: medium-high
+    fairy_2:
+      display_name: Second Fairy
+      tts:
+        delivery: solemn and gentle
+        timbre: soft and airy
+        pace: measured
+        pitch: high
+    fairy_3:
+      display_name: Third Fairy
+      tts:
+        delivery: solemn and gentle
+        timbre: bright and delicate
+        pace: measured
+        pitch: medium-high
+    old_king:
+      display_name: King
+      tts:
+        delivery: stately and concerned
+        timbre: deep and rounded
+        pace: measured
+        pitch: low
+    hermit:
+      display_name: Hermit
+      tts:
+        delivery: grave and direct
+        timbre: dry and weathered
+        pace: unhurried
+        pitch: low
+    rosette:
+      display_name: Princess Rosette
+      tts:
+        delivery: openhearted and spirited
+        timbre: bright and youthful
+        pace: lively
+        pitch: medium-high
+    great_prince:
+      display_name: Great Prince
+      tts:
+        delivery: noble and protective
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium-low
+    little_prince:
+      display_name: Little Prince
+      tts:
+        delivery: affectionate and eager
+        timbre: smooth and youthful
+        pace: lively
+        pitch: medium
+    frisk:
+      display_name: Frisk
+      tts:
+        delivery: playful and energetic
+        timbre: small and bright
+        pace: brisk
+        pitch: high
+    cockchafer:
+      display_name: Distinguished Cockchafer
+      tts:
+        delivery: courteous and knowing
+        timbre: crisp and buzzing
+        pace: measured
+        pitch: medium-high
+    peacock_king:
+      display_name: King of the Peacocks
+      tts:
+        delivery: proud and passionate
+        timbre: polished and ringing
+        pace: measured
+        pitch: medium
+    nurse:
+      display_name: Nurse
+      tts:
+        delivery: calculating and forceful
+        timbre: dark and husky
+        pace: deliberate
+        pitch: medium-low
+    boatman:
+      display_name: Boatman
+      tts:
+        delivery: rough and hesitant
+        timbre: coarse and sturdy
+        pace: measured
+        pitch: low
+    false_princess:
+      display_name: Nurse's Daughter
+      tts:
+        delivery: peevish and demanding
+        timbre: sharp and nasal
+        pace: brisk
+        pitch: medium-high
+    attendant_1:
+      display_name: First Attendant
+      tts:
+        delivery: formal and wary
+        timbre: clear and restrained
+        pace: measured
+        pitch: medium
+    attendant_2:
+      display_name: Second Attendant
+      tts:
+        delivery: formal and wary
+        timbre: soft and restrained
+        pace: measured
+        pitch: medium
+    peacock_1:
+      display_name: First Peacock
+      tts:
+        delivery: bold and mocking
+        timbre: bright and piercing
+        pace: brisk
+        pitch: high
+    peacock_2:
+      display_name: Second Peacock
+      tts:
+        delivery: bold and mocking
+        timbre: ringing and sharp
+        pace: brisk
+        pitch: high
+    peacock_3:
+      display_name: Third Peacock
+      tts:
+        delivery: bold and mocking
+        timbre: crisp and bright
+        pace: brisk
+        pitch: medium-high
+    old_man:
+      display_name: Old Man
+      tts:
+        delivery: kindly and plainspoken
+        timbre: frail and weathered
+        pace: unhurried
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Fairies' Warning
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, a King and Queen had two handsome sons and one little daughter. The child was so pretty that everyone who saw her loved her. At her christening, the Queen invited all the fairies, as she always did, and gave them a splendid banquet.
+        - id: ch01-b02
+          speaker: queen
+          text: Before you go, please follow your usual good custom. Tell me what will happen to Rosette.
+        - id: ch01-b03
+          speaker: narrator
+          text: Rosette was the name they had given the Princess. The fairies said they had left their book of magic at home. They promised to return another day with their answer, but the Queen understood.
+        - id: ch01-b04
+          speaker: queen
+          text: Ah, I know what that means. You have no good news for me. Please, at least tell me everything. Hide nothing.
+        - id: ch01-b05
+          speaker: narrator
+          text: The Queen would not let the matter rest. She pleaded again and again, asking the fairies to tell her even the worst of what they had seen. After a great deal of persuasion, they finally agreed to speak.
+        - id: ch01-b06
+          speakers: [fairy_1, fairy_2, fairy_3]
+          ensemble: chorus
+          text: Madam, we fear Rosette may bring terrible misfortune upon her brothers. They may even die because of her. That is all we have been able to foresee, and we are deeply sorry we cannot tell you anything better.
+          emotion: sad
+        - id: ch01-b07
+          speaker: narrator
+          text: The fairies went away, leaving the Queen so miserable that the King noticed at once and asked what troubled her. She claimed she had sat too close to the fire and burned all the flax on her distaff.
+        - id: ch01-b08
+          speaker: old_king
+          text: Oh, is that all?
+        - id: ch01-b09
+          speaker: narrator
+          text: He climbed to the garret and brought down more flax than she could have spun in a hundred years. Still she looked unhappy. When he asked again, she said she had dropped one green satin slipper into the river.
+        - id: ch01-b10
+          speaker: old_king
+          text: If that is all, we can soon put it right.
+        - id: ch01-b11
+          speaker: narrator
+          text: He called every shoemaker in the kingdom, and before long they had made ten thousand green satin slippers. Yet the Queen still looked sad. The third time he asked, she said she had swallowed her wedding ring while eating her porridge too quickly. But the King knew better.
+        - id: ch01-b12
+          speaker: old_king
+          text: That cannot be true. Your ring is here in my purse.
+        - id: ch01-b13
+          speaker: narrator
+          text: The Queen was ashamed, and she could see that he was vexed. So she confessed the fairies' prediction and begged him to find some way to prevent it. Now the King grew sad as well. At last he gave the only answer he could imagine.
+        - id: ch01-b14
+          speaker: old_king
+          text: I can see only one way to save our sons. Rosette must lose her head while she is still a child.
+        - id: ch01-b15
+          speaker: queen
+          text: Never! I would sooner lose my own head. You must think of something else, because I will never agree to that.
+          emotion: fearful
+        - id: ch01-b16
+          speaker: narrator
+          text: The King and Queen thought for a long time, searching for some way to protect all three children, but no answer came. Then the Queen heard of an old hermit who lived inside a hollow tree in the great forest near the castle. His wisdom was known far and wide, and people made long journeys to ask his advice whenever they faced troubles they could not solve alone.
+        - id: ch01-b17
+          speaker: queen
+          text: I will ask him what to do. Perhaps he knows how to prevent the fairies' warning from coming true.
+        - id: ch01-b18
+          speaker: narrator
+          text: Early the next morning, she rode out on a pretty white mule shod with solid gold. Two ladies followed on beautiful horses. The trees grew too thick for the animals to pass, so the three women continued on foot. The hermit disliked visits from ladies and looked annoyed when he saw them, but then he recognized the Queen.
+        - id: ch01-b19
+          speaker: hermit
+          text: You are welcome, Queen. What advice have you come to ask from me?
+        - id: ch01-b20
+          speaker: narrator
+          text: She told him what the fairies had foreseen. The hermit said Rosette must be shut inside a tower and never allowed to leave. The Queen thanked and rewarded him, then hurried home. The King had a great tower built as fast as possible, and Rosette was placed inside it.
+        - id: ch01-b21
+          speaker: narrator
+          text: Her parents and brothers visited every single day so that life in the tower would not become too lonely. The elder brother was called the Great Prince, and the younger was called the Little Prince. Both loved Rosette dearly. She was the sweetest and prettiest princess anyone had ever seen. To her family, the smallest smile on her face was worth more than a hundred gold pieces, and they did all they could to keep her cheerful inside her prison.
+        - id: ch01-b22
+          speaker: narrator
+          text: When Rosette reached fifteen, the Great Prince asked the King whether it was time for her to marry. The Little Prince asked the Queen the same thing. Their parents were amused, but gave no answer. Soon afterward, the King and Queen fell ill and died on the same day. Everyone mourned, Rosette most of all, and every bell in the kingdom tolled.
+        - id: ch01-b23
+          speaker: narrator
+          text: Then the dukes and counsellors seated the Great Prince on a golden throne and crowned him with diamonds.
+        - id: ch01-b24
+          speakers: [attendant_1, attendant_2]
+          ensemble: duo
+          text: Long live the King!
+          emotion: happy
+        - id: ch01-b25
+          speaker: narrator
+          text: Feasting and rejoicing followed. Once the brothers were masters of the kingdom, they agreed that Rosette should be freed from the dreary tower she hated.
+    - id: ch02
+      title: The King of the Peacocks
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The brothers crossed the garden to the tall tower in its corner. Rosette was embroidering when they entered. She rose at once, took the new King's hand, and began to cry.
+        - id: ch02-b02
+          speaker: rosette
+          text: Good morning, dear brother. Now that you are King, please let me leave this dreary tower. I am so tired of living here.
+          emotion: sad
+        - id: ch02-b03
+          speaker: narrator
+          text: The King kissed her and dried her tears. That was exactly why they had come. They would take her to their beautiful castle. The Little Prince showed her a pocket full of sugarplums.
+        - id: ch02-b04
+          speaker: little_prince
+          text: Come quickly. Let us get away from this ugly tower. Before long, the King will arrange a magnificent marriage for you.
+        - id: ch02-b05
+          speaker: narrator
+          text: Outside, Rosette saw the beautiful garden for the first time. Fruit hung among the leaves, flowers bloomed everywhere, green grass spread beneath her feet, and fountains sparkled in the light. She had spent her whole life in the tower and had never seen anything like it. Astonishment left her unable to say a word. Then she ran this way and that, picking fruit and gathering flowers. Her little dog Frisk danced ahead of her. He was bright green all over, had only one ear, and turned somersault after somersault in the most delightful way.
+        - id: ch02-b06
+          speaker: frisk
+          text: Bow-wow-wow!
+        - id: ch02-b07
+          speaker: narrator
+          text: Everyone laughed at Frisk until he suddenly dashed into a small wood. Rosette followed and found a peacock spreading its tail in the sunshine. She stood enchanted, unable to look away. When her brothers caught up, they explained that it was a bird people sometimes ate.
+        - id: ch02-b08
+          speaker: rosette
+          text: What? People dare to kill and eat such a beautiful creature? I will marry no one but the King of the Peacocks. When I am Queen, no one shall eat my subjects.
+          emotion: surprised
+        - id: ch02-b09
+          speaker: great_prince
+          text: Little sister, where are we supposed to find the King of the Peacocks?
+        - id: ch02-b10
+          speaker: rosette
+          text: Wherever you please, sire. But I will not marry anyone else.
+        - id: ch02-b11
+          speaker: narrator
+          text: They took Rosette to the castle and brought the peacock too. It was allowed to walk on the terrace beneath her windows. Court ladies came with dresses, ribbons, sweets, diamonds, pearls, dolls, and embroidered slippers. Rosette thanked them so sweetly and treated them so graciously that every visitor left delighted.
+        - id: ch02-b12
+          speaker: narrator
+          text: Meanwhile, the brothers wondered whether a King of the Peacocks truly existed. First they ordered a portrait of Rosette. It looked so alive that no one would have been surprised to hear it speak. Then they told her their plan.
+        - id: ch02-b13
+          speaker: great_prince
+          text: Since only the King of the Peacocks will do, we will travel through the wide world and look for him together. If we find him, we will gladly bring him to you. While we are gone, take good care of our kingdom.
+        - id: ch02-b14
+          speaker: narrator
+          text: Rosette thanked them for taking so much trouble. She promised to guard the kingdom and amuse herself by watching the peacock and teaching Frisk to dance.
+        - id: ch02-b15
+          speaker: narrator
+          text: The brothers set off and questioned everyone they met.
+        - id: ch02-b16
+          speakers: [great_prince, little_prince]
+          ensemble: duo
+          text: Do you know the King of the Peacocks?
+        - id: ch02-b17
+          speakers: [attendant_1, attendant_2]
+          ensemble: duo
+          text: No, we do not.
+        - id: ch02-b18
+          speaker: narrator
+          text: Still they traveled on, going so far that no one had ever gone farther. At last they entered the Kingdom of the Cockchafers. Neither brother had imagined there could be so many cockchafers in one place. Their wings filled the air with such a tremendous buzzing that the King feared the sound would leave him deaf. Among them he noticed one who looked more distinguished than the rest, and asked whether he knew the road to the King of the Peacocks.
+        - id: ch02-b19
+          speaker: cockchafer
+          text: Sire, his kingdom lies thirty thousand leagues from here. You have taken the longest possible road.
+        - id: ch02-b20
+          speaker: great_prince
+          text: How could you know that?
+        - id: ch02-b21
+          speaker: cockchafer
+          text: Why, all of us know you very well. We spend two or three months in your garden every year.
+        - id: ch02-b22
+          speaker: narrator
+          text: The brothers became great friends with him. They walked arm in arm, dined together, and toured his strange country, where even the smallest green leaf cost at least one gold piece. Then they continued their journey. Now that they knew the way, they soon saw peacocks in every tree and heard their cries from far off.
+        - id: ch02-b23
+          speaker: narrator
+          text: There could be no doubt that they had reached the right country. Peacocks perched in every tree, and their calls carried across the land. Inside the city, every man and woman wore clothes made entirely of peacock feathers. Nothing else was thought half so beautiful there. Before long, the brothers met the King of the Peacocks himself. He was riding through the streets in a lovely little carriage made of gold. Diamonds flashed all over it, and twelve peacocks drew it at full speed. The brothers were delighted to find that its owner was as handsome as anyone could wish. He had pale skin, curling golden hair, and a crown fashioned from peacock feathers.
+        - id: ch02-b24
+          speaker: narrator
+          text: He knew at once that the brothers were strangers and summoned them to his carriage. After greeting him, they explained that they had come a great distance to show him a beautiful portrait. Then they took Rosette's picture from their traveling bag. The Peacock King studied it in silence for a long time.
+        - id: ch02-b25
+          speaker: peacock_king
+          text: I never believed any princess in the world could be this beautiful.
+          emotion: surprised
+        - id: ch02-b26
+          speakers: [great_prince, little_prince]
+          ensemble: duo
+          text: Our sister is a hundred times prettier than her portrait.
+        - id: ch02-b27
+          speaker: peacock_king
+          text: Surely you are making fun of me.
+        - id: ch02-b28
+          speaker: little_prince
+          text: Sire, my brother is a king, just as you are. He is called the King, and I am called the Prince. This is our sister, Princess Rosette. Will you marry her? She is as good as she is beautiful, and her dowry will be a bushel of gold pieces.
+        - id: ch02-b29
+          speaker: peacock_king
+          text: Gladly. I will make her happy, give her anything she wishes, and love her dearly. But if she is not as beautiful as you claim, I warn you that I will have both your heads cut off.
+        - id: ch02-b30
+          speakers: [great_prince, little_prince]
+          ensemble: duo
+          text: Certainly. We agree.
+        - id: ch02-b31
+          speaker: peacock_king
+          text: Very well. Go to prison and remain there until the Princess arrives.
+        - id: ch02-b32
+          speaker: narrator
+          text: The brothers knew Rosette was far lovelier than her portrait, so they went without complaint. They were treated kindly, and the Peacock King often visited to keep them company. Rosette's portrait was taken to his palace, where he gazed at it day and night.
+        - id: ch02-b33
+          speaker: narrator
+          text: Because they could not leave the prison, the brothers sent Rosette a letter. It told her to pack her treasures and come at once, for the King of the Peacocks was waiting to marry her. They said nothing about their imprisonment, because they did not want to worry her.
+    - id: ch03
+      title: Treachery at Sea
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The letter filled Rosette with delight. She ran from room to room and told everyone she met that her brothers had found the King of the Peacocks and that she was going away to marry him. The whole kingdom celebrated with her. Guns were fired, fireworks blazed overhead, and everyone was allowed as many cakes and sweetmeats as they wanted. For three full days, every person who came to visit the Princess was given a slice of bread and jam, a nightingale's egg, and a drink of hippocras.
+        - id: ch03-b02
+          speaker: narrator
+          text: After entertaining her friends, Rosette divided all her dolls among them. She placed the kingdom in the hands of the wisest old men in the city and gave them careful instructions. They must watch over everything, spend none of the royal money, and save it all until her brother the King came home. Above all, they must never forget to feed her peacock. Once those arrangements were complete, she set out with only three companions, her nurse, the nurse's daughter, and little green Frisk.
+        - id: ch03-b03
+          speaker: narrator
+          text: They sailed away carrying the bushel of gold and enough dresses to last Rosette ten years, even if she wore two each day. At first they did nothing but laugh and sing. The nurse began questioning the boatman.
+        - id: ch03-b04
+          speaker: nurse
+          text: Can you take us to the Kingdom of the Peacocks?
+        - id: ch03-b05
+          speaker: boatman
+          text: Oh, no. Oh, no.
+        - id: ch03-b06
+          speaker: nurse
+          text: You must take us. You must.
+        - id: ch03-b07
+          speaker: boatman
+          text: Very soon. Very soon.
+        - id: ch03-b08
+          speaker: nurse
+          text: Will you take us there?
+        - id: ch03-b09
+          speaker: boatman
+          text: Yes. Yes.
+        - id: ch03-b10
+          speaker: narrator
+          text: Then the nurse leaned close and whispered in his ear.
+        - id: ch03-b11
+          speaker: nurse
+          text: Would you like to make your fortune?
+        - id: ch03-b12
+          speaker: boatman
+          text: Certainly I would.
+        - id: ch03-b13
+          speaker: nurse
+          text: I know how you can earn a bag of gold.
+        - id: ch03-b14
+          speaker: boatman
+          text: Nothing would please me more.
+        - id: ch03-b15
+          speaker: nurse
+          text: Tonight, when the Princess is asleep, help me throw her into the sea. Once she has drowned, my daughter will put on her beautiful clothes. We will present her to the King of the Peacocks, and he will be delighted to marry her. Your reward will be a boat filled with diamonds.
+        - id: ch03-b16
+          speaker: narrator
+          text: The proposal astonished the boatman.
+        - id: ch03-b17
+          speaker: boatman
+          text: But it would be a terrible shame to drown such a pretty princess.
+          emotion: surprised
+        - id: ch03-b18
+          speaker: narrator
+          text: In the end, the nurse persuaded him. That night Rosette slept soundly, with Frisk curled on his own cushion at the foot of her bed. The nurse fetched her daughter and the boatman. Together they lifted the Princess with her feather bed, mattress, pillows, and blankets, and cast everything into the sea. Rosette did not even wake.
+        - id: ch03-b19
+          speaker: narrator
+          text: Fortunately, every part of Rosette's bed was stuffed with phoenix feathers. Those feathers are extremely rare, and they have the wonderful property of always floating on water. The mattress and bedding stayed on the surface, carrying the sleeping Princess as though she were lying in a boat. After a while, the cold made her twist and turn beneath the blankets. Her movement woke Frisk at the foot of the bed. The little dog's excellent nose caught the smell of soles and herrings swimming close around him, and he immediately began to bark.
+        - id: ch03-b20
+          speaker: frisk
+          text: Bow-wow! Bow-wow-wow!
+        - id: ch03-b21
+          speaker: narrator
+          text: He barked until all the fish woke and gathered around the bed, nudging it with their great heads. Rosette stirred but did not understand what had happened.
+        - id: ch03-b22
+          speaker: rosette
+          text: How the boat is rocking tonight! I am glad I do not often have such an uncomfortable journey.
+        - id: ch03-b23
+          speaker: narrator
+          text: Far away, the nurse and boatman heard Frisk barking.
+        - id: ch03-b24
+          speaker: nurse
+          text: That hateful little animal and his mistress must be drinking our health in seawater by now. Hurry. We must be close to the Peacock King's city.
+    - id: ch04
+      title: The False Bride
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The Peacock King had prepared a magnificent welcome for Rosette. A hundred carriages waited at the landing, drawn by every strange kind of animal his people could assemble. There were lions and bears, wolves and stags, horses and buffaloes, and even eagles and peacocks. The carriage meant for Rosette was the finest of all. Six blue monkeys pulled it, and each one could turn somersaults, dance on a tightrope, and perform other charming tricks. Their harness was made of crimson velvet and fastened with golden buckles. Behind the carriage walked sixty beautiful ladies whom the King had chosen to wait upon Rosette and keep her amused.
+        - id: ch04-b02
+          speaker: narrator
+          text: The nurse had taken endless pains over her daughter's appearance. She chose the prettiest gown from Rosette's collection, dressed the girl in it, and covered her with diamonds from head to foot. But no dress or jewel could make her look pleasant. Worse still, she was sulky and ill-tempered, and she grumbled about everything throughout the journey. When she finally stepped out of the boat and the royal escort saw the bride they had come to welcome, their surprise was so great that not one of them could say a single word.
+        - id: ch04-b03
+          speaker: false_princess
+          text: Well, move yourselves! Bring me something to eat, or I will have all your heads cut off!
+          emotion: angry
+        - id: ch04-b04
+          speaker: attendant_1
+          text: This is dreadful. She is every bit as cruel as she is ugly.
+        - id: ch04-b05
+          speaker: attendant_2
+          text: Our poor King! She was hardly worth bringing from the far side of the world.
+        - id: ch04-b06
+          speaker: narrator
+          text: The false Princess kept ordering everyone about as if they were all her servants. Whenever someone came close enough, she struck out with slaps and pinches, even though no one had done anything wrong. The escort had expected to welcome a gracious royal bride, and now every person in it was afraid to approach her. Because a hundred carriages and so many attendants had to travel together, the enormous procession could only creep toward the palace. All the while, the nurse's daughter sat stiffly in the grand carriage, trying as hard as she could to look like a queen.
+        - id: ch04-b07
+          speaker: narrator
+          text: Peacocks waited in every tree, ready to salute her with cries of welcome. But when they saw the false bride, different words burst out.
+        - id: ch04-b08
+          speakers: [peacock_1, peacock_2, peacock_3]
+          ensemble: chorus
+          text: Oh, how ugly she is!
+          emotion: surprised
+        - id: ch04-b09
+          speaker: false_princess
+          text: Guards, kill those insolent peacocks! They dared to insult me!
+          emotion: angry
+        - id: ch04-b10
+          speaker: narrator
+          text: The peacocks flew away, laughing. The boatman saw how badly everything was going and spoke quietly to the nurse.
+        - id: ch04-b11
+          speaker: boatman
+          text: This looks bad for us, gossip. Your daughter really ought to have been prettier.
+        - id: ch04-b12
+          speaker: nurse
+          text: Be quiet, fool, or you will ruin everything.
+        - id: ch04-b13
+          speaker: narrator
+          text: Word reached the King that the Princess was near.
+        - id: ch04-b14
+          speaker: peacock_king
+          text: Did her brothers speak truly? Is she lovelier than her portrait?
+        - id: ch04-b15
+          speaker: attendant_1
+          text: Sire, it would be quite enough if she were as lovely as the picture.
+        - id: ch04-b16
+          speaker: peacock_king
+          text: True. I will be perfectly satisfied with that. Come, let us meet her.
+        - id: ch04-b17
+          speaker: narrator
+          text: The uproar outside told him that the procession had reached the city, though he could not understand why everyone was shouting. Among the noise, he thought he heard the words, "How ugly she is!" Again and again the cry rose from the streets. Still, the King trusted Rosette's portrait and her brothers' praise so completely that he assumed she must have brought some ugly dwarf in her company. It never entered his mind that the people could be talking about the bride herself.
+        - id: ch04-b18
+          speaker: narrator
+          text: Rosette's portrait led the procession. Behind it walked the King among his courtiers, impatient to see the lovely Princess. Then he caught sight of the nurse's daughter. He flew into a rage and refused to take another step.
+        - id: ch04-b19
+          speaker: peacock_king
+          text: What is this? Have those two rascals in my prison played such a trick on me? Do they expect me to marry this hideous creature? Lock her in the great tower with her nurse and everyone who brought her. As for the brothers, I will have their heads cut off!
+          emotion: angry
+        - id: ch04-b20
+          speaker: narrator
+          text: The brothers knew their sister must have arrived. They dressed carefully and waited to be summoned to greet her. Instead, the gaoler came with soldiers. They were taken into a black dungeon full of bats and toads, where water rose to their necks. They could not understand what had happened.
+        - id: ch04-b21
+          speakers: [great_prince, little_prince]
+          ensemble: duo
+          text: This is a miserable sort of wedding. Why are they treating us this way? They must intend to kill us.
+          emotion: fearful
+        - id: ch04-b22
+          speaker: narrator
+          text: The thought distressed them greatly. Three days passed without news. Then the Peacock King shouted at them through a hole in the wall.
+        - id: ch04-b23
+          speaker: peacock_king
+          text: You called yourselves a king and a prince so you could trick me into marrying your sister. You are only beggars, not worth the water you drink. I will deal with you quickly. The sword that will cut off your heads is being sharpened now!
+          emotion: angry
+        - id: ch04-b24
+          speaker: great_prince
+          text: Take care, King of the Peacocks. I am every bit as much a king as you are. I have a splendid kingdom, robes and crowns, and enough good red gold to do as I please. You speak lightly of cutting off our heads. Do you imagine we stole something from you?
+          emotion: angry
+        - id: ch04-b25
+          speaker: narrator
+          text: His bold answer startled the Peacock King, who had not expected a prisoner to speak with such confidence. For a moment, he began to wonder whether some mistake had been made, and he considered sending the brothers and the supposed bride away together. But the Prime Minister opposed him. If a deception like this went unpunished, he argued, everyone would hear of it and laugh at their King. So a formal accusation was prepared and carried down to the prisoners. It declared that the brothers were impostors. They had promised the King a beautiful princess in marriage, but the woman who arrived was nothing more than an ugly peasant girl.
+        - id: ch04-b26
+          speaker: narrator
+          text: When the charge was read aloud, both prisoners cried out against it. Every word they had spoken was true. Their sister really was a princess, and she was more beautiful than the day. The woman who had arrived could not be Rosette. There must be some mystery behind the change, though from inside their dungeon they could not possibly discover what it was. They asked for seven days in which to uncover the truth and prove their innocence. The Peacock King was still so angry that he could hardly bring himself to grant even that small favor. At last, after those around him urged him to be just, he agreed to wait seven days before carrying out the sentence.
+    - id: ch05
+      title: Rosette and the Old Man
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: While all this happened at court, the true Princess was still at sea. Daylight came, and Rosette and Frisk stared around in astonishment. They were alone on the water. There was no boat and no one to help them. Rosette wept until even the fish felt sorry for her.
+        - id: ch05-b02
+          speaker: rosette
+          text: Alas! The King of the Peacocks must have changed his mind and ordered them to throw me into the sea. How strange, when I would have loved him so dearly and we could have been so happy together.
+          emotion: sad
+        - id: ch05-b03
+          speaker: narrator
+          text: She cried harder, because she could not stop loving him. For two entire days, the bed floated back and forth across the sea without coming to land. Rosette and Frisk stayed soaked through and shivered continually in the cold. Hunger troubled them just as badly. At last Rosette noticed some oysters within reach and managed to catch them. She opened them and shared them with Frisk because there was nothing else to eat, though both the Princess and the little dog disliked every mouthful.
+        - id: ch05-b04
+          speaker: narrator
+          text: Darkness came again, and fear seized Rosette.
+        - id: ch05-b05
+          speaker: rosette
+          text: Please keep barking, Frisk. I am afraid the soles might come and eat us.
+          emotion: fearful
+        - id: ch05-b06
+          speaker: frisk
+          text: Bow-wow! Bow-wow-wow!
+        - id: ch05-b07
+          speaker: narrator
+          text: By then, they had floated close to shore. A poor old man lived there alone in a small cottage. When he heard a dog barking, he guessed that a ship must have gone down, since dogs never passed that lonely place. He came out to see whether he could help and soon spotted the Princess and Frisk rising and falling on the waves. Rosette stretched her hands toward him.
+        - id: ch05-b08
+          speaker: rosette
+          text: Oh, good old man, please save me! I will die from cold and hunger!
+          emotion: fearful
+        - id: ch05-b09
+          speaker: narrator
+          text: Her pitiful cry made the old man deeply sorry for her. He ran as fast as he could back to the cottage and fetched a long boat hook. Then he stepped into the sea and waded farther and farther out, until the water rose all the way to his chin. The waves nearly drowned him once, and then almost drowned him a second time. Still he struggled forward. At last the hook caught hold of the Princess's bed, and with great effort he pulled Rosette, Frisk, and all the bedding safely onto the shore.
+        - id: ch05-b10
+          speaker: narrator
+          text: Rosette and Frisk were overjoyed to stand on dry ground again. She thanked the old man warmly, wrapped herself in her blankets, and picked her way barefoot to his cottage. He lit a straw fire and opened an old box. Inside were his wife's dress and shoes, which he gave to Rosette. Even in those rough clothes, she looked as charming as ever, while Frisk danced his best to cheer her.
+        - id: ch05-b11
+          speaker: narrator
+          text: The old man saw the satin and gold on her bedding and knew she must be a great lady. He promised she could trust him and asked for her story. Rosette told him everything, and wept again because she believed the Peacock King had ordered her death.
+        - id: ch05-b12
+          speaker: old_man
+          text: What shall we do now, my daughter? You are a great princess, used to delicate food. I have only black bread and radishes, which will never suit you. Should I tell the King of the Peacocks that you are here? Once he sees you, he will surely wish to marry you.
+        - id: ch05-b13
+          speaker: rosette
+          text: Oh, no! He must be wicked if he tried to drown me. We must not tell him. But if you own a small basket, please give it to me.
+          emotion: fearful
+        - id: ch05-b14
+          speaker: narrator
+          text: The old man found a basket. Rosette tied it around Frisk's neck.
+        - id: ch05-b15
+          speaker: rosette
+          text: Go into town, find the finest cooking pot there, and bring me whatever is inside it.
+    - id: ch06
+      title: The Missing Royal Dinners
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: Frisk ran off. No finer dinner was cooking anywhere in town than the Peacock King's. The little dog cleverly lifted the pot lid and carried its entire contents back to Rosette.
+        - id: ch06-b02
+          speaker: rosette
+          text: Now return to the pantry and bring me the best things you find there.
+        - id: ch06-b03
+          speaker: narrator
+          text: Frisk went back and filled his basket with white bread, red wine, and every sort of sweetmeat. By the time he left, the basket was almost too heavy for him.
+        - id: ch06-b04
+          speaker: narrator
+          text: When the King asked for dinner, both the pot and pantry were empty. The courtiers stared at one another in alarm, and the King became terribly cross.
+        - id: ch06-b05
+          speaker: peacock_king
+          text: Well, if there is no dinner, then I cannot dine. See that plenty of food is roasted for my supper.
+        - id: ch06-b06
+          speaker: narrator
+          text: That evening, Rosette sent Frisk out once more.
+        - id: ch06-b07
+          speaker: rosette
+          text: Find the best kitchen in town and bring me all the nicest pieces roasting on its spit.
+        - id: ch06-b08
+          speaker: narrator
+          text: Frisk knew no kitchen better than the King's, so once again he made straight for the palace. He crept softly inside and waited until the cook's back was turned. Then he pulled every roasted morsel from the spit and packed it into his basket. By chance, the meat had just finished cooking. It looked so delicious that Frisk grew hungry merely from seeing it, but he did not eat a bite. He carried the whole supper faithfully to Rosette. As soon as he arrived, she sent him back to the royal pantry, where he collected all the tarts and sugarplums that had been prepared for the King.
+        - id: ch06-b09
+          speaker: narrator
+          text: Having missed dinner, the King asked for supper early. But every bit of it had vanished. He went to bed half starved and in a dreadful temper. The same thing happened the following day and the day after that. For three days, every dinner and supper disappeared just before it could be served, and the King ate nothing.
+        - id: ch06-b10
+          speaker: narrator
+          text: By then, the Prime Minister had begun to fear that the King might truly starve to death. He decided to discover the thief himself. Before the next meal was ready, he hid in the darkest corner of the kitchen and fixed his eyes on the cooking pot. He did not look away for an instant. Presently, a little green dog with only one ear crept softly through the kitchen door. To the minister's amazement, the dog uncovered the pot, transferred every bit of food into the basket around his neck, and hurried away with the King's meal.
+        - id: ch06-b11
+          speaker: narrator
+          text: The Prime Minister hurried after him through the town, all the way to the good old man's cottage. Then he raced back and announced that he knew where the missing dinners and suppers had gone. The astonished King decided to see for himself.
+        - id: ch06-b12
+          speaker: narrator
+          text: With the Prime Minister and a guard of archers, he arrived just as the old man and the Princess were finishing his dinner. The King ordered the guards to seize them and bind them with ropes. Frisk was tied up too.
+    - id: ch07
+      title: The True Princess
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: Back at the palace, someone reminded the King that this was the final day of the brothers' respite.
+        - id: ch07-b02
+          speaker: peacock_king
+          text: Those impostors shall lose their heads today, together with these thieves who stole my dinner.
+        - id: ch07-b03
+          speaker: narrator
+          text: The old man dropped to his knees and begged for enough time to explain. As he spoke, the King looked closely at Rosette for the first time. Her tears made him sorry for her. Then he heard the old man say that her name was Rosette and that traitors had thrown her into the sea.
+        - id: ch07-b04
+          speaker: narrator
+          text: In spite of being weak with hunger, the King turned three somersaults without stopping. He ran to embrace her and untied her ropes with his own hands.
+        - id: ch07-b05
+          speaker: peacock_king
+          text: Rosette, I love you with all my heart!
+          emotion: happy
+        - id: ch07-b06
+          speaker: narrator
+          text: Messengers hurried to the dungeon with orders to release the brothers and bring them before the King. No one told them what had changed. They walked into the hall sadly, believing every step was taking them closer to their execution. The nurse, her daughter, and the boatman were brought from the tower at the same time. The moment Rosette saw her brothers alive, she ran to embrace them. Then the truth could no longer be hidden. The nurse, the false bride, and the boatman threw themselves down before the Princess they had betrayed and begged her to spare them.
+        - id: ch07-b07
+          speaker: narrator
+          text: The King and Rosette were so happy that they forgave them freely. The good old man received a splendid reward and lived in the palace for the rest of his days. The Peacock King made generous amends to both brothers for his cruel treatment and did everything he could to show his regret.
+        - id: ch07-b08
+          speaker: narrator
+          text: The nurse returned all Rosette's dresses and jewels, along with the bushel of gold. The wedding took place at once, and everyone lived happily ever after.
+        - id: ch07-b09
+          speaker: narrator
+          text: Even Frisk lived in the greatest luxury. For the rest of his life, he never had anything worse than a partridge wing for dinner.

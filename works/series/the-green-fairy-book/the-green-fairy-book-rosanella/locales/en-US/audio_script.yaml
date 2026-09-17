@@ -1,0 +1,195 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and attentive fairy-tale storytelling
+        timbre: clear and gently resonant
+        pace: measured
+        pitch: medium
+    queen_balanice:
+      display_name: Queen Balanice
+      tts:
+        delivery: gracious, tender, and openly emotional
+        timbre: warm and regal
+        pace: natural
+        pitch: medium
+    rose_maiden_1:
+      display_name: First Rose Maiden
+      tts:
+        delivery: gentle and respectful
+        timbre: light and clear
+        pace: measured
+        pitch: medium-high
+    rose_maiden_2:
+      display_name: Second Rose Maiden
+      tts:
+        delivery: gentle and respectful
+        timbre: soft and bright
+        pace: measured
+        pitch: medium-high
+    rose_maiden_3:
+      display_name: Third Rose Maiden
+      tts:
+        delivery: gentle and respectful
+        timbre: clear and musical
+        pace: measured
+        pitch: medium
+    rose_maiden_4:
+      display_name: Fourth Rose Maiden
+      tts:
+        delivery: gentle and respectful
+        timbre: warm and delicate
+        pace: measured
+        pitch: medium
+    paridamie:
+      display_name: Paridamie
+      tts:
+        delivery: poised, assured, and quietly mysterious
+        timbre: luminous and composed
+        pace: measured
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Fairies' Contest
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Everyone knows that fairies live for hundreds of years. Even so, they sometimes die. One day each week, every fairy must take the shape of an animal, and while she wears that shape, an accident may befall her. That was how death once overtook the Queen of the Fairies. A great assembly had to be called so that the fairies could choose a new sovereign.
+        - id: ch01-b02
+          speaker: narrator
+          text: After a long debate, only two fairies remained in the running. One was Surcantine, and the other was Paridamie. Their claims were so perfectly equal that choosing either one would have been unfair. At last, every fairy agreed on a contest. Whichever of the two showed the world the greatest wonder would become Queen. It had to be a very special wonder, though. Moving mountains and other ordinary fairy tricks would never do.
+        - id: ch01-b03
+          speaker: narrator
+          text: Surcantine decided to raise a Prince whom nothing could make constant. Paridamie chose a different marvel. She would show admiring mortals a Princess so charming that no one could look at her without falling in love. The two fairies could take as long as they wished. Until the contest was settled, the four oldest fairies would govern the kingdom.
+        - id: ch01-b04
+          speaker: narrator
+          text: Paridamie had long been a close friend of King Bardondon. He was a highly accomplished ruler, and his court was everything a court ought to be. His Queen, Balanice, was charming too. Indeed, a husband and wife so completely agreed on everything are rarely found. They had one little daughter named Rosanella, for a small pink rose seemed to be printed on her white throat. Even as a baby, she showed astonishing intelligence. The courtiers learned her clever remarks by heart and repeated them whenever they could.
+        - id: ch01-b05
+          speaker: narrator
+          text: On the night after the fairies met, Queen Balanice woke with a shriek. Her maids of honor hurried in and found that a terrible dream had frightened her.
+        - id: ch01-b06
+          speaker: queen_balanice
+          text: I dreamed that my little daughter turned into a bouquet of roses. I was holding it when a bird suddenly swooped down, snatched it away, and carried it off.
+          emotion: fearful
+        - id: ch01-b07
+          speaker: queen_balanice
+          text: Someone, please go and make sure the Princess is safe!
+          emotion: fearful
+        - id: ch01-b08
+          speaker: narrator
+          text: The attendants ran to the nursery. To their horror, the cradle was empty. They searched high and low, but they could not find a single trace of Rosanella. The Queen could not be comforted. The King was just as unhappy, though he spoke rather less about his feelings.
+        - id: ch01-b09
+          speaker: narrator
+          text: Before long, Bardondon suggested that he and Balanice spend a few days at one of their country palaces. She gladly agreed. In her grief, she could no longer bear the gaiety of the capital.
+    - id: ch02
+      title: Twelve Rose Maidens
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: One lovely summer evening, the King and Queen sat on a shady lawn shaped like a star. Twelve splendid avenues of trees stretched away from it. Queen Balanice looked around and saw a charming peasant girl coming toward her along each avenue. Stranger still, every girl carried a basket and watched it with all her attention. As each one reached the Queen, she set her basket at Balanice's feet.
+        - id: ch02-b02
+          speakers: [rose_maiden_1, rose_maiden_2, rose_maiden_3, rose_maiden_4]
+          ensemble: chorus
+          text: Charming Queen, may this bring you a little comfort in your unhappiness.
+        - id: ch02-b03
+          speaker: narrator
+          text: Balanice quickly opened the baskets. Inside each one lay a lovely baby girl, about the same age as the little Princess she mourned. At first, seeing the babies only renewed her sorrow. Soon their charms won her over. She forgot her sadness for a while as she found nursery maids, cradle rockers, and ladies-in-waiting for them. She sent in every direction for swings, dolls, tops, and whole bushels of the finest sweetmeats.
+        - id: ch02-b04
+          speaker: narrator
+          text: Oddly enough, every baby had a tiny pink rose upon her throat. The Queen found it so hard to choose twelve suitable names that, while she was deciding, she gave each child a special color. Whenever the girls gathered together, they looked like a bright nosegay of flowers.
+        - id: ch02-b05
+          speaker: narrator
+          text: As they grew, all twelve proved remarkably intelligent. They learned equally well, but their natures were very different. Little by little, the Queen stopped calling them Pearl, Primrose, and the other names taken from their colors. Instead she would ask for her Sweet, her Beautiful, or her Gay, choosing a name for the quality she loved in each girl.
+        - id: ch02-b06
+          speaker: narrator
+          text: With so many charms, of course the young women had lovers by the dozen. Suitors came from their own court, and distant princes arrived too, drawn by the stories they had heard. The twelve lovely girls had become the Queen's first Maids of Honor. They were as discreet as they were beautiful, and not one of them favored any suitor.
+    - id: ch03
+      title: Prince Mirliflor
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Meanwhile, Surcantine had chosen her own wonder. A king who was King Bardondon's cousin had a son, and she meant to raise that son as her fickle Prince. At his christening, she had already given him every grace of mind and body that a prince could need. Now she worked twice as hard, sparing no effort as she added every charm and fascination she could imagine.
+        - id: ch03-b02
+          speaker: narrator
+          text: "Whether the Prince was cross or pleasant, richly dressed or simply clothed, solemn or playful, he was always impossible to resist. He truly was a delightful young man. Surcantine had given him the best heart in the world along with the best mind. She had left him lacking only one thing: constancy."
+        - id: ch03-b03
+          speaker: narrator
+          text: Prince Mirliflor was a hopeless flirt, as changeable as the wind. By his eighteenth birthday, there was not another heart left for him to conquer in his father's kingdom. Every heart belonged to him already, and he had grown tired of everyone. Just then, he received an invitation to visit the court of his father's cousin, King Bardondon.
+        - id: ch03-b04
+          speaker: narrator
+          text: Imagine how Mirliflor felt when he arrived and was presented at once to twelve of the loveliest creatures in the world. His difficulty only grew when all twelve liked him as much as he liked every one of them. Before long, he could not be happy for a single moment unless they were near.
+        - id: ch03-b05
+          speaker: narrator
+          text: He could whisper tender things to Sweet and laugh with Joy, all while gazing at Beauty. When he felt serious, nothing pleased him more than talking with Grave on a shady lawn. At the same time, he could hold Loving's hand while all the others lingered nearby in sympathetic silence.
+        - id: ch03-b06
+          speaker: narrator
+          text: For the first time, Mirliflor really loved. The object of his devotion was not one person, however, but twelve, and he cared for them all equally. Even Surcantine was fooled. She thought this must surely be the very height of inconstancy. Paridamie said nothing at all.
+        - id: ch03-b07
+          speaker: narrator
+          text: Mirliflor's father wrote again and again, ordering him home and suggesting one excellent marriage after another. It made no difference. Nothing in the world could tear the Prince away from his twelve enchantresses.
+    - id: ch04
+      title: The Bees and the Crystal Chariot
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: One day, the Queen held a grand garden party. All the guests had gathered, and Prince Mirliflor was dividing his attention among the twelve beauties as usual, when everyone heard the humming of bees. Afraid of being stung, the Rose Maidens gave little shrieks and ran together to a spot away from the rest of the company.
+        - id: ch04-b02
+          speaker: narrator
+          text: To the horror of everyone watching, the bees followed them. Then the insects suddenly grew to an enormous size. Each bee seized one maiden and carried her into the air. In a moment, all twelve girls had vanished from sight.
+        - id: ch04-b03
+          speaker: narrator
+          text: The astonishing loss threw the whole court into the deepest sorrow. At first, Prince Mirliflor gave way to violent grief. Then he sank slowly into such dark dejection that everyone feared he would die unless something could awaken his interest in life again.
+        - id: ch04-b04
+          speaker: narrator
+          text: Surcantine hurried to help her darling Prince. She brought him portraits of lovely princesses and offered them for his collection, but he rejected every one with scorn. Plainly, Mirliflor was in a terrible state, and the Fairy had no idea what else to do.
+        - id: ch04-b05
+          speaker: narrator
+          text: One day, the Prince wandered about, lost in melancholy thoughts. Suddenly he heard shouts and cries of amazement. If he had bothered to look up, he would have been as astonished as everyone else. A crystal chariot was moving slowly through the air, glittering in the sunshine.
+        - id: ch04-b06
+          speaker: narrator
+          text: Six lovely maidens with shining wings drew the chariot on rose-colored ribbons. A whole flight of other beautiful maidens held long garlands of roses crossed above it, making a complete canopy. The Fairy Paridamie sat inside. Beside her was a Princess whose beauty dazzled everyone who saw her.
+        - id: ch04-b07
+          speaker: narrator
+          text: At the foot of the great staircase, Paridamie and the Princess stepped down and made their way to the Queen's rooms. People had rushed from every direction to see the marvel, and the crowd was so thick that the pair could scarcely pass. On every side, voices cried out in wonder at the strange Princess's loveliness.
+        - id: ch04-b08
+          speaker: paridamie
+          text: Great Queen, allow me to give back your daughter Rosanella. I was the one who stole her from her cradle.
+        - id: ch04-b09
+          speaker: narrator
+          text: The King and Queen were overcome with joy. When the first rush of happiness had passed, Balanice turned to Paridamie with another question.
+        - id: ch04-b10
+          speaker: queen_balanice
+          text: But what about my twelve lovely girls? Have I lost them forever? Will I never see them again?
+          emotion: sad
+        - id: ch04-b11
+          speaker: paridamie
+          text: Very soon, you will no longer miss them.
+        - id: ch04-b12
+          speaker: narrator
+          text: Her tone plainly meant that the Queen should ask no more questions. Paridamie climbed into her chariot again and swiftly disappeared.
+    - id: ch05
+      title: Rosanella Made Whole
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: News soon reached Prince Mirliflor that his beautiful cousin had arrived. He hardly had the heart to visit her, but at last there was no avoiding the need to pay his respects. He had been with Rosanella for scarcely five minutes when he began to see in her every gift and grace that had charmed him in the twelve Rose Maidens. Their loss had caused him true grief, yet here all their charms seemed to live together in one lovely person.
+        - id: ch05-b02
+          speaker: narrator
+          text: After all, it is much more satisfying to court one person at a time. Before Mirliflor quite knew what was happening, he was begging his beautiful cousin to marry him.
+        - id: ch05-b03
+          speaker: narrator
+          text: The instant the words left his lips, Paridamie appeared, smiling in triumph. This time she rode in the chariot of the Queen of the Fairies. By then, all the fairies had heard of her success and agreed that she had earned the kingdom.
+        - id: ch05-b04
+          speaker: narrator
+          text: Paridamie now had to explain the whole matter. She had stolen Rosanella from her cradle and divided the little Princess's character into twelve parts. Each part had become a maiden who could charm Prince Mirliflor. Once the twelve were joined together again as Rosanella, the complete Princess would cure him of his inconstancy forever.
+        - id: ch05-b05
+          speaker: narrator
+          text: There was one last proof of Rosanella's power to charm. Even the defeated Surcantine sent her a wedding present and attended the ceremony. The wedding took place as soon as all the guests could arrive.
+        - id: ch05-b06
+          speaker: narrator
+          text: Prince Mirliflor remained constant for the rest of his life. And really, who would not have done the same in his place? Rosanella loved him as much as all twelve beauties put together. They ruled in peace and happiness until the end of their long lives.
+        - id: ch05-b07
+          speaker: narrator
+          text: This tale was written by the Comte de Caylus.

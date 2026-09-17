@@ -1,0 +1,252 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，带一点温和的幽默
+        timbre: 温暖清晰
+        pace: 舒缓而有变化
+        pitch: 中音
+    woodcutter:
+      display_name: 樵夫
+      tts:
+        delivery: 直率朴实，说话干脆
+        timbre: 粗厚沉稳
+        pace: 中速
+        pitch: 中低音
+    wife:
+      display_name: 樵夫的妻子
+      tts:
+        delivery: 朴素温和，担忧时真切急促
+        timbre: 柔和清楚
+        pace: 中速
+        pitch: 中音
+    eldest_daughter:
+      display_name: 大女儿
+      tts:
+        delivery: 年轻直接，疲惫时略带娇气
+        timbre: 清亮
+        pace: 中速
+        pitch: 中高音
+    second_daughter:
+      display_name: 二女儿
+      tts:
+        delivery: 年轻随性，说话简短
+        timbre: 明亮
+        pace: 中速
+        pitch: 中高音
+    youngest_daughter:
+      display_name: 小女儿
+      tts:
+        delivery: 善良有礼，遇事真诚而镇定
+        timbre: 清澈柔和
+        pace: 中速偏缓
+        pitch: 中高音
+    prince:
+      display_name: 白发老人和王子
+      tts:
+        delivery: 老人形态低沉简洁，恢复身份后坦诚庄重
+        timbre: 醇厚沉静
+        pace: 从容
+        pitch: 中低音
+    cock:
+      display_name: 公鸡
+      tts:
+        delivery: 响亮利落，歌谣中节奏鲜明
+        timbre: 高亢清脆
+        pace: 中速
+        pitch: 高音
+    hen:
+      display_name: 母鸡
+      tts:
+        delivery: 温和明快，歌谣中节奏鲜明
+        timbre: 轻柔圆润
+        pace: 中速
+        pitch: 中高音
+    cow:
+      display_name: 花斑母牛
+      tts:
+        delivery: 沉着敦厚，歌谣中节奏鲜明
+        timbre: 低柔浑厚
+        pace: 中缓
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 迷路的大女儿
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个穷樵夫和妻子、三个女儿住在大森林边的小木屋里。一天早晨，樵夫要进林子干活，临走前嘱咐妻子。
+        - id: ch01-b02
+          speaker: woodcutter
+          text: 中午让大女儿把饭送来吧。我会一路撒下小米，她跟着米粒走，就不会迷路了。
+        - id: ch01-b03
+          speaker: narrator
+          text: 等太阳高高升起，大女儿端着一盆汤出发了。可田野和林中的麻雀，还有云雀、苍头燕雀、乌鸫和金翅雀，早把小米啄得一干二净。姑娘找不到路，只能不停地往前走。太阳落下，林子黑了。树木在暗处沙沙作响，猫头鹰咕咕叫着，她越来越害怕。
+        - id: ch01-b04
+          speaker: eldest_daughter
+          text: 树林那边有灯光，一定住着人。他们也许肯让我留宿一晚。
+        - id: ch01-b05
+          speaker: narrator
+          text: 她朝亮光走去，不久便来到一幢亮着灯的屋子前。她敲了敲门，里面传出一个粗哑的声音。
+        - id: ch01-b06
+          speaker: prince
+          text: 进来！
+        - id: ch01-b07
+          speaker: narrator
+          text: 姑娘走进黑洞洞的门厅，又轻轻敲了敲里屋的门。
+        - id: ch01-b08
+          speaker: prince
+          text: 别在门外站着，只管进来吧！
+        - id: ch01-b09
+          speaker: narrator
+          text: 她推门一看，一个白发老人坐在桌旁，两手托着脸，雪白的胡子铺过桌面，几乎垂到了地上。炉边还卧着一只公鸡、一只母鸡和一头花斑母牛。姑娘把迷路的经过说了一遍，请老人收留她过夜。老人没有立刻回答，反而问起三只牲畜。
+        - id: ch01-b10
+          speaker: prince
+          text: 漂亮的公鸡，漂亮的母鸡，还有漂亮的花斑母牛，你们说，该不该留她？
+        - id: ch01-b11
+          speakers: [cock, hen, cow]
+          ensemble: chorus
+          text: 杜克斯，我们都愿意留她。
+        - id: ch01-b12
+          speaker: narrator
+          text: 这大概就是它们都愿意的意思。
+        - id: ch01-b13
+          speaker: prince
+          text: 吃的东西多得很。你去后面的厨房，给我们做顿晚饭吧。
+        - id: ch01-b14
+          speaker: narrator
+          text: 姑娘在厨房里找到了许多食物，做出一顿丰盛的饭菜，却完全没想到那三只牲畜。她把盘子盛得满满的，坐在老人对面，只顾吃到自己不饿。
+        - id: ch01-b15
+          speaker: eldest_daughter
+          text: 我实在困极了。哪儿有床，可以让我睡觉呢？
+        - id: ch01-b16
+          speakers: [cock, hen, cow]
+          ensemble: chorus
+          text: 你同他吃，你同他喝，却没把我们放在心上。那就照你应得的模样睡一场！
+        - id: ch01-b17
+          speaker: prince
+          text: 楼上有间卧房。去把床抖松，换上干净床单，就在那里睡吧。
+        - id: ch01-b18
+          speaker: narrator
+          text: 姑娘上楼铺好床，很快便躺下了。过了一阵，老人举着蜡烛进来，看见她已经熟睡，便摇了摇头。他打开一扇活板门，让她直落进地窖。
+    - id: ch02
+      title: 同样命运的二女儿
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 樵夫很晚才回到家，肚子一直空着。他一进门就埋怨妻子没有送饭。
+        - id: ch02-b02
+          speaker: wife
+          text: 我怎么会不送呢？女儿带着你的午饭出门了。她多半是迷了路，明天一定会回来。
+        - id: ch02-b03
+          speaker: narrator
+          text: 第二天天刚亮，樵夫又走进森林，这次叫二女儿送饭。
+        - id: ch02-b04
+          speaker: woodcutter
+          text: 今天我撒扁豆。扁豆比小米大，你看得清楚，顺着它们一定能找到路。
+        - id: ch02-b05
+          speaker: narrator
+          text: 中午，二女儿带着饭出门，路上的扁豆却也没了。林中的鸟和头一天一样，早把它们吃光了。姑娘在森林里转到天黑，也找到了那位老人的屋子，请他给些吃的，再让她住一夜。白发老人仍旧问三只牲畜。
+        - id: ch02-b06
+          speaker: prince
+          text: 漂亮的公鸡，漂亮的母鸡，还有漂亮的花斑母牛，你们说，该不该留她？
+        - id: ch02-b07
+          speakers: [cock, hen, cow]
+          ensemble: chorus
+          text: 杜克斯，我们也愿意留她。
+        - id: ch02-b08
+          speaker: narrator
+          text: 接下来的事和前一晚一模一样。二女儿做了一顿好饭，陪老人吃喝，却不肯费心照料那些牲畜。等她吃饱了，便向它们问起床铺。
+        - id: ch02-b09
+          speakers: [cock, hen, cow]
+          ensemble: chorus
+          text: 你同他吃，你同他喝，却没把我们放在心上。那就照你应得的模样睡一场！
+        - id: ch02-b10
+          speaker: narrator
+          text: 她上楼睡着以后，老人也对着她摇摇头，让她落进了地窖。
+    - id: ch03
+      title: 善良的小女儿
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 到了第三天早晨，樵夫又对妻子说。
+        - id: ch03-b02
+          speaker: woodcutter
+          text: 今天让小女儿给我送午饭。她一向又乖又听话，会守着正路，不会像两个姐姐那样到处乱逛。那两个懒虫！
+        - id: ch03-b03
+          speaker: wife
+          text: 难道连我最疼爱的孩子也要失去吗？
+          emotion: sad
+        - id: ch03-b04
+          speaker: woodcutter
+          text: 别担心。她又聪明又机灵，绝不会走丢。这回我多带些豌豆，一路撒下去。豌豆比扁豆还大，准能给她指路。
+        - id: ch03-b05
+          speaker: narrator
+          text: 可小女儿挽着装午饭的篮子出发时，林鸽已经把豌豆全吃光了。她分不清方向，心里难过极了，一直惦记着挨饿的父亲和焦急等待的母亲。天黑以后，她终于望见那点灯光，来到森林小屋，很有礼貌地请求借宿。白胡子老人第三次问起牲畜们。
+        - id: ch03-b06
+          speaker: prince
+          text: 漂亮的公鸡，漂亮的母鸡，还有漂亮的花斑母牛，你们说，该不该留她？
+        - id: ch03-b07
+          speakers: [cock, hen, cow]
+          ensemble: chorus
+          text: 杜克斯，我们愿意留她过夜。
+        - id: ch03-b08
+          speaker: narrator
+          text: 小女儿走到炉边，摸摸公鸡和母鸡，又在花斑母牛的两角之间轻轻挠了挠。随后，她照老人的吩咐做好一顿丰盛的晚饭，把菜肴摆上桌，却没有马上坐下。
+        - id: ch03-b09
+          speaker: youngest_daughter
+          text: 好牲畜们什么都没吃，我怎么能只顾自己呢？外面还有许多饲料，我先去照料它们。
+        - id: ch03-b10
+          speaker: narrator
+          text: 她取来大麦，撒在公鸡和母鸡面前，又给母牛抱来一大捆清香的干草。
+        - id: ch03-b11
+          speaker: youngest_daughter
+          text: 好牲畜们，快吃吧。等你们渴了，我再端水来，让你们喝个够。
+        - id: ch03-b12
+          speaker: narrator
+          text: 她又端来一碗水。公鸡和母鸡飞到碗沿，把嘴伸进水里，喝一口便仰一下头。花斑母牛也喝了个痛快。等它们全都吃饱喝足，小女儿才坐到老人身边，吃下桌上剩给自己的东西。过了一会儿，两只鸡把头藏进翅膀下面，母牛也困得直眨眼。
+        - id: ch03-b13
+          speaker: youngest_daughter
+          text: 大家都累了，我们是不是也该休息啦？
+        - id: ch03-b14
+          speaker: prince
+          text: 漂亮的公鸡，漂亮的母鸡，还有漂亮的花斑母牛，你们说，该不该休息了？
+        - id: ch03-b15
+          speakers: [cock, hen, cow]
+          ensemble: chorus
+          text: 杜克斯。你同我们吃，你同我们喝，又把我们照料周全。愿你安睡到天明。
+        - id: ch03-b16
+          speaker: narrator
+          text: 小女儿上楼抖松床铺，换好干净床单，很快就睡着了。
+    - id: ch04
+      title: 午夜的王宫
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 她安安稳稳睡到半夜，忽然被一阵巨响惊醒。整幢屋子都在颤抖摇晃。牲畜们跳起来，吓得直往墙上撞。房梁左右摆动，仿佛快要连根扯断。楼梯像是在垮塌，紧接着，屋顶轰隆一声砸了下来。
+        - id: ch04-b02
+          speaker: narrator
+          text: 随后，四周又静了。小女儿发现自己没有受伤，便重新躺下睡去。等她在大白天醒来，眼前竟是另一番天地。她躺在华美的卧房里，处处都是王宫的气派。绿底的墙上开满金色花朵，床由象牙制成，上面盖着天鹅绒床罩，旁边的凳子上还放着一双镶满珍珠的拖鞋。
+        - id: ch04-b03
+          speaker: narrator
+          text: 她以为自己还在做梦，三个衣着华丽的仆人却走进来，问她有什么吩咐。
+        - id: ch04-b04
+          speaker: youngest_daughter
+          text: 你们先去吧。我马上起床，给老人做晚饭，再喂那漂亮的公鸡、母鸡和花斑母牛。
+        - id: ch04-b05
+          speaker: narrator
+          text: 这时门打开了，走进来的不是白发老人，而是一个英俊的年轻人。
+        - id: ch04-b06
+          speaker: prince
+          text: 我是国王的儿子。一个恶毒的女巫对我下了咒，让我变成老人，住在这片森林里。陪着我的只有三个仆人，他们变成了公鸡、母鸡和花斑母牛。只有一位不但善待人，也善待牲畜的姑娘来到这里，咒语才会解除。你就是那位姑娘。昨夜到了午夜，我们全都恢复原形，这间寒酸的小屋也重新变回我的王宫。
+        - id: ch04-b07
+          speaker: narrator
+          text: 王子当即吩咐三个仆人去接姑娘的父母，请他们前来参加婚宴。小女儿却还挂念着另外两个人。
+        - id: ch04-b08
+          speaker: youngest_daughter
+          text: 我的两个姐姐呢？她们现在在哪里？
+        - id: ch04-b09
+          speaker: prince
+          text: 我把她们关在地窖里。明天早晨，会有人领她们进森林。她们要替一个烧炭人做事，直到真正改过，再也不让可怜的牲畜挨饿。

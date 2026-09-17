@@ -1,0 +1,216 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, clear, and quietly cautionary
+        timbre: gentle and resonant
+        pace: measured
+        pitch: medium
+    first_soldier:
+      display_name: First Soldier
+      tts:
+        delivery: serious and wary, with plain military directness
+        timbre: sturdy and mature
+        pace: moderate
+        pitch: medium-low
+    second_soldier:
+      display_name: Second Soldier
+      tts:
+        delivery: practical and tense, softening when hope returns
+        timbre: clear and mature
+        pace: moderate
+        pitch: medium
+    third_soldier:
+      display_name: Third Soldier
+      tts:
+        delivery: bold, quick-witted, and cheerfully confident
+        timbre: bright and youthful
+        pace: lively
+        pitch: medium
+    dragon:
+      display_name: The Dragon
+      tts:
+        delivery: commanding, sly, and scornfully certain of himself
+        timbre: deep and rough
+        pace: deliberate
+        pitch: low
+    old_woman:
+      display_name: The Old Woman
+      tts:
+        delivery: curious, steady, and quietly encouraging
+        timbre: soft and aged
+        pace: unhurried
+        pitch: medium-low
+    dragon_grandmother:
+      display_name: The Dragon's Grandmother
+      tts:
+        delivery: shrewd, kindly, and matter-of-fact
+        timbre: dry and very old
+        pace: unhurried
+        pitch: low
+  chapters:
+    - id: ch01
+      title: Three Deserters
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: There was once a great war. The King had many soldiers, but he paid them so little that they could not live on it. Three of the soldiers talked it over and decided to desert.
+        - id: ch01-b02
+          speaker: first_soldier
+          text: If they catch us, they'll hang us. How are we going to get away?
+        - id: ch01-b03
+          speaker: second_soldier
+          text: See that big cornfield? We can hide there, and no one will find us. The army can't go through it, and it's supposed to march on tomorrow.
+        - id: ch01-b04
+          speaker: narrator
+          text: So they crept into the corn. But the next day, the army did not march on. It stayed camped all around the field. The soldiers hid there for two days and two nights. Soon they were so hungry they nearly died, yet coming out meant certain death.
+        - id: ch01-b05
+          speakers: [first_soldier, second_soldier, third_soldier]
+          ensemble: chorus
+          text: What good did deserting do us? Now we're going to die here miserably.
+        - id: ch01-b06
+          speaker: narrator
+          text: While they were speaking, a fiery dragon flew through the air. He hovered nearby and asked why they were hiding there.
+        - id: ch01-b07
+          speakers: [first_soldier, second_soldier, third_soldier]
+          ensemble: chorus
+          text: We're three soldiers. We deserted because our pay was too small. If we stay here, we'll starve. If we come out, they'll string us up on the gallows.
+        - id: ch01-b08
+          speaker: dragon
+          text: Serve me for seven years, and I'll carry you straight over the army where no one can catch you.
+        - id: ch01-b09
+          speakers: [first_soldier, second_soldier, third_soldier]
+          ensemble: chorus
+          text: We have no other choice. We'll take your offer.
+        - id: ch01-b10
+          speaker: narrator
+          text: The dragon caught all three in his claws, flew over the army, and set them down far away.
+    - id: ch02
+      title: The Dragon's Bargain
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The dragon gave the soldiers a little whip.
+        - id: ch02-b02
+          speaker: dragon
+          text: Crack this whip, and all the money you want will jump up before you. You can live like great lords, keep horses, and ride in carriages. But when seven years have passed, you belong to me.
+        - id: ch02-b03
+          speaker: narrator
+          text: Then he placed a book before them and made each soldier sign his name.
+        - id: ch02-b04
+          speaker: dragon
+          text: When the time comes, I'll give you a riddle. Guess it, and you'll be free of my power.
+        - id: ch02-b05
+          speaker: narrator
+          text: With that, the dragon flew away. The three soldiers traveled on with the whip. They could have as much money as they pleased. They dressed in fine clothes and went out into the world. Everywhere they went, they feasted and lived splendidly. They kept horses, rode in carriages, ate and drank well, and never did anything wrong.
+        - id: ch02-b06
+          speaker: narrator
+          text: The years went by quickly. As the seventh year drew to an end, the first two soldiers became terribly worried and afraid. The third treated the danger lightly.
+        - id: ch02-b07
+          speaker: third_soldier
+          text: Don't be afraid, brothers. I wasn't born yesterday. I'll find the answer to that riddle.
+    - id: ch03
+      title: The House of Rocks
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The three soldiers went into a field and sat down. The first two looked thoroughly miserable. An old woman came past and asked why they were so sad.
+        - id: ch03-b02
+          speakers: [first_soldier, second_soldier]
+          ensemble: duo
+          text: Oh, what does it matter to you? You can't help us.
+        - id: ch03-b03
+          speaker: old_woman
+          text: How can you know that? Tell me what's troubling you.
+        - id: ch03-b04
+          speaker: narrator
+          text: They told her how they had served the Dragon for seven long years. He had given them money as freely as blackberries, but they had signed their names in his book. When the seven years ended, they would belong to him unless they could solve his riddle.
+        - id: ch03-b05
+          speaker: old_woman
+          text: If you want to save yourselves, one of you must go into the wood. There you'll find a tumbledown pile of rocks that looks like a little house. Go inside, and you will find help.
+        - id: ch03-b06
+          speaker: narrator
+          text: The two gloomy soldiers thought that would never save them, so they stayed where they were. But the cheerful third soldier sprang up and went into the wood. Before long, he found the rock hut.
+        - id: ch03-b07
+          speaker: narrator
+          text: A very old woman sat inside. She was the Dragon's grandmother. She asked the soldier where he had come from and what had brought him there. He told her the whole story. She liked him, took pity on him, and promised to help.
+        - id: ch03-b08
+          speaker: dragon_grandmother
+          text: There's a cellar under this large stone. Hide down there. You'll hear everything said in this room, but you must sit still and make no sound. When the Dragon comes, I'll ask about his riddle. He tells me everything, so listen closely to his answer.
+        - id: ch03-b09
+          speaker: narrator
+          text: She raised the stone, and the soldier hid beneath it.
+    - id: ch04
+      title: The Secret Below the Stone
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: At midnight, the Dragon flew in and demanded his supper. His grandmother set the table and brought him food and drink until he was satisfied. They ate and drank together. As they talked, she asked what he had done that day and how many souls he had won.
+        - id: ch04-b02
+          speaker: dragon
+          text: I haven't had much luck today. But I have three soldiers firmly in my grasp.
+        - id: ch04-b03
+          speaker: dragon_grandmother
+          text: Three soldiers? Surely they might still escape you.
+        - id: ch04-b04
+          speaker: dragon
+          text: They're mine. I'll ask them one riddle, and they'll never guess it.
+        - id: ch04-b05
+          speaker: dragon_grandmother
+          text: And what kind of riddle will you ask?
+        - id: ch04-b06
+          speaker: dragon
+          text: I'll tell you. A dead sea-cat lies in the North Sea. That will be their roast meat. A whale's rib will be their silver spoon. And the hollow hoof of a dead horse will be their wineglass.
+        - id: ch04-b07
+          speaker: narrator
+          text: After the Dragon had gone to bed, his grandmother lifted the stone and let the soldier out.
+        - id: ch04-b08
+          speaker: dragon_grandmother
+          text: Did you listen carefully to all of it?
+        - id: ch04-b09
+          speaker: third_soldier
+          text: Yes. I heard enough to save us, and now I know exactly what to do.
+        - id: ch04-b10
+          speaker: narrator
+          text: He slipped out through the window and secretly took another path. Then he hurried back to his comrades. He told them how the Dragon's grandmother had outwitted him, and how he had heard the answers from the Dragon's own lips.
+        - id: ch04-b11
+          speaker: narrator
+          text: All three were delighted. Their fear vanished. They pulled out the little whip and cracked it until money came jumping up from the ground.
+    - id: ch05
+      title: The Riddle Answered
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: When the seven years were fully over, the Fiend came carrying his book. He pointed to the three signatures.
+        - id: ch05-b02
+          speaker: dragon
+          text: I'm taking you underground with me, and you will have a meal there. Tell me what your roast meat will be, and you may go free. You may keep the whip as well.
+        - id: ch05-b03
+          speaker: first_soldier
+          text: A dead sea-cat lies in the North Sea. That will be our roast meat.
+        - id: ch05-b04
+          speaker: narrator
+          text: The Dragon was furious. He muttered and hesitated before turning to the second soldier.
+        - id: ch05-b05
+          speaker: dragon
+          text: Then tell me this. What will your spoon be?
+        - id: ch05-b06
+          speaker: second_soldier
+          text: A whale's rib will be our silver spoon.
+        - id: ch05-b07
+          speaker: narrator
+          text: The Dragon pulled a face and growled three times.
+        - id: ch05-b08
+          speaker: dragon
+          text: Hum, hum, hum. And you, do you know what your wineglass will be?
+        - id: ch05-b09
+          speaker: third_soldier
+          text: An old horse's hoof will be our wineglass.
+        - id: ch05-b10
+          speaker: narrator
+          text: The Dragon gave a loud shriek and flew away. He had no power over the soldiers anymore.
+        - id: ch05-b11
+          speaker: narrator
+          text: The three kept the little whip. Whenever they wanted money, they cracked it, and they lived happily to the end of their lives.
