@@ -1,0 +1,311 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: witty, reflective, and lightly theatrical
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    young_husband:
+      display_name: Young Husband
+      tts:
+        delivery: practical, plainspoken, and quietly amused
+        timbre: youthful and clear
+        pace: conversational
+        pitch: medium
+    bride:
+      display_name: Bride
+      tts:
+        delivery: tender, anxious, and easily overcome
+        timbre: light and clear
+        pace: conversational
+        pitch: medium-high
+    farmer:
+      display_name: Farmer
+      tts:
+        delivery: blunt, hearty, and quick to believe
+        timbre: rough and mature
+        pace: measured
+        pitch: low
+    farmer_wife:
+      display_name: Farmer's Wife
+      tts:
+        delivery: affectionate, excitable, and credulous
+        timbre: warm and mature
+        pace: conversational
+        pitch: medium
+    first_wife:
+      display_name: First Wife
+      tts:
+        delivery: confident, crafty, and matter-of-fact
+        timbre: clear and mature
+        pace: measured
+        pitch: medium
+    second_wife:
+      display_name: Second Wife
+      tts:
+        delivery: cool, convincing, and firm
+        timbre: dry and mature
+        pace: measured
+        pitch: medium-low
+    third_wife:
+      display_name: Third Wife
+      tts:
+        delivery: brisk, commanding, and sly
+        timbre: bright and mature
+        pace: brisk
+        pitch: medium
+    first_husband:
+      display_name: First Husband
+      tts:
+        delivery: trusting, puzzled, and obedient
+        timbre: mellow and mature
+        pace: unhurried
+        pitch: medium-low
+    second_husband:
+      display_name: Second Husband
+      tts:
+        delivery: uncertain, mild, and easily persuaded
+        timbre: soft and mature
+        pace: measured
+        pitch: medium
+    third_husband:
+      display_name: Third Husband
+      tts:
+        delivery: hurried, bewildered, and earnest
+        timbre: resonant and mature
+        pace: brisk
+        pitch: medium-low
+    boy:
+      display_name: Boy
+      tts:
+        delivery: clear, dutiful, and direct
+        timbre: young and bright
+        pace: brisk
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The Pack-Saddle
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time in the land of Erin, a young man went looking for a wife. Of all the maidens nearby, he liked the daughter of a farmer best. She was willing to marry him, and her father approved. Before long, the two were married and living at the farm.
+        - id: ch01-b02
+          speaker: narrator
+          text: Then the peat-cutting season arrived. The family needed to cut the peat and stack it to dry for their winter fires, so the bride and her husband went out on the moor with her father and mother. They worked hard for hours. When everyone grew hungry, they sent the bride home to fetch their food and give the horses their dinner.
+        - id: ch01-b03
+          speaker: narrator
+          text: She entered the stable and suddenly noticed the speckled mare's heavy pack-saddle hanging above her head. She jumped at the sight.
+        - id: ch01-b04
+          speaker: bride
+          text: What if that pack-saddle fell and killed me? How dreadful that would be!
+          emotion: fearful
+        - id: ch01-b05
+          speaker: narrator
+          text: Then she sat down directly beneath the saddle she feared and began to cry.
+        - id: ch01-b06
+          speaker: narrator
+          text: Out on the moor, the others became hungrier and hungrier.
+        - id: ch01-b07
+          speakers: [young_husband, farmer, farmer_wife]
+          ensemble: chorus
+          text: What can have happened to her?
+        - id: ch01-b08
+          speaker: narrator
+          text: At last, the farmer's wife declared that she would wait no longer. She had to find out what had happened. The bride was nowhere in the kitchen or the dairy, so her mother went into the stable and found her weeping bitterly.
+        - id: ch01-b09
+          speaker: farmer_wife
+          text: What's wrong, my dove?
+        - id: ch01-b10
+          speaker: bride
+          text: I came in and saw the pack-saddle over my head. Then I thought how awful it would be if it fell and killed me.
+          emotion: fearful
+        - id: ch01-b11
+          speaker: narrator
+          text: The bride sobbed even louder. Her mother struck her hands together.
+        - id: ch01-b12
+          speaker: farmer_wife
+          text: Oh, just think of it! If that happened, what would I do?
+          emotion: fearful
+        - id: ch01-b13
+          speaker: narrator
+          text: She sat beside her daughter. Together they wrung their hands and let their tears fall.
+    - id: ch02
+      title: Three People Weeping
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Back on the moor, the old farmer decided something strange must have happened. By now he was hungry and cross as well. He went after his wife and daughter and found them both in the stable.
+        - id: ch02-b02
+          speaker: farmer
+          text: What's the matter here?
+        - id: ch02-b03
+          speaker: farmer_wife
+          text: Our daughter came home and saw the pack-saddle above her. She thought how dreadful it would be if it fell and killed her.
+          emotion: fearful
+        - id: ch02-b04
+          speaker: farmer
+          text: Oh, just think of such a thing!
+          emotion: fearful
+        - id: ch02-b05
+          speaker: narrator
+          text: The farmer struck his hands together, sat down beside them, and began to weep too.
+        - id: ch02-b06
+          speaker: narrator
+          text: Night had fallen before the young husband returned. He was desperately hungry, and there in the stable sat all three of them, still crying.
+        - id: ch02-b07
+          speaker: young_husband
+          text: What's the matter with everyone?
+        - id: ch02-b08
+          speaker: farmer
+          text: Your wife came home and saw the pack-saddle over her head. She thought how terrible it would be if it fell and killed her.
+        - id: ch02-b09
+          speaker: young_husband
+          text: But it didn't fall.
+        - id: ch02-b10
+          speaker: narrator
+          text: He went to the kitchen for his supper and left them to cry for as long as they pleased.
+        - id: ch02-b11
+          speaker: narrator
+          text: The next morning, he rose with the sun and spoke to his wife and her parents.
+        - id: ch02-b12
+          speaker: young_husband
+          text: Farewell. I won't set foot in this house again until I've found three other people as silly as you.
+        - id: ch02-b13
+          speaker: narrator
+          text: With that, he walked away toward the town. He found a cottage with its door standing wide open and stepped inside. There were no men there, only three women spinning at their wheels.
+        - id: ch02-b14
+          speaker: young_husband
+          text: You don't belong to this town, do you?
+        - id: ch02-b15
+          speakers: [first_wife, second_wife, third_wife]
+          ensemble: chorus
+          text: That's true. But neither do you.
+        - id: ch02-b16
+          speaker: young_husband
+          text: No, I don't. Tell me, is this a good town to live in?
+        - id: ch02-b17
+          speaker: narrator
+          text: The women looked at one another.
+        - id: ch02-b18
+          speaker: first_wife
+          text: The men here are so foolish that we can make them believe anything we like.
+        - id: ch02-b19
+          speaker: young_husband
+          text: Then look at this gold ring. I'll give it to whichever one of you can make her husband believe the most impossible thing.
+        - id: ch02-b20
+          speaker: narrator
+          text: He left the ring with them and went away.
+    - id: ch03
+      title: Sick, Dead, and a Stranger
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The first husband soon came home. His wife took one look at him.
+        - id: ch03-b02
+          speaker: first_wife
+          text: You're ill!
+        - id: ch03-b03
+          speaker: first_husband
+          text: Am I?
+        - id: ch03-b04
+          speaker: first_wife
+          text: Of course you are. Take off your clothes and get into bed.
+        - id: ch03-b05
+          speaker: narrator
+          text: He did exactly as she told him. Once he was lying in bed, she came to him again.
+        - id: ch03-b06
+          speaker: first_wife
+          text: Now you're dead.
+        - id: ch03-b07
+          speaker: first_husband
+          text: Oh, am I dead?
+        - id: ch03-b08
+          speaker: first_wife
+          text: Yes. Close your eyes, and don't move a hand or a foot.
+        - id: ch03-b09
+          speaker: narrator
+          text: So the first husband lay perfectly still, quite certain that he was dead.
+        - id: ch03-b10
+          speaker: narrator
+          text: Before long, the second husband arrived. His wife met him with a firm look.
+        - id: ch03-b11
+          speaker: second_wife
+          text: You aren't my husband.
+        - id: ch03-b12
+          speaker: second_husband
+          text: I'm not?
+        - id: ch03-b13
+          speaker: second_wife
+          text: No. You're not him at all.
+        - id: ch03-b14
+          speaker: narrator
+          text: The second husband believed her. He left the house, went into the wood, and slept there for the night.
+    - id: ch04
+      title: The Funeral
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The third husband came home, ate his supper, and went to bed as usual. The next morning, a boy knocked at the door.
+        - id: ch04-b02
+          speaker: boy
+          text: You must come to the funeral of the man who died.
+        - id: ch04-b03
+          speaker: narrator
+          text: The man was about to rise, but his wife stopped him.
+        - id: ch04-b04
+          speaker: third_wife
+          text: There's plenty of time. Stay where you are.
+        - id: ch04-b05
+          speaker: narrator
+          text: He remained in bed until he heard the funeral procession passing the window.
+        - id: ch04-b06
+          speaker: third_wife
+          text: Get up now, and hurry!
+        - id: ch04-b07
+          speaker: narrator
+          text: The third husband sprang from bed and looked around in a rush.
+        - id: ch04-b08
+          speaker: third_husband
+          text: Where are my clothes?
+        - id: ch04-b09
+          speaker: third_wife
+          text: Don't be silly. You're wearing them, of course.
+        - id: ch04-b10
+          speaker: third_husband
+          text: I am?
+        - id: ch04-b11
+          speaker: third_wife
+          text: Yes, you are. Now hurry, or the burial will be over before you arrive.
+        - id: ch04-b12
+          speaker: narrator
+          text: Off he ran as fast as he could. When the mourners saw a man racing toward them with nothing on but his nightshirt, they were so frightened that they forgot why they were there. They scattered and hid, leaving the half-dressed man alone at the head of the coffin.
+    - id: ch05
+      title: The Gold Ring
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Soon the second husband came out of the wood and approached him.
+        - id: ch05-b02
+          speaker: second_husband
+          text: Do you know who I am?
+        - id: ch05-b03
+          speaker: third_husband
+          text: No, I don't know you.
+        - id: ch05-b04
+          speaker: second_husband
+          text: Then why haven't you got any clothes on?
+        - id: ch05-b05
+          speaker: third_husband
+          text: I haven't? My wife told me I was fully dressed.
+        - id: ch05-b06
+          speaker: first_husband
+          text: And my wife told me I was dead.
+        - id: ch05-b07
+          speaker: narrator
+          text: The voice came from inside the coffin. The other two men were so terrified that they ran straight home. The man in the coffin climbed out and followed them.
+        - id: ch05-b08
+          speaker: narrator
+          text: In the end, the first wife won the gold ring, because her husband had been sillier than either of the others.

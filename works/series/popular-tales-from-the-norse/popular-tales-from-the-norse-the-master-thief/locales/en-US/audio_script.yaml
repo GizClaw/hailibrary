@@ -1,0 +1,616 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    master_thief:
+      display_name: Master Thief
+      tts:
+        delivery: quick-witted and assured
+        timbre: youthful and clear
+        pace: lively
+        pitch: medium
+    old_dame:
+      display_name: Old Dame
+      tts:
+        delivery: wary and practical
+        timbre: aged and dry
+        pace: measured
+        pitch: medium-low
+    robber_1:
+      display_name: First Robber
+      tts:
+        delivery: rough and suspicious
+        timbre: coarse and heavy
+        pace: measured
+        pitch: low
+    robber_2:
+      display_name: Second Robber
+      tts:
+        delivery: blunt and challenging
+        timbre: gritty and full
+        pace: brisk
+        pitch: medium-low
+    robber_3:
+      display_name: Third Robber
+      tts:
+        delivery: hard and watchful
+        timbre: dark and firm
+        pace: measured
+        pitch: low
+    robber_4:
+      display_name: Fourth Robber
+      tts:
+        delivery: gruff and impatient
+        timbre: rugged and clear
+        pace: brisk
+        pitch: medium-low
+    ox_owner:
+      display_name: Ox Owner
+      tts:
+        delivery: fretful and plainspoken
+        timbre: weathered and reedy
+        pace: uneven
+        pitch: medium
+    father:
+      display_name: Father
+      tts:
+        delivery: cautious and put-upon
+        timbre: elderly and soft
+        pace: measured
+        pitch: medium-low
+    squire:
+      display_name: Squire
+      tts:
+        delivery: proud and skeptical
+        timbre: broad and polished
+        pace: measured
+        pitch: medium-low
+    priest:
+      display_name: Father Laurence
+      tts:
+        delivery: pompous and self-certain
+        timbre: resonant and round
+        pace: deliberate
+        pitch: medium-low
+    goose_girl:
+      display_name: Goose Girl
+      tts:
+        delivery: direct and startled
+        timbre: young and bright
+        pace: brisk
+        pitch: medium-high
+    household_1:
+      display_name: First Household Member
+      tts: {delivery: eager and animated, timbre: clear and light, pace: brisk, pitch: medium}
+    household_2:
+      display_name: Second Household Member
+      tts: {delivery: eager and animated, timbre: warm and clear, pace: brisk, pitch: medium-high}
+    household_3:
+      display_name: Third Household Member
+      tts: {delivery: eager and animated, timbre: plain and bright, pace: brisk, pitch: medium}
+    household_4:
+      display_name: Fourth Household Member
+      tts: {delivery: eager and animated, timbre: full and clear, pace: brisk, pitch: medium-low}
+    groom_1:
+      display_name: First Groom
+      tts:
+        delivery: sharp and irritable
+        timbre: rough and clear
+        pace: brisk
+        pitch: medium
+    groom_2:
+      display_name: Second Groom
+      tts:
+        delivery: kindly and easygoing
+        timbre: warm and sturdy
+        pace: measured
+        pitch: medium-low
+    groom_3:
+      display_name: Third Groom
+      tts:
+        delivery: weary and conversational
+        timbre: plain and dry
+        pace: measured
+        pitch: medium
+    groom_4:
+      display_name: Fourth Groom
+      tts:
+        delivery: eager and outspoken
+        timbre: strong and bright
+        pace: brisk
+        pitch: medium
+    beggar_woman:
+      display_name: Beggar Woman
+      tts:
+        delivery: shrewd and matter-of-fact
+        timbre: aged and wiry
+        pace: measured
+        pitch: medium
+    squires_wife:
+      display_name: Squire's Wife
+      tts:
+        delivery: trusting and concerned
+        timbre: mature and gentle
+        pace: measured
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: Three Roads and a Robbers' House
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a poor cottager with three sons. He worried about what would become of them, because he had no money to set them up in a trade and nothing to leave them when he died. At last, he told each son to choose the work he liked and go wherever he pleased. He promised to walk part of the way with them, and so he did. Their father went with them as far as a place where three roads met. There, each son chose a different road. The old man said goodbye to all three and turned back toward home.
+        - id: ch01-b02
+          speaker: narrator
+          text: No one ever told me what became of the two older sons. The youngest traveled far and long, and this is his story.
+        - id: ch01-b03
+          speaker: narrator
+          text: One night, as he crossed a great wood, a wild storm caught him. The wind blew hard, and the sleet drove into his face until he could hardly keep his eyes open. Before he knew what had happened, he was completely lost, with neither road nor path in sight. Still he went on. At last, far away among the trees, he saw a faint glimmer of light. He decided to make his way toward it, and after some time he reached a large house. A fire blazed so brightly inside that he knew the people had not gone to bed. He entered and found an old dame bustling about and tending the place.
+        - id: ch01-b04
+          speaker: master_thief
+          text: Good evening!
+        - id: ch01-b05
+          speaker: old_dame
+          text: Good evening.
+        - id: ch01-b06
+          speaker: master_thief
+          text: Hutetu! The weather out there is dreadful tonight. May I have a bed and shelter here?
+        - id: ch01-b07
+          speaker: old_dame
+          text: You will gain nothing by sleeping here. If the men of this house come home and find you, they will kill us both.
+        - id: ch01-b08
+          speaker: master_thief
+          text: What sort of men live here?
+        - id: ch01-b09
+          speaker: old_dame
+          text: Robbers, and a wicked lot they are. They carried me away when I was little, and I have kept house for them ever since.
+        - id: ch01-b10
+          speaker: master_thief
+          text: Even so, I am going to bed. Whatever happens, I will not go back into that storm tonight.
+        - id: ch01-b11
+          speaker: old_dame
+          text: Then stay, but it will go badly for you.
+        - id: ch01-b12
+          speaker: narrator
+          text: The youth climbed into a bed, though he did not dare sleep. Before long, the robbers came in. The old dame told them a stranger had arrived and would not leave.
+        - id: ch01-b13
+          speaker: robber_1
+          text: Did you notice whether he had any money?
+        - id: ch01-b14
+          speaker: old_dame
+          text: Him, with money? He is a wanderer who barely has clothes on his back.
+        - id: ch01-b15
+          speaker: narrator
+          text: The robbers began talking among themselves about what to do with the stranger. Some wondered whether they ought to kill him at once, while the others considered what else could be done. The youth heard them from the bed. Rather than wait for their decision, he got up, joined their talk, and asked whether they needed a servant. It might be, he said, that he would gladly enter their service.
+        - id: ch01-b16
+          speakers: [robber_1, robber_2, robber_3, robber_4]
+          ensemble: chorus
+          text: If you want to learn our trade, there is a place for you here.
+        - id: ch01-b17
+          speaker: master_thief
+          text: One trade is as good as another to me. When I left home, my father said I could choose any calling I pleased.
+        - id: ch01-b18
+          speaker: robber_2
+          text: Then are you willing to steal?
+        - id: ch01-b19
+          speaker: master_thief
+          text: I have no objection.
+        - id: ch01-b20
+          speaker: narrator
+          text: The youth thought stealing could not take long to learn. Now, a man who lived nearby owned three oxen, and he meant to take one of them to town and sell it. The robbers had heard about his plan. They gave the youth a test. If he could steal the ox along the road without the owner knowing what was happening, and without doing the man any harm, they would allow him to serve them.
+    - id: ch02
+      title: The Three Oxen
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The youth took a handsome shoe with a silver buckle from the robbers' house. He laid it in the road the ox owner would use, then hid under a bush. The man spotted it at once.
+        - id: ch02-b02
+          speaker: ox_owner
+          text: That is a fine shoe. If its mate were here, I would take the pair home. Perhaps my wife would give me one kind word for once.
+        - id: ch02-b03
+          speaker: narrator
+          text: His wife was so cross and sharp that she often boxed his ears. Still, he could do nothing with a single shoe, so he left it lying in the road and drove the ox onward. The youth came out from under the bush, picked up the shoe, and raced ahead by a shortcut through the wood. He laid the same shoe in the road once more and hid. When the man came upon it again, he believed it was the matching shoe. He grew quite angry with himself for being foolish enough to leave the first one behind. Then he tied the ox securely to a fence.
+        - id: ch02-b04
+          speaker: ox_owner
+          text: I will run back for the other one. Then I can give my wife a fine pair, and she may be kind to me for once.
+        - id: ch02-b05
+          speaker: narrator
+          text: He hurried back and searched up and down the road, but of course the first shoe was nowhere to be found. At last, he had to return carrying only the one he had picked up. Meanwhile, the youth had untied the ox and led it away. When the man reached the fence and saw that his ox was gone, he began to cry and lament. He was certain his wife would kill him when she learned what he had lost. Then another thought came to him. He would go home, secretly take the second ox, and drive that one to town. His wife need never know what had happened. So he fetched it without her noticing and set out once more.
+        - id: ch02-b06
+          speaker: narrator
+          text: The robbers knew he had set out again. They told the youth that if he stole this ox without warning or hurting the man, he would rank as high as any robber in the band.
+        - id: ch02-b07
+          speaker: master_thief
+          text: If that is all, it should not be very hard.
+        - id: ch02-b08
+          speaker: narrator
+          text: This time, the youth took a rope into the wood. He fastened it around himself beneath the arms, climbed a tree directly beside the man's road, and let himself hang there as though he were dead. Before long, the ox owner came along driving his second animal. When he saw a body hanging over the road, the strange sight made him feel uneasy, but he did not stop.
+        - id: ch02-b09
+          speaker: ox_owner
+          text: Whatever sorrow made you hang yourself, I cannot help you now. I cannot breathe life back into you, so you may hang there for all I care.
+        - id: ch02-b10
+          speaker: narrator
+          text: Once the man had passed, the youth slipped down, raced ahead by a footpath, and hung from another tree.
+        - id: ch02-b11
+          speaker: ox_owner
+          text: Bless me! Were you so miserable that you hanged yourself too, or am I seeing witchcraft? Ghost or man, you may hang there.
+        - id: ch02-b12
+          speaker: narrator
+          text: The youth hurried ahead once more and appeared hanging in the road for a third time. Now the man stopped.
+        - id: ch02-b13
+          speaker: ox_owner
+          text: This is an ugly business. Three men cannot all have hanged themselves like this. It must be witchcraft. I will go back and see. If the other two are still there, then these sights are real. If they are gone, I know I have been bewitched.
+        - id: ch02-b14
+          speaker: narrator
+          text: The man tied the ox and ran back along the way he had come. He searched carefully, peering up into every tree for the first two hanging men. While he was gone, the youth slipped from the rope, untied the second ox, and hurried away with it. The owner found neither of the earlier bodies. When he returned and saw another empty place beside the road, he was in a sad state. He cried and mourned again, though after a time he became a little calmer. There was no help for it now. He would secretly fetch the third ox from home, drive it to town, and try to bargain for a good price. His wife must not hear a word of either loss.
+        - id: ch02-b15
+          speaker: narrator
+          text: The robbers promised that if the youth stole the last ox too, he would be master of the whole band. He ran into the wood and waited. When the man drew near, the youth bellowed like a great ox among the trees.
+        - id: ch02-b16
+          speaker: narrator
+          text: The man could hardly believe his good fortune. The bellow sounded exactly like the voice of his own big bullock, and he thought he was about to recover both missing beasts. He tied the third ox beside the road and rushed into the wood to search. While he wandered among the trees, the youth came out and took that ox as well. The man found no cattle in the wood. When he returned to the road and discovered his last ox gone, his grief knew no bounds. He cried, roared, and beat his breast. To tell the truth, he was so afraid his wife would kill him on the spot that he did not dare go home for many days.
+    - id: ch03
+      title: Home as a Master Thief
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The robbers were far from pleased when they had to admit that the youth was now master of their whole band. One day, they decided to try their hands at something they believed he was not man enough to do. Every one of them set off together and left him alone in the house. As soon as they were well out of sight, the youth drove all three oxen out to the road and sent them running back toward their owner. You may imagine how glad the man was when his lost animals returned.
+        - id: ch03-b02
+          speaker: narrator
+          text: Next, the youth gathered the finest things he could find in the robbers' house. He loaded their own horses with gold and silver, good clothes, and all sorts of costly goods. Before leaving, he gave the old dame a message. When the robbers came home, she was to greet them, thank them on his behalf, and explain that he had set off on his travels. If they wished to follow, they would have hard work finding him again. With that, he rode away with the laden horses.
+        - id: ch03-b03
+          speaker: narrator
+          text: In time he reached the road where his travels had begun. Near his father's cottage, he dressed in a uniform from the stolen clothes, one fit for a general. Then he drove grandly to the door and asked for lodging.
+        - id: ch03-b04
+          speaker: father
+          text: I could never make room for such a fine gentleman. I hardly own a rag to sleep on, and those I have are miserable.
+        - id: ch03-b05
+          speaker: master_thief
+          text: You were always a stingy old fellow. You have not changed, if you refuse to take in your own son.
+        - id: ch03-b06
+          speaker: father
+          text: My son? You cannot be!
+        - id: ch03-b07
+          speaker: master_thief
+          text: Do you truly not know me?
+        - id: ch03-b08
+          speaker: narrator
+          text: After looking closely, his father knew him at last.
+        - id: ch03-b09
+          speaker: father
+          text: What work have you taken up to become such a great man so quickly?
+        - id: ch03-b10
+          speaker: master_thief
+          text: That is easily told. You allowed me to choose any trade, so I became an apprentice to thieves and robbers. My training is finished now, and I am a Master Thief.
+        - id: ch03-b11
+          speaker: narrator
+          text: A rich Squire lived close to the father's cottage. His house was grand, and he possessed such heaps of money that he could not count it all. He also had a daughter who was both clever and pretty. The Master Thief set his heart on marrying her. He told his father to go straight to the Squire and ask for the young woman's hand. If the Squire wanted to know how the son earned his living, the father must answer plainly that he was a Master Thief.
+        - id: ch03-b12
+          speaker: father
+          text: You must have lost your senses. How can you think of such a thing?
+        - id: ch03-b13
+          speaker: narrator
+          text: The son insisted that he had not lost his senses, and said his father must go. The old man still refused. He could never stand before someone so wealthy and ask for that man's daughter on behalf of a thief. The Master Thief told him there was no choice. He could go willingly, or his son would make him go. When the father remained reluctant, the young man followed him with a birch stick and gave him such a beating that the poor man went crying and sobbing all the way through the Squire's door.
+        - id: ch03-b14
+          speaker: squire
+          text: What is the matter with you, my man?
+        - id: ch03-b15
+          speaker: father
+          text: I had three sons, and I let them choose their own roads and trades. Now my youngest has come home. He beat me until I agreed to ask you for your daughter as his wife. He also ordered me to tell you he is a Master Thief.
+        - id: ch03-b16
+          speaker: narrator
+          text: The father began sobbing again, but the Squire only laughed.
+        - id: ch03-b17
+          speaker: squire
+          text: Do not trouble yourself. Tell your son he must first prove his skill. On Sunday, the whole household will watch the roast turning in my kitchen. If he can steal it from the spit, he may have my daughter.
+    - id: ch04
+      title: The Roast and Father Laurence
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The Master Thief thought the task would be easy. First, he caught three hares alive and put them safely into a bag. Then he dressed himself in old rags until he looked so poor and filthy that the sight of him could break your heart. On Sunday morning, carrying the bag like any other beggar boy, he crept into the passage by the back door of the Squire's house. Inside the kitchen, the Squire himself and every member of his household had gathered around the spit to keep close watch over the roast.
+        - id: ch04-b02
+          speaker: narrator
+          text: The youth released one hare, and it ran around the yard in front of the house.
+        - id: ch04-b03
+          speakers: [household_1, household_2, household_3, household_4]
+          ensemble: chorus
+          text: Look at that hare! Let us run out and catch it!
+        - id: ch04-b04
+          speaker: squire
+          text: Let it go. You will never catch a hare once it is running.
+        - id: ch04-b05
+          speaker: narrator
+          text: A little later, the youth released the second hare. Everyone thought the first had returned, but the Squire again kept them inside. Then the third hare raced around the yard. The household still believed it was the same one, and they could hardly wait to chase it.
+        - id: ch04-b06
+          speaker: squire
+          text: That truly is a fine hare. Come, let us see if we can catch it after all.
+        - id: ch04-b07
+          speaker: narrator
+          text: The Squire rushed through the door, and everyone else followed him. Away they went across the yard, with the hare racing in front and the whole household streaming behind. It was a rare sight to see. While every eye was fixed on the chase, the youth stepped into the empty kitchen, lifted the roast from the spit, and ran off with it. I cannot tell you where the Squire found another roast for his dinner that day. One thing I do know. He had no roast hare, though he chased the creature until he was warm, weary, and out of breath.
+        - id: ch04-b08
+          speaker: narrator
+          text: Father Laurence came to dinner and heard how the Master Thief had fooled the Squire. The Priest mocked him without mercy.
+        - id: ch04-b09
+          speaker: priest
+          text: I cannot imagine how a fellow like that could ever make such a fool of me.
+        - id: ch04-b10
+          speaker: squire
+          text: Keep a sharp watch. He may visit you before you know it.
+        - id: ch04-b11
+          speaker: narrator
+          text: The Priest held to his boast and went on laughing at the Squire. That afternoon, the Master Thief came to claim the daughter he had been promised. The Squire tried to talk his way out of it.
+        - id: ch04-b12
+          speaker: squire
+          text: You must show a little more skill. Today's trick was no great feat. Play a good trick on the Priest in there. He keeps mocking me because I let you turn me around your finger.
+        - id: ch04-b13
+          speaker: master_thief
+          text: That will not be difficult.
+        - id: ch04-b14
+          speaker: narrator
+          text: He covered himself with a great white sheet, tied goose wings to his back, and climbed into a tall maple in the Priest's garden. When Father Laurence came home that evening, a voice called down from the tree.
+        - id: ch04-b15
+          speaker: master_thief
+          text: Father Laurence! Father Laurence!
+        - id: ch04-b16
+          speaker: priest
+          text: Who is calling me?
+        - id: ch04-b17
+          speaker: master_thief
+          text: I am an angel sent by God. Your piety has earned you a place in heaven while you are still alive. Be ready next Monday night, when I will fetch you in a sack. Gather all your gold, silver, and worldly goods into a heap in your dining room.
+        - id: ch04-b18
+          speaker: narrator
+          text: Father Laurence believed every word. He fell to his knees beneath the maple and thanked the angel for the wonderful news. The very next day, he stood before his congregation and preached a farewell sermon. He announced that an angel had come down to the great maple in his garden. Because of the Priest's piety, the angel had promised to carry him alive into heaven. Father Laurence made his sermon so touching that everyone in the church wept, both young and old.
+        - id: ch04-b19
+          speaker: narrator
+          text: When the next Monday night arrived, the Master Thief dressed himself as the angel once more and went to fetch Father Laurence. The Priest was ready for his heavenly journey. He fell on his knees and thanked the angel again, then allowed himself to be placed inside a sack. The moment Father Laurence was safely shut in, the journey changed. Instead of carrying him gently, the Master Thief pulled the sack along the ground, dragging the Priest over stones, roots, and tree stumps.
+        - id: ch04-b20
+          speaker: priest
+          text: Ow! Ow! Where are we going?
+        - id: ch04-b21
+          speaker: master_thief
+          text: This is the narrow road that leads to the kingdom of heaven.
+        - id: ch04-b22
+          speaker: narrator
+          text: He dragged the sack onward until nearly every bone in the Priest's body ached. Then he threw him into the Squire's goose house. The geese pecked and pinched Father Laurence until he was more dead than alive.
+        - id: ch04-b23
+          speaker: master_thief
+          text: You are now in the flames of purgatory. Here you will be cleansed for everlasting life.
+        - id: ch04-b24
+          speaker: narrator
+          text: With those words, the Master Thief left the Priest among the geese and made his way to the parsonage. Everything was exactly as he had ordered. The Priest's gold, silver, and worldly goods lay together in a heap in the dining room, ready for the false journey to heaven. The thief took the whole treasure and went his way. The next morning, the goose girl came to open the Squire's goose house and let the birds out. From somewhere inside, she heard a man lying in a sack, groaning and mourning his fate.
+        - id: ch04-b25
+          speaker: goose_girl
+          text: In heaven's name, who is in there? What is wrong?
+          emotion: surprised
+        - id: ch04-b26
+          speaker: priest
+          text: If you are an angel from heaven, please let me out and send me back to earth. This place is worse than hell. Little fiends keep pinching me with tongs!
+          emotion: fearful
+        - id: ch04-b27
+          speaker: goose_girl
+          text: Heaven help us, I am no angel. I tend the Squire's geese, and I expect those geese are the little fiends that pinched you.
+          emotion: surprised
+        - id: ch04-b28
+          speaker: narrator
+          text: She helped him out of the sack.
+        - id: ch04-b29
+          speaker: priest
+          text: This is the Master Thief's doing! My gold, my silver, and all my fine clothes!
+        - id: ch04-b30
+          speaker: narrator
+          text: Groaning over the trick and the loss of all his wealth, the Priest beat his breast and hobbled home as quickly as his bruised body would carry him. He looked so wild that the goose girl thought he had suddenly lost his wits. Soon the story reached the Squire. When he heard how Father Laurence had traveled the narrow road and spent the night in purgatory among the geese, he laughed until his sides nearly split. Yet when the Master Thief returned and asked for the daughter he had been promised, the Squire delayed again and invented another trial.
+    - id: ch05
+      title: Twelve Horses from the Stable
+      blocks:
+        - id: ch05-b01
+          speaker: squire
+          text: You must perform an even greater masterpiece. I have twelve horses, and twelve grooms will sit on them all night. Steal the horses from beneath those men, and then I will see what I can do for you.
+        - id: ch05-b02
+          speaker: master_thief
+          text: I believe I can manage it. But will I truly have your daughter if I do?
+        - id: ch05-b03
+          speaker: squire
+          text: If you succeed, I will do my best for you.
+        - id: ch05-b04
+          speaker: narrator
+          text: The Master Thief went to a shop and bought enough brandy to fill two pocket flasks. He left plain brandy in one, while he mixed a sleeping drink into the other. Next, he hired eleven men and ordered them to hide behind the Squire's stable yard after dark. Finally, with kind words and a good piece of money, he persuaded an old woman to lend him her ragged gown and cloak. He put on the clothes, took a staff in one hand and a bundle on his back, and limped toward the stable as evening drew in.
+        - id: ch05-b05
+          speaker: narrator
+          text: The grooms were busy watering the horses when the supposed old woman arrived.
+        - id: ch05-b06
+          speaker: groom_1
+          text: What in the devil do you want here?
+        - id: ch05-b07
+          speaker: master_thief
+          text: Oh, hutetu! It is bitterly cold. A poor old creature could freeze to death tonight. For heaven's sake, may I sit just inside the stable door for a while?
+        - id: ch05-b08
+          speaker: groom_1
+          text: You have no leave to stay. Be off at once! If the Squire sees you, he will make trouble for us.
+        - id: ch05-b09
+          speaker: groom_2
+          text: Look at the poor bag of bones. Let the old woman sit inside. Someone like her cannot hurt us.
+        - id: ch05-b10
+          speaker: narrator
+          text: The grooms could not agree. Some ordered the old woman away, while others said she ought to be allowed inside. All the while, the men were arguing with one another and trying to finish their work with the horses. The supposed beggar used the confusion well. Little by little, she crept farther into the stable, until at last she settled herself behind the door. By the time the quarrel ended, she had reached a place where no one paid any more attention to her.
+        - id: ch05-b11
+          speaker: narrator
+          text: The night grew colder, and the men found it miserable to sit motionless on horseback.
+        - id: ch05-b12
+          speaker: groom_1
+          text: Hutetu! This cold is devilish.
+        - id: ch05-b13
+          speaker: groom_2
+          text: It is. I am freezing so badly my teeth are chattering.
+        - id: ch05-b14
+          speaker: groom_3
+          text: If only we had some tobacco to chew.
+        - id: ch05-b15
+          speaker: narrator
+          text: One groom had an ounce or two, so they divided it. There was little for each man, and before long they were as cold as ever.
+        - id: ch05-b16
+          speaker: groom_1
+          text: Hutetu!
+        - id: ch05-b17
+          speaker: narrator
+          text: The old woman shivered in answer until every tooth seemed to chatter. She pulled out the flask of plain brandy. Her shaking hand splashed the drink about, and then she swallowed a great mouthful with a loud bop.
+        - id: ch05-b18
+          speaker: groom_4
+          text: What have you got in that flask, old woman?
+        - id: ch05-b19
+          speaker: master_thief
+          text: Oh, it is only a drop of brandy, old man.
+        - id: ch05-b20
+          speakers: [groom_1, groom_2, groom_3, groom_4]
+          ensemble: chorus
+          text: Brandy! Give us a drop too!
+        - id: ch05-b21
+          speaker: master_thief
+          text: There is so little that it would hardly wet all your mouths.
+        - id: ch05-b22
+          speaker: narrator
+          text: The grooms would not be refused. This time, the disguised thief brought out the flask with the sleeping drink. His hand stopped shaking as he guided it to each man's lips. Before the twelfth groom had finished drinking, the first was snoring.
+        - id: ch05-b23
+          speaker: narrator
+          text: The Master Thief threw off the old woman's rags and went quietly to work. One by one, he lifted the sleeping grooms from their saddles without waking them. In place of each horse, he set its rider astride one of the wooden beams between the stalls. When all twelve men sat sleeping on the beams, he called the eleven helpers who were waiting behind the yard. Each helper mounted a horse, the Master Thief took the last, and together they rode away with all twelve.
+        - id: ch05-b24
+          speaker: narrator
+          text: When the Squire rose in the morning, he went straight to the stable to inspect his guards. The sleeping drink was only beginning to wear off. Some grooms woke believing they were still mounted and drove their spurs into the wooden beams until splinters flew. Others lost their balance and fell to the floor. A few remained hanging on, sitting astride the timber and looking like perfect fools. The twelve horses, of course, were nowhere in the stable.
+        - id: ch05-b25
+          speaker: squire
+          text: Ho, ho! I know who has been here. What a set of blockheads you are, sitting on beams while the Master Thief stole the horses from between your legs!
+        - id: ch05-b26
+          speaker: narrator
+          text: The grooms all received a good leathering for failing to keep watch. Later that day, the Master Thief explained his trick and asked for the Squire's daughter. The Squire gave him one hundred dollars instead and demanded something better.
+    - id: ch06
+      title: The Horse on the Common
+      blocks:
+        - id: ch06-b01
+          speaker: squire
+          text: Could you steal my horse from beneath me while I am riding it?
+        - id: ch06-b02
+          speaker: master_thief
+          text: Yes, I believe I could, if I were certain I would receive your daughter.
+        - id: ch06-b03
+          speaker: narrator
+          text: The Squire would only say that he would see what could be done. He named a day when he planned to ride on the common where soldiers drilled.
+        - id: ch06-b04
+          speaker: narrator
+          text: The Master Thief found an old mare so worn out that she could barely move. He twisted willow branches and broom twigs into traces and a collar, then bought a shabby beggar's cart and a great cask. After that, he made a bargain with an old beggar woman. He would pay her ten dollars to climb inside the cask and hold her open mouth behind the taphole while he stopped it with his finger. He promised that no harm would come to her. She would only be driven about for a while. If he removed his finger more than once, she would receive another ten dollars.
+        - id: ch06-b05
+          speaker: narrator
+          text: He covered himself in rags and tatters, stuffed out his body, and put on a wig with a great beard made from goat hair. The disguise was so complete that no one could recognize him. Then he drove toward the common where the troops drilled. By the time he arrived, the Squire had already been riding there for quite a while. The old mare crept forward so softly and slowly that she hardly gained an inch. After every little movement, she stood still again, while the disguised driver urged her on.
+        - id: ch06-b06
+          speaker: master_thief
+          text: Gee up! Come on, now. Gee up!
+        - id: ch06-b07
+          speaker: narrator
+          text: The cart moved so poorly that the Squire never imagined its driver could be the Master Thief. At last, he rode over and asked whether the old man had seen anyone hiding near the wood.
+        - id: ch06-b08
+          speaker: master_thief
+          text: No, I have not seen a single soul.
+        - id: ch06-b09
+          speaker: squire
+          text: Ride my horse into the wood and look for anyone lurking there. I will give you a shilling for your trouble, and you may drink my health with it.
+        - id: ch06-b10
+          speaker: master_thief
+          text: I do not see how I can go. I am taking this cask of mead from town to a wedding, but the tap fell out on the road. I have to keep my finger pressed into the hole as I travel.
+        - id: ch06-b11
+          speaker: squire
+          text: Take my horse. I will watch your mare and cask.
+        - id: ch06-b12
+          speaker: narrator
+          text: The disguised thief agreed, but begged the Squire to put his own finger into the taphole the instant he pulled his out. The Squire must hold it there until he returned. Then the Master Thief mounted the fine horse and rode away.
+        - id: ch06-b13
+          speaker: narrator
+          text: At last, the Squire grew tired of standing with his finger in the cask and pulled it free.
+        - id: ch06-b14
+          speaker: beggar_woman
+          text: Now I shall have another ten dollars!
+        - id: ch06-b15
+          speaker: narrator
+          text: The cry from inside the cask told the Squire exactly how he had been tricked. The old driver had been the Master Thief, the taphole had been stopped by a woman's mouth, and the fine riding horse was gone. There was nothing to do but leave the mare, cart, and cask and start toward home. He had not walked far when someone from his own house met him with a fresh horse. The Master Thief had already ridden there, pretended to carry the Squire's order, and told the servants to send another mount out to their master.
+        - id: ch06-b16
+          speaker: narrator
+          text: The next day, the Master Thief went back to the Squire and asked for the daughter he had been promised. Once again, the Squire answered with fine words instead of keeping his agreement. He paid the young man two hundred dollars and said there must be one more masterpiece. Only after that final proof would he give up his daughter. The Master Thief answered that he was willing, if the Squire would only tell him what had to be done.
+        - id: ch06-b17
+          speaker: squire
+          text: Can you steal the sheet from our bed and the nightshift from my wife's back?
+        - id: ch06-b18
+          speaker: master_thief
+          text: It will be done. I only wish I were as sure of receiving your daughter.
+    - id: ch07
+      title: The Sheet and the Nightshift
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: When night began to fall, the Master Thief went to the gallows. He cut down the body of a thief who had been hanged there, lifted it across his shoulders, and carried it away. Then he fetched a long ladder and set it against the window of the Squire's bedroom. He climbed up with the body and began raising its head above the windowsill, then dropping it out of sight again. From inside the room, it looked exactly as though a man kept trying to peep through the glass.
+        - id: ch07-b02
+          speaker: squire
+          text: That is the Master Thief, wife! Watch me shoot him now.
+        - id: ch07-b03
+          speaker: narrator
+          text: The Squire reached for the rifle beside his bed.
+        - id: ch07-b04
+          speaker: squires_wife
+          text: No, please do not shoot him after telling him he could try!
+          emotion: fearful
+        - id: ch07-b05
+          speaker: squire
+          text: Say no more. I am going to shoot him.
+          emotion: angry
+        - id: ch07-b06
+          speaker: narrator
+          text: The Squire lay in bed with the rifle raised, aiming at the window. But whenever the head rose high enough for him to glimpse it, it vanished again before he could fire. This happened again and again. At last, he believed he had found his chance and pulled the trigger. The shot rang out with a bang. The dead body dropped from the ladder and struck the ground with a heavy thump. At the same moment, the Master Thief climbed down as fast and quietly as he could.
+        - id: ch07-b07
+          speaker: squire
+          text: I may be the chief magistrate here, but people love to talk. It would be troublesome if they came and saw this body. I had better go down and bury him.
+        - id: ch07-b08
+          speaker: squires_wife
+          text: Do whatever you think best, dear.
+        - id: ch07-b09
+          speaker: narrator
+          text: The Squire got out of bed and went downstairs. The moment he stepped outside, the Master Thief slipped in and went straight up to the wife.
+        - id: ch07-b10
+          speaker: squires_wife
+          text: Why, dear, are you back already?
+        - id: ch07-b11
+          speaker: narrator
+          text: She believed her husband had returned.
+        - id: ch07-b12
+          speaker: master_thief
+          text: Yes. I dropped him into a hole and covered him with a little earth. That will hide him for now, since the weather is so bad. I can finish the work later. Give me the sheet to wipe myself. He was so bloody that I am covered in the mess.
+        - id: ch07-b13
+          speaker: narrator
+          text: She handed him the sheet. A moment later, he spoke again.
+        - id: ch07-b14
+          speaker: master_thief
+          text: I am afraid I need your nightshift as well. The sheet alone is not enough.
+        - id: ch07-b15
+          speaker: narrator
+          text: Believing she was speaking to her husband in the darkness, she gave him the nightshift too. The Master Thief waited a moment, then claimed that he had just remembered the unlocked house door. He would have to step downstairs and secure it before coming back to bed. With that excuse, he left the room carrying both the nightshift and the sheet. He slipped out of the house and disappeared. A little while later, after dealing with the body outside, the true Squire finally came upstairs.
+        - id: ch07-b16
+          speaker: squires_wife
+          text: Dear, why did locking the door take so long? And what have you done with the sheet and my nightshift?
+        - id: ch07-b17
+          speaker: squire
+          text: What are you talking about?
+        - id: ch07-b18
+          speaker: squires_wife
+          text: I mean the sheet and nightshift you took to wipe off the blood.
+        - id: ch07-b19
+          speaker: squire
+          text: What in the devil's name! Has he fooled me again?
+          emotion: surprised
+        - id: ch07-b20
+          speaker: narrator
+          text: The next day, the Master Thief returned once more and asked for the Squire's daughter, reminding him of his promise. This time, the Squire did not dare delay or set another test. He gave the daughter to the Master Thief and sent a large sum of money with her as well. To tell the truth, the Squire feared what might happen if he refused. The thief might steal the very eyes out of his head, and all the people nearby would have spiteful things to say if a Squire broke his solemn word.
+        - id: ch07-b21
+          speaker: narrator
+          text: From then on, the Master Thief lived well and happily. I do not know whether he ever stole again. But if he did, I am quite sure it was only for a bit of fun.

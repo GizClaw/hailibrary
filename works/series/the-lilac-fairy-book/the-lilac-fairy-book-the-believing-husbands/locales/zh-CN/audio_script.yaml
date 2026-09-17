@@ -1,0 +1,304 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 沉着讲述古老童话，奇异处自然从容，悲喜处克制而温暖
+        timbre: 温暖清晰的成年男声
+        pace: 舒缓而富于变化
+        pitch: 中低
+    young_man:
+      display_name: 年轻人
+      tts:
+        delivery: 清醒直率，面对荒唐事时带着克制的诙谐
+        timbre: 明亮朴实的年轻男声
+        pace: 适中
+        pitch: 中
+    bride:
+      display_name: 新娘
+      tts:
+        delivery: 天真软弱，容易把凭空的担忧当成真事
+        timbre: 清亮柔和的年轻女声
+        pace: 适中偏慢
+        pitch: 中高
+    mother:
+      display_name: 母亲
+      tts:
+        delivery: 疼爱女儿却同样糊涂，情绪来得又快又真
+        timbre: 温厚朴实的成年女声
+        pace: 适中
+        pitch: 中
+    father:
+      display_name: 父亲
+      tts:
+        delivery: 粗直急躁，听见坏事便立刻信以为真
+        timbre: 粗厚的老年男声
+        pace: 适中
+        pitch: 中低
+    wife_1:
+      display_name: 第一位妻子
+      tts:
+        delivery: 笃定利落，说荒唐话也像在宣布事实
+        timbre: 清楚沉稳的成年女声
+        pace: 适中
+        pitch: 中
+    husband_1:
+      display_name: 第一个丈夫
+      tts:
+        delivery: 老实迟钝，对妻子的话从不怀疑
+        timbre: 温和浑厚的成年男声
+        pace: 舒缓
+        pitch: 中低
+    wife_2:
+      display_name: 第二位妻子
+      tts:
+        delivery: 冷静干脆，否认丈夫时毫不迟疑
+        timbre: 略显清冷的成年女声
+        pace: 适中
+        pitch: 中
+    husband_2:
+      display_name: 第二个丈夫
+      tts:
+        delivery: 单纯顺从，困惑中仍然相信妻子
+        timbre: 清瘦温顺的成年男声
+        pace: 适中偏慢
+        pitch: 中
+    wife_3:
+      display_name: 第三位妻子
+      tts:
+        delivery: 机灵从容，一步步催丈夫落入圈套
+        timbre: 明快有力的成年女声
+        pace: 适中偏快
+        pitch: 中高
+    husband_3:
+      display_name: 第三个丈夫
+      tts:
+        delivery: 糊涂而急切，越慌越顾不上分辨真假
+        timbre: 明亮厚实的成年男声
+        pace: 适中偏快
+        pitch: 中
+    boy:
+      display_name: 男孩
+      tts:
+        delivery: 简短清楚地传达口信
+        timbre: 清脆的男孩声音
+        pace: 适中
+        pitch: 高
+  chapters:
+    - id: ch01
+      title: 驮鞍下的眼泪
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 很久以前，爱尔兰有个年轻人想娶妻。附近的姑娘里，他最中意一位农夫的独生女儿。姑娘愿意嫁，父亲也乐意答应。两人很快成了婚，就住在农庄里。
+        - id: ch01-b02
+          speaker: narrator
+          text: 后来，割泥炭的季节到了。泥炭得堆起来晒干，冬天才能拿来生火。一个晴天，年轻夫妻跟着姑娘的父母，一同到荒原上干活。
+        - id: ch01-b03
+          speaker: narrator
+          text: 大家忙了好几个钟头，肚子都饿了，便让年轻媳妇回去拿吃的，也给马喂一顿。她一走进马厩，忽然看见花斑母马那副沉重的驮鞍正悬在头顶，吓得跳了一下。
+        - id: ch01-b04
+          speaker: bride
+          text: “要是这副驮鞍掉下来，把我砸死了，那该多可怕呀！”
+          emotion: fearful
+        - id: ch01-b05
+          speaker: narrator
+          text: 她说完，偏偏就在驮鞍底下坐了下来，越想越伤心，竟哭个不停。荒原上的人等不到饭，肚子越来越饿。
+        - id: ch01-b06
+          speakers: [young_man, mother, father]
+          ensemble: chorus
+          text: “她到底怎么了？”
+        - id: ch01-b07
+          speaker: narrator
+          text: 母亲终于等不住了，决定回家看看。她找过厨房，又找过奶房，都不见新娘，最后才在马厩里发现女儿正在痛哭。
+        - id: ch01-b08
+          speaker: mother
+          text: “我的小鸽子，你这是怎么了？”
+        - id: ch01-b09
+          speaker: bride
+          text: “我一进来，就看见驮鞍悬在头顶。我想，它万一掉下来，把我砸死了，该有多可怕。”
+          emotion: fearful
+        - id: ch01-b10
+          speaker: narrator
+          text: 姑娘越说哭声越响。老妇人听了，猛地拍起双手。
+        - id: ch01-b11
+          speaker: mother
+          text: “哎呀，真要出了这种事，我该怎么办呢？”
+          emotion: fearful
+        - id: ch01-b12
+          speaker: narrator
+          text: 她也坐到驮鞍底下，挨着女儿绞起双手。母女俩想着那件根本没有发生的祸事，一起泪流不止。
+        - id: ch01-b13
+          speaker: narrator
+          text: 老农夫留在荒原上，既挨饿又生气。他认定家里一定出了怪事，也赶回去找人。走进马厩一看，妻子和女儿都在里面哭。
+        - id: ch01-b14
+          speaker: father
+          text: “这究竟是怎么回事？”
+        - id: ch01-b15
+          speaker: mother
+          text: “咱们女儿回来时，看见驮鞍正悬在头顶。她想到，那东西要是掉下来把她砸死了，该有多可怕呀！”
+        - id: ch01-b16
+          speaker: father
+          text: “哎呀，这事想想都不得了！”
+        - id: ch01-b17
+          speaker: narrator
+          text: 老农夫也拍起双手，在她们身边坐下来，跟着哭了。直到天黑，年轻人才饿着肚子回来。三个人居然还坐在马厩里哭成一团。
+        - id: ch01-b18
+          speaker: young_man
+          text: “你们为什么一直哭？”
+        - id: ch01-b19
+          speaker: father
+          text: “你妻子回来以后，看见驮鞍悬在头顶。她想到，那东西万一掉下来把她砸死了，该有多可怕。”
+        - id: ch01-b20
+          speaker: young_man
+          text: “可它根本没有掉下来呀。”
+        - id: ch01-b21
+          speaker: narrator
+          text: 年轻人不再理会他们，自己到厨房找晚饭去了。那三个人想哭多久，就由他们哭多久。
+        - id: ch01-b22
+          speaker: narrator
+          text: 第二天，太阳刚升起，年轻人便起了床。他把老头、老太太和妻子叫到面前，向他们告别。
+        - id: ch01-b23
+          speaker: young_man
+          text: “我要出去找人。等我找到另外三个像你们一样傻的人，才会再踏进这座屋子。”
+
+    - id: ch02
+      title: 一枚金戒指
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 年轻人一路走到城里，看见一间小屋门户大开，便走了进去。屋里没有男人，只有三个女人守着纺车纺线。
+        - id: ch02-b02
+          speaker: young_man
+          text: “你们不是本城人。”
+        - id: ch02-b03
+          speakers: [wife_1, wife_2, wife_3]
+          ensemble: chorus
+          text: “你说得没错。你也不是本城人吧？”
+        - id: ch02-b04
+          speaker: young_man
+          text: “我也不是。不过，这座城适合住下来过日子吗？”
+        - id: ch02-b05
+          speaker: narrator
+          text: 三个女人彼此看了看。
+        - id: ch02-b06
+          speakers: [wife_1, wife_2, wife_3]
+          ensemble: chorus
+          text: “城里的男人傻透了。我们要他们相信什么，他们就会相信什么。”
+        - id: ch02-b07
+          speaker: young_man
+          text: “那好，我这里有一枚金戒指。你们谁能让丈夫相信最不可能的事，戒指就归谁。”
+        - id: ch02-b08
+          speaker: narrator
+          text: 年轻人留下这场比赛，自己先走了。三个女人则等着各自的丈夫回家，要看看谁的丈夫最容易受骗。
+
+    - id: ch03
+      title: 死人和陌生人
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 第一个丈夫才进家门，妻子就迎上去，仔细看着他，好像当真瞧出了什么病。
+        - id: ch03-b02
+          speaker: wife_1
+          text: “你病了！”
+        - id: ch03-b03
+          speaker: husband_1
+          text: “是吗？我病了？”
+        - id: ch03-b04
+          speaker: wife_1
+          text: “当然病了。快脱掉衣服，上床躺着。”
+        - id: ch03-b05
+          speaker: narrator
+          text: 丈夫一句也没怀疑，脱了衣服便上床。等他躺好，妻子又来到床边。
+        - id: ch03-b06
+          speaker: wife_1
+          text: “现在，你已经死了。”
+        - id: ch03-b07
+          speaker: husband_1
+          text: “啊，我已经死了吗？”
+        - id: ch03-b08
+          speaker: wife_1
+          text: “是的。闭上眼睛，手脚都别动。”
+        - id: ch03-b09
+          speaker: narrator
+          text: 丈夫照她说的闭紧双眼，一动不动。他确信妻子不会弄错，自己一定是真的死了。
+        - id: ch03-b10
+          speaker: narrator
+          text: 没过多久，第二个男人也回到了家。他的妻子一看见他，马上挡住去路。
+        - id: ch03-b11
+          speaker: wife_2
+          text: “你不是我的丈夫！”
+        - id: ch03-b12
+          speaker: husband_2
+          text: “哦，我不是吗？”
+        - id: ch03-b13
+          speaker: wife_2
+          text: “不是。你根本不是他。”
+        - id: ch03-b14
+          speaker: narrator
+          text: 第二个丈夫也相信了。他离开自己的家，走进树林，就在那里睡了一夜。
+
+    - id: ch04
+      title: 穿着睡衣去送葬
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 第三个丈夫回来时，妻子照常给他晚饭吃。他吃过饭，也照常上床睡觉。第二天一早，有个男孩敲响了房门。
+        - id: ch04-b02
+          speaker: boy
+          text: “请去参加那个死去男人的葬礼。”
+        - id: ch04-b03
+          speaker: narrator
+          text: 第三个丈夫听见口信，正要起床，妻子却把他拦住。
+        - id: ch04-b04
+          speaker: wife_3
+          text: “不用急，还早着呢。”
+        - id: ch04-b05
+          speaker: narrator
+          text: 他又躺了下来。过了一阵，送葬的队伍已经从窗外经过，妻子这才催他。
+        - id: ch04-b06
+          speaker: wife_3
+          text: “现在快起来！再磨蹭就赶不上了。”
+        - id: ch04-b07
+          speaker: narrator
+          text: 男人慌忙跳下床，急得四处乱找。
+        - id: ch04-b08
+          speaker: husband_3
+          text: “咦，我的衣服放在哪里？”
+        - id: ch04-b09
+          speaker: wife_3
+          text: “你真傻，衣服当然已经穿在身上了。”
+        - id: ch04-b10
+          speaker: husband_3
+          text: “已经穿上了吗？”
+        - id: ch04-b11
+          speaker: wife_3
+          text: “全穿好了。赶紧走，不然等你到了，葬礼都要结束了。”
+        - id: ch04-b12
+          speaker: narrator
+          text: 男人拔腿就跑。他身上明明只有一件睡衣，自己却当成穿戴整齐。送葬的人看见他迎面跑来，吓得忘了本来要做什么，纷纷逃去躲藏。转眼间，棺材前头只剩他孤零零一个人。
+        - id: ch04-b13
+          speaker: narrator
+          text: 这时，从树林里走出一个男人。那正是被妻子赶出家门的第二个丈夫。他走到只穿睡衣的男人跟前。
+        - id: ch04-b14
+          speaker: husband_2
+          text: “你认识我吗？”
+        - id: ch04-b15
+          speaker: husband_3
+          text: “不认识。我一点也不认识你。”
+        - id: ch04-b16
+          speaker: husband_2
+          text: “那你为什么没穿衣服？”
+        - id: ch04-b17
+          speaker: husband_3
+          text: “我没穿衣服吗？可我妻子说，我已经把衣服全穿好了。”
+        - id: ch04-b18
+          speaker: husband_1
+          text: “我妻子还说，我已经死了呢。”
+        - id: ch04-b19
+          speaker: narrator
+          text: 这句话竟从棺材里传了出来。外面的两个男人听见死者开口，顿时吓得魂飞魄散，转身就往家跑。棺材里的男人也爬了出来，跟在他们后面追了回去。
+        - id: ch04-b20
+          speaker: narrator
+          text: 最后，第一位妻子赢走了金戒指。三个轻信妻子的丈夫当中，她的丈夫最傻。
