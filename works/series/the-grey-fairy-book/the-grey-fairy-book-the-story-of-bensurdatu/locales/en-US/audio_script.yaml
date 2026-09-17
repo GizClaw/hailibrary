@@ -1,0 +1,398 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant, and gently dramatic
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    king:
+      display_name: King
+      tts:
+        delivery: loving, dignified, and earnest
+        timbre: resonant and mature
+        pace: measured
+        pitch: medium-low
+    eldest_princess:
+      display_name: Eldest Princess
+      tts:
+        delivery: graceful, alert, and sincere
+        timbre: clear and youthful
+        pace: natural
+        pitch: medium-high
+    second_princess:
+      display_name: Second Princess
+      tts:
+        delivery: gentle, watchful, and sincere
+        timbre: bright and youthful
+        pace: natural
+        pitch: medium-high
+    youngest_princess:
+      display_name: Youngest Princess
+      tts:
+        delivery: tender, perceptive, and steadfast
+        timbre: soft and youthful
+        pace: natural
+        pitch: medium-high
+    first_general:
+      display_name: First General
+      tts:
+        delivery: proud and outwardly confident
+        timbre: firm and youthful
+        pace: brisk
+        pitch: medium
+    second_general:
+      display_name: Second General
+      tts:
+        delivery: ambitious and outwardly confident
+        timbre: clear and youthful
+        pace: brisk
+        pitch: medium
+    bensurdatu:
+      display_name: Bensurdatu
+      tts:
+        delivery: brave, loyal, and plainspoken
+        timbre: warm and strong
+        pace: steady
+        pitch: medium-low
+    innkeeper:
+      display_name: Innkeeper
+      tts:
+        delivery: practical and businesslike
+        timbre: rough and mature
+        pace: natural
+        pitch: medium-low
+    old_woman:
+      display_name: Wise Old Woman
+      tts:
+        delivery: grave, knowing, and compassionate
+        timbre: aged and textured
+        pace: unhurried
+        pitch: low
+    first_giant:
+      display_name: First Giant
+      tts:
+        delivery: drowsy and menacing
+        timbre: deep and heavy
+        pace: slow
+        pitch: very low
+    second_giant:
+      display_name: Second Giant
+      tts:
+        delivery: sleepy and threatening
+        timbre: deep and coarse
+        pace: slow
+        pitch: very low
+    purse_voice:
+      display_name: Voice from the Purse
+      tts:
+        delivery: attentive and mysterious
+        timbre: clear and otherworldly
+        pace: measured
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Vanished Princesses
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a king and queen with three wonderfully beautiful daughters. From morning until night, the parents thought of nothing but making their girls happy.
+        - id: ch01-b02
+          speakers: [eldest_princess, second_princess, youngest_princess]
+          ensemble: chorus
+          text: Dear Father, we would love to have a picnic and eat our dinner out in the country.
+        - id: ch01-b03
+          speaker: king
+          text: Of course, dear children. We shall have a picnic. I will have everything made ready.
+        - id: ch01-b04
+          speaker: narrator
+          text: When the luncheon was ready, the servants packed it into a cart. The royal family climbed into a carriage and drove out into the country. After several miles, they reached a house and garden that belonged to the king, with their favorite picnic place close by. The long drive had made them very hungry. They ate with such hearty appetites that almost every bit of food disappeared.
+        - id: ch01-b05
+          speakers: [eldest_princess, second_princess, youngest_princess]
+          ensemble: chorus
+          text: We would like to wander through the garden now. Call us when you are ready to go home.
+        - id: ch01-b06
+          speaker: narrator
+          text: The sisters ran laughing down a green path toward the garden. The moment they crossed the fence, a dark cloud dropped over them. They could no longer see where they were going.
+        - id: ch01-b07
+          speaker: narrator
+          text: Meanwhile, the king and queen rested among the heather. An hour passed, and then another. As the sun sank toward the horizon, they decided it was time to leave. They called for their daughters again and again, but no one answered.
+        - id: ch01-b08
+          speaker: narrator
+          text: The silence frightened them. They searched every corner of the garden, then the house, and then the nearby wood. But there was no sign of the girls anywhere at all. It seemed as if the earth itself had swallowed them. The poor parents fell into despair. The queen wept all the way home, and she went on weeping for many days afterward.
+        - id: ch01-b09
+          speaker: narrator
+          text: The king proclaimed that whoever brought his lost daughters home could marry one of them. After the king's death, that rescuer would rule in his place.
+        - id: ch01-b10
+          speaker: first_general
+          text: Let us go and look for them. We may be the lucky men who find them.
+        - id: ch01-b11
+          speaker: narrator
+          text: The generals each mounted a strong horse. They carried a change of clothes and some money, then rode away. In every village they passed through, they asked whether anyone had seen the princesses. No one had. Before long, all their money was spent. They had to sell their horses or abandon the search. The money from the horses lasted only a little longer, so they sold the spare garments that had been tied behind their saddles.
+        - id: ch01-b12
+          speaker: narrator
+          text: Starving and dressed in their last coats, they entered an inn and begged for food. When the time came to pay, they spoke to the innkeeper.
+        - id: ch01-b13
+          speakers: [first_general, second_general]
+          ensemble: duo
+          text: We have no money, and these are the only clothes we own. Take them, give us some old rags, and let us work here as your servants.
+        - id: ch01-b14
+          speaker: narrator
+          text: The innkeeper was content with the bargain. He gave them rags, took their last good clothes, and kept the generals as his servants. All this time, the king and queen remained in their palace, longing for their children. Not one word reached them about the princesses. They heard nothing about the two generals who had gone in search of the girls either.
+    - id: ch02
+      title: Bensurdatu Sets Out
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: A faithful servant named Bensurdatu had served the king for many years. When he saw the king's grief, he made a request.
+        - id: ch02-b02
+          speaker: bensurdatu
+          text: Your Majesty, let me go and search for your daughters.
+        - id: ch02-b03
+          speaker: king
+          text: No, Bensurdatu. I have already lost three daughters and two generals. Must I lose you too?
+          emotion: sad
+        - id: ch02-b04
+          speaker: bensurdatu
+          text: Please let me go, Your Majesty. Trust me, and I will bring your daughters back.
+        - id: ch02-b05
+          speaker: narrator
+          text: At last the king agreed. Bensurdatu rode away and came to the inn, where he dismounted and ordered food. The two generals brought it to him. Though they wore miserable rags, he knew them at once and asked how they had ended up there.
+        - id: ch02-b06
+          speaker: narrator
+          text: They told him everything that had happened. Bensurdatu called the innkeeper over.
+        - id: ch02-b07
+          speaker: bensurdatu
+          text: Return their clothes to them. I will pay everything they owe you.
+        - id: ch02-b08
+          speaker: narrator
+          text: The innkeeper obeyed. Once the generals had put on their proper clothes, they announced that they would join Bensurdatu in the search.
+        - id: ch02-b09
+          speaker: narrator
+          text: The three companions rode for many miles until they reached a wild place with no human being in sight. Darkness was coming. Afraid of losing their way in that lonely country, they urged their horses onward. At last they saw a light in the window of a tiny hut. When they knocked, a voice answered from inside.
+        - id: ch02-b10
+          speaker: old_woman
+          text: Who is there?
+        - id: ch02-b11
+          speaker: bensurdatu
+          text: Please have pity on us and shelter us tonight. We are three weary travelers, and we have lost our way.
+        - id: ch02-b12
+          speaker: narrator
+          text: A very old woman opened the door, stepped aside, and beckoned them in.
+        - id: ch02-b13
+          speaker: old_woman
+          text: Where have you come from, and where are you going?
+        - id: ch02-b14
+          speaker: bensurdatu
+          text: Good woman, we have a hard task ahead of us. We mean to carry the king's daughters home to the palace.
+        - id: ch02-b15
+          speaker: old_woman
+          text: You poor, unhappy men! You do not understand what you are attempting. A thick cloud covered the king's daughters, and no one knows where they are now.
+        - id: ch02-b16
+          speaker: bensurdatu
+          text: If you know anything, please tell us. All our happiness depends on finding them.
+        - id: ch02-b17
+          speaker: old_woman
+          text: Even if I tell you, you cannot rescue them. You would have to reach the very bottom of a deep river. The princesses are there, but giants guard the two eldest, and a seven-headed serpent watches the youngest.
+        - id: ch02-b18
+          speaker: narrator
+          text: Terror seized the two generals, and they wanted to turn back at once. Bensurdatu would not be moved.
+        - id: ch02-b19
+          speaker: bensurdatu
+          text: We have come this far, so we must finish what we began. Tell us where the river lies, and we will go there as quickly as we can.
+        - id: ch02-b20
+          speaker: narrator
+          text: The old woman gave them directions, along with cheese, wine, and bread, so they would not leave hungry. After eating and drinking, they lay down to sleep.
+    - id: ch03
+      title: Beneath the River
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The next morning, the sun had barely risen over the hills when all three men awoke. They thanked the wise old woman and rode on until they reached the river.
+        - id: ch03-b02
+          speaker: first_general
+          text: I am the eldest, so I have the right to go down first.
+        - id: ch03-b03
+          speaker: narrator
+          text: The others tied a rope around him, gave him a small bell, and lowered him into the water. The river had scarcely closed over his head when terrible rushing sounds and crashes of thunder surrounded him. His courage vanished. He rang the bell through the uproar and felt enormous relief when the rope slowly pulled him upward.
+        - id: ch03-b04
+          speaker: narrator
+          text: Then the second general went down. He managed no better than the first and soon stood on dry ground again.
+        - id: ch03-b05
+          speaker: bensurdatu
+          text: What a brave pair you are! Tie the rope around me now, and we shall see how I fare.
+        - id: ch03-b06
+          speaker: narrator
+          text: The same thunder and clamor roared around Bensurdatu as the rope carried him deeper. Unlike the generals, he did not reach for the bell or ask to be pulled back.
+        - id: ch03-b07
+          speaker: bensurdatu
+          text: Make all the noise you please. Noise cannot hurt me.
+        - id: ch03-b08
+          speaker: narrator
+          text: His feet touched the bottom. He found himself in a large hall blazing with light. The eldest princess sat in the middle, and a huge giant lay asleep before her. The moment she saw Bensurdatu, she nodded and silently asked how he had come there.
+        - id: ch03-b09
+          speaker: narrator
+          text: Bensurdatu drew his sword and prepared to strike off the giant's head. The princess quickly stopped him and motioned for him to hide, because the giant was beginning to wake.
+        - id: ch03-b10
+          speaker: first_giant
+          text: I smell a man's flesh!
+        - id: ch03-b11
+          speaker: eldest_princess
+          text: How could any man possibly get down here? You had better go back to sleep.
+        - id: ch03-b12
+          speaker: narrator
+          text: The giant rolled over and fell asleep again. At the princess's signal, Bensurdatu stepped out, swung his sword, and cut off the giant's head with one blow. It flew into a corner.
+        - id: ch03-b13
+          speaker: narrator
+          text: The princess's heart leaped. She set a golden crown on Bensurdatu's head and called him her deliverer.
+        - id: ch03-b14
+          speaker: bensurdatu
+          text: Show me where your sisters are, so I can free them too.
+        - id: ch03-b15
+          speaker: narrator
+          text: She opened a door and led him into another hall. Her second sister sat there, watched by another sleeping giant. When the second princess saw them, she signaled for them to hide, because her giant was stirring.
+        - id: ch03-b16
+          speaker: second_giant
+          text: I smell a man's flesh!
+        - id: ch03-b17
+          speaker: second_princess
+          text: How could a man ever come down here? Go back to sleep.
+        - id: ch03-b18
+          speaker: narrator
+          text: As soon as the giant shut his eyes, Bensurdatu slipped from his hiding place and struck. The giant's head flew far away. The princess could find no words strong enough to thank him, so she placed a golden crown in his hand.
+        - id: ch03-b19
+          speaker: bensurdatu
+          text: Now take me to your youngest sister, so I can set her free as well.
+        - id: ch03-b20
+          speakers: [eldest_princess, second_princess]
+          ensemble: duo
+          text: We fear you will never be able to save her. A serpent with seven heads holds her in its power.
+          emotion: fearful
+        - id: ch03-b21
+          speaker: bensurdatu
+          text: Take me to it. That will be a splendid fight.
+    - id: ch04
+      title: The Seven-Headed Serpent
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The princess opened another door. Bensurdatu entered a hall larger than either of the others. The youngest sister stood chained to the wall. Before her lay a horrible serpent with seven heads.
+        - id: ch04-b02
+          speaker: narrator
+          text: As Bensurdatu approached, all seven heads twisted toward him. The serpent darted forward to seize him. He drew his sword and struck again and again until all seven heads rolled across the floor.
+        - id: ch04-b03
+          speaker: narrator
+          text: He threw down his sword, ran to the princess, and broke her chains. She wept for joy and embraced him. Then she removed the golden crown from her own head and put it in his hand.
+        - id: ch04-b04
+          speaker: bensurdatu
+          text: Now we must return to the upper world.
+        - id: ch04-b05
+          speaker: narrator
+          text: He led the youngest princess back to the bottom of the river. Her two sisters were already waiting there. Bensurdatu tied the rope securely around the eldest and rang his little bell. Far above them, the generals heard the signal and gently hauled her through the water. Once she reached the bank, they untied the rope and threw it down again. Bensurdatu fastened it around the second sister, and a few moments later she stood beside the eldest.
+        - id: ch04-b06
+          speaker: narrator
+          text: Only Bensurdatu and the youngest princess remained below.
+        - id: ch04-b07
+          speaker: youngest_princess
+          text: Dear Bensurdatu, please let them pull you up before me. I am afraid the generals will betray you.
+          emotion: fearful
+        - id: ch04-b08
+          speaker: bensurdatu
+          text: No, I will not leave you down here. My companions give us nothing to fear.
+        - id: ch04-b09
+          speaker: youngest_princess
+          text: Then I will go first, since that is what you wish. But I swear that if you do not come after me and marry me, I will remain unmarried all my life.
+        - id: ch04-b10
+          speaker: narrator
+          text: Bensurdatu fastened the rope around her, and the generals pulled her up. But they did not lower the rope again. Envy of Bensurdatu's courage and success filled them, and they walked away, leaving him to die.
+        - id: ch04-b11
+          speaker: narrator
+          text: The generals were not satisfied with abandoning Bensurdatu. They threatened all three princesses and forced them to promise that, once they reached home, they would tell their parents it was the two generals who had freed them.
+        - id: ch04-b12
+          speaker: first_general
+          text: If anyone asks about Bensurdatu, you must say that you have never seen him.
+        - id: ch04-b13
+          speaker: narrator
+          text: Fearing for their lives, the princesses promised everything. Then they all rode back to the court.
+        - id: ch04-b14
+          speaker: narrator
+          text: The king and queen were beside themselves with joy when they saw their beloved children again. The generals told a grand story about rescuing them and all the dangers they claimed to have faced. The king believed every word. He declared that the young men had earned the promised reward, and that the two eldest princesses would become their wives.
+    - id: ch05
+      title: The Enchanted Purse
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Now we must return to poor Bensurdatu. He waited patiently for a long, long time. When the rope did not come back, he knew that the youngest princess had been right. His companions had betrayed him.
+        - id: ch05-b02
+          speaker: bensurdatu
+          text: Ah, I will never reach the upper world again.
+          emotion: sad
+        - id: ch05-b03
+          speaker: narrator
+          text: But Bensurdatu was brave, and he knew that mourning his fate would do no good. He rose and searched all three halls, hoping to find something that might help him. In the last hall he found a dish full of food. The sight reminded him of his hunger, so he sat down to eat and drink.
+        - id: ch05-b04
+          speaker: narrator
+          text: Months went by. One morning, while Bensurdatu walked through the halls, he noticed a purse hanging on the wall. It had never been there before. He took it down to examine it and nearly dropped it when a voice spoke from inside.
+        - id: ch05-b05
+          speaker: purse_voice
+          text: What do you command?
+        - id: ch05-b06
+          speaker: bensurdatu
+          text: Take me away from this horrible place and return me to the world above.
+        - id: ch05-b07
+          speaker: narrator
+          text: In an instant, he stood on the riverbank with the purse clutched tightly in his hand.
+        - id: ch05-b08
+          speaker: bensurdatu
+          text: Now give me the most beautiful ship ever built, fully crewed and ready to sail.
+        - id: ch05-b09
+          speaker: narrator
+          text: At once the ship appeared. A flag flew from its mast with the words, King with the Three Crowns. Bensurdatu went aboard and sailed toward the city where the princesses lived.
+        - id: ch05-b10
+          speaker: narrator
+          text: When he reached the harbor, trumpets sounded and drums beat. Everyone ran to the doors and windows. The king heard the commotion and saw the splendid vessel.
+        - id: ch05-b11
+          speaker: king
+          text: That stranger must be a powerful king. He has three crowns, while I have only one.
+        - id: ch05-b12
+          speaker: narrator
+          text: The king hurried down to welcome the stranger and invited him to the castle. As they went, the king thought that such a mighty visitor would make an excellent husband for his youngest daughter. She had never married. Every time a suitor asked for her hand, she had turned him away because she would listen to none of them.
+    - id: ch06
+      title: Bensurdatu Revealed
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: So much time had passed since Bensurdatu left the palace that the king never imagined the richly dressed stranger was the faithful servant he had mourned as dead.
+        - id: ch06-b02
+          speaker: king
+          text: Noble lord, come feast and celebrate with us. Afterward, if it pleases you, honor me by taking my youngest daughter as your wife.
+        - id: ch06-b03
+          speaker: narrator
+          text: Bensurdatu gladly accepted. They sat down to a great feast, and everyone rejoiced except the youngest princess. She was sad because her thoughts were still with Bensurdatu.
+        - id: ch06-b04
+          speaker: king
+          text: Dear child, this mighty lord has done you the honor of asking for your hand in marriage.
+        - id: ch06-b05
+          speaker: youngest_princess
+          text: Oh, Father, please spare me. I wish to remain unmarried.
+          emotion: sad
+        - id: ch06-b06
+          speaker: bensurdatu
+          text: Would you give me the same answer if I were Bensurdatu?
+        - id: ch06-b07
+          speaker: narrator
+          text: The princess stood silent and gazed at him.
+        - id: ch06-b08
+          speaker: bensurdatu
+          text: Yes, I am Bensurdatu. Now listen, and I will tell you my story.
+        - id: ch06-b09
+          speaker: narrator
+          text: Bensurdatu told them everything, from his journey with the generals to the rescue beneath the river, their betrayal, and his escape with the enchanted purse. As the king and queen listened, the story of his adventures stirred their hearts. When Bensurdatu finished, the king reached out his hand.
+        - id: ch06-b10
+          speaker: king
+          text: Dear Bensurdatu, my youngest daughter shall indeed be your wife. When I die, my crown will be yours. The men who betrayed you must leave this country, and you will never see them again.
+        - id: ch06-b11
+          speaker: narrator
+          text: The wedding feast was ordered, and for three days the whole court rejoiced over the marriage of Bensurdatu and the youngest princess.

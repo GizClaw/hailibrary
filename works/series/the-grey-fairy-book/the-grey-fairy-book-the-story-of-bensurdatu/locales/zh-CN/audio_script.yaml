@@ -1,0 +1,399 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，带一点温和的诙谐
+        timbre: 温暖清晰
+        pace: 舒缓
+        pitch: 中音
+    bensurdatu:
+      display_name: 本苏尔达图
+      tts:
+        delivery: 忠诚勇敢，说话坦率而坚定
+        timbre: 清朗有力
+        pace: 适中
+        pitch: 中音
+    king:
+      display_name: 国王
+      tts:
+        delivery: 慈爱庄重，悲伤时低沉克制
+        timbre: 浑厚温和
+        pace: 稍慢
+        pitch: 中低音
+    eldest_princess:
+      display_name: 大公主
+      tts:
+        delivery: 端庄机敏，危急时仍保持镇定
+        timbre: 柔和清亮
+        pace: 适中
+        pitch: 中高音
+    second_princess:
+      display_name: 二公主
+      tts:
+        delivery: 温柔谨慎，说话简洁清楚
+        timbre: 明净柔美
+        pace: 适中
+        pitch: 中高音
+    youngest_princess:
+      display_name: 小公主
+      tts:
+        delivery: 真挚敏锐，柔弱中带着坚定
+        timbre: 清细柔和
+        pace: 适中
+        pitch: 中高音
+    first_general:
+      display_name: 第一位将军
+      tts:
+        delivery: 年轻自负，遇险时显出慌张
+        timbre: 明亮偏硬
+        pace: 适中
+        pitch: 中音
+    second_general:
+      display_name: 第二位将军
+      tts:
+        delivery: 年轻急切，底气不足
+        timbre: 稍显粗哑
+        pace: 稍快
+        pitch: 中音
+    old_woman:
+      display_name: 老妇人
+      tts:
+        delivery: 苍老睿智，警告时郑重严肃
+        timbre: 苍老温厚
+        pace: 舒缓
+        pitch: 低音
+    first_giant:
+      display_name: 第一个巨人
+      tts:
+        delivery: 困倦凶恶，声音含混沉重
+        timbre: 粗重低沉
+        pace: 缓慢
+        pitch: 低音
+    second_giant:
+      display_name: 第二个巨人
+      tts:
+        delivery: 昏沉多疑，语气凶狠
+        timbre: 沙哑厚重
+        pace: 缓慢
+        pitch: 低音
+    purse_voice:
+      display_name: 钱袋里的声音
+      tts:
+        delivery: 恭敬利落，不带多余情绪
+        timbre: 清晰神秘
+        pace: 适中
+        pitch: 中音
+  chapters:
+    - id: ch01
+      title: 消失的三位公主
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，有一位国王和一位王后，他们有三个美貌非凡的女儿。夫妻俩从早到晚想的，都是怎样让女儿们快活。一天，三位公主提出想去郊外野餐。
+        - id: ch01-b02
+          speakers: [eldest_princess, second_princess, youngest_princess]
+          ensemble: chorus
+          text: >-
+            亲爱的父王，我们真想出去野餐，在郊外吃顿饭。
+        - id: ch01-b03
+          speaker: king
+          text: >-
+            好啊，亲爱的孩子们。那我们就去野餐，我马上叫人准备。
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            午餐准备妥当后，人们把食物装上大车，王室一家也坐进马车，向着郊外出发。走了几英里，他们来到国王的一座宅院和花园旁。紧挨着花园的地方，正是全家最喜欢的野餐地点。一路颠簸，人人都饿坏了，大家痛痛快快地吃起来，带来的食物很快便所剩无几。吃饱以后，公主们又想去花园走走。
+        - id: ch01-b05
+          speakers: [eldest_princess, second_princess, youngest_princess]
+          ensemble: chorus
+          text: >-
+            我们去花园里转一会儿。你们要回家时，喊我们一声就好。
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            三个姑娘笑着跑过碧绿的林间草地。可她们刚跨过篱笆，一团乌云就沉下来，把她们罩得严严实实，连前路也看不见了。国王和王后还懒洋洋地坐在石南丛中。过了一两个钟头，太阳渐渐西沉，他们才呼唤女儿回家，一连喊了许多声，却无人回答。
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            四周一片寂静，夫妻俩害怕起来，慌忙搜遍花园的每个角落，又找遍宅院和附近的树林，哪里也没有女儿的踪影，仿佛大地把她们一口吞了。可怜的父母悲痛欲绝。王后一路哭回王宫，往后许多天也止不住眼泪。国王颁下告示，谁能带回三位公主，便可娶其中一位，并在他死后继承王位。
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            宫中两位年轻将军听说以后，都觉得自己或许能交上好运。
+        - id: ch01-b09
+          speakers: [first_general, second_general]
+          ensemble: duo
+          text: >-
+            我们去找她们吧，说不定立下大功的正是咱们。
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            两人各骑一匹壮马，带着替换的衣裳和一些钱出发了。他们经过每座村庄都四处询问，却没有半点消息。日子一天天过去，钱全花光了。如果还想继续寻找，他们就只能卖掉坐骑。卖马的钱很快也用尽了。除了身上和行囊里的衣裳，再没有什么能拿来换取食物。他们只好卖掉备用衣服，穿着仅剩的那一套走进客店。两个人实在饿得受不了，求店主先给些吃喝，等到付账时才承认身无分文。
+        - id: ch01-b11
+          speakers: [first_general, second_general]
+          ensemble: duo
+          text: >-
+            我们一文钱也没有，只剩身上的衣服。您拿走吧，换几件破衣给我们，再让我们留下干活。
+        - id: ch01-b12
+          speaker: narrator
+          text: >-
+            店主答应了，两位将军从此成了他的仆人。王宫里，国王和王后仍苦苦思念女儿，却连两位将军也失去了音信。
+    - id: ch02
+      title: 本苏尔达图出发
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            国王有个忠仆，名叫本苏尔达图，已经侍奉他许多年。见国王悲痛不已，本苏尔达图主动请求出发寻人。
+        - id: ch02-b02
+          speaker: bensurdatu
+          text: >-
+            陛下，请让我去寻找您的女儿吧。
+        - id: ch02-b03
+          speaker: king
+          text: >-
+            不行，本苏尔达图。我已经失去三个女儿和两位将军，难道还要再失去你吗？
+          emotion: sad
+        - id: ch02-b04
+          speaker: bensurdatu
+          text: >-
+            请让我去吧，陛下。相信我，我一定把公主们带回来。
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            国王终于答应。本苏尔达图骑到那家客店，下马要了些食物。送饭来的正是两位衣衫褴褛的将军。尽管他们落魄得不成样子，本苏尔达图还是一眼认出他们，惊讶地问两人怎么会到了这里。听完一路的遭遇，他立即叫来店主，答应替他们付清所有欠账，请店主归还衣裳。两位将军终于换回原来的衣服，也决定和他同行，一起寻找国王的女儿。
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            三人走了许多英里，来到一片不见人烟的荒野。天快黑了，他们怕迷失方向，催着马继续赶路，终于看见一间小屋的窗里亮着灯。三人刚敲门，屋里便有人询问来者是谁。
+        - id: ch02-b07
+          speaker: bensurdatu
+          text: >-
+            求您收留我们一夜吧。我们三个赶路赶得筋疲力尽，又迷了路。
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            开门的是一位年纪很大的老妇人。她让三人进屋，问他们从哪里来，又要去哪里。
+        - id: ch02-b09
+          speaker: bensurdatu
+          text: >-
+            好心的婆婆，我们有一桩艰难的差事，非把国王的女儿带回王宫不可。
+        - id: ch02-b10
+          speaker: old_woman
+          text: >-
+            你们这些不幸的人，根本不知道自己要面对什么。公主们被浓云罩住，从此没人知道她们去了哪里。
+        - id: ch02-b11
+          speaker: bensurdatu
+          text: >-
+            您若知道她们的下落，求您告诉我们。找到她们，我们才会幸福。
+        - id: ch02-b12
+          speaker: old_woman
+          text: >-
+            就算告诉你们，也未必救得出人。你们得潜到一条深河的最底下。三位公主确实在那里，可两个大女儿分别由巨人看守，小女儿身边还有一条七头蛇。
+        - id: ch02-b13
+          speaker: narrator
+          text: >-
+            两位将军听得魂不附体，立刻想回去。本苏尔达图却站得稳稳的。既然已经走到这里，他就一定要把事情做到底。他请老妇人指明河流所在，好让三个人尽快赶去。老妇人告诉了他，又拿出奶酪、葡萄酒和面包，免得他们空着肚子上路。三个人吃饱喝足，躺下睡了一夜。第二天太阳刚升上山头，他们就向这位出手相助的聪慧老妇人告别，一路骑到河边。
+    - id: ch03
+      title: 河底的两座大厅
+      blocks:
+        - id: ch03-b01
+          speaker: first_general
+          text: >-
+            我年纪最大，理应让我先下去。
+        - id: ch03-b02
+          speaker: narrator
+          text: >-
+            另外两人把绳索系在他腰上，交给他一只小铃铛，再将他慢慢放进河里。水刚没过头顶，骇人的奔流声和炸雷便从四周压来。将军吓得勇气全消，拼命摇响铃铛，却不知道这么大的喧嚣里，上面能不能听见。绳索终于开始向上移动，把他一点点拉回岸边，他这才彻底松了口气。第二位将军接着潜入水中，结果并不比第一个强，很快也回到了干燥的岸上。
+        - id: ch03-b03
+          speaker: bensurdatu
+          text: >-
+            你们两个可真勇敢！现在轮到我了，看看我会遇上什么吧。
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            本苏尔达图把绳子系在腰间，任同伴将自己放进水里。水下雷声轰鸣，乱响不绝，他却只想着，不管声音闹得多大，反正伤不了自己。双脚一碰到河底，他便发现自己站在一座宽阔而灯火辉煌的大厅里。大公主坐在大厅中央，一个身躯庞大的巨人躺在她面前，正睡得死沉。大公主一看见本苏尔达图，就悄悄向他点头，又用眼神询问他是怎样来到这里的。
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            本苏尔达图拔剑正要砍下巨人的头，大公主赶紧拦住他，示意他先藏起来。巨人已经伸着粗壮的胳膊醒来。
+        - id: ch03-b06
+          speaker: first_giant
+          text: >-
+            我闻到了活人的肉味！
+        - id: ch03-b07
+          speaker: eldest_princess
+          text: >-
+            活人怎么可能来到这里？你还是接着睡吧。
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            巨人相信了她的话，翻个身，又睡着了。公主这才向本苏尔达图打手势。他拔剑冲出藏身之处，用尽力气朝巨人砍去，一剑便斩下了那颗脑袋，叫它一直飞到墙角。公主心中欢喜得怦怦直跳，把一顶金冠戴在本苏尔达图头上，称他为自己的救命恩人。
+        - id: ch03-b09
+          speaker: bensurdatu
+          text: >-
+            带我去找你的妹妹们，我也要救她们出来。
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            大公主领他走进第二座大厅。二公主坐在那里，另一个巨人也正酣睡。眼看巨人要醒，二公主立刻让两人藏好。
+        - id: ch03-b11
+          speaker: second_giant
+          text: >-
+            我闻到了活人的肉味！
+        - id: ch03-b12
+          speaker: second_princess
+          text: >-
+            活人怎么可能到这里来？快接着睡吧。
+        - id: ch03-b13
+          speaker: narrator
+          text: >-
+            巨人听了，又合上眼睛。本苏尔达图立刻从藏身的角落悄悄走出，对准他的脖子猛砍一剑。那颗脑袋顿时飞得远远的。二公主终于脱险，感激得连一句道谢的话也说不出来。她也拿出一顶金冠，郑重地放进本苏尔达图手中。
+        - id: ch03-b14
+          speaker: bensurdatu
+          text: >-
+            现在带我去找小公主，我要把她也救出来。
+        - id: ch03-b15
+          speakers: [eldest_princess, second_princess]
+          ensemble: duo
+          text: >-
+            只怕你救不了她。看守她的，是一条七头蛇。
+        - id: ch03-b16
+          speaker: bensurdatu
+          text: >-
+            带我去见它。这一定会是一场痛快的恶战。
+    - id: ch04
+      title: 七头蛇与背叛
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            公主打开门，本苏尔达图走进第三座大厅。这里比前两座还要宽敞。小公主站在里面，被锁链牢牢拴在墙上，面前卧着一条模样可怕的七头蛇。他刚向前走，七颗蛇头就同时扭转过来，紧接着猛扑而上，想把他攫进爪中。本苏尔达图拔剑迎战，朝着怪物一阵猛烈劈砍，直到七颗头全滚落在地。他扔下剑，冲到小公主身边，用力挣断她的锁链。公主喜极而泣，紧紧拥抱了他，又从自己头上取下金冠，放进他的手中。
+        - id: ch04-b02
+          speaker: bensurdatu
+          text: >-
+            现在，我们该回到上面的世界了。
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            他带着小公主回到河底，两个姐姐已经在那里等候。本苏尔达图先把绳索系在大公主腰间，摇响铃铛。上面的将军把她轻轻拉上去，又把绳索扔回水中。没过多久，二公主也到了姐姐身边。河底只剩下本苏尔达图和小公主。
+        - id: ch04-b04
+          speaker: youngest_princess
+          text: >-
+            亲爱的本苏尔达图，答应我一件事，让他们先拉你上去吧。我怕那两个将军会害你。
+          emotion: fearful
+        - id: ch04-b05
+          speaker: bensurdatu
+          text: >-
+            不行，我绝不会把你独自留在这里。我的同伴没有什么好怕的。
+        - id: ch04-b06
+          speaker: youngest_princess
+          text: >-
+            既然你一定要我先走，我就听你的。不过我发誓，如果你不上来娶我，我一生都不会嫁给别人。
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            本苏尔达图把绳子系在她腰间，两位将军将她拉上了岸。可这一次，他们没有再把绳索放回河里。本苏尔达图远胜过他们的勇气，还有他独自救出三位公主的功劳，叫两人心中的妒火越烧越旺。他们转身就走，把本苏尔达图留在河底等死。还不止如此，两位将军又以性命相逼，要三位公主回宫后告诉父母，救出她们的是两位将军。
+        - id: ch04-b08
+          speakers: [first_general, second_general]
+          ensemble: duo
+          text: >-
+            要是有人问起本苏尔达图，你们就说从来没有见过他。
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            公主们担心两位将军真的会要她们的命，只得什么都答应下来，随后跟着他们骑马回到宫廷。国王和王后重见心爱的女儿，高兴得几乎发狂。两位将军把编造的故事讲了一遍，又夸耀自己一路经历的种种危险。国王相信他们立下了大功，宣布两人已经赢得应有的奖赏，两个大女儿将分别成为他们的妻子。
+    - id: ch05
+      title: 神奇的钱袋
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            再说可怜的本苏尔达图。他耐心等了很久，绳索始终没有回来，终于明白同伴已经背叛了他。
+        - id: ch05-b02
+          speaker: bensurdatu
+          text: >-
+            唉，这下我再也回不到上面的世界了。
+          emotion: sad
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            可他生性勇敢，也知道坐在那里哀叹命运毫无用处，便重新站起身，在三座大厅里四处搜寻，希望找到脱困的办法。最后一座大厅里摆着一盘食物，看见它，本苏尔达图才想起自己已经饿了，于是坐下来吃了东西，也喝了水。就这样，几个月过去了。一天早晨，他正走过那些大厅，忽然看见墙上挂着一只从未出现过的钱袋。本苏尔达图取下来仔细端详，袋里竟传出了一个声音，吓得他险些失手把钱袋扔在地上。
+        - id: ch05-b04
+          speaker: purse_voice
+          text: >-
+            您有什么吩咐？
+        - id: ch05-b05
+          speaker: bensurdatu
+          text: >-
+            快带我离开这个可怕的地方，回到上面的世界！
+        - id: ch05-b06
+          speaker: narrator
+          text: >-
+            转眼间，他已经站在河岸上，手里仍紧紧攥着钱袋。
+        - id: ch05-b07
+          speaker: bensurdatu
+          text: >-
+            给我一艘世上最漂亮的船。水手必须齐备，随时都能出海。
+        - id: ch05-b08
+          speaker: narrator
+          text: >-
+            一艘大船立刻出现在眼前，船上的水手已经各就各位。桅杆顶端，旗帜迎风飘扬，上面写着“三冠之王”。本苏尔达图登船驶向三位公主居住的都城。船一进港，他就命人吹响号角、擂起大鼓，城里人人都奔到门口和窗边张望。国王也听见了动静，看见那艘华美的船。他心想，这位陌生君主有三顶王冠，自己却只有一顶，对方一定强大无比。于是他赶忙前去迎接，还请客人到城堡做客。他暗中打算，让这位贵客娶自己的小女儿。原来，小公主一直没有成婚，对所有前来求亲的人都不肯理会。
+    - id: ch06
+      title: 三冠之王的身份
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: >-
+            本苏尔达图离开王宫已经太久，如今又换上了一身华贵衣饰。国王望着眼前气派非凡的陌生人，丝毫没有认出，他正是那个曾让自己深深哀悼、以为早已死去的忠仆。
+        - id: ch06-b02
+          speaker: king
+          text: >-
+            尊贵的客人，请和我们一同饮宴作乐。宴席过后，如果您愿意，就请娶我的小女儿，让我得到这份荣幸。
+        - id: ch06-b03
+          speaker: narrator
+          text: >-
+            本苏尔达图听了十分高兴。众人坐下来参加盛宴，到处喜气洋洋，只有小公主闷闷不乐，因为她想的仍是本苏尔达图。宴席结束，国王把她叫到面前。
+        - id: ch06-b04
+          speaker: king
+          text: >-
+            亲爱的孩子，这位强大的君主愿意屈尊向你求婚。
+        - id: ch06-b05
+          speaker: youngest_princess
+          text: >-
+            父王，求您别逼我。我只愿一生不嫁。
+          emotion: sad
+        - id: ch06-b06
+          speaker: bensurdatu
+          text: >-
+            假如我就是本苏尔达图，你也会给我同样的回答吗？
+        - id: ch06-b07
+          speaker: narrator
+          text: >-
+            小公主没有说话，只是站在那里凝望着他。
+        - id: ch06-b08
+          speaker: bensurdatu
+          text: >-
+            不错，我就是本苏尔达图。现在，让我把自己的经历全讲给你们听。
+        - id: ch06-b09
+          speaker: narrator
+          text: >-
+            本苏尔达图把从出发寻找公主，到遭人背叛，再到乘着大船归来的经过一一讲明。国王和王后听完这番奇遇，心中都深受感动。等他说完，国王便向他伸出手来。
+        - id: ch06-b10
+          speaker: king
+          text: >-
+            亲爱的本苏尔达图，我的小女儿当然要嫁给你。等我去世，我的王冠也属于你。那两个背叛你的人必须离开这个国家，永远不能再出现在你眼前。
+        - id: ch06-b11
+          speaker: narrator
+          text: >-
+            国王立刻命人筹备婚宴。本苏尔达图和小公主终于举行了婚礼。为了庆祝他们成婚，王宫里摆开盛宴，处处都是欢声笑语，全国上下也连续欢庆了整整三天。
+    - id: ch07
+      title: 故事的来处
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: >-
+            这个故事译自《西西里童话》。
