@@ -5,7 +5,7 @@ description: Retell a final ungraded HaiLibrary article as a story-faithful, gen
 
 # Scriptize a final article
 
-Retell one final standalone `works/articles/<article-id>/locales/<locale>/article.md` or series child `works/series/<series-id>/<article-id>/locales/<locale>/article.md` as adjacent `audio_script.yaml`, working as a storyteller and script director preparing it for listening. Read [references/annotated-article-contract.md](references/annotated-article-contract.md) first. Do not repair or rewrite the literary source here. Picture books have no audio script.
+Retell one final standalone `works/articles/<article-id>/locales/<locale>/article.md` or series child `works/series/<series-id>/<article-id>/locales/<locale>/article.md` as adjacent `audio_script.yaml`, working as a storyteller and script director preparing it for listening. Read [references/annotated-article-contract.md](references/annotated-article-contract.md) first. Do not repair or rewrite the literary source here. Picture books have no audio script, and neither does a classic's front or back matter (prefaces, introductions, notices, notes).
 
 Adapt each locale only from its own complete `article.md`. Locale scripts are independent: never translate, align, or use another locale's script as source, and do not force matching blocks, block counts, inferred chapters, attributions, or emotion placement. Keep declared character IDs shared, but make `display_name`, TTS direction, and all spoken text native to the locale.
 
