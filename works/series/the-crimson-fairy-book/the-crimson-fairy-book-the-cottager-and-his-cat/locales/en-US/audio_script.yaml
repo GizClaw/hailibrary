@@ -1,0 +1,202 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and storylike
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    stranger:
+      display_name: The Stranger
+      tts:
+        delivery: grave and commanding
+        timbre: deep and distant
+        pace: measured
+        pitch: low
+    young_man:
+      display_name: The Young Man
+      tts:
+        delivery: honest, thoughtful, and plainspoken
+        timbre: youthful and clear
+        pace: steady
+        pitch: medium
+    forest_woman:
+      display_name: The Forest Woman
+      tts:
+        delivery: kindly and welcoming
+        timbre: mature and gentle
+        pace: unhurried
+        pitch: medium
+    supper_guest_1:
+      display_name: The First Supper Guest
+      tts:
+        delivery: friendly and matter-of-fact
+        timbre: clear and light
+        pace: steady
+        pitch: medium
+    supper_guest_2:
+      display_name: The Second Supper Guest
+      tts:
+        delivery: friendly and matter-of-fact
+        timbre: warm and rounded
+        pace: steady
+        pitch: medium-low
+    supper_guest_3:
+      display_name: The Third Supper Guest
+      tts:
+        delivery: friendly and matter-of-fact
+        timbre: crisp and bright
+        pace: steady
+        pitch: medium-high
+    second_old_man:
+      display_name: The Old Man
+      tts:
+        delivery: generous and practical
+        timbre: aged and warm
+        pace: unhurried
+        pitch: low
+    king:
+      display_name: The King
+      tts:
+        delivery: dignified, candid, and decisive
+        timbre: mature and resonant
+        pace: measured
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Dream and the Six Shillings
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was an old man who lived with his wife in a filthy cottage that was almost falling down. Their hut stood not far from the splendid palace of the king and queen. People said it was hardly fit for a pig, yet the old man was very rich. He was lucky, but he was also such a miser that he would rather go hungry all day than spend one of his precious gold pieces.
+        - id: ch01-b02
+          speaker: narrator
+          text: At last, he went hungry once too often. He fell ill, had no strength left to recover, and died within a few days. His wife and their one son were left behind.
+        - id: ch01-b03
+          speaker: narrator
+          text: On the night after his father's death, the son dreamed that a stranger came to him with a warning.
+        - id: ch01-b04
+          speaker: stranger
+          text: Listen carefully. Your father is dead, and your mother will soon die too. Then all their riches will be yours. Half that money was gained dishonestly. Give it back to the poor people your father took it from. Throw the other half into the sea. Watch while it sinks, and if anything floats, catch it and keep it, even if it's only a scrap of paper.
+        - id: ch01-b05
+          speaker: narrator
+          text: Then the stranger vanished, and the young man woke up.
+        - id: ch01-b06
+          speaker: narrator
+          text: The dream weighed heavily on him. All his life he had known cold and hunger, and he had hoped his inheritance would finally bring him some comfort. He hated the thought of giving it away. But he was honest and kindhearted. If his father had gotten the money wrongfully, the son knew he could never enjoy it. In the end, he resolved to obey the dream.
+        - id: ch01-b07
+          speaker: narrator
+          text: He discovered which villagers were poorest and used half the fortune to help them. He put the rest in his pocket and climbed onto a rock that reached far out over the sea. From there, he threw the money into the water.
+        - id: ch01-b08
+          speaker: narrator
+          text: It vanished at once. No one could have known where it sank, except that a tiny scrap of paper still floated on the surface. The young man leaned down with care and managed to catch it. When he opened it, he found six shillings folded inside. That was now every penny he had in the world.
+        - id: ch01-b09
+          speaker: narrator
+          text: He stood looking thoughtfully at the coins.
+        - id: ch01-b10
+          speaker: young_man
+          text: Well, I won't get very far with this.
+        - id: ch01-b11
+          speaker: narrator
+          text: Still, six shillings were better than nothing. He wrapped them in the paper again and slipped them into his coat.
+
+    - id: ch02
+      title: The Strange Little Creature
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: For the next few weeks, the young man worked in his garden. He and his mother lived on the fruit and vegetables he grew there. Then she too died suddenly.
+        - id: ch02-b02
+          speaker: narrator
+          text: After he had laid his mother in her grave, the poor young man was full of sorrow. He wandered into the forest with a heavy heart and paid no attention to where he was going. Before long, hunger came over him. He saw a small hut ahead, knocked at its door, and asked for some milk.
+        - id: ch02-b03
+          speaker: narrator
+          text: An old woman opened the door and warmly invited him inside.
+        - id: ch02-b04
+          speaker: forest_woman
+          text: And if you need somewhere to sleep tonight, you may stay here. It won't cost you anything.
+        - id: ch02-b05
+          speaker: narrator
+          text: Two women and three men were eating supper in the hut. They quietly made room for him at the table. Once he had eaten, he looked around and noticed an animal sitting beside the fire. He had never seen anything like it. The creature was gray and rather small, with large, shining eyes. It made a strange singing sound unlike any forest animal he knew.
+        - id: ch02-b06
+          speaker: young_man
+          text: What do you call that odd little creature?
+        - id: ch02-b07
+          speakers: [supper_guest_1, supper_guest_2, supper_guest_3]
+          ensemble: chorus
+          text: We call it a cat.
+        - id: ch02-b08
+          speaker: young_man
+          text: I'd like to buy it, if the price isn't too high. It would keep me company.
+        - id: ch02-b09
+          speakers: [supper_guest_1, supper_guest_2, supper_guest_3]
+          ensemble: chorus
+          text: You may have it for six shillings, if you're willing to pay that much.
+        - id: ch02-b10
+          speaker: narrator
+          text: The young man took out his precious paper and handed over all six shillings. The next morning, he said farewell and went on his way with the cat tucked snugly inside his cloak.
+
+    - id: ch03
+      title: The Road to the Palace
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The young man and the cat wandered across meadows and through forests all day. By evening, they had reached another house. He knocked, and an old man came to the door. The traveler asked if he might rest there for the night, though he had no money to give in return.
+        - id: ch03-b02
+          speaker: second_old_man
+          text: Then I'll have to let you stay for free.
+        - id: ch03-b03
+          speaker: narrator
+          text: The old man led him into a room where two women and two men sat at supper. One woman was his wife, and the other was his daughter. The young man set the cat on the mantel. Everyone gathered close to study this unfamiliar beast.
+        - id: ch03-b04
+          speaker: narrator
+          text: The cat rubbed against them, stretched out a paw, and sang. The women were delighted. They fed it everything a cat could eat, and much more besides.
+        - id: ch03-b05
+          speaker: narrator
+          text: The young man told them his story and explained that the cat was all he had left in the world. The old man advised him to visit the palace, only a few miles away, and ask the king what to do. The king was kind to everyone, he said, and would surely help him. The young man thanked his host and gladly agreed to follow his advice.
+        - id: ch03-b06
+          speaker: narrator
+          text: Early the next morning, he set out for the royal palace. He sent the king a message asking to be received. The answer told him to enter the great hall, where His Majesty was waiting.
+
+    - id: ch04
+      title: The Cat at Court
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The king was dining with his court when the young man came in. He motioned for the visitor to approach. The young man bowed low, then stared in wonder at the little black creatures racing across the floor and even over the table.
+        - id: ch04-b02
+          speaker: narrator
+          text: The creatures were so bold that they stole food straight from the king's plate. When he tried to drive them off, they snapped at his hands. The king could hardly eat, and his courtiers were no better off.
+        - id: ch04-b03
+          speaker: young_man
+          text: What kind of animals are those?
+        - id: ch04-b04
+          speaker: narrator
+          text: He had asked a lady seated nearby, but the king heard him and answered.
+        - id: ch04-b05
+          speaker: king
+          text: They're called rats. We've spent years trying to get rid of them, but nothing works. They even crawl into our beds.
+        - id: ch04-b06
+          speaker: narrator
+          text: Just then, something flew through the air. The cat landed on the table. With two or three quick shakes, it left a number of rats dead around it. A great patter and scramble followed. Within minutes, every other rat had fled the hall.
+        - id: ch04-b07
+          speaker: narrator
+          text: For a while, the king and his courtiers could only stare at one another in amazement.
+        - id: ch04-b08
+          speaker: king
+          text: What sort of animal can perform magic like that?
+          emotion: surprised
+        - id: ch04-b09
+          speaker: narrator
+          text: The young man explained that the animal was called a cat and that he had paid six shillings for it.
+        - id: ch04-b10
+          speaker: king
+          text: You've freed my palace from a plague that has tormented me for years, and your good fortune has become mine. So I offer you a choice. You may become my prime minister, or you may marry my daughter and rule after me. Which do you choose?
+        - id: ch04-b11
+          speaker: young_man
+          text: The princess and the kingdom.
+        - id: ch04-b12
+          speaker: narrator
+          text: And so it was.
