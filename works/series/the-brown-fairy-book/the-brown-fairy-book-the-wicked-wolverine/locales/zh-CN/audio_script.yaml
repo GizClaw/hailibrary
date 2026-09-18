@@ -1,0 +1,227 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 清楚从容，像在为听众介绍一本古老的童话集
+        timbre: 温暖明净
+        pace: 舒缓
+        pitch: 中音
+    wolverine:
+      display_name: 貂熊
+      tts: {delivery: 自负刻薄，受挫时暴躁又不肯认错, timbre: 粗哑尖利, pace: 稍快, pitch: 中高音}
+    rock:
+      display_name: 岩石
+      tts: {delivery: 冷静干脆，反驳时不慌不忙, timbre: 低沉厚重, pace: 缓慢, pitch: 低音}
+    wolf:
+      display_name: 狼
+      tts: {delivery: 直率有力，语气不留情面, timbre: 粗犷洪亮, pace: 适中, pitch: 低音}
+    fox:
+      display_name: 狐狸
+      tts: {delivery: 机敏利落，话里带着讥讽, timbre: 清亮成熟, pace: 稍快, pitch: 中音}
+    hare:
+      display_name: 野兔
+      tts: {delivery: 直爽活泼，想到什么便说什么, timbre: 轻快明亮, pace: 稍快, pitch: 高音}
+    frog:
+      display_name: 青蛙妹妹
+      tts: {delivery: 温和有礼，待人诚恳, timbre: 柔和圆润, pace: 适中, pitch: 中高音}
+    mouse:
+      display_name: 老鼠妹妹
+      tts: {delivery: 安静能干，对兄长的无礼早已习惯, timbre: 细柔清楚, pace: 适中, pitch: 高音}
+    bear:
+      display_name: 熊
+      tts: {delivery: 老实迟缓，受骗时毫无戒心, timbre: 浑厚温和, pace: 缓慢, pitch: 中低音}
+  chapters:
+    - id: ch01
+      title: 岩石滚下山
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 一天，貂熊在山坡上闲逛。转过一道弯，它忽然看见前面立着一块大岩石。貂熊做事一向小心，遇见什么都非得问清缘由不可。
+        - id: ch01-b02
+          speaker: wolverine
+          text: 刚才我听见有人走来走去，是你吧？
+        - id: ch01-b03
+          speaker: rock
+          text: 当然不是。我又不会走路。
+        - id: ch01-b04
+          speaker: wolverine
+          text: 少装了，我亲眼看见你走了。
+        - id: ch01-b05
+          speaker: rock
+          text: 看来从前没人教你说真话。
+        - id: ch01-b06
+          speaker: narrator
+          text: 貂熊可不肯罢休。它认定岩石动过，还夸口说岩石绝对抓不住自己。为了证明这句话，它跑开一小段路，特意停下来看岩石有没有追来。岩石依旧待在原地，貂熊不但没觉得自己错了，反倒十分恼火。它走回来，紧挨着岩石，一爪拍了上去。
+        - id: ch01-b07
+          speaker: wolverine
+          text: 现在怎么样？来抓我呀！
+        - id: ch01-b08
+          speaker: rock
+          text: 我不会走，不过我会滚。
+        - id: ch01-b09
+          speaker: wolverine
+          text: 哈，那也一样！
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            貂熊笑着冲下山坡。起先，它有意慢吞吞地跑，心里还说要给岩石一个机会。没过多久，它就发现岩石快贴到自己的脚后跟了，只好越跑越快。可它跑得越快，岩石也滚得越快。貂熊渐渐累坏了，真后悔没让岩石安安静静待着。山脚下有一片大树林，只要冲进林子，岩石就追不进去。它拼命提速，在树枝和石块之间跳来跳去，岩石却始终紧追不放。最后，貂熊累得看不清脚下，被一根树枝绊倒了。岩石当即停下，正好压住它的腿。
+        - id: ch01-b11
+          speaker: wolverine
+          text: 快滚开！你没看见我的腿被你压住了吗？
+          emotion: angry
+        - id: ch01-b12
+          speaker: rock
+          text: 谁让你非来招惹我？我原本不想动，也最讨厌动。是你硬要比试的。现在没人逼我，我就不走。
+    - id: ch02
+      title: 闪电劈碎皮衣
+      blocks:
+        - id: ch02-b01
+          speaker: wolverine
+          text: 我这就叫兄弟们来。林子里有的是，它们个个比你力气大！
+        - id: ch02-b02
+          speaker: narrator
+          text: 貂熊叫个不停。狼、狐狸、野兔，还有许多动物都跑来看看出了什么事。大家围着它，接连问了好几遍。貂熊和许多人一样，最难承认麻烦其实是自己惹出来的，所以迟迟不开口。
+        - id: ch02-b03
+          speakers: [wolf, fox, hare]
+          ensemble: chorus
+          text: 你究竟怎么跑到岩石下面去了？
+        - id: ch02-b04
+          speaker: wolverine
+          text: 我只是觉得无聊，想找个伙伴玩，就叫岩石来追我。我当然以为自己跑得更快。谁知道我绊了一跤，它正好滚过来。这不过是场意外。
+        - id: ch02-b05
+          speakers: [wolf, fox, hare]
+          ensemble: chorus
+          text: 谁叫你这么蠢，落到这一步也是活该！
+        - id: ch02-b06
+          speaker: narrator
+          text: 嘴上虽然这样说，动物们还是留了下来。它们围着岩石，有的推，有的拉，忙了很长时间，岩石却连一寸也没动。貂熊的双腿被压得越来越疼，脾气也越发暴躁。
+        - id: ch02-b07
+          speaker: wolverine
+          text: 你们根本没用！既然救不了我，那就看看我的朋友雷声和闪电有什么本事。闪电，快来帮我！
+          emotion: angry
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            几分钟后，一团黑云翻滚着升上天空。雷声一记接一记地猛烈炸响，狼、狐狸和其余动物吓得朝四面八方逃去。可它们尽管害怕，临走还没忘记请求闪电，请它脱掉貂熊的皮衣，放出貂熊的双腿，同时千万别伤到它。闪电先在云里藏了一会儿，为自己积足新的力量，随后猛冲下来，正劈在岩石上。岩石炸得四处飞散。貂熊的皮衣也被脱得干干净净，只是撕成了数不清的小片，而貂熊自己一点没受伤。
+        - id: ch02-b09
+          speaker: narrator
+          text: 赤条条的貂熊站了起来，却不肯道谢，反而责怪闪电手脚太笨。
+        - id: ch02-b10
+          speaker: wolverine
+          text: 你就不能只劈岩石吗？为什么非把我的衣服也撕成碎片？
+        - id: ch02-b11
+          speaker: narrator
+          text: >-
+            貂熊弯下腰，一片片去捡皮衣。碎片多得数不清，它费了很久才全部收好。它想起住在沼泽里的青蛙妹妹，觉得妹妹一定能把衣服重新缝起来，便马上去找她。
+    - id: ch03
+      title: 两个妹妹
+      blocks:
+        - id: ch03-b01
+          speaker: wolverine
+          text: 我的皮衣遇上意外，已经没法穿了。你替我把它缝回去吧？
+        - id: ch03-b02
+          speaker: frog
+          text: 当然可以，我很乐意。
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            青蛙从小就受过教导，知道对人应该有礼貌。她取来针线，把碎片逐块摆好，再一针针缝在一起。可她虽然心地善良，手艺却不高明，有几块皮子安错了位置。貂熊对自己的穿戴格外挑剔，把皮衣往身上一套，立刻火冒三丈。
+        - id: ch03-b04
+          speaker: wolverine
+          text: 你怎么这么没用！这种衣服叫我怎么穿出去？后背鼓得像长了驼峰，胸口又紧得要命，我一喘气它就快裂了。我知道你笨，可没想到你能笨成这样！
+          emotion: angry
+        - id: ch03-b05
+          speaker: narrator
+          text: 貂熊一掌打在可怜的青蛙头上，把她打进了水里，接着气冲冲地去找年纪更小的老鼠妹妹。老鼠正坐在家门口吃苹果。
+        - id: ch03-b06
+          speaker: wolverine
+          text: >-
+            我早晨弄破了皮衣，碎得一片一片的。青蛙姐姐替我缝成了这个样子，你自己看看！现在把线全拆了，重新拼好。我可不想再抱怨第二回。
+        - id: ch03-b07
+          speaker: narrator
+          text: 貂熊仗着自己年长，平时一直这样命令老鼠。老鼠早已听惯，并不和它争吵。
+        - id: ch03-b08
+          speaker: mouse
+          text: 你还是留下等吧。衣服缝好以后，要是哪里不合适，我马上就能改。
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            貂熊在一堆干蕨叶上坐下，顺手拿走老鼠的苹果，连问也没问就全吃了。等衣服缝好，它往身上一套，这回各处都很合适，针脚也十分整齐。
+        - id: ch03-b10
+          speaker: wolverine
+          text: 这件很合身，缝得也不错。下次经过，我带一把谷子给你当酬劳。
+        - id: ch03-b11
+          speaker: narrator
+          text: 貂熊又神气活现地跑远了。老鼠留在门前，心里竟还十分感激它。
+    - id: ch04
+      title: 树下认亲
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            貂熊游荡了许多天，来到一个食物极其稀少的地方。整整一个星期，它什么都没吃，眼看就要绝望了。这时，它忽然碰见一头躺着熟睡的熊，马上把熊当成了自己的食物。可熊的身躯比它大得多，硬拼肯定不成。它必须想个狡猾的圈套，把熊骗到自己手里。貂熊苦苦琢磨了很久，终于拿定主意，悄悄走到熊的身边。
+        - id: ch04-b02
+          speaker: wolverine
+          text: 是你吗，我的妹妹？
+        - id: ch04-b03
+          speaker: narrator
+          text: 熊醒来一看，面前站着一只貂熊。她轻得不能再轻地嘀咕了一句。
+        - id: ch04-b04
+          speaker: bear
+          text: 我怎么从没听说自己有个哥哥？
+        - id: ch04-b05
+          speaker: narrator
+          text: 熊起身跑到树边，很快爬了上去。貂熊眼看自己的午餐要消失，气坏了。偏偏它又不会像熊那样爬树，只能站在树下拼命喊。
+        - id: ch04-b06
+          speaker: wolverine
+          text: >-
+            妹妹，下来吧！爸爸特意派我来找你。你小时候去摘浆果，后来走丢了。直到前几天，一只河狸才告诉我们你住在哪里。
+        - id: ch04-b07
+          speaker: narrator
+          text: 熊信了一点，沿着树干往下挪。貂熊见自己的话起了作用，又拿浆果来引她。
+        - id: ch04-b08
+          speaker: wolverine
+          text: >-
+            你喜欢浆果吧？我最喜欢了！我知道一处地方，浆果密得把地都盖住了。你朝那边看看，整片山坡都是红的！
+        - id: ch04-b09
+          speaker: bear
+          text: 我看不清那么远。你的眼睛真好，我要是也有这样的眼力就好了。我的眼睛什么都看不清楚。
+        - id: ch04-b10
+          speaker: wolverine
+          text: >-
+            我的眼力从前也不好。后来爸爸捣碎一桶蔓越莓，抹在我眼睛上，我就看清了。你去采些浆果回来，我照样替你弄，很快你也能看得像我这么远。
+        - id: ch04-b11
+          speaker: narrator
+          text: 熊这才完全下了树，按照貂熊的话去采浆果。她无论做什么都慢吞吞的，弯腰采摘又弄得后背阵阵发酸，所以花了很长时间，才终于装满一大袋浆果。她把沉甸甸的袋子扛回来，放在貂熊身旁。
+        - id: ch04-b12
+          speaker: wolverine
+          text: 采得真好，妹妹！现在躺平，把头枕在这块石头上，我来捣碎这些浆果。
+    - id: ch05
+      title: 蔓越莓的圈套
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 熊已经很累，正想好好歇一歇，便听话地伸展四肢，躺在草地上。过了一会儿，貂熊说一切都准备好了。
+        - id: ch05-b02
+          speaker: wolverine
+          text: >-
+            开始会有一点刺痛，你可千万别动。要是汁水流出去，我们就只能重新做一遍。
+        - id: ch05-b03
+          speaker: narrator
+          text: 熊答应一动不动。可蔓越莓刚碰到眼睛，她就大吼着跳了起来。
+        - id: ch05-b04
+          speaker: wolverine
+          text: >-
+            这一点疼怕什么，很快就没事了。等做完以后，你能看见许多从前连想都想不到的东西。
+        - id: ch05-b05
+          speaker: narrator
+          text: >-
+            熊呻吟一声，又躺回地上。蔓越莓汁灌满她的双眼，让她什么也看不见。貂熊拿起一把尖刀，刺进了她的心脏。随后，它剥下熊皮，又从一顶帐篷里偷来火种。那顶帐篷藏在岩石后面，却没能逃过它的锐眼。貂熊把熊肉一块块烤熟，觉得自己从没吃过这样鲜美的肉。吃饱以后，它决定下次挨饿还要用这套骗术。
+        - id: ch05-b06
+          speaker: narrator
+          text: 而它多半也真这么做了！
+        - id: ch05-b07
+          speaker: narrator
+          text: 这个故事根据民族学局的资料改编。

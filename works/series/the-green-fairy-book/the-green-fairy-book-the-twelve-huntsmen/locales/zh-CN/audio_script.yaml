@@ -1,0 +1,249 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，像编书人面对孩子娓娓而谈，幽默处轻巧含笑
+        timbre: 温暖清朗
+        pace: 舒缓而有自然起伏
+        pitch: 中音
+    prince_king:
+      display_name: 王子
+      tts:
+        delivery: 年轻真挚，身为国王时沉稳坦率，动情处毫不掩饰
+        timbre: 清朗温厚
+        pace: 适中
+        pitch: 中低音
+    first_princess:
+      display_name: 公主
+      tts:
+        delivery: 温柔坚定，伤心时克制低沉，行动时果断利落
+        timbre: 清澈柔亮
+        pace: 适中
+        pitch: 中高音
+    dying_king:
+      display_name: 老国王
+      tts:
+        delivery: 气息微弱却郑重执着，临终嘱托清楚缓慢
+        timbre: 苍老低沉
+        pace: 缓慢
+        pitch: 低音
+    princess_father:
+      display_name: 公主的父王
+      tts:
+        delivery: 慈爱关切，答应女儿时宽厚爽快
+        timbre: 沉稳温暖
+        pace: 舒缓
+        pitch: 中低音
+    lion:
+      display_name: 狮子
+      tts:
+        delivery: 聪明自信，识破秘密时笃定，受质疑时仍不慌不忙
+        timbre: 浑厚有力
+        pace: 适中
+        pitch: 低音
+    servant:
+      display_name: 侍从
+      tts:
+        delivery: 热心机敏，通风报信时压低声音又说得利落
+        timbre: 朴实清楚
+        pace: 稍快
+        pitch: 中音
+  chapters:
+    - id: ch01
+      title: 临终的承诺
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，有位王子和一位公主订了婚。王子很爱她。一天，两人正幸福地坐在一起，一封急信却送到了王子手中。信上说，他的父王已经病危，只盼临死前再见儿子一面。
+        - id: ch01-b02
+          speaker: prince_king
+          text: >-
+            唉，我非走不可，只能暂时把你留下。这枚戒指送给你，戴着它，就像我还陪着你。等我继承王位，一定回来接你回家。
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            王子告别心上人，骑马赶回父王身边。可他回来时，老国王已经奄奄一息。
+        - id: ch01-b04
+          speaker: dying_king
+          text: >-
+            最亲爱的儿子，我总算在死前见到了你。求你答应我，按照我的心愿娶妻。我要你娶邻国国王的女儿。
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            王子悲痛得什么也想不了，心里只剩下垂死的父亲。
+        - id: ch01-b06
+          speaker: prince_king
+          text: >-
+            好，好，亲爱的父王。只要是您的心愿，我全都答应。
+          emotion: sad
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            老国王听见这句话，便闭上眼睛，离开了人世。后来，王子继承王位，又照规矩服满了丧。他记得自己答应父亲的事，只好派人去向邻国公主求婚。邻国马上应允下来。
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            这个消息也传到了王子最初爱上的公主那里。她想到爱人竟抛下自己，便一天天憔悴下去，伤心得几乎送了命。父王看在眼里，心疼极了。
+        - id: ch01-b09
+          speaker: princess_father
+          text: >-
+            我最心爱的孩子，你为什么这么难过？想要什么就告诉我，不管是什么，我都会给你。
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            公主安静地想了一会儿，终于开口。
+        - id: ch01-b11
+          speaker: first_princess
+          text: >-
+            父王，请为我找来十一个姑娘。她们的年纪、身高和相貌，都要尽量和我一样。
+        - id: ch01-b12
+          speaker: princess_father
+          text: >-
+            只要世上能找到，我就一定满足你。
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            国王派人在全国寻找，果真找到了十一个和女儿年纪相近、身材相仿、模样也相似的姑娘。
+
+    - id: ch02
+      title: 十二名御前猎人
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            公主又叫人做了十二套猎装，从头到脚全都一模一样。十一个姑娘各穿一套，她自己穿上最后一套。十二个人看起来就像十二个年轻猎人。公主辞别父王，带着她们骑马赶往旧日恋人的宫廷。
+        - id: ch02-b02
+          speaker: first_princess
+          text: >-
+            请问陛下还需要猎人吗？如果需要，能不能把我们十二个人一起留下？
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            年轻的国王望着她，却没有认出昔日的爱人。他只觉得眼前这十二个年轻人个个俊秀，很乐意将他们全部收下。从此，他们便成了国王的十二名御前猎人。
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            国王还养着一头不同寻常的狮子。不管藏得多深的隐情，多严密的秘密，它全都知道。
+        - id: ch02-b05
+          speaker: lion
+          text: >-
+            陛下，您真以为新来的十二个人都是猎人吗？
+        - id: ch02-b06
+          speaker: prince_king
+          text: >-
+            当然，他们确实是十二个猎人。
+        - id: ch02-b07
+          speaker: lion
+          text: >-
+            您这次看错了。他们其实是十二个姑娘。
+        - id: ch02-b08
+          speaker: prince_king
+          text: >-
+            这怎么可能？你要怎样证明给我看？
+        - id: ch02-b09
+          speaker: lion
+          text: >-
+            叫人在前厅的地上撒满豌豆，您一看便明白。男人走路又稳又沉，踩过豌豆也不会让它们挪动。姑娘的脚步轻，踩上去容易滑，豆子便会四处乱滚。
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            国王听了很满意，马上叫人把豌豆撒进前厅。
+
+    - id: ch03
+      title: 铺满豌豆的前厅
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            幸好，宫里有个侍从很喜欢这群年轻猎人。他无意中听说了这场试探，立刻赶来给他们报信。
+        - id: ch03-b02
+          speaker: servant
+          text: >-
+            狮子正在劝国王，说你们其实全是姑娘。它还让人在前厅撒了满地豌豆，要从你们走路的样子看出真假。
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            公主谢过侍从。等他走了，她马上叮嘱十一个同伴。
+        - id: ch03-b04
+          speaker: first_princess
+          text: >-
+            明天踩过豌豆时，大家一定要把脚步踏稳，千万不能让豆子滚动。
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            第二天一早，国王召十二名猎人前来。他们穿过前厅时，每一步都踩得又沉又稳。满地的豌豆没有一颗滚开，连轻轻动一下的也没有。等猎人们走远，国王转向狮子。
+        - id: ch03-b06
+          speaker: prince_king
+          text: >-
+            你看，你一直在骗我。他们明明走得和男人一样。
+        - id: ch03-b07
+          speaker: lion
+          text: >-
+            他们事先知道这是试探，当然会故意用力走路。您再叫人在前厅摆上十二架纺车。等他们经过时，一定会欢喜得忍不住多看几眼，男人见了纺车可不会这样。
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            国王又一次听从了狮子的主意，命人在前厅摆好十二架纺车。
+
+    - id: ch04
+      title: 十二架纺车
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            好心的侍从很快又听到了这个新计策。他赶去找十二名猎人，把狮子的安排一五一十说了出来。等侍从离开，公主又把同伴们叫到身边。
+        - id: ch04-b02
+          speaker: first_princess
+          text: >-
+            这一次也要尽力忍住。走过前厅的时候，谁都不许朝那些纺车看上一眼。
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            第二天早晨，国王再次召见十二名猎人。他们一个接一个穿过前厅，目光始终望着前方，谁也没瞥过纺车。
+        - id: ch04-b04
+          speaker: prince_king
+          text: >-
+            你又骗了我一次。他们就是男人，要不然怎么会连纺车看都不看？
+        - id: ch04-b05
+          speaker: lion
+          text: >-
+            他们知道您还在试探，所以才硬把心里的喜欢压了下去。
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            可这一次，国王再也不肯相信狮子。十二名猎人便继续留在他身边，跟随他外出。相处得越久，国王越是喜欢他们。
+
+    - id: ch05
+      title: 戒指认出了新娘
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            一天，国王带着十二名猎人出门打猎。众人正在野外，有人忽然送来消息，说邻国那位未来的王后已经动身，不久就会来到这里。
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            真正的新娘一听，只觉得一把刀扎进心口。她再也支撑不住，昏倒在地。国王担心这个自己最喜爱的猎人出了事，连忙跑过去扶她，还想替她脱下手套。
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            手套一松，国王看见了那枚戒指。那正是他离开初恋时亲手送出的戒指。他望着猎人的脸，终于认出了她。国王深受触动，俯身吻了她。等公主睁开眼睛，他立刻对她说。
+        - id: ch05-b04
+          speaker: prince_king
+          text: >-
+            我属于你，你也属于我。世上再没有任何力量能把我们分开。
+        - id: ch05-b05
+          speaker: narrator
+          text: >-
+            国王随即派出使者，请邻国公主尽快返回自己的王国。他还让使者带去一句话。
+        - id: ch05-b06
+          speaker: prince_king
+          text: >-
+            我已经找回了自己的妻子。一个人既然找回旧钥匙，就用不着再配一把新的了。
+        - id: ch05-b07
+          speaker: narrator
+          text: >-
+            于是，国王和真正的新娘举行了盛大的婚礼。那头狮子也重新得到了国王的宠爱，因为它从头到尾说的都是真话。这个故事，是格林兄弟讲下来的。

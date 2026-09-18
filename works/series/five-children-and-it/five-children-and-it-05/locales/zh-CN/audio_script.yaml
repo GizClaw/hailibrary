@@ -1,0 +1,472 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切机敏，带一点含蓄的幽默
+        timbre: 温暖清亮
+        pace: 从容而有变化
+        pitch: 中音
+    cyril:
+      display_name: 西里尔
+      tts:
+        delivery: 自信爽快，像个爱拿主意的大孩子
+        timbre: 明亮结实
+        pace: 稍快
+        pitch: 中高音
+    anthea:
+      display_name: 安西娅
+      tts:
+        delivery: 认真体贴，着急时干脆利落
+        timbre: 清澈柔韧
+        pace: 中速
+        pitch: 中高音
+    robert:
+      display_name: 罗伯特
+      tts:
+        delivery: 直率活泼，偶尔一本正经
+        timbre: 清亮饱满
+        pace: 中速
+        pitch: 中音
+    jane:
+      display_name: 简
+      tts:
+        delivery: 天真敏感，想象丰富
+        timbre: 轻柔明亮
+        pace: 中速
+        pitch: 高音
+    vicar:
+      display_name: 牧师
+      tts:
+        delivery: 正派温和，郑重中透着一点迂直
+        timbre: 温厚清晰
+        pace: 中慢速
+        pitch: 中低音
+    vicar_wife:
+      display_name: 牧师太太
+      tts:
+        delivery: 热心敏感，受惊时急促，待人时亲切
+        timbre: 柔和饱满
+        pace: 中速
+        pitch: 中高音
+    jessie:
+      display_name: 杰茜
+      tts:
+        delivery: 胆小直率，慌乱时说得很快
+        timbre: 清亮偏细
+        pace: 稍快
+        pitch: 高音
+    andrew:
+      display_name: 安德鲁
+      tts:
+        delivery: 谨慎多疑，嘴硬却胆怯
+        timbre: 粗实
+        pace: 中速
+        pitch: 中低音
+    gamekeeper:
+      display_name: 猎场看守
+      tts:
+        delivery: 乡音质朴，沉着大胆，说话干脆
+        timbre: 粗厚低沉
+        pace: 中慢速
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 塔顶的呼救
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 不论刚才究竟有没有人哭过，四个孩子都有好一阵子不像平日的自己。等大家稍稍平静，安西娅收起手绢，一只胳膊搂住简。
+        - id: ch01-b02
+          speaker: anthea
+          text: 最多只在这里过一夜。明早手绢干了，我们可以拿它打信号。总会有人上来放我们出去的。
+          emotion: calm
+        - id: ch01-b03
+          speaker: cyril
+          text: 然后他们会发现虹吸瓶，把我们当成小偷送进监狱。
+          emotion: sad
+        - id: ch01-b04
+          speaker: anthea
+          text: 可你说过这不算偷，还说自己很肯定。
+        - id: ch01-b05
+          speaker: cyril
+          text: 我现在不肯定了。
+        - id: ch01-b06
+          speaker: robert
+          text: 干脆把这讨厌东西扔进树林。东西没了，谁也不能拿我们怎么样。
+        - id: ch01-b07
+          speaker: cyril
+          text: 好主意。再砸中哪个人的脑袋，我们不光是小偷，还成了杀人犯。
+        - id: ch01-b08
+          speaker: jane
+          text: 可我们不能整夜待在这里。我还想喝下午茶呢。
+        - id: ch01-b09
+          speaker: robert
+          text: 你才吃过正餐，怎么可能又想喝茶？
+        - id: ch01-b10
+          speaker: jane
+          text: 我就是想喝。你们一说要整夜留在这里，我就更想了。豹豹，我要回家！我要回家！
+          emotion: sad
+        - id: ch01-b11
+          speaker: anthea
+          text: 嘘，亲爱的，别哭。我们总能想出办法，一切都会好起来的。
+          emotion: calm
+        - id: ch01-b12
+          speaker: robert
+          text: 就让她哭吧。只要她嚎得够响，也许会有人听见，上来放我们出去。
+        - id: ch01-b13
+          speaker: anthea
+          text: 那人也会看见苏打水瓶。罗伯特，别这么狠心。简，振作一点儿，像个男子汉。我们大家的处境都一样。
+        - id: ch01-b14
+          speaker: narrator
+          text: 简努力做起了“男子汉”，终于把号啕大哭压成抽抽搭搭。沉默了一会儿，西里尔想出了办法。
+        - id: ch01-b15
+          speaker: cyril
+          text: 只能拿虹吸瓶冒险了。我把它扣在外套里，也许没人看得见。你们走在前面，离我远些。牧师家里还亮着灯。等我数到三，大家一起使劲喊。罗伯特学火车头，我学爸爸喊“喂——哦——”，姑娘们随便怎么叫。一、二、三！
+        - id: ch01-b16
+          speakers: [cyril, anthea, robert, jane]
+          ensemble: chorus
+          text: 救命啊——！
+        - id: ch01-b17
+          speaker: narrator
+          text: 四个人的喊声一下撕破了安静的夜色。牧师住宅的窗前，女仆杰茜正握着窗帘绳，手停在半空。塔顶又数了一遍。
+        - id: ch01-b18
+          speakers: [cyril, anthea, robert, jane]
+          ensemble: chorus
+          text: 救命啊——！
+        - id: ch01-b19
+          speaker: narrator
+          text: 第二阵喊声又尖锐又杂乱，钟楼里的猫头鹰和椋鸟全被吓醒，羽毛扑棱棱乱成一片。杰茜也从窗前逃开，一口气跑下牧师住宅的楼梯，冲进厨房。男仆、厨娘和厨娘的表兄都在那里。她告诉三个人，自己刚才看见了鬼。话才说完，她便当场昏倒了。这当然不是真的，她根本没有看见鬼。我想，只是那些喊声把姑娘的神经吓乱了。孩子们第三次数到三时，牧师已经站上自家门阶，迎面而来的喊声绝不会听错。
+        - id: ch01-b20
+          speakers: [cyril, anthea, robert, jane]
+          ensemble: chorus
+          text: 救命啊——！
+        - id: ch01-b21
+          speaker: vicar
+          text: 亲爱的，教堂里有人正遭到谋杀！快把帽子和粗棍给我，再叫安德鲁跟来。一定是那个偷牛舌的疯子。
+          emotion: fearful
+        - id: ch01-b22
+          speaker: narrator
+          text: 前门打开时，孩子们看见一道亮光，也看见牧师的黑影站在门阶上。他们停下来喘气，等着看他怎么办。可牧师转身拿帽子去了。
+        - id: ch01-b23
+          speaker: cyril
+          text: 他以为刚才听错了。你们根本没使劲喊！再来，一、二、三！
+        - id: ch01-b24
+          speakers: [cyril, anthea, robert, jane]
+          ensemble: chorus
+          text: 救命啊——！
+        - id: ch01-b25
+          speaker: narrator
+          text: 这一回，四个人喊得十足响亮。牧师太太吓得一把抱住丈夫，也发出一声微弱的尖叫，仿佛塔顶那阵可怕喊声的回音。她坚决不许丈夫独自走进黑暗，还把刚刚醒来的杰茜叫出了厨房。
+        - id: ch01-b26
+          speaker: vicar_wife
+          text: 你不能一个人去！杰茜，快叫安德鲁过去。教堂里有个危险的疯子，叫他马上把疯子抓住。
+          emotion: fearful
+        - id: ch01-b27
+          speaker: narrator
+          text: 杰茜已经醒来，从厨房走了出来。她心想，安德鲁准能抓住那东西，接着便去传话。
+        - id: ch01-b28
+          speaker: jessie
+          text: 安德鲁，教堂里有人疯了似的尖叫，太太叫你过去把那东西抓住。
+          emotion: fearful
+        - id: ch01-b29
+          speaker: andrew
+          text: 要我一个人去，我可不干。
+        - id: ch01-b30
+          speaker: narrator
+          text: 安德鲁私下说得又低又坚决，可是来到主人面前，他半个“不”字也不敢讲，只规规矩矩地答应了一声。牧师问他有没有听见那些尖叫，他也不愿承认自己听得一清二楚。
+        - id: ch01-b31
+          speaker: andrew
+          text: 我的确觉得，好像听见了点儿什么。
+        - id: ch01-b32
+          speaker: vicar
+          text: 那就走吧。亲爱的，我非去不可！
+        - id: ch01-b33
+          speaker: narrator
+          text: 牧师轻轻把妻子推进起居室，砰地关门，拖着安德鲁冲了出去。又一阵叫声迎面传来。等声音落下，安德鲁朝黑暗里喊话。
+        - id: ch01-b34
+          speaker: andrew
+          text: 喂，那边的人！是你们在叫吗？
+        - id: ch01-b35
+          speakers: [cyril, anthea, robert, jane]
+          ensemble: chorus
+          text: 是我们在叫——！
+        - id: ch01-b36
+          speaker: vicar
+          text: 声音像从半空里来的，真奇怪。
+        - id: ch01-b37
+          speaker: andrew
+          text: 你们在哪里？
+        - id: ch01-b38
+          speaker: cyril
+          text: 教——堂！钟——楼！顶——上！
+        - id: ch01-b39
+          speaker: andrew
+          text: 那就下来呀！
+        - id: ch01-b40
+          speaker: cyril
+          text: 下——不——去！门——锁——了！
+        - id: ch01-b41
+          speaker: vicar
+          text: 我的天哪！安德鲁，去拿马厩灯。最好再从村里找个人来。
+        - id: ch01-b42
+          speaker: andrew
+          text: 他们多半还有同伙藏在附近。先生，这要不是圈套，我就再也不信自己的眼睛。厨娘的表兄正好在后门。他是猎场看守，会对付凶狠的家伙，手里还有枪。
+        - id: ch01-b43
+          speaker: cyril
+          text: 喂，下面的人！快上来放我们出去！
+        - id: ch01-b44
+          speaker: andrew
+          text: 这就来。我去找警察，再带一把枪。
+        - id: ch01-b45
+          speaker: vicar
+          text: 安德鲁，这可不是实话。
+        - id: ch01-b46
+          speaker: andrew
+          text: 对付他们那种人，这话已经够接近实情了，先生。
+    - id: ch02
+      title: 门外的枪
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 安德鲁拿来马厩灯，又叫上厨娘的表兄。牧师太太送他们出门时，再三叮嘱三个人千万小心。天已经黑透，他们一边穿过教堂墓园，一边猜测塔顶究竟是什么人。牧师认定那是个疯子，就是写下那封疯信，又拿走冷牛舌和其他食物的人。安德鲁一口咬定这是个精心布置的圈套。只有做猎场看守的表兄十分镇定，他见惯了林地里的坏人，自有一番道理。
+        - id: ch02-b02
+          speaker: gamekeeper
+          text: 雷声大，雨点小。真正危险的家伙不会这样吵吵嚷嚷。
+        - id: ch02-b03
+          speaker: narrator
+          text: 他当然不怕，因为他有一把枪。大家也正因为看见了这把枪，才请他领头登塔。他一只手提着灯，一只手握着枪，走在最前面。安德鲁紧跟在第二个。后来他硬说，自己这样安排是因为比主人勇敢。其实他满脑子都是圈套，不愿落在最后，生怕有人从背后悄悄摸上来，在黑暗中一把抓住他的两条腿。他们不停向上，沿着螺丝钻似的小楼梯绕了一圈又一圈。接着，三个人穿过敲钟人的阁楼。那里垂着一根根钟绳，末端柔软又毛茸茸的，像一群从屋顶倒挂下来的巨大毛毛虫。再爬过一道楼梯，便进了安放大钟的钟室。那些钟在黑暗里一动不动，也一声不响。他们还得继续爬，先登上一架踏板宽阔的梯子，再走过一小段石阶，终于在最高处看见塔顶小门。门闩就插在楼梯这一面。猎场看守抬脚朝门踢了一下。
+        - id: ch02-b04
+          speaker: gamekeeper
+          text: 喂，里面的人！
+        - id: ch02-b05
+          speaker: narrator
+          text: 门后，四个孩子紧紧抱在一起。他们又急又怕，嗓子也早喊哑了。西里尔勉强答话。
+        - id: ch02-b06
+          speaker: cyril
+          text: 喂，外面的人！
+        - id: ch02-b07
+          speaker: gamekeeper
+          text: 你们怎么上去的？
+        - id: ch02-b08
+          speaker: narrator
+          text: 西里尔当然不能说他们是飞上去的。
+        - id: ch02-b09
+          speaker: cyril
+          text: 我们上来以后，发现门锁住了，怎么也下不去。请放我们出去吧。
+        - id: ch02-b10
+          speaker: gamekeeper
+          text: 你们有几个人？
+        - id: ch02-b11
+          speaker: cyril
+          text: 只有四个。
+        - id: ch02-b12
+          speaker: gamekeeper
+          text: 带武器了吗？
+        - id: ch02-b13
+          speaker: cyril
+          text: 带什么？
+        - id: ch02-b14
+          speaker: gamekeeper
+          text: 我的枪就在手边，你们最好别耍花样。我们开门以后，你们答应老老实实下来，不胡闹吗？
+        - id: ch02-b15
+          speakers: [cyril, anthea, robert, jane]
+          ensemble: chorus
+          text: 答应！当然答应！
+        - id: ch02-b16
+          speaker: vicar
+          text: 上帝保佑，刚才分明有个姑娘的声音吧？
+          emotion: surprised
+        - id: ch02-b17
+          speaker: gamekeeper
+          text: 要开门吗，先生？
+        - id: ch02-b18
+          speaker: narrator
+          text: 安德鲁听见门后有姑娘，还是往下退了几级。后来他解释说，自己这样做只是为了给别人腾出地方。
+        - id: ch02-b19
+          speaker: vicar
+          text: 开吧。门里面的人听着，我们是来解救你们的。你们一定遵守诺言，不使用暴力吧？
+        - id: ch02-b20
+          speaker: gamekeeper
+          text: 这门闩真够紧的，不知道的还以为半年没拉开过呢。
+        - id: ch02-b21
+          speaker: narrator
+          text: 事实上，它的确有半年没拉开了。等所有门闩都抽开，猎场看守隔着钥匙孔，用胸膛里发出的低沉嗓音发布命令。
+        - id: ch02-b22
+          speaker: gamekeeper
+          text: 先全走到塔楼另一边，不然我不开门。谁敢朝我冲过来，我就开枪。现在就过去！
+        - id: ch02-b23
+          speakers: [cyril, anthea, robert, jane]
+          ensemble: chorus
+          text: 我们都过去了。
+        - id: ch02-b24
+          speaker: narrator
+          text: 猎场看守听见他们已经退开，心里得意极了。他认定，自己接下来做的事足以证明他是个勇敢的人。他猛地拉开门，跨上铅皮屋顶，把马厩灯举得高高的。明亮的灯光一下照住塔楼另一边，只见那群所谓的亡命之徒正老老实实靠着胸墙站成一团。猎场看守终于看清他们，手里的枪慢慢垂下去，提着的灯也差一点儿掉在地上。
+        - id: ch02-b25
+          speaker: gamekeeper
+          text: 老天作证，这不就是一群小孩子吗！
+          emotion: surprised
+        - id: ch02-b26
+          speaker: narrator
+          text: 牧师这才走上前来。
+        - id: ch02-b27
+          speaker: vicar
+          text: 你们怎么到这里来的？马上告诉我。
+        - id: ch02-b28
+          speaker: jane
+          text: 先带我们下去吧。您想知道什么，我们都告诉您。您不会相信也没关系。求您带我们下去！
+          emotion: fearful
+        - id: ch02-b29
+          speaker: narrator
+          text: 简抓着牧师的外套不放，其他孩子也围过来，苦苦提出同一个请求，只有西里尔没有过去。他已经没有多余的手了，那只苏打水虹吸瓶老想从外套底下往下滑，他必须两只手一起用，才能把瓶子稳在原处。不过，他也尽量站到马厩灯照不到的地方，远远开了口。
+        - id: ch02-b30
+          speaker: cyril
+          text: 也请您带我们下去吧。
+        - id: ch02-b31
+          speaker: narrator
+          text: 于是，大人们带孩子下塔。摸黑走下一座陌生的教堂塔楼可不是玩笑，脚下有石阶、梯子和一道又一道盘旋的窄楼梯，稍不留神便会踩空。猎场看守一路伸手帮助他们，只有西里尔必须靠自己。那只苏打水虹吸瓶一路扭动着往下滑，仿佛铁了心要从他怀里逃走。爬到梯子一半时，它险些真的成功。西里尔慌忙伸手，只来得及抓住细长的瓶嘴，自己也差一点儿失去立足之处。等大家终于走完最后一段盘旋楼梯，踏上教堂门廊的石板，他已经脸色苍白，双腿和双手都在发抖。
+        - id: ch02-b32
+          speaker: narrator
+          text: 猎场看守忽然伸出双手，一边一个，抓住西里尔和罗伯特。
+        - id: ch02-b33
+          speaker: gamekeeper
+          text: 先生，您带上两个姑娘。您和安德鲁对付得了她们。
+        - id: ch02-b34
+          speaker: cyril
+          text: 放手！我们不会逃，也没弄坏你们的老教堂。放开我！
+          emotion: angry
+        - id: ch02-b35
+          speaker: gamekeeper
+          text: 你只管跟着走。
+        - id: ch02-b36
+          speaker: narrator
+          text: 虹吸瓶恰在这时又往下滑，西里尔不敢用力反抗。孩子们就这样被押进了牧师住宅的书房。
+    - id: ch03
+      title: 藏不住的虹吸瓶
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 牧师太太急匆匆冲进书房。
+        - id: ch03-b02
+          speaker: vicar_wife
+          text: 威廉，你没事吧？
+          emotion: fearful
+        - id: ch03-b03
+          speaker: narrator
+          text: 罗伯特马上替她解除忧虑。
+        - id: ch03-b04
+          speaker: robert
+          text: 他一点儿事也没有，我们根本没伤害他。可是我们回去得太晚，家里人一定急坏了。能请您用马车送我们回家吗？
+        - id: ch03-b05
+          speaker: anthea
+          text: 附近要是有旅馆，也许能从那里雇车。玛莎现在一定非常着急。
+        - id: ch03-b06
+          speaker: narrator
+          text: 牧师听完两个孩子的请求，又惊讶又激动，整个人无力地陷进一把椅子。西里尔也在一旁坐下，却不能像别人那样靠着椅背。他只好把双肘撑在膝上，身体一直向前弯着，用这个古怪姿势托住藏在外套里的虹吸瓶。
+        - id: ch03-b07
+          speaker: vicar
+          text: 可你们为什么会被锁在教堂塔楼上？
+        - id: ch03-b08
+          speaker: robert
+          text: 我们上去以后累了，就全睡着了。醒来时门已经锁住，所以我们只好大喊。
+        - id: ch03-b09
+          speaker: vicar_wife
+          text: 你们当然喊了，还把所有人都吓得魂不附体！真该为自己害臊。
+          emotion: angry
+        - id: ch03-b10
+          speaker: jane
+          text: 我们确实很惭愧。
+          emotion: sad
+        - id: ch03-b11
+          speaker: vicar
+          text: 那么，是谁锁了门？
+        - id: ch03-b12
+          speaker: robert
+          text: 我真的一点儿也不知道。请您送我们回家吧。
+        - id: ch03-b13
+          speaker: vicar
+          text: 好吧，我想最好还是送你们回去。安德鲁，去套马，由你送他们回家。
+        - id: ch03-b14
+          speaker: andrew
+          text: 要我一个人去，我可不干。
+        - id: ch03-b15
+          speaker: narrator
+          text: 安德鲁这句话只敢在心里说。牧师继续讲话，要孩子们把今晚当成教训。他讲了很久，孩子们愁眉苦脸地听着。猎场看守却一个字也没有听进去，他只管盯着倒霉的西里尔。他当然很熟悉偷猎者，也见过许多人藏匿猎物时那副不自然的模样。牧师正好讲到，孩子长大以后应该给父母带来幸福，不该给他们招惹烦恼，更不能叫他们蒙受耻辱。就在这里，猎场看守突然打断了他。
+        - id: ch03-b16
+          speaker: gamekeeper
+          text: 问问他外套底下藏着什么。
+        - id: ch03-b17
+          speaker: narrator
+          text: 西里尔明白，藏匿已经到了尽头。他站起身，把双肩挺得笔直，努力摆出书中高贵少年的模样。那些少年生来属于勇敢高尚的家族，也一定会忠贞至死。任何人只要看见他们的脸，便绝不会怀疑这一点。至少书里总是这样写的。西里尔很想让大家也从他的脸上看出同样的气概。他伸手探进外套，终于把那只惹祸的苏打水虹吸瓶掏了出来。
+        - id: ch03-b18
+          speaker: cyril
+          text: 好吧，就在这里。
+        - id: ch03-b19
+          speaker: narrator
+          text: 虹吸瓶出现在大家眼前，屋里立刻一片寂静。谁也没有替西里尔开口，也没有什么借口还能遮掩过去。事已至此，他只能自己把储藏室里的事情从头说清楚。
+        - id: ch03-b20
+          speaker: cyril
+          text: 没错，我们从储藏室拿了这个，还拿了鸡肉、牛舌和面包。我们饿极了，可是没碰蛋奶布丁，也没拿果酱。我们只拿面包、肉和水。水偏偏装在苏打水瓶里，这不能怪我们。那些全是维持生命的必需品。我们留下了半克朗和一封信。真的很对不起。我爸爸愿意交罚款，您要多少都行，可别把我们送进监狱。妈妈会气坏的。您刚才说过，不能叫父母蒙羞。那么您也别害我们让父母蒙羞。我只求这个。我们已经后悔得不能再后悔了。
+          emotion: sad
+        - id: ch03-b21
+          speaker: vicar_wife
+          text: 可你们究竟怎么够到储藏室窗户的？
+        - id: ch03-b22
+          speaker: cyril
+          text: 这件事我不能告诉您。
+        - id: ch03-b23
+          speaker: vicar
+          text: 你们告诉我的是全部实情吗？
+        - id: ch03-b24
+          speaker: jane
+          text: 不是。这些话都是真的，可不是全部实情。我们不能说，您再问也没用。求您原谅我们，送我们回家吧！
+          emotion: sad
+        - id: ch03-b25
+          speaker: narrator
+          text: 简说完便跑到牧师太太身边，伸出双臂紧紧抱住她。牧师太太也把小姑娘搂进怀里。猎场看守看着四个孩子，已经有了自己的解释。他抬起手挡在嘴边，悄悄对牧师说话，不想叫孩子们听见。
+        - id: ch03-b26
+          speaker: gamekeeper
+          text: 这些孩子没坏心，先生。我猜他们在替同伙扛着。准是有人教他们这么做，他们却不肯供出那人。真是一群勇敢的小家伙。
+        - id: ch03-b27
+          speaker: vicar
+          text: 告诉我，你们是在袒护别人吗？还有别人参与这件事吗？
+        - id: ch03-b28
+          speaker: narrator
+          text: 安西娅想起了普萨米德。
+        - id: ch03-b29
+          speaker: anthea
+          text: 有，可这不能怪它。
+        - id: ch03-b30
+          speaker: vicar
+          text: 那我们就不再提了。亲爱的孩子们，只要告诉我，你们为什么留下那么古怪的一封信。
+        - id: ch03-b31
+          speaker: cyril
+          text: 我也不知道。安西娅写得太匆忙，当时真的不像偷东西。后来我们发现下不了教堂塔楼，它忽然就和偷东西一模一样了。我们全都很抱歉。
+        - id: ch03-b32
+          speaker: vicar_wife
+          text: 不用再说了。下次拿别人家的牛舌以前，先好好想一想。现在，回家前吃点蛋糕、喝点牛奶好吗？
+    - id: ch04
+      title: 回家以后
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 安德鲁进来报告马已经套好。他原本还想问一句，自己是不是非得独自走进那个从一开始就看得清清楚楚的圈套。可是，书房里的情形已经完全变了。孩子们正在吃蛋糕、喝牛奶，还被牧师的笑话逗得哈哈大笑，简更安安稳稳坐在牧师太太腿上。安德鲁准备好的抗议只好咽了回去。所以你看，这一回，孩子们受到的处置远比应得的轻。
+        - id: ch04-b02
+          speaker: narrator
+          text: 厨娘的表兄，也就是那位猎场看守，请求跟车送孩子回家。安德鲁巴不得有人保护他，免得掉进那个他深信不疑的圈套。于是大家一同坐上四轮敞篷马车。马车在夜色里一路颠簸，驶向白垩采石场和砾石坑之间的那座房子。到家时，孩子们已经困得睁不开眼，脑袋也快抬不起来。不过，他们仍旧十分确定，经过今晚这一场历险，自己和猎场看守已经成了一辈子的朋友。
+        - id: ch04-b03
+          speaker: narrator
+          text: 安德鲁一声不响地把孩子们扔在铁门外。
+        - id: ch04-b04
+          speaker: gamekeeper
+          text: 你只管驾车回去，我靠自己的两条腿走。
+        - id: ch04-b05
+          speaker: narrator
+          text: 安德鲁只好独自驾车离开，这叫他一点儿也不高兴。猎场看守却陪着孩子们从铁门一直走到家门口。大门一开，责备便像旋风一样迎面卷来。四个孩子几乎还没来得及开口，就被这阵旋风一路扫上楼，送进了各自的床。猎场看守没有马上离去。他留在楼下，向玛莎、厨娘和女仆原原本本解释事情的经过。他讲得实在太好，第二天早晨，玛莎待孩子们居然十分和气。从那以后，他还常常过来看望玛莎。到了最后——可是，正如亲爱的吉卜林先生所说，那是另一个故事了。
+        - id: ch04-b06
+          speaker: narrator
+          text: 玛莎前一晚已经说过，要罚孩子们第二天整日不许出门，如今只好说到做到。可她不再尖酸发火，甚至答应让罗伯特单独出去半个钟头，取一样他特别想要的东西。孩子们在这一天还有一件非取不可的东西。那当然就是当天的愿望。
+        - id: ch04-b07
+          speaker: narrator
+          text: 罗伯特一得到准许，便冲出家门，直奔砾石坑。他找到藏在沙里的普萨米德，没过多久，便向它许愿要——可是，他究竟要了什么，以及那个愿望后来带来了什么，也得留到另一个故事里再讲了。

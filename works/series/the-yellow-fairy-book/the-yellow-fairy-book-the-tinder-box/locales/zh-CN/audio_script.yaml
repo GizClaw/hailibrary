@@ -1,0 +1,325 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts: {delivery: 沉静从容，带着古老童话的机智与克制, timbre: 温暖清朗, pace: 舒缓而富有变化, pitch: 中音}
+    soldier:
+      display_name: 士兵
+      tts: {delivery: 大胆爽快，带着几分粗鲁和机灵, timbre: 坚实明亮, pace: 明快, pitch: 中低音}
+    witch:
+      display_name: 老女巫
+      tts: {delivery: 狡黠诱人，语气神秘而强硬, timbre: 干涩苍老, pace: 稍慢, pitch: 中低音}
+    copper_dog:
+      display_name: 碟眼狗
+      tts: {delivery: 忠顺利落，回答恭敬, timbre: 浑厚温和, pace: 适中, pitch: 低音}
+    silver_dog:
+      display_name: 磨盘眼狗
+      tts: {delivery: 沉默威猛，欢呼时响亮, timbre: 粗厚有力, pace: 适中, pitch: 低音}
+    gold_dog:
+      display_name: 圆塔眼狗
+      tts: {delivery: 威猛沉着，欢呼时洪亮, timbre: 深沉雄浑, pace: 稍慢, pitch: 低音}
+    princess:
+      display_name: 公主
+      tts: {delivery: 温柔坦率，带着王室的端庄, timbre: 明亮柔和, pace: 适中, pitch: 中高音}
+    queen:
+      display_name: 王后
+      tts: {delivery: 聪敏镇定，说话果断, timbre: 清晰成熟, pace: 适中, pitch: 中音}
+    king:
+      display_name: 国王
+      tts: {delivery: 威严固执，遇事不容反驳, timbre: 洪亮成熟, pace: 适中, pitch: 中低音}
+    lady_in_waiting:
+      display_name: 宫女
+      tts: {delivery: 谨慎机敏，做事一丝不苟, timbre: 清脆年轻, pace: 稍快, pitch: 中高音}
+    shoemaker_apprentice:
+      display_name: 鞋匠学徒
+      tts: {delivery: 活泼勤快，带着少年人的爽利, timbre: 清亮年轻, pace: 明快, pitch: 中高音}
+    citizen_1:
+      display_name: 市民甲
+      tts: {delivery: 热切直率，容易随众激动, timbre: 明亮朴实, pace: 稍快, pitch: 中音}
+    citizen_2:
+      display_name: 市民乙
+      tts: {delivery: 爽朗响亮，欢呼时充满力量, timbre: 宽厚朴实, pace: 适中, pitch: 中低音}
+    citizen_3:
+      display_name: 市民丙
+      tts: {delivery: 兴奋真诚，语气鲜明, timbre: 清朗年轻, pace: 明快, pitch: 中音}
+  chapters:
+    - id: ch01
+      title: 空心树下的三口箱子
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 大路上，一个士兵迈着齐整的步子走来。左、右！左、右！他背着行囊，腰间挎着剑。仗已经打完了，他正在回乡的路上。
+        - id: ch01-b02
+          speaker: narrator
+          text: 迎面来了一个老女巫。她丑得吓人，下嘴唇一直垂到胸口。
+        - id: ch01-b03
+          speaker: witch
+          text: 晚上好啊，士兵！瞧你这把剑，还有这只行囊，多神气！你才像个真正的士兵。你想背走多少钱，就该有多少钱！
+        - id: ch01-b04
+          speaker: soldier
+          text: 多谢你了，老女巫。
+        - id: ch01-b05
+          speaker: witch
+          text: 看见路边那棵大树了吗？树心是空的。你爬到树顶，从那里的洞口下去。我会在你腰上拴一根绳子，你只要喊一声，我就拉你回来。
+        - id: ch01-b06
+          speaker: soldier
+          text: 下去以后，我要做什么？
+        - id: ch01-b07
+          speaker: witch
+          text: 拿钱！到了树底，你会走进一座宽敞的大厅，里面点着三百多盏灯。大厅有三扇门，钥匙都插在锁眼里。第一间屋里有一口大箱子，箱子上坐着一条狗，眼睛有碟子那么大。别怕。我给你一条蓝格子围裙，你把围裙铺在地上，再把狗抱到上面，就能打开箱子。里面全是铜钱，你爱拿多少就拿多少。
+        - id: ch01-b08
+          speaker: witch
+          text: 要是你喜欢银币，就去第二间屋子。那条狗的眼睛足有磨盘那么大。别去理会它，还是把它放到围裙上，随你拿钱。第三间屋子里装的是金子，想带多少都行。不过，那里的狗最凶。它的两只眼睛，每一只都有哥本哈根圆塔那么大！我告诉你，那可不是好惹的。可只要把它抱到我的围裙上，它也绝不会碰你。
+        - id: ch01-b09
+          speaker: soldier
+          text: 嘿，这买卖倒不坏！不过，老女巫，我得拿什么回报你？你不会平白无故帮我吧？
+        - id: ch01-b10
+          speaker: witch
+          text: 我一个小钱也不要。你只管把我祖母上次忘在下面的旧打火匣带回来。
+        - id: ch01-b11
+          speaker: soldier
+          text: 好吧，那就把绳子拴上！
+        - id: ch01-b12
+          speaker: witch
+          text: 绳子在这里，蓝格子围裙也给你。
+        - id: ch01-b13
+          speaker: narrator
+          text: 士兵爬到树顶，顺着洞口往下坠。等双脚落地，他果然站在一座地下大厅里，四周点着三百盏灯。
+        - id: ch01-b14
+          speaker: narrator
+          text: 他推开第一扇门。哎哟！箱子上真坐着一条狗，两只碟子大的眼睛直瞪着他。
+        - id: ch01-b15
+          speaker: soldier
+          text: 你这家伙，长得可真神气！
+        - id: ch01-b16
+          speaker: narrator
+          text: 士兵把狗抱到围裙上，往口袋里塞满铜钱。然后，他盖好箱子，放回那条狗，又走进第二间屋。那里的狗也正等着他，眼睛大得像两只磨盘。
+        - id: ch01-b17
+          speaker: soldier
+          text: 别这么死盯着我！再瞪，你的眼珠子就要掉出来了！
+        - id: ch01-b18
+          speaker: narrator
+          text: 他把第二条狗放到围裙上。箱盖一开，里面全是白花花的银币。士兵马上扔掉铜钱，把口袋和行囊都装满了银币。
+        - id: ch01-b19
+          speaker: narrator
+          text: 第三间屋子更吓人。守在里面的狗长着两只巨眼，每一只都有哥本哈根圆塔那么大，还在眼眶里像车轮一样不停打转。
+        - id: ch01-b20
+          speaker: soldier
+          text: 晚上好！
+        - id: ch01-b21
+          speaker: narrator
+          text: 士兵从没见过这样的狗，还特意向它敬了个礼。他仔细瞧了一会儿，觉得自己已经看够了，便把狗放到地上，打开箱盖。天哪，里面堆满了金子！有了这些钱，整座城市都买得下，连全世界的糖猪、锡兵、鞭子和摇摇马也都能买走。
+        - id: ch01-b22
+          speaker: narrator
+          text: 他把银币全扔了，换成金子。口袋、行囊、帽子，甚至两只靴子都塞得鼓鼓囊囊，压得他几乎走不动。这回，他可真有钱了。士兵把狗放回箱上，关好门，仰头朝树洞大喊。
+        - id: ch01-b23
+          speaker: soldier
+          text: 老女巫，快把我拉上去！
+        - id: ch01-b24
+          speaker: witch
+          text: 我的打火匣呢？你拿到了吗？
+        - id: ch01-b25
+          speaker: soldier
+          text: 真见鬼！我忘得一干二净！
+        - id: ch01-b26
+          speaker: narrator
+          text: 他赶紧回去取来打火匣。女巫把他拉上大路，这时他的口袋、行囊、帽子和靴子里全是金子。
+        - id: ch01-b27
+          speaker: soldier
+          text: 你要这只打火匣干什么？
+        - id: ch01-b28
+          speaker: witch
+          text: 不关你的事。钱已经归你了，现在把打火匣还我。
+        - id: ch01-b29
+          speaker: soldier
+          text: 那可不一定！马上把用途告诉我，不然我就拔出剑，砍掉你的脑袋！
+        - id: ch01-b30
+          speaker: witch
+          text: 不，你不能这样！
+          emotion: fearful
+        - id: ch01-b31
+          speaker: narrator
+          text: 士兵立刻砍掉了她的头。女巫就这样完了。他用那条围裙把金子包成一大包，扛到肩上，又把打火匣揣进口袋，动身进城。
+    - id: ch02
+      title: 富老爷和神奇的打火匣
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 那是一座气派非凡的城市。士兵住进最华丽的客店，要了最好的房间，还点了最爱吃的饭菜。如今他怀里有的是金子，当然要像有钱人那样生活。
+        - id: ch02-b02
+          speaker: narrator
+          text: 替他擦靴子的仆人心里直犯嘀咕，这么有钱的老爷，怎么穿着一双破旧得出奇的靴子？其实士兵只是还没来得及买新的。第二天，他就换上体面的靴子和漂亮衣裳。一个普通士兵，转眼成了高贵的老爷。
+        - id: ch02-b03
+          speaker: narrator
+          text: 人们把城里的豪华排场一件件说给他听，又谈起国王，还告诉他，国王有一位美丽非凡的女儿，是这座城里的公主。
+        - id: ch02-b04
+          speaker: soldier
+          text: 我要怎样才能见到公主？
+        - id: ch02-b05
+          speaker: citizen_1
+          text: 谁也见不到她！她住在一座巨大的铜城堡里，外面围着一层又一层城墙和高塔。除了国王，谁都不能进出。预言说，她会嫁给一个普通士兵，国王怎么也不能接受。
+        - id: ch02-b06
+          speaker: soldier
+          text: 我可真想见她一面。
+        - id: ch02-b07
+          speaker: narrator
+          text: 可他得不到进城堡的许可，只好先过自己的快活日子。他去戏院看戏，乘车游览国王的花园，还送给穷人许多钱。这一点的确很好，因为他从前亲自尝过身无分文是什么滋味。
+        - id: ch02-b08
+          speaker: narrator
+          text: 他穿着华美的衣裳，朋友也越来越多。每个人都夸他品格出众，是位真正的贵族老爷。士兵听了很受用。可是，他天天往外花钱，从来没有新的钱进来。终于有一天，他只剩下两个先令，只好搬出漂亮的房间，住进屋顶下面的小阁楼。他得亲手擦靴子，还要拿织补针把破处一点点缝好。
+        - id: ch02-b09
+          speaker: narrator
+          text: 从前那些朋友，一个也不来探望。毕竟，要到阁楼得爬那么多级楼梯呢。
+        - id: ch02-b10
+          speaker: narrator
+          text: 一个漆黑的夜晚，士兵连灯都买不起。忽然，他想起旧打火匣里还留着一小截火绒。他找出打火匣，正想点灯，才擦出一星火花，房门就猛地弹开。那条眼睛大如碟子的狗，正站在他面前。
+        - id: ch02-b11
+          speaker: copper_dog
+          text: 老爷，请问您有什么吩咐？
+        - id: ch02-b12
+          speaker: soldier
+          text: 这是怎么回事？原来这只打火匣这么好用，要什么就能有什么！快去给我拿钱！
+          emotion: surprised
+        - id: ch02-b13
+          speaker: narrator
+          text: 狗一眨眼就没了，又一眨眼便回来了，嘴里衔着一个装满钱的大口袋。
+        - id: ch02-b14
+          speaker: narrator
+          text: 士兵终于明白了。擦一下，守铜钱箱的狗就来。擦两下，守银币箱的狗便出现。擦三下，守金子箱的狗也会现身。有了这件宝贝，他重新住进漂亮的房间，换上华丽的衣裳。那些朋友立刻又认得他了，一个个围着他大献殷勤。
+    - id: ch03
+      title: 铜城堡里的公主
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 一天，士兵又想起了公主。谁都不能见她，这不是很奇怪吗？大家都说她美极了，可她若一辈子关在那座遍布高塔的铜城堡里，美又有什么用？他一定得想办法看看她。
+        - id: ch03-b02
+          speaker: soldier
+          text: 我的打火匣呢？
+        - id: ch03-b03
+          speaker: narrator
+          text: 他擦出一点火星，眼睛大如碟子的狗马上来了。
+        - id: ch03-b04
+          speaker: soldier
+          text: 我知道现在是半夜，可我很想见见公主。只要看一会儿就好。
+        - id: ch03-b05
+          speaker: narrator
+          text: 狗已经冲出门去。士兵还没来得及回头，它就驮着公主回来了。公主在狗背上熟睡，美得叫人一眼便看得出，她是真正的公主。士兵到底是个地地道道的士兵，实在忍不住吻了她。随后，狗又驮着公主跑回城堡。
+        - id: ch03-b06
+          speaker: narrator
+          text: 第二天早晨，国王和王后正在喝茶。公主说，昨夜她做了一个非常古怪的梦。
+        - id: ch03-b07
+          speaker: princess
+          text: 我梦见一条狗驮着我跑出去，还见到了一个士兵。那个士兵甚至吻了我。
+        - id: ch03-b08
+          speaker: queen
+          text: 这个故事可真精彩。
+        - id: ch03-b09
+          speaker: narrator
+          text: 可王后并没有把它只当成故事。第二天夜里，她派一名宫女守在公主床边，看看到底是一场梦，还是真有其事。
+        - id: ch03-b10
+          speaker: narrator
+          text: 士兵又想公主想得不得了。到了半夜，那条狗再次来接公主，撒开腿就跑。宫女早已穿上橡胶鞋，悄悄跟在后面。她看见他们进了一座大房子。
+        - id: ch03-b11
+          speaker: lady_in_waiting
+          text: 这下我知道是哪一座了。
+        - id: ch03-b12
+          speaker: narrator
+          text: 她拿粉笔在门上画了一个大十字，便回宫躺下。狗也把公主送了回去。可它发现士兵的门上多了记号，就找来粉笔，在城里每一扇门上都画了一个十字。家家户户一模一样，宫女再也认不出士兵住在哪里。这条狗可真聪明。
+        - id: ch03-b13
+          speaker: narrator
+          text: 第二天一早，国王、王后、宫女和军官们全都出了宫，寻找公主昨夜去过的地方。
+        - id: ch03-b14
+          speaker: king
+          text: 就是这座！
+        - id: ch03-b15
+          speaker: queen
+          text: 不对，亲爱的，明明是那一座！
+        - id: ch03-b16
+          speakers: [king, queen, lady_in_waiting]
+          ensemble: chorus
+          text: 可这里也有一个，那边还有一个！
+        - id: ch03-b17
+          speaker: narrator
+          text: 他们望向哪里，哪里的门上就有十字。这个记号根本派不上用场了。
+        - id: ch03-b18
+          speaker: narrator
+          text: 王后却聪明绝顶，她会做的事可不只是坐马车兜风。她拿出金色大剪刀，剪下一块丝绸，做成一只精巧的小袋子。她在里面装满细小的荞麦粒，把袋子系在公主颈上，又悄悄剪开一个小洞。无论公主去哪里，荞麦粒都会沿途撒下来。
+        - id: ch03-b19
+          speaker: narrator
+          text: 夜里，狗又来了。它让熟睡的公主伏在自己背上，驮着她飞奔到士兵那里。士兵已经深深爱上了公主。他真希望自己能成为王子，这样就可以娶她做妻子了。
+        - id: ch03-b20
+          speaker: narrator
+          text: 狗沿着墙爬到士兵的窗下，却丝毫没有留意，荞麦粒已经从城堡一路撒到了那里。
+        - id: ch03-b21
+          speaker: narrator
+          text: 天一亮，国王和王后看得清清楚楚，女儿昨夜究竟去了哪里。他们抓住士兵，把他关进监狱。
+    - id: ch04
+      title: 监狱和绞刑台
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 士兵坐在牢里。那里又黑又闷，难受极了。更糟的是，有人把明天的消息告诉了他。
+        - id: ch04-b02
+          speaker: king
+          text: 明天，你就要被绞死。
+        - id: ch04-b03
+          speaker: narrator
+          text: 士兵当然高兴不起来，偏偏打火匣还落在客店里。
+        - id: ch04-b04
+          speaker: narrator
+          text: 第二天早晨，他隔着小窗的铁栅栏，看见城里人匆匆奔向城外，都等着看他受绞刑。他听见隆隆鼓声，看见士兵列队前进，四处都是奔跑的人。
+        - id: ch04-b05
+          speaker: narrator
+          text: 窗下正好经过一个鞋匠学徒。小伙子围着皮围裙，穿着一双鞋，蹦蹦跳跳，快活得很。忽然，一只鞋从他脚上飞了出去，落在监狱墙边，恰好就在士兵向外张望的地方。
+        - id: ch04-b06
+          speaker: soldier
+          text: 喂，小伙子，别跑得那么急！我还没到场，什么也不会开始。你要是肯回到我住过的房子，把我的打火匣取来，我就给你四个先令。可一定要用最快的脚程！
+        - id: ch04-b07
+          speaker: narrator
+          text: 鞋匠学徒一听能赚四个先令，马上照办。他取来打火匣，递给了士兵。接下来会发生什么？马上就知道了。
+        - id: ch04-b08
+          speaker: narrator
+          text: 城外已经搭起一座高大的绞刑台。四周站满士兵，成千上万的百姓挤在一起，等着看行刑。国王和王后坐在一张华丽的宝座上，法官和全体大臣就坐在他们对面。
+        - id: ch04-b09
+          speaker: narrator
+          text: 士兵已经站上梯子顶端。人们正要把绳索套住他的脖子，他开口说，可怜的犯人在接受最后的惩罚以前，总能获准完成一个无伤大雅的小小心愿。他也只求这一件事。
+        - id: ch04-b10
+          speaker: soldier
+          text: 我只想抽一小斗烟。这会是我活在世上抽的最后一斗了。
+        - id: ch04-b11
+          speaker: narrator
+          text: 国王不能拒绝。士兵掏出打火匣，擦了一下，又擦两下，接着擦了第三下。瞧！三条狗全来了。第一条的眼睛大如碟子，第二条的眼睛大如磨盘，第三条的两只眼睛，每一只都有哥本哈根圆塔那么大。
+        - id: ch04-b12
+          speaker: soldier
+          text: 快来救我，别让他们把我绞死！
+        - id: ch04-b13
+          speaker: narrator
+          text: 三条狗立刻扑向法官和所有大臣。有的被咬住腿，有的被咬住鼻子。狗把他们一个个高高抛上天空，那些人落回地面，全都摔得粉身碎骨。
+        - id: ch04-b14
+          speaker: king
+          text: 我绝不答应！
+          emotion: angry
+        - id: ch04-b15
+          speaker: narrator
+          text: 可最大的狗也抓住了国王，还把王后一起抓了起来。它将两人抛上天空，让他们跟在法官和大臣后面摔了下去。士兵们全吓坏了。
+        - id: ch04-b16
+          speakers: [citizen_1, citizen_2, citizen_3]
+          ensemble: chorus
+          text: 好士兵，请你做我们的国王，再娶美丽的公主做王后！
+    - id: ch05
+      title: 八天的婚宴
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 人们把士兵请进国王的马车。三条狗在车前一路跳舞，也跟着大家高声欢呼。
+        - id: ch05-b02
+          speakers: [copper_dog, silver_dog, gold_dog]
+          ensemble: chorus
+          text: 新国王万岁！
+        - id: ch05-b03
+          speaker: narrator
+          text: 男孩子们吹响口哨，士兵们举枪敬礼。公主从铜城堡里走了出来，成了王后。她为这件事高兴极了。
+        - id: ch05-b04
+          speaker: narrator
+          text: 盛大的婚礼庆典一连举行了整整八天。三条狗也坐在席间，瞪着三双大眼睛，把每一个人都仔细打量了一遍。

@@ -1,0 +1,232 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，保留古老童话的神秘感
+        timbre: 温暖清晰
+        pace: 舒缓
+        pitch: 中音
+    father:
+      display_name: 父亲
+      tts:
+        delivery: 威严深沉，发怒时声势逼人
+        timbre: 苍老浑厚
+        pace: 稳健
+        pitch: 低音
+    eldest_son:
+      display_name: 大儿子
+      tts:
+        delivery: 自负却胆怯，受惊后语气仓促
+        timbre: 年轻清亮
+        pace: 适中偏快
+        pitch: 中音
+    second_son:
+      display_name: 二儿子
+      tts:
+        delivery: 精明而势利，说话干脆
+        timbre: 年轻明朗
+        pace: 适中偏快
+        pitch: 中音
+    youngest_son:
+      display_name: 傻小子
+      tts:
+        delivery: 憨直大胆，想到什么便说什么
+        timbre: 朴实清朗
+        pace: 适中
+        pitch: 中音
+    fox:
+      display_name: 跛脚狐狸
+      tts:
+        delivery: 机敏耐心，劝告时认真直接
+        timbre: 温和略带沙哑
+        pace: 适中
+        pitch: 中低音
+    vine_owner:
+      display_name: 葡萄园主人
+      tts:
+        delivery: 严厉警觉，谈条件时不容置疑
+        timbre: 坚实沉着
+        pace: 稳健
+        pitch: 中低音
+    apple_owner:
+      display_name: 金苹果园主人
+      tts:
+        delivery: 冷静精明，开出条件时简洁果断
+        timbre: 清晰端正
+        pace: 稳健
+        pitch: 中音
+    horse_owner:
+      display_name: 金马主人
+      tts:
+        delivery: 谨慎多疑，得到宝物时喜形于色
+        timbre: 浑厚清楚
+        pace: 适中
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 一只眼笑，一只眼哭
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，有个男人很是奇怪。他的右眼总在笑，左眼却总在哭。他有三个儿子，老大、老二聪明得很，老三却是全家公认的傻小子。兄弟三人一直猜不透父亲的眼睛为什么与别人不同，最后决定亲口去问他。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            一天，老大走进父亲的房间，开门见山地问出了这个问题。父亲一句也不答，忽然暴跳起来，提刀就向他扑去。老大吓得逃出房门，一口气跑回两个弟弟身边。他们正急着等他的消息。
+        - id: ch01-b03
+          speaker: eldest_son
+          text: >-
+            你们自己去问吧，看看能不能比我走运一点。
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            老二听了，也进屋去问父亲，结果同样被刀吓了回来。他告诉傻弟弟，这次轮到他去试试了。老三毫不畏缩，大步走到父亲面前。
+        - id: ch01-b05
+          speaker: youngest_son
+          text: >-
+            哥哥们不肯告诉我，您究竟怎么答的。父亲，您就跟我说说吧，为什么您的右眼总在笑，左眼总在哭？
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            父亲又气得脸色紫涨，提刀冲了过来。老三却站在原地，一步也没退。他知道，父亲并不会真的伤他。
+        - id: ch01-b07
+          speaker: father
+          text: >-
+            啊，这下我才看清，谁是我的亲儿子！那两个都是胆小鬼。你让我见识了你的勇气，我就把缘故告诉你。我的右眼会笑，是因为有你这样的儿子，我心里高兴。我的左眼会哭，是因为有人偷走了我的珍宝。我园里原有一株葡萄藤，每个钟头都能酿出一大桶酒。如今它被人偷走了，我怎能不哭？
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            老三把这件事告诉了哥哥们。三兄弟马上动身，去寻找失窃的葡萄藤。他们一同走到岔路口，才各奔一边。两个哥哥走了一条路，老三独自走上另一条。
+        - id: ch01-b09
+          speakers: [eldest_son, second_son]
+          ensemble: duo
+          text: >-
+            谢天谢地，那个傻瓜总算走开了！咱们这就吃早饭吧。
+    - id: ch02
+      title: 跛脚狐狸的劝告
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            两个哥哥在路边坐下，饭才吃了一半，一只跛脚狐狸从树林里出来，向他们讨些吃的。兄弟俩不肯给，反倒挥着棍子把它赶跑。可怜的狐狸只靠三只脚掌，一瘸一拐地逃走了。
+        - id: ch02-b02
+          speaker: narrator
+          text: >-
+            它跑到另一条路上，正遇见老三拿出随身的食物。狐狸向他讨一块面包皮。老三自己带的饭本来就不多，还是痛痛快快地分了一半给这只饥饿的狐狸。狐狸吃完面包，便问他要去哪里。
+        - id: ch02-b03
+          speaker: youngest_son
+          text: >-
+            我父亲丢了一株神奇的葡萄藤。那株藤每个钟头都能酿出一大桶酒，我正要去把它找回来。
+        - id: ch02-b04
+          speaker: fox
+          text: >-
+            哎呀，你运气真不错，我恰好知道它在哪里。跟我走吧！
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            狐狸把他领到一座大花园门前，告诉他，葡萄藤就在里面，可要取出来并不容易。
+        - id: ch02-b06
+          speaker: fox
+          text: >-
+            接下来每一句话，你都得牢牢记住。葡萄藤前一共有十二道岗哨，每处都有两名守卫。他们要是睁着眼睛直瞪着你，你就放心走，因为那表示他们睡着了。他们要是闭着眼睛，你反而要小心，那才表示他们醒着。到了葡萄藤旁边，你会见到一把木铲和一把铁铲。千万拿木铲。铁铲会弄出声响，把守卫全惊醒，那时你就逃不掉了。
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            老三顺顺当当地穿过花园，前面一路都没出岔子，终于看见那株神奇的葡萄藤。可他望着又硬又结实的泥土，觉得木铲一定挖不动，便拿起了铁铲。铁铲一碰泥土，响声立刻惊醒了守卫。他们一拥而上，抓住老三，把他押到主人面前。
+        - id: ch02-b08
+          speaker: vine_owner
+          text: >-
+            你为什么偷我的葡萄藤？还有，你是怎么闯过那些守卫的？
+        - id: ch02-b09
+          speaker: youngest_son
+          text: >-
+            这不是你的葡萄藤，它本来就属于我父亲。你现在不肯还，我迟早也会回来，想办法把它拿走。
+        - id: ch02-b10
+          speaker: vine_owner
+          text: >-
+            你去金苹果树上摘一只苹果来换，我就把葡萄藤给你。那棵树每二十四个钟头开一回花，结的苹果全是金子。
+        - id: ch02-b11
+          speaker: narrator
+          text: >-
+            主人命人放了老三。他一得到自由，马上赶去找狐狸。狐狸听完，先提醒他，这正是不听劝告惹来的麻烦，但还是答应帮他得到金苹果。
+        - id: ch02-b12
+          speaker: fox
+          text: >-
+            那棵树长在另一座花园里，照我的描述，你很容易认出来。树边立着两根竿子，一根金的，一根木的。记住，只能拿木竿。用它就能把苹果够下来。
+    - id: ch03
+      title: 金苹果与金马
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            这一次，傻少爷把狐狸的话听得十分仔细。他走进花园，像先前那样避过守卫，很快来到苹果树下。偏偏树上的金苹果太美了，闪出的光芒照得他眼花。他把狐狸的叮嘱忘得干干净净，抓起金竿，对着树枝重重一敲。只听一声巨响，守卫全醒了，又把他押到主人那里。老三只好从头讲起自己的来意。
+        - id: ch03-b02
+          speaker: apple_owner
+          text: >-
+            你若能给我牵来一匹金马，它能在二十四个钟头里绕世界一周，我就拿金苹果跟你交换。
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            老三离开苹果园，再次去找狐狸。这回狐狸真动了气，也难怪它会发火。
+        - id: ch03-b04
+          speaker: fox
+          text: >-
+            你要是肯照我的话去做，现在早就带着葡萄藤回到家了。算了，我再帮你一次。到森林里去，你会见到那匹马。它脖子上有两副笼头，一副金的，一副麻绳编的。一定要牵麻绳笼头。你若碰了金笼头，马会大声嘶叫，把守卫叫醒，那就全完了。
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            傻少爷在森林里一路找去，果然见到了那匹马。它实在太美，他站在那里，看得一句话也说不出来。
+        - id: ch03-b06
+          speaker: youngest_son
+          text: >-
+            什么？这样漂亮的骏马，怎么能戴麻绳笼头？我才不肯呢！
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            他刚碰金笼头，马就高声嘶鸣。守卫闻声赶来，再次抓住这个年轻人，把他带到金马主人面前。
+        - id: ch03-b08
+          speaker: horse_owner
+          text: >-
+            你若能替我带来一位金姑娘，她从来没有见过太阳，也没有见过月亮，我就把这匹金马给你。
+        - id: ch03-b09
+          speaker: youngest_son
+          text: >-
+            可我要替您寻找金姑娘，您得先把金马借给我，让我骑着它去找才行。
+        - id: ch03-b10
+          speaker: horse_owner
+          text: >-
+            话虽这样说，可谁能保证你还会回来？
+        - id: ch03-b11
+          speaker: youngest_son
+          text: >-
+            我拿父亲的头颅起誓。我一定会回来，带回来的不是金姑娘，就是这匹金马。
+        - id: ch03-b12
+          speaker: narrator
+          text: >-
+            金马主人这才让他离开。老三骑马去找狐狸，要听听它有什么办法。
+    - id: ch04
+      title: 洞穴里的金姑娘
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            跛脚狐狸总能耐心宽待别人的过错。它没有丢下老三不管，而是领他来到一座幽深的洞穴前。入口处站着一位浑身金光的姑娘，美得如同明亮的白昼。年轻人把她扶上自己的马，正要跟着上马，狐狸却叫住了他。
+        - id: ch04-b02
+          speaker: fox
+          text: >-
+            这么美丽的姑娘，却要拿去换一匹马，你真的舍得吗？可你已经拿父亲的头颅起了誓，不能不守信用。也许，我能想个办法替她去。
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            狐狸说完，摇身一变，也成了一位金姑娘。两个姑娘看起来一模一样，几乎谁也分辨不出真假。
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            老三把狐狸变成的金姑娘直接送到金马主人面前。主人一看，欢喜得入了迷。
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            就这样，年轻人终于把父亲失去的葡萄藤带回了家。不仅如此，他还娶了真正的金姑娘做妻子。

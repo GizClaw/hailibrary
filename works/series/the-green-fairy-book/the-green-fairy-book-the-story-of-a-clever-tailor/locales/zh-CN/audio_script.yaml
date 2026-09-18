@@ -1,0 +1,233 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，像编书人面对孩子娓娓而谈，幽默处轻巧含笑
+        timbre: 温暖清朗
+        pace: 舒缓而有自然起伏
+        pitch: 中音
+    princess:
+      display_name: 公主
+      tts:
+        delivery: 起初高傲挑剔，态度冷淡，最后变得温柔真挚
+        timbre: 年轻明亮
+        pace: 从容
+        pitch: 中高音
+    first_tailor:
+      display_name: 第一个裁缝
+      tts:
+        delivery: 自负卖弄，回答时胸有成竹
+        timbre: 成熟明亮
+        pace: 自然
+        pitch: 中音
+    second_tailor:
+      display_name: 第二个裁缝
+      tts:
+        delivery: 自负直率，落败后尖酸嫉妒
+        timbre: 略粗厚
+        pace: 自然
+        pitch: 中低音
+    young_tailor:
+      display_name: 小裁缝
+      tts:
+        delivery: 年轻机灵，遇险时镇定诙谐，说话轻快而有把握
+        timbre: 清亮灵活
+        pace: 明快
+        pitch: 中高音
+    bear:
+      display_name: 熊
+      tts:
+        delivery: 粗鲁莽撞，受骗时憨直，发怒时低沉咆哮
+        timbre: 粗重浑厚
+        pace: 稍慢
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 三个裁缝来猜谜
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，有一位骄傲得不得了的公主。每逢有人来求婚，她就出一道谜语。猜不出答案的人，会在满城的嘲笑声中被赶走。她还公开说，无论谁都可以来试试。谁能猜中，谁就能做她的丈夫。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            有一天，三个裁缝碰到了一起。年长的两个觉得，自己缝过那么多又细又牢的针脚，从来没有出错，这回也一定能办好。第三个却是个又懒又淘气的小裁缝，连手艺都没学好。他只盼运气能帮自己一回，因为要是连运气也不帮他，他往后可怎么办呢？
+        - id: ch01-b03
+          speakers: [first_tailor, second_tailor]
+          ensemble: duo
+          text: >-
+            你还是待在家里吧。你只有那么一点聪明，去了也不会有出息。
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            小裁缝没有泄气。他说自己已经拿定主意，自会想办法闯出路来。说完便昂首出发，那副神气，好像整个世界都是他的。三个人一起来到王宫，依礼拜见公主，又请她把谜语说出来。
+        - id: ch01-b05
+          speakers: [first_tailor, second_tailor, young_tailor]
+          ensemble: chorus
+          text: >-
+            真正会猜谜的人总算来了。我们的心思又尖又细，细得都能穿过针眼。
+        - id: ch01-b06
+          speaker: princess
+          text: >-
+            我头上有两种不同颜色的头发。你们说，是什么颜色？
+        - id: ch01-b07
+          speaker: first_tailor
+          text: >-
+            这还不容易？多半是一黑一白，就像椒盐花呢。
+        - id: ch01-b08
+          speaker: princess
+          text: >-
+            错了。
+        - id: ch01-b09
+          speaker: second_tailor
+          text: >-
+            既然不是黑白两色，那一定是红色和棕色，就像我父亲礼拜日穿的外套。
+        - id: ch01-b10
+          speaker: princess
+          text: >-
+            又错了。现在让第三个人回答吧。我看他好像什么都知道。
+
+    - id: ch02
+      title: 银发和金发
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            小裁缝大胆地走到前面。
+        - id: ch02-b02
+          speaker: young_tailor
+          text: >-
+            公主头上有一根银发，还有一根金发。就是这两种颜色。
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            公主听完，脸色一下变得惨白，吓得差点昏过去。小裁缝正好说中了答案，而她原本深信，世上绝没有一个人能猜到。好不容易定下神来，她又开了口。
+        - id: ch02-b04
+          speaker: princess
+          text: >-
+            别以为这样就能娶我。你还得办成一件事。马厩里有一头熊，你要跟它过一夜。明早我起床时，如果你还活着，我才嫁给你。
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            公主以为这样准能除掉他，因为落进那头熊爪下的人，从没有一个活下来。小裁缝却根本不怕。
+        - id: ch02-b06
+          speaker: young_tailor
+          text: >-
+            敢闯一闯，事情就成了一半。
+
+    - id: ch03
+      title: 马厩里的较量
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            天黑以后，小裁缝被带进马厩。熊马上扑过来，伸出两只大熊掌，要给他一个狠狠的“欢迎”。
+        - id: ch03-b02
+          speaker: young_tailor
+          text: >-
+            别急，别急。我马上就教你安静下来。
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            他不慌不忙地从口袋里掏出一把核桃，一颗颗咬开来吃，好像世上根本没有值得发愁的事。熊看得嘴馋，也想吃几颗。小裁缝又把手伸进口袋，递给它满满一把，拿出来的却不是核桃，而是小石子。熊把石子全塞进嘴里，用尽力气也咬不开。
+        - id: ch03-b04
+          speaker: bear
+          text: >-
+            我真是个大笨蛋，连核桃都咬不开。喂，你替我把它们咬开，好不好？
+        - id: ch03-b05
+          speaker: young_tailor
+          text: >-
+            你可真有本事！长着那么大一张嘴，居然连核桃也咬不开。
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            小裁缝接过石子，飞快换成一颗核桃。只听咔嚓一声，核桃马上裂开了。
+        - id: ch03-b07
+          speaker: bear
+          text: >-
+            再让我试一次。看你做起来那么容易，这回我肯定也能行。
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            小裁缝又递过去几颗小石子。熊把它们放进嘴里，拼命地咬呀，啃呀，恨不得把全部力气都用上。可不用我说你也知道，它到头来连一颗也没咬开。
+
+    - id: ch04
+      title: 一把小提琴
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            过了一会儿，小裁缝拿出一把小提琴，拉了起来。熊听见音乐，忍不住跳起舞来。跳了好一阵，它开心极了。
+        - id: ch04-b02
+          speaker: bear
+          text: >-
+            喂，拉小提琴难不难？
+        - id: ch04-b03
+          speaker: young_tailor
+          text: >-
+            简单得很，小孩子都会。左手手指按住琴弦，右手拿琴弓在弦上来回拉。就这样，上上下下，啦啦啦啦啦。
+        - id: ch04-b04
+          speaker: bear
+          text: >-
+            我真想拉得跟你一样！那样我什么时候想跳舞，就能什么时候跳。你肯教我吗？
+          emotion: happy
+        - id: ch04-b05
+          speaker: young_tailor
+          text: >-
+            当然肯，只要你学得够快。先让我看看你的爪子。你的指甲太长了，我得先替你剪短。
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            他搬来一副足枷。熊把两只前爪放上去，小裁缝立刻把枷板紧紧拧住。
+        - id: ch04-b07
+          speaker: young_tailor
+          text: >-
+            你先等着，我去拿剪刀。
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            小裁缝说完便走开了，把熊丢在那里，让它尽管低吼。自己却躺到马厩的角落里，很快睡得又香又沉。公主听见熊整夜大吼，还以为它正一边撕咬裁缝，一边快活地叫呢。
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            第二天早晨，公主心情轻松，无忧无虑地起了床。可她朝马厩那边一望，小裁缝正站在门前，精神抖擞，活蹦乱跳得像水里的鱼。
+
+    - id: ch05
+      title: 熊追上来了
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            公主当众许下过诺言，这回再也不能反悔。国王便吩咐人备好王家的马车，送她和小裁缝去教堂成婚。
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            马车刚要出发，那两个心肠恶毒的裁缝嫉妒小裁缝的好运，偷偷跑进马厩，拧开足枷，放出了熊。熊气得口吐白沫，撒腿追向马车。公主听见身后传来呼哧呼哧的喘气声和吼声，顿时害怕起来。
+        - id: ch05-b03
+          speaker: princess
+          text: >-
+            糟了！熊追来了，它一定会赶上我们的！
+          emotion: fearful
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            小裁缝一点也不慌。他安安稳稳地倒立起来，把两条腿伸出车窗，朝熊大声喊。
+        - id: ch05-b05
+          speaker: young_tailor
+          text: >-
+            看见我的足枷了吗？你要是不马上回去，我就把你紧紧拧在里面！
+        - id: ch05-b06
+          speaker: narrator
+          text: >-
+            熊看见足枷，又听见这句话，立刻掉过头逃走，四条腿能跑多快就跑多快。马车继续向前，再没有受到阻拦。小裁缝平平安安地来到教堂，和公主结了婚。从此，两个人一起生活了许多年，像云雀一样快活自在。
+        - id: ch05-b07
+          speaker: narrator
+          text: >-
+            谁要是不相信这个故事，就得罚一块银元。
+        - id: ch05-b08
+          speaker: narrator
+          text: >-
+            这个故事，是格林兄弟写下的。

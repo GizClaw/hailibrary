@@ -1,0 +1,286 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, steady, and quietly mysterious
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    hans:
+      display_name: Clever Hans
+      tts:
+        delivery: bold, dryly humorous, and self-assured
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium
+    minister:
+      display_name: Minister
+      tts:
+        delivery: proper, calculating, and easily flustered
+        timbre: mature and rounded
+        pace: deliberate
+        pitch: medium-low
+    card_player:
+      display_name: Card Player
+      tts:
+        delivery: guarded and challenging
+        timbre: thin and shadowy
+        pace: measured
+        pitch: medium-low
+    vengeful_dwarf:
+      display_name: Vengeful Dwarf
+      tts:
+        delivery: sharp, bitter, and threatening
+        timbre: small and raspy
+        pace: quick
+        pitch: high
+    grateful_dwarf:
+      display_name: Grateful Dwarf
+      tts:
+        delivery: earnest, humble, and quietly wise
+        timbre: small and clear
+        pace: measured
+        pitch: high
+    dwarf_companion:
+      display_name: Dwarf Companion
+      tts:
+        delivery: harsh and excited
+        timbre: small and rough
+        pace: quick
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The Midnight Bell Ringer
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a minister who could not keep a servant. Along with all the usual work, he demanded that his servant ring the church bells at midnight. Many men had agreed to do it. Yet each one vanished on his way to the church, as though the earth had swallowed him. The bells stayed silent, and not one ringer returned.
+        - id: ch01-b02
+          speaker: narrator
+          text: The minister did everything he could to keep the disappearances secret, but the tale spread through the village all the same. Soon no one would enter his service. Some people even whispered that he had murdered the missing men himself. Sunday after Sunday, he stood in his pulpit and offered double wages to anyone who would take on the sacred duty of ringing the church bells. No matter what he offered, no one paid the least attention. The poor minister began to despair.
+        - id: ch01-b03
+          speaker: narrator
+          text: Then one day, as he stood at his door, a village youth called Clever Hans came up to him.
+        - id: ch01-b04
+          speaker: hans
+          text: I am tired of serving a miser who never gives me enough to eat or drink. I will do whatever work you want.
+        - id: ch01-b05
+          speaker: minister
+          text: Very good, my son. Tonight you can show me how brave you are. Tomorrow, we will settle your wages.
+        - id: ch01-b06
+          speaker: narrator
+          text: Hans was perfectly content with the offer and went straight to the kitchen to begin his work. He did not know that his new master was every bit as stingy as the old one. The minister always sat at the servants' table during meals, hoping his presence would hold their appetites in check. He urged them to drink deeply and often, because he thought a servant full of beer would eat less beef, and beef cost more. But in Hans he had met his match. Hans could empty a full cup without leaving an empty plate, and the minister soon learned what that cost him.
+    - id: ch02
+      title: The Headless Watchers
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: About an hour before midnight, Hans entered the church and locked the door behind him. He expected darkness and silence. Instead, the church blazed with light, and a crowd sat around a table playing cards. Hans showed no fear. Perhaps he felt none, or perhaps he was wise enough to hide it. He walked over and took a seat among the players.
+        - id: ch02-b02
+          speaker: card_player
+          text: My friend, what are you doing here?
+        - id: ch02-b03
+          speaker: narrator
+          text: Hans studied the man for a moment, then laughed.
+        - id: ch02-b04
+          speaker: hans
+          text: If anyone has the right to ask that question, it is me. Since I am not asking it, you would be wise not to ask either.
+        - id: ch02-b05
+          speaker: narrator
+          text: Hans picked up a hand of cards and joined the strangers as though he had known them all his life. Luck stayed firmly on his side. Game after game, the other gamblers' money left their pockets and found its way into his. Then, at the very stroke of midnight, a cock crowed. In one instant, the brilliant lights went out. The table, the cards, and every player vanished with them. Hans stood alone in the dark church.
+        - id: ch02-b06
+          speaker: narrator
+          text: He felt his way through the dark until he found the tower stairs. On the first landing, a faint light shone through a slit in the wall. Beside it sat a tiny man with no head.
+        - id: ch02-b07
+          speaker: hans
+          text: Ho there, little fellow! What are you doing here?
+        - id: ch02-b08
+          speaker: narrator
+          text: Hans did not wait for an answer. He gave the dwarf a kick that sent him flying down the stairs. Then he climbed higher. On every landing, another headless watcher sat in silence. None of them spoke or tried to stop him. Hans treated each one just as he had treated the first and sent them all tumbling down the tower steps.
+        - id: ch02-b09
+          speaker: narrator
+          text: At last Hans reached the top of the tower and paused to look around. There, crouched inside the great bell itself, was one more headless dwarf. He was waiting for Hans to seize the bell rope. The moment Hans pulled it, the dwarf meant to strike him with the heavy clapper, and that blow would have made an end of him.
+        - id: ch02-b10
+          speaker: hans
+          text: Stop, my little friend! That was never part of our bargain. Perhaps you saw your comrades go down the stairs. You are going after them. But since you chose the highest perch, you deserve a grander exit. You can go through the window!
+        - id: ch02-b11
+          speaker: narrator
+          text: Hans started up the ladder to drag the dwarf out of the bell and make good on his threat.
+        - id: ch02-b12
+          speaker: grateful_dwarf
+          text: Oh, brother, spare my life! Neither I nor my comrades will ever trouble you again. I may be small and weak, but perhaps one day I can repay you.
+          emotion: fearful
+        - id: ch02-b13
+          speaker: hans
+          text: You miserable little shrimp! I doubt your thanks will do me much good. Still, I am in a cheerful mood tonight, so you may keep your life. Just take care not to cross my path again. Next time, you may not escape so easily.
+        - id: ch02-b14
+          speaker: narrator
+          text: The dwarf thanked him humbly, slid down the bell rope, and raced down the tower as if fire were at his heels. Then Hans seized the rope and rang the bells with all his strength.
+        - id: ch02-b15
+          speaker: narrator
+          text: The sound of the midnight bells reached the minister's house. He could hardly believe his ears, and he rejoiced. After losing so many servants, he had finally found someone he could trust with the duty. Hans kept the bells ringing for some time. When the work was done, he went to the hayloft, settled into the hay, and fell fast asleep.
+    - id: ch03
+      title: Hans Sets His Hours
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The minister always rose early and went around to make sure every servant was at work. That morning, everyone was in place except Hans, and no one knew where he was. Nine o'clock passed. Hans still did not appear. By eleven, the minister feared that he had vanished like all the ringers before him.
+        - id: ch03-b02
+          speaker: narrator
+          text: At last, when the servants gathered for dinner, Hans came in, stretching and yawning.
+        - id: ch03-b03
+          speaker: minister
+          text: Where have you been all this time?
+        - id: ch03-b04
+          speaker: hans
+          text: Asleep.
+        - id: ch03-b05
+          speaker: minister
+          text: Asleep? Do you mean to tell me you can sleep until midday?
+          emotion: surprised
+        - id: ch03-b06
+          speaker: hans
+          text: That is exactly what I mean. A man who works at night must sleep by day, just as a man who works by day sleeps at night. Find someone else to ring the midnight bells, and I will start at dawn. If I must ring them, I will sleep until noon at the earliest.
+        - id: ch03-b07
+          speaker: narrator
+          text: The minister tried every argument he could think of, but Hans held his ground. In the end, they made a new agreement. Hans would give up ringing the midnight bells and work like the other servants from sunrise to sunset. Unlike the others, though, he could go to sleep for one hour after breakfast and one hour after dinner.
+        - id: ch03-b08
+          speaker: minister
+          text: Of course, now and then you may have to work a little longer to finish something, especially in winter when the days are short.
+        - id: ch03-b09
+          speaker: hans
+          text: No. I promised to work from dawn until dark, and not one stroke longer. Unless you let me stop earlier in summer, that is what you can expect.
+    - id: ch04
+      title: When the Sun Went Down
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: A few weeks later, the minister was invited to a christening in a neighboring town. He ordered Hans to come along. The ride should have taken only a few hours, so the minister was surprised when Hans appeared carrying a bag of food.
+        - id: ch04-b02
+          speaker: minister
+          text: What do you need that for? We will arrive before dark.
+        - id: ch04-b03
+          speaker: hans
+          text: Who knows? Plenty of things could delay us. Remember our agreement. The instant the sun goes down, I stop being your servant. If we have not reached town by then, you will have to manage without me.
+        - id: ch04-b04
+          speaker: narrator
+          text: The minister thought Hans was joking and made no further reply. Once they had left the village and traveled a few miles, however, they found that snow had fallen in the night. The wind had swept it into deep drifts across the road. Their progress grew slower and slower. By the time they entered the thick forest between the village and the town, the sun was already touching the treetops. The horses had to plow their way through the deep, soft snow, while Hans kept turning to look at the sinking sun behind them.
+        - id: ch04-b05
+          speaker: minister
+          text: Is something behind us? Why do you keep turning around?
+        - id: ch04-b06
+          speaker: hans
+          text: Because I have no eyes in the back of my neck.
+        - id: ch04-b07
+          speaker: minister
+          text: Stop talking nonsense. Think about getting us to town before night falls.
+        - id: ch04-b08
+          speaker: narrator
+          text: Hans said nothing. He drove steadily on, glancing over his shoulder from time to time. In the middle of the forest, the sun disappeared. Hans pulled in the horse, took his pack, and jumped out of the sleigh.
+        - id: ch04-b09
+          speaker: minister
+          text: What are you doing? Have you gone mad?
+        - id: ch04-b10
+          speaker: hans
+          text: The sun has set, so my work is over. I am camping here tonight.
+        - id: ch04-b11
+          speaker: narrator
+          text: The minister begged, threatened, and offered Hans a large reward if he would drive on. Hans would not move.
+        - id: ch04-b12
+          speaker: hans
+          text: You should be ashamed of asking me to break my word. If you want to reach town tonight, go by yourself. My time is my own now, and I cannot come with you.
+        - id: ch04-b13
+          speaker: minister
+          text: My good Hans, I ought not leave you here. Think of the danger! Look over there. Two criminals are hanging from that gallows. You cannot sleep beside such dreadful neighbors.
+        - id: ch04-b14
+          speaker: hans
+          text: Why not? Those gallows birds are high in the air, and my camp will be on the ground. We will have nothing to do with each other.
+        - id: ch04-b15
+          speaker: narrator
+          text: Hans turned his back and walked away. The minister had no choice but to drive on alone if he meant to reach the christening in time. His friends were startled to see him arrive without a coachman. When he told them what had happened, they could not decide who was more foolish, the master or the servant.
+    - id: ch05
+      title: The Dwarfs in the Moonlight
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Hans would not have cared in the least if he had known what they were saying or thinking. He ate until he was satisfied with the food from his pack, then lit his pipe. Beneath the spreading branches of a tree, he pitched his tent. He wrapped himself snugly in his furs, lay down, and went sound asleep.
+        - id: ch05-b02
+          speaker: narrator
+          text: Several hours later, a sudden noise woke him. He sat up. The moon shone brightly overhead, and two headless dwarfs stood nearby, speaking angrily. The moment they saw Hans, both cried out.
+        - id: ch05-b03
+          speakers: [vengeful_dwarf, dwarf_companion]
+          ensemble: duo
+          text: It is him! It is him!
+          emotion: angry
+        - id: ch05-b04
+          speaker: narrator
+          text: One of them stepped closer.
+        - id: ch05-b05
+          speaker: vengeful_dwarf
+          text: Ah, my old friend! What luck has brought us together again. My bones still ache from that fall down the tower stairs. You remember that night, don't you? Now your bones will ache. Hurry, comrades! Hurry!
+          emotion: angry
+        - id: ch05-b06
+          speaker: narrator
+          text: At that call, a whole host of tiny headless creatures seemed to spring straight from the earth like a swarm of midges. Every one carried a club, and all of them rushed at Hans. They were very small, but their numbers were great, and each club struck hard. Even a strong man could do nothing against so many. As the blows rained down, Hans thought his last hour had come. Then, just when the fight was at its fiercest, another little dwarf arrived.
+        - id: ch05-b07
+          speaker: grateful_dwarf
+          text: Stop, comrades! This man once did me a service, and I owe him a debt. When my life was in his hands, he spared me. Yes, he threw you down the stairs, but a warm bath soon healed your bruises. Forgive him now, and go quietly home.
+        - id: ch05-b08
+          speaker: narrator
+          text: The headless dwarfs listened. Then they vanished as suddenly as they had appeared. Once Hans had recovered a little, he looked at his rescuer and recognized the dwarf who had hidden inside the church bell.
+        - id: ch05-b09
+          speaker: narrator
+          text: The dwarf settled quietly beneath the tree.
+        - id: ch05-b10
+          speaker: grateful_dwarf
+          text: You laughed when I said I might help you one day. Now you know I was right. Perhaps from now on, you will not despise any creature, however small.
+        - id: ch05-b11
+          speaker: hans
+          text: I thank you with all my heart. Their blows have left every bone aching. Without you, I would have come to a terrible end.
+        - id: ch05-b12
+          speaker: grateful_dwarf
+          text: I have nearly repaid my debt. But you have already suffered, so I will do more and tell you something valuable. You do not need to remain in the service of that stingy minister. When you return home tomorrow, go straight to the north corner of the church. You will see a large stone built into the wall. Look closely. Unlike all the stones around it, that one has no mortar holding it in place.
+        - id: ch05-b13
+          speaker: grateful_dwarf
+          text: The moon will be full the night after tomorrow. At midnight, take a pickaxe and pull that stone from the wall. Beneath it lies a great treasure that people hid there during a war. Along with church plate, you will find bags of money. They have lain untouched for more than a hundred years, and no one living knows who they belong to. There is one condition. You must give one third of the money to the poor. After that, you may keep all the rest for yourself.
+        - id: ch05-b14
+          speaker: narrator
+          text: As the dwarf finished speaking, the cocks in the village began to crow. In that same moment, the little man was nowhere to be seen. Hans moved his arms and legs and found that all the pain had left them. He lay beneath the tree for a long time, turning over every word about the hidden treasure. Only toward morning did he fall asleep again.
+    - id: ch06
+      title: The Treasure in the Wall
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: Morning wore on while Hans slept after his strange night. The sun climbed high in the sky before the minister finally returned from town.
+        - id: ch06-b02
+          speaker: minister
+          text: Hans, what a fool you were not to come with me! I had fine food, good company, and money besides.
+        - id: ch06-b03
+          speaker: narrator
+          text: He rattled some coins so Hans would understand exactly what he had missed.
+        - id: ch06-b04
+          speaker: hans
+          text: Ah, sir, you must have stayed awake all night to earn so much. I earned a hundred times as much while I slept soundly.
+        - id: ch06-b05
+          speaker: minister
+          text: How did you do that?
+        - id: ch06-b06
+          speaker: narrator
+          text: The minister asked eagerly, but Hans gave him no secret.
+        - id: ch06-b07
+          speaker: hans
+          text: Only fools brag about their pennies. Wise men keep their crowns hidden.
+        - id: ch06-b08
+          speaker: narrator
+          text: They drove home. Hans neglected none of his work. He put the horses away and fed them before going to the north corner of the church. There he found the loose stone exactly where the dwarf had said it would be. Then Hans returned to his duties.
+        - id: ch06-b09
+          speaker: narrator
+          text: On the first night of the full moon, Hans waited until the whole village was asleep. Then he slipped out, carrying a pickaxe, and went to the church wall. The stone was stubborn, and he worked with great difficulty before he finally dragged it from its place. Behind it was a hollow space. Inside lay the church plate and the bags of money, exactly as the dwarf had promised.
+        - id: ch06-b10
+          speaker: narrator
+          text: The following Sunday, Hans kept his promise to the dwarf and handed one full third of the money to the poor people of the village. Then he went to the minister and said he wanted to end their bond of service. Hans did not ask for any unpaid wages. That suited the stingy minister very well, so he made no objection and allowed Hans to leave as he wished.
+        - id: ch06-b11
+          speaker: narrator
+          text: Hans went on his way. He bought a large house, married a young wife, and lived happily and prosperously to the end of his days.
