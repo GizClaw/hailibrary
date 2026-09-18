@@ -1,0 +1,201 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts: {delivery: 温暖庄重，以从容而清晰的语气讲述古老命运故事, timbre: 清澈浑厚, pace: 舒缓, pitch: 中音}
+    wife_1:
+      display_name: 第一个妻子
+      tts: {delivery: 精明好胜，说话利落，捉弄丈夫时不动声色, timbre: 明亮成熟, pace: 适中, pitch: 中音}
+    husband_1:
+      display_name: 第一个丈夫
+      tts: {delivery: 憨厚迟钝，容易信服，得意时天真热切, timbre: 温和朴实, pace: 稍慢, pitch: 中低音}
+    wife_2:
+      display_name: 第二个妻子
+      tts: {delivery: 好胜机敏，故作惊恐时郑重逼真, timbre: 清晰成熟, pace: 适中, pitch: 中音}
+    husband_2:
+      display_name: 第二个丈夫
+      tts: {delivery: 胆小多疑，容易慌张，语气真诚而笨拙, timbre: 柔和偏薄, pace: 稍慢, pitch: 中音}
+    villager_1:
+      display_name: 村民甲
+      tts: {delivery: 直率好奇，见到怪事便脱口发问, timbre: 爽朗清楚, pace: 适中, pitch: 中音}
+    villager_2:
+      display_name: 村民乙
+      tts: {delivery: 朴实坦率，随众人一起追问真相, timbre: 厚实自然, pace: 适中, pitch: 中低音}
+    villager_3:
+      display_name: 村民丙
+      tts: {delivery: 好奇惊讶，反应鲜明却不夸张, timbre: 清亮自然, pace: 适中, pitch: 中高音}
+  chapters:
+    - id: ch01
+      title: 两个傻丈夫
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            一片辽阔的平原上有个小村庄。太阳从升起到落下，村里人一直都能望见它。村中有两对夫妻比邻而居，两个男人在同一个主人手下干活，是一对好朋友。两位妻子却老在争吵，而她们争得最多的，是谁的丈夫更傻。大多数女人总觉得，自家的东西比别人的好。她们偏偏相反，都认定自家的丈夫才更傻。
+        - id: ch01-b02
+          speaker: wife_1
+          text: >-
+            你真该看看我丈夫干的那些事！他给娃娃穿衣服，能把衣服上下颠倒。有一回，他拿滚烫的汤喂孩子，烫得她嘴巴疼了好几天。他还从路上捡石头，种进地里当土豆。更离谱的是，有一天他非要从楼上的窗户爬进花园，说这样比走门近。
+        - id: ch01-b03
+          speaker: wife_2
+          text: >-
+            这当然够糟，可跟我每天受的罪一比，根本不算什么。我忙的时候叫丈夫喂家禽，他准把有毒的东西当饲料。等我去院子里看，它们已经全死了。我去照顾生病的母亲时，他还拿走我最好的一顶帽子，给母鸡当窝下蛋。上星期那件事你也知道。我叫他买一桶黄油，他却赶回来一百五十只鸭子。也不知是谁哄他收下的，竟然没有一只会下蛋。
+        - id: ch01-b04
+          speaker: wife_1
+          text: 唉，你丈夫确实很叫人受不了。不过我们不如考验他们一次，看看到底谁更傻。
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            快到丈夫收工的时候，第一个妻子搬出纺车，坐在那里不停地摇。丈夫走进家门，她连头也不抬，只顾忙活。男人张着嘴看了半天，实在忍不住了。
+        - id: ch01-b06
+          speaker: husband_1
+          text: 老婆，你是不是疯了？纺车上什么都没有，你到底在纺什么？
+        - id: ch01-b07
+          speaker: wife_1
+          text: 你觉得什么都没有，可这儿明明有一大绞羊毛，细得谁也看不见。等我织成布，就给你做一件外套。
+        - id: ch01-b08
+          speaker: husband_1
+          text: >-
+            哎呀，我的妻子真聪明！要不是你告诉我，我绝不会知道纺车上还有羊毛。不过现在嘛，我好像真的能看见一点儿了。
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            妻子只笑了笑，一句话也不说，又纺了整整一个钟头。随后，她从纺车前站起来，装作飞快地织布。忙完以后，她告诉丈夫，今晚实在太累，不能把外套做完。等到明天，只要把织好的布裁开，再一针针缝起来就行。
+    - id: ch02
+      title: 看不见的外套
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            第二天一早，女人早早起床，先打扫屋子，喂好鸡，再把每样东西放回原位。接着，她俯在厨房桌前，举起一把大剪刀，“咔嚓！咔嚓！”地剪个不停，声音响得连花园里都听得见。丈夫站在旁边，当然看不出桌上有什么东西可以剪。不过，他那么傻，这也没有什么奇怪的。
+        - id: ch02-b02
+          speaker: narrator
+          text: >-
+            裁完以后，女人又装模作样地缝起来，一会儿拍，一会儿别，一会儿理，一会儿接。最后，她转向丈夫。
+        - id: ch02-b03
+          speaker: wife_1
+          text: 外套做好了，你来试试。
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            她叫丈夫脱掉身上的外套，站在自己面前。女人再次忙碌起来，围着他又拍又别，又理又接，还仔仔细细地替他抚平每一道根本不存在的褶皱。丈夫什么也感觉不到，却一直耐着性子让她摆弄。过了好一阵，他终于开口了。
+        - id: ch02-b05
+          speaker: husband_1
+          text: 这件外套穿在身上，好像不怎么暖和。
+        - id: ch02-b06
+          speaker: wife_1
+          text: 因为料子实在太细了。你总不会想让它像天天穿的粗布衣服那么厚吧？
+        - id: ch02-b07
+          speaker: narrator
+          text: 男人其实很想要一件厚衣服，可他没脸承认，只好顺着妻子的话说下去。
+        - id: ch02-b08
+          speaker: husband_1
+          text: >-
+            既然你说它漂亮，那一定漂亮得不得了。我穿上它，准比全村的人都神气。大家看见我，会说我的外套真气派！不过，也不是人人都能娶到像你这么聪明的妻子。
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            另一边，第二个妻子也开始考验自己的丈夫。男人刚进家门，她就满眼惊恐地盯着他，把他看得心里发毛。
+        - id: ch02-b10
+          speaker: husband_2
+          text: 你为什么这样盯着我？是不是出了什么事？
+        - id: ch02-b11
+          speaker: wife_2
+          text: 快去上床！瞧你这副脸色，病得一定很重！
+          emotion: fearful
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            男人起先十分诧异，那天晚上，他本来觉得身体好极了。可妻子一说，他马上确信自己害了什么可怕的病，脸也白了下来。
+        - id: ch02-b13
+          speaker: husband_2
+          text: 我想，我还是上床最好。
+          emotion: fearful
+        - id: ch02-b14
+          speaker: narrator
+          text: >-
+            他哆嗦着任妻子领上楼，还让她帮忙脱掉衣服。妻子替他暖暖和和地掖好被子，摇了摇头。
+        - id: ch02-b15
+          speaker: wife_2
+          text: 今晚若能睡好，你也许还有救。可要是睡不好，那就……
+        - id: ch02-b16
+          speaker: narrator
+          text: 可怜的男人听了，直到太阳升起也没合过眼。
+    - id: ch03
+      title: 活人进棺材
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 第二天，妻子做完家务，踮着脚走进房间。
+        - id: ch03-b02
+          speaker: wife_2
+          text: 今天早晨觉得怎么样？
+        - id: ch03-b03
+          speaker: husband_2
+          text: 糟透了。我一刻也没睡着。你能不能想个办法，让我好起来？
+        - id: ch03-b04
+          speaker: wife_2
+          text: >-
+            能试的办法我都会试。我去找些晒干的药草，给你煮一碗喝。可我怕现在已经太迟了。你为什么不早点告诉我？
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            妻子并不想让丈夫真的死去。她只是下定决心，要证明这个男人比隔壁的更傻。可丈夫听她说得那么肯定，已经相信自己病了许久。他甚至觉得，自己一直忍着酷刑般的疼痛，却没有抱怨，简直像个英雄一样熬了过来。
+        - id: ch03-b06
+          speaker: husband_2
+          text: >-
+            我以为疼上一两天，也许自己会好。再说，我不想惹你伤心。我要是早知道病得这么重，一定马上告诉你。
+        - id: ch03-b07
+          speaker: wife_2
+          text: 好吧，我看看还能做些什么。你说话对身体不好，安静躺着，千万别受凉。
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            男人一整天都躺在床上，裹紧被子，不敢乱动。每次妻子走进房间，都先摇一摇头，再问他感觉如何。看见她那副神情，他便觉得病又重了，每次的回答也都是自己越来越糟。到了傍晚，妻子突然放声大哭。丈夫忙问出了什么事，她这才抽噎着回答。
+        - id: ch03-b09
+          speaker: wife_2
+          text: 我可怜的丈夫，你真的死了吗？明天我就得去给你订棺材了。
+          emotion: sad
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            男人听了，浑身一阵冰凉。就在那一刻，他忽然知道，自己明明跟这一生中任何时候一样健康。
+        - id: ch03-b11
+          speaker: husband_2
+          text: 不，不！我已经全好了！真的，我觉得自己该出去干活。
+          emotion: fearful
+        - id: ch03-b12
+          speaker: wife_2
+          text: 你休想出去。只管一动不动地躺着，太阳再次升起以前，你就会死掉。
+        - id: ch03-b13
+          speaker: narrator
+          text: >-
+            这番话把男人吓坏了。他果然躺得笔直，连棺材匠来给他量尺寸时都不敢动。妻子又去找掘墓人，交代他怎样挖墓穴。当天傍晚，做好的棺材送到家里。第二天上午九点，女人给丈夫穿上一件长长的法兰绒衣服，让他躺进棺材，再叫棺材匠的伙计钉紧盖子，把他一路抬向墓地。他们到达时，亲友们已经在那里等候。
+    - id: ch04
+      title: 到底谁最傻
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            棺材里的“尸体”正要放进墓穴，第一个丈夫突然跑来了。旁人一眼看去，只见他身上好像什么也没穿。大家顿时笑成一片，抬棺材的人也把棺材放下，笑得肋骨都快裂开了。棺材里的死人十分惊讶，从侧面的小窗探出头来，大声喊道。
+        - id: ch04-b02
+          speaker: husband_2
+          text: 我要不是个死人，准会跟你们笑得一样响！
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            众人听见棺材里传出声音，笑声一下子停了。人人僵在原地，好像都变成了石头。随即，他们一齐冲向棺材，掀开盖子，让男人从里面走出来。
+        - id: ch04-b04
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
+          text: 这么说，你根本没有死？既然还活着，为什么让别人把你埋掉？
+          emotion: surprised
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            到了这一步，两位妻子只好当着众人的面承认，她们设下这两场考验，都是为了证明自己的丈夫比对方更傻。村民们听完，却说这件事还是分不出胜负。一个男人明明光着身子，却因为妻子几句话，就相信自己穿着一件精美的外套。另一个男人明明活得好好的，却肯让人把自己装进棺材，钉上盖子，抬到墓地去埋。
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            从那以后，两位妻子仍跟从前一样争吵不休。至于谁的丈夫才是最傻的，始终没有人知道。
