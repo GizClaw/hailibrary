@@ -1,0 +1,473 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, clear, and quietly cautionary
+        timbre: gentle and resonant
+        pace: measured
+        pitch: medium
+    emperor:
+      display_name: The Emperor
+      tts:
+        delivery: commanding, proud, and capable of deep feeling
+        timbre: rich and mature
+        pace: measured
+        pitch: medium-low
+    first_lord:
+      display_name: The First Lord
+      tts:
+        delivery: pompous, formal, and easily flustered
+        timbre: polished and nasal
+        pace: brisk
+        pitch: medium
+    kitchenmaid:
+      display_name: The Little Kitchenmaid
+      tts:
+        delivery: openhearted, practical, and sincere
+        timbre: light and clear
+        pace: natural
+        pitch: medium-high
+    nightingale:
+      display_name: The Nightingale
+      tts:
+        delivery: gentle, free-spirited, and quietly wise
+        timbre: bright and musical
+        pace: flowing
+        pitch: high
+    courtier_1:
+      display_name: First Courtier
+      tts:
+        delivery: eager, impressed, and fashionable
+        timbre: smooth and light
+        pace: lively
+        pitch: medium
+    courtier_2:
+      display_name: Second Courtier
+      tts:
+        delivery: eager, agreeable, and grand
+        timbre: crisp and polished
+        pace: lively
+        pitch: medium-high
+    courtier_3:
+      display_name: Third Courtier
+      tts:
+        delivery: admiring, proper, and quick to follow others
+        timbre: clear and refined
+        pace: measured
+        pitch: medium
+    chaplain:
+      display_name: The Chaplain
+      tts:
+        delivery: solemn, certain, and ceremonious
+        timbre: round and resonant
+        pace: measured
+        pitch: medium-low
+    fisherman:
+      display_name: The Fisherman
+      tts:
+        delivery: plainspoken, thoughtful, and sincere
+        timbre: weathered and warm
+        pace: unhurried
+        pitch: low
+    fisherman_2:
+      display_name: Another Fisherman
+      tts:
+        delivery: plainspoken, thoughtful, and sincere
+        timbre: rough and mellow
+        pace: unhurried
+        pitch: medium-low
+    traveler_1:
+      display_name: First Traveler
+      tts:
+        delivery: curious, observant, and warmly impressed
+        timbre: clear and open
+        pace: natural
+        pitch: medium
+    traveler_2:
+      display_name: Second Traveler
+      tts:
+        delivery: curious, animated, and warmly impressed
+        timbre: bright and clear
+        pace: natural
+        pitch: medium-high
+    traveler_3:
+      display_name: Third Traveler
+      tts:
+        delivery: curious, thoughtful, and warmly impressed
+        timbre: smooth and gentle
+        pace: measured
+        pitch: medium
+    bandmaster:
+      display_name: The Bandmaster
+      tts:
+        delivery: learned, confident, and self-important
+        timbre: precise and full
+        pace: measured
+        pitch: medium-low
+    lady_1:
+      display_name: First Court Lady
+      tts:
+        delivery: elegant, delighted, and affected
+        timbre: airy and refined
+        pace: graceful
+        pitch: medium-high
+    lady_2:
+      display_name: Second Court Lady
+      tts:
+        delivery: elegant, admiring, and fashionable
+        timbre: soft and bright
+        pace: graceful
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The Bird in the Forest
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Long ago in China, the Emperor and all his courtiers were Chinese. This happened so many years ago that the tale is worth hearing before anyone forgets it.
+        - id: ch01-b02
+          speaker: narrator
+          text: The Emperor's palace was the finest in the world. It was made of priceless porcelain, so delicate that anyone who touched it had to be careful. Beautiful flowers filled the garden, and silver bells hung from the loveliest ones. The bells tinkled whenever someone passed, making sure no one failed to notice the flowers. Everything had been arranged for the finest effect.
+        - id: ch01-b03
+          speaker: narrator
+          text: The garden stretched so far that even the gardener did not know where it ended. Beyond it stood a grand forest of tall trees and deep lakes. The land sloped down to a clear blue sea, where large ships could sail beneath the branches.
+        - id: ch01-b04
+          speaker: narrator
+          text: A Nightingale lived among those trees. Her song was so beautiful that a poor fisherman would stop and listen when he came at night to cast his nets.
+        - id: ch01-b05
+          speaker: fisherman
+          text: How beautiful that is!
+        - id: ch01-b06
+          speaker: narrator
+          text: Then his work called him back, and he forgot the bird. But when he returned the next night and heard her again, he said the very same thing.
+        - id: ch01-b07
+          speaker: fisherman
+          text: How beautiful that is!
+        - id: ch01-b08
+          speaker: narrator
+          text: Travelers came from countries all around to see the Emperor's city. They marveled at the palace and the garden. Then they heard the Nightingale.
+        - id: ch01-b09
+          speakers: [traveler_1, traveler_2, traveler_3]
+          ensemble: chorus
+          text: This is the finest thing of all!
+        - id: ch01-b10
+          speaker: narrator
+          text: When the travelers went home, they told everyone what they had seen. Scholars wrote book after book about the city, the palace, and the garden, but they praised the Nightingale most of all. Poets wrote splendid verses about the bird in the forest beside the deep sea.
+        - id: ch01-b11
+          speaker: narrator
+          text: Those books traveled around the world, and some finally reached the Emperor. He sat in his golden chair and read every glowing description of his city, palace, and garden, nodding with pleasure. Then he found a sentence that said the Nightingale was better than everything else.
+        - id: ch01-b12
+          speaker: emperor
+          text: What is this? I know nothing about a Nightingale! Can such a bird really live in my own empire, right here in my garden? I have never heard it. And now I learn about it from a book!
+          emotion: surprised
+        - id: ch01-b13
+          speaker: narrator
+          text: He called for his First Lord. The man was so proud that if anyone beneath his rank dared to speak to him or ask a question, he answered with only one meaningless sound.
+        - id: ch01-b14
+          speaker: first_lord
+          text: P!
+        - id: ch01-b15
+          speaker: emperor
+          text: There is a remarkable bird called the Nightingale. People say she is the most glorious thing in my kingdom. Why has no one told me about her?
+        - id: ch01-b16
+          speaker: first_lord
+          text: I have never heard anyone mention her, Your Majesty. I shall find her at once.
+        - id: ch01-b17
+          speaker: narrator
+          text: But where could she be? The First Lord rushed up and down the stairs and through every hall and corridor. No one he met had ever heard of the Nightingale. At last he returned to the Emperor and declared that the writers must have invented her.
+        - id: ch01-b18
+          speaker: first_lord
+          text: Your Imperial Majesty cannot believe everything that appears in a book. Some things are made up by the Black Art.
+        - id: ch01-b19
+          speaker: emperor
+          text: This book came from His Great Majesty, the Emperor of Japan, so it must be true. I will hear the Nightingale tonight. She has my gracious permission to appear. If she does not, the whole Court will be trampled underfoot after supper!
+          emotion: angry
+        - id: ch01-b20
+          speaker: first_lord
+          text: Tsing pe!
+          emotion: fearful
+        - id: ch01-b21
+          speaker: narrator
+          text: Off he ran again, up and down the stairs and through the halls and corridors. Half the Court hurried after him because none of them wanted to be trampled. Everyone asked for the wonderful Nightingale whom the whole world knew, except the people at Court.
+        - id: ch01-b22
+          speaker: narrator
+          text: At last they met a poor little kitchenmaid.
+        - id: ch01-b23
+          speaker: kitchenmaid
+          text: Oh, I know the Nightingale! What a song she has! I carry scraps from the Court meals to my poor sick mother. At night, when I am tired and stop to rest in the wood, I hear the Nightingale sing. Her song brings tears to my eyes. It feels as though my mother were kissing me.
+        - id: ch01-b24
+          speaker: first_lord
+          text: Little kitchenmaid, lead us to the Nightingale. If you do, I shall give you a place in the kitchen and permission to watch the Emperor dine. The bird has been invited to Court tonight.
+        - id: ch01-b25
+          speaker: narrator
+          text: So the girl led them into the wood where the Nightingale usually sang, with half the Court following behind. On the way, they heard a cow moo.
+        - id: ch01-b26
+          speakers: [courtier_1, courtier_2, courtier_3]
+          ensemble: chorus
+          text: We have found her! What an astonishing voice for such a small creature. Surely we have heard her before!
+          emotion: surprised
+        - id: ch01-b27
+          speaker: kitchenmaid
+          text: No, that is a cow. We still have a long way to go.
+        - id: ch01-b28
+          speaker: narrator
+          text: Soon frogs began croaking in a marsh.
+        - id: ch01-b29
+          speaker: chaplain
+          text: Splendid! Now we hear her. She sounds just like a little church bell.
+        - id: ch01-b30
+          speaker: kitchenmaid
+          text: No, no, those are frogs. But I think we will hear her very soon.
+        - id: ch01-b31
+          speaker: narrator
+          text: Then the Nightingale began to sing.
+        - id: ch01-b32
+          speaker: kitchenmaid
+          text: There she is! Listen! She is sitting up in that tree.
+        - id: ch01-b33
+          speaker: narrator
+          text: The girl pointed to a small, dark-gray bird among the branches.
+        - id: ch01-b34
+          speaker: first_lord
+          text: Can that really be her? I never imagined she would look so ordinary. Perhaps she has lost her feathers from seeing so many distinguished gentlemen around her.
+          emotion: surprised
+        - id: ch01-b35
+          speaker: kitchenmaid
+          text: Little Nightingale, our gracious Emperor would like you to sing for him.
+        - id: ch01-b36
+          speaker: nightingale
+          text: I would be delighted.
+          emotion: happy
+        - id: ch01-b37
+          speaker: narrator
+          text: She sang, and listening to her glorious voice was pure pleasure.
+        - id: ch01-b38
+          speaker: first_lord
+          text: She sounds like little glass bells! Look at her throat moving. How could we have missed her all this time? She will be a tremendous success at Court.
+        - id: ch01-b39
+          speaker: nightingale
+          text: Would the Emperor like me to sing again?
+        - id: ch01-b40
+          speaker: narrator
+          text: The Nightingale thought the Emperor must be among them.
+        - id: ch01-b41
+          speaker: first_lord
+          text: My esteemed little Nightingale, I am honored to invite you to Court tonight. His gracious Imperial Highness will be enchanted by your lovely song.
+        - id: ch01-b42
+          speaker: nightingale
+          text: My song sounds best in the green wood.
+        - id: ch01-b43
+          speaker: narrator
+          text: Still, when she heard that the Emperor wished it, she gladly went with them.
+    - id: ch02
+      title: The Nightingale at Court
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The palace had been splendidly prepared. Thousands of golden lamps shone against the porcelain walls and floors. The finest tinkling flowers lined the corridors. People hurried about so quickly, and made such a draft, that every bell jingled at once and no one could hear a word.
+        - id: ch02-b02
+          speaker: narrator
+          text: In the middle of the great hall, where the Emperor sat, stood a golden perch for the Nightingale. The whole Court had gathered. The little kitchenmaid, now promoted to Court cook, was allowed to watch from behind the door. Everyone wore their finest clothes and stared at the little gray bird. The Emperor nodded to her.
+        - id: ch02-b03
+          speaker: narrator
+          text: The Nightingale sang so gloriously that tears filled the Emperor's eyes and rolled down his cheeks. She sang more beautifully still, and her song went straight into every heart.
+        - id: ch02-b04
+          speaker: emperor
+          text: I am so delighted that you shall wear my golden slipper around your neck.
+          emotion: happy
+        - id: ch02-b05
+          speaker: narrator
+          text: The Nightingale thanked him, but said she had already received a great enough reward.
+        - id: ch02-b06
+          speaker: nightingale
+          text: I saw tears in the Emperor's eyes. That is reward enough for me. An Emperor's tears have wonderful power.
+        - id: ch02-b07
+          speaker: narrator
+          text: Then her sweet and glorious voice rose once more.
+        - id: ch02-b08
+          speakers: [lady_1, lady_2]
+          ensemble: duo
+          text: What charming modesty! We have never seen anything like it!
+        - id: ch02-b09
+          speaker: narrator
+          text: The Court ladies began holding water in their mouths so they could gurgle whenever anyone spoke to them. They imagined this made them nightingales. Even the lackeys and chambermaids announced that they were pleased, and they were harder to satisfy than anyone. The Nightingale was a complete success.
+        - id: ch02-b10
+          speaker: narrator
+          text: From then on, she had to remain at Court. She was given her own cage and permission to go outside twice by day and once at night. Twelve servants went with her. Each servant held a silken string fastened around her leg. Flying that way gave her very little pleasure.
+        - id: ch02-b11
+          speaker: narrator
+          text: The whole town talked about the wonderful bird. Whenever two people met, one said the first half of her name and the other finished it. Then both sighed, perfectly understanding each other. Eleven grocers even named their children after her, though not one of those children could sing a note.
+    - id: ch03
+      title: The Jeweled Bird
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: One day, a large parcel arrived for the Emperor. On it were the words, “The Nightingale.”
+        - id: ch03-b02
+          speaker: emperor
+          text: Here is another new book about our famous bird!
+        - id: ch03-b03
+          speaker: narrator
+          text: But there was no book inside. The box held a mechanical nightingale made to look like the living one, except that diamonds, rubies, and sapphires covered its body. When wound up, it sang the same piece as the real bird. Its tail moved up and down, and it glittered with silver and gold. A collar around its neck claimed that the Emperor of Japan's nightingale was nothing beside the Emperor of China's.
+        - id: ch03-b04
+          speakers: [courtier_1, courtier_2, courtier_3]
+          ensemble: chorus
+          text: This is magnificent!
+          emotion: surprised
+        - id: ch03-b05
+          speaker: narrator
+          text: The man who delivered it immediately received the title of Bringer of the Imperial First Nightingale.
+        - id: ch03-b06
+          speaker: emperor
+          text: Let the two birds sing together. What a duet it will be!
+          emotion: happy
+        - id: ch03-b07
+          speaker: narrator
+          text: The birds began together, but their voices would not blend. The real Nightingale followed her own song, while the clockwork bird could only sing its waltzes.
+        - id: ch03-b08
+          speaker: bandmaster
+          text: That is not the mechanical bird's fault. It keeps excellent time, exactly in my own style.
+        - id: ch03-b09
+          speaker: narrator
+          text: So the artificial bird sang alone. It pleased the Court as much as the living bird had, and it was far prettier to look at. It flashed like bracelets and necklaces. Without tiring, it repeated the same piece thirty-three times. The people would gladly have listened again, but the Emperor decided it was time for the living Nightingale to sing.
+        - id: ch03-b10
+          speaker: narrator
+          text: She was gone. While no one watched, she had flown through the open window and returned to her green woods.
+        - id: ch03-b11
+          speaker: emperor
+          text: What shall we do now?
+          emotion: surprised
+        - id: ch03-b12
+          speaker: narrator
+          text: The Court scolded the Nightingale and called her ungrateful.
+        - id: ch03-b13
+          speakers: [courtier_1, courtier_2, courtier_3]
+          ensemble: chorus
+          text: We still have the better bird!
+        - id: ch03-b14
+          speaker: narrator
+          text: They made the artificial bird sing once more. It was the thirty-fourth time they had heard that difficult tune, and they still did not know it by heart.
+        - id: ch03-b15
+          speaker: narrator
+          text: The bandmaster praised the toy beyond measure. He insisted it was better than a real nightingale, not only in its jeweled appearance but also inside.
+        - id: ch03-b16
+          speaker: bandmaster
+          text: Your Imperial Majesty, my lords, and my ladies, no one can predict what a living Nightingale will sing. But we know everything about the artificial bird. We can open it, explain it, and show exactly where each waltz comes from and how one tune follows another.
+        - id: ch03-b17
+          speakers: [courtier_1, courtier_2, courtier_3]
+          ensemble: chorus
+          text: Those are our thoughts exactly!
+        - id: ch03-b18
+          speaker: narrator
+          text: The Emperor gave the bandmaster permission to present the bird to the people the next Sunday, and he commanded that everyone should hear it. The people listened, raised their forefingers, nodded to the beat, and cried out with pleasure. They were as delighted as if they had become drunk on tea, in the Chinese fashion.
+        - id: ch03-b19
+          speaker: narrator
+          text: But the poor fishermen who knew the living Nightingale listened differently.
+        - id: ch03-b20
+          speakers: [fisherman, fisherman_2]
+          ensemble: duo
+          text: This bird sings well enough, and the tune comes out smoothly. Still, something is missing. I cannot say what it is.
+        - id: ch03-b21
+          speaker: narrator
+          text: The real Nightingale was banished from the kingdom.
+        - id: ch03-b22
+          speaker: narrator
+          text: The Emperor kept the artificial bird on silken cushions beside his bed, surrounded by gifts of gold and precious stones. It received the title Imperial Night-singer, First from the Left. The Emperor considered the left side more honorable because that was where the heart lay, even an Emperor's heart.
+        - id: ch03-b23
+          speaker: narrator
+          text: The bandmaster wrote twenty-five volumes about the mechanical bird. The work was long and learned and filled with the hardest Chinese words. Everyone claimed to have read and understood it. They remembered what had happened when they had once been foolish about a book and feared being trampled underfoot again.
+        - id: ch03-b24
+          speaker: narrator
+          text: A whole year passed. By then, the Emperor, the Court, and everyone in China knew every note of the artificial bird's tune by heart. That only made them like it more, because now they could sing along with the bird. Street boys sang, “Tra-la-la-la-la,” and sometimes the Emperor joined in too. Everyone thought it delightful.
+    - id: ch04
+      title: Silence in the Palace
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: One evening, the artificial bird was singing its finest while the Emperor listened from his bed. Suddenly, something inside it cracked. Something else snapped. The wheels spun down with a whir, and the music stopped.
+        - id: ch04-b02
+          speaker: narrator
+          text: The Emperor jumped up and sent for his physician, but a physician could do nothing for a clockwork bird. A clockmaker came instead. After examining the bird and talking at great length, he managed to repair it somewhat. He warned that its works were nearly worn out and could not be replaced, so the bird must hardly ever be used.
+        - id: ch04-b03
+          speaker: narrator
+          text: It was a disaster. The artificial bird was allowed to sing only once a year, and even that was almost too much. The bandmaster gave a speech full of difficult words and declared that the bird was every bit as good as before. Naturally, everyone accepted that it was.
+        - id: ch04-b04
+          speaker: narrator
+          text: Five years went by. Then great sorrow came over the country. The people thought of their Emperor as everything, and now he was gravely ill. They said he would not live.
+        - id: ch04-b05
+          speaker: narrator
+          text: A new Emperor had already been chosen. Outside in the street, the people asked the First Lord how the old Emperor was doing.
+        - id: ch04-b06
+          speaker: first_lord
+          text: P!
+        - id: ch04-b07
+          speaker: narrator
+          text: He shook his head.
+        - id: ch04-b08
+          speaker: narrator
+          text: The Emperor lay cold and pale in his magnificent bed. The whole Court believed he was dead. One by one, they left to offer their respects to the new Emperor. Cloth had been spread along every hall and corridor so that no footstep could be heard. The palace was very, very still. Nothing broke the silence.
+        - id: ch04-b09
+          speaker: narrator
+          text: The Emperor longed for some sound to lift him out of that deathlike stillness. If only someone would speak. If only someone would sing. Music could carry away his thoughts and break the spell that held him. Moonlight streamed through the open window, but even the moon was silent.
+        - id: ch04-b10
+          speaker: emperor
+          text: Music! Give me music! Little bright golden bird, sing for me! I gave you gold and jewels. With my own hands, I hung my golden slipper around your neck. Sing! Please sing!
+          emotion: fearful
+        - id: ch04-b11
+          speaker: narrator
+          text: The bird remained silent. No one was there to wind it, so it could not sing. Again, all was terribly still.
+    - id: ch05
+      title: The Living Song Returns
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: All at once, a glorious song poured through the window. The little living Nightingale sat outside on a branch. She had heard that her Emperor was in need, and she had come to sing of comfort and hope.
+        - id: ch05-b02
+          speaker: narrator
+          text: As she sang, blood moved faster through the Emperor's weak limbs, and life began to return to him.
+        - id: ch05-b03
+          speaker: emperor
+          text: Thank you, thank you! You wonderful little bird, I know you. I drove you out of my kingdom, yet you have given me my life again. How can I ever reward you?
+          emotion: happy
+        - id: ch05-b04
+          speaker: nightingale
+          text: You rewarded me long ago. The first time I sang for you, I brought tears to your eyes, and I will never forget them. Those tears are jewels that bring joy to a singer's heart. Now you must sleep and grow strong. I will sing you a lullaby.
+          emotion: calm
+        - id: ch05-b05
+          speaker: narrator
+          text: While she sang, the Emperor fell into a deep and peaceful sleep.
+        - id: ch05-b06
+          speaker: narrator
+          text: When he woke, sunlight shone through the window, and he was strong and well. None of his servants had returned because they still thought he was dead. The Nightingale remained beside him, singing.
+        - id: ch05-b07
+          speaker: emperor
+          text: You must stay with me forever. Sing whenever you please, and I will smash the artificial bird into a thousand pieces.
+        - id: ch05-b08
+          speaker: nightingale
+          text: Do not do that. He worked for as long as he could, so keep him as you always have. I cannot build my nest and live inside the palace. Instead, let me come whenever I wish.
+        - id: ch05-b09
+          speaker: nightingale
+          text: In the evening, I will sit on the branch outside your window. I will sing songs that make you happy and grateful. I will sing about joy and sorrow, and about the evil and the good that remain hidden from you.
+        - id: ch05-b10
+          speaker: nightingale
+          text: A little singing bird flies everywhere. I visit the poor fisherman's hut and the farmer's cottage. I fly to all the people who live far from you and your Court. I love your heart more than your crown, though the crown shines with something almost holy. Now I will sing to you again, but first you must promise me one thing.
+        - id: ch05-b11
+          speaker: emperor
+          text: Anything!
+        - id: ch05-b12
+          speaker: narrator
+          text: The Emperor stood up. He had put on his Imperial robes himself, and he fastened on his sword, richly decorated with gold.
+        - id: ch05-b13
+          speaker: nightingale
+          text: I ask only this. Do not tell anyone that a little bird brings you news of everything. That will be much better.
+        - id: ch05-b14
+          speaker: narrator
+          text: Then the Nightingale flew away.
+        - id: ch05-b15
+          speaker: narrator
+          text: At last, the servants came in to look at their dead Emperor.
+        - id: ch05-b16
+          speaker: emperor
+          text: Good morning!

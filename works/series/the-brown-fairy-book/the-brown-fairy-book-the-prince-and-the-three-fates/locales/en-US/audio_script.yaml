@@ -1,0 +1,374 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, grave, and attentive to wonder
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    first_king:
+      display_name: The Prince's Father
+      tts:
+        delivery: loving, anxious, and quick to hope
+        timbre: full and dignified
+        pace: measured
+        pitch: medium-low
+    fairy_1:
+      display_name: First Fairy
+      tts:
+        delivery: grave and certain
+        timbre: clear and airy
+        pace: measured
+        pitch: medium-high
+    fairy_2:
+      display_name: Second Fairy
+      tts:
+        delivery: solemn and restrained
+        timbre: soft and bright
+        pace: measured
+        pitch: high
+    fairy_3:
+      display_name: Third Fairy
+      tts:
+        delivery: sorrowful and unwavering
+        timbre: light and resonant
+        pace: unhurried
+        pitch: medium-high
+    prince:
+      display_name: Prince
+      tts:
+        delivery: brave, earnest, and warmhearted
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium
+    page:
+      display_name: Page
+      tts:
+        delivery: respectful and careful
+        timbre: light and clear
+        pace: measured
+        pitch: medium-high
+    wooer_1:
+      display_name: First Young Wooer
+      tts:
+        delivery: friendly and open
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium
+    wooer_2:
+      display_name: Second Young Wooer
+      tts:
+        delivery: courteous and good-natured
+        timbre: warm and youthful
+        pace: measured
+        pitch: medium
+    second_king:
+      display_name: The Princess's Father
+      tts:
+        delivery: imperious, restless, and capable of warmth
+        timbre: rich and commanding
+        pace: measured
+        pitch: medium-low
+    princess:
+      display_name: Princess
+      tts:
+        delivery: courageous, tender, and quick-minded
+        timbre: warm and clear
+        pace: measured
+        pitch: medium-high
+    crocodile:
+      display_name: Crocodile
+      tts:
+        delivery: cold, patient, and threatening
+        timbre: deep and rough
+        pace: slow
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Three Fates
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, a son was born to the king of a great country crossed by a wide river. The king had always longed for a boy who would inherit his crown. He was so full of joy that he sent messages to all the most powerful fairies, begging them to come and see the wonderful baby.
+        - id: ch01-b02
+          speaker: narrator
+          text: Within an hour or two, so many fairies crowded around the cradle that the child was almost hidden beneath them. The king watched eagerly, but then he noticed how grave their faces had become.
+        - id: ch01-b03
+          speaker: first_king
+          text: Is something wrong?
+          emotion: fearful
+        - id: ch01-b04
+          speaker: narrator
+          text: The fairies looked at him and shook their heads together.
+        - id: ch01-b05
+          speakers: [fairy_1, fairy_2, fairy_3]
+          ensemble: chorus
+          text: He is a beautiful boy, and what a pity this is. But what must happen will happen. The books of fate say he must die through a crocodile, a serpent, or a dog. We would save him if we could, but that is beyond our power.
+          emotion: sad
+        - id: ch01-b06
+          speaker: narrator
+          text: With that, they vanished. For a while, the king stood exactly where he was, frozen with horror at what he had heard. Yet he was hopeful by nature, and before long he was making one plan after another to protect his son from the dreadful end waiting for him. He summoned his master builder at once and ordered a strong castle built on a mountaintop. It was to be furnished with the most precious things from the royal palace and every kind of toy a child could want. He also gave strict orders for a guard to circle its walls night and day.
+        - id: ch01-b07
+          speaker: narrator
+          text: For four or five years, the little prince lived there with his nurses. He took the air on broad, walled terraces. A moat lay below, and a single drawbridge was the only way to reach the world outside.
+        - id: ch01-b08
+          speaker: narrator
+          text: One day, when the prince was old enough to run fast by himself, he looked across the moat. On the other side, a small, soft ball of a dog was leaping and playing. Every dog had been kept away because of the prophecy, so the prince had never seen one. He turned to the page walking behind him.
+        - id: ch01-b09
+          speaker: prince
+          text: What is that funny little creature running so fast over there?
+        - id: ch01-b10
+          speaker: page
+          text: That is a dog, Prince.
+        - id: ch01-b11
+          speaker: prince
+          text: Then bring me one just like it. We'll find out which of us can run faster.
+        - id: ch01-b12
+          speaker: narrator
+          text: He watched until the dog disappeared around a corner. The page did not know what to do. His orders said he must refuse the prince nothing, but he remembered the prophecy. At last, he told the king everything and asked him to decide.
+        - id: ch01-b13
+          speaker: first_king
+          text: If he wants a dog, let him have one. He'll cry his heart out without it.
+        - id: ch01-b14
+          speaker: narrator
+          text: So they found a puppy exactly like the dog across the moat. The two might have been twins, and perhaps they were.
+    - id: ch02
+      title: Beyond the River
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The years passed. The boy and the dog played together until the prince grew tall and strong. At last, he sent a message to his father.
+        - id: ch02-b02
+          speaker: prince
+          text: Why do you keep me shut away here with nothing to do? I know the prophecy made when I was born. I would rather be killed at once than spend my life here, idle and useless. Please give me weapons and let me go. My dog must come too.
+        - id: ch02-b03
+          speaker: narrator
+          text: Once again, the king granted his wish. The prince and his dog crossed the river in a ship. It was so broad there that it looked almost like the sea. A black horse waited, tied to a tree. The prince mounted and rode wherever he pleased, with the dog always at his heels. No prince had ever been happier.
+        - id: ch02-b04
+          speaker: narrator
+          text: He rode on and on until he reached another king's palace. This king cared little about his country or whether his people lived happily. He spent all his time making riddles and dreaming up plans that were better left alone.
+        - id: ch02-b05
+          speaker: narrator
+          text: Just before the prince arrived, the king had completed an extraordinary house for his only child, a daughter. It had seventy windows, each one seventy feet above the ground. The royal herald had gone through the neighboring kingdoms with a challenge. Any man who climbed the walls and reached the princess's window would win her as his wife.
+        - id: ch02-b06
+          speaker: narrator
+          text: News of the princess's beauty had traveled far and wide, and there was no shortage of princes eager to try their luck. Every morning, the palace must have looked very funny. Against the white marble, the climbers' clothes appeared as little moving spots of different colors. Some princes made it farther than others, but none of them came anywhere near the top.
+        - id: ch02-b07
+          speaker: narrator
+          text: They had already spent several days trying when the young prince arrived. He was pleasant to look at and courteous whenever he spoke, so the other young men welcomed him warmly into the house that had been set aside for all the wooers. They saw how tired and dusty he was after his long journey. Before asking him anything, they made sure that a bath was prepared for him and properly perfumed. Only when he had rested did they ask where he came from and whose son he was.
+        - id: ch02-b08
+          speaker: narrator
+          text: The prince had reasons to hide his identity, so he gave them another story.
+        - id: ch02-b09
+          speaker: prince
+          text: My father served as master of the horse to the king of my country. When my mother died, he married again. Everything was peaceful at first. But once my stepmother had children of her own, she began to hate me. I ran away before she could harm me.
+        - id: ch02-b10
+          speaker: narrator
+          text: The story touched the young men. They did everything they could to help him forget the sorrows he claimed to have left behind. One day, he asked what kept them there.
+        - id: ch02-b11
+          speaker: prince
+          text: What do all of you do here each day?
+        - id: ch02-b12
+          speakers: [wooer_1, wooer_2]
+          ensemble: duo
+          text: We spend our time climbing the palace walls, trying to reach the princess's windows. So far, none of us has come within ten feet.
+        - id: ch02-b13
+          speaker: prince
+          text: Let me try as well. Tomorrow, I'll watch how you climb before I begin.
+        - id: ch02-b14
+          speaker: narrator
+          text: The next day, he studied the young men as they went up. He marked the hardest places and decided to take a different path when his turn came. He watched day after day. Then one morning, when he knew the walls by heart, he stepped forward with the others.
+        - id: ch02-b15
+          speaker: narrator
+          text: He used what their failures had taught him. His fingers found one small, rough projection after another. At last, while his friends stared up in envy, he stood on the sill of the princess's window. A white hand reached out and drew him inside.
+    - id: ch03
+      title: The Winner at the Window
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: One of the young men ran straight to the king's palace with the news.
+        - id: ch03-b02
+          speaker: wooer_1
+          text: Someone has climbed the wall. The prize has been won!
+        - id: ch03-b03
+          speaker: second_king
+          text: Who was it? Which prince am I to call my son-in-law?
+          emotion: surprised
+        - id: ch03-b04
+          speaker: wooer_1
+          text: The young man who reached her window isn't a prince. His father is master of the horse to the great king across the river. He fled his country because his stepmother hated him.
+        - id: ch03-b05
+          speaker: narrator
+          text: The king flew into a rage. It had never occurred to him that anyone but a prince might try to marry his daughter.
+        - id: ch03-b06
+          speaker: second_king
+          text: Send him back where he came from! Does an exile truly expect me to give him my daughter?
+          emotion: angry
+        - id: ch03-b07
+          speaker: narrator
+          text: In his fury, he began smashing the drinking vessels. The young man was so frightened that he hurried back to his friends and repeated the king's words.
+        - id: ch03-b08
+          speaker: narrator
+          text: The princess heard him from her window. She sent the messenger back to her father with a warning. If the young man was taken from her, she had sworn never to eat or drink again.
+        - id: ch03-b09
+          speaker: narrator
+          text: That message made the king angrier still. He ordered his guards to go to the palace and kill the successful climber. But when they arrived, the princess threw herself between the young man and the men sent to murder him.
+        - id: ch03-b10
+          speaker: princess
+          text: Touch him, and I will be dead before sunset.
+          emotion: angry
+        - id: ch03-b11
+          speaker: narrator
+          text: They could see she meant it. The guards left and told her father what had happened.
+        - id: ch03-b12
+          speaker: narrator
+          text: By then, the king's anger had begun to fade. He started wondering what his people would think of him if he broke the promise he had made in public. He ordered both the princess and the young man brought before him. When they entered the throne room, the king was so pleased by the victor's noble bearing that the last of his fury melted away. He ran forward and embraced him.
+        - id: ch03-b13
+          speaker: second_king
+          text: Tell me who you really are. I cannot believe there is no royal blood in you.
+        - id: ch03-b14
+          speaker: narrator
+          text: The prince still wished to keep his secret, so he repeated the same tale. The king had grown so fond of him that he asked no more. The wedding was held the next day, and the young couple received great herds of cattle and a large estate.
+        - id: ch03-b15
+          speaker: narrator
+          text: Some time later, the prince told his wife about the prophecy.
+        - id: ch03-b16
+          speaker: prince
+          text: My life lies in the power of three creatures. They are a crocodile, a serpent, and a dog.
+        - id: ch03-b17
+          speaker: princess
+          text: Then why are you so reckless? How can you keep that dreadful animal beside you when you know this? I'll have the dog killed at once.
+          emotion: fearful
+        - id: ch03-b18
+          speaker: narrator
+          text: The prince refused to hear of it.
+        - id: ch03-b19
+          speaker: prince
+          text: Kill my dear little dog? He has played beside me since he was a puppy. No, I will never allow it.
+        - id: ch03-b20
+          speaker: narrator
+          text: The most the princess could win from him was a promise. He would always carry a sword and never leave the palace alone.
+    - id: ch04
+      title: The Serpent in the Night
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: After they had been married a few months, word came that the prince's stepmother was dead. His father was old and ill and longed to have his eldest son beside him again. The prince could not ignore such a message. He said a tender farewell to his wife and began the long journey home.
+        - id: ch04-b02
+          speaker: narrator
+          text: The journey was long, and he had to stop and rest many times along the road. One night, while he slept in a city beside the great river, a huge crocodile came silently up from the water. It found a passage and began creeping toward the prince's room. Luckily, one of his guards woke just as the beast tried to slip past. The guards managed to shut the crocodile inside a large hall. A giant kept watch over it and never left his place except at night, when the crocodile was asleep. This strange watch continued for more than a month.
+        - id: ch04-b03
+          speaker: narrator
+          text: The prince learned that he would probably remain in his father's kingdom. He sent for his wife and told the messenger that he would wait for her in the riverside city. That was why he stayed there so long and came so close to being eaten by the crocodile.
+        - id: ch04-b04
+          speaker: narrator
+          text: Through the following weeks, he passed the time as best he could, counting every minute until the princess arrived. As soon as she came, he prepared to continue to the royal court.
+        - id: ch04-b05
+          speaker: narrator
+          text: But that very night, while the prince slept, the princess saw something strange in a corner. A dark patch seemed to stretch longer and longer as it moved toward the cushions where her husband lay. She drew back in terror. The creature heard the faint sound and lifted its head.
+        - id: ch04-b06
+          speaker: narrator
+          text: Then she saw the long, flat head of a serpent, and the prophecy rushed into her mind. Without waking the prince, she slipped from the bed. A heavy bowl of milk stood on a table. She knew no serpent could resist milk, so she placed the bowl directly in its path.
+        - id: ch04-b07
+          speaker: narrator
+          text: Holding her breath, she watched the snake come nearer. It raised its head as though it had caught a delicious scent, and its forked tongue flicked out greedily. The moment it saw the milk, it began lapping so quickly that it seemed it might choke. It never lifted its head until the bowl was empty.
+        - id: ch04-b08
+          speaker: narrator
+          text: Then the serpent dropped to the floor and fell into a heavy sleep. This was the moment the princess had waited for. She seized her husband's sword and cut the serpent's head from its body.
+        - id: ch04-b09
+          speaker: narrator
+          text: The next morning, the prince and princess left for the king's palace. When they arrived, they found that his father had already died. They buried him magnificently. Then the prince had to study the new laws made during his absence and attend to a great deal of other business.
+        - id: ch04-b10
+          speaker: narrator
+          text: At last, he became ill from exhaustion. He went away to one of his palaces beside the river to recover. Before long, he was well enough to hunt and shoot wild ducks with his bow. Wherever he went, his dog went too, though by now the faithful creature had grown very old.
+    - id: ch05
+      title: The Crocodile's Challenge
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: One morning, the prince and his dog were hunting as usual. While chasing their game, they came close to the riverbank. The prince ran at full speed behind his dog and nearly tripped over what looked like a log across his path. Then the thing spoke. It was not a branch at all, but a crocodile.
+        - id: ch05-b02
+          speaker: crocodile
+          text: You cannot escape me. I am your fate. No matter where you go or what you do, you will always find me waiting. There is only one way to break my power. Dig a pit in dry sand and make it stay full of water. If you succeed, my spell is broken. If you fail, you will soon die. I give you that single chance. Now go.
+        - id: ch05-b03
+          speaker: narrator
+          text: The young man walked sadly back to the palace. He locked himself in his room and refused to see anyone for the rest of the day, even his wife. At sunset, the princess had heard no sound behind the door. She grew so frightened and made such a commotion that he finally drew back the bolt and let her in.
+        - id: ch05-b04
+          speaker: princess
+          text: You look so pale. Has something hurt you? Please tell me what's wrong. Perhaps I can help.
+          emotion: fearful
+        - id: ch05-b05
+          speaker: narrator
+          text: The prince told her about the crocodile and the impossible task it had set him.
+        - id: ch05-b06
+          speaker: prince
+          text: How can a hole in sand stay full of water? Every drop will drain away. The crocodile called this a chance, but it might as well have pulled me straight into the river. It spoke the truth. I cannot escape it.
+          emotion: sad
+        - id: ch05-b07
+          speaker: princess
+          text: If that is the whole task, I can free you myself. My fairy godmother taught me the uses of plants. In the desert nearby, a little herb with four leaves grows. Put it in the pit, and the water will remain there for a year. At dawn, I'll go and find it. You can begin digging whenever you wish.
+        - id: ch05-b08
+          speaker: narrator
+          text: The princess spoke lightly and cheerfully to comfort him, though she knew her own task would not be easy. She was full of courage and energy, and she meant to save her husband one way or another.
+        - id: ch05-b09
+          speaker: narrator
+          text: The stars were still shining when she left the palace on a snow-white donkey. She rode west, away from the river. For a long while, a flat waste of sand was all she could see. As the sun climbed, the desert grew hotter and hotter.
+        - id: ch05-b10
+          speaker: narrator
+          text: Soon, both the princess and the donkey were tormented by thirst. There was no stream, and even if they had found one, she could hardly have stopped. She still had far to go and had to return before evening. Otherwise, the crocodile might claim that the prince had failed its conditions. She spoke encouragingly to the donkey. It brayed back, and they pressed steadily onward.
+        - id: ch05-b11
+          speaker: narrator
+          text: At last, they saw a tall rock in the distance. They were so glad that they forgot their thirst and the burning sun. The ground seemed to race beneath them until the donkey stopped in the cool shadow by itself.
+        - id: ch05-b12
+          speaker: narrator
+          text: The donkey could rest, but the princess could not. She knew the plant grew at the very top of the rock, and a wide chasm circled its base. She had brought a rope. After tying a noose at one end, she threw it across with all her strength.
+        - id: ch05-b13
+          speaker: narrator
+          text: The first throw failed. The rope slid slowly back into the chasm, and she had to draw it all the way up before trying again. At last, the noose caught on something across the gap, though the princess could not see what held it. Now she had to trust her full weight to that narrow rope bridge. It might snap at any moment and drop her deep among the rocks. If that happened, her death would be just as certain as the prince's.
+        - id: ch05-b14
+          speaker: narrator
+          text: The rope held, and the princess reached the other side. Then the hardest part began. Each time she put her foot on a ledge, the stone broke beneath her and left her no higher than before. The hours passed. It was nearly noon.
+    - id: ch06
+      title: The Four-Leaved Herb
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: Despair filled the poor princess's heart, but she would not give up the struggle. She looked all around until she spotted a small stone above her that seemed stronger than the crumbling ledges. By balancing her feet as lightly as she could on the stones between, she made one great effort and reached it. She kept climbing in the same way. At last, with her hands torn and bleeding from the rock, she pulled herself onto the top.
+        - id: ch06-b02
+          speaker: narrator
+          text: A violent wind swept the summit. Dust nearly blinded her. She threw herself to the ground and felt around for the precious herb.
+        - id: ch06-b03
+          speaker: narrator
+          text: For several terrible moments, she feared the rock was bare and the whole journey had been useless. Her hands found nothing but grit and stones. Then her fingers touched something soft inside a crevice. It was a plant, but was it the one she needed? The wind blew too fiercely for her to see.
+        - id: ch06-b04
+          speaker: narrator
+          text: Lying flat, she counted the leaves one by one. One, two, three, and yes, there were four. It truly was the precious herb she had crossed the desert to find. She plucked one leaf and held it safely in her hand. Then, almost stunned by the wind, she turned to climb down.
+        - id: ch06-b05
+          speaker: narrator
+          text: As soon as she dropped below the summit, everything became still. She slid down the rock so quickly that it was a wonder she did not plunge into the chasm. By good fortune, she stopped close to the rope bridge and soon crossed it.
+        - id: ch06-b06
+          speaker: narrator
+          text: The donkey brayed joyfully when it saw her. It set off for home at its fastest pace, as though it could not feel that the earth under its feet was almost as hot as the sun overhead.
+        - id: ch06-b07
+          speaker: narrator
+          text: At the great river, the donkey stopped. The princess rushed to the prince, who stood beside the pit he had dug in the dry sand. A huge water jar waited next to him. Not far away, the crocodile blinked in the sun with its sharp teeth showing between pale yellow jaws.
+        - id: ch06-b08
+          speaker: narrator
+          text: At the princess's signal, the prince poured the water into the pit. The instant it reached the brim, she threw in the four-leaved herb. Would the magic hold, or would the water slowly seep through the sand and leave the prince to that terrible monster?
+        - id: ch06-b09
+          speaker: narrator
+          text: For half an hour, the prince and princess stood with their eyes fixed on the pit. They watched for the smallest sign that the water was sinking into the dry sand. But it stayed as high as it had been at the beginning, and the little green leaf kept floating on the surface. At last, the prince turned with a triumphant shout. The crocodile could do nothing more. It plunged sulkily into the river.
+        - id: ch06-b10
+          speaker: narrator
+          text: The prince had escaped the second of his three fates forever.
+        - id: ch06-b11
+          speaker: narrator
+          text: He stood watching the crocodile and rejoicing in his freedom. Then a wild duck startled him as it flew past, seeking shelter among the rushes at the water's edge. A moment later, his dog raced after it and struck hard against his master's legs.
+        - id: ch06-b12
+          speaker: narrator
+          text: The prince staggered under the blow, lost his balance, and fell backward into the river. The mud and thick rushes closed around him and held him fast. He cried out to his wife for help, and she came running. Luckily, she had brought her rope back from the desert. She used it to reach him while he struggled in the water. The poor old dog was drowned, but the princess pulled the prince safely onto the shore.
+        - id: ch06-b13
+          speaker: prince
+          text: My wife has been stronger than my fate.

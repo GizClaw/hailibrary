@@ -1,0 +1,262 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: "讲述者"
+      tts:
+        delivery: "亲切从容，带一点温和的幽默"
+        timbre: "温暖清晰"
+        pace: "舒缓而有变化"
+        pitch: "中音"
+    jackal:
+      display_name: "豺"
+      tts:
+        delivery: "狡猾圆滑，威吓中带着得意"
+        timbre: "干涩尖利的男声"
+        pace: "灵活多变"
+        pitch: "中高音"
+    mother_dove:
+      display_name: "母鸽"
+      tts:
+        delivery: "慈爱敏感，从惶恐渐渐变得勇敢"
+        timbre: "轻柔清亮的女声"
+        pace: "稍快"
+        pitch: "高音"
+    heron:
+      display_name: "苍鹭"
+      tts:
+        delivery: "善良稳重，危急时慌乱哀求"
+        timbre: "清朗平和的男声"
+        pace: "舒缓"
+        pitch: "中音"
+    panther:
+      display_name: "母豹"
+      tts:
+        delivery: "直率信任，追问时焦急执着"
+        timbre: "低沉有力的女声"
+        pace: "适中"
+        pitch: "中低音"
+    baboon:
+      display_name: "狒狒"
+      tts:
+        delivery: "好奇莽撞，带着刻薄的嘲弄"
+        timbre: "粗哑响亮的男声"
+        pace: "明快"
+        pitch: "中音"
+  chapters:
+    - id: ch01
+      title: "岩石下的威胁"
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "从前，一只鸽子筑了个又软又舒服的窝，给三个孩子做家。她太为孩子们的漂亮模样骄傲了，见了邻居总要夸上几句，也许夸得比该说的还多。说着说着，方圆好几英里的人都知道，乡野间最漂亮的三只小鸽子就住在那座岩石上。"
+        - id: ch01-b02
+          speaker: narrator
+          text: "有一天，一只豺正四处寻找晚饭，碰巧走到岩石脚下。他想，要是找不到更好的吃食，捉只小鸽子也能塞塞牙缝。于是，他仰起头大喊起来。"
+        - id: ch01-b03
+          speaker: jackal
+          text: "喂！鸽妈妈！"
+        - id: ch01-b04
+          speaker: mother_dove
+          text: "先生，您想要什么？"
+          emotion: fearful
+        - id: ch01-b05
+          speaker: jackal
+          text: "把一个孩子扔给我。你要是不肯，我就跳上去，连你和另外两个一起吃掉。"
+        - id: ch01-b06
+          speaker: narrator
+          text: "听了豺的话，母鸽急得几乎发疯。可她想保住另外两个孩子的性命，最后还是狠下心，把一只小鸽子抛下鸟巢。豺当场吃掉小鸽子，心满意足地回家睡觉去了。"
+        - id: ch01-b07
+          speaker: narrator
+          text: "母鸽坐在巢边，哭得十分伤心。一只苍鹭正好缓缓飞过岩石。他可怜母鸽，停下来问她出了什么事。"
+        - id: ch01-b08
+          speaker: heron
+          text: "可怜的鸽子，你为什么哭成这样？"
+        - id: ch01-b09
+          speaker: mother_dove
+          text: "一只豺逼我交出一个孩子。他说，我不答应，他就跳上鸟巢，把我们全吃掉。"
+          emotion: sad
+        - id: ch01-b10
+          speaker: heron
+          text: "你不该相信他。他哪里跳得了这么高？他只是想弄点晚饭，才编出这番话来骗你。"
+        - id: ch01-b11
+          speaker: narrator
+          text: "苍鹭说完便飞走了。可他的身影才刚刚消失，豺又贴着岩石脚下慢慢绕回来。他一抬头看见母鸽，马上又冲着鸟巢叫喊。"
+        - id: ch01-b12
+          speaker: jackal
+          text: "鸽妈妈，快给我一个孩子！不然我马上跳上去，把你们全吃了。"
+        - id: ch01-b13
+          speaker: narrator
+          text: "这回母鸽已经知道真相。尽管看见豺摆出起跳的架势，她仍吓得心怦怦直跳，可回答时却很勇敢。"
+        - id: ch01-b14
+          speaker: mother_dove
+          text: "我才不听你的！"
+        - id: ch01-b15
+          speaker: narrator
+          text: "豺纵身一跳，不但没碰着鸟巢，反倒撞上岩石，擦破了皮。他只好放弃硬跳，觉得还是靠威胁容易些，于是又使出了原来那一套。"
+        - id: ch01-b16
+          speaker: jackal
+          text: "鸽妈妈，快把一个孩子交给我！不然我就把你们全吃掉。"
+        - id: ch01-b17
+          speaker: mother_dove
+          text: "我不会把孩子交给你。我已经知道了，我们待在这里很安全，你根本够不着。"
+        - id: ch01-b18
+          speaker: jackal
+          text: "鸽妈妈，你怎么突然聪明起来了？快告诉我。"
+        - id: ch01-b19
+          speaker: mother_dove
+          text: "是苍鹭告诉我的。"
+        - id: ch01-b20
+          speaker: jackal
+          text: "他往哪里飞了？"
+        - id: ch01-b21
+          speaker: mother_dove
+          text: "就在下面的芦苇丛里。你仔细看，还看得见他。"
+    - id: ch02
+      title: "苍鹭的翅膀"
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "豺朝母鸽点点头，算是道别，转身就追了过去。很快，他便看见那只大鸟站在河边的一块石头上，眼睛盯着水面，正等一条肥鱼游来。豺走到跟前，装作随口闲谈，问风从一个方向吹来时，苍鹭会把头转向哪边。"
+        - id: ch02-b02
+          speaker: heron
+          text: "你自己会转向哪边？"
+        - id: ch02-b03
+          speaker: jackal
+          text: "我总是转向这一边。"
+        - id: ch02-b04
+          speaker: heron
+          text: "那我也转向这一边。"
+        - id: ch02-b05
+          speaker: jackal
+          text: "要是雨从那个方向打来，你又会朝哪边转？"
+        - id: ch02-b06
+          speaker: heron
+          text: "你自己会转向哪边？"
+        - id: ch02-b07
+          speaker: jackal
+          text: "哦，我还是转向这一边。"
+        - id: ch02-b08
+          speaker: heron
+          text: "那我也这样转。"
+        - id: ch02-b09
+          speaker: jackal
+          text: "要是雨从头顶直落下来呢？你怎么办？"
+        - id: ch02-b10
+          speaker: heron
+          text: "那你自己怎么办？"
+        - id: ch02-b11
+          speaker: jackal
+          text: "我会用两只爪子蒙住脑袋。"
+        - id: ch02-b12
+          speaker: heron
+          text: "我也一样。我会用翅膀把脑袋盖起来。"
+        - id: ch02-b13
+          speaker: narrator
+          text: "苍鹭一边回答，一边真的抬起一双大翅膀，把头遮得严严实实。豺等的就是这一刻。他猛地一跃，扑到苍鹭身上，一口咬住他的脖子，来回使劲摇晃。"
+        - id: ch02-b14
+          speaker: heron
+          text: "饶了我吧！我从来没有伤害过你呀！"
+          emotion: fearful
+        - id: ch02-b15
+          speaker: jackal
+          text: "你教鸽子对付我，我就要吃了你。"
+        - id: ch02-b16
+          speaker: heron
+          text: "你若肯放过我，我就带你去找母豹的洞穴。"
+        - id: ch02-b17
+          speaker: jackal
+          text: "那就快点指出来。"
+        - id: ch02-b18
+          speaker: narrator
+          text: "豺仍旧死死咬着苍鹭，半点也不肯放松。直到苍鹭替他指出母豹洞穴所在的地方，他才终于松开了嘴。"
+        - id: ch02-b19
+          speaker: jackal
+          text: "现在你可以走了，朋友。这里已经有足够的食物等着我。"
+    - id: ch03
+      title: "洞里的十只小豹子"
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "豺来到母豹面前，摆出一副客气模样。"
+        - id: ch03-b02
+          speaker: jackal
+          text: "豹子，你出去打猎时，要不要让我替你照看孩子？"
+        - id: ch03-b03
+          speaker: panther
+          text: "那可太感谢你了。不过一定要照顾好他们。我不在的时候，他们总是哭个不停。"
+        - id: ch03-b04
+          speaker: narrator
+          text: "母豹说完便小跑着去打猎了。豺大摇大摆走进洞穴，看见里面有十只小豹子，立刻抓住一只吃了。过了一阵，母豹带着猎物回来，叫豺把孩子们领出来吃晚饭。豺一只接一只地领出九只，又把最后那只带出来一次。母豹以为十只全都在，满意极了。"
+        - id: ch03-b05
+          speaker: narrator
+          text: "第二天，母豹再次外出打猎，豺又吃掉一只小豹子，洞里便只剩八只。傍晚，母豹回来，再次叫他带出孩子。豺先领出这只，再领出那只，最后一只足足领了三遍。这样看起来，十只小豹子仍旧一个不少。"
+        - id: ch03-b06
+          speaker: narrator
+          text: "第三天，同样的事又发生了。接下来一天又一天，豺不停吃掉小豹子，又用同样的办法蒙混过去。最后，洞里连一只小豹子也没有了。豺便用那天余下的时间，忙着在洞穴后面挖出一个大洞。"
+        - id: ch03-b07
+          speaker: panther
+          text: "豺，把我的孩子带出来。"
+        - id: ch03-b08
+          speaker: jackal
+          text: "还叫我带他们出来？你明明跟我一样清楚，你早就把他们全吃光了。"
+        - id: ch03-b09
+          speaker: narrator
+          text: "母豹完全听不懂这话，只能再次命令豺把孩子们带出来。她等不到回答，便亲自走进洞里。可是，洞中已经没有豺了。他早从自己挖出的洞口钻出去逃走。更糟的是，母豹连一只小豹子也没有找到。"
+        - id: ch03-b10
+          speaker: narrator
+          text: "母豹当然不肯让豺这样逃掉，立刻小跑着追了上去。可豺早就抢先跑出很远，来到一处裂开的岩石前。一大群蜜蜂把蜂蜜藏在那道石缝里。豺停下脚步，站在那里，一直等到母豹追到眼前。"
+        - id: ch03-b11
+          speaker: panther
+          text: "豺，我的孩子到底在哪里？"
+        - id: ch03-b12
+          speaker: jackal
+          text: "他们就在上面。我把学校开在那里。"
+        - id: ch03-b13
+          speaker: panther
+          text: "究竟在哪儿？我什么也没看到。"
+        - id: ch03-b14
+          speaker: jackal
+          text: "再靠近一点，你就会听见他们唱得有多好听。"
+        - id: ch03-b15
+          speaker: narrator
+          text: "母豹走到岩缝跟前。"
+        - id: ch03-b16
+          speaker: jackal
+          text: "还没听见吗？他们就在里面。"
+        - id: ch03-b17
+          speaker: narrator
+          text: "母豹专心听着所谓的歌声，豺却趁机溜走了。"
+    - id: ch04
+      title: "岩缝里的歌声"
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "母豹还站在原处，一只狒狒恰好从旁边经过。"
+        - id: ch04-b02
+          speaker: baboon
+          text: "豹子，你站在这里做什么？"
+        - id: ch04-b03
+          speaker: panther
+          text: "我在听孩子们唱歌。豺把学校开在这里。"
+        - id: ch04-b04
+          speaker: narrator
+          text: "狒狒抓起一根棍子，朝岩缝里捅去。"
+        - id: ch04-b05
+          speaker: baboon
+          text: "这样的话，我倒要看看你的孩子！"
+        - id: ch04-b06
+          speaker: narrator
+          text: "一大群蜜蜂猛然飞出岩缝，黑压压地冲向母豹，从四面八方发疯似的蜇她。狒狒却很快爬到高处躲开了，还蹲在一根树枝上冲她喊话。"
+        - id: ch04-b07
+          speaker: baboon
+          text: "祝你和孩子们快活！"
+        - id: ch04-b08
+          speaker: narrator
+          text: "远远的地方，又传来了豺的叫声。"
+        - id: ch04-b09
+          speaker: jackal
+          text: "狠狠蜇她！别让她逃走！"
+        - id: ch04-b10
+          speaker: narrator
+          text: "母豹像发了疯似的一路狂奔，纵身跳进最近的湖里。可是，她每次把头露出水面，蜜蜂就再次扑上去蜇她。到最后，这只可怜的野兽彻底淹死了。"

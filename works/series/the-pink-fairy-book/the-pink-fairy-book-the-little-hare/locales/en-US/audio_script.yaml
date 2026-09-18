@@ -1,0 +1,568 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and gently dramatic
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    man:
+      display_name: The Man
+      tts:
+        delivery: determined, wary, and practical
+        timbre: warm and sturdy
+        pace: measured
+        pitch: medium-low
+    wife:
+      display_name: The Man's Wife
+      tts:
+        delivery: demanding, direct, and impulsive
+        timbre: clear and full
+        pace: steady
+        pitch: medium
+    nyamatsane_1:
+      display_name: First Nyamatsane
+      tts:
+        delivery: suspicious and forceful
+        timbre: rough and resonant
+        pace: brisk
+        pitch: low
+    nyamatsane_2:
+      display_name: Second Nyamatsane
+      tts:
+        delivery: alert and insistent
+        timbre: dry and coarse
+        pace: quick
+        pitch: medium-low
+    nyamatsane_3:
+      display_name: Third Nyamatsane
+      tts:
+        delivery: hungry and excitable
+        timbre: firm and raspy
+        pace: brisk
+        pitch: medium
+    neighbor:
+      display_name: Neighbor
+      tts:
+        delivery: helpful at first, then firm
+        timbre: plain and clear
+        pace: measured
+        pitch: medium
+    big_lion:
+      display_name: Big Lion
+      tts:
+        delivery: commanding, proud, and easily fooled
+        timbre: deep and powerful
+        pace: deliberate
+        pitch: low
+    little_hare:
+      display_name: Little Hare
+      tts:
+        delivery: quick-witted, boastful, and sly
+        timbre: light and bright
+        pace: quick
+        pitch: medium-high
+    rabbit:
+      display_name: Rabbit
+      tts:
+        delivery: gentle, trusting, and wounded
+        timbre: soft and clear
+        pace: measured
+        pitch: medium-high
+    animal:
+      display_name: An Animal
+      tts:
+        delivery: curious and watchful
+        timbre: natural and clear
+        pace: steady
+        pitch: medium
+    long_eared_beast:
+      display_name: Long-Eared Beast
+      tts:
+        delivery: attentive and urgent
+        timbre: keen and clear
+        pace: brisk
+        pitch: medium
+    monkey:
+      display_name: Monkey
+      tts:
+        delivery: cautious, clever, and protective
+        timbre: lively and crisp
+        pace: quick
+        pitch: medium-high
+    hyaena_1:
+      display_name: First Hyaena
+      tts:
+        delivery: nervous, rough, and wary
+        timbre: gravelly and dark
+        pace: measured
+        pitch: low
+    hyaena_2:
+      display_name: Second Hyaena
+      tts:
+        delivery: doubtful and watchful
+        timbre: coarse and dry
+        pace: steady
+        pitch: medium-low
+    hyaena_3:
+      display_name: Third Hyaena
+      tts:
+        delivery: tense and resentful
+        timbre: raspy and firm
+        pace: brisk
+        pitch: medium-low
+    hyaena_daughter:
+      display_name: Little Hyaena
+      tts:
+        delivery: observant, earnest, and brave
+        timbre: young and clear
+        pace: quick
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The Hunt for a Nyamatsane
+      blocks:
+      - id: ch01-b01
+        speaker: narrator
+        text: Far, far away, in a country where water was scarce, a man lived with his wife and their children. One day his wife told him she was longing to eat a nyamatsane's liver for dinner. She said that if he loved her as much as he claimed, he would hunt one down and bring its liver home. If he refused, she would know his love was worthless.
+      - id: ch01-b02
+        speaker: man
+        text: Bake some bread. Put the crusts into this little bag for me.
+      - id: ch01-b03
+        speaker: narrator
+        text: His wife baked the bread and filled the bag as he had asked.
+      - id: ch01-b04
+        speaker: wife
+        text: The bag is ready. It is completely full.
+      - id: ch01-b05
+        speaker: man
+        text: Good. Then farewell. I am going to find that nyamatsane.
+      - id: ch01-b06
+        speaker: narrator
+        text: Finding one was much harder than his wife had imagined. The man walked on and on without seeing a single nyamatsane. From time to time, hunger forced him to stop and eat another crust from his little bag. At last, when he was nearly ready to collapse from weariness, he reached the edge of a huge marsh. Along one side of that marsh lay the country of the nyamatsanes.
+      - id: ch01-b07
+        speaker: narrator
+        text: Yet there were no nyamatsanes here either. Their store of food was empty, so they had all gone away on a hunting expedition. Only their grandmother remained at home, and she was so weak that she never went outside the hut. The man thought this was a wonderful stroke of luck. Before the others could return, he killed the grandmother and took out her liver. Then he dressed himself in her skin as well as he possibly could.
+      - id: ch01-b08
+        speaker: narrator
+        text: He had barely finished when he heard the nyamatsanes clattering home. They loved their grandmother and never stayed away from her longer than they had to. They rushed into the hut and began sniffing the air.
+      - id: ch01-b09
+        speakers: [nyamatsane_1, nyamatsane_2, nyamatsane_3]
+        ensemble: chorus
+        text: We smell human flesh! There is a man in here!
+      - id: ch01-b10
+        speaker: man
+        text: No, my children, no. Why would any man be here?
+      - id: ch01-b11
+        speaker: narrator
+        text: He made his voice tremble like the old grandmother's, but they paid no attention. They opened every cupboard and peered beneath every bed, crying all the while that a man was hiding there. Still, there was no one for them to find. At last, exhausted after their long day of hunting, they stopped searching, curled themselves up, and fell asleep.
+      - id: ch01-b12
+        speaker: narrator
+        text: By morning they felt refreshed and prepared to hunt again. Still uneasy about their grandmother, they invited her to come out and feed with them.
+      - id: ch01-b13
+        speaker: nyamatsane_1
+        text: Grandmother, why don't you come and eat with us today?
+      - id: ch01-b14
+        speaker: narrator
+        text: They led their supposed grandmother outside, and every nyamatsane began greedily eating pebbles. The man bent down and pretended to eat with them. In truth, he slipped the stones into his pouch and swallowed his remaining bread crusts instead. None of the nyamatsanes saw the exchange, so they never suspected that this was not their grandmother. Once they had eaten a great many pebbles, they decided that was enough for one day. They all returned to the hut, curled up, and slept.
+      - id: ch01-b15
+        speaker: narrator
+        text: The next morning, they decided to amuse themselves by jumping across a ditch. One after another, they cleared it in a single bound. Then they begged their grandmother to jump too. The man gathered all his strength, made one tremendous effort, and sprang all the way to the other side. That ended every doubt they had. Certain now that this truly was their old grandmother, the nyamatsanes went off hunting and left him alone in the hut.
+      - id: ch01-b16
+        speaker: narrator
+        text: As soon as they vanished, the man fetched the hidden liver, threw off the grandmother's skin, and ran. He stopped only once, to pick up a small stone that shone with a brilliant polish. He tucked it into his bag beside the liver.
+    - id: ch02
+      title: The Chase and the Terrible Thirst
+      blocks:
+      - id: ch02-b01
+        speaker: narrator
+        text: Toward evening, the nyamatsanes came home, anxious to see how their grandmother had managed alone. The first thing they saw was her skin on the floor. Now they knew they had been tricked.
+      - id: ch02-b02
+        speaker: nyamatsane_2
+        text: We were right after all. That really was human flesh we smelled.
+      - id: ch02-b03
+        speaker: narrator
+        text: They bent low, found the man's tracks, and raced after him. By then he had covered many miles and was beginning to feel safe. Then he looked back. A thick cloud of dust was rushing toward him in the distance. His heart seemed to stop.
+      - id: ch02-b04
+        speaker: man
+        text: I am finished. The nyamatsanes are coming, and they will tear me to pieces.
+        emotion: fearful
+      - id: ch02-b05
+        speaker: narrator
+        text: The dust cloud swept closer with astonishing speed, and the nyamatsanes were already imagining how they would devour him. As his last hope, the man pulled the shining little stone from his bag and hurled it to the ground. The instant it touched the earth, it became a towering rock. Its steep sides were as smooth as glass, and the man found himself seated safely on the very top.
+      - id: ch02-b06
+        speaker: narrator
+        text: The nyamatsanes rushed at the rock and tried to climb up to him. Their efforts were useless. Each time they scrambled a little way up the glassy sides, they slid down even faster than they had climbed. They kept trying until sunset. By then they were utterly worn out, and one by one they fell asleep around the foot of the rock.
+      - id: ch02-b07
+        speaker: narrator
+        text: The moment they were all asleep, the man stole softly down from the rock and ran as fast as his legs could carry him. He was a very long way off before his enemies woke. They jumped to their feet and sniffed the earth all around the rock until they picked up his footprints. Then they galloped after him at a terrifying speed. The chase continued through several days and nights. Again and again the nyamatsanes came close enough to nearly catch him, and each time his little pebble saved him.
+      - id: ch02-b08
+        speaker: narrator
+        text: Fear and haste had almost exhausted him when he finally reached his own village. The roads there swarmed with dogs, the nyamatsanes' enemies, so they could follow no farther. They turned back, while the man staggered into his hut.
+      - id: ch02-b09
+        speaker: man
+        text: Ichou, I am so tired! Quickly, bring me a drink. Then fetch some fuel and light a fire.
+      - id: ch02-b10
+        speaker: narrator
+        text: His wife obeyed. The man drew the nyamatsane's liver from his pouch and held it out to her.
+      - id: ch02-b11
+        speaker: man
+        text: Here is what you wanted. Now you know that I truly love you.
+      - id: ch02-b12
+        speaker: wife
+        text: Very well. Take the children outside now, and leave me alone in the hut.
+      - id: ch02-b13
+        speaker: narrator
+        text: She took down an old stone pot and set the liver to cook. Her husband watched for a moment.
+      - id: ch02-b14
+        speaker: man
+        text: Make sure you eat every bit yourself. Do not give even a scrap to the children.
+      - id: ch02-b15
+        speaker: narrator
+        text: The woman ate the whole liver. The moment she swallowed the last bite, a terrible thirst seized her. She lifted a great pot of water and emptied it in one draught. There was no water left in the house, so she ran next door.
+      - id: ch02-b16
+        speaker: wife
+        text: Neighbor, please give me something to drink.
+      - id: ch02-b17
+        speaker: narrator
+        text: The neighbor handed her a large vessel filled to the top. She drained that too and held it out again.
+      - id: ch02-b18
+        speaker: neighbor
+        text: No. If I give you more, there will be nothing left for my children.
+      - id: ch02-b19
+        speaker: narrator
+        text: The woman hurried to another house and drank every drop of water she found there. Yet the more she swallowed, the thirstier she became. She wandered from house to house through the whole village until she had emptied every water pot. Still desperate, she rushed to the nearest spring and swallowed it dry. Then she drained every other spring and well nearby. First she drank up the river, and after that she drank an entire lake. By then she had swallowed so much water that she lay helpless on the ground and could not rise.
+    - id: ch03
+      title: Little Hare Disobeys
+      blocks:
+      - id: ch03-b01
+        speaker: narrator
+        text: That evening, when it was time for the animals to drink before going to bed, they arrived and found the lake completely dry. There was nothing they could do but remain thirsty until water flowed again and the streams refilled the lake. Even after the water returned, the lake stayed very dirty for some time. Big Lion was king of all the beasts, and he commanded that no animal should drink until the water was perfectly clear again.
+      - id: ch03-b02
+        speaker: narrator
+        text: Little Hare always liked to have his own way, and besides that, he was terribly thirsty. He waited until all the other animals were asleep in their dens. Then he slipped quietly down to the edge of the lake and drank his fill. Before leaving, he smeared the dirty water all over Rabbit's face and paws. Anyone who saw that mud would think Rabbit was the one who had disobeyed Big Lion's command.
+      - id: ch03-b03
+        speaker: narrator
+        text: At daylight, Big Lion marched straight to the lake with all the beasts behind him. One glance showed him that someone had disturbed the water again, and he flew into a rage.
+      - id: ch03-b04
+        speaker: big_lion
+        text: Who drank from my water?
+        emotion: angry
+      - id: ch03-b05
+        speaker: narrator
+        text: Little Hare jumped and pointed at Rabbit.
+      - id: ch03-b06
+        speaker: little_hare
+        text: Look at him! It had to be Rabbit. His face and paws are covered in mud!
+      - id: ch03-b07
+        speaker: narrator
+        text: Rabbit was frightened out of his senses and tried to deny it.
+      - id: ch03-b08
+        speaker: rabbit
+        text: Oh no, I promise I never drank it!
+        emotion: fearful
+      - id: ch03-b09
+        speaker: narrator
+        text: Big Lion refused to listen. He ordered the animals to beat Rabbit with a birch rod. Little Hare was delighted that his trick had brought the beating down on Rabbit instead of himself, and he went around boasting about it. At last, another animal overheard him.
+      - id: ch03-b10
+        speaker: animal
+        text: Little Hare! What are you saying over there?
+      - id: ch03-b11
+        speaker: little_hare
+        text: Nothing. I only asked you to pass me my stick.
+      - id: ch03-b12
+        speaker: narrator
+        text: An hour or two later, Little Hare thought he was alone and began talking to himself again.
+      - id: ch03-b13
+        speaker: little_hare
+        text: I was the one who drank the water, but I made everyone blame Rabbit.
+      - id: ch03-b14
+        speaker: narrator
+        text: A beast with longer ears than the rest caught every word. He hurried to Big Lion.
+      - id: ch03-b15
+        speaker: long_eared_beast
+        text: Do you hear what Little Hare is saying?
+      - id: ch03-b16
+        speaker: narrator
+        text: Big Lion summoned Little Hare and demanded to know what he meant. Little Hare saw that hiding the truth was useless, so he answered with a saucy toss of the words.
+      - id: ch03-b17
+        speaker: little_hare
+        text: I drank the water, and I made all of you think Rabbit did it.
+      - id: ch03-b18
+        speaker: narrator
+        text: Then he spun around and fled, with every beast chasing him. They were nearly upon him when he darted into a narrow crack in the rock, too small for any of them to enter. In his haste, one long ear remained outside. The animals seized it, but even with all their pulling they could not drag him from the hole. At last they gave up and left him there, his ear badly torn and scratched.
+    - id: ch04
+      title: Rabbit and the Fire
+      blocks:
+      - id: ch04-b01
+        speaker: narrator
+        text: Once the last tail disappeared, Little Hare crept cautiously from the rock. The first person he met was Rabbit. Little Hare had no shortage of nerve, so he put on a bold face.
+      - id: ch04-b02
+        speaker: little_hare
+        text: Well, my good Rabbit, you see I have had a beating too.
+      - id: ch04-b03
+        speaker: narrator
+        text: Rabbit was still sore and bitter. He had no wish to be friendly.
+      - id: ch04-b04
+        speaker: rabbit
+        text: You treated me cruelly. You drank that water, then accused me of doing it.
+      - id: ch04-b05
+        speaker: little_hare
+        text: Oh, never mind that. I have a wonderful secret for you. Do you know how to escape death?
+      - id: ch04-b06
+        speaker: rabbit
+        text: No, I don't.
+      - id: ch04-b07
+        speaker: little_hare
+        text: First, we have to dig a hole.
+      - id: ch04-b08
+        speaker: narrator
+        text: Together they dug one. Then Little Hare explained the next step.
+      - id: ch04-b09
+        speaker: little_hare
+        text: Now we build a fire inside it.
+      - id: ch04-b10
+        speaker: narrator
+        text: They gathered wood and soon had a large fire burning brightly in the hole.
+      - id: ch04-b11
+        speaker: little_hare
+        text: Rabbit, my friend, throw me into the fire. When you hear my fur crackle and I shout, “Itchi, Itchi,” pull me out quickly.
+      - id: ch04-b12
+        speaker: narrator
+        text: Rabbit did exactly as he was told. The moment Little Hare felt the flames, he held some green bay leaves in the middle of the fire. He had picked them for this trick, and they crackled with a tremendous noise.
+      - id: ch04-b13
+        speaker: little_hare
+        text: Itchi, Itchi! Rabbit, hurry! Can't you hear my skin crackling?
+      - id: ch04-b14
+        speaker: narrator
+        text: Rabbit rushed over and pulled him out.
+      - id: ch04-b15
+        speaker: little_hare
+        text: Now it is your turn.
+      - id: ch04-b16
+        speaker: narrator
+        text: Little Hare threw Rabbit into the fire. As soon as the flames touched him, Rabbit cried out.
+      - id: ch04-b17
+        speaker: rabbit
+        text: Itchi, Itchi! I am burning! Pull me out quickly, my friend!
+        emotion: fearful
+      - id: ch04-b18
+        speaker: narrator
+        text: Little Hare only laughed.
+      - id: ch04-b19
+        speaker: little_hare
+        text: No, you can stay there. This is your own fault. Why were you foolish enough to let me throw you in? Didn't you know that fire burns?
+      - id: ch04-b20
+        speaker: narrator
+        text: Within a few minutes, nothing remained of Rabbit except a few bones. When the fire had gone out completely, Little Hare picked up one bone, made it into a flute, and sang.
+      - id: ch04-b21
+        speaker: little_hare
+        text: Pii, pii, my dear little flute. Pii, pii, rabbits are only little boys. Pii, pii, he would have burned me if he could. Pii, pii, but I burned him, and how finely he crackled!
+    - id: ch05
+      title: Big Lion's Hunting Trick
+      blocks:
+      - id: ch05-b01
+        speaker: narrator
+        text: After wandering the world and singing until he grew tired of it, Little Hare returned to his friends and entered Big Lion's service. One day he offered his master a clever way to catch game.
+      - id: ch05-b02
+        speaker: little_hare
+        text: Grandfather, would you like me to show you a splendid way to kill game?
+      - id: ch05-b03
+        speaker: big_lion
+        text: What is this plan?
+      - id: ch05-b04
+        speaker: little_hare
+        text: We dig a ditch. Then you lie inside it and pretend to be dead.
+      - id: ch05-b05
+        speaker: narrator
+        text: Big Lion did exactly as Little Hare instructed and stretched himself out in the ditch like a dead lion. Once he was lying still, Little Hare climbed to the top of a wall. From there he blew a trumpet, then raised his voice and called to every animal within hearing.
+      - id: ch05-b06
+        speaker: little_hare
+        text: Pii, pii, come and see! Big Lion is dead, and now we can live in peace!
+      - id: ch05-b07
+        speaker: narrator
+        text: Every animal came running. Little Hare stood there to welcome them.
+      - id: ch05-b08
+        speaker: little_hare
+        text: Keep going. This is the way to the lion.
+      - id: ch05-b09
+        speaker: narrator
+        text: One after another, the animals passed Little Hare and entered the Animal Kingdom. Last of all came Monkey, with her baby riding on her back. She approached the ditch more carefully than the others. Before going farther, she plucked a blade of grass and used it to tickle Big Lion's nose. The lion fought to keep perfectly still, but in spite of all his efforts, his nostrils moved.
+      - id: ch05-b10
+        speaker: monkey
+        text: Come, baby. Climb onto my back, and let us leave. What kind of dead creature can still feel a tickle?
+        emotion: fearful
+      - id: ch05-b11
+        speaker: narrator
+        text: Monkey and her baby hurried away in fright. Then Little Hare turned to the other beasts.
+      - id: ch05-b12
+        speaker: little_hare
+        text: Shut the gate of the Animal Kingdom now.
+      - id: ch05-b13
+        speaker: narrator
+        text: They closed the gate and rolled great stones against it. When it was sealed tight, Little Hare gave the signal.
+      - id: ch05-b14
+        speaker: little_hare
+        text: Now!
+      - id: ch05-b15
+        speaker: narrator
+        text: Big Lion bounded from the ditch and tore the trapped animals to pieces. When it was time to divide the game, however, he kept every choice piece of meat for himself. He gave away only the small scraps he did not care to eat, and those were all Little Hare received for devising the trick. Little Hare grew very angry over this unfair share. He decided that he would have his revenge on Big Lion.
+    - id: ch06
+      title: Little Hare Takes Revenge
+      blocks:
+      - id: ch06-b01
+        speaker: narrator
+        text: Little Hare had learned long ago how easily Big Lion could be fooled. He formed a plan, then spoke as though the idea had only just occurred to him.
+      - id: ch06-b02
+        speaker: little_hare
+        text: Grandfather, let us build a hut.
+      - id: ch06-b03
+        speaker: narrator
+        text: Big Lion agreed. They drove stakes into the earth and built the walls. Then Little Hare told Big Lion to climb on top while he stayed inside. When the lion was in place, Little Hare called up to him.
+      - id: ch06-b04
+        speaker: little_hare
+        text: All right, Grandfather. You can begin now.
+      - id: ch06-b05
+        speaker: narrator
+        text: Big Lion pushed his rod down through the reeds used for roofing in that country. Little Hare caught it from below.
+      - id: ch06-b06
+        speaker: little_hare
+        text: Now it is my turn to pierce the reeds.
+      - id: ch06-b07
+        speaker: narrator
+        text: He thrust the rod back through the roof and gave Big Lion's tail a sharp jab.
+      - id: ch06-b08
+        speaker: big_lion
+        text: What keeps pricking me?
+      - id: ch06-b09
+        speaker: little_hare
+        text: It is only a little branch sticking out. I will break it off.
+      - id: ch06-b10
+        speaker: narrator
+        text: Of course, Little Hare had done it on purpose. He meant to fasten Big Lion's tail so tightly to the hut that the lion could not move. Soon he jabbed him again.
+      - id: ch06-b11
+        speaker: big_lion
+        text: What is pricking me this time?
+      - id: ch06-b12
+        speaker: narrator
+        text: Little Hare feared that Big Lion would discover the trick, so he quickly changed his plan.
+      - id: ch06-b13
+        speaker: little_hare
+        text: Grandfather, put your tongue down here. Then the branches will not touch you.
+      - id: ch06-b14
+        speaker: narrator
+        text: Big Lion obeyed. Little Hare tied his tongue firmly to the stakes in the wall, then went outside.
+      - id: ch06-b15
+        speaker: little_hare
+        text: You can come down now, Grandfather.
+      - id: ch06-b16
+        speaker: narrator
+        text: Big Lion tried, but he could not move an inch. Little Hare calmly ate the lion's dinner right in front of him and ignored every furious growl. When he had finished, he climbed onto the hut, blew his flute, and chanted.
+      - id: ch06-b17
+        speaker: little_hare
+        text: Pii, pii, let rain and hail come down!
+      - id: ch06-b18
+        speaker: narrator
+        text: Clouds filled the sky at once. Thunder roared, and enormous hailstones turned the roof white. Little Hare took shelter inside the hut and called again.
+      - id: ch06-b19
+        speaker: little_hare
+        text: Big Lion, hurry down and have dinner with me!
+      - id: ch06-b20
+        speaker: narrator
+        text: No answer came, not even a growl. The hailstones had killed Big Lion.
+      - id: ch06-b21
+        speaker: narrator
+        text: For some time afterward, Little Hare enjoyed himself greatly. He lived comfortably in the hut, with plenty of food to eat and no trouble at all in getting it. Then one day, a great wind rose. It caught Big Lion's half-dried skin where it lay on the roof and flung it down with a crash. Little Hare bounded away in terror at the noise, certain for a moment that Big Lion had come back to life.
+      - id: ch06-b22
+        speaker: narrator
+        text: Once he saw what had happened, he cleaned the skin. He propped its mouth open with sticks so that he could climb through. Dressed in Big Lion's skin, Little Hare set off on his travels.
+    - id: ch07
+      title: Among the Hyaenas
+      blocks:
+      - id: ch07-b01
+        speaker: narrator
+        text: His first visit was to the hyaenas. They trembled when they saw him and whispered among themselves.
+      - id: ch07-b02
+        speakers: [hyaena_1, hyaena_2, hyaena_3]
+        ensemble: chorus
+        text: How can we escape from this terrible beast?
+        emotion: fearful
+      - id: ch07-b03
+        speaker: narrator
+        text: Little Hare did not trouble himself about their fear. He simply asked them where the king of the hyaenas lived, went there, and made himself completely at home. Every morning, each hyaena woke with the same dreadful thought. Surely this terrible visitor would eat him before the day was over. Yet one day followed another, and after several days had passed, every one of them was still alive.
+      - id: ch07-b04
+        speaker: narrator
+        text: One evening, Little Hare was searching for amusement when he noticed a huge pot of boiling water. He strolled over to one of the hyaenas.
+      - id: ch07-b05
+        speaker: little_hare
+        text: Go and climb into that pot.
+      - id: ch07-b06
+        speaker: narrator
+        text: The hyaena was too frightened to disobey, and the boiling water soon killed him. Little Hare went through the village, ordering every male hyaena he met to get into the pot. Before long, hardly any males remained.
+      - id: ch07-b07
+        speaker: narrator
+        text: One day, all the surviving hyaenas went to the fields very early. Only one little daughter stayed at home. Believing himself alone, Little Hare entered the enclosure. He wanted to feel like a hare again, so he cast off Big Lion's skin and began leaping and dancing.
+      - id: ch07-b08
+        speaker: little_hare
+        text: I am only Little Hare, Little Hare, Little Hare. I am only Little Hare, who killed the mighty hyaenas!
+      - id: ch07-b09
+        speaker: narrator
+        text: The little hyaena stared in amazement. She wondered if this tiny creature had truly killed all the best of their people. Just then, a gust rustled the reeds around the enclosure. Little Hare took fright and sprang back into Big Lion's skin.
+      - id: ch07-b10
+        speaker: narrator
+        text: When the hyaenas came home, the little daughter went straight to her father.
+      - id: ch07-b11
+        speaker: hyaena_daughter
+        text: Father, our tribe has almost been wiped out, and a tiny creature inside the lion's skin did it.
+      - id: ch07-b12
+        speaker: hyaena_1
+        text: Oh, my dear child, you do not know what you are saying.
+      - id: ch07-b13
+        speaker: hyaena_daughter
+        text: I do, Father. It is true. I saw him with my own eyes.
+      - id: ch07-b14
+        speaker: narrator
+        text: Her father did not know what to believe. He told one of his friends, and the friend proposed a test.
+      - id: ch07-b15
+        speaker: hyaena_2
+        text: Tomorrow, we should hide and watch him ourselves.
+      - id: ch07-b16
+        speaker: narrator
+        text: The next day, the two hyaenas concealed themselves and waited. Little Hare came cheerfully from the royal hut, walked toward the enclosure, threw off the lion's skin, and danced again.
+      - id: ch07-b17
+        speaker: little_hare
+        text: I am only Little Hare, Little Hare, Little Hare. I am only Little Hare, who killed the mighty hyaenas!
+      - id: ch07-b18
+        speaker: narrator
+        text: That night, the two watchers told all the others what they had seen.
+      - id: ch07-b19
+        speakers: [hyaena_1, hyaena_2]
+        ensemble: duo
+        text: We let a miserable little creature trample us, and there is nothing lionlike about him except the skin!
+      - id: ch07-b20
+        speaker: narrator
+        text: Supper was cooking that evening before they went to bed. Looking fierce and terrible in Big Lion's skin, Little Hare gave his usual order to one of the hyaenas.
+      - id: ch07-b21
+        speaker: little_hare
+        text: Go and get into the boiling water.
+      - id: ch07-b22
+        speaker: narrator
+        text: This time the hyaena did not move. Silence hung over them. Then another hyaena seized a stone and hurled it with all his strength against the lion's skin. Little Hare shot out through its mouth in one leap and fled like lightning. The hyaenas raced after him with loud cries.
+      - id: ch07-b23
+        speaker: narrator
+        text: As he turned a corner, Little Hare cut off both ears so they would not recognize him. Then he pretended to work at a grindstone lying nearby. The hyaenas soon caught up.
+      - id: ch07-b24
+        speaker: hyaena_3
+        text: Friend, have you seen Little Hare pass this way?
+      - id: ch07-b25
+        speaker: little_hare
+        text: No. I have not seen anyone.
+      - id: ch07-b26
+        speakers: [hyaena_1, hyaena_2, hyaena_3]
+        ensemble: chorus
+        text: Where can he be? This fellow is completely different. He looks nothing like Little Hare.
+      - id: ch07-b27
+        speaker: narrator
+        text: They continued down the road, but they found no trace of Little Hare. At last they returned sadly to their village, ashamed that they had allowed such a wretched little creature to destroy so many of them.

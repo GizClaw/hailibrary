@@ -1,0 +1,216 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, clear, and quietly cautionary
+        timbre: gentle and resonant
+        pace: measured
+        pitch: medium
+    darning_needle:
+      display_name: The Darning-needle
+      tts:
+        delivery: proud, self-important, and cheerfully vain
+        timbre: slender and bright
+        pace: measured
+        pitch: medium-high
+    finger_one:
+      display_name: The First Finger
+      tts:
+        delivery: practical and matter-of-fact
+        timbre: clear and firm
+        pace: measured
+        pitch: medium
+    finger_two:
+      display_name: The Second Finger
+      tts:
+        delivery: practical and matter-of-fact
+        timbre: clear and firm
+        pace: measured
+        pitch: medium
+    bottle_glass:
+      display_name: The Bottle-glass
+      tts:
+        delivery: agreeable, vain, and self-satisfied
+        timbre: crisp and sparkling
+        pace: measured
+        pitch: medium-high
+    cook:
+      display_name: The Cook
+      tts:
+        delivery: practical, hearty, and astonished
+        timbre: warm and full
+        pace: measured
+        pitch: medium
+    street_boy_one:
+      display_name: The First Street Boy
+      tts:
+        delivery: excited, bold, and playful
+        timbre: youthful and clear
+        pace: quick
+        pitch: medium-high
+    street_boy_two:
+      display_name: The Second Street Boy
+      tts:
+        delivery: curious, playful, and energetic
+        timbre: light and youthful
+        pace: quick
+        pitch: high
+  chapters:
+    - id: ch01
+      title: Too Fine for Common Work
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a Darning-needle who thought herself so delicate that she was sure she must be an embroidery needle. The Fingers held her, ready to sew.
+        - id: ch01-b02
+          speaker: darning_needle
+          text: Hold me very tightly! If I fall on the floor, no one will ever find me. I am far too fine and tiny.
+        - id: ch01-b03
+          speaker: narrator
+          text: The Fingers caught her firmly around the waist.
+        - id: ch01-b04
+          speakers: [finger_one, finger_two]
+          ensemble: duo
+          text: We have you. Everything is fine.
+        - id: ch01-b05
+          speaker: darning_needle
+          text: See how I come sweeping in with my train behind me!
+        - id: ch01-b06
+          speaker: narrator
+          text: A long thread trailed after her, though there was no knot at its end. The Fingers began sewing the cook's shoe, where the upper leather had come apart.
+        - id: ch01-b07
+          speaker: darning_needle
+          text: What ordinary work this is! I will never make it through. I am breaking! I am breaking!
+        - id: ch01-b08
+          speaker: narrator
+          text: And she really did break.
+        - id: ch01-b09
+          speaker: darning_needle
+          text: There, I warned you. I am simply too fine!
+        - id: ch01-b10
+          speakers: [finger_one, finger_two]
+          ensemble: duo
+          text: Now she is no use at all.
+        - id: ch01-b11
+          speaker: narrator
+          text: Even so, the Fingers kept hold of her. The cook dropped sealing wax onto the broken needle and fastened her to the front of her dress.
+    - id: ch02
+      title: The Breast-pin Goes Traveling
+      blocks:
+        - id: ch02-b01
+          speaker: darning_needle
+          text: Now I am a breast-pin! I always knew I would rise in the world. If you truly are something, you are bound to become something greater!
+          emotion: happy
+        - id: ch02-b02
+          speaker: narrator
+          text: She laughed to herself, though no one can ever see a Darning-needle laugh. Then she sat as proudly as if she were riding in a royal coach and looked around. A Pin was beside her.
+        - id: ch02-b03
+          speaker: darning_needle
+          text: May I ask whether you are made of gold? You look quite handsome, and your head is unusual, but it is much too small. You really should make it grow. Not everyone can have a head of sealing wax, you know.
+        - id: ch02-b04
+          speaker: narrator
+          text: As she spoke, the Darning-needle lifted herself so proudly that she fell from the dress. Down she went into the sink just as the cook was rinsing it.
+        - id: ch02-b05
+          speaker: darning_needle
+          text: I am setting off on my travels! I only hope I do not get lost.
+        - id: ch02-b06
+          speaker: narrator
+          text: But she did get lost. She came to rest in the gutter.
+        - id: ch02-b07
+          speaker: darning_needle
+          text: I am too fine for this world. Still, I know exactly who I am, and that is some comfort.
+        - id: ch02-b08
+          speaker: narrator
+          text: The Darning-needle stayed cheerful and held herself as proudly as ever. Shavings, bits of straw, and scraps of old newspaper floated over her.
+        - id: ch02-b09
+          speaker: darning_needle
+          text: Just look at them sailing by! They have no idea what lies beneath them, while I am stuck fast down here. That shaving thinks of nothing but itself, and it is only a chip. Look at that straw twisting and twirling! It had better stop thinking so much of itself, or it will strike a stone. And now a scrap of newspaper floats past. Everyone has forgotten what was written on it long ago, but it still acts so grand. I sit here quietly and wait. I know who I am, and that is enough.
+    - id: ch03
+      title: Two Treasures in the Gutter
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: One day a thick, glittering object landed near her. The Darning-needle thought it must be a diamond. It was really a piece of bottle-glass, but it sparkled, so she introduced herself as a breast-pin.
+        - id: ch03-b02
+          speaker: darning_needle
+          text: You must be a diamond, surely?
+        - id: ch03-b03
+          speaker: bottle_glass
+          text: Yes, something very much like one.
+        - id: ch03-b04
+          speaker: narrator
+          text: Each one believed the other was a costly treasure. Together they agreed that the world must be very proud to have them.
+        - id: ch03-b05
+          speaker: darning_needle
+          text: I came from a lady's workbox. The lady was a cook, and she had five fingers on each hand. I have never met anything as proud as those Fingers. Yet their only purpose was to take me from the box and put me back again.
+        - id: ch03-b06
+          speaker: bottle_glass
+          text: Then were these Fingers nobly born?
+        - id: ch03-b07
+          speaker: darning_needle
+          text: Nobly born? Not at all, only proud! They were five brothers, and every one of them was called Finger. They stood side by side, though none was the same size. The Thumb stood outside the row. He was short and fat, with only one bend in his back, so he could make just one bow. Still, he claimed that if a man lost him, that man was no longer fit to be a soldier.
+        - id: ch03-b08
+          speaker: darning_needle
+          text: The next brother was Dip-into-everything. He poked into sweet things and sour ones, pointed at the sun and moon, and guided the pen whenever they wrote. The third was Longman, who could look over all the others. The fourth was Goldband, with a golden sash around his waist. Then came little Playman. He did nothing whatsoever, which only made him prouder. They were all far too fond of showing off, and that is why I left.
+        - id: ch03-b09
+          speaker: bottle_glass
+          text: And now the two of us sit here and shine!
+        - id: ch03-b10
+          speaker: narrator
+          text: Just then, more water rushed into the gutter. It poured over the sides and swept the bottle-glass away.
+        - id: ch03-b11
+          speaker: darning_needle
+          text: Ah, he has been promoted! I remain here because I am too fine. Of course, that is my pride, and pride proves one is respectable.
+        - id: ch03-b12
+          speaker: narrator
+          text: She sat there very proudly, lost in grand thoughts.
+    - id: ch04
+      title: Blacker and Finer Than Before
+      blocks:
+        - id: ch04-b01
+          speaker: darning_needle
+          text: I truly believe I was born from a sunbeam, because I am so fine. The sunbeams always seem to search for me beneath the water. Why, I am so fine that even my own mother cannot find me! If I still had my old eye, the one that broke away, I think I could weep. But I cannot, and weeping is not fine anyway.
+        - id: ch04-b02
+          speaker: narrator
+          text: One day two street boys came wading through the gutter. They were having great fun searching the dirty water for old nails, pennies, and anything else they might find. One boy pricked himself on the Darning-needle.
+        - id: ch04-b03
+          speaker: street_boy_one
+          text: Ow! Look at this fine fellow!
+          emotion: surprised
+        - id: ch04-b04
+          speaker: darning_needle
+          text: I am not a fellow. I am a young lady!
+        - id: ch04-b05
+          speaker: narrator
+          text: No one heard her. Her sealing wax was gone, and she had turned completely black. But black made her look slim, she thought, so now she considered herself finer than ever.
+        - id: ch04-b06
+          speakers: [street_boy_one, street_boy_two]
+          ensemble: duo
+          text: Here comes an eggshell sailing along!
+          emotion: happy
+        - id: ch04-b07
+          speaker: narrator
+          text: The boys stuck the Darning-needle into the eggshell.
+        - id: ch04-b08
+          speaker: darning_needle
+          text: White walls around me and my own black figure in the middle. What a lovely contrast! Now everyone can see me properly. I only hope I do not become seasick, or I shall think myself lost.
+        - id: ch04-b09
+          speaker: narrator
+          text: She did not become seasick, and she did not give herself up for lost.
+        - id: ch04-b10
+          speaker: darning_needle
+          text: It is fortunate to be made of steel when seasickness comes. That gives me an advantage over ordinary people. Now the queasiness has passed. The finer one is, the more one can endure.
+    - id: ch05
+      title: Under the Wagon-wheel
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Crack! A wagon-wheel rolled straight over the eggshell.
+        - id: ch05-b02
+          speaker: darning_needle
+          text: Oh, what terrible pressure! Now I really shall be seasick. I am breaking!
+        - id: ch05-b03
+          speaker: narrator
+          text: But the Darning-needle did not break, even with the wagon-wheel passing over her. She lay stretched out at full length, and there she may lie still.

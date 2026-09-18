@@ -1,0 +1,244 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 从容而清晰，带着古老童话的神秘感与淡淡讽刺
+        timbre: 温暖清亮
+        pace: 舒缓，险境与转折处略微加快
+        pitch: 中音
+    merchant:
+      display_name: 商人
+      tts:
+        delivery: 忠厚谨慎，忧虑时沉重而慈爱
+        timbre: 温和苍老
+        pace: 中速偏慢
+        pitch: 中低音
+    maria:
+      display_name: 玛丽亚
+      tts:
+        delivery: 聪敏大胆，答话干脆，捉弄人时机灵俏皮
+        timbre: 清亮年轻
+        pace: 中速偏快
+        pitch: 中高音
+    eldest_sister:
+      display_name: 大姐
+      tts:
+        delivery: 随性娇气，想要东西时带着央求
+        timbre: 柔亮年轻
+        pace: 中速
+        pitch: 中高音
+    second_sister:
+      display_name: 二姐
+      tts:
+        delivery: 直率任性，随声附和时轻快自然
+        timbre: 清脆年轻
+        pace: 中速
+        pitch: 中高音
+    king:
+      display_name: 国王
+      tts:
+        delivery: 威严自负，受挫时急躁，动情时强烈而真挚
+        timbre: 浑厚成熟
+        pace: 中速
+        pitch: 中低音
+    old_woman:
+      display_name: 老妇人
+      tts:
+        delivery: 朴实警醒，夜里问话时带着疑惑
+        timbre: 苍老温厚
+        pace: 中速偏慢
+        pitch: 中低音
+    gardener:
+      display_name: 园丁
+      tts:
+        delivery: 粗声直气，抓到偷果子的人时严厉恼火
+        timbre: 粗厚成熟
+        pace: 中速偏快
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 三盆罗勒
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，王宫附近住着一个丧妻的商人。他有三个漂亮女儿，其中最小的玛丽亚最为美丽。一天，国王召他进宫，要他出远门替自己办事。商人实在不愿把女儿们独自留在家中，可王命不能不听，只得怀着沉重的心情回去告别。
+        - id: ch01-b02
+          speaker: narrator
+          text: 临走前，他拿来三盆罗勒，三个女儿每人一盆。
+        - id: ch01-b03
+          speaker: merchant
+          text: 我要出一趟远门，把这三盆花留给你们。谁来也不许放进屋。等我回来，花儿自然会告诉我家里发生了什么。
+        - id: ch01-b04
+          speakers: [eldest_sister, second_sister, maria]
+          ensemble: chorus
+          text: 家里什么事也不会发生。
+        - id: ch01-b05
+          speaker: narrator
+          text: 父亲走后的第二天，国王带着两个朋友来访。三姐妹那时正在吃晚饭。玛丽亚一看见客人，立刻想出了脱身的办法。
+        - id: ch01-b06
+          speaker: maria
+          text: 我们去地窖拿瓶酒吧。我拿钥匙，大姐拿灯，二姐拿酒瓶。
+        - id: ch01-b07
+          speaker: king
+          text: 不用麻烦了，我们并不渴。
+        - id: ch01-b08
+          speakers: [eldest_sister, second_sister]
+          ensemble: duo
+          text: 那好，我们就不去了。
+        - id: ch01-b09
+          speaker: maria
+          text: 你们不去，我也还是要去。
+        - id: ch01-b10
+          speaker: narrator
+          text: 玛丽亚走进前厅，吹灭灯，放下钥匙和酒瓶，飞奔到邻居家敲门。老妇人从窗口探出头来。
+        - id: ch01-b11
+          speaker: old_woman
+          text: 都这么晚了，外面是谁？
+        - id: ch01-b12
+          speaker: maria
+          text: 快让我进去吧。我和大姐吵了起来，不想再争了，求您让我在这里睡一夜。
+        - id: ch01-b13
+          speaker: narrator
+          text: 老妇人开门收留了她，玛丽亚就在邻居家过了一夜。国王发现她从自己眼前溜走，气得不得了。第二天她回家一看，两个姐姐的罗勒都枯了。这两盆花果然说明，她们没有听从父亲的嘱咐。
+
+    - id: ch02
+      title: 御花园里的较量
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 大姐房间的窗户正对御花园。她看见树上的欧楂又大又熟，馋得非吃不可，便求玛丽亚顺绳子下去摘几个，答应随后把妹妹拉上来。玛丽亚心肠好，真的攀着绳子荡进花园，把欧楂摘到了手。
+        - id: ch02-b02
+          speaker: narrator
+          text: 她刚把绳子系到腋下，正等姐姐往上拉，大姐又从窗口喊她。
+        - id: ch02-b03
+          speaker: eldest_sister
+          text: 前面那些柠檬看着真好吃。再给我带一两个来吧。
+        - id: ch02-b04
+          speaker: narrator
+          text: 玛丽亚转身去摘，却迎面撞上园丁。园丁一把将她抓住。
+        - id: ch02-b05
+          speaker: gardener
+          text: 你这个小贼，跑到这里来干什么？
+          emotion: angry
+        - id: ch02-b06
+          speaker: maria
+          text: 别骂人，要不然吃亏的是你。
+        - id: ch02-b07
+          speaker: narrator
+          text: 说着，她狠狠一推。园丁跌进柠檬树丛，喘得说不出话来。玛丽亚抓住绳子，飞快爬回窗口。
+        - id: ch02-b08
+          speaker: narrator
+          text: 第二天，二姐又馋起了香蕉，苦苦央求玛丽亚替她去摘。玛丽亚已经发誓再不做这种事，却禁不住姐姐一再恳求，只好又顺着绳子下到御花园。这次等着她的竟是国王。
+        - id: ch02-b09
+          speaker: king
+          text: 哈，狡猾的小东西，你又来了！这回你得为做过的坏事受罚。
+          emotion: angry
+        - id: ch02-b10
+          speaker: narrator
+          text: 国王把她从头到尾盘问了一遍。玛丽亚没有推脱，自己做过的事情一件也没否认。
+        - id: ch02-b11
+          speaker: king
+          text: 跟我进屋。到了那里，我再好好罚你。
+        - id: ch02-b12
+          speaker: narrator
+          text: 国王先朝屋子走去，一路不时回头查看，唯恐玛丽亚逃走。可他忽然再一转身，她已经消失得无影无踪，连去了哪里都没留下半点线索。国王派人搜遍全城，每个洞穴、每处角落都翻了个底朝天，还是找不到她。他气得大病一场，一连几个月，大家都以为他性命难保。
+
+    - id: ch03
+      title: 花篮与石头外衣
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 这时，两个姐姐已经嫁给国王的两位朋友，各自有了一个小女儿。一天，玛丽亚偷偷来到大姐家，把两个婴儿抱进一只漂亮篮子。篮子内外铺满鲜花，任谁也看不出花下藏着孩子。
+        - id: ch03-b02
+          speaker: narrator
+          text: 她又扮成男孩子，把篮子顶在头上，慢慢走过王宫，一边走一边叫卖。
+        - id: ch03-b03
+          speaker: maria
+          text: 谁来把这些花送给国王？他害着相思病，还躺在床上呢！
+        - id: ch03-b04
+          speaker: narrator
+          text: 国王躺在病床上听见了，马上命一个侍从出去买下花篮。篮子送到床边，他刚揭开盖子，里面便响起婴儿的哭声。国王探头一看，花下竟是两个小娃娃。他知道自己又中了玛丽亚的计，怒火一下烧了起来，只顾盯着孩子，盘算该怎样还击。
+        - id: ch03-b05
+          speaker: narrator
+          text: 正巧有人来报，商人已经办完差事回家。国王想起玛丽亚拒绝过自己的拜访，又偷过御花园的果子，便派侍童传令。商人第二天必须带着一件石头做的外衣进宫，否则就要受罚。
+        - id: ch03-b06
+          speaker: narrator
+          text: 商人前一晚才回到家，已经够伤心了。三个女儿明明保证家中不会出事，两个大女儿却没征得他的同意便嫁了人。如今又来了这场灾祸。石头做的外衣，他怎么可能做得出来？他绞着双手，直说国王非毁掉自己不可。玛丽亚恰在这时走了进来。
+        - id: ch03-b07
+          speaker: maria
+          text: 父亲，别愁那件石头外衣。您带一截粉笔进宫，就说要给国王量尺寸。
+        - id: ch03-b08
+          speaker: narrator
+          text: 商人虽不懂她的用意，可玛丽亚过去帮过他许多次，他对女儿很有信心。于是，他把粉笔装进口袋，照她的话进了宫。
+        - id: ch03-b09
+          speaker: king
+          text: 这可不行。
+        - id: ch03-b10
+          speaker: merchant
+          text: 可您要的那件外衣，我实在做不出来。
+        - id: ch03-b11
+          speaker: king
+          text: 想保住脑袋，就把你的女儿玛丽亚交给我。
+        - id: ch03-b12
+          speaker: narrator
+          text: 商人没有回答，愁苦地回了家。玛丽亚正等着他。
+        - id: ch03-b13
+          speaker: merchant
+          text: 我亲爱的孩子，我为什么偏要生到世上受苦？国王说，他不要外衣了，要我拿你去交换。
+          emotion: sad
+        - id: ch03-b14
+          speaker: maria
+          text: 父亲，别难过。请人照我的样子做个玩偶，在它头上系根线。我拉动线，它就能点头，回答是或不是。
+        - id: ch03-b15
+          speaker: narrator
+          text: 商人马上出门，请人做玩偶去了。
+
+    - id: ch04
+      title: 会点头的玩偶
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 国王安安稳稳地守在宫里。他确信玛丽亚这次无论如何也跑不掉，便先嘱咐侍从。
+        - id: ch04-b02
+          speaker: king
+          text: 若有一位先生带女儿来求见，就把那位小姐送进我的房间，关好门，别让她离开。
+        - id: ch04-b03
+          speaker: narrator
+          text: 玛丽亚进宫时，把做得同自己一模一样的玩偶藏在斗篷下。房门一关，她便把玩偶留在外面，自己立刻钻到长榻底下，手里牢牢攥着系在玩偶头上的线。
+        - id: ch04-b04
+          speaker: king
+          text: 玛丽亚小姐，近来可好？
+        - id: ch04-b05
+          speaker: narrator
+          text: 玩偶点了点头。
+        - id: ch04-b06
+          speaker: king
+          text: 好，现在该把我们之间的账一笔笔算清楚了。
+        - id: ch04-b07
+          speaker: narrator
+          text: 国王从最初那件事说起，一直数到花篮。每说出一项过错，玛丽亚就在长榻下拉一下线，玩偶便跟着点一次头。
+        - id: ch04-b08
+          speaker: king
+          text: 敢嘲弄本王的人，就该处死。
+          emotion: angry
+        - id: ch04-b09
+          speaker: narrator
+          text: 等所有旧账都数完，国王拔出剑，一剑砍掉玩偶的头。那颗头朝他倒下来，轻轻碰在他身上，竟像是给了他一个吻。
+        - id: ch04-b10
+          speaker: king
+          text: 啊，玛丽亚，玛丽亚！死去的你这样甜蜜，活着时却对我那样狠心！杀死你的人也不配活着！
+        - id: ch04-b11
+          speaker: narrator
+          text: 国王举剑便要自尽。就在这时，真正的玛丽亚从长榻底下一跃而出，扑进他的怀里。
+
+    - id: ch05
+      title: 玛丽亚的婚礼
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 第二天，国王和聪明的玛丽亚举行了婚礼。从此以后，两个人幸福地生活了许多年。
+        - id: ch05-b02
+          speaker: narrator
+          text: 这个故事来自葡萄牙。

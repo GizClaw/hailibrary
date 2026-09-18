@@ -1,0 +1,155 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 清楚从容，像在为听众介绍一本古老的童话集
+        timbre: 温暖明净
+        pace: 舒缓
+        pitch: 中音
+    wood_cutter:
+      display_name: 樵夫
+      tts: {delivery: 朴实倔强，灰心时满腹怨气，得意时理直气壮, timbre: 粗厚质朴, pace: 适中, pitch: 中低音}
+    wife:
+      display_name: 樵夫的妻子
+      tts: {delivery: 勤快直率，劝说丈夫时焦急又体贴，见到财宝时惊喜难抑, timbre: 温暖明亮, pace: 适中, pitch: 中音}
+    neighbour:
+      display_name: 邻村人
+      tts: {delivery: 表面客气自然，办自己的事时干脆利落, timbre: 平实清晰, pace: 适中, pitch: 中音}
+  chapters:
+    - id: ch01
+      title: 樵夫不肯起床
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            几百年前，有个樵夫和妻子儿女住在森林里。他穷得只剩一把谋生的斧头，还有两头替他驮木柴进城的骡子。可他从不偷懒，无论冬夏，每天清早五点准会下床干活。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            他这样辛苦了整整二十年。后来儿子们都长大了，也跟着父亲进森林砍柴，一家人的日子却仿佛处处不顺，还是那么穷。樵夫终于泄了气，心里这样说。
+        - id: ch01-b03
+          speaker: wood_cutter
+          text: >-
+            我天天这样干，到头来连一个钱也没多挣，有什么用？我再也不进森林了！也许我躺在床上，不追着幸运女神跑，她有一天反倒会来找我。
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            第二天早晨，樵夫果然赖在床上。钟敲了六下，正在收拾屋子的妻子见丈夫一直没有动静，便过来查看。
+        - id: ch01-b05
+          speaker: wife
+          text: >-
+            你是不是病了？公鸡都叫了好多遍，你怎么还没穿衣裳？早就该起床啦。
+        - id: ch01-b06
+          speaker: narrator
+          text: 樵夫仍旧躺着，连动也没动。
+        - id: ch01-b07
+          speaker: wood_cutter
+          text: 我起来干什么？
+        - id: ch01-b08
+          speaker: wife
+          text: 还能干什么？当然是进森林干活呀。
+        - id: ch01-b09
+          speaker: wood_cutter
+          text: 可我累死累活一整天，挣的钱还不够全家吃一顿饭。
+        - id: ch01-b10
+          speaker: wife
+          text: >-
+            我知道你苦，可咱们又有什么办法？这是幸运女神在捉弄咱们，她从来不肯给咱们一个笑脸。
+        - id: ch01-b11
+          speaker: wood_cutter
+          text: >-
+            她那些把戏，我早就受够了！她要找我，就到这张床上来找。往后我再也不砍柴了。
+        - id: ch01-b12
+          speaker: wife
+          text: >-
+            你真是愁疯了！自己不去追幸运女神，她怎么会送上门？快穿衣裳，给骡子备好鞍，赶紧干活去。家里已经一口面包都没有了，你难道不知道吗？
+        - id: ch01-b13
+          speaker: wood_cutter
+          text: >-
+            没有就没有，反正我不进森林。你不用再劝了，我绝不会改变主意。
+        - id: ch01-b14
+          speaker: narrator
+          text: >-
+            妻子急坏了，一遍又一遍地央求，樵夫却铁了心不肯下床。她最后实在没了办法，只得丢下丈夫，回去继续干活。
+    - id: ch02
+      title: 两头骡子自己回来了
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            一两个钟头以后，邻村来了一个男人。他敲开门，向樵夫的妻子问好。
+        - id: ch02-b02
+          speaker: neighbour
+          text: >-
+            早上好，大娘。我有件活儿要办。你丈夫今天不用骡子，能把它们借给我吗？要是他也能来搭把手，那就更好了。
+        - id: ch02-b03
+          speaker: wife
+          text: 他在楼上，你还是亲自问他吧。
+        - id: ch02-b04
+          speaker: narrator
+          text: 邻村人上了楼，把自己的请求又说给樵夫听。
+        - id: ch02-b05
+          speaker: wood_cutter
+          text: >-
+            对不住了，邻居。我发过誓不离开这张床，谁来也不能叫我破誓。
+        - id: ch02-b06
+          speaker: neighbour
+          text: 那把两头骡子借我用用总行吧？我会付钱给你。
+        - id: ch02-b07
+          speaker: wood_cutter
+          text: 当然可以，邻居。你尽管牵走。
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            邻村人从牲口棚里牵出骡子，在它们背上各放了一只口袋，又把它们赶到一块田里。原来，他曾在那里发现一批埋藏的财宝。那些钱明明属于苏丹，他却装满两只口袋，装作什么也没发生，赶着骡子回家。
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            半路上，两个士兵迎面走来。邻村人知道，自己一旦被抓住，一定会被判处死刑，连忙逃回森林。两头骡子没人带路，便自己沿着小路，回主人的牲口棚去了。
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            樵夫的妻子正从窗口向外看，只见两头骡子停在门前。它们背上的东西太沉，压得它们几乎跪倒。她赶紧去叫丈夫，可他还在床上躺着。
+        - id: ch02-b11
+          speaker: wife
+          text: >-
+            快起来，快呀！咱们的骡子自己回来了，背上还驮着两个大口袋。也不知道里面是什么，沉得这两头可怜的牲口都快站不住了。
+        - id: ch02-b12
+          speaker: wood_cutter
+          text: >-
+            我都跟你说过十几遍了，我不会起来。你就不能让我清静一会儿吗？
+    - id: ch03
+      title: 幸运女神找上门来
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            妻子见丈夫指望不上，只好拿来一把大刀，割断捆住口袋的绳索。两只口袋立刻落地，金币一下子像金雨般哗啦啦地涌了出来，照得小小的院子像太阳一样明亮。
+        - id: ch03-b02
+          speaker: narrator
+          text: 妻子惊得半天说不出话。等她终于喘过气，立刻喊了起来。
+        - id: ch03-b03
+          speaker: wife
+          text: 是财宝！真的是财宝！
+          emotion: surprised
+        - id: ch03-b04
+          speaker: narrator
+          text: 她飞快地跑去告诉丈夫。
+        - id: ch03-b05
+          speaker: wife
+          text: >-
+            快起来，快起来！你不进森林，只在床上等幸运女神，原来真是对的。她终于来啦！咱们的骡子把天下的黄金都驮了回来，现在全堆在院子里。整个国家再也没有谁比咱们更富有了！
+          emotion: surprised
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            樵夫一下子跳下床，飞奔进院子。他望着满地闪闪发光的金币，眼睛都被晃花了。过了一会儿，他才开口。
+        - id: ch03-b07
+          speaker: wood_cutter
+          text: >-
+            你看，亲爱的妻子，我说得没错吧？幸运女神任性得很，谁也摸不准她。你追着她，她一定躲开。你留在原地，她反倒一定会来。
+        - id: ch03-b08
+          speaker: narrator
+          text: 这个故事来自《小亚细亚民间传说》。

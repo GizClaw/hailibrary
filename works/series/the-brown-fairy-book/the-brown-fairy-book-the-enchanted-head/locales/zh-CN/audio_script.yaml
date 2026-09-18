@@ -1,0 +1,391 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 清楚从容，像在为听众介绍一本古老的童话集
+        timbre: 温暖明净
+        pace: 舒缓
+        pitch: 中音
+    old_woman:
+      display_name: 老妇人
+      tts: {delivery: 朴实谨慎，贫困时疲惫，面对权势时敬畏而紧张, timbre: 苍老温和, pace: 适中, pitch: 中低音}
+    enchanted_head:
+      display_name: 魔法头颅
+      tts: {delivery: 神秘自信，发号施令时不容置疑，平日从容自在, timbre: 清朗沉稳, pace: 舒缓, pitch: 中音}
+    ahmed:
+      display_name: 艾哈迈德
+      tts: {delivery: 恭敬利落，对老妇人客气有礼, timbre: 深厚有力, pace: 适中, pitch: 低音}
+    mahomet:
+      display_name: 穆罕默德
+      tts: {delivery: 恭敬干脆，回答简洁可靠, timbre: 洪亮厚实, pace: 适中, pitch: 低音}
+    ali:
+      display_name: 阿里
+      tts: {delivery: 温和谦恭，力量惊人却毫不张扬, timbre: 深沉柔和, pace: 舒缓, pitch: 低音}
+    hassan:
+      display_name: 哈桑
+      tts: {delivery: 直截了当，略显不耐烦但服从命令, timbre: 粗犷结实, pace: 稍快, pitch: 低音}
+    bekir:
+      display_name: 贝基尔
+      tts: {delivery: 简洁恭谨，办事沉着迅速, timbre: 雄浑清晰, pace: 适中, pitch: 低音}
+    sultan:
+      display_name: 苏丹
+      tts: {delivery: 威严多疑，提出考验时自负，惊讶时毫不掩饰, timbre: 饱满庄重, pace: 适中, pitch: 中低音}
+    princess:
+      display_name: 公主
+      tts: {delivery: 温柔坚定，面对父亲时尊敬却不退让, timbre: 明亮柔美, pace: 舒缓, pitch: 中高音}
+  chapters:
+    - id: ch01
+      title: 桥上的头颅
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，海边一所小屋里住着一个老妇人和两个女儿。她们穷得很，姑娘们很少离开屋子，每天从早到晚都在织贵妇人蒙脸的面纱。面纱织好，母亲便在早晨带过桥，到城里卖掉，再用所得的钱买回全家当天需要的食物。回家以后，她也和女儿们一起接着织。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            一天，老妇人起得格外早，带着面纱进城。走到桥上，她忽然撞见一颗人头。以前那里从没有过这样的东西，她吓得连连后退。更可怕的是，那颗头没有身子，却像常人一样开了口。
+        - id: ch01-b03
+          speaker: enchanted_head
+          text: 好妈妈，带我走吧！求你带我回家。
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            老妇人几乎吓疯了。让这种可怕的东西住进家里？她无论如何也不肯，转身就拼命往回跑。可头颅一路蹦着、跳着、滚着，紧追不放。老妇人刚到家门口，它便抢先跃进屋里，停在炉火前，苦苦央求她让自己留下。
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            那天，面纱没有卖掉，家里便没有钱买食物。母女三人饿着肚子，默默坐在那里干活，心里都在怪这颗给她们惹来厄运的头颅。直到晚上，晚饭还是没有着落。沉默了一整天的头颅终于问了起来。
+        - id: ch01-b06
+          speaker: enchanted_head
+          text: 好妈妈，你们家从来没人吃饭吗？我来了这么久，怎么一个人吃东西也没见着？
+        - id: ch01-b07
+          speaker: old_woman
+          text: 是啊，我们今天什么也没吃。
+        - id: ch01-b08
+          speaker: enchanted_head
+          text: 为什么呢，好妈妈？
+        - id: ch01-b09
+          speaker: old_woman
+          text: 因为我们没有钱买吃的。
+        - id: ch01-b10
+          speaker: enchanted_head
+          text: 难道你们一直都不吃饭？
+        - id: ch01-b11
+          speaker: old_woman
+          text: >-
+            当然不是。我每天早晨进城卖面纱，换几个先令，再买回家里需要的东西。今天我没过成桥，自然一分钱也没挣到。
+        - id: ch01-b12
+          speaker: enchanted_head
+          text: 那么，你们饿了一整天，都是我害的？
+        - id: ch01-b13
+          speaker: old_woman
+          text: 不错，就是因为你。
+        - id: ch01-b14
+          speaker: enchanted_head
+          text: >-
+            那好，只要照我的话办，我就给你许多钱。再过一个钟头，钟敲十二下时，你要回到桥上，就去遇见我的地方。到了那里，使劲喊三声“艾哈迈德”。会有一个黑人出来。你对他说：“你的主人头颅叫你打开箱子，把里面的绿钱袋交给我。”
+        - id: ch01-b15
+          speaker: old_woman
+          text: 遵命，大人。我这就动身。
+        - id: ch01-b16
+          speaker: narrator
+          text: >-
+            老妇人裹好面纱，出了门。她赶到桥上时，午夜的钟声刚好响起。那里正是她早晨遇见头颅的地方。
+        - id: ch01-b17
+          speaker: old_woman
+          text: 艾哈迈德！艾哈迈德！艾哈迈德！
+        - id: ch01-b18
+          speaker: narrator
+          text: 一个巨人般高大的黑人立刻出现在桥上。
+        - id: ch01-b19
+          speaker: ahmed
+          text: 你要什么？
+        - id: ch01-b20
+          speaker: old_woman
+          text: 你的主人头颅叫你打开箱子，把里面的绿钱袋交给我。
+        - id: ch01-b21
+          speaker: ahmed
+          text: 好妈妈，等我片刻，我马上回来。
+        - id: ch01-b22
+          speaker: narrator
+          text: 三分钟后，艾哈迈德把一只装满塞昆金币的钱袋放进老妇人手里。
+    - id: ch02
+      title: 两只钱袋
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            全家人见到这笔财富，简直欢喜得说不出话。原来那所又小又快倒塌的屋子翻修一新，姑娘们有了新衣裳，老妇人再也不用卖面纱。她们从没过过手里有钱、想买什么就买什么的日子，花用时自然没有本来应有的仔细。日子一久，钱袋里连一枚金币也没剩下。母女三人顿时心灰意冷，脸上的笑容也消失了。
+        - id: ch02-b02
+          speaker: enchanted_head
+          text: >-
+            你们已经把钱花光了吗？那就再去一趟吧，好妈妈。半夜到桥上，使劲喊三声“穆罕默德”。会有一个黑人出来。叫他打开箱子，把里面的红钱袋给你。
+        - id: ch02-b03
+          speaker: narrator
+          text: 老妇人听一遍就够了，立刻去了桥上。
+        - id: ch02-b04
+          speaker: old_woman
+          text: 穆罕默德！穆罕默德！穆罕默德！
+        - id: ch02-b05
+          speaker: narrator
+          text: 转眼间，一个比艾哈迈德还要高大的黑人站到她面前。
+        - id: ch02-b06
+          speaker: mahomet
+          text: 你要什么？
+        - id: ch02-b07
+          speaker: old_woman
+          text: 你的主人头颅叫你打开箱子，把里面的红钱袋交给我。
+        - id: ch02-b08
+          speaker: mahomet
+          text: 好的，好妈妈，我这就照办。
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            穆罕默德刚刚消失，下一刻便又拿着钱袋出现了。这回的钱仿佛永远也花不完。老妇人盖起一所新宅子，把城里商店能找到的最美丽的东西全搬了进去。女儿们总披着仿佛用阳光织成的面纱，衣裙上的宝石闪闪发亮。邻居们都在猜，这家突如其来的财富到底从哪里冒出来的，却没有一个人知道头颅的秘密。
+        - id: ch02-b10
+          speaker: enchanted_head
+          text: 好妈妈，今天早晨你到城里去，请苏丹把女儿嫁给我。
+        - id: ch02-b11
+          speaker: old_woman
+          text: >-
+            你说什么？我怎么能告诉苏丹，一颗没有身子的头想做他的女婿？人家一定以为我疯了，把我轰出王宫，连孩子们都要拿石头砸我。
+          emotion: surprised
+        - id: ch02-b12
+          speaker: enchanted_head
+          text: 照我的吩咐去办。这是我的意愿。
+        - id: ch02-b13
+          speaker: narrator
+          text: >-
+            老妇人害怕头颅，不敢再说什么。她换上自己最华贵的衣裳，动身前往王宫。苏丹立刻接见了她。站在苏丹面前，老妇人的声音一直发颤，好不容易才说出那件奇怪的请求。苏丹听完，直盯着她看。
+        - id: ch02-b14
+          speaker: sultan
+          text: 老太婆，你疯了吗？
+          emotion: surprised
+        - id: ch02-b15
+          speaker: old_woman
+          text: 求婚的人法力无边，苏丹陛下。他什么事都办得到。
+        - id: ch02-b16
+          speaker: sultan
+          text: 这话当真？
+        - id: ch02-b17
+          speaker: old_woman
+          text: 当真，苏丹陛下，我可以发誓。
+        - id: ch02-b18
+          speaker: sultan
+          text: 那就叫他做三件事，显出本领。三件事都办成，我便把女儿嫁给他。
+        - id: ch02-b19
+          speaker: old_woman
+          text: 请尊贵的君王吩咐。
+        - id: ch02-b20
+          speaker: sultan
+          text: 你看见王宫前面那座山了吗？
+        - id: ch02-b21
+          speaker: old_woman
+          text: 看见了。
+        - id: ch02-b22
+          speaker: sultan
+          text: >-
+            四十天之内，派你来的人必须叫那座山消失，再在原地造出一座美丽的花园。这是第一件事。去把我的话告诉他吧。
+    - id: ch03
+      title: 消失的山
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 老妇人回到家，把苏丹的第一个条件告诉头颅。
+        - id: ch03-b02
+          speaker: enchanted_head
+          text: 很好。
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            头颅说完便不再提这件事。三十九天过去了，它一直待在最喜欢的墙角。老妇人以为这件差事超出了它的法力，迎娶苏丹女儿的事大概不会再有下文。谁知第三十九天晚上，头颅忽然开口。
+        - id: ch03-b04
+          speaker: enchanted_head
+          text: >-
+            好妈妈，今晚你去桥上，使劲喊三声“阿里”。会有一个黑人出现。你告诉他，把王宫前面的山夷平，在那里造出世上最美丽的花园。
+        - id: ch03-b05
+          speaker: old_woman
+          text: 我这就去。
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            老妇人很快来到通往城里的桥上，仍旧站在第一次看见头颅的地方。
+        - id: ch03-b07
+          speaker: old_woman
+          text: 阿里！阿里！阿里！
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            一个身躯大得惊人的黑人立刻出现。老妇人看了有些害怕，可那人说起话来，却十分温和。
+        - id: ch03-b09
+          speaker: ali
+          text: 你想要什么？
+        - id: ch03-b10
+          speaker: old_woman
+          text: 你的主人叫你把苏丹王宫前面的山夷平，在原地造出世上最美丽的花园。
+        - id: ch03-b11
+          speaker: ali
+          text: 请告诉我的主人，他的命令一定照办。这件事马上就会完成。
+        - id: ch03-b12
+          speaker: narrator
+          text: 老妇人回到家，把阿里的答复告诉了头颅。
+        - id: ch03-b13
+          speaker: narrator
+          text: >-
+            与此同时，苏丹坐在王宫里等着第四十天的黎明到来。他越想越奇怪，因为那座山上连一铲土都没人挖过。
+        - id: ch03-b14
+          speaker: sultan
+          text: 那个老太婆要是敢戏弄我，我就绞死她！明天我还要把绞架竖在那座山上。
+          emotion: angry
+        - id: ch03-b15
+          speaker: narrator
+          text: >-
+            第二天早晨，山却不见了。苏丹睁开眼，只觉得房间比往常亮了许多，空气里还满是花朵的甜香。他怎么也想不明白是怎么回事。
+        - id: ch03-b16
+          speaker: sultan
+          text: >-
+            难道着火了？阳光从来不会照进这扇窗户。我得起来看看。
+        - id: ch03-b17
+          speaker: narrator
+          text: >-
+            苏丹起身走到窗前。原来山岭所在的地方，如今开满了来自世界各地的花朵。五彩藤蔓从一棵树垂到另一棵树，仿佛一条条彩色的长链。眼前的一切既解释了房里的阳光，也解释了空气中的花香。苏丹这才想起老妇人说过的话。
+        - id: ch03-b18
+          speaker: sultan
+          text: >-
+            那个老太婆的儿子真是个了不起的魔法师！我从没见过这么有本事的人。下一件事叫他做什么呢？让我想想……啊，有了！
+          emotion: surprised
+        - id: ch03-b19
+          speaker: narrator
+          text: 头颅早有吩咐，老妇人已经在王宫楼下等着。苏丹立刻把她传来。
+        - id: ch03-b20
+          speaker: sultan
+          text: >-
+            你儿子把我的心愿办得很好。这座花园比任何国王的花园都更大、更美。可我穿过它走到另一头，还需要一个歇脚的地方。四十天之内，他要为我建一座宫殿。每个房间都要摆放来自不同国家、各不相同的陈设，还要一间比一间富丽，胜过世人见过的所有房间。
+    - id: ch04
+      title: 蓝色宫殿
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            苏丹说完便转过身走了。老妇人低着头，拖着沉重的脚步慢慢往家走。她觉得这件事比移走一座山难得多，头颅绝对办不到。
+        - id: ch04-b02
+          speaker: enchanted_head
+          text: 好啦，下一件事要我做什么？
+        - id: ch04-b03
+          speaker: narrator
+          text: 老妇人把苏丹的要求讲了一遍。
+        - id: ch04-b04
+          speaker: enchanted_head
+          text: 哎呀，就这个吗？不过是孩子玩的把戏。
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            此后三十九天，头颅一点也没有为那座宫殿操心。到了最后一天，它才叫老妇人去桥上呼唤哈桑。哈桑出现以后，说话可没有先前那些人客气。
+        - id: ch04-b06
+          speaker: hassan
+          text: 老太婆，你想要什么？
+        - id: ch04-b07
+          speaker: old_woman
+          text: >-
+            你的主人命令你建造一座世人从没见过的、最富丽的宫殿。宫殿要在新花园的边上。
+        - id: ch04-b08
+          speaker: hassan
+          text: 他的命令一定照办。
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            苏丹醒来时，远处已经立起一座淡蓝色大理石宫殿。宫殿由一根根纯金的细柱托着。
+        - id: ch04-b10
+          speaker: sultan
+          text: 那个老太婆的儿子果然无所不能！现在我该叫他做什么呢？
+          emotion: surprised
+        - id: ch04-b11
+          speaker: narrator
+          text: 苏丹想了好一阵，又派人去传早已料到会被召见的老妇人。
+        - id: ch04-b12
+          speaker: sultan
+          text: >-
+            花园美妙绝伦，宫殿也是天下第一。可这样的地方太华美，我那些仆人走进去，实在不相称。让你儿子在宫殿里安排四十名奴仆。他们必须美貌无人能比，个个长得一模一样，连身高也不能有半点差别。
+        - id: ch04-b13
+          speaker: narrator
+          text: 这一次，苏丹自以为想出了绝不可能完成的考验，还为自己的聪明得意极了。
+        - id: ch04-b14
+          speaker: narrator
+          text: 三十九天过去。最后一天的午夜，老妇人又站到了桥上。
+        - id: ch04-b15
+          speaker: old_woman
+          text: 贝基尔！贝基尔！贝基尔！
+        - id: ch04-b16
+          speaker: narrator
+          text: 一个黑人应声出现，问她有什么事。
+        - id: ch04-b17
+          speaker: bekir
+          text: 你想要什么？
+        - id: ch04-b18
+          speaker: old_woman
+          text: >-
+            你的主人头颅吩咐你，找来四十名美貌无人能比、身高完全相同的奴仆，把他们安置在花园另一头的苏丹宫殿里。
+        - id: ch04-b19
+          speaker: narrator
+          text: >-
+            第四十天早晨，苏丹来到蓝色宫殿。四十名奴仆一齐迎上前，惊得他几乎失去了神智。
+        - id: ch04-b20
+          speaker: sultan
+          text: >-
+            我一定把女儿嫁给那个老太婆的儿子。就算找遍全世界，我也找不到法力更强的女婿。
+          emotion: surprised
+        - id: ch04-b21
+          speaker: narrator
+          text: 老妇人进殿以后，苏丹告诉她，自己准备履行诺言，叫她的儿子立刻来王宫。
+    - id: ch05
+      title: 公主的选择
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            这个命令一点也没让老妇人高兴，可她当然不敢在苏丹面前反对。回家以后，她忍不住向头颅抱怨。
+        - id: ch05-b02
+          speaker: old_woman
+          text: 一直到现在，样样事情都很顺利。可是苏丹看见女儿要嫁的人，你猜他会说什么？
+        - id: ch05-b03
+          speaker: enchanted_head
+          text: 别管他说什么！把我放在银盘里，端到王宫去。
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            老妇人只得照办。她把盛着头颅的银盘放到苏丹面前时，心里怦怦直跳。国王一看清盘里的东西，顿时勃然大怒。
+        - id: ch05-b05
+          speaker: sultan
+          text: 我绝不会把女儿嫁给这样的怪物！
+          emotion: angry
+        - id: ch05-b06
+          speaker: narrator
+          text: 公主却走近父亲，把头轻轻靠在他的手臂上。
+        - id: ch05-b07
+          speaker: princess
+          text: 父王，您已经答应了，就不能反悔。
+          emotion: calm
+        - id: ch05-b08
+          speaker: sultan
+          text: 可是，我的孩子，你怎么能嫁给这样的东西！
+          emotion: surprised
+        - id: ch05-b09
+          speaker: princess
+          text: 我愿意嫁给他。他有一颗漂亮的头，我已经爱上他了。
+        - id: ch05-b10
+          speaker: narrator
+          text: >-
+            婚礼就这样举行了，王宫里接连摆下盛大的宴席。可是外面的百姓想到他们心爱的公主竟有这样悲惨的命运，全都伤心地流下眼泪。等热闹的欢庆终于结束，年轻的夫妻单独留在一起，那颗头忽然消失了。不，更准确地说，是一具身子接到了头颅下面。站在公主面前的，竟是世上最英俊的年轻人之一。
+        - id: ch05-b11
+          speaker: enchanted_head
+          text: >-
+            我出生时中了一个邪恶仙女的魔法。在其他所有人眼里，我永远只能是一颗头。可在你面前，只在你一个人面前，我会像别的男人一样，是一个完整的人。
+        - id: ch05-b12
+          speaker: princess
+          text: 只要这样，我就心满意足了。
+        - id: ch05-b13
+          speaker: narrator
+          text: 这个故事来自《世界各民族民间传说·小亚细亚》。
