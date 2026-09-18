@@ -1,0 +1,140 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant, and gently ironic
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    tom_canty:
+      display_name: Tom Canty
+      tts:
+        delivery: youthful, earnest, and increasingly assured
+        timbre: clear and light
+        pace: natural
+        pitch: medium-high
+    palace_voice_1:
+      display_name: Palace Voice One
+      tts:
+        delivery: formal and commanding
+        timbre: clear and strong
+        pace: measured
+        pitch: medium
+    palace_voice_2:
+      display_name: Palace Voice Two
+      tts:
+        delivery: formal and commanding
+        timbre: bright and strong
+        pace: measured
+        pitch: medium-high
+    palace_voice_3:
+      display_name: Palace Voice Three
+      tts:
+        delivery: formal and commanding
+        timbre: deep and resonant
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Bright Side of Royalty
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            While the true King wandered through the country in poor clothes, hungry and ill-treated, Tom Canty lived quite differently. Tramps mocked Edward. He was shut in jail among thieves and murderers, and everyone called him an idiot and an impostor. But royal life was changing fast for the boy in Edward's place.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            The last time we saw Tom, he had just discovered the bright side of being King. It grew brighter each day. Soon, nearly everything felt like sunshine and delight. His fear left him. His doubts died away. His embarrassment gave way to easy confidence.
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            He also got more and more use out of the whipping boy, turning that strange royal custom to his advantage.
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            When Tom wanted company, he summoned Lady Elizabeth and Lady Jane Grey to play or talk. When he was done, he sent them away as easily as if he had done it all his life. Their farewell no longer confused him. They bent to kiss his hand, and Tom calmly allowed it.
+    - id: ch02
+      title: A King in Splendor
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            Tom began to enjoy the grand ceremony of being led to bed each night. In the morning, servants dressed him through a long and solemn ritual, and he liked that too. Best of all was the proud march to dinner. Officers of state and gentlemen-at-arms glittered all around him as the procession moved through the palace.
+        - id: ch02-b02
+          speaker: narrator
+          text: >-
+            Tom enjoyed that procession so much that he doubled his guard to a hundred gentlemen-at-arms. Bugles rang along the great corridors, and distant voices answered.
+        - id: ch02-b03
+          speakers: [palace_voice_1, palace_voice_2, palace_voice_3]
+          ensemble: chorus
+          text: >-
+            Make way for the King!
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            Even the council chamber became a pleasure. On the throne, Tom began to seem like more than the Lord Protector's mouthpiece. Great ambassadors came with splendid attendants and warm messages from famous monarchs who called him their brother. How fortunate Tom Canty had become, so recently of Offal Court!
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            His magnificent clothes pleased him, so he ordered still more. Four hundred servants no longer seemed enough for a king of his grandeur. He tripled their number. Courtiers bowed low and praised him, and their flattery became sweet music to his ears.
+    - id: ch03
+      title: A Human Heart
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            Yet Tom was still kind and gentle. He stood firmly beside people who were being oppressed, and he fought without tiring against laws that were unjust. But if an earl or even a duke offended him, Tom could turn and give the man such a look that the nobleman trembled.
+        - id: ch03-b02
+          speaker: narrator
+          text: >-
+            One day, his royal sister Lady Mary argued against his many pardons. Without his mercy, those people would have been jailed, hanged, or burned. She praised their late father's reign. His prisons, she said, had sometimes held sixty thousand convicts, and he had sent seventy-two thousand thieves and robbers to the executioner.
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            Tom was filled with generous anger. He ordered Mary to go away to her private room and pray.
+        - id: ch03-b04
+          speaker: tom_canty
+          text: >-
+            Ask God to take the stone out of your breast and give you a human heart!
+          emotion: angry
+    - id: ch04
+      title: The Faces He Forgot
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            But did Tom never worry about the poor young prince whose place he had taken? Edward had treated him kindly. When a rude guard at the palace gate struck Tom, the prince had rushed out in a blaze of anger to punish the man. Tom remembered all of that.
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            During his first days and nights as King, painful thoughts of Edward often came. Tom truly wanted him to return to his rightful place and royal splendor. But time passed, and Edward did not come. Tom's wonderful new life filled his mind, and the vanished King slowly disappeared from his thoughts.
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            At last, Edward returned to Tom's mind only now and then. When he did, the memory was no longer welcome. It came like a ghost, making Tom feel guilty and ashamed.
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            Tom's poor mother and sisters traveled down that same road and out of his mind. At first, he missed them terribly. He grieved for them and longed to see them again. Later, a different thought made him shudder. What if they came to the palace one day in their rags and dirt? They might cover him with kisses and reveal who he was. Then they could pull him from his high place and drag him back to poverty, disgrace, and the slums.
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            In the end, he almost stopped thinking about them at all. He was content with that. He was even glad. Whenever their sad, accusing faces rose before him, they made him feel lower than the worms crawling on the ground.
+    - id: ch05
+      title: The Night Before the Coronation
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            At midnight on the nineteenth of February, Tom Canty lay in a rich palace bed. Loyal servants guarded him, and royal splendor surrounded him. He sank happily toward sleep. Tomorrow he would be solemnly crowned King of England.
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            At that very hour, the true King stood outside Westminster Abbey. Edward was hungry and thirsty. His clothes were nothing but rags and torn scraps, and the riot had left him dirty, bedraggled, and worn out from traveling. A crowd pressed close around him.
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            Together, they watched with deep interest as gangs of workmen hurried in and out of the abbey. The workers streamed through the building as busily as ants, making the final preparations for the royal coronation.

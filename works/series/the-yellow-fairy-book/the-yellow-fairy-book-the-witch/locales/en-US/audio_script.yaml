@@ -1,0 +1,285 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, clear, and quietly cautionary
+        timbre: gentle and resonant
+        pace: measured
+        pitch: medium
+    stepmother:
+      display_name: The Stepmother
+      tts:
+        delivery: sharp, domineering, and impatient
+        timbre: harsh and cutting
+        pace: brisk
+        pitch: medium
+    father:
+      display_name: The Father
+      tts:
+        delivery: weary, sorrowful, and subdued
+        timbre: aged and rough
+        pace: slow
+        pitch: low
+    sister:
+      display_name: The Sister
+      tts:
+        delivery: thoughtful, courteous, and quietly brave
+        timbre: soft and clear
+        pace: measured
+        pitch: medium-high
+    brother:
+      display_name: The Brother
+      tts:
+        delivery: earnest, gentle, and youthful
+        timbre: clear and light
+        pace: measured
+        pitch: medium-high
+    grandmother:
+      display_name: The Grandmother
+      tts:
+        delivery: loving, worried, and wise
+        timbre: warm and weathered
+        pace: unhurried
+        pitch: medium-low
+    witch:
+      display_name: The Witch
+      tts:
+        delivery: menacing, rough, and quick to rage
+        timbre: coarse and rasping
+        pace: deliberate
+        pitch: low
+    mouse_1:
+      display_name: First Mouse
+      tts:
+        delivery: nimble, helpful, and musical
+        timbre: tiny and bright
+        pace: brisk
+        pitch: high
+    mouse_2:
+      display_name: Second Mouse
+      tts:
+        delivery: nimble, helpful, and musical
+        timbre: tiny and bright
+        pace: brisk
+        pitch: high
+    mouse_3:
+      display_name: Third Mouse
+      tts:
+        delivery: nimble, helpful, and musical
+        timbre: tiny and bright
+        pace: brisk
+        pitch: high
+    wren_1:
+      display_name: First Wren
+      tts:
+        delivery: lively, helpful, and lilting
+        timbre: small and chirping
+        pace: brisk
+        pitch: high
+    wren_2:
+      display_name: Second Wren
+      tts:
+        delivery: lively, helpful, and lilting
+        timbre: small and chirping
+        pace: brisk
+        pitch: high
+    wren_3:
+      display_name: Third Wren
+      tts:
+        delivery: lively, helpful, and lilting
+        timbre: small and chirping
+        pace: brisk
+        pitch: high
+    cat:
+      display_name: The Gray Cat
+      tts:
+        delivery: knowing, grateful, and composed
+        timbre: smooth and mellow
+        pace: unhurried
+        pitch: medium
+    dog:
+      display_name: The Little Dog
+      tts:
+        delivery: rhythmic, lively, and certain
+        timbre: bright and wiry
+        pace: brisk
+        pitch: high
+    birch:
+      display_name: The Birch Tree
+      tts:
+        delivery: rustling, dignified, and firm
+        timbre: airy and papery
+        pace: measured
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Road to the Witch
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a peasant whose wife died and left him with twin children, a boy and a girl. For several years he raised them alone and cared for them as well as he could. But without a woman to manage the home, everything seemed to go wrong. At last he married again. He hoped a wife would bring peace and order to the house and look after his motherless children.
+        - id: ch01-b02
+          speaker: narrator
+          text: More children were born in the years that followed, but the home found no peace. The twins' stepmother was cruel. She beat them, gave them too little food, and was always driving them outdoors. She wanted them out of her way. Day after day, she tried to think of a way to be rid of them. Then an evil plan came to her. She would send them deep into the great, gloomy wood, where a wicked witch lived.
+        - id: ch01-b03
+          speaker: stepmother
+          text: You have both behaved so well that I am sending you to visit my granny. She lives in a dear little hut in the wood. You must wait on her and do whatever work she gives you. If you serve her well, she will reward you with the very best of everything.
+        - id: ch01-b04
+          speaker: narrator
+          text: The children set off together. But the little sister was wise for her age, and she had an idea.
+        - id: ch01-b05
+          speaker: sister
+          text: Before we go into the wood, let's visit our own dear grandmother. We should tell her where our stepmother is sending us.
+        - id: ch01-b06
+          speaker: narrator
+          text: Their grandmother began to cry when she heard where they were going.
+        - id: ch01-b07
+          speaker: grandmother
+          text: Oh, you poor motherless children! My heart aches for you, but I cannot stop this. Your stepmother is not sending you to her granny. She is sending you to a wicked witch in that great, gloomy wood. Listen carefully. Be polite and kind to everyone you meet. Never speak a cross word, and never take even a crumb that belongs to someone else. Who knows? Help may still come to you.
+          emotion: sad
+        - id: ch01-b08
+          speaker: narrator
+          text: She gave the twins a bottle of milk, a piece of ham, and a loaf of bread. Then they went on toward the great, gloomy wood. Among the thickest trees, they found a strange little hut. Inside lay the witch. Her head rested on the doorstep, one foot reached into one corner and the other into the opposite corner, and her raised knees nearly touched the ceiling.
+        - id: ch01-b09
+          speaker: witch
+          text: Who is there?
+          emotion: angry
+        - id: ch01-b10
+          speaker: narrator
+          text: Her terrible snarl frightened the children so badly that each tried to hide behind the other. Even so, they answered politely.
+        - id: ch01-b11
+          speakers: [sister, brother]
+          ensemble: duo
+          text: Good morning, Granny. Our stepmother sent us here to wait on you and serve you.
+          emotion: fearful
+        - id: ch01-b12
+          speaker: witch
+          text: Then you had better serve me well. Please me, and I will reward you. Fail me, and I will put you in a pan and fry you in the oven. That is what I will do with you, my pretty dears! You have been raised softly, but my work will be hard. You will soon see.
+          emotion: angry
+        - id: ch01-b13
+          speaker: narrator
+          text: The witch ordered the girl to spin yarn. She handed the boy a sieve and told him to bring water from the well. Then she went out into the wood.
+    - id: ch02
+      title: Help in the Hut
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The girl sat at the spinning wheel and wept bitterly, because she did not know how to spin. Soon she heard hundreds of tiny feet. Mice came pattering from every hole and corner of the hut. They gathered around her, squeaking a little rhyme.
+        - id: ch02-b02
+          speakers: [mouse_1, mouse_2, mouse_3]
+          ensemble: chorus
+          text: Little girl, why are your eyes so red? If you would like our help, then give us bread.
+        - id: ch02-b03
+          speaker: narrator
+          text: The girl gave them the bread her grandmother had packed. The mice told her about the witch's cat, who loved ham. If the girl gave the cat her ham, the cat would show her how to escape from the wood. While she searched for the cat, the mice would spin the yarn.
+        - id: ch02-b04
+          speaker: narrator
+          text: As the girl looked around the hut, she met her brother. He was in terrible trouble. Every time he filled the sieve, the water poured out as quickly as it went in. While she tried to comfort him, they heard wings rustling. A flight of wrens settled on the ground beside them and sang.
+        - id: ch02-b05
+          speakers: [wren_1, wren_2, wren_3]
+          ensemble: chorus
+          text: Give us some crumbs, and you need not grieve. We will show you how water can stay in the sieve.
+        - id: ch02-b06
+          speaker: narrator
+          text: The twins crumbled some bread onto the ground. The wrens pecked at it, chirping and chirruping until the last crumb was gone. Then they told the boy to stop up every hole in the sieve with clay before drawing water from the well. He followed their advice. This time the water stayed where it belonged, and he carried the full sieve into the hut without spilling one drop.
+        - id: ch02-b07
+          speaker: narrator
+          text: The cat was curled up on the floor. The children stroked her, fed her their ham, and asked for her help.
+        - id: ch02-b08
+          speakers: [sister, brother]
+          ensemble: duo
+          text: Gray pussy, dear pussy, please tell us how to get away from the witch.
+        - id: ch02-b09
+          speaker: narrator
+          text: The cat thanked them for the ham. Then she gave them a handkerchief and a comb.
+        - id: ch02-b10
+          speaker: cat
+          text: The witch will chase you. When she does, throw this handkerchief onto the ground and run as fast as you can. The moment it lands, a deep, wide river will rise behind you and hold her back. If she crosses the river, throw the comb behind you and run for your lives. A thick forest will grow wherever it falls. That will delay her long enough for you to escape safely.
+        - id: ch02-b11
+          speaker: narrator
+          text: The cat had barely finished when the witch returned to inspect the children's work.
+        - id: ch02-b12
+          speaker: witch
+          text: You have done well enough today. Tomorrow your work will be harder. If you do not do it properly, you pampered brats, you will go straight into my oven.
+          emotion: angry
+        - id: ch02-b13
+          speaker: narrator
+          text: The poor twins were half-dead with fear and shaking from head to foot. They lay on a heap of straw in a corner of the hut, but they did not dare close their eyes. They hardly dared to breathe.
+    - id: ch03
+      title: The Twins Escape
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: In the morning, the witch gave the girl two pieces of linen and ordered her to weave them before nightfall. She gave the boy a pile of wood to cut into chips. Then she left them to their tasks and went out into the wood.
+        - id: ch03-b02
+          speaker: narrator
+          text: The moment she disappeared, the children took the handkerchief and comb. Holding tightly to each other's hands, they ran and ran and ran.
+        - id: ch03-b03
+          speaker: narrator
+          text: First they came to the watch-dog. He was ready to spring at them and tear them to pieces, but they tossed him the bread they still had. He ate it and wagged his tail.
+        - id: ch03-b04
+          speaker: narrator
+          text: Next the birch trees blocked their path, and the whipping branches nearly struck their eyes. The little sister tied the twigs together with a piece of ribbon, and the twins passed without harm. They raced on through the wood until they came out into the open fields.
+    - id: ch04
+      title: The Witch Gives Chase
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Back in the hut, the cat was weaving the linen. As she worked, she tangled all the threads. When the witch returned to see how the children were getting on, she crept to the window and whispered.
+        - id: ch04-b02
+          speaker: witch
+          text: Are you weaving, my little dear?
+        - id: ch04-b03
+          speaker: cat
+          text: Yes, Granny. I am weaving.
+        - id: ch04-b04
+          speaker: narrator
+          text: The witch discovered that the children were gone. In a fury, she struck the cat with a bowl.
+        - id: ch04-b05
+          speaker: witch
+          text: Why did you let those children leave my hut? Why didn't you scratch out their eyes?
+          emotion: angry
+        - id: ch04-b06
+          speaker: narrator
+          text: The cat raised her back and curled up her tail.
+        - id: ch04-b07
+          speaker: cat
+          text: I have served you all these years, and you never once tossed me a bone. Those dear children gave me their own piece of ham.
+        - id: ch04-b08
+          speaker: narrator
+          text: The witch turned her anger on the watch-dog and demanded to know why he had let the children pass.
+        - id: ch04-b09
+          speaker: dog
+          text: I have served you all these years, and you never gave me even a hard crust. Those dear children gave me their own loaf of bread.
+        - id: ch04-b10
+          speaker: narrator
+          text: Then the witch raged at the birch trees for letting the twins through. The birch rustled its leaves and answered her.
+        - id: ch04-b11
+          speaker: birch
+          text: I have served you longer than I can remember, and you never tied even a bit of string around my branches. Those dear children bound them with their brightest ribbons.
+        - id: ch04-b12
+          speaker: narrator
+          text: None of her old servants would help her. The witch saw that she must chase the children herself, so she climbed onto her broom and flew after them.
+        - id: ch04-b13
+          speaker: narrator
+          text: As the twins ran, they heard the broom sweeping the ground close behind them. At once, they threw the handkerchief over their shoulders. The moment it touched the earth, a deep, wide river flowed up behind them.
+        - id: ch04-b14
+          speaker: narrator
+          text: The river stopped the witch. It was so deep and wide that she had to search for a long time before she found a place where she could cross on her broomstick. At last she reached the other side. Then she continued the chase, flying after the children even faster than before.
+        - id: ch04-b15
+          speaker: narrator
+          text: Soon the children heard that sweeping sound again. The little sister put her ear to the ground. The broom was close behind them. Quick as thought, she threw down the comb.
+        - id: ch04-b16
+          speaker: narrator
+          text: Just as the cat had promised, a dense forest sprang up at once. Its roots and branches twisted so tightly together that no one could force a way through. When the witch reached it on her broom, she could go no farther. She had to turn around and return to her hut.
+    - id: ch05
+      title: Home Again
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The twins ran straight on until they reached their own home. There they told their father everything they had suffered.
+        - id: ch05-b02
+          speaker: narrator
+          text: Their father was so angry with the stepmother that he drove her from the house and never allowed her to return. From then on, he cared for the children himself and would not let any stranger come near them. Father and children lived happily together.

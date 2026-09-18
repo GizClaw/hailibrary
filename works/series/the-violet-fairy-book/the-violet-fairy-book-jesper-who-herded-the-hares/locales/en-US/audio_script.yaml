@@ -1,0 +1,396 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, steady, and quietly mysterious
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    king:
+      display_name: King
+      tts:
+        delivery: proud, commanding, and easily flustered
+        timbre: full and authoritative
+        pace: measured
+        pitch: low
+    peter:
+      display_name: Peter
+      tts:
+        delivery: blunt, dismissive, and self-assured
+        timbre: strong and rough
+        pace: moderately quick
+        pitch: medium-low
+    paul:
+      display_name: Paul
+      tts:
+        delivery: curt, arrogant, and impatient
+        timbre: firm and dry
+        pace: moderately quick
+        pitch: medium
+    jesper:
+      display_name: Jesper
+      tts:
+        delivery: thoughtful, good-humored, and quietly clever
+        timbre: clear and youthful
+        pace: natural
+        pitch: medium
+    ant_king:
+      display_name: King of the Ants
+      tts:
+        delivery: earnest, grateful, and briskly confident
+        timbre: light and crisp
+        pace: quick
+        pitch: medium-high
+    old_woman:
+      display_name: Old Woman
+      tts:
+        delivery: warm, sensible, and quietly trusting
+        timbre: mellow and clear
+        pace: measured
+        pitch: medium-low
+    queen:
+      display_name: Queen
+      tts:
+        delivery: composed, practical, and sharp when challenged
+        timbre: rich and mature
+        pace: measured
+        pitch: medium-low
+    princess:
+      display_name: Princess
+      tts:
+        delivery: gentle, poised, and sincere
+        timbre: bright and youthful
+        pace: natural
+        pitch: medium-high
+    courtier_1:
+      display_name: First Courtier
+      tts:
+        delivery: polished, attentive, and ceremonious
+        timbre: clear and formal
+        pace: measured
+        pitch: medium
+    courtier_2:
+      display_name: Second Courtier
+      tts:
+        delivery: polished, attentive, and ceremonious
+        timbre: smooth and formal
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The King's Challenge
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a king whose realm lay somewhere between sunrise and sunset. It was no larger than many kingdoms in olden times. From the palace roof, the king could look all the way to its borders in every direction. Still, it was his kingdom, and he was so proud of it that he often wondered how it could ever manage without him.
+        - id: ch01-b02
+          speaker: narrator
+          text: The king had only one child, a daughter. She would need a husband who could rule after him, but where could he find a man rich enough and clever enough to marry the princess? The question often kept him awake at night.
+        - id: ch01-b03
+          speaker: narrator
+          text: At last, he made a plan. He sent a proclamation through his own kingdom and asked the neighboring rulers to spread it through theirs. Any man who brought him twelve of the finest pearls he had ever seen, and then completed every task the king set, would marry his daughter and one day take the throne. Only a very wealthy man could bring such pearls, the king thought, and only a man of rare talent could pass the tests.
+        - id: ch01-b04
+          speaker: narrator
+          text: Suitors arrived in plenty. Rich merchants and foreign princes came one after another. On some days there were so many that the king found them quite tiresome. Every one of those men could produce splendid pearls. Yet when the king put them to the test, not one could complete even his simplest task. Mere adventurers appeared as well. They tried to deceive the old king by presenting imitation pearls as real ones, but he was not so easily fooled. He quickly sent them about their business. After several weeks, the steady stream of suitors began to fade, and there was still no sign of a suitable son-in-law.
+        - id: ch01-b05
+          speaker: narrator
+          text: In a small seaside corner of the kingdom lived a poor fisherman with three sons. Their names were Peter, Paul, and Jesper. Peter and Paul were grown men, while Jesper was just reaching manhood. The older brothers were much bigger and stronger, but Jesper was far cleverer. Peter and Paul would never admit it, though our story will prove it soon enough.
+        - id: ch01-b06
+          speaker: narrator
+          text: One day, their father came home with three dozen oysters in his catch. When the shells were opened, each one held a large, beautiful pearl. All three brothers had the same thought at the very same moment. Each would offer himself as a husband for the princess. After some discussion, they drew lots to divide the pearls, and agreed to try in order of age. If the oldest succeeded, of course, the other two would not need to go.
+    - id: ch02
+      title: Pearls Turned to Cinders
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The next morning, Peter put his pearls in a small basket and started toward the palace. Before he had gone far, he found the King of the Ants facing the King of the Beetles. Both rulers had their armies behind them, ready for battle.
+        - id: ch02-b02
+          speaker: ant_king
+          text: Please fight on our side. The beetles are too large for us. If you help me now, perhaps one day I can help you.
+        - id: ch02-b03
+          speaker: peter
+          text: I won't waste my time on someone else's quarrel. Fight it out yourselves.
+        - id: ch02-b04
+          speaker: narrator
+          text: Peter walked away and left them. A little farther down the road, he met an old woman.
+        - id: ch02-b05
+          speaker: old_woman
+          text: Good morning, young man. You're out early. What are you carrying in that basket?
+        - id: ch02-b06
+          speaker: peter
+          text: Cinders.
+        - id: ch02-b07
+          speaker: narrator
+          text: He strode on, pleased that he had answered her nosy question that way.
+        - id: ch02-b08
+          speaker: old_woman
+          text: Very well. Then cinders they shall be.
+        - id: ch02-b09
+          speaker: narrator
+          text: Peter pretended not to hear her and kept walking. Before long, he reached the palace, where he was taken straight into the king's presence. He set down his little basket and lifted its cover for the king and all the courtiers to see.
+        - id: ch02-b10
+          speakers: [king, courtier_1, courtier_2]
+          ensemble: chorus
+          text: Those are the finest pearls we have ever seen!
+        - id: ch02-b11
+          speaker: narrator
+          text: No one could take their eyes from the pearls. Then something strange happened. Their beautiful whiteness began to fade, and their color grew dull. They darkened more and more until, at last, every pearl looked exactly like a cinder. Peter was so astonished that he could not say one word in his own defense. The angry king said more than enough for both of them. Peter was glad to escape, and he ran home as fast as his legs could carry him. To his father and brothers, he gave no account of what had happened. He told them only that his attempt had failed.
+        - id: ch02-b12
+          speaker: narrator
+          text: Paul tried his luck the following day. The ant and beetle armies had spent the night on the battlefield and were preparing to fight again.
+        - id: ch02-b13
+          speaker: ant_king
+          text: Please help us. We suffered badly yesterday, but if you stand with us today, I may be able to repay you someday.
+        - id: ch02-b14
+          speaker: paul
+          text: I don't care if you lose again. I have important business, and I'm not getting mixed up in your quarrel.
+        - id: ch02-b15
+          speaker: narrator
+          text: Paul went on and soon met the same old woman.
+        - id: ch02-b16
+          speaker: old_woman
+          text: Good morning. And what do you have in your basket?
+        - id: ch02-b17
+          speaker: paul
+          text: Cinders.
+        - id: ch02-b18
+          speaker: narrator
+          text: Paul was every bit as rude as Peter, and just as eager to teach other people not to ask questions.
+        - id: ch02-b19
+          speaker: old_woman
+          text: Very well. Then cinders they shall be.
+        - id: ch02-b20
+          speaker: narrator
+          text: She shouted the words after him, but Paul neither answered nor looked back. At the time, he gave them little thought. They mattered much more to him when his own pearls changed into cinders before the eyes of the king and the entire court. Then Paul lost no time in getting home again. He was in a very bad temper whenever anyone asked how his visit to the palace had gone.
+    - id: ch03
+      title: Jesper's Journey
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: On the third day, it was Jesper's turn. He ate breakfast while Peter and Paul lay in bed making rude remarks. They told him he would return even faster than he left. If they had failed, how could he possibly succeed? Jesper said nothing. He put his pearls in the little basket and set out.
+        - id: ch03-b02
+          speaker: narrator
+          text: Once again, the King of the Ants and the King of the Beetles were arranging their armies. By now, very few ants remained, and they had little hope of surviving another day.
+        - id: ch03-b03
+          speaker: ant_king
+          text: Please come to our aid, or the beetles will defeat us completely. Help us now, and someday I may help you.
+        - id: ch03-b04
+          speaker: narrator
+          text: Jesper had always heard that ants were clever, hardworking little creatures. On the other hand, he had never heard anyone say a good word about beetles. So he agreed to give the ants the help they wanted. At his very first charge, the ranks of beetles broke apart and fled in dismay. The ones nearest a hole escaped best, because they could dive inside before Jesper's boots came down on them. Within a few minutes, the ants had the whole field to themselves. Their king made a surprisingly eloquent speech. He thanked Jesper for his service and promised to come to his aid in any difficulty.
+        - id: ch03-b05
+          speaker: ant_king
+          text: Call for me whenever you need me, no matter where you are. I'm never far from any place. If I can help, you may depend on me.
+        - id: ch03-b06
+          speaker: narrator
+          text: Jesper almost laughed, but he kept a serious face, said he would remember, and continued on his way. At a bend in the road, he suddenly met the old woman.
+        - id: ch03-b07
+          speaker: old_woman
+          text: Good morning. What have you got in your basket?
+        - id: ch03-b08
+          speaker: jesper
+          text: Pearls. I'm taking them to the palace so I can win the princess.
+        - id: ch03-b09
+          speaker: narrator
+          text: In case she doubted him, Jesper opened the basket and showed her.
+        - id: ch03-b10
+          speaker: old_woman
+          text: They are beautiful indeed. But pearls alone won't win the princess if you can't finish the king's tasks. I see you've brought some food. Would you give it to me? You're certain to have a good dinner at the palace.
+        - id: ch03-b11
+          speaker: jesper
+          text: Of course. I hadn't thought of that.
+        - id: ch03-b12
+          speaker: narrator
+          text: He gave her his entire lunch and started away. After only a few steps, she called him back.
+        - id: ch03-b13
+          speaker: old_woman
+          text: Take this whistle in exchange for your food. It may not look valuable, but blow it whenever something is lost or taken from you. Whatever it is will come back to you at once.
+        - id: ch03-b14
+          speaker: narrator
+          text: Jesper thanked her for the whistle, though just then he could not imagine what use it might be to him. He put it away and continued toward the palace. When he presented his pearls to the king, everyone who saw them cried out in wonder and delight. This time the pearls remained as bright and beautiful as ever. The discovery that their owner was merely a fisherman's son was much less welcome. A poor young man like Jesper was not at all the sort of son-in-law the king had expected. He drew the queen aside and told her exactly that.
+        - id: ch03-b15
+          speaker: queen
+          text: Never mind. Give him tasks he could never possibly finish. We'll soon be rid of him.
+        - id: ch03-b16
+          speaker: king
+          text: Yes, of course. With all the commotion lately, I truly seem to forget things.
+        - id: ch03-b17
+          speaker: narrator
+          text: That day, Jesper ate with the king, queen, and nobles. At night, they gave him a bedroom grander than any he had ever seen. Everything felt so strange that he could not sleep. He kept wondering what tasks the king would set and whether he could complete them. Soft as the bed was, Jesper was glad when morning finally came.
+    - id: ch04
+      title: Four Heaps of Grain
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: After breakfast, the king took Jesper to the barn. A huge pile of grain lay in the middle of the floor.
+        - id: ch04-b02
+          speaker: king
+          text: This heap contains one sack each of wheat, barley, oats, and rye, all mixed together. Sort them into four separate piles by one hour before sunset. If I find even one grain in the wrong pile, you lose every chance of marrying my daughter. I'll lock the door so no one can come in to help, and I'll return at the appointed time.
+        - id: ch04-b03
+          speaker: narrator
+          text: The king walked away, leaving Jesper alone with the enormous mixed heap. Jesper looked at the task in despair. He sat down and began separating one grain from another, but it soon became perfectly clear that a single pair of hands could never finish before the appointed hour. Help from outside seemed impossible with the barn door locked. Then a thought came to him. Perhaps the King of the Ants could help after all. Jesper began calling for him, and within a few minutes the tiny ruler appeared. Jesper showed him the four kinds of grain and explained the trouble he was in.
+        - id: ch04-b04
+          speaker: ant_king
+          text: Is that all? We'll have it sorted very soon.
+        - id: ch04-b05
+          speaker: narrator
+          text: The ant king gave his royal signal. Within a minute or two, a stream of ants poured into the barn. At their king's command, they separated every kind of grain into its proper heap.
+        - id: ch04-b06
+          speaker: narrator
+          text: Jesper watched for a while. But the little bodies were always moving, and he had not slept the night before. Soon he fell fast asleep. When he awoke, the king had just entered the barn. The grain was perfectly sorted, and the king was amazed that Jesper had even found time for a nap.
+        - id: ch04-b07
+          speaker: king
+          text: Remarkable! I would never have believed it. But tomorrow you will face the hardest task of all.
+    - id: ch05
+      title: The Hundred Hares
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The following day, Jesper agreed that the new task looked much harder. The king's gamekeepers had caught one hundred living hares and carried them in sacks to a broad meadow. There, the keepers would set every animal loose. Jesper must somehow herd all one hundred throughout the day and bring them safely home that evening. The king warned him that if even one hare was missing, he must give up every thought of marrying the princess.
+        - id: ch05-b02
+          speaker: narrator
+          text: Before Jesper had fully understood how impossible this was, the keepers opened their sacks. One hundred short tails whisked. One hundred pairs of long ears flapped. Then every hare raced away in a different direction.
+        - id: ch05-b03
+          speaker: king
+          text: Now we'll see what your cleverness can do.
+        - id: ch05-b04
+          speaker: narrator
+          text: The king walked away. Jesper looked around in confusion and slipped his hands into his pockets, as he often did. His fingers closed around the old woman's whistle. He remembered her promise, though he doubted whether its magic could reach a hundred hares scattered in every direction. Some might already be miles away. Still, he blew it.
+        - id: ch05-b05
+          speaker: narrator
+          text: A few minutes later, hares began bounding through the hedges on every side of the meadow. They came from the north, south, east, and west, returning from all the directions in which they had scattered. Before long, all one hundred were sitting in a circle around Jesper. Once he knew the whistle could call them back, he let them run about as they pleased, so long as they remained within the meadow.
+        - id: ch05-b06
+          speaker: narrator
+          text: The king had secretly ordered one of his keepers to linger nearby and watch what Jesper did. He had no doubt that the young man would wait until the coast was clear, then use his legs to escape and never show his face at the palace again. Instead, the keeper brought news of the hares' mysterious return. It now appeared that Jesper might really complete the impossible task. The report filled the king with both surprise and annoyance.
+        - id: ch05-b07
+          speaker: king
+          text: We must get one hare away from him, no matter how. I'll ask the queen. She is very good at making plans.
+    - id: ch06
+      title: Three Visitors to the Meadow
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: A little later, a girl in a shabby dress entered the meadow and came up to Jesper.
+        - id: ch06-b02
+          speaker: princess
+          text: Please give me one of your hares. Visitors have just arrived for dinner, and we have nothing to serve them.
+        - id: ch06-b03
+          speaker: jesper
+          text: I can't give you one. They don't belong to me, and I must have every hare here when evening comes.
+        - id: ch06-b04
+          speaker: narrator
+          text: The girl was very pretty in spite of her poor clothes, and she begged him again and again. At last, Jesper offered her a bargain.
+        - id: ch06-b05
+          speaker: jesper
+          text: All right. Give me a kiss, and you may take one.
+        - id: ch06-b06
+          speaker: narrator
+          text: She did not much like the bargain, but she agreed. She kissed Jesper, tucked a hare into her apron, and left. The moment she was outside the meadow, Jesper blew his whistle. The hare twisted free like an eel and raced back to him.
+        - id: ch06-b07
+          speaker: narrator
+          text: Before long, another visitor arrived. This one was a stout older woman dressed as a peasant. She too wanted a hare for unexpected dinner guests. Jesper refused, but she kept pressing him and would not accept his answer. Finally, he named his terms.
+        - id: ch06-b08
+          speaker: jesper
+          text: Very well. You may have a hare without paying anything. Just walk around me on tiptoe, look up at the sky, and cackle like a hen.
+        - id: ch06-b09
+          speaker: queen
+          text: Shame on you! What a ridiculous thing to ask. If the neighbors saw me, they would think I had lost my senses.
+        - id: ch06-b10
+          speaker: jesper
+          text: Please yourself. You know whether you want the hare badly enough.
+        - id: ch06-b11
+          speaker: narrator
+          text: The woman could find no other way to get what she wanted. She made quite a sight as she tiptoed around Jesper, turned her eyes toward the sky, and tried to cackle like a hen. The cackling was not very well done, but Jesper was willing to accept it. He gave her a hare, and she carried it away. As soon as she had passed beyond the field, Jesper sounded his whistle again. The long-legged, long-eared creature escaped and came racing back at marvelous speed.
+        - id: ch06-b12
+          speaker: narrator
+          text: The third visitor was a fat old fellow dressed as a groom. He wore the royal livery and plainly thought very highly of himself.
+        - id: ch06-b13
+          speaker: king
+          text: Young man, I want one of those hares. Name your price. I must have one.
+        - id: ch06-b14
+          speaker: jesper
+          text: That's easily arranged. Stand on your head, knock your heels together, and shout, "Hurrah!" Then the hare is yours.
+        - id: ch06-b15
+          speaker: king
+          text: What? Me, stand on my head? What an idea!
+          emotion: surprised
+        - id: ch06-b16
+          speaker: jesper
+          text: You don't have to do it. But if you don't, you won't get the hare.
+        - id: ch06-b17
+          speaker: narrator
+          text: Anyone could see how deeply the fellow disliked the bargain, but he wanted the hare too much to leave without it. After several clumsy attempts, he managed to plant his head on the grass with his heels pointing into the air. The knocking of those heels was feeble, and so was his cry of "Hurrah!" Still, Jesper was not too exacting. He declared the performance good enough and handed over a hare. Of course, once the fellow had gone, the whistle brought that hare racing back just as it had brought the others.
+        - id: ch06-b18
+          speaker: narrator
+          text: Evening came, and Jesper returned with all one hundred hares following behind him. The whole palace marveled. The king and queen looked deeply troubled, but the princess actually smiled at Jesper.
+        - id: ch06-b19
+          speaker: king
+          text: Well, well. You have done very well indeed. Complete one small task tomorrow, and we'll consider the matter settled. Then you may marry the princess.
+    - id: ch07
+      title: The Tub of Truths
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: The next day, everyone was invited to watch the final task in the palace's great hall. The king and queen sat on their thrones with the princess beside them. Lords and ladies stood all around. At the king's signal, two servants carried in a large empty tub and placed it in the open space before the throne. Jesper was told to stand next to it.
+        - id: ch07-b02
+          speaker: king
+          text: You must tell us enough unquestionable truths to fill this tub. If you cannot fill it, you cannot marry the princess.
+        - id: ch07-b03
+          speaker: jesper
+          text: How will we know when the tub is full?
+        - id: ch07-b04
+          speaker: king
+          text: Don't concern yourself with that. Deciding when it is full is my part of the task.
+        - id: ch07-b05
+          speaker: narrator
+          text: Everyone in the hall thought this was unfair, but no one wished to say so first. Jesper had no choice except to make the best of it and begin his tale.
+        - id: ch07-b06
+          speaker: jesper
+          text: Yesterday, while I was herding the hares, a girl in shabby clothes came and asked me for one. I let her take it, but first she had to kiss me. That girl was the princess. Isn't that the truth?
+        - id: ch07-b07
+          speaker: narrator
+          text: Jesper looked at the princess. She blushed and appeared very uncomfortable, but she had to admit it was true.
+        - id: ch07-b08
+          speaker: princess
+          text: Yes. It is true.
+        - id: ch07-b09
+          speaker: king
+          text: That has hardly filled the tub. Continue.
+        - id: ch07-b10
+          speaker: jesper
+          text: After her, a stout older woman dressed as a peasant came begging for a hare. Before I gave her one, she had to tiptoe around me, roll her eyes toward the sky, and cackle like a hen. That woman was the queen. Now, isn't that true?
+        - id: ch07-b11
+          speaker: narrator
+          text: The queen grew red and hot, but she could not deny it.
+        - id: ch07-b12
+          speaker: queen
+          text: Yes. That is true.
+        - id: ch07-b13
+          speaker: king
+          text: Hmm. That adds something, but the tub is not full yet.
+        - id: ch07-b14
+          speaker: narrator
+          text: The king leaned toward the queen and whispered.
+        - id: ch07-b15
+          speaker: king
+          text: I never thought you would be foolish enough to do that.
+        - id: ch07-b16
+          speaker: queen
+          text: And what did you do?
+        - id: ch07-b17
+          speaker: king
+          text: Do you imagine I would do anything for him?
+        - id: ch07-b18
+          speaker: narrator
+          text: The king quickly ordered Jesper to go on.
+        - id: ch07-b19
+          speaker: jesper
+          text: Then a fat old fellow came to ask for a hare. He acted very proud and dignified. But to get it, he stood on his head, knocked his heels together, and shouted, "Hurrah!" And that old fellow was the...
+        - id: ch07-b20
+          speaker: king
+          text: Stop! Stop! You needn't say another word. The tub is full!
+          emotion: surprised
+        - id: ch07-b21
+          speaker: narrator
+          text: The whole court applauded. The king and queen accepted Jesper as their son-in-law, and the princess was very pleased. By then, she had fallen in love with him because he was both handsome and clever. When the old king finally had time to consider everything, he became certain that his kingdom would be safe in Jesper's hands, if Jesper cared for the people as well as he had herded the hares.

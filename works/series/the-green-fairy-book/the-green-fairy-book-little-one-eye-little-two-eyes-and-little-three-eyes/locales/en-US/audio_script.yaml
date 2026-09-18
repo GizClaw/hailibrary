@@ -1,0 +1,314 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and attentive fairy-tale storytelling
+        timbre: clear and gently resonant
+        pace: measured
+        pitch: medium
+    little_one_eye:
+      display_name: Little One-eye
+      tts:
+        delivery: proud, sharp, and easily dismissive
+        timbre: light and pointed
+        pace: brisk
+        pitch: medium-high
+    little_two_eyes:
+      display_name: Little Two-eyes
+      tts:
+        delivery: gentle, sincere, and quietly resilient
+        timbre: clear and youthful
+        pace: natural
+        pitch: medium-high
+    little_three_eyes:
+      display_name: Little Three-eyes
+      tts:
+        delivery: sly, watchful, and self-satisfied
+        timbre: bright and youthful
+        pace: natural
+        pitch: high
+    mother:
+      display_name: Mother
+      tts:
+        delivery: severe, envious, and commanding
+        timbre: firm and dry
+        pace: measured
+        pitch: medium-low
+    wise_woman:
+      display_name: The Wise Woman
+      tts:
+        delivery: kind, assured, and quietly mysterious
+        timbre: warm and resonant
+        pace: unhurried
+        pitch: medium
+    knight:
+      display_name: The Young Knight
+      tts:
+        delivery: courteous, direct, and compassionate
+        timbre: clear and open
+        pace: natural
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Three Sisters
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a woman with three daughters. The eldest was called Little One-eye because she had one eye in the middle of her forehead. The second was Little Two-eyes, and she had two eyes like everyone else. The youngest was Little Three-eyes, with two eyes in the usual places and a third in the middle of her forehead.
+        - id: ch01-b02
+          speaker: narrator
+          text: Little Two-eyes looked like other children, and for that very reason, her mother and sisters could not stand her.
+        - id: ch01-b03
+          speakers: [little_one_eye, little_three_eyes]
+          ensemble: duo
+          text: You only have two ordinary eyes. You're no better than common people, and you don't belong with us.
+        - id: ch01-b04
+          speaker: narrator
+          text: They shoved her from place to place, threw her poor clothes about, and fed her nothing but their leftovers. In every way they could, they treated her cruelly.
+        - id: ch01-b05
+          speaker: narrator
+          text: One day, Little Two-eyes took the goat out to graze. Her sisters had given her so little food that she was still terribly hungry. She sat in the meadow and cried until her tears flowed like two little brooks. When she finally looked up, a woman was standing beside her.
+        - id: ch01-b06
+          speaker: wise_woman
+          text: Little Two-eyes, why are you crying?
+        - id: ch01-b07
+          speaker: little_two_eyes
+          text: Don't I have every reason to cry? My mother and sisters hate me because I have two eyes like other people. They push me from one corner to another and give me only the food they leave behind. Today they gave me so little that I'm still hungry.
+          emotion: sad
+        - id: ch01-b08
+          speaker: wise_woman
+          text: Dry your eyes, Little Two-eyes. I'll tell you how to make sure you're never hungry again. Just say, "Little goat, bleat. Little table, appear." A table covered with wonderful food will stand before you, and you may eat all you want. When you've had enough, say, "Little goat, bleat. Little table, away," and it will vanish.
+        - id: ch01-b09
+          speaker: narrator
+          text: Then the wise woman went away. Little Two-eyes was hungrier than ever, so she tried the words at once.
+        - id: ch01-b10
+          speaker: little_two_eyes
+          text: Little goat, bleat. Little table, appear.
+        - id: ch01-b11
+          speaker: narrator
+          text: The moment she spoke, a little table appeared. A white cloth covered it. On top were a plate, a knife and fork, a silver spoon, and beautiful dishes of food, still steaming as though they had just left the kitchen. Little Two-eyes said the shortest grace she knew and ate a good dinner. When she was full, she spoke the other rhyme.
+        - id: ch01-b12
+          speaker: little_two_eyes
+          text: Little goat, bleat. Little table, away.
+        - id: ch01-b13
+          speaker: narrator
+          text: At once, the table and everything on it disappeared. Little Two-eyes thought it was a splendid way to keep house, and she felt happy and content.
+    - id: ch02
+      title: The Secret in the Meadow
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: That evening, Little Two-eyes came home with the goat. She found the food her sisters had tossed into a little earthenware dish for her, but she did not touch it. The next day she went out with the goat again, ate from the magic table, and left the few scraps she had been given. Her sisters noticed nothing the first time or the second. But when she kept leaving her food day after day, they grew suspicious.
+        - id: ch02-b02
+          speakers: [little_one_eye, little_three_eyes]
+          ensemble: duo
+          text: Something is going on. She always used to gobble up whatever we gave her, but now she leaves it all. She must have found some other way to get food.
+        - id: ch02-b03
+          speaker: narrator
+          text: To learn the truth, they sent Little One-eye along when Little Two-eyes took the goat to pasture. She was to watch closely and see whether anyone brought her food or drink.
+        - id: ch02-b04
+          speaker: little_one_eye
+          text: I'll come to the field with you. I want to see whether you look after the goat properly and lead it to good grass.
+        - id: ch02-b05
+          speaker: narrator
+          text: Little Two-eyes understood what her sister meant to do. She led the goat into the long grass and invited Little One-eye to sit down and hear a song. Little One-eye was tired from the unfamiliar walk and the heat of the day. As Little Two-eyes sang on, her single eye closed.
+        - id: ch02-b06
+          speaker: little_two_eyes
+          text: Little One-eye, are you waking? Little One-eye, are you sleeping?
+        - id: ch02-b07
+          speaker: narrator
+          text: Soon Little One-eye was fast asleep and could discover nothing. Little Two-eyes said, "Little goat, bleat. Little table, appear." She sat at the table and ate and drank all she wanted. Then she said, "Little goat, bleat. Little table, away." In the blink of an eye, the table and everything on it were gone. Only then did she wake her sister.
+        - id: ch02-b08
+          speaker: little_two_eyes
+          text: Little One-eye, you came to watch me, but you fell asleep instead. The goat could have wandered anywhere while you slept. Come on, let's go home.
+        - id: ch02-b09
+          speaker: narrator
+          text: At home, Little Two-eyes once again left her dish untouched. Little One-eye could not explain why.
+        - id: ch02-b10
+          speaker: little_one_eye
+          text: I was so sleepy out in the field.
+        - id: ch02-b11
+          speaker: narrator
+          text: The next day, the mother sent Little Three-eyes to watch. She was to find out what Little Two-eyes ate in the fields and who brought it, because she must be eating and drinking in secret.
+        - id: ch02-b12
+          speaker: little_three_eyes
+          text: I'll go with you today. I want to see whether you take proper care of the goat and lead it to good grass.
+        - id: ch02-b13
+          speaker: narrator
+          text: Again, Little Two-eyes knew exactly why her sister had come. She led the goat into the tall grass and asked Little Three-eyes to sit and listen to a song. Little Three-eyes was tired from the walk and the hot day. Little Two-eyes began the same little rhyme, but without thinking, she sang the wrong name in its second line.
+        - id: ch02-b14
+          speaker: little_two_eyes
+          text: Little Three-eyes, are you waking? Little Two-eyes, are you sleeping?
+        - id: ch02-b15
+          speaker: narrator
+          text: She sang it over and over. Two of Little Three-eyes' eyes fell asleep, but the third eye had not been named in the rhyme, so it stayed awake. Little Three-eyes cunningly shut that eye too and pretended to sleep, though she kept it open just enough to see everything.
+        - id: ch02-b16
+          speaker: narrator
+          text: Believing her sister was sound asleep, Little Two-eyes said, "Little goat, bleat. Little table, appear." The table stood before her, and she ate and drank to her heart's content. When she had finished, she said, "Little goat, bleat. Little table, away." The table vanished again, but Little Three-eyes had seen everything through the eye in her forehead. Little Two-eyes came over and woke her.
+        - id: ch02-b17
+          speaker: little_two_eyes
+          text: Well, Little Three-eyes, did you fall asleep? What a fine watcher you are! Come on, let's go home.
+        - id: ch02-b18
+          speaker: narrator
+          text: When they returned, Little Two-eyes refused her food as before. This time, her sister could tell their mother the reason.
+        - id: ch02-b19
+          speaker: little_three_eyes
+          text: Now I know why that proud girl never eats. Out in the field she says, "Little goat, bleat. Little table, appear." Then a table comes with food far better than ours. When she's full, she says, "Little goat, bleat. Little table, away," and it all disappears. I saw everything. Her song put two of my eyes to sleep, but luckily the eye in my forehead stayed awake!
+        - id: ch02-b20
+          speaker: mother
+          text: So you think you can live better than we do? I won't let that happen again!
+          emotion: angry
+        - id: ch02-b21
+          speaker: narrator
+          text: The envious mother fetched a knife and killed the goat.
+    - id: ch03
+      title: The Tree of Silver and Gold
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: When Little Two-eyes saw what had happened, she went to the meadow in deep sorrow and wept bitterly. Once more, the wise woman appeared beside her.
+        - id: ch03-b02
+          speaker: wise_woman
+          text: Little Two-eyes, why are you crying?
+        - id: ch03-b03
+          speaker: little_two_eyes
+          text: Don't I have every reason? Whenever I said the rhyme, my goat gave me that beautiful table. Now my mother has killed the goat, and I'll be hungry and in need again.
+          emotion: sad
+        - id: ch03-b04
+          speaker: wise_woman
+          text: Then listen to my advice. Ask your sisters for the dead goat's heart and bury it in the ground before the house door. It will bring you good fortune.
+        - id: ch03-b05
+          speaker: narrator
+          text: The wise woman vanished. Little Two-eyes went home and made her request.
+        - id: ch03-b06
+          speaker: little_two_eyes
+          text: Dear sisters, please give me something that belonged to my goat. I want nothing but its heart.
+        - id: ch03-b07
+          speakers: [little_one_eye, little_three_eyes]
+          ensemble: duo
+          text: If that's all you want, you may have it.
+        - id: ch03-b08
+          speaker: narrator
+          text: The sisters laughed at her. That evening, when everything was quiet, Little Two-eyes buried the heart before the house door, just as the wise woman had told her.
+        - id: ch03-b09
+          speaker: narrator
+          text: The next morning, everyone woke and came to the house door. A marvelous tree stood before them. Its leaves were silver, and golden fruit grew among its branches. Nothing could have been more lovely or splendid. They could not understand how such a tree had grown there in a single night. Only Little Two-eyes knew that it had sprung from the goat's heart, because it stood on the very spot where she had buried it.
+        - id: ch03-b10
+          speaker: mother
+          text: Climb up, Little One-eye, and pick some fruit for us.
+        - id: ch03-b11
+          speaker: narrator
+          text: Little One-eye climbed the tree and reached for one of the golden apples. Just as her fingers came near it, the branch sprang out of her hand. The same thing happened every time she tried. However hard she reached and grasped, she could not pick a single apple.
+        - id: ch03-b12
+          speaker: mother
+          text: Little Three-eyes, you climb up. With three eyes, you can see your way around better than your sister.
+        - id: ch03-b13
+          speaker: narrator
+          text: Little One-eye climbed down, and Little Three-eyes took her turn. She looked all around with her three eyes, but the golden apples bent away whenever she reached for them. At last the mother lost patience and climbed the tree herself. She had even less success than either daughter. Again and again, her hands closed on nothing but empty air.
+        - id: ch03-b14
+          speaker: little_two_eyes
+          text: Let me try. Perhaps I can do better.
+        - id: ch03-b15
+          speakers: [little_one_eye, little_three_eyes]
+          ensemble: duo
+          text: Oh, yes! Surely the girl with only two eyes will succeed!
+        - id: ch03-b16
+          speaker: narrator
+          text: Little Two-eyes climbed the tree. This time the golden apples did not leap away. The branches stayed within reach and behaved just as they should. She picked the fruit one apple after another and brought down a whole apronful. Her mother immediately took the apples from her. The family should have treated poor Little Two-eyes better after that. Instead, they were jealous because she alone could reach the fruit, and they became crueler to her than before.
+    - id: ch04
+      title: The Knight and the Golden Branch
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: One day, while they were all standing near the tree, a young knight rode toward the house. The two sisters hurried to hide Little Two-eyes.
+        - id: ch04-b02
+          speakers: [little_one_eye, little_three_eyes]
+          ensemble: duo
+          text: Quick, Little Two-eyes! Crawl under here so you won't disgrace us.
+        - id: ch04-b03
+          speaker: narrator
+          text: They pushed poor Little Two-eyes under an empty cask beside the tree. The golden apples she had picked were shoved under with her.
+        - id: ch04-b04
+          speaker: narrator
+          text: The knight was a very handsome young man. When he rode up, he stared in wonder at the tree of gold and silver.
+        - id: ch04-b05
+          speaker: knight
+          text: Who owns this beautiful tree? If one of you will give me a twig from it, I will give her whatever she asks.
+        - id: ch04-b06
+          speakers: [little_one_eye, little_three_eyes]
+          ensemble: duo
+          text: The tree belongs to us. Of course we'll break off a twig for you.
+        - id: ch04-b07
+          speaker: narrator
+          text: Both sisters stepped up to the tree and tried as hard as they could to take a twig for him. But whenever either one reached out, the silver twigs and golden fruit bent away from her hands. They tried over and over, but all their effort was useless.
+        - id: ch04-b08
+          speaker: knight
+          text: How strange. You say the tree is yours, yet neither of you can break off even one twig.
+        - id: ch04-b09
+          speaker: narrator
+          text: The sisters still insisted that the tree was theirs. Hidden beneath the cask, Little Two-eyes grew angry because they would not tell the truth. She rolled two of the golden apples out from her hiding place. They crossed the ground and stopped at the knight's feet. The sight astonished him, and he asked the sisters where the apples had come from.
+        - id: ch04-b10
+          speakers: [little_one_eye, little_three_eyes]
+          ensemble: duo
+          text: We have another sister, but you can't see her. She has only two eyes, just like ordinary people.
+        - id: ch04-b11
+          speaker: narrator
+          text: The knight demanded that they bring her to him.
+        - id: ch04-b12
+          speaker: knight
+          text: Little Two-eyes, come out!
+        - id: ch04-b13
+          speaker: narrator
+          text: Little Two-eyes came out from beneath the cask, glad to be called. When the knight saw her, he was amazed by her great beauty.
+        - id: ch04-b14
+          speaker: knight
+          text: Little Two-eyes, I'm sure you can break a twig from that tree for me.
+        - id: ch04-b15
+          speaker: little_two_eyes
+          text: Yes, I can. The tree belongs to me.
+        - id: ch04-b16
+          speaker: narrator
+          text: Little Two-eyes climbed the tree. The branches did not bend away from her. Without the least trouble, she broke off a small branch covered with silver leaves and golden fruit. She climbed down and gave it to the knight.
+        - id: ch04-b17
+          speaker: knight
+          text: What shall I give you in return, Little Two-eyes?
+        - id: ch04-b18
+          speaker: little_two_eyes
+          text: From morning until night, I suffer hunger and thirst, need and sorrow. If you would take me with you and free me from this life, I would be happy.
+          emotion: sad
+        - id: ch04-b19
+          speaker: narrator
+          text: The knight lifted Little Two-eyes onto his horse and carried her to his father's castle.
+    - id: ch05
+      title: A New Home
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: At his father's castle, the knight gave Little Two-eyes beautiful clothes. There was plenty for her to eat and drink, so she no longer suffered from hunger or thirst. The knight loved her dearly. Before long they were married, and their wedding was celebrated with great joy.
+        - id: ch05-b02
+          speaker: narrator
+          text: At first, Little One-eye and Little Three-eyes envied their sister's good fortune. Then they remembered the marvelous tree.
+        - id: ch05-b03
+          speakers: [little_one_eye, little_three_eyes]
+          ensemble: duo
+          text: At least the wonderful tree is still ours. We may not be able to pick its fruit, but everyone will stop to look at it. People will come and praise it, and perhaps some good will come to us after all.
+        - id: ch05-b04
+          speaker: narrator
+          text: But the next morning, they came outside and found the tree gone. It had flown away in the night, and all their hopes had flown with it.
+        - id: ch05-b05
+          speaker: narrator
+          text: That same morning, Little Two-eyes looked from her castle window. There stood the tree below, and the sight filled her with delight.
+    - id: ch06
+      title: The Sisters Return
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: Little Two-eyes lived happily for a long time. Then one day, two poor women came to the castle to beg for food.
+        - id: ch06-b02
+          speaker: narrator
+          text: Little Two-eyes looked closely and recognized them. They were Little One-eye and Little Three-eyes. Her sisters had become so poor that they now begged for bread at her door.
+        - id: ch06-b03
+          speaker: narrator
+          text: Little Two-eyes did not turn them away. She welcomed both sisters and treated them with great kindness. When Little One-eye and Little Three-eyes saw how good she was to them, they repented with all their hearts for having treated their sister so cruelly.

@@ -1,0 +1,282 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 清楚从容，像在为听众介绍一本古老的童话集
+        timbre: 温暖明净
+        pace: 舒缓
+        pitch: 中音
+    turtle:
+      display_name: 乌龟
+      tts: {delivery: 骄傲固执，受不得嘲弄, timbre: 圆厚干涩, pace: 从容, pitch: 中低音}
+    young_woman:
+      display_name: 年轻女子
+      tts: {delivery: 有礼而机敏，困境中镇定果断, timbre: 清澈年轻, pace: 适中, pitch: 中音}
+    old_turtle:
+      display_name: 老乌龟
+      tts: {delivery: 老成持重，说话谨慎, timbre: 粗粝苍老, pace: 缓慢, pitch: 低音}
+    turtle_scout_1:
+      display_name: 第一只乌龟
+      tts: {delivery: 抱有希望，直截了当, timbre: 轻而干涩, pace: 适中, pitch: 中音}
+    turtle_scout_2:
+      display_name: 第二只乌龟
+      tts: {delivery: 多疑而夸张，爱把困难说重, timbre: 尖细成熟, pace: 从容, pitch: 中高音}
+    turtle_scout_3:
+      display_name: 第三只乌龟
+      tts: {delivery: 务实简洁，想到什么就说什么, timbre: 温和干涩, pace: 适中, pitch: 中音}
+    turtle_scout_4:
+      display_name: 第四只乌龟
+      tts: {delivery: 坚定认真，语气不容争辩, timbre: 低哑成熟, pace: 舒缓, pitch: 低音}
+    villager:
+      display_name: 村民
+      tts: {delivery: 直白爽快，只管传递消息, timbre: 清晰成熟, pace: 适中, pitch: 中音}
+    husband:
+      display_name: 丈夫
+      tts: {delivery: 胆怯慌张，先顾自己, timbre: 轻薄成年, pace: 较快, pitch: 中高音}
+  chapters:
+    - id: ch01
+      title: 春天的婚约
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，有只乌龟住在一座很大的营地里。那里聚居着许多不同的族类，旁边还有一条大河。河水从白雪深处流出来，一路向南，最后流进一片终年温暖的大海。营地里也住着许多乌龟。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            这只乌龟待同类都很和气，可他没有特别喜欢谁，日子过得有点孤单。后来，他给自己盖了一间小屋，里面铺满兽皮，坐起来很舒服。方圆几英里，再也找不到这么舒适的住处。屋子收拾好以后，他便开始留意营地里的年轻女子，想挑一个做妻子。
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            他选了很久，因为乌龟最不喜欢别人催。到最后，他看中了一位姑娘。她比其余姑娘更漂亮，也更勤快。一天，乌龟走进她家，直接问她。
+        - id: ch01-b04
+          speaker: turtle
+          text: 你愿意嫁给我吗？
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            姑娘吓了一跳，连手里正在缝的串珠软鞋都掉了。她瞪着乌龟，很想笑出来，因为这件事实在荒唐。可她心地善良，又讲礼貌，只好尽量装出严肃的样子。
+        - id: ch01-b06
+          speaker: young_woman
+          text: >-
+            可你要怎么养活一家人呢？等整个营地搬迁的时候，你连大家都追不上呀。
+        - id: ch01-b07
+          speaker: turtle
+          text: 我才不会落在别人后面。
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            乌龟扬起了头。他心里气坏了，却不肯让姑娘看出来。于是，他一再央求，怎么也不肯罢休。姑娘实在没有办法，最后很不情愿地答应了。
+        - id: ch01-b09
+          speaker: young_woman
+          text: >-
+            不过，你得等到春天。我还要给自己做很多双鞋和很多件衣服。成婚以后，我就没有这么多工夫了。
+        - id: ch01-b10
+          speaker: narrator
+          text: 乌龟不喜欢这个回答，可他知道再说下去也没用。
+        - id: ch01-b11
+          speaker: turtle
+          text: >-
+            那我去打仗，捉些俘虏回来。我要离开几个月。等我回来，你必须准备好嫁给我。
+        - id: ch01-b12
+          speaker: narrator
+          text: >-
+            乌龟回到小屋，马上动手准备。他先召来所有亲族，问大家愿不愿意跟他一起去攻打邻村。乌龟们早就闲得厌烦了，立刻答应下来。第二天，全族一起离开营地。
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            他们经过姑娘家门口时，她正站在那里。看见这支队伍爬得那么慢，她忍不住大笑起来。走在最前面的乌龟听见了，顿时火冒三丈。
+        - id: ch01-b14
+          speaker: turtle
+          text: 四天以后，你就哭去吧！到那时候，我们之间已经隔着几百英里了。
+          emotion: angry
+        - id: ch01-b15
+          speaker: narrator
+          text: 姑娘原本就是为了摆脱他的纠缠，才答应嫁给他的。
+        - id: ch01-b16
+          speaker: young_woman
+          text: 四天？到那时候，你们恐怕还没爬出我的视线呢。
+        - id: ch01-b17
+          speaker: turtle
+          text: >-
+            我说的是四年，不是四天！不管碰上什么事，四年之内我一定回来。
+    - id: ch02
+      title: 挡路的大树
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            乌龟大军继续赶路。一天，他们觉得自己像是绕过了半个地球，其实离营地还不到四英里。这时，一棵大树横在了路上。大家望着它发愁，年纪最大的乌龟们凑在一起，商量该怎么办。
+        - id: ch02-b02
+          speaker: turtle_scout_1
+          text: 咱们不能从树梢那边绕过去吗？
+        - id: ch02-b03
+          speaker: turtle_scout_2
+          text: >-
+            那得走上好几年！你瞧，那些高高的绿树枝伸得到处都是。只要被它们缠住，咱们就别想出来了。
+        - id: ch02-b04
+          speaker: turtle_scout_3
+          text: 那就从树根那边绕过去。
+        - id: ch02-b05
+          speaker: turtle_scout_4
+          text: >-
+            怎么绕？树根下面是深坑，上面又有一道高坡。不行，只有一个办法。咱们得在树干上烧出一个大洞。
+        - id: ch02-b06
+          speaker: narrator
+          text: 乌龟们真的烧了起来。可树干太粗，火怎么也烧不穿。
+        - id: ch02-b07
+          speakers: [old_turtle, turtle_scout_1, turtle_scout_2, turtle_scout_3]
+          ensemble: chorus
+          text: >-
+            没办法，咱们只能回去了。反正不会有人知道！咱们离开了这么久，别人肯定相信咱们遇到过各种冒险。
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            整支队伍转身往家走。这一趟路已经让他们又累又脚痛，回去花的时间比来时还长。快到营地时，他们好不容易鼓起勇气，唱起了战歌。
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            村民们都跑了出来，想看看乌龟赢回了什么战利品。可大家刚刚走近，每只乌龟就抓住一个人的手腕，大声喊起来。
+        - id: ch02-b10
+          speakers: [old_turtle, turtle_scout_1, turtle_scout_2, turtle_scout_3]
+          ensemble: chorus
+          text: 你就是我们的战利品！你就是我们的俘虏！
+        - id: ch02-b11
+          speaker: narrator
+          text: 乌龟首领碰巧抓住了那个答应嫁给他的姑娘。
+        - id: ch02-b12
+          speaker: turtle
+          text: 这下我捉住你了，再也不会放你走。
+        - id: ch02-b13
+          speaker: narrator
+          text: >-
+            大家都气坏了，姑娘尤其恼火。她在心里发誓，一定要找机会报仇。可眼下乌龟们势力太强，俘虏只好穿上最漂亮的软鞋和最鲜艳的衣服，跟着歌声跳战舞。
+        - id: ch02-b14
+          speaker: narrator
+          text: >-
+            他们一直跳，仿佛永远不会停下来。忽然，领唱的乌龟放开嗓子，高声唱道。
+        - id: ch02-b15
+          speaker: turtle
+          text: 谁来到这里，谁就要死，就要死！
+        - id: ch02-b16
+          speaker: narrator
+          text: >-
+            舞者们吓坏了。他们冲破乌龟围成的圈子，一直逃回村里。乌龟们也在后面追，当然，追得很慢。
+    - id: ch03
+      title: 失信的婚约
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 路上，乌龟首领遇见了一个村民。
+        - id: ch03-b02
+          speaker: villager
+          text: 那个本来要嫁给你的女人，已经嫁给别人了！
+        - id: ch03-b03
+          speaker: turtle
+          text: 真的吗？那我非得去见见这个男人不可。
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            村民一走远，乌龟便停下来。他从背上取下一包穗带和饰物，全挂到自己身上。这样一来，他每走一步，身上都会叮当作响。快到女人的小屋时，他大声喊了起来。
+        - id: ch03-b05
+          speaker: turtle
+          text: 我来带走那个答应做我妻子的女人！
+        - id: ch03-b06
+          speaker: husband
+          text: 乌龟来了。现在可怎么办？
+          emotion: fearful
+        - id: ch03-b07
+          speaker: young_woman
+          text: 你别管，让我来应付他。
+        - id: ch03-b08
+          speaker: narrator
+          text: 正说着，乌龟已经进了屋，一把抓住女人的手腕。
+        - id: ch03-b09
+          speaker: turtle
+          text: 跟我走。
+          emotion: angry
+        - id: ch03-b10
+          speaker: young_woman
+          text: >-
+            失信的人是你。你说很快就会回来，可你已经走了一年多。我怎么知道你还活着？
+        - id: ch03-b11
+          speaker: narrator
+          text: 丈夫听见这番话，胆子也大了一点，连忙插嘴。
+        - id: ch03-b12
+          speaker: husband
+          text: >-
+            没错。你答应去打仗，还说会带俘虏回来，可你一样都没做到。
+        - id: ch03-b13
+          speaker: turtle
+          text: >-
+            我去打了仗，也捉了很多俘虏！听清楚，她要是不做我的妻子，也别想做你的妻子。我会把她劈成两半，你一半，我一半。
+          emotion: angry
+        - id: ch03-b14
+          speaker: narrator
+          text: 乌龟说着，拔出了刀。
+        - id: ch03-b15
+          speaker: husband
+          text: >-
+            可半个女人对我没有用。你既然这么想要她，干脆把她带走吧。
+        - id: ch03-b16
+          speaker: narrator
+          text: 就这样，乌龟和他的亲族把女人带回了小屋。
+    - id: ch04
+      title: 铁锅里的热水
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            女人知道，光是生气救不了自己。她便装出高兴的样子，好像很庆幸终于摆脱了丈夫，心里却一直在想办法，要从乌龟手中逃走。
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            后来，她想起朋友家里有一口很大的铁锅。乌龟回房收起穗带时，她赶紧跑去邻居家，把锅搬了回来。她把锅装满水，吊在火上。水刚咕嘟冒泡，发出嘶嘶的响声，乌龟就走了进来。
+        - id: ch04-b03
+          speaker: turtle
+          text: 你在那里干什么？
+        - id: ch04-b04
+          speaker: narrator
+          text: 乌龟只要碰见自己不明白的东西，就会害怕。
+        - id: ch04-b05
+          speaker: young_woman
+          text: 我只是烧点热水。你会游泳吗？
+        - id: ch04-b06
+          speaker: turtle
+          text: >-
+            我当然会。这算什么问题！可我会不会游泳，跟你有什么关系？
+        - id: ch04-b07
+          speaker: narrator
+          text: 乌龟越发起疑了。
+        - id: ch04-b08
+          speaker: young_woman
+          text: >-
+            没什么。我只是想，你走了这么远的路，也许愿意洗一洗。冬天的雨刚过去，路上到处是泥。我可以帮你擦擦龟壳，让它重新变得又干净又明亮。
+        - id: ch04-b09
+          speaker: turtle
+          text: >-
+            嗯，我身上的泥确实很多。你也知道，打仗的时候总不能停下来挑路走。要是你替我洗洗背，我肯定会舒服不少。
+        - id: ch04-b10
+          speaker: narrator
+          text: >-
+            女人不让他有反悔的机会。她一把抓住龟壳，把乌龟扔进了锅里。他沉到锅底，立刻死了。
+    - id: ch05
+      title: 流向温暖的大海
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            其他乌龟都站在门外。他们看见首领不见了，便觉得自己既然是士兵，就该跟着他。于是，他们纷纷跳进锅里，也全都死了。
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            只有一只小乌龟没有跳。他一直等不到朋友们出来，吓得以最快的速度逃进一片灌木，又从那里爬到了河边。他只想离那间可怕的小屋越远越好，便让河水带着自己，一直往前漂。
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            终于有一天，他漂进了温暖的大海。要是他还活着，直到今天，你也许还能在那里遇见他。
+        - id: ch05-b04
+          speaker: narrator
+          text: 本故事由民族学局收录。

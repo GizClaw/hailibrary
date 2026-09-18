@@ -1,0 +1,813 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant, and gently dramatic
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    letiko:
+      display_name: Letiko
+      tts:
+        delivery: gentle, homesick, and quick-witted
+        timbre: light and clear
+        pace: natural
+        pitch: medium-high
+    mother:
+      display_name: Letiko's Mother
+      tts:
+        delivery: loving, anxious, and heartfelt
+        timbre: warm and mature
+        pace: natural
+        pitch: medium
+    sunball:
+      display_name: The Sunball
+      tts:
+        delivery: commanding, watchful, and measured
+        timbre: bright and resonant
+        pace: unhurried
+        pitch: medium-low
+    fox_1:
+      display_name: First Fox
+      tts:
+        delivery: sly and matter-of-fact
+        timbre: dry and sharp
+        pace: brisk
+        pitch: medium
+    fox_2:
+      display_name: Second Fox
+      tts:
+        delivery: sly and matter-of-fact
+        timbre: dry and sharp
+        pace: brisk
+        pitch: medium
+    hare_1:
+      display_name: First Hare
+      tts:
+        delivery: kind, alert, and dependable
+        timbre: soft and lively
+        pace: brisk
+        pitch: medium-high
+    hare_2:
+      display_name: Second Hare
+      tts:
+        delivery: kind, alert, and dependable
+        timbre: soft and lively
+        pace: brisk
+        pitch: medium-high
+    lamia:
+      display_name: The Lamia
+      tts:
+        delivery: coaxing, threatening, and impatient
+        timbre: dark and rough
+        pace: deliberate
+        pitch: low
+    worker_1:
+      display_name: First Field Worker
+      tts:
+        delivery: loud and stubbornly literal
+        timbre: sturdy and plain
+        pace: natural
+        pitch: medium
+    worker_2:
+      display_name: Second Field Worker
+      tts:
+        delivery: loud and stubbornly literal
+        timbre: sturdy and plain
+        pace: natural
+        pitch: medium
+    dog:
+      display_name: The Dog
+      tts:
+        delivery: weary, honest, and trusting
+        timbre: warm and rough
+        pace: natural
+        pitch: medium-low
+    cat:
+      display_name: The Cat
+      tts:
+        delivery: keen-eyed and insistent
+        timbre: light and nimble
+        pace: brisk
+        pitch: high
+    cock:
+      display_name: The Cock
+      tts:
+        delivery: proud, ringing, and emphatic
+        timbre: bright and piercing
+        pace: brisk
+        pitch: high
+    father:
+      display_name: The Father
+      tts:
+        delivery: serious, protective, and direct
+        timbre: warm and mature
+        pace: measured
+        pitch: medium-low
+    youngest_daughter:
+      display_name: The Youngest Daughter
+      tts:
+        delivery: gentle, cautious, and quietly resourceful
+        timbre: clear and youthful
+        pace: natural
+        pitch: medium-high
+    eldest_sister:
+      display_name: The Eldest Sister
+      tts:
+        delivery: forceful and self-assured
+        timbre: firm and youthful
+        pace: brisk
+        pitch: medium
+    sisters:
+      display_name: One of the Sisters
+      tts:
+        delivery: eager and impulsive
+        timbre: clear and youthful
+        pace: brisk
+        pitch: medium-high
+    witch:
+      display_name: The Witch
+      tts:
+        delivery: hungry, cruel, and taunting
+        timbre: cracked and dark
+        pace: deliberate
+        pitch: low
+    ogre:
+      display_name: Buk Ettemsuch
+      tts:
+        delivery: powerful, courteous, and unexpectedly gentle
+        timbre: deep and resonant
+        pace: measured
+        pitch: low
+    first_ox:
+      display_name: The First Ox
+      tts:
+        delivery: blunt and ominous
+        timbre: broad and earthy
+        pace: slow
+        pitch: low
+    second_ox:
+      display_name: The Second Ox
+      tts:
+        delivery: honest, patient, and persuasive
+        timbre: broad and earthy
+        pace: measured
+        pitch: low
+    prince:
+      display_name: The Prince
+      tts:
+        delivery: confident, curious, and earnest
+        timbre: clear and refined
+        pace: natural
+        pitch: medium
+    first_bride:
+      display_name: The First New Bride
+      tts:
+        delivery: scornful and boastful
+        timbre: polished and sharp
+        pace: natural
+        pitch: medium-high
+    second_bride:
+      display_name: The Second New Bride
+      tts:
+        delivery: proud and competitive
+        timbre: polished and firm
+        pace: natural
+        pitch: medium-high
+    lady_1:
+      display_name: First Lady-in-Waiting
+      tts:
+        delivery: attentive and easily astonished
+        timbre: clear and refined
+        pace: natural
+        pitch: medium-high
+    lady_2:
+      display_name: Second Lady-in-Waiting
+      tts:
+        delivery: attentive and outspoken
+        timbre: clear and refined
+        pace: natural
+        pitch: medium-high
+    loaf:
+      display_name: The Snow-White Loaf
+      tts:
+        delivery: inviting and matter-of-fact
+        timbre: light and uncanny
+        pace: natural
+        pitch: medium-high
+    pitcher:
+      display_name: The Pitcher
+      tts:
+        delivery: aggrieved and tearful
+        timbre: bright and brittle
+        pace: brisk
+        pitch: high
+    water_jug:
+      display_name: The Water Jug
+      tts:
+        delivery: alarmed and pleading
+        timbre: hollow and clear
+        pace: quick
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: The Sunchild
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a woman who had no children, and the sorrow of it weighed heavily on her. One day she turned to the Sunball and made him a promise.
+        - id: ch01-b02
+          speaker: mother
+          text: Dear Sunball, please send me just one little girl. When she reaches twelve years old, you may take her back.
+        - id: ch01-b03
+          speaker: narrator
+          text: Before long, the Sunball sent her a daughter. The woman named the child Letiko and cared for her tenderly until her twelfth year. Then, while Letiko was gathering herbs, the Sunball appeared before her.
+        - id: ch01-b04
+          speaker: sunball
+          text: Letiko, go home and remind your mother of the promise she made to me.
+        - id: ch01-b05
+          speaker: narrator
+          text: Letiko went straight home with the message.
+        - id: ch01-b06
+          speaker: letiko
+          text: Mother, a fine, tall gentleman came to me while I was gathering herbs. He told me to ask you to remember what you promised him.
+        - id: ch01-b07
+          speaker: narrator
+          text: Terror seized the woman. She shut every door and window, stopped every crack and hole, and hid Letiko where the Sunball could not reach her. But she overlooked the keyhole. A single sunbeam entered through it, caught the girl, and carried her away.
+        - id: ch01-b08
+          speaker: narrator
+          text: One day the Sunball sent Letiko to the straw shed. She sat among the heaps, thinking of home.
+        - id: ch01-b09
+          speaker: letiko
+          text: The straw sighs beneath my feet, and my heart sighs for my mother.
+          emotion: sad
+        - id: ch01-b10
+          speaker: narrator
+          text: She stayed there so long that the Sunball questioned her when she returned.
+        - id: ch01-b11
+          speaker: sunball
+          text: Letiko, what kept you away all this time?
+        - id: ch01-b12
+          speaker: letiko
+          text: My slippers are too large. I couldn't walk any faster in them.
+        - id: ch01-b13
+          speaker: narrator
+          text: So he shortened her slippers. Another day, he sent her for water. At the spring she sat down and grieved again.
+        - id: ch01-b14
+          speaker: letiko
+          text: The water keeps flowing, and so does my longing for my mother.
+          emotion: sad
+        - id: ch01-b15
+          speaker: narrator
+          text: Once more she was gone too long.
+        - id: ch01-b16
+          speaker: sunball
+          text: Letiko, why did you take so long this time?
+        - id: ch01-b17
+          speaker: letiko
+          text: My petticoat is too long. It catches my feet when I walk.
+        - id: ch01-b18
+          speaker: narrator
+          text: The Sunball cut the petticoat shorter. Later he sent her to fetch a pair of sandals. As the leather creaked in her hand, her sorrow rose again.
+        - id: ch01-b19
+          speaker: letiko
+          text: The leather creaks, and my heart creaks with longing for my dear mother.
+          emotion: sad
+        - id: ch01-b20
+          speaker: sunball
+          text: Letiko, why are you coming home so late again?
+        - id: ch01-b21
+          speaker: letiko
+          text: My red hood is too wide. It falls over my eyes, so I can't hurry.
+        - id: ch01-b22
+          speaker: narrator
+          text: He narrowed the hood. At last the Sunball understood that Letiko was unhappy. He sent her once more for straw, followed quietly, and heard her mourning for her mother.
+        - id: ch01-b23
+          speaker: narrator
+          text: Back at home, he summoned two foxes.
+        - id: ch01-b24
+          speaker: sunball
+          text: Will you carry Letiko back to her mother?
+        - id: ch01-b25
+          speakers: [fox_1, fox_2]
+          ensemble: duo
+          text: Yes. Why shouldn't we?
+        - id: ch01-b26
+          speaker: sunball
+          text: If hunger and thirst trouble you on the road, what will you eat and drink?
+        - id: ch01-b27
+          speakers: [fox_1, fox_2]
+          ensemble: duo
+          text: We'll eat her flesh and drink her blood.
+        - id: ch01-b28
+          speaker: sunball
+          text: Then you are no use to me.
+        - id: ch01-b29
+          speaker: narrator
+          text: He dismissed the foxes and called two hares instead. They agreed to take Letiko home, and when he asked what they would live on during the journey, they had a better answer.
+        - id: ch01-b30
+          speakers: [hare_1, hare_2]
+          ensemble: duo
+          text: We'll eat grass and drink from the little streams.
+        - id: ch01-b31
+          speaker: sunball
+          text: Good. Take her safely to her mother.
+        - id: ch01-b32
+          speaker: narrator
+          text: With the Sunball's permission, the two hares set out and took Letiko between them. Her mother's home lay a long way off, so they traveled together for a great while. At last the hares began to feel hungry, though they still had many steps ahead of them.
+        - id: ch01-b33
+          speakers: [hare_1, hare_2]
+          ensemble: duo
+          text: Dear Letiko, climb this tree and stay there until we've finished grazing.
+        - id: ch01-b34
+          speaker: narrator
+          text: Letiko climbed up, and the hares went to feed. Soon a lamia came beneath the tree and looked up.
+        - id: ch01-b35
+          speaker: lamia
+          text: Letiko, come down and look at my beautiful shoes.
+        - id: ch01-b36
+          speaker: letiko
+          text: Oh, mine are much finer than yours.
+        - id: ch01-b37
+          speaker: lamia
+          text: Come down now. I must hurry home because my house still needs sweeping.
+        - id: ch01-b38
+          speaker: letiko
+          text: Then go sweep it. You can come back when you're ready.
+        - id: ch01-b39
+          speaker: narrator
+          text: The lamia went away, swept her house, and returned.
+        - id: ch01-b40
+          speaker: lamia
+          text: Letiko, come down and see my lovely apron.
+        - id: ch01-b41
+          speaker: letiko
+          text: My apron is far prettier than that one.
+        - id: ch01-b42
+          speaker: lamia
+          text: If you refuse to come down, I'll chop through this tree and eat you.
+          emotion: angry
+        - id: ch01-b43
+          speaker: letiko
+          text: Go ahead. Cut it down, and then you may eat me.
+        - id: ch01-b44
+          speaker: narrator
+          text: The lamia hacked at the trunk with all her might, but the tree would not fall.
+        - id: ch01-b45
+          speaker: lamia
+          text: Letiko, come down. I have to go and feed my children.
+        - id: ch01-b46
+          speaker: letiko
+          text: Feed them first, then come back when you're done.
+        - id: ch01-b47
+          speaker: narrator
+          text: As soon as the lamia left, Letiko called for her companions.
+        - id: ch01-b48
+          speaker: letiko
+          text: Little hares! Little hares!
+        - id: ch01-b49
+          speaker: hare_1
+          text: Listen. Letiko is calling us.
+        - id: ch01-b50
+          speaker: narrator
+          text: Both hares stopped grazing and raced back as fast as they could. Letiko climbed safely down from the tree, and the three companions hurried onward along the road. The lamia returned and found her prey gone. She ran after them at full speed, hoping to catch them before they reached the girl's home. On the way she came to a field where people were busy working, and she demanded to know what they had seen.
+        - id: ch01-b51
+          speaker: lamia
+          text: Did anyone pass this way?
+        - id: ch01-b52
+          speakers: [worker_1, worker_2]
+          ensemble: duo
+          text: We're planting beans.
+        - id: ch01-b53
+          speaker: lamia
+          text: I didn't ask what you're planting. Did anyone go past here?
+        - id: ch01-b54
+          speakers: [worker_1, worker_2]
+          ensemble: duo
+          text: Can't you hear us? Beans, beans, beans! That's what we're planting!
+        - id: ch01-b55
+          speaker: narrator
+          text: By then Letiko was almost home. The dog recognized her first.
+        - id: ch01-b56
+          speaker: dog
+          text: Bow wow! Look, Letiko is coming!
+        - id: ch01-b57
+          speaker: mother
+          text: Hush, you creature of bad omen! Do you want my grief to break my heart?
+          emotion: sad
+        - id: ch01-b58
+          speaker: narrator
+          text: Next the cat spotted Letiko from the roof.
+        - id: ch01-b59
+          speaker: cat
+          text: Miaow, miaow! Look, Letiko is coming!
+        - id: ch01-b60
+          speaker: mother
+          text: Be silent, you creature of bad omen! Must you make my heart burst with sorrow?
+          emotion: sad
+        - id: ch01-b61
+          speaker: narrator
+          text: Then the cock saw the travelers drawing near.
+        - id: ch01-b62
+          speaker: cock
+          text: Cock-a-doodle-do! Look, Letiko is coming!
+        - id: ch01-b63
+          speaker: mother
+          text: Quiet, you bird of bad omen! Will you make me die of misery?
+          emotion: sad
+        - id: ch01-b64
+          speaker: narrator
+          text: Step by step, Letiko and the two hares drew nearer to the house. At the same time, the lamia gained on them from behind. Letiko reached the safety of the doorway, and the hares darted in after her. But as the last little hare was about to slip through, the lamia caught hold of its tail. She pulled so hard that the tail tore away, though the hare itself escaped inside.
+        - id: ch01-b65
+          speaker: narrator
+          text: The mother rose to welcome the hare.
+        - id: ch01-b66
+          speaker: mother
+          text: Dear little hare, you brought my Letiko home. I will give your little tail a covering of silver.
+          emotion: happy
+        - id: ch01-b67
+          speaker: narrator
+          text: And so she silvered the hare's tail. From that day on, the mother and daughter lived together in happiness and contentment.
+    - id: ch02
+      title: The Seven Daughters
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: There was once a man with seven daughters. They had lived happily together for a long time when, one morning, their father called them all to him.
+        - id: ch02-b02
+          speaker: father
+          text: Your mother and I must make a journey, and we don't know when we'll return. There is enough food here for three years. Until we come home, do not open the door to anyone.
+        - id: ch02-b03
+          speakers: [eldest_sister, sisters, youngest_daughter]
+          ensemble: chorus
+          text: We understand, dear Father.
+        - id: ch02-b04
+          speaker: narrator
+          text: For two full years the girls stayed inside and kept the door locked. Then one day they washed their clothes and spread them on the roof. Below them, people moved through the street, and the market stalls were piled with fresh meat, vegetables, and all sorts of good things.
+        - id: ch02-b05
+          speaker: sisters
+          text: Come and look! All that food is making me hungry. Why shouldn't we have some too? One of us could go to the market for meat and vegetables.
+        - id: ch02-b06
+          speaker: youngest_daughter
+          text: No, we mustn't. Father told us not to open the door until he came back.
+        - id: ch02-b07
+          speaker: narrator
+          text: Her sisters turned on her. The eldest struck her. The next spat at her, and the others insulted her, shoved her, threw her down, and tore her clothes. They left her on the floor and went out carrying a basket.
+        - id: ch02-b08
+          speaker: narrator
+          text: An hour later they returned with meat and vegetables. They filled a pot and set it over the fire, forgetting that the front door still stood wide open. The youngest would not join their feast. Before dinner, she slipped into the entrance hall and hid behind a large cask.
+        - id: ch02-b09
+          speaker: narrator
+          text: While the six sisters ate, a witch passed the open doorway and walked inside. She approached the eldest first.
+        - id: ch02-b10
+          speaker: witch
+          text: Where shall I start eating you, my fat cushion?
+        - id: ch02-b11
+          speaker: eldest_sister
+          text: Begin with the hand that struck my little sister.
+        - id: ch02-b12
+          speaker: narrator
+          text: The witch swallowed her, down to the last morsel. Then she asked the second sister the same question.
+        - id: ch02-b13
+          speaker: sisters
+          text: Begin with the mouth that spat on my sister.
+        - id: ch02-b14
+          speaker: narrator
+          text: The witch ate the second sister too. Then she went to the third, the fourth, the fifth, and the sixth. Each girl told her to begin with the part that had abused, pushed, thrown down, or torn the clothes of their youngest sister. One after another, the witch devoured them. As she swallowed the final mouthful of the sixth girl, the youngest fled from behind the cask. She had crouched there frozen with horror, but now she ran through the open door and into the street. She never looked behind her. She only hurried on and on, as fast as her feet could carry her.
+        - id: ch02-b15
+          speaker: narrator
+          text: She ran until an ogre's castle rose before her. Beside its door stood a great pot. She crept beneath the lid and fell asleep there.
+        - id: ch02-b16
+          speaker: narrator
+          text: After a time, the ogre returned.
+        - id: ch02-b17
+          speaker: ogre
+          text: Fee, fo, fum! I smell a human being. What bad luck brought that person here?
+        - id: ch02-b18
+          speaker: narrator
+          text: He searched every room and found no one.
+        - id: ch02-b19
+          speaker: ogre
+          text: Where are you? You needn't fear me. I won't hurt you.
+        - id: ch02-b20
+          speaker: narrator
+          text: The girl made no sound, so he called again.
+        - id: ch02-b21
+          speaker: ogre
+          text: Come out. Your life is safe. If you're an old man, you may be my father. A boy may be my son. A man my age may be my brother. An old woman may be my mother, a young woman my daughter, and a woman of middle age my wife. Whoever you are, come out without fear.
+        - id: ch02-b22
+          speaker: narrator
+          text: At last the maiden lifted the lid, left her hiding place, and stood before him. The ogre again told her not to fear. Whenever he went hunting, he left her in charge of the whole castle. In the evening he returned with hares, partridges, and gazelles for her supper. He wanted the girl to have food she could eat. For himself, he cared only for human flesh, and she cooked that separately for him.
+        - id: ch02-b23
+          speaker: narrator
+          text: He placed the keys of six rooms in her care, so she could enter them whenever she pleased. There was only one key he would not give her, the key to the seventh room. Time passed as the two of them lived beneath the same roof. The girl always called the ogre Father, and he always called her Daughter. From the day she arrived, he never once spoke roughly to her.
+    - id: ch03
+      title: The Locked Upper Chamber
+      blocks:
+        - id: ch03-b01
+          speaker: youngest_daughter
+          text: Father, please give me the key to the upper chamber.
+        - id: ch03-b02
+          speaker: ogre
+          text: No, my daughter. There is nothing useful to you in that room.
+        - id: ch03-b03
+          speaker: youngest_daughter
+          text: But I still want the key.
+        - id: ch03-b04
+          speaker: narrator
+          text: The ogre pretended not to hear. The girl began to cry, but she formed a plan. That night, after supper, she said good night and left the room. Then she crept back and watched from behind a curtain. She saw the ogre take the key from his pocket and bury it in a hole in the ground before he went to bed.
+        - id: ch03-b05
+          speaker: narrator
+          text: She waited until the castle was silent and the ogre was asleep. Then she went to the hole, took out the hidden key, and carried it back into the house. The ogre woke with the very first ray of daylight. Looking for that key was the first thing he did. The hole was empty, and he immediately guessed who had taken it.
+        - id: ch03-b06
+          speaker: ogre
+          text: If I wake her, I'll only frighten her. She may keep the key today. When I return tonight, I can take it back.
+        - id: ch03-b07
+          speaker: narrator
+          text: He went hunting. The moment he was gone, the girl ran upstairs and unlocked the chamber. It was empty, and its one window was shut. She opened the lattice and looked down into the prince's garden. An ox was drawing water from a well with no one nearby. Hearing the window, the ox raised his head.
+        - id: ch03-b08
+          speaker: first_ox
+          text: Good morning, daughter of Buk Ettemsuch! Your father is making you plump and fat. Then he'll put you on a spit and cook you.
+        - id: ch03-b09
+          speaker: narrator
+          text: The warning terrified her. She burst into tears and ran from the room. She wept all day, and when the ogre came home there was no supper waiting.
+        - id: ch03-b10
+          speaker: ogre
+          text: Why are you crying? Where is my supper? And did you open the upper chamber?
+        - id: ch03-b11
+          speaker: youngest_daughter
+          text: Yes, I opened it.
+        - id: ch03-b12
+          speaker: ogre
+          text: What did the ox tell you?
+        - id: ch03-b13
+          speaker: youngest_daughter
+          text: He said you were feeding me until I was fat enough to roast on a spit.
+          emotion: fearful
+        - id: ch03-b14
+          speaker: ogre
+          text: Tomorrow, answer him this way. Tell him I am feeding you well, but I do not mean to eat you. Say that if you had one of his eyes, you could use it as a mirror and see yourself from front and back. Then say his girths should come loose and he should lie blind for seven days and seven nights.
+        - id: ch03-b15
+          speaker: youngest_daughter
+          text: All right. I'll do that.
+        - id: ch03-b16
+          speaker: narrator
+          text: The next morning the girl returned to the window. The ox again called her the daughter of Buk Ettemsuch and warned that her father meant to fatten, roast, and eat her. This time she answered as the ogre had taught her. She said her father fed her well but did not mean to eat her. She wished for one of the ox's eyes as a mirror, then declared that his girths should loosen and that he should lie blind for seven days and seven nights. The moment she finished, the ox fell flat. He lay there for all seven days and all seven nights. No one drew water from the well, and every flower in the garden withered.
+        - id: ch03-b17
+          speaker: narrator
+          text: When the prince visited, he found only yellow stalks and the fallen ox. He killed the animal with his sword and turned to his attendants.
+        - id: ch03-b18
+          speaker: prince
+          text: Bring me another ox.
+        - id: ch03-b19
+          speaker: narrator
+          text: They brought a huge new beast. It drew water from the well until the flowers revived and the grass grew green. Then the prince and his attendants departed.
+        - id: ch03-b20
+          speaker: narrator
+          text: The next morning the sound of the waterwheel reached the upper chamber. The girl opened the lattice and looked down. The new ox greeted the daughter of Buk Ettemsuch, then told her that her father was feeding her until she was fat enough to roast. She answered that the ogre had no wish to eat her. She spoke of using one of the ox's eyes as a mirror, seeing herself both before and behind, and leaving him loose-girthed and blind for seven days and seven nights. As soon as the last word left her mouth, the second ox fell. For seven days and seven nights he could not move.
+        - id: ch03-b21
+          speaker: narrator
+          text: When he finally rose and began turning the wheel again, the prince happened to visit. The ox was working, but the garden had dried up. The prince drew his sword and rushed toward him. The ox fell to his knees.
+        - id: ch03-b22
+          speaker: second_ox
+          text: My lord, spare me, and I'll explain what happened.
+        - id: ch03-b23
+          speaker: prince
+          text: Explain what?
+        - id: ch03-b24
+          speaker: second_ox
+          text: A girl looked from that window and spoke a few words. I fell helpless for seven days and seven nights. But, my lord, no one is ever granted a second sight of beauty like hers.
+        - id: ch03-b25
+          speaker: prince
+          text: That's a lie. An ogre lives there. Why would he keep a maiden in his upper room?
+        - id: ch03-b26
+          speaker: second_ox
+          text: Why couldn't he? Come here at dawn tomorrow and hide behind that tree. You'll see her yourself.
+        - id: ch03-b27
+          speaker: prince
+          text: I will. If you've lied, I'll kill you.
+        - id: ch03-b28
+          speaker: narrator
+          text: At dawn the prince returned. The ox told him the girl had not yet appeared and sent him into the tree. He had barely settled among its branches when she opened the lattice.
+        - id: ch03-b29
+          speaker: narrator
+          text: The ox greeted the daughter of Buk Ettemsuch and repeated his warning about the ogre feeding her for the spit. Once again, the maiden said her father did not mean to eat her. She wished for the ox's eye as a mirror and condemned him to lie blind for seven days and seven nights. He had scarcely heard the words when he fell to the ground. The maiden shut the lattice and went away. From his hiding place, the prince had seen everything. The ox had told the truth. The girl had no equal anywhere in the world, and the prince climbed down with his heart burning with love.
+        - id: ch03-b30
+          speaker: prince
+          text: Why hasn't the ogre eaten her? Tonight I'll invite him to supper. Then I can ask about the maiden and learn whether she is his wife.
+    - id: ch04
+      title: The Prince's Bargain
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The prince ordered a whole ox roasted and had two enormous tanks prepared, one of water and one of wine. Toward evening he led his attendants to the ogre's courtyard and waited for him to return from hunting. The ogre was surprised by the gathering, but greeted them politely.
+        - id: ch04-b02
+          speaker: ogre
+          text: Good evening, dear neighbors. What brings you here? I hope I haven't offended you.
+        - id: ch04-b03
+          speaker: prince
+          text: Not at all.
+        - id: ch04-b04
+          speaker: ogre
+          text: Then why have you come to my house for the first time today?
+        - id: ch04-b05
+          speaker: prince
+          text: We would like to share supper with you.
+        - id: ch04-b06
+          speaker: ogre
+          text: You're welcome. Supper is ready.
+        - id: ch04-b07
+          speaker: narrator
+          text: He led them in. His hunt had gone well, and the bag on his shoulder held plenty of game. A table was soon laid. The prince had just taken his seat when he changed the invitation.
+        - id: ch04-b08
+          speaker: prince
+          text: Buk Ettemsuch, why don't you come and eat supper with me instead?
+        - id: ch04-b09
+          speaker: ogre
+          text: Where do you mean?
+        - id: ch04-b10
+          speaker: prince
+          text: At my palace. Everything will be waiting for us.
+        - id: ch04-b11
+          speaker: ogre
+          text: But your home is far away. Why not remain here?
+        - id: ch04-b12
+          speaker: prince
+          text: I'll dine here another day. Tonight I must be your host.
+        - id: ch04-b13
+          speaker: narrator
+          text: The ogre agreed and set out beside the prince and his attendants. They traveled all the way back to the palace, where the roasted ox and the two huge tanks were ready. One held water, and the other held wine. They sat down together, and after they had eaten for a while, the prince revealed the true reason for his invitation.
+        - id: ch04-b14
+          speaker: prince
+          text: I have come as a suitor. I want a wife from an honorable family.
+        - id: ch04-b15
+          speaker: ogre
+          text: But I have no daughter.
+        - id: ch04-b16
+          speaker: prince
+          text: You do. I saw her at the window.
+        - id: ch04-b17
+          speaker: ogre
+          text: Then you may marry her if that is your wish.
+        - id: ch04-b18
+          speaker: narrator
+          text: The prince's heart filled with joy. He and his attendants escorted the ogre home, and before they parted, he asked for one last assurance.
+        - id: ch04-b19
+          speaker: prince
+          text: You won't forget our agreement, will you?
+        - id: ch04-b20
+          speaker: ogre
+          text: I am no young man, and I never break a promise.
+        - id: ch04-b21
+          speaker: narrator
+          text: He shut the door and found the maiden upstairs. She had waited to eat with him because she disliked taking supper alone.
+        - id: ch04-b22
+          speaker: ogre
+          text: I've already eaten. I spent the evening with the prince.
+        - id: ch04-b23
+          speaker: youngest_daughter
+          text: Where did you meet him?
+        - id: ch04-b24
+          speaker: ogre
+          text: We are neighbors and grew up together. Tonight I promised him that you would become his wife.
+        - id: ch04-b25
+          speaker: youngest_daughter
+          text: I don't want to be any man's wife.
+        - id: ch04-b26
+          speaker: narrator
+          text: She only pretended to object. Secretly, her heart was glad too. Early the next morning, the prince arrived with bridal gifts and magnificent wedding clothes, ready to bring her to his palace.
+        - id: ch04-b27
+          speaker: ogre
+          text: Girl, listen carefully. Never speak to the prince. No matter what he says, remain silent unless he swears by the head of Buk Ettemsuch. Only then may you answer him.
+        - id: ch04-b28
+          speaker: youngest_daughter
+          text: Very well. I promise.
+    - id: ch05
+      title: The Silent Wife
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The wedding party set out for the palace. When they arrived, the prince led his bride to the room he had prepared especially for her. He asked his wife to speak to him, but she answered with silence. After waiting for some time, he left her alone. Perhaps, he thought, she was only shy in her new home. He came back the next day and asked again. Still she said nothing. On the third day he tried once more, and once more she kept her promise to the ogre and remained silent.
+        - id: ch05-b02
+          speaker: prince
+          text: If you refuse to speak, I will find another wife who will.
+        - id: ch05-b03
+          speaker: narrator
+          text: And that is what he did. When the new bride arrived, the daughter of Buk Ettemsuch rose and addressed the ladies attending her.
+        - id: ch05-b04
+          speaker: youngest_daughter
+          text: Sit down, all of you. I will prepare the feast.
+        - id: ch05-b05
+          speaker: narrator
+          text: The ladies obeyed and waited. The maiden sat down as well and began calling the things she needed.
+        - id: ch05-b06
+          speaker: youngest_daughter
+          text: Firewood, come here. Fire, come and light the wood. Pot and oil, come here too. Oil, get into the pot.
+        - id: ch05-b07
+          speaker: narrator
+          text: Each thing came at her command. The firewood laid itself ready, the fire kindled it, and the pot took its place above the flames. The oil poured itself inside and soon began to boil. Then, while the waiting ladies watched, the maiden dipped all ten fingers into the bubbling oil. Instead of burning her, it changed those fingers into ten fried fish for the feast.
+        - id: ch05-b08
+          speaker: youngest_daughter
+          text: Oven, come here. Fire, make the oven hot.
+        - id: ch05-b09
+          speaker: narrator
+          text: The oven came, and the fire heated it. Still dressed in silver and gold and wearing all her jewels, the maiden jumped inside. A minute or two later, she had become a snow-white loaf that looked delicious.
+        - id: ch05-b10
+          speaker: loaf
+          text: You may eat now. Don't stand so far away.
+        - id: ch05-b11
+          speaker: narrator
+          text: The ladies could only stare at one another in astonishment.
+        - id: ch05-b12
+          speaker: first_bride
+          text: What are you all staring at?
+        - id: ch05-b13
+          speaker: lady_1
+          text: At the wonders we've just seen.
+          emotion: surprised
+        - id: ch05-b14
+          speaker: first_bride
+          text: You call those wonders? I can do the same thing.
+        - id: ch05-b15
+          speaker: narrator
+          text: She jumped straight into the oven and burned to death in an instant. The ladies hurried to the prince.
+        - id: ch05-b16
+          speakers: [lady_1, lady_2]
+          ensemble: duo
+          text: Come quickly! Your wife is dead!
+        - id: ch05-b17
+          speaker: prince
+          text: Then bury her. But why did she do such a thing? I certainly never told her to throw herself into an oven.
+        - id: ch05-b18
+          speaker: narrator
+          text: They buried the burned woman, but the prince did not attend the funeral. All his thoughts remained with the wife who would not speak.
+        - id: ch05-b19
+          speaker: prince
+          text: Dear wife, are you afraid something dreadful will happen if you talk to me? If you still say nothing, I will have to marry someone else.
+        - id: ch05-b20
+          speaker: narrator
+          text: The poor girl wanted desperately to explain everything. She wanted to tell him that she was not unwilling to speak, and that only one particular oath could free her from silence. But she feared the ogre and would not break the promise she had made him. No words passed her lips. The prince therefore did exactly as he had threatened and brought a fresh bride into the palace.
+        - id: ch05-b21
+          speaker: narrator
+          text: When the second bride and her ladies were seated in state, the maiden drove a sharp stake into the ground. She settled herself comfortably upon its point and began to spin. The new bride noticed the ladies staring.
+        - id: ch05-b22
+          speaker: second_bride
+          text: Why are you looking at her like that? Do you think it's wonderful? I could do it just as well.
+        - id: ch05-b23
+          speaker: lady_2
+          text: I'm certain you couldn't.
+          emotion: surprised
+        - id: ch05-b24
+          speaker: narrator
+          text: The maiden sprang lightly off the stake and walked out of the room without any harm at all. The boastful new wife lost no time in trying the same wonder. She sat herself down in exactly the same place, before any of the ladies could stop her. But the sharp stake ran straight through her, and she died in a moment. The horrified attendants once again sent an urgent message to the prince.
+        - id: ch05-b25
+          speakers: [lady_1, lady_2]
+          ensemble: duo
+          text: Come quickly and bury your wife!
+        - id: ch05-b26
+          speaker: prince
+          text: Bury her yourselves. Why did she do it? I never ordered her to sit on that stake.
+        - id: ch05-b27
+          speaker: narrator
+          text: So they buried the second woman. That evening the prince returned to the daughter of Buk Ettemsuch.
+        - id: ch05-b28
+          speaker: prince
+          text: Speak to me, or I will have to take another wife.
+        - id: ch05-b29
+          speaker: narrator
+          text: Still afraid to break her word, she gave him no answer.
+    - id: ch06
+      title: The Oath That Freed Her Voice
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: The next day the prince hid in her room and watched. Before long the maiden woke and called to two vessels nearby.
+        - id: ch06-b02
+          speaker: youngest_daughter
+          text: Pitcher and water jug, hurry to the spring and bring me water. I am thirsty.
+        - id: ch06-b03
+          speaker: narrator
+          text: They went down to the spring. As they filled themselves, the water jug knocked against the pitcher and broke off its spout. Weeping, the pitcher ran back to its mistress.
+        - id: ch06-b04
+          speaker: pitcher
+          text: Mistress, punish the water jug! He broke my spout!
+          emotion: sad
+        - id: ch06-b05
+          speaker: water_jug
+          text: By the head of Buk Ettemsuch, please don't punish me!
+          emotion: fearful
+        - id: ch06-b06
+          speaker: youngest_daughter
+          text: Ah, if only my husband had sworn that oath, I could have spoken to him from the very beginning. He would never have needed another wife. But now he will never say it, and he'll have to keep marrying new ones.
+          emotion: sad
+        - id: ch06-b07
+          speaker: narrator
+          text: The prince heard every word from his hiding place. He leaped up and ran to her.
+        - id: ch06-b08
+          speaker: prince
+          text: By the head of Buk Ettemsuch, speak to me!
+        - id: ch06-b09
+          speaker: narrator
+          text: At once she spoke to him. Because she had kept the promise she made to the ogre, she and the prince lived happily together for the rest of their days.

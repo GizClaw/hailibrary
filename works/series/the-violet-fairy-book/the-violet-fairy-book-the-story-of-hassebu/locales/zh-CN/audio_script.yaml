@@ -1,0 +1,334 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 编者
+      tts:
+        delivery: 亲切而略带诙谐的讲述
+        timbre: 温暖清晰的成年男声
+        pace: 从容舒展
+        pitch: 中低音
+    hassebu:
+      display_name: 哈塞布
+      tts:
+        delivery: 真诚勇敢，带着少年的直率
+        timbre: 清亮年轻的男声
+        pace: 适中
+        pitch: 中音
+    mother:
+      display_name: 母亲
+      tts:
+        delivery: 慈爱恳切，处处护着孩子
+        timbre: 温暖成熟的女声
+        pace: 舒缓
+        pitch: 中音
+    woodcutter_1:
+      display_name: 砍柴人甲
+      tts:
+        delivery: 粗直强硬，处处盘算利益
+        timbre: 粗粝的成年男声
+        pace: 稍快
+        pitch: 中低音
+    woodcutter_2:
+      display_name: 砍柴人乙
+      tts:
+        delivery: 贪婪干脆，说话毫不迟疑
+        timbre: 干涩的成年男声
+        pace: 适中
+        pitch: 中音
+    woodcutter_3:
+      display_name: 砍柴人丙
+      tts:
+        delivery: 克制谨慎，心中仍有几分不安
+        timbre: 坚实的成年男声
+        pace: 适中
+        pitch: 低音
+    snake_king:
+      display_name: 蛇王
+      tts:
+        delivery: 庄重仁厚，明知命运仍从容不迫
+        timbre: 圆润深沉的成年男声
+        pace: 徐缓
+        pitch: 低音
+    vizir:
+      display_name: 维齐尔
+      tts:
+        delivery: 冷峻多疑，习惯发号施令
+        timbre: 硬朗威严的成年男声
+        pace: 沉稳
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 哈塞布与蜂蜜坑
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，有个穷苦的女人，只有一个儿子，名叫哈塞布。孩子大些以后，母亲先送他去念书，后来又让他跟裁缝学做衣服，也学过打银器。可不管别人教什么，他都学不会。母亲舍不得逼他做不喜欢的事。
+        - id: ch01-b02
+          speaker: mother
+          text: >-
+            好吧，儿啊，那你就在家待着吧。
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            哈塞布便留在家里，每天不是吃，就是睡。有一天，他忽然问起了父亲。
+        - id: ch01-b04
+          speaker: hassebu
+          text: >-
+            母亲，我父亲以前靠什么生活？
+        - id: ch01-b05
+          speaker: mother
+          text: >-
+            他是医生，学问深得很。
+        - id: ch01-b06
+          speaker: hassebu
+          text: >-
+            那他留下的书呢？
+        - id: ch01-b07
+          speaker: mother
+          text: >-
+            过去这么多年，我都没想起那些书。你去里边找找，看它们还在不在。
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            哈塞布找到了书，可书全叫虫蛀坏了，只剩一本。他把那本医书拿来，认真读了起来。一天早晨，他正在家里钻研医书，几个以砍柴为生的邻人恰好经过。他们平日把木柴装上驴背，运到城里去卖。
+        - id: ch01-b09
+          speakers: [woodcutter_1, woodcutter_2, woodcutter_3]
+          ensemble: chorus
+          text: >-
+            把这孩子交给我们吧，让他跟我们一起砍柴去。
+        - id: ch01-b10
+          speaker: mother
+          text: >-
+            好。明天我给他买头驴，他就能和你们一道去了。
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            母亲买了驴。哈塞布跟邻人辛苦干了一整天，傍晚把柴运进城，卖了不少钱。他们一连去了六天。第七天下起雨来，其他人都躲到岩石下面，哈塞布却不怕淋，独自留在原地。他随手捡起一块石头，往地上一扔，下面竟响起空洞洞的回声。
+        - id: ch01-b12
+          speaker: hassebu
+          text: >-
+            你们快来听！这地底下好像是空的。
+        - id: ch01-b13
+          speaker: woodcutter_1
+          text: >-
+            再敲一次！
+        - id: ch01-b14
+          speaker: narrator
+          text: >-
+            哈塞布又敲了一下，大家都听见了那阵回声。
+        - id: ch01-b15
+          speaker: hassebu
+          text: >-
+            咱们把这里挖开吧。
+        - id: ch01-b16
+          speaker: narrator
+          text: >-
+            众人动手挖掘，竟挖出一个井似的大坑。坑里满是蜂蜜，一直漫到边上。
+        - id: ch01-b17
+          speakers: [woodcutter_1, woodcutter_2, woodcutter_3]
+          ensemble: chorus
+          text: >-
+            蜂蜜可比柴值钱多了。哈塞布，是你找到的坑，就由你下去舀。我们把蜂蜜拿进城卖，卖来的钱分你一份。
+        - id: ch01-b18
+          speaker: narrator
+          text: >-
+            第二天，每个人都带来家中所有的碗罐器皿。哈塞布把它们一一装满。就这样，他天天替众人舀蜂蜜，一连舀了三个月。
+
+    - id: ch02
+      title: 被遗弃在地下
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            三个月后，蜂蜜快见底了，只剩一点积在坑底最深的地方。那坑深得像是通到了大地中央。砍柴人商量出一个办法。
+        - id: ch02-b02
+          speaker: woodcutter_1
+          text: >-
+            我们用绳子套住你的胳膊，把你放到底下。你把最后的蜂蜜刮干净。弄完以后，我们再把绳子垂下去，你系牢了，我们拉你上来。
+        - id: ch02-b03
+          speaker: hassebu
+          text: >-
+            行，就这么办。
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            哈塞布下了坑，一遍遍地刮，直到剩下的蜂蜜连针尖也盖不住。
+        - id: ch02-b05
+          speaker: hassebu
+          text: >-
+            我已经弄完了！把绳子放下来吧！
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            上面的人却聚在一起，低声商量怎样吞掉他那份钱。
+        - id: ch02-b07
+          speaker: woodcutter_2
+          text: >-
+            就让他死在坑里。回去告诉他母亲，说狮子把他拖进了森林。咱们追过，只是没能追上。
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            他们回到城里，照这番话骗了哈塞布的母亲。可怜的母亲哭了很久，又为儿子服了好几个月的丧。众人分钱时，其中一人还有些过意不去。
+        - id: ch02-b09
+          speaker: woodcutter_3
+          text: >-
+            咱们也该送一点给朋友的母亲。
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            他们给了她一些钱。此后每天，这个人送米，那个人送油，还有人送肉、送布。坑底的哈塞布很快就明白，同伴把他留下来等死了。不过他并没有绝望。他四处摸索，发现地洞一直向地下深处延伸。夜里他睡觉，白天便吃一点收集来的蜂蜜。许多天就这样过去了。
+        - id: ch02-b11
+          speaker: narrator
+          text: >-
+            一天早晨，哈塞布正坐在岩石上吃早饭，一只大蝎子忽然落在脚边。他怕被蜇，立刻用石头把蝎子砸死。接着，他想到了什么。
+        - id: ch02-b12
+          speaker: hassebu
+          text: >-
+            这只蝎子一定是从什么地方爬来的。也许附近有洞，我得找找看。
+        - id: ch02-b13
+          speaker: narrator
+          text: >-
+            他沿着四周的坑壁仔细摸，终于在洞顶找到一个小孔。孔的远处透来一丝亮光，哈塞布顿时高兴起来。他拔出小刀，不停地挖，终于把洞口挖到足以容他钻过。外面是一大片开阔地，还有一条通向远方的小路。
+        - id: ch02-b14
+          speaker: narrator
+          text: >-
+            哈塞布顺着小路走了很久，来到一座大宅子前。金子做的门正敞开着。他走进宽广的大厅，只见中央摆着镶满宝石的宝座，旁边还有一张铺满柔软坐垫的长榻。他已经走得筋疲力尽，便躺到长榻上，很快睡熟了。
+
+    - id: ch03
+      title: 蛇王的宫殿
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            过了一阵，院子里传来许多人走动的声音，还有士兵整齐的脚步声。原来，蛇王正带着仪仗返回宫殿。众蛇进了大厅，看见一个人躺在国王的床上，惊得全停了下来。士兵要立刻杀掉哈塞布，蛇王却拦住他们。
+        - id: ch03-b02
+          speaker: snake_king
+          text: >-
+            不要伤他。先把我放到椅子上。
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            抬着蛇王的士兵跪下，让他从肩头滑到椅中。蛇王坐稳以后，吩咐士兵轻轻叫醒陌生人。哈塞布醒来坐起，只见许多蛇围在四周。其中一条分外美丽，身上还穿着王袍。
+        - id: ch03-b04
+          speaker: hassebu
+          text: >-
+            你是谁？
+        - id: ch03-b05
+          speaker: snake_king
+          text: >-
+            我是蛇王，这座宫殿是我的。现在该你告诉我了，你是谁，又是从哪里来的？
+        - id: ch03-b06
+          speaker: hassebu
+          text: >-
+            我叫哈塞布。可我不知道自己是从哪里来的，也不知道要往哪里去。
+        - id: ch03-b07
+          speaker: snake_king
+          text: >-
+            那就先在我这里住一阵吧。
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            蛇王命士兵从泉中取来清水，又从森林采来果子，摆在客人面前。哈塞布在宫殿里休养了好些天，每天都有丰盛的食物。可是渐渐地，他想起了母亲，也想回自己的故乡。
+        - id: ch03-b09
+          speaker: hassebu
+          text: >-
+            求你送我回家吧。
+        - id: ch03-b10
+          speaker: snake_king
+          text: >-
+            你回去以后，会给我带来灾祸。
+        - id: ch03-b11
+          speaker: hassebu
+          text: >-
+            我不会伤害你。求你让我回家。
+        - id: ch03-b12
+          speaker: snake_king
+          text: >-
+            我知道后面会发生什么。只要送你回去，你将来就会再来杀我。我不能冒这个险。
+        - id: ch03-b13
+          speaker: narrator
+          text: >-
+            哈塞布一再苦苦哀求，蛇王终于松了口。
+        - id: ch03-b14
+          speaker: snake_king
+          text: >-
+            你先答应我。回到家以后，绝不能去人多的地方洗澡。
+        - id: ch03-b15
+          speaker: narrator
+          text: >-
+            哈塞布发了誓。蛇王派士兵把他送到能望见故乡城池的地方。他径直回到家中，母亲见到儿子平安归来，心里欢喜极了。
+
+    - id: ch04
+      title: 蛇王的预言
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            这时候，城里的苏丹身患重病。所有智者都说，只有吃下蛇王的肉，苏丹才能痊愈。他们还说，世上只有胸前带着奇异印记的人，才找得到蛇王。因此，维齐尔派人守住公共浴室，查看每一个来洗澡的人。
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            一连三天，哈塞布都记得自己的誓言，没有靠近浴室。第四天早晨，天气热得他几乎喘不过气来，竟把答应蛇王的话全忘了。他才脱掉长袍，立刻就被人抓到了维齐尔面前。
+        - id: ch04-b03
+          speaker: vizir
+          text: >-
+            带我们去找蛇王。
+        - id: ch04-b04
+          speaker: hassebu
+          text: >-
+            我不知道蛇王住在哪里！
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            维齐尔根本不信，命人把哈塞布捆起来毒打，直到他的后背皮开肉绽。
+        - id: ch04-b06
+          speaker: hassebu
+          text: >-
+            别打了，放开我！我带你们去。
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            一行人走了很远很远，终于来到蛇王的宫殿。哈塞布见到蛇王，立刻把自己的伤给他看。
+        - id: ch04-b08
+          speaker: hassebu
+          text: >-
+            不是我自愿领他们来的。看看我的背吧，他们是这样逼我来的。
+        - id: ch04-b09
+          speaker: snake_king
+          text: >-
+            是谁把你打成了这样？
+        - id: ch04-b10
+          speaker: hassebu
+          text: >-
+            是维齐尔。
+        - id: ch04-b11
+          speaker: snake_king
+          text: >-
+            那么，我已经活不成了。可是你得亲自把我带回去。
+          emotion: sad
+        - id: ch04-b12
+          speaker: narrator
+          text: >-
+            哈塞布只好抱起蛇王，带着他往城里走。路上，蛇王把将要发生的事一一告诉他。
+        - id: ch04-b13
+          speaker: snake_king
+          text: >-
+            我到了那里，他们会杀死我，把我的肉放进锅里煮。你先取一点煮我的汤，装进瓶子，放在旁边。维齐尔会命你把它喝掉，你千万别喝。再取第二份汤水，自己喝下去。喝过以后，你会成为一位医术高明的医生。第三份要交给苏丹，他喝了就能治好病。
+        - id: ch04-b14
+          speaker: snake_king
+          text: >-
+            等维齐尔来问，你有没有喝他给的汤，你就说已经喝了，再把第一份递给他，说这是留给他的。他一喝便会死。到那时，你的心也能安定下来。
+        - id: ch04-b15
+          speaker: narrator
+          text: >-
+            他们就这样进了城。后来发生的每一件事，果然都和蛇王预先说的一样。苏丹从此十分喜爱哈塞布。哈塞布也成了一位了不起的医生，治好了许多病人。
+        - id: ch04-b16
+          speaker: narrator
+          text: >-
+            可是，他一直为可怜的蛇王感到悲伤。
+        - id: ch04-b17
+          speaker: narrator
+          text: >-
+            这个故事，是据《斯瓦希里故事集》改写的。

@@ -1,0 +1,326 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 清楚从容，像在为听众介绍一本古老的童话集
+        timbre: 温暖明净
+        pace: 舒缓
+        pitch: 中音
+    father_grumbler:
+      display_name: 牢骚老爹
+      tts: {delivery: 粗声粗气，总带几分不满和自以为是, timbre: 粗哑厚重, pace: 适中, pitch: 中低音}
+    holy_man:
+      display_name: 圣人
+      tts: {delivery: 沉着简洁，告诫人时严肃而略带机锋, timbre: 苍老清朗, pace: 舒缓, pitch: 中低音}
+    innkeepers_wife:
+      display_name: 老板娘
+      tts: {delivery: 表面殷勤柔和，盘算时小心试探, timbre: 圆润, pace: 适中, pitch: 中音}
+    innkeeper:
+      display_name: 酒馆店主
+      tts: {delivery: 热络圆滑，心虚时慌乱, timbre: 浑厚, pace: 适中, pitch: 中低音}
+    wife:
+      display_name: 牢骚老爹的妻子
+      tts: {delivery: 劳累直率，责备时又急又气, timbre: 清晰结实, pace: 稍快, pitch: 中音}
+    child_1:
+      display_name: 大孩子
+      tts: {delivery: 好奇爽快, timbre: 年轻清亮, pace: 稍快, pitch: 中高音}
+    child_2:
+      display_name: 二孩子
+      tts: {delivery: 天真活泼, timbre: 清脆, pace: 稍快, pitch: 高音}
+    child_3:
+      display_name: 小孩子
+      tts: {delivery: 稚气认真, timbre: 轻亮, pace: 适中, pitch: 高音}
+  chapters:
+    - id: ch01
+      title: 牢骚老爹的烦恼
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前有个男人，孩子多得快赶上花园里的麻雀。为了弄到足够的食物，让这一大家子全都吃饱，他每天从早到晚拼命干活。一天忙下来，他常常累得脾气暴躁。无论看见什么人、碰上什么事，他都要挑出毛病，骂上几句。时间一久，大家索性叫他牢骚老爹。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            后来，他厌倦了没完没了地干活。每逢星期日，他不去教堂，只在床上躺到很晚。可一个人坐上几个钟头也很无聊，他脑子里翻来覆去，想的只有拖欠的房租。马路对面的酒馆看着又亮堂又热闹。有一天，他终于走进去，跟朋友坐到一起，说自己只是想把烦恼赶走。可是过了好几个钟头，他走出酒馆，烦恼也一起跟了出来。他心里明白，钱和时间都让自己白白耗掉了，所以回家时反倒比出门时更难受。
+        - id: ch01-b03
+          speaker: father_grumbler
+          text: >-
+            我去找井边山洞里的圣人问问。他总该知道，为什么好运都归别人，倒霉事却专找我。
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            他立刻动身。圣人的住处很远，他一路翻过山岭，又穿过一道道山谷，终于来到那座洞穴前，抬手敲响了门。
+        - id: ch01-b05
+          speaker: holy_man
+          text: 谁在外面？
+        - id: ch01-b06
+          speaker: father_grumbler
+          text: 是我呀，圣人。牢骚老爹，孩子多得跟花园里的麻雀一样。您知道我的。
+        - id: ch01-b07
+          speaker: holy_man
+          text: 你来找我，想要什么？
+        - id: ch01-b08
+          speaker: father_grumbler
+          text: 我想弄明白，凭什么人人都有好运，只有我老是倒霉！
+    - id: ch02
+      title: 会变出饭菜的篮子
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 圣人没回答，走进里面的洞穴，取出一只篮子。
+        - id: ch02-b02
+          speaker: holy_man
+          text: >-
+            这是一只魔法篮。你饿了，就念“小篮子，小篮子，快把本分办”，它会送上你一生吃过最好的饭。吃饱以后一定要喊“今天到此为止”。还有，别拿给每个人看，也别到处说是我给的。听懂了吗？
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            牢骚老爹早就认定自己命里倒霉，拿不准圣人是不是又在拿他开心。他还是接过了篮子，却连一句谢谢和早安也不肯说，转身便走。其实，他心里急着试一试，只忍到山洞从背后消失，就停下来弯下腰，对着篮盖轻声念起口诀。
+        - id: ch02-b04
+          speaker: father_grumbler
+          text: 小篮子，小篮子，快把本分办！
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            篮子盖得严严实实，他看不见里面，只听到一阵奇怪的推挤声。接着，盖子砰地弹开。香喷喷的白面小圆包一个接一个滚出来，后面又涌出无数已经烧好的小鱼。数量多得吓人，整条大路转眼被铺满，两旁的路堤也一点点消失。牢骚老爹眼看这股鱼和面包的洪流还在往外冒，吓得不轻，好不容易才想起圣人教过的第二句话。
+        - id: ch02-b06
+          speaker: father_grumbler
+          text: 够了，够了！今天到此为止！
+          emotion: fearful
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            篮盖啪地合上。他又安心又快活，长长松了一口气，坐到一堆石头上，放开肚皮吃起来。手边有鳟鱼、鲑鱼、大菱鲆、鳎鱼，还有上百种他叫不出名字的鱼。它们有的水煮，有的油煎，有的火烤，伸手就能拿到。他一直吃到再也塞不下一口。这顿饭果然是他一生吃过最好的，可他放下食物，照旧摇头抱怨。
+        - id: ch02-b08
+          speaker: father_grumbler
+          text: 吃的是不少，可越吃越渴。四周连一滴能喝的东西也没有。
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            也不知为什么，他一抬头，原本远在许多英里外的酒馆竟到了眼前。他进去便向老板娘要最好的酒和两只杯子，还说她要是爱吃鱼，外面那些足够全店的人吃，只管别到处多嘴。他不等回答，又对篮子念了口诀。店主夫妇还以为客人忽然疯了，紧盯着他，预备他一动粗就扑上去。谁知各种面包和鱼真的滚了出来，先铺满桌椅和地板，又一直漫到街上。两个人本能地往后猛跳，差一点掉进炉火。
+        - id: ch02-b10
+          speaker: father_grumbler
+          text: 快捡呀！这点不够，还能再要，多得很！
+        - id: ch02-b11
+          speaker: narrator
+          text: 店主夫妇不用催第二次，马上跪到地上，拼命收拾伸手能够着的东西。他们看起来忙得不可开交，却还是挤出工夫，凑在一起悄悄商量。
+        - id: ch02-b12
+          speakers: [innkeeper, innkeepers_wife]
+          ensemble: duo
+          text: 要是能把篮子弄到手，咱们可就发财了！
+    - id: ch03
+      title: 被调换的篮子
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            夫妇俩不必再催，跪在地上把够得着的食物全搂了起来。随后，他们请牢骚老爹入座，拿出地窖里最好的酒，想用酒撬开他的嘴。他们换着法子追问篮子的来历，可牢骚老爹比两人料想的聪明，总能岔开话头，没泄露秘密。可惜，他虽然没开口告诉他们，却一杯没少喝，很快就睡得人事不知。老板娘从厨房找来一只几乎一模一样的篮子。若不仔细端详，谁也看不出分别。她把假货塞进他手里，又把真正的魔法篮仔细藏好。
+        - id: ch03-b02
+          speaker: narrator
+          text: >-
+            他醒来时已是晚饭时分，猛地跳起来，匆匆忙忙赶回家。屋里，所有孩子都围着一盆稀汤，个个把木碗向前伸，盼着自己能分到第一勺。他提着篮子闯到孩子们中间，大声叫他们先别吃。
+        - id: ch03-b03
+          speaker: father_grumbler
+          text: >-
+            别用这种稀汤填肚子。瞧这只篮子，只要念一句口诀，就有好东西吃。今天让你们来念，开开心！
+        - id: ch03-b04
+          speakers: [child_1, child_2, child_3]
+          ensemble: chorus
+          text: 小篮子，小篮子，快把本分办！
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            什么也没发生。孩子们又惊奇又兴奋，念了一遍又一遍，可那仍是一只普通篮子。底下只粘着几片鱼鳞，因为老板娘前一天才提着它去过市场。牢骚老爹终于忍不住，一把从孩子手中抢过篮子，翻过来倒过去地查看，嘴里又抱怨又咒骂。妻子和孩子惊愕地看着他，完全不知道此刻应该哭，还是应该笑。
+        - id: ch03-b06
+          speaker: father_grumbler
+          text: >-
+            这篮子明明还有鱼腥味。可要是它根本不是我的呢？要是有人趁我睡着……好啊，我明白了，一定是那两个混蛋！
+          emotion: angry
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            他猛地猜到篮子可能被换了。妻子和孩子都被他这副怪样子吓坏了，连声求他留在家里。他一句也不肯听，径直跑过马路，一把撞开酒馆的门。老板娘却像什么也没有发生，用她最温柔的声音问他有什么事。
+        - id: ch03-b08
+          speaker: father_grumbler
+          text: 我当然是不小心拿错了。这只是你的，把我的那只还来吧。
+        - id: ch03-b09
+          speaker: innkeepers_wife
+          text: 你在说什么呀？自己看看，这里哪有篮子？
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            他当真四处找了一遍，果真连一只篮子也没看见。老板娘怕他发火，便请他喝杯酒，说这大冷天正好暖暖身子。这样的邀请，牢骚老爹向来不会拒绝。他一口喝完，离开酒馆，又踏上通往圣人洞穴的路。他赶得飞快，没过多久就到了门前。
+    - id: ch04
+      title: 会掉金子的公鸡
+      blocks:
+        - id: ch04-b01
+          speaker: holy_man
+          text: 谁在敲门？
+        - id: ch04-b02
+          speaker: father_grumbler
+          text: 是我，圣人。就是那个孩子多得像花园里麻雀的牢骚老爹。
+        - id: ch04-b03
+          speaker: holy_man
+          text: 好心的朋友，我昨天不是才送了你一件好礼物吗？
+        - id: ch04-b04
+          speaker: father_grumbler
+          text: 就是它呀，可不知出了什么事，它已经不灵了。
+        - id: ch04-b05
+          speaker: narrator
+          text: 圣人叫他把篮子放下，答应再进去看看，还有没有东西可以给他。过了几分钟，圣人从洞穴深处回来，胳膊下面夹着一只公鸡。
+        - id: ch04-b06
+          speaker: holy_man
+          text: >-
+            想要钱，就对它说“公鸡公鸡，显显本领”，你会看到奇妙的事。不过别把秘密告诉全世界，也别逢人就说是我送的。我这里可没有成打的宝物。
+        - id: ch04-b07
+          speaker: father_grumbler
+          text: 放心吧，我才没那么傻。
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            圣人不等他回答便关上门。跟上一次一样，回去的路又像让魔法缩短了。只过了一会儿，酒馆便立在牢骚老爹面前。他想都不想就走进去，正好看见老板娘在厨房做蛋糕。公鸡个头太大，篮盖都扣不严。老板娘问他从哪里弄来这样漂亮的大红公鸡，他故意卖关子，只说自己去了一个宝物没有成打存着的地方，然后在桌前坐下。女人不再追问，只摆上他最爱的酒。没过多久，他又忍不住想显摆自己的宝贝了。
+        - id: ch04-b09
+          speaker: father_grumbler
+          text: 公鸡公鸡，显显本领！
+        - id: ch04-b10
+          speaker: narrator
+          text: >-
+            公鸡立起身子，拍了三下翅膀，又用号角般嘹亮的声音喔喔叫了三遍。每叫一声，嘴里就落下一串金灿灿的滴珠，还有豌豆那么大的钻石。这一回，牢骚老爹没请老板娘来捡。他把自己的帽子接在鸡嘴下面，将每一件宝贝都兜住。也正因为这样，他没看见店主夫妇偷偷交换眼色。两人的眼神都在说，这只公鸡若配上已经到手的篮子，可真是再好不过了。
+        - id: ch04-b11
+          speaker: innkeeper
+          text: 公鸡也看够了，再来一杯酒怎么样？
+        - id: ch04-b12
+          speaker: narrator
+          text: >-
+            店主夫妇对着公鸡的漂亮模样赞叹了一番，却装作没看见金子和钻石。牢骚老爹本来就巴不得有人劝酒，于是欣然端起杯子，一杯接着一杯，直到脑袋向前垂在桌上，第二次沉沉睡去。老板娘轻手轻脚地把公鸡哄出篮子，抱进自家鸡舍，又从鸡舍捉来一只模样相同的公鸡，迅速塞进原来的位置。夜色降临以后，牢骚老爹才醒来。他神气地往桌上丢了几粒金珠，付清自己喝掉的酒钱，又把公鸡舒舒服服地安置好，提着篮子踏上回家的路。
+    - id: ch05
+      title: 第二件宝物也丢了
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 妻子和孩子全等在门口。妻子见到他，立刻发作了。
+        - id: ch05-b02
+          speaker: wife
+          text: >-
+            你可真会过日子！又去酒馆浪费时间和钱，把全家扔在这里挨饿。你就不觉得丢脸吗？
+          emotion: angry
+        - id: ch05-b03
+          speaker: father_grumbler
+          text: >-
+            你根本不明白。我现在想要多少金子和钻石都有。看着这只公鸡，只要叫它显显本领，就会发生了不起的事。
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            上次吃了亏，妻子和孩子谁也不大相信他，但大家觉得试一试也没有损失，便照他的话念了口诀。公鸡却只会像发疯一样绕着屋子乱飞，叫声震得所有人的脑袋都快裂开。可铺砖的地面上没有落下一点黄金，也没有一颗钻石，连最小的一粒也找不到。
+        - id: ch05-b05
+          speaker: narrator
+          text: >-
+            牢骚老爹一言不发，盯着公鸡看了一会儿，忽然骂得震天响。家人早已听惯他那些难听的话，这一次却还是暗暗吃惊。过了好一会儿，他总算安静了一点，可心里的疑团仍旧没有解开。
+        - id: ch05-b06
+          speaker: father_grumbler
+          text: 我会记错口诀吗？不可能！那就是圣人的原话，钻石也是我亲眼看见的！
+        - id: ch05-b07
+          speaker: narrator
+          text: >-
+            他突然猛地抓住公鸡，把它关进篮子，冲出家门。一路上，沉重的木鞋踩着道路，咔嗒咔嗒响个不停。他跑得那么急，等再次赶到圣人的洞穴时，天边的星星才刚刚一颗颗露面。
+        - id: ch05-b08
+          speaker: holy_man
+          text: 外面是谁？
+        - id: ch05-b09
+          speaker: father_grumbler
+          text: 是我，是我呀，圣人！牢骚——
+        - id: ch05-b10
+          speaker: holy_man
+          text: >-
+            好心的朋友，你总该给别人留一点机会吧。算上前两次，这已经是你第三次来找我了，而且还偏偏挑了这么晚的时辰！
+        - id: ch05-b11
+          speaker: father_grumbler
+          text: >-
+            我知道时候不早，可您会原谅我的。您的公鸡出了毛病，跟篮子一模一样。您看看！
+        - id: ch05-b12
+          speaker: holy_man
+          text: 这哪是我的公鸡？那也不是我的篮子。好心的朋友，你叫人骗啦！
+        - id: ch05-b13
+          speaker: father_grumbler
+          text: 骗了我？那一定是那两个……
+          emotion: surprised
+    - id: ch06
+      title: 袋中的白柳条
+      blocks:
+        - id: ch06-b01
+          speaker: holy_man
+          text: >-
+            我早警告过你，不要把宝物拿给任何人看。你落到这一步，原本是自找的……不过，我愿意再给你最后一次机会。
+        - id: ch06-b02
+          speaker: narrator
+          text: 圣人从墙上摘下一件东西，交给了他。
+        - id: ch06-b03
+          speaker: holy_man
+          text: >-
+            你要替自己或朋友掸掸外衣，就念“啪嗒，唰啦，柳条快抽打”。自然会看见结果。我要说的就是这些。
+        - id: ch06-b04
+          speaker: narrator
+          text: 圣人没有再解释，只暗自露出一丝微笑，随即把牢骚老爹和他的新宝物一起推出了洞外。
+        - id: ch06-b05
+          speaker: father_grumbler
+          text: 我这次懂了。你们两个恶棍，可算让我抓住了！
+        - id: ch06-b06
+          speaker: narrator
+          text: >-
+            他加快脚步赶回酒馆，胳膊下夹着篮子，里面装着公鸡和柳条。一进门，他先若无其事地向店主夫妇问好，说自己饿得厉害，请他们尽快把这只公鸡烤来吃。他特意叮嘱，必须是眼前这一只，绝不能调换。篮子也可以拿去生火。等这两件事都办好，他再展示袋里的东西。说着，他努力学起圣人方才那种意味深长的笑容。
+        - id: ch06-b07
+          speaker: narrator
+          text: >-
+            这番吩咐让老板娘非常不安，可她一句话也没说，只管动手烤鸡。与此同时，店主使出浑身解数，一杯接一杯地劝酒，还想像前两次一样把客人灌睡。可这回不管他怎么劝都没用。晚饭端上来后，牢骚老爹照样抱怨个不停，因为那只公鸡的肉实在太老。等他吃完，忽然一巴掌拍在桌上。
+        - id: ch06-b08
+          speaker: father_grumbler
+          text: 现在马上拿回我的公鸡和篮子。听清楚了吗？
+        - id: ch06-b09
+          speaker: innkeepers_wife
+          text: 你的公鸡和篮子？可你刚刚不是已经……
+        - id: ch06-b10
+          speaker: father_grumbler
+          text: >-
+            我要我的公鸡、我的篮子！你们又聋又蠢，还是听不明白，我就拿一样东西好好教教你们。啪嗒，唰啦，柳条快抽打！
+          emotion: angry
+    - id: ch07
+      title: 谁也没得到宝物
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: >-
+            话音刚落，只听啪嗒、唰啦几声，一根白柳条从袋子里蹿了出来，快得像一道闪电。它劈头盖脸地狠抽店主和老板娘，连念口诀的牢骚老爹也没放过。三个人挨一下就跳一下，全都跳得老高，活像有人抖动床垫时，从里面蹦起来的羽毛。
+        - id: ch07-b02
+          speakers: [innkeeper, innkeepers_wife]
+          ensemble: duo
+          text: 快让它停下！我们马上还你公鸡和篮子！
+          emotion: fearful
+        - id: ch07-b03
+          speaker: father_grumbler
+          text: 停呀，没听见吗？今天到此为止！
+          emotion: fearful
+        - id: ch07-b04
+          speaker: narrator
+          text: >-
+            牢骚老爹自己也不愿意再挨打，便在一下下跳起时喊出停下的口诀。可他喊错了。柳条毫不理会，还是像先前一样不停抽打。若不是圣人听见三个人的叫喊，亲自赶来搭救，它说不定直到今天还没停手。
+        - id: ch07-b05
+          speaker: holy_man
+          text: 快回袋子里！
+        - id: ch07-b06
+          speaker: narrator
+          text: 柳条听见圣人的命令，立刻停手，乖乖钻回袋子里。
+        - id: ch07-b07
+          speaker: holy_man
+          text: 现在，把公鸡和篮子拿来。
+        - id: ch07-b08
+          speaker: narrator
+          text: 圣人这回直接吩咐老板娘取回公鸡和篮子。她一句话也不敢辩解，立刻走去把两件宝物拿来，老老实实放在桌上。
+        - id: ch07-b09
+          speaker: holy_man
+          text: >-
+            你们每个人都受到了应有的惩罚，所以你们哪一个也不值得我同情。篮子、公鸡和柳条，我都要带回自己的洞穴。也许有一天，我能找到一个真正懂得把握机会、好好使用这些宝物的人。不过，牢骚老爹，那个人永远不会是你。
+        - id: ch07-b10
+          speaker: narrator
+          text: 本故事选自《民间故事集》。

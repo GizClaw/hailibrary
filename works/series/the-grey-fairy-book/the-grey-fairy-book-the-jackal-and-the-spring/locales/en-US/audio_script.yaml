@@ -1,0 +1,390 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant, and gently dramatic
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    jackal:
+      display_name: The Jackal
+      tts:
+        delivery: sly, coaxing, and self-satisfied
+        timbre: lean and raspy
+        pace: easy
+        pitch: medium
+    rabbit:
+      display_name: The Rabbit
+      tts:
+        delivery: polite, eager, and trusting
+        timbre: soft and light
+        pace: natural
+        pitch: high
+    little_hare:
+      display_name: The Little Hare
+      tts:
+        delivery: lively, confident, and impulsive
+        timbre: bright and youthful
+        pace: brisk
+        pitch: high
+    panther:
+      display_name: The Panther
+      tts:
+        delivery: decisive and authoritative
+        timbre: deep and smooth
+        pace: measured
+        pitch: low
+    tortoise:
+      display_name: The Tortoise
+      tts:
+        delivery: silent-minded, steady, and resolute
+        timbre: dry and grounded
+        pace: slow
+        pitch: medium-low
+    king:
+      display_name: The King
+      tts:
+        delivery: protective, proud, and commanding
+        timbre: full and mature
+        pace: measured
+        pitch: low
+    princess:
+      display_name: The Princess
+      tts:
+        delivery: spirited, resourceful, and sincere
+        timbre: clear and graceful
+        pace: natural
+        pitch: medium-high
+    nurse:
+      display_name: The Nurse
+      tts:
+        delivery: soothing, secretive, and assured
+        timbre: mellow and mature
+        pace: unhurried
+        pitch: medium-low
+    prince:
+      display_name: The Prince
+      tts:
+        delivery: courteous, ardent, and emotionally open
+        timbre: warm and youthful
+        pace: natural
+        pitch: medium
+    queen:
+      display_name: The Queen
+      tts:
+        delivery: kind, practical, and welcoming
+        timbre: gentle and dignified
+        pace: measured
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Well and the Rabbit
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, every stream and river ran dry. The animals had no idea where they could get water. They searched for a very long time without finding any. At last they discovered one tiny spring. It only needed to be dug deeper, and then it would give them plenty to drink.
+        - id: ch01-b02
+          speakers: [rabbit, little_hare, panther, tortoise]
+          ensemble: chorus
+          text: Let us dig a well. Then we won't have to fear dying of thirst.
+        - id: ch01-b03
+          speaker: narrator
+          text: Every animal agreed except the jackal. He hated every kind of work and usually persuaded somebody else to do it for him. The others dug until their well was finished. Then they held a council to choose a guardian, because they meant to keep the jackal from coming near the water.
+        - id: ch01-b04
+          speakers: [rabbit, little_hare, panther, tortoise]
+          ensemble: chorus
+          text: He refused to work, so he shall not drink.
+        - id: ch01-b05
+          speaker: narrator
+          text: After talking it over, they chose the rabbit to stand guard. Then all the other animals went home. As soon as they were out of sight, the jackal appeared.
+        - id: ch01-b06
+          speaker: jackal
+          text: Good morning, rabbit! A very good morning to you!
+        - id: ch01-b07
+          speaker: rabbit
+          text: Good morning!
+        - id: ch01-b08
+          speaker: narrator
+          text: The jackal opened the little bag at his side, took out a piece of honeycomb, and began to eat it. Then he turned toward the rabbit.
+        - id: ch01-b09
+          speaker: jackal
+          text: You can see I'm not thirsty at all, rabbit. This tastes much better than water.
+        - id: ch01-b10
+          speaker: rabbit
+          text: Please give me a bite.
+        - id: ch01-b11
+          speaker: narrator
+          text: The jackal handed him the smallest morsel.
+        - id: ch01-b12
+          speaker: rabbit
+          text: Oh, that's delicious! Please, dear friend, give me a little more!
+          emotion: happy
+        - id: ch01-b13
+          speaker: jackal
+          text: If you truly want more, let me tie your paws behind your back. Then lie down, and I'll pour it into your mouth.
+        - id: ch01-b14
+          speaker: narrator
+          text: The rabbit did exactly as he was told. The jackal tied his paws tightly behind him and tipped him onto his back. Then, instead of giving him more honeycomb, the jackal ran straight to the spring. He drank as much water as he wanted. When he had finished, he left the rabbit there and returned to his den.
+        - id: ch01-b15
+          speaker: narrator
+          text: That evening, the animals returned. They found the rabbit lying there with his paws bound.
+        - id: ch01-b16
+          speakers: [little_hare, panther, tortoise]
+          ensemble: chorus
+          text: Rabbit, how could you let anyone trick you like this?
+        - id: ch01-b17
+          speaker: rabbit
+          text: It was the jackal's fault. He tied me up and promised me something tasty. The whole thing was a trick so he could reach our water.
+        - id: ch01-b18
+          speaker: panther
+          text: Rabbit, only an idiot would let the jackal drink after he refused to help us find the water. We need a sharper watchman next time. Who will do it?
+        - id: ch01-b19
+          speaker: little_hare
+          text: I will guard the well!
+    - id: ch02
+      title: The Little Hare's Watch
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The next morning, the animals went their separate ways and left the little hare beside the spring. Once again, the jackal waited until they had disappeared.
+        - id: ch02-b02
+          speaker: jackal
+          text: Good morning, little hare! Good morning!
+        - id: ch02-b03
+          speaker: little_hare
+          text: Good morning.
+        - id: ch02-b04
+          speaker: jackal
+          text: Could you spare me a pinch of snuff?
+        - id: ch02-b05
+          speaker: little_hare
+          text: I'm very sorry, but I don't have any.
+        - id: ch02-b06
+          speaker: narrator
+          text: The jackal sat beside him, opened his little bag, and drew out a piece of honeycomb. He licked his lips.
+        - id: ch02-b07
+          speaker: jackal
+          text: Oh, little hare, if only you knew how wonderful this tastes!
+        - id: ch02-b08
+          speaker: little_hare
+          text: What is it?
+        - id: ch02-b09
+          speaker: jackal
+          text: It makes my throat feel so pleasantly moist that I don't want any water afterward. But you other animals always seem to be thirsty.
+        - id: ch02-b10
+          speaker: little_hare
+          text: Give me a piece, dear friend.
+        - id: ch02-b11
+          speaker: jackal
+          text: Not so quickly. To enjoy it properly, you need your paws tied behind you. Lie on your back, and I'll pour it into your mouth.
+        - id: ch02-b12
+          speaker: little_hare
+          text: Go ahead and tie them. Just hurry!
+        - id: ch02-b13
+          speaker: narrator
+          text: The jackal bound the little hare's paws tightly behind him and laid him on his back. But no honeycomb was poured into his mouth. The jackal quietly made his way down to the well instead. He drank as much water as he wanted, and when he had quite finished, he went back to his den.
+        - id: ch02-b14
+          speaker: narrator
+          text: That evening, the animals came home and saw the little hare with his paws tied.
+        - id: ch02-b15
+          speakers: [rabbit, panther, tortoise]
+          ensemble: chorus
+          text: Little hare, how did he fool you too? You boasted that you were clever. You promised to guard our water, so show us how much he left us!
+        - id: ch02-b16
+          speaker: little_hare
+          text: It was the jackal's fault. He promised me a tasty treat if I let him tie my paws behind my back.
+        - id: ch02-b17
+          speaker: rabbit
+          text: Who can we trust to guard the spring now?
+        - id: ch02-b18
+          speaker: panther
+          text: Let the tortoise do it.
+    - id: ch03
+      title: The Tortoise Holds On
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The next morning, the animals left the tortoise in charge and went their various ways. When they were gone, the jackal came back.
+        - id: ch03-b02
+          speaker: jackal
+          text: Good morning, tortoise. Good morning!
+        - id: ch03-b03
+          speaker: narrator
+          text: The tortoise paid no attention. The jackal greeted him again, but the tortoise pretended not to hear.
+        - id: ch03-b04
+          speaker: jackal
+          text: This one is an even bigger idiot than the others. I'll kick him aside and help myself to a drink.
+        - id: ch03-b05
+          speaker: narrator
+          text: The jackal walked up close and softened his voice.
+        - id: ch03-b06
+          speaker: jackal
+          text: Tortoise! Tortoise!
+        - id: ch03-b07
+          speaker: narrator
+          text: Still the tortoise ignored him. So the jackal kicked him out of the way, went to the well, and started to drink. He had barely touched the water when the tortoise seized his leg.
+        - id: ch03-b08
+          speaker: jackal
+          text: Oh! You're going to break my leg!
+          emotion: fearful
+        - id: ch03-b09
+          speaker: narrator
+          text: The tortoise answered by gripping him even harder. The jackal pulled out his little bag and tried to tempt him with the smell of the honeycomb inside. But the tortoise turned his head away. He would not even smell it, much less loosen his jaws.
+        - id: ch03-b10
+          speaker: jackal
+          text: I'll give you my bag and everything inside it.
+        - id: ch03-b11
+          speaker: narrator
+          text: The tortoise gave no spoken answer. He simply tightened his hold once more. The two of them were still locked together when the other animals returned. The moment the jackal saw them, he gave one violent pull and managed to wrench his leg free. Then he took to his heels and ran as fast as he could.
+        - id: ch03-b12
+          speakers: [rabbit, little_hare, panther]
+          ensemble: chorus
+          text: Well done, tortoise! You have proved your courage. You defeated that thieving jackal, and now we can drink from our well in peace!
+    - id: ch04
+      title: The Princess Escapes
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Once there was a king who had only one daughter. He was very proud of her and loved her dearly. Yet that love filled him with constant fear. He was sure something terrible might happen if she ever stepped outside the palace. So he forced her to live like a prisoner, shut away in her own rooms.
+        - id: ch04-b02
+          speaker: narrator
+          text: The princess hated this life. One day she complained bitterly to her nurse about being kept inside. The king did not know that this nurse was really a witch. For some time, she listened and tried to soothe the unhappy girl. But the princess would not be comforted, so at last the nurse offered her a plan.
+        - id: ch04-b03
+          speaker: nurse
+          text: Your father loves you dearly, and he'll give you almost anything you ask for. He will never let you leave the palace, though. So do exactly as I say. Ask him for a wooden wheelbarrow and a bear's skin. Bring them to me, and I'll touch them with my magic wand. The barrow will move by itself and carry you wherever you wish. The skin will hide you so completely that no one will recognize you.
+        - id: ch04-b04
+          speaker: narrator
+          text: The princess followed her advice. The king was astonished by such an odd request and asked what she meant to do with those things.
+        - id: ch04-b05
+          speaker: princess
+          text: You never allow me to leave the palace. At least grant me this one request.
+        - id: ch04-b06
+          speaker: narrator
+          text: The king could not refuse that answer, so he granted her request. The princess carried the wooden wheelbarrow and the bear's skin back to her nurse. As soon as the witch saw them, she touched them with her magic wand. In an instant, the barrow came alive and began rolling about in every direction.
+        - id: ch04-b07
+          speaker: narrator
+          text: Next, the princess pulled the bear's skin over herself. It changed her appearance so completely that no one could have guessed she was a girl and not a real bear. Dressed in this strange disguise, she sat down in the moving barrow. Within minutes, it had carried her far from the palace and was speeding through a great forest. There she made the secret sign her nurse had taught her, and the barrow stopped. She hid both herself and the barrow deep inside a thick grove of flowering shrubs.
+        - id: ch04-b08
+          speaker: narrator
+          text: Now the prince of that country happened to be hunting in the forest with his dogs. All at once, he caught sight of a bear hiding among the shrubs. He called to his dogs and urged them forward to attack it. When the princess saw the animals racing toward her, she knew how great her danger was and cried out.
+        - id: ch04-b09
+          speaker: princess
+          text: Call off your dogs, or they'll kill me! What have I ever done to harm you?
+          emotion: fearful
+        - id: ch04-b10
+          speaker: narrator
+          text: A bear speaking like a person startled the prince so badly that he stood frozen for a moment. Then he answered gently.
+        - id: ch04-b11
+          speaker: prince
+          text: Will you come with me? I'll take you home.
+        - id: ch04-b12
+          speaker: princess
+          text: Yes, I'll gladly come.
+        - id: ch04-b13
+          speaker: narrator
+          text: She seated herself on the barrow, and it immediately began rolling toward the prince's palace. Imagine his mother's surprise when her son came home accompanied by a bear. Yet the strange guest wasted no time. She began doing all the work around the house and performed every task better than any servant the queen had ever known.
+    - id: ch05
+      title: Two Mysterious Balls
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: At that time, a neighboring prince was holding grand festivities in his palace. One day at dinner, the young prince announced his plans to his mother.
+        - id: ch05-b02
+          speaker: prince
+          text: There's a great ball this evening, and I must attend.
+        - id: ch05-b03
+          speaker: queen
+          text: Go, then. Dance and enjoy yourself.
+        - id: ch05-b04
+          speaker: narrator
+          text: The bear had curled up beneath the table, as she often did. Suddenly, her voice rose from below.
+        - id: ch05-b05
+          speaker: princess
+          text: Let me come to the ball. I'd like to dance too.
+        - id: ch05-b06
+          speaker: narrator
+          text: The prince gave no spoken answer. He kicked the bear and drove her out of the room. That evening, he set off alone for the ball. As soon as he had gone, the bear came to the queen and begged to be allowed to go too. She promised to hide herself so carefully that no one would ever know she was there. The kindhearted queen could not bring herself to refuse.
+        - id: ch05-b07
+          speaker: narrator
+          text: The bear hurried to her barrow, threw off the skin, and touched it with the witch's magic wand. At once, the skin became an exquisite ball gown woven from moonbeams. The wheelbarrow changed into a carriage drawn by two prancing horses.
+        - id: ch05-b08
+          speaker: narrator
+          text: The princess stepped into the carriage and drove straight to the grand entrance of the neighboring palace. When she entered the ballroom in that wondrous gown of moonbeams, she looked lovelier and more remarkable than any other guest. Everyone turned to stare. They all wondered who she could be, yet not one person knew where she had come from.
+        - id: ch05-b09
+          speaker: narrator
+          text: From the moment the prince saw her, he fell desperately in love. He stayed beside the beautiful stranger throughout the evening and would not dance with anyone else.
+        - id: ch05-b10
+          speaker: narrator
+          text: As soon as the ball ended, the princess hurried away in her carriage at full speed. She needed to be home before anyone discovered who she was. Once there, she could change the moonbeam gown back into the bear's skin and turn the fine carriage into a wheelbarrow again.
+        - id: ch05-b11
+          speaker: narrator
+          text: The prince spurred his horse after her, determined not to lose sight of her. But a thick mist suddenly rose and hid her. When he reached home, he could speak of nothing but the beautiful stranger he had danced with and how deeply he loved her. Beneath the table, the bear smiled and whispered to herself.
+        - id: ch05-b12
+          speaker: princess
+          text: I'm the beautiful stranger. Oh, how completely I've fooled you!
+          emotion: happy
+        - id: ch05-b13
+          speaker: narrator
+          text: There was a second ball the following evening. The prince was determined not to miss it. He hoped the lovely girl would return so he could dance with her, talk to her, and finally persuade her to answer him. During the whole first ball, she had never once opened her lips.
+        - id: ch05-b14
+          speaker: narrator
+          text: As the music began for the first dance, the mysterious stranger entered. Now her dress was woven from rays of sunlight, and she looked even more radiant than before. The prince danced with her the whole evening, but she never said a word.
+        - id: ch05-b15
+          speaker: narrator
+          text: After the ball, he followed her carriage again, hoping to learn where she lived. Then a great waterspout poured from the sky. Sheets of rain blinded him, and once more she escaped.
+        - id: ch05-b16
+          speaker: narrator
+          text: When the prince finally reached home, he told his mother that he had seen the lovely girl again. This time, he said, she had looked even more beautiful than she had on the night before. As he spoke, the bear lay beneath the table, smiling to herself once again.
+        - id: ch05-b17
+          speaker: princess
+          text: I've fooled him twice now. He has no idea that I'm the girl he loves.
+          emotion: happy
+    - id: ch06
+      title: The Ring in the Soup
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: On the third evening, the prince went back for the final ball. The princess returned too. This time, she changed the bear's skin into a gown woven from starlight and covered with gems. She shone so brilliantly that everyone marveled. They said no one so beautiful had ever been seen.
+        - id: ch06-b02
+          speaker: narrator
+          text: The prince danced with her again throughout the ball. He tried everything he could think of, but still he could not persuade her to speak. Before the evening ended, however, he managed to slip a ring onto her finger.
+        - id: ch06-b03
+          speaker: narrator
+          text: When the ball was over, the prince rode after her carriage once more. He pushed his horse to such a pace that he kept the carriage in sight for a long while. Then a terrible wind sprang up between them. However hard he rode, he could no longer overtake her.
+        - id: ch06-b04
+          speaker: narrator
+          text: When the prince came home, he poured out his misery to his mother.
+        - id: ch06-b05
+          speaker: prince
+          text: I don't know what will become of me. I love that girl so much I think I'll lose my mind, but I have no way to find her. I danced with her and gave her a ring, yet I know neither her name nor where she lives.
+          emotion: sad
+        - id: ch06-b06
+          speaker: narrator
+          text: Beneath the table, the bear laughed quietly to herself. The prince heard her and went on.
+        - id: ch06-b07
+          speaker: prince
+          text: I'm exhausted. Have someone make me soup, but don't let that bear touch it. Whenever I speak of my love, the creature mutters and laughs as though she's mocking me. I can't stand the sight of her!
+          emotion: angry
+        - id: ch06-b08
+          speaker: narrator
+          text: When the soup was ready, the bear carried it to the prince. Before she gave him the bowl, she dropped in the ring he had placed on her finger the night before.
+        - id: ch06-b09
+          speaker: narrator
+          text: The prince began eating his soup very slowly and without any appetite. His heart was heavy, and all his thoughts were fixed on the lovely stranger. He kept wondering where she might be and how he could ever see her again. Then he noticed a ring lying at the bottom of his bowl. He recognized it in an instant and was too astonished to speak.
+        - id: ch06-b10
+          speaker: narrator
+          text: The bear stood beside him, gazing at him with gentle, pleading eyes. Something in that look made him speak.
+        - id: ch06-b11
+          speaker: prince
+          text: Take off that skin. There's some mystery hidden underneath it.
+        - id: ch06-b12
+          speaker: narrator
+          text: At his command, the bear's skin dropped away. Before him stood the beautiful girl, still dressed in her gown woven from starlight. At last, the prince understood that the bear and the mysterious stranger were the same person. Now that he knew her secret, she seemed to him a thousand times lovelier than ever.
+        - id: ch06-b13
+          speaker: narrator
+          text: The prince took her by the hand and led her to his mother. The princess told them her whole story. She explained that her father had kept her shut inside his palace because he feared for her safety, and that she had grown weary of living as his prisoner. The queen soon came to love her. She rejoiced that her son would have such a good and beautiful wife.
+        - id: ch06-b14
+          speaker: narrator
+          text: So the prince and princess were married. They lived happily for many years and ruled their kingdom wisely.

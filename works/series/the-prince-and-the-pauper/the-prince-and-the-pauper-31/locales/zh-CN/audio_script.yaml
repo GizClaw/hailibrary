@@ -1,0 +1,277 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 沉稳从容，带有含蓄的讽刺意味
+        timbre: 温暖清晰
+        pace: 舒缓而富有变化
+        pitch: 中等
+    tom_canty:
+      display_name: 汤姆·康蒂
+      tts:
+        delivery: 天真敏捷，窘迫时带着平民孩子的直率
+        timbre: 清亮稚嫩
+        pace: 轻快灵活
+        pitch: 中高
+    mother_canty:
+      display_name: 康蒂太太
+      tts:
+        delivery: 慈爱质朴，情感真挚
+        timbre: 柔和略带疲惫
+        pace: 舒缓
+        pitch: 中等
+    hertford:
+      display_name: 赫特福德勋爵
+      tts:
+        delivery: 老练克制，对国王始终恭谨而婉转
+        timbre: 沉稳饱满
+        pace: 从容
+        pitch: 中低
+    welcome_child:
+      display_name: 迎驾儿童
+      tts:
+        delivery: 庄重清亮，颂词念得真挚热烈
+        timbre: 清脆稚嫩
+        pace: 从容
+        pitch: 高
+    citizen_1:
+      display_name: 市民甲
+      tts:
+        delivery: 热情响亮，欢呼时满怀敬意
+        timbre: 洪亮清晰
+        pace: 明快
+        pitch: 中等
+    citizen_2:
+      display_name: 市民乙
+      tts:
+        delivery: 兴奋有力，声音带着庆典的喜悦
+        timbre: 明亮饱满
+        pace: 明快
+        pitch: 中高
+    citizen_3:
+      display_name: 市民丙
+      tts:
+        delivery: 热烈豪爽，呼喊时气势充沛
+        timbre: 低沉浑厚
+        pace: 稳健
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 雷鸣中的盛典
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            第二天早晨，汤姆·康蒂醒来，四面八方都是雷鸣般的低沉声浪。那声音压在空气里，远处也一样轰响。汤姆听来却觉得悦耳，因为整个英格兰已经倾尽声势，要忠心迎接这个伟大的日子。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            不久，汤姆又坐进泰晤士河上的华丽船队，成了整场水上盛典的中心。按照古老规矩，穿城的认主巡游必须从伦敦塔出发，所以他先去了那里。
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            他刚到，古老要塞的墙上就像突然裂开上千道口子。每个口子都喷出赤红的火舌和雪白的浓烟，炮声跟着炸响，盖过万众欢呼，连大地也震动起来。炮火一次又一次飞快迸发。没过多久，伦敦塔便埋进自己喷出的烟海，只剩白塔最高的一截露在外面。楼顶的旗帜立在浓烟之上，像山峰穿出了云海。
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            汤姆穿着一身华服，骑上一匹扬蹄腾跃的战马。马身的华美饰毯几乎垂到地面。他的“舅父”摄政大臣萨默塞特公爵也骑着骏马，跟在后面。国王卫队披着锃亮铠甲，在两旁排成单列。再后面，是仿佛走不到尽头的显贵与家臣。伦敦市长和市参议员身穿深红丝绒袍，胸前斜挂金链。各行会的人穿着华服，高举自己团体的彩旗。
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            队伍里还有“古老而尊贵的炮兵连”，担任穿城的特别荣誉卫队。那时，这支队伍已经有三百年历史，也是英格兰唯一可以不听议会号令的武装团体。直到讲述这个故事的时代，它还保有这项特权。整支仪仗灿烂辉煌，从挤满市民的街上庄严走过，一路都是震天喝彩。
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            编年史记载，国王进城时，百姓用祈祷、欢迎、呼喊和亲切的话迎接他，处处都显出臣民对君主的一片赤诚。国王也向远处的人展露笑容，对近前的人温言相待。百姓奉上多少善意，他就怀着同样深切的感激收下。谁祝愿他安好，他便向谁道谢。有人高呼“愿上帝保佑陛下”，他也立刻回答。
+        - id: ch01-b07
+          speaker: tom_canty
+          text: 愿上帝保佑你们所有人！我从心底感谢大家！
+          emotion: happy
+        - id: ch01-b08
+          speaker: narrator
+          text: 编年史说，百姓听见国王这样亲切地回答，又看见他亲切的举止，个个欣喜若狂。
+    - id: ch02
+      title: 欢迎国王
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            到了芬丘奇街，一个衣着华贵、容貌俊美的孩子站在高台上，恭迎国王进城。颂词最后一节这样唱道。
+        - id: ch02-b02
+          speaker: welcome_child
+          text: >-
+            欢迎您，国王！心能想到几多，便有几多欢迎。再次欢迎您！舌能诉说几多，便有几多欢迎。喜悦的舌为您欢呼，忠贞的心永不退缩。愿上帝护佑您，这是我们永远的祝福。
+          emotion: happy
+        - id: ch02-b03
+          speaker: narrator
+          text: 人群欢声迸发，一齐重复孩子刚唱过的颂词。
+        - id: ch02-b04
+          speakers: [citizen_1, citizen_2, citizen_3]
+          ensemble: chorus
+          text: >-
+            欢迎您，国王！心能想到几多，便有几多欢迎！舌能诉说几多，便有几多欢迎！喜悦的舌为您欢呼，忠贞的心永不退缩！愿上帝护佑您，这是我们永远的祝福！
+          emotion: happy
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            汤姆望着眼前涌动的人海，看见无数热切的面孔，心里得意极了。他觉得，这世上唯一值得活着去追求的事，就是成为国王，成为全国崇拜的偶像。
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            忽然，他远远看见两个衣衫褴褛的残渣院伙伴。一个曾在他那场儿戏朝廷里当海军大臣，另一个当过内廷侍从长。他更加骄傲了。要是他们现在认出他，该多么荣耀！那个在贫民窟和后巷受人嘲笑的假国王，如今已经成了真正的国王。显赫的公爵和亲王都做他的仆从，整个英格兰都在他脚下。
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            可汤姆只能压住相认的冲动。这样做付出的代价，可能远远超过得到的快乐。他转开头，留下两个脏兮兮的孩子继续欢呼。他们热切地赞颂国王，根本不知道自己赞颂的是谁。
+        - id: ch02-b08
+          speakers: [citizen_1, citizen_2, citizen_3]
+          ensemble: chorus
+          text: 赏钱！赏钱！
+        - id: ch02-b09
+          speaker: narrator
+          text: 这样的呼声不时响起。汤姆每次都抓起一把崭新的亮硬币，撒向人群，让大家争抢。
+    - id: ch03
+      title: 玫瑰与荣光
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            编年史还记下了格雷斯彻奇街的景象。在街道上端的雄鹰招牌前，伦敦城搭起一座富丽堂皇的拱门。门下有座高台，从街道一边一直伸到另一边。台上演的是一幕历史，展示国王的直系先祖。
+        - id: ch03-b02
+          speaker: narrator
+          text: >-
+            约克的伊丽莎白坐在一朵巨大的白玫瑰中央，层层花瓣在身边铺成精巧的裙边。亨利七世就在她身旁，也从一朵硕大的红玫瑰中现身。国王夫妇双手相扣，结婚戒指特意摆给众人观看。两朵玫瑰生出一根花茎，伸向第二层高台。亨利八世从红白相间的玫瑰中出现，身边是新国王生母简·西摩的塑像。
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            又有一根枝条从两人那里向上攀到第三层高台。爱德华六世本人的塑像带着君王威仪，端坐在那里。整幅景象则围在红白玫瑰编成的花环中。
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            这幕古怪又华丽的场面，让欢庆的百姓越发激动。他们的喝彩彻底淹没了一个孩子的细小嗓音。那孩子原本该用颂扬的韵文讲解眼前的一切。汤姆并不觉得遗憾。这片忠诚的喧腾，比任何诗歌都更叫他喜欢，诗写得好不好根本不要紧。
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            汤姆那张快乐的小脸转到哪里，哪里的百姓就看出高台塑像与他本人何等相像。新一阵喝彩立刻像旋风一样卷起。浩大的仪仗继续前进，穿过一座又一座凯旋拱门，也经过一幕又一幕让人眼花缭乱的象征景象。每一幕都在颂扬小国王的一种美德、才干或功绩。
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            整条奇普赛街上，每处屋檐、每扇窗户都挂着旗帜和彩带。最名贵的地毯、织物和金锦铺满街道，好叫人看见店铺里藏着多少财富。别的街道也同样辉煌，有些地方还要更加华丽。
+        - id: ch03-b07
+          speaker: tom_canty
+          text: 这所有的奇景和盛观，竟然都是为了欢迎我……欢迎我！
+          emotion: surprised
+    - id: ch04
+      title: 人群中的母亲
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            假国王兴奋得双颊通红，眼睛闪亮，整个人都沉醉在狂喜里。他正抬手要再撒一把赏钱，忽然看见人群第二排探出一张苍白而惊愕的脸。那双急切的眼睛牢牢盯住了他。
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            一阵叫人作呕的惊恐刺透汤姆。他认出了自己的母亲！他的手马上扬起来，掌心朝外挡住眼睛。这是很久以前一件往事留下的下意识动作，后来已经成了改不掉的习惯。
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            转眼间，母亲挣脱拥挤的人群，冲过卫兵，来到他身边。她抱住汤姆的腿，不停亲吻。再抬起脸时，喜悦和慈爱使整张脸都变了模样。
+        - id: ch04-b04
+          speaker: mother_canty
+          text: 啊，我的孩子，我的宝贝！
+          emotion: happy
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            同一刻，一名国王卫兵咒骂着把她猛地扯开。那只强壮的手臂用力一推，叫她踉跄着跌回人群。汤姆的话也已经从嘴边滑了出来。
+        - id: ch04-b06
+          speaker: tom_canty
+          text: 我根本不认识你，女人！
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            可汤姆一看见母亲受到这样的对待，心就被狠狠刺痛了。人潮快要吞没她时，她回头最后望了他一眼。那张脸如此受伤，如此心碎。羞耻一下压住汤姆，把他的骄傲烧成灰，也叫偷来的王权枯萎。他身边所有的荣华都失去了价值，像腐烂的破布一样从身上掉落。
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            仪仗还在前进，眼前的景象越来越辉煌，欢呼也一浪高过一浪。可对汤姆来说，这一切好像都不存在了。他看不见，也听不见。王权不再美好，盛大的排场反倒句句都像责难。悔恨不停啃噬他的心。
+        - id: ch04-b09
+          speaker: tom_canty
+          text: 但愿上帝让我摆脱这场囚禁！
+          emotion: sad
+        - id: ch04-b10
+          speaker: narrator
+          text: >-
+            他自己也没有察觉，又说起了刚被迫成为国王时才会说的话。闪耀的队伍像一条看不到尽头的发光长蛇，在古城弯曲的小巷里向前游动，穿过一片片欢呼的人海。国王却低着头，双眼空洞。他只看得见母亲的脸，只看得见那上面受尽伤害的神情。
+    - id: ch05
+      title: 良心的声音
+      blocks:
+        - id: ch05-b01
+          speakers: [citizen_1, citizen_2, citizen_3]
+          ensemble: chorus
+          text: 赏钱！赏钱！
+        - id: ch05-b02
+          speaker: narrator
+          text: 汤姆听而不闻。
+        - id: ch05-b03
+          speakers: [citizen_1, citizen_2, citizen_3]
+          ensemble: chorus
+          text: 英格兰的爱德华万岁！
+          emotion: happy
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            呼喊轰然爆发，仿佛震动大地，国王却毫无回应。他听见那声音，只像听见遥远的海浪声被风送来。因为另一道声音离他更近，就在他的胸口，在那颗谴责自己的良心里，把外面的呼喊全部压了下去。
+        - id: ch05-b05
+          speaker: tom_canty
+          text: 我不认识你，女人！
+          emotion: sad
+        - id: ch05-b06
+          speaker: narrator
+          text: >-
+            这句可耻的话在他心里一遍遍响着。它一下下敲打国王的灵魂，像丧钟敲打一位活着的朋友，逼他想起自己曾怎样暗中背叛那个已经离去的人。
+        - id: ch05-b07
+          speaker: narrator
+          text: >-
+            每过一个街角，眼前都有新的辉煌、新的奇观，一幕接一幕涌到面前。等待已久的炮队放开压抑许久的轰鸣，守候的人群又从喉咙里倾泻出新的狂喜。国王仍然没有半点反应。他无从得到安慰，心里只有谴责的声音在呜咽，也只听得见那个声音。
+        - id: ch05-b08
+          speaker: narrator
+          text: >-
+            过了一阵，百姓脸上的喜悦变了，渐渐带上忧虑和不安，喝彩声也小了。摄政大臣立刻注意到变化，也马上明白了原因。他策马来到国王身边，摘下帽子，在马鞍上深深俯身。
+        - id: ch05-b09
+          speaker: hertford
+          text: >-
+            陛下，现在可不是走神的时候。百姓看见您低着头，满脸愁容，会把这当成凶兆。请听臣劝告。让君王的太阳重新露面，照散这些不祥的阴云吧。请抬起脸，对百姓笑一笑。
+        - id: ch05-b10
+          speaker: narrator
+          text: >-
+            公爵向左右各撒了一把硬币，然后退回原位。假国王机械地照办。他的笑容没有半点真心，但离得够近、眼光又够尖的人并不多。他戴着羽饰的头轻轻点动，姿态优雅又亲切，亲手撒下的赏钱也十分慷慨。百姓的不安很快消散，喝彩声又和先前一样响亮。
+        - id: ch05-b11
+          speaker: narrator
+          text: 队伍快走完全程时，公爵又不得不策马上前，低声劝他。
+        - id: ch05-b12
+          speaker: hertford
+          text: 啊，令人敬畏的君王！快摆脱这要命的阴郁吧，整个世界都在看着您呢。
+        - id: ch05-b13
+          speaker: narrator
+          text: 公爵越说越恼怒，又尖刻地补了一句。
+        - id: ch05-b14
+          speaker: hertford
+          text: 那个疯癫的穷婆子真该下地狱！就是她扰乱了殿下的心神。
+          emotion: angry
+        - id: ch05-b15
+          speaker: narrator
+          text: 那个浑身华服的孩子把一双毫无光彩的眼睛转向公爵，声音里一片死寂。
+        - id: ch05-b16
+          speaker: tom_canty
+          text: 她是我的母亲！
+          emotion: sad
+        - id: ch05-b17
+          speaker: narrator
+          text: 摄政大臣呻吟一声，勒马退回自己的位置。
+        - id: ch05-b18
+          speaker: hertford
+          text: 上帝啊！那个凶兆果然带着预言。他又疯了！
+          emotion: fearful

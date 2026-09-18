@@ -1,0 +1,325 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and attentive fairy-tale storytelling
+        timbre: clear and gently resonant
+        pace: measured
+        pitch: medium
+    dying_queen:
+      display_name: The Queen
+      tts:
+        delivery: gentle, grave, and fading
+        timbre: soft and luminous
+        pace: slow
+        pitch: medium
+    princess:
+      display_name: The Princess
+      tts:
+        delivery: thoughtful, resilient, and sincere
+        timbre: clear and youthful
+        pace: natural
+        pitch: medium-high
+    father_king:
+      display_name: The Princess's Father
+      tts:
+        delivery: regal, stubborn, and commanding
+        timbre: deep and firm
+        pace: deliberate
+        pitch: low
+    councillor_1:
+      display_name: First Councillor
+      tts:
+        delivery: formal and concerned
+        timbre: mature and clear
+        pace: measured
+        pitch: medium-low
+    councillor_2:
+      display_name: Second Councillor
+      tts:
+        delivery: formal and earnest
+        timbre: dry and steady
+        pace: measured
+        pitch: medium
+    councillor_3:
+      display_name: Third Councillor
+      tts:
+        delivery: formal and restrained
+        timbre: light and precise
+        pace: measured
+        pitch: medium-high
+    forest_king:
+      display_name: The King of the Forest
+      tts:
+        delivery: confident, curious, and warm
+        timbre: rich and clear
+        pace: measured
+        pitch: medium-low
+    huntsman_1:
+      display_name: First Huntsman
+      tts:
+        delivery: practical and alert
+        timbre: rough and sturdy
+        pace: natural
+        pitch: medium-low
+    huntsman_2:
+      display_name: Second Huntsman
+      tts:
+        delivery: watchful and direct
+        timbre: clear and weathered
+        pace: natural
+        pitch: medium
+    cook:
+      display_name: The Cook
+      tts:
+        delivery: brisk, suspicious, and easily flustered
+        timbre: full and earthy
+        pace: quick
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Queen's Last Wish
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, there was a King whose wife had golden hair. She was so beautiful that no one else in the world was like her. Then the Queen fell ill. When she knew she would soon die, she sent for the King.
+        - id: ch01-b02
+          speaker: dying_queen
+          text: If you marry again after I am gone, choose no one unless she is as beautiful as I am and has golden hair just like mine. Promise me.
+          emotion: sad
+        - id: ch01-b03
+          speaker: narrator
+          text: The King gave his promise. Then the Queen closed her eyes and died.
+        - id: ch01-b04
+          speaker: narrator
+          text: For a long time, no one could comfort the King, and he would not even think of marrying again. At last, his councillors spoke to him.
+        - id: ch01-b05
+          speakers: [councillor_1, councillor_2, councillor_3]
+          ensemble: chorus
+          text: Your Majesty must marry again. The kingdom needs a queen.
+        - id: ch01-b06
+          speaker: narrator
+          text: Messengers searched far and wide for a bride as beautiful as the late Queen. They found no one in the whole world who also had such golden hair, so they returned without a bride.
+        - id: ch01-b07
+          speaker: narrator
+          text: The King had a daughter. When she grew up, she became as beautiful as her mother, with the very same golden hair. One day, her father looked at her and saw how exactly she resembled the dead Queen. He spoke to his councillors.
+        - id: ch01-b08
+          speaker: father_king
+          text: I will give my daughter in marriage to one of you, and she will be queen because she is the image of her mother. When I die, her husband will be king.
+        - id: ch01-b09
+          speaker: narrator
+          text: The Princess was deeply troubled when she heard his decision. She hoped to demand things that could never be made, so she would not have to marry someone she did not care for.
+        - id: ch01-b10
+          speaker: princess
+          text: Before I obey you, I must have three dresses. Make one as golden as the sun, one as silver as the moon, and one that shines like the stars. I also want a cloak made from a thousand kinds of skin. Every kind of animal in your kingdom must give a piece of fur for it.
+        - id: ch01-b11
+          speaker: narrator
+          text: But the King would not change his purpose. He ordered the finest maidens in the kingdom to weave the sun, moon, and star dresses. He sent his huntsmen after every kind of beast, so the cloak could be made from a thousand pieces of fur.
+        - id: ch01-b12
+          speaker: narrator
+          text: At last, everything was ready. The King had the cloak brought in, spread it before the Princess, and spoke.
+        - id: ch01-b13
+          speaker: father_king
+          text: Your wedding will be tomorrow.
+        - id: ch01-b14
+          speaker: narrator
+          text: The Princess saw that nothing would change her father's mind, so she decided to run away. That night, while everyone slept, she took a gold ring, a tiny gold spinning wheel, and a gold reel from her treasures. She folded the three dresses into a nutshell, put on the many-furred cloak, and blackened her face and hands with soot.
+        - id: ch01-b15
+          speaker: narrator
+          text: She placed herself in God's care and left the palace. She traveled all night until she reached a great forest. By then she was exhausted, so she curled up inside a hollow tree and fell asleep.
+    - id: ch02
+      title: The Many-furred Creature
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The sun came up, but the Princess slept on until nearly noon. The King who owned that forest happened to be hunting there. His dogs reached the hollow tree, sniffed around it, and ran in circles, barking.
+        - id: ch02-b02
+          speaker: forest_king
+          text: Go and see what kind of wild creature is hiding in that tree.
+        - id: ch02-b03
+          speaker: narrator
+          text: The huntsmen looked inside. Then they returned to the King.
+        - id: ch02-b04
+          speakers: [huntsman_1, huntsman_2]
+          ensemble: duo
+          text: There is a strange animal asleep in the hollow. We have never seen anything like it. Its skin is made from a thousand pieces of fur.
+        - id: ch02-b05
+          speaker: forest_king
+          text: See if you can take it alive. Fasten it to the cart, and we will bring it with us.
+        - id: ch02-b06
+          speaker: narrator
+          text: The huntsmen seized the maiden. She woke in terror and cried out to them.
+        - id: ch02-b07
+          speaker: princess
+          text: I am only a poor child. My father and mother have abandoned me. Please have pity and let me come with you.
+          emotion: fearful
+        - id: ch02-b08
+          speakers: [huntsman_1, huntsman_2]
+          ensemble: duo
+          text: Very well, Many-furred Creature. You can work in the kitchen and sweep up the ashes. Come with us.
+        - id: ch02-b09
+          speaker: narrator
+          text: They put her in the cart and took her back to the palace. There they showed her a tiny room beneath the stairs, where no daylight ever reached.
+        - id: ch02-b10
+          speaker: huntsman_1
+          text: This is where you can live and sleep, Many-furred Creature.
+        - id: ch02-b11
+          speaker: narrator
+          text: Then they sent her to the kitchen. She carried wood and water, tended the fire, washed vegetables, plucked birds, swept the ashes, and did every dirty task. The Many-furred Creature lived in great poverty for a long time. Ah, beautiful King's daughter, what will happen to you now?
+    - id: ch03
+      title: The Dress as Golden as the Sun
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: One day, the palace was holding a great feast. The Many-furred Creature went to the cook with a request.
+        - id: ch03-b02
+          speaker: princess
+          text: May I go upstairs for a little while and watch the feast? I will stay outside the doors.
+        - id: ch03-b03
+          speaker: cook
+          text: You may go, but come back in half an hour. You still have to sweep up the ashes.
+        - id: ch03-b04
+          speaker: narrator
+          text: She carried her little oil lamp to the room beneath the stairs. There she took off the fur cloak and washed the soot from her face and hands. Her beauty shone out as if one sunbeam after another were breaking through a black cloud.
+        - id: ch03-b05
+          speaker: narrator
+          text: She opened the nutshell and drew out the dress as golden as the sun. Once she had put it on, she went up to the feast. Everyone moved aside for her. No one knew who she was, but they believed she must be a King's daughter.
+        - id: ch03-b06
+          speaker: narrator
+          text: The King came to meet her, took her hand, and danced with her. As he looked at her, he thought that he had never seen anyone so beautiful. When the dance ended, she curtseyed. By the time the King turned around, she had vanished. No one knew where she had gone.
+        - id: ch03-b07
+          speaker: narrator
+          text: The palace guards were called and questioned, but not one of them had seen her leave. She had already rushed back to her room. She pulled off the golden dress, blackened her face and hands, and put on the fur cloak. Once again, she was the Many-furred Creature.
+        - id: ch03-b08
+          speaker: narrator
+          text: She returned to the kitchen and began to sweep the ashes. The cook stopped her.
+        - id: ch03-b09
+          speaker: cook
+          text: Leave that until tomorrow. Cook the King's soup for me instead. I want to take a quick look at the guests upstairs. And do not let so much as one hair fall into the pot, or you will get nothing more to eat!
+        - id: ch03-b10
+          speaker: narrator
+          text: The cook left, and the Many-furred Creature made bread soup for the King. She prepared it as well as she possibly could. When it was ready, she went to her room, brought back the gold ring, and placed it in the serving dish beneath the soup.
+        - id: ch03-b11
+          speaker: narrator
+          text: After the dance, the King had his soup brought to him. It tasted better than any soup he could remember. At the bottom of the dish, he found a gold ring. He could not imagine how it had come to be there, so he ordered the cook to appear before him.
+        - id: ch03-b12
+          speaker: narrator
+          text: The cook was terrified when he heard the order. He turned on the Many-furred Creature.
+        - id: ch03-b13
+          speaker: cook
+          text: You must have dropped a hair into that soup. If you did, you deserve a good beating!
+          emotion: fearful
+        - id: ch03-b14
+          speaker: narrator
+          text: When the cook stood before the King, he was asked who had made the soup.
+        - id: ch03-b15
+          speaker: cook
+          text: I cooked it, Your Majesty.
+        - id: ch03-b16
+          speaker: forest_king
+          text: That is not true. This soup was quite different from yours, and far better than anything you have ever made.
+        - id: ch03-b17
+          speaker: cook
+          text: Then I must confess. I did not make it. The Many-furred Creature did.
+        - id: ch03-b18
+          speaker: forest_king
+          text: Bring her to me.
+        - id: ch03-b19
+          speaker: narrator
+          text: The Many-furred Creature came before the King, and he began to question her.
+        - id: ch03-b20
+          speaker: forest_king
+          text: Who are you?
+        - id: ch03-b21
+          speaker: princess
+          text: I am a poor child with no father or mother.
+        - id: ch03-b22
+          speaker: forest_king
+          text: Then what do you do here in my palace?
+        - id: ch03-b23
+          speaker: princess
+          text: I am good for nothing except having boots thrown at my head.
+        - id: ch03-b24
+          speaker: forest_king
+          text: Where did you get the ring that was in my soup?
+        - id: ch03-b25
+          speaker: princess
+          text: I know nothing about any ring.
+        - id: ch03-b26
+          speaker: narrator
+          text: The King could learn nothing more from her, so he had to send her away.
+    - id: ch04
+      title: The Dress as Silver as the Moon
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Some time later, there was another feast. As she had before, the Many-furred Creature begged the cook to let her watch.
+        - id: ch04-b02
+          speaker: cook
+          text: All right, but you must be back in half an hour. Then make the bread soup the King likes so much.
+        - id: ch04-b03
+          speaker: narrator
+          text: She hurried to her little room and quickly washed away the soot. From the nutshell she took the dress as silver as the moon and put it on. When she entered the feast, she looked every bit like a King's daughter.
+        - id: ch04-b04
+          speaker: narrator
+          text: The King was delighted to see the unknown maiden again. The dance had just begun, so he came to her, and they danced together. As soon as it ended, she slipped away so quickly that he could not tell which way she had gone.
+        - id: ch04-b05
+          speaker: narrator
+          text: She ran back to her room and once more changed herself into the Many-furred Creature. Then she went to the kitchen and made the bread soup. While the cook was still upstairs, she fetched the little gold spinning wheel. She set it in the dish and poured the soup over it.
+        - id: ch04-b06
+          speaker: narrator
+          text: The soup was carried to the King. He ate it and liked it just as much as the first. When he found the golden spinning wheel, he sent for the cook. Once again, the cook had to admit who had really made the soup.
+        - id: ch04-b07
+          speaker: narrator
+          text: The Many-furred Creature was brought before the King. But her answers revealed nothing.
+        - id: ch04-b08
+          speaker: princess
+          text: I am good for nothing except having boots thrown at my head. And I know nothing at all about the golden spinning wheel.
+        - id: ch04-b09
+          speaker: narrator
+          text: So the secret remained hidden.
+    - id: ch05
+      title: The Dress That Shone Like the Stars
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: When the King held a third feast, things did not happen quite as they had before. This time, the cook had something to say.
+        - id: ch05-b02
+          speaker: cook
+          text: You must be a witch, Many-furred Creature. You always put something into the soup, and somehow the King likes yours better than mine.
+        - id: ch05-b03
+          speaker: narrator
+          text: Still, she begged so earnestly that he let her go upstairs for the usual half hour. In her room, she put on the dress that shone like the stars. Then she stepped into the great hall.
+        - id: ch05-b04
+          speaker: narrator
+          text: Once more, the King danced with the beautiful maiden. He thought she had never looked so lovely. While they danced, he slipped a gold ring onto her finger without her noticing. He had also ordered the dance to last longer than usual.
+        - id: ch05-b05
+          speaker: narrator
+          text: When at last the dance ended, the King tried to keep her hands in his. She pulled free and darted through the crowd so swiftly that she disappeared from his sight.
+        - id: ch05-b06
+          speaker: narrator
+          text: She raced to her little room under the stairs. But the longer dance had carried her well past the half hour. There was no time to remove the beautiful dress. She could only throw the fur cloak over it. In her haste, she did not cover herself completely with soot, and one finger stayed white.
+        - id: ch05-b07
+          speaker: narrator
+          text: The Many-furred Creature ran into the kitchen and cooked the King's bread soup. Once the cook had gone, she placed the gold reel in the dish.
+        - id: ch05-b08
+          speaker: narrator
+          text: The King found the reel at the bottom and ordered the Many-furred Creature to be brought before him. This time, he noticed her white finger. On it was the very ring he had placed there during the dance.
+        - id: ch05-b09
+          speaker: narrator
+          text: The King took her hand and held it tightly. She tried to pull away. As she struggled, the fur cloak opened a little, and the star-bright dress shone through.
+        - id: ch05-b10
+          speaker: narrator
+          text: The King caught hold of the cloak and tore it away. Her golden hair tumbled down. She stood before him in all her splendor, with no way to hide herself any longer.
+        - id: ch05-b11
+          speaker: narrator
+          text: When the soot and ashes had been washed from her face, she was more beautiful than anyone in the world.
+        - id: ch05-b12
+          speaker: forest_king
+          text: You are my dear bride, and we will never be parted again.
+          emotion: happy
+        - id: ch05-b13
+          speaker: narrator
+          text: Their wedding was celebrated, and they lived happily ever after.

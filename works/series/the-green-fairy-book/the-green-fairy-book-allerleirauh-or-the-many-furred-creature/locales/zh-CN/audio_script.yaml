@@ -1,0 +1,366 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，像编书人面对孩子娓娓而谈，幽默处轻巧含笑
+        timbre: 温暖清朗
+        pace: 舒缓而有自然起伏
+        pitch: 中音
+    dying_queen:
+      display_name: 王后
+      tts:
+        delivery: 温柔而沉重，气息微弱，临终嘱托清楚郑重
+        timbre: 柔和明净
+        pace: 缓慢
+        pitch: 中音
+    princess:
+      display_name: 公主
+      tts:
+        delivery: 年轻真挚，困境中谨慎克制，关键时刻坚韧果断
+        timbre: 清澈柔亮
+        pace: 适中
+        pitch: 中高音
+    father_king:
+      display_name: 公主的父王
+      tts:
+        delivery: 威严固执，决定事情时不容置疑
+        timbre: 深沉厚重
+        pace: 沉稳
+        pitch: 低音
+    councillor_1:
+      display_name: 第一位大臣
+      tts:
+        delivery: 庄重忧虑，说话恭谨
+        timbre: 成熟清晰
+        pace: 适中
+        pitch: 中低音
+    councillor_2:
+      display_name: 第二位大臣
+      tts:
+        delivery: 诚恳严肃，语气克制
+        timbre: 平稳略干
+        pace: 适中
+        pitch: 中音
+    councillor_3:
+      display_name: 第三位大臣
+      tts:
+        delivery: 正式谨慎，吐字利落
+        timbre: 轻而清楚
+        pace: 适中
+        pitch: 中高音
+    forest_king:
+      display_name: 森林王国的国王
+      tts:
+        delivery: 自信威严，好奇时温和，追问时敏锐坚定
+        timbre: 浑厚清朗
+        pace: 适中
+        pitch: 中低音
+    huntsman_1:
+      display_name: 第一位猎人
+      tts:
+        delivery: 机警务实，说话直截了当
+        timbre: 粗粝结实
+        pace: 适中
+        pitch: 中低音
+    huntsman_2:
+      display_name: 第二位猎人
+      tts:
+        delivery: 谨慎利落，语气朴实
+        timbre: 清楚而饱经风霜
+        pace: 适中
+        pitch: 中音
+    cook:
+      display_name: 厨师
+      tts:
+        delivery: 爽利急躁，多疑时咄咄逼人，慌张时语速加快
+        timbre: 洪亮浑厚
+        pace: 偏快
+        pitch: 中音
+  chapters:
+    - id: ch01
+      title: 王后的遗愿
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，有位国王娶了一位金发王后。她美得举世无双，可不久便生了重病。王后知道自己就要死去，便把国王叫到床前。
+        - id: ch01-b02
+          speaker: dying_queen
+          text: >-
+            等我死了，你若还要再娶，答应我，只能娶一个和我一样美、也有一模一样金发的姑娘做王后。
+          emotion: sad
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            国王答应了。王后于是闭上双眼，离开了人世。此后很长一段日子，谁也安慰不了国王，他根本没有想过续弦。最后，大臣们一同来劝他。
+        - id: ch01-b04
+          speakers: [councillor_1, councillor_2, councillor_3]
+          ensemble: chorus
+          text: >-
+            陛下非得再娶不可，王国需要一位王后。
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            使者们走遍四方，寻找一个能和亡故王后相比的新娘。可是，天下没有这样的美人。就算有人容貌相当，也没有那样的金发。使者只好空手回来。
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            国王有个女儿。她长大以后，容貌和金发都像极了母亲。一天，国王望着她，越看越觉得她就是亡妻的模样，便向大臣宣布了自己的决定。
+        - id: ch01-b07
+          speaker: father_king
+          text: >-
+            我要把女儿嫁给你们当中的一个。她会成为王后，因为她和母亲一模一样。等我死后，她的丈夫便继承王位。
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            公主听到这件事，心里万分不愿。她想出一个办法，要父亲做几样根本不可能做成的东西。
+        - id: ch01-b09
+          speaker: princess
+          text: >-
+            要我照您的意思办，先给我三条长裙。一条要像太阳般灿烂，一条要像月亮般皎洁，还有一条，要像满天繁星般闪耀。我还要一件斗篷，用一千种兽皮缝成。王国里的每一种动物，都得献出一小块皮毛。
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            公主暗想，这些要求绝不会实现，自己也就不用嫁给不喜欢的人。可国王决意不改。他找来王国里手艺最好的姑娘织成长裙，又命所有猎人捕捉每一种野兽，从它们身上各取一小块皮毛。三条裙子和千皮斗篷，最后竟全都做好了。
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            国王把斗篷铺在公主面前。
+        - id: ch01-b12
+          speaker: father_king
+          text: >-
+            明天就是你的婚期。
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            公主知道，再也没有办法让父亲回心转意，只能逃走。那天夜里，等众人睡熟，她带上一枚金戒指、一架小金纺车和一个金线轴，把日、月、星三条裙子收进核桃壳。随后，她披上千皮斗篷，又用煤烟涂黑脸和双手。
+        - id: ch01-b14
+          speaker: narrator
+          text: >-
+            她把自己托付给上帝，悄悄离开王宫。公主整夜赶路，来到一片大森林，已经累得走不动了。她钻进一棵空心树，很快沉沉睡去。
+
+    - id: ch02
+      title: 空心树里的千皮兽
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            太阳升起来了，公主却一直睡到快近正午。那天，拥有这片森林的国王正在打猎。他的猎犬跑到空心树旁，一边嗅，一边绕树打转，还冲着里面不停吠叫。
+        - id: ch02-b02
+          speaker: forest_king
+          text: >-
+            去瞧瞧，树里藏着什么野兽。
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            猎人钻进去看了看，又赶忙回来禀报。
+        - id: ch02-b04
+          speakers: [huntsman_1, huntsman_2]
+          ensemble: duo
+          text: >-
+            空心树里睡着一只怪东西，我们从来没见过，也说不出是什么。它身上的皮，是用一千块皮毛拼起来的。
+        - id: ch02-b05
+          speaker: forest_king
+          text: >-
+            设法活捉它，绑到车上，一起带回去。
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            猎人伸手捉住了姑娘。她猛然惊醒，吓得大声求饶。
+        - id: ch02-b07
+          speaker: princess
+          text: >-
+            我只是个可怜的孩子，爹娘都不要我了。求你们发发慈悲，让我跟你们走吧。
+          emotion: fearful
+        - id: ch02-b08
+          speakers: [huntsman_1, huntsman_2]
+          ensemble: duo
+          text: >-
+            那就来吧，千皮兽。你可以到厨房干活，替人清扫炉灰。
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            猎人把她放上车，带回王宫。他们让她住进楼梯底下的一间小屋。那里狭窄昏暗，一丝阳光也照不进去。
+        - id: ch02-b10
+          speaker: huntsman_1
+          text: >-
+            千皮兽，往后你就在这里吃住睡觉。
+        - id: ch02-b11
+          speaker: narrator
+          text: >-
+            从此，公主被打发到厨房。她挑水搬柴，拨旺炉火，洗净蔬菜，给鸡拔毛，还要扫起满地炉灰。厨房里所有又脏又累的活儿，全都落在她身上。千皮兽就这样受苦过了很久。唉，美丽的国王之女，接下来会有什么命运等着你呢？
+
+    - id: ch03
+      title: 灿烂如太阳的长裙
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            有一天，王宫举行盛宴。千皮兽找到厨师，想上楼看一眼。
+        - id: ch03-b02
+          speaker: princess
+          text: >-
+            能不能让我去看一小会儿？我只站在门外，不会进去。
+        - id: ch03-b03
+          speaker: cook
+          text: >-
+            去吧，不过半个钟头以后必须回来。炉灰还等着你扫呢。
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            她提着小油灯回到楼梯下的屋里，脱掉皮毛斗篷，洗净脸和手上的煤烟。美貌重新显露，就像阳光一道接一道地穿透乌云。她打开核桃壳，取出那条灿烂如太阳的长裙，穿戴妥当后走上楼去。
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            宾客们纷纷让开。谁也不认识她，只当她是哪一国的公主。国王走来牵住她的手，同她一起跳舞。他望着眼前的姑娘，心想，自己从没见过这么美的人。
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            一曲结束，她向国王屈膝行礼。国王刚一转身，她便不见了，谁也说不清她去了哪里。守在王宫门前的卫兵全被叫来盘问，可没有一个人见过她离开。
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            原来，公主早已跑回小屋。她脱掉长裙，把脸和手重新涂黑，再披上斗篷，又成了千皮兽。她赶到厨房，正准备扫炉灰，厨师叫住了她。
+        - id: ch03-b08
+          speaker: cook
+          text: >-
+            炉灰明天再扫。你替我给国王煮汤，我也想上楼瞧瞧宾客。小心点，一根头发也不许掉进汤里，不然以后休想再吃饭！
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            厨师一走，千皮兽便使出全部本领，煮好一锅面包汤。她回屋拿来金戒指，悄悄放在盛汤的钵底。
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            舞会结束，国王叫人把汤端到面前。他喝过以后，觉得自己这一辈子从未尝过这样的美味。等汤见了底，他发现钵里有枚金戒指，怎么也猜不出它从哪里来，便下令传唤厨师。
+        - id: ch03-b11
+          speaker: narrator
+          text: >-
+            厨师一听国王要传他，顿时吓得不知如何是好，转头便责怪千皮兽。
+        - id: ch03-b12
+          speaker: cook
+          text: >-
+            一定是你把头发掉进汤里了！真要是这样，你就该狠狠挨一顿打！
+          emotion: fearful
+        - id: ch03-b13
+          speaker: narrator
+          text: >-
+            国王问厨师，这汤是谁煮的。
+        - id: ch03-b14
+          speaker: cook
+          text: >-
+            是我煮的，陛下。
+        - id: ch03-b15
+          speaker: forest_king
+          text: >-
+            不对。这汤和你平日做的完全不同，也比你煮过的汤都好。
+        - id: ch03-b16
+          speaker: cook
+          text: >-
+            那我只好认了。汤不是我煮的，是千皮兽煮的。
+        - id: ch03-b17
+          speaker: forest_king
+          text: >-
+            把她带来。
+        - id: ch03-b18
+          speaker: narrator
+          text: >-
+            千皮兽来到国王面前。国王仔细盘问她。
+        - id: ch03-b19
+          speaker: forest_king
+          text: >-
+            你是什么人？
+        - id: ch03-b20
+          speaker: princess
+          text: >-
+            我是个无父无母的可怜孩子。
+        - id: ch03-b21
+          speaker: forest_king
+          text: >-
+            那你留在我的王宫里做什么？
+        - id: ch03-b22
+          speaker: princess
+          text: >-
+            我一点用处也没有，只配让人拿靴子往头上扔。
+        - id: ch03-b23
+          speaker: forest_king
+          text: >-
+            汤里的戒指又是从哪儿来的？
+        - id: ch03-b24
+          speaker: princess
+          text: >-
+            我根本不知道什么戒指。
+        - id: ch03-b25
+          speaker: narrator
+          text: >-
+            国王再也问不出什么，只得让她离开。
+
+    - id: ch04
+      title: 皎洁如月亮的长裙
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            过了一阵，王宫又摆下宴席。千皮兽照旧央求厨师，让她上楼去看看。
+        - id: ch04-b02
+          speaker: cook
+          text: >-
+            可以。不过半个钟头后就回来，还得替国王煮他最喜欢的面包汤。
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            她跑回小屋，匆匆洗净身体，从核桃壳里取出皎洁如月亮的长裙穿上。她来到宴会厅，活脱脱就是一位公主。国王一见她再次出现，欢喜地迎上前去。舞曲刚刚响起，两人便携手跳了起来。
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            舞曲一停，她又迅速消失了，国王连她往哪边走都没看清。公主回到小屋，重新披起千皮斗篷，赶去厨房煮汤。趁厨师还在楼上，她把小金纺车放进钵底，再把汤浇在上面。
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            国王喝了汤，觉得和上次一样好。他召来厨师。厨师只得再次承认，是千皮兽煮的汤。可千皮兽来到国王面前，仍说自己只配让人用靴子砸头，也根本不知道那架小金纺车从何而来。
+
+    - id: ch05
+      title: 闪耀如繁星的长裙
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            国王第三次设宴时，厨师已经起了疑心。
+        - id: ch05-b02
+          speaker: cook
+          text: >-
+            千皮兽，你准是个女巫！你每次都往汤里放东西，难怪国王觉得你的汤比我的好喝。
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            千皮兽苦苦相求，厨师终于还是放她上楼，时间照旧只有半个钟头。公主穿上闪耀如繁星的长裙，走进大厅。国王又请她跳舞，只觉得她从来没有像今晚这样美。
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            舞还没有结束，国王便趁她不注意，把一枚金戒指套在她的手指上。他又命人把这一曲奏得格外长。等舞曲终于停下，国王想握住她的双手，她却挣脱出来，钻进人群，转眼消失在他面前。
+        - id: ch05-b05
+          speaker: narrator
+          text: >-
+            公主飞奔回楼梯下的小屋。可她早已超过半个钟头，连脱掉星光长裙的时间也没有，只能把皮毛斗篷匆匆披在外面。她还漏掉了一根手指，没有用煤烟涂黑。
+        - id: ch05-b06
+          speaker: narrator
+          text: >-
+            千皮兽赶回厨房，煮好国王的面包汤。趁厨师还没有回来，她把金线轴放到汤钵底下。国王喝到钵底，发现了线轴，立刻叫人把她带来。这一次，他看见了那根雪白的手指，也认出自己刚才套在她手上的戒指。
+        - id: ch05-b07
+          speaker: narrator
+          text: >-
+            国王紧紧抓住她的手。公主竭力想要挣脱，皮毛斗篷却松开了一点，里面的星光长裙立刻闪耀出来。国王抓住斗篷，把它整个扯下。她的金发倾泻而下，整个人光彩照人地站在那里，再也没有办法把自己藏起来了。
+        - id: ch05-b08
+          speaker: narrator
+          text: >-
+            等脸上的煤烟和炉灰洗干净，她比世上任何人都美丽。国王终于对她说出了心里的话。
+        - id: ch05-b09
+          speaker: forest_king
+          text: >-
+            你就是我亲爱的新娘。从今以后，我们再也不分开。
+        - id: ch05-b10
+          speaker: narrator
+          text: >-
+            于是，他们举行了婚礼，从此永远幸福地生活在一起。这个故事，是格林兄弟讲下来的。

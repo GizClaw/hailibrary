@@ -1,0 +1,187 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts: {delivery: 沉静从容，带着古老童话的神秘与幽默, timbre: 温暖清朗, pace: 舒缓而富有变化, pitch: 中音}
+    prince:
+      display_name: 王子
+      tts: {delivery: 善良勇敢，谦逊而坚定, timbre: 清朗温厚, pace: 从容, pitch: 中音}
+    old_woman:
+      display_name: 老妇人
+      tts: {delivery: 苍老慈和，言语里藏着神秘力量, timbre: 温暖微哑, pace: 舒缓, pitch: 中高音}
+    old_man_1:
+      display_name: 第一位老人
+      tts: {delivery: 年迈平和，回答简明, timbre: 苍老低沉, pace: 缓慢, pitch: 低音}
+    old_man_2:
+      display_name: 第二位老人
+      tts: {delivery: 年迈笃定，语气沉稳, timbre: 苍老厚重, pace: 缓慢, pitch: 低音}
+    old_man_3:
+      display_name: 第三位老人
+      tts: {delivery: 睿智清醒，讲述不疾不徐, timbre: 深沉沙哑, pace: 舒缓, pitch: 低音}
+    eldest_dragon:
+      display_name: 年长的龙
+      tts: {delivery: 傲慢直接，受奉承后颇为得意, timbre: 粗厚, pace: 稳健, pitch: 低音}
+    mother_dragon:
+      display_name: 龙母
+      tts: {delivery: 威严怪诞，喜怒都带着压迫感, timbre: 粗哑如群鸦, pace: 稍缓, pitch: 低音}
+    eagle_king:
+      display_name: 鹰王
+      tts: {delivery: 果断威严，行动利落, timbre: 高亢清亮, pace: 稳健, pitch: 中高音}
+    flower_queens_daughter:
+      display_name: 花后的女儿
+      tts: {delivery: 温柔聪慧，危急时清醒果断, timbre: 柔美清澈, pace: 从容, pitch: 中高音}
+    fox_king:
+      display_name: 狐王
+      tts: {delivery: 机敏自信，言语干脆, timbre: 轻巧明亮, pace: 稍快, pitch: 中音}
+    fish_king:
+      display_name: 鱼王
+      tts: {delivery: 沉稳自信，语调平静, timbre: 圆润深沉, pace: 从容, pitch: 中低音}
+    flower_queen:
+      display_name: 花后
+      tts: {delivery: 慈爱庄重，温柔中不失威仪, timbre: 丰满温暖, pace: 舒缓, pitch: 中音}
+  chapters:
+    - id: ch01
+      title: 仙女的铃铛
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 有一天，一位年轻王子骑马穿过无边的草地，来到一道又深又宽的沟前。他正要绕路，忽然听见沟底有人哭。王子立刻翻身下马，沿着哭声传来的方向走去，看见一个老妇人困在里面，便俯身把她从这座活坟墓里拉了出来，又问她怎么会掉下去。
+        - id: ch01-b02
+          speaker: old_woman
+          text: 孩子，我是个苦命的穷老太婆。半夜过后，我赶去邻镇，想在早市卖鸡蛋。天太黑，我迷了路，这才跌进深沟。若不是你肯救我，我怕是永远也出不来了。
+        - id: ch01-b03
+          speaker: prince
+          text: 您已经走不动了。我这就扶您上马，再亲自牵着马，一路把您平安送回家。您住在哪里？
+        - id: ch01-b04
+          speaker: old_woman
+          text: 就在森林尽头。远处那间小屋，你看见了吗？
+        - id: ch01-b05
+          speaker: narrator
+          text: 王子把她扶上马，很快到了小屋。老妇人下马后，请他稍等，说要送他一样东西。她进屋片刻，出来时却先问起另一件事。
+        - id: ch01-b06
+          speaker: old_woman
+          text: 你身份尊贵，心地却这样仁慈，理当得到奖赏。你愿意娶世上最美的女子为妻吗？
+        - id: ch01-b07
+          speaker: prince
+          text: 我当然愿意。
+        - id: ch01-b08
+          speaker: old_woman
+          text: 她是花后的女儿，却被恶龙掳走了。你若想娶她，得先救她出来。我把这只小铃铛送给你。摇一下，鹰王会来。摇两下，狐王会来。摇三下，鱼王会来。遇到难处，它们自会相助。去吧，愿上天保佑你成功。
+        - id: ch01-b09
+          speaker: narrator
+          text: 老妇人把铃铛交给王子，随即连同小屋一起消失，仿佛被大地一口吞了下去。王子这才明白，刚才同自己说话的原来是位善良的仙女。他小心收好铃铛，骑马回家告诉父王，自己决意救出花后的女儿，明天就要动身，去广阔的世界寻找这位姑娘。
+    - id: ch02
+      title: 三位老人和龙母
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 第二天清早，王子骑上骏马离开家乡。他走遍四方，奔波了整整一年。那匹骏马终于力竭而死，王子自己也缺吃少穿，尝尽了饥寒困苦，可他仍没找到姑娘的一点踪迹。后来，他在一间小屋外遇见一位很老的老人，便走过去打听囚禁花后之女的恶龙住在哪里。
+        - id: ch02-b02
+          speaker: old_man_1
+          text: 我不知道。你沿这条路一直走上一年，会到我父亲的小屋。或许他能告诉你。
+        - id: ch02-b03
+          speaker: narrator
+          text: 王子谢过老人，沿着同一条路又走了整整一年。路尽头果然有间小屋，里面坐着一位更加年迈的老人。王子走上前，再次问起囚禁花后之女的恶龙住在哪里。
+        - id: ch02-b04
+          speaker: old_man_2
+          text: 我也不知道。你再顺着这条路走一年，就会到我父亲那里。他一定知道。
+        - id: ch02-b05
+          speaker: narrator
+          text: 王子顺着同一条路又走了一整年，终于找到第三位老人。他把问过儿子和孙子的那个问题又问了一遍。这一次，他总算得到了答案。
+        - id: ch02-b06
+          speaker: old_man_3
+          text: 恶龙住在那边山上，刚开始一整年的长眠。他总是整整一年醒着，接下来一年沉睡。眼下正是它睡觉的时候。你若想见花后的女儿，就去第二座山。龙母住在那里，夜夜举行舞会，那姑娘每一晚都会按时赴会。
+        - id: ch02-b07
+          speaker: narrator
+          text: 王子登上第二座山，找到一座黄金城堡，窗户全镶着钻石。他刚推开庭院大门，七条龙便猛扑过来，喝问他来做什么。
+        - id: ch02-b08
+          speaker: prince
+          text: 我久闻龙母既美丽又仁慈，特来投到她门下效力。
+        - id: ch02-b09
+          speaker: narrator
+          text: 群龙听了这番奉承话，十分高兴。最年长的一条走上前来。
+        - id: ch02-b10
+          speaker: eldest_dragon
+          text: 好吧，跟我走，我带你去见龙母。
+        - id: ch02-b11
+          speaker: narrator
+          text: 他们走进城堡，一连穿过十二间用黄金和钻石筑成的华美大厅。第十二间里，龙母正端坐在钻石宝座上。她是天底下最丑的女人，偏偏还长着三个脑袋。王子见到这副模样已经吃惊，再听那仿佛一大群乌鸦同时聒噪的嗓音，更觉得浑身不自在。
+        - id: ch02-b12
+          speaker: mother_dragon
+          text: 你来这里做什么？
+        - id: ch02-b13
+          speaker: prince
+          text: 我听说您美丽又仁慈，很想留下来为您效力。
+        - id: ch02-b14
+          speaker: mother_dragon
+          text: 那好。先把我的母马带到草地上，连续看守三天。哪天傍晚不能把它平安带回来，我们就吃掉你。
+        - id: ch02-b15
+          speaker: narrator
+          text: 王子接下差事，把母马牵向草地。
+    - id: ch03
+      title: 三天的考验
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 母马刚踏上草地，转眼便消失了。王子四处寻找，始终一无所获，只得绝望地坐在大石头上，想着自己悲惨的命运。正想得出神，一只鹰从头顶飞过。他猛然想起仙女送的铃铛，连忙从口袋里取出来摇了一下。振翅声立刻在身旁响起，鹰王落在了他脚边。
+        - id: ch03-b02
+          speaker: eagle_king
+          text: 我知道你在找龙母的母马。它正在云间飞奔。我这就召来天空中所有的鹰，让它们捉住母马，送回你身边。
+        - id: ch03-b03
+          speaker: narrator
+          text: 鹰王说完便飞走了。傍晚，雷鸣般的振翅声从空中传来。王子抬头一看，成千上万只鹰正赶着母马飞来。群鹰落到他的脚边，把母马交还给他。王子骑马回到城堡，龙母见他真能把母马带回来，惊奇极了。她把一件铜披风赏给王子，还准许他参加当晚的舞会。
+        - id: ch03-b04
+          speaker: narrator
+          text: 龙母领王子走进宽阔的舞厅。许多年轻的公龙和母龙正在成双起舞，花后美丽的女儿也在其中。她穿着世上最娇艳的鲜花织成的长裙，面庞白里透红，宛如百合与玫瑰。王子终于等到同她跳舞的机会，便凑近她耳边，悄声说明来意。
+        - id: ch03-b05
+          speaker: prince
+          text: 我是来救你出去的！
+        - id: ch03-b06
+          speaker: flower_queens_daughter
+          text: 第三天若还能平安带回母马，就向龙母讨一匹母马生的小马驹。
+        - id: ch03-b07
+          speaker: narrator
+          text: 午夜舞会散场。第二天清早，王子又把母马牵到草地上。母马再次消失，他便把铃铛摇了两下，狐王立刻现身。
+        - id: ch03-b08
+          speaker: fox_king
+          text: 我知道你要找什么。母马藏在山丘里，我会召来世上所有的狐狸，把它找出来。
+        - id: ch03-b09
+          speaker: narrator
+          text: 狐王说完，一闪便不见了。傍晚，成千上万只狐狸把母马赶回王子身边。王子骑着母马回到城堡，龙母这回赏给他一件银披风，又领他走进舞厅。花后的女儿见王子安然无恙，欢喜极了。两人共舞时，她靠近王子耳边，低声嘱咐他下一步该怎么做。
+        - id: ch03-b10
+          speaker: flower_queens_daughter
+          text: 明天若再成功，就带着小马驹到草地等我。舞会结束后，我们一起逃走。
+        - id: ch03-b11
+          speaker: narrator
+          text: 第三天，母马又在草地上消失。王子摇了三下铃铛，鱼王随即出现。
+        - id: ch03-b12
+          speaker: fish_king
+          text: 我很清楚该做什么。母马藏在河里，我会召来海中所有的鱼，把它送回来。
+        - id: ch03-b13
+          speaker: narrator
+          text: 临近傍晚，母马果然回来了。王子把它牵到龙母面前。
+        - id: ch03-b14
+          speaker: mother_dragon
+          text: 你真是个勇敢的年轻人。我要让你做我的贴身仆从。说吧，一开始想要什么奖赏？
+        - id: ch03-b15
+          speaker: narrator
+          text: 王子向龙母讨了一匹母马生的小马驹。龙母立刻答应，还额外赏给他一件金披风。因为王子一再夸赞她的美貌，这位三个脑袋的龙母竟然爱上了他。
+    - id: ch04
+      title: 花开花落的约定
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 那天傍晚，王子披着金披风来到舞会。宴饮还没结束，他便悄悄溜走，径直来到马厩。他骑上刚得到的小马驹，赶到草地等候花后的女儿。临近午夜，美丽的姑娘终于出现。王子把她扶到马背上，让她坐在自己身前。两人乘着小马驹疾驰如风，一直逃到花后的住所。
+        - id: ch04-b02
+          speaker: narrator
+          text: 群龙很快发现他们逃了，赶忙跑去唤醒那条还在沉睡之年的恶龙。恶龙听说花后的女儿被王子救走，顿时暴跳如雷，决意围攻花后的宫殿。花后却施展力量，让住所四周长出一片花林。花林一直高到天空，谁也无法从中强行开出一条路来。
+        - id: ch04-b03
+          speaker: narrator
+          text: 花后得知女儿愿意嫁给王子，便把一个条件告诉他。
+        - id: ch04-b04
+          speaker: flower_queen
+          text: 我很愿意答应你们的婚事。不过我女儿只能在夏天陪你。到了冬天，万物凋零，大地盖满白雪，她必须回到地下宫殿，同我一起生活。
+        - id: ch04-b05
+          speaker: narrator
+          text: 王子接受了这个约定，带着美丽的新娘回家，举行了一场盛大辉煌的婚礼。年轻夫妻幸福地生活在一起，直到冬天来临，花后的女儿才离开丈夫，回到母亲身边。夏日一到，她又回到丈夫那里，欢乐幸福的日子重新开始，一直延续到下一个冬季将近。那时，她便再次回到母亲身边。此后，她一生都这样随着花开花落，年年往返，从未改变。尽管总要分别，两人始终过得幸福快乐。

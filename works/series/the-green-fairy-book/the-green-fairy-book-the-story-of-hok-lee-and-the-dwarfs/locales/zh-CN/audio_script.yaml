@@ -1,0 +1,239 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，像编书人面对孩子娓娓而谈，幽默处轻巧含笑
+        timbre: 温暖清朗
+        pace: 舒缓而有自然起伏
+        pitch: 中音
+    hok_lee:
+      display_name: 霍克利
+      tts:
+        delivery: 精明世故，遭难时惶恐窘迫，得意时轻快
+        timbre: 厚实清晰
+        pace: 适中
+        pitch: 中音
+    neighbor:
+      display_name: 邻居
+      tts:
+        delivery: 直爽好奇，说话不加掩饰
+        timbre: 明亮朴实
+        pace: 适中
+        pitch: 中音
+    doctor:
+      display_name: 游方郎中
+      tts:
+        delivery: 老练神秘，谈条件时从容笃定
+        timbre: 略显苍老而干涩
+        pace: 偏慢
+        pitch: 中低音
+    dwarf_leader:
+      display_name: 小矮人首领
+      tts:
+        delivery: 威严果断，发号施令时干脆有力
+        timbre: 尖细而结实
+        pace: 适中
+        pitch: 中高音
+    dwarf_one:
+      display_name: 小矮人甲
+      tts:
+        delivery: 警觉活泼，情绪来得快
+        timbre: 清脆
+        pace: 稍快
+        pitch: 高音
+    dwarf_two:
+      display_name: 小矮人乙
+      tts:
+        delivery: 淘气外露，起哄时兴致勃勃
+        timbre: 明亮
+        pace: 稍快
+        pitch: 中高音
+    dwarf_three:
+      display_name: 小矮人丙
+      tts:
+        delivery: 直率有劲，随众回应时节奏鲜明
+        timbre: 轻快
+        pace: 适中
+        pitch: 中高音
+  chapters:
+    - id: ch01
+      title: 体面人的秘密
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，中国一座小城里住着霍克利。他踏实勤快，白天卖力做自己的营生，回家还把家务全包下来，因为没有妻子替他料理。邻居们都说，这个霍克利真是个勤快的好人。瞧他干活多卖力，从不像别人那样出门玩乐，也不给自己放一天假。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            可霍克利根本不像大家想得那么正派。不错，他白天干活确实卖力。到了夜里，安分守己的人都睡熟了，他便偷偷出门，加入一伙凶恶的强盗。他们闯进富人家里，能拿到手的东西一件也不放过。这样的日子过了很久。偶尔虽有同伙被捉去受罚，却没人怀疑这个勤劳体面的霍克利。他靠一次次分得的赃款，已经攒下一大笔钱。
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            一天早晨，霍克利去市场，迎面碰上一个邻居。那人盯着他的脸，吃了一惊。
+        - id: ch01-b04
+          speaker: neighbor
+          text: >-
+            咦，霍克利，你的脸怎么了？这一边全肿起来啦！
+          emotion: surprised
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            霍克利的右脸颊果真肿成了左边的两倍，而且越来越难受。
+        - id: ch01-b06
+          speaker: hok_lee
+          text: >-
+            我把脸包紧一点，捂暖了，肿自然会消。
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            谁知一点用也没有。第二天更糟，此后那张脸一天比一天大，最后几乎赶上他的脑袋，还疼得厉害。霍克利彻底没了主意。脸肿成这样，本来已经又难看又痛苦，邻居们还不停拿他取笑。那些冷言冷语，比脸上的疼更伤他的心。
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            正巧，一个游方郎中来到城里。他既卖药，也卖抵挡巫婆和恶鬼的奇怪符咒。霍克利把人请进家，请他仔细看了自己的脸。
+        - id: ch01-b09
+          speaker: doctor
+          text: >-
+            霍克利，你这不是寻常的肿病。依我看，你准是做过亏心事，招来了鬼神的怒气。我的药治不了你。不过，只要你肯重重酬谢，我能告诉你一个治病的办法。
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            两个人讨价还价了很久，怎么也谈不拢。最后还是郎中占了上风。他咬定价钱，一分不让，不到那个数目便绝不说出秘密。霍克利又不愿顶着这张大脸过一辈子，只好交出大半不义之财。
+        - id: ch01-b11
+          speaker: doctor
+          text: >-
+            下一个月圆之夜，到树林里守着我说的那棵树。地下的小矮人和小精怪会出来跳舞。他们看见你，也会叫你跳。你一定要拿出最好的本领。跳得让他们高兴，他们就会答应你一个请求，你可以求他们治脸。要是跳得不好，他们一生气，恐怕还会害你。
+        - id: ch01-b12
+          speaker: narrator
+          text: >-
+            郎中说完便揣起钱，告辞走了。幸好月圆之夜就在眼前。到了那天，霍克利按时动身前往树林。他费了一点力气，终于找到郎中说的那棵树，怀着一颗怦怦乱跳的心，爬了上去。
+
+    - id: ch02
+      title: 月光下的坏舞
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            霍克利刚在树枝上坐稳，小矮人便从四面八方聚到月光下，越聚越多，最后看上去足足有几百个。他们兴高采烈，又蹦又跳。霍克利看得入迷，沿着树枝越爬越远。忽然，树枝“咔嚓”一声。小矮人全都停住了，霍克利只觉得自己的心也停了。
+        - id: ch02-b02
+          speaker: dwarf_leader
+          text: >-
+            树上有人！不管你是谁，马上下来。你不下来，我们可要上去抓了！
+          emotion: angry
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            霍克利吓得魂不附体，赶紧往下爬。可他太紧张了，快到地面时一脚踩空，以一种滑稽透顶的姿势翻滚下来。他好不容易爬起身，走到小矮人面前，深深鞠了一躬。方才喊话的那个看来正是首领，立刻盘问起他来。
+        - id: ch02-b04
+          speaker: dwarf_leader
+          text: >-
+            喂，你是什么人？跑到这里来干什么？
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            霍克利把肿脸的苦恼全说了，还说有人指点他来求小矮人治病。
+        - id: ch02-b06
+          speaker: dwarf_leader
+          text: >-
+            好吧，这事以后再说。你得先跳一支舞给我们看。跳得好，也许我们会帮你。跳得差，我们一定罚你。听明白了，就开始吧！
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            首领和其余小矮人围成一个大圈坐下，只留霍克利独自站在中间。他已经吓掉半条命，刚才从树上摔下来，身子也摔得七荤八素，哪里还提得起半点跳舞的兴致？可这些小矮人绝不是好惹的，霍克利不敢违抗。
+        - id: ch02-b08
+          speaker: dwarf_leader
+          text: >-
+            开始！
+        - id: ch02-b09
+          speakers: [dwarf_one, dwarf_two, dwarf_three]
+          ensemble: chorus
+          text: >-
+            开始！
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            霍克利无路可退，只好先用一只脚蹦，再换一只脚蹦。他又僵又怕，跳得实在难看。没过多久，他便瘫在地上，发誓再也跳不动了。小矮人气坏了，一拥而上，把他骂了个痛快。
+        - id: ch02-b11
+          speakers: [dwarf_leader, dwarf_one, dwarf_two, dwarf_three]
+          ensemble: chorus
+          text: >-
+            你也配来求我们治病！你带来一张肿脸，回去就带两张吧！
+          emotion: angry
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            说完，他们飞奔而去，转眼无影无踪。霍克利只得一瘸一拐地回家。他又累又沮丧，想到那句威胁，心里更是不安。
+        - id: ch02-b13
+          speaker: narrator
+          text: >-
+            他的担忧一点也没有落空。第二天醒来，霍克利的左脸也肿得和右边一样大，两只眼睛几乎睁不开。他绝望透顶，邻居们却笑得比从前更加厉害。那个郎中又早已消失，想找也找不到。霍克利别无选择，只能等到下一个月圆之夜，再去求那些小矮人。
+
+    - id: ch03
+      title: 再跳一次
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            霍克利等了整整一个月。又一个月圆之夜来临时，他拖着沉重的脚步回到树林，坐在上次摔下来的那棵树底下。他没有等多久，小矮人便三五成群地走出来，很快全都到齐了。
+        - id: ch03-b02
+          speaker: dwarf_one
+          text: >-
+            我心里怎么不大安稳？附近好像有个讨厌的人。
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            霍克利赶紧上前，伏身行礼，额头几乎碰到地面。小矮人围上来，看着他两边高高肿起的脸颊，全都哈哈大笑。
+        - id: ch03-b04
+          speakers: [dwarf_leader, dwarf_one, dwarf_two, dwarf_three]
+          ensemble: chorus
+          text: >-
+            你这次又想干什么？
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            霍克利讲了自己新添的灾祸，苦苦请求他们准许自己再试跳一次。小矮人最喜欢有人逗他们开心，经不住他一再恳求，终于点头答应。
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            霍克利知道这次成败关系重大，便打起精神，鼓足勇气。他先慢慢跳，随后一点一点加快，舞姿轻盈又优美，还变出许多从未见过的新奇步法。小矮人全都看得心花怒放，不住拍着小小的手掌，大声为他喝彩。
+        - id: ch03-b07
+          speakers: [dwarf_leader, dwarf_one, dwarf_two, dwarf_three]
+          ensemble: chorus
+          text: >-
+            跳得好，霍克利！继续，再多跳一会儿！我们喜欢！
+          emotion: happy
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            霍克利跳了又跳，直到一丝力气也不剩，才不得不停下。
+        - id: ch03-b09
+          speaker: dwarf_leader
+          text: >-
+            霍克利，你这支舞让我们很满意。作为酬谢，你的脸会恢复原样。再会。
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            话音刚落，首领和所有小矮人都消失了。霍克利连忙用双手摸摸脸，惊喜地发现，两边脸颊真的恢复了原来的大小。此刻回家的路仿佛又短又好走，他很快便回到了家。那晚，他快快乐乐地上床睡觉，还下定决心，从今以后再也不出去抢劫。
+
+    - id: ch04
+      title: 霍克利的奇妙疗法
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            第二天，霍克利突然痊愈的消息传遍全城。邻居们纷纷追着他问，究竟是怎么治好的。可他们问来问去，也没能从霍克利嘴里套出秘密。他只肯说，自己找到了一种什么病都能治的奇妙办法。
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            过了一阵，一个富裕的邻居来找他。那人已经病了好几年，说只要霍克利肯讲出治好的办法，自己愿意拿出一大笔钱。霍克利答应了，条件是对方必须发誓，绝不把这个秘密传出去。等那人郑重发过誓，他才讲出小矮人与舞会的事。
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            富邻居照着霍克利的指点去了树林，处处小心照办，果然也让小矮人治好了病。接着，又有一个人、又一个人来求霍克利吐露秘密。每来一个，他都先叫对方发誓守密，再收下一大笔钱。这样的日子过了好几年，霍克利终于成了一个非常富有的人，从此安享太平，富足终老。
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            这是一个中国故事。

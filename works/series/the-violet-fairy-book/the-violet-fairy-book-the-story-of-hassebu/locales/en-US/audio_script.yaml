@@ -1,0 +1,297 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, steady, and quietly mysterious
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    hassebu:
+      display_name: Hassebu
+      tts:
+        delivery: earnest, brave, and youthful
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium
+    mother:
+      display_name: Hassebu's Mother
+      tts:
+        delivery: gentle, patient, and affectionate
+        timbre: soft and mature
+        pace: unhurried
+        pitch: medium
+    woodcutter_1:
+      display_name: First Woodcutter
+      tts:
+        delivery: practical, forceful, and calculating
+        timbre: rough and adult
+        pace: brisk
+        pitch: medium-low
+    woodcutter_2:
+      display_name: Second Woodcutter
+      tts:
+        delivery: blunt, eager, and self-interested
+        timbre: dry and adult
+        pace: measured
+        pitch: medium
+    woodcutter_3:
+      display_name: Third Woodcutter
+      tts:
+        delivery: direct, wary, and restrained
+        timbre: firm and adult
+        pace: measured
+        pitch: low
+    snake_king:
+      display_name: King of the Snakes
+      tts:
+        delivery: regal, grave, and compassionate
+        timbre: smooth and resonant
+        pace: deliberate
+        pitch: low
+    vizir:
+      display_name: Vizir
+      tts:
+        delivery: stern, suspicious, and commanding
+        timbre: hard and authoritative
+        pace: deliberate
+        pitch: low
+  chapters:
+    - id: ch01
+      title: Hassebu and the Honey Pit
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, a poor woman lived with her only child, a little boy named Hassebu. When he was old enough, she sent him to school to learn to read. Later, he was apprenticed to a tailor, but he learned nothing. He tried silversmithing and learned nothing there either. No matter what anyone taught him, it would not stay with him.
+        - id: ch01-b02
+          speaker: mother
+          text: Well, my son, you may stay at home.
+        - id: ch01-b03
+          speaker: narrator
+          text: His mother never wanted him to do work he disliked. So Hassebu stayed home, eating and sleeping.
+        - id: ch01-b04
+          speaker: hassebu
+          text: Mother, what kind of work did my father do?
+        - id: ch01-b05
+          speaker: mother
+          text: He was a doctor, and a very learned one.
+        - id: ch01-b06
+          speaker: hassebu
+          text: Then where are all his books?
+        - id: ch01-b07
+          speaker: mother
+          text: So many days have gone by that I never thought of them. Look inside and see whether they are still there.
+        - id: ch01-b08
+          speaker: narrator
+          text: Hassebu looked. Insects had eaten every book but one. He took that last book away and began to read it.
+        - id: ch01-b09
+          speaker: narrator
+          text: One morning, while he sat studying the book of medicine, some neighbors passed the house. They earned their living by cutting wood, loading it onto donkeys, and selling it in town.
+        - id: ch01-b10
+          speakers: [woodcutter_1, woodcutter_2, woodcutter_3]
+          ensemble: chorus
+          text: Let the boy come with us to cut wood.
+        - id: ch01-b11
+          speaker: mother
+          text: Very well. Tomorrow I'll buy him a donkey, and he can go with all of you.
+        - id: ch01-b12
+          speaker: narrator
+          text: She bought the donkey. The next day, Hassebu and the neighbors worked hard until evening. They carried their wood back to town and sold it for a good price. They did the same for six days. On the seventh day, rain began to fall. The woodcutters ran for shelter among the rocks, but Hassebu stayed where he was. He did not mind getting wet.
+        - id: ch01-b13
+          speaker: narrator
+          text: As he sat alone, he picked up a nearby stone and idly dropped it. The ground gave back a hollow ring.
+        - id: ch01-b14
+          speaker: hassebu
+          text: Come and hear this! It sounds hollow under here.
+        - id: ch01-b15
+          speaker: woodcutter_1
+          text: Strike the ground once more!
+        - id: ch01-b16
+          speaker: narrator
+          text: Hassebu struck it again, and they all listened.
+        - id: ch01-b17
+          speaker: hassebu
+          text: We should dig here.
+        - id: ch01-b18
+          speaker: narrator
+          text: They dug until they uncovered a deep pit, like a well, filled with honey to the very top.
+        - id: ch01-b19
+          speakers: [woodcutter_1, woodcutter_2, woodcutter_3]
+          ensemble: chorus
+          text: This is worth far more than firewood. Since you found it, Hassebu, you can climb down and fill our vessels. We'll sell the honey in town and share the money with you.
+        - id: ch01-b20
+          speaker: narrator
+          text: The next day, each man brought every bowl and vessel he could find. Hassebu filled them all. He went on filling them, day after day, for three months.
+    - id: ch02
+      title: Left Beneath the Earth
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: At last, nearly all the honey was gone. Only a little remained at the very bottom. The pit was so deep that it seemed to reach the middle of the earth.
+        - id: ch02-b02
+          speaker: woodcutter_1
+          text: We'll tie a rope beneath your arms and lower you down. Scrape up every bit of honey that remains. When you're finished, we'll send the rope down again. Fasten it around yourself, and we'll pull you out.
+        - id: ch02-b03
+          speaker: hassebu
+          text: All right.
+        - id: ch02-b04
+          speaker: narrator
+          text: Hassebu was lowered into the pit. He scraped and scraped until there was not enough honey left to cover the point of a needle.
+        - id: ch02-b05
+          speaker: hassebu
+          text: I've finished! Pull me up now!
+        - id: ch02-b06
+          speaker: narrator
+          text: But the men gathered together and made a cruel plan.
+        - id: ch02-b07
+          speaker: woodcutter_2
+          text: Leave him down there. We can keep his share of the money. We'll tell his mother that a lion seized him and carried him into the forest. We'll say we followed, but we couldn't catch it.
+        - id: ch02-b08
+          speaker: narrator
+          text: The men returned to town and told Hassebu's mother that lie. She wept for her son and mourned him for many months.
+        - id: ch02-b09
+          speaker: woodcutter_3
+          text: We ought to send something to our friend's mother.
+        - id: ch02-b10
+          speaker: narrator
+          text: So they gave her a little money. Every day, one man brought rice, another brought oil, another brought meat, and another brought cloth.
+        - id: ch02-b11
+          speaker: narrator
+          text: Down in the pit, Hassebu soon understood that his companions had abandoned him to die. Still, his heart was brave. He hoped he could find his own way out, and began exploring at once. The pit stretched far back beneath the ground. At night he slept. By day, he ate a little of the honey he had gathered. Many days passed that way.
+        - id: ch02-b12
+          speaker: narrator
+          text: One morning, Hassebu sat on a rock eating his breakfast when a large scorpion dropped at his feet. Afraid it would sting him, he killed it with a stone. Then a thought came to him.
+        - id: ch02-b13
+          speaker: hassebu
+          text: That scorpion had to come from somewhere. There may be a hole. I'll look for it.
+        - id: ch02-b14
+          speaker: narrator
+          text: He felt his way around the walls until he found a tiny hole in the roof. Far beyond it, a faint light glimmered. Joy filled his heart. He took out his knife and dug. Little by little, the opening grew wide enough for him to wriggle through.
+        - id: ch02-b15
+          speaker: narrator
+          text: On the other side lay a broad open space, with a path leading away from it. Hassebu followed the path for a long time. At last, he came to a great house with an open door made of gold.
+        - id: ch02-b16
+          speaker: narrator
+          text: He stepped into a vast hall. In its center stood a throne covered with precious stones and a sofa piled with the softest cushions. Hassebu had wandered far, and he was exhausted. He lay on the sofa and fell fast asleep.
+    - id: ch03
+      title: The King of the Snakes
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: After a while, voices sounded in the courtyard, followed by the steady tread of soldiers. The King of the Snakes was returning in royal state to his palace.
+        - id: ch03-b02
+          speaker: narrator
+          text: The snakes entered the hall and stopped in astonishment. A man was asleep on the king's own bed. The soldiers wanted to kill him at once, but the king stopped them.
+        - id: ch03-b03
+          speaker: snake_king
+          text: Do not harm him. Set me down on a chair.
+        - id: ch03-b04
+          speaker: narrator
+          text: The soldiers carrying the king knelt, and he slid from their shoulders into a chair. Once he was settled, he ordered them to wake the stranger gently.
+        - id: ch03-b05
+          speaker: narrator
+          text: Hassebu opened his eyes and sat up. Snakes surrounded him, and one was more beautiful than all the rest. That snake wore the robes of a king.
+        - id: ch03-b06
+          speaker: hassebu
+          text: Who are you?
+        - id: ch03-b07
+          speaker: snake_king
+          text: I am the King of the Snakes, and you are in my palace. Now tell me who you are and where you came from.
+        - id: ch03-b08
+          speaker: hassebu
+          text: My name is Hassebu. I don't know where I've come from, and I don't know where I'm going.
+        - id: ch03-b09
+          speaker: snake_king
+          text: Then remain here with me for a while.
+        - id: ch03-b10
+          speaker: narrator
+          text: The king commanded his soldiers to bring fresh spring water and fruit from the forest for his guest. For several days, Hassebu rested and feasted in the palace.
+        - id: ch03-b11
+          speaker: narrator
+          text: Before long, Hassebu began to miss his mother and his own country.
+        - id: ch03-b12
+          speaker: hassebu
+          text: Please send me home.
+        - id: ch03-b13
+          speaker: snake_king
+          text: If you return home, you will bring evil upon me.
+        - id: ch03-b14
+          speaker: hassebu
+          text: I won't hurt you. Please, let me go home.
+        - id: ch03-b15
+          speaker: snake_king
+          text: I know what will happen. If I let you leave, you will come back and kill me. I cannot send you away.
+        - id: ch03-b16
+          speaker: narrator
+          text: Hassebu pleaded so earnestly that the king finally gave way.
+        - id: ch03-b17
+          speaker: snake_king
+          text: First, swear that when you reach home, you will never bathe where a crowd of people has gathered.
+        - id: ch03-b18
+          speaker: narrator
+          text: Hassebu swore. The king ordered his soldiers to carry him within sight of his native city. From there, Hassebu went straight to his mother's house, and her heart was filled with joy.
+    - id: ch04
+      title: The Broken Promise
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Now the Sultan of that city was very ill. All the wise men agreed that only the flesh of the King of the Snakes could cure him. They also said that only a man with a strange mark on his chest could find the king. So the Vizir placed watchers at the public baths to look for such a man.
+        - id: ch04-b02
+          speaker: narrator
+          text: For three days, Hassebu remembered his promise and stayed away from the baths. Then came a morning so hot that he could scarcely breathe, and the promise slipped from his mind.
+        - id: ch04-b03
+          speaker: narrator
+          text: As soon as Hassebu removed his robe at the baths, the watchers seized him and took him before the Vizir.
+        - id: ch04-b04
+          speaker: vizir
+          text: Take us to the home of the King of the Snakes.
+        - id: ch04-b05
+          speaker: hassebu
+          text: I don't know where it is!
+        - id: ch04-b06
+          speaker: narrator
+          text: The Vizir did not believe him. He had Hassebu bound and beaten until his back was torn.
+        - id: ch04-b07
+          speaker: hassebu
+          text: Untie me, and I'll lead you there.
+        - id: ch04-b08
+          speaker: narrator
+          text: They traveled together for a very long way, until they reached the palace of the King of the Snakes.
+        - id: ch04-b09
+          speaker: hassebu
+          text: I didn't choose to betray you. Look at my back. You can see how they forced me.
+        - id: ch04-b10
+          speaker: snake_king
+          text: Who did this to you?
+        - id: ch04-b11
+          speaker: hassebu
+          text: The Vizir ordered it.
+        - id: ch04-b12
+          speaker: snake_king
+          text: Then my death has already come. You must carry me there yourself.
+          emotion: sad
+        - id: ch04-b13
+          speaker: narrator
+          text: Hassebu lifted the king and carried him away. As they traveled toward the city, the king told him what would happen.
+        - id: ch04-b14
+          speaker: snake_king
+          text: When we arrive, they will kill me and cook my flesh. Save some of the first water they boil me in. Seal it in a bottle and put it aside. The Vizir will order you to drink it, but you must not.
+        - id: ch04-b15
+          speaker: snake_king
+          text: Take a second portion of the water and drink that instead. It will make you a great physician. Give the third portion to the Sultan.
+        - id: ch04-b16
+          speaker: snake_king
+          text: Later, the Vizir will ask whether you drank what he gave you. Say, "I did, and this is for you." He will drink the first water and die. Then your soul will be at rest.
+    - id: ch05
+      title: The Great Physician
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Hassebu and the King of the Snakes continued into town. There, everything happened just as the king had foretold. The king was killed, and his flesh was cooked for the Sultan. Hassebu saved a bottle of the first boiling water. When the Vizir offered it to him, he did not drink it. He drank the second water and became a great physician. The third portion went to the Sultan and cured him. Then Hassebu offered the first water to the Vizir, who drank it and died.
+        - id: ch05-b02
+          speaker: narrator
+          text: The Sultan came to love Hassebu. Hassebu became a great physician and cured many people who were sick.
+        - id: ch05-b03
+          speaker: narrator
+          text: Yet Hassebu never stopped grieving for the poor King of the Snakes.
