@@ -8,12 +8,54 @@ audio_script:
         timbre: rich and clear
         pace: measured
         pitch: medium
-    baloo:
-      display_name: Baloo
+    mowgli:
+      display_name: Mowgli
       tts:
-        delivery: honest and kindly
-        timbre: broad and mellow
-        pace: unhurried
+        delivery: direct, lively, and fearless
+        timbre: youthful and clear
+        pace: quick
+        pitch: medium-high
+    brother_1:
+      display_name: First Wolf Brother
+      tts:
+        delivery: loyal and affectionate
+        timbre: young and warm
+        pace: steady
+        pitch: medium
+    brother_2:
+      display_name: Second Wolf Brother
+      tts:
+        delivery: loyal and affectionate
+        timbre: young and bright
+        pace: steady
+        pitch: medium
+    brother_3:
+      display_name: Third Wolf Brother
+      tts:
+        delivery: loyal and affectionate
+        timbre: young and rough
+        pace: steady
+        pitch: medium-low
+    brother_4:
+      display_name: Fourth Wolf Brother
+      tts:
+        delivery: loyal and affectionate
+        timbre: young and light
+        pace: steady
+        pitch: medium-high
+    shere_khan:
+      display_name: Shere Khan
+      tts:
+        delivery: proud and threatening
+        timbre: heavy and rasping
+        pace: forceful
+        pitch: low
+    akela:
+      display_name: Akela
+      tts:
+        delivery: grave and authoritative
+        timbre: weathered and full
+        pace: measured
         pitch: low
     bagheera:
       display_name: Bagheera
@@ -22,728 +64,625 @@ audio_script:
         timbre: dark and velvety
         pace: measured
         pitch: medium-low
-    mowgli:
-      display_name: Mowgli
+    mother_wolf:
+      display_name: Mother Wolf
       tts:
-        delivery: direct, lively, and fearless
-        timbre: youthful and clear
-        pace: quick
-        pitch: medium-high
-    rann:
-      display_name: Rann the Kite
-      tts:
-        delivery: watchful and dryly amused
-        timbre: keen and airy
-        pace: brisk
-        pitch: high
-    kaa:
-      display_name: Kaa
-      tts:
-        delivery: ancient, deliberate, and quietly dangerous
-        timbre: deep and sibilant
-        pace: slow
+        delivery: protective and fearless
+        timbre: deep and warm
+        pace: deliberate
         pitch: low
-    monkey_1:
-      display_name: First Monkey
+    wolf_1:
+      display_name: First Wolf
       tts:
-        delivery: boastful and excitable
-        timbre: wiry and bright
-        pace: quick
-        pitch: high
-    monkey_2:
-      display_name: Second Monkey
-      tts:
-        delivery: restless and loud
-        timbre: sharp and scratchy
-        pace: rapid
-        pitch: high
-    monkey_3:
-      display_name: Third Monkey
-      tts:
-        delivery: vain and chattering
-        timbre: thin and lively
-        pace: quick
-        pitch: medium-high
-    monkey_4:
-      display_name: Fourth Monkey
-      tts:
-        delivery: impulsive and noisy
-        timbre: rough and bright
-        pace: rapid
-        pitch: medium-high
-    cobra_1:
-      display_name: First Cobra
-      tts:
-        delivery: wary and restrained
-        timbre: low and breathy
-        pace: slow
-        pitch: low
-    cobra_2:
-      display_name: Second Cobra
-      tts:
-        delivery: wary and restrained
-        timbre: soft and sibilant
-        pace: slow
+        delivery: wary and blunt
+        timbre: coarse and strong
+        pace: steady
         pitch: medium-low
+    wolf_2:
+      display_name: Second Wolf
+      tts:
+        delivery: excitable and hungry
+        timbre: sharp and lively
+        pace: quick
+        pitch: medium
+    wolf_3:
+      display_name: Third Wolf
+      tts:
+        delivery: restless and forceful
+        timbre: dry and rough
+        pace: brisk
+        pitch: medium-low
+    wolf_4:
+      display_name: Fourth Wolf
+      tts:
+        delivery: eager and impressionable
+        timbre: young and clear
+        pace: quick
+        pitch: medium-high
+    messua:
+      display_name: Messua
+      tts:
+        delivery: tender and earnest
+        timbre: warm and gentle
+        pace: measured
+        pitch: medium
+    messua_husband:
+      display_name: Messua's Husband
+      tts:
+        delivery: practical and patient
+        timbre: quiet and grounded
+        pace: unhurried
+        pitch: medium-low
+    priest:
+      display_name: Village Priest
+      tts:
+        delivery: solemn and self-important
+        timbre: full and rounded
+        pace: deliberate
+        pitch: medium-low
+    buldeo:
+      display_name: Buldeo
+      tts:
+        delivery: boastful and blustering
+        timbre: weathered and coarse
+        pace: measured
+        pitch: low
+    headman:
+      display_name: Village Headman
+      tts:
+        delivery: stern and official
+        timbre: dry and firm
+        pace: measured
+        pitch: medium-low
+    villager_1:
+      display_name: First Villager
+      tts:
+        delivery: excitable and wary
+        timbre: plain and bright
+        pace: quick
+        pitch: medium
+    villager_2:
+      display_name: Second Villager
+      tts:
+        delivery: credulous and emphatic
+        timbre: rough and nasal
+        pace: brisk
+        pitch: medium-high
+    villager_3:
+      display_name: Third Villager
+      tts:
+        delivery: anxious and forceful
+        timbre: thin and sharp
+        pace: quick
+        pitch: high
   chapters:
     - id: ch01
-      title: The Law and the Monkey-People
+      title: The Man-Pack
       blocks:
         - id: ch01-b01
           speaker: narrator
-          text: "The leopard delights in his spots, and the buffalo takes pride in his horns. A hunter keeps clean, because a shining hide shows his strength. If a bullock can toss you or a great sambhur can gore you, there is no need to report it. The jungle knew that ten seasons ago. Never bully a stranger's cub. Call the little one Brother or Sister, for the Bear may be its mother. A cub may boast after its first kill, but the jungle is large and the cub is small. Let it think, and let it be still. Those were some of Baloo's maxims."
+          text: "What came of the hunt, bold hunter? Brother, the watch was long and cold. What of the quarry you meant to kill? Brother, he still feeds in the jungle. Where is the strength that made you proud? Brother, it drains from my side. And where are you hurrying now? Brother, I go to my den to die."
         - id: ch01-b02
           speaker: narrator
-          text: "This happened long before Mowgli left the Seeonee Wolf Pack and long before he took revenge on Shere Khan. Baloo was still teaching him the Law of the Jungle. The old brown bear loved having such a quick pupil. Young wolves learned only the rules their own pack needed. As soon as they could repeat the Hunting Verse about silent feet, night-seeing eyes, wind-hearing ears, and sharp white teeth, they ran away. Mowgli was a man-cub, so he had far more to learn."
+          text: "Now we must return to the first tale. After the fight with the Pack at Council Rock, Mowgli left the wolves' cave and went down toward the plowed country. He would not stay near the jungle. He had made at least one dangerous enemy that night. So he followed the rough valley road at a steady trot for nearly twenty miles, until he reached a land he had never seen."
         - id: ch01-b03
           speaker: narrator
-          text: "Bagheera sometimes came lounging through the jungle to see how his favorite pupil was doing. He would press his head against a tree and purr while Mowgli recited the day's lesson to Baloo. The boy climbed nearly as well as he swam, and he swam nearly as well as he ran. That meant there was a great deal Baloo could teach him. Mowgli learned how to know a rotten branch from a sound one before trusting his weight to it. He learned the polite words for wild bees when he found a hive fifty feet above the ground. He knew what to say to Mang the Bat if he disturbed him among the branches at midday, and how to warn the water snakes before splashing into their pools. These courtesies mattered. No Jungle People enjoy being disturbed, and nearly all of them are ready to fly at an intruder."
+          text: "The valley widened into a great plain, broken by rocks and deep little ravines. A small village stood at one end. At the other, the thick jungle swept down to the grazing grounds and stopped as sharply as if a hoe had cut it away. Cattle and buffaloes fed all across the open land. The boys guarding them saw Mowgli, yelled, and ran, while the yellow dogs that lived around the village rushed out barking. Mowgli was hungry, so he kept walking until he reached the gate. There he found the huge thorn barrier that the villagers dragged across the entrance each night, now pushed to one side."
         - id: ch01-b04
-          speaker: narrator
-          text: "Mowgli also learned the Strangers' Hunting Call. Anyone hunting outside his own ground had to repeat it until someone answered. It meant, 'Let me hunt here, because I am hungry.' The answer gave leave to hunt for food, but never for pleasure. There was so much to remember, and Mowgli grew tired of repeating each lesson a hundred times. One day Baloo cuffed him for forgetting, and the boy ran off in a temper."
+          speaker: mowgli
+          text: "Hmm. So the Men Folk here are afraid of the Jungle People too."
         - id: ch01-b05
-          speaker: baloo
-          text: "A man-cub is still a man-cub. He must learn every part of the Jungle Law."
+          speaker: narrator
+          text: "He sat beside the gate. When a man came out, Mowgli stood, opened his mouth, and pointed into it to ask for food. The man stared, then raced up the village's one street, calling for the priest. Soon the large priest arrived in white clothes, with red and yellow paint on his forehead. At least a hundred people came behind him. They stared, shouted, talked, and pointed."
         - id: ch01-b06
-          speaker: bagheera
-          text: "But look how small he is. How can that little head hold all your long speeches?"
+          speaker: mowgli
+          text: "These Men Folk have no manners. Only the gray apes behave like this."
         - id: ch01-b07
-          speaker: baloo
-          text: "Is anything in the jungle too small to be killed? No. That is why I teach him, and why I tap him very softly when he forgets."
+          speaker: narrator
+          text: "Mowgli tossed back his long hair and frowned at them."
         - id: ch01-b08
-          speaker: bagheera
-          text: "Softly? You know nothing about softness, old Iron-feet. Your softness has bruised his whole face today."
+          speaker: priest
+          text: "Why should anyone be frightened? Look at his arms and legs. Those marks are wolf bites. He is only a wolf-child who has run out of the jungle."
         - id: ch01-b09
-          speaker: baloo
-          text: "I love him. Better that I bruise him from head to foot than let ignorance bring him harm. I am teaching him the Master Words. They will protect him among the birds, the Snake People, and every four-footed hunter outside his own pack. If he remembers them, all the jungle must protect him. Is that not worth a small beating?"
+          speaker: narrator
+          text: "The wolf cubs had often nipped too hard during their games, leaving white scars on Mowgli's skin. Mowgli would never have called those marks bites. He knew what a real bite was."
         - id: ch01-b10
-          speaker: bagheera
-          text: "Then take care you do not kill him. He is not a tree trunk for your blunt claws. What are these Master Words? I am more likely to help than ask for help, but I would still like to know."
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
+          text: "Oh, the poor child! The wolves have bitten him! What a handsome boy. His eyes burn like red fire. Messua, he looks so much like the son the tiger took from you."
         - id: ch01-b11
-          speaker: narrator
-          text: "Bagheera stretched out a paw and admired the steel-blue claws at its end. Baloo called for Mowgli. A sulky little voice answered from above, and the boy slid down the trunk, angry and offended."
+          speaker: messua
+          text: "Let me see him. Yes, he does look like my boy. He is thinner, but the face is the same."
         - id: ch01-b12
-          speaker: mowgli
-          text: "My head is buzzing like a hive. I came down for Bagheera, not for you, fat old Baloo!"
+          speaker: narrator
+          text: "Messua wore heavy copper rings at her wrists and ankles. She shaded her eyes with one hand and studied Mowgli. The priest knew she was married to the richest man in the village. He looked up at the sky for a moment, then spoke in a grave voice."
         - id: ch01-b13
-          speaker: baloo
-          text: "That makes no difference to me. Tell Bagheera the Master Words I taught you today."
+          speaker: priest
+          text: "The jungle took a child, and now the jungle has returned one. Sister, bring this boy into your home. And remember to honor the priest who can see so deeply into men's lives."
         - id: ch01-b14
-          speaker: narrator
-          text: "The words hurt Baloo, though he tried not to show it. Mowgli, pleased by the chance to show off, asked which people Bagheera meant."
+          speaker: mowgli
+          text: "By the Bull that bought me, this talk feels like the Pack inspecting me all over again. Well, if I am a man, then I must learn to be one."
         - id: ch01-b15
-          speaker: mowgli
-          text: "There are many jungle languages. I know them all."
+          speaker: narrator
+          text: "The crowd opened a path, and Messua beckoned Mowgli into her hut. He stared at everything around him. There was a red lacquered bed, a huge clay chest full of grain and covered with funny raised designs, and half a dozen copper cooking pots. The image of a Hindu god stood in a small alcove. On the wall hung a real looking glass, the kind sold at country fairs. Messua brought him bread and a long drink of milk. Then she laid one hand on his head and searched his eyes. She could not stop wondering whether this might truly be her own child, returned from the jungle where the tiger had taken him."
         - id: ch01-b16
-          speaker: baloo
-          text: "You know a little, not a great deal. You see, Bagheera? No pupil ever thanks his teacher. Not one young wolf has come back to thank old Baloo. Come then, great scholar. Give us the word for the Hunting People."
+          speaker: messua
+          text: "Nathoo. Oh, Nathoo! Don't you remember the day I gave you new shoes?"
         - id: ch01-b17
-          speaker: mowgli
-          text: "We are of one blood, you and I."
+          speaker: narrator
+          text: "Mowgli gave no sign that the name meant anything. Messua touched his foot. Its sole was nearly as hard as horn."
         - id: ch01-b18
-          speaker: narrator
-          text: "Mowgli spoke with the Bear accent used by all hunters. Baloo approved and asked for the bird call. Mowgli repeated the words and ended with the Kite's whistle. Bagheera asked for the Snake People's word. Mowgli answered with a hiss no one could describe. Then he kicked up his heels, applauded himself, jumped sideways onto Bagheera's back, drummed on the glossy hide, and pulled terrible faces at Baloo."
+          speaker: messua
+          text: "No. These feet have never worn shoes. But you look so much like my Nathoo. You shall be my son."
+          emotion: sad
         - id: ch01-b19
-          speaker: baloo
-          text: "There now. That was worth one little bruise. Someday you will remember me."
+          speaker: narrator
+          text: "Mowgli felt uneasy. He had never been beneath a roof. Then he noticed that he could tear through the thatch whenever he wished, and that the window had no fastening."
         - id: ch01-b20
-          speaker: narrator
-          text: "Tenderly, Baloo explained how he had begged the Master Words from Hathi the Wild Elephant. Hathi had taken Mowgli to a pool, where a water snake taught him the word Baloo could not pronounce. Now bird, snake, and beast should leave the boy safe from jungle accidents. Baloo proudly patted his furry stomach."
-        - id: ch01-b21
-          speaker: baloo
-          text: "So there is no one left to fear."
-        - id: ch01-b22
-          speaker: bagheera
-          text: "Except his own people. And Little Brother, mind my ribs. Why are you bouncing about?"
-        - id: ch01-b23
-          speaker: narrator
-          text: "Mowgli had been tugging Bagheera's shoulder fur and kicking to get their attention. At last he shouted his news."
-        - id: ch01-b24
           speaker: mowgli
-          text: "I will have my own tribe! I will lead them through the branches all day."
+          text: "What good is a man who cannot understand men's speech? Among these people, I am as foolish and voiceless as a man would be among the wolves. I must learn their language."
+        - id: ch01-b21
+          speaker: narrator
+          text: "Among the wolves, Mowgli had learned to copy the challenge of a buck and the grunt of a young wild pig. Now, whenever Messua said a word, he repeated it almost perfectly. By nightfall, he knew the names of many things in the hut."
+        - id: ch01-b22
+          speaker: narrator
+          text: "Bedtime brought trouble. To Mowgli, the hut looked too much like a panther trap. When the door closed, he climbed straight out the window."
+        - id: ch01-b23
+          speaker: messua_husband
+          text: "Let him choose for himself. Until now, he cannot have slept in a bed. If he has truly come in place of our son, he will stay near us."
+        - id: ch01-b24
+          speaker: narrator
+          text: "Mowgli stretched himself in a bed of long clean grass at the edge of the field. He was nearly asleep when something soft and cool pushed beneath his chin. He opened his eyes to a familiar gray nose. Gray Brother had found him. He was the eldest of Mother Wolf's four cubs, and he had followed Mowgli all the way from the jungle."
         - id: ch01-b25
-          speaker: bagheera
-          text: "What new foolish dream is this?"
+          speaker: brother_1
+          text: "Phew! I followed you twenty miles, and this is my reward. You already smell of wood smoke and cattle, just like a man. Wake up, Little Brother. I have news."
         - id: ch01-b26
           speaker: mowgli
-          text: "They promised me. We will throw branches and dirt at old Baloo too!"
+          text: "Is everyone in the jungle safe?"
         - id: ch01-b27
           speaker: narrator
-          text: "Baloo swept Mowgli from Bagheera's back with one great paw. The boy landed between the bear's forelegs and saw that Baloo was truly angry. Bagheera's eyes had hardened like green stones."
+          text: "Mowgli wrapped his arms around Gray Brother."
         - id: ch01-b28
-          speaker: baloo
-          text: "Mowgli, you have been talking to the Bandar-log, the Monkey People."
-          emotion: angry
+          speaker: brother_1
+          text: "Everyone except the wolves burned by the Red Flower. Listen now. Shere Khan has gone far away to hunt while his scorched coat grows back. He swears that when he returns, he will leave your bones in the Waingunga."
         - id: ch01-b29
-          speaker: bagheera
-          text: "You went among the gray apes, the lawless eaters of everything. That is a deep shame."
-          emotion: angry
+          speaker: mowgli
+          text: "He is not the only one who made a promise. Thank you for the news. I am tired tonight, Gray Brother. There have been so many new things. But always bring me word."
         - id: ch01-b30
-          speaker: mowgli
-          text: "When Baloo hurt my head, I went away. The gray apes came down and felt sorry for me. Nobody else cared."
-          emotion: sad
+          speaker: brother_1
+          text: "You will remember that you are a wolf, won't you? The Men Folk will not make you forget us?"
         - id: ch01-b31
-          speaker: baloo
-          text: "The monkeys felt pity? Next you will tell me a mountain stream stands still and the summer sun is cool. What happened after that?"
+          speaker: mowgli
+          text: "Never. I will always love you and everyone in our cave. And I will always remember that the Pack drove me out."
         - id: ch01-b32
-          speaker: mowgli
-          text: "They gave me nuts and good things to eat. They carried me up into the trees. They said I was their blood brother, except I had no tail, and that one day I would lead them."
-        - id: ch01-b33
-          speaker: bagheera
-          text: "They have no leader. That was a lie, as their words always are."
-        - id: ch01-b34
-          speaker: mowgli
-          text: "They were kind to me and asked me to return. Why have you never taken me to them? They stand on two feet like me. They do not strike me with hard paws. They play all day. Let me up, Baloo! I will play with them again."
-        - id: ch01-b35
-          speaker: baloo
-          text: "Listen to me, man-cub. I taught you the laws of every jungle people except the monkeys in the trees. They are outcasts with no law and no language of their own. They steal words while they hide and listen above us. They have no leaders and no memory. They boast about the great deeds they will do, then a falling nut makes them laugh and forget everything. We do not drink, travel, hunt, or die where monkeys do. Before today, did you ever hear me speak of them?"
-        - id: ch01-b36
-          speaker: mowgli
-          text: "No."
-        - id: ch01-b37
-          speaker: narrator
-          text: "The forest had gone still under Baloo's thunderous voice, and Mowgli answered in a whisper."
-        - id: ch01-b38
-          speaker: baloo
-          text: "The Jungle People put them out of mind. They are dirty, shameless, and cruel. If they want anything at all, it is for us to notice them. We refuse, even when they drop nuts and filth on our heads."
-        - id: ch01-b39
-          speaker: narrator
-          text: "At once, nuts and twigs rained through the branches. High above came coughing, howling, and angry leaps among the thin boughs."
-        - id: ch01-b40
-          speaker: baloo
-          text: "The Monkey People are forbidden. Remember that."
-        - id: ch01-b41
-          speaker: bagheera
-          text: "Forbidden, yes. But Baloo should have warned you about them."
-        - id: ch01-b42
-          speaker: baloo
-          text: "How could I guess he would play with such filth? The Monkey People! Ugh!"
-        - id: ch01-b43
-          speaker: narrator
-          text: "Another shower struck them, and Baloo and Bagheera carried Mowgli away. Baloo had told the truth. The monkeys belonged to the treetops, and ground-dwelling beasts almost never looked up, so their paths rarely crossed. But when the monkeys found a sick wolf, a wounded tiger, or an injured bear, they tormented the helpless animal. They threw sticks and nuts at any beast for amusement and in the hope of being noticed. They howled meaningless songs, invited Jungle People to climb up and fight, and began savage battles among themselves over nothing at all. When monkeys died in those fights, they left the bodies where other animals would see them. They were always about to choose a leader and make laws and customs. They never did, because their memories did not last from one day to the next. Instead, they made up a comforting saying. Whatever the Bandar-log thought today, they claimed, the whole jungle would think tomorrow. No beast could reach them in the high branches. On the other hand, no beast respected or noticed them. That was why Mowgli's visit delighted them and Baloo's anger pleased them even more."
-        - id: ch01-b44
-          speaker: narrator
-          text: "The monkeys never intended anything for long, and usually their newest plan vanished almost at once. Still, one of them invented an idea that seemed brilliant to the rest. Mowgli could weave sticks together into shelters from the wind. If they caught him and kept him with the tribe, they could force him to teach them. Mowgli was a woodcutter's child, and certain skills seemed to live in his hands. He often made little huts from fallen branches without stopping to wonder how he knew the way. The monkeys had watched this play from above and considered it the most wonderful craft they had ever seen. This time, they told one another, they truly would have a leader. Under Mowgli they would become the wisest people in the jungle, so wise that every other creature must notice and envy them. They followed Baloo, Bagheera, and Mowgli without a sound until the midday rest. Mowgli was deeply ashamed of what he had done. He curled up between the panther and the bear, decided that he would never deal with the Monkey People again, and fell asleep. The Bandar-log waited overhead."
+          speaker: brother_1
+          text: "Another pack may drive you out too. Men are only men, Little Brother, and their talk sounds like frogs around a pond. When I return, I will wait in the bamboos beside the grazing ground."
     - id: ch02
-      title: Carried Through the Treetops
+      title: The Village Herd
       blocks:
         - id: ch02-b01
           speaker: narrator
-          text: "Mowgli next felt small, strong hands gripping both his arms and his legs. Before he could wake fully, branches swept across his face. Then he was high among the swaying boughs, staring down through the leaves. Far below, Baloo's deep cries woke the jungle. Bagheera sprang up the trunk after them with every tooth showing. For a moment the panther almost reached his Little Brother. The Bandar-log knew exactly where his weight became a danger. They scrambled outward and upward onto branches too thin to carry him, while Bagheera could climb no farther. From that safe height, the monkeys howled in triumph and made sure he heard them boasting that the great Black Panther had noticed them at last."
+          text: "For the next three months, Mowgli hardly passed beyond the village gate. Learning men's customs kept him busy. First he had to wear a cloth around his body, which annoyed him terribly. Then he had to learn about money, though he could not understand it, and about plowing, though he could see no use in it."
         - id: ch02-b02
-          speakers: [monkey_1, monkey_2, monkey_3, monkey_4]
-          ensemble: chorus
-          text: "He noticed us! Bagheera noticed us! Now all the Jungle People admire our cleverness!"
-          emotion: happy
+          speaker: narrator
+          text: "The village children made him angry too. They mocked him when he could not play their games, fly a kite, or pronounce a word. The Law of the Jungle had taught him to hold his temper, because life and food can depend on that. Even so, only one thought stopped him from picking up those little naked cubs and breaking them in two. It would not be fair sport."
         - id: ch02-b03
           speaker: narrator
-          text: "Then the Bandar-log fled along roads no ground creature could describe. Their paths crossed the hills high in the treetops, sometimes a hundred feet above the earth, and they could follow them even at night. Two powerful monkeys held Mowgli beneath the arms and swung twenty feet at a leap. His weight slowed them, but the rush was still wild enough to make him sick and dizzy. He feared the earth flashing far below and the hard jerk at the end of each swing over empty air. Yet part of him thrilled at the speed."
+          text: "Mowgli had no idea how strong he was. In the jungle, he had always been weak beside the animals. In the village, people said he had the strength of a bull. He understood even less about the castes that divided one man from another. When the potter's donkey slipped into a clay pit, Mowgli simply took its tail and hauled the animal out. Afterward, he helped the potter stack his load of earthen pots for the trip to the market at Khanhiwara. To the villagers, this was shocking. They looked down on the potter as a low-caste man, and they placed his donkey lower still."
         - id: ch02-b04
           speaker: narrator
-          text: "They raced straight up one tree until the thinnest twigs at its crown bent, crackled, and seemed ready to break beneath them. Then, with a cough and a whoop, they threw themselves outward and downward into open air. Hands or feet caught a lower branch of the next tree, their bodies swung beneath it, and the rush began again. At the top of each rise, Mowgli could sometimes see for miles across the quiet green jungle, like a sailor looking over the sea from the top of a mast. For one breath the whole world spread beneath him. Then the branches closed around him again. Leaves and twigs whipped his face, and he and his two guards plunged almost to earth before the next swing carried them upward. No road on the ground could match those tree roads. Bounding, crashing, whooping, and yelling, the whole tribe swept through the green country with Mowgli held helpless among them."
+          text: "The priest scolded him, so Mowgli threatened to put the priest on the donkey too. After that, the priest told Messua's husband to give the boy work. The headman ordered Mowgli to take the buffaloes out to graze the next morning. Nobody could have been more pleased."
         - id: ch02-b05
           speaker: narrator
-          text: "For a while Mowgli could think of nothing except the fear that those hard little hands might let him fall. Then fear gave way to anger. He knew better than to struggle while empty air lay below, and anger made his mind work. His first need was to send word to Baloo and Bagheera. The monkeys traveled so quickly through the trees that his friends must already be far behind. Looking down was useless. He could see only the upper surfaces of leaves and branches sliding past beneath him. So Mowgli turned his face upward. Far away in the blue, Rann the Kite balanced on the air and wheeled in slow circles. Rann was watching the jungle in his usual way, waiting for some creature to die. His sharp eyes caught the strange sight of monkeys carrying a burden. He dropped several hundred yards, curious to learn whether the thing they carried might be good to eat."
+          text: "That evening, Mowgli joined the circle beneath the great fig tree. Now that the village had made him one of its servants, he had a place at its nightly gathering. A stone platform beneath the tree served as the village club. The headman came, along with the watchman and the barber, who knew every scrap of gossip in the village. Old Buldeo the hunter sat among them with his Tower musket across his knees. Monkeys chattered and argued in the upper branches. A cobra lived in a hole beneath the platform. Because the villagers held him sacred, they set out his own little dish of milk every night."
         - id: ch02-b06
-          speaker: mowgli
-          text: "We are of one blood, you and I!"
+          speaker: narrator
+          text: "The old men pulled at their big water pipes and talked far into the night. They told marvelous stories about gods, men, and ghosts. Buldeo told still more marvelous tales about the jungle beasts, while the children outside the circle listened with enormous eyes. Animals filled most of the stories. The jungle stood at the village door. Deer and wild pigs rooted through the crops, and sometimes a tiger carried off a man at twilight within sight of the gate."
         - id: ch02-b07
           speaker: narrator
-          text: "Rann whistled in surprise when Mowgli rose to the top of a tree and gave the Kite's call. The branches swallowed the boy, but Rann glided to the next opening and saw his brown face appear again."
+          text: "Mowgli knew a little about the jungle himself. He hid his face so no one would see him laugh. As Buldeo climbed from one astonishing tale to the next, Mowgli's shoulders shook."
         - id: ch02-b08
-          speaker: mowgli
-          text: "Watch where they take me! Tell Baloo of the Seeonee Pack and Bagheera of Council Rock!"
+          speaker: buldeo
+          text: "The tiger that took Messua's son is no ordinary beast. A wicked old moneylender's ghost lives inside him. I know it is true. Purun Dass limped after he was struck in the riot that burned his account books. This tiger limps too. His paw prints do not match."
         - id: ch02-b09
-          speaker: rann
-          text: "Whose name shall I give them, Brother?"
+          speakers: [villager_1, villager_2]
+          ensemble: duo
+          text: "Yes, yes. That must be the truth."
         - id: ch02-b10
-          speaker: narrator
-          text: "Rann had heard of the man-cub but had never seen him."
-        - id: ch02-b11
           speaker: mowgli
-          text: "Mowgli the Frog! They call me the man-cub! Watch my trail!"
+          text: "Are all your stories made of cobwebs and moonlight? Everyone knows that tiger limps because he was born lame. You say a moneylender's soul lives in a beast without a jackal's courage. That is a child's tale."
+        - id: ch02-b11
+          speaker: narrator
+          text: "Buldeo lost his voice in surprise. Even the headman stared."
         - id: ch02-b12
-          speaker: narrator
-          text: "The last cry came while Mowgli swung through open air. Rann nodded, climbed until he seemed no larger than dust, and hung above the jungle. His far-seeing eyes followed each wave in the treetops that marked the monkeys' flight."
+          speaker: buldeo
+          text: "Oh, so the jungle brat knows everything! If you are so wise, take the tiger's hide to Khanhiwara. The Government offers a hundred rupees for him. Better yet, keep quiet when your elders are speaking."
         - id: ch02-b13
-          speaker: rann
-          text: "They never travel far or finish what they begin. The Bandar-log are always pecking at some new thing. This time they have pecked up trouble. Baloo is no helpless fledgling, and I know Bagheera can kill something larger than a goat."
+          speaker: narrator
+          text: "Mowgli stood and turned to leave. He called back over his shoulder."
         - id: ch02-b14
-          speaker: narrator
-          text: "Rann folded his feet beneath him, rocked upon the air, and kept watch. Far below, Baloo and Bagheera were wild with anger and grief. Bagheera climbed higher than ever before, but thin branches snapped beneath him. He slid down with his claws full of bark. Baloo had begun a heavy, hopeless trot after the monkeys."
+          speaker: mowgli
+          text: "I have listened all evening, and Buldeo has hardly spoken one true word about the jungle outside your gate. Why should I believe his stories about ghosts, gods, and goblins that he claims to have seen?"
         - id: ch02-b15
-          speaker: bagheera
-          text: "Why did you never warn the boy? What good was beating lessons into him if you left out the danger of the monkeys?"
-          emotion: angry
+          speaker: headman
+          text: "It is certainly time that boy began herding."
         - id: ch02-b16
-          speaker: baloo
-          text: "Hurry! We may still catch them!"
-          emotion: fearful
+          speaker: narrator
+          text: "Buldeo puffed and snorted over Mowgli's disrespect."
         - id: ch02-b17
-          speaker: bagheera
-          text: "Not at that pace. You would not tire a wounded cow. Stop rolling along and think. We need a plan. If we chase too close, they may drop him."
+          speaker: narrator
+          text: "In most Indian villages, a few boys lead the cattle and buffaloes to pasture at dawn and bring them home at night. Cattle that might trample a grown stranger will let children no taller than their noses shout at them and beat them along. The herd keeps the boys safe. Even a tiger will not attack a crowd of cattle. But a child who wanders off for flowers or lizards can be carried away."
         - id: ch02-b18
-          speaker: baloo
-          text: "They may have dropped him already! Who can trust the Bandar-log? Put dead bats on my head and feed me black bones. Roll me into the wild bees' hive and bury me beside the hyena. I am the most miserable bear alive! Oh, Mowgli! Why did I crack your head instead of warning you? Perhaps I knocked today's lesson clean out, and now you are alone without the Master Words."
-          emotion: sad
+          speaker: narrator
+          text: "At dawn, Mowgli rode through the village on Rama, the great herd bull. One by one, slate-blue buffaloes came from their pens and followed. Their long horns swept backward above savage eyes. Mowgli made sure the other boys knew he was in command. He struck the buffaloes with a long smooth bamboo."
         - id: ch02-b19
-          speaker: narrator
-          text: "Baloo covered his ears with both paws and rolled from side to side on the ground, moaning. The thought that Mowgli might have forgotten the very words meant to save him made the bear's grief worse. He blamed his own hard paw, his missing warning, and every moment he had spent teaching the wrong danger. Bagheera watched this misery impatiently. He feared for Mowgli too, but he knew that rolling and crying would not bring the boy back."
+          speaker: mowgli
+          text: "Kamya, keep the cattle grazing by themselves. Stay close to them and do not wander away. I will take the buffaloes farther on."
         - id: ch02-b20
-          speaker: bagheera
-          text: "He repeated every Word correctly only a little while ago. You have neither memory nor dignity, Baloo. What would the jungle say if the Black Panther curled up like Ikki the Porcupine and howled?"
-        - id: ch02-b21
-          speaker: baloo
-          text: "I do not care what the jungle says. Mowgli may be dead."
-          emotion: sad
-        - id: ch02-b22
-          speaker: bagheera
-          text: "I will not fear for him unless they drop him for sport or kill him from boredom. He is clever, well taught, and has the eyes that frighten Jungle People. But he is in the monkeys' power, and because they live in trees, they fear none of us."
-        - id: ch02-b23
           speaker: narrator
-          text: "Bagheera thoughtfully licked one forepaw. Suddenly Baloo stopped rolling and sprang upright."
+          text: "The grazing land was a maze of rocks, scrub, grassy clumps, and little gullies where whole herds could vanish. Buffaloes liked the pools and muddy hollows. They would wallow there for hours in the warm mud. Mowgli drove them to the edge of the plain, where the Waingunga flowed out of the jungle. Then he slid from Rama's neck and ran to a bamboo thicket. Gray Brother was waiting."
+        - id: ch02-b21
+          speaker: brother_1
+          text: "At last! I have waited here day after day. Why are you doing this cattle-herding work?"
+        - id: ch02-b22
+          speaker: mowgli
+          text: "The village ordered it. For a while, I am their herdsman. What have you heard about Shere Khan?"
+        - id: ch02-b23
+          speaker: brother_1
+          text: "He came back and waited a long time for you. Game grew scarce, so he left again. But he still means to kill you."
         - id: ch02-b24
-          speaker: baloo
-          text: "What a fat, foolish root-digger I am! Hathi says every creature has its own fear. The Bandar-log fear Kaa the Rock Python. He climbs as well as they do and steals young monkeys at night. His name alone makes their tails cold. We must find him."
+          speaker: mowgli
+          text: "Good. While he is gone, you or one of our brothers must sit on that rock. I will see you when I leave the village. When he returns, wait for me in the ravine beside the dhak tree in the middle of the plain. We need not walk straight into Shere Khan's mouth."
         - id: ch02-b25
-          speaker: bagheera
-          text: "Why would Kaa help us? He is not our kind. He has no feet, and his eyes are wicked."
+          speaker: narrator
+          text: "Mowgli found a shady patch and slept while the buffaloes grazed around him. Herding in India can be the laziest work in the world. The cattle take a few steps, tear up mouthfuls of grass, settle down, and then rise to move once more. They do not even low. They only grunt. The buffaloes say even less. One after another, they lower their heavy bodies into the muddy pools and work deeper into the warm mud. At last, nothing remains above the surface but their broad noses and their staring china-blue eyes. Then they lie as still as logs."
         - id: ch02-b26
-          speaker: baloo
-          text: "He is old, clever, and always hungry. We can promise him plenty of goats."
+          speaker: narrator
+          text: "Heat makes the rocks dance. High overhead, one kite whistles, and never more than one. The herd boys know that if a child or cow died, that kite would drop. Another kite miles away would see and follow, then another and another, until twenty hungry birds appeared from nowhere."
         - id: ch02-b27
-          speaker: bagheera
-          text: "After one meal he sleeps for a month. He may be asleep now. Even if he is awake, he may prefer to hunt his own goats."
+          speaker: narrator
+          text: "The children sleep, wake, and sleep again. They weave dry grass into little baskets for grasshoppers. They make two praying mantises fight, string red and black jungle nuts into necklaces, or watch a lizard warming on a rock and a snake hunting frogs near the wallows. They sing long songs with strange turns at the end, while a single day seems longer than most people's lives."
         - id: ch02-b28
-          speaker: baloo
-          text: "Then you and I can help the old hunter understand our need."
+          speaker: narrator
+          text: "Sometimes they build a mud castle, with mud men, horses, and buffaloes. Reeds become spears. The children pretend to be kings commanding armies, or gods receiving worship. At last evening comes. They call, and the buffaloes rise from the sticky pools with sounds like one gunshot after another. Then the herds cross the gray plain toward the village lights."
         - id: ch02-b29
           speaker: narrator
-          text: "Baloo rubbed his faded shoulder against Bagheera, and together they went to seek Kaa."
+          text: "Day after day, Mowgli led the buffaloes to the wallows. Each day, he saw Gray Brother's back on the signal rock a mile and a half away. That meant Shere Khan had not returned. Mowgli lay in the grass, listening and dreaming of his old jungle life. In those long still mornings, he would have heard one false step from Shere Khan's lame paw in the forest beside the Waingunga."
     - id: ch03
-      title: Kaa Joins the Hunt
+      title: The Trap in the Ravine
       blocks:
         - id: ch03-b01
           speaker: narrator
-          text: "They found the python stretched across a warm ledge in the afternoon sun. He had spent ten days alone while shedding his skin, and now admired his splendid brown-and-yellow coat. His blunt head darted over the ground. Thirty feet of body twisted into loops and knots while he licked his lips and imagined dinner."
+          text: "Then one day, Gray Brother was missing from the signal rock. Mowgli laughed and drove the buffaloes toward the ravine beside the dhak tree, all covered in golden-red flowers. Gray Brother sat there with every hair on his back standing up."
         - id: ch03-b02
-          speaker: baloo
-          text: "He has not eaten. That is good. Be careful, Bagheera. Kaa sees poorly just after changing his skin, and he strikes very quickly."
+          speaker: brother_1
+          text: "Shere Khan hid for a month so you would stop watching. Last night he crossed the hills with Tabaqui, following your trail as fast as he could."
         - id: ch03-b03
           speaker: narrator
-          text: "Kaa was not poisonous. He despised poisonous snakes as cowards. His power was in his embrace, and once those coils closed around anyone, the matter was finished. Baloo called a greeting, but Kaa was rather deaf and did not hear. At last he noticed them, lowered his head, and coiled for any danger."
+          text: "Gray Brother was panting. Mowgli frowned."
         - id: ch03-b04
-          speaker: kaa
-          text: "Good hunting to us all. Baloo, why are you here? Good hunting, Bagheera. At least one of us needs food. Have you found a doe or a young buck? I am as empty as a dry well."
+          speaker: mowgli
+          text: "Shere Khan does not frighten me. But Tabaqui is clever."
         - id: ch03-b05
-          speaker: baloo
-          text: "We are hunting."
+          speaker: brother_1
+          text: "You need not fear him now. I met Tabaqui at dawn. He told me everything before I broke his back. Now he can share all his cleverness with the kites. Shere Khan plans to wait at the village gate tonight for you alone. Right now, he is lying in the great dry ravine of the Waingunga."
         - id: ch03-b06
-          speaker: narrator
-          text: "Baloo spoke carelessly. A creature as large as Kaa must never be hurried."
+          speaker: mowgli
+          text: "Did he eat today, or is he hunting on an empty stomach?"
         - id: ch03-b07
-          speaker: kaa
-          text: "Let me come. One extra blow means little to you two, but I wait for days beside a path and climb half the night for one young ape. The trees are worse than when I was young. Every branch is dry or rotten."
+          speaker: narrator
+          text: "The answer could mean life or death."
         - id: ch03-b08
-          speaker: baloo
-          text: "Perhaps your great weight has something to do with that."
+          speaker: brother_1
+          text: "He killed a pig at dawn, and he drank afterward. You know Shere Khan. He cannot fast, not even for revenge."
         - id: ch03-b09
-          speaker: kaa
-          text: "I am a respectable length. The new trees are still to blame. On my last hunt I nearly fell because my tail slipped. The noise woke the Bandar-log, and they called me the vilest names."
+          speaker: mowgli
+          text: "What a fool! He has eaten and drunk, and he thinks I will wait while he sleeps. Where exactly is he? If ten of us were here, we could drag him down where he lies. The buffaloes will not charge until they smell him, and I cannot speak their language. Can we bring them behind his trail?"
         - id: ch03-b10
-          speaker: bagheera
-          text: "Was one of them 'footless yellow earthworm'?"
+          speaker: brother_1
+          text: "He swam a long way down the Waingunga so that no trail would remain."
         - id: ch03-b11
-          speaker: kaa
-          text: "Did they truly call me that?"
-          emotion: angry
+          speaker: mowgli
+          text: "Tabaqui must have taught him that. Shere Khan would never think of it himself."
         - id: ch03-b12
-          speaker: bagheera
-          text: "Something like it. We paid no attention. Monkeys say anything. They even claimed you had lost your teeth and feared creatures larger than a kid because of a he-goat's horns."
+          speaker: narrator
+          text: "Mowgli stood with one finger in his mouth and thought."
         - id: ch03-b13
-          speaker: narrator
-          text: "Old, careful pythons rarely show anger. Still, the great swallowing muscles beside Kaa's throat swelled and rippled."
+          speaker: mowgli
+          text: "The great Waingunga ravine opens onto the plain less than half a mile away. I can circle through the jungle, reach the head, and drive the herd down. But Shere Khan would slip out at the bottom. We must close that end. Gray Brother, can you divide the herd for me?"
         - id: ch03-b14
-          speaker: kaa
-          text: "The monkeys have moved. I heard them shouting in the trees when I came into the sun."
+          speaker: brother_1
+          text: "Perhaps I cannot do it alone. So I brought someone wiser."
         - id: ch03-b15
-          speaker: baloo
-          text: "The Bandar-log are the ones we are following."
-        - id: ch03-b16
           speaker: narrator
-          text: "The admission stuck in Baloo's throat. In all his memory, no respectable member of the Jungle People had ever admitted caring what the Bandar-log did. To follow their trail was shameful enough. To ask another hunter for help against them made the confession harder still. Kaa heard the hesitation and became more curious, though his reply remained perfectly courteous."
+          text: "Gray Brother ran off and dropped into a hollow. A huge gray head rose from it, one Mowgli knew well. Then the hot air filled with the loneliest sound in all the jungle, a wolf's hunting howl at midday."
+        - id: ch03-b16
+          speaker: mowgli
+          text: "Akela! I should have known you would remember me. We have serious work to do. Split the herd in two. Keep the cows with their calves, and put the bulls and plow buffaloes together."
+          emotion: happy
         - id: ch03-b17
-          speaker: kaa
-          text: "Then this must be important. Two great hunters and leaders would not trail the monkeys for a small matter."
+          speaker: narrator
+          text: "Akela and Gray Brother darted in and out among the buffaloes, weaving past one another like dancers in a chain. The startled herd snorted and flung up its heads. Slowly, it broke into two tight groups. The cow buffaloes pressed their calves safely into the center, then faced outward. They glared, pawed the earth, and waited for either wolf to stand still long enough to be charged and trampled. In the other group, the full-grown bulls, young bulls, and plow buffaloes stamped and tossed their horns. They looked more frightening than the cows. But they had no calves to protect, so they were not nearly as dangerous. Six men working together could not have divided that herd so neatly."
         - id: ch03-b18
-          speaker: baloo
-          text: "I am only an old and sometimes foolish teacher of the Seeonee wolf cubs, and Bagheera is..."
+          speaker: akela
+          text: "What next? They are trying to come together again."
         - id: ch03-b19
-          speaker: bagheera
-          text: "Bagheera. Kaa, those nut thieves have stolen our man-cub. Perhaps you have heard of him."
+          speaker: narrator
+          text: "Akela spoke between breaths. Mowgli climbed onto Rama's back."
         - id: ch03-b20
-          speaker: kaa
-          text: "Ikki told me a man-thing had joined a wolf pack, but I did not believe him. His quills make him proud, and his stories are half-heard and badly told."
+          speaker: mowgli
+          text: "Akela, drive the bulls away to the left. Gray Brother, hold the cows together after we leave and lead them to the foot of the ravine."
         - id: ch03-b21
-          speaker: baloo
-          text: "The story is true. No finer, wiser, or braver man-cub ever lived. He is my own pupil and will make Baloo's name famous. More than that, we love him."
+          speaker: brother_1
+          text: "How far into it?"
         - id: ch03-b22
-          speaker: kaa
-          text: "I too have known love. There are stories I could tell."
+          speaker: mowgli
+          text: "Keep going until the walls are too high for Shere Khan to jump. Hold them there until we charge down."
         - id: ch03-b23
-          speaker: bagheera
-          text: "Those stories deserve a clear night and full stomachs. Right now our boy is with the Bandar-log, and they fear only you."
+          speaker: narrator
+          text: "Akela bayed, and the bulls swept away. Gray Brother faced the cows. They charged, and he raced just ahead of them toward the bottom of the ravine. Akela drove the bulls far off to the left."
         - id: ch03-b24
-          speaker: kaa
-          text: "They fear me for good reason. The monkeys are vain, foolish chatterers. A man-thing among them has poor luck. They throw away the nuts they gather. They carry a branch for half a day, promising wonders, then snap it and forget. We must teach them to speak respectfully of their master. Where did they take him?"
+          speaker: mowgli
+          text: "Well done! One more rush and they will be moving properly. Easy, Akela, easy. One snap too many and the bulls will turn on us. Hujah! This is wilder than driving blackbuck. Did you know these creatures could run so fast?"
         - id: ch03-b25
-          speaker: baloo
-          text: "Only the jungle knows. I think they went toward sunset. We hoped you might know."
+          speaker: akela
+          text: "I hunted buffaloes myself once, long ago. Should I turn them into the jungle now?"
         - id: ch03-b26
-          speaker: kaa
-          text: "Why should I? I catch monkeys when they cross my path. I do not trail them any more than I trail frogs or green scum on a pool."
+          speaker: narrator
+          text: "Akela gasped through the dust."
         - id: ch03-b27
-          speaker: rann
-          text: "Look up, Baloo of the Seeonee Pack! Look up!"
+          speaker: mowgli
+          text: "Yes! Turn them, and do it quickly. Rama is wild with rage. If only I could tell him what I need today."
         - id: ch03-b28
           speaker: narrator
-          text: "Rann swept down, the setting sun shining beneath his wings. He had searched the jungle for Baloo and nearly missed him below the thick leaves."
+          text: "This time the bulls wheeled right and crashed into the thick brush. Half a mile away, the other herd boys watched beside the cattle. They ran for the village as fast as their legs could carry them, shouting that the buffaloes had gone mad."
         - id: ch03-b29
-          speaker: baloo
-          text: "What news?"
-        - id: ch03-b30
-          speaker: rann
-          text: "I saw Mowgli with the Bandar-log. He asked me to tell you. They carried him beyond the river to the monkey city, the Cold Lairs. They may remain ten nights, one night, or only an hour. I asked the bats to watch after dark. That is my message. Good hunting below!"
-        - id: ch03-b31
-          speaker: bagheera
-          text: "May you eat your fill and sleep deeply, Rann. At my next kill, I will save the head for you alone, best of all kites."
-        - id: ch03-b32
-          speaker: rann
-          text: "It was nothing. The boy knew the Master Word. I could not refuse him."
-        - id: ch03-b33
           speaker: narrator
-          text: "Rann circled up toward his roost."
+          text: "Mowgli's plan was simple. He would make a wide circle uphill to the head of the ravine. Then the bulls would charge down and trap Shere Khan between themselves and the waiting cows. A tiger full of food and water could neither fight well nor climb the steep walls."
+        - id: ch03-b30
+          speaker: narrator
+          text: "Mowgli soothed the buffaloes with his voice. Akela stayed well behind and gave a soft whine now and then to hurry the slowest animals. They made a very long circle so they would not pass close enough to warn Shere Khan. At last, Mowgli gathered the puzzled herd on a grassy slope above the ravine. From there, the plain lay beyond the treetops. But Mowgli watched the ravine walls. They rose almost straight up, and their hanging vines would give a climbing tiger no foothold."
+        - id: ch03-b31
+          speaker: mowgli
+          text: "Let them catch their breath, Akela. They have not smelled him yet. Give them a moment. I must tell Shere Khan who is coming. We have him trapped."
+        - id: ch03-b32
+          speaker: narrator
+          text: "Mowgli cupped his hands around his mouth and called into the ravine. It was like shouting through a tunnel. Echoes leaped from rock to rock. A long time passed. Then a sleepy, dragging snarl rose from a tiger awakened after a heavy meal."
+        - id: ch03-b33
+          speaker: shere_khan
+          text: "Who is calling me?"
         - id: ch03-b34
-          speaker: baloo
-          text: "He remembered the bird word while monkeys dragged him through the trees! The little one knows how to use his tongue."
-          emotion: happy
+          speaker: narrator
+          text: "A splendid peacock burst from the ravine with a scream."
         - id: ch03-b35
-          speaker: bagheera
-          text: "You drove the lesson firmly enough. I am proud of him too. Now we go to the Cold Lairs."
+          speaker: mowgli
+          text: "I am, Mowgli! Cattle thief, it is time to come to Council Rock. Akela, drive them down! Down, Rama! Down!"
         - id: ch03-b36
           speaker: narrator
-          text: "All three knew the place, though few respectable hunters had ever gone there. The Cold Lairs were the remains of an old human city, deserted, lost, and slowly buried by the jungle. Beasts generally avoid places once used by men. Wild boars will enter them, but the hunting tribes keep away. The monkeys claimed the ruins, if creatures as restless as the Bandar-log could be said to live anywhere. Even so, no self-respecting animal willingly came within sight of the city. Only in the driest weather did thirsty creatures approach, because the cracked tanks and reservoirs still held a little water. The Cold Lairs lay beyond the river, far from where they stood. Bagheera judged that even at full speed the journey would take half the night. Baloo knew at once that he could not match the other two, and his face became grave."
+          text: "For one instant, the herd stopped at the slope's edge. Akela gave the full hunting yell. The buffaloes plunged over, one after another, as ships shoot through rapids. Sand and stones flew around them. Once they began, nothing could stop them. Before they reached the ravine floor, Rama caught Shere Khan's scent and bellowed."
         - id: ch03-b37
-          speaker: baloo
-          text: "I will go as quickly as I can."
+          speaker: mowgli
+          text: "Ha! Now you understand!"
         - id: ch03-b38
-          speaker: bagheera
-          text: "We cannot wait. Follow us. Kaa and I must use all our speed."
+          speaker: narrator
+          text: "Mowgli rode above a flood of black horns, foaming mouths, and staring eyes. The herd tore down the ravine like boulders in a flood. Weaker buffaloes were shoved toward the walls, ripping through the vines. Now the animals knew their work. No tiger could stand against such a charge."
         - id: ch03-b39
-          speaker: kaa
-          text: "With feet or without them, I can match all four of yours."
+          speaker: narrator
+          text: "Shere Khan heard the thunder of hooves and hauled himself up. He lumbered down the ravine, searching each wall for an escape. There was none. Heavy with meat and drink, he ran on rather than turn and fight. The herd crashed through the pool where he had slept, and its bellowing filled the narrow cut."
         - id: ch03-b40
           speaker: narrator
-          text: "Baloo made one desperate effort to hurry with them, but his heavy body was not made for a race of half a night. Soon he had to sit down, panting, and let the others go ahead. He would follow and reach the city whenever he could. Bagheera moved forward at the quick, smooth canter of a panther. Kaa said nothing as they traveled, but no matter how Bagheera stretched his stride, the huge Rock Python remained level with him. When they reached a stream flowing across their path, Bagheera gained some distance. He gathered himself and bounded from one bank to the other, while Kaa had to enter the water and swim. The snake held his head and two feet of neck above the current and crossed without stopping. As soon as they reached flat, dry ground again, his long body poured forward and closed the distance until he was once more beside Bagheera."
+          text: "A second bellow answered from the ravine's foot. Shere Khan heard it too and turned. If the worst came, he would rather meet the bulls than the furious cows protecting their calves. Rama charged on, tripped over something soft, stumbled, and caught his feet again. The bulls thundered behind him. A moment later they smashed headlong into the cows coming up from below. The shock lifted the weaker buffaloes clean off their feet. The two herds carried one another out of the ravine and onto the plain, where horns gored, hooves stamped, and every animal snorted with rage."
         - id: ch03-b41
-          speaker: bagheera
-          text: "By the Broken Lock that freed me, you travel quickly!"
-        - id: ch03-b42
-          speaker: kaa
-          text: "I am hungry. Besides, they called me a speckled frog."
-        - id: ch03-b43
-          speaker: bagheera
-          text: "An earthworm, and a yellow one."
-        - id: ch03-b44
-          speaker: kaa
-          text: "It is all the same. Keep moving."
-        - id: ch03-b45
           speaker: narrator
-          text: "Kaa poured over the ground, choosing the shortest path with steady eyes."
+          text: "Mowgli chose his moment, slipped from Rama's neck, and struck right and left with his bamboo."
+        - id: ch03-b42
+          speaker: mowgli
+          text: "Quick, Akela! Break them apart before they fight each other. Drive them away. Hai, Rama! Hai, my children! Gently now. Gently. It is finished."
+          emotion: calm
+        - id: ch03-b43
+          speaker: narrator
+          text: "Akela and Gray Brother raced among the buffaloes, nipping at their legs. The herd turned once as if to charge back up the ravine. Mowgli managed to wheel Rama toward the wallows, and all the others followed."
+        - id: ch03-b44
+          speaker: narrator
+          text: "Shere Khan would never need another trampling. He was dead, and the kites were already coming."
     - id: ch04
-      title: The Battle at the Cold Lairs
+      title: The Tiger's Hide
       blocks:
         - id: ch04-b01
-          speaker: narrator
-          text: "At the Cold Lairs, the monkeys had forgotten Mowgli's friends entirely. For the moment, they were delighted with themselves and their clever capture. Mowgli had never seen an Indian city. Though this one was almost a heap of broken stone, it seemed wonderful and splendid to him. Long ago, a king had chosen the little hill and built his city there. Stone causeways still climbed toward ruined gates. Only splinters of the great wooden doors remained, hanging from worn and rusted hinges. Trees had rooted inside the walls and pushed their trunks out through the masonry. The battlements had tumbled and decayed. From the tower windows, wild creepers spilled outward in thick, hanging bushes. The jungle had entered every place where people once walked."
+          speaker: mowgli
+          text: "Brothers, he died like a dog. He would never have stood and fought us. His hide will look fine on Council Rock. We must work quickly."
         - id: ch04-b02
           speaker: narrator
-          text: "A great roofless palace crowned the hill. The marble in its courtyards and fountains had split and taken on stains of red and green. In the elephant court, grass and young trees had forced apart the very cobbles where the king's animals once stood. From the palace Mowgli could look across rows and rows of houses without roofs. Their black interiors made them seem like empty honeycombs. At the crossing of four roads stood a shapeless block that had once been an idol. Street corners were marked by pits and hollows where public wells had served the city. Farther away, the shattered domes of temples rose above the ruins, with wild fig trees growing from their sides. Everywhere, pieces of a human world remained, but no humans were left to explain them."
+          text: "Since he began living with men, Mowgli had carried a knife in a sheath around his neck. An ordinary village boy would never have dreamed of skinning a ten-foot tiger without help. Mowgli understood an animal's body differently. He knew exactly how the skin fitted over it and where the hide must be freed. Even with that knowledge, the work was desperately hard. For a full hour he cut, tore, pulled, and grunted over the carcass. The wolves rested nearby with their tongues hanging out. Whenever Mowgli needed more strength, they came forward and tugged exactly where he told them."
         - id: ch04-b03
           speaker: narrator
-          text: "The monkeys called all this their city. They pretended to despise the Jungle People for living among trees, yet not one monkey knew why any building had been made or how people had used it. They sat in circles on the floor of the king's council chamber. While scratching for fleas, they pretended to be men deciding important matters. They ran through roofless houses, collected pieces of plaster and old bricks, and piled them carefully in a corner. A moment later they forgot where the pile was. Then they fought and screamed in a scuffling crowd before abandoning the quarrel just as suddenly. They raced through the terraces of the royal garden and shook rose trees and orange trees simply to watch flowers and fruit fall. They explored dark passages, tunnels, and hundreds of little rooms. Because they remembered neither what they had seen nor what they had missed, they drifted about alone, in pairs, or in noisy crowds, each assuring the others that this was how men behaved. At the tanks they stirred the water into mud, fought over it, and then gathered in a mob to praise themselves."
+          text: "Then a hand dropped onto his shoulder. Mowgli looked up and saw Buldeo with the Tower musket. The herd boys had reported the stampede, and Buldeo had come out in a fury, eager to punish Mowgli for losing control. At the sight of the man, the wolves slipped away and hid."
         - id: ch04-b04
-          speakers: [monkey_1, monkey_2, monkey_3, monkey_4]
-          ensemble: chorus
-          text: "No one in the jungle is as wise, good, clever, strong, or gentle as the Bandar-log!"
-          emotion: happy
+          speaker: buldeo
+          text: "What foolishness is this? You think you can skin a tiger? Where did the buffaloes kill him? Why, this is the Lame Tiger, with a hundred-rupee reward on his head. Well, perhaps we can forgive you for letting the herd run off. Once I take the hide to Khanhiwara, I may even give you one rupee."
+          emotion: angry
         - id: ch04-b05
           speaker: narrator
-          text: "They repeated the same performance until the city bored them. Then they returned to the treetops, still hoping the Jungle People would notice. Mowgli had been trained under the Jungle Law, where every word and action had a purpose. He could neither like nor understand such a life. The monkeys had dragged him into the Cold Lairs late in the afternoon. After the long and dizzying journey, he would normally have slept at once. The Bandar-log had other plans. They joined hands, danced in circles, and sang foolish songs. One monkey made a grand speech. Mowgli's capture, he said, marked a new event in the whole history of their people. The man-cub would show them how to weave sticks and canes together, giving them shelter from cold and rain. Mowgli picked up some long creepers and began passing them over and under one another. The monkeys crowded close and copied his hands. Within a few minutes, every one of them had lost interest. They pulled their friends' tails, sprang up and down on all fours, and coughed at one another instead."
+          text: "Buldeo searched his waist cloth for flint and steel, then bent to burn off Shere Khan's whiskers. Hunters in those parts often singed a tiger's whiskers so its ghost could not haunt them. Mowgli kept peeling the hide from one forepaw."
         - id: ch04-b06
           speaker: mowgli
-          text: "I need food. I am a stranger here. Bring me something to eat, or give me permission to hunt."
+          text: "So you plan to take my hide, collect the reward, and perhaps give me one rupee. But I need this skin myself. Old man, move that fire away."
         - id: ch04-b07
-          speaker: narrator
-          text: "Twenty or thirty monkeys raced off to gather nuts and wild pawpaws. Before they returned, they began fighting among themselves. Most of the fruit was dropped or eaten during the quarrel, and carrying what remained back to Mowgli seemed too much trouble. No food arrived. Mowgli was hungry, sore, and angry. He wandered alone through the empty streets and courtyards, stopping again and again to give the Strangers' Hunting Call. In any lawful part of the jungle, someone would have answered and allowed him to find food. The ruined city gave him only silence. No hunter acknowledged the call, and the Bandar-log had already forgotten his hunger. For the first time, Mowgli fully understood that the monkeys had carried him to a very bad place."
+          speaker: buldeo
+          text: "How dare you speak that way to the village's chief hunter! Your luck and your stupid buffaloes killed this tiger. He had just fed, or he would have been twenty miles away. You cannot even skin him properly, you little beggar, and now you order Buldeo not to burn the whiskers? You will get no reward at all. You will get a beating. Leave the carcass!"
+          emotion: angry
         - id: ch04-b08
           speaker: mowgli
-          text: "Baloo was right. They have no law, no hunting call, and no leaders. They have only foolish talk and little stealing hands. If I starve or die here, it is my fault. I must return to my jungle. Baloo may beat me, but even that is better than chasing rose leaves with monkeys."
+          text: "By the Bull that bought me, must I waste the whole noon arguing with an old ape? Akela, this man is troubling me."
         - id: ch04-b09
           speaker: narrator
-          text: "As soon as he reached the city wall, the monkeys rushed after him and pulled him back. They insisted that he did not know how happy he was. To make him properly grateful, they pinched him. Mowgli set his teeth and refused to cry out. With the shouting crowd around him, he went to a broad terrace above reservoirs of red sandstone, now only half-filled with rainwater. In the terrace's center stood a summerhouse of white marble that had been built for queens who had died a hundred years before. Half of its domed roof had collapsed. The fallen stone blocked the underground passage through which the queens had once entered from the palace. Its walls were screens of carved marble, delicate milk-white patterns set with agate, carnelian, jasper, and lapis lazuli. The moon rose behind the hill and shone through that open stonework. Across the terrace it cast shadows as dark and intricate as embroidery made from black velvet."
+          text: "Buldeo was still bent over the tiger's head when he suddenly found himself flat on the grass. A gray wolf stood above him. Mowgli went on skinning as if no one else lived in all India."
         - id: ch04-b10
-          speaker: narrator
-          text: "Though hungry, tired, and bruised, Mowgli laughed when twenty monkeys at once told him how magnificent they were and how foolish he was to leave."
+          speaker: mowgli
+          text: "Yes, Buldeo, you were quite right. You will never give me one coin from the reward. This lame tiger and I have fought a very old war, and I have won it."
         - id: ch04-b11
-          speakers: [monkey_1, monkey_2, monkey_3, monkey_4]
-          ensemble: chorus
-          text: "We are great, free, and wonderful! We all agree, so it must be true. You are a new listener. Carry our words back so the Jungle People will notice us. Now we will tell you everything about our excellent selves!"
+          speaker: narrator
+          text: "Ten years earlier, Buldeo might have risked a fight if he met Akela alone in the woods. This was different. A gray wolf had obeyed one word from a boy, and that boy spoke of a private war with a man-eating tiger. Buldeo knew this could be no common animal and no common herdboy. He decided he had stumbled into the worst sort of sorcery. As he lay beneath Akela, he wondered whether the charm around his neck could protect him. He did not dare move. At any moment, he expected Mowgli to turn into a tiger before his eyes."
         - id: ch04-b12
-          speaker: narrator
-          text: "Hundreds gathered on the terrace, eager to hear their own speakers praise the Bandar-log. Whenever one speaker ran out of breath, the whole crowd shouted that every word was true because all of them said so. Mowgli did not argue. He nodded, blinked, and answered yes whenever a monkey suddenly asked him a question. The endless noise made his head spin. He decided that Tabaqui the Jackal must have bitten every monkey in the city and passed madness to them. Surely this was dewanee, the madness the Jungle People feared. He could not understand how they kept on shouting. Did none of them ever sleep? Then he saw a cloud moving toward the moon. If it grew large enough to cover the light, he might have a chance to run in the darkness. Even that hope was faint, because the journey, hunger, and clamor had left him terribly tired."
+          speaker: buldeo
+          text: "Maharaj. Great King."
+          emotion: fearful
         - id: ch04-b13
-          speaker: narrator
-          text: "Two friends watched that same cloud from the ruined ditch below the city wall. Kaa and Bagheera had arrived without giving the monkeys any warning. Both hunters knew that the Bandar-log were dangerous when they gathered in great numbers. A single monkey was no match for either of them, but the monkeys never chose a fair fight. They attacked only when they could crowd around one enemy by the hundred, and very few creatures in the jungle cared to face such odds. So the panther and the python stayed hidden, studied the terrace, and waited for darkness instead of rushing blindly toward Mowgli."
+          speaker: mowgli
+          text: "Yes?"
         - id: ch04-b14
-          speaker: kaa
-          text: "I will climb the west wall and strike downhill. Hundreds of them will not dare leap upon my back, but..."
+          speaker: narrator
+          text: "Mowgli did not turn around. He gave a small chuckle."
         - id: ch04-b15
-          speaker: bagheera
-          text: "I know. I wish Baloo were here, but we must begin. When the cloud covers the moon, I will charge the terrace. They are holding some council around the boy."
+          speaker: buldeo
+          text: "I am an old man. I did not know you were anything more than a herdboy. May I stand and leave, or will your servant tear me apart?"
+          emotion: fearful
         - id: ch04-b16
-          speaker: kaa
-          text: "Good hunting."
+          speaker: mowgli
+          text: "Go in peace. Next time, do not interfere with my game. Akela, let him go."
         - id: ch04-b17
           speaker: narrator
-          text: "Kaa glided away toward the west wall. By chance, it was the least broken part of the entire ruin. The great snake searched along the stones for a place where his heavy body could climb, and the delay kept him from reaching the terrace with Bagheera. Above them, the cloud finally covered the moon. As Mowgli wondered what the darkness might bring, he heard the light touch of Bagheera's feet. The Black Panther had raced up the slope with hardly a sound and reached the center of the terrace before the Bandar-log understood that danger had come. He struck to the right and left with his paws. Bagheera knew there was no time to stop and bite each enemy. Monkeys had seated themselves around Mowgli in rings fifty or sixty deep, and now the rings exploded into screams of fear and rage. The ground itself seemed to roll beneath Bagheera as fallen monkeys kicked and twisted under his paws. At last one moving body tripped him, and the crowd saw its chance."
+          text: "Buldeo hobbled toward the village as fast as he could, glancing back in case Mowgli changed into something dreadful. Once home, he told such a tale of sorcery, spells, and magic that the priest became very grave."
         - id: ch04-b18
-          speaker: monkey_1
-          text: "He came alone! Kill him!"
-          emotion: angry
+          speaker: narrator
+          text: "Mowgli returned to work. Twilight was near before he and the wolves finally pulled the great bright hide free."
         - id: ch04-b19
-          speaker: narrator
-          text: "A mass of monkeys closed over Bagheera from every side. They bit, clawed, tore, and pulled until his black hide disappeared beneath their bodies. While the panther fought for his life, five or six others seized Mowgli. They hauled him up the outside wall of the summerhouse, carried him onto the broken dome, and pushed him through the open hole. The floor waited a good fifteen feet below. A boy raised by people would have struck the stone badly and lain bruised or broken. Baloo had taught Mowgli how a jungle hunter meets the ground, even in a sudden fall. The man-cub turned in the air, brought his legs beneath him, and landed squarely on both feet among the dark rubble."
-        - id: ch04-b20
-          speakers: [monkey_1, monkey_2, monkey_3, monkey_4]
-          ensemble: chorus
-          text: "Stay there until we kill your friends! We may play with you afterward, if the Poison People leave you alive!"
-        - id: ch04-b21
           speaker: mowgli
-          text: "We are of one blood, you and I!"
-        - id: ch04-b22
-          speaker: narrator
-          text: "Mowgli quickly gave the Snake Call. Rustling and hissing surrounded him in the rubble, so he called again. Like nearly every Indian ruin, the summerhouse had filled with cobras."
-        - id: ch04-b23
-          speakers: [cobra_1, cobra_2]
-          ensemble: duo
-          text: "We hear you. Lower your hoods! Stand still, Little Brother. Your feet might hurt us."
-        - id: ch04-b24
-          speaker: narrator
-          text: "Mowgli stood as still as he could and peered through the stone screen. Outside came shrieks, chatter, and scuffling. Bagheera coughed hoarsely as he twisted, bucked, and plunged beneath his enemies. For the first time in his life, the Black Panther fought to stay alive. Mowgli knew Baloo must be near because Bagheera would never have come alone."
-        - id: ch04-b25
-          speaker: mowgli
-          text: "Get to the tank, Bagheera! Roll toward the water and plunge in!"
-        - id: ch04-b26
-          speaker: narrator
-          text: "Bagheera heard the boy's call through the uproar. It told him that Mowgli was alive and had found a place where the monkeys could not reach him at once. That knowledge gave the panther fresh courage. He lowered his head and fought toward the reservoirs, moving no more than an inch at a time beneath the weight of his enemies. He could not waste breath answering. Then a rumbling war cry rose from the broken wall nearest the jungle. Baloo had followed as quickly as his heavy legs could carry him. He had lost the race, but he had not abandoned it, and now at last the old bear had reached the Cold Lairs."
-        - id: ch04-b27
-          speaker: baloo
-          text: "Bagheera, I am here! I am climbing! These stones slide beneath me. Hold on, you miserable Bandar-log!"
-        - id: ch04-b28
-          speaker: narrator
-          text: "Baloo panted up onto the terrace, and a wave of monkeys swallowed him to the head. He planted himself firmly on his haunches so they could not pull him down. Then he spread both forepaws, swept as many attackers as he could hold into his embrace, and began to strike. His paws rose and fell in a steady beat like the blades of a paddle wheel. From inside the summerhouse, Mowgli heard a crash followed by a great splash. Bagheera had finally fought his way to the reservoir. Monkeys could not follow a panther into deep water, so he floated there, gasping, with only his head above the surface. Three rows of Bandar-log crowded the red stone steps. They danced with rage and waited to spring from every side if Bagheera climbed out to help Baloo. He could see the old bear disappearing beneath the enemy, but he could not reach him. Believing that Kaa might have turned away at the last moment, Bagheera lifted his dripping chin and, in sheer desperation, called for the python's protection."
-        - id: ch04-b29
-          speaker: bagheera
-          text: "We are of one blood, you and I!"
-          emotion: fearful
-        - id: ch04-b30
-          speaker: narrator
-          text: "He feared Kaa had fled. Even Baloo, half buried in monkeys, chuckled at hearing proud Bagheera ask for help. Kaa had only just crossed the west wall, knocking a stone into the ditch. He coiled and uncoiled to make certain every foot of his body worked. While Baloo fought and the monkeys screamed around the tank, Mang the Bat carried news of the battle. Hathi trumpeted far away. More monkeys woke and raced along the tree roads, and day birds rose for miles around."
-        - id: ch04-b31
-          speaker: narrator
-          text: "Then Kaa attacked. A python strikes with the weight of his entire body behind his head. Imagine a lance, a battering ram, and a half-ton hammer, all guided by a cool mind. That was Kaa. Even a five-foot python can knock down a man, and Kaa measured thirty feet. He drove one silent blow into the crowd around Baloo. He needed no second strike."
-        - id: ch04-b32
-          speakers: [monkey_1, monkey_2, monkey_3, monkey_4]
-          ensemble: chorus
-          text: "Kaa! It is Kaa! Run!"
-          emotion: fearful
-        - id: ch04-b33
-          speaker: narrator
-          text: "For generations, elder monkeys had frightened the young with stories of Kaa. He moved through branches as silently as moss grows. He stole the strongest monkeys at night. He could look like a dead branch until the branch seized them. None knew the end of his strength, none could face his eyes, and none escaped his coils alive. Terrified, they fled to walls and rooftops. Baloo drew breath. His thick fur had protected him better than Bagheera's, but the fight had hurt him badly."
-        - id: ch04-b34
-          speaker: narrator
-          text: "Kaa opened his mouth for the first time and hissed one long word. Far away, the bands racing to defend the city stopped where they were. They crouched together until their crowded weight bent and crackled the branches beneath them. Within the Cold Lairs, monkeys on roofs and walls stopped crying out. A sudden stillness covered the ruined city. From his prison, Mowgli could hear Bagheera shaking water from his sides as he climbed out of the tank. Then the uproar burst out once more. Monkeys scrambled higher on the walls. They wrapped themselves around the necks of giant stone idols and shrieked while they skipped along the battlements. Safe for the moment behind the marble screen, Mowgli danced in answer. He pressed one eye to the carving and made an owl's hoot between his front teeth, showing the Bandar-log exactly how little he respected them."
-        - id: ch04-b35
-          speaker: bagheera
-          text: "Free the man-cub. I have no strength left. We should take him away before they attack again."
-        - id: ch04-b36
-          speaker: kaa
-          text: "They will not move until I command them. Stay exactly where you are! I could not arrive sooner, Brother, but I believe I heard you call."
-        - id: ch04-b37
-          speaker: bagheera
-          text: "I may have called during the battle. Baloo, are you hurt?"
-        - id: ch04-b38
-          speaker: baloo
-          text: "I think they may have pulled me into a hundred little bears. Every part of me aches. Kaa, Bagheera and I owe you our lives."
-        - id: ch04-b39
-          speaker: kaa
-          text: "That does not matter. Where is the manling?"
-        - id: ch04-b40
-          speaker: mowgli
-          text: "I am trapped in here. I cannot climb past the broken dome."
-        - id: ch04-b41
-          speakers: [cobra_1, cobra_2]
-          ensemble: duo
-          text: "Take him away. He dances like Mao the Peacock and may crush our young."
-        - id: ch04-b42
-          speaker: kaa
-          text: "This manling has friends everywhere. Stand back, manling. Hide yourselves, Poison People. I will break the wall."
-        - id: ch04-b43
-          speaker: narrator
-          text: "Kaa examined the marble screen with great care. At last he found a discolored crack that showed where the stone had weakened. He made two or three gentle taps with his head, testing the exact distance and the strength of the spot. Then he lifted six feet of his body clear of the ground and drove his blunt nose forward with all his power. Again and again he struck, six crushing blows in all. The carved screen broke apart and fell inward in a cloud of dust, chips, and rubble. As soon as there was room, Mowgli sprang through the opening. He ran straight between his two battered friends and flung an arm around each great neck, holding Baloo on one side and Bagheera on the other."
-        - id: ch04-b44
-          speaker: baloo
-          text: "Are you hurt?"
-          emotion: fearful
-        - id: ch04-b45
-          speaker: mowgli
-          text: "I am hungry, sore, and badly bruised. But look at you, my Brothers. They hurt you terribly. You are bleeding."
-        - id: ch04-b46
-          speaker: bagheera
-          text: "Others are bleeding too."
-        - id: ch04-b47
-          speaker: narrator
-          text: "Bagheera licked his lips and looked at the dead monkeys near the terrace and tank."
-        - id: ch04-b48
-          speaker: baloo
-          text: "None of that matters now that you are safe, my dearest little frog."
-          emotion: happy
-        - id: ch04-b49
-          speaker: bagheera
-          text: "We will decide that later. Mowgli, Kaa won the battle and saved your life. Thank him as our custom requires."
-        - id: ch04-b50
-          speaker: narrator
-          text: "Mowgli turned toward the python's great head, which swayed just above his own."
-        - id: ch04-b51
-          speaker: kaa
-          text: "So this is the manling. His skin is soft, and he resembles a monkey. Take care that I do not mistake you for one at twilight after I change my coat."
-        - id: ch04-b52
-          speaker: mowgli
-          text: "We are of one blood, you and I. Tonight you gave me my life. Whenever you are hungry, my kill will be yours."
-        - id: ch04-b53
-          speaker: kaa
-          text: "Thank you, Little Brother. Tell me, what can such a bold hunter kill? I would like to follow you next time."
-        - id: ch04-b54
-          speaker: mowgli
-          text: "I am too small to kill, but I can drive goats toward hunters who need them. Come to me when you are empty, and you will learn whether I keep my word. These hands have some skill. If you are ever trapped, I may repay what I owe you, Bagheera, and Baloo. Good hunting, my masters."
-        - id: ch04-b55
-          speaker: baloo
-          text: "That was well said."
-        - id: ch04-b56
-          speaker: narrator
-          text: "Kaa rested his head lightly on Mowgli's shoulder."
-        - id: ch04-b57
-          speaker: kaa
-          text: "A brave heart and a courteous tongue will carry you far through the jungle. Now leave with your friends and sleep. The moon is setting, and you should not see what comes next."
+          text: "Now we must hide the skin and take the buffaloes home. Akela, help me gather them."
     - id: ch05
-      title: The Hunger Dance
+      title: Cast Out Again
       blocks:
         - id: ch05-b01
           speaker: narrator
-          text: "The moon sank behind the hills. Monkeys huddled along the walls and battlements like ragged, trembling fringes. Baloo drank at the tank, and Bagheera began smoothing his fur. Kaa glided to the middle of the terrace and snapped his jaws together. The sharp sound drew every monkey's eye."
+          text: "They gathered the herd in the misty dusk. Near the village, Mowgli saw lights and heard temple bells and conch shells sounding. Half the village seemed to be waiting beside the gate."
         - id: ch05-b02
-          speaker: kaa
-          text: "The moon is setting. Is there still enough light to see?"
+          speaker: mowgli
+          text: "They must have heard that I killed Shere Khan."
         - id: ch05-b03
-          speakers: [monkey_1, monkey_2, monkey_3, monkey_4]
-          ensemble: chorus
-          text: "We can see, Kaa."
-          emotion: fearful
+          speaker: narrator
+          text: "Instead, stones whistled past his ears."
         - id: ch05-b04
-          speaker: kaa
-          text: "Good. The Dance of Kaa's Hunger begins now. Sit still and watch."
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
+          text: "Sorcerer! Wolf's brat! Jungle demon! Get away from us! Leave before the priest turns you into a wolf again. Buldeo, shoot him!"
+          emotion: angry
         - id: ch05-b05
           speaker: narrator
-          text: "Kaa turned two or three times inside a broad circle, weaving his head slowly from right to left. Then the Dance of Hunger truly began. His long body flowed into loops and figures of eight. Soft, melting triangles became squares. The squares shifted into shapes with five sides, then into high coiled mounds that sank and rose again. The patterns never held still, yet Kaa never seemed to hurry. He did not pause for a breath, and through every changing figure he kept up a low, humming song. The moon dropped farther and the terrace grew darker. At last the dragging, shifting coils disappeared into the night. No one could see the dance now, but they could still hear the dry whisper and rustle of scales across the stone. Baloo and Bagheera stood as rigid as carved animals. A growl stirred deep in their throats, and the fur along their necks bristled. Mowgli alone watched without fear, wondering why a snake making shapes on the ground held everyone so still."
+          text: "The old Tower musket fired with a crash. A young buffalo bawled in pain."
         - id: ch05-b06
-          speaker: kaa
-          text: "Bandar-log, can you move a hand or foot without my command? Answer me."
-        - id: ch05-b07
-          speakers: [monkey_1, monkey_2, monkey_3, monkey_4]
+          speakers: [villager_1, villager_2, villager_3]
           ensemble: chorus
-          text: "Without your command, we cannot move a hand or foot."
+          text: "More magic! He can turn bullets aside! Buldeo, you shot your own buffalo!"
           emotion: fearful
+        - id: ch05-b07
+          speaker: mowgli
+          text: "What is happening now?"
+          emotion: surprised
         - id: ch05-b08
-          speaker: kaa
-          text: "Good. All of you, come one step nearer."
-        - id: ch05-b09
           speaker: narrator
-          text: "The monkey lines swayed helplessly forward. Baloo and Bagheera took one stiff step with them."
+          text: "Mowgli stared as the stones came faster. Akela sat down without concern."
+        - id: ch05-b09
+          speaker: akela
+          text: "These brothers of yours are rather like the Pack. If those bullets mean anything, I think they are casting you out."
         - id: ch05-b10
-          speaker: kaa
-          text: "Nearer."
+          speaker: priest
+          text: "Wolf! Wolf-child! Go away!"
+          emotion: angry
         - id: ch05-b11
           speaker: narrator
-          text: "All of them moved again. Mowgli put his hands on Baloo and Bagheera and pulled them away. Both animals started as if waking from a dream."
+          text: "The priest waved a sprig from the sacred tulsi plant."
         - id: ch05-b12
-          speaker: bagheera
-          text: "Keep your hand on my shoulder. Do not let go, or I must return to Kaa."
-          emotion: fearful
-        - id: ch05-b13
           speaker: mowgli
-          text: "It is only old Kaa making circles in the dust. Come away."
-        - id: ch05-b14
+          text: "Again? The wolves cast me out because I was a man. Now the men cast me out because I am a wolf. Come, Akela."
+        - id: ch05-b13
           speaker: narrator
-          text: "The three friends slipped through a gap in the wall and entered the jungle. Under the still trees, Baloo shook himself from nose to tail."
-        - id: ch05-b15
-          speaker: baloo
-          text: "I will never make an ally of Kaa again."
-        - id: ch05-b16
-          speaker: bagheera
-          text: "He knows more than we do. If I had stayed a little longer, I would have walked straight down his throat."
+          text: "Messua ran through the herd toward him."
+        - id: ch05-b14
+          speaker: messua
+          text: "Oh, my son! They say you are a sorcerer who can become an animal whenever you wish. I do not believe them. But you must go, or they will kill you. Buldeo calls you a wizard. I know only that you avenged Nathoo."
           emotion: fearful
+        - id: ch05-b15
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
+          text: "Come back, Messua! Come back now, or we will stone you too!"
+          emotion: angry
+        - id: ch05-b16
+          speaker: narrator
+          text: "A stone struck Mowgli in the mouth. He gave a short, ugly laugh."
         - id: ch05-b17
-          speaker: baloo
-          text: "Many monkeys will take that road before the next moonrise. Kaa will hunt well in his own fashion."
+          speaker: mowgli
+          text: "Run back, Messua. This is another foolish tale from the men beneath the big tree. At least I have paid the price for your son's life. Farewell, and run quickly. I will send the herd at them faster than they can throw their bricks. I am no wizard. Farewell!"
         - id: ch05-b18
           speaker: mowgli
-          text: "What did it all mean? I only saw a big snake making silly shapes until darkness came. His nose is sore too!"
+          text: "Once more, Akela. Bring in the herd."
         - id: ch05-b19
-          speaker: bagheera
-          text: "His nose was hurt for you. My ears, paws, and sides were hurt for you. Baloo's neck and shoulders were bitten for you. Neither of us will hunt comfortably for many days."
-          emotion: angry
+          speaker: narrator
+          text: "The buffaloes wanted their village pens. They scarcely needed Akela's cry. They rushed through the gate like a whirlwind and scattered the crowd on both sides."
         - id: ch05-b20
-          speaker: baloo
-          text: "That is nothing. We have our man-cub again."
+          speaker: mowgli
+          text: "Count them carefully! Perhaps I stole one. Count every animal, because I will never herd for you again. Farewell, children of men. Thank Messua that I do not bring my wolves into your street and hunt you from end to end."
         - id: ch05-b21
-          speaker: bagheera
-          text: "True, but saving him cost us hunting time, wounds, and fur. Half the hair has been pulled from my back. It cost us honor too. The Black Panther had to call Kaa for protection, and Kaa's dance made Baloo and me helpless as little birds. All of it began because you played with the Bandar-log."
+          speaker: narrator
+          text: "Mowgli turned away with the Lone Wolf. He looked up at the stars and felt happy."
         - id: ch05-b22
           speaker: mowgli
-          text: "That is true. I was a bad man-cub, and my stomach feels heavy with sorrow."
-          emotion: sad
+          text: "No more sleeping in traps, Akela. We will fetch Shere Khan's hide and leave. We will not hurt the village. Messua was kind to me."
         - id: ch05-b23
-          speaker: bagheera
-          text: "What does the Jungle Law say, Baloo?"
+          speaker: narrator
+          text: "The moon rose over the plain and washed everything in milky light. The frightened villagers watched Mowgli cross that pale open ground. He carried the bundled tiger skin on his head, with two wolves close behind his heels. He moved at the steady wolf's trot that eats up the long miles like fire. The sight sent the villagers back to their temple bells and conch shells, which rang and blared louder than before. Messua stood crying. Buldeo told and retold the story of his own adventure in the jungle, adding more each time. Before he finished, he claimed Akela had risen onto his hind legs and spoken to him like a man."
         - id: ch05-b24
           speaker: narrator
-          text: "Baloo did not want Mowgli to suffer more, but he could not change the Law."
+          text: "The moon was sinking when Mowgli and the two wolves reached the hill of Council Rock. They stopped outside Mother Wolf's cave."
         - id: ch05-b25
-          speaker: baloo
-          text: "Being sorry does not cancel punishment. But remember, Bagheera, he is very small."
-        - id: ch05-b26
-          speaker: bagheera
-          text: "I will remember. Still, he caused harm, and now the blows must come. Mowgli, do you have anything to say?"
-        - id: ch05-b27
           speaker: mowgli
-          text: "No. I did wrong, and both of you were wounded. The punishment is fair."
+          text: "Mother! The Man-Pack has cast me out. But I brought Shere Khan's hide, just as I promised."
+        - id: ch05-b26
+          speaker: narrator
+          text: "Mother Wolf came stiffly from the cave, with her cubs behind her. Her eyes shone when she saw the skin."
+        - id: ch05-b27
+          speaker: mother_wolf
+          text: "The day he forced his head and shoulders into this cave to hunt you, Little Frog, I warned him. I said the hunter would become the hunted. You have done well."
         - id: ch05-b28
-          speaker: narrator
-          text: "Bagheera gave him half a dozen loving taps by a panther's measure. A panther cub would hardly have woken from sleep under such blows, and Bagheera had remembered that Mowgli was small. But Mowgli was a seven-year-old boy, not a panther cub. To him, the six taps added up to exactly the kind of severe beating anyone sensible would wish to avoid. He accepted it because the Law required it and because his mistake had wounded his friends. When the punishment ended, Mowgli sneezed, picked himself up from the ground, and said not one complaining word."
-        - id: ch05-b29
           speaker: bagheera
-          text: "Climb onto my back, Little Brother. We are going home."
-        - id: ch05-b30
+          text: "You have done well, Little Brother. The jungle was lonely without you."
+        - id: ch05-b29
           speaker: narrator
-          text: "One beauty of Jungle Law is that punishment ends the matter. No one nags afterward. Mowgli laid his head on Bagheera's back and slept so deeply that he did not wake when they placed him in the home cave."
+          text: "Bagheera ran from the thicket and came to Mowgli's bare feet. Then Mowgli, Bagheera, the wolves, and the great striped hide went up to Council Rock together. Mowgli spread Shere Khan's skin over the flat stone where Akela had once sat as leader. He cut four sharp slivers of bamboo and used them to peg the hide down by its corners. Akela settled himself upon the skin. Then he lifted his voice in the old call that summoned the Pack to Council, just as he had called on the night when the wolves first brought Mowgli there."
+        - id: ch05-b30
+          speaker: akela
+          text: "Look well, O Wolves! Look well!"
+        - id: ch05-b31
+          speaker: narrator
+          text: "Since Akela lost his place, the Pack had lived without a leader. Each wolf hunted and fought whenever and however he pleased. Still, the old Council call pulled at them through long habit. They came back in poor condition. Some were lame from traps. Others limped from gunshot wounds. Some had grown mangy after eating rotten food. Many wolves were missing. All who remained gathered beneath Council Rock. Above them lay Shere Khan's striped hide, stretched across the stone, while the huge claws dangled from the ends of the empty paws."
+        - id: ch05-b32
+          speaker: narrator
+          text: "Then a song rose into Mowgli's throat by itself. He shouted it out, leaping on the rattling skin and beating time with his heels until he had no breath. Gray Brother and Akela howled between the verses."
+        - id: ch05-b33
+          speaker: mowgli
+          text: "Look well, O Wolves! Did I keep my word?"
+        - id: ch05-b34
+          speakers: [wolf_1, wolf_2, wolf_3, wolf_4]
+          ensemble: chorus
+          text: "Yes!"
+        - id: ch05-b35
+          speaker: narrator
+          text: "One ragged wolf called from the Pack."
+        - id: ch05-b36
+          speaker: wolf_1
+          text: "Lead us again, Akela! Lead us, Man-cub! We are sick of having no law. We want to be the Free People again."
+        - id: ch05-b37
+          speaker: bagheera
+          text: "No. That cannot be. Once your bellies are full, madness may take you again. You chose freedom, and now it belongs to you. Feed on it, O Wolves."
+        - id: ch05-b38
+          speaker: mowgli
+          text: "The Man-Pack and the Wolf-Pack have both cast me out. Now I will hunt alone in the jungle."
+        - id: ch05-b39
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: "Then we will hunt with you."
+        - id: ch05-b40
+          speaker: narrator
+          text: "From that day, Mowgli hunted in the jungle with his four wolf brothers. But he did not remain alone forever. Years later, he became a man and married."
+        - id: ch05-b41
+          speaker: narrator
+          text: "But that is a story for grown-ups."

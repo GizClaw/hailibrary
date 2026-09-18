@@ -1,645 +1,612 @@
-# “Tiger! Tiger!”
-
-What of the hunting, hunter bold?
-        Brother, the watch was long and cold.
-     What of the quarry ye went to kill?
-        Brother, he crops in the jungle still.
-     Where is the power that made your pride?
-        Brother, it ebbs from my flank and side.
-     Where is the haste that ye hurry by?
-        Brother, I go to my lair--to die.
-
-Now we must go back to the first tale. When Mowgli left the wolf’s cave
-after the fight with the Pack at the Council Rock, he went down to the
-plowed lands where the villagers lived, but he would not stop there
-because it was too near to the jungle, and he knew that he had made at
-least one bad enemy at the Council. So he hurried on, keeping to
-the rough road that ran down the valley, and followed it at a steady
-jog-trot for nearly twenty miles, till he came to a country that he
-did not know. The valley opened out into a great plain dotted over with
-rocks and cut up by ravines. At one end stood a little village, and at
-the other the thick jungle came down in a sweep to the grazing-grounds,
-and stopped there as though it had been cut off with a hoe. All over the
-plain, cattle and buffaloes were grazing, and when the little boys in
-charge of the herds saw Mowgli they shouted and ran away, and the yellow
-pariah dogs that hang about every Indian village barked. Mowgli walked
-on, for he was feeling hungry, and when he came to the village gate he
-saw the big thorn-bush that was drawn up before the gate at twilight,
-pushed to one side.
-
-“Umph!” he said, for he had come across more than one such barricade in
-his night rambles after things to eat. “So men are afraid of the People
-of the Jungle here also.” He sat down by the gate, and when a man came
-out he stood up, opened his mouth, and pointed down it to show that
-he wanted food. The man stared, and ran back up the one street of the
-village shouting for the priest, who was a big, fat man dressed in
-white, with a red and yellow mark on his forehead. The priest came to
-the gate, and with him at least a hundred people, who stared and talked
-and shouted and pointed at Mowgli.
-
-“They have no manners, these Men Folk,” said Mowgli to himself. “Only
-the gray ape would behave as they do.” So he threw back his long hair
-and frowned at the crowd.
-
-“What is there to be afraid of?” said the priest. “Look at the marks on
-his arms and legs. They are the bites of wolves. He is but a wolf-child
-run away from the jungle.”
-
-Of course, in playing together, the cubs had often nipped Mowgli harder
-than they intended, and there were white scars all over his arms and
-legs. But he would have been the last person in the world to call these
-bites, for he knew what real biting meant.
-
-“Arre! Arre!” said two or three women together. “To be bitten by wolves,
-poor child! He is a handsome boy. He has eyes like red fire. By my
-honor, Messua, he is not unlike thy boy that was taken by the tiger.”
-
-“Let me look,” said a woman with heavy copper rings on her wrists and
-ankles, and she peered at Mowgli under the palm of her hand. “Indeed he
-is not. He is thinner, but he has the very look of my boy.”
-
-The priest was a clever man, and he knew that Messua was wife to the
-richest villager in the place. So he looked up at the sky for a minute
-and said solemnly: “What the jungle has taken the jungle has restored.
-Take the boy into thy house, my sister, and forget not to honor the
-priest who sees so far into the lives of men.”
-
-“By the Bull that bought me,” said Mowgli to himself, “but all this
-talking is like another looking-over by the Pack! Well, if I am a man, a
-man I must become.”
-
-The crowd parted as the woman beckoned Mowgli to her hut, where there
-was a red lacquered bedstead, a great earthen grain chest with funny
-raised patterns on it, half a dozen copper cooking pots, an image of a
-Hindu god in a little alcove, and on the wall a real looking glass, such
-as they sell at the country fairs.
-
-She gave him a long drink of milk and some bread, and then she laid her
-hand on his head and looked into his eyes; for she thought perhaps that
-he might be her real son come back from the jungle where the tiger had
-taken him. So she said, “Nathoo, O Nathoo!” Mowgli did not show that he
-knew the name. “Dost thou not remember the day when I gave thee thy new
-shoes?” She touched his foot, and it was almost as hard as horn. “No,”
- she said sorrowfully, “those feet have never worn shoes, but thou art
-very like my Nathoo, and thou shalt be my son.”
-
-Mowgli was uneasy, because he had never been under a roof before. But as
-he looked at the thatch, he saw that he could tear it out any time if he
-wanted to get away, and that the window had no fastenings. “What is the
-good of a man,” he said to himself at last, “if he does not understand
-man’s talk? Now I am as silly and dumb as a man would be with us in the
-jungle. I must speak their talk.”
-
-It was not for fun that he had learned while he was with the wolves to
-imitate the challenge of bucks in the jungle and the grunt of the little
-wild pig. So, as soon as Messua pronounced a word Mowgli would imitate
-it almost perfectly, and before dark he had learned the names of many
-things in the hut.
-
-There was a difficulty at bedtime, because Mowgli would not sleep under
-anything that looked so like a panther trap as that hut, and when they
-shut the door he went through the window. “Give him his will,” said
-Messua’s husband. “Remember he can never till now have slept on a bed.
-If he is indeed sent in the place of our son he will not run away.”
-
-So Mowgli stretched himself in some long, clean grass at the edge of
-the field, but before he had closed his eyes a soft gray nose poked him
-under the chin.
-
-“Phew!” said Gray Brother (he was the eldest of Mother Wolf’s cubs).
-“This is a poor reward for following thee twenty miles. Thou smellest
-of wood smoke and cattle--altogether like a man already. Wake, Little
-Brother; I bring news.”
-
-“Are all well in the jungle?” said Mowgli, hugging him.
-
-“All except the wolves that were burned with the Red Flower. Now,
-listen. Shere Khan has gone away to hunt far off till his coat grows
-again, for he is badly singed. When he returns he swears that he will
-lay thy bones in the Waingunga.”
-
-“There are two words to that. I also have made a little promise. But
-news is always good. I am tired to-night,--very tired with new things,
-Gray Brother,--but bring me the news always.”
-
-“Thou wilt not forget that thou art a wolf? Men will not make thee
-forget?” said Gray Brother anxiously.
-
-“Never. I will always remember that I love thee and all in our cave. But
-also I will always remember that I have been cast out of the Pack.”
-
-“And that thou mayest be cast out of another pack. Men are only men,
-Little Brother, and their talk is like the talk of frogs in a pond. When
-I come down here again, I will wait for thee in the bamboos at the edge
-of the grazing-ground.”
-
-For three months after that night Mowgli hardly ever left the village
-gate, he was so busy learning the ways and customs of men. First he had
-to wear a cloth round him, which annoyed him horribly; and then he had
-to learn about money, which he did not in the least understand, and
-about plowing, of which he did not see the use. Then the little children
-in the village made him very angry. Luckily, the Law of the Jungle had
-taught him to keep his temper, for in the jungle life and food depend on
-keeping your temper; but when they made fun of him because he would not
-play games or fly kites, or because he mispronounced some word, only the
-knowledge that it was unsportsmanlike to kill little naked cubs kept him
-from picking them up and breaking them in two.
-
-He did not know his own strength in the least. In the jungle he knew he
-was weak compared with the beasts, but in the village people said that
-he was as strong as a bull.
-
-And Mowgli had not the faintest idea of the difference that caste makes
-between man and man. When the potter’s donkey slipped in the clay pit,
-Mowgli hauled it out by the tail, and helped to stack the pots for their
-journey to the market at Khanhiwara. That was very shocking, too, for
-the potter is a low-caste man, and his donkey is worse. When the priest
-scolded him, Mowgli threatened to put him on the donkey too, and the
-priest told Messua’s husband that Mowgli had better be set to work as
-soon as possible; and the village head-man told Mowgli that he would
-have to go out with the buffaloes next day, and herd them while they
-grazed. No one was more pleased than Mowgli; and that night, because he
-had been appointed a servant of the village, as it were, he went off
-to a circle that met every evening on a masonry platform under a great
-fig-tree. It was the village club, and the head-man and the watchman and
-the barber, who knew all the gossip of the village, and old Buldeo, the
-village hunter, who had a Tower musket, met and smoked. The monkeys
-sat and talked in the upper branches, and there was a hole under the
-platform where a cobra lived, and he had his little platter of milk
-every night because he was sacred; and the old men sat around the tree
-and talked, and pulled at the big huqas (the water-pipes) till far into
-the night. They told wonderful tales of gods and men and ghosts; and
-Buldeo told even more wonderful ones of the ways of beasts in the
-jungle, till the eyes of the children sitting outside the circle bulged
-out of their heads. Most of the tales were about animals, for the jungle
-was always at their door. The deer and the wild pig grubbed up their
-crops, and now and again the tiger carried off a man at twilight, within
-sight of the village gates.
-
-Mowgli, who naturally knew something about what they were talking of,
-had to cover his face not to show that he was laughing, while Buldeo,
-the Tower musket across his knees, climbed on from one wonderful story
-to another, and Mowgli’s shoulders shook.
-
-Buldeo was explaining how the tiger that had carried away Messua’s son
-was a ghost-tiger, and his body was inhabited by the ghost of a wicked,
-old money-lender, who had died some years ago. “And I know that this is
-true,” he said, “because Purun Dass always limped from the blow that he
-got in a riot when his account books were burned, and the tiger that I
-speak of he limps, too, for the tracks of his pads are unequal.”
-
-“True, true, that must be the truth,” said the gray-beards, nodding
-together.
-
-“Are all these tales such cobwebs and moontalk?” said Mowgli. “That
-tiger limps because he was born lame, as everyone knows. To talk of the
-soul of a money-lender in a beast that never had the courage of a jackal
-is child’s talk.”
-
-Buldeo was speechless with surprise for a moment, and the head-man
-stared.
-
-“Oho! It is the jungle brat, is it?” said Buldeo. “If thou art so
-wise, better bring his hide to Khanhiwara, for the Government has set
-a hundred rupees on his life. Better still, talk not when thy elders
-speak.”
-
-Mowgli rose to go. “All the evening I have lain here listening,” he
-called back over his shoulder, “and, except once or twice, Buldeo has
-not said one word of truth concerning the jungle, which is at his very
-doors. How, then, shall I believe the tales of ghosts and gods and
-goblins which he says he has seen?”
-
-“It is full time that boy went to herding,” said the head-man, while
-Buldeo puffed and snorted at Mowgli’s impertinence.
-
-The custom of most Indian villages is for a few boys to take the cattle
-and buffaloes out to graze in the early morning, and bring them back
-at night. The very cattle that would trample a white man to death allow
-themselves to be banged and bullied and shouted at by children that
-hardly come up to their noses. So long as the boys keep with the herds
-they are safe, for not even the tiger will charge a mob of cattle. But
-if they straggle to pick flowers or hunt lizards, they are sometimes
-carried off. Mowgli went through the village street in the dawn, sitting
-on the back of Rama, the great herd bull. The slaty-blue buffaloes,
-with their long, backward-sweeping horns and savage eyes, rose out their
-byres, one by one, and followed him, and Mowgli made it very clear to
-the children with him that he was the master. He beat the buffaloes with
-a long, polished bamboo, and told Kamya, one of the boys, to graze the
-cattle by themselves, while he went on with the buffaloes, and to be
-very careful not to stray away from the herd.
-
-An Indian grazing ground is all rocks and scrub and tussocks and little
-ravines, among which the herds scatter and disappear. The buffaloes
-generally keep to the pools and muddy places, where they lie wallowing
-or basking in the warm mud for hours. Mowgli drove them on to the edge
-of the plain where the Waingunga came out of the jungle; then he dropped
-from Rama’s neck, trotted off to a bamboo clump, and found Gray Brother.
-“Ah,” said Gray Brother, “I have waited here very many days. What is the
-meaning of this cattle-herding work?”
-
-“It is an order,” said Mowgli. “I am a village herd for a while. What
-news of Shere Khan?”
-
-“He has come back to this country, and has waited here a long time for
-thee. Now he has gone off again, for the game is scarce. But he means to
-kill thee.”
-
-“Very good,” said Mowgli. “So long as he is away do thou or one of the
-four brothers sit on that rock, so that I can see thee as I come out of
-the village. When he comes back wait for me in the ravine by the _dhâk_
-tree in the center of the plain. We need not walk into Shere Khan’s
-mouth.”
-
-Then Mowgli picked out a shady place, and lay down and slept while
-the buffaloes grazed round him. Herding in India is one of the laziest
-things in the world. The cattle move and crunch, and lie down, and move
-on again, and they do not even low. They only grunt, and the buffaloes
-very seldom say anything, but get down into the muddy pools one after
-another, and work their way into the mud till only their noses and
-staring china-blue eyes show above the surface, and then they lie like
-logs. The sun makes the rocks dance in the heat, and the herd children
-hear one kite (never any more) whistling almost out of sight overhead,
-and they know that if they died, or a cow died, that kite would sweep
-down, and the next kite miles away would see him drop and follow, and
-the next, and the next, and almost before they were dead there would be
-a score of hungry kites come out of nowhere. Then they sleep and
-wake and sleep again, and weave little baskets of dried grass and put
-grasshoppers in them; or catch two praying mantises and make them fight;
-or string a necklace of red and black jungle nuts; or watch a lizard
-basking on a rock, or a snake hunting a frog near the wallows. Then they
-sing long, long songs with odd native quavers at the end of them, and
-the day seems longer than most people’s whole lives, and perhaps they
-make a mud castle with mud figures of men and horses and buffaloes, and
-put reeds into the men’s hands, and pretend that they are kings and the
-figures are their armies, or that they are gods to be worshiped. Then
-evening comes and the children call, and the buffaloes lumber up out of
-the sticky mud with noises like gunshots going off one after the other,
-and they all string across the gray plain back to the twinkling village
-lights.
-
-Day after day Mowgli would lead the buffaloes out to their wallows, and
-day after day he would see Gray Brother’s back a mile and a half away
-across the plain (so he knew that Shere Khan had not come back), and day
-after day he would lie on the grass listening to the noises round him,
-and dreaming of old days in the jungle. If Shere Khan had made a false
-step with his lame paw up in the jungles by the Waingunga, Mowgli would
-have heard him in those long, still mornings.
-
-At last a day came when he did not see Gray Brother at the signal place,
-and he laughed and headed the buffaloes for the ravine by the dhk tree,
-which was all covered with golden-red flowers. There sat Gray Brother,
-every bristle on his back lifted.
-
-“He has hidden for a month to throw thee off thy guard. He crossed the
-ranges last night with Tabaqui, hot-foot on thy trail,” said the Wolf,
-panting.
-
-Mowgli frowned. “I am not afraid of Shere Khan, but Tabaqui is very
-cunning.”
-
-“Have no fear,” said Gray Brother, licking his lips a little. “I met
-Tabaqui in the dawn. Now he is telling all his wisdom to the kites, but
-he told me everything before I broke his back. Shere Khan’s plan is to
-wait for thee at the village gate this evening--for thee and for no one
-else. He is lying up now, in the big dry ravine of the Waingunga.”
-
-“Has he eaten today, or does he hunt empty?” said Mowgli, for the answer
-meant life and death to him.
-
-“He killed at dawn,--a pig,--and he has drunk too. Remember, Shere Khan
-could never fast, even for the sake of revenge.”
-
-“Oh! Fool, fool! What a cub’s cub it is! Eaten and drunk too, and he
-thinks that I shall wait till he has slept! Now, where does he lie up?
-If there were but ten of us we might pull him down as he lies. These
-buffaloes will not charge unless they wind him, and I cannot speak their
-language. Can we get behind his track so that they may smell it?”
-
-“He swam far down the Waingunga to cut that off,” said Gray Brother.
-
-“Tabaqui told him that, I know. He would never have thought of it
-alone.” Mowgli stood with his finger in his mouth, thinking. “The big
-ravine of the Waingunga. That opens out on the plain not half a mile
-from here. I can take the herd round through the jungle to the head of
-the ravine and then sweep down--but he would slink out at the foot. We
-must block that end. Gray Brother, canst thou cut the herd in two for
-me?”
-
-“Not I, perhaps--but I have brought a wise helper.” Gray Brother trotted
-off and dropped into a hole. Then there lifted up a huge gray head that
-Mowgli knew well, and the hot air was filled with the most desolate cry
-of all the jungle--the hunting howl of a wolf at midday.
-
-“Akela! Akela!” said Mowgli, clapping his hands. “I might have known
-that thou wouldst not forget me. We have a big work in hand. Cut the
-herd in two, Akela. Keep the cows and calves together, and the bulls and
-the plow buffaloes by themselves.”
-
-The two wolves ran, ladies’-chain fashion, in and out of the herd, which
-snorted and threw up its head, and separated into two clumps. In one,
-the cow-buffaloes stood with their calves in the center, and glared
-and pawed, ready, if a wolf would only stay still, to charge down and
-trample the life out of him. In the other, the bulls and the young bulls
-snorted and stamped, but though they looked more imposing they were much
-less dangerous, for they had no calves to protect. No six men could have
-divided the herd so neatly.
-
-“What orders!” panted Akela. “They are trying to join again.”
-
-Mowgli slipped on to Rama’s back. “Drive the bulls away to the left,
-Akela. Gray Brother, when we are gone, hold the cows together, and drive
-them into the foot of the ravine.”
-
-“How far?” said Gray Brother, panting and snapping.
-
-“Till the sides are higher than Shere Khan can jump,” shouted Mowgli.
-“Keep them there till we come down.” The bulls swept off as Akela bayed,
-and Gray Brother stopped in front of the cows. They charged down on him,
-and he ran just before them to the foot of the ravine, as Akela drove
-the bulls far to the left.
-
-“Well done! Another charge and they are fairly started. Careful,
-now--careful, Akela. A snap too much and the bulls will charge. Hujah!
-This is wilder work than driving black-buck. Didst thou think these
-creatures could move so swiftly?” Mowgli called.
-
-“I have--have hunted these too in my time,” gasped Akela in the dust.
-“Shall I turn them into the jungle?”
-
-“Ay! Turn. Swiftly turn them! Rama is mad with rage. Oh, if I could only
-tell him what I need of him to-day.”
-
-The bulls were turned, to the right this time, and crashed into the
-standing thicket. The other herd children, watching with the cattle half
-a mile away, hurried to the village as fast as their legs could carry
-them, crying that the buffaloes had gone mad and run away.
-
-But Mowgli’s plan was simple enough. All he wanted to do was to make a
-big circle uphill and get at the head of the ravine, and then take the
-bulls down it and catch Shere Khan between the bulls and the cows; for
-he knew that after a meal and a full drink Shere Khan would not be in
-any condition to fight or to clamber up the sides of the ravine. He was
-soothing the buffaloes now by voice, and Akela had dropped far to the
-rear, only whimpering once or twice to hurry the rear-guard. It was a
-long, long circle, for they did not wish to get too near the ravine and
-give Shere Khan warning. At last Mowgli rounded up the bewildered herd
-at the head of the ravine on a grassy patch that sloped steeply down to
-the ravine itself. From that height you could see across the tops of the
-trees down to the plain below; but what Mowgli looked at was the sides
-of the ravine, and he saw with a great deal of satisfaction that they
-ran nearly straight up and down, while the vines and creepers that hung
-over them would give no foothold to a tiger who wanted to get out.
-
-“Let them breathe, Akela,” he said, holding up his hand. “They have not
-winded him yet. Let them breathe. I must tell Shere Khan who comes. We
-have him in the trap.”
-
-He put his hands to his mouth and shouted down the ravine--it was almost
-like shouting down a tunnel--and the echoes jumped from rock to rock.
-
-After a long time there came back the drawling, sleepy snarl of a
-full-fed tiger just wakened.
-
-“Who calls?” said Shere Khan, and a splendid peacock fluttered up out of
-the ravine screeching.
-
-“I, Mowgli. Cattle thief, it is time to come to the Council Rock!
-Down--hurry them down, Akela! Down, Rama, down!”
-
-The herd paused for an instant at the edge of the slope, but Akela gave
-tongue in the full hunting-yell, and they pitched over one after the
-other, just as steamers shoot rapids, the sand and stones spurting up
-round them. Once started, there was no chance of stopping, and before
-they were fairly in the bed of the ravine Rama winded Shere Khan and
-bellowed.
-
-“Ha! Ha!” said Mowgli, on his back. “Now thou knowest!” and the torrent
-of black horns, foaming muzzles, and staring eyes whirled down the
-ravine just as boulders go down in floodtime; the weaker buffaloes being
-shouldered out to the sides of the ravine where they tore through the
-creepers. They knew what the business was before them--the terrible
-charge of the buffalo herd against which no tiger can hope to stand.
-Shere Khan heard the thunder of their hoofs, picked himself up, and
-lumbered down the ravine, looking from side to side for some way of
-escape, but the walls of the ravine were straight and he had to hold on,
-heavy with his dinner and his drink, willing to do anything rather than
-fight. The herd splashed through the pool he had just left, bellowing
-till the narrow cut rang. Mowgli heard an answering bellow from the foot
-of the ravine, saw Shere Khan turn (the tiger knew if the worst came
-to the worst it was better to meet the bulls than the cows with their
-calves), and then Rama tripped, stumbled, and went on again over
-something soft, and, with the bulls at his heels, crashed full into the
-other herd, while the weaker buffaloes were lifted clean off their feet
-by the shock of the meeting. That charge carried both herds out into the
-plain, goring and stamping and snorting. Mowgli watched his time, and
-slipped off Rama’s neck, laying about him right and left with his stick.
-
-“Quick, Akela! Break them up. Scatter them, or they will be fighting one
-another. Drive them away, Akela. Hai, Rama! Hai, hai, hai! my children.
-Softly now, softly! It is all over.”
-
-Akela and Gray Brother ran to and fro nipping the buffaloes’ legs,
-and though the herd wheeled once to charge up the ravine again, Mowgli
-managed to turn Rama, and the others followed him to the wallows.
-
-Shere Khan needed no more trampling. He was dead, and the kites were
-coming for him already.
-
-“Brothers, that was a dog’s death,” said Mowgli, feeling for the knife
-he always carried in a sheath round his neck now that he lived with men.
-“But he would never have shown fight. His hide will look well on the
-Council Rock. We must get to work swiftly.”
-
-A boy trained among men would never have dreamed of skinning a ten-foot
-tiger alone, but Mowgli knew better than anyone else how an animal’s
-skin is fitted on, and how it can be taken off. But it was hard work,
-and Mowgli slashed and tore and grunted for an hour, while the wolves
-lolled out their tongues, or came forward and tugged as he ordered them.
-Presently a hand fell on his shoulder, and looking up he saw Buldeo with
-the Tower musket. The children had told the village about the buffalo
-stampede, and Buldeo went out angrily, only too anxious to correct
-Mowgli for not taking better care of the herd. The wolves dropped out of
-sight as soon as they saw the man coming.
-
-“What is this folly?” said Buldeo angrily. “To think that thou canst
-skin a tiger! Where did the buffaloes kill him? It is the Lame Tiger
-too, and there is a hundred rupees on his head. Well, well, we will
-overlook thy letting the herd run off, and perhaps I will give thee one
-of the rupees of the reward when I have taken the skin to Khanhiwara.”
- He fumbled in his waist cloth for flint and steel, and stooped down to
-singe Shere Khan’s whiskers. Most native hunters always singe a tiger’s
-whiskers to prevent his ghost from haunting them.
-
-“Hum!” said Mowgli, half to himself as he ripped back the skin of a
-forepaw. “So thou wilt take the hide to Khanhiwara for the reward, and
-perhaps give me one rupee? Now it is in my mind that I need the skin for
-my own use. Heh! Old man, take away that fire!”
-
-“What talk is this to the chief hunter of the village? Thy luck and the
-stupidity of thy buffaloes have helped thee to this kill. The tiger has
-just fed, or he would have gone twenty miles by this time. Thou canst
-not even skin him properly, little beggar brat, and forsooth I, Buldeo,
-must be told not to singe his whiskers. Mowgli, I will not give thee one
-anna of the reward, but only a very big beating. Leave the carcass!”
-
-“By the Bull that bought me,” said Mowgli, who was trying to get at the
-shoulder, “must I stay babbling to an old ape all noon? Here, Akela,
-this man plagues me.”
-
-Buldeo, who was still stooping over Shere Khan’s head, found himself
-sprawling on the grass, with a gray wolf standing over him, while Mowgli
-went on skinning as though he were alone in all India.
-
-“Ye-es,” he said, between his teeth. “Thou art altogether right, Buldeo.
-Thou wilt never give me one anna of the reward. There is an old war
-between this lame tiger and myself--a very old war, and--I have won.”
-
-To do Buldeo justice, if he had been ten years younger he would have
-taken his chance with Akela had he met the wolf in the woods, but a wolf
-who obeyed the orders of this boy who had private wars with man-eating
-tigers was not a common animal. It was sorcery, magic of the worst kind,
-thought Buldeo, and he wondered whether the amulet round his neck would
-protect him. He lay as still as still, expecting every minute to see
-Mowgli turn into a tiger too.
-
-“Maharaj! Great King,” he said at last in a husky whisper.
-
-“Yes,” said Mowgli, without turning his head, chuckling a little.
-
-“I am an old man. I did not know that thou wast anything more than a
-herdsboy. May I rise up and go away, or will thy servant tear me to
-pieces?”
-
-“Go, and peace go with thee. Only, another time do not meddle with my
-game. Let him go, Akela.”
-
-Buldeo hobbled away to the village as fast as he could, looking back
-over his shoulder in case Mowgli should change into something terrible.
-When he got to the village he told a tale of magic and enchantment and
-sorcery that made the priest look very grave.
-
-Mowgli went on with his work, but it was nearly twilight before he and
-the wolves had drawn the great gay skin clear of the body.
-
-“Now we must hide this and take the buffaloes home! Help me to herd
-them, Akela.”
-
-The herd rounded up in the misty twilight, and when they got near the
-village Mowgli saw lights, and heard the conches and bells in the temple
-blowing and banging. Half the village seemed to be waiting for him
-by the gate. “That is because I have killed Shere Khan,” he said
-to himself. But a shower of stones whistled about his ears, and the
-villagers shouted: “Sorcerer! Wolf’s brat! Jungle demon! Go away! Get
-hence quickly or the priest will turn thee into a wolf again. Shoot,
-Buldeo, shoot!”
-
-The old Tower musket went off with a bang, and a young buffalo bellowed
-in pain.
-
-“More sorcery!” shouted the villagers. “He can turn bullets. Buldeo,
-that was thy buffalo.”
-
-“Now what is this?” said Mowgli, bewildered, as the stones flew thicker.
-
-“They are not unlike the Pack, these brothers of thine,” said Akela,
-sitting down composedly. “It is in my head that, if bullets mean
-anything, they would cast thee out.”
-
-“Wolf! Wolf’s cub! Go away!” shouted the priest, waving a sprig of the
-sacred tulsi plant.
-
-“Again? Last time it was because I was a man. This time it is because I
-am a wolf. Let us go, Akela.”
-
-A woman--it was Messua--ran across to the herd, and cried: “Oh, my son,
-my son! They say thou art a sorcerer who can turn himself into a beast
-at will. I do not believe, but go away or they will kill thee. Buldeo
-says thou art a wizard, but I know thou hast avenged Nathoo’s death.”
-
-“Come back, Messua!” shouted the crowd. “Come back, or we will stone
-thee.”
-
-Mowgli laughed a little short ugly laugh, for a stone had hit him in
-the mouth. “Run back, Messua. This is one of the foolish tales they tell
-under the big tree at dusk. I have at least paid for thy son’s life.
-Farewell; and run quickly, for I shall send the herd in more swiftly
-than their brickbats. I am no wizard, Messua. Farewell!”
-
-“Now, once more, Akela,” he cried. “Bring the herd in.”
-
-The buffaloes were anxious enough to get to the village. They hardly
-needed Akela’s yell, but charged through the gate like a whirlwind,
-scattering the crowd right and left.
-
-“Keep count!” shouted Mowgli scornfully. “It may be that I have stolen
-one of them. Keep count, for I will do your herding no more. Fare you
-well, children of men, and thank Messua that I do not come in with my
-wolves and hunt you up and down your street.”
-
-He turned on his heel and walked away with the Lone Wolf, and as he
-looked up at the stars he felt happy. “No more sleeping in traps for me,
-Akela. Let us get Shere Khan’s skin and go away. No, we will not hurt
-the village, for Messua was kind to me.”
-
-When the moon rose over the plain, making it look all milky, the
-horrified villagers saw Mowgli, with two wolves at his heels and a
-bundle on his head, trotting across at the steady wolf’s trot that eats
-up the long miles like fire. Then they banged the temple bells and blew
-the conches louder than ever. And Messua cried, and Buldeo embroidered
-the story of his adventures in the jungle, till he ended by saying that
-Akela stood up on his hind legs and talked like a man.
-
-The moon was just going down when Mowgli and the two wolves came to the
-hill of the Council Rock, and they stopped at Mother Wolf’s cave.
-
-“They have cast me out from the Man-Pack, Mother,” shouted Mowgli, “but
-I come with the hide of Shere Khan to keep my word.”
-
-Mother Wolf walked stiffly from the cave with the cubs behind her, and
-her eyes glowed as she saw the skin.
-
-“I told him on that day, when he crammed his head and shoulders into
-this cave, hunting for thy life, Little Frog--I told him that the hunter
-would be the hunted. It is well done.”
-
-“Little Brother, it is well done,” said a deep voice in the thicket.
-“We were lonely in the jungle without thee,” and Bagheera came running
-to Mowgli’s bare feet. They clambered up the Council Rock together, and
-Mowgli spread the skin out on the flat stone where Akela used to sit,
-and pegged it down with four slivers of bamboo, and Akela lay down upon
-it, and called the old call to the Council, “Look--look well, O Wolves,”
- exactly as he had called when Mowgli was first brought there.
-
-Ever since Akela had been deposed, the Pack had been without a leader,
-hunting and fighting at their own pleasure. But they answered the call
-from habit; and some of them were lame from the traps they had fallen
-into, and some limped from shot wounds, and some were mangy from eating
-bad food, and many were missing. But they came to the Council Rock, all
-that were left of them, and saw Shere Khan’s striped hide on the rock,
-and the huge claws dangling at the end of the empty dangling feet. It
-was then that Mowgli made up a song that came up into his throat all
-by itself, and he shouted it aloud, leaping up and down on the rattling
-skin, and beating time with his heels till he had no more breath left,
-while Gray Brother and Akela howled between the verses.
-
-“Look well, O Wolves. Have I kept my word?” said Mowgli. And the wolves
-bayed “Yes,” and one tattered wolf howled:
-
-“Lead us again, O Akela. Lead us again, O Man-cub, for we be sick of
-this lawlessness, and we would be the Free People once more.”
-
-“Nay,” purred Bagheera, “that may not be. When ye are full-fed, the
-madness may come upon you again. Not for nothing are ye called the Free
-People. Ye fought for freedom, and it is yours. Eat it, O Wolves.”
-
-“Man-Pack and Wolf-Pack have cast me out,” said Mowgli. “Now I will hunt
-alone in the jungle.”
-
-“And we will hunt with thee,” said the four cubs.
-
-So Mowgli went away and hunted with the four cubs in the jungle from
-that day on. But he was not always alone, because, years afterward, he
-became a man and married.
-
-But that is a story for grown-ups.
+# “Rikki-Tikki-Tavi”
+
+At the hole where he went in
+     Red-Eye called to Wrinkle-Skin.
+     Hear what little Red-Eye saith:
+     “Nag, come up and dance with death!”
+
+     Eye to eye and head to head,
+    (_Keep the measure, Nag._)
+     This shall end when one is dead;
+    (_At thy pleasure, Nag._)
+     Turn for turn and twist for twist—
+    (_Run and hide thee, Nag._)
+     Hah! The hooded Death has missed!
+    (_Woe betide thee, Nag!_)
+
+This is the story of the great war that Rikki-tikki-tavi fought
+single-handed, through the bath-rooms of the big bungalow in Segowlee
+cantonment. Darzee, the Tailorbird, helped him, and Chuchundra, the
+muskrat, who never comes out into the middle of the floor, but always
+creeps round by the wall, gave him advice, but Rikki-tikki did the real
+fighting.
+
+He was a mongoose, rather like a little cat in his fur and his tail, but
+quite like a weasel in his head and his habits. His eyes and the end
+of his restless nose were pink. He could scratch himself anywhere he
+pleased with any leg, front or back, that he chose to use. He could
+fluff up his tail till it looked like a bottle brush, and his war cry as
+he scuttled through the long grass was: “Rikk-tikk-tikki-tikki-tchk!”
+
+One day, a high summer flood washed him out of the burrow where he lived
+with his father and mother, and carried him, kicking and clucking, down
+a roadside ditch. He found a little wisp of grass floating there, and
+clung to it till he lost his senses. When he revived, he was lying in
+the hot sun on the middle of a garden path, very draggled indeed, and a
+small boy was saying, “Here’s a dead mongoose. Let’s have a funeral.”
+
+“No,” said his mother, “let’s take him in and dry him. Perhaps he isn’t
+really dead.”
+
+They took him into the house, and a big man picked him up between his
+finger and thumb and said he was not dead but half choked. So they
+wrapped him in cotton wool, and warmed him over a little fire, and he
+opened his eyes and sneezed.
+
+“Now,” said the big man (he was an Englishman who had just moved into
+the bungalow), “don’t frighten him, and we’ll see what he’ll do.”
+
+It is the hardest thing in the world to frighten a mongoose, because
+he is eaten up from nose to tail with curiosity. The motto of all
+the mongoose family is “Run and find out,” and Rikki-tikki was a true
+mongoose. He looked at the cotton wool, decided that it was not good to
+eat, ran all round the table, sat up and put his fur in order, scratched
+himself, and jumped on the small boy’s shoulder.
+
+“Don’t be frightened, Teddy,” said his father. “That’s his way of making
+friends.”
+
+“Ouch! He’s tickling under my chin,” said Teddy.
+
+Rikki-tikki looked down between the boy’s collar and neck, snuffed at
+his ear, and climbed down to the floor, where he sat rubbing his nose.
+
+“Good gracious,” said Teddy’s mother, “and that’s a wild creature! I
+suppose he’s so tame because we’ve been kind to him.”
+
+“All mongooses are like that,” said her husband. “If Teddy doesn’t pick
+him up by the tail, or try to put him in a cage, he’ll run in and out of
+the house all day long. Let’s give him something to eat.”
+
+They gave him a little piece of raw meat. Rikki-tikki liked it
+immensely, and when it was finished he went out into the veranda and sat
+in the sunshine and fluffed up his fur to make it dry to the roots. Then
+he felt better.
+
+“There are more things to find out about in this house,” he said to
+himself, “than all my family could find out in all their lives. I shall
+certainly stay and find out.”
+
+He spent all that day roaming over the house. He nearly drowned himself
+in the bath-tubs, put his nose into the ink on a writing table, and
+burned it on the end of the big man’s cigar, for he climbed up in the
+big man’s lap to see how writing was done. At nightfall he ran into
+Teddy’s nursery to watch how kerosene lamps were lighted, and when Teddy
+went to bed Rikki-tikki climbed up too. But he was a restless companion,
+because he had to get up and attend to every noise all through the
+night, and find out what made it. Teddy’s mother and father came in,
+the last thing, to look at their boy, and Rikki-tikki was awake on
+the pillow. “I don’t like that,” said Teddy’s mother. “He may bite the
+child.” “He’ll do no such thing,” said the father. “Teddy’s safer with
+that little beast than if he had a bloodhound to watch him. If a snake
+came into the nursery now--”
+
+But Teddy’s mother wouldn’t think of anything so awful.
+
+Early in the morning Rikki-tikki came to early breakfast in the veranda
+riding on Teddy’s shoulder, and they gave him banana and some boiled
+egg. He sat on all their laps one after the other, because every
+well-brought-up mongoose always hopes to be a house mongoose some day
+and have rooms to run about in; and Rikki-tikki’s mother (she used to
+live in the general’s house at Segowlee) had carefully told Rikki what
+to do if ever he came across white men.
+
+Then Rikki-tikki went out into the garden to see what was to be seen.
+It was a large garden, only half cultivated, with bushes, as big as
+summer-houses, of Marshal Niel roses, lime and orange trees, clumps of
+bamboos, and thickets of high grass. Rikki-tikki licked his lips. “This
+is a splendid hunting-ground,” he said, and his tail grew bottle-brushy
+at the thought of it, and he scuttled up and down the garden, snuffing
+here and there till he heard very sorrowful voices in a thorn-bush.
+
+It was Darzee, the Tailorbird, and his wife. They had made a beautiful
+nest by pulling two big leaves together and stitching them up the edges
+with fibers, and had filled the hollow with cotton and downy fluff. The
+nest swayed to and fro, as they sat on the rim and cried.
+
+“What is the matter?” asked Rikki-tikki.
+
+“We are very miserable,” said Darzee. “One of our babies fell out of the
+nest yesterday and Nag ate him.”
+
+“H’m!” said Rikki-tikki, “that is very sad--but I am a stranger here.
+Who is Nag?”
+
+Darzee and his wife only cowered down in the nest without answering, for
+from the thick grass at the foot of the bush there came a low hiss--a
+horrid cold sound that made Rikki-tikki jump back two clear feet. Then
+inch by inch out of the grass rose up the head and spread hood of Nag,
+the big black cobra, and he was five feet long from tongue to tail.
+When he had lifted one-third of himself clear of the ground, he stayed
+balancing to and fro exactly as a dandelion tuft balances in the wind,
+and he looked at Rikki-tikki with the wicked snake’s eyes that never
+change their expression, whatever the snake may be thinking of.
+
+“Who is Nag?” said he. “I am Nag. The great God Brahm put his mark upon
+all our people, when the first cobra spread his hood to keep the sun off
+Brahm as he slept. Look, and be afraid!”
+
+He spread out his hood more than ever, and Rikki-tikki saw the
+spectacle-mark on the back of it that looks exactly like the eye part
+of a hook-and-eye fastening. He was afraid for the minute, but it is
+impossible for a mongoose to stay frightened for any length of time, and
+though Rikki-tikki had never met a live cobra before, his mother had fed
+him on dead ones, and he knew that all a grown mongoose’s business in
+life was to fight and eat snakes. Nag knew that too and, at the bottom
+of his cold heart, he was afraid.
+
+“Well,” said Rikki-tikki, and his tail began to fluff up again, “marks
+or no marks, do you think it is right for you to eat fledglings out of a
+nest?”
+
+Nag was thinking to himself, and watching the least little movement in
+the grass behind Rikki-tikki. He knew that mongooses in the garden
+meant death sooner or later for him and his family, but he wanted to get
+Rikki-tikki off his guard. So he dropped his head a little, and put it
+on one side.
+
+“Let us talk,” he said. “You eat eggs. Why should not I eat birds?”
+
+“Behind you! Look behind you!” sang Darzee.
+
+Rikki-tikki knew better than to waste time in staring. He jumped up in
+the air as high as he could go, and just under him whizzed by the head
+of Nagaina, Nag’s wicked wife. She had crept up behind him as he was
+talking, to make an end of him. He heard her savage hiss as the stroke
+missed. He came down almost across her back, and if he had been an old
+mongoose he would have known that then was the time to break her back
+with one bite; but he was afraid of the terrible lashing return stroke
+of the cobra. He bit, indeed, but did not bite long enough, and he
+jumped clear of the whisking tail, leaving Nagaina torn and angry.
+
+“Wicked, wicked Darzee!” said Nag, lashing up as high as he could reach
+toward the nest in the thorn-bush. But Darzee had built it out of reach
+of snakes, and it only swayed to and fro.
+
+Rikki-tikki felt his eyes growing red and hot (when a mongoose’s eyes
+grow red, he is angry), and he sat back on his tail and hind legs like a
+little kangaroo, and looked all round him, and chattered with rage. But
+Nag and Nagaina had disappeared into the grass. When a snake misses its
+stroke, it never says anything or gives any sign of what it means to do
+next. Rikki-tikki did not care to follow them, for he did not feel sure
+that he could manage two snakes at once. So he trotted off to the gravel
+path near the house, and sat down to think. It was a serious matter for
+him.
+
+If you read the old books of natural history, you will find they say
+that when the mongoose fights the snake and happens to get bitten,
+he runs off and eats some herb that cures him. That is not true.
+The victory is only a matter of quickness of eye and quickness of
+foot--snake’s blow against mongoose’s jump--and as no eye can follow the
+motion of a snake’s head when it strikes, this makes things much more
+wonderful than any magic herb. Rikki-tikki knew he was a young mongoose,
+and it made him all the more pleased to think that he had managed to
+escape a blow from behind. It gave him confidence in himself, and when
+Teddy came running down the path, Rikki-tikki was ready to be petted.
+
+But just as Teddy was stooping, something wriggled a little in the dust,
+and a tiny voice said: “Be careful. I am Death!” It was Karait, the
+dusty brown snakeling that lies for choice on the dusty earth; and his
+bite is as dangerous as the cobra’s. But he is so small that nobody
+thinks of him, and so he does the more harm to people.
+
+Rikki-tikki’s eyes grew red again, and he danced up to Karait with the
+peculiar rocking, swaying motion that he had inherited from his family.
+It looks very funny, but it is so perfectly balanced a gait that you can
+fly off from it at any angle you please, and in dealing with snakes this
+is an advantage. If Rikki-tikki had only known, he was doing a much more
+dangerous thing than fighting Nag, for Karait is so small, and can turn
+so quickly, that unless Rikki bit him close to the back of the head,
+he would get the return stroke in his eye or his lip. But Rikki did not
+know. His eyes were all red, and he rocked back and forth, looking for
+a good place to hold. Karait struck out. Rikki jumped sideways and
+tried to run in, but the wicked little dusty gray head lashed within a
+fraction of his shoulder, and he had to jump over the body, and the head
+followed his heels close.
+
+Teddy shouted to the house: “Oh, look here! Our mongoose is killing a
+snake.” And Rikki-tikki heard a scream from Teddy’s mother. His father
+ran out with a stick, but by the time he came up, Karait had lunged out
+once too far, and Rikki-tikki had sprung, jumped on the snake’s back,
+dropped his head far between his forelegs, bitten as high up the back
+as he could get hold, and rolled away. That bite paralyzed Karait, and
+Rikki-tikki was just going to eat him up from the tail, after the custom
+of his family at dinner, when he remembered that a full meal makes a
+slow mongoose, and if he wanted all his strength and quickness ready, he
+must keep himself thin.
+
+He went away for a dust bath under the castor-oil bushes, while
+Teddy’s father beat the dead Karait. “What is the use of that?” thought
+Rikki-tikki. “I have settled it all;” and then Teddy’s mother picked
+him up from the dust and hugged him, crying that he had saved Teddy
+from death, and Teddy’s father said that he was a providence, and Teddy
+looked on with big scared eyes. Rikki-tikki was rather amused at all the
+fuss, which, of course, he did not understand. Teddy’s mother might just
+as well have petted Teddy for playing in the dust. Rikki was thoroughly
+enjoying himself.
+
+That night at dinner, walking to and fro among the wine-glasses on the
+table, he might have stuffed himself three times over with nice things.
+But he remembered Nag and Nagaina, and though it was very pleasant to be
+patted and petted by Teddy’s mother, and to sit on Teddy’s shoulder, his
+eyes would get red from time to time, and he would go off into his long
+war cry of “Rikk-tikk-tikki-tikki-tchk!”
+
+Teddy carried him off to bed, and insisted on Rikki-tikki sleeping under
+his chin. Rikki-tikki was too well bred to bite or scratch, but as soon
+as Teddy was asleep he went off for his nightly walk round the house,
+and in the dark he ran up against Chuchundra, the muskrat, creeping
+around by the wall. Chuchundra is a broken-hearted little beast. He
+whimpers and cheeps all the night, trying to make up his mind to run
+into the middle of the room. But he never gets there.
+
+“Don’t kill me,” said Chuchundra, almost weeping. “Rikki-tikki, don’t
+kill me!”
+
+“Do you think a snake-killer kills muskrats?” said Rikki-tikki
+scornfully.
+
+“Those who kill snakes get killed by snakes,” said Chuchundra, more
+sorrowfully than ever. “And how am I to be sure that Nag won’t mistake
+me for you some dark night?”
+
+“There’s not the least danger,” said Rikki-tikki. “But Nag is in the
+garden, and I know you don’t go there.”
+
+“My cousin Chua, the rat, told me--” said Chuchundra, and then he
+stopped.
+
+“Told you what?”
+
+“H’sh! Nag is everywhere, Rikki-tikki. You should have talked to Chua in
+the garden.”
+
+“I didn’t--so you must tell me. Quick, Chuchundra, or I’ll bite you!”
+
+Chuchundra sat down and cried till the tears rolled off his whiskers.
+“I am a very poor man,” he sobbed. “I never had spirit enough to run out
+into the middle of the room. H’sh! I mustn’t tell you anything. Can’t
+you hear, Rikki-tikki?”
+
+Rikki-tikki listened. The house was as still as still, but he thought he
+could just catch the faintest scratch-scratch in the world--a noise as
+faint as that of a wasp walking on a window-pane--the dry scratch of a
+snake’s scales on brick-work.
+
+“That’s Nag or Nagaina,” he said to himself, “and he is crawling into
+the bath-room sluice. You’re right, Chuchundra; I should have talked to
+Chua.”
+
+He stole off to Teddy’s bath-room, but there was nothing there, and then
+to Teddy’s mother’s bathroom. At the bottom of the smooth plaster wall
+there was a brick pulled out to make a sluice for the bath water, and as
+Rikki-tikki stole in by the masonry curb where the bath is put, he heard
+Nag and Nagaina whispering together outside in the moonlight.
+
+“When the house is emptied of people,” said Nagaina to her husband, “he
+will have to go away, and then the garden will be our own again. Go in
+quietly, and remember that the big man who killed Karait is the first
+one to bite. Then come out and tell me, and we will hunt for Rikki-tikki
+together.”
+
+“But are you sure that there is anything to be gained by killing the
+people?” said Nag.
+
+“Everything. When there were no people in the bungalow, did we have any
+mongoose in the garden? So long as the bungalow is empty, we are king
+and queen of the garden; and remember that as soon as our eggs in the
+melon bed hatch (as they may tomorrow), our children will need room and
+quiet.”
+
+“I had not thought of that,” said Nag. “I will go, but there is no need
+that we should hunt for Rikki-tikki afterward. I will kill the big man
+and his wife, and the child if I can, and come away quietly. Then the
+bungalow will be empty, and Rikki-tikki will go.”
+
+Rikki-tikki tingled all over with rage and hatred at this, and then
+Nag’s head came through the sluice, and his five feet of cold body
+followed it. Angry as he was, Rikki-tikki was very frightened as he saw
+the size of the big cobra. Nag coiled himself up, raised his head,
+and looked into the bathroom in the dark, and Rikki could see his eyes
+glitter.
+
+“Now, if I kill him here, Nagaina will know; and if I fight him on
+the open floor, the odds are in his favor. What am I to do?” said
+Rikki-tikki-tavi.
+
+Nag waved to and fro, and then Rikki-tikki heard him drinking from the
+biggest water-jar that was used to fill the bath. “That is good,” said
+the snake. “Now, when Karait was killed, the big man had a stick. He may
+have that stick still, but when he comes in to bathe in the morning he
+will not have a stick. I shall wait here till he comes. Nagaina--do you
+hear me?--I shall wait here in the cool till daytime.”
+
+There was no answer from outside, so Rikki-tikki knew Nagaina had gone
+away. Nag coiled himself down, coil by coil, round the bulge at the
+bottom of the water jar, and Rikki-tikki stayed still as death. After an
+hour he began to move, muscle by muscle, toward the jar. Nag was asleep,
+and Rikki-tikki looked at his big back, wondering which would be the
+best place for a good hold. “If I don’t break his back at the first
+jump,” said Rikki, “he can still fight. And if he fights--O Rikki!” He
+looked at the thickness of the neck below the hood, but that was too
+much for him; and a bite near the tail would only make Nag savage.
+
+“It must be the head”’ he said at last; “the head above the hood. And,
+when I am once there, I must not let go.”
+
+Then he jumped. The head was lying a little clear of the water jar,
+under the curve of it; and, as his teeth met, Rikki braced his back
+against the bulge of the red earthenware to hold down the head. This
+gave him just one second’s purchase, and he made the most of it. Then he
+was battered to and fro as a rat is shaken by a dog--to and fro on the
+floor, up and down, and around in great circles, but his eyes were red
+and he held on as the body cart-whipped over the floor, upsetting the
+tin dipper and the soap dish and the flesh brush, and banged against the
+tin side of the bath. As he held he closed his jaws tighter and tighter,
+for he made sure he would be banged to death, and, for the honor of his
+family, he preferred to be found with his teeth locked. He was dizzy,
+aching, and felt shaken to pieces when something went off like a
+thunderclap just behind him. A hot wind knocked him senseless and red
+fire singed his fur. The big man had been wakened by the noise, and had
+fired both barrels of a shotgun into Nag just behind the hood.
+
+Rikki-tikki held on with his eyes shut, for now he was quite sure he was
+dead. But the head did not move, and the big man picked him up and said,
+“It’s the mongoose again, Alice. The little chap has saved our lives
+now.”
+
+Then Teddy’s mother came in with a very white face, and saw what was
+left of Nag, and Rikki-tikki dragged himself to Teddy’s bedroom and
+spent half the rest of the night shaking himself tenderly to find out
+whether he really was broken into forty pieces, as he fancied.
+
+When morning came he was very stiff, but well pleased with his doings.
+“Now I have Nagaina to settle with, and she will be worse than five
+Nags, and there’s no knowing when the eggs she spoke of will hatch.
+Goodness! I must go and see Darzee,” he said.
+
+Without waiting for breakfast, Rikki-tikki ran to the thornbush where
+Darzee was singing a song of triumph at the top of his voice. The news
+of Nag’s death was all over the garden, for the sweeper had thrown the
+body on the rubbish-heap.
+
+“Oh, you stupid tuft of feathers!” said Rikki-tikki angrily. “Is this
+the time to sing?”
+
+“Nag is dead--is dead--is dead!” sang Darzee. “The valiant Rikki-tikki
+caught him by the head and held fast. The big man brought the
+bang-stick, and Nag fell in two pieces! He will never eat my babies
+again.”
+
+“All that’s true enough. But where’s Nagaina?” said Rikki-tikki, looking
+carefully round him.
+
+“Nagaina came to the bathroom sluice and called for Nag,” Darzee went
+on, “and Nag came out on the end of a stick--the sweeper picked him up
+on the end of a stick and threw him upon the rubbish heap. Let us sing
+about the great, the red-eyed Rikki-tikki!” And Darzee filled his throat
+and sang.
+
+“If I could get up to your nest, I’d roll your babies out!” said
+Rikki-tikki. “You don’t know when to do the right thing at the right
+time. You’re safe enough in your nest there, but it’s war for me down
+here. Stop singing a minute, Darzee.”
+
+“For the great, the beautiful Rikki-tikki’s sake I will stop,” said
+Darzee. “What is it, O Killer of the terrible Nag?”
+
+“Where is Nagaina, for the third time?”
+
+“On the rubbish heap by the stables, mourning for Nag. Great is
+Rikki-tikki with the white teeth.”
+
+“Bother my white teeth! Have you ever heard where she keeps her eggs?”
+
+“In the melon bed, on the end nearest the wall, where the sun strikes
+nearly all day. She hid them there weeks ago.”
+
+“And you never thought it worth while to tell me? The end nearest the
+wall, you said?”
+
+“Rikki-tikki, you are not going to eat her eggs?”
+
+“Not eat exactly; no. Darzee, if you have a grain of sense you will fly
+off to the stables and pretend that your wing is broken, and let Nagaina
+chase you away to this bush. I must get to the melon-bed, and if I went
+there now she’d see me.”
+
+Darzee was a feather-brained little fellow who could never hold more
+than one idea at a time in his head. And just because he knew that
+Nagaina’s children were born in eggs like his own, he didn’t think at
+first that it was fair to kill them. But his wife was a sensible bird,
+and she knew that cobra’s eggs meant young cobras later on. So she flew
+off from the nest, and left Darzee to keep the babies warm, and continue
+his song about the death of Nag. Darzee was very like a man in some
+ways.
+
+She fluttered in front of Nagaina by the rubbish heap and cried out,
+“Oh, my wing is broken! The boy in the house threw a stone at me and
+broke it.” Then she fluttered more desperately than ever.
+
+Nagaina lifted up her head and hissed, “You warned Rikki-tikki when I
+would have killed him. Indeed and truly, you’ve chosen a bad place to
+be lame in.” And she moved toward Darzee’s wife, slipping along over the
+dust.
+
+“The boy broke it with a stone!” shrieked Darzee’s wife.
+
+“Well! It may be some consolation to you when you’re dead to know that I
+shall settle accounts with the boy. My husband lies on the rubbish heap
+this morning, but before night the boy in the house will lie very still.
+What is the use of running away? I am sure to catch you. Little fool,
+look at me!”
+
+Darzee’s wife knew better than to do that, for a bird who looks at a
+snake’s eyes gets so frightened that she cannot move. Darzee’s wife
+fluttered on, piping sorrowfully, and never leaving the ground, and
+Nagaina quickened her pace.
+
+Rikki-tikki heard them going up the path from the stables, and he raced
+for the end of the melon patch near the wall. There, in the warm litter
+above the melons, very cunningly hidden, he found twenty-five eggs,
+about the size of a bantam’s eggs, but with whitish skin instead of
+shell.
+
+“I was not a day too soon,” he said, for he could see the baby cobras
+curled up inside the skin, and he knew that the minute they were hatched
+they could each kill a man or a mongoose. He bit off the tops of the
+eggs as fast as he could, taking care to crush the young cobras, and
+turned over the litter from time to time to see whether he had missed
+any. At last there were only three eggs left, and Rikki-tikki began to
+chuckle to himself, when he heard Darzee’s wife screaming:
+
+“Rikki-tikki, I led Nagaina toward the house, and she has gone into the
+veranda, and--oh, come quickly--she means killing!”
+
+Rikki-tikki smashed two eggs, and tumbled backward down the melon-bed
+with the third egg in his mouth, and scuttled to the veranda as hard as
+he could put foot to the ground. Teddy and his mother and father were
+there at early breakfast, but Rikki-tikki saw that they were not eating
+anything. They sat stone-still, and their faces were white. Nagaina was
+coiled up on the matting by Teddy’s chair, within easy striking distance
+of Teddy’s bare leg, and she was swaying to and fro, singing a song of
+triumph.
+
+“Son of the big man that killed Nag,” she hissed, “stay still. I am not
+ready yet. Wait a little. Keep very still, all you three! If you move I
+strike, and if you do not move I strike. Oh, foolish people, who killed
+my Nag!”
+
+Teddy’s eyes were fixed on his father, and all his father could do was
+to whisper, “Sit still, Teddy. You mustn’t move. Teddy, keep still.”
+
+Then Rikki-tikki came up and cried, “Turn round, Nagaina. Turn and
+fight!”
+
+“All in good time,” said she, without moving her eyes. “I will settle my
+account with you presently. Look at your friends, Rikki-tikki. They are
+still and white. They are afraid. They dare not move, and if you come a
+step nearer I strike.”
+
+“Look at your eggs,” said Rikki-tikki, “in the melon bed near the wall.
+Go and look, Nagaina!”
+
+The big snake turned half around, and saw the egg on the veranda. “Ah-h!
+Give it to me,” she said.
+
+Rikki-tikki put his paws one on each side of the egg, and his eyes were
+blood-red. “What price for a snake’s egg? For a young cobra? For a
+young king cobra? For the last--the very last of the brood? The ants are
+eating all the others down by the melon bed.”
+
+Nagaina spun clear round, forgetting everything for the sake of the one
+egg. Rikki-tikki saw Teddy’s father shoot out a big hand, catch Teddy
+by the shoulder, and drag him across the little table with the tea-cups,
+safe and out of reach of Nagaina.
+
+“Tricked! Tricked! Tricked! Rikk-tck-tck!” chuckled Rikki-tikki. “The
+boy is safe, and it was I--I--I that caught Nag by the hood last night
+in the bathroom.” Then he began to jump up and down, all four feet
+together, his head close to the floor. “He threw me to and fro, but he
+could not shake me off. He was dead before the big man blew him in two.
+I did it! Rikki-tikki-tck-tck! Come then, Nagaina. Come and fight with
+me. You shall not be a widow long.”
+
+Nagaina saw that she had lost her chance of killing Teddy, and the egg
+lay between Rikki-tikki’s paws. “Give me the egg, Rikki-tikki. Give me
+the last of my eggs, and I will go away and never come back,” she said,
+lowering her hood.
+
+“Yes, you will go away, and you will never come back. For you will go
+to the rubbish heap with Nag. Fight, widow! The big man has gone for his
+gun! Fight!”
+
+Rikki-tikki was bounding all round Nagaina, keeping just out of reach
+of her stroke, his little eyes like hot coals. Nagaina gathered herself
+together and flung out at him. Rikki-tikki jumped up and backward. Again
+and again and again she struck, and each time her head came with a whack
+on the matting of the veranda and she gathered herself together like a
+watch spring. Then Rikki-tikki danced in a circle to get behind her, and
+Nagaina spun round to keep her head to his head, so that the rustle of
+her tail on the matting sounded like dry leaves blown along by the wind.
+
+He had forgotten the egg. It still lay on the veranda, and Nagaina came
+nearer and nearer to it, till at last, while Rikki-tikki was drawing
+breath, she caught it in her mouth, turned to the veranda steps, and
+flew like an arrow down the path, with Rikki-tikki behind her. When
+the cobra runs for her life, she goes like a whip-lash flicked across a
+horse’s neck.
+
+Rikki-tikki knew that he must catch her, or all the trouble would begin
+again. She headed straight for the long grass by the thorn-bush, and as
+he was running Rikki-tikki heard Darzee still singing his foolish little
+song of triumph. But Darzee’s wife was wiser. She flew off her nest
+as Nagaina came along, and flapped her wings about Nagaina’s head. If
+Darzee had helped they might have turned her, but Nagaina only lowered
+her hood and went on. Still, the instant’s delay brought Rikki-tikki up
+to her, and as she plunged into the rat-hole where she and Nag used to
+live, his little white teeth were clenched on her tail, and he went down
+with her--and very few mongooses, however wise and old they may be,
+care to follow a cobra into its hole. It was dark in the hole; and
+Rikki-tikki never knew when it might open out and give Nagaina room to
+turn and strike at him. He held on savagely, and stuck out his feet to
+act as brakes on the dark slope of the hot, moist earth.
+
+Then the grass by the mouth of the hole stopped waving, and Darzee said,
+“It is all over with Rikki-tikki! We must sing his death song. Valiant
+Rikki-tikki is dead! For Nagaina will surely kill him underground.”
+
+So he sang a very mournful song that he made up on the spur of the
+minute, and just as he got to the most touching part, the grass quivered
+again, and Rikki-tikki, covered with dirt, dragged himself out of the
+hole leg by leg, licking his whiskers. Darzee stopped with a little
+shout. Rikki-tikki shook some of the dust out of his fur and sneezed.
+“It is all over,” he said. “The widow will never come out again.” And
+the red ants that live between the grass stems heard him, and began to
+troop down one after another to see if he had spoken the truth.
+
+Rikki-tikki curled himself up in the grass and slept where he was--slept
+and slept till it was late in the afternoon, for he had done a hard
+day’s work.
+
+“Now,” he said, when he awoke, “I will go back to the house. Tell the
+Coppersmith, Darzee, and he will tell the garden that Nagaina is dead.”
+
+The Coppersmith is a bird who makes a noise exactly like the beating of
+a little hammer on a copper pot; and the reason he is always making it
+is because he is the town crier to every Indian garden, and tells all
+the news to everybody who cares to listen. As Rikki-tikki went up the
+path, he heard his “attention” notes like a tiny dinner gong, and
+then the steady “Ding-dong-tock! Nag is dead--dong! Nagaina is dead!
+Ding-dong-tock!” That set all the birds in the garden singing, and the
+frogs croaking, for Nag and Nagaina used to eat frogs as well as little
+birds.
+
+When Rikki got to the house, Teddy and Teddy’s mother (she looked very
+white still, for she had been fainting) and Teddy’s father came out and
+almost cried over him; and that night he ate all that was given him till
+he could eat no more, and went to bed on Teddy’s shoulder, where Teddy’s
+mother saw him when she came to look late at night.
+
+“He saved our lives and Teddy’s life,” she said to her husband. “Just
+think, he saved all our lives.”
+
+Rikki-tikki woke up with a jump, for the mongooses are light sleepers.
+
+“Oh, it’s you,” said he. “What are you bothering for? All the cobras are
+dead. And if they weren’t, I’m here.”
+
+Rikki-tikki had a right to be proud of himself. But he did not grow too
+proud, and he kept that garden as a mongoose should keep it, with tooth
+and jump and spring and bite, till never a cobra dared show its head
+inside the walls.
