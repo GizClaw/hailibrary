@@ -1,8 +1,0 @@
-# Three blind mice, three blind mice
-
-    See how they run!
-  They all run after the farmer's wife,
-  And she cut off their tails with a carving knife,
-  Did you ever see such a thing in your life
-    As three blind mice!
-

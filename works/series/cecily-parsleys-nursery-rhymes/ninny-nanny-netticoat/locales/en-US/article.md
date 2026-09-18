@@ -1,7 +1,0 @@
-# Ninny nanny netticoat
-
-  In a white petticoat,
-      With a red nose,--
-  The longer she stands,
-      The shorter she grows.
-
