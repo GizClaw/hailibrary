@@ -1,0 +1,302 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts: {delivery: 温暖庄重，以从容而清晰的语气讲述古老命运故事, timbre: 清澈浑厚, pace: 舒缓, pitch: 中音}
+    cobbler:
+      display_name: 老鞋匠
+      tts: {delivery: 朴实勤恳，困苦中带着克制的坚忍, timbre: 苍老粗涩, pace: 稍缓, pitch: 中低音}
+    magic_fish:
+      display_name: 神奇的鱼
+      tts: {delivery: 神秘而干脆，吩咐时不容迟疑, timbre: 尖细清亮, pace: 适中, pitch: 高音}
+    east_knight:
+      display_name: 东行的鱼骑士
+      tts: {delivery: 勇敢果断，年轻而自信, timbre: 明亮坚实, pace: 适中, pitch: 中音}
+    townsman:
+      display_name: 城中男子
+      tts: {delivery: 忧惧悲切，说话微微发颤, timbre: 成熟沙哑, pace: 稍缓, pitch: 中音}
+    princess:
+      display_name: 公主
+      tts: {delivery: 温柔聪慧，危急时仍真诚勇敢, timbre: 年轻清澈, pace: 适中, pitch: 中高音}
+    old_witch:
+      display_name: 贝尔贝里斯卡夫人
+      tts: {delivery: 刁钻傲慢，笑声阴冷而得意, timbre: 苍老干涩, pace: 稍缓, pitch: 中高音}
+    west_knight:
+      display_name: 西行的鱼骑士
+      tts: {delivery: 沉着机敏，追问时坚定锐利, timbre: 年轻坚实, pace: 适中, pitch: 中音}
+    echo_1:
+      display_name: 第一声回音
+      tts: {delivery: 空洞悠长，像从石墙深处传来, timbre: 清冷, pace: 稍缓, pitch: 中音}
+    echo_2:
+      display_name: 第二声回音
+      tts: {delivery: 飘忽遥远，尾音在空中回荡, timbre: 轻薄幽冷, pace: 稍缓, pitch: 中高音}
+    echo_3:
+      display_name: 第三声回音
+      tts: {delivery: 阴沉含混，仿佛藏着嘲弄, timbre: 低沉空旷, pace: 稍缓, pitch: 中低音}
+  chapters:
+    - id: ch01
+      title: 鱼的恩赐
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，有个老鞋匠，每天从早忙到晚，连坐下来吃口饭也顾不上。可他这样勤劳，挣的钱仍只勉强够给自己和妻子买一点面包奶酪，两人一天比一天消瘦。他们很久都彼此装作不饿，还说树篱上摘来的几颗黑莓，比一大碗热腾腾的浓汤更好吃。终于，鞋匠熬不住了。他扔掉手里最后一只鞋楦，又向邻居借来钓竿，到河边碰碰运气。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            钓鱼的时候，他和做鞋时一样有耐心。他从天亮一直守到天黑，除了鳗鱼和几只不值得修的破鞋，什么也没钓到。日子一天天过去，连他的耐心也快用完了。一晚，他脱衣时终于下定决心。
+        - id: ch01-b03
+          speaker: cobbler
+          text: 明天再试最后一次。要是还钓不到鱼，我就去上吊。
+          emotion: sad
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            第二天，鱼线抛下去不到十分钟，他就钓起了一条从未见过的美丽大鱼。那鱼忽然开口，吓得他差点掉进河里。
+        - id: ch01-b05
+          speaker: magic_fish
+          text: >-
+            把我带回小屋煮熟，切成几块，撒上胡椒和盐。给你妻子吃两块，再把两块埋进花园。
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            鞋匠完全不明白这番怪话，却比许多人明智。他遇到想不通的事，总觉得先照着吩咐去做最好。孩子们想吃完整条鱼，还追问父亲留下的鱼块有什么用。他只笑着说，这不关他们的事。等孩子们都安稳睡熟，他才悄悄走进花园，把两块鱼埋进土里。过了一阵，摇篮里出现了两个一模一样的婴儿。花园里也长出两株高大植物，顶端各托着一面闪亮的盾牌。
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            多年过去，两个孩子眼看就要长成男子汉了。他们受够了在家里过安静日子，也受够了每个见到他们的人都把兄弟俩认错，便决定朝不同方向出发，各自寻找奇遇。一个晴朗的早晨，他们离开小屋，并肩走到大路分岔处，在那里拥抱道别。他们约好，无论谁遇到非同寻常的事，都要回这个十字路口，等另一个人归来。
+    - id: ch02
+      title: 镜中的恶龙
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            选择东边道路的青年不久来到一座大城。他走进城里，只见家家门前都站着人。人人绞着双手，悲痛地哭个不停。
+        - id: ch02-b02
+          speaker: east_knight
+          text: 这里出了什么事？
+        - id: ch02-b03
+          speaker: townsman
+          text: >-
+            每年都要抽出一位美丽姑娘，献给会喷火的恶龙。它的母亲比它还凶。今年抽中的，是我们举世无双的公主。
+          emotion: fearful
+        - id: ch02-b04
+          speaker: east_knight
+          text: 公主现在在哪里？
+        - id: ch02-b05
+          speaker: townsman
+          text: 一英里外的树下。她正在那里等恶龙。
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            青年没有停下再听别的话，立刻朝一英里外的那棵树飞奔而去。他找到公主时，只见她独自站在那里，泪水沾满面颊，从头到脚抖个不停。公主听见他的佩剑作响，转过身来，放下了遮在眼前的手帕。
+        - id: ch02-b07
+          speaker: princess
+          text: 快逃！趁怪物还没看见你，快走！
+          emotion: fearful
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            她这句话出自真心，确实想叫青年赶快逃命。可他转身走开以后，她望着自己独自等候恶龙的地方，反而觉得比先前更加孤苦无助。其实不过几分钟，青年便骑着借来的马飞驰而回，马颈上还横着一面巨大的镜子。
+        - id: ch02-b09
+          speaker: east_knight
+          text: 还好，我赶上了。把面纱给我。
+        - id: ch02-b10
+          speaker: narrator
+          text: 他下马把镜子靠在树上，又用公主解下的面纱将它遮住。
+        - id: ch02-b11
+          speaker: east_knight
+          text: >-
+            恶龙一靠近，你就扯下面纱，再躲到镜子后面。别怕，我就在附近。
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            青年和马刚刚藏进岩石之间，恶龙拍动翅膀的声音便清楚地传来了。怪物看见公主，高兴地昂起脑袋，慢慢走向站在镜子稍前方的她。公主始终直视着它，同时把一只手伸到背后，猛地扯下面纱，随即迅速闪到树后。
+        - id: ch02-b13
+          speaker: narrator
+          text: >-
+            公主也不知道究竟会发生什么。镜子会不会像乳母讲过的古老故事那样，把这条长着蛇发的恶龙化成石头？还是镜心会迸出火花，把它当场杀死？结果都不是。恶龙看见一个和自己同样庞大、同样强壮的怪物，惊怒得停住了。它怒冲冲地抖鬃毛，对方也抖。它甩尾巴、转动血红的眼珠，对方一样不落。它把嘴张到最大，发出骇人的咆哮，对面也吼了回来。恶龙再也忍不住，又吼了一声，吓得公主双脚发抖，接着猛扑上去，把镜子撞得粉碎。每片碎镜都映着它身体的一部分，它竟以为自己也碎成了无数片。
+        - id: ch02-b14
+          speaker: narrator
+          text: >-
+            鱼骑士等的正是这一刻。恶龙还没发现自己毫发无伤，长矛已经刺进它的喉咙。它倒在草地上死了。
+        - id: ch02-b15
+          speaker: narrator
+          text: >-
+            青年骑马回城，公主坐在他身后，那头可怕的恶龙则用绳子拴着，一路拖在后面。消息传遍大城，街道各处都响起欢呼。人人都高喊，国王一定要把公主嫁给这位胜利者，国王果真答应了。接连举行的舞会、宴席和竞技，热闹非凡，盛况是从来没有人见过的。庆典全部结束以后，新婚夫妇住进了特意为他们预备的宫殿。那座宫殿大得惊人，沿着外墙绕上一圈，足有三英里。
+    - id: ch03
+      title: 阿尔巴特罗斯堡
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            婚后第一个下雨天，新郎请妻子领他看遍宫中所有房间。宫殿实在太大，走完一趟花了很久。等两个人终于登上屋顶眺望四周，雨已经停了，太阳也重新灿烂地照亮天空。
+        - id: ch03-b02
+          speaker: east_knight
+          text: 远处那座黑色大理石似的城堡，是什么地方？
+        - id: ch03-b03
+          speaker: princess
+          text: >-
+            那叫阿尔巴特罗斯堡，中了魔法。每个想进去的人，都再也没回来。
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            骑士没有作声，转而说起了别的事。公主还以为这件事就此过去了。第二天早晨，他却命人备好马，带上长矛，唤来猎犬，独自向城堡出发。仅仅望一眼那里，就足以叫人寒毛直竖。城堡黑得像暴风雨之夜，静得像坟墓，四周听不见半点活物的声息，只有真正勇敢的人才敢靠近。鱼骑士从不知恐惧为何物，也从未背对敌人逃走。他取出号角用力吹响。声音惊醒了城堡里沉睡的回音，一阵高，一阵低，一阵近，一阵远，可始终没有人出来。
+        - id: ch03-b05
+          speaker: east_knight
+          text: >-
+            里面有人吗？谁肯招待一位骑士？堡主、侍从，连听差也没有吗？
+        - id: ch03-b06
+          speakers: [echo_1, echo_2, echo_3]
+          ensemble: chorus
+          text: 连听差也没有！
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            骑士没有理会，一拳砸向大门。一扇小铁窗打开，先露出硕大鼻子的尖端，接着出现了世上最丑的老妇人。
+        - id: ch03-b08
+          speaker: old_witch
+          text: 你来做什么？
+        - id: ch03-b09
+          speaker: east_knight
+          text: 我要进去。今晚能不能在这里歇息？能，还是不能？
+        - id: ch03-b10
+          speakers: [echo_1, echo_2, echo_3]
+          ensemble: chorus
+          text: 不能，不能，不能！
+        - id: ch03-b11
+          speaker: narrator
+          text: >-
+            头顶的烈日十分猛烈，骑士又因为被挡在门外等候而满腔怒火，热得只好掀起面甲。老妇人一看清他的英俊面容，态度立刻变了，伸手摸索起大门上的锁。
+        - id: ch03-b12
+          speaker: old_witch
+          text: 进来吧。这样漂亮的绅士，一定不会伤害我们。
+        - id: ch03-b13
+          speakers: [echo_1, echo_2, echo_3]
+          ensemble: chorus
+          text: 绝不会伤害我们！
+        - id: ch03-b14
+          speaker: east_knight
+          text: 老妈妈，咱们进去吧。
+        - id: ch03-b15
+          speaker: old_witch
+          text: >-
+            你必须叫我贝尔贝里斯卡夫人。这是我的城堡，我欢迎你。你要留下来，做我的丈夫。
+        - id: ch03-b16
+          speaker: narrator
+          text: 骑士听见老妇人要他做丈夫，惊得连长矛都掉在地上。他开口拒绝时，城里的声音又发出一阵嘲弄的笑。
+        - id: ch03-b17
+          speaker: east_knight
+          text: >-
+            我娶你？你至少一百岁了！你简直疯了。我只想看完城堡就离开。
+          emotion: surprised
+        - id: ch03-b18
+          speaker: narrator
+          text: >-
+            老妇人虽然年老，却仿佛永远不会疲倦。她领着骑士一间又一间地走，无论房间多么狭小也绝不漏掉。每一间屋里都装满了青年从未见过的奇物。最后，他们来到一道向下延伸的石阶前。那里黑得厉害，哪怕把手举到眼前，也看不见自己的手。
+        - id: ch03-b19
+          speaker: old_witch
+          text: >-
+            最珍贵的宝贝留在最后。让我先走，石阶很陡，你很容易摔断腿。
+        - id: ch03-b20
+          speaker: narrator
+          text: >-
+            老妇人说完便走进黑暗，不时回头招呼青年跟上。骑士只能摸索着向下走，并不知道她已经悄悄闪进墙上的凹处。忽然，他一脚踩上活板门，脚下的木板立刻翻开。他向下坠去，不停地坠落，就像从前许多优秀的骑士一样。他的呼喊声，也混进了那些人的回音，从地底一阵阵传来。
+        - id: ch03-b21
+          speaker: old_witch
+          text: 谁叫你不肯娶我！哈！哈！哈！哈！
+          emotion: happy
+    - id: ch04
+      title: 一模一样的归人
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            另一位兄弟走遍远近，最后也来到这座城。他走过街道时，卫兵忽然列队挺立，向他敬礼，鼓手也奏起王家进行曲，叫他十分惊讶。几个穿号衣的仆人又跑来说，公主认定他遭了可怕的祸，已经哭得病倒，他更是摸不着头脑。青年终于明白，大家又把自己当成了兄弟。他心想，最好先不声张，说不定这样终究能帮上兄弟。
+        - id: ch04-b02
+          speaker: narrator
+          text: 青年没有解释自己的身份，任由众人欢呼着把他簇拥进王宫。公主以为丈夫终于安然归来，一见他便扑进了他的怀里。
+        - id: ch04-b03
+          speaker: princess
+          text: 你果然去了那座城堡？
+        - id: ch04-b04
+          speaker: west_knight
+          text: 对，我去了。
+        - id: ch04-b05
+          speaker: princess
+          text: 你在那里看见了什么？
+        - id: ch04-b06
+          speaker: west_knight
+          text: 我不能告诉你，除非我再回去一趟。
+        - id: ch04-b07
+          speaker: princess
+          text: >-
+            你真的还要回那个可怕的地方吗？进去还能回来的人，只有你一个。
+        - id: ch04-b08
+          speaker: west_knight
+          text: 我必须回去。
+        - id: ch04-b09
+          speaker: princess
+          text: 那就先睡一觉吧。你一定累坏了。
+          emotion: calm
+        - id: ch04-b10
+          speaker: narrator
+          text: 骑士摇了摇头。
+        - id: ch04-b11
+          speaker: west_knight
+          text: 城堡里的事没办完以前，我发过誓，绝不躺上床。
+        - id: ch04-b12
+          speaker: narrator
+          text: 公主听见这句话，又叹了一口气，不再说话。第二天一早，青年便动身去找那座城堡。他已经确信，自己的兄弟一定在那里遭遇了什么可怕的事。
+    - id: ch05
+      title: 魔水与重生
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            第二天，青年走到城堡前吹响号角，老妇人的长鼻子又从小铁窗里伸了出来。她一看清青年的脸，几乎吓得昏过去。她以为这是死去骑士的鬼魂，因为那个年轻人的尸骨明明还躺在城堡地牢里。
+        - id: ch05-b02
+          speaker: west_knight
+          text: >-
+            比岁月还古老的夫人，不久以前，你是不是接待过一个年轻骑士？
+        - id: ch05-b03
+          speakers: [echo_1, echo_2, echo_3]
+          ensemble: chorus
+          text: 不久以前！
+        - id: ch05-b04
+          speaker: west_knight
+          text: 你把他怎么样了？
+        - id: ch05-b05
+          speakers: [echo_1, echo_2, echo_3]
+          ensemble: chorus
+          text: 怎么样了！
+        - id: ch05-b06
+          speaker: narrator
+          text: 老妇人不敢停下来再听，转身就想逃走。可骑士已经拔剑追上，一剑刺进了她的身体。
+        - id: ch05-b07
+          speaker: west_knight
+          text: 狠毒的老妖婆，我兄弟在哪里？
+          emotion: angry
+        - id: ch05-b08
+          speaker: old_witch
+          text: >-
+            我可以告诉你。可我快死了，你得先把我救活，不然这个消息我绝不说。
+        - id: ch05-b09
+          speaker: west_knight
+          text: 你以为我能怎样创造这种奇迹？
+        - id: ch05-b10
+          speaker: old_witch
+          text: >-
+            容易得很。去花园摘下长生草的花，再取些龙血。把它们捣碎，放进一大桶水里煮，然后把我放进去。
+        - id: ch05-b11
+          speaker: narrator
+          text: >-
+            骑士走进花园，采来长生草的花，又取来龙血。他把两样东西捣在一起，放进一大桶水里煮，随后照她的话，把老妇人放了进去。她从魔水里出来时，身体果然完好无损，却变得比从前更丑了。她只得把兄弟的遭遇和藏身之处全部说出来。青年沿着黑暗的通道走进地牢，先把兄弟的身体带上来，又把躺在那里的其他受害者一一搬到魔水旁。他们全都在水中洗过以后，原有的力气便回到了身上，一个接一个重新站了起来。
+        - id: ch05-b12
+          speaker: narrator
+          text: >-
+            除了这些人，青年又在另一个洞穴里找到那些曾被献给恶龙的姑娘们。他把她们也带到魔水旁，让她们一个个重新活了过来。至于老巫婆，她眼看所有猎物都从手中逃脱，气得再也承受不住，最后竟活活气死。她咽下最后一口气的那一刻，阿尔巴特罗斯堡发出一声巨响，整座城堡轰然倒塌，化成了一片废墟。
+        - id: ch05-b13
+          speaker: narrator
+          text: 这个故事原来收在费尔南·卡瓦列罗搜集的《故事、祷词与谜语》里。
