@@ -1,0 +1,574 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，保留古老童话的神秘感
+        timbre: 温暖清晰
+        pace: 舒缓
+        pitch: 中音
+    udea:
+      display_name: 乌黛娅
+      tts:
+        delivery: 真诚勇敢，受惊时脆弱却不失坚韧
+        timbre: 清亮柔和
+        pace: 适中
+        pitch: 中高音
+    mother:
+      display_name: 母亲
+      tts:
+        delivery: 慈爱稳重，叮嘱时温和坚定
+        timbre: 柔和温暖
+        pace: 稍慢
+        pitch: 中音
+    playmate:
+      display_name: 年长的玩伴
+      tts:
+        delivery: 直率尖刻，争吵时毫不退让
+        timbre: 清脆偏冷
+        pace: 稍快
+        pitch: 中高音
+    barka:
+      display_name: 巴尔卡
+      tts:
+        delivery: 粗暴强硬，威胁时压低声音
+        timbre: 粗哑低沉
+        pace: 适中
+        pitch: 低音
+    barka_wife:
+      display_name: 巴尔卡的妻子
+      tts:
+        delivery: 冷漠顺从，语气简短
+        timbre: 低哑干涩
+        pace: 适中
+        pitch: 中音
+    caravan_leader:
+      display_name: 商队领队
+      tts:
+        delivery: 简洁爽快，语气笃定
+        timbre: 沉稳清晰
+        pace: 适中
+        pitch: 中低音
+    eldest_brother:
+      display_name: 长兄
+      tts:
+        delivery: 沉着有担当，动怒时刚烈果断
+        timbre: 浑厚清朗
+        pace: 适中
+        pitch: 中低音
+    second_brother:
+      display_name: 二哥
+      tts:
+        delivery: 坦率热诚，行动利落
+        timbre: 明朗有力
+        pace: 适中
+        pitch: 中音
+    third_brother:
+      display_name: 三哥
+      tts:
+        delivery: 朴实爽朗，语气坚定
+        timbre: 清晰结实
+        pace: 适中
+        pitch: 中音
+    youngest_brother:
+      display_name: 七哥
+      tts:
+        delivery: 热情敏锐，说话直截了当
+        timbre: 年轻明亮
+        pace: 稍快
+        pitch: 中音
+    cat:
+      display_name: 猫
+      tts:
+        delivery: 执拗机敏，反问时带一点讥诮
+        timbre: 轻巧清晰
+        pace: 稍快
+        pitch: 中高音
+    man_eater:
+      display_name: 食人魔
+      tts:
+        delivery: 阴森贪婪，发怒时凶狠暴烈
+        timbre: 沙哑厚重
+        pace: 稍慢
+        pitch: 低音
+    raven:
+      display_name: 渡鸦
+      tts:
+        delivery: 冷静神秘，话中带着反问
+        timbre: 尖细微哑
+        pace: 适中
+        pitch: 中高音
+    traveler:
+      display_name: 赶路人
+      tts:
+        delivery: 随口而出，朴实自然
+        timbre: 清朗
+        pace: 适中
+        pitch: 中音
+    father:
+      display_name: 父亲
+      tts:
+        delivery: 苍老慈爱，悲喜都深沉真切
+        timbre: 低沉温厚
+        pace: 舒缓
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 远走的七兄弟
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，一对夫妻养着七个儿子。七兄弟成天在户外生活，一个个长得高大强壮。六个年长的每天都要抽出些时候去猎取野兽，最小的那个不大爱打猎，常留在母亲身旁。一天早晨，兄弟七人准备出门远猎。他们临行前特意嘱咐姑母，若母亲当天生下妹妹，就在远处挥一挥白手帕，他们看见了会立刻回家。若生下的只是个弟弟，姑母就举起镰刀，他们看过信号，便接着赶自己的路。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            生下来的分明是个女孩，可姑母一向受不了这些男孩，正想趁机摆脱他们，便故意举起了镰刀。
+        - id: ch01-b03
+          speakers: [eldest_brother, second_brother, third_brother, youngest_brother]
+          ensemble: chorus
+          text: >-
+            家里没有什么值得我们回去了。
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            七兄弟就这样走进沙漠深处。小妹妹渐渐长大，朋友们背着她给她取了个名字，叫“把七个哥哥赶到异乡的乌黛娅”。她自己一点也不知道。十五岁那年，她和玩伴争吵，年纪最大的那个终于把秘密说破了。
+        - id: ch01-b05
+          speaker: playmate
+          text: >-
+            你还不如没有出生呢！就是因为你，你的哥哥们才会在外面到处流浪。
+          emotion: angry
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            乌黛娅没有回嘴。她径直回到家，去问母亲。
+        - id: ch01-b07
+          speaker: udea
+          text: >-
+            母亲，我真的有哥哥吗？
+        - id: ch01-b08
+          speaker: mother
+          text: >-
+            有，你有七个哥哥。可你出生那天，他们就走了。这十五年来，我再也没听到他们的消息。
+        - id: ch01-b09
+          speaker: udea
+          text: >-
+            那我就去找他们。无论要找多久，我都一定把他们找到。
+        - id: ch01-b10
+          speaker: mother
+          text: >-
+            孩子，十五年里没有一个人见过他们。你连该往哪边走都不知道，怎么找得到呢？
+        - id: ch01-b11
+          speaker: udea
+          text: >-
+            我会往北找，往南找，再往东、往西找。哪怕走得再远，总有一天，我会找到他们。
+        - id: ch01-b12
+          speaker: narrator
+          text: >-
+            母亲不再阻拦。她给女儿备好骆驼和食物，又派巴尔卡和他的妻子沿途照料。出发前，她在骆驼颈上系了一枚宝螺当作护身符，祝女儿一路平安。第一天什么事也没有。第二天早晨，巴尔卡却要乌黛娅让出骆驼，给自己的妻子骑。
+        - id: ch01-b13
+          speaker: udea
+          text: >-
+            母亲！巴尔卡叫我从骆驼上下来！
+        - id: ch01-b14
+          speaker: mother
+          text: >-
+            巴尔卡，别难为她。
+        - id: ch01-b15
+          speaker: narrator
+          text: >-
+            巴尔卡没敢坚持。到了第三天，他又命令乌黛娅下去，让自己的妻子代她骑骆驼。这回母亲离得太远，根本听不见女儿的呼喊。巴尔卡一把抓住姑娘，将她粗暴地摔到地上，随即叫妻子爬上骆驼。乌黛娅原想一路乘骆驼，因为她光着双脚，地上的石子很快割破皮肉，鲜血不断流出来。她硬撑着走到夜里，大家才停下歇息。第二天早晨，情形又和前一天一样。姑娘又累又疼，双脚仍在流血。她哭着哀求巴尔卡，哪怕只让她骑上一小会儿也好，他却全不理会，只冷冷催她再走快一点。
+        - id: ch01-b16
+          speaker: narrator
+          text: >-
+            后来，他们碰见一支商队。巴尔卡停下来，向领队打听对方是否遇见过七个年轻人，据说他们正在附近打猎。领队指着前路说，一直走下去，正午就能到达他们居住的城堡。巴尔卡听完，立刻把沥青放在太阳下晒化，涂遍乌黛娅全身，让她看起来和自己一样黑。直到这时，他才叫妻子下来，让姑娘重新骑上骆驼。乌黛娅总算不用再让伤痕累累的双脚踩过石地，心里十分感激。就这样，一行人来到了七兄弟的城堡。
+        - id: ch01-b17
+          speaker: narrator
+          text: >-
+            到了城堡门口，骆驼跪下，巴尔卡用力敲门。开门的是最小的哥哥，其余人都出去打猎了。他认得巴尔卡夫妇，却没认出自己的妹妹。
+        - id: ch01-b18
+          speaker: youngest_brother
+          text: >-
+            欢迎你们。可跟你们来的那个黑人姑娘是谁？
+        - id: ch01-b19
+          speakers: [barka, barka_wife]
+          ensemble: duo
+          text: >-
+            她就是你的妹妹。
+        - id: ch01-b20
+          speaker: youngest_brother
+          text: >-
+            我的妹妹？可她黑得像煤一样！
+          emotion: surprised
+        - id: ch01-b21
+          speaker: barka
+          text: >-
+            她确实很黑，可她还是你的妹妹。
+        - id: ch01-b22
+          speaker: narrator
+          text: >-
+            最小的哥哥没再追问，把三个人领进城堡，自己在外面等哥哥们。四下无人时，巴尔卡压低声音威胁乌黛娅。她要敢告诉哥哥们，是他逼她一路步行，又在她身上涂满沥青，他就亲手杀了她。乌黛娅吓得浑身发抖，只能答应一个字也不说。正好这时，六个哥哥出现在远处。最小的哥哥急忙跑去迎接，告诉他们自己有个天大的好消息，他们的妹妹已经来到城堡。
+        - id: ch01-b23
+          speakers: [eldest_brother, second_brother, third_brother]
+          ensemble: chorus
+          text: >-
+            别胡说了。我们没有妹妹，出生的那个孩子明明是男孩。
+        - id: ch01-b24
+          speaker: youngest_brother
+          text: >-
+            那个消息是假的。妹妹就在里面，和巴尔卡夫妇在一起。只是，她的皮肤也很黑。
+        - id: ch01-b25
+          speaker: narrator
+          text: >-
+            最后一句他说得太轻，哥哥们没有听见。他们欢欢喜喜地从弟弟身旁挤进门，先亲热地向老巴尔卡问好，又追问为何直到今天才知道自己有个妹妹。接着，他们热情地围住乌黛娅，一见面就把她当作亲妹妹欢迎。姑娘直到这时才终于松了口气。她又宽慰又欢喜，忍不住流下眼泪。
+        - id: ch01-b26
+          speaker: narrator
+          text: >-
+            第二天，七兄弟都留在家里。乌黛娅坐在长兄膝上，一边替他梳头，一边说起故乡。长兄听得泪流满面。泪珠滴到妹妹裸露的手臂上，每一滴都冲出一块白斑。他拿布一擦，这才发现她的皮肤原本根本不黑。
+        - id: ch01-b27
+          speaker: eldest_brother
+          text: >-
+            是谁把你全身涂成这样的？快告诉我！
+          emotion: angry
+        - id: ch01-b28
+          speaker: udea
+          text: >-
+            我不敢说。巴尔卡会杀了我的。
+          emotion: fearful
+        - id: ch01-b29
+          speaker: eldest_brother
+          text: >-
+            你有七个哥哥在这里，还怕他吗？
+        - id: ch01-b30
+          speaker: udea
+          text: >-
+            那我告诉你。他逼我下来，让自己的妻子骑骆驼。石头把我的脚割出了血，我只好把脚裹起来。等他听说城堡就在附近，又拿沥青涂满了我的身体。
+        - id: ch01-b31
+          speaker: narrator
+          text: >-
+            长兄怒不可遏，冲出去拔出剑，先杀死巴尔卡，又杀死他的妻子。随后，他端来温水，把妹妹从头到脚洗净。乌黛娅的肌肤重新变得洁白明亮。哥哥们这才齐声认下妹妹，还笑巴尔卡竟把他们当成傻瓜，以为他们会相信自己的妹妹天生是个黑人。那天和第二天，他们全都守在城堡里。
+    - id: ch02
+      title: 猫与熄灭的炉火
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            第三天早晨，兄弟们又要去打猎了。他们叫妹妹把自己锁在城堡里，只让猫陪伴。无论她吃什么，都必须分给猫一点，绝不能吃猫没有吃到的东西。哥哥们说，七天以后一定回来。乌黛娅答应下来，和猫一起留在紧锁的城堡里。到了第八天，哥哥们如约回家，见她平安无事，先问她过得好不好，又问这几天有没有担忧害怕。
+        - id: ch02-b02
+          speaker: udea
+          text: >-
+            我为什么要怕呢？外面的大门锁得很牢，里面还有七道门，最后一道是铁门。谁能进得来？
+        - id: ch02-b03
+          speaker: eldest_brother
+          text: >-
+            没人敢招惹我们，因为人人都怕我们。可你独自留下时，无论做什么都要先问问猫。它从小住在这里，你千万别把它的劝告当成耳旁风。
+        - id: ch02-b04
+          speaker: udea
+          text: >-
+            我记住了。我吃的每一样东西，都分一半给它。
+        - id: ch02-b05
+          speaker: youngest_brother
+          text: >-
+            很好。你要是遇到危险，猫会来通知我们。不过，只有小精灵和窗外那些鸽子知道我们在哪里。
+        - id: ch02-b06
+          speaker: udea
+          text: >-
+            你们从没对我说过鸽子的事。为什么不早点告诉我？
+        - id: ch02-b07
+          speaker: second_brother
+          text: >-
+            我们每次都会留下足够七天的食物和水。
+        - id: ch02-b08
+          speaker: udea
+          text: >-
+            要是早知道，我就给它们换上新鲜的食物和水了。东西放七天都会变坏。不如让我每天喂它们吧？
+        - id: ch02-b09
+          speaker: eldest_brother
+          text: >-
+            那当然好。你怎样照顾猫和鸽子，就等于怎样照顾我们。
+        - id: ch02-b10
+          speaker: udea
+          text: >-
+            放心吧。我会把它们当成自己的哥哥一样。
+        - id: ch02-b11
+          speaker: narrator
+          text: >-
+            哥哥们住了一夜，第二天吃过早饭，带上兵器，骑马赶往猎场。临行前，他们又叮嘱妹妹，在他们回来以前，谁也不能放进城堡。乌黛娅把门锁了七天。第八天哥哥们如期返回，陪她过了一晚，隔天早饭后再次出发。
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            哥哥们刚走远，乌黛娅便打扫起屋子。她从灰尘里捡到一颗豆子，顺手放进嘴里。猫马上问她在吃什么。
+        - id: ch02-b13
+          speaker: udea
+          text: >-
+            我什么也没吃。
+        - id: ch02-b14
+          speaker: cat
+          text: >-
+            那就张开嘴，让我看一眼。你果然吃了豆子，为什么没分给我一半？
+        - id: ch02-b15
+          speaker: udea
+          text: >-
+            我忘记了。这里还有很多豆子，你想要多少都行。
+        - id: ch02-b16
+          speaker: cat
+          text: >-
+            别的豆子不算。我要你刚才吃掉的那一颗，还得是它的一半。
+        - id: ch02-b17
+          speaker: udea
+          text: >-
+            可那颗豆子已经进了肚子，我怎么分给你？我给你烤一百颗别的还不行吗？
+        - id: ch02-b18
+          speaker: cat
+          text: >-
+            不行，我只要那一颗的一半。
+        - id: ch02-b19
+          speaker: udea
+          text: >-
+            随你想怎么样吧，别再缠着我了！
+          emotion: angry
+        - id: ch02-b20
+          speaker: narrator
+          text: >-
+            猫跑进厨房，朝炉火吐了口唾沫，把火彻底弄灭。乌黛娅来做晚饭时，找不到一点火种，只好问猫为什么这样做。
+        - id: ch02-b21
+          speaker: cat
+          text: >-
+            我就是想看看，没有火，你怎么把晚饭做好。不是你亲口叫我想做什么就做什么吗？
+        - id: ch02-b22
+          speaker: narrator
+          text: >-
+            乌黛娅爬上城堡屋顶，望见极远的地方闪着一星火光。她决定去那里取一块燃烧的炭，便打开大门，独自赶了过去。守在火堆边的却是一个面目可憎的食人魔。乌黛娅先向他问候，尊称他为爷爷。食人魔也向她问好，还叫出了她的名字。
+        - id: ch02-b23
+          speaker: man_eater
+          text: >-
+            乌黛娅，你跑到这里来，有什么事？
+        - id: ch02-b24
+          speaker: udea
+          text: >-
+            我的炉火灭了，想向您讨一块燃烧的炭。
+        - id: ch02-b25
+          speaker: man_eater
+          text: >-
+            你想拿一大块，还是一小块？
+        - id: ch02-b26
+          speaker: udea
+          text: >-
+            炭块大小，有什么分别吗？
+        - id: ch02-b27
+          speaker: man_eater
+          text: >-
+            拿大的，就要从耳朵到拇指割一条皮给我。拿小的，就从耳朵到小指割一条皮。
+        - id: ch02-b28
+          speaker: narrator
+          text: >-
+            乌黛娅觉得两种代价一样可怕，只好选了大炭。食人魔割下她的皮，她带着炭匆匆回城堡。一路上，鲜血滴在地面。一只渡鸦发现血迹，便用泥土一处处盖住，还一直守着她。进门时，渡鸦突然从姑娘身旁飞过。乌黛娅这才看见它，惊得尖叫起来。
+        - id: ch02-b29
+          speaker: udea
+          text: >-
+            愿你也像我刚才一样，被狠狠吓上一回！
+          emotion: fearful
+        - id: ch02-b30
+          speaker: raven
+          text: >-
+            我明明帮了你，你为什么还要咒我？
+        - id: ch02-b31
+          speaker: udea
+          text: >-
+            你帮过我什么？
+        - id: ch02-b32
+          speaker: raven
+          text: >-
+            你很快就知道了。
+        - id: ch02-b33
+          speaker: narrator
+          text: >-
+            渡鸦说完，竟用嘴刨开泥土，让全部血迹重新露了出来，然后振翅飞走。
+    - id: ch03
+      title: 铁门外的食人魔
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            当天夜里，食人魔沿着地上的血迹找到城堡。他从乌黛娅忘记关闭的大门走进去，一直来到屋子深处。六道木门和一道铁门全都紧锁着，把他挡在外面。他便隔着门呼喊乌黛娅，问她看见爷爷在做什么。
+        - id: ch03-b02
+          speaker: udea
+          text: >-
+            我看见爷爷身下铺着丝绸，身上也盖着丝绸，正躺进一张四柱床。
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            食人魔听完，撞破第一道门，大笑着离开。第二晚，他又回来了，仍隔着门问乌黛娅，她看见爷爷在做什么。姑娘照原样回答，食人魔便撞破第二道门，又笑着离去。此后每夜都是这样。他夜夜前来，夜夜问同一个问题，乌黛娅也夜夜给出同一个答案。每过一夜，他便毁掉一道门。等他逼近第七道门时，六道木门已经全部敞开，只剩最后那道紧锁的铁门。
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            乌黛娅赶紧写了一封信，系在鸽子颈上，请这只曾侍奉父亲和祖父的鸽子把信交给哥哥，随后立刻回来。鸽子飞了很久很久，终于找到七兄弟。长兄解下信，只见妹妹写道，她已经身陷绝境。如果哥哥们当晚不能赶到，第二天她便没命了。食人魔撞开了六道门，只剩那道铁门。信末一连催促了三次，要他们快来。
+        - id: ch03-b05
+          speaker: eldest_brother
+          text: >-
+            弟弟们，快，马上动身！
+        - id: ch03-b06
+          speaker: second_brother
+          text: >-
+            大哥，究竟出什么事了？
+        - id: ch03-b07
+          speaker: eldest_brother
+          text: >-
+            今晚若赶不到，明天妹妹就会被食人魔吃掉！
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            兄弟们不再多说，跳上马背，像风一样飞驰回去。城堡大门已经倒下。他们冲进庭院，高声呼唤乌黛娅。可姑娘被恐惧和焦虑折磨得病倒了，连一句话也说不出。哥哥们下马穿过六道破门，在紧锁的铁门外喊她开门，告诉她，来的正是七个哥哥。乌黛娅挣扎着起身打开门，扑到长兄颈间，放声痛哭。
+        - id: ch03-b09
+          speaker: eldest_brother
+          text: >-
+            别怕，慢慢告诉我们。发生了什么？食人魔怎么会追到城堡来？
+        - id: ch03-b10
+          speaker: udea
+          text: >-
+            都怪那只猫。就因为一颗豆子！我吃掉豆子，忘了分给它，它便把炉火弄灭，害我没法做饭。
+        - id: ch03-b11
+          speaker: eldest_brother
+          text: >-
+            我们明明仔细叮嘱过你，无论吃什么，都不能忘了猫的那一份。
+        - id: ch03-b12
+          speaker: udea
+          text: >-
+            是，可我真的忘了。
+        - id: ch03-b13
+          speaker: second_brother
+          text: >-
+            食人魔每一晚都来吗？
+        - id: ch03-b14
+          speaker: udea
+          text: >-
+            每晚都来。他每次撞开一道门，然后就走。
+        - id: ch03-b15
+          speakers: [eldest_brother, second_brother, third_brother, youngest_brother]
+          ensemble: chorus
+          text: >-
+            我们挖个大坑，填满燃烧的木头，再把坑口盖起来。食人魔一来，我们就让他掉进去！
+        - id: ch03-b16
+          speaker: narrator
+          text: >-
+            七兄弟立刻挖好大坑，在里面点燃木柴，一直烧成通红的炭，再用席子遮住坑口。食人魔照旧来到门外，问乌黛娅看见爷爷在做什么。这一回，姑娘换了回答。
+        - id: ch03-b17
+          speaker: udea
+          text: >-
+            我看见爷爷剥下驴皮，把驴吃掉。他后来掉进火里，给大火烧得干干净净。
+        - id: ch03-b18
+          speaker: narrator
+          text: >-
+            食人魔暴跳如雷，猛撞铁门，把最后一道门也撞开了。门后，七兄弟正在等他。
+        - id: ch03-b19
+          speaker: eldest_brother
+          text: >-
+            走了这么远，一定累了吧？来，坐在这张席子上歇歇。
+        - id: ch03-b20
+          speaker: narrator
+          text: >-
+            食人魔刚一坐下，就掉进席子下面燃烧的大坑。兄弟们不断往里添柴，直到他被烧得连一根骨头也没剩下。可有一片指甲被气浪吹上楼，正落进乌黛娅所在的房间。那片指甲钻进她一根手指的指甲下面。姑娘当场失去生命，倒在地上。
+    - id: ch04
+      title: 骆驼带回的姑娘
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            哥哥们坐在楼下等了许久，不明白妹妹为什么一直不来。长兄越等越担心，忍不住说，她会不会也掉进了火坑。一个弟弟立刻跑上楼查看。他找到乌黛娅时，她直挺挺地躺在地板上。他一遍又一遍呼喊妹妹的名字，乌黛娅既不动，也不回答。弟弟终于看出她已经死去，连忙冲下楼，跑到庭院里大喊，要哥哥们快来，他们的妹妹死了。
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            七兄弟全都赶到她身旁。他们做了一副灵床，把妹妹放上去，又把灵床横放在骆驼背上。
+        - id: ch04-b03
+          speaker: eldest_brother
+          text: >-
+            骆驼，把妹妹送回母亲身边。一路不要停，也别让任何人抓住你。无论谁来，你都不能跪下，除非那个人说出“带子”。只有听到这个词，你才可以跪。
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            骆驼独自出发。走到半路，三个男人追上来想抓住它。骆驼越跑越快，他们喊它停下，它也毫不理会。三个人在后面追得气喘吁吁，其中一个忽然发现自己的鞋出了问题。
+        - id: ch04-b05
+          speaker: traveler
+          text: >-
+            等等我，我的鞋带断了！
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            骆驼一听见“带子”，立刻跪了下来。三个男人走近，看见灵床上躺着一个死去的姑娘，手指还戴着戒指。一个年轻人抓住她的手，想把戒指摘走，无意间碰出了藏在指甲下面的食人魔指甲。乌黛娅立刻坐了起来。
+        - id: ch04-b07
+          speaker: udea
+          text: >-
+            给我生命的人，让他活着。夺我性命的人，把他杀死！
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            骆驼听见姑娘说话，马上转身，带她返回城堡。哥哥们仍坐在庭院里哀哭，眼睛都哭花了。骆驼来到面前，他们几乎看不清，还以为它竟把妹妹送了回来，气得起身要打它。骆驼跪下，乌黛娅从背上走下来。七兄弟全都扑上去搂住她，因为欢喜，哭得比刚才更加厉害。
+        - id: ch04-b09
+          speaker: eldest_brother
+          text: >-
+            妹妹，快告诉我，到底发生了什么？什么东西害死了你？
+        - id: ch04-b10
+          speaker: udea
+          text: >-
+            我在楼上的房间等你们。食人魔的一片指甲钻进我的指甲下面，我便倒在地上死了。后面的事，我一点也不知道。
+        - id: ch04-b11
+          speaker: eldest_brother
+          text: >-
+            那么，是谁把食人魔的指甲拔出来的？
+        - id: ch04-b12
+          speaker: udea
+          text: >-
+            有个男人抓起我的手，想摘走戒指，碰巧让那片指甲跳了出来，我就重新活了。骆驼听见我说“给我生命的人，让他活着，夺我性命的人，把他杀死”，便掉头把我送回来了。事情就是这样。
+        - id: ch04-b13
+          speaker: narrator
+          text: >-
+            乌黛娅说完，长兄转向几个弟弟。
+        - id: ch04-b14
+          speaker: eldest_brother
+          text: >-
+            弟弟们，你们愿意听我的主意吗？
+        - id: ch04-b15
+          speakers: [second_brother, third_brother, youngest_brother]
+          ensemble: chorus
+          text: >-
+            我们当然听。你不只是哥哥，也像我们的父亲一样。
+        - id: ch04-b16
+          speaker: eldest_brother
+          text: >-
+            那就带妹妹回到父母身边吧。趁他们还活着，我们再去见他们一面。
+        - id: ch04-b17
+          speaker: narrator
+          text: >-
+            兄弟们都赞成长兄的主意。他们骑上马，让妹妹坐进骆驼背上的轿子，一同踏上归途。
+    - id: ch05
+      title: 回到父母身边
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            走了五天，他们终于回到故乡。年迈的父亲和母亲一直孤零零地住在那里。看到七个儿子和女儿一同回来，父亲心中充满欢喜，也想起这些年流过的眼泪。
+        - id: ch05-b02
+          speaker: father
+          text: >-
+            亲爱的儿子们，你们当年为什么离开家？你们的母亲和我日日夜夜都在为你们哭泣。
+        - id: ch05-b03
+          speaker: eldest_brother
+          text: >-
+            亲爱的父亲，先让我们休息几天。等歇过来，我会从头讲给您听。
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            父亲答应了，耐心等了三天。第四天早晨，长兄来到父亲面前，问他想不想听七兄弟的经历。
+        - id: ch05-b05
+          speaker: father
+          text: >-
+            我当然想听。快讲给我吧！
+        - id: ch05-b06
+          speaker: eldest_brother
+          text: >-
+            我们离开家，全是姑母造成的。临行前，我们和她说好了。若母亲生下妹妹，她就挥白手帕。若生下弟弟，她就挥镰刀。看到镰刀，我们就知道家里没什么值得回来，可以一直向远方流浪。姑母一向受不了我们，不愿和我们住在同一所房子里，所以明明生下的是妹妹，她还是挥动了镰刀。我们信以为真，便再也没有回来。这就是我们全部的故事。
+        - id: ch05-b07
+          speaker: narrator
+          text: >-
+            乌黛娅和七个哥哥的故事，也到这里结束了。这个古老的故事，出自汉斯·施图默的《的黎波里城的童话与诗歌》。

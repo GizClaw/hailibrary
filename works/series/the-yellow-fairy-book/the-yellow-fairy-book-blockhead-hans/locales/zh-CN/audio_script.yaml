@@ -1,0 +1,244 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts: {delivery: 沉静从容，带着古老童话的机智与克制, timbre: 温暖清朗, pace: 舒缓而富有变化, pitch: 中音}
+    elder_brother:
+      display_name: 大哥
+      tts: {delivery: 自负卖弄，受挫时慌乱笨拙, timbre: 清亮偏薄, pace: 适中, pitch: 中高音}
+    second_brother:
+      display_name: 二哥
+      tts: {delivery: 一本正经又自命不凡，紧张时吞吞吐吐, timbre: 平直清晰, pace: 适中, pitch: 中音}
+    blockhead_hans:
+      display_name: 笨汉斯
+      tts: {delivery: 爽朗率真，机敏大胆，始终无拘无束, timbre: 明亮结实, pace: 稍快, pitch: 中音}
+    old_squire:
+      display_name: 老乡绅
+      tts: {delivery: 严厉不耐烦，对聪明儿子十分偏爱, timbre: 低沉苍老, pace: 适中, pitch: 低音}
+    princess:
+      display_name: 公主
+      tts: {delivery: 机智从容，答话爽快，带着俏皮的讥讽, timbre: 清澈明亮, pace: 适中, pitch: 中高音}
+  chapters:
+    - id: ch01
+      title: 三兄弟去求婚
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 遥远的乡间有一座古老庄园，里面住着一位老乡绅和他的两个儿子。这兄弟俩自认为聪明极了。他们觉得自己知道得实在太多，就算只懂现在的一半，也早就绰绰有余了。
+        - id: ch01-b02
+          speaker: narrator
+          text: 两人都想娶国王的女儿。公主早已告诉全国，她要嫁给最会随机应对、最会说话的人。兄弟俩便用整整一星期准备求婚，这也是规定所准许的最长时间。对他们倒是足够了，因为他们都有许多预先备好的学问。而谁都知道，事先准备好的学问是多么有用。
+        - id: ch01-b03
+          speaker: narrator
+          text: 大哥能背整部拉丁文词典，还能背出城里日报连续三年的内容。叫他顺着背、倒着背，他都能一字不差。二哥研究市议会的法规，把每个议员应该知道的事全记熟了。他相信自己很能谈国家大事，也很会发表意见。他的手还特别巧，能在背带上绣玫瑰、花朵和花纹。
+        - id: ch01-b04
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: 国王的女儿一定是我的！
+        - id: ch01-b05
+          speaker: narrator
+          text: 老父亲给了他们一人一匹好马。大哥骑黑马，二哥骑乳白色的马。出发前，两人还给嘴角抹上油，好让话说得更流利。仆人们全站在院子里看他们上马。这时，第三个兄弟正巧走来。说来奇怪，乡绅其实有三个儿子，只是谁也不肯把老三和两个哥哥算在一起。他没有哥哥们那些学问，大家都叫他笨汉斯。
+        - id: ch01-b06
+          speaker: blockhead_hans
+          text: 哟！你们穿得这么漂亮，是要去哪里呀？
+        - id: ch01-b07
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: 我们要进宫向公主求婚！这事全乡都传遍了，你难道还不知道？
+        - id: ch01-b08
+          speaker: narrator
+          text: 他们把事情从头到尾告诉了笨汉斯。
+        - id: ch01-b09
+          speaker: blockhead_hans
+          text: 太好了，我也去！
+          emotion: happy
+        - id: ch01-b10
+          speaker: narrator
+          text: 两个哥哥哈哈大笑，骑着马走了。笨汉斯赶紧去找父亲。
+        - id: ch01-b11
+          speaker: blockhead_hans
+          text: 爸爸，也给我一匹马吧。我突然特别想结婚，怎么也挡不住！她肯嫁我，就非嫁我不可。她不肯嫁，我也非娶她不可。
+        - id: ch01-b12
+          speaker: old_squire
+          text: 别胡说八道！我不会给你马。你连话都说不好，也不懂得该怎么选词。看看你两个哥哥，他们可跟你完全不一样！
+        - id: ch01-b13
+          speaker: blockhead_hans
+          text: 好吧，不给马，我就骑自己的山羊。它一样驮得动我！
+        - id: ch01-b14
+          speaker: narrator
+          text: 笨汉斯当真跨上山羊，两脚往它肚子上一磕，便沿着大路轰隆隆地冲了出去，快得像一阵旋风。
+    - id: ch02
+      title: 路上的宝贝
+      blocks:
+        - id: ch02-b01
+          speaker: blockhead_hans
+          text: 蹦蹦跳，跑得妙！我来啦！
+          emotion: happy
+        - id: ch02-b02
+          speaker: narrator
+          text: 笨汉斯一路放声高唱，四面八方都响起了回声。两个哥哥却在前面慢慢骑着，一句话也不说。他们正忙着在心里推敲进宫以后要讲的妙语，因为每句话都得先想周全。
+        - id: ch02-b03
+          speaker: blockhead_hans
+          text: 喂，我追上来啦！快看看，我在路上捡到了什么！
+        - id: ch02-b04
+          speaker: narrator
+          text: 他举起一只刚捡到的死乌鸦。
+        - id: ch02-b05
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: 你这个笨蛋！捡只死乌鸦有什么用？
+        - id: ch02-b06
+          speaker: blockhead_hans
+          text: 当然有用，我要把它送给公主！
+        - id: ch02-b07
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: 那你就送吧，千万别舍不得！
+        - id: ch02-b08
+          speaker: narrator
+          text: 哥哥们放声嘲笑他，继续赶路。没过多久，笨汉斯又追了上来。
+        - id: ch02-b09
+          speaker: blockhead_hans
+          text: 啪嗒！砰！我又来啦！瞧我刚捡到的东西，这可不是每天都能在路上遇见的！
+        - id: ch02-b10
+          speaker: narrator
+          text: 两个哥哥回头一看，原来是一只没了鞋帮的旧木鞋。
+        - id: ch02-b11
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: 笨蛋，你不会连这只破木鞋也要送给公主吧？
+        - id: ch02-b12
+          speaker: blockhead_hans
+          text: 那还用说，当然要送！
+        - id: ch02-b13
+          speaker: narrator
+          text: 哥哥们笑个不停，很快又把他甩在后面。过了一会儿，熟悉的声音再次从身后传来。
+        - id: ch02-b14
+          speaker: blockhead_hans
+          text: 啪嗒！砰！我来啦！我捡到的东西一样比一样好，这回可真了不得！
+        - id: ch02-b15
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: 这一次，你又找到了什么？
+        - id: ch02-b16
+          speaker: blockhead_hans
+          text: 嘿，这东西好得不得了！公主看到一定会喜欢！
+        - id: ch02-b17
+          speaker: narrator
+          text: 哥哥们仔细瞧了瞧。
+        - id: ch02-b18
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: 这不就是刚从沟里掏出来的烂泥吗？
+        - id: ch02-b19
+          speaker: blockhead_hans
+          text: 没错，就是烂泥，而且是最上等的！你们看，它还能从手指缝里流下去呢。
+        - id: ch02-b20
+          speaker: narrator
+          text: 他说着，往口袋里塞满烂泥。两个哥哥把马催得飞快，扬起大片尘土，蹄下连火星都迸了出来。他们比笨汉斯早一个钟头赶到城门。
+        - id: ch02-b21
+          speaker: narrator
+          text: 求婚者按照抵达的先后编了号，每六个人排成一行。人群挤得肩膀紧挨着肩膀，连胳膊都动不了。这反而是件好事，要不然，他们只因为别人排在自己前面，就会互相撕成碎片。
+    - id: ch03
+      title: 两个聪明哥哥
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 全国的百姓都围在国王的宝座旁，挤成一层又一层的人墙，几乎要从窗户里涌出去。大家都想看看公主怎样接见求婚者。可那些人一个接一个走进大厅，事先准备的漂亮话也一个接一个灭了，就像烛火一样。
+        - id: ch03-b02
+          speaker: princess
+          text: 没关系。把他带走，赶出去！
+        - id: ch03-b03
+          speaker: narrator
+          text: 终于轮到大哥那一排了。他夹在人堆里站了太久，早把整部词典忘得一干二净。大厅的地板吱吱作响，天花板又全是玻璃镜子。他抬头一看，自己竟在镜中头朝下站着。每扇窗旁还有三名记者和一名编辑，正忙着记录大家说的每句话。第二天，所有话都会印在报纸上，在街角以一个便士一份的价钱出售。
+        - id: ch03-b04
+          speaker: narrator
+          text: 这场面已经够吓人了，炉火还烧得格外旺，热得简直能把人烤熟。大哥好不容易开了口。
+        - id: ch03-b05
+          speaker: elder_brother
+          text: 这里可真热，是不是？
+        - id: ch03-b06
+          speaker: princess
+          text: 当然热，我父亲今天正在烤小鸡！
+        - id: ch03-b07
+          speaker: narrator
+          text: 这句话大哥根本没有准备过。他呆呆地站着，很想讲句俏皮话，脑子里却一个字也找不到。
+        - id: ch03-b08
+          speaker: elder_brother
+          text: 呃……我该说什么呢？
+        - id: ch03-b09
+          speaker: princess
+          text: 没关系。把他带出去！
+        - id: ch03-b10
+          speaker: narrator
+          text: 大哥只好离开。接着，二哥走进大厅。
+        - id: ch03-b11
+          speaker: second_brother
+          text: 这里真是热得很！
+        - id: ch03-b12
+          speaker: princess
+          text: 那当然，我们今天正在烤小鸡！
+        - id: ch03-b13
+          speaker: second_brother
+          text: 你怎么……呃，我也不知道该怎么接下去了！
+        - id: ch03-b14
+          speaker: narrator
+          text: 记者立刻把他的话记了下来，连那句没有说完的“你怎么”也没漏掉。
+        - id: ch03-b15
+          speaker: princess
+          text: 没关系。把他带出去！
+        - id: ch03-b16
+          speaker: narrator
+          text: 两个满腹学问的哥哥就这样都被赶出了大厅。
+    - id: ch04
+      title: 笨汉斯的妙答
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 这时候，笨汉斯来了。他没有下山羊，直接骑着它闯进大厅。
+        - id: ch04-b02
+          speaker: blockhead_hans
+          text: 哎呀，这里热得简直能把人烤熟！
+        - id: ch04-b03
+          speaker: princess
+          text: 当然热，我今天正在烤小鸡！
+        - id: ch04-b04
+          speaker: blockhead_hans
+          text: 那可正好！我能把这只乌鸦放进去一起烤吗？
+        - id: ch04-b05
+          speaker: princess
+          text: 我非常乐意。可是，你有东西装着它们烤吗？我这里没有锅，也没有煎锅。
+        - id: ch04-b06
+          speaker: blockhead_hans
+          text: 我当然有！瞧，这件炊具还带着锡环呢。
+        - id: ch04-b07
+          speaker: narrator
+          text: 笨汉斯掏出路上捡来的旧木鞋，把死乌鸦放了进去。
+        - id: ch04-b08
+          speaker: princess
+          text: 这些东西够做一顿饭了。可是，我们到哪里去找汤汁呢？
+        - id: ch04-b09
+          speaker: blockhead_hans
+          text: 我的口袋里就有！我装了那么多，扔掉一点也不心疼。
+        - id: ch04-b10
+          speaker: narrator
+          text: 他从口袋里倒出一些烂泥。
+        - id: ch04-b11
+          speaker: princess
+          text: 我喜欢你！你接得上我的话，也知道该怎么说话。我愿意嫁给你。不过，我们刚才说的和现在说的每个字，都已经被人记下来了，明天还会登在报纸上。你看，每扇窗旁都站着三名记者和一个老编辑。那个老编辑最糟糕，因为什么也不懂！
+        - id: ch04-b12
+          speaker: narrator
+          text: 公主说这些话，只是想戏弄笨汉斯。记者们听了咯咯直笑，每个人都把一滴墨水落在地板上。
+        - id: ch04-b13
+          speaker: blockhead_hans
+          text: 啊，他们就是那些大人物吗？那我可要把最好的一份送给编辑！
+        - id: ch04-b14
+          speaker: narrator
+          text: 笨汉斯把口袋整个翻过来，将里面的烂泥劈面扔到编辑脸上。
+        - id: ch04-b15
+          speaker: princess
+          text: 这一下干得真漂亮！我还做不到，不过很快就能学会！
+        - id: ch04-b16
+          speaker: narrator
+          text: 后来，笨汉斯娶到了公主，当上了国王，也戴上王冠，坐上宝座。这个故事是我们刚从编辑和记者的报纸上抄来的，墨迹到现在还没干呢。不过，他们写的话，一个字也不能信。

@@ -1,0 +1,156 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 温和郑重，带着向读者介绍全书的亲切口吻
+        timbre: 温暖清晰
+        pace: 从容舒展
+        pitch: 中等
+    wealthy_man:
+      display_name: 富有的男人
+      tts:
+        delivery: 执拗自信，恐惧和愤怒逐渐压过理智
+        timbre: 成熟厚实
+        pace: 适中
+        pitch: 中低
+    resident_1:
+      display_name: 当地居民甲
+      tts:
+        delivery: 坦率平常，对本国怪事习以为常
+        timbre: 朴实清晰
+        pace: 适中
+        pitch: 中等
+    resident_2:
+      display_name: 当地居民乙
+      tts:
+        delivery: 坦率平常，回答问题时简洁自然
+        timbre: 温和明亮
+        pace: 适中
+        pitch: 中高
+    wife:
+      display_name: 妻子
+      tts:
+        delivery: 原本温和，听见召唤后急切而不可阻挡
+        timbre: 柔和清亮
+        pace: 适中
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 没有死亡的国度
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个男人一心求财。他日日祈求，白天想，夜里也想，终于如愿成了大富翁。可钱财越多，他舍不得的东西也越多，于是越来越怕死。要是哪天死了，这么多家产岂不是全得留在身后？他越想越害怕，便决定去找一个永远不会死人的地方。
+        - id: ch01-b02
+          speaker: narrator
+          text: 他收拾好行装，辞别妻子，独自上路。每到一个陌生国家，他问的第一件事，总是那里的人会不会死。只要答案是会，他便一刻也不多留，马上继续寻找。走了不知多久，他终于来到一处地方。当地人竟连“死亡”是什么意思都不知道，他听了高兴极了。
+        - id: ch01-b03
+          speaker: wealthy_man
+          text: 这里从来没人死，那人口一定多得数不清吧？
+        - id: ch01-b04
+          speakers: [resident_1, resident_2]
+          ensemble: duo
+          text: 人倒不多。隔些时候，就会有一个声音出现，先叫走这个，又叫走那个。谁听见它叫自己，就会起身离开，再也不回来。
+        - id: ch01-b05
+          speaker: wealthy_man
+          text: 他们能看见是谁在叫吗？还是只听得见声音？
+        - id: ch01-b06
+          speakers: [resident_1, resident_2]
+          ensemble: duo
+          text: 那个人，他们既看得见，也听得见。
+        - id: ch01-b07
+          speaker: narrator
+          text: 男人简直不敢相信。明知道跟着那声音走了就回不来，这些人怎么还肯听它的话？他认定自己绝不会这么愚蠢，便赶回故乡，把全部家产收拾起来，再带上妻子儿女，一起搬到了这个不会死人的国家。至于那片去了便无法回头的地方，他相信自己一家绝不会踏进去。
+        - id: ch01-b08
+          speaker: narrator
+          text: 他早就想好了。无论那个声音叫得多响，只要全家谁都不理会，就能永远留下来。等新家里外都安顿好，他郑重警告妻子儿女，将来若听见有声音叫自己，千万不要跟着走，除非他们当真想死。
+    - id: ch02
+      title: 妻子听见了呼唤
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 一连几年，一家人都过得安稳幸福。一天，大家正围坐在桌边，妻子忽然跳了起来，高声回应那个呼唤她的声音。
+        - id: ch02-b02
+          speaker: wife
+          text: 我来了！我来了！
+        - id: ch02-b03
+          speaker: narrator
+          text: 她转身寻找毛皮外套。丈夫急忙站起来，紧紧攥住她的手，不许她离开。
+        - id: ch02-b04
+          speaker: wealthy_man
+          text: 你忘了我怎么嘱咐你的？不想死，就留在这里！
+        - id: ch02-b05
+          speaker: wife
+          text: 难道你没听见有人叫我吗？我只去看看找我有什么事，很快就回来。
+        - id: ch02-b06
+          speaker: narrator
+          text: 妻子又扭又挣，拼命想从丈夫手中脱身，一心要奔向声音传来的地方。丈夫无论如何也不肯放她，还把屋里每一扇门都关紧，统统上了闩。见他防得这样严，妻子终于不再挣扎了。
+        - id: ch02-b07
+          speaker: wife
+          text: 好吧，亲爱的，我听你的，留在家里。
+        - id: ch02-b08
+          speaker: narrator
+          text: 丈夫信了，以为她已经想明白，不会再受那股疯狂冲动摆布。没想到才过几分钟，她就突然冲向一扇门，开门飞奔出去。丈夫紧追在后，一把揪住她的毛皮外套，苦苦哀求她千万别走，因为这一走，她就一定再也回不来了。
+        - id: ch02-b09
+          speaker: narrator
+          text: 妻子一句话也没说。她把双臂向后一垂，再猛地朝前一倾，整个人便从外套里滑了出去。丈夫手里只剩下那件衣服。他像石头一样呆立着，眼睁睁看她越跑越远。
+        - id: ch02-b10
+          speaker: wife
+          text: 我来了！我来了！
+        - id: ch02-b11
+          speaker: narrator
+          text: 妻子彻底消失以后，丈夫才回过神，独自走回屋里。
+        - id: ch02-b12
+          speaker: wealthy_man
+          text: 她偏要这样糊涂，一心去送死，我又能怎么办？我早就警告过她，也求过她。无论那声音叫得多响，都不能理会啊。
+    - id: ch03
+      title: 理发店里的声音
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 几天过去，几周过去，几个月又变成了几年。这个家再没遇上什么事，安宁的日子仿佛会一直继续下去。后来有一天，男人像往常一样去理发店刮脸。店里挤满了人，理发师才刚把肥皂沫涂满他的下巴，他忽然从椅子上跳起来，冲着空气高声叫喊。
+        - id: ch03-b02
+          speaker: wealthy_man
+          text: 我不去！听见没有？我绝不去！
+          emotion: angry
+        - id: ch03-b03
+          speaker: narrator
+          text: 理发师和客人们都愣住了。男人却只盯着门口，像那里站着一个他们看不见的人。
+        - id: ch03-b04
+          speaker: wealthy_man
+          text: 我最后说一遍，我根本不会跟你走。快离开这里！
+          emotion: angry
+        - id: ch03-b05
+          speaker: narrator
+          text: 没过多久，他又冲着门口喊起来。
+        - id: ch03-b06
+          speaker: wealthy_man
+          text: 我叫你走开！再不走，我就对你不客气。随便你叫多少次，我都不会去！
+          emotion: angry
+        - id: ch03-b07
+          speaker: narrator
+          text: 他越来越愤怒，仿佛门外那人一直缠着他不放。最后，他从理发师手里一把夺过剃刀。
+        - id: ch03-b08
+          speaker: wealthy_man
+          text: 把剃刀给我！我要好好教训他，看他以后还敢不敢纠缠别人！
+          emotion: angry
+        - id: ch03-b09
+          speaker: narrator
+          text: 男人举着剃刀冲出店门，好像正在追赶某个人，可旁人什么也看不见。理发师怕丢了剃刀，连忙追上去。两人一路全速奔跑，很快出了城，又跑出很远。就在这时，男人突然一头栽下悬崖，从此再也没有回来。
+        - id: ch03-b10
+          speaker: narrator
+          text: 他曾经发誓绝不听从呼唤，到头来却和先前那些人一样，还是违背自己的心意，被那声音带走了。
+    - id: ch04
+      title: 消失的深坑
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 理发师保住了性命。他吹着口哨走回家，一路都在庆幸自己逃过一劫。回去以后，他把亲眼看见的事从头到尾讲给众人。消息很快传遍全国。人们这才知道，那些听从声音、离开后再也没回来的人，原来全都掉进了城外的深坑。
+        - id: ch04-b02
+          speaker: narrator
+          text: 在这以前，从来没人知道他们究竟去了哪里。于是，大群百姓涌出城，想看清那个吞掉无数人、却怎么也填不满的不祥深坑。
+        - id: ch04-b03
+          speaker: narrator
+          text: 可他们到了那里，什么也找不到。眼前只有一片无边无际的平原，看上去仿佛世界诞生时便已经在那里。从此以后，这个国家的人也开始死去，和世上所有平凡人一样。

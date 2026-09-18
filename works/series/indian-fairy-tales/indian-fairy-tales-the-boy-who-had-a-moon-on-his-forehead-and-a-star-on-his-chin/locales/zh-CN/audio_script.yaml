@@ -1,0 +1,634 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 郑重而亲切，带着学者讲述旧日故事的从容
+        timbre: 温暖清晰，沉稳而有书卷气
+        pace: 舒缓，论述转折处稍作停顿
+        pitch: 中低
+    gardeners_daughter:
+      display_name: 园丁的女儿
+      tts:
+        delivery: 善良温顺，受苦时哀伤却不失柔韧
+        timbre: 清澈柔和
+        pace: 适中
+        pitch: 中高
+    king:
+      display_name: 国王
+      tts:
+        delivery: 威严直率，动怒时严厉，动情时深沉
+        timbre: 洪亮厚实
+        pace: 适中
+        pitch: 中低
+    queen_1:
+      display_name: 大王后
+      tts:
+        delivery: 表面亲热，暗藏嫉妒与算计
+        timbre: 清晰偏冷
+        pace: 稍缓
+        pitch: 中
+    queen_2:
+      display_name: 二王后
+      tts:
+        delivery: 附和而阴险，慌乱时尖促
+        timbre: 略显干冷
+        pace: 适中
+        pitch: 中高
+    queen_3:
+      display_name: 三王后
+      tts:
+        delivery: 虚假殷勤，言语里带着催逼
+        timbre: 轻细偏冷
+        pace: 稍快
+        pitch: 中高
+    queen_4:
+      display_name: 四王后
+      tts:
+        delivery: 随声附和，狠毒而急切
+        timbre: 尖细清楚
+        pace: 稍快
+        pitch: 高
+    nurse:
+      display_name: 乳母
+      tts:
+        delivery: 谨慎低声，服从中带着畏缩
+        timbre: 低柔朴素
+        pace: 适中
+        pitch: 中
+    shankar:
+      display_name: 香卡尔
+      tts:
+        delivery: 忠诚慈爱，危急时坚定无私
+        timbre: 温厚有力
+        pace: 适中
+        pitch: 中低
+    dog_keeper:
+      display_name: 养狗人
+      tts:
+        delivery: 急于禀报，语气直白
+        timbre: 粗实清楚
+        pace: 稍快
+        pitch: 中
+    suri:
+      display_name: 苏里
+      tts:
+        delivery: 慈爱稳重，护子时坚定
+        timbre: 柔厚安稳
+        pace: 舒缓
+        pitch: 中低
+    cowherd:
+      display_name: 牧牛人
+      tts:
+        delivery: 惊奇急切，禀报时一口气说完
+        timbre: 朴实明亮
+        pace: 稍快
+        pitch: 中
+    qatar:
+      display_name: 卡塔尔
+      tts:
+        delivery: 沉着果断，关爱中带着仙马的威仪
+        timbre: 深厚清朗
+        pace: 适中
+        pitch: 中低
+    prince:
+      display_name: 年轻王子
+      tts:
+        delivery: 少年时单纯不安，长大后从容坚定
+        timbre: 清朗温润
+        pace: 适中
+        pitch: 中
+    grain_merchant:
+      display_name: 粮商
+      tts:
+        delivery: 务实爽快，说话简短利落
+        timbre: 厚实朴素
+        pace: 适中
+        pitch: 中低
+    princess:
+      display_name: 小公主
+      tts:
+        delivery: 好奇坦率，认定心意后勇敢坚定
+        timbre: 明亮柔美
+        pace: 适中
+        pitch: 中高
+    father_king:
+      display_name: 公主的父王
+      tts:
+        delivery: 宽厚守信，面对众人时庄重
+        timbre: 沉稳洪亮
+        pace: 稍缓
+        pitch: 中低
+    suitor_1:
+      display_name: 求婚者甲
+      tts:
+        delivery: 傲慢刻薄，受挫时气急
+        timbre: 清亮偏硬
+        pace: 稍快
+        pitch: 中
+    suitor_2:
+      display_name: 求婚者乙
+      tts:
+        delivery: 自负轻蔑，跟随众人起哄
+        timbre: 偏高而硬
+        pace: 稍快
+        pitch: 中高
+    suitor_3:
+      display_name: 求婚者丙
+      tts:
+        delivery: 盛气凌人，嘲笑时夸张
+        timbre: 厚而发亮
+        pace: 适中
+        pitch: 中低
+    brother_in_law_1:
+      display_name: 大姐夫
+      tts:
+        delivery: 平日自负，落难时恳切窘迫
+        timbre: 清晰厚实
+        pace: 适中
+        pitch: 中
+    brother_in_law_2:
+      display_name: 二姐夫
+      tts:
+        delivery: 随众附和，饥渴时焦急
+        timbre: 略显沙哑
+        pace: 稍快
+        pitch: 中
+    brother_in_law_3:
+      display_name: 三姐夫
+      tts:
+        delivery: 自尊而强撑，求助时低声
+        timbre: 清朗偏低
+        pace: 适中
+        pitch: 中低
+    brother_in_law_4:
+      display_name: 四姐夫
+      tts:
+        delivery: 直率急躁，随众作答
+        timbre: 明亮有力
+        pace: 稍快
+        pitch: 中
+    gatekeeper:
+      display_name: 守门人
+      tts:
+        delivery: 尽职警惕，盘问时干脆
+        timbre: 粗厚清楚
+        pace: 适中
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 铜鼓与石头
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，一户穷人家有七个女儿。她们天天去国王的花园，在大树浓密的阴影下，陪园丁的女儿玩。园丁的女儿总爱说，自己将来会生下一个世上从未有过的漂亮儿子。他额头上有一轮月亮，下巴上有一颗星星。姑娘们每次听见，都拿这话取笑她。
+        - id: ch01-b02
+          speaker: narrator
+          text: 有一天，国王听到了这番话。他已经有四位王后，却一直没有孩子。一想到那个月亮和星星般的男孩，他便去找园丁，提出要娶园丁的女儿。园丁夫妇又惊又喜，马上答应了。双方请来亲友，国王还给了园丁许多钱。婚礼十分热闹，人人都来庆贺。
+        - id: ch01-b03
+          speaker: narrator
+          text: 一年后，园丁的女儿快要生产了。四位王后常来看她，还故意提醒她，国王天天出外打猎，若是她忽然生病，他根本不会知道。
+        - id: ch01-b04
+          speaker: gardeners_daughter
+          text: 你每天都去打猎。要是你不在的时候，我病了，或是碰上急事，要怎样才能叫你回来呢？
+        - id: ch01-b05
+          speaker: narrator
+          text: 国王拿来一面铜鼓，放在门边。
+        - id: ch01-b06
+          speaker: king
+          text: 需要我的时候，你就敲这面鼓。不管我走出多远，一听见鼓声，我立刻回来。
+        - id: ch01-b07
+          speaker: narrator
+          text: 第二天，国王刚去打猎，四位王后又来了。园丁的女儿把铜鼓的事告诉了她们。
+        - id: ch01-b08
+          speakers: [queen_1, queen_2, queen_3, queen_4]
+          ensemble: chorus
+          text: 那就敲一下试试呀，看看国王是不是真的会来！
+        - id: ch01-b09
+          speaker: gardeners_daughter
+          text: 我又没有事，为什么要打断他的狩猎，把他叫回来呢？
+        - id: ch01-b10
+          speakers: [queen_1, queen_2, queen_3, queen_4]
+          ensemble: chorus
+          text: 少打一次猎有什么要紧？你就试一回，让我们看看吧。
+        - id: ch01-b11
+          speaker: narrator
+          text: 她们一遍遍地劝。园丁的女儿只想让她们高兴，终于敲响铜鼓。国王果然马上赶到了。
+        - id: ch01-b12
+          speaker: king
+          text: 你叫我回来做什么？我连猎物都丢下了，专程赶来见你。
+        - id: ch01-b13
+          speaker: gardeners_daughter
+          text: 我没遇上什么事，只想试试，我敲了鼓，你会不会真的回来。
+        - id: ch01-b14
+          speaker: king
+          text: 这次就算了。以后不是真有急事，别再叫我。
+        - id: ch01-b15
+          speaker: narrator
+          text: 国王说完，又去打猎了。可第二天，四位王后再三央求园丁的女儿，要她再试一次。她起先不肯，最后还是敲了鼓。国王回来一看，她既没生病，也没遇到麻烦，立刻勃然大怒。
+        - id: ch01-b16
+          speaker: king
+          text: 你明明不需要我，却害我两次丢下猎物，白白耽误狩猎。从今往后，不管你怎样叫，我都不会来了！
+          emotion: angry
+        - id: ch01-b17
+          speaker: narrator
+          text: 第三天，园丁的女儿真的病倒了。她一次又一次敲鼓，国王明明听见，却认定她还在试探自己，始终没有回来。
+        - id: ch01-b18
+          speakers: [queen_1, queen_2, queen_3, queen_4]
+          ensemble: chorus
+          text: 我们这里有个规矩。孩子出生前，要先蒙住母亲的眼睛，不能让她立刻看见孩子。让我们替你蒙上吧。
+        - id: ch01-b19
+          speaker: gardeners_daughter
+          text: 好吧，那就蒙上吧。
+        - id: ch01-b20
+          speaker: narrator
+          text: 四个女人用手帕遮住她的眼睛。不久，她生下一个漂亮的男孩。孩子额上果然有月，颏下果然有星。母亲还没看他一眼，王后们就把他交给乳母。
+        - id: ch01-b21
+          speakers: [queen_1, queen_2, queen_3, queen_4]
+          ensemble: chorus
+          text: 别让孩子发出一点声音。天黑以后，你要么杀了他，要么把他带到很远的地方，叫他母亲永远找不到。只要照办，我们就给你许多卢比。
+        - id: ch01-b22
+          speaker: narrator
+          text: 她们嫉妒园丁的女儿，才想出这条毒计。乳母把孩子装进箱子。四位王后则在小床上放下一块石头，这才解开母亲眼前的手帕。
+        - id: ch01-b23
+          speakers: [queen_1, queen_2, queen_3, queen_4]
+          ensemble: chorus
+          text: 看吧，这就是你的儿子！
+        - id: ch01-b24
+          speaker: narrator
+          text: 园丁的女儿望着石头，伤心得放声痛哭。她不知道国王见不到孩子会说什么，却一点办法也没有。国王回宫后听信了谎话，以为她没有生下许诺的男孩，反倒生出一块石头。他大发雷霆，把最年轻的妻子贬为宫中仆役，从此不再同她说话。
+    - id: ch02
+      title: 忠诚的守护者
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 到了半夜，乳母抱着箱子，走进丛林里辽阔的荒原。她挖开一个坑，把箱盖扣得紧紧的，再把箱子放进地下。那时，小王子还活着。国王有一条名叫香卡尔的狗。他悄悄跟了乳母一路，亲眼看着她把箱子埋好，又看着她回去向四位王后领取许多卢比。乳母一走远，香卡尔马上奔到坑边。他用力刨开泥土，拖出箱子，掀开箱盖。那个漂亮的小男孩就在里面。
+        - id: ch02-b02
+          speaker: shankar
+          text: 若是真主有意让你活下去，我就不伤你，也不吃你。我要把你整个吞下，藏在肚子里。
+        - id: ch02-b03
+          speaker: narrator
+          text: 香卡尔说完，真的把孩子整个吞进肚里。六个月后的一天夜里，他独自来到丛林，心里惦记着男孩，不知道孩子究竟是死是活。他把孩子从肚里送出来，一看，男孩不但活着，还生得那样漂亮。此时孩子已经六个月大。香卡尔欢喜得不得了，又亲又疼，爱抚了好一阵，才重新把他吞下。男孩在他肚里又住了六个月。期满后，香卡尔再次趁夜来到荒原，把孩子送出来。孩子已经一岁，模样越发不凡。香卡尔百般疼爱，看着他便满心欢喜。
+        - id: ch02-b04
+          speaker: narrator
+          text: 这一次，养狗人躲在后面，把一切都看见了。他赶紧跑去禀报四位王后。
+        - id: ch02-b05
+          speaker: dog_keeper
+          text: 国王的狗肚子里藏着一个孩子！那孩子美得世上少见，额头上有月亮，下巴上有星星！
+          emotion: surprised
+        - id: ch02-b06
+          speaker: narrator
+          text: 王后们吓坏了。国王打猎回来，她们便谎称香卡尔闯进房间，撕坏衣服，撞乱东西，还可能咬死她们。
+        - id: ch02-b07
+          speaker: king
+          text: 别怕，先安心吃饭。明天一早，我就叫人打死那条狗。
+        - id: ch02-b08
+          speaker: narrator
+          text: 国王随即下了命令。香卡尔听见以后，只担心自己一死，孩子也活不成。入夜，他找到母牛苏里。
+        - id: ch02-b09
+          speaker: shankar
+          text: 苏里，国王明早就要杀我。我想把一样东西托付给你。不管我交给你的是什么，你愿意好好照看吗？
+        - id: ch02-b10
+          speaker: suri
+          text: 先让我看看吧。只要我做得到，一定照看好。
+        - id: ch02-b11
+          speaker: narrator
+          text: 他们来到荒原，香卡尔把男孩送出肚子。苏里一见便喜欢上了他。
+        - id: ch02-b12
+          speaker: suri
+          text: 我从没在这个国家见过这样漂亮的孩子。你看，他额上有月，颏下有星。我一定尽心照顾他。
+        - id: ch02-b13
+          speaker: narrator
+          text: 苏里吞下小王子。香卡尔向她连连行礼。
+        - id: ch02-b14
+          speaker: shankar
+          text: 明天，我就要死了。
+          emotion: sad
+        - id: ch02-b15
+          speaker: narrator
+          text: 第二天黎明，香卡尔被人带到丛林里，开枪打死了。孩子从此住在苏里肚里。整整一年过去，他已经两岁。苏里来到荒原，想看看自己从没伤害过的孩子如今是否平安，便把他送了出来。男孩在四周玩耍，苏里看得心花怒放。她疼他，抚摸他，还陪着他说话，过了许久才把他吞回肚里，返回牛栏。又过一年，苏里再次来到荒原。三岁的男孩出来以后，又跑又玩，足足玩了一个钟头。苏里一边同他说话，一边亲昵地抚摸他。孩子长得实在漂亮，叫她满心喜悦。最后，她又把男孩吞下，带回牛栏。
+        - id: ch02-b16
+          speaker: narrator
+          text: 牧牛人却跟踪苏里，看见了这个神奇的孩子。
+        - id: ch02-b17
+          speaker: cowherd
+          text: 国王的母牛肚里有个漂亮男孩！他额头上有月亮，下巴上有星星，世上从没见过这样的孩子！
+          emotion: surprised
+        - id: ch02-b18
+          speaker: narrator
+          text: 四位王后惊恐万分，扯破衣服和头发，放声哭喊。她们又骗国王，说苏里闯来要杀她们，还扯坏了衣服和头发。国王答应第二天杀掉母牛。
+        - id: ch02-b19
+          speaker: narrator
+          text: 苏里听见命令，半夜去找国王的烈马卡塔尔。那匹马凶猛无比，从没人能骑，也没人敢轻易走近。
+        - id: ch02-b20
+          speaker: suri
+          text: 卡塔尔，国王明天就要杀我。我有一样东西想交给你，你愿意替我照看吗？
+        - id: ch02-b21
+          speaker: qatar
+          text: 好，先让我看看是什么。
+        - id: ch02-b22
+          speaker: narrator
+          text: 苏里把孩子送了出来。卡塔尔一见，也十分喜爱。
+        - id: ch02-b23
+          speaker: qatar
+          text: 我会尽心照顾他。从前谁也骑不了我，可这个孩子能骑我。
+        - id: ch02-b24
+          speaker: narrator
+          text: 卡塔尔把男孩吞进肚里。苏里连连向他行礼。
+        - id: ch02-b25
+          speaker: suri
+          text: 我正是为了这个孩子，才要送命的。
+          emotion: sad
+        - id: ch02-b26
+          speaker: narrator
+          text: 第二天早晨，苏里被带到丛林里杀死了。漂亮的男孩从此住在卡塔尔肚里，一住就是一年。四岁时，卡塔尔想知道孩子是否平安，便把他送出来，疼爱地抚摸着他。小王子在马厩里四处玩耍，卡塔尔却始终不许他走出马厩。看着孩子长大，他十分高兴，等男孩玩够了，又把他吞回肚里。再过一年，孩子五岁了。卡塔尔仍像上次那样，让他出来，在马厩中玩耍，疼他，爱他，最后再把他藏回去。可这一回，马夫暗中看见了一切。第二天早晨，国王刚出门打猎，他便跑去见四个狠毒的王后，把自己亲眼所见的经过，还有卡塔尔腹中那个神奇而漂亮的孩子，全都告诉了她们。
+        - id: ch02-b27
+          speaker: narrator
+          text: 王后们故技重施，哭着说卡塔尔闯进房间，撕衣服，掀东西，要杀她们。国王决定让一队塞波伊兵围住马厩，一同开枪。他还宣称，谁放跑卡塔尔，就亲手打死谁。
+        - id: ch02-b28
+          speaker: qatar
+          text: 到旁边的小屋去。那里有鞍辔，也有王子穿的华服，还有宝剑和枪。替我备好鞍，再换上衣服，拿起武器，骑到我背上。
+        - id: ch02-b29
+          speaker: narrator
+          text: 原来卡塔尔是从仙灵之国来的仙马，想要什么都能变出来，只是国王和手下没有一个人知道。男孩走进小屋，果然找到鞍辔、王子的华服、宝剑和枪。他替卡塔尔备好鞍，自己换上衣服，拿起武器，骑到马背上。一切准备妥当，卡塔尔猛地冲破马厩，从国王面前飞驰而过。国王根本来不及开枪，只来得及瞥见马背上坐着一个男孩。塞波伊兵接连射击，可卡塔尔实在跑得太快，所有子弹都落空了。他驮着男孩冲进辽阔的荒原，纵横奔驰。追赶的士兵渐渐散落在原野各处，最后谁也追不上。国王只能作罢回宫，士兵们也各自回家。他原先说要枪毙放跑马的人，如今连他自己都让卡塔尔从眼前逃走，自然没法杀任何士兵。
+    - id: ch03
+      title: 花园里的歌声
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 卡塔尔驮着国王的儿子一直向前跑，跑了很久很久。夜幕降临时，他们才在一棵树下停住。马低头吃草，男孩则找来丛林中的野果充饥。第二天一早，他们又上路了。走过很远的路，终于来到另一个国家的丛林。这里已经不归男孩的父亲统治，而是另一位国王的土地。卡塔尔叫王子跳下马背，卸掉马鞍，摘下辔头，再把华丽衣裳、宝剑和枪包成一捆。男孩一一照办。卡塔尔叫他把包袱藏进草丛，又变出一身穷苦百姓穿的粗陋衣服，让他换上。
+        - id: ch03-b02
+          speaker: qatar
+          text: 换上这些衣服吧。包袱由我看守，我也会一直留在这片荒原。你需要我时，到这里就能找到。现在，你得进城找户人家做工。
+        - id: ch03-b03
+          speaker: prince
+          text: 我什么都不懂。独自留在这个国家，我该怎么办？
+          emotion: sad
+        - id: ch03-b04
+          speaker: qatar
+          text: 别怕，你会找到活儿的。我也会留在这里帮你。走以前，先拧一下我的右耳。
+          emotion: calm
+        - id: ch03-b05
+          speaker: narrator
+          text: 男孩一拧，仙马立刻变成了一头驴。卡塔尔又叫他拧自己的右耳。转眼间，英俊的王子变成一个贫穷、平庸而丑陋的男人，额上的月亮和颏下的星星也都藏了起来。
+        - id: ch03-b06
+          speaker: narrator
+          text: 他往城里走，遇见一位粮商。
+        - id: ch03-b07
+          speaker: grain_merchant
+          text: 你是什么人？
+        - id: ch03-b08
+          speaker: prince
+          text: 我是个穷人，想找一份活儿。
+        - id: ch03-b09
+          speaker: grain_merchant
+          text: 那就来给我做仆人吧。
+        - id: ch03-b10
+          speaker: narrator
+          text: 粮商家就在王宫附近。一天半夜，男孩热得睡不着，便走进国王清凉的花园，唱起动听的歌。最小的公主听见歌声，下楼来找他。
+        - id: ch03-b11
+          speaker: princess
+          text: 你是谁？从哪里来的？
+        - id: ch03-b12
+          speaker: narrator
+          text: 男孩一句也不回答。公主纳闷地走了。第二夜和第三夜，事情仍旧如此。第三夜，她追问他为什么不理人，他还是沉默。
+        - id: ch03-b13
+          speaker: narrator
+          text: 第二天，男孩回荒原探望卡塔尔，把三夜的事说了出来。
+        - id: ch03-b14
+          speaker: qatar
+          text: 下次她再问，你就告诉她，你是个穷人，离开故乡来到这里，只为找活儿做。
+        - id: ch03-b15
+          speaker: narrator
+          text: 第四夜，公主又循着歌声来到花园。
+        - id: ch03-b16
+          speaker: princess
+          text: 你到底是谁？又是从哪里来的？
+        - id: ch03-b17
+          speaker: prince
+          text: 我很穷，离开故乡来到这里找差事。如今，我在粮商家里做仆人。
+        - id: ch03-b18
+          speaker: narrator
+          text: 公主听完便离开了。此后的三个夜晚，男孩仍在大家睡下后走进花园，唱起甜美的歌。小公主每夜都循声而来，仍旧问他是谁，又从哪里来。男孩也始终照卡塔尔教的话回答，说自己是离乡找活儿的穷人，如今在粮商家做仆人。三夜之后，公主终于去见父亲。
+        - id: ch03-b19
+          speaker: princess
+          text: 父王，我想成婚，可丈夫要由我亲自挑选。
+        - id: ch03-b20
+          speaker: narrator
+          text: 父王答应了女儿。他马上写信给全国各地的国王和罗阇，告诉他们，小女儿想要成婚，却坚持亲自挑选丈夫，请他们在指定的日子前来，让公主见过以后自行选择。许多国王、罗阇和他们的儿子都接受邀请，纷纷赶到王宫。人到齐后，父王请他们第二天早晨一同坐进宽广的王家花园，等小公主亲自来看。到了约定的时候，公主换上最美的衣裳，戴好漂亮的珠宝，骑上一头装扮华贵、浑身涂成蓝色的大象，手里拿着一条金项链。国王、罗阇和王子们都坐在花园中。粮商的仆人并非前来求婚，只和其他仆人站在旁边观看。
+        - id: ch03-b21
+          speaker: narrator
+          text: 公主骑着大象绕过所有国王、罗阇和王子，最后却把项链套在粮商仆人的颈上。众人哄然大笑，求婚者们惊怒交加。他们扯下项链，把男孩推开。
+        - id: ch03-b22
+          speakers: [suitor_1, suitor_2, suitor_3]
+          ensemble: chorus
+          text: 这算什么胡闹？滚远些！你又穷又脏，根本不配靠近我们！
+          emotion: angry
+        - id: ch03-b23
+          speaker: narrator
+          text: 男孩走到远处。公主又绕了一周，第二次把金项链套在他颈上。众人仍旧嘲笑她，还要把男孩赶出去。
+        - id: ch03-b24
+          speaker: princess
+          text: 当心！谁也不许赶他，更不许碰他。
+        - id: ch03-b25
+          speaker: narrator
+          text: 公主让男孩坐上大象，带他进了王宫。求婚者们无法理解，她为何放着他们不要，偏偏选中这样一个穷人。
+        - id: ch03-b26
+          speaker: father_king
+          text: 我答应过女儿，不论她中意谁，都可以嫁给那个人。她既然两次选中了他，就让他们成婚吧。
+        - id: ch03-b27
+          speaker: narrator
+          text: 公主和男孩举行了一场盛大华美的婚礼。父母对女儿的选择十分满意，那些国王、罗阇和他们的儿子则各自回了故乡。公主的六个姐姐都嫁给了富有的王子。她们看见妹妹挑中一个外表穷苦丑陋的丈夫，便彼此挖苦，笑她嫁给了一个贫贱的普通人。六个姐夫每天出门打猎，傍晚总能带回许多各式各样的猎物，做成妻子和国王的晚餐。只有小公主的丈夫整天留在宫里，从来不去打猎。小公主看在眼里，心里十分难过。姐姐们的丈夫每天都有收获，她自己的丈夫却一次也不肯去。
+        - id: ch03-b28
+          speaker: princess
+          text: 姐夫们每天出去，都能带回许多猎物。你为什么总留在家里，从来不肯像他们一样打猎呢？
+    - id: ch04
+      title: 月亮与星星重现
+      blocks:
+        - id: ch04-b01
+          speaker: prince
+          text: 我今天出去走走。
+        - id: ch04-b02
+          speaker: princess
+          text: 好啊，带一匹马去吧。
+        - id: ch04-b03
+          speaker: prince
+          text: 不，我走路去。
+        - id: ch04-b04
+          speaker: narrator
+          text: 王子来到荒原。卡塔尔仍是一头驴的模样。他告诉卡塔尔，婚礼上人人都嘲笑公主选错了丈夫，如今六个姐夫天天带回猎物，妻子也因此难过，他很想痛痛快快打一次猎。
+        - id: ch04-b05
+          speaker: qatar
+          text: 那就拧我的左耳吧。
+        - id: ch04-b06
+          speaker: narrator
+          text: 卡塔尔立刻变回骏马。
+        - id: ch04-b07
+          speaker: qatar
+          text: 现在拧你自己的左耳，看看你会变成怎样的年轻王子。
+        - id: ch04-b08
+          speaker: narrator
+          text: 王子一拧耳朵，贫穷、平庸又丑陋的外表便消失了。站在那里的，是一位气派非凡的年轻王子。他额上显出一轮月亮，颏下露出一颗星星。王子换上华服，给卡塔尔备好鞍辔，带着宝剑和枪，骑马出发打猎。他走出很远，射下许多鸟，也猎到许多鹿。那一天，六个姐夫到处寻找，却一只猎物也没有得到，因为猎物全被年轻王子猎走了。他们徒劳地游荡了几乎一整天，最后又饿又渴，找不到水，身边也没有食物。这时，年轻王子已经坐在一棵树下，准备吃饭休息。六个姐夫正好来到这里，看见他身旁有甘美的清水，还有烤熟的肉。
+        - id: ch04-b09
+          speakers: [brother_in_law_1, brother_in_law_2, brother_in_law_3, brother_in_law_4]
+          ensemble: chorus
+          text: 看，那位王子额上有月，颏下有星。我们从没在这里见过他，他一定来自别国。
+        - id: ch04-b10
+          speaker: narrator
+          text: 六个人上前行礼，恳求他分些食物和水。
+        - id: ch04-b11
+          speaker: prince
+          text: 你们是什么人？
+        - id: ch04-b12
+          speakers: [brother_in_law_1, brother_in_law_2, brother_in_law_3, brother_in_law_4]
+          ensemble: chorus
+          text: 我们是这个国家六位大公主的丈夫。打了一整天猎，现在又饿又渴。
+        - id: ch04-b13
+          speaker: prince
+          text: 只要肯照我的吩咐做，我就给你们吃喝。
+        - id: ch04-b14
+          speakers: [brother_in_law_1, brother_in_law_2, brother_in_law_3, brother_in_law_4]
+          ensemble: chorus
+          text: 你说什么，我们都答应。再没有水，我们就要死了。
+        - id: ch04-b15
+          speaker: prince
+          text: 那么，让我在你们每个人背上烙一枚烧红的派斯。答应了，才有食物和水。
+        - id: ch04-b16
+          speaker: narrator
+          text: 六位王子全都同意了。他们心想，派斯留下的印子反正会被衣服遮住，谁也看不见。眼下若再没有水喝，他们却会死在这里。年轻王子取出六枚派斯，放进火里，一直烧得通红。他在六个姐夫的背上各烙一枚，这才拿出上好的食物和清水。六个人终于吃饱喝足，又向他连连行礼，随后回家去了。从头到尾，他们都没有认出，眼前这位额上有月、颏下有星的王子，正是被自己嘲笑过的妹夫。
+        - id: ch04-b17
+          speaker: narrator
+          text: 傍晚，王子骑马回宫。沿途百姓都惊叹他额上的月亮和颏下的星星，却无人认出他。到了宫门，守门人不肯放行。
+        - id: ch04-b18
+          speaker: gatekeeper
+          text: 说实话，你究竟是什么人？
+        - id: ch04-b19
+          speaker: prince
+          text: 我就是小公主的丈夫。你们若不相信，请把她叫来。
+        - id: ch04-b20
+          speaker: narrator
+          text: 公主来到门前，也认定眼前这位英俊王子不是自己的丈夫。
+        - id: ch04-b21
+          speaker: princess
+          text: 你是谁？为什么偏说自己是我的丈夫？我嫁的明明是个贫穷又平常的人。
+        - id: ch04-b22
+          speaker: prince
+          text: 那个穷人正是我。你还记得吗？炎热的夜里，我在花园唱歌。前三夜，你问我是谁，我没有回答。第四夜，我才说自己离乡找活儿，在粮商家做仆人。后来，你亲自挑选丈夫，骑着大象两次把金项链套在我颈上。你看，项链还在这里，还有成婚那天你给我的戒指和手帕。
+        - id: ch04-b23
+          speaker: narrator
+          text: 项链、戒指和手帕都在眼前，过去几个夜晚发生的事也一件不差。公主这才相信，面前这位漂亮的年轻王子，当真就是自己亲手选中的丈夫。得知真相，她欢喜极了。
+        - id: ch04-b24
+          speaker: princess
+          text: 你真叫人想不到！直到今天，你看起来还又穷又丑。如今你却是一位真正的王子，比我见过的任何人都英俊。我知道，你一定是我的丈夫。
+          emotion: happy
+        - id: ch04-b25
+          speaker: narrator
+          text: 公主随即敬拜真主，感谢真主赐给自己这样一位丈夫。她对众人说，自己的丈夫美得无人能比，额头上有一轮月亮，下巴上有一颗星星。随后，她把丈夫领进王宫，请父母和所有人都来看。大家从没见过这样的人，个个欢喜不已。从此，年轻王子仍和妻子住在国王的宫殿里。卡塔尔也离开荒原，住进了国王的马厩。
+        - id: ch04-b26
+          speaker: narrator
+          text: 一天，国王和七个女婿都在挤满人的议事厅里。年轻王子忽然开口。
+        - id: ch04-b27
+          speaker: prince
+          text: 您的议事厅里藏着六个贼。
+        - id: ch04-b28
+          speaker: father_king
+          text: 六个贼？他们在哪里？
+          emotion: surprised
+        - id: ch04-b29
+          speaker: prince
+          text: 就在那里。脱掉那六个人的外衣，看看他们背上是不是都有贼的烙印。
+        - id: ch04-b30
+          speaker: narrator
+          text: 众人脱下六位姐夫的外衣，果然看见派斯留下的烙痕。六个人羞愧万分，年轻王子却十分痛快。他一直记得，自己还显得贫贱时，姐夫们怎样讥笑过他。
+    - id: ch05
+      title: 王子回到故国
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 其实早在王子成婚前，卡塔尔就把他的身世和母亲的遭遇全告诉了他，还答应婚后带他回父亲的国家。王子报复姐夫两个月后，卡塔尔提醒他，是时候回去了，到了那里再教他怎样行事。
+        - id: ch05-b02
+          speaker: prince
+          text: 我想回自己的国家，去见父亲和母亲。
+        - id: ch05-b03
+          speaker: princess
+          text: 好，我去禀告父王母后，请他们准许我们动身。
+        - id: ch05-b04
+          speaker: narrator
+          text: 公主去禀告父母，二人答应让女儿和女婿离开。父王送给他们许多马匹、大象和各式礼物，还派出一大队塞波伊兵，沿途护送。他们带着浩浩荡荡的队伍，向王子的故国进发。两个国家离得不算很远。抵达以后，他们没有直接进宫，而是在那片熟悉的荒原上扎下营帐。多年前，乳母正是在这里丢下装有王子的箱子。香卡尔和苏里也曾一次次来到这里，把孩子送出肚子，看他是否平安。
+        - id: ch05-b05
+          speaker: narrator
+          text: 王子的父亲看见大营，以为强敌来犯，赶紧派人询问。年轻王子写信安慰他。
+        - id: ch05-b06
+          speaker: prince
+          text: 伟大的国王，请不要害怕。我不是来开战的，您可以把我看作自己的儿子。我只是前来游览贵国，拜会您。我想设宴七日，请把举国男女老少、贫富贵贱、各种姓的人，还有孩子、法基尔和塞波伊兵，全都带来。我会款待每一个人。
+        - id: ch05-b07
+          speaker: narrator
+          text: 国王读过信，知道对方不是来开战的，顿时十分高兴。他下令举国上下，不论属于哪一种姓，无论男人、女人、孩子，还是法基尔和塞波伊兵，全都到年轻王子的营地参加盛宴。人们从四面八方赶来，国王自己也带着四位妻子到了。照理说，国内人人都该到齐了。可是，宫里没有一个人想起已经沦为仆役的园丁女儿，也没有人通知她去赴宴。于是，只有她没有来。
+        - id: ch05-b08
+          speaker: prince
+          text: 贵国所有人都来了吗？
+        - id: ch05-b09
+          speaker: king
+          text: 是的，一个也不少。
+        - id: ch05-b10
+          speaker: prince
+          text: 您确定吗？还有一个女人没来。她是园丁的女儿，从前是您的妻子，如今在宫里做仆役。
+        - id: ch05-b11
+          speaker: king
+          text: 不错，我把她忘了。
+        - id: ch05-b12
+          speaker: narrator
+          text: 王子立刻叫仆人抬上最华美的轿子。他们要替园丁的女儿沐浴，换上漂亮衣裳，戴好贵重珠宝，再把她接来。等待时，国王一直端详年轻王子额上的月亮和颏下的星星，猜不出他生在哪个国家。
+        - id: ch05-b13
+          speaker: narrator
+          text: 不久，华美的轿子来到营地。王子亲自走上前，把园丁的女儿扶出轿子，领她进入帐篷，又一次次向她行礼。四位狠毒的王后看在眼里，又惊又怒。她们来到营地时，王子一次也没有向她们行礼，后来更是从没理会她们。如今，他见到园丁的女儿，却像是欢喜得不得了，处处殷勤。众人吃饭时，王子仍一再向她行礼，还把最美味的菜肴全送到她面前。园丁的女儿完全不知道这是为什么。她只在心里猜想，这位额上有月、颏下有星的漂亮王子究竟是谁，又是从哪个国家来的。
+        - id: ch05-b14
+          speaker: narrator
+          text: 宴会过了两三天，人人还在谈论王子的美貌，猜测他的身份。一天，王子问国王有没有孩子。
+        - id: ch05-b15
+          speaker: king
+          text: 我没有孩子。
+        - id: ch05-b16
+          speaker: prince
+          text: 那您知道我是谁吗？我是您的儿子，园丁的女儿就是我的母亲。
+        - id: ch05-b17
+          speaker: king
+          text: 我从来没有过孩子。你怎么可能是我的儿子？
+          emotion: sad
+        - id: ch05-b18
+          speaker: prince
+          text: 我的确是您的儿子。那四位王后说母亲生下一块石头，其实是她们把石头放进小床，还一次次设法杀我。
+        - id: ch05-b19
+          speaker: king
+          text: 我多希望这是真的，可我从没生过孩子，实在没法相信你。
+        - id: ch05-b20
+          speaker: prince
+          text: 您还记得狗香卡尔吗？是您命人杀了他。母牛苏里也被您杀了。四位王后正是为了我，才骗您杀死他们。现在再看看这匹马，您认得他吗？
+        - id: ch05-b21
+          speaker: king
+          text: 这是我的马卡塔尔。
+        - id: ch05-b22
+          speaker: prince
+          text: 正是他。您不记得吗？他曾驮着我冲出马厩，从您眼前飞奔过去。
+        - id: ch05-b23
+          speaker: narrator
+          text: 接着，卡塔尔亲口告诉国王，这位年轻王子的确是他的亲生儿子。他从王子出生说起，讲到四位王后怎样换走孩子，香卡尔和苏里怎样先后舍命保护他，自己又怎样带他逃离马厩，一直把王子一生的遭遇讲到此刻。所有事情都对上了，国王终于明白，眼前这个额上有月、颏下有星的年轻人，真是自己失散多年的儿子。他欢喜得无以复加，紧紧把王子搂进怀里，一遍遍亲吻着他，眼中流下喜悦的泪水。
+        - id: ch05-b24
+          speaker: king
+          text: 现在，你一定要跟我回宫，永远留在我身边。
+        - id: ch05-b25
+          speaker: prince
+          text: 不，我不能去您的宫殿。我来这里只为接走母亲。如今找到了她，我要带她回岳父的宫殿。我娶了国王的女儿，我们一直住在那里。
+        - id: ch05-b26
+          speaker: king
+          text: 可我如今找到了你，不能再放你走。你和妻子必须跟我回去，和你母亲，还有我，一起生活。
+        - id: ch05-b27
+          speaker: prince
+          text: 除非您亲手杀死那四位狠毒的王后，否则我们绝不会留下。只要您肯这样做，我们就和您同住。
+        - id: ch05-b28
+          speaker: narrator
+          text: 国王于是杀死了四位王后。后来，国王和园丁的女儿、王子和公主，一同住进王宫，从此过着幸福的生活。国王感谢真主赐给他这样漂亮的儿子，也感谢真主使他摆脱四位狠毒的妻子。
+        - id: ch05-b29
+          speaker: narrator
+          text: 卡塔尔没有回仙灵之国。他永远留在年轻王子身边，再也没有离开。

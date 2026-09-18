@@ -1,0 +1,378 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 温暖俏皮，语气笃定
+        timbre: 清亮圆润
+        pace: 从容，遇到韵律段落时轻快
+        pitch: 中
+    elephant_child:
+      display_name: 小象
+      tts:
+        delivery: 天真有礼，好奇又执着
+        timbre: 清澈稚嫩
+        pace: 中等，兴奋时略快
+        pitch: 中高
+    kolokolo_bird:
+      display_name: 科洛科洛鸟
+      tts:
+        delivery: 忧郁神秘，回答简短
+        timbre: 轻细悠远
+        pace: 舒缓
+        pitch: 高
+    python:
+      display_name: 双色岩蟒
+      tts:
+        delivery: 一本正经，爱用冗长的大词
+        timbre: 低沉干涩
+        pace: 从容
+        pitch: 低
+    crocodile:
+      display_name: 鳄鱼
+      tts:
+        delivery: 假意亲切，暗藏凶狠
+        timbre: 粗厚浑浊
+        pace: 缓慢
+        pitch: 低
+    father:
+      display_name: 象爸爸
+      tts:
+        delivery: 威严直接
+        timbre: 厚实洪亮
+        pace: 中等
+        pitch: 低
+    mother:
+      display_name: 象妈妈
+      tts:
+        delivery: 严厉利落
+        timbre: 温厚清晰
+        pace: 中等
+        pitch: 中
+    brother_1:
+      display_name: 象哥哥甲
+      tts:
+        delivery: 活泼直率
+        timbre: 明亮有力
+        pace: 略快
+        pitch: 中
+    brother_2:
+      display_name: 象哥哥乙
+      tts:
+        delivery: 活泼直率
+        timbre: 清亮结实
+        pace: 略快
+        pitch: 中高
+    baboon:
+      display_name: 狒狒叔叔
+      tts:
+        delivery: 挑剔而不客气
+        timbre: 粗哑结实
+        pace: 中等
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 没个够的好奇心
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            在那遥远又古老的年代，大象还没有长鼻子，亲爱的宝贝。他们只有一个黑乎乎、鼓囊囊的鼻头，跟靴子差不多大。鼻头能左右扭，却什么也拿不起来。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            那时候，有一头新来的小象，满肚子没个够的好奇心。所谓没个够，就是他总有问不完的问题。他住在非洲，凡是看到、听到、感觉到、闻到、摸到的东西，样样都要问，简直用问题搅遍了整个非洲。
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            他问高个子鸵鸟姑妈，为什么尾羽偏偏长成那样，姑妈便用硬邦邦的爪子揍他。他问高个子长颈鹿叔叔，为什么皮上有斑点，叔叔便用硬邦邦的蹄子踢他。可他的好奇心还是没个够。
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            他问宽墩墩的河马姑妈，为什么眼睛是红的，姑妈就用宽大宽大的蹄子揍他。他又问毛茸茸的狒狒叔叔，为什么甜瓜偏偏是那种味道，叔叔便用毛茸茸的爪子揍他。叔叔姑妈们个个都揍过他，可他还是不停地问，还是满肚子没个够的好奇心。
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            一个晴朗的早晨，恰逢春分点岁差走到半途，小象想出了一个从来没问过的好问题。
+        - id: ch01-b06
+          speaker: elephant_child
+          text: 鳄鱼晚饭吃什么？
+        - id: ch01-b07
+          speakers: [father, mother, brother_1, brother_2]
+          ensemble: chorus
+          text: 嘘！
+          emotion: surprised
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            大家喊得又响亮又可怕，接着立刻揍了他好长一阵，既没耽搁，也没绕弯。等这一顿终于结束，小象看见科洛科洛鸟坐在一丛碰不得的刺树正中央。
+        - id: ch01-b09
+          speaker: elephant_child
+          text: >-
+            爸爸妈妈揍过我，叔叔姑妈们也全因为我这没个够的好奇心揍过我。可我还是想知道，鳄鱼晚饭到底吃什么！
+        - id: ch01-b10
+          speaker: kolokolo_bird
+          text: 到灰蒙蒙、绿油油、滑腻腻的林波波大河去吧。河岸长满退热树，你去了就会知道。
+          emotion: sad
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            第二天早晨，春分点已经什么也没剩下了，因为岁差照着旧例早已差了过去。小象带上一百磅香蕉，那是短短的红香蕉。他又带上一百磅甘蔗，那是长长的紫甘蔗。最后还有十七个甜瓜，全是绿皮开裂的甜瓜。他这才向所有亲爱的家人告别。
+        - id: ch01-b12
+          speaker: elephant_child
+          text: >-
+            再见。我要去灰蒙蒙、绿油油、滑腻腻的林波波大河。河边长满退热树，我要弄清鳄鱼晚饭吃什么。
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            大家又揍了他一顿，算是祝他好运，尽管他很客气地求他们住手。小象就这样上路了。他身上有点发热，却一点也不惊讶，一路吃着绿皮开裂的甜瓜，一路把瓜皮扔得到处都是，因为那只靴子大小的鼻头根本捡不起东西。
+        - id: ch01-b14
+          speaker: narrator
+          text: >-
+            他从格雷厄姆镇走到金伯利，从金伯利走到卡马国，再从卡马国朝东北偏东方向前进，一路都在吃甜瓜。最后，他果真来到灰蒙蒙、绿油油、滑腻腻的林波波大河。岸边长满退热树，跟科洛科洛鸟说的一字不差。
+        - id: ch01-b15
+          speaker: narrator
+          text: >-
+            现在你一定要知道，也一定要明白。直到那个星期、那一天、那一个钟头、那一分钟，小象还从没见过鳄鱼，也不知道鳄鱼长什么样。他竟敢独自跑来找一个完全不认识的家伙，全是那没个够的好奇心领他来的。
+    - id: ch02
+      title: 林波波河岸
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 小象先遇见一条双色岩蟒。岩蟒正盘在一块石头上。
+        - id: ch02-b02
+          speaker: elephant_child
+          text: 对不起，您在这片东一处西一处的地方见过鳄鱼吗？
+        - id: ch02-b03
+          speaker: python
+          text: 我见没见过鳄鱼？你接下来还打算问什么？
+        - id: ch02-b04
+          speaker: elephant_child
+          text: 那您能不能行行好，告诉我鳄鱼晚饭吃什么？
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            岩蟒马上从石头上飞快地松开身子，用那条带鳞片、像连枷的尾巴狠狠揍了小象一下。小象挨完这一下，觉得事情实在古怪。
+        - id: ch02-b06
+          speaker: elephant_child
+          text: >-
+            爸爸妈妈、叔叔姑妈、河马姑妈和狒狒叔叔，全因为我的好奇心揍过我。我想，这一回也是同样的道理。
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            他还是客客气气地向岩蟒告别，还帮对方重新盘回石头上。接着他继续走，身上有点发热，却一点也不惊讶。他一路吃甜瓜，一路扔瓜皮，因为仍旧捡不起来。到了那条长满退热树的大河边，他一脚踩上了一样看着像木头的东西。
+        - id: ch02-b08
+          speaker: narrator
+          text: 可那正是鳄鱼，亲爱的宝贝。鳄鱼先眨一只眼睛，又把另一只也眨了眨，还从泥里抬起半条尾巴。
+        - id: ch02-b09
+          speaker: elephant_child
+          text: 对不起，您碰巧在这一带见过鳄鱼吗？
+        - id: ch02-b10
+          speaker: narrator
+          text: 小象很有礼貌地退了一步，他可不想再挨揍。
+        - id: ch02-b11
+          speaker: crocodile
+          text: 过来，小家伙。你为什么要问这种事？
+        - id: ch02-b12
+          speaker: elephant_child
+          text: >-
+            爸爸妈妈揍过我，高个子鸵鸟姑妈、高个子长颈鹿叔叔、宽墩墩的河马姑妈和毛茸茸的狒狒叔叔也揍过我。长颈鹿叔叔踢人可疼啦。岸上那条双色岩蟒的尾巴带着鳞片，又像连枷，他揍得比谁都疼。所以，要是您不介意，我再也不想挨揍了。
+        - id: ch02-b13
+          speaker: crocodile
+          text: 过来，小家伙。我就是鳄鱼。
+        - id: ch02-b14
+          speaker: narrator
+          text: >-
+            鳄鱼还流下了鳄鱼的眼泪，好证明这话千真万确。小象激动得气都喘不过来。他呼哧呼哧喘着，跪到了河岸边。
+        - id: ch02-b15
+          speaker: elephant_child
+          text: 您正是我找了这么多天的那一位。请告诉我，您晚饭吃什么好吗？
+        - id: ch02-b16
+          speaker: crocodile
+          text: 再靠近一点，小家伙。我悄悄告诉你。
+        - id: ch02-b17
+          speaker: narrator
+          text: >-
+            小象把头低下去，凑近鳄鱼那张带着麝香味、长着尖牙的大嘴。鳄鱼突然一口咬住了他的小鼻头。直到那个星期、那一天、那一个钟头、那一分钟，这鼻头还只有一只靴子那么大，虽然比靴子有用得多。
+        - id: ch02-b18
+          speaker: crocodile
+          text: 我想，今天的晚饭就从小象吃起！
+        - id: ch02-b19
+          speaker: elephant_child
+          text: 放开！你弄疼我啦！
+          emotion: angry
+        - id: ch02-b20
+          speaker: narrator
+          text: 小象被咬住鼻子，说起话来瓮声瓮气。双色岩蟒听见动静，窸窸窣窣地从岸上赶来。
+        - id: ch02-b21
+          speaker: python
+          text: >-
+            年轻的朋友，你若不在此刻、立即、马上使出全力向后拉，依我之见，那位身披大花纹皮外套的相识，会在你来得及说出“杰克·鲁滨孙”以前，把你拖进河里。
+        - id: ch02-b22
+          speaker: narrator
+          text: 双色岩蟒说起话来，向来就是这个样子。
+    - id: ch03
+      title: 一场高强度的牵引
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            小象一屁股坐回两条小后腿上，拉呀，拉呀，拉呀。他的鼻子开始伸长。鳄鱼扑腾着退进水里，大尾巴一下又一下横扫，把河水搅出大片乳白色的水沫。他也拉呀，拉呀，拉呀。
+        - id: ch03-b02
+          speaker: narrator
+          text: >-
+            小象岔开四条小腿，使劲拉呀，拉呀，拉呀，鼻子还是不停地伸长。鳄鱼把尾巴当作船桨，劈里啪啦地猛拍，也拉呀，拉呀，拉呀。每拉一下，小象的鼻子就更长一点，也更疼一点，疼得他简直要命。
+        - id: ch03-b03
+          speaker: elephant_child
+          text: 这下我可受不了啦！
+          emotion: fearful
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            小象脚下直打滑，鼻子已经快有五英尺长。岩蟒赶紧在他的两条后腿上绕了一个双套结。
+        - id: ch03-b05
+          speaker: python
+          text: >-
+            鲁莽而缺乏经验的旅行者，我们现在必须全心投入这场高强度的牵引。否则，依我之见，那艘上层甲板包着装甲、能够自行推进的军舰，将会永久损害你未来的生涯。
+        - id: ch03-b06
+          speaker: narrator
+          text: 亲爱的宝贝，他说的那艘军舰，当然还是鳄鱼。所有双色岩蟒说起话来，都是这个样子。
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            岩蟒使劲拉，小象使劲拉，鳄鱼也使劲拉。可小象和岩蟒合起来，终究拉得更用力。最后，鳄鱼“啵”的一声松开小象的鼻子。那一声可真响，林波波河上游下游到处都听得见。
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            小象猛地一屁股坐下，摔得又重又突然。可他先没忘记向岩蟒说声谢谢，接着才心疼地照料那条被拉坏的鼻子。他用清凉的香蕉叶把鼻子整个包好，再垂进灰蒙蒙、绿油油、滑腻腻的林波波河水里降温。
+        - id: ch03-b09
+          speaker: python
+          text: 你这样做是为什么？
+        - id: ch03-b10
+          speaker: elephant_child
+          text: 我的鼻子变形得太厉害，我在等它缩回去。
+        - id: ch03-b11
+          speaker: python
+          text: 那你可要等很久了。有些家伙就是不知道什么才对自己有好处。
+        - id: ch03-b12
+          speaker: narrator
+          text: >-
+            小象坐在那里等了整整三天，只盼鼻子缩短。可它一点也没短，还害得小象看东西时成了斗鸡眼。亲爱的宝贝，你现在明白了吧，鳄鱼已经把它拉成一条真正的长鼻子，跟今天所有大象的鼻子一模一样。
+        - id: ch03-b13
+          speaker: narrator
+          text: >-
+            第三天快结束时，一只苍蝇叮了小象的肩膀。他还没反应过来，便抬起长鼻子，用鼻尖一下打死了苍蝇。
+        - id: ch03-b14
+          speaker: python
+          text: 好处第一条！光有一个又短又小的鼻头，你可办不到。现在试着吃点东西。
+        - id: ch03-b15
+          speaker: narrator
+          text: 小象还没明白自己在做什么，便用长鼻子拔起一大把草，在两条前腿上仔细拍干净，再塞进自己嘴里。
+        - id: ch03-b16
+          speaker: python
+          text: 好处第二条！短鼻头可办不到。你不觉得这里太阳很热吗？
+        - id: ch03-b17
+          speaker: elephant_child
+          text: 是很热。
+        - id: ch03-b18
+          speaker: narrator
+          text: >-
+            小象还没想明白自己在做什么，就从灰蒙蒙、绿油油、滑腻腻的林波波河岸“咕嘟”吸起一鼻子泥，又“啪嗒”一下扣到头顶。那顶泥帽子又凉快、又稀溜、又黏糊，泥水顺着耳朵后面滴滴答答地流。
+        - id: ch03-b19
+          speaker: python
+          text: 好处第三条！短鼻头也办不到。现在你还愿意再挨揍吗？
+        - id: ch03-b20
+          speaker: elephant_child
+          text: 我一点儿也不愿意。
+        - id: ch03-b21
+          speaker: python
+          text: 那么，你愿意揍别人吗？
+        - id: ch03-b22
+          speaker: elephant_child
+          text: 我非常非常愿意。
+        - id: ch03-b23
+          speaker: python
+          text: 那好。这条新鼻子拿来揍人可好用啦。
+        - id: ch03-b24
+          speaker: elephant_child
+          text: 谢谢，我会记住的。现在该回家找我亲爱的家人试一试了。
+    - id: ch04
+      title: 新鼻子的用处
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            小象穿过非洲，一路蹦蹦跳跳，把长鼻子甩来甩去。想吃水果，他就用长鼻子从树上把果子拽下来，不再像从前那样，非要等它自己落地。想吃草，他就从地上整把拔起来，也不必像从前那样跪下去啃。
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            苍蝇来叮他，他就折下一根树枝当蝇拍。太阳太热，他便给自己做一顶又凉快、又稀溜、又黏糊的泥帽子。独自走在非洲、觉得寂寞时，他就对着长鼻子唱歌，那声音比好几支铜管乐队合起来还响。
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            他还特意绕了远路，找到一头宽墩墩的河马。可别弄错了，那河马跟他并没有一点亲戚关系。小象用新鼻子狠狠揍了她一顿，为的就是亲自确认，双色岩蟒说这条鼻子拿来揍人很好用，究竟是不是真的。
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            剩下的时间，他把去林波波河一路扔掉的瓜皮都捡了起来。如今他可是一头爱整洁的厚皮兽。
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            一个漆黑的傍晚，小象回到亲爱的家人身边。他盘起长鼻子，向大家问好。家人们见到他十分高兴，马上叫他过去。
+        - id: ch04-b06
+          speakers: [father, mother, brother_1, brother_2]
+          ensemble: chorus
+          text: 过来，让我们为你那没个够的好奇心揍你一顿。
+        - id: ch04-b07
+          speaker: elephant_child
+          text: 呸！我看你们根本不懂怎么揍人。我倒懂，让我做给你们看。
+        - id: ch04-b08
+          speaker: narrator
+          text: 小象松开长鼻子，一下把两个亲爱的兄弟打得倒栽葱翻了过去。
+        - id: ch04-b09
+          speakers: [brother_1, brother_2]
+          ensemble: duo
+          text: 香蕉在上！你从哪儿学来这招？你的鼻子又怎么了？
+          emotion: surprised
+        - id: ch04-b10
+          speaker: elephant_child
+          text: >-
+            这是鳄鱼在灰蒙蒙、绿油油、滑腻腻的林波波大河岸边送我的。我问他晚饭吃什么，他就把这条鼻子送给我留着了。
+        - id: ch04-b11
+          speaker: baboon
+          text: 样子真难看。
+        - id: ch04-b12
+          speaker: elephant_child
+          text: 是很难看，可它非常有用。
+        - id: ch04-b13
+          speaker: narrator
+          text: >-
+            小象卷住狒狒叔叔一条毛茸茸的腿，把他整个提起来，再远远扔进一个马蜂窝。接着，这头坏小象把所有亲爱的家人揍了好长时间，揍得他们个个浑身发热，又都大吃一惊。
+        - id: ch04-b14
+          speaker: narrator
+          text: >-
+            他拔掉高个子鸵鸟姑妈的尾羽，抓住高个子长颈鹿叔叔的后腿，把叔叔一路拖过刺树丛。他冲宽墩墩的河马姑妈大喊大叫，还趁她吃过饭、睡在水里的时候，往她耳朵里吹泡泡。不过，他从来不许任何人碰科洛科洛鸟一下。
+        - id: ch04-b15
+          speaker: narrator
+          text: >-
+            最后，事情实在闹得太热闹了。亲爱的家人们一个接一个匆匆赶到灰蒙蒙、绿油油、滑腻腻的林波波大河。岸边长满退热树，他们也去向鳄鱼借新鼻子。等他们回来，谁也不再揍谁。
+        - id: ch04-b16
+          speaker: narrator
+          text: >-
+            从那天起，亲爱的宝贝，凡是你这一辈子能够见到的大象，还有所有那些你永远也见不到的大象，全都长着长鼻子。每一条都跟那头好奇心没个够的小象从鳄鱼那里得来的鼻子一模一样。
+    - id: ch05
+      title: 六名忠实的仆人
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            我有六名忠实的仆人，是他们教会了我一切。名字叫何事、何处和何时，还有如何、为何、是谁。我派他们远渡陆地海洋，也派他们向东又向西。等他们替我干完活，我就让他们好好休息。
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            早九点到晚五点，我让他们全都歇着，因为那时我自己忙个不停。早餐、午餐和下午茶时也得让他们休息，因为这六名仆人全都饿得不轻。可不同的人有不同主意。我认识一个小小的人，她足足养着一千万名仆人，却从来不让他们歇一歇神。
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            她一睁开眼，就派他们为自己的事情四处奔忙。一百万个如何，两百万个何处，再加上七百万个为什么！

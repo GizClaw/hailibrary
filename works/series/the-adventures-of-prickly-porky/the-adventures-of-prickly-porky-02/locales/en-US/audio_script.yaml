@@ -1,0 +1,129 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and gently playful storytelling
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    grandfather_frog:
+      display_name: Grandfather Frog
+      tts:
+        delivery: wise, knowing, and a little pompous
+        timbre: deep and resonant
+        pace: unhurried
+        pitch: low
+    breeze_1:
+      display_name: First Merry Little Breeze
+      tts:
+        delivery: eager, polite, and full of curiosity
+        timbre: light and airy
+        pace: quick
+        pitch: high
+    breeze_2:
+      display_name: Second Merry Little Breeze
+      tts:
+        delivery: bright, excited, and playful
+        timbre: soft and breezy
+        pace: quick
+        pitch: high
+    breeze_3:
+      display_name: Third Merry Little Breeze
+      tts:
+        delivery: cheerful, lively, and attentive
+        timbre: clear and airy
+        pace: quick
+        pitch: medium-high
+    breeze_4:
+      display_name: Fourth Merry Little Breeze
+      tts:
+        delivery: animated, friendly, and curious
+        timbre: light and clear
+        pace: brisk
+        pitch: medium-high
+    stranger:
+      display_name: Stranger from the North
+      tts:
+        delivery: gruff, brief, and matter-of-fact
+        timbre: rough and sturdy
+        pace: slow
+        pitch: low
+  chapters:
+    - id: ch01
+      title: THE STRANGER FROM THE NORTH
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: The Merry Little Breezes of Old Mother West Wind were excited. Yes, Sir, they were certainly excited! They had met Happy Jack Squirrel and Peter Rabbit, and now they were bursting with news. Happy Jack and Peter had found some very queer things over in the Green Forest.
+        - id: ch01-b02
+          speaker: narrator
+          text: The Breezes hurried back and forth across the Green Meadows, telling everyone they met. At last they came to the Smiling Pool and eagerly told Grandfather Frog the whole story.
+        - id: ch01-b03
+          speaker: narrator
+          text: Grandfather Frog smoothed his white and yellow waistcoat. Then he put on a very wise look. You see, Grandfather Frog is very old.
+        - id: ch01-b04
+          speaker: grandfather_frog
+          text: Pooh! I know what those things are.
+        - id: ch01-b05
+          speakers: [breeze_1, breeze_2, breeze_3, breeze_4]
+          ensemble: chorus
+          text: What are they? Happy Jack is sure they don't grow. There aren't any strange plants over there!
+          emotion: surprised
+        - id: ch01-b06
+          speaker: narrator
+          text: Grandfather Frog opened his big mouth and snapped up a foolish green fly. One of the Merry Little Breezes had blown it right over to him.
+        - id: ch01-b07
+          speaker: grandfather_frog
+          text: Chug-a-rum! A thing doesn't have to be on a plant to grow. I'm sure those sharp things grew, but they didn't grow on any plant.
+        - id: ch01-b08
+          speaker: narrator
+          text: The Merry Little Breezes looked puzzled.
+        - id: ch01-b09
+          speaker: breeze_1
+          text: But what can grow without growing on a plant?
+        - id: ch01-b10
+          speaker: grandfather_frog
+          text: What about the claws on Peter Rabbit's toes? What about the hair on Happy Jack's tail?
+        - id: ch01-b11
+          speaker: narrator
+          text: The Merry Little Breezes looked foolish. Of course claws and hair could grow without growing on a plant.
+        - id: ch01-b12
+          speakers: [breeze_1, breeze_2, breeze_3, breeze_4]
+          ensemble: chorus
+          text: We never thought of that! But those queer, prickly things can't be claws, and they certainly aren't hair.
+        - id: ch01-b13
+          speaker: grandfather_frog
+          text: Don't be so sure. Go back to the Green Forest. This time, look up in the treetops instead of down at the ground. Then come and tell me what you find.
+        - id: ch01-b14
+          speaker: narrator
+          text: Away raced the Merry Little Breezes. They reached the Green Forest and began searching among the treetops.
+        - id: ch01-b15
+          speaker: narrator
+          text: Before long, they found a stranger high in the top of a big poplar tree. He was larger than any of the little meadow people. With his long, sharp teeth, he was stripping bark from the tree. His coat had long hair, and a thousand little spears peeked out through it. They looked just like the queer things Happy Jack and Peter Rabbit had found.
+        - id: ch01-b16
+          speakers: [breeze_1, breeze_2, breeze_3, breeze_4]
+          ensemble: chorus
+          text: Good morning!
+        - id: ch01-b17
+          speaker: narrator
+          text: The Merry Little Breezes spoke politely.
+        - id: ch01-b18
+          speaker: stranger
+          text: Mornin'.
+        - id: ch01-b19
+          speaker: narrator
+          text: The stranger grunted from the treetop.
+        - id: ch01-b20
+          speaker: breeze_1
+          text: May we ask where you came from?
+        - id: ch01-b21
+          speaker: narrator
+          text: The little Breeze was careful to be polite.
+        - id: ch01-b22
+          speaker: stranger
+          text: I came from the North Woods.
+        - id: ch01-b23
+          speaker: narrator
+          text: Then the stranger went right back to his business. He seemed to be stripping every bit of bark from that tree and eating it.

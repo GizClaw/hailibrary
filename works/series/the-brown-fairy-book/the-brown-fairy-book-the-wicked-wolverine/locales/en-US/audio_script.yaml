@@ -1,0 +1,268 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, grave, and attentive to wonder
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    wolverine:
+      display_name: Wolverine
+      tts:
+        delivery: boastful, sharp, and quick to complain
+        timbre: wiry and rough
+        pace: brisk
+        pitch: medium
+    rock:
+      display_name: Rock
+      tts:
+        delivery: dry, stubborn, and matter-of-fact
+        timbre: deep and stony
+        pace: slow
+        pitch: low
+    wolf:
+      display_name: Wolf
+      tts:
+        delivery: direct and disapproving
+        timbre: full and rugged
+        pace: measured
+        pitch: medium-low
+    fox:
+      display_name: Fox
+      tts:
+        delivery: keen, curious, and unsparing
+        timbre: clear and lean
+        pace: measured
+        pitch: medium
+    frog:
+      display_name: Frog
+      tts:
+        delivery: obliging, gentle, and good-natured
+        timbre: soft and rounded
+        pace: unhurried
+        pitch: medium-high
+    mouse:
+      display_name: Mouse
+      tts:
+        delivery: patient, practical, and quietly capable
+        timbre: small and clear
+        pace: measured
+        pitch: high
+    bear:
+      display_name: Bear
+      tts:
+        delivery: slow, trusting, and weary
+        timbre: broad and mellow
+        pace: unhurried
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Challenge on the Mountain
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: One day, a wolverine was walking along a hillside. He turned a corner and suddenly found a large rock in his path.
+        - id: ch01-b02
+          speaker: wolverine
+          text: Was that you I heard walking around just now?
+        - id: ch01-b03
+          speaker: narrator
+          text: Wolverines are cautious creatures. They always want to know why things happen.
+        - id: ch01-b04
+          speaker: rock
+          text: Certainly not. I don't know how to walk.
+        - id: ch01-b05
+          speaker: wolverine
+          text: But I saw you walking!
+        - id: ch01-b06
+          speaker: rock
+          text: Then I'm afraid no one taught you to tell the truth.
+        - id: ch01-b07
+          speaker: wolverine
+          text: Don't speak to me like that. I have seen you walk, though I'm quite sure you could never catch me!
+        - id: ch01-b08
+          speaker: narrator
+          text: The wolverine ran a little way, then stopped to see whether the rock was chasing him. To his annoyance, it had not moved at all. He went back, struck it with one paw, and challenged it again.
+        - id: ch01-b09
+          speaker: wolverine
+          text: Well? Will you catch me now?
+        - id: ch01-b10
+          speaker: rock
+          text: I can't walk, but I can roll.
+        - id: ch01-b11
+          speaker: wolverine
+          text: Oh, that will do just as well!
+        - id: ch01-b12
+          speaker: narrator
+          text: He laughed and started down the mountainside. At first he ran quite slowly. He told himself that he was only giving the rock a chance. But when he looked again, it was almost at his heels, so he quickened his pace. The faster the wolverine ran, the faster the rock rolled after him.
+        - id: ch01-b13
+          speaker: narrator
+          text: Before long, the little creature was growing very tired. He was sorry now that he had not left the rock alone. The forest of great trees stood at the bottom of the mountain, and the rock could not enter it. If he could manage one last burst of speed, he thought he might reach those trees. He gathered every bit of strength he had. Instead of merely running, he leaped over the sticks and stones in his path. Whatever he did, the rock remained close behind.
+        - id: ch01-b14
+          speaker: narrator
+          text: At last he was so weary that he could hardly see his way. His foot caught in a branch, and down he fell. The rock stopped at once, right on top of his legs. The wolverine gave a shriek.
+        - id: ch01-b15
+          speaker: wolverine
+          text: Get off! Get off! Can't you see you're on my legs?
+          emotion: fearful
+        - id: ch01-b16
+          speaker: rock
+          text: Why didn't you leave me alone? I never wanted to move. I hate moving. But you insisted, and now I won't move until someone forces me.
+    - id: ch02
+      title: Help from the Storm
+      blocks:
+        - id: ch02-b01
+          speaker: wolverine
+          text: I'll call my brothers. There are plenty of them in the forest, and you'll soon learn they're stronger than you.
+        - id: ch02-b02
+          speaker: narrator
+          text: He called and called and called. Wolves, foxes, and creatures of every kind came running out of the forest to find what was wrong. They formed a ring around the trapped wolverine and asked him how he had ended up beneath the rock. He made them repeat the question several times before he would answer.
+        - id: ch02-b03
+          speakers: [wolf, fox]
+          ensemble: duo
+          text: How did you get trapped under that rock?
+        - id: ch02-b04
+          speaker: narrator
+          text: The wolverine would not answer at first. Like many people, he found it hard to admit that he had caused his own trouble. At last he spoke in a sulky voice.
+        - id: ch02-b05
+          speaker: wolverine
+          text: I was bored and wanted someone to play with, so I dared the rock to catch me. Of course I thought I was faster. Then I tripped, and it rolled onto me. It was only an accident.
+        - id: ch02-b06
+          speakers: [wolf, fox]
+          ensemble: duo
+          text: That's what comes of being so foolish.
+        - id: ch02-b07
+          speaker: narrator
+          text: Still, the animals tried to help him. They pushed against the rock and hauled at it for a long time, using all their strength. It did not move a single inch. The wolverine's legs hurt terribly beneath its weight, and instead of thanking the others for trying, he snapped at them.
+        - id: ch02-b08
+          speaker: wolverine
+          text: You're no use at all! If you can't free me, I'll see what my friends Thunder and Lightning can do.
+          emotion: angry
+        - id: ch02-b09
+          speaker: narrator
+          text: He shouted for Lightning to come quickly. Within minutes, a dark cloud rolled across the sky. Thunder crashed so terribly that the wolves, foxes, and all the other creatures fled in every direction. Though they were frightened, they remembered the trapped wolverine.
+        - id: ch02-b10
+          speakers: [wolf, fox]
+          ensemble: duo
+          text: Please take off his coat and free his legs, but be careful not to hurt him!
+          emotion: fearful
+        - id: ch02-b11
+          speaker: narrator
+          text: Lightning vanished into the cloud for a moment to gather fresh strength. Then it came rushing down and struck the rock directly. Pieces of rock flew in every direction. The same flash stripped the wolverine's coat from him so neatly that, although the coat itself was torn into tiny shreds, the wolverine was left completely unharmed.
+        - id: ch02-b12
+          speaker: wolverine
+          text: That was rather clumsy. Surely you could have broken the rock without tearing my coat to pieces!
+        - id: ch02-b13
+          speaker: narrator
+          text: He stood up with no coat on and bent to collect every scrap. There were so many pieces that the work took a long time. When he finally held them all, he decided to visit his sister Frog. She could sew them back together. He set off at once for her swamp.
+    - id: ch03
+      title: A Coat Sewn Twice
+      blocks:
+        - id: ch03-b01
+          speaker: wolverine
+          text: Will you sew my coat together? I had an unlucky accident, and I can't possibly wear it like this.
+        - id: ch03-b02
+          speaker: frog
+          text: I'd be glad to.
+        - id: ch03-b03
+          speaker: narrator
+          text: Frog had always been taught to be polite. She fetched her needle and thread, spread out the many scraps, and began fitting them together. She was very good-natured, but she was not a clever seamstress. Some of the pieces went back in the wrong places. The wolverine cared greatly about how his clothes looked. As soon as he tried on the badly shaped coat, he flew into a rage.
+        - id: ch03-b04
+          speaker: wolverine
+          text: You're completely useless! Do you expect me to walk around in a coat like this? The whole back sticks out as if I had a hump, and the chest is so tight it may burst whenever I breathe. I knew you were foolish, but I never knew you were this foolish!
+          emotion: angry
+        - id: ch03-b05
+          speaker: narrator
+          text: He struck poor Frog on the head and knocked her straight into the water. Then he stormed away to see his younger sister Mouse.
+        - id: ch03-b06
+          speaker: narrator
+          text: Mouse was sitting outside her house, eating an apple, when he found her.
+        - id: ch03-b07
+          speaker: wolverine
+          text: I tore my coat this morning and took all the pieces to Frog. Just look at what she did! Take it apart and put it together properly. I hope I won't have to complain again.
+        - id: ch03-b08
+          speaker: narrator
+          text: Wolverine was older than Mouse, so this was how he usually spoke to her. She was accustomed to it and gave him a practical answer.
+        - id: ch03-b09
+          speaker: mouse
+          text: You'd better wait here until I finish. Then, if anything needs changing, I can fix it.
+        - id: ch03-b10
+          speaker: narrator
+          text: The wolverine settled onto a heap of dry ferns. He picked up Mouse's apple and finished it without asking her permission. At last the coat was ready, and he put it on.
+        - id: ch03-b11
+          speaker: wolverine
+          text: Yes, this fits very well, and your sewing is neat. Next time I pass this way, I'll bring you a handful of corn as a reward.
+        - id: ch03-b12
+          speaker: narrator
+          text: He ran off as briskly as ever, leaving Mouse behind, feeling quite grateful.
+    - id: ch04
+      title: The Bear in the Tree
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The wolverine wandered from place to place for many days. At last he reached a country where food was very scarce. A whole week passed without his finding anything to eat. Hunger was making him desperate when he suddenly came upon a bear lying fast asleep.
+        - id: ch04-b02
+          speaker: wolverine
+          text: Ah, food at last!
+        - id: ch04-b03
+          speaker: narrator
+          text: But the bear was far bigger than the wolverine. Trying to kill her by force would be no use at all. He would have to invent a cunning plan that put her in his power before she understood the danger. He thought and thought. At last an idea came to him, and he walked up to the sleeping bear.
+        - id: ch04-b04
+          speaker: wolverine
+          text: Is that you, my sister?
+        - id: ch04-b05
+          speaker: narrator
+          text: The bear turned and saw him. So quietly that no one could hear, she wondered why she had never known she had a brother. Then she got up, hurried to a tree, and climbed it.
+        - id: ch04-b06
+          speaker: narrator
+          text: The wolverine grew furious as he watched his dinner escaping. He could not climb trees as the bear could. He followed her and stood below, shouting as loudly as he could.
+        - id: ch04-b07
+          speaker: wolverine
+          text: Come down, sister! Our father sent me to find you. You got lost when you were a little girl out picking berries. Only the other day, a beaver told us where you were.
+        - id: ch04-b08
+          speaker: narrator
+          text: The bear came partway down. When the wolverine saw that she was listening, he continued.
+        - id: ch04-b09
+          speaker: wolverine
+          text: Don't you love berries? I do. I know a place where they grow so thickly that you can't see the ground. Look over there. That hillside is red with them!
+        - id: ch04-b10
+          speaker: bear
+          text: I can't see that far. Your eyes must be wonderful! I wish mine were, but I can only see things close by.
+        - id: ch04-b11
+          speaker: narrator
+          text: By now, the bear had climbed all the way down.
+        - id: ch04-b12
+          speaker: wolverine
+          text: My sight used to be just as bad. Then my father crushed a whole pail of cranberries and rubbed them into my eyes. Gather some berries, and I'll do the same for you. Soon you'll see as far as I can.
+    - id: ch05
+      title: The Cranberry Trick
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Gathering all those berries took the bear a long time. She was slow about everything, and each time she bent to pick more, her back began to ache. Still she kept gathering until the sack was full. At last she carried it back and set it on the ground beside the waiting wolverine.
+        - id: ch05-b02
+          speaker: wolverine
+          text: Splendid, sister! Now lie flat with your head on this stone while I crush them.
+        - id: ch05-b03
+          speaker: narrator
+          text: The bear was very tired, so she was glad to obey. She stretched out comfortably on the grass. After a little while, the wolverine announced that he was ready.
+        - id: ch05-b04
+          speaker: wolverine
+          text: The berries will sting your eyes at first. Be careful not to move, or the juice will spill out and we'll have to start all over again.
+        - id: ch05-b05
+          speaker: narrator
+          text: The bear promised to keep perfectly still. But the instant the cranberries touched her eyes, she leaped up with a roar.
+        - id: ch05-b06
+          speaker: wolverine
+          text: Never mind a little pain. It will soon pass, and then you'll see things you never even dreamed of.
+        - id: ch05-b07
+          speaker: narrator
+          text: The bear lay down again with a groan. Cranberry juice filled her eyes and blinded her completely. The wolverine picked up a sharp knife and stabbed her through the heart.
+        - id: ch05-b08
+          speaker: narrator
+          text: Then the wolverine took off the bear's skin. His sharp eyes had noticed a tent hidden behind a rock nearby, so he went to it and stole some fire. He returned and began roasting the bear, one piece at a time. To the hungry wolverine, that meat tasted better than anything he had eaten before. When his dinner was finished, he decided that if he ever became hungry again, he would try the very same trick.
+        - id: ch05-b09
+          speaker: narrator
+          text: And very likely he did!

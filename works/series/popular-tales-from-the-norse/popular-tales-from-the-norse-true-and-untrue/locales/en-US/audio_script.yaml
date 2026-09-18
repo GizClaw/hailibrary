@@ -1,0 +1,287 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    "true":
+      display_name: "True"
+      tts:
+        delivery: honest and quietly resolute
+        timbre: clear and youthful
+        pace: moderate
+        pitch: medium
+    untrue:
+      display_name: Untrue
+      tts:
+        delivery: sly and sharp-edged
+        timbre: lean and rough
+        pace: quick
+        pitch: medium
+    bruin:
+      display_name: Bruin
+      tts:
+        delivery: commanding and ponderous
+        timbre: deep and rumbling
+        pace: slow
+        pitch: low
+    greylegs:
+      display_name: Greylegs
+      tts:
+        delivery: grave and matter-of-fact
+        timbre: dark and wiry
+        pace: measured
+        pitch: low
+    slyboots:
+      display_name: Slyboots
+      tts:
+        delivery: clever and lightly amused
+        timbre: smooth and bright
+        pace: lively
+        pitch: medium-high
+    longears:
+      display_name: Longears
+      tts:
+        delivery: timid but eager
+        timbre: light and soft
+        pace: moderate
+        pitch: high
+    king:
+      display_name: King of England
+      tts:
+        delivery: stately and expressive
+        timbre: full and mature
+        pace: measured
+        pitch: medium-low
+    kings_man_1:
+      display_name: King's Man One
+      tts:
+        delivery: alert and urgent
+        timbre: clear and sturdy
+        pace: quick
+        pitch: medium
+    kings_man_2:
+      display_name: King's Man Two
+      tts:
+        delivery: alert and urgent
+        timbre: bright and sturdy
+        pace: quick
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: True and Untrue
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Once there were two brothers. One was called True, and the other was called Untrue. True was honest and good to everyone. Untrue was wicked and told so many lies that no one believed a word he said. Their mother was a widow with very little to live on. When the brothers grew up, she had to send them out into the world to earn their own bread. She gave each of them a small bag with a little food inside, and off they went.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            They walked all day. By evening they were hungry, so they sat on a fallen tree in the woods and took out their food. After such a long journey, even a small bite would taste good.
+        - id: ch01-b03
+          speaker: untrue
+          text: >-
+            Here's what we should do. We'll eat your food first, as long as any of it is left. Then we can start on mine.
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            True gladly agreed. But as they ate, Untrue grabbed all the best pieces and stuffed himself. He left True nothing but burnt crusts and scraps.
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            The next morning they ate True's food for breakfast, and at midday they ate the rest for dinner. His bag was empty. Late that night, after many more hours of walking, True was hungry again and asked to share his brother's food. Untrue refused. The food belonged to him, he said, and there was only enough for one.
+        - id: ch01-b06
+          speaker: "true"
+          text: >-
+            But you ate from my bag until every bit was gone. You know you did.
+        - id: ch01-b07
+          speaker: untrue
+          text: >-
+            That's all very well. If you're foolish enough to sit there while someone eats your food, you'll have to live with it. Now you can stay here and starve.
+        - id: ch01-b08
+          speaker: "true"
+          text: >-
+            So be it. You are Untrue in name and untrue by nature. That's what you've always been, and that's what you'll be all your life.
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            Untrue flew into a rage. He rushed at his brother and tore out both his eyes.
+        - id: ch01-b10
+          speaker: untrue
+          text: >-
+            Now see if you can tell whether people are true or false, you blind fool!
+          emotion: angry
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            Then Untrue ran away and left him there.
+        - id: ch01-b12
+          speaker: narrator
+          text: >-
+            Poor True stumbled through the thick woods, feeling for every step and every turn. He was blind and alone, and hardly knew which way to go. At last his hands found the trunk of a great, leafy lime tree. He decided to climb into its branches and sit there until the night was over, where the wild beasts could not reach him.
+        - id: ch01-b13
+          speaker: "true"
+          text: >-
+            When I hear the birds singing, I'll know morning has come. Then I'll try to feel my way onward.
+        - id: ch01-b14
+          speaker: narrator
+          text: >-
+            True climbed the lime tree and settled among its branches. Before long, someone arrived below with a great deal of noise and clatter. Then more visitors came. As they greeted each other, True worked out who they were. Bruin the bear, Greylegs the wolf, Slyboots the fox, and Longears the hare had all come to celebrate Saint John's Eve beneath the tree. The four animals ate, drank, and made merry. When they had eaten their fill, they sat together and began to gossip.
+        - id: ch01-b15
+          speaker: slyboots
+          text: >-
+            While we're all sitting here, why don't we each tell a little story?
+        - id: ch01-b16
+          speakers: [bruin, greylegs, longears]
+          ensemble: chorus
+          text: >-
+            Yes, let's do that. It will be fine fun.
+        - id: ch01-b17
+          speaker: narrator
+          text: >-
+            Bruin began, for the bear was king of their company.
+        - id: ch01-b18
+          speaker: bruin
+          text: >-
+            The king of England can barely see a yard in front of him. But if he came to this lime tree early in the morning, while dew still lay on the leaves, and rubbed that dew over his eyes, his sight would be as good as ever.
+        - id: ch01-b19
+          speaker: greylegs
+          text: >-
+            That's quite true. The king of England also has a daughter who can neither hear nor speak. I know how to cure her. Last year, when she took communion, a crumb of bread fell from her mouth. A great toad swallowed it. Dig beneath the chancel floor, right under the altar rails, and you'll find that toad with the bread still caught in its throat. Cut the toad open and give the bread back to the princess. Then she'll hear and speak like anyone else.
+        - id: ch01-b20
+          speaker: slyboots
+          text: >-
+            That's useful enough. But I know how the king could get good water at his palace. Beneath the great stone in the palace yard lies the clearest spring anyone could wish for. He only needs to dig there.
+        - id: ch01-b21
+          speaker: longears
+          text: >-
+            The king of England has the finest orchard in the land, but it won't grow even one crab apple. A heavy gold chain lies wrapped three times around it. If the king had that chain dug up, no garden in his kingdom would bear more fruit.
+        - id: ch01-b22
+          speaker: slyboots
+          text: >-
+            That may well be true, but it's very late now. We should go home.
+        - id: ch01-b23
+          speaker: narrator
+          text: >-
+            The animals all left together.
+        - id: ch01-b24
+          speaker: narrator
+          text: >-
+            After the animals had gone, True fell asleep where he sat in the tree. At dawn the birds began to sing, and their song woke him. Remembering what Bruin had said, he gathered the morning dew from the leaves and rubbed it over his eyes. His sight returned as good as it had been before Untrue blinded him.
+        - id: ch01-b25
+          speaker: narrator
+          text: >-
+            True went straight to the king of England's palace and asked for work. He was hired on the spot. One hot day, the king walked for a while in the palace yard and became very thirsty. He asked for a drink from his pump. But when his servants poured a glass, the water was muddy, nasty, and foul. The king was deeply annoyed.
+        - id: ch01-b26
+          speaker: king
+          text: >-
+            There can't be another man in my whole kingdom with water as bad as mine. And I have it piped here from far away, over hills and valleys!
+        - id: ch01-b27
+          speaker: "true"
+          text: >-
+            Perhaps so, Your Majesty. But give me men to move that great stone in the middle of the yard and dig beneath it. You'll soon have plenty of good water.
+        - id: ch01-b28
+          speaker: narrator
+          text: >-
+            The king was willing. The men had barely pulled the great stone free and dug beneath it when a jet of water shot high into the air. It flowed as clear and full as water from a fountain, and no clearer water could be found anywhere in England.
+        - id: ch01-b29
+          speaker: narrator
+          text: >-
+            Not long afterward, the king was in the palace yard again. A great hawk swooped after one of his chickens, and the king's men clapped their hands and shouted.
+        - id: ch01-b30
+          speakers: [kings_man_1, kings_man_2]
+          ensemble: duo
+          text: >-
+            There it goes! There it goes!
+        - id: ch01-b31
+          speaker: narrator
+          text: >-
+            The king raised his gun and tried to shoot the hawk, but he could not see far enough. He was overcome with grief.
+        - id: ch01-b32
+          speaker: king
+          text: >-
+            If only someone could tell me how to cure my eyes. I fear I'll soon be completely blind!
+          emotion: sad
+        - id: ch01-b33
+          speaker: "true"
+          text: >-
+            I can tell you a cure easily enough.
+        - id: ch01-b34
+          speaker: narrator
+          text: >-
+            True told the king exactly how he had cured his own eyes. That very afternoon, the king set out for the lime tree. The next morning, while dew still covered the leaves, he rubbed it over his eyes. His sight was completely restored. From then on, the king held no one as dear as True. True had to be beside him wherever he went, whether the king stayed at home or traveled abroad.
+        - id: ch01-b35
+          speaker: narrator
+          text: >-
+            One day they were walking together in the orchard when the king spoke again.
+        - id: ch01-b36
+          speaker: king
+          text: >-
+            I simply don't understand it. No man in England spends more on his orchard than I do, yet not one tree will grow so much as a crab apple.
+        - id: ch01-b37
+          speaker: "true"
+          text: >-
+            Well, Your Majesty, let me keep whatever lies wrapped three times around your orchard, and give me men to dig it up. Then your trees will bear fruit.
+        - id: ch01-b38
+          speaker: narrator
+          text: >-
+            The king readily agreed. True brought men to the orchard and began digging all the way around it. At last he uncovered the whole heavy gold chain, wound around the orchard three times. True was rich now, richer even than the king. And the king was pleased, because his orchard bore so much fruit that the branches bent down to the ground. No one had ever tasted sweeter apples or pears.
+        - id: ch01-b39
+          speaker: narrator
+          text: >-
+            On another day, as the king and True walked and talked, the princess passed by. The king looked downcast when he saw her.
+        - id: ch01-b40
+          speaker: king
+          text: >-
+            What a pity that my lovely daughter can neither speak nor hear.
+          emotion: sad
+        - id: ch01-b41
+          speaker: "true"
+          text: >-
+            There is a cure for her, Your Majesty.
+        - id: ch01-b42
+          speaker: narrator
+          text: >-
+            The king was so delighted that he promised True the princess as his wife, along with half the kingdom, if he could make her well. True took several men into the church. They dug under the altar rails and found the toad. True cut it open, took out the bread, and gave it to the king's daughter. From that very hour, she could hear again and speak like anyone else.
+        - id: ch01-b43
+          speaker: narrator
+          text: >-
+            Now True was to marry the princess. Preparations began for the bridal feast. Nothing like it had ever been seen before, and it became the talk of the whole land. In the middle of the wedding dance, a young beggar entered and asked for a bite to eat. His clothes were so ragged, and he looked so wretched, that everyone crossed themselves at the sight of him. True recognized him at once. It was his brother, Untrue.
+        - id: ch01-b44
+          speaker: "true"
+          text: >-
+            Do you recognize me?
+        - id: ch01-b45
+          speaker: untrue
+          text: >-
+            How could a poor fellow like me have ever met such a great lord?
+        - id: ch01-b46
+          speaker: "true"
+          text: >-
+            You have met me. One year ago today, you tore out my eyes. I called you Untrue in name and untrue by nature then, and I say the same now. But you are still my brother, so you shall have food. Afterward, go to the lime tree where I sat last year. If you hear something that helps you, then you will be fortunate.
+        - id: ch01-b47
+          speaker: narrator
+          text: >-
+            Untrue did not wait to be told twice. True had gained so much by sitting in that lime tree that, in only one year, he had become king over half of England. Untrue could think of nothing but how much he himself might gain. He hurried away, found the lime tree, and climbed into its branches.
+        - id: ch01-b48
+          speaker: narrator
+          text: >-
+            He had not waited long when the four animals returned, making the same stir beneath the tree. Just as they had the year before, they ate, drank, and celebrated Saint John's Eve together. When the meal was done, Slyboots suggested that they tell stories. Untrue listened with all his might until it seemed his ears might fall off. But Bruin was in a surly mood. The bear growled.
+        - id: ch01-b49
+          speaker: bruin
+          text: >-
+            Someone has been repeating what we said here last year. This time, we'll keep what we know to ourselves.
+          emotion: angry
+        - id: ch01-b50
+          speakers: [bruin, greylegs, slyboots, longears]
+          ensemble: chorus
+          text: Good night.
+        - id: ch01-b51
+          speaker: narrator
+          text: >-
+            The animals parted, and Untrue knew no more than he had before. The reason was simple. He was Untrue in name, and untrue by nature too.

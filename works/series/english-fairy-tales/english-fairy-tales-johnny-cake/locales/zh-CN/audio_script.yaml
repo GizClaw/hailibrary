@@ -1,0 +1,213 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容讲述古老童话，带着一本正经的诙谐
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中
+    old_woman:
+      display_name: 老奶奶
+      tts:
+        delivery: 朴实利落，叮嘱孩子时认真直接
+        timbre: 苍老温厚
+        pace: 中等
+        pitch: 中低
+    little_boy:
+      display_name: 小男孩
+      tts:
+        delivery: 稚气而急切，遇事慌张但吐字清楚
+        timbre: 清脆稚嫩
+        pace: 稍快
+        pitch: 高
+    johnny_cake:
+      display_name: 约翰尼饼
+      tts:
+        delivery: 神气活现，越跑越得意，反复夸耀时富有节奏
+        timbre: 明亮轻快
+        pace: 快
+        pitch: 中高
+    well_digger_1:
+      display_name: 挖井人甲
+      tts:
+        delivery: 粗犷爽直，带着不服气的挑战口吻
+        timbre: 浑厚
+        pace: 中等
+        pitch: 低
+    well_digger_2:
+      display_name: 挖井人乙
+      tts:
+        delivery: 粗犷爽直，带着不服气的挑战口吻
+        timbre: 沙哑有力
+        pace: 中等
+        pitch: 中低
+    ditch_digger_1:
+      display_name: 挖沟人甲
+      tts:
+        delivery: 干脆响亮，受了挑衅便立刻回应
+        timbre: 厚实
+        pace: 中等偏快
+        pitch: 中低
+    ditch_digger_2:
+      display_name: 挖沟人乙
+      tts:
+        delivery: 干脆响亮，受了挑衅便立刻回应
+        timbre: 明朗粗粝
+        pace: 中等偏快
+        pitch: 中
+    bear:
+      display_name: 熊
+      tts:
+        delivery: 低沉威严，生气时发出压迫感十足的低吼
+        timbre: 深厚粗重
+        pace: 稍慢
+        pitch: 低
+    wolf:
+      display_name: 狼
+      tts:
+        delivery: 凶狠急躁，话音里带着龇牙挑衅的狠劲
+        timbre: 尖利粗哑
+        pace: 中等偏快
+        pitch: 中低
+    fox:
+      display_name: 狐狸
+      tts:
+        delivery: 狡猾克制，先故作虚弱，得手时骤然尖利
+        timbre: 细而清晰
+        pace: 从缓慢转为迅疾
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 从烤炉里逃走
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "从前，一位老爷爷和一位老奶奶带着小男孩过日子。一天早晨，老奶奶做了一张约翰尼饼，把它送进烤炉。出门去菜园以前，她叮嘱小男孩。"
+        - id: ch01-b02
+          speaker: old_woman
+          text: "我和你爸爸去锄土豆。你留在这儿，好好看着烤炉里的约翰尼饼。"
+        - id: ch01-b03
+          speaker: narrator
+          text: "老两口到了菜园，便锄起土豆。小男孩守在烤炉旁，却没有一直留神。忽然，烤炉里传出响声。他刚抬起头，炉门就砰地弹开了。约翰尼饼跳出来，翻着跟头滚向敞开的大门。小男孩赶去关门，可它已经滚出门，冲下台阶，上了大路。"
+        - id: ch01-b04
+          speaker: little_boy
+          text: "爸爸！妈妈！约翰尼饼跑啦！"
+        - id: ch01-b05
+          speaker: narrator
+          text: "老爷爷和老奶奶听见喊声，丢下锄头，也追了过去。三个人拼命跑，还是被约翰尼饼越甩越远。没多久，它就滚得没影了。他们只好坐在土坡上，一个个喘得说不出话。"
+    - id: ch02
+      title: 谁也追不上
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "约翰尼饼一路滚下去，碰见两个挖井人。两人停下手里的活，抬头问它。"
+        - id: ch02-b02
+          speakers: [well_digger_1, well_digger_2]
+          ensemble: duo
+          text: "约翰尼饼，你这是要上哪儿去？"
+        - id: ch02-b03
+          speaker: johnny_cake
+          text: "老爷爷、老奶奶、小男孩，全都跑不过我。你们也追不上我——呀——呀！"
+        - id: ch02-b04
+          speakers: [well_digger_1, well_digger_2]
+          ensemble: duo
+          text: "是吗？那咱们就比比看！"
+        - id: ch02-b05
+          speaker: narrator
+          text: "两个挖井人扔下鹤嘴锄，拔腿就追。可他们追了半天，离约翰尼饼还是越来越远，只好坐到路边休息。"
+        - id: ch02-b06
+          speaker: narrator
+          text: "约翰尼饼继续向前，又遇见两个挖沟人。两人正在挥动铁锹，看见它滚来，便问它要去哪儿。"
+        - id: ch02-b07
+          speakers: [ditch_digger_1, ditch_digger_2]
+          ensemble: duo
+          text: "约翰尼饼，你要滚到什么地方去？"
+        - id: ch02-b08
+          speaker: johnny_cake
+          text: "老爷爷、老奶奶、小男孩，还有两个挖井人，全都跑不过我。你们也追不上我——呀——呀！"
+        - id: ch02-b09
+          speakers: [ditch_digger_1, ditch_digger_2]
+          ensemble: duo
+          text: "是吗？那就跑起来瞧瞧！"
+        - id: ch02-b10
+          speaker: narrator
+          text: "两个挖沟人扔下铁锹追了上去。约翰尼饼很快把他们也甩在后面。他们知道再追也没用，便停下来坐着歇息。"
+    - id: ch03
+      title: 熊和狼也输了
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "约翰尼饼滚啊滚，迎面来了一头熊。"
+        - id: ch03-b02
+          speaker: bear
+          text: "约翰尼饼，你往哪儿跑？"
+        - id: ch03-b03
+          speaker: johnny_cake
+          text: "老爷爷、老奶奶、小男孩、两个挖井人、两个挖沟人，全都跑不过我。你也追不上我——呀——呀！"
+        - id: ch03-b04
+          speaker: bear
+          text: "追不上你？那就试试看！"
+          emotion: angry
+        - id: ch03-b05
+          speaker: narrator
+          text: "熊低吼一声，四条腿跑得飞快。可约翰尼饼头也不回，一刻不停。熊被落得越来越远，心里明白早晚都得认输，索性伸开身子，躺到路边休息去了。"
+        - id: ch03-b06
+          speaker: narrator
+          text: "再往前，约翰尼饼遇见一头狼。"
+        - id: ch03-b07
+          speaker: wolf
+          text: "约翰尼饼，你要去哪儿？"
+        - id: ch03-b08
+          speaker: johnny_cake
+          text: "老爷爷、老奶奶、小男孩、两个挖井人、两个挖沟人，还有一头熊，全都跑不过我。你也追不上我——呀——呀！"
+        - id: ch03-b09
+          speaker: wolf
+          text: "追不上？咱们这就见分晓！"
+          emotion: angry
+        - id: ch03-b10
+          speaker: narrator
+          text: "狼龇着牙飞奔起来。约翰尼饼却越滚越快。狼追了又追，终于看出没有一点儿希望，也躺下来休息了。"
+    - id: ch04
+      title: 狐狸的计策
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "约翰尼饼继续赶路，来到一道篱笆旁。一只狐狸静静伏在拐角，连身子也没有抬，只尖着嗓子问。"
+        - id: ch04-b02
+          speaker: fox
+          text: "约翰尼饼，你要到哪儿去呀？"
+        - id: ch04-b03
+          speaker: johnny_cake
+          text: "老爷爷、老奶奶、小男孩、两个挖井人、两个挖沟人、一头熊，还有一头狼，全都跑不过我。你也追不上我——呀——呀！"
+        - id: ch04-b04
+          speaker: narrator
+          text: "狐狸把头稍稍偏向一边。"
+        - id: ch04-b05
+          speaker: fox
+          text: "我听不大清楚。约翰尼饼，你能走近一点儿再说吗？"
+        - id: ch04-b06
+          speaker: narrator
+          text: "约翰尼饼一路上从没停过，这一次却停了下来。它走近一点儿，放大声音，又把那些话说了一遍。"
+        - id: ch04-b07
+          speaker: johnny_cake
+          text: "我跑赢了老爷爷、老奶奶、小男孩、两个挖井人、两个挖沟人、一头熊，还有一头狼。你也追不上我——呀——呀！"
+        - id: ch04-b08
+          speaker: narrator
+          text: "狐狸朝它伸长脖子，还拿一只爪子拢在耳后。"
+        - id: ch04-b09
+          speaker: fox
+          text: "还是听不清。能不能再靠近一点儿？"
+        - id: ch04-b10
+          speaker: narrator
+          text: "狐狸的声音虚弱极了。约翰尼饼便凑到它跟前，探过身子，对着狐狸尖声大喊。"
+        - id: ch04-b11
+          speaker: johnny_cake
+          text: "老爷爷、老奶奶、小男孩、两个挖井人、两个挖沟人、一头熊，还有一头狼，全都跑不过我。你也追不上我——呀——呀！"
+        - id: ch04-b12
+          speaker: fox
+          text: "你能，是吗？"
+        - id: ch04-b13
+          speaker: narrator
+          text: "狐狸尖叫一声，锋利的牙齿猛地一合。只一眨眼，约翰尼饼就被它吞进了肚子。"

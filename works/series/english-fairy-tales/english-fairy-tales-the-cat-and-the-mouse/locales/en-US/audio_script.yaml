@@ -1,0 +1,119 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    cat:
+      display_name: Cat
+      tts:
+        delivery: firm and matter-of-fact
+        timbre: smooth and bright
+        pace: measured
+        pitch: medium
+    mouse:
+      display_name: Mouse
+      tts:
+        delivery: earnest and quick, with a polite pleading manner
+        timbre: small and clear
+        pace: brisk
+        pitch: high
+    cow:
+      display_name: Cow
+      tts:
+        delivery: steady and plainspoken
+        timbre: full and mellow
+        pace: unhurried
+        pitch: low
+    farmer:
+      display_name: Farmer
+      tts:
+        delivery: practical and direct
+        timbre: sturdy and warm
+        pace: measured
+        pitch: medium-low
+    butcher:
+      display_name: Butcher
+      tts:
+        delivery: brisk and businesslike
+        timbre: strong and clear
+        pace: measured
+        pitch: medium-low
+    baker:
+      display_name: Baker
+      tts:
+        delivery: decisive, with a sharp warning when crossed
+        timbre: warm but firm
+        pace: measured
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Missing Tail
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: A cat and a mouse were playing in the malt-house when the cat bit off the mouse's tail.
+        - id: ch01-b02
+          speaker: mouse
+          text: Please, Cat, give me back my tail.
+        - id: ch01-b03
+          speaker: cat
+          text: No. I won't return it until you go to the cow and bring me some milk.
+        - id: ch01-b04
+          speaker: narrator
+          text: So the mouse leapt first, then ran, until she reached the cow.
+        - id: ch01-b05
+          speaker: mouse
+          text: Please, Cow, give me some milk. I'll take the milk to Cat, and then Cat will give me back my own tail.
+        - id: ch01-b06
+          speaker: cow
+          text: No, I won't give you any milk until you go to the farmer and get me some hay.
+
+    - id: ch02
+      title: Hay and Meat
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The mouse leapt first, then ran, until she came to the farmer.
+        - id: ch02-b02
+          speaker: mouse
+          text: Please, Farmer, give me some hay. I'll give the hay to Cow, Cow will give me milk, and I'll give the milk to Cat. Then Cat will give me back my own tail.
+        - id: ch02-b03
+          speaker: farmer
+          text: No, I won't give you any hay until you go to the butcher and bring me some meat.
+        - id: ch02-b04
+          speaker: narrator
+          text: Once more, the mouse leapt first, then ran, until she reached the butcher.
+        - id: ch02-b05
+          speaker: mouse
+          text: Please, Butcher, give me some meat. I'll give it to Farmer, Farmer will give me hay, and I'll give the hay to Cow. Cow will give me milk, and I'll take it to Cat. Then Cat will give me back my own tail.
+        - id: ch02-b06
+          speaker: butcher
+          text: No, I won't give you any meat until you go to the baker and bring me some bread.
+
+    - id: ch03
+      title: The Baker's Warning
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The mouse leapt first, then ran, until she came to the baker.
+        - id: ch03-b02
+          speaker: mouse
+          text: Please, Baker, give me some bread. I'll give the bread to Butcher, Butcher will give me meat, and I'll give the meat to Farmer. Farmer will give me hay, and I'll give the hay to Cow. Cow will give me milk, and I'll take it to Cat. Then Cat will give me back my own tail.
+        - id: ch03-b03
+          speaker: baker
+          text: Yes, I'll give you some bread. But if you eat my meal, I'll cut off your head.
+
+    - id: ch04
+      title: The Tail Comes Home
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The baker gave the mouse some bread, and the mouse carried it to the butcher. The butcher gave her meat, and she took it to the farmer. The farmer gave her hay, and she brought it to the cow. The cow gave her milk, and she carried it to the cat.
+        - id: ch04-b02
+          speaker: narrator
+          text: And at last, the cat gave the mouse her own tail again!

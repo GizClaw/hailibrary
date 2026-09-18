@@ -1,0 +1,111 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容而清醒，带一点克制的诙谐
+        timbre: 温厚清晰
+        pace: 舒缓有致
+        pitch: 中低
+    widow:
+      display_name: 穷寡妇
+      tts:
+        delivery: 朴实直率，劳苦中带着坚韧
+        timbre: 温暖而略显疲惫
+        pace: 中等
+        pitch: 中
+    old_man:
+      display_name: 河边老人
+      tts:
+        delivery: 平静简洁，话语里藏着考验
+        timbre: 苍老醇厚
+        pace: 舒缓
+        pitch: 低
+    little_child:
+      display_name: 小孩
+      tts:
+        delivery: 狡猾任性，慌乱时尖急，贪心时蛮横
+        timbre: 清亮而多变
+        pace: 中等偏快
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 河边的老人
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前有个穷寡妇，养着六个孩子。家里没有东西吃，她只好出门找食物。走到河边，她看见一位老人坐在那里。老人先向她问候。
+        - id: ch01-b02
+          speaker: old_man
+          text: 早安。
+        - id: ch01-b03
+          speaker: widow
+          text: 老伯，早安。
+        - id: ch01-b04
+          speaker: old_man
+          text: 你能替我洗一洗头吗？
+        - id: ch01-b05
+          speaker: narrator
+          text: 女人答应了，替老人洗好头。临走时，老人送给她一枚叫作“斯坦皮”的小钱币。
+        - id: ch01-b06
+          speaker: old_man
+          text: 你往前走一段，会看到一棵结满南瓜的大树。到了树下，就在树根旁挖个洞，把这枚钱埋进去。然后你想要几只南瓜，只管开口叫它们下来，树都会给你。
+    - id: ch02
+      title: 不会吃完的南瓜
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 女人照老人的话做了。她家里有六个孩子，就向树要了六只南瓜。话音刚落，六只南瓜从树上掉下来。她把南瓜带回家。从那以后，一家人想吃南瓜时，女人只要去树下呼唤，想要多少就有多少。
+        - id: ch02-b02
+          speaker: narrator
+          text: 一天早晨，女人打开门，发现门外躺着一个小婴孩。她把婴孩抱进屋，用心照料。女人每天都要出门，所以总在早晨煮好南瓜，让六个孩子吃上一整天。
+        - id: ch02-b03
+          speaker: narrator
+          text: 有一天，她回家时发现煮好的南瓜全没了。她以为孩子们把食物吃光了，不但骂了他们，还动手打了他们。孩子们连忙解释，南瓜不是他们吃的，都是那个婴孩拿走的。女人怎么也不肯相信。
+        - id: ch02-b04
+          speaker: widow
+          text: 那么小的婴孩，连站都站不起来，怎么可能自己拿东西吃？
+        - id: ch02-b05
+          speaker: narrator
+          text: 可六个孩子仍旧坚持，说偷吃南瓜的就是婴孩。
+    - id: ch03
+      title: 套索里的小孩
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 又一天，女人出门前把一些南瓜放进葫芦瓢，再在上面设好套索。等她走远，婴孩又像平时那样爬起来吃南瓜，脑袋正好钻进套索，被紧紧卡住。他怎么挣也挣不开，只能一边乱撞脑袋，一边哭喊。
+        - id: ch03-b02
+          speaker: little_child
+          text: 哎呀，快把我放开！那个女人回来以后，一定会杀了我的！
+          emotion: fearful
+        - id: ch03-b03
+          speaker: narrator
+          text: 女人回来一看，这才知道孩子们没有撒谎。她狠狠打了婴孩一顿，把他赶出家门，又向自己的六个孩子赔了不是，承认先前错怪了他们。
+    - id: ch04
+      title: 十只南瓜
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 婴孩刚被赶出门，转眼就变成了一个身材高大的男人。他来到河边，也看见那位老人坐在那里。老人像请求穷寡妇时一样，请他帮自己洗头。男人却一口回绝。
+        - id: ch04-b02
+          speaker: little_child
+          text: 不洗，我才不给你洗那颗脏脑袋。再见吧。
+        - id: ch04-b03
+          speaker: narrator
+          text: 老人又问他想不想要一只南瓜。
+        - id: ch04-b04
+          speaker: little_child
+          text: 想。
+        - id: ch04-b05
+          speaker: old_man
+          text: 那就一直往前走。看到一棵结着许多南瓜的大树时，向它要一只南瓜。
+        - id: ch04-b06
+          speaker: narrator
+          text: 男人继续往前，果然找到了那棵树。满树的南瓜看起来那么诱人，他见了以后，哪里还肯只拿一只。他站在树下，高声叫喊。
+        - id: ch04-b07
+          speaker: little_child
+          text: 十只南瓜，全都下来！
+        - id: ch04-b08
+          speaker: narrator
+          text: 十只南瓜立刻从树上坠落下来，把男人砸死了。

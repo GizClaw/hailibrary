@@ -1,0 +1,549 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 沉着讲述古老童话，幽默处带温和而克制的调侃
+        timbre: 温暖清晰的成年男声
+        pace: 舒缓而富于变化
+        pitch: 中低
+    king:
+      display_name: 年轻国王
+      tts:
+        delivery: 年轻爽直，逞强时急切，历险时勇气与惶恐自然流露
+        timbre: 清朗有朝气的青年男声
+        pace: 适中而富于变化
+        pitch: 中
+    wizard:
+      display_name: 智者
+      tts:
+        delivery: 老成谨慎，劝告时不疾不徐
+        timbre: 低沉略沙的老年男声
+        pace: 舒缓
+        pitch: 低
+    gruagach:
+      display_name: 格鲁阿加赫
+      tts:
+        delivery: 狡猾傲慢，得意时殷勤，动怒时阴沉凌厉
+        timbre: 浓重粗粝的成年男声
+        pace: 适中
+        pitch: 中低
+    maiden_1:
+      display_name: 姑娘甲
+      tts:
+        delivery: 自信热切，争着引起国王注意
+        timbre: 明亮的年轻女声
+        pace: 稍快
+        pitch: 中高
+    maiden_2:
+      display_name: 姑娘乙
+      tts:
+        delivery: 自信热切，争着引起国王注意
+        timbre: 清脆的年轻女声
+        pace: 稍快
+        pitch: 高
+    maiden_3:
+      display_name: 姑娘丙
+      tts:
+        delivery: 自信热切，争着引起国王注意
+        timbre: 柔亮的年轻女声
+        pace: 稍快
+        pitch: 中高
+    queen:
+      display_name: 王后
+      tts:
+        delivery: 聪慧坚定，关怀时温柔，面对危险时沉着机敏
+        timbre: 温润清澈的年轻女声
+        pace: 从容而富于变化
+        pitch: 中
+    brown_horse:
+      display_name: 棕马
+      tts:
+        delivery: 忠诚果断，指点主人时简明有力
+        timbre: 稳健浑厚的成年男声
+        pace: 适中
+        pitch: 中低
+    black_horse:
+      display_name: 黑马
+      tts:
+        delivery: 忠诚镇定，与棕马一同说话时整齐有力
+        timbre: 深沉清晰的成年男声
+        pace: 适中
+        pitch: 低
+    servant_1:
+      display_name: 仆人甲
+      tts:
+        delivery: 受惊之后如实禀报，语气急促
+        timbre: 朴实的成年男声
+        pace: 稍快
+        pitch: 中
+    servant_2:
+      display_name: 仆人乙
+      tts:
+        delivery: 受惊之后如实禀报，语气急促
+        timbre: 清晰的成年男声
+        pace: 稍快
+        pitch: 中低
+    yellow_dog:
+      display_name: 瘦黄狗
+      tts:
+        delivery: 亲切可靠，鼓励人时朴实坚定
+        timbre: 温厚清朗的成年男声
+        pace: 适中
+        pitch: 中
+    hawk:
+      display_name: 白头鹰
+      tts:
+        delivery: 苍劲豁达，劝慰时带着历经风霜的沉着
+        timbre: 略沙而有穿透力的老年男声
+        pace: 稍慢
+        pitch: 中低
+    otter:
+      display_name: 棕水獭
+      tts:
+        delivery: 温和笃定，带来希望时轻快而可靠
+        timbre: 柔和清亮的成年女声
+        pace: 适中
+        pitch: 中
+    giant:
+      display_name: 巨人
+      tts:
+        delivery: 粗暴多疑，受伤后沉重虚弱
+        timbre: 洪亮粗哑的成年男声
+        pace: 偏慢
+        pitch: 低
+  chapters:
+    - id: ch01
+      title: 三次比试
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 埃西鲁阿的年轻国王继承王位以后，头一件想到的事，就是怎么才能痛痛快快地玩上一场。从前最喜欢的游戏忽然都没意思了，他想试一件从未做过的事。终于，他眼睛一亮。
+        - id: ch01-b02
+          speaker: king
+          text: “有了！我要去找格鲁阿加赫比试一场。”
+        - id: ch01-b03
+          speaker: narrator
+          text: 格鲁阿加赫是一种邪恶的精怪，长着棕色卷发，住得离王宫不远。国王虽然年轻气盛，做事倒还谨慎。父亲临终前叮嘱过他，跟人称“好邻居”的仙灵来往，一定得当心。所以他先去请教乡间的一位智者。
+        - id: ch01-b04
+          speaker: king
+          text: “我想找那个卷发的格鲁阿加赫比试一场。”
+        - id: ch01-b05
+          speaker: wizard
+          text: “你当真要去？肯听我的劝，就另找一个对手吧。”
+        - id: ch01-b06
+          speaker: king
+          text: “不，我非跟格鲁阿加赫比不可。”
+        - id: ch01-b07
+          speaker: wizard
+          text: “既然非去不可，那也只好去了。不过你要是赢了，就挑站在门后的那个丑陋短发姑娘作奖赏。”
+        - id: ch01-b08
+          speaker: king
+          text: “我记住了。”
+        - id: ch01-b09
+          speaker: narrator
+          text: 天还没亮，国王就来到格鲁阿加赫家。格鲁阿加赫正坐在屋外。
+        - id: ch01-b10
+          speaker: gruagach
+          text: “国王啊，今天是什么风把你吹来了？你来得正好。要是肯跟我比试，那就更叫人高兴了。”
+        - id: ch01-b11
+          speaker: king
+          text: “我正是为这件事来的。”
+        - id: ch01-b12
+          speaker: narrator
+          text: 两人立刻比了起来。一会儿这个像是要赢，一会儿那个又占了上风，最后却是国王获胜。
+        - id: ch01-b13
+          speaker: gruagach
+          text: “说吧，你要什么奖赏？”
+        - id: ch01-b14
+          speaker: king
+          text: “我要站在门后的那个丑陋短发姑娘。”
+        - id: ch01-b15
+          speaker: gruagach
+          text: “什么？屋里还有二十个姑娘，哪一个不比她漂亮！”
+          emotion: surprised
+        - id: ch01-b16
+          speaker: king
+          text: “她们也许更美，可我只娶她，旁人一概不要。”
+        - id: ch01-b17
+          speaker: narrator
+          text: 格鲁阿加赫看出国王心意已定，只好走进屋去，让里面的姑娘一个个出来，从国王面前走过。她们有高有矮，有黑发也有金发，有丰腴也有苗条，个个都争着说自己才是他想要的人。
+        - id: ch01-b18
+          speakers: [maiden_1, maiden_2, maiden_3]
+          ensemble: chorus
+          text: “我才是你要找的人。你不选我，可真是傻透了！”
+        - id: ch01-b19
+          speaker: narrator
+          text: 不论高矮，不论黑发金发，也不论丰腴苗条，国王一个也没选。直到最后，那个短发姑娘走出来，他才认定这就是自己的新娘。她丑得叫大多数男人看一眼便会转过脸去。
+        - id: ch01-b20
+          speaker: king
+          text: “我们马上成婚，我要带你回家。”
+        - id: ch01-b21
+          speaker: narrator
+          text: 两人果真立刻结成夫妻，一同穿过一片草地，往国王的宫殿走。路上，新娘看见草丛中的三叶草，便弯腰采下一枝。等她重新直起身来，方才丑陋的模样已经全不见了。站在国王身边的，竟是世人见过的最美丽的女子。
+        - id: ch01-b22
+          speaker: narrator
+          text: 第二天天还没亮，国王就跳下床，说自己非得再去比试一次。
+        - id: ch01-b23
+          speaker: queen
+          text: “如果我父亲输了，而你赢了，别的奖赏都不要，只要那匹配着木棍鞍的蓬毛小马。”
+        - id: ch01-b24
+          speaker: king
+          text: “我会照办。”
+        - id: ch01-b25
+          speaker: narrator
+          text: 国王来到格鲁阿加赫家，对方正站在门口等着。
+        - id: ch01-b26
+          speaker: gruagach
+          text: “怎么样，你对新娘还满意吗？”
+        - id: ch01-b27
+          speaker: king
+          text: “怎么会不满意！连她都不能叫我称心，那我未免太难讨好了。今天还比吗？”
+        - id: ch01-b28
+          speaker: gruagach
+          text: “当然比。”
+        - id: ch01-b29
+          speaker: narrator
+          text: 两人再次较量，仍旧几番起落，最后获胜的还是国王。
+        - id: ch01-b30
+          speaker: gruagach
+          text: “这一次，你挑什么奖赏？”
+        - id: ch01-b31
+          speaker: king
+          text: “我要那匹配着木棍鞍的蓬毛小马。”
+        - id: ch01-b32
+          speaker: narrator
+          text: 格鲁阿加赫顿时不作声了。国王注意到，他去马厩牵马时，脸色变得阴沉极了。那匹马的鬃毛粗乱，皮毛也黯淡无光，国王却毫不在乎。他抬腿跨上那副木棍鞍，像风一样飞驰而去。
+        - id: ch01-b33
+          speaker: narrator
+          text: 第三天清晨，国王吃过东西，又准备出门。王后拦住了他。
+        - id: ch01-b34
+          speaker: queen
+          text: “别再去跟格鲁阿加赫比试了。你虽然赢了两回，可他总有一天会赢，到时一定会给你招来祸患。”
+        - id: ch01-b35
+          speaker: king
+          text: “我还得再比一次，只这一次！”
+        - id: ch01-b36
+          speaker: narrator
+          text: 格鲁阿加赫看见他来，心里别提多高兴。两人连话也没说，马上开始比试。这一回，国王的力气和本领不知怎么全消失了，格鲁阿加赫很快就赢了。
+        - id: ch01-b37
+          speaker: king
+          text: “你挑奖赏吧。只是别对我太狠，也别要我根本拿不出的东西。”
+        - id: ch01-b38
+          speaker: gruagach
+          text: “我要你替我取来光明之剑。它挂在橡木窗之王的宫中。你若取不来，那个短发东西就会取走你的头颅和脖颈。”
+        - id: ch01-b39
+          speaker: king
+          text: “我一定取来。”
+        - id: ch01-b40
+          speaker: narrator
+          text: 国王在格鲁阿加赫面前答得勇敢，可一走出他的视线，就再也装不下去了。他脸色阴沉，脚步越来越重。回到宫殿时，王后正站在台阶上等他。她美得叫国王看一眼便忍不住微笑，可他随即想起刚才发生的事，心又沉了下去。
+        - id: ch01-b41
+          speaker: queen
+          text: “你今晚空着手回来了。到底出了什么事？把忧愁告诉我，让我陪你承担，也许还能帮你。”
+        - id: ch01-b42
+          speaker: narrator
+          text: 国王讲出全部遭遇，王后听着，轻轻抚摸他的头发。
+        - id: ch01-b43
+          speaker: queen
+          text: “这没什么可伤心的。你有爱尔兰最好的妻子，也有爱尔兰最好的马。照我的话去做，一切都会顺利。”
+          emotion: calm
+        - id: ch01-b44
+          speaker: narrator
+          text: 国王听着她的劝慰，终于放下心来。
+    - id: ch02
+      title: 光明之剑
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 第二天，国王还在熟睡，王后已经起来为远行做准备。她先到马厩，给蓬毛棕马喂草、饮水，再替它备好鞍。众人都以为那副鞍是木头做的，谁也没看见里面藏着的点点金银微光。她把鞍扣在马背上，牵到等候的国王面前。
+        - id: ch02-b02
+          speaker: queen
+          text: “愿好运伴着你，愿你每战必胜。我不必再叮嘱了。听这匹马的劝，千万照它的话去做。”
+        - id: ch02-b03
+          speaker: narrator
+          text: 国王上马以前，王后吻别了丈夫。他挥挥手，踏上旅程。棕马跑得比风还快，连三月里同它竞逐的狂风也追不上。它一路不停，也不曾回头，直到漆黑的深夜才抵达橡木窗之王的城堡。
+        - id: ch02-b04
+          speaker: brown_horse
+          text: “到地方了。光明之剑就在国王的寝室里。你能不刮不响地取出它，就是吉兆。国王这会儿正在吃晚饭，屋里没人。握住剑柄末端的圆头，轻轻把剑抽出鞘。快去，我在窗下等你。”
+        - id: ch02-b05
+          speaker: narrator
+          text: 年轻国王悄悄走过长廊，不时停下来，确认身后没有人跟随。他溜进寝室，看见一线奇异的白光，那正是宝剑发出的。他踮起脚尖穿过房间，握住剑柄圆头，一寸一寸地往外拔。国王紧张得几乎不敢呼吸，生怕宝剑弄出一点声音，把全城堡的人都引来查看。
+        - id: ch02-b06
+          speaker: narrator
+          text: 宝剑贴着剑鞘轻快地滑出，一直没有声音，只剩剑尖还留在鞘中。忽然轻轻一响，像是刀刃碰上银盘。国王吓得差点松手。
+        - id: ch02-b07
+          speaker: brown_horse
+          text: “快！快出来！”
+        - id: ch02-b08
+          speaker: narrator
+          text: 国王慌忙爬出小窗，跳上马鞍。
+        - id: ch02-b09
+          speaker: brown_horse
+          text: “他听见了，一定会追来。不过我们已经抢先了一大段。”
+        - id: ch02-b10
+          speaker: narrator
+          text: 他们一路飞驰，把风也远远抛在身后。过了许久，棕马才放慢脚步。
+        - id: ch02-b11
+          speaker: brown_horse
+          text: “回头看看，后面是谁。”
+        - id: ch02-b12
+          speaker: king
+          text: “一大群棕马正在发疯似的追我们。”
+        - id: ch02-b13
+          speaker: brown_horse
+          text: “它们没有我们快。再看一次，现在是谁追来了？”
+        - id: ch02-b14
+          speaker: king
+          text: “是一大群黑马。有一匹长着白脸，背上坐着橡木窗之王。”
+        - id: ch02-b15
+          speaker: brown_horse
+          text: “那匹白脸马是我兄弟，它比我更快，很快会从身边冲过去。你备好宝剑。骑手回头看你时，就砍下他的脑袋。世上只有这柄剑能取他的首级。”
+        - id: ch02-b16
+          speaker: king
+          text: “我会照办。”
+        - id: ch02-b17
+          speaker: narrator
+          text: 国王竭尽全力听着身后的动静。等他判断白脸马已经追到近旁，便在马背上挺直身子，握紧宝剑，做好准备。下一刻，一阵呼啸如猛烈的风暴席卷而来。他只来得及瞥见一张转向自己的脸，便几乎闭着眼挥剑砍去，根本不知道这一击究竟杀死了骑手，还是只伤到了他。
+        - id: ch02-b18
+          speaker: narrator
+          text: 那颗脑袋滚落下来，棕马一口接住了它。
+        - id: ch02-b19
+          speaker: brown_horse
+          text: “跳上我兄弟那匹黑马，尽快回家！我能跑多快，就会多快地跟上你。”
+        - id: ch02-b20
+          speaker: narrator
+          text: 国王纵身跃上黑马，却落得离马尾太近，差点又摔下来。他赶紧伸长手臂，胡乱抓住鬃毛，终于把自己拉上马鞍。天空还没泛红，他便回到了家。王后一直坐着等他，丝毫没有睡意。见丈夫平安进门，她满心欢喜，却没多说，只取来竖琴，轻轻唱起他喜爱的歌，直到国王心满意足地上床睡去。
+    - id: ch03
+      title: 魔咒与劫掠
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 国王醒来时天已大亮。他一跃而起，说要去找格鲁阿加赫，看看身上的魔咒是不是已经解除了。
+        - id: ch03-b02
+          speaker: queen
+          text: “千万小心。他今天不会笑脸迎你，而会怒气冲冲地问你有没有拿到宝剑。你就说拿到了。他再问你怎么拿到的，你便回答，要不是剑柄上有颗圆头，你根本拿不到。”
+        - id: ch03-b03
+          speaker: queen
+          text: “他会抬头来看圆头。就在那一刻，用剑刺中他右边脖颈上的痣。要是剑尖没有刺中，你我都必死无疑。他是橡木窗之王的兄弟，看见宝剑在你手里，一定知道那位国王已经身首异处。”
+        - id: ch03-b04
+          speaker: narrator
+          text: 王后吻别丈夫，祝他顺利。国王在平常见面的地方找到了格鲁阿加赫。
+        - id: ch03-b05
+          speaker: gruagach
+          text: “你拿到那柄剑了吗？”
+        - id: ch03-b06
+          speaker: king
+          text: “拿到了。”
+        - id: ch03-b07
+          speaker: gruagach
+          text: “你是怎么拿到的？”
+        - id: ch03-b08
+          speaker: king
+          text: “剑柄上要是没有那颗圆头，我就拿不到它。”
+        - id: ch03-b09
+          speaker: gruagach
+          text: “把剑给我瞧瞧。”
+        - id: ch03-b10
+          speaker: narrator
+          text: 格鲁阿加赫探身向前。国王闪电般从他鼻子底下拔出宝剑，一剑刺中那颗痣。格鲁阿加赫滚倒在地。
+        - id: ch03-b11
+          speaker: king
+          text: “这下我总算可以安生了。”
+        - id: ch03-b12
+          speaker: narrator
+          text: 可他错了。国王回到家，发现仆人们全都背靠背绑在一起，嘴上还紧紧缠着布，谁也说不出话。他赶紧替众人一一松绑，又取下他们嘴上的布，问究竟是谁这样恶毒地对待他们。
+        - id: ch03-b13
+          speakers: [servant_1, servant_2]
+          ensemble: duo
+          text: “您刚走，一个大巨人就来了。他把我们绑成这样，还掳走了您的妻子和两匹马。”
+        - id: ch03-b14
+          speaker: king
+          text: “不把妻子和马匹带回来，我绝不合眼，也绝不躺下休息。”
+        - id: ch03-b15
+          speaker: narrator
+          text: 国王停下来察看草地，很快找到了马蹄留下的踪迹。他一路跟着蹄印追赶，直到天色变黑时来到一片树林。国王决定在那里过夜，便捡来散落四处的细枝，再拿两根干木头相互摩擦，终于生起一堆火。
+        - id: ch03-b16
+          speaker: narrator
+          text: 细枝噼啪作响，火焰蹿得老高。一条瘦长的黄狗钻出灌木丛，把头放在国王膝上。国王摸了摸它的脑袋。
+        - id: ch03-b17
+          speaker: yellow_dog
+          text: “汪，汪。昨夜巨人赶着你的妻子和马匹穿过树林时，他们的处境可苦极了。”
+        - id: ch03-b18
+          speaker: king
+          text: “我正是为了救他们才追到这里。可是……我的勇气忽然全没了。我打不过那个巨人。我害怕，还是让我回家吧。”
+          emotion: fearful
+        - id: ch03-b19
+          speaker: yellow_dog
+          text: “别回去。吃点东西，好好睡一觉，我替你守夜。”
+          emotion: calm
+        - id: ch03-b20
+          speaker: narrator
+          text: 国王吃过东西，躺下睡去，一直睡到太阳将他唤醒。
+        - id: ch03-b21
+          speaker: yellow_dog
+          text: “该上路了。要是遇到危难，就呼唤我，我会来帮你。”
+        - id: ch03-b22
+          speaker: king
+          text: “再会，我不会忘记你的承诺。”
+        - id: ch03-b23
+          speaker: narrator
+          text: 国王继续走啊，走啊，一直走到一座高高的悬崖前。那里也散落着许多树枝。天色已经快黑了，他便像头一晚那样生起火来歇息。等火焰旺起来，一只灰岩白头鹰飞下，落在他头顶的一根树枝上。
+        - id: ch03-b24
+          speaker: hawk
+          text: “你的妻子和马匹被巨人带着经过这里时，处境可苦极了。”
+        - id: ch03-b25
+          speaker: king
+          text: “我永远也找不到他们。辛苦这一场，到头来什么也得不到。”
+          emotion: sad
+        - id: ch03-b26
+          speaker: hawk
+          text: “振作些。事情再糟，也总有可能变得更糟。吃点东西，睡一觉吧，我替你守夜。”
+        - id: ch03-b27
+          speaker: narrator
+          text: 国王依言歇了一夜。到了早晨，他又恢复了勇气。
+        - id: ch03-b28
+          speaker: hawk
+          text: “再会。要是遇到危难，就呼唤我，我会来帮你。”
+        - id: ch03-b29
+          speaker: narrator
+          text: 国王又走啊，走啊，一路不停。暮色降临时，他来到一条大河边，看见岸上也散落着树枝，便为自己生起一堆火。过了一会儿，一颗油亮的棕色脑袋从水中探出来，紧接着露出一条长长的身子。原来是一只水獭。
+        - id: ch03-b30
+          speaker: otter
+          text: “昨夜你的妻子和马匹经过这条河时，处境可苦极了。”
+        - id: ch03-b31
+          speaker: king
+          text: “我一路寻找，还是没找到他们。辛苦这一场，恐怕什么也得不到。”
+          emotion: sad
+        - id: ch03-b32
+          speaker: otter
+          text: “别灰心。明天中午以前，你一定会见到妻子。先吃点东西，再睡一觉，我替你守夜。”
+          emotion: calm
+        - id: ch03-b33
+          speaker: narrator
+          text: 国王照水獭说的做了。太阳升起时，他醒来，看见水獭还躺在岸上。
+        - id: ch03-b34
+          speaker: otter
+          text: “再会。要是遇到危难，就呼唤我，我会来帮你。”
+        - id: ch03-b35
+          speaker: narrator
+          text: 水獭跃入河中，国王继续赶路。
+    - id: ch04
+      title: 裂谷里的巨人
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 又走了许多个钟头，国王来到一座高岩前。一次大地震把岩石从中劈成了两半。他趴在地上，小心地从边缘往下看，竟在最深的谷底看见妻子和两匹马。国王心头猛地一跳，先前所有的恐惧一下子都消失了。
+        - id: ch04-b02
+          speaker: narrator
+          text: 可是裂谷两侧的岩壁光滑得很，连山羊也找不到落脚的地方。国王只好耐下性子，重新站起来绕道树林。他挤过一棵棵树，攀过大大小小的岩石，又蹚过一道道溪流，终于回到平地，来到洞口附近。
+        - id: ch04-b03
+          speaker: narrator
+          text: 王后见丈夫走进来，高兴得尖叫一声，接着却放声哭了起来。她已经疲惫不堪，又受尽惊吓。丈夫却不明白她为什么流泪。他绕了那么远的路，又经过艰难的攀爬，早已累得浑身酸痛，心里也有些烦躁。
+        - id: ch04-b04
+          speaker: king
+          text: “我险些把命都丢了才来到这里，你就这样迎接我吗？”
+        - id: ch04-b05
+          speakers: [brown_horse, black_horse]
+          ensemble: duo
+          text: “别理会他。把他安置在我们前面，那里安全。再给他些吃的，他已经累坏了。”
+        - id: ch04-b06
+          speaker: narrator
+          text: 王后照马儿的话做了。国王吃过东西，也歇息了一阵。忽然，一道长影笼罩住他们。众人的心都吓得怦怦直跳，因为他们知道巨人来了。
+        - id: ch04-b07
+          speaker: giant
+          text: “我闻见了陌生人的气味！”
+        - id: ch04-b08
+          speaker: narrator
+          text: 裂谷里十分黑暗，巨人没有看见蜷缩在马蹄之间的国王。王后欢快地笑着，走上前，轻抚巨人垂在身旁的大手。
+        - id: ch04-b09
+          speaker: queen
+          text: “陌生人，我的主人？这里从来不会有陌生人来，连太阳都进不来呢！”
+        - id: ch04-b10
+          speaker: giant
+          text: “嗯，我确实什么也没看见，可这事真古怪。不管了，该给马喂食了。”
+        - id: ch04-b11
+          speaker: narrator
+          text: 巨人从一层岩架上取下一大抱干草，伸出两只手，给每匹马递去一把。两匹马迎上前，把国王安稳地留在身后。巨人的双手刚靠近马嘴，它们便猛地一口咬住，疼得他大声呻吟尖叫，那声音一英里外都能听见。接着，两匹马转过身，使劲踢他，直到再也踢不动为止。
+        - id: ch04-b12
+          speaker: narrator
+          text: 巨人终于爬开，躺在角落里浑身颤抖。王后走到他身旁。
+        - id: ch04-b13
+          speaker: queen
+          text: “可怜的人！它们像是全疯了，刚才真是吓死人了。”
+        - id: ch04-b14
+          speaker: giant
+          text: “我的灵魂要是在身体里，它们准会把我杀死。”
+        - id: ch04-b15
+          speaker: queen
+          text: “幸亏不在。不过，你的灵魂究竟放在哪儿？我也好替你照料。”
+        - id: ch04-b16
+          speaker: giant
+          text: “就在上面那块波纳赫石里。现在别管我，让我睡吧，明天还要走很远的路。”
+        - id: ch04-b17
+          speaker: narrator
+          text: 巨人指了指头顶的一块石头。那块波纳赫石摇摇欲坠地搁在岩缘上。不久，巨人躺着的角落里传出鼾声。王后和两匹马也都躺了下来，把国王严严实实地藏在它们中间，叫谁也看不见他。
+        - id: ch04-b18
+          speaker: narrator
+          text: 天还没亮，巨人便起身出去了。王后马上跑到波纳赫石旁，对着它又拉又推，直到它稳稳安在岩架上，再也不会掉下来。傍晚巨人回来时，石头仍旧稳稳放着。众人一看见他的影子，国王便爬到两匹马前面藏好。
+        - id: ch04-b19
+          speaker: giant
+          text: “咦，你把波纳赫石怎么了？”
+        - id: ch04-b20
+          speaker: queen
+          text: “我怕它掉下来摔碎，连你藏在里面的灵魂也一同毁了，所以把它往里面推了推。”
+        - id: ch04-b21
+          speaker: giant
+          text: “我的灵魂不在那里，它在门槛里。不过，该给马喂食了。”
+        - id: ch04-b22
+          speaker: narrator
+          text: 巨人拿来干草。两匹马像上次一样又咬又踢，直到他半死不活地倒在地上。
+        - id: ch04-b23
+          speaker: narrator
+          text: 第二天早晨，巨人起身走了。王后立刻跑到洞口，仔细洗净门槛上的石头，还拔掉石缝里藏着的苔藓和小花。她忙完以后等了很久，直到暮色降临，巨人才终于回来。
+        - id: ch04-b24
+          speaker: giant
+          text: “你把门槛打扫过了。”
+        - id: ch04-b25
+          speaker: queen
+          text: “你的灵魂既然在里面，我这样做难道不对吗？”
+        - id: ch04-b26
+          speaker: giant
+          text: “我的灵魂不在那里。门槛下面有块石板，石板下藏着一只羊，羊肚子里有一只鸭，鸭肚子里有一枚蛋，我的灵魂就在蛋里。现在天晚了，我得喂马。”
+        - id: ch04-b27
+          speaker: narrator
+          text: 巨人带来干草，两匹马又像从前那样对他又咬又踢。要是灵魂还在体内，这一回巨人早就当场死去了。
+    - id: ch05
+      title: 藏在蛋里的灵魂
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 巨人又在天不亮时起身走了。国王和王后马上奔到门槛前，两匹马站在一旁看着。他们搬开门槛，发现巨人说得一点不错，下面果真压着一块大石板。两人对着石板又拉又扯，费了好大的力气，终于把它掀开。
+        - id: ch05-b02
+          speaker: narrator
+          text: 一个东西猛地从底下跳出来，差点把他们撞倒。等它逃过身边，两人才看清那是一只羊。
+        - id: ch05-b03
+          speaker: king
+          text: “要是绿林里的瘦黄狗在这儿，它转眼就能捉住那只羊！”
+        - id: ch05-b04
+          speaker: narrator
+          text: 话音刚落，瘦黄狗便从林中出现，嘴里牢牢叼着那只羊。国王上前一击，将羊打死。他们赶紧剖开羊腹，突然一阵急促的翅膀迎面扑来，晃得两人睁不开眼。一只鸭子趁机飞了出去。
+        - id: ch05-b05
+          speaker: king
+          text: “要是灰岩白头鹰在这儿，它转眼就能捉住那只鸭！”
+        - id: ch05-b06
+          speaker: narrator
+          text: 话音刚落，只见白头鹰已经在他们头顶盘旋，嘴里正叼着那只鸭。国王挥动手中的宝剑，一剑斩下鸭头。他们从鸭腹里取出那枚蛋，可国王得意之下拿得太随便，蛋从手中滑落，飞快滚下山坡，一直掉进河里。
+        - id: ch05-b07
+          speaker: king
+          text: “要是溪流里的棕水獭在这儿，它转眼就能找回那枚蛋！”
+        - id: ch05-b08
+          speaker: narrator
+          text: 下一刻，棕水獭便从河里出现了。它浑身滴着水，嘴里稳稳衔着那枚蛋。可是就在水獭身旁，一道巨大的影子正悄悄逼近。那正是巨人的影子。
+        - id: ch05-b09
+          speaker: narrator
+          text: 国王盯着那道越来越近的影子，整个人仿佛化成了石头。王后却毫不迟疑，一把夺过水獭嘴里的蛋，用双手将它捏得粉碎。就在那一刻，巨人的影子猛然缩小，随即再也不动了。众人知道，他们已经找到了巨人的灵魂，那个巨人死了。
+        - id: ch05-b10
+          speaker: narrator
+          text: 第二天，国王和王后分别骑上两匹马，一同踏上归途。一路上，他们没有忘记那些曾经守护国王、答应在危难时相助的朋友，还特意去看望了棕水獭、白头鹰和瘦黄狗。这个故事，选自《西部高地故事集》。

@@ -1,0 +1,205 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 沉静从容，带着古老童话的神秘与幽默
+        timbre: 温暖清朗
+        pace: 舒缓而富有变化
+        pitch: 中音
+    first_soldier:
+      display_name: 第一个士兵
+      tts:
+        delivery: 谨慎忧虑，遇事容易往坏处想
+        timbre: 朴实略显沙哑
+        pace: 适中
+        pitch: 中音
+    second_soldier:
+      display_name: 第二个士兵
+      tts:
+        delivery: 老实直接，紧张时语气低沉
+        timbre: 厚实沉稳
+        pace: 适中
+        pitch: 中低音
+    third_soldier:
+      display_name: 第三个士兵
+      tts:
+        delivery: 快活机敏，危急时仍自信爽朗
+        timbre: 明亮有力
+        pace: 稍快
+        pitch: 中音
+    dragon:
+      display_name: 龙
+      tts:
+        delivery: 傲慢阴沉，发怒时带着压迫感
+        timbre: 粗粝低沉
+        pace: 稍缓
+        pitch: 低音
+    old_woman:
+      display_name: 老婆婆
+      tts:
+        delivery: 亲切而意味深长，说话不慌不忙
+        timbre: 苍老柔和
+        pace: 舒缓
+        pitch: 中低音
+    dragon_grandmother:
+      display_name: 龙的祖母
+      tts:
+        delivery: 慈和老练，盘问时自然从容
+        timbre: 苍老低柔
+        pace: 舒缓
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 麦田里的逃兵
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前有一场大战。国王手下兵将不少，发的军饷却连糊口都不够。三个士兵私下商量，决定从军队里逃走。
+        - id: ch01-b02
+          speaker: first_soldier
+          text: 万一给抓住，我们准会被吊死。到底怎么才能逃出去？
+        - id: ch01-b03
+          speaker: second_soldier
+          text: 你看见那片高麦田了吗？我们躲进去，谁也找不着。军队明天就要拔营，又不会开进麦田里。
+        - id: ch01-b04
+          speaker: narrator
+          text: 三个人钻进麦田，原以为第二天就能脱身。谁知军队没有开拔，反而紧挨着麦田，在四周驻扎下来。他们一动也不敢动，就这样躲了两天两夜，饿得只剩一口气。可只要走出去，还是死路一条。
+        - id: ch01-b05
+          speakers: [first_soldier, second_soldier, third_soldier]
+          ensemble: chorus
+          text: 逃出来又有什么用？我们照样要凄惨地死在这里。
+          emotion: sad
+        - id: ch01-b06
+          speaker: narrator
+          text: 话音未落，一条喷火的龙从天上飞来，在他们附近盘旋，还问三个人为什么藏在这里。
+        - id: ch01-b07
+          speakers: [first_soldier, second_soldier, third_soldier]
+          ensemble: chorus
+          text: 我们三个都是士兵，军饷太少，只好逃走。留在这里会饿死，一出去又会被吊死。
+        - id: ch01-b08
+          speaker: dragon
+          text: 替我效力七年，我就带你们飞过大军，谁也抓不到你们。
+        - id: ch01-b09
+          speakers: [first_soldier, second_soldier, third_soldier]
+          ensemble: chorus
+          text: 反正没有别的活路，我们答应。
+        - id: ch01-b10
+          speaker: narrator
+          text: 龙用爪子抓起三个人，飞过军营，把他们放到远处。
+    - id: ch02
+      title: 七年的约定
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 龙交给他们一根小鞭子。
+        - id: ch02-b02
+          speaker: dragon
+          text: 拿它抽一抽，甩一甩，想要多少钱，就有多少钱蹦到你们眼前。你们可以养马、坐马车，像大老爷一样过日子。不过七年一到，你们就归我了。
+        - id: ch02-b03
+          speaker: narrator
+          text: 他又取出一本册子，叫三个人签下姓名。
+        - id: ch02-b04
+          speaker: dragon
+          text: 到时候我会出一道谜语。猜中了，你们就能自由，再也不受我支配。
+        - id: ch02-b05
+          speaker: narrator
+          text: 龙说完便飞走了，三个士兵带着小鞭子继续赶路。从那天起，他们要多少钱就有多少钱，穿的是阔气衣裳，养的是高头大马，出门还有马车可坐。他们走遍各地，尽情吃喝享乐，日子过得风风光光，却从来不做坏事。七年转眼就要过去，其中两个人越来越害怕，只有第三个士兵毫不在意。
+        - id: ch02-b06
+          speaker: third_soldier
+          text: 兄弟们，别怕。我又不是三岁孩子，总能把谜底猜出来。
+        - id: ch02-b07
+          speaker: narrator
+          text: 他们来到田野里坐下。两个愁眉苦脸的士兵引来一位老婆婆，她停下来问他们为什么伤心。
+        - id: ch02-b08
+          speaker: first_soldier
+          text: 唉，告诉您又有什么用？您帮不了我们。
+        - id: ch02-b09
+          speaker: old_woman
+          text: 那可不一定。先把你们的难处说给我听听。
+        - id: ch02-b10
+          speaker: narrator
+          text: 三个人这才把七年的约定全说了。龙给他们的钱多得像野莓，怎么花也花不完。可是三个人亲手在册子上签了名，已经属于龙了。七年到期时，除非能猜中那道谜语，否则谁也逃不掉。
+        - id: ch02-b11
+          speaker: old_woman
+          text: 真想救自己，就让一个人进树林。他会看见一堆像小屋的破岩石。走进去，自然会有人帮忙。
+        - id: ch02-b12
+          speaker: narrator
+          text: 两个忧愁的士兵觉得这办法救不了他们，仍旧坐着。第三个却跳起来走进树林，果然找到一间石屋。
+    - id: ch03
+      title: 地窖里的秘密
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 第三个士兵一直走到树林深处，才看见那堆坍塌的岩石。它们果真像一间小屋。石屋里坐着一位年纪很老很老的女人，原来是龙的祖母。她问来客从哪里来，到这里有什么事。士兵从头到尾讲完遭遇，老妇人很喜欢这个快活的年轻人，也可怜他，便答应出手相助。她搬开压在地窖口的大石头。
+        - id: ch03-b02
+          speaker: dragon_grandmother
+          text: 你藏到下面，安静坐着，千万别动。屋里的话都能听见。等龙回来，我来问谜语，他什么都会告诉我。你可得仔细听。
+        - id: ch03-b03
+          speaker: narrator
+          text: 午夜时，龙飞回石屋，一进门就嚷着要吃晚饭。祖母摆好桌子，把吃的喝的一样样端来，直到他心满意足。祖孙俩坐在桌边一同吃喝。闲谈之间，祖母像平常一样，问他这一天做过什么，又收服了多少灵魂。
+        - id: ch03-b04
+          speaker: dragon
+          text: 今天不太走运。不过有三个士兵，已经给我牢牢抓住了。
+        - id: ch03-b05
+          speaker: dragon_grandmother
+          text: 三个士兵？他们难道一个也逃不了？
+        - id: ch03-b06
+          speaker: dragon
+          text: 他们早就是我的了。我只要出一道谜语，他们一辈子也猜不中。
+        - id: ch03-b07
+          speaker: dragon_grandmother
+          text: 你准备出什么谜语？
+        - id: ch03-b08
+          speaker: dragon
+          text: 告诉你也没关系。北海里那只死海猫，是他们的烤肉。鲸鱼的肋骨，是他们的银汤匙。死马的空蹄壳，是他们的酒杯。
+        - id: ch03-b09
+          speaker: narrator
+          text: 龙睡下后，祖母掀开石头，把士兵放出来。
+        - id: ch03-b10
+          speaker: dragon_grandmother
+          text: 刚才那些话，你都听清了吗？
+        - id: ch03-b11
+          speaker: third_soldier
+          text: 全听清了。知道这些就够了，我一定能救下自己。
+        - id: ch03-b12
+          speaker: narrator
+          text: 士兵没有从原路回去。他趁夜悄悄钻出窗户，绕到另一条路上，急急忙忙赶回同伴身边。他把事情一五一十说了出来，包括龙的祖母怎样从龙嘴里套出秘密，还有自己躲在地窖里怎样亲耳听见谜底。
+    - id: ch04
+      title: 魔鬼来取人
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 两个同伴一听，脸上的愁云全散了。三个士兵高兴极了，拿出鞭子抽个不停，钱便噼里啪啦地从地上蹦出来。等整整七年过去，那个魔鬼果然带着签名册找上门。他翻开册子，指着三个人亲手写下的名字开口了。
+        - id: ch04-b02
+          speaker: dragon
+          text: 我要带你们到地底下吃顿饭。只要说得出烤肉是什么，你们就能自由，还可以留下鞭子。
+        - id: ch04-b03
+          speaker: first_soldier
+          text: 北海里那只死海猫，就是我们的烤肉。
+        - id: ch04-b04
+          speaker: narrator
+          text: 龙气得支支吾吾，好半天才转向第二个士兵。
+        - id: ch04-b05
+          speaker: dragon
+          text: 那么，你们拿什么当汤匙？
+        - id: ch04-b06
+          speaker: second_soldier
+          text: 鲸鱼的肋骨，就是我们的银汤匙。
+        - id: ch04-b07
+          speaker: narrator
+          text: 龙皱起脸，低声咆哮了三次。
+        - id: ch04-b08
+          speaker: dragon
+          text: 哼，哼，哼！第三个，你知道酒杯是什么吗？
+          emotion: angry
+        - id: ch04-b09
+          speaker: third_soldier
+          text: 老马的蹄壳，就是我们的酒杯。
+    - id: ch05
+      title: 三个士兵重获自由
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 最后一个谜底也说中了。龙顿时发出一声尖叫，转身飞走。从此，他再也没有力量支配这三个士兵。三个人保住了自由，也留下那根神奇的小鞭子。往后的日子里，他们需要多少钱就抽出多少钱，一直快快乐乐地活到了老。

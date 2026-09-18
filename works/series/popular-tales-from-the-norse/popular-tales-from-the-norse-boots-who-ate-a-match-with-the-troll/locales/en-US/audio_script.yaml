@@ -1,0 +1,197 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    father:
+      display_name: Father
+      tts:
+        delivery: stern and plainspoken
+        timbre: old and rough
+        pace: measured
+        pitch: low
+    eldest_son:
+      display_name: Eldest Son
+      tts:
+        delivery: boastful but easily shaken
+        timbre: firm and youthful
+        pace: medium
+        pitch: medium
+    second_son:
+      display_name: Second Son
+      tts:
+        delivery: cautious and uncertain
+        timbre: light and youthful
+        pace: medium
+        pitch: medium-high
+    boots:
+      display_name: Boots
+      tts:
+        delivery: quick-witted and matter-of-fact
+        timbre: clear and youthful
+        pace: lively
+        pitch: medium
+    troll:
+      display_name: Troll
+      tts:
+        delivery: forceful yet easily cowed
+        timbre: deep and heavy
+        pace: deliberate
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Wood
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Once there was an old, weak farmer with three sons. The family had little money, and none of the sons would settle down to any work. A fine, large wood belonged to the farm. One day the father told his sons to cut timber there and earn enough to pay some of his debts.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            It took a long talk to get them moving. At last, the eldest agreed to go first. He walked deep into the wood and began chopping at an old fir covered in moss. Then a great, sturdy Troll came toward him.
+        - id: ch01-b03
+          speaker: troll
+          text: If you cut down trees in my wood, I'll kill you!
+          emotion: angry
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            The eldest son dropped his axe and ran home as fast as his legs could carry him. He arrived gasping for breath and told the family what had happened. His father called him a hare-heart.
+        - id: ch01-b05
+          speaker: father
+          text: >-
+            When I was young, no Troll could have frightened me away from my chopping.
+          emotion: angry
+    - id: ch02
+      title: The Brothers Come Home
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            The next day, the second son took his turn. He had barely struck the fir three times when the Troll appeared before him.
+        - id: ch02-b02
+          speaker: troll
+          text: Stop cutting in my wood, or I'll kill you!
+          emotion: angry
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            The second son did not even dare to look at the Troll. He dropped the axe and raced home, just as his brother had done. His father was angry with him too.
+        - id: ch02-b04
+          speaker: father
+          text: >-
+            A Troll never scared me away when I was young!
+          emotion: angry
+        - id: ch02-b05
+          speaker: narrator
+          text: On the third day, Boots said he wanted to go.
+        - id: ch02-b06
+          speakers: [eldest_son, second_son]
+          ensemble: duo
+          text: >-
+            You? Oh, you'll be very brave, won't you? You've hardly ever been outside the door!
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            Boots did not answer them. He only asked for plenty of food to take along. His mother had no cheese ready, so she put a pot on the fire and made him a little. Boots tucked it into his bag and set off.
+    - id: ch03
+      title: The White Stone
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            Boots chopped for a while, and soon the Troll came to him as well.
+        - id: ch03-b02
+          speaker: troll
+          text: If you chop in my wood, I'll kill you!
+          emotion: angry
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            Boots knew what to do. In a flash, he pulled the cheese from his bag and squeezed until the whey spurted out.
+        - id: ch03-b04
+          speaker: boots
+          text: >-
+            Be quiet! If you don't, I'll squeeze you the way I'm squeezing water out of this white stone!
+          emotion: angry
+        - id: ch03-b05
+          speaker: troll
+          text: >-
+            No, dear friend! Please spare me, and I'll help you chop the wood.
+          emotion: fearful
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            Boots agreed to spare him on those terms. The Troll chopped so mightily that, by the end of the day, they had felled and cut up a great many lengths of timber.
+        - id: ch03-b07
+          speaker: narrator
+          text: As evening drew near, the Troll spoke again.
+        - id: ch03-b08
+          speaker: troll
+          text: >-
+            You'd better come home with me. My house is closer than yours.
+        - id: ch03-b09
+          speaker: narrator
+          text: Boots was willing enough, so they went to the Troll's house together.
+    - id: ch04
+      title: The Iron Pails
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            At the house, the Troll was to build the fire while Boots fetched water for their porridge. But the two iron pails were so huge and heavy that Boots could not lift either one from the ground.
+        - id: ch04-b02
+          speaker: boots
+          text: >-
+            Hmph! Those little basins aren't worth bothering with. I'll go and bring back the whole spring instead.
+        - id: ch04-b03
+          speaker: troll
+          text: >-
+            No, no, dear friend! I can't lose my spring. You tend the fire, and I'll fetch the water.
+          emotion: fearful
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            The Troll returned with the water, and together they cooked a great pot of porridge.
+    - id: ch05
+      title: The Eating Match
+      blocks:
+        - id: ch05-b01
+          speaker: boots
+          text: >-
+            I don't mind either way, but if you agree, let's see which of us can eat the most.
+        - id: ch05-b02
+          speaker: troll
+          text: Gladly!
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            The Troll felt sure he could hold his own. They sat down to eat, but without letting the Troll notice, Boots hung his bag in front of him. He spooned more porridge into the bag than into his mouth. When the bag was full, he took out his knife and cut a slit in it. The Troll watched all this but said nothing.
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            They went on eating for quite a while. At last, the Troll put down his spoon.
+        - id: ch05-b05
+          speaker: troll
+          text: No, I can't swallow another bite.
+        - id: ch05-b06
+          speaker: boots
+          text: >-
+            But you have to keep eating. I'm only halfway done! Why don't you do what I did and cut a hole in your belly? Then you can eat all you like.
+        - id: ch05-b07
+          speaker: troll
+          text: Won't that hurt terribly?
+          emotion: fearful
+        - id: ch05-b08
+          speaker: boots
+          text: Oh, hardly at all.
+        - id: ch05-b09
+          speaker: narrator
+          text: >-
+            So the Troll did what Boots had told him, and that cost him his life. Boots gathered all the silver and gold he found inside the hillside and carried it home. You may imagine how far that treasure went toward paying his father's debts.

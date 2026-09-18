@@ -1,0 +1,186 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容讲述古老童话，带着轻快而一本正经的诙谐
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中
+    baron:
+      display_name: 男爵
+      tts:
+        delivery: 威严自负，惯于发号施令，受挫时显出急躁狠厉
+        timbre: 低沉冷硬
+        pace: 中等偏缓
+        pitch: 低
+    poor_father:
+      display_name: 穷苦的父亲
+      tts:
+        delivery: 谦卑老实，忧愁中带着无可奈何
+        timbre: 粗哑疲惫
+        pace: 缓慢
+        pitch: 中低
+    companion:
+      display_name: 男爵的同伴
+      tts:
+        delivery: 随口发问，带着好奇和一点打趣
+        timbre: 明朗沉稳
+        pace: 中等
+        pitch: 中
+    girl:
+      display_name: 姑娘
+      tts:
+        delivery: 朴实恭谨，身处险境仍清楚坚定
+        timbre: 年轻清澈
+        pace: 中等
+        pitch: 中高
+    robber_captain:
+      display_name: 强盗头子
+      tts:
+        delivery: 粗豪果断，对不平之事有自己的判断
+        timbre: 沙哑有力
+        pace: 中等偏快
+        pitch: 低
+    noble:
+      display_name: 贵族
+      tts:
+        delivery: 有教养而爽快，吩咐事情自然利落
+        timbre: 饱满温和
+        pace: 中等
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 命运之书
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "从前，北方住着一位权势显赫的男爵。他精通魔法，知道将来要发生的一切。儿子四岁那年，他打开《命运之书》，查看孩子今后的命运。"
+        - id: ch01-b02
+          speaker: narrator
+          text: "书上的预言叫他大为不安。他的儿子日后会娶一个出身贫寒的姑娘。那个女婴才刚刚降生，就住在约克大教堂阴影下的一所屋子里。"
+        - id: ch01-b03
+          speaker: narrator
+          text: "男爵知道那家人穷得厉害，父亲已经养着五个孩子。他立刻骑马赶进约克城，在那户人家门外看见了愁眉不展的父亲。男爵下马走了过去。"
+        - id: ch01-b04
+          speaker: baron
+          text: "好心人，你为什么这样发愁？"
+        - id: ch01-b05
+          speaker: poor_father
+          text: "爵爷，我已经有五个孩子了，现在第六个也出生了，还是个小姑娘。我实在不知道去哪里找吃的，才能让他们都填饱肚子。"
+        - id: ch01-b06
+          speaker: baron
+          text: "朋友，别再发愁了。既然只是这件事，我能帮你。把最小的孩子交给我带走，你以后就不用为她操心。"
+        - id: ch01-b07
+          speaker: poor_father
+          text: "多谢您的大恩，爵爷。"
+        - id: ch01-b08
+          speaker: narrator
+          text: "父亲进屋抱出女婴，把她交给男爵。男爵带着孩子骑到乌斯河边，竟把她扔进河里，随后独自回了城堡。"
+        - id: ch01-b09
+          speaker: narrator
+          text: "女婴却没有沉下去。衣裳暂时托住了她，她便在水上一直漂，最后被冲到一间渔夫小屋前。渔夫发现了这个可怜的孩子，把她抱回家抚养。十五年过去，她长成了一位俊俏的姑娘。"
+    - id: ch02
+      title: 一封要命的信
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "一天，男爵和几位同伴沿着乌斯河打猎。他们来到渔夫的小屋前，停下讨水喝。姑娘出来送水，大家一见她，都注意到了她的美貌。"
+        - id: ch02-b02
+          speaker: companion
+          text: "男爵，您看得见人的命运。依您看，这位姑娘以后会嫁给谁？"
+        - id: ch02-b03
+          speaker: baron
+          text: "这还不好猜吗？多半就是哪个乡下人。不过，我可以替她排排命盘。姑娘，过来告诉我，你是哪天出生的？"
+        - id: ch02-b04
+          speaker: girl
+          text: "爵爷，我不知道。大约十五年前，我顺着河水漂到这里，有人发现后把我捡了回来。"
+        - id: ch02-b05
+          speaker: narrator
+          text: "男爵顿时认出了她。等同伴们离开以后，他又骑马折返，单独找到了姑娘。"
+        - id: ch02-b06
+          speaker: baron
+          text: "听好，我要送你一场富贵。把这封信带到斯卡伯勒，交给我的弟弟，他会让你一辈子都有着落。"
+        - id: ch02-b07
+          speaker: narrator
+          text: "姑娘收下信，答应替他送去。她并不知道，男爵写下的竟是一道死令。"
+        - id: ch02-b08
+          speaker: baron
+          text: "亲爱的弟弟，送信人一到，立刻将她处死。你的兄长，阿尔伯特。"
+        - id: ch02-b09
+          speaker: narrator
+          text: "姑娘不久便上路了。前往斯卡伯勒的途中，她在一家小客店住了一夜。恰好那天晚上，一伙强盗闯进客店，搜遍姑娘全身，只找到这封信。"
+        - id: ch02-b10
+          speaker: narrator
+          text: "强盗们拆信一看，都觉得这样害死一个姑娘太可耻。强盗头子拿起纸笔，把信改成了完全不同的命令。"
+        - id: ch02-b11
+          speaker: robber_captain
+          text: "亲爱的弟弟，送信人一到，立刻让她嫁给我的儿子。你的兄长，阿尔伯特。"
+        - id: ch02-b12
+          speaker: narrator
+          text: "强盗头子把信还给姑娘，催她赶快离开。姑娘继续赶路，终于见到了男爵的弟弟。那是一位高贵的骑士，男爵的儿子当时正住在他的城堡里。"
+        - id: ch02-b13
+          speaker: narrator
+          text: "骑士读过来信，当即命人筹办婚礼。就在那一天，姑娘和男爵的儿子结成了夫妻。"
+    - id: ch03
+      title: 悬崖上的约定
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "没过多久，男爵也来到弟弟的城堡。他发现自己一心阻止的婚事已经成真，惊讶得不得了。可他仍不肯向命运认输。"
+        - id: ch03-b02
+          speaker: narrator
+          text: "男爵说要带姑娘出去散步，把她领到了悬崖边。四下无人时，他突然抓住姑娘的双臂，想把她推下悬崖。姑娘苦苦求他饶命。"
+        - id: ch03-b03
+          speaker: girl
+          text: "我没有做过任何坏事。只要您肯饶我一命，无论您要我做什么，我都答应。除非您愿意见我，否则我再也不出现在您和您儿子面前。"
+          emotion: fearful
+        - id: ch03-b04
+          speaker: narrator
+          text: "男爵从手上摘下一枚金戒指，远远扔进了大海。"
+        - id: ch03-b05
+          speaker: baron
+          text: "除非你能把这枚戒指拿给我看，否则永远别让我再见到你。"
+        - id: ch03-b06
+          speaker: narrator
+          text: "说完这句话，他放走了姑娘。"
+    - id: ch04
+      title: 鱼肚里的金光
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "可怜的姑娘走了很久，最后来到另一位大贵族的城堡，请求主人给她一份活儿。她从前在渔夫家做惯了粗活，于是被留下来当厨下女工，专门洗刷锅碗，料理杂务。"
+        - id: ch04-b02
+          speaker: narrator
+          text: "一天，姑娘看见三个人正朝城堡走来。那是男爵和他的弟弟，还有她的丈夫。她慌得不知该怎么办，只能想着，他们大概不会走进厨房，也就看不见她。"
+        - id: ch04-b03
+          speaker: narrator
+          text: "姑娘叹了口气，低头继续干活。她要收拾一条硕大的鱼，煮来给客人们当晚餐。可剖开鱼腹时，她忽然看见里面有东西闪闪发亮。"
+        - id: ch04-b04
+          speaker: narrator
+          text: "你猜那是什么？正是男爵扔下悬崖的金戒指！姑娘欢喜极了。她把鱼精心烹调好，端上了餐桌。"
+        - id: ch04-b05
+          speaker: narrator
+          text: "宾客们尝过以后赞不绝口，纷纷问贵族是谁做了这道鱼。贵族自己也不知道，便叫来仆人吩咐。"
+        - id: ch04-b06
+          speaker: noble
+          text: "去把做这道好鱼的厨子请到大厅来。"
+        - id: ch04-b07
+          speaker: narrator
+          text: "仆人下到厨房，把主人的话告诉姑娘。姑娘洗净手脸，整理好衣裳，又把男爵的金戒指戴在大拇指上，然后走进了大厅。"
+    - id: ch05
+      title: 谁也斗不过命运
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: "赴宴的人见厨子竟是这样一位年轻美丽的姑娘，全都吃了一惊。男爵却气得暴跳如雷，猛然起身，看样子又想伤害她。"
+        - id: ch05-b02
+          speaker: narrator
+          text: "姑娘迎面走到男爵跟前，把戴着戒指的手伸给他看。接着，她取下那枚金戒指，放在了男爵面前的桌上。"
+        - id: ch05-b03
+          speaker: narrator
+          text: "男爵这才终于明白，世上没有人能够与命运抗争。他把姑娘领到座位上，当着所有宾客宣布，她正是自己儿子真正的妻子。"
+        - id: ch05-b04
+          speaker: narrator
+          text: "后来，男爵带着儿子和姑娘回到自己的城堡。从此，他们一家人过上了再幸福不过的生活。"

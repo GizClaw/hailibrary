@@ -1,0 +1,127 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    youngest_gruff:
+      display_name: Youngest Billy-Goat Gruff
+      tts:
+        delivery: small and pleading
+        timbre: light and clear
+        pace: quick
+        pitch: high
+    second_gruff:
+      display_name: Second Billy-Goat Gruff
+      tts:
+        delivery: cautious and plainspoken
+        timbre: youthful and clear
+        pace: measured
+        pitch: medium-high
+    big_gruff:
+      display_name: Big Billy-Goat Gruff
+      tts:
+        delivery: bold and defiant
+        timbre: rough and hoarse
+        pace: deliberate
+        pitch: low
+    troll:
+      display_name: Troll
+      tts:
+        delivery: fierce and threatening
+        timbre: harsh and heavy
+        pace: slow
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Bridge Over the Burn
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there were three billy-goats. All three were named Gruff, and they were going up the hillside to grow fat. To get there, they had to cross a bridge over a burn. Beneath that bridge lived a great ugly Troll. His eyes were as big as saucers, and his nose was as long as a poker.
+    - id: ch02
+      title: The Youngest Billy-Goat
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The youngest billy-goat Gruff was the first to cross. Trip, trap. Trip, trap. The bridge sounded beneath his feet. The Troll heard those little footsteps from below and roared up at him.
+        - id: ch02-b02
+          speaker: troll
+          text: Who is that crossing my bridge?
+          emotion: angry
+        - id: ch02-b03
+          speaker: youngest_gruff
+          text: It is only me, the tiniest billy-goat Gruff. I am going up the hillside to grow fat.
+        - id: ch02-b04
+          speaker: narrator
+          text: His voice was very small.
+        - id: ch02-b05
+          speaker: troll
+          text: Then I am coming to gobble you up.
+        - id: ch02-b06
+          speaker: youngest_gruff
+          text: Oh, please do not eat me! I am much too little. Wait for the second billy-goat Gruff. He is far bigger than I am.
+        - id: ch02-b07
+          speaker: troll
+          text: Very well. Be off with you!
+    - id: ch03
+      title: The Second Billy-Goat
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: A little while later, the second billy-goat Gruff came to the bridge. Trip, trap! Trip, trap! Trip, trap! The bridge rang beneath him. The Troll heard the louder footsteps from below and roared again.
+        - id: ch03-b02
+          speaker: troll
+          text: Who is that crossing my bridge?
+          emotion: angry
+        - id: ch03-b03
+          speaker: second_gruff
+          text: It is me, the second billy-goat Gruff. I am going up the hillside to grow fat.
+        - id: ch03-b04
+          speaker: narrator
+          text: His voice was not nearly so small.
+        - id: ch03-b05
+          speaker: troll
+          text: Then I am coming to gobble you up.
+        - id: ch03-b06
+          speaker: second_gruff
+          text: Oh, do not eat me! Wait a little for the big billy-goat Gruff. He is much bigger.
+        - id: ch03-b07
+          speaker: troll
+          text: All right. Be off with you!
+    - id: ch04
+      title: The Big Billy-Goat
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Just then, the big billy-goat Gruff came along. Trip, trap! Trip, trap! Trip, trap! He was so heavy that the bridge creaked and groaned under him. The Troll heard those heavy steps and roared once more.
+        - id: ch04-b02
+          speaker: troll
+          text: Who is that tramping over my bridge?
+          emotion: angry
+        - id: ch04-b03
+          speaker: big_gruff
+          text: It is I, the big billy-goat Gruff!
+        - id: ch04-b04
+          speaker: narrator
+          text: His own voice was ugly and hoarse.
+        - id: ch04-b05
+          speaker: troll
+          text: Now I am coming to gobble you up!
+          emotion: angry
+        - id: ch04-b06
+          speaker: big_gruff
+          text: Well, come along! I have two spears, and I will poke your eyeballs out at your ears. I also have two curling stones, and I will crush you to bits, body and bones!
+        - id: ch04-b07
+          speaker: narrator
+          text: That was the big billy-goat's answer. He flew at the Troll, poked out the Troll's eyes with his horns, crushed him to bits, body and bones, and tossed him into the burn. Then he went up the hillside.
+        - id: ch04-b08
+          speaker: narrator
+          text: The three billy-goats grew so fat there that they could scarcely walk home. And if the fat has not fallen off them, they are still fat today.
+        - id: ch04-b09
+          speaker: narrator
+          text: Snip, snap, snout. This tale is told out.

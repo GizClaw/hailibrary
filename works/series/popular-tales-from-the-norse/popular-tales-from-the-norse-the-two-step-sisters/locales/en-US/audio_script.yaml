@@ -1,0 +1,388 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    mans_daughter:
+      display_name: The Man's Daughter
+      tts:
+        delivery: willing and sincere
+        timbre: clear and youthful
+        pace: lively
+        pitch: medium-high
+    womans_daughter:
+      display_name: The Woman's Daughter
+      tts:
+        delivery: proud and dismissive
+        timbre: blunt and youthful
+        pace: brisk
+        pitch: medium-high
+    hedge:
+      display_name: Hedge
+      tts:
+        delivery: courteous and knowing
+        timbre: dry and rustling
+        pace: unhurried
+        pitch: medium
+    cow:
+      display_name: Cow
+      tts:
+        delivery: gentle and pleading
+        timbre: mellow and full
+        pace: slow
+        pitch: low
+    wether:
+      display_name: Wether
+      tts:
+        delivery: earnest and friendly
+        timbre: soft and woolly
+        pace: measured
+        pitch: medium-low
+    apple_tree:
+      display_name: Apple Tree
+      tts:
+        delivery: patient and gracious
+        timbre: woody and resonant
+        pace: measured
+        pitch: medium-low
+    old_witch:
+      display_name: Old Witch
+      tts:
+        delivery: sharp and suspicious
+        timbre: rough and aged
+        pace: deliberate
+        pitch: low
+    bird_1:
+      display_name: First Little Bird
+      tts:
+        delivery: bright and helpful
+        timbre: small and musical
+        pace: lively
+        pitch: high
+    bird_2:
+      display_name: Second Little Bird
+      tts:
+        delivery: bright and helpful
+        timbre: light and chirping
+        pace: lively
+        pitch: high
+    bird_3:
+      display_name: Third Little Bird
+      tts:
+        delivery: bright and helpful
+        timbre: clear and trilling
+        pace: lively
+        pitch: high
+  chapters:
+    - id: ch01
+      title: Down the Well
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a man and a woman who had each been married before, and each had a daughter. The woman's daughter was dull and lazy. She could never manage any useful work. The man's daughter was quick and capable, yet nothing she did pleased her stepmother. The woman and her own daughter would gladly have sent her away.
+        - id: ch01-b02
+          speaker: narrator
+          text: One day, the two girls went to spin beside the well. The woman's daughter was given flax, while the man's daughter had nothing but bristles.
+        - id: ch01-b03
+          speaker: womans_daughter
+          text: You're always so quick at everything, but I'll still wager I can spin as well as you can.
+        - id: ch01-b04
+          speaker: narrator
+          text: They agreed that whoever broke her thread first must go down the well. They began to spin with all their might. Before long, the man's daughter's thread snapped, so down the well she had to go.
+        - id: ch01-b05
+          speaker: narrator
+          text: At the bottom, she found herself unhurt in a beautiful green meadow that stretched far and wide. She walked on until she came to a hedge that blocked her way.
+        - id: ch01-b06
+          speaker: hedge
+          text: Please step lightly over me. If you take care of me now, I'll help you another day.
+        - id: ch01-b07
+          speaker: narrator
+          text: The girl made herself as light as she could. She crossed so gently that she hardly touched a twig.
+        - id: ch01-b08
+          speaker: narrator
+          text: Farther on stood a lovely brindled cow. A milking pail hung from her horns, and her udder was round and painfully full.
+        - id: ch01-b09
+          speaker: cow
+          text: Please milk me. Drink all you want, then pour the rest over my hoofs. Do that for me, and one day I'll help you.
+        - id: ch01-b10
+          speaker: narrator
+          text: The girl did just as the cow asked. Milk streamed into the pail as soon as she touched the teats. She drank until her thirst was gone, poured what remained over the cow's hoofs, and hung the pail back on her horns.
+        - id: ch01-b11
+          speaker: narrator
+          text: Next she met a great wether. His long, thick wool dragged along the ground and caught on everything. A large pair of shears hung from one horn.
+        - id: ch01-b12
+          speaker: wether
+          text: Please shear this heavy wool away. It catches on everything, and I'm nearly choking with the heat. Keep as much fleece as you like, wind the rest around my neck, and I'll help you someday.
+        - id: ch01-b13
+          speaker: narrator
+          text: She was glad to help. The wether lay quietly across her lap, and she sheared him so neatly that she never scratched his skin. She kept the wool she wanted and wound the rest around his neck.
+        - id: ch01-b14
+          speaker: narrator
+          text: A little later, she reached an apple tree loaded with fruit. Every branch bent toward the ground, and a slender pole leaned against the trunk.
+        - id: ch01-b15
+          speaker: apple_tree
+          text: Please take my apples off so my branches can stand straight again. Use the pole gently. Eat all you wish, lay the rest around my roots, and I'll help you one day.
+        - id: ch01-b16
+          speaker: narrator
+          text: She picked every apple she could reach. Then she used the pole to knock down the others without striking too hard. She ate her fill and arranged the rest neatly around the roots.
+        - id: ch01-b17
+          speaker: narrator
+          text: After a long, long walk, she came to a large farmhouse. An old witch of the Troll folk lived there with her daughter. The girl went in and asked to work for them.
+        - id: ch01-b18
+          speaker: old_witch
+          text: You may as well give up. I've tried maid after maid, and not one was worth her keep.
+        - id: ch01-b19
+          speaker: narrator
+          text: The girl asked so sweetly to be tried that at last the old witch let her stay.
+    - id: ch02
+      title: The Tasks at the Troll Farm
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: First, the witch handed her a sieve and ordered her to bring back water in it. The girl thought that was very strange, but she carried the sieve to the well. There the little birds began to sing.
+        - id: ch02-b02
+          speakers: [bird_1, bird_2, bird_3]
+          ensemble: chorus
+          text: Cover it with clay, and stuff it with straw! Cover it with clay, and stuff it with straw!
+        - id: ch02-b03
+          speaker: narrator
+          text: She followed their advice, and the sieve held water perfectly well. When she brought it home, the old witch took one look and shouted.
+        - id: ch02-b04
+          speaker: old_witch
+          text: You never thought of that by yourself!
+          emotion: angry
+        - id: ch02-b05
+          speaker: narrator
+          text: Next the witch sent her into the cowshed to clear out the dung and milk the cows. The pitchfork there was so long and heavy that she could not even move it. She stood wondering what she could possibly do until the birds sang again. They told her to toss out a little dung with the broomstick, and all the rest would follow.
+        - id: ch02-b06
+          speaker: narrator
+          text: She tried it. The moment she moved the first little heap with the broomstick, every bit of dung flew after it. In no time, the cowshed looked as clean as if it had been swept and washed.
+        - id: ch02-b07
+          speaker: narrator
+          text: Then she tried to milk the cows, but they frisked and kicked so wildly that she could not get near them. Outside, the birds sang once more.
+        - id: ch02-b08
+          speakers: [bird_1, bird_2, bird_3]
+          ensemble: chorus
+          text: Just one small drop, one tiny sip, for the little birds to drink!
+        - id: ch02-b09
+          speaker: narrator
+          text: She managed to draw a tiny drop for the birds. At once, every cow stood still and allowed her to milk. Not one kicked, frisked, or even lifted a leg.
+        - id: ch02-b10
+          speaker: narrator
+          text: The witch saw her return with the milk and cried out again.
+        - id: ch02-b11
+          speaker: old_witch
+          text: You never thought of that by yourself! Now take this black wool and wash it white.
+          emotion: angry
+        - id: ch02-b12
+          speaker: narrator
+          text: The girl had no idea how anyone could wash black wool white, but she said nothing. She took it down to the well. The birds told her to dip it into the great tub that stood there. She did, and when she lifted it out, the wool was white as snow.
+        - id: ch02-b13
+          speaker: old_witch
+          text: Well, I never! There's no use keeping you here. You can do everything, and soon you'll be the plague of my life. Take your wages and go.
+        - id: ch02-b14
+          speaker: narrator
+          text: The old witch brought out three caskets, one red, one green, and one blue. The girl was to choose one for her wages, but she had no idea which was best. Then the birds sang to her.
+        - id: ch02-b15
+          speakers: [bird_1, bird_2, bird_3]
+          ensemble: chorus
+          text: Leave the red and leave the green. Choose the blue, where three small crosses can be seen. We saw those marks, and so we know.
+        - id: ch02-b16
+          speaker: narrator
+          text: She followed their song and chose the blue casket.
+        - id: ch02-b17
+          speaker: old_witch
+          text: Bad luck go with you! I'll make you pay for choosing that one.
+          emotion: angry
+    - id: ch03
+      title: The Blue Casket
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: As the girl set out, the witch hurled a red-hot iron bar after her. The birds had warned her what to do, so she sprang behind the door. The bar flew past without touching her. Then she hurried away as fast as she could.
+        - id: ch03-b02
+          speaker: narrator
+          text: When she reached the apple tree, a terrible clatter sounded on the road behind her. The old witch and her daughter were coming after her. The girl was so frightened that she did not know where to turn.
+        - id: ch03-b03
+          speaker: apple_tree
+          text: Come under my branches, girl, and hide. If they catch you, they'll take your casket and tear you to pieces.
+          emotion: fearful
+        - id: ch03-b04
+          speaker: narrator
+          text: She slipped beneath the branches. She had barely hidden when the witch and her daughter rushed up.
+        - id: ch03-b05
+          speaker: old_witch
+          text: Apple tree, did a girl pass this way?
+        - id: ch03-b06
+          speaker: apple_tree
+          text: Yes, one ran past an hour ago. She's so far ahead now that you'll never catch her.
+        - id: ch03-b07
+          speaker: narrator
+          text: The witch turned around and went home. The girl came out and walked on. Near the wether, she heard that dreadful clatter start up behind her again. The witch had changed her mind and was racing after her once more. Terror seized the girl.
+        - id: ch03-b08
+          speaker: wether
+          text: Come here and hide beneath my fleece. They won't see you there. Otherwise, they'll steal your casket and tear you to pieces.
+          emotion: fearful
+        - id: ch03-b09
+          speaker: narrator
+          text: She hid under his fleece just before the witch came tearing along.
+        - id: ch03-b10
+          speaker: old_witch
+          text: Sheep, have you seen a girl pass here?
+        - id: ch03-b11
+          speaker: wether
+          text: Oh yes, I saw one an hour ago. She ran so fast that you'll never catch her.
+        - id: ch03-b12
+          speaker: narrator
+          text: Once again, the witch turned for home. The girl went on until she reached the cow. Then the awful clatter rose behind her for a third time.
+        - id: ch03-b13
+          speaker: cow
+          text: Come hide beneath my udder. If the witch finds you, she'll take the casket and tear you to pieces.
+          emotion: fearful
+        - id: ch03-b14
+          speaker: narrator
+          text: The girl hid, and soon the witch came up.
+        - id: ch03-b15
+          speaker: old_witch
+          text: Cow, did a girl go past here?
+        - id: ch03-b16
+          speaker: cow
+          text: I saw one an hour ago, but she's far away by now. She ran too fast for you to catch her.
+        - id: ch03-b17
+          speaker: narrator
+          text: The old witch turned back yet again. Much later, when the girl was nearing the hedge, that clatter began behind her once more. The witch and her daughter had changed their minds again, and the girl knew who was coming.
+        - id: ch03-b18
+          speaker: hedge
+          text: Hurry under my twigs, girl. I'll hide you. If they see you, they'll seize your casket and tear you to pieces.
+          emotion: fearful
+        - id: ch03-b19
+          speaker: narrator
+          text: The girl crawled under the twigs as quickly as she could.
+        - id: ch03-b20
+          speaker: old_witch
+          text: Hedge, have you seen a girl pass this way?
+        - id: ch03-b21
+          speaker: hedge
+          text: No, I haven't seen any girl.
+        - id: ch03-b22
+          speaker: narrator
+          text: The hedge spoke as smoothly as melted butter. All the while, he spread himself wider and grew so high that anyone would think twice before crossing. The witch could do nothing but turn back and go home.
+        - id: ch03-b23
+          speaker: narrator
+          text: At last, the man's daughter reached home. Her stepmother and stepsister hated her more than ever, for now she looked neater and finer than before. They would not let her live in the house. Instead, they drove her into the pigsty and told her to make that her home.
+        - id: ch03-b24
+          speaker: narrator
+          text: She scrubbed the pigsty until it was spotless. Then she opened the casket to see what wages she had earned. Gold, silver, and beautiful things streamed out. They covered the walls until the pigsty was grander than the palace of the greatest king.
+        - id: ch03-b25
+          speaker: narrator
+          text: When the stepmother and her daughter saw it, they nearly jumped out of their skins. They demanded to know what sort of place the girl had found below.
+        - id: ch03-b26
+          speaker: mans_daughter
+          text: Can't you tell from the wages I brought home? You could search everywhere and never find another household or mistress like that one.
+    - id: ch04
+      title: The Second Journey
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The woman's daughter decided at once that she would go into service and earn a golden casket too. The girls sat down to spin again. This time, she took the bristles while her stepsister had the flax. As before, the first one to break her thread must go down the well.
+        - id: ch04-b02
+          speaker: narrator
+          text: The bristle thread soon snapped, just as you might expect, and they threw the woman's daughter into the well. She landed safely on the same lovely green meadow. After walking a little way, she came to the hedge.
+        - id: ch04-b03
+          speaker: hedge
+          text: Please don't tread heavily on me. Treat me gently, and I'll help you another day.
+        - id: ch04-b04
+          speaker: womans_daughter
+          text: Why should I care about a bundle of twigs?
+        - id: ch04-b05
+          speaker: narrator
+          text: She tramped and stamped across until the hedge cracked and groaned.
+        - id: ch04-b06
+          speaker: narrator
+          text: Farther on, she found the cow almost bursting for want of milking.
+        - id: ch04-b07
+          speaker: cow
+          text: Please milk me, and I'll help you someday. Drink as much as you want, but pour what remains over my hoofs.
+        - id: ch04-b08
+          speaker: narrator
+          text: The girl milked the cow and drank until she could hold no more. She left nothing for the cow's hoofs. Then she tossed the pail down the hill and walked away.
+        - id: ch04-b09
+          speaker: narrator
+          text: Next she met the wether, whose wool once again dragged along the ground.
+        - id: ch04-b10
+          speaker: wether
+          text: Please shear me, and I'll help you in return. Keep all the wool you need, but wind the rest around my neck.
+        - id: ch04-b11
+          speaker: narrator
+          text: She sheared him carelessly and cut great pieces from the poor animal. Then she took every bit of the wool and carried it away.
+        - id: ch04-b12
+          speaker: narrator
+          text: Soon she reached the apple tree, bent crooked beneath another heavy crop of fruit.
+        - id: ch04-b13
+          speaker: apple_tree
+          text: Please pick my apples so my branches can straighten. Be gentle with the pole. Eat as many as you like, place the rest neatly around my roots, and I'll help you again.
+        - id: ch04-b14
+          speaker: narrator
+          text: She plucked the nearest apples and beat down the others with the pole. She struck without care, breaking and tearing away great branches. After eating until she could eat no more, she flung the remaining apples under the tree.
+        - id: ch04-b15
+          speaker: narrator
+          text: At last she came to the witch's farm and asked for a position. The witch refused. She said every maid was either useless or so clever that she cheated the household of its goods. But the girl insisted that she must have a place, so the witch agreed to try her.
+        - id: ch04-b16
+          speaker: narrator
+          text: Her first task was to fetch water in the sieve. At the well, every drop ran out as quickly as she poured it in. The little birds sang their advice.
+        - id: ch04-b17
+          speakers: [bird_1, bird_2, bird_3]
+          ensemble: chorus
+          text: Cover it with clay, and put in straw! Cover it with clay, and put in straw!
+        - id: ch04-b18
+          speaker: narrator
+          text: She paid no attention. Instead, she pelted the birds with clay until they flew far away. Then she returned with an empty sieve and received a fierce scolding from the witch.
+        - id: ch04-b19
+          speaker: narrator
+          text: The witch sent her to clean the cowshed and milk the cows. The girl thought such dirty work was beneath her. Still, she went out, only to find that the huge pitchfork was impossible to use.
+        - id: ch04-b20
+          speaker: narrator
+          text: The birds told her to move a little dung with the broomstick so the rest would fly after it. She answered by throwing the broomstick at them.
+        - id: ch04-b21
+          speaker: narrator
+          text: When she tried to milk, the unruly cows kicked and shoved. Each time she got a little milk into the pail, they kicked it over. The birds sang once more.
+        - id: ch04-b22
+          speakers: [bird_1, bird_2, bird_3]
+          ensemble: chorus
+          text: Just one small drop, one tiny sip, for the little birds to drink!
+        - id: ch04-b23
+          speaker: narrator
+          text: The girl beat and banged the cows. She hurled everything she could find at the birds and made a dreadful uproar. She accomplished almost nothing, either cleaning or milking.
+        - id: ch04-b24
+          speaker: narrator
+          text: Indoors, the witch gave her blows along with harsh words. Then she sent her to wash the black wool white, but the girl failed at that task too.
+    - id: ch05
+      title: The Red Casket
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The witch decided she had endured enough. She set out the red, green, and blue caskets and told the girl that her service was no longer needed. She was not worth keeping, but she could choose any casket she wished as her wages.
+        - id: ch05-b02
+          speaker: narrator
+          text: The little birds sang one last warning.
+        - id: ch05-b03
+          speakers: [bird_1, bird_2, bird_3]
+          ensemble: chorus
+          text: Leave the red and leave the green. Choose the blue, where three small crosses can be seen. We saw those marks, and so we know.
+        - id: ch05-b04
+          speaker: narrator
+          text: She cared nothing for their song. The red casket caught her eye, so she chose it and started home. She traveled quietly and easily. No one came chasing after her.
+        - id: ch05-b05
+          speaker: narrator
+          text: Her mother nearly jumped for joy when she arrived. Together, they rushed to the hearth and set the casket there. They were certain it held nothing but silver and gold. They imagined the walls and roof shining like the pigsty.
+        - id: ch05-b06
+          speaker: narrator
+          text: But when they opened it, out tumbled toads, frogs, and snakes. Worse still, each time the woman's daughter opened her mouth, a toad or snake popped out, followed by every sort of crawling creature anyone could imagine. At last, no one could bear to live in the house with her.
+        - id: ch05-b07
+          speaker: narrator
+          text: And that was all the pay she earned for serving the old witch.

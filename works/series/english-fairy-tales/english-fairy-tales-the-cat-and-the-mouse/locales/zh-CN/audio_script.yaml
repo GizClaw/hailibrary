@@ -1,0 +1,119 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容讲述古老童话，带着轻快而一本正经的诙谐
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中
+    mouse:
+      display_name: 老鼠
+      tts:
+        delivery: 急切恳求，话越说越长却始终伶俐清楚
+        timbre: 细小明亮
+        pace: 中等偏快
+        pitch: 高
+    cat:
+      display_name: 猫
+      tts:
+        delivery: 任性直截了当，理所当然地开出条件
+        timbre: 圆润慵懒
+        pace: 中等偏缓
+        pitch: 中
+    cow:
+      display_name: 母牛
+      tts:
+        delivery: 朴实坚定，不紧不慢
+        timbre: 浑厚柔和
+        pace: 缓慢
+        pitch: 低
+    farmer:
+      display_name: 农夫
+      tts:
+        delivery: 务实爽快，语气干脆
+        timbre: 粗犷温厚
+        pace: 中等
+        pitch: 中低
+    butcher:
+      display_name: 屠夫
+      tts:
+        delivery: 坚决利落，毫不含糊
+        timbre: 洪亮结实
+        pace: 中等
+        pitch: 低
+    baker:
+      display_name: 面包师
+      tts:
+        delivery: 先慷慨答应，再郑重警告
+        timbre: 明亮饱满
+        pace: 中等
+        pitch: 中
+  chapters:
+    - id: ch01
+      title: 丢掉的尾巴
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "猫儿和老鼠，在麦芽房里玩又舞。谁知猫一口咬掉了老鼠的尾巴。"
+        - id: ch01-b02
+          speaker: mouse
+          text: "猫咪，求求你，把我的尾巴还给我吧。"
+        - id: ch01-b03
+          speaker: cat
+          text: "不给。你去找母牛，给我取来一些奶，我才还你尾巴。"
+    - id: ch02
+      title: 从母牛到农夫
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "老鼠先蹦来，随后又跑，一路赶到母牛身旁，开口向它请求。"
+        - id: ch02-b02
+          speaker: mouse
+          text: "母牛，求你给我一些奶吧。我把奶拿给猫，它就会把我自己的尾巴还给我。"
+        - id: ch02-b03
+          speaker: cow
+          text: "我不给。你先找农夫弄些干草来，我才给你奶。"
+        - id: ch02-b04
+          speaker: narrator
+          text: "老鼠又是先蹦来，随后又跑，一直赶到农夫身旁，开口向他请求。"
+        - id: ch02-b05
+          speaker: mouse
+          text: "农夫，求你给我一些干草吧。我把草送给母牛，它就会给我奶。我再把奶拿给猫，猫就肯把我自己的尾巴还给我了。"
+        - id: ch02-b06
+          speaker: farmer
+          text: "干草不能白给。你去找屠夫取些肉来，我才把草给你。"
+    - id: ch03
+      title: 从屠夫到面包师
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "老鼠先蹦来，随后又跑，这回赶到了屠夫身旁，开口向他请求。"
+        - id: ch03-b02
+          speaker: mouse
+          text: "屠夫，求你给我一些肉吧。我把肉给农夫，农夫才给我干草。干草给母牛，母牛才给我奶。奶给了猫，猫才会把尾巴还给我。"
+        - id: ch03-b03
+          speaker: butcher
+          text: "肉也不能白给。你到面包师那里取些面包来，我才给你肉。"
+        - id: ch03-b04
+          speaker: narrator
+          text: "老鼠只好再先蹦来，随后又跑，一路找到了面包师，开口向他请求。"
+        - id: ch03-b05
+          speaker: mouse
+          text: "面包师，求你给我一些面包吧。面包给屠夫，他才给我肉。肉给农夫，他才给我干草。干草给母牛，它才给我奶。奶给了猫，猫才肯把尾巴还给我。"
+        - id: ch03-b06
+          speaker: baker
+          text: "好吧，面包给你不用愁。可你敢吃我的面粉，我就砍掉你的头。"
+    - id: ch04
+      title: 尾巴回来了
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "面包师把面包交给老鼠，老鼠立刻把面包送到屠夫手里。屠夫收下面包，拿肉给了老鼠。"
+        - id: ch04-b02
+          speaker: narrator
+          text: "老鼠把肉送给农夫，换回干草。又把干草送给母牛，换来牛奶。"
+        - id: ch04-b03
+          speaker: narrator
+          text: "最后，老鼠把牛奶给了猫。猫这才把那条尾巴还给老鼠。老鼠自己的尾巴，终于回来啦！"

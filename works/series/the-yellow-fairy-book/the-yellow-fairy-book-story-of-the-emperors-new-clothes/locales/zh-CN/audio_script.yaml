@@ -1,0 +1,300 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 沉静从容，带着古老童话的神秘与温情
+        timbre: 温暖清朗
+        pace: 舒缓而富有变化
+        pitch: 中音
+    emperor:
+      display_name: 皇帝
+      tts:
+        delivery: 爱慕虚荣，故作威严，心虚时仍竭力维持体面
+        timbre: 饱满华贵
+        pace: 适中
+        pitch: 中音
+    impostor_1:
+      display_name: 骗子织工甲
+      tts:
+        delivery: 圆滑自信，善于奉承和引诱
+        timbre: 明亮灵巧
+        pace: 稍快
+        pitch: 中高音
+    impostor_2:
+      display_name: 骗子织工乙
+      tts:
+        delivery: 油滑热情，话里始终带着笃定
+        timbre: 轻快清晰
+        pace: 稍快
+        pitch: 中音
+    old_minister:
+      display_name: 老大臣
+      tts:
+        delivery: 忠厚谨慎，受惊后努力装得镇定
+        timbre: 苍老温和
+        pace: 稍缓
+        pitch: 中低音
+    statesman:
+      display_name: 官员
+      tts:
+        delivery: 老成持重，心虚时格外郑重
+        timbre: 清晰稳重
+        pace: 适中
+        pitch: 中低音
+    knight_1:
+      display_name: 骑士甲
+      tts:
+        delivery: 恭敬拘谨，习惯随声附和
+        timbre: 浑厚清楚
+        pace: 适中
+        pitch: 中低音
+    knight_2:
+      display_name: 骑士乙
+      tts:
+        delivery: 谨慎顺从，赞叹时刻意热烈
+        timbre: 明朗坚实
+        pace: 适中
+        pitch: 中音
+    knight_3:
+      display_name: 骑士丙
+      tts:
+        delivery: 庄重克制，唯恐显得与众不同
+        timbre: 清朗厚实
+        pace: 稍缓
+        pitch: 中音
+    master_of_ceremonies:
+      display_name: 典礼官
+      tts:
+        delivery: 礼貌严整，禀报时一丝不苟
+        timbre: 端正清晰
+        pace: 适中
+        pitch: 中音
+    chamberlain_1:
+      display_name: 侍从甲
+      tts:
+        delivery: 谨小慎微，竭力维持庄严
+        timbre: 平稳清楚
+        pace: 适中
+        pitch: 中音
+    chamberlain_2:
+      display_name: 侍从乙
+      tts:
+        delivery: 恭顺拘谨，不敢流露疑惑
+        timbre: 柔和清晰
+        pace: 适中
+        pitch: 中高音
+    citizen_1:
+      display_name: 市民甲
+      tts:
+        delivery: 好奇热切，随着人群高声称赞
+        timbre: 明亮自然
+        pace: 稍快
+        pitch: 中音
+    citizen_2:
+      display_name: 市民乙
+      tts:
+        delivery: 小心从众，说话时留意旁人反应
+        timbre: 清晰柔和
+        pace: 适中
+        pitch: 中高音
+    citizen_3:
+      display_name: 市民丙
+      tts:
+        delivery: 热闹直爽，容易被众人的声音带动
+        timbre: 洪亮自然
+        pace: 稍快
+        pitch: 中音
+    child:
+      display_name: 小孩子
+      tts:
+        delivery: 天真直接，只说自己亲眼看见的事实
+        timbre: 清脆稚嫩
+        pace: 自然
+        pitch: 高音
+    father:
+      display_name: 孩子的父亲
+      tts:
+        delivery: 温和惊讶，听懂真话后忍不住认同
+        timbre: 温暖朴实
+        pace: 适中
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 神奇的布
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 许多年以前，有位皇帝把新衣服看得比什么都重要。他把钱全花在打扮上，不问军队，也不爱看戏，只想穿着新衣出门，让大家欣赏。他每个钟点都要换一件外衣。别国的人会说，国王正在议事厅。这里的人却总说，皇帝又在衣帽间里。
+        - id: ch01-b02
+          speaker: narrator
+          text: 皇帝住的那座大城天天都有新鲜事，外乡人也来来往往。一天，两个骗子进了城。他们自称织工，说能织出世上最美的布。花纹和颜色固然无与伦比，更神奇的是，用它做成的衣服，只有称职又聪明的人才能看见。谁要是看不见，不是配不上自己的职位，就是蠢得无可救药。
+        - id: ch01-b03
+          speaker: emperor
+          text: 这样的衣服才真正了不起！只要穿上它，朕就能看出谁不配做官，还能把聪明人和蠢人分得清清楚楚。马上替朕织出来！
+        - id: ch01-b04
+          speaker: narrator
+          text: 皇帝当场赏给两人许多钱。骗子们架起两台织布机，坐在前面忙个不停，可机上连一根丝线也没有。他们还要来最好的丝和最纯的金子，说这些都是织布必需的材料。东西一到手，两人便全塞进自己口袋，自己却对着空织布机一直忙到深夜。
+        - id: ch01-b05
+          speaker: narrator
+          text: 皇帝很想知道布织得怎样了。一想到愚蠢和不称职的人看不见它，他心里又有些不安。他当然认定自己不必害怕，却决定先派别人去试一试，正好看看那个人是否配得上自己的官职。全城的人也早已听说布的魔力，个个等着看邻居究竟有多无能、多愚蠢。
+        - id: ch01-b06
+          speaker: emperor
+          text: 让那位年高德劭的老大臣先去。他聪明又称职，没有人比他更懂得鉴赏这块布。
+    - id: ch02
+      title: 谁也看不见
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 忠厚的老大臣走进织布大厅。两个骗子正坐在空机子前，装得忙忙碌碌。他瞪大眼睛，心里一下凉了。
+        - id: ch02-b02
+          speaker: old_minister
+          text: 天哪，我怎么看不见？
+          emotion: fearful
+        - id: ch02-b03
+          speaker: narrator
+          text: 老大臣没敢把话说出来。骗子们热情地请他靠近，指着空织布机，问花纹美不美，颜色漂不漂亮。可怜的老人揉了又揉眼睛，还是什么也没有看见，因为那里本来就是空的。
+        - id: ch02-b04
+          speaker: old_minister
+          text: 难道我竟是个蠢人？从没人这样说过我，千万不能叫别人知道。又或者，我根本不配做这个官？不，我绝不能承认自己看不见！
+          emotion: fearful
+        - id: ch02-b05
+          speaker: impostor_1
+          text: 大人，您看了这么久，怎么一句评价也没有呢？
+        - id: ch02-b06
+          speaker: old_minister
+          text: 美，实在太美了！我隔着眼镜也看得清清楚楚。花纹精巧，颜色漂亮。我一定告诉陛下，这块布让我十分满意。
+        - id: ch02-b07
+          speakers: [impostor_1, impostor_2]
+          ensemble: duo
+          text: 您喜欢就好，我们听了真高兴！
+        - id: ch02-b08
+          speaker: narrator
+          text: 两人随口报出一种又一种颜色，又把根本不存在的花纹和织法讲得头头是道。老大臣听得格外专心，把每句话都牢牢记在心里。回到皇帝面前，他果然把两个骗子的说法原样复述了一遍。
+        - id: ch02-b09
+          speaker: narrator
+          text: 骗子们接着索要更多钱、更多丝和更多金子，仍旧全装进自己的口袋。织布机上连一根新线也没有，他们却照旧装作忙碌。不久，皇帝又派一位受人敬重的官员前去，既要查看进度，也要问问布能不能很快织完。那人盯着织布机看了半天，也只看见一片空荡荡。
+        - id: ch02-b10
+          speakers: [impostor_1, impostor_2]
+          ensemble: duo
+          text: 您瞧，这么美的衣料，难道还有第二块吗？
+        - id: ch02-b11
+          speaker: narrator
+          text: 两个骗子指指点点，把那块不存在的布描述得华丽无比。官员越听越慌，却不肯怀疑自己的聪明。
+        - id: ch02-b12
+          speaker: statesman
+          text: 我当然不蠢。那一定是我配不上现在的职位了。这事实在奇怪，可绝不能让任何人发现。
+        - id: ch02-b13
+          speaker: narrator
+          text: 他也对着空织布机大加赞赏，说自己被鲜艳的色彩和精美的花纹深深打动。回到宫里，他郑重地向皇帝禀报。
+        - id: ch02-b14
+          speaker: statesman
+          text: 陛下，那块布确实美极了。
+        - id: ch02-b15
+          speaker: narrator
+          text: 很快，整座城都在谈论那块华丽的布。皇帝再也等不下去，便带着一大群精心挑选的随从亲自去看。老大臣和那位官员也跟着他，又来到两个正拼命空织的骗子面前。
+        - id: ch02-b16
+          speakers: [old_minister, statesman]
+          ensemble: duo
+          text: 陛下快看！这花纹多么精巧，这颜色多么漂亮！
+        - id: ch02-b17
+          speaker: narrator
+          text: 两位臣子指着空织布机，都以为别人一定看得见。皇帝却也只看见两台空机子。这个发现让他惊恐万分。
+        - id: ch02-b18
+          speaker: emperor
+          text: 怎么会这样？朕什么也看不见！难道朕是个蠢人，甚至不配做皇帝？世上再没有比这更可怕的事了！
+          emotion: fearful
+        - id: ch02-b19
+          speaker: emperor
+          text: 啊，果然漂亮。朕十分满意。
+        - id: ch02-b20
+          speaker: narrator
+          text: 他满脸和气地点头，还凑近空织布机认真端详，绝口不提自己看不见。满朝随从也看了又看，结果谁都一样。可他们纷纷称赞，又劝皇帝在即将举行的盛大游行上首次穿起这套新衣。
+        - id: ch02-b21
+          speakers: [knight_1, knight_2, knight_3]
+          ensemble: chorus
+          text: 太华丽了！真是可爱，美得无与伦比！
+        - id: ch02-b22
+          speaker: narrator
+          text: 赞叹声从这个人口中传到那个人口中，仿佛人人都欢喜极了。皇帝一高兴，还封两个骗子做了御用织师。
+    - id: ch03
+      title: 皇帝的新衣
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 游行前一夜，两个骗子点起十六支以上的蜡烛，通宵假装赶工。人们远远望着，只觉得他们为了及时做好皇帝的新衣，忙得不可开交。两人先从空织布机上取下不存在的布，再举着大剪刀在空中裁来裁去，最后拿起没有线的针缝个不停。
+        - id: ch03-b02
+          speakers: [impostor_1, impostor_2]
+          ensemble: duo
+          text: 新衣已经全部做好了！
+        - id: ch03-b03
+          speaker: narrator
+          text: 皇帝亲自带着最高贵的骑士前来试衣。两个骗子各自伸出一条手臂，好像手里真的托着东西。
+        - id: ch03-b04
+          speaker: impostor_1
+          text: 陛下请看，这是新裤子，这是外衣，还有这件披风。每一件都轻柔得像空气。
+        - id: ch03-b05
+          speaker: impostor_2
+          text: 穿上以后，简直像身上什么也没有。可这正是它最奇妙的地方！
+        - id: ch03-b06
+          speakers: [knight_1, knight_2, knight_3]
+          ensemble: chorus
+          text: 是啊，确实轻得不得了！
+        - id: ch03-b07
+          speaker: narrator
+          text: 骑士们其实什么也没看见，那里也确实什么都没有。两个骗子却请皇帝脱下身上的衣服，要当着镜子的面替他换装。
+        - id: ch03-b08
+          speaker: impostor_1
+          text: 请陛下把旧衣脱下来，我们这就为您穿上新衣。
+        - id: ch03-b09
+          speaker: narrator
+          text: 皇帝果真脱得一丝不挂。骗子们围在他身边，假装把裤子、外衣和披风一件件套到他身上。皇帝对着镜子来回转身，又弯下腰仔细打量自己。
+        - id: ch03-b10
+          speakers: [knight_1, knight_2, knight_3]
+          ensemble: chorus
+          text: 多么合身，多么体面！衣料和颜色都无可挑剔，真是一套华贵的礼服！
+        - id: ch03-b11
+          speaker: master_of_ceremonies
+          text: 陛下，游行时用的华盖已经到了，外面的人正等着您。
+        - id: ch03-b12
+          speaker: emperor
+          text: 好，朕准备好了。你们看，这套衣服不是十分合身吗？
+        - id: ch03-b13
+          speaker: narrator
+          text: 皇帝又在镜子前转了一圈，仿佛真要确认华服每一处都妥妥帖帖。两名负责托衣摆的侍从俯身把手伸向地板，再装作捧起一条长长的拖摆。他们谁也不敢承认，自己手里空无一物。
+    - id: ch04
+      title: 那句真话
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 游行开始了。皇帝赤身裸体地走在华丽的华盖下面，两名侍从举着双手，认真托住那条不存在的衣摆。街道两旁挤满百姓，窗口也探出一张张脸。
+        - id: ch04-b02
+          speakers: [citizen_1, citizen_2, citizen_3]
+          ensemble: chorus
+          text: 皇帝的新衣举世无双！瞧那条长长的衣摆，垂得多么漂亮！
+        - id: ch04-b03
+          speaker: narrator
+          text: 谁也不愿承认自己看不见。说出口，就等于承认自己既不称职又愚蠢。于是，这套根本不存在的新衣，得到的称赞竟超过皇帝从前所有的衣服。
+        - id: ch04-b04
+          speaker: child
+          text: 可是，他身上什么也没穿呀！
+        - id: ch04-b05
+          speaker: father
+          text: 你们听，这个天真的孩子说了什么！
+        - id: ch04-b06
+          speaker: narrator
+          text: 孩子的话在人群里悄悄传开。一个人说给邻居听，邻居又传给另一个人。没过多久，所有人都知道，那句话说出了他们亲眼看见的事实。
+        - id: ch04-b07
+          speakers: [citizen_1, citizen_2, citizen_3]
+          ensemble: chorus
+          text: 他身上什么也没穿！
+        - id: ch04-b08
+          speaker: narrator
+          text: 皇帝听见这喊声，猛然一惊，也觉得百姓说得恐怕没错。可游行已经走到这里，他只剩下一个念头。
+        - id: ch04-b09
+          speaker: emperor
+          text: 不管怎样，朕必须把这场游行走到底。
+        - id: ch04-b10
+          speaker: narrator
+          text: 皇帝摆出更加庄严的姿态，继续向前走。两名侍从也把腰杆挺得更直，仍旧托着那条根本不存在的衣摆。

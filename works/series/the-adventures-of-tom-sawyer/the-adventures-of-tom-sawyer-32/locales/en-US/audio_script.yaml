@@ -1,0 +1,155 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant storytelling with a dry sense of humor
+        timbre: clear and rounded
+        pace: measured with lively turns
+        pitch: medium
+    tom:
+      display_name: Tom Sawyer
+      tts:
+        delivery: lively and impulsive, with earnest feeling beneath the bravado
+        timbre: bright and youthful
+        pace: quick with breathless turns
+        pitch: medium-high
+    judge_thatcher:
+      display_name: Judge Thatcher
+      tts:
+        delivery: confident and kindly, becoming urgent when alarmed
+        timbre: full and authoritative
+        pace: measured
+        pitch: medium-low
+    villager_1:
+      display_name: Villager One
+      tts:
+        delivery: excited and wholehearted
+        timbre: clear and sturdy
+        pace: brisk
+        pitch: medium
+    villager_2:
+      display_name: Villager Two
+      tts:
+        delivery: excited and wholehearted
+        timbre: warm and ringing
+        pace: brisk
+        pitch: medium-high
+    villager_3:
+      display_name: Villager Three
+      tts:
+        delivery: excited and wholehearted
+        timbre: rough and resonant
+        pace: brisk
+        pitch: medium-low
+    boatman_1:
+      display_name: First Boatman
+      tts:
+        delivery: practical and plainspoken
+        timbre: weathered and firm
+        pace: steady
+        pitch: medium-low
+    boatman_2:
+      display_name: Second Boatman
+      tts:
+        delivery: practical and plainspoken
+        timbre: clear and grounded
+        pace: steady
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: CHAPTER XXXII
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Tuesday afternoon faded into evening, and St. Petersburg was still in mourning. The lost children had not been found. The whole village had prayed for them, and many people had prayed alone with all their hearts. Still, no good news came from the cave.
+        - id: ch01-b02
+          speaker: narrator
+          text: Most of the searchers had given up and gone back to their everyday work. They said it was plain that the children would never be found. Mrs. Thatcher was very ill and often out of her mind. It broke people's hearts to hear her call for Becky, lift her head, and listen for a whole minute. Then she would sink down again with a moan. Aunt Polly had fallen into a deep, lasting sadness, and her gray hair had turned almost white. On Tuesday night, the village went to bed feeling lonely and hopeless.
+        - id: ch01-b03
+          speaker: narrator
+          text: Then, in the middle of the night, the village bells burst into a wild clamor. In moments, the streets filled with frantic people who were only half dressed.
+        - id: ch01-b04
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
+          text: Come out! Come out! They found them! They found them!
+          emotion: happy
+        - id: ch01-b05
+          speaker: narrator
+          text: Tin pans and horns joined the noise. Everyone crowded together and hurried toward the river. There they met Tom and Becky, riding in an open carriage pulled by citizens who shouted as they came. The crowd closed around the carriage, turned with it toward home, and swept up the main street with cheer after cheer.
+        - id: ch01-b06
+          speaker: narrator
+          text: Lights blazed all over the village, and nobody went back to bed. It was the greatest night the little town had ever known. For the first half hour, a steady line of villagers passed through Judge Thatcher's house. They grabbed the rescued children and kissed them. They squeezed Mrs. Thatcher's hand and tried to speak, but no words would come. Then they drifted out again, crying everywhere they went.
+        - id: ch01-b07
+          speaker: narrator
+          text: Aunt Polly's happiness was complete. Mrs. Thatcher's was nearly complete, too. A messenger had been sent into the cave with the great news. Once he reached Judge Thatcher, her happiness would be complete as well.
+        - id: ch01-b08
+          speaker: narrator
+          text: Tom lay on a sofa with an eager audience gathered around him. He told them all about the wonderful adventure, adding plenty of exciting touches of his own. At last, he reached the story of their escape.
+        - id: ch01-b09
+          speaker: tom
+          text: I left Becky and went exploring. I followed one passage until my kite string ran out, then tried a second one. On the third passage, I stretched the string as far as it would go. I was just about to turn back when I saw a tiny spot far away. It looked like daylight. So I dropped the string and felt my way toward it. There was a little hole. I pushed my head and shoulders through, and there was the wide Mississippi rolling right past me!
+        - id: ch01-b10
+          speaker: narrator
+          text: If it had been night, Tom would never have seen that speck of light. He would never have explored that passage again.
+        - id: ch01-b11
+          speaker: tom
+          text: I went back to Becky and told her we'd found a way out. But she said I shouldn't bother her with such things. She was tired. She knew she was going to die, and she wanted to. I kept working on her until she believed me. Then she crawled far enough to see that little blue spot of daylight for herself. She almost died from being so happy.
+        - id: ch01-b12
+          speaker: tom
+          text: I squeezed out through the hole first, then helped Becky through. We sat there and cried because we were so glad. After a while, some men came down the river in a skiff. I called to them and told them where we'd been and how starved we were.
+        - id: ch01-b13
+          speakers: [boatman_1, boatman_2]
+          ensemble: duo
+          text: That can't be true. You're five miles downriver from the valley where the cave is.
+        - id: ch01-b14
+          speaker: narrator
+          text: At first, the men could not believe such a wild story. Then they took the children aboard and rowed them to a house. They fed Tom and Becky, made them rest until two or three hours after dark, and finally brought them home.
+        - id: ch01-b15
+          speaker: narrator
+          text: Before dawn, people followed the trails of string through the cave. They found Judge Thatcher and the few searchers still with him, then gave them the wonderful news.
+        - id: ch01-b16
+          speaker: narrator
+          text: Three days and nights of hunger and struggle in the cave could not be thrown off at once. Tom and Becky soon learned that. They stayed in bed all Wednesday and Thursday, growing more tired and worn instead of less. Tom managed to get up for a while on Thursday. On Friday, he went downtown, and by Saturday he was nearly himself again. Becky did not leave her room until Sunday. When she finally did, she looked as though she had been through a long, wasting illness.
+        - id: ch01-b17
+          speaker: narrator
+          text: Tom heard that Huck was sick and went to see him on Friday, but no one would let him into the bedroom. He tried again on Saturday and Sunday, with no better luck. After that, he was admitted each day. He was warned not to mention his adventure or bring up anything exciting, and the Widow Douglas stayed close by to make sure he obeyed.
+        - id: ch01-b18
+          speaker: narrator
+          text: At home, Tom learned what had happened on Cardiff Hill. He also heard that the ragged man's body had finally been found in the river near the ferry landing. People thought he had drowned while trying to escape.
+        - id: ch01-b19
+          speaker: narrator
+          text: About two weeks after Tom came out of the cave, he set off to visit Huck. By then, Huck was strong enough to hear exciting talk, and Tom thought he had something that would interest him.
+        - id: ch01-b20
+          speaker: narrator
+          text: Judge Thatcher's house stood along the way, so Tom stopped to see Becky. The judge and several friends got him talking. One of them teasingly asked whether he would like to go into the cave again.
+        - id: ch01-b21
+          speaker: tom
+          text: I don't think I'd mind going back.
+        - id: ch01-b22
+          speaker: judge_thatcher
+          text: I'm sure there are others just like you, Tom. But we've taken care of that. Nobody will ever get lost in that cave again.
+        - id: ch01-b23
+          speaker: tom
+          text: Why not?
+        - id: ch01-b24
+          speaker: judge_thatcher
+          text: Two weeks ago, I had the big door covered with boiler iron and locked three times. I have the keys myself.
+        - id: ch01-b25
+          speaker: narrator
+          text: Tom went as white as a sheet.
+        - id: ch01-b26
+          speaker: judge_thatcher
+          text: What's wrong, Tom? Someone, hurry! Bring him a glass of water!
+          emotion: surprised
+        - id: ch01-b27
+          speaker: narrator
+          text: Someone brought the water and splashed it into Tom's face.
+        - id: ch01-b28
+          speaker: judge_thatcher
+          text: There, you're all right now. What happened to you, Tom?
+        - id: ch01-b29
+          speaker: tom
+          text: Oh, Judge! Injun Joe is inside the cave!
+          emotion: fearful

@@ -1,0 +1,220 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    mother:
+      display_name: Mother
+      tts:
+        delivery: brisk, practical, and quick to speak her mind
+        timbre: mature and earthy
+        pace: medium
+        pitch: medium-low
+    daughter:
+      display_name: Daughter
+      tts:
+        delivery: youthful and direct, shifting from careless to frightened to clever
+        timbre: bright and natural
+        pace: medium
+        pitch: medium-high
+    father:
+      display_name: Father
+      tts:
+        delivery: plainspoken and earnest, easily carried away by feeling
+        timbre: sturdy and rustic
+        pace: medium
+        pitch: low
+    gentleman:
+      display_name: Gentleman
+      tts:
+        delivery: courteous and confident, with amused good sense
+        timbre: clear and polished
+        pace: medium
+        pitch: medium-low
+    cottage_woman:
+      display_name: Cottage Woman
+      tts:
+        delivery: determined and matter-of-fact, certain of her own reasoning
+        timbre: mature and homespun
+        pace: medium
+        pitch: medium
+    traveler:
+      display_name: Traveler
+      tts:
+        delivery: friendly and open, becoming breathless with effort
+        timbre: genial and rounded
+        pace: medium
+        pitch: medium
+    villager_1:
+      display_name: First Villager
+      tts:
+        delivery: urgent and indignant
+        timbre: rough and lively
+        pace: quick
+        pitch: medium
+    villager_2:
+      display_name: Second Villager
+      tts:
+        delivery: urgent and indignant
+        timbre: clear and rustic
+        pace: quick
+        pitch: medium-high
+    villager_3:
+      display_name: Third Villager
+      tts:
+        delivery: urgent and indignant
+        timbre: deep and weathered
+        pace: quick
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Mallet in the Cellar
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, a farmer and his wife had one daughter. A gentleman was courting her. Every evening he came to the farmhouse, stayed for supper, and waited while the daughter went down to the cellar to draw the beer.
+        - id: ch01-b02
+          speaker: narrator
+          text: One evening, as the beer ran into her jug, she happened to look up. There was a mallet stuck in a beam overhead. It must have been there for a very long time, though she had never noticed it before. She began to think about it.
+        - id: ch01-b03
+          speaker: daughter
+          text: Suppose my sweetheart and I get married, and suppose we have a son. One day he'll grow into a man. What if he comes down here to draw the beer, just as I'm doing now, and that mallet falls on his head and kills him? Oh, how dreadful that would be!
+          emotion: fearful
+        - id: ch01-b04
+          speaker: narrator
+          text: She set down the candle and the jug, sat on the cellar settle, and began to cry. Meanwhile, the beer kept running.
+        - id: ch01-b05
+          speaker: narrator
+          text: Upstairs, everyone wondered why she was taking so long. Her mother went down to find her. There sat the girl, crying, while beer spread across the floor.
+        - id: ch01-b06
+          speaker: mother
+          text: Why, whatever is wrong?
+        - id: ch01-b07
+          speaker: daughter
+          text: Oh, Mother, look at that horrible mallet! Suppose my sweetheart and I marry and have a son. When he's grown, he might come down here to draw beer, and the mallet could fall on his head and kill him. Wouldn't that be dreadful?
+          emotion: fearful
+        - id: ch01-b08
+          speaker: mother
+          text: Dear, dear! It would be dreadful!
+          emotion: sad
+        - id: ch01-b09
+          speaker: narrator
+          text: The mother sat beside her daughter and began to cry too. After a while, the father wondered why neither of them had returned. He went down himself. He found them side by side in tears, with beer still pouring over the floor.
+        - id: ch01-b10
+          speaker: father
+          text: Whatever is the matter with you both?
+        - id: ch01-b11
+          speaker: mother
+          text: Look at that dreadful mallet. Imagine our daughter marrying her sweetheart and having a son. He could grow up, come down here for beer, and be killed when the mallet falls on his head!
+          emotion: fearful
+        - id: ch01-b12
+          speaker: father
+          text: Dear, dear, dear! Yes, that would be dreadful!
+          emotion: sad
+        - id: ch01-b13
+          speaker: narrator
+          text: So the father sat beside the other two and cried with them. Now all three of them were down in the cellar, and still no one had thought to stop the beer.
+        - id: ch01-b14
+          speaker: narrator
+          text: At last, the gentleman grew tired of waiting alone in the kitchen. He went down to see what the family was doing. All three were crying in a row, and beer was running everywhere. He hurried over and turned off the tap.
+        - id: ch01-b15
+          speaker: gentleman
+          text: Why are the three of you sitting here crying while all the beer runs onto the floor?
+        - id: ch01-b16
+          speaker: father
+          text: Just look at that horrible mallet! Suppose you marry our daughter and have a son. When he's a man, he may come down to draw beer, and that mallet may fall and kill him!
+          emotion: fearful
+        - id: ch01-b17
+          speaker: narrator
+          text: At that, all three cried harder than ever over the son who had not even been born. But the gentleman burst out laughing. He reached up, took hold of the mallet, and pulled it from the beam.
+        - id: ch01-b18
+          speaker: gentleman
+          text: I've traveled many miles, but I've never met three such great sillies. I'm going back out into the world. If I find three people sillier than you, I'll return and marry your daughter.
+        - id: ch01-b19
+          speaker: narrator
+          text: He said goodbye and set off on his travels. Behind him, the family kept crying because the daughter had lost her sweetheart.
+
+    - id: ch02
+      title: The Cow on the Roof
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The gentleman traveled a long way. At last, he came to a cottage with grass growing on its roof. A woman had set a ladder against the house and was trying to make her cow climb up. The poor animal was afraid to go.
+        - id: ch02-b02
+          speaker: gentleman
+          text: What are you trying to do?
+        - id: ch02-b03
+          speaker: cottage_woman
+          text: Why, look at all that lovely grass! I'm taking the cow onto the roof so she can eat it. She'll be perfectly safe. I'll tie a string around her neck, drop the other end down the chimney, and fasten it to my wrist while I work inside. If she falls, I'll know at once.
+        - id: ch02-b04
+          speaker: gentleman
+          text: You poor silly! Cut the grass and throw it down to the cow.
+        - id: ch02-b05
+          speaker: narrator
+          text: But the woman thought getting the cow up the ladder would be easier than bringing the grass down. She kept pushing and coaxing the frightened animal until at last the cow reached the roof. Then she tied one end of a string around its neck, passed the other end down the chimney, and fastened it to her own wrist. After that, she went about her work inside the cottage.
+        - id: ch02-b06
+          speaker: narrator
+          text: The gentleman continued on his way. He had not gone far when the cow tumbled off the roof. The string caught it by the neck and strangled it. At the same time, the cow's weight pulled the woman up the chimney. She stuck halfway and was smothered in soot.
+        - id: ch02-b07
+          speaker: narrator
+          text: Well, there was one great silly.
+
+    - id: ch03
+      title: The Troublesome Trousers
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: On and on the gentleman went. That night, he stopped at an inn. Every room was so full that he had to share a room with another traveler, with one bed for each of them. The other man was pleasant, and the two soon became friendly.
+        - id: ch03-b02
+          speaker: narrator
+          text: In the morning, as they both got up, the gentleman saw his new friend hang his trousers from the knobs of a chest of drawers. The man backed away, ran across the room, and tried to jump into them. He missed. Then he went back and tried again. Over and over he ran and jumped, but he could never manage it. The gentleman watched in surprise and could not imagine why anyone would put on trousers that way.
+        - id: ch03-b03
+          speaker: narrator
+          text: At last, the traveler stopped. He was hot from all his jumping, and he wiped his face with a handkerchief.
+        - id: ch03-b04
+          speaker: traveler
+          text: Oh dear! Trousers must be the most awkward clothes anyone ever invented. It takes nearly an hour to get into mine every morning, and I become so hot. How do you get yours on?
+        - id: ch03-b05
+          speaker: narrator
+          text: The gentleman burst out laughing. Then he showed the traveler how to put on trousers one leg at a time. The man thanked him warmly and said he would never have thought of doing it that way.
+        - id: ch03-b06
+          speaker: narrator
+          text: So there was another great silly.
+
+    - id: ch04
+      title: The Moon in the Pond
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The gentleman set out once more. He came to a village with a pond just outside it. A crowd stood all around the water. They were reaching into the pond with rakes, brooms, and pitchforks.
+        - id: ch04-b02
+          speaker: gentleman
+          text: What has happened here?
+        - id: ch04-b03
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
+          text: Plenty has happened! The moon has fallen into the pond, and no matter what we do, we can't rake her out!
+        - id: ch04-b04
+          speaker: narrator
+          text: The gentleman burst out laughing.
+        - id: ch04-b05
+          speaker: gentleman
+          text: Look up at the sky. The moon is still there. What you see in the pond is only her reflection in the water.
+        - id: ch04-b06
+          speaker: narrator
+          text: The villagers refused to listen. Instead, they shouted shameful abuse at him, and he escaped as quickly as he could.
+
+    - id: ch05
+      title: Home Again
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Now the gentleman had found a whole crowd of people sillier than the three back at the farmhouse. So he turned around and went home.
+        - id: ch05-b02
+          speaker: narrator
+          text: He married the farmer's daughter. And if they did not live happily ever after, that is nothing to do with you or me.

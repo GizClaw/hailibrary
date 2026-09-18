@@ -1,0 +1,414 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and storylike
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    tiidu:
+      display_name: Tiidu
+      tts:
+        delivery: self-assured and quick-witted
+        timbre: youthful and bright
+        pace: lively
+        pitch: medium
+    old_man:
+      display_name: The Old Man
+      tts:
+        delivery: kindly and plainspoken
+        timbre: warm and weathered
+        pace: unhurried
+        pitch: low
+    young_sailor:
+      display_name: The Young Sailor
+      tts:
+        delivery: friendly and conspiratorial
+        timbre: clear and youthful
+        pace: brisk
+        pitch: medium
+    sailor_one:
+      display_name: First Sailor
+      tts:
+        delivery: rough and astonished
+        timbre: sturdy and resonant
+        pace: steady
+        pitch: medium-low
+    sailor_two:
+      display_name: Second Sailor
+      tts:
+        delivery: rough and astonished
+        timbre: lean and clear
+        pace: steady
+        pitch: medium
+    captain:
+      display_name: The Captain
+      tts:
+        delivery: firm but compassionate
+        timbre: deep and seasoned
+        pace: deliberate
+        pitch: low
+    admirer_one:
+      display_name: First Admirer
+      tts:
+        delivery: delighted and admiring
+        timbre: polished and full
+        pace: lively
+        pitch: medium-low
+    admirer_two:
+      display_name: Second Admirer
+      tts:
+        delivery: delighted and eager
+        timbre: bright and clear
+        pace: lively
+        pitch: medium
+    merchant:
+      display_name: The Merchant
+      tts:
+        delivery: practical and authoritative
+        timbre: rich and steady
+        pace: measured
+        pitch: medium-low
+    palace_servant:
+      display_name: The Palace Servant
+      tts:
+        delivery: courteous and businesslike
+        timbre: smooth and clear
+        pace: measured
+        pitch: medium
+    king:
+      display_name: The King
+      tts:
+        delivery: commanding and quick-tempered
+        timbre: deep and forceful
+        pace: deliberate
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Lazy Boy and the Pipes
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a poor man with ten or eleven children and hardly enough bread for them all. Most of the children were strong, willing, and cheerful. They helped their parents, and when they were old enough, they went out to work as servants. Everyone was glad to hire them.
+        - id: ch01-b02
+          speaker: narrator
+          text: Only one child troubled his parents. Tiidu was a big, lazy boy, and nothing could change him. Scolding did no good. Beatings did no good. Kind words did no good either. Each year, he grew lazier. In winter he crouched beside the warm stove. In summer he slept beneath a shady tree. When he was not sleeping, he played tunes on his flute.
+        - id: ch01-b03
+          speaker: narrator
+          text: One day Tiidu sat beneath a bush, playing so sweetly that his flute sounded like a bird. An old man came by, stopped in front of him, and spoke in a friendly way.
+        - id: ch01-b04
+          speaker: old_man
+          text: Tell me, my son. What kind of work would you like to do?
+        - id: ch01-b05
+          speaker: tiidu
+          text: If I were rich and never had to work, I would do no work at all. I cannot stand the thought of serving someone the way all my brothers and sisters do.
+        - id: ch01-b06
+          speaker: narrator
+          text: The old man laughed. He could not see how Tiidu expected to become rich without working for it.
+        - id: ch01-b07
+          speaker: old_man
+          text: A sleeping cat catches no mice. If you want riches, you must use your hands or your head. You must be ready to work day and night, or else—
+        - id: ch01-b08
+          speaker: narrator
+          text: Tiidu cut him off rudely.
+        - id: ch01-b09
+          speaker: tiidu
+          text: Be quiet, old man! I have heard that a hundred times. It runs off me like water off a duck's back. Nobody will ever turn me into a worker.
+          emotion: angry
+        - id: ch01-b10
+          speaker: narrator
+          text: The old man paid no attention to the insult. He told Tiidu that he did have one useful gift.
+        - id: ch01-b11
+          speaker: old_man
+          text: Travel about and play music. You could earn your daily bread and some money besides. First, buy yourself a set of pipes. Learn to play them as well as you play that flute. Wherever people can hear you, you will never be short of money.
+        - id: ch01-b12
+          speaker: tiidu
+          text: How am I supposed to buy the pipes?
+        - id: ch01-b13
+          speaker: old_man
+          text: Play your flute for a few days, and you will soon earn enough. Someday I will return to see whether you followed my advice, and whether you are on your way to riches.
+        - id: ch01-b14
+          speaker: narrator
+          text: Then the old man went on his way. Tiidu stayed beneath the bush for a while and turned the advice over in his mind. The longer he thought, the more certain he became that the old man was right. He decided to find out whether the plan would truly bring him luck. But he was afraid people would laugh, so he told no one. The next morning he left home, and he did not return.
+        - id: ch01-b15
+          speaker: narrator
+          text: His parents were not deeply upset. They were glad their useless son had finally shown a little spirit. Perhaps time and hardship would cure his foolish laziness.
+        - id: ch01-b16
+          speaker: narrator
+          text: For several weeks Tiidu wandered from village to village, and the old man's promise proved true. Everywhere he went, friendly people enjoyed his flute music. They gave him food in return and sometimes added a few coins. Tiidu guarded those coins carefully. When he had finally saved enough, he bought a beautiful set of pipes. Now he felt that he was truly on the road to wealth.
+        - id: ch01-b17
+          speaker: narrator
+          text: No pipes seemed finer than Tiidu's, and no one played them with greater skill. His music set everyone's feet dancing. At every wedding, christening, and feast, people insisted that Tiidu must play or the evening would be a failure. Within a few years, people traveled far and wide just to hear him.
+        - id: ch01-b18
+          speaker: narrator
+          text: At one christening, several rich men from a nearby town heard him. All agreed that they had never heard such playing in their lives. They crowded around Tiidu, praised him, and urged him to visit their homes. It would be a shame, they said, if their friends never had the chance to hear music like his.
+        - id: ch01-b19
+          speakers: [admirer_one, admirer_two]
+          ensemble: duo
+          text: You must come and play for our friends. Music like yours ought to be heard!
+          emotion: happy
+        - id: ch01-b20
+          speaker: narrator
+          text: Their praise delighted Tiidu, and he gladly accepted every invitation. He visited their houses and came away loaded with money and every kind of gift. One great lord dressed him in a magnificent suit. Another hung a chain of pearls around his neck. A third placed new pipes in his hands, glittering with silver. Young women wound silk scarves around his plumed hat, and their mothers knitted gloves in every color to keep out the cold.
+        - id: ch01-b21
+          speaker: narrator
+          text: Most men would have been happy with so much. Tiidu only wanted more. His hunger for riches drove him to work harder every day. Even his own mother would not have recognized the boy who once did nothing but sleep.
+
+    - id: ch02
+      title: The Voyage to Kungla
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Tiidu now understood that only his pipes could make him rich, but he wanted the money to flow in faster. Then he remembered tales of a kingdom in the country of Kungla. Every sort of musician was welcomed there and paid very well. Yet however hard he tried, he could not remember where Kungla lay or how anyone reached it. In despair, he wandered along the coast and watched for a ship or sailing boat that might carry him there.
+        - id: ch02-b02
+          speaker: narrator
+          text: At last he reached Narva and found several merchant ships at anchor. One would sail for Kungla in a few days. Tiidu hurried aboard and asked the captain for passage, but the price was more than he cared to pay. He played his finest music, yet the captain would not lower it.
+        - id: ch02-b03
+          speaker: narrator
+          text: Tiidu was about to go ashore when his usual luck came to his aid. A young sailor had heard him play. While the captain was away, the sailor secretly offered to hide him aboard. The next night, as soon as darkness fell, Tiidu stepped softly onto the deck. His new friend hid him deep in the hold, squeezed into a corner between two casks. No one else in the crew saw the sailor bring him food and drink.
+        - id: ch02-b04
+          speaker: narrator
+          text: Once the ship was far beyond sight of land, the sailor was ready to free Tiidu from that cramped hiding place. At midnight, while he stood watch and everyone else slept, he led his friend onto the deck and explained the plan he had invented. First, he tied a rope around Tiidu's body. Then he fastened the other end securely to one of the ship's ropes.
+        - id: ch02-b05
+          speaker: young_sailor
+          text: I am going to throw you into the sea. Shout for help. When the others come, loosen the rope around your waist. Tell them you have been swimming after the ship ever since we left the harbor.
+        - id: ch02-b06
+          speaker: narrator
+          text: Tiidu did not like the plan at first. The waves were high. But he was a good swimmer, and the sailor promised there was no danger. As soon as Tiidu was in the water, the sailor woke his shipmates and cried that a man was following the ship through the sea.
+        - id: ch02-b07
+          speaker: narrator
+          text: The crew rushed on deck. They stared over the side and recognized the very man who had argued with the captain about the fare the day before.
+        - id: ch02-b08
+          speakers: [sailor_one, sailor_two]
+          ensemble: duo
+          text: Are you a ghost? Or are you a man about to die?
+          emotion: fearful
+        - id: ch02-b09
+          speaker: tiidu
+          text: I will be dead soon if you do not pull me out! My strength is nearly gone!
+          emotion: fearful
+        - id: ch02-b10
+          speaker: narrator
+          text: The captain threw him another rope. Tiidu caught it between his teeth. Hidden from the crew, he untied the first rope from his waist. The sailors hauled him onto the deck.
+        - id: ch02-b11
+          speaker: captain
+          text: Where in the world did you come from?
+          emotion: surprised
+        - id: ch02-b12
+          speaker: tiidu
+          text: I have followed you all the way from the harbor. Again and again, I feared my strength would fail. I had no money for the fare, so I hoped I could swim behind the ship until I reached Kungla.
+        - id: ch02-b13
+          speaker: narrator
+          text: The captain's heart softened.
+        - id: ch02-b14
+          speaker: captain
+          text: Be thankful you did not drown. If you are so determined to reach Kungla, I will take you there without payment.
+        - id: ch02-b15
+          speaker: narrator
+          text: He gave Tiidu dry clothes and a berth to sleep in. Tiidu and the young sailor secretly celebrated their clever trick.
+        - id: ch02-b16
+          speaker: narrator
+          text: For the rest of the voyage, the crew treated Tiidu like someone far above them. In all their lives, they had never met a man who could swim for as many hours as he claimed to have done. Their wonder pleased Tiidu greatly, though he knew he had done nothing to deserve it. In return for their kindness and respect, he delighted them with tune after tune on his pipes.
+        - id: ch02-b17
+          speaker: narrator
+          text: After several days they anchored at Kungla. The tale of Tiidu's astonishing swim quickly brought him many new friends, for everyone wanted to hear the whole adventure from his own lips. That attention might have been pleasant, except Tiidu lived in constant fear. Someday, someone might ask him to prove his marvelous swimming powers. Then the trick would be discovered.
+        - id: ch02-b18
+          speaker: narrator
+          text: Kungla's splendor dazzled him. Its people seemed to care very little for the riches all around them, and Tiidu longed to make some of that wealth his own. For days he searched the streets for work. Several people would have hired him, but none seemed likely to make him rich quickly.
+        - id: ch02-b19
+          speaker: narrator
+          text: Just as he was ready to accept the next offer, he knocked at the house of a rich merchant who needed a kitchen servant. Tiidu agreed to obey the cook. There he learned how wealthy Kungla truly was. Pots that would have been iron, copper, brass, or tin elsewhere were silver or gold. Food simmered in silver saucepans. Bread baked in a silver oven. Dishes and lids were gold. Even the pigs ate from silver troughs.
+        - id: ch02-b20
+          speaker: narrator
+          text: Seeing so much wealth only made Tiidu greedier.
+        - id: ch02-b21
+          speaker: tiidu
+          text: What good is all this treasure before my eyes if none of it belongs to me? Even though one month's wages here would equal a year's pay elsewhere, I will never become rich by washing pots.
+        - id: ch02-b22
+          speaker: narrator
+          text: Tiidu stayed in the merchant's house for two years and put aside quite a large sum. All the while, his passion for saving grew stronger. He hated parting with a single coin and bought new clothes only when his master gave a direct order.
+        - id: ch02-b23
+          speaker: merchant
+          text: I will not have dirty people working in my house.
+        - id: ch02-b24
+          speaker: narrator
+          text: With a heavy heart, Tiidu spent part of his next wages on a cheap coat.
+
+    - id: ch03
+      title: The Old Man's Second Lesson
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: One day the merchant gave a great feast for the christening of his youngest child. Every servant received a handsome garment for the occasion. On the following Sunday, Tiidu put on his fine new coat. He liked good clothes very much when someone else paid for them. Then he went walking in beautiful pleasure gardens, a place always crowded on a sunny day.
+        - id: ch03-b02
+          speaker: narrator
+          text: Tiidu sat beneath a shady tree and watched everyone pass, but soon he felt lonely. He knew no one, and no one knew him. Then he noticed an old man who looked familiar. Tiidu watched until the man left the crowded paths and lay down on the grass beneath a lime tree. He walked slowly past for a closer look. The old man smiled and held out his hand.
+        - id: ch03-b03
+          speaker: old_man
+          text: What have you done with your pipes?
+        - id: ch03-b04
+          speaker: narrator
+          text: At once Tiidu knew him. He took the old man's arm, drew him somewhere quiet, and told him everything that had happened since their first meeting. The old man listened and shook his head.
+        - id: ch03-b05
+          speaker: old_man
+          text: You were a fool, and you are still a fool! How could you trade your pipes for a kitchen ladle? In one day, your music could earn what this job pays in half a year. Go home, fetch your pipes, and play here. Then you will see that I am telling the truth.
+        - id: ch03-b06
+          speaker: narrator
+          text: Tiidu did not like that advice. He was afraid people would laugh, and it had been a long time since he had even touched his pipes. But the old man would not give up. He pressed Tiidu until at last the young man obeyed. When Tiidu returned with the pipes, the old man told him to sit beside him on the bank and begin.
+        - id: ch03-b07
+          speaker: old_man
+          text: Play here for a little while. You will soon have a crowd around you.
+        - id: ch03-b08
+          speaker: narrator
+          text: Tiidu began without much spirit, but somehow the pipes sounded sweeter than he remembered. As he played, people stopped walking and talking. They gathered around him and stood perfectly still, listening in silence. After he had played for some time, Tiidu took off his hat and carried it through the crowd. Dollars, small silver coins, and even gold pieces came tumbling in.
+        - id: ch03-b09
+          speaker: narrator
+          text: To thank them, Tiidu played two more tunes. As he turned toward home, admiring voices followed him.
+        - id: ch03-b10
+          speakers: [admirer_one, admirer_two]
+          ensemble: duo
+          text: What a marvelous piper! Please come back next Sunday and play for us again!
+          emotion: happy
+        - id: ch03-b11
+          speaker: narrator
+          text: When Tiidu and the old man reached the garden gate, the old man reminded him that a few hours with the pipes were pleasanter than a whole day stirring sauces.
+        - id: ch03-b12
+          speaker: old_man
+          text: Twice now, I have shown you the road to follow. Learn some wisdom and seize your chance before your luck escapes. I cannot guide you again. Every Sunday afternoon, sit beneath the lime tree and play. Put a deep felt hat at your feet so people can toss in money. If someone asks you to play at a feast, accept. Never name a price. Say you will take whatever they wish to give, and in the end you will receive much more. Perhaps our paths will cross someday, and I will see whether you listened. Until then, farewell.
+        - id: ch03-b13
+          speaker: narrator
+          text: The old man went away, and once again his words came true. Tiidu could not follow every part of the advice at once because he still had to complete his promised term of service. Meanwhile, he ordered fine clothes and wore them to play in the gardens each Sunday. At the end of each evening he counted his earnings, and every week the sum was larger than the week before.
+        - id: ch03-b14
+          speaker: narrator
+          text: When his service ended, Tiidu was free to do as he pleased. He had more invitations to play than he could possibly accept. At night, when the citizens gathered at the inn to drink, the innkeeper always begged Tiidu to entertain them. He grew so rich that he had his silver pipes covered with gold. They gleamed in sunlight and firelight, and no man in all Kungla was prouder than Tiidu.
+        - id: ch03-b15
+          speaker: narrator
+          text: After a few years, Tiidu had saved such a great sum that even in Kungla, where everyone was rich, he was counted as a wealthy man. At last he had time to remember that he once had a home and a family. He wanted to see them again and show them how well he could play. This time there would be no hiding in a ship's hold. He could pay for the finest cabin, or even hire an entire ship for himself.
+        - id: ch03-b16
+          speaker: narrator
+          text: Tiidu packed all his treasures into great chests and sent them aboard the first ship bound for his native land. He followed with a light heart. The wind was fair when they started, but it soon strengthened, and during the night it became a gale. For two days the ship raced before the storm. The crew kept well out at sea and hoped they might weather it there.
+        - id: ch03-b17
+          speaker: narrator
+          text: Then the ship struck a rock and began to fill with water. The crew lowered the boats. Tiidu climbed into one with three sailors, but before they could push clear, a huge wave overturned it. All four men were thrown into the sea.
+        - id: ch03-b18
+          speaker: narrator
+          text: Luckily, an oar floated near Tiidu. He clung to it and managed to stay on the surface. When the sun rose and the mist cleared, he saw land not far away. The sea was still running high, but he swam with all his strength and finally reached the shore. More dead than alive, he dragged himself from the water, threw himself onto the ground, and fell fast asleep.
+
+    - id: ch04
+      title: The Apples, the Nuts, and the New Pipes
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: When Tiidu woke, he explored the island in search of people. He found plenty of streams and fruit trees, but no sign of any person or animal. Tired from wandering, he sat down to think.
+        - id: ch04-b02
+          speaker: narrator
+          text: Perhaps for the first time in his life, his thoughts did not go straight to money. He did not dwell on his lost treasure. Instead, he remembered how lazy and disobedient he had been as a boy, and how completely he had forgotten his parents as a man.
+        - id: ch04-b03
+          speaker: tiidu
+          text: If wild beasts came and tore me apart, I would deserve it. All my earnings lie at the bottom of the sea. Well, they came easily and vanished easily. The strange thing is, I would not care at all if only I still had my pipes.
+          emotion: sad
+        - id: ch04-b04
+          speaker: narrator
+          text: Tiidu walked on until he found a tree filled with great red apples shining among the leaves. He pulled down several and ate hungrily. Then he stretched out on soft moss and slept.
+        - id: ch04-b05
+          speaker: narrator
+          text: In the morning, he ran to the nearest stream to wash. One glance at his reflection filled him with horror. His nose had turned the color of an apple and stretched almost to his waist. Tiidu jumped back, sure that he must still be dreaming. He raised a hand and touched his face. Alas, the dreadful nose was real.
+        - id: ch04-b06
+          speaker: tiidu
+          text: Why will no wild beast come and eat me? I can never show myself among people again! I would have been happier if the sea had swallowed me!
+          emotion: sad
+        - id: ch04-b07
+          speaker: narrator
+          text: He hid his face in his hands and wept so violently that grief wore him out. Soon he was hungry again and looked around for food. Just above him hung a branch of ripe brown nuts, so he picked and ate a handful. To his amazement, his nose began to shrink as he chewed. It grew shorter and shorter. At last he dared to touch it and look into the stream. There was no mistake. His nose was back to its old size, or perhaps even a little smaller.
+        - id: ch04-b08
+          speaker: narrator
+          text: Overjoyed by this discovery, Tiidu tried a very bold experiment. He took an apple from his pocket and carefully bit off a piece. At once his nose stretched as far as his chin. Terrified that it would grow farther, he quickly swallowed a nut and waited. What if the first cure had only been an accident? What if that one nut, and no other, had the power to shorten his nose? Then his own foolishness in testing what was already well would have ruined his life forever.
+        - id: ch04-b09
+          speaker: narrator
+          text: But he had guessed correctly. His nose returned to its proper size just as quickly as it had grown.
+        - id: ch04-b10
+          speaker: tiidu
+          text: These may make my fortune!
+          emotion: happy
+        - id: ch04-b11
+          speaker: narrator
+          text: He filled one pocket with apples and the other with nuts. The next day, he wove a basket from rushes so he could carry his treasures if he ever escaped the island.
+        - id: ch04-b12
+          speaker: narrator
+          text: That night Tiidu dreamed of his old friend. The old man appeared and spoke to him.
+        - id: ch04-b13
+          speaker: old_man
+          text: You did not mourn for your lost treasure. You mourned only for your pipes. Because of that, I will give you a new set to replace them.
+        - id: ch04-b14
+          speaker: narrator
+          text: In the morning, Tiidu looked into his basket and found a set of pipes lying there. He seized them joyfully and began to play one of his favorite tunes. As the music sounded, hope rose in his heart. He looked out to sea and searched for some sign of a sail. Yes, there it was, making straight for the island. Tiidu held the pipes in his hand and dashed down to the shore.
+        - id: ch04-b15
+          speaker: narrator
+          text: The sailors knew the island was uninhabited, so they were amazed to see a man on the beach waving his arms in welcome. They lowered a boat, and two sailors rowed ashore to learn how he had come there and whether he wished to leave. Tiidu told them the story of his shipwreck. Their captain offered to take him aboard and carry him back to Kungla. Tiidu gratefully accepted, and whenever the crew asked, he showed his thanks by playing his pipes.
+
+    - id: ch05
+      title: The Strange Doctor of Kungla
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The voyage was quick, and it was not long before Tiidu stood again in the capital of Kungla. He walked through the streets, playing his pipes as he went. Since his departure, the people had heard no music that could equal his. They crowded around him in delight and gave him whatever money they happened to have in their pockets.
+        - id: ch05-b02
+          speaker: narrator
+          text: Tiidu's first concern was to buy the new clothes he badly needed, but he took care to have them cut in a foreign style. When they were ready, he dressed himself, filled a small basket with the famous apples, and carried it up to the palace. He had not waited long when a royal servant passed by. The servant bought every apple in the basket.
+        - id: ch05-b03
+          speaker: palace_servant
+          text: Please come back soon and bring us more of these apples.
+        - id: ch05-b04
+          speaker: tiidu
+          text: I certainly will.
+        - id: ch05-b05
+          speaker: narrator
+          text: Tiidu hurried away as if a wild bull were chasing him. He was terrified that the servant might bite an apple before he escaped.
+        - id: ch05-b06
+          speaker: narrator
+          text: For several days he stayed far from the palace on the opposite side of town. He changed his clothes and hid his face beneath a long black beard. Even his own mother would not have recognized him.
+        - id: ch05-b07
+          speaker: narrator
+          text: The morning after the apples reached the palace, the whole city was in an uproar over a dreadful misfortune. The king, the queen, and their children had all eaten the stranger's fruit, and rumor said the entire Royal Family was terribly ill. The most famous doctors and greatest magicians were summoned in haste. One after another, they examined the sufferers, shook their heads, and left. In all their years of experience, none had ever met with such a disease.
+        - id: ch05-b08
+          speaker: narrator
+          text: Soon another rumor spread. No one knew who had begun it, but people whispered that the illness had something to do with noses. All over the city, anxious men rubbed their own noses to make sure the disease was not floating through the air.
+        - id: ch05-b09
+          speaker: narrator
+          text: Matters remained that way for more than a week. Then word reached the king that a stranger at an inn on the far side of town claimed he could cure every kind of disease. At once the king ordered the royal carriage to race there and bring this magician back. The man was to be offered untold riches if he could restore the royal noses to their proper length.
+        - id: ch05-b10
+          speaker: narrator
+          text: Tiidu had expected exactly this summons. He had spent the whole night changing his appearance once again, and he had done the work so well that no trace remained of either the piper or the apple seller. When the carriage arrived, Tiidu stepped inside and was driven at top speed to the palace.
+        - id: ch05-b11
+          speaker: narrator
+          text: The king counted every moment until he arrived. By then, both his nose and the queen's stretched more than a yard, and neither knew how much farther they might grow.
+        - id: ch05-b12
+          speaker: king
+          text: Cure us, and I will give you riches beyond counting!
+        - id: ch05-b13
+          speaker: narrator
+          text: Tiidu had already decided that curing the Royal Family with raw nuts would not look right. Someone might become suspicious. So he had carefully pounded the nuts into powder and divided it into small doses. Each dose could be placed on the tongue and swallowed at once. He now gave one to the king and another to the queen.
+        - id: ch05-b14
+          speaker: tiidu
+          text: Before you take this medicine, lie down in a dark room. Do not move for several hours. When you come out, you may be certain that you will be cured.
+        - id: ch05-b15
+          speaker: narrator
+          text: The promise of a cure filled the king with such joy that he would gladly have given Tiidu half his kingdom. But the piper was no longer as greedy as he had been before the shipwreck and the lonely island. He did not ask for half a kingdom. All he now cared for was enough money to buy a small estate and live there comfortably for the rest of his life.
+        - id: ch05-b16
+          speaker: narrator
+          text: Even so, the king ordered his treasurer to pay Tiidu three times the amount he requested. With that reward safely in hand, Tiidu went down to the harbor and hired a small ship to carry him back to his native country.
+
+    - id: ch06
+      title: Home at Last
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: The wind stayed fair. Ten days later, the coast Tiidu had almost forgotten stood clear before him. A few hours after that, he was standing inside his old home. His father, three sisters, and two brothers gave him a warm and hearty welcome. But his mother and his other brothers were gone. They had died some years before.
+        - id: ch06-b02
+          speaker: narrator
+          text: When the long family greeting was over, Tiidu began asking about a small estate that was for sale near the town. He soon bought the place. His next task was to find a wife who would live there and share his new life. That did not take long either, and before much time had passed, the wedding day arrived.
+        - id: ch06-b03
+          speaker: narrator
+          text: Afterward, everyone who had attended Tiidu's wedding agreed about the best part of the celebration. It was not the food or any gift. It was the hour when Tiidu himself took up his pipes and played for them. Only when the music ended did the guests bid one another farewell and return to their homes.

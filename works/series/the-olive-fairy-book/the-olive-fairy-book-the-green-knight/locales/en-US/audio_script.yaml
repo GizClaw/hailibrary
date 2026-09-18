@@ -1,0 +1,586 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: genial, reflective, and lightly amused
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    king:
+      display_name: The King
+      tts:
+        delivery: dignified and fatherly
+        timbre: deep and resonant
+        pace: unhurried
+        pitch: low
+    princess:
+      display_name: The Princess
+      tts:
+        delivery: warm, proud, and resolute
+        timbre: clear and assured
+        pace: measured
+        pitch: medium
+    servant:
+      display_name: Palace Servant
+      tts:
+        delivery: respectful and direct
+        timbre: clear and modest
+        pace: measured
+        pitch: medium
+    dying_queen:
+      display_name: The Dying Queen
+      tts:
+        delivery: tender and quietly insistent
+        timbre: soft and fading
+        pace: slow
+        pitch: medium
+    countess:
+      display_name: The Countess
+      tts:
+        delivery: smooth, calculating, and imperious
+        timbre: polished and cool
+        pace: measured
+        pitch: medium-low
+    swineherd_1:
+      display_name: First Swineherd
+      tts:
+        delivery: plainspoken and helpful
+        timbre: rustic and steady
+        pace: measured
+        pitch: medium-low
+    swineherd_2:
+      display_name: Second Swineherd
+      tts:
+        delivery: easygoing and direct
+        timbre: rustic and clear
+        pace: measured
+        pitch: medium
+    green_knight:
+      display_name: The Green Knight
+      tts:
+        delivery: courteous, ardent, and noble
+        timbre: youthful and resonant
+        pace: measured
+        pitch: medium-low
+    maid:
+      display_name: Maid of Honor
+      tts:
+        delivery: curious and talkative
+        timbre: light and clear
+        pace: lively
+        pitch: medium-high
+    bird:
+      display_name: Little Bird
+      tts:
+        delivery: musical, urgent, and mysterious
+        timbre: bright and delicate
+        pace: lively
+        pitch: high
+    goose_girl:
+      display_name: Goose Girl
+      tts:
+        delivery: candid and practical
+        timbre: youthful and earthy
+        pace: measured
+        pitch: medium-high
+    cook:
+      display_name: The Cook
+      tts:
+        delivery: brisk, skeptical, and hearty
+        timbre: full and rough-edged
+        pace: lively
+        pitch: medium-low
+    kitchen_servant_1:
+      display_name: First Kitchen Servant
+      tts:
+        delivery: doubtful and outspoken
+        timbre: clear and sturdy
+        pace: lively
+        pitch: medium
+    kitchen_servant_2:
+      display_name: Second Kitchen Servant
+      tts:
+        delivery: doubtful and animated
+        timbre: bright and clear
+        pace: lively
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: The Queen’s Promise
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Once there was a king and queen with one daughter, a charming, beautiful girl they loved more than anything in the world. When the princess was twelve, her mother became ill. Nothing anyone did seemed to help. Every doctor in the kingdom tried his very best to cure her, but despite all their efforts, she only grew worse. When the queen knew she was about to die, she sent for the king and asked him for one last promise.
+        - id: ch01-b02
+          speaker: dying_queen
+          text: >-
+            Promise me that you will do whatever our daughter asks, whether you wish to or not.
+        - id: ch01-b03
+          speaker: narrator
+          text: The king hesitated. Then the queen spoke again.
+        - id: ch01-b04
+          speaker: dying_queen
+          text: I cannot die in peace unless you give me your promise.
+          emotion: sad
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            At last the king promised. The queen was content, and soon afterward she died.
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            A countess lived near the palace with a daughter about the princess’s age. The two girls were always together. After her mother’s death, the princess begged the king to let the countess and her child move into the palace. He distrusted the lady and disliked the idea, but he could not bear to refuse his daughter.
+        - id: ch01-b07
+          speaker: princess
+          text: >-
+            Father, I am so lonely. None of your beautiful gifts can make up for losing Mother. If the countess lived here, it would almost feel as though Mother had come back to me.
+          emotion: sad
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            The king had a splendid suite of rooms prepared for the countess and her daughter. The little princess was wild with joy at the thought of having her friends so near. When they arrived, they treated the motherless child with great kindness. For a long while, everything went well, and the princess nearly forgot how dull and lonely her life had been before they came.
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            Then one day, while the girls were playing in the palace garden, the countess appeared dressed for a journey. She kissed the princess tenderly.
+        - id: ch01-b10
+          speaker: countess
+          text: Farewell, my child. My daughter and I must go far away.
+        - id: ch01-b11
+          speaker: princess
+          text: >-
+            Oh, you cannot leave me! What will I do without you? Please, please stay!
+          emotion: sad
+        - id: ch01-b12
+          speaker: narrator
+          text: The countess shook her head.
+        - id: ch01-b13
+          speaker: countess
+          text: It nearly breaks my heart to go, dear child, but we must.
+        - id: ch01-b14
+          speaker: princess
+          text: Is there anything that would make you stay?
+        - id: ch01-b15
+          speaker: countess
+          text: There is one thing, but it is impossible. We should not even speak of it.
+        - id: ch01-b16
+          speaker: princess
+          text: Nothing is impossible. Tell me what it is, and I will see that it is done.
+        - id: ch01-b17
+          speaker: countess
+          text: >-
+            I would stay if your father made me his queen, but he would never agree to that.
+        - id: ch01-b18
+          speaker: princess
+          text: Oh, that is easy! Then we will not have to part after all!
+          emotion: happy
+        - id: ch01-b19
+          speaker: narrator
+          text: >-
+            She ran to find her father. He had always granted her wishes, so she felt certain he would grant this one too.
+        - id: ch01-b20
+          speaker: king
+          text: What is wrong, my daughter? You have been crying. Are you unhappy?
+        - id: ch01-b21
+          speaker: princess
+          text: >-
+            Father, please marry the countess. If you do not, she will leave, and I will be as lonely as I was before. You have never refused me anything. Please do not refuse me now.
+        - id: ch01-b22
+          speaker: narrator
+          text: >-
+            The king turned pale. He did not like the countess, and he still loved his dead wife.
+        - id: ch01-b23
+          speaker: king
+          text: No, my child. I cannot do that.
+          emotion: sad
+        - id: ch01-b24
+          speaker: narrator
+          text: >-
+            The princess burst into tears. They ran down her cheeks so quickly, and she sobbed so bitterly, that her father became miserable too. Then he remembered the promise he had made to her dying mother. He had sworn always to do whatever their daughter asked. In the end he gave way and agreed to marry the countess. The princess was all smiles at once and ran off to share the good news.
+        - id: ch01-b25
+          speaker: narrator
+          text: >-
+            The wedding was soon celebrated with music and feasting, and the countess became queen. Yet the king looked pale and sad through all the merriment. He felt certain the marriage would bring trouble, and before long it did.
+        - id: ch01-b26
+          speaker: narrator
+          text: >-
+            In a very short time, the new queen’s manner toward the princess began to change. She was jealous because the princess, rather than her own daughter, would inherit the throne. Soon she could no longer hide what she felt. Instead of speaking with the kindness and affection she had shown before the wedding, she became harsh and cruel. Once or twice, she even struck the princess across the face. The king was deeply unhappy when he saw his beloved daughter suffer. Day after day, the girl became more miserable, until at last he could bear it no longer.
+        - id: ch01-b27
+          speaker: king
+          text: >-
+            My daughter, you have lost all your happiness, and I fear your stepmother is the cause. I have built you a castle on the island in the lake. From now on, it will be your home. You may live as you please there, and your stepmother will never enter it.
+        - id: ch01-b28
+          speaker: narrator
+          text: >-
+            The princess was delighted by her father’s plan, and she was even happier when she saw her new home. The island castle was filled with beautiful things, and a great many windows looked out over the lovely blue water. She had a boat in which she could row wherever she pleased. There was also a garden where she could walk at any time without fearing that she might meet the cruel queen. Best of all, her father promised to visit her every day.
+        - id: ch01-b29
+          speaker: narrator
+          text: >-
+            She lived there peacefully for a long time and grew more beautiful each day. Everyone called her the loveliest lady in the land. When those words reached the queen, she hated her stepdaughter even more, for her own daughter was ugly and foolish.
+    - id: ch02
+      title: The Knight in the Forest
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            One day, word came of a grand gathering in a neighboring kingdom, about two days’ journey away. Knights and nobles would come from far and near. There would be every kind of festivity, including a tournament and a banquet, all in honor of the young prince’s coming of age. The princess’s father was among the invited guests. Before setting out, he crossed the lake to say goodbye to his daughter.
+        - id: ch02-b02
+          speaker: narrator
+          text: >-
+            Though she had a beautiful home and no longer suffered the queen’s scolding, the princess was terribly lonely. She told her father she might be better off dead. He tried to comfort her and promised to return soon. Then he asked if he could do anything for her.
+        - id: ch02-b03
+          speaker: princess
+          text: Yes. Please give my greetings to the Green Knight.
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            The king had never heard of the Green Knight, but there was no time for questions. He promised to deliver the greeting and rode away. As soon as he reached the festivities, he began asking for the mysterious knight.
+        - id: ch02-b05
+          speaker: king
+          text: Can anyone tell me where to find the Green Knight?
+        - id: ch02-b06
+          speakers: [servant, kitchen_servant_1, kitchen_servant_2]
+          ensemble: chorus
+          text: We are sorry, Your Majesty. We have never heard of him.
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            No one there knew such a person, and they were certain he could not be found at the gathering. The king asked every knight, noble, and servant he met, but every answer was the same. He became so troubled that the banquet and tournament gave him no pleasure at all. At last he began to believe the princess had made a mistake and that no Green Knight existed. He set out for home in sorrow. This was the first thing his daughter had asked him to do in many months, and he had failed to do it.
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            He thought about his failure so deeply that he did not notice which way his horse was carrying him. When he finally looked around, he found himself in the middle of a dense forest he had never seen before. He rode on and on, looking everywhere for the path home, but the trees only grew thicker. The sun began to set, and at last he had to admit that he was lost. Then, to his great relief, he saw a man driving a herd of pigs through the forest.
+        - id: ch02-b09
+          speaker: king
+          text: I have lost my way. Can you tell me where I am?
+        - id: ch02-b10
+          speaker: swineherd_1
+          text: You are in the Green Knight’s forest, and these pigs belong to him.
+        - id: ch02-b11
+          speaker: narrator
+          text: The king’s heart lifted at once.
+        - id: ch02-b12
+          speaker: king
+          text: Where does the Green Knight live?
+        - id: ch02-b13
+          speaker: swineherd_1
+          text: It is a long way from here, but I will show you the path.
+        - id: ch02-b14
+          speaker: narrator
+          text: >-
+            The swineherd went part of the way with him and pointed out the right road. The king thanked him and rode on. In a second forest, he met another man driving pigs.
+        - id: ch02-b15
+          speaker: king
+          text: Whose animals are those, my good man?
+        - id: ch02-b16
+          speaker: swineherd_2
+          text: They belong to the Green Knight.
+        - id: ch02-b17
+          speaker: king
+          text: And where does he live?
+        - id: ch02-b18
+          speaker: swineherd_2
+          text: Oh, not far from here.
+        - id: ch02-b19
+          speaker: narrator
+          text: >-
+            Around midday, the king reached a beautiful castle standing in the loveliest garden anyone could imagine. Fountains played in shining marble basins, and peacocks walked slowly over the smooth lawns. Beside one of the basins sat a handsome young man. He was dressed from head to foot in green armor and was feeding the goldfish that swam through the clear water. The king looked at him and felt sure this must be the Green Knight.
+        - id: ch02-b20
+          speaker: king
+          text: >-
+            Sir, I have come to bring you my daughter’s greeting. I wandered far and lost my way in your forest.
+        - id: ch02-b21
+          speaker: narrator
+          text: The knight looked puzzled for a moment.
+        - id: ch02-b22
+          speaker: green_knight
+          text: >-
+            I have never met you or your daughter, but you are welcome here all the same.
+        - id: ch02-b23
+          speaker: narrator
+          text: >-
+            He invited the king toward the castle, but the king insisted that his daughter’s message must be meant for him. After all, he was the only Green Knight in the kingdom.
+        - id: ch02-b24
+          speaker: green_knight
+          text: You must stay here tonight as my guest.
+        - id: ch02-b25
+          speaker: narrator
+          text: >-
+            The sun had already set, so the king was thankful to accept. Together they sat down to a magnificent banquet in the castle hall. The king had traveled widely and visited many monarchs in their palaces, but he had never eaten better than he did at the Green Knight’s table. His young host was clever, gracious, and so pleasant to talk with that the king was delighted. Before the evening ended, he found himself thinking that this charming knight would make a wonderful son-in-law.
+        - id: ch02-b26
+          speaker: narrator
+          text: >-
+            The next morning, as the king prepared to leave, the Green Knight placed a jeweled casket in his hand.
+        - id: ch02-b27
+          speaker: green_knight
+          text: >-
+            Your Highness, will you take this gift to your daughter? My portrait is inside, so she will know me when I come. I am certain she is the lady who appears in my dreams night after night, and I must win her as my bride.
+        - id: ch02-b28
+          speaker: narrator
+          text: >-
+            The king blessed the knight and promised to deliver his gift. Before long, he reached his own country. The princess had been waiting anxiously and ran into his arms.
+        - id: ch02-b29
+          speaker: princess
+          text: Did you find the Green Knight?
+        - id: ch02-b30
+          speaker: king
+          text: >-
+            I did. He asked me to give you this, so you will recognize him when he comes and not mistake him for anyone else.
+        - id: ch02-b31
+          speaker: narrator
+          text: The king drew out the casket. One look at the portrait filled the princess with joy.
+        - id: ch02-b32
+          speaker: princess
+          text: >-
+            It is truly the man I have seen in my dreams! Now I will be happy, because he and no one else will be my husband.
+          emotion: happy
+    - id: ch03
+      title: The Secret Across the Lake
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            The Green Knight arrived soon afterward. He looked so handsome in his green armor, with a long green plume rising from his helmet, that the princess fell even more deeply in love with him than she had with his portrait. The moment he saw her, he recognized the lady who had appeared so often in his dreams. He did not hesitate. He asked her at once to become his bride, and the princess lowered her eyes and smiled before she answered.
+        - id: ch03-b02
+          speaker: princess
+          text: >-
+            We must hide our secret from my stepmother until our wedding day. If she learns about us, she will find some way to harm us.
+        - id: ch03-b03
+          speaker: green_knight
+          text: >-
+            As you wish. But I must see you every day, because I cannot live without you now. I will come early and stay until dark, so the queen will never see me crossing the lake.
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            For a long time, the Green Knight visited every day. He and the princess wandered for hours through the island gardens, safely beyond the queen’s sight. But secrets are dangerous things.
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            Early one morning, a palace maid happened to be walking beside the lake. She saw a wonderfully handsome young man, dressed in a beautiful suit of green satin, come down to the water. He did not guess that anyone was watching him. A little boat lay tied to the bank, and he climbed in and rowed across to the island where the princess’s castle stood. The princess herself was waiting for him at the door. The maid went home wondering who the stranger could be. Later, while she was brushing the queen’s hair, she could not keep the news to herself.
+        - id: ch03-b06
+          speaker: maid
+          text: Your Majesty, did you know the princess has a suitor?
+        - id: ch03-b07
+          speaker: countess
+          text: Nonsense!
+          emotion: angry
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            Yet the thought upset the queen terribly. Her own ill-tempered, foolish daughter was still unmarried, and no one seemed likely to want her.
+        - id: ch03-b09
+          speaker: maid
+          text: >-
+            It is true. I saw him myself, though he did not see me. He is very handsome and dressed all in green. He rowed to the island, and the princess was waiting for him at the door.
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            The queen decided to discover the truth for herself. Aloud, she ordered the maid to stop chattering and mind her own affairs.
+        - id: ch03-b11
+          speaker: countess
+          text: Enough of this chatter. Attend to your work.
+        - id: ch03-b12
+          speaker: narrator
+          text: >-
+            Early the next morning, the queen rose and went down to the lakeshore, where she hid behind a tree. Sure enough, a handsome knight dressed in green appeared, just as the maid had said. He stepped into the boat and rowed across to the island, where the princess was waiting for him. The angry queen remained beside the lake all day. Evening had fallen before the knight returned. She watched him leap ashore, tie the boat securely at its moorings, and walk away through the forest.
+        - id: ch03-b13
+          speaker: countess
+          text: >-
+            So, I have caught my stepdaughter. She will not marry before my own dear girl. I must put an end to this.
+          emotion: angry
+        - id: ch03-b14
+          speaker: narrator
+          text: >-
+            The queen pushed a poisoned nail into the handle of an oar, placing it where the knight was certain to scratch his hand. Then she went home laughing, delighted with her clever plan.
+        - id: ch03-b15
+          speaker: narrator
+          text: >-
+            The next day, the Green Knight came as usual. The moment he picked up the oars, something cut his hand sharply, and pain made him drop them.
+        - id: ch03-b16
+          speaker: green_knight
+          text: Oof! What could have scratched me like that?
+          emotion: surprised
+        - id: ch03-b17
+          speaker: narrator
+          text: He searched the handle, but found only a tiny mark.
+        - id: ch03-b18
+          speaker: green_knight
+          text: >-
+            How strange that a nail appeared here since yesterday. It hurts badly, but it cannot be serious.
+        - id: ch03-b19
+          speaker: narrator
+          text: >-
+            The wound seemed such a little thing that he said nothing about it to the princess during their day together. By the time he reached home that evening, however, the poison had begun its work. He felt so ill that he was forced to take to his bed. No one stayed to attend him except the old nurse who had cared for him for many years.
+        - id: ch03-b20
+          speaker: narrator
+          text: >-
+            The princess knew none of this. Each day she waited for him, and each day he failed to come. She grew nearly sick with wondering. Perhaps some terrible evil had overtaken him, or perhaps another maiden, more beautiful than she was, had stolen his heart. She was truly alone. Her father, who would have helped her, was traveling in a foreign country, and she had no way to learn what had happened to the man she loved.
+    - id: ch04
+      title: The Kitchen Maid’s Cure
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            Time passed. One day, while the princess sat weeping beside an open window, a little bird landed on a branch below. Its song was so beautiful that she stopped crying to listen. Before long, she understood that the bird was singing to her.
+        - id: ch04-b02
+          speaker: bird
+          text: Tu-whit, tu-whit! Your lover is sick!
+        - id: ch04-b03
+          speaker: princess
+          text: Oh no! What can I do?
+          emotion: fearful
+        - id: ch04-b04
+          speaker: bird
+          text: Tu-whit, tu-whit! Go to your father’s palace!
+        - id: ch04-b05
+          speaker: princess
+          text: What must I do when I get there?
+        - id: ch04-b06
+          speaker: bird
+          text: Tu-whit! You will find a snake with nine young ones.
+        - id: ch04-b07
+          speaker: princess
+          text: Ugh!
+          emotion: disgusted
+        - id: ch04-b08
+          speaker: narrator
+          text: The princess shivered, for she disliked snakes. The bird went on without paying attention.
+        - id: ch04-b09
+          speaker: bird
+          text: Put the young snakes in a basket and carry them to the Green Knight’s palace.
+        - id: ch04-b10
+          speaker: princess
+          text: And what am I supposed to do with them there?
+        - id: ch04-b11
+          speaker: narrator
+          text: She blushed all over, though only the bird could see her.
+        - id: ch04-b12
+          speaker: bird
+          text: >-
+            Dress as a kitchen maid and ask for work. Tu-whit! Make soup from the snakes. Feed it to the knight three times, and he will be cured. Tu-whit!
+        - id: ch04-b13
+          speaker: princess
+          text: But what made him ill?
+        - id: ch04-b14
+          speaker: narrator
+          text: >-
+            The bird had already flown away before the princess could get an answer. There was nothing she could do but follow its strange instructions. She went to her father’s palace and searched until she found the mother snake with all nine little snakes. They were curled together so tightly that she could hardly tell one small head from another small tail.
+        - id: ch04-b15
+          speaker: narrator
+          text: >-
+            She hated touching them. Still, when the mother wriggled away to bask in the sun, the princess gathered the young snakes into a basket and hurried off toward the Green Knight’s castle.
+        - id: ch04-b16
+          speaker: narrator
+          text: >-
+            She walked all day along the road to the Green Knight’s castle. Sometimes she stopped to pick wild berries to eat, and sometimes she gathered a little bunch of flowers. She rested now and then, but she would not lie down to sleep until she had reached her journey’s end. At last the castle came into sight. Just then, she met a girl driving a flock of geese along the road.
+        - id: ch04-b17
+          speaker: princess
+          text: Good day. Is that the Green Knight’s castle?
+        - id: ch04-b18
+          speaker: goose_girl
+          text: >-
+            Yes, it is. These are his geese. But the Green Knight is very ill, and people say he will surely die unless someone cures him within three days.
+        - id: ch04-b19
+          speaker: narrator
+          text: >-
+            The princess turned as white as death. The ground seemed to spin, and she gripped a nearby bush. After a while, she mastered herself and spoke to the goose girl.
+        - id: ch04-b20
+          speaker: princess
+          text: Would you like a fine silk dress of your own?
+        - id: ch04-b21
+          speaker: narrator
+          text: The goose girl’s eyes shone.
+        - id: ch04-b22
+          speaker: goose_girl
+          text: Yes, I certainly would!
+          emotion: happy
+        - id: ch04-b23
+          speaker: princess
+          text: >-
+            Then give me the clothes you are wearing, and I will give you mine.
+        - id: ch04-b24
+          speaker: narrator
+          text: >-
+            The girl could scarcely believe what she heard. But the princess was already unfastening her lovely silk dress and taking off her silk stockings and pretty red shoes. The goose girl wasted no time. She quickly slipped out of her rough linen skirt and tunic, then put on the princess’s fine clothes. The princess dressed herself in the girl’s rags, let her hair hang loose, and made her way to the castle kitchen to ask for work.
+        - id: ch04-b25
+          speaker: princess
+          text: Do you need a kitchen maid?
+        - id: ch04-b26
+          speaker: cook
+          text: Yes, we do.
+        - id: ch04-b27
+          speaker: narrator
+          text: >-
+            The cook was too busy to ask the newcomer many questions and put her to work. After a good night’s rest, the princess began her duties. As she scrubbed the kitchen pots and pans, the other servants talked among themselves about their master. They spoke of how terribly ill he was and repeated the dreadful news that he would surely die unless someone cured him within three days. The princess thought of the snakes hidden in her basket and remembered every word of the bird’s advice. Then she lifted her head from the pots she was scouring and spoke.
+        - id: ch04-b28
+          speaker: princess
+          text: >-
+            I can make a soup with such wonderful power that it cures anyone who tastes it, no matter what the illness is. Since the doctors cannot help your master, may I try?
+        - id: ch04-b29
+          speakers: [kitchen_servant_1, kitchen_servant_2]
+          ensemble: duo
+          text: >-
+            What? A scullery maid thinks she can cure the knight when the finest doctors in the kingdom have failed?
+        - id: ch04-b30
+          speaker: narrator
+          text: >-
+            At first, everyone laughed. But because all the finest doctors had failed, the servants decided there was no harm in letting her try. The princess joyfully fetched her basket and made the young snakes into broth.
+        - id: ch04-b31
+          speaker: narrator
+          text: >-
+            When the soup was ready, she filled a bowl and carried it to the knight’s room. She entered boldly and pushed her way past all the learned doctors standing beside his bed. The poor Green Knight was far too ill to recognize her. Besides, she was so ragged and dirty that he might not have known her even if he had been well. She fed him the soup, and before long he felt so much better that he was able to sit upright in his bed.
+        - id: ch04-b32
+          speaker: narrator
+          text: >-
+            The next day, the princess prepared a second bowl of the same soup and brought it to him. After he had eaten it, his strength returned enough for him to rise and dress himself without help.
+        - id: ch04-b33
+          speaker: cook
+          text: That truly is remarkable soup!
+          emotion: surprised
+        - id: ch04-b34
+          speaker: narrator
+          text: On the third day, the Green Knight ate the soup and was completely well again.
+        - id: ch04-b35
+          speaker: green_knight
+          text: Who are you? Are you the girl who made the soup that cured me?
+        - id: ch04-b36
+          speaker: princess
+          text: Yes, I made it.
+        - id: ch04-b37
+          speaker: green_knight
+          text: Then choose any reward you wish, and it will be yours.
+        - id: ch04-b38
+          speaker: princess
+          text: I want to be your bride!
+        - id: ch04-b39
+          speaker: narrator
+          text: The Green Knight frowned at such boldness and shook his head.
+        - id: ch04-b40
+          speaker: green_knight
+          text: >-
+            That is the one reward I cannot give you. I have promised to marry the most beautiful princess in the world. Choose something else.
+        - id: ch04-b41
+          speaker: narrator
+          text: >-
+            The princess ran away, washed herself, and mended her ragged clothes. When she returned, the Green Knight recognized her at once.
+        - id: ch04-b42
+          speaker: narrator
+          text: And what a joyful meeting that was!
+    - id: ch05
+      title: The Wedding of the Green Knight
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            Soon afterward, the princess and the Green Knight were married with great splendor. Every knight and prince in the kingdom was summoned to join the wedding celebration. The princess wore a dress that shone like the sun itself. As she entered, all who saw her agreed that no one had ever beheld a more gorgeous sight.
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            Her father was there, of course. The wicked queen and her daughter were driven out of the country, and no one ever saw them again. Perhaps wild beasts ate them in the forest.
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            The bride and bridegroom were so happy together that they soon forgot all about the wicked queen and her daughter. They made their home with the princess’s father and lived beside the old king for the rest of his life. When at last he died, the Green Knight and his bride succeeded him and ruled the kingdom in his place.

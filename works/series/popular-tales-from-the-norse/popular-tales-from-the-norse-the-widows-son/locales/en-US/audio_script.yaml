@@ -1,0 +1,528 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    widow:
+      display_name: Widow
+      tts:
+        delivery: weary but resolute
+        timbre: soft and careworn
+        pace: moderate
+        pitch: medium
+    lad:
+      display_name: The Lad
+      tts:
+        delivery: openhearted and impulsive
+        timbre: clear and youthful
+        pace: lively
+        pitch: medium-high
+    troll:
+      display_name: The Strange Man
+      tts:
+        delivery: controlled and menacing
+        timbre: dark and heavy
+        pace: deliberate
+        pitch: low
+    horse:
+      display_name: The Black Horse
+      tts:
+        delivery: wise and commanding
+        timbre: deep and resonant
+        pace: measured
+        pitch: low
+    kitchen_maid:
+      display_name: Kitchen Maid
+      tts:
+        delivery: sharp and dismissive
+        timbre: bright and cutting
+        pace: brisk
+        pitch: medium-high
+    cook:
+      display_name: Cook
+      tts:
+        delivery: blunt and impatient
+        timbre: full and rough-edged
+        pace: brisk
+        pitch: medium-low
+    coachman:
+      display_name: Coachman
+      tts:
+        delivery: practical and curt
+        timbre: dry and sturdy
+        pace: moderate
+        pitch: medium-low
+    gardener:
+      display_name: Gardener
+      tts:
+        delivery: matter-of-fact with dry humor
+        timbre: earthy and mellow
+        pace: unhurried
+        pitch: medium-low
+    princess:
+      display_name: Princess
+      tts:
+        delivery: warm and strong-willed
+        timbre: clear and graceful
+        pace: moderate
+        pitch: medium-high
+    princess_maid:
+      display_name: Princess's Maid
+      tts:
+        delivery: quiet and attentive
+        timbre: light and gentle
+        pace: moderate
+        pitch: medium-high
+    king:
+      display_name: King
+      tts:
+        delivery: proud and forceful
+        timbre: broad and authoritative
+        pace: measured
+        pitch: low
+    gaoler:
+      display_name: Gaoler
+      tts:
+        delivery: plain and dutiful
+        timbre: firm and weathered
+        pace: moderate
+        pitch: medium-low
+    king_man_1:
+      display_name: First King's Man
+      tts:
+        delivery: mocking and boisterous
+        timbre: bright and coarse
+        pace: brisk
+        pitch: medium
+    king_man_2:
+      display_name: Second King's Man
+      tts:
+        delivery: mocking and boisterous
+        timbre: rough and ringing
+        pace: brisk
+        pitch: medium-low
+    prince:
+      display_name: Prince
+      tts:
+        delivery: noble and grateful
+        timbre: rich and clear
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Strange Man's House
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, there was a widow so poor that she could barely keep herself and her only son alive. She struggled on until the boy had been confirmed. Then she told him she could feed him no longer. He would have to go into the world and earn his own bread.
+        - id: ch01-b02
+          speaker: widow
+          text: My son, I can't feed you any longer. You must go out now and earn your own bread.
+        - id: ch01-b03
+          speaker: narrator
+          text: The lad set out. After he had walked for a day or two, he met a strange man on the road.
+        - id: ch01-b04
+          speaker: troll
+          text: Where are you headed?
+        - id: ch01-b05
+          speaker: lad
+          text: I'm going out into the world to look for a place to work.
+        - id: ch01-b06
+          speaker: troll
+          text: Would you come and work for me?
+        - id: ch01-b07
+          speaker: lad
+          text: Gladly. I might as well serve you as anyone.
+        - id: ch01-b08
+          speaker: troll
+          text: You'll have an easy place with me. All you need to do is keep me company. There'll be no other work at all.
+        - id: ch01-b09
+          speaker: narrator
+          text: So the lad went home with him. He had all the rich food and drink he wanted, and scarcely anything to do. Yet in all his time in that house, he never saw another living soul.
+        - id: ch01-b10
+          speaker: narrator
+          text: One day, the man said he was leaving for eight days. The lad would stay there alone.
+        - id: ch01-b11
+          speaker: troll
+          text: While I'm gone, you must stay out of these four rooms. Enter even one, and when I return, I'll take your life.
+        - id: ch01-b12
+          speaker: lad
+          text: No, I won't go into them. You can be sure of that.
+        - id: ch01-b13
+          speaker: narrator
+          text: But after three or four days alone, he could stand it no longer. He opened the first room and looked all around. The room held nothing but a shelf above the door, with a bramble rod lying on it.
+        - id: ch01-b14
+          speaker: lad
+          text: Well! So this is the great thing I wasn't allowed to see.
+        - id: ch01-b15
+          speaker: narrator
+          text: At the end of eight days, the man came home. His first question was about the forbidden rooms.
+        - id: ch01-b16
+          speaker: troll
+          text: You stayed out of every room, of course?
+        - id: ch01-b17
+          speaker: lad
+          text: Oh yes. I never went into any of them.
+        - id: ch01-b18
+          speaker: troll
+          text: We'll soon know whether that's true.
+        - id: ch01-b19
+          speaker: narrator
+          text: He went straight to the room the lad had entered.
+        - id: ch01-b20
+          speaker: troll
+          text: No, you were in here. Now your life is forfeit.
+          emotion: angry
+        - id: ch01-b21
+          speaker: narrator
+          text: The lad begged and pleaded as hard as he could. At last, the man spared his life, though he still gave the boy a sound thrashing. Once the beating was over, life in the strange house returned to its old ways, and the two were as friendly as before.
+    - id: ch02
+      title: The Second and Third Rooms
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Some time later, the man left again, this time for fourteen days. The lad might now enter the first room whenever he pleased, but all the other rooms were still forbidden.
+        - id: ch02-b02
+          speaker: narrator
+          text: The same thing happened again. The lad resisted for eight days, then stepped into the second room. There was only a shelf above the door, holding a large stone and a pitcher of water.
+        - id: ch02-b03
+          speaker: lad
+          text: There's hardly anything here worth hiding from me.
+        - id: ch02-b04
+          speaker: narrator
+          text: When the man returned, he questioned the lad again.
+        - id: ch02-b05
+          speaker: troll
+          text: Did you go into any of the other rooms?
+        - id: ch02-b06
+          speaker: lad
+          text: No. I did nothing of the kind.
+        - id: ch02-b07
+          speaker: troll
+          text: We'll see about that soon enough.
+        - id: ch02-b08
+          speaker: narrator
+          text: The man found that he had entered after all.
+        - id: ch02-b09
+          speaker: troll
+          text: This time I won't spare you. You must lose your life.
+          emotion: angry
+        - id: ch02-b10
+          speaker: narrator
+          text: Again the lad begged for mercy. Again he escaped with his life, but he took as many stripes as his skin could bear. When he was well, his life became as easy as ever, and he and the man were friends once more.
+        - id: ch02-b11
+          speaker: narrator
+          text: After a while, the man prepared for a third journey. He would be away for three weeks. This time he warned the lad that entering the third room meant certain death.
+        - id: ch02-b12
+          speaker: narrator
+          text: Fourteen days passed before the lad gave in. He crept into the third room and found a trapdoor in the floor. Beneath it stood a huge copper cauldron, bubbling and boiling without any fire below.
+        - id: ch02-b13
+          speaker: lad
+          text: I only want to find out whether it's hot.
+        - id: ch02-b14
+          speaker: narrator
+          text: He dipped one finger into the broth. When he pulled it out, the finger was covered in gold. He scraped it and scrubbed it, but the gold would not come off. So he wrapped the finger in a rag.
+        - id: ch02-b15
+          speaker: narrator
+          text: When the man returned, he noticed the bandage and asked what had happened.
+        - id: ch02-b16
+          speaker: lad
+          text: I cut my finger badly, so I wrapped it up.
+        - id: ch02-b17
+          speaker: narrator
+          text: The man tore away the rag and saw the truth at once. At first he meant to kill the lad on the spot. But the boy wept and begged, so the man beat him instead. The lad had to stay in bed for three days.
+        - id: ch02-b18
+          speaker: narrator
+          text: Then the man took a pot from the wall and rubbed him with something from inside it. At once, the lad was as sound and healthy as ever.
+    - id: ch03
+      title: The Black Horse and the Escape
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Before long, the man left on another journey, this one lasting a month. He told the lad that if he entered the fourth room, there would be no hope of saving his life.
+        - id: ch03-b02
+          speaker: narrator
+          text: The lad held back for two or three weeks. Then his curiosity overcame him, and he stole into the room. A huge black horse stood alone in a stall. At its head was a manger full of red-hot coals, while a bundle of hay lay behind its tail.
+        - id: ch03-b03
+          speaker: narrator
+          text: The lad knew that was wrong. He moved the coals away and put the hay before the horse.
+        - id: ch03-b04
+          speaker: horse
+          text: You were kind enough to give me food, so I will set you free. If the Troll comes back and finds you here, he will surely kill you.
+        - id: ch03-b05
+          speaker: horse
+          text: Go to the room directly above this one. You'll find coats of mail hanging there. Don't choose a bright coat. Take the rustiest one you can find. Choose your sword and saddle the same way.
+        - id: ch03-b06
+          speaker: narrator
+          text: The lad went upstairs and chose the rustiest coat of mail, the rustiest sword, and the oldest-looking saddle. He obeyed every word, though carrying the heavy load downstairs all at once was hard work.
+        - id: ch03-b07
+          speaker: horse
+          text: Now take off your clothes. Get into the boiling cauldron in the other room and bathe in it.
+        - id: ch03-b08
+          speaker: lad
+          text: If I do that, I'll come out looking dreadful.
+        - id: ch03-b09
+          speaker: narrator
+          text: Still, he followed the horse's command. When he came out of the cauldron, he was handsome and sleek, red and white as milk and blood. He was far stronger than before.
+        - id: ch03-b10
+          speaker: horse
+          text: Do you feel any different?
+        - id: ch03-b11
+          speaker: lad
+          text: Yes, I do.
+        - id: ch03-b12
+          speaker: horse
+          text: Then try lifting me.
+        - id: ch03-b13
+          speaker: narrator
+          text: The lad lifted the great horse with ease, and he could swing the sword as lightly as a feather.
+        - id: ch03-b14
+          speaker: horse
+          text: Saddle me and put on the coat of mail. Bring the bramble rod, the stone, the pitcher of water, and the pot of ointment. Then we'll ride as fast as we can.
+        - id: ch03-b15
+          speaker: narrator
+          text: The lad mounted, and away they flew so swiftly that he could not tell how they traveled. After they had ridden for a while, the horse spoke.
+        - id: ch03-b16
+          speaker: horse
+          text: I think I hear something. Look back. What can you see?
+        - id: ch03-b17
+          speaker: lad
+          text: A great many are chasing us. There must be twenty at least.
+        - id: ch03-b18
+          speaker: horse
+          text: Yes, that's the Troll with his pack behind him.
+        - id: ch03-b19
+          speaker: narrator
+          text: They rode on until the pursuers drew close.
+        - id: ch03-b20
+          speaker: horse
+          text: Throw the bramble rod over your shoulder. Be sure it lands well clear of my back.
+        - id: ch03-b21
+          speaker: narrator
+          text: The lad threw it far behind the horse. At once, a dense bramble wood sprang up across the way. The lad and the horse rode on for a long, long time. Meanwhile, the Troll and his pack had to turn back for tools, then cut a path through the thorns before they could follow.
+        - id: ch03-b22
+          speaker: horse
+          text: Look behind us again. Do you see anything now?
+        - id: ch03-b23
+          speaker: lad
+          text: Yes. So many are coming that they could fill a large church.
+        - id: ch03-b24
+          speaker: horse
+          text: The Troll has brought more followers. Drop the stone now, and throw it far behind me.
+        - id: ch03-b25
+          speaker: narrator
+          text: The moment the stone fell, a great black mountain of rock rose behind them. Once again, the Troll had to turn for home. He needed tools strong enough to mine a road through the rock, and while he worked, the lad and the horse rode a good way farther.
+        - id: ch03-b26
+          speaker: narrator
+          text: Once more the horse told him to look back. This time he saw a troop like an entire army, glittering in the sunlight.
+        - id: ch03-b27
+          speaker: horse
+          text: That's the Troll with his whole band. Throw the pitcher behind you, but don't spill a single drop on me.
+        - id: ch03-b28
+          speaker: narrator
+          text: The lad threw the water, taking every care he could. Still, one drop struck the horse's flank. A vast, deep lake spread out behind them, and because of that one drop, the horse found himself far out in the water. Even so, he swam safely to shore.
+        - id: ch03-b29
+          speaker: narrator
+          text: When the Trolls reached the lake, they lay down and tried to drink it dry. They gulped and gulped until they burst.
+        - id: ch03-b30
+          speaker: horse
+          text: Now we're free of them.
+    - id: ch04
+      title: The Gardener's Boy
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: After traveling a long way, the lad and the horse reached a green clearing in a wood.
+        - id: ch04-b02
+          speaker: horse
+          text: Take off your armor and put your rags on again. Remove my saddle and let me loose. Hang my gear and all your weapons inside that great hollow lime tree.
+        - id: ch04-b03
+          speaker: horse
+          text: Make yourself a wig from fir moss. Then go to the king's palace nearby and ask for work. Whenever you need me, come back and shake the bridle. I will come to you.
+        - id: ch04-b04
+          speaker: narrator
+          text: The lad did exactly as the horse told him. As soon as the moss wig covered his head, he looked so ugly, pale, and wretched that no one could have recognized him.
+        - id: ch04-b05
+          speaker: narrator
+          text: At the palace, he first asked to work in the kitchen, carrying wood and water for the cook. The kitchen maid took one look at him.
+        - id: ch04-b06
+          speaker: kitchen_maid
+          text: Why are you wearing that hideous wig? Take it off. I won't have such a fright in this kitchen.
+          emotion: disgusted
+        - id: ch04-b07
+          speaker: lad
+          text: No, I can't take it off. My head isn't quite right.
+        - id: ch04-b08
+          speaker: cook
+          text: And you expect me to let you near the food? Go to the coachman. You're better suited to cleaning stables.
+          emotion: angry
+        - id: ch04-b09
+          speaker: narrator
+          text: The lad went to the stables, but the coachman also told him to take off the moss wig. Once again, the lad said he could not because his head was not quite right. The coachman refused to keep him.
+        - id: ch04-b10
+          speaker: coachman
+          text: Try the gardener. Digging in the garden ought to suit you.
+        - id: ch04-b11
+          speaker: narrator
+          text: The gardener agreed to take him. But none of the other servants would share a room with him. He had to sleep alone beneath the steps of the summerhouse, which stood high on beams. He made a bed of turf there and managed as well as he could.
+        - id: ch04-b12
+          speaker: narrator
+          text: One morning after he had lived at the palace for some time, he removed the wig to wash at sunrise. Without it, he was so handsome that looking at him was a delight.
+        - id: ch04-b13
+          speaker: narrator
+          text: The Princess saw the gardener's boy from her window. She thought she had never seen anyone so handsome, and she asked the gardener why the boy slept beneath the steps.
+        - id: ch04-b14
+          speaker: gardener
+          text: None of the other servants will sleep beside him. That's the reason.
+        - id: ch04-b15
+          speaker: princess
+          text: Tonight, let him sleep inside my bedroom door. After that, the others won't refuse to share with him.
+        - id: ch04-b16
+          speaker: narrator
+          text: The gardener carried her command to the lad.
+        - id: ch04-b17
+          speaker: lad
+          text: Do you think I'd do such a thing? People would soon claim there was something between the Princess and me.
+        - id: ch04-b18
+          speaker: gardener
+          text: Yes, a handsome fellow like you has good reason to worry about that.
+        - id: ch04-b19
+          speaker: lad
+          text: Well, if the Princess insists, I suppose I must go.
+        - id: ch04-b20
+          speaker: narrator
+          text: That evening, he climbed the high steps to the Princess's room. He tramped and stamped so loudly that the people there begged him to walk softly, or the King would hear. At last he entered the bedroom, lay down just inside the door, and began snoring at once.
+        - id: ch04-b21
+          speaker: princess
+          text: Go quietly and try to pull off his wig.
+        - id: ch04-b22
+          speaker: narrator
+          text: The maid crept toward him. Just as she reached for the wig, he seized it in both hands and swore she would never have it. Then he lay down and started snoring again.
+        - id: ch04-b23
+          speaker: narrator
+          text: The Princess signaled to her maid. On the second try, the maid whisked away the wig. There lay the lad, as lovely and red and white as the Princess had seen him in the morning sun.
+        - id: ch04-b24
+          speaker: narrator
+          text: From then on, he slept every night in the Princess's bedroom.
+        - id: ch04-b25
+          speaker: narrator
+          text: Before long, the King heard about it. He grew so furious that he nearly killed the lad. Instead, he threw him into the prison tower. He locked his daughter in her room day and night. No matter how much she pleaded for them both, the King only became angrier.
+    - id: ch05
+      title: The Unknown Champion
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Some time later, war broke out across the land. Another king meant to seize the kingdom, and the King had to take up arms against him.
+        - id: ch05-b02
+          speaker: narrator
+          text: When the lad heard the news, he asked the gaoler to carry a request to the King. He wanted a coat of mail, a sword, and permission to join the war.
+        - id: ch05-b03
+          speaker: narrator
+          text: Everyone laughed when the gaoler delivered the message. They urged the King to give the prisoner an old, worn-out suit of armor, just for the fun of seeing such a wretch in battle. Along with it, he received a broken-down old horse that walked on three legs and dragged the fourth.
+        - id: ch05-b04
+          speaker: narrator
+          text: The army rode out to meet the enemy. They had barely left the palace when the lad and his old horse became stuck in a bog.
+        - id: ch05-b05
+          speaker: lad
+          text: Get up! Come on, get up!
+        - id: ch05-b06
+          speaker: narrator
+          text: He dug in his spurs while the King's men rode past, laughing and making sport of him. As soon as they were gone, he ran to the lime tree. He put on his true coat of mail and shook the bridle. The black horse came in an instant.
+        - id: ch05-b07
+          speaker: horse
+          text: Give your best, and I will give mine.
+        - id: ch05-b08
+          speaker: narrator
+          text: By the time the lad reached the battlefield, the fight had begun and the King was in desperate trouble. The lad charged into the thick of the battle. At once, the enemy was driven back and put to flight.
+        - id: ch05-b09
+          speaker: narrator
+          text: The King and his men wondered and wondered who had come to save them. They tried to reach the unknown champion, but no one got near enough to speak with him. The moment the fighting ended, he was gone. He returned his armor and horse to the lime tree, put on his worn gear, and took his place in the bog again.
+        - id: ch05-b10
+          speaker: narrator
+          text: On their way home, they saw the lad sitting in the bog again, still spurring the three-legged horse. Once more, they laughed.
+        - id: ch05-b11
+          speakers: [king_man_1, king_man_2]
+          ensemble: duo
+          text: Just look at that! The fool is still sitting there.
+    - id: ch06
+      title: Three Days of Battle
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: The next day, the soldiers rode out and found the lad sitting in the same place. He was still urging the poor old horse forward, and they mocked him all over again. As soon as the last rider had passed, he ran back to the lime tree. He changed into his true armor, shook the bridle, and mounted the black horse. Then he sped after the army.
+        - id: ch06-b02
+          speaker: narrator
+          text: The battle unfolded just as it had on the first day. The strange champion rushed in and helped drive the enemy away. Everyone wondered who he could be, but nobody came near enough to say a word to him. Not one of them guessed he was the gardener's boy. That evening, they rode home and found him back on the three-legged horse, so they laughed harder than ever.
+        - id: ch06-b03
+          speaker: narrator
+          text: One of the men shot an arrow at him, striking him in the leg. The lad shrieked and wailed so pitifully that it would have broken anyone's heart. The King tossed him his own handkerchief to bind the wound.
+        - id: ch06-b04
+          speaker: narrator
+          text: On the third morning, he was still sitting there.
+        - id: ch06-b05
+          speaker: lad
+          text: Get up! Get up, you old horse!
+        - id: ch06-b06
+          speakers: [king_man_1, king_man_2]
+          ensemble: duo
+          text: Let him sit there until he starves!
+        - id: ch06-b07
+          speaker: narrator
+          text: The soldiers rode on, laughing so hard they nearly fell from their horses. Once they were out of sight, the lad hurried to the lime tree again. This time, he reached the battle at the very moment he was needed. He killed the enemy king, and the war ended at once.
+        - id: ch06-b08
+          speaker: narrator
+          text: After the fighting, the King saw his own handkerchief tied around the unknown warrior's leg. Now discovering who he was became easy. The men joyfully carried him between them all the way to the palace.
+        - id: ch06-b09
+          speaker: narrator
+          text: The Princess saw him coming from her window, and no one could imagine her happiness.
+        - id: ch06-b10
+          speaker: princess
+          text: My own true love is coming home!
+          emotion: happy
+        - id: ch06-b11
+          speaker: narrator
+          text: The lad fetched the pot of ointment and rubbed it on his injured leg. Then he treated every wounded man. In a moment, all of them were well again.
+        - id: ch06-b12
+          speaker: narrator
+          text: He married the Princess. The King gave him half the kingdom, and so the widow's son became a young king himself.
+    - id: ch07
+      title: The Horse's Last Command
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: On the day of the wedding, the young king went down to see his horse in the stable. The horse stood dull and heavy, with its ears hanging low, and would not touch its corn.
+        - id: ch07-b02
+          speaker: lad
+          text: What is troubling you?
+        - id: ch07-b03
+          speaker: horse
+          text: I have helped you rise, and now I no longer wish to live. Take your sword and cut off my head.
+          emotion: sad
+        - id: ch07-b04
+          speaker: lad
+          text: No, I will never do that. You shall have everything you need and rest for the rest of your life.
+        - id: ch07-b05
+          speaker: horse
+          text: If you refuse to do as I ask, I will find some way to take your life.
+          emotion: angry
+        - id: ch07-b06
+          speaker: narrator
+          text: The young king had no choice but to obey. As he raised the sword, sorrow overcame him. He turned his face away so he would not see the blow fall. The instant he cut off the horse's head, the loveliest Prince stood where the horse had been.
+        - id: ch07-b07
+          speaker: lad
+          text: Why, where in the world did you come from?
+          emotion: surprised
+        - id: ch07-b08
+          speaker: prince
+          text: I was the horse. The king you killed yesterday once ruled my land. He put this strange shape upon me and sold me to the Troll. Now that he is dead, I have my own form and kingdom again.
+        - id: ch07-b09
+          speaker: prince
+          text: You and I will rule neighboring kingdoms, but we will never make war on each other.
+        - id: ch07-b10
+          speaker: narrator
+          text: And they never did. They remained friends for as long as they lived, and each king often visited the other.

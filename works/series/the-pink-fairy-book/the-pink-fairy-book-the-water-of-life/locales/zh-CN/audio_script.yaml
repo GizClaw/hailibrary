@@ -1,0 +1,220 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: "讲述者"
+      tts:
+        delivery: "亲切从容，带一点温和的幽默"
+        timbre: "温暖清晰"
+        pace: "舒缓而有变化"
+        pitch: "中音"
+    eldest_brother:
+      display_name: "大哥"
+      tts:
+        delivery: "起初贪玩，后来急于建成完美宫殿，遇事容易失去耐性"
+        timbre: "清亮的年轻男声"
+        pace: "适中偏快"
+        pitch: "中音"
+    second_brother:
+      display_name: "二哥"
+      tts:
+        delivery: "勇敢直接，听见亲人声音时容易动摇"
+        timbre: "厚实的年轻男声"
+        pace: "适中"
+        pitch: "中低音"
+    youngest_brother:
+      display_name: "小弟"
+      tts:
+        delivery: "坚决勇敢，对兄长情深意重"
+        timbre: "明朗温厚的年轻男声"
+        pace: "适中"
+        pitch: "中音"
+    sister:
+      display_name: "妹妹"
+      tts:
+        delivery: "细心坚定，危急时果断无畏"
+        timbre: "清澈柔韧的年轻女声"
+        pace: "从容而有变化"
+        pitch: "中高音"
+    old_woman:
+      display_name: "老太太"
+      tts:
+        delivery: "直率挑剔，说话一针见血"
+        timbre: "苍老清晰的女声"
+        pace: "缓慢"
+        pitch: "中音"
+    old_man:
+      display_name: "老者"
+      tts:
+        delivery: "礼貌而神秘，指点时言简意赅"
+        timbre: "苍老沉稳的男声"
+        pace: "从容"
+        pitch: "低音"
+    giant:
+      display_name: "巨人"
+      tts:
+        delivery: "严肃坦率，告诫时郑重有力"
+        timbre: "洪亮浑厚的男声"
+        pace: "缓慢"
+        pitch: "低音"
+  chapters:
+    - id: ch01
+      title: "宫殿还缺什么"
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "从前，三兄弟和一个妹妹一起住在一间小屋里，彼此亲爱极了。大哥从太阳升起一直玩到太阳落下，从没做过正事。有一天，这个最贪玩的哥哥忽然有了一个主意。"
+        - id: ch01-b02
+          speaker: eldest_brother
+          text: "咱们大家都下力气干活吧。说不定能富起来，给自己造一座宫殿。"
+        - id: ch01-b03
+          speakers: [second_brother, youngest_brother, sister]
+          ensemble: chorus
+          text: "好，我们大家一起干！"
+          emotion: happy
+        - id: ch01-b04
+          speaker: narrator
+          text: "四个人说干就干，而且使出了浑身力气。他们终于成了富人，也果真为自己造起一座美丽的宫殿。方圆许多英里的人都赶来看这里的奇景，人人都说宫殿富丽堂皇。谁也没有想过要挑出一点毛病。后来，一位老太太随着参观的人群走遍所有房间，忽然停了下来。"
+        - id: ch01-b05
+          speaker: old_woman
+          text: "这座宫殿的确美极了，可惜还缺一样东西！"
+        - id: ch01-b06
+          speakers: [eldest_brother, second_brother, youngest_brother]
+          ensemble: chorus
+          text: "还缺什么呢？"
+        - id: ch01-b07
+          speaker: old_woman
+          text: "这里还缺一座教堂。"
+        - id: ch01-b08
+          speaker: narrator
+          text: "兄弟三人听了，又去拼命干活挣钱。等钱攒够，他们就在宫殿旁动工，要造一座和宫殿一样宏伟美丽的教堂。教堂建成以后，前来游览的人比从前更多了。他们看宫殿和教堂，也看广阔的花园和金碧辉煌的大厅。一天，兄弟三人照常陪客人参观，一位老者转过身来，说这里仍旧缺少一样东西。"
+        - id: ch01-b09
+          speakers: [eldest_brother, second_brother, youngest_brother]
+          ensemble: chorus
+          text: "这一次又缺什么呢？"
+        - id: ch01-b10
+          speaker: old_man
+          text: "一壶生命之水，一根花香能让人永葆美貌的美丽树枝，还有一只会说话的鸟。"
+        - id: ch01-b11
+          speaker: eldest_brother
+          text: "我们要到哪里去找这些东西？"
+        - id: ch01-b12
+          speaker: old_man
+          text: "到远处那座山上去。你们寻找的东西都在那里。"
+        - id: ch01-b13
+          speaker: narrator
+          text: "老者彬彬有礼地鞠躬告辞。大哥马上对弟弟妹妹说，自己要去找齐三件宝物。妹妹却担心他在路上遇见灾祸，到时家人毫不知情。大哥听完才发觉自己根本没有想到这一层。于是，兄妹四人赶紧追上老者，请他想个办法。"
+        - id: ch01-b14
+          speaker: sister
+          text: "我大哥要去找那些宝物。可他若是遇上灾祸，我们怎样才能知道呢？"
+        - id: ch01-b15
+          speaker: old_man
+          text: "仔细收好这把刀。只要刀刃明亮，他便安然无恙。刀刃若染了血，你们就知道他出事了。"
+        - id: ch01-b16
+          speaker: narrator
+          text: "兄弟们谢过老者，带着刀径直回到宫殿。大哥已经收拾好行装，就等着动身去远方那座藏着珍宝的山。"
+    - id: ch02
+      title: "三个哥哥变成石头"
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "大哥走啊，走啊，走啊，走了很远很远，遇见一个巨人。他问巨人，离那座山还有多远。巨人却先问他为何要去那里。"
+        - id: ch02-b02
+          speaker: eldest_brother
+          text: "我要寻找生命之水、会说话的鸟和一根美丽树枝。"
+        - id: ch02-b03
+          speaker: giant
+          text: "许多人都去找过那些珍宝，却没有一个回来。你要牢牢记住我的话。顺着这条路走，山上全是石头。别停下看它们，只管向前。身后会有嘲笑和讥讽，那是石头在奚落你。千万别理，更不能回头，否则你也会变成石头。登上山顶以后，想要什么便拿什么。"
+        - id: ch02-b04
+          speaker: narrator
+          text: "大哥谢过巨人的指点，又走啊，走啊，走啊，终于来到山下。攀登时，身后的石头不断嘲弄他，他起初紧紧闭住耳朵，只顾向上。可声音越来越响，他终于失去耐性，弯腰捡起一块石头，想朝最吵的地方扔去。就在这一刻，他的手臂忽然僵住了。转眼间，他自己也成了石头。"
+        - id: ch02-b05
+          speaker: narrator
+          text: "妹妹一直等着大哥回来，却觉得他这一去实在太久了。那天，她取出老者给的刀一看，刀刃已经红得像血。她惊叫起来，赶紧告诉两个哥哥，一定出了可怕的事。"
+        - id: ch02-b06
+          speaker: second_brother
+          text: "我去找他。"
+        - id: ch02-b07
+          speaker: narrator
+          text: "二哥说完便上了路。他走啊，走啊，走啊，走了很远，也遇见那个巨人。他连忙问巨人，可曾看见一个青年朝山上去。"
+        - id: ch02-b08
+          speaker: giant
+          text: "我看见他经过，却没看见他回来。准是魔法在他身上应验了。"
+        - id: ch02-b09
+          speaker: second_brother
+          text: "我要怎样替他解除魔法，又拿到那三件宝物？"
+        - id: ch02-b10
+          speaker: giant
+          text: "山上布满石头，你不要停下来看。四面会传来嘲笑和讥讽，千万别理，也绝不能回头。只管一步不停地爬到山顶。"
+        - id: ch02-b11
+          speaker: narrator
+          text: "二哥谢过巨人的指点，动身朝山上走去。他才到山脚，震耳欲聋的挖苦和嘲骂便从四面涌来。起初，他任凭那些声音叫嚷，还是勇敢地往上攀登，甚至走过了大哥到达的地方。忽然，他觉得大哥的声音也夹在那些嘲笑声里。他停下脚步，转身去看，山上便又多了一块石头。"
+        - id: ch02-b12
+          speaker: narrator
+          text: "妹妹留在家里，天天数着日子，盼望两个哥哥回来。等待显得格外漫长。她不知道把刀从抽屉里取出了多少回，只求至少二哥仍然平安。每次看见光洁明亮的刀刃，她都能安心片刻。直到一天傍晚，她又累又担忧地打开抽屉，刀刃竟染得血红。她惊恐地叫了一声，小弟闻声赶来。她已经说不出话，只能把刀伸到他面前。"
+        - id: ch02-b13
+          speaker: youngest_brother
+          text: "我去。"
+        - id: ch02-b14
+          speaker: narrator
+          text: "小弟也上了路。他走啊，走啊，走啊，一直走到巨人面前，问他有没有两个青年从这里经过，朝远处那座山去了。"
+        - id: ch02-b15
+          speaker: giant
+          text: "他们都经过这里，却一个也没回来。魔法已经降在他们身上了。"
+        - id: ch02-b16
+          speaker: youngest_brother
+          text: "那我该怎样救出他们，拿到那三件宝物？"
+        - id: ch02-b17
+          speaker: giant
+          text: "山上的石头密得几乎无处落脚。你只管向前，别向左看，也别向右看，更别理会一路跟着你的嘲笑。到了山顶，你便能得到想要的一切。"
+        - id: ch02-b18
+          speaker: narrator
+          text: "小弟谢过巨人，来到山下。刚开始攀登，四周便卷起一场嘲笑和讥骂的风暴。他记着巨人的话，不看左边，也不看右边，只管往前走。山顶已经近在眼前，只差片刻便能到达。可一片呻吟和叫喊中，两个哥哥的声音钻进了他的耳朵。他忍不住回头，山上又多了一块石头。"
+    - id: ch03
+      title: "妹妹登上山顶"
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "妹妹在宫殿里来回踱步，手里的刀几乎片刻不离。她害怕看见心里料到的景象，可刀刃还是在眼前渐渐变红了。"
+        - id: ch03-b02
+          speaker: sister
+          text: "现在该轮到我了。"
+        - id: ch03-b03
+          speaker: narrator
+          text: "她把刀放下，也踏上了远路。她走啊，走啊，走啊，终于来到巨人面前，请他告诉自己，可曾见过三个青年从这里经过，去寻找远处那座山。"
+        - id: ch03-b04
+          speaker: giant
+          text: "我看见他们经过，却没有一个回来。魔法已经降在他们身上了。"
+        - id: ch03-b05
+          speaker: sister
+          text: "我要怎样救出他们，找到那三件宝物？"
+        - id: ch03-b06
+          speaker: giant
+          text: "你必须登上那座山。山上石头密得几乎没有落脚处。你会听见喧闹，仿佛天下所有石头都在嘲笑你。无论听见什么都别理。只要登顶，一切便都是你的。"
+        - id: ch03-b07
+          speaker: narrator
+          text: "姑娘谢过巨人的指点，独自走向那座山。她向上才走几步，四周便爆发出哭喊和尖叫。每当一只脚踩上石头，她都觉得脚下像是活物。她不知道哥哥们究竟遭遇了什么，只记着巨人的告诫，脸始终朝着山顶，一步也不停。山顶越来越近，喧闹声却突然响了七倍。在所有声音之上，三个哥哥的呼喊格外清楚。姑娘还是不听，也没有回头。最后，她的双脚终于站上山巅。"
+        - id: ch03-b08
+          speaker: narrator
+          text: "姑娘这才环顾四周。山坳里静静躺着一洼生命之水。她拿出随身带来的铜壶，把水一直装到壶口。水池旁长着那棵美丽树，会说话的鸟正栖在一根树枝上。她伸手捉住鸟儿，把它关进笼子，又从树上折下一根树枝。"
+    - id: ch04
+      title: "石头重新活过来"
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "姑娘带着三件宝物，欢欢喜喜地转身下山。可漫长的攀登已经让她筋疲力尽，装满生命之水的铜壶又十分沉重。走着走着，几滴水从壶里洒在石头上。水滴一碰到石头，石头便恢复了人形，变成一个个青年男女。他们全围到姑娘身边，纷纷感谢她搭救了自己。"
+        - id: ch04-b02
+          speaker: narrator
+          text: "姑娘这才明白，生命之水能够破除邪恶的魔法。她不肯漏掉任何人，小心地把水洒在每一块石头上。最后，山上再也没有一块石头，只剩下一大群恢复人形的青年男女。其中也有她的三个哥哥。所有人都跟着她一道下山。"
+        - id: ch04-b03
+          speaker: narrator
+          text: "一回到宫殿，姑娘片刻也没有耽搁。她马上把美丽树枝种进土里，再用生命之水浇灌。树枝转眼抽枝伸叶，长成一棵大树，枝头开满沉甸甸的花朵。会说话的鸟也飞进枝叶之间，在树上筑起了巢。"
+    - id: ch05
+      title: "姑娘与王子"
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: "三件奇宝的名声很快传遍四方。人们成群结队地赶来，既要看生命之水、美丽树和会说话的鸟，也要看那位赢得宝物的姑娘。国王的儿子也随着游人来到了宫殿。他把每一样宝物都仔细看遍，又请人把事情从头到尾讲给自己听，直到全部经过都听明白了才肯离去。"
+        - id: ch05-b02
+          speaker: narrator
+          text: "王子赞叹宫殿里那些宝物的美丽与神异，可他最钦佩的，还是姑娘的美貌与勇气。他回到家，把自己看到和听到的一切都告诉父母，请求迎娶她为妻。父母答应了这门婚事。婚礼就在宫殿旁的教堂里举行。礼成以后，新郎带着新娘回到自己的家，两人从此永远幸福地生活在一起。"

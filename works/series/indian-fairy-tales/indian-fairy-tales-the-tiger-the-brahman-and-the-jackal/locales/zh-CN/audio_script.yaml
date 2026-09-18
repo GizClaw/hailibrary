@@ -1,0 +1,196 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 郑重而亲切，带着学者讲述旧日故事的从容
+        timbre: 温暖清晰，沉稳而有书卷气
+        pace: 舒缓，论述转折处稍作停顿
+        pitch: 中低
+    tiger:
+      display_name: 老虎
+      tts:
+        delivery: 凶猛急躁，哀求时刻意可怜，发怒时粗暴强横
+        timbre: 粗沉有力，带着低吼般的压迫感
+        pace: 适中偏快，失去耐性时明显加快
+        pitch: 低
+    brahman:
+      display_name: 婆罗门
+      tts:
+        delivery: 温和虔诚，受惊后忧愁而谨慎，求情时恭敬
+        timbre: 柔和清楚，略显单薄
+        pace: 适中，恐惧时稍有迟疑
+        pitch: 中
+    pipal_tree:
+      display_name: 菩提树
+      tts:
+        delivery: 冷淡而饱经世故，说到人心时带着责备
+        timbre: 苍老干涩，沉稳宽厚
+        pace: 缓慢
+        pitch: 中低
+    buffalo:
+      display_name: 水牛
+      tts:
+        delivery: 劳苦而愤懑，话语直率，不抱幻想
+        timbre: 低沉粗粝，透着疲惫
+        pace: 舒缓偏慢
+        pitch: 低
+    road:
+      display_name: 道路
+      tts:
+        delivery: 无奈而讥诮，像看惯了世间冷暖
+        timbre: 平稳开阔，略带沙哑
+        pace: 适中偏慢
+        pitch: 中低
+    jackal:
+      display_name: 胡狼
+      tts:
+        delivery: 机敏诙谐，装糊涂时迟疑慌乱，得计后轻快笃定
+        timbre: 清亮灵活，带一点狡黠
+        pace: 富于变化，装傻时断断续续
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 笼门一开
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，一只老虎落进了陷阱。他在笼里又滚又咬，拼命想从铁栏杆间钻出去，可怎么也逃不掉。每试一次，他就更加气恼，也更加伤心。恰好有个穷婆罗门从旁经过。
+        - id: ch01-b02
+          speaker: tiger
+          text: 虔诚的人啊，求您打开笼门，放我出去吧！
+        - id: ch01-b03
+          speaker: brahman
+          text: 不行，我的朋友。我若救了你，你多半转头就会吃掉我。
+        - id: ch01-b04
+          speaker: tiger
+          text: 绝不会！我向您发誓。您救了我，我会一辈子感激您，还会像奴仆一样侍奉您！
+        - id: ch01-b05
+          speaker: narrator
+          text: 老虎又哭又叹，不住地赌咒。婆罗门听着听着，心便软了，终于把笼门打开。老虎一下蹿出来，抓住了这个可怜人。
+        - id: ch01-b06
+          speaker: tiger
+          text: 你真是个傻瓜！我关了那么久，早就饿得要命。现在谁还能拦着我吃你？
+        - id: ch01-b07
+          speaker: narrator
+          text: 婆罗门苦苦求他饶命，可说什么也没用。最后，他能争取到的只有这一点：让他自己挑三样东西来询问，听它们评一评老虎这样做公不公平，再照它们的裁决办。
+    - id: ch02
+      title: 三个无情的回答
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 婆罗门先找到一棵菩提树，把自己和老虎的事讲了，请它评理。菩提树听完，冷冷地开了口。
+        - id: ch02-b02
+          speaker: pipal_tree
+          text: 你还有什么可抱怨的？每个从这里经过的人，我都给他荫凉，也替他遮风挡雨。可他们怎样报答我？他们折断我的树枝，拿去喂自己的牲口。别再哭哭啼啼了，像个男子汉吧！
+        - id: ch02-b03
+          speaker: narrator
+          text: 婆罗门伤心地继续走，看到一头水牛套在井边，正拉着水车转动。他又请水牛来评理。
+        - id: ch02-b04
+          speaker: buffalo
+          text: 你竟然指望别人感恩，真傻！看看我吧。我能产奶时，他们给我吃棉籽和油饼。现在我的奶干了，他们就把我套在井边拉水车，只拿没人要的废料喂我！
+        - id: ch02-b05
+          speaker: narrator
+          text: 婆罗门听了，心里更难过。最后，他转向脚下的道路，问道路有什么看法。
+        - id: ch02-b06
+          speaker: road
+          text: 我亲爱的先生，你还盼着得到别的回报，未免太糊涂了。我对谁都有用，可无论贫富贵贱，人人经过时都从我身上踩过去。他们什么也不给我，留下的只有烟斗里的灰和粮食的壳！
+        - id: ch02-b07
+          speaker: narrator
+          text: 三个回答都对他不利。婆罗门只好满怀愁苦地往回走。半路上，一只胡狼看见了他。
+        - id: ch02-b08
+          speaker: jackal
+          text: 婆罗门先生，出了什么事？您愁成这样，活像一条离了水的鱼！
+        - id: ch02-b09
+          speaker: narrator
+          text: 婆罗门把经过全说了一遍。胡狼听完，却露出一副糊里糊涂的模样。
+        - id: ch02-b10
+          speaker: jackal
+          text: 这事怎么越听越乱？劳驾您再说一次吧，我实在理不清。
+        - id: ch02-b11
+          speaker: narrator
+          text: 婆罗门又讲了一遍。胡狼仍旧茫然地摇头。
+        - id: ch02-b12
+          speaker: jackal
+          text: 真怪！您的话从我这只耳朵进去，马上又从另一只耳朵跑了。我得去现场看看，也许到了那里，才能替你们评理。
+    - id: ch03
+      title: 胡狼听不明白
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 他们回到笼边。老虎一直在那里等着，还把牙齿和爪子磨得锋利。
+        - id: ch03-b02
+          speaker: tiger
+          text: 你去了这么久！好了，现在该吃咱们的晚饭了。
+        - id: ch03-b03
+          speaker: narrator
+          text: 婆罗门吓得两腿直打战。听到“咱们的晚饭”，他心里还忍不住苦笑，老虎把吃人说得可真文雅。
+        - id: ch03-b04
+          speaker: brahman
+          text: 大王，再给我五分钟吧。让我把事情向这只胡狼解释清楚，他的脑筋有些迟钝。
+        - id: ch03-b05
+          speaker: narrator
+          text: 老虎答应了。婆罗门只得把整个故事再说一遍。他一个细节也不漏，还尽量把话讲得又长又慢。胡狼听着，搓起两只爪子，苦恼地叫了起来。
+        - id: ch03-b06
+          speaker: jackal
+          text: 哎哟，我这可怜的脑袋！让我想想，事情一开始，是您关在笼子里，老虎从旁边走来——
+        - id: ch03-b07
+          speaker: tiger
+          text: 呸！你这个傻瓜！关在笼子里的是我！
+          emotion: angry
+        - id: ch03-b08
+          speaker: jackal
+          text: 对，对！是我关在笼子里——不，不是我。哎呀，我的脑筋呢？难道是老虎关在婆罗门里，笼子从旁边走来？也不对！算了，您先开饭吧，我是永远弄不懂了。
+        - id: ch03-b09
+          speaker: tiger
+          text: 你非懂不可！我一定让你弄明白。看清楚了，我是老虎——
+          emotion: angry
+        - id: ch03-b10
+          speaker: jackal
+          text: 是的，大王！
+        - id: ch03-b11
+          speaker: tiger
+          text: 那边的是婆罗门——
+        - id: ch03-b12
+          speaker: jackal
+          text: 是的，大王！
+        - id: ch03-b13
+          speaker: tiger
+          text: 这个是笼子——
+        - id: ch03-b14
+          speaker: jackal
+          text: 是的，大王！
+    - id: ch04
+      title: 一切照旧
+      blocks:
+        - id: ch04-b01
+          speaker: tiger
+          text: 原来是我关在这个笼子里。这次明白了吗？
+        - id: ch04-b02
+          speaker: jackal
+          text: 明白了——不，还是没有。请问，大王——
+        - id: ch04-b03
+          speaker: tiger
+          text: 又怎么了？
+        - id: ch04-b04
+          speaker: jackal
+          text: 大王，您当初是怎么进去的？
+        - id: ch04-b05
+          speaker: tiger
+          text: 怎么进去的？当然是照平常的办法进去的！
+        - id: ch04-b06
+          speaker: jackal
+          text: 哎呀，我的头又晕了！大王，您千万别生气，可什么才叫平常的办法呢？
+        - id: ch04-b07
+          speaker: narrator
+          text: 老虎的耐性彻底耗光了。为了让这个怎么也不开窍的胡狼亲眼看清，他纵身跳进笼子，大声吼道。
+        - id: ch04-b08
+          speaker: tiger
+          text: 就是这样进去的！现在你总明白了吧？
+        - id: ch04-b09
+          speaker: narrator
+          text: 胡狼咧嘴一笑，手脚利落地关上了笼门。
+        - id: ch04-b10
+          speaker: jackal
+          text: 这下完全明白了！恕我直说，我看一切还是照原来的样子不变最好。

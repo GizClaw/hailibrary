@@ -1,0 +1,507 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 温暖俏皮，语气笃定
+        timbre: 清亮圆润
+        pace: 从容，遇到韵律段落时轻快
+        pitch: 中
+    eldest_magician:
+      display_name: 最古老的魔法师
+      tts:
+        delivery: 威严睿智，偶尔带着含蓄的笑意
+        timbre: 深沉洪亮
+        pace: 沉稳
+        pitch: 低
+    man:
+      display_name: 男人
+      tts:
+        delivery: 自信务实，幽默不动声色
+        timbre: 坚实清晰
+        pace: 平稳
+        pitch: 中低
+    girl_daughter:
+      display_name: 小女儿
+      tts:
+        delivery: 认真机敏，明亮坦率
+        timbre: 柔和稚嫩
+        pace: 清楚活泼
+        pitch: 高
+    pau_amma:
+      display_name: 波阿玛
+      tts:
+        delivery: 骄傲固执，爱夸耀自己
+        timbre: 宽厚隆隆
+        pace: 缓慢郑重
+        pitch: 低
+    elephant:
+      display_name: 大象始祖
+      tts:
+        delivery: 恭敬而满怀期待
+        timbre: 洪大温和
+        pace: 缓慢
+        pitch: 低
+    cow:
+      display_name: 母牛始祖
+      tts:
+        delivery: 温顺恭敬
+        timbre: 丰满柔和
+        pace: 从容
+        pitch: 中低
+    beaver:
+      display_name: 海狸始祖
+      tts:
+        delivery: 忙碌利落又恭敬
+        timbre: 清脆紧凑
+        pace: 明快
+        pitch: 中
+    turtle:
+      display_name: 乌龟始祖
+      tts:
+        delivery: 耐心恭敬
+        timbre: 干爽温厚
+        pace: 缓慢
+        pitch: 中低
+    animal_1:
+      display_name: 动物甲
+      tts:
+        delivery: 坦诚恭敬
+        timbre: 清亮
+        pace: 平稳
+        pitch: 中
+    animal_2:
+      display_name: 动物乙
+      tts:
+        delivery: 坦诚恭敬
+        timbre: 温暖坚定
+        pace: 平稳
+        pitch: 中低
+    animal_3:
+      display_name: 动物丙
+      tts:
+        delivery: 坦诚恭敬
+        timbre: 明亮清晰
+        pace: 平稳
+        pitch: 中高
+    moon_fisherman:
+      display_name: 月亮上的渔夫
+      tts:
+        delivery: 古老耐心，实事求是
+        timbre: 单薄沧桑
+        pace: 缓慢
+        pitch: 中高
+    moon_rat:
+      display_name: 月亮上的老鼠
+      tts:
+        delivery: 忙碌尖利，直截了当
+        timbre: 细小紧绷
+        pace: 快
+        pitch: 高
+  chapters:
+    - id: ch01
+      title: 万物初生的游戏
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            在那遥远又古老的年代以前，亲爱的宝贝，还有一个万物初生的年代。那时，最古老的魔法师正忙着安顿世间万物。他先安顿好大地，再安顿好大海，然后告诉所有动物，它们可以出来玩了。
+        - id: ch01-b02
+          speakers: [animal_1, animal_2, animal_3]
+          ensemble: chorus
+          text: 最古老的魔法师啊，我们该玩什么？
+        - id: ch01-b03
+          speaker: eldest_magician
+          text: 我来教你们。
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            他先捧起世间一切大象的祖先，叫他玩做大象的游戏，大象立刻玩了起来。接着，他捧起海狸始祖，教他做海狸。母牛始祖学会了做母牛，乌龟始祖也学会了做乌龟。就这样，走兽、飞鸟和游鱼一个接一个来到他手里，由他告诉它们各自该玩什么游戏。
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            到了傍晚，人和万物都有些疲倦烦躁，一个男人来了。你问他带着自己的小女儿吗？当然带着。他最最亲爱的小女儿就坐在他肩头。
+        - id: ch01-b06
+          speaker: man
+          text: 最古老的魔法师，这是什么游戏？
+        - id: ch01-b07
+          speaker: eldest_magician
+          text: 亚当之子，这是万物初生时的游戏。你太聪明，不适合加入。
+        - id: ch01-b08
+          speaker: narrator
+          text: 男人向他行了一礼。
+        - id: ch01-b09
+          speaker: man
+          text: 对，我太聪明，不适合玩。不过，你得让所有动物都服从我。
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            他们交谈时，下一位原该轮到螃蟹波阿玛。可他横着溜走，一脚踏进大海，没等魔法师开口就逃了。
+        - id: ch01-b11
+          speaker: pau_amma
+          text: 我要独自在深水里玩自己的游戏。我永远也不服从这个亚当之子。
+        - id: ch01-b12
+          speaker: narrator
+          text: >-
+            只有倚在男人肩头的小女儿看见波阿玛离开，却没有出声。游戏继续下去，直到世上再没有一种动物没领到吩咐。最古老的魔法师这才掸掉手上的细尘，绕着整个世界走去，查看它们怎样玩自己的游戏。
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            他往北走，亲爱的宝贝，看见大象始祖正在那片专为他备好的、清洁崭新的土地上，用象牙不停地掘土，又抬起四只大脚使劲跺地。
+        - id: ch01-b14
+          speaker: elephant
+          text: 昆？这样对吗？
+        - id: ch01-b15
+          speaker: eldest_magician
+          text: 帕亚昆。完全正确。
+        - id: ch01-b16
+          speaker: narrator
+          text: >-
+            魔法师朝大象掘出的巨岩和土堆吹口气，它们便成了喜马拉雅山脉。地图上找得到。
+        - id: ch01-b17
+          speaker: narrator
+          text: >-
+            他又往东走。母牛始祖正在为她备好的田野上进食。她每次把舌头绕住整整一片森林，一口吞进肚子，然后坐下来慢慢反刍。
+        - id: ch01-b18
+          speaker: cow
+          text: 昆？这样对吗？
+        - id: ch01-b19
+          speaker: eldest_magician
+          text: 帕亚昆。完全正确。
+        - id: ch01-b20
+          speaker: narrator
+          text: >-
+            他朝母牛吃秃的土地和她坐过的地方吹气，一处成了印度沙漠，另一处成了撒哈拉沙漠。地图上也找得到。
+        - id: ch01-b21
+          speaker: narrator
+          text: 他来到西方。海狸始祖正横跨几条大河的入海口筑坝。
+        - id: ch01-b22
+          speaker: beaver
+          text: 昆？这样对吗？
+        - id: ch01-b23
+          speaker: eldest_magician
+          text: 帕亚昆。完全正确。
+        - id: ch01-b24
+          speaker: narrator
+          text: >-
+            他朝倒下的树木和静止的河水吹气，它们便成了佛罗里达大沼泽。地图上仍旧找得到。
+        - id: ch01-b25
+          speaker: narrator
+          text: >-
+            最后他往南走。乌龟始祖正在那片专为他备好的沙地上，用鳍肢不停刨着。沙子和岩石旋上天空，飞过很远，才纷纷落进大海。
+        - id: ch01-b26
+          speaker: turtle
+          text: 昆？这样对吗？
+        - id: ch01-b27
+          speaker: eldest_magician
+          text: 帕亚昆。完全正确。
+        - id: ch01-b28
+          speaker: narrator
+          text: >-
+            魔法师朝沙子和岩石落进海里的地方吹了一口气，它们便成了婆罗洲、西里伯斯、苏门答腊、爪哇，还有马来群岛其余那些最美丽的岛屿。亲爱的宝贝，这些在地图上同样找得到。
+    - id: ch02
+      title: 谁在摆弄大海
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 后来，最古老的魔法师在霹雳河边遇见了男人。
+        - id: ch02-b02
+          speaker: eldest_magician
+          text: 亚当之子，所有动物都服从你吗？
+        - id: ch02-b03
+          speaker: man
+          text: 是的。
+        - id: ch02-b04
+          speaker: eldest_magician
+          text: 整片大地也服从你吗？
+        - id: ch02-b05
+          speaker: man
+          text: 是的。
+        - id: ch02-b06
+          speaker: eldest_magician
+          text: 那整片大海呢？
+        - id: ch02-b07
+          speaker: man
+          text: >-
+            不。每天一次，每夜一次，大海沿霹雳河涌上来，把淡水一直赶回森林，弄得我的屋子湿淋淋的。每天一次，每夜一次，它又沿河退下去，把所有河水都拖在身后，只留下一片烂泥，还掀翻我的独木舟。是你教它玩这种游戏的吗？
+        - id: ch02-b08
+          speaker: eldest_magician
+          text: 不是。这是个新花样，也是个坏花样。
+        - id: ch02-b09
+          speaker: man
+          text: 你看！
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            男人说话时，浩瀚的大海正从霹雳河口涌进来，逼得河水一路倒流。海水漫进一英里又一英里的幽暗森林，最后连男人的屋子也淹了。
+        - id: ch02-b11
+          speaker: eldest_magician
+          text: 这不对。把船推下水，我们去找出是谁在摆弄大海。
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            男人、小女儿和魔法师登上独木舟。男人带着一柄克力士短剑，那是一把弯弯曲曲、剑刃像火焰的匕首。他们把船推进霹雳河，海水便一退再退，把独木舟吸出河口。船经过雪兰莪，经过马六甲，又经过新加坡，一直漂到民丹岛，活像真有一根线牵着它。
+        - id: ch02-b13
+          speaker: eldest_magician
+          text: >-
+            走兽、飞鸟和游鱼啊！万物初生时，我把你们捧在手里，教会你们各自的游戏。你们当中，是谁在摆弄大海？
+        - id: ch02-b14
+          speakers: [animal_1, animal_2, animal_3]
+          ensemble: chorus
+          text: >-
+            最古老的魔法师啊，我们和子子孙孙一直在玩你教的游戏。没有谁摆弄大海。
+        - id: ch02-b15
+          speaker: narrator
+          text: >-
+            一轮又大又圆的月亮升上水面。月亮里坐着一个驼背老人。他不停地纺钓线，盼望将来能钓起整个世界。
+        - id: ch02-b16
+          speaker: eldest_magician
+          text: 月亮上的渔夫，是你在摆弄大海吗？
+        - id: ch02-b17
+          speaker: moon_fisherman
+          text: >-
+            不是。我在纺一根钓线，将来要用它钓起整个世界。我没有摆弄大海。
+        - id: ch02-b18
+          speaker: narrator
+          text: >-
+            渔夫回答完，手上仍旧不停，继续纺他的线。可月亮上还有一只老鼠，老渔夫的线刚纺出来多少，他便立刻咬断多少。
+        - id: ch02-b19
+          speaker: eldest_magician
+          text: 月亮上的老鼠，是你在摆弄大海吗？
+        - id: ch02-b20
+          speaker: moon_rat
+          text: 我正忙着咬断这个老渔夫纺的线，哪有工夫摆弄大海。
+        - id: ch02-b21
+          speaker: narrator
+          text: >-
+            老鼠回答完，也继续咬他的线。小女儿这才举起柔软的棕色小胳膊，腕上那对白贝壳手镯美丽极了。
+        - id: ch02-b22
+          speaker: girl_daughter
+          text: >-
+            最古老的魔法师啊！万物初生时，爸爸跟你说话，我靠在他肩头，看你教动物们玩游戏。那时有一只动物淘气地溜进大海，你还没教他该玩什么呢。
+        - id: ch02-b23
+          speaker: eldest_magician
+          text: 看见了却不出声的小孩子，真聪明！那只动物什么模样？
+        - id: ch02-b24
+          speaker: girl_daughter
+          text: >-
+            他又圆又扁，眼睛长在柄上。他像这样横着走，背上还披着坚硬的铠甲。
+        - id: ch02-b25
+          speaker: eldest_magician
+          text: 肯说真话的小孩子，真聪明！我知道波阿玛去了哪里。把桨给我！
+        - id: ch02-b26
+          speaker: narrator
+          text: >-
+            他接过桨，却一下也用不着划。水流平稳地带着他们经过一座又一座岛屿，来到普萨特塔塞克，也就是大海之心。那里有个通向世界心脏的巨大深穴，穴中长着神奇的帕乌·江吉树，树上结着一对有魔力的孪生果实。
+        - id: ch02-b27
+          speaker: narrator
+          text: >-
+            最古老的魔法师把整条胳膊探进温暖的深水，直没到肩头。他在神奇树的根底下摸到了螃蟹波阿玛宽阔的背。波阿玛被他一碰，立刻往下一沉，整片大海便跟着升高，就像你把手伸进水盆，盆里的水会涨起来一样。
+        - id: ch02-b28
+          speaker: eldest_magician
+          text: 原来是你在摆弄大海。波阿玛，你究竟在做什么？
+        - id: ch02-b29
+          speaker: pau_amma
+          text: >-
+            每天一次，每夜一次，我出去寻找食物。每天一次，每夜一次，我再回来。别来烦我。
+        - id: ch02-b30
+          speaker: eldest_magician
+          text: >-
+            听着。你一离开洞穴，海水全灌进普萨特塔塞克。所有岛屿的海滩都露出来，小鱼会干死，大象之王拉惹·莫扬·卡班的腿也沾满烂泥。等你回来，重新坐进普萨特塔塞克，海水又涨起来，淹掉一半的小岛，也淹了男人的屋子，还把又苦又咸的海水灌进鳄鱼之王拉惹·阿卜杜拉嘴里。
+        - id: ch02-b31
+          speaker: narrator
+          text: 波阿玛在深深的海底笑了。
+        - id: ch02-b32
+          speaker: pau_amma
+          text: 我竟然这么要紧！从今以后，我每天出去七次，让海水永远不得安宁。
+    - id: ch03
+      title: 帝王蟹失去了硬壳
+      blocks:
+        - id: ch03-b01
+          speaker: eldest_magician
+          text: >-
+            万物初生时你逃走了，所以我不能强迫你玩本该玩的游戏。不过，你若不害怕，就浮上来跟我们谈谈。
+        - id: ch03-b02
+          speaker: pau_amma
+          text: 我不怕。
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            波阿玛穿过温暖的海水，在月光里一直浮到海面。世上再没有谁比他更大，因为他是所有螃蟹的王，不是普通螃蟹，而是一只帝王蟹。他巨壳的一边碰着砂拉越海岸，另一边碰着彭亨海岸。三座火山的浓烟摞起来，也没有他高。
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            他从神奇树的枝杈间升起时，碰落了一对巨大果实中的一个。那是一颗有魔力的双仁坚果，能叫人返老还童。小女儿看见它在独木舟旁边一浮一沉，就把它捞进船里，用金色小剪刀挑出里面柔软的芽眼吃。
+        - id: ch03-b05
+          speaker: eldest_magician
+          text: 波阿玛，施个魔法给我们看，证明你果真那么要紧。
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            波阿玛把两只眼睛转来转去，又拼命挥舞所有长腿，可他使尽本领，也只能把大海搅动几下。因为他就算是一只帝王蟹，到底也不过是只螃蟹。最古老的魔法师看着他笑了。
+        - id: ch03-b07
+          speaker: eldest_magician
+          text: 原来你没那么要紧。现在看我的。
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            魔法师只用左手施法，而且只动了左手的小指头。瞧啊，亲爱的宝贝，波阿玛那副青蓝发黑的硬壳一下从身上脱落，就像椰子的外皮掉下来。他浑身软绵绵的，软得跟你有时会在海滩上发现的小螃蟹一模一样。
+        - id: ch03-b09
+          speaker: eldest_magician
+          text: >-
+            看来你的确十分要紧。要不要我叫船上这个男人拿克力士短剑割你？还是派人请来大象之王拉惹·莫扬·卡班，用他的象牙刺你？或者干脆叫鳄鱼之王拉惹·阿卜杜拉来咬你？
+        - id: ch03-b10
+          speaker: pau_amma
+          text: >-
+            我惭愧了！把硬壳还给我，让我回普萨特塔塞克吧。我每天只出去一次，每夜只出去一次。
+        - id: ch03-b11
+          speaker: eldest_magician
+          text: >-
+            不行。我若把壳还给你，你会越长越大，越来越骄傲，也越来越强。说不定你会忘掉诺言，又来摆弄大海。
+        - id: ch03-b12
+          speaker: pau_amma
+          text: >-
+            那我该怎么办？我这么大，只有普萨特塔塞克藏得下我。去了别处，我又像现在这样浑身柔软，鲨鱼和角鲨一定会吃掉我。可我若躲回普萨特塔塞克，虽然安全，却再也不能出来找食物，到头来还是会饿死。
+        - id: ch03-b13
+          speaker: narrator
+          text: 他挥着长腿，悲叹起来。
+        - id: ch03-b14
+          speaker: eldest_magician
+          text: >-
+            听着，波阿玛。万物初生时你逃开了，所以我不能逼你玩原来的游戏。不过只要你愿意，我能让所有海洋里的每块石头、每个洞穴和每丛水草，都永永远远成为你和孩子们安全的普萨特塔塞克。
+        - id: ch03-b15
+          speaker: pau_amma
+          text: >-
+            这份礼物很好，可我还不作选择。你看看那个男人！万物初生时，要不是他只顾跟你说话，引开你的注意，我不会等得不耐烦，更不会偷偷逃走。那样的话，后面这一切根本不会发生。他肯为我做些什么？
+        - id: ch03-b16
+          speaker: man
+          text: >-
+            只要你愿意，我会施个魔法，让深水和干地都成为你和孩子们的家。你们在陆地和海里都能藏身。
+        - id: ch03-b17
+          speaker: pau_amma
+          text: >-
+            我还是不作选择。再看看那个女孩！万物初生时，她明明看见我逃走，却没有开口。她若当时出了声，最古老的魔法师就会把我叫回来，这一切同样不会发生。她又肯为我做些什么？
+        - id: ch03-b18
+          speaker: girl_daughter
+          text: >-
+            我正在吃的这颗坚果真好吃。只要你愿意，我会施个魔法，再把这把又快又结实的剪刀送给你。你和孩子们从海里爬上岸，就能整天像我这样吃椰子。附近没有石头和洞穴，就用自己的剪刀挖个普萨特塔塞克。土地太硬挖不动，还能靠这把剪刀爬上树。
+        - id: ch03-b19
+          speaker: pau_amma
+          text: >-
+            我仍旧不选。我浑身这样软，这些礼物都帮不了我。把壳还给我，我就玩你教的游戏。
+        - id: ch03-b20
+          speaker: eldest_magician
+          text: >-
+            一年里有十一个月，我会把硬壳还给你。可是每到第十二个月，你的壳又会变软，好提醒你和所有孩子，我会施魔法，也叫你们一直保持谦卑。我看得出来，你若能在水底和陆上奔跑，很快会变得太大胆。要是还能爬树、夹开坚果、用剪刀挖洞，你又会变得太贪心。
+        - id: ch03-b21
+          speaker: narrator
+          text: 波阿玛想了一会儿。
+        - id: ch03-b22
+          speaker: pau_amma
+          text: 我选好了。所有礼物我都要。
+    - id: ch04
+      title: 波阿玛的选择
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            最古老的魔法师举起右手施了个魔法，这回右手五根手指全都用上了。瞧啊，亲爱的宝贝，波阿玛越变越小，越变越小，还在不停变小。最后只剩下一只绿色小螃蟹，在独木舟旁边的水里游着，用细得不能再细的声音叫喊。
+        - id: ch04-b02
+          speaker: pau_amma
+          text: 把剪刀给我！
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            小女儿把他捧在棕色的小手掌上，轻轻放进独木舟底，又把自己的剪刀递过去。波阿玛用两条小胳膊挥着剪刀，一会儿打开，一会儿合拢，咔嚓咔嚓地夹起来。
+        - id: ch04-b04
+          speaker: pau_amma
+          text: >-
+            我能吃坚果，也能夹开硬壳。我能挖洞，能爬树，能在干燥的空气里呼吸。每块石头下面，我都能找到安全的普萨特塔塞克。我竟然这么要紧！昆？这样对吗？
+        - id: ch04-b05
+          speaker: eldest_magician
+          text: 帕亚昆。完全正确。
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            最古老的魔法师笑着赐福给他。小小的波阿玛横着爬过船舷，落进水里。他实在太小了。在陆地上，一片枯叶投下的影子足以藏住他。在海底，一只死贝壳的影子也足以藏住他。
+        - id: ch04-b07
+          speaker: eldest_magician
+          text: 这件事办得好吗？
+        - id: ch04-b08
+          speaker: man
+          text: >-
+            办得很好。不过现在我们还得回霹雳河，那段路用桨划回去可真够累。要是刚才再等一等，等波阿玛离开普萨特塔塞克再回来，流动的海水自然会一路把我们送回去。
+        - id: ch04-b09
+          speaker: eldest_magician
+          text: >-
+            你真懒。所以你的子孙也会很懒，成为世上最懒的人。他们要叫“马懒人”，也就是懒惰的人。
+        - id: ch04-b10
+          speaker: narrator
+          text: 魔法师朝月亮举起一根手指。
+        - id: ch04-b11
+          speaker: eldest_magician
+          text: 月亮上的渔夫，这个男人懒得划船回家。用你的线把独木舟拖回去。
+        - id: ch04-b12
+          speaker: man
+          text: >-
+            不。既然我今后天天都要懒，那就叫大海每天替我干两次活，永远这样。往后便省得划船了。
+        - id: ch04-b13
+          speaker: eldest_magician
+          text: 帕亚昆。这样才对。
+        - id: ch04-b14
+          speaker: narrator
+          text: >-
+            月亮上的老鼠不再咬线。渔夫把钓线一直放下去，直到线头碰着海面，随后拉着整片深海向前。海水经过民丹岛，经过新加坡、马六甲和雪兰莪，最后带着独木舟打着转儿，重新冲进霹雳河口。
+        - id: ch04-b15
+          speaker: moon_fisherman
+          text: 昆？这样对吗？
+        - id: ch04-b16
+          speaker: eldest_magician
+          text: >-
+            帕亚昆。从今往后，你每天两次、每夜两次牵动大海，让马懒渔夫们省得划船。不过别拉得太猛，不然我会像对付波阿玛那样对你施法。
+        - id: ch04-b17
+          speaker: narrator
+          text: >-
+            事情全都安排妥当以后，他们乘着独木舟沿霹雳河一路上行，终于回到了家。接着，大家便各自去睡觉了，亲爱的宝贝。
+    - id: ch05
+      title: 潮汐与海滩上的小螃蟹
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 现在可要听好，看仔细啦！
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            从那一天直到今天，月亮一直牵着海水上下涨落，于是便有了我们所说的潮汐。月亮上的渔夫有时拉得稍微太用力，海上便起了大潮。有时他拉得稍微太轻，便只有小潮。不过，他差不多总是十分小心，因为一直记得最古老的魔法师。
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            那么波阿玛呢？你去海滩就能看到，他的孩子们在沙滩的每块石头、每丛水草下面，为自己造一个小小的普萨特塔塞克。你也会看见它们挥着一双小剪刀。世界上有些地方的螃蟹真的住在干燥的陆地上，会爬上棕榈树吃椰子，正像小女儿答应的那样。
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            不过每年总有一次，所有波阿玛都要脱掉坚硬的铠甲，让身体重新变软。这样，它们才不会忘记最古老的魔法师能对它们做什么。所以，尽管老波阿玛在很久很久以前又愚蠢又无礼，你也不能只为这件事，就去捕捉或杀害他的孩子。
+        - id: ch05-b05
+          speaker: narrator
+          text: >-
+            哦，对啦！波阿玛的孩子最讨厌别人把它们从小小的普萨特塔塞克里抓出来，装进腌菜瓶带回家。所以它们才会用剪刀夹你。你活该！
+        - id: ch05-b06
+          speaker: narrator
+          text: >-
+            往中国去的轮船一艘艘，都从波阿玛的游乐场边经过。普萨特塔塞克就在附近，离大多数英属印度轮船的航线都不远。联合青年号、荷兰线，全都熟知波阿玛的家园，就像海上渔夫熟知本斯线、信使线和鲁巴蒂诺航船。
+        - id: ch05-b07
+          speaker: narrator
+          text: >-
+            可是这事真有点怪。大西洋运输线从不到这一带，东方东方与澳洲东方必须绕开另走。东方、安科、毕比和霍尔这些轮船，也从来不走这条航路。联合城堡的船要是发现自己开到了这里，准会当场吓得魂不附体。
+        - id: ch05-b08
+          speaker: narrator
+          text: >-
+            要是海狸号把货运到槟榔屿，不去拉各斯港，或是肥胖的肖—萨维尔船把旅客送到新加坡岸，或是白星轮船想去泗水走一趟，又或是英属南非轮船越过纳塔尔，一路开到井里汶海湾，伟大的劳合先生就会赶来，发封电报把它们全拖回家！
+        - id: ch05-b09
+          speaker: narrator
+          text: 等你吃过山竹以后，就会猜透我的谜语喽。
+        - id: ch05-b10
+          speaker: narrator
+          text: >-
+            要是你实在等不到吃山竹的那一天，就请大人把《泰晤士报》的外页给你。翻到第二页，找左上角标着“航运”的地方，再拿出地图册。那可是世界上最棒的图画书。仔细看看轮船要去的地方，怎样同地图上的地名一一合上。凡是蒸汽轮船家的孩子都该做得到。你要还不会读，就请别人指给你看。

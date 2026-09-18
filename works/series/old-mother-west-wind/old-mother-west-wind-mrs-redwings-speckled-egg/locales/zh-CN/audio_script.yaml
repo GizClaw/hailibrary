@@ -1,0 +1,134 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖亲切，带着轻快的讲故事感
+        timbre: 清澈柔和
+        pace: 舒展而富有变化
+        pitch: 中音
+    old_mother_west_wind:
+      display_name: 西风妈妈
+      tts:
+        delivery: 慈爱从容，歌唱时轻快有节奏
+        timbre: 温厚明亮的成熟女声
+        pace: 从容
+        pitch: 中低音
+    breeze_1:
+      display_name: 小风一号
+      tts:
+        delivery: 活泼爽朗，充满好奇
+        timbre: 清亮的童声
+        pace: 轻快
+        pitch: 中高音
+    breeze_2:
+      display_name: 小风二号
+      tts:
+        delivery: 机灵热心，语气干脆
+        timbre: 轻盈的童声
+        pace: 轻快
+        pitch: 高音
+    breeze_3:
+      display_name: 小风三号
+      tts:
+        delivery: 顽皮热烈，带着跳跃感
+        timbre: 明快的童声
+        pace: 稍快
+        pitch: 中高音
+    breeze_4:
+      display_name: 小风四号
+      tts:
+        delivery: 天真勇敢，说话利落
+        timbre: 柔亮的童声
+        pace: 轻快
+        pitch: 高音
+    grandfather_frog:
+      display_name: 青蛙爷爷
+      tts:
+        delivery: 悠然稳重，话音里带一点诙谐
+        timbre: 浑厚略带沙哑
+        pace: 缓慢
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 西风妈妈来到绿草地
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 清晨，金灿灿的阳光照着紫山。西风妈妈从山上走下来，肩头挎着一只大得不得了的口袋。她所有的孩子，那些欢乐小风，都装在里面。
+        - id: ch01-b02
+          speaker: narrator
+          text: 西风妈妈一路走向绿草地，轻轻哼起了歌。
+        - id: ch01-b03
+          speaker: old_mother_west_wind
+          text: 海上的船儿等风来，我得快呀，快快赶！磨坊迟了转不起来，我得快呀，快快赶！
+        - id: ch01-b04
+          speaker: narrator
+          text: 到了绿草地，她打开口袋，把袋口朝下一抖。小风们全滚了出来，欢喜得一圈又一圈地打转。要知道，这一天它们都可以留在绿草地上玩。直到夜里西风妈妈回来，才会把它们全部带回紫山后面的家。
+    - id: ch02
+      title: 小风们的早晨
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 小风们先争着跑去看土拨鼠约翰尼。约翰尼正坐在家门外吃早饭，嘴里嚼着一片嫩玉米叶。一阵小风偏要淘气，从他嘴边抢走叶子，带着它跑了。另一阵顽皮地扯扯他的胡须，还有一阵把他的毛发揉得乱蓬蓬的。
+        - id: ch02-b02
+          speaker: narrator
+          text: 约翰尼故意装出气坏了的样子，其实一点儿也不恼。他喜欢这些小风，天天都跟它们玩。
+        - id: ch02-b03
+          speaker: narrator
+          text: 小风们虽然爱捉弄他，对他却也很好。只要看见布朗农夫带着枪穿过绿草地，就有一阵小风飞舞着赶来，贴在约翰尼身边悄悄报信。约翰尼马上躲到地下那间暖和舒适的小屋深处。布朗农夫怎么想也想不通，自己为什么从来、从来没法走到近得足以开枪的地方。他就是一次也办不到。
+        - id: ch02-b04
+          speaker: narrator
+          text: 告别约翰尼以后，小风们赛跑似的穿过绿草地，来到微笑池，向青蛙爷爷问早安。青蛙爷爷坐在一片大睡莲叶上，等绿头苍蝇来做早饭。
+        - id: ch02-b05
+          speaker: grandfather_frog
+          text: 咕咚呱！
+        - id: ch02-b06
+          speaker: narrator
+          text: 这就是青蛙爷爷说早安的方式。正巧，一只胖乎乎的绿头苍蝇飞来，他猛地跳了起来。等他重新坐回那片大睡莲叶，胖苍蝇已经无影无踪。青蛙爷爷倒是十分满意，还伸出一只手，惬意地摸了摸自己的白背心。
+        - id: ch02-b07
+          speakers: [breeze_1, breeze_2, breeze_3, breeze_4]
+          ensemble: chorus
+          text: 青蛙爷爷，今天有什么新鲜事？
+        - id: ch02-b08
+          speaker: grandfather_frog
+          text: 红翼太太芦苇丛里的窝中，又添了一枚斑点蛋。
+        - id: ch02-b09
+          speakers: [breeze_1, breeze_2, breeze_3, breeze_4]
+          ensemble: chorus
+          text: 那我们非去看看不可！
+        - id: ch02-b10
+          speaker: narrator
+          text: 小风们说完，一起奔向了长着芦苇的沼泽。
+    - id: ch03
+      title: 汤米寻找鸟窝
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 还有一个人听说了红翼太太藏在芦苇丛里的小窝。一大清早，他也出来寻找。那些小斑点蛋太漂亮了，他竟想把它们偷走。这个人就是农夫家的男孩汤米·布朗。
+        - id: ch03-b02
+          speaker: narrator
+          text: 小风们赶到长满芦苇的沼泽，只见可怜的红翼太太急得不得了。汤米已经离鸟窝非常、非常近了，他的眼睛又非常、非常尖。红翼太太真怕自己心爱的窝被他发现。
+        - id: ch03-b03
+          speakers: [breeze_1, breeze_2, breeze_3, breeze_4]
+          ensemble: chorus
+          text: 不行！我们得帮红翼太太保住漂亮的斑点蛋，不能让坏汤米抢走！
+    - id: ch04
+      title: 会逃跑的旧草帽
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 一阵小风呼地卷走汤米头上的旧草帽，一路把它吹到绿草地上。汤米当然赶紧追过去。他刚刚弯下腰，伸手要捡，另一阵小风又带着帽子跑了。
+        - id: ch04-b02
+          speaker: narrator
+          text: 小风们轮流接手。每次汤米眼看就要抓到草帽，它们又把帽子吹走。大家一路追追赶赶，跑过微笑池，越过欢笑溪。汤米跟在后面，气得要命，脸涨得通红，还累得呼呼直喘。
+        - id: ch04-b03
+          speaker: narrator
+          text: 它们穿过大半片绿草地，一直跑到树林边上，把旧草帽挂在一棵荆棘树正中央。等汤米总算把帽子重新戴好，他早就忘了红翼太太和她的小窝。这时，开早饭的号声恰好响起，他便沿着林中的孤零零小径回家了。
+        - id: ch04-b04
+          speaker: narrator
+          text: 欢乐小风全都跳着舞穿过绿草地，回到长满芦苇的沼泽，终于看见了红翼太太心爱的小窝里，那枚新添的斑点蛋。红翼太太欢喜地唱着，小风们就在芦苇间舞蹈。
+        - id: ch04-b05
+          speaker: narrator
+          text: 它们知道，红翼太太也知道，总有一天，那枚漂亮的新斑点蛋里，会钻出一只小得不能再小的红翼鸟宝宝。

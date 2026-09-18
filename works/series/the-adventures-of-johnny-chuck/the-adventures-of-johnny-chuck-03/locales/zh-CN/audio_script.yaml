@@ -1,0 +1,120 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖亲切，带着轻快而含蓄的幽默
+        timbre: 清亮柔和
+        pace: 舒缓而有变化
+        pitch: 中等
+    peter_rabbit:
+      display_name: 兔子彼得
+      tts:
+        delivery: 好奇直率，带一点孩子气的困惑
+        timbre: 清脆灵活
+        pace: 稍快
+        pitch: 中高
+    johnny_chuck:
+      display_name: 土拨鼠强尼
+      tts:
+        delivery: 朴实直爽，偶尔带一点不耐烦
+        timbre: 浑厚温暖
+        pace: 中等
+        pitch: 中低
+    jerry_muskrat:
+      display_name: 麝鼠杰里
+      tts:
+        delivery: 爽朗活泼，笑声里带着善意的打趣
+        timbre: 明亮饱满
+        pace: 稍快
+        pitch: 中等
+    pond_singer_1:
+      display_name: 池中歌者甲
+      tts:
+        delivery: 欢快明朗，歌唱般富有节奏
+        timbre: 清亮轻盈
+        pace: 中等
+        pitch: 高
+    pond_singer_2:
+      display_name: 池中歌者乙
+      tts:
+        delivery: 欢快明朗，歌唱般富有节奏
+        timbre: 圆润清澈
+        pace: 中等
+        pitch: 中高
+    pond_singer_3:
+      display_name: 池中歌者丙
+      tts:
+        delivery: 欢快明朗，歌唱般富有节奏
+        timbre: 柔和明净
+        pace: 中等
+        pitch: 中等
+  chapters:
+    - id: ch01
+      title: 第三章　微笑池的歌唱家
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 春姑娘给绿草原、绿森林，还有微笑池四周的每一个人，都带来了欢乐。她用温柔的手指，把沉睡的小家伙们一个接一个叫醒。他们做了整整一个冬天的长梦，梦见的全是暖和的夏日。他们不知道北风哥哥怎样粗声大气、横冲直撞，也不知道严寒杰克来过。如今大家醒了，好些都高兴得唱起歌来。要说歌声最清亮、最响亮的歌唱家，那可全住在微笑池里。
+        - id: ch01-b02
+          speaker: narrator
+          text: 过了很久，兔子彼得和土拨鼠强尼才知道那些歌唱家住在哪儿。每天晚上，强尼临睡前总要坐在自家门阶上，专心听一会儿。他也说不清为什么，只觉得越听心里越舒畅，人也越快活。听过那些甜美的歌声，夜里的梦也格外香甜。
+        - id: ch01-b03
+          speaker: narrator
+          text: 后来，强尼钻进地下那间舒服的卧室，蜷起身子睡觉，还是听得见歌声。夜里不管什么时候醒来，他总能听见歌唱家们这样唱。
+        - id: ch01-b04
+          speakers: [pond_singer_1, pond_singer_2, pond_singer_3]
+          ensemble: chorus
+          text: “春天！春天！春天！春天！美丽，美丽，美丽的春天！多温柔，多可爱，多甜蜜，多明艳！爱意飘在风里，谁还会把气生？快快活！快欢喜！一同放声歌唱，帮我们把欢乐的消息传遍四方！春天！春天！春天！春天！美丽，美丽，美丽的春天！”
+          emotion: happy
+        - id: ch01-b05
+          speaker: narrator
+          text: 强尼头一次听见这歌声时，抬头找遍了每棵树的树梢，可一个歌唱家也没看见。他又猜，歌唱家准是躲在灌木丛里。等他走过去细找，那里还是一个也没有。这下可真神秘了。
+        - id: ch01-b06
+          speaker: narrator
+          text: 最后，强尼只好去问兔子彼得。他想知道，那些声音甜美的歌唱家到底是谁，又住在什么地方。彼得也不知道，可他很想把事情查清楚。只要碰上自己不懂的事，彼得总会想办法弄明白。于是，他和强尼一起出发，去寻找那些歌唱家。
+        - id: ch01-b07
+          speaker: narrator
+          text: 彼得走着走着，忽然停下来听。他把一只手拢在长耳朵后面，仔细辨了辨歌声传来的方向。
+        - id: ch01-b08
+          speaker: peter_rabbit
+          text: “我猜，他们就藏在微笑池边那些老香蒲底下。”
+        - id: ch01-b09
+          speaker: narrator
+          text: 两个伙伴赶紧朝微笑池奔去。越往前跑，歌声听起来就越响。
+        - id: ch01-b10
+          speakers: [pond_singer_1, pond_singer_2, pond_singer_3]
+          ensemble: chorus
+          text: “春天！春天！春天！春天！美丽，美丽，美丽的春天！”
+          emotion: happy
+        - id: ch01-b11
+          speaker: narrator
+          text: 可他俩把褐色的香蒲丛找了又找，连一个歌唱家也没发现。这可怪了，实在太怪了。听上去，那些声音竟然是从微笑池里直接冒出来的。
+        - id: ch01-b12
+          speaker: narrator
+          text: 彼得蹦到岸边，找了个能看遍整个池子的地方。他落脚时弄出一点声响，歌声马上停了。彼得坐在那里，一动也不动。过了一会儿，歌声又响起来了。这回他听得清清楚楚，声音的确是从水里传来的。
+        - id: ch01-b13
+          speaker: narrator
+          text: 强尼瞪着彼得，彼得也瞪着强尼。微笑池里一个人影都没有，可歌声还在往水面上传。哎呀，那声音还不止一个呢。
+        - id: ch01-b14
+          speaker: johnny_chuck
+          text: “鸟儿待在水底下，怎么还能唱歌呢？”
+        - id: ch01-b15
+          speaker: jerry_muskrat
+          text: “呵，呵，呵！哈，哈，哈！”
+          emotion: happy
+        - id: ch01-b16
+          speaker: narrator
+          text: 彼得和强尼猛地回过身。岸边有个洞，差不多就在他们脚底下。麝鼠杰里正从洞里探出头来。
+        - id: ch01-b17
+          speaker: jerry_muskrat
+          text: “呵，呵，呵！这准是今年春天最好笑的笑话！”
+          emotion: happy
+        - id: ch01-b18
+          speaker: narrator
+          text: 杰里高声嚷着，笑得只好用手捧住肚子。
+        - id: ch01-b19
+          speaker: jerry_muskrat
+          text: “住在水底下的鸟儿！呵，呵，呵！”
+          emotion: happy

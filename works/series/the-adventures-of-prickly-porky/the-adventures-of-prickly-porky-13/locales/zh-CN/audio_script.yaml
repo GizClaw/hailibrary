@@ -1,0 +1,93 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖从容，带着轻快而略显调皮的讲故事口吻
+        timbre: 清澈柔和
+        pace: 舒缓而富有变化
+        pitch: 中音
+    peter_rabbit:
+      display_name: 彼得兔
+      tts:
+        delivery: 好奇活泼，想到什么便急着说出来
+        timbre: 清亮稚气
+        pace: 稍快
+        pitch: 中高音
+    jimmy_skunk:
+      display_name: 臭鼬吉米
+      tts:
+        delivery: 悠闲爽朗，带着爱看热闹的笑意
+        timbre: 圆润温和
+        pace: 中速
+        pitch: 中音
+  chapters:
+    - id: ch01
+      title: 雷迪没命地逃
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 雷迪狐狸夹紧尾巴，逃离那个从豪猪刺毛住的山上走下来的可怕怪物。现在，他什么也顾不上了，只想用最快的速度逃得越远越好。他每蹿一步都吓得短叫一声，四条腿跑得飞快，几乎从来没有这样拼命过。
+        - id: ch01-b02
+          speaker: narrator
+          text: 他早把躲在大松树上看热闹的负鼠比利大叔忘了，也没发现臭鼬吉米正从老树桩后面探出头，笑得快喘不过气来。到了绿森林边上，彼得兔从他面前跳开，躲进一截空心木头，雷迪竟然连彼得也没看见。
+    - id: ch02
+      title: 彼得的好奇心
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 雷迪跑远以后，彼得从空心木头里钻了出来。他坐得直直的，两只耳朵朝天竖着，眼睛也惊讶得睁圆了。他就这样望着雷迪逃走的方向。
+        - id: ch02-b02
+          speaker: peter_rabbit
+          text: 哎呀，真没想到！雷迪一定是受了好大一场惊吓！
+          emotion: surprised
+        - id: ch02-b03
+          speaker: narrator
+          text: 彼得到底是彼得。他马上猜起了究竟什么东西能把雷迪吓成这样，很快便想到了几天前吓过自己的那个怪物。
+        - id: ch02-b04
+          speaker: peter_rabbit
+          text: 一定就是它！一定没错！雷迪是从豪猪刺毛家那边跑来的，我也是在那里受的惊。我……我……
+        - id: ch02-b05
+          speaker: narrator
+          text: 彼得说不下去了。他正犹豫着，自己敢不敢过去看看，那个没有头、没有尾巴、也没有腿的怪物是不是真的又来了。他明明知道，这样做很傻，一不留神就会闯进危险里。
+        - id: ch02-b06
+          speaker: narrator
+          text: 彼得也知道，彼得太太还在亲爱的老荆棘丛里等他。他早就应该到家了，她这会儿一定很担心。可是，他实在太想知道雷迪被什么吓坏了。那份曾经害他惹出无数麻烦的好奇心，一会儿比一会儿更强。
+        - id: ch02-b07
+          speaker: peter_rabbit
+          text: 我只往山上走一段，应该不会有事。也许不用走到那里，我就能弄清楚一点儿呢。
+    - id: ch03
+      title: 山顶上的笑声
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 彼得本来应该回家，却转身走进了绿森林。他每跳几步就停下来，仔细看看，再侧耳听听，就这样一路摸到了豪猪刺毛住的山脚下。
+        - id: ch03-b02
+          speaker: narrator
+          text: 彼得藏在一棵小铁杉下面，四处寻找上次吓过他的那个怪物。怪物倒没见着，山顶上只有豪猪刺毛、臭鼬吉米和负鼠比利大叔。他们在落叶堆里滚来滚去，全都笑得快喘不过气了。
+        - id: ch03-b03
+          speaker: narrator
+          text: 彼得一看便明白，这里肯定没有危险，那几个家伙准是耍了什么花招。他大着胆子跳上山，凑到了他们身边。
+        - id: ch03-b04
+          speaker: peter_rabbit
+          text: 你们到底在笑什么？
+        - id: ch03-b05
+          speaker: narrator
+          text: 臭鼬吉米擦着笑出来的眼泪，反问彼得。
+        - id: ch03-b06
+          speaker: jimmy_skunk
+          text: 你刚才碰见雷迪狐狸了吗？
+        - id: ch03-b07
+          speaker: peter_rabbit
+          text: 碰见了吗？他差一点儿就撞上我了，可压根儿没看到我！我看他现在还没停下呢。快告诉我，你们到底为什么笑？
+        - id: ch03-b08
+          speaker: narrator
+          text: 那三个家伙好不容易忍住笑，终于能把话说完整了。他们围住彼得，把刚才的事讲给他听。彼得听完也笑个不停，连两边肋骨都笑疼了。
+        - id: ch03-b09
+          speaker: peter_rabbit
+          text: 这一回，雷迪可被捉弄惨了！我上次也跟他一样，被你们结结实实捉弄了一回。现在再想想，我们接下来还能吓唬谁呢？
+          emotion: happy
+        - id: ch03-b10
+          speaker: narrator
+          text: 看来，在豪猪刺毛住的那座山上，这几个家伙正准备再干一件十分淘气的事呢。

@@ -1,0 +1,454 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 沉着讲述古老民间故事，机敏处带克制的讥诮
+        timbre: 温暖清晰的成年男声
+        pace: 舒缓而富于变化
+        pitch: 中低
+    shifty_lad:
+      display_name: 诡计小子
+      tts:
+        delivery: 聪明大胆，满不在乎，言语里常藏着算计
+        timbre: 清亮灵活的年轻男声
+        pace: 稍快
+        pitch: 中高
+    mother:
+      display_name: 母亲
+      tts:
+        delivery: 慈爱忧虑，劝告时朴实而郑重
+        timbre: 温和略显疲惫的成年女声
+        pace: 适中偏慢
+        pitch: 中
+    black_rogue:
+      display_name: 黑绞架鸟
+      tts:
+        delivery: 自负粗鲁，受激时急躁易怒
+        timbre: 粗粝低沉的成年男声
+        pace: 适中
+        pitch: 低
+    black_rogue_wife:
+      display_name: 黑绞架鸟的妻子
+      tts:
+        delivery: 直率敏锐，情绪真切
+        timbre: 结实清楚的成年女声
+        pace: 适中
+        pitch: 中
+    farmer:
+      display_name: 农夫
+      tts:
+        delivery: 务实响亮，发怒时干脆严厉
+        timbre: 厚实的成年男声
+        pace: 适中
+        pitch: 中低
+    merrymaker:
+      display_name: 农舍里的客人
+      tts:
+        delivery: 兴奋警觉，招呼同伴时声音洪亮
+        timbre: 明亮的成年男声
+        pace: 稍快
+        pitch: 中
+    shepherd:
+      display_name: 牧羊人
+      tts:
+        delivery: 老实迟钝，自言自语时认真笃定
+        timbre: 朴厚的成年男声
+        pace: 适中偏慢
+        pitch: 中
+    king:
+      display_name: 国王
+      tts:
+        delivery: 威严直率，决断中偶尔透出无奈
+        timbre: 洪亮沉稳的成年男声
+        pace: 适中
+        pitch: 低
+    wise_man:
+      display_name: 智者
+      tts:
+        delivery: 冷静自信，献策时简洁审慎
+        timbre: 清晰克制的老年男声
+        pace: 偏慢
+        pitch: 中低
+    princess:
+      display_name: 公主
+      tts:
+        delivery: 优雅爽朗，玩笑时轻快自然
+        timbre: 清澈柔和的年轻女声
+        pace: 适中
+        pitch: 中高
+    chamberlain:
+      display_name: 宫务大臣
+      tts:
+        delivery: 谨慎守礼，宣告结果时庄重明确
+        timbre: 平稳清楚的成年男声
+        pace: 适中
+        pitch: 中低
+    attendant:
+      display_name: 侍从
+      tts:
+        delivery: 恭谨利落，遇到意外时略显困惑
+        timbre: 清楚的年轻男声
+        pace: 适中
+        pitch: 中
+    marked_man_1:
+      display_name: 带黑点的男人甲
+      tts:
+        delivery: 大胆抢先，语气坚定
+        timbre: 明亮的成年男声
+        pace: 稍快
+        pitch: 中
+    marked_man_2:
+      display_name: 带黑点的男人乙
+      tts:
+        delivery: 跟随众人，响亮肯定
+        timbre: 浑厚的成年男声
+        pace: 适中
+        pitch: 中低
+    marked_man_3:
+      display_name: 带黑点的男人丙
+      tts:
+        delivery: 急切争先，声音干脆
+        timbre: 清朗的成年男声
+        pace: 稍快
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 母亲的预言
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 很久以前，爱尔兰有个寡妇，膝下只有一个儿子。孩子很聪明，母亲便省吃俭用，攒够钱送他上学。她还打算等孩子年纪一到，无论他愿意学哪门手艺，都送他去拜师。可那一天真来了，他却说哪门手艺也不学，只想当贼。
+        - id: ch01-b02
+          speaker: narrator
+          text: 母亲听了十分伤心。可她太了解儿子的脾气，知道硬拦着不让他随心所欲，只会叫他更加执意去做。于是她只告诉他一句话，随后便不再争辩。
+        - id: ch01-b03
+          speaker: mother
+          text: “做贼的人，最后都会被吊死在都柏林桥上。”
+          emotion: sad
+        - id: ch01-b04
+          speaker: narrator
+          text: 说完，她不再管他，只盼孩子再大一点，能懂些事。一天，母亲要去教堂听一位大布道家讲道，便央求儿子同行。邻居们因为这孩子惯会捉弄人，都叫他诡计小子。他笑着说自己不爱布道，不过可以作一个保证。
+        - id: ch01-b05
+          speaker: shifty_lad
+          text: “您走出教堂以后，头一个听见的行当，我就拿来做一辈子的营生。”
+        - id: ch01-b06
+          speaker: narrator
+          text: 这项保证多少安慰了可怜的母亲，她同儿子告别时，心里也比先前轻松了些。诡计小子估摸布道快结束了，便藏进通往自家的一条小路旁。母亲一路走来，心里还想着刚听过的种种好教诲，耳边却猛然响起三声大喊。
+        - id: ch01-b07
+          speaker: shifty_lad
+          text: “抢劫！抢劫！抢劫！”
+          emotion: surprised
+        - id: ch01-b08
+          speaker: narrator
+          text: 这一声来得太突然，母亲吓得整个人跳了起来。男孩故意变了嗓音，又把自己藏得严严实实，她朝四下仔细寻找，也看不见一个人。母亲刚转过街角，他便钻出灌木，飞跑穿过树林，抢先回家，舒舒服服地躺到炉火前。母亲进门后，他若无其事地问她有没有新鲜事。
+        - id: ch01-b09
+          speaker: mother
+          text: “没有。我一出教堂就回来了，没同任何人说话。”
+        - id: ch01-b10
+          speaker: shifty_lad
+          text: “这么说，也没有人向您提起什么行当？”
+        - id: ch01-b11
+          speaker: mother
+          text: “倒也不能这么说。我走在小路上时，有个声音连喊了三遍‘抢劫’，除此之外就没有了。”
+        - id: ch01-b12
+          speaker: shifty_lad
+          text: “这已经够了。我早说过，您先听见什么，我就做什么。以后我干的就是抢劫。”
+        - id: ch01-b13
+          speaker: mother
+          text: “那么，你最后就会被吊死在都柏林桥上。”
+          emotion: sad
+        - id: ch01-b14
+          speaker: narrator
+          text: 那一夜，母亲躺在黑暗里想着儿子，始终无法入睡。她心想，他若非做贼不可，最好做个高明的贼，可谁能教他呢？忽然，她有了主意，想起了黑恶棍，也就是绞架鸟。那人是个了不得的神偷，人人都遭他偷过，却从来没人抓得住他。第二天太阳还没升起，母亲便早早动身，去找他歇脚的地方。
+        - id: ch01-b15
+          speaker: mother
+          text: “早安。我儿子想学您的行当，您肯教他吗？”
+        - id: ch01-b16
+          speaker: black_rogue
+          text: “他若机灵，我不妨试试。要把人调教成一流的贼，当然数我最在行。可他若是笨蛋，教了也没用，我最受不了蠢人。”
+        - id: ch01-b17
+          speaker: mother
+          text: “他不笨。今晚天黑以后，我就叫他过来。”
+        - id: ch01-b18
+          speaker: narrator
+          text: 母亲回到家，把自己去了哪里、又同黑绞架鸟说了什么全告诉儿子。诡计小子一听，高兴得跳了起来。
+        - id: ch01-b19
+          speaker: shifty_lad
+          text: “我要做全爱尔兰最厉害的贼！”
+          emotion: happy
+        - id: ch01-b20
+          speaker: narrator
+          text: 母亲摇着头，低声念叨都柏林桥，他却一个字也没听进去。从此每天入夜，他都去黑绞架鸟家，学会了许许多多的新花招。过了一阵子，师父准他跟着自己出去，亲眼看他怎样下手。终于有一天，黑绞架鸟觉得徒弟已足够机灵，可以帮忙做一桩大买卖了。
+    - id: ch02
+      title: 万圣节前夜的买卖
+      blocks:
+        - id: ch02-b01
+          speaker: black_rogue
+          text: “山坡上有个富农，刚把肥牛卖了大价钱，又买了一群便宜的瘦牛。卖牛的钱已经到手，买牛的钱却还没付。明天他会带钱去集市，所以今晚咱们得拿到那只钱箱。等屋里安静下来，就藏进草料棚。”
+        - id: ch02-b02
+          speaker: narrator
+          text: 那晚没有月亮，又是万圣节前夜。农舍里的人烤坚果，还把双手绑在背后，从一盆水里咬苹果，各种游戏玩个不停，迟迟不肯上床。诡计小子越等越不耐烦。黑绞架鸟却干惯了这行，他把自己往干草里一缩，很快便睡着了，只吩咐男孩等那群寻欢作乐的人全都散去，再把他唤醒。
+        - id: ch02-b03
+          speaker: narrator
+          text: 男孩再也坐不住，便悄悄下到牛棚，把一头头拴着的牛全都松开。牛群顿时互相踢打，哞哞乱叫，闹得农舍里的人全跑出来重新拴牛。他趁机溜进屋，抓走一大把坚果，又回到草料棚。师父还在呼呼大睡。男孩先闭眼躺了一会儿，很快又坐起来，从口袋掏出大针和线，把师父的衣摆缝在身后悬着的一张沉重牛皮上。
+        - id: ch02-b04
+          speaker: narrator
+          text: 牛重新拴好了，众人却找不到坚果，只好围着炉火讲故事。诡计小子忽然说，自己要咬开一颗坚果。
+        - id: ch02-b05
+          speaker: black_rogue
+          text: “不许咬！他们会听见。”
+          emotion: fearful
+        - id: ch02-b06
+          speaker: shifty_lad
+          text: “听见就听见。我过万圣节前夜，从没有不咬坚果的时候。”
+        - id: ch02-b07
+          speaker: narrator
+          text: 他咔嚓一声咬开一颗。
+        - id: ch02-b08
+          speaker: merrymaker
+          text: “上头有人咬坚果！快来，咱们看看是谁。”
+          emotion: surprised
+        - id: ch02-b09
+          speaker: narrator
+          text: 客人喊得很响。黑绞架鸟听见后冲出草料棚，那张缝在外衣上的大牛皮一路跟在身后。
+        - id: ch02-b10
+          speaker: farmer
+          text: “他在偷我的牛皮！”
+          emotion: angry
+        - id: ch02-b11
+          speaker: narrator
+          text: 众人一齐追了上去，可黑绞架鸟跑得太快，谁也赶不上。过了许久，他总算把牛皮从外衣上扯掉，这才像野兔一样飞奔回原来的藏身处。这一番折腾花了很长时间。趁着这段工夫，诡计小子下了草料棚，把整座农舍搜了一遍，终于找到藏在一大堆稻草后面的钱箱。箱里装满金银，上头还盖着许多面包和一大块奶酪。他把钱袋搭在两边肩上，臂下夹好面包和奶酪，安安静静回到师父家。
+        - id: ch02-b12
+          speaker: black_rogue
+          text: “你这个坏东西，总算回来了！我一定要报复你。”
+          emotion: angry
+        - id: ch02-b13
+          speaker: shifty_lad
+          text: “事情办得好好的。您要的东西，我全带回来了。”
+          emotion: calm
+        - id: ch02-b14
+          speaker: narrator
+          text: 他把肩上的钱袋、面包和奶酪一件件放到地上。黑绞架鸟的妻子看了，不由得赞叹。
+        - id: ch02-b15
+          speaker: black_rogue_wife
+          text: “啊，原来你才是更高明的贼。”
+          emotion: surprised
+        - id: ch02-b16
+          speaker: black_rogue
+          text: “没错，你果真是个聪明孩子。”
+        - id: ch02-b17
+          speaker: narrator
+          text: 两人分了赃物，一人一半。几星期后，黑绞架鸟听说镇子附近有人办婚礼。新郎朋友很多，人人都送来礼物。荒野高处的一位富农认为，年轻夫妻刚开始操持家业，再没有什么比一只肥美的绵羊更有用了。他便叫牧羊人上山，到羊群吃草的地方挑最好的一只。牧羊人选中一只最大最肥、羊毛也最雪白的，把四条腿绑在一起，扛到肩头，因为前面的路还很长。
+    - id: ch03
+      title: 一只羊、一只小羊和一头公牛
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 诡计小子那天恰好正在荒野闲逛，看见牧羊人扛着羊，沿着一条经过师父家门前的路慢慢走来。羊很沉，那人也不着急，脚步慢得很。男孩心里一算，知道自己轻轻松松就能赶回师父那里，而那牧羊人到时恐怕还没露面。
+        - id: ch03-b02
+          speaker: shifty_lad
+          text: “我敢赌，那人还没走过这里，我就能把他肩上的羊偷来。”
+        - id: ch03-b03
+          speaker: black_rogue
+          text: “当真？我跟你赌一百枚银币，你绝对办不到。”
+        - id: ch03-b04
+          speaker: shifty_lad
+          text: “那我总得试一试。”
+        - id: ch03-b05
+          speaker: narrator
+          text: 男孩钻进灌木，飞跑到牧羊人必经的树林。他脱下一只鞋，抹满泥，放在路中间，自己躲到岩石后面。不久，牧羊人走来，弯腰看着那只鞋。
+        - id: ch03-b06
+          speaker: shepherd
+          text: “这鞋不错，就是脏得很。要是另一只也在，我倒肯费事刷一刷。”
+        - id: ch03-b07
+          speaker: narrator
+          text: 他把鞋丢回原处，继续赶路。躲在岩石后面的诡计小子听见这番话，微微笑了。他捡起鞋，抄一条近路悄悄绕到牧羊人前面，又把自己的另一只鞋摆在路中央。几分钟后，牧羊人到了，一眼便认出，这正是先前那只脏鞋的另一半。
+        - id: ch03-b08
+          speaker: shepherd
+          text: “我回去捡来第一只，这样就有一双好鞋了。”
+        - id: ch03-b09
+          speaker: narrator
+          text: 他把羊放到草地上，转身回头取鞋。诡计小子便穿好自己的双鞋，扛起绵羊回了家，黑恶棍也按赌约付给他一百马克。牧羊人当天晚上回到农舍，把整件事讲给主人听。主人骂他又蠢又粗心，命他第二天再上山带一只小山羊回来，改送小山羊作婚礼礼物。
+        - id: ch03-b10
+          speaker: narrator
+          text: 诡计小子早有防备。他藏在树林里，等牧羊人扛着小山羊靠近，就把绵羊的叫声学得惟妙惟肖，连羊的亲娘也分不出真假。
+        - id: ch03-b11
+          speaker: shepherd
+          text: “它一定挣脱绳子，还是走失了。”
+        - id: ch03-b12
+          speaker: narrator
+          text: 牧羊人把小山羊放到草地上，急匆匆循着羊叫追去。男孩立刻跑回来，抱走小山羊，交给黑绞架鸟。牧羊人寻找绵羊归来，见小山羊也没了，简直不敢相信自己的眼睛。他害怕回家以后，再对主人讲一遍同昨天一样的故事，只好把树林翻来覆去搜了一遍又一遍。直到天色将晚，他才明白再没有别的办法，只能回去坦白。
+        - id: ch03-b13
+          speaker: narrator
+          text: 农夫听见第二桩祸事，自然大发雷霆。这次他命牧羊人从山上赶一头大公牛回来，还严厉警告说，再弄丢这头公牛，他的差事也保不住。诡计小子仍旧在暗中守候。他先看见牧羊人空手经过，后来又见那人赶着大公牛回来，便叫师父快些跟他进树林。
+        - id: ch03-b14
+          speaker: shifty_lad
+          text: “咱们连这头公牛也弄来。”
+        - id: ch03-b15
+          speaker: black_rogue
+          text: “可这回要怎么下手？”
+        - id: ch03-b16
+          speaker: shifty_lad
+          text: “容易。您藏到一边学绵羊叫，我到另一边学小山羊叫，准不会出错。”
+        - id: ch03-b17
+          speaker: narrator
+          text: 牧羊人赶着公牛慢慢走，忽然听见小路一侧远远传来洪亮的羊叫，另一侧又响起细弱的小羊声。
+        - id: ch03-b18
+          speaker: shepherd
+          text: “这一定是我弄丢的绵羊和小山羊。没错，准是它们。”
+        - id: ch03-b19
+          speaker: narrator
+          text: 他匆匆把公牛拴在一棵树上，便离开小路，去追那只绵羊和小山羊。他在树林里找了又找，直到筋疲力尽。等他回来，两个贼自然早已把牛赶回家，宰了吃肉。他只能再去见主人，承认自己又一次上了当。此后两个贼胆子越来越大，偷来大群牲畜，卖掉以后发了大财。
+    - id: ch04
+      title: 绞架上的较量
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 一天，两人从集市回来，口袋里装着一大笔钱，途中经过一座立在山顶的绞架。诡计小子提议停下来仔细看看。他说自己从未在这么近的地方见过绞架，可人们都说，所有做贼的人，最终都会来到这里。
+        - id: ch04-b02
+          speaker: narrator
+          text: 四下连一个人影也没有，两人便绕着绞架，把每一处都仔仔细细看了一遍。诡计小子忽然说，他很想知道被吊起来究竟是什么滋味，免得将来真被捉住时毫无准备。他打算自己先试，然后再让师父也试一回。
+        - id: ch04-b03
+          speaker: narrator
+          text: 他把绳圈牢牢套在脖子上，叫黑恶棍拉动另一端，把自己吊离地面。
+        - id: ch04-b04
+          speaker: shifty_lad
+          text: “等我受够了，就会蹬腿。那时您要把我放下来。”
+        - id: ch04-b05
+          speaker: narrator
+          text: 黑恶棍抓住绳子的另一头，把男孩一点点拉离地面。还不到半分钟，诡计小子的双腿便抖了起来。黑恶棍记得先前的约定，赶紧把绳子放下，让他重新落到地面。诡计小子的脸色已经发紫，嗓音听起来也很古怪，却仍低声告诉师父，那感觉奇妙极了。
+        - id: ch04-b06
+          speaker: shifty_lad
+          text: “您准没试过，不然不会让我先来。这是我一生最痛快的事。刚才我蹬腿，纯粹是快活得不得了。换成您吊在上面，也会那样蹬腿。”
+        - id: ch04-b07
+          speaker: black_rogue
+          text: “既然这么美妙，也让我试试。绳结可要系牢，我不想摔下来跌断脖子。”
+        - id: ch04-b08
+          speaker: shifty_lad
+          text: “您放心。等您受够了，吹声口哨，我就放您下来。”
+        - id: ch04-b09
+          speaker: narrator
+          text: 于是黑恶棍也把绳圈套好，由诡计小子将他拉起来。等他升到绳子所能达到的最高处，男孩便站在下面大声提醒他，想下来时千万别忘了吹口哨。要是觉得像自己方才那样快活，那就只管蹬腿。
+        - id: ch04-b10
+          speaker: narrator
+          text: 转眼间，黑恶棍的腿果然颤抖着乱踢。诡计小子看着他，放声大笑。
+        - id: ch04-b11
+          speaker: shifty_lad
+          text: “哎哟，您这模样真有趣！要是能看看自己就好了。等您玩够了，吹口哨，我便放您下来。”
+          emotion: happy
+        - id: ch04-b12
+          speaker: narrator
+          text: 他说完又笑得前仰后合，可口哨始终没有响。没过多久，黑恶棍的双腿不再颤抖，也不再乱踢。绳上的人已经死了。原来，诡计小子从一开始便打算让黑绞架鸟落得这样的下场。
+        - id: ch04-b13
+          speaker: narrator
+          text: 他回去告诉黑恶棍的妻子，她丈夫已经死了。她若愿意，自己可以娶她。可女人一向深爱丈夫，哪怕他是个贼。她惊恐地躲开男孩，又发动众人追捕他。诡计小子只好逃往另一片地方，那里没人知道他的所作所为。
+        - id: ch04-b14
+          speaker: narrator
+          text: 若是母亲听见这些事，也许会以为儿子已经厌倦偷盗，愿意改做正经营生。其实，他爱极了那些花招和危险，没有它们，日子便乏味透顶。他照旧偷下去，还把结交的朋友教得同自己一样邪恶。后来，他们开始抢劫国王的库房。国王听从智者的建议，派兵捉拿这伙盗贼。
+        - id: ch04-b15
+          speaker: narrator
+          text: 士兵尝试了很久，始终抓不到这帮人。诡计小子比他们所有人都高明，他们设一个圈套，他便设一个更厉害的。终于有一晚，他悄悄摸到一群睡在谷仓里的士兵身边，杀了他们，又骗村民说，若不在天亮前杀掉其余士兵，村民自己就一定会被士兵杀死。就这样，太阳升起时，村里已经没有一个士兵活着。
+    - id: ch05
+      title: 黑点与苹果
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 这场惨祸的消息很快传到国王耳中。国王勃然大怒，立刻召来智者，要同他商议捉贼的办法。智者献上一计，劝国王邀请乡间所有百姓参加舞会。那个大胆又放肆的贼一定不肯错过，也一定会走到国王的女儿面前，请她同自己跳舞。
+        - id: ch05-b02
+          speaker: king
+          text: “这计策很好。”
+        - id: ch05-b03
+          speaker: narrator
+          text: 国王采纳计策，设下丰盛宴席，又为舞会做好准备。乡间人人到场，诡计小子果然也混在人群里。宾客尽情吃喝之后，一同涌进舞厅。门口挤得水泄不通。众人推挤着经过时，智者从长袍里取出一瓶暗藏的黑色油膏，在诡计小子靠近耳朵的面颊上轻轻点了一下。
+        - id: ch05-b04
+          speaker: narrator
+          text: 男孩丝毫没有感觉。可他走近公主，正要请她作舞伴，却从一面银镜里瞥见了耳边的黑点。他立刻猜出是谁点的，也明白那人为什么这样做，仍旧一声不响。他把舞跳得无比优美，公主十分喜欢。舞曲结束，他向舞伴深深鞠了一躬，离开她，混进挤满门口的人群。经过智者身边时，他不仅偷出那只瓶子，还在智者脸上点了两个黑点，又给另外二十个男人各点一个，随后把瓶子悄悄放回智者的长袍。
+        - id: ch05-b05
+          speaker: narrator
+          text: 过了一会儿，他又请公主跳舞。公主答应了。男孩俯身系鞋带时，她拿出巫师交给自己的另一瓶油膏，在他脸上点了一个黑点。她的手法不如智者，男孩感觉到了手指的触碰。舞一结束，他便给那二十人各添一个黑点，又给巫师添了两个，最后把瓶子塞回公主口袋。
+        - id: ch05-b06
+          speaker: narrator
+          text: 舞会结束，国王下令关上所有大门，查找脸上带两个黑点的男人。宫务大臣走遍宾客之间，很快找到一个，正要逮捕他、押到国王面前，却又看见第二个人带着同样的记号，接着是第三个、第四个。最后他数出整整二十人，此外，连智者脸上也有黑点。他不知如何是好，连忙把情形禀报国王。国王先召智者，又叫女儿过来。
+        - id: ch05-b07
+          speaker: king
+          text: “那贼一定偷走了你的瓶子。”
+        - id: ch05-b08
+          speaker: wise_man
+          text: “没有，陛下，瓶子就在这里。”
+        - id: ch05-b09
+          speaker: king
+          text: “那么，他一定偷了你的瓶子。”
+        - id: ch05-b10
+          speaker: princess
+          text: “真的，父王，它一直好好放在我口袋里。”
+        - id: ch05-b11
+          speaker: narrator
+          text: 三个人面面相觑，谁也不说话。最后，国王开口了。
+        - id: ch05-b12
+          speaker: king
+          text: “做出这件事的人比大多数人都聪明。他若肯表明身份，就可以娶公主。我活着时，让他治理半壁江山。等我死后，整个王国都归他。去舞厅宣布，把那家伙带来。”
+        - id: ch05-b13
+          speaker: narrator
+          text: 侍从照命令宣布。出乎意料，站出来的不是一个人，而是二十个，个个脸上带着黑点。
+        - id: ch05-b14
+          speakers: [shifty_lad, marked_man_1, marked_man_2, marked_man_3]
+          ensemble: chorus
+          text: “我就是你要找的人！”
+        - id: ch05-b15
+          speaker: narrator
+          text: 侍从同宫务大臣一样糊涂，只得把所有人带到国王面前。可这个难题实在太难，国王自己也无法裁决，只好召集所有大臣共同商量。众人一连谈了几个钟头，还是毫无结果。直到最后，他们才想出一个办法，其实，这个办法从一开始就该想到了。
+        - id: ch05-b16
+          speaker: narrator
+          text: 他们定下的办法是，先带一个孩子进宫，由公主亲手给她一只苹果。接着，再领孩子走进一间屋子，让那二十个脸上带黑点的男人围成一圈坐在那里。孩子最后把苹果交给谁，谁便娶国王的女儿。
+        - id: ch05-b17
+          speaker: king
+          text: “她选中的未必是真正那个人，可也未必不是。不管怎样，这是我们能想出的最好办法。”
+        - id: ch05-b18
+          speaker: narrator
+          text: 公主亲自领小女孩走进那二十个男人围坐的房间。孩子在圆圈中央站了一会儿，一个又一个地打量过去，最后把苹果递给诡计小子。他正拿一片刨花绕着手指玩，脖子上还挂着风笛吹嘴。
+        - id: ch05-b19
+          speaker: chamberlain
+          text: “你不该带着别人没有的东西。”
+        - id: ch05-b20
+          speaker: narrator
+          text: 宫务大臣认为这样不公平，便让孩子暂时站到门外。他取走诡计小子手里的刨花和脖子上的吹嘴，又叫男孩换了座位，这才把孩子叫回来。可小女孩仍旧认出了他，拿着苹果径直走到他面前。
+        - id: ch05-b21
+          speaker: chamberlain
+          text: “这个人，孩子先后选中了两次。一切都很公平，我们确实试了两遍。”
+        - id: ch05-b22
+          speaker: narrator
+          text: 宫务大臣示意诡计小子跪到国王面前。他就这样赢得了公主，第二天，两人便成了婚。
+    - id: ch06
+      title: 都柏林桥
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: 几天后，新婚夫妇一同散步。小路通向河边，河上架着一座桥。诡计小子问这是什么桥，公主告诉他，那正是都柏林桥。
+        - id: ch06-b02
+          speaker: shifty_lad
+          text: “当真吗？从前每次我捉弄母亲，她总说，我最后会被吊在都柏林桥上。”
+          emotion: surprised
+        - id: ch06-b03
+          speaker: princess
+          text: “你要想叫她的预言应验，那还不容易？让我把手帕系在你脚踝上。你从桥墙外吊下去，我在上面拉住你。”
+          emotion: happy
+        - id: ch06-b04
+          speaker: shifty_lad
+          text: “那一定很好玩，可你的力气不够，拉不住我。”
+        - id: ch06-b05
+          speaker: princess
+          text: “我当然拉得住。你试试看。”
+        - id: ch06-b06
+          speaker: narrator
+          text: 公主坚持说自己拉得住，一再催他试试。最后，他终于让她把手帕紧紧系在自己的脚踝上，将自己从桥墙外慢慢吊了下去。两个人都笑个不停，还拿公主竟然有这么大力气，互相说着笑话。
+        - id: ch06-b07
+          speaker: shifty_lad
+          text: “好了，现在把我拉上去吧！”
+        - id: ch06-b08
+          speaker: narrator
+          text: 话音未落，忽然有人大叫王宫失火。公主猛然回头，手帕从手中滑脱。诡计小子坠了下去，脑袋撞在石头上，当场死去。
+        - id: ch06-b09
+          speaker: narrator
+          text: 到头来，他母亲从前说过的预言还是应验了。

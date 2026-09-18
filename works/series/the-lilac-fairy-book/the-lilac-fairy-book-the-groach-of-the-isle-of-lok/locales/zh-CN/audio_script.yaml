@@ -1,0 +1,467 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 沉着讲述古老童话，奇异处自然从容，悲喜处克制而温暖
+        timbre: 温暖清晰的成年男声
+        pace: 舒缓而富于变化
+        pitch: 中低
+    houarn_mother:
+      display_name: 乌阿恩的母亲
+      tts:
+        delivery: 亲切爽朗，谈起孩子的未来时满怀期待
+        timbre: 温暖朴实的成年女声
+        pace: 适中
+        pitch: 中
+    bellah_mother:
+      display_name: 贝拉的母亲
+      tts:
+        delivery: 温柔开朗，谈起孩子的未来时满怀期待
+        timbre: 柔和清亮的成年女声
+        pace: 适中
+        pitch: 中高
+    houarn:
+      display_name: 乌阿恩
+      tts:
+        delivery: 朴实直率，起初急于摆脱贫困，醒悟后真诚勇敢
+        timbre: 明亮结实的年轻男声
+        pace: 适中
+        pitch: 中
+    bellah:
+      display_name: 贝拉
+      tts:
+        delivery: 温柔重情，担忧时急切，营救爱人时机敏坚定
+        timbre: 清澈柔和的年轻女声
+        pace: 适中
+        pitch: 中高
+    groac_h:
+      display_name: 格罗阿克
+      tts:
+        delivery: 表面亲切迷人，谎言从容，暴露后冷酷狠厉
+        timbre: 华美柔滑的成年女声
+        pace: 舒缓
+        pitch: 中
+    muleteer_1:
+      display_name: 赶骡人甲
+      tts:
+        delivery: 见多识广，谈到女妖时郑重警惕
+        timbre: 粗粝的成年男声
+        pace: 适中
+        pitch: 中低
+    muleteer_2:
+      display_name: 赶骡人乙
+      tts:
+        delivery: 直爽谨慎，劝阻年轻人时焦急恳切
+        timbre: 清楚有力的成年男声
+        pace: 适中偏快
+        pitch: 中
+    enchanted_man_1:
+      display_name: 遇难者甲
+      tts:
+        delivery: 压低声音急切求救，说明危险时简明直接
+        timbre: 沙哑的成年男声
+        pace: 适中偏快
+        pitch: 中低
+    enchanted_man_2:
+      display_name: 遇难者乙
+      tts:
+        delivery: 惊惧而克制，与同伴一同发出警告
+        timbre: 清瘦的成年男声
+        pace: 适中
+        pitch: 中
+    enchanted_man_3:
+      display_name: 遇难者丙
+      tts:
+        delivery: 紧张低沉，与同伴一同恳求援救
+        timbre: 浑厚的成年男声
+        pace: 适中
+        pitch: 中低
+    enchanted_man_4:
+      display_name: 遇难者丁
+      tts:
+        delivery: 惶急小心，与同伴一同揭穿女妖
+        timbre: 略显尖细的成年男声
+        pace: 适中偏快
+        pitch: 中高
+    korandon:
+      display_name: 科朗东
+      tts:
+        delivery: 身陷怪境仍诙谐明快，指点营救时认真果断
+        timbre: 细小苍老的男声
+        pace: 适中偏快
+        pitch: 高
+  chapters:
+    - id: ch01
+      title: 母牛和小猪
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 很久以前，布列塔尼还常有奇事发生。拉尼利斯村里住着一对表兄妹，青年叫乌阿恩·波加姆，姑娘叫贝拉·波斯蒂克。两人的母亲亲密得很，总在彼此家中来往。乌阿恩和贝拉小时候躺过同一只摇篮，长大些便一起玩耍，有时也为游戏打架。
+        - id: ch01-b02
+          speakers: [houarn_mother, bellah_mother]
+          ensemble: duo
+          text: “等我们长大，就让我们结婚。”
+        - id: ch01-b03
+          speaker: narrator
+          text: 这是两位母亲常替他们说的话。可是人人刚开始盼婚礼的钟声，两位母亲便先后去世了。表兄妹一分钱也没有，只能到同一户人家做仆人。这样总比各奔东西好，可他们更想有间自己的小屋，按自己的心意过日子。于是每次见面，两人说的总是眼下的难处。
+        - id: ch01-b04
+          speaker: houarn
+          text: “只要能买头母牛，再买只小猪养肥，我就可以向主人租块地。到那时，我们就能成婚了。”
+        - id: ch01-b05
+          speaker: bellah
+          text: “是啊。可日子这么难，上次赶集，猪价又涨了。”
+          emotion: sad
+        - id: ch01-b06
+          speaker: houarn
+          text: “照这样下去，我们还不知要等多久。”
+        - id: ch01-b07
+          speaker: narrator
+          text: 乌阿恩说完，又转身干活去了。他们碰一次面，就把这些苦处再讲一次。乌阿恩终于失去了耐心。一天早晨，他来告诉贝拉，自己要出门闯荡，找个发财的机会。
+        - id: ch01-b08
+          speaker: narrator
+          text: 贝拉难过极了。她后悔自己从没试着把眼前的日子往好处想，苦苦求他留下。乌阿恩却一句也听不进去。
+        - id: ch01-b09
+          speaker: houarn
+          text: “鸟儿要飞到找到谷田才停，蜜蜂也要找到花才歇。人难道还不如它们明白吗？我也会一直找，直到挣够买母牛和肥猪的钱。贝拉，你要是爱我，就别拦着我。这样做，是为了让我们早点成婚。”
+        - id: ch01-b10
+          speaker: narrator
+          text: 贝拉知道再劝也没有用，只好伤心地答应。
+        - id: ch01-b11
+          speaker: bellah
+          text: “你既然一定要走，那就走吧。不过父母留下的东西，我得分你一份。”
+          emotion: sad
+        - id: ch01-b12
+          speaker: narrator
+          text: 她回到房里，打开一只小箱子，取出一枚铃铛、一把小刀和一根短杖。
+        - id: ch01-b13
+          speaker: bellah
+          text: “这枚铃铛，不管离得多远都能听见。不过只有亲友遇上大难，它才会响。小刀碰到什么，就能解开什么身上的魔法。短杖能把人送到任何想去的地方。刀给你，免得巫师的法术伤害你。铃铛也给你，这样你遇险时我会知道。短杖留给我，万一你需要我，我就能赶到你身边。”
+        - id: ch01-b14
+          speaker: narrator
+          text: 两人搂着彼此的脖子，哭了一阵。随后乌阿恩告别贝拉，向群山走去。
+        - id: ch01-b15
+          speaker: narrator
+          text: 那时候和今天一样，处处都有乞丐。乌阿恩每经过一座村庄，都有成群的人跟在后面。大家见他衣服上没有破洞，便以为他是有钱的老爷。
+        - id: ch01-b16
+          speaker: houarn
+          text: “留在这里可发不了财。这里花得了钱，却赚不到钱。我还得走得更远。”
+        - id: ch01-b17
+          speaker: narrator
+          text: 他一路来到阿旺桥。那是河岸边一座美丽的小城。乌阿恩坐在客店外的长凳上，听见两个赶骡人一边给骡子装货，一边谈起洛克岛的格罗阿克女妖。
+        - id: ch01-b18
+          speaker: houarn
+          text: “格罗阿克是什么？我从没碰见过。”
+        - id: ch01-b19
+          speaker: muleteer_1
+          text: “那是住在湖里的仙女。她富得吓人，就算把全世界国王的钱财堆在一起，也比不上她。”
+        - id: ch01-b20
+          speaker: muleteer_2
+          text: “许多人都去过那座岛，想拿到她的宝藏。可去了的人，没有一个回来。”
+        - id: ch01-b21
+          speaker: narrator
+          text: 乌阿恩听完，立刻拿定了主意。
+        - id: ch01-b22
+          speaker: houarn
+          text: “我要去，而且一定能回来。”
+        - id: ch01-b23
+          speaker: narrator
+          text: 两个赶骡人瞪大眼睛，劝他别发疯，更别白白送命。乌阿恩只是笑。他说，只要两人能另想一个办法，让他买得起母牛和肥猪，他便不去。赶骡人哪里想得出来，只能摇头看着这个固执的青年，任他自己去碰运气。
+        - id: ch01-b24
+          speaker: narrator
+          text: 乌阿恩走到海边，找来一名船夫，约好送他前往洛克岛。
+
+    - id: ch02
+      title: 湖底的婚约
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 洛克岛很大，岛上的湖几乎把陆地截成两半，只有一道窄窄的水口连着大海。乌阿恩付了船钱，让船夫回去，自己沿湖岸往前走。湖的一端长着一丛开黄花的金雀花，花下停着一叶蓝色小舟。它的样子像只天鹅，头正藏在翅膀底下。
+        - id: ch02-b02
+          speaker: narrator
+          text: 乌阿恩从没见过这种船，赶紧跨进去细看。谁知他刚上船，天鹅便醒了。它从翅下伸出头，两只脚在水里划动，转眼就到了湖心。乌阿恩从惊讶中回过神，正想跳进水里游回岸边，天鹅却看透了他的心思，一头潜入水下，把他带到了格罗阿克的宫殿。
+        - id: ch02-b03
+          speaker: narrator
+          text: 要是没到过海底，亲眼见过那里的奇景，谁也想不出这座宫殿的模样。墙壁全由贝壳砌成，有蓝色、绿色、粉色、淡紫色和雪白色。种种颜色融在一起，分不清一种在哪里结束，另一种又从哪里开始。水晶楼梯更奇妙，脚踏上一级，那级台阶便像林中的小鸟一样歌唱。宫殿四周还有宽阔的花园，海中植物长满各处，枝头开的花却是一颗颗钻石。
+        - id: ch02-b04
+          speaker: narrator
+          text: 格罗阿克斜倚在大厅的黄金榻上。她的脸粉白相间，像宫殿里的贝壳。乌黑的长发缠着一串串珊瑚，绿绸衣裙仿佛是海水织成的。乌阿恩一见她便停住脚步，眼睛都被她的美貌耀花了。
+        - id: ch02-b05
+          speaker: groac_h
+          text: “进来吧。陌生人，还有英俊的年轻人，在这里都受欢迎。别害羞，告诉我，你怎么来的，又想要什么？”
+        - id: ch02-b06
+          speaker: houarn
+          text: “我叫乌阿恩，住在拉尼利斯。我想挣一笔钱，够我买头小母牛，再买只猪来养肥。”
+        - id: ch02-b07
+          speaker: groac_h
+          text: “这有什么难的？根本不用为它发愁。跟我来，好好享受吧。”
+        - id: ch02-b08
+          speaker: narrator
+          text: 格罗阿克招手叫他跟上，带他走进第二座大厅。这里从地面到墙壁都是珍珠，两旁的桌子摆满水果和美酒。乌阿恩吃喝时，格罗阿克陪他说话。她说这些宝物全来自失事的沉船，是一道神奇的水流把它们送进宫殿的。
+        - id: ch02-b09
+          speaker: houarn
+          text: “原来是这样！怪不得陆地上的人一提起你，就有说不完的话。”
+        - id: ch02-b10
+          speaker: groac_h
+          text: “一个人有了钱，总会惹来别人的嫉妒。”
+        - id: ch02-b11
+          speaker: houarn
+          text: “要是能分到你一半的财富，我这辈子就满足了。”
+          emotion: happy
+        - id: ch02-b12
+          speaker: groac_h
+          text: “只要你愿意，我的一半财富就是你的。”
+        - id: ch02-b13
+          speaker: houarn
+          text: “你说的是真的？这是什么意思？”
+          emotion: surprised
+        - id: ch02-b14
+          speaker: groac_h
+          text: “我的丈夫科朗东已经死了。你肯答应的话，我就嫁给你。”
+        - id: ch02-b15
+          speaker: narrator
+          text: 乌阿恩惊讶地望着她。这样美丽又富有的人，真愿意做他的妻子吗？他又看了格罗阿克一眼，竟把贝拉忘得干干净净。
+        - id: ch02-b16
+          speaker: houarn
+          text: “这样的好事还要拒绝，那才是疯了。我当然愿意，心里高兴得很！”
+          emotion: happy
+        - id: ch02-b17
+          speaker: groac_h
+          text: “那就越快办越好。”
+        - id: ch02-b18
+          speaker: narrator
+          text: 格罗阿克立刻吩咐仆人。仪式办完，她又请乌阿恩陪她到花园尽头的鱼池去。
+        - id: ch02-b19
+          speaker: groac_h
+          text: “来吧，律师！来吧，磨坊主！来吧，裁缝！来吧，歌手！”
+        - id: ch02-b20
+          speaker: narrator
+          text: 她举起一张钢丝网。每喊一声，就有一尾鱼现身，跳进网里。等网装满了，她走进宽大的厨房，把鱼全倒进一口金锅。锅里的水咕嘟咕嘟冒泡，乌阿恩却好像听见几个细小的声音在低语。
+        - id: ch02-b21
+          speaker: houarn
+          text: “格罗阿克，金锅里是谁在说话？”
+        - id: ch02-b22
+          speaker: groac_h
+          text: “没人说话，不过是柴火烧得噼啪响。”
+        - id: ch02-b23
+          speaker: narrator
+          text: 乌阿恩听着一点也不像。过了一会儿，那声音又来了。
+        - id: ch02-b24
+          speaker: houarn
+          text: “听，又响了。”
+        - id: ch02-b25
+          speaker: groac_h
+          text: “水越来越热，鱼在锅里乱跳呢。”
+        - id: ch02-b26
+          speaker: narrator
+          text: 声音很快变得更响，听来分明是一阵阵呼救。
+        - id: ch02-b27
+          speaker: houarn
+          text: “这到底是什么声音？”
+        - id: ch02-b28
+          speaker: groac_h
+          text: “只是炉边的蟋蟀。”
+        - id: ch02-b29
+          speaker: narrator
+          text: 格罗阿克说完便唱起歌，用歌声盖住锅里的呼喊。乌阿恩不再追问，心里却没有刚才快活了。他越想越觉得不对，忽然又记起贝拉。
+        - id: ch02-b30
+          speaker: houarn
+          text: “我怎么能这么快就忘了她？我真是个没良心的人！”
+        - id: ch02-b31
+          speaker: narrator
+          text: 格罗阿克把鱼盛进盘子，叫乌阿恩先吃。她自己要去洞穴里的酒窖取酒。乌阿恩站在一旁，一直盯着她。等她走远，他才坐下来，拿出贝拉送的小刀。
+
+    - id: ch03
+      title: 仙铃急响
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 小刀刚碰到盘中的鱼，魔法便解除了。四个男人一下出现在乌阿恩面前。
+        - id: ch03-b02
+          speakers: [enchanted_man_1, enchanted_man_2, enchanted_man_3, enchanted_man_4]
+          ensemble: chorus
+          text: “乌阿恩，救救我们，也快救救你自己！”
+          emotion: fearful
+        - id: ch03-b03
+          speaker: narrator
+          text: 四个人害怕被听见，只敢低声哀求。
+        - id: ch03-b04
+          speaker: houarn
+          text: “刚才在锅里求救的，原来就是你们！”
+          emotion: surprised
+        - id: ch03-b05
+          speakers: [enchanted_man_1, enchanted_man_2, enchanted_man_3, enchanted_man_4]
+          ensemble: chorus
+          text: “正是我们。我们也来洛克岛找财富，也答应娶格罗阿克。仪式一结束，她就把我们变成了鱼。比我们先来的人也全遭了毒手，现在还困在鱼池里。很快，你也会变得和我们一样。”
+          emotion: fearful
+        - id: ch03-b06
+          speaker: narrator
+          text: 乌阿恩猛地跳起来，好像自己已经掉进金锅，正被煎得滋滋作响。他冲向门口想逃，格罗阿克却听见了一切，正好堵在门槛上。她立刻把钢丝网罩到乌阿恩头上。转眼间，网眼里只剩一只绿色小青蛙，露着两只眼睛。
+        - id: ch03-b07
+          speaker: groac_h
+          text: “去吧，和其他人一起玩。”
+        - id: ch03-b08
+          speaker: narrator
+          text: 她说完，便把变成青蛙的乌阿恩带到鱼池去了。
+        - id: ch03-b09
+          speaker: narrator
+          text: 就在这时候，贝拉正在农庄的乳品房里撇去牛奶上的乳脂。忽然，仙铃急促地响了起来。她的脸一下变得惨白。她知道，乌阿恩遇上了大难。贝拉匆忙脱下干活穿的粗布衣裳，握住短杖，离开农庄。
+        - id: ch03-b10
+          speaker: narrator
+          text: 她双膝发抖，还是拼命跑到十字路口，把短杖插进地里，低声唱起母亲教过的歌。
+        - id: ch03-b11
+          speaker: bellah
+          text: “苹果树的小短杖，越过大地越过海。飞上天空为我领航，任我处处自由来往。”
+        - id: ch03-b12
+          speaker: narrator
+          text: 短杖立刻变成一匹神气的小马。它两只耳朵旁各戴一朵花饰，额前还插着一根羽毛。贝拉手脚并用地爬上马背。她没坐稳时，小马一动不动。等她坐好，它才飞奔起来，而且越跑越快。后来，道旁的树木和房屋只是一闪而过，贝拉几乎看不清了。可她仍嫌不够快，便俯下身对小马说话。
+        - id: ch03-b13
+          speaker: bellah
+          text: “燕子赶不上风，风又赶不上闪电。可是我的马儿，你若爱我，就得比它们都快。我心里的一部分正在受苦，还是最好、最珍贵的那一部分。”
+        - id: ch03-b14
+          speaker: narrator
+          text: 小马听懂了，像一根被暴风卷走的麦秆，直奔名叫鹿跃崖的岩石脚下。到了那里，它停住了。世上没有哪匹马、哪头骡子能爬上这块岩石。贝拉明白，只好再唱一首歌。
+        - id: ch03-b15
+          speaker: bellah
+          text: “莱昂小马赠予我，越过大地越过海。飞上天空为我领航，任我处处自由来往。”
+        - id: ch03-b16
+          speaker: narrator
+          text: 歌声刚停，小马的前腿便缩短，向两旁展开，变成一双翅膀。后腿化为利爪，全身长出羽毛。贝拉坐在一只大鸟背上，由它驮着飞上岩顶。
+        - id: ch03-b17
+          speaker: narrator
+          text: 岩顶有一只泥筑的巢，里面铺着干苔藓。一个又小又黑、满脸皱纹的男人坐在巢中央。他看见贝拉，立刻叫了起来。
+        - id: ch03-b18
+          speaker: korandon
+          text: “啊，你就是那个会来救我的漂亮姑娘！”
+          emotion: surprised
+        - id: ch03-b19
+          speaker: bellah
+          text: “救你？可你是谁呀，小朋友？”
+        - id: ch03-b20
+          speaker: korandon
+          text: “我是洛克岛格罗阿克的丈夫。就是她把我害成这样的。”
+        - id: ch03-b21
+          speaker: bellah
+          text: “那你为什么坐在这只巢里？”
+        - id: ch03-b22
+          speaker: korandon
+          text: “我在孵六只石头蛋。要是不把它们孵出来，我就永远也不能自由。”
+        - id: ch03-b23
+          speaker: narrator
+          text: 贝拉听了，忍不住笑起来。
+        - id: ch03-b24
+          speaker: bellah
+          text: “你这只可怜的小公鸡！我要怎么做，才能救你？”
+        - id: ch03-b25
+          speaker: korandon
+          text: “先去救落在格罗阿克手里的乌阿恩。救了他，也就救了我。”
+        - id: ch03-b26
+          speaker: bellah
+          text: “快告诉我该怎么办！哪怕让我跪着走遍整个布列塔尼，我也愿意。”
+        - id: ch03-b27
+          speaker: korandon
+          text: “先把自己装扮成年轻男子，再去见格罗阿克。想办法拿到她腰间的钢丝网，用那张网把她永远关起来。”
+        - id: ch03-b28
+          speaker: bellah
+          text: “可是年轻男子的衣服，我要到哪里去找？”
+        - id: ch03-b29
+          speaker: korandon
+          text: “这个，我来让你看看。”
+        - id: ch03-b30
+          speaker: narrator
+          text: 科朗东拔下三根红头发，低声念叨着，把它们吹了出去。眨眼之间，四个裁缝出现在巢里。第一个抱着卷心菜，第二个拿剪刀，第三个拿针，第四个拿熨斗。他们不用吩咐，便盘腿坐下，舒舒服服地替贝拉做起衣裳。
+        - id: ch03-b31
+          speaker: narrator
+          text: 一片卷心菜叶做外衣，另一片做背心。当时流行宽大的马裤，他们足足用了两片叶子。帽子用菜心裁成，鞋子则用粗壮的菜梗做成。贝拉把整套衣裳穿好以后，任谁看了，都会以为她是一位穿绿丝绒外衣、衬白缎背心的绅士。
+
+    - id: ch04
+      title: 贝拉的计策
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 贝拉满心感激，谢过这些小人。她又听了科朗东几句嘱咐，便跃上大鸟的背，由它驮着飞向洛克岛。到了岛上，她让大鸟变回短杖，握在手中。接着她登上那叶蓝色小舟，由它送往贝壳宫殿。
+        - id: ch04-b02
+          speaker: narrator
+          text: 格罗阿克一见贝拉，似乎非常欢喜，还说从没见过这么英俊的年轻人。没过多久，她便把客人领进那座随时摆着美酒和水果的大厅。乌阿恩留下的魔刀正放在桌上。贝拉趁格罗阿克没留意，把刀藏进绿色外衣的口袋。随后，她跟着女主人穿过花园，走到鱼池边。池里的鱼闪着千百种颜色。
+        - id: ch04-b03
+          speaker: bellah
+          text: “啊，这些小东西真漂亮！就算一直坐在这里看，我也不会厌倦。”
+        - id: ch04-b04
+          speaker: narrator
+          text: 贝拉在岸边坐下来，两肘撑着膝盖，双手托住下巴，目不转睛地看着鱼儿从水中游过。
+        - id: ch04-b05
+          speaker: groac_h
+          text: “你愿意永远留在这里吗？”
+        - id: ch04-b06
+          speaker: bellah
+          text: “当然愿意。再没有什么比留在这里更合我的心意。”
+        - id: ch04-b07
+          speaker: groac_h
+          text: “那你只要娶我就行。求你别拒绝，我已经深深地爱上你了。”
+        - id: ch04-b08
+          speaker: bellah
+          text: “好啊，我不会拒绝。不过你先答应我一件事，让我拿你的网捉一条漂亮的鱼。”
+        - id: ch04-b09
+          speaker: groac_h
+          text: “捉鱼可没有看上去那么容易。不过，网给你。试试你的运气吧。”
+        - id: ch04-b10
+          speaker: narrator
+          text: 格罗阿克微笑着递出钢丝网。贝拉一接到手，猛地转身，把网罩在女巫头上。
+        - id: ch04-b11
+          speaker: bellah
+          text: “让你的躯壳变得和你的灵魂一模一样！”
+        - id: ch04-b12
+          speaker: narrator
+          text: 顷刻间，美丽的海中仙女变成了一只丑陋的癞蛤蟆。她拼命挣扎，想撕破钢丝网，却怎么也挣不开。贝拉把网收得更紧，随后将女巫扔进一个深坑，又推来一块巨石堵住洞口，这才转身离开。
+        - id: ch04-b13
+          speaker: narrator
+          text: 贝拉走近鱼池，一大群鱼排成庞大的队伍，朝她游了过来。鱼儿们用沙哑的声音齐声呼喊。
+        - id: ch04-b14
+          speakers: [enchanted_man_1, enchanted_man_2, enchanted_man_3, enchanted_man_4]
+          ensemble: chorus
+          text: “这就是我们的主人！他把我们从钢丝网和金锅里救了出来！”
+        - id: ch04-b15
+          speaker: bellah
+          text: “那我会让你们全都恢复原来的样子。”
+        - id: ch04-b16
+          speaker: narrator
+          text: 贝拉从口袋拔出小刀，正要去碰游在最前面的鱼，忽然看见一只绿色小青蛙跪在身旁。青蛙把两只小爪子交叠在小小的心口。贝拉只觉得喉咙像被几根手指紧紧扼住，却还是勉强叫出声来。
+        - id: ch04-b17
+          speaker: bellah
+          text: “是你吗，乌阿恩？真的是你吗？”
+          emotion: fearful
+        - id: ch04-b18
+          speaker: houarn
+          text: “是我。”
+        - id: ch04-b19
+          speaker: narrator
+          text: 小刀刚碰到青蛙，乌阿恩便恢复了人形。他立刻跳起来，把贝拉紧紧搂进怀里。过了很久，贝拉才开口。
+        - id: ch04-b20
+          speaker: bellah
+          text: “可是，我们不能忘了其他人。”
+        - id: ch04-b21
+          speaker: narrator
+          text: 她开始用小刀触碰鱼儿，让它们一条接一条恢复本来的模样。鱼实在太多，她用了很长时间才把所有人救完。
+
+    - id: ch05
+      title: 带翅膀的马车
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 就在这时候，鹿跃崖上的科朗东坐着一辆车赶来了。拉车的是六只金龟子，正是原先那六只石头蛋变成的。
+        - id: ch05-b02
+          speaker: korandon
+          text: “我来了！你解开了困住我的魔法。现在，该来领取你的报答了。”
+        - id: ch05-b03
+          speaker: narrator
+          text: 科朗东走下车，带着贝拉和乌阿恩进入一座洞穴。里面堆满黄金和珠宝。他请两人随意拿，想拿多少都可以。
+        - id: ch05-b04
+          speaker: narrator
+          text: 等两人的口袋全都装满，贝拉便命令短杖变成一辆带翅膀的马车。车子要足够大，好把她、乌阿恩和所有获救的人一起送回拉尼利斯。
+        - id: ch05-b05
+          speaker: narrator
+          text: 第二天，贝拉和乌阿恩就在村里结了婚。他们盼了那么久，原本只求买一头小母牛和一只猪，建起自己的家。如今，他们买下了方圆几英里的土地。
+        - id: ch05-b06
+          speaker: narrator
+          text: 他们还送给每一位从格罗阿克手中获救的人一座小农场。那些人从此住在那里，幸福地生活，直到生命的最后一天。

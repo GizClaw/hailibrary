@@ -1,0 +1,323 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容而清醒，带一点克制的诙谐
+        timbre: 温厚清晰
+        pace: 舒缓有致
+        pitch: 中低
+    old_king:
+      display_name: 老国王
+      tts:
+        delivery: 慈爱而忧心，久别重逢时开怀爽朗
+        timbre: 苍老浑厚
+        pace: 中等偏缓
+        pitch: 低
+    boots:
+      display_name: 灰小子
+      tts:
+        delivery: 善良直率，害怕时也不失勇气
+        timbre: 年轻清朗
+        pace: 中等
+        pitch: 中等
+    raven:
+      display_name: 乌鸦
+      tts:
+        delivery: 虚弱却诚恳，说话简短清楚
+        timbre: 沙哑轻细
+        pace: 中等偏慢
+        pitch: 中高
+    salmon:
+      display_name: 鲑鱼
+      tts:
+        delivery: 急切恳求，许诺时真诚坚定
+        timbre: 清润柔和
+        pace: 中等
+        pitch: 中等
+    graylegs:
+      display_name: 灰腿狼
+      tts:
+        delivery: 干脆可靠，指点行动时沉着有力
+        timbre: 粗粝低沉
+        pace: 中等偏快
+        pitch: 低
+    princess:
+      display_name: 公主
+      tts:
+        delivery: 聪慧谨慎，面对巨人时柔声周旋
+        timbre: 年轻柔亮
+        pace: 中等
+        pitch: 中高
+    giant:
+      display_name: 巨人
+      tts:
+        delivery: 粗暴多疑，受奉承时又愚钝自得
+        timbre: 洪亮粗哑
+        pace: 中等偏慢
+        pitch: 低
+  chapters:
+    - id: ch01
+      title: 六位哥哥一去不返
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前有位国王，膝下有七个儿子。他爱他们爱得不得了，怎么也受不了七个儿子同时离开自己，总得有一个陪在身边。王子们长大后，六个哥哥要出门求亲，父王便把最小的灰小子留在宫中。他叮嘱哥哥们，也要替弟弟带一位公主回来。临行前，国王给六个儿子穿上世间难得一见的华服。那衣裳灿烂耀眼，隔得很远也能看见光芒。他还给每人配了一匹价值成百上千元的骏马。
+        - id: ch01-b02
+          speaker: narrator
+          text: 六兄弟走过许多宫殿，也见过许多公主，最后遇见一位国王的六个女儿。她们美得无与伦比，六兄弟一人向一位公主求婚，各自赢得了心上人的芳心，便一起踏上归途。可他们爱得神魂颠倒，早把替灰小子求亲的事忘光了。走了好长一段路，他们经过一面陡峭如墙的山坡，巨人的家就在那里。巨人走出门，一眼望见这一行人，便把六位王子和六位公主全变成石头。
+        - id: ch01-b03
+          speaker: narrator
+          text: 老国王在宫里等了又等，天天盼着路上出现儿子们的身影，可他们始终不回来。他等得越久，六兄弟离家的日子也越长。最后，他忧愁得不能自已，说自己这一生再也不知道什么叫快活，只能庆幸灰小子还在身边。
+        - id: ch01-b04
+          speaker: old_king
+          text: 要是连你也不在，我就活不下去了。失去你那些哥哥，已经叫我伤透了心。
+          emotion: sad
+        - id: ch01-b05
+          speaker: boots
+          text: 父王，我想去把他们找回来。请您答应我吧。
+        - id: ch01-b06
+          speaker: old_king
+          text: 不成！你去了，也会再不回来。
+        - id: ch01-b07
+          speaker: narrator
+          text: 可灰小子心意已决，非走不可。他一遍又一遍地恳求，父王实在拗不过，终于答应。六个哥哥和随从已经把马全骑走了，王宫里只剩下一匹衰老、瘦弱、几乎不中用的劣马。灰小子一点也不在意，翻身便骑了上去。
+        - id: ch01-b08
+          speaker: boots
+          text: 父王，再会。别担心，我一定回来，说不定还能把六个哥哥一起带回来。
+        - id: ch01-b09
+          speaker: narrator
+          text: 他走了一阵，看见一只乌鸦饿得卧在路上，连躲开的力气都没有。
+        - id: ch01-b10
+          speaker: raven
+          text: 好朋友，分我一点吃的吧。等你最危急的时候，我一定帮你。
+        - id: ch01-b11
+          speaker: boots
+          text: 我的食物不多，也想不出你能帮我什么。不过，你实在饿坏了，我分一点给你。
+        - id: ch01-b12
+          speaker: narrator
+          text: 灰小子从自己本就不多的食物里分出一点，给了乌鸦，这才继续赶路。又走一程，他来到一条小溪边，看见一条大鲑鱼搁浅在干地上。它不断扭动身子，拼命扑腾，却怎么也回不到水里。
+        - id: ch01-b13
+          speaker: salmon
+          text: 好朋友，推我回水里吧。等你最危急的时候，我一定帮你。
+        - id: ch01-b14
+          speaker: boots
+          text: 你未必能帮上我多大的忙。可让你躺在这里憋死，实在太可怜了。
+        - id: ch01-b15
+          speaker: narrator
+          text: 说完，他用力一推，把鲑鱼送回流动的溪水里。此后，灰小子又走了很远很远，迎面遇上一匹狼。那匹狼已经饿得肚皮贴地，连站起来的力气也没有，只能趴在路上一点点往前爬。
+        - id: ch01-b16
+          speaker: graylegs
+          text: 好朋友，把马给我吃吧。我饿得肋骨缝里都在灌风，整整两年没吃东西了。
+        - id: ch01-b17
+          speaker: boots
+          text: 那可不行。我已经把食物分给乌鸦，又救了鲑鱼，现在你还要吃我的马。马没了，我骑什么？
+        - id: ch01-b18
+          speaker: graylegs
+          text: 你可以骑在我背上。等你最危急的时候，我也会帮你。
+        - id: ch01-b19
+          speaker: boots
+          text: 我还是想不出你能帮多大的忙。不过你饿成这样，马就给你吧。
+        - id: ch01-b20
+          speaker: narrator
+          text: 狼吃掉马以后，灰小子把马嚼子套进它嘴里，又把马鞍安在它背上。肚里有了食物，灰腿狼一下变得强壮无比，驮着王子轻轻松松地飞奔起来。灰小子从来没有骑得这么快过。
+    - id: ch02
+      title: 巨人屋里的秘密
+      blocks:
+        - id: ch02-b01
+          speaker: graylegs
+          text: 再走一段，我就把巨人的家指给你看。
+        - id: ch02-b02
+          speaker: narrator
+          text: 他们很快来到山坡下。狼先指给灰小子看巨人的屋子，又让他看化作石头的六个哥哥和六位新娘。最后，狼指向远处的一扇门，那正是通往巨人屋里的入口。
+        - id: ch02-b03
+          speaker: graylegs
+          text: 你得从那扇门进去。
+        - id: ch02-b04
+          speaker: boots
+          text: 我不敢。巨人会杀了我。
+          emotion: fearful
+        - id: ch02-b05
+          speaker: graylegs
+          text: 别怕。屋里有位公主，她会告诉你怎样除掉巨人。留心听她的话，照着做。
+        - id: ch02-b06
+          speaker: narrator
+          text: 灰小子虽然怕得厉害，心里直打鼓，还是照狼的话走进屋里。那时巨人不在家。正如狼所说，其中一间房里坐着一位公主。灰小子有生以来，从没见过这样美丽的人。
+        - id: ch02-b07
+          speaker: princess
+          text: 愿上天保佑你！你从哪里来的？闯进这里准会送命。谁也除不掉这个巨人，他的心根本不在身体里。
+          emotion: fearful
+        - id: ch02-b08
+          speaker: boots
+          text: 来都来了，我总得试一试。屋外那六块石头就是我的哥哥，我要救他们，也会尽力把你救出去。
+        - id: ch02-b09
+          speaker: princess
+          text: 既然你非做不可，我们就想个办法。快躲到床底，仔细听我和他说话。千万躺稳，别发出声音。
+        - id: ch02-b10
+          speaker: narrator
+          text: 灰小子才藏好，巨人便进了门。
+        - id: ch02-b11
+          speaker: giant
+          text: 哈！屋里怎么有基督徒的血腥气？
+          emotion: angry
+        - id: ch02-b12
+          speaker: princess
+          text: 是有一点。刚才喜鹊叼来一根人骨，掉进烟囱里。我赶紧取了出来，可气味哪能立刻散掉呢？
+        - id: ch02-b13
+          speaker: narrator
+          text: 巨人听了这个解释，便不再追问血腥气的事。夜色渐渐降临，他和公主上床歇息。两人安静地躺了一阵，公主这才装作犹豫的样子，试探着开口。
+        - id: ch02-b14
+          speaker: princess
+          text: 有件事我特别想问，只怕不该开口。
+        - id: ch02-b15
+          speaker: giant
+          text: 什么事？
+        - id: ch02-b16
+          speaker: princess
+          text: 你的心不在身上，到底藏在哪里？
+        - id: ch02-b17
+          speaker: giant
+          text: 这事不该问。不过你非知道不可，我就告诉你。它藏在门槛底下。
+        - id: ch02-b18
+          speaker: boots
+          text: 哈，那我们很快就能找到它了。
+        - id: ch02-b19
+          speaker: narrator
+          text: 第二天天还没亮透，巨人便早早起身，大步走进树林。他前脚刚离开屋子，灰小子和公主就动手挖开门槛，寻找他的心。可是，两人越挖越深，找得越仔细，反倒越发找不着。
+        - id: ch02-b20
+          speaker: princess
+          text: 他骗过我们了。我们再试一次。
+    - id: ch03
+      title: 公主三问藏心处
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 公主把门槛重新安回原处，又采来能找到的最美丽的花，把门槛铺得满满的。巨人快回来时，灰小子再次钻到床底。他才刚藏稳，巨人便进了屋，鼻子立刻呼哧呼哧地嗅起来。
+        - id: ch03-b02
+          speaker: giant
+          text: 我的眼睛，我的胳膊腿儿啊！这里怎么又有基督徒的血腥气？
+        - id: ch03-b03
+          speaker: princess
+          text: 还是那只喜鹊。它叼来一根人骨，掉进烟囱，我已经尽快取走了。你闻到的多半就是那股气味。
+        - id: ch03-b04
+          speaker: narrator
+          text: 巨人闭上嘴，不再追究那股气味。过了一会儿，他低头看见门槛周围铺满了鲜花，便立刻问这些花是谁放的，又为什么要这样做。
+        - id: ch03-b05
+          speaker: giant
+          text: 谁把花铺在这里？这是什么意思？
+        - id: ch03-b06
+          speaker: princess
+          text: 当然是我。我太喜欢你了，知道你的心在门槛底下，怎么忍得住不给它铺些花呢？
+        - id: ch03-b07
+          speaker: giant
+          text: 真没想到。可我的心根本不在那里。
+        - id: ch03-b08
+          speaker: narrator
+          text: 当晚，公主又问他的心究竟藏在何处。
+        - id: ch03-b09
+          speaker: giant
+          text: 你非知道不可的话，我就告诉你。它在那边靠墙的柜子里。
+        - id: ch03-b10
+          speaker: narrator
+          text: 灰小子和公主听了，心里都以为这回总算有了答案。第二天一早，巨人又大步走进树林。他刚一离开，两人便扑到柜子前，把里面翻了个遍。可是，他们越找越仔细，能找到的东西反而越少，巨人的心依旧无影无踪。
+        - id: ch03-b11
+          speaker: princess
+          text: 好吧，我们最后再试他一次。
+        - id: ch03-b12
+          speaker: narrator
+          text: 她用鲜花和花环把柜子装点起来。巨人快回来时，灰小子照旧躲在床底。巨人一进屋，又闻到了基督徒的血腥气。公主仍说不久前有只喜鹊把人骨掉进烟囱，自己已经尽快取出去，可味道还没有散。巨人听完不再追问，过了一会儿，却看见了花团锦簇的柜子。
+        - id: ch03-b13
+          speaker: giant
+          text: 这些蠢玩意儿是谁弄的？到底什么意思？
+        - id: ch03-b14
+          speaker: princess
+          text: 是我呀。我这么喜欢你，知道你的心藏在柜子里，当然要把这里装点得漂亮些。
+        - id: ch03-b15
+          speaker: giant
+          text: 你怎么傻到连这种话也信？
+        - id: ch03-b16
+          speaker: princess
+          text: 这是你亲口说的，我怎么会不信？
+        - id: ch03-b17
+          speaker: giant
+          text: 你真是只呆头鹅。我真正藏心的地方，你永远也到不了。
+        - id: ch03-b18
+          speaker: princess
+          text: 就算到不了，能知道它究竟在哪里，我也会高兴极了。
+        - id: ch03-b19
+          speaker: narrator
+          text: 可怜的巨人再也招架不住，只好吐露实情。
+        - id: ch03-b20
+          speaker: giant
+          text: 很远很远的地方有一座湖，湖中有座岛，岛上有座教堂。教堂里有口井，井里游着一只鸭子。鸭子肚里有一枚蛋，我的心就在蛋里，我的小宝贝儿！
+    - id: ch04
+      title: 湖心岛上的蛋
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 第二天天色蒙蒙亮，巨人又走进树林。灰小子也要动身了。
+        - id: ch04-b02
+          speaker: boots
+          text: 我得去找那颗心，只是不知道路该怎么走。
+        - id: ch04-b03
+          speaker: narrator
+          text: 他与公主依依惜别了好久。走出巨人的大门，灰腿狼已经等在那里。灰小子把屋里发生的一切讲给它听，又说自己想去找教堂里的井，却不知道路。狼叫他跳上背，说很快就能找到地方，随即飞奔而去。风在他们身后呼啸，他们越过一道道树篱和田野，翻过一座座山丘和谷地。这样走了好多好多天，终于来到湖边。
+        - id: ch04-b04
+          speaker: narrator
+          text: 灰小子望着湖水，不知道怎样才能过去。狼叫他别怕，只管坐稳，便驮着他跃入水中，一路游到湖心岛上。他们很快找到了教堂，可教堂的钥匙高高挂在塔顶。灰小子仰头望着，一时又不知道该怎样取下来。
+        - id: ch04-b05
+          speaker: graylegs
+          text: 这回该叫乌鸦来帮忙。
+        - id: ch04-b06
+          speaker: narrator
+          text: 灰小子一声呼唤，乌鸦转眼便飞来，从塔顶取下钥匙。王子这才走进教堂，来到那口井边。果然有只鸭子在水面来来回回地游着，和巨人说的一模一样。灰小子站在井边，耐心地哄了又哄，终于把鸭子引到身旁，一把抓在手里。可他刚把鸭子提离水面，鸭子便把肚里的蛋落进井底。
+        - id: ch04-b07
+          speaker: narrator
+          text: 灰小子急得没了主意。
+        - id: ch04-b08
+          speaker: graylegs
+          text: 现在当然该叫鲑鱼来帮忙。
+        - id: ch04-b09
+          speaker: narrator
+          text: 灰小子呼唤鲑鱼。鲑鱼来了，潜到井底，把那枚蛋捞了上来。
+        - id: ch04-b10
+          speaker: graylegs
+          text: 捏一捏这枚蛋。
+        - id: ch04-b11
+          speaker: narrator
+          text: 灰小子听从狼的指点，握住那枚藏着巨人心脏的蛋。手指才一用力，远在树林那边的巨人便疼得惨叫起来。
+        - id: ch04-b12
+          speaker: graylegs
+          text: 再捏一次。
+        - id: ch04-b13
+          speaker: narrator
+          text: 王子照着狼的话，又捏了一下。巨人的惨叫立刻变得更加凄厉。他再也受不住了，只得苦苦哀求王子饶命，说话的声音竟忽然变得温柔无比。他许诺，无论王子提出什么要求，自己全都答应，只求王子别把他的心捏成两半。
+        - id: ch04-b14
+          speaker: graylegs
+          text: 告诉他，只要让你的六个哥哥和六位新娘恢复原样，你就饶他一命。
+        - id: ch04-b15
+          speaker: narrator
+          text: 灰小子把狼教的话转告巨人。巨人一听还有活命的机会，立刻答应。他使出法力，让门外那十二尊石像重新有了生命。灰小子的六个哥哥恢复成了王子，他们身边的六尊石像也恢复成了国王的女儿。
+        - id: ch04-b16
+          speaker: graylegs
+          text: 现在，把蛋捏碎。
+        - id: ch04-b17
+          speaker: narrator
+          text: 巨人刚履行完承诺，灰小子便听从灰腿狼最后的指点，双手握紧那枚蛋，一把捏得粉碎。藏在蛋里的心随之破裂，巨人的身体也在同一瞬间炸开了。
+    - id: ch05
+      title: 七位王子回家
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 除掉巨人以后，灰小子又骑上灰腿狼，沿着来路赶回巨人的家。六个哥哥和六位新娘都活生生、欢欢喜喜地站在那里，再也不是冰冷的石像。灰小子随即走进山腹，把帮助自己的公主接出来，认她做了自己的新娘。随后，七兄弟带着七位公主一起启程，回到父王的宫殿。
+        - id: ch05-b02
+          speaker: narrator
+          text: 你大概想象得出，老国王看见七个儿子全都平安归来，而且每人身边都有一位新娘，是多么欢喜。他把七位公主一一看过，觉得灰小子带回来的姑娘尤其美丽，于是当众作出了安排。
+        - id: ch05-b03
+          speaker: old_king
+          text: 到底还是灰小子的新娘最美。就让他坐在宴席的上首，让新娘陪在他身旁。
+          emotion: happy
+        - id: ch05-b04
+          speaker: narrator
+          text: 国王立刻派人四处传信，邀请所有人前来，摆下一场盛大的婚宴。宫里欢声雷动，笑语久久不息。至于宴席什么时候结束，那可没人知道。要是他们到现在还没吃完，准还坐在那里继续欢宴呢。

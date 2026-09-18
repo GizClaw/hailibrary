@@ -1,0 +1,459 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and storylike
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    king_archidej:
+      display_name: King Archidej
+      tts:
+        delivery: proud and commanding
+        timbre: rich and resonant
+        pace: deliberate
+        pitch: medium-low
+    eldest_merchant:
+      display_name: Eldest Merchant
+      tts:
+        delivery: respectful and plainspoken
+        timbre: weathered and clear
+        pace: steady
+        pitch: medium-low
+    first_follower:
+      display_name: First Royal Follower
+      tts:
+        delivery: dutiful and direct
+        timbre: clear and sturdy
+        pace: steady
+        pitch: medium
+    second_follower:
+      display_name: Second Royal Follower
+      tts:
+        delivery: dutiful and direct
+        timbre: light and clear
+        pace: steady
+        pitch: medium-high
+    third_follower:
+      display_name: Third Royal Follower
+      tts:
+        delivery: dutiful and direct
+        timbre: firm and bright
+        pace: steady
+        pitch: medium
+    simon_first:
+      display_name: Simon the First
+      tts:
+        delivery: honest and confident
+        timbre: broad and earthy
+        pace: measured
+        pitch: low
+    simon_second:
+      display_name: Simon the Second
+      tts:
+        delivery: keen and matter-of-fact
+        timbre: clear and alert
+        pace: steady
+        pitch: medium
+    simon_third:
+      display_name: Simon the Third
+      tts:
+        delivery: cheerful and practical
+        timbre: warm and sturdy
+        pace: lively
+        pitch: medium
+    simon_fourth:
+      display_name: Simon the Fourth
+      tts:
+        delivery: modest and assured
+        timbre: deep and strong
+        pace: measured
+        pitch: low
+    simon_fifth:
+      display_name: Simon the Fifth
+      tts:
+        delivery: capable and direct
+        timbre: metallic and firm
+        pace: steady
+        pitch: medium-low
+    simon_sixth:
+      display_name: Simon the Sixth
+      tts:
+        delivery: quick and unassuming
+        timbre: light and nimble
+        pace: lively
+        pitch: medium-high
+    simon_seventh:
+      display_name: Simon the Seventh
+      tts:
+        delivery: clever and persuasive
+        timbre: lean and smooth
+        pace: lively
+        pitch: medium
+    court_fool:
+      display_name: Court Fool
+      tts:
+        delivery: teasing and shrewd
+        timbre: bright and wiry
+        pace: lively
+        pitch: medium-high
+    watchman:
+      display_name: Island Watchman
+      tts:
+        delivery: vigilant and forceful
+        timbre: ringing and rough
+        pace: brisk
+        pitch: medium-low
+    princess_helena:
+      display_name: Princess Helena
+      tts:
+        delivery: poised and spirited
+        timbre: luminous and clear
+        pace: graceful
+        pitch: medium-high
+    king_busan:
+      display_name: King of Busan
+      tts:
+        delivery: proud and severe
+        timbre: deep and imposing
+        pace: deliberate
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The King and the Seven Brothers
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Far away, beyond many countries, seas, and rivers, there stood a splendid city ruled by King Archidej. He was good, rich, and handsome. He commanded a great army, owned forty times forty cities, and had ten palaces in every city. Their doors were silver, their roofs were gold, and their windows were crystal. His twelve counsellors were the wisest men in the land, each as learned as a whole college, and they always told him the truth.
+        - id: ch01-b02
+          speaker: narrator
+          text: The king had everything he could want, yet nothing pleased him. He could not find a bride who suited him. Then a great ship entered his harbor, and merchants came ashore. They had seen distant lands, so the king ordered them brought before him.
+        - id: ch01-b03
+          speaker: king_archidej
+          text: You have traveled far and seen many wonders, so answer me truthfully. Have you heard of an emperor's, king's, or prince's daughter who is as clever and handsome as I am, and worthy to become my queen?
+        - id: ch01-b04
+          speaker: narrator
+          text: The merchants thought for a while. At last, the eldest spoke.
+        - id: ch01-b05
+          speaker: eldest_merchant
+          text: Across many seas, on the Island of Busan, lives a mighty king. His daughter, Princess Helena, is surely no less beautiful than your Majesty. She is so clever that the wisest old man cannot solve her riddles.
+        - id: ch01-b06
+          speaker: king_archidej
+          text: How far away is this island? Which road leads there?
+        - id: ch01-b07
+          speaker: eldest_merchant
+          text: It is a ten-year journey, and we do not know the way. Even if we did, the princess could never be your bride.
+        - id: ch01-b08
+          speaker: king_archidej
+          text: How dare you tell me that!
+          emotion: angry
+        - id: ch01-b09
+          speaker: eldest_merchant
+          text: Forgive us, your Majesty, but think. An envoy would need ten years to reach her and ten years to return. After twenty years, would the princess not be old, with all her beauty gone?
+        - id: ch01-b10
+          speaker: narrator
+          text: The king considered this seriously. At last he thanked the merchants, allowed them to trade anywhere in his country without paying duties, and sent them away. Yet after they left, he remained deep in thought. He felt puzzled and anxious, so he decided that a ride through the country might clear his mind. He summoned his huntsmen and falconers. The huntsmen sounded their horns, the falconers carried hawks upon their wrists, and the whole party rode until they reached a green hedge. Beyond it lay a field of maize stretching as far as they could see. Its yellow ears moved gently back and forth like a rippling sea of gold.
+        - id: ch01-b11
+          speaker: king_archidej
+          text: Whoever planted this field has worked well. If every field in my kingdom were cared for like this, my people would have more bread than they could eat. Find out who owns it.
+        - id: ch01-b12
+          speaker: narrator
+          text: Every one of his followers rushed away at once, eager to obey. They soon found a neat farmhouse beside the field. Seven peasants sat in front of it, taking their midday meal of rye bread and water. Each brother wore a red shirt edged with gold braid. Their faces were so much alike that a stranger could scarcely tell one Simon from another.
+        - id: ch01-b13
+          speakers: [first_follower, second_follower, third_follower]
+          ensemble: chorus
+          text: Who owns this field of golden maize?
+        - id: ch01-b14
+          speakers: [simon_first, simon_second, simon_third, simon_fourth]
+          ensemble: chorus
+          text: The field belongs to us.
+        - id: ch01-b15
+          speaker: first_follower
+          text: And who are you?
+        - id: ch01-b16
+          speakers: [simon_first, simon_second, simon_third, simon_fourth]
+          ensemble: chorus
+          text: We are King Archidej's laborers.
+        - id: ch01-b17
+          speaker: narrator
+          text: The followers carried both answers back to Archidej. The king immediately ordered all seven owners of the field to appear before him. When he asked them who they were, the eldest brother stepped forward and bowed low.
+        - id: ch01-b18
+          speaker: simon_first
+          text: King Archidej, we are your laborers, all born to the same father and mother. Every one of us is named Simon. Our father taught us to be true to our king, to work the earth, and to treat our neighbors kindly. He also taught each of us a useful trade. But he warned us never to neglect Mother Earth, for she would repay our work generously.
+        - id: ch01-b19
+          speaker: king_archidej
+          text: You have done well and raised a golden harvest. Now tell me what special trade each of you learned.
+        - id: ch01-b20
+          speaker: simon_first
+          text: My trade is difficult. Give me workers and materials, and I will build you a great white pillar that rises far above the clouds.
+        - id: ch01-b21
+          speaker: king_archidej
+          text: Very good. Simon the Second, what can you do?
+        - id: ch01-b22
+          speaker: simon_second
+          text: Once my brother's pillar is built, I can climb above the clouds and see what is happening in every country under the sun.
+        - id: ch01-b23
+          speaker: king_archidej
+          text: Good. What about Simon the Third?
+        - id: ch01-b24
+          speaker: simon_third
+          text: I can build a plain little ship in no time. It may not look grand enough for a king, but when other ships need a year, mine needs one day. When they need ten years, mine needs one week.
+        - id: ch01-b25
+          speaker: king_archidej
+          text: Good. And what did Simon the Fourth learn?
+        - id: ch01-b26
+          speaker: simon_fourth
+          text: If my brother builds you a ship, let me sail in it. When an enemy chases us, I can take hold of the prow and sink the ship to the bottom of the sea. After the enemy leaves, I can bring it back to the surface.
+        - id: ch01-b27
+          speaker: king_archidej
+          text: Very clever. What does Simon the Fifth do?
+        - id: ch01-b28
+          speaker: simon_fifth
+          text: Mine is only smith's work. Give me a forge, and I will make a crossbow whose bolt strikes anything the eye can see, whether it is an eagle in the sky or a beast in the forest.
+        - id: ch01-b29
+          speaker: king_archidej
+          text: That could be useful. Simon the Sixth, tell me your trade.
+        - id: ch01-b30
+          speaker: simon_sixth
+          text: Mine seems almost too simple to mention. Whatever my brother shoots, I can catch faster than any dog. If it falls into deep water, I can fetch it. If it falls in a dark forest, I can find it at midnight.
+        - id: ch01-b31
+          speaker: narrator
+          text: The king listened closely to every answer. He liked the brothers' honest manner, and the strange trades of the first six pleased him more and more.
+        - id: ch01-b32
+          speaker: king_archidej
+          text: Your father taught you well. Come to the city and show me what you can do. I need such men near me, and when harvest comes, I will send you home with royal gifts.
+        - id: ch01-b33
+          speakers: [simon_first, simon_second, simon_third, simon_fourth]
+          ensemble: chorus
+          text: We will do as the king commands.
+        - id: ch01-b34
+          speaker: narrator
+          text: Then the king remembered the seventh brother.
+        - id: ch01-b35
+          speaker: king_archidej
+          text: Why have you said nothing? What is your trade?
+        - id: ch01-b36
+          speaker: simon_seventh
+          text: I have no proper trade, your Majesty. I never managed to learn one. I can give a kind of performance, but no one may watch me do it, not even the king. And I doubt you would like it.
+        - id: ch01-b37
+          speaker: king_archidej
+          text: No more excuses. What can you do?
+        - id: ch01-b38
+          speaker: simon_seventh
+          text: First give me your royal word that you will not kill me after I tell you.
+        - id: ch01-b39
+          speaker: king_archidej
+          text: You have my royal word.
+        - id: ch01-b40
+          speaker: narrator
+          text: The seventh Simon stepped back and cleared his throat.
+        - id: ch01-b41
+          speaker: simon_seventh
+          text: A man who follows my trade in your kingdom usually loses his life. The one thing I do well is steal, then hide even the smallest scrap I have taken. No vault can keep me out, even if its lock is enchanted.
+        - id: ch01-b42
+          speaker: king_archidej
+          text: I will not pardon you, you rascal! I will lock you in my deepest dungeon with bread and water until you forget this trade. Better still, perhaps I should put you to death at once!
+          emotion: angry
+        - id: ch01-b43
+          speaker: simon_seventh
+          text: Do not kill me, your Majesty. If I were truly wicked, I could have robbed your treasury, bribed your judges, and built myself a marble palace. I know how to steal, but I do not steal. You asked about my trade, and killing me would break your royal word.
+        - id: ch01-b44
+          speaker: king_archidej
+          text: I will keep my word and spare your life. But you will go straight to a dark dungeon. Guards, take him away! The other six will come with me and enjoy my favor.
+        - id: ch01-b45
+          speaker: narrator
+          text: The first six Simons followed the king toward the city. Guards seized the seventh, fastened chains around him, and carried him to prison. There they shut him in a dark cell and gave him nothing to eat but bread, with only water to drink.
+
+    - id: ch02
+      title: The Brothers Show Their Trades
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The next day, the king gave the first Simon carpenters, masons, smiths, laborers, and all the materials they needed. Simon built a great white pillar that climbed through the clouds as high as the nearest stars, though other stars were higher still.
+        - id: ch02-b02
+          speaker: narrator
+          text: When the pillar was done, the second Simon climbed all the way to its top. From high above the clouds, he could see and hear what was happening throughout the whole world. He came down with one marvelous report after another. In one country, a king was leading his army against another king, and Simon knew which side was likely to win. Somewhere else, a nation was celebrating. In a third place, people were dying from hunger. Wherever Simon turned his eyes and ears, he learned what was happening. Not the smallest event on earth remained hidden from him.
+        - id: ch02-b03
+          speaker: narrator
+          text: Next came the third Simon's turn. He stretched out his arms once, then twice, then a third time. At once, his wonder-ship stood ready. The king gave a signal, and the vessel was launched into the sea. It rode proudly and safely upon the waves, light as a bird. Ordinary ships carried ropes in their rigging, but this ship carried shining wires. Musicians touched those wires with fiddle bows, and lovely music floated over the water as the vessel sailed.
+        - id: ch02-b04
+          speaker: narrator
+          text: The fourth Simon waited until the ship was sailing before the watching court. Then he reached out one powerful hand and gripped the prow. In a moment, the entire vessel disappeared. It had sunk to the bottom of the sea. The king and his people waited for a whole hour. At last the wonder-ship rose safely to the surface, lifted by Simon's left hand. In his right hand he held an enormous fish that he had brought from the deepest water for the royal table.
+        - id: ch02-b05
+          speaker: narrator
+          text: While the ship was being tested, the fifth Simon had built his forge and gone to work upon the iron. By the time the king returned from the harbor, a magic crossbow was waiting for him. Archidej immediately led everyone into an open field to see what it could do. He searched the sky until he found an eagle flying high toward the sun. It was so far away that it looked no larger than a tiny speck.
+        - id: ch02-b06
+          speaker: king_archidej
+          text: Shoot that bird, and I will reward you.
+        - id: ch02-b07
+          speaker: narrator
+          text: The fifth Simon smiled, aimed, and fired. The eagle fell. Before it touched the earth, the sixth Simon raced forward with a dish, caught it, and carried it to the king.
+        - id: ch02-b08
+          speaker: king_archidej
+          text: Thank you, brave fellows. Each of you truly is a master of his trade, and you will be richly rewarded. Now go and have your dinner.
+        - id: ch02-b09
+          speaker: narrator
+          text: The six Simons bowed and went to their meal. They had scarcely tasted it when a royal messenger arrived and said the king wished to see them again. They left the table without delay. This time, they found Archidej surrounded by the whole court and all his chief men of state.
+        - id: ch02-b10
+          speaker: king_archidej
+          text: Simon the Second, climb your pillar and look across the seas. Find the Island of Busan and its beautiful Princess Helena. See and hear all you can.
+        - id: ch02-b11
+          speaker: narrator
+          text: The second Simon ran from the hall and climbed the great white pillar as quickly as he could. At the top, he looked far across the world and listened in every direction. Once he had found the distant island and learned what was happening there, he slid all the way down to bring the king his report.
+        - id: ch02-b12
+          speaker: simon_second
+          text: I saw the Island of Busan, sire. Its king is mighty, proud, harsh, and cruel. He says no king or prince is worthy of his daughter. If anyone asks to marry her, he will declare war and destroy that man's kingdom.
+        - id: ch02-b13
+          speaker: king_archidej
+          text: How large is his army, and how far away is his land?
+        - id: ch02-b14
+          speaker: simon_second
+          text: In fair weather, the voyage would take nearly ten years. In storms, perhaps twelve. His army has one hundred thousand men-at-arms and one hundred thousand knights. His bodyguard and crossbowmen add about one hundred thousand more. He also keeps chosen heroes for dangers that demand special courage.
+        - id: ch02-b15
+          speaker: narrator
+          text: The king sat thinking for a long time. Then he turned to his nobles, courtiers, and counsellors.
+        - id: ch02-b16
+          speaker: king_archidej
+          text: I am determined to marry Princess Helena. Tell me how it can be done.
+        - id: ch02-b17
+          speaker: narrator
+          text: The nobles, courtiers, and counsellors had no answer. Though they were supposed to be the wisest men in the kingdom, each one tried to hide behind the man beside him. At last, the third Simon stepped forward and asked permission to speak.
+        - id: ch02-b18
+          speaker: simon_third
+          text: Forgive me for offering advice, your Majesty. My ship can reach Busan in a week instead of ten years. But your council must decide what happens when we arrive. Will you win the princess peacefully, or by war?
+        - id: ch02-b19
+          speaker: narrator
+          text: The wise men still said nothing. The king frowned. Before he could scold them, the Court Fool pushed through the crowd.
+        - id: ch02-b20
+          speaker: court_fool
+          text: Why are all these clever people so puzzled? Send the seventh Simon. He can steal the princess quickly enough. Then let her father work out how to bring his army here when the journey takes ten years. What do you say to that?
+        - id: ch02-b21
+          speaker: king_archidej
+          text: That is an excellent plan, and I will reward you for it. Guards, bring the seventh Simon here at once!
+        - id: ch02-b22
+          speaker: narrator
+          text: The guards hurried to the dungeon, and within a few minutes the youngest Simon stood before the throne. After his time on bread and water, he looked pale and hungry. Archidej told him what must be done. The king also explained that stealing for your own profit was very wrong, but stealing for the good of king and country was no wrong at all. The seventh Simon heard this curious lesson and only nodded his head.
+        - id: ch02-b23
+          speaker: king_archidej
+          text: Answer honestly. Can you steal Princess Helena?
+        - id: ch02-b24
+          speaker: simon_seventh
+          text: Why not? It should be easy. Load my brother's ship with rich cloth, brocade, Persian carpets, pearls, and jewels. Send me with my four middle brothers, and keep the other two here as hostages.
+        - id: ch02-b25
+          speaker: narrator
+          text: At the thought that Helena might soon be his, the king's heart filled with longing. He ordered everything done exactly as Simon asked. Servants hurried in every direction. They carried rich cloth, brocades, Persian carpets, pearls, and jewels aboard the wonder-ship until it was fully laden and ready. The five chosen brothers took leave of Archidej and went aboard. They had hardly raised sail before the ship was almost beyond sight. It cut through the sea as swiftly as a falcon cuts through the air. Exactly one week after leaving home, the brothers sighted the Island of Busan.
+
+    - id: ch03
+      title: The Voyage to Busan
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The coast was strongly guarded. A watchman called from a high tower.
+        - id: ch03-b02
+          speaker: watchman
+          text: Stop and drop anchor! Who are you? Where have you come from, and what do you want?
+        - id: ch03-b03
+          speaker: simon_seventh
+          text: We come in peace from the land of the great and good King Archidej. We carry foreign goods to show your king and princess, including rich brocades, carpets, and precious jewels. We hope to buy, sell, and trade.
+        - id: ch03-b04
+          speaker: narrator
+          text: The brothers lowered a small boat and placed some of their most valuable goods inside. They rowed to shore, carried the treasures through the city, and made their way to the palace. Princess Helena was sitting in a rose-red room when she saw the five strangers coming near. She called her nurse and the other women around her, then sent them to discover who the men were, where they came from, and what business had brought them to Busan.
+        - id: ch03-b05
+          speaker: simon_seventh
+          text: We are merchants from wise King Archidej's country. We have brought many goods for sale. If your king welcomes us and finds our wares fit for his household, we will be honored.
+        - id: ch03-b06
+          speaker: narrator
+          text: The nurse carried Simon's answer back to Helena. As soon as she heard it, the princess ordered the merchants brought into the red room. The brothers entered, bowed respectfully, and began to open their bundles. They spread out splendid velvet and brocade, then lifted the lids of cases filled with pearls and precious stones. No one on the island had ever seen such beautiful things. The nurse and waiting women stood bewildered, whispering that nothing could compare with them. Helena was just as amazed. Her eyes never tired of looking, and her hands never tired of stroking the soft cloth or lifting the sparkling jewels toward the light.
+        - id: ch03-b07
+          speaker: simon_seventh
+          text: Fairest princess, please give these silks and velvets to your maids, and let your women decorate their headdresses with the jewels. These are only common samples. On our ship we have many-colored tapestries, magnificent stones, and long ropes of pearls. We brought no more ashore because we did not yet know your taste. If you honor our ship with a visit, you may choose whatever pleases you.
+        - id: ch03-b08
+          speaker: narrator
+          text: Helena liked this speech. She hurried to her father.
+        - id: ch03-b09
+          speaker: princess_helena
+          text: Dear father, merchants have arrived with the most wonderful goods. Please let me visit their ship and choose what I like.
+        - id: ch03-b10
+          speaker: narrator
+          text: The King of Busan did not answer quickly. He thought and thought, frowned deeply, and rubbed his ear as he considered the danger. At last, he gave his consent. Still, he would not allow Helena to visit an unknown ship without protection. He ordered his royal yacht prepared, with one hundred crossbows, one hundred knights, and one thousand soldiers to guard the princess.
+        - id: ch03-b11
+          speaker: narrator
+          text: The royal yacht sailed from shore with Helena and her great escort. When it reached the wonder-ship, the five Simons came aboard to receive the princess. They led her across a crystal plank from one vessel to the other, while her nurse and women followed close behind. The seventh Simon brought out his goods and spread them everywhere. For each treasure, he had a curious and interesting tale. Helena became so absorbed in looking and listening that she forgot her father, her escort, and the island itself. She did not see the fourth Simon move to the bow and seize the prow. Without warning, the entire wonder-ship vanished from the surface and raced away through the depths of the sea.
+        - id: ch03-b12
+          speaker: narrator
+          text: The crew aboard the royal yacht shouted at the empty water, but no answer came. The knights stood still with terror. The soldiers were struck silent and hung their heads, for there was nothing they could do against a ship beneath the sea. At last, the yacht turned back toward the island. The guards returned to the palace and told the King of Busan that his daughter and the wonder-ship had vanished together.
+        - id: ch03-b13
+          speaker: king_busan
+          text: Oh, light of my eyes! My pride has punished me. I thought no one was good enough to marry you, and now you are lost beneath the sea. You have left me alone! As for those who watched it happen, put them all in chains. Lock them away while I decide how they should die!
+          emotion: sad
+        - id: ch03-b14
+          speaker: narrator
+          text: The King of Busan went on weeping, raging, and threatening everyone around him. All the while, the wonder-ship swam below the waves as easily as any fish. When the fourth Simon knew that the island lay far behind them and no pursuer could see them, he guided the ship upward. It broke through the surface into daylight. At that very moment, Helena finally remembered how long she had been admiring the merchants' treasures.
+        - id: ch03-b15
+          speaker: princess_helena
+          text: Nurse, we have spent far too long looking at these wonders. I hope my father is not angry about the delay.
+        - id: ch03-b16
+          speaker: narrator
+          text: Helena tore herself away from the jewels and hurried onto the deck. She searched the horizon, but the royal yacht was nowhere to be seen. Even the Island of Busan had vanished. She wrung her hands and beat her breast in distress. Then, before the brothers could stop her, she changed herself into a white swan and flew away over the sea. The fifth Simon took up his magic crossbow, aimed, and shot the fleeing swan. As it fell, the sixth Simon rushed forward and caught it before it could touch the water.
+        - id: ch03-b17
+          speaker: narrator
+          text: At once, the swan became a silver fish. The sixth Simon caught that too. The fish changed into a black mouse and raced across the deck toward a hole. Simon sprang faster than any cat and seized it. The little mouse changed back into the beautiful Princess Helena.
+
+    - id: ch04
+      title: Helena Meets King Archidej
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Early one morning, King Archidej sat at his window and gazed thoughtfully over the sea. His heart was heavy. He would neither eat nor drink while the five brothers were away. Every thought was of Princess Helena, whose beauty seemed to him as wonderful and distant as a dream. At last he noticed something white moving toward the shore. He leaned closer to the window. Was it a white gull flying low above the water, or was it the sail of a ship?
+        - id: ch04-b02
+          speaker: narrator
+          text: It was no gull. The wonder-ship was flying toward the harbor with its sails billowing. Bright flags waved from its masts, and fiddlers played their bows across the wire rigging until music rang over the sea. The ship reached the pier, its anchor splashed down, and the crew laid out the crystal plank. Then the lovely Helena stepped across. To Archidej, she shone like the sun itself, and the stars of heaven seemed to sparkle in her eyes.
+        - id: ch04-b03
+          speaker: king_archidej
+          text: Hurry! We must go and meet her. Sound the bugles and ring the bells for joy!
+          emotion: happy
+        - id: ch04-b04
+          speaker: narrator
+          text: At the king's cry, the whole court swarmed into the halls. Courtiers and servants ran to prepare a royal welcome. They spread golden carpets along Helena's path and threw the great palace gates wide open. Archidej did not wait upon his throne. He went out himself to meet her, took her by the hand, and led her into the royal rooms.
+        - id: ch04-b05
+          speaker: king_archidej
+          text: Madam, I had heard of your beauty, but I never dreamed you could be so lovely. Even so, I will not hold you here against your will. If you wish to go home, my wonder-ship will carry you back to your father. But if you choose to remain, stay as my wife and rule me and my country as queen.
+        - id: ch04-b06
+          speaker: narrator
+          text: There is little more to say. Helena listened kindly to the king's courtship, and their betrothal was celebrated with great ceremony and rejoicing.
+        - id: ch04-b07
+          speaker: narrator
+          text: Then the Simons sailed back to Busan with a letter from Helena inviting her father to the wedding. They arrived just as the knights and soldiers who had escorted her were being led away to die.
+        - id: ch04-b08
+          speaker: simon_seventh
+          text: Stop! I have brought a letter from Princess Helena!
+        - id: ch04-b09
+          speaker: narrator
+          text: The King of Busan stopped the execution and took the letter. He read his daughter's words once, then read them again and again. At once he ordered the knights and soldiers released from their chains. He welcomed the Simons as King Archidej's ambassadors, gave them food and lodging, and treated them with honor. He also sent his blessing to Helena. Yet for all the brothers' urging, he could not be persuaded to travel back with them or appear at the wedding.
+        - id: ch04-b10
+          speaker: narrator
+          text: When the wonder-ship returned, King Archidej and Princess Helena were delighted by the news.
+
+    - id: ch05
+      title: The Brothers' Reward
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: King Archidej summoned all seven Simons.
+        - id: ch05-b02
+          speaker: king_archidej
+          text: A thousand thanks, brave fellows. Take as much gold, silver, and as many precious stones as you want from my treasury. Ask for anything else, and it will be yours. Would you like to become nobles, or govern cities? You need only speak.
+        - id: ch05-b03
+          speaker: narrator
+          text: The eldest Simon bowed.
+        - id: ch05-b04
+          speaker: simon_first
+          text: We are plain people, your Majesty, and simple work suits us best. We would make poor nobles and governors. We do not need gold, either. Our fields feed us and give us all the money we require. If you truly wish to reward us, free our land from taxes and pardon the seventh Simon. He is not the first thief by trade, and he will not be the last.
+        - id: ch05-b05
+          speaker: king_archidej
+          text: So be it. Your land will be free from every tax, and Simon the Seventh is pardoned.
+        - id: ch05-b06
+          speaker: narrator
+          text: The king gave each brother a cup of wine and invited them all to the wedding. And what a feast it was!

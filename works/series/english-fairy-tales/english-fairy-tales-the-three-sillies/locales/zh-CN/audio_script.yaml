@@ -1,0 +1,198 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容讲述古老童话，诙谐中渐渐透出紧张
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中
+    gentleman:
+      display_name: 绅士
+      tts:
+        delivery: 明快爽直，见到荒唐事便忍俊不禁
+        timbre: 清朗的年轻男声
+        pace: 中等
+        pitch: 中
+    daughter:
+      display_name: 农夫的女儿
+      tts:
+        delivery: 天真认真，容易把小事想得万分可怕
+        timbre: 清脆的年轻女声
+        pace: 中等
+        pitch: 中高
+    mother:
+      display_name: 母亲
+      tts:
+        delivery: 朴实直率，情绪来得又快又真
+        timbre: 结实的成熟女声
+        pace: 中等
+        pitch: 中
+    father:
+      display_name: 父亲
+      tts:
+        delivery: 粗朴实在，很容易跟着家人着急
+        timbre: 厚实的中年男声
+        pace: 中等偏慢
+        pitch: 中低
+    cottage_woman:
+      display_name: 茅屋女人
+      tts:
+        delivery: 固执自信，把荒唐办法说得理所当然
+        timbre: 略显粗哑的女声
+        pace: 中等偏快
+        pitch: 中
+    traveller:
+      display_name: 旅客
+      tts:
+        delivery: 随和诚恳，为穿裤子犯愁时气喘吁吁
+        timbre: 亲切的成年男声
+        pace: 中等
+        pitch: 中
+    villager_1:
+      display_name: 村民甲
+      tts:
+        delivery: 焦急而笃定，认准的事不肯回头
+        timbre: 洪亮的成年男声
+        pace: 偏快
+        pitch: 中
+    villager_2:
+      display_name: 村民乙
+      tts:
+        delivery: 焦急而笃定，跟着众人一同嚷起来
+        timbre: 明亮的成年女声
+        pace: 偏快
+        pitch: 中高
+    villager_3:
+      display_name: 村民丙
+      tts:
+        delivery: 焦急而笃定，说话粗声粗气
+        timbre: 沙哑的成年男声
+        pace: 偏快
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 地窖里的木槌
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "从前，一对农夫夫妻只有一个女儿。有位绅士正在追求她，每天傍晚都来农舍看她，还留下吃晚饭。姑娘照例要下地窖，打些啤酒上来。"
+        - id: ch01-b02
+          speaker: narrator
+          text: "一天，她带着蜡烛和酒壶，正在地窖里打酒。无意间抬头一看，她发现横梁上卡着一把木槌。木槌在那里不知搁了多少年，她以前竟从没留意。可这一眼，让她越想越害怕。"
+        - id: ch01-b03
+          speaker: daughter
+          text: "要是我和他结了婚，又生了个儿子，等儿子长大，也下地窖来打啤酒，这把木槌正好掉下来，把他砸死，那可怎么办呀！"
+          emotion: fearful
+        - id: ch01-b04
+          speaker: narrator
+          text: "姑娘想着那个还没有出生、甚至还没有影子的儿子，越想越伤心。她把蜡烛和酒壶放下，一屁股坐在那里哭了起来，啤酒却还在不停地流。楼上的人等了半天，不明白打酒怎么要这么久，母亲只好下来找她。"
+        - id: ch01-b05
+          speaker: mother
+          text: "你怎么坐在这里哭？到底出什么事了？"
+        - id: ch01-b06
+          speaker: daughter
+          text: "妈，你看看那把木槌！将来我有了儿子，他长大后要是下来打酒，木槌掉在他头上，把他砸死，那该多可怕呀！"
+          emotion: fearful
+        - id: ch01-b07
+          speaker: mother
+          text: "天哪！那可真是太可怕了！"
+          emotion: fearful
+        - id: ch01-b08
+          speaker: narrator
+          text: "母亲听了，竟也觉得这场还没影子的灾祸实在伤心。她挨着女儿坐下，跟她一起哭。又过了一阵，父亲见母女俩都没回来，便亲自下去查看。地窖里，两个人哭个不停，啤酒早已淌得到处都是。"
+        - id: ch01-b09
+          speaker: father
+          text: "你们这是怎么了？"
+        - id: ch01-b10
+          speaker: mother
+          text: "看看那把木槌吧！咱们女儿成亲以后，要是生了儿子，孩子长大下来打酒，木槌掉下来把他砸死，可怎么得了！"
+          emotion: fearful
+        - id: ch01-b11
+          speaker: father
+          text: "天哪，天哪！还真是这么回事！"
+          emotion: fearful
+        - id: ch01-b12
+          speaker: narrator
+          text: "父亲也坐到她们身旁，三个人一块儿哭。那位绅士独自在厨房里等得不耐烦，终于也找到地窖来了。他一看，三个人并排哭着，啤酒还在满地流，便赶紧上前关紧龙头。"
+        - id: ch01-b13
+          speaker: gentleman
+          text: "你们三个为什么光坐着哭，还让啤酒一直流？"
+        - id: ch01-b14
+          speaker: father
+          text: "你瞧那把木槌！要是你和我女儿成亲，生了儿子，儿子长大下来打酒，木槌掉下来把他砸死了呢？"
+          emotion: fearful
+        - id: ch01-b15
+          speaker: narrator
+          text: "父亲一说完，三个人便一同想着那场遥远的灾祸，哭得比刚才更厉害。绅士却放声大笑。他只要一伸手，就把让这一家人哭成泪人的木槌从梁上取了下来。"
+        - id: ch01-b16
+          speaker: gentleman
+          text: "我走过不少地方，却从没见过你们这么傻的三个人。我要再出去走一趟，等找到三个比你们还傻的人，就回来娶你们的女儿。"
+        - id: ch01-b17
+          speaker: narrator
+          text: "他说完便向三人告别，再次上路去寻找更大的傻瓜。姑娘因为丢了心上人，一家人还留在地窖里伤心地哭。"
+    - id: ch02
+      title: 屋顶上的青草
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "绅士走了很远，来到一座茅屋前。屋顶上长着青草，一个女人正把母牛往梯子上赶，想让它爬到屋顶。可怜的牛吓得不敢走。"
+        - id: ch02-b02
+          speaker: gentleman
+          text: "你这是要做什么？"
+        - id: ch02-b03
+          speaker: cottage_woman
+          text: "你看，屋顶上有那么好的草，我要让牛上去吃。不会有危险的。我把绳子拴在牛脖子上，再从烟囱里放下来，另一头系住手腕。牛要是掉下去，我马上就能知道。"
+        - id: ch02-b04
+          speaker: gentleman
+          text: "你怎么这么傻？把草割下来，扔给牛吃不就行了吗？"
+        - id: ch02-b05
+          speaker: narrator
+          text: "女人却认定，让牛爬梯子比割草省事。她又推又哄，终于把牛赶上屋顶。接着，她把绳子拴住牛脖子，从烟囱里放进屋，另一头牢牢系在自己手腕上。绅士只得继续赶路。"
+        - id: ch02-b06
+          speaker: narrator
+          text: "他还没走远，母牛就摔下屋顶，吊在拴住脖子的绳子上，活活勒死了。牛的重量又顺着绳子扯住女人的手腕，把她整个人拽进烟囱。她卡在半中间动弹不得，也被烟灰活活闷死了。"
+        - id: ch02-b07
+          speaker: narrator
+          text: "好，这就找到了一个大傻瓜。"
+    - id: ch03
+      title: 最难穿的裤子
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "绅士继续走，晚上来到一家客店。客房全住满了，店家只好让他睡进一间摆着两张床的房间，另一位旅客睡旁边那张床。那人十分随和，两人很快便熟悉了。"
+        - id: ch03-b02
+          speaker: narrator
+          text: "第二天早晨，两人一起起床。绅士看见旅客把裤子挂在五斗柜的圆把手上，再从房间另一头冲过去，想一下跳进裤子里。他跳了一遍又一遍，始终没能穿上。绅士怎么也想不明白，他为何非要这么做。"
+        - id: ch03-b03
+          speaker: narrator
+          text: "最后，旅客累得满头是汗，只好停下来，掏出手帕擦了擦脸。"
+        - id: ch03-b04
+          speaker: traveller
+          text: "哎哟，裤子准是世上最难穿的衣裳！到底是谁发明的？我每天早晨差不多要折腾一个钟头，弄得浑身发热。你的裤子又是怎么穿上的？"
+        - id: ch03-b05
+          speaker: narrator
+          text: "绅士忍不住大笑，当场教他把裤子穿好。旅客感激极了，一再向他道谢，还说自己怎么也想不到，原来该用这个办法。"
+        - id: ch03-b06
+          speaker: narrator
+          text: "这样，第二个大傻瓜也找到了。"
+    - id: ch04
+      title: 池塘里的月亮
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "绅士又踏上旅途，来到一个村庄。村外有口池塘，岸边围满了一大群人。大家拿着耙子、扫帚和干草叉，一个劲儿往水里伸。"
+        - id: ch04-b02
+          speaker: gentleman
+          text: "这里出了什么事？"
+        - id: ch04-b03
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
+          text: "事情可大了！月亮掉进池塘里，我们怎么也捞不上来！"
+        - id: ch04-b04
+          speaker: narrator
+          text: "绅士又笑出了声。他让众人抬头看看天空，告诉他们，水里不过是月亮的影子。可那些人根本不听，反而狠狠地骂他。绅士只好赶快离开。"
+        - id: ch04-b05
+          speaker: narrator
+          text: "这下，比家里那三个傻瓜还傻的人，已经有了一大群。绅士便转身回去，娶了农夫的女儿。至于他们后来是不是永远幸福，那就不关你我的事啦。"

@@ -1,0 +1,559 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: genial, reflective, and lightly amused
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    king:
+      display_name: The King
+      tts:
+        delivery: proud, forceful, and quick to take offense
+        timbre: resonant and mature
+        pace: measured
+        pitch: medium-low
+    queen:
+      display_name: The Queen
+      tts:
+        delivery: assured, spirited, and dignified
+        timbre: clear and mature
+        pace: measured
+        pitch: medium
+    guard_1:
+      display_name: First Guard
+      tts:
+        delivery: wary and practical
+        timbre: firm and plain
+        pace: measured
+        pitch: medium-low
+    guard_2:
+      display_name: Second Guard
+      tts:
+        delivery: cautious and compliant
+        timbre: steady and plain
+        pace: measured
+        pitch: medium
+    farmer:
+      display_name: The Farmer
+      tts:
+        delivery: kind, wise, and quietly resolute
+        timbre: warm and weathered
+        pace: unhurried
+        pitch: low
+    ameer_ali:
+      display_name: Ameer Ali
+      tts:
+        delivery: brave, courteous, and earnest
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium
+    old_woman:
+      display_name: The Old Woman
+      tts:
+        delivery: sharp at first, then mysterious and kindly
+        timbre: dry and aged
+        pace: measured
+        pitch: medium-high
+    forest_fairy:
+      display_name: The Forest Fairy
+      tts:
+        delivery: gentle, composed, and quietly mysterious
+        timbre: soft and luminous
+        pace: unhurried
+        pitch: medium-high
+    palace_servant:
+      display_name: Palace Servant
+      tts:
+        delivery: timid and pleading
+        timbre: light and nervous
+        pace: quick
+        pitch: medium-high
+    witch:
+      display_name: The Witch
+      tts:
+        delivery: falsely mournful, then cruel and triumphant
+        timbre: rough and aged
+        pace: measured
+        pitch: medium-low
+    starling:
+      display_name: The Starling
+      tts:
+        delivery: curious and innocently observant
+        timbre: bright and quick
+        pace: lively
+        pitch: high
+    tote:
+      display_name: Tote the Parrot
+      tts:
+        delivery: gruff, blunt, and comically ill-tempered
+        timbre: rasping and crisp
+        pace: brisk
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: Jackal or Tiger?
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            One hot night in Hindustan, a king and queen lay awake in their palace at the heart of the city. Now and then, a faint breath of air came through the lattice. Each time, they hoped sleep would follow, but it never did. Then a howl sounded outside the palace, and both of them were suddenly wide awake.
+        - id: ch01-b02
+          speaker: king
+          text: Listen to that tiger!
+        - id: ch01-b03
+          speaker: queen
+          text: A tiger? How could a tiger be inside the city? That was only a jackal.
+        - id: ch01-b04
+          speaker: king
+          text: I know what I heard. It was a tiger.
+        - id: ch01-b05
+          speaker: queen
+          text: Then you must have been dreaming, because it was certainly a jackal.
+        - id: ch01-b06
+          speaker: king
+          text: I said it was a tiger. Do not contradict me!
+          emotion: angry
+        - id: ch01-b07
+          speaker: queen
+          text: Nonsense! It was a jackal.
+          emotion: angry
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            Their quarrel grew hotter and hotter. At last, the king proposed a test.
+        - id: ch01-b09
+          speaker: king
+          text: >-
+            We will call the guards and ask them. If it was a jackal, I will leave you this kingdom and go away. If it was a tiger, you must leave, and I will take another wife.
+        - id: ch01-b10
+          speaker: queen
+          text: Very well. There can be no doubt about what it was.
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            The king summoned the two soldiers standing guard outside. But the royal couple had argued so loudly that the soldiers had heard almost every word.
+        - id: ch01-b12
+          speaker: guard_1
+          text: >-
+            Be sure you say the king is right. It was a jackal, of course. But if we admit that, the king may break his promise to leave, and then we will be in trouble. We had better take his side.
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            The other guard agreed. So when the king asked what animal they had seen, both men gave the answer he wanted.
+        - id: ch01-b14
+          speakers: [guard_1, guard_2]
+          ensemble: duo
+          text: It was certainly a tiger. Your Majesty was right, as always.
+        - id: ch01-b15
+          speaker: narrator
+          text: >-
+            The king made no reply when the guards supported him. He sent for a palanquin and ordered that the queen be put inside. Four bearers were to carry her a great distance into the forest and leave her there alone. She wept, but she was forced to obey. For three days and three nights, the bearers travelled farther and farther from the city. When they finally reached a thick wood, they set down the palanquin with the queen still inside. Then they turned around and began the long journey home.
+        - id: ch01-b16
+          speaker: narrator
+          text: >-
+            The queen could not believe the king meant to banish her forever. Surely, once his anger passed, he would send for her. She sat still for a long time, listening for footsteps, but none came. At last, fear began to creep over her. She looked out. Dawn was breaking. Birds and insects were stirring, and leaves moved in the warm wind, but not one human being was in sight. Then her courage failed, and she began to cry.
+    - id: ch02
+      title: The Prince of the Forest
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            Near the place where the palanquin stood, a farmer and his wife lived alone on a tiny farm in the forest. The night was hot, so the farmer had been sleeping on his flat roof. The sound of weeping woke him. He sprang up, hurried downstairs, and followed the cries through the trees until he found the palanquin.
+        - id: ch02-b02
+          speaker: farmer
+          text: Poor soul, who are you? Why are you crying?
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            The queen fell silent. She did not know this stranger, and she was afraid.
+        - id: ch02-b04
+          speaker: farmer
+          text: >-
+            Please do not fear me. I will treat you as if you were my own daughter. Tell me who you are.
+          emotion: calm
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            His voice was so kind that the queen found her courage and told him everything. The farmer called his wife, who took the queen home, gave her food, and prepared a bed for her. A few days later, a little prince was born on that farm. At his mother's wish, he was named Ameer Ali.
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            The years passed, and no word came from the king. He seemed not to care whether his wife was alive or dead. The queen remained with the farmer, while Ameer Ali grew into a strong, handsome, healthy young man. Their forest home felt far away from the world, and few people ever passed nearby.
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            Again and again, Ameer Ali begged his mother and the farmer to let him go out, seek adventures, and earn his own living. Both of them advised him to wait, and for years he accepted their counsel. But when he reached eighteen, they saw that he was no longer a child, and they could no longer bear to hold him back.
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            Early one morning, he set out. At his side hung a sword. He carried a large brass water pot, a few silver coins, and a galail, a two-stringed bow that fired hard clay pellets for shooting birds along the road.
+    - id: ch03
+      title: The Fairy of the Forest
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            Day after day, Ameer Ali walked many weary miles. One morning, he came to a forest much like the one where he had grown up. He entered it happily, as though he were greeting an old friend. In a thicket, he spotted a pigeon that would make a good dinner. He fired his galail, but the pellet missed, and the pigeon flew off with a startled clatter.
+        - id: ch03-b02
+          speaker: narrator
+          text: >-
+            At that same moment, a great outcry rose beyond the bushes. Ameer Ali hurried toward it and found an ugly old woman soaked with water. She was lifting an earthen pitcher from her head. A hole had been knocked through it, and water streamed down over her clothes. When she saw the galail in his hand, she cried out at him.
+        - id: ch03-b03
+          speaker: old_woman
+          text: >-
+            You wretched boy! Why play such a trick on an old woman? You have broken my pitcher. Where am I supposed to find another? One long journey for water tires me out, and now I must make it twice!
+          emotion: angry
+        - id: ch03-b04
+          speaker: ameer_ali
+          text: >-
+            But, mother, I meant you no harm. I shot at a pigeon for my dinner, and the pellet missed it and struck your pitcher. Take my brass pot instead. It will not break so easily. Show me where the water is, and I will fill it while your clothes dry in the sun. Then I will carry it wherever you need it.
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            The old woman's face brightened. She pointed out the water, and a few minutes later he returned with his pot filled to the brim. Without a word, she led him farther into the forest. Soon they reached a hut. In its doorway stood the loveliest young woman Ameer Ali had ever seen.
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            The maiden saw the stranger, drew her veil around her, and stepped inside. Ameer Ali stood there wishing she would return. Yet the water had been delivered, and he could think of no excuse to remain at the hut or call her back. At last, he made his farewell to the old woman and walked away with a heavy heart. He had gone only a little distance when the old woman called after him.
+        - id: ch03-b07
+          speaker: old_woman
+          text: >-
+            If trouble or danger ever finds you, come back to this very place and call, “Fairy of the Forest! Fairy of the Forest, help me now!” I will hear you.
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            Ameer Ali thanked her and continued on his way. He thought very little about her promise and a great deal about the beautiful maiden. Before long, he reached a city. By then, his money was gone, so he went straight to the palace and asked the rajah for work.
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            The rajah said he already had all the servants he needed. Ameer Ali pleaded so earnestly that the ruler took pity on him. At last, he offered the young man a place in his bodyguard, but only if Ameer Ali would accept any task that was especially hard or dangerous. That was exactly the kind of work Ameer Ali wanted, and he promised to do whatever the rajah required.
+    - id: ch04
+      title: The Witch at the Gallows
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            Soon afterward, a dark and stormy night swept over the palace. The river roared below the walls, and above the storm came the sound of a woman weeping and wailing. The rajah ordered a servant to find out what was wrong. The man dropped to his knees in terror.
+        - id: ch04-b02
+          speaker: palace_servant
+          text: >-
+            Your Majesty, please do not send me out tonight! The storm is wild, and evil spirits and witches are sure to be abroad.
+          emotion: fearful
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            The rajah was kind-hearted, so he asked another servant instead. But every one of them showed the same strange fear. Then Ameer Ali stepped forward.
+        - id: ch04-b04
+          speaker: ameer_ali
+          text: This is my duty, Your Majesty. I will go.
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            The rajah nodded, and Ameer Ali set off. The night was pitch-black. A furious wind drove sheets of rain into his face, but he kept going until he reached the ford beneath the palace walls. There he stepped into the flooded river. Inch by inch, foot by foot, he fought his way across. A sudden swirl would nearly sweep his feet from under him. Then a whole tree came tossing and swinging down the stream, and he barely escaped being caught in its branches.
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            At last, he climbed onto the far bank, panting and dripping. A gallows stood nearby, with the body of an evildoer hanging from it. At the foot of the gallows crouched the woman whose sobs had reached the palace.
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            Ameer Ali felt so sorry for her that he forgot the storm and the roaring river. Ghosts and witches had never troubled him. He walked straight toward the shadowy figure.
+        - id: ch04-b08
+          speaker: ameer_ali
+          text: What is troubling you?
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            She was not a woman at all, but a dreadful witch from Witchland, and she had no business being on earth. In her own country, the ogresses ate any man who wandered among them. This old witch wanted a man for her supper, so she had crouched beneath the gallows, sobbing and crying. She hoped that someone would hear her, take pity on her, and come close enough to be caught.
+        - id: ch04-b10
+          speaker: witch
+          text: >-
+            Oh, kind sir, that is my poor son hanging there! Help me bring him down, and I will bless you forever.
+          emotion: sad
+        - id: ch04-b11
+          speaker: narrator
+          text: >-
+            Her voice sounded more eager than sorrowful. Ameer Ali suspected she was lying, and he decided to be careful.
+        - id: ch04-b12
+          speaker: ameer_ali
+          text: That may be difficult. The gallows is high, and we have no ladder.
+        - id: ch04-b13
+          speaker: witch
+          text: >-
+            Just bend down and let me climb onto your shoulders. Then I think I can reach him.
+        - id: ch04-b14
+          speaker: narrator
+          text: >-
+            Now her voice sounded so cruel that Ameer Ali knew she meant him harm. Still, he gave no sign that he understood.
+        - id: ch04-b15
+          speaker: ameer_ali
+          text: Very well. We can try it.
+        - id: ch04-b16
+          speaker: narrator
+          text: >-
+            He drew his sword, pretending he needed it for support, and bent down. The witch scrambled nimbly onto his back. All at once, he felt a noose slip around his neck. She sprang from his shoulders onto the gallows.
+        - id: ch04-b17
+          speaker: witch
+          text: Now I have you, fool! I will kill you and eat you for supper!
+          emotion: happy
+        - id: ch04-b18
+          speaker: narrator
+          text: >-
+            Ameer Ali swept his sharp sword upward. The blade cut through the rope around his neck, then sliced the witch's dangling foot. With a howl of pain and rage, she vanished into the darkness.
+        - id: ch04-b19
+          speaker: narrator
+          text: >-
+            Ameer Ali sat down to steady himself. His hand touched an anklet on the ground beside him. It must have fallen from the witch's foot, so he put it in his pocket. By then, the storm had passed, and he returned to the palace.
+        - id: ch04-b20
+          speaker: narrator
+          text: >-
+            After telling the whole story, he handed the anklet to the rajah. Everyone stared at its glorious jewels. Ameer Ali was astonished too, for he had picked it up in the dark and had never looked at it. The delighted rajah praised him, rewarded him, and gave the treasure to his proud, spoiled daughter.
+    - id: ch05
+      title: The Anklets
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            Two cages hung in the women's rooms of the palace. A parrot lived in one and a starling in the other, and both birds could speak like human beings. They were the princess's pets, and she always fed them herself. The next day, she tied the jeweled anklet around one leg and walked grandly past their cages.
+        - id: ch05-b02
+          speaker: starling
+          text: Tote, what do you think of the princess in her new jewel?
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            Tote was cross because no one had given him his morning bath.
+        - id: ch05-b04
+          speaker: tote
+          text: >-
+            What do I think? She looks like a washerwoman's daughter with one shoe on and one shoe off! Why wear an anklet on one leg and leave the other bare? She should have two.
+          emotion: angry
+        - id: ch05-b05
+          speaker: narrator
+          text: >-
+            The princess heard him and burst into tears. She sent for her father and insisted that he find another anklet exactly like the first. Without it, she said, she would die of shame.
+        - id: ch05-b06
+          speaker: narrator
+          text: >-
+            The rajah summoned Ameer Ali. He ordered him to bring back a matching anklet within one month. If he failed, he would be hanged, because the princess would surely die of disappointment.
+        - id: ch05-b07
+          speaker: narrator
+          text: >-
+            Ameer Ali was deeply troubled, though at least he had a month to make a plan. He left the palace at once and began asking everyone he met where the finest jewels could be found. He went from one place to another, searching by day and by night. Jewellers showed him their richest work, but he never saw an anklet that could compare with the witch's. The days slipped away until only one week remained. Then, in the middle of his distress, he remembered the old woman's promise. There was no time to lose, so he set out for the forest at once.
+        - id: ch05-b08
+          speaker: narrator
+          text: >-
+            After a full day's journey, he reached the hut. He stood on the very spot where the old woman had called after him.
+        - id: ch05-b09
+          speaker: ameer_ali
+          text: Fairy of the Forest! Fairy of the Forest! Help me! Help me!
+        - id: ch05-b10
+          speaker: narrator
+          text: >-
+            The beautiful maiden appeared in the doorway. Ameer Ali had never forgotten her through all his travels.
+        - id: ch05-b11
+          speaker: forest_fairy
+          text: What is wrong?
+        - id: ch05-b12
+          speaker: narrator
+          text: >-
+            Her voice was so soft that Ameer Ali could only stare. She had to ask him again before he managed to answer. Then he told her about the anklet and the rajah's command. She went into the cottage and returned with two wands and a pot of boiling water. She planted the wands in the earth, about six feet apart.
+        - id: ch05-b13
+          speaker: forest_fairy
+          text: >-
+            I will lie between these wands. Draw your sword and cut off my foot. Hold it over the boiling water, and every drop of blood that falls into the pot will become a jewel. Then switch the wands. Put the wand at my head where my feet were, and move the other one to my head. Place my foot against the wound. It will join again, and I will be well.
+        - id: ch05-b14
+          speaker: narrator
+          text: >-
+            Ameer Ali refused at first. He would rather be hanged twenty times, he said, than treat her so cruelly. But the fairy kept urging him until he agreed to obey.
+        - id: ch05-b15
+          speaker: narrator
+          text: >-
+            When his sword struck and the fairy's foot fell away, she lay as still as if she were dead. Ameer Ali nearly fainted from horror. Yet he held the foot above the pot. Each drop that touched the water turned into a shining gem, and the sight gave him courage.
+        - id: ch05-b16
+          speaker: narrator
+          text: >-
+            Soon the pot held plenty of jewels. Ameer Ali switched the wands and pressed the severed foot to the wound. At once, the two parts became one again. The maiden opened her eyes and sprang up. She pulled her veil around her, ran into the hut, and would neither come out nor speak to him.
+        - id: ch05-b17
+          speaker: narrator
+          text: >-
+            He waited a long time. When she still did not appear, he gathered the precious stones and returned to the city. A jeweller set them for him. There were enough gems to make not one but three rare and beautiful anklets. On the final day of his month, Ameer Ali presented all three to the rajah.
+        - id: ch05-b18
+          speaker: narrator
+          text: >-
+            The rajah embraced him warmly and gave him rich rewards. The next day, the vain princess put two anklets on each foot. She strutted before the mirrors that lined her room, admiring herself from every side.
+        - id: ch05-b19
+          speaker: starling
+          text: Tote, what do you think of our princess in all these fine jewels?
+        - id: ch05-b20
+          speaker: narrator
+          text: >-
+            Tote was always cross in the morning and never recovered his temper before lunch.
+        - id: ch05-b21
+          speaker: tote
+          text: >-
+            Ugh! Now all her beauty is crowded at one end. A few of those glittering trinkets around her neck and wrists might improve things. As she is, she looks more than ever like a washerwoman's daughter dressed up in finery.
+          emotion: disgusted
+        - id: ch05-b22
+          speaker: narrator
+          text: >-
+            The poor princess wept, stormed, and raged until she made herself ill. Then she told her father that she must have a necklace and bracelets to match the anklets, or she would die.
+        - id: ch05-b23
+          speaker: narrator
+          text: >-
+            Once again, the rajah called Ameer Ali. He ordered him to find the matching necklace and bracelets within one month. If he failed this time, a cruel death awaited him.
+    - id: ch06
+      title: The Princess Chooses a Husband
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: >-
+            Again, Ameer Ali spent nearly the whole month hunting for jewels, and again he found nothing. At last, he returned to the forest hut and called from the same place as before.
+        - id: ch06-b02
+          speaker: ameer_ali
+          text: Fairy of the Forest! Fairy of the Forest! Help me! Help me!
+        - id: ch06-b03
+          speaker: narrator
+          text: >-
+            Once more, the beautiful maiden came when he called and asked why he needed her help. Ameer Ali explained the rajah's new order and the death that awaited him if he returned without the necklace and bracelets. The fairy listened, then told him that he must do exactly what he had done before. This time, however, one foot would not be enough. He must cut off both her hands and her head.
+        - id: ch06-b04
+          speaker: narrator
+          text: >-
+            Ameer Ali turned pale with horror. The fairy reminded him that the first wound had done her no harm. In the end, he consented to follow her instructions.
+        - id: ch06-b05
+          speaker: narrator
+          text: >-
+            From her severed hands and head, bracelets and chains fell into the boiling water. They glittered with rubies, diamonds, emeralds, and pearls finer than any jewels ever seen. Then Ameer Ali restored her head and hands. They joined her body without a mark or scar.
+        - id: ch06-b06
+          speaker: narrator
+          text: >-
+            Ameer Ali tried to thank her, but the fairy fled into the house and would not return. He had to leave without another word, carrying the jewels with him.
+        - id: ch06-b07
+          speaker: narrator
+          text: >-
+            On the appointed day, Ameer Ali brought the rajah a necklace and bracelets, each one more beautiful and priceless than the last. The rajah could hardly believe his eyes. His daughter was almost wild with joy.
+        - id: ch06-b08
+          speaker: narrator
+          text: >-
+            The very next morning, the princess put on every jewel. Surely, she thought, that disagreeable parrot could find no fault now. She listened eagerly when the starling spoke.
+        - id: ch06-b09
+          speaker: starling
+          text: Tote, how do you think our princess looks now?
+        - id: ch06-b10
+          speaker: tote
+          text: >-
+            Very grand, no doubt. But what is the use of dressing like that when she has no one to dress for? She needs a husband. Why not marry the man who found all those splendid things?
+        - id: ch06-b11
+          speaker: narrator
+          text: >-
+            The princess went straight to her father and announced that she wished to marry Ameer Ali.
+        - id: ch06-b12
+          speaker: king
+          text: >-
+            My dear child, you are very hard to please. Every day, you want something new. It certainly is time you married, and if this is the man you choose, then he shall be your husband.
+        - id: ch06-b13
+          speaker: narrator
+          text: >-
+            The rajah summoned Ameer Ali and told him that, within a month, he would receive the honor of marrying the princess and becoming heir to the throne.
+        - id: ch06-b14
+          speaker: narrator
+          text: >-
+            Ameer Ali bowed low. He said he had served the rajah in every way he could, and he would continue to do so. But there was one thing he could not do. He would not marry the princess.
+        - id: ch06-b15
+          speaker: narrator
+          text: >-
+            The rajah believed his daughter's hand was a prize no man could refuse. Ameer Ali's answer sent him into a rage, and the rejected princess was more furious still. Their anger allowed no delay. Ameer Ali was seized at once and thrown into the darkest, dreariest prison they could find. The guards were ordered to keep him there while the rajah considered what kind of death he should suffer.
+        - id: ch06-b16
+          speaker: narrator
+          text: >-
+            Meanwhile, the rajah decided that his daughter must be married without delay, whether Ameer Ali wanted her or not. He sent heralds across all the neighboring countries. On a chosen day, every man who thought himself fit to be the princess's husband and heir to the throne was to appear at the palace.
+    - id: ch07
+      title: The Royal Tiger
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: >-
+            When the appointed day arrived, the whole court assembled to watch the choice. A great crowd of young men and old men filled the palace. Each one looked at all the others and believed he had as good a chance as any of them to win both the princess and the throne. As soon as the rajah had taken his seat before them, he told the usher to call the first suitor forward.
+        - id: ch07-b02
+          speaker: narrator
+          text: >-
+            Before the usher could begin, a farmer at the front of the crowd called out that he had a petition to make.
+        - id: ch07-b03
+          speaker: king
+          text: Then hurry and say it. I have no time to waste.
+        - id: ch07-b04
+          speaker: farmer
+          text: >-
+            Your Majesty has ruled this city and given judgment here for many years. You must know that the tiger, king of beasts, hunts only in the forest. Jackals hunt wherever they can pick up a scrap.
+        - id: ch07-b05
+          speaker: king
+          text: What is this? What are you talking about? The man must be mad!
+        - id: ch07-b06
+          speaker: farmer
+          text: >-
+            I am only reminding Your Majesty that plenty of jackals have gathered here today to claim your daughter and your kingdom. They have come hungry and eager from every city. But do not mistake, or pretend again to mistake, a jackal's howl for the hunting cry of a tiger.
+        - id: ch07-b07
+          speaker: narrator
+          text: >-
+            The rajah turned red, then pale.
+        - id: ch07-b08
+          speaker: farmer
+          text: >-
+            A royal tiger was raised in the forest, and he has the first and only true claim to your throne.
+        - id: ch07-b09
+          speaker: king
+          text: Where is he? What do you mean?
+          emotion: surprised
+        - id: ch07-b10
+          speaker: farmer
+          text: >-
+            He is in prison. Send these jackals out of the court, Your Majesty, and I will explain everything.
+        - id: ch07-b11
+          speaker: king
+          text: Clear the court!
+        - id: ch07-b12
+          speaker: narrator
+          text: >-
+            The hopeful visitors had expected to compete for a kingdom. They left the palace only because the rajah commanded it, and they went very unwillingly.
+        - id: ch07-b13
+          speaker: king
+          text: Now explain this riddle to me.
+        - id: ch07-b14
+          speaker: narrator
+          text: >-
+            The farmer told the rajah and his ministers how he had found and rescued the banished queen, and how he had raised Ameer Ali. Then he brought in the old queen, who had been waiting outside.
+        - id: ch07-b15
+          speaker: narrator
+          text: >-
+            At the sight of her, the rajah was filled with shame and regret. He wished he could live his life again. Then he would never have banished his first wife, and he would never have married the mother of the proud princess, who had caused him endless trouble until the day she died.
+        - id: ch07-b16
+          speaker: king
+          text: My day is over.
+          emotion: sad
+        - id: ch07-b17
+          speaker: narrator
+          text: >-
+            The old king gave his crown to his son, Ameer Ali. Once he was free, the new king returned to the forest and called on the fairy to find him a queen who could share his throne.
+        - id: ch07-b18
+          speaker: ameer_ali
+          text: There is only one person I will marry.
+        - id: ch07-b19
+          speaker: narrator
+          text: >-
+            This time, the forest maiden did not run away. She agreed to become his wife. They were married at once, and together they lived long, ruled well, and were happy.
+        - id: ch07-b20
+          speaker: narrator
+          text: >-
+            And what became of the old woman whose pitcher Ameer Ali had broken? She was the forest maiden's fairy godmother. Once the girl no longer needed her care, the old woman gladly returned to fairyland.
+        - id: ch07-b21
+          speaker: narrator
+          text: >-
+            As for the old king, no one ever heard him contradict his wife again. If he so much as looked as though he disagreed, she would smile and ask him one question.
+        - id: ch07-b22
+          speaker: queen
+          text: Is it the tiger, then, or the jackal?
+        - id: ch07-b23
+          speaker: narrator
+          text: And the old king never had another word to say.

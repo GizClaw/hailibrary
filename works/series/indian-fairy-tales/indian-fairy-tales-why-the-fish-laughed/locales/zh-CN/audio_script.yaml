@@ -1,0 +1,270 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 郑重而亲切，带着学者讲述旧日故事的从容
+        timbre: 温暖清晰，沉稳而有书卷气
+        pace: 舒缓，论述转折处稍作停顿
+        pitch: 中低
+    king:
+      display_name: 国王
+      tts:
+        delivery: 威严中带着求子心切，隐瞒时略显迟疑
+        timbre: 浑厚端正
+        pace: 适中
+        pitch: 中低
+    queen:
+      display_name: 王后
+      tts:
+        delivery: 身份尊贵，受冒犯时直率而恼怒
+        timbre: 明亮端庄
+        pace: 适中
+        pitch: 中高
+    fisherwoman:
+      display_name: 卖鱼妇
+      tts:
+        delivery: 爽利朴实，答话干脆
+        timbre: 粗亮清楚
+        pace: 适中偏快
+        pitch: 中
+    vizier:
+      display_name: 宰相
+      tts:
+        delivery: 老成恭谨，临危陈词时恳切坚定
+        timbre: 苍老沉厚
+        pace: 稍缓
+        pitch: 低
+    vizier_son:
+      display_name: 宰相之子
+      tts:
+        delivery: 年轻机敏，说谜语时含蓄从容，得知答案后振奋果断
+        timbre: 清朗温和
+        pace: 适中
+        pitch: 中
+    farmer:
+      display_name: 老农
+      tts:
+        delivery: 朴实直率，困惑时带着滑稽的认真
+        timbre: 粗朴温暖
+        pace: 适中偏慢
+        pitch: 中低
+    farmer_daughter:
+      display_name: 老农的女儿
+      tts:
+        delivery: 聪慧沉着，解开谜语时清楚自然
+        timbre: 柔和明净
+        pace: 适中
+        pitch: 中高
+    servant:
+      display_name: 仆人
+      tts:
+        delivery: 恭顺平实，传话时一板一眼
+        timbre: 普通清晰
+        pace: 适中
+        pitch: 中
+  chapters:
+    - id: ch01
+      title: 鱼的笑声
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个卖鱼妇从王宫前走过，一路高声叫卖。王后从窗里看见了，便招手叫她走近，把篮里的鱼拿来瞧瞧。就在这时，一条很大的鱼突然在篮底扑腾起来。
+        - id: ch01-b02
+          speaker: queen
+          text: 这条鱼是公的还是母的？我想买一条母鱼。
+        - id: ch01-b03
+          speaker: narrator
+          text: 鱼听了这句话，竟然放声大笑。
+        - id: ch01-b04
+          speaker: fisherwoman
+          text: 这是条公鱼。
+        - id: ch01-b05
+          speaker: narrator
+          text: 卖鱼妇说完，又沿街叫卖去了。王后气冲冲地回到房中。傍晚，国王来看她，一眼就瞧出她有烦心事。
+        - id: ch01-b06
+          speaker: king
+          text: 你是不是身体不舒服？
+        - id: ch01-b07
+          speaker: queen
+          text: 我没有不舒服。可今天有条鱼实在古怪，把我气坏了。有个女人拿鱼来卖，我问那条鱼是公是母，它竟然很无礼地笑了起来。
+          emotion: angry
+        - id: ch01-b08
+          speaker: king
+          text: 鱼怎么可能会笑！你一定是在做梦。
+          emotion: surprised
+        - id: ch01-b09
+          speaker: queen
+          text: 我又不是傻子。这件事是我亲眼看见、亲耳听见的。
+          emotion: angry
+        - id: ch01-b10
+          speaker: king
+          text: 这可真奇怪。既然这样，我就派人查个明白。
+        - id: ch01-b11
+          speaker: narrator
+          text: 第二天，国王把王后的话告诉宰相，要他查清鱼为什么发笑。六个月之内，宰相必须给出一个说得通的答案，否则便要被处死。宰相答应尽力去查，心里却觉得自己多半办不到。
+        - id: ch01-b12
+          speaker: narrator
+          text: 接下来的五个月，他一刻不停地追查鱼为什么会笑。他四处寻访，逢人便问。博学的智者、精通魔法的人、会使各种奇术的人，他全都请教过，可谁也解释不了。宰相只好心碎地回家，开始一件一件料理身后之事。他侍奉国王多年，知道陛下既然说要处死他，就绝不会收回命令。于是，他劝儿子出门游历，等国王的怒气消下去一些再回来。
+    - id: ch02
+      title: 一路上的谜语
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 宰相的儿子既聪明又俊秀。他离开家，任凭天命把自己带到任何地方。几天以后，他遇见一位老农。老人也要去一个村庄。年轻人觉得他很和气，便说自己正要去那里访友，问能否一起走。老农答应了。天气很热，路又远，两个人走得十分疲惫。
+        - id: ch02-b02
+          speaker: vizier_son
+          text: 要是咱们轮流捎对方一程，走起来是不是会轻快些？
+        - id: ch02-b03
+          speaker: farmer
+          text: 这人真是个傻瓜！
+        - id: ch02-b04
+          speaker: narrator
+          text: 老农只在心里这样想。没过多久，他们经过一片快要收割的麦田。麦浪被风吹得来回起伏，看上去就像金色的海。
+        - id: ch02-b05
+          speaker: vizier_son
+          text: 这片麦子已经叫人吃掉了吗？
+        - id: ch02-b06
+          speaker: farmer
+          text: 我不知道。
+        - id: ch02-b07
+          speaker: narrator
+          text: 老农根本不明白他的意思。又走了一阵，他们来到一个大村庄。年轻人取出一把折刀，递给老农。
+        - id: ch02-b08
+          speaker: vizier_son
+          text: 朋友，拿这把刀去换两匹马来。可别忘了把刀带回来，它很珍贵。
+        - id: ch02-b09
+          speaker: narrator
+          text: 老农半是好笑，半是生气，把刀推了回去，嘴里嘟囔着，这人不是自己犯傻，就是故意把他当傻瓜耍。年轻人只装作没听见，之后几乎没再开口。两人来到一座城，老农的家就在城外不远处。他们逛过市集，也去了清真寺，可没有一个人向他们问候，更没人请他们进去歇息。
+        - id: ch02-b10
+          speaker: vizier_son
+          text: 好大一片墓地！
+        - id: ch02-b11
+          speaker: farmer
+          text: 这么多人住的地方，他怎么会叫它墓地？
+        - id: ch02-b12
+          speaker: narrator
+          text: 老农还是只在心里纳闷。出城以后，他们从一片墓地穿过。几个人正在坟旁祈祷，为了怀念死去的亲人，把恰巴提薄饼和库尔恰饼送给过路人。那些人招呼两名旅客过去，让他们尽管吃个够。
+        - id: ch02-b13
+          speaker: vizier_son
+          text: 这座城可真气派！
+        - id: ch02-b14
+          speaker: farmer
+          text: 这人一定疯了！接下来，他怕是要把陆地叫水，把水叫陆地，天黑的时候说有光，天亮的时候又说一片漆黑。
+        - id: ch02-b15
+          speaker: narrator
+          text: 老农仍旧没有把心里的话说出来。不久，两人得蹚过墓地边的一条小河。水颇深，老农脱下鞋子和宽裤才下水。年轻人却什么也没脱，穿着鞋和宽裤就走了过去。
+        - id: ch02-b16
+          speaker: farmer
+          text: 嗨，我这辈子还没见过这么十足的傻瓜。他说话傻，做事也傻。
+        - id: ch02-b17
+          speaker: narrator
+          text: 不过，老农倒很喜欢这个年轻人。他想把这个有趣的旅伴介绍给妻子和女儿，让她们也开心开心，便请年轻人到家里住下。只要年轻人还需要留在村里，想住多久都行。
+        - id: ch02-b18
+          speaker: vizier_son
+          text: 多谢您的好意。不过，请先告诉我，您家的房梁够不够结实？
+        - id: ch02-b19
+          speaker: narrator
+          text: 老农彻底没了办法，只好丢下他，笑着进了家门。
+    - id: ch03
+      title: 聪明姑娘解谜
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 一家人互相问候以后，老农讲起了田里那个古怪的年轻人。
+        - id: ch03-b02
+          speaker: farmer
+          text: 那个人陪我走了大半程。我想请他到家里住，在村里待多久就住多久。可他傻得让人摸不着头脑，竟问咱家的房梁牢不牢。他一定疯了！
+        - id: ch03-b03
+          speaker: narrator
+          text: 老农说着，忍不住放声大笑。他的女儿却是个非常敏锐又聪慧的姑娘。
+        - id: ch03-b04
+          speaker: farmer_daughter
+          text: 父亲，不管他是谁，都不像您想的那么愚蠢。他只是要问，咱家有没有余力招待他。
+        - id: ch03-b05
+          speaker: farmer
+          text: 噢，原来是这样！那你再替我解解别的谜吧。我们一起走路的时候，他问该由他背我，还是由我背他，还说那样赶路更舒服。
+        - id: ch03-b06
+          speaker: farmer_daughter
+          text: 这很明白呀。他是说，你们可以轮流讲故事，这样路上就不觉得漫长了。
+        - id: ch03-b07
+          speaker: farmer
+          text: 对，对。后来走过一片麦田，他又问我，那片麦子是不是已经吃掉了。
+        - id: ch03-b08
+          speaker: farmer_daughter
+          text: 父亲，您连这个也没听出来吗？他想知道田主人欠不欠债。要是欠了债，地里的收成就等于已经被吃掉了，因为最后都得交给债主。
+        - id: ch03-b09
+          speaker: farmer
+          text: 是，是，是！进村以后，他还叫我拿他的折刀换两匹马，再把刀原样带回来。
+        - id: ch03-b10
+          speaker: farmer_daughter
+          text: 走长路的时候，两根结实的手杖不是和两匹马一样管用吗？他只是请您削两根木杖，又提醒您别弄丢他的刀。
+        - id: ch03-b11
+          speaker: farmer
+          text: 我懂了。我们走遍那座城，没碰上熟人，也没有谁给我们一点吃的。经过墓地时，却有人招呼我们，还把恰巴提薄饼和库尔恰饼塞到手里。所以，他把城叫作墓地，把墓地叫作城。
+        - id: ch03-b12
+          speaker: farmer_daughter
+          text: 这个也好懂。城本该是什么都能找到的地方，可不肯待客的人还不如死人。那座城挤满活人，对你们却像死了一样。墓地里尽是死人，反倒有好心人问候你们，还给你们饼吃。
+        - id: ch03-b13
+          speaker: farmer
+          text: 对，对！刚才过河的时候，他连鞋子和宽裤都不脱，就直接走进水里了。
+        - id: ch03-b14
+          speaker: farmer_daughter
+          text: 这一点我倒佩服他。那条河水流得快，水底又全是尖石头，人们竟敢赤脚走进去，实在太傻了。只要绊一下，就会摔倒，从头到脚全湿透。您这位朋友非常聪明，我真想见见他，跟他说几句话。
+        - id: ch03-b15
+          speaker: farmer
+          text: 好，我这就去找他，把他领进来。
+        - id: ch03-b16
+          speaker: farmer_daughter
+          text: 父亲，您就告诉他，咱家的房梁足够结实，他自然会进门。我先送份礼物过去，让他知道咱家招待得起客人。
+        - id: ch03-b17
+          speaker: narrator
+          text: 姑娘叫来一个仆人，送给年轻人一盆酥油、十二张恰巴提薄饼和一罐牛奶，还让仆人带去一句话。
+        - id: ch03-b18
+          speaker: farmer_daughter
+          text: 朋友啊，月亮正圆。十二个月才成一年，大海盛满了水。
+        - id: ch03-b19
+          speaker: narrator
+          text: 仆人走到半路，碰见自己的小儿子。孩子看见篮里的食物，央求父亲分给他一点。这个父亲一时糊涂，竟然答应了。后来，他见到年轻人，把剩下的礼物交了出去，也把姑娘的话带到了。
+        - id: ch03-b20
+          speaker: vizier_son
+          text: 请替我向你家女主人致以萨拉姆。再告诉她，月亮还是一弯新月，一年里只能数出十一个月，大海也远远没有盛满。
+        - id: ch03-b21
+          speaker: narrator
+          text: 仆人听不懂，只能把这几句话一个字不差地转告女主人。这样一来，他偷吃礼物的事便败露了，还受到了严厉的惩罚。
+    - id: ch04
+      title: 笑声的秘密
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 过了一会儿，年轻人跟着老农进了家门。这户朴实的人家对他关怀备至，处处都把他当作名门之子看待，尽管谁也不知道他的来历。最后，他把所有事都讲了出来。鱼为什么发笑，父亲怎样面临处决，他又为什么远走他乡，全都原原本本告诉了他们。说完，他请大家替自己拿个主意，告诉他接下来究竟该怎么办。
+        - id: ch04-b02
+          speaker: farmer_daughter
+          text: 这一切麻烦，都是从鱼的笑声开始的。那条鱼是在告诉你们，王宫里藏着一个男人，他正图谋杀害国王。
+        - id: ch04-b03
+          speaker: vizier_son
+          text: 太好了，太好了！现在回去还来得及。我能救父亲，不让他受那可耻又冤枉的死刑，也能救国王脱离危险。
+          emotion: happy
+        - id: ch04-b04
+          speaker: narrator
+          text: 第二天，宰相之子带着老农的女儿，匆匆赶回自己的国家。他一到就奔进王宫，把听来的答案告诉父亲。可怜的宰相天天等着被处死，已经奄奄一息。人们马上把他抬到国王面前，让他禀告儿子刚带回来的消息。
+        - id: ch04-b05
+          speaker: king
+          text: 绝不可能！
+          emotion: surprised
+        - id: ch04-b06
+          speaker: vizier
+          text: 陛下，事情一定是这样。要证明这话是真是假，请您召集宫里所有侍女，让她们一个接一个，跳过一条事先挖好的壕沟。这样，我们马上就能知道宫里有没有男人。
+        - id: ch04-b07
+          speaker: narrator
+          text: 国王命人挖好壕沟，又叫宫中所有侍女都来试跳。每个人都试了，可只有一个跳了过去。众人一查，这个人竟真是个男人！
+        - id: ch04-b08
+          speaker: narrator
+          text: 就这样，鱼为什么发笑的谜总算解开了。王后终于得到了满意的答案，忠心的老宰相也保住了性命。
+    - id: ch05
+      title: 幸福的婚姻
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 没过多久，宰相之子便迎娶了老农的女儿。他们的婚姻幸福极了。

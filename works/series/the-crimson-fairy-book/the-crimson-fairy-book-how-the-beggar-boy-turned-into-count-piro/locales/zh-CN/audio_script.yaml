@@ -1,0 +1,424 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 从容而清晰，带着古老童话的神秘感与淡淡讽刺
+        timbre: 温暖清亮
+        pace: 舒缓，险境与转折处略微加快
+        pitch: 中音
+    beggar_boy:
+      display_name: 乞丐少年
+      tts:
+        delivery: 朴实迟疑，容易忧虑，成为伯爵后仍带几分怯意
+        timbre: 年轻轻柔
+        pace: 中速
+        pitch: 中音
+    fox:
+      display_name: 小狐狸
+      tts:
+        delivery: 聪明笃定，需要时彬彬有礼，转折处机敏利落
+        timbre: 明亮轻捷
+        pace: 明快
+        pitch: 中高音
+    king:
+      display_name: 国王
+      tts:
+        delivery: 威严好奇，做决定时干脆
+        timbre: 洪亮浑厚
+        pace: 舒缓
+        pitch: 中低音
+    princess:
+      display_name: 公主
+      tts:
+        delivery: 温柔真诚，富有同情心
+        timbre: 轻柔清亮
+        pace: 舒缓
+        pitch: 中高音
+    shepherd:
+      display_name: 牧羊人
+      tts:
+        delivery: 谨慎直率，带着乡野人的朴实
+        timbre: 清晰质朴
+        pace: 中速
+        pitch: 中音
+    swineherd:
+      display_name: 猪倌
+      tts:
+        delivery: 小心务实，回答简短
+        timbre: 粗粝沉稳
+        pace: 中速
+        pitch: 中低音
+    horse_keeper:
+      display_name: 马群看守
+      tts:
+        delivery: 警觉直接，不多言语
+        timbre: 开阔沉着
+        pace: 中速
+        pitch: 中音
+    ogre:
+      display_name: 食人魔
+      tts:
+        delivery: 平日声势逼人，遇到威胁便惊惶失措
+        timbre: 巨大沙哑
+        pace: 偏慢
+        pitch: 低音
+    ogress:
+      display_name: 食人魔妻子
+      tts:
+        delivery: 强硬粗声，恐慌时急促
+        timbre: 低沉粗哑
+        pace: 中速
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 隆冬里的梨
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 很久以前，一个男人只有一个儿子。那少年又懒又笨，大人叫他做什么，他偏偏什么也不肯做。父亲知道自己快死了，便把儿子叫到床前。他告诉少年，自己走后，他在世上就孤零零的了。留给他的只有父子俩住的这间小屋，还有屋后的一棵梨树。不管愿不愿意，从此都非干活不可，不然就只有饿死。老人说完这些话，不久便去世了。
+        - id: ch01-b02
+          speaker: narrator
+          text: 可少年还是不肯做事，跟从前一样整天游手好闲，饿了就摘树上的梨来填肚子。这棵树可不寻常。从古到今再也找不出第二棵，能够一年四季不停地结果。哪怕到了隆冬，树上的梨也比别处秋天结的更好。一天，一只狐狸从附近悄悄经过，一眼就看见了满树的果子。
+        - id: ch01-b03
+          speaker: fox
+          text: 哎呀，这些梨真漂亮！送我一篮吧。听我的，准能给你带来好运。
+        - id: ch01-b04
+          speaker: beggar_boy
+          text: 可是小狐狸，给了你一篮，我自己吃什么呀？
+        - id: ch01-b05
+          speaker: fox
+          text: 相信我，照我说的做。你以后就知道，这会给你带来好运。
+        - id: ch01-b06
+          speaker: narrator
+          text: 少年站起身，挑了些最熟的梨，装进一只灯芯草编成的篮子。狐狸向他道过谢，把篮子衔在嘴里，一路小跑到王宫，进门后径直去见国王。它把梨轻轻放到国王脚边，恭恭敬敬地开口。
+        - id: ch01-b07
+          speaker: fox
+          text: 陛下，我的主人送来几只最好的梨，请您收下。
+        - id: ch01-b08
+          speaker: king
+          text: 这个季节竟然有梨？你的主人是谁？
+          emotion: surprised
+        - id: ch01-b09
+          speaker: fox
+          text: 我的主人是皮罗伯爵。
+        - id: ch01-b10
+          speaker: king
+          text: 可他怎么能在隆冬弄到梨呢？
+        - id: ch01-b11
+          speaker: fox
+          text: 我的主人想要什么就有什么。说起来，他比您还富有呢，陛下。
+        - id: ch01-b12
+          speaker: king
+          text: 那我该拿什么回赠他，才配得上这些梨？
+        - id: ch01-b13
+          speaker: fox
+          text: 什么都不必送。您若回礼，反而会伤他的情面。
+        - id: ch01-b14
+          speaker: king
+          text: 那就替我好好谢谢他。告诉他，这些梨我一定吃得很香甜。
+        - id: ch01-b15
+          speaker: narrator
+          text: 狐狸衔着空篮子，一路小跑回到小屋，把自己在王宫里的经过全说了一遍。它讲得兴高采烈，饿着肚子的少年听了，却怎么也高兴不起来。
+        - id: ch01-b16
+          speaker: beggar_boy
+          text: 小狐狸，你什么也没给我带回来。我都快饿坏了！
+          emotion: sad
+        - id: ch01-b17
+          speaker: fox
+          text: 别管我，我心里有数。你等着瞧，好运会来的。
+    - id: ch02
+      title: 狐狸替少年求婚
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 几天后，狐狸又来到小屋。
+        - id: ch02-b02
+          speaker: fox
+          text: 我还要一篮梨。
+        - id: ch02-b03
+          speaker: beggar_boy
+          text: 小狐狸，你把梨都拿走了，我靠什么填肚子呢？
+        - id: ch02-b04
+          speaker: fox
+          text: 别担心，事情会办好的。
+        - id: ch02-b05
+          speaker: narrator
+          text: 这一次，狐狸找来更大的篮子，装得满满的，又衔着它跑进王宫。
+        - id: ch02-b06
+          speaker: fox
+          text: 陛下，您喜欢上次的梨，我的主人皮罗伯爵便再送一些来，也请我向您致意。
+        - id: ch02-b07
+          speaker: king
+          text: 地上积着这么深的雪，怎么还能长出这样的梨？
+          emotion: surprised
+        - id: ch02-b08
+          speaker: fox
+          text: 雪可难不住我的主人。他那么富有，什么事都办得到。我今天还替他问一句，您愿意把女儿嫁给他吗？
+        - id: ch02-b09
+          speaker: king
+          text: 他比我富有那么多，这门婚事我反倒不能答应。我的体面不允许我高攀。
+        - id: ch02-b10
+          speaker: fox
+          text: 陛下不必这样想，也用不着为嫁妆发愁。皮罗伯爵什么都不要，只求娶到公主。
+        - id: ch02-b11
+          speaker: king
+          text: 他当真富有到连嫁妆也不要？
+        - id: ch02-b12
+          speaker: fox
+          text: 我不是说过吗？他比您还富有。
+        - id: ch02-b13
+          speaker: king
+          text: 那就请他进宫来，我们当面谈谈。
+        - id: ch02-b14
+          speaker: narrator
+          text: 狐狸回去以后，立刻把自己办的好事告诉少年。
+        - id: ch02-b15
+          speaker: fox
+          text: 我告诉国王，你就是皮罗伯爵。我还替你向他求娶了公主。
+        - id: ch02-b16
+          speaker: beggar_boy
+          text: 小狐狸，你这是干了什么呀！国王一看见我，就会叫人砍掉我的脑袋！
+          emotion: fearful
+        - id: ch02-b17
+          speaker: fox
+          text: 他才不会。你只管照我的话做。
+    - id: ch03
+      title: 皮罗伯爵进宫
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 狐狸进了城，来到最好的一家裁缝铺。它摆足了气派，对裁缝吩咐起来。
+        - id: ch03-b02
+          speaker: fox
+          text: 我的主人皮罗伯爵急着要一件外套。请把店里最好的那件交给我，衣服若是合身，我明天就来付钱。既然时间紧，不如由我亲自送去。
+        - id: ch03-b03
+          speaker: narrator
+          text: 裁缝从没服侍过伯爵，一听这话，赶紧把店里所有做好的外套全拿出来。狐狸一件件看过，选中一件银白相间的华美外套，让裁缝包成包裹，自己咬住系绳带走了。接着，它又找到一个马贩子，说国王召见自己的主人去王宫，终于哄得对方把最好的一匹马送去了小屋。
+        - id: ch03-b04
+          speaker: narrator
+          text: 少年不敢违抗，只得穿上华服，骑着骏马去见国王。狐狸一路跑在前面。
+        - id: ch03-b05
+          speaker: beggar_boy
+          text: 小狐狸，见到国王以后，我该说什么？我这辈子从没跟国王讲过话。
+          emotion: fearful
+        - id: ch03-b06
+          speaker: fox
+          text: 你不用多说，一切交给我。只要讲一句“早安，陛下”，就足够了。
+        - id: ch03-b07
+          speaker: narrator
+          text: 到了王宫，国王亲自来到门前迎接皮罗伯爵，又把他带进大厅。那里早已摆好一桌盛宴，公主也坐在桌旁等候。可是她一句话也不说，皮罗伯爵同样闷声不响。席间这样安静了许久，国王终于忍不住问狐狸。
+        - id: ch03-b08
+          speaker: king
+          text: 伯爵怎么很少开口？
+        - id: ch03-b09
+          speaker: fox
+          text: 他有那么多产业要操心，哪有普通人那样的闲工夫聊天。
+        - id: ch03-b10
+          speaker: narrator
+          text: 国王听了这个解释，觉得十分有道理。大家安安静静地吃完这顿饭，皮罗伯爵和狐狸便向国王告辞了。第二天早晨，狐狸又一次来到少年的小屋。
+        - id: ch03-b11
+          speaker: fox
+          text: 再给我一篮梨。
+        - id: ch03-b12
+          speaker: beggar_boy
+          text: 好吧。可你要记住，这件事说不定会要了我的命。
+        - id: ch03-b13
+          speaker: fox
+          text: 全都交给我。照我说的做，到头来你就会知道，好运真的来了。
+        - id: ch03-b14
+          speaker: narrator
+          text: 狐狸摘了梨，又送进王宫。
+        - id: ch03-b15
+          speaker: fox
+          text: 陛下，我的主人皮罗伯爵送来这些梨，也请您答复他的求婚。
+        - id: ch03-b16
+          speaker: king
+          text: 告诉伯爵，哪一天举行婚礼都随他的心意。
+        - id: ch03-b17
+          speaker: narrator
+          text: 狐狸满心得意地回去报喜，少年却吓坏了。
+        - id: ch03-b18
+          speaker: beggar_boy
+          text: 可是小狐狸，我怎么能把公主带回这间小屋？
+          emotion: fearful
+        - id: ch03-b19
+          speaker: fox
+          text: 还是交给我。到现在为止，我哪件事没有办好？
+        - id: ch03-b20
+          speaker: narrator
+          text: 王宫上下很快忙碌起来，人人都在筹备一场盛大的婚礼。少年仍穿着体面的衣服，以皮罗伯爵的身份来到宫中，就这样娶了公主。
+    - id: ch04
+      title: 通往食人魔城堡的路
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 婚宴整整办了一个星期。随后，狐狸去见国王。
+        - id: ch04-b02
+          speaker: fox
+          text: 我的主人想带新婚妻子回自己的城堡。
+        - id: ch04-b03
+          speaker: king
+          text: 很好，我陪他们一同去。
+        - id: ch04-b04
+          speaker: narrator
+          text: 国王马上吩咐所有朝臣和侍从准备出发，还从自己的马厩里牵出最好的马，给自己、皮罗伯爵和公主乘坐。等一切齐备，浩浩荡荡的一行人才离开王宫，骑马穿过辽阔的平原。小狐狸独自跑在最前面，为大家领路。
+        - id: ch04-b05
+          speaker: narrator
+          text: 狐狸先看见一大群绵羊，正在肥美的青草上安安静静地吃草。它停下脚步，走到照看羊群的牧羊人身边。
+        - id: ch04-b06
+          speaker: fox
+          text: 这些羊是谁的？
+        - id: ch04-b07
+          speaker: shepherd
+          text: 这些羊属于一个食人魔。
+        - id: ch04-b08
+          speaker: fox
+          text: 嘘！看见那群骑马过来的武装人员了吗？你若说羊是食人魔的，他们会杀光羊群，食人魔又会杀了你。等他们来问，就说羊属于皮罗伯爵。这样对谁都好。
+        - id: ch04-b09
+          speaker: narrator
+          text: 狐狸赶紧跑开，不让来人看见它和牧羊人交谈。不久，国王来到羊群旁，勒住了马。
+        - id: ch04-b10
+          speaker: king
+          text: 多漂亮的羊！我的牧场里可没有这么好的。它们是谁的？
+        - id: ch04-b11
+          speaker: shepherd
+          text: 这些羊属于皮罗伯爵。
+        - id: ch04-b12
+          speaker: narrator
+          text: 牧羊人说完这句话，并不知道自己面对的就是国王。国王暗暗想，皮罗伯爵果然富得惊人。他很庆幸，自己的女儿嫁给了这样一位富裕的丈夫。
+        - id: ch04-b13
+          speaker: narrator
+          text: 狐狸继续向前，遇到一大群猪，正围着几棵树拱树根。
+        - id: ch04-b14
+          speaker: fox
+          text: 这些猪是谁的？
+        - id: ch04-b15
+          speaker: swineherd
+          text: 这些猪属于一个食人魔。
+        - id: ch04-b16
+          speaker: fox
+          text: 小声些！你看，那队武装人员正骑马过来。你若说猪是食人魔的，他们会把猪全杀了，食人魔也会要你的命。只管说猪属于皮罗伯爵，对大家都有好处。
+        - id: ch04-b17
+          speaker: narrator
+          text: 四周明明没有人能听见，狐狸还是压低了声音。说完，它飞快地向前跑去。国王很快也来到猪群旁边。
+        - id: ch04-b18
+          speaker: king
+          text: 好肥的猪！我庄园里的猪可比不上。它们是谁的？
+        - id: ch04-b19
+          speaker: swineherd
+          text: 这些猪属于皮罗伯爵。
+        - id: ch04-b20
+          speaker: narrator
+          text: 猪倌也没有认出国王，只照狐狸教的回答。国王看到这群肥猪，越发觉得自己走运，竟然得到了这样一个富裕的女婿。
+        - id: ch04-b21
+          speaker: narrator
+          text: 这一次，狐狸跑得更快了。它在一片开满鲜花的草地上找到一群马，便问看守马群的人。
+        - id: ch04-b22
+          speaker: fox
+          text: 这些马是谁的？
+        - id: ch04-b23
+          speaker: horse_keeper
+          text: 这些马属于一个食人魔。
+        - id: ch04-b24
+          speaker: fox
+          text: 嘘！瞧见那些武装骑手了吗？你若说马是食人魔的，他们会把马全赶走，食人魔随后就会杀你。告诉他们，马是皮罗伯爵的。这样谁都更安全。
+        - id: ch04-b25
+          speaker: narrator
+          text: 狐狸再次跑远。几分钟后，国王来到草地，望着那些马赞叹不已。
+        - id: ch04-b26
+          speaker: king
+          text: 多漂亮的牲口！要是它们属于我该多好。是谁养的？
+        - id: ch04-b27
+          speaker: horse_keeper
+          text: 这些马是皮罗伯爵养的。
+        - id: ch04-b28
+          speaker: narrator
+          text: 看守马群的人同样不认识国王。国王听到回答，心中顿时一阵欢喜。他觉得这些漂亮的马既然属于自己的富女婿，也就跟属于自己差不多了。
+    - id: ch05
+      title: 皮罗伯爵的城堡
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 狐狸终于来到食人魔的城堡。它跑上台阶，泪水不断往下落，还没进门就哭喊起来。
+        - id: ch05-b02
+          speaker: fox
+          text: 可怜的人呀！这么悲惨的命运怎么偏偏落到你们头上！
+          emotion: sad
+        - id: ch05-b03
+          speaker: ogre
+          text: 到底出了什么事？
+          emotion: fearful
+        - id: ch05-b04
+          speaker: narrator
+          text: 食人魔吓得浑身发抖。
+        - id: ch05-b05
+          speaker: fox
+          text: 看见大路上的马队了吗？那是国王派来杀你们的！
+        - id: ch05-b06
+          speakers: [ogre, ogress]
+          ensemble: duo
+          text: 亲爱的小狐狸，求求你救救我们！
+          emotion: fearful
+        - id: ch05-b07
+          speaker: fox
+          text: 我会尽力。你们俩快躲进大烤炉里。等士兵走远，我就放你们出来。
+        - id: ch05-b08
+          speaker: narrator
+          text: 食人魔夫妇一听，连想也没想，便手忙脚乱地爬进大烤炉。狐狸等他们进去，猛地关紧炉门。就在这一刻，国王一行也正好来到了城堡门前。
+        - id: ch05-b09
+          speaker: fox
+          text: 陛下，请下马吧。这里就是皮罗伯爵的宫殿！
+        - id: ch05-b10
+          speaker: king
+          text: 这里竟然比我的王宫还华丽！大厅里有这么多宝物，仆人又都去哪儿了？
+          emotion: surprised
+        - id: ch05-b11
+          speaker: fox
+          text: 尊贵的皮罗伯爵想让公主亲自挑选仆人。
+        - id: ch05-b12
+          speaker: narrator
+          text: 国王环顾大厅，看见四周摆满了华丽的东西。他听过狐狸的解释，满意地点了点头，随后继续骑马赶路，把新婚夫妇留在城堡。夜色渐深，四下再没有一点动静。狐狸悄悄走下楼，来到厨房，亲手点起炉火。躲在大烤炉里的食人魔和妻子，就这样被活活烧死了。
+    - id: ch06
+      title: 狐狸考验皮罗伯爵
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: 第二天早晨，狐狸对皮罗伯爵说起临别的话。
+        - id: ch06-b02
+          speaker: fox
+          text: 如今你有钱，也过得幸福，再用不着我了。不过在我离开前，你得答应我一件事。等我死了，请给我一口华丽的棺材，带着应有的礼遇把我安葬。
+        - id: ch06-b03
+          speaker: princess
+          text: 小狐狸，别说什么死不死的！
+          emotion: sad
+        - id: ch06-b04
+          speaker: narrator
+          text: 公主已经深深喜欢上狐狸。她说这句话时，眼泪几乎要掉下来了。
+        - id: ch06-b05
+          speaker: narrator
+          text: 过了一段日子，狐狸想试试看，皮罗伯爵是否真的感激自己为他做的一切。它回到城堡，倒在门阶上装死。公主正要出门散步，一眼看见小狐狸躺在那里，立刻放声哭了起来，又跪倒在它身旁。
+        - id: ch06-b06
+          speaker: princess
+          text: 我亲爱的小狐狸，你不会死的！你这么可怜，我一定要为你造一口全世界最好的棺材！
+          emotion: sad
+        - id: ch06-b07
+          speaker: beggar_boy
+          text: 给一只畜生造棺材？真是胡闹！抓住它一条腿，扔到沟里去。
+        - id: ch06-b08
+          speaker: narrator
+          text: 狐狸一下从地上跳了起来。
+        - id: ch06-b09
+          speaker: fox
+          text: 你这个可恶又忘恩负义的乞丐！难道你忘了，你所有的财富都是我替你弄来的吗？
+          emotion: angry
+        - id: ch06-b10
+          speaker: narrator
+          text: 皮罗伯爵听完这番话，心里害怕起来。他担心狐狸真有本事夺走城堡，让自己重新变得一贫如洗，只能靠屋后树上的梨子果腹。于是他连忙想办法平息狐狸的怒火，说刚才不过是在开玩笑，自己早就看出狐狸没有真的死。
+        - id: ch06-b11
+          speaker: narrator
+          text: 看在公主的情面上，狐狸终于让怒气平息下来，原谅了皮罗伯爵。此后许多年，它一直住在这座城堡里，还常常陪皮罗伯爵的孩子们玩耍。
+        - id: ch06-b12
+          speaker: narrator
+          text: 等狐狸真的死去，人们用银子为它造了棺材。皮罗伯爵和妻子亲自跟随送葬的队伍，一直把它送到墓地。

@@ -1,0 +1,475 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and gently dramatic
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    fir_tree:
+      display_name: Fir-Tree
+      tts:
+        delivery: eager, restless, and increasingly reflective
+        timbre: young and bright, growing dry with age
+        pace: lively
+        pitch: medium-high
+    stork:
+      display_name: Stork
+      tts:
+        delivery: thoughtful and worldly
+        timbre: clear and reedy
+        pace: measured
+        pitch: medium
+    sunbeam_1:
+      display_name: First Sunbeam
+      tts:
+        delivery: gentle and encouraging
+        timbre: light and glowing
+        pace: unhurried
+        pitch: high
+    sunbeam_2:
+      display_name: Second Sunbeam
+      tts:
+        delivery: gentle and encouraging
+        timbre: light and glowing
+        pace: unhurried
+        pitch: high
+    air:
+      display_name: Air
+      tts:
+        delivery: soft and encouraging
+        timbre: airy and clear
+        pace: unhurried
+        pitch: medium-high
+    sparrow_1:
+      display_name: First Sparrow
+      tts:
+        delivery: excited and quick
+        timbre: small and chirping
+        pace: brisk
+        pitch: high
+    sparrow_2:
+      display_name: Second Sparrow
+      tts:
+        delivery: excited and quick
+        timbre: small and chirping
+        pace: brisk
+        pitch: high
+    young_lady:
+      display_name: Young Lady
+      tts:
+        delivery: alert and urgent
+        timbre: youthful and clear
+        pace: quick
+        pitch: medium-high
+    swallow:
+      display_name: Swallow
+      tts:
+        delivery: bright and musical
+        timbre: light and trilling
+        pace: brisk
+        pitch: high
+    gentleman:
+      display_name: Gentleman
+      tts:
+        delivery: decisive and approving
+        timbre: clear and refined
+        pace: measured
+        pitch: medium-low
+    child_1:
+      display_name: First Child
+      tts:
+        delivery: lively and eager
+        timbre: young and bright
+        pace: quick
+        pitch: high
+    child_2:
+      display_name: Second Child
+      tts:
+        delivery: lively and eager
+        timbre: young and clear
+        pace: quick
+        pitch: high
+    child_3:
+      display_name: Third Child
+      tts:
+        delivery: lively and eager
+        timbre: young and ringing
+        pace: quick
+        pitch: high
+    child_4:
+      display_name: Fourth Child
+      tts:
+        delivery: lively and eager
+        timbre: young and light
+        pace: quick
+        pitch: high
+    storyteller:
+      display_name: Storyteller
+      tts:
+        delivery: genial and playful
+        timbre: round and friendly
+        pace: measured
+        pitch: medium-low
+    mouse_1:
+      display_name: First Mouse
+      tts:
+        delivery: curious and animated
+        timbre: tiny and soft
+        pace: quick
+        pitch: high
+    mouse_2:
+      display_name: Second Mouse
+      tts:
+        delivery: curious and animated
+        timbre: tiny and warm
+        pace: quick
+        pitch: high
+    rat_1:
+      display_name: First Rat
+      tts:
+        delivery: blunt and unimpressed
+        timbre: rough and nasal
+        pace: steady
+        pitch: medium-low
+    rat_2:
+      display_name: Second Rat
+      tts:
+        delivery: blunt and dismissive
+        timbre: rough and dry
+        pace: steady
+        pitch: low
+  chapters:
+    - id: ch01
+      title: Longing to Grow
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: There was once a pretty little fir-tree in a wood. It had warm sun, fresh air, and plenty of tall pines and firs around it. Peasant children came chattering through the wood to gather strawberries and raspberries. Sometimes they filled a whole basket, then strung strawberries on a straw and sat beside the little tree.
+        - id: ch01-b02
+          speakers: [child_1, child_2]
+          ensemble: duo
+          text: What a pretty little tree!
+        - id: ch01-b03
+          speaker: narrator
+          text: The fir-tree did not like that at all. The next year it grew one ring taller, and the year after that it added another. A fir-tree's rings will always tell you its age.
+        - id: ch01-b04
+          speaker: fir_tree
+          text: Oh, if only I were as tall as the others! Then I could spread my branches wide and look out over the great world. Birds would build nests in me, and when the wind blew, I would bow politely like the big trees do.
+        - id: ch01-b05
+          speaker: narrator
+          text: It cared nothing for the sunshine, the birds, or the rose-colored clouds that sailed overhead at dawn and sunset. In winter, sparkling white snow covered the ground. A hare would come bounding through the wood and spring straight over the little tree, and that annoyed it terribly. But two more winters passed. By then the fir-tree had grown so tall that the hare could no longer jump across its top and had to run around it instead.
+        - id: ch01-b06
+          speaker: fir_tree
+          text: Growing taller and older is the only pleasure in life!
+        - id: ch01-b07
+          speaker: narrator
+          text: Every autumn, woodcutters came for some of the tallest trees. The young fir-tree shivered as those magnificent trees crashed and crackled to the ground. Their branches were chopped away until the bare trunks were almost impossible to recognize. Horses then dragged them out of the wood on wagons.
+        - id: ch01-b08
+          speaker: fir_tree
+          text: Where are they going? What will happen to them?
+        - id: ch01-b09
+          speaker: narrator
+          text: When the swallows and storks returned in spring, the fir-tree asked whether they had seen the missing trees. The swallows knew nothing, but the stork nodded thoughtfully.
+        - id: ch01-b10
+          speaker: stork
+          text: I believe I have. On my flight from Egypt, I passed many new ships with splendid masts. I would wager those were your trees. The masts smelled of fir. Ah, they were grand indeed!
+        - id: ch01-b11
+          speaker: fir_tree
+          text: If only I were big enough to sail across the sea! What is the sea like? What does it look like?
+        - id: ch01-b12
+          speaker: stork
+          text: It would take far too long to tell you all about it.
+        - id: ch01-b13
+          speaker: narrator
+          text: And away the stork went.
+        - id: ch01-b14
+          speakers: [sunbeam_1, sunbeam_2]
+          ensemble: duo
+          text: Be glad that you are young. Enjoy this sweet time of growing and the young life inside you.
+        - id: ch01-b15
+          speaker: narrator
+          text: The wind kissed the tree, and the dew wept tears over it. But the fir-tree did not understand.
+    - id: ch02
+      title: Chosen at Christmas
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Near Christmas, very small trees were cut down. Some were no taller than the young fir-tree, and some were even younger. They had been chosen for their beauty, so their branches were left on. Horses drew them away in carts. Now the fir-tree could find no peace. It longed to go with them.
+        - id: ch02-b02
+          speaker: fir_tree
+          text: Where are those trees going? They are no bigger than I am. One was much smaller! Why do they still have all their branches? Where are they being taken?
+        - id: ch02-b03
+          speakers: [sparrow_1, sparrow_2]
+          ensemble: duo
+          text: We know! We have peeped through windows in the city. Those trees receive more splendor than you could imagine. They stand in the middle of a warm room, covered with golden apples, sweets, toys, and hundreds of candles!
+        - id: ch02-b04
+          speaker: fir_tree
+          text: And after that? What happens next?
+        - id: ch02-b05
+          speakers: [sparrow_1, sparrow_2]
+          ensemble: duo
+          text: We never saw anything after that. But what we did see was wonderful!
+        - id: ch02-b06
+          speaker: narrator
+          text: The fir-tree trembled in every branch with eagerness.
+        - id: ch02-b07
+          speaker: fir_tree
+          text: Perhaps that brilliant future is waiting for me. It sounds better than sailing over the sea! If only Christmas would come. I am as tall and grown-up as the trees they took last year. If only I were on the cart, then inside that warm room with all its splendor! And something even better must come afterward. Why else would they dress us so beautifully? But what could it be? I am sick with longing, and I do not know what is happening to me.
+        - id: ch02-b08
+          speakers: [sunbeam_1, air]
+          ensemble: duo
+          text: Enjoy us. Enjoy your fresh young life in the open air.
+        - id: ch02-b09
+          speaker: narrator
+          text: The tree paid no attention. It simply grew, green and fresh through summer and winter. Everyone who passed through the wood called it beautiful. When Christmas came, it was the first tree cut down. The axe struck deep into its heartwood, and it fell to the earth with a groan. It felt bruised and faint. At that moment, it could no longer think about the happiness it had expected. It was leaving its home, the very patch of earth where it had first grown. It knew it would never again see its dear old companions, the little shrubs and flowers around them, or perhaps even the birds. The parting was not pleasant at all.
+        - id: ch02-b10
+          speaker: narrator
+          text: The tree came to itself in a yard among other trees. A man stopped before it.
+        - id: ch02-b11
+          speaker: gentleman
+          text: This one is splendid. It is the only tree we shall need.
+        - id: ch02-b12
+          speaker: narrator
+          text: Two footmen in livery carried it into a great, beautiful room. Pictures hung on the walls. Large Chinese vases with lions on their lids stood near the Dutch stove. There were armchairs, silk sofas, and tables piled with picture books and toys that the children claimed were worth hundreds of pounds.
+        - id: ch02-b13
+          speaker: narrator
+          text: They set the fir-tree in a tub of sand. Greenery hid the tub, and it stood on a bright carpet. The tree trembled, wondering what would come. Colored paper nets filled with sugarplums went onto its branches. Gilt apples and nuts hung as though they had grown there. More than a hundred red, blue, and white candles appeared among the green boughs. Dolls as lifelike as people hung there too, though the tree had never seen a doll before. At the very top, they fixed a golden tinsel star. It was more gorgeous than the tree had ever imagined.
+        - id: ch02-b14
+          speakers: [child_1, child_2, child_3, child_4]
+          ensemble: chorus
+          text: Tonight it will all be lighted!
+        - id: ch02-b15
+          speaker: fir_tree
+          text: If only evening would come! Soon the candles will be glowing. What will happen then? Will the trees from the wood come to see me? Will the sparrows fly against the windows? Am I going to stand here dressed like this through winter and summer?
+        - id: ch02-b16
+          speaker: narrator
+          text: That was not such a bad guess. Yet the fir-tree's longing gave it a real bark-ache, and bark-ache hurts a tree just as badly as a headache hurts us.
+    - id: ch03
+      title: One Glorious Evening
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: At last the candles were lighted. What glitter and splendor! The tree quivered so hard that a candle caught one green branch and singed it.
+        - id: ch03-b02
+          speaker: young_lady
+          text: Be careful!
+        - id: ch03-b03
+          speaker: narrator
+          text: The young ladies hurried to put out the flame. After that, the tree did not dare to quiver, not even at the tip of one branch. It was terrified that some ornament might fall and be lost. The blaze of all those candles and the shine of all those decorations left it quite bewildered.
+        - id: ch03-b04
+          speaker: narrator
+          text: Then the folding doors opened. A crowd of children rushed in as if they meant to knock the tree down, while the older people followed at a sober pace. For one moment the children stood silent. Then they shouted, danced around the tree, and pulled off one present after another.
+        - id: ch03-b05
+          speaker: fir_tree
+          text: What are they doing? What is going to happen to me?
+        - id: ch03-b06
+          speaker: narrator
+          text: The candles burned low on the branches and were put out one by one. Then the children were allowed to plunder the tree. They rushed at it until every bough creaked beneath them. Without the golden star fastening its top to the ceiling, the fir-tree would have been pulled over. Soon all the gifts were gone, and the children danced around with their splendid toys. No one looked at the bare tree. Only the old nurse came near, parting the boughs to see whether a fig or an apple had been forgotten.
+        - id: ch03-b07
+          speakers: [child_1, child_2, child_3, child_4]
+          ensemble: chorus
+          text: A story! Tell us a story!
+        - id: ch03-b08
+          speaker: narrator
+          text: They pulled a short, stout man over to the tree, and he sat beneath its branches.
+        - id: ch03-b09
+          speaker: storyteller
+          text: Here we are in the greenwood, so the tree can listen too. But I will tell only one tale. Shall it be Henny Penny, or Humpty Dumpty, who fell downstairs, won great honor, and married a princess?
+        - id: ch03-b10
+          speakers: [child_1, child_2]
+          ensemble: duo
+          text: Henny Penny!
+        - id: ch03-b11
+          speakers: [child_3, child_4]
+          ensemble: duo
+          text: Humpty Dumpty!
+        - id: ch03-b12
+          speaker: narrator
+          text: All the voices tumbled over one another. Only the fir-tree remained silent.
+        - id: ch03-b13
+          speaker: fir_tree
+          text: Am I not part of this? Is there nothing for me to do?
+        - id: ch03-b14
+          speaker: narrator
+          text: But the tree had already played its part. The man told the tale of Humpty Dumpty, who fell downstairs and married a princess. The children clapped.
+        - id: ch03-b15
+          speakers: [child_1, child_2, child_3, child_4]
+          ensemble: chorus
+          text: Another story! Another one!
+        - id: ch03-b16
+          speaker: narrator
+          text: They wanted Henny Penny as well, but Humpty Dumpty was all they got. The fir-tree stood astonished. The birds in the wood had never told a story like that.
+        - id: ch03-b17
+          speaker: fir_tree
+          text: Humpty Dumpty fell downstairs and still married a princess. Yes, that must be how the world works. Such a nice man told the story, so it must be true. And who knows? Perhaps I will fall downstairs and marry a princess too.
+        - id: ch03-b18
+          speaker: narrator
+          text: The tree happily imagined that the next day would bring back the candles, toys, shining ornaments, and fruit.
+        - id: ch03-b19
+          speaker: fir_tree
+          text: Tomorrow I will tremble with excitement again, and this time I will enjoy all my splendor. I will hear Humpty Dumpty once more, and perhaps Henny Penny too.
+        - id: ch03-b20
+          speaker: narrator
+          text: All through the night, the fir-tree stood silent and lost in thought.
+    - id: ch04
+      title: Stories in the Dark
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The next morning, servants entered the room.
+        - id: ch04-b02
+          speaker: fir_tree
+          text: Now they will dress me up again.
+        - id: ch04-b03
+          speaker: narrator
+          text: Instead, they dragged the tree away, carried it upstairs, and left it in a lumber-room where no light reached the dark corner.
+        - id: ch04-b04
+          speaker: fir_tree
+          text: What can this mean? What am I supposed to do here? What will I hear?
+        - id: ch04-b05
+          speaker: narrator
+          text: The tree leaned against the wall and thought, then thought some more. It had plenty of time for that. Days went by, then nights, and no one came near it. At last someone opened the room, but only to push several large boxes into the same corner. The boxes soon covered the fir-tree from sight. There it stayed, as if every person in the house had completely forgotten it.
+        - id: ch04-b06
+          speaker: fir_tree
+          text: It is winter outside. The ground is frozen under the snow, so they cannot plant me yet. They must be sheltering me until spring. How thoughtful! Still, it is terribly dark and lonely here. There is not even a little hare. The snowy wood was lovely when the hare leaped past me, even when it jumped over me. I did not appreciate it then. It is dreadfully lonely up here.
+        - id: ch04-b07
+          speaker: narrator
+          text: A little mouse came creeping out with a squeak, and a second followed. They sniffed the fir-tree and slipped between its branches.
+        - id: ch04-b08
+          speaker: mouse_1
+          text: It is terribly cold out there. This is a comfortable place, isn't it, old fir-tree?
+        - id: ch04-b09
+          speaker: fir_tree
+          text: I am not old at all. Many trees are much older than I am.
+        - id: ch04-b10
+          speakers: [mouse_1, mouse_2]
+          ensemble: duo
+          text: Where did you come from, and what do you know? Tell us about the most beautiful place in the world. Did you come from there? Have you visited the storeroom, where cheeses sit on shelves and hams hang from the ceiling? That is where mice dance on tallow candles and go in thin but come out fat!
+        - id: ch04-b11
+          speaker: fir_tree
+          text: I know nothing about such a place. But I know the wood, where the sun shines and the birds sing.
+        - id: ch04-b12
+          speaker: narrator
+          text: The fir-tree told them about its young days. The mice had never heard anything like it. They listened with all their ears.
+        - id: ch04-b13
+          speakers: [mouse_1, mouse_2]
+          ensemble: duo
+          text: You have seen so much! What a lucky life you have had!
+        - id: ch04-b14
+          speaker: fir_tree
+          text: Lucky? Yes, now that I think about it, those really were happy times.
+        - id: ch04-b15
+          speaker: narrator
+          text: Then the tree described Christmas Eve, when sweets and candles had covered its branches.
+        - id: ch04-b16
+          speakers: [mouse_1, mouse_2]
+          ensemble: duo
+          text: Oh, what a lucky life you have had, old fir-tree!
+        - id: ch04-b17
+          speaker: fir_tree
+          text: I am not old! I came from the wood only this winter. Perhaps my growth is a little slow, that is all.
+        - id: ch04-b18
+          speakers: [mouse_1, mouse_2]
+          ensemble: duo
+          text: You tell stories beautifully!
+        - id: ch04-b19
+          speaker: narrator
+          text: The next evening, the two mice brought four more listeners who wanted to hear the tree's story. The fir-tree told them even more than before. Every part of its old life had become wonderfully clear now that it was shut away in the dark.
+        - id: ch04-b20
+          speaker: fir_tree
+          text: Those were happy times, and they may return. Humpty Dumpty fell downstairs, yet he married a princess. Perhaps I will marry a princess too.
+        - id: ch04-b21
+          speaker: narrator
+          text: It remembered a pretty little birch-tree in the wood. To the fir-tree, she had looked like a true and beautiful princess.
+        - id: ch04-b22
+          speaker: mouse_1
+          text: Who is Humpty Dumpty?
+        - id: ch04-b23
+          speaker: narrator
+          text: The fir-tree repeated the whole story of Humpty Dumpty, remembering every single word. The little mice were so delighted that they nearly leaped to its highest branch. More mice came the following night. On Sunday, even two rats joined them. The tree began its tale again, but the rats did not care for it. Their cold opinion troubled the little mice, and after that, even they thought less of the story they had loved.
+        - id: ch04-b24
+          speaker: rat_1
+          text: Is that the only story you know?
+        - id: ch04-b25
+          speaker: fir_tree
+          text: It is the only one. I heard it on the happiest evening of my life, though I did not understand my happiness then.
+        - id: ch04-b26
+          speaker: rat_2
+          text: That is a poor story. Do you know one about bacon or tallow candles? A proper storeroom tale?
+        - id: ch04-b27
+          speaker: fir_tree
+          text: No, I do not.
+        - id: ch04-b28
+          speakers: [rat_1, rat_2]
+          ensemble: duo
+          text: Then thank you for your trouble.
+        - id: ch04-b29
+          speaker: narrator
+          text: The rats returned to their friends. In time, the little mice left too.
+        - id: ch04-b30
+          speaker: fir_tree
+          text: It was pleasant when those lively mice sat around me and listened to my stories. Now that is over too. I will keep my spirits up by thinking of the day when they bring me out again.
+    - id: ch05
+      title: Too Late
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: When did that day come? One morning, people arrived to tidy the lumber-room. They threw the fir-tree roughly onto the floor, and a servant immediately dragged it downstairs into daylight.
+        - id: ch05-b02
+          speaker: fir_tree
+          text: Now my life is beginning again!
+          emotion: happy
+        - id: ch05-b03
+          speaker: narrator
+          text: Fresh air touched the tree, along with the first rays of sun. Then it was out in the yard. Everything happened so quickly, and there was so much to see that the tree forgot to look at itself. Beyond the yard was a garden full of flowers. Fresh, sweet roses hung over a little trellis, and the lime-trees were in bloom. Swallows darted through the air, singing to one another.
+        - id: ch05-b04
+          speaker: swallow
+          text: Quirre-virre-vil! My husband has come home!
+        - id: ch05-b05
+          speaker: narrator
+          text: But the swallow did not mean the fir-tree.
+        - id: ch05-b06
+          speaker: fir_tree
+          text: Now I shall truly live!
+          emotion: happy
+        - id: ch05-b07
+          speaker: narrator
+          text: It spread its branches wide. But those branches were yellow and withered. The tree lay in a corner among weeds and nettles. Its golden star still clung to the highest bough and flashed in the sunlight.
+        - id: ch05-b08
+          speaker: narrator
+          text: Some of the merry children who had danced around the tree at Christmas were playing in the yard. The youngest ran over and tore away the star.
+        - id: ch05-b09
+          speaker: child_1
+          text: Look what someone left on this ugly old fir-tree!
+        - id: ch05-b10
+          speaker: narrator
+          text: The child stamped on the branches, and they cracked beneath his feet. The fir-tree looked at the fresh, splendid flowers in the garden, then looked at its own dry limbs. Now it wished it had been left in the dark corner upstairs. It remembered its fresh youth in the wood, when the sun shone and the stars glittered over the winter snow. It remembered the merry Christmas Eve, and the little mice who had listened so happily to the story of Humpty Dumpty.
+        - id: ch05-b11
+          speaker: fir_tree
+          text: Too late! Too late! If only I had enjoyed those days while I had them. Now everything is over and gone.
+          emotion: sad
+    - id: ch06
+      title: The Last Story
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: A servant came and chopped the fir-tree into small pieces. Soon there was a whole bundle of them. The pieces were carried into the brewhouse and thrown beneath the great copper. They caught fire and flickered brightly. As the flames reached it, the tree gave one deep sigh after another. Each sigh cracked like a pistol shot. The children heard the noise from the garden, ran over from their game, and sat together in front of the fire to watch.
+        - id: ch06-b02
+          speakers: [child_1, child_2, child_3, child_4]
+          ensemble: chorus
+          text: Piff! Puff! Bang!
+        - id: ch06-b03
+          speaker: narrator
+          text: With every sharp crack, which was truly one of the tree's sighs, a memory returned. One crack brought back a summer day in the green wood. Another brought back a winter night when the stars shone above the snow. It remembered Christmas Eve and all its glitter. It remembered Humpty Dumpty, the only story it had ever heard and the only story it knew how to tell. Then the last pieces of the fir-tree burned away.
+        - id: ch06-b04
+          speaker: narrator
+          text: The children went on playing in the garden. The youngest wore on his chest the golden star that the tree had worn on the happiest evening of its life. That evening had passed. The tree had passed away. Its story was over too, finished and done.
+        - id: ch06-b05
+          speaker: narrator
+          text: And that is how it is with every story.
+        - id: ch06-b06
+          speaker: narrator
+          text: Here our Danish author ends. This is what people call sentiment, and I hope you enjoy it.

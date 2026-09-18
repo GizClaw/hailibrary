@@ -1,0 +1,404 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 郑重而亲切，带着学者讲述旧日故事的从容
+        timbre: 温暖清晰，沉稳而有书卷气
+        pace: 舒缓，论述转折处稍作停顿
+        pitch: 中低
+    raja:
+      display_name: 国王
+      tts:
+        delivery: 宽厚端正，忧虑时沉重迟疑
+        timbre: 浑厚温和
+        pace: 适中偏慢
+        pitch: 低
+    balna:
+      display_name: 巴尔娜
+      tts:
+        delivery: 聪慧坚定，困境中仍清醒有主见
+        timbre: 清澈柔韧
+        pace: 适中
+        pitch: 中高
+    elder_sister:
+      display_name: 大姐
+      tts:
+        delivery: 善良宽容，待人温和
+        timbre: 柔和清亮
+        pace: 适中
+        pitch: 中
+    sister_2:
+      display_name: 二姐
+      tts:
+        delivery: 心软和善，说话直率
+        timbre: 明净柔和
+        pace: 适中
+        pitch: 中
+    sister_3:
+      display_name: 三姐
+      tts:
+        delivery: 温顺善良，容易相信别人
+        timbre: 轻柔清晰
+        pace: 适中
+        pitch: 中高
+    sister_4:
+      display_name: 四姐
+      tts:
+        delivery: 亲切随和，语气朴实
+        timbre: 温和明亮
+        pace: 适中
+        pitch: 中
+    new_ranee:
+      display_name: 新王后
+      tts:
+        delivery: 狡黠狠毒，装病时虚弱做作
+        timbre: 冷而尖细
+        pace: 稍慢
+        pitch: 中高
+    prudhan_daughter:
+      display_name: 首相的女儿
+      tts:
+        delivery: 好奇而多嘴，告密时急切
+        timbre: 年轻清脆
+        pace: 稍快
+        pitch: 高
+    youngest_prince:
+      display_name: 七王子
+      tts:
+        delivery: 正直敏锐，遇事果断
+        timbre: 年轻爽朗
+        pace: 适中
+        pitch: 中
+    servant_1:
+      display_name: 守门仆人甲
+      tts:
+        delivery: 守规矩却不够机警
+        timbre: 朴实厚重
+        pace: 适中
+        pitch: 中低
+    servant_2:
+      display_name: 守门仆人乙
+      tts:
+        delivery: 随声附和，语气迟钝
+        timbre: 平实清楚
+        pace: 适中
+        pitch: 中
+    punchkin:
+      display_name: 潘奇金
+      tts:
+        delivery: 阴险傲慢，恐惧时急迫哀求
+        timbre: 阴冷干涩
+        pace: 适中
+        pitch: 中低
+    young_prince:
+      display_name: 小王子
+      tts:
+        delivery: 少年般清朗勇敢，思路敏捷而坚定
+        timbre: 清亮有力
+        pace: 适中偏快
+        pitch: 中高
+    malee_wife:
+      display_name: 园丁的妻子
+      tts:
+        delivery: 热心谨慎，带着长者的关切
+        timbre: 温暖朴实
+        pace: 适中
+        pitch: 中
+    mother_eagle:
+      display_name: 鹰妈妈
+      tts:
+        delivery: 威严感激，承诺时真挚
+        timbre: 高亢而温厚
+        pace: 舒缓
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 泥土与柚子树
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前有位国王，养育着七个美丽善良的女儿。王后在她们很小时便去世了，姐妹中最小的巴尔娜格外聪明。国王每日同大臣商议国事，七个女儿便轮流亲手替他做晚餐，免得仇敌有机会下毒。
+        - id: ch01-b02
+          speaker: narrator
+          text: 那时首相刚去世，留下妻子和一个女儿。每逢公主们做饭，首相的遗孀总来讨火。巴尔娜觉得这事不对，屡次提醒姐姐们。
+        - id: ch01-b03
+          speaker: balna
+          text: “快叫她回去吧。她自己家里难道不能备柴生火吗？再这样天天放她进来，我们早晚要吃她的亏。”
+        - id: ch01-b04
+          speakers: [elder_sister, sister_2, sister_3, sister_4]
+          ensemble: chorus
+          text: “巴尔娜，别总跟这个可怜人过不去。她不过拿一点火，就给她吧。”
+        - id: ch01-b05
+          speaker: narrator
+          text: 姐姐们一心行善，没看见那女人抽走柴火时，总趁机往国王的菜里撒泥。国王连续多日吃到混着泥的咖喱，只当女儿粗心。他疼爱孩子，一直没有责备她们。后来他藏进隔壁房间，从墙洞里亲眼看见女儿认真淘米做菜，也看清遗孀怎样往每一盘晚餐里撒泥。
+        - id: ch01-b06
+          speaker: balna
+          text: “你为什么天天来拿我们的柴？姐姐们，往后别再给她了，让她自己去买。”
+        - id: ch01-b07
+          speaker: elder_sister
+          text: “她拿一点木柴和火，又不会伤害我们，就让她拿吧。”
+        - id: ch01-b08
+          speaker: balna
+          text: “你们让她来得这样勤，总有一天，她真会害得我们后悔。”
+        - id: ch01-b09
+          speaker: narrator
+          text: 国王气得命人把遗孀抓来。谁知那女人声称，自己耍诡计只为求见国王，又用一番巧言讨得他的欢心。她不但免了责罚，竟还被国王娶作新王后，带着女儿住进宫里。
+        - id: ch01-b10
+          speaker: narrator
+          text: 新王后恨透了七位公主，想赶走她们，让亲生女儿夺走她们的财富和地位。她每天只给公主一点面包和水。受尽饥饿的姐妹只好到亡母墓前哭诉。
+        - id: ch01-b11
+          speakers: [elder_sister, sister_2, sister_3, balna]
+          ensemble: chorus
+          text: “母亲，您看得见可怜的女儿们吗？狠心的继母快把我们饿死了！”
+        - id: ch01-b12
+          speaker: narrator
+          text: 就在她们哭泣时，坟墓中忽然长出一棵美丽的柚子树，满枝都是新鲜熟透的果子。从此，公主们每天来这里吃柚子，再也不碰继母给的坏饭。新王后见她们不但没有变瘦，气色还胜过自己的女儿，便叫女儿暗中跟踪。
+        - id: ch01-b13
+          speaker: balna
+          text: “她在偷看我们。快赶走她，或者把果子藏起来，不然她一定会回去告密。”
+        - id: ch01-b14
+          speakers: [elder_sister, sister_2, sister_3, sister_4]
+          ensemble: chorus
+          text: “别把人想得那样坏。她不会狠心告密的，请她也吃一个柚子吧。”
+        - id: ch01-b15
+          speaker: narrator
+          text: 首相的女儿吃完柚子，转身就回家报信。
+        - id: ch01-b16
+          speaker: prudhan_daughter
+          text: “我知道她们为什么不吃晚餐了！先王后墓边有棵柚子树，她们每天都去摘果子。我也吃了一个，从没尝过那么好吃的东西。”
+        - id: ch01-b17
+          speaker: narrator
+          text: 新王后恼怒极了，第二天便装作头痛卧床。国王问怎样才能医好她。
+        - id: ch01-b18
+          speaker: new_ranee
+          text: “把您亡妻墓边的柚子树连根拔来，枝叶根须全都煮了。只要在我额头抹一点煮树的水，我就会痊愈。”
+        - id: ch01-b19
+          speaker: narrator
+          text: 国王照办了。王后一抹那水，便说病好了。次日，公主们发现柚子树消失，全都放声痛哭。谁知先王后墓边的小池里又涌出浓浓的乳脂，很快凝成厚厚的白糕。此后每天清早，池里都有乳脂糕供她们充饥。
+        - id: ch01-b20
+          speaker: new_ranee
+          text: “柚子树明明已经毁了，她们也不吃我的饭，怎么还是不瘦不愁？这究竟是怎么回事？”
+        - id: ch01-b21
+          speaker: prudhan_daughter
+          text: “我再去盯着她们。”
+        - id: ch01-b22
+          speaker: narrator
+          text: 女孩再次出现时，巴尔娜劝姐姐们围住池子，别叫她看见乳脂糕。姐姐们仍嫌她多疑，照样分给女孩吃。女孩果然又把秘密告诉母亲。
+    - id: ch02
+      title: 被遗弃的七位公主
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 新王后盛怒之下，命人推倒先王后的坟墓，用碎石填死小池。第二天，她又装得奄奄一息。国王问还有什么药能救她。
+        - id: ch02-b02
+          speaker: new_ranee
+          text: “办法只有一个，可您一定不肯。杀死先王后的七个女儿，把她们的血抹在我的额头和手掌上。她们死了，我才能活。”
+        - id: ch02-b03
+          speaker: raja
+          text: “无论是什么办法，我都已经答应你了。”
+        - id: ch02-b04
+          speaker: narrator
+          text: 国王为自己许下的诺言痛苦万分。他在坟墓废墟旁找到哭泣的女儿，终究不忍下手，只把她们带进丛林，生火煮饭。酷热的午后，姐妹们全睡熟了。国王因惧怕妻子，悄悄把她们留下。
+        - id: ch02-b05
+          speaker: raja
+          text: “让可怜的孩子死在林中，也比落到继母手里好。”
+        - id: ch02-b06
+          speaker: narrator
+          text: 他射死一只鹿，把鹿血抹在王后的额头和掌心。王后以为公主全死了，立刻宣称痊愈。七姐妹醒来时，身边只剩茂密的森林。她们吓得用尽力气呼喊，可父亲早已远去，就算声音像雷一样响，他也听不见。
+        - id: ch02-b07
+          speaker: narrator
+          text: 当天，邻国的七位王子恰好在附近打猎。归途中，最小的七王子听见哭声。
+        - id: ch02-b08
+          speaker: youngest_prince
+          text: “停下，你们听见了吗？有人在哭喊。我们顺着声音找过去，看看发生了什么。”
+        - id: ch02-b09
+          speaker: narrator
+          text: 王子们骑马穿林，找到正哭得绞扭双手的公主。听过她们的遭遇后，七兄弟决定各自迎娶一位无家可归的姑娘。大王子娶大公主，二王子娶二公主，三王子娶三公主，接着四对、五对、六对也各自成婚。最英俊的七王子娶了巴尔娜。七对新人回国时，整个王国都在欢庆。
+        - id: ch02-b10
+          speaker: narrator
+          text: 一年后，巴尔娜生下一个儿子。其余夫妻都没有孩子，于是舅舅和姨母们把他当作共同的继承人来疼爱，这孩子简直有七个父亲、七个母亲。
+        - id: ch02-b11
+          speaker: narrator
+          text: 幸福的日子过了一阵。一天，七王子出门打猎，却再没回来。六个哥哥先后去寻找他，也全都失踪了。七位公主悲痛不已，以为丈夫们已经遇害。
+        - id: ch02-b12
+          speaker: narrator
+          text: 不久后，巴尔娜在楼上摇着儿子的摇篮，姐姐们在楼下做活。一个穿黑色长袍的男人来到宫门前，自称是化缘的苦行僧。
+        - id: ch02-b13
+          speakers: [servant_1, servant_2]
+          ensemble: duo
+          text: “王子们都失踪了，恐怕已经死去。他们的遗孀正在哀伤，不能让你进宫打扰。”
+        - id: ch02-b14
+          speaker: punchkin
+          text: “我是圣人，你们非放我进去不可。”
+        - id: ch02-b15
+          speaker: narrator
+          text: 仆人糊里糊涂地让了路。他们不知道，此人并非苦行僧，而是邪恶的魔法师潘奇金。潘奇金一路看过宫中珍宝，最后来到巴尔娜和摇篮所在的房间。他被巴尔娜的美貌迷住，要她跟自己回去成亲。
+        - id: ch02-b16
+          speaker: balna
+          text: “我的丈夫恐怕死了，可儿子还小。我要留下教他长成聪明能干的人，将来好到世上寻找父亲的消息。我绝不会抛下孩子，更不会嫁给你。”
+        - id: ch02-b17
+          speaker: narrator
+          text: 潘奇金暴怒，把她变成一条小黑狗，牵着她离开。巴尔娜无力逃走，也无法向姐姐报信。
+        - id: ch02-b18
+          speaker: punchkin
+          text: “既然你不肯自己跟我走，我就逼你走。”
+          emotion: angry
+        - id: ch02-b19
+          speakers: [servant_1, servant_2]
+          ensemble: duo
+          text: “这么可爱的小狗，你是从哪儿得来的？”
+        - id: ch02-b20
+          speaker: punchkin
+          text: “一位公主把它送给了我。”
+        - id: ch02-b21
+          speaker: narrator
+          text: 仆人信以为真。后来，巴尔娜的姐姐们听见婴儿哭泣，上楼只见孩子，不见母亲。她们从仆人口中得知苦行僧和黑狗，立刻派人四处搜寻，却一无所获。六姐妹失去了丈夫、妹妹和妹夫，只得放下希望，从此专心抚养外甥。
+    - id: ch03
+      title: 戒指送进高塔
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 转眼，巴尔娜的儿子十四岁了。姨母们把家族的遭遇全告诉了他。少年听完，决心找回父母和舅舅。姨母害怕连最后的希望也失去，苦苦劝他留下。
+        - id: ch03-b02
+          speakers: [elder_sister, sister_2, sister_3, sister_4]
+          ensemble: chorus
+          text: “我们的丈夫、妹妹和妹夫都没了，如今只剩下你。你若也离开，我们该怎么办？”
+        - id: ch03-b03
+          speaker: young_prince
+          text: “姨母们别灰心。我会尽快回来，只要他们还活着，我一定把父亲、母亲和舅舅们带回家。”
+        - id: ch03-b04
+          speaker: narrator
+          text: 他走了几个月，始终找不到线索。又跋涉几百英里后，他几乎绝望，却来到一片布满石头、岩块和树木的国土。那里有一座带高塔的大宫殿，旁边住着园丁一家。
+        - id: ch03-b05
+          speaker: malee_wife
+          text: “孩子，你是谁？这里这样危险，你怎么敢独自闯进来？”
+        - id: ch03-b06
+          speaker: young_prince
+          text: “我是王子。我来寻找父亲、舅舅，还有被邪恶魔法师掳走的母亲。”
+        - id: ch03-b07
+          speaker: malee_wife
+          text: “这片土地和宫殿都属于一个法力无边的魔法师。谁得罪他，他就把谁变成石头或树。你眼前的一切从前都是活人。先有一位王子来到这里，随后他的六个哥哥也来了，如今全变成了石头和树。塔里还关着一位美丽的公主。她不肯嫁给魔法师，已经被囚禁十二年了。”
+        - id: ch03-b08
+          speaker: narrator
+          text: 少年明白，自己终于找到了亲人。他向园丁的妻子说明身世，请她收留自己，好继续探听消息。她答应相助，为躲开魔法师的眼睛，还让王子穿上莎丽，假扮自己的女儿。
+        - id: ch03-b09
+          speaker: narrator
+          text: 一天，潘奇金在花园里看见这个“姑娘”，问她是谁。王子说自己是园丁的女儿。
+        - id: ch03-b10
+          speaker: punchkin
+          text: “你长得很漂亮。明天替我送一束花，给塔里那位美丽的夫人。”
+        - id: ch03-b11
+          speaker: narrator
+          text: 王子欣喜万分，同园丁的妻子商量后，决定继续乔装，等待同母亲相认的机会。巴尔娜成婚时，丈夫送过她一枚刻名的金戒指。她把戒指戴在襁褓中儿子的手上，孩子长大后，姨母们又替他扩宽戒圈，所以如今仍能戴着。
+        - id: ch03-b12
+          speaker: narrator
+          text: 园丁的妻子劝他把戒指系在花束上。可潘奇金怕巴尔娜联络亲友，始终派自己或奴仆在房内监视。王子天天送花，等了很久，终于趁无人留意，把系着戒指的花束抛到母亲脚边。戒指落地发出脆响。巴尔娜认出信物，听完儿子的漫长寻找，终于相信眼前的姑娘就是自己的孩子。她既求儿子指点，又求他别为营救自己送命，还说自己受严密看守，十二年来始终无法逃脱。
+        - id: ch03-b13
+          speaker: young_prince
+          text: “母亲，先别害怕。我们得查清魔法师的力量藏在哪里，才能救回变成岩石和树的父亲与舅舅。您同他争了十二年，现在换成好话吧。就说您不再盼着丈夫回来，也愿意嫁给他，再问清他是否真能不死，又怎样才会丧命。”
+        - id: ch03-b14
+          speaker: narrator
+          text: 巴尔娜采纳了儿子的计策，第二天把潘奇金请来。她一改往日的敌意，魔法师听说她愿意成婚，欢喜得催她立刻举行婚礼。
+        - id: ch03-b15
+          speaker: balna
+          text: “我们做了这么多年仇敌，总得给我一点时间慢慢了解你。告诉我，你真的永远不会死吗？你的法力那么强，难道还会受凡人的苦？”
+        - id: ch03-b16
+          speaker: punchkin
+          text: “你为什么打听这些？”
+        - id: ch03-b17
+          speaker: balna
+          text: “我要做你的妻子，当然得了解你。以后若有灾祸临近，我才知道怎样战胜它，或者替你避开。”
+        - id: ch03-b18
+          speaker: punchkin
+          text: “我的确不同于凡人。几十万英里外有片荒凉密林，林中围着一圈棕榈树。树圈正中摞着六只装满水的陶罐，最下面藏着一个小笼子，笼里有只绿鹦鹉。我的命就在它身上，它死，我也死。不过没人伤得了它。那里无法靠近，还有成千上万的精怪守卫，谁走近就会被杀。”
+        - id: ch03-b19
+          speaker: narrator
+          text: 巴尔娜把秘密告诉儿子，却恳求他千万别去找鹦鹉。
+        - id: ch03-b20
+          speaker: young_prince
+          text: “不拿到鹦鹉，您、父亲和舅舅们谁也得不到自由。请您放心，我会很快回来。您先哄住潘奇金，用各种理由拖延婚礼，别让他看破。”
+    - id: ch04
+      title: 绿鹦鹉
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 小王子又走过许多疲惫的长路，来到一片密林。他在树下睡着，后来被轻微的窸窣声惊醒。一条大蛇正爬向树上的鹰巢，巢中有两只雏鹰。王子拔剑杀死大蛇。恰在此时，两只为孩子觅食的老鹰振翅归来，看见死蛇和持剑的少年。
+        - id: ch04-b02
+          speaker: mother_eagle
+          text: “亲爱的孩子，多年来，我们的雏鸟总被这条恶蛇吃掉。今天你救了它们。往后需要帮助，只管来找我们。这两只小鹰也交给你，让它们为你效劳。”
+        - id: ch04-b03
+          speaker: narrator
+          text: 两只小鹰交叠翅膀，让王子坐在上面，载他飞过重重丛林。终于，那圈棕榈树和六只盛水陶罐出现在下方。正午酷热，数不清的精怪围着树沉睡，密得谁也走不过去。小鹰从空中猛冲而下，王子跳落在地，立刻撞翻六只陶罐，抓住笼中的绿鹦鹉，用斗篷裹好。等他们重新升空，精怪全醒了，发现宝物被夺，发出狂乱而凄厉的号叫。
+        - id: ch04-b04
+          speaker: narrator
+          text: 小鹰把王子送回自己的大树。他向鹰一家道谢，归还两只雏鹰，答应日后若再有需要，还会来求助。随后他徒步返回魔法师的宫殿，坐在门前逗弄鹦鹉。潘奇金一看见，便急忙跑来。
+        - id: ch04-b05
+          speaker: punchkin
+          text: “孩子，你从哪里得来的鹦鹉？求你把它给我！”
+        - id: ch04-b06
+          speaker: young_prince
+          text: “那可不行。这是我养了许多年的爱宠，我绝不能送人。”
+        - id: ch04-b07
+          speaker: punchkin
+          text: “既然养了多年，你舍不得白送也有道理。那你开个价，要什么才肯卖？”
+        - id: ch04-b08
+          speaker: young_prince
+          text: “先生，这只鹦鹉不卖。”
+        - id: ch04-b09
+          speaker: punchkin
+          text: “什么都可以！随你开价，我一定答应。”
+          emotion: fearful
+        - id: ch04-b10
+          speaker: young_prince
+          text: “那就立刻释放被你变成岩石和树木的七位王子。”
+        - id: ch04-b11
+          speaker: narrator
+          text: 潘奇金答应了，只求拿回鹦鹉。他挥动魔杖，巴尔娜的丈夫和六个哥哥立即恢复原形。
+        - id: ch04-b12
+          speaker: punchkin
+          text: “已经照你的话做了。现在把我的鹦鹉还来！”
+        - id: ch04-b13
+          speaker: young_prince
+          text: “别这样着急，大人。先把所有被你囚禁成石头和树的人都恢复生命。”
+        - id: ch04-b14
+          speaker: narrator
+          text: 魔法师只得再次挥杖。整座花园顿时活了过来。岩石、石块和树木消失了，原地站着国王、王公、将领，骑着腾跃骏马的勇士，佩戴珠宝的侍从，还有一队队全副武装的人马。
+        - id: ch04-b15
+          speaker: punchkin
+          text: “把我的鹦鹉给我！”
+          emotion: fearful
+    - id: ch05
+      title: 潘奇金之死
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 少年抓住鹦鹉，扯掉一边翅膀。潘奇金的右臂随即掉落。
+        - id: ch05-b02
+          speaker: punchkin
+          text: “把我的鹦鹉给我！”
+          emotion: fearful
+        - id: ch05-b03
+          speaker: narrator
+          text: 潘奇金伸出左臂哀求。王子扯掉鹦鹉的另一边翅膀，魔法师的左臂也滚到地上。
+        - id: ch05-b04
+          speaker: punchkin
+          text: “把我的鹦鹉给我！”
+          emotion: fearful
+        - id: ch05-b05
+          speaker: narrator
+          text: 魔法师跪倒了。王子扯下鹦鹉的右腿，潘奇金的右腿便掉了。王子再扯下鹦鹉的左腿，他的左腿也随之落地。潘奇金如今只剩躯干和头颅，可两只眼睛还在转动。
+        - id: ch05-b06
+          speaker: punchkin
+          text: “把我的鹦鹉给我！”
+          emotion: fearful
+        - id: ch05-b07
+          speaker: young_prince
+          text: “好，那就把你的鹦鹉拿去！”
+        - id: ch05-b08
+          speaker: narrator
+          text: 少年拧断鹦鹉的脖子，把死鸟掷向魔法师。潘奇金的头也猛地扭转过去。他发出一声可怕的呻吟，终于死了。
+        - id: ch05-b09
+          speaker: narrator
+          text: 众人打开高塔，救出巴尔娜。她和儿子、丈夫以及六位兄长一起回到故国，从此过上幸福的生活。至于被解救的其余人，也都各自回家去了。

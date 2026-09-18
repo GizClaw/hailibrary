@@ -1,0 +1,285 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, legendary, and composed
+        timbre: rich and clear
+        pace: measured
+        pitch: medium
+    ivan:
+      display_name: Ivan
+      tts:
+        delivery: plainspoken, earnest, and resolute
+        timbre: warm and sturdy
+        pace: measured
+        pitch: medium
+    master:
+      display_name: Ivan's Master
+      tts:
+        delivery: patient, shrewd, and kindly
+        timbre: weathered and clear
+        pace: unhurried
+        pitch: medium-low
+    wife:
+      display_name: Ivan's Wife
+      tts:
+        delivery: practical, warm, and sincere
+        timbre: clear and gentle
+        pace: measured
+        pitch: medium-high
+    merchant_1:
+      display_name: First Merchant
+      tts:
+        delivery: hearty, sociable, and direct
+        timbre: full and bright
+        pace: lively
+        pitch: medium
+    merchant_2:
+      display_name: Second Merchant
+      tts:
+        delivery: friendly, animated, and earnest
+        timbre: crisp and open
+        pace: brisk
+        pitch: medium-high
+    merchant_3:
+      display_name: Third Merchant
+      tts:
+        delivery: genial, expressive, and grounded
+        timbre: mellow and clear
+        pace: measured
+        pitch: medium-low
+    monk:
+      display_name: Monk
+      tts:
+        delivery: guarded, low, and deliberate
+        timbre: dark and dry
+        pace: slow
+        pitch: low
+    lord:
+      display_name: Great Lord
+      tts:
+        delivery: authoritative, attentive, and fair
+        timbre: resonant and polished
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: Three Years of Advice
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Long ago, a man named Ivan lived with his wife at a place called Hwrdh, in the parish of Llanlavan. Work grew scarce there. At last, Ivan decided he must look for work somewhere else.
+        - id: ch01-b02
+          speaker: ivan
+          text: I will go and find work. You can stay here at home.
+        - id: ch01-b03
+          speaker: narrator
+          text: He said a proper farewell to his wife and traveled far to the east. In time, he came to a farmhouse and asked the farmer for a job.
+        - id: ch01-b04
+          speaker: master
+          text: What sort of work are you able to do?
+        - id: ch01-b05
+          speaker: ivan
+          text: I can turn my hand to any kind of work.
+        - id: ch01-b06
+          speaker: narrator
+          text: So they settled on wages of three pounds for one year. When the year was over, the farmer showed Ivan the three pounds he had earned.
+        - id: ch01-b07
+          speaker: master
+          text: Here are your wages, Ivan. But give the money back to me, and I will give you one piece of advice instead.
+        - id: ch01-b08
+          speaker: ivan
+          text: No. Give me the wages I earned.
+        - id: ch01-b09
+          speaker: master
+          text: I will not, until I have explained the advice.
+        - id: ch01-b10
+          speaker: ivan
+          text: Very well. Tell me what it is.
+        - id: ch01-b11
+          speaker: master
+          text: Never leave the old road for the sake of a new one.
+        - id: ch01-b12
+          speaker: narrator
+          text: Ivan agreed to work another year for the same wages. At the end of that year, he took a second piece of advice instead of his pay.
+        - id: ch01-b13
+          speaker: master
+          text: Never stay in a house where an old man is married to a young woman.
+        - id: ch01-b14
+          speaker: narrator
+          text: The same thing happened after the third year. This time, his master's advice was that honesty is the best policy. But Ivan would stay no longer. He wanted to return to his wife.
+        - id: ch01-b15
+          speaker: master
+          text: Do not leave today. My wife is baking tomorrow, and she will make a cake for you to carry home to your good wife.
+        - id: ch01-b16
+          speaker: narrator
+          text: The next day, as Ivan prepared to go, his master handed him the cake.
+        - id: ch01-b17
+          speaker: master
+          text: Take this home to your wife. When the two of you are happier than ever, break the cake open. Do not break it before then.
+        - id: ch01-b18
+          speaker: narrator
+          text: Ivan thanked them, said farewell, and set out for home.
+    - id: ch02
+      title: The Old Road
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: At last, Ivan reached Wayn Her. There he met three merchants from Tre Rhyn, in his own parish. They were returning from Exeter Fair and were delighted to see him.
+        - id: ch02-b02
+          speakers: [merchant_1, merchant_2, merchant_3]
+          ensemble: chorus
+          text: Ivan! Come along with us. We are glad to see you! Where have you been all this time?
+        - id: ch02-b03
+          speaker: ivan
+          text: I have been away in service. Now I am on my way home to my wife.
+        - id: ch02-b04
+          speakers: [merchant_1, merchant_2, merchant_3]
+          ensemble: chorus
+          text: Then travel with us. You will be very welcome!
+        - id: ch02-b05
+          speaker: narrator
+          text: They went on together until the merchants turned onto a new road. Ivan remembered his master's first advice, so he stayed on the old one.
+        - id: ch02-b06
+          speaker: narrator
+          text: Before the merchants had gone far across the fields by the meadow houses, robbers attacked them. The merchants cried out for help.
+        - id: ch02-b07
+          speakers: [merchant_1, merchant_2, merchant_3]
+          ensemble: chorus
+          text: Thieves! Thieves!
+          emotion: fearful
+        - id: ch02-b08
+          speaker: ivan
+          text: Thieves! Thieves!
+        - id: ch02-b09
+          speaker: narrator
+          text: When the robbers heard Ivan shouting from the other road, they ran away. The merchants kept to the new road, while Ivan followed the old one. They met again at Market-Jew.
+        - id: ch02-b10
+          speaker: merchant_1
+          text: Ivan, we owe you our lives. Without your help, we would have been lost.
+        - id: ch02-b11
+          speaker: merchant_2
+          text: Stay at our lodging tonight. We will pay for everything, and you will be welcome.
+    - id: ch03
+      title: The House Next Door
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: When they reached the house where the merchants usually stayed, Ivan asked to see the host.
+        - id: ch03-b02
+          speakers: [merchant_1, merchant_2, merchant_3]
+          ensemble: chorus
+          text: The host? Why do you want him? The hostess is right here, and she is young and pretty. But if you insist, you will find the host in the kitchen.
+        - id: ch03-b03
+          speaker: narrator
+          text: Ivan went into the kitchen. There he found a weak old man turning the roasting spit. At once, Ivan remembered his master's second piece of advice.
+        - id: ch03-b04
+          speaker: ivan
+          text: Oh, no. I will not sleep in this house. I will stay next door.
+        - id: ch03-b05
+          speakers: [merchant_1, merchant_2, merchant_3]
+          ensemble: chorus
+          text: Do not leave yet. At least eat supper with us. You are welcome at our table.
+        - id: ch03-b06
+          speaker: narrator
+          text: Unknown to the travelers, the young hostess had made a plan with a monk in Market-Jew. That night, while everyone slept, they meant to murder the old host in his bed and blame the lodgers.
+        - id: ch03-b07
+          speaker: narrator
+          text: Ivan went to bed in the house next door. There was a hole in the wall between the two houses, and a light shone through it. Ivan got up and looked through. He heard the monk speak.
+        - id: ch03-b08
+          speaker: monk
+          text: I had better block this hole, or someone next door may see what we do.
+        - id: ch03-b09
+          speaker: narrator
+          text: The monk stood with his back against the hole. While he covered it, the hostess killed her old husband. But Ivan drew his knife and slipped the blade through the opening. He cut a round piece from the monk's robe and kept it.
+    - id: ch04
+      title: The Piece of Cloth
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Early the next morning, the hostess raised the alarm. She cried that her husband had been murdered. No man or child had been in the house except the three merchants, so she declared that they should hang for the crime.
+        - id: ch04-b02
+          speaker: narrator
+          text: The merchants were seized and taken to prison. After a while, Ivan came to see them.
+        - id: ch04-b03
+          speaker: merchant_1
+          text: Oh, Ivan, bad luck will not leave us alone!
+          emotion: sad
+        - id: ch04-b04
+          speaker: merchant_2
+          text: Our host was murdered last night, and now they mean to hang us for it.
+          emotion: fearful
+        - id: ch04-b05
+          speaker: ivan
+          text: Then ask the justices to bring in the people who truly killed him.
+        - id: ch04-b06
+          speakers: [merchant_1, merchant_2, merchant_3]
+          ensemble: chorus
+          text: But who can know who committed the murder?
+        - id: ch04-b07
+          speaker: ivan
+          text: Who did it? I can prove who did it. If I cannot, they may hang me in your place.
+        - id: ch04-b08
+          speaker: narrator
+          text: Ivan told the justices everything he had seen and heard. Then he produced the round piece of cloth cut from the monk's robe. That evidence set the merchants free. The hostess and the monk were seized instead, and both were hanged.
+        - id: ch04-b09
+          speaker: narrator
+          text: Ivan and the merchants left Market-Jew together.
+        - id: ch04-b10
+          speakers: [merchant_1, merchant_2, merchant_3]
+          ensemble: chorus
+          text: Come with us as far as Coed Carrn y Wylfa, the Wood of the Heap of Stones of Watching, in the parish of Burman.
+        - id: ch04-b11
+          speaker: narrator
+          text: When their roads divided, the merchants still wanted Ivan to follow them. He refused. He went straight home to his wife.
+    - id: ch05
+      title: Honesty and the Cake
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The moment Ivan's wife saw him, she told him he had arrived just in time.
+        - id: ch05-b02
+          speaker: wife
+          text: I found this purse of gold. There is no name on it, but I am sure it belongs to the great lord nearby. I was just wondering what to do when you came home.
+        - id: ch05-b03
+          speaker: narrator
+          text: Ivan remembered his master's third piece of advice.
+        - id: ch05-b04
+          speaker: ivan
+          text: We must take it to the great lord and give it back.
+        - id: ch05-b05
+          speaker: narrator
+          text: They went up to the castle, but the lord was away. So they left the purse with the servant who watched the gate. Then they returned home and lived quietly for a time.
+        - id: ch05-b06
+          speaker: narrator
+          text: One day, the great lord stopped at their house and asked for a drink of water. Ivan's wife spoke to him about the purse.
+        - id: ch05-b07
+          speaker: wife
+          text: I hope your lordship received your purse safely, with all the money still inside.
+        - id: ch05-b08
+          speaker: lord
+          text: What purse do you mean?
+        - id: ch05-b09
+          speaker: ivan
+          text: The purse that belonged to your lordship. We left it at the castle.
+        - id: ch05-b10
+          speaker: lord
+          text: Come with me. We will find out what happened to it.
+        - id: ch05-b11
+          speaker: narrator
+          text: Ivan and his wife went back to the castle with him. They pointed out the servant who had taken the purse. The man was forced to return it, and the lord sent him away from the castle.
+        - id: ch05-b12
+          speaker: narrator
+          text: The lord was so pleased with Ivan that he gave him the dishonest servant's place.
+        - id: ch05-b13
+          speaker: ivan
+          text: Honesty really is the best policy! How happy I am!
+          emotion: happy
+        - id: ch05-b14
+          speaker: narrator
+          text: Ivan skipped around his new quarters in delight. Then he remembered the cake his old master had given him. He was to break it when he and his wife were happier than ever.
+        - id: ch05-b15
+          speaker: narrator
+          text: Ivan broke the cake open. And there, hidden inside, were all the wages from the three years he had served his master.

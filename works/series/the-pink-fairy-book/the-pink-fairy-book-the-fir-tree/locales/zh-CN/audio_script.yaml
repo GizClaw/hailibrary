@@ -1,0 +1,445 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，带一点温和的幽默
+        timbre: 温暖清晰
+        pace: 舒缓而有变化
+        pitch: 中音
+    fir_tree:
+      display_name: 枞树
+      tts:
+        delivery: 天真急切，常常沉浸在对未来的向往中
+        timbre: 清亮稚嫩
+        pace: 稍快而富于起伏
+        pitch: 中高音
+    stork:
+      display_name: 鹳鸟
+      tts:
+        delivery: 见多识广，回答简洁随意
+        timbre: 清朗略带沙哑
+        pace: 从容
+        pitch: 中音
+    sunshine:
+      display_name: 阳光
+      tts:
+        delivery: 温柔明亮，像在耐心劝慰
+        timbre: 轻暖通透
+        pace: 舒缓
+        pitch: 中高音
+    air:
+      display_name: 空气
+      tts:
+        delivery: 自由轻快，带着自然的亲切
+        timbre: 轻柔清澈
+        pace: 舒展
+        pitch: 中音
+    sparrow_1:
+      display_name: 麻雀甲
+      tts:
+        delivery: 活泼兴奋，喜欢抢着报消息
+        timbre: 细亮轻巧
+        pace: 快
+        pitch: 高音
+    sparrow_2:
+      display_name: 麻雀乙
+      tts:
+        delivery: 活泼兴奋，说起见闻时眉飞色舞
+        timbre: 清脆轻巧
+        pace: 快
+        pitch: 高音
+    man:
+      display_name: 男人
+      tts:
+        delivery: 办事干脆，语气笃定
+        timbre: 厚实清楚
+        pace: 平稳
+        pitch: 中低音
+    young_lady_1:
+      display_name: 年轻姑娘甲
+      tts:
+        delivery: 反应敏捷，声音清楚利落
+        timbre: 明亮
+        pace: 稍快
+        pitch: 中高音
+    young_lady_2:
+      display_name: 年轻姑娘乙
+      tts:
+        delivery: 反应敏捷，语气紧张直接
+        timbre: 清亮
+        pace: 稍快
+        pitch: 中高音
+    child_1:
+      display_name: 孩子甲
+      tts:
+        delivery: 兴高采烈，想到什么便大声说出来
+        timbre: 稚嫩明亮
+        pace: 快
+        pitch: 高音
+    child_2:
+      display_name: 孩子乙
+      tts:
+        delivery: 热闹活泼，容易跟伙伴一起起哄
+        timbre: 清脆稚嫩
+        pace: 快
+        pitch: 高音
+    child_3:
+      display_name: 孩子丙
+      tts:
+        delivery: 好奇兴奋，说话直率响亮
+        timbre: 轻亮稚嫩
+        pace: 快
+        pitch: 高音
+    storyteller:
+      display_name: 讲故事的先生
+      tts:
+        delivery: 和善风趣，懂得吊起孩子们的胃口
+        timbre: 圆润温厚
+        pace: 从容有节奏
+        pitch: 中低音
+    mouse_1:
+      display_name: 小老鼠甲
+      tts:
+        delivery: 好奇热情，问话一串接一串
+        timbre: 细小轻快
+        pace: 快
+        pitch: 高音
+    mouse_2:
+      display_name: 小老鼠乙
+      tts:
+        delivery: 天真捧场，听故事时格外投入
+        timbre: 清细柔和
+        pace: 稍快
+        pitch: 高音
+    rat_1:
+      display_name: 大耗子甲
+      tts:
+        delivery: 挑剔冷淡，只关心吃食
+        timbre: 粗哑低沉
+        pace: 平稳
+        pitch: 低音
+    rat_2:
+      display_name: 大耗子乙
+      tts:
+        delivery: 不耐烦又自以为是
+        timbre: 沙哑厚重
+        pace: 稍慢
+        pitch: 低音
+    youngest_child:
+      display_name: 最小的孩子
+      tts:
+        delivery: 顽皮直率，不懂得体谅
+        timbre: 稚嫩清亮
+        pace: 快
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 一心想长大的小枞树
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，树林里有一棵秀气的小枞树。它生长的地方再好不过，晒得到太阳，也呼吸得到新鲜空气。周围还有许多高大的松树和枞树陪着它。乡下孩子来采野草莓和覆盆子时，常在林间跑来跑去，一路叽叽喳喳说个不停。他们常常采满一篮果子，又把草莓一颗颗穿在草秆上，然后坐到小树旁歇脚。可小枞树既不留意孩子，也不珍惜阳光和空气。
+        - id: ch01-b02
+          speakers: [child_1, child_2]
+          ensemble: duo
+          text: 你们看，这棵小树长得多漂亮呀！
+        - id: ch01-b03
+          speaker: narrator
+          text: 可小枞树一点也不爱听这话。第二年，它长高了一轮枝条，再过一年，又长高一轮。数一数枞树身上的轮枝，就能知道它有多大年纪。
+        - id: ch01-b04
+          speaker: fir_tree
+          text: 我真想像别的树一样高大！那样，我就能把枝条伸得又高又远，看见外面的广大世界。鸟儿会来筑巢，风吹过来时，我也能像大树那样向它点头。
+        - id: ch01-b05
+          speaker: narrator
+          text: 阳光、鸟儿，还有清晨和黄昏从头顶驶过的玫瑰色云霞，都不能让它快活。冬天来了，洁白的积雪铺满四周，闪闪发亮。一只野兔常跑来，从小枞树头顶一跃而过。小枞树为这件事生了好大的气。又过两个冬天，它已经高得让野兔只能绕着树干跑了。
+        - id: ch01-b06
+          speaker: fir_tree
+          text: 不停地长，长得又高又老，这才是活着唯一的乐事。
+        - id: ch01-b07
+          speaker: narrator
+          text: 每到秋天，伐木工人都会来到林中，砍倒几棵最高大的树，而且年年都是这样。雄伟的树木噼啪作响，轰然倒地。小枞树吓得浑身发抖。工人砍去所有枝条，只留下光秃秃的粗大树干，几乎再也认不出原来的模样。随后，树干被装上大车，由马拖出树林。小枞树不知道它们去了哪里，更不知道它们以后会怎样。
+        - id: ch01-b08
+          speaker: narrator
+          text: 春天，燕子和鹳鸟飞回来了。小枞树赶紧问它们，有没有在路上见过那些被运走的树。燕子什么也不知道，鹳鸟却想了一会儿，点了点头。
+        - id: ch01-b09
+          speaker: stork
+          text: 我大概知道。从埃及回来时，我遇见过许多新船。船上那些漂亮的桅杆带着枞树的香气，我敢说就是它们。那些桅杆可真气派！
+        - id: ch01-b10
+          speaker: fir_tree
+          text: 我要是也能长得那么高，漂洋过海就好了！海到底是什么样的？看起来像什么呢？
+        - id: ch01-b11
+          speaker: stork
+          text: 要把海的样子全讲清楚，那可得说上很久。我先走啦。
+        - id: ch01-b12
+          speaker: narrator
+          text: 鹳鸟飞走了。阳光望着小枞树，温柔地劝它。
+        - id: ch01-b13
+          speaker: sunshine
+          text: 好好享受你的青春吧。你正在长大，身体里满是年轻的生命，这段日子多美好啊。
+        - id: ch01-b14
+          speaker: narrator
+          text: 风亲吻它，露珠在它身上流下泪水，小枞树却不懂它们的心意。
+        - id: ch01-b15
+          speaker: narrator
+          text: 圣诞节快到时，林里一些很小的树被砍走了。有的和小枞树一般大，有的甚至比它还矮。这些小树是因为美丽才被选中的，所以一根枝条也没砍。它们被装上大车，由马拉出了树林。小枞树看着一车车同伴远去，一心只想和它们一起离开。那份盼望从早到晚缠着它，让它再也得不到片刻安宁。
+        - id: ch01-b16
+          speaker: fir_tree
+          text: 它们为什么能走？明明没有一棵比我高，还有一棵比我矮得多。人们为什么留下它们的枝条？到底要把它们送到哪里？
+        - id: ch01-b17
+          speakers: [sparrow_1, sparrow_2]
+          ensemble: duo
+          text: 我们知道！我们飞进城里，从窗户外面看见过。那些树被立在温暖的屋子中央，身上挂满金苹果、糖果和玩具，枝头还点着成百上千支蜡烛。那种光彩和荣耀，你想都想不到！
+        - id: ch01-b18
+          speaker: fir_tree
+          text: 再后来呢？蜡烛点起来以后，又会发生什么？
+        - id: ch01-b19
+          speaker: sparrow_1
+          text: 后面的事我们没看见。不过光是那些，就已经好得不得了啦！
+        - id: ch01-b20
+          speaker: narrator
+          text: 枞树激动极了。它觉得这样的前程比漂洋过海还好，盼得几乎要生病。
+        - id: ch01-b21
+          speaker: fir_tree
+          text: 圣诞节为什么还不到呢？我已经和去年被运走的树一样高大了。要是我已经躺在车上，已经走进温暖的屋子，该有多好！人们把树打扮得那么美，后来一定还有更伟大、更壮丽的事。可那会是什么呢？我都快盼得枯萎了，真不知道自己怎么会这样！
+        - id: ch01-b22
+          speakers: [air, sunshine]
+          ensemble: duo
+          text: 看看我们吧。在这片自由的天地里，好好享受你鲜活的青春。
+        - id: ch01-b23
+          speaker: narrator
+          text: 小枞树依旧不肯听，只顾不停地生长。冬天也好，夏天也好，它总是青翠鲜亮。每个见过它的人都夸它美。终于，圣诞节到了，它第一个被砍下来。斧头深深劈进树心，枞树呻吟着倒在地上，浑身像是撞伤了，疼得昏昏沉沉。这时，它再也想不到幸福，只为离开故乡而难过。它破土而出的地方、亲爱的老伙伴、小灌木、花儿和鸟儿，它知道自己也许再也见不到了。这场离别，一点也不愉快。
+    - id: ch02
+      title: 最辉煌的圣诞夜
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 枞树醒来时，已经和别的树堆在一座院子里。一个男人看中了它。
+        - id: ch02-b02
+          speaker: man
+          text: 这棵最好，我们只要这一棵就够了。
+        - id: ch02-b03
+          speaker: narrator
+          text: 两个穿制服的男仆把枞树抬进一间宽敞华美的屋子。墙上挂着画，荷兰式火炉旁摆着高大的中国花瓶，瓶盖上还蹲着狮子。屋里有扶手椅、蒙着丝绸的长沙发，也有堆满图画书和玩具的大桌子。孩子们说，那些东西值几百英镑。枞树被立在装满沙子的大木桶里，木桶外面围满绿色枝叶，还摆在鲜艳的地毯上，谁也看不出里面藏着木桶。
+        - id: ch02-b04
+          speaker: narrator
+          text: 枞树紧张得直发抖，不知道接下来还会发生什么。人们把彩纸小网兜挂在枝头，每只网兜都装满糖果。镀金的苹果和坚果垂下来，像是从树上长出来的。一百多支红、蓝、白三色小蜡烛插进枝叶，真人般的洋娃娃也悬在绿枝之间。枞树从没见过洋娃娃。最后，一颗金箔做的星星被装在最高的树梢上。它从没有这样华丽过，简直华丽得不同寻常。
+        - id: ch02-b05
+          speakers: [young_lady_1, young_lady_2]
+          ensemble: duo
+          text: 等到今天晚上，我们就把它点亮。
+        - id: ch02-b06
+          speaker: fir_tree
+          text: 天怎么还不黑呢？蜡烛很快就会亮起来吧。接下来，树林里的树会不会都来看我？麻雀会不会飞来撞上窗玻璃？难道整个冬天和夏天，我都要这样漂亮地站着吗？
+        - id: ch02-b07
+          speaker: narrator
+          text: 这番猜测倒不算太坏。可它盼得太厉害，连树皮都疼了起来。树木的树皮疼，就和人的头疼一样难受。
+        - id: ch02-b08
+          speaker: narrator
+          text: 蜡烛终于点亮了。满屋都是光彩，枞树兴奋得每根枝条都在颤抖。一支蜡烛碰着了绿叶，烧焦了一小块。
+        - id: ch02-b09
+          speakers: [young_lady_1, young_lady_2]
+          ensemble: duo
+          text: 小心，树枝着火了！
+          emotion: fearful
+        - id: ch02-b10
+          speaker: narrator
+          text: 姑娘们赶紧扑灭了火。这下，枞树再也不敢动。它怕弄掉任何一件饰物，也被四周的光辉照得晕头转向。
+        - id: ch02-b11
+          speaker: narrator
+          text: 折叠门突然打开，一大群孩子猛冲进来，仿佛要把整棵树撞倒。大人们稳稳当当地跟在后面。孩子们先是静静站住，可只过了一小会儿，他们便欢呼起来，围着树跳舞，把礼物一件件摘走。
+        - id: ch02-b12
+          speaker: fir_tree
+          text: 他们这是在做什么？接下来又会怎么样？
+        - id: ch02-b13
+          speaker: narrator
+          text: 枝头的蜡烛越烧越短，一支接一支被吹灭。随后，大人允许孩子们随意拿走树上的东西。他们一窝蜂扑上去，争着把剩下的礼物摘光，压得每根树枝都嘎吱作响。幸好树梢的金星拴在天花板上，不然枞树早被推倒了。
+        - id: ch02-b14
+          speaker: narrator
+          text: 孩子们拿着漂亮的玩具，跳得欢天喜地。谁也不再看枞树，只有年老的保姆过来翻了翻枝条，看看是不是还漏着一颗无花果或一个苹果。
+        - id: ch02-b15
+          speakers: [child_1, child_2, child_3]
+          ensemble: chorus
+          text: 我们要听故事！快来给我们讲一个故事！
+        - id: ch02-b16
+          speaker: narrator
+          text: 孩子们把一个矮胖的男人拖到树旁。他在树下坐下来。
+        - id: ch02-b17
+          speaker: storyteller
+          text: 这下，我们就像坐在绿树林里。枞树也一定爱听故事。不过我只讲一个。你们要听《母鸡潘妮》，还是要听《矮胖子登普蒂》？登普蒂从楼梯上摔了下来，后来却得到极大的荣耀，还娶了一位公主。
+        - id: ch02-b18
+          speakers: [child_1, child_2]
+          ensemble: duo
+          text: 我们要听《母鸡潘妮》！
+        - id: ch02-b19
+          speaker: child_3
+          text: 我要听《矮胖子登普蒂》！
+        - id: ch02-b20
+          speaker: narrator
+          text: 大家你喊我叫，屋里乱成了一片。只有枞树没有出声。它听着孩子们争来争去，不明白自己在这一切热闹里到底该做什么。
+        - id: ch02-b21
+          speaker: fir_tree
+          text: 这个故事难道没有我的事吗？我什么都不用做吗？
+        - id: ch02-b22
+          speaker: narrator
+          text: 其实，枞树早已身在故事之中，也早就演完了自己的角色。那位先生讲了矮胖子登普蒂怎样摔下楼梯，又怎样娶到公主。孩子们拍手叫好，还想再听《母鸡潘妮》，可他们最后只听了这一个故事。
+        - id: ch02-b23
+          speaker: narrator
+          text: 枞树又惊讶，又沉思。林中的鸟儿从没讲过这样的事。可这位先生看起来那么和善，他讲的当然是真的。
+        - id: ch02-b24
+          speaker: fir_tree
+          text: 原来世上的事是这样的。矮胖子登普蒂摔下楼梯，还能娶到公主。谁知道呢？也许有一天，我也会摔下楼梯，再娶一位公主。
+        - id: ch02-b25
+          speaker: narrator
+          text: 枞树想到明天还会挂满蜡烛、玩具、闪亮的饰物和果子，心里欢喜极了。
+        - id: ch02-b26
+          speaker: fir_tree
+          text: 明天，我还要兴奋得浑身发抖，还要把这份辉煌好好享受个够。我会再听一遍《矮胖子登普蒂》，说不定也能听到《母鸡潘妮》。
+        - id: ch02-b27
+          speaker: narrator
+          text: 就这样，枞树默默站了一整夜，沉浸在自己的念头里。
+    - id: ch03
+      title: 储藏室里的故事
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 第二天早晨，仆人们来了。枞树以为，人们又要给它戴上那些漂亮的饰物。没想到，他们把它拖出房间，拖上楼梯，扔进储藏室一个不见阳光的黑暗角落。
+        - id: ch03-b02
+          speaker: fir_tree
+          text: 这是怎么回事？我在这里要做什么？又能听见什么呢？
+        - id: ch03-b03
+          speaker: narrator
+          text: 它靠着墙，想了又想。一天一天，一夜一夜，始终没有人来。这里没有声音，也没有一线阳光，留给它的只有无穷无尽的时间。终于有人进来，却只是把几只大箱子塞到角落里。箱子把枞树遮得严严实实，它像是被彻底忘掉了。
+        - id: ch03-b04
+          speaker: fir_tree
+          text: 外面一定还是冬天。地冻得很硬，又盖着雪，人们没法栽我，才把我留在这里等春天。他们想得真周到。只是这里太黑，也太孤单了，连一只小野兔都没有。以前在树林里，四周都是雪，野兔从我身边跳过，多舒服啊。哪怕它跳过我的头顶也好，可那时候我偏偏不喜欢。
+        - id: ch03-b05
+          speaker: narrator
+          text: 忽然，一只小老鼠吱吱叫着偷偷跑出来，后面又跟来一只。它们闻了闻枞树，钻进枝条中间。
+        - id: ch03-b06
+          speakers: [mouse_1, mouse_2]
+          ensemble: duo
+          text: 外面冷得吓人，这里可真舒服。老枞树，你也觉得暖和吧？
+        - id: ch03-b07
+          speaker: fir_tree
+          text: 我根本不老。还有许多树比我的年纪大得多呢。
+        - id: ch03-b08
+          speaker: mouse_1
+          text: 那你从哪里来？你知道些什么？快讲讲世上最美的地方吧。你去过食品储藏室吗？那里架子上全是奶酪，天花板下挂着火腿。还能踩着牛油蜡烛跳舞，进去时瘦巴巴，出来时就胖乎乎了。
+        - id: ch03-b09
+          speaker: fir_tree
+          text: 那种地方，我一点也不知道。我只知道树林，那里照得到阳光，也听得见鸟儿唱歌。
+        - id: ch03-b10
+          speaker: narrator
+          text: 枞树讲起自己的童年，讲树林里怎样照着阳光，鸟儿又怎样在枝头歌唱。小老鼠们从没听过这样的故事，全都竖起耳朵，听得入了迷。
+        - id: ch03-b11
+          speakers: [mouse_1, mouse_2]
+          ensemble: duo
+          text: 原来你见过这么多事！你真是太幸运了！
+          emotion: surprised
+        - id: ch03-b12
+          speaker: fir_tree
+          text: 我很幸运吗？这么一想，林中的那些日子确实很幸福。
+        - id: ch03-b13
+          speaker: narrator
+          text: 接着，它又讲起那个圣诞夜，讲起自己怎样挂满糖果和蜡烛。
+        - id: ch03-b14
+          speakers: [mouse_1, mouse_2]
+          ensemble: duo
+          text: 老枞树，你过得多么幸福啊！
+        - id: ch03-b15
+          speaker: fir_tree
+          text: 别叫我老枞树。我是今年冬天才离开树林的，也许只是长得稍微慢了一点。
+        - id: ch03-b16
+          speaker: mouse_2
+          text: 你讲故事讲得真好听！
+          emotion: happy
+        - id: ch03-b17
+          speaker: narrator
+          text: 第二天晚上，两只小老鼠又带来四个伙伴。枞树讲得更多了，因为过去的每件事，它都记得清清楚楚。
+        - id: ch03-b18
+          speaker: fir_tree
+          text: 那些日子真幸福，不过幸福也许还会回来。矮胖子登普蒂从楼梯上摔下去，最后都能娶到公主，说不定我也能。
+        - id: ch03-b19
+          speaker: narrator
+          text: 它想起树林里一棵漂亮的小桦树。在枞树心里，那就是一位真正的公主，而且美丽极了。
+        - id: ch03-b20
+          speakers: [mouse_1, mouse_2]
+          ensemble: duo
+          text: 矮胖子登普蒂是谁呀？
+        - id: ch03-b21
+          speaker: narrator
+          text: 枞树便把整个故事从头到尾讲了一遍。故事里的每一个字，它都记得。小老鼠们高兴得几乎要一跃跳上最高的树梢。第二天夜里，更多老鼠赶来听故事。到了星期日，甚至来了两只大耗子。可它们一点也不喜欢这个故事。小老鼠们很苦恼，听了大耗子的议论以后，连自己也觉得故事没有先前那么有趣了。
+        - id: ch03-b22
+          speaker: rat_1
+          text: 你翻来覆去，只会讲这一个故事吗？
+        - id: ch03-b23
+          speaker: fir_tree
+          text: 我只会这一个。那是我在一生最幸福的夜晚听来的，可当时我还不明白自己有多幸福。
+        - id: ch03-b24
+          speaker: rat_2
+          text: 这个故事真差劲。你就没有熏肉的故事，或是牛油蜡烛的故事吗？讲讲食品储藏室也行啊。
+          emotion: disgusted
+        - id: ch03-b25
+          speaker: fir_tree
+          text: 没有，那些故事我都不会。
+        - id: ch03-b26
+          speakers: [rat_1, rat_2]
+          ensemble: duo
+          text: 那就多谢你了，我们还是回去找伙伴吧。
+        - id: ch03-b27
+          speaker: narrator
+          text: 大耗子说完便回去找伙伴了。最后，就连那些活泼的小老鼠也不再来了。黑暗的储藏室重新安静下来，枞树孤零零地靠着墙，叹了口气。
+        - id: ch03-b28
+          speaker: fir_tree
+          text: 那些活泼的小老鼠围着我听故事，真是一段快活的日子。可现在，这也结束了。等人们重新带我出去，我一定要记得让自己高兴起来。
+    - id: ch04
+      title: 太迟了
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 那一天究竟什么时候才会来呢？终于，有天早晨，人们来收拾储藏室。他们搬开箱子，把枞树粗暴地扔到地板上。一个仆人马上拖着它下了楼，它终于又见到阳光。
+        - id: ch04-b02
+          speaker: fir_tree
+          text: 现在，生活又要开始了！
+          emotion: happy
+        - id: ch04-b03
+          speaker: narrator
+          text: 枞树感受到新鲜的空气，也感受到最初几缕阳光。转眼间，它已经躺在院子里。一切发生得太快，四周又有那么多东西可看，它几乎忘了看看自己。院子通向一座开满鲜花的花园。鲜嫩芬芳的玫瑰从小花架上垂下来，椴树也正开着花。燕子飞来飞去，唱着“啾哩——喂哩——喂，我丈夫回家啦”。可它们说的并不是枞树。
+        - id: ch04-b04
+          speaker: fir_tree
+          text: 我又能好好活下去了！
+          emotion: happy
+        - id: ch04-b05
+          speaker: narrator
+          text: 它想把枝条尽量伸开，这才发现所有枝条都已枯黄。它躺在角落里，四周尽是杂草和荨麻。那颗金星还挂在最高的树梢，在明亮的阳光下闪着光。院子里，一些快活的孩子正在玩耍。他们就是圣诞夜围着枞树跳舞的孩子。最小的孩子跑过来，扯下了金星。
+        - id: ch04-b06
+          speaker: youngest_child
+          text: 快看，这棵又老又难看的枞树上，还留着这么个东西！
+        - id: ch04-b07
+          speaker: narrator
+          text: 他一脚踩上树枝，枯枝在脚下咔嚓断裂。枞树望望花园里鲜亮茂盛的花，又看看自己，忽然希望自己还躺在储藏室那个黑暗角落。它想起林中青翠的童年，想起欢乐的圣诞夜，也想起那些高高兴兴听它讲故事的小老鼠。
+        - id: ch04-b08
+          speaker: fir_tree
+          text: 太迟了，太迟了！如果我当初肯趁着还有机会，好好享受那些日子，该有多好。现在，一切都结束了，全都过去了。
+          emotion: sad
+        - id: ch04-b09
+          speaker: narrator
+          text: 一个仆人走来，把枞树劈成许多小块，堆成满满一捆。柴房的大铜锅下面燃着火，木块在火中烧得很亮。枞树发出一声声深沉的叹息，每一声都像手枪开火。正在附近玩耍的孩子们听见响声，纷纷跑过来，坐在火前，盯着跳动的火焰。
+        - id: ch04-b10
+          speakers: [child_1, child_2, child_3]
+          ensemble: chorus
+          text: 噼！啪！砰！
+        - id: ch04-b11
+          speaker: narrator
+          text: 可每一声爆响，其实都是枞树的叹息。它想起树林里的一个夏日，又想起繁星闪耀的一个冬夜。它想起圣诞夜，也想起矮胖子登普蒂。那是它听过的唯一一个故事，也是它会讲的唯一一个故事。随后，枞树烧完了。
+        - id: ch04-b12
+          speaker: narrator
+          text: 孩子们继续在花园里玩，仿佛什么也没有发生。最小的孩子胸前戴着那颗金星，枞树曾在一生最幸福的夜晚戴过它。可是，那一晚已经过去，枞树也已经消失，连故事也结束了。一切都完了。
+        - id: ch04-b13
+          speaker: narrator
+          text: 所有的故事，都是这样！
+        - id: ch04-b14
+          speaker: narrator
+          text: 我们的丹麦作家就在这里收笔了。这就是人们所谓的感伤，但愿你也喜欢。

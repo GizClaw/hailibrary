@@ -1,0 +1,248 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖从容，带一点含蓄的调侃
+        timbre: 清朗圆润
+        pace: 舒缓中有活泼转折
+        pitch: 中音
+    tom:
+      display_name: 汤姆
+      tts:
+        delivery: 机灵大胆，淘气又争强
+        timbre: 明亮稚嫩
+        pace: 轻快
+        pitch: 中高音
+    huck:
+      display_name: 哈克贝利
+      tts:
+        delivery: 随性粗放，满不在乎又笃定
+        timbre: 略沙哑的少年声
+        pace: 松快
+        pitch: 中音
+    potter:
+      display_name: 莫夫·波特
+      tts:
+        delivery: 老实软弱，惊惧中带着醉后的迟钝
+        timbre: 粗哑疲惫
+        pace: 迟缓而断续
+        pitch: 中低音
+    injun_joe:
+      display_name: 印第安·乔
+      tts:
+        delivery: 冷硬镇定，不露声色
+        timbre: 阴沉干涩
+        pace: 平稳
+        pitch: 低音
+    sheriff:
+      display_name: 治安官
+      tts:
+        delivery: 威严自负，公事公办
+        timbre: 洪亮结实
+        pace: 稳健
+        pitch: 中低音
+    minister:
+      display_name: 牧师
+      tts:
+        delivery: 郑重庄严，确信不疑
+        timbre: 深厚清晰
+        pace: 徐缓
+        pitch: 低音
+    villager_1:
+      display_name: 村民甲
+      tts:
+        delivery: 好奇激动，爱下断语
+        timbre: 清亮粗朴
+        pace: 偏快
+        pitch: 中音
+    villager_2:
+      display_name: 村民乙
+      tts:
+        delivery: 急切直率，随人群起哄
+        timbre: 略尖亮
+        pace: 快
+        pitch: 中高音
+    villager_3:
+      display_name: 村民丙
+      tts:
+        delivery: 粗声粗气，语气笃定
+        timbre: 浑厚粗粝
+        pace: 中等
+        pitch: 中低音
+    aunt_polly:
+      display_name: 波莉姨妈
+      tts:
+        delivery: 严厉里藏着疼爱，朴实直接
+        timbre: 温厚明晰
+        pace: 从容
+        pitch: 中音
+    sid:
+      display_name: 锡德
+      tts:
+        delivery: 一本正经，细心中带着试探
+        timbre: 清脆稚嫩
+        pace: 平稳
+        pitch: 中高音
+    mary:
+      display_name: 玛丽
+      tts:
+        delivery: 温和诚恳，安静克制
+        timbre: 柔和清亮
+        pace: 舒缓
+        pitch: 中高音
+  chapters:
+    - id: ch01
+      title: 墓地里的人群
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 快到正午时，一桩骇人的消息突然震动了全村。那时还没人想得到电报，可消息从人传到人，从一家传到一家，速度一点也不慢。校长自然停了下午的课。他要是不停，全镇反倒会觉得奇怪。
+        - id: ch01-b02
+          speaker: narrator
+          text: 尸体旁发现了一把血刀，有人认出那是莫夫·波特的。又有人说，凌晨一两点钟，他在小溪边撞见波特洗身子。波特一见有人，马上偷偷溜了。洗澡尤其可疑，因为波特平时可没有这个习惯。全镇已经四处搜捕这个所谓的凶手，却找不到人。公众一旦开始挑选证据、判人有罪，动作向来快得很。骑马的人早已分头追上各条路，治安官还信心十足地保证，天黑以前准能抓住他。
+        - id: ch01-b03
+          speaker: narrator
+          text: 全镇的人都往墓地涌。汤姆先前那点伤心一下不见了，也跟进人群。他宁愿去任何别的地方，哪怕去上一千回，却偏偏被一种可怕又说不清的力量牵着往前走。他仗着身子小，从人缝里钻到最前面，望见那幅阴森的景象，只觉得上次来到这里已经是很久很久以前的事。忽然，有人掐了他一下胳膊。汤姆一回头，正好对上哈克贝利的眼睛。两人立刻移开目光，都怕刚才那一眼叫别人看出了秘密。幸好，大家只顾议论，只顾盯着尸体，没人留意他们。
+        - id: ch01-b04
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
+          text: “真可怜！这么年轻！盗墓贼都该好好记住这个教训！抓住莫夫·波特，他就得上绞架！”
+        - id: ch01-b05
+          speaker: minister
+          text: “这是上天的惩罚。祂的手已经显现了。”
+        - id: ch01-b06
+          speaker: narrator
+          text: 汤姆忽然从头抖到脚。他看见了印第安·乔那张木然的脸。就在这时，人群推挤起来，到处都有人喊，说波特自己来了。
+        - id: ch01-b07
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
+          text: “谁来了？是谁？”
+        - id: ch01-b08
+          speaker: villager_1
+          text: “莫夫·波特！”
+        - id: ch01-b09
+          speaker: villager_2
+          text: “他站住了！当心，他要转身！别让他跑掉！”
+        - id: ch01-b10
+          speaker: narrator
+          text: 树上的人看得清楚，说波特并没想逃，只是满脸迟疑和困惑。
+        - id: ch01-b11
+          speaker: villager_3
+          text: “真不要脸！我看他是想回来瞧瞧自己的杰作，没想到这儿还有别人。”
+        - id: ch01-b12
+          speaker: narrator
+          text: 人群分向两边。治安官挽着波特的胳膊走过来，故意显得神气十足。这个可怜人面容憔悴，眼里全是压不住的恐惧。来到死者面前，他像害了瘫痪一样，浑身抖个不停，接着用双手捂住脸，放声哭了起来。
+        - id: ch01-b13
+          speaker: potter
+          text: “朋友们，不是我干的。我拿良心和名誉发誓，我真没干过。”
+          emotion: fearful
+        - id: ch01-b14
+          speaker: villager_1
+          text: “谁说是你干的？”
+        - id: ch01-b15
+          speaker: narrator
+          text: 这句话正中要害。波特抬起脸，绝望地看了一圈。看到印第安·乔，他脱口叫了出来。
+        - id: ch01-b16
+          speaker: potter
+          text: “印第安·乔，你答应过我的！”
+        - id: ch01-b17
+          speaker: sheriff
+          text: “这是你的刀吗？”
+        - id: ch01-b18
+          speaker: narrator
+          text: 治安官把刀送到他眼前。要不是有人扶住，波特已经倒了。他们慢慢把他放到地上。
+        - id: ch01-b19
+          speaker: potter
+          text: “我心里本来有个声音，一直催我回来拿走那样东西……”
+        - id: ch01-b20
+          speaker: narrator
+          text: 波特打了个寒战，又无力地摆摆手，像是彻底认了输。
+        - id: ch01-b21
+          speaker: potter
+          text: “乔，你告诉他们吧。说出来吧。现在再瞒也没用了。”
+          emotion: sad
+    - id: ch02
+      title: 没有落下的雷霆
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 汤姆和哈克一句话也说不出，只能瞪大眼睛，听那个铁石心肠的骗子从容不迫地编完一套谎话。他们每一刻都以为，晴朗的天空马上会降下上帝的雷霆，劈在乔的头上。雷迟迟不来，反倒叫他们不明白。等乔说完，依然活生生、好端端地站着，两个男孩原本还有些动摇，想违背誓言，救下受人陷害的波特。这点念头如今彻底没了。乔准是把自己卖给了撒旦。谁敢去碰那样强大的魔王手里的东西，谁就会送命。
+        - id: ch02-b02
+          speaker: villager_2
+          text: “你为什么不逃？干吗还要回来？”
+        - id: ch02-b03
+          speaker: potter
+          text: “我没办法。我是想逃，可除了这里，我怎么也去不了别处。”
+          emotion: sad
+        - id: ch02-b04
+          speaker: narrator
+          text: 波特说完，又抽泣起来。几分钟后，验尸审讯开始了。印第安·乔当着众人宣过誓，又把刚才那套话一字不乱地讲了一遍，还是一样镇定，脸上看不出半点慌张。
+        - id: ch02-b05
+          speaker: narrator
+          text: 雷霆还是没有落下。两个男孩这才更加相信，乔的确已经把自己卖给魔鬼。在他们眼里，他成了世上最凶险、也最叫人着迷的东西。他们像是中了邪，怎么也不能把目光从那张脸上挪开。两人还暗暗决定，只要找到机会，就在夜里监视乔，盼着能亲眼瞧见他那位可怕的主人。
+        - id: ch02-b06
+          speaker: narrator
+          text: 印第安·乔亲手帮忙抬起死者，把尸体放上马车运走。惊恐的人群里忽然传起悄悄话，说伤口刚才竟然又渗出了一点血。汤姆和哈克把这当成一桩天大的幸事，以为嫌疑总算会落到真正的凶手身上。谁知他们又失望了。村民们相信的，完全是另一个结论。
+        - id: ch02-b07
+          speakers: [villager_1, villager_3]
+          ensemble: duo
+          text: “伤口流血时，莫夫·波特离尸体还不到三英尺呢。”
+        - id: ch02-b08
+          speaker: narrator
+          text: 接下来整整一个星期，那个可怕的秘密和啃噬人心的良知，每天夜里都来折磨汤姆，搅得他不能安睡。一天早上，一家人正在吃饭，锡德忽然开了口。
+        - id: ch02-b09
+          speaker: sid
+          text: “汤姆，你晚上又翻身又说梦话，害得我半夜都睡不着。”
+        - id: ch02-b10
+          speaker: narrator
+          text: 汤姆的脸一下白了，赶紧低下眼睛。
+        - id: ch02-b11
+          speaker: aunt_polly
+          text: “这可不是好兆头。汤姆，你心里藏着什么事？”
+        - id: ch02-b12
+          speaker: tom
+          text: “没什么。我不知道有什么事。”
+        - id: ch02-b13
+          speaker: narrator
+          text: 可他的手抖得厉害，咖啡也洒了。
+        - id: ch02-b14
+          speaker: sid
+          text: “你的梦话还特别怪。昨晚你一直说，是血，是血，就是血。后来又说，别折磨我了，我会讲出来的。你到底要讲什么？”
+        - id: ch02-b15
+          speaker: narrator
+          text: 汤姆眼前的一切都转了起来。再问下去，谁知道会出什么事。幸好，波莉姨妈脸上的忧色忽然散了，无意间救了他。
+        - id: ch02-b16
+          speaker: aunt_polly
+          text: “嗐，还不是那桩吓人的凶杀案。我也几乎夜夜梦见。有时候，我还梦见人是我杀的呢。”
+        - id: ch02-b17
+          speaker: mary
+          text: “我也叫这件事搅得很不安。”
+    - id: ch03
+      title: 锡德的试探
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 锡德听了似乎满意了。汤姆看准机会，装得若无其事，尽快离开了大家。往后一个星期，他都说自己牙疼，夜夜把两边腮帮子扎起来，想用绷带挡住梦话。他不知道，锡德每晚都躺在那里盯着他，还常常悄悄松开绷带，撑起一只胳膊，久久听他的梦话，听够了再把绷带原样放回去。
+        - id: ch03-b02
+          speaker: narrator
+          text: 汤姆心里的痛苦慢慢淡了。装出来的牙疼却越来越麻烦，他终于把这套把戏丢开了。锡德即使真从那些断断续续的梦话里听出了什么，也始终藏在心里，没有告诉任何人。
+        - id: ch03-b03
+          speaker: narrator
+          text: 可学校里的同学偏偏像是永远也玩不够，总拿死猫举行验尸审讯，一遍遍勾起汤姆的烦恼。锡德注意到，汤姆一次也不肯当验尸官了。从前不管有什么新鲜玩法，他总要抢在最前面。锡德还发现，汤姆从不肯扮演证人，这实在奇怪。只要能够躲开，他甚至不愿靠近这种游戏。锡德越看越不明白，却什么也没有说。
+        - id: ch03-b04
+          speaker: narrator
+          text: 好在验尸游戏终于过时，不再折磨汤姆的良心。
+    - id: ch04
+      title: 铁栅栏后的补偿
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 在这段愁苦的日子里，汤姆每隔一两天就找个机会，跑到小监狱那扇装着铁栅栏的窗前。他把自己弄得到的零碎好东西，一样样偷偷塞给那个所谓的凶手。监狱不过是一间小小的砖房，孤零零立在村边的沼泽地里。那里本来就难得关进一个人，所以连守卫也没有。这些小小的礼物，大大减轻了汤姆良心上的重负。
+        - id: ch04-b02
+          speaker: narrator
+          text: 村民们很想惩罚印第安·乔盗尸。他们想把乔浑身涂满焦油，再粘上一层羽毛，最后把他架到木杆上游街。可是乔的名头太吓人，找遍全村，也没有一个人肯带头。这件事只好作罢。
+        - id: ch04-b03
+          speaker: narrator
+          text: 乔两次在验尸审讯中作证，都很小心。他总是从那场打斗讲起，对打斗之前的盗墓却一个字也不提。既然他自己不肯承认，大家便认为，眼下最好别把这桩盗尸案送上法庭。

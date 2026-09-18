@@ -1,0 +1,214 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, legendary, and composed
+        timbre: rich and clear
+        pace: measured
+        pitch: medium
+    andrew_coffey:
+      display_name: Andrew Coffey
+      tts:
+        delivery: decent, cautious, and quietly determined
+        timbre: warm and weathered
+        pace: measured
+        pitch: medium-low
+    patrick_rooney:
+      display_name: Patrick Rooney
+      tts:
+        delivery: sharp, uncanny, and threatening
+        timbre: rough and hollow
+        pace: deliberate
+        pitch: low
+    bearer_one:
+      display_name: First Bearer
+      tts:
+        delivery: blunt and matter-of-fact
+        timbre: coarse and solid
+        pace: steady
+        pitch: medium-low
+    bearer_two:
+      display_name: Second Bearer
+      tts:
+        delivery: practical and watchful
+        timbre: dry and firm
+        pace: steady
+        pitch: medium
+    bearer_three:
+      display_name: Third Bearer
+      tts:
+        delivery: grim and restrained
+        timbre: lean and raspy
+        pace: measured
+        pitch: medium-high
+    bearer_four:
+      display_name: Fourth Bearer
+      tts:
+        delivery: severe and unhurried
+        timbre: deep and breathy
+        pace: slow
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Cabin in the Wood
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: My grandfather, Andrew Coffey, was known across the whole barony as a quiet and decent man. He knew that country just as well. Every hill and hollow, every bog, pasture, field, and patch of cover was familiar to him.
+        - id: ch01-b02
+          speaker: narrator
+          text: So imagine his surprise one evening when he found himself in a part of the demesne he did not know at all. His good horse kept blundering into trees and sinking into bog holes that had no right to be there. Whenever the woods opened, rain beat down on them, and a cold March wind tore through the branches.
+        - id: ch01-b03
+          speaker: narrator
+          text: Then Andrew saw a light in the distance. He rode toward it and came to a cabin, though he could not imagine how the place had come to be there. He tied up his horse and went inside. A brushwood fire burned brightly on the hearth, and a sturdy chair seemed almost to invite him to sit. There was no one else in the room.
+        - id: ch01-b04
+          speaker: narrator
+          text: Andrew sat down, grateful for the heat after the rain and wind outside. As his clothes began to dry and his spirits lifted a little, he kept wondering where he was and how a cabin he had never seen could stand in country he knew so well.
+        - id: ch01-b05
+          speaker: patrick_rooney
+          text: Andrew Coffey! Andrew Coffey!
+        - id: ch01-b06
+          speaker: narrator
+          text: Who could be calling him when there was not a soul in sight? Andrew searched inside and outside, but he found no creature on two legs or four. Even his horse had vanished.
+        - id: ch01-b07
+          speaker: patrick_rooney
+          text: Andrew Coffey! Andrew Coffey! Tell me a story.
+        - id: ch01-b08
+          speaker: narrator
+          text: The voice was louder now, and closer. What a thing to ask! Andrew could not even sit by the fire and dry himself without being troubled for a tale.
+        - id: ch01-b09
+          speaker: patrick_rooney
+          text: Andrew Coffey! Andrew Coffey! Tell me a story, or you will suffer for it.
+          emotion: angry
+        - id: ch01-b10
+          speaker: narrator
+          text: Poor Andrew was struck speechless. He could only stand there and stare.
+        - id: ch01-b11
+          speaker: patrick_rooney
+          text: Andrew Coffey! Andrew Coffey! I warned you that you would suffer.
+          emotion: angry
+        - id: ch01-b12
+          speaker: narrator
+          text: At that, a man sprang from a cupboard Andrew had not noticed before. The stranger was in a towering rage, and he carried a fine blackthorn stick, fit to crack a man's head. Yet neither the rage nor the stick was the worst of it. The moment Andrew saw his face, he knew Patrick Rooney. Everyone knew Patrick had fallen overboard while fishing, many years before.
+        - id: ch01-b13
+          speaker: narrator
+          text: Andrew did not wait to learn what Patrick meant to do with the blackthorn. He ran from the cabin as fast as his legs could carry him. On and on he went, giving little thought to what lay ahead, until he struck a great tree. There he sat down to catch his breath.
+    - id: ch02
+      title: The Long Box
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Andrew had barely settled beneath the tree when he heard voices coming through the darkness.
+        - id: ch02-b02
+          speaker: bearer_one
+          text: The vagabond is heavy, isn't he?
+        - id: ch02-b03
+          speaker: bearer_two
+          text: Hold him steady. We can rest beneath that big tree ahead.
+        - id: ch02-b04
+          speaker: narrator
+          text: That seemed to be the very tree where Andrew sat. A branch hung within reach, so he pulled himself up and hid among the leaves. Better to see them than let them see him.
+        - id: ch02-b05
+          speaker: narrator
+          text: The rain had stopped, and the wind was still. The night was blacker than ever, but Andrew made out four men carrying a long box between them. They came beneath the tree, put the box down, and opened it. Out they lifted Patrick Rooney. He said nothing, and his face was as pale as old snow.
+        - id: ch02-b06
+          speaker: narrator
+          text: One man gathered brushwood. Another brought out tinder and flint and struck a light. Soon a great fire was roaring beneath the tree, and Andrew could see Patrick clearly in its glow. Andrew had kept quiet before. Now he held stiller than ever and scarcely dared to breathe.
+        - id: ch02-b07
+          speaker: narrator
+          text: The men raised four upright poles and laid another across them over the flames, just like a roasting spit. Then they hung Patrick Rooney from the crosspole.
+        - id: ch02-b08
+          speaker: bearer_one
+          text: He will do well enough. But who will watch him while we are gone? Who will turn the spit and keep him from burning?
+        - id: ch02-b09
+          speaker: patrick_rooney
+          text: Andrew Coffey.
+        - id: ch02-b10
+          speakers: [bearer_one, bearer_two, bearer_three, bearer_four]
+          ensemble: chorus
+          text: Andrew Coffey! Andrew Coffey! Andrew Coffey! Andrew Coffey!
+        - id: ch02-b11
+          speaker: andrew_coffey
+          text: I am much obliged to you, gentlemen, but truly, I know nothing about this work.
+        - id: ch02-b12
+          speaker: patrick_rooney
+          text: You had better come down, Andrew Coffey.
+        - id: ch02-b13
+          speaker: narrator
+          text: That was only the second time Patrick had spoken, but Andrew decided it was enough. He climbed down. The four men walked away, leaving him alone with Patrick.
+    - id: ch03
+      title: Turning the Spit
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Andrew sat by the fire. He kept the flames even and turned the spit while Patrick watched him without looking away.
+        - id: ch03-b02
+          speaker: narrator
+          text: Poor Andrew could make no sense of any of it. He stared at Patrick, then at the fire, and thought of the little cabin in the wood until his head felt dazed.
+        - id: ch03-b03
+          speaker: patrick_rooney
+          text: Ah! You are burning me!
+          emotion: angry
+        - id: ch03-b04
+          speaker: andrew_coffey
+          text: I beg your pardon. May I ask you something?
+        - id: ch03-b05
+          speaker: patrick_rooney
+          text: Ask if you want a crooked answer. Now turn me, or you will suffer for it.
+          emotion: angry
+        - id: ch03-b06
+          speaker: narrator
+          text: Still, Andrew could not put the question from his mind. Hadn't everyone near and far said Patrick had fallen overboard? There was plenty here to puzzle over, and Andrew went on thinking.
+        - id: ch03-b07
+          speaker: patrick_rooney
+          text: Andrew Coffey! Andrew Coffey! You are burning me!
+          emotion: angry
+        - id: ch03-b08
+          speaker: narrator
+          text: Andrew was sorry enough. He promised he would not let it happen again.
+        - id: ch03-b09
+          speaker: patrick_rooney
+          text: See that you don't.
+          emotion: angry
+        - id: ch03-b10
+          speaker: narrator
+          text: Patrick turned one eye toward him and showed his teeth in a grin. A shiver ran down Andrew's back. It was strange beyond belief. Here he was in a thick wood he had never seen, turning Patrick Rooney over a fire. No wonder he kept thinking instead of minding the flames.
+        - id: ch03-b11
+          speaker: patrick_rooney
+          text: Andrew Coffey! Andrew Coffey! I will be the death of you!
+          emotion: angry
+        - id: ch03-b12
+          speaker: narrator
+          text: Andrew looked up. Patrick was freeing himself from the spit. His eyes glared, and his teeth shone in the firelight.
+    - id: ch04
+      title: Back to the Cabin
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Andrew did not stop or stay. He fled into the dark wood. Every stone seemed placed to trip him. Every branch struck his face, and every bramble tore his skin. In each clearing the rain pelted him, while the cold March wind howled past.
+        - id: ch04-b02
+          speaker: narrator
+          text: At last he saw a light. A minute later he was kneeling beside a hearth, dazed, drenched, and bedraggled. Brushwood flamed and crackled before him. Little by little, Andrew grew warm and dry, and his mind began to ease.
+        - id: ch04-b03
+          speaker: patrick_rooney
+          text: Andrew Coffey! Andrew Coffey!
+        - id: ch04-b04
+          speaker: narrator
+          text: A man who had suffered all Andrew had could hardly be expected to jump, but jump he did. He looked around and saw that he was back in the very cabin where he had first met Patrick.
+        - id: ch04-b05
+          speaker: patrick_rooney
+          text: Andrew Coffey, tell me a story.
+        - id: ch04-b06
+          speaker: andrew_coffey
+          text: So it is a story you want? Then if you can make sense of this one, I will be grateful.
+        - id: ch04-b07
+          speaker: narrator
+          text: Andrew had grown tired of being frightened, and that made him as bold as he could be. He began with losing his way in the storm, then told of Patrick, the four bearers, the fire, and his flight through the wood. He left out nothing that had happened to him that night.
+    - id: ch05
+      title: Morning on the Hillside
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: It was a long tale, and perhaps Andrew was weary. He must have fallen asleep. When he woke, he was lying on the hillside beneath the open sky, and his horse was grazing beside him.

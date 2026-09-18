@@ -1,0 +1,497 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 温和郑重，带着向读者介绍全书的亲切口吻
+        timbre: 温暖清晰
+        pace: 从容舒展
+        pitch: 中等
+    michael:
+      display_name: 米夏埃尔
+      tts:
+        delivery: 朴实坦然，话语不多却意志坚定
+        timbre: 清亮柔和的少年声
+        pace: 平稳
+        pitch: 中高
+    village_girl_1:
+      display_name: 村中姑娘甲
+      tts:
+        delivery: 好奇直爽，带一点随口逗趣
+        timbre: 明亮的年轻女声
+        pace: 轻快
+        pitch: 中高
+    village_girl_2:
+      display_name: 村中姑娘乙
+      tts:
+        delivery: 活泼随意，带一点善意的取笑
+        timbre: 清脆的年轻女声
+        pace: 轻快
+        pitch: 高
+    village_girl_3:
+      display_name: 村中姑娘丙
+      tts:
+        delivery: 爽朗热闹，喜欢跟着伙伴起哄
+        timbre: 饱满的年轻女声
+        pace: 稍快
+        pitch: 中等
+    golden_lady:
+      display_name: 金袍夫人
+      tts:
+        delivery: 神秘安定，指点时清楚而笃定
+        timbre: 柔和空灵的成年女声
+        pace: 从容
+        pitch: 中等
+    eldest_princess:
+      display_name: 大公主
+      tts:
+        delivery: 高傲果断，习惯发号施令
+        timbre: 冷亮成熟的年轻女声
+        pace: 稳健
+        pitch: 中等
+    princess_2:
+      display_name: 二公主
+      tts:
+        delivery: 矜持自信，随声应和时干脆
+        timbre: 清晰的年轻女声
+        pace: 适中
+        pitch: 中高
+    princess_3:
+      display_name: 三公主
+      tts:
+        delivery: 骄矜活泼，语气轻盈
+        timbre: 明亮的年轻女声
+        pace: 适中
+        pitch: 高
+    princess_4:
+      display_name: 四公主
+      tts:
+        delivery: 从容优雅，说话利落
+        timbre: 柔亮的年轻女声
+        pace: 适中
+        pitch: 中等
+    lina:
+      display_name: 莉娜公主
+      tts:
+        delivery: 年轻率真，敏感时急切，坚定时毫不退让
+        timbre: 柔润清澈的少女声
+        pace: 自然灵动
+        pitch: 中高
+    prince:
+      display_name: 王子
+      tts:
+        delivery: 彬彬有礼，困惑时仍保持克制
+        timbre: 清朗的年轻男声
+        pace: 适中
+        pitch: 中等
+  chapters:
+    - id: ch01
+      title: 第一节
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，蒙蒂尼叙罗克村里有个放牛的小男孩。他无父无母，本名叫米夏埃尔，大家却都叫他“望星郎”。每回赶着牛群走过公地，他总仰着头，张着嘴，一路望着空中并不存在的什么东西。
+        - id: ch01-b02
+          speakers: [village_girl_1, village_girl_2, village_girl_3]
+          ensemble: chorus
+          text: 喂，望星郎，你到底在看什么呀？
+        - id: ch01-b03
+          speaker: narrator
+          text: 村里的姑娘们常在他身后这样喊。他皮肤白皙，眼睛湛蓝，满头卷发。听见喊声，他脚下不停，连头也不回。
+        - id: ch01-b04
+          speaker: michael
+          text: 没看什么。
+        - id: ch01-b05
+          speaker: narrator
+          text: 其实，他是嫌那些姑娘不好看。她们的脖子晒得黑黑的，双手又红又大，身上只有粗布裙和木鞋。他听说，世上还有另一种姑娘。她们脖颈雪白，双手小巧，每天都穿着最精美的绸缎和花边。人们把这样的姑娘叫作公主。
+        - id: ch01-b06
+          speaker: narrator
+          text: 同伴们围着炉火，只会从火焰里看见平常日子的种种念头。米夏埃尔想的却是，要是哪一天能娶到一位公主，那该有多幸福。
+    - id: ch02
+      title: 第二节
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 八月中旬的一天，正午的太阳晒得最狠。米夏埃尔吃完一块干面包，就躺到一棵橡树下面睡着了。梦里，一位美丽的夫人走到他面前。她穿着金线织成的长袍，对他说起了贝洛伊城堡。
+        - id: ch02-b02
+          speaker: golden_lady
+          text: 到贝洛伊城堡去吧。你会在那里娶到一位公主。
+        - id: ch02-b03
+          speaker: narrator
+          text: 到了晚上，小牧童怎么也忘不了金袍夫人的指点，便把这个梦讲给农庄上的人听。大家自然都拿望星郎取笑。第二天，同一个时辰，他又睡在同一棵树下。那位夫人果然再次来到梦里。
+        - id: ch02-b04
+          speaker: golden_lady
+          text: 去贝洛伊城堡吧。你会娶到一位公主。
+        - id: ch02-b05
+          speaker: narrator
+          text: 米夏埃尔回去告诉朋友们，自己又做了同一个梦。他们笑得比前一天还厉害。他心里却有了主意。
+        - id: ch02-b06
+          speaker: michael
+          text: 不要紧。她要是第三次出现，我就按她说的去做。
+        - id: ch02-b07
+          speaker: narrator
+          text: 到了第三天，全村人都吃了一惊。下午两点左右，外面忽然传来一阵歌声。
+        - id: ch02-b08
+          speaker: michael
+          text: 啦勒噢，啦勒噢，牛儿回家喽！
+        - id: ch02-b09
+          speaker: narrator
+          text: 小牧童竟在这时候把牛群赶回了牛棚。农场主气势汹汹，劈头盖脸地骂起他来。
+        - id: ch02-b10
+          speaker: michael
+          text: 我要走了。
+        - id: ch02-b11
+          speaker: narrator
+          text: 他说完，把衣裳包成一个包袱，向朋友们一一道别，然后勇敢地出去闯自己的运气。全村都轰动了。人们站在山顶，笑得直捂肚子，看着望星郎把包袱挑在棍头，昂着头穿过山谷，一步一步走远。他那副模样，也确实让人忍不住发笑。
+    - id: ch03
+      title: 第三节
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 方圆二十英里的人都知道，贝洛伊城堡里住着十二位美得惊人的公主。她们有多美，就有多骄傲，也有多娇贵。她们的血统是真正的高贵，哪怕床垫底下只有一粒豌豆，也能马上察觉。
+        - id: ch03-b02
+          speaker: narrator
+          text: 人们私下里说，她们过的正是公主该过的日子。每天一觉睡到很晚，不到正午绝不起床。十二张床都放在同一个房间里。奇怪的是，房门明明扣着三道门闩，可每天早晨，十二双缎鞋全都磨出了洞。
+        - id: ch03-b03
+          speaker: narrator
+          text: 别人问她们一夜做了什么，她们总说自己一直在睡。房间里也确实没传出过半点声音。可是，鞋子总不能自己磨破呀。
+        - id: ch03-b04
+          speaker: narrator
+          text: 最后，贝洛伊公爵叫人吹响号角，向众人宣布，谁能查明女儿们怎样磨破了鞋，就能从她们当中挑一位做妻子。许多王子听到告示，都赶来城堡碰碰运气。他们整夜守在公主们敞开的房门外，到了天亮，却一个个不见了。谁也不知道他们去了哪里。
+    - id: ch04
+      title: 第四节
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 米夏埃尔来到城堡，直接去找园丁，问能不能留下做工。正巧原来的园丁小工刚被赶走。望星郎看着不算强壮，园丁还是收下了他，因为那张漂亮的脸和一头金色卷发，也许会讨公主们喜欢。
+        - id: ch04-b02
+          speaker: narrator
+          text: 他的第一件差事，是等公主们起床以后，给每人送上一束花。米夏埃尔心想，只要往后的活儿不比这个难受，日子一定很好过。
+        - id: ch04-b03
+          speaker: narrator
+          text: 于是，他提着装有十二束花的篮子，站到公主们的房门后面。姐妹们一人拿了一束，却谁也不肯低下身份看他一眼。只有最小的莉娜，用天鹅绒般柔润的黑眼睛定定看着他。
+        - id: ch04-b04
+          speaker: lina
+          text: 哎呀，新来的花童长得真漂亮！
+          emotion: surprised
+        - id: ch04-b05
+          speaker: narrator
+          text: 其余姐妹一下子哄笑起来。大公主还说，公主绝不该自降身份，去看一个园丁小工。
+        - id: ch04-b06
+          speaker: narrator
+          text: 米夏埃尔很清楚，那些前来探听秘密的王子都遭遇了什么。可莉娜美丽的眼睛，让他格外想亲自试一试命运。他还是不敢站出来，只怕众人会嘲笑他胆大妄为，甚至把他赶出城堡。
+    - id: ch05
+      title: 第五节
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 不过，望星郎又做了一个梦。金袍夫人再次出现。她一只手拿着两株幼小的月桂，一株是樱桃月桂，一株是夹竹桃。另一只手里，是一把金色小耙、一只金色小桶和一方丝巾。她把使用这些东西的办法告诉了他。
+        - id: ch05-b02
+          speaker: golden_lady
+          text: 把两株月桂分别种进大花盆。用这把耙子松土，用这只桶浇水，再拿丝巾擦拭它们。等树长到十五岁姑娘那么高，你就对它说：“我美丽的月桂，我用金耙为你松过土，用金桶为你浇过水，用丝巾为你擦过身。”说完以后，不管求什么，月桂都会给你。
+        - id: ch05-b03
+          speaker: narrator
+          text: 米夏埃尔谢过夫人。等他醒来，两株月桂果然就在身边。他一件不漏，认真照着夫人的话去做。树长得飞快，很快就和十五岁姑娘一样高了。
+        - id: ch05-b04
+          speaker: michael
+          text: 我可爱的樱桃月桂，我用金耙为你松过土，用金桶为你浇过水，用丝巾为你擦过身。请教我怎样把身形藏起来。
+        - id: ch05-b05
+          speaker: narrator
+          text: 他的话音才落，树上就开出一朵秀美的白花。米夏埃尔把花摘下来，插进了钮孔。
+    - id: ch06
+      title: 第六节
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: 那天晚上，公主们上楼睡觉时，米夏埃尔光着脚跟在后面，免得发出声音。他藏到十二张床里的一张下面，尽量把身子缩小，不占地方。
+        - id: ch06-b02
+          speaker: narrator
+          text: 公主们马上打开衣橱和箱子，取出一件件华丽无比的礼服，对着镜子穿戴起来。装扮好了，她们便转来转去，欣赏自己的模样。米夏埃尔躲在床下，眼前什么也看不见，耳朵却听得清清楚楚。公主们高兴得又笑又跳。
+        - id: ch06-b03
+          speaker: eldest_princess
+          text: 妹妹们，快些吧，舞伴们该等急了。
+        - id: ch06-b04
+          speaker: narrator
+          text: 又过了一个钟头，四周一点声音也没有了。望星郎探头一看，只见十二姐妹都穿着礼服和缎鞋，手里还拿着他送来的花束。
+        - id: ch06-b05
+          speaker: eldest_princess
+          text: 大家都准备好了吗？
+        - id: ch06-b06
+          speakers: [princess_2, princess_3, princess_4, lina]
+          ensemble: chorus
+          text: 准备好了。
+        - id: ch06-b07
+          speaker: narrator
+          text: 十一位妹妹一个接一个，在大公主身后排好。大公主拍了三下手，一扇暗门立刻打开。公主们走下秘密楼梯，很快就不见了，米夏埃尔连忙跟上。
+        - id: ch06-b08
+          speaker: narrator
+          text: 他紧贴着莉娜走，一不小心踩住了她的裙子。
+        - id: ch06-b09
+          speaker: lina
+          text: 我身后有人！有人扯住我的裙子了！
+          emotion: fearful
+        - id: ch06-b10
+          speaker: eldest_princess
+          text: 傻妹妹，你总是怕这怕那。一定是裙子让钉子勾住了。
+    - id: ch07
+      title: 第七节
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: 她们一直往下走，走了又走，最后来到一条甬道。尽头的门只扣着一道门闩。大公主打开门，大家立刻走进一片可爱的小树林。树叶上挂满银色露珠，在灿烂的月光下闪闪发亮。
+        - id: ch07-b02
+          speaker: narrator
+          text: 她们又穿过第二片树林，那里的叶子洒满金光。再往前是第三片树林，每一片叶子都像钻石一样发亮。
+        - id: ch07-b03
+          speaker: narrator
+          text: 终于，望星郎看见一座大湖。岸边停着十二条带篷的小船，每条船里都有一位王子握着船桨，等公主们到来。每位公主坐上一条船，米夏埃尔也悄悄溜进莉娜的船里。
+        - id: ch07-b04
+          speaker: narrator
+          text: 船儿飞快地向前滑，只有莉娜这条船因为多了一个人，总落在最后。
+        - id: ch07-b05
+          speaker: lina
+          text: 我们从来没划得这么慢。今天到底怎么了？
+        - id: ch07-b06
+          speaker: prince
+          text: 我也不明白。我向你保证，已经把全身的力气都用上了。
+        - id: ch07-b07
+          speaker: narrator
+          text: 湖的对岸有一座美丽的城堡，里面灯火辉煌。小提琴、定音鼓和号角一起奏着欢快的曲子。船一靠岸，众人就下了船。王子们把船牢牢系好，挽起公主们的手臂，带着她们朝城堡走去。
+    - id: ch08
+      title: 第八节
+      blocks:
+        - id: ch08-b01
+          speaker: narrator
+          text: 米夏埃尔跟在后面，也走进了舞厅。四周尽是镜子、灯火、鲜花，还有锦缎做成的帷幔。眼前的华美景象，让望星郎看得眼花缭乱。
+        - id: ch08-b02
+          speaker: narrator
+          text: 他躲到一个不妨碍别人的角落，尽情看着公主们起舞。她们个个优雅美丽，却又各不相同。有的皮肤白皙，有的肤色较深。有的长着栗色头发，有的卷发乌黑，还有的披着金色发丝。世上从没有这么多美丽的公主聚在一处。
+        - id: ch08-b03
+          speaker: narrator
+          text: 可在小牧童眼里，最美、最迷人的，仍是那位有着天鹅绒般双眸的小公主。她跳得那样起劲，倚着舞伴的肩，像一阵旋风从他眼前掠过。她双颊通红，眼睛闪亮，谁都能看出，她爱跳舞胜过世上的一切。
+        - id: ch08-b04
+          speaker: narrator
+          text: 可怜的少年很嫉妒那些英俊的年轻人，因为他们能和莉娜这样优美地跳舞。可是，他根本不必那么嫉妒。
+        - id: ch08-b05
+          speaker: narrator
+          text: 这些年轻人，正是从前来探听公主秘密的王子，至少有五十位。公主们曾让他们喝下一种魔药，冻住了他们的心。从此，他们心里只剩下对跳舞的迷恋。
+    - id: ch09
+      title: 第九节
+      blocks:
+        - id: ch09-b01
+          speaker: narrator
+          text: 舞会一直继续，直到公主们的鞋底全都磨穿。公鸡第三次啼叫时，小提琴才停下来。黑人侍童们端来了可口的夜宵，有糖渍橙花、蜜晶玫瑰瓣、糖粉紫罗兰，还有脆饼、薄饼和其他菜肴。人人都知道，这些正是公主们最爱吃的东西。
+        - id: ch09-b02
+          speaker: narrator
+          text: 吃完夜宵，舞者们又回到船上。这一次，望星郎坐进了大公主的船。他们先穿过钻石叶片的树林，又穿过金叶树林，最后回到叶上闪着银露的树林。
+        - id: ch09-b03
+          speaker: narrator
+          text: 为了留下亲眼见过这一切的证据，少年从最后那片树林里折下一根小枝。莉娜听见枝条断裂，马上回过头。
+        - id: ch09-b04
+          speaker: lina
+          text: 刚才是什么声音？
+        - id: ch09-b05
+          speaker: eldest_princess
+          text: 没什么。是住在城堡塔楼里的仓鸮叫了一声。
+        - id: ch09-b06
+          speaker: narrator
+          text: 趁她们说话，米夏埃尔赶到前面，跑上楼梯，第一个回到公主们的房间。他猛地推开窗户，抓着爬满墙壁的藤蔓滑了下去。等他回到花园，太阳才刚刚升起，也正好到了干活的时候。
+    - id: ch10
+      title: 第十节
+      blocks:
+        - id: ch10-b01
+          speaker: narrator
+          text: 那一天，米夏埃尔扎花束时，把那根挂着银色露珠的树枝藏进了莉娜的花里。她发现以后十分惊讶，却没有告诉姐姐们。
+        - id: ch10-b02
+          speaker: narrator
+          text: 后来，莉娜在榆树阴下散步，碰巧遇见那个少年。她忽然停住，像是想和他说些什么，可转眼又改了主意，继续朝前走去。
+        - id: ch10-b03
+          speaker: narrator
+          text: 当晚，十二姐妹再次去参加舞会。望星郎又跟着她们，仍旧坐莉娜的船过湖。这一次，连划船的王子也觉得不对劲。
+        - id: ch10-b04
+          speaker: prince
+          text: 今晚这条船怎么好像格外沉？
+        - id: ch10-b05
+          speaker: lina
+          text: 是天气太热了吧。我也一直觉得热得厉害。
+        - id: ch10-b06
+          speaker: narrator
+          text: 到了舞会上，莉娜四处寻找那个园丁小工，却怎么也看不到他。回来时，米夏埃尔又从金叶树林里折下一根树枝。这回，大公主听见了折枝的声音。
+        - id: ch10-b07
+          speaker: lina
+          text: 没什么。是住在城堡塔楼里的猫头鹰叫了一声。
+    - id: ch11
+      title: 第十一节
+      blocks:
+        - id: ch11-b01
+          speaker: narrator
+          text: 莉娜一起床，就在自己的花束里看见那根金叶树枝。等姐姐们都下楼以后，她故意落后几步，叫住了小牧童。
+        - id: ch11-b02
+          speaker: lina
+          text: 告诉我，这根树枝是从哪儿来的？
+        - id: ch11-b03
+          speaker: michael
+          text: 殿下心里比谁都清楚。
+        - id: ch11-b04
+          speaker: lina
+          text: 这么说，那天晚上你一直跟着我们？
+        - id: ch11-b05
+          speaker: michael
+          text: 是的，公主。
+        - id: ch11-b06
+          speaker: lina
+          text: 可你是怎么办到的？我们谁也没有看见你。
+        - id: ch11-b07
+          speaker: michael
+          text: 我把身形藏了起来。
+        - id: ch11-b08
+          speaker: narrator
+          text: 莉娜沉默了一会儿，才再次开口。
+        - id: ch11-b09
+          speaker: lina
+          text: 你已经知道我们的秘密了。替我们保守秘密吧，这袋金币就算给你的酬劳。
+        - id: ch11-b10
+          speaker: narrator
+          text: 她说着，把一袋金币扔给少年。
+        - id: ch11-b11
+          speaker: michael
+          text: 我的沉默，不是拿来卖的。
+        - id: ch11-b12
+          speaker: narrator
+          text: 米夏埃尔没有捡起钱袋，转身走了。接连三个夜晚，莉娜都没看见，也没听见什么异样。到了第四夜，她听见钻石叶片间响起窸窸窣窣的声音。第二天，那片树林里的树枝又出现在她的花束中。
+        - id: ch11-b13
+          speaker: narrator
+          text: 她把望星郎拉到一旁，厉声追问起来。
+        - id: ch11-b14
+          speaker: lina
+          text: 你知道父亲许下了什么奖赏，来换我们的秘密吗？
+          emotion: angry
+        - id: ch11-b15
+          speaker: michael
+          text: 我知道，公主。
+        - id: ch11-b16
+          speaker: lina
+          text: 那你并不打算把秘密告诉他？
+        - id: ch11-b17
+          speaker: michael
+          text: 我没这个打算。
+        - id: ch11-b18
+          speaker: lina
+          text: 你是害怕吗？
+        - id: ch11-b19
+          speaker: michael
+          text: 不怕，公主。
+        - id: ch11-b20
+          speaker: lina
+          text: 那你为什么一直不肯开口？
+        - id: ch11-b21
+          speaker: narrator
+          text: 米夏埃尔没有回答她。
+    - id: ch12
+      title: 第十二节
+      blocks:
+        - id: ch12-b01
+          speaker: narrator
+          text: 莉娜的姐姐们看见她和小园丁说话，便拿这件事取笑她。
+        - id: ch12-b02
+          speaker: eldest_princess
+          text: 你怎么不干脆嫁给他？这样，你也能当园丁了，多迷人呀。你们可以住在公园尽头的小屋里。你每天替丈夫从井里打水，等我们起床以后，再给我们送花来。
+        - id: ch12-b03
+          speaker: narrator
+          text: 莉娜气坏了。望星郎来送花时，她满脸轻蔑地接过自己的那束。米夏埃尔依然恭恭敬敬，连眼睛也不抬起来看她。可整整一天，莉娜总觉得他就在附近，却无论如何也找不到他。
+        - id: ch12-b04
+          speaker: narrator
+          text: 终于有一天，她下定决心，把事情全都告诉了大姐。大公主听完，立刻发起火来。
+        - id: ch12-b05
+          speaker: eldest_princess
+          text: 什么！这个恶棍知道我们的秘密，你竟然一直瞒着我！我得马上除掉他。
+          emotion: angry
+        - id: ch12-b06
+          speaker: lina
+          text: 你想怎么除掉他？
+        - id: ch12-b07
+          speaker: eldest_princess
+          text: 当然是叫人把他关进那座有地牢的塔楼。
+        - id: ch12-b08
+          speaker: narrator
+          text: 在古时候，美丽的公主要摆脱一个知道太多的人，常用的就是这个办法。可是，莉娜似乎一点也不愿用它来堵住园丁小工的嘴。毕竟，米夏埃尔从没向她们的父亲泄露过半个字。
+    - id: ch13
+      title: 第十三节
+      blocks:
+        - id: ch13-b01
+          speaker: narrator
+          text: 姐妹俩商定，让另外十位公主一起决定该怎么办。她们全都赞成大姐。于是，莉娜当面声明，只要姐姐们敢碰小园丁一根手指，她就亲自去告诉父亲，鞋底上的洞究竟是怎样来的。
+        - id: ch13-b02
+          speaker: narrator
+          text: 最后，她们决定考验米夏埃尔。她们要带他参加舞会，等夜宵结束，再让他喝下魔药，像其他王子一样受到蛊惑。
+        - id: ch13-b03
+          speaker: narrator
+          text: 公主们把望星郎叫来，问他到底怎样发现了秘密。他仍旧不肯回答。接着，大公主用命令的口吻，把姐妹们商定的要求告诉他。
+        - id: ch13-b04
+          speaker: michael
+          text: 我会照你们的吩咐去做。
+        - id: ch13-b05
+          speaker: narrator
+          text: 其实，公主们商议时，他正隐着身待在旁边，每一句都听见了。可他已经决意喝下魔药，为自己所爱之人的幸福牺牲自己。
+        - id: ch13-b06
+          speaker: narrator
+          text: 不过，他不想穿着寒酸的衣服，站在舞会上的其他人身边。于是，他马上来到另一株月桂前。
+        - id: ch13-b07
+          speaker: michael
+          text: 我可爱的夹竹桃，我用金耙为你松过土，用金桶为你浇过水，用丝巾为你擦干过身。请把我打扮成一位王子。
+        - id: ch13-b08
+          speaker: narrator
+          text: 树上开出一朵美丽的粉红花。米夏埃尔把它摘下，转眼间，他身上就有了天鹅绒衣裳，颜色和莉娜的眼睛一样漆黑。他头戴同色的帽子，帽上插着钻石羽饰，钮孔里还别着那朵夹竹桃花。
+        - id: ch13-b09
+          speaker: narrator
+          text: 当天晚上，他穿着这身衣裳去见贝洛伊公爵，请求让自己试一试，查出公爵女儿们的秘密。他的气度太不寻常，几乎没有人认出他是谁。
+    - id: ch14
+      title: 第十四节
+      blocks:
+        - id: ch14-b01
+          speaker: narrator
+          text: 十二位公主上楼就寝，米夏埃尔跟在后面，守在敞开的房门外，直到她们发出启程的信号。
+        - id: ch14-b02
+          speaker: narrator
+          text: 这一次，他没有坐莉娜的船，而是挽着大公主的手臂前往城堡。到了舞厅，他轮流和每一位公主起舞。他的舞姿十分优雅，公主们没有一个不为他着迷。
+        - id: ch14-b03
+          speaker: narrator
+          text: 最后，他终于和莉娜跳起了舞。莉娜觉得，这位陌生人是世上最好的舞伴。米夏埃尔却连一句话也不敢对她说。
+        - id: ch14-b04
+          speaker: narrator
+          text: 他把莉娜送回座位。她看着他，用嘲弄的口吻开了口。
+        - id: ch14-b05
+          speaker: lina
+          text: 你的心愿终于到顶了。现在，人人都把你当成王子来款待。
+        - id: ch14-b06
+          speaker: michael
+          text: 不用害怕。你绝不会成为园丁的妻子。
+        - id: ch14-b07
+          speaker: narrator
+          text: 望星郎说得很温柔。小公主却满脸惊惧，直直盯着他。他没等她回答，就转身离开了。
+        - id: ch14-b08
+          speaker: narrator
+          text: 等缎鞋全都磨穿，小提琴便停止了演奏，黑人侍童们摆好餐桌。米夏埃尔坐在大公主身边，正对着莉娜。公主们请他品尝最精美的菜肴，又劝他喝最醇美的酒。为了叫他彻底昏了头，赞美和奉承也从四面八方向他涌来。
+        - id: ch14-b09
+          speaker: narrator
+          text: 可无论是美酒还是好话，米夏埃尔都小心提防，不让自己沉醉进去。
+    - id: ch15
+      title: 第十五节
+      blocks:
+        - id: ch15-b01
+          speaker: narrator
+          text: 终于，大公主做了个手势。一名黑人侍童捧来一只硕大的金杯。
+        - id: ch15-b02
+          speaker: eldest_princess
+          text: 魔法城堡里已经没有你不知道的秘密了。来，让我们为你的胜利喝一杯。
+        - id: ch15-b03
+          speaker: narrator
+          text: 米夏埃尔久久望着莉娜，然后毫不犹豫地举起了杯子。
+        - id: ch15-b04
+          speaker: lina
+          text: 别喝！我宁愿嫁给一个园丁！
+          emotion: fearful
+        - id: ch15-b05
+          speaker: narrator
+          text: 说完，她放声哭了起来。

@@ -1,0 +1,133 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    tommy:
+      display_name: Tommy Grimes
+      tts:
+        delivery: quick and clever, with a boy's directness and flashes of mischief
+        timbre: young and clear
+        pace: lively
+        pitch: medium-high
+    mother:
+      display_name: Tommy's Mother
+      tts:
+        delivery: firm and watchful, speaking with plain maternal concern
+        timbre: mature and warm
+        pace: measured
+        pitch: medium
+    mr_miacca:
+      display_name: Mr. Miacca
+      tts:
+        delivery: rough and matter-of-fact, with a hungry ogre's impatience
+        timbre: deep and coarse
+        pace: deliberate
+        pitch: low
+    mrs_miacca:
+      display_name: Mrs. Miacca
+      tts:
+        delivery: homely and unsuspecting, with an eager fondness for treats
+        timbre: full and rustic
+        pace: relaxed
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: Around the Corner
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Tommy Grimes was a good boy sometimes and a bad boy sometimes. But when he was bad, he was very bad indeed. His mother often warned him about leaving their street.
+        - id: ch01-b02
+          speaker: mother
+          text: Tommy, be a good boy. Don't go around the corner, or Mr. Miacca will take you away.
+        - id: ch01-b03
+          speaker: narrator
+          text: Still, whenever Tommy was bad, out of the street he went. One day, he had barely turned the corner when Mr. Miacca caught him. He stuffed Tommy upside down into a bag and carried him off to his house.
+
+    - id: ch02
+      title: Mrs. Miacca and the Pudding
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Inside the house, Mr. Miacca pulled Tommy from the bag, set him down, and felt his arms and legs.
+        - id: ch02-b02
+          speaker: mr_miacca
+          text: You're rather tough, but you're all I have for supper. You'll taste well enough once you're boiled. Oh, bother! I forgot the herbs. Without them, you'll taste bitter. Sally! Sally, come here!
+        - id: ch02-b03
+          speaker: narrator
+          text: Mrs. Miacca came in from the next room.
+        - id: ch02-b04
+          speaker: mrs_miacca
+          text: What do you need, my dear?
+        - id: ch02-b05
+          speaker: mr_miacca
+          text: I've brought home a little boy for supper, but I forgot the herbs. Keep an eye on him while I fetch them.
+        - id: ch02-b06
+          speaker: mrs_miacca
+          text: All right, my love.
+        - id: ch02-b07
+          speaker: narrator
+          text: Mr. Miacca went out, leaving Tommy alone with Mrs. Miacca.
+        - id: ch02-b08
+          speaker: tommy
+          text: Does Mr. Miacca always eat little boys for supper?
+        - id: ch02-b09
+          speaker: mrs_miacca
+          text: Most of the time, dear. He catches them when they're bad enough to cross his path.
+        - id: ch02-b10
+          speaker: tommy
+          text: Don't you ever have anything besides boy meat? Don't you get pudding?
+        - id: ch02-b11
+          speaker: mrs_miacca
+          text: Oh, I do love pudding. But someone like me hardly ever gets any.
+        - id: ch02-b12
+          speaker: tommy
+          text: My mother is making pudding today. I'm sure she'd give you some if I asked. Shall I run home and bring it back?
+        - id: ch02-b13
+          speaker: mrs_miacca
+          text: What a thoughtful boy! Just don't take long, and make sure you're back in time for supper.
+        - id: ch02-b14
+          speaker: narrator
+          text: Tommy raced away, very glad to have escaped so easily.
+
+    - id: ch03
+      title: Caught a Second Time
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: For many days after that, Tommy was as good as he could be. He never went around the corner. But he could not be good forever. One day, he turned that corner again, and once again Mr. Miacca was waiting. He seized Tommy, pushed him into his bag, and took him home.
+        - id: ch03-b02
+          speaker: narrator
+          text: Mr. Miacca tipped Tommy out of the bag. As soon as he recognized the boy, he spoke.
+        - id: ch03-b03
+          speaker: mr_miacca
+          text: Ah, it's the youngster who played that shabby trick on my wife and me! You left us with no supper. You won't fool us this time. Crawl under the sofa. I'll sit on it myself while I wait for the pot to boil.
+          emotion: angry
+        - id: ch03-b04
+          speaker: narrator
+          text: Poor Tommy had to crawl under the sofa. Mr. Miacca sat above him and watched the pot. They waited and waited, but the water still would not boil. At last, Mr. Miacca grew tired of waiting.
+        - id: ch03-b05
+          speaker: mr_miacca
+          text: You, under the sofa! I won't wait any longer. Stick out one leg, and I'll make sure you don't slip away again.
+
+    - id: ch04
+      title: The Sofa Leg
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Tommy pushed out a leg. Mr. Miacca took up a chopper, cut it off, and dropped it into the pot.
+        - id: ch04-b02
+          speaker: mr_miacca
+          text: Sally, my dear! Sally!
+        - id: ch04-b03
+          speaker: narrator
+          text: No one answered. Mr. Miacca went into the next room to look for his wife. While he was gone, Tommy crept out from under the sofa and ran through the door. You see, the leg he had pushed out was not his own. It was one of the sofa legs.
+        - id: ch04-b04
+          speaker: narrator
+          text: Tommy Grimes ran all the way home. After that, he never went around the corner again until he was old enough to go there alone.

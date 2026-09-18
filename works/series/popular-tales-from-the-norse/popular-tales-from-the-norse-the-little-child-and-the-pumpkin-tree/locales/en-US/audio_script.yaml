@@ -1,0 +1,143 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    widow:
+      display_name: Widow
+      tts:
+        delivery: hardworking and plainspoken
+        timbre: warm and worn
+        pace: steady
+        pitch: medium
+    old_man:
+      display_name: Old Man
+      tts:
+        delivery: quiet and matter-of-fact
+        timbre: low and weathered
+        pace: unhurried
+        pitch: low
+    child_1:
+      display_name: First Child
+      tts:
+        delivery: earnest and direct
+        timbre: clear and youthful
+        pace: quick
+        pitch: high
+    child_2:
+      display_name: Second Child
+      tts:
+        delivery: sincere and insistent
+        timbre: light and youthful
+        pace: quick
+        pitch: high
+    child_3:
+      display_name: Third Child
+      tts:
+        delivery: anxious but truthful
+        timbre: soft and youthful
+        pace: measured
+        pitch: medium-high
+    child_4:
+      display_name: Fourth Child
+      tts:
+        delivery: earnest and steady
+        timbre: bright and youthful
+        pace: measured
+        pitch: high
+    strange_child:
+      display_name: Strange Child
+      tts:
+        delivery: sly and self-serving
+        timbre: small and sharp
+        pace: lively
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The Tree Full of Pumpkins
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a poor widow with six children. She had very little, and one morning she went out to search for something they could eat. Beside the river, she came upon an old man sitting alone.
+        - id: ch01-b02
+          speaker: old_man
+          text: Good morning.
+        - id: ch01-b03
+          speaker: widow
+          text: Good morning, father.
+        - id: ch01-b04
+          speaker: old_man
+          text: Would you wash my head for me?
+        - id: ch01-b05
+          speaker: widow
+          text: Yes, I will.
+        - id: ch01-b06
+          speaker: narrator
+          text: She washed his head. Before she left, the old man gave her a stampee, a small coin. He told her to walk on until she found a great tree covered in pumpkins. She must dig a hole by its roots and bury the coin. Then she could call for all the pumpkins she wanted, and the tree would give them to her.
+        - id: ch01-b07
+          speaker: narrator
+          text: The widow followed his directions. At the tree, she buried the stampee and called for six pumpkins, one for each child. Six pumpkins dropped down, and she carried them home. From then on, whenever the family needed food, she went to the tree and called. They could have as many pumpkins as they wished, so there was always enough for everyone.
+    - id: ch02
+      title: The Child in the Trap
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: One morning, the widow opened her door and found a little baby outside. She picked the baby up, brought it in, and cared for it. Each day, before she went out, she boiled enough pumpkin to feed all the children until she came home.
+        - id: ch02-b02
+          speaker: narrator
+          text: Then one day she returned and found that all the food was gone. She scolded her children and beat them for eating every bit of it.
+        - id: ch02-b03
+          speakers: [child_1, child_2, child_3, child_4]
+          ensemble: chorus
+          text: We didn't eat it! The baby did!
+        - id: ch02-b04
+          speaker: widow
+          text: How could a tiny baby get up and serve itself?
+        - id: ch02-b05
+          speaker: narrator
+          text: She would not believe them, though they kept telling her the baby had done it. So the next time she went out, she put some pumpkin in a calabash and placed a trap over the food.
+        - id: ch02-b06
+          speaker: narrator
+          text: Once she was gone, the baby got up to eat as usual. Its head caught fast in the trap, and it could not escape. The baby knocked the trap about and cried out.
+        - id: ch02-b07
+          speaker: strange_child
+          text: Oh, let me loose! That woman will kill me when she gets back!
+          emotion: fearful
+        - id: ch02-b08
+          speaker: narrator
+          text: When the widow returned, there was the baby with its head still caught. She beat it soundly and drove it out of the house. Then she asked her children to forgive her for blaming them when they had told the truth.
+    - id: ch03
+      title: Ten Pumpkins
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: As soon as the baby was outside, he changed into a great big man. He went down to the river and found the same old man who had asked the widow to wash his head.
+        - id: ch03-b02
+          speaker: old_man
+          text: Will you wash my head?
+        - id: ch03-b03
+          speaker: strange_child
+          text: No, I won't wash your dirty head. Good-bye.
+        - id: ch03-b04
+          speaker: narrator
+          text: Then the old man asked whether he would like a pumpkin.
+        - id: ch03-b05
+          speaker: strange_child
+          text: Yes, I would.
+        - id: ch03-b06
+          speaker: old_man
+          text: Keep walking until you find a large tree with plenty of pumpkins. When you reach it, ask the tree for one.
+        - id: ch03-b07
+          speaker: narrator
+          text: The man went on until he reached the tree. Its pumpkins looked so good that one was not enough for him.
+        - id: ch03-b08
+          speaker: strange_child
+          text: Ten pumpkins, come down!
+        - id: ch03-b09
+          speaker: narrator
+          text: All ten pumpkins fell from the tree and crushed him.

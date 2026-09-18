@@ -1,0 +1,565 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    peter:
+      display_name: Rich Peter the Pedlar
+      tts:
+        delivery: proud, forceful, and increasingly impatient
+        timbre: firm and weathered
+        pace: moderate
+        pitch: medium-low
+    peters_wife:
+      display_name: Peter's Wife
+      tts:
+        delivery: practical and cautious
+        timbre: mature and clear
+        pace: measured
+        pitch: medium
+    stargazer_1:
+      display_name: First Stargazer
+      tts:
+        delivery: grave and certain
+        timbre: dry and resonant
+        pace: slow
+        pitch: medium-low
+    stargazer_2:
+      display_name: Second Stargazer
+      tts:
+        delivery: grave and certain
+        timbre: thin and clear
+        pace: slow
+        pitch: medium
+    first_millers_wife:
+      display_name: The Boy's Mother
+      tts:
+        delivery: tender and resolute
+        timbre: soft and full
+        pace: moderate
+        pitch: medium-high
+    first_miller:
+      display_name: The Boy's Father
+      tts:
+        delivery: weary and plainspoken
+        timbre: rough and steady
+        pace: measured
+        pitch: medium-low
+    second_miller:
+      display_name: The Downstream Miller
+      tts:
+        delivery: kindly and straightforward
+        timbre: warm and rustic
+        pace: moderate
+        pitch: medium-low
+    second_millers_wife:
+      display_name: The Downstream Miller's Wife
+      tts:
+        delivery: warm and eager
+        timbre: gentle and bright
+        pace: moderate
+        pitch: medium
+    millers_lad:
+      display_name: The Miller's Lad
+      tts:
+        delivery: brave, courteous, and direct
+        timbre: youthful and clear
+        pace: moderate
+        pitch: medium
+    robber:
+      display_name: The Robber
+      tts:
+        delivery: shrewd and mischievous
+        timbre: low and wiry
+        pace: brisk
+        pitch: medium-low
+    first_king:
+      display_name: The King with the Well
+      tts:
+        delivery: dignified and concerned
+        timbre: broad and clear
+        pace: measured
+        pitch: medium-low
+    second_king:
+      display_name: The King with the Lost Daughter
+      tts:
+        delivery: sorrowful and earnest
+        timbre: rich and mature
+        pace: measured
+        pitch: medium-low
+    queen:
+      display_name: The Queen with the Gold Keys
+      tts:
+        delivery: stately and discreet
+        timbre: smooth and mature
+        pace: measured
+        pitch: medium
+    ferryman:
+      display_name: The Old Ferryman
+      tts:
+        delivery: tired, blunt, and watchful
+        timbre: bent and gravelly
+        pace: unhurried
+        pitch: low
+    princess:
+      display_name: The Princess
+      tts:
+        delivery: compassionate, clever, and steady
+        timbre: clear and graceful
+        pace: moderate
+        pitch: medium-high
+    dragon:
+      display_name: The Dragon of Deepferry
+      tts:
+        delivery: rumbling, suspicious, and quick to anger
+        timbre: deep and harsh
+        pace: slow
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Stargazers' Answer
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, there was a man called Rich Peter the Pedlar. He had traveled from place to place with a pack on his back and made so much money that he became very rich. Peter had a daughter he loved dearly. Whenever a man came to court her, Peter looked him over and sent him away. In his eyes, not one of them was good enough for her. This went on year after year. At last the suitors stopped coming altogether, and as his daughter grew older, Peter began to fear she would never marry.
+        - id: ch01-b02
+          speaker: peter
+          text: Why has no one come lately to court our girl? She's rich already, and one day she'll have even more. It would be strange if no man wanted her. I think I'll visit the Stargazers and ask them who her husband is meant to be.
+        - id: ch01-b03
+          speaker: peters_wife
+          text: But how could the Stargazers possibly tell you that?
+        - id: ch01-b04
+          speaker: peter
+          text: Of course they can. They read everything in the stars.
+        - id: ch01-b05
+          speaker: narrator
+          text: Peter filled a great bag with money and went to the Stargazers. He asked them to study the stars and tell him whom his daughter would marry. They looked and looked, but said they could see nothing. Peter begged them to try again and tell him the truth. He promised to pay them well. So they searched the stars once more.
+        - id: ch01-b06
+          speakers: [stargazer_1, stargazer_2]
+          ensemble: duo
+          text: Your daughter will marry the miller's son who has just been born at the mill below your house.
+        - id: ch01-b07
+          speaker: narrator
+          text: Peter paid them a hundred dollars and went home with their answer. The thought that his wealthy daughter was fated to marry a child who had only just been born, and a poor miller's son at that, seemed like a fine joke to him. He told his wife what the Stargazers had said.
+        - id: ch01-b08
+          speaker: peter
+          text: Do you think they might sell me the boy? If they did, I could soon be rid of him.
+        - id: ch01-b09
+          speaker: peters_wife
+          text: I expect they would. You know how poor they are.
+        - id: ch01-b10
+          speaker: narrator
+          text: Peter went down to the mill and offered the miller's wife a great deal of money for her baby son.
+        - id: ch01-b11
+          speaker: first_millers_wife
+          text: No. I will not sell him.
+        - id: ch01-b12
+          speaker: peter
+          text: I don't see why not. You already work hard just to keep food in the house, and another child won't make that any easier.
+        - id: ch01-b13
+          speaker: narrator
+          text: The mother loved her boy too dearly to part with him. But when the miller came home, Peter made the offer again. He promised six hundred dollars for the child. With that money, he said, the miller and his wife could buy a farm of their own. They would no longer have to grind other people's corn for a living, and when the water ran too low to turn the wheel, they would not be left to starve. The miller thought it was a good bargain. He talked his wife into accepting it, and in the end Rich Peter carried off the boy. The mother cried and sobbed as he went.
+        - id: ch01-b14
+          speaker: peter
+          text: The boy will be well cared for. But you must promise never to ask about him. I mean to send him far away, where he can learn foreign languages.
+        - id: ch01-b15
+          speaker: narrator
+          text: Peter carried the boy home and sent for a carpenter. He ordered a little chest, so neat and well made that it was a joy to see. Then he sealed it with pitch to keep out the water, laid the miller's son inside, locked the chest, and threw it into the river. The current swept it away.
+        - id: ch01-b16
+          speaker: peter
+          text: Now I'm rid of him.
+    - id: ch02
+      title: The Child in the Chest
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The chest floated far downstream until it entered the millrace of another mill. It caught against the wheel shaft and brought the whole mill to a stop. The miller came out to see what was wrong. He found the chest, pulled it free, and carried it home. At dinner, he showed it to his wife.
+        - id: ch02-b02
+          speaker: second_miller
+          text: What do you suppose is inside this chest? It floated into the millrace today and stopped our wheel.
+        - id: ch02-b03
+          speaker: second_millers_wife
+          text: We can find out easily enough. The key is still in the lock. Turn it.
+        - id: ch02-b04
+          speaker: narrator
+          text: They turned the key and lifted the lid. There, inside the chest, lay the prettiest child they had ever set eyes on. The miller and his wife were overjoyed. They had no children of their own, and they were now too old to hope that one would be born to them, so they gladly took the little boy in and raised him as their son.
+        - id: ch02-b05
+          speaker: narrator
+          text: Some years later, Peter again wondered why no one came to court his daughter, rich as she was in land and money. He returned to the Stargazers and offered them a heap of money if they would name the man she was to marry.
+        - id: ch02-b06
+          speakers: [stargazer_1, stargazer_2]
+          ensemble: duo
+          text: We told you before. She will marry the miller's son from the mill below your house.
+        - id: ch02-b07
+          speaker: peter
+          text: That may be what you said, but the boy is dead. Tell me whom she will really marry, and I'll gladly give you two hundred dollars.
+        - id: ch02-b08
+          speaker: narrator
+          text: The Stargazers searched the stars again. This time they grew angry.
+        - id: ch02-b09
+          speakers: [stargazer_1, stargazer_2]
+          ensemble: duo
+          text: We told you then, and we tell you now. She will marry the miller's son you threw into the river, hoping to kill him. He is alive and well at a mill far downstream.
+          emotion: angry
+        - id: ch02-b10
+          speaker: narrator
+          text: Peter paid them two hundred dollars for the news and went home thinking hard about how he might get rid of the boy once and for all. Then he set off for the mill the Stargazers had named. By that time, the boy was old enough to have been confirmed. He went about the mill each day, helping his foster father with the work, and he had grown into as handsome a lad as anyone could wish to see.
+        - id: ch02-b11
+          speaker: peter
+          text: Could you spare me that lad over there?
+        - id: ch02-b12
+          speaker: second_miller
+          text: No, I could not. I raised him as my own son. He has turned out well, and now that I'm growing too old for the work, he's a great help to me here.
+        - id: ch02-b13
+          speaker: peter
+          text: I'm in much the same position. I need someone to learn my trade. Give him to me, and I'll pay you six hundred dollars. Then you can buy a farm and spend the rest of your days in peace.
+        - id: ch02-b14
+          speaker: narrator
+          text: When the miller heard that offer, he agreed to let Peter take the lad.
+    - id: ch03
+      title: The Robbers' Letter
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Peter and the lad traveled far and wide with packs of goods on their backs, buying and selling as they went. At last they reached an inn at the edge of a great forest. From there, Peter sent the lad home with a letter for his wife. The road would not be so long if the boy took the shortcut through the trees. Peter told him to give his wife the letter and say that she must carry out its orders without delay. But inside, Peter had ordered her to build a great pile of wood at once, set it blazing, and throw the miller's son into the fire. If she failed to do it, Peter wrote, he would burn her alive when he came home.
+        - id: ch03-b02
+          speaker: narrator
+          text: The lad set off through the forest. By evening, he reached a lonely house far among the trees. No one was inside. In one room he found a bed already made, so he lay across it and fell asleep. Peter's letter was tucked into his hatband, and he had pulled the hat over his face.
+        - id: ch03-b03
+          speaker: narrator
+          text: The house belonged to twelve robbers. When they came home and saw the sleeping lad, they wondered who he was. One robber took the letter from the hatband, opened it, and read it.
+        - id: ch03-b04
+          speaker: robber
+          text: Ho, ho! So this is from Peter the Pedlar. Let's play a trick on him. It would be a shame to let that old miser kill such a handsome lad.
+        - id: ch03-b05
+          speaker: narrator
+          text: The robbers destroyed Peter's message and wrote a different letter to his wife. While the lad still slept, they tucked their letter beneath his hatband. It ordered her to arrange a wedding between the miller's boy and Peter's daughter as soon as she received it. Afterward, she was to give the young pair horses, cattle, furniture, and everything else they needed to set up a home. They were to live on Peter's farm beneath the hill. If all this was not finished before he returned, the false letter warned, she would suffer for it.
+        - id: ch03-b06
+          speaker: narrator
+          text: The next day, the robbers let the lad continue on his way. He reached Peter's house and handed over the letter.
+        - id: ch03-b07
+          speaker: millers_lad
+          text: Peter sends you his kind greetings. He says you must do what the letter tells you, and do it as quickly as you can.
+        - id: ch03-b08
+          speaker: peters_wife
+          text: You must have behaved very well. When you left, Peter was so furious with you that he could think of nothing but how to get rid of you. Now look at what he has written!
+        - id: ch03-b09
+          speaker: narrator
+          text: She married the lad and her daughter on the spot. Then she gave them horses, cattle, household goods, and the farm beneath the hill, just as the letter commanded.
+        - id: ch03-b10
+          speaker: narrator
+          text: Before long, Peter came home. His first question was whether his wife had obeyed his letter.
+        - id: ch03-b11
+          speaker: peters_wife
+          text: Yes, I did. I thought the orders were strange, but I didn't dare disobey them.
+        - id: ch03-b12
+          speaker: narrator
+          text: Peter asked where their daughter was.
+        - id: ch03-b13
+          speaker: peters_wife
+          text: You know perfectly well. Where else would she be but at the farm beneath the hill, just as you wrote?
+        - id: ch03-b14
+          speaker: narrator
+          text: Peter heard the whole story and read the changed letter. He grew so angry that he was ready to burst. Then he ran up to the farm and confronted the young couple.
+        - id: ch03-b15
+          speaker: peter
+          text: You may say you've won my daughter, my son. But if you mean to keep her, you must go to the Dragon of Deepferry and bring me three feathers from his tail. Whoever owns those feathers can get anything he chooses.
+          emotion: angry
+        - id: ch03-b16
+          speaker: millers_lad
+          text: Where can I find this dragon?
+        - id: ch03-b17
+          speaker: peter
+          text: I have no idea. Finding him is your problem, not mine.
+    - id: ch04
+      title: The Road to Deepferry
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The lad set out with a stout heart. After walking for some time, he came to a king's palace.
+        - id: ch04-b02
+          speaker: millers_lad
+          text: I'll go in and ask for help. Great people know more of the world than most, so perhaps someone here can tell me the way to the Dragon.
+        - id: ch04-b03
+          speaker: narrator
+          text: The King asked where he had come from and where he was going.
+        - id: ch04-b04
+          speaker: millers_lad
+          text: I'm going to the Dragon of Deepferry to pull three feathers from his tail, if only I can learn where to find him.
+        - id: ch04-b05
+          speaker: first_king
+          text: Then you will need good luck. I have never heard of anyone returning from that search. But if you find the Dragon, ask him why I cannot get clear water from my well. I have dug it out again and again, yet not one drop comes up clear.
+        - id: ch04-b06
+          speaker: millers_lad
+          text: I will be sure to ask him.
+        - id: ch04-b07
+          speaker: narrator
+          text: The lad stayed at the palace and was served the finest food the household could offer. When it was time for him to continue his journey, the King gave him money for the road and enough provisions to carry with him.
+        - id: ch04-b08
+          speaker: narrator
+          text: That evening, he came to a second king's palace. He went into the kitchen, and the King stepped out from the parlor to ask where he came from and what errand had brought him there.
+        - id: ch04-b09
+          speaker: millers_lad
+          text: I'm on my way to the Dragon of Deepferry to take three feathers from his tail.
+        - id: ch04-b10
+          speaker: second_king
+          text: You will need good luck. No one I know of has ever come back after going to find him. But if you reach the Dragon, ask where my daughter is. She disappeared many years ago. I have searched for her and had her name announced in every church in the country, but no one can tell me what became of her.
+        - id: ch04-b11
+          speaker: millers_lad
+          text: I will remember to ask.
+        - id: ch04-b12
+          speaker: narrator
+          text: At that palace too, the lad ate as well as any guest could wish. When he took his leave the next morning, the household sent him on with both money and food.
+        - id: ch04-b13
+          speaker: narrator
+          text: As the next evening drew on, he reached a third royal palace. This time a Queen came into the kitchen and asked where he came from and where he was bound.
+        - id: ch04-b14
+          speaker: millers_lad
+          text: I'm going to the Dragon of Deepferry to pluck three feathers from his tail.
+        - id: ch04-b15
+          speaker: queen
+          text: Then take all the good luck you can. I have never heard of anyone coming back from him. But if you find the Dragon, please ask where I can find the gold keys I lost.
+        - id: ch04-b16
+          speaker: millers_lad
+          text: I will certainly ask him.
+        - id: ch04-b17
+          speaker: narrator
+          text: After leaving the palace, the lad reached a great, broad river. He stood wondering whether to cross or follow the bank. Then an old hunchbacked man came up and asked where he was going.
+        - id: ch04-b18
+          speaker: millers_lad
+          text: I'm looking for the Dragon of Deepferry, if I can only find someone who knows where he lives.
+        - id: ch04-b19
+          speaker: ferryman
+          text: I can tell you. I go back and forth here, carrying over everyone who wants to see him. The Dragon lives across the river. Climb the hill and you will see his castle. If you speak with him, ask how much longer I must stay here carrying people over.
+        - id: ch04-b20
+          speaker: millers_lad
+          text: I promise I will ask him.
+        - id: ch04-b21
+          speaker: narrator
+          text: The old man carried the lad across the river on his back. The lad climbed the hill, saw the castle, and went inside. There he found a Princess living alone with the Dragon.
+    - id: ch05
+      title: The Dragon's Castle
+      blocks:
+        - id: ch05-b01
+          speaker: princess
+          text: Dear friend, how could any Christian dare come here? No one has visited since I arrived. You must leave as fast as you can. The moment the Dragon comes home, he will smell you and gobble you up. I would be terribly unhappy if that happened.
+        - id: ch05-b02
+          speaker: millers_lad
+          text: No, I cannot leave until I have three feathers from his tail.
+        - id: ch05-b03
+          speaker: princess
+          text: You will never get them. Please go while you still can.
+        - id: ch05-b04
+          speaker: narrator
+          text: The lad refused. He meant to wait for the Dragon, take the feathers, and get answers to every question he had brought.
+        - id: ch05-b05
+          speaker: princess
+          text: Since you are determined, I will do what I can to help. First, try to lift the sword hanging on that wall.
+        - id: ch05-b06
+          speaker: narrator
+          text: The lad could not even move it.
+        - id: ch05-b07
+          speaker: princess
+          text: That is what I expected. Drink from this flask.
+        - id: ch05-b08
+          speaker: narrator
+          text: The lad drank and waited a while. When he tried again, he could just make the sword stir.
+        - id: ch05-b09
+          speaker: princess
+          text: Take another drink. Then tell me what brought you here.
+        - id: ch05-b10
+          speaker: narrator
+          text: He drank again and told her the whole story of his journey. One King wanted to know why no clear water would come from his well, though he had cleaned it out many times. Another wanted news of the daughter who had vanished years before. A Queen wanted to learn where her lost gold keys lay. Last of all, the ferryman wanted to know how long he must keep carrying travelers across the river. When the lad had finished telling it all, he tried the sword again and could lift it. After one more drink from the flask, he was strong enough to swing it through the air.
+        - id: ch05-b11
+          speaker: princess
+          text: If you do not want the Dragon to kill you, crawl under the bed. Night is falling, and he will soon be home. Lie perfectly still so he does not discover you. Once we are in bed, I will ask your questions. Listen carefully and remember every answer. Stay hidden until all is quiet and the Dragon is asleep. Then creep out and take the sword. The moment he rises, cut off his head with one stroke and pull the three feathers from his tail. Otherwise, he will tear them out himself so no one can use their power.
+        - id: ch05-b12
+          speaker: narrator
+          text: The lad hid beneath the bed. Soon the Dragon came home.
+        - id: ch05-b13
+          speaker: dragon
+          text: I smell Christian flesh.
+        - id: ch05-b14
+          speaker: princess
+          text: A raven flew over with a man's bone in its beak and landed on the roof. That must be what you smell.
+        - id: ch05-b15
+          speaker: dragon
+          text: Yes, I suppose it is.
+        - id: ch05-b16
+          speaker: narrator
+          text: The Princess served supper. After they ate, she and the Dragon went to bed. They had lain there a while when the Princess began tossing and turning. Suddenly, she sat up.
+        - id: ch05-b17
+          speaker: princess
+          text: Ah! I cannot rest!
+          emotion: surprised
+        - id: ch05-b18
+          speaker: dragon
+          text: What is the matter?
+        - id: ch05-b19
+          speaker: princess
+          text: I just had such a strange dream.
+        - id: ch05-b20
+          speaker: dragon
+          text: What did you dream? Tell me.
+        - id: ch05-b21
+          speaker: princess
+          text: I dreamed that a king came here and asked what he must do to get clear water in his well.
+        - id: ch05-b22
+          speaker: dragon
+          text: He ought to have worked that out himself. If he digs out the well and removes the old rotten stump at the bottom, he will soon have clear water. Now lie still and dream no more.
+        - id: ch05-b23
+          speaker: narrator
+          text: After another while, the Princess began tossing again. At last, she sat up with another cry.
+        - id: ch05-b24
+          speaker: princess
+          text: Ah! I still cannot rest!
+          emotion: surprised
+        - id: ch05-b25
+          speaker: dragon
+          text: What is wrong now?
+        - id: ch05-b26
+          speaker: princess
+          text: I have had another strange dream.
+        - id: ch05-b27
+          speaker: dragon
+          text: You are full of dreams tonight. What was this one about?
+        - id: ch05-b28
+          speaker: princess
+          text: I dreamed that a king came and asked what became of his daughter, who disappeared many years ago.
+        - id: ch05-b29
+          speaker: dragon
+          text: You are that daughter. But he will never see you again. Now be quiet and let me sleep. If you wake me with another dream, I will break your ribs.
+          emotion: angry
+        - id: ch05-b30
+          speaker: narrator
+          text: It was not long before the Princess began tossing once more. Again she started up.
+        - id: ch05-b31
+          speaker: princess
+          text: Ah! I had another strange dream!
+          emotion: surprised
+        - id: ch05-b32
+          speaker: dragon
+          text: Again? What is it this time?
+          emotion: angry
+        - id: ch05-b33
+          speaker: narrator
+          text: The Dragon was wild with weariness and anger, almost ready to fly apart.
+        - id: ch05-b34
+          speaker: princess
+          text: Please do not be angry.
+        - id: ch05-b35
+          speaker: dragon
+          text: Curse these dreams! What did you dream now?
+          emotion: angry
+        - id: ch05-b36
+          speaker: princess
+          text: I dreamed that a queen came here and asked where to find the gold keys she had lost.
+        - id: ch05-b37
+          speaker: dragon
+          text: She will find them quickly enough if she searches among the bushes where she lay that time she knows about. Now let me sleep in peace. I want no more dreams.
+        - id: ch05-b38
+          speaker: narrator
+          text: They slept for a while, but soon the Princess was as restless as before. At last, she cried out again.
+        - id: ch05-b39
+          speaker: princess
+          text: Ah! I had one more strange dream!
+          emotion: surprised
+        - id: ch05-b40
+          speaker: dragon
+          text: You will never behave until I break your neck. What is wrong now?
+          emotion: angry
+        - id: ch05-b41
+          speaker: narrator
+          text: The Dragon was so furious that sparks flew from his eyes.
+        - id: ch05-b42
+          speaker: princess
+          text: Please do not be so angry. I cannot bear it.
+        - id: ch05-b43
+          speaker: dragon
+          text: I have never heard so many dreams. They never end. What did you dream this time?
+          emotion: angry
+        - id: ch05-b44
+          speaker: princess
+          text: I dreamed that the ferryman down by the river came and asked how much longer he must carry people across.
+        - id: ch05-b45
+          speaker: dragon
+          text: The stupid fool could free himself whenever he pleased. When someone comes wanting to cross, he need only throw that traveler into the river and say, “Now you must carry people over until someone sets you free.” Then his work is done. But that is enough dreaming. If you wake me again, you will be sorry.
+          emotion: angry
+        - id: ch05-b46
+          speaker: narrator
+          text: The Princess let him sleep. When everything was quiet and the lad heard the Dragon snoring, he crept from under the bed and took the sword. Before daylight, the Dragon rose. He had barely placed both feet on the floor when the lad cut off his head with one stroke and plucked three feathers from his tail.
+        - id: ch05-b47
+          speaker: narrator
+          text: The danger was over, and the lad and the Princess rejoiced together. Before leaving the castle, they gathered all they could carry. They took gold and silver, coins, and other precious things from the Dragon's hoard. Then, laden with treasure, they made their way down the hill toward the river.
+    - id: ch06
+      title: Rich Peter at the Ferry
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: When they reached the river, they had so much to tell the ferryman that his head was soon full of their news. He forgot to ask about the Dragon's answer until he had carried them safely across.
+        - id: ch06-b02
+          speaker: ferryman
+          text: Halloa there! Did you ask the Dragon the question I gave you?
+        - id: ch06-b03
+          speaker: millers_lad
+          text: Yes. He said that when someone asks to cross, you must throw that person into the middle of the river and say, “Now you must carry people over until someone comes to set you free.” Then you will be free yourself.
+        - id: ch06-b04
+          speaker: ferryman
+          text: Bad luck to you! If you had told me before we crossed, I could have freed myself with you.
+          emotion: angry
+        - id: ch06-b05
+          speaker: narrator
+          text: The lad and the Princess went on to the first palace they reached. The Queen asked whether he had questioned the Dragon about her gold keys.
+        - id: ch06-b06
+          speaker: millers_lad
+          text: Yes. He said to search among the bushes where you lay on the day you know about.
+        - id: ch06-b07
+          speaker: queen
+          text: Hush! Do not say another word.
+        - id: ch06-b08
+          speaker: narrator
+          text: The Queen gave him a hundred dollars.
+        - id: ch06-b09
+          speaker: narrator
+          text: At the next palace, the King asked whether the lad had spoken to the Dragon about his request.
+        - id: ch06-b10
+          speaker: millers_lad
+          text: Yes, I did. And here is your daughter.
+        - id: ch06-b11
+          speaker: narrator
+          text: The King was overjoyed to see his lost daughter standing before him at last. He would gladly have married the Princess to the miller's lad and given the young pair half his kingdom besides. But the lad already had a wife waiting at home. Instead, the grateful King rewarded him with two hundred dollars, coaches and horses, and as much gold and silver as he could take away.
+        - id: ch06-b12
+          speaker: narrator
+          text: At the third palace, the King came out and asked if the lad had brought the answer to his question.
+        - id: ch06-b13
+          speaker: millers_lad
+          text: Yes. The Dragon said to dig out the well and remove the rotten old stump at the bottom. Then you will have plenty of clear water.
+        - id: ch06-b14
+          speaker: narrator
+          text: That King gave him three hundred dollars. The lad continued home so heavily laden with gold and silver, and dressed in such splendid clothes, that he gleamed wherever he went. By then, he was far richer than Peter the Pedlar.
+        - id: ch06-b15
+          speaker: narrator
+          text: When Peter received the three feathers, he could no longer object to the marriage. But the sight of all that wealth made him ask whether much treasure still remained in the Dragon's castle.
+        - id: ch06-b16
+          speaker: millers_lad
+          text: Oh yes. There was far more than I could carry. You could load many horses with it. If you decide to go, there will certainly be enough for you.
+        - id: ch06-b17
+          speaker: narrator
+          text: Peter's son-in-law explained the road so clearly that Peter would not need to ask anyone for directions.
+        - id: ch06-b18
+          speaker: millers_lad
+          text: Leave your horses on this side of the river. The old ferryman will carry you safely across.
+        - id: ch06-b19
+          speaker: narrator
+          text: Peter set out at once. He carried a great supply of food and brought many horses, ready to load them with the Dragon's treasure. When he reached the river, he followed the lad's advice and left every horse waiting on the bank. The old ferryman bent down, lifted Peter onto his back, and began wading across. But once they were well out in the stream, the ferryman tossed Rich Peter straight into the middle of the river.
+        - id: ch06-b20
+          speaker: ferryman
+          text: Now you must go back and forth here, carrying people across until someone sets you free.
+        - id: ch06-b21
+          speaker: narrator
+          text: And unless someone has freed him, Rich Peter the Pedlar is still going back and forth, carrying people across the river to this very day.

@@ -1,0 +1,108 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    traveler:
+      display_name: The Traveler
+      tts:
+        delivery: steady and quietly confident
+        timbre: clear and weathered
+        pace: measured
+        pitch: medium-low
+    halvor:
+      display_name: Halvor
+      tts:
+        delivery: honest and cautious
+        timbre: warm and rustic
+        pace: measured
+        pitch: medium
+    little_troll:
+      display_name: Little Troll
+      tts:
+        delivery: shrill and teasing
+        timbre: thin and raspy
+        pace: lively
+        pitch: high
+    troll_in_the_wood:
+      display_name: Troll in the Wood
+      tts:
+        delivery: wary and loud
+        timbre: rough and booming
+        pace: measured
+        pitch: low
+  chapters:
+    - id: ch01
+      title: A Christmas Eve at Halvor's Cottage
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Once there was a man in Finnmark who caught a great white bear. He meant to take it to the king of Denmark. His journey brought him to the Dovrefell on Christmas Eve, where he stopped at a cottage owned by a man named Halvor. The traveler asked if he and his bear might spend the night there.
+        - id: ch01-b02
+          speaker: halvor
+          text: >-
+            Heaven help me, this is the truth. We can't take anyone in tonight. Every Christmas Eve, a whole pack of Trolls comes down on us. They drive us from the cottage, so we don't even have a roof for ourselves. How could we offer one to anyone else?
+        - id: ch01-b03
+          speaker: traveler
+          text: >-
+            Is that all? Then you can easily let me stay. My bear can sleep over there under the stove, and I'll take the side room.
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            The traveler pleaded until Halvor finally gave him leave to remain. Halvor's household moved out. Before they left, they prepared everything for the Trolls. They laid the tables with rice porridge, fish boiled in lye, sausages, and every other good thing they would serve at a grand feast.
+    - id: ch02
+      title: The Trolls Meet the Big Cat
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            When all was ready, the Trolls came down. There were great Trolls and small Trolls. Some had long tails, while others had no tails at all. Some had noses that were very, very long. They ate and drank and sampled everything on the tables.
+        - id: ch02-b02
+          speaker: narrator
+          text: >-
+            Then one of the little Trolls noticed the white bear lying under the stove. He stuck a piece of sausage on a fork, walked over, and prodded the bear on the nose. Then he shrieked at it.
+        - id: ch02-b03
+          speaker: little_troll
+          text: Pussy, would you like some sausage?
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            At once, the white bear rose with a growl. It chased the entire pack straight out the door, great Trolls and small Trolls alike.
+    - id: ch03
+      title: Seven Kittens
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            A year passed. On the afternoon of Christmas Eve, Halvor was out in the woods cutting firewood for the holidays. He expected the Trolls to return. While he was hard at work, a voice called to him from among the trees.
+        - id: ch03-b02
+          speaker: troll_in_the_wood
+          text: Halvor! Halvor!
+        - id: ch03-b03
+          speaker: halvor
+          text: Yes, I'm here.
+        - id: ch03-b04
+          speaker: troll_in_the_wood
+          text: Do you still have that big cat of yours?
+        - id: ch03-b05
+          speaker: halvor
+          text: >-
+            I certainly do. She's at home under the stove. And now she has seven kittens, each one much bigger and fiercer than she is.
+        - id: ch03-b06
+          speaker: troll_in_the_wood
+          text: Then we'll never visit you again!
+          emotion: fearful
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            The Troll shouted those words from deep in the woods, and he kept his promise.
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            From that day on, the Trolls never again ate their Christmas porridge with Halvor on the Dovrefell.

@@ -1,0 +1,379 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 沉着讲述古老民间故事，机敏处带克制的讥诮
+        timbre: 温暖清晰的成年男声
+        pace: 舒缓而富于变化
+        pitch: 中低
+    monkey:
+      display_name: 猴子
+      tts:
+        delivery: 活泼健谈又机敏，遇险时故作从容
+        timbre: 清亮灵巧的成年男声
+        pace: 轻快而富于变化
+        pitch: 中高
+    shark:
+      display_name: 鲨鱼
+      tts:
+        delivery: 表面亲热客气，盘算时认真而略显迟钝
+        timbre: 粗厚浑圆的成年男声
+        pace: 适中
+        pitch: 中低
+    donkey:
+      display_name: 母驴
+      tts:
+        delivery: 懒散天真，受惊时慌乱，犹豫时拖长语气
+        timbre: 厚实朴拙的成年女声
+        pace: 稍慢
+        pitch: 中
+    hare:
+      display_name: 野兔
+      tts:
+        delivery: 客气伶俐，哄骗别人时轻松自信
+        timbre: 明快细亮的成年女声
+        pace: 轻快
+        pitch: 中高
+    lion:
+      display_name: 狮子
+      tts:
+        delivery: 虚弱时沮丧，恢复后凶狠威严
+        timbre: 低沉有力的成年男声
+        pace: 稍慢
+        pitch: 低
+  chapters:
+    - id: ch01
+      title: 树上的朋友
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 很久很久以前，有一座小镇，坐落在悬崖脚下的翠绿山谷里。镇上都是低矮的茅屋。居民早有防备，把屋子盖在高处，就算西风卷来最高的海潮，也碰不到它们。偏偏在镇子边缘，长着一棵大树。它的树冠大得惊人，一半枝条罩着茅屋，另一半一直探到悬崖下的深海上。鲨鱼最喜欢游到那里，在清澈的海水里扑腾玩耍。
+        - id: ch01-b02
+          speaker: narrator
+          text: 树上结满了果子。每天太阳一出来，总有一只灰色的大猴子坐在最高的枝头吃早饭。他快活得很，一边吃，一边自言自语，说个没完。等他吃光了朝向小镇那一边的果子，就攀着树枝荡到海面上方，想找个阴凉舒服的地方歇脚。就在这时，他忽然看见下面有条鲨鱼，正馋巴巴地盯着自己。
+        - id: ch01-b03
+          speaker: monkey
+          text: “朋友，我能为你做点什么吗？”
+        - id: ch01-b04
+          speaker: shark
+          text: “你要是肯扔几个那种好吃的果子给我，我可太感激了。我吃了五十年的鱼，也想换换口味。再说，我实在受够了那股咸味。”
+        - id: ch01-b05
+          speaker: monkey
+          text: “我也不喜欢咸味。来，张开嘴，我把这颗新鲜多汁的库尤果扔给你。”
+        - id: ch01-b06
+          speaker: narrator
+          text: 猴子从头顶的枝条上摘下一颗果子。可要把它扔进鲨鱼嘴里，并没有想象中那么容易。鲨鱼甚至翻过身来接，第一颗果子还是只撞到一颗牙，滚进了海里。第二次，猴子的运气好多了，果子正正落进鲨鱼口中。
+        - id: ch01-b07
+          speaker: shark
+          text: “啊，真好吃！再给我一颗吧。”
+          emotion: happy
+        - id: ch01-b08
+          speaker: narrator
+          text: 没过多久，猴子已经摘得手都累了，鲨鱼却还远远没有吃够。
+        - id: ch01-b09
+          speaker: monkey
+          text: “天不早了，我得回家看看孩子。明天这个时候你还来的话，我再请你吃一顿。”
+        - id: ch01-b10
+          speaker: shark
+          text: “谢谢，谢谢！你根本想不到，我现在有多快活。”
+          emotion: happy
+        - id: ch01-b11
+          speaker: narrator
+          text: 鲨鱼咧嘴笑了，露出满口又大又丑的牙。说完，它游进阴影里，只盼这一觉能一直睡到猴子再次出现。
+        - id: ch01-b12
+          speaker: narrator
+          text: 接连几个星期，猴子和鲨鱼每天一起吃早饭。那棵树上居然一直还有果子，实在叫人惊奇。他们成了亲密的朋友，常常聊起各自的家和孩子，也谈该怎样教会孩子所有应该懂得的事。渐渐地，猴子对自己那座绿色的家不太满意了。他住在镇外的棕榈林里，一心想去看看鲨鱼说过的海底奇景。
+        - id: ch01-b13
+          speaker: narrator
+          text: 鲨鱼看得清清楚楚，便把那些奇观描绘得更加惊人。猴子越听，心里越不快活。一天，鲨鱼觉得时机到了，终于开了口。
+        - id: ch01-b14
+          speaker: shark
+          text: “这些星期，你一直对我这么好，我都不知道该怎么谢你。我在这里没有什么能送给你。可你要是肯到我家做客，那里只要有你喜欢的东西，我一定高高兴兴地送给你。”
+        - id: ch01-b15
+          speaker: monkey
+          text: “那可太好了！可是，我要怎么去呢？我总不能从水里走吧。呃，一想到水，我就难受！”
+          emotion: happy
+        - id: ch01-b16
+          speaker: narrator
+          text: 猴子一高兴，牙齿就咯咯作响。
+        - id: ch01-b17
+          speaker: shark
+          text: “这有什么可担心的？你只管坐在我背上。我保证，一滴水也不会沾到你身上。”
+    - id: ch02
+      title: 海上的圈套
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 事情就这么说定了。第二天吃完早饭，鲨鱼径直游到树下。猴子轻轻巧巧地落在它背上，连一点水花也没溅起来。起初，猴子从没这样待在海面上，心里有些害怕。可只过了几分钟，他就觉得这趟旅行有趣极了。
+        - id: ch02-b02
+          speaker: narrator
+          text: 猴子一路问个不停，足足问了上千个问题。他问水里的鱼，问海草，也问那些从身边漂过的古怪东西。鲨鱼每一回都能凑出一个答案，所以猴子始终没有发现，眼前的许多东西，对这位向导来说也一样陌生。
+        - id: ch02-b03
+          speaker: narrator
+          text: 太阳升起又落下，整整过了六次。鲨鱼忽然开口，声音严肃起来。
+        - id: ch02-b04
+          speaker: shark
+          text: “朋友，我们已经走完一半了。有件事，我现在该告诉你。”
+        - id: ch02-b05
+          speaker: monkey
+          text: “什么事？但愿不是坏事。听你的声音，可不太轻松。”
+        - id: ch02-b06
+          speaker: shark
+          text: “不，不算什么大事。我出发前听说，我们国家的苏丹病得很重，只有一颗猴子的心才能把他治好。”
+        - id: ch02-b07
+          speaker: monkey
+          text: “可怜的人，我真替他难过。不过，你等我们上路以后才说这件事，可不怎么聪明。”
+        - id: ch02-b08
+          speaker: shark
+          text: “你这话是什么意思？”
+        - id: ch02-b09
+          speaker: narrator
+          text: 猴子已经看穿了整个圈套，却没有马上回答。他得好好想想，接下来该说什么。
+        - id: ch02-b10
+          speaker: shark
+          text: “你怎么不说话？”
+        - id: ch02-b11
+          speaker: monkey
+          text: “我是在想，你怎么不趁我还在岸上时告诉我。太可惜了。要是早知道，我就把心带在身上了。”
+        - id: ch02-b12
+          speaker: shark
+          text: “你的心？难道它不在你身上？”
+          emotion: surprised
+        - id: ch02-b13
+          speaker: monkey
+          text: “当然不在！你不知道吗？我们只要离开家，就会把心挂在树上，免得它一路惹麻烦。不过，你也许根本不信，只当我是害怕才编出这种话。那我们还是赶快去你的国家吧。等到了那里，你尽管找。要是能找到我的心，再杀我也不迟。”
+          emotion: calm
+        - id: ch02-b14
+          speaker: narrator
+          text: 猴子说得十分平静，像是一点也不在乎。鲨鱼完全上了当，反倒后悔自己说得太早。
+        - id: ch02-b15
+          speaker: shark
+          text: “既然你的心没带来，我们再往前走也没用。还是掉头回小镇吧，你去把心取来。”
+        - id: ch02-b16
+          speaker: narrator
+          text: 这正是猴子求之不得的事，可他小心藏住欢喜，故意装得漫不经心。
+        - id: ch02-b17
+          speaker: monkey
+          text: “唔，我也拿不准。路实在太远了。不过，也许你说得对。”
+        - id: ch02-b18
+          speaker: shark
+          text: “我当然说得对。我会尽快游回去。”
+        - id: ch02-b19
+          speaker: narrator
+          text: 鲨鱼果然拼命赶路。三天以后，他们终于看见那棵把枝条伸到海上的库尤树。猴子松了一口气，一把抓住最近的树枝，荡了上去。
+        - id: ch02-b20
+          speaker: monkey
+          text: “你在这儿等我。我都快饿坏了，得先吃点早饭，再去找我的心。”
+        - id: ch02-b21
+          speaker: narrator
+          text: 猴子越爬越深，钻进鲨鱼看不见的枝叶里。他蜷起身子，很快睡着了。鲨鱼在悬崖下游来游去，没多久就等烦了，只想马上赶路。
+        - id: ch02-b22
+          speaker: shark
+          text: “你还在那里吗？”
+        - id: ch02-b23
+          speaker: narrator
+          text: 猴子猛地惊醒，却没有出声。鲨鱼又喊了一遍，声音更响，语气也恼火起来。
+        - id: ch02-b24
+          speaker: shark
+          text: “你到底还在不在？”
+          emotion: angry
+        - id: ch02-b25
+          speaker: monkey
+          text: “在，我在这儿。可我真希望你别吵醒我，我刚才睡得正香呢。”
+        - id: ch02-b26
+          speaker: shark
+          text: “你的心拿到了吗？我们该走了。”
+        - id: ch02-b27
+          speaker: monkey
+          text: “走？要去哪里？”
+        - id: ch02-b28
+          speaker: shark
+          text: “当然是带着你的心去我的国家。你不会已经忘了吧？”
+        - id: ch02-b29
+          speaker: monkey
+          text: “亲爱的朋友，我看你大概有点疯了。你把我当成洗衣人的驴了吗？”
+        - id: ch02-b30
+          speaker: shark
+          text: “别胡说八道！什么叫洗衣人的驴？你最好快一点，不然我们也许赶不及救苏丹了。”
+          emotion: angry
+        - id: ch02-b31
+          speaker: monkey
+          text: “你真的没听过洗衣人的驴？那是一头没有心的牲口。我今天不太舒服，太阳又升得这么高，现在出发怕是会中暑。你要愿意，我可以靠近些，把它的故事讲给你听。”
+          emotion: happy
+        - id: ch02-b32
+          speaker: shark
+          text: “好吧。既然你不肯下来，我闲着也是闲着，就听听这个故事。”
+    - id: ch03
+      title: 母驴第一次赴约
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 猴子便讲了起来。从前，大森林里住着一个洗衣人，那片森林就在小镇另一边。洗衣人养了一头母驴，既陪伴自己，也驮着他去想去的地方。起初，他们相处得很好。后来，母驴越来越懒，也不再感激主人的好意。她竟跑到几英里外的森林深处，整天什么也不做，只顾吃了又吃。最后，她胖得几乎走不动了。
+        - id: ch03-b02
+          speaker: narrator
+          text: 一天，母驴正在尝一种从没吃过的青草，还琢磨着，这草有没有昨晚吃的那么好。正巧，一只野兔从旁边经过。
+        - id: ch03-b03
+          speaker: hare
+          text: “瞧瞧这个家伙，可真够肥的。”
+        - id: ch03-b04
+          speaker: narrator
+          text: 野兔转身离开小路，去把消息告诉朋友狮子。狮子刚生过一场大病，身体虚弱，根本没力气出去打猎。野兔告诉它，几百码外就有一头肥得不得了的驴。狮子听了，眼里竟涌出失望又无力的泪水。
+        - id: ch03-b05
+          speaker: lion
+          text: “你告诉我又有什么用？你明明知道，我连那棵棕榈树都走不到。”
+          emotion: sad
+        - id: ch03-b06
+          speaker: hare
+          text: “不要紧。既然你去不了晚餐那里，那就让晚餐自己来找你。”
+        - id: ch03-b07
+          speaker: narrator
+          text: 野兔朝狮子点点头，算是告别，又回去找母驴。她来到母驴面前，客客气气地鞠了一躬。母驴惊讶地抬起头。
+        - id: ch03-b08
+          speaker: hare
+          text: “早安。请原谅我来打扰你，不过，我是为了非常要紧的事才来的。”
+        - id: ch03-b09
+          speaker: donkey
+          text: “是吗？你还特意跑一趟，真是太好心了。请问是什么事？”
+        - id: ch03-b10
+          speaker: hare
+          text: “当然可以告诉你。我的朋友狮子早就听说你又美丽，品德又好，特意请我来求婚，想请你嫁给它。它不能亲自来提这件事，心里实在过意不去。只是它生了病，虚弱得走不动。”
+        - id: ch03-b11
+          speaker: donkey
+          text: “可怜的狮子，真叫人难过！请你告诉它，这番求婚让我非常荣幸。我很愿意做百兽之后。”
+        - id: ch03-b12
+          speaker: hare
+          text: “那你为什么不亲自去告诉它呢？”
+        - id: ch03-b13
+          speaker: narrator
+          text: 于是，她们肩并肩走上通往狮子住处的小路。一路花了很长时间。母驴吃得太胖，只能慢吞吞地往前挪。野兔平常五分钟左右就能跑完这段路，现在却只能跟着她一点点走，几乎累倒。
+        - id: ch03-b14
+          speaker: narrator
+          text: 她们终于到了。狮子坐在入口处，脸色苍白，身子也瘦弱。母驴突然害羞起来，低下了头。狮子摆出最温文有礼的样子，请两位客人进屋，舒舒服服地坐下。
+        - id: ch03-b15
+          speaker: narrator
+          text: 没过多久，野兔便站了起来。
+        - id: ch03-b16
+          speaker: hare
+          text: “好啦，我还有一个约会，就不打扰你和未来的丈夫彼此熟悉了。”
+        - id: ch03-b17
+          speaker: narrator
+          text: 野兔向狮子使了个眼色，便一蹦一跳地离开。母驴以为只剩下两个人以后，狮子马上会谈起婚事，还会商量将来住在哪里。可狮子一句话也不说。她抬头一看，只见狮子缩在角落里，双眼闪着红光。
+        - id: ch03-b18
+          speaker: narrator
+          text: 母驴又惊又怕。狮子大吼一声，朝她猛扑过去。幸好就在那一刻，母驴已经有了准备。她闪身躲开，狠狠一脚踢中狮子，疼得它尖声惨叫。狮子一次次挥爪扑打，可母驴也会咬人。何况狮子病后十分虚弱。最后，母驴结结实实又踢了一脚，把狮子整个踢翻在地。
+        - id: ch03-b19
+          speaker: narrator
+          text: 狮子倒在地上翻滚，痛得不停哼哼。母驴没等它爬起来，就飞快逃走，消失在森林里。野兔早知道会发生什么。她根本没有去赴约，而是躲在洞穴后面的灌木丛里，把打斗声听得清清楚楚。等四周安静下来，她才轻手轻脚地爬出来，绕过洞角。
+        - id: ch03-b20
+          speaker: hare
+          text: “怎么样，狮子？你把她杀掉了吗？”
+        - id: ch03-b21
+          speaker: lion
+          text: “还说杀她！差点被杀掉的是我！我从不知道驴能踢得这么狠。不过，我也没让她好端端地走掉，我的爪子已经在她身上留下了印子。”
+        - id: ch03-b22
+          speaker: hare
+          text: “哎呀，那么肥的家伙居然还能打架！你也别生气了，好好躺着吧，伤口很快就会好的。”
+        - id: ch03-b23
+          speaker: narrator
+          text: 野兔说完，便向朋友告辞，回自己家去了。
+    - id: ch04
+      title: 母驴再次回来
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 两三个星期过去了。母驴背上只剩几块光秃秃的地方，那是狮爪留下的痕迹。狮子不但病好了，身体也恢复得像从前一样强壮。它正想着，自己差不多该重新出去打猎了。一天早晨，洞外的藤蔓忽然窸窣作响，野兔从叶子中间探进头来。
+        - id: ch04-b02
+          speaker: hare
+          text: “啊，看你的样子就知道身体很好，根本不用问。不过，你还是不能让自己太劳累。要不要我把晚餐带过来？”
+        - id: ch04-b03
+          speaker: lion
+          text: “你要是能把那头驴带来，我非把她撕成两半不可！”
+          emotion: angry
+        - id: ch04-b04
+          speaker: narrator
+          text: 野兔笑着点点头，又去办这件差事。这一次，母驴走得比上回远得多，野兔找了很久才发现她。远处有四只蹄子朝着天，野兔立刻跑过去。原来母驴躺在小溪边一张阴凉柔软的苔藓床上，正舒舒服服地前后翻滚。
+        - id: ch04-b05
+          speaker: hare
+          text: “早安。”
+        - id: ch04-b06
+          speaker: narrator
+          text: 母驴慢慢站起来，看清来的是谁。
+        - id: ch04-b07
+          speaker: donkey
+          text: “啊，原来是你！过来聊聊吧。有什么新消息？”
+        - id: ch04-b08
+          speaker: hare
+          text: “我不能久留。不过，我已经答应狮子来请你去看看它。它身体还不好，没法亲自来拜访你。”
+        - id: ch04-b09
+          speaker: donkey
+          text: “这个嘛，我可拿不准。上次我去的时候，它把我抓得很伤。说真的，我当时吓坏了。”
+          emotion: fearful
+        - id: ch04-b10
+          speaker: hare
+          text: “它不过是想亲你一下。可你反倒咬了它，它当然会发脾气。”
+        - id: ch04-b11
+          speaker: donkey
+          text: “我要是能确定真是这么回事……”
+        - id: ch04-b12
+          speaker: hare
+          text: “你尽管放心。我认识的狮子可多了。来吧，我们还是快走。”
+        - id: ch04-b13
+          speaker: narrator
+          text: 母驴不大情愿，却还是跟着动身了。狮子看见她们走来，便躲到一棵大树后面。母驴经过树旁，野兔跟在她身后。狮子猛然跳出来，只用一掌，就把这个可怜的蠢家伙打死在面前。
+        - id: ch04-b14
+          speaker: lion
+          text: “把这些肉拿去剥皮烤熟。我的胃口已经不像从前那么好了，只想把心留下来自己吃。其余的肉，你可以自己吃，也可以送给朋友。”
+        - id: ch04-b15
+          speaker: hare
+          text: “谢谢。”
+        - id: ch04-b16
+          speaker: narrator
+          text: 野兔费尽力气，才让母驴在自己背上勉强保持平衡。母驴的腿一路拖在地上，她还是把尸体拽到稍远的一块空地，生起火来，把肉烤熟。肉刚烤好，野兔就取出那颗心，自己吃了下去。
+        - id: ch04-b17
+          speaker: narrator
+          text: 她刚吃完，等得不耐烦的狮子便赶来了。
+        - id: ch04-b18
+          speaker: lion
+          text: “我饿了。把那家伙的心拿来，正好给我当晚餐。”
+        - id: ch04-b19
+          speaker: hare
+          text: “可是，她没有心呀。”
+        - id: ch04-b20
+          speaker: narrator
+          text: 野兔抬头望着狮子，脸上满是困惑。
+        - id: ch04-b21
+          speaker: lion
+          text: “胡说！哪有牲口没有心的？你这是什么意思？”
+          emotion: angry
+        - id: ch04-b22
+          speaker: hare
+          text: “她是一头洗衣人的驴。”
+        - id: ch04-b23
+          speaker: lion
+          text: “那又怎么样？”
+        - id: ch04-b24
+          speaker: hare
+          text: “啊，羞不羞！你是只狮子，又是个大人，怎么还会问这种问题？这头驴要是有心，现在还会躺在这里吗？她第一次来的时候，明明知道你想杀她，已经逃走了。可第二次，她居然又回来了。你好好想想，她要是有心，还会再来一次吗？会吗？”
+        - id: ch04-b25
+          speaker: narrator
+          text: 狮子想了又想，最后慢慢开口。
+        - id: ch04-b26
+          speaker: lion
+          text: “不，她不会。”
+    - id: ch05
+      title: 猴子的回答
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 洗衣人的驴的故事讲完了。猴子从浓密的枝叶间望着鲨鱼，终于说出自己真正的回答。
+        - id: ch05-b02
+          speaker: monkey
+          text: “所以，你以为我是洗衣人的驴吗？你可想错了，我不是。太阳已经慢慢落下，你也该回家了。一路上凉凉快快，倒会很舒服。希望你回去的时候，苏丹的病已经好一些。再见！”
+        - id: ch05-b03
+          speaker: narrator
+          text: 猴子说完，便钻进翠绿的枝叶深处，从鲨鱼眼前彻底消失了。
+        - id: ch05-b04
+          speaker: narrator
+          text: 这个故事，出自爱德华·斯蒂尔法学博士的《斯瓦希里故事集》。

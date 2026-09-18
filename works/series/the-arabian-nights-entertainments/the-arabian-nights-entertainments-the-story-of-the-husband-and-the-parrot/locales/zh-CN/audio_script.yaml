@@ -1,0 +1,115 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，带着温和的学者式幽默
+        timbre: 温暖清晰，沉稳而不厚重
+        pace: 舒缓，遇到年代与专名时略作停顿
+        pitch: 中音
+    husband:
+      display_name: 丈夫
+      tts:
+        delivery: 直率认真，动怒时急躁而严厉
+        timbre: 清晰厚实，带着成年男子的沉稳
+        pace: 平稳，追问时略快
+        pitch: 中低音
+    parrot:
+      display_name: 鹦鹉
+      tts:
+        delivery: 机敏坦率，受惊后委屈而疲惫
+        timbre: 清亮稍尖，带着鸟儿般的灵巧
+        pace: 轻快清楚，诉苦时稍慢
+        pitch: 中高音
+    greek_king:
+      display_name: 希腊国王
+      tts:
+        delivery: 威严坦率，面对恩人时热情而坚定
+        timbre: 洪亮端正，带着久居王位的沉着
+        pace: 从容有力，驳斥诬陷时稍快
+        pitch: 中低音
+    grand_vizir:
+      display_name: 宰相
+      tts:
+        delivery: 表面恭谨，话语里藏着猜忌与算计
+        timbre: 偏冷而低沉，略带压抑感
+        pace: 徐缓审慎，挑拨时刻意停顿
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 会说话的鹦鹉
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: |-
+            从前，有个善良的男人，娶了一位美貌的妻子。他爱妻子爱得很深，只要不是非走不可，连片刻也舍不得离开她。
+        - id: ch01-b02
+          speaker: narrator
+          text: |-
+            有一天，一桩要紧的生意逼得他必须远行。临走前，他来到买卖百鸟的市场，买下一只鹦鹉。这只鸟不但能说会道，还有一种奇异的本领。只要事情在它眼前发生过，它就能原原本本地说出来。
+        - id: ch01-b03
+          speaker: narrator
+          text: |-
+            男人把鹦鹉装在笼里带回家，请妻子把鸟笼放在自己房中，等他出门以后好好照料。交代完，他便动身了。回来以后，他去问鹦鹉。
+        - id: ch01-b04
+          speaker: husband
+          text: 我不在家的这些日子，家里都发生了什么？
+        - id: ch01-b05
+          speaker: narrator
+          text: |-
+            鹦鹉把自己看到的几件事告诉了主人。男人听完大发脾气，责骂了妻子一顿。
+        - id: ch01-b06
+          speaker: narrator
+          text: |-
+            妻子以为是哪个女奴跑去搬弄是非，女奴们却说，向主人告密的是那只鹦鹉。她决心向鹦鹉报复。
+    - id: ch02
+      title: 一夜风雨
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: |-
+            后来，丈夫又要出门一天。妻子叫一个女奴在鸟笼底下不停地推磨，又叫一个女奴从笼子上方往下泼水。第三个女奴拿着镜子，借着烛光，在鹦鹉眼前从左到右来回晃动。
+        - id: ch02-b02
+          speaker: narrator
+          text: |-
+            夜里，三个女奴照着吩咐忙了好一阵，把这场假风雨做得惟妙惟肖。
+        - id: ch02-b03
+          speaker: narrator
+          text: 第二天，丈夫回到家，又来问鹦鹉昨夜看见了什么。
+        - id: ch02-b04
+          speaker: parrot
+          text: |-
+            我敬爱的主人，昨晚电光直闪，雷声响个不停，大雨又下了一整夜。我受尽折磨，简直说不出有多苦！
+        - id: ch02-b05
+          speaker: narrator
+          text: |-
+            丈夫明明知道昨夜没有下雨，也没有打雷。他认定鹦鹉在说谎，一把将它抓出鸟笼，狠狠摔在地上，竟把它摔死了。
+        - id: ch02-b06
+          speaker: narrator
+          text: |-
+            后来，男人才发现鹦鹉说的全是真话。他想起自己亲手杀死了这只鸟，后悔也来不及了。
+    - id: ch03
+      title: 宰相仍不罢休
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: |-
+            渔夫对精灵说，希腊国王讲完这个故事，便转向宰相。
+        - id: ch03-b02
+          speaker: greek_king
+          text: |-
+            宰相，我不会听你的。我一定会保护杜班医生，免得自己将来后悔，像那个杀死鹦鹉的丈夫一样。
+        - id: ch03-b03
+          speaker: narrator
+          text: 可宰相已经下定决心，怎么也不肯罢休。
+        - id: ch03-b04
+          speaker: grand_vizir
+          text: |-
+            陛下，一只鹦鹉死了，算不了什么。可这件事关系到国王的性命，宁可牺牲一个无辜的人，也不能放过真正有罪的人。何况杜班医生想要谋害您，这一点并没有什么可怀疑的。我一片忠心，才一定要禀明陛下。要是我说错了，您尽管罚我，就像从前有一位宰相受罚那样。
+        - id: ch03-b05
+          speaker: greek_king
+          text: 那位宰相究竟做了什么，竟然该受罚？
+        - id: ch03-b06
+          speaker: grand_vizir
+          text: 只要陛下肯听，我这就把他的故事讲给您听。

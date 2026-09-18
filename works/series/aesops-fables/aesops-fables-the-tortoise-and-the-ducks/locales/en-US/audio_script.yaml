@@ -1,0 +1,89 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and gently dramatic
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    tortoise:
+      display_name: Tortoise
+      tts:
+        delivery: wistful and self-important
+        timbre: dry and mellow
+        pace: unhurried
+        pitch: medium-low
+    duck_1:
+      display_name: First Duck
+      tts:
+        delivery: friendly and practical
+        timbre: bright and clear
+        pace: steady
+        pitch: medium
+    duck_2:
+      display_name: Second Duck
+      tts:
+        delivery: friendly and practical
+        timbre: light and clear
+        pace: steady
+        pitch: medium-high
+    crow:
+      display_name: Crow
+      tts:
+        delivery: curious and excitable
+        timbre: crisp and raspy
+        pace: brisk
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: His House on His Back
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: You know, the Tortoise carries his house wherever he goes. However hard he tries, he can never leave home behind. They say Jupiter gave him this punishment because he was so lazy and liked staying home so much that he refused to attend Jupiter's wedding, even when specially invited.
+        - id: ch01-b02
+          speaker: narrator
+          text: Years passed, and the Tortoise began to wish he had gone to the wedding after all. The birds flew merrily here and there. The Hare, the Chipmunk, and all the other animals hurried past, always ready to discover whatever they could.
+        - id: ch01-b03
+          speaker: narrator
+          text: Watching them made the Tortoise sad and dissatisfied. He wanted to explore the world too. But he had a house on his back, and his short little legs could barely pull him along.
+    - id: ch02
+      title: The Ducks' Plan
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: One day, the Tortoise met two Ducks. He told them all his troubles.
+        - id: ch02-b02
+          speakers: [duck_1, duck_2]
+          ensemble: duo
+          text: We can show you the world. Grip this stick between your teeth, and we'll carry you high into the air. From there, you'll be able to see the whole countryside. Just don't say a word, or you'll regret it.
+        - id: ch02-b03
+          speaker: narrator
+          text: The Tortoise was delighted. He clamped his teeth firmly around the stick. One Duck held one end, and the other Duck held the other. Then they sailed away, rising toward the clouds.
+    - id: ch03
+      title: The Crow's Cry
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Just then, a Crow flew past. The strange sight amazed him, and he called out.
+        - id: ch03-b02
+          speaker: crow
+          text: Why, that must be the King of Tortoises!
+          emotion: surprised
+        - id: ch03-b03
+          speaker: tortoise
+          text: Why, that is certainly true!
+        - id: ch03-b04
+          speaker: narrator
+          text: Those foolish words were barely begun. The moment the Tortoise opened his mouth, his teeth let go of the stick.
+    - id: ch04
+      title: The Fall
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Down the Tortoise fell. He struck a rock on the ground and was dashed to pieces.
+        - id: ch04-b02
+          speaker: narrator
+          text: Foolish curiosity and vanity often bring misfortune.

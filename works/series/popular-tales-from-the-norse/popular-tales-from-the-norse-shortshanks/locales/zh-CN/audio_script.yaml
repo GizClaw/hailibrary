@@ -1,0 +1,650 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容而清醒，带一点克制的诙谐
+        timbre: 温厚清晰
+        pace: 舒缓有致
+        pitch: 中低
+    father:
+      display_name: 父亲
+      tts:
+        delivery: 牢骚满腹，说话粗直
+        timbre: 低沉粗哑
+        pace: 中等
+        pitch: 低
+    mother:
+      display_name: 母亲
+      tts:
+        delivery: 慈爱忧心，劝说时温柔恳切
+        timbre: 柔和温暖
+        pace: 中等偏缓
+        pitch: 中等
+    shortshanks:
+      display_name: 短腿小子
+      tts:
+        delivery: 机灵果断，面对危险也轻快从容
+        timbre: 年轻清亮
+        pace: 中等偏快
+        pitch: 中高
+    king_sturdy:
+      display_name: 壮王
+      tts:
+        delivery: 爽直有力，发怒时威严急促
+        timbre: 年轻浑厚
+        pace: 中等
+        pitch: 中低
+    old_woman_1:
+      display_name: 第一个独眼婆子
+      tts:
+        delivery: 尖厉急切，讨价还价时干脆
+        timbre: 苍老沙哑
+        pace: 中等偏快
+        pitch: 高
+    old_woman_2:
+      display_name: 第二个独眼婆子
+      tts:
+        delivery: 尖厉慌张，说话利落
+        timbre: 苍老干涩
+        pace: 中等偏快
+        pitch: 高
+    old_woman_3:
+      display_name: 第三个独眼婆子
+      tts:
+        delivery: 苍老尖细，交换条件时直截了当
+        timbre: 沙哑单薄
+        pace: 中等
+        pitch: 高
+    king:
+      display_name: 国王
+      tts:
+        delivery: 庄重直率，喜怒都不掩饰
+        timbre: 成熟浑厚
+        pace: 中等偏缓
+        pitch: 低
+    cook:
+      display_name: 厨娘
+      tts:
+        delivery: 嘴硬心软，叮嘱时麻利爽快
+        timbre: 成熟明亮
+        pace: 中等偏快
+        pitch: 中等
+    younger_princess:
+      display_name: 小公主
+      tts:
+        delivery: 温柔诚恳，危急时忧惧而克制
+        timbre: 年轻清澈
+        pace: 中等
+        pitch: 中高
+    red_knight:
+      display_name: 红骑士
+      tts:
+        delivery: 自负强硬，胆怯时仍强装镇定
+        timbre: 成年洪亮
+        pace: 中等
+        pitch: 中低
+    troll_five:
+      display_name: 五头山怪
+      tts:
+        delivery: 凶暴狂妄，吼声短促有力
+        timbre: 粗重轰鸣
+        pace: 中等偏慢
+        pitch: 低
+    troll_ten:
+      display_name: 十头山怪
+      tts:
+        delivery: 凶狠傲慢，声音如雷
+        timbre: 厚重粗粝
+        pace: 中等偏慢
+        pitch: 低
+    troll_fifteen:
+      display_name: 十五头山怪
+      tts:
+        delivery: 暴烈张狂，威吓时尖厉刺耳
+        timbre: 巨大粗哑
+        pace: 中等偏慢
+        pitch: 低
+    elder_princess:
+      display_name: 大公主
+      tts:
+        delivery: 谨慎聪慧，紧张时仍说得清楚
+        timbre: 年轻温润
+        pace: 中等
+        pitch: 中等
+    sea_troll:
+      display_name: 海底山怪
+      tts:
+        delivery: 性急多疑，发号施令时凶狠
+        timbre: 沉厚阴冷
+        pace: 中等
+        pitch: 低
+  chapters:
+    - id: ch01
+      title: 一出生就去闯世界
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前有一对穷夫妻，住在一间快要倒塌的破屋里。家里没有吃的，也没有柴烧，孩子倒是一年添一个。故事开始时，妻子又快生产了。丈夫很不痛快，整天嘟囔个不停。
+        - id: ch01-b02
+          speaker: father
+          text: 上帝赐下的孩子太多，也会把人压得喘不过气来。
+        - id: ch01-b03
+          speaker: narrator
+          text: 临近生产那天，他进树林拾柴去了，走前还丢下一句话。
+        - id: ch01-b04
+          speaker: father
+          text: 我才不留下来看那个小哭包。过不了多久，他饿得大哭，我在林子里也听得见。
+        - id: ch01-b05
+          speaker: narrator
+          text: 丈夫走远后，妻子生下一个漂亮男孩。孩子刚落地就睁开眼，把破屋四下看了一遍。
+        - id: ch01-b06
+          speaker: king_sturdy
+          text: 亲爱的妈妈，给我几件哥哥穿剩的衣裳，再包几天的口粮吧。我要到外面的世界碰碰运气。您身边的孩子已经够多了。
+        - id: ch01-b07
+          speaker: mother
+          text: 上帝保佑你，我的儿子！你才刚出生，怎么能出门呢？
+        - id: ch01-b08
+          speaker: narrator
+          text: 小不点儿已经拿定主意，一再央求，怎么劝也不肯改变。母亲实在拗不过，只好找来几片破布，勉强给他裹住身子，又把家里仅有的一点食物包起来交给他。他接过包裹，高高兴兴地跨出破屋，俨然是个要独自闯天下的男子汉。
+        - id: ch01-b09
+          speaker: narrator
+          text: 谁知他前脚刚走，母亲又生下一个男孩。第二个孩子也睁眼看了看屋子，马上开了口。
+        - id: ch01-b10
+          speaker: shortshanks
+          text: 亲爱的妈妈，也给我几件哥哥的旧衣裳，再带上几天的口粮。我要去找我的孪生哥哥。您这里的孩子实在不少了。
+        - id: ch01-b11
+          speaker: mother
+          text: 上帝保佑你，我可怜的小宝贝！你这么小，绝不能出去。
+        - id: ch01-b12
+          speaker: narrator
+          text: 可她怎么劝都没有用。第二个孩子也求来了破衣裳和一包食物，随后走进世界，去追孪生哥哥。走了一阵，他远远看见哥哥就在前面，赶紧高声叫住他。
+        - id: ch01-b13
+          speaker: shortshanks
+          text: 喂，等等我！你两条腿迈得那么快，是在赛跑吗？你急着出门，也该先看看刚出生的弟弟呀。
+        - id: ch01-b14
+          speaker: narrator
+          text: 哥哥回过头。弟弟追上来，把自己的来历从头讲了一遍。
+        - id: ch01-b15
+          speaker: shortshanks
+          text: 我就是你的弟弟。咱们先坐下，看看妈妈给我们带了什么吃的吧。
+        - id: ch01-b16
+          speaker: narrator
+          text: 兄弟俩坐下来吃东西，很快就亲热得像从没分开过。他们继续赶路，来到一条穿过绿草地的小溪旁。弟弟想起，两人走得太急，连名字都没有。
+        - id: ch01-b17
+          speaker: king_sturdy
+          text: 咱们在家没来得及取名，不如就在这里给自己起一个吧。
+        - id: ch01-b18
+          speaker: king_sturdy
+          text: 好啊。那你想叫什么？
+        - id: ch01-b19
+          speaker: shortshanks
+          text: 我就叫短腿小子。你呢？
+        - id: ch01-b20
+          speaker: king_sturdy
+          text: 那我叫壮王。
+        - id: ch01-b21
+          speaker: narrator
+          text: 他们在溪水边给彼此定下名字，又并肩往前走。到了一个岔路口，两人商定分头闯荡，各自选了一条路。可他们走了还不到半英里，两条路竟又合到一起。兄弟俩只好再次分开，不久却又莫名其妙地碰了头。第三次仍是一样。最后，他们决定不再沿路选方向，而是一个径直向东，一个径直向西。临别时，哥哥壮王郑重叮嘱弟弟。
+        - id: ch01-b22
+          speaker: king_sturdy
+          text: 将来你若遇上灾祸，急需我来帮忙，就连叫我三声。可你要记住，不到无路可走时，绝不能叫我。
+        - id: ch01-b23
+          speaker: shortshanks
+          text: 既然规矩这么严，看来我们不会很快再见了。
+        - id: ch01-b24
+          speaker: narrator
+          text: 兄弟俩互道珍重。短腿小子向东走，壮王向西去了。
+    - id: ch02
+      title: 三件奇宝
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 短腿小子独自走了很久，遇见一个老得不能再老的驼背婆子。她只有一只眼睛，短腿小子伸手就把那只眼睛夺走了。
+        - id: ch02-b02
+          speaker: old_woman_1
+          text: 哎哟！哎哟！我的眼睛哪儿去了？
+          emotion: surprised
+        - id: ch02-b03
+          speaker: shortshanks
+          text: 想拿回眼睛，你能用什么跟我换？
+        - id: ch02-b04
+          speaker: old_woman_1
+          text: 我给你一把了不得的宝剑。再庞大的军队见了它，也会转身逃命。
+        - id: ch02-b05
+          speaker: shortshanks
+          text: 那就把剑拿出来。
+        - id: ch02-b06
+          speaker: narrator
+          text: 婆子交出宝剑，取回眼睛。短腿小子继续走，又碰上一个驼背的独眼婆子。趁她没有留意，他也偷走了她的眼睛。
+        - id: ch02-b07
+          speaker: old_woman_2
+          text: 哎哟，哎哟！我的眼睛到底跑到哪儿去了？
+          emotion: surprised
+        - id: ch02-b08
+          speaker: shortshanks
+          text: 你若想拿回去，肯给我什么？
+        - id: ch02-b09
+          speaker: old_woman_2
+          text: 我给你一条船。它能走淡水，也能走咸水，还能翻过高山，越过深谷。
+        - id: ch02-b10
+          speaker: shortshanks
+          text: 好，把船给我。
+        - id: ch02-b11
+          speaker: narrator
+          text: 婆子给了他一条小得能装进口袋的船，拿回眼睛便走了。短腿小子又走了很远，第三次遇见一个年老驼背的独眼婆子。他照旧偷走那只眼睛。婆子大喊起来，追问眼睛去了哪里。
+        - id: ch02-b12
+          speaker: shortshanks
+          text: 你拿什么来换回它？
+        - id: ch02-b13
+          speaker: old_woman_3
+          text: 我教你一门本领，让你一下子就能酿出一百拉斯特麦芽酒。
+        - id: ch02-b14
+          speaker: narrator
+          text: 她把本领教给短腿小子，取回眼睛，两人各走各路。
+        - id: ch02-b15
+          speaker: narrator
+          text: 没过多久，短腿小子想试试那条小船。他从口袋里掏出船，先放进去一只脚。船立刻开始长大。等第二只脚也踏进去，它已经变得和海上的大船一样。
+        - id: ch02-b16
+          speaker: shortshanks
+          text: 走吧。越过淡水和咸水，翻过高山和深谷，到了国王的宫殿再停。
+        - id: ch02-b17
+          speaker: narrator
+          text: 船一下腾空而起，飞得像鸟一样快，一路越过水面、山岭和深谷，最后落在王宫下方不远的地方。宫里的人隔着窗户看见一个男孩驾船飞过天空，惊得纷纷跑下楼，都想看看这位乘飞船而来的客人。可等他们赶到岸边，短腿小子已经跨出船。船在他离开的那一刻缩回原先的大小，被他装进口袋。众人眼前只剩一个衣衫褴褛的小男孩。
+        - id: ch02-b18
+          speaker: narrator
+          text: 国王亲自问他从哪里来，又追问他究竟是怎样到达这里的。短腿小子说自己不知道，也讲不清一路上发生了什么。不管众人怎么问，他只肯说自己现在就在这里，别的什么也问不出来。不过，他恳求得十分讨人喜欢，希望能留在王宫谋个差事。他还说，如果实在没有别的活儿，自己愿意替厨娘挑柴担水。大家听了都动了恻隐之心，便准他留下。
+        - id: ch02-b19
+          speaker: narrator
+          text: 王宫里里外外，从墙壁到屋顶都挂着黑布。短腿小子觉得奇怪，便去问厨娘，为什么人人都在服丧。
+        - id: ch02-b20
+          speaker: cook
+          text: 原来你还不知道。国王的女儿早就许给了三个山怪。下星期四傍晚，其中一个就会来接她。红骑士说自己能救公主，可谁知道他有没有那个本事。现在你明白大家为什么伤心了吧？
+    - id: ch03
+      title: 三个星期四
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 星期四傍晚，红骑士领着小公主来到岸边。公主要在那里等山怪，他本该守在身旁。可公主才坐下，红骑士就爬上附近的大树，拼命往枝叶深处藏。公主苦苦求他留下，他只回了一句。
+        - id: ch03-b02
+          speaker: red_knight
+          text: 死一个，总比死两个好。
+        - id: ch03-b03
+          speaker: narrator
+          text: 这时，短腿小子也去找厨娘，好声好气地求她让自己到岸边待一会儿。
+        - id: ch03-b04
+          speaker: cook
+          text: 你跑去岸边做什么？那里的事用不着你管。
+        - id: ch03-b05
+          speaker: shortshanks
+          text: 好姐姐，让我去吧。我就想下去跟别的孩子玩一会儿，真的。
+        - id: ch03-b06
+          speaker: cook
+          text: 好吧，你去。不过晚饭的麦粥该上火、烤肉该上叉时，你要是还没回来，看我怎么收拾你。回来别忘了抱一大捆柴。
+        - id: ch03-b07
+          speaker: narrator
+          text: 短腿小子满口答应，一溜烟跑到岸边。他刚到，山怪就驾船冲来，身后的风又吼又啸。那怪物又高又壮，肩上长着五颗脑袋。
+        - id: ch03-b08
+          speaker: troll_five
+          text: 烈火与火焰！
+          emotion: angry
+        - id: ch03-b09
+          speaker: shortshanks
+          text: 烈火与火焰也还给你！
+        - id: ch03-b10
+          speaker: troll_five
+          text: 你会打架吗？
+        - id: ch03-b11
+          speaker: shortshanks
+          text: 不会也能学。
+        - id: ch03-b12
+          speaker: narrator
+          text: 山怪举起粗大的铁棒，狠狠砸下来。泥土和石块一下飞到五码高。
+        - id: ch03-b13
+          speaker: shortshanks
+          text: 嘿，这一棒还真有点样子。现在也让你看看我的一击。
+        - id: ch03-b14
+          speaker: narrator
+          text: 短腿小子握紧独眼婆子给的宝剑，一剑挥去。山怪的五颗脑袋一齐飞了出去，在沙滩上滚了很远。小公主知道自己得救了，高兴得又蹦又跳。
+        - id: ch03-b15
+          speaker: younger_princess
+          text: 来，枕着我的膝头睡一会儿吧。
+          emotion: happy
+        - id: ch03-b16
+          speaker: narrator
+          text: 短腿小子睡着后，小公主给他盖上一件闪着金属光泽的长袍。红骑士躲在树上看见危险已经过去，很快便爬下来。他走到公主面前，威胁她必须对所有人说，是红骑士救了她。她若不肯，他就当场杀掉她。接着，他割下山怪的肺和舌头，用手帕包好，当作自己的证物，然后领着公主回宫。
+        - id: ch03-b17
+          speaker: narrator
+          text: 国王以为红骑士立了大功，不知该怎样抬举他才够，吃饭时甚至让他坐在自己的右手边。短腿小子却登上山怪的船，拿走一大堆金银环。那些环个个都有箍桶的铁箍那么大。他抱着东西跑回王宫，厨娘看得吃了一惊。
+        - id: ch03-b18
+          speaker: cook
+          text: 好心的短腿小子，你从哪儿弄来这么多东西？
+        - id: ch03-b19
+          speaker: narrator
+          text: 她担心这些金银来路不正。短腿小子却回答得若无其事。
+        - id: ch03-b20
+          speaker: shortshanks
+          text: 我刚回了一趟家。这些箍是从家里的旧桶上掉下来的。我想把它们送给你，就顺手带回来了。
+        - id: ch03-b21
+          speaker: narrator
+          text: 厨娘听说是送给自己的，便不再追问。她谢过短腿小子，两人又亲亲热热的了。
+        - id: ch03-b22
+          speaker: narrator
+          text: 第二个星期四傍晚，同样的事情又来了。人人都在悲伤不安，红骑士却夸口说，自己既然救过公主一次，也一定能打败第二个山怪。他像狮子一样勇猛地把公主领到岸边，可山怪还没出现，他就再次爬上那棵树。
+        - id: ch03-b23
+          speaker: red_knight
+          text: 死一个，总比死两个好。
+        - id: ch03-b24
+          speaker: narrator
+          text: 短腿小子又来求厨娘放他出去。
+        - id: ch03-b25
+          speaker: cook
+          text: 哎呀，岸边有什么事非要你去？
+        - id: ch03-b26
+          speaker: shortshanks
+          text: 好姐姐，求你答应吧。我实在想去跟别的孩子玩一会儿。
+        - id: ch03-b27
+          speaker: narrator
+          text: 厨娘答应了，要他保证烤肉该翻面时赶回来，还得带一大捆柴。短腿小子刚跑到岸边，山怪便驾船冲来，四周狂风怒号。这一个比先前的大一倍，肩上长着十颗脑袋。
+        - id: ch03-b28
+          speaker: troll_ten
+          text: 烈火与火焰！
+          emotion: angry
+        - id: ch03-b29
+          speaker: shortshanks
+          text: 烈火与火焰也还给你！
+        - id: ch03-b30
+          speaker: troll_ten
+          text: 你会打架吗？
+        - id: ch03-b31
+          speaker: shortshanks
+          text: 不会也能学。
+        - id: ch03-b32
+          speaker: narrator
+          text: 山怪抡起比上次更大的铁棒砸下去，泥土石块震得飞起十码高。
+        - id: ch03-b33
+          speaker: shortshanks
+          text: 嘿，这一棒还算有点样子。现在轮到你看我的了。
+        - id: ch03-b34
+          speaker: narrator
+          text: 他一剑砍下山怪的十颗脑袋，脑袋蹦跳着滚过沙滩。
+        - id: ch03-b35
+          speaker: younger_princess
+          text: 躺下来吧，枕着我的膝头睡一会儿。
+        - id: ch03-b36
+          speaker: narrator
+          text: 短腿小子枕着公主的膝头睡熟了。小公主趁他安睡，轻轻替他盖上一件银袍。红骑士在树上看见危险消失，立刻爬了下来。他再次威胁公主，逼她发誓说救命的人是他。随后，他割下山怪的肺和舌头，仔细包进手帕，领着公主回到王宫。消息传开后，宫里到处都是欢呼声。国王更是绞尽脑汁，只恨自己给红骑士的尊荣还不够多。
+        - id: ch03-b37
+          speaker: narrator
+          text: 短腿小子照旧从山怪船上抱回许多金银环。厨娘惊奇得直拍手，追问东西从哪里来。他仍说那是自家旧桶上掉下来的箍，特意带来送给厨娘朋友。
+        - id: ch03-b38
+          speaker: narrator
+          text: 到了第三个星期四傍晚，整座王宫依然挂满黑布，到处都是哭声。红骑士却摆出一副不以为然的样子，说大家根本不必害怕。他已经从两个山怪手里救过公主，当然也能从第三个手里救下她。他又把公主领到岸边。可远处的风声一起，山怪快要到来时，他马上躲进了那棵树。公主一遍又一遍地哀求，他也不肯下来。
+        - id: ch03-b39
+          speaker: red_knight
+          text: 死一个，总比死两个好。
+        - id: ch03-b40
+          speaker: narrator
+          text: 短腿小子也第三次请求去岸边。
+        - id: ch03-b41
+          speaker: cook
+          text: 哎呀，你到底去那里做什么？
+        - id: ch03-b42
+          speaker: narrator
+          text: 他苦苦央求，总算得到了许可，只是必须在烤肉该翻面时赶回厨房。他跑到岸边，山怪正带着呼啸的狂风赶来。这个山怪比前两个大得多，肩上生着十五颗脑袋。
+        - id: ch03-b43
+          speaker: troll_fifteen
+          text: 烈火与火焰！
+          emotion: angry
+        - id: ch03-b44
+          speaker: shortshanks
+          text: 烈火与火焰也还给你！
+        - id: ch03-b45
+          speaker: troll_fifteen
+          text: 你会打架吗？
+        - id: ch03-b46
+          speaker: shortshanks
+          text: 不会也能学。
+        - id: ch03-b47
+          speaker: troll_fifteen
+          text: 那我马上教会你！
+          emotion: angry
+        - id: ch03-b48
+          speaker: narrator
+          text: 山怪挥动铁棒猛砸下来，泥土石块飞起足有十五码高。
+        - id: ch03-b49
+          speaker: shortshanks
+          text: 嘿，这一棒真像那么回事。不过现在，该让你见识我的一击了。
+        - id: ch03-b50
+          speaker: narrator
+          text: 他拔剑一挥，十五颗脑袋接连落地，一个个蹦跳着滚过沙滩。小公主终于摆脱了三个山怪，连声祝福短腿小子，感谢他救了自己的命。
+        - id: ch03-b51
+          speaker: younger_princess
+          text: 现在，枕着我的膝头睡一会儿吧。
+        - id: ch03-b52
+          speaker: narrator
+          text: 短腿小子把头枕在她膝上睡着了。小公主又给他盖上一件金袍。等他醒来，她问出了心里的难题。
+        - id: ch03-b53
+          speaker: younger_princess
+          text: 我们要怎样做，才能让大家知道真正救我的人是你？
+        - id: ch03-b54
+          speaker: shortshanks
+          text: 我告诉你。红骑士回宫后，一定会说是他救了你，这样他就能娶你，还能得到半个王国。婚礼那天，别人问你要谁斟酒，你就点名要厨房里那个穿破衣服、替厨娘挑柴担水的男孩。
+        - id: ch03-b55
+          speaker: shortshanks
+          text: 我来斟酒时，会往他的盘子里洒一滴，却不洒到你的盘子里。他一生气就会打我。这样的事要发生三次。第三次时，你就说，真不要脸，竟敢打我心爱的人，救我的人是他，我要嫁的人也是他。
+        - id: ch03-b56
+          speaker: narrator
+          text: 短腿小子照旧先登上山怪的船。这一回，他不但取来许多金银和宝石，还从中挑出满满一大抱金银环，准备送给厨娘。红骑士看见危险过去，也从树上爬了下来。他照样用死亡威胁公主，逼她答应回宫后只说是红骑士救了自己。等公主被迫答应，他才领着她返回王宫。
+    - id: ch04
+      title: 金袍下的真相
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 这一回，国王更不知该怎样厚待红骑士。他说，红骑士迎娶公主、继承半个王国，早就是定下的事。可到了婚礼那天，小公主提出，喜宴上必须由那个替厨娘挑柴担水的破衣男孩为她斟酒。
+        - id: ch04-b02
+          speaker: red_knight
+          text: 我真不明白，你为什么非要把那个肮脏的小叫花子带进来。
+        - id: ch04-b03
+          speaker: narrator
+          text: 小公主坚持只要短腿小子，谁也不能代替，最后终于如愿。短腿小子来斟酒，故意在红骑士的盘子里洒了一滴，公主的盘里却一滴也没洒。红骑士顿时大怒，挥手打他。
+        - id: ch04-b04
+          speaker: narrator
+          text: 第一拳落下，短腿小子在厨房穿的破衣裳脱落了，露出里面那件闪光的长袍。他没有分辩，第二次斟酒时，又在红骑士的盘子里洒下一滴，公主的盘子依旧干干净净。红骑士再次发怒，一拳打掉了闪光长袍，里面的银袍显了出来。第三次，短腿小子还是把那滴酒洒进同一个盘子。红骑士又打了他。银袍随即滑落，短腿小子身穿金袍站在宴席间，浑身在灯光下闪耀生辉。
+        - id: ch04-b05
+          speaker: younger_princess
+          text: 真不要脸！你竟敢打我心爱的人！救我的人是他，我要嫁的人也是他！
+          emotion: angry
+        - id: ch04-b06
+          speaker: narrator
+          text: 红骑士赌咒发誓，骂个不停，坚持说救公主的是自己。国王听了，便要求两人拿出凭证。
+        - id: ch04-b07
+          speaker: king
+          text: 谁救了我的女儿，总该有东西能证明。
+        - id: ch04-b08
+          speaker: narrator
+          text: 红骑士马上取来手帕，里面包着三个山怪的肺和舌头。短腿小子则把从山怪船上得到的金银财宝搬到国王面前。国王看过两边的证物，作出了判断。
+        - id: ch04-b09
+          speaker: king
+          text: 只有杀死山怪、夺下他们财物的人，才拿得出这么多金银钻石。这样的珍宝，别处根本没有。
+        - id: ch04-b10
+          speaker: narrator
+          text: 国王的话叫真相彻底大白。红骑士再也无法冒领功劳，被人扔进一个爬满毒蛇的深坑。真正三次救下公主的短腿小子，将要迎娶自己心爱的小公主，也将得到国王许下的半个王国。
+    - id: ch05
+      title: 海底的公主
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 一天，短腿小子陪国王散步，问他还有没有别的孩子。
+        - id: ch05-b02
+          speaker: king
+          text: 我还有一个女儿。可那时没人能救她，山怪把她掳走了。如今你要娶我的小女儿。若你还能救回她的姐姐，我也愿意把姐姐嫁给你，再把另外半个王国给你。
+        - id: ch05-b03
+          speaker: shortshanks
+          text: 好，我可以试一试。不过我要一根五百英寻长的铁索、五百个人，还要够他们吃十五个星期的口粮。前面的路很远。
+        - id: ch05-b04
+          speaker: narrator
+          text: 国王答应全都备齐，只担心国内没有一条船能装下这么多人和东西。
+        - id: ch05-b05
+          speaker: shortshanks
+          text: 如果只愁船，那就不用担心。我自己有一条。
+        - id: ch05-b06
+          speaker: narrator
+          text: 他从口袋里掏出独眼婆子送的小船。国王笑了，以为他在开玩笑。短腿小子请他先把东西备好，到时自然知道真假。
+        - id: ch05-b07
+          speaker: narrator
+          text: 一切准备妥当，众人先要把铁索装船。可那根铁索沉重得没有一个人抬得动，口袋里掏出的小船又小得可怜，四周一次只能站下一个人。短腿小子自己抓起铁索一头，先把一两个链环放进船里。链环刚落下，船身就开始伸长变宽。随着更多铁索装进去，它越长越大，最后变得宽敞无比。整根铁索、五百个人和十五个星期的口粮，再加上短腿小子，全都稳稳装了进去。
+        - id: ch05-b08
+          speaker: shortshanks
+          text: 走吧。越过淡水和咸水，翻过高山和深谷，到了国王女儿所在的地方再停。
+        - id: ch05-b09
+          speaker: narrator
+          text: 船飞过陆地和海洋，快得把风都甩在身后。走了很远很远，它忽然停在大海中央，再也不动。
+        - id: ch05-b10
+          speaker: shortshanks
+          text: 啊，我们总算到了。可怎样回去，那就是另一回事了。
+        - id: ch05-b11
+          speaker: narrator
+          text: 他拿来铁索，把一端牢牢系在腰间。
+        - id: ch05-b12
+          speaker: shortshanks
+          text: 我现在要沉到海底。要是我用力拉铁索，就是想上来了。到时你们一定要齐心把我吊上去，不然我们全都活不成。
+        - id: ch05-b13
+          speaker: narrator
+          text: 说完，他纵身跃出船舷，潜进海里。黄色波浪在他周围打着旋儿，一层层涌起。短腿小子不断往下沉，海面离他越来越远。过了很久，他的双脚终于落到海底。眼前耸立着一块巨大的岩石，岩壁上竟然开着一扇门。他走到门前，把门推开。
+        - id: ch05-b14
+          speaker: narrator
+          text: 短腿小子推门进去，看见大公主正坐在那里缝衣服。她一见到他，立刻双手合十。
+        - id: ch05-b15
+          speaker: elder_princess
+          text: 感谢上帝！我来到这里以后，你是我见到的第一个基督徒男子。
+          emotion: surprised
+        - id: ch05-b16
+          speaker: shortshanks
+          text: 那很好。不过你知不知道，我是来接你回去的？
+        - id: ch05-b17
+          speaker: elder_princess
+          text: 哎呀，你绝不可能把我带走。你没那么好的运气。山怪一看见你，就会当场杀了你。
+          emotion: fearful
+        - id: ch05-b18
+          speaker: shortshanks
+          text: 幸亏你提起他。我倒很想见见这个山怪。他在哪里？
+        - id: ch05-b19
+          speaker: narrator
+          text: 大公主告诉他，山怪出去找人了。他要办一场大宴席，非得找到一个能一次酿出一百拉斯特麦芽酒的人才行。
+        - id: ch05-b20
+          speaker: shortshanks
+          text: 这个本领我正好会。
+        - id: ch05-b21
+          speaker: elder_princess
+          text: 唉，要是山怪没有那么性急，我还能把你举荐给他。可他脾气太坏，我怕他一进门，没等我把话说完，就把你撕成碎片。让我想想。对了，你先藏进那边的侧室，我们碰碰运气。
+          emotion: fearful
+        - id: ch05-b22
+          speaker: narrator
+          text: 短腿小子刚躲进侧室，山怪便进了门。他抽动鼻子，马上闻出了异样。
+        - id: ch05-b23
+          speaker: sea_troll
+          text: 呼！这里有一股难闻的基督徒血腥气！
+        - id: ch05-b24
+          speaker: elder_princess
+          text: 没错，刚才确实有。一只鸟从屋顶飞过，嘴里叼着基督徒的骨头，还把骨头掉进烟囱。我已经赶快拿走了，你闻见的大概是留下的气味。
+        - id: ch05-b25
+          speaker: sea_troll
+          text: 啊，多半就是这样。
+        - id: ch05-b26
+          speaker: narrator
+          text: 大公主接着问他，有没有找到能一下酿出一百拉斯特麦芽酒的人。
+        - id: ch05-b27
+          speaker: sea_troll
+          text: 没有。我连听都没听说过谁有这种本事。
+        - id: ch05-b28
+          speaker: elder_princess
+          text: 不久前倒有个小伙子来过，说他能做到。
+        - id: ch05-b29
+          speaker: sea_troll
+          text: 你可真聪明！明知道他就是我要找的人，怎么还让他走了？
+          emotion: angry
+        - id: ch05-b30
+          speaker: elder_princess
+          text: 我没有放他走。只是父亲脾气有些急，我把他藏进了那边的侧室。父亲要是还没找到别人，他就在这里。
+        - id: ch05-b31
+          speaker: sea_troll
+          text: 好，把他叫进来。
+        - id: ch05-b32
+          speaker: narrator
+          text: 短腿小子走出来。山怪问他，是否真能一次酿出一百拉斯特麦芽酒。
+        - id: ch05-b33
+          speaker: shortshanks
+          text: 当然是真的。
+        - id: ch05-b34
+          speaker: sea_troll
+          text: 能抓到你，算我运气好。马上动手吧。可你要是酿不出够烈的酒，就只能求老天保佑了。
+        - id: ch05-b35
+          speaker: shortshanks
+          text: 放心吧，这酒一定烈得扎舌头。
+        - id: ch05-b36
+          speaker: narrator
+          text: 他立刻开始酿酒。才忙了一会儿，短腿小子忽然喊起来。
+        - id: ch05-b37
+          speaker: shortshanks
+          text: 还得多叫些山怪来帮忙。现在这些力气，连一半都不够。
+        - id: ch05-b38
+          speaker: narrator
+          text: 山怪果然叫来许多同类，黑压压地聚成一群。大家热火朝天地酿起酒来。甜麦汁一做好，他们便争着品尝。海底山怪带头，亲族们紧跟在后。短腿小子把麦汁酿得极烈，山怪们刚喝进嘴，就像苍蝇一样一个接一个倒地死去。
+        - id: ch05-b39
+          speaker: narrator
+          text: 最后只剩一个可恶的老婆子。她常年有病，正躺在壁炉角落。
+        - id: ch05-b40
+          speaker: shortshanks
+          text: 你这个可怜的老东西，也跟他们一样尝尝麦汁吧。
+        - id: ch05-b41
+          speaker: narrator
+          text: 他用长柄勺从铜锅底舀出一点，给老婆子喝下。这样一来，整窝山怪一个也没剩。
+        - id: ch05-b42
+          speaker: narrator
+          text: 短腿小子站在满地山怪中间，四下看了看，目光落在一口大箱子上。他把箱子拖过来，装满金银。随后，他用那根长铁索把自己、大公主和沉重的箱子牢牢系在一起，又使劲拉了拉铁索，发出约定好的信号。船上的五百个人立刻齐心动手，一起往上拉，终于把三者全都平安吊回船上。
+        - id: ch05-b43
+          speaker: shortshanks
+          text: 走吧。越过淡水和咸水，翻过高山和深谷，到了国王的宫殿再停。
+        - id: ch05-b44
+          speaker: narrator
+          text: 船立刻启程，黄色浪花在船身四周翻涌。王宫里的人看见船回来，马上带着歌声和乐声赶来迎接。大家欢天喜地，最高兴的当然是国王，因为失散的大女儿终于回到了身边。
+    - id: ch06
+      title: 壮王再相逢
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: 可短腿小子却发起愁来。两位公主都想嫁给他，他心里只想娶最先救下的小公主。他来回踱步，想了又想，不知道怎样才能娶到妹妹，又让姐姐称心。
+        - id: ch06-b02
+          speaker: narrator
+          text: 一天，他忽然想起哥哥壮王。兄弟俩长得一模一样，谁也分不清他们。短腿小子已经有一位公主和半个王国，另一位公主和另一半王国正好可以送给哥哥。
+        - id: ch06-b03
+          speaker: narrator
+          text: 他走到王宫外，呼唤壮王。第一次没人来，第二次提高声音，仍不见人影。第三次，他用尽全力大喊壮王的名字，哥哥立刻出现在面前。
+        - id: ch06-b04
+          speaker: king_sturdy
+          text: 我不是告诉过你吗？不到最危急的时候，不许叫我！这里连一只蚊虫都没有，哪有什么东西能伤你？
+          emotion: angry
+        - id: ch06-b05
+          speaker: narrator
+          text: 壮王说完，狠狠扇了弟弟一记耳光。短腿小子被打得在草地上连翻了几个跟头。
+        - id: ch06-b06
+          speaker: shortshanks
+          text: 你下手这么重，也不害臊！我先赢得一位公主和半个王国，又赢得另一位公主和另外半个王国。如今我想把一位公主和半个王国送给你，你反倒给我这么重的一耳光。这像话吗？
+          emotion: angry
+        - id: ch06-b07
+          speaker: narrator
+          text: 壮王听完，赶忙请求弟弟原谅。兄弟俩很快又像从前一样亲密。
+        - id: ch06-b08
+          speaker: shortshanks
+          text: 你知道，我们长得太像，没人分得出来。你跟我换衣裳，再走进王宫。两位公主会以为你就是我。谁先亲你，谁就做你的妻子，另一位归我。
+        - id: ch06-b09
+          speaker: narrator
+          text: 短腿小子这样安排，是因为他知道大公主更强壮，已经猜到会发生什么。壮王十分乐意，便和弟弟换了衣裳，走进王宫。
+        - id: ch06-b10
+          speaker: narrator
+          text: 他来到两位公主的房间。公主们果然把他当成短腿小子，一起跑来要亲他。姐姐身高力壮，一把推开妹妹，搂住壮王的脖子，先亲了他一口。
+        - id: ch06-b11
+          speaker: narrator
+          text: 事情就这样定了下来。壮王娶了大公主，短腿小子娶了自己最先救下的小公主。王宫上下立刻忙起来，为两对新人筹备婚礼。那场婚礼究竟有多少宾客、多少歌舞，不必一一细说。只要告诉你，它的盛名传遍了整整七个王国，你就能想见那一天有多么隆重了。

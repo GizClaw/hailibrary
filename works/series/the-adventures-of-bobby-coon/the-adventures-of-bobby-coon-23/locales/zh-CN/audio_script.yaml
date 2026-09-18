@@ -1,0 +1,109 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 亲切风趣，像在孩子身边娓娓讲述森林故事
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中等
+    bobby:
+      display_name: 浣熊博比
+      tts:
+        delivery: 天真敏感，困惑时迟疑，受惊时急促
+        timbre: 清亮稚气
+        pace: 轻快而随情绪变化
+        pitch: 中高
+    buster_bear:
+      display_name: 巴斯特熊
+      tts:
+        delivery: 憨直而警觉，饥饿时带着急切和粗声嘟囔
+        timbre: 低沉浑厚
+        pace: 稍慢，行动时加快
+        pitch: 低
+  chapters:
+    - id: ch01
+      title: 可怕的近邻
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 浣熊博比回到了绿森林深处那片岩石缝里的小山洞。这里是他刚刚找到的新家。这时候，他心里乱极了。家族里从来没有谁像他这么烦恼过。
+        - id: ch01-b02
+          speaker: narrator
+          text: 博比本来高高兴兴地出门，想看看新家四周是什么样，也想认识一下附近的邻居。可他才刚走不远，就发现离自己最近的邻居竟然是巴斯特熊。换成谁，能不发愁呢？
+        - id: ch01-b03
+          speaker: narrator
+          text: 就在几个钟头以前，巴斯特还追着博比，要抓住他吃掉。偏偏他们俩的家都在同一片岩石缝里。博比一知道这件事，哪儿还有心思花一整夜到处探看。
+        - id: ch01-b04
+          speaker: bobby
+          text: 我怎么会落到这么可怕的处境里？太可怕了，实在太可怕了！好不容易才找到这辈子最好的房子，巴斯特熊却住得这么近。我不敢留下，又没有别的地方可去。哎呀，像我这样可怜的小家伙，到底该怎么办呢？
+          emotion: fearful
+        - id: ch01-b05
+          speaker: bobby
+          text: 要是我也像巴斯特那么大就好了。真的，那样我就敢跟他打。我一定跟他打，非打不可！
+        - id: ch01-b06
+          speaker: buster_bear
+          text: 你要跟谁打？
+        - id: ch01-b07
+          speaker: narrator
+          text: 一个又粗又沉、呼噜隆隆的大嗓门从洞口外面传来。博比身子一软，瘫在地上，吓得不停发抖。可他小心得很，连最轻的一点声音也没有发出来。
+        - id: ch01-b08
+          speaker: narrator
+          text: 也许巴斯特还不知道自己无意中听见的是谁。只要一动不动，他说不定会以为自己听错了。博比就这样屏住了声息。
+    - id: ch02
+      title: 洞口外的嗅闻声
+      blocks:
+        - id: ch02-b01
+          speaker: buster_bear
+          text: 躲在里面的到底是谁？我还不知道这儿住了人呢。怎么不出来见见邻居，大家亲热亲热？
+        - id: ch02-b02
+          speaker: narrator
+          text: 博比把舌头牢牢守在嘴里，还是一声不吭，只顾发抖。外面安静了一两分钟，接着响起三下长长的吸气声。嗅，嗅，嗅！每响一下，博比就抖得更厉害。
+        - id: ch02-b03
+          speaker: buster_bear
+          text: 哦，哈！原来是浣熊博比，是我的小表亲博比呀！
+          emotion: surprised
+        - id: ch02-b04
+          speaker: narrator
+          text: 巴斯特低低地笑了起来。笑声和他的嗓门一样，也是低沉沉、呼噜隆隆的。
+        - id: ch02-b05
+          speaker: buster_bear
+          text: 欢迎你搬到这片老岩石来，博比，欢迎你！既然我要有个住得这么近的邻居，那个人是你，我可真高兴。出来跟我握握手吧，别害羞。我不会伤害你。
+        - id: ch02-b06
+          speaker: narrator
+          text: 博比听了，耳朵微微竖起一点。他知道，巴斯特那只灵鼻子已经闻出了洞里是谁。再装下去，也没有用了。他细声细气地开口问道。
+        - id: ch02-b07
+          speaker: bobby
+          text: 巴斯特表哥，你说的是真的吗？
+          emotion: fearful
+        - id: ch02-b08
+          speaker: buster_bear
+          text: 当然是真的。怎么会不真呢？我平常说出口的话，都是算数的。
+        - id: ch02-b09
+          speaker: bobby
+          text: 麻烦就在这儿呀。刚才你还想抓住我，又说要吃掉我。我以为那句话也算数呢。
+    - id: ch03
+      title: 又做回好邻居
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 巴斯特先轻声笑了几下，接着哈哈大笑。他的笑声还是那么低沉，也是呼噜隆隆的。
+        - id: ch03-b02
+          speaker: buster_bear
+          text: 说得对，博比，说得对！那时候我肚子饿得空空的，脾气也跟着坏了。现在我已经吃饱，又变回平常的自己啦。只要我是平常的自己，你就不用怕我。
+        - id: ch03-b03
+          speaker: buster_bear
+          text: 那点小事就忘了吧。要不是你提起来，我早把它忘了。你肯搬来做我的邻居，我很高兴。你再也找不到比这里更安全的家了。
+        - id: ch03-b04
+          speaker: buster_bear
+          text: 我现在要回去睡一觉。你哪天想来，就到我家看看。咱们可要像邻居一样亲热些，博比表弟，亲热些。
+        - id: ch03-b05
+          speaker: narrator
+          text: 说完，巴斯特拖着脚步回到自己的家，上床睡觉去了。博比呢，没过多久，心情又好得不能再好了。他决定留下来，就住在这个小山洞里。
+        - id: ch03-b06
+          speaker: narrator
+          text: 我猜，这会儿他还住在那儿。除非他又跑出去淘气，或者寻找新的奇遇了。说起奇遇，倒让我想起了臭鼬吉米经历过的一些事。
+        - id: ch03-b07
+          speaker: narrator
+          text: 吉米的故事，得用整整一本书才能讲完。所以，下一本书，我就专门讲他和他的种种经历吧。

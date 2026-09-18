@@ -1,0 +1,593 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    jack:
+      display_name: Jack
+      tts:
+        delivery: quick-witted and bold, with a teasing edge in danger
+        timbre: bright and sturdy
+        pace: medium-fast
+        pitch: medium
+    magistrate_1:
+      display_name: First Magistrate
+      tts:
+        delivery: grave and official
+        timbre: mature and firm
+        pace: measured
+        pitch: medium-low
+    magistrate_2:
+      display_name: Second Magistrate
+      tts:
+        delivery: sober and deliberate
+        timbre: dry and clear
+        pace: measured
+        pitch: medium
+    magistrate_3:
+      display_name: Third Magistrate
+      tts:
+        delivery: weighty and restrained
+        timbre: rounded and mature
+        pace: slow
+        pitch: low
+    cormoran:
+      display_name: Cormoran
+      tts:
+        delivery: savage and booming
+        timbre: immense and rough
+        pace: heavy
+        pitch: very low
+    blunderbore:
+      display_name: Blunderbore
+      tts:
+        delivery: cruel and threatening
+        timbre: cavernous and coarse
+        pace: slow
+        pitch: very low
+    blunderbore_brother:
+      display_name: Blunderbore's Brother
+      tts:
+        delivery: brutal and eager
+        timbre: deep and gravelly
+        pace: measured
+        pitch: low
+    captive_lady_1:
+      display_name: First Captive Lady
+      tts:
+        delivery: weary but dignified
+        timbre: soft and clear
+        pace: measured
+        pitch: medium-high
+    captive_lady_2:
+      display_name: Second Captive Lady
+      tts:
+        delivery: faint but hopeful
+        timbre: light and breathy
+        pace: slow
+        pitch: high
+    captive_lady_3:
+      display_name: Third Captive Lady
+      tts:
+        delivery: restrained and earnest
+        timbre: warm and delicate
+        pace: measured
+        pitch: medium
+    welsh_giant:
+      display_name: Welsh Giant
+      tts:
+        delivery: falsely friendly, turning boastful and sly
+        timbre: broad and rumbling
+        pace: measured
+        pitch: low
+    prince:
+      display_name: King Arthur's Son
+      tts:
+        delivery: generous and courteous, with open feeling
+        timbre: clear and noble
+        pace: measured
+        pitch: medium
+    townsman:
+      display_name: Townsman
+      tts:
+        delivery: plainspoken and informative
+        timbre: practical and clear
+        pace: medium
+        pitch: medium
+    old_woman:
+      display_name: Old Woman
+      tts:
+        delivery: persistent and direct
+        timbre: thin and aged
+        pace: measured
+        pitch: medium-high
+    three_headed_giant:
+      display_name: Three-Headed Giant
+      tts:
+        delivery: thunderous and boastful, quickly turning anxious
+        timbre: huge and resonant
+        pace: measured
+        pitch: very low
+    enchanted_lady:
+      display_name: Enchanted Lady
+      tts:
+        delivery: poised and severe, with an uncanny coldness
+        timbre: elegant and cool
+        pace: measured
+        pitch: medium-high
+    lucifer:
+      display_name: Lucifer
+      tts:
+        delivery: dark and forbidding
+        timbre: smoky and deep
+        pace: slow
+        pitch: very low
+    cave_giant:
+      display_name: Giant of the Cave
+      tts:
+        delivery: harsh and explosive
+        timbre: coarse and booming
+        pace: heavy
+        pitch: very low
+    captive_1:
+      display_name: First Captive
+      tts:
+        delivery: exhausted and fearful
+        timbre: hollow and strained
+        pace: slow
+        pitch: medium
+    captive_2:
+      display_name: Second Captive
+      tts:
+        delivery: anxious and subdued
+        timbre: worn and quiet
+        pace: measured
+        pitch: medium-low
+    captive_3:
+      display_name: Third Captive
+      tts:
+        delivery: frightened but attentive
+        timbre: light and tense
+        pace: medium
+        pitch: medium-high
+    messenger:
+      display_name: Messenger
+      tts:
+        delivery: urgent and breathless
+        timbre: clear and ringing
+        pace: fast
+        pitch: medium
+    thunderdell:
+      display_name: Thunderdell
+      tts:
+        delivery: raging and vengeful
+        timbre: massive and thunderous
+        pace: heavy
+        pitch: very low
+    old_man:
+      display_name: Old Man
+      tts:
+        delivery: kindly and solemn, with quiet urgency
+        timbre: frail and weathered
+        pace: unhurried
+        pitch: medium-low
+    galligantua:
+      display_name: Galligantua
+      tts:
+        delivery: fierce and alarmed
+        timbre: enormous and dark
+        pace: heavy
+        pitch: very low
+  chapters:
+    - id: ch01
+      title: Cormoran of the Mount
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: In the days when good King Arthur ruled, a farmer lived near Land's End in Cornwall. He had one son, named Jack. The boy was brisk and quick-witted, and no one could get the better of him.
+        - id: ch01-b02
+          speaker: narrator
+          text: Cornwall was then plagued by a giant called Cormoran, who held the Mount. He stood eighteen feet tall and measured about three yards around the waist. His grim face terrified every nearby town and village.
+        - id: ch01-b03
+          speaker: narrator
+          text: Cormoran lived in a cave on the Mount. Whenever he wanted food, he waded across to the mainland and took whatever he found. At the sight of him, people fled their homes. He could carry six oxen on his back, and he tied sheep and hogs around his waist as easily as a bundle of candles. He had robbed Cornwall this way for years, until the whole county despaired.
+        - id: ch01-b04
+          speaker: narrator
+          text: One day, Jack entered the town hall while the magistrates were meeting about the giant.
+        - id: ch01-b05
+          speaker: jack
+          text: What will you give the man who kills Cormoran?
+        - id: ch01-b06
+          speakers: [magistrate_1, magistrate_2, magistrate_3]
+          ensemble: chorus
+          text: He shall have the giant's treasure.
+        - id: ch01-b07
+          speaker: jack
+          text: Then I'll take the task.
+        - id: ch01-b08
+          speaker: narrator
+          text: Jack took a horn, a shovel, and a pickaxe to the Mount at the start of a dark winter evening. He worked through the night and dug a pit twenty-two feet deep and almost as wide. Over it he laid long sticks and straw, then scattered a little earth on top until it looked like solid ground.
+        - id: ch01-b09
+          speaker: narrator
+          text: At daybreak, Jack stood beyond the pit, as far from the cave as he could. He raised his horn and blew a loud tantivy, tantivy. Cormoran burst from his cave.
+        - id: ch01-b10
+          speaker: cormoran
+          text: You wretched villain! Have you come to spoil my sleep? You'll pay for that. I'll roast you whole for my breakfast!
+          emotion: angry
+        - id: ch01-b11
+          speaker: narrator
+          text: The threat was scarcely out of his mouth when he crashed through the covering and fell into the pit. The very foundations of the Mount shook beneath him.
+        - id: ch01-b12
+          speaker: jack
+          text: Well, Giant, where are you now? You're caught in Lob's Pound, and after those threats, I mean to trouble you. How does roasted Jack sound for breakfast now? Was there truly nothing else you could eat?
+        - id: ch01-b13
+          speaker: narrator
+          text: Jack teased him a while longer. Then he struck the crown of the giant's head with one mighty blow of his pickaxe and killed him where he lay.
+        - id: ch01-b14
+          speaker: narrator
+          text: Jack filled the pit with earth, then went into Cormoran's cave. There he found the treasure the giant had gathered through all those years of plunder. When the magistrates heard what Jack had done, they publicly declared that from then on he would be known as Jack the Giant-Killer. They presented him with a sword and a belt. Across the belt, words of praise were embroidered in letters of gold.
+        - id: ch01-b15
+          speakers: [magistrate_1, magistrate_2, magistrate_3]
+          ensemble: chorus
+          text: Here is the valiant Cornish man who slew the giant Cormoran.
+
+    - id: ch02
+      title: Blunderbore's Enchanted Castle
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: News of Jack's victory traveled across the west of England. When a second giant named Blunderbore heard it, he swore he would take revenge if Jack ever crossed his path. Blunderbore ruled an enchanted castle in the middle of a lonely wood.
+        - id: ch02-b02
+          speaker: narrator
+          text: About four months later, Jack was passing that wood on his way to Wales. Tired from the journey, he sat beside a pleasant fountain and fell fast asleep. Blunderbore came for water, saw the words upon Jack's belt, and knew at once who he was.
+        - id: ch02-b03
+          speaker: narrator
+          text: Without wasting a moment, the giant lifted Jack onto his shoulders and carried him toward the castle. Branches rustled around them as they pushed through a thicket, and the sound woke Jack. He was astonished to find himself in a giant's grip. Yet that was only the beginning of his terror. When they entered the castle, Jack saw human bones scattered across the ground.
+        - id: ch02-b04
+          speaker: blunderbore
+          text: Before long, your bones will be lying among these.
+        - id: ch02-b05
+          speaker: narrator
+          text: Then the giant locked Jack in a vast chamber. He left him there while he went to fetch his brother, who lived in the same wood and would share the meal.
+        - id: ch02-b06
+          speaker: narrator
+          text: After a while, Jack looked from the window and saw both giants coming toward the castle.
+        - id: ch02-b07
+          speaker: jack
+          text: Now my death or my escape is close at hand.
+        - id: ch02-b08
+          speaker: narrator
+          text: Strong cords lay in one corner of the chamber. Jack took two of them and tied a stout noose at the end of each. He waited while Blunderbore and his brother came to the iron gate and began unlocking it. Then Jack dropped one noose over each giant's head. He passed the other ends across a beam and pulled with all his strength until both giants were choking.
+        - id: ch02-b09
+          speaker: narrator
+          text: Jack kept pulling until their faces had turned black. Then he slid down a rope, drew his sword, and killed them both. He took the giant's keys and opened the locked rooms one after another. In one, he found three fair ladies tied by the hair of their heads. They had been held there so long that they were almost starved to death.
+        - id: ch02-b10
+          speaker: jack
+          text: Dear ladies, I have killed this monster and his savage brother. You are free now.
+        - id: ch02-b11
+          speaker: narrator
+          text: He handed them the keys and continued on his road to Wales.
+
+    - id: ch03
+      title: The Two-Headed Host
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Jack traveled as quickly as he could, but he lost the road. Night fell before he found any shelter. At last, in a narrow valley, he came upon a large house and knocked at its gate.
+        - id: ch03-b02
+          speaker: narrator
+          text: To his surprise, the door was opened by a monstrous giant with two heads. This Welsh giant did not seem as fiery as the others. His cruelty was hidden beneath a friendly manner. Jack explained that he was lost, and the giant showed him to a bedroom.
+        - id: ch03-b03
+          speaker: narrator
+          text: In the dead of night, Jack heard his host muttering in another room.
+        - id: ch03-b04
+          speaker: welsh_giant
+          text: You may lodge with me tonight, but morning you'll never see. My club will smash your brains before daylight.
+        - id: ch03-b05
+          speaker: jack
+          text: So that's your plan. It sounds like one of your Welsh tricks, but I hope I can outwit you.
+        - id: ch03-b06
+          speaker: narrator
+          text: Jack climbed out of bed, placed a thick piece of wood beneath the covers, and hid in a corner. In the deepest part of the night, the giant crept in and struck the bed again and again with his club. He believed he had broken every bone in Jack's body.
+        - id: ch03-b07
+          speaker: narrator
+          text: The next morning, Jack quietly laughed to himself and thanked the giant warmly for his lodging.
+        - id: ch03-b08
+          speaker: welsh_giant
+          text: Did you sleep well? You didn't feel anything during the night?
+        - id: ch03-b09
+          speaker: jack
+          text: Nothing much. A rat slapped me two or three times with her tail.
+        - id: ch03-b10
+          speaker: narrator
+          text: The giant marveled at that answer and led Jack to breakfast. He brought out a bowl holding four gallons of hasty pudding. Jack would not let him think the meal was too much, so he hid a large leather bag beneath his loose coat and slipped the pudding into it without being seen.
+        - id: ch03-b11
+          speaker: narrator
+          text: Then Jack announced that he would show the giant a trick. He took a knife, cut open the hidden bag, and all the pudding poured out.
+        - id: ch03-b12
+          speaker: welsh_giant
+          text: Odds splutters and nails! I can do that trick myself!
+          emotion: surprised
+        - id: ch03-b13
+          speaker: narrator
+          text: The monster seized the knife and cut open his own belly. He fell dead at once.
+
+    - id: ch04
+      title: The Prince's Quest
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: In those days, King Arthur's only son asked his father for a large sum of money. He wished to seek his fortune in the principality of Wales. A beautiful lady lived there, but seven evil spirits possessed her. The king tried everything he could to turn his son from such a dangerous journey. The prince would not give it up, so at last Arthur gave way. The young man set out with two horses, one for himself and one loaded with money.
+        - id: ch04-b02
+          speaker: narrator
+          text: After several days, he reached a Welsh market town and saw a huge crowd. He asked why everyone had gathered there.
+        - id: ch04-b03
+          speaker: townsman
+          text: A dead man owed several great debts, so his creditors have had the body arrested.
+        - id: ch04-b04
+          speaker: prince
+          text: It is cruel to treat the dead that way. Go and bury him. Tell every creditor to come to my lodging, and I will pay what he owed.
+        - id: ch04-b05
+          speaker: narrator
+          text: So many creditors came that by nightfall the prince had only two pennies left.
+        - id: ch04-b06
+          speaker: narrator
+          text: Jack the Giant-Killer happened to pass through the town. The prince's generosity pleased him so much that he asked to become his servant. The prince agreed, and they prepared to leave together the next morning.
+        - id: ch04-b07
+          speaker: narrator
+          text: As they rode out of town, an old woman called after them.
+        - id: ch04-b08
+          speaker: old_woman
+          text: That dead man owed me two pennies for seven years. Please pay me too, like all the others.
+        - id: ch04-b09
+          speaker: narrator
+          text: The prince reached into his pocket and gave her everything he had left. Their food that day used up the little money Jack carried, so by evening neither of them had a penny.
+        - id: ch04-b10
+          speaker: prince
+          text: Jack, we have no money. Where can we stay tonight?
+        - id: ch04-b11
+          speaker: jack
+          text: We'll manage, master. An uncle of mine lives less than two miles away. He's a monstrous giant with three heads. He can face five hundred armored men and send them running.
+        - id: ch04-b12
+          speaker: prince
+          text: What can we do there? He'll swallow us in one bite! Why, together we would hardly fill one of his hollow teeth.
+          emotion: fearful
+        - id: ch04-b13
+          speaker: jack
+          text: Never mind that. I'll ride ahead and prepare everything. Wait here until I return.
+        - id: ch04-b14
+          speaker: narrator
+          text: Jack galloped to the castle and knocked so hard that the nearby hills echoed. The giant's roar answered like thunder.
+        - id: ch04-b15
+          speaker: three_headed_giant
+          text: Who is there?
+        - id: ch04-b16
+          speaker: jack
+          text: Only your poor cousin Jack.
+        - id: ch04-b17
+          speaker: three_headed_giant
+          text: What news have you brought me, poor cousin?
+        - id: ch04-b18
+          speaker: jack
+          text: Dear uncle, I bring terrible news, truly.
+        - id: ch04-b19
+          speaker: three_headed_giant
+          text: What news could trouble me? I have three heads. You know I can fight five hundred armored men and scatter them like chaff in the wind.
+        - id: ch04-b20
+          speaker: jack
+          text: But the king's son is coming with a thousand armored men. They mean to kill you and destroy everything you own!
+        - id: ch04-b21
+          speaker: three_headed_giant
+          text: Cousin Jack, that is terrible news! I'll hide at once. Lock and bolt me in, bar the door, and keep the keys until the prince has gone.
+          emotion: fearful
+        - id: ch04-b22
+          speaker: narrator
+          text: Jack shut the giant inside a vault, then locked, bolted, and barred the door exactly as his supposed uncle had asked. He kept the keys and rode back for his master. Jack brought the prince into the castle, where the two of them ate, drank, and enjoyed themselves heartily. All the while, the poor giant lay trembling in the vault beneath them.
+        - id: ch04-b23
+          speaker: narrator
+          text: Early the next morning, Jack supplied the prince with fresh gold and silver and sent him three miles ahead, well beyond the giant's scent. Then he returned and opened the vault.
+        - id: ch04-b24
+          speaker: three_headed_giant
+          text: What shall I give you for saving my castle from destruction?
+        - id: ch04-b25
+          speaker: jack
+          text: I want only the old coat and cap, the rusty sword, and the slippers beside your bed.
+        - id: ch04-b26
+          speaker: three_headed_giant
+          text: You do not know what you ask. Those are my greatest treasures. The coat makes its wearer invisible. The cap tells you anything you wish to know. The sword cuts through whatever it strikes, and the shoes carry you with wonderful speed. Still, you have served me well, so take them gladly.
+        - id: ch04-b27
+          speaker: narrator
+          text: Jack thanked him and hurried away with the four treasures. He soon caught up with his master, and before long they reached the home of the lady the prince sought.
+        - id: ch04-b28
+          speaker: narrator
+          text: When she learned that the prince had come as a suitor, she prepared a splendid feast. After they had eaten, she told him that he must complete a task. She wiped his mouth with a handkerchief.
+        - id: ch04-b29
+          speaker: enchanted_lady
+          text: Show me this handkerchief tomorrow morning, or you will lose your head.
+        - id: ch04-b30
+          speaker: narrator
+          text: She tucked it into her dress. The prince went to bed in deep sorrow, but Jack's cap of knowledge told him how the handkerchief could be recovered.
+        - id: ch04-b31
+          speaker: narrator
+          text: In the middle of the night, the lady called upon her familiar spirit. It carried her away to Lucifer. Jack put on the coat of darkness, which made him invisible, and the shoes of swiftness. They carried him there as quickly as the spirit carried her. The lady handed the handkerchief to Lucifer, and he laid it on a shelf. Unseen, Jack lifted it from the shelf and hurried back to place it in his master's hands.
+        - id: ch04-b32
+          speaker: narrator
+          text: The next morning, the prince showed the handkerchief and saved his life. That day, the lady kissed him and gave him another task.
+        - id: ch04-b33
+          speaker: enchanted_lady
+          text: Tomorrow morning, you must show me the lips I kiss tonight. Fail, and you lose your head.
+        - id: ch04-b34
+          speaker: prince
+          text: If you kiss no lips but mine, I can do that.
+        - id: ch04-b35
+          speaker: enchanted_lady
+          text: That makes no difference. If you cannot show them, you die.
+        - id: ch04-b36
+          speaker: narrator
+          text: At midnight she traveled as before. She was angry that Lucifer had lost the handkerchief.
+        - id: ch04-b37
+          speaker: enchanted_lady
+          text: This time I will defeat the king's son. I shall kiss you, and tomorrow he must show me your lips.
+          emotion: angry
+        - id: ch04-b38
+          speaker: narrator
+          text: She kissed Lucifer. When she had moved away, Jack cut off Lucifer's head and hid it beneath his invisible coat. He carried it to the prince.
+        - id: ch04-b39
+          speaker: narrator
+          text: The next morning, the prince drew out the head by its horns and showed it to the lady. At once, the enchantment broke. The evil spirit left her, and her full beauty appeared.
+        - id: ch04-b40
+          speaker: narrator
+          text: She and the prince were married the following morning. Soon afterward they returned to King Arthur's court, where Jack was rewarded for his many exploits and made a Knight of the Round Table.
+
+    - id: ch05
+      title: The Captives in the Cave
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Before long, Jack set out to hunt giants again. He had not ridden far when he found a cave. Beside its entrance sat a giant on a block of timber, with a knotted iron club at his side.
+        - id: ch05-b02
+          speaker: narrator
+          text: The giant's bulging eyes looked like flames. His face was grim, his cheeks were as broad as great sides of bacon, and the bristles in his beard were like iron wire. Tangled locks hung over his mighty shoulders like curling snakes and hissing adders.
+        - id: ch05-b03
+          speaker: narrator
+          text: Jack dismounted and put on the coat of darkness. He walked close to the giant without being seen.
+        - id: ch05-b04
+          speaker: jack
+          text: Ah, there you are. Before long, I'll have you firmly by the beard.
+        - id: ch05-b05
+          speaker: narrator
+          text: Jack swung his sword at the giant's head. The blow missed its mark and sliced off the giant's nose instead. With a roar like thunder, the monster sprang up and flailed his iron club as wildly as a madman.
+        - id: ch05-b06
+          speaker: narrator
+          text: Jack darted behind him and drove the sword to its hilt into his back. The giant fell dead. Jack cut off his head, then hired a wagoner to carry it, along with the head of the giant's brother, to King Arthur.
+        - id: ch05-b07
+          speaker: narrator
+          text: Jack decided to search the cave for treasure. He followed passage after twisting passage until he reached a large room paved with stone. A cauldron boiled at the far end, and on the right stood the giant's dining table.
+        - id: ch05-b08
+          speaker: narrator
+          text: Then Jack found an iron-barred window. Beyond it, a great many miserable prisoners were shut away. When they saw him, they cried out together.
+        - id: ch05-b09
+          speakers: [captive_1, captive_2, captive_3]
+          ensemble: chorus
+          text: Alas, young man! Have you come to be another prisoner in this dreadful den?
+          emotion: fearful
+        - id: ch05-b10
+          speaker: jack
+          text: Yes, in a way. But first, tell me why you are all held here.
+        - id: ch05-b11
+          speaker: captive_1
+          text: The giants keep us until they want a feast. Then they kill the fattest prisoner. Many times they have eaten murdered men.
+          emotion: fearful
+        - id: ch05-b12
+          speaker: jack
+          text: Is that so?
+        - id: ch05-b13
+          speaker: narrator
+          text: Hearing this, Jack immediately unlocked the gate and set every prisoner free. Their joy was like the joy of condemned people who have just received a pardon. Jack then searched the giant's strongboxes and found stores of gold and silver. He divided the treasure equally among the people who had suffered in the cave. Afterward, he led them all to a neighboring castle. There they feasted and made merry over their deliverance.
+
+    - id: ch06
+      title: Thunderdell at the Drawbridge
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: In the middle of their merrymaking, a messenger arrived with terrible news. A two-headed giant called Thunderdell had heard that Jack had killed his kinsmen. He had come down from the northern valleys for revenge and was now less than a mile away. Country people fled before him like chaff before the wind.
+        - id: ch06-b02
+          speaker: jack
+          text: Let him come! I have just the tool to pick his teeth. Ladies and gentlemen, walk into the garden, and you may watch Thunderdell meet his end.
+        - id: ch06-b03
+          speaker: narrator
+          text: The castle stood on a small island. Around it ran a moat thirty feet deep and twenty feet wide, crossed by a drawbridge. Jack ordered men to saw almost through both sides of the bridge, stopping near the middle.
+        - id: ch06-b04
+          speaker: narrator
+          text: Then Jack put on his invisible coat, took the sword of sharpness, and went out to face Thunderdell. The giant could not see him, but he caught Jack's scent.
+        - id: ch06-b05
+          speaker: thunderdell
+          text: Fee, fi, fo, fum! I smell the blood of an Englishman! Alive or dead, I'll grind his bones and bake my bread!
+        - id: ch06-b06
+          speaker: jack
+          text: Is that so? Then you must be a monstrous miller indeed.
+        - id: ch06-b07
+          speaker: thunderdell
+          text: Are you the villain who killed my kinsmen? I'll tear you apart with my teeth, drink your blood, and grind your bones to powder!
+          emotion: angry
+        - id: ch06-b08
+          speaker: jack
+          text: You'll have to catch me first.
+        - id: ch06-b09
+          speaker: narrator
+          text: Jack threw off the invisible coat so Thunderdell could see him. He slipped on the shoes of swiftness and ran. The giant charged after him like a walking castle, and the ground seemed to shake beneath every stride.
+        - id: ch06-b10
+          speaker: narrator
+          text: Jack led him on a long chase around the ground so that the ladies and gentlemen in the garden could watch. At last, when he was ready to end the matter, Jack turned toward the castle. His magic shoes carried him lightly across the weakened drawbridge. Thunderdell followed at full speed, driving his huge weight forward with his iron club raised.
+        - id: ch06-b11
+          speaker: narrator
+          text: When the giant reached the middle, his enormous weight broke the weakened bridge. He plunged headfirst into the water and rolled there like a whale.
+        - id: ch06-b12
+          speaker: narrator
+          text: Jack stood beside the moat and laughed. Thunderdell foamed at the mockery and thrashed from side to side, but he could not climb out to take revenge.
+        - id: ch06-b13
+          speaker: narrator
+          text: At last, Jack fetched a cart rope and cast it over both the giant's heads. A team of horses dragged Thunderdell ashore. Jack cut off both heads with the sword of sharpness and sent them to King Arthur.
+
+    - id: ch07
+      title: Galligantua's Enchantment
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: After some time spent in celebration, Jack said farewell to the knights and ladies and set off in search of new adventures. He passed through many woods and finally reached the foot of a high mountain.
+        - id: ch07-b02
+          speaker: narrator
+          text: Late that night, he found a lonely house. An aged man with hair as white as snow opened the door when Jack knocked.
+        - id: ch07-b03
+          speaker: jack
+          text: Father, can you shelter a traveler who has lost his way after dark?
+        - id: ch07-b04
+          speaker: old_man
+          text: Yes, you are very welcome in my poor cottage.
+        - id: ch07-b05
+          speaker: narrator
+          text: Jack went inside, and they sat down together. The old man studied the words on Jack's belt.
+        - id: ch07-b06
+          speaker: old_man
+          text: Son, your belt tells me you are the great conqueror of giants. At the top of this mountain stands an enchanted castle. A giant named Galligantua guards it. With the help of an old conjurer, he betrays knights and ladies into the castle and changes them by magic into many different shapes.
+        - id: ch07-b07
+          speaker: old_man
+          text: Most of all, I grieve for a duke's daughter. They seized her from her father's garden and carried her through the air in a burning chariot drawn by fiery dragons. Inside the castle, they changed her into a white deer.
+        - id: ch07-b08
+          speaker: old_man
+          text: Many knights have tried to break the spell and rescue her, but all have failed. Two dreadful griffins guard the gate and destroy anyone who comes near. Your invisible coat may let you pass them unseen. On the castle gates, you will find great letters explaining how the enchantment can be broken.
+        - id: ch07-b09
+          speaker: narrator
+          text: Jack took the old man's hand and promised that in the morning he would risk his life to free the lady.
+        - id: ch07-b10
+          speaker: narrator
+          text: At dawn, Jack rose and put on his invisible coat, his magic cap, and his swift shoes. At the mountain top, he found the two fiery griffins. Protected by the coat, he passed them without fear.
+        - id: ch07-b11
+          speaker: narrator
+          text: Beyond the griffins, a golden trumpet hung from a silver chain on the castle gates. Beneath it, these words were cut into the gate.
+        - id: ch07-b12
+          speaker: narrator
+          text: Whoever blows this trumpet shall overthrow the giant, break the dark enchantment at once, and bring happiness to all.
+        - id: ch07-b13
+          speaker: narrator
+          text: As soon as Jack had read the words, he took down the golden trumpet and blew it. The sound shook the castle to its deepest foundations. Galligantua and the old conjurer knew at once what the trumpet meant. They fell into dreadful confusion, biting their thumbs and tearing at their hair, because their long and wicked rule had finally reached its end.
+        - id: ch07-b14
+          speaker: narrator
+          text: The giant bent to seize his club, but Jack struck first and cut off his head with a single blow. The conjurer rose into the air and was carried away in a whirlwind.
+        - id: ch07-b15
+          speaker: narrator
+          text: With Galligantua dead and the conjurer gone, the enchantment broke. All the lords and ladies who had spent so long transformed into birds and beasts changed back into their proper human shapes. No one remained under the old magic. Then the enchanted castle itself vanished away in a cloud of smoke.
+        - id: ch07-b16
+          speaker: narrator
+          text: Galligantua's head was sent, as the other giants' heads had been, to King Arthur's court. Jack followed the very next day with all the knights and ladies he had freed.
+        - id: ch07-b17
+          speaker: narrator
+          text: To reward Jack's faithful service, the king persuaded the duke to give him his daughter's hand. Jack and the lady were married, and the whole kingdom rejoiced at their wedding.
+        - id: ch07-b18
+          speaker: narrator
+          text: King Arthur also gave Jack a noble castle and a beautiful estate. There Jack and his lady lived in great joy and happiness for the rest of their days.

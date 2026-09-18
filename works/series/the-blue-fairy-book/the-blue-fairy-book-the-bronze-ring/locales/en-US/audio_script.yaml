@@ -1,0 +1,686 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried
+        timbre: clear and story-rich
+        pace: measured
+        pitch: medium
+    king:
+      display_name: The King
+      tts:
+        delivery: commanding but deeply feeling
+        timbre: full and mature
+        pace: measured
+        pitch: medium-low
+    wise_old_man:
+      display_name: The Wise Old Man
+      tts:
+        delivery: thoughtful and certain
+        timbre: dry and aged
+        pace: unhurried
+        pitch: low
+    messenger_1:
+      display_name: First Messenger
+      tts:
+        delivery: practical and encouraging
+        timbre: clear and sturdy
+        pace: steady
+        pitch: medium
+    messenger_2:
+      display_name: Second Messenger
+      tts:
+        delivery: brisk and reassuring
+        timbre: bright and firm
+        pace: steady
+        pitch: medium
+    gardener:
+      display_name: The Gardener
+      tts:
+        delivery: humble and hesitant
+        timbre: earthy and gentle
+        pace: unhurried
+        pitch: medium-low
+    gardener_son:
+      display_name: The Gardener's Son
+      tts:
+        delivery: generous and self-assured
+        timbre: youthful and warm
+        pace: steady
+        pitch: medium
+    princess:
+      display_name: The Princess
+      tts:
+        delivery: sincere and resolute
+        timbre: youthful and clear
+        pace: measured
+        pitch: medium-high
+    minister_1:
+      display_name: First Minister
+      tts:
+        delivery: calculating and formal
+        timbre: polished and cool
+        pace: measured
+        pitch: medium-low
+    minister_2:
+      display_name: Second Minister
+      tts:
+        delivery: sly and matter-of-fact
+        timbre: narrow and crisp
+        pace: steady
+        pitch: medium
+    minister_son:
+      display_name: The Minister's Son
+      tts:
+        delivery: proud and impatient
+        timbre: youthful and sharp
+        pace: brisk
+        pitch: medium
+    beggar_woman:
+      display_name: The Old Beggar-Woman
+      tts:
+        delivery: weathered and knowing
+        timbre: rough and aged
+        pace: deliberate
+        pitch: medium-low
+    herald_1:
+      display_name: First Herald
+      tts:
+        delivery: loud and ceremonial
+        timbre: ringing and strong
+        pace: measured
+        pitch: medium
+    herald_2:
+      display_name: Second Herald
+      tts:
+        delivery: grand and projecting
+        timbre: bright and resonant
+        pace: measured
+        pitch: medium-high
+    sultan:
+      display_name: The Sultan
+      tts:
+        delivery: regal and grateful
+        timbre: rich and mature
+        pace: measured
+        pitch: medium-low
+    slave:
+      display_name: The Princess's Servant
+      tts:
+        delivery: attentive and plainspoken
+        timbre: light and clear
+        pace: steady
+        pitch: medium
+    sorcerer:
+      display_name: The Sorcerer
+      tts:
+        delivery: secretive and grasping
+        timbre: thin and aged
+        pace: deliberate
+        pitch: low
+    mouse_queen:
+      display_name: Queen of the Mice
+      tts:
+        delivery: urgent and royal
+        timbre: small and clear
+        pace: brisk
+        pitch: high
+    mouse_1:
+      display_name: First Envoy Mouse
+      tts:
+        delivery: brave and direct
+        timbre: tiny and bright
+        pace: quick
+        pitch: high
+    mouse_2:
+      display_name: Second Envoy Mouse
+      tts:
+        delivery: anxious and earnest
+        timbre: tiny and soft
+        pace: quick
+        pitch: high
+    blind_mouse:
+      display_name: The Blind Mouse
+      tts:
+        delivery: watchful and thoughtful
+        timbre: small and gentle
+        pace: steady
+        pitch: high
+    lame_mouse:
+      display_name: The Lame Mouse
+      tts:
+        delivery: quick-minded and proud
+        timbre: small and lively
+        pace: brisk
+        pitch: high
+    cropped_ears_mouse:
+      display_name: The Mouse with Cropped Ears
+      tts:
+        delivery: daring and resourceful
+        timbre: small and keen
+        pace: brisk
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The Garden and the Two Suitors
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, in a certain country, there was a king with a great garden around his palace. He had many gardeners, and the soil was good. Yet the garden gave him nothing. There were no flowers, no fruit, no grass, and not one shady tree.
+        - id: ch01-b02
+          speaker: narrator
+          text: The King was in despair. Then a wise old man came to him with an explanation.
+        - id: ch01-b03
+          speaker: wise_old_man
+          text: Your gardeners never learned the work properly. Their fathers were cobblers and carpenters. How could they have taught their sons to tend a garden?
+        - id: ch01-b04
+          speaker: king
+          text: You are quite right!
+        - id: ch01-b05
+          speaker: wise_old_man
+          text: Then send for a man whose father and grandfather were gardeners before him. Soon you will have green grass, bright flowers, and delicious fruit.
+        - id: ch01-b06
+          speaker: narrator
+          text: The King sent messengers through every town, village, and hamlet in his lands. They searched for forty days before they found the gardener he needed.
+        - id: ch01-b07
+          speakers: [messenger_1, messenger_2]
+          ensemble: duo
+          text: Come with us and tend the King's garden.
+        - id: ch01-b08
+          speaker: gardener
+          text: How could a poor wretch like me go before the King?
+        - id: ch01-b09
+          speaker: messenger_1
+          text: Your poverty does not matter. We have new clothes for you and your family.
+        - id: ch01-b10
+          speaker: gardener
+          text: But I owe money to several people.
+        - id: ch01-b11
+          speaker: messenger_2
+          text: We will pay every debt.
+        - id: ch01-b12
+          speaker: narrator
+          text: At last the gardener agreed. He took his wife and son and went away with the messengers. The King gladly placed the royal garden in his care.
+        - id: ch01-b13
+          speaker: narrator
+          text: The gardener knew his trade and found no difficulty in bringing the royal grounds to life. In a year, the whole park had changed so completely that it seemed like another place. Flowers opened, fruit ripened, and the King showered his new servant with gifts.
+        - id: ch01-b14
+          speaker: narrator
+          text: The gardener's son was a handsome young man with pleasant manners. Every day he carried the finest fruit to the King and the loveliest flowers to the King's daughter. The Princess was wonderfully pretty and had just turned sixteen. Her father decided it was time for her to marry.
+        - id: ch01-b15
+          speaker: king
+          text: My dear child, you are old enough to take a husband. I mean to marry you to my prime minister's son.
+        - id: ch01-b16
+          speaker: princess
+          text: Father, I will never marry him.
+        - id: ch01-b17
+          speaker: king
+          text: Why will you not?
+        - id: ch01-b18
+          speaker: princess
+          text: Because I love the gardener's son.
+        - id: ch01-b19
+          speaker: narrator
+          text: The King flew into a rage when he heard this. Then his anger gave way to weeping and sighing. He declared that a gardener's son could never be a worthy husband for his daughter. The young Princess listened, but nothing he said could turn her from her decision.
+        - id: ch01-b20
+          speaker: narrator
+          text: So the King called his ministers together and asked what he should do.
+        - id: ch01-b21
+          speakers: [minister_1, minister_2]
+          ensemble: duo
+          text: Send both young men to a faraway country. Promise the Princess to whichever one comes home first. That will rid you of the gardener's son.
+        - id: ch01-b22
+          speaker: narrator
+          text: The King took their advice. The minister's son received a magnificent horse and a purse of gold. The gardener's son was given an old lame horse and a purse of copper coins. Everyone believed he would never return.
+        - id: ch01-b23
+          speaker: narrator
+          text: On the day before the journey, the Princess met the young man she loved.
+        - id: ch01-b24
+          speaker: princess
+          text: Be brave, and never forget that I love you. Take this purse of jewels. Use it wisely for my sake, come home quickly, and ask for my hand.
+        - id: ch01-b25
+          speaker: narrator
+          text: The two suitors left the town together. The minister's son galloped away on his fine horse and soon vanished beyond the farthest hills.
+        - id: ch01-b26
+          speaker: narrator
+          text: After several days, he reached a fountain. An old woman in rags sat beside it on a stone.
+        - id: ch01-b27
+          speaker: beggar_woman
+          text: Good day, young traveler.
+        - id: ch01-b28
+          speaker: narrator
+          text: The minister's son did not answer her.
+        - id: ch01-b29
+          speaker: beggar_woman
+          text: Please have pity on me. I am starving. I have sat here for three days, and no one has given me a thing.
+        - id: ch01-b30
+          speaker: minister_son
+          text: Leave me alone, you old witch. I can do nothing for you.
+          emotion: angry
+        - id: ch01-b31
+          speaker: narrator
+          text: He rode on. That evening the gardener's son came to the same fountain on his lame gray horse.
+        - id: ch01-b32
+          speaker: beggar_woman
+          text: Good day, young traveler.
+        - id: ch01-b33
+          speaker: gardener_son
+          text: Good day to you, good woman.
+        - id: ch01-b34
+          speaker: beggar_woman
+          text: Young traveler, please have pity on me.
+        - id: ch01-b35
+          speaker: gardener_son
+          text: Take my purse, and climb up behind me. Your legs cannot be very strong.
+        - id: ch01-b36
+          speaker: narrator
+          text: The old woman needed no second invitation. She climbed onto the lame horse behind him, and that was how the two of them traveled to the chief city of a powerful kingdom. Once there, their paths crossed the minister's son's again. He took a room at a grand inn. The gardener's son and the old woman dismounted at the humble inn where beggars stayed.
+    - id: ch02
+      title: The Bronze Ring
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The next day, a great noise rose from the street. The King's heralds marched past, blowing every kind of instrument and calling out a proclamation.
+        - id: ch02-b02
+          speakers: [herald_1, herald_2]
+          ensemble: duo
+          text: Our King is old and weak. He will give a great reward to anyone who can cure him and restore the strength of his youth.
+        - id: ch02-b03
+          speaker: narrator
+          text: The old beggar-woman turned to the young man who had helped her.
+        - id: ch02-b04
+          speaker: beggar_woman
+          text: I will tell you how to win that reward. Leave the town by the south gate. You will find three little dogs there, one white, one black, and one red. Kill them and burn each one separately. Gather the ashes into three bags, each matching the dog's color.
+        - id: ch02-b05
+          speaker: beggar_woman
+          text: Then stand at the palace door and announce that a celebrated physician has arrived from Janina in Albania. Say that he alone can cure the King and make him young again. The royal physicians will call you an impostor. They will try to stop you, but in the end you must reach the sick King.
+        - id: ch02-b06
+          speaker: beggar_woman
+          text: Ask for as much wood as three mules can carry and for a great cauldron. Shut yourself in a room with the Sultan. When the water boils, put him in and leave him until the flesh parts from his bones. Lay every bone in its proper place and scatter the ashes from all three bags over them. The King will rise alive, strong, and twenty years old again.
+        - id: ch02-b07
+          speaker: beggar_woman
+          text: When he offers a reward, ask for the bronze ring. It can grant anything you desire. Go now, my son, and remember every word.
+        - id: ch02-b08
+          speaker: narrator
+          text: The young man held every instruction in his mind and did exactly as she told him. Beyond the south gate he found the three little dogs, white, red, and black. He killed them and burned each one by itself. Then he carefully gathered the ashes into three separate bags of the proper colors.
+        - id: ch02-b09
+          speaker: narrator
+          text: He hurried to the palace and made his announcement.
+        - id: ch02-b10
+          speaker: gardener_son
+          text: A celebrated physician has arrived from Janina in Albania. He alone can cure the King and restore the strength of his youth.
+        - id: ch02-b11
+          speaker: narrator
+          text: The royal physicians laughed when they saw this unknown traveler and his strange cure. They tried to keep him away, just as the beggar-woman had warned. The Sultan overruled them and ordered that the stranger be admitted. Servants brought a great cauldron and as much wood as three mules could carry. The gardener's son shut himself in a room with the old King, and soon the Sultan was boiling inside the cauldron.
+        - id: ch02-b12
+          speaker: narrator
+          text: He waited until the flesh had completely separated from the bones. Near midday, he lifted them out and laid every bone in its proper place. Then he opened the three colored bags and scattered the ashes over them. He had scarcely finished when the old King came back to life. The Sultan stood before him as young, strong, and hearty as he had been at twenty.
+        - id: ch02-b13
+          speaker: sultan
+          text: My benefactor, how can I ever reward you? Will you take half my treasure?
+          emotion: surprised
+        - id: ch02-b14
+          speaker: gardener_son
+          text: No.
+        - id: ch02-b15
+          speaker: sultan
+          text: Then will you marry my daughter?
+        - id: ch02-b16
+          speaker: gardener_son
+          text: No.
+        - id: ch02-b17
+          speaker: sultan
+          text: Take half my kingdom.
+        - id: ch02-b18
+          speaker: gardener_son
+          text: No. Give me only the bronze ring that grants whatever its owner wishes.
+        - id: ch02-b19
+          speaker: sultan
+          text: Alas, that marvelous ring is very precious to me. Even so, you shall have it.
+        - id: ch02-b20
+          speaker: narrator
+          text: The Sultan handed him the ring. The gardener's son returned to say farewell to the old beggar-woman. Then he held out the bronze ring and gave his first command.
+        - id: ch02-b21
+          speaker: gardener_son
+          text: Prepare a splendid ship for the rest of my journey. Give it a hull of fine gold, silver masts, and sails of brocade. Let twelve noble-looking young men dressed like kings form the crew, with Saint Nicholas at the helm. Fill the hold with diamonds, rubies, emeralds, and carbuncles.
+        - id: ch02-b22
+          speaker: narrator
+          text: At once, a ship appeared upon the sea. Its golden hull gleamed, its silver masts rose above brocade sails, and twelve splendid young sailors stood ready while Saint Nicholas held the helm. In the hold lay the cargo of precious stones. It matched every part of his command. The gardener's son stepped aboard and continued his journey.
+        - id: ch02-b23
+          speaker: narrator
+          text: Before long, he arrived at a great town and settled in a wonderful palace. A few days later, he met his rival. The minister's son had spent all his money and now had the miserable job of carrying dust and rubbish away from people's houses.
+        - id: ch02-b24
+          speaker: gardener_son
+          text: Tell me your name, your family, and the country you came from.
+        - id: ch02-b25
+          speaker: minister_son
+          text: I am the son of a great nation's prime minister. Just look at the degrading work I have been forced to do.
+        - id: ch02-b26
+          speaker: gardener_son
+          text: I know nothing more about you, but I am willing to help. I will give you a ship home on one condition.
+        - id: ch02-b27
+          speaker: minister_son
+          text: Whatever the condition is, I accept.
+        - id: ch02-b28
+          speaker: gardener_son
+          text: Follow me to my palace.
+        - id: ch02-b29
+          speaker: narrator
+          text: The minister's son followed the rich stranger without recognizing him. At the palace, the gardener's son signaled to his servants, and they stripped the newcomer.
+        - id: ch02-b30
+          speaker: gardener_son
+          text: Heat this ring until it is red, and brand its mark on his back.
+        - id: ch02-b31
+          speaker: narrator
+          text: The servants obeyed.
+        - id: ch02-b32
+          speaker: gardener_son
+          text: Now I will give you a vessel to carry you home.
+        - id: ch02-b33
+          speaker: narrator
+          text: He went outside, took up the bronze ring, and spoke again.
+        - id: ch02-b34
+          speaker: gardener_son
+          text: Bronze ring, obey your master. Prepare a ship of half-rotten timbers painted black, with torn sails and a sickly crew. Let one sailor have lost a leg, another an arm, and another be a hunchback. Let the others be lame, clubfooted, blind, ugly, and scarred. Carry out my order.
+        - id: ch02-b35
+          speaker: narrator
+          text: The minister's son boarded the wretched old vessel with its black, rotten timbers and ragged sails. Its injured and sickly sailors took their places, and he began the voyage home. Favorable winds carried the ship all the way back to his own country. Though he returned in a pitiful state, everyone welcomed him with joy because he was the first suitor they had seen again.
+    - id: ch03
+      title: The Golden Ship Comes Home
+      blocks:
+        - id: ch03-b01
+          speaker: minister_son
+          text: I came back first. Keep your promise, Your Majesty, and give me the Princess as my wife.
+        - id: ch03-b02
+          speaker: narrator
+          text: Wedding preparations began at once. The poor Princess was both sorrowful and angry.
+        - id: ch03-b03
+          speaker: narrator
+          text: At daybreak the next morning, a wonderful ship sailed into the harbor with every sail raised. The King happened to be standing at a palace window.
+        - id: ch03-b04
+          speaker: king
+          text: What strange ship is this, with a golden hull, silver masts, and silken sails? Who are those young men who look like princes? Is that Saint Nicholas at the helm? Go and invite the captain to my palace at once.
+          emotion: surprised
+        - id: ch03-b05
+          speaker: narrator
+          text: The King's servants hurried down to the harbor and carried his invitation to the captain. Soon a wonderfully handsome young man entered the palace. In his rich silk, pearls, and diamonds, he looked like a prince. No one recognized the gardener's son beneath all that splendor.
+        - id: ch03-b06
+          speaker: king
+          text: Young man, whoever you are, you are welcome. Please stay as my guest for as long as you remain in my capital.
+        - id: ch03-b07
+          speaker: gardener_son
+          text: Thank you, sire. I gladly accept.
+        - id: ch03-b08
+          speaker: king
+          text: My daughter is about to be married. Will you give her away?
+        - id: ch03-b09
+          speaker: gardener_son
+          text: I would be delighted, sire.
+        - id: ch03-b10
+          speaker: narrator
+          text: Soon the Princess entered with the man she was supposed to marry.
+        - id: ch03-b11
+          speaker: gardener_son
+          text: What is this? Would you really marry such a charming princess to a man like him?
+        - id: ch03-b12
+          speaker: king
+          text: But he is my prime minister's son!
+        - id: ch03-b13
+          speaker: gardener_son
+          text: That changes nothing. I cannot give your daughter away to one of my own servants.
+        - id: ch03-b14
+          speaker: king
+          text: Your servant?
+          emotion: surprised
+        - id: ch03-b15
+          speaker: gardener_son
+          text: Certainly. I found him in a distant city carrying dust and rubbish out of houses. I pitied him and took him into my service.
+        - id: ch03-b16
+          speaker: king
+          text: That cannot be true!
+          emotion: surprised
+        - id: ch03-b17
+          speaker: gardener_son
+          text: Shall I prove it? He came home in a ship I provided, with a battered black hull and a crew of sick and crippled sailors.
+        - id: ch03-b18
+          speaker: king
+          text: Yes. That is exactly how he returned.
+        - id: ch03-b19
+          speaker: minister_son
+          text: It is a lie! I have never seen this man before!
+          emotion: angry
+        - id: ch03-b20
+          speaker: gardener_son
+          text: Then order him to uncover his back, sire. You will find the brand made by my ring.
+        - id: ch03-b21
+          speaker: narrator
+          text: The King was already about to order that the young man's back be uncovered. The minister's son knew the branded mark would prove everything. Rather than suffer the humiliation of being stripped before them all, he admitted that the captain's whole story was true.
+        - id: ch03-b22
+          speaker: gardener_son
+          text: And now, sire, do you recognize me?
+        - id: ch03-b23
+          speaker: princess
+          text: I recognize you. You are the gardener's son I have always loved, and you are the man I wish to marry.
+        - id: ch03-b24
+          speaker: king
+          text: Then you shall be my son-in-law! The wedding celebrations have already begun, so you will marry my daughter today.
+          emotion: happy
+        - id: ch03-b25
+          speaker: narrator
+          text: That very day, the gardener's son married the beautiful Princess.
+    - id: ch04
+      title: The Sorcerer Steals the Ring
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Several months passed. The young husband and wife were as happy as the day was long. The King grew more pleased all the time with the son-in-law he had gained.
+        - id: ch04-b02
+          speaker: narrator
+          text: Then the captain of the golden ship had to make a long voyage. He embraced his wife tenderly and sailed away.
+        - id: ch04-b03
+          speaker: narrator
+          text: An old man lived on the outskirts of the capital. All his life, he had studied the black arts. He knew alchemy, astrology, magic, and enchantment. Through those studies, he learned the secret of the gardener's son. The young man had been able to marry the Princess because spirits obeyed his bronze ring and granted his wishes.
+        - id: ch04-b04
+          speaker: sorcerer
+          text: That ring will be mine.
+        - id: ch04-b05
+          speaker: narrator
+          text: The old man went down to the shore and caught several little red fish. They were wonderfully pretty. He carried them beneath the Princess's window and called up to the palace.
+        - id: ch04-b06
+          speaker: sorcerer
+          text: Who wants some pretty little red fish?
+        - id: ch04-b07
+          speaker: narrator
+          text: The Princess heard him and sent one of her servants outside.
+        - id: ch04-b08
+          speaker: slave
+          text: What price do you want for your fish?
+        - id: ch04-b09
+          speaker: sorcerer
+          text: A bronze ring.
+        - id: ch04-b10
+          speaker: slave
+          text: A bronze ring? You foolish old man, where would I find one?
+        - id: ch04-b11
+          speaker: sorcerer
+          text: Look beneath a cushion in the Princess's room.
+        - id: ch04-b12
+          speaker: narrator
+          text: The servant returned to her mistress.
+        - id: ch04-b13
+          speaker: slave
+          text: The old madman refuses gold and silver.
+        - id: ch04-b14
+          speaker: princess
+          text: Then what does he want?
+        - id: ch04-b15
+          speaker: slave
+          text: He wants a bronze ring hidden beneath a cushion.
+        - id: ch04-b16
+          speaker: princess
+          text: Find it and give it to him.
+        - id: ch04-b17
+          speaker: narrator
+          text: The servant went back into the Princess's room and searched beneath the cushions. At last she found the bronze ring. The captain of the golden ship had left it there by accident when he sailed away. Neither the servant nor the Princess knew its power. The servant carried it down to the peddler, took the red fish in exchange, and the old man hurried away with his prize.
+        - id: ch04-b18
+          speaker: narrator
+          text: The moment he reached his house, he raised the ring and commanded it.
+        - id: ch04-b19
+          speaker: sorcerer
+          text: Bronze ring, obey your master. Turn the golden ship into black wood. Make the crew into hideous men with dark skin. Send Saint Nicholas away from the helm, and replace the whole cargo with black cats.
+        - id: ch04-b20
+          speaker: narrator
+          text: The spirits of the bronze ring obeyed him.
+        - id: ch04-b21
+          speaker: narrator
+          text: Far out at sea, the young captain watched gold turn to black wood and precious stones become black cats. Saint Nicholas vanished from the helm, and his splendid sailors were changed before his eyes. He understood at once that someone must have stolen the bronze ring. He cried aloud over his misfortune, but all his lamenting did no good.
+        - id: ch04-b22
+          speaker: gardener_son
+          text: Alas, whoever took my ring has probably taken my dear wife too. What good can come from returning home now?
+          emotion: sad
+        - id: ch04-b23
+          speaker: narrator
+          text: He could not bring himself to sail home. Instead, he wandered from island to island and from shore to shore. Wherever the miserable black vessel appeared, he imagined that everyone who saw it was laughing at him. His supplies dwindled, and his poverty became desperate. Before long, he, his crew, and all the poor black cats had nothing to eat except the herbs and roots they could find.
+        - id: ch04-b24
+          speaker: narrator
+          text: After a long time, the ship reached an island inhabited by mice. The captain went ashore to explore. Mice were everywhere. There was nothing else to be seen.
+        - id: ch04-b25
+          speaker: narrator
+          text: Some of the black cats slipped off the ship and followed him onto the island. They had not been fed for several days and were fearfully hungry. The mice around them offered an easy meal. The cats sprang among them and caused terrible destruction wherever they went.
+        - id: ch04-b26
+          speaker: narrator
+          text: The queen of the mice called a council.
+        - id: ch04-b27
+          speaker: mouse_queen
+          text: These cats will eat every one of us unless the captain locks them up. We must send our bravest mice to speak with him.
+          emotion: fearful
+        - id: ch04-b28
+          speaker: narrator
+          text: Several mice volunteered for the mission. They found the young captain and made their plea.
+        - id: ch04-b29
+          speakers: [mouse_1, mouse_2]
+          ensemble: duo
+          text: Captain, leave our island quickly, or every mouse here will die.
+          emotion: fearful
+        - id: ch04-b30
+          speaker: gardener_son
+          text: I will leave on one condition. A clever magician stole a bronze ring from me. Bring it back. If you fail, I will set every cat from my ship loose on your island, and your people will be destroyed.
+        - id: ch04-b31
+          speaker: narrator
+          text: The mice returned in great fear.
+        - id: ch04-b32
+          speaker: mouse_queen
+          text: What can we do? How will we ever find this bronze ring?
+          emotion: fearful
+        - id: ch04-b33
+          speaker: narrator
+          text: The Queen called another council. This time, she summoned mice from every quarter of the world and asked each newcomer about the missing talisman. One after another, they gave the same answer. Not one of them had seen the bronze ring or knew where it was hidden.
+        - id: ch04-b34
+          speaker: narrator
+          text: Then three mice arrived from a faraway country. One was blind, one was lame, and the third had cropped ears.
+        - id: ch04-b35
+          speakers: [blind_mouse, lame_mouse, cropped_ears_mouse]
+          ensemble: chorus
+          text: Ho, ho, ho! We have come from a very distant land.
+        - id: ch04-b36
+          speaker: mouse_queen
+          text: Do you know where to find the bronze ring that the spirits obey?
+        - id: ch04-b37
+          speakers: [blind_mouse, lame_mouse, cropped_ears_mouse]
+          ensemble: chorus
+          text: Ho, ho, ho! We know. An old sorcerer owns it now. He carries it in his pocket by day and keeps it in his mouth at night.
+        - id: ch04-b38
+          speaker: mouse_queen
+          text: Then take it from him and return as quickly as you can.
+    - id: ch05
+      title: The Three Mice
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The three mice made a little boat for themselves and set sail for the magician's country. The journey carried them all the way to its capital. There they brought the boat ashore and ran toward the palace. Because one of them had to guard their only way home, the blind mouse remained by the water while her two companions went inside.
+        - id: ch05-b02
+          speaker: narrator
+          text: They waited until night. The wicked old man went to bed with the bronze ring tucked inside his mouth. Before long, he was asleep.
+        - id: ch05-b03
+          speaker: lame_mouse
+          text: What can we do now?
+        - id: ch05-b04
+          speaker: cropped_ears_mouse
+          text: We must find a way to make him open his mouth.
+        - id: ch05-b05
+          speaker: narrator
+          text: The mouse with cropped ears found a lamp filled with oil and a bottle filled with pepper. She dipped her tail into the oil, then into the pepper, and held it under the sorcerer's nose.
+        - id: ch05-b06
+          speaker: sorcerer
+          text: Atisha! Atisha!
+          emotion: surprised
+        - id: ch05-b07
+          speaker: narrator
+          text: The pepper made the old man sneeze, but even that did not wake him. The shock opened his mouth and sent the bronze ring jumping out onto the floor. The lame mouse moved as quickly as thought. She snatched up the precious talisman, and the two mice raced from the sleeping sorcerer's room and carried it safely back to the boat.
+        - id: ch05-b08
+          speaker: narrator
+          text: When the magician woke and found the bronze ring gone, he fell into despair. By then, the three mice had already put to sea with their prize.
+        - id: ch05-b09
+          speaker: narrator
+          text: A good wind carried them toward the island where the mouse queen waited. As they sailed, they began talking about the ring.
+        - id: ch05-b10
+          speakers: [blind_mouse, lame_mouse, cropped_ears_mouse]
+          ensemble: chorus
+          text: Which one of us deserves the most credit?
+        - id: ch05-b11
+          speaker: blind_mouse
+          text: I do. Without me guarding the boat, it might have drifted into the open sea.
+        - id: ch05-b12
+          speaker: cropped_ears_mouse
+          text: No, the credit belongs to me. I made the ring leap out of the man's mouth.
+        - id: ch05-b13
+          speaker: lame_mouse
+          text: It belongs to me. I was the one who grabbed the ring and carried it away.
+        - id: ch05-b14
+          speaker: narrator
+          text: Each mouse insisted that her own part had mattered most. Their proud claims grew into sharp words, and the sharp words soon became blows. While the quarrel was at its fiercest, no one kept proper watch over the prize they had all worked to recover. The bronze ring slipped from the boat and vanished into the sea.
+        - id: ch05-b15
+          speakers: [blind_mouse, lame_mouse, cropped_ears_mouse]
+          ensemble: chorus
+          text: How can we face our queen? Our foolishness has lost the talisman and condemned all our people. We cannot go home. Let us land on this deserted island and end our miserable lives there.
+          emotion: sad
+        - id: ch05-b16
+          speaker: narrator
+          text: They did exactly that. Their boat reached the island, and all three went ashore.
+        - id: ch05-b17
+          speaker: narrator
+          text: The lame mouse and the mouse with cropped ears soon left their blind sister behind and went looking for flies to eat. The blind mouse wandered sadly along the shore by herself. Before long she came upon a dead fish. She was eating it when her teeth struck something very hard inside. Startled by what she had found, she called loudly to her sisters.
+        - id: ch05-b18
+          speaker: narrator
+          text: The other two mice raced back to her.
+        - id: ch05-b19
+          speakers: [lame_mouse, cropped_ears_mouse]
+          ensemble: duo
+          text: It is the bronze ring! We have found the talisman!
+          emotion: happy
+        - id: ch05-b20
+          speaker: narrator
+          text: They climbed into their boat again and soon reached the island of mice. They arrived just in time. The captain was about to set his whole cargo of cats ashore when a deputation brought him the precious bronze ring.
+    - id: ch06
+      title: The Ring Restored
+      blocks:
+        - id: ch06-b01
+          speaker: gardener_son
+          text: Bronze ring, obey your master. Restore my ship to the way it was before.
+        - id: ch06-b02
+          speaker: narrator
+          text: The spirits of the ring went to work at once. The old black hull shone with gold again. Ragged cloth became sails of brocade, silver masts rose into place, and silken ropes ran between them. The crew became twelve handsome young men once more and hurried to their places. With the wonderful ship fully restored, they set sail for the capital.
+        - id: ch06-b03
+          speaker: narrator
+          text: How merrily the sailors sang as the golden ship flew over the glassy sea!
+        - id: ch06-b04
+          speaker: narrator
+          text: At last, they reached the port.
+        - id: ch06-b05
+          speaker: narrator
+          text: The captain ran to the palace and found the wicked old man asleep. The Princess wrapped her husband in a long embrace. The magician tried to flee, but he was caught and bound with strong ropes.
+        - id: ch06-b06
+          speaker: narrator
+          text: The next day, they tied the sorcerer to the tail of a savage mule loaded with nuts. By the end, he had been broken into as many pieces as there were nuts on the mule's back.

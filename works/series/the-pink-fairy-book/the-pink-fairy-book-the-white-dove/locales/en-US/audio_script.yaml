@@ -1,0 +1,294 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and gently dramatic
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    prince:
+      display_name: Prince
+      tts:
+        delivery: gentle, grateful, and reassuring
+        timbre: warm and noble
+        pace: measured
+        pitch: medium
+    princess:
+      display_name: Princess
+      tts:
+        delivery: proud, poised, and quick to impatience
+        timbre: bright and refined
+        pace: measured
+        pitch: medium-high
+    king:
+      display_name: King
+      tts:
+        delivery: commanding, eager, and quick to emotion
+        timbre: rich and resonant
+        pace: steady
+        pitch: medium-low
+    queen:
+      display_name: Queen
+      tts:
+        delivery: dignified, warm, and deeply feeling
+        timbre: rich and gentle
+        pace: measured
+        pitch: medium
+    elder_brother_1:
+      display_name: First Elder Brother
+      tts:
+        delivery: bold, impulsive, and quick to alarm
+        timbre: youthful and clear
+        pace: brisk
+        pitch: medium
+    elder_brother_2:
+      display_name: Second Elder Brother
+      tts:
+        delivery: restless, headstrong, and earnest under pressure
+        timbre: bright and youthful
+        pace: brisk
+        pitch: medium-high
+    witch:
+      display_name: Witch
+      tts:
+        delivery: sly, harsh, and fiercely commanding
+        timbre: dry and rasping
+        pace: deliberate
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Promise at Sea
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: A king once had two sons, and both were reckless young fellows who were always finding some foolish thing to do. One day they took a little boat and rowed out to sea alone. The weather was beautiful when they left, but once they were far from shore, a terrible storm rose around them.
+        - id: ch01-b02
+          speaker: narrator
+          text: Their oars flew overboard at once. The waves tossed the little boat about like a nutshell, and the princes had to cling to the seats to keep from being thrown into the sea.
+        - id: ch01-b03
+          speaker: narrator
+          text: In the middle of the storm, they came upon the strangest vessel. An old woman sat in a wooden dough-trough, rowing across the waves. She called out that she could bring them safely to shore, but only if they promised her the next son born to their mother, the queen.
+        - id: ch01-b04
+          speakers: [elder_brother_1, elder_brother_2]
+          ensemble: duo
+          text: We cannot promise you our brother! He does not belong to us, so we cannot give him away!
+        - id: ch01-b05
+          speaker: witch
+          text: Then you may both rot at the bottom of the sea. Perhaps your mother would rather keep the two sons she already has than the son she has not had yet.
+          emotion: angry
+        - id: ch01-b06
+          speaker: narrator
+          text: The old woman rowed away in her trough. The storm howled even louder, and water poured over the sides until the boat was close to sinking. The brothers began to think there might be truth in what she had said about their mother. More than anything, they wanted to live.
+        - id: ch01-b07
+          speakers: [elder_brother_1, elder_brother_2]
+          ensemble: duo
+          text: Come back! Save us, and you may have our brother!
+          emotion: fearful
+        - id: ch01-b08
+          speaker: narrator
+          text: The moment they made the promise, the storm stopped and the waves sank down. Their boat drifted ashore below their father's castle. The king and queen had been desperately worried, and they welcomed both sons with open arms.
+        - id: ch01-b09
+          speaker: narrator
+          text: The brothers said nothing about their promise, either then or later. They kept silent even when the queen's third son was born, a beautiful boy whom she loved more than anything in the world. He was raised and educated in his father's house until he was fully grown. Through all those years, his brothers neither saw nor heard anything of the witch to whom they had promised him before his birth.
+        - id: ch01-b10
+          speaker: narrator
+          text: Then one evening, a wild storm swept in with mist and darkness. Wind howled around the palace, and someone struck the door of the hall with a heavy knock. The youngest prince opened it. There stood an old woman with a dough-trough on her back. She told him he must leave with her at once, because his brothers had promised him to her in return for their lives.
+        - id: ch01-b11
+          speaker: prince
+          text: If you saved my brothers, and they truly promised me to you, then I will go.
+        - id: ch01-b12
+          speaker: narrator
+          text: Together they went down to the beach. The prince climbed into the trough beside the witch, and she carried him over the sea to her home.
+    - id: ch02
+      title: The White Dove's Help
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The prince now belonged to the witch and had to serve her. For his first task, she showed him a great heap of feathers.
+        - id: ch02-b02
+          speaker: witch
+          text: Pick every one of these feathers and have them all in order before I return this evening. If you fail, I will give you much harder work.
+        - id: ch02-b03
+          speaker: narrator
+          text: The prince began at once. Every feather passed through his hands except one. Just then a whirlwind tore through the room. It sent all his finished work flying, swept the feathers across the floor, and crushed them back into a tangled heap as though they had been trampled.
+        - id: ch02-b04
+          speaker: narrator
+          text: He had to start all over again. Evening was only an hour away, and he knew he could never finish before the witch returned. Then something tapped against the windowpane, and a thin voice spoke from outside.
+        - id: ch02-b05
+          speaker: princess
+          text: Let me come in, and I will help you.
+        - id: ch02-b06
+          speaker: narrator
+          text: A white dove was perched outside, pecking the glass with her beak. The prince opened the window, and she flew in. At once she began picking through the heap. Before the hour had passed, every feather lay neatly in place. The dove flew out through the window just as the witch entered by the door.
+        - id: ch02-b07
+          speaker: witch
+          text: Well, well. I never expected you to arrange those feathers so neatly. Still, I suppose a prince might have clever fingers.
+          emotion: surprised
+        - id: ch02-b08
+          speaker: narrator
+          text: The next morning, the witch gave him another task.
+        - id: ch02-b09
+          speaker: witch
+          text: Today your work will be easy. There is firewood outside the door. Split it into little sticks for kindling, and be sure it is finished before I come home.
+        - id: ch02-b10
+          speaker: narrator
+          text: The prince took a small axe and set to work at once. He split one piece after another and thought he was making good progress. But the day passed beyond noon, and he was still far from finished. No matter how much wood he carried from the pile, it seemed to grow larger instead of smaller.
+        - id: ch02-b11
+          speaker: narrator
+          text: At last he let his tired arms fall and wiped the sweat from his forehead. He was deeply troubled, for he knew the witch would treat him badly if the work was unfinished. Then the white dove flew down and settled on the woodpile.
+        - id: ch02-b12
+          speaker: princess
+          text: Would you like me to help you?
+        - id: ch02-b13
+          speaker: prince
+          text: Yes, please. Thank you for helping me yesterday, and for offering to help again today.
+        - id: ch02-b14
+          speaker: narrator
+          text: The little dove seized one piece of wood after another and split each one with her beak. She worked so quickly that the prince could hardly carry away the pieces in time. Soon the whole pile had become little sticks.
+        - id: ch02-b15
+          speaker: narrator
+          text: The dove flew onto his shoulder. The prince thanked her, stroked her soft white feathers, and kissed her little red beak. In that instant, she was no longer a dove. A beautiful young woman stood beside him.
+        - id: ch02-b16
+          speaker: princess
+          text: I am a princess. The witch stole me away and changed me into a dove. Your kiss has given me back my own shape. If you stay faithful to me and take me for your wife, I can free us both from her power.
+        - id: ch02-b17
+          speaker: narrator
+          text: The prince was completely taken with the beautiful princess. He was ready to do whatever he must to win her.
+        - id: ch02-b18
+          speaker: princess
+          text: When the witch comes home, ask her to grant you one wish because you have done everything she demanded. Once she agrees, ask plainly for the princess who flies about as a white dove. First, tie a red silk thread around my little finger. Then you will know me, no matter what shape she gives me.
+        - id: ch02-b19
+          speaker: narrator
+          text: The prince quickly tied the red thread around her little white finger. At once she became a dove and flew away. A moment later, the witch returned with the dough-trough on her back.
+    - id: ch03
+      title: The Princess in Disguise
+      blocks:
+        - id: ch03-b01
+          speaker: witch
+          text: I must admit, you are clever at your work. These are not tasks that princely hands are used to doing.
+        - id: ch03-b02
+          speaker: prince
+          text: Since my work has pleased you so much, perhaps you will please me in return and give me something I have set my heart on.
+        - id: ch03-b03
+          speaker: witch
+          text: Oh, certainly. What is it you want?
+        - id: ch03-b04
+          speaker: prince
+          text: I want the princess who lives here in the shape of a white dove.
+        - id: ch03-b05
+          speaker: witch
+          text: What nonsense! Why would you think princesses are flying around here as white doves? Still, if you insist on having a princess, you may choose one of the sort we keep here.
+        - id: ch03-b06
+          speaker: narrator
+          text: She dragged in a shaggy little gray ass with long ears.
+        - id: ch03-b07
+          speaker: witch
+          text: Will you take this one? You will get no other princess from me.
+        - id: ch03-b08
+          speaker: narrator
+          text: The prince looked carefully and saw the red silk thread tied around one of the ass's hoofs.
+        - id: ch03-b09
+          speaker: prince
+          text: Yes. Give her to me.
+        - id: ch03-b10
+          speaker: witch
+          text: And what could you possibly do with an ass?
+        - id: ch03-b11
+          speaker: prince
+          text: I can ride her.
+        - id: ch03-b12
+          speaker: narrator
+          text: The witch snatched the ass away. Then she returned with an old, wrinkled, toothless woman whose hands shook with age.
+        - id: ch03-b13
+          speaker: witch
+          text: This is the only other princess you may have. Do you choose her?
+        - id: ch03-b14
+          speaker: narrator
+          text: Again the prince saw the red thread, this time around the old woman's finger.
+        - id: ch03-b15
+          speaker: prince
+          text: Yes. I choose her.
+        - id: ch03-b16
+          speaker: narrator
+          text: The witch flew into such a rage that she danced around the room, smashing everything she could reach. Splinters flew past the prince and the princess, who now stood beside him in her own beautiful form.
+        - id: ch03-b17
+          speaker: narrator
+          text: The witch had promised him the princess, so she had no choice but to allow their marriage, whatever she planned to do afterward.
+        - id: ch03-b18
+          speaker: princess
+          text: At the wedding feast, you may eat anything you like. But do not drink a single drop. If you do, you will forget me.
+        - id: ch03-b19
+          speaker: narrator
+          text: On their wedding day, the prince forgot her warning. He reached out and took a cup of wine. The princess had been watching him closely, and she struck his arm with her elbow. The wine spilled across the tablecloth before he could drink it.
+        - id: ch03-b20
+          speaker: narrator
+          text: The witch sprang up and smashed the plates and dishes around her. Broken pieces flew about their ears, just as the splinters had when the prince first outwitted her.
+        - id: ch03-b21
+          speaker: narrator
+          text: Afterward, the prince and princess were taken to the bridal chamber, and the door was closed behind them.
+        - id: ch03-b22
+          speaker: princess
+          text: The witch has kept her promise, but she will do nothing more for us if she can prevent it. We must escape at once. I will place two pieces of wood in the bed to answer whenever she calls. Take the flowerpot and the glass of water from the window. Then we will climb out and flee.
+        - id: ch03-b23
+          speaker: narrator
+          text: They wasted no time. They slipped through the window and hurried into the dark night. The princess led the way, because she had learned the path while flying about as a dove.
+    - id: ch04
+      title: The Flight from the Witch
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: At midnight, the witch came to the chamber door and called to the newly married pair. The two pieces of wood answered her. Believing the prince and princess were still in bed, she went away.
+        - id: ch04-b02
+          speaker: narrator
+          text: Before daybreak she returned and called again. Again the wood answered in their place. She thought she still had them trapped. But when the sun rose, the bridal night was over. She had fulfilled her promise, and now she was free to take revenge.
+        - id: ch04-b03
+          speaker: narrator
+          text: At the first ray of sunlight, she burst into the room. There was no prince and no princess. Only two pieces of firewood lay in the bed, staring at her without a word. She hurled them onto the floor and broke them into a thousand splinters. Then she rushed away after the fugitives.
+        - id: ch04-b04
+          speaker: princess
+          text: Look behind us. Can you see anything following?
+        - id: ch04-b05
+          speaker: prince
+          text: Yes. There is a dark cloud far away.
+        - id: ch04-b06
+          speaker: princess
+          text: Throw the flowerpot over your head.
+        - id: ch04-b07
+          speaker: narrator
+          text: The prince threw it, and a vast, thick forest rose behind them. When the witch reached the trees, she could not pass through. She had to return home for her axe and cut herself a path.
+        - id: ch04-b08
+          speaker: narrator
+          text: A little while later, the princess asked him to look back once more.
+        - id: ch04-b09
+          speaker: princess
+          text: Do you see anything behind us now?
+        - id: ch04-b10
+          speaker: prince
+          text: Yes. The great black cloud is coming again.
+        - id: ch04-b11
+          speaker: princess
+          text: Then throw the glass of water over your head.
+        - id: ch04-b12
+          speaker: narrator
+          text: He did, and a great lake spread out behind them. The witch could not cross it. Once more she had to run home, this time to fetch her dough-trough.
+    - id: ch05
+      title: Home at Last
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Meanwhile, the prince and princess reached the castle where he had grown up. They climbed over the garden wall, raced across the garden, and slipped through an open window. By then, the witch was close behind them.
+        - id: ch05-b02
+          speaker: narrator
+          text: The princess stood at the window and blew toward the witch. Hundreds of white doves streamed from her mouth. They fluttered and beat their wings around the witch's head until her fury changed her into flint. She stands there to this day, a great flint stone outside the window.
+        - id: ch05-b03
+          speaker: narrator
+          text: Throughout the castle, there was great joy and rejoicing over the return of the prince and his bride. His two elder brothers came before him and fell to their knees. At last they confessed everything they had done. They told him of the storm, the witch in her dough-trough, and the promise that had placed him in her power.
+        - id: ch05-b04
+          speakers: [elder_brother_1, elder_brother_2]
+          ensemble: duo
+          text: You alone should inherit the kingdom. From this day on, we will always be your faithful subjects.
+        - id: ch05-b05
+          speaker: narrator
+          text: And so the youngest prince came home with the princess who had saved them both, while the brothers who had once given him away placed their loyalty in his hands.

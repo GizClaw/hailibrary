@@ -1,0 +1,175 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts: {delivery: 沉静从容，带着古老童话的机智与克制, timbre: 温暖清朗, pace: 舒缓而富有变化, pitch: 中音}
+    darning_needle:
+      display_name: 补衣针
+      tts: {delivery: 高傲自得，凡事都要替自己的体面辩解, timbre: 纤细明亮, pace: 稍快而讲究, pitch: 高音}
+    finger_1:
+      display_name: 手指甲
+      tts: {delivery: 干脆实在，不理会补衣针的虚荣, timbre: 厚实清晰, pace: 适中, pitch: 中低音}
+    finger_2:
+      display_name: 手指乙
+      tts: {delivery: 干脆实在，不理会补衣针的虚荣, timbre: 平稳清晰, pace: 适中, pitch: 中音}
+    finger_3:
+      display_name: 手指丙
+      tts: {delivery: 干脆实在，不理会补衣针的虚荣, timbre: 清亮利落, pace: 适中, pitch: 中高音}
+    bottle_glass:
+      display_name: 碎玻璃
+      tts: {delivery: 虚荣又一本正经，乐于相信奉承, timbre: 清脆透亮, pace: 舒缓, pitch: 中高音}
+    street_urchin_1:
+      display_name: 小淘气甲
+      tts: {delivery: 顽皮爽快，发现东西便脱口而出, timbre: 明亮稚嫩, pace: 稍快, pitch: 高音}
+    street_urchin_2:
+      display_name: 小淘气乙
+      tts: {delivery: 活泼好奇，玩耍时兴致勃勃, timbre: 清脆稚嫩, pace: 稍快, pitch: 高音}
+  chapters:
+    - id: ch01
+      title: 自命不凡的补衣针
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前有一枚补衣针，总觉得自己细得了不起，甚至把自己当成了绣花针。一天，手指们夹起她来干活。
+        - id: ch01-b02
+          speaker: darning_needle
+          text: 你们可得把我捏牢！千万别掉到地上，不然，我这么细，谁还找得到我呀？
+        - id: ch01-b03
+          speakers: [finger_1, finger_2, finger_3]
+          ensemble: chorus
+          text: 放心吧，我们捏得牢牢的！
+        - id: ch01-b04
+          speaker: darning_needle
+          text: 快看，我拖着长裙摆过来了！
+        - id: ch01-b05
+          speaker: narrator
+          text: 她身后牵着一根长线，真像拖着裙摆。可线尾根本没打结，针一走，线也只会跟着滑过去。手指们拿她去缝厨娘的鞋，因为鞋面的皮绽开了，非得重新合在一起不可。
+        - id: ch01-b06
+          speaker: darning_needle
+          text: 这种粗活怎么能让我来做？我穿不过去。我要断了，真的要断了！
+        - id: ch01-b07
+          speaker: narrator
+          text: 她果然断成了两截。
+        - id: ch01-b08
+          speaker: darning_needle
+          text: 看吧，我早就说过了。我实在太纤细！
+        - id: ch01-b09
+          speakers: [finger_1, finger_2, finger_3]
+          ensemble: chorus
+          text: 这下她可一点用处也没有了！
+        - id: ch01-b10
+          speaker: narrator
+          text: 可手指们还不能松开，仍要拦腰把她捏紧。厨娘拿来一点封蜡，滴在断针上做成针头，又把她别在自己的衣襟前。
+        - id: ch01-b11
+          speaker: darning_needle
+          text: 现在我成了胸针！我就知道自己一定会升上去。有身份的东西，迟早会出人头地！
+        - id: ch01-b12
+          speaker: narrator
+          text: 她暗暗笑了起来。当然，补衣针笑的时候，谁也看不见。接着，她挺直身子端坐起来，仿佛正坐在一辆皇家马车里。她神气地朝四周看了一圈，又打量起旁边的别针。
+        - id: ch01-b13
+          speaker: darning_needle
+          text: 请问，您是金子做的吗？您的模样不错，脑袋也很特别，就是小了些。您得努力让它长大，不是谁都能有我这样一颗封蜡脑袋呀。
+        - id: ch01-b14
+          speaker: narrator
+          text: 她越说越得意，身子也越挺越高。忽然，她从衣襟上掉了下来，一头栽进水槽。厨娘刚在那里冲过东西，水正要流进阴沟。
+        - id: ch01-b15
+          speaker: darning_needle
+          text: 好啦，我这就出门旅行。但愿可别把自己走丢了！
+        - id: ch01-b16
+          speaker: narrator
+          text: 可她真的走丢了，最后躺进了阴沟。
+    - id: ch02
+      title: 阴沟里的旅行
+      blocks:
+        - id: ch02-b01
+          speaker: darning_needle
+          text: 这个世界配不上我这样的纤细东西。不过，我还知道自己是谁，这多少也算一点安慰。
+        - id: ch02-b02
+          speaker: narrator
+          text: 补衣针仍旧摆着高傲的姿势，心情一点也没坏。她牢牢卡在阴沟底下。刨花、草秆和旧报纸的碎片，各式各样的东西都随着水流，从她上面漂过去。
+        - id: ch02-b03
+          speaker: darning_needle
+          text: 看它们漂得多起劲，却不知道下面还有谁！我可是牢牢扎在这里。那片刨花只想着自己，说到底不过是块木屑。那根草秆扭来转去，也太把自己当回事了，小心撞上石头！还有那片报纸，上面的字早没人记得，它倒照样神气。我安安静静待着，知道自己是谁，这就够啦。
+        - id: ch02-b04
+          speaker: narrator
+          text: 一天，一块厚厚的东西落到她身边，闪得十分耀眼。补衣针把它当成了钻石。其实那只是片碎玻璃，可既然它会发亮，她便开口攀谈，还说自己是一枚胸针。
+        - id: ch02-b05
+          speaker: darning_needle
+          text: 您一定是一颗钻石，对不对？
+        - id: ch02-b06
+          speaker: bottle_glass
+          text: 没错，我也算是那一类宝物吧！
+        - id: ch02-b07
+          speaker: narrator
+          text: 补衣针相信碎玻璃是钻石，碎玻璃也相信补衣针真是胸针。它们各自认定，对方必定贵重得不得了。两件自封的宝物便谈起了世人，还觉得世人准会为拥有它们而骄傲。
+        - id: ch02-b08
+          speaker: darning_needle
+          text: 我来自一位太太的针线匣。那位太太其实是个厨娘，每只手都有五根手指。我再没见过比它们更骄傲的东西！可它们的用处，无非是把我拿出针线匣，再把我放回去。
+        - id: ch02-b09
+          speaker: bottle_glass
+          text: 那么，那些手指出身一定很高贵吧？
+        - id: ch02-b10
+          speaker: darning_needle
+          text: 高贵？才不是，它们只是爱摆架子！五兄弟都叫手指，个头不同，却并排站得神气十足。最外边的大拇指又矮又胖，背上只有一处关节，只能鞠一次躬。不过他说，人少了他，就当不成有用的士兵。
+        - id: ch02-b11
+          speaker: darning_needle
+          text: 第二个叫样样都蘸，甜的酸的都要伸手，太阳月亮也要指，写字时还领着笔走。第三个长个子总越过肩头看别人。第四个金腰带围着一圈金子。最小的贪玩鬼什么也不干，反倒最骄傲。它们太爱炫耀，所以我就离开了。
+        - id: ch02-b12
+          speaker: bottle_glass
+          text: 如今我们坐在这儿，也一样闪闪发亮！
+    - id: ch03
+      title: 一道阳光的女儿
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 就在这时，更多的水涌进阴沟，漫过沟沿，把碎玻璃冲走了。
+        - id: ch03-b02
+          speaker: darning_needle
+          text: 啊，他这回可升上去了！我仍然留在这里，是因为我太纤细。没办法，这正是我的骄傲。一个人懂得骄傲，就说明她身家清白！
+        - id: ch03-b03
+          speaker: narrator
+          text: 她仍旧高傲地坐着，脑子里全是高贵的念头。
+        - id: ch03-b04
+          speaker: darning_needle
+          text: 我一定是一道阳光生下来的，要不然怎么会这么纤细？阳光总往水底照，准是在找我。可我细得连亲生母亲都认不出来！要是那只断掉的针眼还在，我大概会哭。可是我不能哭，哭可不体面。
+        - id: ch03-b05
+          speaker: narrator
+          text: 一天，两个街头小淘气趟进阴沟玩。他们弯着腰到处翻找，捡出旧钉子、铜板一类东西。这活儿虽然又脏又狼狈，他们却开心极了。其中一个孩子伸手时，碰到了补衣针。
+        - id: ch03-b06
+          speaker: street_urchin_1
+          text: 哎哟，她扎到我了！不过，这小子还真够细的！
+        - id: ch03-b07
+          speaker: darning_needle
+          text: 我不是小子，我是一位小姐！
+        - id: ch03-b08
+          speaker: narrator
+          text: 没有人听见她说话。她身上的封蜡早已脱落，整枚针都黑了。可她觉得黑色显瘦，于是认定自己比从前更加纤细。
+        - id: ch03-b09
+          speakers: [street_urchin_1, street_urchin_2]
+          ensemble: duo
+          text: 快看，一只蛋壳船漂过来了！
+        - id: ch03-b10
+          speaker: narrator
+          text: 两个孩子把补衣针插进了蛋壳。
+    - id: ch04
+      title: 蛋壳船
+      blocks:
+        - id: ch04-b01
+          speaker: darning_needle
+          text: 船舷雪白，我却乌黑，这样一衬多漂亮呀！现在谁都能看清我的好处了。只要我别晕船就行，不然准会没命！
+        - id: ch04-b02
+          speaker: narrator
+          text: 她并没有晕船，也没有觉得自己会没命呢。
+        - id: ch04-b03
+          speaker: darning_needle
+          text: 幸好我是钢做的，天生刚强，才不会晕船。这一点，人可比不上！现在难受劲儿已经过去了。东西越纤细，就越经得住折腾。
+        - id: ch04-b04
+          speaker: narrator
+          text: 一只车轮碾了过来，蛋壳咔嚓一声碎了。
+        - id: ch04-b05
+          speaker: darning_needle
+          text: 哎哟，压得真厉害！这回我可要晕船了，我要断了！
+        - id: ch04-b06
+          speaker: narrator
+          text: 车轮从她身上碾过，她却没有断。补衣针直挺挺地躺在那里——就让她一直躺着吧。

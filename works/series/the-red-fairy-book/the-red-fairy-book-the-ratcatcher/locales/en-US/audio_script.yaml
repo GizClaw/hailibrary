@@ -1,0 +1,325 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and storylike
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    ratcatcher:
+      display_name: Ratcatcher
+      tts:
+        delivery: confident and enigmatic
+        timbre: lean and resonant
+        pace: measured
+        pitch: medium-low
+    town_counsellor:
+      display_name: Town Counsellor
+      tts:
+        delivery: calculating and self-assured
+        timbre: polished and mature
+        pace: deliberate
+        pitch: medium-low
+    citizen_1:
+      display_name: First Citizen
+      tts:
+        delivery: wary and outspoken
+        timbre: sturdy and mature
+        pace: brisk
+        pitch: medium
+    citizen_2:
+      display_name: Second Citizen
+      tts:
+        delivery: practical and emphatic
+        timbre: clear and mature
+        pace: steady
+        pitch: medium
+    citizen_3:
+      display_name: Third Citizen
+      tts:
+        delivery: earnest and excitable
+        timbre: light and mature
+        pace: brisk
+        pitch: medium-high
+    citizen_4:
+      display_name: Fourth Citizen
+      tts:
+        delivery: blunt and forceful
+        timbre: rough and mature
+        pace: steady
+        pitch: low
+    blanchet:
+      display_name: Blanchet
+      tts:
+        delivery: old and matter-of-fact
+        timbre: thin and rasping
+        pace: slow
+        pitch: high
+    first_boy:
+      display_name: First Boy
+      tts:
+        delivery: tearful but clear
+        timbre: young and bright
+        pace: hesitant
+        pitch: high
+    second_boy:
+      display_name: Second Boy
+      tts:
+        delivery: shaken and direct
+        timbre: young and clear
+        pace: uneven
+        pitch: high
+    third_boy:
+      display_name: Third Boy
+      tts:
+        delivery: breathless and earnest
+        timbre: young and light
+        pace: quick
+        pitch: high
+    merchant_1:
+      display_name: First Bremen Merchant
+      tts:
+        delivery: assured and informative
+        timbre: seasoned and clear
+        pace: measured
+        pitch: medium-low
+    merchant_2:
+      display_name: Second Bremen Merchant
+      tts:
+        delivery: thoughtful and certain
+        timbre: warm and mature
+        pace: measured
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Rats and the Bargain
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: A very long time ago, the German town of Hamel was invaded by rats. No one had ever seen such creatures before, and no one would ever see their like again.
+        - id: ch01-b02
+          speaker: narrator
+          text: They were huge and black, and they ran boldly through the streets in broad daylight. They swarmed over every house until no one could set down a hand or foot without touching one. People woke to find rats in their breeches and petticoats, their pockets, and even their boots. Whenever anyone went looking for food, the hungry horde had already cleared out everything from cellar to attic.
+        - id: ch01-b03
+          speaker: narrator
+          text: Night was worse. As soon as the lights went out, the tireless nibblers began. They chased and rummaged through ceilings, floors, cupboards, and doorways. Their gnawing sounded like drills, pincers, and saws all at once. Even a deaf man could not have rested for a single hour.
+        - id: ch01-b04
+          speaker: narrator
+          text: Cats and dogs did no good. Neither did poison, traps, prayers, or candles burned to every saint. The more rats the townspeople killed, the more appeared. Hamel was sinking into ruin when, one Friday, a strange-faced man came into town playing the bagpipes and singing a refrain.
+        - id: ch01-b05
+          speaker: ratcatcher
+          text: Who lives shall see. Here he comes, the catcher of rats.
+        - id: ch01-b06
+          speaker: narrator
+          text: He was tall and gawky, lean and sun-browned. He had a crooked nose, a long moustache like a rat's tail, and two great yellow eyes that pierced and mocked. A scarlet cock's feather stood in his broad felt hat. He wore a green jacket, a leather belt, red breeches, and sandals tied around his legs in the gypsy fashion. That is how he can still be seen, painted on a window in Hamel Cathedral.
+        - id: ch01-b07
+          speaker: narrator
+          text: He stopped in the great marketplace before the town hall. With his back to the church, he kept playing and sang again.
+        - id: ch01-b08
+          speaker: ratcatcher
+          text: Who lives shall see. This is he, the ratcatcher.
+        - id: ch01-b09
+          speaker: narrator
+          text: At that very moment, the town council was meeting once more about this plague of Egypt. No one had found a way to save Hamel. The stranger sent in a message. If the council made the job worth his while, he would clear out every rat before nightfall, right down to the last one.
+        - id: ch01-b10
+          speakers: [citizen_1, citizen_2, citizen_3, citizen_4]
+          ensemble: chorus
+          text: Then he must be a sorcerer! We had better watch out for him!
+          emotion: fearful
+        - id: ch01-b11
+          speaker: narrator
+          text: But the Town Counsellor was thought to be a clever man, and he soothed their fears.
+        - id: ch01-b12
+          speaker: town_counsellor
+          text: Sorcerer or not, suppose he really can do it. Perhaps he sent this horrible vermin himself, only so he could charge us to remove it. Then we must catch the devil in his own trap. Leave everything to me.
+        - id: ch01-b13
+          speakers: [citizen_1, citizen_2, citizen_3, citizen_4]
+          ensemble: chorus
+          text: Yes, leave it to the Town Counsellor.
+        - id: ch01-b14
+          speaker: narrator
+          text: So they brought the stranger before the council.
+        - id: ch01-b15
+          speaker: ratcatcher
+          text: Before night comes, I will rid Hamel of every rat. You need only pay me one gros for each head.
+        - id: ch01-b16
+          speakers: [citizen_1, citizen_2, citizen_3, citizen_4]
+          ensemble: chorus
+          text: One gros for every head? That will cost millions of florins!
+          emotion: surprised
+        - id: ch01-b17
+          speaker: narrator
+          text: The Town Counsellor merely shrugged at the stranger.
+        - id: ch01-b18
+          speaker: town_counsellor
+          text: Agreed. Get to work. We will pay one gros for each rat, just as you ask.
+        - id: ch01-b19
+          speaker: narrator
+          text: The bagpiper said he would begin that evening when the moon rose. At that hour, everyone must stay out of the streets and watch from the windows. He promised them a fine sight. When the rest of Hamel heard about the bargain, the people also cried out that one gros per head would cost a great deal of money.
+        - id: ch01-b20
+          speakers: [citizen_1, citizen_2, citizen_3, citizen_4]
+          ensemble: chorus
+          text: Leave it to the Town Counsellor.
+        - id: ch01-b21
+          speaker: narrator
+          text: The council said it with sly smiles, and the good people of Hamel repeated the words after them.
+    - id: ch02
+      title: The Rats Follow the Music
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: At about nine that night, the bagpiper returned to the marketplace. Once again, he turned his back to the church. The instant the moon rose above the horizon, the bagpipes rang out. Trarira, trari!
+        - id: ch02-b02
+          speaker: narrator
+          text: At first the sound was slow and coaxing. Then it grew livelier and more urgent. It became so full and piercing that it reached the farthest alleys and the most hidden corners of the town.
+        - id: ch02-b03
+          speaker: narrator
+          text: The rats came pouring from the bottoms of cellars and the tops of attics. They crept from beneath furniture and out of every nook in every house. Each one found the door, flung itself into the street, and went trip, trip, trip toward the town hall. They ran in such a tight-packed stream that they covered the pavement like the waves of a river in flood.
+        - id: ch02-b04
+          speaker: narrator
+          text: When the square was full, the bagpiper turned around. Still playing briskly, he walked toward the river below the walls of Hamel. At the bank, he faced back. The rats were close behind him.
+        - id: ch02-b05
+          speaker: ratcatcher
+          text: Hop! Hop!
+        - id: ch02-b06
+          speaker: narrator
+          text: He pointed toward the middle of the stream, where the water spun and plunged as though it were draining through a funnel. Without a moment's hesitation, the rats leaped in. They swam straight for the whirlpool, dived headfirst, and vanished. The plunging went on and on until midnight.
+        - id: ch02-b07
+          speaker: narrator
+          text: At last, a great rat came dragging itself along with difficulty. Its fur was white with age. It stopped on the bank, and the bagpiper knew it as the king of the whole band.
+        - id: ch02-b08
+          speaker: ratcatcher
+          text: Friend Blanchet, are they all in?
+        - id: ch02-b09
+          speaker: blanchet
+          text: Every one of them.
+        - id: ch02-b10
+          speaker: ratcatcher
+          text: And what was their number?
+        - id: ch02-b11
+          speaker: blanchet
+          text: Nine hundred and ninety thousand, nine hundred and ninety-nine.
+        - id: ch02-b12
+          speaker: ratcatcher
+          text: You counted carefully?
+        - id: ch02-b13
+          speaker: blanchet
+          text: I counted carefully.
+        - id: ch02-b14
+          speaker: ratcatcher
+          text: Then join them, old sire. Until we meet again.
+        - id: ch02-b15
+          speaker: narrator
+          text: The old white rat sprang into the river, swam to the whirlpool, and disappeared. His work finished, the bagpiper went to bed at his inn. For the first time in three months, the people of Hamel slept quietly all through the night.
+    - id: ch03
+      title: The Price of a Promise
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: At nine the next morning, the bagpiper went to the town hall. The council was waiting for him.
+        - id: ch03-b02
+          speaker: ratcatcher
+          text: Yesterday, every one of your rats jumped into the river. I promise you, not one will return. There were nine hundred and ninety thousand, nine hundred and ninety-nine. At one gros a head, you may reckon what you owe me.
+        - id: ch03-b03
+          speaker: town_counsellor
+          text: First, let us count the heads. One gros for each head means each gros must have a head to match it. So where are the heads?
+        - id: ch03-b04
+          speaker: narrator
+          text: The ratcatcher had not expected such treachery. He went pale with anger, and his eyes flashed fire.
+        - id: ch03-b05
+          speaker: ratcatcher
+          text: The heads? If you want them so badly, go and fetch them from the river!
+          emotion: angry
+        - id: ch03-b06
+          speaker: town_counsellor
+          text: Then you refuse to keep the terms of our bargain. We could refuse to pay you anything at all. Still, you did help us, and we will not send you away without a reward.
+        - id: ch03-b07
+          speaker: narrator
+          text: He offered the ratcatcher fifty crowns.
+        - id: ch03-b08
+          speaker: ratcatcher
+          text: Keep your reward. If you will not pay me, your heirs will.
+          emotion: angry
+        - id: ch03-b09
+          speaker: narrator
+          text: He pulled his hat low over his eyes, strode out of the hall, and left Hamel without speaking to anyone.
+        - id: ch03-b10
+          speaker: narrator
+          text: When the townspeople heard how the meeting had ended, they rubbed their hands. They had no more scruples than their counsellor. They laughed because the ratcatcher, as they put it, had been caught in his own trap. Most of all, they laughed at his threat to collect from their heirs. If only all their creditors were like that, they said, they would be happy for the rest of their lives.
+    - id: ch04
+      title: The Children of Hamel
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The next day was Sunday. Everyone went cheerfully to church. They were already thinking of the good food they would eat after Mass, now that no rat could taste it before them.
+        - id: ch04-b02
+          speaker: narrator
+          text: They never imagined the terrible surprise waiting at home. Every child in Hamel had disappeared.
+        - id: ch04-b03
+          speakers: [citizen_1, citizen_2, citizen_3, citizen_4]
+          ensemble: chorus
+          text: Our children! Where are our poor children?
+          emotion: fearful
+        - id: ch04-b04
+          speaker: narrator
+          text: The cry soon filled every street. Then three little boys came through the eastern gate, crying and weeping. They told the townspeople what had happened.
+        - id: ch04-b05
+          speakers: [first_boy, second_boy, third_boy]
+          ensemble: chorus
+          text: While all the parents were at church, we heard wonderful music. Every little boy and girl who had stayed at home went outside. The magic sound drew us all to the great marketplace.
+          emotion: sad
+        - id: ch04-b06
+          speakers: [first_boy, second_boy, third_boy]
+          ensemble: chorus
+          text: The ratcatcher was there, playing his bagpipes in the same place as the night before. Then he started walking quickly. We all followed him, running, singing, and dancing to the music.
+          emotion: sad
+        - id: ch04-b07
+          speakers: [first_boy, second_boy, third_boy]
+          ensemble: chorus
+          text: He led us to the foot of the mountain you can see when you enter Hamel. As we came near, the mountain opened a little. The bagpiper went inside, and all the other children went with him. Then the mountain closed again.
+          emotion: sad
+        - id: ch04-b08
+          speaker: narrator
+          text: By what seemed a miracle, only those three boys had remained outside. The first was bandy-legged, and his legs could not carry him there in time.
+        - id: ch04-b09
+          speaker: narrator
+          text: The second boy had rushed from home with a shoe on one foot and the other foot bare. He struck the bare foot against a large stone and could only limp onward with difficulty.
+        - id: ch04-b10
+          speaker: narrator
+          text: The third boy did reach the mountain in time. But in his hurry to enter with the others, he ran hard into its wall. He fell backward just as it closed over his companions.
+        - id: ch04-b11
+          speaker: narrator
+          text: When the parents heard this, they cried harder than ever. Carrying pikes and mattocks, they ran to the mountain. Until evening they searched for the opening where their children had vanished, but they could not find it. Night came, and they returned to Hamel in despair.
+        - id: ch04-b12
+          speaker: narrator
+          text: No one was more wretched than the Town Counsellor. He had lost three little boys and two pretty little girls. To make his grief worse, the people of Hamel heaped blame upon him. They had forgotten that only the evening before, every one of them had agreed with him.
+        - id: ch04-b13
+          speaker: narrator
+          text: What had become of those unfortunate children? Their parents always hoped they had not died. Perhaps the ratcatcher had come out through the other side of the mountain and taken them home to his own country. For several years, searchers traveled through many lands. No one found a single trace of the poor children.
+    - id: ch05
+      title: News After Many Years
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: It was not until much later that anyone heard more. About a hundred and fifty years had passed. By then, not one of the fathers, mothers, brothers, or sisters from that day was still alive.
+        - id: ch05-b02
+          speaker: narrator
+          text: One evening, merchants from Bremen arrived in Hamel on their way home from the East. They asked to speak with the citizens. While crossing Hungary, they said, they had stayed in a mountainous land called Transylvania.
+        - id: ch05-b03
+          speaker: merchant_1
+          text: The people there speak only German, though everyone in the lands around them speaks Hungarian.
+        - id: ch05-b04
+          speaker: merchant_2
+          text: They say they came from Germany, but they have no idea how they reached that strange country.
+        - id: ch05-b05
+          speakers: [merchant_1, merchant_2]
+          ensemble: duo
+          text: Those Germans can only be the descendants of Hamel's lost children.
+        - id: ch05-b06
+          speaker: narrator
+          text: The people of Hamel had no doubt. From that day onward, they were certain that the Transylvanians of Hungary were their own countrymen, descended from the children whom the ratcatcher had led away.
+        - id: ch05-b07
+          speaker: narrator
+          text: There are more difficult things to believe than that.

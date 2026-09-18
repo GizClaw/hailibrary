@@ -1,0 +1,332 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 从容而清晰，带着古老童话的神秘感与淡淡讽刺
+        timbre: 温暖清亮
+        pace: 舒缓，险境与转折处略微加快
+        pitch: 中音
+    rogue:
+      display_name: 懒少年
+      tts:
+        delivery: 懒散油滑，撒谎时故作可怜，得意时大胆放肆
+        timbre: 年轻清亮
+        pace: 中速，装慌时断断续续
+        pitch: 中音
+    father:
+      display_name: 父亲
+      tts:
+        delivery: 朴实严厉，面对儿子的胡闹时忧惧又无奈
+        timbre: 苍老厚实
+        pace: 舒缓
+        pitch: 中低音
+    shepherd:
+      display_name: 牧羊人
+      tts:
+        delivery: 谨慎直率，带着乡野人的朴实
+        timbre: 清晰质朴
+        pace: 中速
+        pitch: 中音
+  chapters:
+    - id: ch01
+      title: 两百头猪
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，国王的宫殿附近有一间小屋，住着一对老夫妻和他们的儿子。那儿子懒得出奇，什么活儿都不肯干。家里只有一头牛，他也不愿照看，只让牛自己找吃的，他却躺在土坡上晒太阳、睡大觉。父亲忍了很久，总想着儿子再大一点，也许会懂事。可后来，他实在忍不下去了，便叫儿子离开家，到外面的世界碰碰运气。
+        - id: ch01-b02
+          speaker: narrator
+          text: 少年知道这次躲不过，只好背上一袋食物出发。他走了很久，来到一幢大房子前，上去敲了敲门。一位老人打开门，问他来做什么。
+        - id: ch01-b03
+          speaker: rogue
+          text: 我又懒又笨，父亲把我赶出了家门。现在我只想找个地方住一夜。
+        - id: ch01-b04
+          speaker: shepherd
+          text: 住一晚当然行。不过明天我会派活儿给你。你要知道，我是国王手下的牧人总管。
+        - id: ch01-b05
+          speaker: narrator
+          text: 少年没吭声。他暗暗想，要是最后还是逃不过干活，那还不如留在家里。可眼下除了这幢房子，他也找不到别处睡觉，只好慢吞吞地走进去。牧人的妻子和两个女儿正在吃晚饭，请他一起坐下。谁也没再提干活的事。饭后，大家便各自睡了。
+        - id: ch01-b06
+          speaker: narrator
+          text: 第二天早晨，少年刚穿好衣服，牧人便叫住了他。
+        - id: ch01-b07
+          speaker: shepherd
+          text: 听着，我来告诉你今天做什么。
+        - id: ch01-b08
+          speaker: rogue
+          text: 要我干什么？
+        - id: ch01-b09
+          speaker: shepherd
+          text: 没什么难的，替我看住两百头猪。
+        - id: ch01-b10
+          speaker: rogue
+          text: 哦，这种事我熟得很。
+        - id: ch01-b11
+          speaker: shepherd
+          text: 那就好。不过这回你可得认真干。
+        - id: ch01-b12
+          speaker: narrator
+          text: 牧人把他领到猪群吃食的地方，叫他将猪赶进山边的树林。少年照办了。可猪群刚到山脚，便像发了疯一样要往四下逃。幸好它们全冲进一道狭窄的山沟，少年很快把它们赶出来，直接赶回了父亲的小屋。
+        - id: ch01-b13
+          speaker: narrator
+          text: 他敲响昨天才离开的家门。老人一看见儿子身后那一大群猪，吃了一惊。
+        - id: ch01-b14
+          speaker: father
+          text: 这些猪是哪儿来的？你怎么把它们弄来了？
+          emotion: surprised
+        - id: ch01-b15
+          speaker: rogue
+          text: 是国王的牧人总管养的。他让我看着，可我知道自己管不住，就把猪直接赶到您这儿来了。这份好运可不能浪费，快把它们杀掉，挂起来吧。
+        - id: ch01-b16
+          speaker: father
+          text: 你说什么胡话？真这么做，咱们两个都要被处死！
+          emotion: fearful
+        - id: ch01-b17
+          speaker: rogue
+          text: 不会的，您照我说的办。我总能找到脱身的办法。
+        - id: ch01-b18
+          speaker: narrator
+          text: 最后，父亲还是依了他。两百头猪全被杀死，一头挨一头排好。少年割下所有猪尾巴，用绳子扎成一捆，背回猪群原本该吃食的地方。那里正好有一片小沼泽。他找来一块大石头，把绳子系在石头上沉进水里，再摆好每根尾巴，只让尾巴尖露出水面。
+        - id: ch01-b19
+          speaker: narrator
+          text: 安排妥当以后，他急匆匆跑回主人家，脸上装得万分悲痛。牧人一见他这副模样，就知道准是出了大事。
+        - id: ch01-b20
+          speaker: shepherd
+          text: 猪群呢？
+        - id: ch01-b21
+          speaker: rogue
+          text: 唉，别提了！我真不知道该怎么告诉您。它们一到田野就全疯了，一头一个方向地乱跑。我东奔西跑，刚抓住一头，另一头又逃了，简直叫人绝望。后来我总算把它们拢到一起，正想赶回来，它们却突然冲下山坡，跳进沼泽，一转眼全没了，只剩尾巴尖露在外面。您可以亲自去看。
+        - id: ch01-b22
+          speaker: shepherd
+          text: 你这个故事，编得倒挺像真的。
+        - id: ch01-b23
+          speaker: rogue
+          text: 我没编，这些都是真的。跟我来，我拿证据给您看。
+        - id: ch01-b24
+          speaker: narrator
+          text: 两人来到沼泽边，果然看见许多尾巴尖露在水面。牧人抓住最近的一根，用尽力气往外拉，可石头和绳索牢牢拴着所有尾巴，他怎么也拉不动。他叫少年来帮忙，两个人一同使劲，结果还是一样。
+        - id: ch01-b25
+          speaker: shepherd
+          text: 看来你果真没说假话。这事可真怪！不过不能怪你，这笔损失只好由我认下。走吧，咱们回去吃晚饭。
+    - id: ch02
+      title: 飞上天空的羊群
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 第二天早晨，牧人又给少年派了活儿。
+        - id: ch02-b02
+          speaker: shepherd
+          text: 今天你带一百只羊出去吃草。千万小心，别再让它们出岔子。
+        - id: ch02-b03
+          speaker: rogue
+          text: 我会尽力看好它们。
+        - id: ch02-b04
+          speaker: narrator
+          text: 少年打开羊圈，把关了一夜的羊赶到草地。没过多久，羊群也像猪群一样发起疯来，朝四面八方乱跑。他想尽办法也拢不住，不由得觉得，这准是自己从前懒得照看父亲家那头牛，如今遭了报应。
+        - id: ch02-b05
+          speaker: narrator
+          text: 后来羊群终于跑累了。少年抓住机会，将它们聚到一起，又径直赶回父亲家。
+        - id: ch02-b06
+          speaker: father
+          text: 这些羊是谁的？你把它们赶到这里做什么？
+          emotion: surprised
+        - id: ch02-b07
+          speaker: narrator
+          text: 儿子把事情从头到尾说了一遍。老人听完，摇了摇头。
+        - id: ch02-b08
+          speaker: father
+          text: 别再干坏事了。快把羊送回主人那里。
+        - id: ch02-b09
+          speaker: rogue
+          text: 不，不，我才没那么蠢！咱们把羊杀了，正好拿来做晚饭。
+        - id: ch02-b10
+          speaker: father
+          text: 你这样胡来，会把命送掉的。
+        - id: ch02-b11
+          speaker: rogue
+          text: 那可未必！不管怎样，这回我非照自己的心愿办不可。
+        - id: ch02-b12
+          speaker: narrator
+          text: 于是，少年不听父亲劝阻，杀光了羊群，把死羊一只只摆在草地上。领头的公羊双角上系着铃铛。他特意砍下公羊的脑袋，带回羊群原本该吃草的地方。那里有一块高高的岩石，中央长着一小片青草，边上还有两三丛茂密的灌木。少年费了很大力气爬上岩石，用绳子把公羊头绑在灌木上，只露出一对带铃铛的角尖。微风一吹，树枝轻轻摇动，铃铛便叮叮当当地响起来。
+        - id: ch02-b13
+          speaker: narrator
+          text: 眼看一切都合了心意，少年立刻赶回主人家。牧人见他气喘吁吁地跑上台阶，便问起羊群。
+        - id: ch02-b14
+          speaker: rogue
+          text: 哎呀，别提了。我自己能回来，简直都是个奇迹。
+        - id: ch02-b15
+          speaker: shepherd
+          text: 到底出了什么事？马上告诉我。
+          emotion: angry
+        - id: ch02-b16
+          speaker: narrator
+          text: 少年呜呜地哭起来，说话也变得结结巴巴。
+        - id: ch02-b17
+          speaker: rogue
+          text: 我……我不知道该怎么说！那些羊……实在太难管了。我一点办法也没有。它们朝四面八方乱跑，我跟在后面追，差点累死。后来，我听见一个声音，还以为那只是风。可是……原来是那些羊。它们就在我眼前，被卷到天上去了！我站在那里，整个人像石头一样动不了。只有领头公羊角上的铃声，一直在我耳边响。
+        - id: ch02-b18
+          speaker: shepherd
+          text: 你说的从头到尾都是谎话。
+        - id: ch02-b19
+          speaker: rogue
+          text: 不，这件事就跟天上有太阳一样真。
+        - id: ch02-b20
+          speaker: shepherd
+          text: 那你就把证据拿出来！
+          emotion: angry
+        - id: ch02-b21
+          speaker: rogue
+          text: 好，您跟我来。
+        - id: ch02-b22
+          speaker: narrator
+          text: 这时已到黄昏，暮色越来越深。少年把牧人领到高岩脚下，四周黑得几乎什么也看不清。可是岩石上方仍传来轻轻的铃声。牧人听得出来，那正是他系在领头公羊双角上的铃铛。
+        - id: ch02-b23
+          speaker: rogue
+          text: 您听见了吗？
+        - id: ch02-b24
+          speaker: shepherd
+          text: 听见了。看来你说的是真的。出了这种事，我也不能怪你。损失再大，我只好忍下来。
+        - id: ch02-b25
+          speaker: narrator
+          text: 牧人转身回家，少年跟在后面，为自己的聪明得意极了。
+    - id: ch03
+      title: 金角公牛
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 到了第二天早晨，牧人又开口了。
+        - id: ch03-b02
+          speaker: shepherd
+          text: 也许先前的活儿太难，你才会做腻。今天这件事容易些。你去照看四十头牛，千万要仔细。其中有一头公牛，角尖和蹄子都包着金子，国王把它当作最珍贵的宝物之一。
+        - id: ch03-b03
+          speaker: narrator
+          text: 少年把牛群赶到草地。牛一到那里，便和猪羊一样四处狂奔，那头珍贵的公牛跑得尤其凶。少年站着看了一会儿，不知该怎么办。忽然，他想起父亲家的牛就在不远处吃草。于是他立刻大喊大叫，吓得牛群转了方向，很容易便被他逼上了想走的路。听见那头母牛哞哞地叫，牛群跑得更快，不一会儿便全到了他父亲家。
+        - id: ch03-b04
+          speaker: narrator
+          text: 大群牛拐过路角，猛冲过来，少年和老人自家的牛跑在最前面。老人当时正站在小屋门口。
+        - id: ch03-b05
+          speaker: father
+          text: 这些牛是谁的？你为什么把它们赶来？
+        - id: ch03-b06
+          speaker: narrator
+          text: 儿子把来龙去脉告诉了父亲。
+        - id: ch03-b07
+          speaker: father
+          text: 快把牛送回主人那里。
+        - id: ch03-b08
+          speaker: narrator
+          text: 少年听了，只是哈哈大笑。
+        - id: ch03-b09
+          speaker: rogue
+          text: 不，不！这些牛是我送给您的礼物。吃了它们，准能让您长得又肥又胖！
+          emotion: happy
+        - id: ch03-b10
+          speaker: narrator
+          text: 老人很久都不肯帮着干这件坏事，可儿子一次又一次地劝，最后还是说服了他。两人像杀猪羊一样，把牛群也杀掉。到最后，只剩下那头角尖和蹄子包着金子的公牛，也就是国王最心爱的宝物。
+        - id: ch03-b11
+          speaker: narrator
+          text: 少年准备好绳索，想套住公牛的角，把它掀倒。可公牛比绳子结实得多，没几下便将绳索扯成碎段，朝树林飞奔而去。少年紧追不舍。一牛一人越过树篱和沟渠，一直跑到牧人领地边缘的岩石隘口。公牛以为安全了，停下来休息，少年这才追到近前。
+        - id: ch03-b12
+          speaker: narrator
+          text: 他不知道怎么捉住公牛，便把能找到的木柴全收集起来，在公牛四周点起一圈火。公牛已经睡着，直到火烧上脑袋才惊醒，可这时它再也逃不出去了。少年一直站在旁边看着，随后跑回了主人家。
+        - id: ch03-b13
+          speaker: shepherd
+          text: 你怎么去了这么久？牛群在哪儿？
+        - id: ch03-b14
+          speaker: narrator
+          text: 少年喘着粗气，装得连话也说不出来。过了好半天，他才开口。
+        - id: ch03-b15
+          speaker: rogue
+          text: 每回都是一样！牛群……没了……全没了！
+        - id: ch03-b16
+          speaker: shepherd
+          text: 没……没……没了？你这个混账，竟敢撒谎！
+          emotion: angry
+        - id: ch03-b17
+          speaker: rogue
+          text: 我说的句句都是真话。牛群一到草地就发疯似的乱跑，我根本拢不住。后来大公牛挣脱了，其他牛全跟着它，一起钻进地上的深洞，一眨眼就不见了。我好像还听见牛叫，其中也有金角公牛的声音。可等我赶到那里，洞里什么也看不见，什么也听不见，只有洞口周围留着一圈火烧过的痕迹。
+        - id: ch03-b18
+          speaker: shepherd
+          text: 你这个恶棍！就算前两次没撒谎，这回也一定在骗我。
+          emotion: angry
+        - id: ch03-b19
+          speaker: rogue
+          text: 没有，主人，我说的是真的。请您亲自去看看吧。
+        - id: ch03-b20
+          speaker: shepherd
+          text: 要是让我发现你骗我，你就别想活命。
+          emotion: angry
+        - id: ch03-b21
+          speaker: narrator
+          text: 两人一同出了门。到了岩石隘口，少年指着地面问牧人，那是什么。牧人低头一看，果然见到一圈烧焦的痕迹，仿佛火焰真是从地下喷出来的。
+        - id: ch03-b22
+          speaker: shepherd
+          text: 怪事怎么一件接着一件！原来这次你也没说假话。好吧，我不能责怪你。只是为了那头牛，我少不了要赔给国王一大笔钱。走，咱们回家。以后我再也不让你放牲口了，给你换一件更容易的活儿。
+    - id: ch04
+      title: 十把镰刀
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 回去的路上，牧人把自己想到的新活儿告诉少年。
+        - id: ch04-b02
+          speaker: shepherd
+          text: 这件事最适合你，简单得绝不会出错。给我做十把镰刀，每人一把。明天我要叫人去割一片草地。
+        - id: ch04-b03
+          speaker: narrator
+          text: 少年一听，心立刻沉了下去。他没学过打铁，也没学过木工。可他不敢拒绝，只好挤出一点笑容，点了点头。
+        - id: ch04-b04
+          speaker: narrator
+          text: 当晚，他愁眉苦脸地躺在床上，怎么也睡不着，脑子里全是那十把镰刀。先前那些心眼和伎俩，这次一点忙也帮不上。他翻来覆去，苦想了好几个钟头，最后发现只剩逃走这一条路。于是，他侧耳听了听，确定四周没有动静，便偷偷溜回父母家，把所有经过都告诉了他们。父母听完，将他藏在一个谁也找不到的地方。
+        - id: ch04-b05
+          speaker: narrator
+          text: 日子一天天过去。少年一直住在家里，父母叫他做什么，他便做什么，跟出门闯荡以前简直像换了一个人。
+    - id: ch05
+      title: 牧人的女婿
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 有一天，少年告诉父亲，他想娶妻成家，过自己的日子。
+        - id: ch05-b02
+          speaker: rogue
+          text: 我替国王的牧人总管做事时，见过他的小女儿。我已经打定主意，一定要想办法娶她。
+        - id: ch05-b03
+          speaker: father
+          text: 你要真敢这样做，只怕会丢了性命。
+        - id: ch05-b04
+          speaker: rogue
+          text: 那我也得尽力试一试。不过，请您先把床头挂着的那把剑给我。
+        - id: ch05-b05
+          speaker: narrator
+          text: 老人不明白儿子要拿剑做什么，还是取下来交给了他。少年带上剑，再一次出了门。
+        - id: ch05-b06
+          speaker: narrator
+          text: 天色很晚时，他来到牧人家门前，敲了敲门。一个小男孩开了门。
+        - id: ch05-b07
+          speaker: rogue
+          text: 我要见你家主人。
+        - id: ch05-b08
+          speaker: narrator
+          text: 小男孩进去传了话。牧人一听来人是他，便隔着门答应让他住下。
+        - id: ch05-b09
+          speaker: shepherd
+          text: 原来是你。好吧，你要愿意，今晚可以睡在这里。
+        - id: ch05-b10
+          speaker: narrator
+          text: 少年说自己不只是来找床睡。话音一落，他便拔出了剑。
+        - id: ch05-b11
+          speaker: rogue
+          text: 你要是不答应把小女儿嫁给我，我就用这把剑刺穿你的心。
+        - id: ch05-b12
+          speaker: narrator
+          text: 可怜的牧人没有别的办法，只好答应。他把小女儿叫来。姑娘看起来很乐意接受这门亲事，便把手交给了少年。
+        - id: ch05-b13
+          speaker: narrator
+          text: 少年回到父母家，叫他们准备迎接新娘。父母照着他的话做好了安排。婚礼办完以后，他才把猪群、羊群和牛群究竟是怎么回事，从头到尾全都告诉了岳父。
+        - id: ch05-b14
+          speaker: narrator
+          text: 后来，这个故事传进国王耳中。国王觉得，这样聪明的人正适合治理国家，便任命他做了大臣。从此以后，除了国王本人，全国再没有谁的地位比他更高。
+        - id: ch05-b15
+          speaker: narrator
+          text: 这个故事，选自《冰岛童话》。

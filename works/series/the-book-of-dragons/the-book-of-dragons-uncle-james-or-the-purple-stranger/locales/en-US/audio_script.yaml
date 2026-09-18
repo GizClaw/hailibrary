@@ -1,0 +1,454 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, playful, and story-rich
+        timbre: clear and rounded
+        pace: measured with lively turns
+        pitch: medium
+    tom:
+      display_name: Tom
+      tts:
+        delivery: clever, kind, and quietly confident
+        timbre: bright and youthful
+        pace: brisk
+        pitch: medium-high
+    princess_mary_ann:
+      display_name: Princess Mary Ann
+      tts:
+        delivery: sweet, sincere, and gently spirited
+        timbre: light and clear
+        pace: medium
+        pitch: high
+    nurse:
+      display_name: Nurse
+      tts:
+        delivery: practical, affectionate, and firm
+        timbre: warm and sturdy
+        pace: steady
+        pitch: medium-low
+    center_of_gravity:
+      display_name: Center of Gravity
+      tts:
+        delivery: gruff, commanding, and sleepy
+        timbre: deep and rumbling
+        pace: slow
+        pitch: low
+    uncle_james:
+      display_name: Uncle James
+      tts:
+        delivery: smooth, grand, and falsely tender
+        timbre: polished and dark
+        pace: deliberate
+        pitch: medium-low
+    citizen_1:
+      display_name: First Citizen
+      tts:
+        delivery: earnest and easily persuaded
+        timbre: clear and full
+        pace: medium
+        pitch: medium
+    citizen_2:
+      display_name: Second Citizen
+      tts:
+        delivery: hearty and emphatic
+        timbre: crisp and grounded
+        pace: medium
+        pitch: medium-low
+    citizen_3:
+      display_name: Third Citizen
+      tts:
+        delivery: excitable and outspoken
+        timbre: light and resonant
+        pace: brisk
+        pitch: medium-high
+  chapters:
+  - id: ch01
+    title: II. Uncle James, or The Purple Stranger
+    blocks:
+    - id: ch01-b01
+      speaker: narrator
+      text: The Princess and the gardener's boy were playing in the backyard when Tom asked what she meant to do when she grew up.
+    - id: ch01-b02
+      speaker: tom
+      text: What will you do when you grow up, Princess?
+    - id: ch01-b03
+      speaker: princess_mary_ann
+      text: I think I would like to marry you, Tom. Would you mind?
+    - id: ch01-b04
+      speaker: tom
+      text: No, I would not mind much. I will marry you if you like, as long as I have time.
+    - id: ch01-b05
+      speaker: narrator
+      text: Tom expected to be very busy when he grew up. He planned to become a general, a poet, a Prime Minister, an admiral, and a civil engineer. For now, he stood at the top of every class at school, especially geography.
+    - id: ch01-b06
+      speaker: narrator
+      text: Princess Mary Ann was a very good little girl, and everyone loved her. She stayed kind and polite even with Uncle James and the other people she did not much like. She was not unusually clever for a Princess, but she always tried to do her lessons. That is worth doing even when you know perfectly well you cannot manage them. If you keep trying, you may discover by some lucky accident that the lessons really are done after all.
+    - id: ch01-b07
+      speaker: narrator
+      text: Mary Ann was kind to all her pets too. She never slapped her hippopotamus when it broke her dolls while playing. She never forgot the rhinoceroses in their little backyard hutch. Her elephant adored her. Sometimes she smuggled the dear little creature into bed, though it made Nurse quite cross. It slept with its long trunk across her throat and its pretty head tucked beneath the Royal right ear.
+    - id: ch01-b08
+      speaker: narrator
+      text: When Mary Ann had behaved well all week, Nurse let her invite her little friends early on Wednesday morning and keep them for the day. Wednesday was the end of the week in that country. Like every real, lively, pleasant child, Mary Ann was naughty sometimes, but she was never bad. In the afternoon, the little dukes, duchesses, marquises, and countesses ate their rice pudding. Once all their sticky hands and faces had been washed, Nurse always asked the same question, though she knew exactly what they would say.
+    - id: ch01-b09
+      speaker: nurse
+      text: Now, my dears, what would you like to do this afternoon?
+    - id: ch01-b10
+      speakers: [citizen_1, citizen_2, citizen_3]
+      ensemble: chorus
+      text: Let us go to the Zoological Gardens! We can ride the big guinea pig, feed the rabbits, and listen to the dormouse sleeping!
+      emotion: happy
+    - id: ch01-b11
+      speaker: narrator
+      text: Off came their pinafores, and away they all went to the Zoological Gardens. The guinea pig was so enormous that twenty children could ride on its back at the same time. Even the smallest visitors could feed the great rabbits, provided a kind grown-up lifted them high enough to reach. There was always someone willing to help with that, because everybody in Rotundia was kind. Everybody, that is, except one person.
+    - id: ch01-b12
+      speaker: narrator
+      text: By now, you may already have guessed the strangest thing about Rotundia. A thoughtful child surely has, and of course you are thoughtful. Still, it is just possible that you have not guessed, so I will tell you at once. All the animals were the wrong sizes. Long, long ago, earth, air, fire, and water were mixed together like pudding. Everything spun madly while each part tried to find its proper place. Then a round piece of earth broke free and whirled away across water that was only beginning to spread itself smooth into a proper sea.
+    - id: ch01-b13
+      speaker: narrator
+      text: Somewhere else in that pudding-like mixture, a long, hard point of rock had broken loose too. The rock was moving terribly fast when it met the flying earth. Its sharp end pierced straight through the round piece and stuck out on the other side. The two pieces kept turning together. They looked exactly like a spinning top, except that this top was far, far too large for anyone to play with. I am afraid this may sound rather dull. Geography is never quite lively, but even a fairy tale needs a little information now and then, like powder hidden in jam.
+    - id: ch01-b14
+      speaker: narrator
+      text: The crash sent the rock and earth spinning through the air together. In all the confusion, they forgot which way they had been turning and began to spin the wrong way. Then Center of Gravity, the great giant in charge of the whole affair, woke inside the earth and grumbled.
+    - id: ch01-b15
+      speaker: center_of_gravity
+      text: Hurry up! Come down and lie still, can't you?
+    - id: ch01-b16
+      speaker: narrator
+      text: The rock and its round piece of earth dropped into the sea. The point fitted into a hole in the stony bottom, spun the wrong way seven times, and stopped. Millions of years later, that round land became the Kingdom of Rotundia.
+    - id: ch01-b17
+      speaker: narrator
+      text: That ends the geography lesson. Now comes just enough natural history to keep us from feeling that we have wasted our time. Because the island had turned the wrong way, every animal born there grew to the wrong size. The guinea pig was as large as one of our elephants. The dear little elephant was no bigger than one of those silly, tiny black-and-tan lapdogs that ladies sometimes carry in their muffs. Rabbits grew as large as our rhinoceroses, and throughout the wild parts of the island they dug burrows as wide as railway tunnels.
+    - id: ch01-b18
+      speaker: narrator
+      text: The dormouse was larger than any other creature on the island. I cannot tell you how large he was. Even thinking of the biggest elephants will not help you imagine him. Luckily for the Rotundians, there was only one dormouse, and he stayed asleep. Otherwise, they could hardly have put up with him. They built him a house, and his thunderous sleep-talking saved the expense of keeping a brass band. No band could possibly have been heard while the dormouse was talking in his sleep.
+    - id: ch01-b19
+      speaker: narrator
+      text: The men, women, and children stayed the proper size. Their ancestors arrived with the Conqueror long after the island had stopped spinning and its animals had grown. So ends the natural history lesson. If you have paid attention, you now know more about Rotundia than nearly anyone who lived there. Only three people knew as much. They were the Lord Chief Schoolmaster, the Princess's uncle, who was a magician and knew everything without learning it, and Tom, the gardener's son.
+    - id: ch01-b20
+      speaker: narrator
+      text: Tom had learned more at school than anyone else because he meant to win a prize. The Lord Chief Schoolmaster was offering a beautifully bound History of Rotundia, with the Royal arms stamped upon it. But after Mary Ann said she wanted to marry him, Tom thought the matter over. He decided that the finest prize in the world was the Princess herself, and that was the prize he truly meant to win. When you are a gardener's son who has decided to marry a Princess, you will find that the more you learn at school, the better.
+    - id: ch01-b21
+      speaker: narrator
+      text: Mary Ann played with Tom whenever the little dukes and marquises were not visiting. One day he told her he felt almost certain of winning first prize. She clapped her hands.
+    - id: ch01-b22
+      speaker: princess_mary_ann
+      text: Dear, good, clever Tom! You deserve every prize. I will give you my pet elephant too, and you may keep him until we are married.
+      emotion: happy
+    - id: ch01-b23
+      speaker: narrator
+      text: The elephant's name was Fido. Tom carried him away in his coat pocket. He was only six inches long, but he could not have been wiser if he had measured a mile. Fido settled comfortably in the pocket and curled his trunk around Tom's fingers with such loving trust that Tom's heart warmed to him at once.
+    - id: ch01-b24
+      speaker: narrator
+      text: Between Fido, the Princess's love, and the History of Rotundia he expected to receive the next day, Tom could hardly sleep a wink. The kingdom's only dog made sleep harder still. Rotundia simply could not afford to keep another one. He was a Mexican lapdog, the sort that in most countries measures only seven inches from the end of its dear nose to the tip of its darling tail. In Rotundia, of course, that little breed had grown bigger than I can possibly expect you to believe.
+    - id: ch01-b25
+      speaker: narrator
+      text: When that dog barked, the sound filled the whole night. It left no room for sleep or dreams or polite conversation, or anything else at all. He never bothered to bark at things happening on the island. He was too broad-minded for that. But when ships came blundering through the darkness and tumbled over the rocks at the far end of Rotundia, he barked once or twice. That was his way of warning the ships that they could not come playing around the island whenever they pleased.
+    - id: ch01-b26
+      speaker: narrator
+      text: That night he barked without stopping. The Princess lay awake listening.
+    - id: ch01-b27
+      speaker: princess_mary_ann
+      text: Oh dear, I wish he would stop. I am so sleepy.
+    - id: ch01-b28
+      speaker: narrator
+      text: Tom wondered what could be wrong and promised himself he would go and look at first light.
+    - id: ch01-b29
+      speaker: tom
+      text: As soon as it is light, I will find out what is troubling him.
+    - id: ch01-b30
+      speaker: narrator
+      text: At the first pink-and-yellow hint of morning, Tom got up. The lapdog barked so powerfully that houses shook and the palace roof tiles rattled like milk cans in a cart behind a frisky horse. Tom set off through town for the pillar at the island's center. It was the top of the ancient rock that had pierced Rotundia and made it spin backward. From its great height, a person could see very far indeed.
+    - id: ch01-b31
+      speaker: narrator
+      text: Crossing the downs, Tom admired the giant rabbits frisking with their young beside their burrows in the bright, dewy morning. He did not go near them. A rabbit that size does not always watch where it lands when it is playing. One might easily crush Tom beneath its foot and feel terribly sorry afterward. Tom was too kind to make even a rabbit unhappy. Earwigs in our own country often hurry aside when they think you may step on them. They have kind hearts too, and would not want you to feel sorry afterward.
+    - id: ch01-b32
+      speaker: narrator
+      text: Morning grew redder and more golden as Tom walked. The dog's barking made church bells tinkle and rocked the apple factory chimney. When Tom reached the pillar, he saw there was no need to climb it. The reason for all that barking lay on the ground before him.
+    - id: ch01-b33
+      speaker: narrator
+      text: A very large purple dragon lay beside the pillar. Its wings looked like old purple umbrellas that had stood through far too much rain. Its great head was bald and rounded, like the top of a purple toadstool. Its tail was purple as well. It stretched on and on behind the creature, very long, very thin, and pulled tight like the lash of a carriage whip.
+    - id: ch01-b34
+      speaker: narrator
+      text: The dragon licked one umbrella-like wing. Every so often it moaned and rested its head against the rock as if it might faint. Tom understood. A flight of purple dragons must have crossed Rotundia in the night, and this one had struck the pillar and broken its wing.
+    - id: ch01-b35
+      speaker: narrator
+      text: Since everyone in Rotundia was kind to everyone else, Tom was not afraid of the dragon. He had never spoken to one before. Of course, he had often stood and watched flights of dragons passing across the sea, but he had never dreamed he would get to know one personally. Now that he had the chance, he spoke as politely as he could.
+    - id: ch01-b36
+      speaker: tom
+      text: I am afraid you are not feeling very well.
+    - id: ch01-b37
+      speaker: narrator
+      text: The dragon shook its great purple head. It could not speak, though like every animal it understood perfectly well when it chose to.
+    - id: ch01-b38
+      speaker: tom
+      text: May I bring you something?
+    - id: ch01-b39
+      speaker: narrator
+      text: The dragon opened its purple eyes and gave him a questioning smile.
+    - id: ch01-b40
+      speaker: tom
+      text: How about a bun or two? There is a beautiful bun tree nearby.
+    - id: ch01-b41
+      speaker: narrator
+      text: A huge purple mouth opened, and the dragon licked its lips. Tom ran to shake the bun tree. Soon he returned with an armful of fresh currant buns, along with several Bath buns from the low bushes beside the pillar.
+    - id: ch01-b42
+      speaker: narrator
+      text: Rotundia's backward turning had mixed up food as well as animals. Things we must bake, such as buns, cakes, and shortbread, grew on trees and bushes there. Things we grow, such as cabbages, carrots, apples, onions, and cauliflowers, had to be made by cooks like puddings and turnovers.
+    - id: ch01-b43
+      speaker: tom
+      text: Here, eat a little. You will soon feel better.
+    - id: ch01-b44
+      speaker: narrator
+      text: The dragon swallowed every bun, gave Tom a rather ungracious nod, and went back to licking its injured wing. Tom left it there and returned to town with the news. A real, living dragon had never landed on Rotundia before. Everyone became so excited that they rushed out to stare at it instead of attending the prize-giving. Not one of them wished to miss such an extraordinary sight.
+    - id: ch01-b45
+      speaker: narrator
+      text: The Lord Chief Schoolmaster went along with the rest of the crowd. Tom's prize was still in his pocket, the calf-bound History of Rotundia with the Royal arms upon its cover. Somehow the beautiful book slipped out. Before anyone could save it, the dragon swallowed it. That is why Tom never received his first prize after all. The dragon did get the book, but once it had eaten it, the creature found that it did not like the prize either.
+    - id: ch01-b46
+      speaker: tom
+      text: Perhaps that is for the best. I might not have enjoyed the prize either.
+    - id: ch01-b47
+      speaker: narrator
+      text: Since it was Wednesday, Nurse asked the Princess's visiting friends what they wanted to do. The little dukes, marquises, and earls wanted to see the dragon. The little duchesses, marchionesses, and countesses were afraid.
+    - id: ch01-b48
+      speakers: [citizen_1, citizen_2, citizen_3]
+      ensemble: chorus
+      text: Let us go and see the dragon!
+      emotion: happy
+    - id: ch01-b49
+      speaker: princess_mary_ann
+      text: Do not be silly. People are cruel and hurt one another only in fairy stories and English histories and things like that. Everyone in Rotundia is kind. No one needs to be afraid unless they have been naughty, and then whatever happens is for their own good. We will all visit the dragon and take it some acid drops.
+    - id: ch01-b50
+      speaker: narrator
+      text: So they went. Each of the titled children took a turn feeding acid drops to the dragon. The creature seemed both pleased and flattered by all this attention. It wagged as much of its purple tail as it could conveniently manage, though reaching the whole thing was difficult because that tail was very, very long indeed.
+    - id: ch01-b51
+      speaker: narrator
+      text: When Mary Ann offered her sweet, the dragon smiled very broadly and wagged every last inch of its tail. It seemed to be thanking the kind, pretty Princess. Deep inside its wicked purple heart, however, it was thinking that the nice, fat Princess would taste better than silly acid drops.
+    - id: ch01-b52
+      speaker: narrator
+      text: Nobody heard that thought except Uncle James. He was a magician, and listening at doors was part of his trade. You may remember that Rotundia had one wicked person. That Complete Bad was Princess Mary Ann's Uncle James.
+    - id: ch01-b53
+      speaker: narrator
+      text: Fairy books tell us that magicians are bad. Other tales tell us that some uncles are bad, and English history gives us at least one bad James. A man who is a magician, an uncle, and a James all at once is a Threefold Complete Bad. You should expect nothing pleasant from him, and no pleasant end for him either.
+    - id: ch01-b54
+      speaker: narrator
+      text: Uncle James had wanted to get rid of the Princess for a long time so he could keep the kingdom for himself. There were not many things he liked. In fact, a nice kingdom was almost the only thing he cared for. Until now, he had never seen a clear way to take it. Everyone in Rotundia was so kind and blameless that wicked spells would not work upon them. Any evil magic he tried simply ran off those islanders like water rolling from a duck's back.
+    - id: ch01-b55
+      speaker: narrator
+      text: Now Uncle James saw his chance. Two wicked creatures lived on the island, and they could help each other. He said nothing. He only exchanged a meaningful look with the dragon before everyone went home to tea. Nobody noticed the look except Tom.
+    - id: ch01-b56
+      speaker: narrator
+      text: At home, Tom told Fido everything he had seen. The wise little elephant listened with great care. Then he climbed from Tom's knee onto the table. An ornamental calendar stood there, a Christmas present from the Princess. Fido walked up to it and used his tiny trunk to point out one particular date. It was the fifteenth of August, Mary Ann's birthday. Then he turned and looked anxiously at his master.
+    - id: ch01-b57
+      speaker: tom
+      text: What is it, Fido? What are you trying to tell me?
+    - id: ch01-b58
+      speaker: narrator
+      text: Fido pointed to the same date again. This time Tom understood.
+    - id: ch01-b59
+      speaker: tom
+      text: Something will happen on her birthday. Very well. I will watch for it.
+    - id: ch01-b60
+      speaker: narrator
+      text: And he did. At first, the people of Rotundia were pleased to have the dragon living by the pillar and feeding itself from the bun trees. After a while, however, it began to wander across the island. It crept into the tunnels dug by the great rabbits. People enjoying an outing on the downs would glimpse its long, tight, whiplike tail wriggling down one burrow and out of sight. Before they had time to say where it had gone, the ugly purple head would poke from another rabbit hole, perhaps just behind them, or laugh softly beside their ears.
+    - id: ch01-b61
+      speaker: narrator
+      text: The dragon's laugh was not merry. Its hide-and-seek seemed amusing at first, but soon it wore on everyone's nerves. If you do not know what that means, ask Mother while you are playing blind man's buff and she has a headache. Then the dragon began cracking its tail like a whip, which troubled their nerves even more.
+    - id: ch01-b62
+      speaker: narrator
+      text: Then small things began disappearing. You know how unpleasant that can be even in a private school. In a public kingdom, of course, it is much worse. At first, nobody lost anything very important. Only a few little elephants vanished, along with one or two hippopotamuses, several giraffes, and other things of that sort. It did not seem like much, but it was quite enough to make everyone uncomfortable.
+    - id: ch01-b63
+      speaker: narrator
+      text: Then Frederick, the Princess's favorite rabbit, vanished. One terrible morning the Mexican lapdog disappeared too. He had barked ever since the dragon arrived, and everyone had learned to sleep through the noise. When the barking suddenly stopped, the silence woke them all. They hurried outside, and the dog was gone.
+    - id: ch01-b64
+      speaker: narrator
+      text: A boy was sent to wake the army and order a search. The army had vanished as well. At last the people became frightened. Uncle James stepped onto the palace terrace and addressed them.
+    - id: ch01-b65
+      speaker: uncle_james
+      text: Friends and fellow citizens, I cannot hide the truth from you or from myself. This purple dragon is a poor exile without a penny, a helpless stranger among us. Besides, he is a most enormous dragon.
+    - id: ch01-b66
+      speaker: narrator
+      text: The crowd remembered the dragon's endless tail.
+    - id: ch01-b67
+      speakers: [citizen_1, citizen_2, citizen_3]
+      ensemble: chorus
+      text: Hear, hear!
+    - id: ch01-b68
+      speaker: uncle_james
+      text: Something has happened to one gentle, defenseless member of our community. We cannot say what.
+    - id: ch01-b69
+      speaker: narrator
+      text: Everyone thought of Frederick and groaned.
+    - id: ch01-b70
+      speaker: uncle_james
+      text: Our country's defenses have been swallowed up.
+    - id: ch01-b71
+      speaker: narrator
+      text: Everyone thought of the poor army.
+    - id: ch01-b72
+      speaker: uncle_james
+      text: We have only one choice. Suppose we fail to take one simple precaution and lose more rabbits. We might even lose our navy, police, and fire brigade. I warn you, this dragon will respect nothing, no matter how sacred.
+    - id: ch01-b73
+      speaker: narrator
+      text: Everyone thought about what might happen to them.
+    - id: ch01-b74
+      speakers: [citizen_1, citizen_2, citizen_3]
+      ensemble: chorus
+      text: What is the simple precaution?
+    - id: ch01-b75
+      speaker: uncle_james
+      text: Tomorrow is the dragon's birthday. He always receives a present. Give him something nice, and he will hurry away to show his friends. Then he will fly off and never return.
+    - id: ch01-b76
+      speaker: narrator
+      text: The crowd cheered this clever answer wildly. Up on her palace balcony, the Princess heard it and clapped her hands with everyone else.
+    - id: ch01-b77
+      speaker: uncle_james
+      text: The present he expects is rather costly. Still, gifts to visitors should never be grudging. The dragon wants a Princess. We have only one, but we must not be miserly now. A gift that costs nothing is worthless. Giving up your Princess will prove how generous you are.
+    - id: ch01-b78
+      speaker: narrator
+      text: The people began to cry. They loved their Princess dearly. Still, they quite understood Uncle James's argument that generosity was their first duty and that the poor dragon must receive what it wanted. Mary Ann began to cry as well. She did not want to become anyone's birthday present, and she especially did not want to become a purple dragon's. Tom cried too, though his tears came from anger rather than fear.
+    - id: ch01-b79
+      speaker: narrator
+      text: Tom hurried home and told Fido. The little elephant cheered him so well that before long they were both absorbed in a top that Fido spun with his trunk.
+    - id: ch01-b80
+      speaker: narrator
+      text: Early the next morning, Tom went to the palace. Almost no rabbits played on the downs now. He gathered white roses and tossed them against the Princess's window until she woke and looked out.
+    - id: ch01-b81
+      speaker: princess_mary_ann
+      text: Climb up and kiss me.
+    - id: ch01-b82
+      speaker: narrator
+      text: Tom climbed the white rosebush and kissed her through the window.
+    - id: ch01-b83
+      speaker: tom
+      text: Many happy returns on your birthday.
+    - id: ch01-b84
+      speaker: narrator
+      text: Mary Ann burst into tears.
+    - id: ch01-b85
+      speaker: princess_mary_ann
+      text: Oh, Tom, how can you say that when you know what is going to happen?
+      emotion: sad
+    - id: ch01-b86
+      speaker: tom
+      text: Please do not cry, Mary Ann. My precious Princess, do you imagine I would stand by while the dragon collected his birthday present? Fido and I have planned everything. You only need to do exactly as you are told.
+    - id: ch01-b87
+      speaker: princess_mary_ann
+      text: Is that all? That is easy. I have done it often enough!
+    - id: ch01-b88
+      speaker: narrator
+      text: Tom explained the plan. Mary Ann kissed him again and again.
+    - id: ch01-b89
+      speaker: princess_mary_ann
+      text: Oh, dear, good, clever Tom! I am so glad I gave you Fido. You have both saved me. You dears!
+      emotion: happy
+    - id: ch01-b90
+      speaker: narrator
+      text: The following morning, Uncle James dressed in his finest coat and hat. He added a vest covered in golden snakes, because magicians have rather bright taste in vests. Then he arrived in a cab to collect the Princess.
+    - id: ch01-b91
+      speaker: uncle_james
+      text: Come along, little birthday present. The dragon will be delighted. I am pleased you are not crying. We are never too young to put another person's happiness before our own. I would hate my dear niece to act selfishly and deny one small pleasure to a poor, sick dragon who is far from his home and friends.
+    - id: ch01-b92
+      speaker: narrator
+      text: Mary Ann said she would try not to be selfish. The cab soon stopped near the pillar. There stood the dragon, with its ugly purple head shining in the sunlight and its ugly purple mouth half open.
+    - id: ch01-b93
+      speaker: uncle_james
+      text: Good morning, sir. We have brought a modest gift for your birthday. We could not allow such an anniversary to pass without a suitable token, especially for a stranger among us. Our means are small, but our hearts are large. We possess only one Princess, yet we give her freely. Do we not, my child?
+    - id: ch01-b94
+      speaker: princess_mary_ann
+      text: I suppose we do.
+    - id: ch01-b95
+      speaker: narrator
+      text: The dragon moved closer. Then a voice rang out.
+    - id: ch01-b96
+      speaker: tom
+      text: Run!
+    - id: ch01-b97
+      speaker: narrator
+      text: Tom appeared with the Zoological guinea pig and two Belgian hares.
+    - id: ch01-b98
+      speaker: tom
+      text: I brought them to make sure everything is fair.
+    - id: ch01-b99
+      speaker: narrator
+      text: Uncle James flew into a fury.
+    - id: ch01-b100
+      speaker: uncle_james
+      text: How dare you interrupt a State function with common rabbits and such things? Go away, you naughty boy, and play with them somewhere else!
+      emotion: angry
+    - id: ch01-b101
+      speaker: narrator
+      text: While he shouted, one Belgian hare came up on either side. Their enormous bodies pressed him between them until he vanished in their thick fur and nearly choked. Mary Ann ran behind the pillar and peeped around it to watch.
+    - id: ch01-b102
+      speaker: narrator
+      text: A crowd had followed the cab from town. Now they reached the State function and cried out at Tom.
+    - id: ch01-b103
+      speakers: [citizen_1, citizen_2, citizen_3]
+      ensemble: chorus
+      text: Play fair! We cannot break our promise now. Once you give something, you cannot take it back. Let the poor exiled dragon have his birthday present!
+      emotion: angry
+    - id: ch01-b104
+      speaker: narrator
+      text: The crowd tried to reach Tom, but the giant guinea pig blocked their way.
+    - id: ch01-b105
+      speaker: tom
+      text: Yes, fair play is precious. Your helpless exile may have the Princess if he can catch her. Now, Mary Ann!
+    - id: ch01-b106
+      speaker: narrator
+      text: Mary Ann peeped around the great pillar and called out so the dragon would see her.
+    - id: ch01-b107
+      speaker: princess_mary_ann
+      text: Boo! You cannot catch me!
+    - id: ch01-b108
+      speaker: narrator
+      text: She began to run as fast as she possibly could, and the dragon raced after her. Mary Ann kept going for half a mile. Then she stopped, slipped around a tree, and ran all the way back toward the pillar. The dragon turned and followed again. But its great body was so long that it could never change direction as quickly as the little Princess could.
+    - id: ch01-b109
+      speaker: narrator
+      text: Around and around the pillar they went. Mary Ann made her first circle a long way from the rock. Each time she came around again, she ran a little nearer. The dragon followed every turn. It was so completely occupied with catching her that it never noticed what Tom had done. He had tied the very end of its long, tight, whipcord tail to the pillar. Each lap wound the tail one more time around the rock.
+    - id: ch01-b110
+      speaker: narrator
+      text: It worked exactly like winding a top. The pillar was the peg, and the dragon's tail was the string. Uncle James remained safely wedged between the Belgian hares, able to see nothing but darkness and do nothing but choke.
+    - id: ch01-b111
+      speaker: narrator
+      text: At last, the dragon's tail had been wound around the pillar as many times as it could possibly go. The creature was held as tightly as cotton wrapped around a reel. Mary Ann finally stopped running. She was so breathless after the chase that she could scarcely force out the words she wanted to say.
+    - id: ch01-b112
+      speaker: princess_mary_ann
+      text: Yah! Who has won now?
+    - id: ch01-b113
+      speaker: narrator
+      text: That made the dragon so angry that it used all its strength. It spread its great purple wings and tried to fly at her. The effort pulled hard on its tail. The tail had to move, so the pillar had to turn with it. And because the pillar ran through the island, all Rotundia had to turn too.
+    - id: ch01-b114
+      speaker: narrator
+      text: In another moment the tail came free, and the island spun like a top. It whirled so fast that everyone fell face down and held tightly to themselves, certain that something was about to happen. Uncle James did not. Trapped between the hares, he felt nothing but fur and fury.
+    - id: ch01-b115
+      speaker: narrator
+      text: Something certainly did happen. By pulling the pillar, the dragon had set the whole kingdom spinning in the direction it should have taken at the beginning of the world. As Rotundia whirled, every animal began to change size. The guinea pigs grew small, and the elephants grew large. The men, women, and children would have changed size too. Luckily, they had enough sense to hold tightly to themselves with both hands. Nobody could expect the animals to understand that they ought to do the same.
+    - id: ch01-b116
+      speaker: narrator
+      text: Best of all, when the large beasts became small and the small beasts became large, the dragon shrank too. It tumbled at Mary Ann's feet as a little crawling purple newt with wings.
+    - id: ch01-b117
+      speaker: princess_mary_ann
+      text: What a funny little creature. I will keep it as my birthday present.
+    - id: ch01-b118
+      speaker: narrator
+      text: Everyone else still lay flat, clutching themselves. Uncle James never thought to hold on. He thought only about punishing Belgian hares and gardeners' sons. So when the great animals shrank, he shrank with them.
+    - id: ch01-b119
+      speaker: narrator
+      text: The winged purple newt looked down beside the Princess's feet and saw one very small magician named Uncle James. Since the dragon wanted a birthday present, it took him.
+    - id: ch01-b120
+      speaker: narrator
+      text: From that moment onward, all the animals of Rotundia had their new and proper sizes. At first, everyone found it very strange to live among great, lumbering elephants and one tiny little dormouse. But people can grow accustomed to almost anything. Before long, the Rotundians stopped wondering about their animals and thought no more of those sizes than we do.
+    - id: ch01-b121
+      speaker: narrator
+      text: All this happened several years ago. Just the other day, I found an account in the Rotundia Times of a wedding between Princess Mary Ann and Lord Thomas Gardener, K.C.D. I knew at once that Mary Ann could not possibly have married anyone but Tom. So I suppose the people of Rotundia made the gardener's son into a Lord especially for the wedding.
+    - id: ch01-b122
+      speaker: narrator
+      text: The letters K.C.D. must mean Clever Conqueror of the Dragon. If you believe that meaning is wrong, it is only because you do not understand the way people spell in Rotundia. The newspaper also reported one of the beautiful wedding presents. The bridegroom had given his bride an enormous elephant, and the newly married pair rode upon it during their wedding tour. That elephant must have been Fido. You will remember that Tom had promised to return him to Mary Ann when they married.
+    - id: ch01-b123
+      speaker: narrator
+      text: The Rotundia Times called them “the happy pair.” What a clever, pretty, and original phrase for a newspaper to invent. It was also truer than many things printed in papers.
+    - id: ch01-b124
+      speaker: narrator
+      text: Mary Ann and the gardener's son loved each other too much to be anything but happy. Besides, they owned an elephant they could ride. If that is not enough for happiness, I would like to know what is. Some people might demand a whale to sail on and still complain. But those are greedy, grasping people who would probably take four helpings of pudding. Neither Tom nor Mary Ann ever did.

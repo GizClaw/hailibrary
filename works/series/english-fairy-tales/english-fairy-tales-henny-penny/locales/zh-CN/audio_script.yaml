@@ -1,0 +1,183 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容讲述古老童话，带着一本正经的诙谐
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中
+    henny_penny:
+      display_name: 母鸡潘妮
+      tts:
+        delivery: 单纯认真，受惊后急切慌张
+        timbre: 清脆明亮
+        pace: 中等偏快
+        pitch: 高
+    cocky_locky:
+      display_name: 公鸡洛基
+      tts:
+        delivery: 好奇爽快，说话干脆利落
+        timbre: 清亮有力
+        pace: 中等
+        pitch: 中高
+    ducky_daddles:
+      display_name: 鸭子达德尔
+      tts:
+        delivery: 热心随和，问话直率
+        timbre: 圆润清楚
+        pace: 中等
+        pitch: 中
+    goosey_poosey:
+      display_name: 鹅波西
+      tts:
+        delivery: 亲切爽朗，容易相信同伴
+        timbre: 柔和明亮
+        pace: 中等
+        pitch: 中高
+    turkey_lurkey:
+      display_name: 火鸡勒基
+      tts:
+        delivery: 热切郑重，喜欢把话说得周全
+        timbre: 饱满略低
+        pace: 中慢
+        pitch: 中低
+    foxy_woxy:
+      display_name: 狐狸沃克西
+      tts:
+        delivery: 表面殷勤可信，暗中狡猾冷酷
+        timbre: 平滑低沉
+        pace: 从容
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 天要塌下来了
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "一天，母鸡潘妮正在谷场上啄玉米。忽然，啪的一下，不知什么东西砸中了她的脑袋。"
+        - id: ch01-b02
+          speaker: henny_penny
+          text: "我的老天爷！天要塌下来啦，我得赶快去告诉国王！"
+          emotion: fearful
+        - id: ch01-b03
+          speaker: narrator
+          text: "母鸡潘妮就这样上了路，要把天要塌下来的消息告诉国王。她走呀走，走呀走，走呀走，迎面碰见公鸡洛基。"
+        - id: ch01-b04
+          speaker: cocky_locky
+          text: "母鸡潘妮，你这是要去哪儿？"
+        - id: ch01-b05
+          speaker: henny_penny
+          text: "我要去告诉国王，天就要塌下来啦。"
+        - id: ch01-b06
+          speaker: cocky_locky
+          text: "那我能和你一起去吗？"
+        - id: ch01-b07
+          speaker: henny_penny
+          text: "当然能，咱们一起走吧。"
+        - id: ch01-b08
+          speaker: narrator
+          text: "母鸡潘妮答应了公鸡洛基。于是，母鸡潘妮和公鸡洛基一起去告诉国王，天要塌下来了。他们走呀走，走呀走，走呀走，直到迎面碰见鸭子达德尔。"
+        - id: ch01-b09
+          speaker: ducky_daddles
+          text: "母鸡潘妮、公鸡洛基，你们要到哪儿去呀？"
+        - id: ch01-b10
+          speakers: [henny_penny, cocky_locky]
+          ensemble: duo
+          text: "我们要去告诉国王，天就要塌下来了。"
+        - id: ch01-b11
+          speaker: ducky_daddles
+          text: "我能不能也跟你们去？"
+        - id: ch01-b12
+          speakers: [henny_penny, cocky_locky]
+          ensemble: duo
+          text: "当然能，一起来吧。"
+        - id: ch01-b13
+          speaker: narrator
+          text: "母鸡潘妮和公鸡洛基答应了鸭子达德尔。鸭子达德尔也加入了队伍。母鸡潘妮、公鸡洛基和鸭子达德尔一起去告诉国王，天要塌下来了。他们走呀走，走呀走，走呀走，直到遇见鹅波西。"
+        - id: ch01-b14
+          speaker: goosey_poosey
+          text: "母鸡潘妮、公鸡洛基、鸭子达德尔，你们这是去哪儿？"
+        - id: ch01-b15
+          speakers: [henny_penny, cocky_locky, ducky_daddles]
+          ensemble: chorus
+          text: "我们要去告诉国王，天就要塌下来了。"
+        - id: ch01-b16
+          speaker: goosey_poosey
+          text: "我也跟你们一起去，行吗？"
+        - id: ch01-b17
+          speakers: [henny_penny, cocky_locky, ducky_daddles]
+          ensemble: chorus
+          text: "当然行，快来吧。"
+        - id: ch01-b18
+          speaker: narrator
+          text: "母鸡潘妮、公鸡洛基和鸭子达德尔答应让鹅波西同行。于是，母鸡潘妮、公鸡洛基、鸭子达德尔和鹅波西一起去告诉国王，天要塌下来了。他们走呀走，走呀走，走呀走，直到遇见火鸡勒基。"
+        - id: ch01-b19
+          speaker: turkey_lurkey
+          text: "母鸡潘妮、公鸡洛基、鸭子达德尔、鹅波西，你们要上哪儿去？"
+        - id: ch01-b20
+          speakers: [henny_penny, cocky_locky, ducky_daddles, goosey_poosey]
+          ensemble: chorus
+          text: "我们要去告诉国王，天就要塌下来了。"
+        - id: ch01-b21
+          speaker: turkey_lurkey
+          text: "母鸡潘妮、公鸡洛基、鸭子达德尔、鹅波西，我可以和你们一起去吗？"
+        - id: ch01-b22
+          speakers: [henny_penny, cocky_locky, ducky_daddles, goosey_poosey]
+          ensemble: chorus
+          text: "当然可以，火鸡勒基。"
+        - id: ch01-b23
+          speaker: narrator
+          text: "母鸡潘妮、公鸡洛基、鸭子达德尔和鹅波西都答应让火鸡勒基同行。就这样，母鸡潘妮、公鸡洛基、鸭子达德尔、鹅波西和火鸡勒基全都结伴上路。他们要一起去告诉国王，天要塌下来了。"
+    - id: ch02
+      title: 狐狸指的近路
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "母鸡潘妮、公鸡洛基、鸭子达德尔、鹅波西和火鸡勒基又走呀走，走呀走，走呀走。这一回，他们碰见了狐狸沃克西。"
+        - id: ch02-b02
+          speaker: foxy_woxy
+          text: "母鸡潘妮、公鸡洛基、鸭子达德尔、鹅波西、火鸡勒基，你们要去哪儿？"
+        - id: ch02-b03
+          speakers: [henny_penny, cocky_locky, ducky_daddles, goosey_poosey]
+          ensemble: chorus
+          text: "我们要去告诉国王，天就要塌下来了。"
+        - id: ch02-b04
+          speaker: foxy_woxy
+          text: "可你们走错啦，去见国王不是这条路。我知道该怎么走，要不要我给你们带路？"
+        - id: ch02-b05
+          speakers: [henny_penny, cocky_locky, ducky_daddles, goosey_poosey]
+          ensemble: chorus
+          text: "当然好，那就请你带路吧，狐狸沃克西。"
+        - id: ch02-b06
+          speaker: narrator
+          text: "母鸡潘妮、公鸡洛基、鸭子达德尔、鹅波西和火鸡勒基全都答应让狐狸带路。于是，他们和狐狸沃克西一起去见国王。他们走呀走，走呀走，走呀走，来到一个又窄又黑的洞口。那其实正是狐狸沃克西家的洞门。"
+        - id: ch02-b07
+          speaker: foxy_woxy
+          text: "这条近路直通国王的宫殿。你们跟紧我，很快就到了。我先进去，母鸡潘妮、公鸡洛基、鸭子达德尔、鹅波西、火鸡勒基，你们依次跟在后面。"
+        - id: ch02-b08
+          speakers: [henny_penny, cocky_locky, ducky_daddles, goosey_poosey]
+          ensemble: chorus
+          text: "好呀，当然好！准没错，为什么不呢？"
+    - id: ch03
+      title: 黑洞里的真相
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "狐狸沃克西先钻进自己的洞穴。可他走了没多远，便转过身来，等着母鸡潘妮、公鸡洛基、鸭子达德尔、鹅波西和火鸡勒基。说是最后一个，其实火鸡勒基第一个穿过黑洞。他还没走几步，只听咔嚓一声，狐狸沃克西一口咬掉他的脑袋，又把火鸡勒基的身子甩过左肩。"
+        - id: ch03-b02
+          speaker: narrator
+          text: "接下来，鹅波西也走进了狐狸洞。又是咔嚓一声，狐狸沃克西咬掉了她的脑袋，再把鹅波西的身子扔在火鸡勒基旁边。"
+        - id: ch03-b03
+          speaker: narrator
+          text: "随后，鸭子达德尔摇摇摆摆地走进黑洞。狐狸沃克西又咔嚓一口，咬掉了鸭子达德尔的脑袋，再把她的身子扔到火鸡勒基和鹅波西身旁。"
+        - id: ch03-b04
+          speaker: narrator
+          text: "最后，公鸡洛基昂首阔步地走进洞穴。他才走出几步，狐狸沃克西就扑了上去。啪！咔嚓！狐狸一口咬住公鸡洛基，又把他扔在火鸡勒基、鹅波西和鸭子达德尔旁边。"
+        - id: ch03-b05
+          speaker: narrator
+          text: "可是，狐狸沃克西其实咬了公鸡洛基两口。第一口只把公鸡洛基咬伤，并没有把他咬死。公鸡洛基还能出声，便大声呼喊母鸡潘妮。母鸡潘妮听见公鸡洛基的喊声，立刻掉转尾巴，飞快地跑回了自己家。"
+        - id: ch03-b06
+          speaker: narrator
+          text: "所以，这一路走到最后，母鸡潘妮到头来还是没能见到国王，也始终没能告诉他，天要塌下来了。"

@@ -1,0 +1,362 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，像编书人面对孩子娓娓而谈，幽默处轻巧含笑
+        timbre: 温暖清朗
+        pace: 舒缓而有自然起伏
+        pitch: 中音
+    little_one_eye:
+      display_name: 一只眼
+      tts:
+        delivery: 傲慢刻薄，自以为高人一等
+        timbre: 尖细干脆
+        pace: 适中
+        pitch: 中高音
+    little_two_eyes:
+      display_name: 两只眼
+      tts:
+        delivery: 温柔诚恳，受苦时克制，获得希望后明亮坚定
+        timbre: 清澈柔和
+        pace: 适中
+        pitch: 中高音
+    little_three_eyes:
+      display_name: 三只眼
+      tts:
+        delivery: 精明好胜，窥破秘密时带着得意
+        timbre: 清亮锐利
+        pace: 稍快
+        pitch: 中高音
+    mother:
+      display_name: 母亲
+      tts:
+        delivery: 冷硬专横，发怒时毫不留情
+        timbre: 低沉紧绷
+        pace: 适中
+        pitch: 中低音
+    wise_woman:
+      display_name: 聪明的女人
+      tts:
+        delivery: 慈和笃定，说话简明而带有神秘感
+        timbre: 温润沉静
+        pace: 舒缓
+        pitch: 中音
+    knight:
+      display_name: 年轻骑士
+      tts:
+        delivery: 坦率正直，询问时温和而坚定
+        timbre: 明朗浑厚
+        pace: 适中
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 山羊与小桌子
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，有个女人养着三个女儿。大女儿只有一只眼睛，长在额头正中，所以叫一只眼。二女儿和普通人一样，有两只眼睛，便叫两只眼。小女儿有三只眼睛，第三只也长在额头正中，因此叫三只眼。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            正因为两只眼看起来和别的孩子没有两样，母亲和姐妹反倒容不下她。她们把她推来搡去，随手乱扔她的破衣裳，只把吃剩的东西留给她，怎么狠心就怎么待她。
+        - id: ch01-b03
+          speakers: [little_one_eye, little_three_eyes]
+          ensemble: duo
+          text: >-
+            你长着两只眼，跟那些普通人有什么分别？你才不是我们家的人！
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            有一天，两只眼到田野里放山羊。姐妹给她的食物太少，她饿着肚子坐在草地上哭，眼泪流得像两条小溪。她抬起头，忽然发现身边站着一个女人。
+        - id: ch01-b05
+          speaker: wise_woman
+          text: >-
+            两只眼，你为什么哭呀？
+        - id: ch01-b06
+          speaker: little_two_eyes
+          text: >-
+            我怎么能不哭呢？就因为我像普通人一样有两只眼睛，母亲和姐妹便容不下我。她们把我赶来赶去，只给我吃剩饭。今天给得那么少，我现在还饿着呢。
+          emotion: sad
+        - id: ch01-b07
+          speaker: wise_woman
+          text: >-
+            擦干眼泪吧，我教你一个再也不用挨饿的法子。你只要对山羊念：“小山羊，咩咩叫，小桌子，快来到！”面前就会摆出一桌好吃的，随你吃个够。吃饱以后，再念：“小山羊，咩咩叫，小桌子，快走掉！”它便会消失。
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            聪明的女人说完便走了。两只眼实在饿得厉害，决定马上试一试。
+        - id: ch01-b09
+          speaker: little_two_eyes
+          text: >-
+            小山羊，咩咩叫，小桌子，快来到！
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            话刚出口，一张铺着雪白桌布的小桌子果然出现了。桌上放着盘子、刀叉和一把银汤匙，一道道精美的菜肴还冒着热气，仿佛刚刚从厨房端来。两只眼念过自己会的最短的一句餐前祷词，立刻坐下，美美地吃了一顿。等她吃得再也不饿了，才照聪明的女人教的念起来。
+        - id: ch01-b11
+          speaker: little_two_eyes
+          text: >-
+            小山羊，咩咩叫，小桌子，快走掉！
+        - id: ch01-b12
+          speaker: narrator
+          text: >-
+            桌子和桌上的东西立刻不见了。两只眼觉得这个管饭的法子真妙，心里又高兴又满足。
+
+    - id: ch02
+      title: 第三只醒着的眼睛
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            晚上，两只眼赶着山羊回到家，看见姐妹把食物扔在一只小陶碟里，却一口也没有碰。第二天出门时，她又把分来的那一点残羹冷饭原样留下。头一回、第二回，姐妹没有留意。可她接连几天都留下饭菜，她们终于起了疑心。
+        - id: ch02-b02
+          speakers: [little_one_eye, little_three_eyes]
+          ensemble: duo
+          text: >-
+            两只眼一定有秘密。她从前拿到什么都狼吞虎咽，现在却顿顿剩下。她准是在别处找到了吃的。
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            为了查清真相，家里叫一只眼跟着妹妹去放羊，仔细看她在野外能得到什么，有没有人给她送吃的喝的。两只眼正要出门，一只眼便走了过来。
+        - id: ch02-b04
+          speaker: little_one_eye
+          text: >-
+            我跟你一起去田里。我要看看你有没有照看好山羊，有没有把它赶到草多的地方。
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            两只眼早已看穿她的心思。她把山羊赶进高高的草丛，请姐姐坐下来歇一歇。
+        - id: ch02-b06
+          speaker: little_two_eyes
+          text: >-
+            来吧，一只眼，我们就坐在这里。我唱支歌给你听。
+        - id: ch02-b07
+          speaker: little_two_eyes
+          text: >-
+            一只眼，你醒着吗？一只眼，你睡着吗？
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            一只眼不惯走远路，又被太阳晒得疲倦。歌声一遍遍响着，她合上唯一的眼睛，睡着了。两只眼见她再也发现不了什么，便念“小山羊，咩咩叫，小桌子，快来到”。她在桌边尽情吃喝，随后又念“小山羊，咩咩叫，小桌子，快走掉”。一眨眼，所有东西都不见了。
+        - id: ch02-b09
+          speaker: little_two_eyes
+          text: >-
+            一只眼，你明明是来看着我的，自己倒睡着了。刚才山羊就是跑远了，你也不会知道。走吧，我们该回家了。
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            回家以后，两只眼依然不吃那碟饭。一只眼交代不出妹妹为什么不饿，只能找个借口。
+        - id: ch02-b11
+          speaker: little_one_eye
+          text: >-
+            我在外面实在太困，一不留神就睡着了。
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            第二天，母亲把三只眼叫到身边。
+        - id: ch02-b13
+          speaker: mother
+          text: >-
+            这次你跟两只眼一起去。看清她在田里吃不吃东西，有没有人送吃的喝的。她一定瞒着我们找到了食物。
+        - id: ch02-b14
+          speaker: narrator
+          text: >-
+            三只眼走到两只眼面前，也用了姐姐昨天的借口。
+        - id: ch02-b15
+          speaker: little_three_eyes
+          text: >-
+            我跟你一起去，看看你有没有照看好山羊，有没有把它赶到草多的地方。
+        - id: ch02-b16
+          speaker: narrator
+          text: >-
+            两只眼明白她的来意，仍把山羊赶进高高的草丛。到了那里，她请三只眼坐下，说要唱支歌给她听。一路的辛苦和炎热早让三只眼累了，两只眼便唱起昨天的小歌。
+        - id: ch02-b17
+          speaker: little_two_eyes
+          text: >-
+            三只眼，你醒着吗？两只眼，你睡着吗？
+        - id: ch02-b18
+          speaker: narrator
+          text: >-
+            她本该唱“三只眼，你睡着吗”，却一不留神唱成了“两只眼”。三只眼左右两边的眼睛都睡着了，额头上那只没听到自己的名字，仍然醒着。三只眼故意把它合上，只从眼皮缝里悄悄窥看。
+        - id: ch02-b19
+          speaker: narrator
+          text: >-
+            两只眼以为姐姐睡熟了，便念出歌谣，叫来小桌子，吃饱喝足以后又让它消失。三只眼把一切看得清清楚楚。两只眼走来叫醒她。
+        - id: ch02-b20
+          speaker: little_two_eyes
+          text: >-
+            怎么啦，三只眼，你睡着了吗？你可真会照看人！来，我们回家吧。
+        - id: ch02-b21
+          speaker: narrator
+          text: >-
+            回到家，两只眼还是没有吃东西。三只眼马上把秘密告诉母亲。
+        - id: ch02-b22
+          speaker: little_three_eyes
+          text: >-
+            我知道那个傲慢的家伙为什么不吃饭了。她只要对山羊念“小山羊，咩咩叫，小桌子，快来到”，一桌比我们吃得更好的饭菜就会出现。她吃完再念“小山羊，咩咩叫，小桌子，快走掉”，东西便全没了。她的歌哄睡了我两只眼睛，幸好额头上的眼睛还醒着！
+        - id: ch02-b23
+          speaker: mother
+          text: >-
+            你还想过得比我们好？我绝不会再给你这个机会！
+          emotion: angry
+        - id: ch02-b24
+          speaker: narrator
+          text: >-
+            母亲拿来一把刀，杀死了山羊。
+
+    - id: ch03
+      title: 银叶金果树
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            两只眼悲痛地跑到草地上，坐在那里伤心落泪。聪明的女人再次来到她面前。
+        - id: ch03-b02
+          speaker: wise_woman
+          text: >-
+            两只眼，你又为什么哭呀？
+        - id: ch03-b03
+          speaker: little_two_eyes
+          text: >-
+            我怎么能不哭呢？我一念歌谣，山羊就会为我摆出饭桌，可母亲把它杀了。往后我又得挨饿受穷了。
+          emotion: sad
+        - id: ch03-b04
+          speaker: wise_woman
+          text: >-
+            我再教你一个好办法。向姐妹要来死山羊的心，把它埋在屋门前的土里，它会给你带来好运。
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            女人随即消失。两只眼回家去，请姐妹把山羊留一样东西给她。
+        - id: ch03-b06
+          speaker: little_two_eyes
+          text: >-
+            好姐姐，我别的都不要，只求你们把山羊的心给我。
+        - id: ch03-b07
+          speakers: [little_one_eye, little_three_eyes]
+          ensemble: duo
+          text: >-
+            只要这个吗？那就拿去吧！
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            姐妹听完笑了，却答应把羊心给她。当晚四下无人时，两只眼照着聪明女人的话，把它埋在屋门前。第二天一家人醒来，走到门外一看，那里竟长出一棵奇妙的大树。树叶全是银的，枝头结满金果，世上再没有比它更美、更华贵的东西了。谁也不明白，这棵树怎么能在一夜间长出来。只有两只眼知道，它正立在自己埋下羊心的地方，一定是从羊心里生出的。
+        - id: ch03-b09
+          speaker: mother
+          text: >-
+            一只眼，爬上去给我们摘些果子。
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            一只眼爬了上去。可她刚要抓住一只金苹果，树枝便从手边躲开。她伸一次手，树枝就躲一次，任她怎样努力，连一只苹果也摘不到。母亲只好让她下来，又叫三只眼上树，说她有三只眼，四面看得更清楚。三只眼爬上去以后也没有成功。无论她朝哪里看，金苹果都会弯着枝条避开她。
+        - id: ch03-b11
+          speaker: narrator
+          text: >-
+            母亲等得不耐烦，索性亲自爬上去。可她比两个女儿还不如，手伸出去，连果子的边也碰不到，只抓到一把又一把空气。这时，两只眼说，自己也想试一次，也许能比她们做得好些。
+        - id: ch03-b12
+          speakers: [little_one_eye, little_three_eyes]
+          ensemble: duo
+          text: >-
+            你只有两只眼，当然最有本事啦！
+        - id: ch03-b13
+          speaker: narrator
+          text: >-
+            两只眼爬上树，金苹果没有从她手边跳开，全都老老实实地等她采摘。她一只接一只摘下来，兜着满满一围裙苹果下了树，母亲却把果子全拿走了。照理说，母亲和姐妹见了这一切，总该对可怜的两只眼好一些。可她们嫉妒只有她摘得到果子，反而变本加厉，对她更加刻薄。
+
+    - id: ch04
+      title: 木桶下的姑娘
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            一天，一家人正站在树旁，一位年轻英俊的骑士骑马经过。两个姐姐生怕两只眼让她们丢脸，催她赶紧藏起来。她们抓起树旁的一只空木桶，飞快地扣在可怜的妹妹身上，又把她摘下的金苹果全都推进桶底，跟她藏在一起。
+        - id: ch04-b02
+          speakers: [little_one_eye, little_three_eyes]
+          ensemble: duo
+          text: >-
+            快钻进去，别在这里给我们丢脸！
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            骑士来到金枝银叶的树前，惊叹不已。
+        - id: ch04-b04
+          speaker: knight
+          text: >-
+            这棵美丽的树是谁的？谁肯送我一根树枝，她要什么，我就给她什么。
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            一只眼和三只眼都说树属于自己，马上伸手折枝。可她们使尽力气，枝条和果实还是一次次从手边弯开。
+        - id: ch04-b06
+          speaker: knight
+          text: >-
+            你们说树是自己的，却连一根枝条都折不下来，这不是很奇怪吗？
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            姐妹俩仍一口咬定，树就是她们的。两只眼躲在桶下，听见姐姐们不肯说实话，气得滚出两只金苹果。苹果一路滚到骑士脚边，他看见了十分惊讶，马上追问它们从哪里来。两个姐姐只好承认，她们还有一个妹妹，却说那个妹妹像普通人一样只有两只眼，所以不能出来见人。
+        - id: ch04-b08
+          speaker: knight
+          text: >-
+            两只眼，请你出来吧！
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            两只眼欢欢喜喜地钻出木桶。骑士一看见她的美貌，吃惊极了。
+        - id: ch04-b10
+          speaker: knight
+          text: >-
+            两只眼，我相信你一定能从树上替我折下一枝。
+        - id: ch04-b11
+          speaker: little_two_eyes
+          text: >-
+            我能，因为这棵树本来就是我的。
+        - id: ch04-b12
+          speaker: narrator
+          text: >-
+            她爬上树，轻轻松松折下一根带着银叶金果的小枝，送给骑士。
+        - id: ch04-b13
+          speaker: knight
+          text: >-
+            两只眼，你想让我拿什么回报这根树枝？
+        - id: ch04-b14
+          speaker: little_two_eyes
+          text: >-
+            我每天从早到晚都在忍饥受渴，受穷受苦。只要你肯带我离开这里，让我摆脱这样的日子，我就很幸福了。
+          emotion: sad
+        - id: ch04-b15
+          speaker: narrator
+          text: >-
+            骑士听完，便把两只眼抱上自己的马，带她回到父亲的城堡。他送给她美丽的衣裳，让她从此有饭吃、有水喝，再也不必受穷受苦。他深深爱着她，后来娶她为妻。两人的婚礼办得十分盛大，到处都是欢声笑语。
+
+    - id: ch05
+      title: 飞走的树
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            英俊的骑士带走两只眼以后，两个姐姐先是嫉妒她交上了这样的好运，随后又安慰自己，神奇的树到底还留在家门前。她们虽然拿不到金果，至少每个经过的人都会停下脚步，走近来欣赏这棵树，也会连带着称赞她们。
+        - id: ch05-b02
+          speakers: [little_one_eye, little_three_eyes]
+          ensemble: duo
+          text: >-
+            我们虽然摘不到果子，可人人都会停下来看这棵树，还会走来称赞它。说不定哪一天，我们也能从它身上得到好处。
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            可第二天早晨，树已经飞走，她们的希望也一起飞走了。两只眼从城堡的窗口向外望，那棵树正立在窗下，叫她喜出望外。
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            两只眼就这样幸福地生活了很久。后来有一天，两个穷女人来到城堡，请求人们施舍一些东西。两只眼仔细一看，认出她们正是自己的姐姐一只眼和三只眼。两个姐姐已经穷困到只能来到妹妹门前，向她讨一口面包。
+        - id: ch05-b05
+          speaker: narrator
+          text: >-
+            两只眼没有赶走她们，反而欢迎她们，对她们好极了。一只眼和三只眼想起从前怎样狠心欺负妹妹，终于从心底里悔悟了。
+        - id: ch05-b06
+          speaker: narrator
+          text: >-
+            这个故事，是格林兄弟讲下来的。

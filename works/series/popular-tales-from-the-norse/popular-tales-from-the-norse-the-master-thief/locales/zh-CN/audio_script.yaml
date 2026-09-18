@@ -1,0 +1,625 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容而清醒，带一点克制的诙谐
+        timbre: 温厚清晰
+        pace: 舒缓有致
+        pitch: 中低
+    master_thief:
+      display_name: 神偷
+      tts:
+        delivery: 机灵大胆，说话干脆，始终胸有成竹
+        timbre: 清亮灵活
+        pace: 中等偏快
+        pitch: 中
+    old_housekeeper:
+      display_name: 看屋老太婆
+      tts:
+        delivery: 饱经忧患，直白中带着警惕
+        timbre: 苍老沙哑
+        pace: 中等偏慢
+        pitch: 中低
+    robber_1:
+      display_name: 强盗甲
+      tts:
+        delivery: 粗暴多疑，习惯发号施令
+        timbre: 粗砺低沉
+        pace: 中等
+        pitch: 低
+    robber_2:
+      display_name: 强盗乙
+      tts:
+        delivery: 阴沉冷硬，说话短促
+        timbre: 干涩厚重
+        pace: 中等偏慢
+        pitch: 低
+    robber_3:
+      display_name: 强盗丙
+      tts:
+        delivery: 凶悍直接，带着不耐烦
+        timbre: 洪亮粗哑
+        pace: 中等偏快
+        pitch: 中低
+    cattle_owner:
+      display_name: 牛主人
+      tts:
+        delivery: 老实怕事，容易慌张，自言自语时絮叨
+        timbre: 朴厚略紧
+        pace: 中等
+        pitch: 中
+    father:
+      display_name: 父亲
+      tts:
+        delivery: 贫苦谨慎，面对权势时胆怯拘束
+        timbre: 苍老单薄
+        pace: 中等偏慢
+        pitch: 中低
+    squire:
+      display_name: 乡绅
+      tts:
+        delivery: 富有威势，自负爱笑，受骗时气急败坏
+        timbre: 饱满厚实
+        pace: 中等
+        pitch: 中低
+    kitchen_servant_1:
+      display_name: 厨房仆人甲
+      tts:
+        delivery: 好奇兴奋，反应爽快
+        timbre: 明亮清脆
+        pace: 中等偏快
+        pitch: 中高
+    kitchen_servant_2:
+      display_name: 厨房仆人乙
+      tts:
+        delivery: 热闹直率，容易跟着起哄
+        timbre: 清晰结实
+        pace: 中等偏快
+        pitch: 中
+    kitchen_servant_3:
+      display_name: 厨房仆人丙
+      tts:
+        delivery: 活泼急切，说话利落
+        timbre: 轻快明朗
+        pace: 快
+        pitch: 中高
+    priest:
+      display_name: 劳伦斯神父
+      tts:
+        delivery: 自负庄重，受苦时惊惶哀切
+        timbre: 圆润偏高
+        pace: 中等偏慢
+        pitch: 中
+    goose_girl:
+      display_name: 牧鹅姑娘
+      tts:
+        delivery: 质朴善良，惊讶时仍很爽利
+        timbre: 年轻清脆
+        pace: 中等
+        pitch: 中高
+    stableman_1:
+      display_name: 马夫甲
+      tts:
+        delivery: 脾气粗暴，说话冲撞
+        timbre: 粗壮响亮
+        pace: 中等偏快
+        pitch: 中低
+    stableman_2:
+      display_name: 马夫乙
+      tts:
+        delivery: 心软随和，语气朴实
+        timbre: 温厚结实
+        pace: 中等
+        pitch: 中
+    stableman_3:
+      display_name: 马夫丙
+      tts:
+        delivery: 爱抱怨，冷得发抖时断断续续
+        timbre: 干脆略尖
+        pace: 中等
+        pitch: 中
+    beggar_woman:
+      display_name: 讨饭老太婆
+      tts:
+        delivery: 精明爽快，得意时声音尖亮
+        timbre: 苍老偏尖
+        pace: 中等
+        pitch: 中高
+    squire_wife:
+      display_name: 乡绅太太
+      tts:
+        delivery: 温和直率，受骗后困惑惊讶
+        timbre: 柔和成熟
+        pace: 中等
+        pitch: 中
+  chapters:
+    - id: ch01
+      title: 强盗窝与三头牛
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个穷苦的佃农，养着三个儿子。他没什么家产能留给孩子，也没钱送他们学手艺，越想越不知道该怎样安顿他们。末了，他让三个儿子各挑一门自己喜欢的营生，想去哪里都可以，他陪他们走上一段。父子四人来到三岔路口，三个儿子各选了一条路。父亲同他们告别，独自回了家。那两个哥哥后来过得怎样，我从没听说。小儿子倒是走了很远很远，他的故事就从这里说起。
+        - id: ch01-b02
+          speaker: narrator
+          text: 一天夜里，小伙子走进一片大森林，偏偏赶上狂风雨雪。风雪直往脸上扑，他连眼睛都睁不开，糊里糊涂便迷了路。大路不见了，小径也找不到，他只得一直往前。终于，他望见林子深处闪着一点亮光，便朝那里走。走近一看，原来是一座大房子。屋里炉火通红，主人显然还没睡。一位老太婆正在屋中忙着照料一切。
+        - id: ch01-b03
+          speaker: master_thief
+          text: 晚上好！呼，今晚外面的天气可真吓人。
+        - id: ch01-b04
+          speaker: old_housekeeper
+          text: 晚上好。可不是吗。
+        - id: ch01-b05
+          speaker: master_thief
+          text: 能让我在这里住一晚，躲过这场风雪吗？
+        - id: ch01-b06
+          speaker: old_housekeeper
+          text: 你留在这里不会有好下场。等这家人回来，看见屋里有你，只怕连我也要跟你一起送命。
+        - id: ch01-b07
+          speaker: master_thief
+          text: 这屋里住的到底是什么人？
+        - id: ch01-b08
+          speaker: old_housekeeper
+          text: 是一伙穷凶极恶的强盗。我小时候就被他们抢来，从那以后，一直替他们看守这座屋子。
+        - id: ch01-b09
+          speaker: master_thief
+          text: 那我也得住下。外面这种天气，不管会出什么事，我都绝不摸黑赶路。
+        - id: ch01-b10
+          speaker: old_housekeeper
+          text: 好吧。可你一定要留下，最后倒霉的也只能是你自己。
+        - id: ch01-b11
+          speaker: narrator
+          text: 小伙子钻进一张床，却不敢合眼。没多久，强盗们回来了。老太婆告诉他们，屋里来了个陌生小伙，她怎么赶也没赶走。
+        - id: ch01-b12
+          speakers: [robber_1, robber_2, robber_3]
+          ensemble: chorus
+          text: 你看过没有？他身上带钱了吗？
+        - id: ch01-b13
+          speaker: old_housekeeper
+          text: 他那副样子，哪里会有钱？不过是个四处流浪的人，身上还能有衣裳穿，已经算他走运了。
+        - id: ch01-b14
+          speaker: narrator
+          text: 强盗们商量起来，不知道该一刀杀掉他，还是另想办法处置。小伙子听见了，索性下床走到他们面前，问这伙人要不要一个帮手。他说，自己兴许很愿意加入他们。
+        - id: ch01-b15
+          speakers: [robber_1, robber_2, robber_3]
+          ensemble: chorus
+          text: 你若愿意干我们这一行，这里当然有你的位置。
+        - id: ch01-b16
+          speaker: master_thief
+          text: 什么营生我都不挑。离家时，父亲已经答应过，让我自己选一门手艺。
+        - id: ch01-b17
+          speaker: robber_1
+          text: 那你愿不愿意偷东西？
+        - id: ch01-b18
+          speaker: master_thief
+          text: 这有什么不愿意的？
+        - id: ch01-b19
+          speaker: narrator
+          text: 小伙子心想，这门手艺大概不用多久就能学会。附近有个人养了三头牛，正要牵一头进城去卖，强盗们早就听到了消息。他们要小伙子在路上把牛偷来，既不能叫那人察觉，也不能伤他分毫。办得到，才能留下做他们的帮手。
+        - id: ch01-b20
+          speaker: narrator
+          text: 小伙子拿了一只带银扣的漂亮鞋子，丢在那人赶牛进城的路上，自己藏进林边的灌木丛。那人牵牛走来，一眼看见了鞋。
+        - id: ch01-b21
+          speaker: cattle_owner
+          text: 好漂亮的鞋！要是另一只也在，我就把一双都带回家。说不定我家老太婆一高兴，难得肯给我一个好脸色。
+        - id: ch01-b22
+          speaker: narrator
+          text: 他的老婆又凶又爱骂人，动不动就扇他耳光。不过，只有一只鞋也没什么用，他便把鞋留在原地，继续赶路。小伙子等他走远，捡起鞋，从森林抄近道拼命跑到前面，又把同一只鞋摆在路中央。那人再次见到它，立刻后悔刚才没有捡起另一只。他把牛拴在篱笆上，自言自语起来。
+        - id: ch01-b23
+          speaker: cattle_owner
+          text: 我还是回去找那只吧。凑成一双好鞋送给我家老太婆，也许她总算会夸我一句。
+        - id: ch01-b24
+          speaker: narrator
+          text: 他一路往回找，先前的鞋当然已经没了。等他只拿着手里这一只回来，牛也被小伙子牵走了。他望着空篱笆，顿时号啕大哭，生怕老婆知道以后当场要了他的命。哭着哭着，他想到一个办法。他可以偷偷回家牵出第二头牛，照样赶去城里，半个字也不让老婆知道。
+        - id: ch01-b25
+          speaker: narrator
+          text: 他果真回家瞒着老婆，牵走了第二头牛。强盗们却把这一切看得清清楚楚。他们告诉小伙子，要是第二头牛也能这样弄来，他的本事就不输给他们当中的任何一个。
+        - id: ch01-b26
+          speaker: master_thief
+          text: 若只是偷这头牛，我看并不难。
+        - id: ch01-b27
+          speaker: narrator
+          text: 这一回，小伙子拿了根绳子，把自己从腋下吊在那人必经的一棵树上。牛主人走过来，看见路旁挂着个人，心里有些发毛。
+        - id: ch01-b28
+          speaker: cattle_owner
+          text: 唉，不管你活着时为什么想不开，如今人已经吊在这里，我也救不活你了。你想挂多久就挂多久吧。
+        - id: ch01-b29
+          speaker: narrator
+          text: 他牵牛继续走。小伙子立刻滑下树，沿小径飞跑到他前面，又把自己吊在第二棵树上。
+        - id: ch01-b30
+          speaker: cattle_owner
+          text: 老天！是你又跑到这里吊死了，还是我见到了妖术？算了，你爱挂着就挂着吧。不管你是鬼，还是别的什么东西，我都不管。
+        - id: ch01-b31
+          speaker: narrator
+          text: 小伙子等他过去，又一次跳下树，抄近路穿过森林，赶到更前面，吊上了第三棵树。牛主人第三次看见同样的景象，再也没法装作不在意。
+        - id: ch01-b32
+          speaker: cattle_owner
+          text: 这可不对。难道真有三个人接连吊死在路边？我看八成是妖术。回头看一眼就明白了。前面那两个要是还在，这个就是真的。要是他们没了，那我眼前见到的准是妖术。
+        - id: ch01-b33
+          speaker: narrator
+          text: 他拴好牛，跑回去仰着头一棵树一棵树地找。小伙子趁机落地，牵起第二头牛便跑。牛主人回来，发现牛又没了，立刻又哭又叫。过了好一会儿，他才稍稍平静下来。
+        - id: ch01-b34
+          speaker: cattle_owner
+          text: 没别的办法了。我只能再瞒着我家老太婆，把最后一头牛牵出来。只要这次卖个好价钱，带回一大笔钱，也许还能把事情遮过去。
+        - id: ch01-b35
+          speaker: narrator
+          text: 他回家牵出第三头牛，老婆仍旧毫不知情。强盗们却全知道。他们答应小伙子，若第三头牛也能像前两头一样偷来，就让他当整伙强盗的头领。小伙子跑进森林，藏在牛主人必经的地方。那人一到，他就在林中学大公牛，发出一阵吓人的哞叫。
+        - id: ch01-b36
+          speaker: narrator
+          text: 牛主人一听，简直喜出望外。这声音像极了他丢掉的那头大公牛，他以为两头失踪的牛都能找回来了，赶紧把第三头拴在路旁，钻进林子寻找。小伙子便走出来，牵走了最后一头牛。那人空手回来，发现第三头牛也没了，顿时悲痛得发了狂。他又哭又吼，还捶打胸口。接连好几天，他都不敢回家，只怕老婆一见面就把他打死。
+    - id: ch02
+      title: 神偷回乡求亲
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 强盗们不得不承认，小伙子比他们整伙人都高明，可谁也不为此高兴。一天，他们全伙出门，打算去做一桩小伙子绝对办不到的买卖，只留下他看家。等强盗们走远，小伙子先把三头牛赶上大路，让它们自己跑回主人那里。你们可以想见，那人看见三头牛一齐回来，该有多么高兴。
+        - id: ch02-b02
+          speaker: narrator
+          text: 接着，小伙子牵出强盗们所有的马，把屋里能找到的好东西都装上去，有金银，有衣裳，还有许多值钱物件。他托老太婆等强盗回来以后替他问好，再向他们道声谢。他要出门闯荡了，强盗们若想再找到他，恐怕得费很大的工夫。说完，他赶着马匹离开了。
+        - id: ch02-b03
+          speaker: narrator
+          text: 走了很久，他回到当初遇见强盗的那条路。远远望见父亲的小屋时，他从带来的衣物里找出一套制服换上，穿起来活像一位将军。随后，他摆出大人物的气派赶到家门口，进屋问能不能借宿。父亲一听，连忙拒绝。
+        - id: ch02-b04
+          speaker: father
+          text: 我怎么有本事留您这样体面的大人物过夜？我连一块铺床的布都没有。就算找得到，也全是破的。
+        - id: ch02-b05
+          speaker: master_thief
+          text: 你这个吝啬的老家伙，一点也没变。现在连自己的亲儿子都不肯收留了。
+        - id: ch02-b06
+          speaker: father
+          text: 什么？你是我的儿子？
+          emotion: surprised
+        - id: ch02-b07
+          speaker: master_thief
+          text: 您真的认不出我了吗？
+        - id: ch02-b08
+          speaker: narrator
+          text: 父亲盯着他端详了好一会儿，终于认出了自己的小儿子。
+        - id: ch02-b09
+          speaker: father
+          text: 你到底学了什么营生？怎么这么快就成了大人物？
+        - id: ch02-b10
+          speaker: master_thief
+          text: 这很简单。您当初让我自己挑一门手艺，我就去拜一伙贼和强盗为师。现在我已经出师，成了一个神偷。
+        - id: ch02-b11
+          speaker: narrator
+          text: 父亲的小屋附近住着一位乡绅。他的宅子大得惊人，家里的钱多到连他自己都数不清。乡绅还有一个女儿，又聪明又漂亮。神偷想娶她做妻子，就让父亲去替自己求亲，还叮嘱父亲，如果乡绅问起他的营生，就说他是个神偷。
+        - id: ch02-b12
+          speaker: father
+          text: 我看你准是疯了。你会想到这种事，脑子一定不清醒。
+        - id: ch02-b13
+          speaker: narrator
+          text: 神偷并没有疯。他坚持要父亲去见乡绅，替自己求娶他的女儿。
+        - id: ch02-b14
+          speaker: father
+          text: 我不敢去说这门亲事。乡绅那么富，家里又有那么多钱，我怎么敢开口？
+        - id: ch02-b15
+          speaker: narrator
+          text: 神偷说，这件事没有商量。父亲愿意也得去，不愿意也得去。要是父亲不肯自己走，他自然有办法逼他走。父亲仍旧不肯，神偷便拿一根结实的白桦木棍追着他打，直打得父亲又哭又抽噎，一跤跌进乡绅家的门。
+        - id: ch02-b16
+          speaker: squire
+          text: 喂，老兄，你这是怎么了？
+        - id: ch02-b17
+          speaker: narrator
+          text: 父亲从头讲起，说自己有三个儿子。他曾答应让孩子们各自出门，爱去哪里就去哪里，想干什么营生就干什么。
+        - id: ch02-b18
+          speaker: father
+          text: 现在我的小儿子回来了，硬把我打到这里，逼我替他求娶您的女儿。他还一定要我告诉您，他是个神偷。
+        - id: ch02-b19
+          speaker: narrator
+          text: 说完，父亲又哭哭啼啼起来。乡绅却笑了。
+        - id: ch02-b20
+          speaker: squire
+          text: 别难过，老兄。你回去告诉他，先让我看看他的本事。这个星期日，只要他能当着全家人的面，从厨房烤叉上偷走烤肉，我就把女儿嫁给他。
+    - id: ch03
+      title: 三只野兔与烤肉
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 父亲回家，把乡绅的话告诉了小伙子。小伙子觉得，这件事简直易如反掌。他捉来三只活野兔，装进口袋，又换上几件破衣服，把自己弄得又脏又穷，叫人看了都觉得可怜。
+        - id: ch03-b02
+          speaker: narrator
+          text: 星期日上午，他背着口袋，装成一个讨饭的孩子，从乡绅家后门偷偷钻进过道。乡绅带着全家上下守在厨房里，所有眼睛都盯着烤叉上的肉。小伙子放出第一只野兔。兔子跑到屋前院子里，一圈又一圈地飞奔。
+        - id: ch03-b03
+          speakers: [kitchen_servant_1, kitchen_servant_2, kitchen_servant_3]
+          ensemble: chorus
+          text: 哎呀，快看那只兔子！咱们快出去捉住它！
+        - id: ch03-b04
+          speaker: squire
+          text: 让它跑吧。那是只活蹦乱跳的野兔，你们哪里追得上？
+        - id: ch03-b05
+          speaker: narrator
+          text: 过了一会儿，小伙子又放出第二只。厨房里的人看见它，还当是先前那只兔子，立刻又吵着要出去追。乡绅仍说追不上。没过多久，第三只兔子也被放了出来。它和前两只一样，在院子里不停绕圈。大家以为那只兔子一直没有离开，一个个急着冲出去。
+        - id: ch03-b06
+          speaker: squire
+          text: 嗯，这只兔子确实不错。走吧，咱们也去试试，看能不能抓到它。
+        - id: ch03-b07
+          speaker: narrator
+          text: 乡绅带头冲出门，其余人紧跟在后。兔子跑在前面，一大群人追在后面，院里顿时热闹极了。小伙子趁机拿走烤肉，飞快逃掉。那天乡绅家后来拿什么做午饭，我可不知道。不过有件事我知道。乡绅追兔子追得满身大汗，却连一口烤野兔也没吃上。
+        - id: ch03-b08
+          speaker: narrator
+          text: 偏巧那天牧师来吃饭。乡绅说起神偷怎样捉弄了自己，牧师听完，没完没了地取笑他。
+        - id: ch03-b09
+          speaker: priest
+          text: 要是换成我，我真想不出那种家伙有什么办法，能把我耍得像个傻瓜。
+        - id: ch03-b10
+          speaker: squire
+          text: 你还是当心些吧。没准他已经找上门了，你却一点都没察觉。
+        - id: ch03-b11
+          speaker: narrator
+          text: 牧师仍一口咬定，自己绝不可能上当，还继续取笑乡绅。下午晚些时候，神偷来求乡绅照约定把女儿嫁给他。乡绅又想推托。
+        - id: ch03-b12
+          speaker: squire
+          text: 唉，你今天做的事，实在算不上多大的本领。屋里的牧师正笑话我，说我居然让你耍得团团转。你能不能也去好好捉弄他一回？
+        - id: ch03-b13
+          speaker: master_thief
+          text: 这有什么难的？
+    - id: ch04
+      title: 通往天国的窄路
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 神偷拿一幅雪白的床单披在身上，又把两只鹅翅膀绑在背后，把自己扮成一只大鸟。他爬上牧师花园里的一棵大枫树。傍晚，牧师回到家，他便从树上放声呼喊。
+        - id: ch04-b02
+          speaker: master_thief
+          text: 劳伦斯神父！劳伦斯神父！
+        - id: ch04-b03
+          speaker: priest
+          text: 是谁在叫我？
+        - id: ch04-b04
+          speaker: master_thief
+          text: 我是天使。上帝看见你这样虔诚，派我来通知你，你将活着升入天堂。下星期一夜里，你要准备好上路。到时候，我会带一只口袋来接你。你的金银，还有尘世间所有的财物，都得收拾起来，堆在饭厅里。
+        - id: ch04-b05
+          speaker: narrator
+          text: 劳伦斯神父跪倒在天使面前，连连道谢。第二天，他在教堂里讲了一篇告别布道。他告诉众人，一位天使曾降临在花园的大枫树上。天使说，因为他十分虔诚，他将被活着接入天堂。神父讲得感人至深，教堂里不论老人还是孩子，全都落下了眼泪。
+        - id: ch04-b06
+          speaker: narrator
+          text: 到了下个星期一夜里，神偷再次扮成天使。牧师跪下谢过他，随后钻进口袋。神偷把袋口扎得严严实实，拖着牧师一路翻过树桩，碾过石头。
+        - id: ch04-b07
+          speaker: priest
+          text: 哎哟！哎哟！我们这究竟是要去哪里？
+          emotion: fearful
+        - id: ch04-b08
+          speaker: master_thief
+          text: 这就是通往天国的窄路。
+        - id: ch04-b09
+          speaker: narrator
+          text: 神偷拖着袋子继续走，牧师浑身的骨头几乎都被撞断。最后，他把口袋丢进乡绅家的鹅棚。鹅群一下围上来，用尖嘴对着袋子又啄又拧，把牧师折腾得只剩下半条命。
+        - id: ch04-b10
+          speaker: master_thief
+          text: 现在你已经到了炼狱的烈焰中。你得洗净罪孽，才能获得永生。
+        - id: ch04-b11
+          speaker: narrator
+          text: 神偷说完就走了，临走还拿走了牧师堆在饭厅里的全部金银。第二天早晨，牧鹅姑娘来放鹅，听见口袋里有人躺着哀号。
+        - id: ch04-b12
+          speaker: goose_girl
+          text: 看在上天的分上，袋子里是谁？你这是怎么了？
+          emotion: surprised
+        - id: ch04-b13
+          speaker: priest
+          text: 哎哟！你若是天上的天使，就求你放我出去，让我回到人间吧。这里比地狱还可怕。那些小魔鬼一直拿钳子拧我。
+          emotion: fearful
+        - id: ch04-b14
+          speaker: goose_girl
+          text: 老天保佑，我可不是什么天使。我只是替乡绅看鹅。刚才拧您的那些小魔鬼，八成就是这群鹅。
+        - id: ch04-b15
+          speaker: narrator
+          text: 姑娘帮牧师钻出口袋。牧师一出来便捶起胸口。
+        - id: ch04-b16
+          speaker: priest
+          text: 哎哟，这全是神偷干的！我的金子，我的银子，还有那些好衣裳啊！
+          emotion: sad
+        - id: ch04-b17
+          speaker: narrator
+          text: 他一瘸一拐地急忙赶回家，牧鹅姑娘还以为这位神父忽然发了疯。乡绅听说牧师如何走过窄路，又如何进了炼狱，笑得肚皮都快撑破了。可是神偷来找他，再次照约定求娶女儿时，乡绅又一次推托。
+        - id: ch04-b18
+          speaker: squire
+          text: 你还得做一件更了不起的事，让我看清你究竟有多大本领。我的马厩里有十二匹马。我会派十二个马夫守着，每个人都坐在一匹马上。你若能从他们身子底下把马偷走，我再考虑该怎样答复你。
+        - id: ch04-b19
+          speaker: master_thief
+          text: 好，我想我办得到。不过，我真做成以后，您果真会把女儿嫁给我吗？
+        - id: ch04-b20
+          speaker: squire
+          text: 不错。只要你办得到，我一定尽力成全。
+    - id: ch05
+      title: 十二个马夫
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 神偷去商店买了许多白兰地，足够装满两个随身酒瓶。他在一个瓶子里掺入催眠药，另一个瓶子只装普通的白兰地。接着，他雇来十一个人，叫他们夜里藏在乡绅马厩的院墙外。最后，他拿好话加上一笔钱，从一位老太婆那里借到一件破长袍和一件破斗篷。
+        - id: ch05-b02
+          speaker: narrator
+          text: 黄昏时，他穿着借来的破衣裳，手里拄着木杖，背上背着包袱，一瘸一拐地走向马厩。马夫们正在给马饮夜水，忙得不可开交。其中一个看见这个老太婆，立刻冲她大喝。
+        - id: ch05-b03
+          speaker: stableman_1
+          text: 见鬼，你跑到这里来干什么？
+        - id: ch05-b04
+          speaker: master_thief
+          text: 哎呀呀，呼，真是冷死人了！这种天气，可怜人稍不留神，就会活活冻死。行行好，让我坐在马厩门里面待一会儿，成不成？
+        - id: ch05-b05
+          speaker: stableman_1
+          text: 行什么好？快给我滚！要是乡绅看见你，我们全都要倒霉。
+        - id: ch05-b06
+          speaker: stableman_2
+          text: 唉，她不过是个可怜的老太婆。让她在门里坐坐吧。像她这样的人，还能闯出什么祸？
+        - id: ch05-b07
+          speaker: narrator
+          text: 其余马夫有的赞成，有的反对。趁着大家争吵，又忙着照管马匹，假老太婆一点一点往里挪，最后在门背后坐下。既然人已经进来了，便再没有谁理会她。
+        - id: ch05-b08
+          speaker: narrator
+          text: 夜越来越深。十二个马夫一动不动地坐在马上，身上冷得厉害。
+        - id: ch05-b09
+          speaker: stableman_1
+          text: 呼，真是见鬼的冷！
+        - id: ch05-b10
+          speaker: stableman_2
+          text: 可不是吗？我冷得牙齿都在打战。
+        - id: ch05-b11
+          speaker: stableman_3
+          text: 要是这时候有口烟草嚼嚼就好了。
+        - id: ch05-b12
+          speaker: narrator
+          text: 正巧有个马夫带了一两盎司烟草，就拿出来分给大家。每个人只分到一点，他们还是嚼一阵，吐一口，再嚼一阵，又吐一口。身上刚暖和一点，没过多久，便又冷得和先前一样。
+        - id: ch05-b13
+          speaker: stableman_3
+          text: 呼，还是冷得受不了！
+        - id: ch05-b14
+          speaker: narrator
+          text: 假老太婆也跟着哆嗦，牙齿碰得咯咯作响。她拿出那瓶没有下药的白兰地，故意把手抖得厉害，瓶里的酒直晃。接着，她仰起头猛喝一口，喉咙里发出咕嘟一声。
+        - id: ch05-b15
+          speaker: stableman_1
+          text: 老太婆，你那瓶子里装的是什么？
+        - id: ch05-b16
+          speaker: master_thief
+          text: 哦，没什么，不过是一点白兰地，老兄。
+        - id: ch05-b17
+          speakers: [stableman_1, stableman_2, stableman_3]
+          ensemble: chorus
+          text: 白兰地！好家伙，快给我们也喝一口！
+        - id: ch05-b18
+          speaker: master_thief
+          text: 哎呀，就剩这么一点了，恐怕连你们每个人的嘴唇都沾不湿。
+        - id: ch05-b19
+          speaker: narrator
+          text: 可马夫们非喝不可，她怎么推也推不掉。于是，她掏出掺了催眠药的那一瓶，送到第一个马夫嘴边。这时，她的手忽然不抖了，酒瓶举得稳稳当当，让每个人都喝了个够。第十二个马夫还没喝完，第一个已经坐在马背上打起了鼾。
+        - id: ch05-b20
+          speaker: narrator
+          text: 神偷脱掉乞婆的破衣裳，轻手轻脚地把马夫们一个个抱下马，让他们跨坐在马槽之间的横梁上。随后，他叫来等在墙外的十一个帮手，众人骑走了乡绅的十二匹马。
+        - id: ch05-b21
+          speaker: narrator
+          text: 第二天早晨，乡绅来到马厩，十二个马夫才刚刚醒。有的用马刺猛踢横梁，踢得木屑四处乱飞。有的从梁上摔到地上。还有人两腿紧紧夹着木梁，呆呆坐在那里，活像一群傻瓜。
+        - id: ch05-b22
+          speaker: squire
+          text: 哈！哈！是谁来过，我一眼就看明白了。你们这群十足的蠢材，竟然坐在这里，眼睁睁让神偷从两腿底下把马全偷走！
+        - id: ch05-b23
+          speaker: narrator
+          text: 马夫们没能守好马，个个挨了一顿结实的鞭打。当天晚些时候，神偷又来见乡绅，把事情是怎样办成的全告诉他，随后要求乡绅履行诺言。乡绅却塞给他一百块钱，说他还得拿出更高明的本事。
+        - id: ch05-b24
+          speaker: squire
+          text: 要是我亲自骑马出去，你能从我身子底下把那匹马偷走吗？
+        - id: ch05-b25
+          speaker: master_thief
+          text: 能，我想我办得到。只要我真能相信，最后一定娶得到您的女儿。
+        - id: ch05-b26
+          speaker: narrator
+          text: 乡绅只说到时候再看。他告诉神偷，自己会挑一天到士兵操练的大草场上骑马。
+    - id: ch06
+      title: 酒桶上的手指
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: 神偷很快找到一匹衰老瘦弱的母马，用柳条和金雀花枝做成挽绳和轭具，又买了一辆破得不能再破的旧车，还有一个大酒桶。接着，他找到一位讨饭的老太婆，要她钻进酒桶，把嘴张开，贴住桶上的龙头孔，好让他从外面把手指伸进去。
+        - id: ch06-b02
+          speaker: master_thief
+          text: 你不会受一点伤，只要坐着车转一阵。我先给你十块钱。要是我把手指拔出来不止一次，每多一次，你还能再得十块钱。
+        - id: ch06-b03
+          speaker: narrator
+          text: 老太婆答应了。神偷在身上披了好几层破布，把自己塞得臃肿不堪，又戴上假发和用山羊毛做成的浓密胡须，叫谁也认不出他。他赶着破车来到草场时，乡绅已经骑着马在那里转了很久。
+        - id: ch06-b04
+          speaker: narrator
+          text: 神偷把车赶得又轻又慢，几乎寸步难行。他连喊两声驾，车子才勉强挪动一点，接着又停住，然后再挪一点。那车走得如此缓慢，乡绅根本没想到赶车的人会是神偷。
+        - id: ch06-b05
+          speaker: narrator
+          text: 最后，乡绅骑马来到他跟前，问他有没有看见什么人在附近的树林里鬼鬼祟祟。
+        - id: ch06-b06
+          speaker: squire
+          text: 听我说，你若肯骑进树林四处找找，看看有没有人埋伏在那里，我就把马借给你。回来以后，我再赏你一个先令，让你买酒喝我的健康。
+        - id: ch06-b07
+          speaker: master_thief
+          text: 我恐怕走不开。这桶蜂蜜酒要送去一场婚宴，是我特地进城取来的。可是桶塞半路掉了，我只能一直拿手指堵着龙头孔，同时赶车往前走。
+        - id: ch06-b08
+          speaker: squire
+          text: 你只管骑我的马去。你的母马和酒桶，都由我替你看守。
+        - id: ch06-b09
+          speaker: narrator
+          text: 那人这才答应。他再三叮嘱乡绅，等自己拔出手指，乡绅必须立刻把手指塞进孔里，而且一定要堵到他回来。乡绅照做了，神偷则骑上他的马，进了树林，很久都没有回来。乡绅越等越不耐烦，终于把手指拔了出来。
+        - id: ch06-b10
+          speaker: beggar_woman
+          text: 这下我又能多得十块钱啦！
+          emotion: happy
+        - id: ch06-b11
+          speaker: narrator
+          text: 乡绅听见桶里传出的尖叫，立刻明白自己又上当了。他转身往家走，可还没走多远，家里就派人送来一匹新马。原来神偷早已骑到他的宅子，叫仆人另外送匹马来接主人。
+        - id: ch06-b12
+          speaker: narrator
+          text: 第二天，神偷来找乡绅，要他照诺言把女儿嫁给自己。乡绅又说了一大通好话来推托，还给了他两百块钱。他说，只要神偷再完成最后一件杰作，就能娶到姑娘。神偷答应了，只要乡绅先说出要他做什么，他相信自己还是办得到。
+        - id: ch06-b13
+          speaker: squire
+          text: 你能不能从我们的床上偷走床单，再从我妻子身上偷走她的睡衣？这样的事，你也办得到吗？
+        - id: ch06-b14
+          speaker: master_thief
+          text: 一定办得到。我只希望自己也能这样确定，最后真的可以娶到您的女儿。
+    - id: ch07
+      title: 床单、睡衣和婚礼
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: 夜色降临，神偷来到绞刑架下。他割断绳子，取下一具吊死的贼尸，扛在肩上带走。随后，他找来一架长梯，搭到乡绅卧室的窗前。神偷爬上梯子，把尸体举起来又放下去，让那颗脑袋在窗外一露一藏，活像真有人正在探头偷看。
+        - id: ch07-b02
+          speaker: squire
+          text: 老婆子，窗外那个就是神偷！你等着看吧，我这次非开枪打死他不可。
+        - id: ch07-b03
+          speaker: narrator
+          text: 乡绅伸手拿起早已放在床边的火枪。
+        - id: ch07-b04
+          speaker: squire_wife
+          text: 别开枪！求你别开枪。你明明已经答应过，让他来试试这件事。
+          emotion: fearful
+        - id: ch07-b05
+          speaker: squire
+          text: 你别劝了，我今天非开枪不可。
+          emotion: angry
+        - id: ch07-b06
+          speaker: narrator
+          text: 他躺在床上瞄了又瞄。可窗外的脑袋每次刚露出一点，立刻又缩了回去。终于，乡绅觉得这次瞄准了。砰的一声枪响，尸体重重摔到地上，神偷也用最快的速度爬下了梯子。
+        - id: ch07-b07
+          speaker: squire
+          text: 嗯，我虽是这一带的首席治安官，可人们最爱说三道四。要是有人跑来围观这具尸体，那就麻烦了。我看还是亲自下楼，先把他埋起来吧。
+        - id: ch07-b08
+          speaker: squire_wife
+          text: 亲爱的，你觉得怎样处理最好，就怎样办吧。
+        - id: ch07-b09
+          speaker: narrator
+          text: 乡绅下了床，走到楼下。他刚把一只脚跨出大门，神偷就悄悄溜进屋，径直上楼，来到乡绅太太身边。
+        - id: ch07-b10
+          speaker: squire_wife
+          text: 咦，亲爱的，你这么快就回来了？
+          emotion: surprised
+        - id: ch07-b11
+          speaker: narrator
+          text: 她还以为回来的正是丈夫。
+        - id: ch07-b12
+          speaker: master_thief
+          text: 是啊。我只把他塞进一个坑，随手盖了点土。外面天气太坏，先叫人看不见就行，以后我再仔细埋。快把床单拿给我擦擦。他身上全是血，把我也弄得一塌糊涂。
+        - id: ch07-b13
+          speaker: narrator
+          text: 乡绅太太把床单递给了他。过了一会儿，神偷又开口。
+        - id: ch07-b14
+          speaker: master_thief
+          text: 恐怕还得把你的睡衣也给我。光有一条床单，实在不够用。
+        - id: ch07-b15
+          speaker: narrator
+          text: 她连睡衣也交给了他。神偷忽然说，自己忘了锁大门，得先下楼看看，再回来睡觉。说完，他拿着床单和睡衣离开了。
+        - id: ch07-b16
+          speaker: narrator
+          text: 没过多久，真正的乡绅回到卧室。
+        - id: ch07-b17
+          speaker: squire_wife
+          text: 哎呀，亲爱的，你锁一道门怎么用了这么久？床单和睡衣又被你拿到哪里去了？
+        - id: ch07-b18
+          speaker: squire
+          text: 你说什么？
+        - id: ch07-b19
+          speaker: squire_wife
+          text: 我是问你，刚才拿去擦血的床单和睡衣，究竟放在哪里了？
+        - id: ch07-b20
+          speaker: squire
+          text: 见鬼！这回他又把我耍了吗？
+          emotion: surprised
+        - id: ch07-b21
+          speaker: narrator
+          text: 第二天，神偷再次来见乡绅，要他照诺言把女儿嫁给自己。这一回，乡绅再也不敢推托，只得答应婚事，还陪送了一大笔钱。说实在的，他唯恐神偷下一次连自己的眼珠子也会偷走。再说，他若是继续背信弃义，人们一定会讲出许多难听话来。
+        - id: ch07-b22
+          speaker: narrator
+          text: 从此以后，神偷过上了富足快活的日子。我不知道他后来还偷没偷过东西。不过，他若真的偷了，我敢肯定，也只是为了找点乐子。

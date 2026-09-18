@@ -1,0 +1,187 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    girl:
+      display_name: The Girl
+      tts:
+        delivery: gentle and sincere, growing firm when she must keep her word
+        timbre: young and clear
+        pace: measured
+        pitch: medium-high
+    stepmother:
+      display_name: The Stepmother
+      tts:
+        delivery: cold and commanding, with sharp satisfaction when others suffer
+        timbre: mature and hard-edged
+        pace: measured
+        pitch: medium-low
+    frog_prince:
+      display_name: The Frog Prince
+      tts:
+        delivery: rough and croaking at first, becoming warm and courtly after the enchantment breaks
+        timbre: resonant and textured
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Impossible Errand
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, though it was not in my time or yours or anyone else's, there lived a girl whose mother had died. Her father married again, and the girl's new stepmother hated her for being more beautiful than she was. She treated the girl cruelly, made her do every servant's task, and never gave her a moment of peace.
+        - id: ch01-b02
+          speaker: narrator
+          text: One day, the stepmother decided to be rid of her altogether. She handed the girl a sieve.
+        - id: ch01-b03
+          speaker: stepmother
+          text: Take this to the Well of the World's End. Bring it home full of water, or you'll be sorry.
+        - id: ch01-b04
+          speaker: narrator
+          text: The stepmother was sure the girl would never find the well. And even if she did, how could anyone carry water home in a sieve?
+        - id: ch01-b05
+          speaker: narrator
+          text: The girl set out and asked everyone she met for the way to the Well of the World's End. No one knew. She had no idea where to turn until she met a strange little old woman, bent nearly double.
+        - id: ch01-b06
+          speaker: narrator
+          text: The old woman told her where the well lay and how to reach it. The girl followed her directions and, after a long journey, came at last to the Well of the World's End.
+        - id: ch01-b07
+          speaker: narrator
+          text: She dipped the sieve into the cold, cold water, but every drop ran straight out. She tried once, then again, and still the same thing happened. At last, she sat beside the well and cried as though her heart would break.
+
+    - id: ch02
+      title: The Frog's Bargain
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: All at once, a croaking voice spoke nearby. The girl looked up. A great frog with bulging eyes was staring at her.
+        - id: ch02-b02
+          speaker: frog_prince
+          text: What's troubling you, dearie?
+        - id: ch02-b03
+          speaker: girl
+          text: Oh dear, my stepmother sent me all this way to fill my sieve at the Well of the World's End. But the water runs out every time. I can't fill it at all.
+          emotion: sad
+        - id: ch02-b04
+          speaker: frog_prince
+          text: Promise to do everything I ask for one whole night, and I'll show you how.
+        - id: ch02-b05
+          speaker: narrator
+          text: The girl promised. Then the frog told her what to do.
+        - id: ch02-b06
+          speaker: frog_prince
+          text: Line it with moss and cover that with clay. Then your sieve will carry the water away.
+        - id: ch02-b07
+          speaker: narrator
+          text: With a hop, a skip, and a jump, the frog went flop into the Well of the World's End.
+        - id: ch02-b08
+          speaker: narrator
+          text: The girl gathered moss and lined the bottom of the sieve. She spread clay over the moss and dipped it into the well once more. This time, the water stayed inside. She lifted the full sieve and turned for home.
+        - id: ch02-b09
+          speaker: narrator
+          text: Just then, the frog's head popped above the water.
+        - id: ch02-b10
+          speaker: frog_prince
+          text: Don't forget your promise.
+        - id: ch02-b11
+          speaker: girl
+          text: All right. I won't forget.
+        - id: ch02-b12
+          speaker: narrator
+          text: She thought a frog could do her no harm. Then she carried the sieve all the way home, still full of water from the Well of the World's End. Her stepmother was furious to see her return, but she did not say a word.
+
+    - id: ch03
+      title: A Promise at the Door
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: That very evening, something began tap-tapping low down on the door. A voice called from outside.
+        - id: ch03-b02
+          speaker: frog_prince
+          text: Open the door, my hinny, my heart. Open the door, my own darling. Remember the words that you and I spoke, down in the meadow at the World's End Well.
+        - id: ch03-b03
+          speaker: stepmother
+          text: Whatever can that be?
+          emotion: surprised
+        - id: ch03-b04
+          speaker: narrator
+          text: The girl had to tell her stepmother about the frog and the promise she had made.
+        - id: ch03-b05
+          speaker: stepmother
+          text: A girl must keep her promises. Open that door this instant.
+        - id: ch03-b06
+          speaker: narrator
+          text: The stepmother was pleased that the girl would have to obey such a nasty frog. So the girl opened the door. There stood the frog from the Well of the World's End. It hopped, skipped, and jumped until it reached her.
+        - id: ch03-b07
+          speaker: frog_prince
+          text: Lift me onto your knee, my hinny, my heart. Lift me onto your knee, my own darling. Remember the words that you and I spoke, down in the meadow by the World's End Well.
+        - id: ch03-b08
+          speaker: narrator
+          text: The girl did not want to touch it.
+        - id: ch03-b09
+          speaker: stepmother
+          text: Pick it up at once, you hussy! A girl must keep her promises!
+          emotion: angry
+        - id: ch03-b10
+          speaker: narrator
+          text: At last, the girl lifted the frog onto her lap. It rested there for a while. Then it spoke again.
+
+    - id: ch04
+      title: The Long Night
+      blocks:
+        - id: ch04-b01
+          speaker: frog_prince
+          text: Give me some supper, my hinny, my heart. Give me some supper, my darling. Remember the words that you and I spoke, in the meadow by the Well of the World's End.
+        - id: ch04-b02
+          speaker: narrator
+          text: The girl did not mind feeding it. She brought a bowl of bread and milk and gave the frog a good supper. When it had eaten its fill, it made another request.
+        - id: ch04-b03
+          speaker: frog_prince
+          text: Take me to bed, my hinny, my heart. Take me to bed, my own darling. Remember the words you spoke to me, down by the cold and weary well.
+        - id: ch04-b04
+          speaker: narrator
+          text: This time, the girl refused.
+        - id: ch04-b05
+          speaker: stepmother
+          text: Do what you promised. A girl must keep her word. Obey, or you and your froggie can both leave this house.
+          emotion: angry
+        - id: ch04-b06
+          speaker: narrator
+          text: So the girl carried the frog to bed, though she kept it as far away from herself as she could. The long night passed. Just as day began to break, the frog spoke once more.
+        - id: ch04-b07
+          speaker: frog_prince
+          text: Chop off my head, my hinny, my heart. Chop off my head, my own darling. Remember the promise you made to me, down by the cold and weary well.
+        - id: ch04-b08
+          speaker: narrator
+          text: At first, the girl would not do it. She remembered how the frog had helped her at the Well of the World's End. But the frog repeated the same request.
+        - id: ch04-b09
+          speaker: frog_prince
+          text: Chop off my head, my hinny, my heart. Remember the promise you made to me.
+        - id: ch04-b10
+          speaker: narrator
+          text: The girl fetched an axe and chopped off the frog's head.
+
+    - id: ch05
+      title: The Enchantment Broken
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: And there before her, instead of a frog, stood a handsome young prince.
+        - id: ch05-b02
+          speaker: frog_prince
+          text: A wicked magician put me under a spell. It could only be broken if a girl obeyed me for one whole night and cut off my head at the end of it. You have set me free.
+        - id: ch05-b03
+          speaker: narrator
+          text: The stepmother could hardly believe her eyes when she found a young prince where the nasty frog had been. She was even less pleased when he told her what he meant to do.
+        - id: ch05-b04
+          speaker: frog_prince
+          text: Your stepdaughter broke the spell, and I am going to marry her.
+        - id: ch05-b05
+          speaker: narrator
+          text: So the prince and the girl were married. They went away together to live in the castle of his father, the king. The stepmother had only one comfort left. She could tell herself that it was all because of her that her stepdaughter had married a prince.

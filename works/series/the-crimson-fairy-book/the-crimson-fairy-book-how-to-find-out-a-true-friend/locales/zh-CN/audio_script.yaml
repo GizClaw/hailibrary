@@ -1,0 +1,353 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 从容而清晰，带着古老童话的神秘感与淡淡讽刺
+        timbre: 温暖清亮
+        pace: 舒缓，险境与转折处略微加快
+        pitch: 中音
+    prince:
+      display_name: 王子
+      tts:
+        delivery: 真诚爽朗，重情守诺，面临考验时坚定而克制
+        timbre: 清朗年轻
+        pace: 中速
+        pitch: 中音
+    queen:
+      display_name: 王后
+      tts:
+        delivery: 慈爱忧郁，对儿子的牵挂深切而柔和
+        timbre: 温润成熟
+        pace: 舒缓
+        pitch: 中音
+    first_youth:
+      display_name: 第一个青年
+      tts:
+        delivery: 随和却自顾自，说话干脆
+        timbre: 明亮年轻
+        pace: 中速偏快
+        pitch: 中音
+    second_youth:
+      display_name: 第二个青年
+      tts:
+        delivery: 爽快而不拘小节，语气直截了当
+        timbre: 清脆年轻
+        pace: 中速
+        pitch: 中高音
+    true_friend:
+      display_name: 真朋友
+      tts:
+        delivery: 活泼风趣，待人谦让，历经磨难仍诚恳可靠
+        timbre: 清亮年轻
+        pace: 中速偏快
+        pitch: 中音
+    foreign_king:
+      display_name: 异国国王
+      tts:
+        delivery: 表面热情威严，盘算私利时冷硬阴沉
+        timbre: 浑厚成熟
+        pace: 中速偏慢
+        pitch: 中低音
+    servant_1:
+      display_name: 仆人甲
+      tts:
+        delivery: 恭敬谨慎，禀报时简洁清楚
+        timbre: 朴实成熟
+        pace: 中速
+        pitch: 中音
+    servant_2:
+      display_name: 仆人乙
+      tts:
+        delivery: 恭敬沉稳，随声应答时克制
+        timbre: 平和成熟
+        pace: 中速
+        pitch: 中低音
+    saint_james:
+      display_name: 圣詹姆斯
+      tts:
+        delivery: 苍老安定，发问时庄重，赐福时仁慈有力
+        timbre: 低沉醇厚
+        pace: 舒缓
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 王后的誓愿
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，一位国王和王后盼儿子盼了许多年，却一直没有孩子。他们来到圣詹姆斯的圣坛前许愿。只要上天赐下一个男孩，等他过完十八岁生日，就让他出门朝圣。一天傍晚，国王打猎回来，竟看见摇篮里躺着一个婴儿。两人不知有多欢喜。
+        - id: ch01-b02
+          speaker: narrator
+          text: 百姓纷纷赶来，挤在摇篮边看孩子，都说从没见过这么漂亮的婴儿。人们见到孩子总爱这么夸，可这一回确实没有夸张。男孩一天比一天高，也一天比一天强壮。十二岁那年，国王去世了。从此，他身边再没有父亲，只能由他独自照料母亲。
+        - id: ch01-b03
+          speaker: narrator
+          text: 转眼又过了六年。王子就要满十八岁了，王后一想起当年的誓愿，心便沉了下去。儿子是她眼中的光，她怎么舍得让他独自面对朝圣路上的种种危险？她日渐忧伤，常在无人处痛哭。
+        - id: ch01-b04
+          speaker: prince
+          text: 母亲，您怎么从早到晚都在流泪？
+        - id: ch01-b05
+          speaker: queen
+          text: 没什么，孩子。世上只有一桩事，让我始终放不下心。
+          emotion: sad
+        - id: ch01-b06
+          speaker: prince
+          text: 是什么事？莫非您担心庄园没有料理好？让我替您去看看。
+        - id: ch01-b07
+          speaker: narrator
+          text: 王后听了很欣慰。王子骑马前往平原，巡视母亲在那里拥有的大片庄园。他一路仔细察看，发现一切都安排得妥妥当当。牲畜吃得饱，长得壮。田里的谷物密密层层，结满穗子，眼看就能收割。他这才放下心，高高兴兴回到宫中。
+        - id: ch01-b08
+          speaker: prince
+          text: 母亲，这下您能安心了。您的庄园比我见过的任何一处都照管得好。牲畜兴旺，庄稼也快熟了。
+        - id: ch01-b09
+          speaker: queen
+          text: 这真是好消息。
+        - id: ch01-b10
+          speaker: narrator
+          text: 可王后的愁容一点也没有散去。第二天一早，她又像往常一样哭了起来。王子再也忍不住了。
+        - id: ch01-b11
+          speaker: prince
+          text: 亲爱的母亲，您若还不肯说出为何如此痛苦，我就离开家，到远方四处漂泊。
+        - id: ch01-b12
+          speaker: queen
+          text: 我的儿子，我难过，正是因为非同你分别不可。你出生以前，我们向圣詹姆斯发过誓。你一过十八岁生日，就得去他的圣坛朝圣。那地方远极了。很快，我就要整整一年见不到你了。
+          emotion: sad
+        - id: ch01-b13
+          speaker: prince
+          text: 原来只要一年就能到吗？母亲，别再这样伤心。只有死去的人才不会回来。只要我活着，就一定回到您身边。
+        - id: ch01-b14
+          speaker: narrator
+          text: 王子这样宽慰着母亲。十八岁生日那天，他最好的马被牵到宫门前，他也到了辞行的时候。
+        - id: ch01-b15
+          speaker: prince
+          text: 亲爱的母亲，再会。只要命运肯相助，我会尽快回来。
+        - id: ch01-b16
+          speaker: narrator
+          text: 王后哭得泣不成声。她从衣袋里拿出三个苹果，送到儿子手中。
+        - id: ch01-b17
+          speaker: queen
+          text: 孩子，带上它们，也记住我的话。长路上，你需要一个同伴。若遇见合意的青年，就邀他同行，再请他到客店吃顿饭。饭后，把苹果切成一大一小两块，让他先挑。他若拿大的，就离开他，那不是真朋友。他若肯拿小的，你便待他如兄弟，把自己的一切都同他分享。
+        - id: ch01-b18
+          speaker: narrator
+          text: 这些话说完，王后再次亲吻儿子，又郑重为他祝福。她纵然万般不舍，也只能松开双手，让王子骑着那匹最好的马，踏上漫长的旅途。
+
+    - id: ch02
+      title: 三个苹果的考验
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 王子骑了很远，连一个活物也没遇见。后来，他远远看见一个年纪相仿的青年，便催马赶了上去。陌生人停下脚步。
+        - id: ch02-b02
+          speaker: first_youth
+          text: 英俊的小伙子，你要去哪儿？
+        - id: ch02-b03
+          speaker: prince
+          text: 我要去圣詹姆斯的圣坛朝圣。我还没出生时，母亲便许了愿，要我在十八岁生日带着谢恩的供物出发。
+        - id: ch02-b04
+          speaker: first_youth
+          text: 我也是去还母亲当年许下的愿。既然顺路，我们不如结伴走。
+        - id: ch02-b05
+          speaker: narrator
+          text: 王子答应了，两个人便朝同一个方向赶路。不过，他始终留着一分小心，没有马上同新同伴熟络起来。母亲给他的苹果还没有派上用场，他得先看看这青年究竟会怎样选择。过了一阵，两人来到一家客店。
+        - id: ch02-b06
+          speaker: prince
+          text: 我已经饿坏了。我们进去叫些吃的吧。
+        - id: ch02-b07
+          speaker: narrator
+          text: 两人吃过一顿丰盛的饭，王子拿出苹果，切成一大一小两块。青年毫不犹豫地挑了大的。王子心里明白，这不是自己的朋友，便装病说走不动了。
+        - id: ch02-b08
+          speaker: first_youth
+          text: 我可等不了你，还得赶路呢。再会。
+        - id: ch02-b09
+          speaker: prince
+          text: 再会。
+        - id: ch02-b10
+          speaker: narrator
+          text: 这么容易便摆脱了他，王子暗自庆幸。他在店里多等了一阵，估摸那人已经走远，才重新上马。可他喜欢有人陪伴，一个人只觉得长路沉闷得没有尽头。
+        - id: ch02-b11
+          speaker: prince
+          text: 要是能遇到一个真朋友，让我有个人说说话，该多好。我实在不喜欢独自赶路。
+        - id: ch02-b12
+          speaker: narrator
+          text: 不久，他追上第二名青年。那人停下来，也称他为英俊的小伙子，问他打算去哪里。王子便把朝圣的缘由从头说了一遍。对方的回答竟同第一个青年完全相同。他说，自己出生时母亲也许过愿，如今正要出门还愿。
+        - id: ch02-b13
+          speaker: prince
+          text: 那就一起骑马走吧。
+        - id: ch02-b14
+          speaker: narrator
+          text: 有了谈伴，路果然短了许多。来到下一家客店，王子说自己饿了，又邀青年进去吃饭。饭后，他取出第二个苹果，切成一大一小两块，一起送到对方面前。那人想也没想，一把拿走大的，立刻吃了个干净。王子明白，这仍不是自己的朋友，只好再次装病。等青年先走远，他才一个人上路。这回，路似乎比先前更加漫长乏味。
+        - id: ch02-b15
+          speaker: prince
+          text: 但愿我能遇见真正的朋友。若真遇见了，我一定把他当成亲兄弟。
+          emotion: sad
+        - id: ch02-b16
+          speaker: narrator
+          text: 他正伤心地叹息，忽然注意到又有一名青年走在同一条路上。对方渐渐赶上来，也称他为英俊的小伙子，问他要往哪里去。于是，王子第三次讲起自己出生以前，母亲在圣坛前许下的那个誓愿。
+        - id: ch02-b17
+          speaker: true_friend
+          text: 真巧，我的情形同你完全一样！
+          emotion: surprised
+        - id: ch02-b18
+          speaker: prince
+          text: 那我们结伴赶路吧。
+        - id: ch02-b19
+          speaker: narrator
+          text: 新同伴活泼风趣，一程程路仿佛从他们脚下飞过去。王子暗暗希望，这次遇见的真是他要找的人。两人很快来到路边的客店，进去吃了一顿饭。
+        - id: ch02-b20
+          speaker: narrator
+          text: 饭后，王子拿出最后一个苹果，照旧切成一大一小两块。青年伸手拿走了小的那一块。王子的心顿时亮了。他苦苦寻找的朋友，终于出现了。
+        - id: ch02-b21
+          speaker: prince
+          text: 好兄弟，从今天起，我们就是一家人。我的一切都分给你，你所有的也同我分享。我们一起去圣坛。谁若死在路上，另一个就把他的遗体带到那里。
+          emotion: happy
+        - id: ch02-b22
+          speaker: narrator
+          text: 青年全都答应了。两个人并肩向前，穿过一个又一个陌生国度。这一走，足足走了一年。
+
+    - id: ch03
+      title: 毒酒与圣坛
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 一天，他们又累又饿地来到一座大城，便商量着先在这里歇一阵，恢复力气以后再继续朝圣。两人在王宫近旁租下一幢小屋，暂且安顿下来。第二天早晨，这个国家的国王碰巧走上阳台。他向下一望，正看见两个年轻人待在小屋的花园里。
+        - id: ch03-b02
+          speaker: foreign_king
+          text: 好俊美的两个青年！不过，其中一个更加出众。我要把女儿嫁给他。
+        - id: ch03-b03
+          speaker: narrator
+          text: 国王看中的正是王子。他把两名青年请进王宫，热情款待，又让女儿出来相见。那位公主美得惊人，太阳和月亮加在一起，也比不过她。可到了夜里，国王竟命人给王子的朋友送去毒酒。青年喝下以后，几分钟便没了气息。
+        - id: ch03-b04
+          speaker: foreign_king
+          text: 只要他的同伴一死，他就会忘了朝圣，留下来娶我的女儿。
+        - id: ch03-b05
+          speaker: narrator
+          text: 第二天醒来，王子四处不见朋友，连忙向仆人询问。
+        - id: ch03-b06
+          speakers: [servant_1, servant_2]
+          ensemble: duo
+          text: 他昨夜忽然死了，马上就要下葬。
+        - id: ch03-b07
+          speaker: prince
+          text: 我的朋友死了，我便不能再留在这里。这座宫殿，我一刻也待不下去。
+        - id: ch03-b08
+          speaker: foreign_king
+          text: 别再去朝圣了，留下吧。我把女儿嫁给你。
+        - id: ch03-b09
+          speaker: prince
+          text: 不，我不能留下。请您赐我一匹好马，让我平安离开。等我还完誓愿，再回来迎娶公主。
+        - id: ch03-b10
+          speaker: narrator
+          text: 国王看出无论再说什么，也动摇不了王子的决心，只得命人牵来一匹马。王子翻身上马，又把死去的朋友抱起来，横放在自己身前的马鞍上。就这样，他亲自带着朋友离开王宫。其实，那青年并没有真的死去，只是毒酒令他陷入了极深的沉睡。
+        - id: ch03-b11
+          speaker: narrator
+          text: 王子终于来到圣詹姆斯的圣坛。他跳下马，像抱孩子一样抱起朋友，把他放到祭坛前。
+        - id: ch03-b12
+          speaker: prince
+          text: 圣詹姆斯，父母替我许下的愿，我已经还了。我亲自来到您的圣坛，也带来了朋友。现在我把他交给您。求您让他活过来吧。他虽已死，却也同我一样履行了誓愿。
+        - id: ch03-b13
+          speaker: narrator
+          text: 奇迹就在这时发生了。王子的祈祷还没有说完，躺在祭坛前的朋友便睁开双眼，自己站了起来。他来到王子面前，身体完好如初，仿佛那杯毒酒从来没有碰过他的嘴唇。两个年轻人一同向圣詹姆斯献上感谢，然后转身踏上归途。
+        - id: ch03-b14
+          speaker: narrator
+          text: 回到那座城，他们又住进王宫对面的小屋。消息很快传遍全城。国王听说俊美的王子回来了，高兴极了，立刻命人预备盛宴。几天以后，王子同公主举行婚礼。王子觉得世上再没有比这更大的幸福。婚后，他们又在宫廷里快活地住了几个月。
+
+    - id: ch04
+      title: 国王的诡计
+      blocks:
+        - id: ch04-b01
+          speaker: prince
+          text: 母亲还在家里等我，一定满心牵挂。我不能继续住下去了。明天，我要带着妻子和朋友启程回家。
+        - id: ch04-b02
+          speaker: narrator
+          text: 国王答应了，也吩咐人预备行程。可他心里一直痛恨王子的朋友。自己分明想毒死他，他怎么偏偏活着回来了？国王又想出一条毒计，派青年去遥远的地方送信。
+        - id: ch04-b03
+          speaker: foreign_king
+          text: 务必快去快回。你的朋友会等你回来，再一同出发。
+        - id: ch04-b04
+          speaker: narrator
+          text: 青年想尽快办完差事，便向王子告别，催马远去。他前脚刚走，国王后脚就来到王子房里。
+        - id: ch04-b05
+          speaker: foreign_king
+          text: 你若还不立刻动身，今晚就赶不到该扎营的地方了。
+        - id: ch04-b06
+          speaker: prince
+          text: 朋友没有回来，我不能先走。
+        - id: ch04-b07
+          speaker: foreign_king
+          text: 他一个钟头便能赶回来。我会把自己最好的马给他，他一定追得上你。
+        - id: ch04-b08
+          speaker: narrator
+          text: 王子终于听信了。他辞别岳父，带着妻子踏上归途。另一边，可怜的朋友没能在国王规定的时间里办完差事。等他赶回王宫，王子的队伍早已走远。
+        - id: ch04-b09
+          speaker: foreign_king
+          text: 你的同伴已经在很远的地方了。你还是试试看，能不能追上他吧。
+        - id: ch04-b10
+          speaker: narrator
+          text: 青年向国王行礼告退。国王根本没有照先前所说的那样给他一匹快马，他只好靠双脚去追。他白天跑，夜里也跑，一刻不敢停下。等他终于找到王子扎营的地方，早已精疲力竭。他浑身覆盖着泥浆和尘土，一头倒在朋友面前，模样凄惨极了。
+        - id: ch04-b11
+          speaker: narrator
+          text: 王子见到他，却满心欢喜，马上把他接进营帐，像照顾亲兄弟一样照顾他。此后，他们终于一同回到了故国。
+
+    - id: ch05
+      title: 最沉重的代价
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 王后一直守在宫中，儿子离去以后，她没有一天不在等候。如今终于见到他回来，她欢喜得几乎承受不住。稍稍定神以后，她才注意到王子的朋友已经病倒，便立刻命人铺床，又召集全国最好的医生。
+        - id: ch05-b02
+          speaker: narrator
+          text: 医生听见王后的召唤，纷纷从全国各地赶到宫中。他们一个接一个替青年诊治，使尽各自的办法，却没有谁能让病人好起来。所有人都试过以后，一名仆人走进房间禀告，有位陌生老人刚刚敲响宫门，说自己能救活这个垂死的人。老人其实是一位圣者。他听说王子遭逢困境，特意赶来相助。
+        - id: ch05-b03
+          speaker: narrator
+          text: 就在这时候，王子刚有了一个小女儿。可他一心担忧病重的朋友，几乎顾不上婴儿。别人怎么劝，他都不肯离开病床。圣者走进房间时，他仍俯身守在朋友身旁。
+        - id: ch05-b04
+          speaker: saint_james
+          text: 你想治好自己的朋友吗？为了救他，你肯付出多大的代价？
+        - id: ch05-b05
+          speaker: prince
+          text: 代价？您只管告诉我，要怎样才能让他康复。
+        - id: ch05-b06
+          speaker: saint_james
+          text: 那就听清楚。今天傍晚，你必须抱来自己的女儿，割开她的血管，再把孩子的血涂上朋友的伤口。他马上就会恢复健康。
+        - id: ch05-b07
+          speaker: narrator
+          text: 王子惊恐地叫出了声。他深深爱着这个刚出生的孩子，可他同样没有忘记自己的誓言。
+        - id: ch05-b08
+          speaker: prince
+          text: 我发过誓，要把朋友当作亲兄弟。若真的没有别的办法，我只能牺牲自己的孩子。
+        - id: ch05-b09
+          speaker: narrator
+          text: 这时天已经黑了。王子抱来女儿，割开她的血管，把鲜血涂在病人的伤口上。青年脸上的死色立刻退去，身体又强健起来，双颊也恢复了血色。可是小婴儿苍白安静地躺着，仿佛已经死了。
+        - id: ch05-b10
+          speaker: narrator
+          text: 人们轻轻抱起孩子，把她重新放进摇篮。看见她一动不动，大家都伤心地哭了起来。他们不敢相信还会有奇迹，只以为等到第二天早晨，这个小生命便会永远离开父母，再也醒不过来。
+
+    - id: ch06
+      title: 真朋友的祝福
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: 太阳升起时，老人再次来到宫中，问起病人的情形。
+        - id: ch06-b02
+          speaker: prince
+          text: 他已经完全康复了。
+        - id: ch06-b03
+          speaker: saint_james
+          text: 那么，你的孩子在哪里？
+        - id: ch06-b04
+          speaker: prince
+          text: 就在那边的摇篮里。我想，她已经死了。
+          emotion: sad
+        - id: ch06-b05
+          speaker: saint_james
+          text: 再去看她一眼吧。
+        - id: ch06-b06
+          speaker: narrator
+          text: 众人走近摇篮，只见婴儿好端端地躺在那里，还仰起小脸，对着他们微笑。
+        - id: ch06-b07
+          speaker: saint_james
+          text: 我就是利齐亚的圣詹姆斯。我看见你确实是一位真正的朋友，所以前来帮助你们。从今以后，你们大家要幸福地生活在一起。将来若有灾祸临近，只管派人找我，我会帮你们平安渡过。
+        - id: ch06-b08
+          speaker: narrator
+          text: 圣詹姆斯抬手为众人祝福，随即消失了。大家听从他的嘱咐，从此过着幸福知足的生活，也尽力让这个国家的百姓同他们一样幸福知足。

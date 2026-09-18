@@ -1,0 +1,736 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，保留古老童话的神秘感
+        timbre: 温暖清晰
+        pace: 舒缓
+        pitch: 中音
+    old_woman:
+      display_name: 老妇人
+      tts:
+        delivery: 朴实直率，遇险时惊惧而克制
+        timbre: 苍老柔和
+        pace: 适中
+        pitch: 中低音
+    uncle:
+      display_name: 舅舅
+      tts:
+        delivery: 厚道老实，困苦时带着无奈
+        timbre: 温厚清朗
+        pace: 适中
+        pitch: 中音
+    sister:
+      display_name: 妹妹
+      tts:
+        delivery: 表面亲热，心意转冷时干脆狠厉
+        timbre: 柔和偏冷
+        pace: 适中
+        pitch: 中音
+    daughter_in_law:
+      display_name: 儿媳
+      tts:
+        delivery: 冷淡务实，说话毫不迟疑
+        timbre: 清晰平直
+        pace: 适中
+        pitch: 中音
+    butcher_1:
+      display_name: 屠夫甲
+      tts:
+        delivery: 粗声直气，语气理所当然
+        timbre: 粗厚
+        pace: 适中
+        pitch: 低音
+    butcher_2:
+      display_name: 屠夫乙
+      tts:
+        delivery: 生硬冷漠，随声应答
+        timbre: 沙哑厚重
+        pace: 适中
+        pitch: 中低音
+    husband:
+      display_name: 妹夫
+      tts:
+        delivery: 原本温和顺从，变身谋害时压低声音
+        timbre: 低沉平稳
+        pace: 稍慢
+        pitch: 低音
+    mohammed:
+      display_name: 穆罕默德
+      tts:
+        delivery: 聪明大胆，年少却镇定，捉弄恶人时狡黠利落
+        timbre: 清亮有力
+        pace: 适中偏快
+        pitch: 中高音
+    red_haired_master:
+      display_name: 红发主人
+      tts:
+        delivery: 专横贪婪，受挫后气急败坏
+        timbre: 粗沉有力
+        pace: 适中
+        pitch: 中低音
+    masters_mother:
+      display_name: 主人的老母亲
+      tts:
+        delivery: 刁钻刻薄，害怕时慌乱讨好
+        timbre: 苍老尖细
+        pace: 适中偏快
+        pitch: 高音
+    boy_1:
+      display_name: 男孩甲
+      tts:
+        delivery: 稚气直接，和兄弟们齐声时响亮
+        timbre: 清脆
+        pace: 稍快
+        pitch: 高音
+    boy_2:
+      display_name: 男孩乙
+      tts:
+        delivery: 活泼急切，和兄弟们齐声时自然
+        timbre: 明亮
+        pace: 稍快
+        pitch: 高音
+    boy_3:
+      display_name: 男孩丙
+      tts:
+        delivery: 直率好奇，和兄弟们齐声时清楚
+        timbre: 清朗
+        pace: 稍快
+        pitch: 中高音
+    youngest_boy:
+      display_name: 最小的男孩
+      tts:
+        delivery: 年幼天真，声音轻而清楚
+        timbre: 轻柔清脆
+        pace: 稍慢
+        pitch: 高音
+    villager_1:
+      display_name: 村民甲
+      tts:
+        delivery: 闻声赶来，惊讶急切
+        timbre: 洪亮自然
+        pace: 稍快
+        pitch: 中音
+    villager_2:
+      display_name: 村民乙
+      tts:
+        delivery: 关切直率，随众发问
+        timbre: 清晰厚实
+        pace: 稍快
+        pitch: 中音
+    servant_1:
+      display_name: 仆人甲
+      tts:
+        delivery: 听命行事，困惑时语气直白
+        timbre: 结实清楚
+        pace: 适中
+        pitch: 中音
+    servant_2:
+      display_name: 仆人乙
+      tts:
+        delivery: 朴实爽直，受骗后难掩羞惭
+        timbre: 稳重
+        pace: 适中
+        pitch: 中低音
+    judge:
+      display_name: 法官
+      tts:
+        delivery: 庄重简明，判案时不动声色
+        timbre: 浑厚清晰
+        pace: 稍慢
+        pitch: 低音
+    bedouin_1:
+      display_name: 第一位贝都因主人
+      tts:
+        delivery: 好客爽快，被吵醒时不耐烦
+        timbre: 粗犷温暖
+        pace: 适中
+        pitch: 中低音
+    bedouin_2:
+      display_name: 第二位贝都因主人
+      tts:
+        delivery: 自信干脆，厌烦吵闹
+        timbre: 厚实
+        pace: 适中
+        pitch: 低音
+    bedouin_father:
+      display_name: 姑娘的父亲
+      tts:
+        delivery: 强硬爱面子，发怒时声音严厉
+        timbre: 粗沉
+        pace: 适中
+        pitch: 低音
+    maiden:
+      display_name: 姑娘
+      tts:
+        delivery: 年轻谨慎，配合计策时压低声音
+        timbre: 清亮柔和
+        pace: 适中
+        pitch: 中高音
+    bedouin_4:
+      display_name: 第四位贝都因主人
+      tts:
+        delivery: 豪爽好客，受惊后急于息事宁人
+        timbre: 宽厚洪亮
+        pace: 适中
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 没有死亡的城
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，有个女人，膝下有一儿一女。一天早晨，她对两个孩子说，自己听说有一座城，那里根本没有死亡，一家人应该搬去居住。于是，她收拾了全部家当，带着儿女离开故乡。到了那座城，她头一件事就是四下寻找墓地。街里街外全看遍了，果然一处也没有。她高兴极了，觉得这里实在美好，一家人可以永远住下去。日子一年年过去，儿子长大成人，娶了一个生在城里的姑娘。可他安稳没多久，又想去远方闯荡，于是把母亲、妻子和妹妹留在家中，独自踏上旅途。
+        - id: ch01-b02
+          speaker: old_woman
+          text: >-
+            我很不舒服，头疼得快要裂开了。
+        - id: ch01-b03
+          speaker: daughter_in_law
+          text: >-
+            你说什么？头疼得厉害吗？
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            儿媳听清以后，一句也不多问，匆匆跑到隔壁街去找屠夫。
+        - id: ch01-b05
+          speaker: daughter_in_law
+          text: >-
+            我这里有个女人要卖。你们肯出什么价钱？
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            屠夫们说要先看看人，便跟她回了家。他们一见老妇人，就抓住她，说非把她杀掉不可。老妇人惊问缘故。
+        - id: ch01-b07
+          speakers: [butcher_1, butcher_2]
+          ensemble: duo
+          text: >-
+            这是城里的老规矩。谁病了，还说自己头疼，就要马上杀掉。总比让人慢慢病死痛快。
+        - id: ch01-b08
+          speaker: old_woman
+          text: >-
+            那好吧。只求你们别动我的肺和肝，把它们留到儿子回来，再交给他。
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            屠夫们没有照她所求的那样等待。他们立刻取出她的肺和肝，交给儿媳，叫她藏好，等丈夫回来再拿出来。老妇人的女儿那时正在树林里。等她回来，听说母亲趁自己不在时被杀，顿时吓得魂不附体，拔腿逃出城去。她拼命奔跑，直到远离城镇，来到一处荒无人烟的地方，才觉得暂时安全。姑娘坐在石头上伤心痛哭，哭得浑身抽动。就在这时，一个男人从旁边经过。
+        - id: ch01-b10
+          speaker: husband
+          text: >-
+            小姑娘，你为什么哭？告诉我吧，我愿意做你的朋友。你肯跟我走吗？
+        - id: ch01-b11
+          speaker: sister
+          text: >-
+            他们杀了我母亲，哥哥又远在外面。我已经没有亲人了。我愿意跟你走。
+          emotion: sad
+        - id: ch01-b12
+          speaker: narrator
+          text: >-
+            男人领她不断往下，深入地底，来到一座大城，后来又娶她为妻。过了一段日子，她生下一个儿子。这个孩子只要伸出小指，就能看见两天路程之内发生的一切。因此，全城人都叫他神指穆罕默德。
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            穆罕默德渐渐长大时，舅舅也结束远游，回到了妻子身边。他进门便问母亲和妹妹在哪里，妻子却叫他先吃饭。
+        - id: ch01-b14
+          speaker: uncle
+          text: >-
+            不知道她们出了什么事，我怎么吃得下？
+        - id: ch01-b15
+          speaker: narrator
+          text: >-
+            妻子见他不肯吃，便上楼搬来一只装满钱的匣子，摆在他面前。她说，那就是卖掉母亲所得的钱，母亲还卖了个好价钱。母亲不过抱怨了一句头疼，她便叫来两个屠夫，让他们把人收走。幸好肺和肝还藏在安全的地方，一直等着丈夫回来。至于妹妹，她在众人剁碎母亲时逃出了城，从此再也没有消息。
+        - id: ch01-b16
+          speaker: uncle
+          text: >-
+            把母亲的肺和肝给我。这么可怕的城，我一天也不能再待。我要去寻找妹妹。
+        - id: ch01-b17
+          speaker: narrator
+          text: >-
+            他把母亲的肺和肝揣进口袋，立刻离开了那座可怕的城，一路寻找妹妹。一天，穆罕默德忽然伸出小指，告诉母亲，舅舅正在两天路程以外四处寻找他们，很快就会到来。两天以后，舅舅果真找到通往地底的洞口，顺着洞穴走进地下大城，来到城门。他一路上已经花光所有钱，又不知道妹妹住在哪一座房子，只得向每一个遇见的人伸手乞讨。
+        - id: ch01-b18
+          speaker: mohammed
+          text: >-
+            母亲，舅舅已经到我们家门口了！
+          emotion: happy
+        - id: ch01-b19
+          speaker: narrator
+          text: >-
+            妹妹跑出去抱住哥哥，两个人哭了许久。她说母亲遇害时自己不在场，什么也做不了，只有逃命。哥哥也说，自己只是偶然找到这里，根本没想到真能重逢。妹妹告诉他，是穆罕默德早在两天前就看见他来了。
+        - id: ch01-b20
+          speaker: narrator
+          text: >-
+            妹妹却对哥哥隐瞒了一件事。她的丈夫并不是寻常人，只要自己愿意，随时都能变成蛇、狗或可怕的怪物。他还十分富有，拥有一大群一大群骆驼、山羊、绵羊、牛、马和驴，每一头都是同类中最好的。第二天早晨，妹妹亲热地叫哥哥替家里看守绵羊，口渴时尽管喝羊奶。哥哥答应下来。可没过多久，她又改变主意，叫哥哥去看山羊。哥哥问为什么，还说自己更喜欢照看绵羊。妹妹却哄他说，做牧山羊的人有意思得多。哥哥只好把山羊赶出了门。
+    - id: ch02
+      title: 蛇与毒骨
+      blocks:
+        - id: ch02-b01
+          speaker: sister
+          text: >-
+            你必须杀掉我哥哥。我不能让他继续住在这里。你要是不肯，我就离开你。
+        - id: ch02-b02
+          speaker: husband
+          text: >-
+            他没有害过我，我为什么要杀他？唉，既然你非要这样，明天我就变成蛇，躲进椰枣桶。他伸手拿椰枣时，我会咬他。
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            第二天，妹妹叫哥哥去放山羊。穆罕默德坚持要跟去，舅舅欣然答应。等两人走到屋子看不见的地方，孩子便揭开了父母的毒计。
+        - id: ch02-b04
+          speaker: mohammed
+          text: >-
+            好舅舅，父亲已经变成蛇，藏在椰枣桶里。母亲会叫你去取果子。你只管说身体不舒服，让我替你拿。
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            傍晚回到家，妹妹果然迎上来，说哥哥一定饿了，催他去桶里拿几颗椰枣。哥哥照孩子教的说自己身体不舒服，请穆罕默德代劳。孩子立刻向桶边跑去。母亲一听就慌了，在后面连声叫他回来，坚持让舅舅亲自去拿。穆罕默德却喊着自己偏要帮忙，把手伸进桶里。他的手没有碰到甜甜的果子，而是撞上一个冰冷黏滑的东西。那正是变成蛇的父亲。
+        - id: ch02-b06
+          speaker: mohammed
+          text: >-
+            别动，是我，你儿子。
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            穆罕默德拿了椰枣，交给舅舅尽管吃。蛇等不到舅舅靠近，只得爬出桶，变回人形。
+        - id: ch02-b08
+          speaker: husband
+          text: >-
+            幸好我没杀他。他毕竟是我的妻兄，要是杀了他，那可是大罪。
+        - id: ch02-b09
+          speaker: sister
+          text: >-
+            你不杀他，我就离开你。
+        - id: ch02-b10
+          speaker: husband
+          text: >-
+            好吧，好吧。明天我一定动手。
+        - id: ch02-b11
+          speaker: narrator
+          text: >-
+            女人平静地过完那一夜，仿佛什么也没有发生。天刚亮，她又催哥哥赶山羊去吃草。穆罕默德仍然喊着要和舅舅同行。母亲赶上来阻拦，说天气冷得厉害，孩子出门一定会生病。穆罕默德却说她再劝也没有用，一遍又一遍地喊着自己非去不可。母亲只得放行。到了牧场，孩子告诉舅舅，父亲今夜还要杀他。他们不在家时，父亲会爬进舅舅的房间，藏在干草堆里。两人一进门，母亲就会叫舅舅拿草喂羊。舅舅若伸手去拿，那条蛇便会扑上来咬他。
+        - id: ch02-b12
+          speaker: uncle
+          text: >-
+            那我们怎样躲过这一回？
+        - id: ch02-b13
+          speaker: mohammed
+          text: >-
+            别怕，好舅舅。这一次，我会亲手杀掉父亲。
+        - id: ch02-b14
+          speaker: narrator
+          text: >-
+            他们赶着山羊回到屋前，母亲果然急声催哥哥去拿些干草喂羊。穆罕默德抢着说自己去，母亲却说他个子太小，非让舅舅动手不可。孩子马上换了主意，说那就让自己和舅舅一起去。两人走到房门前，里面黑得什么也看不见。穆罕默德故意说要先找一盏灯。他带着火光回来，却没有伸手翻草，而是直接点燃整座草堆。火苗越烧越旺，藏在里面等待咬人的蛇也被活活烧死。
+        - id: ch02-b15
+          speaker: sister
+          text: >-
+            你这个狠心的孩子！你做了什么？父亲就在草堆里，你把他杀了！从今天起，你再也没有父亲，只能自己想办法过日子了！
+          emotion: sad
+        - id: ch02-b16
+          speaker: mohammed
+          text: >-
+            我怎么知道父亲不在厨房，偏偏躺进草堆？你为什么嫁给一条蛇？我一直以为他是个人呢。他那些古怪把戏，又是从哪里学来的？
+        - id: ch02-b17
+          speaker: narrator
+          text: >-
+            太阳升起后，母亲照旧催舅舅去放山羊，也准许穆罕默德跟着。路上，孩子告诉舅舅，母亲会把蛇骨磨成粉，撒进饭菜，今晚毒死他们两个。
+        - id: ch02-b18
+          speaker: uncle
+          text: >-
+            那我们又该怎么办？
+        - id: ch02-b19
+          speaker: mohammed
+          text: >-
+            我会杀掉她。这样的父亲和母亲，我一个也不想要。
+        - id: ch02-b20
+          speaker: narrator
+          text: >-
+            傍晚，他们回到家，看见女人正在准备晚饭。她以为没人留意，偷偷把磨碎的蛇骨撒在盘子一边。另一边留给她自己吃，干干净净，一点毒粉也没有。穆罕默德看得清楚，悄声叮嘱舅舅，无论如何都要跟他吃盘子的同一边。三个人坐到桌旁，还没有动手取食物，孩子便说自己口渴，请母亲去拿些奶来。女人答应了，还催他们不用等她，先吃起来。等她端着奶回来，舅甥两个已经从没有毒的那一边吃得正香。
+        - id: ch02-b21
+          speaker: mohammed
+          text: >-
+            母亲，你也坐下吃吧。
+        - id: ch02-b22
+          speaker: narrator
+          text: >-
+            女人从盘中取了第一口食物，立刻倒地死去。
+        - id: ch02-b23
+          speaker: mohammed
+          text: >-
+            她给我们准备的东西，落到了自己头上。现在，我们卖掉所有牛羊吧。
+        - id: ch02-b24
+          speaker: narrator
+          text: >-
+            舅甥二人把家中的绵羊和牛全都卖掉，收好换来的钱，一同出发去闯荡世界。他们在无边的沙漠中走了整整十天，白天顶着太阳赶路，夜里就地歇息。第十天，他们来到一处陌生地方，只见脚下的道路忽然分成两条，分别伸向不同方向。
+        - id: ch02-b25
+          speaker: mohammed
+          text: >-
+            舅舅，我们该分手了。你走一条路，我走另一条。临走前记住，千万别给红头发、蓝眼睛的男人做工。
+        - id: ch02-b26
+          speaker: uncle
+          text: >-
+            不，孩子，我们应该永远在一起。可你说非分开不可，那我就往西走。我会记住你的话。
+          emotion: sad
+        - id: ch02-b27
+          speaker: narrator
+          text: >-
+            两个人就此分别。
+    - id: ch03
+      title: 红发主人的契约
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            舅舅独自向西走去。他一连走了三天，却没找到一点可以入口的食物，最后饿得两腿发软，几乎就要昏倒。偏在这时，一个陌生人迎面而来，问他愿不愿意替自己做工。舅舅想起谋生要紧，便先问这份工作是否要立契约。陌生人说，当然要立，而且条件十分清楚。他们两人不论谁先违背约定，谁就要从自己身上割下一条皮，交给对方。
+        - id: ch03-b02
+          speaker: uncle
+          text: >-
+            我答应。你要我做些什么？
+        - id: ch03-b03
+          speaker: red_haired_master
+          text: >-
+            每天把羊赶出去吃草，还要一直背着我的老母亲，绝不能让她的脚落地。每天傍晚，再给我的七个儿子捉七只会唱歌的鸟。
+        - id: ch03-b04
+          speaker: uncle
+          text: >-
+            这些事很容易。
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            新牧人照主人的吩咐做了。他从早到晚背着老妇人，不让她的脚沾地，一面看守羊群，一面追逐会唱歌的鸟。傍晚回家时，老妇人仍稳稳骑在他背上，口袋里也装着整整七只鸟。七个男孩一见他就跑来迎接，他只得把鸟一一分给他们。此后的每一天，都和第一天完全一样。终于有一晚，舅舅再也忍不住，哭喊自己究竟做错了什么，才要受这些可恨的苦差。远方的穆罕默德伸出神奇的手指，看见舅舅有了麻烦。他第二天便向自己的主人告假，说要让舅舅披着他的斗篷、拿着他的手杖来替工，这样主人就不会认错人。自己则去接下舅舅主人的差事。主人答应了。
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            两天后，穆罕默德找到舅舅。舅舅背着老妇人，正追逐飞过的鸟。
+        - id: ch03-b07
+          speaker: mohammed
+          text: >-
+            好舅舅，我不是提醒过你，绝不能给蓝眼睛、红头发的人做工吗？
+        - id: ch03-b08
+          speaker: uncle
+          text: >-
+            我当时饿得要命，他又恰好经过。除了签契约，我还能怎么办？
+        - id: ch03-b09
+          speaker: mohammed
+          text: >-
+            把契约交给我，再让老妇人从你背上下来。以后的事我自有办法。你拿上我的手杖和斗篷，朝正前方走两天。那里有牧羊人的帐篷，你进去等我。
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            舅舅虽然害怕违约，最后还是照办了。穆罕默德拿棍子打了老妇人一下，叫她自己看羊，自己则舒舒服服地躺在树下，一直睡到太阳快落山。
+        - id: ch03-b11
+          speaker: mohammed
+          text: >-
+            该由你捉的会唱歌的鸟在哪里？别说我没告诉你。这也是你的差事，不去做，我就杀了你。
+        - id: ch03-b12
+          speaker: masters_mother
+          text: >-
+            我当然会捉！哎呀，我怎么这么倒霉！荆棘刺穿了脚，这个人还这样狠毒地折磨我！
+          emotion: fearful
+        - id: ch03-b13
+          speaker: narrator
+          text: >-
+            老妇人在灌木丛里跌跌撞撞，到处追赶那些鸟。荆棘扎穿她的脚，她疼得尖叫，抱怨自己倒霉，也抱怨新牧人待她太狠。可她不敢停下，最后总算捉齐七只鸟，送到穆罕默德手里。穆罕默德这才宣布该回家了。走了一段，他忽然厉声命令老妇人赶羊走在前面，因为自己根本不知道羊圈在哪里。老妇人只得照办。快到家时，他又警告她，不许向儿子提起挨打的事，也不能说他不是原来的牧人，否则就要她的命。老妇人吓得连声保证，一个字也不会泄露。
+        - id: ch03-b14
+          speaker: red_haired_master
+          text: >-
+            母亲，我找来的这个牧人很不错吧？
+        - id: ch03-b15
+          speaker: masters_mother
+          text: >-
+            是个顶好的牧人！你看，羊长得这么肥，还出了这么多奶！
+        - id: ch03-b16
+          speaker: narrator
+          text: >-
+            主人听了很满意，起身准备晚饭。从前，舅舅只能吃老妇人剩下的残羹，穆罕默德却叫她等自己吃饱再动手。等他终于准她吃时，老妇人哭着说契约不是这样写的，牧人本该只吃她剩下的东西。穆罕默德又用死亡威胁她，她只得闭嘴。
+        - id: ch03-b17
+          speaker: narrator
+          text: >-
+            第二天，穆罕默德照规矩背上老妇人，赶着羊群走在前面。等房屋远远落到身后，他忽然把老妇人摔在地上，叫她自己去看羊。他从羊群中抓出一只公羊，当场杀掉，接着点起火，割下羊肉烤熟，又叫老妇人来与自己同吃。老妇人以为终于能吃一顿好饭，便走了过来。可穆罕默德根本没让她安稳进食。他拿起一大块肉，用牧杖硬生生塞进她喉咙，直到她被噎死在地上。
+        - id: ch03-b18
+          speaker: mohammed
+          text: >-
+            你折磨我舅舅，这就是你得到的报应。
+        - id: ch03-b19
+          speaker: narrator
+          text: >-
+            穆罕默德把尸体留在原地，转身去追那些会唱歌的鸟。这件差事花了很长时间，不过天黑以前，他总算捉齐七只，全都塞进外衣口袋。随后，他把老妇人的尸体拖进灌木丛藏好，赶着羊群回羊圈。快到家时，七个男孩像每天一样跑出来迎接牧人。穆罕默德给每人一只鸟，脸上却故意挂着眼泪。
+        - id: ch03-b20
+          speakers: [boy_1, boy_2, boy_3, youngest_boy]
+          ensemble: chorus
+          text: >-
+            你为什么哭？
+        - id: ch03-b21
+          speaker: mohammed
+          text: >-
+            因为你们的祖母死了。
+        - id: ch03-b22
+          speaker: narrator
+          text: >-
+            孩子们赶紧告诉父亲。主人追问母亲怎么会死。
+        - id: ch03-b23
+          speaker: mohammed
+          text: >-
+            我正在放羊，她叫我杀掉那只公羊，说自己饿了。我只好听命，把肉交给她。可她没有牙，吃肉时噎死了。
+        - id: ch03-b24
+          speaker: red_haired_master
+          text: >-
+            为什么杀公羊，不杀一只普通的绵羊？
+        - id: ch03-b25
+          speaker: mohammed
+          text: >-
+            我能怎么办？她下了命令，我只能照办。
+        - id: ch03-b26
+          speaker: narrator
+          text: >-
+            主人说自己必须去安葬母亲，也没有再追问下去。第二天早晨，穆罕默德照常赶羊出门，心里盘算着，谢天谢地，老妇人总算已经除掉，现在应该轮到那些男孩。他像平常一样照看羊群一整天。临近傍晚，他不去追鸟，反而在地面挖开几个小洞，从洞中一共捉出六只蝎子，小心装进口袋。随后，他只捕到一只真正会唱歌的鸟，也放在身上。快到家时，七个男孩照旧一窝蜂跑出来，伸手向他讨要各自的鸟。
+        - id: ch03-b27
+          speakers: [boy_1, boy_2, boy_3, youngest_boy]
+          ensemble: chorus
+          text: >-
+            把我的鸟给我！
+        - id: ch03-b28
+          speaker: narrator
+          text: >-
+            穆罕默德把蝎子分别放进六个男孩手中。他们被蝎子蜇中，当场死去。只有最小的孩子拿到真正的鸟，活了下来。穆罕默德立刻大声呼救，说孩子们死了。附近的人闻声赶来。
+        - id: ch03-b29
+          speakers: [villager_1, villager_2]
+          ensemble: duo
+          text: >-
+            发生了什么？孩子们为什么会死？
+        - id: ch03-b30
+          speaker: mohammed
+          text: >-
+            都怪你们自己！孩子们习惯了拿鸟，可天气太冷，他们的手指冻僵，握不住东西。鸟飞走时，他们的魂也跟着飞了。只有最小的孩子牢牢抓住鸟，这才活下来。
+        - id: ch03-b31
+          speaker: red_haired_master
+          text: >-
+            我受的苦已经够多了！再也别捉鸟，免得连最小的孩子也保不住。
+          emotion: sad
+    - id: ch04
+      title: 沉进海里的牛
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            一天，穆罕默德赶羊出门时告诉主人，远方有片极好的牧场，青草肥美。他打算在那里待上两天，也可能是三天，所以羊群几日不归，主人千万别觉得奇怪。得到准许后，他赶着羊一直往前走，一连走了两天，才来到舅舅等候的帐篷。他把整群羊交给舅舅看守，又直截了当地告诉他，那个折磨人的老妇人和六个男孩都已经死去，羊群也归他们了。
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            把羊交给舅舅以后，穆罕默德独自回去见主人。路上，他捡起一块石头，一下又一下砸自己的脑袋，直到额头破裂，鲜血流了满脸。他又设法把自己的双手紧紧捆住，装成刚刚遭人袭击的模样，然后一路放声尖叫。主人远远听见呼救，急忙跑来查看，追问他究竟遭遇了什么。
+        - id: ch04-b03
+          speaker: mohammed
+          text: >-
+            羊正在吃草，强盗突然把它们赶走。我想阻拦，他们便打破我的头，又捆住我的手。你看，我满头都是血。那已经是四天前的事了，羊群远得再也追不回来。
+        - id: ch04-b04
+          speaker: red_haired_master
+          text: >-
+            既然羊追不回来了，你以后去放牛。
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            穆罕默德答应下来。放到第三天，他割去牛群的尾巴，把牛全赶给舅舅，只留下没被割尾巴的一头。
+        - id: ch04-b06
+          speaker: mohammed
+          text: >-
+            好舅舅，把这些牛也收下。我要好好教训那个男人。
+        - id: ch04-b07
+          speaker: uncle
+          text: >-
+            你一定知道自己在做什么。那个人险些把我折磨死，就照你的主意办吧。
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            穆罕默德把割下的牛尾巴扎成一大捆，背着它们回去见主人。走到海边，他把尾巴一条条插进沙地，看上去仿佛每头牛都已经沉进海里，只剩尾巴还露在外面。接着，他来到附近的粗草丛，把那头没有割尾巴的牛埋进土中，身子一直埋到脖颈，只让脑袋和尾巴露在外面。一切布置妥当，他才像上次一样放声尖叫。主人听见动静，带着所有仆人飞快地赶到海边。
+        - id: ch04-b09
+          speakers: [servant_1, servant_2]
+          ensemble: duo
+          text: >-
+            到底出什么事了？
+        - id: ch04-b10
+          speaker: mohammed
+          text: >-
+            大海把牛吞掉了，只剩下尾巴。你们赶快用力拉，也许还能把牛救出来！
+        - id: ch04-b11
+          speaker: narrator
+          text: >-
+            主人立即叫众人各抓一条尾巴。才拉一下，他们就险些向后摔倒，手里也只剩一条断尾巴。
+        - id: ch04-b12
+          speaker: mohammed
+          text: >-
+            快停下！你们的办法全错了。牛尾巴已经被扯断，牛也沉到海底去了。
+        - id: ch04-b13
+          speakers: [servant_1, servant_2]
+          ensemble: duo
+          text: >-
+            那你来试试，看你有什么好办法。
+        - id: ch04-b14
+          speaker: narrator
+          text: >-
+            穆罕默德跑到埋在粗草中的牛旁，抓住尾巴，一下便把整头牛拖了出来。
+        - id: ch04-b15
+          speaker: mohammed
+          text: >-
+            看见了吧，这才叫会拉！我早就说过，你们根本不懂。
+        - id: ch04-b16
+          speaker: narrator
+          text: >-
+            仆人们羞得灰溜溜走开。主人来到穆罕默德面前，终于忍无可忍。
+        - id: ch04-b17
+          speaker: red_haired_master
+          text: >-
+            你给我滚！你杀了我母亲和孩子，偷走羊群，又把牛淹进海里。我再也没有活儿给你做了！
+          emotion: angry
+        - id: ch04-b18
+          speaker: mohammed
+          text: >-
+            是你先破坏契约。把我应得的那条皮割下来，我自然会走。
+        - id: ch04-b19
+          speaker: red_haired_master
+          text: >-
+            这件事交给法官裁决。我们去见他。
+        - id: ch04-b20
+          speaker: narrator
+          text: >-
+            两人一同来到法官面前。
+        - id: ch04-b21
+          speaker: judge
+          text: >-
+            你们有什么案子？
+        - id: ch04-b22
+          speaker: red_haired_master
+          text: >-
+            大人，这个牧人夺走了我的一切。他杀死我的孩子和老母亲，偷走羊群，还把牛都淹进海里。
+        - id: ch04-b23
+          speaker: mohammed
+          text: >-
+            他只要付清欠我的东西，我马上离开。
+        - id: ch04-b24
+          speaker: judge
+          text: >-
+            这是你们立下的契约，就该照约履行。
+        - id: ch04-b25
+          speaker: red_haired_master
+          text: >-
+            那就算算他为我做了多久的工，我按日子付钱。
+        - id: ch04-b26
+          speaker: mohammed
+          text: >-
+            这可不行。契约上说的是一条皮，我要的就是一条皮。
+        - id: ch04-b27
+          speaker: narrator
+          text: >-
+            主人眼看法律也站在契约一边，再没有退路，只得忍痛从自己身上割下一条皮，交给穆罕默德。穆罕默德拿着这份契约规定的报酬，立刻回到舅舅那里。他兴冲冲地告诉舅舅，两个人如今既有牛羊又有钱，已经成了富人。他们应该卖掉牲口，到一个新的国度重新生活，因为经过这么多事情，这片土地再也不适合他们停留。
+    - id: ch05
+      title: 面包与盐的情分
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            羊群很快卖掉了。舅甥二人收好钱财，重新踏上旅途。当天夜里，他们看见沙漠中搭着几顶贝都因人的帐篷，便上前请求借宿。帐篷里的阿拉伯人热情迎接远道而来的客人，请他们进帐篷坐下，还拿出食物与他们一同吃晚饭。吃饱以后，众人准备躺下休息。穆罕默德却留心看了看主人的猎犬，又把帐篷主人单独叫到一旁。
+        - id: ch05-b02
+          speaker: mohammed
+          text: >-
+            你的猎犬会吃掉我这条珍贵的皮。要是真吃了，你拿什么赔我？
+        - id: ch05-b03
+          speaker: bedouin_1
+          text: >-
+            放心，它不会吃。万一真吃了，我就把猎犬赔给你。
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            等所有人熟睡以后，穆罕默德悄悄起身，把那条皮撕碎，扔到猎犬面前，随即放声怪叫。
+        - id: ch05-b05
+          speaker: mohammed
+          text: >-
+            主人，我早就说过，你的狗会吃掉我的皮条！
+        - id: ch05-b06
+          speaker: bedouin_1
+          text: >-
+            别吵了。猎犬归你，把它牵走吧。
+        - id: ch05-b07
+          speaker: narrator
+          text: >-
+            穆罕默德给狗套上绳索，牵着它离开。第二天傍晚，他们来到另一群贝都因人的帐篷借宿。吃过饭，他又去找主人。
+        - id: ch05-b08
+          speaker: mohammed
+          text: >-
+            你的公羊会杀死我的猎犬。万一出了这种事，你要怎样赔偿？
+        - id: ch05-b09
+          speaker: bedouin_2
+          text: >-
+            不会有这种事。可要是真发生了，你把公羊牵走就是。
+        - id: ch05-b10
+          speaker: narrator
+          text: >-
+            夜深以后，穆罕默德等营地里的人全都睡熟，便亲手杀死刚刚得来的猎犬，再把狗的尸体横架在公羊的双角上，布置成被公羊顶死的模样。一切做好，他又发出凄厉的哭喊，把沉睡中的阿拉伯人惊醒。主人赶来一看，果然见猎犬死在羊角上，实在受不了穆罕默德没完没了的吵闹，只好遵守自己的诺言，叫他牵上公羊，马上离开营地。
+        - id: ch05-b11
+          speaker: narrator
+          text: >-
+            太阳落山时，他们又到了一处贝都因营地。主人像先前的人一样热情接待他们。晚饭后，穆罕默德对他说，他的女儿会杀掉那只公羊。
+        - id: ch05-b12
+          speaker: bedouin_father
+          text: >-
+            别胡说！我女儿每天都有肉吃，绝不会偷你的羊。她若敢碰客人的东西，我就杀了她。
+        - id: ch05-b13
+          speaker: mohammed
+          text: >-
+            好，我去睡觉。公羊要是出了什么事，我一定会喊起来。
+        - id: ch05-b14
+          speaker: narrator
+          text: >-
+            等众人都睡着，穆罕默德杀掉公羊，取出羊肝，放在火上烤熟。他趁姑娘毫不知情，把一块肝塞进她手里，又在她的睡衣上放了几块，然后大声叫嚷。
+        - id: ch05-b15
+          speaker: bedouin_father
+          text: >-
+            出什么事了？立刻给我安静下来！我女儿明明还在睡觉。
+        - id: ch05-b16
+          speaker: mohammed
+          text: >-
+            我爱这只公羊，就像爱自己的孩子。它被你女儿杀了，我怎么安静？你去看看，她身上是不是还带着羊肉。
+        - id: ch05-b17
+          speaker: bedouin_father
+          text: >-
+            要是真能找到肉，你就把她带走，抵偿你的公羊。
+        - id: ch05-b18
+          speaker: narrator
+          text: >-
+            父亲走到熟睡的女儿身边查看，果然在她手中和睡衣上发现了烤熟的羊肝，一切都和穆罕默德预先说的一样。姑娘刚从睡梦中惊醒，根本不知道发生了什么。父亲却认定是她偷杀了客人的公羊，狠狠打了她一顿，随后命令她立刻从自己眼前消失。既然答应以女儿抵偿公羊，从这一刻起，她便成了那个陌生人的财产。
+        - id: ch05-b19
+          speaker: narrator
+          text: >-
+            穆罕默德、舅舅和姑娘三个人继续在沙漠中流浪，一路寻找可以过夜的地方。天色完全黑下来时，他们终于看见第四处贝都因营地。帐篷主人按照沙漠里的待客之道，热情请他们进去，给他们食物，也准许他们留宿。临睡前，穆罕默德又把主人叫到一旁，指着营地里的母马，告诉对方，那匹马会在夜里杀死自己的妻子。
+        - id: ch05-b20
+          speaker: bedouin_4
+          text: >-
+            绝不会。要是母马真杀了她，我就把马赔给你。
+        - id: ch05-b21
+          speaker: narrator
+          text: >-
+            众人睡着以后，穆罕默德轻声对姑娘说出了计划。
+        - id: ch05-b22
+          speaker: mohammed
+          text: >-
+            我会把母马牵进来，放在你脚边，再在你身上割几道浅伤，让鲜血盖住你的身体。大家会以为你已经死了。千万别发出声音，不然我们两个都逃不掉。
+        - id: ch05-b23
+          speaker: narrator
+          text: >-
+            姑娘照他说的做了。随后，穆罕默德放声哭号，比从前每一回都要响。阿拉伯人急忙赶来。
+        - id: ch05-b24
+          speaker: bedouin_4
+          text: >-
+            别再发出这种可怕的声音了！母马赔给你，死去的姑娘也带走。把她横放在马背上就行。
+        - id: ch05-b25
+          speaker: narrator
+          text: >-
+            穆罕默德和舅舅装作抬运尸体，把姑娘抱起来，横放在母马背上，然后牵着马离开营地。两个人分别走在马身两侧，一路小心护着，免得姑娘滑下来，真的摔伤。等贝都因人的帐篷完全消失在身后，再也没有人看得见他们，姑娘才从马背上坐直身体，四下张望。三个人走了许久，都觉得肚子饿了，于是把母马拴好，坐下来取出随身携带的椰枣，一起填饱肚子。
+        - id: ch05-b26
+          speaker: mohammed
+          text: >-
+            好舅舅，这位姑娘以后就是你的妻子。卖牛羊得来的钱，你拿三分之二，我拿三分之一。你要养家，我却永远不打算结婚。现在平安上路吧。我们以后不会再见面了，同吃面包和盐结下的情分，也在这里结束。
+          emotion: sad
+        - id: ch05-b27
+          speaker: narrator
+          text: >-
+            听见这番告别的话，舅舅和穆罕默德都流下泪来。他们走上前，紧紧搂住彼此的脖子，又请对方原谅自己在共同旅行的日子里，一切曾经做错、曾经伤害过对方的地方。该说的话全都说完以后，两人才放开彼此。舅舅带着妻子和分得的钱走向一方，穆罕默德独自走向另一方。从此，他们各走各的路，再也没有相见。

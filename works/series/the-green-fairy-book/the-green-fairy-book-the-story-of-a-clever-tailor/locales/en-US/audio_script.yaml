@@ -1,0 +1,196 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and attentive fairy-tale storytelling
+        timbre: clear and gently resonant
+        pace: measured
+        pitch: medium
+    tailor:
+      display_name: The Young Tailor
+      tts:
+        delivery: earnest, lively, and courageous
+        timbre: bright and clear
+        pace: natural
+        pitch: medium-high
+    first_tailor:
+      display_name: The First Tailor
+      tts:
+        delivery: boastful and self-assured
+        timbre: firm and full
+        pace: natural
+        pitch: medium-low
+    second_tailor:
+      display_name: The Second Tailor
+      tts:
+        delivery: smug and dismissive
+        timbre: dry and clear
+        pace: natural
+        pitch: medium
+    princess:
+      display_name: The Princess
+      tts:
+        delivery: proud, commanding, and quick to react
+        timbre: poised and bright
+        pace: measured
+        pitch: medium-high
+    bear:
+      display_name: The Bear
+      tts:
+        delivery: gruff, eager, and easily frustrated
+        timbre: deep and rough
+        pace: deliberate
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Princess's Riddle
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, there lived an exceedingly proud Princess. Whenever a man came to ask for her hand, she gave him a riddle to solve. If he failed, he was chased out of town amid scorn and laughter. She announced that anyone might try, and the man who answered correctly would become her husband.
+        - id: ch01-b02
+          speaker: narrator
+          text: Now three tailors happened to meet. The two older ones had sewn so many fine, strong stitches without putting one wrong that they felt certain they could succeed here as well. The third was a lazy young scamp who did not even know his trade properly. Still, he thought luck might stand by him for once. If it did not, what was to become of him?
+        - id: ch01-b03
+          speakers: [first_tailor, second_tailor]
+          ensemble: duo
+          text: You should stay home. With so few brains, you'll never get far.
+        - id: ch01-b04
+          speaker: narrator
+          text: But the young tailor would not be discouraged. He had made up his mind, he said, and he meant to manage for himself. Then he set off as if the whole world belonged to him.
+        - id: ch01-b05
+          speaker: narrator
+          text: All three reached the court and were properly presented to the Princess. They asked her to set her riddles before them, ready to show what they could do.
+        - id: ch01-b06
+          speakers: [first_tailor, second_tailor, tailor]
+          ensemble: chorus
+          text: At last, the right men are here. Our wits are so sharp and fine, you could almost thread a needle with them.
+        - id: ch01-b07
+          speaker: princess
+          text: I have two different kinds of hair on my head. What colors are they?
+        - id: ch01-b08
+          speaker: first_tailor
+          text: If that's the whole riddle, they must be black and white, like the cloth we call pepper-and-salt.
+        - id: ch01-b09
+          speaker: princess
+          text: That is wrong.
+        - id: ch01-b10
+          speaker: second_tailor
+          text: Then if they aren't black and white, they must be red and brown, like my father's Sunday coat.
+        - id: ch01-b11
+          speaker: princess
+          text: Wrong again. Now let the third man answer. I can see that he thinks he knows.
+        - id: ch01-b12
+          speaker: narrator
+          text: The young tailor stepped boldly forward.
+        - id: ch01-b13
+          speaker: tailor
+          text: The Princess has one silver hair and one golden hair on her head. Those are the two colors.
+        - id: ch01-b14
+          speaker: narrator
+          text: The Princess turned pale and nearly fainted with fear. The young tailor had found the answer, though she had firmly believed that no living soul could guess it. Once she recovered, she spoke again.
+        - id: ch01-b15
+          speaker: princess
+          text: Do not imagine that you have won me yet. First, there is one more thing you must do. A bear lives below in the stable, and you must spend the night with him. If I find you alive when I rise tomorrow morning, then you shall marry me.
+        - id: ch01-b16
+          speaker: narrator
+          text: She fully expected this to rid her of the tailor, because no one who came within reach of the bear's claws had ever survived. The tailor, however, had no intention of being frightened.
+        - id: ch01-b17
+          speaker: tailor
+          text: Bravely dared is half won.
+    - id: ch02
+      title: A Night with the Bear
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: That evening, the young tailor was taken to the stable. The bear came at him at once, ready to welcome him with its enormous paws.
+        - id: ch02-b02
+          speaker: tailor
+          text: Easy now, easy. I will soon teach you to be quiet.
+        - id: ch02-b03
+          speaker: narrator
+          text: Without a trace of worry, the tailor pulled a handful of walnuts from his pocket. He cracked them and ate them as though he had no care in the world. When the bear saw this, he began to crave some nuts too. The tailor reached into his pocket and handed him a fistful. But these were pebbles, not walnuts.
+        - id: ch02-b04
+          speaker: narrator
+          text: The bear put them in his mouth and tried with all his strength, but he could not crack them. He thought he must be a miserable fool if he could not even open a nut. At last, he turned to the tailor.
+        - id: ch02-b05
+          speaker: bear
+          text: Say, will you crack my nuts for me?
+        - id: ch02-b06
+          speaker: tailor
+          text: What sort of fellow are you? You have those great jaws, yet you cannot even crack a walnut!
+        - id: ch02-b07
+          speaker: narrator
+          text: The tailor took one of the stones and quickly exchanged it for a walnut. Crack! The shell split open at once.
+        - id: ch02-b08
+          speaker: bear
+          text: Let me have another try. It looks so easy when I watch you do it. Surely I can manage it myself.
+        - id: ch02-b09
+          speaker: narrator
+          text: So the tailor gave him more pebbles. Again and again, the bear bit and gnawed at them as hard as he could. But for all his effort, he did not crack a single one.
+        - id: ch02-b10
+          speaker: narrator
+          text: After a while, the tailor brought out a little fiddle and began to play. The bear could not help dancing when he heard the music. He danced for some time and enjoyed it so much that he asked the tailor a question.
+        - id: ch02-b11
+          speaker: bear
+          text: Tell me, is it hard to play the fiddle?
+        - id: ch02-b12
+          speaker: tailor
+          text: It is child's play. Look. You press the strings with the fingers of your left hand, and you draw the bow across them with your right. Then it goes as easily as can be, up and down, tra-la-la-la-la!
+        - id: ch02-b13
+          speaker: bear
+          text: Oh, I wish I could play like that! Then I could dance whenever I pleased. What do you say? Will you teach me?
+        - id: ch02-b14
+          speaker: tailor
+          text: Gladly, if you learn quickly. But first, let me see your paws. Dear me, your nails are far too long. I really must cut them.
+        - id: ch02-b15
+          speaker: narrator
+          text: The tailor fetched a pair of stocks, and the bear laid his paws across them. Then the tailor screwed the stocks tight.
+        - id: ch02-b16
+          speaker: tailor
+          text: Wait here while I go and fetch my scissors.
+        - id: ch02-b17
+          speaker: narrator
+          text: He left the bear to growl as much as he liked. Then the tailor lay down in a corner and fell fast asleep.
+    - id: ch03
+      title: The Promise Must Be Kept
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: That night, the Princess heard the bear growling loudly. She felt sure he was roaring with delight as he worried the tailor.
+        - id: ch03-b02
+          speaker: narrator
+          text: She rose the next morning feeling cheerful and free from care. But when she looked toward the stables, there was the tailor, standing before the door as fresh and lively as a fish in the water.
+        - id: ch03-b03
+          speaker: narrator
+          text: The Princess had made her promise in public, so there was no way to break it. The King ordered the state coach to be brought out. It was to carry the Princess and the tailor to church, where they would be married.
+    - id: ch04
+      title: The Bear Gives Chase
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: As the coach was setting out, the two older tailors went into the stable. They were bad-hearted men, and the younger tailor's happiness filled them with envy. They unscrewed the stocks and freed the bear.
+        - id: ch04-b02
+          speaker: narrator
+          text: The bear tore after the carriage, foaming with rage. The Princess heard him puffing and roaring behind them, and fear seized her.
+        - id: ch04-b03
+          speaker: princess
+          text: Oh, no! The bear is chasing us. He will surely catch us!
+          emotion: fearful
+        - id: ch04-b04
+          speaker: narrator
+          text: The tailor did not seem troubled at all. He calmly stood on his head and stuck his legs out through the carriage window. Then he called back to the bear.
+        - id: ch04-b05
+          speaker: tailor
+          text: Do you see my stocks? Unless you go home this instant, I will screw you into them again!
+        - id: ch04-b06
+          speaker: narrator
+          text: The moment the bear saw and heard him, he turned straight around and ran away as fast as his legs could carry him.
+        - id: ch04-b07
+          speaker: narrator
+          text: The tailor continued safely to the church. There he married the Princess, and for many years they lived together as happy and merry as a lark.
+        - id: ch04-b08
+          speaker: narrator
+          text: Anyone who does not believe this story must pay a dollar.

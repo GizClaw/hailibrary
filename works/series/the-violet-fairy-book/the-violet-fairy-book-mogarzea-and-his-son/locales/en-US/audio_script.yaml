@@ -1,0 +1,230 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, steady, and quietly mysterious
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    boy:
+      display_name: The Boy
+      tts:
+        delivery: quick-witted, brave, and warmly earnest
+        timbre: clear and youthful
+        pace: lively
+        pitch: medium-high
+    mogarzea:
+      display_name: Mogarzea
+      tts:
+        delivery: grave and solitary, becoming open and joyful
+        timbre: deep and broad
+        pace: unhurried
+        pitch: low
+    elf_one:
+      display_name: First Elf Maiden
+      tts:
+        delivery: graceful, imperious, and sharp-edged
+        timbre: bright and silvery
+        pace: measured
+        pitch: high
+    elf_two:
+      display_name: Second Elf Maiden
+      tts:
+        delivery: alluring, watchful, and cool
+        timbre: smooth and clear
+        pace: measured
+        pitch: medium-high
+    elf_three:
+      display_name: Third Elf Maiden
+      tts:
+        delivery: playful, proud, and quick
+        timbre: light and ringing
+        pace: lively
+        pitch: high
+    golden_fairy:
+      display_name: Golden Fairy
+      tts:
+        delivery: radiant, dignified, and tender
+        timbre: luminous and gentle
+        pace: measured
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: The Fire on the Hill
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a little boy whose father and mother died and left him in a guardian's care. The man they chose was wicked. He spent all the money, so the boy decided to leave and make his own way in the world.
+        - id: ch01-b02
+          speaker: narrator
+          text: One day he set off and walked on and on through woods and meadows. By evening he was worn out and had no idea where he could sleep. He climbed a hill and looked all around for a light in some distant window. At first, everything was dark. Then, far away, a tiny spark appeared. His courage returned, and he set out at once to find it.
+        - id: ch01-b03
+          speaker: narrator
+          text: Half the night had passed when he reached the spark. It was a great fire, and beside it slept a man so tall that he might have been a giant. The boy hesitated. Then he crept close and lay down beside the man's legs.
+        - id: ch01-b04
+          speaker: narrator
+          text: In the morning, the tall man woke and stared at the child nestled beside him.
+        - id: ch01-b05
+          speaker: mogarzea
+          text: Well now, where did you come from?
+          emotion: surprised
+        - id: ch01-b06
+          speaker: boy
+          text: I am your son. I was born in the night.
+        - id: ch01-b07
+          speaker: mogarzea
+          text: If that is true, you may tend my sheep, and I will feed you. But never cross the border of my land. If you do, you will be sorry.
+        - id: ch01-b08
+          speaker: narrator
+          text: He showed the boy exactly where the boundary lay and sent him straight to work. The young shepherd led the flock to the richest meadows on Mogarzea's land and watched them until evening. Then he brought them home and helped the tall man milk them. When the work was done, the two sat down to supper. As they ate, the boy asked his new father what he was called.
+        - id: ch01-b09
+          speaker: boy
+          text: What are you called, Father?
+        - id: ch01-b10
+          speaker: mogarzea
+          text: Mogarzea.
+        - id: ch01-b11
+          speaker: boy
+          text: Don't you ever grow tired of living here alone?
+        - id: ch01-b12
+          speaker: mogarzea
+          text: Why wonder at that? No bear ever danced because it wished to.
+        - id: ch01-b13
+          speaker: boy
+          text: That may be true. But why are you always sad? Tell me what happened to you, Father.
+        - id: ch01-b14
+          speaker: mogarzea
+          text: What good would it do? My story would only make you sad as well.
+        - id: ch01-b15
+          speaker: boy
+          text: I still want to hear it. You are my father, aren't you? And I am your son.
+        - id: ch01-b16
+          speaker: mogarzea
+          text: Very well. My father is an emperor. I was traveling to the Sweet Milk Lake to marry one of the three fairies who live there. But three wicked elves attacked me on the road and stole my soul. Since then, I have stayed here with my sheep. I have wanted nothing else. I have never felt joy, and I have not laughed once. Those elves are so cruel that anyone who steps onto their land is punished at once. That is why I warned you. I do not want you to suffer as I have.
+        - id: ch01-b17
+          speaker: boy
+          text: I understand. I will be very careful. Now let me go to sleep, Father.
+        - id: ch01-b18
+          speaker: narrator
+          text: And they stretched themselves out for the night.
+    - id: ch02
+      title: The Elves' Meadow
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: At sunrise, the boy took the sheep out to graze. He felt no wish to enter the elves' green meadows. Instead, he let the flock find what little grass it could on Mogarzea's dry land.
+        - id: ch02-b02
+          speaker: narrator
+          text: On the third day, he sat in the shade of a tree and played his flute. No one in the world could play better. While he was lost in the music, one sheep slipped across the fence into the elves' flowery fields. Another followed, and then another. The boy noticed nothing until half the flock had crossed.
+        - id: ch02-b03
+          speaker: narrator
+          text: He sprang up and followed, still playing as he went to drive the sheep back across the border. All at once, three beautiful maidens appeared in his path. They stopped in front of him and began to dance. The boy understood that he must keep playing. He blew into the flute with all his strength, and the maidens danced on and on until evening.
+        - id: ch02-b04
+          speaker: boy
+          text: Please let me leave now. Poor Mogarzea must be starving. I will come back and play for you tomorrow.
+        - id: ch02-b05
+          speakers: [elf_one, elf_two, elf_three]
+          ensemble: chorus
+          text: You may go. But remember, even if you break your promise, you cannot escape us.
+        - id: ch02-b06
+          speaker: narrator
+          text: They agreed that the boy would bring the sheep straight back the next day and play until sunset. Then the elves and the boy went their separate ways.
+        - id: ch02-b07
+          speaker: narrator
+          text: Mogarzea wondered why the sheep gave so much more milk than usual. But the boy said he had never crossed the boundary, so the tall man thought no more about it and ate a hearty supper.
+        - id: ch02-b08
+          speaker: narrator
+          text: At the first glimmer of morning, the boy led the sheep into the elfin meadow. The moment his flute sounded, the maidens appeared. They danced and danced until evening. Then the boy let the flute slide from his fingers and stepped on it, as though by accident.
+        - id: ch02-b09
+          speaker: narrator
+          text: He made a terrible fuss. He wrung his hands and wept over the loss of his only companion. The elves' hearts softened, and they tried their best to comfort him.
+        - id: ch02-b10
+          speaker: boy
+          text: I will never find another flute like it! No other flute could sound so sweet. This one came from the heart of a seven-year-old cherry tree.
+          emotion: sad
+        - id: ch02-b11
+          speakers: [elf_one, elf_two, elf_three]
+          ensemble: chorus
+          text: We have a cherry tree in our garden that is exactly seven years old. Come with us, and you can make a new flute.
+        - id: ch02-b12
+          speaker: narrator
+          text: They all went into the garden and gathered around the seven-year-old cherry tree. The boy explained that if he felled it with an axe, the blade might split the heartwood he needed for his flute. He would make only a small opening in the bark. It would be just wide enough for the maidens to put their fingers inside. With their help, he could pull the tree in two and keep its heart safe.
+        - id: ch02-b13
+          speaker: narrator
+          text: The elves did exactly as he said. Then the boy snatched away the axe that had been holding the split open. The wood closed tight, trapping every one of their fingers.
+    - id: ch03
+      title: Mogarzea's Soul
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The maidens shrieked in pain. They pulled and twisted, but they could not free themselves from the tree. Again and again they begged the boy to help them. He remained as cold as marble through every plea. He would do nothing until they gave him Mogarzea's soul.
+        - id: ch03-b02
+          speakers: [elf_one, elf_two, elf_three]
+          ensemble: chorus
+          text: If you must take it, you will find it in a bottle on the window ledge.
+        - id: ch03-b03
+          speaker: narrator
+          text: They hoped he would release them at once, but he did not.
+        - id: ch03-b04
+          speaker: boy
+          text: You have caused too many men to suffer. It is only fair that you suffer too. I will set you free tomorrow.
+        - id: ch03-b05
+          speaker: narrator
+          text: He left the maidens there and turned for home, taking the sheep and Mogarzea's soul with him. Mogarzea waited at the door. As the boy came near, the tall man began to scold him for returning so late. But the boy had only started to explain when Mogarzea went wild with joy. He leaped so high that the false soul the elves had given him flew straight out of his mouth. At once, his own soul, which had been sealed tight in a flask of water, slipped back into its proper place.
+        - id: ch03-b06
+          speaker: narrator
+          text: When Mogarzea had grown a little calmer, he called out to the boy.
+        - id: ch03-b07
+          speaker: mogarzea
+          text: I no longer care whether you are truly my son. Tell me how I can repay you for saving me.
+          emotion: happy
+        - id: ch03-b08
+          speaker: boy
+          text: Show me where the Sweet Milk Lake lies and tell me how to win one of its three fairies as my wife. And let me stay your son forever.
+        - id: ch03-b09
+          speaker: narrator
+          text: Mogarzea and his son spent the whole night singing and feasting. They were far too happy to sleep.
+    - id: ch04
+      title: Home to the Emperor
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: At dawn they set out together to free the elves from the tree. When they reached the place where the maidens were trapped, Mogarzea hoisted the cherry tree onto his back with all three elves still clinging to it. He carried tree and maidens alike to his father's kingdom. Everyone there rejoiced to see him home again. Mogarzea accepted none of the honor for himself. He only pointed to the boy who had saved him, following behind with the flock.
+        - id: ch04-b02
+          speaker: narrator
+          text: The boy remained at the palace for three days while the whole court thanked and praised him. Then he went to Mogarzea.
+        - id: ch04-b03
+          speaker: boy
+          text: It is time for me to leave. Please tell me how to reach the Sweet Milk Lake. I will come back and bring my wife with me.
+        - id: ch04-b04
+          speaker: narrator
+          text: Mogarzea did everything he could to persuade the boy to stay with him in the palace. The boy would not change his mind. At last Mogarzea saw that it was no use and told him everything he knew about the way, though he had never reached the lake himself.
+    - id: ch05
+      title: The Sweet Milk Lake
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: For three long summer days, the boy and his flute traveled on together. At last, one evening, he reached the Sweet Milk Lake. It lay within the kingdom of a powerful fairy, just as Mogarzea had told him.
+        - id: ch05-b02
+          speaker: narrator
+          text: Dawn had barely broken the next morning when he went down to the shore and began to play. The first few notes had scarcely sounded when a beautiful fairy appeared before him. Her hair and her robes shone like gold. The boy could only gaze at her in wonder. Then she began to dance with such grace that he forgot all about playing. The instant his flute fell silent, she vanished from his sight.
+        - id: ch05-b03
+          speaker: narrator
+          text: The same thing happened the next day. On the third morning, the boy gathered his courage. He moved nearer without ever ceasing to play. Then he leaped forward, caught the fairy in his arms, kissed her, and plucked a rose from her hair.
+        - id: ch05-b04
+          speaker: narrator
+          text: The fairy cried out. The boy placed the rose in his hat, and no matter how she pleaded, he would not return it.
+        - id: ch05-b05
+          speaker: golden_fairy
+          text: Please give me back my rose.
+        - id: ch05-b06
+          speaker: narrator
+          text: At last she understood that pleading would not change his mind. She agreed to marry him, just as he wished.
+        - id: ch05-b07
+          speaker: narrator
+          text: Together they journeyed back to the palace, where Mogarzea still waited for his son. There, before the whole court, the emperor himself celebrated the marriage of the boy and the golden fairy.
+        - id: ch05-b08
+          speaker: narrator
+          text: And every May after that, the boy and the fairy came back to the Milk Lake with their children and bathed in its waters.

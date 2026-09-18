@@ -1,0 +1,122 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 亲切而略带调侃的讲故事口吻
+        timbre: 温暖清亮
+        pace: 从容舒展
+        pitch: 中音
+    sammy_jay:
+      display_name: 松鸦萨米
+      tts:
+        delivery: 机灵自得，盘算时透着狡猾
+        timbre: 清脆明亮
+        pace: 轻快灵活
+        pitch: 中高音
+    peter_rabbit:
+      display_name: 彼得兔
+      tts:
+        delivery: 活泼机敏，打趣时俏皮又直率
+        timbre: 清亮柔和
+        pace: 轻快自然
+        pitch: 中高音
+    chatterer:
+      display_name: 红松鼠喋喋
+      tts:
+        delivery: 急性直率，发怒时尖锐泼辣
+        timbre: 明亮细脆
+        pace: 快而有弹性
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 彼得拿不定主意
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 彼得兔心里有种说不出的古怪滋味。那天早晨出门时，他的心意再好不过了。他本想直接去找红松鼠喋喋，承认自己偷偷跟踪喋喋、想找出那座秘密新家，实在太卑鄙。
+        - id: ch01-b02
+          speaker: narrator
+          text: 可后来，彼得听见喋喋对山雀汤米说，他已经骗过了彼得，彼得根本不知道新家在哪儿。彼得这辈子从没觉得自己这么傻过。不，先生，从来没有！
+        - id: ch01-b03
+          speaker: narrator
+          text: 要是彼得当真上了当，完全不知道喋喋的新家在哪里，那还去赔什么不是呢？他现在已经成了笑柄，再去道歉，只会让大家笑得更厉害。可他做的事还是一样卑鄙，就跟真的发现了秘密没两样。彼得也知道，坦白认错以后，心里会舒服些。
+        - id: ch01-b04
+          speaker: narrator
+          text: 他用右后脚挠挠左耳朵，又用左后脚挠挠右耳朵，还揪了揪胡须。想来想去，仍然不知道该怎么办。
+    - id: ch02
+      title: 影子就在绿森林
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 彼得正左右为难，绿森林那边忽然闹腾起来。松鸦萨米像往常一样扯着嗓子叫，一路急匆匆飞向老果园。喋喋当然听见了。等萨米飞近，他马上喊住萨米，萨米也立刻赶了过来。
+        - id: ch02-b02
+          speaker: sammy_jay
+          text: 原来你在这儿！我把绿森林找了个遍，累都快累趴了。听着，我有消息告诉你。
+        - id: ch02-b03
+          speaker: narrator
+          text: 喋喋急得直跳。
+        - id: ch02-b04
+          speaker: chatterer
+          text: 什么消息？快说呀！
+        - id: ch02-b05
+          speaker: sammy_jay
+          text: 我碰见黄鼠狼影子了。
+        - id: ch02-b06
+          speaker: narrator
+          text: 喋喋的声音一下子紧张起来。
+        - id: ch02-b07
+          speaker: chatterer
+          text: 影子现在在哪儿？
+          emotion: fearful
+        - id: ch02-b08
+          speaker: sammy_jay
+          text: 就在绿森林。他说，不抓住你就不离开，哪怕整个冬天都待在那里。他还说，就算把绿森林的树一棵棵搜遍，也一定要找到你。
+        - id: ch02-b09
+          speaker: narrator
+          text: 喋喋的脸竟然白了，足足过了一会儿才缓过来。
+        - id: ch02-b10
+          speaker: chatterer
+          text: 你——你没告诉他，我已经不在绿森林了吧？
+          emotion: fearful
+        - id: ch02-b11
+          speaker: narrator
+          text: 萨米轻蔑地顶了回去。
+        - id: ch02-b12
+          speaker: sammy_jay
+          text: 我当然没说！我自己都不知道，拿什么告诉他？
+        - id: ch02-b13
+          speaker: chatterer
+          text: 那——那你下次碰见他，也不会说吧，萨米？
+          emotion: fearful
+    - id: ch03
+      title: 萨米要去警告大家
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 这句话可把萨米惹火了。
+        - id: ch03-b02
+          speaker: sammy_jay
+          text: 你当我是什么人？喋喋，我一点也不喜欢你，这你心里清楚。你这个红脑袋、穿红外套的讨厌鬼，摊上麻烦也是活该，我才不同情你！
+          emotion: angry
+        - id: ch03-b03
+          speaker: sammy_jay
+          text: 可不管我多讨厌谁，哪怕是我最恨的敌人，我也不会把他交给影子那种残忍冷血的强盗。只要抓得到，影子杀我和杀你一样快，绝不会对谁手软。当然，他可抓不住我！
+          emotion: angry
+        - id: ch03-b04
+          speaker: sammy_jay
+          text: 所有害怕影子的小居民，都该知道他就在附近。这件事我管定了！我现在就去老荆棘丛，提醒彼得兔。
+          emotion: angry
+        - id: ch03-b05
+          speaker: narrator
+          text: 彼得从藏身处开了口。
+        - id: ch03-b06
+          speaker: peter_rabbit
+          text: 不用去了，我就在这儿。你还打算去提醒我，真是太谢谢你了。萨米，我以前说过你那些坏话，是我不对。
+        - id: ch03-b07
+          speaker: sammy_jay
+          text: 呸！不用道歉。我想，那些话也是我活该听的。
+        - id: ch03-b08
+          speaker: narrator
+          text: 接下来，萨米、彼得和喋喋热切地谈起黄鼠狼影子的消息。三个人谁也没有发现，黑猫咪正沿着那道旧石墙悄悄逼近。

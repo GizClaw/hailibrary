@@ -1,0 +1,456 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: witty, reflective, and lightly theatrical
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    ian:
+      display_name: Ian
+      tts:
+        delivery: earnest, brave, and quietly determined
+        timbre: clear and youthful
+        pace: conversational
+        pitch: medium
+    hunter:
+      display_name: The Hunter
+      tts:
+        delivery: direct and businesslike
+        timbre: firm and mature
+        pace: measured
+        pitch: medium-low
+    mother:
+      display_name: Ian's Mother
+      tts:
+        delivery: sharp, weary, and forceful
+        timbre: weathered and mature
+        pace: brisk
+        pitch: medium
+    farmer:
+      display_name: The Farmer
+      tts:
+        delivery: welcoming, practical, and hopeful
+        timbre: warm and rustic
+        pace: conversational
+        pitch: medium-low
+    princess:
+      display_name: The Enchanted Princess
+      tts:
+        delivery: gentle, solemn, and steadfast
+        timbre: clear and graceful
+        pace: unhurried
+        pitch: medium-high
+    robber_1:
+      display_name: First Robber
+      tts:
+        delivery: rough, suspicious, and quick-tempered
+        timbre: coarse and heavy
+        pace: brisk
+        pitch: low
+    robber_2:
+      display_name: Second Robber
+      tts:
+        delivery: harsh and impatient
+        timbre: gravelly and mature
+        pace: brisk
+        pitch: medium-low
+    robber_3:
+      display_name: Third Robber
+      tts:
+        delivery: surly and threatening
+        timbre: dark and sturdy
+        pace: measured
+        pitch: low
+    robber_4:
+      display_name: Fourth Robber
+      tts:
+        delivery: angry and blunt
+        timbre: rough and mature
+        pace: conversational
+        pitch: medium-low
+    robber_captain:
+      display_name: The Robber Captain
+      tts:
+        delivery: cold, commanding, and merciless
+        timbre: deep and hard
+        pace: deliberate
+        pitch: low
+    dark_lad:
+      display_name: The Dark Lad
+      tts:
+        delivery: watchful, secretive, and faintly mocking
+        timbre: thin and youthful
+        pace: measured
+        pitch: medium-low
+    first_sister:
+      display_name: The First Sister
+      tts:
+        delivery: knowing, hospitable, and reassuring
+        timbre: warm and mature
+        pace: unhurried
+        pitch: medium
+    second_sister:
+      display_name: The Second Sister
+      tts:
+        delivery: helpful, plainspoken, and encouraging
+        timbre: clear and mature
+        pace: measured
+        pitch: medium
+    third_sister:
+      display_name: The Third Sister
+      tts:
+        delivery: kindly, thoughtful, and modest
+        timbre: gentle and mature
+        pace: unhurried
+        pitch: medium
+    bird_keeper:
+      display_name: The Keeper of the Birds
+      tts:
+        delivery: wise, practical, and sparing with words
+        timbre: calm and resonant
+        pace: deliberate
+        pitch: medium-low
+    little_bird_1:
+      display_name: First Little Bird
+      tts:
+        delivery: eager, loyal, and bright
+        timbre: light and clear
+        pace: lively
+        pitch: high
+    little_bird_2:
+      display_name: Second Little Bird
+      tts:
+        delivery: eager, loyal, and bright
+        timbre: soft and clear
+        pace: lively
+        pitch: high
+    little_bird_3:
+      display_name: Third Little Bird
+      tts:
+        delivery: eager, loyal, and bright
+        timbre: nimble and clear
+        pace: lively
+        pitch: high
+    weaver:
+      display_name: The Weaver
+      tts:
+        delivery: friendly, lonely, and talkative
+        timbre: warm and mature
+        pace: conversational
+        pitch: medium
+    king:
+      display_name: The King Under the Waves
+      tts:
+        delivery: proud, authoritative, and severe
+        timbre: commanding and mature
+        pace: measured
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Fisherman's Son
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: One day in Erin, a young man walked along leading a strong cart horse by its bridle. His father, a fisherman, had drowned at sea. Now the young man was thinking about his mother, their poverty, and how he might earn enough for them both to live. All at once, someone laid a hand on his shoulder.
+        - id: ch01-b02
+          speaker: hunter
+          text: Fisherman's son, will you sell me that horse?
+        - id: ch01-b03
+          speaker: narrator
+          text: The young man looked up. A stranger stood in the road with a gun in his hand, a falcon on his shoulder, and a dog beside him.
+        - id: ch01-b04
+          speaker: ian
+          text: What would you give me for him? Would you trade me your gun, your dog, and your falcon?
+        - id: ch01-b05
+          speaker: hunter
+          text: Yes. I'll give you all three.
+        - id: ch01-b06
+          speaker: narrator
+          text: The stranger took the horse, and the youth went home with the gun, the dog, and the falcon. When his mother learned what he had done, she flew into a rage and beat him with the stick in her hand.
+        - id: ch01-b07
+          speaker: mother
+          text: That should teach you not to sell what belongs to me!
+          emotion: angry
+        - id: ch01-b08
+          speaker: narrator
+          text: She stopped only when her arm was tired. Her son, whose name was Ian, said nothing. He was very sore, so he went to bed.
+        - id: ch01-b09
+          speaker: narrator
+          text: That night, Ian quietly rose, took the gun, and left the house.
+        - id: ch01-b10
+          speaker: ian
+          text: I won't stay in a place where I'm beaten.
+        - id: ch01-b11
+          speaker: narrator
+          text: He walked and walked until daylight came. By then he was hungry and searching for something to eat. He saw a farmhouse nearby and knocked at the door. The farmer and his wife welcomed him in and shared their breakfast.
+        - id: ch01-b12
+          speaker: farmer
+          text: Ah, you've brought a gun. That's lucky for me. A deer comes each evening and eats my corn, but I can never catch it. Fortune must have sent you here.
+        - id: ch01-b13
+          speaker: ian
+          text: Then I'll gladly stay and shoot the deer for you.
+        - id: ch01-b14
+          speaker: narrator
+          text: That night, Ian hid near the cornfield and waited. The deer came to feed, and he raised the gun to his shoulder. Just as his finger was about to pull the trigger, the deer vanished. In its place stood a woman with long black hair. Ian was so astonished that the gun almost fell from his hand. Then he looked again, and there was the deer, calmly eating the corn. Three times the animal changed before his eyes. At last it raced away across the moor, and Ian ran after it.
+        - id: ch01-b15
+          speaker: narrator
+          text: They went on and on until they came to a cottage roofed with heather. The deer leaped onto the roof and lay where no one could see her. As she settled there, she called down to Ian.
+        - id: ch01-b16
+          speaker: princess
+          text: Go inside, fisherman's son. Eat and drink while you have the chance.
+    - id: ch02
+      title: The Robbers in the Heather
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Ian entered the cottage. Food and wine stood ready on the table, but no one was home. The place belonged to a band of robbers, and they were still away at their wicked work. Ian ate as much as he wanted. Then he hid behind a great cask.
+        - id: ch02-b02
+          speaker: narrator
+          text: Before long, he heard men pushing through the heather and snapping little twigs beneath their feet. From his dark hiding place, he counted twenty-four big, ill-tempered men coming into the room.
+        - id: ch02-b03
+          speakers: [robber_1, robber_2, robber_3, robber_4]
+          ensemble: chorus
+          text: Someone has eaten our dinner! There was hardly enough for us to begin with!
+          emotion: angry
+        - id: ch02-b04
+          speaker: robber_captain
+          text: The man under the cask did it. Four of you, kill him. Then eat and sleep. We have to leave early tomorrow.
+        - id: ch02-b05
+          speaker: narrator
+          text: Four robbers killed the fisherman's son and left him there. Then all the men went to bed. At sunrise, they set off on a long journey.
+        - id: ch02-b06
+          speaker: narrator
+          text: As soon as they had disappeared, the deer jumped down from the roof and came to Ian's body. She shook her head over him. Wax fell from her ear, and the moment it touched him, he sprang up as well as ever.
+        - id: ch02-b07
+          speaker: princess
+          text: Trust me. Eat just as you did before, and nothing will harm you.
+          emotion: calm
+        - id: ch02-b08
+          speaker: narrator
+          text: Ian ate and drank again. Then he curled up beneath the cask and fell fast asleep. That evening, the robbers came home exhausted and even more ill-tempered than before. Their luck had failed, and they had brought back almost nothing.
+        - id: ch02-b09
+          speakers: [robber_1, robber_2, robber_3, robber_4]
+          ensemble: chorus
+          text: Our dinner is gone again!
+          emotion: angry
+        - id: ch02-b10
+          speaker: robber_captain
+          text: It was the man under the barrel. Four of you can kill him, but first kill the four who claimed they did it last night. He is still alive, so they lied.
+          emotion: angry
+        - id: ch02-b11
+          speaker: narrator
+          text: Ian was killed a second time. The robbers ate what remained, then slept until morning. The first sunlight had barely touched their faces when they rose and left. Once again, the deer came in, dropped the healing wax upon Ian, and made him whole.
+        - id: ch02-b12
+          speaker: narrator
+          text: By now, Ian no longer feared what might happen. He was certain the deer would care for him. That evening, everything happened once more. Four more robbers were put to death, and so was Ian. This time there was no dinner at all. The hungry robbers grew wild with rage. They argued, then began to fight. They fought so fiercely that before long, every one of them lay dead upon the floor.
+        - id: ch02-b13
+          speaker: narrator
+          text: The deer entered and brought Ian back to life for the third time. She told him to follow her and ran to a little white cottage. An old woman lived there with her thin, dark-haired son.
+        - id: ch02-b14
+          speaker: princess
+          text: I must leave you here. Tomorrow at noon, meet me in the church over there.
+        - id: ch02-b15
+          speaker: narrator
+          text: She leaped across the stream and vanished into the wood.
+    - id: ch03
+      title: Three Days at the Church
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The next day, Ian set out for the church. The old woman had gone ahead of him. She pushed an enchanted stick called the spike of hurt into a crack beside the door, where Ian was sure to brush against it as he crossed the threshold.
+        - id: ch03-b02
+          speaker: narrator
+          text: The instant he touched it, sleep overcame him. He could not stay on his feet. He dropped to the ground and sank into a deep slumber while the dark lad watched. Nothing could wake Ian, not the sweetest music and not the touch of the lady who bent over him.
+        - id: ch03-b03
+          speaker: narrator
+          text: Sadness came over her when she saw that nothing worked. At last, she lifted Ian's arm and wrote her name along its side. She was the daughter of the king of the town under the waves.
+        - id: ch03-b04
+          speaker: princess
+          text: I'll come back tomorrow.
+          emotion: sad
+        - id: ch03-b05
+          speaker: narrator
+          text: Ian could not hear her. She went away in sorrow, and only then did he wake. The dark lad told him what had happened, and Ian grieved. But the lad said nothing about the name written beneath Ian's arm.
+        - id: ch03-b06
+          speaker: narrator
+          text: The following morning, Ian returned to the church. He was determined to stay awake no matter what happened. But he hurried through the doorway and touched the spike of hurt with his hand. At once, he fell where he stood and sank into sleep.
+        - id: ch03-b07
+          speaker: narrator
+          text: Music filled the air for a second time. The lady stepped softly into the church. She rested Ian's head upon her knee and combed his hair with a golden comb, but his eyes stayed closed. She burst into tears. Before she left, she slipped a beautifully made box into his pocket.
+        - id: ch03-b08
+          speaker: narrator
+          text: On the third day, the same enchantment overcame Ian. The lady found him asleep again, and this time she wept more bitterly than ever.
+        - id: ch03-b09
+          speaker: princess
+          text: This was my last chance. I will never be allowed to come here again. Now I must go home.
+          emotion: sad
+        - id: ch03-b10
+          speaker: narrator
+          text: The moment she was gone, Ian woke. The dark lad told him about her visit and said Ian would never see her again for as long as he lived. Ian felt coldness creep toward his heart. He knew the sleep had not been his fault.
+        - id: ch03-b11
+          speaker: ian
+          text: Then I'll search the whole world until I find her!
+        - id: ch03-b12
+          speaker: narrator
+          text: The dark lad laughed when he heard that vow, but Ian paid him no attention and set out. Day after day, he followed the sun across the lonely country. He kept walking until his shoes wore through and every step hurt his feet. He saw birds making their nests in the trees, but no other creatures at all. There was not even a goat or rabbit in sight.
+    - id: ch04
+      title: The Road Under the Waves
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Ian went on and on until he suddenly found a small house with a woman standing outside.
+        - id: ch04-b02
+          speaker: first_sister
+          text: Welcome, fisherman's son. I know what you're searching for. Come inside, rest, and eat. Tomorrow I'll help you as much as I can and send you on your way.
+        - id: ch04-b03
+          speaker: narrator
+          text: Ian gladly accepted. He rested all day, and the woman put an ointment on his feet that healed every sore. At daybreak, he rose, ready to leave.
+        - id: ch04-b04
+          speaker: first_sister
+          text: My sister lives along the road you must take. The journey would normally last a year and a day. Put on these old brown shoes, even though they're full of holes, and you'll reach her before you know it. When you arrive, shake them off. Point the toes toward the known country and the heels toward the unknown, and they'll find their own way home.
+        - id: ch04-b05
+          speaker: narrator
+          text: Ian did exactly as she said, and everything happened just as she had promised. He reached the second sister and returned the magic shoes on their own. When he was ready to leave, she handed him another pair.
+        - id: ch04-b06
+          speaker: second_sister
+          text: Go on to our third sister. Her son keeps all the birds of the air and sends them to sleep each night. He is very wise. Perhaps he'll know how to help you.
+        - id: ch04-b07
+          speaker: narrator
+          text: Ian thanked her and went to the third sister. She received him kindly, though she had no advice for him herself.
+        - id: ch04-b08
+          speaker: third_sister
+          text: Eat, drink, and wait here. My son will come home after he has put all the birds to sleep.
+        - id: ch04-b09
+          speaker: narrator
+          text: When her son returned, his mother told him Ian's story. He thought for a long time. Then he announced that he was hungry and wanted the cow killed for his supper. They killed the cow, cooked the meat, and made a bag from its red hide.
+        - id: ch04-b10
+          speaker: bird_keeper
+          text: Now climb into the bag.
+        - id: ch04-b11
+          speaker: narrator
+          text: Ian got inside with his gun, leaving the dog and falcon outside. The keeper tied the bag shut and went back to finish eating. Just then, an eagle flew through the open door. She seized the bag in her claws, carried it through the sky, and dropped it on an island.
+        - id: ch04-b12
+          speaker: narrator
+          text: There was nothing to eat there. Ian thought he would starve. Then he remembered the box the lady had slipped into his pocket. He opened it, and three tiny birds flew out. They beat their little wings and spoke together.
+        - id: ch04-b13
+          speakers: [little_bird_1, little_bird_2, little_bird_3]
+          ensemble: chorus
+          text: Good master, what can we do for you?
+        - id: ch04-b14
+          speaker: ian
+          text: Carry me to the kingdom of the king under the waves.
+        - id: ch04-b15
+          speaker: narrator
+          text: One bird settled on Ian's head, and the other two perched on his shoulders. He closed his eyes. In a moment, he stood in the country beneath the sea. The birds flew away. Ian looked around, his heart beating fast. Somewhere in that land lived the lady he had searched for across the whole world.
+    - id: ch05
+      title: The Three Races
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Ian walked through the streets until he came to a weaver's house. The weaver stood in the doorway, taking a rest from his work.
+        - id: ch05-b02
+          speaker: weaver
+          text: Anyone can see you're a stranger here. Come in, and I'll give you something to eat and drink.
+        - id: ch05-b03
+          speaker: narrator
+          text: Ian was glad to accept, for he had no idea where to go. They sat talking until late in the evening.
+        - id: ch05-b04
+          speaker: weaver
+          text: Please stay here tonight. I enjoy having company, and I'm often lonely.
+        - id: ch05-b05
+          speaker: narrator
+          text: The weaver pointed to a bed in the corner. Ian lay down and slept there until dawn.
+        - id: ch05-b06
+          speaker: weaver
+          text: The town is holding a horse race today. Whoever wins will marry the king's daughter.
+        - id: ch05-b07
+          speaker: narrator
+          text: Ian trembled with excitement, and his voice shook when he answered.
+        - id: ch05-b08
+          speaker: ian
+          text: What a prize that is! I'd like to watch the race.
+          emotion: surprised
+        - id: ch05-b09
+          speaker: weaver
+          text: That's easy enough. Anyone may go. I'd take you myself, but I promised to finish this cloth for the king.
+        - id: ch05-b10
+          speaker: ian
+          text: That's a shame.
+        - id: ch05-b11
+          speaker: narrator
+          text: Ian spoke politely, but inside he was delighted. He wanted to be alone. He left the house, entered a grove of trees behind it, and opened the box. The three little birds flew out.
+        - id: ch05-b12
+          speakers: [little_bird_1, little_bird_2, little_bird_3]
+          ensemble: chorus
+          text: Good master, what shall we do for you?
+        - id: ch05-b13
+          speaker: ian
+          text: Bring me the finest horse anyone has ever seen, the grandest clothes, and shoes made of glass.
+        - id: ch05-b14
+          speakers: [little_bird_1, little_bird_2, little_bird_3]
+          ensemble: chorus
+          text: They are here, master.
+        - id: ch05-b15
+          speaker: narrator
+          text: And there they were. Ian had never seen anything so splendid. He mounted the horse and rode to the field where the racers were gathering. Many famous horses stood there, but Ian's left every one of them behind and reached the winning post first.
+        - id: ch05-b16
+          speaker: narrator
+          text: The king's daughter waited for the winner to claim his reward, but Ian did not come. He returned to the wood, got off the horse, and put on his old clothes. Then he asked the box to fill his pockets with gold. Back at the weaver's house, he said the race winner had given him the money, and he offered it all to the weaver in return for his kindness.
+        - id: ch05-b17
+          speaker: narrator
+          text: Since no one claimed the princess's hand, the king ordered another race. Ian entered in clothes even finer than before and easily outran everyone. Again, he vanished without taking the prize.
+        - id: ch05-b18
+          speaker: narrator
+          text: The same thing happened on the third day. Ian appeared in splendor, won the race, and disappeared without claiming the princess. By then, it seemed that everyone in the kingdom had gathered to watch. They were all eager to learn who the mysterious winner might be.
+        - id: ch05-b19
+          speaker: king
+          text: If he won't come willingly, then he must be brought to me.
+        - id: ch05-b20
+          speaker: narrator
+          text: Messengers who had seen the victor's face searched every street. Many days passed before they found Ian in the weaver's cottage. Fairies had made him look so filthy, ugly, and strange that the messengers refused to believe he was the man they wanted. They decided he must be a wicked robber who had murdered many people and always escaped.
+    - id: ch06
+      title: The Name Beneath His Arm
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: The messengers dragged Ian before the king. When the king saw him, he believed their story.
+        - id: ch06-b02
+          speaker: king
+          text: Yes, this must be the robber. Build a gallows at once. Hang him where all my subjects can watch him suffer for his crimes.
+        - id: ch06-b03
+          speaker: narrator
+          text: They built the gallows on a high platform where all the king's subjects could see it. Ian climbed the steps and, at the top, turned to give the speech expected from every condemned person, guilty or innocent. As he spoke, he happened to lift one arm.
+        - id: ch06-b04
+          speaker: narrator
+          text: The king's daughter sat beside her father. She saw the name she had written along Ian's arm. With a shriek, she sprang from her seat, and every face in the crowd turned toward her.
+        - id: ch06-b05
+          speaker: princess
+          text: Stop! Stop! If you hang that man, every soul in this kingdom will die too!
+          emotion: fearful
+        - id: ch06-b06
+          speaker: narrator
+          text: She hardly knew what she was saying. She ran up to Ian and took his hand.
+        - id: ch06-b07
+          speaker: princess
+          text: Father, he is no robber and no murderer. He won all three races, and he broke the spells that held me.
+        - id: ch06-b08
+          speaker: narrator
+          text: Without waiting for her father to answer, she led Ian straight into the palace. He bathed in a marble bath, and all the dirt the fairies had put upon him vanished as if by magic. The princess sent him fine clothes, and he put them on before going down to meet her. Now he looked worthy of any king's daughter in Erin.
+        - id: ch06-b09
+          speaker: narrator
+          text: Ian went down to the great hall, where the princess was waiting. They had a great deal to tell each other and very little time. The king, the visiting princes, and all the people of the kingdom still waited outside for her return.
+        - id: ch06-b10
+          speaker: princess
+          text: How did you ever find me?
+        - id: ch06-b11
+          speaker: ian
+          text: The birds from your box showed me the way.
+        - id: ch06-b12
+          speaker: narrator
+          text: That was all he could say before they reached the end of the passage and stepped into the crowded open space. The king and his people were still in their places, and the visiting princes stood together before them. The princess turned to those royal visitors.
+        - id: ch06-b13
+          speaker: princess
+          text: Listen, kings. If one of you were killed today, all the others would run away. But this man trusted me even after his head was cut off three times. That is why I will marry him instead of any prince who came here seeking my hand. Many kings tried to free me from the spells, but only Ian, the fisherman's son, succeeded.

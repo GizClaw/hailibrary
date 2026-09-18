@@ -1,0 +1,367 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 清楚从容，像在为听众介绍一本古老的童话集
+        timbre: 温暖明净
+        pace: 舒缓
+        pitch: 中音
+    thakane:
+      display_name: 塔卡内
+      tts: {delivery: 温柔诚恳，危急时勇敢坚定, timbre: 清澈年轻, pace: 适中, pitch: 中高音}
+    koane:
+      display_name: 科阿内
+      tts: {delivery: 任性强硬，发脾气时咄咄逼人, timbre: 清亮稚气, pace: 稍快, pitch: 中高音}
+    father:
+      display_name: 父亲
+      tts: {delivery: 严厉固执，说话不容分辩, timbre: 坚实成熟, pace: 适中, pitch: 低音}
+    mother:
+      display_name: 母亲
+      tts: {delivery: 朴实持重，语气严肃, timbre: 温厚成熟, pace: 适中, pitch: 中低音}
+    servant_1:
+      display_name: 仆人甲
+      tts: {delivery: 恭敬直率，惊讶时脱口而出, timbre: 平实清楚, pace: 适中, pitch: 中音}
+    servant_2:
+      display_name: 仆人乙
+      tts: {delivery: 谨慎顺从，惊讶时语气真切, timbre: 稳重清楚, pace: 适中, pitch: 中低音}
+    rabbit:
+      display_name: 兔子
+      tts: {delivery: 机敏无畏，心怀怜悯, timbre: 轻快明亮, pace: 活泼, pitch: 高音}
+    eland_1:
+      display_name: 大羚羊甲
+      tts: {delivery: 庄重质问，声音坚定, timbre: 深沉洪亮, pace: 适中, pitch: 低音}
+    eland_2:
+      display_name: 大羚羊乙
+      tts: {delivery: 庄重质问，带着怜惜, timbre: 醇厚响亮, pace: 适中, pitch: 中低音}
+    eland_3:
+      display_name: 大羚羊丙
+      tts: {delivery: 庄重质问，态度坚决, timbre: 清楚有力, pace: 适中, pitch: 中音}
+    gazelle_1:
+      display_name: 瞪羚甲
+      tts: {delivery: 警醒优雅，语带同情, timbre: 轻柔清澈, pace: 流畅, pitch: 中高音}
+    gazelle_2:
+      display_name: 瞪羚乙
+      tts: {delivery: 警醒优雅，语带同情, timbre: 柔和清澈, pace: 流畅, pitch: 高音}
+    gazelle_3:
+      display_name: 瞪羚丙
+      tts: {delivery: 警醒优雅，语带同情, timbre: 明亮清澈, pace: 流畅, pitch: 中音}
+    masilo:
+      display_name: 马西洛
+      tts: {delivery: 彬彬有礼，感情深切而克制, timbre: 温暖年轻, pace: 适中, pitch: 中低音}
+    masilos_mother:
+      display_name: 马西洛的母亲
+      tts: {delivery: 守旧忧虑，悲喜都流露在声音里, timbre: 苍老微颤, pace: 适中, pitch: 中低音}
+    old_woman:
+      display_name: 湖边老妇人
+      tts: {delivery: 爽利果断，话语简洁笃定, timbre: 干涩苍老, pace: 适中, pitch: 中低音}
+    basket_maker:
+      display_name: 编篮人
+      tts: {delivery: 直截了当，对自己的发现十分确信, timbre: 朴素成熟, pace: 适中, pitch: 中音}
+  chapters:
+    - id: ch01
+      title: 圣树流乳
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            很远的地方，有一个酷热的国度。一对夫妻住在那里，养育着两个孩子，儿子叫科阿内，女儿叫塔卡内。夫妻俩每天清早和傍晚都在田里辛苦干活，烈日当空时才到树荫下歇一歇。他们离家以后，塔卡内独自料理家务。科阿内则总在天亮前起床，趁天气凉爽，把牛赶去最肥美的草地。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            一天，科阿内睡过了头。父母已经去了田里，塔卡内正在家中做晚饭要吃的面包。科阿内走到妹妹跟前。
+        - id: ch01-b03
+          speaker: koane
+          text: 塔卡内，我渴了。去取点库蒙戈埃树的乳汁给我喝，那是世上最好喝的乳汁。
+        - id: ch01-b04
+          speaker: thakane
+          text: 科阿内，我们不许碰那棵树，你明明知道。爸爸回来会怎么说？他一定看得出来。
+          emotion: fearful
+        - id: ch01-b05
+          speaker: koane
+          text: 少胡说。树上有那么多乳汁，少一点爸爸才不会发现。你不给我，我就不去放牛，让牛在茅屋里饿上一整天！
+          emotion: angry
+        - id: ch01-b06
+          speaker: narrator
+          text: 科阿内气冲冲地转过身，坐到墙角。过了一会儿，天气越来越热，塔卡内忍不住又问他。
+        - id: ch01-b07
+          speaker: thakane
+          text: 你是不是该把牛赶出去了？
+        - id: ch01-b08
+          speaker: koane
+          text: 我说了不去！我喝不到乳汁，牛也别想吃草。
+          emotion: angry
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            塔卡内为难极了。违背父母，她多半要挨打。可把牲口关在屋里，它们一定会受苦，她也可能因此挨打。最后，她拿来斧头和一只小陶碗，在库蒙戈埃树身上凿了个极小的孔。乳汁流出来，正好装满一碗。她端到还在生闷气的哥哥面前。
+        - id: ch01-b10
+          speaker: thakane
+          text: 你要的乳汁拿来了。
+        - id: ch01-b11
+          speaker: koane
+          text: 这么点有什么用，连苍蝇都淹不死！再给我取三倍来。
+        - id: ch01-b12
+          speaker: narrator
+          text: >-
+            塔卡内吓得发抖，只得回到树边，用斧头狠狠砍了一下。乳汁顷刻间喷涌出来，像河水一样灌进茅屋。
+        - id: ch01-b13
+          speaker: thakane
+          text: 科阿内，快帮我堵住洞！再流下去，爸爸妈妈一点也喝不到了！
+          emotion: fearful
+        - id: ch01-b14
+          speaker: narrator
+          text: >-
+            科阿内赶来帮忙，可兄妹俩谁也堵不住。乳汁很快穿过茅屋，又顺着山坡往下流，直奔父母干活的田地。父亲隔着很远看见这道白流，立刻猜到家中出了事。
+        - id: ch01-b15
+          speaker: father
+          text: 妻子，你看，库蒙戈埃正往山下流！一定是孩子们闯了祸。我得回去看看。
+        - id: ch01-b16
+          speaker: narrator
+          text: >-
+            夫妻俩扔下锄头，赶到乳汁旁，跪在草地上，用合拢的双手捧着喝。两人刚喝完，库蒙戈埃便掉头流回山上，又进了茅屋。父母顶着烈日赶回家，热得直喘气，一见女儿就厉声责问。
+        - id: ch01-b17
+          speakers: [father, mother]
+          ensemble: duo
+          text: 塔卡内，你做了什么？库蒙戈埃为什么不待在园子里，反而流到田里找我们？
+        - id: ch01-b18
+          speaker: thakane
+          text: 是科阿内逼我的。他喝不到库蒙戈埃的乳汁，就不肯带牛去吃草。我不知道还有什么办法，只好取给他。
+    - id: ch02
+      title: 通往食人魔的路
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            父亲听完，一句话也没说。他走到屋外，拿进两张羊皮，把它们染成红色，又派人请来铁匠，打了几只铁环。铁环分别套在塔卡内的胳膊、双腿和脖子上，两张沉重的羊皮一前一后牢牢绑住她。一切办妥后，他才叫来仆人。
+        - id: ch02-b02
+          speaker: father
+          text: 我要除掉塔卡内。
+        - id: ch02-b03
+          speakers: [servant_1, servant_2]
+          ensemble: duo
+          text: 除掉您唯一的女儿？为什么？
+          emotion: surprised
+        - id: ch02-b04
+          speaker: father
+          text: 她吃了不该吃的东西，还碰了只属于她母亲和我的圣树。
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            父亲说完便背过身去，叫塔卡内跟在后面，沿着通往食人魔住处的道路走去。他们经过一片庄稼快要成熟的田野，一只兔子忽然蹿到两人脚边。兔子用后腿直立起来，望着身披红羊皮的姑娘唱道。
+        - id: ch02-b06
+          speaker: rabbit
+          text: 为何送给食人魔，送去你美丽的女儿？
+        - id: ch02-b07
+          speaker: father
+          text: 问她吧。她已经大到能自己回答了。
+        - id: ch02-b08
+          speaker: thakane
+          text: 我把库蒙戈埃给了科阿内，给了看守牲口的科阿内。没有库蒙戈埃，牛群便去不了草场。没有库蒙戈埃，牛群便会饿死在茅屋。所以我把父亲的库蒙戈埃给了他。
+        - id: ch02-b09
+          speaker: rabbit
+          text: 狠心的人！食人魔该吃掉的是你，不是你美丽的女儿！
+          emotion: angry
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            父亲不肯理会，只管加快脚步，还命令塔卡内紧紧跟着。走了一阵，一群大羚羊拦住他们，也唱起同一个问题。
+        - id: ch02-b11
+          speakers: [eland_1, eland_2, eland_3]
+          ensemble: chorus
+          text: 为何送给食人魔，送去你美丽的女儿？
+        - id: ch02-b12
+          speaker: father
+          text: 你们问她。她自己会回答。
+        - id: ch02-b13
+          speaker: thakane
+          text: 我把库蒙戈埃给了科阿内，给了看守牲口的科阿内。没有库蒙戈埃，牛群便去不了草场。没有库蒙戈埃，牛群便会饿死在茅屋。所以我把父亲的库蒙戈埃给了他。
+        - id: ch02-b14
+          speakers: [eland_1, eland_2, eland_3]
+          ensemble: chorus
+          text: 狠心的人！食人魔该吃掉的是你，不是你美丽的女儿！
+          emotion: angry
+        - id: ch02-b15
+          speaker: narrator
+          text: >-
+            这时天色已近黄昏。父亲说当晚不能再赶路，两人必须在原地睡下。塔卡内听了实在庆幸。她早已疲惫不堪，绑在身上的两张羊皮也沉得几乎背不动了。尽管想到食人魔仍旧害怕，她还是沉沉睡到黎明。第二天，父亲粗声粗气地叫醒她，说自己已经准备好，要继续上路。
+        - id: ch02-b16
+          speaker: narrator
+          text: >-
+            父女俩穿过平原时，一群正在吃草的瞪羚抬起头来。它们奇怪谁这么早赶路，一看见塔卡内，也唱了起来。
+        - id: ch02-b17
+          speakers: [gazelle_1, gazelle_2, gazelle_3]
+          ensemble: chorus
+          text: 为何送给食人魔，送去你美丽的女儿？
+        - id: ch02-b18
+          speaker: father
+          text: 问她自己。她能替自己回答。
+        - id: ch02-b19
+          speaker: thakane
+          text: 我把库蒙戈埃给了科阿内，给了看守牲口的科阿内。没有库蒙戈埃，牛群便去不了草场。没有库蒙戈埃，牛群便会饿死在茅屋。所以我把父亲的库蒙戈埃给了他。
+        - id: ch02-b20
+          speakers: [gazelle_1, gazelle_2, gazelle_3]
+          ensemble: chorus
+          text: 狠心的人！食人魔该吃掉的是你，不是你美丽的女儿！
+          emotion: angry
+        - id: ch02-b21
+          speaker: narrator
+          text: >-
+            他们终于到了食人魔居住的村子，径直走进他的茅屋。食人魔不在，屋里只有他的儿子马西洛。马西洛一点也不像食人魔，而是个很有礼貌的年轻人。他吩咐仆人搬来一摞兽皮，请塔卡内坐上去，却只让她父亲坐在地面。姑娘一路低着脸，马西洛这时终于看清她的容貌，立刻被她的美丽打动。他问起兔子、大羚羊和瞪羚都问过的事。塔卡内又唱了一遍自己的经历。
+        - id: ch02-b22
+          speaker: narrator
+          text: >-
+            马西洛随即让人把塔卡内送到母亲的茅屋照料，又把她父亲带去见食人魔。食人魔一见男人，便命令仆人把他扔进火上常备的大锅。不到五分钟，他就煮得火候正好。仆人回来，把经过全都禀告了马西洛。
+        - id: ch02-b23
+          speaker: narrator
+          text: >-
+            马西洛第一眼看见塔卡内就爱上了她。起初，他甚至弄不明白这种陌生的感情。他一向厌恶女人，父母替他挑过几个新娘，也都遭到拒绝。如今父母一心盼他成婚，即使塔卡内没有带来嫁妆，也欣然接受她做儿媳。
+    - id: ch03
+      title: 湖中的女儿
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            过了一段日子，塔卡内生下一个孩子。她觉得自己的孩子是世上最美的婴儿。婆婆却发现这是个女孩，顿时绞着双手哭起来。
+        - id: ch03-b02
+          speaker: masilos_mother
+          text: 可怜的母亲，可怜的孩子！你们真不幸。你为什么偏偏不是男孩？
+          emotion: sad
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            塔卡内惊讶地追问缘故。婆婆告诉她，这个国家有一条规矩，每个出生的女孩都要送给食人魔吃掉。塔卡内一听，马上把孩子紧紧搂进怀里。
+        - id: ch03-b04
+          speaker: thakane
+          text: 我的国家没有这种规矩！我们那里，孩子死了会埋进土里。谁也不能夺走我的女儿！
+          emotion: angry
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            那天夜里，等茅屋里所有人都睡熟，塔卡内悄悄起身，把孩子背在背上离开了村子。她来到河水铺展开来、汇成一片大湖的地方。湖岸四周长满高高的柳树。这里没人能看见她，她就在一块石头上坐下，苦苦思量究竟怎样才能保住孩子。忽然，柳树丛里传出一阵窸窣声，一位老妇人出现在她面前。
+        - id: ch03-b06
+          speaker: old_woman
+          text: 亲爱的，你为什么哭？
+        - id: ch03-b07
+          speaker: thakane
+          text: 我在为女儿哭。我不可能永远藏着她。食人魔见到她就会把她吃掉，与其那样，我宁可让她淹死。
+          emotion: sad
+        - id: ch03-b08
+          speaker: old_woman
+          text: 你说得没错。把孩子交给我照料吧。再定一天到这里来见我，我会带她来。
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            塔卡内擦干眼泪，欣然答应了。回到家，她告诉丈夫，自己已把孩子扔进河里。丈夫看见她确实往河边走过，丝毫没有怀疑。
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            到了约定那天，塔卡内趁大家忙碌，悄悄跑到湖边。她蹲进柳树丛，轻声唱起呼唤女儿的歌。
+        - id: ch03-b11
+          speaker: thakane
+          text: 把迪拉带给我，带来被遗弃的迪拉，带来被父亲马西洛抛弃的迪拉！
+        - id: ch03-b12
+          speaker: narrator
+          text: >-
+            转眼间，老妇人抱着孩子出现了。迪拉已经长得又大又健壮，塔卡内看在眼里，心中满是喜悦和感激。她尽可能多留了一会儿，陪着女儿玩耍。直到担心村里人发现自己不见了，她才不得不回去。塔卡内把孩子交还老妇人，老妇人抱着迪拉，一同消失在湖水中。
+    - id: ch04
+      title: 藏不住的秘密
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            水下的孩子长得格外快。还没过多久，快得谁也想不到，迪拉便从小婴儿长成了女子。母亲只要找到机会，就会悄悄来湖边看她。一天，母女俩正坐在一起说话，一个男人来割柳条，打算带回去编篮子。他无意中看见了两人，又发现姑娘的脸和马西洛那样相像，惊讶得连手里的活儿也不做了，马上赶回村里报信。
+        - id: ch04-b02
+          speaker: basket_maker
+          text: 马西洛，我刚在河边看见你妻子和一个姑娘。那姑娘跟你长得一模一样，一定是你的女儿。我们都被骗了，大家还以为她死了。
+          emotion: surprised
+        - id: ch04-b03
+          speaker: narrator
+          text: 马西洛想到妻子触犯国法，努力装出震惊的样子，心里却高兴极了。
+        - id: ch04-b04
+          speaker: masilo
+          text: 那现在该怎么办？
+        - id: ch04-b05
+          speaker: basket_maker
+          text: 等塔卡内再说要去河里洗澡，你就先躲进灌木丛。等姑娘出现，你自然知道我说的是真是假。
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            一连几天，塔卡内都安静地待在家里，马西洛渐渐怀疑编篮人看错了。终于，妻子开口说要去河里洗澡。
+        - id: ch04-b07
+          speaker: masilo
+          text: 好，你去吧。
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            他嘴上答应，转身却从另一条路飞奔到湖边，抢先藏进灌木丛。塔卡内随后来到岸边，唱起那支歌。
+        - id: ch04-b09
+          speaker: thakane
+          text: 把迪拉带给我，带来被遗弃的迪拉，带来被父亲马西洛抛弃的迪拉！
+        - id: ch04-b10
+          speaker: narrator
+          text: >-
+            老妇人牵着迪拉的手，从湖水里走了出来。昔日的婴儿如今已经高挑修长。藏在灌木丛里的马西洛仔细看着她，终于确信这真是自己的女儿。想到她并没有像自己以为的那样死在湖底，他不禁喜极而泣。老妇人却像是察觉了什么，显得很不安。
+        - id: ch04-b11
+          speaker: old_woman
+          text: 我觉得有人在看我们。今天不能把姑娘留下，我要带她回去。
+        - id: ch04-b12
+          speaker: narrator
+          text: >-
+            老妇人沉入水面，牵着迪拉一同下去了。塔卡内随后返回村子，马西洛已经设法赶在她之前回到家。他一整天都坐在墙角哭泣。母亲走进来，见他这样，连忙询问。
+        - id: ch04-b13
+          speaker: masilos_mother
+          text: 儿子，你怎么哭得这么伤心？
+        - id: ch04-b14
+          speaker: masilo
+          text: 我头疼，疼得很厉害。
+          emotion: sad
+        - id: ch04-b15
+          speaker: narrator
+          text: 母亲听了便走开，留下他独自坐着。到了晚上，马西洛终于对妻子说出实情。
+        - id: ch04-b16
+          speaker: masilo
+          text: 我见到女儿了，就在你说淹死她的地方。她住在湖底，现在已经长成了年轻姑娘。
+        - id: ch04-b17
+          speaker: thakane
+          text: 我不知道你在说什么。我明明把孩子埋在岸边的沙子下面了。
+        - id: ch04-b18
+          speaker: narrator
+          text: 马西洛苦苦央求妻子把女儿还给他，塔卡内却不肯答应。
+        - id: ch04-b19
+          speaker: thakane
+          text: 我若把女儿交给你，你只会照你们国家的规矩，把她送给你父亲那个食人魔吃掉。
+        - id: ch04-b20
+          speaker: narrator
+          text: >-
+            马西洛保证绝不让父亲看见女儿，还说迪拉已经长大，不会再有人想伤害她。塔卡内终于心软，便去湖边找老妇人商量。她拍了拍手，老妇人随即出现。
+        - id: ch04-b21
+          speaker: thakane
+          text: 我该怎么办？马西洛昨天看见了迪拉，从那以后一直求我把女儿还给他。
+        - id: ch04-b22
+          speaker: old_woman
+          text: 想让我放她回去，马西洛得拿一千头牛来换。
+    - id: ch05
+      title: 一千头牛
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 塔卡内回去，把老妇人的条件告诉了丈夫。马西洛听完便喊了起来。
+        - id: ch05-b02
+          speaker: masilo
+          text: 别说一千头，两千头我也愿意给！她救了我的女儿。
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            马西洛马上派出使者，催他们赶往附近所有村庄，告诉自己的族人，把他拥有的牛一头不少地送来。等所有牛都聚齐，他从中挑出一千头最健壮的公牛和母牛，亲自把牛群赶往河边。后面跟着一大群好奇的人，人人都想看看接下来会发生什么。来到湖边，塔卡内走到牛群前，再一次唱起呼唤迪拉的歌。
+        - id: ch05-b04
+          speaker: thakane
+          text: 把迪拉带给我，带来被遗弃的迪拉，带来被父亲马西洛抛弃的迪拉！
+        - id: ch05-b05
+          speaker: narrator
+          text: >-
+            迪拉从水中走出来，向马西洛和塔卡内伸出双手。就在她回到父母身边时，一千头牛沉入湖中。老妇人把牛群赶往湖底那座住满人的大城。
+        - id: ch05-b06
+          speaker: narrator
+          text: 这个故事选自《巴苏陀民间故事》。

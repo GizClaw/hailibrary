@@ -1,0 +1,281 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，保留古老童话的神秘感
+        timbre: 温暖清晰
+        pace: 舒缓
+        pitch: 中音
+    dog:
+      display_name: 牧羊犬
+      tts:
+        delivery: 忠厚直率，饥饿时低沉无力
+        timbre: 粗哑温和
+        pace: 稍慢
+        pitch: 中低音
+    sparrow:
+      display_name: 麻雀
+      tts:
+        delivery: 机敏果断，复仇时尖锐坚定
+        timbre: 清亮有力
+        pace: 适中偏快
+        pitch: 高音
+    carter:
+      display_name: 车夫
+      tts:
+        delivery: 粗暴傲慢，受挫后暴躁失控
+        timbre: 粗重沙哑
+        pace: 适中偏快
+        pitch: 低音
+    carter_wife:
+      display_name: 车夫妻子
+      tts:
+        delivery: 朴实直接，惊慌时语气急促
+        timbre: 清晰厚实
+        pace: 适中
+        pitch: 中音
+  chapters:
+    - id: ch01
+      title: 饥饿的牧羊犬
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前有一条牧羊犬，它的主人心肠狠毒，不给它饭吃，还百般虐待它。狗再也忍不下去了。有一天，它逃出家门，沿着大路小跑。路上，一只麻雀拦住了它。
+        - id: ch01-b02
+          speaker: sparrow
+          text: >-
+            狗兄弟，你怎么这么难过？
+        - id: ch01-b03
+          speaker: dog
+          text: >-
+            我饿坏了，又找不到一点吃的，怎么能不难过呢？
+          emotion: sad
+        - id: ch01-b04
+          speaker: sparrow
+          text: >-
+            原来只是饿了。跟我进城吧，我很快就能给你弄到吃的。
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            它们一同进了城，来到一家肉铺门口。麻雀让狗留在原地，答应替它啄一块肉下来。她先仔细看看四周，确定没人留意，才飞到架子边，不停地啄那块肉。肉终于掉了下来。狗一口叼住，飞快地跑进阴暗的角落，没几下就吞光了。
+        - id: ch01-b06
+          speaker: sparrow
+          text: >-
+            再跟我去一家铺子吧。我还要给你弄一块肉，让你真正吃饱。
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            麻雀带着狗来到另一家铺子，又像刚才那样替它弄下一块肉。狗把第二块肉也吃得干干净净，麻雀便问它现在够不够。
+        - id: ch01-b08
+          speaker: dog
+          text: >-
+            肉已经够了，可我还没吃面包呢。
+        - id: ch01-b09
+          speaker: sparrow
+          text: >-
+            那就再来吧，你想吃多少面包都行。
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            麻雀把狗领到一家面包铺，对着架上的两只小面包啄了又啄，终于把它们啄落下来。狗吃掉面包，肚子却还没填饱。于是麻雀又带它去另一家面包铺，再弄了些面包给它。
+        - id: ch01-b11
+          speaker: sparrow
+          text: >-
+            兄弟，这一回总算吃饱了吧？
+        - id: ch01-b12
+          speaker: dog
+          text: >-
+            吃饱了。现在我们去城外走一走吧。
+    - id: ch02
+      title: 大路上的警告
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            两个伙伴来到郊外散步。天气热得厉害，没走多远，狗就累了，想躺下来睡一觉。
+        - id: ch02-b02
+          speaker: sparrow
+          text: >-
+            你睡吧。我停在树枝上替你守着。
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            狗卧在大路中央，很快就睡熟了。这时，一个车夫赶着马车过来。三匹马拉着车，车上载着两大桶酒。麻雀看得清楚，车夫根本不打算绕开熟睡的狗，反而沿着路中央直冲过来。
+        - id: ch02-b04
+          speaker: sparrow
+          text: >-
+            车夫，看清楚前面的路！你要是伤了它，我一定叫你吃尽苦头！
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            车夫听了只是哈哈一笑，一点也不肯往旁边让。他把鞭子抽得啪啪响，赶着马车从狗身上径直碾了过去。沉重的车轮当场夺去了狗的性命。
+        - id: ch02-b06
+          speaker: sparrow
+          text: >-
+            你害死了我的兄弟！你这样狠毒，会赔上马车和三匹马！
+          emotion: angry
+        - id: ch02-b07
+          speaker: carter
+          text: >-
+            让我赔上马车和马？我倒要看看，你这么一只小鸟能怎么夺走它们！
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            麻雀没有回答。她钻进马车的篷布下面，对准第一只酒桶的塞孔不停地啄。塞子终于脱落，桶里的酒悄悄流光了，车夫一点也不知道。
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            后来，车夫回头看见车底湿漉漉的。他停下来仔细一查，才发现一只桶已经空了。
+        - id: ch02-b10
+          speaker: carter
+          text: >-
+            唉，我怎么这么倒霉！
+          emotion: surprised
+        - id: ch02-b11
+          speaker: sparrow
+          text: >-
+            这还不算什么，你马上会更倒霉。
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            麻雀飞到一匹马头上，啄瞎了它的眼睛。车夫抓起斧头朝她砍去，她却飞上半空。斧头没碰到小鸟，反倒正中瞎马的脑袋。马倒地死了。
+        - id: ch02-b13
+          speaker: carter
+          text: >-
+            唉，我怎么这么倒霉！
+          emotion: surprised
+    - id: ch03
+      title: 越来越深的霉运
+      blocks:
+        - id: ch03-b01
+          speaker: sparrow
+          text: >-
+            更倒霉的事还在后面呢。
+        - id: ch03-b02
+          speaker: narrator
+          text: >-
+            车夫赶着剩下的两匹马继续走。麻雀又钻进篷布，啄掉了第二只酒桶的塞子。那桶酒也全都流到了路上。车夫发现眼前这场新灾祸，再一次叫了起来。
+        - id: ch03-b03
+          speaker: carter
+          text: >-
+            唉，我怎么这么倒霉！
+          emotion: surprised
+        - id: ch03-b04
+          speaker: sparrow
+          text: >-
+            你的霉运还远远没完。
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            她落到第二匹马头上，也啄瞎了它。车夫跳下车，拿起斧头想杀掉她。麻雀高高飞起，那一斧又落在瞎马身上，当场把马砍死了。
+        - id: ch03-b06
+          speaker: carter
+          text: >-
+            唉，我怎么这么倒霉！
+          emotion: surprised
+        - id: ch03-b07
+          speaker: sparrow
+          text: >-
+            还没到头呢，你等着瞧吧。
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            麻雀唱着飞落到第三匹马头上，把它的眼睛也啄瞎了。车夫气得发昏，把斧头猛掷过去。她又一次躲开，斧头却击中最后一匹马，把它也杀死了。
+        - id: ch03-b09
+          speaker: carter
+          text: >-
+            唉，我怎么这么倒霉！
+          emotion: surprised
+        - id: ch03-b10
+          speaker: sparrow
+          text: >-
+            还有更倒霉的呢。接下来，我要叫你家里一片荒凉。
+        - id: ch03-b11
+          speaker: narrator
+          text: >-
+            三匹马全死了，车夫只得把马车扔在路上，怒气冲冲地走回家。他一看见妻子，就大声诉苦。
+        - id: ch03-b12
+          speaker: carter
+          text: >-
+            唉，我今天真是倒了大霉！两桶酒全洒光了，我的三匹马也一匹不剩，全都死了！
+        - id: ch03-b13
+          speaker: carter_wife
+          text: >-
+            亲爱的，你的霉运已经追到家里来了！那只可恶的小麻雀召来了天底下所有的鸟，它们正在谷仓里把东西吃个精光！
+        - id: ch03-b14
+          speaker: narrator
+          text: >-
+            车夫冲到存粮食的谷仓，眼前果真是妻子说的景象。成千上万只鸟正在吃谷粒，那只小麻雀正坐在鸟群中央。
+        - id: ch03-b15
+          speaker: carter
+          text: >-
+            唉，我怎么这么倒霉！
+          emotion: surprised
+        - id: ch03-b16
+          speaker: sparrow
+          text: >-
+            你还不够倒霉。车夫，记住我的话，你这样狠毒，最后连命也要赔上！
+          emotion: angry
+        - id: ch03-b17
+          speaker: narrator
+          text: >-
+            说完，麻雀飞上了天空。
+    - id: ch04
+      title: 狠毒的代价
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            车夫失去了全部家当，垂头丧气地坐在火炉旁。他一心盘算着该怎么向麻雀报仇。那只小鸟却停在窗沿上，用嘲弄的声音唱起来。
+        - id: ch04-b02
+          speaker: sparrow
+          text: >-
+            对呀，车夫，你这样狠毒，最后连命也要赔上。
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            车夫抓起斧头，朝麻雀掷去。斧头只打碎了窗玻璃，没伤到小鸟。麻雀从破窗跳进屋，停在壁炉架上。
+        - id: ch04-b04
+          speaker: sparrow
+          text: >-
+            对呀，车夫，你连命也要赔上。
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            车夫彻底气疯了，又挥起斧头扑向麻雀。他追着小鸟在屋里乱砍，可她每一次都从斧刃前躲开。车夫没能伤她一根羽毛，只把自己的家具一件件砸烂。最后，他总算伸出双手，一把捉住了她。
+        - id: ch04-b06
+          speaker: carter_wife
+          text: >-
+            要我把它的脖子扭断吗？
+        - id: ch04-b07
+          speaker: carter
+          text: >-
+            不行，那样死对它来说太便宜了！我要让它死得残酷得多。我要把它活活吞下去！
+          emotion: angry
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            他说完便把麻雀吞进肚里。可麻雀在里面不停地扑腾挣扎，一直钻进他的嘴巴，又从嘴里探出头来。
+        - id: ch04-b09
+          speaker: sparrow
+          text: >-
+            对呀，车夫，你连命也要赔上。
+        - id: ch04-b10
+          speaker: narrator
+          text: >-
+            车夫把斧头递给妻子。
+        - id: ch04-b11
+          speaker: carter
+          text: >-
+            老婆，快把我嘴里的鸟砍死！
+        - id: ch04-b12
+          speaker: narrator
+          text: >-
+            女人用尽全身力气砍下去。她没砍中麻雀，却一斧劈在车夫头顶。车夫倒在地上死了。
+        - id: ch04-b13
+          speaker: narrator
+          text: >-
+            麻雀从他的嘴里逃出来，飞向了天空。

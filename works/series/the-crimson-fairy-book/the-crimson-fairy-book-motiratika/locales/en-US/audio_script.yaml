@@ -1,0 +1,340 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and storylike
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    husband:
+      display_name: The Husband
+      tts:
+        delivery: patient, earnest, and increasingly weary
+        timbre: warm and grounded
+        pace: steady
+        pitch: medium-low
+    wife:
+      display_name: The Wife
+      tts:
+        delivery: demanding, practical, and quick to complain
+        timbre: clear and firm
+        pace: steady
+        pitch: medium
+    ogre:
+      display_name: The Ogre
+      tts:
+        delivery: threatening, blunt, and easily frustrated
+        timbre: deep and rough
+        pace: deliberate
+        pitch: low
+    motikatika:
+      display_name: Motikatika
+      tts:
+        delivery: young, clever, and self-possessed
+        timbre: light and clear
+        pace: lively
+        pitch: high
+    bone_father:
+      display_name: Father Bone
+      tts:
+        delivery: mysterious and matter-of-fact
+        timbre: dry and hollow
+        pace: measured
+        pitch: medium-low
+    bone_mother:
+      display_name: Mother Bone
+      tts:
+        delivery: mysterious and matter-of-fact
+        timbre: dry and soft
+        pace: measured
+        pitch: medium
+    bone_ogre:
+      display_name: Ogre Bone
+      tts:
+        delivery: mysterious and commanding
+        timbre: hollow and resonant
+        pace: measured
+        pitch: low
+    bone_child:
+      display_name: Child Bone
+      tts:
+        delivery: mysterious and quick
+        timbre: small and bright
+        pace: brisk
+        pitch: high
+    baby_one:
+      display_name: First Baby
+      tts:
+        delivery: young, direct, and lively
+        timbre: small and bright
+        pace: quick
+        pitch: high
+    baby_two:
+      display_name: Second Baby
+      tts:
+        delivery: young, direct, and lively
+        timbre: small and clear
+        pace: quick
+        pitch: high
+    baby_three:
+      display_name: Third Baby
+      tts:
+        delivery: young, direct, and lively
+        timbre: light and crisp
+        pace: quick
+        pitch: high
+    baby_four:
+      display_name: Fourth Baby
+      tts:
+        delivery: young, direct, and lively
+        timbre: light and warm
+        pace: quick
+        pitch: high
+  chapters:
+    - id: ch01
+      title: Honey and Sweet Water
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, in a very hot country, a man and his wife lived in a little hut among grass and flowers. They were perfectly happy until the wife fell ill. She would eat nothing, and she grew so thin that her husband feared she might die. He brought her every delicious fruit he could find in the forest, but she refused them all.
+        - id: ch01-b02
+          speaker: husband
+          text: Is there anything at all you would like to eat?
+        - id: ch01-b03
+          speaker: wife
+          text: I think I could eat some wild honey.
+        - id: ch01-b04
+          speaker: narrator
+          text: Her husband was overjoyed. Wild honey sounded easy enough to find, so he set off at once. He returned with a wooden pan full of it and handed it to his wife.
+        - id: ch01-b05
+          speaker: wife
+          text: I can't eat this. Look, there are dead bees in it! I want honey that's completely pure.
+          emotion: disgusted
+        - id: ch01-b06
+          speaker: narrator
+          text: The man threw the honey onto the grass and went looking for more. When he returned, he offered his wife a second pan.
+        - id: ch01-b07
+          speaker: wife
+          text: There are ants in this honey. Throw it away.
+        - id: ch01-b08
+          speaker: narrator
+          text: He went out again and brought her a third pan.
+        - id: ch01-b09
+          speaker: wife
+          text: This honey is full of earth.
+        - id: ch01-b10
+          speaker: narrator
+          text: On his fourth journey, he finally found honey she was willing to eat. Then she asked him to bring her some water.
+        - id: ch01-b11
+          speaker: narrator
+          text: It took him a long time, but at last he reached a lake whose water was sweetened with sugar. He filled a small pan, carried it home, and watched his wife drink eagerly. She said she felt quite well again. She got up and dressed, and then her husband lay down where she had been.
+        - id: ch01-b12
+          speaker: husband
+          text: You have put me to a great deal of trouble. Now it's my turn.
+
+    - id: ch02
+      title: The Ogre's Lake
+      blocks:
+        - id: ch02-b01
+          speaker: wife
+          text: What's wrong with you?
+        - id: ch02-b02
+          speaker: husband
+          text: I'm thirsty. I want some water.
+        - id: ch02-b03
+          speaker: narrator
+          text: His wife took a large pot and walked a long way to the nearest spring. She carried the heavy pot home on her head and lifted it down.
+        - id: ch02-b04
+          speaker: wife
+          text: Here is your water.
+        - id: ch02-b05
+          speaker: narrator
+          text: Her husband turned away in disgust.
+        - id: ch02-b06
+          speaker: husband
+          text: This came from the pool with all the frogs and willows. You'll have to bring me different water.
+          emotion: disgusted
+        - id: ch02-b07
+          speaker: narrator
+          text: She set out again and walked even farther to another lake. When she carried that water home, her husband tasted it.
+        - id: ch02-b08
+          speaker: husband
+          text: This water tastes like rushes. Go and bring me something fresh.
+        - id: ch02-b09
+          speaker: narrator
+          text: The third time she returned, he rejected the water once more.
+        - id: ch02-b10
+          speaker: husband
+          text: This seems to be made of water lilies. I need pure water, not water spoiled by willows, frogs, or rushes.
+        - id: ch02-b11
+          speaker: narrator
+          text: So she balanced the jug on her head for a fourth journey. She passed every lake she had tried before and came to one where the water shone golden like honey. As she bent down to drink, a horrible head bobbed up from the surface.
+        - id: ch02-b12
+          speaker: ogre
+          text: How dare you take my water?
+          emotion: angry
+        - id: ch02-b13
+          speaker: wife
+          text: My husband sent me. Please don't kill me! If you let me go, you may have my baby.
+          emotion: fearful
+        - id: ch02-b14
+          speaker: ogre
+          text: How will I know which baby is yours?
+        - id: ch02-b15
+          speaker: wife
+          text: That's easy. I'll shave both sides of his head and put white beads around his neck. Come to our hut and call, "Motikatika!" He'll run out to you, and then you can eat him.
+        - id: ch02-b16
+          speaker: ogre
+          text: Very well. You may go home.
+        - id: ch02-b17
+          speaker: narrator
+          text: The woman filled her pot and carried the golden water home. She told her husband how the ogre had risen from the lake, threatened her for taking his water, and finally allowed her to leave.
+
+    - id: ch03
+      title: Motikatika and the Magic Bones
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The baby's mother did not know that her child was a magician. Motikatika had heard everything she promised the ogre, and he laughed to himself while he planned how to outwit her.
+        - id: ch03-b02
+          speaker: narrator
+          text: The next morning, his mother shaved both sides of his head and hung white beads around his neck.
+        - id: ch03-b03
+          speaker: wife
+          text: I'm going to work in the fields. You must stay home. Don't go outside, or a wild animal may eat you.
+        - id: ch03-b04
+          speaker: motikatika
+          text: Very well.
+        - id: ch03-b05
+          speaker: narrator
+          text: As soon as she was out of sight, Motikatika brought out some magic bones and arranged them in a row.
+        - id: ch03-b06
+          speaker: motikatika
+          text: This bone will be my father, and this one will be my mother. The biggest bone will be the ogre who wants to eat me. This tiny one will be me. Now tell me what I should do.
+        - id: ch03-b07
+          speakers: [bone_father, bone_mother, bone_ogre, bone_child]
+          ensemble: chorus
+          text: Gather every baby in the village who is your size. Shave both sides of their heads and give them white beads to wear. Tell them to answer whenever anyone calls, "Motikatika!" Hurry. You have no time to lose.
+        - id: ch03-b08
+          speaker: narrator
+          text: Motikatika went out at once and returned with a whole crowd of babies. He shaved their heads and hung white beads around their little black necks. Just as he finished, the ground began to shake. The enormous ogre came striding toward them.
+        - id: ch03-b09
+          speaker: ogre
+          text: Motikatika! Motikatika!
+        - id: ch03-b10
+          speakers: [baby_one, baby_two, baby_three, baby_four]
+          ensemble: chorus
+          text: Here we are! Here we are!
+        - id: ch03-b11
+          speaker: narrator
+          text: All the babies ran to meet him.
+        - id: ch03-b12
+          speaker: ogre
+          text: I want Motikatika.
+        - id: ch03-b13
+          speakers: [baby_one, baby_two, baby_three, baby_four]
+          ensemble: chorus
+          text: We are all Motikatika.
+        - id: ch03-b14
+          speaker: narrator
+          text: The ogre sat down, completely bewildered. He dared not eat the children of people who had done him no wrong, because a heavy punishment would fall upon him. The children waited for a while, wondering what he would do. Then they went away.
+
+    - id: ch04
+      title: A Mouse Behind the Hut
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The ogre stayed there until evening, when Motikatika's mother came back from the fields.
+        - id: ch04-b02
+          speaker: ogre
+          text: I haven't seen Motikatika.
+        - id: ch04-b03
+          speaker: wife
+          text: Why didn't you call his name the way I told you?
+        - id: ch04-b04
+          speaker: ogre
+          text: I did. But every baby in the village seemed to be named Motikatika. You can't imagine how many came running to me.
+        - id: ch04-b05
+          speaker: narrator
+          text: The woman could not understand it. Hoping to keep the ogre in a good temper, she went into the hut, prepared a bowl of maize, and brought it out to him.
+        - id: ch04-b06
+          speaker: ogre
+          text: I don't want maize. I want the baby, and I mean to have him.
+          emotion: angry
+        - id: ch04-b07
+          speaker: wife
+          text: Be patient. I'll call him, and you can eat him right away.
+        - id: ch04-b08
+          speaker: narrator
+          text: She stepped into the hut and called to her son.
+        - id: ch04-b09
+          speaker: wife
+          text: Motikatika!
+        - id: ch04-b10
+          speaker: motikatika
+          text: I'm coming, Mother.
+        - id: ch04-b11
+          speaker: narrator
+          text: First, Motikatika took out his bones. He crouched on the ground behind the hut and asked how he could escape the ogre.
+        - id: ch04-b12
+          speakers: [bone_father, bone_mother, bone_ogre, bone_child]
+          ensemble: chorus
+          text: Turn yourself into a mouse.
+        - id: ch04-b13
+          speaker: narrator
+          text: Motikatika became a mouse. The ogre waited and waited, until at last he told the woman to think of another plan.
+        - id: ch04-b14
+          speaker: wife
+          text: Tomorrow I'll send him to the field to pick beans. You'll find him there, and then you can eat him.
+        - id: ch04-b15
+          speaker: ogre
+          text: Very well. This time I'll make sure I get him.
+        - id: ch04-b16
+          speaker: narrator
+          text: Then the ogre went back to his lake.
+
+    - id: ch05
+      title: The Bird in the Bean Field
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The next morning, Motikatika's mother gave him a basket and sent him to pick beans for dinner. On the way to the field, he took out his magic bones and asked how he could escape from the ogre.
+        - id: ch05-b02
+          speakers: [bone_father, bone_mother, bone_ogre, bone_child]
+          ensemble: chorus
+          text: Turn yourself into a bird and snap off the beans.
+        - id: ch05-b03
+          speaker: narrator
+          text: Motikatika changed into a bird and began snapping the beans from their stalks. The ogre came to the field, but he did not recognize Motikatika. He only chased the bird away.
+        - id: ch05-b04
+          speaker: narrator
+          text: The ogre returned to the hut and confronted the woman.
+        - id: ch05-b05
+          speaker: ogre
+          text: You have tricked me again. I won't let you put me off any longer.
+          emotion: angry
+        - id: ch05-b06
+          speaker: wife
+          text: Come back this evening. You'll find him in bed beneath a white coverlet. Carry him away, and you can eat him at once.
+
+    - id: ch06
+      title: The Red and White Coverlets
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: Motikatika heard what his mother said. He consulted his bones once more.
+        - id: ch06-b02
+          speakers: [bone_father, bone_mother, bone_ogre, bone_child]
+          ensemble: chorus
+          text: Take the red coverlet from your father's bed. Put your white one on his bed instead.
+        - id: ch06-b03
+          speaker: narrator
+          text: Motikatika did exactly that. When the ogre arrived, he seized the person beneath the white coverlet. He carried Motikatika's father out of the hut and ate him.
+        - id: ch06-b04
+          speaker: narrator
+          text: When the woman discovered the mistake, she wept bitterly.
+        - id: ch06-b05
+          speaker: motikatika
+          text: It is only fair that he was eaten instead of me. He was the one who sent you to fetch the water. I wasn't.

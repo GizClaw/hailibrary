@@ -1,0 +1,126 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 郑重而亲切，带着学者讲述旧日故事的从容
+        timbre: 温暖清晰，沉稳而有书卷气
+        pace: 舒缓，论述转折处稍作停顿
+        pitch: 中低
+    farmer:
+      display_name: 农夫
+      tts:
+        delivery: 朴实坦率，受委屈时直言不讳，最后的决断坚决有力
+        timbre: 粗朴温厚
+        pace: 适中
+        pitch: 中
+    money_lender:
+      display_name: 放债人
+      tts:
+        delivery: 圆滑自得，劝诱时若无其事又步步紧逼
+        timbre: 清晰偏冷，略带油滑
+        pace: 稍缓
+        pitch: 中
+    ram:
+      display_name: 罗摩
+      tts:
+        delivery: 慈悲从容，平实的话语中带着神明的威严
+        timbre: 温润深厚
+        pace: 舒缓
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 寻找罗摩
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个农夫吃尽了一个放债人的苦头。庄稼丰收也好，歉收也罢，农夫始终穷得叮当响，放债人却越来越富。终于，农夫连一个小钱也拿不出来了，只好找上门去。
+        - id: ch01-b02
+          speaker: farmer
+          text: 石头里怎么挤得出水呢？如今你从我身上再也捞不到东西了，干脆告诉我，人要怎样才能发财吧。
+        - id: ch01-b03
+          speaker: narrator
+          text: 放债人装得十分虔诚。
+        - id: ch01-b04
+          speaker: money_lender
+          text: 朋友，人的财富都是罗摩赐的。你该去问问他。
+        - id: ch01-b05
+          speaker: farmer
+          text: 多谢你，我这就去！
+        - id: ch01-b06
+          speaker: narrator
+          text: 老实的农夫烙了三张饼，带着上了路。他先碰见一个婆罗门，送上一张饼，请人家指点去见罗摩的路。婆罗门拿了饼，一句话也没说，径自走了。后来，农夫又把一张饼送给一个修行的瑜伽行者，可还是没问到路。
+        - id: ch01-b07
+          speaker: narrator
+          text: 最后，农夫来到一棵树下，那里坐着一个穷人。听说穷人饿着肚子，善良的农夫便送出了最后一张饼，又坐在旁边歇脚，和那人慢慢聊了起来。
+        - id: ch01-b08
+          speaker: ram
+          text: 你要到哪里去呀？
+        - id: ch01-b09
+          speaker: farmer
+          text: 我要走很远的路去找罗摩。你大概也没法告诉我该往哪边走吧？
+        - id: ch01-b10
+          speaker: narrator
+          text: 穷人听了，微微一笑。
+        - id: ch01-b11
+          speaker: ram
+          text: 我或许真能告诉你，因为我就是罗摩。说吧，你找我有什么事？
+    - id: ch02
+      title: 神奇的海螺
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 农夫把自己的遭遇从头到尾说了一遍。罗摩很怜悯他，便送给他一只海螺，还教会他一种特别的吹法。
+        - id: ch02-b02
+          speaker: ram
+          text: 你要记牢。以后想要什么，只管照这个法子吹响海螺，愿望就会成真。不过，一定要当心那个放债人。那些人的诡计，连法术都未必防得住。
+        - id: ch02-b03
+          speaker: narrator
+          text: 农夫满心欢喜地回了村。放债人一看他那副神采飞扬的样子，马上起了疑心。
+        - id: ch02-b04
+          speaker: money_lender
+          text: 这个蠢家伙准是撞上了好运，要不然，怎么会得意成这样？
+        - id: ch02-b05
+          speaker: narrator
+          text: 放债人来到农夫家，假装早就听说了他的好运，说尽了狡猾的恭维话。没过多久，农夫不知不觉把事情全讲了出来，只瞒下了海螺的吹法。他虽然老实，到底还没傻透。
+        - id: ch02-b06
+          speaker: narrator
+          text: 放债人却非要得到那只海螺不可。他本来就不在乎用什么手段，于是等到机会，偷偷把海螺拿走了。
+    - id: ch03
+      title: 放债人的条件
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 放债人把想得到的吹法都试了个遍，吹得自己几乎要胀破，海螺还是毫无动静。他只好承认，自己怎么也破解不了海螺的秘密。可他并没有死心，又若无其事地去找农夫。
+        - id: ch03-b02
+          speaker: money_lender
+          text: 听着，海螺如今在我手里，可我不会用。你倒是会用，手里却没有海螺。咱们谁也办不成事，不如谈笔交易。我可以把海螺还你，以后也不拦着你用。可你每得到一样东西，都得让我拿双份。
+        - id: ch03-b03
+          speaker: farmer
+          text: 我绝不答应！照你说的做，我岂不是又要过回从前的日子？
+          emotion: angry
+        - id: ch03-b04
+          speaker: money_lender
+          text: 哪里会呢？你该拿的，一点都不会少。别像守着草料槽的狗，自己用不着，还不许别人碰。只要你要什么有什么，我是穷是富，跟你又有什么关系？
+        - id: ch03-b05
+          speaker: narrator
+          text: 农夫一万个不愿意让放债人得好处，可海螺在人家手里，他最后还是让步了。从那以后，农夫靠海螺得到什么，放债人就得到双份。农夫日日夜夜想着这件事，不管到手的是多好的东西，也再尝不到一丝一毫的快活滋味。
+    - id: ch04
+      title: 一只眼睛换来的胜利
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 后来，村里遇上一个大旱年。田地迟迟等不到雨，农夫的庄稼眼看就要枯死。他吹响海螺，许愿要一口井来浇地。井立刻出现了，可放债人那里竟冒出了两口漂亮的新井！
+        - id: ch04-b02
+          speaker: narrator
+          text: 这口气，哪个农夫忍得下去？他越想越恼，反复琢磨，终于想出了一个办法。他一把抓起海螺，用力吹响。
+        - id: ch04-b03
+          speaker: farmer
+          text: 罗摩啊，我愿意让自己瞎掉一只眼睛！
+        - id: ch04-b04
+          speaker: narrator
+          text: 一眨眼，农夫果然瞎了一只眼睛。放债人得到的是双份，自然两只眼睛都瞎了。他想摸索着从两口新井中间走过去，却一脚跌进其中一口井里，淹死了。
+        - id: ch04-b05
+          speaker: narrator
+          text: 这件千真万确的故事说明，农夫的确曾经胜过放债人，只不过，他也为此赔上了一只眼睛。

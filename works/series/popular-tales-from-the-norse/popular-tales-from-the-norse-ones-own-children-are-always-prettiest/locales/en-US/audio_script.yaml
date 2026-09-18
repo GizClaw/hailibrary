@@ -1,0 +1,64 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    sportsman:
+      display_name: Sportsman
+      tts:
+        delivery: confident and plainspoken
+        timbre: clear and sturdy
+        pace: measured
+        pitch: medium-low
+    snipe:
+      display_name: Snipe
+      tts:
+        delivery: tender and earnest
+        timbre: light and bright
+        pace: lively
+        pitch: high
+  chapters:
+    - id: ch01
+      title: A Promise in the Wood
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: One day, a sportsman went out into a wood to shoot. Along the way, he met a Snipe.
+        - id: ch01-b02
+          speaker: snipe
+          text: My dear friend, please don't shoot my children!
+        - id: ch01-b03
+          speaker: sportsman
+          text: How am I supposed to know which children are yours? What do they look like?
+        - id: ch01-b04
+          speaker: snipe
+          text: Oh, my little ones are the prettiest children in the whole wood.
+        - id: ch01-b05
+          speaker: sportsman
+          text: All right. I won't shoot them, so you needn't be afraid.
+    - id: ch02
+      title: The Sportsman Returns
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: But in spite of his promise, the sportsman came back carrying a whole string of young snipes he had shot.
+        - id: ch02-b02
+          speaker: snipe
+          text: Oh, no! Why did you shoot my children after you promised not to?
+          emotion: sad
+        - id: ch02-b03
+          speaker: sportsman
+          text: What? Those were your children? But I only shot the ugliest young birds I could find!
+          emotion: surprised
+    - id: ch03
+      title: Prettiest in the World
+      blocks:
+        - id: ch03-b01
+          speaker: snipe
+          text: Woe is me! Don't you know? Everyone thinks their own children are the prettiest in the world.
+          emotion: sad

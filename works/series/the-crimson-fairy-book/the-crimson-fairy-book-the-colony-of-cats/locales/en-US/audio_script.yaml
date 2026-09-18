@@ -1,0 +1,336 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and storylike
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    lizina:
+      display_name: Lizina
+      tts:
+        delivery: gentle, sincere, and quietly brave
+        timbre: clear and youthful
+        pace: steady
+        pitch: medium-high
+    mother:
+      display_name: Lizina's Mother
+      tts:
+        delivery: harsh, impatient, and commanding
+        timbre: rough and mature
+        pace: brisk
+        pitch: medium-low
+    father_gatto:
+      display_name: Father Gatto
+      tts:
+        delivery: dignified, observant, and firm
+        timbre: deep and resonant
+        pace: unhurried
+        pitch: low
+    kitten_1:
+      display_name: First Kitten
+      tts:
+        delivery: curious and lively
+        timbre: small and bright
+        pace: quick
+        pitch: high
+    kitten_2:
+      display_name: Second Kitten
+      tts:
+        delivery: curious and lively
+        timbre: soft and bright
+        pace: quick
+        pitch: high
+    older_cat_1:
+      display_name: First Older Cat
+      tts:
+        delivery: sensible and restrained
+        timbre: mellow and mature
+        pace: measured
+        pitch: medium-low
+    older_cat_2:
+      display_name: Second Older Cat
+      tts:
+        delivery: sensible and restrained
+        timbre: dry and mature
+        pace: measured
+        pitch: medium-low
+    colony_cat_1:
+      display_name: First Colony Cat
+      tts:
+        delivery: earnest and expressive
+        timbre: clear and adult
+        pace: steady
+        pitch: medium
+    colony_cat_2:
+      display_name: Second Colony Cat
+      tts:
+        delivery: earnest and expressive
+        timbre: warm and adult
+        pace: steady
+        pitch: medium
+    peppina:
+      display_name: Peppina
+      tts:
+        delivery: proud, greedy, and sharp-tempered
+        timbre: strong and youthful
+        pace: brisk
+        pitch: medium
+    prince:
+      display_name: The Prince
+      tts:
+        delivery: courteous, youthful, and resolute
+        timbre: smooth and clear
+        pace: measured
+        pitch: medium
+    coachman:
+      display_name: The Coachman
+      tts:
+        delivery: alert and respectful
+        timbre: weathered and clear
+        pace: steady
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The House of Cats
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Long, long ago, when animals could speak, a whole community of cats lived in a deserted house near a large town. They had claimed the place for themselves, and they had every comfort they could want. They ate well and slept well. If some foolish mouse crossed their path, they caught it simply for the pleasure of the chase, not because they needed food.
+        - id: ch01-b02
+          speaker: narrator
+          text: The oldest people in town said their parents remembered a time when rats and mice had covered the country. Not one grain of corn or ear of maize could be gathered from the fields. Perhaps that was why the townspeople still left the cats in peace. They were grateful to the animals that had ended the plague.
+        - id: ch01-b03
+          speaker: narrator
+          text: No one knew where the cats found their money or who paid their bills. It had all begun far too long ago. But they were certainly rich enough to keep a servant. The cats lived together happily enough, and they scratched and fought no more than people do. Still, they could not manage the housework. Above all, they wanted someone to cook their meat, because they would never dream of eating it raw.
+        - id: ch01-b04
+          speaker: narrator
+          text: The cats were very particular about how their housework was done. Most women also grew tired of living alone with no companions but cats, so no servant stayed long. At last the townspeople had a saying. Whenever a woman came down to her last penny, she would declare, “I shall go and live with the cats.” And many a poor woman truly did.
+        - id: ch01-b05
+          speaker: narrator
+          text: In that town lived a girl named Lizina. Her father was dead, and her mother loved her elder daughter much more than she loved Lizina. The younger girl often went hungry while her sister had whatever she wanted. If Lizina complained, her mother beat her.
+        - id: ch01-b06
+          speaker: narrator
+          text: At last Lizina's courage and patience were both gone. She faced her mother and sister.
+        - id: ch01-b07
+          speaker: lizina
+          text: You hate me so much that you'll be glad when I'm gone. I'm going to live with the cats!
+          emotion: angry
+        - id: ch01-b08
+          speaker: mother
+          text: Then get out!
+          emotion: angry
+        - id: ch01-b09
+          speaker: narrator
+          text: Her mother snatched an old broom handle from behind the door. Lizina did not wait for another warning. She ran all the way to the cats' house without once stopping.
+
+    - id: ch02
+      title: Lizina Serves the Cats
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The cats' cook had left that very morning with scratches all over her face. She had quarreled so badly with the head of the house that he had almost scratched out her eyes. The cats welcomed Lizina warmly, and she began making dinner at once. Even so, she worried about their tastes and wondered whether she could please them.
+        - id: ch02-b02
+          speaker: narrator
+          text: As she hurried about the kitchen, cats kept coming in to inspect their new servant. One stood directly in front of her feet. Another perched on the back of her chair while she peeled vegetables. A third sat beside her on the table, while five or six more prowled among the pots and pans on the shelves. Their purring filled the room. It meant they liked her, though Lizina did not yet understand their language and often had no idea what they wanted.
+        - id: ch02-b03
+          speaker: narrator
+          text: But Lizina was kindhearted. She stopped to pick up the kittens tumbling around the floor. She settled quarrels whenever they broke out, and she held the oldest cat on her lap. He was a large tabby with a lame paw, and she nursed him tenderly. The cats could not help noticing all these kindnesses. Once Lizina grew used to their strange ways, things became better still. The house had never been so clean. Their meat had never been served so well, and their sick had never received such loving care.
+        - id: ch02-b04
+          speaker: narrator
+          text: From time to time, an old cat came down from a barn at the top of the hill, where he lived all by himself. The colony called him their father, and he visited to inspect the little community and see how they were doing. On his first visit after Lizina arrived, he liked the black-eyed girl at once.
+        - id: ch02-b05
+          speaker: father_gatto
+          text: Is this nice little person serving you well?
+        - id: ch02-b06
+          speakers: [colony_cat_1, colony_cat_2, kitten_1, kitten_2]
+          ensemble: chorus
+          text: Oh yes, Father Gatto! We've never had such a good servant!
+          emotion: happy
+        - id: ch02-b07
+          speaker: narrator
+          text: Every time Father Gatto returned, the answer was the same. After a while, though, the observant old cat saw that Lizina looked sadder with each visit. One day he found her crying in the kitchen.
+        - id: ch02-b08
+          speaker: father_gatto
+          text: What troubles you, my child? Has anyone here treated you badly?
+        - id: ch02-b09
+          speaker: narrator
+          text: Lizina began to weep even harder. Between her sobs, she told him the truth.
+        - id: ch02-b10
+          speaker: lizina
+          text: Oh no, they're all very good to me. But I long for news from home. I want so much to see my mother and my sister.
+          emotion: sad
+        - id: ch02-b11
+          speaker: narrator
+          text: Father Gatto was a sensible old cat, and he understood.
+        - id: ch02-b12
+          speaker: father_gatto
+          text: You may go home, and you need never return unless you wish to. But first, I must reward you for all the kindness you've shown my children. Follow me into the inner cellar. You've never been there because I keep it locked and carry the key with me.
+
+    - id: ch03
+      title: The Golden Reward
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Lizina followed him beneath the kitchen into a great vaulted cellar. She stared around in wonder. Before her stood two enormous earthenware jars. One held oil. In the other, a liquid gleamed like gold.
+        - id: ch03-b02
+          speaker: father_gatto
+          text: Which jar shall I dip you into?
+        - id: ch03-b03
+          speaker: narrator
+          text: Father Gatto grinned, showing every sharp white tooth. His whiskers stood straight out on both sides of his face. Lizina looked from beneath her long dark lashes at the two jars.
+        - id: ch03-b04
+          speaker: lizina
+          text: The jar of oil, please.
+        - id: ch03-b05
+          speaker: narrator
+          text: She answered timidly because she could not bring herself to ask for a bath in gold.
+        - id: ch03-b06
+          speaker: father_gatto
+          text: No, no. You deserve far better than oil.
+        - id: ch03-b07
+          speaker: narrator
+          text: He caught her in his strong paws and plunged her into the golden liquid. When Lizina rose from the jar, a wonder had happened. From head to foot, she shone like the sun on a fine summer day. Only her pink cheeks and long black hair kept their natural color. All the rest of her looked like a statue made of pure gold. Father Gatto purred loudly, well pleased.
+        - id: ch03-b08
+          speaker: father_gatto
+          text: Go home and visit your mother and sister. But remember this. If you hear a cock crow, turn toward it. If an ass brays, look the other way.
+        - id: ch03-b09
+          speaker: narrator
+          text: Lizina gratefully kissed the old cat's white paw and started home. Just as she neared her mother's house, a cock crowed. She quickly turned toward it, and a beautiful golden star appeared on her forehead above her glossy black hair. At that same moment, an ass began to bray. Lizina was careful not to look across the fence at the donkey feeding in the field.
+        - id: ch03-b10
+          speaker: narrator
+          text: Her mother and sister stood in front of the house. They cried out in wonder when they saw her. Their cries grew louder still when Lizina took out her handkerchief and pulled a handful of gold from her pocket with it.
+        - id: ch03-b11
+          speaker: narrator
+          text: For several days, the mother and both daughters lived happily together. Lizina gave them everything she had brought home except her golden clothing, which would not come off. Her jealous sister tried as hard as she could to remove it, but failed. The golden star would not leave Lizina's forehead either. Every gold piece from her pockets, however, soon passed into the hands of her mother and sister.
+
+    - id: ch04
+      title: Peppina's Visit
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: One morning, the elder girl took Lizina's basket and fastened extra pockets inside her own skirt.
+        - id: ch04-b02
+          speaker: peppina
+          text: Now I'll see what I can get from those cats. I want some of their gold for myself.
+        - id: ch04-b03
+          speaker: narrator
+          text: Peppina left before sunrise. The colony had not found another servant. The cats still mourned Lizina and knew that no one could replace her. When they heard Peppina was her sister, they all ran out to meet her. The kittens whispered to each other.
+        - id: ch04-b04
+          speakers: [kitten_1, kitten_2]
+          ensemble: duo
+          text: She doesn't look anything like Lizina.
+        - id: ch04-b05
+          speakers: [older_cat_1, older_cat_2]
+          ensemble: duo
+          text: Hush now. Not every servant can be pretty.
+        - id: ch04-b06
+          speaker: narrator
+          text: Yet before long, even the fairest and most reasonable cats agreed that Peppina was nothing like her sister. On her very first day, she slammed the kitchen door in the faces of the tomcats who had loved watching Lizina work. Then a mischievous young cat jumped through the open window and landed on the table. Peppina struck him so hard with a rolling pin that he howled for an hour.
+        - id: ch04-b07
+          speaker: narrator
+          text: Each passing day showed the cats more clearly how unlucky they were. Peppina was as bad at her work as she was ill-tempered. Dust gathered in heaps in the corners. Cobwebs hung from the ceilings and across the windowpanes. She hardly ever made the beds. Since Lizina's departure, she had not once shaken the feather beds that the old and feeble cats loved.
+        - id: ch04-b08
+          speaker: narrator
+          text: When Father Gatto next visited, he found the whole colony in an uproar. One cat rushed to tell him what had happened.
+        - id: ch04-b09
+          speaker: colony_cat_1
+          text: Caesar's paw is swollen so badly it may be broken. Peppina kicked him with her heavy wooden shoes. Hector has a terrible sore on his back because she threw a wooden chair at him.
+        - id: ch04-b10
+          speaker: colony_cat_2
+          text: And Agrippina's three kittens starved beside their mother. Peppina left them in their basket in the attic and forgot them. We can't endure her any longer. Please send her away, Father Gatto! Lizina wouldn't blame us. She knows what her sister is like.
+          emotion: sad
+        - id: ch04-b11
+          speaker: father_gatto
+          text: Peppina, come here.
+          emotion: angry
+        - id: ch04-b12
+          speaker: narrator
+          text: In his sternest voice, Father Gatto ordered her to follow. He took her into the cellar and showed her the same two great jars he had shown Lizina.
+        - id: ch04-b13
+          speaker: father_gatto
+          text: Which of these jars shall I dip you into?
+        - id: ch04-b14
+          speaker: peppina
+          text: The liquid gold, of course.
+        - id: ch04-b15
+          speaker: narrator
+          text: Peppina answered as quickly as she could, for she had neither Lizina's modesty nor her goodness and kindness. She never paused to wonder whether she had earned such a reward. Fire flashed in Father Gatto's yellow eyes.
+        - id: ch04-b16
+          speaker: father_gatto
+          text: You have done nothing to deserve it!
+          emotion: angry
+        - id: ch04-b17
+          speaker: narrator
+          text: His voice rolled like thunder. He seized Peppina and flung her into the oil, where she nearly choked. When she came up screaming and struggling, he grabbed her again and rolled her through the heap of ashes on the floor. She rose filthy, blinded, and dreadful to see. Father Gatto pushed her out through the door.
+        - id: ch04-b18
+          speaker: father_gatto
+          text: Be gone! And when you meet a braying ass, be sure to turn your head toward it.
+          emotion: angry
+
+    - id: ch05
+      title: The Donkey's Tail
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Peppina stumbled home in a fury. She was glad to find a stick beside the road to lean on. When her mother's house came into sight, a donkey brayed loudly in the meadow to her right. Peppina turned toward it at once. At the same moment, she raised a hand to her forehead. There, waving like a plume, grew a donkey's tail.
+        - id: ch05-b02
+          speaker: narrator
+          text: She raced home, yelling with rage and despair. Lizina needed two hours, a large basin of hot water, and two cakes of soap to wash away Father Gatto's layer of ashes. But nothing could remove the donkey's tail. It was fixed to Peppina's forehead as firmly as the golden star was fixed to Lizina's.
+        - id: ch05-b03
+          speaker: narrator
+          text: Their mother flew into a rage. First she beat Lizina without mercy with the broom. Then she dragged her to the well, lowered her to the bottom, and left her there to weep and call for help.
+        - id: ch05-b04
+          speaker: narrator
+          text: Before this happened, however, the king's son had passed the house and seen Lizina sewing in the parlor. Her beauty dazzled him. He returned two or three times before he found the courage to step close to the window. Then, in the softest voice, he spoke to her.
+        - id: ch05-b05
+          speaker: prince
+          text: Lovely maiden, will you become my bride?
+        - id: ch05-b06
+          speaker: lizina
+          text: I will.
+          emotion: happy
+        - id: ch05-b07
+          speaker: narrator
+          text: The next morning, the prince came to claim his bride. Instead of Lizina, he found a young woman wrapped in a large white veil. The mother had hidden Peppina's donkey tail beneath it, twisting the tail around her head like a lock of hair. She hoped the king's son would marry the elder sister without discovering the trick.
+        - id: ch05-b08
+          speaker: mother
+          text: This is how a maiden must be given into her husband's hands.
+        - id: ch05-b09
+          speaker: narrator
+          text: The prince was young and a little timid. He made no objection and seated Peppina beside him in the carriage.
+
+    - id: ch06
+      title: The Cats' Wedding Song
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: Their road passed the old house of the cats. Every window was crowded. Word had spread that the prince would marry the most beautiful maiden in the world, the girl with a golden star upon her forehead. The cats knew that girl could only be their beloved Lizina. As the carriage rolled slowly past, cats seemed to have gathered there from every part of the world. Suddenly every throat burst into song.
+        - id: ch06-b02
+          speakers: [colony_cat_1, colony_cat_2, kitten_1, kitten_2]
+          ensemble: chorus
+          text: Mew, mew, mew! Prince, turn and look behind you! Fair Lizina's in the well, and all you have is Peppina!
+        - id: ch06-b03
+          speaker: narrator
+          text: The coachman understood the language of cats better than his master did. He stopped the horses.
+        - id: ch06-b04
+          speaker: coachman
+          text: Your Highness, do you know what those cats are saying?
+        - id: ch06-b05
+          speaker: narrator
+          text: The cats sang their warning again, louder than before. With one movement, the prince pulled back the veil. Beneath it he found Peppina's swollen, puffed-up face, with the donkey's tail wound around her head.
+        - id: ch06-b06
+          speaker: prince
+          text: You traitress!
+          emotion: angry
+        - id: ch06-b07
+          speaker: narrator
+          text: He ordered the horses turned around. Then he drove the furious, trembling Peppina straight back to the old woman who had tried to deceive him. The prince stood before her with one hand on the hilt of his sword and demanded Lizina in such a terrible voice that the mother hurried to the well and drew her prisoner out.
+        - id: ch06-b08
+          speaker: narrator
+          text: Lizina's golden clothing and star shone so brightly that when the prince led her home to his father, the whole palace filled with light. The prince and Lizina were married the next day, and they lived happily ever after.
+        - id: ch06-b09
+          speaker: narrator
+          text: Every cat in the colony came to the wedding, with old Father Gatto at their head.

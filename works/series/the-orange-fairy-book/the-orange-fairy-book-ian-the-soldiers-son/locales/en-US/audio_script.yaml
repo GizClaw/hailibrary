@@ -1,0 +1,676 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: "steady, vivid folktale storytelling"
+        timbre: "warm and resonant"
+        pace: "measured"
+        pitch: "medium"
+    ian:
+      display_name: Ian
+      tts:
+        delivery: "bold, quick, and increasingly thoughtful"
+        timbre: "clear and youthful"
+        pace: "brisk"
+        pitch: "medium-high"
+    eldest_brother:
+      display_name: Eldest Brother
+      tts:
+        delivery: "confident but cautious"
+        timbre: "firm and youthful"
+        pace: "measured"
+        pitch: "medium"
+    second_brother:
+      display_name: Second Brother
+      tts:
+        delivery: "reserved and wary"
+        timbre: "smooth and youthful"
+        pace: "measured"
+        pitch: "medium"
+    knight:
+      display_name: Knight of Grianaig
+      tts:
+        delivery: "dignified, sorrowful, and stern"
+        timbre: "deep and weathered"
+        pace: "measured"
+        pitch: "low"
+    overlooker:
+      display_name: Overlooker
+      tts:
+        delivery: "plainspoken and helpful"
+        timbre: "rough and clear"
+        pace: "steady"
+        pitch: "medium-low"
+    raven:
+      display_name: Stumpy Black Raven
+      tts:
+        delivery: "shrewd, grave, and sharply instructive"
+        timbre: "rasping and lively"
+        pace: "quick"
+        pitch: "medium-high"
+    eldest_daughter:
+      display_name: Eldest Daughter
+      tts:
+        delivery: "gentle, mournful, and persuasive"
+        timbre: "clear and soft"
+        pace: "measured"
+        pitch: "medium-high"
+    middle_daughter:
+      display_name: Middle Daughter
+      tts:
+        delivery: "tearful, earnest, and coaxing"
+        timbre: "light and clear"
+        pace: "measured"
+        pitch: "medium-high"
+    youngest_daughter:
+      display_name: Youngest Daughter
+      tts:
+        delivery: "tender, direct, and resolute"
+        timbre: "bright and clear"
+        pace: "measured"
+        pitch: "medium-high"
+    first_giant:
+      display_name: First Giant
+      tts:
+        delivery: "boastful and menacing"
+        timbre: "huge and gravelly"
+        pace: "heavy"
+        pitch: "very low"
+    second_giant:
+      display_name: Second Giant
+      tts:
+        delivery: "suspicious and forceful"
+        timbre: "deep and coarse"
+        pace: "heavy"
+        pitch: "very low"
+    third_giant:
+      display_name: Third Giant
+      tts:
+        delivery: "grim, certain, and threatening"
+        timbre: "booming and dark"
+        pace: "heavy"
+        pitch: "very low"
+    first_hero:
+      display_name: First Hero
+      tts:
+        delivery: "solemn and fated"
+        timbre: "strong and clear"
+        pace: "measured"
+        pitch: "medium-low"
+    second_hero:
+      display_name: Second Hero
+      tts:
+        delivery: "solemn and fated"
+        timbre: "warm and sturdy"
+        pace: "measured"
+        pitch: "medium-low"
+    third_hero:
+      display_name: Third Hero
+      tts:
+        delivery: "solemn and fated"
+        timbre: "crisp and sturdy"
+        pace: "measured"
+        pitch: "medium"
+    witch:
+      display_name: Old Witch
+      tts:
+        delivery: "harsh, cold, and commanding"
+        timbre: "dry and cracked"
+        pace: "deliberate"
+        pitch: "low"
+    horse:
+      display_name: Enchanted Horse
+      tts:
+        delivery: "wise, urgent, and steadfast"
+        timbre: "rich and clear"
+        pace: "measured"
+        pitch: "medium"
+    woman:
+      display_name: Woman at the Door
+      tts:
+        delivery: "blunt but hospitable"
+        timbre: "warm and practical"
+        pace: "steady"
+        pitch: "medium"
+    smith:
+      display_name: Smith
+      tts:
+        delivery: "worried, honest, and hopeful"
+        timbre: "husky and plain"
+        pace: "steady"
+        pitch: "medium-low"
+  chapters:
+    - id: ch01
+      title: The Lost Daughters
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "A knight lived in Grianaig, in the land of the West. He had three daughters, and nowhere in all the isles were there three maidens so good or so beautiful. Everyone loved them. One day, the sisters sat together on rocks at the edge of the sea, dipping their feet in the water. Without warning, a great beast rose from beneath the waves. It swept all three maidens away and carried them under the ocean. No one knew where they had gone. No one even knew where to begin looking, and the people of Grianaig wept aloud for them."
+        - id: ch01-b02
+          speaker: narrator
+          text: "A few miles away, in a nearby town, lived a soldier with three sons. All three were fine, strong young men, and they were the best shinny players in the country. That year, Christmastide came after the maidens vanished. Families gathered together and great feasts were held. Then Ian, the youngest of the brothers, made a suggestion."
+        - id: ch01-b03
+          speaker: ian
+          text: "Let's play our match on the knight's lawn. It is wider than ours, and the grass is smoother."
+        - id: ch01-b04
+          speakers: [eldest_brother, second_brother]
+          ensemble: duo
+          text: "No. He is grieving. He'll remember the games we played there while his daughters watched."
+        - id: ch01-b05
+          speaker: ian
+          text: "He may be pleased or angry. Either way, we'll drive our ball across his lawn today."
+        - id: ch01-b06
+          speaker: narrator
+          text: "So the brothers went to the lawn and played there after all. Ian beat his brothers in three games. The knight looked down from his window and saw them. Anger rose in him, and he ordered his men to bring the young men before him. Yet when the three brothers stood in his great hall, the sight of them softened his heart a little. His face was still angry when he questioned them."
+        - id: ch01-b07
+          speaker: knight
+          text: "You knew that playing before my castle would bring back the memory of my daughters. Why did you choose this place? You have caused me pain, and now you shall suffer pain yourselves."
+          emotion: angry
+        - id: ch01-b08
+          speaker: ian
+          text: "We have wronged you. Build us a ship, and we will search for your daughters. Whether they are to windward, to leeward, or under the four brown boundaries of the sea, we will find them within a year and a day and bring them home to Grianaig."
+        - id: ch01-b09
+          speaker: narrator
+          text: "The knight had a ship built for them in seven days. A great store of food and wine was placed aboard. Then the three brothers pointed her bow toward the open sea and sailed away. They sailed for seven days, until the ship ran herself onto a beach of white sand. The brothers went ashore. None of them had ever seen that land before, so they stood looking all around them."
+    - id: ch02
+      title: Up the Face of the Rock
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "The brothers went ashore and looked around. Not far away, many men were working on a rock while one man watched over them."
+        - id: ch02-b02
+          speaker: eldest_brother
+          text: "What place is this?"
+        - id: ch02-b03
+          speaker: overlooker
+          text: "The knight of Grianaig's three daughters live here. Tomorrow they are to marry three giants."
+        - id: ch02-b04
+          speaker: eldest_brother
+          text: "How do we reach them?"
+        - id: ch02-b05
+          speaker: overlooker
+          text: "Climb into this basket. The rope will draw you up the rock face."
+        - id: ch02-b06
+          speaker: eldest_brother
+          text: "That sounds easy enough."
+        - id: ch02-b07
+          speaker: narrator
+          text: "The eldest brother jumped into the basket, and at once it began to climb. Up it went, then higher still, until he was halfway along the face of the rock. A fat black raven suddenly flew at him. It pecked at his face until he was nearly blind, and he had no choice but to be lowered again. After that, the second brother climbed into the basket. He fared no better. The raven flew upon him too, and he came back down just as his elder brother had."
+        - id: ch02-b08
+          speaker: ian
+          text: "Now it's my turn."
+        - id: ch02-b09
+          speaker: narrator
+          text: "Halfway up, the raven flew at Ian."
+        - id: ch02-b10
+          speaker: ian
+          text: "Quick! Pull quickly, or it will blind me!"
+          emotion: fearful
+        - id: ch02-b11
+          speaker: narrator
+          text: "The men holding the rope heard Ian's cries and hauled with all their strength. The basket shot upward. A moment later, Ian scrambled onto the top of the rock, leaving the raven behind him. Now that the attack was over, the bird became perfectly quiet and spoke as though nothing had happened."
+        - id: ch02-b12
+          speaker: raven
+          text: "Will you spare me a piece of tobacco?"
+        - id: ch02-b13
+          speaker: ian
+          text: "You rascal! You tried to peck out my eyes. Why should I give you tobacco?"
+          emotion: angry
+        - id: ch02-b14
+          speaker: raven
+          text: "Attacking you was part of my duty. Give me some, and I will be a good friend to you."
+        - id: ch02-b15
+          speaker: narrator
+          text: "Ian broke off a piece. The raven tucked it under his wing."
+        - id: ch02-b16
+          speaker: raven
+          text: "Come with me to the first giant's house. The knight's eldest daughter sits there sewing and weeping until even her thimble is wet with tears."
+        - id: ch02-b17
+          speaker: narrator
+          text: "The raven hopped ahead, and Ian followed. Before long, they reached a great house whose door stood wide open. They entered together and passed through one hall, then another, then another. Deep inside the house, they found the knight's eldest daughter sitting alone and sewing. Tears had fallen so steadily that even her thimble was wet, just as the raven had said."
+    - id: ch03
+      title: The Three Giants
+      blocks:
+        - id: ch03-b01
+          speaker: eldest_daughter
+          text: "What brought you here?"
+        - id: ch03-b02
+          speaker: ian
+          text: "Why shouldn't I come where you have come?"
+        - id: ch03-b03
+          speaker: eldest_daughter
+          text: "A giant carried me here."
+        - id: ch03-b04
+          speaker: ian
+          text: "I know. Tell me where he is, so I can find him."
+        - id: ch03-b05
+          speaker: eldest_daughter
+          text: "He is on the hunting hill. Only one thing will bring him home. You must shake the iron chain outside the gate. But nowhere to leeward or windward, nor under the four brown boundaries of the sea, is there a man who can fight him except Ian, the soldier's son. And Ian is only sixteen. How could he stand against the giant?"
+        - id: ch03-b06
+          speaker: ian
+          text: "Many men in my country are as strong as Ian."
+        - id: ch03-b07
+          speaker: narrator
+          text: "Ian went outside to the iron chain and pulled. It would not move at all, and the effort brought him crashing onto his knees. He sprang up at once. Gathering every bit of strength he had, he seized the chain with both hands and shook it again. This time, one of its heavy links snapped. Far away on the hunting hill, the giant heard that great sound and lifted his head to listen."
+        - id: ch03-b08
+          speaker: first_giant
+          text: "That sounds like Ian, the soldier's son. But he is only sixteen. Still, I had better go and see."
+        - id: ch03-b09
+          speaker: narrator
+          text: "The giant came home and entered the castle."
+        - id: ch03-b10
+          speaker: first_giant
+          text: "Are you Ian, the soldier's son?"
+        - id: ch03-b11
+          speaker: ian
+          text: "Certainly not."
+        - id: ch03-b12
+          speaker: first_giant
+          text: "Then who are you? No one to leeward or windward, or under the four brown boundaries of the sea, can move my battle chain."
+        - id: ch03-b13
+          speaker: ian
+          text: "You'll learn who I am when we wrestle. I wrestle with my mother, and she beat me once, but I beat her twice."
+        - id: ch03-b14
+          speaker: narrator
+          text: "Ian and the giant seized one another. They wrestled, twisted, and strained across the floor until the giant finally forced Ian down onto one knee."
+        - id: ch03-b15
+          speaker: ian
+          text: "You are the stronger."
+        - id: ch03-b16
+          speaker: first_giant
+          text: "Everyone knows that!"
+        - id: ch03-b17
+          speaker: narrator
+          text: "They took hold of each other once more. Ian would not give way a second time. He strained against the giant until at last he threw the huge creature to the ground. Then Ian wished with all his heart that the black raven were beside him to help. No sooner had he formed the wish than the raven appeared."
+        - id: ch03-b18
+          speaker: raven
+          text: "Reach under my right wing. There is a knife sharp enough to take off his head."
+        - id: ch03-b19
+          speaker: narrator
+          text: "The blade was so keen that one blow cut off the giant's head."
+        - id: ch03-b20
+          speaker: raven
+          text: "Tell the eldest daughter what has happened, but do not let her persuade you to stay. Go and find her middle sister. When you do, give me another piece of tobacco."
+        - id: ch03-b21
+          speaker: ian
+          text: "You have earned half of everything I own."
+        - id: ch03-b22
+          speaker: raven
+          text: "You know what lies behind you, but not what lies ahead. Wash in clean water. Take balsam from the vessel above the door and rub it over your body. Tomorrow you will have the strength of many men, and I will lead you to the middle daughter."
+        - id: ch03-b23
+          speaker: narrator
+          text: "Ian did exactly as the raven had told him. He washed himself in clean water, took the balsam from above the door, and rubbed it over his body. The eldest daughter begged him not to leave her, but he remembered the warning and set out in search of her sister. The raven led him onward. At last Ian found the middle daughter sitting alone and sewing. She had shed so many tears that her thimble was wet with them."
+        - id: ch03-b24
+          speaker: middle_daughter
+          text: "What brought you here?"
+        - id: ch03-b25
+          speaker: ian
+          text: "Why shouldn't I come where you have come? And why are you crying?"
+        - id: ch03-b26
+          speaker: middle_daughter
+          text: "In one day, I must marry the giant who hunts on the hill."
+          emotion: sad
+        - id: ch03-b27
+          speaker: ian
+          text: "How can I bring him home?"
+        - id: ch03-b28
+          speaker: middle_daughter
+          text: "Shake the iron chain outside the gate. But no man to leeward or westward, nor under the four brown boundaries of the sea, can fight him except Ian, the soldier's son. And Ian is only sixteen."
+        - id: ch03-b29
+          speaker: ian
+          text: "There are many men as strong as Ian in the land I came from."
+        - id: ch03-b30
+          speaker: narrator
+          text: "Ian went outside and grasped the second iron chain. He pulled, but again it would not move, and again he fell onto his knees. He rose immediately and planted his feet. Then he gathered his new strength, took hold of the chain, and gave it a mighty shake. This time, three iron links snapped apart. The sound traveled all the way to the hunting hill, where the second giant heard it and lifted his head."
+        - id: ch03-b31
+          speaker: second_giant
+          text: "That sounds like Ian, the soldier's son. Yet he is only sixteen. I had better look into it."
+        - id: ch03-b32
+          speaker: narrator
+          text: "He came home and strode into the castle."
+        - id: ch03-b33
+          speaker: second_giant
+          text: "Are you Ian, the soldier's son?"
+        - id: ch03-b34
+          speaker: ian
+          text: "Certainly not. But I will wrestle you as if I were Ian."
+        - id: ch03-b35
+          speaker: narrator
+          text: "They gripped each other by the shoulders, and the giant threw Ian onto both knees."
+        - id: ch03-b36
+          speaker: ian
+          text: "You are stronger, but you haven't beaten me yet."
+        - id: ch03-b37
+          speaker: narrator
+          text: "Ian rose to his feet and threw his arms around the giant once more. Backward and forward they swayed, locked together. For a moment the giant was uppermost, and then Ian fought his way above him. Neither could keep the advantage for long. At last Ian worked his leg around the giant's leg and sent him crashing to the ground. Then Ian called for the raven, and the black bird came flapping toward him."
+        - id: ch03-b38
+          speaker: raven
+          text: "Put your hand beneath my right wing. You'll find a knife sharp enough to cut off his head."
+        - id: ch03-b39
+          speaker: narrator
+          text: "One stroke sent the giant's head rolling from his body."
+        - id: ch03-b40
+          speaker: raven
+          text: "Wash in warm water and rub yourself with balsam oil. Tomorrow you will be as strong as many men. Beware of the middle daughter. She will try to keep you beside her. Now give me a piece of tobacco, and farewell."
+        - id: ch03-b41
+          speaker: ian
+          text: "Gladly."
+        - id: ch03-b42
+          speaker: narrator
+          text: "Ian gladly broke off a large piece of tobacco and gave it to the raven. That night, as he had been told, he washed himself in warm water. Then he rubbed the balsam oil all over his body and rested. The next morning, before leaving the castle, he entered the chamber where the middle daughter sat waiting."
+        - id: ch03-b43
+          speaker: middle_daughter
+          text: "Stay here and marry me. This castle is filled with silver and gold."
+        - id: ch03-b44
+          speaker: narrator
+          text: "Ian did not listen. He traveled on until he reached the castle where the youngest daughter sat sewing. Tears fell from her eyes onto her thimble."
+        - id: ch03-b45
+          speaker: youngest_daughter
+          text: "What brought you here?"
+        - id: ch03-b46
+          speaker: ian
+          text: "Why shouldn't I come where you have come?"
+        - id: ch03-b47
+          speaker: youngest_daughter
+          text: "A giant carried me here."
+        - id: ch03-b48
+          speaker: ian
+          text: "I know."
+        - id: ch03-b49
+          speaker: youngest_daughter
+          text: "Are you Ian, the soldier's son?"
+        - id: ch03-b50
+          speaker: ian
+          text: "Yes, I am. Now tell me why you are crying."
+        - id: ch03-b51
+          speaker: youngest_daughter
+          text: "The giant returns from the hunting hill tomorrow, and I must marry him."
+          emotion: sad
+        - id: ch03-b52
+          speaker: ian
+          text: "How can I bring him home?"
+        - id: ch03-b53
+          speaker: youngest_daughter
+          text: "Shake the iron chain outside the gate."
+        - id: ch03-b54
+          speaker: narrator
+          text: "Ian went outside and took hold of the third iron chain. He gave it such a pull that the force of his own effort threw him full length upon the ground. In a moment he was standing again. He seized the chain with all the strength the balsam had given him and shook it until four links broke away in his hands. On the hunting hill, the third giant was packing the animals he had killed into a bag. The noise of the broken chain reached him there."
+        - id: ch03-b55
+          speaker: third_giant
+          text: "No one to leeward or windward, nor under the four brown boundaries of the sea, could shake my chain except Ian, the soldier's son. If he has reached me, my two brothers must lie dead behind him."
+        - id: ch03-b56
+          speaker: narrator
+          text: "He strode back so heavily that the earth trembled beneath him."
+        - id: ch03-b57
+          speaker: third_giant
+          text: "Are you Ian, the soldier's son?"
+        - id: ch03-b58
+          speaker: ian
+          text: "Certainly not."
+        - id: ch03-b59
+          speaker: third_giant
+          text: "Then who are you? Only Ian can shake my battle chain, and he is just sixteen."
+        - id: ch03-b60
+          speaker: ian
+          text: "After you wrestle me, you'll know who I am."
+        - id: ch03-b61
+          speaker: narrator
+          text: "They threw their arms around each other and began to wrestle. The giant's weight and strength forced Ian down onto his knees. Ian did not stay there. In a moment, he was on his feet again. He twisted his leg around the giant's shoulders, heaved with all his might, and threw the giant heavily onto the ground."
+        - id: ch03-b62
+          speaker: ian
+          text: "Stumpy black raven, come quickly!"
+        - id: ch03-b63
+          speaker: narrator
+          text: "The stumpy black raven came at Ian's call. He flew straight at the fallen giant and beat him around the head with both wings. The giant struggled, but the blows kept him from getting back onto his feet."
+        - id: ch03-b64
+          speaker: raven
+          text: "Take the sharp knife from beneath my feathers. I carry it to cut berries."
+        - id: ch03-b65
+          speaker: narrator
+          text: "Ian took the knife and struck once. The giant's head rolled onto the ground."
+        - id: ch03-b66
+          speaker: raven
+          text: "Rest here tonight. Tomorrow, take all three daughters to the edge of the rock above the lower world. Go down first, and let them follow you. Before I leave, give me some tobacco."
+        - id: ch03-b67
+          speaker: ian
+          text: "Take all of it. You have earned it."
+        - id: ch03-b68
+          speaker: raven
+          text: "No, only a piece. You know what is behind you, but you do not know what lies ahead."
+        - id: ch03-b69
+          speaker: narrator
+          text: "The raven picked up the tobacco in his beak and flew away."
+    - id: ch04
+      title: Left in the Upper World
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "The next morning, the youngest daughter loaded asses with every piece of silver and gold in the castle. She and Ian went to the middle sister's house, where more laden asses waited. Then they collected the eldest sister and her treasure. Together they rode to the edge of the rock."
+        - id: ch04-b02
+          speaker: narrator
+          text: "Ian lay down and shouted. The basket rose to meet them, and the daughters climbed in one at a time and were lowered to the bottom. Ian should have gone first, as the raven had warned. Instead, he feared an accident might happen to the sisters and sent them before him. He asked only to keep the little gold cap worn by the youngest daughter, then helped each maiden into the basket."
+        - id: ch04-b03
+          speaker: narrator
+          text: "Ian waited a long time at the edge of the rock. He kept watching for the basket, but however long he waited, it never returned. In their joy at being free, the three daughters had forgotten all about him. They joined his brothers below and sailed for Grianaig in the very ship that had brought the young men to that strange land. Little by little, Ian understood what had happened. While he stood taking counsel with himself and wondering what he should do, the raven came to him."
+        - id: ch04-b04
+          speaker: raven
+          text: "You did not heed my warning."
+        - id: ch04-b05
+          speaker: ian
+          text: "No, I did not. That is why I am still here."
+          emotion: sad
+        - id: ch04-b06
+          speaker: narrator
+          text: "Ian bowed his head."
+        - id: ch04-b07
+          speaker: raven
+          text: "The past cannot be changed. He who will not take counsel must take combat. Sleep in the giant's castle tonight, and give me a piece of tobacco."
+        - id: ch04-b08
+          speaker: ian
+          text: "I will. But please stay with me in the castle."
+        - id: ch04-b09
+          speaker: raven
+          text: "I cannot. I will return tomorrow."
+        - id: ch04-b10
+          speaker: narrator
+          text: "The next morning, just as he had promised, the raven returned. He told Ian to go with him to the giant's stable. A marvelous horse stood inside. When that horse traveled, land and sea were all the same beneath her feet, and she could carry Ian away from the island."
+        - id: ch04-b11
+          speaker: raven
+          text: "Be careful when you enter. The stable door swings back and forth without stopping. If it touches you, you will cry out. I will go first and show you how."
+        - id: ch04-b12
+          speaker: ian
+          text: "Go on, then."
+        - id: ch04-b13
+          speaker: narrator
+          text: "The raven bobbed and hopped toward the restless door, certain that a bird as quick as he was perfectly safe. He darted through, but the door slammed onto one feather in his tail, and he gave a loud shriek. Then Ian took a run backward to give himself room. He charged forward and made a great spring for the opening. The swinging door caught one of his feet. Ian crashed onto the stable floor and lay there in a faint."
+        - id: ch04-b14
+          speaker: narrator
+          text: "The raven swooped down, gripped Ian with beak and claws, and carried him to the castle. He treated the injured foot with ointments until it was as sound as before."
+        - id: ch04-b15
+          speaker: raven
+          text: "Come walking with me. Whatever strange thing you see, do not wonder at it and do not touch it. First, give me a piece of tobacco."
+        - id: ch04-b16
+          speaker: narrator
+          text: "Ian walked with the raven and saw many strange things on that island, far more than he had ever expected. In a glen, three heroes lay stretched upon their backs. They had been killed by three spears, and a spear still stood deep in each man's chest. Ian remembered that he had been told not to wonder and not to touch. He kept his thoughts to himself and said nothing at all. Yet he reached down and pulled the spears from their bodies. At once, all three dead men sat upright."
+        - id: ch04-b17
+          speakers: [first_hero, second_hero, third_hero]
+          ensemble: chorus
+          text: "You are Ian, the soldier's son. A spell binds you to travel with us to the cave of the black fisherman."
+        - id: ch04-b18
+          speaker: narrator
+          text: "Bound by the spell, Ian went with the three heroes until they reached the cave of the black fisherman. One hero entered first to see what might be waiting inside. He found a hideous old witch seated on a rock. Before he could say a word, she struck him with her club and changed him into stone. The second hero entered, and she turned him to stone in the same way. Then the third went in and met the same fate. Ian was the last to step into the cave."
+        - id: ch04-b19
+          speaker: witch
+          text: "These men are under enchantment. They can never live again unless you anoint them with water from the island of the Big Women. Do not delay."
+        - id: ch04-b20
+          speaker: narrator
+          text: "Ian turned away with a sinking heart. He longed to follow the knight's youngest daughter. The raven hopped toward him."
+        - id: ch04-b21
+          speaker: raven
+          text: "You ignored my counsel, and now trouble has found you. Sleep tonight. Tomorrow, ride the giant's horse across the sea to the island of the Big Women. Sixteen boys will meet you there. They will offer to feed your horse and remove her saddle and bridle. Do not let them touch her. Feed her yourself, lead her into the stable yourself, and close the door. Every time one of the sixteen lads turns the lock, you must give it another turn. Now break off some tobacco for me."
+    - id: ch05
+      title: The Island of the Big Women
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: "Ian rose the next morning and went back to the giant's stable. This time, he passed through the swinging door without letting it touch him. He led out the marvelous horse, mounted, and rode straight across the sea to the island of the Big Women. Sixteen stable lads came out to meet him. One after another, they offered to take the horse from him. Each wanted to feed her, remove her saddle and bridle, and lead her into the stable."
+        - id: ch05-b02
+          speaker: ian
+          text: "I will stable her and care for her myself."
+        - id: ch05-b03
+          speaker: narrator
+          text: "And so he did. While he rubbed the horse's sides, she spoke to him."
+        - id: ch05-b04
+          speaker: horse
+          text: "They will offer you every kind of drink. Take nothing except whey and water."
+        - id: ch05-b05
+          speaker: narrator
+          text: "Everything happened exactly as the horse had said. The lads brought Ian one drink after another, but he would touch nothing except whey and water. When they saw that he would not be persuaded, the sixteen boys drank all the other drinks themselves. One by one, they sank down around the table. Ian felt pleased that he had resisted all their fair and tempting words. In his satisfaction, however, he forgot another warning the horse had given him."
+        - id: ch05-b06
+          speaker: horse
+          text: "Do not fall asleep, or you may lose your chance to return home."
+        - id: ch05-b07
+          speaker: narrator
+          text: "Sweet music reached Ian's ears while the lads slept, and soon he too was asleep. The horse smashed through the stable door, kicked Ian, and woke him roughly."
+        - id: ch05-b08
+          speaker: horse
+          text: "You did not listen to me. It may already be too late to cross the sea. Take the sword hanging on the wall and cut off the heads of all sixteen grooms."
+        - id: ch05-b09
+          speaker: narrator
+          text: "Ian was filled with shame. Once again, someone had warned him clearly, and once again, he had failed to listen. He rose, took down the sword, and did exactly as the horse commanded. Then he ran to the well whose water could restore the enchanted heroes. He poured some into a leather bottle, fastened it securely, and jumped onto the horse's back. Together they raced away across the sea, back to the island where the raven was waiting."
+        - id: ch05-b10
+          speaker: raven
+          text: "Lead the horse into the stable and sleep. Tomorrow you must restore the heroes and kill the witch. Try not to be as foolish then as you were today."
+        - id: ch05-b11
+          speaker: ian
+          text: "Stay and keep me company."
+        - id: ch05-b12
+          speaker: narrator
+          text: "The raven only shook his head and flew away, leaving Ian to sleep alone. In the morning, Ian woke and hastened to the cave. The old witch was still sitting there. Before she could lift her club or cast any spell upon him, Ian struck her dead where she sat. Next he opened the leather bottle and sprinkled the magic water over each of the three stone heroes. The stone figures changed, and all three men came back to life."
+        - id: ch05-b13
+          speaker: narrator
+          text: "Ian and the heroes traveled to the far side of the island. The raven met them there."
+        - id: ch05-b14
+          speaker: raven
+          text: "At last, you followed the counsel you were given. Now that you have learned wisdom, you may return to Grianaig. Today, the knight's two elder daughters are to marry your brothers, and the youngest is to marry the overlooker from the rock. Give me her gold cap. If you ever want it, think of me, and I will bring it. Remember one final warning. If anyone asks where you came from, say you came from behind you. If anyone asks where you are going, say you are going before you."
+    - id: ch06
+      title: The Horse and the Raven
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: "Ian mounted the horse. With her face toward the sea and her back to the shore, she sped away until they reached the church of Grianaig. Ian dismounted in a grassy field beside a well."
+        - id: ch06-b02
+          speaker: horse
+          text: "Draw your sword and cut off my head."
+        - id: ch06-b03
+          speaker: ian
+          text: "That would be poor thanks for all the help you have given me."
+        - id: ch06-b04
+          speaker: horse
+          text: "It is the only way to free me and the raven from the giants' spells. I was once a girl, and he was a young man who courted me. Do not be afraid. Do as I ask."
+        - id: ch06-b05
+          speaker: narrator
+          text: "Ian drew his sword and cut off the horse's head. Then he walked away without looking back. Soon he saw a woman standing in her doorway. She asked where he had come from."
+        - id: ch06-b06
+          speaker: ian
+          text: "I came from behind me."
+        - id: ch06-b07
+          speaker: narrator
+          text: "She asked where he was going."
+        - id: ch06-b08
+          speaker: ian
+          text: "I am going on before me. But I am thirsty. May I have a drink?"
+        - id: ch06-b09
+          speaker: woman
+          text: "You are an impudent fellow, but you may have one."
+        - id: ch06-b10
+          speaker: narrator
+          text: "She gave him milk, the only thing she had until her husband returned."
+        - id: ch06-b11
+          speaker: ian
+          text: "Where is your husband?"
+        - id: ch06-b12
+          speaker: woman
+          text: "He is at the knight's castle, trying to make a gold-and-silver cap for the youngest daughter. It must match the caps her sisters wear, and there is nothing like them anywhere in this land. Look, here he comes. Now we'll learn whether he succeeded."
+        - id: ch06-b13
+          speaker: narrator
+          text: "The woman's husband entered the gate and noticed the strange young man."
+        - id: ch06-b14
+          speaker: smith
+          text: "What trade do you follow, boy?"
+        - id: ch06-b15
+          speaker: ian
+          text: "I am a smith."
+        - id: ch06-b16
+          speaker: smith
+          text: "Then I am in luck. You can help me make a cap for the knight's daughter."
+        - id: ch06-b17
+          speaker: ian
+          text: "You cannot make that cap, and you know it."
+        - id: ch06-b18
+          speaker: smith
+          text: "I must try, or they will hang me from a tree. Helping me would be a good deed."
+        - id: ch06-b19
+          speaker: ian
+          text: "I will help if I can. Keep the gold and silver. Lock me in the smithy tonight, and I will work my magic."
+        - id: ch06-b20
+          speaker: narrator
+          text: "The smith wondered at this, but he locked Ian inside. As soon as the key turned, Ian wished for the raven. The bird appeared with the gold cap in his beak."
+        - id: ch06-b21
+          speaker: raven
+          text: "Now cut off my head."
+        - id: ch06-b22
+          speaker: ian
+          text: "That would be poor thanks for everything you have done for me."
+        - id: ch06-b23
+          speaker: raven
+          text: "It is the only thanks you can give. Before a spell changed me, I was a young man like you."
+        - id: ch06-b24
+          speaker: narrator
+          text: "Ian drew his sword, cut off the raven's head, and closed his eyes so he would see nothing. Then he slept until morning, when the smith unlocked the door and shook him awake."
+        - id: ch06-b25
+          speaker: ian
+          text: "Here is the cap."
+        - id: ch06-b26
+          speaker: narrator
+          text: "Still drowsy, Ian pulled it from beneath his pillow and fell straight back to sleep. The sun stood high when he woke again. A tall young man with brown hair stood beside him."
+        - id: ch06-b27
+          speaker: raven
+          text: "I am the raven, and the spell is broken. Get up now and come with me."
+        - id: ch06-b28
+          speaker: narrator
+          text: "They went to the place where Ian had left the dead horse. The horse was gone. In her place stood a beautiful maiden."
+        - id: ch06-b29
+          speaker: horse
+          text: "I am the horse, and my spell is broken."
+        - id: ch06-b30
+          speaker: narrator
+          text: "The maiden and the brown-haired youth went away together."
+    - id: ch07
+      title: The Gold Cap
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: "Meanwhile, the smith carried the gold cap to the castle and gave it to a servant of the youngest daughter. The servant took it to her mistress. The moment the maiden saw it, she cried out."
+        - id: ch07-b02
+          speaker: youngest_daughter
+          text: "He is lying. If he does not bring me the man who truly made this cap, I will hang him from the tree beside my window."
+          emotion: angry
+        - id: ch07-b03
+          speaker: narrator
+          text: "The frightened servant hurried to tell the smith. He ran as fast as he could, found Ian, and brought him into the castle. When the youngest daughter saw Ian, joy struck her speechless. Then she announced her choice."
+        - id: ch07-b04
+          speaker: youngest_daughter
+          text: "I will marry no one else."
+          emotion: happy
+        - id: ch07-b05
+          speaker: narrator
+          text: "Someone brought the knight of Grianaig to her. Ian told him the whole tale. The knight declared that his youngest daughter was right. His elder daughters would never marry men who had claimed another man's glory and abandoned the true hero to his fate."
+        - id: ch07-b06
+          speaker: narrator
+          text: "The wedding guests agreed that the knight had spoken well. No one would speak to Ian's two elder brothers after that, and they were forced to leave the country."
+        - id: ch07-b07
+          speaker: narrator
+          text: "This tale comes from Tales of the West Highlands."

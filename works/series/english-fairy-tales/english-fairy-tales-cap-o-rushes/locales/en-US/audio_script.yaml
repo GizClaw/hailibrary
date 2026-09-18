@@ -1,0 +1,339 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    cap_o_rushes:
+      display_name: Cap o' Rushes
+      tts:
+        delivery: gentle and self-possessed, with quiet courage beneath her modest manner
+        timbre: clear and youthful
+        pace: medium
+        pitch: medium-high
+    father:
+      display_name: Father
+      tts:
+        delivery: proud and commanding, softening when sorrow breaks through
+        timbre: rich and mature
+        pace: measured
+        pitch: medium-low
+    eldest_daughter:
+      display_name: Eldest Daughter
+      tts:
+        delivery: warm and assured, speaking with polished affection
+        timbre: smooth and youthful
+        pace: medium
+        pitch: medium-high
+    second_daughter:
+      display_name: Second Daughter
+      tts:
+        delivery: earnest and emphatic, eager to make her devotion clear
+        timbre: bright and youthful
+        pace: medium
+        pitch: medium-high
+    housekeeper:
+      display_name: Housekeeper
+      tts:
+        delivery: brisk and practical, with the authority of a busy household servant
+        timbre: sturdy and mature
+        pace: medium
+        pitch: medium
+    maid_one:
+      display_name: First Maid
+      tts:
+        delivery: lively and talkative, delighted by grand clothes and romance
+        timbre: bright and youthful
+        pace: quick
+        pitch: high
+    maid_two:
+      display_name: Second Maid
+      tts:
+        delivery: friendly and animated, quick to join in exciting news
+        timbre: clear and youthful
+        pace: medium-quick
+        pitch: medium-high
+    masters_son:
+      display_name: Master's Son
+      tts:
+        delivery: sincere and ardent, with the open confidence of a young gentleman
+        timbre: warm and clear
+        pace: medium
+        pitch: medium
+    cook:
+      display_name: Cook
+      tts:
+        delivery: practical and cautious, becoming uneasy when questioned
+        timbre: full and mature
+        pace: medium
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: Fresh Meat and Salt
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a very rich gentleman with three daughters. One day, he decided to find out how fond each daughter was of him. He began with the eldest.
+        - id: ch01-b02
+          speaker: father
+          text: My dear, how much do you love me?
+        - id: ch01-b03
+          speaker: eldest_daughter
+          text: Why, Father, I love you as much as I love my own life.
+        - id: ch01-b04
+          speaker: father
+          text: That's a good answer.
+        - id: ch01-b05
+          speaker: narrator
+          text: Then he turned to his second daughter and asked her the same question.
+        - id: ch01-b06
+          speaker: father
+          text: And you, my dear? How much do you love me?
+        - id: ch01-b07
+          speaker: second_daughter
+          text: I love you more than everything else in the world.
+        - id: ch01-b08
+          speaker: father
+          text: That's a good answer, too.
+        - id: ch01-b09
+          speaker: narrator
+          text: Last of all, he asked his youngest daughter.
+        - id: ch01-b10
+          speaker: father
+          text: How much do you love me, my dear?
+        - id: ch01-b11
+          speaker: cap_o_rushes
+          text: Father, I love you as fresh meat loves salt.
+        - id: ch01-b12
+          speaker: narrator
+          text: Her father flew into a rage.
+        - id: ch01-b13
+          speaker: father
+          text: Then you don't love me at all! You will not stay another moment in my house!
+          emotion: angry
+        - id: ch01-b14
+          speaker: narrator
+          text: He drove her out at once and shut the door in her face.
+        - id: ch01-b15
+          speaker: narrator
+          text: The girl walked on and on until she reached a fen. There she gathered armfuls of rushes and wove them into a hooded cloak. It covered her from head to foot and hid her fine clothes. Then she went on until she came to a great house.
+        - id: ch01-b16
+          speaker: cap_o_rushes
+          text: Do you need a maid?
+        - id: ch01-b17
+          speaker: housekeeper
+          text: No, we don't need one.
+        - id: ch01-b18
+          speaker: cap_o_rushes
+          text: I have nowhere to go. I won't ask for wages, and I'll do any work you give me.
+        - id: ch01-b19
+          speaker: housekeeper
+          text: Well, if you're willing to wash the pots and scrape the saucepans, you may stay.
+        - id: ch01-b20
+          speaker: narrator
+          text: So she stayed. She washed the pots, scraped the saucepans, and took on all the dirtiest work. She never gave them her name, so everyone called her Cap o' Rushes.
+
+    - id: ch02
+      title: The Lady at the Dance
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: One day, a grand dance was to be held nearby. The servants had permission to go and watch the fine people, but Cap o' Rushes said she was too tired. She stayed behind.
+        - id: ch02-b02
+          speaker: narrator
+          text: As soon as the others had gone, she took off her rush cloak, cleaned herself, and went to the dance in her beautiful clothes. No lady there was dressed as finely as she was.
+        - id: ch02-b03
+          speaker: narrator
+          text: Her master's son was at the dance. The moment he saw her, he fell in love. He would dance with no one else.
+        - id: ch02-b04
+          speaker: narrator
+          text: Before the dance ended, Cap o' Rushes slipped away and hurried home. By the time the other maids returned, she had put on her rush cloak and was pretending to be asleep.
+        - id: ch02-b05
+          speakers: [maid_one, maid_two]
+          ensemble: duo
+          text: Cap o' Rushes, you missed such a sight!
+        - id: ch02-b06
+          speaker: cap_o_rushes
+          text: What did I miss?
+        - id: ch02-b07
+          speaker: maid_one
+          text: The most beautiful lady you ever saw, dressed in all her finery!
+        - id: ch02-b08
+          speaker: maid_two
+          text: And the young master never once took his eyes off her.
+        - id: ch02-b09
+          speaker: cap_o_rushes
+          text: I would have liked to see her.
+        - id: ch02-b10
+          speaker: maid_one
+          text: There's another dance tonight. Perhaps she'll come again.
+        - id: ch02-b11
+          speaker: narrator
+          text: When evening came, Cap o' Rushes again said she was too tired to join them. But once the maids were gone, she cast off the rushes, cleaned herself, and went to the dance.
+        - id: ch02-b12
+          speaker: narrator
+          text: The master's son had been hoping she would return. He danced with no one else and watched her all evening. Still, before the dance was over, she slipped away. When the maids came home, they found Cap o' Rushes under her cloak, pretending to sleep.
+        - id: ch02-b13
+          speaker: maid_one
+          text: Oh, Cap o' Rushes, you really should have come! That beautiful lady was there again.
+        - id: ch02-b14
+          speaker: maid_two
+          text: She looked as grand as ever, and the young master could not take his eyes off her.
+        - id: ch02-b15
+          speaker: cap_o_rushes
+          text: I truly wish I had seen her.
+        - id: ch02-b16
+          speaker: maid_one
+          text: Then come with us tonight. There's one more dance, and she's sure to be there.
+
+    - id: ch03
+      title: The Ring
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: That evening, the maids tried everything they could to persuade Cap o' Rushes, but she insisted she was too tired and stayed home. When they had left, she took off her rush cloak, cleaned herself, and set out for the dance.
+        - id: ch03-b02
+          speaker: narrator
+          text: The master's son was happier than ever when he saw her. He danced only with her and never looked away. She would not tell him her name or where she came from, so he gave her a ring.
+        - id: ch03-b03
+          speaker: masters_son
+          text: Keep this ring. If I never see you again, I shall die.
+          emotion: sad
+        - id: ch03-b04
+          speaker: narrator
+          text: Once more, Cap o' Rushes slipped away before the dance was over. She hurried home, put on the rushes, and pretended to be asleep when the maids returned.
+        - id: ch03-b05
+          speaker: maid_one
+          text: You stayed away last night, Cap o' Rushes, and now you've lost your chance to see that lady.
+        - id: ch03-b06
+          speaker: maid_two
+          text: There won't be any more dances.
+        - id: ch03-b07
+          speaker: cap_o_rushes
+          text: I would have dearly liked to see her.
+        - id: ch03-b08
+          speaker: narrator
+          text: The master's son searched everywhere for the mysterious lady. He went from place to place and questioned everyone he could, but no one knew where she had gone. His love for her made him worse each day, until at last he could not leave his bed.
+
+    - id: ch04
+      title: The Ring in the Gruel
+      blocks:
+        - id: ch04-b01
+          speaker: housekeeper
+          text: Cook, make some gruel for the young master. He's dying for love of that lady.
+        - id: ch04-b02
+          speaker: narrator
+          text: The cook began preparing it. Just then, Cap o' Rushes came into the kitchen.
+        - id: ch04-b03
+          speaker: cap_o_rushes
+          text: What are you making?
+        - id: ch04-b04
+          speaker: cook
+          text: Gruel for the young master. He's dying for love of the lady from the dances.
+        - id: ch04-b05
+          speaker: cap_o_rushes
+          text: Let me make it for him.
+        - id: ch04-b06
+          speaker: narrator
+          text: At first the cook refused, but in the end she agreed. Cap o' Rushes made the gruel, and before the cook carried it upstairs, she secretly dropped the ring into the bowl.
+        - id: ch04-b07
+          speaker: narrator
+          text: The young man drank the gruel. At the bottom of the bowl, he found the ring.
+        - id: ch04-b08
+          speaker: masters_son
+          text: Send the cook to me.
+        - id: ch04-b09
+          speaker: narrator
+          text: The cook came upstairs.
+        - id: ch04-b10
+          speaker: masters_son
+          text: Who made this gruel?
+        - id: ch04-b11
+          speaker: cook
+          text: I made it.
+          emotion: fearful
+        - id: ch04-b12
+          speaker: narrator
+          text: He looked straight at her.
+        - id: ch04-b13
+          speaker: masters_son
+          text: No, you didn't. Tell me who really made it. No harm will come to you.
+        - id: ch04-b14
+          speaker: cook
+          text: Then it was Cap o' Rushes.
+        - id: ch04-b15
+          speaker: masters_son
+          text: Send her here.
+        - id: ch04-b16
+          speaker: narrator
+          text: Cap o' Rushes came to his room.
+        - id: ch04-b17
+          speaker: masters_son
+          text: Did you make my gruel?
+        - id: ch04-b18
+          speaker: cap_o_rushes
+          text: Yes, I did.
+        - id: ch04-b19
+          speaker: masters_son
+          text: Then where did you get this ring?
+        - id: ch04-b20
+          speaker: cap_o_rushes
+          text: I got it from the man who gave it to me.
+        - id: ch04-b21
+          speaker: masters_son
+          text: Who are you?
+        - id: ch04-b22
+          speaker: cap_o_rushes
+          text: I'll show you.
+        - id: ch04-b23
+          speaker: narrator
+          text: She took off her cloak of rushes, and there she stood in her beautiful clothes.
+        - id: ch04-b24
+          speaker: narrator
+          text: The master's son recovered very quickly. Before long, they planned to marry. The wedding would be a grand one, with guests invited from far and near. Cap o' Rushes' father was among them, but she told no one who she really was.
+
+    - id: ch05
+      title: The Wedding Without Salt
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Before the wedding, Cap o' Rushes went to speak with the cook.
+        - id: ch05-b02
+          speaker: cap_o_rushes
+          text: I want you to prepare every dish without a single grain of salt.
+        - id: ch05-b03
+          speaker: cook
+          text: But that will taste terribly bad.
+        - id: ch05-b04
+          speaker: cap_o_rushes
+          text: That doesn't matter.
+        - id: ch05-b05
+          speaker: cook
+          text: Very well.
+        - id: ch05-b06
+          speaker: narrator
+          text: The wedding day came, and Cap o' Rushes married the master's son. Afterward, all the guests sat down to dinner. They tasted the meat, but it was so flavorless that no one could eat it.
+        - id: ch05-b07
+          speaker: narrator
+          text: Cap o' Rushes' father tried one dish, then another. Suddenly, he burst into tears.
+        - id: ch05-b08
+          speaker: masters_son
+          text: What is the matter?
+        - id: ch05-b09
+          speaker: father
+          text: I once had a daughter. I asked how much she loved me, and she said, “As much as fresh meat loves salt.” I sent her away because I thought she did not love me. Now I understand that she loved me best of all. For all I know, she may be dead.
+          emotion: sad
+        - id: ch05-b10
+          speaker: cap_o_rushes
+          text: No, Father. Here I am!
+          emotion: happy
+        - id: ch05-b11
+          speaker: narrator
+          text: She went straight to him and put her arms around him.
+        - id: ch05-b12
+          speaker: narrator
+          text: And so they were happy ever after.

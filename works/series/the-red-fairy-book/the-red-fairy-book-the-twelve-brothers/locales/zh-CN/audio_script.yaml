@@ -1,0 +1,266 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 温和郑重，带着向读者介绍全书的亲切口吻
+        timbre: 温暖清晰
+        pace: 从容舒展
+        pitch: 中等
+    father_king:
+      display_name: 老国王
+      tts:
+        delivery: 冷酷专断，说话不容置疑
+        timbre: 成熟威严
+        pace: 稳重
+        pitch: 中低
+    mother_queen:
+      display_name: 老王后
+      tts:
+        delivery: 慈爱忧伤，叮嘱孩子时恳切而克制
+        timbre: 成熟柔和
+        pace: 舒缓
+        pitch: 中等
+    benjamin:
+      display_name: 便雅悯
+      tts:
+        delivery: 聪明善良，少年时勇敢，长大后机敏可靠
+        timbre: 年轻清朗
+        pace: 适中
+        pitch: 中等
+    brother_1:
+      display_name: 大哥
+      tts:
+        delivery: 刚烈直率，情绪来得迅猛
+        timbre: 成熟低沉
+        pace: 适中
+        pitch: 中低
+    brother_2:
+      display_name: 二哥
+      tts:
+        delivery: 坚决有力，说话干脆
+        timbre: 成熟自然
+        pace: 适中
+        pitch: 中等
+    brother_3:
+      display_name: 三哥
+      tts:
+        delivery: 警觉果断，随兄弟们一同应答
+        timbre: 稍显干涩
+        pace: 稍快
+        pitch: 中等
+    brother_4:
+      display_name: 四哥
+      tts:
+        delivery: 率真爽快，群体应答时声音坚定
+        timbre: 年轻浑厚
+        pace: 适中
+        pitch: 中低
+    princess:
+      display_name: 公主
+      tts:
+        delivery: 端庄柔和，受惊时急切真诚
+        timbre: 年轻清亮
+        pace: 适中
+        pitch: 中高
+    old_woman:
+      display_name: 森林老妇人
+      tts:
+        delivery: 古老严肃，说明魔法规则时冷静直接
+        timbre: 苍老清晰
+        pace: 缓慢
+        pitch: 中低
+    king:
+      display_name: 国王
+      tts:
+        delivery: 威严端正，面对苦难时温和体恤
+        timbre: 成熟洪亮
+        pace: 从容
+        pitch: 中低
+    king_mother:
+      display_name: 国王的母亲
+      tts:
+        delivery: 刻薄多疑，诋毁别人时冷硬逼人
+        timbre: 苍老尖冷
+        pace: 稍慢
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 红旗升起
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，一位国王和一位王后生了十二个儿子，一家人原本过得很幸福。有一天，国王却把一个可怕的决定告诉了妻子。
+        - id: ch01-b02
+          speaker: father_king
+          text: 要是第十三个孩子是女孩，她的十二个哥哥一个也不能活。整个王国只能归她。
+        - id: ch01-b03
+          speaker: narrator
+          text: 国王叫人造了十二口棺材。每一口里面都铺满刨花，还放着一只小枕头。他把棺材锁进一间空屋，把钥匙交给王后，严令她不许把秘密告诉任何人。王后一想到儿子们的命运，就终日伤心，谁也劝不好她。最小的儿子便雅悯总陪着母亲。他终于忍不住问出了口。
+        - id: ch01-b04
+          speaker: benjamin
+          text: 母亲，您到底为什么这么难过？
+        - id: ch01-b05
+          speaker: mother_queen
+          text: 我的孩子，我不能把缘故告诉你。
+          emotion: sad
+        - id: ch01-b06
+          speaker: narrator
+          text: 便雅悯一直追问，王后只好打开那间密室，把十二口棺材指给他看。
+        - id: ch01-b07
+          speaker: mother_queen
+          text: 最亲爱的便雅悯，这些棺材是你父亲给你和十一个哥哥造的。只要我生下女儿，你们就会被杀死，埋在这里。
+          emotion: sad
+        - id: ch01-b08
+          speaker: narrator
+          text: 王后说着便痛哭起来。便雅悯反过来安慰她。
+        - id: ch01-b09
+          speaker: benjamin
+          text: 母亲，别哭。我们一定能想办法逃走，保住性命。
+        - id: ch01-b10
+          speaker: mother_queen
+          text: 那你就带着十一个哥哥进森林吧。找一棵最高的树，轮流坐在树顶望着城堡。我要是生下儿子，就挥白旗，你们可以回来。我要是生下女儿，就挥红旗，你们必须立刻逃得远远的。愿仁慈的上天怜悯你们。每个夜晚，我都会起身为你们祈祷。愿你们冬天有火取暖，夏天不受暑热折磨。
+        - id: ch01-b11
+          speaker: narrator
+          text: 王后祝福了十二个儿子。兄弟们走进森林，找到一棵极高的橡树。每天都有一个人爬到树顶，目不转睛地望着城堡的塔楼。第十二天轮到便雅悯。他看见一面旗子飘起来，不是白色，而是血一样的红色。这个信号告诉他们，所有人都得死。兄弟们怒火冲天。
+        - id: ch01-b12
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: 难道我们就该为一个可恶的女孩送命吗？我们发誓报仇！今后不管在哪里遇见女人，都要亲手杀了她！
+          emotion: angry
+        - id: ch01-b13
+          speaker: narrator
+          text: 兄弟们继续往森林深处走，直到四周的树木最茂密、光线最幽暗的地方。那里立着一座小小的魔法屋，屋中空无一人。
+        - id: ch01-b14
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: 我们就在这里住下。便雅悯年纪最小，身子也最弱，就留在家里管家。我们出去找食物。
+        - id: ch01-b15
+          speaker: narrator
+          text: 十一个哥哥每天进森林打猎。他们猎取野兔和狍子，也射下飞鸟、斑鸠，还会把沿途遇见的其他野味带回家。便雅悯总在小屋里等着他们。他很快学会了烹调，能把哥哥们带回的猎物做成一道道好菜。兄弟们就这样快快乐乐地住了十年，日子一晃便过去了。
+    - id: ch02
+      title: 妹妹找到了哥哥
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 宫里的小妹妹渐渐长大了。她心地善良，容貌秀美，额头正中生着一颗金星。一天，宫里上上下下正在大洗衣裳。她从窗口往下看，发现十二件男人的衬衫挂在那里晾晒。那些衬衫远比父亲穿的小，她怎么想也想不明白，便问母亲究竟是谁的。
+        - id: ch02-b02
+          speaker: mother_queen
+          text: 亲爱的孩子，那些衬衫属于你的十二个哥哥。
+          emotion: sad
+        - id: ch02-b03
+          speaker: princess
+          text: 我的十二个哥哥在哪里？为什么我从来没有听说过他们？
+        - id: ch02-b04
+          speaker: mother_queen
+          text: 只有上天知道，他们如今在这广阔世界的哪个角落流浪。
+          emotion: sad
+        - id: ch02-b05
+          speaker: narrator
+          text: 王后牵着女儿，打开那间一直锁着的屋子。她让公主看清十二口棺材，看清里面铺的刨花，还有每口棺材中的小枕头。那些棺材本来是给她哥哥们预备的。王后告诉女儿，哥哥们在她出生前就偷偷逃走了，又从头到尾讲完了当年的事。
+        - id: ch02-b06
+          speaker: princess
+          text: 最亲爱的母亲，请别哭了。我去找哥哥们，不找到他们绝不回来。
+        - id: ch02-b07
+          speaker: narrator
+          text: 公主把十二件衬衫全都带在身边，径直向大森林中央走去。她从早到晚没有停步，直到暮色降临，才来到那座魔法小屋。公主推门进去，屋里只有一个年轻人。他见她穿着王族衣裳，额头闪着金星，模样又那么美，不禁问她从哪里来，要到哪里去。
+        - id: ch02-b08
+          speaker: princess
+          text: 我是一位公主，正在寻找十二个哥哥。只要蓝天还盖着大地，我就会一直走，直到找到他们。
+        - id: ch02-b09
+          speaker: narrator
+          text: 公主拿出十二件衬衫。年轻人一看，立刻明白了。
+        - id: ch02-b10
+          speaker: benjamin
+          text: 我就是便雅悯，是你最小的哥哥。
+          emotion: happy
+        - id: ch02-b11
+          speaker: narrator
+          text: 兄妹俩喜极而泣，一遍遍地亲吻、拥抱。过了一会儿，便雅悯想起了兄弟们的誓言。
+        - id: ch02-b12
+          speaker: benjamin
+          text: 亲爱的妹妹，还有个麻烦。我们曾经约定，见到任何女人都要杀死她。因为一个女孩，我们才不得不离开自己的王国。
+        - id: ch02-b13
+          speaker: princess
+          text: 只要能让十二个哥哥重回故土，我情愿去死。
+        - id: ch02-b14
+          speaker: benjamin
+          text: 不必这样。你先藏到那只木桶下面。等十一个哥哥回来，我有办法说服他们。
+        - id: ch02-b15
+          speaker: narrator
+          text: 公主藏好后，哥哥们打猎回来了，大家坐下吃晚饭。
+        - id: ch02-b16
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: 便雅悯，今天有什么新鲜事？
+        - id: ch02-b17
+          speaker: benjamin
+          text: 这话可有趣。难道你们没有事情要告诉我？
+        - id: ch02-b18
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: 没有。
+        - id: ch02-b19
+          speaker: benjamin
+          text: 你们在森林里跑了一整天，我安安静静地留在家里，可我知道的事情还是比你们多。
+        - id: ch02-b20
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: 那就快说呀！
+        - id: ch02-b21
+          speaker: benjamin
+          text: 你们先真心答应我，遇见的第一个女孩绝不能杀，要饶她一命。
+        - id: ch02-b22
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: 我们答应饶她。现在快告诉我们吧。
+        - id: ch02-b23
+          speaker: benjamin
+          text: 我们的妹妹来了！
+          emotion: happy
+        - id: ch02-b24
+          speaker: narrator
+          text: 便雅悯掀开木桶。公主从下面走了出来。她穿着王族衣裳，额头的金星闪闪发光。她那么美丽、温柔又可爱，哥哥们一见就全心爱上了她。大家商量好，让公主和便雅悯留在家里做饭。其余十一人仍旧外出打猎，猎取野兔、狍子、飞鸟、斑鸠，以及沿途遇见的其他野味。公主采来香草调味，捡回木柴，守着炉火照看锅子。她还把小屋整理好，将每个房间都收拾得干干净净。十一个哥哥每次打猎归来，总能吃上做好的晚餐。公主处处都能帮上忙，哥哥们都很喜欢她。兄妹十三人从此幸福地住在一起。有一天，留在家里的兄妹俩备下丰盛的宴席。等大家聚齐，他们便一起又吃又喝，十分欢乐。
+    - id: ch03
+      title: 十二株百合
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 魔法小屋四周围着一个小花园，里面长着十二株高高的百合。公主想让哥哥们高兴，就摘下十二朵花，打算等他们坐下吃晚饭时，每人亲手送上一朵。可花朵刚被摘下，十二个哥哥立刻变成十二只乌鸦。它们呀呀叫着，越过树梢飞向森林深处。小屋和花园也在同一刻消失了。可怜的公主独自留在林中。她四下张望，这才发现身边站着一位老妇人。
+        - id: ch03-b02
+          speaker: old_woman
+          text: 我的孩子，你做了什么呀？为什么要摘那些花？它们就是你的十二个哥哥。现在，他们永远变成乌鸦了。
+          emotion: surprised
+        - id: ch03-b03
+          speaker: princess
+          text: 难道没有办法让他们变回来吗？
+          emotion: sad
+        - id: ch03-b04
+          speaker: old_woman
+          text: 全世界只有一个办法，可它实在太难了，我不信你能救出他们。你得整整七年不开口，也不能发笑。哪怕离七年期满只差一个钟头，只要你说出一个字，先前所有的沉默就全白费了。更可怕的是，那一个字还会害死你的哥哥们。
+        - id: ch03-b05
+          speaker: narrator
+          text: 公主心想，只要这样就能救哥哥，她一定办得到。她在森林里找来找去，终于寻到一棵高树。她爬上树，整天坐在那里纺纱。从那以后，她不笑，也不说一个字。
+        - id: ch03-b06
+          speaker: narrator
+          text: 一天，有位国王进森林打猎。他带着一条高大的灰猎犬。狗一路低头嗅闻，跑到公主坐着的树下，便围着树又跳又转，凶猛地吠叫起来。国王的注意被猎犬吸引过去。他抬头望去，看见了额头带着金星的美丽公主。国王被她的美貌深深迷住，当场问她愿不愿意做自己的妻子。公主不能回答，只轻轻点了一下头。国王亲自爬上树，把她抱下来，扶上自己的马，一路带回王宫。婚礼办得庄严又盛大，新娘却从头到尾没有说话，也没有笑。
+        - id: ch03-b07
+          speaker: narrator
+          text: 夫妻俩就这样幸福地生活了几年。可是后来，国王那心肠恶毒的母亲开始诋毁年轻的王后。
+        - id: ch03-b08
+          speaker: king_mother
+          text: 你娶的不过是个出身卑贱的女乞丐。谁知道她暗地里做了什么坏事？就算她又聋又不会说话，至少也该笑一笑。不肯笑的人，心里一定藏着见不得人的事。
+          emotion: disgusted
+        - id: ch03-b09
+          speaker: narrator
+          text: 国王起初根本不理会这些话。可是母亲没完没了地重复，又给年轻的王后安上许许多多罪名。到最后，国王竟被她说动了，下令处死自己美丽的妻子。
+    - id: ch04
+      title: 七年的最后一刻
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 王宫庭院里架起了火刑柱，又燃起熊熊烈火，年轻的王后要在那里被活活烧死。国王站在高处的窗口，亲眼望着下面的一切，不停地流泪，因为他仍然深深爱着妻子。王后被紧紧绑在火刑柱上。火焰伸出赤红的舌头，已经舔到了她的衣裳。就在这一刻，七年期限的最后一瞬过去了。空中忽然响起一阵急促的振翅声。十二只乌鸦从头顶飞来，猛地俯冲下去。它们一碰到地面，就变回了公主的十二个哥哥。她知道，自己终于救出了他们。
+        - id: ch04-b02
+          speaker: narrator
+          text: 哥哥们一起扑灭火焰，彻底浇熄柴堆，又解开绳索，把亲爱的妹妹从火刑柱上救下来。他们一遍又一遍地拥抱、亲吻她。七年已经过去，公主终于可以开口了。她把自己为什么沉默、为什么不能发笑，从头到尾告诉了国王。国王这才知道妻子清白无辜，心中万分欢喜。从此，他们全都幸福地生活在一起。

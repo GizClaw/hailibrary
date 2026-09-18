@@ -1,0 +1,216 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: witty, reflective, and lightly theatrical
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    king:
+      display_name: The King
+      tts:
+        delivery: commanding, grave, and deliberate
+        timbre: deep and resonant
+        pace: measured
+        pitch: low
+    charcoal_burner:
+      display_name: The Charcoal-Burner
+      tts:
+        delivery: honest, cautious, and gentle
+        timbre: warm and sturdy
+        pace: conversational
+        pitch: medium-low
+    wife:
+      display_name: The Charcoal-Burner's Wife
+      tts:
+        delivery: lively, restless, and impulsive
+        timbre: bright and clear
+        pace: conversational
+        pitch: medium-high
+    grandchild_1:
+      display_name: First Grandchild
+      tts:
+        delivery: eager and outspoken
+        timbre: clear and youthful
+        pace: quick
+        pitch: high
+    grandchild_2:
+      display_name: Second Grandchild
+      tts:
+        delivery: confident and animated
+        timbre: warm and youthful
+        pace: quick
+        pitch: medium-high
+    grandchild_3:
+      display_name: Third Grandchild
+      tts:
+        delivery: playful and certain
+        timbre: light and youthful
+        pace: conversational
+        pitch: high
+  chapters:
+    - id: ch01
+      title: A Knock at the Hut
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Long ago, in the middle of a great forest, a charcoal-burner lived with his wife. They were young, handsome, and strong. When they married, they believed there would always be work for willing hands. Then hard times came. They grew poorer and poorer, and more and more often they went to bed hungry.
+        - id: ch01-b02
+          speaker: narrator
+          text: One evening, the king of that country was hunting near their hut. As he passed the door, he heard someone sobbing. He was a kind-hearted man, so he stopped to listen. Perhaps he could help.
+        - id: ch01-b03
+          speaker: wife
+          text: Were any two people ever so unhappy? We are ready to work like slaves all day, but no one will give us work. And all because old mother Eve was curious! If she had been like me and never wanted to know anything, we would all be as happy as kings today. We would have plenty to eat and warm clothes to wear. Why—
+          emotion: sad
+        - id: ch01-b04
+          speaker: narrator
+          text: A loud knock cut short her complaint.
+        - id: ch01-b05
+          speaker: wife
+          text: Who is there?
+        - id: ch01-b06
+          speaker: king
+          text: I am.
+        - id: ch01-b07
+          speaker: wife
+          text: And who is "I"?
+        - id: ch01-b08
+          speaker: king
+          text: The king. Let me in.
+        - id: ch01-b09
+          speaker: narrator
+          text: The woman sprang up in surprise and pulled the bar from the door. When the king entered, he saw that the room held no furniture at all, not even a chair. To spare them from seeing that he had noticed, he pretended to be in too much of a hurry to look around.
+        - id: ch01-b10
+          speaker: king
+          text: Please don't let me interrupt you. I cannot stay, but you seem to be in trouble. Tell me, are you truly so unhappy?
+        - id: ch01-b11
+          speaker: wife
+          text: Oh, my lord, we cannot find any work, and we have eaten nothing for two days. There is nothing left for us but to starve.
+          emotion: sad
+        - id: ch01-b12
+          speaker: king
+          text: No, no, that will not happen. If it does, it will be your own fault. Come with me to my palace, and I promise you will feel as if you are in Paradise. I ask only one thing in return. You must follow my orders exactly.
+        - id: ch01-b13
+          speaker: narrator
+          text: The charcoal-burner and his wife stared at him for a moment. They could hardly believe their own ears, and no wonder. At last they both found their voices.
+        - id: ch01-b14
+          speakers: [charcoal_burner, wife]
+          ensemble: duo
+          text: Oh, yes, my lord! We will do everything you tell us. You are so kind. How could we ever disobey you?
+          emotion: happy
+        - id: ch01-b15
+          speaker: narrator
+          text: The king smiled, and his eyes twinkled.
+        - id: ch01-b16
+          speaker: king
+          text: Then we will leave at once. Lock your door and put the key in your pocket.
+        - id: ch01-b17
+          speaker: narrator
+          text: The woman thought that was quite unnecessary. She felt perfectly certain they would never come back to such a poor, empty hut. But she did not dare say so. She locked the door, slipped the key into her pocket, and followed the king out into the forest.
+    - id: ch02
+      title: One Forbidden Tureen
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: After walking a couple of miles through the forest, the three of them reached the palace. At the king's command, servants led the couple into rooms filled with beautiful things they had never even dreamed of. First they bathed in green marble baths, where the water looked like the sea. Then they put on silk clothes that felt wonderfully soft and pleasant.
+        - id: ch02-b02
+          speaker: narrator
+          text: When they were ready, one of the king's special servants came in and took them to a small hall. Dinner had been laid out for them, and the sight of it pleased the hungry couple more than all the other wonders. They were just about to sit at the table when the king came in.
+        - id: ch02-b03
+          speaker: king
+          text: I hope my servants have looked after you well, and I hope you enjoy your dinner. My steward will see that you have everything you want. You may do exactly as you please. Oh, there is just one thing. Do you see the soup tureen in the middle of the table? You must never lift its lid. Once that cover comes off, your good fortune will end.
+        - id: ch02-b04
+          speaker: narrator
+          text: The king bowed to his guests and left the room.
+        - id: ch02-b05
+          speaker: charcoal_burner
+          text: Did you hear him? We may have anything we want and do whatever we please. We only have to leave that soup tureen alone.
+        - id: ch02-b06
+          speaker: wife
+          text: Of course we will leave it alone. Why would we want to touch it? Still, it is rather strange. You cannot help wondering what might be inside.
+        - id: ch02-b07
+          speaker: narrator
+          text: For many days, their life was like a beautiful dream. Their beds were so comfortable that they could hardly make themselves get up. Their clothes were so lovely that they could scarcely bear to take them off. Every dinner tasted so good that they found it very hard to stop eating.
+        - id: ch02-b08
+          speaker: narrator
+          text: Beyond the palace lay gardens full of rare flowers and fruits, with singing birds among them. Whenever the couple wished to travel farther, a golden coach stood waiting for their orders. It was painted with wreaths of forget-me-nots and lined with blue satin.
+        - id: ch02-b09
+          speaker: narrator
+          text: Sometimes the king visited. He would smile at the charcoal-burner, who looked rosier and plumper every day. But when the king glanced at the wife, his eyes seemed to say, "I knew it." Neither she nor her husband ever noticed.
+    - id: ch03
+      title: The Question That Would Not Rest
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: One morning, dinner passed without the wife saying a single word. Her husband finally asked what was wrong.
+        - id: ch03-b02
+          speaker: charcoal_burner
+          text: Why are you so quiet? Not long ago, you talked all day. Now I can hardly remember the sound of your voice.
+        - id: ch03-b03
+          speaker: wife
+          text: Oh, nothing. I simply did not feel like talking.
+        - id: ch03-b04
+          speaker: narrator
+          text: She paused, and then tried to sound careless.
+        - id: ch03-b05
+          speaker: wife
+          text: Don't you ever wonder what is in that soup tureen?
+        - id: ch03-b06
+          speaker: charcoal_burner
+          text: No, never. It is none of our business.
+        - id: ch03-b07
+          speaker: narrator
+          text: The conversation ended there. But as the days passed, the woman spoke less and less. She looked so miserable that her husband became truly frightened for her. As for her food, she began refusing one dish after another.
+        - id: ch03-b08
+          speaker: charcoal_burner
+          text: My dear wife, you must eat something. What is the matter with you? If this goes on, you will die.
+        - id: ch03-b09
+          speaker: wife
+          text: I would rather die than never learn what is inside that tureen!
+          emotion: angry
+        - id: ch03-b10
+          speaker: narrator
+          text: Her outburst startled him.
+        - id: ch03-b11
+          speaker: charcoal_burner
+          text: Is that what has made you so unhappy? You know they will throw us out of the palace. We will be sent away to starve.
+        - id: ch03-b12
+          speaker: wife
+          text: Oh, no, they won't. The king is too kind. He could not have meant such a tiny thing. And you need not take the lid all the way off. Lift just one corner and let me peek. We are alone. No one will ever know.
+        - id: ch03-b13
+          speaker: narrator
+          text: The man hesitated. It did seem like a tiny thing. If one little peek would make his wife contented and happy again, he thought it was worth the risk. At last he gripped the handle and raised the cover very slowly and carefully. His wife bent down to look inside.
+    - id: ch04
+      title: The Mouse Escapes
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Suddenly, the wife jumped back with a scream. A little mouse had leaped from inside the tureen and nearly struck her in the eye. It raced around and around the room, and the husband and wife raced around and around after it. They knocked over chairs and vases as they struggled to catch the mouse and put it back beneath the lid.
+        - id: ch04-b02
+          speaker: narrator
+          text: Right in the middle of all that noise, the door opened. The mouse dashed out between the king's feet. In an instant, the man and woman were both hiding under the table. To anyone looking in, the room seemed completely empty.
+        - id: ch04-b03
+          speaker: king
+          text: You may as well come out and hear what I have to say.
+        - id: ch04-b04
+          speaker: charcoal_burner
+          text: I know what you are going to say. The mouse got away.
+          emotion: sad
+        - id: ch04-b05
+          speaker: narrator
+          text: The charcoal-burner hung his head.
+        - id: ch04-b06
+          speaker: king
+          text: A guard of soldiers will take you back to your hut. Your wife has the key.
+    - id: ch05
+      title: The Grandchildren's Promise
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Years later, the charcoal-burners' grandchildren heard the story.
+        - id: ch05-b02
+          speakers: [grandchild_1, grandchild_2, grandchild_3]
+          ensemble: chorus
+          text: How silly they were! If only we had been given that chance! We would never have wanted to know what was in the soup tureen!

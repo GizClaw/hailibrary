@@ -1,0 +1,719 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and gently dramatic
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    father:
+      display_name: Father
+      tts:
+        delivery: weary, loving, and dignified
+        timbre: soft and aged
+        pace: unhurried
+        pitch: low
+    peppe:
+      display_name: Peppe
+      tts:
+        delivery: blunt, proud, and easily annoyed
+        timbre: sturdy and rough
+        pace: steady
+        pitch: medium-low
+    alfin:
+      display_name: Alfin
+      tts:
+        delivery: cautious, terse, and increasingly envious
+        timbre: dry and firm
+        pace: measured
+        pitch: medium
+    ciccu:
+      display_name: Ciccu
+      tts:
+        delivery: resourceful, earnest, and bold
+        timbre: youthful and clear
+        pace: lively
+        pitch: medium
+    fairy_one:
+      display_name: First Fairy
+      tts:
+        delivery: bright and generous
+        timbre: airy and clear
+        pace: light
+        pitch: high
+    fairy_two:
+      display_name: Second Fairy
+      tts:
+        delivery: curious and delighted
+        timbre: silvery and soft
+        pace: light
+        pitch: medium-high
+    fairy_three:
+      display_name: Third Fairy
+      tts:
+        delivery: assured and mysterious
+        timbre: resonant and smooth
+        pace: measured
+        pitch: medium
+    innkeeper:
+      display_name: Innkeeper
+      tts:
+        delivery: businesslike and attentive
+        timbre: full and plain
+        pace: steady
+        pitch: medium-low
+    king:
+      display_name: King
+      tts:
+        delivery: commanding, impulsive, and proud
+        timbre: rich and authoritative
+        pace: deliberate
+        pitch: low
+    queen:
+      display_name: Queen
+      tts:
+        delivery: gracious and curious
+        timbre: warm and polished
+        pace: measured
+        pitch: medium
+    princess:
+      display_name: Princess
+      tts:
+        delivery: charming, clever, and calculating
+        timbre: bright and refined
+        pace: graceful
+        pitch: medium-high
+    judge:
+      display_name: Judge
+      tts:
+        delivery: fair and matter-of-fact
+        timbre: calm and grounded
+        pace: deliberate
+        pitch: medium-low
+    old_man:
+      display_name: Little Old Man
+      tts:
+        delivery: probing, sly, and quietly magical
+        timbre: thin and weathered
+        pace: unhurried
+        pitch: medium-high
+    servant:
+      display_name: Palace Servant
+      tts:
+        delivery: formal and dutiful
+        timbre: neat and clear
+        pace: measured
+        pitch: medium
+    horse:
+      display_name: Talking Horse
+      tts:
+        delivery: wise, loyal, and reassuring
+        timbre: deep and velvety
+        pace: steady
+        pitch: low
+    man_eater:
+      display_name: Man-eater
+      tts:
+        delivery: booming, confident, and unsuspecting
+        timbre: heavy and coarse
+        pace: slow
+        pitch: very low
+    fairest:
+      display_name: Fairest in the World
+      tts:
+        delivery: poised, resolute, and keen-minded
+        timbre: luminous and clear
+        pace: measured
+        pitch: medium-high
+    eagle_voice:
+      display_name: King of the Birds
+      tts:
+        delivery: distant and majestic
+        timbre: ringing and broad
+        pace: measured
+        pitch: high
+    fish_voice:
+      display_name: Emperor of the Fishes
+      tts:
+        delivery: distant and courteous
+        timbre: fluid and resonant
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Three Gifts
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a man with three sons. Peppe was the eldest, Alfin came next, and Ciccu was the youngest. The whole family was very poor. At last things grew so bad that there was truly not enough for them to eat. Their father could see no way out, so he called all three sons to him.
+        - id: ch01-b02
+          speaker: father
+          text: My dear boys, I am too old to work now. There is nothing left for me to do but beg in the streets.
+          emotion: sad
+        - id: ch01-b03
+          speakers: [peppe, alfin, ciccu]
+          ensemble: chorus
+          text: No, Father! We will never let you do that. We would sooner beg ourselves, but we have a better plan.
+        - id: ch01-b04
+          speaker: father
+          text: What is your plan?
+        - id: ch01-b05
+          speaker: peppe
+          text: Come with us into the forest. You can cut wood there, and we will tie it in bundles and sell it in town.
+        - id: ch01-b06
+          speaker: narrator
+          text: Their father let them do as they proposed, and the four of them made their way into the forest. Hunger had left the old man so weak that his sons took turns carrying him on their backs. Once there, they built a little hut where they could shelter. Then they all began to work. Early every morning, the father cut sticks. His sons tied the wood into bundles, carried those bundles to town, and returned with the food the old man needed so badly.
+        - id: ch01-b07
+          speaker: narrator
+          text: They lived this way for several months. Then the father suddenly fell ill. He knew that his time had come and that he was going to die. He told his sons to fetch a lawyer so he could make his will. When the lawyer arrived, the old man carefully explained how every possession was to be divided.
+        - id: ch01-b08
+          speaker: father
+          text: I own a little house in the village, with a fig tree growing over it. My sons shall share the house and live there together. Peppe shall have the branches of the tree. Alfin shall have the trunk. Ciccu shall have the fruit. Peppe may also have my old coverlet, Alfin my old purse, and Ciccu my horn. Now farewell.
+        - id: ch01-b09
+          speaker: narrator
+          text: After speaking those last words, he lay down and died quietly. The brothers loved their father dearly, and they wept bitterly for him. Once they had buried him, they began to talk about the lives ahead of them. Should they remain in the woods, or should they return to the village? In the end, they chose to stay where they were and continue earning their living by selling firewood.
+        - id: ch01-b10
+          speaker: narrator
+          text: One evening, after a very hot day of hard work, all three brothers fell asleep beneath a tree in front of their hut. While they slept, three fairies passed that way. The fairies stopped beside the tree and looked closely at the sleeping young men.
+        - id: ch01-b11
+          speaker: fairy_one
+          text: What fine young men! Let us give them presents.
+        - id: ch01-b12
+          speaker: fairy_two
+          text: Yes, but what shall we give them?
+        - id: ch01-b13
+          speaker: fairy_one
+          text: This one is covered by a blanket. Whenever he wraps it around himself and wishes to be somewhere, he will arrive there in an instant.
+        - id: ch01-b14
+          speaker: fairy_two
+          text: This one is holding a purse. From now on, it will give him all the gold he asks for.
+        - id: ch01-b15
+          speaker: fairy_three
+          text: And this one has a horn. If he blows through the small end, ships will cover the seas. If he blows through the wide end, every ship will sink beneath the waves.
+        - id: ch01-b16
+          speaker: narrator
+          text: The fairies vanished. They never knew that Ciccu had been awake and had heard every word.
+        - id: ch01-b17
+          speaker: narrator
+          text: The next day, all three brothers were back at work cutting and bundling wood. Ciccu remembered everything he had heard during the night. He waited for his chance, then spoke to Peppe and Alfin about the two objects they had inherited.
+        - id: ch01-b18
+          speaker: ciccu
+          text: Those old things, the coverlet and the purse, are no use to you. Please give them to me. I would like to keep them for the sake of old times.
+        - id: ch01-b19
+          speaker: narrator
+          text: Peppe and Alfin were very fond of their younger brother. They had never refused him anything, and they did not refuse him now. Without a word of protest, Peppe gave Ciccu the coverlet and Alfin gave him the purse. When Ciccu had both objects safely in his hands, he went on to tell them about another wish.
+        - id: ch01-b20
+          speaker: ciccu
+          text: Dear brothers, I am tired of this forest. I want to live in town and learn a trade.
+        - id: ch01-b21
+          speakers: [peppe, alfin]
+          ensemble: duo
+          text: Oh, Ciccu, stay with us! We are happy here. Who knows what will happen if we leave?
+        - id: ch01-b22
+          speaker: ciccu
+          text: We can at least try. If things go badly, we can always come back and cut wood again.
+        - id: ch01-b23
+          speaker: narrator
+          text: Ciccu lifted his bundle of sticks, and the other two followed him toward town.
+    - id: ch02
+      title: The Purse and the Princess
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: When the brothers reached town, they found the market overflowing with firewood. They could not sell enough of their own bundles to buy themselves a dinner, much less food to carry home. The three stood together, hungry and miserable, wondering what they could possibly do next. Then Ciccu told his brothers to come with him to the inn and have something to eat.
+        - id: ch02-b02
+          speaker: ciccu
+          text: Bring us the three finest dishes you have, and a good bottle of wine.
+        - id: ch02-b03
+          speakers: [peppe, alfin]
+          ensemble: duo
+          text: Ciccu, are you mad? How can you possibly pay for all this?
+          emotion: fearful
+        - id: ch02-b04
+          speaker: ciccu
+          text: Leave it to me. I know exactly what I am doing.
+        - id: ch02-b05
+          speaker: narrator
+          text: By then, Peppe and Alfin were so hungry that they no longer cared very much whether anyone could pay. They followed Ciccu and ate the meal he had ordered. When the three had finished, Ciccu told his brothers to continue on their way while he remained to settle the bill. They needed no second invitation. They hurried off, thinking that Ciccu had no money and that there would surely be a terrible quarrel.
+        - id: ch02-b06
+          speaker: ciccu
+          text: How much do I owe you?
+        - id: ch02-b07
+          speaker: innkeeper
+          text: Six florins.
+        - id: ch02-b08
+          speaker: ciccu
+          text: Dear purse, please give me six florins.
+        - id: ch02-b09
+          speaker: narrator
+          text: Six florins appeared at once. Ciccu paid the bill and caught up with his brothers.
+        - id: ch02-b10
+          speakers: [peppe, alfin]
+          ensemble: duo
+          text: How did you manage to pay?
+        - id: ch02-b11
+          speaker: ciccu
+          text: Never mind how. I paid every penny.
+        - id: ch02-b12
+          speaker: narrator
+          text: He refused to explain further. Peppe and Alfin became more uneasy with every step. They felt certain that something dishonest must have happened, and they thought the sooner they parted company with Ciccu, the better. Ciccu saw the suspicion on their faces and understood exactly what they were thinking. He reached into his pocket, drew out forty gold pieces, and held twenty toward each brother.
+        - id: ch02-b13
+          speaker: ciccu
+          text: Take this money and use it well. I am going away to seek my own fortune.
+        - id: ch02-b14
+          speaker: narrator
+          text: Ciccu embraced both brothers and set off alone down another road. He wandered onward for many days before reaching the town where the king kept his court. As soon as he arrived, he used the purse to order a set of fine clothes for himself. Then he bought a grand house that stood directly across from the royal palace.
+        - id: ch02-b15
+          speaker: narrator
+          text: Ciccu locked the front door. Inside, he ordered the purse to pour out a shower of gold until the whole staircase was covered. Only when the work was complete did he fling the door wide open. Everyone who passed came closer and peeped at those shining golden stairs. Word of the wonder spread through the town and finally reached the king. He left his palace to see the splendor with his own eyes. Ciccu received him with every mark of respect and personally showed him through the grand house.
+        - id: ch02-b16
+          speaker: narrator
+          text: When the king returned to the palace, he told such marvelous stories about Ciccu's house that his wife and daughter declared they must see it too. The king therefore sent a message across the way, asking Ciccu for permission to bring the queen and princess on a visit.
+        - id: ch02-b17
+          speaker: ciccu
+          text: If the queen and princess will honor my home with a visit, I will gladly show them anything they wish to see.
+        - id: ch02-b18
+          speaker: narrator
+          text: The princess was as beautiful as the sun. The moment Ciccu looked at her, his heart went out to her, and he longed to make her his wife. The princess saw what was happening in his mind. She also saw how his love might satisfy her curiosity about the golden stairs. She praised Ciccu, flattered him, and slipped one cunning question after another into their talk. At last his head was completely turned, and he revealed the entire story of the fairies and their gifts.
+        - id: ch02-b19
+          speaker: princess
+          text: Lend me the purse for a few days. I only want to have another one made just like it.
+        - id: ch02-b20
+          speaker: narrator
+          text: Ciccu's love was so great that he handed over the purse at once. The princess carried it back to the palace, though she had not the slightest intention of ever returning it. Before long, Ciccu had spent all the ordinary money he kept in his house. Without the magic purse, he could obtain no more. He went straight to the king's daughter and asked whether she had finished with it.
+        - id: ch02-b21
+          speaker: princess
+          text: Not quite. Come back tomorrow.
+        - id: ch02-b22
+          speaker: narrator
+          text: When Ciccu returned the next day, the princess gave him another excuse. The same thing happened the day after that, and again after that. At last a great rage filled the place in Ciccu's heart where love had been. When night came, he took a thick stick in one hand. He wrapped himself in the coverlet and wished himself into the princess's chamber. She was asleep, but Ciccu seized her arm, pulled her out of bed, and beat her until she gave back the purse. Then he gathered up the coverlet, wrapped it around himself, and wished himself safely home.
+        - id: ch02-b23
+          speaker: narrator
+          text: The princess hurried to her father and told him what she had suffered. The king rose in fury and ordered Ciccu brought before him.
+        - id: ch02-b24
+          speaker: king
+          text: You deserve to die. I will spare your life only if you hand over the coverlet, the purse, and the horn this instant.
+          emotion: angry
+        - id: ch02-b25
+          speaker: narrator
+          text: Ciccu was in the king's power, and he wanted to live. Without a word, he surrendered the gifts he had gained by tricking his brothers. Once more, he was as poor as he had been as a boy.
+    - id: ch03
+      title: Three Baskets of Figs
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Ciccu wondered how he could possibly earn a living now. Then he remembered that this was the season when the figs at home would ripen, and he decided to see whether the old tree had borne well. He traveled back to the village house where Peppe and Alfin still lived. His brothers were very uncomfortable there. They had spent every piece of the money Ciccu gave them, and they had no idea how to obtain any more.
+        - id: ch03-b02
+          speaker: narrator
+          text: The fig tree was in splendid condition and heavy with fruit. Ciccu fetched a basket and began feeling for ripe figs.
+        - id: ch03-b03
+          speaker: peppe
+          text: Stop! The figs may be yours, but they grow on my branches. You may not touch them.
+        - id: ch03-b04
+          speaker: narrator
+          text: Ciccu said nothing. He leaned a ladder against the tree and put one foot on the first rung.
+        - id: ch03-b05
+          speaker: alfin
+          text: Stop there! The trunk is mine, and you may not touch it.
+        - id: ch03-b06
+          speaker: narrator
+          text: The brothers began to quarrel violently. None would give way, and it seemed as if the shouting might never end. At last one of them proposed taking the dispute before a judge. The other two agreed. They sought out a man whom all three trusted, and Ciccu told him the full story of the house, the tree, and their father's peculiar will.
+        - id: ch03-b07
+          speaker: judge
+          text: The figs truly belong to Ciccu, but he cannot gather them without touching the trunk and branches. Ciccu must give Peppe the first basket for permission to rest the ladder against the tree. He must give Alfin the second basket for permission to shake the branches. Every basket after that is Ciccu's.
+        - id: ch03-b08
+          speaker: narrator
+          text: All three brothers were content with the verdict and went home together. As they walked, they agreed that each of them would send a basket of figs to the king. Perhaps His Majesty would give them something in return. If he did, they promised to divide the reward faithfully among themselves. They carefully chose the very best figs for the first basket, packed them neatly, and sent Peppe off toward the castle.
+        - id: ch03-b09
+          speaker: old_man
+          text: What are you carrying there, my fine fellow?
+        - id: ch03-b10
+          speaker: peppe
+          text: What business is that of yours? Leave me alone.
+        - id: ch03-b11
+          speaker: narrator
+          text: The little old man asked again. Peppe lost his temper.
+        - id: ch03-b12
+          speaker: peppe
+          text: Dirt! That is what I have.
+          emotion: angry
+        - id: ch03-b13
+          speaker: old_man
+          text: Good. You said dirt, so dirt it shall be.
+        - id: ch03-b14
+          speaker: narrator
+          text: Peppe tossed his head and continued to the castle. A servant answered his knock.
+        - id: ch03-b15
+          speaker: peppe
+          text: I have brought the king a basket of lovely figs, if His Majesty will kindly accept them with my humble duty.
+        - id: ch03-b16
+          speaker: narrator
+          text: The king was extremely fond of figs, so he ordered the servant to bring Peppe into his presence. He also called for a silver dish on which the gift could be arranged. Peppe uncovered his basket. A layer of beautiful purple figs greeted the king's eyes, but when they were lifted out, there was nothing underneath them except dirt.
+        - id: ch03-b17
+          speaker: king
+          text: How dare you play such a trick on me! Take this man away and give him fifty lashes.
+          emotion: angry
+        - id: ch03-b18
+          speaker: narrator
+          text: The order was carried out. Peppe went home sore and angry, determined to hide what had happened.
+        - id: ch03-b19
+          speaker: peppe
+          text: I will tell you after all three of us have gone.
+        - id: ch03-b20
+          speaker: narrator
+          text: A few days later, more figs ripened, and Alfin set off with his basket. The little old man met him on the road and asked what he was carrying.
+        - id: ch03-b21
+          speaker: alfin
+          text: Horns.
+        - id: ch03-b22
+          speaker: old_man
+          text: Good. You said horns, so horns it shall be.
+        - id: ch03-b23
+          speaker: narrator
+          text: At the castle, Alfin offered his lovely figs with humble duty. The king ordered another silver dish. Purple figs covered the top of the basket, but underneath there was nothing except horns.
+        - id: ch03-b24
+          speaker: king
+          text: Is this some plot to mock me? Take him away and give him one hundred and fifty lashes!
+          emotion: angry
+        - id: ch03-b25
+          speaker: narrator
+          text: The king's order was carried out, and Alfin made his painful way home. He was sad, grim, and humiliated, but like Peppe, he would not tell his brothers a word about his adventure at the palace.
+        - id: ch03-b26
+          speaker: alfin
+          text: Now it is Ciccu's turn.
+        - id: ch03-b27
+          speaker: narrator
+          text: Ciccu waited for the last figs to ripen. They were not as fine as the earlier fruit, but he gathered them and started for the palace. The old man stopped him too.
+        - id: ch03-b28
+          speaker: old_man
+          text: What have you got in that basket?
+        - id: ch03-b29
+          speaker: ciccu
+          text: Figs for the king.
+        - id: ch03-b30
+          speaker: old_man
+          text: Let me see them. Oh, please give me one. I am very fond of figs.
+        - id: ch03-b31
+          speaker: ciccu
+          text: If I give one away, I am afraid the empty place will show.
+        - id: ch03-b32
+          speaker: narrator
+          text: Ciccu was good-natured, so he gave the old man a fig. The man ate it greedily and kept the stalk. Then he asked for more until half the basket was gone.
+        - id: ch03-b33
+          speaker: ciccu
+          text: There are hardly enough left to take to the king.
+        - id: ch03-b34
+          speaker: old_man
+          text: Do not worry. Carry the basket to the castle just as it is, and it will bring you luck.
+        - id: ch03-b35
+          speaker: narrator
+          text: The old man threw all the stalks back into the half-empty basket. Ciccu did not feel at all happy about presenting it to the king, but he continued on his way. When he reached the castle, he rang the bell with a trembling heart. The king heard that yet another man had arrived with a basket of figs. Remembering the dirt and the horns, he cried for this third visitor to be brought in at once. He supposed the three men must have made a wager to mock him.
+        - id: ch03-b36
+          speaker: ciccu
+          text: I have brought some lovely figs, if His Majesty will kindly accept them with my humble duty.
+        - id: ch03-b37
+          speaker: narrator
+          text: Ciccu lifted the cover from his basket. Instead of a few poor figs and a pile of stalks, it held a great heap of beautiful ripe fruit. The king was delighted. He emptied every fig onto the silver dish with his own hands. Then he rewarded Ciccu with five florins and offered to take him into royal service as well.
+        - id: ch03-b38
+          speaker: ciccu
+          text: I gratefully accept, Your Majesty. First, please let me go home and give these five florins to my brothers.
+        - id: ch03-b39
+          speaker: narrator
+          text: At home, the brothers compared what each had received.
+        - id: ch03-b40
+          speaker: peppe
+          text: The king gave me fifty lashes.
+        - id: ch03-b41
+          speaker: alfin
+          text: And he gave me one hundred and fifty.
+        - id: ch03-b42
+          speaker: ciccu
+          text: He gave me five florins and some sweets. You may divide them between you, because the king has taken me into his service.
+        - id: ch03-b43
+          speaker: narrator
+          text: Ciccu returned to court. He served the king well, and the king grew very fond of him.
+    - id: ch04
+      title: The Man-eater
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Before long, Peppe and Alfin heard that their younger brother had become an important man at court. Instead of being pleased for him, they grew envious. They spent their time wondering how they could put Ciccu to shame and bring down the king's opinion of him. At last they settled on a plan and went together to speak with His Majesty.
+        - id: ch04-b02
+          speaker: peppe
+          text: Your palace is truly beautiful, Your Majesty, but it lacks one thing worthy of you. It needs the sword of the Man-eater.
+        - id: ch04-b03
+          speaker: king
+          text: How could I ever get that sword?
+        - id: ch04-b04
+          speaker: alfin
+          text: Ciccu can get it for you. You need only ask him.
+        - id: ch04-b05
+          speaker: narrator
+          text: The king summoned Ciccu at once.
+        - id: ch04-b06
+          speaker: king
+          text: Ciccu, whatever it costs, you must bring me the sword of the Man-eater.
+        - id: ch04-b07
+          speaker: narrator
+          text: The sudden order amazed Ciccu. He walked thoughtfully to the stable and stroked his favorite horse.
+        - id: ch04-b08
+          speaker: ciccu
+          text: Ah, my dear horse, we must say goodbye. The king is sending me to fetch the Man-eater's sword.
+          emotion: sad
+        - id: ch04-b09
+          speaker: narrator
+          text: This was no ordinary horse. He could speak, and he knew many things.
+        - id: ch04-b10
+          speaker: horse
+          text: Do not be afraid. Ask the king for fifty gold pieces and permission to ride me. If you follow my directions, the rest will be easy.
+          emotion: calm
+        - id: ch04-b11
+          speaker: narrator
+          text: Ciccu trusted the horse. The king granted both requests, and the friends set out. The horse chose every road and guided Ciccu all the way.
+        - id: ch04-b12
+          speaker: narrator
+          text: They rode hard for many days before reaching the country where the Man-eater lived. There the horse pointed out a group of old women coming through the forest, chattering among themselves. Following the horse's directions, Ciccu stopped them. He offered each woman a shilling if they would collect a great many mosquitoes for him and tie every one of them inside a bag.
+        - id: ch04-b13
+          speaker: narrator
+          text: When the bag was full, Ciccu carried it into the Man-eater's house while its owner was away looking for dinner. He released the mosquitoes in the bedroom and hid beneath the bed.
+        - id: ch04-b14
+          speaker: narrator
+          text: The Man-eater came home late, exhausted after his long search for dinner. He flung himself across the bed and placed his sword, with its blade shining, close beside him. He had barely settled down when the mosquitoes began buzzing around his head and biting him. The Man-eater rolled from one side of the bed to the other. Again and again he tried to catch them, but although they always seemed close to his nose, he never caught a single one.
+        - id: ch04-b15
+          speaker: narrator
+          text: While the Man-eater fought the mosquitoes, Ciccu slipped out and snatched up the sword. The horse was waiting at the door. Ciccu raced downstairs, leaped onto his back, and they flew away like the wind. They did not stop until they reached the king's palace.
+        - id: ch04-b16
+          speaker: narrator
+          text: All the while Ciccu was away, the king had been suffering with worry. He kept thinking that if the Man-eater caught and ate Ciccu, the young man's death would be entirely his fault. When Ciccu returned alive, the king was so overjoyed to see him safe that for a moment he almost forgot about the wonderful sword he had ordered Ciccu to bring.
+        - id: ch04-b17
+          speaker: narrator
+          text: Success only made Peppe and Alfin more envious. Soon they spoke to the king again.
+        - id: ch04-b18
+          speaker: peppe
+          text: Taking the sword was all very well, but Your Majesty would gain far greater honor if Ciccu captured the Man-eater himself.
+        - id: ch04-b19
+          speaker: king
+          text: Ciccu, I will never rest until you bring the Man-eater here alive. You may ask for any help you need, but somehow you must do it.
+        - id: ch04-b20
+          speaker: narrator
+          text: Ciccu was deeply discouraged. He went back to his friend in the stable.
+        - id: ch04-b21
+          speaker: horse
+          text: Have no fear. Ask for me and another fifty gold pieces.
+          emotion: calm
+        - id: ch04-b22
+          speaker: narrator
+          text: Ciccu did so, and they returned to the Man-eater's country. There Ciccu had every church bell tolled and a proclamation sent through the land.
+        - id: ch04-b23
+          speaker: ciccu
+          text: Ciccu, servant of the king, is dead.
+        - id: ch04-b24
+          speaker: narrator
+          text: The Man-eater heard the news and rejoiced. The thief who had stolen his sword was dead, or so he believed. Meanwhile, Ciccu bought an axe and a saw. He felled a pine in the nearest forest and began shaping it into boards. The Man-eater came upon him at work.
+        - id: ch04-b25
+          speaker: man_eater
+          text: What are you doing in my forest?
+        - id: ch04-b26
+          speaker: ciccu
+          text: Noble lord, I am making a coffin for Ciccu's body. He is dead.
+        - id: ch04-b27
+          speaker: man_eater
+          text: There is no need to rush. Perhaps I can help you.
+        - id: ch04-b28
+          speaker: narrator
+          text: Together they sawed and fitted the wood. Soon the coffin was finished. Ciccu scratched his ear as if a troubling thought had just struck him.
+        - id: ch04-b29
+          speaker: ciccu
+          text: What a fool I am! I never measured him. How can I tell whether the coffin is large enough? Now that I think of it, Ciccu was about your size. Would you please lie inside and see if there is enough room?
+        - id: ch04-b30
+          speaker: man_eater
+          text: I would be delighted.
+        - id: ch04-b31
+          speaker: narrator
+          text: The Man-eater stretched out inside the coffin. Ciccu slammed down the lid, wrapped a strong rope around it, and tied it firmly to his horse. Then he rode back to the king.
+        - id: ch04-b32
+          speaker: narrator
+          text: When the king saw that Ciccu had truly brought the Man-eater alive, he ordered a huge iron chest. The coffin was placed inside, and the chest was locked.
+    - id: ch05
+      title: The Fairest in the World
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Around this time, the queen died. Before long, the king decided to marry again. He searched everywhere, but no princess pleased him. Then Ciccu's envious brothers approached him once more.
+        - id: ch05-b02
+          speaker: peppe
+          text: There is only one woman worthy to be your wife, Your Majesty. She is the fairest woman in the whole world.
+        - id: ch05-b03
+          speaker: king
+          text: And where am I to find her?
+        - id: ch05-b04
+          speaker: alfin
+          text: Ciccu will know. He can bring her to you.
+        - id: ch05-b05
+          speaker: narrator
+          text: By now, the king depended so much on Ciccu that he believed the young man could do anything.
+        - id: ch05-b06
+          speaker: king
+          text: Ciccu, you have eight days to bring me the fairest woman in the world. If you fail, I will have you cut into a thousand pieces.
+          emotion: angry
+        - id: ch05-b07
+          speaker: narrator
+          text: This task seemed a hundred times worse than the others. With tears in his eyes, Ciccu made his way to the stable.
+        - id: ch05-b08
+          speaker: horse
+          text: Cheer up. Ask the king for bread, honey, and a purse of gold. Leave everything else to me.
+          emotion: happy
+        - id: ch05-b09
+          speaker: narrator
+          text: Ciccu received the supplies, and the two galloped away. After some distance, they found a swarm of bees on the ground. The bees were too weak with hunger to fly.
+        - id: ch05-b10
+          speaker: horse
+          text: Get down and give those poor bees some honey.
+        - id: ch05-b11
+          speaker: narrator
+          text: Ciccu fed them. Later, beside a stream, they saw a fish flapping weakly on the bank as it struggled to reach the water.
+        - id: ch05-b12
+          speaker: horse
+          text: Put that fish back in the stream. He will be useful to us.
+        - id: ch05-b13
+          speaker: narrator
+          text: Ciccu tossed the fish into the water. Farther up a hillside, they found an eagle with one leg caught in a snare.
+        - id: ch05-b14
+          speaker: horse
+          text: Free the eagle. He will be useful to us too.
+        - id: ch05-b15
+          speaker: narrator
+          text: Ciccu opened the snare, and the eagle soared into the sky.
+        - id: ch05-b16
+          speaker: narrator
+          text: At last they reached the castle where the fairest in the world lived with her parents. The horse stopped near a stone.
+        - id: ch05-b17
+          speaker: horse
+          text: Sit on that stone while I enter the castle alone. The moment you see me racing past with the princess on my back, leap up behind her and hold her tightly so she cannot escape. If you fail, we are both lost.
+        - id: ch05-b18
+          speaker: narrator
+          text: Ciccu sat down, and the horse trotted gracefully into the castle courtyard. People gathered to watch him and stroke his shining coat. Soon the king, queen, and princess joined the crowd. The fairest in the world gazed at the horse with bright eyes.
+        - id: ch05-b19
+          speaker: fairest
+          text: Oh, I simply must ride him for a moment!
+          emotion: happy
+        - id: ch05-b20
+          speaker: narrator
+          text: She sprang into the saddle. The horse bounded away at once, and the princess had to cling to his mane to keep from falling. As they flew past the stone, Ciccu swung himself up and held her around the waist.
+        - id: ch05-b21
+          speaker: narrator
+          text: The princess unwound the veil from her head and dropped it on the ground. Then she pulled a ring from her finger and threw it into the stream. She said nothing. The three of them rode on, fast and still faster.
+    - id: ch06
+      title: The Veil, the Ring, and the Fire
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: The king was watching from the top of a tower. When he saw a cloud of dust in the distance, he hurried down to receive them. He bowed deeply before the fairest in the world.
+        - id: ch06-b02
+          speaker: king
+          text: Noble lady, will you do me the honor of becoming my wife?
+        - id: ch06-b03
+          speaker: fairest
+          text: I will marry you only after Ciccu brings me the veil I dropped along the road.
+        - id: ch06-b04
+          speaker: king
+          text: Ciccu, find that veil at once, or you will lose your head.
+          emotion: angry
+        - id: ch06-b05
+          speaker: narrator
+          text: Ciccu had hoped for a little peace. His heart sank at the new command, and he went to tell the faithful horse.
+        - id: ch06-b06
+          speaker: horse
+          text: Everything will be all right. Pack enough food for both of us for one day, then climb onto my back.
+          emotion: calm
+        - id: ch06-b07
+          speaker: narrator
+          text: They retraced their whole journey until they reached the place where the eagle had been trapped. The horse told Ciccu to call three times to the king of the birds and ask him to fetch the lost veil.
+        - id: ch06-b08
+          speaker: eagle_voice
+          text: Wait a moment. An eagle is playing with the veil now, but he will bring it to you at once.
+        - id: ch06-b09
+          speaker: narrator
+          text: Soon wings beat overhead. An eagle fluttered down with the veil in his beak. Ciccu recognized the very bird he had freed from the snare. He took the veil and rode back to the palace.
+        - id: ch06-b10
+          speaker: narrator
+          text: The king was enchanted to see him return so quickly. He took the veil and threw it over the princess.
+        - id: ch06-b11
+          speaker: king
+          text: Here is the veil you demanded. Now I claim you as my wife.
+        - id: ch06-b12
+          speaker: fairest
+          text: Not so fast. I cannot marry you until Ciccu puts on my finger the ring I threw into the stream.
+        - id: ch06-b13
+          speaker: narrator
+          text: Ciccu had expected another demand. He bowed his head and went straight to the horse.
+        - id: ch06-b14
+          speaker: horse
+          text: Mount at once. This task is very simple.
+        - id: ch06-b15
+          speaker: narrator
+          text: The horse carried him to the little stream. There he told Ciccu to call three times to the emperor of the fishes and ask for the princess's ring. A voice answered from very far away.
+        - id: ch06-b16
+          speaker: fish_voice
+          text: What do you wish of me?
+        - id: ch06-b17
+          speaker: ciccu
+          text: I have been ordered to bring back the ring the princess threw into this stream as she rode past.
+        - id: ch06-b18
+          speaker: fish_voice
+          text: A fish is playing with it now. You shall have it without delay.
+        - id: ch06-b19
+          speaker: narrator
+          text: Before long, a little fish rose to the surface with the ring in his mouth. It was the same fish Ciccu had saved from death. Ciccu took the ring and hurried back to the king.
+        - id: ch06-b20
+          speaker: fairest
+          text: The ring is not enough. Before the king and I can marry, the oven must burn for three days and three nights, and Ciccu must jump into it.
+        - id: ch06-b21
+          speaker: narrator
+          text: The king forgot every service Ciccu had done for him and ordered him to obey. Ciccu believed there was no escape. In the stable, he laid a hand on the horse's neck.
+        - id: ch06-b22
+          speaker: ciccu
+          text: This time it truly is goodbye. Not even you can save me from the fate they have chosen.
+          emotion: sad
+        - id: ch06-b23
+          speaker: horse
+          text: Never lose heart. Ride me until foam flies from me in flecks. Then scrape off the foam with a knife and rub it over your whole body. Once you are covered, let them throw you into the oven. Neither the fire nor anything else will harm you.
+          emotion: calm
+        - id: ch06-b24
+          speaker: narrator
+          text: Ciccu did exactly as the horse instructed. Then he returned to the king and jumped into the oven before the princess's eyes.
+        - id: ch06-b25
+          speaker: narrator
+          text: When the fairest in the world saw what Ciccu had done, love entered her heart. She turned to the king.
+        - id: ch06-b26
+          speaker: fairest
+          text: There is one more condition. Before I can marry you, you must jump into the oven just as Ciccu did.
+        - id: ch06-b27
+          speaker: king
+          text: Willingly.
+        - id: ch06-b28
+          speaker: narrator
+          text: The king bent over the oven. At its edge, he stopped and called down to Ciccu.
+        - id: ch06-b29
+          speaker: king
+          text: Ciccu, tell me how you kept the fire from burning you.
+        - id: ch06-b30
+          speaker: narrator
+          text: Ciccu could not forgive the master he had served so faithfully. The king had sent him to his death without a thought.
+        - id: ch06-b31
+          speaker: ciccu
+          text: I rubbed myself all over with fat. The flames have not even singed me.
+        - id: ch06-b32
+          speaker: narrator
+          text: The princess filled the king's thoughts, and he never paused to wonder whether Ciccu's answer was true. He covered himself with fat and leaped into the oven. The fire caught him in an instant, and he burned up.
+        - id: ch06-b33
+          speaker: narrator
+          text: Then the fairest in the world smiled and held out her hand to Ciccu.
+        - id: ch06-b34
+          speaker: fairest
+          text: Now you and I will be married.
+        - id: ch06-b35
+          speaker: narrator
+          text: So Ciccu married the fairest in the world and became king of the country.

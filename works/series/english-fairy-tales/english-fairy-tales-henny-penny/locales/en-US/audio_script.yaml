@@ -1,0 +1,198 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    henny_penny:
+      display_name: Henny-penny
+      tts:
+        delivery: earnest and excitable, quickening whenever she speaks of the falling sky
+        timbre: bright and clear
+        pace: medium-fast
+        pitch: high
+    cocky_locky:
+      display_name: Cocky-locky
+      tts:
+        delivery: curious and confident, with a brisk, forthright manner
+        timbre: crisp and resonant
+        pace: medium
+        pitch: medium-high
+    ducky_daddles:
+      display_name: Ducky-daddles
+      tts:
+        delivery: friendly and eager, with an open and rounded cadence
+        timbre: soft and mellow
+        pace: medium
+        pitch: medium
+    goosey_poosey:
+      display_name: Goosey-poosey
+      tts:
+        delivery: sociable and trusting, with a broad, easy rhythm
+        timbre: full and warm
+        pace: medium-slow
+        pitch: medium-low
+    turkey_lurkey:
+      display_name: Turkey-lurkey
+      tts:
+        delivery: grand and inquisitive, with deliberate emphasis on names
+        timbre: rich and slightly burbling
+        pace: measured
+        pitch: low
+    foxy_woxy:
+      display_name: Foxy-woxy
+      tts:
+        delivery: smooth and persuasive, hiding menace beneath courteous confidence
+        timbre: silky and dark
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Sky Is Falling
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: One day, Henny-penny was picking up corn in the cornyard when—whack!—something struck her on the head.
+        - id: ch01-b02
+          speaker: henny_penny
+          text: Goodness gracious! The sky is falling! I must go and tell the king.
+          emotion: surprised
+        - id: ch01-b03
+          speaker: narrator
+          text: So Henny-penny left the cornyard to find the king. She went along, and she went along, and she went along, until at last she met Cocky-locky.
+        - id: ch01-b04
+          speaker: cocky_locky
+          text: Where are you going, Henny-penny?
+        - id: ch01-b05
+          speaker: henny_penny
+          text: I'm going to warn the king that the sky is falling.
+        - id: ch01-b06
+          speaker: cocky_locky
+          text: Can I come along?
+        - id: ch01-b07
+          speaker: henny_penny
+          text: Certainly.
+        - id: ch01-b08
+          speaker: narrator
+          text: Cocky-locky fell into step beside her. Now Henny-penny and Cocky-locky were both on their way to tell the king that the sky was falling.
+
+    - id: ch02
+      title: More Join the Journey
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Henny-penny and Cocky-locky went along, and they went along, and they went along. At last, they met Ducky-daddles.
+        - id: ch02-b02
+          speaker: ducky_daddles
+          text: Where are you two going, Henny-penny and Cocky-locky?
+        - id: ch02-b03
+          speakers: [henny_penny, cocky_locky]
+          ensemble: duo
+          text: We're going to warn the king that the sky is falling.
+        - id: ch02-b04
+          speaker: ducky_daddles
+          text: May I come with you?
+        - id: ch02-b05
+          speakers: [henny_penny, cocky_locky]
+          ensemble: duo
+          text: Certainly.
+        - id: ch02-b06
+          speaker: narrator
+          text: Ducky-daddles joined them. Now Henny-penny, Cocky-locky, and Ducky-daddles were all going to tell the king that the sky was falling. They went along, and they went along, and they went along, until they met Goosey-poosey.
+        - id: ch02-b07
+          speaker: goosey_poosey
+          text: Where are all of you going, Henny-penny, Cocky-locky, and Ducky-daddles?
+        - id: ch02-b08
+          speakers: [henny_penny, cocky_locky, ducky_daddles]
+          ensemble: chorus
+          text: We're going to warn the king that the sky is falling.
+        - id: ch02-b09
+          speaker: goosey_poosey
+          text: May I join you?
+        - id: ch02-b10
+          speakers: [henny_penny, cocky_locky, ducky_daddles]
+          ensemble: chorus
+          text: Certainly.
+        - id: ch02-b11
+          speaker: narrator
+          text: Goosey-poosey went with them. Now Henny-penny, Cocky-locky, Ducky-daddles, and Goosey-poosey were all headed for the king. They went along, and they went along, and they went along, until they met Turkey-lurkey.
+        - id: ch02-b12
+          speaker: turkey_lurkey
+          text: Where are you going, Henny-penny, Cocky-locky, Ducky-daddles, and Goosey-poosey?
+        - id: ch02-b13
+          speakers: [henny_penny, cocky_locky, ducky_daddles, goosey_poosey]
+          ensemble: chorus
+          text: We're going to warn the king that the sky is falling.
+        - id: ch02-b14
+          speaker: turkey_lurkey
+          text: May I come with you, Henny-penny, Cocky-locky, Ducky-daddles, and Goosey-poosey?
+        - id: ch02-b15
+          speakers: [henny_penny, cocky_locky, ducky_daddles, goosey_poosey]
+          ensemble: chorus
+          text: Why, certainly, Turkey-lurkey.
+        - id: ch02-b16
+          speaker: narrator
+          text: Turkey-lurkey joined the others. So Henny-penny, Cocky-locky, Ducky-daddles, Goosey-poosey, and Turkey-lurkey all went on together to tell the king that the sky was falling.
+
+    - id: ch03
+      title: Foxy-woxy Knows the Way
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The five travelers went along, and they went along, and they went along, until they met Foxy-woxy. He stopped Henny-penny, Cocky-locky, Ducky-daddles, Goosey-poosey, and Turkey-lurkey to ask them a question.
+        - id: ch03-b02
+          speaker: foxy_woxy
+          text: Where are you all going, Henny-penny, Cocky-locky, Ducky-daddles, Goosey-poosey, and Turkey-lurkey?
+        - id: ch03-b03
+          speakers: [henny_penny, cocky_locky, ducky_daddles, goosey_poosey]
+          ensemble: chorus
+          text: We're going to warn the king that the sky is falling.
+        - id: ch03-b04
+          speaker: foxy_woxy
+          text: Oh, Henny-penny, Cocky-locky, Ducky-daddles, Goosey-poosey, and Turkey-lurkey, this road won't take you to the king. I know the very proper way to his palace. Shall I show it to you?
+        - id: ch03-b05
+          speakers: [henny_penny, cocky_locky, ducky_daddles, goosey_poosey]
+          ensemble: chorus
+          text: Why, certainly, Foxy-woxy.
+        - id: ch03-b06
+          speaker: narrator
+          text: Foxy-woxy joined the company. Henny-penny, Cocky-locky, Ducky-daddles, Goosey-poosey, Turkey-lurkey, and Foxy-woxy all went on to tell the king that the sky was falling. They went along, and they went along, and they went along, until they came to a narrow, dark hole. What the others did not know was that this hole was the entrance to Foxy-woxy's cave.
+        - id: ch03-b07
+          speaker: foxy_woxy
+          text: This is the short way to the king's palace. Follow me and you'll soon be there. I'll go first. Then come after me, Henny-penny, Cocky-locky, Ducky-daddles, Goosey-poosey, and Turkey-lurkey.
+        - id: ch03-b08
+          speakers: [henny_penny, cocky_locky, ducky_daddles, goosey_poosey]
+          ensemble: chorus
+          text: Of course! Certainly! Why not?
+
+    - id: ch04
+      title: Inside the Dark Cave
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Foxy-woxy entered his cave first. He went only a little way into the darkness, then turned around and waited for Henny-penny, Cocky-locky, Ducky-daddles, Goosey-poosey, and Turkey-lurkey to follow him.
+        - id: ch04-b02
+          speaker: narrator
+          text: At last, Turkey-lurkey went first through the dark hole and into the cave. He had barely gone inside when—hrumph!—Foxy-woxy snapped off his head and tossed his body over his left shoulder.
+        - id: ch04-b03
+          speaker: narrator
+          text: Goosey-poosey followed Turkey-lurkey into the cave. Hrumph! Foxy-woxy snapped off her head too, then threw Goosey-poosey down beside Turkey-lurkey.
+        - id: ch04-b04
+          speaker: narrator
+          text: Then Ducky-daddles waddled down through the hole. Hrumph! Foxy-woxy snapped again, and off came Ducky-daddles's head. He threw the body down alongside Turkey-lurkey and Goosey-poosey.
+        - id: ch04-b05
+          speaker: narrator
+          text: Cocky-locky strutted down into the cave after them. Before he had gone far, Foxy-woxy went, “Snap! Hrumph!” Then he threw Cocky-locky alongside Turkey-lurkey, Goosey-poosey, and Ducky-daddles.
+        - id: ch04-b06
+          speaker: narrator
+          text: But Foxy-woxy had taken two bites at Cocky-locky. The first snap had hurt him, but it had not killed him. Before the second bite, Cocky-locky managed to call out a warning to Henny-penny.
+        - id: ch04-b07
+          speaker: narrator
+          text: Henny-penny heard him. She turned tail at once and ran all the way back home.
+        - id: ch04-b08
+          speaker: narrator
+          text: And so she never told the king that the sky was falling.

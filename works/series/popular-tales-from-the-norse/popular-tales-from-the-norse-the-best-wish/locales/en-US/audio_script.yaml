@@ -1,0 +1,322 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    boots:
+      display_name: Boots
+      tts:
+        delivery: good-natured and quietly clever
+        timbre: youthful and clear
+        pace: easy
+        pitch: medium
+    elder_brother_1:
+      display_name: First Elder Brother
+      tts:
+        delivery: proud and dismissive
+        timbre: adult and crisp
+        pace: brisk
+        pitch: medium-low
+    elder_brother_2:
+      display_name: Second Elder Brother
+      tts:
+        delivery: smug and scornful
+        timbre: adult and smooth
+        pace: brisk
+        pitch: medium
+    first_innkeeper:
+      display_name: First Innkeeper
+      tts:
+        delivery: sharp and impatient
+        timbre: rough and full
+        pace: quick
+        pitch: medium-low
+    first_innkeepers_wife:
+      display_name: First Innkeeper's Wife
+      tts:
+        delivery: outspoken and admiring
+        timbre: mature and bright
+        pace: lively
+        pitch: medium
+    second_innkeeper:
+      display_name: Second Innkeeper
+      tts:
+        delivery: irritable and forceful
+        timbre: rough and heavy
+        pace: quick
+        pitch: low
+    second_innkeepers_wife:
+      display_name: Second Innkeeper's Wife
+      tts:
+        delivery: excitable and warm
+        timbre: mature and clear
+        pace: lively
+        pitch: medium-high
+    third_innkeeper:
+      display_name: Third Innkeeper
+      tts:
+        delivery: hot-tempered and blustering
+        timbre: coarse and strong
+        pace: rapid
+        pitch: medium-low
+    third_innkeepers_wife:
+      display_name: Third Innkeeper's Wife
+      tts:
+        delivery: bold and delighted
+        timbre: mature and ringing
+        pace: animated
+        pitch: medium
+    guard_1:
+      display_name: First Palace Guard
+      tts:
+        delivery: practical and amazed
+        timbre: sturdy and clear
+        pace: measured
+        pitch: medium-low
+    guard_2:
+      display_name: Second Palace Guard
+      tts:
+        delivery: observant and talkative
+        timbre: adult and plain
+        pace: conversational
+        pitch: medium
+    princess:
+      display_name: Princess
+      tts:
+        delivery: eager and determined
+        timbre: youthful and bright
+        pace: measured
+        pitch: medium-high
+    king:
+      display_name: King
+      tts:
+        delivery: dignified and indulgent
+        timbre: deep and resonant
+        pace: unhurried
+        pitch: low
+  chapters:
+    - id: ch01
+      title: Three Wishes
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there were three brothers. I cannot quite tell you how it happened, but each brother gained the right to wish for any one thing he chose. The two elder brothers did not need long to decide. Each wished that whenever he put a hand into his pocket, he would pull out a piece of money.
+        - id: ch01-b02
+          speakers: [elder_brother_1, elder_brother_2]
+          ensemble: duo
+          text: A man with all the money he wants is certain to rise in the world.
+        - id: ch01-b03
+          speaker: narrator
+          text: Their youngest brother, Boots, thought of something better. He wished that every woman who saw him would fall in love with him the moment she laid eyes on him. Before this tale is over, you will hear how his wish proved far better than all their gold and goods.
+        - id: ch01-b04
+          speaker: narrator
+          text: Afterward, the elder brothers set out to see the world. Boots asked to come, but they refused.
+        - id: ch01-b05
+          speakers: [elder_brother_1, elder_brother_2]
+          ensemble: duo
+          text: People will treat us like counts and kings wherever we go. But you are a penniless wretch, and you always will be. Who would care about you?
+        - id: ch01-b06
+          speaker: boots
+          text: I still want to come. Perhaps the great lords will leave a tasty bite on their plates for me.
+        - id: ch01-b07
+          speaker: narrator
+          text: Boots begged and pleaded for a long while. At last they allowed him to go, but only if he acted as their servant. On any other terms, they would not hear of taking him.
+    - id: ch02
+      title: Gifts at Three Inns
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: They had traveled for a day or two when they reached an inn. The brothers with money stepped down and ordered fish, meat, fowl, brandy, mead, and every other good thing they could think of. Poor Boots had to stay outside and look after their luggage and belongings. As he walked back and forth in the inn yard, the innkeeper's wife looked through the window and noticed the gentlemen's servant. All at once, she thought she had never seen such a handsome fellow. She kept staring, and the longer she looked, the handsomer he seemed.
+        - id: ch02-b02
+          speaker: first_innkeeper
+          text: What in the devil's name are you gaping at? Go see to the sucking pig. We have grand guests in the house today.
+          emotion: angry
+        - id: ch02-b03
+          speaker: first_innkeepers_wife
+          text: I do not care a bit about that pack of rubbish. If they dislike their meal, they can put up with it or leave. But come here and look at the lad in the yard. Never in all my life have I seen such a handsome fellow. If you will listen to me, we will invite him inside and give him something good. The poor lad looks as though life has been hard on him.
+        - id: ch02-b04
+          speaker: first_innkeeper
+          text: Have you lost the few wits you had? Get into the kitchen and mind the fire. Stop staring after strange men.
+          emotion: angry
+        - id: ch02-b05
+          speaker: narrator
+          text: She had no choice but to return to the kitchen and mind the cooking. Her husband would not let her invite Boots in or give him anything. Still, just as she was about to put the pig on the spit, she found an excuse to run into the yard. There she gave Boots a pair of wonderful scissors. They needed no cloth at all. Snip them through the empty air, and they cut out the loveliest clothes anyone had ever seen, made of silk, satin, and everything fine.
+        - id: ch02-b06
+          speaker: first_innkeepers_wife
+          text: These are yours, because you are so handsome.
+        - id: ch02-b07
+          speaker: narrator
+          text: The elder brothers stuffed themselves with roasted and boiled food, then decided it was time to leave. Boots took his place standing behind their carriage as their servant. They traveled a good distance before reaching another inn. Again the brothers stepped down and went inside. Since Boots had no money, they refused to bring him with them. He was ordered to wait in the yard and guard the luggage.
+        - id: ch02-b08
+          speakers: [elder_brother_1, elder_brother_2]
+          ensemble: duo
+          text: If anyone asks whom you serve, tell them we are two foreign princes.
+        - id: ch02-b09
+          speaker: narrator
+          text: The same thing happened there. While Boots waited in the yard, the second innkeeper's wife saw him through the window and fell in love with him just as the first wife had. She stood there staring because she felt she could never look at him enough. Then her husband hurried through the room with a dish the two supposed princes had ordered.
+        - id: ch02-b10
+          speaker: second_innkeeper
+          text: Do not stare like a cow at a barn door. Take this to the kitchen and watch your fish kettle. Can you not see what grand people are here today?
+          emotion: angry
+        - id: ch02-b11
+          speaker: second_innkeepers_wife
+          text: I do not care a farthing for that pack of rubbish. If they dislike what we serve, they can eat whatever they brought with them. But come to the window and see what I see. Never in all my born days have I seen anyone as handsome as the fellow walking in our yard. Could we ask him inside and give him a little food? He looks as though he truly needs it, poor man. What a darling! What a darling!
+        - id: ch02-b12
+          speaker: narrator
+          text: Her husband was even angrier than the first innkeeper. He told her that what little wit she once had was now completely gone, and he chased her straight back into the kitchen.
+        - id: ch02-b13
+          speaker: second_innkeeper
+          text: You have lost every bit of sense you had. Get inside and stop staring after lads.
+          emotion: angry
+        - id: ch02-b14
+          speaker: narrator
+          text: She went to mind the fish kettle and dared not treat Boots openly because she was afraid of her husband. But while she built up the fire, she found an excuse to run into the yard. There she gave Boots a marvelous tablecloth. The moment anyone spread it out, it covered itself with the finest dishes that person could imagine.
+        - id: ch02-b15
+          speaker: second_innkeepers_wife
+          text: Take this, because you are so handsome.
+        - id: ch02-b16
+          speaker: narrator
+          text: The brothers ate and drank their way through everything in the house. They paid the bill with hard cash and set off, with Boots once more standing behind the carriage. After they had traveled far enough to grow hungry again, they turned into a third inn. There they called for the best and most expensive things they could think of.
+        - id: ch02-b17
+          speakers: [elder_brother_1, elder_brother_2]
+          ensemble: duo
+          text: We are two kings traveling abroad, and our money grows like grass.
+        - id: ch02-b18
+          speaker: narrator
+          text: When the innkeeper heard this, the whole house burst into roasting, baking, and boiling. The smell of dinner reached the next house, though it stood a good way off. The innkeeper was at his wits' end trying to place every dish he wanted before the two kings. Boots, meanwhile, was left outside to guard everything in the carriage. Then the third innkeeper's wife peeped through the window and saw the servant. Never in her life had she seen so handsome a fellow. She looked and looked, and every moment he seemed handsomer. Her husband came racing through the room with another delicacy for the traveling kings. When he found his wife staring into the yard, his words were anything but gentle.
+        - id: ch02-b19
+          speaker: third_innkeeper
+          text: You should know better than to stand there gaping when great people are in the house. Get back to the kitchen and see to your custards this minute.
+          emotion: angry
+        - id: ch02-b20
+          speaker: third_innkeepers_wife
+          text: Oh, I do not care a pin for those guests. If they cannot wait until the custards are baked, they can go without them. That is all there is to it. But please come to this window. You will see the loveliest lad standing in the yard. I have never seen such a pretty fellow in my life. Could we ask him inside and treat him to something? A little good food would surely help him. Oh, what a darling! What a darling!
+        - id: ch02-b21
+          speaker: third_innkeeper
+          text: You have always been a shameless gadabout. If you do not get back to those custards now, I will soon make you move.
+          emotion: angry
+        - id: ch02-b22
+          speaker: narrator
+          text: She hurried back to her custards because she knew her husband would stand no nonsense. Yet while she bent over the fire, she managed to steal into the yard. There she placed a tap in Boots's hands.
+        - id: ch02-b23
+          speaker: third_innkeepers_wife
+          text: Turn this tap, and it will pour the finest drink you choose, whether mead, wine, or brandy. It is yours because you are so handsome.
+    - id: ch03
+      title: The Beggars' Isle
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: When the brothers had eaten and drunk all they could, they left the inn. Boots stood behind the carriage again, and they drove far and wide until they came to a king's palace. The elder brothers introduced themselves as the sons of an emperor. Their pockets were full of money, and their fine clothes shone so brightly they could be seen from far away. Everyone treated them well. They were given rooms in the palace, and the king could hardly do enough to honor them.
+        - id: ch03-b02
+          speaker: narrator
+          text: Boots still wore the same rags he had on when he left home, and there was never a coin in his pocket. The palace guard seized him and rowed him across to an island. That was where they took every beggar and rogue who came to the palace. The king had ordered it because he did not want such ragged people spoiling the merriment at his court. Only enough food to keep body and soul together was sent to the island each day. The elder brothers saw quite clearly that the guards were rowing Boots away. They were pleased to be rid of him and did not trouble themselves about what might happen next.
+        - id: ch03-b03
+          speaker: narrator
+          text: Once Boots reached the island, he pulled out his scissors and began snipping and cutting through the air. The scissors produced the finest clothes anyone could wish to see, made of silk and satin. Before long, all the beggars were dressed far more grandly than the king and every guest at the palace. After that, Boots brought out his tablecloth and spread it wide. It covered itself with food for all the poor beggars. The feast served that day on the Beggars' Isle was finer than any feast the king's palace had ever seen.
+        - id: ch03-b04
+          speaker: boots
+          text: I am sure you are all thirsty too.
+        - id: ch03-b05
+          speaker: narrator
+          text: Boots took out the tap and gave it a turn, so every beggar had plenty to drink as well. The ale and mead that poured from it were finer than anything the king himself had tasted in all his life.
+        - id: ch03-b06
+          speaker: narrator
+          text: The next morning, the king's men rowed over with the usual meal. It was nothing but scrapings from the porridge pots and parings cut from cheese. Not one of the beggars would even taste it. The men wondered what this could mean, but their wonder grew when they took a good look at the people before them. Everyone was dressed so magnificently that the guards thought they must be emperors or popes. For a moment, they believed they had rowed to the wrong island. Then they looked around more carefully and saw that this was the old place after all.
+        - id: ch03-b07
+          speaker: narrator
+          text: It did not take long to learn that the young man brought over the day before had given the island all this splendor. As soon as the guards reached the palace, they hurried to tell what they had seen. The same man they had rowed away in rags had dressed every beggar so finely and grandly that precious ornaments seemed to fall from their clothes. The miserable island now looked richer than the court they had just left.
+        - id: ch03-b08
+          speaker: guard_1
+          text: They have grown so proud that they would not even taste the porridge or cheese we brought.
+        - id: ch03-b09
+          speaker: narrator
+          text: One guard had asked enough questions to discover the secret behind all those splendid clothes. He told the palace exactly what the magical tool did.
+        - id: ch03-b10
+          speaker: guard_2
+          text: He only has to snip those scissors in the air, and out comes silk and satin.
+    - id: ch04
+      title: The Scissors and the Cloth
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: When the Princess heard about the scissors that cut silk and satin out of the air, she had no peace or rest. A pair like that was worth having. With it, she could soon possess all the fine clothes she wanted. She begged the king for so long that he finally sent a messenger to fetch the owner. When Boots came to the palace, the Princess asked whether he truly had such scissors and whether he would sell them. Boots said the story was true, but he would not sell. To prove what they could do, he pulled the scissors from his pocket and snipped again and again. Strips of silk and satin flew through the air all around him.
+        - id: ch04-b02
+          speaker: princess
+          text: You must sell me those scissors. Name any price you please. I have to have them.
+        - id: ch04-b03
+          speaker: narrator
+          text: Boots refused every price because he knew he could never get another pair. While they stood bargaining, the Princess had time to study him more closely. Just like the innkeepers' wives, she began to think she had never seen so handsome a fellow. She started her pleading all over again. Boots could ask for many hundreds of dollars, and the sum made no difference to her, as long as the scissors became hers.
+        - id: ch04-b04
+          speaker: boots
+          text: I will not sell them. But let me sleep tonight on the floor of your bedroom, close to the door, and I will give them to you. I will do you no harm. If you are afraid, two men may stand guard inside.
+        - id: ch04-b05
+          speaker: narrator
+          text: The Princess gladly gave him permission, for she was ready to grant almost anything if she could have those scissors. That night, Boots lay on the floor inside her bedroom, close to the door, and two men stood watch in the room. The Princess did not get much rest. When she should have been sleeping, she kept opening her eyes to look at Boots. If she shut them for one minute, she peeped at him again the next, and so it went on through the whole night.
+        - id: ch04-b06
+          speaker: narrator
+          text: In the morning, Boots was rowed back to the Beggars' Isle. When the king's men arrived with porridge scrapings and cheese parings, nobody would taste them that day either. The men were more astonished than ever. One of them managed to discover that the lad who had owned the scissors also possessed a tablecloth. He needed only to spread it out, and it covered itself with every good thing he could wish for. The guard carried that news straight back to the palace.
+        - id: ch04-b07
+          speaker: guard_1
+          text: I have never seen hot roasts and custards like those, not even in the king's palace.
+        - id: ch04-b08
+          speaker: narrator
+          text: As soon as the Princess heard, she told the king and begged him again and again. At last he sent a messenger to fetch the owner of the tablecloth from the island. Boots returned to the palace, and the Princess declared that she must have the cloth. She offered him gold and green forests in exchange, but he refused to sell it at any price.
+        - id: ch04-b09
+          speaker: boots
+          text: Let me lie tonight on the bench beside your bed, and the cloth is yours. If you are afraid, you may have four men guarding the room.
+        - id: ch04-b10
+          speaker: narrator
+          text: The Princess agreed, so Boots lay down on the bench beside her bed, while four men kept watch inside the room. The night before, she had slept very little. This time, she slept even less. She could scarcely close her eyes, and she lay awake looking at the handsome young man almost the whole night. When morning came, the night seemed far too short to her.
+    - id: ch05
+      title: The Tap and the Princess
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The next morning, Boots was rowed back to the Beggars' Isle, though the Princess hated to let him go because she was so happy when he was near her. There was no changing the order. Back to the island he had to go. When the king's men arrived with porridge scrapings and cheese parings, not one beggar would even look at the food. By now, the men were not surprised by that. What did seem strange was that no one on the island appeared thirsty.
+        - id: ch05-b02
+          speaker: narrator
+          text: Just then, one of the guards learned the reason. The young man who had owned the scissors and tablecloth had a tap as well. If he turned it only a little, it poured the rarest drinks, including ale, mead, and wine. When the guard returned to the palace, he could no more keep this discovery to himself than he had before. He went about telling everyone, high and low, how easily every kind of drink flowed from that tap.
+        - id: ch05-b03
+          speaker: guard_2
+          text: I have never tasted ale or mead like that anywhere in the king's palace. Why, honey and syrup are nothing beside those drinks for sweetness.
+        - id: ch05-b04
+          speaker: narrator
+          text: Once the Princess heard about the tap, she was determined to own it and quite willing to make another bargain. She went to the king and begged him to send to the Beggars' Isle for the lad who had owned the scissors and cloth. Now, she said, he had one more treasure worth possessing. When the king learned that a mere turn of the tap produced the finest ale and wine anyone could drink, he needed little persuading. He sent the messenger at once.
+        - id: ch05-b05
+          speaker: narrator
+          text: Boots came back to the palace. The Princess asked whether he truly owned a tap that could do all these things, and Boots answered that it was right there in his waistcoat pocket. She tried with all her might to buy it. Just as he had twice before, Boots said he would not sell, even if the Princess offered him half the kingdom.
+        - id: ch05-b06
+          speaker: boots
+          text: Let me sleep tonight on your bed, on top of the quilt, and I will give you the tap. I will do you no harm. If you are afraid, you may set eight men to watch in the room.
+        - id: ch05-b07
+          speaker: princess
+          text: Oh, no. There is no need for guards. I know you well enough now.
+        - id: ch05-b08
+          speaker: narrator
+          text: So Boots lay on the Princess's bed that night, outside the quilt. She had slept very little on the two nights before, but now she slept less than ever. She could not close her eyes for the whole long night. She simply lay there looking at Boots beside her until morning came.
+        - id: ch05-b09
+          speaker: narrator
+          text: In the morning, the men came to row Boots back to the island. Before they could leave, the Princess begged them to wait a little. She ran straight to the king and asked him as sweetly as she could to let Boots become her husband. She was so fond of him, she said, that unless she could have him, she no longer cared to live.
+        - id: ch05-b10
+          speaker: king
+          text: Well, well. If you must have him, then you shall. After all, a man who owns treasures like those is every bit as rich as you are.
+    - id: ch06
+      title: The Best Wish
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: So Boots married the Princess and received half the kingdom with her. The other half would become his when the king died. From then on, everything went smoothly and well for him. But Boots had not forgotten the elder brothers who had always treated him so badly. He packed them off to the Beggars' Isle.
+        - id: ch06-b02
+          speaker: boots
+          text: Perhaps you can learn there who is better off, the man with pockets full of money or the man every woman loves.
+        - id: ch06-b03
+          speaker: narrator
+          text: And to tell you the truth, I do not think it would help those brothers very much to wander all over the Beggars' Isle pulling one piece of money after another from their pockets.
+        - id: ch06-b04
+          speaker: narrator
+          text: If Boots has not chosen to bring them away, they are still walking about that island today, eating cheese parings and the scrapings left in the porridge pots.

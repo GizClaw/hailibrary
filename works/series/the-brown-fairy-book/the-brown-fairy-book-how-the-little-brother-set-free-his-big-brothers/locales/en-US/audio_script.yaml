@@ -1,0 +1,257 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, grave, and attentive to wonder
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    elder_brother:
+      display_name: Elder Brother
+      tts:
+        delivery: capable, watchful, and protective
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium
+    second_brother:
+      display_name: Second Brother
+      tts:
+        delivery: eager, direct, and earnest
+        timbre: warm and youthful
+        pace: brisk
+        pitch: medium
+    little_brother:
+      display_name: Little Brother
+      tts:
+        delivery: young, brave, and determined
+        timbre: light and clear
+        pace: lively
+        pitch: medium-high
+    father:
+      display_name: Father
+      tts:
+        delivery: stern, proud, and blunt
+        timbre: deep and weathered
+        pace: deliberate
+        pitch: low
+    bear_chief:
+      display_name: Bear Chief
+      tts:
+        delivery: commanding, vengeful, and cold
+        timbre: dark and powerful
+        pace: heavy
+        pitch: low
+    bear_chiefs_sister:
+      display_name: Bear Chief's Sister
+      tts:
+        delivery: gentle, compassionate, and quietly wise
+        timbre: soft and mature
+        pace: unhurried
+        pitch: medium-low
+    snowshoes:
+      display_name: Snowshoes
+      tts:
+        delivery: magical, willing, and bright
+        timbre: airy and ringing
+        pace: quick
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The Brothers Go Hunting
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: In a small hut deep in the forest lived a man and his wife, their three sons, and a daughter. For some reason, the animals had all left that part of the country, and food was growing scarce. Then snow fell overnight. The tracks of any passing beast would be easy to see, so the three boys went hunting in the morning.
+        - id: ch01-b02
+          speaker: narrator
+          text: They stayed together until their path divided. The youngest brother called his dog and took the trail to the left. The other two went right. Before long, their dogs caught the scent of a bear and drove it from a thicket. It crossed a clearing, and the eldest brother managed to send an arrow straight into its head.
+        - id: ch01-b03
+          speaker: narrator
+          text: The two boys lifted the bear and carried it homeward. At the fork, they met their youngest brother. Back at the hut, they dropped their catch on the floor.
+        - id: ch01-b04
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: Father, we killed this bear. Now we have something for dinner.
+        - id: ch01-b05
+          speaker: narrator
+          text: Their father was in a bad temper. He gave them only a sharp reply.
+        - id: ch01-b06
+          speaker: father
+          text: When I was young, we brought home two bears in a day.
+        - id: ch01-b07
+          speaker: narrator
+          text: The boys were disappointed by their father's answer. There was enough meat to feed the family for two or three days, but they still set out early the next morning and followed the same trail. Near the fork, a bear darted from behind a tree and raced down the right-hand path. The elder boys and their dogs chased it. The second brother was a fine shot too, and one arrow killed the bear at once.
+        - id: ch01-b08
+          speaker: narrator
+          text: On the way home, the two met their youngest brother at the fork. He had gone left and shot a bear by himself. This time they proudly threw two bears onto the hut floor. Their father scarcely looked at them.
+        - id: ch01-b09
+          speaker: father
+          text: In my younger days, I could get three bears in one day.
+        - id: ch01-b10
+          speaker: narrator
+          text: The following day, the brothers had better luck and returned with three bears. Their father told them he had always killed four. Still, he skinned their bears and cooked the meat in his own favorite way. That night, the whole family ate an excellent supper.
+    - id: ch02
+      title: The Bear Chief's Trap
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Those bears had served a great bear chief who lived in a high mountain far away. Each time one was killed, its shadow returned to the chief's house. The other bears could plainly see the wound that had killed it.
+        - id: ch02-b02
+          speaker: narrator
+          text: The bear chief was furious over the loss of so many servants. He meant to destroy the hunters, and he summoned another bear.
+        - id: ch02-b03
+          speaker: bear_chief
+          text: Go hide in the thicket by the fork where your brothers died. As soon as the boys or their dogs spot you, run straight back here. The mountain will open for you, and the hunters will follow. Once they're inside, they'll be in my power, and I can take my revenge.
+          emotion: angry
+        - id: ch02-b04
+          speaker: narrator
+          text: The servant bowed low. He went at once to the fork and concealed himself among the bushes.
+        - id: ch02-b05
+          speaker: narrator
+          text: After a while, the boys appeared. Only the two elder brothers had come. The youngest had stayed home. The air was warm and damp, and the snow had turned soft and slushy. The eldest brother's bowstring hung loose. Then the second brother's bow caught on a tree and snapped in two.
+        - id: ch02-b06
+          speaker: narrator
+          text: Just then, the dogs began barking wildly. The bear burst from the thicket and ran toward the mountain. Though the boys had no way to defend themselves if it turned on them, they chased without stopping to think. The bear knew they could not shoot it. Now and then it slowed down and let the dogs come close.
+        - id: ch02-b07
+          speaker: narrator
+          text: In this way, the eldest son reached the mountain without even noticing it. His brother had hurt his foot and lagged far behind. The mountain opened as the bear approached. The bear rushed in, and the elder boy followed close at its heels.
+        - id: ch02-b08
+          speaker: narrator
+          text: Only then did the boy understand where he was. Bears sat on every side of him, gathered in council inside the mountain. The servant he had chased sank down among them, panting from the run. The sight terrified the boy. He stood perfectly still and let his useless bow fall to the ground.
+        - id: ch02-b09
+          speaker: bear_chief
+          text: Why are you trying to kill every one of my servants? Look around. Their shadows are here, with your arrows still in them. I taught today's bear how to draw you into my power. You will never harm my people again, because now you will become a bear yourself.
+          emotion: angry
+        - id: ch02-b10
+          speaker: narrator
+          text: The mountain had been left open to tempt the second brother too. He came running in, out of breath.
+        - id: ch02-b11
+          speaker: second_brother
+          text: The bear is right beside you! Why aren't you shooting it?
+        - id: ch02-b12
+          speaker: narrator
+          text: Without waiting for an answer, he pushed forward to drive an arrow into the bear's heart. His elder brother caught his raised arm.
+        - id: ch02-b13
+          speaker: elder_brother
+          text: Quiet! Look around. Don't you understand where we are?
+          emotion: fearful
+        - id: ch02-b14
+          speaker: narrator
+          text: The second boy looked up and saw angry bears surrounding them. The chief's servants stood on one side. On the other were the servants of the chief's sister. She felt sorry for the young men and begged her brother to spare their lives.
+        - id: ch02-b15
+          speaker: bear_chief
+          text: I won't kill them. I'll put a spell on them instead. Their heads and bodies can stay human, but their arms and legs will become a bear's. They will walk on all fours for the rest of their lives.
+        - id: ch02-b16
+          speaker: narrator
+          text: He bent over a spring, dipped a handful of moss into the water, and rubbed it across the boys' arms and legs. At once, their limbs changed. Two creatures stood before the chief, neither wholly beast nor wholly human.
+    - id: ch03
+      title: The Family Vanishes
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The bear chief knew the boys' father would search for them when they failed to come home. He sent another servant to the hiding place beside the fork to watch what happened.
+        - id: ch03-b02
+          speaker: narrator
+          text: The bear had not waited long when the father appeared. He bent low as he walked, searching the snow for his sons' tracks. Along the right-hand path he saw fresh snowshoe marks. The servant had made them to lead him astray, but the father knew nothing of that. Glad to find a trail, he hurried after it.
+        - id: ch03-b03
+          speaker: narrator
+          text: He went so quickly that he tumbled headfirst into a pit where the bear sat waiting. Before the man could rise, the bear quietly broke his neck. Then it covered his body with snow and settled down to wait for anyone else who might come.
+        - id: ch03-b04
+          speaker: narrator
+          text: Back at the hut, the mother wondered what had become of her two sons. The hours passed, and their father did not return either. At last she decided to search for them herself. Her youngest son begged her to let him make the search, but she would not hear of it. He must stay behind and care for his sister.
+        - id: ch03-b05
+          speaker: narrator
+          text: The mother put on her snowshoes and set out. No new snow had fallen, so the trail was easy to follow. It brought her straight to the pit. The bear seized her as she fell and broke her neck. It laid her beneath the snow beside her husband, then returned to tell the bear chief.
+        - id: ch03-b06
+          speaker: narrator
+          text: The hours dragged by in the forest hut. At last the little brother and sister felt certain that the rest of their family had somehow died. Day after day, the boy climbed a tall tree near the house. He sat there until he was almost frozen, peering through every opening in the forest and hoping to see someone coming home.
+        - id: ch03-b07
+          speaker: narrator
+          text: Soon there was no food left in the house. The boy knew he would have to go out and hunt for more. Besides, he still wanted to look for his parents. His little sister did not want to be left alone and wept bitterly. He told her they could not sit quietly in the hut and starve. Whether he found game or not, he promised he would certainly return before the next night.
+        - id: ch03-b08
+          speaker: narrator
+          text: He cut arrows from several different trees and fitted them with feathers from four kinds of birds. Then he made a bow that was light but strong and brought down his snowshoes. The work took the whole day. Early the next morning, he called Redmouth, his little dog who slept in a box, and the two set off.
+    - id: ch04
+      title: Redmouth Leads the Way
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The little brother followed the trail a long way before weariness overcame him. He climbed onto a tree branch to rest. Redmouth began barking with such fury that the boy wondered if his parents had died beneath that very tree. He stepped back and fired an arrow into its roots.
+        - id: ch04-b02
+          speaker: narrator
+          text: A thunderous noise shook the tree from its roots to its crown. Flames sprang out, and within minutes nothing remained but a small heap of ashes. The boy did not know what to think. He went on along the trail and took the right-hand fork until he reached the bushes where the bears hid.
+        - id: ch04-b03
+          speaker: narrator
+          text: The bear chief knew plenty of magic. He knew the little boy was coming, so he sent a tiny but clever servant to wait in the bushes and lure him into the mountain. Yet the chief's spell did not work as it should that day. He had not known that Redmouth was with the boy, or he would have taken greater care.
+        - id: ch04-b04
+          speaker: narrator
+          text: Redmouth circled the bushes, barking loudly. The little bear fled in fright and raced toward the mountain. The dog chased the bear, and the boy chased his dog. At last, the high mountain where the bear chief lived came into sight.
+        - id: ch04-b05
+          speaker: narrator
+          text: The snow along the road was so wet and heavy that the boy could barely move through it. Then a thong on one snowshoe broke. He had no choice but to stop and mend it while the chase went on ahead. By the time the strap was firm again, the bear and Redmouth were so far away that he could scarcely hear the dog's barking. The boy spoke to his snowshoes.
+        - id: ch04-b06
+          speaker: little_brother
+          text: You must carry me as fast as you can. If you don't, I'll lose my dog as well as the bear.
+        - id: ch04-b07
+          speaker: snowshoes
+          text: We'll race like the wind!
+        - id: ch04-b08
+          speaker: narrator
+          text: As the boy sped onward, the bear chief's sister watched from a window. She had pitied the two elder brothers when the chief punished them, and now she felt sorry for the youngest too. She waited to see what he would do when he discovered that the bear servant and Redmouth had already passed inside the mountain.
+        - id: ch04-b09
+          speaker: narrator
+          text: The little brother was puzzled. Both animals had suddenly vanished. He stopped to think, and then he seemed to hear Redmouth on the far side of the mountain. With great trouble, he climbed over steep rocks and pushed through tangled thickets. But when he reached the other side, the barking seemed to come from the place he had just left.
+        - id: ch04-b10
+          speaker: narrator
+          text: He made the hard journey back. At the very top he paused to rest. Now the barking came from directly beneath his feet. In that instant, he understood where he stood and what had happened.
+    - id: ch05
+      title: The Brothers Set Free
+      blocks:
+        - id: ch05-b01
+          speaker: little_brother
+          text: Bear chief, let my dog out now! If you refuse, I'll destroy your palace.
+          emotion: angry
+        - id: ch05-b02
+          speaker: narrator
+          text: The bear chief only laughed and gave no answer. His silence made the boy very angry. The little hunter aimed at the foot of the mountain and sent an arrow straight through it.
+        - id: ch05-b03
+          speaker: narrator
+          text: The moment the arrow struck the ground, the mountain began to rumble. Fire burst out with a roar, as though the whole mountain were splitting into pieces. The bear chief and all his servants burned in the flames. Yet the fire passed over his sister and everyone who belonged to her. They were spared because she had tried to save the elder boys from punishment.
+        - id: ch05-b04
+          speaker: narrator
+          text: When the fire had burned itself out, the little hunter entered the ruins of the mountain. The first people he saw were his two brothers, half boy and half bear.
+        - id: ch05-b05
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: Oh, please help us! Please help us!
+        - id: ch05-b06
+          speaker: narrator
+          text: They stood on their hind legs and reached toward him with their front paws.
+        - id: ch05-b07
+          speaker: little_brother
+          text: But how can I help you? I can kill people and destroy trees and mountains, but I have no power to change men.
+          emotion: sad
+        - id: ch05-b08
+          speaker: narrator
+          text: He was close to tears. His brothers came near and laid their paws on his shoulders. Then all three wept together.
+        - id: ch05-b09
+          speaker: narrator
+          text: The bear chief's sister saw their sorrow, and her heart was moved. She came softly up behind the little brother and whispered to him.
+        - id: ch05-b10
+          speaker: bear_chiefs_sister
+          text: Little boy, take some moss from that spring and let your brothers smell it.
+        - id: ch05-b11
+          speaker: narrator
+          text: All three bounded to the spring. The youngest plucked up a handful of wet moss, and his brothers breathed in its scent with all their strength. The bearskin fell away from them. Once more, they stood upright as boys.
+        - id: ch05-b12
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: How can we ever thank you? How can we thank you?
+        - id: ch05-b13
+          speaker: narrator
+          text: They could hardly speak, and they fell at her feet in gratitude. The bear chief's sister only smiled. She told them to return home and care for their little sister, who had no one else to protect her.
+        - id: ch05-b14
+          speaker: narrator
+          text: The boys did as she said. They took such good care of their sister that, because she was still very small, she soon forgot she had ever had a father and mother.

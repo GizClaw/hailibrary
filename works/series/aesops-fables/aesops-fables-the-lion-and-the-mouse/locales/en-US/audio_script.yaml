@@ -1,0 +1,62 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and gently dramatic
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    lion:
+      display_name: Lion
+      tts:
+        delivery: powerful and commanding
+        timbre: deep and resonant
+        pace: measured
+        pitch: low
+    mouse:
+      display_name: Mouse
+      tts:
+        delivery: timid at first, then bright and confident
+        timbre: light and clear
+        pace: quick
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The Lion Wakes
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: A Lion was sleeping in the forest with his great head on his paws. A timid little Mouse suddenly came upon him. Frightened and hurrying away, she ran right across his nose.
+        - id: ch01-b02
+          speaker: narrator
+          text: The Lion woke from his nap. Angry at the Mouse, he pinned the tiny creature beneath one huge paw and was about to kill her.
+    - id: ch02
+      title: The Mouse's Promise
+      blocks:
+        - id: ch02-b01
+          speaker: mouse
+          text: Please spare me! Let me go, and one day I'll repay you.
+          emotion: fearful
+        - id: ch02-b02
+          speaker: narrator
+          text: The Lion found it very funny that a Mouse might ever help him. Still, he was generous. At last, he lifted his paw and let her go.
+    - id: ch03
+      title: Caught in the Net
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Several days later, the Lion was stalking prey through the forest when a hunter's net caught him. He could not break free, and his angry roars filled the forest.
+        - id: ch03-b02
+          speaker: narrator
+          text: The Mouse knew that voice. She hurried to the Lion and found him struggling against the net. She ran to one of the thick ropes around him and gnawed until it snapped. Before long, the Lion was free.
+    - id: ch04
+      title: A Kindness Repaid
+      blocks:
+        - id: ch04-b01
+          speaker: mouse
+          text: You laughed when I promised to repay you. Now you know that even a Mouse can help a Lion.
+        - id: ch04-b02
+          speaker: narrator
+          text: No kindness is ever wasted.

@@ -1,0 +1,209 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    johnny_cake:
+      display_name: Johnny-cake
+      tts:
+        delivery: quick and boastful, with a bright, teasing confidence
+        timbre: crisp and lively
+        pace: brisk
+        pitch: medium-high
+    old_woman:
+      display_name: Old Woman
+      tts:
+        delivery: practical and direct, with a homely warmth
+        timbre: mature and sturdy
+        pace: measured
+        pitch: medium
+    well_digger_1:
+      display_name: First Well-digger
+      tts:
+        delivery: hearty and challenging, like a worker calling across a field
+        timbre: rough and strong
+        pace: measured
+        pitch: medium-low
+    well_digger_2:
+      display_name: Second Well-digger
+      tts:
+        delivery: hearty and challenging, like a worker calling across a field
+        timbre: rough and strong
+        pace: measured
+        pitch: low
+    ditch_digger_1:
+      display_name: First Ditch-digger
+      tts:
+        delivery: bold and competitive, with an outdoorsman's plain speech
+        timbre: earthy and firm
+        pace: measured
+        pitch: medium-low
+    ditch_digger_2:
+      display_name: Second Ditch-digger
+      tts:
+        delivery: bold and competitive, with an outdoorsman's plain speech
+        timbre: earthy and firm
+        pace: measured
+        pitch: low
+    bear:
+      display_name: Bear
+      tts:
+        delivery: gruff and confident, with a low growling edge
+        timbre: deep and heavy
+        pace: deliberate
+        pitch: low
+    wolf:
+      display_name: Wolf
+      tts:
+        delivery: sharp and threatening, with impatient confidence
+        timbre: lean and rasping
+        pace: brisk
+        pitch: medium-low
+    fox:
+      display_name: Fox
+      tts:
+        delivery: sly and controlled, shifting from sharp clarity to feigned weakness
+        timbre: smooth and narrow
+        pace: unhurried
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: Out of the Oven
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, an old man and an old woman lived with a little boy. One morning, the old woman made a Johnny-cake and put it into the oven to bake.
+        - id: ch01-b02
+          speaker: old_woman
+          text: Keep an eye on the Johnny-cake while your father and I work in the garden.
+        - id: ch01-b03
+          speaker: narrator
+          text: The old man and woman went out to hoe potatoes, leaving the boy beside the oven. But the boy did not watch it every moment. Suddenly, he heard a noise. The oven door flew open, and Johnny-cake jumped out. He rolled end over end toward the open front door.
+        - id: ch01-b04
+          speaker: narrator
+          text: The boy rushed to close it, but Johnny-cake was too quick. He rolled through the doorway, down the steps, and into the road long before the boy could reach him. The boy ran after him as fast as he could and called to his father and mother. They heard the uproar, dropped their hoes, and joined the chase.
+        - id: ch01-b05
+          speaker: narrator
+          text: Johnny-cake left all three a long way behind. Soon he vanished from sight, while the old man, the old woman, and the little boy sat on a bank, too breathless to go on. They had to rest there together.
+
+    - id: ch02
+      title: The Well-diggers
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Johnny-cake kept rolling until he came upon two men digging a well. They looked up from their work and called to him.
+        - id: ch02-b02
+          speakers: [well_digger_1, well_digger_2]
+          ensemble: duo
+          text: Where are you going, Johnny-cake?
+        - id: ch02-b03
+          speaker: johnny_cake
+          text: I outran an old man, an old woman, and a little boy. I can outrun you too-o-o!
+        - id: ch02-b04
+          speakers: [well_digger_1, well_digger_2]
+          ensemble: duo
+          text: Oh, can you? We'll soon see about that!
+        - id: ch02-b05
+          speaker: narrator
+          text: They dropped their picks and ran after him. But Johnny-cake kept pulling farther ahead. They could not catch him, and before long they had to sit beside the road and rest.
+
+    - id: ch03
+      title: The Ditch-diggers
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: On rolled Johnny-cake. After a while, he came to two men digging a ditch.
+        - id: ch03-b02
+          speakers: [ditch_digger_1, ditch_digger_2]
+          ensemble: duo
+          text: Where are you headed, Johnny-cake?
+        - id: ch03-b03
+          speaker: johnny_cake
+          text: I outran an old man, an old woman, a little boy, and two well-diggers. I can outrun you too-o-o!
+        - id: ch03-b04
+          speakers: [ditch_digger_1, ditch_digger_2]
+          ensemble: duo
+          text: You think so? We'll find out!
+        - id: ch03-b05
+          speaker: narrator
+          text: They threw down their spades and took off after him. Johnny-cake quickly left them behind. When they saw they would never catch him, they gave up and sat down to rest.
+
+    - id: ch04
+      title: The Bear and the Wolf
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Johnny-cake rolled on until he met a bear.
+        - id: ch04-b02
+          speaker: bear
+          text: Where are you going, Johnny-cake?
+        - id: ch04-b03
+          speaker: johnny_cake
+          text: I outran an old man, an old woman, a little boy, two well-diggers, and two ditch-diggers. I can outrun you too-o-o!
+        - id: ch04-b04
+          speaker: bear
+          text: Can you now? We'll see about that!
+        - id: ch04-b05
+          speaker: narrator
+          text: The bear growled and trotted after Johnny-cake as fast as his legs could carry him. Johnny-cake never once looked back. Soon the bear fell so far behind that he knew he might as well stop. He stretched out beside the road to rest.
+        - id: ch04-b06
+          speaker: narrator
+          text: Still Johnny-cake rolled on. Before long, he met a wolf.
+        - id: ch04-b07
+          speaker: wolf
+          text: Where are you off to, Johnny-cake?
+        - id: ch04-b08
+          speaker: johnny_cake
+          text: I outran an old man, an old woman, a little boy, two well-diggers, two ditch-diggers, and a bear. I can outrun you too-o-o!
+        - id: ch04-b09
+          speaker: wolf
+          text: Is that so? We'll see!
+        - id: ch04-b10
+          speaker: narrator
+          text: The wolf snarled and broke into a gallop. But Johnny-cake rolled on and on so fast that the wolf saw he had no hope of catching him. The wolf lay down to rest as well.
+
+    - id: ch05
+      title: The Fox by the Fence
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: On went Johnny-cake. At last, he came to a fox lying quietly in a corner of the fence. Without getting up, the fox called to him in a sharp voice.
+        - id: ch05-b02
+          speaker: fox
+          text: Where are you going, Johnny-cake?
+        - id: ch05-b03
+          speaker: johnny_cake
+          text: I outran an old man, an old woman, a little boy, two well-diggers, two ditch-diggers, a bear, and a wolf. I can outrun you too-o-o!
+        - id: ch05-b04
+          speaker: fox
+          text: I can't quite hear you, Johnny-cake. Won't you come a little closer?
+        - id: ch05-b05
+          speaker: narrator
+          text: The fox turned his head slightly to one side. For the first time, Johnny-cake stopped racing. He moved a little nearer and called again in a very loud voice.
+        - id: ch05-b06
+          speaker: johnny_cake
+          text: I outran an old man, an old woman, a little boy, two well-diggers, two ditch-diggers, a bear, and a wolf. I can outrun you too-o-o!
+
+    - id: ch06
+      title: A Little Closer
+      blocks:
+        - id: ch06-b01
+          speaker: fox
+          text: I still can't quite hear you. Won't you come just a little closer?
+        - id: ch06-b02
+          speaker: narrator
+          text: The fox spoke in a feeble voice. He stretched his neck toward Johnny-cake and held one paw behind his ear. Johnny-cake came right up close. He leaned toward the fox and screamed his boast once more.
+        - id: ch06-b03
+          speaker: johnny_cake
+          text: I OUTRAN AN OLD MAN, AN OLD WOMAN, A LITTLE BOY, TWO WELL-DIGGERS, TWO DITCH-DIGGERS, A BEAR, AND A WOLF, AND I CAN OUTRUN YOU TOO-O-O!
+        - id: ch06-b04
+          speaker: fox
+          text: You can, can you?
+        - id: ch06-b05
+          speaker: narrator
+          text: The fox yelped and snapped up Johnny-cake in his sharp teeth, all in the twinkling of an eye.

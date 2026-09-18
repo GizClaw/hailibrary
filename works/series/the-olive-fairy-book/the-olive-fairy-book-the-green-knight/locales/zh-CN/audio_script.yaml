@@ -1,0 +1,485 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容机敏，带着温和而克制的诙谐
+        timbre: 温暖清晰的成熟男声
+        pace: 舒缓而富有变化
+        pitch: 中低
+    king:
+      display_name: 国王
+      tts:
+        delivery: 慈爱厚道，忧虑时沉重而克制
+        timbre: 温厚略显疲惫的成年男声
+        pace: 从容
+        pitch: 中低
+    first_queen:
+      display_name: 先王后
+      tts:
+        delivery: 虚弱却坚决，临终时温柔而郑重
+        timbre: 柔和清澈的成年女声
+        pace: 缓慢
+        pitch: 中
+    princess:
+      display_name: 公主
+      tts:
+        delivery: 真挚直率，从少女的天真渐显勇敢坚定
+        timbre: 清亮柔美的年轻女声
+        pace: 适中，焦急时稍快
+        pitch: 中高
+    countess:
+      display_name: 伯爵夫人
+      tts:
+        delivery: 表面温柔体贴，心底精于算计
+        timbre: 圆润端雅的成年女声
+        pace: 从容
+        pitch: 中
+    step_queen:
+      display_name: 继王后
+      tts:
+        delivery: 嫉妒刻薄，发怒时冷硬急躁
+        timbre: 华贵而尖利的成年女声
+        pace: 适中
+        pitch: 中高
+    courtier_1:
+      display_name: 宫廷宾客甲
+      tts:
+        delivery: 恭敬坦率，回答简短
+        timbre: 清楚的成年男声
+        pace: 适中
+        pitch: 中
+    swineherd_1:
+      display_name: 第一个猪倌
+      tts:
+        delivery: 朴实随和，说话直截了当
+        timbre: 粗朴的成年男声
+        pace: 适中
+        pitch: 中低
+    swineherd_2:
+      display_name: 第二个猪倌
+      tts:
+        delivery: 朴实爽快，回答简洁
+        timbre: 明朗的年轻男声
+        pace: 适中
+        pitch: 中
+    green_knight:
+      display_name: 绿骑士
+      tts:
+        delivery: 坦荡有礼，面对爱情热烈而忠诚
+        timbre: 明亮沉稳的年轻男声
+        pace: 从容
+        pitch: 中
+    maid:
+      display_name: 宫中侍女
+      tts:
+        delivery: 好奇多话，禀报时笃定
+        timbre: 清脆的年轻女声
+        pace: 稍快
+        pitch: 中高
+    bird:
+      display_name: 小鸟
+      tts:
+        delivery: 轻灵神秘，句尾带歌唱般的节奏
+        timbre: 清脆灵巧的童声
+        pace: 轻快
+        pitch: 高
+    goose_girl:
+      display_name: 鹅姑娘
+      tts:
+        delivery: 朴素爽朗，见到漂亮衣裳时惊喜
+        timbre: 明快的少女声
+        pace: 适中
+        pitch: 中高
+    cook:
+      display_name: 厨娘
+      tts:
+        delivery: 忙碌利落，说话干脆爽直
+        timbre: 洪亮结实的成年女声
+        pace: 稍快
+        pitch: 中
+    servant_1:
+      display_name: 仆人甲
+      tts:
+        delivery: 怀疑直率，嘲笑时毫不客气
+        timbre: 清楚的成年男声
+        pace: 适中
+        pitch: 中
+  chapters:
+    - id: ch01
+      title: 王后的遗愿
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有位国王和王后，他们只有一个女儿。公主美丽又可爱，是父母最珍爱的孩子。她十二岁那年，王后病倒了。全国的医生想尽办法，病情还是一天天加重。临终前，王后把国王叫到床边。
+        - id: ch01-b02
+          speaker: first_queen
+          text: 请你答应我。今后女儿求你做任何事，不管你愿不愿意，都要依她。
+        - id: ch01-b03
+          speaker: narrator
+          text: 国王迟疑了。王后只好再开口。
+        - id: ch01-b04
+          speaker: first_queen
+          text: 你不答应，我到死也不能安心。
+          emotion: sad
+        - id: ch01-b05
+          speaker: narrator
+          text: 国王终于许下诺言。王后放下心来，带着微笑离开了人世。
+        - id: ch01-b06
+          speaker: narrator
+          text: 王宫附近住着一位贵族夫人。她的女儿和公主年纪相仿，两个孩子常在一起玩。母亲去世后，公主求父亲接这对母女进宫陪她。国王不信任那位夫人，本不愿答应。可公主一心盼望她来，他看女儿刚刚失去母亲，实在不忍心拒绝。
+        - id: ch01-b07
+          speaker: princess
+          text: 父王，我太孤单了。您给我多少漂亮礼物，也代替不了母后。要是这位夫人能住进宫里，我就会觉得母后仿佛又回来了。
+          emotion: sad
+        - id: ch01-b08
+          speaker: narrator
+          text: 宫里收拾出一套富丽堂皇的房间，专门让那位夫人和女儿居住。想到最好的朋友就住在身边，公主高兴得不得了。很长一段时间，一切都很顺遂。母女俩对失去母亲的公主十分亲切，她几乎忘记自己从前有多么寂寞。可有一天，公主和朋友正在御花园里玩，夫人却穿着出门远行的衣服走来。她先温柔地吻了吻公主，这才向她告别。
+        - id: ch01-b09
+          speaker: countess
+          text: 再见了，我的孩子。我和女儿必须走了，要去很远的地方。
+        - id: ch01-b10
+          speaker: narrator
+          text: 公主伤心得大哭起来。
+        - id: ch01-b11
+          speaker: princess
+          text: 不，你们不能走！你们走了，我怎么办？求你们留下吧！
+          emotion: sad
+        - id: ch01-b12
+          speaker: countess
+          text: 离开你，我也心疼极了。可我们非走不可。
+        - id: ch01-b13
+          speaker: princess
+          text: 难道一点办法都没有吗？
+        - id: ch01-b14
+          speaker: countess
+          text: 倒是有一个办法，可那绝不可能，还是别说了。
+        - id: ch01-b15
+          speaker: princess
+          text: 没有什么办不到的。你快告诉我，我一定能让它成真。
+        - id: ch01-b16
+          speaker: countess
+          text: 除非你父王立我为王后，我才会留下。可他绝不会答应。
+        - id: ch01-b17
+          speaker: princess
+          text: 他会答应的！这太容易了！
+          emotion: happy
+        - id: ch01-b18
+          speaker: narrator
+          text: 公主想到不用和她们分开，立刻高高兴兴地跑去找父亲。她相信父王从不拒绝自己的请求，这回也一定一样。
+        - id: ch01-b19
+          speaker: king
+          text: 女儿，出什么事了？你哭过，是不是不开心？
+        - id: ch01-b20
+          speaker: princess
+          text: 父王，请您娶伯爵夫人吧。她说，您不娶她，她就会离开，我又要像以前那样孤单了。过去我求您的事，您都答应了，这一次也别拒绝我。
+        - id: ch01-b21
+          speaker: narrator
+          text: 国王的脸一下变得惨白。他不喜欢伯爵夫人，也仍旧深爱着去世的妻子。
+        - id: ch01-b22
+          speaker: king
+          text: 不行，我的孩子。这件事我不能答应。
+        - id: ch01-b23
+          speaker: narrator
+          text: 公主又哭了，眼泪一串串滚下来。国王看她这样伤心，自己也痛苦极了。他想起对王后的承诺，只得让步。公主一听父亲答应，马上破涕为笑，跑去报喜。
+        - id: ch01-b24
+          speaker: narrator
+          text: 不久，盛大的婚礼举行了，伯爵夫人成了新王后。宫里到处喜气洋洋，国王却一直脸色苍白，闷闷不乐。他确信这桩婚姻会带来祸事。果然，没过多少日子，王后对公主的态度就变了。继承王位的是公主，不是她自己的女儿，这让她嫉妒得厉害。她再也不肯装出从前的温柔，说话越来越粗暴恶毒，有一两次甚至打了公主耳光。
+        - id: ch01-b25
+          speaker: narrator
+          text: 国王看着心爱的女儿受苦，终于再也忍不下去。他把公主叫到身边。
+        - id: ch01-b26
+          speaker: king
+          text: 女儿，你不像从前那么快乐了，都是你继母害的。别再跟她住在一起吧。我在湖心岛上给你修了一座城堡，以后那就是你的家。你可以按自己的心意生活，她永远进不去。
+        - id: ch01-b27
+          speaker: narrator
+          text: 公主听了很高兴，见到城堡后更喜欢了。堡里摆满各种美丽的东西，无数扇窗子都朝着迷人的碧蓝湖水。她想出去时，可以划着小船四处游荡，也可以随时到花园散步，再不用提心吊胆，害怕撞见狠心的王后。国王还答应每天都会来看她。
+        - id: ch01-b28
+          speaker: narrator
+          text: 此后很长一段时间，公主都在湖心城堡里过着安宁的日子。她一天比一天美丽，凡是见过她的人，都会告诉身边的人，公主是全国最美丽的姑娘。这句话越传越远，最后也传进王后耳中。王后听了，越发痛恨自己的继女，因为她自己的女儿既丑陋又愚笨，根本不能和公主相比。
+    - id: ch02
+      title: 梦中的绿骑士
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 一天，邻国传来消息。两天路程外将举行骑士和贵族的盛大集会，为那里的王子庆祝成年。庆典上会有各种热闹的活动，还要举办比武和宴会。国王也收到了邀请。临行前，他先去和女儿告别。公主虽然住在这样美丽的地方，也再不用挨王后的责骂，却孤单得难以忍受，甚至说自己还不如死去。国王极力安慰她，答应很快回来，又问有没有什么事能替她去做。
+        - id: ch02-b02
+          speaker: princess
+          text: 有一件事。请您替我向绿骑士问好。
+        - id: ch02-b03
+          speaker: narrator
+          text: 国王从没听说过绿骑士，觉得十分奇怪。可他赶着动身，来不及细问，只好答应。到了庆典所在的宫殿，他做的第一件事就是四处询问。
+        - id: ch02-b04
+          speaker: king
+          text: 谁能告诉我，绿骑士住在哪里？
+        - id: ch02-b05
+          speaker: narrator
+          text: 众人纷纷道歉，说谁也没听过这样一个人，这里自然也找不到他。国王忧心忡忡，宴会和比武都不能让他开心。他见到人就问起绿骑士，得到的总是同一个回答。
+        - id: ch02-b06
+          speaker: courtier_1
+          text: 不知道，陛下。我们从来没有听说过他。
+        - id: ch02-b07
+          speaker: narrator
+          text: 国王渐渐相信，也许公主弄错了，世上根本没有绿骑士。他满怀愁苦地踏上归途。这是几个月来女儿第一次托他办事，他却偏偏没能办成。他一路只想着这件事，根本没留意马往哪里走。不久，他抬头一看，才发现自己已经闯进一片从未见过的密林。国王骑着马寻找出路，走了一程又一程。直到太阳开始西沉，他才明白自己迷路了。最后，他终于看见一个赶猪人，心里十分欣喜，连忙策马过去。
+        - id: ch02-b08
+          speaker: king
+          text: 我迷路了。你能告诉我，这是什么地方吗？
+        - id: ch02-b09
+          speaker: swineherd_1
+          text: 这里是绿骑士的森林，这群猪也是他的。
+        - id: ch02-b10
+          speaker: narrator
+          text: 国王心里顿时亮了起来。
+        - id: ch02-b11
+          speaker: king
+          text: 那绿骑士住在哪儿？
+        - id: ch02-b12
+          speaker: swineherd_1
+          text: 离这儿还远。不过我可以给您指路。
+        - id: ch02-b13
+          speaker: narrator
+          text: 猪倌陪他走了一小段，把他带上正确的路。国王向他告别，继续前行。不久，他到了第二片森林，又遇见一个赶猪人。
+        - id: ch02-b14
+          speaker: king
+          text: 伙计，这些牲口是谁的？
+        - id: ch02-b15
+          speaker: swineherd_2
+          text: 是绿骑士的。
+        - id: ch02-b16
+          speaker: king
+          text: 那他住在哪里？
+        - id: ch02-b17
+          speaker: swineherd_2
+          text: 已经不远了。
+        - id: ch02-b18
+          speaker: narrator
+          text: 国王接着赶路，正午前后，来到一座美丽的城堡。城堡立在一座你所能想象的、最可爱的花园中央。喷泉的水花落进大理石水池，孔雀悠闲地走过平整的草地。池边坐着一个英俊的年轻人，从头到脚穿着一身绿色铠甲，正在喂清水里游动的金鱼。国王心想，这一定就是绿骑士。他走到年轻人面前，很有礼貌地说明来意。
+        - id: ch02-b19
+          speaker: king
+          text: 先生，我女儿托我向您问好。我走了很远，还在您的森林里迷了路。
+        - id: ch02-b20
+          speaker: narrator
+          text: 骑士看了他一会儿，像是有些不明白。
+        - id: ch02-b21
+          speaker: green_knight
+          text: 我从没见过您，也没见过您的女儿。不过，您来到这里，就是我的贵客。请进城堡吧。
+        - id: ch02-b22
+          speaker: narrator
+          text: 国王没有马上进去。他说明女儿确实请他问候绿骑士，而眼前的年轻人是这个王国唯一的绿骑士，所以问候必定属于他。
+        - id: ch02-b23
+          speaker: green_knight
+          text: 今晚请您一定留下过夜。
+        - id: ch02-b24
+          speaker: narrator
+          text: 太阳已经下山，国王正庆幸能接受邀请。两人在城堡大厅里坐下，享用了一顿丰盛的宴席。国王去过许多地方，也拜访过许多君王的宫殿，可无论在哪张餐桌上，他都没受过比这更好的款待。绿骑士本人聪明又讨人喜欢，国王越看越欣赏，心里不禁想，要是这位骑士能做自己的女婿，那该多好啊。
+        - id: ch02-b25
+          speaker: narrator
+          text: 第二天早晨，国王准备回家。绿骑士把一只镶满珠宝的匣子交给他。
+        - id: ch02-b26
+          speaker: green_knight
+          text: 殿下，能请您把这件礼物带给公主吗？匣子里是我的画像。等我去见她，她一看就能认出我。我相信，她就是夜夜出现在我梦里的姑娘。我一定要娶她。
+        - id: ch02-b27
+          speaker: narrator
+          text: 国王祝福了骑士，答应送到礼物，随后启程回国。公主一直焦急地等着。一见父亲平安回来，她便欢喜地扑进父亲怀里。
+        - id: ch02-b28
+          speaker: princess
+          text: 您见到绿骑士了吗？
+        - id: ch02-b29
+          speaker: king
+          text: 见到了。他托我把这个交给你。等他来了，你看过画像，就不会认错人。
+        - id: ch02-b30
+          speaker: narrator
+          text: 公主看见画像，喜不自胜。
+        - id: ch02-b31
+          speaker: princess
+          text: 果然是我梦里见过的人！我终于会幸福了。除了他，我谁也不嫁。
+          emotion: happy
+        - id: ch02-b32
+          speaker: narrator
+          text: 没过多久，绿骑士便来了。他穿着绿色铠甲，头盔上插着长长的绿羽饰，英俊极了。公主见到他，更加爱他。绿骑士也一眼认出，公主就是无数次走进自己梦里的姑娘。他立即请求公主做自己的新娘。公主垂下眼睛，含笑回答。
+        - id: ch02-b33
+          speaker: princess
+          text: 婚礼举行以前，我们得瞒住我的继母。要是她知道，一定会想办法害我们。
+        - id: ch02-b34
+          speaker: green_knight
+          text: 都听你的。可是我每天都要来看你，离开你，我已经活不下去了。我一早就来，天黑才走，王后就看不见我划船过湖。
+        - id: ch02-b35
+          speaker: narrator
+          text: 此后很长一段时间，绿骑士每天都来看望公主。他和公主在美丽的花园里一起散步，常常一走就是许多个钟头，因为他们认定王后看不见那里。可你也知道，秘密总是危险的。一天清早，一名宫中侍女恰好沿着湖边散步。她看见一个俊美非凡的年轻人走到岸边，身上穿着一套漂亮的绿缎衣裳。他不知道有人正在看着自己，登上一只系在岸边的小船，独自划向公主城堡所在的湖心岛。侍女回宫时，一路都在猜这个骑士是谁。替王后梳头时，她终于忍不住开了口。
+        - id: ch02-b36
+          speaker: maid
+          text: 陛下，您知道吗？公主有求婚的人了。
+        - id: ch02-b37
+          speaker: step_queen
+          text: 胡说！
+          emotion: angry
+        - id: ch02-b38
+          speaker: narrator
+          text: 只想到这件事，王后就气恼万分。她自己的女儿还没出嫁，多半也永远嫁不出去。那姑娘脾气坏，又愚笨，根本没有人想娶她。
+        - id: ch02-b39
+          speaker: maid
+          text: 千真万确。他从头到脚都穿着绿色，长得特别英俊。我亲眼看见他上船，划到岛上，公主就在城堡门口等他。他可没发现我。
+        - id: ch02-b40
+          speaker: narrator
+          text: 王后心想，自己非得查清楚这件事不可。嘴上却叫侍女别再多话，只管把头发梳好。第二天一早，王后起床来到湖边，悄悄躲在一棵树后。果然，事情和侍女说的一模一样。一个身穿绿色衣裳的英俊骑士走来，登上小船，划向公主正在等候的湖心岛。王后怒火中烧，却在岸边守了整整一天。直到傍晚，她才看见骑士划船回来。他跳上岸，把船重新系回泊处，随后穿过森林离去了。
+    - id: ch03
+      title: 毒钉与小鸟
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 王后暗自得意。她总算抓到了继女的把柄。不过，在自己的宝贝女儿出嫁以前，她绝不肯让公主结婚。她一定要阻止这件事。
+        - id: ch03-b02
+          speaker: narrator
+          text: 王后拿来一枚淬过毒的钉子，钉进船桨的把手。骑士拿桨时，手正好会被划破。她觉得自己的计策聪明极了，笑着回了宫。
+        - id: ch03-b03
+          speaker: narrator
+          text: 第二天，绿骑士照常去看公主。他刚拿起船桨，正要划向小岛，手上突然一阵剧痛，立刻丢下了桨。
+        - id: ch03-b04
+          speaker: green_knight
+          text: 哎哟！什么东西划伤了我？
+          emotion: surprised
+        - id: ch03-b05
+          speaker: narrator
+          text: 他把手翻来覆去地看，只找到一个很小的伤口。
+        - id: ch03-b06
+          speaker: green_knight
+          text: 真奇怪，昨天还没有，今天怎么多了一枚钉子？算了，伤口这么小，虽然很疼，应该也没什么要紧。
+        - id: ch03-b07
+          speaker: narrator
+          text: 伤口看起来实在太小，绿骑士没有把这件事告诉公主。可他晚上回到家，忽然病得很重，只能躺在床上。身边除了年迈的乳母，再没有别人照料。公主对这一切自然一无所知。她怕骑士遇到了不幸，又怕另一个比自己更美的姑娘夺走他的心，等得几乎也病倒了。她实在孤苦无依。本来父亲可以帮助她，此刻却正在异国旅行，她连怎样打听心上人的消息都不知道。
+        - id: ch03-b08
+          speaker: narrator
+          text: 日子一天天过去。一天，公主坐在敞开的窗前伤心哭泣。一只小鸟飞来，停在窗下的树枝上，唱得十分动听。公主慢慢止住眼泪，侧耳去听。很快，她发现小鸟正想引起她的注意。
+        - id: ch03-b09
+          speaker: bird
+          text: 啾啼，啾啼！你的心上人生病了！
+        - id: ch03-b10
+          speaker: princess
+          text: 唉！那我该怎么办？
+          emotion: fearful
+        - id: ch03-b11
+          speaker: bird
+          text: 啾啼，啾啼！快去你父王的宫殿！
+        - id: ch03-b12
+          speaker: princess
+          text: 我到了那里，又该做什么？
+        - id: ch03-b13
+          speaker: bird
+          text: 啾啼！你会找到一条母蛇，它身边带着九条小蛇。
+        - id: ch03-b14
+          speaker: narrator
+          text: 公主打了个寒战。她一点也不喜欢蛇，小鸟却根本不理会她的害怕。
+        - id: ch03-b15
+          speaker: bird
+          text: 把九条小蛇装进篮子，再到绿骑士的宫殿去。
+        - id: ch03-b16
+          speaker: princess
+          text: 到了那里，我要拿它们做什么？
+        - id: ch03-b17
+          speaker: narrator
+          text: 公主问出这句话时，从头到脚都羞红了，尽管四周除了小鸟，一个人也没有。
+        - id: ch03-b18
+          speaker: bird
+          text: 把自己打扮成厨房女佣，去那里找份差事。啾啼！再把小蛇熬成汤，让骑士喝三次，他就会痊愈。啾啼！
+        - id: ch03-b19
+          speaker: princess
+          text: 可他为什么会生病？
+        - id: ch03-b20
+          speaker: narrator
+          text: 可小鸟已经飞走了，没有回答她。公主只好前往父王的宫殿寻找那些蛇。到了那里，她果然找到一条母蛇和九条小蛇。小蛇们全都紧紧盘成一团，简直分不清哪边是头，哪边是尾。公主很不愿意伸手碰它们，可她一直等着。等那条老蛇终于扭动身体爬出蛇窝，到太阳底下晒暖，她还是照小鸟的吩咐，把九条小蛇一一捡起来，装进篮子。
+        - id: ch03-b21
+          speaker: narrator
+          text: 公主随即动身去找绿骑士的城堡。她整整走了一天，偶尔停下来摘些野浆果，或者采一束花。途中虽然歇过几回，她却始终不肯躺下睡觉，只管坚持往前走，直到抵达城堡。终于，她远远看见了城堡。就在这个时候，一个姑娘赶着一群鹅迎面走来。
+        - id: ch03-b22
+          speaker: princess
+          text: 你好！请问这里就是绿骑士的城堡吗？
+        - id: ch03-b23
+          speaker: goose_girl
+          text: 正是，我赶的也是他的鹅。不过绿骑士病得很重。大家都说，三天内再治不好，他一定会死。
+        - id: ch03-b24
+          speaker: narrator
+          text: 公主一听，脸白得像死人。她只觉得脚下的大地不停旋转，赶紧伸手死死抓住身旁的一丛灌木，才没有倒下去。过了好一会儿，她终于拼尽全身力气，让自己镇定下来，这才向鹅姑娘开口。
+        - id: ch03-b25
+          speaker: princess
+          text: 你想不想穿一件漂亮的绸裙？
+        - id: ch03-b26
+          speaker: narrator
+          text: 鹅姑娘的眼睛一下亮了。
+        - id: ch03-b27
+          speaker: goose_girl
+          text: 当然想！
+          emotion: happy
+        - id: ch03-b28
+          speaker: princess
+          text: 那你把衣服给我，我把身上这一套送给你。
+        - id: ch03-b29
+          speaker: narrator
+          text: 鹅姑娘简直不敢相信。公主已经解开绸裙，脱下丝袜和精致的红鞋。鹅姑娘也赶忙脱下粗布裙和短衫。公主换上破衣服，把头发披散，走进城堡的厨房。
+        - id: ch03-b30
+          speaker: princess
+          text: 这里需要一个厨房女佣吗？
+        - id: ch03-b31
+          speaker: cook
+          text: 正缺一个呢。
+        - id: ch03-b32
+          speaker: narrator
+          text: 厨娘忙得团团转，根本顾不上盘问这个新来的姑娘。
+    - id: ch04
+      title: 三碗神奇的汤
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 公主安稳地睡了一夜，第二天便开始干活。其他仆人都在议论主人，说绿骑士病得厉害，三天内若还治不好，一定会死。公主想起篮子里的小蛇，也想起小鸟教她的办法。她从正在擦洗的锅碗间抬起头。
+        - id: ch04-b02
+          speaker: princess
+          text: 我会熬一种很灵的汤，不管得了什么病，尝过就会好。那些医生都治不好主人，要不要让我试试？
+        - id: ch04-b03
+          speaker: narrator
+          text: 大家起先都笑话她。
+        - id: ch04-b04
+          speaker: servant_1
+          text: 什么？全国最好的医生都没办法，你一个洗锅的丫头反倒能治好骑士？
+        - id: ch04-b05
+          speaker: narrator
+          text: 可全国的医生全都失败了，众人到头来觉得，让她试一试也没有坏处。公主高高兴兴地跑去拿来装小蛇的篮子，照小鸟的指点把它们熬成汤。汤一做好，她便盛了一些送到骑士房里。她大胆地走进去，把那些守在床边、满腹学问却束手无策的医生们全推到一旁。
+        - id: ch04-b06
+          speaker: narrator
+          text: 可怜的绿骑士病得太重，根本认不出她。何况公主这时穿得又破又脏，就算骑士身体康健，恐怕也认不出来。他喝下第一碗汤，立刻好了许多，已经能从床上坐起身。第二天，公主又给他喝了一些。这一次，骑士恢复得更多，已经可以下床，自己把衣服穿好了。
+        - id: ch04-b07
+          speaker: cook
+          text: 这汤真是神了！
+          emotion: surprised
+        - id: ch04-b08
+          speaker: narrator
+          text: 第三天，骑士喝完汤，身体便完全康复。他看着眼前这个陌生姑娘。
+        - id: ch04-b09
+          speaker: green_knight
+          text: 你是谁？治好我的汤，是你做的吗？
+        - id: ch04-b10
+          speaker: princess
+          text: 是我做的。
+        - id: ch04-b11
+          speaker: green_knight
+          text: 那你选一样奖赏吧。无论你想要什么，我都给你。
+        - id: ch04-b12
+          speaker: princess
+          text: 我要做你的新娘！
+        - id: ch04-b13
+          speaker: narrator
+          text: 骑士没想到她这样大胆，惊讶地皱起眉，摇了摇头。
+        - id: ch04-b14
+          speaker: green_knight
+          text: 只有这件事不行。我已经答应，要娶世上最美丽的公主。你换一样吧。
+        - id: ch04-b15
+          speaker: narrator
+          text: 公主转身跑开，把自己洗得干干净净，又补好身上的破衣服。等她回来，绿骑士一眼便认出了她。你一定想得到，他们重逢时有多么欢喜。
+        - id: ch04-b16
+          speaker: narrator
+          text: 没过多久，两人举行了一场无比盛大的婚礼。王国里所有骑士和王子都接到邀请，赶来参加。公主穿着一身灿烂如太阳的礼服，人们从来没有见过比这更华美的景象。公主的父亲自然也出席了婚礼，狠毒的王后和她的女儿却被赶出了国境。
+        - id: ch04-b17
+          speaker: narrator
+          text: 从那以后，再也没有人见过王后和她的女儿。说不定，她们已经被森林里的野兽吃掉了。新郎和新娘过得太幸福，很快便把她们忘得一干二净。他们和老国王生活在一起，陪伴了他许多年。直到国王去世，他们才继承他的王位，继续幸福地生活下去。
+        - id: ch04-b18
+          speaker: narrator
+          text: 这个故事选自《日德兰童话》，由埃瓦尔德·唐·克里斯滕森搜集记录，再由斯科夫高-彼得森夫人从丹麦文译成英文。

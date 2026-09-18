@@ -1,0 +1,219 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 清楚从容，像在为听众介绍一本古老的童话集
+        timbre: 温暖明净
+        pace: 舒缓
+        pitch: 中音
+    boy:
+      display_name: 男孩
+      tts: {delivery: 机敏直率，劝告动物时认真急切，受了猜疑便毫不客气, timbre: 清亮自然, pace: 适中, pitch: 中高音}
+    bear:
+      display_name: 熊
+      tts: {delivery: 爱面子又故作随意，害怕时仍勉强维持体面, timbre: 厚实粗暖, pace: 稍慢, pitch: 低音}
+    wolf:
+      display_name: 狼
+      tts: {delivery: 自以为世故，受惊后慌张得藏不住, timbre: 沙哑偏暗, pace: 适中, pitch: 中低音}
+    fox:
+      display_name: 狐狸
+      tts: {delivery: 圆滑自负，语气轻巧，意识到危险后故作镇定, timbre: 清润灵活, pace: 稍快, pitch: 中高音}
+    horse:
+      display_name: 马
+      tts: {delivery: 骄傲响亮，充满力量，对自己的本领深信不疑, timbre: 洪亮结实, pace: 稍快, pitch: 中低音}
+    cow:
+      display_name: 母牛
+      tts: {delivery: 起初和气，遭到劝阻后自负而不耐烦, timbre: 圆润饱满, pace: 适中, pitch: 中音}
+    reindeer:
+      display_name: 驯鹿
+      tts: {delivery: 一本正经，自信沉着，把婚礼邀请看得十分要紧, timbre: 清朗稳重, pace: 适中, pitch: 中低音}
+  chapters:
+    - id: ch01
+      title: 一场盛大的婚礼
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前有个非常富有的磨坊主。他结婚时，不光请了自己的朋友，还给附近山林里的野兽送去请帖。熊、狼、狐狸、马、牛、山羊、绵羊和驯鹿的首领都在受邀之列。这些野兽从没参加过婚礼，一个个又高兴又得意，都客客气气地回话，答应一定赴宴。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            婚礼那天，熊最早上路。他向来守时，住得又远，还得把那身粗厚的毛梳得整整齐齐，才好去见人。他天没亮多久便起了床，心情轻快地沿大路走去。没过一会儿，一个男孩迎面来了。他吹着口哨，用棍子随手拨打路边的花梢。男孩早就认识这只熊，也知道他平时不会把自己收拾得这么体面，因此看得十分惊讶。
+        - id: ch01-b03
+          speaker: boy
+          text: 你打扮成这样，是要去哪儿？
+        - id: ch01-b04
+          speaker: bear
+          text: >-
+            没什么，不过是去参加磨坊主的婚礼。其实我更想待在家里，可磨坊主非盼着我去，我实在推不掉。
+        - id: ch01-b05
+          speaker: boy
+          text: >-
+            别去，千万别去！去了你就回不来了。你的皮毛全世界最好看，人人都想要。他们一定会杀掉你，再把皮剥下来！
+        - id: ch01-b06
+          speaker: narrator
+          text: 熊吓得脸都白了，只不过隔着一身毛，谁也瞧不出来。
+        - id: ch01-b07
+          speaker: bear
+          text: >-
+            这我倒真没想过。你要能肯定他们会这么狠……不过，该不会是没人请你，你才故意吓我吧？
+        - id: ch01-b08
+          speaker: boy
+          text: 胡说！你爱怎么办就怎么办。那是你的皮，又不是我的，我才懒得管它会怎样！
+          emotion: angry
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            男孩昂起头，快步走了。熊等他走远，才慢慢跟上去。熊心里其实知道，这番劝告很有道理，可他太要面子，怎么也不肯承认。
+    - id: ch02
+      title: 狼和狐狸听了劝
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            男孩很快走腻了大路，便钻进树林。他可以跳过灌木，也可以踩进溪水，走得自在多了。还没走多远，他又碰上了一只从前见过的狼。
+        - id: ch02-b02
+          speaker: boy
+          text: 你这是要去哪儿？
+        - id: ch02-b03
+          speaker: wolf
+          text: >-
+            只是去参加磨坊主的婚礼。这一趟当然有点麻烦，婚礼向来又闷又无聊。可谁叫我心肠好呢，总得给人家一点面子！
+        - id: ch02-b04
+          speaker: boy
+          text: >-
+            别去！你的皮又厚又暖，冬天也快来了。他们会杀了你，把你的皮剥走。
+        - id: ch02-b05
+          speaker: narrator
+          text: 狼听得又惊又怕，下巴一下子垂了下来。
+        - id: ch02-b06
+          speaker: wolf
+          text: 你真觉得他们会这么干？
+          emotion: fearful
+        - id: ch02-b07
+          speaker: boy
+          text: 我当然这么想。不过那是你的事，跟我没关系。再见。
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            男孩接着赶路。狼却在原地站了好一阵，从头到脚都在发抖，最后才悄悄爬回自己的洞。再往前走，男孩遇见一只狐狸。狐狸披着漂亮的银灰色皮毛，阳光一照，满身都在发亮。
+        - id: ch02-b09
+          speaker: boy
+          text: 你今天可真漂亮！难道你也要去参加磨坊主的婚礼？
+        - id: ch02-b10
+          speaker: fox
+          text: >-
+            是啊。为一场婚礼跑这么远，确实不太值得。可磨坊主那些朋友，你也知道，一个个又呆又闷。我去逗他们开心，也算帮忙了。
+        - id: ch02-b11
+          speaker: boy
+          text: >-
+            你真可怜。还是听我的，留在家里吧。只要进了磨坊主的大门，他的狗准会把你撕碎。
+        - id: ch02-b12
+          speaker: fox
+          text: 唉，我知道，这种事以前的确发生过。
+        - id: ch02-b13
+          speaker: narrator
+          text: 狐狸神色严肃起来，没再多说一个字，转身沿原路小跑着回去了。
+    - id: ch03
+      title: 骄傲的马
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            狐狸的尾巴刚从视野里消失，林中忽然响起树枝接连折断的声音。一匹马猛冲出来，黑色皮毛亮得像缎子。他从男孩身旁飞奔过去，只来得及高声喊了一句。
+        - id: ch03-b02
+          speaker: horse
+          text: >-
+            早上好！我没时间停下来聊天。磨坊主请我参加婚宴，我已经答应了。我不到，他们谁也不会开席！
+        - id: ch03-b03
+          speaker: boy
+          text: 停下！快停下！
+        - id: ch03-b04
+          speaker: narrator
+          text: 男孩的声音有些不同寻常，马听见了，立刻收住脚步。
+        - id: ch03-b05
+          speaker: horse
+          text: 到底出了什么事？
+        - id: ch03-b06
+          speaker: boy
+          text: >-
+            你根本不知道自己要去做什么。你只要到了那里，以后就再也不能在树林里飞奔了。你的力气虽然比许多人都大，他们还是会抓住你，用绳子把你捆起来。你这一辈子都得替他们干活，听他们使唤。
+        - id: ch03-b07
+          speaker: narrator
+          text: 马把头高高一仰，轻蔑地笑出了声。
+        - id: ch03-b08
+          speaker: horse
+          text: >-
+            没错，我的力气比许多人都大。所以哪怕把全世界的绳子都拿来，也休想捆住我。他们爱绑多紧就绑多紧，我总能挣开，重新回到森林里，自由自在地生活！
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            马说完这番大话，甩了甩长尾巴，比刚才跑得更快。可是到了磨坊主家，男孩说的事全都发生了。马只顾打量宾客，还在心里认定自己比谁都英俊、比谁都强壮。一根绳索猛然套住他的头，把他掀翻在地，人们又强行把嚼子塞进他嘴里。他又踢又挣，拼命反抗，还是被拖进了马厩。
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            人们把他关了几天，一点食物也不给。等他的傲气被磨尽，皮毛也不再发亮，他们便给他套上犁具。从此以后，他有了大把时间去回想，因为没有听男孩的话，自己到底失去了什么。
+    - id: ch04
+      title: 戴花环的母牛
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            马不肯听劝，男孩只好闲闲地向前走。他从坡上摘些野草莓，又从树上摘些野樱桃，最后来到森林中央的一片空地。一头乳白色的漂亮母牛正从空地上走过，脖子上戴着一只花环。她来到男孩身边，亲切地打了招呼。
+        - id: ch04-b02
+          speaker: cow
+          text: 早上好。
+        - id: ch04-b03
+          speaker: boy
+          text: 早上好。你这么着急，是要去哪儿？
+        - id: ch04-b04
+          speaker: cow
+          text: >-
+            去参加磨坊主的婚礼。我编花环用了太久，已经有些迟了，所以不能停下来。
+        - id: ch04-b05
+          speaker: boy
+          text: >-
+            别去。只要他们尝过你的奶，就不会再让你离开。往后你一辈子都得给他们干活。
+        - id: ch04-b06
+          speaker: cow
+          text: >-
+            胡说，你懂什么？我跑起来比他们谁都快一倍！只要我不愿意留下，我倒要看看谁拦得住我。
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            母牛觉得自己比谁都聪明。她气恼地走了，连头也没点一下。可后来的事和男孩预料的一模一样。宾客们早听说她的奶有多好，便请她挤一点给大家尝。等他们尝过，母牛再想离开也晚了。人群围住她，紧紧抓住她的角，让她没法反抗。
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            母牛像马一样被关进厩棚。人们只有每天早晨才放她出来，用长绳套住她的头，把她拴在一片长满青草的牧场上。绳子的另一头系着木桩，她只能在木桩周围活动。山羊和绵羊也落得同样的下场。
+    - id: ch05
+      title: 最后到来的驯鹿
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            最后来的是驯鹿。他看起来和平常一样，仿佛正赶着处理一件非办不可的严肃大事。这时男孩已经吃腻了野樱桃，肚子里正想着午饭。
+        - id: ch05-b02
+          speaker: boy
+          text: 你又要去哪儿？
+        - id: ch05-b03
+          speaker: reindeer
+          text: >-
+            我受邀去参加婚礼。磨坊主再三恳求我，说我无论如何也不能失约。
+        - id: ch05-b04
+          speaker: boy
+          text: >-
+            你这个傻瓜，难道一点脑子也没有？到了那里，他们一定会死死抓住你。飞禽走兽当中，再没有谁像你这么强壮，这么迅捷了。
+        - id: ch05-b05
+          speaker: reindeer
+          text: >-
+            正因为这样，我才用不着害怕。我力气大，没人能绑住我。我跑得又快，就连箭也追不上。先告辞了，你很快就会看见我回来。
+        - id: ch05-b06
+          speaker: narrator
+          text: >-
+            可是，去参加磨坊主婚礼的动物，一只也没有回来。它们任性又自负，怎么也不肯听好言相劝。从那以后，它们和它们的子孙便一直做着人类的仆役，直到今天。
+        - id: ch05-b07
+          speaker: narrator
+          text: 这个故事来自拉普兰。

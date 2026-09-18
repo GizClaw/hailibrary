@@ -1,0 +1,297 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容而清醒，带一点克制的诙谐
+        timbre: 温厚清晰
+        pace: 舒缓有致
+        pitch: 中低
+    boots:
+      display_name: 靴子小子
+      tts:
+        delivery: 机灵沉着，遇到凶险也不慌张
+        timbre: 年轻清亮
+        pace: 中等，答话时干脆
+        pitch: 中
+    elder_brother:
+      display_name: 大哥
+      tts:
+        delivery: 刻薄傲慢，嫉妒时满怀恶意
+        timbre: 粗硬
+        pace: 中等偏快
+        pitch: 中低
+    second_brother:
+      display_name: 二哥
+      tts:
+        delivery: 尖酸附和，心里总有怨气
+        timbre: 偏薄而冷
+        pace: 中等偏快
+        pitch: 中高
+    king:
+      display_name: 国王
+      tts:
+        delivery: 强硬专断，说话不容辩驳
+        timbre: 威严浑厚
+        pace: 中等偏慢
+        pitch: 低
+    troll:
+      display_name: 山怪
+      tts:
+        delivery: 声势骇人，粗暴中透着迟钝
+        timbre: 粗重低沉
+        pace: 中等偏慢
+        pitch: 低
+    troll_daughter:
+      display_name: 山怪的女儿
+      tts:
+        delivery: 生硬直接，对父亲言听计从
+        timbre: 沙哑厚实
+        pace: 中等
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 灶灰里的小弟
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个穷人养了三个儿子。他死后，两个哥哥要出门闯荡，却无论如何也不肯带上小弟。
+        - id: ch01-b02
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: 你除了坐在灶灰里东拨西捅，什么也干不了。
+        - id: ch01-b03
+          speaker: narrator
+          text: 哥哥们后来进了王宫，一个跟着马车夫，一个跟着园丁。小弟也上了路，还扛着父母留下的那只大揉面槽。这是家里唯一剩下的东西，哥哥们嫌麻烦，谁也不肯要。他一路扛着，虽然沉得要命，还是舍不得丢。到了王宫，人家起先不肯收留他。他求得诚恳又讨人喜欢，总算在厨房谋到差事，替厨娘搬柴打水。
+        - id: ch01-b04
+          speaker: narrator
+          text: 小伙子手脚麻利，做什么都伶俐，没过多久，王宫里人人都喜欢上了他，从此大家叫他靴子小子。两个哥哥却笨手笨脚，干什么都不讨好，挨的踢比挣的钱还多。他们眼看弟弟处处比自己顺遂，心里满是嫉妒。
+        - id: ch01-b05
+          speaker: narrator
+          text: 王宫对面隔着一座湖，岸边住着一个山怪。山怪养了七只银鸭，天天在湖面游来游去。国王从宫里就能望见，早想把它们弄到手。两个哥哥知道以后，便去找马车夫，故意说起了弟弟。
+        - id: ch01-b06
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: 我们弟弟亲口说过，只要他愿意，替国王弄来那七只银鸭容易得很。
+        - id: ch01-b07
+          speaker: narrator
+          text: 马车夫立刻把话报给国王。国王随即召来靴子小子。
+        - id: ch01-b08
+          speaker: king
+          text: 你哥哥说，你能替我弄到银鸭。现在就去把它们带回来。
+        - id: ch01-b09
+          speaker: boots
+          text: 我从没想过这种事，更没说过这种话。
+        - id: ch01-b10
+          speaker: king
+          text: 你说过。那七只鸭子，你也非带回来不可。
+        - id: ch01-b11
+          speaker: boots
+          text: 好吧，看来我是非去不可了。请给我一蒲式耳黑麦和一蒲式耳小麦，我来想办法。
+    - id: ch02
+      title: 七只银鸭
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 国王给了他要的黑麦和小麦。靴子小子把两种麦子全倒进从家带来的揉面槽，自己也坐进去，一路划过湖。上岸以后，他沿着水边往前走，边走边撒谷粒。七只银鸭追着谷子，一点点全被哄进槽里。他赶紧坐稳，掉转方向，拼命往回划。
+        - id: ch02-b02
+          speaker: narrator
+          text: 到了湖心，山怪从屋里出来，一眼就发现了他。
+        - id: ch02-b03
+          speaker: troll
+          text: 喂——！偷走我七只银鸭的是不是你？
+          emotion: angry
+        - id: ch02-b04
+          speaker: boots
+          text: 正是！正是！
+        - id: ch02-b05
+          speaker: troll
+          text: 你很快还会回来吗？
+        - id: ch02-b06
+          speaker: boots
+          text: 很有可能。
+        - id: ch02-b07
+          speaker: narrator
+          text: 靴子小子带回七只银鸭，人人比从前更喜欢他，连国王都当面夸他干得好。两个哥哥看在眼里，变得更加恶毒，也更加眼红。他们又去告诉马车夫，说弟弟亲口讲过，只要他愿意，连山怪那床被子也能取来。那床被子上，一块金补丁挨着一块银补丁，一块银补丁又挨着一块金补丁。消息很快传到国王耳中。国王再次逼他出发，还说若拿不回被子，就要他的命。
+        - id: ch02-b08
+          speaker: boots
+          text: 我没有说过这种话。不过既然躲不过去，请给我三天，让我想一想。
+        - id: ch02-b09
+          speaker: narrator
+          text: 三天以后，他又坐进揉面槽，划到对岸，躲在附近悄悄窥探。等了许久，他终于看见洞里的人把被子拿出来晾晒。那些人刚退回岩壁里的洞穴，他便冲上去扯下被子，抱回揉面槽，飞快划走。
+        - id: ch02-b10
+          speaker: narrator
+          text: 划到湖心，山怪又追了出来。
+        - id: ch02-b11
+          speaker: troll
+          text: 喂——！七只银鸭是你偷走的吗？
+          emotion: angry
+        - id: ch02-b12
+          speaker: boots
+          text: 正是！正是！
+        - id: ch02-b13
+          speaker: troll
+          text: 现在连我那床一块银、一块金，又一块金、一块银的补丁被，也是你偷的吗？
+        - id: ch02-b14
+          speaker: boots
+          text: 正是！正是！
+        - id: ch02-b15
+          speaker: troll
+          text: 你还会再回来吗？
+        - id: ch02-b16
+          speaker: boots
+          text: 很有可能。
+        - id: ch02-b17
+          speaker: narrator
+          text: 靴子小子带着那床金银补丁被回到王宫。人人见了都越发喜欢他，国王也十分满意，还把他提拔成自己的贴身侍从。
+    - id: ch03
+      title: 第三桩差事
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 两个哥哥见弟弟当上国王的贴身侍从，心里更加恼恨。为了报复，他们第三次跑去对马车夫说：
+        - id: ch03-b02
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: 我们弟弟说，他有本事替国王拿到山怪的金竖琴。不管谁有多伤心，只要听见那把琴响，马上就会快活起来。
+        - id: ch03-b03
+          speaker: narrator
+          text: 马车夫听完，照旧一点也没耽搁，立刻把这番话禀告了国王。国王又把靴子小子召到面前，对他下了第三道命令。
+        - id: ch03-b04
+          speaker: king
+          text: 这话既然是你说的，就必须办到。拿来金竖琴，我把公主和半个王国给你。拿不来，你就得死。
+        - id: ch03-b05
+          speaker: boots
+          text: 我根本没有这样想过，也没有这样说过。可既然没有别的路，我就试试看。请给我六天想主意。
+        - id: ch03-b06
+          speaker: narrator
+          text: 国王准了六天，却命他期限一到立刻出发。靴子小子想好了办法，把一枚十便士长钉、一根桦木钉和一截蜡烛头装进口袋。他仍旧坐着揉面槽划过湖去，在山怪的洞穴前走来走去，一边走，一边悄悄察看四周。山怪一出来便看见了他。
+        - id: ch03-b07
+          speaker: troll
+          text: 嗬！嗬！七只银鸭是你偷的吗？
+          emotion: angry
+        - id: ch03-b08
+          speaker: boots
+          text: 正是！正是！
+        - id: ch03-b09
+          speaker: troll
+          text: 那床金银补丁被，也是你偷的吗？
+        - id: ch03-b10
+          speaker: boots
+          text: 正是！正是！
+        - id: ch03-b11
+          speaker: narrator
+          text: 山怪这回再没让他逃走，一把将他牢牢抓住，径直拖进岩壁深处的洞穴。
+        - id: ch03-b12
+          speaker: troll
+          text: 乖女儿，偷鸭子又偷被子的家伙让我抓住了。把他关进催肥笼，等他肥起来，咱们就宰了他，请朋友们吃一顿。
+        - id: ch03-b13
+          speaker: narrator
+          text: 山怪的女儿乐意得很，马上把他塞进催肥笼。靴子小子在那里一连待了八天，天天吃最好的饭菜，喝最好的饮料，能往肚里塞多少便塞多少。八天一过，山怪叫女儿下去，在他的小指上割一刀，看看他到底养肥了没有。
+        - id: ch03-b14
+          speaker: troll_daughter
+          text: 把小指伸出来！
+        - id: ch03-b15
+          speaker: narrator
+          text: 靴子小子递出那枚长钉。她一刀砍下去，回去告诉父亲：
+        - id: ch03-b16
+          speaker: troll_daughter
+          text: 不成，他还是硬得像铁，现在还不能吃。
+        - id: ch03-b17
+          speaker: narrator
+          text: 山怪只好再等。又过了整整八天，女儿再次来到笼前，要试试他的手指。这回，靴子小子从栅栏间伸出去的是桦木钉。
+        - id: ch03-b18
+          speaker: troll_daughter
+          text: 比上次软了一点，可嚼起来还是会硬得像木头。
+        - id: ch03-b19
+          speaker: narrator
+          text: 山怪还不肯罢休，又喂了靴子小子八天。第三个八天过去，他再叫女儿下去看看。她来到笼边，又命小伙子伸出小指。靴子小子这才把软软的蜡烛头递了出去。
+        - id: ch03-b20
+          speaker: troll_daughter
+          text: 这回正合适。
+        - id: ch03-b21
+          speaker: troll
+          text: 是吗？那我去请客。你留在这里宰了他，一半烤，一半煮。
+    - id: ch04
+      title: 山洞里的竖琴
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 山怪走后，女儿拿出一把又大又长的刀，开始磨了起来。
+        - id: ch04-b02
+          speaker: boots
+          text: 你要用那把刀杀我吗？
+        - id: ch04-b03
+          speaker: troll_daughter
+          text: 正是。
+        - id: ch04-b04
+          speaker: boots
+          text: 可它还不够快。交给我磨一磨吧，刀锋利了，你杀我也省力。
+        - id: ch04-b05
+          speaker: narrator
+          text: 她真把刀递了过去。靴子小子在磨刀石上来回磨好，又说：
+        - id: ch04-b06
+          speaker: boots
+          text: 让我拿你的一根发辫试试。我看刀已经差不多了。
+        - id: ch04-b07
+          speaker: narrator
+          text: 山怪的女儿答应了。靴子小子一手抓住她的发辫，猛地将她的头往后一扯，另一只手挥起长刀，一下割掉了她的脑袋。他随后照山怪的吩咐，把她一半烤熟，一半煮熟，全部摆到桌上。忙完以后，他换上她的衣服，悄悄坐进角落。
+        - id: ch04-b08
+          speaker: narrator
+          text: 山怪不久便带着客人回来了。他看见角落里那个穿着女儿衣服的身影，丝毫没有起疑，还招呼女儿过来一起吃几口。
+        - id: ch04-b09
+          speaker: boots
+          text: 不用了，谢谢。我心里难受，什么也吃不下。
+          emotion: sad
+        - id: ch04-b10
+          speaker: troll
+          text: 哦，若只是心里不快，你知道该怎么办。拿竖琴弹支曲子吧。
+        - id: ch04-b11
+          speaker: boots
+          text: 好呀，可琴放到哪里了？我怎么找不着？
+        - id: ch04-b12
+          speaker: troll
+          text: 上次明明是你用的。它不就在那边的门上方吗？
+        - id: ch04-b13
+          speaker: narrator
+          text: 靴子小子用不着再问第二遍，马上从门上方取下金竖琴。他一边拨动琴弦，一边在洞里进进出出，慢慢挪到了湖边。紧接着，他猛地把揉面槽推进水里，纵身跳进去，奋力划开，槽边飞起一团团白沫。
+    - id: ch05
+      title: 半个王国
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 过了好一阵，山怪觉得女儿出去得实在太久，便离开客人，走出洞来查看她出了什么事。这一看，他才发现靴子小子坐在揉面槽里，早已划到远远的湖面上。
+        - id: ch05-b02
+          speaker: troll
+          text: 喂——！偷走七只银鸭的是不是你？
+          emotion: angry
+        - id: ch05-b03
+          speaker: boots
+          text: 正是！正是！
+        - id: ch05-b04
+          speaker: troll
+          text: 偷走我那床金银补丁被的，也是你？
+        - id: ch05-b05
+          speaker: boots
+          text: 正是！
+        - id: ch05-b06
+          speaker: troll
+          text: 现在连我的金竖琴也让你拿走了？
+          emotion: angry
+        - id: ch05-b07
+          speaker: boots
+          text: 正是！琴确确实实在我手里。
+        - id: ch05-b08
+          speaker: troll
+          text: 那么到头来，我还是没把你吃掉？
+          emotion: surprised
+        - id: ch05-b09
+          speaker: boots
+          text: 没有，没有！你吃掉的是自己的女儿。
+        - id: ch05-b10
+          speaker: narrator
+          text: 山怪听见这话，伤心得当场炸裂。靴子小子平安划回对岸，又从山怪的住处带走一大堆金银。财宝多得很，直把揉面槽装得满满当当。
+        - id: ch05-b11
+          speaker: narrator
+          text: 他带着金竖琴和财宝回到王宫。国王兑现诺言，把公主嫁给他，还分给他半个王国。至于那两个处处陷害他的哥哥，靴子小子依然待他们很好。因为直到最后，他都以为哥哥们说出那些话，只是盼着他交上好运。

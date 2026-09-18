@@ -1,0 +1,254 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: "讲述者"
+      tts:
+        delivery: "亲切从容，带一点温和的幽默"
+        timbre: "温暖清晰"
+        pace: "舒缓而有变化"
+        pitch: "中音"
+    elder_prince_1:
+      display_name: "大王子"
+      tts:
+        delivery: "莽撞急切，危急时慌乱直率"
+        timbre: "明亮的年轻男声"
+        pace: "偏快"
+        pitch: "中音"
+    elder_prince_2:
+      display_name: "二王子"
+      tts:
+        delivery: "冒失冲动，语气随兄长起伏"
+        timbre: "略低的年轻男声"
+        pace: "偏快"
+        pitch: "中低音"
+    witch:
+      display_name: "女巫"
+      tts:
+        delivery: "阴沉狡猾，得意时刻薄，发怒时凶狠"
+        timbre: "粗哑苍老的女声"
+        pace: "缓慢而有压迫感"
+        pitch: "低音"
+    youngest_prince:
+      display_name: "小王子"
+      tts:
+        delivery: "坦荡温和，受困时坚忍，对公主真诚"
+        timbre: "清朗的年轻男声"
+        pace: "适中"
+        pitch: "中音"
+    princess:
+      display_name: "白鸽公主"
+      tts:
+        delivery: "聪慧坚定，温柔中带着果断"
+        timbre: "清澈柔和的年轻女声"
+        pace: "适中而清楚"
+        pitch: "中高音"
+  chapters:
+    - id: ch01
+      title: "风暴中的承诺"
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "从前，有个国王，他的两个儿子胆大又冒失，总爱干些蠢事。一天，兄弟俩独自划着一条小船出海。启程时天气晴朗，谁知船离岸还不算远，一场可怕的风暴就突然扑来。船桨一下子全掉进海里，小船像一只核桃壳，在翻滚的巨浪间抛来甩去。两位王子只能死死抓着座板，免得被扔出船外。"
+        - id: ch01-b02
+          speaker: narrator
+          text: "就在这危急关头，一艘怪船迎面而来。那其实是一只揉面槽，里面坐着个老妇人。她朝兄弟俩喊，只要他们答应把王后下一个生下的儿子交给她，她就能让两个人活着上岸。"
+        - id: ch01-b03
+          speakers: [elder_prince_1, elder_prince_2]
+          ensemble: duo
+          text: "不行！他又不是我们的，我们不能把他送给你！"
+        - id: ch01-b04
+          speaker: witch
+          text: "那你们就一起烂在海底吧。说不定你们的母亲宁肯保住眼前这两个儿子，也不愿为一个还没出生的儿子失去你们。"
+        - id: ch01-b05
+          speaker: narrator
+          text: "老妇人划着揉面槽走了。风暴却比先前吼得更加凶猛，海水一下又一下扑进小船，船眼看就要沉了。兄弟俩想起老妇人说的那番话，觉得母亲那一层或许真有道理。当然，他们更急着保住自己的性命。于是，两人赶紧把老妇人叫回来，答应只要她救他们脱险，就把将来的弟弟交给她。"
+        - id: ch01-b06
+          speaker: narrator
+          text: "承诺刚出口，狂风立刻停下，翻滚的海浪也平静了。没有船桨的小船顺水漂走，最后来到父王城堡下面，在岸边搁浅。国王和王后一直担心得要命，看见两个儿子平安回来，张开双臂迎了上去。"
+        - id: ch01-b07
+          speaker: narrator
+          text: "兄弟俩从没提过海上的约定。后来，王后果然生下第三个儿子，他们依旧守口如瓶。那是个漂亮的男孩，王后爱他胜过世上的一切。小王子在父王宫里长大成人，两个哥哥仍然没有说出女巫的事，也再没见过她，甚至连她的半点消息都没听到。"
+        - id: ch01-b08
+          speaker: narrator
+          text: "一天傍晚，风暴卷着浓雾和黑暗，围住王宫怒吼。小王子待在大厅里，忽然听见大门被敲得震天响。他打开门，看见一个老妇人，背上还背着揉面槽。她说，两位哥哥当年为了保命，已经把他许给了自己，他现在必须立刻跟她走。"
+        - id: ch01-b09
+          speaker: youngest_prince
+          text: "既然你救过我哥哥，他们又答应把我交给你，我就跟你走。"
+        - id: ch01-b10
+          speaker: narrator
+          text: "小王子跟她一路来到海边。他不得不和女巫一起坐进那只揉面槽，由她载着越过大海，回到自己的住处。从此，小王子落入女巫手中，受她支配，成了她的仆人。"
+    - id: ch02
+      title: "白鸽的红丝线"
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "女巫交给小王子的第一件差事，是整理一大堆羽毛。"
+        - id: ch02-b02
+          speaker: witch
+          text: "看见这些羽毛了吗？我晚上回来以前，你得把它们全理好。做不完，我就让你干更苦的活。"
+        - id: ch02-b03
+          speaker: narrator
+          text: "小王子马上动手，一根一根地整理。眼看所有羽毛都过了他的手，只剩最后一根，一阵旋风却突然卷进来，吹得羽毛满屋乱飞。风又沿着地板一扫，把它们全堆到一起，乱得像被人踩过。小王子只能重头再来。可女巫再过一个钟头就要回家，这点时间怎么也不够。"
+        - id: ch02-b04
+          speaker: narrator
+          text: "窗玻璃上忽然传来轻轻的啄击声。一只白鸽停在外面，正用尖嘴敲窗。"
+        - id: ch02-b05
+          speaker: princess
+          text: "让我进去吧，我来帮你。"
+        - id: ch02-b06
+          speaker: narrator
+          text: "小王子打开窗。白鸽飞进来，立刻用嘴把羽毛一根根拣好。还不到一个钟头，所有羽毛便摆得整整齐齐。白鸽刚从窗口飞走，女巫就推门进来了。"
+        - id: ch02-b07
+          speaker: witch
+          text: "哟，真没想到，你竟能理得这样齐整。不过嘛，王子的手指本来就该比别人灵巧。"
+        - id: ch02-b08
+          speaker: narrator
+          text: "第二天早晨，女巫又给他派了活。"
+        - id: ch02-b09
+          speaker: witch
+          text: "今天的事很轻省。门外有一堆柴，你替我劈成引火的小木条。我回来以前，全都得劈完。"
+        - id: ch02-b10
+          speaker: narrator
+          text: "小王子拿起一把小斧头，一刻不停地劈。他本以为自己干得很快，可时间一点点过去，早已过了正午，剩下的柴还是多得很。不管从上面拿走多少，柴堆似乎不但不见小，反而越来越大。他只好垂下双手，擦去额头的汗，心里十分不安。他知道，女巫回家时若看见活没做完，自己一定要遭殃。"
+        - id: ch02-b11
+          speaker: narrator
+          text: "白鸽又飞来了，落在柴堆上，咕咕地叫了两声。"
+        - id: ch02-b12
+          speaker: princess
+          text: "要我来帮你吗？"
+        - id: ch02-b13
+          speaker: youngest_prince
+          text: "当然要。昨天多谢你，今天你又来帮我，我真不知道该怎么感谢你。"
+        - id: ch02-b14
+          speaker: narrator
+          text: "白鸽叼起一块又一块木头，用嘴飞快地劈开。小王子连搬走木柴都赶不上它。不一会儿，整堆柴全变成了细木条。"
+        - id: ch02-b15
+          speaker: narrator
+          text: "白鸽飞上小王子的肩头，安安稳稳地停在那里。小王子向它道谢，轻轻抚摸又爱抚它雪白的羽毛，还亲了亲那张红红的小嘴。就在这一刻，它再也不是一只白鸽，而是变成了一位美丽的少女，站在小王子身旁。"
+        - id: ch02-b16
+          speaker: princess
+          text: "我本来是一位公主。女巫把我掳来，变成了白鸽。你的吻让我恢复了人形。只要你始终对我忠贞，愿意娶我，我就能带着你一起逃出女巫的掌控。"
+        - id: ch02-b17
+          speaker: narrator
+          text: "小王子深深迷上了她。为了和公主在一起，无论要做什么，他都愿意。"
+        - id: ch02-b18
+          speaker: princess
+          text: "女巫回来以后，你就说，她交代的事你都做得很好，请她答应你一个愿望。只要她点头，你就向她讨要那位化作白鸽的公主。现在，先拿一根红丝线系在我的小指上。往后不管她把我变成什么，你都能认出我。"
+        - id: ch02-b19
+          speaker: narrator
+          text: "小王子赶紧把红丝线系在公主白净的小指上。丝线才系好，她又变成白鸽飞走了。紧接着，女巫背着揉面槽回到家。"
+        - id: ch02-b20
+          speaker: witch
+          text: "嗯，我得承认，你干活真有两下子。王子的双手原本不做粗活，能做成这样，确实不错。"
+        - id: ch02-b21
+          speaker: youngest_prince
+          text: "既然您对我的活这样满意，也该让我高兴一回，把我看中的东西送给我吧。"
+        - id: ch02-b22
+          speaker: witch
+          text: "可以啊。你想要什么？"
+        - id: ch02-b23
+          speaker: youngest_prince
+          text: "我要这里那位变成白鸽的公主。"
+        - id: ch02-b24
+          speaker: witch
+          text: "胡说！这里哪有什么公主变成白鸽，到处乱飞？不过你非要公主，我倒能给你一个。"
+        - id: ch02-b25
+          speaker: narrator
+          text: "女巫拖来一头毛茸茸的灰色小驴。它长着两只长耳朵。"
+        - id: ch02-b26
+          speaker: witch
+          text: "这个公主要不要？除了它，你谁也别想得到。"
+        - id: ch02-b27
+          speaker: narrator
+          text: "小王子仔细看去，发现小驴的一只蹄子上系着红丝线。"
+        - id: ch02-b28
+          speaker: youngest_prince
+          text: "好，就把它给我。"
+        - id: ch02-b29
+          speaker: witch
+          text: "你要它有什么用？"
+        - id: ch02-b30
+          speaker: youngest_prince
+          text: "我要骑着它走。"
+        - id: ch02-b31
+          speaker: narrator
+          text: "女巫立刻把小驴拖了回去，又带来一个满脸皱纹、牙齿落尽的老婆婆。她老得两手不停发抖。"
+        - id: ch02-b32
+          speaker: witch
+          text: "你不可能再有别的公主了。这个要不要？"
+        - id: ch02-b33
+          speaker: narrator
+          text: "小王子看见老婆婆的手指上也系着那根红丝线。"
+        - id: ch02-b34
+          speaker: youngest_prince
+          text: "我要她。"
+        - id: ch02-b35
+          speaker: narrator
+          text: "女巫气得暴跳如雷，一边乱舞，一边把手边够得着的东西全砸得粉碎。碎片贴着小王子和公主的耳朵四处乱飞。那位老婆婆已经不见了，公主恢复了美丽的本来面貌，站在小王子身边。"
+    - id: ch03
+      title: "婚宴与逃亡"
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "女巫既然许下了承诺，就得把公主交给小王子，无论以后发生什么也不能反悔。于是，两人的婚礼非办不可。婚礼以前，公主郑重叮嘱小王子。"
+        - id: ch03-b02
+          speaker: princess
+          text: "婚宴上的东西，你想吃什么都可以。可千万别喝任何饮料。只要喝下一口，你就会把我忘掉。"
+        - id: ch03-b03
+          speaker: narrator
+          text: "可到了成婚那天，小王子偏偏忘了。他伸手端起一杯酒。公主一直留意着，赶紧用胳膊肘撞了他一下，酒全泼在桌布上。"
+        - id: ch03-b04
+          speaker: narrator
+          text: "女巫猛地起身，把杯盘碗碟砸得稀碎。就像上回受骗时一样，碎片又贴着两个人的耳朵乱飞。"
+        - id: ch03-b05
+          speaker: narrator
+          text: "随后，小王子和公主被送进新房，房门也关上了。"
+        - id: ch03-b06
+          speaker: princess
+          text: "女巫已经兑现了承诺，接下来能少做一点，她都不会多做。我们得马上逃。我会在床里放两块木头。女巫若来叫人，就让木头替我们回答。你带上窗边的花盆和那杯水，我们从窗户悄悄溜出去。"
+        - id: ch03-b07
+          speaker: narrator
+          text: "两个人说走就走，匆匆钻进黑夜。公主在前面领路。她做白鸽时四处飞过，早已把路线探得清清楚楚。"
+        - id: ch03-b08
+          speaker: narrator
+          text: "半夜，女巫来到房门外呼唤他们。两块木头替他们应声，女巫信以为真，转身走了。天亮以前，她又来叫了一次，木头仍旧回答。她还是以为两个人就在房里。"
+        - id: ch03-b09
+          speaker: narrator
+          text: "太阳升起，新婚之夜终于过去。女巫已经守完承诺，从此可以向他们发泄怒火，报复两个人了。第一缕阳光刚照下来，她就破门而入。可是房里没有小王子，也没有公主，床上只有两块木柴直挺挺地躺着，瞪着眼睛，一声不响。女巫抓起木柴摔到地上，砸成千百块碎片，立刻追赶逃走的两个人。"
+        - id: ch03-b10
+          speaker: princess
+          text: "回头看看。后面有什么吗？"
+        - id: ch03-b11
+          speaker: youngest_prince
+          text: "有。远处有一团乌云。"
+        - id: ch03-b12
+          speaker: princess
+          text: "把花盆举过头顶，往后扔！"
+        - id: ch03-b13
+          speaker: narrator
+          text: "小王子把花盆扔了出去，一片浓密的大森林马上出现在身后。女巫到了林前，怎么也穿不过去，只好跑回家取来斧头，劈出一条路。"
+        - id: ch03-b14
+          speaker: narrator
+          text: "又过了一会儿，公主再次叫小王子回头看。"
+        - id: ch03-b15
+          speaker: youngest_prince
+          text: "那团大乌云又追上来了。"
+        - id: ch03-b16
+          speaker: princess
+          text: "那就把水举过头顶，往后泼！"
+        - id: ch03-b17
+          speaker: narrator
+          text: "小王子照公主说的，把水往身后一泼。一片巨大的湖泊顿时横在两人身后。女巫赶到湖边，却无法渡过，只得再次跑回家，取来她当船使用的揉面槽。"
+    - id: ch04
+      title: "白鸽战胜女巫"
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "这段时间里，小王子和公主已经赶到他的家中。他们翻过城堡的花园围墙，跑过花园，从一扇开着的窗户爬进去。女巫也追到了他们脚后。"
+        - id: ch04-b02
+          speaker: narrator
+          text: "公主站在窗前，对着女巫吹了一口气。几百只白鸽立刻从她嘴里飞出，围住女巫的脑袋，扑棱着，翻飞着，不停用翅膀拍打。女巫气得竟变成一块燧石。从那天起，她就一直立在那扇窗外，成了一块巨大的燧石。"
+        - id: ch04-b03
+          speaker: narrator
+          text: "城堡里的人看见小王子带着新娘回来，全都欢天喜地。他的两个哥哥走到弟弟面前，跪下来坦白了当年在海上做过的事。他们说，只有弟弟应当继承这个王国，从今以后，他们会永远做他忠诚的臣民。"

@@ -1,0 +1,390 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 沉静而富有古老传说的神秘感
+        timbre: 温暖清澈
+        pace: 从容舒缓
+        pitch: 中音
+    trembling:
+      display_name: 颤姑娘
+      tts:
+        delivery: 温柔真诚，困境中仍有坚定
+        timbre: 清澈柔和
+        pace: 中速
+        pitch: 中高音
+    henwife:
+      display_name: 养鸡婆
+      tts:
+        delivery: 慈爱机敏，说话笃定
+        timbre: 温暖苍老
+        pace: 稍慢
+        pitch: 中低音
+    fair:
+      display_name: 美人
+      tts:
+        delivery: 骄傲尖刻，心虚时强作镇定
+        timbre: 明亮偏冷
+        pace: 中速
+        pitch: 中高音
+    brown:
+      display_name: 褐姑娘
+      tts:
+        delivery: 嫉妒刻薄，常随姐姐附和
+        timbre: 清亮偏紧
+        pace: 稍快
+        pitch: 中高音
+    prince:
+      display_name: 埃马尼亚王子
+      tts:
+        delivery: 果断勇敢，面对疑云时克制沉着
+        timbre: 坚实清朗
+        pace: 中速
+        pitch: 中低音
+    prince_1:
+      display_name: 王子甲
+      tts:
+        delivery: 强硬好胜
+        timbre: 洪亮
+        pace: 中速
+        pitch: 中低音
+    prince_2:
+      display_name: 王子乙
+      tts:
+        delivery: 骄傲直接
+        timbre: 清朗
+        pace: 中速
+        pitch: 中音
+    prince_3:
+      display_name: 王子丙
+      tts:
+        delivery: 坚决好斗
+        timbre: 厚实
+        pace: 中速
+        pitch: 低音
+    shepherd:
+      display_name: 小牧童
+      tts:
+        delivery: 朴实稚嫩，紧要时认真勇敢
+        timbre: 清亮年轻
+        pace: 中速
+        pitch: 高音
+    king:
+      display_name: 休·库鲁查国王
+      tts:
+        delivery: 威严沉重
+        timbre: 苍老浑厚
+        pace: 稍慢
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 三个星期日
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 休·库鲁查国王住在蒂尔科纳尔。他有三个女儿，叫美人、褐姑娘和颤姑娘。美人和褐姑娘每逢星期日都有新衣穿，也都能去教堂。颤姑娘却得留在家里烧饭干活，一步也不许出门。两个姐姐知道她比自己更美，生怕她抢在自己前头出嫁，就这样把她关了整整七年。七年过去，埃马尼亚国王的儿子爱上了大姐美人。
+        - id: ch01-b02
+          speaker: narrator
+          text: 一个星期日早晨，姐姐们去了教堂。老养鸡婆走进厨房，告诉颤姑娘，她今天应该去教堂，不该还在家里做活。
+        - id: ch01-b03
+          speaker: trembling
+          text: 我怎么去呀？我连一件能穿去教堂的好衣裳都没有。姐姐们要是在那里看见我出了门，一定会杀了我的。
+          emotion: fearful
+        - id: ch01-b04
+          speaker: henwife
+          text: 衣裳我来给你，保证比她们见过的都漂亮。你只管告诉我，自己想穿什么。
+        - id: ch01-b05
+          speaker: trembling
+          text: 我想穿一条雪白的长裙，再配一双绿鞋。
+        - id: ch01-b06
+          speaker: narrator
+          text: 养鸡婆披上隐身斗篷，从颤姑娘的旧衣上剪下一小片，求来了世上最洁白、最美丽的袍裙，还有一双绿鞋。她替姑娘穿戴好，又拿出一只蜜鸟，放在她右肩，把一根蜜指戴在她左边。门外已有一匹乳白色的母马，装着金鞍和金缰绳。
+        - id: ch01-b07
+          speaker: henwife
+          text: 记住，千万别进教堂。弥撒一结束，众人刚起身，你就马上离开。让母马拼命跑，赶快回家。
+        - id: ch01-b08
+          speaker: narrator
+          text: 颤姑娘骑到教堂门口。里面的人只要瞥见她一眼，就再也想不了别的，只想弄清这位陌生小姐究竟是谁。弥撒结束，她立刻离开，众人纷纷从教堂里跑出来追赶，可没有一个男人能靠近她。她追过前头的风，又甩开身后的风，一路回到家。她刚在门口下马进屋，就看见养鸡婆已经备好饭菜。她脱下白袍，转眼又穿回了旧衣。
+        - id: ch01-b09
+          speaker: henwife
+          text: 今天教堂里有什么新鲜事吗？
+        - id: ch01-b10
+          speakers: [fair, brown]
+          ensemble: duo
+          text: 新鲜事可大了！门口来了一位贵气非凡的小姐，她那身袍裙，我们从没见人穿过。跟她一比，我们的衣裳根本不值一提。从国王到乞丐，所有男人都伸长脖子看她，非要知道她是谁。
+        - id: ch01-b11
+          speaker: narrator
+          text: 姐妹俩闹个不休，一定要得到同样的衣裳。可她们怎么也找不到蜜鸟和蜜指。
+        - id: ch01-b12
+          speaker: narrator
+          text: 到了下个星期日，她们又去教堂，把午饭留给小妹来做。养鸡婆等她们走后，问颤姑娘还想不想去。
+        - id: ch01-b13
+          speaker: trembling
+          text: 只要有办法，我当然想去。
+        - id: ch01-b14
+          speaker: henwife
+          text: 那你想穿什么袍裙？母马又要什么颜色？
+        - id: ch01-b15
+          speaker: trembling
+          text: 我要世上最好的黑缎袍裙，脚上穿红鞋。母马也要黑得发亮，亮得能照出我的影子。
+        - id: ch01-b16
+          speaker: narrator
+          text: 养鸡婆披上隐身斗篷，把袍裙和母马都求了来。她照旧放好蜜鸟和蜜指。黑马配着银鞍、银缰绳，一切都齐了。
+        - id: ch01-b17
+          speaker: henwife
+          text: 还是那句话，不许走进教堂。弥撒一完就赶紧出来，别让任何男人拦住你。
+        - id: ch01-b18
+          speaker: narrator
+          text: 这一回，人们比上次更加惊奇，望着她的眼神也更痴了。人人满脑子只想知道她是谁，可谁都没得到机会。弥撒才结束，众人刚刚起身，她便溜出教堂，跨上银鞍。还没等哪个男人拦住她、跟她说上一句话，她已经回到家里。养鸡婆做好了午饭，她也赶在姐姐们回来前脱下缎子袍裙，换回旧衣。
+        - id: ch01-b19
+          speaker: henwife
+          text: 今天又有什么新鲜事？
+        - id: ch01-b20
+          speakers: [fair, brown]
+          ensemble: duo
+          text: 那位尊贵的陌生小姐又来了！男人们看过她的黑缎袍裙，哪里还瞧得上我们的衣裳？教堂里人人张着嘴盯她，再没有谁肯看我们一眼。
+        - id: ch01-b21
+          speaker: narrator
+          text: 姐妹俩又闹起来，直到各自弄来一件相似的黑缎衣裳才住口。可全爱尔兰也找不出陌生小姐那样好的袍裙，她们的自然差得远。
+        - id: ch01-b22
+          speaker: narrator
+          text: 第三个星期日，美人和褐姑娘穿着新衣去了教堂，临走还命令颤姑娘备好午饭。等她们走得连影子也看不见，养鸡婆又进了厨房。
+        - id: ch01-b23
+          speaker: henwife
+          text: 亲爱的，今天还去教堂吗？你想要什么衣裳，我都能替你弄来。
+        - id: ch01-b24
+          speaker: trembling
+          text: 有新衣裳我就去。长裙腰以下要红得像玫瑰，腰以上要白得像雪。肩上披绿斗篷，帽子插红、白、绿三根羽毛。鞋尖要红，中间要白，后帮和鞋跟要绿。
+        - id: ch01-b25
+          speaker: narrator
+          text: 养鸡婆披上隐身斗篷，把她要的每一样都求来了，果然一样不少。颤姑娘穿戴好后，她把蜜鸟放在右肩，把蜜指放在左边，再替她戴上插着三色羽毛的帽子。她拿剪刀从这一绺、那一绺头发上各剪下几根。霎时间，最美的金发便从颤姑娘肩头倾泻下来。
+        - id: ch01-b26
+          speaker: henwife
+          text: 这一次，你想骑什么样的母马？
+        - id: ch01-b27
+          speaker: trembling
+          text: 我要一匹白马，身上布满蓝色和金色的菱形斑纹，还要金鞍和金缰绳。
+        - id: ch01-b28
+          speaker: narrator
+          text: 那匹母马已经站在门外，两耳之间还停着一只鸟。颤姑娘才坐上金鞍，那鸟便唱了起来。它一路唱到教堂，又从她到达教堂一直唱到她回家，片刻也没有停过。
+    - id: ch02
+      title: 留下的彩鞋
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 美丽的陌生小姐早已名扬天下。这一个星期日，所有王子和显贵都赶到教堂，个个都盼着弥撒结束后，能由自己带她回家。埃马尼亚王子早把美人忘得干干净净。他守在门外，只想赶在陌生小姐匆匆离开前拦住她。
+        - id: ch02-b02
+          speaker: narrator
+          text: 教堂里比往常任何一次都挤，门外的人更有里面的三倍。教堂前人山人海，颤姑娘只能走进大门，再也进不去了。弥撒一结束，众人刚刚起身，她就从门口溜出，转眼翻上金鞍，迎着风飞奔。埃马尼亚王子紧跟在她身旁，一把抓住她的脚，随着母马跑了三十杆还不肯松手。直到彩鞋从她脚上脱落，他才拿着鞋被甩在后面。
+        - id: ch02-b03
+          speaker: narrator
+          text: 颤姑娘让母马拿出最快的速度，驮着自己飞奔回家。她一路只想着，自己弄丢了鞋，养鸡婆一定会杀了她。老妇人看见她满脸懊恼，连脸色都变了。
+        - id: ch02-b04
+          speaker: henwife
+          text: 你怎么了？出了什么事？
+        - id: ch02-b05
+          speaker: trembling
+          text: 哎呀，我把一只鞋弄丢了。
+          emotion: sad
+        - id: ch02-b06
+          speaker: henwife
+          text: 别往心里去，也别发愁。这说不定是你一辈子遇上的最好事情。
+          emotion: calm
+        - id: ch02-b07
+          speaker: narrator
+          text: 颤姑娘交还所有东西，换回旧衣，进厨房继续干活。姐姐们回来后，又争着把教堂里的奇景告诉养鸡婆。
+        - id: ch02-b08
+          speakers: [fair, brown]
+          ensemble: duo
+          text: 今天的景象最壮观！那位陌生小姐比前两次还要华贵。她和她的马披着世上最美的颜色，马耳之间的鸟从她来到离开一直在唱。她呀，是爱尔兰男人见过的最美女人。
+        - id: ch02-b09
+          speaker: narrator
+          text: 陌生小姐消失以后，埃马尼亚王子向其他王子宣布，他要娶她为妻。
+        - id: ch02-b10
+          speaker: prince
+          text: 我要找到那位小姐，娶她做我的妻子。
+        - id: ch02-b11
+          speakers: [prince_1, prince_2, prince_3]
+          ensemble: chorus
+          text: 你只抢到她一只鞋，这还不算赢得了她。想叫她成为你的妻子，就先用剑跟我们较量！
+        - id: ch02-b12
+          speaker: prince
+          text: 好。等我找到穿得上这只鞋的小姐，我会为她而战。我绝不会把她让给任何人。
+        - id: ch02-b13
+          speaker: narrator
+          text: 王子们都急得坐立不安，非要知道丢鞋的女子是谁。他们结成一支浩浩荡荡的队伍，绕着爱尔兰走遍全国，东西南北一处也不漏。只要哪户人家有女人，他们便登门试鞋。王国里的每一户人家都要搜寻，不论贫富贵贱，他们要找的只有那个穿得上鞋的人。
+        - id: ch02-b14
+          speaker: narrator
+          text: 彩鞋一直由埃马尼亚王子保管。它大小适中，不大不小，却没人猜得出是什么做的。年轻姑娘们一见它就满怀希望。脚太大的人以为削掉一点大脚趾就能穿上，脚太短的人便往袜尖里塞东西。可这些办法全都没用。她们只把脚弄伤，后来养了好几个月才好。
+        - id: ch02-b15
+          speaker: narrator
+          text: 美人和褐姑娘天天议论试鞋。有一天，颤姑娘也插了一句话。
+        - id: ch02-b16
+          speaker: trembling
+          text: 说不定，那只鞋正好合我的脚呢。
+        - id: ch02-b17
+          speakers: [fair, brown]
+          ensemble: duo
+          text: 愿狗腿折断的晦气落到你身上！你每个星期日都关在家里，怎么还敢说这种话？
+          emotion: angry
+    - id: ch03
+      title: 彩鞋找到了主人
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 王子们终于来到这里。登门那天，两个姐姐把颤姑娘推进壁橱，锁上了门。埃马尼亚王子把鞋交给姐妹俩，可她们试来试去，谁也穿不上。
+        - id: ch03-b02
+          speaker: prince
+          text: 这屋里还有别的年轻姑娘吗？
+        - id: ch03-b03
+          speaker: trembling
+          text: 有，我在这里！
+        - id: ch03-b04
+          speakers: [fair, brown]
+          ensemble: duo
+          text: 哎呀，我们留下她，只是叫她倒炉灰的。
+        - id: ch03-b05
+          speaker: narrator
+          text: 王子和同伴们坚持要见她，姐妹俩只好开门。颤姑娘走出来，把脚伸进彩鞋。鞋子正正好好，像是专为她做的。
+        - id: ch03-b06
+          speaker: prince
+          text: 这只鞋正合你。你就是那天被我拿走鞋子的小姐。
+        - id: ch03-b07
+          speaker: trembling
+          text: 请各位在这里等我，我去去就回。
+        - id: ch03-b08
+          speaker: narrator
+          text: 她来到养鸡婆家。老妇人披上隐身斗篷，取回第一个星期日的全套装束，照那天的样子替她穿好，又让她骑上白马。颤姑娘沿大路来到屋前。
+        - id: ch03-b09
+          speakers: [prince_1, prince_2, prince_3]
+          ensemble: chorus
+          text: 就是她！这正是我们头一个星期日在教堂见到的小姐！
+        - id: ch03-b10
+          speaker: narrator
+          text: 她再次离开，换上第二套黑缎衣裳，骑着黑得发亮的母马回来。第二个星期日见过她的人也认出了她。接着，她第三次请求暂且离开，很快穿上最后那套红、白、绿相间的衣裳，骑着布满蓝色和金色菱形斑纹的母马回来。第三个星期日见过她的人也立刻认了出来。
+        - id: ch03-b11
+          speakers: [prince_1, prince_2, prince_3]
+          ensemble: chorus
+          text: 没错，就是她！她就是我们一直寻找的女子！
+        - id: ch03-b12
+          speaker: narrator
+          text: 这一下，人人都心服口服。王子和显贵们转向埃马尼亚王子，要他照约定为颤姑娘而战。
+        - id: ch03-b13
+          speakers: [prince_1, prince_2, prince_3]
+          ensemble: chorus
+          text: 现在你得先胜过我们，我们才让她跟你走。
+        - id: ch03-b14
+          speaker: prince
+          text: 我就站在这里。谁要来，我随时应战。
+        - id: ch03-b15
+          speaker: narrator
+          text: 洛赫林国王的儿子先走上前。那是一场可怕的恶战。两人打了九个钟头，他终于停手，放弃了争夺。第二天，西班牙王子打了六个钟头，也认输了。第三天，尼尔福伊王子打了八个钟头才停手。第四天，希腊王子又打了六个钟头，也退出了战场。
+        - id: ch03-b16
+          speaker: narrator
+          text: 到第五天，再没有异国王子肯上场。爱尔兰的王子不愿同本国人交手，外来的王子也都有过机会。既然再无人争夺，颤姑娘就该嫁给埃马尼亚王子。
+        - id: ch03-b17
+          speaker: narrator
+          text: 婚期定了，请帖也发遍四方。婚礼足足办了一年零一天。庆典结束后，王子带着新娘回了家。
+    - id: ch04
+      title: 海边的阴谋
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 后来，颤姑娘生下一个儿子。她请大姐美人来陪伴自己，也照料自己。等颤姑娘恢复了健康，有一天，王子又出门打猎，姐妹俩便一起出去散步。她们一路走到海边，美人忽然把妹妹推下海。一条大鲸鱼正好游来，把颤姑娘吞进了肚里。
+        - id: ch04-b02
+          speaker: narrator
+          text: 美人独自回到家。王子见只有她一个人，便问起妹妹的去向。
+        - id: ch04-b03
+          speaker: prince
+          text: 你妹妹到哪里去了？
+        - id: ch04-b04
+          speaker: fair
+          text: 她回巴利香农父亲家了。现在我身体已经好了，不需要她再照料。
+        - id: ch04-b05
+          speaker: prince
+          text: 唉，我担心离开的那个人才是我的妻子。
+        - id: ch04-b06
+          speaker: fair
+          text: 怎么可能？走的人是我姐姐美人呀。
+        - id: ch04-b07
+          speaker: narrator
+          text: 姐妹俩长得非常相像，王子虽然起了疑心，一时却还是无法确定。那天夜里，他把一把剑放在自己和身边的女人之间，要用它辨出真假。
+        - id: ch04-b08
+          speaker: prince
+          text: 如果你真是我的妻子，这把剑会变暖。你若不是，它就会一直冰冷。
+        - id: ch04-b09
+          speaker: narrator
+          text: 第二天早晨，王子伸手一摸，剑和昨夜放下时一样冷。
+        - id: ch04-b10
+          speaker: narrator
+          text: 姐妹俩在海边时，一个小牧童正在水边放牛。他亲眼看见美人把颤姑娘推进海里。第二天潮水涨起，他又看见那条鲸鱼游来，把颤姑娘吐在沙滩上。她中了魔法，只能躺在那里，于是急忙托牧童给主人带话。
+        - id: ch04-b11
+          speaker: trembling
+          text: 傍晚赶牛回去后，请你告诉主人，昨天是姐姐美人把我推进海里，一条鲸鱼吞了我，后来又把我吐到岸上。下次涨潮，它还会来吞我，退潮时带我离开，明天涨潮再把我吐回来。
+        - id: ch04-b12
+          speaker: trembling
+          text: 它一共会把我吐出来三次。我中了鲸鱼的魔法，不能离开海滩，也逃不掉。要是丈夫没能在我第四次被吞下前救我，我就永远没命了。他得等鲸鱼翻过宽阔的脊背，用银弹去射。它胸鳍下面有一块红褐色的斑，只有打中那里，才能杀死它。
+          emotion: fearful
+        - id: ch04-b13
+          speaker: narrator
+          text: 牧童回到家，美人递给他一口忘忧水。他喝下去，便把口信忘得一干二净。
+        - id: ch04-b14
+          speaker: narrator
+          text: 第二天，牧童又来到海边。涨潮时，鲸鱼再次游来，把颤姑娘吐在岸上。
+        - id: ch04-b15
+          speaker: trembling
+          text: 我请你转告主人的那些话，你说了吗？
+        - id: ch04-b16
+          speaker: shepherd
+          text: 没有，我忘记了。
+        - id: ch04-b17
+          speaker: trembling
+          text: 你怎么会忘呢？
+        - id: ch04-b18
+          speaker: shepherd
+          text: 屋里的女人给我喝了一样东西。我喝完以后，什么都想不起来了。
+        - id: ch04-b19
+          speaker: trembling
+          text: 那今晚一定要把话带到。她要是再递东西给你，千万别接。
+        - id: ch04-b20
+          speaker: narrator
+          text: 牧童赶牛回家，美人果然又递给他一杯饮料。这次他没有喝，而是先去见主人，把自己看到的事和颤姑娘的口信全部说了出来。
+    - id: ch05
+      title: 银弹与归来
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 第三天，王子在枪里装上一颗银弹，亲自来到海边等候。没等多久，鲸鱼果然游来，第三次把颤姑娘吐在沙滩上，就像前两天发生的那样。丈夫已经站在眼前，可在鲸鱼死去以前，她仍然没有力量同他说话。
+        - id: ch05-b02
+          speaker: narrator
+          text: 鲸鱼重新游向海里，把宽阔的脊背朝上翻了一次。胸鳍下面的红褐斑只露出短短一瞬。王子只有这一次机会，而且转眼就会错过。可他抓住了机会，立即开枪，银弹正中红斑。鲸鱼痛得发狂，鲜血染红了四周的海水，最后终于死去。
+        - id: ch05-b03
+          speaker: narrator
+          text: 就在鲸鱼死去的那一刻，颤姑娘终于又能说话了。她跟着丈夫回到家。王子派人去见岳父，把大女儿做过的事一一告诉他。休·库鲁查国王听到消息后赶来，把处置女儿的权力交给王子。
+        - id: ch05-b04
+          speaker: king
+          text: 她犯下这样的罪，你想怎样处死她都可以。
+        - id: ch05-b05
+          speaker: prince
+          text: 她是您的女儿。她的生死，还是由您来决定。
+        - id: ch05-b06
+          speaker: narrator
+          text: 于是国王把美人装进一只木桶，桶里放进足够吃七年的食物，再把木桶放逐到海上。
+        - id: ch05-b07
+          speaker: narrator
+          text: 后来，颤姑娘生下第二个孩子，是个女儿。她和王子把小牧童送去上学，又把他当成自己的亲生孩子一样抚养。他们感念这个男孩的救命之恩，也为刚出生的女儿许下一门婚事。
+        - id: ch05-b08
+          speakers: [trembling, prince]
+          ensemble: duo
+          text: 只要我们的女儿能平安长大，世上除了这个牧童，谁也不能娶她。
+        - id: ch05-b09
+          speaker: narrator
+          text: 牧童和王子的女儿一起长大，后来果真结为夫妻。颤姑娘谈起这门婚事时，对丈夫说出了自己的心意。
+        - id: ch05-b10
+          speaker: trembling
+          text: 要不是那个小牧童，你绝不可能把我从鲸鱼口中救出来。所以，我一点也不舍不得把女儿嫁给他。
+        - id: ch05-b11
+          speaker: narrator
+          text: 埃马尼亚王子和颤姑娘一共有十四个孩子。他们幸福地生活在一起，直到年老去世。

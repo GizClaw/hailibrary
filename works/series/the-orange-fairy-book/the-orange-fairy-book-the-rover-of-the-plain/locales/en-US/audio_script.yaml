@@ -1,0 +1,396 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: "steady, vivid folktale storytelling"
+        timbre: "warm and resonant"
+        pace: "measured"
+        pitch: "medium"
+    father:
+      display_name: Father
+      tts:
+        delivery: "practical, firm, and plainspoken"
+        timbre: "mature and grounded"
+        pace: "measured"
+        pitch: "medium-low"
+    mother:
+      display_name: Mother
+      tts:
+        delivery: "traditional, watchful, and direct"
+        timbre: "mature and clear"
+        pace: "measured"
+        pitch: "medium"
+    young_man:
+      display_name: Young Man
+      tts:
+        delivery: "confident, impulsive, and increasingly troubled"
+        timbre: "young and clear"
+        pace: "steady"
+        pitch: "medium-low"
+    bride_father:
+      display_name: Bride's Father
+      tts:
+        delivery: "ceremonial, cautious, and grave"
+        timbre: "aged and full"
+        pace: "unhurried"
+        pitch: "low"
+    bride_mother:
+      display_name: Bride's Mother
+      tts:
+        delivery: "practical, concerned, and insistent"
+        timbre: "mature and warm"
+        pace: "steady"
+        pitch: "medium"
+    bride:
+      display_name: Bride
+      tts:
+        delivery: "strong-willed, secretive, and deeply devoted"
+        timbre: "young and expressive"
+        pace: "steady"
+        pitch: "medium"
+    rover:
+      display_name: Rover of the Plain
+      tts:
+        delivery: "loyal, patient, and quietly suffering"
+        timbre: "deep and gentle"
+        pace: "unhurried"
+        pitch: "low"
+    villager_one:
+      display_name: First Villager
+      tts:
+        delivery: "communal, observant, and outspoken"
+        timbre: "clear and earthy"
+        pace: "steady"
+        pitch: "medium"
+    villager_two:
+      display_name: Second Villager
+      tts:
+        delivery: "communal, alert, and emphatic"
+        timbre: "bright and sturdy"
+        pace: "steady"
+        pitch: "medium-high"
+    mother_in_law:
+      display_name: Mother-in-Law
+      tts:
+        delivery: "concerned, stern, and practical"
+        timbre: "mature and firm"
+        pace: "measured"
+        pitch: "medium-low"
+    countryman:
+      display_name: Countryman
+      tts:
+        delivery: "bitter, grieving, and accusatory"
+        timbre: "rough and resonant"
+        pace: "deliberate"
+        pitch: "medium-low"
+  chapters:
+    - id: ch01
+      title: A Wife from Beyond the Hills
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "Long ago, near the eastern coast of Africa, a man and his wife lived with their son and daughter. They loved both children dearly. Like parents everywhere, they often talked about the fine marriages the two young people might make one day. Boys and girls married early in that country. Before long, a message came from a rich man who lived beyond the great hills. He offered a fine, fat herd of oxen in exchange for their daughter. Everyone in the house rejoiced, and so did everyone in the village. The daughter was sent away to her new home."
+        - id: ch01-b02
+          speaker: narrator
+          text: "When the house was quiet again, the father spoke to his son."
+        - id: ch01-b03
+          speaker: father
+          text: "Now we have this splendid herd, you should marry before sickness carries the cattle off. We know girls nearby whose families would accept less than half of them. Tell us which girl you prefer, and we'll arrange it."
+        - id: ch01-b04
+          speaker: young_man
+          text: "No. None of the girls I've met pleases me. If I must marry, let me travel and choose a wife for myself."
+        - id: ch01-b05
+          speakers: [father, mother]
+          ensemble: duo
+          text: "Have it your way. But if trouble comes later, the blame will be yours, not ours."
+        - id: ch01-b06
+          speaker: narrator
+          text: "The young man would not be persuaded. He said farewell to his father and mother and set out to search for a wife. He wandered far from home, crossing rivers and climbing over mountains. At last, he reached a village whose people were quite unlike his own. He looked around and saw beautiful young women at work. Some pounded maize, while others cooked sweet-smelling food in earthen pots. Such a smell was especially welcome after a hot and tiring journey. Then one young woman turned and offered the stranger some dinner. At once, he decided he would marry her and no one else."
+        - id: ch01-b07
+          speaker: narrator
+          text: "He sent her parents a request, and they brought their answer the next day."
+        - id: ch01-b08
+          speaker: bride_father
+          text: "You may marry our daughter if you pay a good price. No girl works harder, and we don't know how we'll manage without her. Your parents will come and bring the payment themselves, won't they?"
+        - id: ch01-b09
+          speaker: young_man
+          text: "No, I brought it with me. Here, take these gold pieces."
+        - id: ch01-b10
+          speaker: narrator
+          text: "The old couple's eyes shone with greed, though custom kept them from touching the gold until everything was settled."
+        - id: ch01-b11
+          speaker: bride_mother
+          text: "Then surely your parents will come here and escort your wife to her new home?"
+        - id: ch01-b12
+          speaker: young_man
+          text: "No, they aren't used to traveling. Hold the wedding at once, and we'll leave as soon as it's done. We have a long road ahead."
+        - id: ch01-b13
+          speaker: narrator
+          text: "The parents called their daughter, who had been lying in the sun outside their hut. Before the whole village, a goat was killed. Then the sacred dance was danced, and a blessing was spoken over the heads of the young couple. When the ceremony was over, her father led her aside. It was his duty to advise her on how she should behave in her married life."
+        - id: ch01-b14
+          speaker: bride_father
+          text: "Treat your husband's parents well, and do what your husband asks of you."
+        - id: ch01-b15
+          speaker: narrator
+          text: "The bride nodded. Then her mother asked the question required by their custom."
+        - id: ch01-b16
+          speaker: bride_mother
+          text: "Which of your sisters will you take to cut wood and carry water for you?"
+        - id: ch01-b17
+          speaker: bride
+          text: "None of them. They'd drop the wood and spill the water."
+        - id: ch01-b18
+          speaker: bride_mother
+          text: "Would you rather take one of the other children? We have enough."
+        - id: ch01-b19
+          speaker: bride
+          text: "I won't take any child. Give me our buffalo, the Rover of the Plain. He is the only servant I want."
+        - id: ch01-b20
+          speakers: [bride_father, bride_mother]
+          ensemble: duo
+          text: "What foolishness! Our lives depend on the Rover of the Plain. Here he eats well and sleeps on soft grass. In another country, the food may be poor. He may starve, and if he dies, we die too."
+          emotion: fearful
+        - id: ch01-b21
+          speaker: bride
+          text: "I can care for him as well as you do. Get him ready. The sun is going down, and we must leave."
+        - id: ch01-b22
+          speaker: narrator
+          text: "The bride went away to prepare. She packed a small pot of healing herbs and a horn she used when tending sick people. She also took a little knife and a calabash filled with deer fat. She hid these things about her, said goodbye to her father and mother, and set out beside her husband. Together, they began the journey across the mountains. The young man never noticed the buffalo following behind them. The Rover of the Plain had left his own home to become his mistress's servant."
+    - id: ch02
+      title: The Hidden Servant
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "No one ever knew how the news reached the young man's kraal. Somehow, the village learned that he was coming home and bringing a wife. By the time the couple arrived, every man and woman was standing along the road. They greeted the travelers with loud shouts of welcome."
+        - id: ch02-b02
+          speakers: [villager_one, villager_two]
+          ensemble: duo
+          text: "So you're alive after all! You found a wife you liked, though none of our girls suited you. You chose this path yourself, so don't complain if trouble follows."
+        - id: ch02-b03
+          speaker: narrator
+          text: "The next day, the husband showed his wife which fields belonged to him and which belonged to his mother. She listened closely. Near the hut, however, she stopped."
+        - id: ch02-b04
+          speaker: bride
+          text: "I dropped my bead necklace in the field. I must go back and find it."
+        - id: ch02-b05
+          speaker: narrator
+          text: "She had dropped nothing. She only wanted an excuse to find the buffalo. He was crouched beneath a tree and snorted with pleasure when she came near."
+        - id: ch02-b06
+          speaker: bride
+          text: "You may wander through these fields because they belong to my husband. You may hide in that wood too. The other fields belong to his mother, so take care not to touch them."
+        - id: ch02-b07
+          speaker: rover
+          text: "I will take care."
+        - id: ch02-b08
+          speaker: narrator
+          text: "She patted his head and left. The Rover proved a far better servant than any of the girls she had refused. Whenever she needed water, she crossed the patch of maize behind the hut and found the place where he lay hidden. She set her pail beside him and sat at ease while he went all the way to the lake. He always returned with the bucket filled to the brim. Whenever she needed firewood, he broke branches from the trees and laid them at her feet. The villagers watched her return carrying her heavy loads, never guessing who had done the work."
+        - id: ch02-b09
+          speakers: [villager_one, villager_two]
+          ensemble: duo
+          text: "The girls in her country must be stronger than ours. None of ours could cut wood so quickly or carry so much!"
+        - id: ch02-b10
+          speaker: narrator
+          text: "No one knew she had a buffalo helping her. Yet through all this time, she never gave the poor animal anything to eat. She and her husband had only one dish, and the two of them ate from it together. In her old home, however, one dish had always been set aside for the Rover alone. He bore his hunger for as long as he could. Then one day, when his mistress ordered him to fetch water from the lake, his knees almost gave way beneath him. Still, he kept silent until evening. Only then did he tell her what was wrong."
+        - id: ch02-b11
+          speaker: rover
+          text: "I am starving. I haven't eaten since we came here, and I cannot work any longer."
+          emotion: sad
+        - id: ch02-b12
+          speaker: bride
+          text: "What can I do? There is only one dish in the house. You'll have to steal beans from the fields. Take a little from each place, never enough for an owner to notice."
+        - id: ch02-b13
+          speaker: narrator
+          text: "The Rover had always lived honestly. Yet if his mistress would not feed him, he had to find food for himself. That night, after everyone in the village had fallen asleep, he came out of the wood. Just as she had told him, he ate only a few beans in one place before moving to another. He went from field to field until his hunger was satisfied. Then he crept quietly back to his hiding place."
+    - id: ch03
+      title: The Marks in the Beans
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "But a buffalo is no fairy. The next morning, the women reached their fields and stopped in astonishment."
+        - id: ch03-b02
+          speaker: villager_one
+          text: "Look at this! Some wild animal has eaten our crops. Its footprints are everywhere."
+          emotion: surprised
+        - id: ch03-b03
+          speaker: narrator
+          text: "They hurried home with the news. That evening, the bride crept to the Rover's hiding place."
+        - id: ch03-b04
+          speaker: bride
+          text: "Of course they saw what happened. Tonight, go farther away to find your supper."
+        - id: ch03-b05
+          speaker: narrator
+          text: "The buffalo nodded and followed her advice. That night, he searched for beans farther away. In the morning, the women who worked in those fields saw the marks of his hooves plainly. They hurried to their husbands with the news. This time, they begged the men to bring their guns and lie in wait for the robber. The stranger's husband happened to be the finest shot in the whole village. He chose a place behind the trunk of a tree, hid himself there, and waited."
+        - id: ch03-b06
+          speaker: narrator
+          text: "The Rover expected men to search the fields he had visited the night before, so he returned to the bean patch belonging to his mistress. Her husband stared as the great beast came toward him."
+        - id: ch03-b07
+          speaker: young_man
+          text: "A buffalo! I've never seen one anywhere in this country."
+          emotion: surprised
+        - id: ch03-b08
+          speaker: narrator
+          text: "He raised his gun and aimed behind the buffalo's ear. The Rover leaped into the air, then fell dead."
+        - id: ch03-b09
+          speaker: young_man
+          text: "That was a fine shot."
+        - id: ch03-b10
+          speaker: narrator
+          text: "He ran back to tell the village that the crop thief had been punished. At home, he found his wife twisting from side to side and weeping. Somehow, she had already heard."
+        - id: ch03-b11
+          speaker: young_man
+          text: "Are you sick?"
+        - id: ch03-b12
+          speaker: bride
+          text: "Yes. My whole body hurts."
+          emotion: sad
+        - id: ch03-b13
+          speaker: narrator
+          text: "She was not sick. She was grieving for the buffalo who had served her so well. Her worried husband called the medicine man. She pretended to hear his advice, but the moment he left, she threw his medicine out the door."
+        - id: ch03-b14
+          speaker: narrator
+          text: "At the first rays of daylight, the whole village woke. The women armed themselves with baskets, while the men carried knives. Together, they set out to cut up the buffalo. Only the bride remained behind in her hut. After a while, she too left the village and went to join them. She groaned and wept all along the path."
+        - id: ch03-b15
+          speaker: young_man
+          text: "Why have you come? If you're ill, you should be at home."
+        - id: ch03-b16
+          speaker: bride
+          text: "Oh, I couldn't remain in the village alone."
+        - id: ch03-b17
+          speaker: narrator
+          text: "Her mother-in-law stopped her work and came over to scold her. She warned the bride that she would kill herself if she went on behaving so foolishly. The girl would not listen. She sat down and watched while the villagers worked. At last, all the buffalo's flesh had been divided. Each woman placed her family's portion in her basket. Then the stranger's wife rose and made one request."
+        - id: ch03-b18
+          speaker: bride
+          text: "Give me the head."
+        - id: ch03-b19
+          speakers: [villager_one, villager_two]
+          ensemble: duo
+          text: "You can't carry something that heavy, especially when you're ill."
+        - id: ch03-b20
+          speaker: bride
+          text: "You don't know how strong I am."
+        - id: ch03-b21
+          speaker: narrator
+          text: "At last, they gave her the head. She did not return to the village beside the others. She stayed behind and came home later. Even then, she did not enter her hut. Instead, she slipped into the small shed where the family kept cooking pots and stored maize. There she set down the buffalo's head and sat beside it. Her husband came looking for her. He begged her to leave the shed and go to bed, saying she must be exhausted. His mother urged her to come inside too, but the bride would not move or listen."
+        - id: ch03-b22
+          speaker: bride
+          text: "Please leave me alone! How can I sleep when someone keeps coming in?"
+          emotion: angry
+        - id: ch03-b23
+          speaker: narrator
+          text: "She turned her back and refused even the food they brought. They went away. Her husband lay down on his mat, but her strange behavior troubled him so much that he stayed awake and listened through the night."
+    - id: ch04
+      title: Three Attempts Before Dawn
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "When everything was still, the bride lit a fire and heated water in a pot. She stirred in the healing herbs she had carried from home. With her little knife, she cut behind the buffalo's ear and beside the temple where the shot had struck. She pressed the horn to the wound and blew with all her strength until the blood began to move. Then she spread deer fat over the wound and held it in the steam. Last of all, she sang a low dirge for the Rover of the Plain."
+        - id: ch04-b02
+          speaker: narrator
+          text: "At the final words, the head moved and the limbs returned. Life came back into the buffalo. He shook his horns, rose, and stretched. At that very moment, the wakeful husband began to wonder."
+        - id: ch04-b03
+          speaker: young_man
+          text: "Is she still crying? What can be wrong with her? I had better go and see."
+        - id: ch04-b04
+          speaker: narrator
+          text: "He rose, called his wife by name, and walked toward the shed."
+        - id: ch04-b05
+          speaker: bride
+          text: "Go away! I don't want you here!"
+          emotion: angry
+        - id: ch04-b06
+          speaker: narrator
+          text: "It was too late. The buffalo fell dead again, with the wound restored in his head. The young man feared his wife, which was unusual among his people. Without seeing what lay inside, he went back to bed, puzzled by what she could be doing."
+        - id: ch04-b07
+          speaker: narrator
+          text: "After waiting a few minutes, she began the whole task again. She heated the water, treated the wound, and sang the dirge once more. At the end, the Rover stood on his feet again. The bride was rejoicing because she believed her work was complete. Just then, her husband came in a second time to find out what she was doing. Now he sat down inside and said he meant to watch whatever happened there. The bride could not continue beside him. She picked up the pitcher and all the other things she had brought, left the shed, and tried for a third time to call the buffalo back to life."
+        - id: ch04-b08
+          speaker: narrator
+          text: "She was too late. Dawn was already breaking. The head dropped to the ground, dead and decayed as before."
+        - id: ch04-b09
+          speaker: narrator
+          text: "She returned to the hut, where her husband and his mother were preparing to go out."
+        - id: ch04-b10
+          speaker: bride
+          text: "I want to go to the lake and bathe."
+        - id: ch04-b11
+          speakers: [young_man, mother_in_law]
+          ensemble: duo
+          text: "You can't walk that far. You're so exhausted you can barely stand."
+        - id: ch04-b12
+          speaker: narrator
+          text: "The bride ignored them and set off toward the lake. Soon she returned in tears."
+        - id: ch04-b13
+          speaker: bride
+          text: "I met someone here from my own country. He says my mother is terribly ill. If I don't leave now, she will die before I reach her. I'll return as soon as I can. Farewell."
+          emotion: sad
+        - id: ch04-b14
+          speaker: narrator
+          text: "She started toward the mountains. Her story was false. She knew nothing about her mother's health. She only needed a reason to go home and tell her family that their warning had come true. The buffalo was dead."
+    - id: ch05
+      title: The Song of the Rover
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: "With her basket balanced on her head, the bride walked on toward the mountains. As soon as she had left her husband's village behind, she broke into the song of the Rover of the Plain. She sang as she traveled through the long day. At last, toward evening, she reached the group of huts where her parents lived. Her friends saw her coming and all ran out to meet her. Weeping before them, she told them that the buffalo was dead."
+        - id: ch05-b02
+          speaker: narrator
+          text: "The terrible news flashed across the country like lightning. People heard that the Rover of the Plain had died, and they began coming from every direction. They traveled from nearby homes and from places far away. All of them gathered to mourn the loss of the great animal who had been the pride of their people."
+        - id: ch05-b03
+          speakers: [bride_father, bride_mother]
+          ensemble: duo
+          text: "If only you had listened, he would still be alive. We offered you all those girls, but you refused them and demanded the buffalo. Remember the medicine man's warning. If the buffalo dies, you die too."
+          emotion: sad
+        - id: ch05-b04
+          speaker: narrator
+          text: "They mourned together and did not notice, for a while, that the bride's husband was sitting among them with his gun against a tree. Then one man saw him and bowed in mock respect."
+        - id: ch05-b05
+          speaker: countryman
+          text: "Welcome, murderer! You have killed every one of us!"
+          emotion: angry
+        - id: ch05-b06
+          speaker: narrator
+          text: "The young man stared at him, unable to understand."
+        - id: ch05-b07
+          speaker: young_man
+          text: "I killed a buffalo. Is that why you call me a murderer?"
+          emotion: surprised
+        - id: ch05-b08
+          speaker: countryman
+          text: "Yes, a buffalo, but he was your wife's servant. He carried her wood and fetched her water. Did you truly know nothing about him?"
+        - id: ch05-b09
+          speaker: young_man
+          text: "No, I knew nothing. Why didn't anyone tell me? I would never have shot him."
+          emotion: surprised
+        - id: ch05-b10
+          speaker: countryman
+          text: "It makes no difference now. He is dead, and all of us must die."
+          emotion: sad
+    - id: ch06
+      title: The Warning Fulfilled
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: "The bride lifted a cup filled with crushed poisonous herbs."
+        - id: ch06-b02
+          speaker: bride
+          text: "Oh, my father, Rover of the Plain!"
+          emotion: sad
+        - id: ch06-b03
+          speaker: narrator
+          text: "She drank deeply from the cup and fell backward, dead. Then her family followed her. One by one, her father and mother, her brothers, and her sisters took the poison and drank. As each of them died, they sang a dirge in memory of the Rover of the Plain."
+        - id: ch06-b04
+          speaker: narrator
+          text: "Her husband could do nothing but watch in horror. Afterward, he turned away and began the sad journey home across the mountains. When he finally entered his own hut, he threw himself onto the ground. His father and mother sat beside him and waited. At first, he was too weary to say a word. At last, he raised his head and told them the whole story, from his journey for a bride to the death of her family. When he finished, his parents shook their heads."
+        - id: ch06-b05
+          speakers: [father, mother]
+          ensemble: duo
+          text: "Now you know our warning was not empty. We said this marriage would bring trouble. We offered you a good, hardworking wife from our own country, but you refused her. You have lost not only your wife but your fortune. With all her family dead, who will return the price you paid?"
+        - id: ch06-b06
+          speaker: young_man
+          text: "It is true, Father."
+          emotion: sad
+        - id: ch06-b07
+          speaker: narrator
+          text: "Yet in his heart, the young man cared far more about losing his wife than about the money he had paid for her."

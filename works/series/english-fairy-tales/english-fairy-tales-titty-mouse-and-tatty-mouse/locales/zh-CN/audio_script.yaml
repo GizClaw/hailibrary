@@ -1,0 +1,234 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容讲述古老童话，带着一本正经的诙谐
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中
+    tatty_mouse:
+      display_name: 塔蒂鼠
+      tts:
+        delivery: 纤细直率，悲伤时带着抽泣
+        timbre: 轻柔明亮
+        pace: 中等
+        pitch: 高
+    stool:
+      display_name: 三腿凳
+      tts:
+        delivery: 憨直认真，句子落点清楚
+        timbre: 木质而浑圆
+        pace: 中等
+        pitch: 中低
+    broom:
+      display_name: 扫帚
+      tts:
+        delivery: 利落敏捷，语气爽脆
+        timbre: 干爽沙沙
+        pace: 中等偏快
+        pitch: 中高
+    door:
+      display_name: 门
+      tts:
+        delivery: 一本正经，声音带着沉重顿挫
+        timbre: 厚实低沉
+        pace: 中等偏慢
+        pitch: 低
+    window:
+      display_name: 窗户
+      tts:
+        delivery: 好奇而清脆，尾音略有颤动
+        timbre: 清亮微尖
+        pace: 中等
+        pitch: 高
+    old_form:
+      display_name: 老长凳
+      tts:
+        delivery: 年迈稳重，荒唐举动也说得郑重
+        timbre: 粗粝木质
+        pace: 缓慢
+        pitch: 低
+    walnut_tree:
+      display_name: 胡桃树
+      tts:
+        delivery: 宽厚庄重，语气沉稳
+        timbre: 深沉饱满
+        pace: 舒缓
+        pitch: 低
+    little_bird:
+      display_name: 小鸟
+      tts:
+        delivery: 轻快灵巧，伤心时依然清晰
+        timbre: 细亮清脆
+        pace: 中等偏快
+        pitch: 高
+    little_girl:
+      display_name: 小姑娘
+      tts:
+        delivery: 年幼坦率，话语短而清楚
+        timbre: 清澈稚嫩
+        pace: 中等
+        pitch: 中高
+    old_man:
+      display_name: 老头儿
+      tts:
+        delivery: 朴实直率，问话带着责备
+        timbre: 苍老粗哑
+        pace: 中等偏慢
+        pitch: 低
+  chapters:
+    - id: ch01
+      title: 两只小鼠的布丁
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "蒂蒂鼠和塔蒂鼠住在同一间屋子里。一天，蒂蒂鼠去拾麦穗，塔蒂鼠也去。她们俩便一同出了门。"
+        - id: ch01-b02
+          speaker: narrator
+          text: "蒂蒂鼠拾到一穗麦子，塔蒂鼠也拾到一穗。她们又各自用麦子做了一个布丁。"
+        - id: ch01-b03
+          speaker: narrator
+          text: "塔蒂鼠先把自己的布丁放进锅里煮。蒂蒂鼠正要放进她的那一个，锅却突然翻倒，滚水泼在她身上，把她烫死了。"
+        - id: ch01-b04
+          speaker: narrator
+          text: "塔蒂鼠坐在地上，伤心地哭了起来。旁边那张三条腿的凳子听见了，便问她。"
+        - id: ch01-b05
+          speaker: stool
+          text: "塔蒂，你为什么哭呀？"
+        - id: ch01-b06
+          speaker: tatty_mouse
+          text: "蒂蒂死了，我怎么能不哭呢？"
+          emotion: sad
+        - id: ch01-b07
+          speaker: stool
+          text: "那么，我也要蹦起来。"
+        - id: ch01-b08
+          speaker: narrator
+          text: "三腿凳说到做到，立刻蹦个不停。"
+    - id: ch02
+      title: 屋子里的动静
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "屋角的扫帚看见了，开口问三腿凳。"
+        - id: ch02-b02
+          speaker: broom
+          text: "凳子，你干吗一直蹦呀？"
+        - id: ch02-b03
+          speaker: stool
+          text: "唉！蒂蒂死了，塔蒂哭个不停，所以我也蹦个不停。"
+          emotion: sad
+        - id: ch02-b04
+          speaker: broom
+          text: "这样的话，我就扫起来吧。"
+        - id: ch02-b05
+          speaker: narrator
+          text: "扫帚马上在屋里来回扫个不停。门看着它，忍不住问。"
+        - id: ch02-b06
+          speaker: door
+          text: "扫帚，你为什么不停地扫？"
+        - id: ch02-b07
+          speaker: broom
+          text: "唉！蒂蒂死了，塔蒂一直哭，凳子又一直蹦，所以我也只好扫个不停。"
+          emotion: sad
+        - id: ch02-b08
+          speaker: door
+          text: "那么，我就晃起来。"
+        - id: ch02-b09
+          speaker: narrator
+          text: "门开始晃个不停。窗户见了，也来问它。"
+        - id: ch02-b10
+          speaker: window
+          text: "门啊，你怎么一直晃个没完？"
+        - id: ch02-b11
+          speaker: door
+          text: "唉！蒂蒂死了，塔蒂哭个不停，凳子蹦个不停，扫帚也扫个不停，所以我才跟着晃个不停。"
+          emotion: sad
+        - id: ch02-b12
+          speaker: window
+          text: "那我就嘎吱嘎吱响起来。"
+        - id: ch02-b13
+          speaker: narrator
+          text: "于是，窗户也嘎吱嘎吱响个不停。"
+    - id: ch03
+      title: 悲伤传到屋外
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "屋外摆着一张老长凳。它听到窗户作响，便问这是怎么回事。"
+        - id: ch03-b02
+          speaker: old_form
+          text: "窗户，你为什么嘎吱嘎吱地响？"
+        - id: ch03-b03
+          speaker: window
+          text: "唉！蒂蒂死了，塔蒂哭个不停，凳子蹦个不停，扫帚扫个不停，门也晃个不停，所以我才嘎吱嘎吱响个不停。"
+          emotion: sad
+        - id: ch03-b04
+          speaker: old_form
+          text: "那么，我就绕着屋子跑起来。"
+        - id: ch03-b05
+          speaker: narrator
+          text: "老长凳果真绕着屋子跑个不停。小屋旁有一棵高大漂亮的胡桃树，它瞧见这一幕，便问老长凳。"
+        - id: ch03-b06
+          speaker: walnut_tree
+          text: "长凳，你为什么绕着屋子跑？"
+        - id: ch03-b07
+          speaker: old_form
+          text: "唉！蒂蒂死了，塔蒂哭个不停，凳子蹦个不停，扫帚扫个不停，门晃个不停，窗户又嘎吱嘎吱响个不停，所以我才绕着屋子跑个不停。"
+          emotion: sad
+        - id: ch03-b08
+          speaker: walnut_tree
+          text: "那么，我要把满树的叶子都抖落。"
+        - id: ch03-b09
+          speaker: narrator
+          text: "胡桃树抖了起来，美丽的绿叶一片不剩，全落到了地上。树枝上原本停着一只小鸟，它看着纷纷落下的叶子，问胡桃树。"
+        - id: ch03-b10
+          speaker: little_bird
+          text: "胡桃树，你为什么把叶子全抖掉？"
+        - id: ch03-b11
+          speaker: walnut_tree
+          text: "唉！蒂蒂死了，塔蒂哭个不停，凳子蹦个不停，扫帚扫个不停，门不停地晃，窗户嘎吱作响，老长凳又绕着屋子跑个不停，所以我才把叶子全抖掉。"
+          emotion: sad
+        - id: ch03-b12
+          speaker: little_bird
+          text: "那么，我也要脱光所有羽毛。"
+        - id: ch03-b13
+          speaker: narrator
+          text: "小鸟真的脱掉了身上每一根漂亮的羽毛。"
+    - id: ch04
+      title: 全都倒下了
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "这时，一个小姑娘从树下走过。她提着一罐牛奶，那是弟弟妹妹们的晚饭。她看见可怜的小鸟光秃秃的，连忙问它。"
+        - id: ch04-b02
+          speaker: little_girl
+          text: "小鸟，你为什么把羽毛全脱掉了？"
+        - id: ch04-b03
+          speaker: little_bird
+          text: "唉！蒂蒂死了，塔蒂哭个不停，凳子蹦个不停，扫帚扫个不停，门不停地晃，窗户嘎吱作响，老长凳绕着屋子跑，胡桃树又抖光了叶子，所以我才脱光所有羽毛。"
+          emotion: sad
+        - id: ch04-b04
+          speaker: little_girl
+          text: "那么，我也要把牛奶泼掉。"
+        - id: ch04-b05
+          speaker: narrator
+          text: "小姑娘把罐子往地上一扔，牛奶全洒了。旁边有个老头儿，正站在梯子顶上给麦垛铺茅草。他见了，便责问小姑娘。"
+        - id: ch04-b06
+          speaker: old_man
+          text: "你为什么把牛奶泼掉？你的弟弟妹妹们这下可没有晚饭吃了。"
+        - id: ch04-b07
+          speaker: little_girl
+          text: "蒂蒂死了，塔蒂哭个不停，凳子蹦个不停，扫帚扫个不停，门不停地晃，窗户嘎吱作响，老长凳绕着屋子跑，胡桃树抖光了叶子，小鸟又脱光所有羽毛，所以我才把牛奶泼掉。"
+          emotion: sad
+        - id: ch04-b08
+          speaker: old_man
+          text: "唉！那么，我就从梯子上摔下去，折断自己的脖子。"
+        - id: ch04-b09
+          speaker: narrator
+          text: "老头儿真的摔下梯子，折断了脖子。就在那一刻，大胡桃树轰隆一声倒了下来，把老长凳和屋子一同压翻。"
+        - id: ch04-b10
+          speaker: narrator
+          text: "屋子倒下时撞掉了窗户，窗户撞倒了门，门又撞翻扫帚，扫帚再撞翻三腿凳。最后，可怜的小塔蒂鼠被埋在了废墟底下。"

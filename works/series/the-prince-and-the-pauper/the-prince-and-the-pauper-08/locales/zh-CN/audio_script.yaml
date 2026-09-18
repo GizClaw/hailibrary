@@ -1,0 +1,149 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 沉稳从容，带有含蓄的讽刺意味
+        timbre: 温暖清晰
+        pace: 舒缓而富有变化
+        pitch: 中等
+    henry:
+      display_name: 亨利八世
+      tts:
+        delivery: 威严易怒，病弱中仍透着狠厉
+        timbre: 低沉苍老
+        pace: 缓慢而时有急促
+        pitch: 低
+    attendant:
+      display_name: 侍从
+      tts:
+        delivery: 谨慎恭敬
+        timbre: 清楚柔和
+        pace: 适中
+        pitch: 中等
+    lord_chancellor:
+      display_name: 掌玺大臣
+      tts:
+        delivery: 郑重恭顺，渐渐显出惶恐
+        timbre: 成熟圆润
+        pace: 适中
+        pitch: 中低
+    lord_hertford:
+      display_name: 赫特福德勋爵
+      tts:
+        delivery: 审慎忠诚，语气庄重
+        timbre: 成熟稳健
+        pace: 适中
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 噩梦与死刑令
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 下午五点左右，亨利八世从一场不安稳的午睡中醒了过来。这一觉丝毫没让他恢复精神。他感觉自己的末日已经临近，便低声念叨起来。
+        - id: ch01-b02
+          speaker: henry
+          text: 噩梦缠身，噩梦缠身！这些警兆都说，我的大限就要到了。连这越来越弱的脉搏，也在这样告诉我。
+          emotion: fearful
+        - id: ch01-b03
+          speaker: narrator
+          text: 忽然，他眼中闪过一道恶毒的光。
+        - id: ch01-b04
+          speaker: henry
+          text: 可在他先死以前，我绝不会死。
+          emotion: angry
+        - id: ch01-b05
+          speaker: narrator
+          text: 侍从看见国王醒了，便上前请示。掌玺大臣还在门外等候。
+        - id: ch01-b06
+          speaker: attendant
+          text: 陛下，要让掌玺大臣进来吗？
+        - id: ch01-b07
+          speaker: henry
+          text: 让他进来！快让他进来！
+        - id: ch01-b08
+          speaker: narrator
+          text: 国王催得十分急切。掌玺大臣进到房里，立刻跪在国王榻边，把已经办好的事一一奏明。
+        - id: ch01-b09
+          speaker: lord_chancellor
+          text: 陛下，臣已经传令了。王国的贵族都穿着礼袍，站在议院栏前。他们已经确认诺福克公爵的判决，现在只等陛下再下旨意。
+        - id: ch01-b10
+          speaker: narrator
+          text: 国王脸上顿时露出凶狠的喜色。
+        - id: ch01-b11
+          speaker: henry
+          text: 扶我起来！我要亲自去议会，亲手给那道令状盖印，把那个——
+          emotion: happy
+        - id: ch01-b12
+          speaker: narrator
+          text: 话没说完，他便失了声。脸上的血色一下褪得干干净净，只剩一片死灰般的苍白。侍从赶紧扶他躺回枕上，慌忙拿药救治。过了一阵，他才悲伤地开口。
+        - id: ch01-b13
+          speaker: henry
+          text: 唉，我盼了这么久，才盼到这个痛快时候，它却来得太晚！我连亲手办成这件事的机会也没有了。快去，让别人替我办。把王国大印交给一个委员会，你来挑选大臣，马上动手！等太阳再升起、再落下一回以前，把他的头带来给我看。
+          emotion: sad
+    - id: ch02
+      title: 不见了的王国大印
+      blocks:
+        - id: ch02-b01
+          speaker: lord_chancellor
+          text: 臣遵旨。请陛下下令把大印交还给臣，臣也好立刻去办。
+        - id: ch02-b02
+          speaker: henry
+          text: 大印？它不在你手里，还能在谁手里？
+        - id: ch02-b03
+          speaker: lord_chancellor
+          text: 两天前，陛下把它从臣这里拿走了。您说，等您亲手在诺福克公爵的令状上盖印以前，不许再用它办事。
+        - id: ch02-b04
+          speaker: henry
+          text: 对，的确有这回事。我把它放到哪里去了？我现在太虚弱，记性总跟我作对……真是怪了，真是怪了……
+        - id: ch02-b05
+          speaker: narrator
+          text: 国王说着说着，只剩下含混的咕哝。他不时无力地摇着灰白的脑袋，苦苦翻找记忆，怎么也想不起自己究竟把大印放到了哪里。最后，赫特福德勋爵壮着胆子跪下进言。
+        - id: ch02-b06
+          speaker: lord_hertford
+          text: 陛下，请恕臣冒昧。这里有好几个人都记得，您把王国大印交给威尔士亲王殿下保管，要他一直收着，等到那一天——
+        - id: ch02-b07
+          speaker: henry
+          text: 对，正是这样！快去取来，别再耽搁！
+        - id: ch02-b08
+          speaker: narrator
+          text: 赫特福德勋爵飞奔去找汤姆。可没过多久，他便空着两手回来了，脸上满是忧色。
+        - id: ch02-b09
+          speaker: lord_hertford
+          text: 国王陛下，臣实在不愿带回这样的坏消息。可上帝仍让疾病缠着亲王，他完全想不起自己收过大印。亲王殿下的房间和大厅一间接着一间，若是到处搜寻，只怕既耽误宝贵时间，也不会有结果。所以臣赶忙回来禀报——
+        - id: ch02-b10
+          speaker: narrator
+          text: 国王呻吟一声，打断了他。沉默片刻以后，亨利的声音里满是悲伤。
+        - id: ch02-b11
+          speaker: henry
+          text: 别再去烦那可怜的孩子了。上帝的手重重压着他，我心里只有疼爱和怜惜。要是我能把他的重担接到自己这双忧患压老的肩上，让他安宁下来，该有多好。
+          emotion: sad
+        - id: ch02-b12
+          speaker: narrator
+          text: 他闭起眼睛，又咕哝了几声，很快便没了声音。
+    - id: ch03
+      title: 小印也能办事
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 过了一阵，国王重新睁开眼，茫然地向四周看去。目光落到仍跪在榻边的掌玺大臣身上时，他的脸立刻因愤怒涨得通红。
+        - id: ch03-b02
+          speaker: henry
+          text: 什么，你居然还在！凭上帝的荣光起誓，你若不去办那个叛徒的事，明天你的主教冠就没脑袋可戴了！
+          emotion: angry
+        - id: ch03-b03
+          speaker: narrator
+          text: 掌玺大臣吓得发抖。
+        - id: ch03-b04
+          speaker: lord_chancellor
+          text: 仁慈的陛下，求您恕罪！臣只是在等大印。
+          emotion: fearful
+        - id: ch03-b05
+          speaker: henry
+          text: 你失心疯了吗？我从前出门带的那枚小印，就在宝库里。大印既然飞得没影了，小印难道不能用？快滚！不把他的头带回来，就别再见我！
+          emotion: angry
+        - id: ch03-b06
+          speaker: narrator
+          text: 可怜的掌玺大臣不敢多停留片刻，赶紧离开了这个危险地方。委员会同样一刻也没耽搁，马上以国王的名义批准了那群奴颜婢膝的议员所做的一切。行刑就定在第二天，英格兰地位最高的贵族、不幸的诺福克公爵，即将被斩首。

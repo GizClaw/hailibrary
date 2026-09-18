@@ -1,0 +1,262 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and storylike
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    merchant:
+      display_name: The Merchant
+      tts:
+        delivery: loving, dutiful, and often worried
+        timbre: gentle and weathered
+        pace: unhurried
+        pitch: medium-low
+    maria:
+      display_name: Maria
+      tts:
+        delivery: clever, spirited, and self-possessed
+        timbre: bright and clear
+        pace: lively
+        pitch: medium-high
+    eldest_sister:
+      display_name: Eldest Sister
+      tts:
+        delivery: eager and impulsive
+        timbre: light and smooth
+        pace: steady
+        pitch: medium-high
+    second_sister:
+      display_name: Second Sister
+      tts:
+        delivery: easygoing and insistent
+        timbre: soft and clear
+        pace: steady
+        pitch: medium
+    king:
+      display_name: The King
+      tts:
+        delivery: commanding, proud, and passionate
+        timbre: resonant and firm
+        pace: measured
+        pitch: medium-low
+    old_woman:
+      display_name: The Old Woman
+      tts:
+        delivery: cautious and plainspoken
+        timbre: aged and warm
+        pace: unhurried
+        pitch: medium
+    gardener:
+      display_name: The Gardener
+      tts:
+        delivery: sharp and indignant
+        timbre: rough and sturdy
+        pace: brisk
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Three Pots of Basil
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a merchant who lived near the royal palace with his three daughters. All three were pretty, but Maria, the youngest, was the prettiest of them all. The merchant was a widower, and he cared deeply for his girls.
+        - id: ch01-b02
+          speaker: narrator
+          text: One day, the king summoned him and gave him instructions for a journey. The merchant did not want to leave his daughters alone, but he could not disobey the king. He went home with a heavy heart to say goodbye.
+        - id: ch01-b03
+          speaker: narrator
+          text: Before setting out, he brought his daughters three pots of basil, one for each girl.
+        - id: ch01-b04
+          speaker: merchant
+          text: I must go away on a journey. While I am gone, do not let anyone into the house. When I return, these plants will tell me what happened here.
+        - id: ch01-b05
+          speakers: [eldest_sister, second_sister, maria]
+          ensemble: chorus
+          text: Nothing will happen while you're away.
+        - id: ch01-b06
+          speaker: narrator
+          text: The very next day, the king came to visit with two friends. He found the three sisters sitting at supper. As soon as Maria saw the visitors, she proposed that the sisters fetch wine from the cellar.
+        - id: ch01-b07
+          speaker: maria
+          text: I'll carry the key. Our eldest sister can bring the light, and our other sister can carry the bottle.
+        - id: ch01-b08
+          speaker: king
+          text: Please don't go to any trouble. We aren't thirsty.
+        - id: ch01-b09
+          speakers: [eldest_sister, second_sister]
+          ensemble: duo
+          text: Very well, then. We won't go.
+        - id: ch01-b10
+          speaker: maria
+          text: I'm going anyway.
+        - id: ch01-b11
+          speaker: narrator
+          text: Maria left the room. In the hall, she put out the light and set down the key and bottle. Then she ran to a neighbor's house and knocked at the door. An old woman put her head out of the window.
+        - id: ch01-b12
+          speaker: old_woman
+          text: Who is knocking so late at night?
+        - id: ch01-b13
+          speaker: maria
+          text: Please let me in. I quarreled with my eldest sister, and I don't want us to fight anymore. May I sleep here tonight?
+        - id: ch01-b14
+          speaker: narrator
+          text: The old woman opened the door, and Maria spent the night in her house. The king was furious that Maria had slipped away from him. When she returned home the next day, both of her sisters' basil plants had withered. They had disobeyed their father.
+
+    - id: ch02
+      title: Fruit from the King's Garden
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The eldest sister's room had a window overlooking the king's gardens. One day she saw ripe medlars hanging on the trees and longed to taste them. She asked Maria to climb down on a rope and pick a few, promising to pull her back up.
+        - id: ch02-b02
+          speaker: narrator
+          text: Maria was good-natured, so she swung down into the garden. She gathered the medlars and was fastening the rope beneath her arms when her sister called from the window.
+        - id: ch02-b03
+          speaker: eldest_sister
+          text: There are some wonderful lemons a little farther on. Please bring me one or two of those as well.
+        - id: ch02-b04
+          speaker: narrator
+          text: Maria turned to pick the lemons and came face to face with the gardener. He seized her.
+        - id: ch02-b05
+          speaker: gardener
+          text: What are you doing in here, you little thief?
+          emotion: angry
+        - id: ch02-b06
+          speaker: maria
+          text: Don't call me names, or you'll be sorry.
+        - id: ch02-b07
+          speaker: narrator
+          text: With that, Maria gave him such a hard push that he fell into the lemon bushes, gasping for breath. She grabbed the rope and climbed back to the window.
+        - id: ch02-b08
+          speaker: narrator
+          text: The next day, the second sister began craving bananas. She begged and begged. Maria had sworn she would never climb into the garden again, but at last she gave in and went down the rope.
+        - id: ch02-b09
+          speaker: narrator
+          text: This time, the king himself found her.
+        - id: ch02-b10
+          speaker: king
+          text: So here you are again, you clever trickster. Now you will answer for everything you've done.
+        - id: ch02-b11
+          speaker: narrator
+          text: The king questioned Maria closely. She denied nothing. When she had told him the whole story, he ordered her to follow him to the palace and receive her punishment. He started toward the house, glancing back again and again to make sure she had not escaped.
+        - id: ch02-b12
+          speaker: narrator
+          text: Then he looked around once more, and Maria was gone. She had vanished without a trace. The king's men searched every hole and corner in the town, but no one could find her. The king grew so angry that he became gravely ill. For many months, people feared he would die.
+
+    - id: ch03
+      title: The Basket of Flowers
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: While Maria was in hiding, her two elder sisters married the king's two friends. In time, each sister had a baby daughter.
+        - id: ch03-b02
+          speaker: narrator
+          text: One day, Maria secretly entered the house where her eldest sister lived. She picked up both little girls and placed them in a beautiful basket. Flowers covered the basket inside and out, so no one could guess that two babies lay within.
+        - id: ch03-b03
+          speaker: narrator
+          text: Maria dressed herself as a boy, balanced the basket on her head, and walked slowly past the palace. As she went, she called out for all to hear.
+        - id: ch03-b04
+          speaker: maria
+          text: Who will carry these flowers to the king, who lies sick with love?
+        - id: ch03-b05
+          speaker: narrator
+          text: The king heard the call from his bed and ordered an attendant to buy the basket. When it was brought to him, he raised the lid. Cries came from within. He peered through the flowers and saw two little children.
+        - id: ch03-b06
+          speaker: narrator
+          text: The king knew this must be another of Maria's tricks, and he was furious. He was still staring at the children and wondering how he could repay her when news arrived. The merchant had completed the king's business and returned home.
+
+    - id: ch04
+      title: A Coat Made of Stone
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The news brought all of the king's anger back to him. Maria had refused his visit, and then she had stolen fruit from his garden. He was determined to take revenge. He sent a page to order the merchant to come to the palace the next day with a coat made of stone. If he failed, he would be punished.
+        - id: ch04-b02
+          speaker: narrator
+          text: The merchant was already miserable. He had come home the evening before and discovered that his two elder daughters had married without his permission, though all three girls had promised that nothing would happen while he was gone. Now the king demanded an impossible coat.
+        - id: ch04-b03
+          speaker: merchant
+          text: A coat made of stone! How can anyone make such a thing? The king will be the ruin of me.
+        - id: ch04-b04
+          speaker: narrator
+          text: He wrung his hands in despair. Just then, Maria came into the room.
+        - id: ch04-b05
+          speaker: maria
+          text: Don't grieve over the stone coat, dear father. Take this piece of chalk to the palace and tell the king you've come to measure him.
+        - id: ch04-b06
+          speaker: narrator
+          text: The merchant could not see how that would help. But Maria had helped him many times before, and he trusted her. He put the chalk in his pocket and went to the king.
+        - id: ch04-b07
+          speaker: king
+          text: Measuring me is no use at all.
+        - id: ch04-b08
+          speaker: merchant
+          text: Then I cannot make the coat you asked for.
+        - id: ch04-b09
+          speaker: king
+          text: If you wish to keep your head, then you must hand your daughter Maria over to me.
+        - id: ch04-b10
+          speaker: narrator
+          text: The merchant said nothing. He went sadly home, where Maria was waiting for him.
+        - id: ch04-b11
+          speaker: merchant
+          text: Oh, my dear child, why was I ever born? The king says I must give you to him instead of bringing the coat.
+          emotion: sad
+        - id: ch04-b12
+          speaker: maria
+          text: Please don't be unhappy, dear father. Have a doll made that looks exactly like me, with a string fastened to its head. I can pull the string to make it answer yes or no.
+        - id: ch04-b13
+          speaker: narrator
+          text: The merchant went out at once to have the doll made.
+
+    - id: ch05
+      title: The Doll in the King's Room
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The king waited patiently in his palace. This time, he felt certain Maria could not get away. He gave his pages careful orders.
+        - id: ch05-b02
+          speaker: king
+          text: If a gentleman comes with his daughter and asks to speak to me, place the young lady in my room. Make sure she does not leave.
+        - id: ch05-b03
+          speaker: narrator
+          text: Maria arrived with the doll hidden under her cloak. Once the door closed behind her, she set the doll in place and hid beneath the couch. She kept a firm hold on the string attached to its head.
+        - id: ch05-b04
+          speaker: narrator
+          text: The king entered the room and greeted the figure before him.
+        - id: ch05-b05
+          speaker: king
+          text: Senhora Maria, I hope you are well.
+        - id: ch05-b06
+          speaker: narrator
+          text: Maria pulled the string, and the doll nodded.
+        - id: ch05-b07
+          speaker: king
+          text: Now you and I will settle our accounts.
+        - id: ch05-b08
+          speaker: narrator
+          text: The king began with Maria's first trick and went through every offense, all the way to the basket of flowers. Each time he named another misdeed, Maria tugged the string, and the doll nodded as if admitting it.
+
+    - id: ch06
+      title: Clever Maria Reveals Herself
+      blocks:
+        - id: ch06-b01
+          speaker: king
+          text: Anyone who mocks me deserves to die.
+          emotion: angry
+        - id: ch06-b02
+          speaker: narrator
+          text: The king drew his sword and struck off the doll's head. It fell toward him, and he felt the touch of a kiss.
+        - id: ch06-b03
+          speaker: king
+          text: Ah, Maria, Maria! You are so sweet in death, yet you were so hard to me in life. A man who could kill you deserves to die himself!
+        - id: ch06-b04
+          speaker: narrator
+          text: He was about to turn the sword upon himself when the real Maria sprang out from under the couch and threw herself into his arms.
+        - id: ch06-b05
+          speaker: narrator
+          text: The next day, Maria and the king were married. They lived happily together for many years.

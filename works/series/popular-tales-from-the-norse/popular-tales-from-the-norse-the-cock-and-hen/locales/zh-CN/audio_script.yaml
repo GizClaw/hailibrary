@@ -1,0 +1,49 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容而清醒，带一点克制的诙谐
+        timbre: 温厚清晰
+        pace: 舒缓有致
+        pitch: 中低
+    hen:
+      display_name: 母鸡
+      tts:
+        delivery: 絮絮抱怨，语调里带着母鸡咯咯叫的起伏
+        timbre: 清亮而略尖
+        pace: 中等偏快
+        pitch: 中高
+    cock:
+      display_name: 公鸡
+      tts:
+        delivery: 满不在乎又爱拿主意，语调里带着公鸡啼叫的昂扬
+        timbre: 洪亮结实
+        pace: 中等
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 年年答应的鞋
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 这个故事得学着公鸡和母鸡的叫声来讲。
+        - id: ch01-b02
+          speaker: hen
+          text: 你一年又一年地答应给我鞋。都答应这么多年了，我怎么还是一双鞋也没有？
+        - id: ch01-b03
+          speaker: cock
+          text: 会有的，会有的，别担心！咯咯，我的小母鸡！
+    - id: ch02
+      title: 下蛋还是光脚
+      blocks:
+        - id: ch02-b01
+          speaker: hen
+          text: 我下一只蛋，又下一只蛋，一只接着一只，可我到现在还是光着脚走路！
+    - id: ch03
+      title: 拿蛋去赶集
+      blocks:
+        - id: ch03-b01
+          speaker: cock
+          text: 那你就带上这些蛋去赶集，给自己买一双鞋吧。往后可别再光着脚啦！

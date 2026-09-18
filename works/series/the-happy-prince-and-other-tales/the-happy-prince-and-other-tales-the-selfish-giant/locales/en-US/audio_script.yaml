@@ -1,0 +1,292 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant storytelling with quiet gravity
+        timbre: clear and gentle
+        pace: measured
+        pitch: medium
+    giant:
+      display_name: Giant
+      tts:
+        delivery: gruff and forceful at first, growing gentle and loving
+        timbre: deep and broad
+        pace: measured
+        pitch: low
+    child_1:
+      display_name: First Child
+      tts:
+        delivery: bright, natural, and openhearted
+        timbre: young and clear
+        pace: natural
+        pitch: high
+    child_2:
+      display_name: Second Child
+      tts:
+        delivery: lively and sincere
+        timbre: young and light
+        pace: natural
+        pitch: high
+    child_3:
+      display_name: Third Child
+      tts:
+        delivery: warm and straightforward
+        timbre: young and soft
+        pace: natural
+        pitch: high
+    child_4:
+      display_name: Fourth Child
+      tts:
+        delivery: eager and candid
+        timbre: young and bright
+        pace: natural
+        pitch: high
+    snow:
+      display_name: Snow
+      tts:
+        delivery: pleased and possessive
+        timbre: soft and cool
+        pace: unhurried
+        pitch: medium-high
+    frost:
+      display_name: Frost
+      tts:
+        delivery: pleased and possessive
+        timbre: crisp and cool
+        pace: unhurried
+        pitch: medium
+    north_wind:
+      display_name: North Wind
+      tts:
+        delivery: booming and delighted by wild weather
+        timbre: rough and gusty
+        pace: brisk
+        pitch: low
+    autumn:
+      display_name: Autumn
+      tts:
+        delivery: firm and quietly judgmental
+        timbre: rich and mellow
+        pace: measured
+        pitch: medium-low
+    tree:
+      display_name: Tree
+      tts:
+        delivery: kind and encouraging
+        timbre: leafy and gentle
+        pace: slow
+        pitch: medium
+    little_boy:
+      display_name: Little Boy
+      tts:
+        delivery: soft, solemn, and loving
+        timbre: young and luminous
+        pace: unhurried
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The Garden and the Wall
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Every afternoon, as they came home from school, the children went to play in the Giant's garden. It was large and lovely, with soft green grass beneath their feet. Beautiful flowers shone here and there like stars. Twelve peach trees opened into delicate pink and pearl blossoms in spring, then carried rich fruit when autumn came.
+        - id: ch01-b02
+          speaker: narrator
+          text: Birds sat in the trees and sang so sweetly that the children would stop their games just to listen.
+        - id: ch01-b03
+          speakers: [child_1, child_2, child_3, child_4]
+          ensemble: chorus
+          text: We are so happy here!
+          emotion: happy
+        - id: ch01-b04
+          speaker: narrator
+          text: Then one day, the Giant came home. He had spent seven years visiting his friend, the Cornish ogre. By then, he had said everything he could think of, for he did not have much conversation. So he returned to his castle and found the children playing in his garden.
+        - id: ch01-b05
+          speaker: giant
+          text: What are you doing in here?
+          emotion: angry
+        - id: ch01-b06
+          speaker: narrator
+          text: His voice was so gruff that the children ran away.
+        - id: ch01-b07
+          speaker: giant
+          text: This garden belongs to me. Anyone can understand that. No one else is going to play here.
+        - id: ch01-b08
+          speaker: narrator
+          text: The Giant built a high wall all around the garden. Then he put up a notice warning that trespassers would be prosecuted. He was a very selfish Giant.
+        - id: ch01-b09
+          speaker: narrator
+          text: Now the poor children had nowhere to play. They tried the road, but it was dusty and covered with hard stones. They did not like it. After lessons, they wandered around the high wall and talked about the lovely garden hidden inside.
+        - id: ch01-b10
+          speakers: [child_1, child_2, child_3, child_4]
+          ensemble: chorus
+          text: We were so happy there.
+          emotion: sad
+    - id: ch02
+      title: Winter in the Garden
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Spring came to the whole country. Little blossoms appeared, and little birds began to sing. But winter stayed in the Selfish Giant's garden. With no children there, the birds would not sing, and the trees forgot to blossom.
+        - id: ch02-b02
+          speaker: narrator
+          text: Once, a beautiful flower lifted its head above the grass. Then it saw the notice on the wall. It felt so sorry for the children that it slipped back into the ground and went to sleep again.
+        - id: ch02-b03
+          speaker: narrator
+          text: Only the Snow and the Frost were pleased.
+        - id: ch02-b04
+          speakers: [snow, frost]
+          ensemble: duo
+          text: Spring has forgotten this garden, so we can live here all year!
+          emotion: happy
+        - id: ch02-b05
+          speaker: narrator
+          text: Snow spread her great white cloak over the grass, and Frost painted every tree silver. Then they invited the North Wind to stay. He arrived wrapped in furs. All day he roared around the garden and blew down the chimney pots.
+        - id: ch02-b06
+          speaker: north_wind
+          text: What a wonderful place! We must invite Hail to visit.
+          emotion: happy
+        - id: ch02-b07
+          speaker: narrator
+          text: Hail came too. For three hours each day, he rattled against the castle roof until he broke most of its slates. After that, he raced round and round the garden as fast as he could go. He was dressed in grey, and every breath from him felt like ice.
+        - id: ch02-b08
+          speaker: narrator
+          text: The Selfish Giant sat by his window and stared out at the cold white garden.
+        - id: ch02-b09
+          speaker: giant
+          text: Why is Spring taking so long? I do hope the weather changes soon.
+        - id: ch02-b10
+          speaker: narrator
+          text: But Spring never came, and neither did Summer. Beyond the wall, Autumn brought golden fruit to every garden. She gave nothing at all to the Giant's garden.
+        - id: ch02-b11
+          speaker: autumn
+          text: He is far too selfish.
+        - id: ch02-b12
+          speaker: narrator
+          text: So winter never left that garden, even while the seasons changed beyond its wall. Snow, Frost, Hail, and the North Wind danced among the trees all year long.
+    - id: ch03
+      title: Spring Returns
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: One morning, the Giant lay awake in bed and heard lovely music. It sounded so sweet that he thought the King's musicians must be passing outside. But it was only a little linnet singing near his window. No bird had sung in the garden for such a long time that this small song seemed to him like the most beautiful music in the whole world.
+        - id: ch03-b02
+          speaker: narrator
+          text: Hail stopped dancing above the Giant's head. The North Wind fell silent. A delicious perfume drifted in through the open window.
+        - id: ch03-b03
+          speaker: giant
+          text: I think Spring has come at last!
+          emotion: surprised
+        - id: ch03-b04
+          speaker: narrator
+          text: He leaped out of bed and looked outside. And what did he see? It was a wonderful sight. The children had crept through a small hole in the wall and climbed into the trees. There was a child in every tree he could see.
+        - id: ch03-b05
+          speaker: narrator
+          text: The trees were so glad to have the children back that they covered themselves with blossoms. Their branches moved like welcoming arms, waving gently over the children's heads. Birds flew about and twittered with delight. Down in the green grass, the flowers lifted their faces and seemed to laugh.
+        - id: ch03-b06
+          speaker: narrator
+          text: Yet one far corner of the garden was still trapped in winter. A very small boy stood there. He could not reach the branches of the tree, and he wandered around it, crying bitterly. The tree was covered in snow and frost, with the North Wind roaring above it.
+        - id: ch03-b07
+          speaker: tree
+          text: Climb up, little boy!
+        - id: ch03-b08
+          speaker: narrator
+          text: The tree bent its branches as low as it could, but the boy was too tiny to reach them.
+        - id: ch03-b09
+          speaker: narrator
+          text: As the Giant watched, his heart melted.
+        - id: ch03-b10
+          speaker: giant
+          text: How selfish I have been! Now I understand why Spring stayed away. I'll lift that poor little boy into the tree. Then I'll tear down the wall, and the garden will belong to the children forever.
+          emotion: sad
+        - id: ch03-b11
+          speaker: narrator
+          text: He was truly sorry for what he had done. He crept downstairs, softly opened the front door, and stepped into the garden. The children saw him and fled in fright. At once, winter covered the garden again.
+        - id: ch03-b12
+          speaker: narrator
+          text: Only the little boy stayed behind. His eyes were so full of tears that he could not see the Giant coming toward him. The Giant stole quietly up behind the child, lifted him gently in one great hand, and placed him safely among the branches of the tree.
+        - id: ch03-b13
+          speaker: narrator
+          text: At once, the tree burst into blossom, and birds came to sing in its branches. The little boy held out both arms, threw them around the Giant's neck, and kissed him.
+        - id: ch03-b14
+          speaker: narrator
+          text: When the other children saw that the Giant was no longer wicked, they ran back. Spring came with them.
+        - id: ch03-b15
+          speaker: giant
+          text: The garden is yours now, little children.
+        - id: ch03-b16
+          speaker: narrator
+          text: He took a great axe and knocked down the wall. At noon, people on their way to market saw the Giant playing with the children in the most beautiful garden they had ever seen.
+    - id: ch04
+      title: The Giant's Little Friend
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The children played all day. That evening, they came to say good-bye to the Giant.
+        - id: ch04-b02
+          speaker: giant
+          text: Where is your little friend, the boy I lifted into the tree?
+        - id: ch04-b03
+          speaker: narrator
+          text: The Giant meant the little boy he had placed in the tree. He loved that boy best of all, because the child had thrown his arms around him and kissed him.
+        - id: ch04-b04
+          speakers: [child_1, child_2, child_3, child_4]
+          ensemble: chorus
+          text: We don't know. He has gone away.
+        - id: ch04-b05
+          speaker: giant
+          text: Be sure to tell him to come back tomorrow.
+        - id: ch04-b06
+          speaker: narrator
+          text: But the children had never seen the boy before. They did not know where he lived, and the Giant felt very sad.
+        - id: ch04-b07
+          speaker: narrator
+          text: After that, the children came every afternoon when school was over, and they played with the Giant in his garden. But the little boy he loved never appeared again. The Giant was kind to every child, though he still longed for his first little friend and often spoke about him.
+        - id: ch04-b08
+          speaker: giant
+          text: How I wish I could see him again!
+          emotion: sad
+        - id: ch04-b09
+          speaker: narrator
+          text: Many years passed, and the Giant grew very old and weak. He could no longer run about or join in the games. Instead, he sat in a huge armchair, watching the children as they played and admiring the garden around them.
+        - id: ch04-b10
+          speaker: giant
+          text: My garden has many beautiful flowers, but the children are the most beautiful flowers of all.
+    - id: ch05
+      title: The Garden of Paradise
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: One winter morning, the Giant looked out of his window while he was dressing. He no longer hated winter. Now he knew it was only spring asleep, while the flowers rested.
+        - id: ch05-b02
+          speaker: narrator
+          text: Suddenly, he rubbed his eyes in wonder and looked again and again. He could hardly believe the marvelous sight. In the farthest corner stood a tree covered with lovely white blossoms. Every branch was golden, silver fruit hung down from them, and underneath stood the little boy he had loved.
+        - id: ch05-b03
+          speaker: narrator
+          text: Filled with joy, the Giant ran downstairs and out into the garden. He hurried over the grass toward the child. But when he came close, his face reddened with anger. Two nail marks showed on the child's palms, and two more marked his little feet.
+        - id: ch05-b04
+          speaker: giant
+          text: Who dared to wound you?
+          emotion: angry
+        - id: ch05-b05
+          speaker: giant
+          text: Tell me who did this, and I will take my great sword and kill him!
+          emotion: angry
+        - id: ch05-b06
+          speaker: little_boy
+          text: No, these are the wounds of Love.
+        - id: ch05-b07
+          speaker: giant
+          text: Who are you?
+          emotion: surprised
+        - id: ch05-b08
+          speaker: narrator
+          text: A strange awe came over the Giant, and he knelt before the little child. The child smiled at him.
+        - id: ch05-b09
+          speaker: little_boy
+          text: Once, you let me play in your garden. Today, you will come with me to my garden, which is Paradise.
+        - id: ch05-b10
+          speaker: narrator
+          text: That afternoon, the children ran into the garden. Beneath the tree, they found the Giant lying dead, covered all over with white blossoms.

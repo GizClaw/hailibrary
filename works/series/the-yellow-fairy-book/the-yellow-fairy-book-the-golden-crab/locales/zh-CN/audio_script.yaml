@@ -1,0 +1,241 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 沉静从容，带着古老童话的神秘与温情
+        timbre: 温暖清朗
+        pace: 舒缓而富有变化
+        pitch: 中音
+    fisher_wife:
+      display_name: 渔夫妻子
+      tts:
+        delivery: 爽利务实，惊讶时毫不掩饰
+        timbre: 明亮质朴
+        pace: 适中
+        pitch: 中高音
+    crab_prince:
+      display_name: 金蟹王子
+      tts:
+        delivery: 温和坚定，带着年轻王子的从容与忧伤
+        timbre: 清朗柔和
+        pace: 适中
+        pitch: 中音
+    king:
+      display_name: 国王
+      tts:
+        delivery: 谨慎威严，习惯用考验作决定
+        timbre: 浑厚端正
+        pace: 适中
+        pitch: 中低音
+    princess:
+      display_name: 公主
+      tts:
+        delivery: 温柔真挚，危急时容易慌乱
+        timbre: 清澈柔美
+        pace: 适中
+        pitch: 中高音
+    queen:
+      display_name: 王后
+      tts:
+        delivery: 强势急躁，发怒时尖锐逼人
+        timbre: 华贵清亮
+        pace: 稍快
+        pitch: 中高音
+    old_man:
+      display_name: 老人
+      tts:
+        delivery: 谨慎善良，讲述奇遇时朴实认真
+        timbre: 苍老温暖
+        pace: 稍缓
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 会说话的金蟹
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前有个渔夫，和妻子、三个孩子一起生活。他每天清早出门打鱼，再把捕到的鱼卖给国王。一天，他在鱼群里捞到一只金色的螃蟹。那只小螃蟹闪闪发亮，美得出奇。渔夫舍不得把它和鱼混在一起，便单独放在碗橱的高架上。
+        - id: ch01-b02
+          speaker: narrator
+          text: 妻子忙着收拾鱼，挽起的裙子露出了双脚。忽然，一个细小的声音响了起来。
+        - id: ch01-b03
+          speaker: crab_prince
+          text: 快放下，快放下你的裙裳，别让人把你的双脚瞧见。
+        - id: ch01-b04
+          speaker: narrator
+          text: 她吃惊地转过身，这才发现说话的竟是金蟹。那番挑剔的话叫她有点不痛快。
+        - id: ch01-b05
+          speaker: fisher_wife
+          text: 什么？你这只可笑的螃蟹，居然还会说话？
+          emotion: surprised
+        - id: ch01-b06
+          speaker: narrator
+          text: 她把金蟹拿下来，放进盘子。丈夫回家后，一家人围坐吃饭，那个细小的声音又响了。
+        - id: ch01-b07
+          speaker: crab_prince
+          text: 也分一点儿给我吧。
+        - id: ch01-b08
+          speaker: narrator
+          text: 大家虽然惊讶，还是给了它一些食物。饭后，老渔夫来收盘子，竟看见里面装满了金子。从此天天如此，他很快便真心喜欢上了金蟹。
+        - id: ch01-b09
+          speaker: crab_prince
+          text: 请你去见国王，告诉他，我想娶他的小女儿。
+        - id: ch01-b10
+          speaker: narrator
+          text: 渔夫妻子把这桩奇事禀告国王。国王想到女儿要嫁给一只螃蟹，忍不住笑了。不过他很谨慎，猜想金蟹也许是中了魔法的王子，所以没有直接回绝。
+        - id: ch01-b11
+          speaker: king
+          text: 告诉它，明早以前，要在城堡前筑起一道比塔楼高得多的墙，墙上还得开遍世间所有的花。它若能办到，我就把女儿嫁给它。
+        - id: ch01-b12
+          speaker: narrator
+          text: 金蟹听完口信，交给老妇人一根金杖。
+        - id: ch01-b13
+          speaker: crab_prince
+          text: 到国王指定的地方，用金杖在地上敲三下。明天早晨，那道墙就会在那里。
+        - id: ch01-b14
+          speaker: narrator
+          text: 老妇人照办以后便离开了。第二天早晨，国王从睡梦中醒来。你猜他看见了什么？那道开满天下花朵的高墙果然立在眼前，比塔楼还高，和他的要求分毫不差。
+        - id: ch01-b15
+          speaker: fisher_wife
+          text: 陛下，您吩咐的事已经办到了。
+        - id: ch01-b16
+          speaker: king
+          text: 墙是很好，可还不够。宫殿前还要有一座花园，园里三眼喷泉，一眼喷金子，一眼喷钻石，最后一眼喷明亮的宝石。
+        - id: ch01-b17
+          speaker: narrator
+          text: 老妇人只好又拿金杖在地上敲了三下。次日早晨，宫殿前果然出现一座花园，三眼喷泉也各自喷着国王所要的珍宝。国王终于答应婚事，婚礼就定在第二天。
+    - id: ch02
+      title: 白昼与黑夜
+      blocks:
+        - id: ch02-b01
+          speaker: crab_prince
+          text: 拿着金杖去敲那座指定的山。出来的摩尔人若问你要什么，就说，他的主人国王要那件像太阳一样的金衣。还要带回那套像百花草地一样、缀满黄金宝石的王后礼服，再拿一只金垫子。
+        - id: ch02-b02
+          speaker: narrator
+          text: 老渔夫来到指定的山前，用金杖敲了敲山。摩尔人出来询问，他便照金蟹教的话索要衣物。等珍贵的衣服都带回家，金蟹穿上那件像太阳一样灿烂的金衣，爬到金垫子上。老渔夫就这样托着它走进城堡。金蟹把那套缀满黄金和宝石、宛如百花草地的礼服献给新娘，婚礼随即举行。
+        - id: ch02-b03
+          speaker: narrator
+          text: 新婚夫妇单独相处时，金蟹终于向年轻的妻子说出秘密。它本是世上最强大国王的儿子，却中了魔法。每到白天，它只能做一只螃蟹，只有夜晚才能恢复人形。只要它愿意，也可以随时变成一只雄鹰。
+        - id: ch02-b04
+          speaker: narrator
+          text: 话刚说完，金蟹抖了抖身子，立刻变成英俊的青年。可天一亮，他又得钻回蟹壳。日子就这样一天天过去。公主始终爱护他，待他温柔有礼，王室一家却越看越疑惑。他们暗中窥探了许多次，仍旧找不到答案。
+        - id: ch02-b05
+          speaker: narrator
+          text: 一年就这样过去了，公主生下一个儿子，取名本杰明。王后还是觉得这桩婚姻古怪，便劝国王问问女儿，愿不愿意离开金蟹，另选一个丈夫。
+        - id: ch02-b06
+          speaker: princess
+          text: 我嫁的是金蟹，这一生也只要他。
+        - id: ch02-b07
+          speaker: king
+          text: 那我就为你举办比武大会，把天下的王子都请来。谁要是能让你动心，你便嫁给谁。
+        - id: ch02-b08
+          speaker: narrator
+          text: 当天晚上，公主把父亲安排比武大会的事全告诉了丈夫。金蟹听完，把那根金杖交给她，又仔细说明该怎样取得比武所需的东西。
+        - id: ch02-b09
+          speaker: crab_prince
+          text: 到花园门口敲一敲。摩尔人问你为何召唤他，就说，他的主人国王要自己的金甲、骏马和银苹果。把那些东西带回来。
+        - id: ch02-b10
+          speaker: narrator
+          text: 公主来到花园门口，用金杖敲了敲。摩尔人果然出来，问她为什么召唤自己，又要自己做什么。公主照着金蟹教的话回答，最后把金甲、骏马和银苹果全都带回房中。
+    - id: ch03
+      title: 两场比武
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 第二天傍晚，王子穿戴整齐，准备去参加比武。临走前，他再三叮嘱妻子。
+        - id: ch03-b02
+          speaker: crab_prince
+          text: 你看见我时，千万别说我就是金蟹，否则会有灾祸。你和姐姐们站在窗口，我会把银苹果抛给你。她们若问我是谁，你只管说不知道。
+        - id: ch03-b03
+          speaker: narrator
+          text: 他吻别公主，又警告一次才离开。公主和姐姐们来到窗口观看比武。王子骑马经过，把银苹果抛了上来。公主接住苹果，带回自己的房间，过了一阵，丈夫也回来了。
+        - id: ch03-b04
+          speaker: narrator
+          text: 国王本以为女儿会从那些王子中挑选一个丈夫，可她似乎对谁都不动心，这叫国王大为惊讶。于是，他又安排了第二场比武。金蟹仍照上次那样吩咐妻子，只是这一回，她从摩尔人那里带回的是一只金苹果。
+        - id: ch03-b05
+          speaker: crab_prince
+          text: 我知道，你今天会把我的秘密说出去。
+        - id: ch03-b06
+          speaker: princess
+          text: 我向你发誓，绝不会告诉别人你是谁。
+        - id: ch03-b07
+          speaker: narrator
+          text: 王子又叮嘱一遍，才赶往比武场。傍晚，公主正和母亲、姐姐们站在窗口，他忽然策马飞奔而过，把金苹果抛给了她。
+        - id: ch03-b08
+          speaker: queen
+          text: 连那位王子也不能叫你称心吗？你这个傻姑娘！
+          emotion: angry
+        - id: ch03-b09
+          speaker: narrator
+          text: 王后盛怒之下打了女儿一记耳光。公主吓得脱口而出。
+        - id: ch03-b10
+          speaker: princess
+          text: 他就是金蟹呀！
+          emotion: fearful
+        - id: ch03-b11
+          speaker: narrator
+          text: 王后发现女儿一直瞒着自己，比刚才更加恼火。她立刻冲进女儿的房间，看见蟹壳还留在那里，便一把抓起来扔进火里。可怜的公主伤心地哭个不停，可哭得再厉害也挽回不了什么。她的丈夫没有回来。
+    - id: ch04
+      title: 地下宫殿
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 这时，故事要暂且离开公主。一天，有个老人来到溪边，想蘸湿一块面包皮再吃。一条狗突然从水里蹿出来，抢走面包就跑。老人一路追赶，看见狗推开一扇门钻了进去，也跟着进了门。
+        - id: ch04-b02
+          speaker: narrator
+          text: 老人跟进门，却没能追上那条狗，反而站在一道楼梯顶端。他顺着楼梯一直往下走，眼前出现一座宏伟的宫殿。走进宫殿，他看见宽阔的大厅里摆着一张餐桌，上面已经放好十二个人的餐具。老人躲到一幅巨大画像后面，想看清这里究竟会发生什么。
+        - id: ch04-b03
+          speaker: narrator
+          text: 正午时分，一阵巨响传来，老人吓得浑身发抖。过了一会儿，他才鼓起勇气从画像后面探头张望。只见十二只雄鹰飞进大厅，他心里的恐惧更深了。雄鹰一起落到那眼石喷泉的水池里洗浴，忽然全都变成了英俊青年，然后围着餐桌坐下。
+        - id: ch04-b04
+          speaker: crab_prince
+          text: 祝我的父亲安康！
+        - id: ch04-b05
+          speaker: narrator
+          text: 另一位青年接着举杯，祝自己的母亲安康。随后一个又一个，十二个青年依次说出祝酒的话。轮到金蟹王子时，他端起斟满葡萄酒的酒杯。
+        - id: ch04-b06
+          speaker: crab_prince
+          text: 愿我最亲爱的妻子安康，愿她一生长寿无恙！可恨那残忍的母亲，竟把我的金壳烧光！
+          emotion: sad
+        - id: ch04-b07
+          speaker: narrator
+          text: 王子说完，伤心地哭了。青年们离开餐桌，回到石喷泉里，再次化作雄鹰，展翅飞走。
+        - id: ch04-b08
+          speaker: narrator
+          text: 老人也离开地下宫殿，沿着原路回到阳光照耀的地面，随后回了家。没过多久，他听说公主病了，只有听别人讲故事时，病情才会好转。老人便来到王宫，请求拜见公主，把自己在地下宫殿见到的奇景一件件讲给她听。他刚讲完，公主立刻问道。
+        - id: ch04-b09
+          speaker: princess
+          text: 你还能找到那座宫殿吗？
+        - id: ch04-b10
+          speaker: old_man
+          text: 能，当然能。
+    - id: ch05
+      title: 画像后的重逢
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 公主请老人马上带路。两人来到地下宫殿，老人让她藏在那幅巨大画像后面，叮嘱她一定保持安静，自己也躲了进去。不久，十二只雄鹰飞进大厅，在喷泉里纷纷变成青年。公主一眼便从十二个人中认出了丈夫，激动得想冲出藏身处，却被老人紧紧拉住。
+        - id: ch05-b02
+          speaker: narrator
+          text: 青年们围桌坐好。王子又端起那杯酒。
+        - id: ch05-b03
+          speaker: crab_prince
+          text: 愿我最亲爱的妻子安康，愿她一生长寿无恙！可恨那残忍的母亲，竟把我的金壳烧光！
+          emotion: sad
+        - id: ch05-b04
+          speaker: narrator
+          text: 公主再也忍不住，奔出藏身处，紧紧抱住丈夫。王子立刻认出了她。
+        - id: ch05-b05
+          speaker: crab_prince
+          text: 你还记得吗？那天我说过，你会泄露我的秘密。现在你知道，我的话没有错。不过，那段苦日子已经过去了。魔法还要三个月才会解除。你愿意留在这里，陪我等到那一天吗？
+        - id: ch05-b06
+          speaker: narrator
+          text: 公主答应留下，又托老人回王宫传话。
+        - id: ch05-b07
+          speaker: princess
+          text: 请告诉我的父母，我要留在这里陪伴丈夫。
+        - id: ch05-b08
+          speaker: narrator
+          text: 老人回到王宫，把这个消息告诉公主的父母。国王和王后听说女儿要留在地下宫殿，都十分恼火。可是三个月一满，王子身上的魔法终于解除。他不再变成雄鹰，重新做回了人。夫妻俩一同回到家，从此幸福地生活下去。而我们这些听完故事的人，比他们还要幸福。

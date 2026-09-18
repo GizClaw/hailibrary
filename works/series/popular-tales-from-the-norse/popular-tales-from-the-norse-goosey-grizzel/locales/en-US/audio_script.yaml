@@ -1,0 +1,278 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    grizzel:
+      display_name: Grizzel
+      tts:
+        delivery: loud, stubborn, and confidently inquisitive
+        timbre: strong and earthy
+        pace: brisk
+        pitch: medium-high
+    widower:
+      display_name: The Widower
+      tts:
+        delivery: dry and evasive
+        timbre: weathered and plain
+        pace: measured
+        pitch: medium-low
+    thief_one:
+      display_name: First Thief
+      tts:
+        delivery: wary and impatient
+        timbre: rough and lean
+        pace: quick
+        pitch: medium
+    thief_two:
+      display_name: Second Thief
+      tts:
+        delivery: nervous and blunt
+        timbre: husky and tight
+        pace: quick
+        pitch: medium-low
+    turnip_farmer:
+      display_name: Turnip Farmer
+      tts:
+        delivery: practical but fearful
+        timbre: broad and weathered
+        pace: moderate
+        pitch: low
+    goodwife:
+      display_name: Goodwife
+      tts:
+        delivery: sensible and matter-of-fact
+        timbre: clear and mature
+        pace: measured
+        pitch: medium
+    priest_maid:
+      display_name: Priest's Maid
+      tts:
+        delivery: respectful and efficient
+        timbre: light and clear
+        pace: moderate
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: Grizzel Leaves Home
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, a widower had a housekeeper named Grizzel. She had set her heart on marrying him, and she pestered him about it morning and night. At last, the poor man was so tired of hearing it that he could think of nothing but how to be rid of her.
+        - id: ch01-b02
+          speaker: narrator
+          text: One day, between haymaking and harvest, they went out together to pull hemp. Grizzel kept thinking about her fine looks and how useful she was. She worked on until the strong smell of the ripe seed made her dizzy. Then down she dropped among the hemp, fast asleep.
+        - id: ch01-b03
+          speaker: narrator
+          text: While she slept, her master fetched a pair of scissors and snipped her skirts short all the way around. Next he smeared her from head to foot with tallow, then covered her with soot. Even her face was black. By the time he finished, she looked worse than the Devil himself.
+        - id: ch01-b04
+          speaker: narrator
+          text: When Grizzel woke and saw what she looked like, she did not recognize herself at all.
+        - id: ch01-b05
+          speaker: grizzel
+          text: Can this really be me? No, no, it cannot be. I was never so ugly. This must be the Devil himself!
+          emotion: surprised
+        - id: ch01-b06
+          speaker: narrator
+          text: There was one way to learn the truth. Grizzel went to her master's house and knocked at the door.
+        - id: ch01-b07
+          speaker: grizzel
+          text: Father, is your Girzie at home today?
+        - id: ch01-b08
+          speaker: widower
+          text: Oh yes. Our Girzie is safe at home.
+        - id: ch01-b09
+          speaker: narrator
+          text: That was just the answer he gave, because he wanted her gone.
+        - id: ch01-b10
+          speaker: grizzel
+          text: Well, then I cannot be his Grizzel.
+        - id: ch01-b11
+          speaker: narrator
+          text: So she slipped away, and I can tell you, the widower was very glad to see her go.
+        - id: ch01-b12
+          speaker: narrator
+          text: After walking for a while, Grizzel came to a great wood and met two thieves. Since she believed she was the Devil, she thought thieves were exactly the sort of fellows she ought to join.
+        - id: ch01-b13
+          speaker: narrator
+          text: The thieves thought very differently. One look at that black, ugly figure sent them running for their lives. They were sure the Evil One had come to catch them. But Grizzel had long legs and quick feet. Before they knew it, she caught up.
+        - id: ch01-b14
+          speaker: grizzel
+          text: If you are going out to steal, let me come and help. I know all the country around here.
+        - id: ch01-b15
+          speaker: narrator
+          text: At that, the thieves decided she might make a useful companion, and their fear left them.
+    - id: ch02
+      title: A Sheep in the Night
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The thieves told Grizzel they meant to steal a sheep, but they had no idea where to find one.
+        - id: ch02-b02
+          speaker: grizzel
+          text: That is easy. I worked for a farmer beyond this wood for a very long time. I could find his sheepfold even on a night as black as pitch.
+        - id: ch02-b03
+          speaker: narrator
+          text: The thieves liked that plan. When they reached the farm, they told Grizzel to go into the fold and drive out a sheep. They would wait outside and seize it.
+        - id: ch02-b04
+          speaker: narrator
+          text: The fold stood right against the wall of the room where the farmer slept. Grizzel crept in softly and carefully. But the moment she was among the sheep, she called to the thieves at the top of her voice.
+        - id: ch02-b05
+          speaker: grizzel
+          text: Do you want a wether or a ewe? There are plenty here to choose from!
+        - id: ch02-b06
+          speakers: [thief_one, thief_two]
+          ensemble: duo
+          text: Hush! Just take one that is fine and fat!
+        - id: ch02-b07
+          speaker: grizzel
+          text: Yes, yes, but which shall it be? A wether or a ewe? There are so many to choose from!
+        - id: ch02-b08
+          speakers: [thief_one, thief_two]
+          ensemble: duo
+          text: Be quiet! Pick a fine, fat one. We do not care whether it is a wether or a ewe!
+        - id: ch02-b09
+          speaker: narrator
+          text: Still Grizzel would not let the question go.
+        - id: ch02-b10
+          speaker: grizzel
+          text: But do you want a wether or a ewe? A wether or a ewe? You have plenty to choose from!
+        - id: ch02-b11
+          speakers: [thief_one, thief_two]
+          ensemble: duo
+          text: Shut your mouth and take a fat one! Wether or ewe, it is all the same to us!
+          emotion: angry
+        - id: ch02-b12
+          speaker: narrator
+          text: All that clamor woke the farmer. Out he came in his shirt to see what was happening. The thieves fled at once, with Grizzel racing after them. As she rushed away, she knocked the farmer over.
+        - id: ch02-b13
+          speaker: grizzel
+          text: Wait, boys! Wait for me!
+        - id: ch02-b14
+          speaker: narrator
+          text: The farmer had only caught a glimpse of a black monster, and now he could scarcely stand for fear. He was certain the Devil himself had been inside his sheepfold. He hurried back indoors and woke the whole household. Then they all sat down to read and pray, because he had heard that was the way to send the Devil away.
+    - id: ch03
+      title: Goose or Gander
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The next night, the thieves decided to steal a fat goose, and once again Grizzel showed them the way. At the goosepen, they sent her inside to drive one out while they waited to catch it.
+        - id: ch03-b02
+          speaker: narrator
+          text: No sooner had Grizzel stepped inside than she began shouting.
+        - id: ch03-b03
+          speaker: grizzel
+          text: Shall I bring you a goose or a gander? You can take your pick!
+        - id: ch03-b04
+          speakers: [thief_one, thief_two]
+          ensemble: duo
+          text: Hush! Just choose one that is fine and fat!
+        - id: ch03-b05
+          speaker: grizzel
+          text: I hear you, but do you want a goose or a gander? Goose or gander? You may choose whichever you like!
+        - id: ch03-b06
+          speakers: [thief_one, thief_two]
+          ensemble: duo
+          text: Keep quiet! Choose a fine, fat bird. Goose or gander makes no difference to us. Only stop that shouting!
+        - id: ch03-b07
+          speaker: narrator
+          text: While Grizzel and the thieves argued, one goose began to cackle. Another joined in. Soon the whole flock was cackling and hissing. The farmer came out to discover what the noise meant.
+        - id: ch03-b08
+          speaker: narrator
+          text: Away ran the thieves, and Grizzel tore after them at full speed. The farmer saw the black figure flying off and thought the Devil had returned. Grizzel was long-legged, and her shortened skirts did nothing to slow her down.
+        - id: ch03-b09
+          speaker: grizzel
+          text: Wait a moment, boys! You could at least have told me whether you wanted a goose or a gander!
+        - id: ch03-b10
+          speaker: narrator
+          text: The thieves felt they had no time to stop. The farmer gathered everyone in his house, young and old, and again they began to read and pray. None of them doubted that the Devil had come.
+    - id: ch04
+      title: The Rich Farmer's Larder
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: On the third night, Grizzel and the thieves were so hungry that they did not know what to do. At last, they decided to raid the larder of a rich farmer who lived beside the wood, and off they went together.
+        - id: ch04-b02
+          speaker: narrator
+          text: The thieves were afraid to go in themselves. They sent Grizzel up the steps to the larder and waited below for her to pass the food down.
+        - id: ch04-b03
+          speaker: narrator
+          text: Inside, Grizzel found every sort of food. There was fresh meat and salted meat, sausages, and oatcake. The thieves begged her to make no sound. They told her to throw down anything they could eat and remember how badly their first two nights had gone. But Grizzel insisted on asking them to choose.
+        - id: ch04-b04
+          speaker: grizzel
+          text: What would you like? Fresh meat, salted meat, sausages, or oatcake? Oh, look at this lovely oatcake! You may have anything you please. There is plenty here to choose from!
+        - id: ch04-b05
+          speaker: narrator
+          text: She bawled so loudly that it was enough to split your head. The farmer woke and ran out to learn what all the noise was about. The thieves raced away. As the farmer watched them go, Grizzel came down the steps, black and ugly as ever.
+        - id: ch04-b06
+          speaker: grizzel
+          text: Wait, boys! Wait! You may have anything you like. There is plenty to choose from!
+        - id: ch04-b07
+          speaker: narrator
+          text: The farmer had heard what happened to his neighbors on the two nights before. When he saw that ugly creature, he too believed the Devil was loose. He began to read and pray. Soon everyone in the whole parish was reading and praying, because they knew the Devil could be read away.
+    - id: ch05
+      title: The Devil in the Turnips
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The following evening was Saturday. The thieves wanted a fat ram for their Sunday dinner, and no wonder, for they had gone hungry for days. This time, though, they would not take Grizzel at any price. They said her endless shouting brought nothing but bad luck.
+        - id: ch05-b02
+          speaker: narrator
+          text: On Sunday morning, Grizzel wandered about waiting for them. After three days without food, she was terribly hungry. At last, she entered a turnip field and began pulling turnips to eat.
+        - id: ch05-b03
+          speaker: narrator
+          text: The farmer who owned the field woke with an uneasy feeling. He put on his trousers and went to check his turnips. To reach the field beneath the hill, he had to cross a stretch of wet moss.
+        - id: ch05-b04
+          speaker: narrator
+          text: When he reached the bottom of the field, he saw something black moving among the turnips and pulling them from the earth. He quickly decided it was the Devil. Home he ran, crying that the Devil was in his turnip patch.
+        - id: ch05-b05
+          speaker: narrator
+          text: Everyone in the house was frightened out of their wits. They agreed to send for the priest and ask him to bind the Devil.
+        - id: ch05-b06
+          speaker: goodwife
+          text: That will never work. It is Sunday morning. The priest will not come. He is either still in bed, or he is up learning his sermon by heart.
+        - id: ch05-b07
+          speaker: turnip_farmer
+          text: Do not worry. I will promise him a fat loin of veal. That will bring him quickly enough.
+        - id: ch05-b08
+          speaker: narrator
+          text: The farmer hurried to the priest's house. Sure enough, the priest was still in bed. His maid showed the visitor into the parlor, then went upstairs.
+        - id: ch05-b09
+          speaker: priest_maid
+          text: Farmer So-and-So is waiting downstairs. He would like a word with you.
+        - id: ch05-b10
+          speaker: narrator
+          text: The priest heard that such a worthy man had come to see him. He rose at once and went downstairs exactly as he was, wearing his slippers and nightcap.
+        - id: ch05-b11
+          speaker: narrator
+          text: The farmer explained that the Devil was loose in his turnip field. If the priest would come and bind him, the farmer promised to send over a fat loin of veal. The priest readily agreed and called for his groom to saddle the horse while he dressed.
+        - id: ch05-b12
+          speaker: turnip_farmer
+          text: No, no, Father! The Devil will not wait. If we miss him now, who knows where we will find him again? Your reverence must come just as you are.
+        - id: ch05-b13
+          speaker: narrator
+          text: So the priest followed in his nightcap and slippers, without changing his clothes. When the two men reached the moss, the ground was far too wet for the priest to cross in slippers. The farmer lifted him onto his back.
+        - id: ch05-b14
+          speaker: narrator
+          text: On they went, with the farmer stepping carefully from one grassy clump to the next. They had reached the middle when Grizzel spotted them. She thought the thieves were bringing home the ram.
+        - id: ch05-b15
+          speaker: grizzel
+          text: Is he fat? Is he fat?
+        - id: ch05-b16
+          speaker: narrator
+          text: Her cry was so loud that it rang through the wood.
+        - id: ch05-b17
+          speaker: turnip_farmer
+          text: The Devil knows whether he is fat or lean. I certainly do not! If you want to know, come and see for yourself!
+          emotion: fearful
+        - id: ch05-b18
+          speaker: narrator
+          text: Fear seized the farmer. He flung the priest head over heels into the soft, wet moss and ran for his life.
+        - id: ch05-b19
+          speaker: narrator
+          text: And if the priest never climbed out, I daresay he is lying there still.

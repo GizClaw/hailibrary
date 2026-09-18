@@ -1,0 +1,256 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，带着温和的学者式幽默
+        timbre: 温暖清晰，沉稳而不厚重
+        pace: 舒缓，遇到年代与专名时略作停顿
+        pitch: 中音
+    shahriar:
+      display_name: 山鲁亚尔
+      tts:
+        delivery: 威严冷峻，话语简短而不容违抗
+        timbre: 深沉有力，带着阴郁的锋芒
+        pace: 稳重偏慢，威胁时字字分明
+        pitch: 低音
+    scheherazade:
+      display_name: 山鲁佐德
+      tts:
+        delivery: 聪慧坚定，从容中含着勇气
+        timbre: 清亮柔和，意志坚韧
+        pace: 从容清楚，关键请求略作停顿
+        pitch: 中音
+    dinarzade:
+      display_name: 迪娜佐德
+      tts:
+        delivery: 真挚柔顺，依照姐姐嘱咐时自然恳切
+        timbre: 年轻清澈，温柔亲近
+        pace: 轻缓流畅
+        pitch: 中高音
+    merchant:
+      display_name: 商人
+      tts:
+        delivery: 诚恳持重，遇险时惊惧却不失信义
+        timbre: 成熟清晰，带着旅途劳顿后的沙哑
+        pace: 平稳，哀求时稍快
+        pitch: 中低音
+    genius:
+      display_name: 精灵
+      tts:
+        delivery: 暴烈森严，发怒时咄咄逼人
+        timbre: 粗粝浑厚，带着可怖的压迫感
+        pace: 缓慢沉重，威吓时突然加重
+        pitch: 低音
+    merchant_wife:
+      display_name: 商人的妻子
+      tts:
+        delivery: 关切真挚，觉察噩耗时急切不安
+        timbre: 温厚清楚，带着成熟女性的柔和
+        pace: 自然适中，追问时稍快
+        pitch: 中音
+    old_man_hind:
+      display_name: 牵母鹿的老人
+      tts:
+        delivery: 谦和稳重，面对精灵时恭敬而勇敢
+        timbre: 苍老醇厚，语气沉着
+        pace: 从容偏慢，请求时字句清楚
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 泉边的精灵
+      blocks:
+        - id: ch01-b01
+          speaker: scheherazade
+          text: 陛下，从前有个商人十分富有。他有田产，有货物，也有大笔现钱。为了料理各处的生意，他常要出门远行。
+        - id: ch01-b02
+          speaker: narrator
+          text: |-
+            一天，商人要去很远的地方。他骑上马，随身带着一个小袋，里面只装了几块饼干和一些椰枣。一路要穿过没有食物的沙漠，这些就是他的干粮。他平安抵达，办完生意，又往家赶。回程第四天，太阳晒得人难以忍受，他便离开大路，到几棵树下歇脚。
+        - id: ch01-b03
+          speaker: narrator
+          text: |-
+            一棵大胡桃树下，有一眼清亮的活泉。商人下马，把马拴在树枝上，坐到泉边吃了些饼干和椰枣。简单吃完一餐，他正在泉水里洗脸洗手，忽然看见一个身形巨大的精灵走了过来。精灵气得脸色煞白，手里还握着一把弯刀。
+        - id: ch01-b04
+          speaker: genius
+          text: 起来！你杀了我的儿子，我也要杀了你！
+          emotion: angry
+        - id: ch01-b05
+          speaker: narrator
+          text: 精灵说完，又发出一声骇人的咆哮。商人望着怪物那张可怕的脸，再想到他刚才的话，顿时吓得浑身发抖。
+        - id: ch01-b06
+          speaker: merchant
+          text: 好先生，我究竟做了什么，竟然该死？
+          emotion: fearful
+        - id: ch01-b07
+          speaker: genius
+          text: 你杀了我的儿子，我就要你的命。
+          emotion: angry
+        - id: ch01-b08
+          speaker: merchant
+          text: 我怎么可能杀他呢？我不认识您的儿子，连见都没有见过他。
+        - id: ch01-b09
+          speaker: genius
+          text: 你来到这里，是不是坐在了地上？是不是从袋里拿出椰枣，一边吃，一边把枣核到处乱扔？
+        - id: ch01-b10
+          speaker: merchant
+          text: 是的，我的确这样做了。
+        - id: ch01-b11
+          speaker: genius
+          text: 那就没错了。你扔枣核时，我儿子正从旁边经过。一颗枣核打中他的眼睛，当场要了他的命。所以，你必须偿命。
+          emotion: angry
+        - id: ch01-b12
+          speaker: merchant
+          text: 先生，求您饶了我吧！
+          emotion: fearful
+        - id: ch01-b13
+          speaker: genius
+          text: 我不会饶你。
+          emotion: angry
+        - id: ch01-b14
+          speaker: merchant
+          text: 我根本无意伤害您的儿子。求您留下我的性命！
+          emotion: fearful
+        - id: ch01-b15
+          speaker: genius
+          text: 不行。你杀了我的儿子，我就杀了你。
+          emotion: angry
+        - id: ch01-b16
+          speaker: narrator
+          text: |-
+            精灵抓住商人的胳膊，把他摔倒在地，又高高举起弯刀，要砍下他的头。商人不断分辩，说自己绝不是有意杀死精灵的儿子。他想到再也见不到妻子儿女，悲声哭诉，苦苦求饶，只盼能躲过这场灾祸。精灵举着弯刀，一直等他说完，却没有一丝心软。
+    - id: ch02
+      title: 天亮时分
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: |-
+            故事说到这里，天已经亮了。山鲁佐德知道苏丹总是早早起身去议政，便停了下来。
+        - id: ch02-b02
+          speaker: dinarzade
+          text: 姐姐，这个故事真奇妙！
+          emotion: surprised
+        - id: ch02-b03
+          speaker: scheherazade
+          text: 后面的事才更加奇妙呢。若是苏丹准我再活一天，让我明夜接着讲，你听完就知道了。
+        - id: ch02-b04
+          speaker: narrator
+          text: |-
+            山鲁亚尔听得十分入迷。他暗自想，等到明天，听完这个故事以后，再杀她也不迟。
+        - id: ch02-b05
+          speaker: narrator
+          text: |-
+            这段时间里，大维齐尔一直忧心如焚。他以为苏丹很快就会下达那道可怕的命令。后来，他看见苏丹走进议政厅，却没有命他处死女儿，大维齐尔这才满心欢喜。
+        - id: ch02-b06
+          speaker: narrator
+          text: 第二天，天还没有亮，迪娜佐德就唤醒了姐姐。
+        - id: ch02-b07
+          speaker: dinarzade
+          text: 好姐姐，你若醒着，就接着讲那个故事吧。
+        - id: ch02-b08
+          speaker: narrator
+          text: 山鲁佐德还没来得及请求准许，苏丹已经开了口。
+        - id: ch02-b09
+          speaker: shahriar
+          text: 把精灵和商人的故事讲完。我要听听结局怎样。
+        - id: ch02-b10
+          speaker: narrator
+          text: |-
+            于是，山鲁佐德继续说了下去。此后每天清晨都是这样。苏丹王后讲一个故事，苏丹为了听到结局，便让她再活一天。
+    - id: ch03
+      title: 一年的约定
+      blocks:
+        - id: ch03-b01
+          speaker: scheherazade
+          text: 商人看出精灵当真要砍下自己的头，便又求了他一次。
+        - id: ch03-b02
+          speaker: merchant
+          text: 请您再听我说一句。给我一点时间，让我回家向妻子儿女告别，再立下遗嘱。等一切办好，我就回到这里，由您处置。
+        - id: ch03-b03
+          speaker: genius
+          text: 我要是答应了，你恐怕一去就不会回来。
+        - id: ch03-b04
+          speaker: merchant
+          text: 我用自己的名誉担保，一定回来，绝不失约。
+        - id: ch03-b05
+          speaker: genius
+          text: 你要多少时间？
+        - id: ch03-b06
+          speaker: merchant
+          text: 请宽限我一年。明年今日，我保证在这些树下等您，回来听凭您处置。
+        - id: ch03-b07
+          speaker: narrator
+          text: |-
+            精灵听了商人的保证，把他独自留在泉水旁，转眼便消失了。商人站在那里，慢慢从惊恐中缓过神来，这才骑上马，继续往家赶。
+        - id: ch03-b08
+          speaker: narrator
+          text: |-
+            妻子儿女见他归来，全都欢喜极了。商人却没有拥抱他们，反而放声痛哭。家人看他哭得那样悲切，很快便明白，一定出了可怕的事。
+        - id: ch03-b09
+          speaker: merchant_wife
+          text: 求你告诉我们，到底发生了什么事？
+        - id: ch03-b10
+          speaker: merchant
+          text: 唉，我只剩一年可活了。
+          emotion: sad
+        - id: ch03-b11
+          speaker: narrator
+          text: |-
+            商人把自己怎样遇见精灵，又怎样答应一年后回去受死，全都说了出来。一家人听见这个噩耗，万念俱灰，哭个不停。
+        - id: ch03-b12
+          speaker: narrator
+          text: |-
+            第二天，商人就开始料理身后的事情。他先还清每一笔债务，又送礼物给朋友，拿出大笔钱接济穷人。他给奴隶们自由，也为妻子儿女往后的生活作了妥善安排。转眼一年过去，约定的日子到了，他不得不动身。
+        - id: ch03-b13
+          speaker: narrator
+          text: |-
+            告别时，商人悲痛得几乎说不出话，好不容易才离开家人。就在约定的那一天，他终于回到初见精灵的地方。他下了马，坐在泉边，心惊胆战地等着。
+    - id: ch04
+      title: 三位老人
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: |-
+            商人正在等候，一位老人牵着一头母鹿向他走来。两人互相问候以后，老人见他独自留在这片荒野，便问起他为何来到这里。
+        - id: ch04-b02
+          speaker: old_man_hind
+          text: 兄弟，这片荒地到处都有邪恶的精灵，你来这里做什么？这些树长得这样美，叫人以为附近住着人，其实这里十分危险，不能久留。
+        - id: ch04-b03
+          speaker: narrator
+          text: 商人只好把非来不可的缘故告诉了老人。老人听完，惊讶不已。
+        - id: ch04-b04
+          speaker: old_man_hind
+          text: 这件事实在不可思议。我想留下来，亲眼看看你和精灵见面时会发生什么。
+          emotion: surprised
+        - id: ch04-b05
+          speaker: narrator
+          text: |-
+            老人在商人身边坐下。两人正说着话，第二位老人也来了，身后还跟着两条黑狗。他向二人问好，又问他们为何停在这片凶险的地方。牵母鹿的老人便把商人与精灵的遭遇从头讲了一遍。第二位老人刚一听完，也决定在他们身旁坐下，亲眼看看事情会怎样发展。
+        - id: ch04-b06
+          speaker: narrator
+          text: |-
+            他们交谈时，第三位老人又走了过来。他看见商人满脸愁容，便问这是为什么。两位老人把整个故事告诉了他。他听完以后，同样决定和大家一起等候，要看看精灵和商人之间究竟会发生什么。
+    - id: ch05
+      title: 老人的请求
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: |-
+            不久，众人看见远处升起一股浓烟，像是一团尘云。那烟越来越近，忽然又消失得无影无踪。精灵随即现出身形。他没有理会三位老人，只握着弯刀走到商人面前，一把抓住他的胳膊。
+        - id: ch05-b02
+          speaker: genius
+          text: 起来！你杀了我的儿子，我现在就要杀了你。
+          emotion: angry
+        - id: ch05-b03
+          speaker: narrator
+          text: 商人和三位老人都哭泣哀号起来。牵母鹿的老人扑倒在精灵脚下，恳求他息怒。
+        - id: ch05-b04
+          speaker: old_man_hind
+          text: 精灵王子啊，请您先听我说。我愿讲一讲自己和这头母鹿的故事。要是您觉得我们的故事比这个商人的遭遇更加奇妙，就请免去他三分之一的刑罚。
+        - id: ch05-b05
+          speaker: narrator
+          text: 精灵沉思了片刻。
+        - id: ch05-b06
+          speaker: genius
+          text: 好吧，我答应你。

@@ -1,0 +1,353 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts: {delivery: 沉静从容，带着古老童话的机智与克制, timbre: 温暖清朗, pace: 舒缓而富有变化, pitch: 中音}
+    fisherman:
+      display_name: 穷渔夫
+      tts: {delivery: 朴实真诚，劳作中仍懂得欣赏美好, timbre: 粗粝温厚, pace: 适中, pitch: 中低音}
+    emperor:
+      display_name: 皇帝
+      tts: {delivery: 威严自负，情感流露时坦率直接, timbre: 洪亮成熟, pace: 适中, pitch: 中低音}
+    chief_minister:
+      display_name: 第一大臣
+      tts: {delivery: 傲慢圆滑，遇事慌张却极力维持体面, timbre: 干涩端正, pace: 稍快, pitch: 中音}
+    kitchen_girl:
+      display_name: 小厨娘
+      tts: {delivery: 纯朴善良，说话自然真切, timbre: 清亮柔和, pace: 适中, pitch: 中高音}
+    courtier_1:
+      display_name: 大臣甲
+      tts: {delivery: 随声附和，夸张而自以为高明, timbre: 明亮端正, pace: 稍快, pitch: 中音}
+    courtier_2:
+      display_name: 大臣乙
+      tts: {delivery: 随声附和，热切中带着几分糊涂, timbre: 圆润清晰, pace: 适中, pitch: 中音}
+    court_priest:
+      display_name: 宫廷牧师
+      tts: {delivery: 一本正经，习惯把平常声音说得庄严, timbre: 低沉浑厚, pace: 稍慢, pitch: 低音}
+    traveler_1:
+      display_name: 旅人甲
+      tts: {delivery: 见闻丰富，赞叹时坦率热切, timbre: 清朗自然, pace: 适中, pitch: 中音}
+    traveler_2:
+      display_name: 旅人乙
+      tts: {delivery: 好奇开朗，容易被真正的美打动, timbre: 明快温和, pace: 适中, pitch: 中高音}
+    citizen_1:
+      display_name: 百姓甲
+      tts: {delivery: 兴奋随和，喜欢跟着热闹喝彩, timbre: 朴实明亮, pace: 稍快, pitch: 中音}
+    citizen_2:
+      display_name: 百姓乙
+      tts: {delivery: 兴奋随和，跟随众人高声应和, timbre: 浑厚清楚, pace: 适中, pitch: 中低音}
+    nightingale:
+      display_name: 夜莺
+      tts: {delivery: 自由真挚，温柔中有清醒坚定的力量, timbre: 清澈悦耳, pace: 流畅而富有变化, pitch: 中高音}
+    court_lady_1:
+      display_name: 宫廷贵妇甲
+      tts: {delivery: 矫饰赞叹，热衷追逐宫廷风尚, timbre: 轻柔华丽, pace: 适中, pitch: 中高音}
+    court_lady_2:
+      display_name: 宫廷贵妇乙
+      tts: {delivery: 矫饰赞叹，语气夸张而陶醉, timbre: 细亮甜美, pace: 稍快, pitch: 高音}
+    court_lady_3:
+      display_name: 宫廷贵妇丙
+      tts: {delivery: 矫饰赞叹，处处迎合众人, timbre: 柔亮清脆, pace: 适中, pitch: 中高音}
+    conductor:
+      display_name: 乐队指挥
+      tts: {delivery: 自信卖弄，喜欢用权威口吻解释一切, timbre: 饱满响亮, pace: 适中, pitch: 中音}
+  chapters:
+    - id: ch01
+      title: 密林深处的歌声
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 故事发生在许多年以前的中国。那里的皇帝是中国人，朝廷里的臣子也都是中国人。事情已经过去很久了，不过趁它还没有被人忘记，正好从头到尾讲给你听。
+        - id: ch01-b02
+          speaker: narrator
+          text: 皇帝有一座世上最华美的宫殿，整座宫殿都用价值连城的瓷器砌成。瓷器又薄又脆，哪怕轻轻碰一下，也得格外小心。御花园里开着世上最美的花，最可爱的几朵还系着银铃。有人一走过，铃声便叮叮当当地响起，叫人不能不回头看花。园里的一切都布置得精妙绝伦，处处吸引人的目光，就连园丁也不知道花园究竟在哪里结束。
+        - id: ch01-b03
+          speaker: narrator
+          text: 要是一直走到花园外面，就会进入一片庄严幽深的森林。那里有参天古树，也有深不见底的湖泊。森林沿着斜坡伸向碧蓝清澈的大海，巨轮能从树枝下面驶过。一只夜莺就住在这些树上。她唱得实在太美，连夜里来这里撒网的穷渔夫听见了，也会停下手里的活儿。
+        - id: ch01-b04
+          speaker: fisherman
+          text: 唱得真美啊！
+        - id: ch01-b05
+          speaker: narrator
+          text: 可活儿还得继续，渔夫很快便忘了她。第二天夜里，他再来撒网，听见夜莺歌唱，又忍不住发出同样的赞叹。
+        - id: ch01-b06
+          speaker: fisherman
+          text: 唱得真美啊！
+        - id: ch01-b07
+          speakers: [traveler_1, traveler_2]
+          ensemble: duo
+          text: 宫殿和花园虽然壮丽，可夜莺的歌声才是这里最美妙的东西！
+        - id: ch01-b08
+          speaker: narrator
+          text: 四面八方的旅人都这样说。他们回乡后，把见闻讲给别人。学者写出许多书，谈论都城、宫殿和花园，却把夜莺夸得最多。诗人也写下华美的诗篇，吟咏深海岸边、密林之中的夜莺。这些书传遍世界，有几本送到了皇帝手中。他坐在金椅上，一本接一本地读。书中每夸赞一次他的都城、宫殿和花园，他便满意地点一次头。突然，他读到一句话，说最美妙的还是夜莺。
+        - id: ch01-b09
+          speaker: emperor
+          text: 这究竟是怎么回事？朕的国土上竟有这样一只鸟，就住在朕的花园附近，朕却一无所知！想不到朕第一次听说她，居然是在一本书里！
+          emotion: surprised
+        - id: ch01-b10
+          speaker: narrator
+          text: 皇帝召来第一大臣。这位大臣傲慢得很，身份比他低的人只要开口问话，他便回一声“呸”。可这个字什么也说明不了。
+        - id: ch01-b11
+          speaker: emperor
+          text: 书里说，有一种了不起的鸟叫夜莺，还是朕的国土上最美妙的东西。为什么从来没人告诉朕？
+        - id: ch01-b12
+          speaker: chief_minister
+          text: 臣也从没听说过。臣马上去找，一定把她找出来！
+        - id: ch01-b13
+          speaker: narrator
+          text: 可该去哪里找呢？第一大臣上楼又下楼，跑过一间间厅堂和一道道长廊，问遍沿途的人，竟没有谁听说过夜莺。他只得回去禀告，说这只鸟一定是写书的人凭空编出来的。
+        - id: ch01-b14
+          speaker: chief_minister
+          text: 皇上，书上的话可不能全信。有些东西都是变戏法变出来的，也就是所谓的黑魔法！
+        - id: ch01-b15
+          speaker: emperor
+          text: 可这本书是日本天皇陛下送来的，绝不会有假。朕今晚就要听夜莺唱歌，她必须来。朕准她进宫献唱。她要是不来，晚膳以后，全朝廷的人都得挨踩！
+        - id: ch01-b16
+          speaker: chief_minister
+          text: 臣实在钦佩！
+        - id: ch01-b17
+          speaker: narrator
+          text: 第一大臣又冲上楼、奔下楼，跑过一间间厅堂和一道道长廊。半个朝廷的人跟在他身后，因为谁都不想在晚膳后挨踩。他们一路抓住遇见的人，打听那只神奇的夜莺。全世界都知道她，偏偏宫里没有人知道。
+        - id: ch01-b18
+          speaker: narrator
+          text: 最后，他们在厨房遇见一个穷苦的小姑娘。她每天可以把御膳剩下的饭菜带给生病的母亲。夜里回家时，她又累又乏，常在树林里歇一会儿，也总在那里听见夜莺唱歌。
+        - id: ch01-b19
+          speaker: kitchen_girl
+          text: 我当然认识夜莺，她唱得可美了！每次听见她的歌，我眼里都会涌出泪水，就像妈妈正在亲我一样。
+        - id: ch01-b20
+          speaker: chief_minister
+          text: 小厨娘，只要你带我们找到夜莺，我就给你安排一个厨房里的职位。皇帝用膳时，也准你瞻仰圣颜。夜莺今晚已经受邀进宫了。
+        - id: ch01-b21
+          speaker: narrator
+          text: 于是，小厨娘领着他们去夜莺常常唱歌的树林，半个朝廷的人仍旧一路跟随。途中，一头母牛忽然哞哞地叫起来。
+        - id: ch01-b22
+          speakers: [courtier_1, courtier_2]
+          ensemble: duo
+          text: 找到了！这么小的动物，声音却这样洪亮，真了不起！我们从前一定听过她！
+        - id: ch01-b23
+          speaker: kitchen_girl
+          text: 不对，那是母牛。我们离夜莺还远呢！
+        - id: ch01-b24
+          speaker: narrator
+          text: 接着，沼泽里的青蛙咕呱咕呱地叫了起来。
+        - id: ch01-b25
+          speaker: court_priest
+          text: 妙极了！这回准是她，听起来就像小教堂里的钟声！
+        - id: ch01-b26
+          speaker: kitchen_girl
+          text: 不，那是青蛙。不过，我们应该很快就能听见夜莺了。
+        - id: ch01-b27
+          speaker: narrator
+          text: 就在这时，夜莺唱了起来。
+        - id: ch01-b28
+          speaker: kitchen_girl
+          text: 她在那里！快听，她就在那根高高的树枝上！
+        - id: ch01-b29
+          speaker: narrator
+          text: 大家顺着她手指的方向看去，只见枝头停着一只灰黑色的小鸟。
+        - id: ch01-b30
+          speaker: chief_minister
+          text: 怎么会是她？我做梦也想不到！她看起来实在太普通了。一定是来了这么多显贵，把她吓得羽毛都褪色了！
+          emotion: surprised
+        - id: ch01-b31
+          speaker: kitchen_girl
+          text: 小夜莺，我们仁慈的皇帝想请你到他面前唱一支歌。
+        - id: ch01-b32
+          speaker: nightingale
+          text: 我很乐意！
+          emotion: happy
+        - id: ch01-b33
+          speaker: narrator
+          text: 夜莺放声唱起来。那歌声美得让人怎么也听不够。
+        - id: ch01-b34
+          speaker: chief_minister
+          text: 听起来就像玻璃铃铛！瞧她的小喉咙，还在一动一动呢。我们过去居然从没听见过她，真不可思议。她进了宫，一定会大受欢迎！
+        - id: ch01-b35
+          speaker: nightingale
+          text: 皇帝也在这里吗？要不要我再为他唱一遍？
+        - id: ch01-b36
+          speaker: chief_minister
+          text: 我敬爱的小夜莺，我无比荣幸地请你今晚进宫。仁慈尊贵的皇上听见你迷人的歌声，一定会非常高兴！
+        - id: ch01-b37
+          speaker: nightingale
+          text: 我的歌在碧绿的树林里最好听。
+        - id: ch01-b38
+          speaker: narrator
+          text: 不过，听说皇帝想听她唱，夜莺还是欢欢喜喜地跟着他们走了。
+    - id: ch02
+      title: 金栖木上的夜莺
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 宫里早已布置得富丽堂皇。千万盏金灯照着瓷器铺成的墙壁和地面，到处闪闪发光。长廊里摆满最艳丽、铃声也最清脆的花。人们来来往往，带起一阵阵风，银铃响个不停，吵得连说话都听不清。
+        - id: ch02-b02
+          speaker: narrator
+          text: 皇帝端坐在大殿中央，面前立着一根金栖木，夜莺就停在上面。满朝文武一个不少，全都来听她唱歌。小厨娘如今已经升为御厨，也获准站在门后观看。人人穿着最华贵的衣裳，所有目光都落在那只灰色的小鸟身上。皇帝朝她点了点头。
+        - id: ch02-b03
+          speaker: narrator
+          text: 夜莺唱得无比动听。皇帝眼里涌出泪水，一直流到脸颊上。夜莺看见了，唱得更加美妙，那歌声钻进了每个人的心。皇帝高兴极了，要把自己的金拖鞋挂到她颈上。夜莺却谢绝了，因为她觉得自己得到的赏赐已经足够。
+        - id: ch02-b04
+          speaker: nightingale
+          text: 我看见了皇帝眼里的泪水，这就是最好的赏赐。皇帝的眼泪有一种神奇的力量！
+        - id: ch02-b05
+          speaker: narrator
+          text: 她又用无比甜美的声音唱了起来。
+        - id: ch02-b06
+          speakers: [court_lady_1, court_lady_2, court_lady_3]
+          ensemble: chorus
+          text: 这是我们见过最迷人的卖俏了！
+        - id: ch02-b07
+          speaker: narrator
+          text: 宫廷贵妇们立刻把水含在嘴里。以后只要有人跟她们说话，她们就咕噜咕噜地发声，还以为这样自己也成了夜莺。男仆和宫女也郑重宣称，他们对这场演出十分满意。这可不是小事，因为他们是世上最难讨好的人。总而言之，夜莺的演出大获成功。
+        - id: ch02-b08
+          speaker: narrator
+          text: 从此，夜莺必须留在宫里。她有了自己的鸟笼，每天白天准许出门两次，夜里一次。每回都有十二名仆人跟着，每个人手中牵一根丝线，另一头系在她腿上。被这样带着飞来飞去，实在没有多少乐趣。全城都在谈论这只神奇的鸟。两个人见面，只要各说出她名字的一半，再一起叹口气，彼此便心领神会。杂货店老板的十一个孩子也都取了和夜莺有关的名字，可惜没有一个能唱准半个音。
+        - id: ch02-b09
+          speakers: [citizen_1, citizen_2]
+          ensemble: duo
+          text: 夜——莺——
+    - id: ch03
+      title: 镶满宝石的发条鸟
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 一天，皇帝收到一个大包裹，上面写着“夜莺”。
+        - id: ch03-b02
+          speaker: emperor
+          text: 一定又是一本写我们这只名鸟的新书！
+        - id: ch03-b03
+          speaker: narrator
+          text: 包裹里却不是书，而是一件装在盒中的小巧机械玩具。那是一只人造夜莺，模样很像真夜莺，身上却镶满钻石、红宝石和蓝宝石。只要上紧发条，她就会唱真夜莺唱过的曲子，尾巴一上一下摆动，全身闪着金银的光。她颈上还系着一条小饰带，上面夸耀说，日本天皇的夜莺和中国皇帝的夜莺相比，实在微不足道。
+        - id: ch03-b04
+          speakers: [courtier_1, courtier_2, court_priest]
+          ensemble: chorus
+          text: 真是太华美了！
+        - id: ch03-b05
+          speaker: narrator
+          text: 送来发条鸟的人当场受封，得到了“御赐首席夜莺进献官”的头衔。
+        - id: ch03-b06
+          speaker: emperor
+          text: 现在让她们一起唱吧，那一定是最美妙的二重唱！
+        - id: ch03-b07
+          speaker: narrator
+          text: 两只鸟同时唱了起来，歌声却怎么也合不到一处。真夜莺想到哪里就唱到哪里，发条鸟唱的却是一支华尔兹舞曲。
+        - id: ch03-b08
+          speaker: conductor
+          text: 这不能怪她。她的节拍一点不差，而且完全符合我的风格！
+        - id: ch03-b09
+          speaker: narrator
+          text: 大家便让人造夜莺独自表演。她给人的快乐一点也不比真夜莺少，外表还漂亮得多，像手镯和项链一样闪闪发亮。同一支曲子，她一口气唱了三十三遍，丝毫不觉得疲倦。大家还想听，皇帝却说，该轮到活夜莺了。
+        - id: ch03-b10
+          speaker: narrator
+          text: 可她去了哪里？谁也没有留意，夜莺早已飞出敞开的窗户，回到了自己的碧绿树林。
+        - id: ch03-b11
+          speaker: emperor
+          text: 这可怎么办！
+          emotion: surprised
+        - id: ch03-b12
+          speaker: narrator
+          text: 满朝的人都骂夜莺忘恩负义，不过他们说，幸好最好的鸟还在。于是，人造夜莺又唱了一遍。这已经是众人第三十四次听那支曲子，可曲调太难，他们还是没能背下来。
+        - id: ch03-b13
+          speaker: conductor
+          text: 诸位大人、夫人，还有皇上，请仔细看。真夜莺下一刻要唱什么，谁能猜得到？人造鸟却完全听我们摆布。她为什么这样唱，我们讲得清清楚楚。我们还能拆开她，看看一支支华尔兹藏在哪里，又是怎么转动，怎么接连唱出来的！
+        - id: ch03-b14
+          speakers: [courtier_1, courtier_2, court_priest]
+          ensemble: chorus
+          text: 我们想的正是这样！
+        - id: ch03-b15
+          speaker: narrator
+          text: 乐队指挥对发条鸟赞不绝口，保证她从外表的宝石羽毛到身体里面，都比真夜莺出色。皇帝准他在下个星期日把发条鸟展示给百姓，还命令百姓都去听她歌唱。大家听过以后，高兴得像照中国人的习惯喝茶喝醉了。他们举起食指，跟着节拍点头。
+        - id: ch03-b16
+          speakers: [citizen_1, citizen_2]
+          ensemble: duo
+          text: 噢！真好听！
+        - id: ch03-b17
+          speaker: fisherman
+          text: 我们听过真正的夜莺。这一只唱得还不错，曲调也很顺，可总觉得少了点什么。到底少了什么，我们又说不上来。
+        - id: ch03-b18
+          speaker: narrator
+          text: 真夜莺被逐出了国境。人造鸟则被安放在皇帝床边的丝绸软垫上。她收到的黄金和宝石全都陈列在四周，还获封“御前夜间首席歌者，位居左班第一”。皇帝认为左边的地位更尊贵，因为心脏就长在那里，而皇帝的心脏当然也在左边。
+        - id: ch03-b19
+          speaker: narrator
+          text: 乐队指挥又写出一部足足二十五卷的巨著，专门研究这只人造鸟。那部书写得博大精深，篇幅格外冗长，里面塞满最艰涩的中国字眼。人人都声称自己从头到尾读过，而且完全读懂了。毕竟他们从前曾经在一本书面前显得十分愚蠢，险些因此挨踩，这一回谁也不肯再承认自己没看懂。
+        - id: ch03-b20
+          speaker: narrator
+          text: 一年过去，皇帝、满朝文武和所有中国人，都把发条鸟曲子里的每个音符背熟了。他们也因此更加喜欢她，因为现在人人都能跟着唱。街上的孩子唱着“啦啦啦啦啦”，皇帝有时也唱，大家觉得快活极了。
+        - id: ch03-b21
+          speaker: narrator
+          text: 可有一天晚上，人造鸟唱得正起劲，皇帝正躺在床上听着，她肚子里突然咔嚓一响，有个东西断了。所有齿轮呼噜噜地一齐飞转，歌声立刻停了。皇帝猛地从床上跳起来，马上召御医进宫。可御医面对这只机械鸟，又能有什么办法呢？钟表匠随后赶来，翻来覆去查看，又说了许多话，才勉强把鸟修好。
+        - id: ch03-b22
+          speaker: narrator
+          text: 钟表匠说，发条鸟里面的机件几乎全磨坏了，又不可能换上新的，以后必须尽量少唱。这真是一场灾难。她每年只准唱一次，即便如此，对她来说也几乎太多。乐队指挥便用满口艰深词语发表了一篇短短的演说，坚持说她和从前一样好。既然如此，她当然就算和从前一样好了。
+    - id: ch04
+      title: 寂静的病榻
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 就这样，又过了五年，全国迎来一场莫大的悲痛。中国人一直把皇帝看作自己的一切，如今皇帝病了，而且病得很重。据说，他很可能活不下去。新皇帝甚至已经选定。百姓全都站在街上，焦急地向第一大臣打听老皇帝的病情。
+        - id: ch04-b02
+          speaker: chief_minister
+          text: 呸！
+        - id: ch04-b03
+          speaker: narrator
+          text: 第一大臣一边回答，一边摇了摇头。皇帝面色苍白，浑身冰冷，躺在那张华美的大床上。满朝的人都以为他已经死了，便一个接一个离开他，赶去向新皇帝致敬。仆人们也都走了。所有厅堂和长廊里都铺上厚布，连一丝脚步声也传不进来。四周一片寂静，寂静得可怕，没有任何声音打破这片沉寂。
+        - id: ch04-b04
+          speaker: narrator
+          text: 皇帝多么盼望有点声音，来打破这死一般的单调。哪怕有人跟他说一句话也好，哪怕有人为他唱一支歌也好。音乐或许能带走他的思绪，解开困住他的魔咒。月光从敞开的窗户倾泻进来，可月光也是无声的，一点声音也没有。
+        - id: ch04-b05
+          speaker: emperor
+          text: 音乐！音乐！你这只闪闪发亮的金色小鸟，快唱啊！朕赏过你黄金和珠宝，还亲手把金拖鞋挂在你颈上。唱啊，快唱啊！
+        - id: ch04-b06
+          speaker: narrator
+          text: 可人造鸟一声不响。这里没有人替她上发条，她根本唱不出来。四周依然一片沉寂，沉寂得可怕。
+        - id: ch04-b07
+          speaker: narrator
+          text: 忽然，窗外响起无比美妙的歌声。那是小小的活夜莺。她停在窗外的树枝上，听说自己的皇帝需要她，便赶来歌唱，带给他安慰与希望。歌声不断流淌，皇帝虚弱的四肢里，血液越流越快，生命也一点一点回到他身上。
+        - id: ch04-b08
+          speaker: emperor
+          text: 谢谢你，谢谢你！神奇的小鸟，朕认得你。朕曾把你逐出国境，你却救了朕的命！朕该拿什么赏赐你？
+          emotion: surprised
+        - id: ch04-b09
+          speaker: nightingale
+          text: 你早就赏赐过我了。我第一次为你歌唱时，你眼里流出了泪水，那一幕我永远不会忘记。对歌者来说，那些泪珠才是让心里充满欢喜的宝石。现在睡吧，好好恢复力气。我来给你唱一支摇篮曲。
+          emotion: calm
+        - id: ch04-b10
+          speaker: narrator
+          text: 夜莺继续为他歌唱。皇帝沉沉睡去，睡得格外安稳又宁静。
+    - id: ch05
+      title: 一只自由的小鸟
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 皇帝再次醒来时，明亮的阳光正照进窗户。他已经恢复了健康，浑身重新充满力气。那些离去的仆人一个也没有回来，因为他们仍旧以为皇帝已经死了。只有夜莺还坐在窗边，继续为他歌唱。
+        - id: ch05-b02
+          speaker: emperor
+          text: 你一定要永远留在朕身边！你想什么时候唱，就什么时候唱。朕还要把那只人造鸟砸成一千块碎片！
+        - id: ch05-b03
+          speaker: nightingale
+          text: 别砸碎他。他能做事的时候，也已经尽力做了。还是像从前一样，把他留在这里吧。
+        - id: ch05-b04
+          speaker: nightingale
+          text: 我不能把巢筑在宫里，长久住在这里。不过，请准许我想来的时候就来。到了黄昏，我会停在窗外的树枝上，为你唱歌，让你感到快乐，也让你懂得感恩。
+        - id: ch05-b05
+          speaker: nightingale
+          text: 我会歌唱欢乐，也会歌唱悲伤。我还会歌唱那些藏在你看不见的地方的善与恶。小小的歌鸟会飞到穷渔夫的茅屋，飞到农夫的村舍，也会飞到每一个远离你和朝廷的人身边。比起你的皇冠，我更爱你的心，尽管皇冠四周闪着近乎神圣的光辉。
+        - id: ch05-b06
+          speaker: nightingale
+          text: 现在，我再给你唱一支歌。不过，你必须答应我一件事。
+        - id: ch05-b07
+          speaker: emperor
+          text: 朕什么都答应！
+        - id: ch05-b08
+          speaker: narrator
+          text: 皇帝已经亲手穿好龙袍，站了起来，还把那柄镶满黄金的宝剑佩在腰间。
+        - id: ch05-b09
+          speaker: nightingale
+          text: 我只求你一件事。别告诉任何人，你有一只会把一切都告诉你的小鸟。这样会好得多！
+        - id: ch05-b10
+          speaker: narrator
+          text: 夜莺说完便飞走了。仆人们这才走进来，想看一看他们死去的皇帝。
+        - id: ch05-b11
+          speaker: emperor
+          text: 早安！

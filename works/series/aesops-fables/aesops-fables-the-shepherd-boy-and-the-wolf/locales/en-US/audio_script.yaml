@@ -1,0 +1,95 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and gently dramatic
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    shepherd_boy:
+      display_name: Shepherd Boy
+      tts:
+        delivery: youthful and lively
+        timbre: bright and clear
+        pace: brisk
+        pitch: medium-high
+    villager_1:
+      display_name: Villager One
+      tts:
+        delivery: practical and direct
+        timbre: sturdy and clear
+        pace: measured
+        pitch: medium-low
+    villager_2:
+      display_name: Villager Two
+      tts:
+        delivery: earnest and plainspoken
+        timbre: warm and firm
+        pace: measured
+        pitch: medium
+    villager_3:
+      display_name: Villager Three
+      tts:
+        delivery: steady and matter-of-fact
+        timbre: clear and weathered
+        pace: unhurried
+        pitch: low
+  chapters:
+    - id: ch01
+      title: A Dull Day in the Pasture
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: A Shepherd Boy watched his master's Sheep in a pasture near the village. A dark forest stood close by. Before long, the boy grew tired of the quiet days. He could only talk to his dog or play his shepherd's pipe.
+        - id: ch01-b02
+          speaker: narrator
+          text: One day, he sat looking at the Sheep and the silent forest. He wondered what he would do if a Wolf appeared. Then he thought of a way to entertain himself.
+        - id: ch01-b03
+          speaker: narrator
+          text: His Master had told him to call for help if a Wolf attacked. The Villagers would come and chase it away. The boy had seen nothing like a Wolf, but he ran toward the village and shouted as loudly as he could.
+        - id: ch01-b04
+          speaker: shepherd_boy
+          text: There's a Wolf! The Wolf is here!
+        - id: ch01-b05
+          speaker: narrator
+          text: Just as he expected, the Villagers heard him. They dropped their work and hurried to the pasture in great excitement. When they arrived, they found the boy bent over with laughter. He had tricked them.
+    - id: ch02
+      title: The Trick Again
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: A few days later, the Shepherd Boy tried the same trick.
+        - id: ch02-b02
+          speaker: shepherd_boy
+          text: There's a Wolf! The Wolf is here!
+        - id: ch02-b03
+          speaker: narrator
+          text: Once more, the Villagers rushed out to help. Once more, the boy laughed at them when they came.
+    - id: ch03
+      title: The Real Wolf
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Then one evening, the sun sank behind the forest. Shadows crept across the pasture. A Wolf truly did leap from the bushes and attack the Sheep.
+        - id: ch03-b02
+          speaker: narrator
+          text: Terrified, the boy ran toward the village and cried out.
+        - id: ch03-b03
+          speaker: shepherd_boy
+          text: There's a Wolf! The Wolf is here!
+          emotion: fearful
+        - id: ch03-b04
+          speaker: narrator
+          text: The Villagers heard him, but this time they did not come. They had already been fooled twice.
+        - id: ch03-b05
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
+          text: He won't trick us again.
+        - id: ch03-b06
+          speaker: narrator
+          text: The Wolf killed many of the boy's Sheep, then slipped back into the forest.
+        - id: ch03-b07
+          speaker: narrator
+          text: No one believes a liar, even when he tells the truth.

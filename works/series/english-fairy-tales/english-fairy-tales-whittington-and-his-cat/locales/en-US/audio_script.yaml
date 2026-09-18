@@ -1,0 +1,400 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    dick:
+      display_name: Dick Whittington
+      tts:
+        delivery: earnest and hopeful, growing from a weary boy into a generous young gentleman
+        timbre: youthful and clear
+        pace: measured
+        pitch: medium-high
+    wagoner:
+      display_name: Waggoner
+      tts:
+        delivery: practical and kindly
+        timbre: rough and sturdy
+        pace: measured
+        pitch: medium-low
+    cross_man:
+      display_name: Cross Man
+      tts:
+        delivery: curt and impatient
+        timbre: dry and sharp
+        pace: brisk
+        pitch: medium
+    gentleman:
+      display_name: Gentleman
+      tts:
+        delivery: direct but good-natured
+        timbre: warm and mature
+        pace: measured
+        pitch: medium-low
+    cook:
+      display_name: Cook
+      tts:
+        delivery: scolding and spiteful
+        timbre: harsh and forceful
+        pace: brisk
+        pitch: medium
+    fitzwarren:
+      display_name: Mr. Fitzwarren
+      tts:
+        delivery: dignified, fair-minded, and warmly decisive
+        timbre: full and mature
+        pace: measured
+        pitch: medium-low
+    alice:
+      display_name: Alice Fitzwarren
+      tts:
+        delivery: gentle, thoughtful, and sincere
+        timbre: bright and warm
+        pace: measured
+        pitch: medium-high
+    cat_seller:
+      display_name: Girl with the Cat
+      tts:
+        delivery: lively and straightforward
+        timbre: young and light
+        pace: natural
+        pitch: high
+    captain:
+      display_name: Captain
+      tts:
+        delivery: confident, shrewd, and hearty
+        timbre: weathered and resonant
+        pace: measured
+        pitch: medium-low
+    king:
+      display_name: King of Barbary
+      tts:
+        delivery: commanding and openly delighted
+        timbre: rich and stately
+        pace: measured
+        pitch: low
+    queen:
+      display_name: Queen of Barbary
+      tts:
+        delivery: eager, gracious, and expressive
+        timbre: elegant and clear
+        pace: measured
+        pitch: medium-high
+    courtier:
+      display_name: Courtier
+      tts:
+        delivery: respectful and troubled
+        timbre: polished and mature
+        pace: measured
+        pitch: medium
+    visitor:
+      display_name: Visitor
+      tts:
+        delivery: cheerful and purposeful
+        timbre: clear and mature
+        pace: measured
+        pitch: medium
+    servant:
+      display_name: Servant
+      tts:
+        delivery: respectful but doubtful
+        timbre: plain and mature
+        pace: measured
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Road to London
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: In the reign of King Edward the Third, there lived a little boy named Dick Whittington. His father and mother had died when he was very young. Dick was too small to earn a living, and the people in his village were poor themselves. Some days he had only potato peelings or a hard crust of bread. Some mornings, he had nothing at all.
+        - id: ch01-b02
+          speaker: narrator
+          text: Dick had heard many strange and wonderful tales about the great city of London. Country people in those days believed everyone who lived there was a fine lady or gentleman. They imagined singing and music from morning until night. Best of all, they said every street in London was paved with gold.
+        - id: ch01-b03
+          speaker: narrator
+          text: One day, Dick stood beside the signpost as a great waggon came through the village. Eight horses pulled it, with bells ringing above their heads. Dick felt sure it must be bound for London. He gathered his courage and asked if he might walk beside it.
+        - id: ch01-b04
+          speaker: wagoner
+          text: You've no father or mother, lad? Then come along with me. You can hardly be worse off on the road than you are here.
+        - id: ch01-b05
+          speaker: narrator
+          text: So they set out together, and Dick reached London safely. He was so eager to find the golden streets that he did not even stop to thank the kind waggoner. He ran as fast as his legs could carry him, from one street into another, expecting the gold to appear at any moment. He had seen a guinea only three times in his little village, and he remembered the great heap of change it brought. If the pavement was made of gold, he thought, he had only to pick up a few small pieces. Then he would have as much money as he could ever wish for.
+        - id: ch01-b06
+          speaker: narrator
+          text: Dick ran until he was exhausted. By then he had quite forgotten his friend the waggoner. Evening came, and whichever way Dick turned, every road showed him nothing but dirt instead of gold. At last he sat down in a dark corner. There he cried until he fell asleep.
+        - id: ch01-b07
+          speaker: narrator
+          text: He spent the whole night in the street. In the morning, weak with hunger, he wandered about and begged each passerby for a halfpenny to keep him from starving. Most people would not even stop to answer him. Only two or three gave him a coin. That was far too little, and before long the poor boy was weak and faint for want of food.
+        - id: ch01-b08
+          speaker: cross_man
+          text: Go and work, you idle rogue!
+          emotion: angry
+        - id: ch01-b09
+          speaker: dick
+          text: I will! Let me work for you, and I'll do it gladly.
+        - id: ch01-b10
+          speaker: narrator
+          text: The man cursed at him and went on. Later, a good-natured gentleman noticed how hungry Dick looked.
+        - id: ch01-b11
+          speaker: gentleman
+          text: Why don't you find some work, my lad?
+        - id: ch01-b12
+          speaker: dick
+          text: I want to work, sir, but I don't know where to find any.
+        - id: ch01-b13
+          speaker: gentleman
+          text: If you're willing, come with me.
+        - id: ch01-b14
+          speaker: narrator
+          text: He took Dick to a hayfield. Dick worked briskly there and lived happily until all the hay was made.
+
+    - id: ch02
+      title: A Home and a Cat
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: When the haymaking ended, Dick was as badly off as before. Starving once again, he lay down outside the house of Mr. Fitzwarren, a wealthy merchant. The cook saw him there. She was ill-tempered, and she was busy preparing dinner for her master and mistress.
+        - id: ch02-b02
+          speaker: cook
+          text: What are you doing there, you lazy rogue? We have nothing but beggars at the door. Be off, or I'll throw this hot dishwater over you and make you jump!
+          emotion: angry
+        - id: ch02-b03
+          speaker: narrator
+          text: Just then, Mr. Fitzwarren came home for dinner. He stopped when he saw the dirty, ragged boy at his door.
+        - id: ch02-b04
+          speaker: fitzwarren
+          text: Why are you lying there, my boy? You're surely old enough to work. I hope you're not lazy.
+        - id: ch02-b05
+          speaker: dick
+          text: No, sir, truly. I'd work with all my heart, but I don't know anyone here. I think I'm ill because I haven't eaten.
+        - id: ch02-b06
+          speaker: fitzwarren
+          text: Poor boy. Get up and let me see what's wrong.
+        - id: ch02-b07
+          speaker: narrator
+          text: Dick tried to rise, but he was too weak and had to lie down again. He had eaten nothing for three days. He could no longer walk the streets asking for halfpennies. The merchant ordered his servants to carry him inside, give him a good dinner, and keep him to do whatever work he could for the cook.
+        - id: ch02-b08
+          speaker: narrator
+          text: Dick might have been very happy in that good household, if not for the cook. She made him clean the spit and dripping pan, light the fires, wind the roasting jack, and hurry through every dirty kitchen task.
+        - id: ch02-b09
+          speaker: cook
+          text: You're under my orders, so be quick about it, or you'll be sorry!
+          emotion: angry
+        - id: ch02-b10
+          speaker: narrator
+          text: She shook her ladle at him as she spoke. Worse still, she loved basting so much that when there was no meat to baste, she would baste poor Dick's head and shoulders instead. She used a broom, or anything else that happened to be close at hand. At last Alice, Mr. Fitzwarren's daughter, heard how shamefully the cook treated him. Alice told the woman she would be turned out of the house unless she behaved more kindly to Dick.
+        - id: ch02-b11
+          speaker: narrator
+          text: The cook improved a little, but Dick still had another misery to overcome. His bed was up in a garret, where holes gaped in the floor and walls. Every night, rats and mice came through them and tormented him, so he could not sleep. One day, a gentleman gave Dick a penny for cleaning his shoes. Dick decided that he would use it to buy a cat. The very next day, he saw a girl carrying one.
+        - id: ch02-b12
+          speaker: dick
+          text: Will you sell me that cat for a penny?
+        - id: ch02-b13
+          speaker: cat_seller
+          text: Yes, master, though she's an excellent mouser.
+        - id: ch02-b14
+          speaker: narrator
+          text: Dick hid the cat in his garret so the cook would not discover her. Each day, he carefully saved part of his own dinner and carried it upstairs for Puss. She soon proved that the girl had spoken truly. Before long, the rats and mice troubled Dick no more, and he slept soundly every night.
+
+    - id: ch03
+      title: The Venture and the Bells
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Soon afterward, Mr. Fitzwarren had a ship ready to sail. By custom, all his servants were allowed to send something aboard, so they might share in any good fortune. He called everyone into the parlour and asked what each wished to venture.
+        - id: ch03-b02
+          speaker: narrator
+          text: Every servant had something except Dick. He owned neither money nor goods, so he stayed away. Alice guessed why and had him called in.
+        - id: ch03-b03
+          speaker: alice
+          text: I'll put in some money for Dick from my own purse.
+        - id: ch03-b04
+          speaker: fitzwarren
+          text: No, Alice. His venture must be something that belongs to him.
+        - id: ch03-b05
+          speaker: dick
+          text: I own nothing but the cat I bought from a little girl for a penny.
+        - id: ch03-b06
+          speaker: fitzwarren
+          text: Then fetch your cat, my lad, and let her sail.
+        - id: ch03-b07
+          speaker: narrator
+          text: Dick went upstairs and brought down poor Puss. With tears in his eyes, he handed her to the captain.
+        - id: ch03-b08
+          speaker: dick
+          text: Now the rats and mice will keep me awake all night again.
+          emotion: sad
+        - id: ch03-b09
+          speaker: narrator
+          text: Everyone laughed at Dick's strange venture. Alice pitied him and gave him money for another cat.
+        - id: ch03-b10
+          speaker: narrator
+          text: Alice had shown Dick this kindness and many others, and the ill-tempered cook grew jealous. From then on, she treated him more cruelly than ever. Whenever she found a chance, she laughed at his strange venture and mocked him for sending his only cat away to sea.
+        - id: ch03-b11
+          speaker: cook
+          text: Do you really think that cat will bring enough money to buy a stick for beating you?
+        - id: ch03-b12
+          speaker: narrator
+          text: At last Dick could bear no more. Before dawn on All-hallows Day, the first of November, he packed his few belongings and ran away. He walked as far as Holloway, then sat on a stone that is still called Whittington's Stone and wondered which road to take.
+        - id: ch03-b13
+          speaker: narrator
+          text: As he sat there, the six bells of Bow Church began to ring. Their sound seemed to speak to him.
+        - id: ch03-b14
+          speaker: narrator
+          text: Turn again, Whittington, thrice Lord Mayor of London.
+        - id: ch03-b15
+          speaker: dick
+          text: Lord Mayor of London! Why, I'd put up with almost anything now if I could grow up to be Lord Mayor and ride in a fine coach. I'll go back. I won't mind the cook's blows and scolding if I am to be Lord Mayor in the end.
+          emotion: surprised
+        - id: ch03-b16
+          speaker: narrator
+          text: Dick returned and slipped into the house. He was already hard at work before the cook came downstairs.
+
+    - id: ch04
+      title: Puss at the Palace
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Now we must leave Dick for a while and follow Miss Puss to Africa. The ship spent a long time at sea before strong winds drove it onto the coast of Barbary. Only Moors lived in that part of the country, and until then they had been unknown to the English sailors. The local people came in great numbers to see the newcomers because the sailors were a different colour from themselves. They treated the strangers politely. As the two groups came to know each other, the people grew very eager to buy the fine goods aboard the ship.
+        - id: ch04-b02
+          speaker: narrator
+          text: When the captain saw how eager they were, he sent samples of his finest wares to the king of the country. The king was so pleased with them that he summoned the captain to the palace. There, according to the custom of the country, the visitors were seated on rich carpets patterned with flowers of gold and silver. The king and queen sat at the upper end of the room. Then servants carried in dish after dish and set out the royal dinner.
+        - id: ch04-b03
+          speaker: narrator
+          text: They had scarcely begun when a vast swarm of rats and mice rushed in and ate every scrap of meat. The captain stared in astonishment.
+        - id: ch04-b04
+          speaker: captain
+          text: Do these creatures not trouble you?
+        - id: ch04-b05
+          speaker: courtier
+          text: Oh, they trouble us terribly. The king would give half his treasure to be rid of them. They don't merely eat his dinner. They attack him in his chamber and even in his bed. Someone must watch over him whenever he sleeps.
+        - id: ch04-b06
+          speaker: narrator
+          text: The captain leaped for joy. He remembered poor Whittington and his cat, and told the king that a creature aboard his ship could destroy the vermin at once. The news made the king jump so high that his turban fell from his head.
+        - id: ch04-b07
+          speaker: king
+          text: Bring this creature to me! Vermin are dreadful in a royal court. If she can do what you promise, I'll fill your ship with gold and jewels in exchange for her.
+          emotion: happy
+        - id: ch04-b08
+          speaker: narrator
+          text: The captain knew how to strike a bargain. He carefully explained just how valuable Miss Puss was.
+        - id: ch04-b09
+          speaker: captain
+          text: I can hardly spare her. Once she is gone, the rats and mice may ruin the goods on my ship. Still, to oblige Your Majesty, I will fetch her.
+        - id: ch04-b10
+          speaker: queen
+          text: Hurry, hurry! I can't wait to see the dear creature.
+        - id: ch04-b11
+          speaker: narrator
+          text: The captain hurried back to the ship while the palace prepared another dinner. He tucked Puss under his arm and returned just as rats covered the table. The moment she saw them, she sprang from his arms. Within minutes, almost every rat and mouse lay dead at her feet. The frightened survivors raced back into their holes.
+        - id: ch04-b12
+          speaker: narrator
+          text: The king was delighted to be free of such a plague. The queen asked to see the creature that had helped them so greatly.
+        - id: ch04-b13
+          speaker: captain
+          text: Pussy, pussy, pussy!
+        - id: ch04-b14
+          speaker: narrator
+          text: The cat came straight to him. When he presented her, the queen drew back, afraid to touch an animal that had killed so many rats and mice. The captain stroked Puss and called to her once more. Then the queen reached out her hand.
+        - id: ch04-b15
+          speaker: queen
+          text: Putty, putty.
+        - id: ch04-b16
+          speaker: narrator
+          text: She had not yet learned the English word. The captain placed Puss on her lap, and the cat purred, played with the queen's hand, and finally purred herself to sleep.
+        - id: ch04-b17
+          speaker: narrator
+          text: The king had now seen Miss Puss's astonishing work with his own eyes. He was also told that her kittens would spread across the whole country and keep it free from rats. So he bargained with the captain and bought every piece of cargo on the ship. Then, for the cat alone, he paid ten times as much as all the rest of the cargo had cost him.
+        - id: ch04-b18
+          speaker: narrator
+          text: The captain took leave of the king and queen and the whole royal party. With a fair wind behind him, he sailed happily back to England and arrived safely in London after a fortunate voyage.
+
+    - id: ch05
+      title: Mr. Whittington's Fortune
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Early one morning, Mr. Fitzwarren sat at the desk in his counting-house, going over his money and arranging the day's business. Then came a tap, tap at the door.
+        - id: ch05-b02
+          speaker: fitzwarren
+          text: Who is there?
+        - id: ch05-b03
+          speaker: visitor
+          text: A friend. I've brought good news of your ship, the Unicorn.
+        - id: ch05-b04
+          speaker: narrator
+          text: Mr. Fitzwarren sprang up so quickly that he forgot his gout. At the door stood the captain and the ship's factor, carrying a cabinet of jewels and a bill of lading. When the merchant examined them, he raised his eyes and thanked Heaven for the prosperous voyage.
+        - id: ch05-b05
+          speaker: narrator
+          text: The men told him everything the cat had done and showed him the splendid gift the king and queen had sent in payment for her. Mr. Fitzwarren immediately called to his servants.
+        - id: ch05-b06
+          speaker: fitzwarren
+          text: Go and bring him here with news of his fame. And call him Mr. Whittington by name.
+        - id: ch05-b07
+          speaker: servant
+          text: Sir, isn't such a great treasure far too much for him?
+        - id: ch05-b08
+          speaker: fitzwarren
+          text: Heaven forbid that I take even one penny from him. The fortune is his, down to the last farthing.
+        - id: ch05-b09
+          speaker: narrator
+          text: At that moment, Dick was below scouring the cook's pots, covered in dirt. When they summoned him, he tried not to enter the counting-house.
+        - id: ch05-b10
+          speaker: dick
+          text: The room has been swept, sir, and my shoes are dirty and full of hobnails.
+        - id: ch05-b11
+          speaker: narrator
+          text: The merchant ordered him in and had a chair placed for him. Dick began to suspect that everyone was making fun of him.
+        - id: ch05-b12
+          speaker: dick
+          text: Please don't play tricks on a poor, simple boy. Let me go back downstairs to my work.
+        - id: ch05-b13
+          speaker: fitzwarren
+          text: We are quite serious, Mr. Whittington, and I rejoice with all my heart. The captain sold your cat to the King of Barbary. In return, he has brought you more wealth than I own in all the world. May you enjoy it for many years!
+          emotion: happy
+        - id: ch05-b14
+          speaker: narrator
+          text: Mr. Fitzwarren told the men to open the great treasure. Now, he said, Mr. Whittington had only to place it somewhere safe.
+        - id: ch05-b15
+          speaker: narrator
+          text: Dick could hardly contain his joy. He begged his master to accept any share he wished, because Dick owed the whole fortune to his kindness.
+        - id: ch05-b16
+          speaker: fitzwarren
+          text: No, no. It all belongs to you, and I have no doubt you'll use it well.
+        - id: ch05-b17
+          speaker: narrator
+          text: Dick next asked Mrs. Fitzwarren to accept part of his good fortune, and then he made the same offer to Alice. Both of them refused, while telling him how much joy his success had brought them. But Dick was too kindhearted to keep the entire treasure for himself. He gave generous presents to the captain, the mate, and all the rest of Mr. Fitzwarren's servants. He even gave something to the bad-tempered old cook who had treated him so cruelly.
+
+    - id: ch06
+      title: Thrice Lord Mayor
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: Mr. Fitzwarren advised Dick to send for a proper tailor and have clothes made that suited a gentleman. He also told Dick that he was welcome to remain in the Fitzwarren house until he could provide himself with an even better home of his own.
+        - id: ch06-b02
+          speaker: narrator
+          text: Dick washed his face, had his hair curled and his hat properly set, and put on a fine new suit of clothes. Once he was dressed, he looked as handsome and genteel as any young man who came to visit the Fitzwarrens. Alice had once regarded him with kindness and pity. Now she saw that he might make a fitting sweetheart, especially because he was always looking for ways to please her and brought her the prettiest gifts he could find.
+        - id: ch06-b03
+          speaker: narrator
+          text: Mr. Fitzwarren soon noticed the love growing between the two young people. He proposed that they should marry, and Dick and Alice both gladly agreed. A wedding day was soon chosen. When it came, the Lord Mayor, the whole court of aldermen, the sheriffs, and a great company of London's richest merchants accompanied them to church. Afterward, Dick and Alice welcomed all their guests to a magnificent wedding feast.
+        - id: ch06-b04
+          speaker: narrator
+          text: History tells us that Mr. Whittington and his wife lived in great splendour and were very happy together. In time, they had several children. Dick became Sheriff of London. Just as the bells had promised, he served three times as Lord Mayor. Later, King Henry the Fifth gave him the honour of knighthood, and Dick Whittington became Sir Richard Whittington.
+        - id: ch06-b05
+          speaker: narrator
+          text: After King Henry conquered France, Sir Richard invited the king and his queen to dinner. He entertained them with such splendour, and the feast was so grand, that the king turned to praise his generous host.
+        - id: ch06-b06
+          speaker: king
+          text: No prince ever had such a subject.
+        - id: ch06-b07
+          speaker: dick
+          text: And no subject ever had such a prince.
+        - id: ch06-b08
+          speaker: narrator
+          text: Sir Richard built the old prison of Newgate. Until the year 1780, a stone figure stood above its archway, showing him with his cat in his arms.

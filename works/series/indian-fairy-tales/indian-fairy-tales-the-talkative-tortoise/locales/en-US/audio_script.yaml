@@ -1,0 +1,188 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and inviting
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    king:
+      display_name: King Brahma-datta
+      tts:
+        delivery: confident and endlessly conversational
+        timbre: full and resonant
+        pace: brisk
+        pitch: medium-low
+    adviser:
+      display_name: The King's Adviser
+      tts:
+        delivery: wise and respectfully direct
+        timbre: calm and clear
+        pace: unhurried
+        pitch: medium-low
+    tortoise:
+      display_name: Tortoise
+      tts:
+        delivery: friendly and impulsive
+        timbre: rounded and earthy
+        pace: lively
+        pitch: medium
+    hamsa_1:
+      display_name: First Wild Duck
+      tts:
+        delivery: warm and practical
+        timbre: light and clear
+        pace: steady
+        pitch: medium-high
+    hamsa_2:
+      display_name: Second Wild Duck
+      tts:
+        delivery: cheerful and sensible
+        timbre: smooth and airy
+        pace: steady
+        pitch: medium
+    villager_1:
+      display_name: First Villager
+      tts:
+        delivery: amazed and outspoken
+        timbre: bright and rustic
+        pace: quick
+        pitch: medium-high
+    villager_2:
+      display_name: Second Villager
+      tts:
+        delivery: amazed and outspoken
+        timbre: clear and youthful
+        pace: quick
+        pitch: high
+    villager_3:
+      display_name: Third Villager
+      tts:
+        delivery: amazed and outspoken
+        timbre: hearty and rough
+        pace: quick
+        pitch: medium-low
+    courtier_1:
+      display_name: First Courtier
+      tts:
+        delivery: startled and formal
+        timbre: crisp and clear
+        pace: brisk
+        pitch: medium
+    courtier_2:
+      display_name: Second Courtier
+      tts:
+        delivery: startled and formal
+        timbre: smooth and light
+        pace: brisk
+        pitch: medium-high
+    courtier_3:
+      display_name: Third Courtier
+      tts:
+        delivery: startled and formal
+        timbre: firm and resonant
+        pace: brisk
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: A King Who Never Stopped Talking
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Long ago, when Brahma-datta ruled in Benares, the future Buddha was born into a minister's family. When he grew up, he became the king's adviser in worldly and spiritual matters.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            The king talked and talked. Whenever he spoke, no one else could get a word in. His adviser wanted to cure him of this habit, and he was always looking for a way.
+    - id: ch02
+      title: An Invitation to the Golden Cave
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            At that time, a tortoise lived in a pond among the Himalaya mountains. Two young wild ducks often came there to feed, and the three became close friends. One day, the ducks made him an offer.
+        - id: ch02-b02
+          speakers: [hamsa_1, hamsa_2]
+          ensemble: duo
+          text: >-
+            Friend Tortoise, our home is the Golden Cave on Mount Beautiful, here in the Himalaya country. It is a wonderful place. Would you like to come with us?
+        - id: ch02-b03
+          speaker: tortoise
+          text: But how could I get there?
+        - id: ch02-b04
+          speakers: [hamsa_1, hamsa_2]
+          ensemble: duo
+          text: >-
+            We can carry you, but only if you keep your mouth shut and do not answer anyone.
+        - id: ch02-b05
+          speaker: tortoise
+          text: Oh, I can do that! Take me with you.
+        - id: ch02-b06
+          speakers: [hamsa_1, hamsa_2]
+          ensemble: duo
+          text: Good. Then let us go.
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            The ducks gave the tortoise a stick to grip in his mouth. Each duck took one end in its beak, and up they flew.
+    - id: ch03
+      title: The Tortoise Lets Go
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            Some villagers looked up and saw the tortoise hanging from the stick between the flying ducks. They called out together.
+        - id: ch03-b02
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
+          text: Look! Two wild ducks are carrying a tortoise on a stick!
+          emotion: surprised
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            The tortoise wanted to shout back, “If my friends want to carry me, what business is it of yours, you miserable slaves?” By then, the swift ducks were flying over the king's palace in Benares. The tortoise opened his mouth to answer. He lost his grip, fell into the open courtyard, and split in two.
+        - id: ch03-b04
+          speaker: narrator
+          text: A cry went up from everyone nearby.
+        - id: ch03-b05
+          speakers: [courtier_1, courtier_2, courtier_3]
+          ensemble: chorus
+          text: A tortoise has fallen into the courtyard and split in two!
+          emotion: surprised
+    - id: ch04
+      title: The Adviser Finds His Lesson
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            The king went down to the courtyard with his adviser, and the courtiers gathered around them. After looking at the tortoise, the king turned to his teacher.
+        - id: ch04-b02
+          speaker: king
+          text: Teacher, how did this tortoise come to fall here?
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            The adviser understood that the chance he had been waiting for had finally come. He reasoned that the tortoise must have befriended two wild ducks. They must have told him to bite a stick so they could carry him toward the mountains. But when the tortoise heard someone else talking, he could not keep quiet. He tried to answer, released the stick, and fell from the sky to his death.
+        - id: ch04-b04
+          speaker: adviser
+          text: >-
+            Truly, my king, this is what can happen to chatterboxes whose words never end. The tortoise held the stick tightly, yet he killed himself by using his voice. One word was enough to bring him down. Look at him, great king. Speak wisely, and speak at the right time. You can see the terrible end that came to this tortoise because he talked too much.
+        - id: ch04-b05
+          speaker: narrator
+          text: The king realized that the adviser was talking about him.
+        - id: ch04-b06
+          speaker: king
+          text: Teacher, do you mean me?
+        - id: ch04-b07
+          speaker: narrator
+          text: This time, the adviser answered openly.
+        - id: ch04-b08
+          speaker: adviser
+          text: >-
+            Great king, I mean you or anyone else. Whoever talks beyond measure may meet with trouble like this.
+        - id: ch04-b09
+          speaker: narrator
+          text: From that day on, the king held himself back and became a man of few words.

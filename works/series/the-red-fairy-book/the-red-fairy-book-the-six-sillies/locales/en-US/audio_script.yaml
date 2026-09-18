@@ -1,0 +1,194 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and storylike
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    father:
+      display_name: Father
+      tts:
+        delivery: peaceable and plainspoken
+        timbre: mild and weathered
+        pace: unhurried
+        pitch: medium-low
+    mother:
+      display_name: Mother
+      tts:
+        delivery: loving and steadfast
+        timbre: soft and clear
+        pace: measured
+        pitch: medium
+    girl:
+      display_name: Girl
+      tts:
+        delivery: gentle and sincere
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium-high
+    young_man:
+      display_name: Young Man
+      tts:
+        delivery: practical and forthright
+        timbre: warm and clear
+        pace: measured
+        pitch: medium-low
+    walnut_worker_1:
+      display_name: First Walnut Worker
+      tts:
+        delivery: earnest and puzzled
+        timbre: plain and bright
+        pace: measured
+        pitch: medium
+    walnut_worker_2:
+      display_name: Second Walnut Worker
+      tts:
+        delivery: earnest and puzzled
+        timbre: light and clear
+        pace: measured
+        pitch: medium-high
+    walnut_worker_3:
+      display_name: Third Walnut Worker
+      tts:
+        delivery: earnest and puzzled
+        timbre: rough and open
+        pace: measured
+        pitch: medium-low
+    pig_owner:
+      display_name: Pig Owner
+      tts:
+        delivery: good-natured and bewildered
+        timbre: rustic and mellow
+        pace: unhurried
+        pitch: medium-low
+    trouser_man:
+      display_name: Man with the Trousers
+      tts:
+        delivery: breathless and candid
+        timbre: plain and hearty
+        pace: lively
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Beer in the Cellar
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a young woman who reached the age of thirty-seven without a single sweetheart. She was so foolish that no one wished to marry her.
+        - id: ch01-b02
+          speaker: narrator
+          text: Then one day, a young man came to court her. Her mother beamed with delight. She sent the girl down to the cellar to draw a jug of beer for their visitor.
+        - id: ch01-b03
+          speaker: narrator
+          text: The girl did not come back. At last, her mother went to see what had happened. She found her daughter sitting on the cellar steps with her head in her hands. Beside her, beer poured from the open tap and spread across the floor.
+        - id: ch01-b04
+          speaker: mother
+          text: What are you doing down here?
+        - id: ch01-b05
+          speaker: girl
+          text: I was wondering what to name my first child after I marry that young man. Every name in the calendar has already been used.
+        - id: ch01-b06
+          speaker: narrator
+          text: Her mother sat beside her on the stairs.
+        - id: ch01-b07
+          speaker: mother
+          text: Then I'll sit here and think about it with you, my dear.
+        - id: ch01-b08
+          speaker: narrator
+          text: The father had stayed upstairs with the visitor. He was surprised when neither his wife nor his daughter returned, so he went down to look for them. There they both sat on the steps, while the beer kept running from the wide-open tap.
+        - id: ch01-b09
+          speaker: father
+          text: What are you two doing? The beer is pouring all over the cellar!
+        - id: ch01-b10
+          speaker: mother
+          text: We're trying to decide what to call our daughter's children when she marries that young man. Every name in the calendar has been taken.
+        - id: ch01-b11
+          speaker: father
+          text: Well, I'll help you think of one.
+        - id: ch01-b12
+          speaker: narrator
+          text: He sat down too. The young man waited upstairs alone until he lost patience. Not one of the three had returned, so he went to see what they could all be doing. He found them together on the cellar steps, and the beer was still flooding the floor.
+        - id: ch01-b13
+          speaker: young_man
+          text: What in the world are you all doing down here? Why are you letting all that beer run away?
+        - id: ch01-b14
+          speaker: father
+          text: Yes, yes, I know about the beer. But if you marry our daughter, what will you name your children? Every name in the calendar is taken.
+        - id: ch01-b15
+          speaker: narrator
+          text: That answer was enough for the young man.
+        - id: ch01-b16
+          speaker: young_man
+          text: Then good-bye! I'm leaving. If I can find three people sillier than all of you, I'll come back and marry your daughter.
+    - id: ch02
+      title: The Walnut Workers
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The young man set off. After a long walk, he came to an orchard. Some people there were knocking walnuts from the trees. Then they tried to pitch the nuts into a cart with a fork.
+        - id: ch02-b02
+          speaker: young_man
+          text: What are you trying to do?
+        - id: ch02-b03
+          speakers: [walnut_worker_1, walnut_worker_2, walnut_worker_3]
+          ensemble: chorus
+          text: We're trying to fill this cart with walnuts, but we can't get them in!
+        - id: ch02-b04
+          speaker: young_man
+          text: Put the walnuts into a basket first. Then you can tip the basket into the cart.
+        - id: ch02-b05
+          speaker: narrator
+          text: As he walked away, the young man thought about what he had seen.
+        - id: ch02-b06
+          speaker: young_man
+          text: That's one person more foolish than those three at home.
+    - id: ch03
+      title: The Pig beneath the Oak
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Farther on, he entered a wood. There he saw a man trying with all his strength to make a pig climb an oak tree. The man wanted the pig to eat the acorns above.
+        - id: ch03-b02
+          speaker: young_man
+          text: My good man, what are you doing?
+        - id: ch03-b03
+          speaker: pig_owner
+          text: I want my pig to eat those acorns, but I can't make him climb the tree.
+        - id: ch03-b04
+          speaker: young_man
+          text: Why don't you climb up and shake the acorns down? The pig can eat them from the ground.
+        - id: ch03-b05
+          speaker: pig_owner
+          text: Oh! That never crossed my mind.
+          emotion: surprised
+        - id: ch03-b06
+          speaker: narrator
+          text: The young man continued along the road.
+        - id: ch03-b07
+          speaker: young_man
+          text: There's the second fool.
+    - id: ch04
+      title: The Man with the Trousers
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Some distance farther on, the young man met someone who had never worn trousers before. The man had tied a pair to a tree. With all his might, he jumped high into the air, hoping that when he came down, both his legs would land inside the trousers.
+        - id: ch04-b02
+          speaker: young_man
+          text: You'd do better to hold those trousers in your hands. Put one leg into each opening, one after the other.
+        - id: ch04-b03
+          speaker: trouser_man
+          text: Well, imagine that! You're much sharper than I am. I never thought of doing it that way.
+          emotion: surprised
+        - id: ch04-b04
+          speaker: narrator
+          text: Now the young man had found three people more foolish than his bride and her parents. So he went back and married the young woman.
+        - id: ch04-b05
+          speaker: narrator
+          text: And as time went on, they had a great many children.
+        - id: ch04-b06
+          speaker: narrator
+          text: This story comes from Hainaut.

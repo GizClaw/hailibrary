@@ -1,0 +1,371 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, clear, and quietly cautionary
+        timbre: gentle and resonant
+        pace: measured
+        pitch: medium
+    prince:
+      display_name: The Prince
+      tts:
+        delivery: courteous, brave, and earnest
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium
+    emperor:
+      display_name: The Emperor
+      tts:
+        delivery: dignified, thoughtful, and commanding
+        timbre: rich and mature
+        pace: measured
+        pitch: medium-low
+    princess:
+      display_name: The Princess
+      tts:
+        delivery: spoiled, lively, and imperious
+        timbre: bright and youthful
+        pace: brisk
+        pitch: medium-high
+    lady_1:
+      display_name: First Lady-in-Waiting
+      tts:
+        delivery: dutiful, curious, and slightly breathless
+        timbre: light and clear
+        pace: brisk
+        pitch: medium-high
+    lady_2:
+      display_name: Second Lady-in-Waiting
+      tts:
+        delivery: fashionable, eager, and agreeable
+        timbre: smooth and airy
+        pace: brisk
+        pitch: high
+    lady_3:
+      display_name: Third Lady-in-Waiting
+      tts:
+        delivery: animated, compliant, and easily impressed
+        timbre: bright and soft
+        pace: brisk
+        pitch: medium-high
+    old_courtier:
+      display_name: The Old Courtier
+      tts:
+        delivery: nostalgic, refined, and earnest
+        timbre: dry and aged
+        pace: unhurried
+        pitch: medium-low
+    messenger_1:
+      display_name: First Messenger
+      tts:
+        delivery: formal and respectful
+        timbre: clear and steady
+        pace: measured
+        pitch: medium
+    messenger_2:
+      display_name: Second Messenger
+      tts:
+        delivery: formal and respectful
+        timbre: warm and steady
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Prince's Gifts
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: There was once a poor Prince. His kingdom was small, but it was large enough to marry on, and he very much wanted a wife.
+        - id: ch01-b02
+          speaker: narrator
+          text: It was rather bold of him to approach the Emperor's daughter. Still, his name was known far and wide. Hundreds of princesses would gladly have accepted him, so he dared to ask.
+        - id: ch01-b03
+          speaker: prince
+          text: Will you marry me?
+        - id: ch01-b04
+          speaker: narrator
+          text: But would the Emperor's daughter say yes? Well, we shall see.
+        - id: ch01-b05
+          speaker: narrator
+          text: A beautiful rose tree grew on the grave of the Prince's father. It bloomed only once every five years, and even then it bore just one rose. Yet that one rose had such a sweet scent that anyone who breathed it forgot every care and trouble.
+        - id: ch01-b06
+          speaker: narrator
+          text: The Prince also had a nightingale. It sang as though every lovely melody in the whole world had been gathered and shut inside its little throat. These were the gifts he chose for the Princess. The rose and the nightingale were placed in separate silver caskets and carried to her.
+        - id: ch01-b07
+          speaker: narrator
+          text: The gifts were carried into the Emperor's great hall. The Princess was there with her ladies-in-waiting, playing a game called “Here Comes a Duke A-Riding.” When she saw the large caskets, she clapped her hands with delight.
+        - id: ch01-b08
+          speaker: princess
+          text: Oh, I hope there's a little kitten inside!
+          emotion: happy
+        - id: ch01-b09
+          speaker: narrator
+          text: Instead, they opened the first casket and lifted out the rose tree with its wonderful rose.
+        - id: ch01-b10
+          speakers: [lady_1, lady_2, lady_3]
+          ensemble: chorus
+          text: What a pretty thing someone has made!
+        - id: ch01-b11
+          speaker: emperor
+          text: It is more than pretty. It is charming!
+        - id: ch01-b12
+          speaker: narrator
+          text: But the Princess touched the rose. The moment she knew what it was, she nearly began to cry.
+        - id: ch01-b13
+          speaker: princess
+          text: Ugh, Papa! Nobody made it. This rose is real!
+          emotion: disgusted
+        - id: ch01-b14
+          speakers: [lady_1, lady_2, lady_3]
+          ensemble: chorus
+          text: Ugh! It really is!
+          emotion: disgusted
+        - id: ch01-b15
+          speaker: narrator
+          text: The Emperor decided they should see the other gift before anyone became angry. The second casket was opened, and out came the nightingale. It sang so beautifully that no one could find a harsh word to say about it.
+        - id: ch01-b16
+          speakers: [lady_1, lady_2, lady_3]
+          ensemble: chorus
+          text: Superb! Charming!
+          emotion: happy
+        - id: ch01-b17
+          speaker: narrator
+          text: The ladies all liked to chatter in French, though none of them spoke it very well.
+        - id: ch01-b18
+          speaker: old_courtier
+          text: That bird takes me back to the late Empress's musical snuffbox. Yes, it has exactly the same tone and the same fine performance!
+        - id: ch01-b19
+          speaker: emperor
+          text: Yes. It does indeed.
+          emotion: sad
+        - id: ch01-b20
+          speaker: narrator
+          text: Tears ran down the Emperor's face, and he wept like a little child.
+        - id: ch01-b21
+          speaker: princess
+          text: I hope this one isn't real too?
+        - id: ch01-b22
+          speakers: [messenger_1, messenger_2]
+          ensemble: duo
+          text: Yes, Princess. It is a living bird.
+        - id: ch01-b23
+          speaker: princess
+          text: Then let it fly away.
+        - id: ch01-b24
+          speaker: narrator
+          text: And no matter what anyone said, the Princess refused to let the Prince come to see her.
+    - id: ch02
+      title: The Musical Pot
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The Prince was not discouraged. He painted his face brown and black, pulled his cap low, and knocked at the palace door.
+        - id: ch02-b02
+          speaker: prince
+          text: Good day, Emperor. Could you give me work as a servant in the castle?
+        - id: ch02-b03
+          speaker: emperor
+          text: So many people ask me for work that I cannot promise you a place. Still, I will keep you in mind. Wait. I do need someone to care for my swine, and I have a great many of them.
+        - id: ch02-b04
+          speaker: narrator
+          text: So the Prince was given the position of Imperial Swineherd. He had to live in a miserable little room right beside the pigsties. He stayed there and worked through the entire day. By the time evening came, he had made a pretty little pot.
+        - id: ch02-b05
+          speaker: narrator
+          text: Tiny bells hung all around it. Whenever the pot boiled, they jingled out an old tune.
+        - id: ch02-b06
+          speaker: narrator
+          text: “Where is Augustus dear? Alas, he's not here, here, here!”
+        - id: ch02-b07
+          speaker: narrator
+          text: The pot had an even greater wonder. You only had to hold one finger in its steam. At once, you could smell what dinner was cooking over every single fireplace in town. Now that was something quite different from the rose.
+        - id: ch02-b08
+          speaker: narrator
+          text: The Princess came walking past with all her ladies. When she heard the tune, she stopped, and her face lit up. She could play “Where Is Augustus Dear?” herself. In fact, it was the only tune she knew, and she played it with one finger.
+        - id: ch02-b09
+          speaker: princess
+          text: Why, that's my tune! The swineherd must be wonderfully accomplished. Listen, go ask him what he wants for that instrument.
+        - id: ch02-b10
+          speaker: narrator
+          text: The first lady-in-waiting had to go down to the pigsties, though she put on wooden clogs before she went.
+        - id: ch02-b11
+          speaker: lady_1
+          text: What price do you want for the pot?
+        - id: ch02-b12
+          speaker: prince
+          text: Ten kisses from the Princess.
+        - id: ch02-b13
+          speaker: lady_1
+          text: Heaven forbid!
+          emotion: surprised
+        - id: ch02-b14
+          speaker: prince
+          text: That is my price. I won't take anything less.
+        - id: ch02-b15
+          speaker: princess
+          text: Well? What did he say?
+        - id: ch02-b16
+          speaker: lady_1
+          text: I hardly dare tell you.
+        - id: ch02-b17
+          speaker: princess
+          text: Then whisper it in my ear.
+        - id: ch02-b18
+          speaker: narrator
+          text: The lady whispered the price.
+        - id: ch02-b19
+          speaker: princess
+          text: How unhelpful of him!
+          emotion: angry
+        - id: ch02-b20
+          speaker: narrator
+          text: The Princess walked away. She had gone only a few steps when the little bells began to ring again.
+        - id: ch02-b21
+          speaker: narrator
+          text: “Where is Augustus dear? Alas, he's not here, here, here!”
+        - id: ch02-b22
+          speaker: princess
+          text: Listen to that! Ask whether he'll accept ten kisses from my ladies instead.
+        - id: ch02-b23
+          speaker: prince
+          text: No, thank you. I want ten kisses from the Princess, or I will keep my pot.
+        - id: ch02-b24
+          speaker: princess
+          text: How tiresome! Very well. All of you must stand in front of me, so nobody can see.
+        - id: ch02-b25
+          speaker: narrator
+          text: The ladies formed a screen and spread out their dresses. The Swineherd received his ten kisses, and the Princess received the pot.
+    - id: ch03
+      title: Secrets from Every Kitchen
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: How delighted they were with that pot! They kept it boiling through the whole night and all through the following day. There was not a fireplace in town whose secrets they could not discover. They knew what was cooking everywhere, from the Chancellor's grand kitchen to the shoemaker's humble one.
+        - id: ch03-b02
+          speaker: narrator
+          text: The ladies-in-waiting danced about and clapped their hands.
+        - id: ch03-b03
+          speakers: [lady_2, lady_3]
+          ensemble: duo
+          text: We know who's having soup and pancakes! We know who's having porridge and sausages! Isn't that fascinating?
+          emotion: happy
+        - id: ch03-b04
+          speaker: lady_1
+          text: Oh, very fascinating!
+          emotion: happy
+        - id: ch03-b05
+          speaker: princess
+          text: But you must not tell anyone. Remember, I am the Emperor's daughter.
+        - id: ch03-b06
+          speakers: [lady_1, lady_2, lady_3]
+          ensemble: chorus
+          text: Of course we won't tell!
+        - id: ch03-b07
+          speaker: narrator
+          text: The Swineherd was really the Prince, though nobody there suspected it. He made something new every day. Then one day he made a rattle. When it was spun, it played every waltz, galop, and polka the world had ever known.
+        - id: ch03-b08
+          speaker: princess
+          text: That is superb! I have never heard a lovelier piece of music. Go ask what he wants for this instrument. But I will not kiss him again.
+          emotion: happy
+        - id: ch03-b09
+          speaker: narrator
+          text: The first lady went down to ask and returned with his answer.
+        - id: ch03-b10
+          speaker: lady_1
+          text: He wants one hundred kisses from the Princess.
+        - id: ch03-b11
+          speaker: princess
+          text: He must be mad!
+          emotion: surprised
+        - id: ch03-b12
+          speaker: narrator
+          text: She walked on, but once again she stopped after only a few steps.
+        - id: ch03-b13
+          speaker: princess
+          text: Art ought to be encouraged, and I am the Emperor's daughter. Tell him I will give him ten kisses, as I did before. He can take the rest from my ladies.
+        - id: ch03-b14
+          speakers: [lady_1, lady_2, lady_3]
+          ensemble: chorus
+          text: But we don't want him kissing us!
+        - id: ch03-b15
+          speaker: princess
+          text: Don't be foolish. If I can kiss him, then you can too. Besides, I provide your food and your rooms.
+        - id: ch03-b16
+          speaker: narrator
+          text: The ladies had no choice but to go down to the Swineherd again.
+        - id: ch03-b17
+          speaker: prince
+          text: One hundred kisses from the Princess. Otherwise, she keeps what belongs to her, and I keep what belongs to me.
+        - id: ch03-b18
+          speaker: princess
+          text: Stand in front of us.
+        - id: ch03-b19
+          speaker: narrator
+          text: The ladies made another screen around them, and the Swineherd began kissing the Princess.
+    - id: ch04
+      title: The Emperor Comes Down
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The Emperor was standing on his balcony when he noticed a commotion beside the pigsties.
+        - id: ch04-b02
+          speaker: emperor
+          text: What can they be doing down there?
+        - id: ch04-b03
+          speaker: narrator
+          text: He rubbed his eyes and put on his spectacles.
+        - id: ch04-b04
+          speaker: emperor
+          text: Why, those are the ladies-in-waiting playing one of their games. I must go and see them.
+        - id: ch04-b05
+          speaker: narrator
+          text: He hurried so much that he did not properly change his clothes. He only took off his shoes, though they were shoes whose heels he had trodden down until he wore them like slippers. What a hurry the Emperor was in!
+        - id: ch04-b06
+          speaker: narrator
+          text: When the Emperor reached the yard, he moved very quietly. The ladies were far too busy counting kisses and making sure the count was fair to notice him. He rose onto his toes and peered over them.
+        - id: ch04-b07
+          speaker: emperor
+          text: What is this?
+          emotion: angry
+        - id: ch04-b08
+          speaker: narrator
+          text: The Swineherd was taking his eighty-sixth kiss. At that very moment, the Emperor flung one of his slippers at their heads.
+        - id: ch04-b09
+          speaker: emperor
+          text: Get out of my empire, both of you!
+          emotion: angry
+        - id: ch04-b10
+          speaker: narrator
+          text: The Emperor was furious. The Princess and the Swineherd were driven out of the empire together.
+    - id: ch05
+      title: Outside the Kingdom
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Outside the empire, the Princess stopped and wept. Rain streamed down around them while the Swineherd scolded her.
+        - id: ch05-b02
+          speaker: princess
+          text: Oh, what a miserable creature I am!
+          emotion: sad
+        - id: ch05-b03
+          speaker: princess
+          text: If only I had accepted that beautiful Prince! Oh, how unlucky I am!
+          emotion: sad
+        - id: ch05-b04
+          speaker: narrator
+          text: The Swineherd stepped behind a tree. He washed the brown and black paint from his face, threw away his old clothes, and came out wearing his splendid dress.
+        - id: ch05-b05
+          speaker: narrator
+          text: He looked so handsome that the Princess had no choice but to curtsy to him.
+        - id: ch05-b06
+          speaker: prince
+          text: Now I will tell you what I think. I despise you. You rejected an honorable Prince. You could not value the rose or the nightingale, yet you kissed a swineherd to get a toy. This is what your choice has brought you.
+          emotion: angry
+        - id: ch05-b07
+          speaker: narrator
+          text: The Prince returned to his own kingdom and shut the door in her face. The Princess had to remain outside, singing.
+        - id: ch05-b08
+          speaker: princess
+          text: “Where is my Augustus dear? Alas, he's not here, here, here!”
+          emotion: sad

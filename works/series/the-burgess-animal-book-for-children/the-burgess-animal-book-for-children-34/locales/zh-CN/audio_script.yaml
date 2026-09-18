@@ -1,0 +1,232 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 亲切生动，带着温和的幽默感
+        timbre: 温暖清亮
+        pace: 舒缓而富有变化
+        pitch: 中等
+    peter_rabbit:
+      display_name: 彼得兔
+      tts:
+        delivery: 好奇直率，情绪来得快也去得快
+        timbre: 清脆稚气
+        pace: 轻快
+        pitch: 中高
+    mother_nature:
+      display_name: 老大自然妈妈
+      tts:
+        delivery: 慈爱睿智，说话从容而坦率
+        timbre: 温厚柔和
+        pace: 从容
+        pitch: 中低
+    unc_billy:
+      display_name: 负鼠比利叔叔
+      tts:
+        delivery: 随和诙谐，带着浓厚朴实的乡音
+        timbre: 略显沙哑而亲切
+        pace: 悠闲
+        pitch: 中低
+    chatterer:
+      display_name: 红松鼠喋喋
+      tts:
+        delivery: 伶牙俐齿，争强好胜又活泼
+        timbre: 尖细清亮
+        pace: 明快
+        pitch: 高
+    happy_jack:
+      display_name: 灰松鼠快乐杰克
+      tts:
+        delivery: 自信好胜，受窘时有些急躁
+        timbre: 明亮爽脆
+        pace: 轻快
+        pitch: 中高
+    johnny_chuck:
+      display_name: 土拨鼠约翰尼
+      tts:
+        delivery: 直率倔强，懒洋洋中带着粗朴的自信
+        timbre: 浑厚结实
+        pace: 稍缓
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 彼得猜中了
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 放学回家的路上，彼得兔一直在想，谁会吃肉，却又不属于食肉目呢？他每蹦几步就停下来琢磨，停了又停，想了又想，可还是找不到答案。第二天早晨动身去上课时，他依然满肚子疑问。彼得穿过绿森林，经过一棵树。他刚刚走过去，身后就响起了熟悉的招呼声。
+        - id: ch01-b02
+          speaker: unc_billy
+          text: “早上好啊，兔兄弟。你这么急，要上哪儿去？”
+        - id: ch01-b03
+          speaker: narrator
+          text: 彼得猛地停住，抬头往树上看。树干高处有个洞，一张尖尖的灰白色脸正从里面探出来，低头望着他。那张脸上，两只黑眼睛闪闪发亮。
+        - id: ch01-b04
+          speaker: peter_rabbit
+          text: “你好，比利叔叔！你和负鼠老太太最近好吗？”
+        - id: ch01-b05
+          speaker: unc_billy
+          text: “不大好啊，彼得。俺们还没吃早饭，饿着肚子，哪能好得起来。”
+        - id: ch01-b06
+          speaker: narrator
+          text: 比利叔叔咧嘴一笑。彼得忽然想到了一件事，马上兴奋起来。
+        - id: ch01-b07
+          speaker: peter_rabbit
+          text: “比利叔叔，你是食肉目动物吗？”
+        - id: ch01-b08
+          speaker: narrator
+          text: 比利叔叔把头又探出来一点儿，还把手拢在耳后，仿佛没听清。
+        - id: ch01-b09
+          speaker: unc_billy
+          text: “兔兄弟，你说俺是个啥？”
+        - id: ch01-b10
+          speaker: peter_rabbit
+          text: “我是问，你属于食肉目吗？”
+        - id: ch01-b11
+          speaker: unc_billy
+          text: “俺要是知道那是啥，兴许就是。可俺不知道，想来就不是喽。俺只是个普普通通的 Possum。哪天想摆阔气，就在前头添个字母 O，变成 Opossum 先生。”
+        - id: ch01-b12
+          speaker: narrator
+          text: 可彼得根本没有听见这番回答。他早已啪嗒啪嗒奔向学校，甚至连声再见都没说，实在算不上有礼貌。等他终于赶到课堂，已经累得上气不接下气。
+        - id: ch01-b13
+          speaker: peter_rabbit
+          text: “我知道了！我知道答案了！”
+        - id: ch01-b14
+          speaker: mother_nature
+          text: “你知道什么了？”
+        - id: ch01-b15
+          speaker: peter_rabbit
+          text: “那个吃肉却不属于食肉目的，就是负鼠比利叔叔！”
+          emotion: happy
+        - id: ch01-b16
+          speaker: mother_nature
+          text: “答对了。不过，你是怎么知道的？”
+        - id: ch01-b17
+          speaker: peter_rabbit
+          text: “其实是猜的。我在路上碰见比利叔叔，想到您还没讲过他，就猜一定是他。可是，他既然吃肉，为什么不算食肉目动物呢？”
+        - id: ch01-b18
+          speaker: mother_nature
+          text: “比利叔叔属于一个很特别的类群。他们身上有一样东西，使他们和所有别的动物都不一样，所以人们把他们单独分成一目，叫有袋目。这个名字的意思，就是身上带育儿袋的动物。那一目的母亲都有一个大口袋，可以把自己的宝宝装在里面带着走。负鼠老太太也有这样的口袋。”
+        - id: ch01-b19
+          speaker: peter_rabbit
+          text: “对呀！我见过宝宝们从她的口袋里探出脑袋，那模样可太滑稽了。”
+        - id: ch01-b20
+          speaker: mother_nature
+          text: “美洲负鼠是这个国家仅有的有袋类动物。现在明白了吗？比利叔叔和负鼠老太太虽然吃肉，却不属于巴斯特熊和其他食肉动物所在的那个大目。”
+        - id: ch01-b21
+          speaker: narrator
+          text: 老大自然妈妈说完，大家一起点了点头，表示这回全明白了。就在这时，红松鼠喋喋忽然高声叫起来。
+        - id: ch01-b22
+          speaker: chatterer
+          text: “快看！比利叔叔、负鼠老太太，还有所有负鼠宝宝都来了！”
+    - id: ch02
+      title: 好用的光尾巴
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 负鼠一家果然沿着孤独小径走来了，模样真有意思。比利叔叔浑身灰白，脸比身体其他地方更白。一身毛朝各处乱翘，活像刚从床上爬起来，忘了梳头。他的腿颜色很深，脚是黑的，脚趾却是白的。两只耳朵一根毛也没有，下半截黑，上半截白。那条长长的灰白尾巴也是光秃秃的。总的说来，尖脸配上光尾巴，使他很像一只巨大的老鼠。
+        - id: ch02-b02
+          speaker: narrator
+          text: 要是比利叔叔的模样有趣，负鼠老太太看起来就更有趣了，仿佛浑身上下到处都是脑袋和尾巴。她正是那种喜欢大家庭的母亲，一共带来了十二个孩子。小负鼠和父母长得一模一样，只是个头更小。他们攀在妈妈全身各处，有的趴在背上，有的紧紧抓住身体两侧，还有两个留在那个大育儿袋里。他们整个婴儿时代就是在那里度过的。
+        - id: ch02-b03
+          speaker: unc_billy
+          text: “俺们一家商量了一下，今天也来上学。”
+        - id: ch02-b04
+          speaker: mother_nature
+          text: “来得正好。这里的朋友们都很想了解负鼠一家呢。”
+        - id: ch02-b05
+          speaker: narrator
+          text: 大家说话时，负鼠老太太已经开始爬树。她爬到一处舒服的枝杈间停下来，孩子们这才离开妈妈，在树上玩了起来。小家伙们爬到枝条细小的地方，只要拿光秃秃的尾巴缠住细枝，就能稳稳抓住，不会掉下去。大家这才看出，那些小尾巴有多么好用。
+        - id: ch02-b06
+          speaker: peter_rabbit
+          text: “哎呀，他们的尾巴真管用！”
+        - id: ch02-b07
+          speaker: unc_billy
+          text: “天底下再没有更好用的尾巴啦。要是没了俺这条尾巴，俺可真不知道该怎么办。”
+        - id: ch02-b08
+          speaker: mother_nature
+          text: “比利叔叔，爬上去给大家看看吧。要是鸟巢在另一根树枝上，沿着那根树枝又够不到，你怎么拿巢里的蛋呢？”
+        - id: ch02-b09
+          speaker: narrator
+          text: 比利叔叔咧嘴一笑，爽快地爬上树。他选了一根悬在另一根树枝上方的枝条，沿着它慢慢往外爬，一直爬到枝头变细的地方。然后，他用尾巴尖缠紧树枝，把身体向下一荡。这时候，他全身只靠尾巴和一只后脚抓着上面的树枝。等他把身子尽量向下伸长，刚好能够到下面那根树枝。
+        - id: ch02-b10
+          speaker: unc_billy
+          text: “瞧，要是下面有个鸟巢，俺拿里头的蛋一点儿也不费劲。真希望这里就有一个。光是说起鸟蛋，俺都要流口水啦。”
+        - id: ch02-b11
+          speaker: narrator
+          text: 比利叔叔说着又咧嘴笑了，仿佛真盼着眼前出现一窝鸟蛋。然后，他才把身体拉回上面的树枝。老大自然妈妈看着他，责备地摇了摇头。
+        - id: ch02-b12
+          speaker: mother_nature
+          text: “比利叔叔，你偷鸟蛋，可真是个不安分的老坏蛋。况且，对你来说，鸟巢里是蛋还是刚出生的雏鸟，恐怕都没有多大分别。有你和红松鼠喋喋在附近，这一带的鸟儿们居然还有谁能把孩子养大，简直是奇迹。你最近去过布朗农夫家的鸡舍吗？”
+        - id: ch02-b13
+          speaker: unc_billy
+          text: “最近没去。上回俺在那里吓得够呛，还是躲上一阵子为好。”
+        - id: ch02-b14
+          speaker: mother_nature
+          text: “那你平时还吃些什么？”
+        - id: ch02-b15
+          speaker: unc_billy
+          text: “俺啥都吃，一点儿也不挑。昆虫、植物根、青蛙、蟾蜍、小蛇、蜥蜴、浆果、水果、坚果、小耗子、玉米，还有扔在外头的旧肉，全都能吃。不管什么时候，也不管到了哪里，俺差不多都能找到一顿饭。”
+        - id: ch02-b16
+          speaker: peter_rabbit
+          text: “你们每次都有这么多孩子吗？”
+        - id: ch02-b17
+          speaker: unc_billy
+          text: “不一定每次都这么多。不过有些时候，负鼠太太得带着比这还大的一家子。俺们就是喜欢孩子，觉得越多越好。俺们一年打算生上两三窝，每一窝都是一个大家庭。”
+    - id: ch03
+      title: 比利叔叔的聪明办法
+      blocks:
+        - id: ch03-b01
+          speaker: johnny_chuck
+          text: “你们的家在哪里？”
+        - id: ch03-b02
+          speaker: peter_rabbit
+          text: “我知道！就在一棵有大树洞的树上。”
+        - id: ch03-b03
+          speaker: narrator
+          text: 比利叔叔从树上低头看着彼得。
+        - id: ch03-b04
+          speaker: unc_billy
+          text: “兔兄弟，那个树洞究竟在哪儿，你可完全没有必要告诉别人。”
+        - id: ch03-b05
+          speaker: happy_jack
+          text: “除了我们这里，别的地方也有负鼠吗？”
+        - id: ch03-b06
+          speaker: mother_nature
+          text: “当然有。从阳光灿烂的南方一路往下，各地都能见到他们。中西部比较温暖的地方也有。比利叔叔和他的亲族不喜欢寒冷，更愿意住在一年到头都能保持相当暖和的地方。”
+        - id: ch03-b07
+          speaker: mother_nature
+          text: “有人觉得比利叔叔不聪明，那是因为他们不了解他。他早就知道，自己跑不过某些动物，所以遇到危险时，总要靠脑筋保命。你们猜他会怎么做？”
+        - id: ch03-b08
+          speaker: peter_rabbit
+          text: “我知道！我亲眼见过。布朗农夫的儿子突然撞见比利叔叔，他马上倒在地上死了。”
+        - id: ch03-b09
+          speaker: happy_jack
+          text: “呸！彼得兔，你一定在编故事。他要是真倒在地上死了，怎么会就在这会儿还好端端地活着，待在那棵树上？”
+        - id: ch03-b10
+          speaker: peter_rabbit
+          text: “我不是说他真的死了，是说他看起来就像死了一样。他是我见过的最像死掉的东西，连我自己都相信他没命了。那时我正藏在一片荆棘丛里看着，真以为比利叔叔把身上的活气全都吓跑了。我猜布朗农夫的儿子也这样想。”
+        - id: ch03-b11
+          speaker: peter_rabbit
+          text: “布朗农夫的儿子大概也信了。他提着比利叔叔的尾巴，把他从头到脚看了一遍，还说：‘可怜的小东西，我不是故意伤害你的。’比利叔叔连眼睛都没眨一下。”
+        - id: ch03-b12
+          speaker: peter_rabbit
+          text: “后来，那个男孩提着他的尾巴，沿小路往前走。过了一会儿，男孩想去看黑乌鸦布莱基的鸟巢，就把比利叔叔放在一个老树桩上。等他回到树桩旁，比利叔叔早已不见了。男孩才一转过身，比利叔叔就飞奔起来。我从没见他跑得那么快。他突然活过来的样子，和刚才突然倒地死去时一模一样。”
+        - id: ch03-b13
+          speaker: mother_nature
+          text: “讲得很好，彼得。还有些聪明的小家伙偶尔也会用这一招，可谁都没有负鼠比利叔叔装得那么像。明明活着，却假装已经死去，好让自己保住性命，这正是比利叔叔最聪明的本事。”
+    - id: ch04
+      title: 下一课的约定
+      blocks:
+        - id: ch04-b01
+          speaker: mother_nature
+          text: “那么，下一课我们来讲白尾鹿轻脚，怎么样？”
+        - id: ch04-b02
+          speakers: [peter_rabbit, chatterer, happy_jack, johnny_chuck]
+          ensemble: chorus
+          text: “太棒了！”
+        - id: ch04-b03
+          speaker: narrator
+          text: 大家欢呼过后，便准备各自回家。

@@ -1,0 +1,249 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 清楚从容，像在为听众介绍一本古老的童话集
+        timbre: 温暖明净
+        pace: 舒缓
+        pitch: 中音
+    pivi:
+      display_name: 皮维
+      tts: {delivery: 快活坦率，待人热心，遇险时勇敢沉着, timbre: 清朗明亮, pace: 适中, pitch: 中音}
+    kabo:
+      display_name: 卡博
+      tts: {delivery: 粗鲁乖戾，贪心时急切，做作时格外夸张, timbre: 粗哑低沉, pace: 适中, pitch: 中低音}
+    woman:
+      display_name: 河边的女人
+      tts: {delivery: 温和从容，吩咐事情时清晰坚定, timbre: 柔和温暖, pace: 舒缓, pitch: 中音}
+    wife_1:
+      display_name: 大妻子
+      tts: {delivery: 活泼真挚，面对威胁时坚决, timbre: 清脆明亮, pace: 适中, pitch: 中高音}
+    wife_2:
+      display_name: 小妻子
+      tts: {delivery: 甜美灵动，面对威胁时坚决, timbre: 轻柔清亮, pace: 适中, pitch: 高音}
+  chapters:
+    - id: ch01
+      title: 断腿的皮维
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            在鸟还是人、人还是鸟的年代，皮维和卡博住在遥远的新喀里多尼亚岛上。皮维是只快活的小鸟，黄昏时爱啾啾鸣叫。卡博却是只丑陋的黑鸟，专在黑暗里哇哇啼叫。一天，他们想玩岛上人至今还玩的投石游戏，便来到榕树下，剥下树皮做成投石索的绳子，又去河边找来石块。卡博站在岸上投石头，皮维站在水里躲。皮维灵巧地躲了好一阵，可最后还是被一块石头打断了腿。他跌进河中，顺流漂进一根粗大的空心竹筒。一个女人平常就用这根竹筒洗甘薯。
+        - id: ch01-b02
+          speaker: woman
+          text: 我的竹筒里装了什么？
+        - id: ch01-b03
+          speaker: narrator
+          text: 女人朝竹筒一头用力吹气，小皮维就从另一头飞了出来，像射豆筒里喷出的一粒豆子。女人一见他的模样，吓了一跳。
+        - id: ch01-b04
+          speaker: woman
+          text: 哎呀，你怎么伤成这样？刚才干什么去了？
+          emotion: surprised
+        - id: ch01-b05
+          speaker: pivi
+          text: 我和卡博玩投石，是他把我的腿打断了。
+        - id: ch01-b06
+          speaker: woman
+          text: 真可怜。跟我来吧，你肯照我说的做吗？
+        - id: ch01-b07
+          speaker: pivi
+          text: 我肯！
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            皮维答应了，因为这个女人又善良又美丽。她把皮维带进存放水果的棚屋，让他舒舒服服地躺在席子床上，又替他照料断腿。她没有照当地人的惯常做法，割掉断骨周围的肉。
+        - id: ch01-b09
+          speaker: woman
+          text: >-
+            皮维，你先一动不动地躺着。听见很轻的声音，就装作死了。那是黑蚂蚁，它会从你的脚爬到头顶。千万别说话，也别动。能做到吗？
+        - id: ch01-b10
+          speaker: pivi
+          text: 能，善良的夫人。我保证躺着不动。
+        - id: ch01-b11
+          speaker: woman
+          text: 接着会来一只大红蚂蚁。你认得它吗？
+        - id: ch01-b12
+          speaker: pivi
+          text: 认得，它的脚像蚱蜢腿。
+        - id: ch01-b13
+          speaker: woman
+          text: 它会沿着你的身体走到头顶。等它走上来，你要用力抖动全身。记住了吗？
+        - id: ch01-b14
+          speaker: pivi
+          text: 记住了，夫人。我会完全照您说的做。
+        - id: ch01-b15
+          speaker: narrator
+          text: >-
+            女人说了声很好，便出去关上门。皮维盖着被子静静躺着。细微的响声传来，黑蚂蚁从他的脚一路爬到头顶，他果然没有动。接着，大红蚂蚁沿着他的身体，一路蹦跳着爬上来。皮维记着女人的话，赶紧抖动全身。他一跃而起，腿已经完全好了！他飞快跑到河边，低头照着水面，这才发现自己不再是一只鸟，竟变成了英俊的年轻人。
+        - id: ch01-b16
+          speaker: pivi
+          text: 夫人，快来看我！我变成人了，而且这么英俊！
+          emotion: happy
+        - id: ch01-b17
+          speaker: woman
+          text: 你还肯再听我一次吗？
+        - id: ch01-b18
+          speaker: pivi
+          text: 永远都肯。无论您吩咐什么，我都照办。
+        - id: ch01-b19
+          speaker: woman
+          text: 那就爬上那棵椰子树。只准用双腿，不能用手。
+    - id: ch02
+      title: 两只椰子
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            当地人爬椰子树快得像松鼠，有些人只用一只手就能爬，姑娘们也会这样做。可要完全不用手，几乎没人办得到。女人告诉皮维，树顶有两只椰子。他不能把椰子扔下来，必须用两手拿着。下树时还要像上树一样，只靠双腿夹住树干，一步步挪下来。
+        - id: ch02-b02
+          speaker: pivi
+          text: 不管多难，我总要试试。
+        - id: ch02-b03
+          speaker: narrator
+          text: 皮维只用双腿爬上树，虽然费尽力气，还是拿着两只椰子平安下来，把它们递给女人。
+        - id: ch02-b04
+          speaker: pivi
+          text: 夫人，椰子拿来了。
+        - id: ch02-b05
+          speaker: woman
+          text: >-
+            把它们放进你躺过的棚屋。等太阳落进海里凉快凉快，第二天清晨不再那么火热地升起来时，你再去拿。
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            皮维在河里玩了一整天，和当地人一样，跟伙伴们互相投掷水果，还捧起河水泼向对方，阳光下飞起一道道银亮的水花。太阳落山后，他记起女人的吩咐，便朝棚屋走去。离得还远，他就听见屋里传出甜美的声音，有人正在说话，还不时笑出声来。
+        - id: ch02-b07
+          speaker: pivi
+          text: 屋里怎么有人说个不停？难道他们拿走了我的椰子？
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            他进去一看，屋里竟有两个漂亮姑娘。她们笑个不停，还故意拿话逗他。皮维把棚屋里里外外找了个遍，两只椰子却连影子也没有。他急忙跑回河边。
+        - id: ch02-b09
+          speaker: pivi
+          text: 夫人，我的椰子被偷了！
+        - id: ch02-b10
+          speaker: woman
+          text: 跟我回去吧，皮维。你会有椰子的。
+        - id: ch02-b11
+          speaker: narrator
+          text: 他们回到棚屋，两个姑娘还在那里笑着玩耍。
+        - id: ch02-b12
+          speaker: woman
+          text: 还惦记什么椰子呀？这里有两位妻子给你。皮维，带她们回家吧。
+        - id: ch02-b13
+          speaker: pivi
+          text: 善良的夫人，您对我真好！
+          emotion: happy
+        - id: ch02-b14
+          speaker: narrator
+          text: >-
+            皮维把两个姑娘带回家，和她们成了亲。从那以后，三个人生活在一起，日子过得十分幸福。可没多久，脾气乖戾的老卡博忽然闯了进来。他盯着皮维上上下下看了又看，觉得眼前的人既熟悉又陌生，怎么也不敢相认。
+        - id: ch02-b15
+          speaker: kabo
+          text: 这是皮维？像是他，可又不像。你不是从前那个皮维，不过模样有几分相似。快说，你到底是不是皮维？
+        - id: ch02-b16
+          speaker: pivi
+          text: 就是我。不过现在好看多了。那边是我的两位妻子，你看她们多美！
+        - id: ch02-b17
+          speaker: kabo
+          text: >-
+            皮维，你是在耍我吧！她们是你的妻子？怎么可能？你从哪儿得到她们的？你居然也有妻子！
+        - id: ch02-b18
+          speaker: narrator
+          text: 皮维把河边的善良女人和后来发生的所有奇事，一件不漏地告诉了卡博。
+        - id: ch02-b19
+          speaker: kabo
+          text: 原来是这样！可我也要变得英俊，也要娶年轻漂亮的妻子。
+        - id: ch02-b20
+          speaker: pivi
+          text: 那要怎样才能办到？
+        - id: ch02-b21
+          speaker: kabo
+          text: 把那些事重来一遍就行！我们再玩投石，这次你把我的腿打断。
+        - id: ch02-b22
+          speaker: pivi
+          text: 我太乐意了。
+        - id: ch02-b23
+          speaker: narrator
+          text: 皮维向来乐意帮人这个忙。于是他们又去投石，皮维果真打断了卡博的腿。
+    - id: ch03
+      title: 卡博的模仿
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            卡博跌进河里，顺着水漂进竹筒，又被女人像上次那样，从竹筒另一头吹了出来。女人捡起他，把他安置在棚屋里，仔细说了黑蚂蚁和红蚂蚁来时各该怎么做。可卡博根本没有照办。黑蚂蚁刚一爬来，他就抖动全身。转眼间，他的一条腿扭曲了，背上鼓起驼峰，浑身也变得和蚂蚁一样黑。他连忙跑去找女人。
+        - id: ch03-b02
+          speaker: kabo
+          text: 快看，我变成什么怪模样了！
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            女人没有安慰他，只照先前对皮维说的那样，叫他去爬椰子树。卡博却手脚并用地爬上树，还把椰子直接扔到地上，根本没有拿在手里带下来。他把椰子送进棚屋。后来再去取时，屋里等着他的，竟是两个又黑又丑的老太婆。她们一边争吵叫骂，一边互相抓挠。卡博只好带她们去找皮维和他的两位美丽妻子。皮维很替卡博难过，却一点办法也没有，只能坐着哭。
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            有一天，卡博来请皮维乘自己的独木舟出海。他说自己知道一个地方，那里有一只巨大的贝，光它一个就足够吃上一星期。皮维答应了。他们划船来到那里，从清澈的海水望下去，只见深处有一只怪物般的大贝，模样像牡蛎，个头却和岩石一样大，贝壳正敞开着。
+        - id: ch03-b05
+          speaker: pivi
+          text: 我们捉住它，晒干，再熏起来，还能请所有朋友吃一顿大餐！
+        - id: ch03-b06
+          speaker: kabo
+          text: 我潜下去，把它从岩石上撬开。然后你帮我把它拖上船。
+        - id: ch03-b07
+          speaker: narrator
+          text: 大贝张着壳躺在那里。卡博虽然潜下水，却一直远远避开那个怪物。过了一会儿，他浮上水面，呼哧呼哧直喘气。
+        - id: ch03-b08
+          speaker: kabo
+          text: 皮维，我实在搬不动它。你下去亲自试试！
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            皮维拿着长矛潜进水中。那只大贝把贝壳张得比刚才还开，随即猛地一吸。皮维一下便消失在它口中，贝壳啪的一声紧紧合上。卡博望着这一幕，像恶鬼一样大笑起来，然后扔下皮维，独自回了家。
+    - id: ch04
+      title: 活坟墓
+      blocks:
+        - id: ch04-b01
+          speakers: [wife_1, wife_2]
+          ensemble: duo
+          text: 皮维到哪里去了？
+        - id: ch04-b02
+          speaker: narrator
+          text: 卡博假装哭泣，把皮维怎样被大贝吞下去的经过告诉了两个姑娘。
+        - id: ch04-b03
+          speaker: kabo
+          text: >-
+            别哭了，我的宝贝儿。往后我做你们的丈夫，我的妻子来给你们当奴仆。凡事都是最好的安排，我们这世道更是再好不过。
+        - id: ch04-b04
+          speakers: [wife_1, wife_2]
+          ensemble: duo
+          text: 不行！我们只爱皮维，别人谁也不爱。我们要留在家里，为皮维哭泣！
+          emotion: sad
+        - id: ch04-b05
+          speaker: kabo
+          text: 你们两个蠢货！皮维是个恶棍。他打断我的腿，还把我撞进河里！
+          emotion: angry
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            门边忽然传来一声轻咳。卡博认出那是皮维的咳嗽，顿时浑身发抖。他冲到门口，立刻换上一副欢喜的样子。
+        - id: ch04-b07
+          speaker: kabo
+          text: 亲爱的皮维，你回来真叫人高兴！我刚才正想办法安慰你亲爱的妻子。
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            皮维一句话也没说，只抬手挥了一下。他的二十五个朋友便成群结队地从山坡奔来，把卡博剁成一小块一小块。皮维转过身，看见河边那位善良的女人正站在那里。
+        - id: ch04-b09
+          speaker: woman
+          text: 皮维，卡博把你送进那座活坟墓，你是怎么逃出来的？
+        - id: ch04-b10
+          speaker: pivi
+          text: >-
+            我带着长矛。贝壳里面很干燥，我就不停地用长矛刺那只贝。最后，它觉得还是把壳打开比较好，我便趁机逃了出来。
+        - id: ch04-b11
+          speaker: narrator
+          text: 善良的女人听完笑了。从此以后，皮维和他的两位妻子永远过着幸福的生活。

@@ -1,0 +1,281 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts: {delivery: 沉稳而富有童话色彩, timbre: 温暖清澈, pace: 舒缓有变化, pitch: 中音}
+    old_king:
+      display_name: 老国王
+      tts: {delivery: 衰弱而庄重，话语里带着临终的牵挂, timbre: 苍老低沉, pace: 缓慢, pitch: 低音}
+    trusty_john:
+      display_name: 忠实的约翰
+      tts: {delivery: 忠厚坚定，危急时果断有力, timbre: 沉稳清晰, pace: 中等, pitch: 中低音}
+    young_king:
+      display_name: 年轻国王
+      tts: {delivery: 年轻坦率，情绪鲜明而真挚, timbre: 明亮饱满, pace: 中等有变化, pitch: 中音}
+    maid:
+      display_name: 公主的侍女
+      tts: {delivery: 活泼好奇，说话爽快, timbre: 年轻清亮, pace: 轻快, pitch: 中高音}
+    princess:
+      display_name: 金屋顶公主
+      tts: {delivery: 高贵从容，惊惧时仍清晰自然, timbre: 柔和清亮, pace: 中等, pitch: 中高音}
+    raven_1:
+      display_name: 第一只乌鸦
+      tts: {delivery: 神秘而笃定，像在宣布预言, timbre: 粗哑, pace: 中等, pitch: 中低音}
+    raven_2:
+      display_name: 第二只乌鸦
+      tts: {delivery: 好问而警觉，语气利落, timbre: 干涩清晰, pace: 稍快, pitch: 中音}
+    raven_3:
+      display_name: 第三只乌鸦
+      tts: {delivery: 冷静阴沉，语气意味深长, timbre: 沙哑, pace: 缓慢, pitch: 低音}
+    servant_1:
+      display_name: 仆人甲
+      tts: {delivery: 不满而直率，容易随众起哄, timbre: 粗亮, pace: 稍快, pitch: 中音}
+    servant_2:
+      display_name: 仆人乙
+      tts: {delivery: 多疑而尖刻，话语短促, timbre: 偏细, pace: 稍快, pitch: 中高音}
+    servant_3:
+      display_name: 仆人丙
+      tts: {delivery: 随声附和，语气夸张, timbre: 浑厚, pace: 中等, pitch: 中低音}
+  chapters:
+    - id: ch01
+      title: 临终的诺言
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有一位老国王病得很重。他知道自己大概活不久了，便叫人把最宠信的仆人忠实的约翰请到床前。约翰一生侍奉国王，从来没有辜负过他，所以人人都这样称呼他。
+        - id: ch01-b02
+          speaker: old_king
+          text: 我最忠实的约翰，我的大限快到了。若不是放心不下儿子，我原可以安心离开。他还太年轻，许多事不能独自决定。你能不能答应我，把该懂的道理都教给他，像父亲一样照料他？不然，我死也不能瞑目。
+          emotion: sad
+        - id: ch01-b03
+          speaker: trusty_john
+          text: 我绝不会抛下王子。我会一直忠心侍奉他，哪怕为此付出生命。
+        - id: ch01-b04
+          speaker: old_king
+          text: 有你这句话，我就能平静地死去了。我死后，你要领他看遍城堡的厅堂、房间和地窖，也要把所有珍宝给他看。只有长廊尽头最后那间屋子不能打开。那里藏着金屋顶公主的画像。他一看见，就会深深爱上画中人，当场昏倒，还会为了她遭遇重重危险。你一定要护住他。
+        - id: ch01-b05
+          speaker: narrator
+          text: 约翰再次握住国王的手，郑重许下诺言。老人这才不再说话，把头安放在枕上，离开了人世。老国王下葬后，约翰把病榻前的每一项承诺都告诉年轻国王。他说，自己从前怎样忠于他的父亲，往后也会怎样忠于他。无论发生什么事，即使付出生命，他也决不食言。
+        - id: ch01-b06
+          speaker: narrator
+          text: 服丧期满，约翰告诉年轻国王，现在该去看看继承下来的产业了。于是，他领国王走遍祖传的城堡。一间间房，一座座厅堂，还有地窖里的无数珍宝，他们全都看过。只有藏画像的那扇门，约翰每次都会绕开。那幅画正对房门，只要门一开，谁都会迎面看见。画中人像是活的，仿佛真的会呼吸、会走动。世上再没有比她更可爱、更美丽的人。
+        - id: ch01-b07
+          speaker: young_king
+          text: 整座城堡都看遍了，你为什么偏偏不替我开这扇门？
+        - id: ch01-b08
+          speaker: trusty_john
+          text: 屋里的东西会把您吓坏。我答应过先王，绝不能让您进去。那里面的东西会给我们两个人招来莫大的苦难。
+        - id: ch01-b09
+          speaker: young_king
+          text: 我非知道里面有什么不可。要是不能亲眼看见，我才真的会没命，白天黑夜都不得安宁。你不开门，我就站在这里一步不走。
+        - id: ch01-b10
+          speaker: narrator
+          text: 约翰看出再也拦不住，只好带着沉重的心情，一声声叹着气，从那一大串钥匙里取出一把。他打开门，抢先走进屋，想赶在国王看见以前遮住画像。可这办法根本没有用。国王踮起脚，从他肩头望了过去。画中少女周身闪着黄金和宝石的光，实在美得惊人。年轻国王只看了一眼，便失去知觉，当场倒在地上。
+        - id: ch01-b11
+          speaker: narrator
+          text: 约翰把国王抱到床上，心中只剩一个念头：灾祸终究还是来了，这一切又会落到什么地步？他给国王灌下些酒，终于把人救醒。
+        - id: ch01-b12
+          speaker: young_king
+          text: 那幅美丽画像画的是谁？
+        - id: ch01-b13
+          speaker: trusty_john
+          text: 她是金屋顶公主。
+        - id: ch01-b14
+          speaker: young_king
+          text: 我太爱她了。哪怕树上的每片叶子都长出舌头，也说不尽这份心意。我能不能活下去，全看能不能娶到她。约翰，你一定要帮我。
+    - id: ch02
+      title: 黄金商船
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 约翰想了很久。听说连见公主一面都难，可他终于想出了办法。公主身边的桌椅、盘碟、酒杯和家具全是黄金制成。国王的宝库里正好藏着五吨黄金。
+        - id: ch02-b02
+          speaker: trusty_john
+          text: 请召集全国的金匠，把那些黄金做成各式器皿，再做出飞禽、走兽和奇珍异兽。公主见了一定喜欢。我们带着这些东西去找她，或许能有好运。
+        - id: ch02-b03
+          speaker: narrator
+          text: 国王召来全国的金匠。众人日夜赶工，一刻也不敢懈怠，终于造出一批美不胜收的珍品。宝物装满一艘船后，约翰扮成商人，国王也改换装束，谁也认不出他们。他们渡过大海，一路来到金屋顶公主居住的城里。约翰请国王留在船上等候。他叫人把金器陈列整齐，再把整艘船装点得漂漂亮亮，因为他也许会把公主直接带回来。
+        - id: ch02-b04
+          speaker: narrator
+          text: 约翰拿几件金器兜在围裙里，上岸后径直去了王宫。院中的井边，一位美丽的侍女正用两只金桶打水。她提起闪亮的井水，刚要离开，转身看见这个陌生人，便问他是谁。约翰只说自己是个商人，又打开围裙，让她朝里面瞧一瞧。
+        - id: ch02-b05
+          speaker: maid
+          text: 哎呀，这些金器真漂亮！公主最喜欢黄金制品，她一定得看看，说不定会把你的货全买下来。
+          emotion: surprised
+        - id: ch02-b06
+          speaker: narrator
+          text: 侍女放下水桶，把金器一件件看过，随后牵着约翰进了王宫。公主见到那些精美的器物，果然爱不释手。
+        - id: ch02-b07
+          speaker: princess
+          text: 每一件都做得这么美，我全都要买下。把其余的也送进宫来吧。
+        - id: ch02-b08
+          speaker: trusty_john
+          text: 我只是富商的仆人，手里这几件算不了什么。主人船上的货才真正名贵，那样的手艺，从前任何黄金制品都比不上。可数量实在太多，搬上来要花好些天，还会占满您宫里的房间。
+        - id: ch02-b09
+          speaker: princess
+          text: 那就带我去船上。我亲自去看你主人的珍宝。
+        - id: ch02-b10
+          speaker: narrator
+          text: 约翰听了十分欢喜，立刻领公主登船。国王一见她，才知道真人远比画像更美，只觉得心都快从胸口跳出来了。他把公主请进船舱，约翰却留在后面，吩咐舵手马上离岸。
+        - id: ch02-b11
+          speaker: trusty_john
+          text: 把帆全张起来，让船像空中的鸟一样飞过海面！
+        - id: ch02-b12
+          speaker: narrator
+          text: 国王在船舱里展示每一件宝物，一件也不曾漏下。盘碟、酒杯、碗盏，还有黄金做的飞禽、走兽和各种奇珍异兽，公主看了好几个钟头，欢喜得没发现船早已驶离港口。等最后一件也看完，她向那位“商人”道过谢，走到船边准备回家。这时她才发现，四周只剩茫茫大海，陆地已经远在天边，而船正鼓满风帆，一刻不停地向前疾驶。
+        - id: ch02-b13
+          speaker: princess
+          text: 我受骗了！你们把我拐上船，让我落在一个商人手里。我宁愿死，也不愿受这样的欺骗！
+          emotion: fearful
+        - id: ch02-b14
+          speaker: young_king
+          text: 我不是商人，我也是一位国王，出身并不比您低微。我太爱您，才想出这个办法带您离开。第一次看到您的画像，我就昏倒在地了。
+        - id: ch02-b15
+          speaker: narrator
+          text: 公主听后不再那样惊恐。她渐渐爱上年轻国王，情愿答应做他的妻子。
+    - id: ch03
+      title: 三只乌鸦的预言
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 一天，船航行在辽阔的海上。约翰独自坐在船头拉琴，看见三只乌鸦迎面飞来。他懂得鸟语，便停下琴声，听它们说话。
+        - id: ch03-b02
+          speaker: raven_1
+          text: 哈，他正把金屋顶公主带回家呢。
+        - id: ch03-b03
+          speaker: raven_2
+          text: 是啊，可他还没有真正得到她。
+        - id: ch03-b04
+          speaker: raven_3
+          text: 怎么没有？她正坐在船上，陪在他身边。
+        - id: ch03-b05
+          speaker: raven_1
+          text: 那也没用。等他们上岸，一匹栗色骏马会冲来迎接。国王若骑上去，马就会驮着他飞奔而去，消失在空中。他从此再也见不到新娘。
+        - id: ch03-b06
+          speaker: raven_2
+          text: 难道没有办法救他？
+        - id: ch03-b07
+          speaker: raven_1
+          text: 有。另一个人要抢先上马，从鞍袋拔出手枪，把马当场打死。可是谁肯这样做？知道秘密的人只要说出口，双脚到膝盖就会变成石头。
+        - id: ch03-b08
+          speaker: raven_2
+          text: 我还知道一件事。就算马死了，国王也保不住新娘。他们走进王宫，会在柜子里看见一件婚礼衬衫，像是用金丝银线织成，其实全是硫磺和焦油。国王一穿上，皮肉和骨髓都会烧成灰。
+        - id: ch03-b09
+          speaker: raven_3
+          text: 这一劫也能躲过去吗？
+        - id: ch03-b10
+          speaker: raven_2
+          text: 只要有人戴上手套，把衬衫扔进火里烧掉，国王就安全了。可泄露秘密的人，身体从膝盖到心口都会变成石头。
+        - id: ch03-b11
+          speaker: raven_3
+          text: 后面还有一劫。婚礼后的舞会上，年轻王后会突然脸色惨白，倒下去像死了一样。除非有人抱起她，从她右侧取出三滴血，再把血吐掉，否则她就会死。可谁若把这个秘密说出去，全身都会变成石头。
+        - id: ch03-b12
+          speaker: narrator
+          text: 三只乌鸦说完便振翅飞远了。约翰却把每句话都听得清清楚楚。从那以后，他满怀忧愁，再也高兴不起来。要是对主人保持沉默，灾难就会一桩接一桩降临，最后夺走主人拥有的一切。可要是把听来的秘密全盘说出，他自己便要丢掉性命。两条路摆在眼前，他终于作出了选择。
+        - id: ch03-b13
+          speaker: trusty_john
+          text: 即使毁掉自己，哪怕等待我的正是死亡，我也要守护主人。
+    - id: ch04
+      title: 忠心换来的死刑
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 船刚靠近陆地，乌鸦的第一个预言便应验了。一匹神气非凡的栗色骏马飞奔而来，像是专程迎接国王。年轻国王见了十分高兴，马上说要骑它回宫。他刚准备上马，约翰已经抢在前面纵身跃上马背。约翰从鞍袋里拔出手枪，毫不迟疑地一枪把马打死。
+        - id: ch04-b02
+          speakers: [servant_1, servant_2, servant_3]
+          ensemble: chorus
+          text: 多好的马啊！它本来要驮国王回宫，约翰竟把它杀了，真是罪过！
+        - id: ch04-b03
+          speaker: young_king
+          text: 都住口，别管他。他永远是我最忠实的约翰。谁知道他这样做，是不是为了救我？
+        - id: ch04-b04
+          speaker: narrator
+          text: 一行人继续赶路，进入王宫。大厅里果然立着一只柜子，里面放着一件已经做好的婚礼衬衫。那衣服怎么看都像是用金丝银线织成的。年轻国王走上前，刚要伸手拿起，约翰便把他推到一旁。他戴着手套抓起衬衫，迅速扔进火中，守在那里，直到它彻底烧成灰烬。
+        - id: ch04-b05
+          speakers: [servant_1, servant_2, servant_3]
+          ensemble: chorus
+          text: 你们看，他连国王的婚礼衬衫都烧掉了！
+        - id: ch04-b06
+          speaker: young_king
+          text: 别管他。约翰这样做，一定有他的好意。
+        - id: ch04-b07
+          speaker: narrator
+          text: 婚礼如期举行，接着便是舞会。新娘也加入舞蹈，约翰却没有一刻放松，始终仔细盯着她的脸色。忽然，她的面孔变得惨白，整个人像死去一样倒在地上。约翰立刻冲过去抱起她，把她带进一间屋子，轻轻放下。他跪在王后身旁，从她右侧取出三滴血，再把血吐掉。没过多久，她重新有了呼吸，终于醒了过来。
+        - id: ch04-b08
+          speaker: narrator
+          text: 年轻国王把这一切都看在眼里，却不知道约翰为何要这样对待王后。他顿时怒不可遏。
+        - id: ch04-b09
+          speaker: young_king
+          text: 把他关进监牢！
+          emotion: angry
+        - id: ch04-b10
+          speaker: narrator
+          text: 第二天早晨，忠实的约翰受了审判，被判处绞刑。他被带到刑场，站在绞刑架上。这时，他说每一个被判死刑的人，都有权在临死前说一次话，问自己能不能也得到这个权利。国王准许了他的请求。
+        - id: ch04-b11
+          speaker: trusty_john
+          text: 我一直忠于您，如今却蒙受不白之冤。在海上，我听见三只乌鸦说出三个预言。那匹马会把您带走，婚礼衬衫会把您烧死，王后也会在舞会上丧命。我杀马、烧掉衬衫，又救治王后，全是为了保住您和她的生命。可是秘密一旦说出，我自己就会变成石头。
+        - id: ch04-b12
+          speaker: young_king
+          text: 我最忠实的约翰，原谅我！快放他下来！
+          emotion: fearful
+        - id: ch04-b13
+          speaker: narrator
+          text: 可国王说出最后一个字时，已经太迟了。忠实的约翰失去生命，倒在地上，变成了一尊石像。
+    - id: ch05
+      title: 最珍爱的牺牲
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 国王和王后看着石化的约翰，全都悲痛欲绝。国王悔恨不已。约翰给了他这样伟大的忠诚，他回报约翰的，却是一场不公的死刑。国王命人把石像抬进自己的卧房，安放在紧挨床铺的地方。每逢看见石像，他都会忍不住落泪。
+        - id: ch05-b02
+          speaker: young_king
+          text: 我最忠实的约翰，要是能让你复活，该有多好！
+          emotion: sad
+        - id: ch05-b03
+          speaker: narrator
+          text: 过了一段时间，王后生下一对双胞胎，是两个小王子。孩子们身体健康，一天天长大，始终是母亲的欢乐。一天，王后去教堂祈祷，两个孩子留在家中，坐在父亲身边玩耍。国王望着他们，又转头看见床边的石像。他心里再一次充满悲伤，叹息着说起那个不可能实现的心愿。没想到，沉默已久的石像竟然开口回答了他。
+        - id: ch05-b04
+          speaker: trusty_john
+          text: 您可以让我复活，只要肯牺牲自己最珍爱的人。
+        - id: ch05-b05
+          speaker: young_king
+          text: 为了你，我愿意舍弃世上的一切。
+        - id: ch05-b06
+          speaker: trusty_john
+          text: 那就亲手砍下两个孩子的头，把他们的血涂在我身上。这样，我便会恢复生命。
+        - id: ch05-b07
+          speaker: narrator
+          text: 国王听得惊骇万分。他怎么能亲手杀死自己的孩子？可是，他想起约翰怎样忠于自己，怎样一次次救他和王后的性命，最后甚至为他献出了生命。国王终于拔出宝剑，亲手砍下两个孩子的头，再把他们的血涂在石像上。鲜血刚刚涂好，生命便回到石头里。石像重新变成活人，忠实的约翰完好无损地站到了国王面前。
+        - id: ch05-b08
+          speaker: trusty_john
+          text: 您的忠诚一定会得到回报。
+        - id: ch05-b09
+          speaker: narrator
+          text: 约翰捧起孩子们的头，分别放回各自的身体，又用他们的血仔细涂过伤口。只过了一会儿，两个孩子便恢复如初。他们重新站起来，活蹦乱跳，仿佛刚才的一切从未发生。国王看见两个儿子安然无恙，又见约翰活生生站在眼前，心中充满喜悦。等他看见王后从教堂回来，便赶紧把约翰和两个孩子一同藏进一只大柜子。
+        - id: ch05-b10
+          speaker: young_king
+          text: 你在教堂祈祷了吗？
+        - id: ch05-b11
+          speaker: princess
+          text: 祈祷了。可我心里一直想着忠实的约翰，也一直想着他为我们受过的苦。
+          emotion: sad
+        - id: ch05-b12
+          speaker: young_king
+          text: 亲爱的妻子，我们可以让约翰复活，但代价是两个年幼的儿子。我们必须牺牲他们。
+        - id: ch05-b13
+          speaker: narrator
+          text: 王后的脸顿时变白，心也沉了下去。
+        - id: ch05-b14
+          speaker: princess
+          text: 他对我们那样忠诚。这份牺牲，是我们欠他的。
+        - id: ch05-b15
+          speaker: narrator
+          text: 国王听见妻子也愿意作出同样的牺牲，知道她和自己的心意完全相同，顿时欢喜起来。他走到那只大柜子前，当着王后的面打开柜门，把两个安然无恙的孩子和忠实的约翰一同领了出来。
+        - id: ch05-b16
+          speaker: young_king
+          text: 感谢上帝！忠实的约翰已经重获自由，我们的两个小儿子也回来了！
+          emotion: happy
+        - id: ch05-b17
+          speaker: narrator
+          text: 国王把刚才发生的一切全都告诉王后。从此以后，他们幸福地生活在一起。这个故事出自格林。

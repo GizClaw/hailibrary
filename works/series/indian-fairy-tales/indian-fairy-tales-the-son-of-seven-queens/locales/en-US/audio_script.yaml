@@ -1,0 +1,442 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and inviting
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    king:
+      display_name: King
+      tts:
+        delivery: authoritative and curious
+        timbre: rich and resonant
+        pace: deliberate
+        pitch: low
+    fakir:
+      display_name: Old Fakir
+      tts:
+        delivery: solemn and assured
+        timbre: weathered and clear
+        pace: unhurried
+        pitch: low
+    first_queen:
+      display_name: First Queen
+      tts:
+        delivery: gracious and concerned
+        timbre: mature and warm
+        pace: measured
+        pitch: medium
+    second_queen:
+      display_name: Second Queen
+      tts:
+        delivery: gracious and concerned
+        timbre: clear and gentle
+        pace: measured
+        pitch: medium-high
+    third_queen:
+      display_name: Third Queen
+      tts:
+        delivery: gracious and concerned
+        timbre: soft and rounded
+        pace: measured
+        pitch: medium
+    youngest_queen:
+      display_name: Youngest Queen
+      tts:
+        delivery: tender and patient
+        timbre: light and warm
+        pace: steady
+        pitch: medium-high
+    white_witch:
+      display_name: White Queen
+      tts:
+        delivery: charming and calculating
+        timbre: bright and cool
+        pace: smooth
+        pitch: medium-high
+    son:
+      display_name: Son of Seven Queens
+      tts:
+        delivery: brave and openhearted
+        timbre: youthful and clear
+        pace: lively
+        pitch: medium
+    princess:
+      display_name: Princess
+      tts:
+        delivery: clever and composed
+        timbre: clear and graceful
+        pace: steady
+        pitch: medium-high
+    old_hag:
+      display_name: Old Hag
+      tts:
+        delivery: grudging and irritable
+        timbre: rough and dry
+        pace: deliberate
+        pitch: low
+    jogi:
+      display_name: Jogi
+      tts:
+        delivery: fierce and commanding
+        timbre: deep and coarse
+        pace: forceful
+        pitch: low
+    rice_voice_1:
+      display_name: First Voice in the Rice Field
+      tts:
+        delivery: sweet and coaxing
+        timbre: light and airy
+        pace: gentle
+        pitch: high
+    rice_voice_2:
+      display_name: Second Voice in the Rice Field
+      tts:
+        delivery: sweet and coaxing
+        timbre: soft and clear
+        pace: gentle
+        pitch: medium-high
+    rice_voice_3:
+      display_name: Third Voice in the Rice Field
+      tts:
+        delivery: sweet and coaxing
+        timbre: bright and delicate
+        pace: gentle
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The White Hind
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Once there was a King with seven Queens and not one child. The thought of dying without an heir brought him deep sorrow.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            One day, a poor old fakir came before him with a promise.
+        - id: ch01-b03
+          speaker: fakir
+          text: >-
+            Your prayers have been heard. What you long for will come to pass. One of your seven Queens will have a son.
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            The King was overjoyed, and his delight seemed to have no limit. He ordered celebrations to be prepared through the length and breadth of the kingdom for the promised birth. Meanwhile, the seven Queens lived in a magnificent palace. Hundreds of women waited on them, and they ate all the sweets and rich food they wished.
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            The King loved to hunt. Before one day's hunt, the Queens sent him a warning.
+        - id: ch01-b06
+          speakers: [first_queen, second_queen, third_queen, youngest_queen]
+          ensemble: chorus
+          text: >-
+            Dearest lord, please do not hunt in the north today. We dreamed terrible dreams, and we fear some harm may come to you.
+          emotion: fearful
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            The King promised to honor their wish and rode south. He hunted hard but found nothing. He tried the east and the west with no better luck. Determined not to return empty-handed, he forgot his promise and turned north.
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            At first, the northern hunt failed too. He searched and searched without finding any game. At last, he decided to give up for the day. Just then, a white hind flashed into a thicket. It had golden horns and silver hoofs. The glimpse was enough. The King burned to possess that strange, beautiful creature.
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            He ordered his attendants to surround the thicket so the hind could not escape. The hunters closed the ring little by little. Soon the King could see the white creature panting at the center. He pressed nearer and nearer, certain that he was about to catch it. Just as he reached out, the hind made one mighty leap. It sailed clean over his head and fled toward the mountains.
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            Forgetting everything else, the King dug in his spurs and raced after it. On and on he galloped, keeping the white hind in sight and never once drawing rein. His followers fell far behind. At last he found himself trapped in a narrow ravine with no way through. He pulled up his horse before a miserable hut. Worn out by the long, fruitless chase, he went inside and asked for water.
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            An old woman sat beside a spinning wheel. Instead of fetching the water herself, she called to her daughter. A lovely young woman came from an inner room carrying the vessel. Her skin was white and her hair was golden. The King stared at her in astonishment. He could hardly believe that anyone so beautiful could appear inside such a wretched hut.
+        - id: ch01-b12
+          speaker: narrator
+          text: >-
+            She lifted the water to his lips. As he drank and looked into her eyes, he understood. This young woman was the white hind with golden horns and silver feet.
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            Her beauty bewitched him. He dropped to his knees and begged her to become his bride. She only laughed and said seven Queens were more than enough for any King. But he kept pleading and promised her anything she wanted.
+        - id: ch01-b14
+          speaker: white_witch
+          text: >-
+            Bring me the eyes of your seven Queens. Then perhaps I will believe that you mean what you say.
+        - id: ch01-b15
+          speaker: narrator
+          text: >-
+            The magic of the white hind's beauty had swept away his reason. He hurried home and had all seven Queens' eyes torn out. Then he threw the blind women into a foul dungeon where they could not escape. Carrying the fourteen eyes, he returned to the hut.
+        - id: ch01-b16
+          speaker: narrator
+          text: >-
+            The white hind laughed cruelly at the dreadful gift. She strung the eyes into a necklace and tossed it around her mother's neck.
+        - id: ch01-b17
+          speaker: white_witch
+          text: >-
+            Wear this to remember me, little mother, while I am away at the King's palace.
+        - id: ch01-b18
+          speaker: narrator
+          text: >-
+            She returned with the bewitched King as his bride. He gave her the seven Queens' fine clothes and jewels, their splendid palace, and all their servants. The witch now had everything she could desire.
+    - id: ch02
+      title: The Son of Seven Mothers
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            Soon after the seven Queens were blinded and imprisoned, the youngest Queen gave birth to a handsome boy. The older Queens were jealous at first. Before long, though, the child became so helpful that every one of them loved him as a son.
+        - id: ch02-b02
+          speaker: narrator
+          text: >-
+            He had scarcely learned to walk when he began scraping at the dungeon's mud wall. He kept working until, in a surprisingly short time, he had made a hole large enough to crawl through. He vanished through it. About an hour later, he came back loaded with sweets and divided them equally among the seven blind Queens.
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            As the boy grew, he made the hole wider. Two or three times a day, he slipped out to play with the young nobles in town. No one knew who the little boy was or where he came from. But he was so bright and merry, and so full of funny tricks, that everyone liked him. Someone was always ready to reward him with girdle-cakes, a handful of parched grain, or a few sweets.
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            He carried every bit home to the women he called his seven mothers. Because of him, they stayed alive in the dungeon while the rest of the world believed they had starved long ago.
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            When he had grown into a strong lad, he took his bow and arrows out to hunt. By chance he passed the palace where the white hind lived in wicked splendor. Pigeons fluttered around its white marble towers, and he shot one. It fell past the very window where the white Queen was sitting.
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            She looked down at the handsome young hunter holding his bow. Her witchcraft told her at once that this was the King's son. Envy and spite nearly overcame her. She decided he must die without delay, and sent a servant to bring him before her.
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            The white Queen asked whether he would sell her the pigeon.
+        - id: ch02-b08
+          speaker: son
+          text: >-
+            No. This pigeon is for my seven blind mothers in the foul dungeon. They would die if I did not bring them food.
+        - id: ch02-b09
+          speaker: white_witch
+          text: >-
+            Those poor women! Wouldn't you rather bring back their eyes? Give me the pigeon, and I promise to tell you where the eyes are.
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            The lad was delighted and handed over the bird. The white Queen told him to find her mother and ask for the necklace of eyes.
+        - id: ch02-b11
+          speaker: white_witch
+          text: >-
+            Show her this token with my message. Once she reads it, she will give you the eyes.
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            She gave him a broken piece of pottery. On it she had written an order to kill the bearer at once and sprinkle his blood like water. The son of seven Queens could not read, so he took the deadly message cheerfully and set off.
+        - id: ch02-b13
+          speaker: narrator
+          text: >-
+            On his journey, he entered a town where every face looked miserable. He could not help asking what had happened. The people explained that their King's only daughter refused to marry. If her father died, no heir would be left to take the throne. They feared the Princess had lost her mind. Every handsome young man in the kingdom had been shown to her, but she rejected them all. She would marry only a man who was the son of seven mothers. The townspeople had never heard of such a person.
+        - id: ch02-b14
+          speaker: narrator
+          text: >-
+            In desperation, the King had ordered that every man who entered the city be taken before the Princess. The lad was in a great hurry to recover his mothers' eyes, but the townspeople dragged him into her presence.
+        - id: ch02-b15
+          speaker: narrator
+          text: >-
+            The moment the Princess saw him, she blushed and turned to her father.
+        - id: ch02-b16
+          speaker: princess
+          text: >-
+            Dear father, I choose this young man.
+        - id: ch02-b17
+          speaker: narrator
+          text: >-
+            Those few words set off tremendous rejoicing. The people nearly went wild with joy. But the son of seven Queens refused to marry until he had recovered his mothers' eyes.
+        - id: ch02-b18
+          speaker: narrator
+          text: >-
+            When the Princess heard his story, she asked to see the piece of pottery. She was learned and clever, and she understood the treacherous message. Without a word, she found a matching shard and wrote a new order on it. Her message told the old woman to protect the lad and give him whatever he asked for.
+        - id: ch02-b19
+          speaker: narrator
+          text: >-
+            The Princess returned the new token. The lad knew nothing of the exchange and continued on his quest.
+    - id: ch03
+      title: The Thirteen Eyes
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            Before long, he reached the hut in the ravine. The white witch's mother was a hideous old creature. She read the Princess's message and began to grumble fiercely. When the lad asked for the necklace made from his mothers' eyes, her complaints grew even louder. Still, the written order said to give him whatever he wanted. She had to obey, so she took the necklace from her own neck and handed it over.
+        - id: ch03-b02
+          speaker: old_hag
+          text: >-
+            There are only thirteen eyes left. I lost one last week.
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            The lad was glad to have any of them. He raced home to his seven mothers and gave two eyes to each of the six older Queens. The youngest Queen received only one.
+        - id: ch03-b04
+          speaker: son
+          text: >-
+            My own dear little mother, I will always be your other eye.
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            Then he started out to keep his promise and marry the Princess. As he passed the white Queen's palace, he saw pigeons on the roof and shot one. The wounded bird fluttered past her window. She looked out and saw the King's son alive and well.
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            The white Queen cried out in hatred and disgust. She summoned him and demanded to know how he had returned so quickly. When she learned that he had carried the thirteen eyes home to the blind Queens, she could barely contain her fury. Yet she pretended to be delighted by his success.
+        - id: ch03-b07
+          speaker: white_witch
+          text: >-
+            Give me this pigeon too, and I will reward you with the Jogi's marvelous cow. Her milk runs all day and fills a pond as large as a kingdom.
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            The lad gladly gave her the pigeon. Once again, she sent him to ask her mother for what he needed. And once again, she handed him a pottery shard ordering the old woman to kill him and sprinkle his blood like water.
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            On the way, he stopped to tell the Princess why their wedding had been delayed. She read the shard and exchanged it for another. When he reached the old hag's hut and asked for the Jogi's cow, the new message left her no choice.
+        - id: ch03-b10
+          speaker: narrator
+          text: >-
+            The old hag told him where to find the cow. She warned him not to fear the eighteen thousand demons guarding that treasure, then ordered him away before her anger at her daughter's foolish generosity became too great.
+        - id: ch03-b11
+          speaker: narrator
+          text: >-
+            The son of seven Queens followed her instructions bravely. He traveled on and on until he reached a milk-white pond guarded by eighteen thousand demons. They were truly terrifying to see, but he gathered his courage. He began to whistle a tune and walked straight through their midst. All the while, he kept his eyes ahead and looked neither right nor left.
+        - id: ch03-b12
+          speaker: narrator
+          text: >-
+            At last he found the Jogi's tall, beautiful white cow. The Jogi was king of all the demons. He milked her day and night, and the milk streamed from her into the white pond.
+        - id: ch03-b13
+          speaker: jogi
+          text: >-
+            What are you doing here?
+          emotion: angry
+        - id: ch03-b14
+          speaker: son
+          text: >-
+            I came for your skin. King Indra is making a new kettle-drum, and he says your skin is good and tough.
+        - id: ch03-b15
+          speaker: narrator
+          text: >-
+            The Jogi began to shake. No Jinn or Jogi dared disobey an order from King Indra. He fell at the lad's feet and begged for his life.
+        - id: ch03-b16
+          speaker: jogi
+          text: >-
+            Spare me, and I will give you anything I own. You may even take my beautiful white cow!
+          emotion: fearful
+        - id: ch03-b17
+          speaker: narrator
+          text: >-
+            The lad pretended to consider the offer. Then he agreed, saying he could find another tough skin like the Jogi's somewhere else. He drove the wonderful cow home before him.
+        - id: ch03-b18
+          speaker: narrator
+          text: >-
+            The seven Queens were delighted to own such a marvelous animal. From morning until night, they worked at turning its milk into curds and whey. They sold milk to the people who made sweets as well. Yet even with all that work and selling, they could not use half of what the wonderful cow gave. Day by day, the seven mothers grew richer.
+    - id: ch04
+      title: The Million-Fold Rice
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            Once his mothers were comfortable, the son of seven Queens set out happily to marry the Princess. But he passed the white hind's palace again and could not resist shooting at the pigeons cooing on the parapet. One fell dead beneath the window where the white Queen sat.
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            She looked out and saw the lad standing there, hale and hearty. Rage and spite made her grow whiter than ever. She called him in and asked how he had come back so soon. When he told her how kindly her mother had treated him, she nearly had a fit. Somehow she hid what she felt and gave him a sweet smile.
+        - id: ch04-b03
+          speaker: white_witch
+          text: >-
+            I am so glad I could keep my promise. Give me this third pigeon, and I will do even more for you. I will give you the million-fold rice that ripens in a single night.
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            The idea delighted him, and he handed her the pigeon. She sent him away with another pottery shard. This message ordered her mother not to fail again, but to kill the lad and scatter his blood like water.
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            He stopped to see his Princess so she would not worry. As usual, she asked for the shard. She replaced it with one that told the old woman to give him whatever he required once more, because his blood must be treated as her own.
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            The old hag read the new message and heard that he wanted the rice that ripened overnight. She flew into a terrible rage. But she was deeply afraid of her daughter, so she mastered herself and told the boy where to go.
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            He must find a field guarded by eighteen million demons. At its center grew the tallest head of rice. The old hag warned him to pluck that one and never look back afterward.
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            The son of seven Queens set out and soon reached the field where the million-fold rice grew. Eighteen million demons stood guard over it. Just as he had done before, he walked bravely through them and looked neither right nor left. He reached the very center of the field, found the tallest head of rice, and plucked it. Then he turned toward home.
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            Then a thousand sweet voices called from behind him.
+        - id: ch04-b10
+          speakers: [rice_voice_1, rice_voice_2, rice_voice_3]
+          ensemble: chorus
+          text: >-
+            Pick me too! Oh, please pick me too!
+        - id: ch04-b11
+          speaker: narrator
+          text: >-
+            He looked back. In that instant, nothing remained of him but a small heap of ashes.
+        - id: ch04-b12
+          speaker: narrator
+          text: >-
+            Time passed, and the lad did not return. The old hag grew uneasy when she remembered the message saying his blood must be as her own. She went to discover what had happened.
+        - id: ch04-b13
+          speaker: narrator
+          text: >-
+            She soon came upon the little heap of ashes. Her magic told her at once what had happened. She poured a little water over the ashes and kneaded them into a paste. With her own hands, she shaped the paste into the likeness of a man. Then she pricked her little finger, placed one drop of her blood in its mouth, and blew upon it.
+        - id: ch04-b14
+          speaker: narrator
+          text: >-
+            At once, the son of seven Queens sprang up, as well as ever.
+        - id: ch04-b15
+          speaker: old_hag
+          text: >-
+            Never disobey your orders again! Next time, I will leave you there. Now go, before I regret helping you!
+          emotion: angry
+    - id: ch05
+      title: The Palace and the Truth
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            The son of seven Queens returned joyfully to his mothers. With the million-fold rice, they soon became the richest people in the kingdom.
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            Then they celebrated his marriage to the clever Princess with every kind of splendor. But his bride would not rest until his father knew who her husband was and the wicked white witch had been punished.
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            The Princess had her husband build a palace exactly like the home where the seven Queens had once lived, the same palace where the white witch now lived in luxury. Every part had to match. When the work was finished and all was prepared, she told her husband to invite the King to a grand feast.
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            The King had heard many tales about the mysterious son of seven Queens and his astonishing wealth, so he gladly accepted the invitation. But nothing had prepared him for what he saw. The moment he stepped into the new palace, he stopped in amazement. Every hall and every detail matched his own palace exactly.
+        - id: ch05-b05
+          speaker: narrator
+          text: >-
+            His host came to meet him dressed in rich clothing, then led him straight into a private hall. There sat the seven Queens on royal thrones. Each wore the same clothes in which the King had last seen her. Faced with the women he believed long dead, the King could not speak for astonishment.
+        - id: ch05-b06
+          speaker: narrator
+          text: >-
+            The Princess stepped forward, fell at his feet, and told him the entire story. At last, the King woke from the spell that had held him so long. His anger against the wicked white hind rose beyond control.
+        - id: ch05-b07
+          speaker: narrator
+          text: >-
+            The white witch was put to death, and her grave was plowed over. The seven Queens returned to their own splendid palace.
+        - id: ch05-b08
+          speaker: narrator
+          text: >-
+            And after that, everyone lived happily.

@@ -1,0 +1,225 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容稳健，带着古老童话的温暖与警醒
+        timbre: 温暖清澈
+        pace: 舒缓，紧张处适度加快
+        pitch: 中音
+    white_hare:
+      display_name: 小白兔
+      tts:
+        delivery: 机灵活泼，得意时轻狂，受苦后真诚悔悟
+        timbre: 清亮灵巧的年轻男声
+        pace: 轻快，痛苦时急促
+        pitch: 中高音
+    crocodile:
+      display_name: 鳄鱼
+      tts:
+        delivery: 爽直自负，受骗后愤怒严厉
+        timbre: 浑厚清晰的成年男声
+        pace: 稳健
+        pitch: 中低音
+    spiteful_brother:
+      display_name: 恶毒的兄长
+      tts:
+        delivery: 表面亲切，话里藏着恶意
+        timbre: 冷滑的成年男声
+        pace: 从容
+        pitch: 中音
+    okuninushi:
+      display_name: 大国主命
+      tts:
+        delivery: 仁厚沉静，关怀中带着坦率的劝诫
+        timbre: 温暖沉稳的年轻男声
+        pace: 舒缓
+        pitch: 中低音
+    yakami_princess:
+      display_name: 八上公主
+      tts:
+        delivery: 坚定端庄，表达心意时坦然真挚
+        timbre: 清澈柔和的年轻女声
+        pace: 从容
+        pitch: 中高音
+  chapters:
+    - id: ch01
+      title: 海峡两岸
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 很久很久以前，动物们都会说话。日本因幡国有一只小白兔，住在隐岐岛上。隔着一片海，正对面就是因幡的陆地。小白兔一心想去对岸。日复一日，他都来到岸边坐下，眼巴巴望着海那边的因幡，盼着能找到渡海的办法。
+        - id: ch01-b02
+          speaker: narrator
+          text: 一天，他又来到沙滩上，忽然看见一条大鳄鱼在岛边游水。
+        - id: ch01-b03
+          speaker: white_hare
+          text: 运气真好！这下我能去因幡了。只要请鳄鱼驮我过海就行！
+          emotion: happy
+        - id: ch01-b04
+          speaker: narrator
+          text: 可转念一想，鳄鱼未必肯帮忙。小白兔决定不求人，改用计谋达到目的。他扯开嗓子，朝海里喊了起来。
+        - id: ch01-b05
+          speaker: white_hare
+          text: 鳄鱼先生，今天天气真好，你说是不是？
+        - id: ch01-b06
+          speaker: narrator
+          text: 那天阳光明亮，鳄鱼独自出来晒太阳，正觉得有点寂寞。听见这声欢快的招呼打破四周的寂静，他高高兴兴地游近岸边。
+        - id: ch01-b07
+          speaker: crocodile
+          text: 刚才是你在叫我吗，白兔先生？你一个人待着，一定很寂寞吧！
+        - id: ch01-b08
+          speaker: white_hare
+          text: 我一点也不寂寞。今天天气好，我才出来玩。你也上岸，陪我玩一会儿吧？
+        - id: ch01-b09
+          speaker: narrator
+          text: 鳄鱼爬出海面，坐到岸上，两个伙伴一起玩了好一阵。小白兔觉得时机到了，便装作随口问起一件事。
+        - id: ch01-b10
+          speaker: white_hare
+          text: 你住海里，我住岛上，我们很少碰面。你说，是你们鳄鱼多，还是我们白兔多？
+        - id: ch01-b11
+          speaker: crocodile
+          text: 当然是鳄鱼多！你们只住在这么小的岛上，我们的海却通向世界各地。我要是把海里的同伴全叫来，你们白兔根本没法比！
+        - id: ch01-b12
+          speaker: narrator
+          text: 鳄鱼说得十分自负。他觉得海洋通向世界各地，只要把所有同伴召集起来，小岛上的白兔根本不值一提。小白兔正等着这句话。
+        - id: ch01-b13
+          speaker: white_hare
+          text: 那你能叫来这么多同伴，让他们从这座岛一直排到因幡吗？
+        - id: ch01-b14
+          speaker: narrator
+          text: 鳄鱼想了一会儿。
+        - id: ch01-b15
+          speaker: crocodile
+          text: 当然能。
+        - id: ch01-b16
+          speaker: white_hare
+          text: 那就请你试试。我留在这里，替你们数一数！
+        - id: ch01-b17
+          speaker: narrator
+          text: 心思单纯的鳄鱼根本没察觉这是骗局，更没想到小白兔正在捉弄自己，马上答应了他的请求。
+        - id: ch01-b18
+          speaker: crocodile
+          text: 你等一会儿，我回海里把伙伴们都叫来！
+    - id: ch02
+      title: 鳄鱼搭成的桥
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 鳄鱼一头扎进海里，很长时间都不见踪影。小白兔没有离开，一直在岸边耐心等候。终于，那条鳄鱼重新浮出水面，身后还浩浩荡荡地跟着一大群同伴。
+        - id: ch02-b02
+          speaker: crocodile
+          text: 白兔先生，你看！从这里排到因幡，对我的朋友们算不了什么。别说因幡，就是排到中国，甚至印度，我们也够得很。你见过这么多鳄鱼吗？
+        - id: ch02-b03
+          speaker: narrator
+          text: 鳄鱼们在水里一条接一条地排好，从隐岐岛一直连到因幡的陆地，真像在海上搭成了一座长桥。小白兔看着这座奇异的鳄鱼桥，故意惊叹起来。
+        - id: ch02-b04
+          speaker: white_hare
+          text: 真了不起，我原先还不相信呢！让我把大家数清楚吧。不过，我得从你们背上一路走到对岸。请千万别动，不然我掉进海里，可要淹死了！
+        - id: ch02-b05
+          speaker: narrator
+          text: 小白兔纵身跳上鳄鱼桥，从一条背上跳到下一条背上，一边跳，一边数。
+        - id: ch02-b06
+          speaker: white_hare
+          text: 大家别动，我才能数清楚。一、二、三、四、五、六、七、八、九——
+        - id: ch02-b07
+          speaker: narrator
+          text: 他就这样踩过海面，顺利到了因幡。可他不但不道谢，跳下最后一条鳄鱼的背时，还转身嘲笑他们。
+        - id: ch02-b08
+          speaker: white_hare
+          text: 哈！你们这些笨鳄鱼，我再也用不着你们了！
+        - id: ch02-b09
+          speaker: narrator
+          text: 小白兔正想飞快逃走，鳄鱼们却明白了。他们排成长桥，原来只是中了他的计。小白兔借他们过了海，现在还笑他们愚蠢。鳄鱼们勃然大怒，决心报仇。几条鳄鱼追上去捉住他，大伙儿把这个可怜的小东西围在中间，一撮一撮，拔掉他全身的毛。小白兔大声哭喊，苦苦求他们饶命，可每拔下一撮毛，鳄鱼们都要骂他一句。
+        - id: ch02-b10
+          speaker: crocodile
+          text: 这是你自找的！
+          emotion: angry
+        - id: ch02-b11
+          speaker: narrator
+          text: 最后一根毛也被拔掉后，鳄鱼们把小白兔扔在沙滩上，笑着游走了。
+        - id: ch02-b12
+          speaker: narrator
+          text: 小白兔的漂亮白毛全没了。赤裸的小身子疼得发抖，到处都在流血。他几乎动弹不得，只能无助地躺在海滩上，为自己的遭遇伤心哭泣。苦难虽然是他骗人招来的，可鳄鱼们报复得这样残酷，任谁看见这个小东西的惨状，也会忍不住同情。
+    - id: ch03
+      title: 两个药方
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 这时，一群王子模样的年轻人经过海滩。他们看见小白兔在哭，便停下问他出了什么事。小白兔从前爪间抬起头。
+        - id: ch03-b02
+          speaker: white_hare
+          text: 我跟鳄鱼打了一架，却被他们打败了。他们拔光我的毛，把我丢在这里受罪。我疼得只能哭。
+          emotion: sad
+        - id: ch03-b03
+          speaker: narrator
+          text: 其中一个年轻人心肠恶毒，偏要装出好心的样子。
+        - id: ch03-b04
+          speaker: spiteful_brother
+          text: 你真可怜，我知道一个治伤的好办法。先到海里泡一泡，再坐到风口把身子吹干。你的毛很快就会长回来，恢复得跟以前一样。
+        - id: ch03-b05
+          speaker: narrator
+          text: 年轻人们说完就走了。小白兔信以为真，还以为终于找到了治伤的办法。他马上泡进海水，再爬上岸，坐到风吹得到的地方。谁知海水一干，他的皮肤绷得又紧又硬，盐水把伤口刺得更加疼痛。他疼得在沙地上来回翻滚，放声惨叫。
+        - id: ch03-b06
+          speaker: narrator
+          text: 就在这时，又有一位王子模样的人走来，背上还驮着一个硕大的袋子。他看见小白兔，便停下来问他为什么哭得这么厉害。小白兔想起刚刚骗过自己的年轻人，见眼前这位和那人很像，怕再次上当，什么也不肯说，只顾继续哭泣。
+        - id: ch03-b07
+          speaker: narrator
+          text: 这个人却有一颗善良的心。他怜惜地望着小白兔。
+        - id: ch03-b08
+          speaker: okuninushi
+          text: 可怜的小东西，你的毛全没了，身上一片光秃。是谁这样残忍地对待你？
+        - id: ch03-b09
+          speaker: narrator
+          text: 话说得这样温和，小白兔既感激，又终于放下了戒心。他把所有遭遇从头讲了一遍，没有隐瞒半点。他承认自己欺骗鳄鱼，让他们以为要数一数同伴，于是排成一座长桥。他踩着鳄鱼过了海，还嘲笑他们愚蠢，这才遭到报复。接着，他又说起那群相貌相似的年轻人怎样骗他用海水治伤。说完这段悲惨经历，他恳求眼前这个好心人救救自己，让白毛重新长出来。
+        - id: ch03-b10
+          speaker: okuninushi
+          text: 你受了这么多苦，我很替你难过。不过，你也要记住，这正是欺骗鳄鱼带来的后果。
+        - id: ch03-b11
+          speaker: white_hare
+          text: 我明白。我已经后悔了，也决定再也不骗人。求你告诉我，该怎样治好伤，让白毛重新长出来？
+          emotion: sad
+        - id: ch03-b12
+          speaker: okuninushi
+          text: 你先到那边的池塘里好好洗一洗，把盐全洗掉。再摘下水边的香蒲花，铺在地上，在花上滚一滚。花粉会让毛重新长出来，过不了多久，你就会痊愈。
+    - id: ch04
+      title: 因幡白兔的预言
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 小白兔听到这样亲切的指点，心里十分欢喜。他爬到那人所指的池塘里，把身上的盐洗得干干净净，又采下水边盛开的香蒲花，铺在地上，躺在花上来回打滚。令他惊奇的是，还没滚完，漂亮的白毛已经重新长了出来。疼痛也消失了，他又恢复成所有灾祸发生前的模样。
+        - id: ch04-b02
+          speaker: narrator
+          text: 小白兔欢喜万分，蹦跳着来到恩人面前，跪在他的脚边。
+        - id: ch04-b03
+          speaker: white_hare
+          text: 你为我做了这么多，我真不知道该怎样感谢！我很想为你做点什么，报答你的恩情。请告诉我，你到底是谁？
+          emotion: happy
+        - id: ch04-b04
+          speaker: okuninushi
+          text: 我并不是你以为的王子。我是一位神明，名叫大国主命。先前从这里经过的那些人，全都是我的兄长。他们听说因幡国住着一位美丽的八上公主，便一同动身去找她，想向她求婚，希望公主嫁给他们中的一个。我这一趟只是随从，所以替他们背着这个大袋子，独自走在最后面。
+        - id: ch04-b05
+          speaker: narrator
+          text: 小白兔这才知道，恩人竟是大国主命，是当地许多人敬奉的大神。他连忙俯伏在对方面前，谦卑地向他行礼。
+        - id: ch04-b06
+          speaker: white_hare
+          text: 原来你就是大国主命！你对我这样仁慈，那个骗我泡海水、让我受尽痛苦的恶人，竟会是你的兄长，真叫人不敢相信。我敢断定，八上公主不会答应嫁给他们中的任何一个。她一定更喜欢你这颗善良的心。哪怕你根本无意求婚，也会在不知不觉间赢得她的心。到那时，她还会亲口请你娶她。
+        - id: ch04-b07
+          speaker: narrator
+          text: 大国主命并没有把这番话放在心上。他告别小白兔，加快脚步，很快追上了兄长们。此刻，他们正要走进八上公主家的大门。
+    - id: ch05
+      title: 八上公主的选择
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 事情果然让小白兔说中了。无论那些兄长怎样劝说，八上公主都不肯嫁给其中任何一个。可她抬眼看见那位心地善良的弟弟，便径直穿过众人，走到大国主命面前。
+        - id: ch05-b02
+          speaker: yakami_princess
+          text: 我愿意把自己托付给你。
+        - id: ch05-b03
+          speaker: narrator
+          text: 八上公主就这样选择了善良的大国主命。后来，两个人结成了夫妻。
+        - id: ch05-b04
+          speaker: narrator
+          text: 故事到这里就结束了。日本有些地方的人把大国主命奉为神明。那只恢复了一身白毛的小白兔，也从此成了著名的“因幡白兔”。至于那些曾在海上排成长桥的鳄鱼，后来究竟怎么样了，却始终没有人知道。

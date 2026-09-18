@@ -1,0 +1,446 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and storylike
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    prince:
+      display_name: Prince
+      tts:
+        delivery: courteous and earnest
+        timbre: youthful and clear
+        pace: steady
+        pitch: medium
+    king_father:
+      display_name: The Old King
+      tts:
+        delivery: firm and dignified
+        timbre: deep and seasoned
+        pace: deliberate
+        pitch: low
+    faithful_servant:
+      display_name: Faithful Servant
+      tts:
+        delivery: devoted and quietly resolute
+        timbre: sturdy and clear
+        pace: steady
+        pitch: medium-low
+    first_crow:
+      display_name: First Crow
+      tts:
+        delivery: grave and watchful
+        timbre: dark and rasping
+        pace: measured
+        pitch: medium-low
+    second_crow:
+      display_name: Second Crow
+      tts:
+        delivery: ominous and precise
+        timbre: dry and rasping
+        pace: deliberate
+        pitch: medium-low
+    first_pigeon:
+      display_name: First Pigeon
+      tts:
+        delivery: hushed and foreboding
+        timbre: soft and rounded
+        pace: measured
+        pitch: medium-high
+    second_pigeon:
+      display_name: Second Pigeon
+      tts:
+        delivery: hushed and foreboding
+        timbre: light and rounded
+        pace: measured
+        pitch: high
+    third_pigeon:
+      display_name: Third Pigeon
+      tts:
+        delivery: hushed and foreboding
+        timbre: small and breathy
+        pace: measured
+        pitch: high
+    first_eagle:
+      display_name: First Eagle
+      tts:
+        delivery: stern and commanding
+        timbre: broad and ringing
+        pace: deliberate
+        pitch: low
+    second_eagle:
+      display_name: Second Eagle
+      tts:
+        delivery: solemn and certain
+        timbre: strong and resonant
+        pace: deliberate
+        pitch: medium-low
+    third_eagle:
+      display_name: Third Eagle
+      tts:
+        delivery: solemn and certain
+        timbre: keen and resonant
+        pace: deliberate
+        pitch: medium-low
+    royal_messenger:
+      display_name: Royal Messenger
+      tts:
+        delivery: formal and dutiful
+        timbre: clear and bright
+        pace: steady
+        pitch: medium
+    nurse:
+      display_name: The Prince's Nurse
+      tts:
+        delivery: wise and affectionate
+        timbre: warm and aged
+        pace: unhurried
+        pitch: medium-low
+    miller:
+      display_name: Miller
+      tts:
+        delivery: humble and troubled
+        timbre: rough and earthy
+        pace: steady
+        pitch: low
+    first_maiden:
+      display_name: First Maiden
+      tts:
+        delivery: tender and urgent
+        timbre: light and lyrical
+        pace: flowing
+        pitch: medium-high
+    second_maiden:
+      display_name: Second Maiden
+      tts:
+        delivery: tender and urgent
+        timbre: soft and lyrical
+        pace: flowing
+        pitch: medium-high
+    third_maiden:
+      display_name: Third Maiden
+      tts:
+        delivery: sincere and hopeful
+        timbre: clear and gentle
+        pace: flowing
+        pitch: medium-high
+    stream:
+      display_name: The Stream
+      tts:
+        delivery: bright and restless
+        timbre: fluid and shimmering
+        pace: flowing
+        pitch: medium-high
+    lucks_mother:
+      display_name: Lucky Luck's Mother
+      tts:
+        delivery: welcoming and knowing
+        timbre: cheerful and weathered
+        pace: unhurried
+        pitch: medium-low
+    lucky_luck:
+      display_name: Lucky Luck
+      tts:
+        delivery: plainspoken and assured
+        timbre: grounded and resonant
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: A Bride from Goldtown
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a king with one son. When the prince was about eighteen, the king went to war against a neighboring country and led the army himself. He left his son to rule until he returned, with one strict command. The prince must not marry while his father was away.
+        - id: ch01-b02
+          speaker: narrator
+          text: Years passed. The prince governed the country and gave marriage no thought. Then he turned twenty-five and began to wish for a wife. The more he thought about it, the more eager he became. Still, he remembered his father's order and waited some time longer. Only after the king had been gone for ten full years did the prince gather his courtiers and set out with a grand company to find a bride.
+        - id: ch01-b03
+          speaker: narrator
+          text: He had no clear road in mind. For twenty days the company wandered, until they suddenly came upon the old king's camp.
+        - id: ch01-b04
+          speaker: narrator
+          text: The king was overjoyed to see his son, and each had endless questions for the other. But when he learned that the prince had left home to search for a wife instead of waiting, his joy turned to anger.
+        - id: ch01-b05
+          speaker: king_father
+          text: Go wherever you like, but none of my people will go with you.
+          emotion: angry
+        - id: ch01-b06
+          speaker: narrator
+          text: One faithful servant alone refused to abandon the prince. Together they crossed hills and valleys until they reached a place called Goldtown.
+        - id: ch01-b07
+          speaker: narrator
+          text: The King of Goldtown had a beautiful daughter. Once the prince heard of her, he could think of nothing but meeting her. The royal family welcomed him warmly, for he was handsome and gracious. He soon asked to marry the princess, and her parents gladly agreed.
+        - id: ch01-b08
+          speaker: narrator
+          text: They married at once. A whole month passed in feasting and celebration. Then the prince and his bride began the long journey home. On their first evening they stopped at an inn. Everyone went to sleep except the faithful servant, who stayed awake to keep watch.
+
+    - id: ch02
+      title: The Three Warnings
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Near midnight, three crows settled on the roof. The servant heard them speaking together.
+        - id: ch02-b02
+          speaker: first_crow
+          text: What a handsome pair came here tonight. It's a shame their lives will end so soon.
+        - id: ch02-b03
+          speaker: second_crow
+          text: It is. Tomorrow at noon, the bridge over the Gold Stream will collapse while they are crossing. But anyone who hears us and reveals this warning will turn to stone as far as the knees.
+        - id: ch02-b04
+          speaker: narrator
+          text: The crows flew away. Almost at once, three pigeons landed in their place.
+        - id: ch02-b05
+          speakers: [first_pigeon, second_pigeon, third_pigeon]
+          ensemble: chorus
+          text: Even if the prince and princess cross the bridge safely, they will still die. The king will send them a carriage that looks freshly painted. The moment they sit inside, a furious wind will carry it into the clouds. Then it will crash to the ground and kill them. Whoever repeats our words will turn to stone as far as the waist.
+        - id: ch02-b06
+          speaker: narrator
+          text: Then the pigeons left, and three eagles took their place.
+        - id: ch02-b07
+          speakers: [first_eagle, second_eagle, third_eagle]
+          ensemble: chorus
+          text: Suppose they escape both the bridge and the carriage. The king will send them splendid robes embroidered in gold. As soon as they put on those robes, they will burn alive. Anyone who hears this and tells it will turn entirely to stone.
+        - id: ch02-b08
+          speaker: narrator
+          text: In the morning, the travelers ate breakfast and began comparing their dreams. At last the servant spoke.
+        - id: ch02-b09
+          speaker: faithful_servant
+          text: Gracious prince, I dreamed that we will reach home safely only if you grant every request I make. If you refuse me, we will surely be lost. My dreams never lie, so please follow my advice for the rest of our journey.
+        - id: ch02-b10
+          speaker: prince
+          text: Don't trouble yourself so much over a dream. Dreams are only clouds. But I don't want you worrying, so I promise to do as you ask.
+        - id: ch02-b11
+          speaker: narrator
+          text: They set out. At noon they reached the Gold Stream, and as they approached its bridge, the servant stopped them.
+        - id: ch02-b12
+          speaker: faithful_servant
+          text: My prince, let's leave this carriage and walk for a while. The wheels are worn and may not last. There is a town nearby where we can buy another.
+        - id: ch02-b13
+          speaker: narrator
+          text: The prince examined the carriage and thought it looked sound enough. Yet he had given his word. They unloaded the luggage onto the horses, and the prince and princess crossed on foot. The servant rode the horses through the stream, letting them drink and cool themselves.
+        - id: ch02-b14
+          speaker: narrator
+          text: Everyone reached the other bank unharmed. In the nearby town they bought a new carriage and continued. Before long, a messenger from the king met them.
+        - id: ch02-b15
+          speaker: royal_messenger
+          text: His Majesty sends your Royal Highness this beautiful carriage, so you may enter your country in a manner worthy of you and be welcomed by your people.
+        - id: ch02-b16
+          speaker: narrator
+          text: The prince was too delighted to answer, but the servant stepped forward.
+        - id: ch02-b17
+          speaker: faithful_servant
+          text: My lord, let me inspect it before you climb in. If it proves safe, you may use it. If not, we should keep the carriage we bought.
+        - id: ch02-b18
+          speaker: narrator
+          text: The prince agreed. The servant looked over every part of the royal carriage.
+        - id: ch02-b19
+          speaker: faithful_servant
+          text: It may be handsome, but it is badly made.
+        - id: ch02-b20
+          speaker: narrator
+          text: With that, he smashed it to pieces. The party traveled on in the carriage from town.
+        - id: ch02-b21
+          speaker: narrator
+          text: At the frontier, another messenger waited with two magnificent robes. The king asked the prince and his bride to wear them for their grand entrance. Again the servant begged his master to refuse. He gave the prince no peace until he was allowed to destroy both robes.
+
+    - id: ch03
+      title: The Faithful Servant's Fate
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The old king was furious. Every one of his schemes had failed. His son was alive and married, and by the law of the land the king now had to surrender his crown. He wanted to know how the prince had escaped.
+        - id: ch03-b02
+          speaker: king_father
+          text: My dear son, I truly rejoice that you have returned safely. But why did my beautiful carriage and splendid robes displease you? Why were they destroyed?
+        - id: ch03-b03
+          speaker: prince
+          text: Sire, their destruction angered me too. But my servant asked to direct everything on our journey, and I promised that he could. He insisted that following his advice was the only way we would reach home alive.
+        - id: ch03-b04
+          speaker: narrator
+          text: At this, the old king flew into a terrible rage. He called his council and had the faithful servant condemned to death.
+        - id: ch03-b05
+          speaker: narrator
+          text: A gallows was raised in the square before the palace. The servant was brought out, and his sentence was read. As the rope was placed around his neck, he asked permission to speak one last time.
+        - id: ch03-b06
+          speaker: faithful_servant
+          text: On our journey home, we passed our first night at an inn. I stayed awake and kept watch while the others slept.
+        - id: ch03-b07
+          speaker: narrator
+          text: He told them what the crows had foretold. As he spoke, stone climbed over his legs as far as his knees.
+        - id: ch03-b08
+          speaker: prince
+          text: Stop! You've proved that you are innocent. Don't say another word!
+        - id: ch03-b09
+          speaker: narrator
+          text: The servant would not stop. He repeated the warning of the pigeons, and the stone rose to his waist. Then he told them what the eagles had said. By the time his tale was finished, he had become stone from head to foot.
+        - id: ch03-b10
+          speaker: narrator
+          text: Oh, how bitterly the prince grieved for his faithful servant. What hurt him most was knowing that the man had been lost because he was so faithful. The prince vowed to travel throughout the world. He would never rest until he discovered how to bring the servant back to life.
+        - id: ch03-b11
+          speaker: narrator
+          text: An old woman at court had once been the prince's nurse. He trusted her with his plans and left the princess in her care.
+        - id: ch03-b12
+          speaker: nurse
+          text: You have a long road ahead, my son. Do not return until you have found Lucky Luck. If he cannot help you, no one on earth can.
+
+    - id: ch04
+      title: Questions Along the Road
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The prince set out to find Lucky Luck. He walked beyond the borders of his own country and wandered through a forest for three days without meeting a living soul. At the end of the third day, he reached a river with a large mill beside it. He went to the mill and stayed there overnight.
+        - id: ch04-b02
+          speaker: narrator
+          text: As he prepared to leave the next morning, the miller questioned him.
+        - id: ch04-b03
+          speaker: miller
+          text: Gracious lord, where are you going all by yourself?
+        - id: ch04-b04
+          speaker: narrator
+          text: The prince told him about the servant and his search for Lucky Luck.
+        - id: ch04-b05
+          speaker: miller
+          text: Then please ask Lucky Luck something for me. My mill is excellent, every piece of machinery works, and I have plenty of grain to grind. Why am I still so poor that I scarcely know how I will live from one day to the next?
+        - id: ch04-b06
+          speaker: narrator
+          text: The prince promised to ask. After another three days of wandering, he saw a small town. Night had fallen, but not a light showed anywhere. He walked nearly through the whole place before he spotted one distant window glowing at the far end.
+        - id: ch04-b07
+          speaker: narrator
+          text: Inside that house, three maidens were playing a game. They welcomed the prince, gave him supper, and prepared a room where he could sleep.
+        - id: ch04-b08
+          speaker: narrator
+          text: The next morning, the sisters asked where he was going. When they heard his story, they had a question of their own.
+        - id: ch04-b09
+          speakers: [first_maiden, second_maiden, third_maiden]
+          ensemble: chorus
+          text: Gracious prince, please ask Lucky Luck why no one has ever come to court us. We are all over thirty, and we are good, pretty, and hardworking.
+        - id: ch04-b10
+          speaker: narrator
+          text: The prince promised them too and went on. He entered a vast forest and wandered from morning to night, then through the night until morning. Near the far edge, he found a lovely stream. Unlike any ordinary stream, its water stood perfectly still. Then it spoke.
+        - id: ch04-b11
+          speaker: stream
+          text: Sir prince, what has brought you into this wilderness? I have been here for more than a hundred years, and no one has ever passed this way.
+        - id: ch04-b12
+          speaker: prince
+          text: I will tell you if you divide your waters and let me walk through.
+        - id: ch04-b13
+          speaker: narrator
+          text: The stream parted at once. The prince crossed without wetting his feet, and once he stood on the other bank, he kept his promise and told his story.
+        - id: ch04-b14
+          speaker: stream
+          text: Then ask Lucky Luck why no fish or any other living creature ever comes into my water. I am so clear, bright, and swift, yet I have none.
+        - id: ch04-b15
+          speaker: narrator
+          text: The prince agreed and continued. Beyond the forest, he crossed a beautiful valley and came to a little house roofed with rushes. He was very tired, so he went inside to rest.
+        - id: ch04-b16
+          speaker: narrator
+          text: The house was spotless and orderly. A cheerful old woman with an honest face sat beside the fire.
+        - id: ch04-b17
+          speaker: prince
+          text: Good morning, mother.
+        - id: ch04-b18
+          speaker: lucks_mother
+          text: May Luck go with you, my son. What brings you to this place?
+        - id: ch04-b19
+          speaker: prince
+          text: I am searching for Lucky Luck.
+        - id: ch04-b20
+          speaker: lucks_mother
+          text: Then you have found the right house, because I am his mother. He is digging in the vineyard now. Take these two spades and go to him. When you find him, begin digging without saying a word. It is eleven o'clock. When he sits down for dinner, sit beside him and eat. Afterward he will question you. Tell him every trouble freely, and he will answer whatever you ask.
+        - id: ch04-b21
+          speaker: narrator
+          text: She showed the prince the way. He found Lucky Luck and followed every instruction. They dug in silence, ate together at noon, and lay down to rest after the meal.
+
+    - id: ch05
+      title: Lucky Luck's Answers
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Suddenly, Lucky Luck spoke.
+        - id: ch05-b02
+          speaker: lucky_luck
+          text: Tell me what kind of man you are. You have been here all this time without speaking once.
+        - id: ch05-b03
+          speaker: prince
+          text: I am not unable to speak. I am the unhappy prince whose faithful servant was turned to stone, and I have come to learn how I can save him.
+        - id: ch05-b04
+          speaker: lucky_luck
+          text: You are right to help him, because he deserves everything you can do. Go home. By the time you arrive, your wife will have given birth to a little boy. Prick the child's little finger and take three drops of blood. Use a blade of grass to rub them onto your servant's wrists, and he will live again.
+        - id: ch05-b05
+          speaker: narrator
+          text: The prince thanked him, then asked the first of the questions he had carried there.
+        - id: ch05-b06
+          speaker: prince
+          text: There is a fine stream in the forest nearby, but no fish or any other creature lives in it. Why is that?
+        - id: ch05-b07
+          speaker: lucky_luck
+          text: Because no one has ever drowned there. But when you cross, go as close to the far bank as you can before giving that answer. Otherwise you may become its first victim.
+        - id: ch05-b08
+          speaker: prince
+          text: I have one more question before I leave. Three maidens gave me lodging on my way here. They are well behaved, hardworking, and pretty, but no one has ever come to court them. Why not?
+        - id: ch05-b09
+          speaker: lucky_luck
+          text: Because they always throw their sweepings toward the face of the sun.
+        - id: ch05-b10
+          speaker: prince
+          text: And why does a miller remain so poor that he can barely live from one day to the next, though his large mill has excellent machinery and plenty of grain?
+        - id: ch05-b11
+          speaker: lucky_luck
+          text: Because he keeps everything for himself and gives nothing to people in need.
+        - id: ch05-b12
+          speaker: narrator
+          text: The prince wrote down each answer. Then he took a friendly leave of Lucky Luck and started home.
+
+    - id: ch06
+      title: The Answers Come True
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: When the prince reached the stream, it asked whether he had brought good news.
+        - id: ch06-b02
+          speaker: prince
+          text: Let me cross first. Then I will tell you.
+        - id: ch06-b03
+          speaker: narrator
+          text: The waters divided. The prince walked through and climbed to the highest place on the far bank. Only then did he stop and call back.
+        - id: ch06-b04
+          speaker: prince
+          text: Listen, stream! Lucky Luck says no living creature will enter your waters until someone has drowned in you.
+        - id: ch06-b05
+          speaker: narrator
+          text: The moment he finished, the stream swelled over its banks. It rushed up the rock where the prince clung, and spray flew over him. Three times the water tried to reach him. Three times it failed. At last it sank back into its proper course.
+        - id: ch06-b06
+          speaker: narrator
+          text: The prince climbed down, dried himself in the sun, and continued home. He stayed at the mill again and gave the miller Lucky Luck's answer. Later, he told the three sisters to stop throwing their sweepings toward the sun.
+        - id: ch06-b07
+          speaker: narrator
+          text: The prince had scarcely arrived home when thieves tried to ford the stream with a splendid horse they had stolen. Halfway across, the water suddenly rose and swept away the thieves and the horse. From then on, that stream held more fish than any other in the countryside.
+        - id: ch06-b08
+          speaker: narrator
+          text: The miller began giving to the poor and became a good man. In time, he grew so wealthy that he could hardly count what he owned.
+        - id: ch06-b09
+          speaker: narrator
+          text: And once the three sisters stopped insulting the sun, each of them had a suitor within a week.
+
+    - id: ch07
+      title: The Stone Breaks
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: When the prince entered his home, he found that his wife had just given birth to a fine little boy. He wasted no time. He pricked the baby's finger until three drops of blood appeared, then brushed them onto the stone servant's wrists with a blade of grass.
+        - id: ch07-b02
+          speaker: narrator
+          text: The stone figure shuddered from head to foot. With a tremendous crack, it split into seven pieces. There stood the faithful servant, alive and well.
+        - id: ch07-b03
+          speaker: narrator
+          text: When the old king saw him, rage overcame him. He foamed, stared wildly around, threw himself onto the ground, and died.
+        - id: ch07-b04
+          speaker: narrator
+          text: The servant remained with his royal master and served him faithfully for the rest of his life.
+        - id: ch07-b05
+          speaker: narrator
+          text: And if neither one has died, the faithful servant is serving him still.

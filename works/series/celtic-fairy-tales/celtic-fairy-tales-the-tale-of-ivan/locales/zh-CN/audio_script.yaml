@@ -1,0 +1,251 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 沉静而富有古老传说的神秘感
+        timbre: 温暖清澈
+        pace: 从容舒缓
+        pitch: 中音
+    ivan:
+      display_name: 伊凡
+      tts:
+        delivery: 朴实坦率，遇事坚定
+        timbre: 清朗厚实
+        pace: 中速
+        pitch: 中音
+    master:
+      display_name: 主人
+      tts:
+        delivery: 老练沉着，话里带着深意
+        timbre: 低沉温厚
+        pace: 舒缓
+        pitch: 中低音
+    merchant_1:
+      display_name: 商人甲
+      tts:
+        delivery: 热络直爽
+        timbre: 明亮结实
+        pace: 稍快
+        pitch: 中音
+    merchant_2:
+      display_name: 商人乙
+      tts:
+        delivery: 随和健谈
+        timbre: 温暖圆润
+        pace: 中速
+        pitch: 中音
+    merchant_3:
+      display_name: 商人丙
+      tts:
+        delivery: 爽朗诚恳
+        timbre: 略显沙哑
+        pace: 中速
+        pitch: 中低音
+    monk:
+      display_name: 修士
+      tts:
+        delivery: 阴沉谨慎
+        timbre: 干涩低哑
+        pace: 缓慢
+        pitch: 低音
+    wife:
+      display_name: 伊凡的妻子
+      tts:
+        delivery: 质朴明快
+        timbre: 柔和清亮
+        pace: 中速
+        pitch: 中高音
+    lord:
+      display_name: 大老爷
+      tts:
+        delivery: 威严干脆
+        timbre: 浑厚清晰
+        pace: 中速
+        pitch: 中低音
+  chapters:
+    - id: ch01
+      title: 三年工钱，三句忠告
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，兰拉凡教区有个叫胡尔兹的地方，住着一对夫妻。那一带越来越难找到活干，丈夫便决定出门谋生。
+        - id: ch01-b02
+          speaker: ivan
+          text: 我要出去找活干，你就留在这里过日子吧。
+        - id: ch01-b03
+          speaker: narrator
+          text: 伊凡同妻子好好道了别，独自往遥远的东方走去。他走了很久，终于来到一个农夫家里，问对方肯不肯雇用自己。
+        - id: ch01-b04
+          speaker: master
+          text: 你都会做些什么？
+        - id: ch01-b05
+          speaker: ivan
+          text: 什么活我都能做。
+        - id: ch01-b06
+          speaker: narrator
+          text: 两人讲定一年三镑工钱。转眼一年过去，主人把三镑钱摆在伊凡面前，却提出另一个选择。
+        - id: ch01-b07
+          speaker: master
+          text: 伊凡，你看，这是你的工钱。可你若肯把钱还给我，我就拿一句忠告来抵。
+        - id: ch01-b08
+          speaker: ivan
+          text: 还是把工钱给我吧。
+        - id: ch01-b09
+          speaker: master
+          text: 不，我先把这句忠告讲给你听。
+        - id: ch01-b10
+          speaker: ivan
+          text: 那你就说吧。
+        - id: ch01-b11
+          speaker: master
+          text: 莫要贪走新路，丢下老路。
+        - id: ch01-b12
+          speaker: narrator
+          text: 伊凡又留下做了一年，仍按原来的工钱计算。第二年期满，他再次拿忠告抵了工钱。主人这回告诉他，莫在老夫少妻开的店里投宿。第三年结束时，伊凡又换来最后一句话。
+        - id: ch01-b13
+          speaker: master
+          text: 为人诚实，才是上策。
+        - id: ch01-b14
+          speaker: narrator
+          text: 三年过去，伊凡不愿再留下了，一心要回去见妻子。主人却拦住他。
+        - id: ch01-b15
+          speaker: master
+          text: 今天先别走。我妻子明天烤饼，让她给你做一块，带回去送给你的好妻子。
+        - id: ch01-b16
+          speaker: narrator
+          text: 伊凡多住了一夜。第二天，他动身时，主人把做好的饼交到他手里。
+        - id: ch01-b17
+          speaker: master
+          text: 把这块饼带给你的妻子。等你们俩最高兴的时候再掰开，千万别早了。
+        - id: ch01-b18
+          speaker: narrator
+          text: 伊凡郑重向主人夫妻道别，踏上了归途。
+    - id: ch02
+      title: 老路上的呼喊
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 伊凡来到韦恩赫尔，碰见三个从埃克塞特集市归来的商人。他们都是伊凡的同乡，住在特雷林，一见他就热情地招呼起来。
+        - id: ch02-b02
+          speakers: [merchant_1, merchant_2, merchant_3]
+          ensemble: chorus
+          text: 嗬，伊凡！见到你真高兴。跟我们一起走吧！你这么久都去了哪里？
+        - id: ch02-b03
+          speaker: ivan
+          text: 我一直在外头给人做工，现在要回家见妻子。
+        - id: ch02-b04
+          speakers: [merchant_1, merchant_2, merchant_3]
+          ensemble: chorus
+          text: 那正好，快跟我们来！有你作伴，我们求之不得。
+        - id: ch02-b05
+          speaker: narrator
+          text: 可商人们转上新路时，伊凡想起忠告，仍旧走老路。三人离开他不远，刚从草场边的房屋旁经过，强盗便扑了出来。商人们高喊有贼，伊凡也在老路上跟着大喊。强盗听见还有人，立刻逃走了。商人们继续沿着新路赶路，伊凡也仍旧走在老路上，最后双方在马基特朱再一次碰了面。
+        - id: ch02-b06
+          speakers: [merchant_1, merchant_2, merchant_3]
+          ensemble: chorus
+          text: 伊凡，我们欠你一条命！没有你，我们就完了。今晚跟我们住吧，一切花费由我们来付。
+    - id: ch03
+      title: 墙洞里的秘密
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 到了商人们常住的店，伊凡说，自己得先见见店主人。三人听了都很不明白。
+        - id: ch03-b02
+          speakers: [merchant_1, merchant_2, merchant_3]
+          ensemble: chorus
+          text: 你找店主人做什么？年轻漂亮的老板娘不就在这里吗？非见他不可，就去厨房找吧。
+        - id: ch03-b03
+          speaker: narrator
+          text: 伊凡进了厨房，看见一个衰弱的老头正在转烤肉叉。
+        - id: ch03-b04
+          speaker: ivan
+          text: 这地方我不能住，我还是去隔壁吧。
+        - id: ch03-b05
+          speakers: [merchant_1, merchant_2, merchant_3]
+          ensemble: chorus
+          text: 先别急着走。至少留下来跟我们吃顿晚饭吧！
+        - id: ch03-b06
+          speaker: narrator
+          text: 伊凡吃过饭，还是睡到了隔壁。原来，老板娘早就同当地一个修士商量好，要趁众人熟睡，在床上杀掉老丈夫，再把罪名推给几位客人。夜里，伊凡发现山墙木板的小洞里透出灯光，便起身往里看。这时，他听见修士开了口。
+        - id: ch03-b07
+          speaker: monk
+          text: 我得把这个洞挡住，不然隔壁的人会看见我们做的事。
+        - id: ch03-b08
+          speaker: narrator
+          text: 修士背靠洞口站着，老板娘就在屋里杀死了老头。伊凡悄悄拔出小刀，从洞中伸过去，在修士的长袍上割下一块圆布。第二天一早，老板娘哭喊丈夫被杀。屋里除了那三个商人，再没有别的男人，连孩子也没有。她便咬定商人是凶手，非要把他们送上绞架。
+        - id: ch03-b09
+          speaker: narrator
+          text: 三个商人被关进监牢。过了好一阵，伊凡才赶到那里。
+        - id: ch03-b10
+          speakers: [merchant_1, merchant_2, merchant_3]
+          ensemble: chorus
+          text: 唉，伊凡，厄运缠上我们了！昨夜店主人被杀，我们全都要上绞架啦。
+          emotion: fearful
+        - id: ch03-b11
+          speaker: ivan
+          text: 那就请法官把真正的凶手传来。
+        - id: ch03-b12
+          speakers: [merchant_1, merchant_2, merchant_3]
+          ensemble: chorus
+          text: 可谁知道凶手究竟是谁？
+        - id: ch03-b13
+          speaker: ivan
+          text: 我知道。要是我不能证明是谁干的，就让我替你们上绞架。
+        - id: ch03-b14
+          speaker: narrator
+          text: 伊凡说出自己看见的一切，又拿出那块从修士袍子上割下来的布。商人们重获自由，老板娘和修士却被抓住，送上了绞架。
+    - id: ch04
+      title: 拾到的钱袋
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 众人一起离开马基特朱。商人们又向伊凡发出邀请。
+        - id: ch04-b02
+          speakers: [merchant_1, merchant_2, merchant_3]
+          ensemble: chorus
+          text: 跟我们一道走吧，至少走到布尔曼教区的科德·卡恩·厄·威尔法，也就是“守望石堆之林”。
+        - id: ch04-b03
+          speaker: narrator
+          text: 伊凡同他们走到那里，两条路便分开了。商人们仍想拉他同去，伊凡却没有答应，而是径直回到了妻子身边。
+        - id: ch04-b04
+          speaker: wife
+          text: 你回来得正是时候。我捡到一袋金币，上面没有姓名，可一定是那边大老爷的。我正愁不知道怎么办呢。
+        - id: ch04-b05
+          speaker: narrator
+          text: 伊凡想起第三句忠告。
+        - id: ch04-b06
+          speaker: ivan
+          text: 那我们就把钱袋交还给大老爷。
+        - id: ch04-b07
+          speaker: narrator
+          text: 两人来到城堡，大老爷不在，便把钱袋交给守门的仆人。之后，他们回家安安静静过了一阵日子。
+        - id: ch04-b08
+          speaker: narrator
+          text: 有一天，大老爷在他们门前停下，想讨水喝。伊凡的妻子想起那只钱袋，便问候了一句。
+        - id: ch04-b09
+          speaker: wife
+          text: 老爷，您的钱袋收到了吧？但愿里面的金币一枚也没少。
+        - id: ch04-b10
+          speaker: lord
+          text: 你说的是什么钱袋？
+        - id: ch04-b11
+          speaker: ivan
+          text: 就是您的钱袋啊，我已经把它送到城堡了。
+        - id: ch04-b12
+          speaker: lord
+          text: 你们跟我来，我们去查个明白。
+        - id: ch04-b13
+          speaker: narrator
+          text: 伊凡夫妻随他回到城堡，认出了收钱袋的仆人。那人只得交出钱袋，也被赶了出去。大老爷十分欣赏伊凡，就让他顶替那个窃贼，留在身边做事。
+    - id: ch05
+      title: 饼里的工钱
+      blocks:
+        - id: ch05-b01
+          speaker: ivan
+          text: 为人诚实，才是上策！我真是快活极了！
+          emotion: happy
+        - id: ch05-b02
+          speaker: narrator
+          text: 伊凡在新住处高兴得蹦蹦跳跳。就在这时，他想起老主人送的那块饼，也想起了那句嘱咐。现在正是他最高兴的时候。伊凡把饼掰开一看，里面竟藏着他三年做工应得的全部工钱。

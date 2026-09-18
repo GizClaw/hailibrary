@@ -1,0 +1,186 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 沉静而富有古老传说的神秘感
+        timbre: 温暖清澈
+        pace: 从容舒缓
+        pitch: 中音
+    mistress:
+      display_name: 女主人
+      tts:
+        delivery: 善良持重，惊惧中仍努力镇定
+        timbre: 柔和坚实
+        pace: 适中
+        pitch: 中音
+    witch_one:
+      display_name: 独角女巫
+      tts:
+        delivery: 冷硬急躁，带着不容违抗的命令口吻
+        timbre: 尖利干涩
+        pace: 急促
+        pitch: 中高音
+    witch_two:
+      display_name: 双角女巫
+      tts:
+        delivery: 傲慢凌厉，说话干脆而强势
+        timbre: 冷而锐利
+        pace: 明快
+        pitch: 中高音
+    witch_three:
+      display_name: 三角女巫
+      tts:
+        delivery: 阴沉凶狠，语气充满威吓
+        timbre: 低哑粗粝
+        pace: 适中
+        pitch: 中低音
+    witch_four:
+      display_name: 四角女巫
+      tts:
+        delivery: 怪诞凶悍，呼喊时尖锐迫人
+        timbre: 沙哑刺耳
+        pace: 急促
+        pitch: 高音
+    well_spirit:
+      display_name: 井泉精灵
+      tts:
+        delivery: 神秘而清醒，指点时简洁笃定
+        timbre: 清亮空灵
+        pace: 舒缓
+        pitch: 中音
+    feet_water:
+      display_name: 洗脚水
+      tts:
+        delivery: 平直坚定，回答毫不迟疑
+        timbre: 轻柔流动
+        pace: 适中
+        pitch: 中高音
+    door:
+      display_name: 门
+      tts:
+        delivery: 厚重沉稳，语气坚决
+        timbre: 低沉浑厚
+        pace: 缓慢
+        pitch: 低音
+    cake:
+      display_name: 饼
+      tts:
+        delivery: 疲惫却坚定，回答清楚直接
+        timbre: 干涩微哑
+        pace: 适中
+        pitch: 中音
+  chapters:
+    - id: ch01
+      title: 十二位长角的来客
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 一天深夜，一户富有人家的主人和仆人都睡熟了，只有女主人还坐着梳理羊毛，准备拿来纺线。忽然，门被敲响了。外面有人高声叫门。
+        - id: ch01-b02
+          speaker: witch_one
+          text: 快开门！开门！
+        - id: ch01-b03
+          speaker: mistress
+          text: 门外是谁？
+        - id: ch01-b04
+          speaker: witch_one
+          text: 是我，独角女巫。
+        - id: ch01-b05
+          speaker: narrator
+          text: 女主人还以为邻居遇上了难事，便把门打开。一个女人走了进来，手里拿着梳毛板，额头正中长着一只角，就像从肉里生出来的一样。她默默坐到火边，凶狠而飞快地梳起羊毛。梳着梳着，她忽然停下了手。
+        - id: ch01-b06
+          speaker: witch_one
+          text: 那些女人怎么还不来？她们耽搁得太久了。
+        - id: ch01-b07
+          speaker: narrator
+          text: 门上很快又传来敲击声，外面再次有人叫门。女主人像是无法反抗，只能起身开门。第二个女巫立刻进了屋。她额头上有两只角，手里带着纺羊毛的纺车。
+        - id: ch01-b08
+          speaker: witch_two
+          text: 让出地方来。我是双角女巫。
+        - id: ch01-b09
+          speaker: narrator
+          text: 她说完就纺起线来，手快得像一道闪电。此后，敲门声不断响起，门外一次次传来呼喊，女巫也一个接一个进屋。到最后，火堆边围坐着十二个女人。最先来的长着一只角，最后来的长着十二只角。
+        - id: ch01-b10
+          speaker: narrator
+          text: 她们梳毛、纺线、绕线、织布，一边忙碌，一边齐声唱着古老的歌谣，却始终不和女主人说一句话。十二个女人头上长着角，身边转着纺车。那声音听来怪异，那模样看去更叫人胆寒。女主人吓得几乎没了命。她想起身呼救，身子却动弹不得，连一个字、一声喊叫也发不出来。女巫的魔法已经压在她身上。
+    - id: ch02
+      title: 井边的指点
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 这时，一个女巫用爱尔兰语命令她。
+        - id: ch02-b02
+          speaker: witch_three
+          text: 起来，女人。给我们烤张饼来。
+        - id: ch02-b03
+          speaker: narrator
+          text: 女主人要取井水和面，四处却找不到一件能盛水的器皿。女巫们便告诉她另一个办法。
+        - id: ch02-b04
+          speakers: [witch_one, witch_two, witch_three, witch_four]
+          ensemble: chorus
+          text: 拿筛子去，用筛子把水带回来！
+        - id: ch02-b05
+          speaker: narrator
+          text: 女主人拿着筛子走到井边，可水从筛孔里不断流走，一点也带不回去。没有水，她就烤不成饼。她只好坐在井旁哭泣。就在这时，身边有个声音开口了。
+        - id: ch02-b06
+          speaker: well_spirit
+          text: 找些黄泥和苔藓，把它们拌好，再糊到筛子上。这样，筛子就能盛住水了。
+        - id: ch02-b07
+          speaker: narrator
+          text: 她依照指点糊好筛子，果然盛到了烤饼的水。那个声音接着告诉她该怎么做。
+        - id: ch02-b08
+          speaker: well_spirit
+          text: 现在回去。走到屋子的北角，就放声喊三遍：“芬尼亚女战士的山，还有山上的天空，全都着火啦！”
+        - id: ch02-b09
+          speaker: narrator
+          text: 女主人照着说了。屋里的女巫一听见喊声，立刻爆发出可怕的号叫。她们哭嚎着、尖叫着冲出门去，一直逃向斯利夫纳蒙山。那座山正是她们最主要的巢穴。
+        - id: ch02-b10
+          speaker: narrator
+          text: 原来，井边帮助她的是井泉精灵。精灵催她赶紧进屋，做好防备。女巫要是再回来，就不能让她们的妖法得逞。
+    - id: ch03
+      title: 守住房门
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 女主人先把给孩子洗过脚的水洒在门外的门槛上，用它来破解法术。接着，她发现女巫趁她不在时已经烤好了一张饼。她们从熟睡的家人身上取了血，和进面粉里，才做成这张饼。
+        - id: ch03-b02
+          speaker: narrator
+          text: 女主人把饼掰碎，在每个沉睡的人嘴里都放了一块，他们便恢复了过来。她又拿起女巫织好的布，把一半收进带挂锁的箱子，另一半留在外面。最后，她用一根粗大的横木卡紧两边门框，牢牢顶住了门。女巫再也不能闯进来。安排妥当以后，她留在屋里等待。
+        - id: ch03-b03
+          speaker: narrator
+          text: 没过多久，女巫们就回来了。她们怒不可遏，吵嚷着一定要报仇。
+        - id: ch03-b04
+          speakers: [witch_one, witch_two, witch_three, witch_four]
+          ensemble: chorus
+          text: 开门！快开门！洗脚水，你给我们把门打开！
+          emotion: angry
+        - id: ch03-b05
+          speaker: feet_water
+          text: 我办不到。我早已洒在地上，正沿着自己的路流向湖里。
+        - id: ch03-b06
+          speakers: [witch_one, witch_two, witch_three, witch_four]
+          ensemble: chorus
+          text: 木头、树木，还有横梁！快把门打开！
+          emotion: angry
+        - id: ch03-b07
+          speaker: door
+          text: 我动不了。横木已经卡死在门框里，我没有力气挪开。
+        - id: ch03-b08
+          speakers: [witch_one, witch_two, witch_three, witch_four]
+          ensemble: chorus
+          text: 我们拿血和面做的饼！快开门，快开门！
+          emotion: angry
+        - id: ch03-b09
+          speaker: cake
+          text: 我也办不到。我已经被掰碎、碾烂，我的血就在熟睡孩子们的嘴唇上。
+    - id: ch04
+      title: 女巫的斗篷
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 女巫们只得放声号叫，腾空逃回斯利夫纳蒙山。一路上，她们用古怪的恶毒言语咒骂井泉精灵，因为正是精灵叫她们遭到了失败。
+        - id: ch04-b02
+          speaker: narrator
+          text: 女主人和她的家宅从此安宁无事。女巫逃走时，有一个落下了一件斗篷。女主人把它挂在屋里，纪念那个可怕的夜晚。此后，同一个家族把这件斗篷一代代保存下来，整整传了五百年。

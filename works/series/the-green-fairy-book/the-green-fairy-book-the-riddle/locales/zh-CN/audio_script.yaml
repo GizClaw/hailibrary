@@ -1,0 +1,242 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 亲切从容，像编书人面对孩子娓娓而谈，幽默处轻巧含笑
+        timbre: 温暖清朗
+        pace: 舒缓而有自然起伏
+        pitch: 中音
+    prince:
+      display_name: 王子
+      tts:
+        delivery: 沉着勇敢，言语坦率而自信
+        timbre: 年轻清朗
+        pace: 适中
+        pitch: 中低音
+    witch_daughter:
+      display_name: 女巫的继女
+      tts:
+        delivery: 善良谨慎，提醒别人时诚恳忧切
+        timbre: 年轻柔和
+        pace: 自然
+        pitch: 中高音
+    witch:
+      display_name: 女巫
+      tts:
+        delivery: 低声咕哝，狡猾阴沉，客气中藏着虚假
+        timbre: 苍老干涩
+        pace: 缓慢
+        pitch: 低音
+    servant:
+      display_name: 仆人
+      tts:
+        delivery: 忠诚机敏，做事利落，说话朴实
+        timbre: 坚实清楚
+        pace: 自然
+        pitch: 中音
+    princess:
+      display_name: 公主
+      tts:
+        delivery: 高傲聪慧，发问时从容而带着命令口吻
+        timbre: 明亮华贵
+        pace: 适中
+        pitch: 中高音
+    judge_1:
+      display_name: 第一位法官
+      tts:
+        delivery: 庄重果断，裁断时不容置疑
+        timbre: 成熟浑厚
+        pace: 从容
+        pitch: 中低音
+    judge_2:
+      display_name: 第二位法官
+      tts:
+        delivery: 庄重审慎，言语清晰严整
+        timbre: 成熟清朗
+        pace: 从容
+        pitch: 中音
+    judge_3:
+      display_name: 第三位法官
+      tts:
+        delivery: 庄重坚定，裁断时简洁有力
+        timbre: 成熟沉稳
+        pace: 从容
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 女巫的小屋
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，有位王子一心想周游世界。他只带了一个忠心的仆人，就这样出发了。一天，两人走进一片大森林。天渐渐黑下来，他们却找不到住处，王子怎么也想不出该在哪里过夜。这时，他忽然看见一个年轻美丽的姑娘，正朝一座小屋走去，便赶上前去问她。
+        - id: ch01-b02
+          speaker: prince
+          text: >-
+            好姑娘，我和仆人能在那座屋里住一夜吗？
+        - id: ch01-b03
+          speaker: witch_daughter
+          text: >-
+            你们愿意的话，当然可以。可我真不劝你们住下，最好连门也别进。
+          emotion: sad
+        - id: ch01-b04
+          speaker: prince
+          text: >-
+            为什么不能进去？
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            姑娘叹了口气，这才告诉他。
+        - id: ch01-b06
+          speaker: witch_daughter
+          text: >-
+            我的继母会使黑巫术。她对外乡人一点也不友善。
+          emotion: sad
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            王子马上明白，那是女巫的屋子。可是天已经全黑了，他们再也赶不了路。王子又根本不怕，便走了进去。
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            炉火旁坐着一个老婆子。两位陌生人一进门，她就用一双红眼睛盯住他们。
+        - id: ch01-b09
+          speaker: witch
+          text: >-
+            晚上好。来，坐下歇一歇吧？
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            老婆子低声咕哝着，装得十分亲热。她吹旺炉火，火上那口小锅里正煮着东西。继女暗中警告两位旅人，千万别吃，也千万别喝。老婆子调出来的汤水，常常会害人。两人上床睡下，一觉睡到了天亮。
+
+    - id: ch02
+      title: 毒药转了一圈
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            第二天，两人准备动身。王子已经骑上马，老婆子却叫住了他。
+        - id: ch02-b02
+          speaker: witch
+          text: >-
+            等一等，我得送你一杯上马酒。
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            她转身取酒，王子便先走了。仆人还在勒紧马肚带，所以留了下来。女巫回来时，那里只剩下他一个人。
+        - id: ch02-b04
+          speaker: witch
+          text: >-
+            把这杯酒拿给你主人。
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            她刚说完，玻璃杯就裂开了。毒酒一下喷到马身上，毒性强得吓人，那匹可怜的牲口当场倒地死去。仆人连忙追上王子，把事情的经过告诉了他。可他不愿连马鞍也白白丢掉，又转身回去取。
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            回到马尸旁，他看见一只乌鸦落在那里，正低头啄食。
+        - id: ch02-b07
+          speaker: servant
+          text: >-
+            今天还不一定能找到比你更好的吃食呢！
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            仆人射死乌鸦，把它带走了。两人在森林里赶了一整天，还是没走到尽头。天黑时，他们来到一家客店。仆人把乌鸦交给店主，请他做成晚餐。可这家店是十二个杀人强盗常来聚会的地方，老女巫也常常光顾。
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            夜一深，十二个强盗到了。他们本想杀死两位旅人，再抢走财物，可动手前先坐下来吃饭。店主和女巫也来了。大家喝的肉汤里，炖着那只乌鸦。他们才喝了两三匙，就全都倒地死去。原来，毒从马身上进了乌鸦，又从乌鸦进了肉汤。
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            屋里只剩下店主的女儿。她心地善良，从没参与那些恶事。姑娘打开所有房门，把强盗搜刮来的财宝指给两位旅人看。王子一样也没要，全留给了她。随后，他和仆人继续上路。
+
+    - id: ch03
+      title: 公主的赌约
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            两人在外游历了很久，后来来到一座城。城里住着一位公主，容貌绝美，性情却极其傲慢。她公开立下赌约。谁出一道她猜不出的谜语，谁就能娶她。可要是她猜中了，出谜的人就得掉脑袋。
+        - id: ch03-b02
+          speaker: narrator
+          text: >-
+            每道谜语，公主都可以想上三天。不过她实在聪明，总是用不了那么久就猜出答案。已经有九个求婚者因此送了命。王子一见她，便被她的美貌迷住了。他明知危险，还是决定拿性命赌一回，只盼能娶到公主。于是，他走到她面前，说出了自己的谜语。
+        - id: ch03-b03
+          speaker: prince
+          text: >-
+            什么东西一个也没杀，却杀了十二个？
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            公主答不上来。她想了又想，把所有谜语书和解谜书都翻遍了，还是找不到一点线索。这一回，她的聪明再也帮不上忙，公主彻底没了办法。
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            她吩咐侍女在夜里潜进王子的卧房，躲在一旁偷听。也许王子会说梦话，把谜底泄露出来。可是机灵的仆人已经代替主人睡在床上。侍女一来，他就扯下她的斗篷，挥着鞭子把她赶了出去。
+
+    - id: ch04
+      title: 三夜窃听
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            第二夜，公主派贴身女官前去，盼她做得高明一些。仆人早有准备，又夺下她的披风，把她也赶跑了。
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            到了第三夜，王子觉得这回总该安全了，便亲自睡在床上。半夜里，公主竟然来了。她把自己严严实实地裹在一件雾灰色披风里，挨着王子坐下。等她以为王子熟睡了，便开口问话，盼他像许多人那样，在梦中说出答案。其实，王子始终醒着。她说的每个字，他都听得清清楚楚，意思也全都明白。
+        - id: ch04-b03
+          speaker: princess
+          text: >-
+            一个也没杀，那是什么？
+        - id: ch04-b04
+          speaker: prince
+          text: >-
+            是一只乌鸦。它吃过中了毒的马尸。
+        - id: ch04-b05
+          speaker: princess
+          text: >-
+            那么，杀了十二个的又是什么？
+        - id: ch04-b06
+          speaker: prince
+          text: >-
+            十二个杀人强盗吃了那只乌鸦，结果全被毒死了。
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            公主知道谜底以后，起身想溜走。王子却紧紧抓住她的披风，她只好把披风留下。
+
+    - id: ch05
+      title: 新婚礼服
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            第二天一早，公主宣布自己猜出了谜语。她召来十二位法官，当着他们的面说出谜底。可是王子也请求申辩。
+        - id: ch05-b02
+          speaker: prince
+          text: >-
+            她昨夜来盘问过我。要不是这样，她绝不可能猜出答案。
+        - id: ch05-b03
+          speakers: [judge_1, judge_2, judge_3]
+          ensemble: chorus
+          text: >-
+            那就拿证据给我们看。
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            仆人取出三件斗篷和披风。法官们一看见那件灰披风，就认出这是公主平日常穿的。
+        - id: ch05-b05
+          speakers: [judge_1, judge_2, judge_3]
+          ensemble: chorus
+          text: >-
+            在上面绣上金线银线吧。它应当成为你的新婚礼服。
+        - id: ch05-b06
+          speaker: narrator
+          text: >-
+            这个故事，是格林兄弟讲下来的。

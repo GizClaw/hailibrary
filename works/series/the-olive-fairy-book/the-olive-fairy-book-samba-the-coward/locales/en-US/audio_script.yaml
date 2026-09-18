@@ -1,0 +1,368 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: genial, reflective, and lightly amused
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    samba:
+      display_name: Samba
+      tts:
+        delivery: good-natured but easily frightened
+        timbre: strong and open
+        pace: measured
+        pitch: medium-low
+    king:
+      display_name: The King
+      tts:
+        delivery: dignified and fatherly
+        timbre: deep and resonant
+        pace: unhurried
+        pitch: low
+    princess:
+      display_name: The Princess
+      tts:
+        delivery: warm, proud, and resolute
+        timbre: clear and assured
+        pace: measured
+        pitch: medium
+    friend:
+      display_name: The King's Friend
+      tts:
+        delivery: thoughtful and candid
+        timbre: mature and steady
+        pace: measured
+        pitch: medium-low
+    citizen_1:
+      display_name: First Citizen
+      tts:
+        delivery: forthright and spirited
+        timbre: sturdy and clear
+        pace: lively
+        pitch: medium
+    citizen_2:
+      display_name: Second Citizen
+      tts:
+        delivery: eager and emphatic
+        timbre: bright and clear
+        pace: lively
+        pitch: medium-high
+    citizen_3:
+      display_name: Third Citizen
+      tts:
+        delivery: hearty and excitable
+        timbre: rough and ringing
+        pace: lively
+        pitch: medium-low
+    child:
+      display_name: Village Child
+      tts:
+        delivery: teasing and bold
+        timbre: light and youthful
+        pace: quick
+        pitch: high
+    servant:
+      display_name: Palace Servant
+      tts:
+        delivery: respectful and direct
+        timbre: clear and modest
+        pace: measured
+        pitch: medium
+    youngest_prince:
+      display_name: Youngest Prince
+      tts:
+        delivery: observant and quietly determined
+        timbre: youthful and clear
+        pace: measured
+        pitch: medium-high
+    eldest_prince:
+      display_name: Eldest Prince
+      tts:
+        delivery: confident and teasing
+        timbre: firm and polished
+        pace: measured
+        pitch: medium-low
+    moor:
+      display_name: Moorish Raider
+      tts:
+        delivery: calculating and confident
+        timbre: lean and clear
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The King’s Frightened Son
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Far away in the great country to the south, where the Nile flows, a king lived with his only child, Samba. From the time the boy could walk, he was afraid of everything. The older he grew, the worse his fear became.
+        - id: ch01-b02
+          speaker: friend
+          text: >-
+            It is strange to see a boy of our people run into a hut when an elephant trumpets. Even a lion cub half his size makes him tremble. Still, he is only a baby. When he grows older, he will be as brave as the rest of us.
+        - id: ch01-b03
+          speaker: king
+          text: He is only a baby. In time, everything will come right.
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            The king sighed as he spoke. His friends looked at him and said no more. Years passed, and Samba grew into a tall, strong young man. He was pleasant and kind, and everyone liked him. Whenever his father led a hunting party, though, Samba was seldom seen in any place where danger might be waiting. Still, he was such a favorite with the people that very little was said about it.
+        - id: ch01-b05
+          speaker: citizen_1
+          text: Once the king holds the feast and names him heir, he will finally put childhood behind him.
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            So the people told one another. On the day of the ceremony, their hearts beat with joy.
+        - id: ch01-b07
+          speakers: [citizen_1, citizen_2, citizen_3]
+          ensemble: chorus
+          text: >-
+            It is Samba, Samba, whose chin rises above the heads of other men! He will defend us from the robber tribes!
+    - id: ch02
+      title: Samba Leaves His Country
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            Only a few weeks later, the villagers woke to terrible news. During the night, their enemies had driven away the herds and carried the herdsmen off as slaves. Now Samba had his chance to prove that manhood had made him brave. He should have ridden at the head of his people’s warriors. But no one could find him, and the men seeking vengeance set out without him.
+        - id: ch02-b02
+          speaker: narrator
+          text: >-
+            Many days passed before Samba returned. He held his head high and told everyone about a lion he had followed all the way to its den. He claimed he had killed it there at the risk of his own life. If he had come home a little earlier, his people would have welcomed that tale and believed every word. Now it was too late.
+        - id: ch02-b03
+          speaker: citizen_1
+          text: Samba the Coward!
+          emotion: angry
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            The name clung to him. Even the children called it after him, and his father showed him no mercy.
+        - id: ch02-b05
+          speaker: child
+          text: Samba the Coward!
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            At last Samba could endure no more. He decided to leave his own land and seek another country, one that had known peace for as long as anyone could remember. Early the next morning, he slipped into the royal stables, chose the quietest horse he could find, and rode north.
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            Samba never forgot the fear of that journey. At night, he scarcely slept because a wild beast might be hiding behind any rock or bush. By day, a lion roaring far away could startle him so badly that he nearly fell from his horse. Again and again, he almost turned homeward. The thought of jeers and laughter did not stop him. What stopped him was the greater fear that, if he returned, he would have to fight in his people’s wars.
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            So he kept going. At last, he saw the walls of a city larger than any he had imagined, and he was deeply thankful to reach it. He straightened himself to his full height and rode proudly through the gate. He continued through the streets and past the palace. As she did every day, the princess sat on its terraced roof and watched the bustle below.
+        - id: ch02-b09
+          speaker: princess
+          text: What a noble-looking man.
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            Samba looked splendid on his great black horse, guiding it neatly through the crowd. The princess beckoned to a servant and sent him to ask the stranger his name and homeland. When the servant came back, he brought exciting news.
+        - id: ch02-b11
+          speaker: servant
+          text: >-
+            Princess, he is a king’s son. He will inherit a country near the Great River.
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            The princess called for her father and told him that, unless he allowed her to marry the stranger, she would remain unmarried all her life. Like many fathers, the king could deny his daughter nothing. Besides, she had already refused so many suitors that he had begun to fear no man would ever be good enough for her. He spoke with Samba and was won over by the young man’s good humor and pleasant ways. The king gave his consent, and three days later they celebrated the wedding feast with all possible splendor.
+    - id: ch03
+      title: The Warrior in Golden Armor
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            The princess took great pride in her tall, handsome husband. For a while, she was content to sit with him beneath the palm trees. He told her stories she loved and amused her with the unfamiliar customs of his country. In time, though, she wanted everyone else to be proud of him too.
+        - id: ch03-b02
+          speaker: princess
+          text: >-
+            I almost wish those Moorish thieves from the north would raid us. I would love to watch you lead our men and drive them home. How happy I would be to hear the whole city praising your brave deeds!
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            She looked at him lovingly, but Samba’s face darkened. His answer came quickly.
+        - id: ch03-b04
+          speaker: samba
+          text: >-
+            Never speak to me about the Moors or war again. I ran from my own country to escape such things. At the first word of an invasion, I would leave you forever.
+        - id: ch03-b05
+          speaker: princess
+          text: >-
+            What a strange man you are! Someone as big as you, afraid of a Moor? Just do not say that to anyone but me. They might believe you mean it.
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            Not long afterward, the people held a great feast beyond the city walls. A band of Moors had been hiding nearby for days, waiting for their chance. While the people celebrated, the raiders drove away every sheep and goat that had been grazing peacefully on the slopes of a hill. No one discovered the loss for several hours. As soon as the news reached the king, he ordered the war drum to sound.
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            Furious warriors crowded into the great square before the palace. They demanded revenge at once, and they called for Samba, the king’s son-in-law, to lead them. They shouted and shouted, but Samba did not appear.
+        - id: ch03-b08
+          speakers: [citizen_1, citizen_2, citizen_3]
+          ensemble: chorus
+          text: Samba must lead us! We ride now and take our revenge!
+          emotion: angry
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            He had gone no farther than a cool, dark cellar beneath the palace. There he crouched among enormous earthenware jars filled with grain. His wife found him, and pain rushed through her heart. With all her strength, she tried to awaken some sense of shame in him, but nothing moved him. His subjects might despise him and make his future dangerous. Yet even that seemed like nothing beside the risks he would have to face right now.
+        - id: ch03-b10
+          speaker: princess
+          text: >-
+            Take off your mail coat. Give it to me. I want your helmet, sword, and spear as well.
+        - id: ch03-b11
+          speaker: narrator
+          text: >-
+            Her voice was so cold and stern that anyone hearing it would hardly have known her. Samba kept glancing fearfully to the right and left as he removed the gold-inlaid armor that belonged to the king’s son-in-law. In silence, the princess took the pieces from him one by one and fastened them firmly onto herself. She never once looked toward her tall husband, who had crept back into his corner. After securing the last buckle, she lowered the visor, went outside, mounted Samba’s horse, and signaled the warriors to follow.
+        - id: ch03-b12
+          speaker: narrator
+          text: >-
+            The princess was much shorter than Samba, but she was tall for a woman, and the horse she rode stood higher than all the rest. When the men saw that gold-inlaid chain mail, they never doubted that Samba had taken his rightful place among them. They cheered him loudly. The princess bowed in answer without raising her visor. Then she touched her horse with the spur and galloped at the head of the troops to meet the enemy.
+        - id: ch03-b13
+          speaker: narrator
+          text: >-
+            The Moors had not expected such a swift pursuit. They barely had time to form their battle line before the princess and her men put them to flight. The little troop rode back to the city, and everywhere people sang the praises of Samba, their leader.
+    - id: ch04
+      title: The Princess’s Secret
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            The moment they reached the palace, the princess tossed her reins to a groom and hurried up a side staircase. It let her enter her rooms unseen. She found Samba stretched lazily on a heap of mats. When the door opened, he raised his head and watched her uneasily, unsure of what she might do.
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            She did not scold him. She only unfastened the armor as quickly as she could and ordered him to put it on at once. Samba obeyed without daring to ask a question. When he was ready, the princess took him to the flat roof. Below them, a crowd had gathered and was cheering with all its strength.
+        - id: ch04-b03
+          speakers: [citizen_1, citizen_2, citizen_3]
+          ensemble: chorus
+          text: >-
+            Samba, the king’s son-in-law! Samba, bravest of the brave! Come out and show yourself!
+          emotion: happy
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            When Samba appeared, the cheers grew louder still.
+        - id: ch04-b05
+          speaker: citizen_2
+          text: Look how modest he is! He lets everyone else have the glory!
+          emotion: happy
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            Samba only smiled, waved his hand, and said nothing. Of all the people who had gathered to honor him, only one held back from the shouting and praise. The princess’s youngest brother had watched the battle with sharp eyes. He had noticed certain things during the fight, and they reminded him much more of his sister than of her husband. After making his older brothers promise secrecy, he told them what he suspected. They only laughed and told him to take his dreams elsewhere.
+        - id: ch04-b07
+          speaker: youngest_prince
+          text: >-
+            Very well. We will learn who is right. The next time we fight the Moors, I will put a secret mark on our commander.
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            In spite of their defeat, the Moors returned only a few days later with a fresh body of troops and tried to steal more cattle. Once again, Samba’s wife put on her husband’s armor and rode at the head of the pursuing column. This fight was harder than the first. In the thick of it, her youngest brother came close and gave the hidden warrior a small wound in the leg.
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            At first, the princess paid no attention to the wound. She hardly felt it. But after the enemy fled and the riders returned to the palace, she suddenly grew faint. She could barely climb the stairs to her rooms. There she sank onto the mats where Samba had been lying.
+        - id: ch04-b10
+          speaker: princess
+          text: >-
+            I have been wounded. Do not worry, it is not serious. You need only make a small wound on your leg in the same place. Then no one will guess that I fought in your place.
+        - id: ch04-b11
+          speaker: samba
+          text: >-
+            What? You cannot expect me to agree to something so painful and pointless! I might just as well have gone to battle myself!
+          emotion: fearful
+        - id: ch04-b12
+          speaker: princess
+          text: I should have known better. I truly should.
+          emotion: sad
+        - id: ch04-b13
+          speaker: narrator
+          text: >-
+            Her voice seemed to come from far away. Then Samba turned his back. Quick as thought, she pierced one of his bare legs with a spear. Samba gave a loud scream and stumbled backward. His surprise was far greater than his pain. Before he could say a word, his wife left the room and went to find the palace medicine man.
+        - id: ch04-b14
+          speaker: princess
+          text: >-
+            My husband has been wounded. Come quickly and care for him. He is faint from losing blood.
+        - id: ch04-b15
+          speaker: narrator
+          text: >-
+            She made sure several people heard her. All that day, the citizens pressed around the palace gate and asked for news of their brave champion. The king’s eldest sons visited Samba, who lay groaning in his room.
+        - id: ch04-b16
+          speaker: eldest_prince
+          text: >-
+            There, wise young brother. We were right about Samba, and you were wrong. He truly did fight in the battle.
+        - id: ch04-b17
+          speaker: narrator
+          text: The youngest prince gave no answer. He only shook his head, still doubtful.
+    - id: ch05
+      title: Samba Goes to Battle
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            Only two days later, the Moors appeared for the third time. The people had tethered their herds in a new place that seemed much safer, yet the raiders found them and carried them off as quickly as before.
+        - id: ch05-b02
+          speaker: moor
+          text: >-
+            They will never expect us back so soon, not after the beating they gave us.
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            So the Moors had told one another. When the war drum called every fighting man to assemble, the princess rose and went to her husband.
+        - id: ch05-b04
+          speaker: princess
+          text: >-
+            Samba, my wound is worse than I knew. I can hardly walk, and I cannot mount my horse without help. I cannot do your work today. You must go in my place.
+        - id: ch05-b05
+          speaker: samba
+          text: >-
+            That is nonsense! I have never heard of such a thing. I could be wounded, or even killed. You have three brothers. Let the king choose one of them.
+          emotion: fearful
+        - id: ch05-b06
+          speaker: princess
+          text: >-
+            They are too young, and the men would not follow them. But if you truly refuse to go, you can at least help me saddle my horse.
+        - id: ch05-b07
+          speaker: narrator
+          text: >-
+            Samba was always willing to help when there was no danger, so he readily agreed. They soon had the horse prepared.
+        - id: ch05-b08
+          speaker: princess
+          text: >-
+            Now ride him to the meeting place outside the gates. I will take a shorter path, meet you there, and change places with you.
+        - id: ch05-b09
+          speaker: narrator
+          text: >-
+            Samba loved riding in peaceful times, so he mounted just as she asked. The moment he was safely settled in the saddle, his wife gave the horse a sharp cut with her whip. It dashed away through the town and then straight through the waiting ranks of warriors. The men saw their commander rushing past, and in an instant the whole troop was in motion behind him.
+        - id: ch05-b10
+          speaker: narrator
+          text: >-
+            Samba pulled at the reins, but stopping that horse was like stopping the wind. In what seemed only minutes, he and the warriors were fighting the Moors hand to hand.
+        - id: ch05-b11
+          speaker: narrator
+          text: >-
+            Then a miracle happened. Samba the coward, the man who always hid, found himself trapped with no way to escape. Something sprang to life inside him, and he fought with all his strength. A man of Samba’s size and power could fight very well once he truly began.
+        - id: ch05-b12
+          speaker: narrator
+          text: >-
+            That day, the victory truly belonged to Samba. When the warriors returned to the city, the people’s shouts rose louder than ever before. Samba rode home carrying the sword of the Moorish chief as proof of his triumph. The old king came forward, wrapped him in his arms, and spoke to him with gratitude.
+        - id: ch05-b13
+          speaker: king
+          text: >-
+            Oh, my son! How can I ever thank you for the great service you have done us?
+          emotion: happy
+        - id: ch05-b14
+          speaker: narrator
+          text: >-
+            Whenever fear did not control him, Samba was honest and loyal. This time, he answered without hiding the truth.
+        - id: ch05-b15
+          speaker: samba
+          text: >-
+            Father, your daughter deserves the thanks, not I. She is the one who changed me from a coward into a brave man.

@@ -1,0 +1,423 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: "讲述者"
+      tts:
+        delivery: "亲切从容，带一点温和的幽默"
+        timbre: "温暖清晰"
+        pace: "舒缓而有变化"
+        pitch: "中音"
+    eldest_brother:
+      display_name: "大哥"
+      tts:
+        delivery: "傲慢自负，待人刻薄"
+        timbre: "清亮的年轻男声"
+        pace: "适中偏快"
+        pitch: "中音"
+    second_brother:
+      display_name: "二哥"
+      tts:
+        delivery: "好胜自负，口气冷硬"
+        timbre: "厚实的年轻男声"
+        pace: "适中"
+        pitch: "中低音"
+    youngest_brother:
+      display_name: "小弟"
+      tts:
+        delivery: "善良坦率，遇事容易着急但信守承诺"
+        timbre: "明朗温厚的年轻男声"
+        pace: "适中"
+        pitch: "中音"
+    elder_1:
+      display_name: "求职老人甲"
+      tts:
+        delivery: "谦卑恳切"
+        timbre: "苍老沙哑的男声"
+        pace: "缓慢"
+        pitch: "低音"
+    elder_2:
+      display_name: "求职老人乙"
+      tts:
+        delivery: "谦卑恳切"
+        timbre: "苍老柔弱的男声"
+        pace: "缓慢"
+        pitch: "中低音"
+    elder_3:
+      display_name: "求职老人丙"
+      tts:
+        delivery: "谦卑恳切"
+        timbre: "苍老低沉的男声"
+        pace: "缓慢"
+        pitch: "低音"
+    boy_1:
+      display_name: "男孩甲"
+      tts:
+        delivery: "诚恳急切"
+        timbre: "清脆的男孩声"
+        pace: "稍快"
+        pitch: "高音"
+    boy_2:
+      display_name: "男孩乙"
+      tts:
+        delivery: "诚恳急切"
+        timbre: "稚嫩的男孩声"
+        pace: "适中偏快"
+        pitch: "高音"
+    hermit:
+      display_name: "隐士"
+      tts:
+        delivery: "睿智慈祥，必要时果断有力"
+        timbre: "苍老温厚的男声"
+        pace: "从容"
+        pitch: "低音"
+    fog_man:
+      display_name: "装雾人"
+      tts:
+        delivery: "爽快随和，说起奇事如同寻常"
+        timbre: "轻快的成年男声"
+        pace: "适中"
+        pitch: "中音"
+    strong_man:
+      display_name: "大力士"
+      tts:
+        delivery: "豪爽干脆，语气自信"
+        timbre: "洪亮浑厚的男声"
+        pace: "适中偏慢"
+        pitch: "低音"
+    drinker:
+      display_name: "善饮人"
+      tts:
+        delivery: "快活豪放，永不满足"
+        timbre: "圆润响亮的男声"
+        pace: "适中"
+        pitch: "中低音"
+    marksman:
+      display_name: "神射手"
+      tts:
+        delivery: "专注敏锐，对本领十分笃定"
+        timbre: "清晰锐利的男声"
+        pace: "适中"
+        pitch: "中音"
+    long_legged_man:
+      display_name: "长腿人"
+      tts:
+        delivery: "轻松自若，仿佛任何路程都不在话下"
+        timbre: "轻快开朗的男声"
+        pace: "稍快"
+        pitch: "中音"
+    king:
+      display_name: "国王"
+      tts:
+        delivery: "威严而狡猾，受挫时恼怒"
+        timbre: "洪亮厚重的成年男声"
+        pace: "适中"
+        pitch: "中低音"
+    underworld_ruler:
+      display_name: "冥界之王"
+      tts:
+        delivery: "沉静庄重，不疾不徐"
+        timbre: "幽深低沉的男声"
+        pace: "缓慢"
+        pitch: "低音"
+  chapters:
+    - id: ch01
+      title: "三兄弟造船"
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "很久以前，有个大富翁，膝下有三个儿子。临终前，他把钱财和土地平均分给三人。父亲去世不久，国王向全国宣布，谁能造出一艘既在海上航行、又在陆地行驶的船，谁就能娶公主为妻。"
+        - id: ch01-b02
+          speaker: eldest_brother
+          text: "我想拿些钱试着造那艘船。能让国王做岳父，倒是件美事。"
+        - id: ch01-b03
+          speaker: narrator
+          text: "大哥召来全国的造船匠，要他们立刻开工。树木一棵棵倒下，船坞里到处是忙碌的工匠，造船的声势十分浩大。没过几天，人人都知道他为何这样忙。一群想挣口饭吃的老人也赶来了。他们挤在船坞门口，而大哥一天里的大半时间都待在门里。"
+        - id: ch01-b04
+          speakers: [elder_1, elder_2, elder_3]
+          ensemble: chorus
+          text: "老爷，给我们一点活儿干吧，好让我们有饭吃。"
+        - id: ch01-b05
+          speaker: eldest_brother
+          text: "你们年纪大了，力气也没了，还能派什么用场？都走开！"
+          emotion: angry
+        - id: ch01-b06
+          speaker: narrator
+          text: "他把老人们赶走。几个男孩又来央求，希望也能帮忙。"
+        - id: ch01-b07
+          speakers: [boy_1, boy_2]
+          ensemble: duo
+          text: "老爷，也给我们一点活儿吧。"
+        - id: ch01-b08
+          speaker: eldest_brother
+          text: "就凭你们这些弱不禁风的小家伙，能做什么？快走！"
+          emotion: angry
+        - id: ch01-b09
+          speaker: narrator
+          text: "总之，不是熟练工匠，他一个也不收。最后，一个矮小的老人来敲门。他留着长长的白胡子，也只想靠干活挣口饭吃。可是大哥连一件小差事也不肯给他，照样把他赶了出去。"
+        - id: ch01-b10
+          speaker: hermit
+          text: "能给我一份差事，让我养活自己吗？"
+        - id: ch01-b11
+          speaker: narrator
+          text: "船造了很久，也花掉了许多钱。下水那天，狂风忽然卷来，把船吹得四分五裂，也吹碎了大哥迎娶公主的希望。这时他已经一文不剩，只好回去找两个弟弟，把整场失败从头说给他们听。二哥一边听，一边觉得哥哥实在无能，决定亲自试试，看自己能不能造得更好，把公主娶回来。"
+        - id: ch01-b12
+          speaker: second_brother
+          text: "他把事情办得太糟了。我一定能做得更好，把公主娶回来。"
+        - id: ch01-b13
+          speaker: narrator
+          text: "二哥也召集全国的造船匠，要他们造一艘海陆都能走的船。可他的心和哥哥一样硬。不会造船的人都挨了骂，被赶出船坞。白胡子老人最后赶来，也没得到一点好脸色。"
+        - id: ch01-b14
+          speaker: narrator
+          text: "新船终于完工了。下水时本来一切顺利，忽然一阵大风吹来，船猛撞在礁石上，碎成了木片。二哥把全部财产都投进了这艘船，如今钱和船一起没了。他无处可去，只得求小弟收留，再把自己的遭遇讲了一遍。小弟听完，心里盘算起来。"
+        - id: ch01-b15
+          speaker: youngest_brother
+          text: "我的钱养不起三个人。不如也轮到我试试。要是娶到公主，我们就能靠她的财产和我剩下的财产一起生活。"
+        - id: ch01-b16
+          speaker: narrator
+          text: "小弟召来王国里的所有造船匠，吩咐他们建造新船。老人们来求职，他笑着说，这里的活儿人人有份。男孩们央求让他们帮忙，他也没有嫌弃，而是仔细找出他们做得来的事。最后，白胡子老人站到他面前，再次问能不能靠劳动换口饭吃。"
+        - id: ch01-b17
+          speaker: youngest_brother
+          text: "老伯，我不忍心让您干重活。您来做监工，替我照看大家吧。"
+        - id: ch01-b18
+          speaker: narrator
+          text: "这位老人其实是个圣洁的隐士。他见青年心地善良，便决定尽全力帮他实现愿望。后来，船终于造好了。"
+        - id: ch01-b19
+          speaker: hermit
+          text: "这艘船在陆地和海上都能走。现在，你可以去向国王索要公主了。"
+        - id: ch01-b20
+          speaker: youngest_brother
+          text: "好老伯，您不会丢下我吧？请陪我一起去，带我拜见国王！"
+        - id: ch01-b21
+          speaker: hermit
+          text: "我可以去。不过，你得到的任何东西，都得分一半给我。"
+        - id: ch01-b22
+          speaker: youngest_brother
+          text: "如果只有这个条件，我当然答应！"
+        - id: ch01-b23
+          speaker: narrator
+          text: "于是，青年和隐士登上那艘奇船，一同出发。"
+    - id: ch02
+      title: "船上的奇人"
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "奇船走了一段路，他们看见一个人站在浓得看不清四周的雾里，正想把大片雾气都塞进一只口袋。青年从没见过这样的事，惊奇地问隐士，那个人究竟在做什么。隐士只叫他自己去问。"
+        - id: ch02-b02
+          speaker: youngest_brother
+          text: "好汉，你这是在做什么？"
+        - id: ch02-b03
+          speaker: fog_man
+          text: "我在把雾收进口袋，这就是我的本事。"
+        - id: ch02-b04
+          speaker: narrator
+          text: "隐士低声叫青年邀他同行。"
+        - id: ch02-b05
+          speaker: fog_man
+          text: "只要让我吃饱喝足，我很乐意跟你们走。"
+        - id: ch02-b06
+          speaker: narrator
+          text: "他们把装雾人接上船。船又开动时，青年高兴地说，出发时只有两个人，现在已经有三个了。"
+        - id: ch02-b07
+          speaker: narrator
+          text: "没走多远，他们又遇见一个人。那人竟拔掉了半座森林里的树，正把所有树木一起扛在肩头。青年看得目瞪口呆，不明白他为何要做这种事。隐士仍让青年亲口问问，那人为什么拔掉这么多树。"
+        - id: ch02-b08
+          speaker: strong_man
+          text: "这么点东西算什么？我不过随手捡了一小把柴。"
+        - id: ch02-b09
+          speaker: narrator
+          text: "隐士又叫青年请他上船。"
+        - id: ch02-b10
+          speaker: strong_man
+          text: "没问题，只要你们管够吃喝。"
+        - id: ch02-b11
+          speaker: narrator
+          text: "大力士上了船。青年数了数，告诉隐士，他们从三个变成了四个。"
+        - id: ch02-b12
+          speaker: narrator
+          text: "船又走了几英里。前方有个人伏在溪边喝水，竟把溪流喝得快见底了。青年从没见过这样的喝法，隐士还是让他问问缘故。"
+        - id: ch02-b13
+          speaker: drinker
+          text: "我只是喝了一口水，这有什么可奇怪的？"
+        - id: ch02-b14
+          speaker: narrator
+          text: "他一边说，一边从溪边站起身来。青年照隐士的意思请他同行，他痛快地答应了，条件仍是一路上有足够的吃喝。善饮人上船后，青年又悄悄告诉隐士，船上从四个人变成了五个。"
+        - id: ch02-b15
+          speaker: narrator
+          text: "前面不远处，还有个人站在溪水中央，朝水里射箭。青年不知道他在射什么，便照隐士的话开口询问。"
+        - id: ch02-b16
+          speaker: marksman
+          text: "嘘，小声点！你们把它吓跑了。冥界的一棵树上停着只鹌鹑，我正要射它呢。我瞄准什么，就能射中什么。"
+        - id: ch02-b17
+          speaker: narrator
+          text: "隐士让青年也邀请这位神射手。他听说一路有足够的吃喝，便满心欢喜地答应同行。众人把他接上船，青年低声数给隐士听，同行的人已经从五个变成了六个。"
+        - id: ch02-b18
+          speaker: narrator
+          text: "众人再次启程。不久，一个迈着大步的人迎面走来。他一步跨得那么远，一只脚在岛的北端，另一只脚已经到了南端。青年连声感叹他的步子大，隐士让他问问原因。"
+        - id: ch02-b19
+          speaker: long_legged_man
+          text: "我没有做什么，只是出来随便走几步。"
+        - id: ch02-b20
+          speaker: narrator
+          text: "隐士让青年邀请长腿人同行。长腿人同样答应上船，条件还是让他尽情吃喝。他说完便爬上船。青年又低声告诉隐士，他们已经从六个人变成了七个。隐士一直明白自己在做什么，也知道为何要把这些奇人带在身边。"
+    - id: ch03
+      title: "送往冥界的信"
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "许多天后，奇船终于来到国王与公主居住的城市，停在王宫门前。青年进宫，向国王深深行礼。"
+        - id: ch03-b02
+          speaker: youngest_brother
+          text: "陛下，我已经按您的命令造出一艘能走陆路、也能走海路的船。请兑现奖赏，让我娶公主为妻。"
+        - id: ch03-b03
+          speaker: narrator
+          text: "国王不愿兑现诺言。他暗自思量，自己对这个年轻人一无所知，连他是富是穷，是骑士还是乞丐都不知道，怎么能把女儿嫁给这样一个人？于是，他故意又添了一个条件。"
+        - id: ch03-b04
+          speaker: king
+          text: "只造出船还不够。你得找来一个飞毛腿，把我的信送给冥界之王，再在一个小时内带回答复。"
+        - id: ch03-b05
+          speaker: youngest_brother
+          text: "原先的告示里可没有这一条。"
+        - id: ch03-b06
+          speaker: king
+          text: "那就随你。做不到，你便娶不到我的女儿。"
+        - id: ch03-b07
+          speaker: narrator
+          text: "青年忧心忡忡地出来，把事情告诉隐士。"
+        - id: ch03-b08
+          speaker: hermit
+          text: "傻孩子，赶快答应。让长腿人送信，他转眼就能跑完这趟路。"
+        - id: ch03-b09
+          speaker: narrator
+          text: "青年听得心花怒放，立刻回去答复国王。"
+        - id: ch03-b10
+          speaker: youngest_brother
+          text: "陛下，我接受条件。这位信使会照您的要求办到。"
+        - id: ch03-b11
+          speaker: narrator
+          text: "国王只好把信交给长腿人。那人几步便跨过王宫与冥界之间的漫长路程，很快找到冥界之王。"
+        - id: ch03-b12
+          speaker: underworld_ruler
+          text: "请稍等一会儿，我这就写回信。"
+        - id: ch03-b13
+          speaker: narrator
+          text: "长腿人一路走得太快，实在累极了。等冥界之王写回信时，他竟沉沉睡去，把自己的差事忘得干干净净。另一边，青年一直焦急地数着分秒，双眼紧盯信使回来时必经的那条路。可是路上始终没有人影。眼看一个小时就要过去，他赶忙去问隐士。"
+        - id: ch03-b14
+          speaker: youngest_brother
+          text: "他怎么还没有回来？究竟是什么耽搁了他？"
+        - id: ch03-b15
+          speaker: narrator
+          text: "隐士找来神射手，要他看看信使为何迟迟不归。"
+        - id: ch03-b16
+          speaker: marksman
+          text: "他在冥界的宫殿里睡熟了。不过别担心，我能叫醒他。"
+        - id: ch03-b17
+          speaker: narrator
+          text: "神射手拉开弓，朝遥远的冥界射出一箭，正中长腿人的膝盖。信使吓得猛然惊醒，一看一个小时几乎已经用完，连忙抓起冥王写好的回信，拼命往回飞奔。他冲进王宫时，报时的钟声还没有敲响。"
+        - id: ch03-b18
+          speaker: narrator
+          text: "青年以为公主已非他莫属，国王却不肯认输。"
+        - id: ch03-b19
+          speaker: king
+          text: "你做的还不够。想娶我的女儿，就找一个人，在一天里喝掉我酒窖中一半的酒。"
+        - id: ch03-b20
+          speaker: youngest_brother
+          text: "这也不在原先的告示里。"
+        - id: ch03-b21
+          speaker: king
+          text: "随你怎么办。完不成，就别想娶我的女儿。"
+        - id: ch03-b22
+          speaker: narrator
+          text: "青年垂头丧气地出来，又向隐士求助。"
+        - id: ch03-b23
+          speaker: hermit
+          text: "傻孩子，让那个什么都喝得光的人去，不就行了吗？"
+        - id: ch03-b24
+          speaker: narrator
+          text: "众人叫来善饮人，问他能不能一天喝掉半座王家酒窖。"
+        - id: ch03-b25
+          speaker: drinker
+          text: "当然能！就算再多些也行，我从来不知道喝够是什么滋味。"
+        - id: ch03-b26
+          speaker: narrator
+          text: "国王见青年答应得如此痛快，心里很不高兴，却又无话可说，只能叫人把善饮人领到楼下的酒窖。那人可真是快活极了。他从早到晚喝了又喝，喝了又喝。到最后，他不但喝完了一半，还把整座酒窖喝得干干净净，所有酒桶全都空了。"
+    - id: ch04
+      title: "搬空王宫的嫁妆"
+      blocks:
+        - id: ch04-b01
+          speaker: king
+          text: "你赢了，我不能再扣住女儿。不过，她的嫁妆只能带走一个人搬得动的分量。"
+        - id: ch04-b02
+          speaker: youngest_brother
+          text: "一个人再有力气，最多也只能搬走一英担。给公主这么一点嫁妆，怎么说得过去？"
+        - id: ch04-b03
+          speaker: king
+          text: "我已经把话说清楚了。你爱怎么办就怎么办，那是你的事。"
+        - id: ch04-b04
+          speaker: narrator
+          text: "青年犯了难。他就算得不到半个钱，也愿意娶公主。可他的钱全花在造船上，两个哥哥也已经一无所有。他实在无力供给公主所需的一切，只好再去找隐士。"
+        - id: ch04-b05
+          speaker: youngest_brother
+          text: "国王只让一个人搬走公主的嫁妆。我的钱全用光了，两个哥哥也什么都没有。"
+        - id: ch04-b06
+          speaker: hermit
+          text: "傻孩子，把那个扛起半座森林的人叫来，这不就解决了吗？"
+        - id: ch04-b07
+          speaker: narrator
+          text: "青年大喜，连忙找来大力士。"
+        - id: ch04-b08
+          speaker: youngest_brother
+          text: "你能拿多少就拿多少，就算压弯了腰也别停。哪怕把王宫搬空，也不必客气。"
+        - id: ch04-b09
+          speaker: narrator
+          text: "大力士答应了，也果真说到做到。他把眼前能看见的东西全往背上堆，椅子、桌子、衣柜，还有一箱箱金银，一件也不放过。等宫里再没有东西可加时，他又取下国王的王冠，放在重担的最高处。随后，他把这一切稳稳扛到船上，将财宝收好。青年牵着国王的女儿，也跟在后面登了船。"
+        - id: ch04-b10
+          speaker: narrator
+          text: "国王独自留在空荡荡的宫殿里，气得暴跳如雷。他召集军队，备好战船，要把青年追回来，夺回所有被带走的东西。王家战船速度飞快，没过多久便追上那艘小船，船上的水手一齐欢呼。隐士探头一看，追兵已近在眼前。"
+        - id: ch04-b11
+          speaker: hermit
+          text: "你看见后面那些船了吗？"
+        - id: ch04-b12
+          speaker: youngest_brother
+          text: "啊，好老伯，是国王的舰队！他们在追我们，马上就要赶上了！"
+          emotion: fearful
+        - id: ch04-b13
+          speaker: narrator
+          text: "隐士叫他把装雾人请来。口袋一打开，浓雾立刻涌出，把国王的舰队严严实实地围住。追兵什么也看不见，只得驶回王宫，把这件怪事报告给国王。青年的船则平安回到了家乡。"
+    - id: ch05
+      title: "最后一半"
+      blocks:
+        - id: ch05-b01
+          speaker: hermit
+          text: "你总算平安回来了。现在，该履行诺言，把所得的一半分给我。"
+        - id: ch05-b02
+          speaker: youngest_brother
+          text: "我心甘情愿。"
+        - id: ch05-b03
+          speaker: narrator
+          text: "青年立刻动手分起所有财宝。他把每一样东西分开，一份留给自己，另一份放在旁边留给帮助过他的朋友。分了许久，最后一件财宝也各归一边，他才告诉隐士，一切都已经分好，再也没有什么可以分了。"
+        - id: ch05-b04
+          speaker: hermit
+          text: "没有了？你忘了最珍贵的那一样！"
+          emotion: surprised
+        - id: ch05-b05
+          speaker: youngest_brother
+          text: "还会是什么？我们明明把一切都分完了。"
+        - id: ch05-b06
+          speaker: hermit
+          text: "国王的女儿呢？"
+        - id: ch05-b07
+          speaker: narrator
+          text: "青年的心仿佛停止了跳动。他深爱公主，可自己发过誓。"
+        - id: ch05-b08
+          speaker: youngest_brother
+          text: "好吧。我既然许下诺言，就一定遵守。"
+        - id: ch05-b09
+          speaker: narrator
+          text: "他拔出剑来，要把公主劈成两半。隐士见青年把信义看得比妻子还重，立刻抬手阻止。"
+        - id: ch05-b10
+          speaker: hermit
+          text: "住手！公主是你的，所有财宝也都归你。我肯帮助你，是因为你怜悯身陷困苦的人。以后你若遇到难处，只要呼唤我，我一定会来。"
+        - id: ch05-b11
+          speaker: narrator
+          text: "隐士说完，轻轻碰了碰青年和公主的头，随即消失了。第二天，两人举行婚礼。青年的两个哥哥也来到弟弟家中。此后，大家一直幸福地生活在一起，却从未忘记那位待他们如此亲厚的圣洁隐士。"

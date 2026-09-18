@@ -1,0 +1,168 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容而清醒，带一点克制的诙谐
+        timbre: 温厚清晰
+        pace: 舒缓有致
+        pitch: 中低
+    granny:
+      display_name: 南希奶奶
+      tts:
+        delivery: 老练强硬，话里带着不容置疑的威势
+        timbre: 苍老低沉
+        pace: 稍慢
+        pitch: 低
+    nancy:
+      display_name: 南希仙女
+      tts:
+        delivery: 温柔克制，受惊时声音轻而紧
+        timbre: 清澈柔和
+        pace: 中等
+        pitch: 中高
+    royal_servant:
+      display_name: 国王的仆人
+      tts:
+        delivery: 恭敬明快，见闻新奇时略显兴奋
+        timbre: 朴实清亮
+        pace: 中等
+        pitch: 中
+    jealous_maid:
+      display_name: 女仆
+      tts:
+        delivery: 尖刻笃定，嫉妒藏在冷硬的语气里
+        timbre: 清脆偏冷
+        pace: 稍快
+        pitch: 中高
+    onlooker_1:
+      display_name: 看客甲
+      tts:
+        delivery: 直率好奇，随众而应
+        timbre: 明亮朴素
+        pace: 中等
+        pitch: 中
+    onlooker_2:
+      display_name: 看客乙
+      tts:
+        delivery: 直率好奇，随众而应
+        timbre: 温和清楚
+        pace: 中等
+        pitch: 中高
+    onlooker_3:
+      display_name: 看客丙
+      tts:
+        delivery: 直率好奇，随众而应
+        timbre: 厚实清楚
+        pace: 中等
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 女巫与她的女儿
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个老婆婆，人称南希仙女。她是个女巫，专偷刚出生的婴儿来吃。
+        - id: ch01-b02
+          speaker: narrator
+          text: 有一天，她偷来一个女婴。孩子美得让她不忍下口，她便带回家养大，叫作女儿，也给她取名南希仙女。小姑娘则叫她奶奶。
+        - id: ch01-b03
+          speaker: narrator
+          text: 小姑娘越长越美。老婆婆一直瞒着她，不让她知道自己的勾当。
+        - id: ch01-b04
+          speaker: narrator
+          text: 可有一回，老婆婆带回一个婴儿，把房门反锁起来。姑娘凑到门缝前偷看。老婆婆瞧见她的影子，以为女儿看见了一切。姑娘也以为奶奶发现了自己，怕极了。
+        - id: ch01-b05
+          speaker: granny
+          text: 南希仙女，你刚才看见我在做什么了吗？
+        - id: ch01-b06
+          speaker: nancy
+          text: 我什么也没看见，奶奶。
+          emotion: fearful
+        - id: ch01-b07
+          speaker: narrator
+          text: 老婆婆一遍又一遍地追问。
+        - id: ch01-b08
+          speaker: granny
+          text: 南希仙女，你真的没看见我在做什么？
+        - id: ch01-b09
+          speaker: nancy
+          text: 没有，奶奶，我没看见。
+          emotion: fearful
+        - id: ch01-b10
+          speaker: narrator
+          text: 姑娘每次都这样回答。老婆婆便把她留在林中小屋里受罚，不过每天仍给她送食物。
+    - id: ch02
+      title: 林中姑娘成了新娘
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 一天，国王的仆人路过林子，正巧看见美丽的姑娘走出小屋。第二天，他又去一趟，果然再次见到她。仆人回去便告诉了王子。
+        - id: ch02-b02
+          speaker: royal_servant
+          text: 殿下，我能带您去林子里看一位姑娘。她比我这辈子见过的所有女子都美。
+        - id: ch02-b03
+          speaker: narrator
+          text: 王子跟他去了树林，见到姑娘后，便派一队士兵把她接回宫中，娶作新娘。
+    - id: ch03
+      title: 两个孩子失踪了
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 一年后，姑娘生下一个孩子。士兵守着宫门，房里还有许多乳母。半夜，老婆婆却乘着旋风闯进来，让所有人沉沉睡去，抱走了孩子。
+        - id: ch03-b02
+          speaker: narrator
+          text: 临走前，她又打了母亲的嘴，那一巴掌让母亲再也说不出话。
+        - id: ch03-b03
+          speaker: narrator
+          text: 第二天早晨，宫里乱了。人们找不到孩子，便说是母亲吃了孩子。她因此受审，不过这一次获释了。
+        - id: ch03-b04
+          speaker: narrator
+          text: 又过一年，她生下第二个孩子。同样的事再次发生。半夜，老婆婆又乘旋风进来，让所有人沉睡，抱走孩子。这回，她还把母亲的嘴打得鲜血直流。
+        - id: ch03-b05
+          speaker: narrator
+          text: 天亮后，宫里又闹开了。嫉妒她的女仆看见那满嘴鲜血，立刻指控她。
+        - id: ch03-b06
+          speaker: jealous_maid
+          text: 孩子就是她吃的。瞧，她嘴上还全是血呢！
+        - id: ch03-b07
+          speaker: narrator
+          text: 大家都信了。从树林里带回来的姑娘，他们还能指望她是什么人呢？她再次受审，这回被判了绞刑。
+    - id: ch04
+      title: 金马车来到刑场
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 王宫向各位达官贵人发出请帖，请他们前来观看行刑。那一天，一辆辆华丽的马车接连驶来。眼看行刑的时刻就要到了，最后又来了一辆气派非凡的马车。整辆车都用黄金打造，在太阳底下闪闪发亮。
+        - id: ch04-b02
+          speaker: narrator
+          text: 车里坐着老婆婆，还有两个身穿华服的孩子。他们的衣服上，都佩着国王的星章。王后看到那辆金马车，失去的声音忽然回来了。她当场唱了起来。
+        - id: ch04-b03
+          speaker: nancy
+          text: 请先饶我片刻，让我看一看那辆华丽的马车。
+        - id: ch04-b04
+          speaker: narrator
+          text: 老婆婆让马车驶进院子，随后问在场的人，这两个孩子长得像不像他们认识的谁。
+        - id: ch04-b05
+          speakers: [onlooker_1, onlooker_2, onlooker_3]
+          ensemble: chorus
+          text: 他们长得像王子！
+        - id: ch04-b06
+          speaker: narrator
+          text: 人们追问她是从哪儿得到孩子的，还一口咬定孩子是她偷来的。
+        - id: ch04-b07
+          speaker: granny
+          text: 我没有偷他们，只是把他们带走了。这两个孩子本来也是我的。王子没问过我，就带走了我的女儿，所以我也带走了他的孩子。只要你们承认我做得有理，我就把孩子还回来。
+    - id: ch05
+      title: 孩子归来
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 众人答应了老婆婆的条件。她把两个孩子还给王子和王后，还把那辆华丽的金马车也送给了他们。
+        - id: ch05-b02
+          speaker: narrator
+          text: 从此，他们一家过上了幸福的日子。老婆婆想什么时候来看孩子，都可以来看。
+        - id: ch05-b03
+          speaker: narrator
+          text: 至于那个诬称王后吃掉亲生孩子的女仆，最后却被绞死了。

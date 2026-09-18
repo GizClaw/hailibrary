@@ -1,0 +1,168 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容而清醒，带一点克制的诙谐
+        timbre: 温厚清晰
+        pace: 舒缓有致
+        pitch: 中低
+    farmer:
+      display_name: 父亲
+      tts:
+        delivery: 疲惫严厉，说起年轻时仍有几分硬气
+        timbre: 苍老浑厚
+        pace: 中等
+        pitch: 中低
+    eldest_son:
+      display_name: 大儿子
+      tts:
+        delivery: 懒散胆怯，受惊后气息急促
+        timbre: 年轻粗实
+        pace: 中等
+        pitch: 中
+    second_son:
+      display_name: 二儿子
+      tts:
+        delivery: 嘴上逞强，遇险时慌乱畏缩
+        timbre: 年轻清晰
+        pace: 中等
+        pitch: 中
+    boots:
+      display_name: 灰小子
+      tts:
+        delivery: 沉着机灵，吓唬人时干脆有力
+        timbre: 年轻明亮
+        pace: 中等偏快
+        pitch: 中
+    hill_man:
+      display_name: 山怪
+      tts:
+        delivery: 粗暴多疑，得意时笨拙，发怒时震耳欲聋
+        timbre: 低沉粗粝
+        pace: 中等
+        pitch: 低
+  chapters:
+    - id: ch01
+      title: 两个哥哥进树林
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个年老体弱的庄稼汉，膝下有三个儿子。家里穷，欠着债，三个儿子却什么活也不肯干。好在农庄还有一大片树林。一天，父亲叫儿子们去砍木头，卖了钱也好还掉些债。可他费了半天口舌，才总算说动他们。
+        - id: ch01-b02
+          speaker: narrator
+          text: 老大先出了门。他走进树林深处，对准一棵长满苔藓的老冷杉，刚动手砍，一个身高体壮的大山怪就迎面走来。
+        - id: ch01-b03
+          speaker: hill_man
+          text: 你敢在我的林子里砍树，我就杀了你！
+        - id: ch01-b04
+          speaker: narrator
+          text: 老大扔下斧头，撒腿就跑。他一路逃回家，累得上气不接下气，这才把遇见山怪的事说了出来。
+        - id: ch01-b05
+          speaker: farmer
+          text: 你这个兔子胆！我年轻的时候，可不会叫一个山怪吓得连树也不敢砍。
+          emotion: angry
+        - id: ch01-b06
+          speaker: narrator
+          text: 第二天，轮到二儿子去。他也来到那棵冷杉前，斧头才砍下三次，山怪又出现了。
+        - id: ch01-b07
+          speaker: hill_man
+          text: 你敢在我的林子里砍树，我就杀了你！
+        - id: ch01-b08
+          speaker: narrator
+          text: 二儿子连山怪的脸都不敢看。他把斧头一扔，也飞跑回家。父亲见了，又气得骂起来。
+        - id: ch01-b09
+          speaker: farmer
+          text: 我年轻的时候，从来没让山怪吓跑过！
+          emotion: angry
+    - id: ch02
+      title: 灰小子的白石头
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 第三天，灰小子说，他也想进树林试试。两个哥哥听了，立刻嘲笑他。
+        - id: ch02-b02
+          speakers: [eldest_son, second_son]
+          ensemble: duo
+          text: 就凭你？那你准能干得漂亮！你连家门都没怎么出过呢。
+        - id: ch02-b03
+          speaker: narrator
+          text: 灰小子没有还嘴，只请家里多预备些吃的。母亲没有现成的奶酪，便架起锅，临时给他做了一小块。灰小子把奶酪塞进挎袋，带上斧头出了门。
+        - id: ch02-b04
+          speaker: narrator
+          text: 他走进树林，才砍了一会儿，山怪果然又来了。
+        - id: ch02-b05
+          speaker: hill_man
+          text: 你敢在我的林子里砍树，我就杀了你！
+        - id: ch02-b06
+          speaker: narrator
+          text: 灰小子一点也不慌。他飞快掏出奶酪，使劲一捏，白色的乳清顿时喷了出来。
+        - id: ch02-b07
+          speaker: boots
+          text: 闭嘴！你再吓唬我，我就像挤干这块白石头一样，把你也挤干！
+        - id: ch02-b08
+          speaker: hill_man
+          text: 别动手，亲爱的朋友！只要你饶了我，我就帮你砍树。
+          emotion: fearful
+        - id: ch02-b09
+          speaker: narrator
+          text: 灰小子答应放过他。山怪马上卖力地干了起来。整整一天，他们砍倒又劈好了许多木材，堆起来足有好几寻长。
+        - id: ch02-b10
+          speaker: narrator
+          text: 眼看天色渐晚，山怪开口了。
+        - id: ch02-b11
+          speaker: hill_man
+          text: 今晚跟我回家吧。我家离这里比你家近。
+    - id: ch03
+      title: 搬走整眼泉水
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 灰小子痛快地跟着去了。到了山怪家，他们要生火煮粥。山怪留下来架柴，灰小子出去打水，可门边那两只铁桶又大又沉，他拼尽力气，也不能把桶提离地面。
+        - id: ch03-b02
+          speaker: boots
+          text: 呸，这种小水盆不值得我动手。我还是把整眼泉水搬回来吧。
+        - id: ch03-b03
+          speaker: hill_man
+          text: 别，别，亲爱的朋友！你可不能把我的泉水搬走。你来生火，我自己去打水。
+          emotion: fearful
+        - id: ch03-b04
+          speaker: narrator
+          text: 山怪只好亲自提着两只大铁桶去打水。等他回来，他们架起大锅，煮了满满一锅粥。
+        - id: ch03-b05
+          speaker: boots
+          text: 我怎么吃都行。不过你要是愿意，咱们来比一场，看谁吃得多。
+        - id: ch03-b06
+          speaker: hill_man
+          text: 好啊，我正巴不得呢！
+        - id: ch03-b07
+          speaker: narrator
+          text: 山怪心想，论饭量，自己肯定不会输。于是两人坐到锅边，拿起勺子吃了起来。
+    - id: ch04
+      title: 谁吃得更多
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 山怪只顾着大口吞粥，没有发现灰小子偷偷把挎袋挂在身前。灰小子每舀一勺，倒进袋里的比吃进嘴里的还多。袋子装满以后，他又掏出刀，在袋底划开一道口子。山怪一直看着，却什么也没说。
+        - id: ch04-b02
+          speaker: narrator
+          text: 两人接着吃了好一阵。终于，山怪放下勺子，再也撑不住了。
+        - id: ch04-b03
+          speaker: hill_man
+          text: 不成了！我一口也吃不下了。
+        - id: ch04-b04
+          speaker: boots
+          text: 你还得吃，我才吃到一半呢。你怎么不学我，在肚皮上割个口子？那样你想吃多少，就能吃多少。
+        - id: ch04-b05
+          speaker: hill_man
+          text: 可那不会疼得要命吗？
+        - id: ch04-b06
+          speaker: boots
+          text: 嗨，那点疼根本不算什么。
+        - id: ch04-b07
+          speaker: narrator
+          text: 山怪信以为真，照着灰小子的话，在自己的肚皮上割了一刀。你自然明白，他就这样丢了性命。
+        - id: ch04-b08
+          speaker: narrator
+          text: 灰小子走进山腹，把找到的金银全都带回了家。那些财宝可帮了大忙，足够他们还掉一大笔债了。

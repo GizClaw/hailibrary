@@ -1,0 +1,108 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and lively storytelling
+        timbre: clear and gently rustic
+        pace: measured
+        pitch: medium
+    unc_billy:
+      display_name: Unc' Billy Possum
+      tts:
+        delivery: easygoing and expressive with a gentle Southern flavor
+        timbre: warm and slightly raspy
+        pace: relaxed
+        pitch: medium-low
+    happy_jack:
+      display_name: Happy Jack Squirrel
+      tts:
+        delivery: quick and lively with bright, direct expression
+        timbre: clear and youthful
+        pace: brisk
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: "A Startling Meeting"
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Imagine rushing into your own storehouse, sure that it is empty, and bumping straight into someone sleeping there as if the place belonged to him. That would startle anyone. It might even make anyone lose his temper. It certainly made Happy Jack Squirrel lose his.
+        - id: ch01-b02
+          speaker: narrator
+          text: But imagine the other side, too. Unc' Billy Possum had been dreaming pleasantly of warm summer days. Then someone suddenly jumped right on him and woke him. That was enough to make him lose his temper, and he did.
+        - id: ch01-b03
+          speaker: narrator
+          text: Happy Jack went out and sat on a branch beside the hollow in the tree, where he had made his old storehouse. He scolded Unc' Billy and called him names. With every angry word, his tail gave another sharp jerk.
+        - id: ch01-b04
+          speaker: narrator
+          text: Unc' Billy stayed in the doorway of the hollow tree. He bared his teeth at Happy Jack and answered with unpleasant words of his own. The way those two talked to each other was dreadful.
+    - id: ch02
+      title: "The Quarrel Melts Away"
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Now, Unc' Billy Possum was really very good-natured. Once he got over the fright Happy Jack had given him, he began to understand what had happened. This hollow was one of Happy Jack's storehouses. As soon as Billy realized that, all his anger disappeared. Before long, he was grinning. Then he began to laugh.
+        - id: ch02-b02
+          speaker: narrator
+          text: It always takes two to keep a quarrel going. Staying cross is one of the hardest things in the world when the other fellow refuses to stay cross with you. Happy Jack tried his best to hold on to his anger. But whenever he saw the twinkle in Unc' Billy's eyes and that great wide grin, a little more of his temper slipped away. Soon Happy Jack was laughing every bit as hard as Billy.
+        - id: ch02-b03
+          speakers: [happy_jack, unc_billy]
+          ensemble: duo
+          text: Ho, ho, ho! Ha, ha, ha!
+          emotion: happy
+        - id: ch02-b04
+          speaker: narrator
+          text: At last, they had to stop and catch their breath.
+        - id: ch02-b05
+          speaker: happy_jack
+          text: Unc' Billy, what were you doing in my storehouse?
+    - id: ch03
+      title: "The Trouble with Tracks"
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Unc' Billy explained the whole thing. He had climbed into this tree from another tree so that he would leave no tracks in the snow for Farmer Brown's boy to follow.
+        - id: ch03-b02
+          speaker: unc_billy
+          text: But now Ah want to get back to mah own home in that big holler tree, way down in the Green Forest. Ah can't go, though. If Ah do, mah tracks will show in the snow.
+          emotion: sad
+        - id: ch03-b03
+          speaker: narrator
+          text: Happy Jack tipped his head to one side and thought as hard as he could.
+        - id: ch03-b04
+          speaker: happy_jack
+          text: Then why not stay right here until the snow is gone, Unc' Billy?
+        - id: ch03-b05
+          speaker: unc_billy
+          text: Because Ah reckon mah ol' woman is worried nearly to death about me.
+          emotion: sad
+        - id: ch03-b06
+          speaker: unc_billy
+          text: And besides, Ah've just discovered that this mighty nice little house belongs to one of mah neighbors.
+        - id: ch03-b07
+          speaker: narrator
+          text: A twinkle came into Unc' Billy's eyes as he said it.
+    - id: ch04
+      title: "Happy Jack Carries the Message"
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Happy Jack laughed.
+        - id: ch04-b02
+          speaker: happy_jack
+          text: You may stay here for as long as you want, Unc' Billy. You'd better stay right where you are. I'll go and tell old Mrs. Possum where to find you.
+        - id: ch04-b03
+          speaker: unc_billy
+          text: Thank yo'! Thank yo'! That's mighty kind of yo', Brer Squirrel. Yo' will be a great help. Yo' have taken a heavy worry right off mah mind.
+          emotion: happy
+        - id: ch04-b04
+          speaker: happy_jack
+          text: Don't mention it, Unc' Billy!
+        - id: ch04-b05
+          speaker: narrator
+          text: Happy Jack started off to carry the message to old Mrs. Possum. As he scampered through the snow, he spoke a little rhyme to himself.
+        - id: ch04-b06
+          speaker: happy_jack
+          text: Getting yourself into trouble is a very easy thing. And trouble always brings your friends some worrying. But getting out of trouble doesn't work the same old way. The harder that you wriggle, the longer you may stay.

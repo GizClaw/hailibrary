@@ -1,0 +1,312 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried
+        timbre: clear and story-rich
+        pace: measured
+        pitch: medium
+    princess:
+      display_name: The Princess
+      tts:
+        delivery: gentle and steadfast
+        timbre: soft and clear
+        pace: measured
+        pitch: medium-high
+    old_queen:
+      display_name: The Old Queen
+      tts:
+        delivery: loving and solemn
+        timbre: warm and mature
+        pace: unhurried
+        pitch: medium-low
+    waiting_maid:
+      display_name: The Waiting-Maid
+      tts:
+        delivery: haughty and forceful
+        timbre: sharp and clear
+        pace: deliberate
+        pitch: medium
+    blood_drop_1:
+      display_name: First Drop of Blood
+      tts:
+        delivery: mournful and mysterious
+        timbre: light and resonant
+        pace: measured
+        pitch: high
+    blood_drop_2:
+      display_name: Second Drop of Blood
+      tts:
+        delivery: mournful and mysterious
+        timbre: soft and resonant
+        pace: measured
+        pitch: medium-high
+    blood_drop_3:
+      display_name: Third Drop of Blood
+      tts:
+        delivery: mournful and mysterious
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    falada:
+      display_name: Falada
+      tts:
+        delivery: faithful and grave
+        timbre: deep and resonant
+        pace: slow
+        pitch: low
+    prince:
+      display_name: The Prince
+      tts:
+        delivery: sincere and courtly
+        timbre: youthful and clear
+        pace: measured
+        pitch: medium-low
+    old_king:
+      display_name: The Old King
+      tts:
+        delivery: observant and authoritative
+        timbre: aged and steady
+        pace: deliberate
+        pitch: low
+    curdken:
+      display_name: Curdken
+      tts:
+        delivery: lively and petulant
+        timbre: youthful and bright
+        pace: quick
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: The Queen's Farewell
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was an old queen whose husband had been dead for many years. She had a beautiful daughter, and when the Princess grew up, she was promised in marriage to a prince who lived far away. At last the day came for her to leave for his foreign kingdom.
+        - id: ch01-b02
+          speaker: narrator
+          text: The Queen loved her daughter dearly. She packed everything a royal bride might need for the long journey ahead, with costly baggage, ornaments of gold and silver, and all kinds of precious trinkets. She also sent a waiting-maid to ride beside the Princess and deliver her safely to the bridegroom. Each young woman had a horse. The Princess rode Falada, who could speak.
+        - id: ch01-b03
+          speaker: narrator
+          text: Just before they left, the Queen went into her bedroom. She cut her fingers with a little knife and held a white cloth beneath them. Three drops of blood fell onto it. Then she gave the cloth to her daughter.
+        - id: ch01-b04
+          speaker: old_queen
+          text: Dear child, guard this cloth carefully. You may need it on your journey.
+        - id: ch01-b05
+          speaker: narrator
+          text: Mother and daughter said a sorrowful goodbye. The Princess tucked the cloth into the front of her dress, mounted Falada, and set out with the maid toward the prince's kingdom.
+    - id: ch02
+      title: The Road and the Stream
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: They had ridden for about an hour when the Princess became very thirsty. A stream ran nearby, and she turned to her waiting-maid.
+        - id: ch02-b02
+          speaker: princess
+          text: Please get down and bring me some water from that stream in my golden cup. I would like a drink.
+        - id: ch02-b03
+          speaker: waiting_maid
+          text: If you are thirsty, get down yourself. Lie beside the stream and drink. I will not serve you anymore.
+        - id: ch02-b04
+          speaker: narrator
+          text: The Princess was so thirsty that she dismounted, bent over the stream, and drank straight from the water. The maid would not let her use the golden cup.
+        - id: ch02-b05
+          speaker: princess
+          text: Oh, heaven, what can I do?
+        - id: ch02-b06
+          speakers: [blood_drop_1, blood_drop_2, blood_drop_3]
+          ensemble: chorus
+          text: If your mother only knew, her heart would surely break in two.
+          emotion: sad
+        - id: ch02-b07
+          speaker: narrator
+          text: The Princess was meek. She said nothing about the maid's cruelty and quietly mounted Falada again. They rode for several miles beneath a fierce sun. Before long, the heat made the Princess desperately thirsty once more. When they came to a brook, she asked the maid again, for she had put the earlier insult out of her mind.
+        - id: ch02-b08
+          speaker: princess
+          text: Please get down and give me a drink from my golden cup.
+        - id: ch02-b09
+          speaker: waiting_maid
+          text: If you want water, climb down and get it yourself. I told you, I will not be your servant.
+        - id: ch02-b10
+          speaker: narrator
+          text: Thirst forced the Princess from her horse. She leaned over the flowing water, crying as she drank.
+        - id: ch02-b11
+          speaker: princess
+          text: Oh, heaven, what can I do?
+        - id: ch02-b12
+          speakers: [blood_drop_1, blood_drop_2, blood_drop_3]
+          ensemble: chorus
+          text: If your mother only knew, her heart would surely break in two.
+          emotion: sad
+        - id: ch02-b13
+          speaker: narrator
+          text: As the Princess bent low, the cloth with the three drops of blood slipped from her dress and floated away. She was too troubled to notice. But the waiting-maid saw it go and was delighted. She knew the Princess had lost her protection and had become weak and powerless.
+        - id: ch02-b14
+          speaker: narrator
+          text: When the Princess tried to mount Falada, the maid stopped her.
+        - id: ch02-b15
+          speaker: waiting_maid
+          text: I will ride Falada now. You can take my horse.
+        - id: ch02-b16
+          speaker: narrator
+          text: The Princess had to obey. Then the maid harshly ordered her to remove her royal clothes and put on the maid's common dress. At last she made the Princess swear by heaven that she would tell no one what had happened when they reached the palace. If the Princess refused, the maid would kill her there and then. So the Princess took the oath. Falada saw everything and remembered it all.
+    - id: ch03
+      title: The False Bride
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The waiting-maid rode Falada from then on, while the true bride took the poorer horse. They continued along the road until at last they reached the palace courtyard. Everyone rejoiced at their arrival. The Prince hurried forward to welcome them. He mistook the maid for his bride, lifted her from Falada, and led her upstairs to the royal chamber. No one paid attention to the real Princess, who remained standing alone below in the courtyard.
+        - id: ch03-b02
+          speaker: narrator
+          text: The old King was looking down from his window and saw her in that unhappy position. Even in her servant's clothes, she looked so gentle, sweet, and beautiful that he wondered who she could be. He went upstairs at once and asked the supposed bride about her.
+        - id: ch03-b03
+          speaker: old_king
+          text: Who is the girl you brought here and left standing in the courtyard?
+        - id: ch03-b04
+          speaker: waiting_maid
+          text: She traveled with me for company. Give her some work so she will not sit idle.
+        - id: ch03-b05
+          speaker: narrator
+          text: The King could think of no work for her at first. Then he remembered a young boy named Curdken, who watched the geese.
+        - id: ch03-b06
+          speaker: old_king
+          text: She can help the boy who tends my geese.
+        - id: ch03-b07
+          speaker: narrator
+          text: And so the true bride became a goose-girl. Soon afterward, the false bride asked the Prince for a favor.
+        - id: ch03-b08
+          speaker: waiting_maid
+          text: Dear husband, will you grant me one request?
+        - id: ch03-b09
+          speaker: prince
+          text: Of course I will.
+        - id: ch03-b10
+          speaker: waiting_maid
+          text: Have the slaughterer cut off the head of the horse I rode here. It behaved very badly during our journey.
+        - id: ch03-b11
+          speaker: narrator
+          text: In truth, the false bride feared Falada might speak and reveal what she had done. She got her way, and the faithful horse was condemned to die.
+        - id: ch03-b12
+          speaker: narrator
+          text: When the Princess heard the news, she secretly offered the slaughterer a gold coin. There was a great dark gate in town, and she passed through it with the geese every morning and evening. She asked him to hang Falada's head above that gate, so she might see it again. He agreed. After killing Falada, he fastened the head firmly over the gateway.
+    - id: ch04
+      title: The Goose-Girl and Falada
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Early the next morning, the Princess and Curdken drove the flock beneath the dark gate. As she passed under Falada's head, she looked up and spoke.
+        - id: ch04-b02
+          speaker: princess
+          text: Oh, Falada, is that you hanging there?
+          emotion: sad
+        - id: ch04-b03
+          speaker: falada
+          text: It is you who passes under, Princess fair. If your mother only knew, her heart would surely break in two.
+          emotion: sad
+        - id: ch04-b04
+          speaker: narrator
+          text: They left the gate and drove the geese out to the common. There the Princess sat down and let loose her hair. It was pure gold and glittered in the sunlight. Curdken loved to watch it shine, and he wanted to pull out a strand. Before he could, the Princess called to the wind.
+        - id: ch04-b05
+          speaker: princess
+          text: Wind, wind, gently sway. Blow Curdken's hat away. Make him chase through field and wold, till these locks of ruddy gold, hanging loose and straying down, are combed and braided in a crown.
+        - id: ch04-b06
+          speaker: narrator
+          text: A gust caught Curdken's hat and sent it flying over hill and field. He had to run after it. By the time he returned, the Princess had finished combing and braiding her hair, and his chance to snatch any was gone. Curdken was so angry that he would not speak to her. They watched the geese until evening, then went home.
+        - id: ch04-b07
+          speaker: narrator
+          text: The next morning, they passed beneath the gate again.
+        - id: ch04-b08
+          speaker: princess
+          text: Oh, Falada, is that you hanging there?
+          emotion: sad
+        - id: ch04-b09
+          speaker: falada
+          text: It is you who passes under, Princess fair. If your mother only knew, her heart would surely break in two.
+          emotion: sad
+        - id: ch04-b10
+          speaker: narrator
+          text: Out on the common, the Princess began to comb her hair. Curdken ran up and reached for the golden locks, but she quickly called out.
+        - id: ch04-b11
+          speaker: princess
+          text: Wind, wind, gently sway. Blow Curdken's hat away. Make him chase through field and wold, till these locks of ruddy gold, hanging loose and straying down, are combed and braided in a crown.
+        - id: ch04-b12
+          speaker: narrator
+          text: The wind swept his hat far away, and off he ran. When he came back, her golden hair had long been neatly put up, and he could not take a strand. They tended the geese until dark.
+        - id: ch04-b13
+          speaker: narrator
+          text: That evening, Curdken went straight to the old King.
+        - id: ch04-b14
+          speaker: curdken
+          text: I will not herd geese with that girl anymore.
+          emotion: angry
+        - id: ch04-b15
+          speaker: old_king
+          text: Why not?
+        - id: ch04-b16
+          speaker: curdken
+          text: Because she bothers me all day long! Every morning, under the dark gate, she speaks to the horse's head on the wall. She says, "Oh, Falada, is that you hanging there?" Then the head calls her a princess and says her mother's heart would break if she knew. And out on the common, whenever I try to take a strand of her hair, she calls the wind and sends my hat flying. I always have to chase it.
+          emotion: angry
+    - id: ch05
+      title: The Secret in the Iron Stove
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: The King told Curdken to take the flock out as usual the next day. In the morning, the King hid behind the dark gate and heard the goose-girl greet Falada. Then he followed them across the field and concealed himself behind a bush on the common.
+        - id: ch05-b02
+          speaker: narrator
+          text: He watched the two young herders with his own eyes. After a while, the maiden sat down and loosened her hair, which glittered like gold. Then she spoke to the wind.
+        - id: ch05-b03
+          speaker: princess
+          text: Wind, wind, gently sway. Blow Curdken's hat away. Make him chase through field and wold, till these locks of ruddy gold, hanging loose and straying down, are combed and braided in a crown.
+        - id: ch05-b04
+          speaker: narrator
+          text: A gust carried Curdken's hat away, and he raced over hill and field after it. Meanwhile, the Princess quietly combed and braided her hair. The King saw it all and returned to the palace without being noticed.
+        - id: ch05-b05
+          speaker: narrator
+          text: When the goose-girl came home that evening, the King called her aside and asked why she did these strange things.
+        - id: ch05-b06
+          speaker: princess
+          text: I cannot tell you. How could I share my sorrow with anyone? I swore by heaven to keep silent, or I would have lost my life.
+          emotion: fearful
+        - id: ch05-b07
+          speaker: narrator
+          text: The King pleaded with her and would not leave the matter alone, but she still revealed nothing. At last he pointed to the iron stove.
+        - id: ch05-b08
+          speaker: old_king
+          text: If you will not tell me, then tell your troubles to that iron stove.
+        - id: ch05-b09
+          speaker: narrator
+          text: He left the room. The Princess crept to the stove, sobbing, and poured out her heart.
+        - id: ch05-b10
+          speaker: princess
+          text: Here I sit, abandoned by everyone, though I am a king's daughter. A false waiting-maid forced me to remove my royal clothes. She took my place beside my bridegroom, and now I must do the humble work of a goose-girl. If my mother only knew, her heart would surely break in two.
+          emotion: sad
+        - id: ch05-b11
+          speaker: narrator
+          text: The old King stood outside by the stove's chimney and heard every word. He came back into the room, called her away from the stove, and ordered servants to dress her in royal robes. In them, she looked wonderfully beautiful.
+        - id: ch05-b12
+          speaker: narrator
+          text: Then the King summoned his son. He explained that the bride upstairs was only a waiting-maid, while the true bride stood there beside him, disguised until that moment as a goose-girl. The young Prince rejoiced when he saw her beauty and learned of her goodness.
+        - id: ch05-b13
+          speaker: narrator
+          text: A great banquet was prepared, and everyone was invited. The bridegroom sat at the head of the table, with the Princess on one side and the waiting-maid on the other. The false bride was so dazzled by the Princess's glittering clothes that she did not recognize her.
+        - id: ch05-b14
+          speaker: narrator
+          text: When the feast was well underway and everyone was merry, the old King gave the waiting-maid a difficult question to answer.
+        - id: ch05-b15
+          speaker: old_king
+          text: What should be done to someone who has deceived everyone around her?
+        - id: ch05-b16
+          speaker: narrator
+          text: Without naming anyone, he told the whole story of the Princess and the faithless servant. Then he asked what punishment such a person deserved.
+        - id: ch05-b17
+          speaker: waiting_maid
+          text: She should be stripped and put into a barrel lined with sharp nails. Two white horses should drag it up and down the street until she is dead.
+        - id: ch05-b18
+          speaker: old_king
+          text: You are that person. You have pronounced your own sentence, and that is what shall be done to you.
+        - id: ch05-b19
+          speaker: narrator
+          text: The sentence was carried out. Then the young Prince married his true bride, and together they ruled the kingdom in peace and happiness.

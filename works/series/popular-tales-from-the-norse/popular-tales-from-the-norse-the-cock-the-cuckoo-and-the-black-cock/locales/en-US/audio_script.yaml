@@ -1,0 +1,69 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    cock:
+      display_name: Cock
+      tts:
+        delivery: bold and triumphant
+        timbre: bright and ringing
+        pace: brisk
+        pitch: high
+    cuckoo:
+      display_name: Cuckoo
+      tts:
+        delivery: quick and insistent
+        timbre: clear and rounded
+        pace: moderate
+        pitch: medium-high
+    black_cock:
+      display_name: Black-cock
+      tts:
+        delivery: earnest and persuasive
+        timbre: deep and resonant
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Cow
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: This is another tale where you have to imitate the birds' calls.
+        - id: ch01-b02
+          speaker: narrator
+          text: Once upon a time, the Cock, the Cuckoo, and the Black-cock bought a cow together. When it was time to divide their share, none of them could agree on who should buy out the other two. At last, they made a bargain. Whoever woke first in the morning would own the cow.
+    - id: ch02
+      title: The Birds Wake
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The Cock was the first to wake.
+        - id: ch02-b02
+          speaker: cock
+          text: The cow is mine! The cow is mine! Hurrah! Hurrah!
+          emotion: happy
+        - id: ch02-b03
+          speaker: narrator
+          text: His crowing woke the Cuckoo.
+        - id: ch02-b04
+          speaker: cuckoo
+          text: Half the cow! Half the cow!
+        - id: ch02-b05
+          speaker: narrator
+          text: The Cuckoo's song woke the Black-cock.
+        - id: ch02-b06
+          speaker: black_cock
+          text: Equal shares! Equal shares! Dear friends, that's only fair! Saw see! See saw!
+    - id: ch03
+      title: Who Should Have It?
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: That was the Black-cock's answer. Now, can you tell me which of the three birds ought to have the cow?

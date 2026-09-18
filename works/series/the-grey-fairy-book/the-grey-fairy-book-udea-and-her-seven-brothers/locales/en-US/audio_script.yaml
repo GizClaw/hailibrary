@@ -1,0 +1,696 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant, and gently dramatic
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    udea:
+      display_name: Udea
+      tts:
+        delivery: openhearted, determined, and youthful
+        timbre: bright and clear
+        pace: natural
+        pitch: medium-high
+    mother:
+      display_name: Udea's Mother
+      tts:
+        delivery: loving, protective, and patient
+        timbre: warm and gentle
+        pace: measured
+        pitch: medium
+    aunt:
+      display_name: The Aunt
+      tts:
+        delivery: cool, guarded, and unsympathetic
+        timbre: dry and firm
+        pace: measured
+        pitch: medium
+    eldest_brother:
+      display_name: Eldest Brother
+      tts:
+        delivery: responsible, tender, and decisive
+        timbre: steady and resonant
+        pace: measured
+        pitch: medium-low
+    youngest_brother:
+      display_name: Youngest Brother
+      tts:
+        delivery: warm, attentive, and eager
+        timbre: youthful and clear
+        pace: natural
+        pitch: medium
+    second_brother:
+      display_name: Second Brother
+      tts:
+        delivery: loyal, alert, and direct
+        timbre: clear and sturdy
+        pace: natural
+        pitch: medium-low
+    third_brother:
+      display_name: Third Brother
+      tts:
+        delivery: loyal, energetic, and plainspoken
+        timbre: bright and sturdy
+        pace: natural
+        pitch: medium
+    barka:
+      display_name: Barka
+      tts:
+        delivery: harsh, forceful, and deceitful
+        timbre: rough and dark
+        pace: deliberate
+        pitch: low
+    barka_wife:
+      display_name: Barka's Wife
+      tts:
+        delivery: reserved, watchful, and compliant
+        timbre: muted and dry
+        pace: measured
+        pitch: medium-low
+    eldest_playmate:
+      display_name: Eldest Playmate
+      tts:
+        delivery: blunt, cutting, and self-assured
+        timbre: youthful and clear
+        pace: brisk
+        pitch: medium-high
+    caravan_leader:
+      display_name: Caravan Leader
+      tts:
+        delivery: practical, helpful, and concise
+        timbre: weathered and clear
+        pace: natural
+        pitch: medium-low
+    cat:
+      display_name: The Cat
+      tts:
+        delivery: exacting, clever, and easily offended
+        timbre: crisp and nimble
+        pace: brisk
+        pitch: high
+    man_eater:
+      display_name: The Man-Eater
+      tts:
+        delivery: menacing, sly, and heavy
+        timbre: deep and coarse
+        pace: slow
+        pitch: low
+    raven:
+      display_name: The Raven
+      tts:
+        delivery: sharp, proud, and matter-of-fact
+        timbre: dark and rasping
+        pace: natural
+        pitch: medium-low
+    first_man:
+      display_name: First Young Man
+      tts:
+        delivery: opportunistic, curious, and quick
+        timbre: clear and youthful
+        pace: brisk
+        pitch: medium
+    second_man:
+      display_name: Second Young Man
+      tts:
+        delivery: breathless, practical, and plainspoken
+        timbre: light and youthful
+        pace: brisk
+        pitch: medium
+    third_man:
+      display_name: Third Young Man
+      tts:
+        delivery: curious, energetic, and direct
+        timbre: warm and youthful
+        pace: brisk
+        pitch: medium-low
+    father:
+      display_name: Udea's Father
+      tts:
+        delivery: loving, sorrowful, and patient
+        timbre: aged and warm
+        pace: unhurried
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Sign of the Sickle
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a man and his wife who had seven sons. The boys lived out in the open air, and they grew tall and strong. The six eldest hunted wild animals every day, while the youngest often stayed at home with his mother.
+        - id: ch01-b02
+          speaker: narrator
+          text: One morning, all seven brothers prepared to leave on a long hunting trip. Before they went, they spoke to their aunt.
+        - id: ch01-b03
+          speakers: [eldest_brother, youngest_brother, second_brother, third_brother]
+          ensemble: chorus
+          text: Dear aunt, if the baby born today is a girl, wave a white handkerchief and we'll come straight home. If it's a boy, wave a sickle and we'll keep hunting.
+        - id: ch01-b04
+          speaker: narrator
+          text: The baby really was a girl. But the aunt could not stand the boys, and she saw a chance to be rid of them. She waved the sickle. When the seven brothers saw it, they believed the new baby was a boy.
+        - id: ch01-b05
+          speakers: [eldest_brother, youngest_brother, second_brother, third_brother]
+          ensemble: chorus
+          text: Then there's nothing for us to go home for.
+        - id: ch01-b06
+          speaker: narrator
+          text: They turned away and traveled deeper into the desert.
+        - id: ch01-b07
+          speaker: narrator
+          text: The baby grew into a big girl named Udea. Her friends called her something she herself knew nothing about. They called her Udea, the girl who had driven her seven brothers into strange lands.
+        - id: ch01-b08
+          speaker: narrator
+          text: One day Udea quarreled with her playmates. The oldest girl among them struck at her with a cruel secret.
+        - id: ch01-b09
+          speaker: eldest_playmate
+          text: It would have been better if you had never been born. Your brothers have wandered the world ever since you came.
+        - id: ch01-b10
+          speaker: narrator
+          text: Udea said nothing to the girl. She went home and asked her mother the question that now filled her mind.
+        - id: ch01-b11
+          speaker: udea
+          text: Mother, do I truly have brothers?
+        - id: ch01-b12
+          speaker: mother
+          text: Yes. You have seven. They left on the day you were born, and I have never heard from them again.
+        - id: ch01-b13
+          speaker: udea
+          text: Then I'll search until I find them.
+        - id: ch01-b14
+          speaker: mother
+          text: My dear child, they have been gone for fifteen years. No one has seen them. How can you know which road to take?
+        - id: ch01-b15
+          speaker: udea
+          text: I'll follow them north and south, east and west. However far I must travel, one day I will find them.
+        - id: ch01-b16
+          speaker: narrator
+          text: Her mother argued no more. She gave Udea a camel and food for the road. She also sent Barka and his wife to care for her. Then she tied a cowrie shell around the camel's neck as a charm and wished her daughter a peaceful journey.
+        - id: ch01-b17
+          speaker: narrator
+          text: The first day passed quietly. On the second morning, Barka spoke to Udea.
+        - id: ch01-b18
+          speaker: barka
+          text: Get off the camel. My wife will ride now.
+        - id: ch01-b19
+          speaker: udea
+          text: Mother, help me!
+        - id: ch01-b20
+          speaker: mother
+          text: What is it?
+        - id: ch01-b21
+          speaker: udea
+          text: Barka says I must get down from my camel.
+        - id: ch01-b22
+          speaker: mother
+          text: Leave her alone, Barka.
+        - id: ch01-b23
+          speaker: narrator
+          text: Barka did not dare press her then. The party traveled on, but the following day he gave Udea the same order. This time her mother was too far away to hear her call, however loudly she cried out.
+        - id: ch01-b24
+          speaker: barka
+          text: Get down. My wife is riding instead of you.
+        - id: ch01-b25
+          speaker: narrator
+          text: He seized Udea roughly and threw her to the ground. At his command, his wife climbed onto the camel, and Udea had to walk beside it. She had expected to ride for the whole journey because her feet were bare. Now the stones cut them until they bled. She walked until nightfall, then had to do the same the next morning. Worn out and bleeding, she began to cry and begged Barka to let her ride for a little while.
+        - id: ch01-b26
+          speaker: udea
+          text: Please, Barka. Let me ride just for a little while.
+          emotion: sad
+        - id: ch01-b27
+          speaker: barka
+          text: Walk faster.
+        - id: ch01-b28
+          speaker: narrator
+          text: Later they met a caravan. Barka asked its leader whether he had seen seven young hunters anywhere nearby.
+        - id: ch01-b29
+          speaker: caravan_leader
+          text: Keep straight on. By midday you'll reach the castle where they live.
+        - id: ch01-b30
+          speaker: narrator
+          text: Barka melted pitch in the sun and smeared it over Udea until her skin looked as dark as his own. Then he ordered his wife down and let Udea mount the camel again. She was grateful to be off her wounded feet. In that way they reached the brothers' castle.
+    - id: ch02
+      title: Udea Finds Her Brothers
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Barka left the camel kneeling at the entrance so Udea could climb down. Then he knocked loudly. The youngest brother opened the door, for his six brothers were away hunting. He knew Barka and his wife and welcomed them gladly, but he did not recognize Udea beneath the pitch.
+        - id: ch02-b02
+          speaker: youngest_brother
+          text: And who is this other woman with you?
+        - id: ch02-b03
+          speakers: [barka, barka_wife]
+          ensemble: duo
+          text: Why, she is your sister!
+        - id: ch02-b04
+          speaker: youngest_brother
+          text: My sister? But her skin is black as coal!
+          emotion: surprised
+        - id: ch02-b05
+          speaker: barka
+          text: Black or not, she is still your sister.
+        - id: ch02-b06
+          speaker: narrator
+          text: The young man asked nothing more. He led all three inside, then waited outdoors for his brothers to return.
+        - id: ch02-b07
+          speaker: narrator
+          text: Once they were alone, Barka bent close to Udea and whispered a threat.
+        - id: ch02-b08
+          speaker: barka
+          text: If you tell your brothers that I made you walk or covered you with pitch, I will kill you.
+        - id: ch02-b09
+          speaker: udea
+          text: I won't say anything. I promise.
+          emotion: fearful
+        - id: ch02-b10
+          speaker: narrator
+          text: Udea was still trembling when the six elder brothers came into view. The youngest hurried to meet them.
+        - id: ch02-b11
+          speaker: youngest_brother
+          text: I have wonderful news. Our sister is here!
+          emotion: happy
+        - id: ch02-b12
+          speakers: [eldest_brother, second_brother, third_brother]
+          ensemble: chorus
+          text: That can't be true. We have no sister. The baby born that day was a boy.
+        - id: ch02-b13
+          speaker: youngest_brother
+          text: That story was false. She is here with Barka and his wife. Only... her skin is black too.
+        - id: ch02-b14
+          speaker: narrator
+          text: He said the last words softly, and his brothers did not hear them. They rushed past him in joy.
+        - id: ch02-b15
+          speakers: [eldest_brother, second_brother, third_brother]
+          ensemble: chorus
+          text: Good old Barka! How are you? And why did no one ever tell us we had a sister?
+        - id: ch02-b16
+          speaker: narrator
+          text: The brothers greeted Udea as warmly as if they had always known her. At last she had found the brothers she had crossed so much country to see, and she wept with gladness and relief.
+        - id: ch02-b17
+          speaker: narrator
+          text: The next morning, they all stayed home from the hunt. Udea sat on the eldest brother's knee, combed his hair, and told him about their old home. Tears ran down his face and fell onto her bare arm. Each tear left a white mark where it landed.
+        - id: ch02-b18
+          speaker: narrator
+          text: Her brother took a cloth and rubbed one of the marks. At once he saw that her skin was not black at all.
+        - id: ch02-b19
+          speaker: eldest_brother
+          text: Who covered you with this stuff? Tell me!
+          emotion: angry
+        - id: ch02-b20
+          speaker: udea
+          text: I'm afraid to tell you. Barka will kill me.
+          emotion: fearful
+        - id: ch02-b21
+          speaker: eldest_brother
+          text: Afraid, when you have seven brothers beside you?
+        - id: ch02-b22
+          speaker: udea
+          text: Then I will tell you. Barka made me get off my camel so his wife could ride. The stones cut my feet until they bled, and I had to bind them. When he learned your castle was near, he smeared my whole body with pitch.
+        - id: ch02-b23
+          speaker: narrator
+          text: Her brother rushed from the room in a fury. He seized his sword and cut off Barka's head, then his wife's. Afterward he brought warm water and washed Udea until her skin shone white again.
+        - id: ch02-b24
+          speakers: [eldest_brother, youngest_brother, second_brother, third_brother]
+          ensemble: chorus
+          text: Now we can see you truly are our sister! Barka must have thought us fools if he believed we would accept that our sister had black skin.
+        - id: ch02-b25
+          speaker: narrator
+          text: The seven brothers stayed with Udea for the rest of that day and all of the next.
+        - id: ch02-b26
+          speaker: narrator
+          text: On the third morning, they prepared to hunt again. They told Udea to lock herself inside the castle with only the cat beside her.
+        - id: ch02-b27
+          speaker: eldest_brother
+          text: Dear sister, never eat anything unless the cat eats it too. Give her a piece of everything you have. We will return in seven days.
+        - id: ch02-b28
+          speaker: udea
+          text: All right. I will.
+        - id: ch02-b29
+          speaker: narrator
+          text: Udea locked herself in with the cat. The brothers returned on the eighth day and asked whether she had been afraid.
+        - id: ch02-b30
+          speaker: udea
+          text: Why would I be afraid? The gates stayed locked. There are seven doors inside the castle, and the seventh is iron. What could frighten me here?
+        - id: ch02-b31
+          speaker: eldest_brother
+          text: No one dares attack us, because everyone fears us. But while we are gone, do nothing without asking the cat. She grew up in this house, so never ignore her advice.
+        - id: ch02-b32
+          speaker: udea
+          text: I understand. Whatever I eat, the cat will have half.
+        - id: ch02-b33
+          speaker: youngest_brother
+          text: Good. If danger comes, the cat can find us. So can the elves and the pigeons that fly around your window. No one else knows where we are.
+        - id: ch02-b34
+          speaker: udea
+          text: This is the first I've heard about the pigeons. Why didn't you tell me sooner?
+        - id: ch02-b35
+          speaker: eldest_brother
+          text: We always leave enough food and water for seven days.
+        - id: ch02-b36
+          speaker: udea
+          text: Oh, if I had known, I would have given them fresh food and water. After seven days, everything goes bad. Wouldn't it be better if I fed them each day?
+        - id: ch02-b37
+          speaker: eldest_brother
+          text: Much better. Any kindness you show the cat or the pigeons will feel as if you had shown it to us.
+        - id: ch02-b38
+          speaker: udea
+          text: Then don't worry. I will care for them as if they were my brothers.
+        - id: ch02-b39
+          speaker: narrator
+          text: The brothers slept in the castle that night. After breakfast, they fastened on their weapons, mounted their horses, and rode toward the distant country where they hunted.
+        - id: ch02-b40
+          speakers: [eldest_brother, youngest_brother, second_brother, third_brother]
+          ensemble: chorus
+          text: Let no one inside before we come back!
+        - id: ch02-b41
+          speaker: udea
+          text: I won't!
+        - id: ch02-b42
+          speaker: narrator
+          text: For seven days Udea kept every door locked. On the eighth day her brothers returned. They spent the evening with her, and after breakfast the next morning, they left once more.
+    - id: ch03
+      title: The Bean and the Fire
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: As soon as the brothers disappeared from sight, Udea began cleaning the house. In the dust she found a bean, and without thinking, she ate it.
+        - id: ch03-b02
+          speaker: cat
+          text: What are you eating?
+        - id: ch03-b03
+          speaker: udea
+          text: I'm not eating anything.
+        - id: ch03-b04
+          speaker: cat
+          text: Open your mouth. Let me look.
+        - id: ch03-b05
+          speaker: narrator
+          text: Udea obeyed, and the cat saw what she had done.
+        - id: ch03-b06
+          speaker: cat
+          text: Why didn't you share half with me?
+        - id: ch03-b07
+          speaker: udea
+          text: I forgot. There are beans everywhere. You may have as many as you want.
+        - id: ch03-b08
+          speaker: cat
+          text: That won't do. I want half of the bean you ate.
+        - id: ch03-b09
+          speaker: udea
+          text: How can I give you that one now? It's gone. I could roast a hundred other beans for you.
+        - id: ch03-b10
+          speaker: cat
+          text: I don't want another bean. I want half of that one.
+        - id: ch03-b11
+          speaker: udea
+          text: Oh, do whatever you like. Just go away!
+          emotion: angry
+        - id: ch03-b12
+          speaker: narrator
+          text: The cat ran to the kitchen hearth, spat on the fire, and put it out. When Udea came to cook supper, she had no flame to light it with.
+        - id: ch03-b13
+          speaker: udea
+          text: Why did you put out the fire?
+        - id: ch03-b14
+          speaker: cat
+          text: I wanted to see how well you could cook supper without it. You told me to do whatever I liked, didn't you?
+        - id: ch03-b15
+          speaker: narrator
+          text: Udea left the kitchen and climbed onto the castle roof to look across the land. Far, far away, almost beyond what her eyes could make out, a fire was glowing. She decided to go there, bring back a burning coal, and relight her hearth. She opened the castle door and set out alone.
+        - id: ch03-b16
+          speaker: narrator
+          text: When she reached the fire, she found a hideous man-eater crouched over it.
+        - id: ch03-b17
+          speaker: udea
+          text: Peace be with you, grandfather.
+        - id: ch03-b18
+          speaker: man_eater
+          text: And with you. What brings you here, Udea?
+        - id: ch03-b19
+          speaker: udea
+          text: I came for a burning coal to light my fire.
+        - id: ch03-b20
+          speaker: man_eater
+          text: Do you want a large coal or a small one?
+        - id: ch03-b21
+          speaker: udea
+          text: What difference will that make?
+        - id: ch03-b22
+          speaker: man_eater
+          text: For a large one, you must give me a strip of skin reaching from your ear to your thumb. For a small one, the strip must reach from your ear to your little finger.
+        - id: ch03-b23
+          speaker: narrator
+          text: To Udea, one choice sounded as terrible as the other.
+        - id: ch03-b24
+          speaker: udea
+          text: Then I will take the large coal.
+        - id: ch03-b25
+          speaker: narrator
+          text: The man-eater cut a strip of skin from her ear to her thumb and gave her the burning coal. Udea started home with it at once.
+        - id: ch03-b26
+          speaker: narrator
+          text: As she hurried along, a raven saw the drops of blood on the ground. He covered each one with earth and stayed close behind Udea until she reached the castle. When she stepped through the door, he flew past her. Until that moment, she had not seen him. She shrieked in fright and called after him.
+        - id: ch03-b27
+          speaker: udea
+          text: May someone startle you as badly as you startled me!
+          emotion: fearful
+        - id: ch03-b28
+          speaker: raven
+          text: Why wish me harm when I have just helped you?
+        - id: ch03-b29
+          speaker: udea
+          text: Helped me? What did you do?
+        - id: ch03-b30
+          speaker: raven
+          text: You will find out soon enough.
+        - id: ch03-b31
+          speaker: narrator
+          text: With his beak, the raven scraped the earth off every drop of blood he had hidden. Then he flew away.
+        - id: ch03-b32
+          speaker: narrator
+          text: That night the man-eater followed the trail of blood to Udea's castle. He came through the gate she had left open and entered the house. There the seven locked doors stopped him. Six were made of wood, and the last was iron. He called to Udea through them.
+        - id: ch03-b33
+          speaker: man_eater
+          text: Udea! What did you see your grandfather doing?
+        - id: ch03-b34
+          speaker: udea
+          text: I saw him spread silk beneath himself and silk above himself, then lie down in a bed with four posts.
+        - id: ch03-b35
+          speaker: narrator
+          text: At that answer, the man-eater smashed through the first door. Then he laughed and went away.
+        - id: ch03-b36
+          speaker: narrator
+          text: He returned on the second night and called the same question through the doors. Udea gave the same answer, so he smashed the next wooden door, laughed, and left again. This happened night after night. Each visit brought him one room closer, until all six wooden doors stood open and only the seventh door, the iron one, remained.
+        - id: ch03-b37
+          speaker: narrator
+          text: Udea wrote a letter to her brothers and tied it around a pigeon's neck.
+        - id: ch03-b38
+          speaker: udea
+          text: Pigeon who served my father and grandfather, carry this letter to my brothers and come straight back.
+        - id: ch03-b39
+          speaker: narrator
+          text: The pigeon flew on and on until it found the seven brothers. The eldest untied the letter and read Udea's message.
+        - id: ch03-b40
+          speaker: udea
+          text: My brothers, I am in terrible danger. If you do not save me tonight, I will be dead tomorrow. The man-eater has broken six doors, and only the iron door remains. Hurry, hurry, as fast as you can!
+          emotion: fearful
+        - id: ch03-b41
+          speaker: eldest_brother
+          text: Quickly, brothers! We must go!
+        - id: ch03-b42
+          speakers: [youngest_brother, second_brother, third_brother]
+          ensemble: chorus
+          text: What has happened?
+        - id: ch03-b43
+          speaker: eldest_brother
+          text: If we don't reach Udea tonight, the man-eater will take her tomorrow.
+        - id: ch03-b44
+          speaker: narrator
+          text: They said no more. All seven leaped onto their horses and rode like the wind.
+    - id: ch04
+      title: The Last Iron Door
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: When the brothers reached the castle, they found its outer gate knocked down. They rode straight into the courtyard and shouted Udea's name as loudly as they could. But she was so sick with fear and worry that she could not answer them.
+        - id: ch04-b02
+          speaker: narrator
+          text: They dismounted and hurried through the six broken doors. The iron door was still locked before them.
+        - id: ch04-b03
+          speakers: [eldest_brother, youngest_brother, second_brother, third_brother]
+          ensemble: chorus
+          text: Udea, open the door! It's only us, your brothers!
+        - id: ch04-b04
+          speaker: narrator
+          text: Udea rose, unlocked the door, and threw her arms around the eldest. Then she burst into tears.
+        - id: ch04-b05
+          speaker: eldest_brother
+          text: Tell us what happened. How did the man-eater follow you here?
+        - id: ch04-b06
+          speaker: udea
+          text: It was all because of the cat. She put out my fire, so I couldn't cook. And all over one bean! I ate it and forgot to share it with her.
+        - id: ch04-b07
+          speaker: eldest_brother
+          text: But we warned you carefully. You were never to eat anything without giving the cat her share.
+        - id: ch04-b08
+          speaker: udea
+          text: Yes, but I forgot.
+        - id: ch04-b09
+          speaker: eldest_brother
+          text: Does the man-eater return every night?
+        - id: ch04-b10
+          speaker: udea
+          text: Every night. He breaks down one door, then leaves.
+        - id: ch04-b11
+          speakers: [eldest_brother, youngest_brother, second_brother, third_brother]
+          ensemble: chorus
+          text: We'll dig a deep pit and fill it with burning wood. Then we'll cover it over, and when the man-eater comes, we'll push him in.
+        - id: ch04-b12
+          speaker: narrator
+          text: The brothers went to work. They dug the pit, filled it with wood, and lit it. Soon the bottom held a deep bed of glowing charcoal. They spread a mat over the opening and waited.
+        - id: ch04-b13
+          speaker: narrator
+          text: The man-eater arrived and called out as he had every night.
+        - id: ch04-b14
+          speaker: man_eater
+          text: Udea! What did you see your grandfather doing?
+        - id: ch04-b15
+          speaker: udea
+          text: I saw him tear the skin from a donkey and eat the donkey. Then he fell into the fire, and the flames burned him away.
+        - id: ch04-b16
+          speaker: narrator
+          text: Rage filled the man-eater. He hurled himself against the iron door and broke it open. Udea's seven brothers were standing beyond it.
+        - id: ch04-b17
+          speaker: eldest_brother
+          text: Come in. Rest for a moment on this mat.
+        - id: ch04-b18
+          speaker: narrator
+          text: The man-eater sat down and dropped straight through the mat into the burning pit. The brothers piled on more wood. At last nothing remained of him, not even a bone.
+        - id: ch04-b19
+          speaker: narrator
+          text: But one of his fingernails blew out of the fire. It flew into an upper room where Udea was standing and lodged beneath one of her own fingernails. Udea fell to the floor without life.
+        - id: ch04-b20
+          speaker: narrator
+          text: Down below, the brothers waited and wondered why she did not come.
+        - id: ch04-b21
+          speaker: eldest_brother
+          text: What could have happened to her? Perhaps she fell into the fire too!
+          emotion: fearful
+        - id: ch04-b22
+          speaker: narrator
+          text: One brother ran upstairs. He found Udea lying motionless on the floor.
+        - id: ch04-b23
+          speaker: second_brother
+          text: Udea! Udea!
+          emotion: fearful
+        - id: ch04-b24
+          speaker: narrator
+          text: She neither moved nor answered. When he understood that she was dead, he rushed back to the courtyard.
+        - id: ch04-b25
+          speaker: second_brother
+          text: Come quickly! Our sister is dead!
+          emotion: sad
+        - id: ch04-b26
+          speaker: narrator
+          text: In a moment all seven stood around her, and they knew it was true. They made a bier, laid Udea upon it, and set it across a camel. Then they gave the animal careful orders.
+        - id: ch04-b27
+          speaker: eldest_brother
+          text: Carry her to our mother. Do not stop on the road, and let no man catch you. Kneel for no one unless he says the word "string." If a man says "string," kneel before him.
+        - id: ch04-b28
+          speaker: narrator
+          text: The camel set out alone, carrying Udea toward her mother.
+    - id: ch05
+      title: The Word That Woke Her
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Halfway through its journey, the camel met three young men. They ran after it, hoping to catch it, but the camel stayed ahead.
+        - id: ch05-b02
+          speakers: [first_man, second_man, third_man]
+          ensemble: chorus
+          text: Stop! Stop!
+        - id: ch05-b03
+          speaker: narrator
+          text: The camel only moved faster. The men chased it until they were panting. Then one called to the others.
+        - id: ch05-b04
+          speaker: second_man
+          text: Wait a moment! The string on my sandal has broken!
+        - id: ch05-b05
+          speaker: narrator
+          text: The camel heard the one word it had been taught to obey. At "string," it knelt at once. The three men caught up and discovered a dead girl lying on a bier. They also saw a ring upon her finger.
+        - id: ch05-b06
+          speaker: narrator
+          text: One young man took Udea's hand and tried to pull off the ring. As he tugged, the man-eater's fingernail came loose from beneath her own. Udea sat up.
+        - id: ch05-b07
+          speaker: udea
+          text: Let the man who gave me life live, and kill the one who killed me!
+        - id: ch05-b08
+          speaker: narrator
+          text: When the camel heard Udea speak, it turned around and carried her back to her brothers.
+        - id: ch05-b09
+          speaker: narrator
+          text: The seven brothers were still sitting in the courtyard, mourning their sister. Their eyes were so dim from weeping that they could barely see. When the camel appeared, they thought it might have returned with Udea's body. They rose to beat the animal for coming back.
+        - id: ch05-b10
+          speaker: narrator
+          text: Then the camel knelt, and Udea climbed down. Her brothers threw their arms around her. This time they wept harder than before because they were so glad.
+        - id: ch05-b11
+          speaker: eldest_brother
+          text: Tell me how this happened. What killed you?
+        - id: ch05-b12
+          speaker: udea
+          text: I was waiting in the upper room when one of the man-eater's nails lodged beneath my fingernail. I fell dead on the floor. That is all I know.
+        - id: ch05-b13
+          speaker: eldest_brother
+          text: Then who pulled the nail out?
+        - id: ch05-b14
+          speaker: udea
+          text: A man took my hand and tried to pull off my ring. The nail sprang out, and I came alive. The camel heard me say, "Let the man who gave me life live, and kill the one who killed me." Then it turned and carried me back here. That is my whole story.
+        - id: ch05-b15
+          speaker: narrator
+          text: Udea fell silent. Then the eldest brother turned to the others.
+        - id: ch05-b16
+          speaker: eldest_brother
+          text: Brothers, will you listen to my advice?
+        - id: ch05-b17
+          speakers: [youngest_brother, second_brother, third_brother]
+          ensemble: chorus
+          text: Of course we will. You are our father as well as our brother.
+        - id: ch05-b18
+          speaker: eldest_brother
+          text: Then let us take Udea home to our father and mother. We should see them once more before they die.
+        - id: ch05-b19
+          speaker: narrator
+          text: The brothers agreed. They mounted their horses and placed Udea in a litter on the camel. Together they began the journey home.
+    - id: ch06
+      title: Home at Last
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: After five days of travel, they reached the old home where their father and mother lived alone. Their father's heart filled with joy when he saw his children.
+        - id: ch06-b02
+          speaker: father
+          text: My dear sons, why did you leave us? Your mother and I have wept for you every day and every night.
+          emotion: sad
+        - id: ch06-b03
+          speaker: eldest_brother
+          text: Dear father, let us rest first. Then I will tell you the whole story from the beginning.
+        - id: ch06-b04
+          speaker: father
+          text: Very well. I can wait.
+        - id: ch06-b05
+          speaker: narrator
+          text: Their father waited patiently for three days. On the fourth morning, the eldest brother came to him.
+        - id: ch06-b06
+          speaker: eldest_brother
+          text: Father, would you like to hear about our adventures now?
+        - id: ch06-b07
+          speaker: father
+          text: Certainly I would!
+        - id: ch06-b08
+          speaker: eldest_brother
+          text: Our aunt caused us to leave home. We had agreed on two signs. If the baby was a girl, she would wave a white handkerchief. If the baby was a boy, she would wave a sickle, and we would know there was no reason to return. But our aunt could not bear us. She hated having us in the same house, so she waved the sickle and sent us away. That is our story.
+        - id: ch06-b09
+          speaker: narrator
+          text: And that is all this story.

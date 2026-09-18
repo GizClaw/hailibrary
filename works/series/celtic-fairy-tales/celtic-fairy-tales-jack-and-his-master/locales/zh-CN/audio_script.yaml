@@ -1,0 +1,361 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 沉静而富有古老传说的神秘感
+        timbre: 温暖清澈
+        pace: 从容舒缓
+        pitch: 中音
+    eldest_brother:
+      display_name: 大哥
+      tts:
+        delivery: 疲惫愤懑，话里带着受苦后的暴躁
+        timbre: 干涩低沉
+        pace: 中速
+        pitch: 中低音
+    second_brother:
+      display_name: 二哥
+      tts:
+        delivery: 精明气盛，说话干脆
+        timbre: 清亮结实
+        pace: 稍快
+        pitch: 中音
+    jack:
+      display_name: 杰克
+      tts:
+        delivery: 机灵沉着，装傻时一本正经
+        timbre: 年轻明亮
+        pace: 中速
+        pitch: 中音
+    gray_churl:
+      display_name: 灰老汉
+      tts:
+        delivery: 刻薄强横，受挫时急躁狼狈
+        timbre: 粗哑厚重
+        pace: 中速
+        pitch: 中低音
+    mistress:
+      display_name: 女主人
+      tts:
+        delivery: 务实直接，惊讶时仍有所克制
+        timbre: 朴实温和
+        pace: 中速
+        pitch: 中高音
+  chapters:
+    - id: ch01
+      title: 三兄弟的契约
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前有个穷女人，养着三个儿子。老大和老二精明狡猾，却把小弟叫作傻杰克，觉得他只是个呆子。老大在家待腻了，出门找活儿，一去就是整整一年。回来时，他两脚拖地，脸又瘦又皱，脾气坏得像两根相碰的枯棍。歇过气，吃了东西，他才说，自己这一年都在给倒霉乡的灰老汉做工。两人订下一份狠毒的契约。谁先说后悔，就得让对方从自己背上割下一寸宽的皮，从肩头一直割到胯部。主人后悔，还要付双倍工钱。仆人后悔，一文钱也拿不到。
+        - id: ch01-b02
+          speaker: eldest_brother
+          text: 那个贼骨头给我的饭少得可怜，活儿却重得要命，血肉之躯哪里熬得住！有一回我正在气头上，他问我后不后悔，我竟说了后悔。如今，我这一辈子都成了残废。
+          emotion: angry
+        - id: ch01-b03
+          speaker: narrator
+          text: 母亲和兄弟们听了，又气又难过。老二当场决定，也去给灰老汉做工。他要想尽办法搅得老汉不得安宁，逼他亲口认输。
+        - id: ch01-b04
+          speaker: second_brother
+          text: 等着瞧吧！那老恶棍背上的皮被割下来，我可要好好出口气！
+          emotion: angry
+        - id: ch01-b05
+          speaker: narrator
+          text: 家里人怎么劝都没用。老二去了倒霉乡，十二个月后回到家，竟和哥哥一样凄惨，一样虚弱无力，也落了一身残疾。母亲这回说尽好话，仍旧拦不住傻杰克。他要亲自去试试，看能不能收拾灰老汉。杰克讲定做满一年，工钱二十英镑。谁先说后悔，谁就得受罚，其余条件也全都照旧。灰老汉又添了一条规矩。
+        - id: ch01-b06
+          speaker: gray_churl
+          text: 杰克，只要是你做得到的事，你若不肯做，我就扣你一个月的工钱。
+        - id: ch01-b07
+          speaker: jack
+          text: 我答应。不过，您叫我做了，又拦着不让我做，就得多给我一个月的工钱。
+        - id: ch01-b08
+          speaker: gray_churl
+          text: 我答应。
+        - id: ch01-b09
+          speaker: jack
+          text: 我照您的吩咐做事，您若责怪我，也得多给一个月的工钱。
+        - id: ch01-b10
+          speaker: gray_churl
+          text: 我也答应。
+        - id: ch01-b11
+          speaker: narrator
+          text: 上工第一天，杰克没吃到几口东西，活儿却干得两腿都快磨短了。第二天，午饭就要送进客厅时，他走进厨房。厨子正把烤鹅从铁叉上取下来。杰克从碗橱上抄起一把刀，割下半边鹅胸，又割下一整条带着大腿的鹅腿和一只翅膀，坐下就吃。灰老汉进门看见，立刻骂他胆大妄为。
+        - id: ch01-b12
+          speaker: jack
+          text: 主人，您本来就得管我吃饭。这只鹅不管进了谁的肚子，晚饭以前都不用再填。怎么，您后悔咱们的契约了？
+        - id: ch01-b13
+          speaker: narrator
+          text: 灰老汉差点喊出一个“是”，幸好及时回过神来。
+        - id: ch01-b14
+          speaker: gray_churl
+          text: 不，一点也不！
+        - id: ch01-b15
+          speaker: jack
+          text: 那就好。
+    - id: ch02
+      title: 一天三顿饭
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 第二天，杰克要去沼泽地垒泥炭。主人一家巴不得午饭时别在厨房见到他，以为这回总算能让他离厨房远远的。可杰克觉得早饭轻得压不住肚子，便去找女主人。
+        - id: ch02-b02
+          speaker: jack
+          text: 太太，不如现在就让我吃午饭吧。这样我不用从沼泽地来回跑，也免得耽误工夫。
+        - id: ch02-b03
+          speaker: mistress
+          text: 说得对，杰克。
+        - id: ch02-b04
+          speaker: narrator
+          text: 她拿出一大块饼、一整块黄油和一瓶牛奶，以为杰克会带到沼泽地去。谁知他坐着没动，一口气把东西全送进肚子那条红巷子。接着，杰克又说，夜里若睡在干草上，躺在干泥炭堆背风的一面，不必来来回回，第二天就能更早干活。
+        - id: ch02-b05
+          speaker: jack
+          text: 所以，您把晚饭也给我吧。这样今天的麻烦就全料理完了。
+        - id: ch02-b06
+          speaker: narrator
+          text: 女主人又把晚饭交给他，还当他要带去沼泽地。杰克却当场吃得一干二净，连一点会替他告状的残渣也没剩。女主人看得发愣。杰克随后把灰老汉请到谷场，问他一件事。
+        - id: ch02-b07
+          speaker: jack
+          text: 主人，这地方的仆人吃完晚饭，还得做什么？
+        - id: ch02-b08
+          speaker: gray_churl
+          text: 什么也不用做，只管上床睡觉。
+        - id: ch02-b09
+          speaker: jack
+          text: 那好极了，老爷。
+        - id: ch02-b10
+          speaker: narrator
+          text: 杰克爬上马厩阁楼，脱掉衣裳，舒舒服服躺下来睡觉。有人看见这一幕，赶紧跑去告诉主人。灰老汉随即上楼一瞧，气得破口大骂。
+        - id: ch02-b11
+          speaker: gray_churl
+          text: 杰克，你这个没羞没臊的恶棍，到底在干什么？
+          emotion: angry
+        - id: ch02-b12
+          speaker: jack
+          text: 睡觉啊。女主人已经给过我早饭、午饭和晚饭，愿上帝保佑她。您又亲口说，接下来该上床了。老爷，您是在责怪我吗？
+        - id: ch02-b13
+          speaker: gray_churl
+          text: 我当然怪你，你这无赖！
+          emotion: angry
+        - id: ch02-b14
+          speaker: jack
+          text: 那么，请给我一英镑十三先令四便士。
+        - id: ch02-b15
+          speaker: gray_churl
+          text: 一只魔鬼带十三只小鬼给你吧，你这补锅匠！凭什么？
+          emotion: angry
+        - id: ch02-b16
+          speaker: jack
+          text: 原来您忘了契约。您后悔了吗？
+        - id: ch02-b17
+          speaker: gray_churl
+          text: 是……不！我是说没有。等你睡醒，我就给钱。
+    - id: ch03
+      title: 犁地与看牛
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 第二天一早，杰克问当天做什么。灰老汉叫他去围场外的休耕地扶犁。九点左右，主人特地走过去，要看看杰克算不算个会犁地的人。结果，男孩正赶着牲口，犁铧和犁刀却只是贴着草皮滑过。杰克死死拽住犁，正和前面的牲口拔河。
+        - id: ch03-b02
+          speaker: gray_churl
+          text: 你这个处处跟人拧着来的贼，到底在做什么？
+        - id: ch03-b03
+          speaker: jack
+          text: 我不是照您的话，拼命扶住这架鬼犁吗？可那个笨小子只顾抽打牲口。我怎么说，他都不肯停。您能不能管管他？
+        - id: ch03-b04
+          speaker: gray_churl
+          text: 我要管的是你！我说“扶犁”，就是叫你把土翻开。你这傻瓜，难道不懂？
+        - id: ch03-b05
+          speaker: jack
+          text: 您要是这个意思，当初直说多好。您是在责怪我吗？
+        - id: ch03-b06
+          speaker: narrator
+          text: 灰老汉及时闭了嘴，气得肚皮发胀，却不敢回答。过了一会儿，他才叫杰克照别的庄稼汉那样，把土翻开。
+        - id: ch03-b07
+          speaker: jack
+          text: 那么，您后悔咱们的契约了吗？
+        - id: ch03-b08
+          speaker: gray_churl
+          text: 一点也不，一点也不！
+        - id: ch03-b09
+          speaker: narrator
+          text: 那天剩下的时间，杰克认真干活，犁地犁得像个好庄稼汉。过了一两天，主人又叫他去田里看牛。半块田种着青青的麦苗，灰老汉特意叮嘱他。
+        - id: ch03-b10
+          speaker: gray_churl
+          text: 千万别让褐妞进麦地。只要她不闯祸，其余的牛就不用担心。
+        - id: ch03-b11
+          speaker: narrator
+          text: 中午，灰老汉去看杰克有没有尽职。杰克脸朝泥土，睡得正香。褐妞在山楂树旁吃草，角上拴着长绳，绳子另一头绑在树上。其余的牛却全在践踏、啃吃麦苗。主人扬起鞭子，抽在杰克身上。
+        - id: ch03-b12
+          speaker: gray_churl
+          text: 杰克，你这流氓！看见那些牛在干什么了吗？
+          emotion: angry
+        - id: ch03-b13
+          speaker: jack
+          text: 主人，您是在责怪我吗？
+        - id: ch03-b14
+          speaker: gray_churl
+          text: 当然怪你，你这个懒骨头！
+          emotion: angry
+        - id: ch03-b15
+          speaker: jack
+          text: 那就请给我一英镑十三先令四便士。您说过，只要褐妞不闯祸，其余的牛就不会惹麻烦。瞧，她乖得像只小羊羔。主人，您后悔雇我了吗？
+        - id: ch03-b16
+          speaker: gray_churl
+          text: 当……我是说，一点也不。你吃午饭时，我会给钱。现在听清楚，今天剩下的时间，一头牛也不许跑出田地，也不许进麦田。
+        - id: ch03-b17
+          speaker: jack
+          text: 您放心！
+        - id: ch03-b18
+          speaker: narrator
+          text: 杰克果真没有让一头牛出去或进去。灰老汉却宁肯损失一大笔钱，也巴不得从来没有雇过他。
+    - id: ch04
+      title: 小母牛与羊脚
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 第二天，三头小母牛不见了。灰老汉叫杰克去找。
+        - id: ch04-b02
+          speaker: jack
+          text: 我要到哪里找？
+        - id: ch04-b03
+          speaker: gray_churl
+          text: 所有可能找到它们的地方，还有所有不可能找到它们的地方，全都找遍。
+        - id: ch04-b04
+          speaker: narrator
+          text: 灰老汉如今说话越来越严密了。可午饭时，他走进农家庭院，却看见杰克正一抱一抱地扯掉屋顶的茅草，再往自己挖出的每个窟窿里探头察看。
+        - id: ch04-b05
+          speaker: gray_churl
+          text: 你这个无赖，在那里干什么？
+        - id: ch04-b06
+          speaker: jack
+          text: 我在找那几头可怜的小母牛呀！
+        - id: ch04-b07
+          speaker: gray_churl
+          text: 它们怎么可能跑到屋顶里去？
+        - id: ch04-b08
+          speaker: jack
+          text: 我也觉得不可能。不过，牛棚、牧场和旁边的田地，这些可能的地方我都找过了。现在，我只好找自己想得到的最不可能的地方。您看起来好像不大高兴。
+        - id: ch04-b09
+          speaker: gray_churl
+          text: 我当然不高兴，你这个专会气人的呆头鹅！
+          emotion: angry
+        - id: ch04-b10
+          speaker: jack
+          text: 那么，请在吃午饭以前给我一英镑十三先令四便士。我怕您已经后悔雇我了。
+        - id: ch04-b11
+          speaker: gray_churl
+          text: 愿魔……不，我不后悔。现在请你把茅草原样铺回去，就当是在修你娘的小屋。
+        - id: ch04-b12
+          speaker: jack
+          text: 当然好，老爷，我十二分情愿！
+        - id: ch04-b13
+          speaker: narrator
+          text: 农夫吃完午饭出来时，屋顶已经修得比从前还好。杰克叫男孩拿来新麦秆，全铺了上去。主人又让他去找小母牛，把它们带回家。
+        - id: ch04-b14
+          speaker: jack
+          text: 我该到哪里找？
+        - id: ch04-b15
+          speaker: gray_churl
+          text: 当成你自己的牛那样去找。
+        - id: ch04-b16
+          speaker: narrator
+          text: 太阳落山以前，三头小母牛全回到了围场。第二天一早，灰老汉又说，穿过沼泽去牧场的路坏透了，羊每走一步都往下陷。
+        - id: ch04-b17
+          speaker: gray_churl
+          text: 杰克，你去用羊脚把路修好。
+        - id: ch04-b18
+          speaker: narrator
+          text: 一个钟头后，灰老汉来到沼泽边。路上仍是泥泞难行，杰克却正在磨一把切肉刀。羊群完好无损地站在四周，有的还在吃草。
+        - id: ch04-b19
+          speaker: gray_churl
+          text: 杰克，你就是这样修路的吗？
+        - id: ch04-b20
+          speaker: jack
+          text: 凡事总得有个开头。开得好，事情就成了一半。我正在磨刀。您还没画完一个十字，我就能把全群羊的脚都割下来。
+        - id: ch04-b21
+          speaker: gray_churl
+          text: 割掉我的羊脚？你这个恶贼！你割它们的脚干什么？
+          emotion: surprised
+        - id: ch04-b22
+          speaker: jack
+          text: 当然是用羊脚修路啊。您亲口说：“杰克，用羊的脚修一条路。”
+        - id: ch04-b23
+          speaker: gray_churl
+          text: 你这傻瓜！我是叫你把路修好，让羊走起来方便。
+        - id: ch04-b24
+          speaker: jack
+          text: 可惜您当初没有这么说。您若不让我把活儿做完，就请给我一英镑十三先令四便士。
+        - id: ch04-b25
+          speaker: gray_churl
+          text: 让魔鬼拿你那一英镑十三先令四便士去享福吧！
+          emotion: angry
+        - id: ch04-b26
+          speaker: jack
+          text: 主人，祈祷总比咒骂好。莫非您后悔订下契约了？
+        - id: ch04-b27
+          speaker: gray_churl
+          text: 我当然后……反正现在还不后悔。
+    - id: ch05
+      title: 婚宴上的羊眼
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 第二天晚上，灰老汉要去参加婚礼。动身前，他告诉杰克，自己半夜离席，要杰克来接他回家，免得喝多误事。要是杰克早到了，就朝他扔一只羊眼，好让他看见。主人也会叫婚宴上的人给杰克一杯酒。
+        - id: ch05-b02
+          speaker: narrator
+          text: 十一点左右，灰老汉正喝得高兴，忽然有团黏糊糊的东西打在脸上，落到酒杯旁。他低头一看，竟是一只羊眼。他想不明白谁扔的，也不知道为什么扔。过了一会儿，另一边脸又挨了一下，还是羊眼。主人气坏了，却忍着没说。又过了两分钟，他刚张嘴要喝酒，第三只羊眼啪地飞进嘴里。他呸呸吐出来，对婚宴主人喊了起来。
+        - id: ch05-b03
+          speaker: gray_churl
+          text: 当家的，你让这种干脏事的人待在屋里，不觉得太不像话吗？
+          emotion: disgusted
+        - id: ch05-b04
+          speaker: jack
+          text: 主人，别怪这位正派的主人家。羊眼都是我扔的。我只是提醒您，我已经来了，还想讨杯酒，祝新郎新娘健康。这可是您自己吩咐的。
+        - id: ch05-b05
+          speaker: gray_churl
+          text: 我只知道你是个十足的无赖！这些眼睛从哪里来的？
+          emotion: angry
+        - id: ch05-b06
+          speaker: jack
+          text: 还能从哪里来？当然是您自家的羊脑袋里。难道您要我碰邻居家的牲口，再让人把我关进石头牢房？
+        - id: ch05-b07
+          speaker: gray_churl
+          text: 我倒了八辈子霉，才会遇上你！
+          emotion: angry
+        - id: ch05-b08
+          speaker: jack
+          text: 各位都来作证，我的主人亲口说，他后悔遇上我了。我的工期到此结束。主人，把双倍工钱给我，再到隔壁屋里躺好。我要从您的肩头到胯部，割下一条一寸宽的皮。
+        - id: ch05-b09
+          speaker: narrator
+          text: 众人起先全都高声反对。杰克提醒他们，灰老汉从他两个哥哥背上割下同样的皮条，害得两人一身残疾，又一文钱也没有，只能回去见可怜的母亲。当宾客听清事情的原委，便个个都想看这笔账怎样了结。灰老汉又喊又叫，却没有一个人肯出手救他。众人把他的衣裳一直剥到胯部，又将他按倒在隔壁屋子的地板上。杰克手握切肉刀，站在一旁，眼看就要动手。
+        - id: ch05-b10
+          speaker: jack
+          text: 你这个残忍的老恶棍，听听我给你的选择。
+        - id: ch05-b11
+          speaker: narrator
+          text: 杰克说着，把刀刃贴着地板来回刮了两下，这才说出条件。
+        - id: ch05-b12
+          speaker: jack
+          text: 除了双倍工钱，你再给我二百基尼，让我供养两个可怜的哥哥，我就不要你那条皮。
+        - id: ch05-b13
+          speaker: gray_churl
+          text: 不！我宁肯让你从头到脚剥掉我的皮。
+          emotion: angry
+        - id: ch05-b14
+          speaker: jack
+          text: 那就动手喽。
+        - id: ch05-b15
+          speaker: narrator
+          text: 杰克咧嘴一笑。可他才划出第一道小口子，灰老汉便嚎叫起来。
+        - id: ch05-b16
+          speaker: gray_churl
+          text: 住手！我给钱！
+          emotion: fearful
+        - id: ch05-b17
+          speaker: jack
+          text: 各位邻居，可别把我想得比实际还坏。就算是只老鼠，我也狠不下心挖掉它一只眼睛。那些羊眼是我从屠夫那里拿的，一共半打，我只用了三只。
+        - id: ch05-b18
+          speaker: narrator
+          text: 众人回到先前的屋里，请杰克坐下。人人都举杯祝他健康，他也一口气祝了所有人健康。六个壮汉护送杰克和灰老汉回家，又守在客厅里。灰老汉只好上楼，取来二百基尼，再交出杰克应得的双倍工钱。杰克带着钱回到家，也把夏天般的好日子一同带给了可怜的母亲和两个残废的哥哥。从此，人们再也不叫他傻杰克，只称他作“剥老汉皮的杰克”。

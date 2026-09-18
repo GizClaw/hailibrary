@@ -1,0 +1,375 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    eldest_son:
+      display_name: Eldest Son
+      tts:
+        delivery: confident at first and bitter after failure
+        timbre: youthful and sturdy
+        pace: moderate
+        pitch: medium
+    second_son:
+      display_name: Second Son
+      tts:
+        delivery: stubborn and self-assured
+        timbre: youthful and clear
+        pace: moderate
+        pitch: medium
+    boots:
+      display_name: Boots
+      tts:
+        delivery: plainspoken, steady, and quietly bold
+        timbre: young and warm
+        pace: moderate
+        pitch: medium
+    king:
+      display_name: King
+      tts:
+        delivery: commanding and quick-tempered
+        timbre: resonant and firm
+        pace: measured
+        pitch: low
+    old_hag:
+      display_name: Old Hag
+      tts:
+        delivery: coaxing with a harsh edge
+        timbre: dry and weathered
+        pace: unhurried
+        pitch: medium-low
+    father:
+      display_name: Father
+      tts:
+        delivery: worried and practical
+        timbre: worn and gentle
+        pace: measured
+        pitch: low
+    mother:
+      display_name: Mother
+      tts:
+        delivery: anxious and tender
+        timbre: soft and weary
+        pace: measured
+        pitch: medium
+    eldest_foal:
+      display_name: Eldest Foal
+      tts:
+        delivery: grave and purposeful
+        timbre: youthful and clear
+        pace: measured
+        pitch: medium-low
+    second_foal:
+      display_name: Second Foal
+      tts:
+        delivery: earnest and direct
+        timbre: youthful and clear
+        pace: moderate
+        pitch: medium
+    third_foal:
+      display_name: Third Foal
+      tts:
+        delivery: earnest and direct
+        timbre: youthful and bright
+        pace: moderate
+        pitch: medium
+    youngest_foal:
+      display_name: Youngest Foal
+      tts:
+        delivery: patient, watchful, and encouraging
+        timbre: youthful and warm
+        pace: measured
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: The King's Seven Foals
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, a poor couple lived in a miserable hut, far, far away in the woods. How they managed, I cannot say. I am sure they lived from hand to mouth, and even that took hard work. They had three sons. The youngest was called Boots, of course, because he did little but lie by the hearth and poke among the ashes.
+        - id: ch01-b02
+          speaker: narrator
+          text: One day, the eldest son set out to earn his bread. He walked until evening, when he came to a king's palace. The King stood on the steps and asked where he was going.
+        - id: ch01-b03
+          speaker: eldest_son
+          text: I'm looking for work wherever I can find it.
+        - id: ch01-b04
+          speaker: king
+          text: Then work for me and watch my seven foals. Follow them for one whole day, and tell me that night what they eat and drink. If you succeed, you may marry the Princess and have half my kingdom. If you fail, I'll have three red stripes cut from your back. Do you understand?
+        - id: ch01-b05
+          speaker: narrator
+          text: The young man thought that sounded easy. He was sure he could manage it without any trouble. At the first light of morning, the royal coachman released the seven foals. Away they tore over hills and valleys, through thickets and bogs, with the lad running behind. He chased them for a long time, until sweat ran down his forehead. Soon he was tired, and after struggling onward a little longer, he had had more than enough of watching them. Just then, he reached a cleft in a rock, where an old hag sat spinning with a distaff.
+        - id: ch01-b06
+          speaker: old_hag
+          text: Come over here, my pretty boy. Put your head in my lap, and let me comb your hair.
+        - id: ch01-b07
+          speaker: narrator
+          text: He was more than willing. He sat beside the old hag in the cleft and laid his head in her lap. She combed his hair all day while he stretched his lazy bones and let the foals go wherever they pleased. When evening drew near, he finally rose and said he ought to leave.
+        - id: ch01-b08
+          speaker: eldest_son
+          text: I might as well go straight home. There's no point returning to the palace now.
+        - id: ch01-b09
+          speaker: old_hag
+          text: Wait here until dark. The foals will pass this way again. Run home beside them, and no one will know you spent the day lying here instead of watching them.
+        - id: ch01-b10
+          speaker: narrator
+          text: He stayed until darkness came. Just as the hag had promised, the seven foals passed the cleft again. She gave the lad a flask of water and a clod of turf, then sent him running back beside them. He was to show those things to the King and claim they were what the foals had eaten and drunk.
+        - id: ch01-b11
+          speaker: king
+          text: Did you watch them faithfully all day?
+        - id: ch01-b12
+          speaker: eldest_son
+          text: Of course I did.
+        - id: ch01-b13
+          speaker: king
+          text: Then tell me what my seven foals eat and drink.
+        - id: ch01-b14
+          speaker: eldest_son
+          text: This is their food, and this is their drink.
+        - id: ch01-b15
+          speaker: narrator
+          text: He pulled out the clod of turf and the flask of water and held them up as his proof. But the King could see plainly enough what sort of watching the lad had done. He flew into a rage and ordered his men to drive the cheat home that very moment. Before they sent him away, they cut three red stripes from his back and rubbed salt into the wounds. You can imagine the temper he was in when he finally reached the hut.
+        - id: ch01-b16
+          speaker: eldest_son
+          text: I went out once to find work, and I'll never do it again.
+    - id: ch02
+      title: The Second Brother Tries
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The next day, the second son said he would go out and try his luck.
+        - id: ch02-b02
+          speakers: [father, mother]
+          ensemble: duo
+          text: No! Look what happened to your brother's back.
+        - id: ch02-b03
+          speaker: narrator
+          text: But he would not yield. He held to his decision until, at last, his parents let him go. After walking all day, he reached the same palace. The King stood on the steps and asked where he was headed. When the second son said he was seeking work, the King offered him the task of watching the seven foals. He promised the same reward and warned him of the same punishment he had given his brother. The lad accepted at once. He was certain he could follow the foals and discover what they ate and drank.
+        - id: ch02-b04
+          speaker: narrator
+          text: At dawn, the coachman let the foals loose. They flew across the country, and the second son chased them until he was weary and burning hot. Then he passed the cleft where the old hag sat spinning.
+        - id: ch02-b05
+          speaker: old_hag
+          text: Come over here, my pretty boy. Let me comb your hair.
+        - id: ch02-b06
+          speaker: narrator
+          text: He thought that was a fine offer. Without another thought, he let the foals run on and settled into the rocky cleft. There he sat, and there he lay, taking his ease and stretching his lazy bones for the whole day. When the foals came back at nightfall, the hag gave him a flask of water and a clod of turf. Like his brother, he took them to the palace as proof of what the seven foals ate and drank.
+        - id: ch02-b07
+          speaker: king
+          text: Now, can you tell me what my seven foals eat and drink?
+        - id: ch02-b08
+          speaker: second_son
+          text: This is their food, and this is their drink.
+        - id: ch02-b09
+          speaker: narrator
+          text: The trick did not fool the King this time either. Once more, he grew furious. He ordered his men to cut three red stripes from the second son's back, rub salt into the wounds, and chase him home that very minute. When the lad finally reached the hut, he told the whole family exactly how badly his search for work had ended.
+        - id: ch02-b10
+          speaker: second_son
+          text: I've tried going out to find work once. I won't ever try again.
+    - id: ch03
+      title: Boots Takes His Turn
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: On the third day, Boots announced that he meant to leave. He wanted to try watching the seven foals himself. His brothers laughed and mocked him.
+        - id: ch03-b02
+          speakers: [eldest_son, second_son]
+          ensemble: duo
+          text: We came to such a bad end, but you think you'll do better? What a joke! You've never done anything but lie there and poke at the ashes.
+        - id: ch03-b03
+          speaker: boots
+          text: I don't see why I shouldn't go. The idea is in my head now, and I can't shake it out.
+        - id: ch03-b04
+          speaker: narrator
+          text: His brothers kept jeering at him, and his old parents pleaded with him not to go. But Boots would not change his mind. There was nothing they could do, so he set off alone. He walked the whole day, just as his brothers had done before him. At dusk, he too reached the royal palace, where the King stood waiting on the steps.
+        - id: ch03-b05
+          speaker: king
+          text: Where are you bound?
+        - id: ch03-b06
+          speaker: boots
+          text: I'm traveling around to see if I can hear of any work.
+        - id: ch03-b07
+          speaker: king
+          text: And where have you come from?
+        - id: ch03-b08
+          speaker: narrator
+          text: The King wanted to know something about a man before taking him into service. Boots told him where he came from. He also explained that he was the brother of the two young men who had already tried to watch the King's seven foals. He finished by asking whether he might take his own turn the next day.
+        - id: ch03-b09
+          speaker: king
+          text: Nonsense! If you're their brother, I doubt you're worth much more than they were. I've had enough of scoundrels like those.
+          emotion: angry
+        - id: ch03-b10
+          speaker: boots
+          text: Still, I've come a long way. You may as well let me try too.
+        - id: ch03-b11
+          speaker: king
+          text: Very well, then. If you're determined to have your back flayed, you're welcome to it.
+        - id: ch03-b12
+          speaker: boots
+          text: I'd much rather have the Princess.
+        - id: ch03-b13
+          speaker: narrator
+          text: At gray dawn the next morning, the coachman released the seven foals once again. Away they dashed over hills and valleys, through brush and bog, with Boots racing behind. He did not lose sight of them. After running for a long while, he came to the same cleft in the rock where the old hag sat spinning at her distaff.
+        - id: ch03-b14
+          speaker: old_hag
+          text: Come over here, my pretty boy. Let me comb your hair.
+        - id: ch03-b15
+          speaker: boots
+          text: Wouldn't you like to catch me! Wouldn't you just!
+        - id: ch03-b16
+          speaker: narrator
+          text: Boots shouted his answer without slowing down. He ran past the hag, leaping and bounding while he held tightly to one foal's tail. The old woman and her comb were soon far behind. Once they were safely beyond the rocky cleft, the youngest foal turned his head and spoke to him.
+        - id: ch03-b17
+          speaker: youngest_foal
+          text: Climb onto my back, lad. We still have a long way to go.
+        - id: ch03-b18
+          speaker: narrator
+          text: Boots mounted, and the foals carried him onward for a long, long time.
+    - id: ch04
+      title: The Sword Behind the Birch
+      blocks:
+        - id: ch04-b01
+          speaker: youngest_foal
+          text: Can you see anything yet?
+        - id: ch04-b02
+          speaker: boots
+          text: No, nothing.
+        - id: ch04-b03
+          speaker: narrator
+          text: They went a good deal farther.
+        - id: ch04-b04
+          speaker: youngest_foal
+          text: What about now? Do you see anything?
+        - id: ch04-b05
+          speaker: boots
+          text: No, not yet.
+        - id: ch04-b06
+          speaker: narrator
+          text: They traveled still farther, farther than I could ever tell you. Then the youngest foal asked once more.
+        - id: ch04-b07
+          speaker: youngest_foal
+          text: Can you make out anything now?
+        - id: ch04-b08
+          speaker: boots
+          text: Yes. I see something white, like the tall trunk of a great birch tree.
+        - id: ch04-b09
+          speaker: youngest_foal
+          text: That's the trunk we're going into.
+        - id: ch04-b10
+          speaker: narrator
+          text: They made straight for the white trunk. When they reached it, the eldest foal pushed the whole thing to one side. A hidden door appeared where it had stood. Beyond that door lay a little room. It was nearly empty, with only a small fireplace and one or two benches. But behind the door hung a great rusty sword and a little pitcher.
+        - id: ch04-b11
+          speakers: [eldest_foal, second_foal, third_foal, youngest_foal]
+          ensemble: chorus
+          text: Try the sword. Can you swing it?
+        - id: ch04-b12
+          speaker: narrator
+          text: Boots tried, but he could not move it properly. The foals told him to drink from the pitcher. He took one swallow, then a second, and then a third. After that, he could wield the sword with ease.
+        - id: ch04-b13
+          speakers: [eldest_foal, second_foal, third_foal, youngest_foal]
+          ensemble: chorus
+          text: Now take the sword with you. On your wedding day, you must cut off all seven of our heads. Then we will become princes again, as we were before. We are the brothers of the Princess you will marry when you tell the King what we eat and drink. An ugly Troll cast this shape upon us. After you cut off each head, be careful to lay it beside the tail of the body it came from. Then the spell will lose all its power.
+        - id: ch04-b14
+          speaker: narrator
+          text: Boots gave his word that he would remember every part of their instructions. He took the great sword with him, and then they left the hidden room. The birch trunk was behind them as they set off again. On and on they traveled, covering another long, long stretch of road.
+    - id: ch05
+      title: The Church Beyond the River
+      blocks:
+        - id: ch05-b01
+          speaker: youngest_foal
+          text: Do you see anything?
+        - id: ch05-b02
+          speaker: boots
+          text: No.
+        - id: ch05-b03
+          speaker: narrator
+          text: They went on for quite a while.
+        - id: ch05-b04
+          speaker: youngest_foal
+          text: And now?
+        - id: ch05-b05
+          speaker: boots
+          text: No, I still see nothing.
+        - id: ch05-b06
+          speaker: narrator
+          text: They crossed many more miles of hills and valleys before the foal asked again.
+        - id: ch05-b07
+          speaker: youngest_foal
+          text: Now then, can you see anything?
+        - id: ch05-b08
+          speaker: boots
+          text: Yes. There's something like a blue stripe, far in the distance.
+        - id: ch05-b09
+          speaker: youngest_foal
+          text: That's a river, and we have to cross it.
+        - id: ch05-b10
+          speaker: narrator
+          text: Soon the blue stripe opened into a river. A long, magnificent bridge stretched all the way across it. The seven foals carried Boots over the bridge to the other bank, and then they kept on traveling for a long, long while. At last, the youngest foal asked Boots once more whether anything had appeared ahead.
+        - id: ch05-b11
+          speaker: boots
+          text: Yes. There's something black far away. It looks like a church steeple.
+        - id: ch05-b12
+          speaker: youngest_foal
+          text: That's where we're going in.
+        - id: ch05-b13
+          speaker: narrator
+          text: They went on until they entered the churchyard. The moment the foals crossed into it, they changed into men. All seven looked like Princes, dressed in such splendid clothes that the cloth seemed to shine. They entered the church, and Boots followed them inside. A priest stood waiting at the altar. The Princes received bread and wine from him, and he laid his hands upon them and gave them his blessing. Then they all left the church together. Before Boots went out, he took a flask of wine and a wafer with him.
+        - id: ch05-b14
+          speaker: narrator
+          text: As soon as the seven Princes stepped out into the churchyard, they turned back into foals. Boots climbed onto the youngest one's back, and all seven started home by the same road they had come. This time they went much, much faster. First they crossed the great bridge. Next they rushed past the white birch trunk. Then they swept by the old hag, who was still spinning in the rocky cleft. They passed so quickly that Boots could not make out the words she screamed after him. He heard enough, though, to know she was in a terrible rage.
+    - id: ch06
+      title: True and Well
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: It was nearly dark when they reached the palace. The King himself was waiting on the steps.
+        - id: ch06-b02
+          speaker: king
+          text: Have you watched the foals faithfully all day?
+        - id: ch06-b03
+          speaker: boots
+          text: I've done the best I could.
+        - id: ch06-b04
+          speaker: king
+          text: Then tell me what my seven foals eat and drink.
+        - id: ch06-b05
+          speaker: narrator
+          text: Boots took out the wafer and the flask of wine and held them before the King.
+        - id: ch06-b06
+          speaker: boots
+          text: This is their food, and this is their drink.
+        - id: ch06-b07
+          speaker: king
+          text: Yes, you have watched them truly and well. You shall marry the Princess and have half my kingdom.
+        - id: ch06-b08
+          speaker: narrator
+          text: The bargain was settled, and preparations began at once. Servants made everything ready for the marriage. The King declared that the wedding feast would be so grand that people near and far would be talking about it afterward.
+    - id: ch07
+      title: Seven Princes at the Wedding
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: At last the wedding day arrived. When everyone had taken a place at the bridal feast, the bridegroom suddenly rose from the table. Boots explained that he had forgotten something important and must go and fetch it. Then he left the hall and made his way down to the stable where the seven foals stood.
+        - id: ch07-b02
+          speaker: narrator
+          text: There Boots did exactly as the foals had told him. With the rusty sword, he cut off all seven heads, beginning with the eldest and moving down through the rest. Each time, he carefully placed the head beside the tail of the body it belonged to. As he finished, all seven foals became Princes again.
+        - id: ch07-b03
+          speaker: narrator
+          text: With the spell broken, Boots led all seven Princes back into the bridal hall. The King could scarcely contain his joy at seeing his sons restored. He kissed Boots and patted him warmly on the back. And when the bride saw that her seven brothers had returned, she was even happier with her husband than she had been before.
+        - id: ch07-b04
+          speaker: king
+          text: You already have half the kingdom. After my death, you shall have the other half as well. My sons are princes again, and they can easily win lands and riches of their own.
+        - id: ch07-b05
+          speaker: narrator
+          text: So, as you might expect, that wedding was full of laughter and merriment.
+        - id: ch07-b06
+          speaker: narrator
+          text: I was there too, but no one thought to look after poor me. All I received was a bit of bread and butter. I set it on the stove, the bread burned, and the butter ran away. I never got so much as the smallest crumb.
+        - id: ch07-b07
+          speaker: narrator
+          text: Now wasn't that a great shame?

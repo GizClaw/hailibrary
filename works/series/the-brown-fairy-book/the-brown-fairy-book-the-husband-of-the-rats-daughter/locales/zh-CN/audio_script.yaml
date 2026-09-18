@@ -1,0 +1,140 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 清楚从容，像在为听众介绍一本古老的童话集
+        timbre: 温暖明净
+        pace: 舒缓
+        pitch: 中音
+    rat_father:
+      display_name: 老鼠父亲
+      tts: {delivery: 实在稳重，争辩时有些不耐烦, timbre: 温厚清楚, pace: 适中, pitch: 中低音}
+    rat_mother:
+      display_name: 老鼠母亲
+      tts: {delivery: 高傲挑剔，说起女儿时格外夸张, timbre: 明亮尖细, pace: 稍快, pitch: 中高音}
+    rat_daughter:
+      display_name: 老鼠姑娘
+      tts: {delivery: 平日顺从安静，表明心意时坚定激动, timbre: 清甜柔亮, pace: 适中, pitch: 高音}
+    sun:
+      display_name: 太阳
+      tts: {delivery: 客气庄重，婉拒时圆融坦白, timbre: 洪亮温暖, pace: 从容, pitch: 中音}
+    cloud:
+      display_name: 云
+      tts: {delivery: 谦逊柔和，不慌不忙, timbre: 轻柔飘逸, pace: 舒缓, pitch: 中高音}
+    wind:
+      display_name: 风
+      tts: {delivery: 爽快利落，仿佛总在赶路, timbre: 清劲开阔, pace: 稍快, pitch: 中音}
+    wall:
+      display_name: 老墙
+      tts: {delivery: 沉稳厚道，受冒犯后仍讲道理, timbre: 低沉粗粝, pace: 缓慢, pitch: 低音}
+  chapters:
+    - id: ch01
+      title: 老鼠姑娘的婚事
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，日本有一对出身古老世家的老鼠夫妻。他们只有一个女儿，也是整个老鼠世界里最美的姑娘。夫妻俩为她骄傲极了，费尽心思教会她一位大家闺秀应该懂的一切。满城的年轻小姐，没有谁能像她一样咬穿最硬的木头，也没有谁能从高处稳稳落到床上。只要听见有人走近，她一转眼就能逃得无影无踪。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            夫妻俩还把女儿照料得十分漂亮。她的皮毛像缎子一样光亮，牙齿又白又尖，仿佛一颗颗珍珠。女儿渐渐长大，他们自然盼着她嫁得风光，便四处寻找合适的女婿。
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            可父亲和母亲的心思并不一样。父亲无论从鼻尖看到尾巴梢，还是看进心里，都是一只地地道道的老鼠。他只愿女儿嫁给同族。求婚的小伙子很多，他心里一直最看好其中一只英俊的年轻老鼠。那小伙子的长胡须几乎扫到地面，家世比他们家还古老高贵。
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            母亲却瞧不起自己的家族，也瞧不起身边的一切，总觉得自己生来就比世上旁人高贵，想到这里还很得意。她说起女儿时，总要高高地昂起头。只要有人肯听，她就逢人谈起宝贝女儿的婚事。至于姑娘怎么想，没有谁问过。那时的老鼠世界并不时兴听女儿的心意。
+        - id: ch01-b05
+          speaker: rat_mother
+          text: 我女儿才不能嫁给一只普普通通的老鼠！她这么美，又这么能干，当然应该找个更了不起的丈夫。
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            老两口为这件事吵个不停。有时，他们脸上还会留下些痕迹，看起来可不只是动了嘴。一天，母亲又发起比平常更大的脾气。
+        - id: ch01-b07
+          speaker: rat_mother
+          text: 我的信条就是攀到星星上去！我女儿比地上的一切都高贵，我绝不会要一个不如她的女婿。
+          emotion: angry
+        - id: ch01-b08
+          speaker: rat_father
+          text: 那就把她嫁给太阳好了。据我所知，没有谁比太阳更伟大。
+        - id: ch01-b09
+          speaker: rat_mother
+          text: 嗯，我原本也这样想。既然你跟我想到一处去了，明天我们就去拜访太阳。
+    - id: ch02
+      title: 太阳、云和风
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            第二天一早，老鼠夫妻花了好几个钟头，把自己打扮得体体面面。他们让女儿走在中间，一家三口一同上路。走了很久，他们终于来到太阳的金色宫殿。
+        - id: ch02-b02
+          speaker: rat_mother
+          text: 尊贵的国王，请看看我们的女儿！她美得举世无双，高过世间万物。我们要找的女婿，也必须胜过一切，所以特地来拜访您。
+        - id: ch02-b03
+          speaker: narrator
+          text: 太阳忙得不可开交，根本不想跟任何人结婚。不过，他回答得十分客气。
+        - id: ch02-b04
+          speaker: sun
+          text: >-
+            承蒙你们看重，我非常荣幸。你们来向我提亲，实在给足了我脸面。只是有件事，你们弄错了。我若明知不说，就太不应该了。云比我更强大。你们看！
+        - id: ch02-b05
+          speaker: narrator
+          text: 一片云飘过来，遮住了太阳的脸，也把他的光芒挡得严严实实。
+        - id: ch02-b06
+          speaker: rat_mother
+          text: 哦，那好，我们去问云。
+        - id: ch02-b07
+          speaker: narrator
+          text: 母亲转身对着云，把方才求婚的话又说了一遍。
+        - id: ch02-b08
+          speaker: cloud
+          text: >-
+            这么可爱的姑娘，我实在配不上。不过，你又弄错了一件事。还有一样东西比我更有力量，那就是风。啊，他来了，你们亲眼看看吧。
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            母亲果然看见了。风从旁边冲过，一把卷住云，把她抛到天空另一头。接着，他又把老鼠一家吹得翻滚起来，直落回地面。风在他们身旁停了一会儿，一只脚正踩在一堵老墙上。
+    - id: ch03
+      title: 墙与姑娘的心意
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 母亲好不容易喘过气，马上又讲起那套求婚的话。
+        - id: ch03-b02
+          speaker: wind
+          text: >-
+            这堵墙才适合做你女儿的丈夫。我的家只是一个山洞，只有不在外面到处奔忙时，我才回去住住。你们也看见了，墙能拦住我的去路，他当然比我强。
+        - id: ch03-b03
+          speaker: narrator
+          text: 母亲毫不掩饰自己的打算，立刻转向老墙。就在这时，谁也没料到的事情发生了。一路上始终没有开口的姑娘，忽然哭了出来。
+        - id: ch03-b04
+          speaker: rat_daughter
+          text: >-
+            我不要嫁给这堵难看的老墙！他都跟我祖父一样老了。太阳也好，云也好，风也好，哪怕我心里只爱那只英俊的年轻老鼠，我也会尽本分嫁过去。可这堵可怕的老墙……我宁可死！
+          emotion: sad
+        - id: ch03-b05
+          speaker: narrator
+          text: 老墙听了，感情颇受伤害。他也声明，自己本来就没有资格娶这样美丽的姑娘。
+        - id: ch03-b06
+          speaker: wall
+          text: >-
+            我的确能挡住风，风能吹散云，云能遮住太阳。可有一个家伙，比我们几个都厉害，那就是老鼠。老鼠能钻进我的身体，单凭牙齿就把我啃成粉末。你们若真想找一个胜过全世界的女婿，就去老鼠当中找吧。
+    - id: ch04
+      title: 真正合适的女婿
+      blocks:
+        - id: ch04-b01
+          speaker: rat_father
+          text: 啊，我早跟你说什么来着？
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            母亲一时因为落了下风，心里很生气。可没过多久，她便认定自己从来想要的，本来就是一位老鼠女婿。一家三口欢欢喜喜地回到家里。三天以后，姑娘和那只英俊的年轻老鼠举行了婚礼。
+        - id: ch04-b03
+          speaker: narrator
+          text: 这个故事选自《民间故事集》。

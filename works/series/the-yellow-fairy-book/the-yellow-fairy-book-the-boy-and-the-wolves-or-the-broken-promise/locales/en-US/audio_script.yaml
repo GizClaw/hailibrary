@@ -1,0 +1,130 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, clear, and quietly cautionary
+        timbre: gentle and resonant
+        pace: measured
+        pitch: medium
+    father:
+      display_name: The Hunter
+      tts:
+        delivery: gentle, earnest, and grave
+        timbre: strong and weathered
+        pace: unhurried
+        pitch: low
+    elder_brother:
+      display_name: The Elder Brother
+      tts:
+        delivery: restless and direct, later weighted with remorse
+        timbre: clear and youthful
+        pace: moderate
+        pitch: medium-low
+    sister:
+      display_name: The Sister
+      tts:
+        delivery: thoughtful and firm, with warmth that can turn distant
+        timbre: clear and youthful
+        pace: moderate
+        pitch: medium-high
+    little_brother:
+      display_name: The Little Brother
+      tts:
+        delivery: young, plaintive, and hauntingly simple
+        timbre: light and tender
+        pace: slow
+        pitch: high
+  chapters:
+    - id: ch01
+      title: The Promise
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Long ago, an Indian hunter built a home deep in a great forest, far from his tribe. He was gentle and kind, and he had grown tired of the treachery and cruelty of people he once called friends. He took his wife and three children away with him. Beside a clear stream, they cut down trees and made their wigwam ready.
+        - id: ch01-b02
+          speaker: narrator
+          text: For many years, the family lived there in peace. They left their sheltered home only to hunt the wild animals that gave them food and clothing. Then the strong hunter fell ill, and before long he knew that he was going to die.
+        - id: ch01-b03
+          speaker: narrator
+          text: He called his family close and spoke his last words.
+        - id: ch01-b04
+          speaker: father
+          text: My wife, who has shared all my days, you will follow me to the island of the blessed before many moons have passed. But my children, your lives have only begun. The wickedness, unkindness, and ingratitude I fled from still lie ahead of you. I can leave in peace if you promise always to love one another and never abandon your youngest brother.
+        - id: ch01-b05
+          speakers: [elder_brother, sister, little_brother]
+          ensemble: chorus
+          text: We never will!
+        - id: ch01-b06
+          speaker: narrator
+          text: The children held out their hands as they made their promise, and the hunter died content.
+        - id: ch01-b07
+          speaker: narrator
+          text: Not quite eight moons later, his wife followed him, just as he had said she would. Before she left her children, she reminded the two older ones of their promise. They must never abandon the youngest, because he was still a small, weak child.
+    - id: ch02
+      title: The Elder Brother Leaves
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: While snow lay deep on the ground, the older children cared tenderly for their little brother. But when the earth turned green again, the young man's heart grew restless. He longed to see the village where his father had spent his youth.
+        - id: ch02-b02
+          speaker: narrator
+          text: He told his sister everything he felt. She understood him, but she could not forget their father's warning.
+        - id: ch02-b03
+          speaker: sister
+          text: Brother, I know why you want to be among our own people again. We see no one here. But remember what Father told us. Can we go after what we want and leave the little one behind?
+        - id: ch02-b04
+          speaker: narrator
+          text: Her brother would not listen. Without answering her, he took his bow and arrows and walked away from the hut.
+        - id: ch02-b05
+          speaker: narrator
+          text: Snow fell, then melted, but he did not come home. In time, the girl's heart became cold and hard. Her little brother began to seem like a burden.
+    - id: ch03
+      title: The Second Broken Promise
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: One day, the sister prepared to leave the boy alone.
+        - id: ch03-b02
+          speaker: sister
+          text: Look, I have left enough food here to last for many days. Stay safely inside the hut. I am going to find our brother, and when I do, I will come back here.
+        - id: ch03-b03
+          speaker: narrator
+          text: Her journey was hard, but at last she reached the village where her brother lived. She found that he had a wife and was happy there. Then a young brave wished to marry her too. The sister forgot all about the child alone in the forest and thought only of her husband.
+    - id: ch04
+      title: Among the Wolves
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: The little boy ate all the food his sister had left. Then he went into the woods to gather berries and dig up roots. As long as the sun shone, he had enough to eat and was content.
+        - id: ch04-b02
+          speaker: narrator
+          text: But snow came again, and the wind began to howl. The boy's stomach was empty, and his arms and legs were cold. At night, he hid inside trees. He crept out only to eat scraps that wolves had left behind.
+        - id: ch04-b03
+          speaker: narrator
+          text: The wolves were the only friends he had, so after a while he went to join them. He sat nearby as they ate their prey. Little by little, they came to know him and began to give him food. Without the wolves, he would have died in the snow.
+    - id: ch05
+      title: The Boy at the Lake
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: At last the snow melted, and so did the ice on the great lake. When the wolves went down to the shore, the boy followed them.
+        - id: ch05-b02
+          speaker: narrator
+          text: One day, his elder brother was fishing from a canoe near the shore. Across the water, he heard a child singing in the Indian way.
+        - id: ch05-b03
+          speaker: little_brother
+          text: My brother, my brother! I am becoming a wolf. I am becoming a wolf!
+        - id: ch05-b04
+          speaker: narrator
+          text: At the end of his song, the child howled like a wolf. The elder brother's heart sank. He hurried toward him and called out.
+        - id: ch05-b05
+          speaker: elder_brother
+          text: Brother! Little brother, come back to me!
+        - id: ch05-b06
+          speaker: narrator
+          text: But the boy was already half wolf, and he only sang again. His elder brother called louder, pleading with him to come back. The boy ran faster after his wolf brothers, and his skin grew heavier and heavier. With one long howl, he disappeared into the depths of the forest.
+        - id: ch05-b07
+          speaker: narrator
+          text: Shame and anguish filled the elder brother as he returned to the village. He and his sister mourned the little boy and their broken promise for the rest of his life.

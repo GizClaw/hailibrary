@@ -1,0 +1,238 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and attentive fairy-tale storytelling
+        timbre: clear and gently resonant
+        pace: measured
+        pitch: medium
+    hok_lee:
+      display_name: Hok Lee
+      tts:
+        delivery: guarded, practical, and easily worried
+        timbre: grounded and slightly rough
+        pace: natural
+        pitch: medium-low
+    neighbor:
+      display_name: A Neighbor
+      tts:
+        delivery: curious and plainly spoken
+        timbre: clear and mature
+        pace: natural
+        pitch: medium
+    neighbor_two:
+      display_name: Another Neighbor
+      tts:
+        delivery: admiring and conversational
+        timbre: light and mature
+        pace: natural
+        pitch: medium-high
+    doctor:
+      display_name: The Traveling Doctor
+      tts:
+        delivery: shrewd, grave, and deliberate
+        timbre: dry and resonant
+        pace: measured
+        pitch: low
+    dwarf_leader:
+      display_name: Leader of the Dwarfs
+      tts:
+        delivery: commanding, formal, and quick-tempered
+        timbre: bright and forceful
+        pace: brisk
+        pitch: medium-high
+    dwarf_one:
+      display_name: A Dwarf
+      tts:
+        delivery: lively and suspicious
+        timbre: small and crisp
+        pace: brisk
+        pitch: high
+    dwarf_two:
+      display_name: Second Dwarf
+      tts:
+        delivery: lively and mischievous
+        timbre: small and reedy
+        pace: brisk
+        pitch: high
+    dwarf_three:
+      display_name: Third Dwarf
+      tts:
+        delivery: lively and excitable
+        timbre: small and clear
+        pace: brisk
+        pitch: high
+    dwarf_four:
+      display_name: Fourth Dwarf
+      tts:
+        delivery: lively and emphatic
+        timbre: small and rounded
+        pace: brisk
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: Hok Lee's Secret
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once, in a small town in China, there lived a man named Hok Lee. He worked steadily at his trade and did all his own housework, since he had no wife to do it for him. His neighbors thought him an excellent, hardworking man.
+        - id: ch01-b02
+          speakers: [neighbor, neighbor_two]
+          ensemble: duo
+          text: What an industrious man Hok Lee is! He works so hard. He never goes out for pleasure or takes a holiday like everyone else.
+        - id: ch01-b03
+          speaker: narrator
+          text: But Hok Lee was not nearly as good as his neighbors believed. He worked hard enough in daylight. At night, when respectable people were asleep, he slipped away to join a dangerous band of robbers. They broke into the houses of rich people and carried off everything they could seize.
+        - id: ch01-b04
+          speaker: narrator
+          text: This went on for some time. A thief might be caught and punished now and then, but nobody ever suspected respectable, hardworking Hok Lee. Before long, his share of the stolen goods had brought him a fine store of money.
+        - id: ch01-b05
+          speaker: narrator
+          text: Then one morning, as Hok Lee went to market, a neighbor stopped him.
+        - id: ch01-b06
+          speaker: neighbor
+          text: Hok Lee, what has happened to your face? One side is terribly swollen.
+        - id: ch01-b07
+          speaker: narrator
+          text: It was true. Hok Lee's right cheek was twice the size of his left, and it soon felt very uncomfortable.
+        - id: ch01-b08
+          speaker: hok_lee
+          text: I'll wrap my face in a bandage. Surely the warmth will bring the swelling down.
+        - id: ch01-b09
+          speaker: narrator
+          text: It did no such thing. The next day the cheek was worse. It grew larger day after day until it was almost as big as his head, and it hurt badly. Hok Lee had no idea what to do. The swelling was ugly and painful, and now his neighbors teased him and laughed at him. Their jokes wounded him deeply.
+    - id: ch02
+      title: The Doctor's Price
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: One day, luckily for Hok Lee, a traveling doctor arrived in town. He sold all kinds of medicine, along with strange charms against witches and evil spirits. Hok Lee decided to ask for his help and invited him into the house.
+        - id: ch02-b02
+          speaker: narrator
+          text: The doctor examined the swollen cheek with great care. Then he gave his opinion.
+        - id: ch02-b03
+          speaker: doctor
+          text: Hok Lee, this is no ordinary swelling. I strongly suspect that you have done something wrong and brought the anger of the spirits upon yourself. My medicines cannot cure you. But if you pay me well, I can tell you how to be healed.
+        - id: ch02-b04
+          speaker: narrator
+          text: Hok Lee began to bargain with him, and they argued over the price for a long time. In the end, the doctor won. He refused to reveal his secret for anything less, while Hok Lee could not bear the thought of carrying that enormous cheek for the rest of his life. He had to surrender most of the money he had gained through robbery.
+        - id: ch02-b05
+          speaker: narrator
+          text: Once the money was safely in his pocket, the doctor gave Hok Lee his instructions. On the first night of the full moon, Hok Lee must go to a certain wood and wait beside a particular tree. In time, the dwarfs and little sprites who lived underground would come out to dance. When they saw him, they would certainly make him dance as well.
+        - id: ch02-b06
+          speaker: doctor
+          text: Be sure to dance as well as you possibly can. If your dancing pleases them, they will grant you a request, and you can ask to be cured. But if you dance badly, they will probably do you some harm out of spite.
+        - id: ch02-b07
+          speaker: narrator
+          text: With that warning, the doctor took his leave and went away.
+    - id: ch03
+      title: The First Dance
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Happily, the next full moon was not far away. When the right night came, Hok Lee set out for the wood. After a little searching, he found the tree the doctor had described. He was nervous, so he climbed up among its branches to wait.
+        - id: ch03-b02
+          speaker: narrator
+          text: He had barely settled on a branch when little dwarfs began gathering in the moonlight. They came from every direction until there seemed to be hundreds of them. They were in high spirits, dancing, skipping, and capering all around.
+        - id: ch03-b03
+          speaker: narrator
+          text: Hok Lee watched so eagerly that he crept farther and farther along his branch. At last, the wood gave a loud crack. Every dwarf froze. Hok Lee felt as though his heart had stopped too.
+        - id: ch03-b04
+          speaker: dwarf_leader
+          text: Someone is hiding in that tree. Whoever you are, come down this instant, or we will climb up and fetch you.
+        - id: ch03-b05
+          speaker: narrator
+          text: Terrified, Hok Lee started down. He was so nervous that he tripped near the ground and tumbled the rest of the way in a ridiculous heap. After picking himself up, he stepped forward and bowed very low. The dwarf who had spoken first seemed to be their leader.
+        - id: ch03-b06
+          speaker: dwarf_leader
+          text: Now then, who are you, and why have you come here?
+        - id: ch03-b07
+          speaker: narrator
+          text: Hok Lee told him the sorrowful tale of his swollen cheek. He explained that someone had advised him to come to the wood and ask the dwarfs for a cure.
+        - id: ch03-b08
+          speaker: dwarf_leader
+          text: Very well. We shall consider it. First, you must dance for us. If we enjoy your dancing, perhaps we can help you. If you dance badly, we will certainly punish you. You have been warned. Now dance.
+        - id: ch03-b09
+          speaker: narrator
+          text: The leader and all the other dwarfs sat in a wide ring, leaving Hok Lee alone in the center. He was half dead with fear. His fall from the tree had shaken him badly, and he had no wish to dance at all. But these dwarfs were not creatures to trifle with.
+        - id: ch03-b10
+          speaker: dwarf_leader
+          text: Begin!
+        - id: ch03-b11
+          speakers: [dwarf_one, dwarf_two, dwarf_three, dwarf_four]
+          ensemble: chorus
+          text: Begin!
+        - id: ch03-b12
+          speaker: narrator
+          text: In despair, Hok Lee began. He hopped first on one foot and then on the other. But fear had made him stiff, and his dancing was a poor sight. After a while, he dropped to the ground and declared that he could not dance another step.
+        - id: ch03-b13
+          speaker: narrator
+          text: The dwarfs were furious. They crowded around him and hurled insults at him.
+        - id: ch03-b14
+          speakers: [dwarf_one, dwarf_two, dwarf_three, dwarf_four]
+          ensemble: chorus
+          text: You came here expecting us to cure you? You brought one great cheek with you, but you will carry two away!
+          emotion: angry
+        - id: ch03-b15
+          speaker: narrator
+          text: Then they ran off and vanished, leaving Hok Lee to find his own way home. He hobbled away, tired and miserable, with their threat weighing heavily on his mind.
+    - id: ch04
+      title: A Second Chance
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Hok Lee had good reason to worry. When he rose the next morning, his left cheek was as swollen as his right, and he could hardly see out of his eyes. He was in despair, while his neighbors laughed at him more than ever. The traveling doctor had disappeared. There was nothing Hok Lee could do but try the dwarfs again.
+        - id: ch04-b02
+          speaker: narrator
+          text: He waited a whole month for the first night of the full moon. Then he trudged back to the forest and sat beneath the tree he had fallen from. He did not wait long before the dwarfs came trooping out and gathered together.
+        - id: ch04-b03
+          speaker: dwarf_one
+          text: Something feels wrong. I have the feeling that a horrible human is somewhere nearby.
+        - id: ch04-b04
+          speaker: narrator
+          text: Hearing this, Hok Lee came forward and bowed all the way to the ground. The dwarfs crowded around him and laughed heartily at the comical sight of his two enormous cheeks.
+        - id: ch04-b05
+          speakers: [dwarf_one, dwarf_two, dwarf_three, dwarf_four]
+          ensemble: chorus
+          text: What do you want now?
+        - id: ch04-b06
+          speaker: narrator
+          text: Hok Lee told them about his new misfortune. He begged so earnestly for one more chance to dance that they agreed. After all, nothing pleased them more than being entertained.
+        - id: ch04-b07
+          speaker: narrator
+          text: This time Hok Lee knew exactly how much depended on dancing well. He gathered his courage and began very slowly. Little by little, he moved faster. Soon he was dancing with such skill and grace, making up such strange and wonderful steps, that the dwarfs were delighted.
+        - id: ch04-b08
+          speaker: narrator
+          text: They clapped their tiny hands and called out to him.
+        - id: ch04-b09
+          speakers: [dwarf_one, dwarf_two, dwarf_three, dwarf_four]
+          ensemble: chorus
+          text: Well done, Hok Lee! Keep going. Dance some more. You have pleased us!
+          emotion: happy
+        - id: ch04-b10
+          speaker: narrator
+          text: Hok Lee danced on and on until he truly could go no farther and had to stop.
+        - id: ch04-b11
+          speaker: dwarf_leader
+          text: We are very pleased with you, Hok Lee. To reward your dancing, we will cure your face. Farewell.
+          emotion: happy
+        - id: ch04-b12
+          speaker: narrator
+          text: At those words, the leader and all the other dwarfs vanished. Hok Lee put both hands to his face. To his great joy, his cheeks had returned to their natural size. The road home felt short and easy. He went happily to bed and resolved that he would never join the robbers again.
+    - id: ch05
+      title: Hok Lee's Wonderful Cure
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: By the next day, news of Hok Lee's sudden cure had spread through the whole town. His neighbors questioned him, but he would tell them only that he had discovered a marvelous cure for every kind of illness.
+        - id: ch05-b02
+          speaker: narrator
+          text: Some time later, a rich neighbor who had been ill for years came to see him. The man offered Hok Lee a large amount of money if he would explain how to be cured. Hok Lee agreed, but only after the neighbor swore to keep the secret. Then Hok Lee told him about the dwarfs and their dancing.
+        - id: ch05-b03
+          speaker: narrator
+          text: The neighbor went away and followed Hok Lee's instructions with great care. The dwarfs cured him just as they had cured Hok Lee. Soon another person came begging for the secret, and then another. Each one had to promise silence and pay Hok Lee a large sum.
+        - id: ch05-b04
+          speaker: narrator
+          text: This continued for several years. In the end, Hok Lee became a very wealthy man, and he lived out the rest of his days in peace and prosperity.

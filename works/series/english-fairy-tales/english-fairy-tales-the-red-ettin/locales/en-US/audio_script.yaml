@@ -1,0 +1,254 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and unhurried, with the steady rhythm of an old fireside tale
+        timbre: clear and gently weathered
+        pace: measured
+        pitch: medium
+    mother:
+      display_name: Mother
+      tts:
+        delivery: plainspoken and firm, with a careworn steadiness
+        timbre: warm and weathered
+        pace: measured
+        pitch: medium-low
+    elder_brother:
+      display_name: Elder Brother
+      tts:
+        delivery: direct and youthful, with confidence that gives way to uncertainty
+        timbre: clear and sturdy
+        pace: medium
+        pitch: medium
+    younger_brother:
+      display_name: Younger Brother
+      tts:
+        delivery: thoughtful and resolute, with quiet courage
+        timbre: clear and youthful
+        pace: medium
+        pitch: medium
+    shepherd:
+      display_name: Shepherd
+      tts:
+        delivery: grave and prophetic, with the cadence of an old country rhyme
+        timbre: rough and resonant
+        pace: slow
+        pitch: low
+    old_woman:
+      display_name: Old Woman
+      tts:
+        delivery: cautious and earnest, with an aged country manner
+        timbre: thin and weathered
+        pace: unhurried
+        pitch: medium-high
+    red_ettin_head_one:
+      display_name: Red Ettin's First Head
+      tts:
+        delivery: harsh and threatening, with blunt force
+        timbre: deep and coarse
+        pace: slow
+        pitch: very low
+    red_ettin_head_two:
+      display_name: Red Ettin's Second Head
+      tts:
+        delivery: cold and menacing, with clipped precision
+        timbre: gravelly and dark
+        pace: measured
+        pitch: low
+    red_ettin_head_three:
+      display_name: Red Ettin's Third Head
+      tts:
+        delivery: taunting and cruel, with a rasping edge
+        timbre: rough and sharp
+        pace: medium-slow
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The Elder Brother Sets Out
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Long ago, a widow lived on a little patch of ground that she rented from a farmer. She had two sons. When the time came for them to go out and seek their fortunes, she called her elder son to her.
+        - id: ch01-b02
+          speaker: mother
+          text: Take this can to the well and bring me water. I'll bake you a cake for your journey. If you bring plenty of water, the cake will be large. If you bring only a little, the cake will be small. It is all I have to give you when you leave.
+        - id: ch01-b03
+          speaker: narrator
+          text: The lad filled the can at the well and started home. But the can was broken, and most of the water leaked away before he returned. His mother could make only a very small cake.
+        - id: ch01-b04
+          speaker: mother
+          text: You may take half the cake with my blessing, or you may take the whole cake with my curse.
+        - id: ch01-b05
+          speaker: narrator
+          text: The young man thought the road might be long, and he did not know where he would find more food.
+        - id: ch01-b06
+          speaker: elder_brother
+          text: I'll take the whole cake, whatever may come of your curse.
+        - id: ch01-b07
+          speaker: narrator
+          text: So his mother gave him the whole cake, and her curse went with it. Before leaving, he drew his younger brother aside and handed him a knife.
+        - id: ch01-b08
+          speaker: elder_brother
+          text: Keep this until I return. Look at it every morning. While the blade stays bright, you'll know that I am well. If it turns dull and rusty, then something terrible has happened to me.
+        - id: ch01-b09
+          speaker: narrator
+          text: With that, the elder brother went away to seek his fortune.
+    - id: ch02
+      title: The Castle of the Red Ettin
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: He walked all that day and all the next. On the afternoon of the third day, he came upon a shepherd sitting with a flock of sheep. The young man asked who owned them, and the shepherd answered in a rhyme.
+        - id: ch02-b02
+          speaker: shepherd
+          text: The Red Ettin of Ireland once lived in Ballygan. He stole the daughter of King Malcolm, the king of fair Scotland. He beats her and binds her, and lays her on a band. Each day he strikes her with a bright silver wand. Like Julian the Roman, he is one who fears no man. They say his mortal foe is destined to come, but that man has not been born, and long may it be so.
+        - id: ch02-b03
+          speaker: narrator
+          text: The shepherd warned him to take care when he met the next beasts on the road. They were unlike any creatures he had ever seen.
+        - id: ch02-b04
+          speaker: narrator
+          text: The young man went on until he saw a great crowd of dreadful beasts. Each beast had two heads, and each head had four horns. He was terribly frightened. He fled from them as fast as he could and was glad when he reached a castle on a little hill. Its door stood wide open against the wall.
+        - id: ch02-b05
+          speaker: narrator
+          text: He hurried inside for shelter. The long journey had left him weary. An old woman sat beside the kitchen fire, and he asked if he could spend the night there.
+        - id: ch02-b06
+          speaker: old_woman
+          text: You may stay, but this is no safe place for you. The castle belongs to the Red Ettin. He is a terrible beast with three heads, and he spares no living man he catches.
+        - id: ch02-b07
+          speaker: narrator
+          text: The young man wished he could leave, but he feared the beasts outside.
+        - id: ch02-b08
+          speaker: elder_brother
+          text: Please hide me as well as you can, and do not tell the Ettin I am here. If I can make it through the night, perhaps I can slip away in the morning without meeting those beasts.
+        - id: ch02-b09
+          speaker: narrator
+          text: The old woman hid him, but he had not been there long when the awful Ettin came inside. At once, its three voices cried out together.
+        - id: ch02-b10
+          speakers: [red_ettin_head_one, red_ettin_head_two, red_ettin_head_three]
+          ensemble: chorus
+          text: Snouk but and snouk ben, I smell an earthly man. Living or dead, his heart shall kitchen my bread tonight!
+          emotion: angry
+        - id: ch02-b11
+          speaker: narrator
+          text: The monster soon found the poor young man and dragged him from his hiding place. The Ettin promised to spare his life if he could answer three questions.
+        - id: ch02-b12
+          speaker: red_ettin_head_one
+          text: What is a thing that has no end?
+        - id: ch02-b13
+          speaker: narrator
+          text: The young man did not know.
+        - id: ch02-b14
+          speaker: red_ettin_head_two
+          text: What becomes more dangerous as it grows smaller?
+        - id: ch02-b15
+          speaker: narrator
+          text: Again, the young man had no answer.
+        - id: ch02-b16
+          speaker: red_ettin_head_three
+          text: When do the dead carry the living? Solve that riddle.
+        - id: ch02-b17
+          speaker: narrator
+          text: The lad had to give up. He had failed to answer every question. The Red Ettin took a mallet, struck him on the head, and turned him into a pillar of stone.
+    - id: ch03
+      title: The Younger Brother's Journey
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: The next morning, the younger brother took out the knife. He was grieved to see that the blade had turned brown with rust.
+        - id: ch03-b02
+          speaker: younger_brother
+          text: Mother, the time has come for me to set out on my travels too.
+        - id: ch03-b03
+          speaker: narrator
+          text: His mother asked him to fetch water from the well so she could bake him a cake. He filled the broken can and began carrying it home. Then a raven called from above, telling him to look because the water was leaking out.
+        - id: ch03-b04
+          speaker: narrator
+          text: The younger brother had good sense. When he saw the leak, he stopped the holes with clay. He brought home enough water for his mother to bake a large cake.
+        - id: ch03-b05
+          speaker: mother
+          text: Will you take half the cake with my blessing, or the whole cake with my curse?
+        - id: ch03-b06
+          speaker: younger_brother
+          text: I would rather have half with your blessing.
+        - id: ch03-b07
+          speaker: narrator
+          text: Even half of that large cake was bigger than the whole cake his brother had taken. The younger son set out on his journey.
+        - id: ch03-b08
+          speaker: narrator
+          text: After traveling a long way, he met an old woman who asked him for a piece of his johnny-cake.
+        - id: ch03-b09
+          speaker: younger_brother
+          text: Gladly. You may have some.
+        - id: ch03-b10
+          speaker: narrator
+          text: He gave her a piece of the johnny-cake. In return, she handed him a magical wand. She said it might be useful to him later, if he took care to use it in the right way. The old woman was a fairy. She told him a great deal about what would happen to him and what he should do in every circumstance. Then, in an instant, she vanished from his sight.
+        - id: ch03-b11
+          speaker: narrator
+          text: He traveled much farther and came to the old shepherd with the sheep. Once again, he asked who owned the flock.
+        - id: ch03-b12
+          speaker: shepherd
+          text: The Red Ettin of Ireland once lived in Ballygan. He stole the daughter of King Malcolm, the king of fair Scotland. He beats her and binds her, and lays her on a band. Each day he strikes her with a bright silver wand. Like Julian the Roman, he is one who fears no man. But now I fear his end is near, and destiny is at hand. I plainly see that you will inherit all his land.
+    - id: ch04
+      title: The Three Riddles
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: When the younger brother reached the monstrous beasts, he neither stopped nor ran. He walked boldly among them. One beast rushed at him, roaring with its mouth open to devour him. He struck it with the wand, and it fell dead at his feet that very instant.
+        - id: ch04-b02
+          speaker: narrator
+          text: Soon he reached the Ettin's castle. He knocked and was let inside. The old woman by the fire warned him about the terrible Ettin and told him what had happened to his brother. Still, the young man would not be frightened away.
+        - id: ch04-b03
+          speaker: narrator
+          text: Before long, the monster entered, and its three voices rang through the castle.
+        - id: ch04-b04
+          speakers: [red_ettin_head_one, red_ettin_head_two, red_ettin_head_three]
+          ensemble: chorus
+          text: Snouk but and snouk ben, I smell an earthly man. Living or dead, his heart shall be kitchen to my bread!
+          emotion: angry
+        - id: ch04-b05
+          speaker: narrator
+          text: The Ettin quickly spotted the young man and ordered him out onto the floor. Then the three heads began their questions. But the good fairy had told the young man everything he needed to know.
+        - id: ch04-b06
+          speaker: red_ettin_head_one
+          text: What is a thing that has no end?
+        - id: ch04-b07
+          speaker: younger_brother
+          text: A bowl.
+        - id: ch04-b08
+          speaker: red_ettin_head_two
+          text: What becomes more dangerous as it grows smaller?
+        - id: ch04-b09
+          speaker: younger_brother
+          text: A bridge.
+        - id: ch04-b10
+          speaker: red_ettin_head_three
+          text: When do the dead carry the living? Solve that riddle.
+        - id: ch04-b11
+          speaker: younger_brother
+          text: When a ship sails over the sea with living men inside her.
+        - id: ch04-b12
+          speaker: narrator
+          text: When the Ettin heard every answer, he knew his power was gone. The young man seized an axe and cut off all three of the monster's heads.
+    - id: ch05
+      title: The Prisoners Set Free
+      blocks:
+        - id: ch05-b01
+          speaker: younger_brother
+          text: Show me where the king's daughter is held.
+        - id: ch05-b02
+          speaker: narrator
+          text: The old woman led him upstairs and unlocked door after door. From every room came a beautiful lady whom the Ettin had imprisoned. One of them was the king's daughter.
+        - id: ch05-b03
+          speaker: narrator
+          text: Then the old woman took him down to a low room. A stone pillar stood there. She told him that he had only to touch it with his wand. He did so, and his brother sprang back to life.
+        - id: ch05-b04
+          speaker: narrator
+          text: Every one of the prisoners was overjoyed to be free. They gathered around the young man and thanked him for delivering them from the Red Ettin.
+        - id: ch05-b05
+          speaker: narrator
+          text: The next day, the brothers and all the freed prisoners set off together for the king's court. What a gallant company they made. The king gave his daughter in marriage to the younger brother who had rescued her. He also gave a nobleman's daughter in marriage to the elder brother.
+        - id: ch05-b06
+          speaker: narrator
+          text: And so they all lived happily for the rest of their days.

@@ -1,0 +1,630 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and storylike
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    master_thief:
+      display_name: Master Thief
+      tts:
+        delivery: bold and quick-witted
+        timbre: clear and youthful
+        pace: lively
+        pitch: medium
+    father:
+      display_name: Father
+      tts:
+        delivery: humble and anxious
+        timbre: worn and gentle
+        pace: measured
+        pitch: low
+    old_woman:
+      display_name: Old Woman
+      tts:
+        delivery: wary and practical
+        timbre: aged and dry
+        pace: unhurried
+        pitch: medium-low
+    robber_1:
+      display_name: First Robber
+      tts:
+        delivery: suspicious and rough
+        timbre: coarse and heavy
+        pace: brisk
+        pitch: low
+    robber_2:
+      display_name: Second Robber
+      tts:
+        delivery: hard and calculating
+        timbre: gravelly and firm
+        pace: measured
+        pitch: low
+    robber_3:
+      display_name: Third Robber
+      tts:
+        delivery: blunt and watchful
+        timbre: dark and rugged
+        pace: measured
+        pitch: medium-low
+    ox_owner:
+      display_name: Ox Owner
+      tts:
+        delivery: fretful and excitable
+        timbre: rustic and sturdy
+        pace: lively
+        pitch: medium-low
+    governor:
+      display_name: Governor
+      tts:
+        delivery: authoritative and amused
+        timbre: rich and resonant
+        pace: measured
+        pitch: low
+    household_1:
+      display_name: First House Servant
+      tts:
+        delivery: curious and eager
+        timbre: clear and bright
+        pace: brisk
+        pitch: medium
+    household_2:
+      display_name: Second House Servant
+      tts:
+        delivery: curious and eager
+        timbre: light and clear
+        pace: brisk
+        pitch: medium-high
+    household_3:
+      display_name: Third House Servant
+      tts:
+        delivery: curious and eager
+        timbre: warm and clear
+        pace: brisk
+        pitch: medium
+    priest:
+      display_name: Father Lawrence
+      tts:
+        delivery: proud and theatrical
+        timbre: full and sonorous
+        pace: measured
+        pitch: medium-low
+    goose_girl:
+      display_name: Goose Girl
+      tts:
+        delivery: plainspoken and alert
+        timbre: bright and youthful
+        pace: brisk
+        pitch: medium-high
+    stable_boy_1:
+      display_name: First Stable Boy
+      tts:
+        delivery: sharp and impatient
+        timbre: rough and youthful
+        pace: brisk
+        pitch: medium
+    stable_boy_2:
+      display_name: Second Stable Boy
+      tts:
+        delivery: sympathetic and easygoing
+        timbre: warm and youthful
+        pace: measured
+        pitch: medium
+    stable_boy_3:
+      display_name: Third Stable Boy
+      tts:
+        delivery: weary and direct
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium
+    stable_boy_4:
+      display_name: Fourth Stable Boy
+      tts:
+        delivery: eager and hearty
+        timbre: bright and youthful
+        pace: lively
+        pitch: medium
+    beggar_woman:
+      display_name: Beggar Woman
+      tts:
+        delivery: earthy and spirited
+        timbre: aged and wiry
+        pace: measured
+        pitch: medium-high
+    governors_wife:
+      display_name: Governor's Wife
+      tts:
+        delivery: sensible and trusting
+        timbre: warm and mature
+        pace: measured
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The House in the Wood
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a farmer with three sons and nothing to leave them. He had no land or money to help them earn a living, so he told them they might choose any work they liked and go wherever they pleased. He walked part of the way with them. When they reached a place where three roads met, each son chose a road of his own. Their father said goodbye and went home. What became of the two older sons, I have never been able to discover. The youngest wandered far and wide.
+        - id: ch01-b02
+          speaker: narrator
+          text: One night, as the youngest son crossed a great wood, a terrible storm broke over him. Wind and rain beat against his face until he could hardly open his eyes. Before he knew it, he had lost the track. He could find neither road nor path, but he kept going. At last he saw a light far off among the trees. After a long, long struggle, he reached it. The light came from a large house, and a bright fire showed that someone inside was still awake. He entered and found an old woman busy with her work.
+        - id: ch01-b03
+          speaker: master_thief
+          text: Good evening, mother.
+        - id: ch01-b04
+          speaker: old_woman
+          text: Good evening.
+        - id: ch01-b05
+          speaker: master_thief
+          text: Whew! The weather out there is dreadful tonight.
+        - id: ch01-b06
+          speaker: old_woman
+          text: It certainly is.
+        - id: ch01-b07
+          speaker: master_thief
+          text: May I stay here and sleep for the night?
+        - id: ch01-b08
+          speaker: old_woman
+          text: You had better not. If the men who live here come home and find you, they will kill us both.
+          emotion: fearful
+        - id: ch01-b09
+          speaker: master_thief
+          text: What sort of men are they?
+        - id: ch01-b10
+          speaker: old_woman
+          text: Robbers, and the worst kind too. They stole me when I was little, and I have kept house for them ever since.
+        - id: ch01-b11
+          speaker: master_thief
+          text: I mean to stay anyway. Whatever happens, I won't step outside again in weather like this.
+        - id: ch01-b12
+          speaker: old_woman
+          text: Then you will have to suffer for it.
+        - id: ch01-b13
+          speaker: narrator
+          text: The young man lay down on a bed that stood nearby, but he did not dare close his eyes. That was just as well. Before long, the robbers came home. The old woman told them that a strange young traveler had arrived during the storm. She had warned him and tried to send him away, but she had not been able to make him leave.
+        - id: ch01-b14
+          speaker: robber_1
+          text: Did you notice whether he had any money?
+        - id: ch01-b15
+          speaker: old_woman
+          text: Money? He looks like a tramp. The clothes on his back may be everything he owns.
+        - id: ch01-b16
+          speaker: narrator
+          text: The robbers moved aside and muttered together. They wondered whether they should murder him or find some other way to deal with him. The young man got up and spoke before they could decide. He asked if they needed a servant, because he would be glad enough to work for them.
+        - id: ch01-b17
+          speakers: [robber_1, robber_2, robber_3]
+          ensemble: chorus
+          text: If you are willing to learn our trade, you may stay.
+        - id: ch01-b18
+          speaker: master_thief
+          text: One trade is as good as another to me. When I left home, my father said I could choose any work I wanted.
+        - id: ch01-b19
+          speaker: robber_2
+          text: And you would choose stealing?
+        - id: ch01-b20
+          speaker: master_thief
+          text: Yes. I don't think it will take me long to learn.
+    - id: ch02
+      title: Three Stolen Oxen
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: A man who lived nearby owned three oxen, and he was about to take one into town to sell. The robbers knew of his plan. They told the young man that he could join them if he stole the ox on the road without the owner noticing and without hurting him.
+        - id: ch02-b02
+          speaker: narrator
+          text: The young man found a handsome shoe with a silver buckle in the house and carried it away. He laid it on the road the ox owner would take, then hid beneath a bush. The man soon came along and spotted the shoe.
+        - id: ch02-b03
+          speaker: ox_owner
+          text: That's a fine shoe. If the other one were here, I'd take the pair home. My wife might even be pleasant to me for once.
+        - id: ch02-b04
+          speaker: narrator
+          text: His wife was so cross and ill-tempered that she often beat him, with very little time between one beating and the next. He would dearly have liked to put her in a good humor. Still, one shoe was useless without its mate, so he left it where it lay and walked on. The young man crept from beneath the bush, picked up the shoe, and raced through the wood as fast as he could. Once he was well ahead, he placed the very same shoe farther along the road. When the man reached it with his ox, he thought it was the matching shoe. He was furious with himself for being foolish enough to leave the first one behind.
+        - id: ch02-b05
+          speaker: ox_owner
+          text: I'll run back and get that first shoe. Then I'll bring my wife a good pair, and perhaps she'll give me one kind word.
+        - id: ch02-b06
+          speaker: narrator
+          text: He ran back and searched and searched for a long time, but of course no shoe could be found. At last he had to give up and return with only the shoe in his hand. Meanwhile, the young man had untied the ox and led it away. When the owner came back and found the animal gone, he began to weep and wail. He was certain his wife would be the death of him when she learned what had happened. Then a new thought came to him. He would go home, secretly fetch the second ox, drive it to town, and make sure his wife never heard a word about the first.
+        - id: ch02-b07
+          speaker: narrator
+          text: He slipped home, took the second ox without his wife's knowledge, and started for town again. The robbers learned of it through their magic. They promised that if the young man stole this ox too, without harming its owner, he would become their equal.
+        - id: ch02-b08
+          speaker: master_thief
+          text: That shouldn't be hard at all.
+        - id: ch02-b09
+          speaker: narrator
+          text: He took a rope, looped it beneath his arms, and hung from a tree over the road as though he were dead. The man came by with the ox and felt uneasy when he saw the body.
+        - id: ch02-b10
+          speaker: ox_owner
+          text: Your troubles must have been terrible if they drove you to hang yourself. Well, I can't bring you back to life, so you may stay there.
+        - id: ch02-b11
+          speaker: narrator
+          text: The man continued down the road. The young man dropped from the tree, ran ahead by a shortcut, and hung from another tree before him.
+        - id: ch02-b12
+          speaker: ox_owner
+          text: Are you another poor soul who hanged himself, or some hobgoblin trying to fool me? Whichever you are, I'm leaving you there.
+        - id: ch02-b13
+          speaker: narrator
+          text: Once the man had passed, the young man hurried through the wood and hung over the road a third time. Now the ox owner stopped.
+        - id: ch02-b14
+          speaker: ox_owner
+          text: This is a bad business. Did three men truly hang themselves, or is it witchcraft? I'll find out. If the first two bodies are still there, then it's true. If they are gone, it must be a trick.
+        - id: ch02-b15
+          speaker: narrator
+          text: He tied the ox beside the road and ran back, staring up into every tree as he went. While he was searching for the first two hanging bodies, the young man jumped down, untied the second ox, and led it away. The owner found neither of the earlier bodies. When he hurried back and discovered that his ox had vanished too, he flew into a terrible fury. He wept, shouted, and raged. At last he comforted himself with one final plan. He would secretly take the third ox from home, sell it for a very good price, and somehow make up for everything without his wife finding out.
+        - id: ch02-b16
+          speaker: narrator
+          text: The robbers knew about the third journey too. This time they promised that if the young man stole the last ox, he would become master of their whole band. He went into the wood beside the road. As the man approached, the young thief bellowed from among the trees like a great ox.
+        - id: ch02-b17
+          speaker: narrator
+          text: The ox owner was delighted. He thought he knew the voice of his big lost bullock and hoped to recover both missing animals. He tied the third ox and rushed into the wood. While he searched, the young man led that ox away as well.
+        - id: ch02-b18
+          speaker: narrator
+          text: When the man returned to the road and discovered his third loss, his rage had no bounds. He wept and lamented over all three oxen. For many days he did not dare show his face at home, because he feared his wife would kill him outright. The robbers were not pleased with the result either. They had made the promise, and now they were forced to admit that the young man stood at the head of them all. They did not intend to let him enjoy that place for long. One day they agreed to go out together and attempt some deed they believed he could never equal. The whole band took to the road and left their new master alone in the house.
+    - id: ch03
+      title: The Master Thief Comes Home
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: As soon as the robbers were well away, the young man opened the enclosure and drove all three oxen onto the road. The animals knew the way. They ran straight back to the man from whom they had been stolen, and he was overjoyed to see them safely home. Back at the robbers' house, the young man brought every one of their horses into the yard. He searched through their treasure and chose the most valuable things he could find. Onto the horses he loaded vessels made of gold and silver, splendid clothes, and all kinds of magnificent belongings.
+        - id: ch03-b02
+          speaker: master_thief
+          text: When the robbers return, give them my greetings and my thanks. Tell them I've gone away, and they will have a great deal of trouble finding me.
+        - id: ch03-b03
+          speaker: narrator
+          text: With that message left for the old woman, he drove the train of loaded horses out of the courtyard. He traveled for a long, long time before he found the road along which he had wandered when he first came to the robbers. At last his own country appeared, and soon he could see the cottage where his father lived. Before going closer, he opened the bundles and took out a fine uniform he had found among the stolen goods. It was cut just like a general's. Dressed as a great officer and driving richly laden horses, he entered his father's yard in grand style. Then he walked into the cottage as if he were a stranger and asked whether he could lodge there.
+        - id: ch03-b04
+          speaker: father
+          text: No, indeed! How could I lodge a great gentleman like you? I can barely find clothes and bedding for myself, and what I have is miserable.
+        - id: ch03-b05
+          speaker: master_thief
+          text: You always were a hard man, Father, and you are hard still if you won't let your own son into the house.
+        - id: ch03-b06
+          speaker: father
+          text: Are you really my son?
+          emotion: surprised
+        - id: ch03-b07
+          speaker: master_thief
+          text: Don't you know me anymore?
+        - id: ch03-b08
+          speaker: narrator
+          text: His father recognized him at last.
+        - id: ch03-b09
+          speaker: father
+          text: What trade could make you such a great man so quickly?
+        - id: ch03-b10
+          speaker: master_thief
+          text: You said I could choose any trade I liked. I became an apprentice to thieves and robbers. Now my training is finished, and I am a Master Thief.
+        - id: ch03-b11
+          speaker: narrator
+          text: Close beside the cottage stood the home of the Governor of the province. It was a vast house, and the Governor owned so much money and so many possessions that he did not even know how wealthy he was. He also had a daughter. She was pretty and dainty, and she was good and wise as well. The Master Thief made up his mind that she would be his wife. He told his father to go next door, ask the Governor to give him his daughter, and answer honestly if the Governor asked what trade his son followed.
+        - id: ch03-b12
+          speaker: father
+          text: You must be out of your mind. No sensible person would suggest anything so foolish.
+        - id: ch03-b13
+          speaker: master_thief
+          text: You have to go and ask for her. There is no other choice.
+        - id: ch03-b14
+          speaker: father
+          text: I don't dare say such a thing to the Governor. He is far too rich and powerful.
+        - id: ch03-b15
+          speaker: master_thief
+          text: You will go, whether you want to or not. If kind words won't move you, harsh ones will.
+        - id: ch03-b16
+          speaker: narrator
+          text: His father still refused, so the Master Thief followed him with a large birch stick and threatened him until the poor man went weeping through the Governor's door.
+        - id: ch03-b17
+          speaker: governor
+          text: My good man, what is troubling you?
+        - id: ch03-b18
+          speaker: father
+          text: I had three sons who left home after I told them they could go where they pleased and choose any work. Now my youngest has returned. He threatened me until I came to ask for your daughter as his wife. He told me to say that he is a Master Thief.
+        - id: ch03-b19
+          speaker: narrator
+          text: The father began weeping all over again, but the Governor only laughed.
+        - id: ch03-b20
+          speaker: governor
+          text: Take heart. Tell your son he must prove himself first. On Sunday, everyone in my house will watch the roast turning in the kitchen. If he can steal it right before our eyes, he may have my daughter.
+    - id: ch04
+      title: The Roast and the Priest
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: His father carried the message home, and the Master Thief thought the task sounded easy enough. He set to work at once. First he caught three hares alive and shut them inside a bag. Then he found some old rags and dressed himself in them until he looked so poor and wretched that anyone would pity him. On Sunday morning, disguised as a beggar boy, he slipped into the passage with the bag. The Governor himself and every person in the house stood together in the kitchen. All eyes were fixed on the roast turning over the fire. While they watched it, the Master Thief opened his bag just enough to release one hare. It dashed away and began racing around the yard.
+        - id: ch04-b02
+          speakers: [household_1, household_2, household_3]
+          ensemble: chorus
+          text: Look at that hare! Let's go catch it!
+        - id: ch04-b03
+          speaker: governor
+          text: Leave it alone. There's no sense chasing a hare that's already running away.
+        - id: ch04-b04
+          speaker: narrator
+          text: Not long afterward, the Master Thief released the second hare. The people in the kitchen saw it and naturally believed the first hare had come back. They again begged to run outside and catch it, but once more the Governor said the attempt was useless. Very soon the Master Thief let the third hare slip from the bag. It too bounded into the open and ran round and round the courtyard. The kitchen watchers were certain this was still the same extraordinary hare. They wanted more than ever to chase it, and this time even the Governor was impressed.
+        - id: ch04-b05
+          speaker: governor
+          text: That truly is a remarkable hare. Come on, let's see if we can catch it!
+        - id: ch04-b06
+          speaker: narrator
+          text: The Governor hurried outside, and the whole household followed. The hare raced off with all of them in earnest pursuit. Meanwhile, the Master Thief took the roast from the spit and escaped. I cannot tell you whether the Governor ate any roast meat that day, but he certainly ate no roast hare. He chased it until he was hot and tired.
+        - id: ch04-b07
+          speaker: narrator
+          text: At noon Father Lawrence came to visit. When the Governor explained the trick, the Priest mocked him without mercy.
+        - id: ch04-b08
+          speaker: priest
+          text: I cannot imagine letting a fellow like that make a fool of me!
+        - id: ch04-b09
+          speaker: governor
+          text: Be careful. He may come for you before you even know he's near.
+        - id: ch04-b10
+          speaker: narrator
+          text: Father Lawrence only repeated his boast and kept laughing at the Governor. Later that afternoon, the Master Thief arrived to claim the promised daughter. The Governor tried to flatter him and asked for another display of skill.
+        - id: ch04-b11
+          speaker: governor
+          text: What you did today was not so very difficult. Could you play a truly clever trick on Father Lawrence? He is sitting inside and calling me a fool for falling into your trap.
+        - id: ch04-b12
+          speaker: master_thief
+          text: That wouldn't be very difficult either.
+        - id: ch04-b13
+          speaker: narrator
+          text: The Master Thief disguised himself as a bird. He wrapped a great white sheet around his body, fastened a goose's wings to his back, and climbed a tall maple tree in the Priest's garden. When Father Lawrence came home that evening, a voice called down from the branches.
+        - id: ch04-b14
+          speaker: master_thief
+          text: Father Lawrence! Father Lawrence!
+        - id: ch04-b15
+          speaker: priest
+          text: Who is calling me?
+        - id: ch04-b16
+          speaker: master_thief
+          text: I am an angel. Your piety has earned you a place in heaven while you are still alive. Be ready next Monday night. I will return, put you in a sack, and carry you there. Before I come, pile all your gold, silver, and worldly treasures in your finest parlor.
+        - id: ch04-b17
+          speaker: narrator
+          text: Father Lawrence dropped to his knees beneath the maple tree and thanked the angel for bringing such glorious news. The following Sunday, he stood before his congregation and preached a farewell sermon. He told them that an angel had descended into the great maple in his garden. Because of the Priest's righteousness, the angel had promised to carry him alive into heaven on Monday night. Father Lawrence spoke as if his departure were already certain. Everyone in the church listened, and every person there, old or young, began to weep.
+        - id: ch04-b18
+          speaker: narrator
+          text: On Monday night the Master Thief returned in his angel disguise. The Priest knelt and thanked him once more before climbing into the sack. The moment Father Lawrence was safely inside, the Master Thief dragged him away over stones and tree stumps.
+        - id: ch04-b19
+          speaker: priest
+          text: Oh! Where are you taking me?
+          emotion: fearful
+        - id: ch04-b20
+          speaker: master_thief
+          text: This is the road to heaven, and the road to heaven is never easy.
+        - id: ch04-b21
+          speaker: narrator
+          text: He dragged the Priest until the journey nearly killed him. At last he threw the sack into the Governor's goose house. The geese hissed and pecked until Father Lawrence felt more dead than alive.
+        - id: ch04-b22
+          speaker: priest
+          text: Oh, where have you brought me now?
+          emotion: fearful
+        - id: ch04-b23
+          speaker: master_thief
+          text: Now you are in Purgatory.
+        - id: ch04-b24
+          speaker: narrator
+          text: The Master Thief left him there. Then he went to the Priest's finest parlor and carried away the waiting gold, silver, and precious belongings.
+        - id: ch04-b25
+          speaker: narrator
+          text: Next morning the goose girl came to release the birds. She heard someone groaning inside the sack.
+        - id: ch04-b26
+          speaker: goose_girl
+          text: Good heavens! Who is in there, and what's wrong with you?
+          emotion: surprised
+        - id: ch04-b27
+          speaker: priest
+          text: If you are an angel, please let me out and send me back to earth. No place could be worse than this. The little fiends keep pinching me with their tongs!
+          emotion: fearful
+        - id: ch04-b28
+          speaker: goose_girl
+          text: I'm no angel. I tend the Governor's geese, and those geese are the little fiends that pinched you.
+        - id: ch04-b29
+          speaker: narrator
+          text: She helped him out of the sack.
+        - id: ch04-b30
+          speaker: priest
+          text: The Master Thief did this! My gold, my silver, my best clothes!
+          emotion: angry
+        - id: ch04-b31
+          speaker: narrator
+          text: Wild with rage, Father Lawrence ran home as fast as his legs could carry him. He thought of his gold, his silver, and all his best clothes waiting in the parlor. The goose girl stared after him and thought he must have suddenly gone mad. When the Governor learned how the Priest had been carried toward heaven and dropped among the geese, he laughed until he nearly killed himself. Yet his laughter ended when the Master Thief arrived to claim the promised daughter. The Governor still would not keep his word. Instead, he spoke pleasantly, praised the young man's cleverness, and demanded one more proof before deciding his worth.
+    - id: ch05
+      title: Twelve Horses in the Night
+      blocks:
+        - id: ch05-b01
+          speaker: governor
+          text: I need one more test before I can judge your worth. Twelve horses stand in my stable, and twelve stable boys will sit on them all night, one boy on each horse. If you can steal the horses from beneath them, then I will see what I can do for you.
+        - id: ch05-b02
+          speaker: master_thief
+          text: I can do what you ask, but will I truly get your daughter afterward?
+        - id: ch05-b03
+          speaker: governor
+          text: Yes. If you succeed, I will do my best for you.
+        - id: ch05-b04
+          speaker: narrator
+          text: The Master Thief went to a shop and bought enough brandy to fill two pocket flasks. Into one flask he poured nothing but brandy. Into the other he mixed a powerful sleeping drink. Next he hired eleven men and ordered them to hide behind the Governor's stable after dark. By offering kind words and good payment, he persuaded an elderly woman to lend him her ragged gown and jacket. He put on the clothes, took a staff in one hand, and slung a sack over his back. When evening came, he hobbled toward the Governor's stable looking like an aged beggar woman. The twelve stable boys were watering the horses for the night, and the work kept every one of them busy.
+        - id: ch05-b05
+          speaker: stable_boy_1
+          text: What in the world do you want here?
+        - id: ch05-b06
+          speaker: master_thief
+          text: Oh dear, this cold will freeze a poor old body to death! Please let me sit just inside the stable door.
+        - id: ch05-b07
+          speaker: stable_boy_1
+          text: Absolutely not. Go away at once! If the Governor sees you here, he'll make us pay for it.
+        - id: ch05-b08
+          speaker: stable_boy_2
+          text: Look at the poor helpless creature. She can't hurt anyone. Let her sit by the door.
+        - id: ch05-b09
+          speaker: narrator
+          text: The others argued over whether she could remain. While they talked and tended the horses, the old woman crept farther into the stable and settled behind the door. Once she was there, no one paid attention to her. As the night passed, the boys grew cold sitting motionless on horseback.
+        - id: ch05-b10
+          speaker: stable_boy_1
+          text: Whew, it's bitterly cold!
+        - id: ch05-b11
+          speaker: stable_boy_2
+          text: My teeth won't stop chattering.
+        - id: ch05-b12
+          speaker: stable_boy_3
+          text: I wish we had a little tobacco.
+        - id: ch05-b13
+          speaker: narrator
+          text: One boy had a small amount, so they divided it among themselves and chewed it. That helped briefly, but soon they were freezing again. The disguised thief shivered beside them. Then he drew out the flask of plain brandy. His hands shook the bottle, and he swallowed with a loud gulp.
+        - id: ch05-b14
+          speaker: stable_boy_4
+          text: What have you got in that flask, old woman?
+        - id: ch05-b15
+          speaker: master_thief
+          text: Only a little drop of brandy, sir.
+        - id: ch05-b16
+          speakers: [stable_boy_1, stable_boy_2, stable_boy_3, stable_boy_4]
+          ensemble: chorus
+          text: Brandy? Give us a drink! Let us have some!
+        - id: ch05-b17
+          speaker: master_thief
+          text: But there's hardly any left. It won't even wet your mouths.
+        - id: ch05-b18
+          speaker: narrator
+          text: The boys would not accept a refusal. They were determined to taste the brandy, and the poor old woman seemed to have no choice but to share it. This time the disguised thief drew out the flask that held the sleeping drink. The trembling hands became perfectly steady. The Master Thief guided the bottle to the first boy's lips, then moved from rider to rider, measuring the drink so that each received exactly as much as he needed. He had planned it perfectly. Before the twelfth stable boy had swallowed his share, the first was already sitting on his horse and snoring.
+        - id: ch05-b19
+          speaker: narrator
+          text: The Master Thief threw off his rags. One by one, he lifted the sleeping boys from their saddles and gently placed them astride the wooden partitions between the stalls. Then he called the eleven men waiting outside. Each man mounted a horse, and together they rode away with all twelve.
+        - id: ch05-b20
+          speaker: narrator
+          text: In the morning the Governor came to inspect the stable. The boys were only just beginning to wake from their drugged sleep. Still believing they sat on the horses, they drove their spurs into the wooden partitions until splinters flew in every direction. Some lost their balance and tumbled to the floor. Others remained hanging across the boards, gripping them as if they were saddles and staring foolishly around the empty stalls.
+        - id: ch05-b21
+          speaker: governor
+          text: I can easily tell who visited last night. What a worthless lot you are! You sat here and let the Master Thief steal the horses right out from under you.
+          emotion: angry
+        - id: ch05-b22
+          speaker: narrator
+          text: Every stable boy received a beating for keeping such poor watch. Later that day the Master Thief came, told the Governor what he had done, and asked for the daughter he had been promised. Instead, the Governor gave him one hundred dollars and demanded something better.
+    - id: ch06
+      title: The Governor's Own Horse
+      blocks:
+        - id: ch06-b01
+          speaker: governor
+          text: Could you steal my horse from underneath me while I am riding it?
+        - id: ch06-b02
+          speaker: master_thief
+          text: It might be possible, if I knew for certain that I would get your daughter.
+        - id: ch06-b03
+          speaker: narrator
+          text: The Governor said only that he would see what he could do. He named a day when he would ride on the great common where the soldiers trained.
+        - id: ch06-b04
+          speaker: narrator
+          text: The Master Thief immediately found a worn-out old mare. From green willow twigs and branches of broom he made a rough collar for her. He bought a shabby cart and a huge cask to place upon it. Then he found a poor old beggar woman and offered her ten dollars for a peculiar piece of work. She must climb inside the empty cask and keep her mouth wide open beneath the tap-hole while he pressed one finger into the hole from outside. He promised that no harm would come to her. She would only be driven around for a little while. Better still, every time after the first that he pulled his finger away, she would receive another ten dollars.
+        - id: ch06-b05
+          speaker: narrator
+          text: He dressed in rags, blackened his face with soot, and put on a wig and a long beard made of goat hair. No one could have recognized him. Then he drove to the parade ground, where the Governor had already been riding for a long while.
+        - id: ch06-b06
+          speaker: narrator
+          text: The mare moved so slowly that the cart seemed fixed to the ground. She tugged it a little forward, slipped a little back, and stopped. Then she strained forward once more. The performance was so convincing that the Governor never suspected the ragged driver. He rode straight over and asked whether the man had seen anyone hiding near the wood.
+        - id: ch06-b07
+          speaker: master_thief
+          text: No, sir. I haven't seen anyone.
+        - id: ch06-b08
+          speaker: governor
+          text: Ride into that wood and search it carefully for a man who may be hiding there. You may borrow my horse, and I'll pay you well for your trouble.
+        - id: ch06-b09
+          speaker: master_thief
+          text: I don't know if I can. I'm taking this cask of mead to a wedding, but the tap fell out along the road. I have to keep my finger in the hole while I drive.
+        - id: ch06-b10
+          speaker: governor
+          text: Go and search. I will watch the cask and your mare.
+        - id: ch06-b11
+          speaker: master_thief
+          text: Very well, but the instant I pull my finger out, you must put yours into the hole.
+        - id: ch06-b12
+          speaker: narrator
+          text: The Governor promised to be careful. The Master Thief pulled out his finger, let the Governor take his place, and mounted the Governor's horse. Then he rode away.
+        - id: ch06-b13
+          speaker: narrator
+          text: Time passed. It grew later and later, but the ragged man did not return. At last the Governor grew tired of holding his finger in the tap-hole, so he drew it out.
+        - id: ch06-b14
+          speaker: beggar_woman
+          text: Now you've earned me another ten dollars!
+        - id: ch06-b15
+          speaker: narrator
+          text: At the sound of the voice inside the cask, the Governor finally understood what kind of mead he had been guarding. He took his finger away for good, abandoned the miserable cart and mare, and started home on foot. He had walked only a short distance when he met one of his own servants coming toward him. The servant was leading the Governor's horse, for the Master Thief had already ridden it to the house and safely handed it over before disappearing.
+        - id: ch06-b16
+          speaker: narrator
+          text: The next day the Master Thief again asked for the Governor's daughter. Once more, the Governor put him off with flattering words. He gave him three hundred dollars and called for one final masterpiece. If the thief could accomplish it, he would receive the daughter at last.
+        - id: ch06-b17
+          speaker: master_thief
+          text: Perhaps I can. What is this final task?
+        - id: ch06-b18
+          speaker: governor
+          text: Can you steal the sheet from our bed and my wife's nightgown?
+        - id: ch06-b19
+          speaker: master_thief
+          text: That is certainly possible. I only wish getting your daughter were just as easy.
+    - id: ch07
+      title: The Last Masterpiece
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: Late that night, the Master Thief went to the gallows. A thief's body was hanging there, so he cut it down, lifted it onto his own shoulders, and carried it away. Then he found a long ladder and set it against the wall beneath the Governor's bedroom window. He climbed to the top with the dead man. From outside the glass, he slowly raised the dead man's head into view, then lowered it again. Anyone lying inside would think a living man was standing on the ladder and repeatedly peeping into the room.
+        - id: ch07-b02
+          speaker: governor
+          text: There he is, mother! The Master Thief! I'll shoot him now.
+        - id: ch07-b03
+          speaker: narrator
+          text: The Governor reached for the rifle beside his bed.
+        - id: ch07-b04
+          speaker: governors_wife
+          text: Oh, don't do that. You were the one who arranged for him to come.
+        - id: ch07-b05
+          speaker: governor
+          text: No, mother. I mean to shoot him.
+        - id: ch07-b06
+          speaker: narrator
+          text: The Governor lay in bed with the rifle raised. He aimed, then aimed again. No sooner did the head rise into sight than it dropped out of view, and every shot he prepared was spoiled. At last the Master Thief held it up for one moment longer. The Governor caught his chance and fired. The dead body toppled from the ladder and struck the ground below with a heavy thud. At the same instant, the Master Thief hurried down as fast as he could and hid nearby.
+        - id: ch07-b07
+          speaker: governor
+          text: I may be the most important man here, but people love to talk. It would be very awkward if anyone saw this body. I had better go outside and bury him.
+        - id: ch07-b08
+          speaker: governors_wife
+          text: Do whatever you think is best, father.
+        - id: ch07-b09
+          speaker: narrator
+          text: The Governor climbed out of bed, dressed, and went downstairs to deal with the body. As soon as he passed through the outer door, the Master Thief slipped from his hiding place and entered the house behind him. He went straight upstairs to the bedroom. In the darkness, the Governor's wife heard a man return and naturally believed that her husband had already finished his unpleasant work.
+        - id: ch07-b10
+          speaker: governors_wife
+          text: Well, father dear, are you finished already?
+        - id: ch07-b11
+          speaker: master_thief
+          text: Yes. I put him in a hole and raked a little earth over him. The weather is dreadful, so that was all I could manage tonight. I'll bury him properly later. Please give me the sheet to wipe myself. Carrying him left me covered in blood.
+        - id: ch07-b12
+          speaker: narrator
+          text: She handed him the sheet.
+        - id: ch07-b13
+          speaker: master_thief
+          text: I'll need your nightgown too. The sheet isn't enough.
+        - id: ch07-b14
+          speaker: narrator
+          text: She gave him her nightgown as well. The Master Thief now had exactly what the Governor had challenged him to steal. Before the woman could expect him to climb into bed, he said he had just remembered leaving the house door unlocked. He must go downstairs and secure it first. Then he walked out of the bedroom, down the stairs, and straight through that unlocked door, carrying both the sheet and the nightgown away with him.
+        - id: ch07-b15
+          speaker: narrator
+          text: An hour later, the real Governor came back.
+        - id: ch07-b16
+          speaker: governors_wife
+          text: Father, it took you a very long time to lock the door. And what did you do with the sheet and my nightgown?
+        - id: ch07-b17
+          speaker: governor
+          text: What are you talking about?
+        - id: ch07-b18
+          speaker: governors_wife
+          text: I mean the nightgown and sheet you took to wipe the blood from yourself.
+        - id: ch07-b19
+          speaker: governor
+          text: Good heavens! Has he beaten me again?
+          emotion: surprised
+        - id: ch07-b20
+          speaker: narrator
+          text: When daylight came, the Master Thief appeared at the Governor's house with the sheet and nightgown. Once again he asked for the Governor's daughter, just as he had been promised after every test. This time the Governor did not dare offer more fine words or invent another task. He gave the young man his daughter and added a great deal of money besides. He feared that if he broke his promise again, the Master Thief might steal the very eyes from his head. He also feared that every man in the province would hear of it and speak badly of him.
+        - id: ch07-b21
+          speaker: narrator
+          text: From that time on, the Master Thief lived well and happily. Whether he ever stole again, I cannot tell you. If he did, it was only for pastime.

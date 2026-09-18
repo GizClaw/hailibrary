@@ -1,0 +1,112 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 温暖从容，带着轻快而略显调皮的讲故事口吻
+        timbre: 清澈柔和
+        pace: 舒缓而富有变化
+        pitch: 中音
+    grandfather_frog:
+      display_name: 蛙爷爷
+      tts:
+        delivery: 老成自信，说话慢悠悠，偶尔带一点卖关子的神气
+        timbre: 低沉浑厚
+        pace: 舒缓
+        pitch: 低音
+    breeze_1:
+      display_name: 快乐小风儿一号
+      tts:
+        delivery: 活泼好奇，礼貌中透着急切
+        timbre: 轻盈清亮
+        pace: 明快
+        pitch: 高音
+    breeze_2:
+      display_name: 快乐小风儿二号
+      tts:
+        delivery: 热情灵动，齐声说话时干净利落
+        timbre: 柔亮轻巧
+        pace: 明快
+        pitch: 中高音
+    breeze_3:
+      display_name: 快乐小风儿三号
+      tts:
+        delivery: 天真爽朗，反应直接自然
+        timbre: 清脆明净
+        pace: 稍快
+        pitch: 高音
+    stranger:
+      display_name: 北方来的陌生客
+      tts:
+        delivery: 寡言淡定，回答简短，带着不愿停下手中事情的随意
+        timbre: 粗厚沉稳
+        pace: 缓慢
+        pitch: 低音
+  chapters:
+    - id: ch01
+      title: 满肚子的新鲜事
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 西风妈妈的快乐小风儿们，今天可兴奋坏了。真的，先生，它们简直一刻也停不下来。它们刚碰见快乐杰克松鼠和彼得兔，听说那两个朋友在绿森林里发现了好些古怪东西。它们满肚子装的都是这件新鲜事。于是，小风儿们匆匆吹过绿草地，一会儿赶到这边，一会儿又转去那边，每碰见一个人就讲上一遍。最后，它们赶到微笑池塘，把事情从头到尾，又快又急地讲给蛙爷爷听。
+        - id: ch01-b02
+          speaker: narrator
+          text: 蛙爷爷先把那件黄白相间的背心仔细抚平，又摆出一副什么都懂的神气。要知道，他年纪很大，也总显得很有见识。
+        - id: ch01-b03
+          speaker: grandfather_frog
+          text: 嗤，我知道那些东西是什么。
+        - id: ch01-b04
+          speakers: [breeze_1, breeze_2, breeze_3]
+          ensemble: chorus
+          text: 是什么？快乐杰克说，那些东西准不是长出来的，因为那边根本没有陌生的植物呀！
+    - id: ch02
+      title: 蛙爷爷的谜题
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 蛙爷爷张开大嘴，啪的一声，吞掉了一只糊涂的绿苍蝇。那只苍蝇刚好被一个快乐小风儿吹到他面前。
+        - id: ch02-b02
+          speaker: grandfather_frog
+          text: 咕咚呱！会长出来的东西，不一定都长在植物上。我敢肯定，那些东西就是长出来的，只是没长在植物上。
+        - id: ch02-b03
+          speaker: narrator
+          text: 快乐小风儿们听得糊里糊涂。
+        - id: ch02-b04
+          speaker: breeze_1
+          text: 什么东西会长出来，却不长在植物上呢？
+        - id: ch02-b05
+          speaker: grandfather_frog
+          text: 彼得兔脚趾上的爪子会不会长？快乐杰克尾巴上的毛会不会长？
+        - id: ch02-b06
+          speaker: narrator
+          text: 这下，快乐小风儿们有点儿不好意思了。
+        - id: ch02-b07
+          speakers: [breeze_1, breeze_2, breeze_3]
+          ensemble: chorus
+          text: 对呀，我们怎么没想到！不过，那些扎人的怪东西肯定不是爪子，更不可能是毛。
+        - id: ch02-b08
+          speaker: grandfather_frog
+          text: 可别这么肯定。你们去绿森林看看，这回别低头找，要抬头瞧树梢。找到什么，再回来告诉我。
+    - id: ch03
+      title: 树顶上的陌生客
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 快乐小风儿们飞快地奔向绿森林，在一棵棵树的顶上找了起来。没过多久，它们就在一棵大白杨高高的树顶上看见了一个陌生客。他比绿草地上的小动物们都大，嘴里长着尖利的长牙，正用牙把树皮一条条剥下来。他那身长毛里，露出上千支小尖矛，跟快乐杰克和彼得兔说的怪东西一模一样。小风儿们先礼貌地向他问好。
+        - id: ch03-b02
+          speakers: [breeze_1, breeze_2, breeze_3]
+          ensemble: chorus
+          text: 早上好！
+        - id: ch03-b03
+          speaker: stranger
+          text: 嗯，早上好。
+        - id: ch03-b04
+          speaker: breeze_1
+          text: 请问，您是从哪儿来的？
+        - id: ch03-b05
+          speaker: stranger
+          text: 我从北方森林来。
+        - id: ch03-b06
+          speaker: narrator
+          text: 陌生客说完，又低头忙自己的事去了。看样子，他非要把那棵树的皮全部剥光，再一口不剩地吃掉不可。

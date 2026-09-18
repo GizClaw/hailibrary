@@ -1,0 +1,155 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 郑重而亲切，带着学者讲述旧日故事的从容
+        timbre: 温暖清晰，沉稳而有书卷气
+        pace: 舒缓，论述转折处稍作停顿
+        pitch: 中低
+    bodhisatta:
+      display_name: 菩萨
+      tts:
+        delivery: 明智从容，劝诫时坦率而不失敬意
+        timbre: 温厚清朗
+        pace: 舒缓
+        pitch: 中低
+    king:
+      display_name: 国王
+      tts:
+        delivery: 平日健谈直率，受到点醒时略带迟疑
+        timbre: 洪亮饱满
+        pace: 适中偏快
+        pitch: 中低
+    tortoise:
+      display_name: 乌龟
+      tts:
+        delivery: 热情健谈，受人议论时冲动而傲慢
+        timbre: 粗哑结实
+        pace: 适中偏快
+        pitch: 中
+    wild_duck_1:
+      display_name: 野鸭甲
+      tts:
+        delivery: 友善爽快，叮嘱朋友时认真清楚
+        timbre: 清亮轻快
+        pace: 适中
+        pitch: 中高
+    wild_duck_2:
+      display_name: 野鸭乙
+      tts:
+        delivery: 亲切稳重，说话简洁明快
+        timbre: 柔和清脆
+        pace: 适中
+        pitch: 中高
+    villager_1:
+      display_name: 村民甲
+      tts:
+        delivery: 见到奇景时直率惊奇
+        timbre: 明亮朴实
+        pace: 适中偏快
+        pitch: 中
+    villager_2:
+      display_name: 村民乙
+      tts:
+        delivery: 见到奇景时直率惊奇
+        timbre: 粗厚朴实
+        pace: 适中偏快
+        pitch: 中低
+    villager_3:
+      display_name: 村民丙
+      tts:
+        delivery: 见到奇景时直率惊奇
+        timbre: 清脆朴实
+        pace: 适中偏快
+        pitch: 中高
+  chapters:
+    - id: ch01
+      title: 黄金洞的邀请
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，梵授王统治着波罗奈。未来的佛陀出生在一个大臣之家。长大以后，他成了国王的顾问。无论政事还是修行的道理，国王都向他请教。
+        - id: ch01-b02
+          speaker: narrator
+          text: 这位国王话实在太多。他只要一开口，别人一句也插不进去。未来的佛陀想治好这个毛病，一直在等合适的机会。
+        - id: ch01-b03
+          speaker: narrator
+          text: 喜马拉雅山里有一方池塘，住着一只乌龟。两只年轻的罕萨鸟，也就是野鸭，常来觅食。日子久了，它们和乌龟成了亲密的朋友。一天，两只野鸭邀请乌龟去做客。
+        - id: ch01-b04
+          speakers: [wild_duck_1, wild_duck_2]
+          ensemble: duo
+          text: 乌龟朋友，我们住在喜马拉雅山地的美丽山上。那里有座黄金洞，快活极了。你愿意跟我们一起去吗？
+        - id: ch01-b05
+          speaker: tortoise
+          text: 我当然愿意。可我怎么才能到那里呢？
+        - id: ch01-b06
+          speakers: [wild_duck_1, wild_duck_2]
+          ensemble: duo
+          text: 只要你一路管住舌头，不跟任何人说话，我们就能带你去。
+        - id: ch01-b07
+          speaker: tortoise
+          text: 这还不容易！我一定不开口。快带我走吧。
+        - id: ch01-b08
+          speaker: narrator
+          text: 野鸭找来一根木棍，让乌龟牢牢咬住中间，自己各衔住一头。随后，它们展开翅膀，带着乌龟飞上天空。
+    - id: ch02
+      title: 一句话惹来的灾祸
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 两只野鸭衔着木棍往前飞，乌龟就悬在它们中间。地上的村民抬头看见这副奇景，忍不住一齐喊起来。
+        - id: ch02-b02
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
+          text: 快看哪！两只野鸭衔着一根木棍，竟然抬着一只乌龟在天上飞！
+          emotion: surprised
+        - id: ch02-b03
+          speaker: narrator
+          text: 乌龟听见以后，立刻想顶回去。它心里有句话直往嘴边冲。
+        - id: ch02-b04
+          speaker: tortoise
+          text: 我的朋友爱怎么带我就怎么带我，关你们这些下贱奴才什么事！
+          emotion: angry
+        - id: ch02-b05
+          speaker: narrator
+          text: 可乌龟忘了，自己还咬着木棍。它一开口，嘴就松了。这时，野鸭飞得正快，刚好来到波罗奈的王宫上空。乌龟从天上直落下去，掉进露天庭院，摔成了两半。
+        - id: ch02-b06
+          speakers: [villager_1, villager_2, villager_3]
+          ensemble: chorus
+          text: 一只乌龟掉进王宫庭院，摔成两半啦！
+          emotion: surprised
+    - id: ch03
+      title: 菩萨劝王
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 惊呼声传开以后，国王带着未来的佛陀赶到庭院，群臣也簇拥在他们身边。国王低头看着地上的乌龟，转身问自己的老师。
+        - id: ch03-b02
+          speaker: king
+          text: 老师，这只乌龟怎么会从天上掉到这里？
+        - id: ch03-b03
+          speaker: narrator
+          text: 未来的佛陀明白，等待已久的机会来了。他想，乌龟一定和野鸭交了朋友。野鸭叫它咬住木棍，想带它到山里去。可它听见别人说话，偏偏管不住舌头。它一开口，便松开木棍，从空中落下，丢掉了性命。
+        - id: ch03-b04
+          speaker: bodhisatta
+          text: 大王，人们所说的长舌鬼，就是那些一开口便没完没了的人。这样的人，最后往往会落到这只乌龟的下场。
+        - id: ch03-b05
+          speaker: narrator
+          text: 说完，未来的佛陀看着国王，吟出了两节偈子。
+        - id: ch03-b06
+          speaker: bodhisatta
+          text: 乌龟开口发一声，竟把自己的性命送。木棍原本咬得紧，只因一句便丧生。大力无双的王啊，请看它的模样！该说时才说，把明智的话讲。你看，只因言语太多，乌龟才落得这般凄凉！
+        - id: ch03-b07
+          speaker: narrator
+          text: 国王听着听着，明白老师说的正是自己。他有些迟疑地问道。
+        - id: ch03-b08
+          speaker: king
+          text: 老师，您这些话，是说给我们听的吗？
+        - id: ch03-b09
+          speaker: bodhisatta
+          text: 大王，我说的不只是您。无论是谁，只要说起话来没有分寸，就可能遇上这样的灾祸。
+        - id: ch03-b10
+          speaker: narrator
+          text: 国王听进了这番劝告。从那以后，他懂得克制自己，再也不像从前那样说个不停，渐渐成了一个少言寡语的人。

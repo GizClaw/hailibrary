@@ -1,0 +1,188 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: "steady, vivid folktale storytelling"
+        timbre: "warm and resonant"
+        pace: "measured"
+        pitch: "medium"
+    goldsmith:
+      display_name: Goldsmith
+      tts:
+        delivery: "smooth, clever, and boldly deceptive"
+        timbre: "rich and mature"
+        pace: "measured"
+        pitch: "medium-low"
+    cowherd:
+      display_name: Cowherd
+      tts:
+        delivery: "weary, reluctant, and easily led"
+        timbre: "plain and sturdy"
+        pace: "unhurried"
+        pitch: "medium-low"
+    other_cowherd:
+      display_name: Other Cowherd
+      tts:
+        delivery: "blunt, careless, and matter-of-fact"
+        timbre: "dry and rough"
+        pace: "steady"
+        pitch: "medium"
+    stranger:
+      display_name: Rich Stranger
+      tts:
+        delivery: "self-important, then frightened and pleading"
+        timbre: "polished and full"
+        pace: "measured"
+        pitch: "medium"
+    villager_1:
+      display_name: First Villager
+      tts:
+        delivery: "greedy, forceful, and quick to believe"
+        timbre: "coarse and strong"
+        pace: "brisk"
+        pitch: "medium-low"
+    villager_2:
+      display_name: Second Villager
+      tts:
+        delivery: "eager, suspicious, and excitable"
+        timbre: "sharp and clear"
+        pace: "quick"
+        pitch: "medium-high"
+    villager_3:
+      display_name: Third Villager
+      tts:
+        delivery: "gruff, grasping, and impulsive"
+        timbre: "gravelly and broad"
+        pace: "steady"
+        pitch: "low"
+    villager_4:
+      display_name: Fourth Villager
+      tts:
+        delivery: "restless, doubtful, and easily swayed"
+        timbre: "light and wiry"
+        pace: "brisk"
+        pitch: "medium-high"
+  chapters:
+    - id: ch01
+      title: The Cowherd's Quarrel
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "Once upon a time, a goldsmith lived in a village full of people as wicked, greedy, and grasping as they could be. Yet the goldsmith did well there. He was fat and prosperous, and he had just one friend he cared for. This friend was a cowherd who tended a farmer's cattle. Every evening, the goldsmith walked over to his house with the same invitation."
+        - id: ch01-b02
+          speaker: goldsmith
+          text: "Come along. Let's take a walk."
+        - id: ch01-b03
+          speaker: narrator
+          text: "The cowherd never wanted an evening walk. He would explain that he had spent the whole day roaming with the cattle. When night came, all he wanted was to sit down. But the goldsmith would not leave him in peace. He kept bothering the poor man until he went along against his will. At last, the cowherd grew so annoyed that he began looking for a way to quarrel with his friend. Then, he thought, the goldsmith would stop asking him to walk. He went to another cowherd for advice."
+        - id: ch01-b04
+          speaker: other_cowherd
+          text: "Go and kill the goldsmith's wife. After that, he'll surely treat you as an enemy."
+        - id: ch01-b05
+          speaker: narrator
+          text: "It was wicked advice, but the cowherd was foolish enough to follow it. There were no laws in that country certain to punish such a crime. One evening, he took a heavy stick to the goldsmith's house. Mrs. Goldsmith was alone. He struck her head so hard that she died at once."
+    - id: ch02
+      title: A Thousand Gold Pieces
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "The goldsmith came home and found his wife dead. He said nothing. He carried her into the dark lane, stood her against the wall of his house, and went to wait in the courtyard. Before long, a rich stranger came down the lane. He saw the figure by the wall and thought it was someone standing there."
+        - id: ch02-b02
+          speaker: stranger
+          text: "Good evening, friend. It's a fine night tonight."
+        - id: ch02-b03
+          speaker: narrator
+          text: "Mrs. Goldsmith gave no answer. The stranger spoke again, more loudly, but still heard nothing. The third time, he shouted."
+        - id: ch02-b04
+          speaker: stranger
+          text: "Good evening! Are you deaf?"
+        - id: ch02-b05
+          speaker: narrator
+          text: "The figure did not move. The stranger took this silence for terrible rudeness. In anger, he picked up a large stone and threw it at her."
+        - id: ch02-b06
+          speaker: stranger
+          text: "That should teach you some manners!"
+          emotion: angry
+        - id: ch02-b07
+          speaker: narrator
+          text: "Poor Mrs. Goldsmith fell over at once. The stranger stared in horror at what he thought he had done. Then the goldsmith rushed from the courtyard and seized him, screaming."
+        - id: ch02-b08
+          speaker: goldsmith
+          text: "You wretch! You've killed my wife! You miserable man, I'll see that justice is done!"
+          emotion: angry
+        - id: ch02-b09
+          speaker: narrator
+          text: "They argued fiercely. The stranger protested again and again that it had been a sad accident, while the goldsmith heaped blame upon him. The frightened man begged the goldsmith to say nothing and promised to pay him well in return. At last, the goldsmith let himself be soothed and accepted one thousand gold pieces. The stranger helped bury the dead woman, then hurried to the guest house, packed his belongings, and fled before daylight. He feared the goldsmith might change his mind and accuse him of murder."
+        - id: ch02-b10
+          speaker: narrator
+          text: "Soon everyone could see that the goldsmith had extra money. The villagers questioned him until they demanded to know where his sudden wealth had come from."
+        - id: ch02-b11
+          speaker: goldsmith
+          text: "Oh, my wife died, so I sold her."
+        - id: ch02-b12
+          speakers: [villager_1, villager_2, villager_3, villager_4]
+          ensemble: chorus
+          text: "You sold your dead wife?"
+          emotion: surprised
+        - id: ch02-b13
+          speaker: goldsmith
+          text: "Yes, I did."
+        - id: ch02-b14
+          speaker: villager_1
+          text: "How much did you get for her?"
+        - id: ch02-b15
+          speaker: goldsmith
+          text: "One thousand gold pieces."
+    - id: ch03
+      title: Into the River
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "The villagers hurried home. Each man seized his own wife and strangled her. The next day, they all set out to sell their dead wives. They trudged for mile after weary mile, offering the bodies to everyone they met. No one would buy. All they received were harsh words, laughter, or directions to the nearest cemetery. At last, weary and furious, they understood that the goldsmith had somehow cheated them."
+        - id: ch03-b02
+          speaker: narrator
+          text: "They rushed home, grabbed the unhappy goldsmith, and ignored every cry and plea he made. Down at the riverbank, they threw him with a great plop into the deepest, weediest, nastiest water they could find."
+        - id: ch03-b03
+          speakers: [villager_1, villager_2, villager_3, villager_4]
+          ensemble: chorus
+          text: "That will teach him to trick us! He can't swim, so he'll drown, and he won't trouble us again."
+          emotion: angry
+        - id: ch03-b04
+          speaker: narrator
+          text: "The goldsmith truly could not swim. He sank beneath the surface at once, and his enemies went away believing they had seen the last of him. But the current carried him, half drowned, beyond the next bend. There he came upon a snag, a piece of a tree or bush floating almost entirely underwater. He clung to it. By extraordinary luck, he finally reached the bank two or three miles downstream."
+        - id: ch03-b05
+          speaker: narrator
+          text: "Near the place where he came ashore stood a fine, fat cow buffalo. The goldsmith climbed straight onto her back and rode home. When the villagers saw him, they ran out in astonishment."
+        - id: ch03-b06
+          speaker: villager_2
+          text: "Where in the world did you come from? And where did you find that buffalo?"
+          emotion: surprised
+    - id: ch04
+      title: Buffaloes Beneath the Water
+      blocks:
+        - id: ch04-b01
+          speaker: goldsmith
+          text: "Ah, you have no idea what wonderful adventures I've had! Down where you threw me, beneath the river, I found meadows, trees, rich pastures, buffaloes, and every kind of cattle. I could hardly make myself leave. But I knew I had to come back and tell you all about it."
+        - id: ch04-b02
+          speaker: narrator
+          text: "The greedy villagers thought only of buffaloes free for the taking. The goldsmith encouraged them, and nearly everyone hurried to the river the very next morning. They wanted to reach that beautiful place quickly, so they tied heavy stones around their feet and necks. Then, one after another, they leaped into the water and drowned."
+        - id: ch04-b03
+          speaker: narrator
+          text: "Whenever someone waved his arms and struggled, the goldsmith called to those still on shore."
+        - id: ch04-b04
+          speaker: goldsmith
+          text: "Look! He's waving for the rest of you to follow. He must have found a splendid buffalo!"
+        - id: ch04-b05
+          speaker: narrator
+          text: "Any villager who had hesitated now jumped in too. This went on until not one of them remained. The cunning goldsmith returned to the empty village, took everything for himself, and became extremely rich."
+    - id: ch05
+      title: The Goldsmith's End
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: "But was he happy? Not at all. Lies have never made anyone happy. The goldsmith had defeated a wicked and greedy people only by becoming wicked and greedy himself. As his riches grew, he grew very fat. At last, he became so fat that he could no longer move. One day, he suffered a stroke and died, and no one in the world cared in the least."
+        - id: ch05-b02
+          speaker: narrator
+          text: "This was a Pathan story told to Major Campbell."

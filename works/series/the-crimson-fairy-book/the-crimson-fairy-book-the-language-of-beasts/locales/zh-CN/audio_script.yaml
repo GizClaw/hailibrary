@@ -1,0 +1,286 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 从容而带几分诙谐，像在讲一则古老的俄罗斯童话
+        timbre: 温暖清亮
+        pace: 舒缓，转折处有自然停顿
+        pitch: 中音
+    shepherd:
+      display_name: 牧羊人
+      tts:
+        delivery: 善良质朴，害怕时紧张，富足后沉稳果断
+        timbre: 温厚结实
+        pace: 中速
+        pitch: 中低音
+    snake_princess:
+      display_name: 蛇公主
+      tts:
+        delivery: 聪慧恳切，遇险时急促，脱险后清楚镇定
+        timbre: 轻柔清亮
+        pace: 中速偏快
+        pitch: 中高音
+    snake_king:
+      display_name: 蛇王
+      tts:
+        delivery: 威严深沉，对女儿慈爱，对恩人郑重
+        timbre: 低沉浑厚
+        pace: 舒缓
+        pitch: 低音
+    former_master:
+      display_name: 旧主人
+      tts:
+        delivery: 正直爽快，待人慷慨坦荡
+        timbre: 沉稳明朗
+        pace: 中速
+        pitch: 中低音
+    raven:
+      display_name: 乌鸦
+      tts:
+        delivery: 神秘机警，像在枝头悄声议论
+        timbre: 沙哑清脆
+        pace: 中速偏快
+        pitch: 中高音
+    wife:
+      display_name: 妻子
+      tts:
+        delivery: 执拗好奇，追问时越来越急切
+        timbre: 明亮饱满
+        pace: 中速偏快
+        pitch: 中高音
+    wolf_1:
+      display_name: 狼一
+      tts:
+        delivery: 阴险贪婪，带着试探和诱惑
+        timbre: 粗哑低沉
+        pace: 中速
+        pitch: 低音
+    wolf_2:
+      display_name: 狼二
+      tts:
+        delivery: 阴险贪婪，带着试探和诱惑
+        timbre: 粗粝阴沉
+        pace: 中速
+        pitch: 低音
+    dog_1:
+      display_name: 狗一
+      tts:
+        delivery: 贪吃而不忠，回答得迫不及待
+        timbre: 粗重急促
+        pace: 中速偏快
+        pitch: 中低音
+    dog_2:
+      display_name: 狗二
+      tts:
+        delivery: 贪吃而不忠，语气轻率
+        timbre: 干涩响亮
+        pace: 中速偏快
+        pitch: 中音
+    old_dog:
+      display_name: 老狗
+      tts:
+        delivery: 忠诚刚毅，年迈虚弱却毫不退缩
+        timbre: 苍老沙哑
+        pace: 舒缓
+        pitch: 低音
+    farm_servant:
+      display_name: 农庄仆人
+      tts:
+        delivery: 朴实恭敬，惊讶时仍小心谨慎
+        timbre: 平实清楚
+        pace: 中速
+        pitch: 中音
+    horse:
+      display_name: 公马
+      tts:
+        delivery: 爽快活泼，催促同伴时带点不耐烦
+        timbre: 清朗有力
+        pace: 中速偏快
+        pitch: 中音
+    mare:
+      display_name: 母马
+      tts:
+        delivery: 劳累直率，抱怨中带着挖苦
+        timbre: 柔和厚实
+        pace: 中速
+        pitch: 中音
+    rooster:
+      display_name: 公鸡
+      tts:
+        delivery: 自负刻薄，说话干脆而毫不留情
+        timbre: 尖亮清晰
+        pace: 中速偏快
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 火中的蛇
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前，有个为人诚实的牧羊人忠心耿耿地服侍主人，一干就是许多年。一天，他赶着羊群放牧，忽然听见附近的森林里传来嘶嘶声。他循声走进树林，看见枯草和落叶已经烧起来。一条蛇盘在树上，四面全是火焰，吓得不停嘶叫。
+        - id: ch01-b02
+          speaker: narrator
+          text: 风把火舌一个劲儿吹向那棵树，树身眼看也要像周围的草木一样烧起来。牧羊人正在发愁，不知道这条可怜的蛇该怎么逃出去，蛇忽然向他大声求救。
+        - id: ch01-b03
+          speaker: snake_princess
+          text: 牧羊人，看在上天的分上，快救我离开这场大火！
+          emotion: fearful
+        - id: ch01-b04
+          speaker: narrator
+          text: 牧羊人把手杖伸过火焰。蛇缠住杖身，爬到他的手上，又顺着胳膊一直盘上脖子。牧羊人怕得发抖，只觉得自己随时会被一口咬死。
+        - id: ch01-b05
+          speaker: shepherd
+          text: 我怎么这样倒霉！难道救了你，反倒要赔上自己的性命？
+          emotion: fearful
+        - id: ch01-b06
+          speaker: snake_princess
+          text: 别怕。请带我回家去见父亲，他是蛇王。
+          emotion: calm
+        - id: ch01-b07
+          speaker: narrator
+          text: 牧羊人惊魂未定，说羊群没人照看，自己不能就这样离开。蛇却要他尽管放心，羊儿不会遇上任何祸事，只要他赶快上路就好。
+        - id: ch01-b08
+          speaker: narrator
+          text: 他只好带着蛇穿过森林。走了一阵，面前出现一座大门。仔细一看，整座门竟是无数条蛇彼此缠绕而成。牧羊人惊得站住不动，颈上的蛇吹了声口哨，蛇群立刻松开，门拱也随之让出道路。
+        - id: ch01-b09
+          speaker: snake_princess
+          text: 到了父亲家，他会让你自己挑一样酬谢。金银、珠宝，世上最珍贵的东西，你想要什么都行。可你一样也别拿，只求他教你听懂兽语。他会推辞很久，不过最后一定答应。
+        - id: ch01-b10
+          speaker: narrator
+          text: 两人很快来到蛇王家里。蛇王原以为女儿早已死去，见她平安回来，不禁喜极而泣。等他好不容易能开口，便问女儿这些日子去了哪里。蛇公主把森林大火和牧羊人救她的经过全说了出来。蛇王听完，郑重地转向恩人。
+        - id: ch01-b11
+          speaker: snake_king
+          text: 你救了我的孩子。说吧，你想要什么酬谢？
+        - id: ch01-b12
+          speaker: shepherd
+          text: 请让我听懂兽语。我只求这一样。
+        - id: ch01-b13
+          speaker: snake_king
+          text: 这种本领对你没有好处。我可以传给你，可你只要把秘密告诉别人，马上就会死。还是另选一样最想要的东西吧，不论什么，我都送给你。
+        - id: ch01-b14
+          speaker: shepherd
+          text: 陛下若真想酬谢我救了您的女儿，就请把兽语教给我。我别的什么都不要。
+        - id: ch01-b15
+          speaker: narrator
+          text: 牧羊人说完，转身要走。蛇王只好把他叫回来，命他张开嘴，朝他口中吐了一口唾沫，又叫牧羊人照样吐回自己嘴里。牧羊人一一照办，蛇王再吐回来。两人就这样彼此吐了三次，秘密的本领才算传授完毕。
+        - id: ch01-b16
+          speaker: snake_king
+          text: 现在你已经懂得兽语了，平安回去吧。可你若珍惜性命，就绝不能把这个秘密告诉任何人，不然你会立刻死去。
+    - id: ch02
+      title: 地下的财宝
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 牧羊人踏上归途。一路穿过森林，鸟儿和各种生灵说的每句话，他果然全听得懂。回到羊群旁，只见羊儿还在安静吃草。他走得筋疲力尽，便在附近躺下歇息。才刚闭上眼，两只乌鸦便落在一棵树上，低声交谈起来。
+        - id: ch02-b02
+          speaker: raven
+          text: 那个牧羊人若知道，小羊卧着的地方下面有座地窖，里面全是金银，不知会高兴成什么样！
+        - id: ch02-b03
+          speaker: narrator
+          text: 牧羊人听得一清二楚，马上跑去告诉主人。主人立刻赶来一辆大车，砸开地窖的门，和牧羊人一起把金银财宝全搬上车。这个主人为人正直，并没有把一件财宝占为己有。
+        - id: ch02-b04
+          speaker: former_master
+          text: 这些全归你。是诸神把财宝赐给了你。
+        - id: ch02-b05
+          speaker: narrator
+          text: 牧羊人收下财宝，盖起自己的房子，又娶了妻。他们夫妻和睦，日子过得幸福安宁。没过多久，他便成了村里和四乡八邻最富有的人。羊群、牛群和马群多得数不清，华美的衣裳和珠宝也应有尽有。
+    - id: ch03
+      title: 午夜的狼群
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 一年圣诞节前夕，他让妻子置办一场盛宴，准备第二天把吃喝带到农庄，让那里的牧人痛快过节。妻子依言备齐一切。夫妻俩来到农庄，傍晚时，主人招呼所有牧人过来尽情吃喝，又让大家放心休息，今晚由自己替他们看守牲口。随后，他独自走进畜群中过夜。
+        - id: ch03-b02
+          speaker: narrator
+          text: 午夜钟声一响，狼群长嚎起来，狗群也汪汪回应。狼在黑暗中向看门狗提出了一个可怕的交易。
+        - id: ch03-b03
+          speakers: [wolf_1, wolf_2]
+          ensemble: duo
+          text: 放我们进去大闹一场吧，你们也可以跟着吃肉。
+        - id: ch03-b04
+          speakers: [dog_1, dog_2]
+          ensemble: duo
+          text: 进来吧！这一回我们总算能吃个饱了。
+        - id: ch03-b05
+          speaker: narrator
+          text: 狗群里有一条老狗，年纪大得嘴里只剩两颗牙。它听见同伴背叛主人，便对狼群表明心意。
+        - id: ch03-b06
+          speaker: old_dog
+          text: 只要我的两颗牙还在，就绝不会让谁伤害主人。
+        - id: ch03-b07
+          speaker: narrator
+          text: 主人听懂了狼与狗的每句话，也知道哪些狗愿意把畜群交给狼。天刚亮，他便下令把别的狗全杀掉，只留下那条忠心的老狗。农庄里的仆人们听见这个命令，全都十分诧异。
+        - id: ch03-b08
+          speaker: farm_servant
+          text: 老爷，真要把它们全杀了吗？那也太可惜了。
+          emotion: surprised
+        - id: ch03-b09
+          speaker: shepherd
+          text: 只管照我的吩咐做。
+        - id: ch03-b10
+          speaker: narrator
+          text: 随后，主人带着妻子回家。两人各骑一匹马，妻子骑的是母马。走着走着，丈夫的马到了前面，妻子和母马落后了一小段。公马回头看见，便嘶鸣着催促同伴。
+        - id: ch03-b11
+          speaker: horse
+          text: 快跟上来！你怎么走得这么慢？
+        - id: ch03-b12
+          speaker: mare
+          text: 你当然轻松，只驮着瘦瘦的男主人。我驮的女主人那么胖，足足抵得上三个人重。
+        - id: ch03-b13
+          speaker: narrator
+          text: 丈夫听懂了，忍不住回头发笑。妻子瞧见，立刻催马追上来，非问清楚他为什么笑不可。
+        - id: ch03-b14
+          speaker: shepherd
+          text: 没什么，我只是忽然想笑。
+        - id: ch03-b15
+          speaker: narrator
+          text: 妻子不肯相信，继续追问。丈夫一再推托，竭力守住秘密。
+        - id: ch03-b16
+          speaker: shepherd
+          text: 别缠着我了。你这是怎么了？连我自己都不知道为什么笑。
+        - id: ch03-b17
+          speaker: narrator
+          text: 可他越不肯说，妻子越要逼他交代缘故。最后，他只得把后果告诉她。
+        - id: ch03-b18
+          speaker: shepherd
+          text: 我若告诉你，立刻就会没命，绝无侥幸。
+        - id: ch03-b19
+          speaker: narrator
+          text: 这句话仍没能让妻子罢休。她反而求得更紧了。
+    - id: ch04
+      title: 棺材旁的忠告
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 两人回到家，丈夫还没有下马，便叫人抬来一口棺材，摆在屋子前面。
+        - id: ch04-b02
+          speaker: shepherd
+          text: 你看，我先躺进棺材，再告诉你为什么发笑。等我把话说出口，就一定会死。
+        - id: ch04-b03
+          speaker: narrator
+          text: 他真的躺了进去，最后一次环顾四周。那条忠心的老狗从农庄一路跟来，坐在棺材旁，难过地呜呜哀鸣。主人见了，便叫妻子拿一块面包给它。妻子取来面包，扔到老狗面前，老狗连看也不看。这时，农庄里的公鸡走过来，低头啄起了那块面包。
+        - id: ch04-b04
+          speaker: old_dog
+          text: 你这个没心肝的馋鬼！眼看主人就要死了，你居然还吃得下？
+          emotion: angry
+        - id: ch04-b05
+          speaker: rooster
+          text: 他要是这样愚蠢，就让他死吧。我有一百个妻子。每次找到一粒谷子，我都把她们叫来。可她们刚到，我就自己把谷子吞掉。谁敢生气，我便用嘴好好教训她。这个人只有一个妻子，竟然还管不住。
+        - id: ch04-b06
+          speaker: narrator
+          text: 主人听懂这番话，马上从棺材里站起来，抄起一根棍子，把妻子叫进屋里。
+        - id: ch04-b07
+          speaker: shepherd
+          text: 来吧，我现在就告诉你一心想知道的事。
+        - id: ch04-b08
+          speaker: narrator
+          text: 他挥起棍子打妻子，每打一下便说一句。
+        - id: ch04-b09
+          speaker: shepherd
+          text: 就是这个，妻子，就是这个！
+          emotion: angry
+        - id: ch04-b10
+          speaker: narrator
+          text: 他就这样给了妻子一个教训。从此以后，她再也不敢追问丈夫为什么发笑了。

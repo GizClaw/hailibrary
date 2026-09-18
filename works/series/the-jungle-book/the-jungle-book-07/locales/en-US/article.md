@@ -1,695 +1,650 @@
-# The White Seal
-
-Oh! hush thee, my baby, the night is behind us,
-        And black are the waters that sparkled so green.
-     The moon, o’er the combers, looks downward to find us
-        At rest in the hollows that rustle between.
-     Where billow meets billow, then soft be thy pillow,
-        Ah, weary wee flipperling, curl at thy ease!
-     The storm shall not wake thee, nor shark overtake thee,
-        Asleep in the arms of the slow-swinging seas!
-
-                                              Seal Lullaby
-
-All these things happened several years ago at a place called
-Novastoshnah, or North East Point, on the Island of St. Paul, away and
-away in the Bering Sea. Limmershin, the Winter Wren, told me the tale
-when he was blown on to the rigging of a steamer going to Japan, and I
-took him down into my cabin and warmed and fed him for a couple of days
-till he was fit to fly back to St. Paul’s again. Limmershin is a very
-quaint little bird, but he knows how to tell the truth.
-
-Nobody comes to Novastoshnah except on business, and the only people
-who have regular business there are the seals. They come in the summer
-months by hundreds and hundreds of thousands out of the cold gray sea.
-For Novastoshnah Beach has the finest accommodation for seals of any
-place in all the world.
-
-Sea Catch knew that, and every spring would swim from whatever place
-he happened to be in--would swim like a torpedo-boat straight for
-Novastoshnah and spend a month fighting with his companions for a good
-place on the rocks, as close to the sea as possible. Sea Catch was
-fifteen years old, a huge gray fur seal with almost a mane on his
-shoulders, and long, wicked dog teeth. When he heaved himself up on his
-front flippers he stood more than four feet clear of the ground, and his
-weight, if anyone had been bold enough to weigh him, was nearly seven
-hundred pounds. He was scarred all over with the marks of savage fights,
-but he was always ready for just one fight more. He would put his head
-on one side, as though he were afraid to look his enemy in the face;
-then he would shoot it out like lightning, and when the big teeth were
-firmly fixed on the other seal’s neck, the other seal might get away if
-he could, but Sea Catch would not help him.
-
-Yet Sea Catch never chased a beaten seal, for that was against the Rules
-of the Beach. He only wanted room by the sea for his nursery. But as
-there were forty or fifty thousand other seals hunting for the same
-thing each spring, the whistling, bellowing, roaring, and blowing on the
-beach was something frightful.
-
-From a little hill called Hutchinson’s Hill, you could look over three
-and a half miles of ground covered with fighting seals; and the surf was
-dotted all over with the heads of seals hurrying to land and begin their
-share of the fighting. They fought in the breakers, they fought in the
-sand, and they fought on the smooth-worn basalt rocks of the nurseries,
-for they were just as stupid and unaccommodating as men. Their wives
-never came to the island until late in May or early in June, for they
-did not care to be torn to pieces; and the young two-, three-, and
-four-year-old seals who had not begun housekeeping went inland about
-half a mile through the ranks of the fighters and played about on the
-sand dunes in droves and legions, and rubbed off every single green
-thing that grew. They were called the holluschickie--the bachelors--and
-there were perhaps two or three hundred thousand of them at Novastoshnah
-alone.
-
-Sea Catch had just finished his forty-fifth fight one spring when
-Matkah, his soft, sleek, gentle-eyed wife, came up out of the sea,
-and he caught her by the scruff of the neck and dumped her down on his
-reservation, saying gruffly: “Late as usual. Where have you been?”
-
-It was not the fashion for Sea Catch to eat anything during the four
-months he stayed on the beaches, and so his temper was generally bad.
-Matkah knew better than to answer back. She looked round and cooed: “How
-thoughtful of you. You’ve taken the old place again.”
-
-“I should think I had,” said Sea Catch. “Look at me!”
-
-He was scratched and bleeding in twenty places; one eye was almost out,
-and his sides were torn to ribbons.
-
-“Oh, you men, you men!” Matkah said, fanning herself with her hind
-flipper. “Why can’t you be sensible and settle your places quietly? You
-look as though you had been fighting with the Killer Whale.”
-
-“I haven’t been doing anything but fight since the middle of May. The
-beach is disgracefully crowded this season. I’ve met at least a hundred
-seals from Lukannon Beach, house hunting. Why can’t people stay where
-they belong?”
-
-“I’ve often thought we should be much happier if we hauled out at Otter
-Island instead of this crowded place,” said Matkah.
-
-“Bah! Only the holluschickie go to Otter Island. If we went there they
-would say we were afraid. We must preserve appearances, my dear.”
-
-Sea Catch sunk his head proudly between his fat shoulders and pretended
-to go to sleep for a few minutes, but all the time he was keeping a
-sharp lookout for a fight. Now that all the seals and their wives were
-on the land, you could hear their clamor miles out to sea above the
-loudest gales. At the lowest counting there were over a million seals
-on the beach--old seals, mother seals, tiny babies, and holluschickie,
-fighting, scuffling, bleating, crawling, and playing together--going
-down to the sea and coming up from it in gangs and regiments, lying
-over every foot of ground as far as the eye could reach, and skirmishing
-about in brigades through the fog. It is nearly always foggy at
-Novastoshnah, except when the sun comes out and makes everything look
-all pearly and rainbow-colored for a little while.
-
-Kotick, Matkah’s baby, was born in the middle of that confusion, and he
-was all head and shoulders, with pale, watery blue eyes, as tiny seals
-must be, but there was something about his coat that made his mother
-look at him very closely.
-
-“Sea Catch,” she said, at last, “our baby’s going to be white!”
-
-“Empty clam-shells and dry seaweed!” snorted Sea Catch. “There never has
-been such a thing in the world as a white seal.”
-
-“I can’t help that,” said Matkah; “there’s going to be now.” And she
-sang the low, crooning seal song that all the mother seals sing to their
-babies:
-
-     You mustn’t swim till you’re six weeks old,
-        Or your head will be sunk by your heels;
-     And summer gales and Killer Whales
-        Are bad for baby seals.
-
-     Are bad for baby seals, dear rat,
-        As bad as bad can be;
-     But splash and grow strong,
-     And you can’t be wrong.
-        Child of the Open Sea!
-
-Of course the little fellow did not understand the words at first. He
-paddled and scrambled about by his mother’s side, and learned to scuffle
-out of the way when his father was fighting with another seal, and the
-two rolled and roared up and down the slippery rocks. Matkah used to go
-to sea to get things to eat, and the baby was fed only once in two days,
-but then he ate all he could and throve upon it.
-
-The first thing he did was to crawl inland, and there he met tens
-of thousands of babies of his own age, and they played together like
-puppies, went to sleep on the clean sand, and played again. The old
-people in the nurseries took no notice of them, and the holluschickie
-kept to their own grounds, and the babies had a beautiful playtime.
-
-When Matkah came back from her deep-sea fishing she would go straight
-to their playground and call as a sheep calls for a lamb, and wait until
-she heard Kotick bleat. Then she would take the straightest of straight
-lines in his direction, striking out with her fore flippers and knocking
-the youngsters head over heels right and left. There were always a few
-hundred mothers hunting for their children through the playgrounds, and
-the babies were kept lively. But, as Matkah told Kotick, “So long as you
-don’t lie in muddy water and get mange, or rub the hard sand into a cut
-or scratch, and so long as you never go swimming when there is a heavy
-sea, nothing will hurt you here.”
-
-Little seals can no more swim than little children, but they are unhappy
-till they learn. The first time that Kotick went down to the sea a wave
-carried him out beyond his depth, and his big head sank and his little
-hind flippers flew up exactly as his mother had told him in the song,
-and if the next wave had not thrown him back again he would have
-drowned.
-
-After that, he learned to lie in a beach pool and let the wash of the
-waves just cover him and lift him up while he paddled, but he always
-kept his eye open for big waves that might hurt. He was two weeks
-learning to use his flippers; and all that while he floundered in and
-out of the water, and coughed and grunted and crawled up the beach and
-took catnaps on the sand, and went back again, until at last he found
-that he truly belonged to the water.
-
-Then you can imagine the times that he had with his companions, ducking
-under the rollers; or coming in on top of a comber and landing with a
-swash and a splutter as the big wave went whirling far up the beach; or
-standing up on his tail and scratching his head as the old people did;
-or playing “I’m the King of the Castle” on slippery, weedy rocks that
-just stuck out of the wash. Now and then he would see a thin fin, like
-a big shark’s fin, drifting along close to shore, and he knew that that
-was the Killer Whale, the Grampus, who eats young seals when he can get
-them; and Kotick would head for the beach like an arrow, and the fin
-would jig off slowly, as if it were looking for nothing at all.
-
-Late in October the seals began to leave St. Paul’s for the deep sea, by
-families and tribes, and there was no more fighting over the nurseries,
-and the holluschickie played anywhere they liked. “Next year,” said
-Matkah to Kotick, “you will be a holluschickie; but this year you must
-learn how to catch fish.”
-
-They set out together across the Pacific, and Matkah showed Kotick how
-to sleep on his back with his flippers tucked down by his side and his
-little nose just out of the water. No cradle is so comfortable as the
-long, rocking swell of the Pacific. When Kotick felt his skin tingle all
-over, Matkah told him he was learning the “feel of the water,” and that
-tingly, prickly feelings meant bad weather coming, and he must swim hard
-and get away.
-
-“In a little time,” she said, “you’ll know where to swim to, but just
-now we’ll follow Sea Pig, the Porpoise, for he is very wise.” A school
-of porpoises were ducking and tearing through the water, and little
-Kotick followed them as fast as he could. “How do you know where to go
-to?” he panted. The leader of the school rolled his white eye and ducked
-under. “My tail tingles, youngster,” he said. “That means there’s a gale
-behind me. Come along! When you’re south of the Sticky Water [he meant
-the Equator] and your tail tingles, that means there’s a gale in front
-of you and you must head north. Come along! The water feels bad here.”
-
-This was one of very many things that Kotick learned, and he was always
-learning. Matkah taught him to follow the cod and the halibut along the
-under-sea banks and wrench the rockling out of his hole among the weeds;
-how to skirt the wrecks lying a hundred fathoms below water and dart
-like a rifle bullet in at one porthole and out at another as the fishes
-ran; how to dance on the top of the waves when the lightning was racing
-all over the sky, and wave his flipper politely to the stumpy-tailed
-Albatross and the Man-of-war Hawk as they went down the wind; how to
-jump three or four feet clear of the water like a dolphin, flippers
-close to the side and tail curved; to leave the flying fish alone
-because they are all bony; to take the shoulder-piece out of a cod at
-full speed ten fathoms deep, and never to stop and look at a boat or a
-ship, but particularly a row-boat. At the end of six months what Kotick
-did not know about deep-sea fishing was not worth the knowing. And all
-that time he never set flipper on dry ground.
-
-One day, however, as he was lying half asleep in the warm water
-somewhere off the Island of Juan Fernandez, he felt faint and lazy all
-over, just as human people do when the spring is in their legs, and he
-remembered the good firm beaches of Novastoshnah seven thousand miles
-away, the games his companions played, the smell of the seaweed, the
-seal roar, and the fighting. That very minute he turned north, swimming
-steadily, and as he went on he met scores of his mates, all bound for
-the same place, and they said: “Greeting, Kotick! This year we are
-all holluschickie, and we can dance the Fire-dance in the breakers off
-Lukannon and play on the new grass. But where did you get that coat?”
-
-Kotick’s fur was almost pure white now, and though he felt very proud of
-it, he only said, “Swim quickly! My bones are aching for the land.” And
-so they all came to the beaches where they had been born, and heard the
-old seals, their fathers, fighting in the rolling mist.
-
-That night Kotick danced the Fire-dance with the yearling seals. The sea
-is full of fire on summer nights all the way down from Novastoshnah to
-Lukannon, and each seal leaves a wake like burning oil behind him and a
-flaming flash when he jumps, and the waves break in great phosphorescent
-streaks and swirls. Then they went inland to the holluschickie grounds
-and rolled up and down in the new wild wheat and told stories of what
-they had done while they had been at sea. They talked about the Pacific
-as boys would talk about a wood that they had been nutting in, and if
-anyone had understood them he could have gone away and made such a chart
-of that ocean as never was. The three- and four-year-old holluschickie
-romped down from Hutchinson’s Hill crying: “Out of the way, youngsters!
-The sea is deep and you don’t know all that’s in it yet. Wait till
-you’ve rounded the Horn. Hi, you yearling, where did you get that white
-coat?”
-
-“I didn’t get it,” said Kotick. “It grew.” And just as he was going to
-roll the speaker over, a couple of black-haired men with flat red faces
-came from behind a sand dune, and Kotick, who had never seen a man
-before, coughed and lowered his head. The holluschickie just bundled off
-a few yards and sat staring stupidly. The men were no less than Kerick
-Booterin, the chief of the seal-hunters on the island, and Patalamon,
-his son. They came from the little village not half a mile from the sea
-nurseries, and they were deciding what seals they would drive up to the
-killing pens--for the seals were driven just like sheep--to be turned
-into seal-skin jackets later on.
-
-“Ho!” said Patalamon. “Look! There’s a white seal!”
-
-Kerick Booterin turned nearly white under his oil and smoke, for he was
-an Aleut, and Aleuts are not clean people. Then he began to mutter a
-prayer. “Don’t touch him, Patalamon. There has never been a white seal
-since--since I was born. Perhaps it is old Zaharrof’s ghost. He was lost
-last year in the big gale.”
-
-“I’m not going near him,” said Patalamon. “He’s unlucky. Do you really
-think he is old Zaharrof come back? I owe him for some gulls’ eggs.”
-
-“Don’t look at him,” said Kerick. “Head off that drove of
-four-year-olds. The men ought to skin two hundred to-day, but it’s the
-beginning of the season and they are new to the work. A hundred will do.
-Quick!”
-
-Patalamon rattled a pair of seal’s shoulder bones in front of a herd
-of holluschickie and they stopped dead, puffing and blowing. Then he
-stepped near and the seals began to move, and Kerick headed them inland,
-and they never tried to get back to their companions. Hundreds and
-hundreds of thousands of seals watched them being driven, but they went
-on playing just the same. Kotick was the only one who asked questions,
-and none of his companions could tell him anything, except that the
-men always drove seals in that way for six weeks or two months of every
-year.
-
-“I am going to follow,” he said, and his eyes nearly popped out of his
-head as he shuffled along in the wake of the herd.
-
-“The white seal is coming after us,” cried Patalamon. “That’s the first
-time a seal has ever come to the killing-grounds alone.”
-
-“Hsh! Don’t look behind you,” said Kerick. “It is Zaharrof’s ghost! I
-must speak to the priest about this.”
-
-The distance to the killing-grounds was only half a mile, but it took an
-hour to cover, because if the seals went too fast Kerick knew that they
-would get heated and then their fur would come off in patches when they
-were skinned. So they went on very slowly, past Sea Lion’s Neck, past
-Webster House, till they came to the Salt House just beyond the sight
-of the seals on the beach. Kotick followed, panting and wondering.
-He thought that he was at the world’s end, but the roar of the seal
-nurseries behind him sounded as loud as the roar of a train in a tunnel.
-Then Kerick sat down on the moss and pulled out a heavy pewter watch
-and let the drove cool off for thirty minutes, and Kotick could hear the
-fog-dew dripping off the brim of his cap. Then ten or twelve men, each
-with an iron-bound club three or four feet long, came up, and Kerick
-pointed out one or two of the drove that were bitten by their companions
-or too hot, and the men kicked those aside with their heavy boots made
-of the skin of a walrus’s throat, and then Kerick said, “Let go!” and
-then the men clubbed the seals on the head as fast as they could.
-
-Ten minutes later little Kotick did not recognize his friends any more,
-for their skins were ripped off from the nose to the hind flippers,
-whipped off and thrown down on the ground in a pile. That was enough
-for Kotick. He turned and galloped (a seal can gallop very swiftly for
-a short time) back to the sea; his little new mustache bristling with
-horror. At Sea Lion’s Neck, where the great sea lions sit on the edge
-of the surf, he flung himself flipper-overhead into the cool water and
-rocked there, gasping miserably. “What’s here?” said a sea lion gruffly,
-for as a rule the sea lions keep themselves to themselves.
-
-“Scoochnie! Ochen scoochnie!” (“I’m lonesome, very lonesome!”) said
-Kotick. “They’re killing all the holluschickie on all the beaches!”
-
-The Sea Lion turned his head inshore. “Nonsense!” he said. “Your
-friends are making as much noise as ever. You must have seen old Kerick
-polishing off a drove. He’s done that for thirty years.”
-
-“It’s horrible,” said Kotick, backing water as a wave went over him, and
-steadying himself with a screw stroke of his flippers that brought him
-all standing within three inches of a jagged edge of rock.
-
-“Well done for a yearling!” said the Sea Lion, who could appreciate good
-swimming. “I suppose it is rather awful from your way of looking at it,
-but if you seals will come here year after year, of course the men get
-to know of it, and unless you can find an island where no men ever come
-you will always be driven.”
-
-“Isn’t there any such island?” began Kotick.
-
-“I’ve followed the poltoos [the halibut] for twenty years, and I can’t
-say I’ve found it yet. But look here--you seem to have a fondness for
-talking to your betters--suppose you go to Walrus Islet and talk to
-Sea Vitch. He may know something. Don’t flounce off like that. It’s a
-six-mile swim, and if I were you I should haul out and take a nap first,
-little one.”
-
-Kotick thought that that was good advice, so he swam round to his own
-beach, hauled out, and slept for half an hour, twitching all over, as
-seals will. Then he headed straight for Walrus Islet, a little low sheet
-of rocky island almost due northeast from Novastoshnah, all ledges and
-rock and gulls’ nests, where the walrus herded by themselves.
-
-He landed close to old Sea Vitch--the big, ugly, bloated, pimpled,
-fat-necked, long-tusked walrus of the North Pacific, who has no manners
-except when he is asleep--as he was then, with his hind flippers half in
-and half out of the surf.
-
-“Wake up!” barked Kotick, for the gulls were making a great noise.
-
-“Hah! Ho! Hmph! What’s that?” said Sea Vitch, and he struck the next
-walrus a blow with his tusks and waked him up, and the next struck the
-next, and so on till they were all awake and staring in every direction
-but the right one.
-
-“Hi! It’s me,” said Kotick, bobbing in the surf and looking like a
-little white slug.
-
-“Well! May I be--skinned!” said Sea Vitch, and they all looked at Kotick
-as you can fancy a club full of drowsy old gentlemen would look at a
-little boy. Kotick did not care to hear any more about skinning just
-then; he had seen enough of it. So he called out: “Isn’t there any place
-for seals to go where men don’t ever come?”
-
-“Go and find out,” said Sea Vitch, shutting his eyes. “Run away. We’re
-busy here.”
-
-Kotick made his dolphin-jump in the air and shouted as loud as he could:
-“Clam-eater! Clam-eater!” He knew that Sea Vitch never caught a fish in
-his life but always rooted for clams and seaweed; though he pretended to
-be a very terrible person. Naturally the Chickies and the Gooverooskies
-and the Epatkas--the Burgomaster Gulls and the Kittiwakes and the
-Puffins, who are always looking for a chance to be rude, took up the
-cry, and--so Limmershin told me--for nearly five minutes you could not
-have heard a gun fired on Walrus Islet. All the population was yelling
-and screaming “Clam-eater! Stareek [old man]!” while Sea Vitch rolled
-from side to side grunting and coughing.
-
-“Now will you tell?” said Kotick, all out of breath.
-
-“Go and ask Sea Cow,” said Sea Vitch. “If he is living still, he’ll be
-able to tell you.”
-
-“How shall I know Sea Cow when I meet him?” said Kotick, sheering off.
-
-“He’s the only thing in the sea uglier than Sea Vitch,” screamed a
-Burgomaster gull, wheeling under Sea Vitch’s nose. “Uglier, and with
-worse manners! Stareek!”
-
-Kotick swam back to Novastoshnah, leaving the gulls to scream. There he
-found that no one sympathized with him in his little attempt to discover
-a quiet place for the seals. They told him that men had always driven
-the holluschickie--it was part of the day’s work--and that if he did not
-like to see ugly things he should not have gone to the killing grounds.
-But none of the other seals had seen the killing, and that made the
-difference between him and his friends. Besides, Kotick was a white
-seal.
-
-“What you must do,” said old Sea Catch, after he had heard his son’s
-adventures, “is to grow up and be a big seal like your father, and have
-a nursery on the beach, and then they will leave you alone. In another
-five years you ought to be able to fight for yourself.” Even gentle
-Matkah, his mother, said: “You will never be able to stop the killing.
-Go and play in the sea, Kotick.” And Kotick went off and danced the
-Fire-dance with a very heavy little heart.
-
-That autumn he left the beach as soon as he could, and set off alone
-because of a notion in his bullet-head. He was going to find Sea Cow,
-if there was such a person in the sea, and he was going to find a quiet
-island with good firm beaches for seals to live on, where men could not
-get at them. So he explored and explored by himself from the North to
-the South Pacific, swimming as much as three hundred miles in a day
-and a night. He met with more adventures than can be told, and narrowly
-escaped being caught by the Basking Shark, and the Spotted Shark, and
-the Hammerhead, and he met all the untrustworthy ruffians that loaf up
-and down the seas, and the heavy polite fish, and the scarlet spotted
-scallops that are moored in one place for hundreds of years, and grow
-very proud of it; but he never met Sea Cow, and he never found an island
-that he could fancy.
-
-If the beach was good and hard, with a slope behind it for seals to play
-on, there was always the smoke of a whaler on the horizon, boiling down
-blubber, and Kotick knew what that meant. Or else he could see that
-seals had once visited the island and been killed off, and Kotick knew
-that where men had come once they would come again.
-
-He picked up with an old stumpy-tailed albatross, who told him that
-Kerguelen Island was the very place for peace and quiet, and when Kotick
-went down there he was all but smashed to pieces against some wicked
-black cliffs in a heavy sleet-storm with lightning and thunder. Yet as
-he pulled out against the gale he could see that even there had once
-been a seal nursery. And it was so in all the other islands that he
-visited.
-
-Limmershin gave a long list of them, for he said that Kotick spent five
-seasons exploring, with a four months’ rest each year at Novastoshnah,
-when the holluschickie used to make fun of him and his imaginary
-islands. He went to the Gallapagos, a horrid dry place on the Equator,
-where he was nearly baked to death; he went to the Georgia Islands,
-the Orkneys, Emerald Island, Little Nightingale Island, Gough’s Island,
-Bouvet’s Island, the Crossets, and even to a little speck of an island
-south of the Cape of Good Hope. But everywhere the People of the Sea
-told him the same things. Seals had come to those islands once upon a
-time, but men had killed them all off. Even when he swam thousands of
-miles out of the Pacific and got to a place called Cape Corrientes (that
-was when he was coming back from Gough’s Island), he found a few hundred
-mangy seals on a rock and they told him that men came there too.
-
-That nearly broke his heart, and he headed round the Horn back to his
-own beaches; and on his way north he hauled out on an island full of
-green trees, where he found an old, old seal who was dying, and Kotick
-caught fish for him and told him all his sorrows. “Now,” said Kotick,
-“I am going back to Novastoshnah, and if I am driven to the killing-pens
-with the holluschickie I shall not care.”
-
-The old seal said, “Try once more. I am the last of the Lost Rookery of
-Masafuera, and in the days when men killed us by the hundred thousand
-there was a story on the beaches that some day a white seal would come
-out of the North and lead the seal people to a quiet place. I am old,
-and I shall never live to see that day, but others will. Try once more.”
-
-And Kotick curled up his mustache (it was a beauty) and said, “I am the
-only white seal that has ever been born on the beaches, and I am the
-only seal, black or white, who ever thought of looking for new islands.”
-
-This cheered him immensely; and when he came back to Novastoshnah that
-summer, Matkah, his mother, begged him to marry and settle down, for
-he was no longer a holluschick but a full-grown sea-catch, with a curly
-white mane on his shoulders, as heavy, as big, and as fierce as his
-father. “Give me another season,” he said. “Remember, Mother, it is
-always the seventh wave that goes farthest up the beach.”
-
-Curiously enough, there was another seal who thought that she would put
-off marrying till the next year, and Kotick danced the Fire-dance with
-her all down Lukannon Beach the night before he set off on his last
-exploration. This time he went westward, because he had fallen on the
-trail of a great shoal of halibut, and he needed at least one hundred
-pounds of fish a day to keep him in good condition. He chased them till
-he was tired, and then he curled himself up and went to sleep on the
-hollows of the ground swell that sets in to Copper Island. He knew the
-coast perfectly well, so about midnight, when he felt himself gently
-bumped on a weed-bed, he said, “Hm, tide’s running strong tonight,” and
-turning over under water opened his eyes slowly and stretched. Then
-he jumped like a cat, for he saw huge things nosing about in the shoal
-water and browsing on the heavy fringes of the weeds.
-
-“By the Great Combers of Magellan!” he said, beneath his mustache. “Who
-in the Deep Sea are these people?”
-
-They were like no walrus, sea lion, seal, bear, whale, shark, fish,
-squid, or scallop that Kotick had ever seen before. They were between
-twenty and thirty feet long, and they had no hind flippers, but a
-shovel-like tail that looked as if it had been whittled out of wet
-leather. Their heads were the most foolish-looking things you ever saw,
-and they balanced on the ends of their tails in deep water when they
-weren’t grazing, bowing solemnly to each other and waving their front
-flippers as a fat man waves his arm.
-
-“Ahem!” said Kotick. “Good sport, gentlemen?” The big things answered by
-bowing and waving their flippers like the Frog Footman. When they began
-feeding again Kotick saw that their upper lip was split into two pieces
-that they could twitch apart about a foot and bring together again with
-a whole bushel of seaweed between the splits. They tucked the stuff into
-their mouths and chumped solemnly.
-
-“Messy style of feeding, that,” said Kotick. They bowed again, and
-Kotick began to lose his temper. “Very good,” he said. “If you do happen
-to have an extra joint in your front flipper you needn’t show off so. I
-see you bow gracefully, but I should like to know your names.” The split
-lips moved and twitched; and the glassy green eyes stared, but they did
-not speak.
-
-“Well!” said Kotick. “You’re the only people I’ve ever met uglier than
-Sea Vitch--and with worse manners.”
-
-Then he remembered in a flash what the Burgomaster gull had screamed
-to him when he was a little yearling at Walrus Islet, and he tumbled
-backward in the water, for he knew that he had found Sea Cow at last.
-
-The sea cows went on schlooping and grazing and chumping in the weed,
-and Kotick asked them questions in every language that he had picked
-up in his travels; and the Sea People talk nearly as many languages as
-human beings. But the sea cows did not answer because Sea Cow cannot
-talk. He has only six bones in his neck where he ought to have seven,
-and they say under the sea that that prevents him from speaking even
-to his companions. But, as you know, he has an extra joint in his
-foreflipper, and by waving it up and down and about he makes what
-answers to a sort of clumsy telegraphic code.
-
-By daylight Kotick’s mane was standing on end and his temper was gone
-where the dead crabs go. Then the Sea Cow began to travel northward very
-slowly, stopping to hold absurd bowing councils from time to time, and
-Kotick followed them, saying to himself, “People who are such idiots as
-these are would have been killed long ago if they hadn’t found out some
-safe island. And what is good enough for the Sea Cow is good enough for
-the Sea Catch. All the same, I wish they’d hurry.”
-
-It was weary work for Kotick. The herd never went more than forty or
-fifty miles a day, and stopped to feed at night, and kept close to the
-shore all the time; while Kotick swam round them, and over them, and
-under them, but he could not hurry them up one-half mile. As they went
-farther north they held a bowing council every few hours, and Kotick
-nearly bit off his mustache with impatience till he saw that they were
-following up a warm current of water, and then he respected them more.
-
-One night they sank through the shiny water--sank like stones--and for
-the first time since he had known them began to swim quickly. Kotick
-followed, and the pace astonished him, for he never dreamed that Sea Cow
-was anything of a swimmer. They headed for a cliff by the shore--a cliff
-that ran down into deep water, and plunged into a dark hole at the
-foot of it, twenty fathoms under the sea. It was a long, long swim, and
-Kotick badly wanted fresh air before he was out of the dark tunnel they
-led him through.
-
-“My wig!” he said, when he rose, gasping and puffing, into open water at
-the farther end. “It was a long dive, but it was worth it.”
-
-The sea cows had separated and were browsing lazily along the edges of
-the finest beaches that Kotick had ever seen. There were long
-stretches of smooth-worn rock running for miles, exactly fitted to make
-seal-nurseries, and there were play-grounds of hard sand sloping inland
-behind them, and there were rollers for seals to dance in, and long
-grass to roll in, and sand dunes to climb up and down, and, best of all,
-Kotick knew by the feel of the water, which never deceives a true sea
-catch, that no men had ever come there.
-
-The first thing he did was to assure himself that the fishing was good,
-and then he swam along the beaches and counted up the delightful low
-sandy islands half hidden in the beautiful rolling fog. Away to the
-northward, out to sea, ran a line of bars and shoals and rocks that
-would never let a ship come within six miles of the beach, and between
-the islands and the mainland was a stretch of deep water that ran up to
-the perpendicular cliffs, and somewhere below the cliffs was the mouth
-of the tunnel.
-
-“It’s Novastoshnah over again, but ten times better,” said Kotick. “Sea
-Cow must be wiser than I thought. Men can’t come down the cliffs, even
-if there were any men; and the shoals to seaward would knock a ship to
-splinters. If any place in the sea is safe, this is it.”
-
-He began to think of the seal he had left behind him, but though he was
-in a hurry to go back to Novastoshnah, he thoroughly explored the new
-country, so that he would be able to answer all questions.
-
-Then he dived and made sure of the mouth of the tunnel, and raced
-through to the southward. No one but a sea cow or a seal would have
-dreamed of there being such a place, and when he looked back at the
-cliffs even Kotick could hardly believe that he had been under them.
-
-He was six days going home, though he was not swimming slowly; and when
-he hauled out just above Sea Lion’s Neck the first person he met was the
-seal who had been waiting for him, and she saw by the look in his eyes
-that he had found his island at last.
-
-But the holluschickie and Sea Catch, his father, and all the other seals
-laughed at him when he told them what he had discovered, and a young
-seal about his own age said, “This is all very well, Kotick, but you
-can’t come from no one knows where and order us off like this. Remember
-we’ve been fighting for our nurseries, and that’s a thing you never did.
-You preferred prowling about in the sea.”
-
-The other seals laughed at this, and the young seal began twisting his
-head from side to side. He had just married that year, and was making a
-great fuss about it.
-
-“I’ve no nursery to fight for,” said Kotick. “I only want to show you
-all a place where you will be safe. What’s the use of fighting?”
-
-“Oh, if you’re trying to back out, of course I’ve no more to say,” said
-the young seal with an ugly chuckle.
-
-“Will you come with me if I win?” said Kotick. And a green light came
-into his eye, for he was very angry at having to fight at all.
-
-“Very good,” said the young seal carelessly. “If you win, I’ll come.”
-
-He had no time to change his mind, for Kotick’s head was out and his
-teeth sunk in the blubber of the young seal’s neck. Then he threw
-himself back on his haunches and hauled his enemy down the beach, shook
-him, and knocked him over. Then Kotick roared to the seals: “I’ve done
-my best for you these five seasons past. I’ve found you the island where
-you’ll be safe, but unless your heads are dragged off your silly necks
-you won’t believe. I’m going to teach you now. Look out for yourselves!”
-
-Limmershin told me that never in his life--and Limmershin sees ten
-thousand big seals fighting every year--never in all his little life
-did he see anything like Kotick’s charge into the nurseries. He flung
-himself at the biggest sea catch he could find, caught him by the
-throat, choked him and bumped him and banged him till he grunted for
-mercy, and then threw him aside and attacked the next. You see, Kotick
-had never fasted for four months as the big seals did every year, and
-his deep-sea swimming trips kept him in perfect condition, and, best
-of all, he had never fought before. His curly white mane stood up with
-rage, and his eyes flamed, and his big dog teeth glistened, and he was
-splendid to look at. Old Sea Catch, his father, saw him tearing past,
-hauling the grizzled old seals about as though they had been halibut,
-and upsetting the young bachelors in all directions; and Sea Catch gave
-a roar and shouted: “He may be a fool, but he is the best fighter on the
-beaches! Don’t tackle your father, my son! He’s with you!”
-
-Kotick roared in answer, and old Sea Catch waddled in with his mustache
-on end, blowing like a locomotive, while Matkah and the seal that was
-going to marry Kotick cowered down and admired their men-folk. It was
-a gorgeous fight, for the two fought as long as there was a seal that
-dared lift up his head, and when there were none they paraded grandly up
-and down the beach side by side, bellowing.
-
-At night, just as the Northern Lights were winking and flashing through
-the fog, Kotick climbed a bare rock and looked down on the scattered
-nurseries and the torn and bleeding seals. “Now,” he said, “I’ve taught
-you your lesson.”
-
-“My wig!” said old Sea Catch, boosting himself up stiffly, for he was
-fearfully mauled. “The Killer Whale himself could not have cut them up
-worse. Son, I’m proud of you, and what’s more, I’ll come with you to
-your island--if there is such a place.”
-
-“Hear you, fat pigs of the sea. Who comes with me to the Sea Cow’s
-tunnel? Answer, or I shall teach you again,” roared Kotick.
-
-There was a murmur like the ripple of the tide all up and down the
-beaches. “We will come,” said thousands of tired voices. “We will follow
-Kotick, the White Seal.”
-
-Then Kotick dropped his head between his shoulders and shut his eyes
-proudly. He was not a white seal any more, but red from head to tail.
-All the same he would have scorned to look at or touch one of his
-wounds.
-
-A week later he and his army (nearly ten thousand holluschickie and old
-seals) went away north to the Sea Cow’s tunnel, Kotick leading them,
-and the seals that stayed at Novastoshnah called them idiots. But next
-spring, when they all met off the fishing banks of the Pacific, Kotick’s
-seals told such tales of the new beaches beyond Sea Cow’s tunnel that
-more and more seals left Novastoshnah. Of course it was not all done at
-once, for the seals are not very clever, and they need a long time to
-turn things over in their minds, but year after year more seals went
-away from Novastoshnah, and Lukannon, and the other nurseries, to the
-quiet, sheltered beaches where Kotick sits all the summer through,
-getting bigger and fatter and stronger each year, while the
-holluschickie play around him, in that sea where no man comes.
+# Her Majesty’s Servants
+
+You can work it out by Fractions or by simple Rule of Three,
+     But the way of Tweedle-dum is not the way of Tweedle-dee.
+     You can twist it, you can turn it, you can plait it till you drop,
+     But the way of Pilly Winky’s not the way of Winkie Pop!
+
+It had been raining heavily for one whole month--raining on a camp
+of thirty thousand men and thousands of camels, elephants, horses,
+bullocks, and mules all gathered together at a place called Rawal Pindi,
+to be reviewed by the Viceroy of India. He was receiving a visit from
+the Amir of Afghanistan--a wild king of a very wild country. The Amir
+had brought with him for a bodyguard eight hundred men and horses who
+had never seen a camp or a locomotive before in their lives--savage
+men and savage horses from somewhere at the back of Central Asia. Every
+night a mob of these horses would be sure to break their heel ropes and
+stampede up and down the camp through the mud in the dark, or the camels
+would break loose and run about and fall over the ropes of the tents,
+and you can imagine how pleasant that was for men trying to go to sleep.
+My tent lay far away from the camel lines, and I thought it was safe.
+But one night a man popped his head in and shouted, “Get out, quick!
+They’re coming! My tent’s gone!”
+
+I knew who “they” were, so I put on my boots and waterproof and scuttled
+out into the slush. Little Vixen, my fox terrier, went out through the
+other side; and then there was a roaring and a grunting and bubbling,
+and I saw the tent cave in, as the pole snapped, and begin to dance
+about like a mad ghost. A camel had blundered into it, and wet and angry
+as I was, I could not help laughing. Then I ran on, because I did not
+know how many camels might have got loose, and before long I was out of
+sight of the camp, plowing my way through the mud.
+
+At last I fell over the tail-end of a gun, and by that knew I was
+somewhere near the artillery lines where the cannon were stacked at
+night. As I did not want to plowter about any more in the drizzle and
+the dark, I put my waterproof over the muzzle of one gun, and made a
+sort of wigwam with two or three rammers that I found, and lay along the
+tail of another gun, wondering where Vixen had got to, and where I might
+be.
+
+Just as I was getting ready to go to sleep I heard a jingle of harness
+and a grunt, and a mule passed me shaking his wet ears. He belonged to
+a screw-gun battery, for I could hear the rattle of the straps and rings
+and chains and things on his saddle pad. The screw-guns are tiny little
+cannon made in two pieces, that are screwed together when the time comes
+to use them. They are taken up mountains, anywhere that a mule can find
+a road, and they are very useful for fighting in rocky country.
+
+Behind the mule there was a camel, with his big soft feet squelching
+and slipping in the mud, and his neck bobbing to and fro like a
+strayed hen’s. Luckily, I knew enough of beast language--not wild-beast
+language, but camp-beast language, of course--from the natives to know
+what he was saying.
+
+He must have been the one that flopped into my tent, for he called to
+the mule, “What shall I do? Where shall I go? I have fought with a white
+thing that waved, and it took a stick and hit me on the neck.” (That was
+my broken tent pole, and I was very glad to know it.) “Shall we run on?”
+
+“Oh, it was you,” said the mule, “you and your friends, that have
+been disturbing the camp? All right. You’ll be beaten for this in the
+morning. But I may as well give you something on account now.”
+
+I heard the harness jingle as the mule backed and caught the camel
+two kicks in the ribs that rang like a drum. “Another time,” he said,
+“you’ll know better than to run through a mule battery at night,
+shouting `Thieves and fire!’ Sit down, and keep your silly neck quiet.”
+
+The camel doubled up camel-fashion, like a two-foot rule, and sat down
+whimpering. There was a regular beat of hoofs in the darkness, and a big
+troop-horse cantered up as steadily as though he were on parade, jumped
+a gun tail, and landed close to the mule.
+
+“It’s disgraceful,” he said, blowing out his nostrils. “Those camels
+have racketed through our lines again--the third time this week. How’s a
+horse to keep his condition if he isn’t allowed to sleep. Who’s here?”
+
+“I’m the breech-piece mule of number two gun of the First Screw
+Battery,” said the mule, “and the other’s one of your friends. He’s
+waked me up too. Who are you?”
+
+“Number Fifteen, E troop, Ninth Lancers--Dick Cunliffe’s horse. Stand
+over a little, there.”
+
+“Oh, beg your pardon,” said the mule. “It’s too dark to see much. Aren’t
+these camels too sickening for anything? I walked out of my lines to get
+a little peace and quiet here.”
+
+“My lords,” said the camel humbly, “we dreamed bad dreams in the night,
+and we were very much afraid. I am only a baggage camel of the 39th
+Native Infantry, and I am not as brave as you are, my lords.”
+
+“Then why didn’t you stay and carry baggage for the 39th Native
+Infantry, instead of running all round the camp?” said the mule.
+
+“They were such very bad dreams,” said the camel. “I am sorry. Listen!
+What is that? Shall we run on again?”
+
+“Sit down,” said the mule, “or you’ll snap your long stick-legs between
+the guns.” He cocked one ear and listened. “Bullocks!” he said. “Gun
+bullocks. On my word, you and your friends have waked the camp very
+thoroughly. It takes a good deal of prodding to put up a gun-bullock.”
+
+I heard a chain dragging along the ground, and a yoke of the great sulky
+white bullocks that drag the heavy siege guns when the elephants won’t
+go any nearer to the firing, came shouldering along together. And almost
+stepping on the chain was another battery mule, calling wildly for
+“Billy.”
+
+“That’s one of our recruits,” said the old mule to the troop horse.
+“He’s calling for me. Here, youngster, stop squealing. The dark never
+hurt anybody yet.”
+
+The gun-bullocks lay down together and began chewing the cud, but the
+young mule huddled close to Billy.
+
+“Things!” he said. “Fearful and horrible, Billy! They came into our
+lines while we were asleep. D’you think they’ll kill us?”
+
+“I’ve a very great mind to give you a number-one kicking,” said Billy.
+“The idea of a fourteen-hand mule with your training disgracing the
+battery before this gentleman!”
+
+“Gently, gently!” said the troop-horse. “Remember they are always like
+this to begin with. The first time I ever saw a man (it was in Australia
+when I was a three-year-old) I ran for half a day, and if I’d seen a
+camel, I should have been running still.”
+
+Nearly all our horses for the English cavalry are brought to India from
+Australia, and are broken in by the troopers themselves.
+
+“True enough,” said Billy. “Stop shaking, youngster. The first time
+they put the full harness with all its chains on my back I stood on
+my forelegs and kicked every bit of it off. I hadn’t learned the real
+science of kicking then, but the battery said they had never seen
+anything like it.”
+
+“But this wasn’t harness or anything that jingled,” said the young mule.
+“You know I don’t mind that now, Billy. It was Things like trees, and
+they fell up and down the lines and bubbled; and my head-rope broke, and
+I couldn’t find my driver, and I couldn’t find you, Billy, so I ran off
+with--with these gentlemen.”
+
+“H’m!” said Billy. “As soon as I heard the camels were loose I came away
+on my own account. When a battery--a screw-gun mule calls gun-bullocks
+gentlemen, he must be very badly shaken up. Who are you fellows on the
+ground there?”
+
+The gun bullocks rolled their cuds, and answered both together: “The
+seventh yoke of the first gun of the Big Gun Battery. We were asleep
+when the camels came, but when we were trampled on we got up and walked
+away. It is better to lie quiet in the mud than to be disturbed on good
+bedding. We told your friend here that there was nothing to be afraid
+of, but he knew so much that he thought otherwise. Wah!”
+
+They went on chewing.
+
+“That comes of being afraid,” said Billy. “You get laughed at by
+gun-bullocks. I hope you like it, young un.”
+
+The young mule’s teeth snapped, and I heard him say something about not
+being afraid of any beefy old bullock in the world. But the bullocks
+only clicked their horns together and went on chewing.
+
+“Now, don’t be angry after you’ve been afraid. That’s the worst kind
+of cowardice,” said the troop-horse. “Anybody can be forgiven for being
+scared in the night, I think, if they see things they don’t understand.
+We’ve broken out of our pickets, again and again, four hundred and fifty
+of us, just because a new recruit got to telling tales of whip snakes at
+home in Australia till we were scared to death of the loose ends of our
+head-ropes.”
+
+“That’s all very well in camp,” said Billy. “I’m not above stampeding
+myself, for the fun of the thing, when I haven’t been out for a day or
+two. But what do you do on active service?”
+
+“Oh, that’s quite another set of new shoes,” said the troop horse. “Dick
+Cunliffe’s on my back then, and drives his knees into me, and all I have
+to do is to watch where I am putting my feet, and to keep my hind legs
+well under me, and be bridle-wise.”
+
+“What’s bridle-wise?” said the young mule.
+
+“By the Blue Gums of the Back Blocks,” snorted the troop-horse, “do you
+mean to say that you aren’t taught to be bridle-wise in your business?
+How can you do anything, unless you can spin round at once when the
+rein is pressed on your neck? It means life or death to your man, and of
+course that’s life and death to you. Get round with your hind legs under
+you the instant you feel the rein on your neck. If you haven’t room to
+swing round, rear up a little and come round on your hind legs. That’s
+being bridle-wise.”
+
+“We aren’t taught that way,” said Billy the mule stiffly. “We’re taught
+to obey the man at our head: step off when he says so, and step in when
+he says so. I suppose it comes to the same thing. Now, with all this
+fine fancy business and rearing, which must be very bad for your hocks,
+what do you do?”
+
+“That depends,” said the troop-horse. “Generally I have to go in among a
+lot of yelling, hairy men with knives--long shiny knives, worse than
+the farrier’s knives--and I have to take care that Dick’s boot is just
+touching the next man’s boot without crushing it. I can see Dick’s lance
+to the right of my right eye, and I know I’m safe. I shouldn’t care to
+be the man or horse that stood up to Dick and me when we’re in a hurry.”
+
+“Don’t the knives hurt?” said the young mule.
+
+“Well, I got one cut across the chest once, but that wasn’t Dick’s
+fault--”
+
+“A lot I should have cared whose fault it was, if it hurt!” said the
+young mule.
+
+“You must,” said the troop horse. “If you don’t trust your man, you may
+as well run away at once. That’s what some of our horses do, and I don’t
+blame them. As I was saying, it wasn’t Dick’s fault. The man was lying
+on the ground, and I stretched myself not to tread on him, and he
+slashed up at me. Next time I have to go over a man lying down I shall
+step on him--hard.”
+
+“H’m!” said Billy. “It sounds very foolish. Knives are dirty things
+at any time. The proper thing to do is to climb up a mountain with a
+well-balanced saddle, hang on by all four feet and your ears too, and
+creep and crawl and wriggle along, till you come out hundreds of feet
+above anyone else on a ledge where there’s just room enough for your
+hoofs. Then you stand still and keep quiet--never ask a man to hold your
+head, young un--keep quiet while the guns are being put together, and
+then you watch the little poppy shells drop down into the tree-tops ever
+so far below.”
+
+“Don’t you ever trip?” said the troop-horse.
+
+“They say that when a mule trips you can split a hen’s ear,” said Billy.
+“Now and again perhaps a badly packed saddle will upset a mule, but it’s
+very seldom. I wish I could show you our business. It’s beautiful. Why,
+it took me three years to find out what the men were driving at. The
+science of the thing is never to show up against the sky line, because,
+if you do, you may get fired at. Remember that, young un. Always keep
+hidden as much as possible, even if you have to go a mile out of your
+way. I lead the battery when it comes to that sort of climbing.”
+
+“Fired at without the chance of running into the people who are firing!”
+ said the troop-horse, thinking hard. “I couldn’t stand that. I should
+want to charge--with Dick.”
+
+“Oh, no, you wouldn’t. You know that as soon as the guns are in
+position they’ll do all the charging. That’s scientific and neat. But
+knives--pah!”
+
+The baggage-camel had been bobbing his head to and fro for some time
+past, anxious to get a word in edgewise. Then I heard him say, as he
+cleared his throat, nervously:
+
+“I--I--I have fought a little, but not in that climbing way or that
+running way.”
+
+“No. Now you mention it,” said Billy, “you don’t look as though you were
+made for climbing or running--much. Well, how was it, old Hay-bales?”
+
+“The proper way,” said the camel. “We all sat down--”
+
+“Oh, my crupper and breastplate!” said the troop-horse under his breath.
+“Sat down!”
+
+“We sat down--a hundred of us,” the camel went on, “in a big square, and
+the men piled our packs and saddles, outside the square, and they fired
+over our backs, the men did, on all sides of the square.”
+
+“What sort of men? Any men that came along?” said the troop-horse. “They
+teach us in riding school to lie down and let our masters fire across
+us, but Dick Cunliffe is the only man I’d trust to do that. It tickles
+my girths, and, besides, I can’t see with my head on the ground.”
+
+“What does it matter who fires across you?” said the camel. “There are
+plenty of men and plenty of other camels close by, and a great many
+clouds of smoke. I am not frightened then. I sit still and wait.”
+
+“And yet,” said Billy, “you dream bad dreams and upset the camp at
+night. Well, well! Before I’d lie down, not to speak of sitting down,
+and let a man fire across me, my heels and his head would have something
+to say to each other. Did you ever hear anything so awful as that?”
+
+There was a long silence, and then one of the gun bullocks lifted up his
+big head and said, “This is very foolish indeed. There is only one way
+of fighting.”
+
+“Oh, go on,” said Billy. “Please don’t mind me. I suppose you fellows
+fight standing on your tails?”
+
+“Only one way,” said the two together. (They must have been twins.)
+“This is that way. To put all twenty yoke of us to the big gun as soon
+as Two Tails trumpets.” (“Two Tails” is camp slang for the elephant.)
+
+“What does Two Tails trumpet for?” said the young mule.
+
+“To show that he is not going any nearer to the smoke on the other
+side. Two Tails is a great coward. Then we tug the big gun all
+together--Heya--Hullah! Heeyah! Hullah! We do not climb like cats nor
+run like calves. We go across the level plain, twenty yoke of us, till
+we are unyoked again, and we graze while the big guns talk across the
+plain to some town with mud walls, and pieces of the wall fall out, and
+the dust goes up as though many cattle were coming home.”
+
+“Oh! And you choose that time for grazing?” said the young mule.
+
+“That time or any other. Eating is always good. We eat till we are yoked
+up again and tug the gun back to where Two Tails is waiting for it.
+Sometimes there are big guns in the city that speak back, and some of
+us are killed, and then there is all the more grazing for those that are
+left. This is Fate. None the less, Two Tails is a great coward. That is
+the proper way to fight. We are brothers from Hapur. Our father was a
+sacred bull of Shiva. We have spoken.”
+
+“Well, I’ve certainly learned something tonight,” said the troop-horse.
+“Do you gentlemen of the screw-gun battery feel inclined to eat when you
+are being fired at with big guns, and Two Tails is behind you?”
+
+“About as much as we feel inclined to sit down and let men sprawl all
+over us, or run into people with knives. I never heard such stuff. A
+mountain ledge, a well-balanced load, a driver you can trust to let you
+pick your own way, and I’m your mule. But--the other things--no!” said
+Billy, with a stamp of his foot.
+
+“Of course,” said the troop horse, “everyone is not made in the same
+way, and I can quite see that your family, on your father’s side, would
+fail to understand a great many things.”
+
+“Never you mind my family on my father’s side,” said Billy angrily, for
+every mule hates to be reminded that his father was a donkey. “My father
+was a Southern gentleman, and he could pull down and bite and kick into
+rags every horse he came across. Remember that, you big brown Brumby!”
+
+Brumby means wild horse without any breeding. Imagine the feelings of
+Sunol if a car-horse called her a “skate,” and you can imagine how the
+Australian horse felt. I saw the white of his eye glitter in the dark.
+
+“See here, you son of an imported Malaga jackass,” he said between
+his teeth, “I’d have you know that I’m related on my mother’s side to
+Carbine, winner of the Melbourne Cup, and where I come from we aren’t
+accustomed to being ridden over roughshod by any parrot-mouthed,
+pig-headed mule in a pop-gun pea-shooter battery. Are you ready?”
+
+“On your hind legs!” squealed Billy. They both reared up facing each
+other, and I was expecting a furious fight, when a gurgly, rumbly
+voice, called out of the darkness to the right--“Children, what are you
+fighting about there? Be quiet.”
+
+Both beasts dropped down with a snort of disgust, for neither horse nor
+mule can bear to listen to an elephant’s voice.
+
+“It’s Two Tails!” said the troop-horse. “I can’t stand him. A tail at
+each end isn’t fair!”
+
+“My feelings exactly,” said Billy, crowding into the troop-horse for
+company. “We’re very alike in some things.”
+
+“I suppose we’ve inherited them from our mothers,” said the troop horse.
+“It’s not worth quarreling about. Hi! Two Tails, are you tied up?”
+
+“Yes,” said Two Tails, with a laugh all up his trunk. “I’m picketed for
+the night. I’ve heard what you fellows have been saying. But don’t be
+afraid. I’m not coming over.”
+
+The bullocks and the camel said, half aloud, “Afraid of Two Tails--what
+nonsense!” And the bullocks went on, “We are sorry that you heard, but
+it is true. Two Tails, why are you afraid of the guns when they fire?”
+
+“Well,” said Two Tails, rubbing one hind leg against the other, exactly
+like a little boy saying a poem, “I don’t quite know whether you’d
+understand.”
+
+“We don’t, but we have to pull the guns,” said the bullocks.
+
+“I know it, and I know you are a good deal braver than you think
+you are. But it’s different with me. My battery captain called me a
+Pachydermatous Anachronism the other day.”
+
+“That’s another way of fighting, I suppose?” said Billy, who was
+recovering his spirits.
+
+“You don’t know what that means, of course, but I do. It means betwixt
+and between, and that is just where I am. I can see inside my head what
+will happen when a shell bursts, and you bullocks can’t.”
+
+“I can,” said the troop-horse. “At least a little bit. I try not to
+think about it.”
+
+“I can see more than you, and I do think about it. I know there’s a
+great deal of me to take care of, and I know that nobody knows how to
+cure me when I’m sick. All they can do is to stop my driver’s pay till I
+get well, and I can’t trust my driver.”
+
+“Ah!” said the troop horse. “That explains it. I can trust Dick.”
+
+“You could put a whole regiment of Dicks on my back without making me
+feel any better. I know just enough to be uncomfortable, and not enough
+to go on in spite of it.”
+
+“We do not understand,” said the bullocks.
+
+“I know you don’t. I’m not talking to you. You don’t know what blood
+is.”
+
+“We do,” said the bullocks. “It is red stuff that soaks into the ground
+and smells.”
+
+The troop-horse gave a kick and a bound and a snort.
+
+“Don’t talk of it,” he said. “I can smell it now, just thinking of it.
+It makes me want to run--when I haven’t Dick on my back.”
+
+“But it is not here,” said the camel and the bullocks. “Why are you so
+stupid?”
+
+“It’s vile stuff,” said Billy. “I don’t want to run, but I don’t want to
+talk about it.”
+
+“There you are!” said Two Tails, waving his tail to explain.
+
+“Surely. Yes, we have been here all night,” said the bullocks.
+
+Two Tails stamped his foot till the iron ring on it jingled. “Oh, I’m
+not talking to you. You can’t see inside your heads.”
+
+“No. We see out of our four eyes,” said the bullocks. “We see straight
+in front of us.”
+
+“If I could do that and nothing else, you wouldn’t be needed to pull the
+big guns at all. If I was like my captain--he can see things inside his
+head before the firing begins, and he shakes all over, but he knows too
+much to run away--if I was like him I could pull the guns. But if I were
+as wise as all that I should never be here. I should be a king in the
+forest, as I used to be, sleeping half the day and bathing when I liked.
+I haven’t had a good bath for a month.”
+
+“That’s all very fine,” said Billy. “But giving a thing a long name
+doesn’t make it any better.”
+
+“H’sh!” said the troop horse. “I think I understand what Two Tails
+means.”
+
+“You’ll understand better in a minute,” said Two Tails angrily. “Now you
+just explain to me why you don’t like this!”
+
+He began trumpeting furiously at the top of his trumpet.
+
+“Stop that!” said Billy and the troop horse together, and I could
+hear them stamp and shiver. An elephant’s trumpeting is always nasty,
+especially on a dark night.
+
+“I shan’t stop,” said Two Tails. “Won’t you explain that, please?
+Hhrrmph! Rrrt! Rrrmph! Rrrhha!” Then he stopped suddenly, and I heard
+a little whimper in the dark, and knew that Vixen had found me at last.
+She knew as well as I did that if there is one thing in the world the
+elephant is more afraid of than another it is a little barking dog. So
+she stopped to bully Two Tails in his pickets, and yapped round his big
+feet. Two Tails shuffled and squeaked. “Go away, little dog!” he said.
+“Don’t snuff at my ankles, or I’ll kick at you. Good little dog--nice
+little doggie, then! Go home, you yelping little beast! Oh, why doesn’t
+someone take her away? She’ll bite me in a minute.”
+
+“Seems to me,” said Billy to the troop horse, “that our friend Two Tails
+is afraid of most things. Now, if I had a full meal for every dog I’ve
+kicked across the parade-ground I should be as fat as Two Tails nearly.”
+
+I whistled, and Vixen ran up to me, muddy all over, and licked my nose,
+and told me a long tale about hunting for me all through the camp. I
+never let her know that I understood beast talk, or she would have
+taken all sorts of liberties. So I buttoned her into the breast of my
+overcoat, and Two Tails shuffled and stamped and growled to himself.
+
+“Extraordinary! Most extraordinary!” he said. “It runs in our family.
+Now, where has that nasty little beast gone to?”
+
+I heard him feeling about with his trunk.
+
+“We all seem to be affected in various ways,” he went on, blowing his
+nose. “Now, you gentlemen were alarmed, I believe, when I trumpeted.”
+
+“Not alarmed, exactly,” said the troop-horse, “but it made me feel as
+though I had hornets where my saddle ought to be. Don’t begin again.”
+
+“I’m frightened of a little dog, and the camel here is frightened by bad
+dreams in the night.”
+
+“It is very lucky for us that we haven’t all got to fight in the same
+way,” said the troop-horse.
+
+“What I want to know,” said the young mule, who had been quiet for a
+long time--“what I want to know is, why we have to fight at all.”
+
+“Because we’re told to,” said the troop-horse, with a snort of contempt.
+
+“Orders,” said Billy the mule, and his teeth snapped.
+
+“Hukm hai!” (It is an order!), said the camel with a gurgle, and Two
+Tails and the bullocks repeated, “Hukm hai!”
+
+“Yes, but who gives the orders?” said the recruit-mule.
+
+“The man who walks at your head--Or sits on your back--Or holds the nose
+rope--Or twists your tail,” said Billy and the troop-horse and the camel
+and the bullocks one after the other.
+
+“But who gives them the orders?”
+
+“Now you want to know too much, young un,” said Billy, “and that is one
+way of getting kicked. All you have to do is to obey the man at your
+head and ask no questions.”
+
+“He’s quite right,” said Two Tails. “I can’t always obey, because I’m
+betwixt and between. But Billy’s right. Obey the man next to you who
+gives the order, or you’ll stop all the battery, besides getting a
+thrashing.”
+
+The gun-bullocks got up to go. “Morning is coming,” they said. “We will
+go back to our lines. It is true that we only see out of our eyes, and
+we are not very clever. But still, we are the only people to-night who
+have not been afraid. Good-night, you brave people.”
+
+Nobody answered, and the troop-horse said, to change the conversation,
+“Where’s that little dog? A dog means a man somewhere about.”
+
+“Here I am,” yapped Vixen, “under the gun tail with my man. You big,
+blundering beast of a camel you, you upset our tent. My man’s very
+angry.”
+
+“Phew!” said the bullocks. “He must be white!”
+
+“Of course he is,” said Vixen. “Do you suppose I’m looked after by a
+black bullock-driver?”
+
+“Huah! Ouach! Ugh!” said the bullocks. “Let us get away quickly.”
+
+They plunged forward in the mud, and managed somehow to run their yoke
+on the pole of an ammunition wagon, where it jammed.
+
+“Now you have done it,” said Billy calmly. “Don’t struggle. You’re hung
+up till daylight. What on earth’s the matter?”
+
+The bullocks went off into the long hissing snorts that Indian cattle
+give, and pushed and crowded and slued and stamped and slipped and
+nearly fell down in the mud, grunting savagely.
+
+“You’ll break your necks in a minute,” said the troop-horse. “What’s the
+matter with white men? I live with ’em.”
+
+“They--eat--us! Pull!” said the near bullock. The yoke snapped with a
+twang, and they lumbered off together.
+
+I never knew before what made Indian cattle so scared of Englishmen.
+We eat beef--a thing that no cattle-driver touches--and of course the
+cattle do not like it.
+
+“May I be flogged with my own pad-chains! Who’d have thought of two big
+lumps like those losing their heads?” said Billy.
+
+“Never mind. I’m going to look at this man. Most of the white men, I
+know, have things in their pockets,” said the troop-horse.
+
+“I’ll leave you, then. I can’t say I’m over-fond of ’em myself. Besides,
+white men who haven’t a place to sleep in are more than likely to be
+thieves, and I’ve a good deal of Government property on my back. Come
+along, young un, and we’ll go back to our lines. Good-night, Australia!
+See you on parade to-morrow, I suppose. Good-night, old Hay-bale!--try
+to control your feelings, won’t you? Good-night, Two Tails! If you pass
+us on the ground tomorrow, don’t trumpet. It spoils our formation.”
+
+Billy the Mule stumped off with the swaggering limp of an old
+campaigner, as the troop-horse’s head came nuzzling into my breast, and
+I gave him biscuits, while Vixen, who is a most conceited little dog,
+told him fibs about the scores of horses that she and I kept.
+
+“I’m coming to the parade to-morrow in my dog-cart,” she said. “Where
+will you be?”
+
+“On the left hand of the second squadron. I set the time for all my
+troop, little lady,” he said politely. “Now I must go back to Dick. My
+tail’s all muddy, and he’ll have two hours’ hard work dressing me for
+parade.”
+
+The big parade of all the thirty thousand men was held that afternoon,
+and Vixen and I had a good place close to the Viceroy and the Amir of
+Afghanistan, with high, big black hat of astrakhan wool and the great
+diamond star in the center. The first part of the review was all
+sunshine, and the regiments went by in wave upon wave of legs all moving
+together, and guns all in a line, till our eyes grew dizzy. Then the
+cavalry came up, to the beautiful cavalry canter of “Bonnie Dundee,” and
+Vixen cocked her ear where she sat on the dog-cart. The second squadron
+of the Lancers shot by, and there was the troop-horse, with his tail
+like spun silk, his head pulled into his breast, one ear forward and one
+back, setting the time for all his squadron, his legs going as smoothly
+as waltz music. Then the big guns came by, and I saw Two Tails and two
+other elephants harnessed in line to a forty-pounder siege gun, while
+twenty yoke of oxen walked behind. The seventh pair had a new yoke, and
+they looked rather stiff and tired. Last came the screw guns, and Billy
+the mule carried himself as though he commanded all the troops, and his
+harness was oiled and polished till it winked. I gave a cheer all by
+myself for Billy the mule, but he never looked right or left.
+
+The rain began to fall again, and for a while it was too misty to see
+what the troops were doing. They had made a big half circle across the
+plain, and were spreading out into a line. That line grew and grew and
+grew till it was three-quarters of a mile long from wing to wing--one
+solid wall of men, horses, and guns. Then it came on straight toward the
+Viceroy and the Amir, and as it got nearer the ground began to shake,
+like the deck of a steamer when the engines are going fast.
+
+Unless you have been there you cannot imagine what a frightening effect
+this steady come-down of troops has on the spectators, even when they
+know it is only a review. I looked at the Amir. Up till then he had not
+shown the shadow of a sign of astonishment or anything else. But now his
+eyes began to get bigger and bigger, and he picked up the reins on his
+horse’s neck and looked behind him. For a minute it seemed as though he
+were going to draw his sword and slash his way out through the English
+men and women in the carriages at the back. Then the advance stopped
+dead, the ground stood still, the whole line saluted, and thirty bands
+began to play all together. That was the end of the review, and the
+regiments went off to their camps in the rain, and an infantry band
+struck up with--
+
+     The animals went in two by two,
+          Hurrah!
+     The animals went in two by two,
+     The elephant and the battery mul’,
+     and they all got into the Ark
+          For to get out of the rain!
+
+Then I heard an old grizzled, long-haired Central Asian chief, who had
+come down with the Amir, asking questions of a native officer.
+
+“Now,” said he, “in what manner was this wonderful thing done?”
+
+And the officer answered, “An order was given, and they obeyed.”
+
+“But are the beasts as wise as the men?” said the chief.
+
+“They obey, as the men do. Mule, horse, elephant, or bullock, he
+obeys his driver, and the driver his sergeant, and the sergeant his
+lieutenant, and the lieutenant his captain, and the captain his major,
+and the major his colonel, and the colonel his brigadier commanding
+three regiments, and the brigadier the general, who obeys the Viceroy,
+who is the servant of the Empress. Thus it is done.”
+
+“Would it were so in Afghanistan!” said the chief, “for there we obey
+only our own wills.”
+
+“And for that reason,” said the native officer, twirling his mustache,
+“your Amir whom you do not obey must come here and take orders from our
+Viceroy.”

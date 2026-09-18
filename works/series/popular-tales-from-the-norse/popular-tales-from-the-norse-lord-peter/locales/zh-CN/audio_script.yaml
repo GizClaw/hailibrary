@@ -1,0 +1,269 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容而清醒，带一点克制的诙谐
+        timbre: 温厚清晰
+        pace: 舒缓有致
+        pitch: 中低
+    lord_peter:
+      display_name: 彼得老爷
+      tts:
+        delivery: 善良朴实，窘迫时坦率，得意时仍不失憨厚
+        timbre: 年轻清亮
+        pace: 中等
+        pitch: 中高
+    eldest_brother:
+      display_name: 大哥
+      tts:
+        delivery: 务实直白，盘算眼前的小好处
+        timbre: 粗朴清晰
+        pace: 中等
+        pitch: 中
+    second_brother:
+      display_name: 二哥
+      tts:
+        delivery: 精明随意，说话简短利落
+        timbre: 朴实明亮
+        pace: 中等
+        pitch: 中
+    princess:
+      display_name: 公主
+      tts:
+        delivery: 聪慧果断，危急时也能稳住心神
+        timbre: 明亮柔和
+        pace: 中等
+        pitch: 中高
+    king:
+      display_name: 国王
+      tts:
+        delivery: 威严急躁，发怒时不容争辩
+        timbre: 饱满有力
+        pace: 中等
+        pitch: 中低
+    shepherd:
+      display_name: 牧羊人
+      tts:
+        delivery: 年轻爽快，见到好处便欣然答应
+        timbre: 清朗朴实
+        pace: 中等
+        pitch: 中高
+    cowherd:
+      display_name: 牧牛人
+      tts:
+        delivery: 豪爽干脆，答话毫不迟疑
+        timbre: 宽厚明亮
+        pace: 中等
+        pitch: 中
+    horseherd:
+      display_name: 牧马人
+      tts:
+        delivery: 爽直配合，说话简洁自然
+        timbre: 年轻清晰
+        pace: 中等
+        pitch: 中高
+    troll:
+      display_name: 巨怪
+      tts:
+        delivery: 粗暴凶狠，咆哮时震耳欲聋
+        timbre: 粗粝浑厚
+        pace: 偏慢
+        pitch: 低
+  chapters:
+    - id: ch01
+      title: 三兄弟的遗产
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前有一对穷夫妻，家里除了三个儿子，什么也没有。两个哥哥叫什么，我可说不上来。最小的那个名叫彼得。父母双双去世以后，兄弟三人本该分一分遗产。可他们找遍家里，能分的总共只有三样东西：一口粥锅、一只烤饼鏊子，还有一只猫。
+        - id: ch01-b02
+          speaker: eldest_brother
+          text: 我先挑这口锅。以后谁借去煮粥，总会让我刮点锅底吃。
+        - id: ch01-b03
+          speaker: narrator
+          text: 老大拿走了粥锅，老二便挑了鏊子。
+        - id: ch01-b04
+          speaker: second_brother
+          text: 谁来借鏊子，总得分我一点面团。那就够我烤个小饼了。
+        - id: ch01-b05
+          speaker: narrator
+          text: 最后轮到彼得，已经没得挑了，只剩下那只猫。
+        - id: ch01-b06
+          speaker: lord_peter
+          text: 把猫借给别人，我可得不到什么。她就算讨来一滴奶，也准会自己喝掉。不过，我还是带她走吧。把她留在这里挨饿，我实在不忍心。
+        - id: ch01-b07
+          speaker: narrator
+          text: 三兄弟各自上路，到世上去碰碰运气。彼得才走了一阵，猫儿忽然说起话来。
+        - id: ch01-b08
+          speaker: princess
+          text: 你没有把我扔在旧屋里饿死，我一定好好报答你。我要进树林捉一头肥美的野兽。你把它带到那边的王宫，就说有一点薄礼送给国王。他若问礼物是谁送的，你就回答：“除了彼得老爷，还能是谁？”
+    - id: ch02
+      title: 彼得老爷的礼物
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 彼得没等多久，猫儿便从树林里带回一头驯鹿。她跳上驯鹿的脑袋，正好蹲在两只角中间，还威胁它说，不肯径直走到王宫，就把它的眼睛抓出来。驯鹿无论情愿不情愿，都只能乖乖上路。彼得领着它进了王宫，径直走进厨房，向国王献上这份礼物。
+        - id: ch02-b02
+          speaker: lord_peter
+          text: 我带来一点薄礼献给陛下，只盼您不要嫌弃。
+        - id: ch02-b03
+          speaker: narrator
+          text: 国王来到厨房，看见那头漂亮肥壮的驯鹿，喜得眉开眼笑。
+        - id: ch02-b04
+          speaker: king
+          text: 我的朋友，究竟是哪一位送来这么贵重的礼物？
+        - id: ch02-b05
+          speaker: lord_peter
+          text: 除了彼得老爷，还能是谁？
+        - id: ch02-b06
+          speaker: king
+          text: 彼得老爷？快告诉我，他住在哪里？
+        - id: ch02-b07
+          speaker: narrator
+          text: 国王心想，这样一位大人物，自己竟然不认识，实在说不过去。于是，他非要问出彼得老爷住在哪里。可彼得只说，主人严禁他透露住处，他不敢违命。国王只好作罢，赏了他一大笔喝酒钱，又请他回去以后务必多说些好话，好好替自己感谢主人送来的厚礼。
+        - id: ch02-b08
+          speaker: narrator
+          text: 第二天，猫儿又钻进树林，跳到一头马鹿头上，坐在两角之间，逼着它一路走到王宫。彼得照旧把礼物送进厨房，只说陛下若肯收下就好。国王见到马鹿，比收到驯鹿时还高兴，又追问这么贵重的礼物是谁送来的。
+        - id: ch02-b09
+          speaker: lord_peter
+          text: 当然是彼得老爷，这还用问吗？
+        - id: ch02-b10
+          speaker: narrator
+          text: 至于彼得老爷住在哪里，他还是拿前一天的话回答。国王问不出来，只得又赏给他一大笔喝酒钱。第三天，猫儿带来一头高大雄壮的麋鹿。彼得才在厨房说完来意，国王便立刻赶了过去，一见麋鹿，喜得几乎站不住脚。这次他给的钱比先前多得多，少说也有一百块。他已经打定主意，非问出送礼人的住处不可，便东一句西一句，盘问个没完。彼得仍说，主人严令保密，他万万不敢开口。
+        - id: ch02-b11
+          speaker: king
+          text: 那么，请彼得老爷亲自来见我一面。
+        - id: ch02-b12
+          speaker: narrator
+          text: 彼得答应传话。可一走到院子里，他便向猫儿诉起苦来。
+        - id: ch02-b13
+          speaker: lord_peter
+          text: 这回真叫你害苦了！国王要见我，可我只有身上这套破衣服，怎么进宫呢？
+        - id: ch02-b14
+          speaker: princess
+          text: 别担心。三天以后，你会有马车、骏马，还有一身直往下掉金子的华服。进宫以后，不论国王拿出什么，你都要说自己家里的更加华美、更加气派。一定记住。
+        - id: ch02-b15
+          speaker: lord_peter
+          text: 放心吧，我一定记得。
+        - id: ch02-b16
+          speaker: narrator
+          text: 三天后，猫儿果然送来马车、骏马、华服，还有彼得需要的一切。那身衣服华丽得直往下掉金子，别的东西也样样贵重，叫人看直了眼。彼得乘车进宫，猫儿一路跟着马车奔跑。国王亲切而隆重地招待他。可不论端出什么款待，又领他去看什么，彼得总说，那东西虽然不错，自己家里的却华美得多，也好得多。国王越听越不相信，彼得偏偏一口咬定。最后，国王气得再也忍不住了。
+        - id: ch02-b17
+          speaker: king
+          text: 我现在就跟你回去，亲眼看看你家是不是样样都更好。你若一直在撒谎，那就求老天保佑你吧！
+          emotion: angry
+        - id: ch02-b18
+          speaker: lord_peter
+          text: 你把我害惨了。国王要跟我回家，可我上哪儿去找那个家呢？
+        - id: ch02-b19
+          speaker: princess
+          text: 别管这些。我在前面跑，你驾车跟紧我就行。
+    - id: ch03
+      title: 一路上的财富
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 他们就这样浩浩荡荡地出发了。猫儿跑在最前面，彼得驾车紧跟着她，国王和满朝随从又跟在彼得后面。走了好长一段路，前方出现一大群漂亮的绵羊。那羊群大得望不到头，羊毛又长又密，几乎拖到了地上。
+        - id: ch03-b02
+          speaker: princess
+          text: 等国王问起来，你就说这些羊全是彼得老爷的。我把这把从王宫带来的银汤匙送给你。
+        - id: ch03-b03
+          speaker: narrator
+          text: 牧羊人当然乐意，马上答应下来。等彼得和猫儿过去以后，国王也来到羊群前。他越看越稀奇，果然停下车来，亲自开口问起那个看羊的小伙子。
+        - id: ch03-b04
+          speaker: king
+          text: 我从没见过这么大、这么漂亮的羊群。小伙子，这些羊是谁家的？
+        - id: ch03-b05
+          speaker: shepherd
+          text: 除了彼得老爷，还能是谁家的？
+        - id: ch03-b06
+          speaker: narrator
+          text: 他们又往前走，遇到一大群漂亮的花斑牛。每一头都养得膘肥体壮，皮毛亮得映出太阳。
+        - id: ch03-b07
+          speaker: princess
+          text: 国王若问，你就说这群牛归彼得老爷。我送你一把从王宫拿来的银长勺。
+        - id: ch03-b08
+          speaker: cowherd
+          text: 好哇，我一百个愿意！
+        - id: ch03-b09
+          speaker: narrator
+          text: 国王从没见过这样肥壮的牛群，看得惊讶不已，便问牧牛人，那些花斑牛是谁家的。
+        - id: ch03-b10
+          speaker: cowherd
+          text: 当然是彼得老爷的，还能是谁的？
+        - id: ch03-b11
+          speaker: narrator
+          text: 再往前走，他们又遇见一大群骏马。栗色、黑色、褐色、棕红色，每种颜色各有六匹，匹匹漂亮得没话说。
+        - id: ch03-b12
+          speaker: princess
+          text: 等国王问起，你只要说马群属于彼得老爷，我就送你这只从王宫带来的银酒壶。
+        - id: ch03-b13
+          speaker: narrator
+          text: 牧马人马上答应。国王见到那群马，大为惊叹。他说自己从没见过配得这样整齐的骏马，接着便问，黑马、栗色马、褐色马和棕红马全是谁家的。
+        - id: ch03-b14
+          speaker: horseherd
+          text: 除了彼得老爷，还能是谁家的？
+        - id: ch03-b15
+          speaker: narrator
+          text: 他们继续赶路，又走了好长一段，终于来到一座城堡前。最外面是锡门，往里是银门，再往里是金门。城堡本身全由银子筑成。他们抵达时，阳光恰好落在墙上，那片耀眼的白光，刺得人看一眼都双目生疼。猫儿让彼得说，这里就是他的家。众人进去一看，里面比外面还要华美。椅子、桌子、长凳，所有东西全是纯金的。国王从高处看到低处，把整座城堡走了个遍。他越看越羞愧，也越看越泄气，最后只得垂下了头。
+        - id: ch03-b16
+          speaker: king
+          text: 我承认，彼得老爷的东西样样都比我的华美，这是谁也否认不了的。
+        - id: ch03-b17
+          speaker: narrator
+          text: 国王承认自己比不过彼得，便想马上动身回家。彼得却再三恳请他留下吃晚饭。国王虽然答应了，心里仍旧很不痛快。整顿饭里，他始终阴沉着脸，脾气又坏又暴躁。
+    - id: ch04
+      title: 巨怪与太阳
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 大家正在吃饭，城堡真正的主人回来了。那是一个巨怪。他走到门外，砰的一声擂响大门。
+        - id: ch04-b02
+          speaker: troll
+          text: 是谁待在里面，像猪一样吃我的肉，喝我的蜂蜜酒？
+          emotion: angry
+        - id: ch04-b03
+          speaker: narrator
+          text: 猫儿一听见那声咆哮，立刻离开餐桌，飞快地跑到大门口拦住巨怪。
+        - id: ch04-b04
+          speaker: princess
+          text: 先别急。我来告诉你，农夫种冬黑麦时都要做些什么。
+        - id: ch04-b05
+          speaker: narrator
+          text: 她就这样讲起冬黑麦，话长得没完没了。
+        - id: ch04-b06
+          speaker: princess
+          text: 先得把地犁一遍，再施肥，然后重新犁地，接着还要拿耙子耙平……
+        - id: ch04-b07
+          speaker: narrator
+          text: 猫儿从一道工序讲到下一道工序，没完没了地往下说。巨怪竟站在那里听着，直到黑夜过去，太阳从地平线上升了起来。
+        - id: ch04-b08
+          speaker: princess
+          text: 快回头瞧瞧！你身后站着一位多么美丽的姑娘！
+        - id: ch04-b09
+          speaker: narrator
+          text: 巨怪回头一看，正好望见太阳。就在那一刻，他的身子炸裂了。
+    - id: ch05
+      title: 猫儿的秘密
+      blocks:
+        - id: ch05-b01
+          speaker: princess
+          text: 现在，这里的一切都归你了。请你砍下我的脑袋吧。这就是我帮你得到这一切所求的唯一报酬。
+        - id: ch05-b02
+          speaker: lord_peter
+          text: 不行！无论如何，我也绝不会这样做。
+        - id: ch05-b03
+          speaker: princess
+          text: 你要是不肯，我就把你的眼睛抓出来！
+          emotion: angry
+        - id: ch05-b04
+          speaker: narrator
+          text: 彼得万分不情愿，可实在没有别的办法，只好照猫儿的要求去做。他一刀砍下她的头。谁知就在那一刻，猫儿不见了，站在他面前的竟是世上最美丽的公主。彼得一见到她，立刻爱上了她。
+        - id: ch05-b05
+          speaker: princess
+          text: 这里的荣华原本全属于我。一个巨怪对我施了魔法，把我变成猫，困在你父母的茅屋里。现在，愿不愿意娶我做王后，由你自己决定。因为从这一刻起，整个王国都归你统治了。
+        - id: ch05-b06
+          speaker: narrator
+          text: 好啦，好啦，彼得老爷当然十分愿意娶公主做王后，这还用得着怀疑吗？他们的婚礼整整举行了八天，婚礼之后还摆下盛大的宴席。等宴席结束，我便离开了彼得老爷和他美丽的王后，再没同他们住在一起。所以，他们后来的事，我可一句也说不上来了。

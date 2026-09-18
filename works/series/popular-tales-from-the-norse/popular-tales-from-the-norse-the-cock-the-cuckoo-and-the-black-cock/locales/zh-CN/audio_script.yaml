@@ -1,0 +1,72 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容而清醒，带一点克制的诙谐
+        timbre: 温厚清晰
+        pace: 舒缓有致
+        pitch: 中低
+    cock:
+      display_name: 公鸡
+      tts:
+        delivery: 神气响亮，语气干脆而得意
+        timbre: 高亢明亮
+        pace: 中等偏快
+        pitch: 高
+    cuckoo:
+      display_name: 布谷鸟
+      tts:
+        delivery: 机敏直率，歌声短促而清楚
+        timbre: 清亮圆润
+        pace: 中等
+        pitch: 中等偏高
+    black_cock:
+      display_name: 黑琴鸡
+      tts:
+        delivery: 认真讲理，带着友善的坚持
+        timbre: 浑厚清晰
+        pace: 中等
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 三只鸟买牛
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 这个故事也和前面几个故事一样，讲的时候，得学一学鸟儿的叫声。
+        - id: ch01-b02
+          speaker: narrator
+          text: 从前，公鸡、布谷鸟和黑琴鸡合伙买了一头母牛。分牛时，它们谈不拢该由谁买下另外两份。最后三个伙伴说定，第二天早晨谁醒得最早，母牛就归谁。
+    - id: ch02
+      title: 清早的鸟鸣
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 第二天，公鸡最先醒来，扯开嗓子叫了起来。
+        - id: ch02-b02
+          speaker: cock
+          text: 母牛是我的！母牛是我的！好哇，好哇！
+          emotion: happy
+        - id: ch02-b03
+          speaker: narrator
+          text: 公鸡这么喔喔一叫，布谷鸟醒了。
+        - id: ch02-b04
+          speaker: cuckoo
+          text: 半头牛！分我半头牛！
+        - id: ch02-b05
+          speaker: narrator
+          text: 布谷鸟咕咕一唱，又叫醒了黑琴鸡。
+        - id: ch02-b06
+          speaker: black_cock
+          text: 一样多，一样多！好朋友，就该分得一样多！瞧这边，瞧那边！
+        - id: ch02-b07
+          speaker: narrator
+          text: 黑琴鸡说的，就是这个意思。
+    - id: ch03
+      title: 母牛该归谁
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 那么，你能说说看，这头母牛究竟该归谁吗？

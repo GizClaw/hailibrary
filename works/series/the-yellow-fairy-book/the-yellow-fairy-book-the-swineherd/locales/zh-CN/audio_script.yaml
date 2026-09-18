@@ -1,0 +1,295 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts: {delivery: 沉静从容，带着古老童话的机智与克制, timbre: 温暖清朗, pace: 舒缓而富有变化, pitch: 中音}
+    prince:
+      display_name: 王子
+      tts: {delivery: 自尊而果断，伪装时朴实沉着, timbre: 清亮年轻, pace: 适中, pitch: 中音}
+    princess:
+      display_name: 公主
+      tts: {delivery: 娇纵任性，见到新奇玩意时兴奋急切, timbre: 明亮娇嫩, pace: 稍快, pitch: 中高音}
+    emperor:
+      display_name: 皇帝
+      tts: {delivery: 宽厚而有些滑稽，发怒时威严直接, timbre: 醇厚成熟, pace: 适中, pitch: 中低音}
+    lady_1:
+      display_name: 第一侍女
+      tts: {delivery: 顺从殷勤，偶尔为难迟疑, timbre: 清脆年轻, pace: 稍快, pitch: 中高音}
+    lady_2:
+      display_name: 第二侍女
+      tts: {delivery: 爱凑热闹，附和得轻快夸张, timbre: 柔亮年轻, pace: 稍快, pitch: 中高音}
+    lady_3:
+      display_name: 第三侍女
+      tts: {delivery: 爱凑热闹，附和时一本正经, timbre: 轻柔年轻, pace: 适中, pitch: 中音}
+    old_courtier:
+      display_name: 老廷臣
+      tts: {delivery: 怀旧而郑重，带着宫廷式的讲究, timbre: 苍老柔和, pace: 舒缓, pitch: 中低音}
+    gift_bearer:
+      display_name: 送礼使者
+      tts: {delivery: 恭敬简洁，不卑不亢, timbre: 平稳清晰, pace: 适中, pitch: 中音}
+  chapters:
+    - id: ch01
+      title: 王子的礼物
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 从前有一位穷王子。他的王国虽小，倒也足够让他凭着它娶一位妻子，而他正想结婚。
+        - id: ch01-b02
+          speaker: narrator
+          text: 他竟敢去问皇帝的女儿愿不愿意嫁给他，实在有点冒失。不过，王子的名声远近皆知。几百位公主都会欢喜地答应，可这一位呢？且往下看。
+        - id: ch01-b03
+          speaker: narrator
+          text: 王子父亲的坟上长着一株极美的玫瑰。它五年才开一次，而且每次只开一朵。可那是怎样的一朵花啊！花香甜美得很，谁闻上一闻，一切忧愁烦恼都会忘得干干净净。王子还有一只夜莺。它唱起歌来，世间所有美妙的旋律，仿佛都藏在那小小的喉咙里。
+        - id: ch01-b04
+          speaker: narrator
+          text: 王子把玫瑰和夜莺分别装进两只银匣，作为礼物送给公主。皇帝命人把它们抬进宽阔的大厅。那时，公主正跟侍女们玩“公爵骑马来”。她一看见两个装礼物的大匣子，立刻高兴得拍起手来。
+        - id: ch01-b05
+          speaker: princess
+          text: 但愿里面是一只小猫咪！
+        - id: ch01-b06
+          speaker: narrator
+          text: 匣子打开，取出来的却是那株开花的玫瑰。
+        - id: ch01-b07
+          speakers: [lady_1, lady_2, lady_3]
+          ensemble: chorus
+          text: 做得多么精巧呀！
+        - id: ch01-b08
+          speaker: emperor
+          text: 不只是精巧，简直迷人！
+        - id: ch01-b09
+          speaker: narrator
+          text: 公主伸手摸了摸，几乎要哭出来。
+        - id: ch01-b10
+          speaker: princess
+          text: 呸，爸爸！这不是假的，是真的！
+          emotion: disgusted
+        - id: ch01-b11
+          speakers: [lady_1, lady_2, lady_3]
+          ensemble: chorus
+          text: 呸，是真的！
+          emotion: disgusted
+        - id: ch01-b12
+          speaker: narrator
+          text: 皇帝心想，先看看另一个匣子里装着什么，再生气也不迟。匣子打开，夜莺飞了出来。它唱得无比动听，让人听了以后，连一句不高兴的话也很难说出口。
+        - id: ch01-b13
+          speakers: [lady_1, lady_2, lady_3]
+          ensemble: chorus
+          text: Superbe！Charmant！真是太美了！
+        - id: ch01-b14
+          speaker: narrator
+          text: 侍女们都爱说法语，可惜一个比一个说得糟。
+        - id: ch01-b15
+          speaker: old_courtier
+          text: 这只鸟真像已故皇后的音乐鼻烟盒。对，就是这个音色，也是这样的演奏！
+        - id: ch01-b16
+          speaker: emperor
+          text: 是啊。
+        - id: ch01-b17
+          speaker: narrator
+          text: 皇帝说完，竟像小孩子一样哭了起来。
+        - id: ch01-b18
+          speaker: princess
+          text: 这个至少不是真的吧？
+        - id: ch01-b19
+          speaker: gift_bearer
+          text: 是的，这是一只真鸟。
+        - id: ch01-b20
+          speaker: princess
+          text: 那就把它放走。
+        - id: ch01-b21
+          speaker: narrator
+          text: 公主无论如何也不肯让王子进宫。
+    - id: ch02
+      title: 会唱歌的小锅
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 王子并没泄气。他把脸涂成黑褐色，拉低帽子遮住面孔，然后去敲宫门。
+        - id: ch02-b02
+          speaker: prince
+          text: 皇帝陛下，您好。宫里能给我一份仆人的差事吗？
+        - id: ch02-b03
+          speaker: emperor
+          text: 求差事的人太多，我也不知道还有没有空缺。不过我会想着你的。等一等，我养的猪实在太多，正缺个人照看呢。
+        - id: ch02-b04
+          speaker: narrator
+          text: 王子就这样成了皇家猪倌，只能住在猪圈旁一间破烂的小屋里。他整整一天都坐在那里做东西。到了晚上，他做出一只漂亮的小锅。锅边围着一圈小铃铛，只要锅一烧开，铃铛就会发出悦耳的叮当声，唱起一支古老的曲子。
+        - id: ch02-b05
+          speaker: narrator
+          text: “我亲爱的奥古斯都在哪儿？唉，他不在这儿，不在这儿，不在这儿！”
+        - id: ch02-b06
+          speaker: narrator
+          text: 更奇妙的是，只要把一根手指伸进锅里冒出的蒸汽，马上就能闻出来，全城每一户人家的炉灶上正在做什么饭。这可真是一样了不得的本领，跟那朵玫瑰完全不是一回事。
+        - id: ch02-b07
+          speaker: narrator
+          text: 公主带着所有侍女从旁边经过。她一听见这支曲子，立刻停住脚步，脸上也亮了起来。原来，她也会弹《我亲爱的奥古斯都在哪儿》。这是她会的唯一一支曲子，不过只用一根手指就能弹出来。
+        - id: ch02-b08
+          speaker: princess
+          text: 咦，这就是我弹的曲子！这个猪倌一定很有才艺。你快去问问，那件乐器卖多少钱。
+        - id: ch02-b09
+          speaker: narrator
+          text: 第一侍女只好穿上木屐，下楼去问。
+        - id: ch02-b10
+          speaker: lady_1
+          text: 这只锅，你要什么价？
+        - id: ch02-b11
+          speaker: prince
+          text: 我要公主亲我十下。
+        - id: ch02-b12
+          speaker: lady_1
+          text: 老天保佑，可别这样！
+          emotion: surprised
+        - id: ch02-b13
+          speaker: prince
+          text: 少一下我也不卖。
+        - id: ch02-b14
+          speaker: princess
+          text: 怎么样，他说什么？
+        - id: ch02-b15
+          speaker: lady_1
+          text: 我实在不好意思告诉您。
+        - id: ch02-b16
+          speaker: princess
+          text: 那就悄悄说给我听。
+        - id: ch02-b17
+          speaker: narrator
+          text: 公主听完，嫌猪倌讨厌，转身便走。可她才走几步，铃铛又唱起了那首曲子。
+        - id: ch02-b18
+          speaker: narrator
+          text: “我亲爱的奥古斯都在哪儿？唉，他不在这儿，不在这儿，不在这儿！”
+        - id: ch02-b19
+          speaker: princess
+          text: 听啊！去问问他，肯不肯让我的侍女亲他十下。
+        - id: ch02-b20
+          speaker: prince
+          text: 不必了，多谢。要么公主亲我十下，要么我把锅留下。
+        - id: ch02-b21
+          speaker: princess
+          text: 真叫人为难！你们站在我前面，可别让人看见。
+        - id: ch02-b22
+          speaker: narrator
+          text: 侍女们站到公主前面，把裙子张开，严严实实地遮住她。猪倌如愿得到了十个吻，公主也把那只会唱歌的小锅拿到了手。
+    - id: ch03
+      title: 一百个吻
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 公主快活极了。那只锅从早烧到晚，又从晚烧到早，一刻也没闲着。全城没有哪一家炉灶能瞒过她们。无论宰相家在做什么，还是鞋匠家在做什么，她们闻一闻蒸汽，马上就知道得一清二楚。
+        - id: ch03-b02
+          speaker: narrator
+          text: 侍女们又跳又拍手。
+        - id: ch03-b03
+          speakers: [lady_1, lady_2, lady_3]
+          ensemble: chorus
+          text: 谁家喝汤、吃煎饼，谁家吃粥和香肠，我们全知道。多有意思呀！
+          emotion: happy
+        - id: ch03-b04
+          speaker: lady_1
+          text: 是啊，太有意思了！
+          emotion: happy
+        - id: ch03-b05
+          speaker: princess
+          text: 可不许说出去。我是皇帝的女儿。
+        - id: ch03-b06
+          speakers: [lady_1, lady_2, lady_3]
+          ensemble: chorus
+          text: 当然不会，我们绝不说！
+        - id: ch03-b07
+          speaker: narrator
+          text: 猪倌其实就是那位王子，只是她们一直以为他是个地地道道的猪倌。他一天也不闲着，每天都要做出一样新东西。有一天，他又做成一个响器。只要把它转起来，开天辟地以来人们知道的所有华尔兹、加洛普舞曲和波尔卡舞曲，它全都能奏。
+        - id: ch03-b08
+          speaker: princess
+          text: 这可真是superbe！我从没听过这么美的曲子。你去问价，不过这回我可不亲他。
+        - id: ch03-b09
+          speaker: lady_1
+          text: 他要公主亲他一百下。
+        - id: ch03-b10
+          speaker: princess
+          text: 我看他疯了！
+          emotion: surprised
+        - id: ch03-b11
+          speaker: narrator
+          text: 公主说完便继续往前走。可那美妙的音乐还在身后响着，她才走出几步，又停了下来。
+        - id: ch03-b12
+          speaker: princess
+          text: 艺术总得有人鼓励，我又是皇帝的女儿。告诉他，我照上回那样亲十下，剩下的让侍女们来亲。
+        - id: ch03-b13
+          speakers: [lady_1, lady_2, lady_3]
+          ensemble: chorus
+          text: 可我们一点儿也不想让他亲！
+        - id: ch03-b14
+          speaker: princess
+          text: 胡说。我都能亲，你们当然也能。别忘了，是我供你们吃住。
+        - id: ch03-b15
+          speaker: narrator
+          text: 侍女们只得再次下楼。
+        - id: ch03-b16
+          speaker: prince
+          text: 公主亲我一百下，否则咱们各自留下自己的东西。
+        - id: ch03-b17
+          speaker: princess
+          text: 你们都站到我们前面来。
+        - id: ch03-b18
+          speaker: narrator
+          text: 侍女们全都站到公主和猪倌前面，用裙子遮住他们。她们以为这样就不会有人看见了，猪倌便开始一个接一个地亲吻公主。
+    - id: ch04
+      title: 皇帝撞见了
+      blocks:
+        - id: ch04-b01
+          speaker: emperor
+          text: 猪圈旁边怎么这么吵？
+        - id: ch04-b02
+          speaker: narrator
+          text: 皇帝站在阳台上，揉揉眼睛，又戴上眼镜。
+        - id: ch04-b03
+          speaker: emperor
+          text: 原来是侍女们在玩游戏。我得下去看看。
+        - id: ch04-b04
+          speaker: narrator
+          text: 他急忙脱下鞋子。那原本确实是一双鞋，只因后跟早被他踩扁，穿起来已经跟拖鞋一样了。瞧瞧，他为了赶去猪圈，急成了什么样子！
+        - id: ch04-b05
+          speaker: narrator
+          text: 皇帝来到院子，放轻脚步，悄悄朝她们走去。侍女们正忙着一个接一个地数吻，还要盯住双方，免得有人作弊，所以谁也没有发现皇帝。皇帝踮起脚尖，这才看见公主和猪倌正在做什么。
+        - id: ch04-b06
+          speaker: emperor
+          text: 这是怎么回事？
+          emotion: angry
+        - id: ch04-b07
+          speaker: narrator
+          text: 猪倌正好亲到第八十六下。皇帝抄起一只拖鞋，朝他们头上扔去。
+        - id: ch04-b08
+          speaker: emperor
+          text: 都给我滚！
+          emotion: angry
+        - id: ch04-b09
+          speaker: narrator
+          text: 公主和猪倌就这样被赶出了帝国。
+    - id: ch05
+      title: 门外的歌
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 被赶出帝国以后，公主站在路上哭个不停，猪倌在一旁斥责她。偏偏这时候，大雨还从天上哗哗地倾泻下来。
+        - id: ch05-b02
+          speaker: princess
+          text: 唉，我真是个不幸的人！
+          emotion: sad
+        - id: ch05-b03
+          speaker: princess
+          text: 当初要是嫁给那位英俊的王子就好了！唉，我怎么这样倒霉！
+          emotion: sad
+        - id: ch05-b04
+          speaker: narrator
+          text: 猪倌走到一棵树后面，洗掉脸上涂的黑色和褐色，又把那身破旧衣裳扔掉。等他再次走出来时，身上已经穿着华美的礼服。他看起来实在太英俊了，公主一见到他，就不得不向他行屈膝礼。
+        - id: ch05-b05
+          speaker: prince
+          text: 现在我只想告诉你，我鄙视你！高贵的王子来求婚，你不肯理会。真正的玫瑰和夜莺有多美，你一点儿也不懂。可为了一件玩具，你竟肯亲吻一个猪倌。这就是你应得的下场！
+          emotion: angry
+        - id: ch05-b06
+          speaker: narrator
+          text: 王子回到自己的王国，把大门砰地关在公主面前。她只能留在门外唱着那首歌。
+        - id: ch05-b07
+          speaker: princess
+          text: “我亲爱的奥古斯都在哪儿？唉，他不在这儿，不在这儿，不在这儿！”
+          emotion: sad

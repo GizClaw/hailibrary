@@ -1,0 +1,73 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 从容讲述古老童话，带着一本正经的诙谐
+        timbre: 温暖清亮
+        pace: 舒缓而有变化
+        pitch: 中
+    husband:
+      display_name: 丈夫
+      tts:
+        delivery: 贪婪虚伪，面对鬼魂时强装镇定
+        timbre: 成熟偏沉
+        pace: 中等偏慢
+        pitch: 中低
+    wife_ghost:
+      display_name: 妻子的鬼魂
+      tts:
+        delivery: 阴冷空洞，最后一句骤然凌厉
+        timbre: 幽远低哑
+        pace: 缓慢
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 金臂新娘
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "从前有个男人，为了找妻子，走遍了四方。年轻的、年老的，富有的、贫穷的，美貌的、相貌平平的，他见过许多，却总没有一个中意。后来，他终于遇见一位年轻美丽的富家女子。更稀奇的是，她的右臂竟是纯金铸成的。男人马上娶了她，觉得天下再没有谁比自己更走运。"
+        - id: ch01-b02
+          speaker: narrator
+          text: "夫妻俩过得很快活。男人嘴上不说，心里却把那条金臂看得比妻子的其他一切都重。"
+    - id: ch02
+      title: 坟墓里的宝贝
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "后来，妻子死了。葬礼上，丈夫穿着一身最黑的丧服，脸拉得长长的。可到了半夜，他便起床挖开坟墓，砍下尸体的金臂，急忙带回家藏好。他以为这件事无人知晓。"
+        - id: ch02-b02
+          speaker: narrator
+          text: "第二天夜里，男人把金臂压在枕头下面。就在他快要睡着时，亡妻的鬼魂无声地飘进房间，一路来到床前。鬼魂拉开帷帐，责备地盯着他。男人明明害怕，却偏要装出镇定的样子。"
+    - id: ch03
+      title: 就在你手里
+      blocks:
+        - id: ch03-b01
+          speaker: husband
+          text: "你那红润的脸颊到哪里去了？"
+        - id: ch03-b02
+          speaker: narrator
+          text: "鬼魂用空洞的声音回答。"
+        - id: ch03-b03
+          speaker: wife_ghost
+          text: "它们全都枯萎了，也消瘦了。"
+        - id: ch03-b04
+          speaker: husband
+          text: "你那玫瑰般红艳的嘴唇到哪里去了？"
+        - id: ch03-b05
+          speaker: wife_ghost
+          text: "它们全都枯萎了，也消瘦了。"
+        - id: ch03-b06
+          speaker: husband
+          text: "你那一头金发到哪里去了？"
+        - id: ch03-b07
+          speaker: wife_ghost
+          text: "它们全都枯萎了，也消瘦了。"
+        - id: ch03-b08
+          speaker: husband
+          text: "你那条金臂到哪里去了？"
+        - id: ch03-b09
+          speaker: wife_ghost
+          text: "就在你手里！"

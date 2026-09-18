@@ -1,0 +1,111 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts:
+        delivery: 亲切活泼，带着温和的幽默感
+        timbre: 温暖清亮
+        pace: 舒展而富有变化
+        pitch: 中等
+    farmer_browns_boy:
+      display_name: 布朗农夫家的男孩
+      tts:
+        delivery: 坦率热心，激动时坚定有力
+        timbre: 清亮的少年嗓音
+        pace: 明快而富有变化
+        pitch: 中高
+    hunter:
+      display_name: 猎人
+      tts:
+        delivery: 随意自信，带着成年人不以为意的口吻
+        timbre: 浑厚而清晰
+        pace: 从容
+        pitch: 中低
+  chapters:
+    - id: ch01
+      title: 篱笆这边
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 有些事情究竟是好是坏，一时还真不容易看清。
+        - id: ch01-b02
+          speaker: narrator
+          text: 可怜的小鹌鹑受了伤，每动一下都疼得难受。它忍着疼，从篱笆底下爬了过去，却不知道自己已经到了布朗农夫的土地上。这里竖着告示，警告所有猎人不准进来，更不准在这里开枪。可它一抬头，又看见一个两脚怪物站在面前。那身影和拿喷火棍的家伙太像了，小鹌鹑顿时不抱希望。它心里难过极了，伤口又疼得厉害，根本没有认出布朗农夫家的男孩。
+        - id: ch01-b03
+          speaker: narrator
+          text: 站在那里的正是这个男孩。他一直担心有人明明看见告示，还是会闯进父亲的土地，所以刚吃完早餐就赶到绿草原。他看见猎人待在琼斯农夫的地里，也亲耳听到了枪响。他打心底盼着那一枪没有打中任何小鸟。可低头瞧见这只痛苦的小鹌鹑，他就全明白了，心里立刻烧起一股怒火。
+        - id: ch01-b04
+          speaker: narrator
+          text: 他气得忘记了自己从前也曾拿着可怕的枪去打猎。后来，他认识了绿草原、绿森林和老牧场的小居民，也越来越喜欢它们，这才放下了枪。
+        - id: ch01-b05
+          speaker: narrator
+          text: 男孩俯下身，轻轻把小鹌鹑捧起来。小鹌鹑闭上眼睛，以为自己的末日马上就要到了。
+    - id: ch02
+      title: 猎人走来
+      blocks:
+        - id: ch02-b01
+          speaker: farmer_browns_boy
+          text: 可怜的小家伙！你伤得这么重，真是太可怜了！
+          emotion: sad
+        - id: ch02-b02
+          speaker: narrator
+          text: 男孩看着它皮开肉绽、已经折断的翅膀，又抬头隔着田野狠狠瞪向猎人。猎人也看见了他，马上走过来。他知道鹌鹑鲍勃一家都飞进了布朗农夫的土地，便打起算盘。也许只要给男孩一点钱，就能换来一句准许，让自己越过篱笆继续打猎。可到了篱笆边，他才发现那只小鹌鹑正在男孩手里。
+        - id: ch02-b03
+          speaker: hunter
+          text: 嘿！那只鸟是我打下来的吧！
+          emotion: surprised
+        - id: ch02-b04
+          speaker: farmer_browns_boy
+          text: 才不是你的！
+          emotion: angry
+        - id: ch02-b05
+          speaker: hunter
+          text: 怎么不是？我刚才打中了它，可它从我手里逃了。小伙子，把它交给我吧。
+        - id: ch02-b06
+          speaker: farmer_browns_boy
+          text: 你想也别想！它也许真是被你打伤的，那只会让你更丢脸。可它不是你的，是我的。我在自家地里找到了它。要说它该归谁，也只能归我。
+          emotion: angry
+    - id: ch03
+      title: 一顿好饭
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 猎人听了很恼火，真想厉声回敬几句。可他还指望这个男孩准许自己进入布朗农夫的土地，只好硬生生把气话咽了回去，换了一种说法。
+        - id: ch03-b02
+          speaker: hunter
+          text: 你干吗不拧断它的脖子？去请你父亲准许我到你们地里开枪吧。我再打一只送给你，你就能吃上一顿好饭了。
+        - id: ch03-b03
+          speaker: narrator
+          text: 布朗农夫家的男孩一下涨红了脸。
+        - id: ch03-b04
+          speaker: farmer_browns_boy
+          text: 你敢把脚踏到篱笆这边试试！这些鹌鹑是我最好的朋友。整个夏天，它们一直替我干活。你以为到了现在，我还会任由别人伤害它们吗？绝不可能！只要我还能保护它们，就不会眼看着它们受害！
+          emotion: angry
+        - id: ch03-b05
+          speaker: farmer_browns_boy
+          text: 看看这个小家伙疼成什么样了，你竟然把这叫作消遣。呸！法律虽说准许你们猎杀鹌鹑，可这条法律坏透了，可恶透了！
+          emotion: angry
+        - id: ch03-b06
+          speaker: farmer_browns_boy
+          text: 要是鹌鹑伤害过谁，那还另说。可它们不但没有作恶，整个夏天还在替我们干活。我们能保住这些庄稼，也有它们的一份功劳。如今庄稼刚刚收割，我们却转过身，准许人们把它们打死！反正在这片土地上，谁也别想开枪伤它们。你越早离开这里，我越高兴！
+          emotion: angry
+    - id: ch04
+      title: 仍旧没有希望
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 听了男孩这一大通话，猎人没有发火，反而好脾气地笑了起来。
+        - id: ch04-b02
+          speaker: hunter
+          text: 好吧，小家伙，我不进你们的地界。你也别这么激动。它们不过是鸟，生来就是让人打的。
+        - id: ch04-b03
+          speaker: farmer_browns_boy
+          text: 那你也一样！它们和你一样有感觉。这个可怜的小家伙在我手里抖得像片叶子。我才不会拧断它的脖子，我要想办法治好它！
+          emotion: angry
+        - id: ch04-b04
+          speaker: narrator
+          text: 说完，布朗农夫家的男孩转过身，背对猎人，朝家里走去。
+        - id: ch04-b05
+          speaker: narrator
+          text: 可怜的小鹌鹑根本听不懂刚才那些话，也不知道男孩正打算救它。它仍旧和先前一样，一点希望也没有。

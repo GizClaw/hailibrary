@@ -1,0 +1,95 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and gently playful storytelling
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    peter:
+      display_name: Peter Rabbit
+      tts:
+        delivery: lively, curious, and quick to react
+        timbre: bright and youthful
+        pace: brisk
+        pitch: medium-high
+    jimmy:
+      display_name: Jimmy Skunk
+      tts:
+        delivery: good-natured and quietly amused
+        timbre: smooth and mellow
+        pace: relaxed
+        pitch: medium
+    unc_billy:
+      display_name: Unc' Billy Possum
+      tts:
+        delivery: easygoing and knowingly teasing
+        timbre: mellow and slightly raspy
+        pace: relaxed
+        pitch: medium-low
+    mrs_peter:
+      display_name: Mrs. Peter Rabbit
+      tts:
+        delivery: caring, sensible, and firm when worried
+        timbre: bright and gentle
+        pace: measured
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: A Plot to Frighten Old Man Coyote
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Mischief nearly always leads to more mischief. It never seems content to stop with just one prank.
+        - id: ch01-b02
+          speaker: narrator
+          text: You might think Jimmy Skunk, Unc' Billy Possum, Peter Rabbit, and Prickly Porky had played enough tricks. After all, Peter had only just made a very, very narrow escape from the claws of Old Granny Fox. No, sir! They had not had enough. Once danger has passed, it is soon forgotten. As soon as Peter was settled comfortably in the old house behind the big stump on Prickly Porky's hill, the four scamps began wondering who else they could scare with that terrible creature with no head, legs, or tail. The very same creature had already frightened Reddy Fox and Old Granny Fox.
+        - id: ch01-b03
+          speaker: peter
+          text: What about Old Man Coyote? He's always scaring animals smaller and weaker than he is. I would love to watch him run!
+        - id: ch01-b04
+          speaker: jimmy
+          text: He's the one! But would he really be scared? He's even smarter than Granny Fox, and she got over her fright pretty quickly. How can we bring him up here?
+    - id: ch02
+      title: Mrs. Peter Objects
+      blocks:
+        - id: ch02-b01
+          speaker: unc_billy
+          text: We-uns can let Brer Jay in on the secret. He can tell Brer Coyote that Brer Rabbit is up here on Brer Porky's hill, too badly hurt to get home. That's all Brer Jay has to say. Brer Coyote will come running, with his tongue hanging out, to get the dinner he thinks is waiting for him.
+        - id: ch02-b02
+          speaker: mrs_peter
+          text: You will do no such thing! Peter has been in enough trouble already. I won't allow him to get into any more, and that is final!
+          emotion: angry
+        - id: ch02-b03
+          speaker: narrator
+          text: Little Mrs. Peter had bravely left the dear Old Briar-patch and come into the Green Forest to care for Peter.
+        - id: ch02-b04
+          speaker: jimmy
+          text: Peter won't be in any danger. You will both be as safe as you would be in the Old Briar-patch. You'll stay inside that old house, where nothing can hurt you. Please don't be foolish, Mrs. Peter. You don't like Old Man Coyote, do you? Wouldn't you like him to get one good fright after all the times he has frightened you and Peter?
+        - id: ch02-b05
+          speaker: narrator
+          text: Little Mrs. Peter had to admit that she did not like Old Man Coyote, and she really would enjoy seeing him frightened for once. The others teased her a little longer. At last, she agreed to let them try their plan for giving him a scare.
+    - id: ch03
+      title: Sammy Joins the Mischief
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Jimmy Skunk was just setting out to look for Sammy Jay when Sammy happened along. They explained the plan and told him exactly what they wanted him to do. Sammy agreed to play his part. He was always ready for any kind of mischief. But just as he started off to find Old Man Coyote, Unc' Billy stopped him with another idea.
+        - id: ch03-b02
+          speaker: unc_billy
+          text: We-uns had plenty of fun with Reddy and Granny Fox. Seems only fair to invite them back and let them watch Old Man Coyote meet the same terrible creature that scared them. Granny knows now there's nothing to fear. Maybe she'll forget how angry she is if she sees Old Man Coyote run. You-all know she has no love to spare for him. What do you say?
+        - id: ch03-b03
+          speakers: [peter, mrs_peter]
+          ensemble: duo
+          text: No!
+    - id: ch04
+      title: Sammy Sets Off
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Peter and Mrs. Peter refused at once. But Jimmy Skunk and Prickly Porky liked the idea, and Sammy Jay was willing, of course. Once more, they pointed out that Peter and Mrs. Peter would be perfectly safe inside the old house behind the big stump.
+        - id: ch04-b02
+          speaker: narrator
+          text: After a while, Peter and Mrs. Peter agreed. Then Sammy flew off on his errand.

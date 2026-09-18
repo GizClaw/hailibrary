@@ -1,0 +1,510 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, steady, and quietly mysterious
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    stan:
+      display_name: Stan Bolovan
+      tts:
+        delivery: resourceful, bold, and dryly playful
+        timbre: warm and sturdy
+        pace: moderate
+        pitch: medium-low
+    wife:
+      display_name: Stan's Wife
+      tts:
+        delivery: tender, earnest, and openly emotional
+        timbre: warm and gentle
+        pace: moderate
+        pitch: medium
+    wise_man:
+      display_name: Wise Man
+      tts:
+        delivery: grave, thoughtful, and cautioning
+        timbre: deep and weathered
+        pace: unhurried
+        pitch: low
+    child_1:
+      display_name: First Child
+      tts:
+        delivery: lively, direct, and impatient
+        timbre: clear and youthful
+        pace: quick
+        pitch: high
+    child_2:
+      display_name: Second Child
+      tts:
+        delivery: spirited, eager, and insistent
+        timbre: bright and youthful
+        pace: quick
+        pitch: high
+    child_3:
+      display_name: Third Child
+      tts:
+        delivery: bold, noisy, and playful
+        timbre: light and youthful
+        pace: quick
+        pitch: medium-high
+    shepherd:
+      display_name: Shepherd
+      tts:
+        delivery: weary, plainspoken, and sincere
+        timbre: rough and mature
+        pace: moderate
+        pitch: medium-low
+    dragon:
+      display_name: Dragon
+      tts:
+        delivery: boastful when secure and nervous when challenged
+        timbre: heavy and resonant
+        pace: moderate
+        pitch: low
+    dragon_mother:
+      display_name: Dragon's Mother
+      tts:
+        delivery: sharp, greedy, and menacing
+        timbre: ancient and gravelly
+        pace: deliberate
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Wish for Children
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once upon a time, what happened did happen. If it had not, there would be no story to tell.
+        - id: ch01-b02
+          speaker: narrator
+          text: A little house stood at the edge of a village, just where the oxen went out to pasture and pigs rooted beneath the trees with their noses. A man named Stan lived there with his wife. Though they had everything they needed, his wife spent every day in sorrow.
+        - id: ch01-b03
+          speaker: stan
+          text: Dear wife, why do you let your head hang like a rosebud after rain? You have all you could want. Why aren't you cheerful like the other women?
+        - id: ch01-b04
+          speaker: wife
+          text: Please leave me alone. Don't ask me why.
+          emotion: sad
+        - id: ch01-b05
+          speaker: narrator
+          text: She burst into tears. Stan saw that this was no time for questions, so he went to his work. But he could not forget her sadness. A few days later he asked again, and she gave him the same answer. At last he could bear the mystery no longer and asked a third time.
+        - id: ch01-b06
+          speaker: wife
+          text: Good gracious, why can't you leave things as they are? If I tell you, you'll be as miserable as I am. Believe me, you're better off not knowing.
+          emotion: sad
+        - id: ch01-b07
+          speaker: narrator
+          text: But tell a man not to ask, and he only grows more curious. Stan would not let the matter rest.
+        - id: ch01-b08
+          speaker: wife
+          text: Very well, if you must know, I'll tell you. This house has no luck. None at all!
+        - id: ch01-b09
+          speaker: stan
+          text: No luck? Our cow gives more milk than any cow in the village. Our trees are heavy with fruit, our hives are full of bees, and no one has cornfields like ours. How can you say such a thing?
+        - id: ch01-b10
+          speaker: wife
+          text: All of that is true. But we have no children.
+          emotion: sad
+        - id: ch01-b11
+          speaker: narrator
+          text: Then Stan understood, and once his eyes were opened, he could not be happy either. From that day on, the little house at the edge of the village held two unhappy people instead of one. Seeing Stan suffer only deepened his wife's sorrow, and so they went on for some time.
+        - id: ch01-b12
+          speaker: narrator
+          text: Several weeks later, Stan decided to seek advice from a wise man who lived a day's journey away. He found the man sitting outside his door and dropped to his knees.
+        - id: ch01-b13
+          speaker: stan
+          text: My lord, give me children. Please, give me children.
+        - id: ch01-b14
+          speaker: wise_man
+          text: Think carefully about what you ask. Children may become a heavy burden. Do you have enough money to feed and clothe them?
+        - id: ch01-b15
+          speaker: stan
+          text: Only let me have them, my lord. Somehow, I'll manage!
+        - id: ch01-b16
+          speaker: narrator
+          text: The wise man made a sign, and Stan started home.
+    - id: ch02
+      title: A Hundred Hungry Children
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: Stan reached home that evening, dusty and tired but full of hope. As he drew near, a great sound of voices reached his ears. He looked up and saw that the whole place was full of children. They filled the garden and the yard, and they peered from every window. It looked as though every child in the world had gathered at his house.
+        - id: ch02-b02
+          speaker: narrator
+          text: No child seemed bigger than another, yet somehow each seemed smaller than the next. Every one was noisier, bolder, and more impudent than the rest. Stan stared until he understood that all of them were his, and then he went cold with horror.
+        - id: ch02-b03
+          speaker: stan
+          text: Good gracious! There are so many. So many!
+          emotion: surprised
+        - id: ch02-b04
+          speaker: wife
+          text: Oh, but there isn't one too many.
+          emotion: happy
+        - id: ch02-b05
+          speaker: narrator
+          text: She smiled as she came toward him, with still more children clinging to her skirts. Before long, even she discovered that caring for a hundred children was no easy thing.
+        - id: ch02-b06
+          speaker: narrator
+          text: In a few days, the children had eaten every scrap of food in the house. Then their cries followed Stan everywhere.
+        - id: ch02-b07
+          speakers: [child_1, child_2, child_3]
+          ensemble: chorus
+          text: Father, we're hungry! We're hungry!
+        - id: ch02-b08
+          speaker: narrator
+          text: Stan scratched his head and wondered what he could do next. It was not that he thought there were too many children. He did not wish away a single one. Since they had appeared, his life had been fuller and happier. But now he had no idea how to feed them. Joy could not fill a hundred empty stomachs. The cow had stopped giving milk, and it was still too early for the fruit to ripen.
+        - id: ch02-b09
+          speaker: stan
+          text: Old woman, I must go out into the world and find food to bring home. I don't know where it will come from, but I have to try.
+        - id: ch02-b10
+          speaker: narrator
+          text: Any road feels long to a hungry man. It felt longer still when Stan remembered that a hundred hungry children were waiting behind him.
+        - id: ch02-b11
+          speaker: narrator
+          text: He wandered on and on until he reached the end of the world, where what is mingles with what is not. A sheepfold stood nearby with seven sheep inside, while the rest of the flock lay beneath the trees.
+    - id: ch03
+      title: Stan Meets the Dragon
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: Stan crept closer, hoping he might quietly lure a few animals away and drive them home as food for his family. He soon found that he could not. At midnight, a rushing sound swept through the air. A dragon flew down and separated a ram, a sheep, and a lamb from the flock. He took three fine cattle that had been lying nearby as well, along with the milk of seventy-seven sheep.
+        - id: ch03-b02
+          speaker: narrator
+          text: The dragon carried everything home to his ancient mother, so she could bathe in the milk and become young again. He did the same thing every night. The shepherd mourned his losses, but it did no good. The dragon only laughed at him. Stan saw that this was no place to find food for his family unless he did something daring.
+        - id: ch03-b03
+          speaker: narrator
+          text: Fighting such a monster seemed almost hopeless. Still, the thought of his hungry children clung to Stan like a burr. At last, he turned to the shepherd.
+        - id: ch03-b04
+          speaker: stan
+          text: What will you give me if I free you from that dragon?
+        - id: ch03-b05
+          speaker: shepherd
+          text: For every three rams, you may take one. The same goes for every three sheep and every three lambs.
+        - id: ch03-b06
+          speaker: stan
+          text: Then we have a bargain.
+        - id: ch03-b07
+          speaker: narrator
+          text: Stan agreed, though he had no idea how he would ever drive such a great flock home, even if he defeated the dragon. That problem could be settled later. Night was not far away, and first he needed to decide how he could fight such a powerful monster.
+        - id: ch03-b08
+          speaker: narrator
+          text: At midnight, a horrible feeling came over him, something strange that he could not even name to himself. It almost made him abandon the fight and take the shortest road home. Stan half turned away. Then he remembered the hundred children waiting there without food, and he faced the flock again.
+        - id: ch03-b09
+          speaker: stan
+          text: It will be you or me.
+        - id: ch03-b10
+          speaker: narrator
+          text: He took his place at the edge of the flock. Soon the air roared with that rushing sound, and the dragon came hurtling past.
+        - id: ch03-b11
+          speaker: stan
+          text: Stop right there!
+        - id: ch03-b12
+          speaker: dragon
+          text: Dear me! Who are you, and where did you come from?
+          emotion: surprised
+        - id: ch03-b13
+          speaker: stan
+          text: I am Stan Bolovan. All night I eat rocks, and by day I feed on mountain flowers. Touch those sheep, and I'll carve a cross across your back.
+        - id: ch03-b14
+          speaker: narrator
+          text: The dragon stopped in the middle of the road. He believed he had finally met his match.
+        - id: ch03-b15
+          speaker: dragon
+          text: You'll have to fight me first.
+          emotion: fearful
+        - id: ch03-b16
+          speaker: narrator
+          text: His voice trembled. For all his power, the dragon was not brave when someone stood up to him.
+        - id: ch03-b17
+          speaker: stan
+          text: Fight you? One breath from me would finish you! But let's settle which of us is stronger. Fetch a stone from the river as large as this one.
+        - id: ch03-b18
+          speaker: narrator
+          text: Stan bent down and picked up a large cheese that lay at his feet. The dragon hurried to the brook and returned with a stone.
+        - id: ch03-b19
+          speaker: stan
+          text: Can you squeeze buttermilk from your stone?
+        - id: ch03-b20
+          speaker: narrator
+          text: The dragon crushed the stone in one hand until it fell to powder, but not one drop of buttermilk appeared.
+        - id: ch03-b21
+          speaker: dragon
+          text: Of course I can't!
+          emotion: angry
+        - id: ch03-b22
+          speaker: stan
+          text: Well, I can.
+        - id: ch03-b23
+          speaker: narrator
+          text: Stan squeezed the cheese, and buttermilk ran through his fingers. The dragon decided it was time to go home, but Stan stepped into his path.
+        - id: ch03-b24
+          speaker: stan
+          text: Not yet. We still have to settle what you've been doing to this flock.
+        - id: ch03-b25
+          speaker: narrator
+          text: The dragon did not dare move. He feared that Stan would kill him with one breath and bury him among the flowers of the mountain pastures.
+        - id: ch03-b26
+          speaker: dragon
+          text: Listen, I can see how useful you are. My mother needs a fellow like you. Serve her for three days, with each day as long as one of your years, and she'll pay you seven sacks of ducats for every day.
+        - id: ch03-b27
+          speaker: narrator
+          text: Three times seven sacks of gold was too tempting to refuse. Stan could already imagine what that fortune would mean to his hungry household. He wasted no words. He gave the dragon a quick nod, and the two of them set off together along the road.
+    - id: ch04
+      title: Three Tests of Strength
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: Their road was long, very long, but at last they reached the dragon's mother, who was as old as time itself. She was waiting for them. Stan saw her eyes shining like lamps from far away. When they entered her house, they found a huge kettle standing over the fire, filled with milk.
+        - id: ch04-b02
+          speaker: narrator
+          text: When the old mother saw that her son had come home empty-handed, she flew into a rage. Fire and flame shot from her nostrils. Before she could speak, the dragon turned to Stan.
+        - id: ch04-b03
+          speaker: dragon
+          text: Wait here. I need to explain everything to my mother.
+        - id: ch04-b04
+          speaker: narrator
+          text: Stan bitterly regretted coming to that place. But there was no turning back now. He resolved to take everything quietly and never show his fear.
+        - id: ch04-b05
+          speaker: dragon
+          text: Listen, Mother. I brought this man here so we can get rid of him. He's terrifying. He eats rocks, and he can squeeze buttermilk out of a stone.
+        - id: ch04-b06
+          speaker: narrator
+          text: The dragon told her all that had happened beside the flock.
+        - id: ch04-b07
+          speaker: dragon_mother
+          text: Leave him to me. No man has ever slipped through my fingers.
+        - id: ch04-b08
+          speaker: narrator
+          text: So Stan remained to serve her. The next day, she announced that he and her son would test their strength. Then she took down an enormous club wrapped seven times in iron.
+        - id: ch04-b09
+          speaker: narrator
+          text: The dragon lifted it as easily as a feather. He spun it around his head and tossed it three miles away.
+        - id: ch04-b10
+          speaker: dragon
+          text: Now let's see you beat that.
+        - id: ch04-b11
+          speaker: narrator
+          text: They walked the three miles to the place where the club had fallen. Stan bent down and felt its weight. A great fear swept through him. He knew that even if he brought every one of his hundred children to help, together they could never raise that iron-bound club from the earth.
+        - id: ch04-b12
+          speaker: dragon
+          text: What are you doing down there?
+        - id: ch04-b13
+          speaker: stan
+          text: I was thinking what a beautiful club this is, and what a shame it would be if it caused your death.
+        - id: ch04-b14
+          speaker: dragon
+          text: My death? What are you talking about?
+        - id: ch04-b15
+          speaker: stan
+          text: If I throw this club, you may never see another sunrise. You have no idea how strong I am.
+        - id: ch04-b16
+          speaker: dragon
+          text: Never mind that. Hurry up and throw it.
+        - id: ch04-b17
+          speaker: stan
+          text: If you truly insist, let's feast for three days first. At least that will give you three more days to live.
+        - id: ch04-b18
+          speaker: narrator
+          text: Stan spoke with such calm certainty that the dragon began to worry again. He was frightened, though he still did not quite believe the danger could be as great as Stan claimed.
+        - id: ch04-b19
+          speaker: narrator
+          text: They returned to the house, gathered every bit of food in the old mother's larder, and carried it back to the club. Stan sat on the sack of provisions and quietly watched the moon sinking through the sky.
+        - id: ch04-b20
+          speaker: dragon
+          text: What are you waiting for now?
+        - id: ch04-b21
+          speaker: stan
+          text: I'm waiting for the moon to move out of my way.
+        - id: ch04-b22
+          speaker: dragon
+          text: What do you mean? I don't understand.
+        - id: ch04-b23
+          speaker: stan
+          text: Can't you see? The moon is directly in my path. If you prefer, I can throw the club straight into it.
+        - id: ch04-b24
+          speaker: narrator
+          text: The dragon grew uneasy for the second time. His grandfather had left him that club, and he prized it greatly. It had already lasted through generations of his family. He had no desire to watch Stan throw it away and lose it forever in the moon.
+        - id: ch04-b25
+          speaker: dragon
+          text: I have a better idea. Don't throw it at all. I'll throw it a second time, and that will settle the test.
+        - id: ch04-b26
+          speaker: stan
+          text: Certainly not. Just wait until the moon sets.
+        - id: ch04-b27
+          speaker: narrator
+          text: Stan would not give way. Terrified that he might truly throw the club into the moon, the dragon tried to buy him off. He offered one bribe after another. In the end, he had to promise Stan seven sacks of ducats before Stan allowed him to throw the club himself.
+        - id: ch04-b28
+          speaker: dragon
+          text: Mother, he truly is strong! I could barely stop him from throwing Grandfather's club into the moon.
+        - id: ch04-b29
+          speaker: narrator
+          text: Now the old mother felt uneasy too. Throwing things into the moon was no small matter. No one mentioned the club again.
+        - id: ch04-b30
+          speaker: narrator
+          text: The next morning brought a different test. The old mother handed them twelve buffalo skins and ordered them to fetch water until nightfall.
+        - id: ch04-b31
+          speaker: dragon_mother
+          text: Go to the brook and fill these with water. Keep filling them all day.
+        - id: ch04-b32
+          speaker: narrator
+          text: They set out for the brook at once. In the blink of an eye, the dragon filled all twelve skins, carried them into the house, and brought them back empty for Stan. Stan was already tired. He could barely lift the skins without water, and he shuddered to think what would happen when they were full.
+        - id: ch04-b33
+          speaker: narrator
+          text: Instead, Stan drew an old knife from his pocket and began cutting into the earth beside the brook.
+        - id: ch04-b34
+          speaker: dragon
+          text: What are you doing? How will that help you carry water to the house?
+        - id: ch04-b35
+          speaker: stan
+          text: Carry the water? That's easy. I'll take the whole brook with me.
+        - id: ch04-b36
+          speaker: narrator
+          text: The dragon's jaw dropped. The brook had flowed there since his grandfather's time, and he had never imagined anyone might carry it away.
+        - id: ch04-b37
+          speaker: dragon
+          text: Wait. Let me carry your skins for you.
+        - id: ch04-b38
+          speaker: stan
+          text: Absolutely not.
+        - id: ch04-b39
+          speaker: narrator
+          text: Stan kept digging as if he had not heard. The dragon feared that Stan would really tear up the brook and carry it away. Once again, he tried a bribe. At last he promised seven more sacks of ducats if Stan would leave the brook alone and allow him to carry the water into the house.
+        - id: ch04-b40
+          speaker: narrator
+          text: On the third day, the old mother sent Stan into the forest to gather wood. As usual, the dragon went with him. Before Stan could count to three, the dragon had pulled up more trees than Stan could have cut down in a lifetime. Then he arranged all those trees in neat rows.
+        - id: ch04-b41
+          speaker: narrator
+          text: Stan chose the largest tree and climbed it. He broke off a long wild vine and tied that treetop to the next one. Then he tied another, and another, until a whole line of trees was bound together.
+        - id: ch04-b42
+          speaker: dragon
+          text: What are you doing up there?
+        - id: ch04-b43
+          speaker: stan
+          text: You can see what I'm doing.
+        - id: ch04-b44
+          speaker: dragon
+          text: But why are you tying all the trees together?
+        - id: ch04-b45
+          speaker: stan
+          text: I'm saving myself work. When I pull up one tree, all the others will come with it.
+        - id: ch04-b46
+          speaker: dragon
+          text: And how will you ever carry them home?
+        - id: ch04-b47
+          speaker: stan
+          text: Isn't it obvious? I'm taking the whole forest home with me.
+        - id: ch04-b48
+          speaker: narrator
+          text: Stan went on tying trees. The dragon trembled at the thought of losing the forest.
+        - id: ch04-b49
+          speaker: dragon
+          text: Let me carry the wood instead, and I'll give you seven times seven sacks of ducats.
+          emotion: fearful
+        - id: ch04-b50
+          speaker: stan
+          text: You're a good fellow. I accept.
+        - id: ch04-b51
+          speaker: narrator
+          text: So the dragon carried the wood back himself. With that, Stan's three days of service, each counted as a whole year, were finally complete.
+    - id: ch05
+      title: The Blow in the Night
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Stan had earned a mountain of ducats. Only one thing troubled him. How could he ever carry all those sacks home?
+        - id: ch05-b02
+          speaker: narrator
+          text: That evening, the dragon and his mother talked at length. Stan listened to every word through a crack in the ceiling.
+        - id: ch05-b03
+          speaker: dragon
+          text: This is terrible, Mother. Soon that man will have power over both of us. Pay him what we owe and make him leave.
+        - id: ch05-b04
+          speaker: narrator
+          text: But the old mother loved money and hated giving it away.
+        - id: ch05-b05
+          speaker: dragon_mother
+          text: Listen carefully. You must kill him tonight.
+        - id: ch05-b06
+          speaker: dragon
+          text: I'm afraid to try.
+          emotion: fearful
+        - id: ch05-b07
+          speaker: dragon_mother
+          text: There is nothing to fear. Wait until he's asleep. Then take the club and strike him on the head. It couldn't be easier.
+        - id: ch05-b08
+          speaker: narrator
+          text: It might have been easy if Stan had not heard their entire plan. After the dragon and his mother put out their lights, he took the pigs' trough and filled it with earth. He laid it where his body should have been and pulled the bedclothes over it. Then he hid underneath the bed and began to snore loudly.
+        - id: ch05-b09
+          speaker: narrator
+          text: Before long, the dragon crept softly into the room. He raised the club and brought it down with a tremendous crash exactly where Stan's head should have been. From beneath the bed, Stan let out a loud groan. The dragon believed the blow had done its work, and he slipped away as quietly as he had come.
+        - id: ch05-b10
+          speaker: narrator
+          text: As soon as the door closed, Stan removed the trough and cleaned the room. Then he climbed into bed himself. But he was wise enough not to close his eyes for the rest of that night.
+        - id: ch05-b11
+          speaker: narrator
+          text: In the morning, he walked into the room where the dragon and his mother were eating breakfast.
+        - id: ch05-b12
+          speaker: stan
+          text: Good morning.
+        - id: ch05-b13
+          speaker: dragon_mother
+          text: Good morning. Did you sleep well?
+        - id: ch05-b14
+          speaker: stan
+          text: Very well, thank you. I dreamed that a flea bit me, and I can almost feel it still.
+        - id: ch05-b15
+          speaker: narrator
+          text: The dragon and his mother stared at each other.
+        - id: ch05-b16
+          speaker: dragon
+          text: Did you hear that? He calls it a flea bite, and I broke my club over his head!
+          emotion: fearful
+        - id: ch05-b17
+          speaker: narrator
+          text: At last, the mother was as frightened as her son. Nothing could be done against a man who mistook a blow from that club for the bite of a flea. She hurried to fill all the promised sacks with ducats so they could send Stan away as quickly as possible.
+        - id: ch05-b18
+          speaker: narrator
+          text: Stan had a fear of his own, though he did not let either dragon see it. The old mother had filled the sacks well, and he could not lift even one of them from the ground. Unable to carry his fortune away, he simply stood beside the money and looked at it.
+        - id: ch05-b19
+          speaker: dragon
+          text: Why are you just standing there?
+        - id: ch05-b20
+          speaker: stan
+          text: I was thinking that I ought to serve you for another year. I'd be ashamed to go home with so little. Everyone would say, “Look at Stan Bolovan! After a whole year, he's grown as weak as a dragon.”
+        - id: ch05-b21
+          speaker: narrator
+          text: The dragon and his mother both shrieked in dismay. The last thing they wanted was another year with Stan. They declared that they would give him seven times as many sacks, or even seven times that number, if only he would go away.
+        - id: ch05-b22
+          speaker: stan
+          text: I can see you don't want me to stay, and I would hate to make myself unwelcome. I'll go now, on one condition. You must carry the money to my home, so my friends won't see me burdened with so little.
+        - id: ch05-b23
+          speaker: narrator
+          text: Before Stan had finished speaking, the dragon snatched up the sacks, piled them on his back, and set out with him.
+    - id: ch06
+      title: The Dragon Runs Away
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: The road was not truly far, but for Stan it felt much too long. At last, he heard his children's voices and stopped short. He did not want the dragon to discover exactly where he lived. The creature might remember the treasure someday, come to his house, and take it all back.
+        - id: ch06-b02
+          speaker: narrator
+          text: Stan searched for a way to send the monster running. Then an idea came to him, and he turned around.
+        - id: ch06-b03
+          speaker: stan
+          text: I'm not sure what to do. I have a hundred children, and they may hurt you. They're always eager for a fight. Still, I'll do my best to protect you.
+        - id: ch06-b04
+          speaker: narrator
+          text: A hundred children! That was no small matter, especially if every one of them loved to fight. The dragon was horrified. He dropped the sacks in terror, then gathered them up and put them on his back again.
+        - id: ch06-b05
+          speaker: narrator
+          text: The children had eaten nothing since their father left. Now they came racing toward him. Each child waved a knife in one hand and a fork in the other.
+        - id: ch06-b06
+          speakers: [child_1, child_2, child_3]
+          ensemble: chorus
+          text: Give us dragon meat! We want dragon meat!
+        - id: ch06-b07
+          speaker: narrator
+          text: At that dreadful sight, the dragon did not wait another moment. He threw down every sack right where he stood and fled as fast as he could. The fate those hungry children promised frightened him so badly that from that day onward, he never dared show his face in the world again.

@@ -1,0 +1,701 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: "讲述者"
+      tts:
+        delivery: "亲切从容，带一点温和的幽默"
+        timbre: "温暖清晰"
+        pace: "舒缓而有变化"
+        pitch: "中音"
+    father:
+      display_name: "父亲"
+      tts:
+        delivery: "慈爱疲惫，话语朴实"
+        timbre: "苍老温厚的男声"
+        pace: "缓慢"
+        pitch: "低音"
+    pepe:
+      display_name: "佩佩"
+      tts:
+        delivery: "直率急躁，带着长兄的自负"
+        timbre: "结实明亮的青年男声"
+        pace: "稍快"
+        pitch: "中音"
+    alfin:
+      display_name: "阿尔芬"
+      tts:
+        delivery: "冷硬寡言，情绪藏在话里"
+        timbre: "清晰偏沉的青年男声"
+        pace: "中等"
+        pitch: "中低音"
+    ciccu:
+      display_name: "奇库"
+      tts:
+        delivery: "机灵大胆，困境中仍有韧劲"
+        timbre: "清亮有力的青年男声"
+        pace: "灵活"
+        pitch: "中音"
+    lawyer:
+      display_name: "律师"
+      tts:
+        delivery: "严谨克制，专注倾听"
+        timbre: "平稳清楚的男声"
+        pace: "中等"
+        pitch: "中低音"
+    fairy_one:
+      display_name: "第一位仙女"
+      tts:
+        delivery: "轻快友善，充满赞叹"
+        timbre: "明亮柔和的女声"
+        pace: "从容"
+        pitch: "中高音"
+    fairy_two:
+      display_name: "第二位仙女"
+      tts:
+        delivery: "好奇活泼，语气轻盈"
+        timbre: "清脆柔美的女声"
+        pace: "稍快"
+        pitch: "高音"
+    fairy_three:
+      display_name: "第三位仙女"
+      tts:
+        delivery: "沉静神秘，措辞清楚"
+        timbre: "柔润空灵的女声"
+        pace: "舒缓"
+        pitch: "中高音"
+    innkeeper:
+      display_name: "店主"
+      tts:
+        delivery: "精明利落，待客周到"
+        timbre: "厚实清楚的男声"
+        pace: "中等"
+        pitch: "中低音"
+    king:
+      display_name: "国王"
+      tts:
+        delivery: "威严任性，喜怒都很强烈"
+        timbre: "洪亮厚重的男声"
+        pace: "中等"
+        pitch: "低音"
+    queen:
+      display_name: "王后"
+      tts:
+        delivery: "端庄矜持，语气讲究"
+        timbre: "成熟柔和的女声"
+        pace: "从容"
+        pitch: "中音"
+    princess:
+      display_name: "公主"
+      tts:
+        delivery: "甜美聪敏，奉承时格外柔婉"
+        timbre: "明亮柔美的年轻女声"
+        pace: "从容"
+        pitch: "中高音"
+    judge:
+      display_name: "裁判"
+      tts:
+        delivery: "公正沉着，解释清晰"
+        timbre: "稳重清楚的男声"
+        pace: "中等"
+        pitch: "中低音"
+    little_old_man:
+      display_name: "小老头"
+      tts:
+        delivery: "貌似随和，话里藏着神奇力量"
+        timbre: "苍老轻巧的男声"
+        pace: "舒缓"
+        pitch: "中高音"
+    servant:
+      display_name: "王宫仆人"
+      tts:
+        delivery: "恭谨利落，语气正式"
+        timbre: "清楚平稳的男声"
+        pace: "中等"
+        pitch: "中音"
+    horse:
+      display_name: "神马"
+      tts:
+        delivery: "镇定聪慧，总能给人信心"
+        timbre: "温厚沉稳的男声"
+        pace: "从容"
+        pitch: "中低音"
+    ogre:
+      display_name: "食人魔"
+      tts:
+        delivery: "粗豪自信，毫无戒心时近乎憨直"
+        timbre: "粗粝低沉的男声"
+        pace: "偏慢"
+        pitch: "低音"
+    beauty:
+      display_name: "天下第一美人"
+      tts:
+        delivery: "高贵果断，心思坚定"
+        timbre: "清澈明亮的年轻女声"
+        pace: "从容"
+        pitch: "中高音"
+    bird_king:
+      display_name: "百鸟之王"
+      tts:
+        delivery: "遥远威严，回答简洁"
+        timbre: "高远清亮的男声"
+        pace: "舒缓"
+        pitch: "中高音"
+    fish_king:
+      display_name: "鱼中之王"
+      tts:
+        delivery: "悠远沉静，回答直接"
+        timbre: "圆润低回的男声"
+        pace: "舒缓"
+        pitch: "中低音"
+  chapters:
+    - id: ch01
+      title: "父亲留下的三件旧物"
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "很久以前，有个穷人养着三个儿子。老大叫佩佩，老二叫阿尔芬，最小的叫奇库。后来，一家人穷得连饭也吃不饱。父亲年纪大了，再也干不动活，只好把儿子们叫到跟前。"
+        - id: ch01-b02
+          speaker: father
+          text: "好孩子们，我已经老了，做不了工。如今除了上街讨饭，我实在想不出别的活路。"
+          emotion: sad
+        - id: ch01-b03
+          speakers: [pepe, alfin, ciccu]
+          ensemble: chorus
+          text: "不行！我们绝不能让您去讨饭。就算真要去，也该由我们去。可我们还有个更好的办法。"
+        - id: ch01-b04
+          speaker: father
+          text: "你们想到了什么办法？"
+        - id: ch01-b05
+          speakers: [pepe, alfin, ciccu]
+          ensemble: chorus
+          text: "我们一起进森林。您砍树枝，我们捆成柴，再拿到镇上去卖。"
+        - id: ch01-b06
+          speaker: narrator
+          text: "父亲答应了。四个人往森林走时，老人饿得一点力气也没有，三个儿子便轮流背他。到了林中，他们搭起一间能遮风挡雨的小屋。此后每天一早，父亲砍下树枝，儿子们捆好柴，背去镇上卖掉，再给老人带回急需的食物。"
+        - id: ch01-b07
+          speaker: narrator
+          text: "几个月后，父亲忽然病倒。他知道自己活不久了，叫儿子们请来律师，留下最后的嘱咐。"
+        - id: ch01-b08
+          speaker: father
+          text: "村里那间屋子留给你们三个，你们要住在一起。屋顶有棵无花果树，树枝归佩佩，树干归阿尔芬，果子归奇库。那条旧床罩给长子，旧钱袋给次子，号角给小儿子。除了这些，我什么也没有了。孩子们，永别了。"
+        - id: ch01-b09
+          speaker: narrator
+          text: "老人说完便躺下来，安安静静地死去了。三个儿子深爱父亲，哭得十分伤心。他们安葬了老人，又认真商量今后的生活，不知道该留在森林，还是回村里守着那间小屋。最后，兄弟三人决定继续住在林中，仍靠每天砍柴、卖柴过日子。"
+        - id: ch01-b10
+          speaker: narrator
+          text: "一天傍晚，天气热得出奇。三兄弟辛苦了一整天，就在小屋前的树下睡着了。睡梦里，三位仙女从旁边经过，停下来看着他们。"
+        - id: ch01-b11
+          speaker: fairy_one
+          text: "瞧，多俊的三个小伙子！我们送他们一件礼物吧。"
+        - id: ch01-b12
+          speaker: fairy_two
+          text: "好呀，可送什么才好呢？"
+        - id: ch01-b13
+          speaker: fairy_one
+          text: "第一个年轻人盖着床罩。往后，他只要把它裹在身上，想着要去的地方，一眨眼就能到。"
+        - id: ch01-b14
+          speaker: fairy_two
+          text: "第二个年轻人拿着钱袋。以后，他想要多少金子，都能从袋里取出来。"
+        - id: ch01-b15
+          speaker: fairy_three
+          text: "第三个人挂着号角。从细头吹，海上就会出现无数船只。从粗头吹，那些船会全都沉进波涛。"
+        - id: ch01-b16
+          speaker: narrator
+          text: "三位仙女说完便消失了。她们没有发现，奇库其实醒着，把每句话都听进了耳朵。"
+    - id: ch02
+      title: "三件宝物"
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "第二天砍柴时，奇库向哥哥们要那两件旧东西。"
+        - id: ch02-b02
+          speaker: ciccu
+          text: "哥哥，那条床罩和钱袋留在你们手里也没什么用，不如送给我吧。我总想起以前的日子，很想把它们留在身边。"
+        - id: ch02-b03
+          speaker: narrator
+          text: "佩佩和阿尔芬一向疼爱弟弟，从没拒绝过他的请求，立刻把东西给了他。奇库收好两件宝物，又说自己在森林里住腻了，想去镇上学一门手艺。"
+        - id: ch02-b04
+          speakers: [pepe, alfin]
+          ensemble: duo
+          text: "奇库，留下陪我们吧！这里的日子过得挺快活，换个地方，谁知道会变成什么样？"
+        - id: ch02-b05
+          speaker: ciccu
+          text: "试试总没有坏处。要是外面过不下去，我们还能回来继续砍柴。"
+        - id: ch02-b06
+          speaker: narrator
+          text: "他说完拾起柴束，两个哥哥也跟着上路。可到了镇上，他们才发现柴火太多，根本卖不出去。赚到的钱连一顿饭都买不起，更别说给家里带食物。三个人正愁得没办法，奇库叫他们跟自己去客店吃饭。兄弟们早饿坏了，顾不上有没有钱，便一起进了店。"
+        - id: ch02-b07
+          speaker: ciccu
+          text: "店主，给我们上三道最好的菜，再来一瓶好酒。"
+        - id: ch02-b08
+          speakers: [pepe, alfin]
+          ensemble: duo
+          text: "奇库，你是不是疯了？我们拿什么结账？"
+          emotion: fearful
+        - id: ch02-b09
+          speaker: ciccu
+          text: "别担心，我有办法。"
+        - id: ch02-b10
+          speaker: narrator
+          text: "吃完以后，奇库叫哥哥们先走，自己留下付钱。两人巴不得赶紧离开，心想弟弟身上一文钱也没有，准会闹出乱子。等他们走远，奇库问清饭钱，拿出了钱袋。"
+        - id: ch02-b11
+          speaker: ciccu
+          text: "亲爱的钱袋，请给我六枚弗罗林。"
+        - id: ch02-b12
+          speaker: narrator
+          text: "话音刚落，袋里果然出现六枚弗罗林。奇库付清账，追上了哥哥。"
+        - id: ch02-b13
+          speakers: [pepe, alfin]
+          ensemble: duo
+          text: "你到底是怎么付的钱？"
+        - id: ch02-b14
+          speaker: ciccu
+          text: "这个你们不用管。总之，我一分钱也没欠。"
+        - id: ch02-b15
+          speaker: narrator
+          text: "奇库不肯再说。两个哥哥越想越不安，认定这事有问题，打算趁早跟他分开。奇库看出了他们的心思，便从钱袋里取出四十枚金币，给两人各二十枚。"
+        - id: ch02-b16
+          speaker: ciccu
+          text: "拿去好好用吧。我要一个人上路，去找自己的运气了。"
+        - id: ch02-b17
+          speaker: narrator
+          text: "他拥抱两个哥哥，随后转身走上另一条路。奇库走了许多天，终于来到国王居住的京城。他先订做几套华美的衣裳，又买下一幢正对王宫的豪宅。"
+        - id: ch02-b18
+          speaker: narrator
+          text: "他关紧大门，叫钱袋降下一场金雨，把楼梯一级一级铺满黄金。等一切布置好，他猛地打开门。人人都来探头看那闪亮的金阶，这件奇事很快传到国王耳中。国王非要亲眼看看，便亲自走出王宫。奇库恭恭敬敬地迎接他，又陪着他从楼下走到楼上，看遍了整幢房子。"
+        - id: ch02-b19
+          speaker: narrator
+          text: "国王回宫后，把所见的奇景讲得活灵活现。王后和公主听了，坚持也要去看看。国王便派人征求奇库的许可。"
+        - id: ch02-b20
+          speaker: ciccu
+          text: "王后和公主肯赏脸来访，是我最大的荣幸。她们想看什么，我都愿意展示。"
+        - id: ch02-b21
+          speaker: narrator
+          text: "公主美得像太阳。奇库一见她，便一心想娶她。公主看出了这份爱，也想弄清黄金楼梯的秘密，于是不住地称赞奇库，又巧妙追问。奇库被哄得晕头转向，把三位仙女和三件礼物全说了出来。公主求他把钱袋借几天，好叫人照样仿做一只。奇库爱她太深，当场交出了钱袋。"
+        - id: ch02-b22
+          speaker: narrator
+          text: "公主带着钱袋回宫，从一开始就没打算归还。奇库很快花光手里的钱，没有钱袋，他再也变不出金子。他立刻去找公主，问她是否已经用完，她却随便找了个借口，叫他第二天再来。第二天还是这套说辞，第三天也没有不同。奇库原先对她的爱，终于全变成了怒火。"
+        - id: ch02-b23
+          speaker: narrator
+          text: "入夜后，他拿起粗棍，用床罩裹住身体，默念要去公主的卧房。公主正在熟睡。奇库抓住她的手臂，把她拖下床，用棍子一直打到她交还钱袋。随后，他拿起床罩，许愿平安回到家中。"
+        - id: ch02-b24
+          speaker: narrator
+          text: "奇库刚走，公主便哭着去见父亲，诉说自己受的苦。国王勃然大怒，下令把奇库押到面前。"
+        - id: ch02-b25
+          speaker: king
+          text: "你的罪足够处死。不过，只要马上交出床罩、钱袋和号角，我就饶你一命。"
+          emotion: angry
+        - id: ch02-b26
+          speaker: narrator
+          text: "奇库落在国王手里，还能怎么办？活着总比死去好。他只得默默交出那些来路不正的宝物，又变得像少年时一样贫穷。"
+    - id: ch03
+      title: "三篮无花果"
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "奇库正愁以后靠什么生活，忽然想起无花果该成熟了。他决定回去看看那棵树。两个哥哥仍住在老家，日子却很不好过。他们早已花光金币，又想不出挣钱的办法。好在无花果树长得十分茂盛，枝头挂满了果实。奇库看得高兴，取来篮子，挨个摸着果子，想找出已经成熟的。"
+        - id: ch03-b02
+          speaker: pepe
+          text: "住手！果子是你的，可结着果子的树枝归我。你不许碰！"
+          emotion: angry
+        - id: ch03-b03
+          speaker: narrator
+          text: "奇库没有回答，只把梯子架到树上，准备去摘最高处的果子。一只脚才踏上第一档，阿尔芬也叫住了他。"
+        - id: ch03-b04
+          speaker: alfin
+          text: "停下！树干是我的，你不能碰它。"
+          emotion: angry
+        - id: ch03-b05
+          speaker: narrator
+          text: "三兄弟立刻吵得不可开交。眼看谁也说服不了谁，其中一人提议去找个裁判，另外两人都答应了。他们找来一个信得过的人，奇库把事情从头到尾讲了一遍。"
+        - id: ch03-b06
+          speaker: judge
+          text: "我的判决是这样。果子的确归奇库，可摘果子免不了碰树干和树枝。第一篮给佩佩，算是允许梯子靠着树枝的报酬。第二篮给阿尔芬，算是允许摇动树干的报酬。剩下的果子才归奇库。"
+        - id: ch03-b07
+          speaker: narrator
+          text: "三兄弟都很满意，一起往家走。路上，他们商量好，每人送一篮无花果给国王。若是得到赏赐，就由三个人公平分掉。他们仔细挑出最好的果子，装满第一篮，由佩佩提去城堡。"
+        - id: ch03-b08
+          speaker: narrator
+          text: "佩佩在路上遇见一个矮小的老头。老人拦住他，问篮子里装着什么。"
+        - id: ch03-b09
+          speaker: little_old_man
+          text: "好小伙子，你的篮子里是什么呀？"
+        - id: ch03-b10
+          speaker: pepe
+          text: "这跟你有什么关系？管好你自己吧。"
+        - id: ch03-b11
+          speaker: narrator
+          text: "老人又问了一遍。佩佩只想赶快摆脱他，恼怒地嚷起来。"
+        - id: ch03-b12
+          speaker: pepe
+          text: "装的是泥巴！"
+          emotion: angry
+        - id: ch03-b13
+          speaker: little_old_man
+          text: "好。你既然说是泥巴，那就让它变成泥巴吧。"
+        - id: ch03-b14
+          speaker: narrator
+          text: "佩佩甩甩头，继续赶路。到了城堡，他敲开大门。"
+        - id: ch03-b15
+          speaker: pepe
+          text: "我给国王送来一篮最好的无花果。请陛下开恩收下，也请替我献上敬意。"
+        - id: ch03-b16
+          speaker: narrator
+          text: "国王最爱吃无花果，马上叫人把佩佩带来，又取来银盘装果子。篮子揭开时，最上面是一层漂亮的紫色无花果，下面却全是泥巴。"
+        - id: ch03-b17
+          speaker: king
+          text: "你竟敢这样戏弄我！把他拖下去，抽五十鞭！"
+          emotion: angry
+        - id: ch03-b18
+          speaker: narrator
+          text: "命令立刻执行了。佩佩挨足五十鞭，浑身疼痛，满肚子怒气地回到家，却决心不提自己的遭遇。弟弟们见他这副样子，追问王宫里发生了什么。他只说，等三个人都去过以后，自己再把一切告诉他们。"
+        - id: ch03-b19
+          speaker: narrator
+          text: "几天后，又有一批果子成熟。这次轮到阿尔芬送去王宫。他没走多远，也碰见了那个小老头。老人照样问篮中是什么。"
+        - id: ch03-b20
+          speaker: alfin
+          text: "号角。"
+        - id: ch03-b21
+          speaker: little_old_man
+          text: "好。你既然说是号角，那就让它变成号角吧。"
+        - id: ch03-b22
+          speaker: narrator
+          text: "阿尔芬来到城堡，对仆人说自己送来一篮上好的无花果，请国王收下。国王又拿来银盘。篮子揭开后，上面摆着几只紫色无花果，下面却全是号角。"
+        - id: ch03-b23
+          speaker: king
+          text: "你们是串通好来嘲弄我的吗？把他拖下去，抽一百五十鞭！"
+          emotion: angry
+        - id: ch03-b24
+          speaker: narrator
+          text: "阿尔芬垂头丧气地回了家，也不肯说出遭遇，只阴沉沉地告诉大家，现在该轮到奇库了。"
+        - id: ch03-b25
+          speaker: narrator
+          text: "奇库又等了一阵，才摘下最后一批果子。它们远不如先前的好，可兄弟们已经约定，他还是装满篮子去见国王。那个老人仍在路上，又走来问他。"
+        - id: ch03-b26
+          speaker: little_old_man
+          text: "你篮子里装着什么？"
+        - id: ch03-b27
+          speaker: ciccu
+          text: "是送给国王的无花果。"
+        - id: ch03-b28
+          speaker: little_old_man
+          text: "让我看看吧。哎呀，能不能送我一只？我最爱吃无花果了。"
+        - id: ch03-b29
+          speaker: ciccu
+          text: "少一只，篮里就会露出空洞，我怕别人看出来。"
+        - id: ch03-b30
+          speaker: narrator
+          text: "奇库嘴上这样说，心里却很厚道，还是送了老人一只。老人狼吞虎咽地吃完，手里留下果梗，接着又要一只。就这样一只接一只，他吃掉了半篮。"
+        - id: ch03-b31
+          speaker: ciccu
+          text: "这下剩得太少，已经没法送给国王了。"
+          emotion: sad
+        - id: ch03-b32
+          speaker: little_old_man
+          text: "别担心。把这些果梗也带上，只管去城堡，这篮子会给你带来好运。"
+          emotion: calm
+        - id: ch03-b33
+          speaker: narrator
+          text: "老人把果梗扔回篮中。奇库心里很不情愿，可还是继续赶路。他一路担心篮里的东西没法见人，到了城堡门前，更是提心吊胆。他拉响门铃，对开门的仆人说，自己送来一些上好的无花果，请国王开恩收下，也请替他献上卑微的敬意。国王一听，又有人送果子，立刻叫了起来。"
+        - id: ch03-b34
+          speaker: king
+          text: "快带他进来！我看这准是他们的一场赌赛！"
+        - id: ch03-b35
+          speaker: narrator
+          text: "奇库揭开篮子，原本少掉的果子和果梗都不见了，里面竟堆满漂亮的熟无花果。国王喜出望外，亲手把果子倒进银盘，赏给奇库五枚弗罗林和一些糖果，还提出收他做自己的仆从。奇库感激地答应，只请求先回一趟家，把五枚弗罗林交给哥哥们。"
+        - id: ch03-b36
+          speaker: pepe
+          text: "现在看看，我们各自从国王那里得到了什么。我得了五十鞭。"
+        - id: ch03-b37
+          speaker: alfin
+          text: "我得了一百五十鞭。"
+        - id: ch03-b38
+          speaker: ciccu
+          text: "我得了五枚弗罗林和一些糖果。你们把这些分了吧，国王已经收我做仆从了。"
+        - id: ch03-b39
+          speaker: narrator
+          text: "奇库回到宫廷，为国王效劳，国王也很喜欢他。两个哥哥听说弟弟成了有地位的人，心里却妒忌起来，开始盘算怎样让他出丑。"
+    - id: ch04
+      title: "食人魔的宝剑"
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "佩佩和阿尔芬来到国王面前，告诉他，这座美丽王宫还缺少一样配得上国王的宝物。"
+        - id: ch04-b02
+          speakers: [pepe, alfin]
+          ensemble: duo
+          text: "陛下，您还缺食人魔的宝剑。只要有了它，王宫才真正配得上您。"
+        - id: ch04-b03
+          speaker: king
+          text: "可我要怎样才能得到那把剑？"
+        - id: ch04-b04
+          speakers: [pepe, alfin]
+          ensemble: duo
+          text: "这很容易。奇库能替您取来，您问他就是。"
+        - id: ch04-b05
+          speaker: narrator
+          text: "国王马上召来奇库，命他不惜任何代价，把食人魔的宝剑取回来。奇库被这道突如其来的命令吓了一跳。他若有所思地来到马厩，抚摸自己最心爱的马。"
+        - id: ch04-b06
+          speaker: ciccu
+          text: "唉，我的宝贝，我们恐怕要永别了。国王派我去取食人魔的宝剑。"
+          emotion: sad
+        - id: ch04-b07
+          speaker: narrator
+          text: "这匹马不是普通的马。它会说话，还知道许许多多的事情。"
+        - id: ch04-b08
+          speaker: horse
+          text: "什么都别怕，照我的话去做。请国王给你五十枚金币，再准你骑上我。剩下的事就容易了。"
+          emotion: calm
+        - id: ch04-b09
+          speaker: narrator
+          text: "奇库信任这匹马，便向国王要了两样东西。随后，两个朋友一同出发。一路上，马儿自己选路，凡事都指点奇库。他们艰苦地走了许多天，终于抵达食人魔的国度。"
+        - id: ch04-b10
+          speaker: narrator
+          text: "马儿叫奇库拦住一群在森林里边走边聊的老妇人，答应每人给一先令，请她们捉来许多蚊子，装进袋里扎紧。老妇人们收下钱，把蚊子捉满了整只袋子。奇库把袋子扛在肩上，悄悄溜进食人魔的屋子。食人魔正好出门寻找晚餐，屋里没有别人。奇库便走进卧室，放出所有蚊子，再小心藏到床下等着。"
+        - id: ch04-b11
+          speaker: narrator
+          text: "食人魔很晚才回来。他走了远路，已经疲惫不堪，往床上一倒，把寒光闪闪的宝剑放在身边。刚躺好，蚊子就嗡嗡围上来叮他。食人魔在床上翻来滚去，伸手乱抓，可蚊子总绕着他的鼻尖飞。"
+        - id: ch04-b12
+          speaker: narrator
+          text: "他忙着赶蚊子，没听见奇库爬出床底，也没看见奇库一把夺走宝剑。马儿早已听见动静，守在门口。奇库飞奔下楼，跳上马背。马儿像风一样疾驰，一直跑到国王的王宫才停下。"
+        - id: ch04-b13
+          speaker: narrator
+          text: "奇库离开后，国王一直饱受煎熬。他想到奇库若被食人魔吃掉，那就是自己害死了他。等待的日子里，这个念头一直折磨着国王。如今见奇库平安回来，他欣喜若狂，几乎忘了那把叫奇库去取的宝剑。两个哥哥原本盼着弟弟失败，见他成功，心里不但没有一点欢喜，反而更加不满。"
+        - id: ch04-b14
+          speakers: [pepe, alfin]
+          ensemble: duo
+          text: "陛下，奇库取回宝剑当然不错。可要是能把食人魔本人捉来，那才真正显得出您的威风。"
+        - id: ch04-b15
+          speaker: narrator
+          text: "国王把这话想了又想，最后又把奇库召来。"
+        - id: ch04-b16
+          speaker: king
+          text: "不把食人魔本人带回来，我就永远不能安心。你需要什么帮助都可以说，可这件事无论如何都得办成。"
+        - id: ch04-b17
+          speaker: narrator
+          text: "奇库十分沮丧，只好到马厩向朋友求教。"
+        - id: ch04-b18
+          speaker: horse
+          text: "别怕。只管告诉国王，你还需要我和五十枚金币。"
+          emotion: calm
+        - id: ch04-b19
+          speaker: narrator
+          text: "奇库依言照办，两个伙伴再次来到食人魔的国度。奇库叫所有教堂敲响丧钟，又命人在各处宣布，国王的仆从奇库已经死了。食人魔听见人们议论，心里十分高兴。"
+        - id: ch04-b20
+          speaker: ogre
+          text: "偷走我宝剑的贼终于死了，这可真是好消息。"
+          emotion: happy
+        - id: ch04-b21
+          speaker: narrator
+          text: "奇库买来斧头和锯子，到最近的树林砍倒一棵松树，把它劈成木板。食人魔走过来，看见有人在自己的树林里干活。"
+        - id: ch04-b22
+          speaker: ogre
+          text: "你在我的树林里做什么？"
+        - id: ch04-b23
+          speaker: ciccu
+          text: "尊贵的老爷，奇库死了，我正在给他的尸体做一口棺材。"
+        - id: ch04-b24
+          speaker: ogre
+          text: "不用着急，也许我能帮上忙。"
+        - id: ch04-b25
+          speaker: narrator
+          text: "食人魔根本不知道眼前的人是谁，便跟奇库一起锯木、拼接。没过多久，棺材做好了。奇库装作认真思量，挠了挠耳朵。"
+        - id: ch04-b26
+          speaker: ciccu
+          text: "我真糊涂，竟忘了量尺寸！现在怎么知道棺材够不够大？奇库的身材跟您差不多。您肯不肯躺进去试试？"
+        - id: ch04-b27
+          speaker: ogre
+          text: "当然可以！"
+        - id: ch04-b28
+          speaker: narrator
+          text: "食人魔伸直身体躺进棺材。奇库立刻盖上棺盖，用粗绳捆得结结实实，又把棺材绑在马背上，带回国王那里。国王见他果真捉回食人魔，叫人抬来一只巨大的铁箱，把整口棺材锁了进去。"
+    - id: ch05
+      title: "天下第一美人"
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: "就在这时候，王后去世了。不久，国王想要再娶妻子，却怎么也打听不到一位合心意的公主。两个妒忌奇库的哥哥又来进言。"
+        - id: ch05-b02
+          speakers: [pepe, alfin]
+          ensemble: duo
+          text: "陛下，只有一个女子配做您的妻子，就是那位天下第一美人。"
+        - id: ch05-b03
+          speaker: king
+          text: "可我要到哪里去找她？"
+        - id: ch05-b04
+          speakers: [pepe, alfin]
+          ensemble: duo
+          text: "奇库一定知道，也一定能把她带回来。"
+        - id: ch05-b05
+          speaker: narrator
+          text: "国王已经习惯依赖奇库，真心相信他什么都办得到。他召来奇库，给出一道比前两次更可怕的命令。"
+        - id: ch05-b06
+          speaker: king
+          text: "八天以内，你若不把天下第一美人带到我面前，我就把你剁成一千块。"
+          emotion: angry
+        - id: ch05-b07
+          speaker: narrator
+          text: "奇库眼里含着泪，走向马厩。马儿却笑着叫他振作。"
+        - id: ch05-b08
+          speaker: horse
+          text: "去告诉国王，你需要一些面包和蜂蜜，再要一袋金子。其他的事全交给我。"
+          emotion: calm
+        - id: ch05-b09
+          speaker: narrator
+          text: "奇库照办以后，把面包、蜂蜜和那袋金子带好，便骑着马飞奔出发。走过一段路，他们看见一群蜜蜂落在地上。那些蜜蜂又饿又虚弱，翅膀已经没有力气，怎么也飞不起来。"
+        - id: ch05-b10
+          speaker: horse
+          text: "下来吧，给这些可怜的小东西吃些蜂蜜。"
+        - id: ch05-b11
+          speaker: narrator
+          text: "奇库马上下马，把蜂蜜分给这些可怜的小东西。等蜜蜂吃过，他们才继续赶路。过了一阵，他们来到小溪边，看见一条鱼搁在岸上，无力地拍打身体，拼命扭向溪水，却怎么也回不去。"
+        - id: ch05-b12
+          speaker: horse
+          text: "把那条鱼扔回水中吧。以后，它会帮到我们。"
+        - id: ch05-b13
+          speaker: narrator
+          text: "奇库照做了。再沿山坡前行，他们又看见一只鹰，一条腿被捕兽套牢牢夹住。"
+        - id: ch05-b14
+          speaker: horse
+          text: "去把鹰放出来吧。以后，它也会帮到我们。"
+        - id: ch05-b15
+          speaker: narrator
+          text: "奇库俯身打开捕兽套，小心放出鹰腿。鹰一得到自由，转眼便振翅飞上天空。两个伙伴继续赶了很久的路，终于来到天下第一美人与父母同住的城堡。"
+        - id: ch05-b16
+          speaker: horse
+          text: "你下马坐在那块石头上，我独自进城堡。等你看见我驮着公主飞奔过来，就立刻跳到我背后，紧紧抓住她，不能让她逃走。要是做不到，我们两个都会没命。"
+        - id: ch05-b17
+          speaker: narrator
+          text: "奇库坐到石头上。马儿独自走进城堡庭院，姿态优雅地绕圈小跑。人们很快围过来，又伸手抚摸它。国王、王后和公主也加入了人群。天下第一美人看得双眼发亮，纵身坐上马鞍。"
+        - id: ch05-b18
+          speaker: beauty
+          text: "啊，我一定要骑着它走一小圈！"
+          emotion: happy
+        - id: ch05-b19
+          speaker: narrator
+          text: "马儿猛地向前一跃。公主只得紧抓鬃毛，免得摔下去。他们疾驰到奇库等待的石头旁，奇库翻身跳上马背，从后面抱紧公主的腰。天下第一美人一句话也没说，只解下头上的面纱扔在地上，又从手指上褪下一枚戒指，抛进溪流。三个人一路飞奔而去。"
+        - id: ch05-b20
+          speaker: narrator
+          text: "奇库所在国家的国王站在高塔顶上守望。远处刚扬起尘云，他便跑下塔阶迎接。等他们来到面前，国王向天下第一美人深深鞠躬。"
+        - id: ch05-b21
+          speaker: king
+          text: "尊贵的小姐，您愿意赐我这份荣幸，做我的妻子吗？"
+        - id: ch05-b22
+          speaker: beauty
+          text: "只有奇库替我找回路上丢下的面纱，我才会答应。"
+        - id: ch05-b23
+          speaker: king
+          text: "奇库，你若不立刻找回面纱，就得掉脑袋。"
+          emotion: angry
+        - id: ch05-b24
+          speaker: narrator
+          text: "奇库原以为总算能安生片刻，没想到又领到差事，心一下沉了下去。他走进马厩，向忠实的马儿诉苦。"
+    - id: ch06
+      title: "面纱与戒指"
+      blocks:
+        - id: ch06-b01
+          speaker: horse
+          text: "不会有事的。带上够我们两个吃一天的食物，然后骑到我背上来。"
+          emotion: calm
+        - id: ch06-b02
+          speaker: narrator
+          text: "他们沿原路返回，来到先前救下鹰的地方。马儿让奇库连喊三声百鸟之王，等对方回答，便请它找回天下第一美人丢下的面纱。"
+        - id: ch06-b03
+          speaker: bird_king
+          text: "稍等一会儿。正有一只鹰拿着面纱玩，它马上就会送来。"
+        - id: ch06-b04
+          speaker: narrator
+          text: "几分钟后，空中传来翅膀拍动的声音。一只鹰嘴里衔着面纱，朝他们飞来。奇库认出，这正是自己从捕兽套里救下的那只鹰。他接过面纱，骑马返回国王那里。"
+        - id: ch06-b05
+          speaker: narrator
+          text: "国王见他回来得这样快，喜不自胜。他拿过面纱，罩在公主身上。"
+        - id: ch06-b06
+          speaker: king
+          text: "你要的面纱就在这里。现在我可以娶你了吧？"
+          emotion: happy
+        - id: ch06-b07
+          speaker: beauty
+          text: "别着急。奇库还得把我扔进溪里的戒指戴回我手上。不然，我绝不会做你的妻子。"
+        - id: ch06-b08
+          speaker: narrator
+          text: "奇库站在一旁，早料到事情不会结束。他听完便低下头，径直去找马儿。"
+        - id: ch06-b09
+          speaker: horse
+          text: "马上上马。这一回非常简单。"
+          emotion: calm
+        - id: ch06-b10
+          speaker: narrator
+          text: "马儿把奇库驮到小溪岸边，叫他连喊三声鱼中之王，请对方归还公主丢下的戒指。奇库照着做了，一个声音仿佛从很远的地方传来。"
+        - id: ch06-b11
+          speaker: fish_king
+          text: "你有什么请求？"
+        - id: ch06-b12
+          speaker: ciccu
+          text: "公主骑马经过时扔掉了一枚戒指。国王命我把它找回来。"
+        - id: ch06-b13
+          speaker: fish_king
+          text: "眼下正有一条鱼拿它玩。别急，你很快就能拿到。"
+        - id: ch06-b14
+          speaker: narrator
+          text: "果然，没过多久，平静的水面有了动静。一条小鱼浮上来，嘴里含着那枚遗失的戒指。奇库仔细一看，认出这就是自己从死亡边缘救回的那条鱼。他从鱼嘴里取下戒指，好好收起，又骑上马，把它带回国王那里。"
+        - id: ch06-b15
+          speaker: beauty
+          text: "这还不够。在我们成婚以前，必须把烤炉连续烧上三天三夜，再让奇库跳进去。"
+        - id: ch06-b16
+          speaker: narrator
+          text: "烤炉真的一刻不停地烧了三天三夜。国王忘了奇库曾经怎样忠心为他效劳，竟命奇库照公主的话去做。"
+    - id: ch07
+      title: "燃烧的烤炉"
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: "这一回，奇库觉得再也没有活路了。他来到马儿身旁，把手放在它的颈上。"
+        - id: ch07-b02
+          speaker: ciccu
+          text: "这次真的要永别了。就连你也没办法救我。"
+          emotion: sad
+        - id: ch07-b03
+          speaker: narrator
+          text: "奇库把等待自己的命运告诉了马儿。马儿却一点也不慌。"
+        - id: ch07-b04
+          speaker: horse
+          text: "千万别灰心。跳上我的背，让我一直跑，跑到全身飞起白沫。然后下马，用刀把白沫刮下来，涂遍身体，一处也不能漏。这样，他们就算把你扔进烤炉，火也伤不了你，别的东西也一样伤不了你。"
+          emotion: calm
+        - id: ch07-b05
+          speaker: narrator
+          text: "奇库完全照马儿的吩咐做了。他回到国王那里，当着天下第一美人的面，纵身跳进烤炉。"
+        - id: ch07-b06
+          speaker: narrator
+          text: "天下第一美人看见奇库这样做，心里忽然生出了爱情。她转向国王，提出最后一个条件。"
+        - id: ch07-b07
+          speaker: beauty
+          text: "您必须像奇库一样跳进烤炉，我才会做您的妻子。"
+        - id: ch07-b08
+          speaker: king
+          text: "我很愿意。"
+        - id: ch07-b09
+          speaker: narrator
+          text: "国王俯身靠近烤炉，可到了炉边，他停了一下，朝里面的奇库喊。"
+        - id: ch07-b10
+          speaker: king
+          text: "奇库，告诉我。你用了什么办法，才没有被火烧伤？"
+        - id: ch07-b11
+          speaker: narrator
+          text: "奇库一直忠心耿耿地侍奉主人，主人却连想也没想，就把他送去死。他怎么也无法原谅国王。"
+        - id: ch07-b12
+          speaker: ciccu
+          text: "我把油脂涂遍全身，所以连一根汗毛也没烧焦。"
+        - id: ch07-b13
+          speaker: narrator
+          text: "国王满脑子只有公主，根本没停下来分辨真假。他把油脂涂遍身体，纵身跳进烤炉。火焰一下裹住了他，把他烧成灰烬。"
+        - id: ch07-b14
+          speaker: narrator
+          text: "天下第一美人含笑向奇库伸出手。"
+        - id: ch07-b15
+          speaker: beauty
+          text: "现在，我们做夫妻吧。"
+          emotion: happy
+        - id: ch07-b16
+          speaker: narrator
+          text: "奇库就这样娶了天下第一美人，成为这个国家的国王。"

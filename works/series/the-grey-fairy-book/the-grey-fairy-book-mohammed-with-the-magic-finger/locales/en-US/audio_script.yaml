@@ -1,0 +1,688 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant, and gently dramatic
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    mother:
+      display_name: The Mother
+      tts:
+        delivery: hopeful, plainspoken, and increasingly distressed
+        timbre: mature and warm
+        pace: measured
+        pitch: medium
+    uncle:
+      display_name: Mohammed's Uncle
+      tts:
+        delivery: earnest, trusting, and easily troubled
+        timbre: clear and sturdy
+        pace: natural
+        pitch: medium-low
+    sister:
+      display_name: Mohammed's Mother
+      tts:
+        delivery: guarded, forceful, and coldly determined
+        timbre: clear and mature
+        pace: measured
+        pitch: medium
+    wife:
+      display_name: The Uncle's Wife
+      tts:
+        delivery: matter-of-fact, brisk, and unsettlingly calm
+        timbre: dry and clear
+        pace: natural
+        pitch: medium
+    butcher_1:
+      display_name: First Butcher
+      tts:
+        delivery: blunt and businesslike
+        timbre: rough and firm
+        pace: deliberate
+        pitch: low
+    butcher_2:
+      display_name: Second Butcher
+      tts:
+        delivery: blunt and businesslike
+        timbre: coarse and steady
+        pace: deliberate
+        pitch: medium-low
+    husband:
+      display_name: Mohammed's Father
+      tts:
+        delivery: reluctant, weary, and mild until threatened
+        timbre: deep and smooth
+        pace: measured
+        pitch: low
+    mohammed:
+      display_name: Mohammed
+      tts:
+        delivery: quick-witted, fearless, and sharply playful
+        timbre: bright and clear
+        pace: lively
+        pitch: medium-high
+    master:
+      display_name: The Red-Haired Master
+      tts:
+        delivery: calculating, stern, and easily exasperated
+        timbre: hard and resonant
+        pace: measured
+        pitch: medium-low
+    old_woman:
+      display_name: The Master's Mother
+      tts:
+        delivery: demanding, complaining, and nervous under pressure
+        timbre: thin and weathered
+        pace: natural
+        pitch: high
+    son_1:
+      display_name: First Son
+      tts:
+        delivery: eager and youthful
+        timbre: light and clear
+        pace: brisk
+        pitch: high
+    son_2:
+      display_name: Second Son
+      tts:
+        delivery: eager and youthful
+        timbre: bright and clear
+        pace: brisk
+        pitch: high
+    son_3:
+      display_name: Third Son
+      tts:
+        delivery: eager and youthful
+        timbre: light and lively
+        pace: brisk
+        pitch: medium-high
+    son_4:
+      display_name: Youngest Son
+      tts:
+        delivery: eager, youthful, and innocent
+        timbre: soft and clear
+        pace: brisk
+        pitch: high
+    servant_1:
+      display_name: First Servant
+      tts:
+        delivery: practical and puzzled
+        timbre: sturdy and clear
+        pace: natural
+        pitch: medium-low
+    servant_2:
+      display_name: Second Servant
+      tts:
+        delivery: practical and skeptical
+        timbre: dry and clear
+        pace: natural
+        pitch: medium
+    judge:
+      display_name: The Judge
+      tts:
+        delivery: formal, direct, and impartial
+        timbre: full and authoritative
+        pace: deliberate
+        pitch: low
+    first_arab:
+      display_name: First Bedouin Host
+      tts:
+        delivery: hospitable, confident, and sleepy when disturbed
+        timbre: warm and grounded
+        pace: measured
+        pitch: medium-low
+    second_arab:
+      display_name: Second Bedouin Host
+      tts:
+        delivery: hospitable, certain, and impatient when disturbed
+        timbre: firm and clear
+        pace: measured
+        pitch: medium-low
+    third_arab:
+      display_name: Third Bedouin Host
+      tts:
+        delivery: proud, severe, and decisive
+        timbre: deep and resonant
+        pace: deliberate
+        pitch: low
+    maiden:
+      display_name: The Maiden
+      tts:
+        delivery: quiet, attentive, and courageous
+        timbre: gentle and clear
+        pace: measured
+        pitch: medium-high
+    fourth_arab:
+      display_name: Fourth Bedouin Host
+      tts:
+        delivery: generous, assured, and easily alarmed
+        timbre: warm and clear
+        pace: measured
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The City Without Death
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "Once there was a woman with a son and a daughter. One morning, she told them she had heard of a town where no one ever died. She broke up her home, took both children, and set out to live there."
+        - id: ch01-b02
+          speaker: mother
+          text: "If there truly is no death in that town, then that is where we must make our home."
+        - id: ch01-b03
+          speaker: narrator
+          text: "As soon as they arrived, the woman searched for a churchyard. She found none and was delighted."
+        - id: ch01-b04
+          speaker: mother
+          text: "What a wonderful place! We shall stay here forever."
+        - id: ch01-b05
+          speaker: narrator
+          text: "In time, her son grew into a man and married a girl born in that town. Before long, he became restless and left on a journey. His mother, his wife, and his sister remained behind. Only a few weeks later, his mother fell ill one evening."
+        - id: ch01-b06
+          speaker: mother
+          text: "I feel terribly ill. My head aches so badly."
+        - id: ch01-b07
+          speaker: wife
+          text: "What did you say?"
+        - id: ch01-b08
+          speaker: mother
+          text: "My head feels as if it will split apart."
+        - id: ch01-b09
+          speaker: narrator
+          text: "Her daughter-in-law asked nothing else. She left the house at once and hurried to the butchers in the next street. There she announced that she had a woman for sale and asked what they would pay. The butchers would not name a price without seeing the woman, so they followed her back to the house."
+        - id: ch01-b10
+          speaker: wife
+          text: "I have a woman for sale. What will you give me for her?"
+        - id: ch01-b11
+          speakers: [butcher_1, butcher_2]
+          ensemble: duo
+          text: "We must see this woman before we name a price."
+        - id: ch01-b12
+          speaker: narrator
+          text: "The butchers took hold of the sick woman and told her they had to kill her."
+        - id: ch01-b13
+          speaker: mother
+          text: "Why must you do that?"
+          emotion: fearful
+        - id: ch01-b14
+          speakers: [butcher_1, butcher_2]
+          ensemble: duo
+          text: "That is our custom. Anyone who falls ill and complains of a headache is killed at once. It is better than waiting for a natural death."
+        - id: ch01-b15
+          speaker: mother
+          text: "Then please leave my lungs and liver untouched until my son returns. Give them both to him."
+        - id: ch01-b16
+          speaker: narrator
+          text: "But the men removed them at once and handed them to the daughter-in-law."
+        - id: ch01-b17
+          speaker: butcher_1
+          text: "Keep these safe until your husband comes home."
+        - id: ch01-b18
+          speaker: narrator
+          text: "The daughter-in-law carried the lungs and liver away and hid them in a secret place to await her husband's return. The old woman's daughter had been out in the woods while all this happened. When she came back and heard that her mother had been killed in her absence, terror seized her. She ran from the town as fast as she could. At last, far away in a lonely place where she believed herself safe, she sank onto a stone and wept bitterly. As she sat there sobbing, a man passed along the road. He saw her distress and stopped beside her."
+        - id: ch01-b19
+          speaker: husband
+          text: "What has happened, little girl? Tell me. I will be your friend."
+        - id: ch01-b20
+          speaker: sister
+          text: "They have killed my mother. My brother is far away, and I have no one left."
+          emotion: sad
+        - id: ch01-b21
+          speaker: husband
+          text: "Will you come away with me?"
+        - id: ch01-b22
+          speaker: sister
+          text: "Yes, gladly."
+        - id: ch01-b23
+          speaker: narrator
+          text: "The man led her down beneath the earth. They went deeper and deeper until at last they entered a great underground city. There he married her, and in time she gave birth to a son. The baby soon became known throughout the whole city as Mohammed with the Magic Finger. Whenever he stretched out his little finger, he could see whatever was happening anywhere within two days' journey."
+    - id: ch02
+      title: Mohammed Saves His Uncle
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "As Mohammed grew, his uncle returned from his travels and went straight to his wife. He demanded to know where his mother and sister were."
+        - id: ch02-b02
+          speaker: wife
+          text: "Eat something first. Then I will tell you."
+        - id: ch02-b03
+          speaker: uncle
+          text: "How can I eat before I know what became of them?"
+        - id: ch02-b04
+          speaker: narrator
+          text: "His wife brought down a box of money from an upper room and placed it before him."
+        - id: ch02-b05
+          speaker: wife
+          text: "That is what your mother brought. She fetched a good price."
+        - id: ch02-b06
+          speaker: uncle
+          text: "What can you mean?"
+          emotion: surprised
+        - id: ch02-b07
+          speaker: wife
+          text: "She complained that her head hurt, so I called two butchers. They took her, but I kept her lungs and liver hidden safely for you."
+        - id: ch02-b08
+          speaker: uncle
+          text: "And where is my sister?"
+        - id: ch02-b09
+          speaker: wife
+          text: "She ran away while they were cutting up your mother. I never heard of her again."
+        - id: ch02-b10
+          speaker: uncle
+          text: "Give me my mother's lungs and liver. I cannot remain in this dreadful town. I am going to find my sister."
+        - id: ch02-b11
+          speaker: narrator
+          text: "He put them in his pocket and left. One day, Mohammed stretched out his finger and saw him coming."
+        - id: ch02-b12
+          speaker: mohammed
+          text: "Mother, my uncle is coming! He is two days away, searching for us, but he will be here soon."
+        - id: ch02-b13
+          speaker: narrator
+          text: "Two days later, exactly as Mohammed had foretold, the uncle found the opening that led beneath the earth. He followed it down and arrived at the gate of the great city. By then he had spent all his money. He had no idea where his sister lived among all those houses, so he began begging from every person he met. From inside the house, Mohammed knew the traveler had finally reached their very door."
+        - id: ch02-b14
+          speaker: mohammed
+          text: "My uncle is here, right outside our house!"
+        - id: ch02-b15
+          speaker: narrator
+          text: "His mother ran out, embraced her brother, and wept over him. When they could speak, he asked whether she had seen their mother killed."
+        - id: ch02-b16
+          speaker: sister
+          text: "I was away when they killed her. I could do nothing, so I fled. But how did you ever find this place?"
+        - id: ch02-b17
+          speaker: uncle
+          text: "Only by chance. I wandered a long way and never knew I would find you."
+        - id: ch02-b18
+          speaker: sister
+          text: "My little boy knew you were coming while you were still two days away. No one else has such a gift."
+        - id: ch02-b19
+          speaker: narrator
+          text: "The sister told her brother about her son's gift, but she kept one important secret. Her husband could change himself into a serpent, a dog, or a monster whenever he pleased. He was also a very rich man. He owned great herds of camels, goats, sheep, cattle, horses, and donkeys, and every animal was among the finest of its kind. The next morning, the sister told her brother to watch their sheep. If he became thirsty, he could drink their milk. He agreed and went out. Soon afterward, she called him again and ordered him to watch the goats instead."
+        - id: ch02-b20
+          speaker: uncle
+          text: "Why must I change? I would rather watch the sheep."
+        - id: ch02-b21
+          speaker: sister
+          text: "It is much better to be a goatherd. Take the goats."
+        - id: ch02-b22
+          speaker: narrator
+          text: "Once her brother had gone with the goats, she turned to her husband and said the visitor must die. She could not bear to have her brother living there with her. Her husband asked why he should kill a man who had never harmed him. She gave no other reason. She repeated her demand and threatened to leave if he refused. Faced with that threat, her husband finally gave in."
+        - id: ch02-b23
+          speaker: husband
+          text: "Tomorrow I will become a serpent and hide in the barrel of dates. When he reaches inside, I will sting his hand."
+        - id: ch02-b24
+          speaker: sister
+          text: "Yes. That will do."
+        - id: ch02-b25
+          speaker: narrator
+          text: "When the sun rose next day, the sister sent her brother out with the goats. Mohammed immediately called that he wanted to go too. His uncle was delighted to have him, and they set off together. They drove the animals on until the house had disappeared behind them. Only then did the boy tell his uncle what he had seen."
+        - id: ch02-b26
+          speaker: mohammed
+          text: "Uncle, my father means to kill you. Mother told him to turn into a serpent and hide in the date barrel. When she sends you for dates, say you feel ill and ask me to fetch them."
+        - id: ch02-b27
+          speaker: uncle
+          text: "Then that is what I will do."
+        - id: ch02-b28
+          speaker: narrator
+          text: "When they returned, the sister told her brother he must be hungry and sent him to the barrel. He answered exactly as Mohammed had taught him."
+        - id: ch02-b29
+          speaker: uncle
+          text: "I do not feel well. Mohammed, will you bring the dates for me?"
+        - id: ch02-b30
+          speaker: mohammed
+          text: "Of course I will."
+        - id: ch02-b31
+          speaker: sister
+          text: "No, come back at once! Your uncle must fetch them himself!"
+          emotion: fearful
+        - id: ch02-b32
+          speaker: mohammed
+          text: "I would rather get them."
+        - id: ch02-b33
+          speaker: narrator
+          text: "His hand touched something cold and slimy among the dates."
+        - id: ch02-b34
+          speaker: mohammed
+          text: "Lie still. It is your son."
+        - id: ch02-b35
+          speaker: narrator
+          text: "He carried the dates to his uncle, who ate them. When the uncle never approached the barrel, the serpent crawled out and became a man again. He was grateful he had not killed his own brother-in-law, but his wife renewed her threat. He sighed and promised to try again the next day."
+        - id: ch02-b36
+          speaker: narrator
+          text: "At daybreak, Mohammed went out with his uncle again. His mother tried to keep him home because of the cold, but he refused. At the pasture, he revealed the second plan."
+        - id: ch02-b37
+          speaker: mohammed
+          text: "Tonight my father will hide as a serpent in the straw in your room. Mother will tell you to carry that straw to the sheep, and he will bite you. Do not be afraid. I will kill him myself."
+        - id: ch02-b38
+          speaker: narrator
+          text: "When they came home, the sister immediately ordered her brother to fetch straw. Mohammed said they would go together. At the dark room, he announced that he needed a light. He returned with one and set the straw on fire. The serpent burned to death."
+        - id: ch02-b39
+          speaker: sister
+          text: "You miserable boy! Your father was in that straw, and you have killed him!"
+          emotion: sad
+        - id: ch02-b40
+          speaker: mohammed
+          text: "How could I know Father was lying in the straw instead of being in the kitchen? And why did you marry a serpent? I thought he was a man. Where did he learn such strange tricks?"
+        - id: ch02-b41
+          speaker: sister
+          text: "From this day on, you have no father. You must manage without him."
+          emotion: sad
+        - id: ch02-b42
+          speaker: narrator
+          text: "The next morning, Mohammed again went out with his uncle. Along the way, he warned that his mother would grind the serpent's bones to powder and poison both their portions of supper."
+        - id: ch02-b43
+          speaker: uncle
+          text: "How can we escape her this time?"
+        - id: ch02-b44
+          speaker: mohammed
+          text: "I will put an end to it. I want neither a father nor a mother who behaves like this."
+        - id: ch02-b45
+          speaker: narrator
+          text: "When they returned that evening, the woman was preparing supper. They watched her secretly scatter the serpent's powdered bones over one side of the common dish. She left the other side clean because that was where she intended to eat. Mohammed whispered to his uncle that he must take food only from the same side as the boy. The three sat down together, but before anyone served themselves, Mohammed said he was thirsty and asked his mother for milk. She told them they could begin supper while she fetched it. By the time she returned, Mohammed and his uncle were eating busily from the safe side."
+        - id: ch02-b46
+          speaker: mohammed
+          text: "Sit with us, Mother. Have some supper too."
+        - id: ch02-b47
+          speaker: narrator
+          text: "She sat down and ate from the poisoned side. At the first mouthful, she fell dead."
+        - id: ch02-b48
+          speaker: mohammed
+          text: "What she prepared for us has fallen on her. Now we will sell the sheep and cattle."
+        - id: ch02-b49
+          speaker: narrator
+          text: "They sold the animals, took the money, and went out to see the world."
+    - id: ch03
+      title: The Broken Contract
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "For ten days, uncle and nephew crossed the desert. Then the road divided. Mohammed said the time had come for them to part, though his uncle begged them to stay together. The uncle chose the western road. Before they separated, Mohammed gave him one warning."
+        - id: ch03-b02
+          speaker: mohammed
+          text: "Never enter the service of a man with red hair and blue eyes."
+        - id: ch03-b03
+          speaker: narrator
+          text: "The uncle agreed and went west. He wandered without food for three days until he was nearly fainting. Then a red-haired, blue-eyed stranger met him and offered him work under a contract. Whoever broke it would lose a strip of skin. Hunger made the uncle accept."
+        - id: ch03-b04
+          speaker: uncle
+          text: "What work must I do?"
+        - id: ch03-b05
+          speaker: master
+          text: "Take my sheep to pasture each day. Carry my old mother on your shoulders, and never let her feet touch the ground. Every evening, catch seven singing birds for my seven sons."
+        - id: ch03-b06
+          speaker: uncle
+          text: "I can do all that."
+        - id: ch03-b07
+          speaker: narrator
+          text: "The new shepherd bent down and let the old woman climb onto his back. He carried her all day without letting her feet touch the earth. That evening, he came home with her still on his shoulders and seven singing birds in his pockets. The seven boys ran to meet him, and each received a bird. The same thing happened day after day. At last, one night, the uncle began to weep. He asked what he had done to deserve such hateful labor. Far away, Mohammed saw his uncle's misery with his magic finger. The next morning, he asked his own master for leave to help. His uncle would come there in his place, wearing Mohammed's mantle and carrying his staff, while Mohammed served the other master. His master agreed."
+        - id: ch03-b08
+          speaker: narrator
+          text: "Mohammed set out at once. Two days later, he found his uncle in the fields. The poor man still had the old woman on his back, and at the same time he was struggling to catch the birds that flew past him. Mohammed touched him on the arm."
+        - id: ch03-b09
+          speaker: mohammed
+          text: "Uncle, did I not warn you against any red-haired man with blue eyes?"
+        - id: ch03-b10
+          speaker: uncle
+          text: "I was starving. He came by, and I signed his contract. What else could I do?"
+        - id: ch03-b11
+          speaker: narrator
+          text: "Mohammed asked for the contract, and his uncle handed it over. Then he ordered him to put the old woman down. The uncle was terrified that this would break the agreement, but Mohammed told him not to worry. He already saw a way out. His uncle must take Mohammed's staff and mantle and leave at once. After traveling straight ahead for two days, he would reach a group of shepherds' tents. He was to wait there. The uncle agreed and went away. Mohammed then picked up a stick, struck the old woman, and gave her an order."
+        - id: ch03-b12
+          speaker: mohammed
+          text: "Get down and tend the sheep. I mean to sleep."
+        - id: ch03-b13
+          speaker: old_woman
+          text: "Yes, certainly."
+        - id: ch03-b14
+          speaker: narrator
+          text: "Mohammed slept comfortably beneath a tree until sunset. Then he demanded the seven singing birds. The old woman protested that no one had told her about them."
+        - id: ch03-b15
+          speaker: mohammed
+          text: "Then you know now. Catch them, or I will kill you."
+        - id: ch03-b16
+          speaker: narrator
+          text: "The old woman promised in a hurry and began chasing birds through the bushes. She ran until thorns pierced her foot. Shrieking with pain, she called herself unlucky and complained bitterly about the way Mohammed treated her. Still, she kept going until she had caught all seven birds. Mohammed said it was time to return. After they had gone a little way, he sharply ordered her to drive the sheep because he did not know where their fold was. She drove the flock ahead. Before they reached the house, he warned her not to tell her son that he had struck her or that he was not the former shepherd. If she spoke, he said, he would kill her. She quickly promised to say nothing."
+        - id: ch03-b17
+          speaker: master
+          text: "I have a fine shepherd now, do I not, Mother?"
+        - id: ch03-b18
+          speaker: old_woman
+          text: "A splendid one! Just look how fat the sheep are and how much milk they give."
+        - id: ch03-b19
+          speaker: narrator
+          text: "The master rose to prepare supper for his mother and the shepherd. When Mohammed's uncle had served there, he had eaten nothing except the scraps she left behind. Mohammed had no intention of accepting that. He leaned toward the old woman and told her she would not touch the food until he had eaten as much as he wanted. She submitted. Mohammed ate his fill, then finally allowed her to begin. Instead of eating, she burst into tears. She protested that this was not in the contract. The shepherd was supposed to receive only what she left. Mohammed cut her complaint short."
+        - id: ch03-b20
+          speaker: mohammed
+          text: "One more word, and I will kill you."
+        - id: ch03-b21
+          speaker: narrator
+          text: "The next day began like the one before. Mohammed put the old woman on his back and drove the sheep ahead until the house was far behind them. Then he let her fall to the ground and ordered her to watch the flock. He chose a ram, killed it, lit a fire, and roasted some of the flesh. When it was ready, he called the old woman over to share it. She came, but Mohammed did not let her eat in peace. He took a large lump of meat and rammed it down her throat with his crook. She choked and died."
+        - id: ch03-b22
+          speaker: mohammed
+          text: "That is your reward for tormenting my uncle."
+        - id: ch03-b23
+          speaker: narrator
+          text: "Mohammed left her where she lay and went after the singing birds. Catching them took a long time, but at last all seven were tucked into the pockets of his tunic. He threw the old woman's body among some bushes, gathered the sheep, and drove them home. As the flock approached its fold, all seven boys came running to meet their shepherd and claim their birds."
+        - id: ch03-b24
+          speakers: [son_1, son_2, son_3, son_4]
+          ensemble: chorus
+          text: "Where is our bird? Give it to us!"
+        - id: ch03-b25
+          speaker: narrator
+          text: "Mohammed began to weep and told the boys that their grandmother was dead. They ran straight to their father with the news. The master hurried out and demanded to know what had happened. Mohammed said he had been tending the sheep when the old woman asked him to kill a ram because she was hungry. He had obeyed and given her the meat. But she had no teeth, he explained, and a piece had lodged in her throat and choked her."
+        - id: ch03-b26
+          speaker: master
+          text: "Why did you kill my ram instead of a sheep?"
+        - id: ch03-b27
+          speaker: mohammed
+          text: "She gave the order. I had to obey it."
+        - id: ch03-b28
+          speaker: narrator
+          text: "The master said he must see to his mother's burial. Next morning, Mohammed drove the sheep out as usual. He was glad to be rid of the old woman and now turned his thoughts to the boys. He watched the flock all day. Toward evening, he dug into several little holes in the ground and pulled out six scorpions. He put them into his pockets and caught just one bird. When he brought the flock home, the boys surrounded him and demanded their usual gifts. Mohammed placed a scorpion in the hand of each of the six older boys. Each scorpion stung, and all six boys died. He gave the single bird to the youngest. Then he raised his voice and shouted that the children were dead. People came running from every side and asked how it had happened."
+        - id: ch03-b29
+          speaker: mohammed
+          text: "This is your own fault. The boys were used to receiving birds. In the bitter cold, their fingers became too stiff to hold them. The birds flew away, and their spirits flew after them. Only the youngest held tightly enough, so he is alive."
+        - id: ch03-b30
+          speaker: master
+          text: "I have suffered enough. Bring no more birds, or I may lose my youngest too."
+          emotion: sad
+        - id: ch03-b31
+          speaker: narrator
+          text: "Mohammed agreed. Soon he told his master he had found distant pasture and might stay away for two or three days. He drove the whole flock to his uncle."
+        - id: ch03-b32
+          speaker: mohammed
+          text: "Uncle, keep these sheep. I killed the old woman and the boys, and now I have brought you the flock."
+    - id: ch04
+      title: The Sheep, the Cows, and the Judge
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "Mohammed left the flock with his uncle and started back alone. On the road, he picked up a stone and beat his own head until blood ran from it. Then he tied his hands tightly together and began to scream. His cries carried far enough for the master to hear. The man came running and demanded an explanation."
+        - id: ch04-b02
+          speaker: mohammed
+          text: "Robbers drove off the sheep. I tried to stop them, so they struck my head and tied my hands. They came four days ago. By now, you could never catch them."
+        - id: ch04-b03
+          speaker: master
+          text: "Then you will herd the cows."
+        - id: ch04-b04
+          speaker: narrator
+          text: "Mohammed took the cows out for two days just as he had been told. On the third day, he drove nearly all of them toward the shepherds' tents where his uncle waited. Before handing them over, he cut off their tails and kept the bundle. He left one cow behind with its tail still attached. Mohammed told his uncle to take care of the herd while he went back to teach the red-haired master a lesson. His uncle replied that Mohammed must know his own business best, and that the man had certainly worried him almost to death."
+        - id: ch04-b05
+          speaker: narrator
+          text: "With the severed tails tied in a bundle on his back, Mohammed went down to the seashore. He planted every loose tail firmly in the sand. Then he led the one remaining cow into rough grass and buried her up to the neck, arranging things so that only her tail could be seen. When everything was ready, he began to shriek and scream just as he had after losing the sheep. His master and all the other servants came running to find out what disaster had occurred this time."
+        - id: ch04-b06
+          speakers: [servant_1, servant_2]
+          ensemble: duo
+          text: "What in the world has happened here?"
+        - id: ch04-b07
+          speaker: mohammed
+          text: "The sea swallowed the cows! Only their tails remain. Pull quickly, and perhaps you can save them."
+        - id: ch04-b08
+          speaker: narrator
+          text: "The master ordered every servant to seize a tail at once and pull the cows out. The men planted their feet and tugged together. At the very first pull, they nearly tumbled backward. Every loose tail came flying out of the sand and remained in their hands."
+        - id: ch04-b09
+          speaker: mohammed
+          text: "Stop! You pulled their tails off, and now the cows have sunk to the bottom."
+        - id: ch04-b10
+          speaker: servant_1
+          text: "Then show us how it should be done."
+        - id: ch04-b11
+          speaker: narrator
+          text: "The servants challenged Mohammed to do better. He ran to the rough grass where he had buried the living cow. Taking hold of her tail, he pulled until the animal rose out of the earth in front of them."
+        - id: ch04-b12
+          speaker: mohammed
+          text: "There, that is how to pull out a cow. I told you that you did not understand it."
+        - id: ch04-b13
+          speaker: narrator
+          text: "The servants slipped away in shame. The master had endured enough."
+        - id: ch04-b14
+          speaker: master
+          text: "Go away! You killed my mother and my children. You stole my sheep and drowned my cows. There is no work left for you."
+          emotion: angry
+        - id: ch04-b15
+          speaker: mohammed
+          text: "First give me the strip of skin you owe me. You are the one breaking our contract."
+        - id: ch04-b16
+          speaker: master
+          text: "A judge will decide that."
+        - id: ch04-b17
+          speaker: narrator
+          text: "Mohammed readily agreed to let a judge decide. The two went before him, and the judge asked the master to state his case. Bowing low, the master said his shepherd had robbed him of everything. He accused Mohammed of killing his old mother and his children, stealing his sheep, and drowning his cows in the sea. Mohammed did not dispute the list. He simply answered that his master must pay the debt required by their agreement, and then he would leave."
+        - id: ch04-b18
+          speaker: judge
+          text: "Yes. The law requires him to pay you."
+        - id: ch04-b19
+          speaker: master
+          text: "Then let him count the days he served me."
+        - id: ch04-b20
+          speaker: mohammed
+          text: "No. Our contract promises me a strip of skin if he breaks it. That is what I claim."
+        - id: ch04-b21
+          speaker: narrator
+          text: "The judge had already said the law must be followed. The master saw there was no way out of his own bargain. He cut a strip of skin from his body and handed it to Mohammed. Contract in hand and payment received, Mohammed left at once and hurried back to the tents where his uncle was waiting."
+        - id: ch04-b22
+          speaker: mohammed
+          text: "We are rich now, Uncle. We will sell the cows and sheep and leave this country. It is no place for us anymore."
+    - id: ch05
+      title: The Greyhound and the Ram
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: "The sheep were soon sold, and uncle and nephew began traveling again with the money. That night, they reached a group of Bedouin tents. The Arabs welcomed the travelers and shared their supper with them. When the meal was over and everyone was preparing to sleep, Mohammed called the owner of the tent aside. He showed him the strip of skin won under the contract and made a warning about the man's greyhound."
+        - id: ch05-b02
+          speaker: mohammed
+          text: "Your greyhound will eat my strip of leather."
+        - id: ch05-b03
+          speaker: first_arab
+          text: "Do not worry. He will not touch it."
+        - id: ch05-b04
+          speaker: mohammed
+          text: "And if he does?"
+        - id: ch05-b05
+          speaker: first_arab
+          text: "Then I will give you the dog in exchange."
+        - id: ch05-b06
+          speaker: narrator
+          text: "Mohammed waited until every person in the camp was sound asleep. Then he rose without a sound, tore the strip of skin into little pieces, and threw them on the ground in front of the greyhound. With the evidence laid out where everyone could see it, he suddenly filled the quiet camp with wild shrieks."
+        - id: ch05-b07
+          speaker: mohammed
+          text: "Master, did I not warn you? Your dog has eaten my leather!"
+        - id: ch05-b08
+          speaker: first_arab
+          text: "Be quiet and stop that noise. Take the dog."
+        - id: ch05-b09
+          speaker: narrator
+          text: "Mohammed put a leash around the greyhound and led it away. That evening, another Bedouin family gave the travelers shelter and supper. Mohammed made a new warning."
+        - id: ch05-b10
+          speaker: mohammed
+          text: "Your ram will kill my greyhound."
+        - id: ch05-b11
+          speaker: second_arab
+          text: "No, it will do no such thing."
+        - id: ch05-b12
+          speaker: mohammed
+          text: "What will you give me if it does?"
+        - id: ch05-b13
+          speaker: second_arab
+          text: "You may take the ram in exchange."
+        - id: ch05-b14
+          speaker: narrator
+          text: "Once the camp had settled for the night, Mohammed killed the greyhound himself. He lifted its body and arranged it across the horns of the ram, making the scene appear exactly as he had predicted. Then he began to shriek and yell until the sleeping host woke in alarm."
+        - id: ch05-b15
+          speaker: second_arab
+          text: "Take the ram and go away!"
+          emotion: angry
+        - id: ch05-b16
+          speaker: narrator
+          text: "Mohammed needed no second invitation. He took the ram and left."
+    - id: ch06
+      title: The Maiden and the Mare
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: "Mohammed and his uncle traveled on with the ram. At sunset, they reached a third Bedouin camp. As at the earlier tents, their host received them kindly, offered them shelter, and gave them supper. When they had eaten, Mohammed drew the owner aside and pointed to the ram he had brought."
+        - id: ch06-b02
+          speaker: mohammed
+          text: "Your daughter will kill my ram."
+        - id: ch06-b03
+          speaker: third_arab
+          text: "Be silent. My daughter has meat every day. She has no need to steal yours."
+        - id: ch06-b04
+          speaker: mohammed
+          text: "Then I will sleep. But if anything happens to the ram, I will raise the alarm."
+        - id: ch06-b05
+          speaker: third_arab
+          text: "If my daughter touches a guest's property, I will kill her."
+        - id: ch06-b06
+          speaker: narrator
+          text: "Mohammed waited until the whole camp was asleep. Then he killed the ram, removed its liver, and roasted the liver over the fire. The host's daughter slept through it all and knew nothing. Mohammed placed one piece in her hand and laid several more pieces on her nightclothes. Only when everything was arranged did he begin to cry out loudly enough to wake her father."
+        - id: ch06-b07
+          speaker: third_arab
+          text: "What is wrong? Be quiet at once!"
+        - id: ch06-b08
+          speaker: mohammed
+          text: "How can I be quiet? Your daughter has killed the ram I loved like a child. Look for the meat on her."
+        - id: ch06-b09
+          speaker: narrator
+          text: "The host objected that his daughter was asleep, but Mohammed told him to look for the ram's flesh. The man promised that if any meat were found, Mohammed could take the girl in exchange. They found the liver exactly where Mohammed had said. Her father beat her and ordered her out of his sight, declaring that she now belonged to the stranger. Mohammed took the bewildered maiden with him, and he and his uncle continued across the desert. At nightfall, they reached another Bedouin camp. Once again, they were welcomed, invited inside, and given food. Before lying down, Mohammed made one more prediction to his host."
+        - id: ch06-b10
+          speaker: mohammed
+          text: "Your mare will kill my wife."
+        - id: ch06-b11
+          speaker: fourth_arab
+          text: "Certainly not."
+        - id: ch06-b12
+          speaker: mohammed
+          text: "And if she does?"
+        - id: ch06-b13
+          speaker: fourth_arab
+          text: "Then you may take the mare in exchange."
+        - id: ch06-b14
+          speaker: narrator
+          text: "When the camp was asleep, Mohammed whispered his plan to the maiden."
+        - id: ch06-b15
+          speaker: mohammed
+          text: "I will bring the mare and place her at your feet. I must make a few small cuts so there is blood, and everyone will think you are dead. Do not make a sound, or both of us will be lost."
+        - id: ch06-b16
+          speaker: narrator
+          text: "The maiden agreed to follow his instructions. Mohammed brought the mare into the tent and placed the animal at her feet. He made only the small flesh wounds he had described, but they left enough blood for the trick. The maiden lay utterly still and did not make a sound. Mohammed then wept and wailed more loudly than he had at any earlier camp. The terrible noise brought the host hurrying to the place where she lay."
+        - id: ch06-b17
+          speaker: fourth_arab
+          text: "Stop that terrible noise! Take the mare and go, but carry the dead girl away with you. She can lie across the mare's back."
+        - id: ch06-b18
+          speaker: narrator
+          text: "Mohammed and his uncle picked up the motionless maiden and laid her carefully across the mare's back. They led the animal away, walking one on each side so the girl could not slip to the ground and hurt herself. They kept that careful formation until the Bedouin tents were so far behind them that no one there could see. Then the maiden sat upright in the saddle and looked around."
+    - id: ch07
+      title: The Parting
+      blocks:
+        - id: ch07-b01
+          speaker: narrator
+          text: "All three were hungry after their escape. They tied the mare securely and took out some dates to eat. The maiden remained with them, now free to speak and move, while they finished the simple meal. Then Mohammed divided what they had gained. He turned to his uncle and explained how the maiden and the money should be shared."
+        - id: ch07-b02
+          speaker: mohammed
+          text: "Uncle, this maiden shall be your wife. I give her to you. We will divide the money from the sheep and cows. You shall have two shares, and I shall have one, because you will have a wife while I never mean to marry. Now go in peace. You will not see me again. The bond of bread and salt between us has ended."
+        - id: ch07-b03
+          speaker: narrator
+          text: "The uncle and nephew wept together and fell upon each other's necks. Each asked the other's forgiveness for any wrong done in the past. At last, their long and remarkable journey together was truly over. They parted and went their separate ways."

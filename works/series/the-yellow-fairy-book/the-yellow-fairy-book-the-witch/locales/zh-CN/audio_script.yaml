@@ -1,0 +1,195 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 旁白
+      tts: {delivery: 沉静从容，带着古老童话的神秘与克制, timbre: 温暖清朗, pace: 舒缓而富有变化, pitch: 中音}
+    stepmother:
+      display_name: 继母
+      tts: {delivery: 表面亲切，话音里藏着冷酷算计, timbre: 尖细冷硬, pace: 适中, pitch: 中高音}
+    sister:
+      display_name: 妹妹
+      tts: {delivery: 聪慧勇敢，害怕时仍清楚有礼, timbre: 清亮稚嫩, pace: 适中, pitch: 中高音}
+    brother:
+      display_name: 哥哥
+      tts: {delivery: 朴实善良，遇险时紧张却听从劝告, timbre: 明净稚嫩, pace: 适中, pitch: 中音}
+    grandmother:
+      display_name: 奶奶
+      tts: {delivery: 慈爱忧心，叮嘱时恳切郑重, timbre: 温暖苍老, pace: 稍缓, pitch: 中低音}
+    witch:
+      display_name: 女巫
+      tts: {delivery: 凶狠暴躁，威胁时阴森刻薄, timbre: 沙哑粗厉, pace: 适中, pitch: 低音}
+    mouse_1:
+      display_name: 小老鼠甲
+      tts: {delivery: 机灵友善，歌唱时轻快整齐, timbre: 细小明亮, pace: 稍快, pitch: 高音}
+    mouse_2:
+      display_name: 小老鼠乙
+      tts: {delivery: 机灵友善，歌唱时轻快整齐, timbre: 细小清脆, pace: 稍快, pitch: 高音}
+    mouse_3:
+      display_name: 小老鼠丙
+      tts: {delivery: 机灵友善，歌唱时轻快整齐, timbre: 轻柔明亮, pace: 稍快, pitch: 中高音}
+    wren_1:
+      display_name: 鹪鹩甲
+      tts: {delivery: 活泼热心，歌唱时清楚灵动, timbre: 清脆轻盈, pace: 稍快, pitch: 高音}
+    wren_2:
+      display_name: 鹪鹩乙
+      tts: {delivery: 活泼热心，歌唱时清楚灵动, timbre: 明亮轻盈, pace: 稍快, pitch: 高音}
+    wren_3:
+      display_name: 鹪鹩丙
+      tts: {delivery: 活泼热心，歌唱时清楚灵动, timbre: 柔亮轻盈, pace: 稍快, pitch: 中高音}
+    cat:
+      display_name: 灰猫
+      tts: {delivery: 从容机敏，面对女巫时倔强坦然, timbre: 柔和圆润, pace: 适中, pitch: 中音}
+    watchdog:
+      display_name: 看门狗
+      tts: {delivery: 忠厚直率，申辩时坚定不平, timbre: 粗厚响亮, pace: 适中, pitch: 中低音}
+    birch:
+      display_name: 白桦树
+      tts: {delivery: 悠缓清醒，诉说时带着长久的委屈, timbre: 轻柔沙沙, pace: 稍缓, pitch: 中音}
+  chapters:
+    - id: ch01
+      title: 继母的圈套
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: 很久很久以前，一个农夫失去了妻子，只剩下一对龙凤胎，一个男孩，一个女孩。几年里，他独自带着儿女过日子，尽自己所能照料他们。可家里少了一个女人操持，事事都不顺当。他终于决定再娶一位妻子，以为这样家中就会恢复安定和秩序，两个没娘的孩子也能有人照料。
+        - id: ch01-b02
+          speaker: narrator
+          text: 农夫再婚以后，家里又添了几个孩子，盼望的安宁和秩序却始终没有来。继母狠心对待双胞胎，常常打他们，只给他们一点点吃的，还总把他们赶出家门。她一心要让两个孩子消失，整日盘算着办法。最后，一个恶毒的念头钻进她脑中。她决定把孩子送进那片阴森的大森林，因为那里住着一个邪恶的女巫。
+        - id: ch01-b03
+          speaker: stepmother
+          text: 你们这么懂事，我就送你们去看我的奶奶吧。她住在树林里那间可爱的小屋。你们替她做事，听她使唤，她准会把最好的东西拿来奖赏你们。
+        - id: ch01-b04
+          speaker: narrator
+          text: 两个孩子一起出门。妹妹年纪虽小，却很聪明。她没有直接走进森林，而是先对哥哥说出自己的打算。
+        - id: ch01-b05
+          speaker: sister
+          text: 我们先去找亲奶奶，把继母要送我们去的地方告诉她。
+        - id: ch01-b06
+          speaker: narrator
+          text: 奶奶一听，马上哭了。她知道孩子们要去的，根本不是继母奶奶的家。
+        - id: ch01-b07
+          speaker: grandmother
+          text: 你们这两个没娘的孩子，真叫我心疼，可我帮不了你们。那里住的是个邪恶的女巫。记住，不管遇到谁，都要和气有礼，别说伤人的话，也别碰一点儿属于别人的吃食。也许会有人来救你们。
+        - id: ch01-b08
+          speaker: narrator
+          text: 奶奶给了他们一瓶牛奶、一块火腿和一条面包，孩子们这才向阴森的大森林走去。他们来到树木最浓密的地方，看见一座古怪的小屋。往屋里一瞧，女巫正躺在那里，脑袋枕着门槛，一只脚伸进这个墙角，另一只脚伸进另一个墙角。她的膝盖高高支起，几乎碰到了屋顶。
+        - id: ch01-b09
+          speaker: witch
+          text: 谁在那里？
+          emotion: angry
+        - id: ch01-b10
+          speaker: narrator
+          text: 两个孩子吓得彼此躲在对方身后，可他们没有忘记奶奶的话，仍旧客客气气地开口。
+        - id: ch01-b11
+          speakers: [sister, brother]
+          ensemble: duo
+          text: 早安，奶奶。继母叫我们来听您使唤，替您干活。
+        - id: ch01-b12
+          speaker: witch
+          text: 那就好好干！让我满意，我会奖赏你们。要是干不好，我就把你们扔进平底锅，再塞进炉子里煎熟。娇嫩的小宝贝，我这里的活儿可够你们受的！
+          emotion: angry
+    - id: ch02
+      title: 善意换来的帮助
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: 女巫让女孩坐下来纺线，又给男孩一只筛子，叫他用它到井里打水，自己随后进了森林。女孩根本不会纺线，只能守着纺车伤心地哭。忽然，她听见几百只小脚窸窸窣窣地跑动。老鼠们从小屋的每一个洞眼、每一处角落钻出来，啪嗒啪嗒跑过地板，吱吱地唱起来。
+        - id: ch02-b02
+          speakers: [mouse_1, mouse_2, mouse_3]
+          ensemble: chorus
+          text: 小姑娘，你的眼睛为什么这样红？给我们一点面包，我们就来帮你忙。
+        - id: ch02-b03
+          speaker: narrator
+          text: 女孩把奶奶给的面包分给了老鼠。老鼠们告诉她，女巫养着一只猫，那只猫最喜欢火腿。要是女孩把自己的火腿送给猫，猫就会告诉她逃出森林的路。在她去找猫的这段时间，老鼠们愿意留下来，替她把所有的线纺好。
+        - id: ch02-b04
+          speaker: narrator
+          text: 女孩去找猫，途中碰见哥哥。筛子里的水舀多少漏多少，哥哥正急得不知怎么办。妹妹刚要安慰他，翅膀忽然扑簌作响，一群鹪鹩落到他们身旁。
+        - id: ch02-b05
+          speakers: [wren_1, wren_2, wren_3]
+          ensemble: chorus
+          text: 分给我们一点面包屑，你们就不用再忧伤。因为筛子也能盛住水，一滴都不会漏光。
+        - id: ch02-b06
+          speaker: narrator
+          text: 双胞胎把面包捏成碎屑，撒在地上。鹪鹩一边啄食，一边啾啾喳喳地叫。吃掉最后一粒面包屑后，它们教男孩用黏土把筛孔一个个堵住，再去井里取水。男孩照着做了，果然提着满满一筛水回到小屋，一滴也没有洒。
+        - id: ch02-b07
+          speaker: narrator
+          text: 灰猫正蜷在地板上。孩子们抚摸它，把火腿喂给它，请它相助。
+        - id: ch02-b08
+          speakers: [sister, brother]
+          ensemble: duo
+          text: 灰猫咪，请告诉我们，怎样才能逃出女巫的魔掌？
+        - id: ch02-b09
+          speaker: narrator
+          text: 猫吃了火腿，向他们道谢，又送给他们一方手帕和一把梳子。它知道女巫肯定会追赶孩子，便仔仔细细告诉他们，这两件东西该在什么时候使用。
+        - id: ch02-b10
+          speaker: cat
+          text: 女巫一定会追来。那时，把手帕扔到地上，赶快跑。手帕落地就会变成一条又深又宽的河。她要是过了河，你们再把梳子丢在身后，拼命向前。那里会长出密林，把她牢牢挡住。
+        - id: ch02-b11
+          speaker: narrator
+          text: 猫刚说完，女巫便回来查看差事。她看见纺好的线和筛中的水，没有立刻发难。
+        - id: ch02-b12
+          speaker: witch
+          text: 今天算你们过关。明天还有更难的活儿。要是做不好，你们这两个娇养的小崽子就进炉子！
+          emotion: angry
+    - id: ch03
+      title: 逃出森林
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: 孩子们吓得半死，浑身不停发抖。他们躺在小屋角落的一堆稻草上，却连眼睛也不敢合，几乎连气都不敢大口喘。天一亮，女巫给了女孩两块麻布，命她在天黑前全都织好，又让男孩把一大堆木头劈成碎片。交代完这些，她便又去了森林。
+        - id: ch03-b02
+          speaker: narrator
+          text: 女巫才从视线里消失，孩子们便拿上手帕和梳子，手牵着手不停地跑呀跑。看门狗迎面扑来，眼看就要把他们撕成碎片。孩子们赶忙把剩下的面包全都扔给它。狗吃下食物，不再阻拦，还朝他们摇起了尾巴。
+        - id: ch03-b03
+          speaker: narrator
+          text: 接着，白桦树的枝条拦住去路，险些戳伤他们的眼睛。妹妹用丝带把细枝扎在一起，两人平安穿过树林，终于跑到了开阔的田野。
+        - id: ch03-b04
+          speaker: narrator
+          text: 与此同时，小屋里的灰猫正忙着替孩子织麻布。它一边织，一边故意把线缠成乱糟糟的一团。女巫回来查看孩子们干得怎样，蹑手蹑脚地挨近窗户，压低声音向屋里询问。
+        - id: ch03-b05
+          speaker: witch
+          text: 小乖乖，你还在织布吗？
+        - id: ch03-b06
+          speaker: cat
+          text: 是呀，奶奶，我正织着呢。
+        - id: ch03-b07
+          speaker: narrator
+          text: 女巫发现孩子已经逃走，气得拿粥碗砸猫。
+        - id: ch03-b08
+          speaker: witch
+          text: 你怎么敢放他们走？为什么不挠瞎他们的眼睛？
+          emotion: angry
+        - id: ch03-b09
+          speaker: cat
+          text: 我服侍了你这么多年，你连一根骨头也没给过我。那两个好心的孩子，却把自己的火腿送给我吃。
+        - id: ch03-b10
+          speaker: narrator
+          text: 女巫又责骂看门狗和白桦树，怪它们没有拦住孩子。
+        - id: ch03-b11
+          speaker: watchdog
+          text: 我服侍你这么多年，连一块硬面包皮也没得到。那两个好心的孩子，却把自己的面包给了我。
+        - id: ch03-b12
+          speaker: birch
+          text: 我服侍你的年月，多得已经数不清了。你从没拿一截细绳替我绑过枝条，那两个孩子却用最鲜亮的丝带把它们扎好。
+    - id: ch04
+      title: 手帕与梳子
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: 女巫这才明白，她从这些老仆人那里再也得不到帮助。眼下唯一的办法，就是骑上扫帚亲自追赶。孩子们正向前跑，忽然听见扫帚擦过地面，声音已经紧紧到了身后。他们马上把手帕越过肩头扔下去。眨眼之间，一条又深又宽的大河横在他们与女巫之间，挡住了她的去路。
+        - id: ch04-b02
+          speaker: narrator
+          text: 女巫沿着河岸找了很久，终于找到一处浅滩，这才骑着扫帚渡过河去。她一来到对岸，便继续追赶，而且追得比先前更快。孩子们跑着跑着，又听见了动静。妹妹立刻把耳朵贴到地上细听。扫帚正擦着泥土，已经紧紧追到了他们身后。
+        - id: ch04-b03
+          speaker: narrator
+          text: 妹妹飞快地扔下梳子。就像灰猫说的，茂密的森林立刻从地上长起。树根和枝条紧紧交缠，谁也挤不过去。女巫骑着扫帚来到林前，找不到半点出路，只得转身回小屋。
+    - id: ch05
+      title: 回到父亲身边
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: 双胞胎没有停步，一路跑回自己的家。他们把继母的圈套、女巫的威胁，还有一路上受过的苦，全都告诉了父亲。
+        - id: ch05-b02
+          speaker: narrator
+          text: 父亲听完，气得把继母赶出家门，从此再也不许她回来。经历了这场祸事，他决定亲自照料两个孩子，再也不让任何陌生人接近他们。父亲和孩子们终于能够平平安安、快快乐乐地生活在一起。

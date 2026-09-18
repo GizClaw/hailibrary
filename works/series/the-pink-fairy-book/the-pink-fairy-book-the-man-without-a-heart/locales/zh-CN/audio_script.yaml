@@ -1,0 +1,300 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: "讲述者"
+      tts:
+        delivery: "亲切从容，带一点温和的幽默"
+        timbre: "温暖清晰"
+        pace: "舒缓而有变化"
+        pitch: "中音"
+    brother_1:
+      display_name: "大哥"
+      tts:
+        delivery: "爽朗自信，说话干脆"
+        timbre: "清亮的年轻男声"
+        pace: "适中"
+        pitch: "中音"
+    brother_2:
+      display_name: "二哥"
+      tts:
+        delivery: "开朗随和，语气利落"
+        timbre: "温和的年轻男声"
+        pace: "适中"
+        pitch: "中音"
+    brother_3:
+      display_name: "三哥"
+      tts:
+        delivery: "直率活泼，不拘小节"
+        timbre: "明快的年轻男声"
+        pace: "适中"
+        pitch: "中高音"
+    brother_4:
+      display_name: "四哥"
+      tts:
+        delivery: "坦率热情，回答果断"
+        timbre: "清朗的年轻男声"
+        pace: "适中"
+        pitch: "中音"
+    old_man:
+      display_name: "老人"
+      tts:
+        delivery: "狡猾反复，发怒时阴沉凶狠"
+        timbre: "干涩苍老的男声"
+        pace: "偏慢"
+        pitch: "低音"
+    young_woman:
+      display_name: "年轻姑娘"
+      tts:
+        delivery: "温柔机敏，忧虑时仍然真诚"
+        timbre: "清澈柔和的年轻女声"
+        pace: "适中"
+        pitch: "中高音"
+    young_man:
+      display_name: "年轻人"
+      tts:
+        delivery: "善良勇敢，说话诚恳坚定"
+        timbre: "温暖清朗的年轻男声"
+        pace: "适中"
+        pitch: "中音"
+    red_ox:
+      display_name: "大红牛"
+      tts:
+        delivery: "彬彬有礼，沉稳厚道"
+        timbre: "浑厚敦实的男声"
+        pace: "偏慢"
+        pitch: "低音"
+    wild_boar:
+      display_name: "野猪"
+      tts:
+        delivery: "爽快直率，带着憨厚的急切"
+        timbre: "粗犷有力的男声"
+        pace: "稍快"
+        pitch: "中低音"
+    griffin:
+      display_name: "狮鹫"
+      tts:
+        delivery: "豪爽利落，来去匆匆"
+        timbre: "响亮开阔的男声"
+        pace: "偏快"
+        pitch: "中低音"
+  chapters:
+    - id: ch01
+      title: "七兄弟寻找新娘"
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "从前，有七兄弟无父无母，也没有姐妹。家里所有活计都得他们自己做，可谁也不喜欢这样的日子。兄弟们商量了很久，决定各自娶一位妻子。偏偏住处附近一个年轻姑娘也找不到，六个哥哥只好到外面的世界去寻访。他们让最小的弟弟留下照看屋子，还答应也替他带回一位十分美丽的新娘。小弟欣然答应，六位哥哥就这样兴高采烈地上了路。"
+        - id: ch01-b02
+          speaker: narrator
+          text: "六兄弟走进一片树林，看见一间孤零零的小屋。门前站着一个年纪很老的老人。他叫住了这些兴高采烈的年轻人。"
+        - id: ch01-b03
+          speaker: old_man
+          text: "嘿，小伙子们！你们走得这么急，又这么高兴，是要去哪儿？"
+        - id: ch01-b04
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: "我们要去给自己找漂亮的新娘，也替留在家里的小弟找一个。"
+        - id: ch01-b05
+          speaker: old_man
+          text: "我独自住在这里，实在太寂寞了。你们也替我带个新娘吧。记住，她一定得年轻漂亮。"
+        - id: ch01-b06
+          speaker: narrator
+          text: "兄弟们暗想，这么个干瘪灰白的老人，要年轻姑娘做什么？他们没有理会，继续赶路。不久，一行人来到一座城里。城里住着姐妹七人，个个年轻貌美，想找也找不出更好的人选。六兄弟各自选了一位，又把最小的妹妹留给家中的小弟。随后，六对年轻人带着她一同踏上归途，原路穿过树林。"
+        - id: ch01-b07
+          speaker: narrator
+          text: "归途中，众人再次经过那间林中小屋。老人还像上次一样站在门前。他看见最小的姑娘，一眼就把她当成了给自己带回来的新娘。"
+        - id: ch01-b08
+          speaker: old_man
+          text: "好小伙子们，你们给我带来的新娘可真迷人！"
+        - id: ch01-b09
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: "她不是给你的。我们答应过小弟，她是他的新娘。"
+        - id: ch01-b10
+          speaker: old_man
+          text: "答应过？那我就叫你们把这句承诺吞回去！"
+          emotion: angry
+        - id: ch01-b11
+          speaker: narrator
+          text: "老人取出魔杖，嘴里念起咒语，依次碰了碰六兄弟和六位姑娘。十二个人顷刻间全变成了灰色石头。只有最小的妹妹没有中魔法。老人把她带进小屋，逼她做自己的新娘。从那天起，她只能留在那里，日日替老人料理家务。"
+    - id: ch02
+      title: "老人把心藏在哪里"
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "姑娘的日子并非十分难熬，可她一直担心一件事。老人若是死了，把她独自留在树林深处这间孤零零的小屋里，那该怎么办？到时候，她就会像老人从前说的那样，变得‘寂寞得很’。这个念头总缠着她。一天，她终于把心里的忧虑说了出来。"
+        - id: ch02-b02
+          speaker: old_man
+          text: "不用担心。你不必怕我死，也不用盼我死。我的胸膛里根本没有心。就算我真死了，门上方还有一根魔杖。你拿它碰一碰那些石头，就能放出你的姐妹和她们的爱人，到时还怕没有伴儿吗？"
+        - id: ch02-b03
+          speaker: young_woman
+          text: "你的心不在胸膛里，那究竟藏在什么地方？"
+        - id: ch02-b04
+          speaker: old_man
+          text: "你偏要什么都弄清楚吗？好吧，我的心就在床罩里。"
+        - id: ch02-b05
+          speaker: narrator
+          text: "老人出门办事以后，姑娘便拿起针线，在床罩上绣起一朵又一朵美丽的花。她想，既然老人的心藏在那里，这些花一定能让它欢喜。老人回来见了，却觉得十分好笑，忍不住笑了起来。"
+        - id: ch02-b06
+          speaker: old_man
+          text: "你真是个好孩子，可我刚才只是在逗你。我的心其实在……在……"
+        - id: ch02-b07
+          speaker: young_woman
+          text: "亲爱的丈夫，到底在哪儿呢？"
+        - id: ch02-b08
+          speaker: old_man
+          text: "在门道里。"
+        - id: ch02-b09
+          speaker: narrator
+          text: "第二天，姑娘又趁老人外出忙碌起来。她找来鲜艳的羽毛和新鲜的花朵，把房门装饰得漂漂亮亮，还在门上挂满花环。老人回来以后，看见这一番布置，便问她究竟是什么意思。"
+        - id: ch02-b10
+          speaker: young_woman
+          text: "我想让你知道，我有多么爱你的心。"
+        - id: ch02-b11
+          speaker: old_man
+          text: "你真可爱，可我的心也不在门道里。"
+        - id: ch02-b12
+          speaker: young_woman
+          text: "你一定把心藏在某个地方。这样一来，你还是会死，还是会留下我一个人。"
+          emotion: sad
+        - id: ch02-b13
+          speaker: narrator
+          text: "老人反复安慰她，姑娘却一再恳求他讲实话。他终于吐露了秘密。"
+        - id: ch02-b14
+          speaker: old_man
+          text: "离这里很远很远，有一座古老的大教堂。铁门紧闭，四周围着深深的壕沟，连桥也没有。教堂里有一只永远飞个不停的鸟。它不吃，不喝，也不会死，谁都捉不住。只要它活着，我就活着，因为我的心就在那只鸟身上。"
+        - id: ch02-b15
+          speaker: narrator
+          text: "姑娘听了很难过。那座教堂远在天边，那只鸟又没有人能够捉住，她觉得自己再也没有办法向老人的心表示爱意。丈夫几乎天天外出，她独自坐在小屋里，度过一个又一个漫长的白天，总会想起这个秘密。"
+    - id: ch03
+      title: "小弟得知真相"
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "一天，一个年轻旅人从小屋前经过。他看见姑娘，便向她问好。姑娘回过礼，又问他从哪里来，要到哪里去。"
+        - id: ch03-b02
+          speaker: young_man
+          text: "我心里难过极了。我的六个哥哥出门寻找新娘，也要替我找一位，可他们始终没有回家。现在，我要去找他们。"
+          emotion: sad
+        - id: ch03-b03
+          speaker: young_woman
+          text: "好朋友，你不必再往前走了。先坐下吃点东西，过后我把一切都告诉你。"
+        - id: ch03-b04
+          speaker: narrator
+          text: "年轻人吃过饭，姑娘便从头说起。六兄弟如何来到她和姐姐们居住的城里，如何各自选了新娘，又如何带着她踏上归途，她全都讲了。说到老人把其他人变成石头，自己却被迫留下做他的新娘，她忍不住哭了起来。姑娘没有漏掉任何事，最后连丈夫的心不在胸膛里，以及那只不吃不喝、不死不灭的鸟，也一五一十告诉了年轻人。"
+        - id: ch03-b05
+          speaker: young_man
+          text: "我要去找那只鸟。也许上帝会帮我找到它，把它捉住。"
+        - id: ch03-b06
+          speaker: young_woman
+          text: "你去吧。这是一桩善事。捉到它，你就能救出哥哥们和我的姐姐们。"
+        - id: ch03-b07
+          speaker: narrator
+          text: "这时天色已经晚了，姑娘知道丈夫很快就会回来，赶紧把年轻人藏好。第二天一早，老人出门办事去了。姑娘为客人准备了满满一包食物，让他带在路上吃，又祝他一路好运，顺利找到那只鸟，这才送他踏上旅程。"
+    - id: ch04
+      title: "三位奇异的朋友"
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "年轻人走了很久。到了早饭时候，他打开背包，看见里面装满好吃的东西。"
+        - id: ch04-b02
+          speaker: young_man
+          text: "好丰盛的一餐！有没有谁愿意和我一起吃？"
+        - id: ch04-b03
+          speaker: narrator
+          text: "身后立刻传来一声长长的牛叫。一头大红牛走了过来。"
+        - id: ch04-b04
+          speaker: red_ox
+          text: "承蒙你邀请，我很乐意来吃。"
+        - id: ch04-b05
+          speaker: young_man
+          text: "见到你我也高兴。别客气，我有的食物都可以给你。"
+        - id: ch04-b06
+          speaker: narrator
+          text: "红牛舒舒服服地卧下，一边舔着嘴唇，一边饱饱吃了一顿。等它吃完起身，郑重地向慷慨的年轻人道了谢。"
+        - id: ch04-b07
+          speaker: red_ox
+          text: "以后遇到危险或难处，就叫我一声。只在心里想我也行。"
+        - id: ch04-b08
+          speaker: narrator
+          text: "红牛说完，便消失在灌木丛中。年轻人把剩余的食物收回背包，继续赶路。走到影子渐渐变短，他自己也觉得饿了，便知道已经到了正午。他在地上铺开餐布，摆好午饭，又高声邀请愿意同吃的客人。灌木丛里立刻一阵乱响，一头野猪哼哼着跑了出来。"
+        - id: ch04-b09
+          speaker: wild_boar
+          text: "哼，哼！我听见有人说午饭好了。是你吗？你也欢迎我？"
+        - id: ch04-b10
+          speaker: young_man
+          text: "当然欢迎。这里的东西，你尽管吃。"
+        - id: ch04-b11
+          speaker: narrator
+          text: "两人一同吃过午饭。野猪站起来，谢过年轻人。"
+        - id: ch04-b12
+          speaker: wild_boar
+          text: "你有了难处，赶快叫我！"
+        - id: ch04-b13
+          speaker: narrator
+          text: "野猪说完，摇摇摆摆地跑远了。年轻人又走了很久。到了傍晚，他已经走出许多英里，肚子再次饿起来。包里还留着一些食物，他便停下准备晚饭。等食物摆好，他像先前一样，第三次欢迎任何愿意同吃的客人。头顶随即传来拍打翅膀的声音，一片巨大的阴影落到地上。原来是一头狮鹫。"
+        - id: ch04-b14
+          speaker: griffin
+          text: "我听见有人请客。这里有我的一份吗？"
+        - id: ch04-b15
+          speaker: young_man
+          text: "当然有。下来随便吃吧。你吃完以后，恐怕也剩不下多少了。"
+        - id: ch04-b16
+          speaker: narrator
+          text: "狮鹫落地吃饱，临走只留下一句话。"
+        - id: ch04-b17
+          speaker: griffin
+          text: "需要我时就叫我。"
+        - id: ch04-b18
+          speaker: narrator
+          text: "狮鹫匆匆飞走。年轻人心想，它走得可真急，说不定它本来能告诉自己教堂在哪儿。光靠一个人寻找，也不知何时才能找到。年轻人收好东西，想再走一小段路才休息。谁知刚走出不远，那座苦苦寻找的教堂竟突然出现在眼前。他赶到近处才发现，教堂四周是一条又宽又深的壕沟，连一座可以过河的桥也没有。天色已经太晚，他也累极了，只好躺在地上，很快便沉沉睡去。"
+    - id: ch05
+      title: "藏在鸟身上的心"
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: "第二天醒来，年轻人望着壕沟，一心想去到对岸。他忽然想到，要是那头大红牛就在身边，而且渴得能把沟里的水全喝光，自己不就能踩着干地走过去了吗？这个念头才从脑中闪过，红牛已经来到沟边，低头喝起水来。等壕沟见了底，心怀感激的年轻人连忙走到对岸，却又被厚厚的墙壁和牢固的铁门挡住，怎么也进不了教堂。"
+        - id: ch05-b02
+          speaker: young_man
+          text: "要是那头大野猪在这里，它一定比我有办法。"
+        - id: ch05-b03
+          speaker: narrator
+          text: "野猪应念而来，用尽力气撞向墙壁。它先用獠牙撬松一块石头。有了这个开头，一块接一块的石头都被它顶了出来。洞口越变越大，最后足够一个人从中钻过。年轻人立刻穿过墙洞，进到了教堂里面。"
+        - id: ch05-b04
+          speaker: narrator
+          text: "教堂里果然有一只鸟，始终在高处和低处之间飞来飞去，一刻也不停。年轻人追着它想了各种办法，却始终碰不到它，更别说把它抓住了。"
+        - id: ch05-b05
+          speaker: young_man
+          text: "要是狮鹫在这里，它一下就能捉住这只鸟。"
+        - id: ch05-b06
+          speaker: narrator
+          text: "话音刚落，狮鹫就出现了。它一把抓住小鸟，交到年轻人手中，随后振翅飞走。年轻人小心带着鸟离开教堂，一路尽可能快地往回赶，终于在天黑前回到林中小屋。他把沿途发生的事全讲给姑娘听。姑娘先让他吃饱喝足，又赶在老人回家以前，把年轻人连同那只鸟一起藏到床下。"
+        - id: ch05-b07
+          speaker: narrator
+          text: "不久，老人回来了。一进屋，他就抱怨自己浑身不舒服。他还说，从今往后，什么事都不会顺心，因为他的‘心鸟’已经落到了别人手里。藏在床下的年轻人把每个字都听得清清楚楚。"
+        - id: ch05-b08
+          speaker: young_man
+          text: "这老人没有直接害我，可他把哥哥和新娘们变成石头，还霸占了我的新娘。这些坏事已经够多了。"
+        - id: ch05-b09
+          speaker: narrator
+          text: "年轻人掐了一下小鸟。老人立刻痛苦地叫起来。"
+        - id: ch05-b10
+          speaker: old_man
+          text: "死亡抓住我了！孩子，我就要死了！"
+          emotion: fearful
+        - id: ch05-b11
+          speaker: narrator
+          text: "老人话还没说完，就从椅子上昏倒下来。年轻人一时忘了手里那只鸟有多么脆弱，还没意识到自己做了什么，已经把它捏死了。小鸟一断气，老人也在同一刻死去了。"
+    - id: ch06
+      title: "十二块灰石头"
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: "老人死后，年轻人从床底爬了出来。姑娘想起老人从前说过的话，果然在门上方找到了魔杖。她拿着魔杖来到屋外，用它依次碰了碰那十二块灰色石头。转眼间，石头全变回了六兄弟和六位新娘。"
+        - id: ch06-b02
+          speaker: narrator
+          text: "所有人都欢天喜地，彼此亲吻拥抱。老人却直挺挺地死在那里。哪怕大家愿意，也没有任何魔杖能让他重新活过来。"
+        - id: ch06-b03
+          speaker: narrator
+          text: "后来，他们一起离开树林，各自成了婚，从此相伴着幸福生活了许多年。"

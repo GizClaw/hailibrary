@@ -1,0 +1,267 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 清楚从容，像在为听众介绍一本古老的童话集
+        timbre: 温暖明净
+        pace: 舒缓
+        pitch: 中音
+    elder_brother:
+      display_name: 大哥
+      tts: {delivery: 能干警醒，遇事护着弟弟, timbre: 清朗年轻, pace: 适中, pitch: 中音}
+    second_brother:
+      display_name: 二哥
+      tts: {delivery: 直率热切，行动果断, timbre: 温暖年轻, pace: 稍快, pitch: 中音}
+    little_brother:
+      display_name: 小弟
+      tts: {delivery: 年幼勇敢，遇险时坚定果决, timbre: 清亮稚嫩, pace: 轻快, pitch: 中高音}
+    father:
+      display_name: 父亲
+      tts: {delivery: 严厉自负，说话冷硬直截, timbre: 粗粝低沉, pace: 稍缓, pitch: 低音}
+    bear_chief:
+      display_name: 熊王
+      tts: {delivery: 威严冷酷，复仇时怒意沉重, timbre: 浑厚阴沉, pace: 缓慢, pitch: 低音}
+    bear_chiefs_sister:
+      display_name: 熊王的妹妹
+      tts: {delivery: 温柔慈悲，指点人时轻声笃定, timbre: 柔和成熟, pace: 舒缓, pitch: 中低音}
+    snowshoes:
+      display_name: 雪鞋
+      tts: {delivery: 轻盈神奇，应答时爽快明亮, timbre: 空灵清脆, pace: 稍快, pitch: 高音}
+  chapters:
+    - id: ch01
+      title: 三兄弟进森林
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            森林深处有间小屋，住着一对夫妻和他们的三个儿子、一个女儿。不知为什么，那一带的野兽全都不见了，家里的食物越来越少。一天夜里下了雪，第二天一早，什么野兽走过都会留下清楚的脚印。兄弟三个便结伴打猎去了。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            走到一处分岔路口，小弟唤上自己的狗，去了左边。两个哥哥沿右边的小路往前走。没走多远，他们的狗就闻到一头熊，把它赶出了灌木丛。熊刚跑过林间空地，大哥就瞅准机会，一箭射中了它的脑袋。
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            兄弟俩抬着熊往家走，在岔路口遇见了小弟。回到小屋，他们把熊往地板上一放。
+        - id: ch01-b04
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: 爸爸，我们打死了一头熊。今晚有肉吃了。
+        - id: ch01-b05
+          speaker: narrator
+          text: 父亲正闹脾气，听了只冷冷地回了一句。
+        - id: ch01-b06
+          speaker: father
+          text: 我年轻的时候，一天能打两头熊。
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            兄弟几个很失望。熊肉明明够全家吃两三天，可第二天清早，他们还是沿着原路出发了。快到岔路口时，一头熊从树后蹿出，朝右边跑去。两个哥哥带着狗紧追不放。二哥的箭法也很准，一箭就把熊射死了。
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            回来的路上，他们在岔路口碰见小弟。小弟走了左边那条路，也独自打到一头熊。三个人一路把猎物带回小屋，得意地把两头熊扔在地板上，父亲却连看也没多看一眼。
+        - id: ch01-b09
+          speaker: father
+          text: 我年轻的时候，一天能打三头熊。
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            到了第三天，他们一共带回三头熊。父亲又说，自己从前一天总能打四头。不过，他还是剥下熊皮，用最拿手的法子把熊肉煮熟了。那天晚上，一家人美美地吃了一顿。
+    - id: ch02
+      title: 熊王的圈套
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            原来，那些熊都是熊王的仆从。熊王住在很远很远的一座高山里。每死去一头熊，它的影子便会回到熊王的住所，身上的致命伤清清楚楚，别的熊一眼就能看见。
+        - id: ch02-b02
+          speaker: narrator
+          text: 熊王见猎人杀了这么多仆从，气得发狂。它决心除掉那几个男孩，便又召来一头熊。
+        - id: ch02-b03
+          speaker: bear_chief
+          text: >-
+            去岔路口旁的灌木丛里藏好，就是他们杀死你兄弟的地方。男孩或者狗一看见你，你就尽全力跑回来。大山会打开门让你进去，他们也会跟着闯进来。等他们落到我手里，我就能报仇了。
+          emotion: angry
+        - id: ch02-b04
+          speaker: narrator
+          text: 那头熊深深鞠了一躬，立刻赶到岔路口，藏在灌木丛里。
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            过了一阵，两个哥哥出现了，小弟这回留在家里。天气暖和又潮湿，雪变得又软又泥泞。大哥的弓弦松松垮垮，二哥的弓又钩住一棵树，啪地折成两段。
+        - id: ch02-b06
+          speaker: narrator
+          text: >-
+            就在这时，狗群狂吠起来。那头熊冲出灌木，直奔高山。兄弟俩根本没想到，自己已经没有武器防身。万一熊回头袭击，他们一点办法也没有，可两人还是拔腿追了上去。熊知道他们射不了自己，便时不时放慢脚步，让狗追到近旁。
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            大哥就这样追到了山前，自己还没察觉。二哥伤了脚，远远落在后面。熊一跑近，大山便打开一道门。熊冲了进去，大哥也紧跟着闯进山中。
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            这时他才看清，自己已经进了山腹。四面八方都坐着熊，它们正在开会。被追赶的熊气喘吁吁地倒在众熊中间。大哥吓得不敢动，手里的弓也落到了地上。
+        - id: ch02-b09
+          speaker: bear_chief
+          text: >-
+            你为什么要杀光我的仆从？看看四周，它们的影子都在这里，身上还插着你们的箭。今天这头熊怎样把你引来，正是我教的。你再也伤不了我的族类了，因为你马上也会变成熊。
+          emotion: angry
+        - id: ch02-b10
+          speaker: narrator
+          text: 山门故意没有关，为的是把二哥也骗进来。他上气不接下气地冲进山中。
+        - id: ch02-b11
+          speaker: second_brother
+          text: 熊就在你身边！你怎么还不射它？
+        - id: ch02-b12
+          speaker: narrator
+          text: 二哥不等回答，举箭便要刺进熊的心口。大哥一把抓住了他的手臂。
+        - id: ch02-b13
+          speaker: elder_brother
+          text: 小声点！看看周围，你还不知道我们到了哪儿吗？
+          emotion: fearful
+        - id: ch02-b14
+          speaker: narrator
+          text: >-
+            二哥抬起头，才发现愤怒的熊围在四周。一边是熊王的仆从，另一边是熊王妹妹的仆从。熊王的妹妹同情这两个年轻人，便求哥哥饶他们一命。
+        - id: ch02-b15
+          speaker: bear_chief
+          text: >-
+            我不杀他们。我只给他们施一道咒。头和身子还可以是人的，胳膊和腿却要变成熊的。从今以后，他们一辈子都得四脚着地走路。
+        - id: ch02-b16
+          speaker: narrator
+          text: >-
+            熊王俯身靠近一眼泉水，把一把苔藓浸湿，再用它擦过兄弟俩的四肢。两人的胳膊和腿立刻变了模样。站在熊王面前的，成了两个既不像野兽、也不像人的怪物。
+    - id: ch03
+      title: 家人一个个消失
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            熊王知道，两个儿子不回家，他们的父亲一定会出来寻找。它便另派一个仆从守在岔路口的藏身处，等着看接下来会发生什么。
+        - id: ch03-b02
+          speaker: narrator
+          text: >-
+            那头熊没等多久，父亲便来了。他一路弯着腰，在雪地里寻找儿子的脚印。右边小路上恰好有一串新鲜的雪鞋印。其实，那是熊故意踩出来骗他的，可父亲哪会知道。他一见踪迹，满心欢喜，赶紧追了过去。
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            父亲跑得太急，一头栽进了一个深坑，那头熊正坐在里面。还没等他爬起来，熊便不声不响地扭断了他的脖子。随后，它把尸体埋进雪里，又坐下来等下一个过路的人。
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            小屋里，母亲一直在想两个儿子去了哪里。时间慢慢过去，丈夫也没回来，她终于决定亲自去找。小弟苦苦央求，想替母亲去，可她怎么也不答应。她叫儿子留在家中，好好照看妹妹，自己套上雪鞋出发了。
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            没有新雪落下，踪迹很好辨认。母亲一路循着它走到深坑边，跌了下去。熊一把抓住她，也扭断了她的脖子。它把母亲埋在父亲身旁的雪里，这才回去向熊王复命。
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            一个小时，又一个小时，森林小屋里的时间变得格外难熬。兄妹俩终于认定，其余的家人准是全都丧命了。一天又一天，小弟爬上屋旁的高树，坐到身子几乎冻僵。他从林间每一道空隙向外张望，总盼着能看到一个人沿路回家。
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            不久，屋里的食物吃光了。小弟知道，自己必须出去打猎，也想趁机寻找父母。妹妹不愿一个人留下，哭得很伤心。他告诉妹妹，两个人不能坐在屋里等着饿死。不论能不能打到猎物，第二天夜晚以前，他一定回来。
+        - id: ch03-b08
+          speaker: narrator
+          text: >-
+            小弟选了几种不同的树木削成箭，又给每支箭装上四种鸟儿的羽毛。他还做了一张又轻又结实的弓，取下雪鞋。忙完这些，一天已经过去了。第二天清早，他叫出养在箱子里的小狗红嘴，一起踏上了路。
+    - id: ch04
+      title: 红嘴带路
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            小弟顺着踪迹走了很远，累得爬上一根树枝休息。红嘴却冲着大树拼命叫。他猜想，父母或许就是在这棵树下遇害的，便退开几步，一箭射向树根。
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            雷鸣般的巨响从树下传来，整棵树从根到梢都颤抖起来，随即燃起大火。没过几分钟，那里只剩下一小堆灰烬。小弟想不明白这是怎么回事，只好继续赶路。他走上岔路口右边的小径，来到熊藏身的灌木丛前。
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            熊王精通魔法，早就知道小弟正循着踪迹走来。它派了一头身材很小却十分机灵的熊，躲在灌木里，想把男孩诱进山中。可是这一天，它的法术似乎不大灵验。它不知道红嘴也跟来了，不然一定会更加小心。
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            红嘴刚绕着灌木丛大声吠叫，小熊便吓得冲出来，飞快逃向高山。狗在后面追熊，男孩又在后面追狗。没多久，熊王居住的那座高山便出现在眼前。
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            路上的雪又湿又沉，小弟走得十分吃力。偏偏一只雪鞋的皮带又断了，他只得停下来修补。等皮带重新系牢，熊和红嘴已经跑远，狗叫声几乎听不见了。小弟低头对雪鞋说。
+        - id: ch04-b06
+          speaker: little_brother
+          text: 现在一定要带我跑得越快越好。再慢下去，我不但追不上熊，连红嘴也要丢了。
+        - id: ch04-b07
+          speaker: snowshoes
+          text: 我们会跑得像风一样快！
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            小弟飞快赶路时，熊王的妹妹正从窗口向外看。两个哥哥受罚时，她已经很可怜他们。如今她也同情这个小弟弟，便等着看他发现熊和红嘴都进了山，会想出什么办法。
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            熊和狗忽然从眼前消失，小弟怎么也想不通。他停下想了想，仿佛听见红嘴在山的另一边叫。他费了好大的力气，才爬过陡峭的岩石，又从纠缠的灌木中挤出一条路。可到了对面，叫声听起来却又来自他刚刚离开的地方。
+        - id: ch04-b10
+          speaker: narrator
+          text: >-
+            他只好艰难地原路返回。来到山顶，他停下歇了一口气。红嘴的叫声正在脚底下响着。就在那一刻，小弟明白自己站在什么地方，也明白发生了什么。
+    - id: ch05
+      title: 哥哥们重获自由
+      blocks:
+        - id: ch05-b01
+          speaker: little_brother
+          text: 熊王，马上放出我的狗！你再不放，我就毁了你的宫殿。
+          emotion: angry
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            熊王只顾哈哈大笑，一句话也不回答。小弟被它的沉默惹怒了，便瞄准山脚，一箭穿透了整座大山。
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            箭刚碰到地面，山中便响起隆隆的声音。烈火怒吼着喷涌而出，像是把整座山劈成了碎片。熊王和它所有的仆从全都烧死了。可是火焰绕过了熊王的妹妹和她手下的熊，因为她曾经设法救两个哥哥免受惩罚。
+        - id: ch05-b04
+          speaker: narrator
+          text: 大火一熄灭，小猎人便走进高山的废墟。他最先看到的，正是两个半人半熊的哥哥。
+        - id: ch05-b05
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: 求求你，救救我们！救救我们！
+        - id: ch05-b06
+          speaker: narrator
+          text: 兄弟俩用后腿站起来，把两只前爪伸向小弟。
+        - id: ch05-b07
+          speaker: little_brother
+          text: 可我怎么救你们？我能杀死人，也能毁掉树木和大山，却没有本事让人恢复原样。
+          emotion: sad
+        - id: ch05-b08
+          speaker: narrator
+          text: >-
+            小弟说着，眼泪几乎掉了下来。两个哥哥走到他身边，把爪子搭在他的肩上。兄弟三个一起哭了起来。
+        - id: ch05-b09
+          speaker: narrator
+          text: 熊王的妹妹看见他们这样悲伤，心被打动了。她轻轻走到小弟身后，低声对他说。
+        - id: ch05-b10
+          speaker: bear_chiefs_sister
+          text: 孩子，到那边的泉水旁采些苔藓，让你的哥哥们闻一闻。
+        - id: ch05-b11
+          speaker: narrator
+          text: >-
+            三兄弟一跃便到了泉边。小弟抓起一把湿苔藓，两个哥哥使足力气去闻。熊皮从他们身上脱落下来，两个人又能直起身子，恢复了人的模样。
+        - id: ch05-b12
+          speakers: [elder_brother, second_brother]
+          ensemble: duo
+          text: 我们该怎么谢您？怎么谢您才好？
+        - id: ch05-b13
+          speaker: narrator
+          text: >-
+            两人激动得几乎说不出话，伏倒在熊王妹妹的脚下。她只是微微一笑，叫他们赶快回家，好好照顾小妹妹，因为再没有别人能够保护她了。
+        - id: ch05-b14
+          speaker: narrator
+          text: >-
+            兄弟们照她的话做了。他们把妹妹照顾得非常周全。小姑娘年纪还小，没过多久，便忘记自己曾经有过父亲和母亲。

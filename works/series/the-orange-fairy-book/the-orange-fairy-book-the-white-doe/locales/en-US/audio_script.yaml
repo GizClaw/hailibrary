@@ -1,0 +1,511 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: "steady, vivid folktale storytelling"
+        timbre: "warm and resonant"
+        pace: "measured"
+        pitch: "medium"
+    queen:
+      display_name: Queen
+      tts:
+        delivery: "gracious, tender, and openly emotional"
+        timbre: "warm and clear"
+        pace: "measured"
+        pitch: "medium"
+    crab_fairy:
+      display_name: Crab Fairy
+      tts:
+        delivery: "proud, commanding, and quick to take offense"
+        timbre: "crisp and penetrating"
+        pace: "deliberate"
+        pitch: "medium-low"
+    tulip:
+      display_name: Fairy Tulip
+      tts:
+        delivery: "protective, wise, and gently reassuring"
+        timbre: "luminous and soft"
+        pace: "unhurried"
+        pitch: "medium-high"
+    fairy_rose:
+      display_name: Rose Fairy
+      tts:
+        delivery: "graceful and warmly ceremonial"
+        timbre: "light and clear"
+        pace: "measured"
+        pitch: "high"
+    fairy_jasmine:
+      display_name: Jasmine Fairy
+      tts:
+        delivery: "graceful and warmly ceremonial"
+        timbre: "silvery and smooth"
+        pace: "measured"
+        pitch: "medium-high"
+    fairy_violet:
+      display_name: Violet Fairy
+      tts:
+        delivery: "graceful and warmly ceremonial"
+        timbre: "soft and bright"
+        pace: "measured"
+        pitch: "medium"
+    desiree:
+      display_name: Princess Desiree
+      tts:
+        delivery: "young, sincere, and quietly spirited"
+        timbre: "clear and delicate"
+        pace: "natural"
+        pitch: "medium-high"
+    prince:
+      display_name: Prince
+      tts:
+        delivery: "ardent, impulsive, and deeply earnest"
+        timbre: "youthful and rich"
+        pace: "natural"
+        pitch: "medium"
+    prince_king:
+      display_name: Prince's Father
+      tts:
+        delivery: "regal, concerned, and firm"
+        timbre: "deep and full"
+        pace: "deliberate"
+        pitch: "low"
+    becasigue:
+      display_name: Becasigue
+      tts:
+        delivery: "courteous, loyal, and observant"
+        timbre: "clear and mellow"
+        pace: "measured"
+        pitch: "medium-low"
+    eglantine:
+      display_name: Eglantine
+      tts:
+        delivery: "devoted, practical, and tender"
+        timbre: "gentle and clear"
+        pace: "natural"
+        pitch: "medium"
+    cerisette:
+      display_name: Cerisette
+      tts:
+        delivery: "calculating, jealous, and outwardly composed"
+        timbre: "thin and polished"
+        pace: "measured"
+        pitch: "medium-high"
+    cerisette_mother:
+      display_name: Cerisette's Mother
+      tts:
+        delivery: "scheming, theatrical, and defensive"
+        timbre: "dry and sharp"
+        pace: "natural"
+        pitch: "medium-low"
+    chamberlain:
+      display_name: Grand Chamberlain
+      tts:
+        delivery: "formal, cautious, and diplomatic"
+        timbre: "smooth and restrained"
+        pace: "deliberate"
+        pitch: "medium-low"
+  chapters:
+    - id: ch01
+      title: The Fairy's Warning
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: "Once there was a king and queen who loved each other dearly. They would have been perfectly happy if they had only had a child to play with. Neither of them spoke of that wish. Still, whenever they watched other people's children, sadness showed on their faces, and everyone at court understood why."
+        - id: ch01-b02
+          speaker: narrator
+          text: "One day the queen sat alone beside a waterfall in the great park near the castle. Her grief was heavier than usual, so she had sent her ladies away. Then the pool below the falls began to rustle. A large crab climbed onto a stone beside her."
+        - id: ch01-b03
+          speaker: crab_fairy
+          text: "Great queen, the wish in your heart will soon come true. First, you must let me guide you to the fairies' palace. It stands close by, hidden from mortal eyes by thick clouds. Trust me, and you will learn more when we arrive."
+        - id: ch01-b04
+          speaker: narrator
+          text: "The queen had never heard an animal speak, and for a moment she could say nothing. But the crab's promise filled her with hope. She smiled and held out her hand. Instead of a claw, a little old woman took it. She wore white and crimson, with green ribbons in her gray hair, and not one drop of water clung to her clothes."
+        - id: ch01-b05
+          speaker: narrator
+          text: "The old woman hurried along a path the queen had walked a hundred times, though now it seemed entirely new. Roses and jasmine hung overhead where nettles and brambles had been. Violets sweetened the ground beneath them. Tall orange trees kept out the midday heat. At the path's end, something shone so brightly that the queen had to look through her fingers."
+        - id: ch01-b06
+          speaker: queen
+          text: "What is that dazzling place?"
+        - id: ch01-b07
+          speaker: crab_fairy
+          text: "That is the fairies' palace, and some of the fairies are coming to welcome us."
+        - id: ch01-b08
+          speaker: narrator
+          text: "The gates opened. Six fairies came forward, each holding a flower made from precious stones. The flowers looked so real that only a touch could reveal what they were."
+        - id: ch01-b09
+          speakers: [tulip, fairy_rose, fairy_jasmine, fairy_violet]
+          ensemble: chorus
+          text: "Madam, you have honored us with your trust. We are happy to tell you that before long, you will have a little daughter."
+        - id: ch01-b10
+          speaker: narrator
+          text: "Joy nearly made the queen faint. When she could speak again, she thanked the fairies over and over for the child they had promised her."
+        - id: ch01-b11
+          speaker: queen
+          text: "I must go home now. My husband will think I have run away, or that some wild beast has eaten me."
+        - id: ch01-b12
+          speaker: narrator
+          text: "Soon the promise came true. A baby girl was born at the palace, and the delighted king and queen named her Desiree, meaning desired, because they had wanted her for five long years."
+        - id: ch01-b13
+          speaker: narrator
+          text: "At first, the queen could think of nothing but the baby she had wanted for so long. Before much time passed, however, she remembered the fairies who had sent this precious gift. She told her ladies to bring the cluster of jeweled flowers she had received at their palace. Taking up each flower in turn, she called aloud the name that belonged to it. Each time she did so, the fairy connected with that flower appeared before her. But in the queen's happiness and excitement, one name escaped her. She forgot the crab fairy, although that fairy had comforted her, guided her to the hidden palace, and done more for her than any of the others. That careless mistake would cause terrible trouble."
+        - id: ch01-b14
+          speaker: narrator
+          text: "For the moment, no one suspected trouble. The palace was full of celebration, and everyone inside hurried to the windows to watch the fairies arrive. No two of their carriages were alike. One fairy rode in a car of black ebony drawn by white pigeons. Another leaned back in an ivory chariot while ten black crows carried her onward. The other carriages were fashioned from rare woods or shells of many colors. Scarlet and blue macaws, long-tailed peacocks, and green lovebirds took the place of horses. The fairies used these beautiful birds only when they traveled on occasions of state. If they went to war, their carriages were drawn by very different creatures. Then flying dragons, fiery serpents, lions, or leopards pulled them into battle."
+        - id: ch01-b15
+          speaker: narrator
+          text: "The fairies entered the queen's chamber, followed by a company of little dwarfs carrying their gifts. The dwarfs looked even prouder of their burdens than the fairies who had brought them. One by one, they placed every treasure upon the floor until the room seemed filled with lovely things. There were clothes of every kind a baby could possibly wear and toys of every kind she might wish to play with. Yet those were only the visible presents. The fairies had come with other gifts far more precious, gifts that an ordinary royal child could never hope to possess and that belonged only to children fortunate enough to have fairies for godmothers."
+        - id: ch01-b16
+          speaker: narrator
+          text: "They gathered around the sleeping baby on her pink cushions. Suddenly a shadow crossed the sunlight, and a cold wind swept through the room. The crab fairy stood before them. Her anger had made her as tall as the ceiling."
+        - id: ch01-b17
+          speaker: crab_fairy
+          text: "So you forgot me! Who comforted you when you were grieving? Who led you to the fairies, then brought you safely home? I did. Yet you honor these others, who did almost nothing, and leave me out!"
+          emotion: angry
+        - id: ch01-b18
+          speaker: narrator
+          text: "The queen trembled so badly that she could scarcely speak. She searched her mind for some explanation, but there was none. The crab fairy had every reason to feel forgotten. All the queen could do was admit her fault and beg to be forgiven. The other fairies joined her, doing everything they could to soften their angry sister. They knew that, like many plain people who are not fairies at all, the crab fairy was extremely vain. So instead of arguing, they praised her. They begged her to throw off the ugly crab disguise and show them once more the charming little woman whose company they knew and admired."
+        - id: ch01-b19
+          speaker: narrator
+          text: "For a long time she refused to listen. At last the praise began to work. Her shell fell away, she returned to her usual size, and some of the fierceness left her face."
+        - id: ch01-b20
+          speaker: crab_fairy
+          text: "Very well. I meant to kill the princess, but I will spare her life. She must still pay for her mother's fault. If one ray of daylight touches her before her fifteenth birthday, she will bitterly regret it, and it may even cost her life."
+          emotion: angry
+        - id: ch01-b21
+          speaker: narrator
+          text: "With that, she vanished through the window. The fairies comforted the weeping queen and decided how to protect the child. Half an hour later, at their command, a beautiful palace rose beside the royal home. It had no windows, and its only door lay underground. Inside, countless candles shone so brightly that daylight was hardly missed."
+        - id: ch01-b22
+          speaker: narrator
+          text: "The first part of Desiree's life passed much like the early years of many princesses in old tales, though she spent them hidden from the sun. For nearly fifteen years, the fairies watched over her. They found ways to amuse her inside the windowless palace, and they taught her so carefully that when she finally entered the world, she would lack none of the grace, knowledge, or accomplishments expected from the daughter of a king. Every fairy grew fond of her, but Tulip loved her more dearly than all the rest. As Desiree's fifteenth birthday drew close, Tulip could not stop worrying. The long danger was almost over, yet some accident no one had imagined might still happen before the final day."
+        - id: ch01-b23
+          speaker: tulip
+          text: "Do not let her leave your sight. Have her portrait painted and carried to the neighboring courts. Then the kings can see her beauty and ask for her hand on behalf of their sons."
+    - id: ch02
+      title: The Portrait and the Journey
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: "The queen followed Tulip's advice, and Desiree's portrait was carried from one neighboring court to another. Every young prince who saw it fell in love with the face in the picture. But the last prince to receive it was affected more deeply than all the rest. He could think of nothing else and would not allow anyone to take the portrait from his room. Instead of riding out as he once had, he spent entire days sitting before it and gazing at Desiree's face."
+        - id: ch02-b02
+          speaker: narrator
+          text: "His father was startled by the change. The prince had once cared only for hunting and hawking, but now he had grown silent and gloomy. When the king heard two courtiers whisper that the young man might be losing his mind, he went straight to him. The prince threw himself at his father's feet."
+        - id: ch02-b03
+          speaker: prince
+          text: "You have promised me to a bride I can never love. Break that agreement and ask for Princess Desiree's hand. If you refuse, my misery will kill me, and I will be glad to leave this life."
+          emotion: sad
+        - id: ch02-b04
+          speaker: narrator
+          text: "The king was deeply displeased. Breaking the old marriage agreement would almost certainly bring a long and bloody war upon his people. He left without answering and hoped a few days would restore his son's good sense. Instead, the prince quickly became much worse. In despair, the king promised to send an embassy to Desiree's father."
+        - id: ch02-b05
+          speaker: narrator
+          text: "The promise cured the prince at once. All his weakness seemed to vanish, and he threw himself into preparing the grandest embassy his father's court could send. He planned every detail of the clothes, horses, and carriages that would make the ambassador's company splendid. The envoy was named Becasigue. The prince longed to join him, even if he had to hide his identity and serve as an ordinary page, but the king would not permit it. Unable to go himself, he searched the whole kingdom for anything rare or beautiful enough to send Desiree. Just as the embassy was ready to leave, he arrived with one last gift. It was his own portrait, which the court painter had secretly made for him."
+        - id: ch02-b06
+          speaker: narrator
+          text: "Desiree's parents gladly welcomed such a powerful family's proposal. They even wished Becasigue to see their daughter, but Tulip would not allow it."
+        - id: ch02-b07
+          speaker: tulip
+          text: "Tell him clearly that the wedding must wait until Desiree is fifteen. If it happens sooner, some dreadful misfortune will come to her."
+        - id: ch02-b08
+          speaker: narrator
+          text: "Surrounded by his magnificent company, Becasigue formally asked that Princess Desiree be given in marriage to his master's son. Her father replied that such an offer honored him and that he would gladly agree. There was only one condition. No one could even look upon Desiree until her fifteenth birthday had passed, because a spiteful fairy had laid a spell on her in the cradle, and its power would last until that day. Becasigue was both surprised and disappointed. Still, he knew enough about fairies to understand that their warnings could not safely be ignored. Since he could not meet the princess, he presented the prince's portrait to the queen. She wasted no time before carrying it to her daughter in the tower."
+        - id: ch02-b09
+          speaker: narrator
+          text: "The moment Desiree took the portrait, it spoke a delicate compliment it had been taught. She blushed with pleasure."
+        - id: ch02-b10
+          speaker: queen
+          text: "Would you like a husband who looks like this?"
+          emotion: happy
+        - id: ch02-b11
+          speaker: desiree
+          text: "How could I know? I know nothing at all about husbands."
+        - id: ch02-b12
+          speaker: queen
+          text: "In three months, he will be your husband."
+        - id: ch02-b13
+          speaker: narrator
+          text: "The queen ordered the prince's gifts brought in. Desiree admired the soft silks and brilliant jewels, but her eyes kept returning to his portrait."
+        - id: ch02-b14
+          speaker: narrator
+          text: "When Becasigue understood that there was no chance of seeing Desiree, he said farewell and returned to his own court. The prince was overjoyed to learn that she had truly promised to become his bride. Yet in his foolish impatience, he had imagined that Becasigue would bring her home with him. The disappointment of learning that he must wait three months was more than this spoiled young man could bear. No one had ever taught him to deny himself what he wanted or to govern his feelings. He became as ill as before. He would eat nothing, took pleasure in nothing, and passed every day lying upon a heap of cushions while he stared at Desiree's portrait."
+        - id: ch02-b15
+          speaker: prince
+          text: "If I must wait three months to marry Desiree, I will die."
+          emotion: sad
+        - id: ch02-b16
+          speaker: narrator
+          text: "At last his desperate father sent Becasigue back to beg for an immediate wedding. In his letter, the old king said he would have made the request himself, but age and weakness kept him from traveling. His envoy could accept any arrangement Desiree's family proposed."
+        - id: ch02-b17
+          speaker: narrator
+          text: "When Becasigue reached Desiree's palace for the second time, he pleaded for his young master as earnestly as the old king himself could have pleaded. He begged the royal family at least to ask the princess what she wished to do. The queen hurried to the marble tower and told her daughter that the prince's longing had made him dangerously ill. At the news, Desiree sank down in a faint. She soon recovered, and instead of simply grieving, she began to search for some plan that would let her go to the prince without bringing the wicked fairy's sentence upon herself. She considered one possibility after another until at last a joyful answer came to her."
+        - id: ch02-b18
+          speaker: desiree
+          text: "I know what to do! Build a carriage that lets in no light and bring it right into my room. I will enter there, and we can travel quickly at night and reach the prince's palace before dawn. Once I arrive, I can stay in an underground room where daylight cannot touch me."
+          emotion: happy
+        - id: ch02-b19
+          speaker: queen
+          text: "What a clever plan, my dear!"
+          emotion: happy
+        - id: ch02-b20
+          speaker: becasigue
+          text: "Our prince will have a remarkable wife. I must hurry home with the news and prepare the underground chamber for her."
+        - id: ch02-b21
+          speaker: narrator
+          text: "Within days, Desiree's carriage was ready. Green velvet covered it, scattered with golden thistles. Inside, silver cloth embroidered with pink roses lined the walls. It had no windows, but Tulip filled it with a soft light whose source no one could discover."
+        - id: ch02-b22
+          speaker: narrator
+          text: "The carriage was carried into the tower's great hall. Desiree entered with her faithful maid of honor, Eglantine, and her lady in waiting, Cerisette. Cerisette had also fallen in love with the prince's portrait and bitterly envied her mistress. Cerisette's mother took the fourth seat, charged by the queen to care for the three young women."
+        - id: ch02-b23
+          speaker: narrator
+          text: "The Fairy of the Fountain was godmother to Princess Nera, the bride the prince had cast aside for Desiree. Furious at the insult to Nera, she had watched Desiree closely. Now she saw her chance. Invisible beside Cerisette, she planted wicked thoughts in the minds of both daughter and mother."
+        - id: ch02-b24
+          speaker: narrator
+          text: "Most of the road to the prince's city passed beneath the heavy branches of a thick forest. Whenever night was moonless and not one star could be seen through the trees, the guards traveling with Desiree opened the sealed carriage for fresh air. They followed this careful practice for several days. Then the travelers came within twelve hours of the prince's palace. Cerisette decided that her moment had arrived. She persuaded her mother to take the sharp knife Cerisette had brought for this very purpose and cut a great hole through the carriage wall. Under the trees, the darkness was so complete that no one saw what the woman had done. But the journey continued through the remaining hours of night. When the carriage finally rolled beyond the last trees into open country, the sun had risen. Its light streamed through the hidden cut, and Desiree saw daylight for the first time since she was a baby."
+        - id: ch02-b25
+          speaker: narrator
+          text: "She stared at the dazzling beam pouring through the hole and gave a deep sigh. The door flew open by magic. A white doe sprang out and vanished among the trees. Eglantine saw where she went, leaped from the carriage, and ran after her. The guards followed farther behind."
+        - id: ch02-b26
+          speaker: narrator
+          text: "Cerisette and her mother could hardly believe their luck. They hid the cut with unseen help from the angry fairy. Then Cerisette put on Desiree's clothes and set the diamond crown upon her own head. It felt much heavier than she expected, for she had never worn a crown before."
+    - id: ch03
+      title: The False Bride
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: "At the gates of the prince's city, an honor guard sent by the king met the carriage and escorted his son's bride inside. The sealed walls kept Cerisette and her mother from seeing anything, but they could plainly hear the crowds shouting their welcome all along the streets. At last the carriage rolled into the vast underground hall Becasigue had prepared for Desiree and came to a stop. The grand chamberlain and the high steward were waiting there. When the false bride stepped into the brilliantly lighted room, both officials bowed low. They explained that their orders were to inform the prince as soon as she arrived. The strict rules of the court had prevented him from waiting in the hall himself. Upstairs in his own rooms, he was burning with impatience and pretending to mend a bow while he waited for news."
+        - id: ch03-b02
+          speaker: prince
+          text: "She has arrived! Tell me, was I not right? Is she not wonderfully beautiful and graceful? Is there anyone in the world like her?"
+          emotion: happy
+        - id: ch03-b03
+          speaker: narrator
+          text: "The two ministers exchanged a look. Neither answered until the chamberlain found the courage."
+        - id: ch03-b04
+          speaker: chamberlain
+          text: "Your Highness can judge her beauty for yourself. I am sure it is everything you say, though the long journey seems to have taken a toll on her appearance."
+        - id: ch03-b05
+          speaker: narrator
+          text: "That was not the answer the prince expected. Perhaps the portrait had flattered her. He had known portraits to do that, and a cold shiver passed through him. Still, he forced himself not to ask more."
+        - id: ch03-b06
+          speaker: prince
+          text: "Does the king know she is here?"
+        - id: ch03-b07
+          speaker: chamberlain
+          text: "Yes, Your Highness. He has probably joined her already."
+        - id: ch03-b08
+          speaker: prince
+          text: "Then I will join her too."
+        - id: ch03-b09
+          speaker: narrator
+          text: "Still weak from illness, the prince went downstairs supported by the ministers. He reached the hall just as his father cried out in disgust at the sight of Cerisette."
+        - id: ch03-b10
+          speaker: prince_king
+          text: "Someone has betrayed us!"
+          emotion: angry
+        - id: ch03-b11
+          speaker: narrator
+          text: "The prince leaned against the doorway, speechless with horror. Cerisette's mother had expected trouble. She stepped forward with the letters entrusted to her by Desiree's parents."
+        - id: ch03-b12
+          speaker: cerisette_mother
+          text: "This lady is Princess Desiree. I present the letters from her royal father and mother, along with the casket holding her jewels."
+        - id: ch03-b13
+          speaker: narrator
+          text: "The king neither moved nor answered. Leaning on Becasigue's arm, the prince forced himself to come a little closer. He still hoped that weakness or surprise had misled his eyes. The longer he looked, the clearer the betrayal became. Not one feature of the woman before him resembled Desiree's portrait. Cerisette was so tall that the princess's dress failed to cover her ankles. She was so thin that her bones showed beneath the cloth. Her nose curved like a hook, and her teeth were black and ugly. The prince could no longer pretend that this stranger was the beautiful girl whose picture had filled his thoughts."
+        - id: ch03-b14
+          speaker: prince
+          text: "Father, we have been deceived, and this will cost me my life."
+          emotion: sad
+        - id: ch03-b15
+          speaker: narrator
+          text: "The prince sagged against Becasigue, who quickly lowered him to the floor. Everyone tended him until he revived. Then Cerisette's mother raised her voice."
+        - id: ch03-b16
+          speaker: cerisette_mother
+          text: "Oh, my beautiful princess, why did we ever leave home? When your father hears how you have been insulted, he will avenge you!"
+          emotion: angry
+        - id: ch03-b17
+          speaker: prince_king
+          text: "I will tell him myself! He promised me a marvel of beauty and sent me a skeleton. No wonder he hid her from the world for fifteen years. Guards, take both women to the state prison. There is more to discover here."
+          emotion: angry
+        - id: ch03-b18
+          speaker: narrator
+          text: "The guards obeyed and carried Cerisette and her mother away to the state prison. The prince, loudly mourning the ruin of all his hopes, was led back to his bed. For many days he lay there in a high fever. At last his body slowly began to recover, but the sorrow within him remained. He could not bear to see any unfamiliar face. Even the thought of returning to his proper place at court ceremonies made him shudder. He decided that as soon as he was strong enough, he would escape the palace and live out the rest of his life in some lonely place. No one knew of this plan except his loyal friend Becasigue."
+        - id: ch03-b19
+          speaker: narrator
+          text: "Several weeks passed before the prince recovered enough strength to carry out his plan. Finally, on a beautiful night when the sky was bright with stars, he and Becasigue slipped away from the palace without being seen. The next morning, the king awoke and found a letter lying beside his bed. His son had left, the letter said, and he did not know where he was going. The old king shed bitter tears when he understood that the prince was gone, because he loved his son dearly. Yet part of him believed the young man might have chosen wisely. He placed his hope in the passage of time and in Becasigue's good influence, trusting that together they might one day bring the wanderer home."
+    - id: ch04
+      title: The White Doe in the Forest
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: "All this while, Desiree was wandering as the white doe. She knew some cruel fate had made her an animal, but she did not know what kind until she saw her reflection in a stream."
+        - id: ch04-b02
+          speaker: desiree
+          text: "Can that truly be me? I am Desiree, yet some wicked fairy has done this to me. Will I never have my own shape again? This forest is full of lions and serpents. At least my life here may be short."
+          emotion: sad
+        - id: ch04-b03
+          speaker: narrator
+          text: "Tulip grieved over Desiree's fate almost as deeply as the girl's own mother would have grieved if she had known what happened. At the same time, the fairy could not help thinking that Desiree would already be safe inside her new home if the king and queen had followed every part of her advice. Even so, Tulip loved the princess far too much to let her suffer any more than necessary. Eglantine was still searching through the forest, and Tulip quietly guided the faithful maid along the right paths until she reached the place where the white doe stood cropping grass for her dinner."
+        - id: ch04-b04
+          speaker: narrator
+          text: "At the approaching footsteps, the doe raised her head. The instant she saw Eglantine, she bounded forward and rubbed against her shoulder. Eglantine loved animals and stroked her gently. Then the doe looked into her face with tears streaming from her eyes. Eglantine understood. She fell to her knees and kissed each of the creature's feet."
+        - id: ch04-b05
+          speaker: eglantine
+          text: "My princess! Oh, my dear princess!"
+          emotion: sad
+        - id: ch04-b06
+          speaker: narrator
+          text: "Desiree rubbed her head against Eglantine once more, answering in the only way she could. The spiteful fairy had robbed her of human speech, but she had not taken away her reason or her memories. The two companions remained together through the whole day. When Eglantine grew hungry, the doe led her to a part of the forest where pears and peaches grew in abundance, and the girl ate her fill. But daylight began to fade. Eglantine remembered that wild beasts surrounded them, and Desiree remembered the same terror from her first lonely night in the forest. With no walls around them and nowhere safe in sight, they sat down together and wept with fear."
+        - id: ch04-b07
+          speaker: eglantine
+          text: "Is there a hut or a cave where we can hide tonight?"
+          emotion: fearful
+        - id: ch04-b08
+          speaker: narrator
+          text: "The doe could only shake her head. Their distress touched softhearted Tulip, and she flew to help them."
+        - id: ch04-b09
+          speaker: tulip
+          text: "The Fairy of the Fountain is stronger than I am, so I cannot end the spell. But I can shorten the punishment and make it easier. From now on, whenever darkness falls, you will return to your own shape."
+          emotion: calm
+        - id: ch04-b10
+          speaker: narrator
+          text: "The promise that she would become herself each night filled Desiree with joy, and she skipped across the grass. Tulip smiled at her."
+        - id: ch04-b11
+          speaker: tulip
+          text: "Follow the path straight ahead. Before long you will find a little hut where you can shelter."
+        - id: ch04-b12
+          speaker: narrator
+          text: "Tulip vanished. An old woman stood at the hut door when Eglantine arrived with the doe beside her."
+        - id: ch04-b13
+          speaker: eglantine
+          text: "Good evening. Could you give me and my doe a place to sleep tonight?"
+        - id: ch04-b14
+          speaker: tulip
+          text: "Of course. Come inside."
+        - id: ch04-b15
+          speaker: narrator
+          text: "The old woman led them to a room with two small white beds, so clean and comfortable that the sight alone made them sleepy. As soon as the door closed and the sun sank, the white doe became Desiree again."
+        - id: ch04-b16
+          speaker: desiree
+          text: "Oh, Eglantine, what would I have done if you had not followed me?"
+          emotion: happy
+        - id: ch04-b17
+          speaker: narrator
+          text: "She threw her arms around her faithful friend. At dawn, scratching woke Eglantine. The doe stood at the door, eager to leave. She nodded when the latch was lifted, then bounded into the woods."
+    - id: ch05
+      title: The Prince Finds Desiree
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: "Meanwhile, the prince and Becasigue had wandered through the same forest. When the prince grew too tired to continue, he lay beneath a tree and sent his friend to find food and shelter. Before long, Becasigue met the old woman feeding doves outside her cottage."
+        - id: ch05-b02
+          speaker: becasigue
+          text: "Could you spare some milk and fruit? I am hungry, and I left a friend nearby who is still weak after an illness."
+        - id: ch05-b03
+          speaker: tulip
+          text: "Certainly. Sit in my kitchen while I catch the goat and milk her."
+        - id: ch05-b04
+          speaker: narrator
+          text: "Becasigue gladly sat down. The old woman soon returned with milk and a basket overflowing with oranges and grapes."
+        - id: ch05-b05
+          speaker: tulip
+          text: "A man recovering from illness should not sleep in the forest. My hut is tiny, but I have room, and you are both warmly welcome."
+        - id: ch05-b06
+          speaker: narrator
+          text: "Becasigue thanked her and went to fetch the prince before sunset. While he was gone, Eglantine and the white doe arrived. Neither pair knew that the people in the next room were at the center of all their troubles."
+        - id: ch05-b07
+          speaker: narrator
+          text: "In spite of the weariness of his journey, the prince slept badly that night. The moment daylight came, he rose and told Becasigue to remain at the hut, because he wished to wander alone. He walked slowly through the forest, taking whichever path happened to please him. At last he came to a wide open clearing. In its center, the white doe was quietly eating her breakfast. At the sight of a man, she bounded away. The prince had carried his bow out of habit, and before he had time to think, he drew it and sent several arrows after her. Tulip watched over Desiree and made certain that none of them touched her. Even so, the chase exhausted the doe. Fifteen years spent inside a tower had given Desiree no chance to strengthen her limbs for racing through a forest. Her speed began to fail. Luckily, the prince was still too weak from his illness to pursue her very far. A turn in the path brought Desiree close to the cottage, where Eglantine was waiting anxiously. The doe rushed into their room, panting for breath, and threw herself onto the floor."
+        - id: ch05-b08
+          speaker: narrator
+          text: "After dark she became a girl and told Eglantine what had happened."
+        - id: ch05-b09
+          speaker: desiree
+          text: "I feared the Fairy of the Fountain and all the cruel beasts here, but I never thought men would be dangerous too. I cannot understand what saved me."
+          emotion: fearful
+        - id: ch05-b10
+          speaker: eglantine
+          text: "Stay safely inside until your punishment ends."
+        - id: ch05-b11
+          speaker: narrator
+          text: "But at dawn, when Desiree became a doe, the forest called to her and she bounded away again. The prince hurried back to the clearing, but she had gone another way. He searched one green path after another until weariness overcame him and he fell asleep."
+        - id: ch05-b12
+          speaker: narrator
+          text: "Just then, the white doe sprang out of a thicket nearby. She stopped at once and trembled when she saw the man who had hunted her lying across the path. She could easily have turned and escaped before he woke. Instead, something she could not explain urged her to move closer and study him while he remained unaware of her. She approached gently and looked down at his face. Illness had left him pale and thin, but she still recognized him. This was the face from the portrait, the face of the prince she had promised to marry. A thrill passed through her. She bent over the sleeping young man and softly kissed his forehead. The touch woke him."
+        - id: ch05-b13
+          speaker: narrator
+          text: "For a moment they stared at one another. The prince recognized the doe that had escaped him. Then she remembered her danger and fled deep into the forest. He raced after her, but now he had no wish to harm her."
+        - id: ch05-b14
+          speaker: prince
+          text: "Beautiful doe, please stop! I promise I will not hurt you!"
+        - id: ch05-b15
+          speaker: narrator
+          text: "The wind carried his words away before they could reach her. The chase went on until Desiree had no strength left. When the prince caught up, he found her stretched on the grass, too exhausted to move and waiting for the blow she believed would kill her. No blow came. The prince knelt beside her, stroked her white coat, and told her again that she had nothing to fear from him. He would care for her now. He went to the nearby stream and filled the small horn cup he used while hunting, then held the water for her to drink. After that he cut supple branches from the trees, twisted them together to make a litter, and spread soft moss across it. With great care he lifted the doe and laid her down to rest."
+        - id: ch05-b16
+          speaker: narrator
+          text: "For a long while, the prince remained beside the litter and the doe lay quietly under his care. Desiree watched the light change among the trees. Its angle told her that the sun would soon set, and then the fairy's mercy would return her to human form. Alarm seized her. She could not bear to let the prince see her real face for the first time while she lay helpless in a lonely forest, with no chance to explain what had happened. She had to send him away before darkness fell. At last she opened her mouth and let her tongue hang down, pretending that thirst was killing her. The prince noticed immediately. Just as Desiree had hoped, he took his cup and hurried back toward the stream to bring her more water. He was gone only a short while. Yet when he returned to the moss-covered litter, the white doe had disappeared."
+        - id: ch05-b17
+          speaker: narrator
+          text: "That night Desiree admitted to Eglantine that the hunter was the prince himself, and that his portrait had not made him handsome enough."
+        - id: ch05-b18
+          speaker: desiree
+          text: "How cruel it is to meet him while I look like this, when we love each other so much."
+          emotion: sad
+        - id: ch05-b19
+          speaker: narrator
+          text: "Eglantine reminded her that the punishment would soon end. The prince, however, returned furious that the doe had escaped after all his care. He told Becasigue everything, while his friend struggled not to smile."
+        - id: ch05-b20
+          speaker: prince
+          text: "She will not escape next time. I will hunt for a whole year if that is what it takes to catch her."
+          emotion: angry
+        - id: ch05-b21
+          speaker: narrator
+          text: "The next morning, Desiree wondered whether to meet him or hide in unknown thickets. She chose to hide, but by chance the prince searched in the same direction. He saw her white coat among the bushes just as she heard a twig crack beneath his foot. She sprang away. Not knowing another way to stop her, he aimed at her leg. His arrow struck, and she fell."
+        - id: ch05-b22
+          speaker: narrator
+          text: "The instant he saw the white doe fall, the prince felt like a murderer. He ran as quickly as he could to the place where she lay and tried in every way he knew to ease her pain. The injury was real, though it was also the last part of the punishment sent by the Fairy of the Fountain. First the prince brought fresh water and helped the doe drink. Then he searched the forest floor for herbs known to soothe a wound. He crushed the leaves thoroughly in his hand and gently placed them over the place where his arrow had struck."
+        - id: ch05-b23
+          speaker: prince
+          text: "How wretched I am to have hurt you! Now you will hate me and run from me forever."
+          emotion: sad
+        - id: ch05-b24
+          speaker: narrator
+          text: "For a time, the doe lay quietly with her head resting on the prince's knees. But she knew that evening and her transformation were drawing near. She gathered her strength and struggled onto her feet. The prince refused to let an injured creature walk through the forest. He thought the old woman at the cottage might understand how to dress the wound better than he did, so he lifted the doe into his arms and tried to carry her there. Desiree could not allow that. Though she was small, she made herself so strangely heavy that the prince staggered after only a few steps and had to set her down. Determined not to lose her again, he took several ribbons from his hat and used them to fasten her securely to a tree. Then he hurried away to bring help from the hut."
+        - id: ch05-b25
+          speaker: narrator
+          text: "Eglantine had grown anxious and came searching. As soon as the prince disappeared, she saw the fluttering ribbons and found Desiree bound to the tree. She pulled at the knots with all her strength, but could not loosen even one. Then the prince spoke behind her."
+        - id: ch05-b26
+          speaker: prince
+          text: "Forgive me, but that is my doe you are trying to steal."
+        - id: ch05-b27
+          speaker: eglantine
+          text: "No, good knight. She is my doe, and I can prove that she knows me. Little one, place your foot against my heart. Now put your forelegs around my neck and sigh."
+        - id: ch05-b28
+          speaker: narrator
+          text: "The doe obeyed each request."
+        - id: ch05-b29
+          speaker: prince
+          text: "You are right. I surrender her sadly, because though I wounded her, I have come to love her dearly."
+          emotion: sad
+        - id: ch05-b30
+          speaker: narrator
+          text: "Eglantine answered nothing. She carefully raised the doe and led her toward the hut. The prince and Becasigue had not known the old woman sheltered anyone else. Following at a distance, they were astonished to see Eglantine and the doe enter the cottage. The old woman said only that the quiet lady and her animal slept beside the men's room and paid her well."
+        - id: ch05-b31
+          speaker: becasigue
+          text: "I am certain that woman is Eglantine, Princess Desiree's maid of honor. I met her at the palace. Their room is beside ours, so I can make a little opening and find out whether I am right."
+        - id: ch05-b32
+          speaker: narrator
+          text: "Becasigue took a knife from his pocket and began slowly cutting into the wooden wall between the two rooms. On the other side, the young women heard the faint scraping, but they decided it must be a mouse and paid no more attention. Becasigue was free to continue until he had made an opening large enough to look through. What he saw struck him silent with amazement. His memory had been right about the tall lady. She was Eglantine, the same maid of honor he had met at Desiree's palace. But no white doe was with her now. A second young woman lay upon cushions in a flowing dress of green silk while Eglantine bent over her and carefully bathed the wounded leg. For a moment Becasigue wondered where he had seen that beautiful face. Then he understood. This was the lady in the portrait. This was Princess Desiree herself."
+        - id: ch05-b33
+          speaker: desiree
+          text: "I would rather die than keep living this way. All day I am an animal, unable to speak to the man I love. His impatience brought this fate upon me, yet even now I cannot hate him."
+          emotion: sad
+        - id: ch05-b34
+          speaker: narrator
+          text: "Desiree spoke in a low voice, but every word carried through the opening to Becasigue. For a moment he could hardly believe what he had heard. Then he crossed their room to the window where the prince stood looking out, took his friend by the arm, and led him silently to the hole in the wall. A single glance was enough. The prince knew at once that he was looking at the real Desiree. Another woman had somehow entered his father's palace under her name, but just then he neither understood the deception nor cared about it. He left the room on tiptoe and knocked at the neighboring door. Eglantine opened it, expecting to find the old woman bringing their evening meal. At the sight of the prince, whom she now recognized, she started backward. He passed her, hurried to Desiree, and threw himself at the princess's feet. There he poured out every feeling he had carried in his heart."
+        - id: ch05-b35
+          speaker: narrator
+          text: "The prince and Desiree talked on without noticing the hours pass. Dawn found them still together, sharing all that had happened while each had believed the other lost. Morning brightened, and the sun climbed high above the forest. Only then did Desiree notice the wonder that had taken place. Daylight had returned, yet she still had her own hands and her own voice. She had not changed into the white doe. The full time of her punishment was over at last. Her fear gave way to happiness, and with a joyful voice she told the prince the whole story of the fairy's sentence, the broken carriage, and her enchantment in the woods."
+        - id: ch05-b36
+          speaker: narrator
+          text: "And so the tale ended happily. The old woman revealed that she had been Tulip all along. She gave the young couple a wedding feast more magnificent than any seen since the world began. Everyone rejoiced except Cerisette and her mother. They were placed in a boat and carried to a small island, where they had to work hard for their living."

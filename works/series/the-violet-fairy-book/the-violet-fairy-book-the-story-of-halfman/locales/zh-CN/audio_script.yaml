@@ -1,0 +1,854 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 编者
+      tts:
+        delivery: 亲切而略带诙谐的讲述
+        timbre: 温暖清晰的成年男声
+        pace: 从容舒展
+        pitch: 中低音
+    judge:
+      display_name: 法官
+      tts:
+        delivery: 持重端正，悲伤时声音低哑
+        timbre: 浑厚沉稳的成年男声
+        pace: 稍慢
+        pitch: 低音
+    old_man:
+      display_name: 老人
+      tts:
+        delivery: 温和关切，语气笃定
+        timbre: 苍老柔和的男声
+        pace: 从容
+        pitch: 中低音
+    wife:
+      display_name: 半人的妻子
+      tts:
+        delivery: 真挚温柔，忧急时不失清晰
+        timbre: 柔和清亮的年轻女声
+        pace: 适中
+        pitch: 中高音
+    halfman:
+      display_name: 半人
+      tts:
+        delivery: 机敏大胆，危急时仍带几分诙谐
+        timbre: 清朗坚韧的年轻男声
+        pace: 灵活明快
+        pitch: 中音
+    brother_1:
+      display_name: 大哥
+      tts:
+        delivery: 强势自负，心虚时略显生硬
+        timbre: 厚实的年轻男声
+        pace: 适中
+        pitch: 中低音
+    brother_2:
+      display_name: 二哥
+      tts:
+        delivery: 直率急躁，容易随声附和
+        timbre: 明亮的年轻男声
+        pace: 稍快
+        pitch: 中音
+    brother_3:
+      display_name: 三哥
+      tts:
+        delivery: 寡言冷淡，回答简短
+        timbre: 偏低的年轻男声
+        pace: 适中
+        pitch: 中低音
+    brother_4:
+      display_name: 四哥
+      tts:
+        delivery: 谨慎拘束，群体应答时清楚有力
+        timbre: 清晰的年轻男声
+        pace: 适中
+        pitch: 中音
+    ogress:
+      display_name: 女食人魔
+      tts:
+        delivery: 阴狠狡诈，得意或暴怒时尖厉
+        timbre: 粗哑锐利的成年女声
+        pace: 忽慢忽快
+        pitch: 中高音
+    ogre:
+      display_name: 食人魔
+      tts:
+        delivery: 粗暴迟钝，语气贪婪
+        timbre: 沙哑厚重的成年男声
+        pace: 稍慢
+        pitch: 低音
+    youngest_daughter:
+      display_name: 食人魔的小女儿
+      tts:
+        delivery: 年轻直率，受惊时急促
+        timbre: 清脆的少女声
+        pace: 适中
+        pitch: 高音
+    uncle:
+      display_name: 叔父
+      tts:
+        delivery: 爽朗热情，说话干脆
+        timbre: 温厚的成年男声
+        pace: 适中
+        pitch: 中低音
+    fish:
+      display_name: 鱼
+      tts:
+        delivery: 友善沉着，言语简洁
+        timbre: 清润平和的中性声
+        pace: 从容
+        pitch: 中高音
+    second_ogress:
+      display_name: 另一个女食人魔
+      tts:
+        delivery: 神秘果断，语气冷静
+        timbre: 低柔有力的成年女声
+        pace: 适中
+        pitch: 中低音
+    passerby:
+      display_name: 路人
+      tts:
+        delivery: 朴实自然，略带惋惜
+        timbre: 平实的成年男声
+        pace: 适中
+        pitch: 中音
+    son:
+      display_name: 穆罕默德
+      tts:
+        delivery: 天真爽快，说话直接
+        timbre: 清亮自然的男孩声
+        pace: 稍快
+        pitch: 高音
+  chapters:
+    - id: ch01
+      title: 十二个儿子
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，一座城里住着一位法官。他已经成了家，却始终没有孩子。一天，他满腹心事地站在家门口，正好有个老人从那里经过。
+        - id: ch01-b02
+          speaker: old_man
+          text: >-
+            先生，您这是怎么了？看起来心事很重啊。
+        - id: ch01-b03
+          speaker: judge
+          text: >-
+            唉，好心人，您就别问了！
+        - id: ch01-b04
+          speaker: old_man
+          text: >-
+            到底出了什么事？
+        - id: ch01-b05
+          speaker: judge
+          text: >-
+            我事业顺利，也有些身份，可这些对我一点意义也没有，因为我没有孩子。
+        - id: ch01-b06
+          speaker: old_man
+          text: >-
+            这里有十二只苹果。拿去让您的妻子吃下，她会生十二个儿子。
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            法官喜出望外，接过苹果连连道谢，然后马上去找妻子。
+        - id: ch01-b08
+          speaker: judge
+          text: >-
+            快，把这些苹果全吃了！你会生下十二个儿子！
+          emotion: happy
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            妻子坐下，一口气吃完十一只。第十二只才吃到一半，她的妹妹走了进来，她便把剩下的半只分给妹妹。后来，十一个强壮俊秀的儿子先后出生。可到了第十二个儿子，他竟只有半边身子。
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            十二个儿子渐渐都长大了。一天，他们请父亲替自己找妻子。
+        - id: ch01-b11
+          speaker: judge
+          text: >-
+            我有个兄弟，住在遥远的东方。他正好有十二个女儿，你们去娶她们吧。
+        - id: ch01-b12
+          speaker: narrator
+          text: >-
+            十二兄弟备好马匹，骑了整整十二天。路上，他们碰见一个老妇人。
+        - id: ch01-b13
+          speaker: ogress
+          text: >-
+            欢迎你们，年轻人！我和你们叔父等了很久。姑娘们早已长大，来求婚的人不少，可我知道你们迟早会来，就一直替你们留着。快跟我进屋吧。
+        - id: ch01-b14
+          speaker: narrator
+          text: >-
+            兄弟们高高兴兴地跟她回去。门口站着一个自称叔父的男人，他摆出酒肉款待大家。夜深以后，所有人都睡下了，半人却悄悄爬到兄弟们身边。
+        - id: ch01-b15
+          speaker: halfman
+          text: >-
+            你们听好，这个人根本不是我们的叔父。他是个食人魔。
+        - id: ch01-b16
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: >-
+            别胡说了，他当然就是叔父。
+        - id: ch01-b17
+          speaker: halfman
+          text: >-
+            好，那就等着看吧。今夜你们自然会明白。
+        - id: ch01-b18
+          speaker: narrator
+          text: >-
+            半人没有睡，只躲在一旁盯着。不久，食人魔的妻子踮着脚走进来。她先给兄弟们铺上红布，又拿白布盖住自己的女儿，然后躺下，很快就打起鼾来。
+        - id: ch01-b19
+          speaker: narrator
+          text: >-
+            半人等她睡熟，便把两块布换了过来，又摘下兄弟们的猩红帽子，换上姑娘们的面纱。才刚做完，他就听见地板上响起脚步声，赶紧钻进窗帘的褶缝。幸好，他只有半边身子！
+        - id: ch01-b20
+          speaker: narrator
+          text: >-
+            女食人魔摸索着慢慢走来，双手伸在前面，免得忽然撞上东西。她腰间只挂着一盏小得可怜的灯，根本照不出多远。到了姑娘们身边，她俯下身，捏起布角凑近灯光。是红色，没错。她还不放心，又逐个摸过她们的头，摸到了罩在头上的帽子，这才认定眼前躺的是十二兄弟，接着一个一个杀了下去。
+        - id: ch01-b21
+          speaker: halfman
+          text: >-
+            快醒醒，逃命吧！女食人魔正在杀她自己的女儿。
+        - id: ch01-b22
+          speaker: narrator
+          text: >-
+            兄弟们一下子全醒了，转眼便逃出屋子。女食人魔已经杀掉了所有女儿，只剩最小的那个。小女儿忽然惊醒，看清眼前的情形，叫了起来。
+        - id: ch01-b23
+          speaker: youngest_daughter
+          text: >-
+            母亲，您在干什么？您知不知道，自己杀掉的是我的姐姐们？
+          emotion: fearful
+        - id: ch01-b24
+          speaker: ogress
+          text: >-
+            哎呀，我真命苦！到底还是中了半人的计！
+          emotion: sad
+        - id: ch01-b25
+          speaker: narrator
+          text: >-
+            她转身去找半人报仇，可半人和兄弟们早已逃得没了踪影。
+
+    - id: ch02
+      title: 溪水中的背叛
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            十二兄弟骑了一整天，终于到达亲叔父居住的城里。他们一路打听，找到了叔父的家。
+        - id: ch02-b02
+          speaker: uncle
+          text: >-
+            你们怎么到现在才来？
+        - id: ch02-b03
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: >-
+            亲爱的叔父，我们差一点永远来不了了！一个女食人魔把我们骗进家里，险些杀了大家。幸亏半人看穿她的心思，救了我们的命。现在请把十二个女儿嫁给我们，让我们带着她们回故乡吧。
+        - id: ch02-b04
+          speaker: uncle
+          text: >-
+            那就娶走吧！老大娶长女，老二娶次女，往下一个配一个，直到最小的两个。
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            叔父照年纪把女儿们一个个配给兄弟。轮到最小的两人时，半人娶到的姑娘却是姐妹中最漂亮的。哥哥们越看越妒忌，便凑在一起商量。
+        - id: ch02-b06
+          speakers: [brother_1, brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: >-
+            他只有半边身子，凭什么娶最好的姑娘？杀了他，把他的妻子给大哥！
+          emotion: angry
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            离开叔父家以后，他们一路等着机会。十二兄弟带着新娘骑到一条小溪旁，有人问该让谁下去取水。
+        - id: ch02-b08
+          speaker: brother_1
+          text: >-
+            半人最小，就让他下去吧。
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            半人下马走进溪里，把一只水囊灌满。哥哥们用绳子拉上水囊，喝完了水。半人还站在溪流中央，只得朝岸上喊。
+        - id: ch02-b10
+          speaker: halfman
+          text: >-
+            把绳子扔下来，拉我上去！我一个人爬不上岸。
+        - id: ch02-b11
+          speaker: narrator
+          text: >-
+            哥哥们扔下绳子，把他往陡峭的岸上拉。可才拉到半途，他们突然割断绳子，让半人重新跌进溪水里。随后，他们带走他的新娘，纷纷骑上自己的马，飞快逃走了。
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            半人被摔进水下，还没沉到底，一条鱼便游到他身旁。
+        - id: ch02-b13
+          speaker: fish
+          text: >-
+            别怕，半人，我来帮你。
+          emotion: calm
+        - id: ch02-b14
+          speaker: narrator
+          text: >-
+            鱼把他领到浅水处，让他挣扎着爬上岸。一路上，鱼又问起他的遭遇。
+        - id: ch02-b15
+          speaker: fish
+          text: >-
+            你救过哥哥们的命，他们现在却这样害你。你知道这是为什么吗？
+        - id: ch02-b16
+          speaker: halfman
+          text: >-
+            我知道。可我现在又能怎么办？
+        - id: ch02-b17
+          speaker: fish
+          text: >-
+            从我身上取一片鳞吧。以后碰上危险，就把它扔进火里，我自然会到你面前来。
+        - id: ch02-b18
+          speaker: halfman
+          text: >-
+            谢谢你。
+        - id: ch02-b19
+          speaker: narrator
+          text: >-
+            半人继续赶路，鱼也游回了自己的家。
+
+    - id: ch03
+      title: 食人魔的火
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            半人对这片土地十分陌生，只能漫无目的地往前走。走着走着，先前那个女食人魔忽然挡住了他的去路。
+        - id: ch03-b02
+          speaker: ogress
+          text: >-
+            哈，半人，我总算抓到你了！你害死我的女儿，还帮哥哥们逃走。你猜，我会怎么收拾你？
+          emotion: angry
+        - id: ch03-b03
+          speaker: halfman
+          text: >-
+            随你的便！
+        - id: ch03-b04
+          speaker: ogress
+          text: >-
+            那就跟我回家。
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            半人跟她走了。女食人魔一进门便朝丈夫大喊。
+        - id: ch03-b06
+          speaker: ogress
+          text: >-
+            快看，我把半人抓回来了！我要烤了他吃，你赶紧生火！
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            食人魔抱来一捆又一捆木柴，火越烧越旺，火焰一直蹿向烟囱。
+        - id: ch03-b08
+          speaker: ogre
+          text: >-
+            火已经好了，把他架上来吧！
+        - id: ch03-b09
+          speaker: halfman
+          text: >-
+            好心的食人魔，你急什么？我已经落到你们手里，哪儿也逃不了。可我现在瘦成这样，恐怕还不够你们吃一口。不如先把我养胖，那时候吃着才痛快。
+        - id: ch03-b10
+          speaker: ogre
+          text: >-
+            说得有理。那你吃什么，才能最快胖起来？
+        - id: ch03-b11
+          speaker: halfman
+          text: >-
+            黄油、肉，再加红葡萄酒。
+        - id: ch03-b12
+          speaker: ogre
+          text: >-
+            好。我们把你锁在这间屋里。你就在这里住着，养到能吃的时候再出来。
+        - id: ch03-b13
+          speaker: narrator
+          text: >-
+            从那天起，半人被锁在屋中，食人魔夫妇每天都送吃的给他。三个月过去，他对看守自己的两人开口了。
+        - id: ch03-b14
+          speaker: halfman
+          text: >-
+            我已经胖得够了。放我出去，把我杀掉吧。
+        - id: ch03-b15
+          speaker: ogre
+          text: >-
+            那就出来！
+        - id: ch03-b16
+          speaker: halfman
+          text: >-
+            不过，你们最好先去请朋友们来赴宴，把女儿留下看守我。
+        - id: ch03-b17
+          speakers: [ogress, ogre]
+          ensemble: duo
+          text: >-
+            对，这主意好。
+        - id: ch03-b18
+          speaker: halfman
+          text: >-
+            还有，把木柴搬进来吧。我替你们劈得细细的，烹调我的时候就不会耽误了。
+        - id: ch03-b19
+          speaker: narrator
+          text: >-
+            女食人魔给了他一堆木柴和一把斧头，随后同丈夫一起出门，只留下半人和小女儿在屋里。半人劈了一阵柴，便招呼姑娘过来。
+        - id: ch03-b20
+          speaker: halfman
+          text: >-
+            来帮我一把吧。不然你母亲回来，我可做不完。
+        - id: ch03-b21
+          speaker: youngest_daughter
+          text: >-
+            好。
+        - id: ch03-b22
+          speaker: narrator
+          text: >-
+            姑娘替他扶住一根木柴。半人举起斧头，猛地砍下她的脑袋，接着像一阵风似的逃走了。过了一会儿，食人魔夫妇回来，看见女儿身首异处，顿时放声痛哭。
+        - id: ch03-b23
+          speakers: [ogress, ogre]
+          ensemble: duo
+          text: >-
+            是半人干的！我们为什么偏偏听了他的话？
+          emotion: sad
+        - id: ch03-b24
+          speaker: narrator
+          text: >-
+            可这时候，半人早已跑远。他逃出那座房子，一路飞奔，只想找到一个安全的藏身处。他知道食人魔的腿比自己的长得多，若不先藏好，很快就会被追上。最后，他看见一座铁塔，便爬了上去。
+        - id: ch03-b25
+          speaker: narrator
+          text: >-
+            不久，食人魔追到附近，一边走一边四处查看，生怕半人藏在岩石或树木后面。他怎么也没想到，猎物就在近旁。直到塔上传来半人的喊声。
+        - id: ch03-b26
+          speaker: halfman
+          text: >-
+            上来呀！快上来呀！我就在这里！
+        - id: ch03-b27
+          speaker: ogre
+          text: >-
+            可我怎么上去？铁塔没有门，我也根本爬不上去。
+        - id: ch03-b28
+          speaker: halfman
+          text: >-
+            是啊，这里的确没有门。
+        - id: ch03-b29
+          speaker: ogre
+          text: >-
+            那你到底是怎么上去的？
+        - id: ch03-b30
+          speaker: halfman
+          text: >-
+            是一条鱼驮我上来的。
+        - id: ch03-b31
+          speaker: ogre
+          text: >-
+            那我该怎么做？
+        - id: ch03-b32
+          speaker: halfman
+          text: >-
+            去把所有亲戚都叫来，让他们带上许多木柴。然后在塔下点一大堆火，一直烧到铁塔通红。那时候，你们轻轻一推，就能把塔推倒。
+        - id: ch03-b33
+          speaker: ogre
+          text: >-
+            好极了。
+        - id: ch03-b34
+          speaker: narrator
+          text: >-
+            食人魔挨家挨户走遍亲戚们的家，叫所有人收集木柴，再送到半人藏身的铁塔下面。男人们全都照办了。没过多久，铁塔就烧得像珊瑚一样通红。他们一起用身体撞向铁塔，想把它推倒，结果一个接一个着了火，全都被活活烧死。半人坐在高处，放声大笑。
+        - id: ch03-b35
+          speaker: narrator
+          text: >-
+            女食人魔没有参与点火，所以还活着。她气得尖声大叫。
+        - id: ch03-b36
+          speaker: ogress
+          text: >-
+            你杀了我的女儿、我的丈夫，还有家里所有男人！我要怎样才能爬上去找你报仇？
+          emotion: angry
+        - id: ch03-b37
+          speaker: halfman
+          text: >-
+            这很容易。我放一根绳子下去，你把它牢牢系在身上，我就拉你上来。
+        - id: ch03-b38
+          speaker: ogress
+          text: >-
+            好，我已经系好了。现在拉吧。
+        - id: ch03-b39
+          speaker: halfman
+          text: >-
+            你确定系牢了吗？
+        - id: ch03-b40
+          speaker: ogress
+          text: >-
+            确定，牢得很。
+        - id: ch03-b41
+          speaker: halfman
+          text: >-
+            那你可别害怕。
+        - id: ch03-b42
+          speaker: ogress
+          text: >-
+            我一点也不怕！
+        - id: ch03-b43
+          speaker: narrator
+          text: >-
+            半人慢慢把她往上拉。眼看就要到塔顶，他忽然松开绳子。女食人魔直摔到地面，折断了脖子。
+        - id: ch03-b44
+          speaker: halfman
+          text: >-
+            这可真费劲，绳子把我的手都勒疼了。不过从现在起，我永远摆脱她了。
+
+    - id: ch04
+      title: 夺回新娘
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            半人走下铁塔，继续赶路。他来到一片荒无人烟的地方，累得躺倒在地，很快睡着了。天还没亮，另一个女食人魔从那里经过，把他叫醒。
+        - id: ch04-b02
+          speaker: second_ogress
+          text: >-
+            半人，明天你哥哥就要娶你的妻子了。
+        - id: ch04-b03
+          speaker: halfman
+          text: >-
+            啊，我怎么才能拦住这件事？你愿意帮我吗？
+        - id: ch04-b04
+          speaker: second_ogress
+          text: >-
+            我愿意。
+        - id: ch04-b05
+          speaker: halfman
+          text: >-
+            谢谢你，太谢谢你了！我的妻子比世上的一切都珍贵。我到现在还活着，可不能说哥哥没有尽力害我。
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            半人吻了吻她的额头。女食人魔接着提出了条件。
+        - id: ch04-b07
+          speaker: second_ogress
+          text: >-
+            我可以替你除掉哥哥。不过以后你若生了儿子，必须把他交给我。
+        - id: ch04-b08
+          speaker: halfman
+          text: >-
+            什么条件都行！只要你救我摆脱哥哥，让我夺回妻子。
+        - id: ch04-b09
+          speaker: second_ogress
+          text: >-
+            那就骑到我背上来。一刻钟之内，我们便能赶到。
+        - id: ch04-b10
+          speaker: narrator
+          text: >-
+            女食人魔果然说到做到。才过几分钟，他们已经来到半人兄弟居住的城外。她把半人留在那里，自己进了城，正赶上婚礼宾客陆续离开大哥的家。她避开众人的眼睛，悄悄靠近屋子。
+        - id: ch04-b11
+          speaker: narrator
+          text: >-
+            她趁人不注意钻进一道帘幕后面，变成一只蝎子。大哥正要上床，她便在他耳后蜇了一下。大哥当场倒地死了。女食人魔回到半人那里，让他去领回自己的新娘。
+        - id: ch04-b12
+          speaker: narrator
+          text: >-
+            半人急忙跳起来，朝父亲家走去。快到家时，他听见一片哭声，便拦住路上的一个男人打听。
+        - id: ch04-b13
+          speaker: halfman
+          text: >-
+            这里出了什么事？
+        - id: ch04-b14
+          speaker: passerby
+          text: >-
+            法官的大儿子昨天刚成婚，还没过一夜，人就突然死了。
+        - id: ch04-b15
+          speaker: narrator
+          text: >-
+            半人心想，自己无论如何都问心无愧。大哥显然是贪图他的妻子，才想把他淹死。半人径直走进父亲的房间，看见父亲正坐在地上流泪。
+        - id: ch04-b16
+          speaker: halfman
+          text: >-
+            亲爱的父亲，您看见我，难道不高兴吗？您在为哥哥哭，可我也是您的儿子。他抢走我的新娘，还想把我淹死在溪里。现在他虽然死了，至少我还活着。
+        - id: ch04-b17
+          speaker: judge
+          text: >-
+            不，不。他比你好！
+          emotion: sad
+        - id: ch04-b18
+          speaker: halfman
+          text: >-
+            为什么，亲爱的父亲？
+        - id: ch04-b19
+          speaker: judge
+          text: >-
+            他说你做过很坏的事。
+        - id: ch04-b20
+          speaker: halfman
+          text: >-
+            那就把哥哥们都叫来吧。我有个故事，要当着他们的面讲。
+        - id: ch04-b21
+          speaker: narrator
+          text: >-
+            父亲把其余儿子全部叫到面前，半人便从头说起。
+        - id: ch04-b22
+          speaker: halfman
+          text: >-
+            我们离家十二天后，碰见一个女食人魔。她问候我们，还说叔父的女儿已经白白等了许久。她把我们领进家，说不用再耽搁，想什么时候娶表姐妹都可以，娶完就带她们回家。可我警告哥哥们，屋里的男人不是叔父，而是食人魔。
+        - id: ch04-b23
+          speaker: halfman
+          text: >-
+            大家睡下后，她在我们身上铺红布，却给自己的女儿盖白布。我趁她睡着，把两块布换了。她半夜回来，只凭布的颜色认人，错把亲生女儿当成我的哥哥，一个接一个杀掉，只剩最小的女儿。随后我叫醒哥哥们，大家悄悄逃出屋子，骑着马赶到真正的叔父家。
+        - id: ch04-b24
+          speaker: halfman
+          text: >-
+            叔父热情地迎接我们，把十二个女儿依次嫁给十二兄弟。我娶到最小、也最漂亮的姑娘，哥哥们便起了妒心。他们把我丢进溪里，想让我淹死。幸好有一条鱼救了我，还告诉我该怎样爬上岸。
+        - id: ch04-b25
+          speaker: halfman
+          text: >-
+            父亲，您是法官。请您来判断，究竟谁做得对，谁做得恶？是我，还是我的哥哥们？
+        - id: ch04-b26
+          speaker: judge
+          text: >-
+            他说的都是真的吗？
+        - id: ch04-b27
+          speakers: [brother_2, brother_3, brother_4]
+          ensemble: chorus
+          text: >-
+            是真的，父亲。事情正像半人说的，那位姑娘本来就该是他的妻子。
+        - id: ch04-b28
+          speaker: narrator
+          text: >-
+            法官听完，伸手抱住了半人。
+        - id: ch04-b29
+          speaker: judge
+          text: >-
+            儿子，你做得好。带你的新娘走吧，愿你们长久相伴，幸福地生活！
+          emotion: happy
+
+    - id: ch05
+      title: 欠下的酬劳
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            一年快要过去时，半人的妻子生下一个儿子。过了些日子，她匆匆走进房间，发现丈夫正在哭。
+        - id: ch05-b02
+          speaker: wife
+          text: >-
+            出什么事了？
+        - id: ch05-b03
+          speaker: halfman
+          text: >-
+            什么事？
+        - id: ch05-b04
+          speaker: wife
+          text: >-
+            是啊，你为什么哭？
+        - id: ch05-b05
+          speaker: halfman
+          text: >-
+            因为这个孩子其实不属于我们。他属于一个女食人魔。
+          emotion: sad
+        - id: ch05-b06
+          speaker: wife
+          text: >-
+            你疯了吗？怎么会说出这种话？
+          emotion: surprised
+        - id: ch05-b07
+          speaker: halfman
+          text: >-
+            她答应替我杀掉哥哥，让你回到我身边。那时候，我许诺把我们的第一个儿子交给她。
+        - id: ch05-b08
+          speaker: wife
+          text: >-
+            她现在就要把孩子带走吗？
+          emotion: sad
+        - id: ch05-b09
+          speaker: halfman
+          text: >-
+            还不会。要等他再长大一些。
+        - id: ch05-b10
+          speaker: wife
+          text: >-
+            那我们以后所有的孩子，都得交给她吗？
+        - id: ch05-b11
+          speaker: halfman
+          text: >-
+            不，只有这一个。
+        - id: ch05-b12
+          speaker: narrator
+          text: >-
+            男孩一天一天长大。一天，他正在街上和别的孩子玩，女食人魔走到他面前。
+        - id: ch05-b13
+          speaker: second_ogress
+          text: >-
+            去找你父亲，把这句话原原本本地告诉他。我要拿走他欠我的酬劳，问他我什么时候可以来取。
+        - id: ch05-b14
+          speaker: son
+          text: >-
+            好。
+        - id: ch05-b15
+          speaker: narrator
+          text: >-
+            可男孩一回家，就忘得干干净净。第二天，女食人魔又来了，问父亲怎么答复。
+        - id: ch05-b16
+          speaker: son
+          text: >-
+            我全忘了。
+        - id: ch05-b17
+          speaker: second_ogress
+          text: >-
+            那就把这枚戒指戴在手上。有了它，你不会再忘。
+        - id: ch05-b18
+          speaker: son
+          text: >-
+            好。
+        - id: ch05-b19
+          speaker: narrator
+          text: >-
+            男孩戴上戒指回了家。第二天早晨，他正坐着吃早饭，母亲发现了那枚戒指。
+        - id: ch05-b20
+          speaker: wife
+          text: >-
+            孩子，你这枚戒指是从哪儿来的？
+        - id: ch05-b21
+          speaker: son
+          text: >-
+            昨天有个女人送给我的。父亲，她还让我告诉您，她要拿走您欠她的酬劳，问什么时候能来取。
+        - id: ch05-b22
+          speaker: narrator
+          text: >-
+            半人听了，顿时泪流满面。
+        - id: ch05-b23
+          speaker: halfman
+          text: >-
+            她要是再来，你就告诉她，父母叫她立刻拿走该得的酬劳，然后离开。
+          emotion: sad
+        - id: ch05-b24
+          speaker: narrator
+          text: >-
+            夫妻俩又哭起来。他们明白，这回必须兑现半人许下的诺言。母亲亲了亲儿子，替他换上一身新衣。
+        - id: ch05-b25
+          speaker: wife
+          text: >-
+            要是那个女人叫你跟她走，你就去吧。
+          emotion: sad
+        - id: ch05-b26
+          speaker: narrator
+          text: >-
+            男孩没有留意母亲有多伤心，只顾着为新衣服高兴。他跑出门，向玩伴们夸耀起来。
+        - id: ch05-b27
+          speaker: son
+          text: >-
+            看我穿得多神气！我要跟姑妈去外国啦！
+          emotion: happy
+        - id: ch05-b28
+          speaker: narrator
+          text: >-
+            正说着，女食人魔走了过来。
+        - id: ch05-b29
+          speaker: second_ogress
+          text: >-
+            你把我的话告诉父母了吗？
+        - id: ch05-b30
+          speaker: son
+          text: >-
+            告诉了，亲爱的姑妈。
+        - id: ch05-b31
+          speaker: second_ogress
+          text: >-
+            他们怎么说？
+        - id: ch05-b32
+          speaker: son
+          text: >-
+            他们叫你立刻拿走！
+        - id: ch05-b33
+          speaker: narrator
+          text: >-
+            女食人魔便把男孩带走了。
+
+    - id: ch06
+      title: 一年以后
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: >-
+            到了午饭时候，男孩还是没有回来。半人夫妻知道，他再也不会回家了，便坐在那里哭了一整天。最后，半人站起身来。
+        - id: ch06-b02
+          speaker: halfman
+          text: >-
+            别太伤心。我们等一年。到时候我去找女食人魔，看看孩子，也看看她是怎样照料他的。
+          emotion: calm
+        - id: ch06-b03
+          speaker: wife
+          text: >-
+            好，这样最好。
+        - id: ch06-b04
+          speaker: narrator
+          text: >-
+            一年过去，半人备好马，独自骑到当初熟睡时遇见女食人魔的地方。那里空无一人，她并不在。半人不知道接下来该往哪里找，只好下马守在原地。一直等到午夜，她才忽然出现在他面前。
+        - id: ch06-b05
+          speaker: second_ogress
+          text: >-
+            半人，你到这里来做什么？
+        - id: ch06-b06
+          speaker: halfman
+          text: >-
+            我有件事想问你。
+        - id: ch06-b07
+          speaker: second_ogress
+          text: >-
+            问吧。不过我已经知道了。你妻子让你来问，我会不会像带走长子那样，再带走你们的第二个儿子。
+        - id: ch06-b08
+          speaker: halfman
+          text: >-
+            对，就是这件事。啊，也让我见见儿子吧！我想看看他长成了什么样，现在又在做些什么。
+        - id: ch06-b09
+          speaker: narrator
+          text: >-
+            半人一把抓住她的手。女食人魔没有回答，只把手杖重重插进土中。大地立刻裂开，男孩从下面现身了。
+        - id: ch06-b10
+          speaker: son
+          text: >-
+            亲爱的父亲，您也来了吗？
+          emotion: surprised
+        - id: ch06-b11
+          speaker: narrator
+          text: >-
+            半人一把搂住儿子，忍不住失声痛哭。男孩却挣扎着想下来。
+        - id: ch06-b12
+          speaker: son
+          text: >-
+            亲爱的父亲，放我下去吧。我有了一个新母亲，她比从前的母亲好。我还有一个新父亲，他也比您好。
+        - id: ch06-b13
+          speaker: narrator
+          text: >-
+            父亲只好把他放到地上。
+        - id: ch06-b14
+          speaker: halfman
+          text: >-
+            平安回去吧，我的孩子。不过先替我带句话。告诉你的食人魔父亲和女食人魔母亲，他们再也别想得到我的任何一个孩子。
+        - id: ch06-b15
+          speaker: son
+          text: >-
+            好。母亲！
+        - id: ch06-b16
+          speaker: second_ogress
+          text: >-
+            什么事？
+        - id: ch06-b17
+          speaker: son
+          text: >-
+            以后不许再带走我父母的其他孩子！
+        - id: ch06-b18
+          speaker: second_ogress
+          text: >-
+            如今有了你，我一个也不想再要了。
+        - id: ch06-b19
+          speaker: son
+          text: >-
+            平安回去吧，亲爱的父亲。替我问候母亲。告诉她，从今以后不用再担心了，她可以留下所有孩子。
+        - id: ch06-b20
+          speaker: narrator
+          text: >-
+            半人骑上马回到家，把自己看到的一切，还有穆罕默德托他带的话，全都告诉了妻子。这个穆罕默德，就是法官之子半人的儿子。
+        - id: ch06-b21
+          speaker: narrator
+          text: >-
+            这个故事出自汉斯·冯·施图默的《的黎波里城的童话与诗歌》。

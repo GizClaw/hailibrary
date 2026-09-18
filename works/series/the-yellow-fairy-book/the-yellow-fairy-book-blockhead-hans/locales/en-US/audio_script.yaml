@@ -1,0 +1,259 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, clear, and quietly cautionary
+        timbre: gentle and resonant
+        pace: measured
+        pitch: medium
+    learned_brother:
+      display_name: The Learned Brother
+      tts:
+        delivery: proud, polished, and easily flustered
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium
+    clever_brother:
+      display_name: The Clever Brother
+      tts:
+        delivery: confident, proper, and self-important
+        timbre: smooth and youthful
+        pace: measured
+        pitch: medium-low
+    blockhead_hans:
+      display_name: Blockhead Hans
+      tts:
+        delivery: cheerful, bold, and quick-witted
+        timbre: bright and hearty
+        pace: lively
+        pitch: medium
+    old_squire:
+      display_name: The Old Squire
+      tts:
+        delivery: stern, dismissive, and fatherly
+        timbre: weathered and full
+        pace: unhurried
+        pitch: low
+    princess:
+      display_name: The Princess
+      tts:
+        delivery: sharp, playful, and self-assured
+        timbre: clear and poised
+        pace: brisk
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: Three Brothers and a Princess
+      blocks:
+      - id: ch01-b01
+        speaker: narrator
+        text: Far out in the country stood an old manor house. An old squire lived there with his sons. Two of them thought themselves so clever that half their knowledge would surely have been enough. Both meant to marry the King's daughter. She had announced that she would choose the man who knew best how to use his words.
+      - id: ch01-b02
+        speaker: narrator
+        text: The brothers had one week to prepare for the courtship, the longest time anyone was allowed. That was plenty for them, since they already had so much learning to build on. One brother knew the whole Latin dictionary by heart. He had also memorized three years of the town newspaper and could recite every word forward or backward.
+      - id: ch01-b03
+        speaker: narrator
+        text: The other brother had studied corporation law. He knew everything a member of the corporation was supposed to know, so he felt ready to discuss affairs of state and give his opinion. He could also embroider roses, other flowers, and curling patterns onto a pair of braces. His fingers were wonderfully skillful.
+      - id: ch01-b04
+        speakers: [learned_brother, clever_brother]
+        ensemble: duo
+        text: I shall be the one who wins the King's daughter!
+      - id: ch01-b05
+        speaker: narrator
+        text: Their father gave each brother a handsome horse. The brother who knew the dictionary and newspapers received a black one. The expert in corporation law received a milk-white one. Before leaving, they even oiled the corners of their mouths, hoping the words would flow more easily.
+      - id: ch01-b06
+        speaker: narrator
+        text: All the servants gathered in the courtyard to watch them mount. Just then, the third brother happened by. The squire really had three sons, but no one counted this one with the other two because he had none of their learning. Everyone called him Blockhead Hans.
+      - id: ch01-b07
+        speaker: blockhead_hans
+        text: Well, well! Where are you going in your best Sunday clothes?
+      - id: ch01-b08
+        speakers: [learned_brother, clever_brother]
+        ensemble: duo
+        text: We are riding to court to ask for the Princess's hand. Surely you have heard the news that everyone in the countryside knows!
+      - id: ch01-b09
+        speaker: narrator
+        text: They explained the whole proclamation to him.
+      - id: ch01-b10
+        speaker: blockhead_hans
+        text: Hurrah! Then I am going too!
+        emotion: happy
+      - id: ch01-b11
+        speaker: narrator
+        text: His brothers laughed and rode away. Hans called after his father.
+      - id: ch01-b12
+        speaker: blockhead_hans
+        text: Dear Father, I need a horse too. I have been seized by such a wish to marry! If she wants me, she will have me. And if she does not want me, I will have her!
+      - id: ch01-b13
+        speaker: old_squire
+        text: Enough of that foolishness! I will not give you a horse. You cannot speak properly, and you have no idea how to choose your words. Your brothers are very different young men!
+      - id: ch01-b14
+        speaker: blockhead_hans
+        text: All right. If I cannot have a horse, I will ride my own goat. He can carry me.
+    - id: ch02
+      title: Treasures on the Road
+      blocks:
+      - id: ch02-b01
+        speaker: narrator
+        text: And that was exactly what he did. Hans climbed onto the goat, dug his heels into its sides, and went rattling down the high road like a hurricane.
+      - id: ch02-b02
+        speaker: blockhead_hans
+        text: Hoppety-hop, what a ride! Here I come!
+        emotion: happy
+      - id: ch02-b03
+        speaker: narrator
+        text: He sang so loudly that echoes woke far and near. Up ahead, his brothers rode at a slow pace. Neither one spoke. They were busy thinking over all the brilliant things they planned to say, because every word had to be prepared beforehand.
+      - id: ch02-b04
+        speaker: blockhead_hans
+        text: Hello there! Here I am! Just look at what I found beside the road!
+      - id: ch02-b05
+        speaker: narrator
+        text: Hans held up a dead crow that he had picked up.
+      - id: ch02-b06
+        speakers: [learned_brother, clever_brother]
+        ensemble: duo
+        text: You blockhead! What could you possibly do with that?
+      - id: ch02-b07
+        speaker: blockhead_hans
+        text: The crow? I am going to give it to the Princess.
+      - id: ch02-b08
+        speakers: [learned_brother, clever_brother]
+        ensemble: duo
+        text: Yes, by all means. You do that!
+      - id: ch02-b09
+        speaker: narrator
+        text: They laughed loudly and rode on. Before long, Hans caught them again.
+      - id: ch02-b10
+        speaker: blockhead_hans
+        text: Slap! Bang! Here I am again! Look at this new thing I found. You do not come across one of these every day!
+      - id: ch02-b11
+        speaker: narrator
+        text: His brothers turned around to see what in the world he was carrying now.
+      - id: ch02-b12
+        speakers: [learned_brother, clever_brother]
+        ensemble: duo
+        text: You blockhead! That is only an old wooden shoe with the top missing. Are you giving that to the Princess too?
+      - id: ch02-b13
+        speaker: blockhead_hans
+        text: Of course I am!
+      - id: ch02-b14
+        speaker: narrator
+        text: The brothers laughed again and left him far behind. But after a while, Hans came rattling up once more.
+      - id: ch02-b15
+        speaker: blockhead_hans
+        text: Slap! Bang! Here I am! My finds keep getting better. This one is truly splendid!
+      - id: ch02-b16
+        speakers: [learned_brother, clever_brother]
+        ensemble: duo
+        text: What have you picked up this time?
+      - id: ch02-b17
+        speaker: blockhead_hans
+        text: Oh, this is almost too good. Just think how delighted the Princess will be!
+      - id: ch02-b18
+        speakers: [learned_brother, clever_brother]
+        ensemble: duo
+        text: Why, that is nothing but mud, straight out of the ditch!
+      - id: ch02-b19
+        speaker: blockhead_hans
+        text: Of course it is, and it is the very best kind. See how it runs between your fingers!
+      - id: ch02-b20
+        speaker: narrator
+        text: With that, Hans filled his pocket with mud.
+    - id: ch03
+      title: The Suitors at Court
+      blocks:
+      - id: ch03-b01
+        speaker: narrator
+        text: Meanwhile, the two brothers rode so fast that dust and sparks flew around them. They reached the town gate a full hour before Hans. There, each suitor received a number according to when he had arrived. The men stood in rows of six, packed so closely that no one could move his arms. That was fortunate. Otherwise, they might have torn one another to pieces simply because one man stood ahead of another.
+      - id: ch03-b02
+        speaker: narrator
+        text: Country people crowded around the King's throne in thick masses. Some were almost spilling out through the windows as they watched the Princess meet her suitors. Yet whenever a man entered the room, every fine phrase he had prepared went out like the flame of a candle.
+      - id: ch03-b03
+        speaker: princess
+        text: It makes no difference. Away with him! Send him out!
+      - id: ch03-b04
+        speaker: narrator
+        text: At last, the Princess reached the row where the brother who knew the dictionary was waiting. By then, he no longer knew it at all. Standing there in line had driven every word from his head. The floor creaked under him, and the ceiling was covered with mirrored glass. When he looked up, he saw himself standing on his head.
+      - id: ch03-b05
+        speaker: narrator
+        text: Beside every window stood three reporters and an editor. They wrote down everything anyone said so it could appear in the newspaper the next day and be sold for a penny on street corners. The whole thing was terrifying. Worse still, the fire had been built up until the room felt like a grill.
+      - id: ch03-b06
+        speaker: learned_brother
+        text: It is terribly hot in this room, is it not?
+      - id: ch03-b07
+        speaker: princess
+        text: Naturally. My father is roasting young chickens today.
+      - id: ch03-b08
+        speaker: narrator
+        text: The young man cleared his throat, but all he could manage was an awkward ahem. He stood there looking like an idiot. He had not prepared for an answer like that. He wanted desperately to say something witty, but nothing came.
+      - id: ch03-b09
+        speaker: princess
+        text: It makes no difference. Take him away!
+      - id: ch03-b10
+        speaker: narrator
+        text: So out he went. Then the second brother entered.
+      - id: ch03-b11
+        speaker: clever_brother
+        text: My, it is hot in here!
+      - id: ch03-b12
+        speaker: princess
+        text: Of course it is. We are roasting young chickens today.
+      - id: ch03-b13
+        speaker: narrator
+        text: He tried to ask how she did it, but he got no farther than, “How do you... um?” The reporters wrote down every helpless word.
+      - id: ch03-b14
+        speaker: princess
+        text: It makes no difference. Take him away!
+    - id: ch04
+      title: Blockhead Hans Has the Answer
+      blocks:
+      - id: ch04-b01
+        speaker: narrator
+        text: Now it was Blockhead Hans's turn. He rode his goat straight into the great hall.
+      - id: ch04-b02
+        speaker: blockhead_hans
+        text: Whew! It is roasting hot in here!
+      - id: ch04-b03
+        speaker: princess
+        text: Naturally. I am roasting young chickens today.
+      - id: ch04-b04
+        speaker: blockhead_hans
+        text: Excellent! Then may I roast a crow along with them?
+      - id: ch04-b05
+        speaker: princess
+        text: I would be delighted. But do you have anything to roast them in? I have no pot or saucepan.
+      - id: ch04-b06
+        speaker: blockhead_hans
+        text: Oh, certainly! Here is a fine cooking dish, complete with tin rings.
+      - id: ch04-b07
+        speaker: narrator
+        text: Hans pulled out the old wooden shoe and laid the dead crow inside it.
+      - id: ch04-b08
+        speaker: princess
+        text: That will make quite a meal. But where can we find the soup?
+      - id: ch04-b09
+        speaker: blockhead_hans
+        text: I have the soup right here in my pocket. There is so much that I can spare some!
+      - id: ch04-b10
+        speaker: narrator
+        text: He reached into his pocket and poured out some of the mud.
+      - id: ch04-b11
+        speaker: princess
+        text: I like you. You know how to answer, and you can truly speak. I will marry you. But did you know that every word we say, and every word we have already said, is being written down for tomorrow's newspaper? Look by the windows. Three reporters and an old editor are standing at each one. That old editor is the worst of all because he understands nothing!
+      - id: ch04-b12
+        speaker: narrator
+        text: The Princess said this only to tease Hans. The reporters giggled, and each one dropped a blot of ink onto the floor.
+      - id: ch04-b13
+        speaker: blockhead_hans
+        text: Ah, so those are the important people? Then the editor shall have my very best!
+      - id: ch04-b14
+        speaker: narrator
+        text: Hans turned his pockets inside out and flung the mud straight into the editor's face.
+      - id: ch04-b15
+        speaker: princess
+        text: That was beautifully done! I could not have managed it myself, but I will soon learn.
+      - id: ch04-b16
+        speaker: narrator
+        text: And so Blockhead Hans became King. He gained a wife and a crown and took his seat upon the throne. We have the whole account still damp from the newspaper of the editor and the reporters. But you must not believe one word of it.

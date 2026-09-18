@@ -1,0 +1,425 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant, and gently ironic
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    edward:
+      display_name: Edward
+      tts:
+        delivery: proud, direct, and naturally commanding
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium-high
+    miles_hendon:
+      display_name: Miles Hendon
+      tts:
+        delivery: hearty, protective, and dryly amused
+        timbre: warm and rugged
+        pace: steady
+        pitch: medium-low
+    john_canty:
+      display_name: John Canty
+      tts:
+        delivery: rough, threatening, and impatient
+        timbre: coarse and heavy
+        pace: brisk
+        pitch: low
+    londoner_1:
+      display_name: Londoner One
+      tts:
+        delivery: urgent and excited
+        timbre: strong and weathered
+        pace: brisk
+        pitch: medium
+    londoner_2:
+      display_name: Londoner Two
+      tts:
+        delivery: urgent and excited
+        timbre: bright and carrying
+        pace: brisk
+        pitch: medium-high
+    londoner_3:
+      display_name: Londoner Three
+      tts:
+        delivery: urgent and excited
+        timbre: full and ringing
+        pace: brisk
+        pitch: medium-low
+  chapters:
+    - id: ch01
+      title: The King Is Dead
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Once Miles Hendon and the little prince had escaped the mob, they hurried through back lanes and alleys toward the river. Nothing stopped them until they came near London Bridge. There they had to push into another crowd, and Hendon kept a firm hold on the boy's wrist.
+        - id: ch01-b02
+          speakers: [londoner_1, londoner_2, londoner_3]
+          ensemble: chorus
+          text: >-
+            The King is dead!
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            The news was everywhere. A thousand voices seemed to tell him at once. Cold grief struck the poor child, and his whole body shook. The grim ruler who had terrified so many people had always been gentle with his son. Now that father was gone. Tears filled Edward's eyes until he could hardly see. For one moment, he felt more lost and forsaken than anyone alive. Then another cry rolled through the night like thunder.
+        - id: ch01-b04
+          speakers: [londoner_1, londoner_2, londoner_3]
+          ensemble: chorus
+          text: >-
+            Long live King Edward the Sixth!
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            Edward's eyes lit up. Pride thrilled through him from head to foot.
+        - id: ch01-b06
+          speaker: edward
+          text: >-
+            How grand and strange it seems. I am King!
+          emotion: surprised
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            The two friends moved slowly through the crowds on London Bridge. By then, the bridge had stood for six hundred years. Through all that time, it had been a noisy, crowded road. It was far more than a way across the river. A tightly packed row of shops ran along each side from one bank to the other, with families living in rooms above them. The bridge had an inn, alehouses, bakeries, clothing shops, food markets, workshops, and even a church. It was a little town of its own. It joined London and Southwark, but the bridge folk privately regarded both places as mere suburbs that were otherwise not very important.
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            It was a narrow town with one street, only a fifth of a mile from end to end. Its population was no larger than a village's. Everyone knew everyone else closely. They had known one another's fathers and mothers too, and all the private details of each family. The bridge had an upper class, of course. Its grand old families were butchers, bakers, and other tradespeople whose shops had stood in the same places for five or six hundred years. They knew the bridge's whole history and every strange old legend. They talked bridge talk and thought bridge thoughts. Even their lies came out in a long, level, solid bridge fashion. Living in such a closed little world had made them narrow, ignorant, and very proud of themselves.
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            Children were born on the bridge and raised there. They grew old and died without ever setting foot anywhere else in the world. To them, the endless procession below their windows was the greatest thing that existed. Day and night it rolled past with a confused roar of shouting and crying. Horses neighed, cattle bellowed, sheep bleated, and countless feet made a muffled sound like thunder. The bridge people imagined that this mighty stream of life somehow belonged to them. In a way, it did. Whenever a returning king or hero gave the procession a flash of glory, they displayed it from their windows and charged people to watch. No other place offered such a long, straight, unbroken view of marching columns.
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            Men born and raised amid that noise found life anywhere else unbearably dull and empty. History tells of one bridge-born man who left at the age of seventy-one and retired to the country. He lay fretting and tossing in bed, unable to sleep. The deep stillness felt painful, frightening, and crushing. He endured it until he was worn out, thin, and haggard. Then he fled home like a ghost. Beneath the familiar music of water lashing the bridge, and the boom, crash, and thunder of London Bridge itself, he finally rested in peace and dreamed pleasant dreams.
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            In those days, the bridge also offered its children what people might have called lessons in English history. They were dreadful lessons. The pale, decaying heads of famous men had been pushed onto iron spikes and raised above the bridge's gateways, where every child could see them. But that takes us away from our story.
+    - id: ch02
+      title: A Protector at the Inn
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            Hendon's lodging was in the little inn on the bridge. As he and Edward reached the door, a rough voice called out. John Canty was waiting for them.
+        - id: ch02-b02
+          speaker: john_canty
+          text: >-
+            So you've come back at last! You won't get away again. Perhaps if I pound your bones to mush, you'll learn not to keep us waiting next time.
+          emotion: angry
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            Canty reached for the boy, but Miles stepped between them.
+        - id: ch02-b04
+          speaker: miles_hendon
+          text: >-
+            Hold there, friend. There's no need to be so rough. Who is this boy to you?
+        - id: ch02-b05
+          speaker: john_canty
+          text: >-
+            If you must meddle in another man's affairs, he's my son.
+        - id: ch02-b06
+          speaker: edward
+          text: >-
+            That is a lie!
+          emotion: angry
+        - id: ch02-b07
+          speaker: miles_hendon
+          text: >-
+            Boldly said, and I believe you, whether that little head of yours is sound or cracked. Father or not, this filthy brute won't take you away to beat you, not if you'd rather stay with me.
+        - id: ch02-b08
+          speaker: edward
+          text: >-
+            I would! I don't know him, and I loathe him. I will die before I go with him.
+          emotion: angry
+        - id: ch02-b09
+          speaker: miles_hendon
+          text: >-
+            Then it's settled. There's nothing more to say.
+        - id: ch02-b10
+          speaker: john_canty
+          text: >-
+            We'll see about that! He'll come by force if he must.
+          emotion: angry
+        - id: ch02-b11
+          speaker: narrator
+          text: >-
+            Canty tried to stride past Hendon and seize the boy. Hendon blocked him with one hand on his sword.
+        - id: ch02-b12
+          speaker: miles_hendon
+          text: >-
+            Touch him, you walking pile of filth, and I'll spit you like a goose. I took this lad under my protection when a mob like you might have hurt or killed him. Do you think I'll abandon him to something worse? Whether you're his father or not, and I truly think you're lying, a quick death would be kinder than life in your brutal hands. Be off with you now. I have little patience for trading words.
+          emotion: angry
+        - id: ch02-b13
+          speaker: narrator
+          text: >-
+            Canty backed away. Still muttering threats and curses, he disappeared into the crowd until no one could see him. Hendon ordered a meal to be brought upstairs, then led the boy up three flights to his room. It was a poor little place. There was a shabby bed and only a few odd pieces of old furniture. Two weak, sickly candles gave the room a dim light. Edward dragged himself to the bed and lay down. Hunger and weariness had nearly overcome him. He had been on his feet for much of a day and a night, had eaten nothing in all that time, and it was now two or three in the morning.
+        - id: ch02-b14
+          speaker: edward
+          text: >-
+            Please wake me when the table is ready.
+        - id: ch02-b15
+          speaker: narrator
+          text: >-
+            He fell into a deep sleep at once. A smile twinkled in Hendon's eye as he watched the little beggar take possession of his bed as easily as if he owned it.
+        - id: ch02-b16
+          speaker: miles_hendon
+          text: >-
+            He called himself the Prince of Wales in all his wild talk, and he certainly plays the part bravely. Look at him taking over my room and my bed with the easy grace of their owner. He never once asked leave or said please. Poor friendless little rat. Cruel treatment must have disordered his mind. Well, I'll be his friend. I saved him, and something draws me strongly to him. Already I love the bold-tongued rascal. He faced that dirty mob like a soldier and threw their insults right back at them. And now that sleep has taken away his trouble and grief, what a handsome, sweet, and gentle face he has. I'll teach him and cure him. I'll be his elder brother and watch over him. Anyone who shames or hurts him had better order his burial cloth, because he'll need it, even if I burn for the deed afterward.
+        - id: ch02-b17
+          speaker: narrator
+          text: >-
+            Hendon bent over Edward with kindness and pity. He gently touched the boy's cheek and smoothed back his tangled curls with one great brown hand. Edward shivered slightly.
+        - id: ch02-b18
+          speaker: miles_hendon
+          text: >-
+            Fine work, Miles. You let him lie here uncovered and catch his death. But what can I do? If I lift him into the bed properly, I'll wake him, and he badly needs his sleep.
+        - id: ch02-b19
+          speaker: narrator
+          text: >-
+            There was no extra covering, so Miles took off his doublet and wrapped it around the boy.
+        - id: ch02-b20
+          speaker: miles_hendon
+          text: >-
+            I'm used to cold air and thin clothing. The chill won't trouble me much.
+        - id: ch02-b21
+          speaker: narrator
+          text: >-
+            He paced the room to keep warm and went on thinking aloud.
+        - id: ch02-b22
+          speaker: miles_hendon
+          text: >-
+            His hurt mind tells him he's the Prince of Wales. But the true prince is king now, and this poor boy's fancy can't reason out that it ought to call itself king too. If my father is still alive after the seven years I've spent in a foreign prison, he'll welcome the lad and shelter him for my sake. So will my good elder brother, Arthur. As for Hugh, that fox-hearted beast, I'll crack his skull if he interferes. Yes, we'll go to Hendon Hall, and we'll go at once.
+    - id: ch03
+      title: The King at Supper
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            A servant came in carrying a steaming meal. He set everything on a small plain wooden table, put the chairs in place, and left. Cheap lodgers like these were expected to wait on themselves. The door slammed behind him and woke Edward. The boy sprang upright and looked around with delight, as if he expected to find something wonderful. Then he understood where he was. Grief crossed his face, and he spoke to himself with a deep sigh.
+        - id: ch03-b02
+          speaker: edward
+          text: >-
+            Alas. It was only a dream.
+          emotion: sad
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            Then he saw Miles's doublet around him. He looked from it to Miles and understood what his protector had given up for him.
+        - id: ch03-b04
+          speaker: edward
+          text: >-
+            You are good to me. Yes, very good. Take your coat and put it on. I won't need it now.
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            Edward rose, walked to the washstand in the corner, and waited. Miles spoke cheerfully.
+        - id: ch03-b06
+          speaker: miles_hendon
+          text: >-
+            Now we'll have a hearty supper. Everything smells good and is piping hot. Between the food and your nap, you'll soon feel like yourself again.
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            The boy did not answer. He only stared at the tall swordsman with grave surprise and growing impatience. Miles could not understand it.
+        - id: ch03-b08
+          speaker: miles_hendon
+          text: >-
+            What's wrong?
+        - id: ch03-b09
+          speaker: edward
+          text: >-
+            Good sir, I wish to wash.
+        - id: ch03-b10
+          speaker: miles_hendon
+          text: >-
+            Is that all? You never need my permission here. Use anything of mine as freely as you please.
+        - id: ch03-b11
+          speaker: narrator
+          text: >-
+            Still Edward did not move. He tapped one small foot against the floor. Miles grew even more puzzled.
+        - id: ch03-b12
+          speaker: miles_hendon
+          text: >-
+            Good heavens, what is it now?
+        - id: ch03-b13
+          speaker: edward
+          text: >-
+            Pour the water, please, and stop talking so much.
+        - id: ch03-b14
+          speaker: narrator
+          text: >-
+            Miles swallowed a great laugh.
+        - id: ch03-b15
+          speaker: miles_hendon
+          text: >-
+            By all the saints, this is wonderful.
+        - id: ch03-b16
+          speaker: narrator
+          text: >-
+            He hurried to obey the small, commanding boy. Then he stood there in amazement until another order brought him to attention.
+        - id: ch03-b17
+          speaker: edward
+          text: >-
+            Come now. The towel!
+        - id: ch03-b18
+          speaker: narrator
+          text: >-
+            Miles picked up the towel lying right beneath Edward's nose and handed it over without a word. While Miles washed his own face, his adopted child sat at the table, ready to eat. Miles finished quickly and pulled back the other chair. He was just about to sit when Edward stopped him in outrage.
+        - id: ch03-b19
+          speaker: edward
+          text: >-
+            Stop! Would you sit in the presence of the King?
+          emotion: angry
+        - id: ch03-b20
+          speaker: narrator
+          text: >-
+            That shook Miles to his foundations.
+        - id: ch03-b21
+          speaker: miles_hendon
+          text: >-
+            The poor child's madness has kept pace with the news. He used to imagine he was prince, but now he believes he's king. I must play along. There's no other way. If I don't, he'll probably order me to the Tower.
+        - id: ch03-b22
+          speaker: narrator
+          text: >-
+            Amused by his own joke, Miles moved the chair away. He stood behind Edward and waited on him with all the courtly skill he could manage. As the King ate, his strict dignity softened. Food made him more content and more willing to talk.
+        - id: ch03-b23
+          speaker: edward
+          text: >-
+            If I heard correctly, you call yourself Miles Hendon.
+        - id: ch03-b24
+          speaker: miles_hendon
+          text: >-
+            Yes, Sire.
+        - id: ch03-b25
+          speaker: narrator
+          text: >-
+            Miles reminded himself that if he meant to humor the boy, he must do it properly. He would call him Sire and Majesty and leave out nothing the part required. Otherwise, his kindly plan might do more harm than good. Edward warmed himself with a second glass of wine.
+        - id: ch03-b26
+          speaker: edward
+          text: >-
+            I want to know you. Tell me your story. You have a gallant manner, and something noble about you. Are you nobly born?
+    - id: ch04
+      title: Miles Hendon's Story
+      blocks:
+        - id: ch04-b01
+          speaker: miles_hendon
+          text: >-
+            We belong to the lowest rank of the nobility, Your Majesty. My father is Sir Richard Hendon, a baronet and one of the lesser lords who owes the King military service. Our home is Hendon Hall, near Monk's Holm in Kent.
+        - id: ch04-b02
+          speaker: edward
+          text: >-
+            I don't remember the name. Go on. Tell me the rest.
+        - id: ch04-b03
+          speaker: miles_hendon
+          text: >-
+            There isn't much to tell, Sire, but perhaps it will pass half an hour when there is no better entertainment. My father is very rich and very generous. My mother died when I was still a boy. I have two brothers. Arthur, the eldest, has a heart like our father's. Hugh is younger than I am. He's mean-spirited, greedy, false, vicious, and always working in secret. He was that way from the cradle. When I last saw him ten years ago, he was already a practiced scoundrel at nineteen. I was twenty then, and Arthur was twenty-two.
+        - id: ch04-b04
+          speaker: miles_hendon
+          text: >-
+            There was also our cousin, Lady Edith. She was sixteen, beautiful, gentle, and good. Her father was an earl, and she was the last of his family. She had inherited a great fortune, and an old title had ended with her father. My father was her guardian. Edith and I loved each other, but she had been promised to Arthur since infancy, and Sir Richard would not allow the agreement to be broken. Arthur loved another young woman. He told us not to lose heart. If we held on and waited, he believed time and luck might eventually bring success to both couples.
+        - id: ch04-b05
+          speaker: miles_hendon
+          text: >-
+            Hugh loved Edith's fortune. He claimed he loved Edith herself, but saying one thing and meaning another was his usual way. His tricks were wasted on her. He couldn't fool Edith or anyone else, though he could fool my father. Sir Richard loved and trusted him above the rest of us. Hugh was the youngest child, and everyone else disliked him. Those two things have often been enough to win a parent's deepest love. Hugh also had a smooth, persuasive tongue and a remarkable gift for lying. Those gifts made it much easier for my father's blind affection to deceive itself.
+        - id: ch04-b06
+          speaker: miles_hendon
+          text: >-
+            I was wild. Very wild, if I'm honest. But it was innocent wildness. My foolishness hurt no one except me. It brought no one shame or loss. There was no crime or baseness in it, and nothing unworthy of my rank. Hugh turned those faults to his advantage. Arthur's health was poor, and Hugh hoped the worst might happen to him. If I too were swept out of the way, Hugh would profit from both our misfortunes.
+        - id: ch04-b07
+          speaker: miles_hendon
+          text: >-
+            The full tale is long and hardly worth telling, my liege. In short, Hugh carefully enlarged my faults until he made them look like crimes. At last, he secretly planted a silk ladder in my rooms, then arranged for it to be found. He also paid or persuaded servants and other lying rogues to give false evidence. With the ladder and their stories, he convinced my father I meant to carry Edith away and marry her in open defiance of Sir Richard's will.
+        - id: ch04-b08
+          speaker: miles_hendon
+          text: >-
+            My father banished me from my home and from England for three years. He said the punishment would make me a soldier and a man and teach me at least a little wisdom. I spent that long period fighting in wars on the Continent. There I tasted more than enough hard blows, hunger, hardship, and adventure. But in my last battle, I was taken prisoner. The three years became ten. For the next seven years, while the seasons came and went outside, a foreign dungeon was my home.
+        - id: ch04-b09
+          speaker: miles_hendon
+          text: >-
+            At last, courage and cleverness got me into the open air. I escaped and fled straight back to England. I have only just arrived. My purse is nearly empty, and my clothes are as poor as you see. Poorer still is my knowledge of home. I don't know what those seven slow years have done to Hendon Hall, its lands, or any of the people I left there. That is all of my small story, Sire.
+        - id: ch04-b10
+          speaker: edward
+          text: >-
+            You have been treated shamefully! But I will put it right. I swear it by the cross. The King has spoken.
+          emotion: angry
+        - id: ch04-b11
+          speaker: narrator
+          text: >-
+            Miles's wrongs stirred Edward deeply. Once he began speaking, the King poured out the whole history of his own recent troubles for the astonished soldier. He told how one misfortune had followed another. When the boy finished, Miles marveled in silence at the straight, colorful tale he had woven.
+        - id: ch04-b12
+          speaker: miles_hendon
+          text: >-
+            What an imagination! This is no ordinary mind. Sane or mad, no common child could build such a bright, orderly adventure out of empty air. Poor ruined little head. As long as I'm alive, he won't lack a friend or a home. He'll stay beside me as my pet and little comrade. And I'll see him cured and made well. Someday he'll make a name for himself. Then I'll proudly say, "Yes, he's mine. I found him a homeless little ragamuffin, but I saw what was in him. I knew the world would hear his name. Look at him now. Was I right?"
+        - id: ch04-b13
+          speaker: narrator
+          text: >-
+            Edward spoke again in a thoughtful, measured voice.
+        - id: ch04-b14
+          speaker: edward
+          text: >-
+            You saved me from injury and shame, and perhaps from death. That means you also saved my crown. Such service deserves a rich reward. Name what you desire. If it lies within my royal power, it is yours.
+          emotion: calm
+        - id: ch04-b15
+          speaker: narrator
+          text: >-
+            The astonishing offer pulled Miles out of his daydream. He almost thanked Edward, put the whole matter aside, and said he had only done his duty and wanted no reward. Then a wiser idea came to him. He asked permission to remain silent for a few moments while he considered the generous offer. Edward gravely approved. A matter so important, he said, should not be decided too quickly.
+        - id: ch04-b16
+          speaker: narrator
+          text: >-
+            Miles considered the problem carefully. There seemed to be no other way to get what he needed. His first hour as the boy's companion had taught him how tiring and inconvenient life could become if everything continued as it was. The offer gave him one unexpected chance to solve it. Pleased that he had not thrown that lucky chance away, he made his decision and dropped to one knee.
+        - id: ch04-b17
+          speaker: miles_hendon
+          text: >-
+            My poor service went no further than a subject's duty, so it deserves no reward. Still, since Your Majesty wishes to honor it, I have a request. Nearly four hundred years ago, as you know, King John of England and the King of France were bitter enemies. They agreed that two champions would fight, and God's judgment in the contest would settle their dispute.
+        - id: ch04-b18
+          speaker: miles_hendon
+          text: >-
+            The two kings and the King of Spain gathered to watch the battle and judge its result. The French champion appeared, and he looked so fearsome that no English knight would meet him with weapons. England was about to lose this important dispute without a blow being struck. But Lord de Courcy was imprisoned in the Tower. He had the mightiest arm in England, though his honors and possessions had been stripped from him, and he was wasting away through his long captivity.
+        - id: ch04-b19
+          speaker: miles_hendon
+          text: >-
+            They appealed to De Courcy, and he agreed to fight for his king. He came out of the Tower dressed for battle. The moment the French champion saw his huge body and heard his famous name, the man turned and fled. No fight was needed. His flight cost the French king his cause. King John restored all of De Courcy's titles and possessions. Then he told the champion to name his wish and promised to grant it, even if the reward cost half the kingdom.
+        - id: ch04-b20
+          speaker: miles_hendon
+          text: >-
+            De Courcy knelt just as I kneel now. He asked that he and every heir after him be allowed to remain covered in the presence of England's kings for as long as the throne should last. The King granted the wish. Through all these four hundred years, that ancient family has never lacked an heir. Even today, the head of the house may still wear his hat or helmet before the King without anyone stopping him. No other subject has that right.
+        - id: ch04-b21
+          speaker: miles_hendon
+          text: >-
+            I ask Your Majesty to use that old example for my request. As more than enough reward, grant one grace to me and my heirs forever. Let us sit in the presence of the King or Queen of England.
+        - id: ch04-b22
+          speaker: edward
+          text: >-
+            Rise, Sir Miles Hendon, Knight.
+        - id: ch04-b23
+          speaker: narrator
+          text: >-
+            Edward took Hendon's own sword and touched him with it, making him a knight.
+        - id: ch04-b24
+          speaker: edward
+          text: >-
+            Rise and take your seat. Your request is granted. As long as England and its crown remain, this privilege will never end.
+        - id: ch04-b25
+          speaker: narrator
+          text: >-
+            His Majesty walked apart and fell into thought. Miles dropped into a chair at the table. His legs were terribly weary, and at last he could rest them without offending the little King.
+        - id: ch04-b26
+          speaker: miles_hendon
+          text: >-
+            That was a fine idea and a mighty rescue. If I hadn't thought of it, I might have stood for weeks while my poor boy's mind recovered. So now I'm a knight in a kingdom of dreams and shadows. What a strange position for such a practical man! But I won't laugh. Heaven forbid. What seems empty to me is real to him. And in another way, it isn't false to me either. It shows the sweet and generous spirit inside him.
+        - id: ch04-b27
+          speaker: narrator
+          text: >-
+            After a pause, another thought came to Miles.
+        - id: ch04-b28
+          speaker: miles_hendon
+          text: >-
+            What if he calls me by my grand new title in front of other people? My glory and my ragged clothes will make a merry contrast. Still, it doesn't matter. He may call me anything he likes if it pleases him. I'll be content.

@@ -1,0 +1,163 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, observant, and gently ironic
+        timbre: clear and resonant
+        pace: measured
+        pitch: medium
+    tom_canty:
+      display_name: Tom Canty
+      tts:
+        delivery: youthful, thoughtful, and increasingly assured
+        timbre: clear and light
+        pace: measured
+        pitch: medium-high
+    herald:
+      display_name: Herald
+      tts:
+        delivery: ceremonial and commanding
+        timbre: clear and ringing
+        pace: measured
+        pitch: medium-low
+    spectator_1:
+      display_name: First Spectator
+      tts:
+        delivery: loyal and jubilant
+        timbre: clear and strong
+        pace: measured
+        pitch: medium
+    spectator_2:
+      display_name: Second Spectator
+      tts:
+        delivery: hearty and celebratory
+        timbre: warm and resonant
+        pace: measured
+        pitch: medium-low
+    spectator_3:
+      display_name: Third Spectator
+      tts:
+        delivery: bright and enthusiastic
+        timbre: ringing and light
+        pace: lively
+        pitch: medium-high
+    spectator_4:
+      display_name: Fourth Spectator
+      tts:
+        delivery: grand and fervent
+        timbre: deep and full
+        pace: measured
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Banqueting Room
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            As the dinner hour came closer, Tom felt surprisingly little discomfort and hardly any fear. Everything he had gone through that morning had given him confidence. The poor little stray cat was already growing used to his strange new surroundings after only four days. A grown person might not have settled into them in a month. Nothing showed more clearly how quickly a child can adjust to whatever happens.
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            While Tom was being dressed for the great occasion, we may hurry ahead and look into the banqueting room. It was a vast chamber, with gilded pillars and painted walls and ceilings. Tall guards stood stiff as statues at the door. They wore rich, colorful uniforms and carried halberds.
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            A high gallery ran all around the room. Musicians waited there beside a tightly packed crowd of finely dressed men and women. In the middle of the chamber, Tom's table stood alone on a raised platform.
+        - id: ch01-b04
+          speaker: narrator
+          text: >-
+            An old chronicler tells us how that table was prepared. First, one gentleman entered carrying a rod, and another followed with a tablecloth. They knelt three times with the deepest respect. Then the second man spread the cloth, and both men knelt once more before they left.
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            Two more gentlemen came in. Again, one carried the rod. The other brought a saltcellar, a plate, and bread. They knelt just as the first pair had done, arranged everything on the table, and withdrew with the same solemn ceremony.
+        - id: ch01-b06
+          speaker: narrator
+          text: >-
+            Last came two richly dressed nobles. One of them carried a tasting knife. They bowed all the way to the floor three times, each bow as graceful as the last. Then they approached the table and rubbed it with bread and salt. They treated the task with as much awe as if the King himself had been standing there.
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            At last, the solemn preparations were complete.
+    - id: ch02
+      title: Way for the King
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            Far away down the echoing corridors, a bugle sounded. A faint voice called for everyone to make way for the King and his excellent majesty. The call came again and again. Each time it was nearer.
+        - id: ch02-b02
+          speaker: herald
+          text: >-
+            Make way for the King!
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            Now the martial note rang almost in their faces. A shining procession appeared at the door and entered with a slow, measured march.
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            Gentlemen came first, then barons, earls, and Knights of the Garter. Every man was richly dressed and bareheaded. The Chancellor followed between two attendants. One carried the royal scepter. The other held the Sword of State upright in its red scabbard, which glittered with golden fleurs-de-lis.
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            Then came the King himself. Twelve trumpets and a host of drums burst into a mighty welcome. Everyone in the galleries rose.
+        - id: ch02-b06
+          speakers: [spectator_1, spectator_2, spectator_3, spectator_4]
+          ensemble: chorus
+          text: >-
+            God save the King!
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            Nobles of the royal household followed Tom. His guard of honor marched on both sides, fifty Gentlemen Pensioners carrying gilded battle-axes.
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            Tom found it all splendid and delightful. His pulse raced, and his eyes shone with pleasure. He moved with natural grace because he was not wondering how he looked. The bright sights and cheerful sounds held all his attention. Besides, once a person gets used to beautiful clothes that fit well, it is hard to look very awkward in them, especially when he has forgotten he is wearing them.
+        - id: ch02-b09
+          speaker: narrator
+          text: >-
+            Tom remembered what he had been taught. He dipped his plumed head slightly to answer the greeting.
+        - id: ch02-b10
+          speaker: tom_canty
+          text: >-
+            I thank you, my good people.
+        - id: ch02-b11
+          speaker: narrator
+          text: >-
+            He sat down at the table and kept his cap on. That caused him no embarrassment at all. Eating with a cap on happened to be the one royal custom that kings and the Canty family knew equally well. Neither side could claim more practice than the other.
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            The procession broke apart and formed beautiful groups around him. Everyone remained bareheaded.
+    - id: ch03
+      title: The State Dinner
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            Gay music began to play. Then the Yeomen of the Guard entered. These were said to be the tallest and strongest men in England, carefully chosen for their size and power. They were bareheaded and dressed in scarlet, with golden roses on their backs.
+        - id: ch03-b02
+          speaker: narrator
+          text: >-
+            The Yeomen came and went, carrying one course of food after another on silver plate. A gentleman received each dish in the order it arrived and set it on the table. Before that happened, the royal taster gave every guard a bite from the dish he had brought. The guard had to eat it, in case the food was poisoned.
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            Tom ate a good dinner, even though he knew that hundreds of eyes followed every bite on its way to his mouth. The crowd watched with such intense interest that anyone might have thought each morsel was a deadly explosive, ready to blow him to pieces and scatter him around the room.
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            He took care not to eat too quickly. He was just as careful never to do anything for himself. Each time he needed something, he waited until the proper official knelt and did it for him. Tom reached the end of the meal without making one mistake. It was a perfect and precious victory.
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            At last, dinner was over. Tom marched away surrounded by his glittering procession. Bugles blared, drums rolled, and great cheers thundered in his ears.
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            If this was the worst that could happen when he dined in public, Tom felt he would gladly endure it several times every day. It would be a small price to pay if it could free him from some of the more frightening duties that came with being King.

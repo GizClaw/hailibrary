@@ -1,0 +1,259 @@
+audio_script:
+  language: zh-CN
+  cast:
+    narrator:
+      display_name: 讲述者
+      tts:
+        delivery: 清楚从容，像在为听众介绍一本古老的童话集
+        timbre: 温暖明净
+        pace: 舒缓
+        pitch: 中音
+    father:
+      display_name: 父亲
+      tts: {delivery: 朴实开朗，打趣女儿时亲切爽快, timbre: 温厚成熟, pace: 适中, pitch: 中低音}
+    eldest_sister:
+      display_name: 大姐
+      tts: {delivery: 好强爱体面，得意时直截了当, timbre: 明亮年轻, pace: 适中, pitch: 中高音}
+    second_sister:
+      display_name: 二姐
+      tts: {delivery: 爱慕虚荣，情绪来得快而鲜明, timbre: 清脆年轻, pace: 稍快, pitch: 中高音}
+    helga:
+      display_name: 赫尔加
+      tts: {delivery: 温柔坦率，好奇时轻快，面对奇事仍沉静, timbre: 清澈年轻, pace: 适中, pitch: 中音}
+    mysterious_voice:
+      display_name: 神秘的声音
+      tts: {delivery: 低声而笃定，带着不可抗拒的神秘感, timbre: 轻柔空灵, pace: 缓慢, pitch: 中低音}
+    habogi:
+      display_name: 哈博吉
+      tts: {delivery: 寡言沉着，语气坚定，暗藏从容自信, timbre: 粗厚低沉, pace: 舒缓, pitch: 低音}
+    guest_1:
+      display_name: 宾客甲
+      tts: {delivery: 好奇惊讶，反应直接, timbre: 明亮成年, pace: 适中, pitch: 中音}
+    guest_2:
+      display_name: 宾客乙
+      tts: {delivery: 好奇惊讶，随众发问, timbre: 温和成年, pace: 适中, pitch: 中低音}
+    guest_3:
+      display_name: 宾客丙
+      tts: {delivery: 好奇惊讶，声音清楚, timbre: 清脆年轻, pace: 适中, pitch: 中高音}
+  chapters:
+    - id: ch01
+      title: 三个名字
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            从前，有一对农民夫妇，养着三个女儿。童话里常有这样的事，最小的那个偏偏最漂亮，脾气也最好。姐姐们想出去玩，她总愿意留在家里，把姐姐们的活儿也一起做了。
+        - id: ch01-b02
+          speaker: narrator
+          text: >-
+            日子一晃就过去了。父母忽然发现，三个女儿都已经长大，很快就该谈婚事了。一天傍晚，全家坐在小屋门口，父亲笑着问大女儿。
+        - id: ch01-b03
+          speaker: father
+          text: 你想好将来的丈夫叫什么了吗？这名字可要紧得很哪！
+        - id: ch01-b04
+          speaker: eldest_sister
+          text: 想好了。他要是不叫西格蒙德，我绝对不嫁。
+        - id: ch01-b05
+          speaker: father
+          text: >-
+            那你可走运了。这一带的西格蒙德多得很，随你挑！老二，你喜欢什么名字？
+        - id: ch01-b06
+          speaker: second_sister
+          text: 我看哪，再没有比西格德更好听的名字了。
+        - id: ch01-b07
+          speaker: father
+          text: >-
+            那你也不会嫁不出去。光是邻村就有七个西格德！赫尔加，你呢？
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            赫尔加抬起头。三个女儿里，数她最美。她也早就喜欢上了一个名字。可她刚要开口，耳边忽然像有人在低声说话。
+        - id: ch01-b09
+          speaker: mysterious_voice
+          text: 除了名叫哈博吉的人，谁也不要嫁。
+        - id: ch01-b10
+          speaker: narrator
+          text: >-
+            赫尔加从没听过这个名字，也一点儿不喜欢它，便决定不去理会。她明明想说，自己的丈夫一定得叫尼亚尔，嘴里答出来的却完全不是这回事。
+        - id: ch01-b11
+          speaker: helga
+          text: 我要是嫁人，除了哈博吉，谁也不嫁。
+        - id: ch01-b12
+          speakers: [father, eldest_sister, second_sister]
+          ensemble: chorus
+          text: 哈博吉是谁？我们从没听说过这个人呀。
+          emotion: surprised
+        - id: ch01-b13
+          speaker: helga
+          text: 我只知道，将来我要是有丈夫，那个人就是他。
+        - id: ch01-b14
+          speaker: narrator
+          text: >-
+            赫尔加说完，就再也不肯解释了。没多久，邻村和山坡上的年轻人全听说了三姐妹在门前说过的话。一群又一群西格蒙德和西格德来到小屋，还有许多叫别的名字的小伙子。他们虽然不叫哈博吉，也觉得自己或许能赢得赫尔加的心。可是所有来客当中，偏偏没有一个哈博吉。就连那几个尼亚尔，也没能让赫尔加多看一眼。她的目光总像落在别处。
+    - id: ch02
+      title: 哈博吉来迎亲
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            两个姐姐终于从那些西格德和西格蒙德中选好了丈夫。家里决定把两场婚礼放在同一天，还给亲朋好友都送去了请柬。大喜之日的早晨，宾客们齐聚一堂。一个粗野鄙陋的老农夫忽然走出人群，站到两位新娘的父亲面前。
+        - id: ch02-b02
+          speaker: habogi
+          text: 我叫哈博吉。赫尔加必须做我的妻子。
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            赫尔加又惊又怕，脸色发白，浑身发抖，却没有转身逃走。父亲最疼这个小女儿，实在不愿把她交给如此可怕的老头儿。他只盼先拖一拖，也许会发生什么事，让这门婚事出现转机。
+        - id: ch02-b04
+          speaker: father
+          text: 眼下正办着婚礼，我不能现在谈这件事。
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            两个姐姐一向有些嫉妒赫尔加。她们见自己的新郎比这个老头儿体面，心里反倒暗暗高兴。宴席散后，哈博吉走向一片草地，牵来先前留在那里吃草的一匹骏马。他让赫尔加坐上华美的马鞍，鞍上绣满了鲜红与金色的花纹。
+        - id: ch02-b06
+          speaker: habogi
+          text: >-
+            你还会回来的。现在先跟我去看看，你将来要住在什么地方。
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            赫尔加很不愿意去，心里却有股力量逼着她服从。哈博吉先扶她坐稳，自己又轻轻一跃，坐到了她前面。那身手简直像个少年。他一抖缰绳，两个人很快就不见了。
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            骑出几英里，他们穿过一片草甸。青草绿得耀眼，赫尔加看得几乎睁不开眼睛。那里有一大群肥壮的绵羊，正低头吃草。它们的羊毛又白又卷，世上再也找不到更漂亮的了。
+        - id: ch02-b09
+          speaker: helga
+          text: 这些羊真可爱！它们是谁的？
+          emotion: surprised
+        - id: ch02-b10
+          speaker: habogi
+          text: >-
+            是你的哈博吉的。眼前的一切都属于他。羊群里最好看的那一只，双角间挂着小金铃，我把它送给你。
+        - id: ch02-b11
+          speaker: narrator
+          text: >-
+            赫尔加从来不曾有过真正属于自己的东西。听到这份礼物，她开心地笑了，还向哈博吉道了谢。
+    - id: ch03
+      title: 羊群、牛群和马群
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            他们很快把羊群留在身后，又来到一片宽阔的田野。一条河从田间流过，一大群漂亮的灰牛站在门边，正等着挤奶姑娘过来给它们挤奶。
+        - id: ch03-b02
+          speaker: helga
+          text: >-
+            这些牛也太漂亮了！它们的奶一定比别的牛奶都甜。我要是能喝上一点儿就好了。它们是谁的呀？
+        - id: ch03-b03
+          speaker: habogi
+          text: >-
+            也是你的哈博吉的。以后你想喝多少就有多少，不过我们现在不能停。瞧见那头双角间挂着银铃的大灰牛了吗？它归你。每天早晨你一醒，就能叫人替你挤奶。
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            赫尔加听得眼睛发亮。她没说出来，心里却已经打定主意，要学会亲手给那头灰牛挤奶。再往前一英里，是一片铺着短草的宽广公地。脚下的草皮柔韧而有弹性，各种毛色的马儿正在上面尥着蹶子玩耍，一身皮毛光滑得像缎子。
+        - id: ch03-b05
+          speaker: narrator
+          text: 赫尔加欢喜得险些尖叫着跳下马鞍。
+        - id: ch03-b06
+          speaker: helga
+          text: >-
+            它们是谁的？快告诉我，它们到底是谁的？能做这些漂亮马儿的主人，该有多快活呀！
+          emotion: happy
+        - id: ch03-b07
+          speaker: habogi
+          text: >-
+            它们全是你的哈博吉的。你最喜欢哪一匹，我就把哪一匹送给你，再让你学会骑它。
+        - id: ch03-b08
+          speaker: narrator
+          text: 听到自己能有一匹马，赫尔加马上把绵羊和灰牛都忘了。
+        - id: ch03-b09
+          speaker: helga
+          text: >-
+            我也能有自己的马！停一下，让我挑挑看。白的？不。栗色的？也不。还是那匹乌黑的最好看，它额头上还有一颗小白星。就停一小会儿，好不好？
+          emotion: happy
+        - id: ch03-b10
+          speaker: narrator
+          text: 哈博吉不肯停，也不理会她的央求。
+        - id: ch03-b11
+          speaker: habogi
+          text: 等我们结了婚，你有的是时间慢慢挑。
+        - id: ch03-b12
+          speaker: narrator
+          text: >-
+            他们又骑了两三英里，最后停在一所小房子前。那房子又丑又寒酸，看起来摇摇欲坠。
+    - id: ch04
+      title: 破屋里的珍宝
+      blocks:
+        - id: ch04-b01
+          speaker: habogi
+          text: 这是我的房子，以后也就是你的家。
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            哈博吉跳下马，张开双臂，把赫尔加从马背上抱下来。赫尔加心里一沉。拥有那样好的羊、牛和马，怎么没给自己盖一所漂亮些的房子呢？她只在心里想，没有说出口。哈博吉挽住她的胳膊，把她领上台阶。
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            一进屋，赫尔加就被四周的华美惊呆了。她认识的人当中，谁也没有这样的好东西，连最富有的磨坊主也没有。屋里铺满厚实柔软、色彩深艳的地毯。丝绸靠垫光看着就叫人想睡。各处还摆着稀奇的小瓷偶。
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            赫尔加觉得，这么多新奇的东西，就算用上一辈子，也未必能一件件仔细看完。可她仿佛才进来一眨眼，哈博吉就已经走到了身旁。
+        - id: ch04-b05
+          speaker: habogi
+          text: >-
+            我得立刻准备我们的婚礼。我答应过送你回去，我的义兄弟会带你回家。三天以后，他会再来接你。你的父母、姐姐和想请的客人都可以同行。到时喜宴也备好了。
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            赫尔加满脑子都是刚才见到的奇事，回家的路好像一下就走完了。父母看见她平安回来，非常欢喜。他们原本一直担心，那个又丑又凶的哈博吉会使什么残忍手段害她。父母先给赫尔加吃了晚饭，接着便央她讲讲这一路到底经历了什么。
+        - id: ch04-b07
+          speaker: helga
+          text: 等到第三天，你们来参加我的婚礼，就会亲眼看见了。
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            婚礼那天，一行人天刚亮就出发了。一路上，他们经过羊群、牛群和马群。两个姐姐听说每一群中最好的那一只都送给了赫尔加，嫉妒得脸都发青。可看见妹妹将要住进那所破旧小屋，她们又轻松起来。
+        - id: ch04-b09
+          speakers: [eldest_sister, second_sister]
+          ensemble: duo
+          text: 要我住在这种地方，真要羞死人了。
+          emotion: disgusted
+        - id: ch04-b10
+          speaker: narrator
+          text: >-
+            大姐夸起自家门楣上雕花的石头，二姐则数说自己的房子有多少个房间。可她们刚走进屋，就被里面的富丽堂皇气得说不出话。看到哈博吉为新娘准备的礼服，她们的脸更是又白又冷。那件衣裳闪闪发亮，就像阳光在冰面上跳舞。
+    - id: ch05
+      title: 灰烬变成玫瑰
+      blocks:
+        - id: ch05-b01
+          speakers: [eldest_sister, second_sister]
+          ensemble: duo
+          text: 她休想穿得比我们漂亮那么多！
+          emotion: angry
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            姐妹俩一有机会独处，就气冲冲地喊出了这句话。夜里，她们偷偷溜出房间，把婚礼服拿出来，放进炉灰坑，再用灰烬盖得严严实实。
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            可哈博吉略懂魔法，早就猜到她们会做什么。他把灰烬变成玫瑰，又给姐妹俩施了咒。她们整整一天都不能离开那个地方，每一个从那里经过的人都嘲笑她们。
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            第二天早晨，众人醒来一看，那所丑陋的破房子不见了，原地立着一座辉煌的宫殿。宾客们睁大眼睛，四处寻找新郎，却怎么也找不到哈博吉的踪影。他们只看见一个俊美的年轻人，穿着蓝色天鹅绒镶银外套，头上戴着金冠。
+        - id: ch05-b05
+          speakers: [guest_1, guest_2, guest_3]
+          ensemble: chorus
+          text: 那是谁？
+          emotion: surprised
+        - id: ch05-b06
+          speaker: helga
+          text: 那就是我的哈博吉。
+        - id: ch05-b07
+          speaker: narrator
+          text: 这个故事选自《新冰岛民间故事》。

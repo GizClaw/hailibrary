@@ -1,0 +1,113 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm, lively storytelling with a gentle sense of wonder
+        timbre: clear and rounded
+        pace: measured
+        pitch: medium
+    peter_rabbit:
+      display_name: Peter Rabbit
+      tts:
+        delivery: curious, animated, and quick to wonder
+        timbre: bright and youthful
+        pace: lively
+        pitch: medium-high
+    johnny_chuck:
+      display_name: Johnny Chuck
+      tts:
+        delivery: thoughtful, sincere, and quietly curious
+        timbre: warm and youthful
+        pace: moderate
+        pitch: medium
+    jerry_muskrat:
+      display_name: Jerry Muskrat
+      tts:
+        delivery: playful, teasing, and full of laughter
+        timbre: bright and slightly reedy
+        pace: brisk
+        pitch: medium-high
+    pool_singer_1:
+      display_name: Pool Singer One
+      tts:
+        delivery: joyful and musical
+        timbre: clear and ringing
+        pace: buoyant
+        pitch: high
+    pool_singer_2:
+      display_name: Pool Singer Two
+      tts:
+        delivery: joyful and musical
+        timbre: light and resonant
+        pace: buoyant
+        pitch: medium-high
+    pool_singer_3:
+      display_name: Pool Singer Three
+      tts:
+        delivery: joyful and musical
+        timbre: warm and bright
+        pace: buoyant
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: The Singers of the Smiling Pool
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Mistress Spring was making everyone happy on the Green Meadows, in the Green Forest, and around the Smiling Pool. One by one, her gentle fingers woke the little sleepers who had dreamed all winter of warm summer days. They had known nothing of rough, blustering Brother North Wind or Jack Frost. As they woke, many of them sang for joy. But the clearest and loudest singers lived in the Smiling Pool.
+        - id: ch01-b02
+          speaker: narrator
+          text: For a long time, Peter Rabbit and Johnny Chuck had no idea where those singers lived. Every night, just before it was time for bed, Johnny settled on his doorstep for the simple pleasure of listening. Somehow, their sweet voices always made him feel happier, and afterward he had pleasant dreams. Even when he curled up deep in his snug bedroom, he could still hear them. If he woke during the night, there they were, singing on.
+        - id: ch01-b03
+          speakers: [pool_singer_1, pool_singer_2, pool_singer_3]
+          ensemble: chorus
+          text: "Spring! Spring! Spring! Spring! Beautiful, beautiful, beautiful Spring! So gentle, so loving, so sweet and so fair! Oh, who can be cross when there's love in the air? Be happy! Be joyful! Come join in our song, and help us send the glad tidings along! Spring! Spring! Spring! Spring! Beautiful, beautiful, beautiful Spring!"
+          emotion: happy
+        - id: ch01-b04
+          speaker: narrator
+          text: The first time Johnny heard the song, he searched every treetop. He could not see a single singer. Then he decided they must be hiding in the bushes. He looked there too, but the sweet singers were nowhere among them. It was all very mysterious. At last, Johnny asked Peter Rabbit who they were and where they lived.
+        - id: ch01-b05
+          speaker: narrator
+          text: Peter did not know either, but he was ready to find out. Peter was always ready to investigate anything he did not already know. So he and Johnny set off together to hunt for the sweet singers.
+        - id: ch01-b06
+          speaker: narrator
+          text: Peter stopped and listened with one hand cupped behind a long ear.
+        - id: ch01-b07
+          speaker: peter_rabbit
+          text: "I think they're down among those old bulrushes around the Smiling Pool."
+        - id: ch01-b08
+          speaker: narrator
+          text: They hurried over to the Smiling Pool. The closer they came, the louder the voices grew.
+        - id: ch01-b09
+          speakers: [pool_singer_1, pool_singer_2, pool_singer_3]
+          ensemble: chorus
+          text: "Spring! Spring! Spring! Spring! Beautiful, beautiful, beautiful Spring!"
+          emotion: happy
+        - id: ch01-b10
+          speaker: narrator
+          text: Peter and Johnny searched and searched, but not one singer could be seen among the brown bulrushes. How strange it was! The voices seemed to rise straight out of the Smiling Pool itself.
+        - id: ch01-b11
+          speaker: narrator
+          text: Peter hopped onto the bank, where he could see across the whole pool. He made a little noise, and the singing stopped. Peter sat perfectly still. After a short while, the song began again. Now there could be no mistake. Those voices were coming right out of the water.
+        - id: ch01-b12
+          speaker: narrator
+          text: Johnny stared at Peter, and Peter stared back at Johnny. No one was anywhere in sight. Still, all those voices kept coming from the Smiling Pool.
+        - id: ch01-b13
+          speaker: johnny_chuck
+          text: "But how could birds stay underwater and keep on singing?"
+        - id: ch01-b14
+          speaker: jerry_muskrat
+          text: "Ho, ho, ho! Ha, ha, ha!"
+          emotion: happy
+        - id: ch01-b15
+          speaker: narrator
+          text: Peter and Johnny spun around. Jerry Muskrat was peeping up from a hole in the bank, almost beneath their feet.
+        - id: ch01-b16
+          speaker: jerry_muskrat
+          text: "Ho, ho, ho! That's the funniest joke I've heard all spring! Birds underwater! Ho, ho, ho!"
+          emotion: happy
+        - id: ch01-b17
+          speaker: narrator
+          text: Jerry laughed so hard that he had to hold his sides.

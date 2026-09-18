@@ -1,0 +1,397 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: warm and storylike
+        timbre: clear and mellow
+        pace: measured
+        pitch: medium
+    eldest_son:
+      display_name: Eldest Son
+      tts:
+        delivery: confident but easily tempted
+        timbre: sturdy and youthful
+        pace: measured
+        pitch: medium
+    second_son:
+      display_name: Second Son
+      tts:
+        delivery: eager and self-assured
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium
+    cinderlad:
+      display_name: Cinderlad
+      tts:
+        delivery: plainspoken and quietly determined
+        timbre: warm and youthful
+        pace: measured
+        pitch: medium-high
+    father:
+      display_name: Father
+      tts:
+        delivery: weary and cautious
+        timbre: low and rough
+        pace: unhurried
+        pitch: low
+    mother:
+      display_name: Mother
+      tts:
+        delivery: worried and tender
+        timbre: soft and worn
+        pace: measured
+        pitch: medium
+    king:
+      display_name: King
+      tts:
+        delivery: commanding and exacting
+        timbre: deep and resonant
+        pace: measured
+        pitch: low
+    old_woman:
+      display_name: Old Woman
+      tts:
+        delivery: coaxing and sly
+        timbre: dry and rasping
+        pace: unhurried
+        pitch: medium-low
+    youngest_foal:
+      display_name: Youngest Foal
+      tts:
+        delivery: clear and purposeful
+        timbre: bright and youthful
+        pace: measured
+        pitch: medium-high
+  chapters:
+    - id: ch01
+      title: The Eldest Son Tries His Fortune
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: Once there was a poor couple who lived far from everyone else, in a miserable hut deep in a wood. They lived from hand to mouth, and even that was a struggle. They had three sons. The youngest was called Cinderlad because he never seemed to do anything but lie beside the hearth and poke among the ashes.
+        - id: ch01-b02
+          speaker: narrator
+          text: One day, the eldest son decided to go out and earn his living. His parents gave him leave, and he set off into the world. He walked all day. As night began to fall, he came to a royal palace, where the King stood outside on the steps.
+        - id: ch01-b03
+          speaker: king
+          text: Where are you going, young man?
+        - id: ch01-b04
+          speaker: eldest_son
+          text: I am looking for a place to work, sir.
+        - id: ch01-b05
+          speaker: king
+          text: Then will you serve me and watch my seven foals? If you stay with them all day and tell me tonight what they eat and drink, you shall marry the Princess and have half my kingdom. If you fail, I will have three red stripes cut across your back.
+        - id: ch01-b06
+          speaker: narrator
+          text: The young man thought watching foals sounded easy, so he agreed.
+        - id: ch01-b07
+          speaker: narrator
+          text: At the first grey light of morning, the King's Master of the Horse let the seven foals out. Away they raced, over hills and down valleys, through woods and bogs. The eldest son ran after them without knowing where they might lead him. He kept at it for a long time. First he grew tired, and then he became so weary that he wanted nothing more to do with watching them.
+        - id: ch01-b08
+          speaker: narrator
+          text: Just then he reached a cleft in a rock. An old woman sat inside it, spinning with a distaff. She saw the young man running after the foals with sweat streaming down his face, and she called to him.
+        - id: ch01-b09
+          speaker: old_woman
+          text: Come here, my handsome boy. Sit with me, and let me comb your hair.
+        - id: ch01-b10
+          speaker: narrator
+          text: He was glad to accept her offer. He sat down beside the old woman in the cleft, laid his head on her knees, and let her comb his hair. The foals went on without him. He gave himself up to idleness and stayed just as he was for the whole day.
+        - id: ch01-b11
+          speaker: narrator
+          text: Near evening, he said he ought to leave.
+        - id: ch01-b12
+          speaker: eldest_son
+          text: I may as well go straight home. There is no point in returning to the palace now.
+        - id: ch01-b13
+          speaker: old_woman
+          text: Wait until dusk. The King's foals will pass this way again, and you can run back with them. No one will know you spent the day lying here instead of watching them.
+        - id: ch01-b14
+          speaker: narrator
+          text: When the foals returned, the old woman gave him a bottle of water and a piece of moss. She told him to show them to the King and claim that this was the foals' food and drink.
+        - id: ch01-b15
+          speaker: narrator
+          text: That evening, the eldest son went before the King.
+        - id: ch01-b16
+          speaker: king
+          text: Did you watch my foals faithfully all day?
+        - id: ch01-b17
+          speaker: eldest_son
+          text: Yes, I certainly did.
+        - id: ch01-b18
+          speaker: king
+          text: Then you can tell me what my seven foals eat and drink.
+        - id: ch01-b19
+          speaker: narrator
+          text: The young man held out the moss and the bottle of water.
+        - id: ch01-b20
+          speaker: eldest_son
+          text: This is their food, and this is what they drink.
+        - id: ch01-b21
+          speaker: narrator
+          text: The King knew at once what kind of watch the young man had kept. He had not followed the foals or learned their secret at all. In a rage, the King ordered his servants to drive the lad straight back to his own home. Before they sent him away, they cut three red stripes across his back and rubbed salt into the wounds.
+        - id: ch01-b22
+          speaker: narrator
+          text: Anyone can imagine how miserable he was when he reached the hut again.
+        - id: ch01-b23
+          speaker: eldest_son
+          text: I went looking for work once. I will never do it again.
+    - id: ch02
+      title: The Second Son Follows
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: The very next day, the second son announced that he would go into the world and seek his fortune. His parents tried to stop him.
+        - id: ch02-b02
+          speakers: [father, mother]
+          ensemble: duo
+          text: No. Look at your brother's back and stay at home.
+        - id: ch02-b03
+          speaker: narrator
+          text: But the second son would not give up his plan. He held to it for a long, long time, until at last his parents let him go. He set off and walked for the whole day. That evening, he too reached the royal palace and found the King standing outside on the steps.
+        - id: ch02-b04
+          speaker: narrator
+          text: The King asked where he was going. When the young man said he was searching for work, the King offered to take him into service and have him watch the seven foals. If he could report what they ate and drank, he would have the Princess and half the kingdom. If he failed, three red stripes would be cut across his back. It was the very same bargain his elder brother had accepted.
+        - id: ch02-b05
+          speaker: narrator
+          text: The second son accepted at once. He was sure he could keep watch and discover what the foals ate and drank.
+        - id: ch02-b06
+          speaker: narrator
+          text: In the grey light of dawn, the Master of the Horse released the seven foals. Once again they flew over hills and down valleys, and the young man raced behind them. He followed for a long, long time, until he was hot, tired, and ready to stop. Then he passed the cleft in the rock and saw the old woman sitting there with her distaff, spinning.
+        - id: ch02-b07
+          speaker: old_woman
+          text: Come here, my handsome boy. Sit with me, and let me comb your hair.
+        - id: ch02-b08
+          speaker: narrator
+          text: He liked the thought of resting there. Without another look at the foals, he let them run wherever they pleased. Then he sat beside the old woman in the cleft and put his head in her lap. While she combed his hair, he took his ease for the whole long day.
+        - id: ch02-b09
+          speaker: narrator
+          text: The foals passed the cleft again that evening. The old woman gave the second son a piece of moss and a bottle of water to show the King. He went back to the palace with them.
+        - id: ch02-b10
+          speaker: king
+          text: Can you tell me what my seven foals eat and drink?
+        - id: ch02-b11
+          speaker: narrator
+          text: The young man showed him the moss and water.
+        - id: ch02-b12
+          speaker: second_son
+          text: Yes. Here is their food, and here is their drink.
+        - id: ch02-b13
+          speaker: narrator
+          text: Once more, the King understood how his foals had been watched, and once more he grew furious. He commanded his servants to cut three red stripes across the young man's back and scatter salt over the wounds. After that, they were to drive him out of the palace and send him home at once.
+        - id: ch02-b14
+          speaker: narrator
+          text: When the second son returned, he told his family everything that had happened.
+        - id: ch02-b15
+          speaker: second_son
+          text: Once was enough for me. I will never go looking for work again.
+    - id: ch03
+      title: Cinderlad and the Birch Tree
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: On the third day, Cinderlad wanted his turn. He said he would try to watch the seven foals himself.
+        - id: ch03-b02
+          speakers: [eldest_son, second_son]
+          ensemble: duo
+          text: You think you can succeed after we both failed? You have never done anything but lie about and poke in the ashes!
+        - id: ch03-b03
+          speaker: cinderlad
+          text: I am going all the same. I have made up my mind.
+        - id: ch03-b04
+          speaker: narrator
+          text: His brothers laughed at him again and again. His father and mother begged him not to go after seeing what had happened to the other two. Nothing they said changed his mind. Cinderlad set out, walked for the whole day, and reached the palace as darkness was falling. Just as before, the King was standing outside on the steps.
+        - id: ch03-b05
+          speaker: king
+          text: Where are you bound?
+        - id: ch03-b06
+          speaker: cinderlad
+          text: I am searching for a place to work.
+        - id: ch03-b07
+          speaker: king
+          text: And where do you come from?
+        - id: ch03-b08
+          speaker: narrator
+          text: By then, the King had learned to ask a little more about a man before hiring him. Cinderlad told him where he came from. He also admitted that he was the brother of the two men who had already tried to watch the seven foals. Even after telling the King that, he asked for permission to try the same task the following day.
+        - id: ch03-b09
+          speaker: king
+          text: Shame on those two! The thought of them still makes me angry. If you are their brother, you cannot be worth much either. I have had enough of such fellows.
+          emotion: angry
+        - id: ch03-b10
+          speaker: cinderlad
+          text: I have come all this way. You might at least let me try.
+        - id: ch03-b11
+          speaker: king
+          text: Very well. If you are determined to have your back flayed, you may have your way.
+        - id: ch03-b12
+          speaker: cinderlad
+          text: I would much rather have the Princess.
+        - id: ch03-b13
+          speaker: narrator
+          text: At dawn, the Master of the Horse let the seven foals out. They raced over hills and down valleys, through woods and bogs, with Cinderlad close behind. After a long run, they came to the cleft in the rock. The old woman was there again, spinning with her distaff.
+        - id: ch03-b14
+          speaker: old_woman
+          text: Come here, my handsome boy. Sit with me, and let me comb your hair.
+        - id: ch03-b15
+          speaker: cinderlad
+          text: Then you must come to me!
+        - id: ch03-b16
+          speaker: narrator
+          text: Cinderlad called back without slowing down. He kept jumping and running after the foals, with one hand gripping a foal's tail. In that way, he passed the old woman and the cleft without ever sitting down.
+        - id: ch03-b17
+          speaker: narrator
+          text: Once they were safely beyond the cleft, the youngest foal spoke.
+        - id: ch03-b18
+          speaker: youngest_foal
+          text: Climb onto my back. We still have a long way to go.
+        - id: ch03-b19
+          speaker: narrator
+          text: Cinderlad mounted, and they travelled on for a long, long way.
+        - id: ch03-b20
+          speaker: youngest_foal
+          text: Can you see anything yet?
+        - id: ch03-b21
+          speaker: cinderlad
+          text: No, nothing.
+        - id: ch03-b22
+          speaker: narrator
+          text: They went much farther.
+        - id: ch03-b23
+          speaker: youngest_foal
+          text: What about now? Do you see anything?
+        - id: ch03-b24
+          speaker: cinderlad
+          text: No, not yet.
+        - id: ch03-b25
+          speaker: narrator
+          text: After another long stretch, the foal asked for a third time.
+        - id: ch03-b26
+          speaker: youngest_foal
+          text: Can you see something now?
+        - id: ch03-b27
+          speaker: cinderlad
+          text: Yes. There is something white ahead. It looks like the trunk of a huge, thick birch tree.
+        - id: ch03-b28
+          speaker: youngest_foal
+          text: That is the place. We must go inside.
+        - id: ch03-b29
+          speaker: narrator
+          text: When they reached the great birch, the eldest foal broke down one side of the trunk. A door stood hidden where the wood had been. Beyond it was a little room. The place was almost empty, with only a small fireplace and a pair of benches. Behind the door hung a great rusty sword, and beside it was a small pitcher.
+        - id: ch03-b30
+          speaker: youngest_foal
+          text: Can you swing that sword?
+        - id: ch03-b31
+          speaker: narrator
+          text: Cinderlad took down the sword and tried to swing it, but it was too much for him. He drank once from the little pitcher and tried again. Then he took a second drink, and after that a third. Now the great rusty blade felt easy in his hands, and he could wield it perfectly.
+        - id: ch03-b32
+          speaker: youngest_foal
+          text: Good. Take the sword with you. On your wedding day, you must use it to cut off the heads of all seven of us. Then we will become princes again, as we once were. We are the brothers of the Princess you will marry if you tell the King what we eat and drink. A mighty Troll put us under this spell.
+        - id: ch03-b33
+          speaker: youngest_foal
+          text: After you cut off our heads, be very careful. Put each head beside the tail of the body it belonged to. Then the Troll's spell will lose all its power.
+        - id: ch03-b34
+          speaker: narrator
+          text: Cinderlad promised to do exactly as the foal said. Then they set out again.
+    - id: ch04
+      title: What the Seven Foals Eat and Drink
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: They travelled a long, long way before the youngest foal spoke again.
+        - id: ch04-b02
+          speaker: youngest_foal
+          text: Do you see anything?
+        - id: ch04-b03
+          speaker: cinderlad
+          text: No.
+        - id: ch04-b04
+          speaker: narrator
+          text: They covered a great distance.
+        - id: ch04-b05
+          speaker: youngest_foal
+          text: And now? Can you see anything now?
+        - id: ch04-b06
+          speaker: cinderlad
+          text: No, I still cannot.
+        - id: ch04-b07
+          speaker: narrator
+          text: On they went for many more miles, over hills and down valleys. At last the foal asked once more.
+        - id: ch04-b08
+          speaker: youngest_foal
+          text: Look again. Do you see anything now?
+        - id: ch04-b09
+          speaker: cinderlad
+          text: Yes. Far away, I can see something like a blue streak.
+        - id: ch04-b10
+          speaker: youngest_foal
+          text: That is a river, and we must cross it.
+        - id: ch04-b11
+          speaker: narrator
+          text: When they reached the river, they found a long, handsome bridge stretching from one bank to the other. The foals crossed it with Cinderlad still riding on the youngest one's back. Once they reached the far side, they travelled another long, long way. Then the youngest foal asked Cinderlad what he could see ahead.
+        - id: ch04-b12
+          speaker: cinderlad
+          text: There is something black far ahead. It looks a little like a church tower.
+        - id: ch04-b13
+          speaker: youngest_foal
+          text: Yes. That is where we are going.
+        - id: ch04-b14
+          speaker: narrator
+          text: The seven foals entered the churchyard. The moment they did, they turned into men. They looked like the sons of a king, and their splendid clothes shone all around them.
+        - id: ch04-b15
+          speaker: narrator
+          text: The seven princes went into the church, and Cinderlad followed them inside. A priest was waiting before the altar. Each of the princes received bread and wine from him. Then the priest laid his hands upon them and read a blessing over them, while Cinderlad stayed and watched.
+        - id: ch04-b16
+          speaker: narrator
+          text: When the blessing was over, the princes walked out of the church, and Cinderlad went with them. Before he left, he took along a flask of wine and some of the consecrated bread. No sooner had the seven brothers stepped outside into the churchyard than every one of them became a foal again.
+        - id: ch04-b17
+          speaker: narrator
+          text: Cinderlad climbed onto the youngest foal once more, and they started home by the same road. This time they travelled much, much faster. First they crossed the handsome bridge over the river. Then they swept past the great birch trunk. At last they raced by the old woman, who was still spinning in the cleft of the rock.
+        - id: ch04-b18
+          speaker: narrator
+          text: They went so fast that Cinderlad could not make out what the old woman screeched after him. He heard just enough to know that she was terribly angry.
+        - id: ch04-b19
+          speaker: narrator
+          text: It was nearly dark when they reached the palace. The King himself stood waiting in the courtyard.
+        - id: ch04-b20
+          speaker: king
+          text: Have you watched my foals faithfully all day?
+        - id: ch04-b21
+          speaker: cinderlad
+          text: I have done my best.
+        - id: ch04-b22
+          speaker: king
+          text: Then can you tell me what my seven foals eat and drink?
+        - id: ch04-b23
+          speaker: narrator
+          text: Cinderlad took out the consecrated bread and the flask of wine and showed them to the King.
+        - id: ch04-b24
+          speaker: cinderlad
+          text: Here is their food, and here is what they drink.
+        - id: ch04-b25
+          speaker: king
+          text: You have watched them diligently and faithfully. You shall marry the Princess and have half my kingdom.
+    - id: ch05
+      title: The Seven Princes
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: Preparations for the wedding began at once. Nothing was to be small or ordinary. The King wanted the celebration to be so stately and magnificent that everyone would hear about it, and everyone who heard would want to know more.
+        - id: ch05-b02
+          speaker: narrator
+          text: At last the wedding day came, and the guests sat down together at the marriage feast. In the middle of it, the bridegroom rose from the table. Cinderlad said he had forgotten something that he must go and see to. Then he left the company and went down to the stable where the seven foals were waiting.
+        - id: ch05-b03
+          speaker: narrator
+          text: There Cinderlad did exactly what the foals had told him to do inside the birch tree. He took the rusty sword and cut off the head of the eldest foal first. Next came the second eldest. He went on carefully in that way, following their ages one by one, until he had cut off the heads of all seven.
+        - id: ch05-b04
+          speaker: narrator
+          text: He took the greatest care to lay every head beside the tail of the body it belonged to. The moment he finished, all seven foals became princes again.
+        - id: ch05-b05
+          speaker: narrator
+          text: Cinderlad returned to the wedding feast with the seven princes. The King was so joyful that he kissed Cinderlad and clapped him on the back. Cinderlad's bride was even more delighted with him than she had been before.
+        - id: ch05-b06
+          speaker: king
+          text: Half my kingdom is already yours. After my death, the other half shall be yours as well. Now that my sons are princes again, they can win countries and kingdoms of their own.
+        - id: ch05-b07
+          speaker: narrator
+          text: And so, as anyone may well believe, there was joy and merriment at that wedding.

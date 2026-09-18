@@ -1,9 +1,0 @@
-# STREET SHOW
-
-
-  Puff, puff, puff. How the trumpets blow
-  All you little boys and girls come and see the show.
-  One--two--three, the Cat runs up the tree;
-  But the little Bird he flies away--
-  "She hasn't got me!"
-

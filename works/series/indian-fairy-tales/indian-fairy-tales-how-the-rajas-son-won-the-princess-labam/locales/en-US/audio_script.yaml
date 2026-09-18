@@ -1,0 +1,778 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and inviting
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    prince:
+      display_name: Raja's Son
+      tts:
+        delivery: earnest and determined
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium
+    rani:
+      display_name: Rani
+      tts:
+        delivery: loving and protective
+        timbre: warm and gentle
+        pace: unhurried
+        pitch: medium
+    prince_father:
+      display_name: Raja
+      tts:
+        delivery: dignified and caring
+        timbre: full and mature
+        pace: measured
+        pitch: low
+    hiraman:
+      display_name: Hiraman Parrot
+      tts:
+        delivery: proud and quick-witted
+        timbre: bright and crisp
+        pace: lively
+        pitch: high
+    parrot_one:
+      display_name: First Parrot
+      tts:
+        delivery: wary and brisk
+        timbre: light and clear
+        pace: quick
+        pitch: high
+    parrot_two:
+      display_name: Second Parrot
+      tts:
+        delivery: wary and brisk
+        timbre: light and reedy
+        pace: quick
+        pitch: high
+    parrot_three:
+      display_name: Third Parrot
+      tts:
+        delivery: wary and brisk
+        timbre: small and bright
+        pace: quick
+        pitch: high
+    ant_raja:
+      display_name: Ant-Raja
+      tts:
+        delivery: grateful and reassuring
+        timbre: small and steady
+        pace: measured
+        pitch: medium-high
+    tiger:
+      display_name: Tiger
+      tts:
+        delivery: direct and honorable
+        timbre: deep and rough
+        pace: measured
+        pitch: low
+    tigress:
+      display_name: Tigress
+      tts:
+        delivery: alert and forthright
+        timbre: strong and resonant
+        pace: measured
+        pitch: medium-low
+    fakir_one:
+      display_name: First Fakir
+      tts:
+        delivery: stubborn and insistent
+        timbre: dry and mature
+        pace: quick
+        pitch: medium
+    fakir_two:
+      display_name: Second Fakir
+      tts:
+        delivery: stubborn and argumentative
+        timbre: wiry and mature
+        pace: quick
+        pitch: medium-high
+    countryman_one:
+      display_name: First Countryman
+      tts:
+        delivery: plain and matter-of-fact
+        timbre: clear and grounded
+        pace: measured
+        pitch: medium
+    countryman_two:
+      display_name: Second Countryman
+      tts:
+        delivery: plain and matter-of-fact
+        timbre: dry and grounded
+        pace: measured
+        pitch: medium-low
+    countryman_three:
+      display_name: Third Countryman
+      tts:
+        delivery: plain and matter-of-fact
+        timbre: light and clear
+        pace: measured
+        pitch: medium-high
+    old_woman:
+      display_name: Old Woman
+      tts:
+        delivery: cautious and kindly
+        timbre: weathered and warm
+        pace: unhurried
+        pitch: medium-low
+    princess_labam:
+      display_name: Princess Labam
+      tts:
+        delivery: graceful and assured
+        timbre: luminous and clear
+        pace: measured
+        pitch: medium-high
+    princess_servant_one:
+      display_name: First Princess's Servant
+      tts:
+        delivery: respectful and attentive
+        timbre: light and clear
+        pace: measured
+        pitch: medium
+    princess_servant_two:
+      display_name: Second Princess's Servant
+      tts:
+        delivery: respectful and attentive
+        timbre: soft and clear
+        pace: measured
+        pitch: medium-high
+    princess_servant_three:
+      display_name: Third Princess's Servant
+      tts:
+        delivery: respectful and attentive
+        timbre: warm and light
+        pace: measured
+        pitch: medium
+    princess_mother:
+      display_name: Princess Labam's Mother
+      tts:
+        delivery: regal and affectionate
+        timbre: warm and poised
+        pace: measured
+        pitch: medium
+    princess_father:
+      display_name: Princess Labam's Father
+      tts:
+        delivery: commanding and severe
+        timbre: firm and resonant
+        pace: deliberate
+        pitch: low
+  chapters:
+    - id: ch01
+      title: The Forbidden Side
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Once there was a Raja with one son, and that son went hunting every day. One day, his mother called him to her. She knew that if he hunted on the fourth side of the country, he would hear about the beautiful Princess Labam. Then he would leave his parents and go searching for her.
+        - id: ch01-b02
+          speaker: rani
+          text: >-
+            Hunt anywhere you wish on these three sides, my son. But you must never go to the fourth side.
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            For a while, the prince listened to his mother and obeyed. Then one day, as he hunted on the three sides where he was allowed to go, he remembered her warning. He decided to visit the fourth side and learn why she had forbidden it. There he entered a jungle. Nothing seemed to live in it except great numbers of parrots. He fired at some of them, and the whole flock flew high into the sky. Only one bird stayed behind. He was the parrots' Raja, and his name was Hiraman.
+        - id: ch01-b04
+          speaker: hiraman
+          text: >-
+            Do not all fly off and leave me here when the Raja's son shoots at us! If you abandon me like this, I shall tell Princess Labam.
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            The parrots came chattering back to Hiraman. The prince stared at them in amazement.
+        - id: ch01-b06
+          speaker: prince
+          text: >-
+            Why, these birds can speak! Tell me, who is Princess Labam? Where does she live?
+          emotion: surprised
+        - id: ch01-b07
+          speakers: [parrot_one, parrot_two, parrot_three]
+          ensemble: chorus
+          text: >-
+            You could never reach Princess Labam's country.
+        - id: ch01-b08
+          speaker: narrator
+          text: >-
+            That was all the parrots would tell him. The prince became so unhappy that he threw away his gun and returned home. For four or five days he lay on his bed. He would neither speak nor eat, and he seemed very ill. At last, he told his father and mother what he wanted.
+        - id: ch01-b09
+          speaker: prince
+          text: >-
+            I have to go and see Princess Labam. I must find out what she is like. Please tell me where her country lies.
+        - id: ch01-b10
+          speakers: [prince_father, rani]
+          ensemble: duo
+          text: >-
+            We do not know where her country is.
+        - id: ch01-b11
+          speaker: prince
+          text: >-
+            Then I must go and search for it.
+        - id: ch01-b12
+          speakers: [prince_father, rani]
+          ensemble: duo
+          text: >-
+            No, you cannot leave us! You are our only son. Stay here with us. You will never find Princess Labam.
+          emotion: sad
+        - id: ch01-b13
+          speaker: prince
+          text: >-
+            I must try. Perhaps God will guide me. If I stay alive and find her, I will come home to you. Perhaps I will die and never see you again, but even so, I have to go.
+        - id: ch01-b14
+          speaker: narrator
+          text: >-
+            His parents had to let him leave, though they wept bitterly when the time came. His father gave him fine clothes to wear, a fine horse for the road, and plenty of rupees. The prince also gathered his gun, his bow and arrows, and many other weapons.
+        - id: ch01-b15
+          speaker: prince
+          text: >-
+            I may need these along the way.
+        - id: ch01-b16
+          speaker: narrator
+          text: >-
+            He prepared his horse himself and said farewell. His mother wrapped some sweetmeats in her handkerchief and placed the bundle in his hands.
+        - id: ch01-b17
+          speaker: rani
+          text: >-
+            My child, eat some of these sweetmeats whenever you are hungry.
+          emotion: sad
+    - id: ch02
+      title: Friends in the Jungle
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            The prince set out and rode on until he reached a jungle with shady trees and a tank. He bathed himself and his horse, then rested beneath a tree.
+        - id: ch02-b02
+          speaker: prince
+          text: >-
+            I will eat one of Mother's sweetmeats and drink some water. Then I will go on.
+        - id: ch02-b03
+          speaker: narrator
+          text: >-
+            He opened the handkerchief and took out a sweetmeat. An ant was inside it. The next sweetmeat held an ant as well. He set both on the ground and kept looking. One after another, he took out every sweetmeat, and every one had an ant in it.
+        - id: ch02-b04
+          speaker: prince
+          text: >-
+            It does not matter. I will go without them, and the ants may have the sweetmeats.
+        - id: ch02-b05
+          speaker: narrator
+          text: >-
+            Then the Ant-Raja came and stood before him.
+        - id: ch02-b06
+          speaker: ant_raja
+          text: >-
+            You have treated us kindly. Whenever trouble comes to you, think of me, and we will come.
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            The Raja's son thanked him, mounted his horse, and rode on. In another jungle, he found a tiger roaring with pain. A thorn was buried in the tiger's foot.
+        - id: ch02-b08
+          speaker: prince
+          text: >-
+            Why are you roaring like this? What has happened to you?
+        - id: ch02-b09
+          speaker: tiger
+          text: >-
+            This thorn has been in my foot for twelve years. It hurts terribly, and that is why I roar.
+        - id: ch02-b10
+          speaker: prince
+          text: >-
+            I will pull it out for you. But you are a tiger. Once your foot is well, how do I know you will not eat me?
+        - id: ch02-b11
+          speaker: tiger
+          text: >-
+            Oh, no. I will not eat you. Please make my foot well.
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            The prince took a small knife from his pocket and cut out the thorn. As the knife went in, the tiger roared more loudly than ever. His wife heard him from the next jungle and came bounding toward them. When the tiger saw her coming, he hid the prince among the trees so she would not see him.
+        - id: ch02-b13
+          speaker: tigress
+          text: >-
+            What man has hurt you and made you roar so loudly?
+        - id: ch02-b14
+          speaker: tiger
+          text: >-
+            No one hurt me. A Raja's son came here and took the thorn out of my foot.
+        - id: ch02-b15
+          speaker: tigress
+          text: >-
+            Where is he? Let me see him.
+        - id: ch02-b16
+          speaker: tiger
+          text: >-
+            Promise that you will not kill him, and I will call him out.
+        - id: ch02-b17
+          speaker: tigress
+          text: >-
+            I will not kill him. I only want to see him.
+        - id: ch02-b18
+          speaker: narrator
+          text: >-
+            The tiger called the prince out of hiding. When he appeared, both tigers made him many salaams. They gave him a good dinner, and he remained with them for three days. Each day, he examined the wounded foot. By the third day, it had healed completely. Then the prince said goodbye, and the tiger gave him a promise.
+        - id: ch02-b19
+          speaker: tiger
+          text: >-
+            If trouble ever finds you, think of me, and we will come to you.
+    - id: ch03
+      title: The Four Wonderful Things
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            The Raja's son rode into a third jungle. Four fakirs were there. Their teacher and master had died, leaving them four wonderful things. The first was a bed that could carry its rider anywhere he wished to go. The second was a bag that could give its owner whatever he wanted, whether jewels, food, or clothes. The third was a stone bowl that supplied all the water its owner needed, even far from any tank. Last came a stick and a rope. If anyone made war on their owner, he only had to order the stick to beat the men and soldiers. The stick would beat them, and the rope would bind them.
+        - id: ch03-b02
+          speaker: narrator
+          text: >-
+            The four fakirs were quarreling over the treasures.
+        - id: ch03-b03
+          speaker: fakir_one
+          text: >-
+            I want this one for myself!
+        - id: ch03-b04
+          speaker: fakir_two
+          text: >-
+            You cannot take it. I want it!
+        - id: ch03-b05
+          speaker: prince
+          text: >-
+            Stop quarreling over these things. I will shoot four arrows in four directions. The man who reaches my first arrow will have the bed. Whoever reaches the second will have the bag. The third arrow will decide who gets the bowl. And the man who finds the fourth will have the stick and rope.
+        - id: ch03-b06
+          speaker: narrator
+          text: >-
+            The fakirs agreed to his plan. The prince shot the first arrow, and all four raced away to find it. They returned and placed it before him. Then he sent the second arrow flying in another direction. Once they had found it and brought it back, he shot the third. Again they searched, found it, and returned. At last, the prince fired the fourth arrow, and all four fakirs ran into the jungle after it.
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            While the fakirs searched for the last arrow, the prince set his horse loose in the jungle. He sat upon the magic bed with the bag, the bowl, the stick, and the rope.
+        - id: ch03-b08
+          speaker: prince
+          text: >-
+            Bed, carry me to Princess Labam's country.
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            At once, the little bed rose into the air. It flew on and on until it reached Princess Labam's country and settled upon the ground. The prince saw some men nearby.
+        - id: ch03-b10
+          speaker: prince
+          text: >-
+            Tell me, whose country have I come to?
+        - id: ch03-b11
+          speakers: [countryman_one, countryman_two, countryman_three]
+          ensemble: chorus
+          text: >-
+            This is Princess Labam's country.
+        - id: ch03-b12
+          speaker: narrator
+          text: >-
+            The prince went farther and came to a house where an old woman lived.
+        - id: ch03-b13
+          speaker: old_woman
+          text: >-
+            Who are you, and where have you come from?
+        - id: ch03-b14
+          speaker: prince
+          text: >-
+            I have traveled from a distant country. Please let me spend tonight in your house.
+        - id: ch03-b15
+          speaker: old_woman
+          text: >-
+            No, I cannot. Our king has forbidden foreigners to stay anywhere in his country, so I cannot shelter you here.
+        - id: ch03-b16
+          speaker: prince
+          text: >-
+            Please be my aunty and let me stay for just one night. Evening has already come. If I go back into the jungle, the wild beasts will eat me.
+        - id: ch03-b17
+          speaker: old_woman
+          text: >-
+            Very well, you may stay tonight. But you must leave tomorrow morning. If the king learns that you slept in my house, he will have me seized and thrown into prison.
+        - id: ch03-b18
+          speaker: narrator
+          text: >-
+            She brought him inside, and the prince was very glad. When the old woman began to prepare their meal, he stopped her.
+        - id: ch03-b19
+          speaker: prince
+          text: >-
+            Aunty, let me provide the food. Bag, give us some dinner.
+        - id: ch03-b20
+          speaker: narrator
+          text: >-
+            The bag instantly produced a delicious dinner on two gold plates. The old woman and the prince ate together. Afterward, she rose to fetch water.
+        - id: ch03-b21
+          speaker: old_woman
+          text: >-
+            Now I must go and bring us some water.
+        - id: ch03-b22
+          speaker: prince
+          text: >-
+            Do not go. We can have plenty of water at once. Bowl, give us water.
+        - id: ch03-b23
+          speaker: narrator
+          text: >-
+            The bowl began filling. As soon as it was full, the prince called to it.
+        - id: ch03-b24
+          speaker: prince
+          text: >-
+            Stop, bowl! You see, Aunty? This bowl will give me all the water I want.
+        - id: ch03-b25
+          speaker: narrator
+          text: >-
+            Night had fallen by then, but the old woman had not lit a lamp.
+        - id: ch03-b26
+          speaker: prince
+          text: >-
+            Aunty, why is there no lamp burning?
+        - id: ch03-b27
+          speaker: old_woman
+          text: >-
+            We do not need one. The king has forbidden every lamp in this country. Once darkness falls, his daughter, Princess Labam, sits upon her roof. She shines so brightly that the whole country and all our houses are lit. We can finish our work as if it were daytime.
+    - id: ch04
+      title: Gifts in the Night
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            When the night was completely black, Princess Labam rose. She dressed in rich clothes and jewels, rolled up her hair, and laid a band of diamonds and pearls across her head. She shone like the moon, and her beauty turned night into day. Then she came out of her room and sat upon the palace roof. During the daytime, she never left the house. She appeared only at night. As her light spread over her father's country, all the people went about their work and finished what they had to do.
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            The Raja's son watched her in silence, and happiness filled him.
+        - id: ch04-b03
+          speaker: prince
+          text: >-
+            How beautiful she is!
+          emotion: happy
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            At midnight, when everyone had gone to bed, the princess left the roof and returned to her room. Once she was asleep, the prince quietly sat on his magic bed.
+        - id: ch04-b05
+          speaker: prince
+          text: >-
+            Bed, take me to Princess Labam's bedroom.
+        - id: ch04-b06
+          speaker: narrator
+          text: >-
+            The little bed carried him to the sleeping princess. He took out his bag.
+        - id: ch04-b07
+          speaker: prince
+          text: >-
+            Bag, give me a great quantity of betel leaf.
+        - id: ch04-b08
+          speaker: narrator
+          text: >-
+            At once, the bag gave him great quantities of betel leaf. The prince laid all of it near the princess's bed. Then he sat on his little bed and let it carry him back to the old woman's house. The next morning, Princess Labam's servants discovered the betel leaf beside her bed. They gathered it up and began to eat it.
+        - id: ch04-b09
+          speaker: princess_labam
+          text: >-
+            Where did you find so much betel leaf?
+        - id: ch04-b10
+          speakers: [princess_servant_one, princess_servant_two, princess_servant_three]
+          ensemble: chorus
+          text: >-
+            We found it beside your bed, Princess.
+        - id: ch04-b11
+          speaker: narrator
+          text: >-
+            No one knew that the prince had left it there during the night. That morning, the old woman came to him.
+        - id: ch04-b12
+          speaker: old_woman
+          text: >-
+            Morning has come, and you must leave now. If the king discovers what I have done, he will have me seized.
+        - id: ch04-b13
+          speaker: prince
+          text: >-
+            Dear Aunty, I feel ill today. Please let me stay until tomorrow morning.
+        - id: ch04-b14
+          speaker: old_woman
+          text: >-
+            Very well.
+        - id: ch04-b15
+          speaker: narrator
+          text: >-
+            So he stayed for another day. When it was time to eat, the bag supplied their dinner, and the bowl supplied their water. That night, Princess Labam rose and took her place upon the roof again. At twelve o'clock, after everyone in the country had gone to bed, she returned to her own room and soon fell fast asleep. Once more, the prince sat upon the little bed, and it carried him to her.
+        - id: ch04-b16
+          speaker: prince
+          text: >-
+            Bag, give me the loveliest shawl you have.
+        - id: ch04-b17
+          speaker: narrator
+          text: >-
+            A splendid shawl appeared. He spread it over the sleeping princess, flew back to the old woman's house, and slept until morning. When Princess Labam awoke and saw the shawl, she was delighted.
+        - id: ch04-b18
+          speaker: princess_labam
+          text: >-
+            Look, Mother! This shawl is so beautiful that Khuda must have sent it to me.
+          emotion: happy
+        - id: ch04-b19
+          speaker: princess_mother
+          text: >-
+            Yes, my child. Khuda must indeed have given you this splendid shawl.
+          emotion: happy
+        - id: ch04-b20
+          speaker: narrator
+          text: >-
+            That morning, the old woman spoke to the prince again.
+        - id: ch04-b21
+          speaker: old_woman
+          text: >-
+            This time you really must go.
+        - id: ch04-b22
+          speaker: prince
+          text: >-
+            Aunty, I am still not well enough. Let me stay a few more days. I will hide inside your house, where no one can see me.
+        - id: ch04-b23
+          speaker: narrator
+          text: >-
+            The old woman agreed to let him remain hidden. When black night came, Princess Labam put on her beautiful clothes and jewels and sat upon her roof. At midnight, she left the roof, returned to her room, and went to sleep. Then the Raja's son sat upon his magic bed and flew to her bedside for a third time.
+        - id: ch04-b24
+          speaker: prince
+          text: >-
+            Bag, give me a very, very beautiful ring.
+        - id: ch04-b25
+          speaker: narrator
+          text: >-
+            The bag produced a glorious ring. The prince gently lifted Princess Labam's hand to place it on her finger. She woke with a start, terribly frightened.
+        - id: ch04-b26
+          speaker: princess_labam
+          text: >-
+            Who are you? Where have you come from? Why are you here in my room?
+          emotion: fearful
+        - id: ch04-b27
+          speaker: prince
+          text: >-
+            Please do not be afraid, Princess. I am not a thief. I am the son of a great Raja. When I hunted in Hiraman parrot's jungle, he spoke your name. I left my father and mother and came all this way to see you.
+        - id: ch04-b28
+          speaker: princess_labam
+          text: >-
+            Since you are the son of a great Raja, I will not have you killed. I will tell my father and mother that I wish to marry you.
+        - id: ch04-b29
+          speaker: narrator
+          text: >-
+            The prince returned to the old woman's house. In the morning, Princess Labam went to her mother.
+        - id: ch04-b30
+          speaker: princess_labam
+          text: >-
+            A great Raja's son has come to our country, and I want to marry him.
+        - id: ch04-b31
+          speaker: narrator
+          text: >-
+            Her mother carried the news to the king.
+        - id: ch04-b32
+          speaker: princess_father
+          text: >-
+            Good. But before this Raja's son marries my daughter, he must do everything I command. If he fails, I will kill him. I will give him eighty pounds of mustard seed. He must press all its oil in one day, or he will die.
+    - id: ch05
+      title: The King's Three Trials
+      blocks:
+        - id: ch05-b01
+          speaker: narrator
+          text: >-
+            That morning, the prince told the old woman that he meant to marry Princess Labam. She tried desperately to stop him.
+        - id: ch05-b02
+          speaker: old_woman
+          text: >-
+            Oh, leave this country and forget about marrying her! Many Rajas and their sons have come here for the princess, and her father has killed every one of them. He makes each suitor obey whatever order he gives. A man who succeeds may marry her, but a man who fails is put to death. No one has ever managed the tasks, so every Raja and prince who tried has died. The king will kill you too. Please go away!
+        - id: ch05-b03
+          speaker: narrator
+          text: >-
+            The prince would not listen to any of her warnings. The king sent servants to the old woman's house, and they brought the Raja's son to the court-house. There, before the king, eighty pounds of mustard seed were placed in his hands. The king ordered him to press all the oil from that great weight of seed before the day was over. He was to bring the oil back to the court-house the following morning.
+        - id: ch05-b04
+          speaker: princess_father
+          text: >-
+            Any man who wants to marry my daughter must do all that I command. If he cannot, I have him killed. Fail to press the oil from this mustard seed, and you will die.
+        - id: ch05-b05
+          speaker: narrator
+          text: >-
+            The prince carried the mustard seed back to the old woman's house. He was deeply troubled and had no idea what to do.
+        - id: ch05-b06
+          speaker: prince
+          text: >-
+            How can I press all this mustard seed in a single day? If I fail, the king will kill me.
+          emotion: sad
+        - id: ch05-b07
+          speaker: narrator
+          text: >-
+            At last, he remembered the Ant-Raja. The very moment the thought came to him, the Ant-Raja arrived with his ants.
+        - id: ch05-b08
+          speaker: ant_raja
+          text: >-
+            Why are you looking so unhappy?
+        - id: ch05-b09
+          speaker: prince
+          text: >-
+            Look at all this mustard seed. How can I press out its oil in one day? If I do not carry the oil to the king tomorrow morning, he will kill me.
+          emotion: sad
+        - id: ch05-b10
+          speaker: ant_raja
+          text: >-
+            Take heart. Lie down and sleep. We will press every seed for you today, and in the morning you can carry the oil to the king.
+          emotion: calm
+        - id: ch05-b11
+          speaker: narrator
+          text: >-
+            The Raja's son lay down and slept while the ants pressed the oil. When he saw it all finished, he was overjoyed. The next morning, he took the oil to the court-house. Still, the king would not let him marry the princess.
+        - id: ch05-b12
+          speaker: princess_father
+          text: >-
+            You cannot marry my daughter yet. First you must fight my two demons and kill them.
+        - id: ch05-b13
+          speaker: narrator
+          text: >-
+            Long ago, the king had caught two demons. Since he did not know what else to do with them, he locked them in a cage. He was afraid to let them loose because they might devour everyone in his country, but he had no idea how to kill them himself. So each Raja and Raja's son who came to marry Princess Labam had to fight the pair. The king always thought that perhaps this suitor would kill them, and then he would finally be rid of them.
+        - id: ch05-b14
+          speaker: narrator
+          text: >-
+            The prince was filled with sadness when he heard about the demons.
+        - id: ch05-b15
+          speaker: prince
+          text: >-
+            What can I do now? How can I fight two demons?
+          emotion: sad
+        - id: ch05-b16
+          speaker: narrator
+          text: >-
+            Then he thought of the tiger. At once, the tiger and his wife came to him.
+        - id: ch05-b17
+          speakers: [tiger, tigress]
+          ensemble: duo
+          text: >-
+            Why are you so sad?
+        - id: ch05-b18
+          speaker: prince
+          text: >-
+            The king has commanded me to fight and kill his two demons. How can I possibly do that?
+          emotion: sad
+        - id: ch05-b19
+          speaker: tiger
+          text: >-
+            Do not be frightened. Be glad, for my wife and I will fight the demons in your place.
+          emotion: calm
+        - id: ch05-b20
+          speaker: narrator
+          text: >-
+            The prince reached into his bag and drew out two splendid coats. Both were made of gold and silver and covered with pearls and diamonds. He dressed the tigers in them, making the pair look magnificent, and led them before the king.
+        - id: ch05-b21
+          speaker: prince
+          text: >-
+            Will you allow these tigers to fight your demons for me?
+        - id: ch05-b22
+          speaker: princess_father
+          text: >-
+            Yes.
+        - id: ch05-b23
+          speaker: narrator
+          text: >-
+            The king did not care who fought the demons, as long as someone killed them.
+        - id: ch05-b24
+          speaker: prince
+          text: >-
+            Then bring out the demons, and these tigers will face them.
+        - id: ch05-b25
+          speaker: narrator
+          text: >-
+            The king released the demons. They fought the tigers for a long time, until at last the tigers killed them both.
+        - id: ch05-b26
+          speaker: princess_father
+          text: >-
+            That is well done. But there is another task before I give you my daughter. I have a kettle-drum high in the sky. You must go up and beat it. If you cannot, I will kill you.
+        - id: ch05-b27
+          speaker: narrator
+          text: >-
+            The Raja's son remembered his little bed. He returned to the old woman's house and sat upon it.
+        - id: ch05-b28
+          speaker: prince
+          text: >-
+            Little bed, the king's kettle-drum is up in the sky. Carry me to it.
+        - id: ch05-b29
+          speaker: narrator
+          text: >-
+            The bed flew upward with him. The prince beat the kettle-drum, and the king heard it sound. But even when the prince came down, the king still refused to give him Princess Labam.
+        - id: ch05-b30
+          speaker: princess_father
+          text: >-
+            You have completed the three tasks I gave you, but you must do one more.
+        - id: ch05-b31
+          speaker: prince
+          text: >-
+            If it is within my power, I will do it.
+    - id: ch06
+      title: The Wax Hatchet
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: >-
+            Near the court-house lay an enormous tree trunk. The king showed it to the prince and handed him a hatchet made of wax.
+        - id: ch06-b02
+          speaker: princess_father
+          text: >-
+            By tomorrow morning, you must cut this trunk in two with the wax hatchet.
+        - id: ch06-b03
+          speaker: narrator
+          text: >-
+            The prince returned to the old woman's house in despair. Now he felt certain that the king would kill him.
+        - id: ch06-b04
+          speaker: prince
+          text: >-
+            The ants pressed his oil. The tigers killed his demons. My bed carried me to the kettle-drum. But what can help me now? How could a wax hatchet ever cut through that thick trunk?
+          emotion: sad
+        - id: ch06-b05
+          speaker: narrator
+          text: >-
+            That night, he rode his bed to Princess Labam.
+        - id: ch06-b06
+          speaker: prince
+          text: >-
+            Tomorrow your father will have me killed.
+          emotion: sad
+        - id: ch06-b07
+          speaker: princess_labam
+          text: >-
+            Why will he kill you?
+        - id: ch06-b08
+          speaker: prince
+          text: >-
+            He ordered me to split a thick tree trunk with a wax hatchet. How could I ever do such a thing?
+          emotion: sad
+        - id: ch06-b09
+          speaker: princess_labam
+          text: >-
+            Do not be afraid. Follow my instructions, and the trunk will split easily.
+          emotion: calm
+        - id: ch06-b10
+          speaker: narrator
+          text: >-
+            She pulled one hair from her head and gave it to him.
+        - id: ch06-b11
+          speaker: princess_labam
+          text: >-
+            Tomorrow, wait until no one is near. Then say to the trunk, “Princess Labam commands you to let this hair cut you in two.” After that, stretch the hair along the edge of the wax blade.
+        - id: ch06-b12
+          speaker: narrator
+          text: >-
+            The next day, the prince followed Princess Labam's instructions exactly. He waited until no one was near him. Then he spoke her command to the tree trunk and stretched her hair down the edge of the wax hatchet's blade. The very moment the hair touched the wood, the enormous trunk split cleanly into two pieces.
+        - id: ch06-b13
+          speaker: princess_father
+          text: >-
+            Now you may marry my daughter.
+        - id: ch06-b14
+          speaker: narrator
+          text: >-
+            The wedding was held. All the Rajas and kings from the surrounding countries were invited to attend, and there was great rejoicing. The celebrations continued, and after a few days the Raja's son spoke to his new wife.
+        - id: ch06-b15
+          speaker: prince
+          text: >-
+            Let us travel to my father's country.
+        - id: ch06-b16
+          speaker: narrator
+          text: >-
+            Princess Labam's father gave the couple a great number of camels and horses, along with rupees and servants. With that grand company around them, the prince and princess traveled in great state to the prince's own country. There they made their home, and they lived happily.
+        - id: ch06-b17
+          speaker: narrator
+          text: >-
+            The prince always kept the bag, the bowl, the bed, and the stick. But no one ever came to make war on him, so he never needed to use the stick.

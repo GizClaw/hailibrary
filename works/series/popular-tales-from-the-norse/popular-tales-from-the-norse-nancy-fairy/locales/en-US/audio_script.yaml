@@ -1,0 +1,136 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts:
+        delivery: thoughtful and gently wry
+        timbre: warm and clear
+        pace: measured
+        pitch: medium
+    young_nancy:
+      display_name: Young Nancy Fairy
+      tts:
+        delivery: gentle and sincere
+        timbre: clear and youthful
+        pace: measured
+        pitch: medium-high
+    old_nancy:
+      display_name: Old Nancy Fairy
+      tts:
+        delivery: commanding and shrewd
+        timbre: low and weathered
+        pace: deliberate
+        pitch: low
+    kings_servant:
+      display_name: King's Servant
+      tts:
+        delivery: observant and earnest
+        timbre: clear and grounded
+        pace: steady
+        pitch: medium
+    servant_maid:
+      display_name: Servant Maid
+      tts:
+        delivery: sharp and accusing
+        timbre: thin and firm
+        pace: brisk
+        pitch: medium-high
+    onlooker_1:
+      display_name: First Onlooker
+      tts:
+        delivery: direct and certain
+        timbre: plain and clear
+        pace: steady
+        pitch: medium
+    onlooker_2:
+      display_name: Second Onlooker
+      tts:
+        delivery: direct and questioning
+        timbre: warm and clear
+        pace: steady
+        pitch: medium
+  chapters:
+    - id: ch01
+      title: Nancy Fairy
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: There once lived an old woman called Nancy Fairy. She was a witch who stole newborn babies and ate them. One day, she carried off a baby so beautiful that she could not bring herself to eat her. Instead, she took the child home and raised her. The old woman called the girl her daughter and named her Nancy Fairy too. The girl called the old woman Granny.
+        - id: ch01-b02
+          speaker: narrator
+          text: As Nancy grew older, she grew more and more beautiful. Granny kept her own terrible deeds hidden from the girl. But one day, the old woman brought home another baby and locked herself in a room. Nancy peered through a crack to find out what Granny was doing. The old woman caught sight of Nancy's shadow and feared the girl had seen her. Nancy, in turn, feared Granny had spotted her watching.
+        - id: ch01-b03
+          speaker: old_nancy
+          text: Nancy Fairy, did you see what I was doing?
+        - id: ch01-b04
+          speaker: young_nancy
+          text: No, Granny. I didn't see.
+        - id: ch01-b05
+          speaker: narrator
+          text: Granny asked the same question several times, and Nancy always gave her the same answer.
+        - id: ch01-b06
+          speaker: old_nancy
+          text: Tell me, Nancy Fairy. Did you see what I was doing in there?
+        - id: ch01-b07
+          speaker: young_nancy
+          text: No, Granny. I saw nothing.
+        - id: ch01-b08
+          speaker: narrator
+          text: The old woman punished Nancy by taking her to a hut in the woods and leaving her there. Even so, Granny brought her food each day.
+        - id: ch01-b09
+          speaker: narrator
+          text: One day, the king's servant passed through those woods and saw the beautiful girl step out of the hut. He returned the next day and saw her again. Then he hurried home to tell the prince.
+        - id: ch01-b10
+          speaker: kings_servant
+          text: I can show you a girl in the woods who is more beautiful than anyone I have ever seen.
+        - id: ch01-b11
+          speaker: narrator
+          text: The prince went with him and saw Nancy for himself. He sent a band of soldiers to bring her home, and he made her his bride.
+        - id: ch01-b12
+          speaker: narrator
+          text: A year later, Nancy had a baby. Soldiers guarded the gate, and nurses filled her room. Yet in the middle of the night, Granny swept in on a whirlwind and sent every guard and nurse to sleep. She stole the child. Before she left, she slapped Nancy across the mouth, and the blow took away Nancy's speech.
+        - id: ch01-b13
+          speaker: narrator
+          text: The next morning, the palace was in an uproar. People claimed the mother had eaten her own baby. Nancy was put on trial, but that first time, they let her go.
+        - id: ch01-b14
+          speaker: narrator
+          text: The following year, Nancy had another baby, and the same dreadful thing happened. At midnight, the old woman rode in on a whirlwind and put everyone to sleep. She took the child and struck Nancy on the mouth again. This time, the blow made her bleed.
+        - id: ch01-b15
+          speaker: narrator
+          text: Morning brought another uproar. A jealous servant maid saw the blood on Nancy's mouth and made her accusation.
+        - id: ch01-b16
+          speaker: servant_maid
+          text: The mother ate the child. Look at the blood around her mouth!
+        - id: ch01-b17
+          speaker: narrator
+          text: Everyone believed her. They saw the blood, and they thought no better could be expected from a girl found in the woods. Nancy faced another trial. This time, she was sentenced to hang.
+        - id: ch01-b18
+          speaker: narrator
+          text: Invitations went out to all the grand people, asking them to come and watch the hanging. Fine carriages rolled into the courtyard one after another. Then, just before the appointed time, a splendid carriage arrived. It was made of gold and flashed in the sunlight. Granny sat inside with two children. Both children wore fine clothes marked with the king's star.
+        - id: ch01-b19
+          speaker: narrator
+          text: The moment Queen Nancy saw that golden carriage, her voice returned, and she sang out.
+        - id: ch01-b20
+          speaker: young_nancy
+          text: Please spare me until I have seen that grand carriage.
+        - id: ch01-b21
+          speaker: narrator
+          text: Granny entered the courtyard with the children and asked the people whether the two looked like anyone they knew.
+        - id: ch01-b22
+          speakers: [onlooker_1, onlooker_2]
+          ensemble: duo
+          text: They look like the prince!
+          emotion: surprised
+        - id: ch01-b23
+          speaker: onlooker_2
+          text: How did you get these children? You must have stolen them.
+        - id: ch01-b24
+          speaker: old_nancy
+          text: I did not steal them. I took them because they belong to me. The prince carried off my daughter without asking me, so I took his children. I will give them back if you agree that I was in the right.
+        - id: ch01-b25
+          speaker: narrator
+          text: The people agreed. Granny returned the two children and gave the prince and Queen Nancy the magnificent carriage as a present. After that, the family lived happily, and Granny could visit the children whenever she pleased.
+        - id: ch01-b26
+          speaker: narrator
+          text: But the servant maid who had accused the queen of eating her babies was hanged.
