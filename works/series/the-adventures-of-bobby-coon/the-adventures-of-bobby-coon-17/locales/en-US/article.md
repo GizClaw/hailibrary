@@ -1,4 +1,4 @@
-# XVI. BLACKY THE CROW DISCOVERS BOBBY
+# XVII. BLACKY THE CROW DISCOVERS BOBBY
 
 PETER RABBIT should have been back home in the dear Old Briar-patch long ago. He knew that Mrs. Peter was worrying. She always worries when Peter overstays. But Peter was not giving much thought to Mrs. Peter. In fact, I am afraid he was not giving any thought to her. You see, he was too full of curiosity about Bobby Coon and what might happen to him. He had been sorry for Bobby in a way, yet it had seemed like a great joke that any one as sleepy as Bobby was shouldn't be able to sleep. So I am afraid Peter rather enjoyed the excitement.
 
