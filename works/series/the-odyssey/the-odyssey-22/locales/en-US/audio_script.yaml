@@ -1,0 +1,369 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts: {delivery: "measured epic storytelling in plain speech", timbre: "warm and clear", pace: "measured", pitch: "medium"}
+    odysseus:
+      display_name: Ulysses
+      tts: {delivery: "deliberate and resourceful", timbre: "weathered", pace: "unhurried", pitch: "medium-low"}
+    suitor_shouting_1:
+      display_name: First shouting suitor
+      tts: {delivery: "forceful and agitated", timbre: "full and harsh", pace: "urgent", pitch: "medium-low"}
+    suitor_shouting_2:
+      display_name: Second shouting suitor
+      tts: {delivery: "forceful and agitated", timbre: "bright and edged", pace: "urgent", pitch: "medium"}
+    suitor_shouting_3:
+      display_name: Third shouting suitor
+      tts: {delivery: "forceful and agitated", timbre: "rough and resonant", pace: "urgent", pitch: "low"}
+    eurymachus:
+      display_name: Eurymachus
+      tts: {delivery: "smooth and self-assured", timbre: "resonant and polished", pace: "steady", pitch: "medium-low"}
+    telemachus:
+      display_name: Telemachus
+      tts: {delivery: "direct and youthful", timbre: "clear and youthful", pace: "steady", pitch: "medium"}
+    agelaus:
+      display_name: Agelaus
+      tts: {delivery: "reasoning and assertive", timbre: "firm and clear", pace: "measured", pitch: "medium"}
+    melanthius:
+      display_name: Melanthius
+      tts: {delivery: "swaggering and contemptuous", timbre: "hard and coarse", pace: "brisk", pitch: "medium-low"}
+    eumaeus:
+      display_name: Eumaeus
+      tts: {delivery: "earnest and hospitable", timbre: "rough and warm", pace: "unhurried", pitch: "low"}
+    philoetius:
+      display_name: Philoetius
+      tts: {delivery: "loyal and straightforward", timbre: "rounded and weathered", pace: "measured", pitch: "low"}
+    athena:
+      display_name: Minerva
+      tts: {delivery: "assured and clear", timbre: "clear and steady", pace: "measured", pitch: "medium"}
+    leiodes:
+      display_name: Leiodes
+      tts: {delivery: "reflective and restrained", timbre: "soft and dry", pace: "measured", pitch: "medium"}
+    phemius:
+      display_name: Phemius
+      tts: {delivery: "sincere and articulate", timbre: "melodious and warm", pace: "measured", pitch: "medium"}
+    medon:
+      display_name: Medon
+      tts: {delivery: "familiar and practical", timbre: "plain and clear", pace: "brisk", pitch: "medium"}
+    euryclea:
+      display_name: Euryclea
+      tts: {delivery: "affectionate and resolute", timbre: "aged and warm", pace: "measured", pitch: "medium-low"}
+  chapters:
+    - id: ch01
+      title: "Another mark"
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Ulysses ripped off his rags and sprang onto the broad paving with his bow and full quiver. He tipped the arrows out at his feet.
+        - id: ch01-b02
+          speaker: odysseus
+          text: >-
+            The great contest is finished. Now there's another mark to try, one no man has ever struck. Let us see whether Apollo will allow me to hit it.
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            He aimed at Antinous. Antinous already held a two-handled gold cup, ready to raise it and drink. Death had not entered his thoughts. Who among all those revellers would imagine that one man, however courageous, would stand alone against so many and kill him?
+            The arrow struck his throat and passed clean through his neck. He toppled, dropping the cup. A thick stream of blood poured from his nostrils. His foot kicked the table away. Bread and roasted meat spilled onto the ground and lay in the dirt.
+            The suitors cried out in confusion. Every man sprang from his chair in alarm. They searched the walls with their eyes, looking everywhere, but there was no shield or spear. In anger they turned their threats on Ulysses.
+        - id: ch01-b04
+          speakers: [suitor_shouting_1, suitor_shouting_2, suitor_shouting_3]
+          ensemble: chorus
+          emotion: angry
+          text: >-
+            Stranger, you'll pay for shooting a man! This is the last contest you'll ever see. You're finished. You've killed the finest young man in Ithaca. The vultures will eat you for it.
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            They thought he had shot Antinous by accident. They did not yet see that death waited over every one of their heads. Ulysses glared at them.
+        - id: ch01-b06
+          speaker: odysseus
+          text: >-
+            Dogs! Did you think I'd never return from Troy? You've consumed my property. You've forced the women of my house into your beds. You sought to marry my wife while I was alive. Neither gods nor men frightened you. Now death has come for all of you.
+        - id: ch01-b07
+          speaker: narrator
+          text: >-
+            Fear drained the colour from their faces. Each looked about for somewhere to flee. Only Eurymachus spoke.
+        - id: ch01-b08
+          speaker: eurymachus
+          text: >-
+            If you're Ulysses, your accusations are just. We've done wrong, both here and on your land. But the man who led it all is already dead. Antinous was behind everything. Marrying Penelope wasn't his real purpose. He cared far more about another plan, one Jove didn't let him carry out. He wanted your son dead so that he could rule Ithaca. He's suffered the death he deserved. Now spare your own people. We'll make up the losses together and repay everything we've eaten and drunk. Each man will give you the value of twenty oxen as a fine. We'll add gold and bronze until you are willing to relent. Until we've paid, no one can blame you for your anger.
+        - id: ch01-b09
+          speaker: narrator
+          text: >-
+            Ulysses fixed him with another fierce look.
+        - id: ch01-b10
+          speaker: odysseus
+          text: >-
+            Give me every possession you have today, and everything you'll ever gain, and it won't stop my hand. I'll repay each of you in full. Fight for your lives or try to run. But no man here will escape.
+        - id: ch01-b11
+          speaker: narrator
+          text: >-
+            Hope sank in their hearts. Eurymachus called to the others again.
+        - id: ch01-b12
+          speaker: eurymachus
+          text: >-
+            Friends, he means to spare nobody. He'll stand in that spot and shoot until every last one of us is down. We must fight. Draw your swords and use the tables to block his arrows. Rush him together. Push him off the paving and away from the doorway. Then we can get into town and raise the alarm. That will soon put an end to his shooting.
+        - id: ch01-b13
+          speaker: narrator
+          text: >-
+            As Eurymachus finished speaking, he drew the bronze blade at his side. Both its edges had been sharpened. He gave a great cry and sprang forward at Ulysses. Ulysses answered immediately with an arrow to the breast. It struck close to the nipple and drove inward until it stuck in his liver. Eurymachus let go of his sword. He crumpled over the table in front of him, doubled up with the wound. The drinking cup went over, and all the meat slid down onto the ground. His forehead struck the earth as he struggled in the pain of dying. His feet kept kicking at his stool. Then the darkness came over his eyes.
+            Next Amphinomus unsheathed his sword and came straight at Ulysses. He too meant to drive him away from the entrance. But Telemachus acted before he could do it. He attacked from the rear, thrusting his spear into the space between Amphinomus's shoulders. It passed through and out of his chest. Amphinomus crashed heavily to the floor, his forehead hitting the ground. Telemachus sprang clear, leaving his spear where it stood in the corpse. He feared what might happen if he stopped to retrieve it. One of the Achaeans could come up while he was pulling and slash him with a sword, or strike him down. So he ran instead, reaching his father's side almost at once.
+        - id: ch01-b14
+          speaker: telemachus
+          text: >-
+            Father, I'll fetch you a shield, two spears, and a bronze helmet. I'll get armour for myself and for the swineherd and the stockman too. We'd better all be equipped.
+        - id: ch01-b15
+          speaker: odysseus
+          text: >-
+            Hurry, while I still have arrows. Alone here without them, I might be forced away from the entrance.
+        - id: ch01-b16
+          speaker: narrator
+          text: >-
+            Telemachus ran to the armour store. He selected four shields, eight spears, and four bronze helmets with horsehair crests, and rushed back. He armed himself first. Eumaeus and Philoetius put on their armour too and stood near Ulysses.
+            Ulysses went on shooting as long as he had arrows. The suitors fell one after another, piling over each other. When the arrows were gone, he propped the bow against the end wall beside the doorpost. He hung a shield of four layers of hide across his shoulders and put a finely made helmet on his handsome head. Its horsehair crest nodded above him, threatening to look at. In his hands he took two formidable spears tipped with bronze.
+    - id: ch02
+      title: "Weapons from the storeroom"
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            There was a trap door in the wall. At one end of the paving, a well-made door closed an exit into a narrow passage. Ulysses told Philoetius to guard that door. Only one attacker could come at it at a time. Agelaus shouted to his companions.
+        - id: ch02-b02
+          speaker: agelaus
+          text: >-
+            Can someone get up to the trap door and tell the townspeople? They'd come to help at once. We could soon finish this man and his bow.
+        - id: ch02-b03
+          speaker: melanthius
+          text: >-
+            That won't work, Agelaus. The narrow passage opens too close to the outer gate. One brave man could stop any number coming in. But I have a better way. I'll fetch arms from the storeroom. I'm sure that's where Ulysses and his son have hidden them.
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            Melanthius took the back passages to the storeroom. He selected twelve shields and twelve helmets, with the same number of spears, and hurried back to hand them out. Ulysses saw his enemies putting on armour and lifting their spears. His courage faltered. The danger was great.
+        - id: ch02-b05
+          speaker: odysseus
+          text: >-
+            Telemachus, one of the women inside must be helping them. Or perhaps it's Melanthius.
+        - id: ch02-b06
+          speaker: telemachus
+          text: >-
+            Father, this is my fault alone. I left the storeroom open. They've watched more carefully than I did. Eumaeus, shut that door. Find out whether a woman is doing this, or whether it's Dolius's son Melanthius, as I suspect.
+        - id: ch02-b07
+          speaker: narrator
+          text: >-
+            Melanthius was already going back for more equipment. The swineherd saw him and spoke to Ulysses beside him.
+        - id: ch02-b08
+          speaker: eumaeus
+          text: >-
+            Noble Ulysses, son of Laertes, we were right. That scoundrel Melanthius is on his way to the store. If I can overcome him, shall I kill him there? Or bring him here so you can punish all the wrong he's done in your home?
+        - id: ch02-b09
+          speaker: odysseus
+          text: >-
+            Telemachus and I can hold these men, whatever they try. Both of you go. Pull Melanthius's hands and feet behind his back and bind them. Put him in the storeroom and close the door. Loop a rope round his body and haul him up by a high pillar until he's close to the rafters. Let him stay alive there in pain.
+        - id: ch02-b10
+          speaker: narrator
+          text: >-
+            The two herdsmen went to the storeroom and got inside without being seen. Melanthius was busy looking for weapons in the deepest part of it. They took their positions on opposite sides of the door and waited for him. After a while he came towards the exit. In one hand he carried a helmet. In the other was an old shield, dried out and beginning to rot. It had belonged to Laertes when he was young, but had been put aside many years before. Even the seams holding its straps had come undone.
+            The men caught him there. They grabbed his hair, hauled him back into the storeroom, and threw him onto the ground as he fought against them. His hands and feet were forced well back behind his body. They tied him tightly in that position, making the bonds painful, just as Ulysses had instructed. Next they passed a rope loop around his body. From a high supporting pillar they pulled him upward until he was hanging close to the rafters. There he hung while the swineherd Eumaeus boasted over him.
+        - id: ch02-b11
+          speaker: eumaeus
+          text: >-
+            Melanthius, here's the soft bed you've earned for tonight! You'll be sure to notice when dawn rises from Oceanus. You won't miss the time to bring in your goats for the suitors' feast.
+        - id: ch02-b12
+          speaker: narrator
+          text: >-
+            They left him in those cruel bonds. They put on their armour, shut the door, and returned to their places beside Ulysses. The four stood in the cloister, fierce and angry. In the court, however, their enemies were still brave, and there were many of them.
+    - id: ch03
+      title: "The goddess on the rafter"
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            Jove's daughter Minerva now approached in Mentor's shape and with Mentor's voice. Ulysses was glad to see her.
+        - id: ch03-b02
+          speaker: odysseus
+          text: >-
+            Mentor, help me. Remember your old friend and everything he's done for you. You and I are the same age besides.
+        - id: ch03-b03
+          speaker: narrator
+          text: >-
+            All the while, he was sure this was Minerva. From across the court the suitors raised a clamour at her appearance. Agelaus challenged her first, calling her Mentor.
+        - id: ch03-b04
+          speaker: agelaus
+          text: >-
+            Don't let Ulysses trick you into helping him fight us. When we've killed father and son, you'll be next. You'll pay with your head. Once you're dead, every possession of yours, inside and outside, will join Ulysses' property for us to divide. Your sons and daughters won't keep your house. Your widow won't even be allowed to remain in Ithaca.
+        - id: ch03-b05
+          speaker: narrator
+          text: >-
+            This made Minerva angrier still. She turned her fierce rebuke on Ulysses.
+        - id: ch03-b06
+          speaker: athena
+          emotion: angry
+          text: >-
+            Where are the strength and courage you had for those nine years fighting the Trojans over noble Helen? You killed many men then. Your own plan brought down Priam's city. How can you be so much weaker now, on your own land, facing these suitors in your own house? Come, stand beside me. Watch how Mentor, son of Alcimus, fights your enemies and repays the kindness you've shown him.
+        - id: ch03-b07
+          speaker: narrator
+          text: >-
+            But she would not give him complete victory yet. She wanted to test his courage further, and the courage of his brave son. She flew up to a roof beam over the cloister and perched there as a swallow.
+            Six men carried the main fight for the suitors. They were Agelaus, son of Damastor, Eurynomus, Amphimedon, Demoptolemus, Pisander, and Polybus, son of Polyctor. They were the strongest of those still struggling to stay alive. The rest had already fallen to Ulysses' arrows. Agelaus shouted instructions.
+        - id: ch03-b08
+          speaker: agelaus
+          text: >-
+            Friends, he can't keep this up. Mentor talked big and then went away without helping. Those men stand at the doorway with no support. Don't all aim at once. Let six throw first. Kill Ulysses and win yourselves glory. Once he's down, the others needn't trouble us.
+        - id: ch03-b09
+          speaker: narrator
+          text: >-
+            They threw as he ordered. Minerva made every spear fail. One struck the doorpost, another the door itself, and another drove its point against the wall. Ulysses and his men avoided the whole flight. He called to his three companions.
+        - id: ch03-b10
+          speaker: odysseus
+          text: >-
+            Friends, we'd better send our spears into their midst. Otherwise, after all the harm they've done, they'll finish by killing us.
+        - id: ch03-b11
+          speaker: narrator
+          text: >-
+            Ulysses and his three companions took aim at the men directly before them and cast their spears. Demoptolemus fell to Ulysses. Euryades was killed by Telemachus. The swineherd killed Elatus, while the stockman's spear brought down Pisander. The four victims fell into the dust. The surviving suitors pulled back towards a corner of the court. Ulysses and the others rushed forward to recover their weapons, drawing their spears out of the bodies.
+            Now the suitors prepared another volley. For a second time Minerva turned most of the thrown weapons aside. A spear struck one of the columns holding up the cloister. Another hit the door, and the sharp point of a third met the wall. Not all the throws missed altogether. Amphimedon's spear took off a little of the skin over Telemachus's wrist. Ctesippus's point passed above Eumaeus's shield and scraped his shoulder. It went on past him and dropped to the ground.
+            Ulysses and his men again hurled their spears into the crowd facing them. Ulysses struck Eurydamas this time. Telemachus's throw hit Amphimedon, and Eumaeus struck Polybus. After these throws, Philoetius hit Ctesippus in the breast. The stockman spoke his taunt to the man he had struck.
+        - id: ch03-b12
+          speaker: philoetius
+          text: >-
+            Son of Polytherses, watch that foul tongue! Don't be such a fool as to speak wickedly another time. Let the gods guide your words. They're far stronger than any man. Take this advice as my gift, in return for the foot you gave Ulysses when he begged in his own home.
+        - id: ch03-b13
+          speaker: narrator
+          text: >-
+            Ulysses met the son of Damastor at close quarters and struck him with a spear. Telemachus drove his into the belly of Leocritus, son of Evenor. It went through him, and he fell face down on the ground.
+            From her perch on the rafter, Minerva raised her deadly aegis. The suitors' courage broke. They fled to the far side of the court like cattle driven mad by a gadfly in the longest days of early summer. Mountain vultures with hooked claws and eagle-like beaks fall upon little birds huddled on the ground. The birds can neither fight nor fly away. The watchers enjoy the sport as the vultures kill. So Ulysses and his men fell on the suitors from every side. Terrible groans rose as skulls were smashed, and blood seethed across the earth.
+    - id: ch04
+      title: "Those who begged for life"
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            Leiodes seized Ulysses' knees and begged him for mercy.
+        - id: ch04-b02
+          speaker: leiodes
+          text: >-
+            Ulysses, spare me. I never spoke or acted against any woman in this house. When I saw what the others were doing, I tried to stop them. They wouldn't listen, and now their foolishness has cost them their lives. I served as their sacrificing priest. If you kill me, I'll die without deserving it. All the good I tried to do will have earned me nothing.
+        - id: ch04-b03
+          speaker: narrator
+          text: >-
+            Ulysses looked at him sternly.
+        - id: ch04-b04
+          speaker: odysseus
+          text: >-
+            Their priest? Then you must often have prayed that I would stay away, and that you could marry my wife and have children with her. That's why you too will die.
+        - id: ch04-b05
+          speaker: narrator
+          text: >-
+            The sword Agelaus had dropped as he died lay on the ground. Ulysses picked it up and struck the back of Leiodes' neck. The man was still speaking when his head rolled into the dust.
+            Phemius, the bard and son of Terpes, now tried to save himself. The suitors had forced him to sing for them. He stood near the trap door with his lyre in his hands. Should he run from the cloister and sit by Jove's altar in the outer court? Laertes and Ulysses had burned many ox thigh bones there. Or should he go directly to Ulysses and clasp his knees? He chose the second course. He put his lyre down between the mixing bowl and the silver-studded chair, went forward, and caught Ulysses by the knees.
+        - id: ch04-b06
+          speaker: phemius
+          text: >-
+            Ulysses, please let me live. If you kill a singer who can sing for gods and men, you'll regret it later. I compose my own songs. Heaven sends me inspiration of every kind. I'd sing to you with the honour I give a god. Don't be quick to cut off my head. Ask Telemachus. He knows I didn't choose to keep coming here and singing after the suitors' meals. They forced me. There were too many, and they were too strong.
+        - id: ch04-b07
+          speaker: narrator
+          text: >-
+            Telemachus heard the plea and went to his father at once.
+        - id: ch04-b08
+          speaker: telemachus
+          text: >-
+            Stop, Father. This man is innocent. Don't hurt him. Spare Medon too. He was always kind to me when I was a boy. Unless Philoetius or Eumaeus has killed him already, or he crossed your path while you were fighting in the court.
+        - id: ch04-b09
+          speaker: narrator
+          text: >-
+            Medon heard Telemachus. He had hidden beneath a chair, crouched under a freshly skinned heifer's hide. He flung off the hide, hurried to Telemachus, and grasped his knees.
+        - id: ch04-b10
+          speaker: medon
+          text: >-
+            I'm here, dear master. Spare me, and speak to your father. He's angry at the suitors for wasting his possessions and treating you with such foolish disrespect. In that anger he may kill me too.
+        - id: ch04-b11
+          speaker: narrator
+          text: >-
+            Ulysses smiled at Medon.
+        - id: ch04-b12
+          speaker: odysseus
+          text: >-
+            Don't be afraid. Telemachus has saved you. Remember it, and tell others how much better good deeds turn out than evil ones. You and the bard should go outside the cloister into the outer court. Keep clear of the killing while I finish what remains inside.
+        - id: ch04-b13
+          speaker: narrator
+          text: >-
+            The bard and Medon left the cloister as quickly as their feet would take them. In the outer court they sat beside the great altar belonging to Jove. Even there they kept looking round in fear, expecting that someone might still kill them. Inside, Ulysses made a careful search from one end of the court to the other. He wanted to know whether any man had found a hiding place and survived. But all the suitors were down. They lay in the dirt, their bodies covered with their own blood. Think of fish dragged from the sea in a fisherman's net and emptied onto the beach. They lie there opening their mouths for water, until the heat of the sun ends their lives. Like those fish, the suitors lay heaped together, one body against another.
+    - id: ch05
+      title: "The women of the house"
+      blocks:
+        - id: ch05-b01
+          speaker: odysseus
+          text: >-
+            Telemachus, fetch nurse Euryclea. I have something to ask her.
+        - id: ch05-b02
+          speaker: narrator
+          text: >-
+            Telemachus knocked on the door of the women's room.
+        - id: ch05-b03
+          speaker: telemachus
+          text: >-
+            Be quick, old nurse. You're in charge of all the women. Come out here. My father wants to speak to you.
+        - id: ch05-b04
+          speaker: narrator
+          text: >-
+            Euryclea heard the call, drew back the bolt of the women's door, and came out after Telemachus. He brought her to Ulysses, standing among the dead with blood and filth spattered over him. A lion has just been feeding on an ox. Its breast is red, and blood covers both its cheeks. Anyone seeing it would be afraid. That was how Ulysses looked, stained with gore all the way from his head to his feet. Euryclea saw the bodies lying there and the great quantity of blood. To her it meant that a mighty deed had been done. She was just beginning to lift her voice in a cry of happiness when Ulysses restrained her.
+        - id: ch05-b05
+          speaker: odysseus
+          text: >-
+            Old woman, keep your happiness inside. Don't shout. It offends the gods to boast over the dead. Heaven's judgement and these men's own wrongdoing have destroyed them. They respected nobody who came near, poor or rich. Their wickedness and folly have earned this end. Now tell me about the women. Which ones have behaved badly, and which are innocent?
+        - id: ch05-b06
+          speaker: euryclea
+          text: >-
+            I'll give you the truth, my child. We have fifty women in the house, taught to card wool and do all the household work. Twelve have done wrong. They've shown disrespect to me and to Penelope. They haven't slighted Telemachus. He's only just grown up, and his mother never allowed him to give the maids orders. But let me first go upstairs and tell your wife what's happened. Some god has kept her asleep.
+        - id: ch05-b07
+          speaker: odysseus
+          text: >-
+            Don't wake her yet. Send the women who have done wrong here to me.
+        - id: ch05-b08
+          speaker: narrator
+          text: >-
+            Euryclea left the cloister to fetch them. Ulysses called his son and the two herdsmen together.
+        - id: ch05-b09
+          speaker: odysseus
+          text: >-
+            Start carrying the dead away, and make those women help you. Then bring sponges and clean water. Wash the tables and chairs. When the whole cloister is thoroughly clean, take the women between the domed building and the outer courtyard wall. Run your swords through them until they're dead. Let them forget their lovemaking and the way they secretly slept with the suitors.
+        - id: ch05-b10
+          speaker: narrator
+          text: >-
+            The women came down as a group. They were weeping bitterly and crying aloud. Their first task was to carry the dead out of the cloister. They took the bodies to the gatehouse and stood them propped against one another. Ulysses gave the orders and hurried them along. They had no choice but to keep moving the bodies until all were outside. Then they fetched sponges and water and washed down every table and every seat. At the same time Telemachus, Eumaeus, and Philoetius scraped and shovelled the blood and dirt off the floor. The women had to carry all of that away too and throw it outside the doors.
+            When the whole place had been made clean and orderly, the men led the women out. There was only a narrow space between the wall of the domed building and the wall of the court. They confined the women there, cutting off any way of escape. Telemachus then told the two herdsmen what he intended.
+        - id: ch05-b11
+          speaker: telemachus
+          text: >-
+            I won't give these women a clean death. They insulted my mother and me, and they went to bed with the suitors.
+        - id: ch05-b12
+          speaker: narrator
+          text: >-
+            Telemachus took a cable from a ship and tied it to one of the pillars that carried the roof of the domed room. He fastened it securely all round the building, keeping it well above the ground. Not one of the women was to reach the earth with her feet. Thrushes or doves may be on their way back to the nest when they run into a net set among the bushes. They beat against it, with a terrible fate waiting for them. The women met such a fate. Each in turn was forced to put her head into a noose, and so they died in misery. For a short time their feet moved in jerks. But the movement did not last long.
+            They took Melanthius from where he had been confined, led him through the cloister, and brought him into the inner court. There they severed his ears and his nose. They pulled the entrails out of his body and threw them to the dogs without cooking them. After that, still in their fury, they cut off both his hands and his feet.
+    - id: ch06
+      title: "Fire and sulphur"
+      blocks:
+        - id: ch06-b01
+          speaker: narrator
+          text: >-
+            It was finished. The men washed their hands and feet and went indoors again. Ulysses spoke to his dear old nurse.
+        - id: ch06-b02
+          speaker: odysseus
+          text: >-
+            Euryclea, bring sulphur to remove the pollution, and fire to burn it. I must purify the cloister. Tell Penelope to come with her attendants. Call all the women of the house as well.
+        - id: ch06-b03
+          speaker: euryclea
+          text: >-
+            What you ask is right. But first let me fetch clean clothes, a shirt and a cloak. You shouldn't keep wearing those rags. It isn't fitting.
+        - id: ch06-b04
+          speaker: odysseus
+          text: >-
+            Give me the fire first.
+        - id: ch06-b05
+          speaker: narrator
+          text: >-
+            She brought fire and sulphur as he asked. Ulysses purified the cloister and both the inner and outer courts thoroughly. Euryclea went inside to call the women and tell them what had happened. They came from their rooms carrying torches. They pressed round their master and embraced him, kissing his head and shoulders and holding his hands. He felt close to tears himself. He remembered every one of them.
