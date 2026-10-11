@@ -1,0 +1,24 @@
+schema_version: 1
+required: true
+sources:
+  - url: "https://www.gutenberg.org/ebooks/1727"
+    authority: "Project Gutenberg catalogue, opened 2026-10-11"
+    claims: ["Ebook 1727 credits Homer and translator Samuel Butler and records public-domain status in the USA."]
+  - url: "https://www.gutenberg.org/files/1727/1727-h/1727-h.htm"
+    authority: "Primary plot source, Samuel Butler's 1900 translation in the 1921 second edition, Book I"
+    claims: ["The complete Book I supplies the events and attributed speeches retained below; the prefaces establish the edition history."]
+  - url: "https://www.getty.edu/cona/CONAIconographyRecord.aspx?iconid=901000730"
+    authority: "Getty Research Institute, CONA record 901000730, opened 2026-10-11"
+    claims: ["The Odyssey is a twenty-four-book ancient Greek epic traditionally attributed to Homer, with approximate eighth-century BCE dating."]
+  - url: "https://www.metmuseum.org/perspectives/discovering-homer-odyssey"
+    authority: "The Metropolitan Museum of Art, Department of Greek and Roman Art, opened 2026-10-11"
+    claims: ["Independent cultural evidence for the epic's ancient Greek origin and oral performance tradition."]
+notes:
+  - "Exact local comparison source: git show 1208d108:works/series/the-odyssey/the-odyssey-01/locales/en-US/article.md, read in full against both final locales. This records Butler as the consulted plot translator, not the writer of the new English."
+  - "Task-scoped user exception: preserve type classic and published author Homer / 荷马 while preparing a compressed HaiLibrary reading edition, without dedication, prefaces, footnotes or note numbers. The user explicitly rejects verbatim import and 1:1 translation. Neither locale is advertised as unabridged or as Butler's wording; no source_url or translator field mislabels it as an imported translation. Both locale writer IDs remain homer."
+  - "Retained boundaries: lost companions and Sun cattle; Zeus's Aegisthus warning and Orestes's killing; Poseidon's reason for hostility; Athena's Mentes disguise and claimed trading history; the host's hospitality and doubts; the poison-arrow recollection including the refusal and supply; assembly, twenty-man journey, one-year wait and funeral alternatives; explicit instruction to kill the suitors; Orestes as model; divine departure; Penelope's grief and her son's gendered command; sexual wishes of the suitors; death curse, kingship dispute and concealed divine recognition; Euryclea's purchase and Laertes's fear of his wife's anger; wakeful voyage planning."
+  - "Compressed boundaries: the invocation is recast as brief narrative; Atlas/Thoosa/Phorcys ancestry, exact trading ports, the list of suitor islands, repeated divine titles, washing vessels and dining inventories, gift-value repetition, Euryclea's purchase price and garment/door hardware are omitted or summarized. No embedded action is reclassified as a harmless catalogue merely to remove violence."
+  - "Claim inventory in both locales: provenance is supported by the catalogue and two independent cultural institutions. Divine disguise, prophecy, captivity and flight belong to the poem's declared mythology. Character assertions about paternity and death remain attributed opinions. Household slavery, sexual desire, revenge and exclusionary speech describe these characters, not approved or universal Greek customs. Ordinary serving, clothing, hearing and departure retain consistent cause and sequence."
+  - "Removed unsupported staging includes a returned spear, a repeated rehearsal of the assembly opening and invented questions about laughter. The new wording changes expression without adding a plot event. Each audio script uses only its own final locale article. No media was generated or modified."
+  - "Chinese native-language rework after f60bc6c: the same events are retold with explicit family/guest relationships, natural information order and live dialogue. Source wording is not used as a sentence template. Mother returning to her own father is expressed as returning to her natal home; paternity doubt is expressed as only being able to trust the mother's statement. The loss of companions explicitly retains both slaughtering and eating the Sun cattle."
+  - "This round changes only Chinese article/audio, its measured length and editorial evidence. English files and publication metadata outside the Chinese length are preserved. Laertes is consistently written 拉厄尔忒斯 in Chinese, without changing the character or English name. No new mythic event, motive, physical action or modern moral is introduced."

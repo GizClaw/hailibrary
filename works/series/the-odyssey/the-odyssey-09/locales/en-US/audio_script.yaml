@@ -1,0 +1,161 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts: {delivery: "measured epic storytelling in plain speech", timbre: "warm and clear", pace: "unhurried", pitch: "medium"}
+    odysseus:
+      display_name: Odysseus
+      tts: {delivery: "deliberate and resourceful with direct storytelling", timbre: "weathered and resonant", pace: "measured with varied breaths", pitch: "medium-low"}
+    polyphemus:
+      display_name: Polyphemus
+      tts: {delivery: "blunt and commanding", timbre: "deep and rough", pace: "broad and deliberate", pitch: "low"}
+    cyclops_1:
+      display_name: A neighboring Cyclops
+      tts: {delivery: "blunt and questioning", timbre: "coarse and full", pace: "steady", pitch: "low"}
+    cyclops_2:
+      display_name: Another neighboring Cyclops
+      tts: {delivery: "direct and impatient", timbre: "gravelly", pace: "measured", pitch: "medium-low"}
+    crew_1:
+      display_name: A crewman
+      tts: {delivery: "earnest and direct", timbre: "rough and clear", pace: "brisk", pitch: "medium"}
+    crew_2:
+      display_name: Another crewman
+      tts: {delivery: "urgent but plainly spoken", timbre: "dry and strong", pace: "brisk", pitch: "medium-low"}
+  chapters:
+    - id: ch01
+      title: Twelve ships leaving Troy
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: |
+            Odysseus answered the king.
+        - id: ch01-b02
+          speaker: odysseus
+          text: |
+            Alcinous, you've been hearing my name in the songs. I'm Odysseus. Laertes is my father, and Ithaca is my home. To a visitor, it's a rocky island with a wooded mountain. To me, it's where I've wanted to be ever since I left Troy.
+            Calypso wanted me to stay with her. So did Circe. But I couldn't stop wanting my own home. You see me alone now. When I left Troy, I had twelve ships. That's where I must start.
+            At Ismarus, we attacked the Cicons' city. We killed men, took women captive and stole what we could. I shared out the plunder and told everyone to get back aboard. They wouldn't leave their feast on the beach. They were roasting the cattle and drinking the wine we'd taken. Meanwhile, survivors of our attack went inland for help.
+            More Cicons came at morning. We fought beside the ships until evening. Every vessel lost six men before we got away. Out on the water, we called the names of the companions we'd left dead behind us.
+            A storm ripped our sails next. We sheltered ashore and set out again, only to have wind and current carry us past the way to Ithaca. For nine days we couldn't get free of the weather. On day ten we landed among the Lotus-eaters.
+            I sent three scouts. Nobody hurt them. The people offered lotus to eat, and once they'd tasted it, my men lost all desire to go home. They only wanted more of that food. I had to drag them back while they cried. I tied them under the rowing benches and got everybody else aboard quickly, before they could try it too.
+    - id: ch02
+      title: The stone across the doorway
+      blocks:
+        - id: ch02-b01
+          speaker: odysseus
+          text: |
+            Our next safe landing was an island where wild goats roamed. We found water and meat there. Across a channel lay the Cyclopes' country. We could see fires smoking and hear voices and sheep. I wanted to meet the people.
+            I left the other ships behind, took mine across and chose twelve men to come ashore. With me I brought a skin of wine, sweet and very strong. Maron served Apollo at Ismarus. I'd spared him, his wife and child in the raid, and he'd given me this wine.
+            We entered a cave. Cheeses stood on racks, young sheep and goats were penned inside, and the milking bowls were ready. The owner was still out with his flock. My men wanted to leave.
+        - id: ch02-b02
+          speakers: [crew_1, crew_2]
+          ensemble: duo
+          text: |
+            Let's take some cheese and drive the animals down to the ship. We can get away now.
+        - id: ch02-b03
+          speaker: odysseus
+          text: |
+            I wouldn't go. I expected the owner to welcome us, perhaps offer us a present. So we helped ourselves to his cheese and sat waiting.
+            At last he came in and dropped a great load of firewood. The crash sent us into the shadows. He was huge, and he had a single eye. He brought in the animals for milking, then closed the cave with an enormous rock. One look told me we couldn't shift it.
+            When his work was done, he made a fire. In its light, he found us.
+        - id: ch02-b04
+          speaker: polyphemus
+          text: |
+            What are you doing here? Who are you?
+        - id: ch02-b05
+          speaker: odysseus
+          text: |
+            I explained that we were sailing home from Troy, but storms had forced us off our course. We'd served Agamemnon, whose army had sacked the city. I asked him to help us. Zeus watched over travelers who needed shelter, I reminded him.
+        - id: ch02-b06
+          speaker: polyphemus
+          text: |
+            I'll choose for myself whether you live. Zeus won't choose for me. Now, where's your ship?
+        - id: ch02-b07
+          speaker: odysseus
+          text: |
+            I lied. I said Poseidon had smashed it. I wouldn't tell him how to find the men still waiting at the shore.
+            Then he grabbed two companions, dashed them against the floor and tore them apart to eat. We cried out to the gods, but couldn't stop him. When he lay down to sleep, I reached for my sword. But there was that boulder. If I killed him, we'd stay trapped beside the corpse.
+            Morning came. He ate another two, moved the stone to let the flock out and shut us in again. It was as easy for him as shutting a box.
+    - id: ch03
+      title: Nobody calls for help
+      blocks:
+        - id: ch03-b01
+          speaker: odysseus
+          text: |
+            We needed him alive to open the cave. By the pens was a piece of olive wood he meant to use as a staff. We fashioned a stake from it, then concealed it. We drew lots to choose four helpers, and waited through the day.
+            That evening he drove every sheep inside, then ate two more men. I'd brought twelve companions in. Only six were left.
+            I approached him with Maron's wine in a bowl.
+            Taste this. I brought it because I hoped you'd help us get home.
+            He held the bowl out for more. After three bowls, he could hardly speak clearly.
+        - id: ch03-b02
+          speaker: polyphemus
+          text: |
+            What's your name? I have a gift for my guest.
+        - id: ch03-b03
+          speaker: odysseus
+          text: |
+            Nobody. My father, mother and friends all call me Nobody.
+        - id: ch03-b04
+          speaker: polyphemus
+          text: |
+            I'll eat the others first, then. Nobody will be last. There's your present.
+        - id: ch03-b05
+          speaker: odysseus
+          text: |
+            He fell on his back, vomited up wine and pieces of human flesh, and slept. We fetched the stake, heated the end and thrust it into his eye. He screamed, and we fled out of reach as he pulled it out.
+            Other Cyclopes came when they heard him. From outside, they called to him by his name.
+        - id: ch03-b06
+          speakers: [cyclops_1, cyclops_2]
+          ensemble: duo
+          text: |
+            Polyphemus, who's attacking you?
+        - id: ch03-b07
+          speaker: polyphemus
+          text: |
+            Nobody is killing me! He's doing it by a trick!
+        - id: ch03-b08
+          speaker: odysseus
+          text: |
+            They said if nobody was hurting him, a god must have made him ill. He ought to ask his father Poseidon for help. Then they left him.
+            I nearly laughed at how well the name had worked. Yet he still controlled the doorway. He pushed the boulder away and sat with his hands stretched out, waiting to catch us.
+    - id: ch04
+      title: The voice from the ship
+      blocks:
+        - id: ch04-b01
+          speaker: odysseus
+          text: |
+            I turned to the flock for another way out. I tied sheep together in threes and hung a companion beneath the middle one. The sheep on either side concealed him. I took the largest ram for myself and held tight to the wool under its belly. We waited for daylight.
+            Then the animals began going out. Polyphemus ran his hands over their backs. He never reached down far enough to find us. My ram, slowed by my weight, was last. He held it back.
+        - id: ch04-b02
+          speaker: polyphemus
+          text: |
+            You're always at the front. Why so slow today? Are you grieving for me? If only you could tell me where Nobody is. I'd batter his head against the floor. I'd have some revenge then.
+        - id: ch04-b03
+          speaker: odysseus
+          text: |
+            I gripped the fleece until he let the animal go. It walked out with me underneath. Beyond the yard, I slid free and released the others. We drove the flock to the ship. Our sailors welcomed us, then wept for the men who hadn't come back. I signaled for silence. We had to row away first.
+            Yet once we were off the shore, I couldn't keep quiet myself.
+            You ate your guests! Did you think you wouldn't pay for that?
+            Polyphemus wrenched a rock loose and threw it at the sound. It landed just behind us. The wave shoved our ship back towards the beach. I pushed with a pole while the men pulled hard at the oars. When we got farther out, they begged me to be quiet.
+        - id: ch04-b04
+          speakers: [crew_1, crew_2]
+          ensemble: duo
+          text: |
+            Don't let him hear you again. One more of those rocks, and we're finished.
+        - id: ch04-b05
+          speaker: odysseus
+          text: |
+            My false name had got us out alive. But now I wanted him to know who'd beaten him. I shouted again.
+            Tell anyone who asks that Odysseus blinded you. Laertes' son, from Ithaca!
+            He groaned. Someone had prophesied that Odysseus would take his sight. He'd imagined a powerful warrior coming against him, not a little man getting him drunk. He asked me to return. He would welcome me properly, he said, and get his father to help me home.
+            I threatened him again. Even Poseidon couldn't mend his eye, I said. I only wished I could be as sure of killing him. Then he lifted his hands to heaven and prayed.
+        - id: ch04-b06
+          speaker: polyphemus
+          text: |
+            Father Poseidon, keep Odysseus away from home, if I really am your son. If he's bound to get there, make him come late, with all his crew lost. Bring him in someone else's ship, and let him find trouble at home.
+        - id: ch04-b07
+          speaker: odysseus
+          text: |
+            Poseidon heard him. Polyphemus threw another rock, but this wave pushed us away. We got back to the island and our other ships. We divided the sheep, and I sacrificed the big ram to Zeus. He didn't receive my plea. He was thinking of destroying my men and ships.
+            Next morning, the survivors sat at their oars again. All twelve ships went back to sea.

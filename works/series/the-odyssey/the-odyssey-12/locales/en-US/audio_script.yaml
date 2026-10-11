@@ -1,0 +1,122 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts: {delivery: "measured epic storytelling in plain speech", timbre: "warm and clear", pace: "unhurried", pitch: "medium"}
+    odysseus:
+      display_name: Odysseus
+      tts: {delivery: "deliberate and resourceful with direct storytelling", timbre: "weathered and resonant", pace: "measured with varied breaths", pitch: "medium-low"}
+    circe:
+      display_name: Circe
+      tts: {delivery: "assured and deliberate", timbre: "smooth and resonant", pace: "unhurried", pitch: "medium"}
+    siren_1:
+      display_name: The first Siren
+      tts: {delivery: "inviting and lyrical", timbre: "clear and flowing", pace: "gently sustained", pitch: "medium-high"}
+    siren_2:
+      display_name: The second Siren
+      tts: {delivery: "inviting and musical", timbre: "soft and resonant", pace: "gently sustained", pitch: "medium"}
+    eurylochus:
+      display_name: Eurylochus
+      tts: {delivery: "watchful and forcefully practical", timbre: "tense and grainy", pace: "deliberate with urgent turns", pitch: "medium-low"}
+  chapters:
+    - id: ch01
+      title: Circe's last directions
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: |
+            Odysseus told of their return from the dead.
+        - id: ch01-b02
+          speaker: odysseus
+          text: |
+            Back at Circe's island, we kept my promise to Elpenor. We burned his body and armor, piled up his grave by the shore and stood his oar on top.
+            Circe brought us food. After dark, with the crew asleep near the ship, she took me aside. She heard my account of the dead, then explained the dangers ahead.
+            First we'd meet the Sirens. Their songs drew sailors in, and nobody who stayed ever returned to his family. Dead men lay around their meadow.
+        - id: ch01-b03
+          speaker: circe
+          text: |
+            Put wax in your men's ears so they can't hear. If you want to listen, have them tie you to the mast. They must never free you while the Sirens sing, however much you ask. If you plead, they should pull the ropes tighter.
+        - id: ch01-b04
+          speaker: odysseus
+          text: |
+            After that, we could choose between two passages. One crossed the Wandering Rocks, where water and fire destroyed ships. Only the Argo had ever got through, because Hera helped Jason. The other passage ran between two monsters.
+            High up, Scylla lived in a cave. Her six long necks ended in six heads, each able to snatch a sailor. Across from her, below the other rock, Charybdis swallowed the sea and spewed it out again. If it swallowed our ship, we'd all die.
+        - id: ch01-b05
+          speaker: circe
+          text: |
+            Row fast along Scylla's rock. Better to lose six than everybody.
+        - id: ch01-b06
+          speaker: odysseus
+          text: |
+            Could I fight her off as we go?
+        - id: ch01-b07
+          speaker: circe
+          text: |
+            You can't kill her. Don't stop to arm yourself. Give her time, and she'll take another six. Call on her mother Crataiis to hold back that second strike.
+        - id: ch01-b08
+          speaker: odysseus
+          text: |
+            Then came the warning about Thrinacia. The Sun owned seven herds of cattle and seven flocks of sheep there, fifty to a herd or flock. They didn't breed or die off. His daughters Phaethusa and Lampetie cared for them. If we hurt them, I'd lose my crew and ship. It was the same warning Tiresias had given me among the dead.
+    - id: ch02
+      title: The song and the hands above us
+      blocks:
+        - id: ch02-b01
+          speaker: odysseus
+          text: |
+            We set out at dawn. I explained the Sirens to the men and told them how to bind me. Before long, the wind died. We stowed the sail and rowed. I filled their ears with wax. They tied me upright to the mast.
+            The two Sirens watched us approach and began singing.
+        - id: ch02-b02
+          speakers: [siren_1, siren_2]
+          ensemble: duo
+          text: |
+            Nearer, Odysseus. Listen to us. We know all the suffering the gods brought to Greeks and Trojans. We'll send you away with greater knowledge. We can tell you what will happen in the world.
+        - id: ch02-b03
+          speaker: odysseus
+          text: |
+            I wanted to go to them. I strained at the ropes and signaled for my release. The men rowed harder. Eurylochus and Perimedes tied me even more firmly. Only after we couldn't hear the singing did they take out the wax and free me.
+            Then came a roar ahead. Spray rose high above the sea. The crew dropped their oars in fear, and the ship stopped moving properly. I went from man to man, urging them to row.
+            We escaped the Cyclops. We can pull again now. Keep away from the churning water and close to the rock.
+            I hadn't told them about Scylla. I was afraid they'd refuse to row. But I ignored Circe's instruction myself. I armed myself and stood forward with two spears, searching the cliff for an enemy.
+            Charybdis sucked the water down until we could see mud below. While we watched it, Scylla reached from the other side. She took six men at once. They were high over my head, stretching their arms towards me and shouting my name. She ate them alive at her cave. They were still crying and reaching for me, and I couldn't save them. Those hands were the worst sight of all my travels.
+    - id: ch03
+      title: Hunger on the Sun's island
+      blocks:
+        - id: ch03-b01
+          speaker: odysseus
+          text: |
+            Beyond the strait lay Thrinacia. The cattle were close enough for us to hear. I remembered the prophet and Circe, and told the helmsman to sail past. Eurylochus objected.
+        - id: ch03-b02
+          speaker: eurylochus
+          text: |
+            Perhaps you never get tired, but we do. We need food and sleep ashore. What if bad weather catches us out here tonight? Stop now, and we'll sail in daylight.
+        - id: ch03-b03
+          speaker: odysseus
+          text: |
+            All the others agreed with him. I gave way, but first I made every man swear not to kill a single animal from those herds. We could eat what Circe had given us.
+            They swore. We stopped near fresh water, made supper and remembered our six dead friends. We cried ourselves to sleep.
+            During the night a storm came up. We sheltered the ship in a cave the next morning. I warned the men again. They promised again. But the wind trapped us there for a month. When the grain and wine were finished, we fished and caught birds, searching everywhere for food.
+            I went inland one day to ask the gods to let us leave. Away from the others, out of the wind, I prayed. Then the gods made me sleep. Eurylochus spoke to the crew while I was gone.
+        - id: ch03-b04
+          speaker: eurylochus
+          text: |
+            Are we going to starve with food all around us? Offer the best cattle to the gods. When we reach home, we can build the Sun a splendid temple. If he wrecks us for it, I'd choose drowning over starving here little by little.
+        - id: ch03-b05
+          speaker: odysseus
+          text: |
+            The men agreed. They gathered cattle, prayed over them and killed them. They had no grain or wine for the sacrifice, so they used leaves and water. I woke and headed down to the ship. The smell of roasting meat reached me first.
+            I called out against the gods who'd made me sleep. At the shore I challenged each man, but nothing I said could bring the animals back.
+            I learned what the gods had said from Calypso later. Hermes had told her. Lampetie took news of the killing to her father. The Sun demanded compensation, threatening to abandon the sky and give his light to the dead instead. Zeus promised to smash our ship once we sailed.
+            Strange things began on shore. Cattle hides moved by themselves. The meat cooking on the spits lowed like cows. Even so, the crew ate from the herds for six days. On the seventh, the wind dropped enough for us to leave.
+    - id: ch04
+      title: The broken timbers
+      blocks:
+        - id: ch04-b01
+          speaker: odysseus
+          text: |
+            With land out of sight, a black cloud darkened the ship. A squall broke the ropes supporting the mast. It fell and killed the helmsman. Zeus struck us with lightning. Fire ran through the vessel as it spun and broke up. My companions went into the water. Not one of them lived.
+            I clung on as the hull broke away from the keel. The mast floated beside it, trailing a strong rope of hide. I tied the two pieces together and rode them. Then the wind changed and blew me back towards Charybdis all night.
+            At sunrise, the whirlpool pulled the timbers under. I caught hold of the fig tree above it. My feet had nowhere to stand. I could only hang there until the sea gave the mast and keel back.
+            When they appeared, I dropped into the water beside them and scrambled onto them again. I paddled away with my hands. Zeus hid me from Scylla, so she didn't catch me passing.
+            Nine days I drifted like that. On the tenth night I came to Calypso's island, and she welcomed me. Alcinous, you and your queen heard that part yesterday.
+            My story has reached the shore you already know. I don't want to tell it twice.

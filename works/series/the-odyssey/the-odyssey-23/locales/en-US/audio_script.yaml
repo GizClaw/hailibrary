@@ -1,0 +1,164 @@
+audio_script:
+  language: en-US
+  cast:
+    narrator:
+      display_name: Narrator
+      tts: {delivery: "Measured storytelling with room for the changing feelings", timbre: "Warm and clear", pace: "Unhurried with varied breaths", pitch: "Medium"}
+    euryclea:
+      display_name: Euryclea
+      tts: {delivery: "Affectionate and emphatic without fussing", timbre: "Aged and textured but lively", pace: "Brisk when excited", pitch: "Medium"}
+    penelope:
+      display_name: Penelope
+      tts: {delivery: "Thoughtful and controlled with feeling close beneath the words", timbre: "Clear and mature", pace: "Deliberate", pitch: "Medium"}
+    telemachus:
+      display_name: Telemachus
+      tts: {delivery: "Direct and youthful", timbre: "Clear with a firm edge", pace: "Steady", pitch: "Medium"}
+    odysseus:
+      display_name: Ulysses
+      tts: {delivery: "Deliberate and resourceful with restrained warmth", timbre: "Weathered and resonant", pace: "Measured", pitch: "Medium low"}
+    townsman_1:
+      display_name: First Townsman
+      tts: {delivery: "Matter of fact and judgmental", timbre: "Rough and dry", pace: "Conversational", pitch: "Low"}
+    townswoman_1:
+      display_name: Townswoman
+      tts: {delivery: "Matter of fact and judgmental", timbre: "Clear and light", pace: "Conversational", pitch: "Medium high"}
+    townsman_2:
+      display_name: Second Townsman
+      tts: {delivery: "Matter of fact and judgmental", timbre: "Soft and grainy", pace: "Conversational", pitch: "Medium"}
+  chapters:
+    - id: ch01
+      title: "News she could not believe"
+      blocks:
+        - id: ch01-b01
+          speaker: narrator
+          text: >-
+            Euryclea hurried up the stairs, laughing with delight. Her mistress's husband had returned, and she was going to tell her. Joy made her old knees feel strong. At the bed, she bent close to Penelope and called her awake.
+        - id: ch01-b02
+          speaker: euryclea
+          emotion: happy
+          text: "Come and look! Odysseus is here. He's killed the suitors. Your husband is back!"
+        - id: ch01-b03
+          speaker: narrator
+          text: >-
+            Penelope had slept better than at any time since he left for Troy. To wake her with this story seemed cruel. The gods must have taken the nurse's good sense away. If a younger woman had done it, she would have been scolded fiercely. Euryclea insisted. The stranger they had abused was Odysseus. His son knew, and had kept quiet so his father could take revenge. Penelope jumped up, hugged the nurse, and cried happily. Then she wondered how one man could kill so many.
+        - id: ch01-b04
+          speaker: euryclea
+          text: >-
+            I wasn't there to see. We were locked in the women's room, crowded in a corner. We heard the cries. Then your son came for me. His father stood among the dead, covered in blood like a lion. You'd have been glad to see him. The bodies are at the gatehouse now. He's using sulfur to cleanse the house. Come down. His wife and son are safe, and his enemies are dead.
+        - id: ch01-b05
+          speaker: narrator
+          text: >-
+            Penelope still thought it must be a god's work. The men had behaved badly enough to anger one. Odysseus had died far away. The nurse spoke of his scar. She had touched it while washing him. He stopped her telling anyone. If she was lying, Penelope could kill her in the cruelest way she could imagine.
+        - id: ch01-b06
+          speaker: penelope
+          text: "Nobody can know all the gods' plans. Still, I'll see my son, those dead men, and the man who killed them."
+    - id: ch02
+      title: "What the bed revealed"
+      blocks:
+        - id: ch02-b01
+          speaker: narrator
+          text: >-
+            On the stairs, she wondered whether to question him first or embrace him. Downstairs she sat across the fire. Odysseus kept his eyes lowered and waited. She would study his face, then see the dirty rags and doubt again. Telemachus lost patience.
+        - id: ch02-b02
+          speaker: telemachus
+          text: >-
+            He's been away twenty years, suffering, and you won't even go near him. What other wife would do this? Your heart is stone.
+        - id: ch02-b03
+          speaker: penelope
+          text: >-
+            I'm too astonished to speak. If he is your father, we'll know one another. There are things nobody knows but us.
+        - id: ch02-b04
+          speaker: narrator
+          text: >-
+            Odysseus smiled and told his son to let her test him. She would decide. First they must think of danger outside. Kill one man, and you might have to leave the country to escape his friends. They had killed Ithaca's leading young men. Families would want revenge. Telemachus said his father must choose their course. They would follow while they had strength.
+        - id: ch02-b05
+          speaker: odysseus
+          text: >-
+            Wash and put clean clothes on. Have the women dress as well. Phemius must play a dance. People passing will think it's a wedding. We need to get to my woodland before they hear about the deaths. Then we can work out what chances the gods leave us.
+        - id: ch02-b06
+          speaker: narrator
+          text: "Soon men and women were dancing. Outside, people heard the music and blamed the queen."
+        - id: ch02-b07
+          speakers: [townsman_1, townswoman_1, townsman_2]
+          ensemble: chorus
+          text: "So she's married at last. She should have kept his property safe and waited for him."
+        - id: ch02-b08
+          speaker: narrator
+          text: >-
+            They had no idea what happened inside. Eurynome bathed Odysseus, put oil on him, and brought clothes. Athena made him taller and stronger, with thick curls. His shoulders and head had the beauty of fine silver worked with gold. He sat opposite his wife again.
+        - id: ch02-b09
+          speaker: odysseus
+          text: >-
+            After twenty years you still keep away. Nurse, find me somewhere to sleep alone. Her heart must be iron.
+        - id: ch02-b10
+          speaker: narrator
+          text: "Penelope answered steadily. She wasn't scorning him or boasting. She remembered him when he sailed. Then she spoke to the nurse."
+        - id: ch02-b11
+          speaker: penelope
+          text: "Take his bed outside the room he made. Put the fleeces and blankets on it there."
+        - id: ch02-b12
+          speaker: narrator
+          text: "The test made Odysseus angry."
+        - id: ch02-b13
+          speaker: odysseus
+          emotion: angry
+          text: >-
+            Who shifted my bed? A man would have to cut it free. I built it. There was an olive tree thick as a post in the court. I put stone walls and a roof around it and fitted the doors. I cut away the branches and worked the rooted trunk into a bedpost. Then I bored the wood, made the rest of the bed, added gold and silver, and stretched red leather across it. Is it still standing there? Did someone cut through the roots?
+        - id: ch02-b14
+          speaker: narrator
+          text: "Now Penelope ran to him, weeping. She held his neck and kissed him."
+        - id: ch02-b15
+          speaker: penelope
+          text: >-
+            Don't be angry. The gods wouldn't let us be young together, or grow old together. I was afraid somebody would deceive me with a story. Helen wouldn't have given herself to a foreigner if she had known the Greeks would bring her back. A god led her into that wrong, and our troubles followed. But you know the bed. Only we two and the maid my father sent have seen it. I believe you now.
+        - id: ch02-b16
+          speaker: narrator
+          text: |-
+            He cried too, holding her. She welcomed him as a swimmer welcomes the shore after a shipwreck. At last there was firm ground beneath her feet. She wouldn't let go.
+
+            Athena prolonged the night. Dawn must not rise from the Ocean or harness her horses yet.
+    - id: ch03
+      title: "An unfinished journey"
+      blocks:
+        - id: ch03-b01
+          speaker: narrator
+          text: >-
+            Odysseus said they still had trouble ahead. In Hades, Teiresias had told him of another long journey he must make. For now, he wanted them to go to bed. But Penelope asked to hear it. She would need to know sometime. Better to tell her now. He didn't want to, but he would keep nothing from her.
+        - id: ch03-b02
+          speaker: odysseus
+          text: >-
+            I must take an oar and walk inland. I'll come to people who have never heard of the sea and don't use salt in food. A traveler will ask if the thing on my shoulder is a winnowing shovel. There I'll plant the oar in the earth and offer a ram, a bull, and a boar to Poseidon. Then I'll go home and sacrifice to the gods, one after another. He promised that death would come gently from the sea when I'm old and at peace, with my people happy around me.
+        - id: ch03-b03
+          speaker: penelope
+          text: "If the gods give you a peaceful old age, perhaps we'll have some rest from hardship."
+        - id: ch03-b04
+          speaker: narrator
+          text: >-
+            That task was still ahead of him. Euryclea and Eurynome laid the bedding by torchlight. The nurse went to rest. Eurynome showed them into the room, then left them. They joyfully returned to making love in their old marriage bed. In the hall, the son and the herdsmen ended the dancing. The women went to rest, and the men lay down too.
+    - id: ch04
+      title: "Their years apart"
+      blocks:
+        - id: ch04-b01
+          speaker: narrator
+          text: >-
+            Afterward they talked. Penelope described the suitors filling her house, killing livestock, and draining the wine jars. Odysseus told how he had suffered and how he had made others suffer. She wanted to hear everything and stayed awake. He began with raiding the Cicones and visiting the Lotus-eaters. The Cyclops had eaten his companions, and he had blinded him. Aeolus helped him sail, but a storm drove him away from home. The Laestrygonians destroyed all the ships and crews except his own vessel.
+        - id: ch04-b02
+          speaker: narrator
+          text: >-
+            He spoke of Circe's magic, then cold Hades. There he asked Teiresias for guidance and met old friends and his mother. He told of the Sirens, dangerous rocks, Charybdis, and Scylla. His crew killed the Sun's cattle. Zeus wrecked the ship, leaving none of them alive. Alone he reached Calypso. She kept him on her island, offered to marry him and make him ageless, but he wouldn't agree. After more hardship he came to the Phaeacians. They honored him with gold, bronze, and clothes, and sailed him home.
+        - id: ch04-b03
+          speaker: narrator
+          text: "That was the end of his story. Deep sleep took some of the weight of grief away."
+        - id: ch04-b04
+          speaker: narrator
+          text: >-
+            Athena let Dawn come when he had had time with his wife and enough rest. He rose and told Penelope to care for the property left indoors. He would take livestock from others by force and make the Achaeans replace the rest, filling the yards again. First he would visit his father in the country.
+        - id: ch04-b05
+          speaker: odysseus
+          text: "News of the deaths will be everywhere at sunrise. Keep upstairs with the women. Don't receive visitors or ask questions."
+        - id: ch04-b06
+          speaker: narrator
+          text: |-
+            He put on armor and woke Telemachus and the herdsmen. They armed themselves, opened the gates, and followed him.
+
+            It was daylight, but Athena hid all four in darkness and led them quickly out of town.
