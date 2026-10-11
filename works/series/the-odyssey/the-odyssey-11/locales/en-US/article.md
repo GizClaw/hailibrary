@@ -1,525 +1,99 @@
-# BOOK XI
+# The Mother He Could Not Hold
 
-THE VISIT TO THE DEAD.88
+Circe's wind filled our sail all day. At sunset we reached Oceanus and the country of the Cimmerians, where mist and darkness never let the sun through. We left the ship and carried the offerings to the place she had described.
 
+Perimedes and Eurylochus held the sheep while I dug a hollow in the earth. I poured honey with milk, wine and water, scattered grain and promised further sacrifices if I reached Ithaca, with a black sheep for Tiresias. Then I cut the two animals' throats. Blood gathered in the hollow. The dead came towards it from every side, young and old, brides and warriors. Their cries made me pale with fear. I told my companions to burn the sheep in honor of Hades and Persephone, while I held the spirits back with my sword, waiting for Tiresias.
 
-“Then, when we had got down to the sea shore we drew our ship into the
-water and got her mast and sails into her; we also put the sheep on
-board and took our places, weeping and in great distress of mind.
-Circe, that great and cunning goddess, sent us a fair wind that blew
-dead aft and staid steadily with us keeping our sails all the time well
-filled; so we did whatever wanted doing to the ship’s gear and let her
-go as the wind and helmsman headed her. All day long her sails were
-full as she held her course over the sea, but when the sun went down
-and darkness was over all the earth, we got into the deep waters of the
-river Oceanus, where lie the land and city of the Cimmerians who live
-enshrouded in mist and darkness which the rays of the sun never pierce
-neither at his rising nor as he goes down again out of the heavens, but
-the poor wretches live in one long melancholy night. When we got there
-we beached the ship, took the sheep out of her, and went along by the
-waters of Oceanus till we came to the place of which Circe had told us.
+The first face I knew was Elpenor's.
 
-“Here Perimedes and Eurylochus held the victims, while I drew my sword
-and dug the trench a cubit each way. I made a drink-offering to all the
-dead, first with honey and milk, then with wine, and thirdly with
-water, and I sprinkled white barley meal over the whole, praying
-earnestly to the poor feckless ghosts, and promising them that when I
-got back to Ithaca I would sacrifice a barren heifer for them, the best
-I had, and would load the pyre with good things. I also particularly
-promised that Teiresias should have a black sheep to himself, the best
-in all my flocks. When I had prayed sufficiently to the dead, I cut the
-throats of the two sheep and let the blood run into the trench, whereon
-the ghosts came trooping up from Erebus—brides,89 young bachelors, old
-men worn out with toil, maids who had been crossed in love, and brave
-men who had been killed in battle, with their armour still smirched
-with blood; they came from every quarter and flitted round the trench
-with a strange kind of screaming sound that made me turn pale with
-fear. When I saw them coming I told the men to be quick and flay the
-carcasses of the two dead sheep and make burnt offerings of them, and
-at the same time to repeat prayers to Hades and to Proserpine; but I
-sat where I was with my sword drawn and would not let the poor feckless
-ghosts come near the blood till Teiresias should have answered my
-questions.
+“How did you get here before our ship?” I asked.
 
-“The first ghost that came was that of my comrade Elpenor, for he had
-not yet been laid beneath the earth. We had left his body unwaked and
-unburied in Circe’s house, for we had had too much else to do. I was
-very sorry for him, and cried when I saw him: ‘Elpenor,’ said I, ‘how
-did you come down here into this gloom and darkness? You have got here
-on foot quicker than I have with my ship.’
+He told me about the wine, the roof, the stairway he had forgotten. His body still lay at Circe's house. We had left it without burial in our haste to be away.
 
-“‘Sir,’ he answered with a groan, ‘it was all bad luck, and my own
-unspeakable drunkenness. I was lying asleep on the top of Circe’s
-house, and never thought of coming down again by the great staircase
-but fell right off the roof and broke my neck, so my soul came down to
-the house of Hades. And now I beseech you by all those whom you have
-left behind you, though they are not here, by your wife, by the father
-who brought you up when you were a child, and by Telemachus who is the
-one hope of your house, do what I shall now ask you. I know that when
-you leave this limbo you will again hold your ship for the Aeaean
-island. Do not go thence leaving me unwaked and unburied behind you, or
-I may bring heaven’s anger upon you; but burn me with whatever armour I
-have, build a barrow for me on the sea shore, that may tell people in
-days to come what a poor unlucky fellow I was, and plant over my grave
-the oar I used to row with when I was yet alive and with my messmates.’
-And I said, ‘My poor fellow, I will do all that you have asked of me.’
+“When you return there, don't leave me behind again,” he said. “Remember your wife, your father and your son, and give me burial, or the gods may turn against you. Burn my body with my armor. Make a mound beside the sea and stand my oar above it. Let someone passing know there was a man here.”
 
-“Thus, then, did we sit and hold sad talk with one another, I on the
-one side of the trench with my sword held over the blood, and the ghost
-of my comrade saying all this to me from the other side. Then came the
-ghost of my dead mother Anticlea, daughter to Autolycus. I had left her
-alive when I set out for Troy and was moved to tears when I saw her,
-but even so, for all my sorrow I would not let her come near the blood
-till I had asked my questions of Teiresias.
+I promised. We spoke across the blood, my sword between us. Then I saw my mother.
 
-“Then came also the ghost of Theban Teiresias, with his golden sceptre
-in his hand. He knew me and said, ‘Ulysses, noble son of Laertes, why,
-poor man, have you left the light of day and come down to visit the
-dead in this sad place? Stand back from the trench and withdraw your
-sword that I may drink of the blood and answer your questions truly.’
+Anticlea had been alive when I left Ithaca. No one had told me she was dead. I wanted to call her to me, but I kept her back with the others until the prophet came.
 
-“So I drew back, and sheathed my sword, whereon when he had drank of
-the blood he began with his prophecy.
+Tiresias carried a golden staff. He knew me before he tasted the offering. He asked me to lower my sword so that he could speak of my return. I sheathed it, and he drank the blood.
 
-“‘You want to know,’ said he, ‘about your return home, but heaven will
-make this hard for you. I do not think that you will escape the eye of
-Neptune, who still nurses his bitter grudge against you for having
-blinded his son. Still, after much suffering you may get home if you
-can restrain yourself and your companions when your ship reaches the
-Thrinacian island, where you will find the sheep and cattle belonging
-to the sun, who sees and gives ear to everything. If you leave these
-flocks unharmed and think of nothing but of getting home, you may yet
-after much hardship reach Ithaca; but if you harm them, then I forewarn
-you of the destruction both of your ship and of your men. Even though
-you may yourself escape, you will return in bad plight after losing all
-your men, [in another man’s ship, and you will find trouble in your
-house, which will be overrun by high-handed people, who are devouring
-your substance under the pretext of paying court and making presents to
-your wife.
+“Poseidon remembers what you did to his son,” he said. “Your voyage will be hard. Yet you and your men may reach home if you can leave the Sun's cattle and sheep unharmed when you land on Thrinacia. Hurt them, and your ship and crew will be lost. You may escape, but you will come late, alone, on another man's vessel.”
 
-“‘When you get home you will take your revenge on these suitors; and
-after you have killed them by force or fraud in your own house, you
-must take a well made oar and carry it on and on, till you come to a
-country where the people have never heard of the sea and do not even
-mix salt with their food, nor do they know anything about ships, and
-oars that are as the wings of a ship. I will give you this certain
-token which cannot escape your notice. A wayfarer will meet you and
-will say it must be a winnowing shovel that you have got upon your
-shoulder; on this you must fix the oar in the ground and sacrifice a
-ram, a bull, and a boar to Neptune.90 Then go home and offer hecatombs
-to all the gods in heaven one after the other. As for yourself, death
-shall come to you from the sea, and your life shall ebb away very
-gently when you are full of years and peace of mind, and your people
-shall bless you. All that I have said will come true].’91
+The words sounded like the prayer I had heard from the cave. But there was more.
 
-“‘This,’ I answered, ‘must be as it may please heaven, but tell me and
-tell me and tell me true, I see my poor mother’s ghost close by us; she
-is sitting by the blood without saying a word, and though I am her own
-son she does not remember me and speak to me; tell me, Sir, how I can
-make her know me.’
+“Men are eating through your household while courting your wife. You will deal with them when you return. After you have killed them, take an oar inland, beyond the people who know the sea. Keep walking until someone mistakes it for a shovel used to winnow grain. Plant it there and make offerings to Poseidon. Then go home and honor the other gods. In your old age, death will come gently from the sea, with your people living in peace.”
 
-“‘That,’ said he, ‘I can soon do. Any ghost that you let taste of the
-blood will talk with you like a reasonable being, but if you do not let
-them have any blood they will go away again.’
+I had come asking for a route. He had given me a warning, a battle in my own house and another journey after it.
 
-“On this the ghost of Teiresias went back to the house of Hades, for
-his prophecyings had now been spoken, but I sat still where I was until
-my mother came up and tasted the blood. Then she knew me at once and
-spoke fondly to me, saying, ‘My son, how did you come down to this
-abode of darkness while you are still alive? It is a hard thing for the
-living to see these places, for between us and them there are great and
-terrible waters, and there is Oceanus, which no man can cross on foot,
-but he must have a good ship to take him. Are you all this time trying
-to find your way home from Troy, and have you never yet got back to
-Ithaca nor seen your wife in your own house?’
+I asked how to make my mother recognize me. Tiresias told me that those I allowed to taste the blood could speak with me. Then he withdrew, and I let her come near.
 
-“‘Mother,’ said I, ‘I was forced to come here to consult the ghost of
-the Theban prophet Teiresias. I have never yet been near the Achaean
-land nor set foot on my native country, and I have had nothing but one
-long series of misfortunes from the very first day that I set out with
-Agamemnon for Ilius, the land of noble steeds, to fight the Trojans.
-But tell me, and tell me true, in what way did you die? Did you have a
-long illness, or did heaven vouchsafe you a gentle easy passage to
-eternity? Tell me also about my father, and the son whom I left behind
-me, is my property still in their hands, or has some one else got hold
-of it, who thinks that I shall not return to claim it? Tell me again
-what my wife intends doing, and in what mind she is; does she live with
-my son and guard my estate securely, or has she made the best match she
-could and married again?’
+“My son,” she said. “Are you still trying to get back from Troy? How have you come here alive?”
 
-“My mother answered, ‘Your wife still remains in your house, but she is
-in great distress of mind and spends her whole time in tears both night
-and day. No one as yet has got possession of your fine property, and
-Telemachus still holds your lands undisturbed. He has to entertain
-largely, as of course he must, considering his position as a
-magistrate,92 and how every one invites him; your father remains at his
-old place in the country and never goes near the town. He has no
-comfortable bed nor bedding; in the winter he sleeps on the floor in
-front of the fire with the men and goes about all in rags, but in
-summer, when the warm weather comes on again, he lies out in the
-vineyard on a bed of vine leaves thrown any how upon the ground. He
-grieves continually about your never having come home, and suffers more
-and more as he grows older. As for my own end it was in this wise:
-heaven did not take me swiftly and painlessly in my own house, nor was
-I attacked by any illness such as those that generally wear people out
-and kill them, but my longing to know what you were doing and the force
-of my affection for you—this it was that was the death of me.’93
+“I had to ask the prophet for help. I haven't reached home. Tell me about Penelope, and my son. What has happened to you?”
 
-“Then I tried to find some way of embracing my poor mother’s ghost.
-Thrice I sprang towards her and tried to clasp her in my arms, but each
-time she flitted from my embrace as it were a dream or phantom, and
-being touched to the quick I said to her, ‘Mother, why do you not stay
-still when I would embrace you? If we could throw our arms around one
-another we might find sad comfort in the sharing of our sorrows even in
-the house of Hades; does Proserpine want to lay a still further load of
-grief upon me by mocking me with a phantom only?’
+Penelope was still waiting, my mother said, grieving through her days and nights. Telemachus held the estate and had begun taking his place among the men. My father had withdrawn to the countryside. He no longer cared for comfortable clothes or a bed. In winter he lay by the fire. In summer he slept on leaves among the vines, growing older with his longing for me.
 
-“‘My son,’ she answered, ‘most ill-fated of all mankind, it is not
-Proserpine that is beguiling you, but all people are like this when
-they are dead. The sinews no longer hold the flesh and bones together;
-these perish in the fierceness of consuming fire as soon as life has
-left the body, and the soul flits away as though it were a dream. Now,
-however, go back to the light of day as soon as you can, and note all
-these things that you may tell them to your wife hereafter.’
+“And you, Mother? Were you ill?”
 
-“Thus did we converse, and anon Proserpine sent up the ghosts of the
-wives and daughters of all the most famous men. They gathered in crowds
-about the blood, and I considered how I might question them severally.
-In the end I deemed that it would be best to draw the keen blade that
-hung by my sturdy thigh, and keep them from all drinking the blood at
-once. So they came up one after the other, and each one as I questioned
-her told me her race and lineage.
+“No illness took me. I kept waiting to know where you were. I missed you until I had no life left.”
 
-“The first I saw was Tyro. She was daughter of Salmoneus and wife of
-Cretheus the son of Aeolus.94 She fell in love with the river Enipeus
-who is much the most beautiful river in the whole world. Once when she
-was taking a walk by his side as usual, Neptune, disguised as her
-lover, lay with her at the mouth of the river, and a huge blue wave
-arched itself like a mountain over them to hide both woman and god,
-whereon he loosed her virgin girdle and laid her in a deep slumber.
-When the god had accomplished the deed of love, he took her hand in his
-own and said, ‘Tyro, rejoice in all good will; the embraces of the gods
-are not fruitless, and you will have fine twins about this time twelve
-months. Take great care of them. I am Neptune, so now go home, but hold
-your tongue and do not tell any one.’
+I moved to hold her. My arms closed on nothing. Three times I tried, and three times she slipped through me like something dreamed.
 
-“Then he dived under the sea, and she in due course bore Pelias and
-Neleus, who both of them served Jove with all their might. Pelias was a
-great breeder of sheep and lived in Iolcus, but the other lived in
-Pylos. The rest of her children were by Cretheus, namely, Aeson,
-Pheres, and Amythaon, who was a mighty warrior and charioteer.
+“Is this another trick of the place?” I asked. “Why can't you stay in my arms?”
 
-“Next to her I saw Antiope, daughter to Asopus, who could boast of
-having slept in the arms of even Jove himself, and who bore him two
-sons Amphion and Zethus. These founded Thebes with its seven gates, and
-built a wall all round it; for strong though they were they could not
-hold Thebes till they had walled it.
+“It isn't a trick,” she said. “The dead have no body for you to hold. Go back to daylight, while you can. Remember what you have seen, and tell your wife.”
 
-“Then I saw Alcmena, the wife of Amphitryon, who also bore to Jove
-indomitable Hercules; and Megara who was daughter to great King Creon,
-and married the redoubtable son of Amphitryon.
+Other women gathered around the offering. I let them come one at a time. Tyro, the wife of Cretheus, had loved the river Enipeus. Poseidon took the river god's appearance, hid them beneath an arching wave and lay with her. Afterwards he revealed himself, told her she would bear twins and ordered her to tell no one. Their sons were Pelias and Neleus.
 
-“I also saw fair Epicaste mother of king Oedipodes whose awful lot it
-was to marry her own son without suspecting it. He married her after
-having killed his father, but the gods proclaimed the whole story to
-the world; whereon he remained king of Thebes, in great grief for the
-spite the gods had borne him; but Epicaste went to the house of the
-mighty jailor Hades, having hanged herself for grief, and the avenging
-spirits haunted him as for an outraged mother—to his ruing bitterly
-thereafter.
+Antiope had borne Zeus the sons who founded and walled Thebes. Alcmena was Heracles's mother; Megara had been his wife. Epicaste told of marrying Oedipus without knowing he was her own son, or that he had killed his father. When the gods exposed it, she hanged herself. He remained king of Thebes, suffering under his mother's avenging spirits.
 
-“Then I saw Chloris, whom Neleus married for her beauty, having given
-priceless presents for her. She was youngest daughter to Amphion son of
-Iasus and king of Minyan Orchomenus, and was Queen in Pylos. She bore
-Nestor, Chromius, and Periclymenus, and she also bore that marvellously
-lovely woman Pero, who was wooed by all the country round; but Neleus
-would only give her to him who should raid the cattle of Iphicles from
-the grazing grounds of Phylace, and this was a hard task. The only man
-who would undertake to raid them was a certain excellent seer,95 but
-the will of heaven was against him, for the rangers of the cattle
-caught him and put him in prison; nevertheless when a full year had
-passed and the same season came round again, Iphicles set him at
-liberty, after he had expounded all the oracles of heaven. Thus, then,
-was the will of Jove accomplished.
+Chloris, the wife of Neleus, had borne Nestor and the beautiful Pero. Neleus would give Pero only to a man who stole Iphicles's cattle. The prophet who attempted it was imprisoned, then freed by Iphicles after a year for explaining the gods' messages. Leda spoke of Castor and Polydeuces, her twins, who by Zeus's gift passed alternate days alive and dead. Iphimedeia, wife of Aloeus, had borne Poseidon the enormous Otus and Ephialtes. They tried to pile mountains up to heaven and make war on the gods. Apollo killed them before they reached manhood.
 
-“And I saw Leda the wife of Tyndarus, who bore him two famous sons,
-Castor breaker of horses, and Pollux the mighty boxer. Both these
-heroes are lying under the earth, though they are still alive, for by a
-special dispensation of Jove, they die and come to life again, each one
-of them every other day throughout all time, and they have the rank of
-gods.
+There were Phaedra and Procris, and Ariadne, whom Theseus had been taking from Crete to Athens when Artemis killed her on Dia at Dionysus's accusation. There were Maera, Clymene and Eriphyle, who had betrayed her husband for gold. I could not tell you all their families and sorrows before morning.
 
-“After her I saw Iphimedeia wife of Aloeus who boasted the embrace of
-Neptune. She bore two sons Otus and Ephialtes, but both were short
-lived. They were the finest children that were ever born in this world,
-and the best looking, Orion only excepted; for at nine years old they
-were nine fathoms high, and measured nine cubits round the chest. They
-threatened to make war with the gods in Olympus, and tried to set Mount
-Ossa on the top of Mount Olympus, and Mount Pelion on the top of Ossa,
-that they might scale heaven itself, and they would have done it too if
-they had been grown up, but Apollo, son of Leto, killed both of them,
-before they had got so much as a sign of hair upon their cheeks or
-chin.
+Odysseus stopped. For a while nobody in the hall spoke. Then Arete asked the Phaeacians to send him away with generous gifts. The elder Echeneus supported her, leaving the decision to Alcinous. The king asked his guest to wait until the next day, so that he could complete the gifts and arrange the escort.
 
-“Then I saw Phaedra, and Procris, and fair Ariadne daughter of the
-magician Minos, whom Theseus was carrying off from Crete to Athens, but
-he did not enjoy her, for before he could do so Diana killed her in the
-island of Dia on account of what Bacchus had said against her.
+Odysseus said he would gladly wait even a year for such a homecoming: arriving with wealth would win him greater welcome and respect. Alcinous praised the skill of his telling. He did not take his guest for one of the wandering liars who made up plausible tales.
 
-“I also saw Maera and Clymene and hateful Eriphyle, who sold her own
-husband for gold. But it would take me all night if I were to name
-every single one of the wives and daughters of heroes whom I saw, and
-it is time for me to go to bed, either on board ship with my crew, or
-here. As for my escort, heaven and yourselves will see to it.”
+“But stay with the story a little longer,” the king said. “Did you meet the men who fought beside you at Troy?”
 
-Here he ended, and the guests sat all of them enthralled and speechless
-throughout the covered cloister. Then Arete said to them:—
+Odysseus agreed to continue.
 
-“What do you think of this man, O Phaeacians? Is he not tall and good
-looking, and is he not clever? True, he is my own guest, but all of you
-share in the distinction. Do not be in a hurry to send him away, nor
-niggardly in the presents you make to one who is in such great need,
-for heaven has blessed all of you with great abundance.”
+Agamemnon came with the companions who had died around him. After drinking, he recognized me and reached out, but his arms had no strength to embrace me.
 
-Then spoke the aged hero Echeneus who was one of the oldest men among
-them, “My friends,” said he, “what our august queen has just said to us
-is both reasonable and to the purpose, therefore be persuaded by it;
-but the decision whether in word or deed rests ultimately with King
-Alcinous.”
+I asked whether a storm had killed him, or enemies ashore.
 
-“The thing shall be done,” exclaimed Alcinous, “as surely as I still
-live and reign over the Phaeacians. Our guest is indeed very anxious to
-get home, still we must persuade him to remain with us until to-morrow,
-by which time I shall be able to get together the whole sum that I mean
-to give him. As regards his escort it will be a matter for you all, and
-mine above all others as the chief person among you.”
+“It was a feast,” he answered. “Aegisthus welcomed me to his house, and he and Clytemnestra murdered me there. My men died around the tables. I heard Cassandra cry as my wife killed her beside me. Dying with a sword in me, I tried to strike my wife, but she escaped. She wouldn't even close my eyes. I had expected to see my son.”
 
-And Ulysses answered, “King Alcinous, if you were to bid me to stay
-here for a whole twelve months, and then speed me on my way, loaded
-with your noble gifts, I should obey you gladly and it would redound
-greatly to my advantage, for I should return fuller-handed to my own
-people, and should thus be more respected and beloved by all who see me
-when I get back to Ithaca.”
+His anger spread beyond his murderers. He said Clytemnestra had brought shame on all women, even innocent ones. I answered that Zeus had brought ruin on Atreus's house through women: many of us had died for Helen, and now this. Agamemnon urged me to tell my wife only part of what I knew and return secretly, saying women could not be trusted. Yet he remembered Penelope as the young mother we had left behind and said she was unlikely to murder me. Telemachus would be a man by now. I might still have the meeting with my son that he had been denied.
 
-“Ulysses,” replied Alcinous, “not one of us who sees you has any idea
-that you are a charlatan or a swindler. I know there are many people
-going about who tell such plausible stories that it is very hard to see
-through them, but there is a style about your language which assures me
-of your good disposition. Moreover you have told the story of your own
-misfortunes, and those of the Argives, as though you were a practiced
-bard; but tell me, and tell me true, whether you saw any of the mighty
-heroes who went to Troy at the same time with yourself, and perished
-there. The evenings are still at their longest, and it is not yet bed
-time—go on, therefore, with your divine story, for I could stay here
-listening till tomorrow morning, so long as you will continue to tell
-us of your adventures.”
+“Have you heard of Orestes?” he asked. “Is my boy alive?”
 
-“Alcinous,” answered Ulysses, “there is a time for making speeches, and
-a time for going to bed; nevertheless, since you so desire, I will not
-refrain from telling you the still sadder tale of those of my comrades
-who did not fall fighting with the Trojans, but perished on their
-return, through the treachery of a wicked woman.
+I had no news. I would not fill that silence with something I did not know.
 
-“When Proserpine had dismissed the female ghosts in all directions, the
-ghost of Agamemnon son of Atreus came sadly up to me, surrounded by
-those who had perished with him in the house of Aegisthus. As soon as
-he had tasted the blood, he knew me, and weeping bitterly stretched out
-his arms towards me to embrace me; but he had no strength nor substance
-any more, and I too wept and pitied him as I beheld him. ‘How did you
-come by your death,’ said I, ‘King Agamemnon? Did Neptune raise his
-winds and waves against you when you were at sea, or did your enemies
-make an end of you on the main land when you were cattle-lifting or
-sheep-stealing, or while they were fighting in defence of their wives
-and city?’
+Achilles came next, with Patroclus and other comrades. He wondered what could bring a living man so far. I told him why I had come, then tried to comfort him. In life we had honored him above everyone. Here he still seemed a prince among the dead.
 
-“‘Ulysses,’ he answered, ‘noble son of Laertes, I was not lost at sea
-in any storm of Neptune’s raising, nor did my foes despatch me upon the
-mainland, but Aegisthus and my wicked wife were the death of me between
-them. He asked me to his house, feasted me, and then butchered me most
-miserably as though I were a fat beast in a slaughter house, while all
-around me my comrades were slain like sheep or pigs for the wedding
-breakfast, or picnic, or gorgeous banquet of some great nobleman. You
-must have seen numbers of men killed either in a general engagement, or
-in single combat, but you never saw anything so truly pitiable as the
-way in which we fell in that cloister, with the mixing bowl and the
-loaded tables lying all about, and the ground reeking with our blood. I
-heard Priam’s daughter Cassandra scream as Clytemnestra killed her
-close beside me. I lay dying upon the earth with the sword in my body,
-and raised my hands to kill the slut of a murderess, but she slipped
-away from me; she would not even close my lips nor my eyes when I was
-dying, for there is nothing in this world so cruel and so shameless as
-a woman when she has fallen into such guilt as hers was. Fancy
-murdering her own husband! I thought I was going to be welcomed home by
-my children and my servants, but her abominable crime has brought
-disgrace on herself and all women who shall come after—even on the good
-ones.’
+“Don't comfort me with that,” he said. “I'd rather work for a poor man above ground than rule everyone down here.”
 
-“And I said, ‘In truth Jove has hated the house of Atreus from first to
-last in the matter of their women’s counsels. See how many of us fell
-for Helen’s sake, and now it seems that Clytemnestra hatched mischief
-against you too during your absence.’
+He asked about his father, Peleus. Were people still treating the old man with respect? If only he could stand beside him again with his old strength, even briefly: anyone who tried to take his father's place or hurt him would pay. I could tell him nothing of Peleus. But I knew his son, Neoptolemus, and at that name he listened.
 
-“‘Be sure, therefore,’ continued Agamemnon, ‘and not be too friendly
-even with your own wife. Do not tell her all that you know perfectly
-well yourself. Tell her a part only, and keep your own counsel about
-the rest. Not that your wife, Ulysses, is likely to murder you, for
-Penelope is a very admirable woman, and has an excellent nature. We
-left her a young bride with an infant at her breast when we set out for
-Troy. This child no doubt is now grown up happily to man’s estate,96
-and he and his father will have a joyful meeting and embrace one
-another as it is right they should do, whereas my wicked wife did not
-even allow me the happiness of looking upon my son, but killed me ere I
-could do so. Furthermore I say—and lay my saying to your heart—do not
-tell people when you are bringing your ship to Ithaca, but steal a
-march upon them, for after all this there is no trusting women. But now
-tell me, and tell me true, can you give me any news of my son Orestes?
-Is he in Orchomenus, or at Pylos, or is he at Sparta with Menelaus—for
-I presume that he is still living.’
+I had brought the boy to Troy. He spoke well in council and rushed ahead of the others in battle, killing many men, among them Eurypylus. Inside the wooden horse, while other men shook, he had pressed me to open the door. After the city fell he took his share of the spoils and sailed away without a wound.
 
-“And I said, ‘Agamemnon, why do you ask me? I do not know whether your
-son is alive or dead, and it is not right to talk when one does not
-know.’
+Achilles went off across the meadow, glad of what he had heard about his son.
 
-“As we two sat weeping and talking thus sadly with one another the
-ghost of Achilles came up to us with Patroclus, Antilochus, and Ajax
-who was the finest and goodliest man of all the Danaans after the son
-of Peleus. The fleet descendant of Aeacus knew me and spoke piteously,
-saying, ‘Ulysses, noble son of Laertes, what deed of daring will you
-undertake next, that you venture down to the house of Hades among us
-silly dead, who are but the ghosts of them that can labour no more?’
+Ajax would not come near me. We had competed for Achilles' armor, offered by Thetis, and Athena and the Trojan captives had judged in my favor. That prize had cost us Ajax's life. Looking at him there, I wished I had never won it.
 
-“And I said, ‘Achilles, son of Peleus, foremost champion of the
-Achaeans, I came to consult Teiresias, and see if he could advise me
-about my return home to Ithaca, for I have never yet been able to get
-near the Achaean land, nor to set foot in my own country, but have been
-in trouble all the time. As for you, Achilles, no one was ever yet so
-fortunate as you have been, nor ever will be, for you were adored by
-all us Argives as long as you were alive, and now that you are here you
-are a great prince among the dead. Do not, therefore, take it so much
-to heart even if you are dead.’
+“Will you turn away from me even here?” I called. “We mourned you as we mourned Achilles. Come and speak to me.”
 
-“‘Say not a word,’ he answered, ‘in death’s favour; I would rather be a
-paid servant in a poor man’s house and be above ground than king of
-kings among the dead. But give me news about my son; is he gone to the
-wars and will he be a great soldier, or is this not so? Tell me also if
-you have heard anything about my father Peleus—does he still rule among
-the Myrmidons, or do they show him no respect throughout Hellas and
-Phthia now that he is old and his limbs fail him? Could I but stand by
-his side, in the light of day, with the same strength that I had when I
-killed the bravest of our foes upon the plain of Troy—could I but be as
-I then was and go even for a short time to my father’s house, any one
-who tried to do him violence or supersede him would soon rue it.’
+He made no answer. He moved back among the dead, keeping the distance between us.
 
-“‘I have heard nothing,’ I answered, ‘of Peleus, but I can tell you all
-about your son Neoptolemus, for I took him in my own ship from Scyros
-with the Achaeans. In our councils of war before Troy he was always
-first to speak, and his judgement was unerring. Nestor and I were the
-only two who could surpass him; and when it came to fighting on the
-plain of Troy, he would never remain with the body of his men, but
-would dash on far in front, foremost of them all in valour. Many a man
-did he kill in battle—I cannot name every single one of those whom he
-slew while fighting on the side of the Argives, but will only say how
-he killed that valiant hero Eurypylus son of Telephus, who was the
-handsomest man I ever saw except Memnon; many others also of the
-Ceteians fell around him by reason of a woman’s bribes. Moreover, when
-all the bravest of the Argives went inside the horse that Epeus had
-made, and it was left to me to settle when we should either open the
-door of our ambuscade, or close it, though all the other leaders and
-chief men among the Danaans were drying their eyes and quaking in every
-limb, I never once saw him turn pale nor wipe a tear from his cheek; he
-was all the time urging me to break out from the horse—grasping the
-handle of his sword and his bronze-shod spear, and breathing fury
-against the foe. Yet when we had sacked the city of Priam he got his
-handsome share of the prize money and went on board (such is the
-fortune of war) without a wound upon him, neither from a thrown spear
-nor in close combat, for the rage of Mars is a matter of great chance.’
+I saw Minos judging the spirits and Orion pursuing the shadows of animals he had hunted. Tityus lay stretched across the ground while two vultures tore at his liver. He could not drive them off. This was his punishment for sexually assaulting Leto on her journey to Pytho.
 
-“When I had told him this, the ghost of Achilles strode off across a
-meadow full of asphodel, exulting over what I had said concerning the
-prowess of his son.
+Farther off stood Tantalus, surrounded by water he could not drink. It sank when he bent towards it. Fruit hung above him, but the branches lifted whenever he reached. Sisyphus strained behind his great stone, pushing it almost to the hilltop. Then it rolled away, and he followed it down to begin again.
 
-“The ghosts of other dead men stood near me and told me each his own
-melancholy tale; but that of Ajax son of Telamon alone held aloof—still
-angry with me for having won the cause in our dispute about the armour
-of Achilles. Thetis had offered it as a prize, but the Trojan prisoners
-and Minerva were the judges. Would that I had never gained the day in
-such a contest, for it cost the life of Ajax, who was foremost of all
-the Danaans after the son of Peleus, alike in stature and prowess.
+The image of Heracles came towards me carrying his bow. It was his shadow only; Heracles himself was among the gods, married to Hebe. He recognized the weight of the journey I was making. Though Zeus was his father, he said, he had been bound to serve a lesser man who imposed terrible labors on him. His master had sent him here for the hound of the dead, thinking of nothing harder to demand, and Hermes and Athena had helped him bring it out.
 
-“When I saw him I tried to pacify him and said, ‘Ajax, will you not
-forget and forgive even in death, but must the judgement about that
-hateful armour still rankle with you? It cost us Argives dear enough to
-lose such a tower of strength as you were to us. We mourned you as much
-as we mourned Achilles son of Peleus himself, nor can the blame be laid
-on anything but on the spite which Jove bore against the Danaans, for
-it was this that made him counsel your destruction—come hither,
-therefore, bring your proud spirit into subjection, and hear what I can
-tell you.’
+After he left, I wanted to wait for others. But the crowd grew thick and its cries rose around me. I feared Persephone might send the Gorgon's head from the darkness. I fled to the ship and hurried the men aboard.
 
-“He would not answer, but turned away to Erebus and to the other
-ghosts; nevertheless, I should have made him talk to me in spite of his
-being so angry, or I should have gone on talking to him,97 only that
-there were still others among the dead whom I desired to see.
-
-“Then I saw Minos son of Jove with his golden sceptre in his hand
-sitting in judgement on the dead, and the ghosts were gathered sitting
-and standing round him in the spacious house of Hades, to learn his
-sentences upon them.
-
-“After him I saw huge Orion in a meadow full of asphodel driving the
-ghosts of the wild beasts that he had killed upon the mountains, and he
-had a great bronze club in his hand, unbreakable for ever and ever.
-
-“And I saw Tityus son of Gaia stretched upon the plain and covering
-some nine acres of ground. Two vultures on either side of him were
-digging their beaks into his liver, and he kept on trying to beat them
-off with his hands, but could not; for he had violated Jove’s mistress
-Leto as she was going through Panopeus on her way to Pytho.
-
-“I saw also the dreadful fate of Tantalus, who stood in a lake that
-reached his chin; he was dying to quench his thirst, but could never
-reach the water, for whenever the poor creature stooped to drink, it
-dried up and vanished, so that there was nothing but dry ground—parched
-by the spite of heaven. There were tall trees, moreover, that shed
-their fruit over his head—pears, pomegranates, apples, sweet figs and
-juicy olives, but whenever the poor creature stretched out his hand to
-take some, the wind tossed the branches back again to the clouds.
-
-“And I saw Sisyphus at his endless task raising his prodigious stone
-with both his hands. With hands and feet he tried to roll it up to the
-top of the hill, but always, just before he could roll it over on to
-the other side, its weight would be too much for him, and the pitiless
-stone98 would come thundering down again on to the plain. Then he would
-begin trying to push it up hill again, and the sweat ran off him and
-the steam rose after him.
-
-“After him I saw mighty Hercules, but it was his phantom only, for he
-is feasting ever with the immortal gods, and has lovely Hebe to wife,
-who is daughter of Jove and Juno. The ghosts were screaming round him
-like scared birds flying all whithers. He looked black as night with
-his bare bow in his hands and his arrow on the string, glaring around
-as though ever on the point of taking aim. About his breast there was a
-wondrous golden belt adorned in the most marvellous fashion with bears,
-wild boars, and lions with gleaming eyes; there was also war, battle,
-and death. The man who made that belt, do what he might, would never be
-able to make another like it. Hercules knew me at once when he saw me,
-and spoke piteously, saying, ‘My poor Ulysses, noble son of Laertes,
-are you too leading the same sorry kind of life that I did when I was
-above ground? I was son of Jove, but I went through an infinity of
-suffering, for I became bondsman to one who was far beneath me—a low
-fellow who set me all manner of labours. He once sent me here to fetch
-the hell-hound—for he did not think he could find anything harder for
-me than this, but I got the hound out of Hades and brought him to him,
-for Mercury and Minerva helped me.’
-
-“On this Hercules went down again into the house of Hades, but I stayed
-where I was in case some other of the mighty dead should come to me.
-And I should have seen still other of them that are gone before, whom I
-would fain have seen—Theseus and Pirithous—glorious children of the
-gods, but so many thousands of ghosts came round me and uttered such
-appalling cries, that I was panic stricken lest Proserpine should send
-up from the house of Hades the head of that awful monster Gorgon. On
-this I hastened back to my ship and ordered my men to go on board at
-once and loose the hawsers; so they embarked and took their places,
-whereon the ship went down the stream of the river Oceanus. We had to
-row at first, but presently a fair wind sprang up.
+We pulled away along Oceanus. At first the oars carried us. Then a wind caught the sail.

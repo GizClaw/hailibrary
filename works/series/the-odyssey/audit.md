@@ -1,130 +1,113 @@
-# The Odyssey: collection audit
+# The Odyssey: reading-edition collection audit
 
-This is the complete ungraded classic album at `works/series/the-odyssey/`: 24 narrative books, the dedication, both edition prefaces and all 187 numbered translator notes. All 28 articles have the source edition and newly authored Chinese prose. The 24 narrative books each have an English and a Chinese listening script. The four editorial articles have no audio script. These are scripts, not synthesized recordings.
+## Publication boundary
 
-Each article's linked audit records its author's concrete editorial checks and corrections. Chinese authors completed the seven-item `translate-classic` loop through a fresh complete pass without findings; audio authors completed `scriptize-article`'s prescribed single check pass and fixed its findings in place. This collection record documents import fidelity, shared metadata, continuity and mechanical integration; it does not replace those author checks.
+`works/series/the-odyssey/` is an ungraded bilingual HaiLibrary reading edition of the classic attributed to Homer / 荷马. It contains the 24 narrative books in their received order, with one English and one Chinese article and listening script per book. The album is titled *The Odyssey: A HaiLibrary Retelling* / 《奥德赛：HaiLibrary 阅读版》.
 
-## Edition and import boundaries
+The user explicitly requested natural, reorganized prose rather than a verbatim import or a sentence-matched translation, while retaining the classic category and Homer as author. This is a task-specific exception to the `classic` type's default import rules. The type prompt, skills, root `AGENTS.md` and other classics are unchanged.
 
-The source is [Project Gutenberg ebook 1727](https://www.gutenberg.org/ebooks/1727), Samuel Butler's 1900 prose translation as transcribed from the 1921 second edition. The [printed prefaces](https://www.gutenberg.org/files/1727/1727-h/1727-h.htm) identify the edition and Henry Festing Jones's editorial work; the [University of Pennsylvania Libraries record](https://onlinebooks.library.upenn.edu/webbin/work?id=olbp101204) independently identifies that publication history. Gutenberg marks the edition public domain in the USA. No modern Chinese translation or screen adaptation was used.
+This edition is condensed. It does not claim to reproduce every original line, catalogue, genealogy or repeated speech. Dedication, both prefaces, translator notes, numeric footnote markers and printed chapter arguments are excluded as requested. Important actions, character relationships, choices, intentions, threats and consequences are protected. The linked per-book audits distinguish retained material from compression; new expression does not authorize a kinder replacement character or a different ending.
 
-The captured UTF-8 source has SHA-256 `ffbdb29c3dda284b65c11243db1a98167826a70c81bca2ed4b6232f86c905fb9`. Import excludes the Gutenberg wrapper, redundant title/contents listing and empty illustration placeholder. Section headings become Markdown H1 titles. The section bodies preserve source wording, punctuation, paragraph boundaries, soft line wraps, editorial arguments and footnote markers. Printed anomalies, including missing Greek placeholders and the preface's `894`, are retained. The dedication is printed in Italian within the English edition; its `original.language` is `it` and its Chinese rendering is complete.
+The 48 audio artifacts are scripts, not synthesized recordings. No picture-book derivative, fixed pagination, vocabulary set, questions or additional chapter illustrations is included.
 
-The table below links every article audit. Source-body hashes apply to UTF-8 text after removing the inserted H1 and its blank line and trimming outer whitespace, without normalizing internal whitespace. All 28 hashes matched the captured source sections. The source contains 129,433 whitespace-delimited words, including 117,384 in the 24 books and their printed arguments. Paragraph counts include each book's argument and exclude its H1; Chinese counts match the corresponding source counts.
+## Consulted source and authorship
 
-| Section audit | Source words | Paragraphs per locale | Source-body SHA-256 |
-|---|---:|---:|---|
-| [Dedication](the-odyssey-dedication/audit.md) | 9 | 1 | `6c05d0cdd540152dcd14bfa3221993a41524824296ad4ad269ff4951960e7c03` |
-| [First preface](the-odyssey-preface-first/audit.md) | 2,126 | 20 | `26d1c6a1e0e565c1512f85fd746a346a166273bd0ae7b2a333fe2a4c17722d0b` |
-| [Second preface](the-odyssey-preface-second/audit.md) | 610 | 11 | `0ab5c0631556af14358ecf554bf94ce67ba1250d870d79161dc418ea184aac2e` |
-| [Book 01](the-odyssey-01/audit.md) | 4,124 | 33 | `c372294dd61a61a852f27e6fbc522729aa94a850b2c729fc8349128f4d74235d` |
-| [Book 02](the-odyssey-02/audit.md) | 4,208 | 36 | `108738d3ebd6c92095fa692a7d08ed21e89b735399a5b70fd2cfcf7349833431` |
-| [Book 03](the-odyssey-03/audit.md) | 4,707 | 39 | `ffa22b5b0a11cce9debd7fdeffad869f0b280c31b960fc3b8fa8f51e8e730a41` |
-| [Book 04](the-odyssey-04/audit.md) | 8,060 | 82 | `307471b9928df12b1368fc69aa351f9d3b03b747415c4717e4252eea9ffe9007` |
-| [Book 05](the-odyssey-05/audit.md) | 4,673 | 38 | `5fbcf0869588647047704eb318be2d0f2c3cf096640ab87ea708b1e11e6b498d` |
-| [Book 06](the-odyssey-06/audit.md) | 3,441 | 27 | `84029e4dd80d63e7aa47d68ab014b1147ede97fcf807f6e52d199553aeda75bc` |
-| [Book 07](the-odyssey-07/audit.md) | 3,356 | 30 | `117e1880fd02acbd6ac23714b02cd10a689bcd9dcd32ee87427d5494ab92e417` |
-| [Book 08](the-odyssey-08/audit.md) | 5,597 | 51 | `cfd8eb0f3c9a69e0ac70367c6dee9c490966db49673aa5830028cf0dc96bb7d4` |
-| [Book 09](the-odyssey-09/audit.md) | 5,811 | 45 | `a47abe6558084e8fbf141b65b9e304d9e4ab8ba96feb90a8440424f2b72e212f` |
-| [Book 10](the-odyssey-10/audit.md) | 5,688 | 50 | `e9c2fe9f9d5ce96f076ff33c9d92eaa92a8165096f91494d5f81bd0fb18513e8` |
-| [Book 11](the-odyssey-11/audit.md) | 6,021 | 55 | `bfee619587b0b58e1611b1aa55d567a2816c9f9e87701dbe57f9a5374c6ab5e6` |
-| [Book 12](the-odyssey-12/audit.md) | 4,599 | 40 | `1e6adf1338005933c1549b3a29f4bdc62b9f9130056e9a71ea84d60ce6ba53b7` |
-| [Book 13](the-odyssey-13/audit.md) | 4,199 | 39 | `05a80f46f5cd880401bbeb9b3feaba414e2d7266642a6d98a6c197d83e57efdd` |
-| [Book 14](the-odyssey-14/audit.md) | 5,382 | 36 | `db4893dc84a6ede88e83caa062d75418c007826fa58130505fab1cb3b06c41bd` |
-| [Book 15](the-odyssey-15/audit.md) | 5,412 | 49 | `14e009c9662b0d12532244e2325229f161a516279b2ba2dccaa1b2d0883ec39f` |
-| [Book 16](the-odyssey-16/audit.md) | 4,546 | 46 | `66152ebc6d6c2f2d6b460418b774dd6ab04e7e88461202cf111e7fe7bcfb4b48` |
-| [Book 17](the-odyssey-17/audit.md) | 5,855 | 64 | `016a9ab8ce4265d7be042831bcaf693cd75552bfb839ac38e1b095096110c52b` |
-| [Book 18](the-odyssey-18/audit.md) | 4,158 | 42 | `d9be50b72c03888238910c2a73d6c5c8d802b254ca1ac66f928359f362f6c2ea` |
-| [Book 19](the-odyssey-19/audit.md) | 6,012 | 40 | `dc4c283302a72198d53629223f097f1e73da5937d497370cc4e1d697f7ba1d4d` |
-| [Book 20](the-odyssey-20/audit.md) | 3,834 | 37 | `60c6463307575e264637a108c5a005e0149d7f563fa455d0f6e3a3e39b5e9d79` |
-| [Book 21](the-odyssey-21/audit.md) | 4,252 | 43 | `eebc539a54f130aeb47023221e324ccae1881aa7df89a64d16a7fba493ad6521` |
-| [Book 22](the-odyssey-22/audit.md) | 4,556 | 53 | `53a68132aac755d8253f79f5fd94816034f1b34424218097ee42c51f7e93f55f` |
-| [Book 23](the-odyssey-23/audit.md) | 3,695 | 30 | `891a6234cc0a01b4435c113fece76b434e0aa5c02817e366cdd1cd78ca2d4019` |
-| [Book 24](the-odyssey-24/audit.md) | 5,198 | 46 | `abf258cebf39d081df9a30f3feaa7e50afe41c58176f46119c0e0450664d4f9a` |
-| [Notes](the-odyssey-footnotes/audit.md) | 9,304 | 204 | `2526647840d0921b6a127984181ec41ef0f642d5831b5459122483a6f7148485` |
+The narrative evidence is [Project Gutenberg ebook 1727](https://www.gutenberg.org/ebooks/1727), Samuel Butler's prose translation first published in 1900, consulted in the Gutenberg transcription of the 1921 second edition. Its [full text](https://www.gutenberg.org/files/1727/1727-h/1727-h.htm) and the complete English chapter snapshots preserved in commit `1208d108e6801b566c13ceb90a2c600f48fb99d9` support the chapter comparisons. Gutenberg identifies the edition as public domain in the United States. No modern Chinese translation, modern English retelling or screen adaptation supplies expressive material.
 
-## Collection-level article checks
+A fresh download of the [plain-text edition](https://www.gutenberg.org/cache/epub/1727/pg1727.txt) has SHA-256 `ffbdb29c3dda284b65c11243db1a98167826a70c81bca2ed4b6232f86c905fb9`. All 24 original chapter snapshots match their live source sections modulo whitespace. This verifies the evidence consulted by the authors; it is not a claim that the newly written reading edition is an unchanged import.
 
-1. Re-read the complete `classic` type contract. Checked the `fiction` / `adventure` taxonomy, required evidence, exact source URL, translators, bilingual titles, inherited age 14+, approximate original date and the full source order. This is ungraded literature with no proposed picture book, fixed page count, vocabulary targets or questions. Grouped labels resolve to the existing controlled IDs. Source hashes enforce the classic's prohibition on editorial rewriting.
-2. Traced the narrative progression: Books I–IV establish the occupied home and the son's search; V–VIII bring the returning father to the Phaeacians; IX–XII recount his earlier losses; XIII–XVI return both men to Ithaca and reunite them; XVII–XXI test loyalties and prepare the bow contest; XXII–XXIV carry revenge through marital and paternal recognition to the final peace. The nonlinear order and the final settlement are preserved.
-3. Compared the distinct dialogue roles against the per-article checks: the son's growing independence, the father's concealment and recognition, Penelope's testing, servant loyalties, suitor threats, divine instructions and the narrator's framing retain their speakers and intentions. English is the unchanged Butler edition. Chinese dialogue and spoken retellings are checked by their own authors rather than rewritten by an importer.
-4. Read the ending against the opening: return alone does not resolve the occupied household. Recognition, the olive-root bed, Laertes, the bereaved families and the divine settlement are all included. The remaining voyage in the prophecy is retained as an unresolved future obligation, not silently replaced with a simpler happy ending.
-5. Checked the persistent states in the continuity table below. The source's reported stories, disguises and disagreements remain distinct from the narrator's assertions; translation does not grant listeners knowledge earlier than the source does. Shared proper names and recurring objects were coordinated across books. The ninth-book talent term was normalized to 塔兰特 by its original translator, who then repeated the complete translation checklist.
-6. Reconciled checkable metadata claims with the sources in every `research.yaml` and the [author-resource audit](authors-audit.md). Getty and the Metropolitan Museum support the traditional Homer attribution, approximate eighth-century BCE date, 24-book form and oral tradition. Institutional records distinguish Butler and Jones and support their dates and work. Homer's unknown lifespan is omitted.
-7. Classified the supernatural narrative as declared myth, edition statements as supported bibliographic claims, and Butler's authorship/geography arguments and period assumptions as attributed historical interpretations. They are not presented as current HaiLibrary factual conclusions. Research notes preserve the limits of the evidence; source prose is not altered to update historical opinions.
-8. Checked that all requested locales are present, all source paragraphs have Chinese counterparts, translator credits are explicit, and the Chinese authors' full fidelity/native-language passes are recorded. The exact English text remains immutable; independent original storytelling rules do not apply to an imported classic.
-9. Checked the complete-content boundary and the age designation. Violence, slavery, sexuality, social hierarchy and disturbing punishments remain in the source and faithful translation. The new cover is wordless and non-graphic. No modern personal information, protected screen character, imitation instruction or newly invented moral was introduced.
-10. Confirmed complete read-through and spoken-register work in the author records, final paragraph endings, script counts and valid single-voice cast references. No literary length cap is imposed on the imported classic. Quantitative spoken-length checks below supplement, rather than prove, narrative fidelity.
+[Getty's authority record](https://www.getty.edu/cona/CONAIconographyRecord.aspx?iconid=901000730) supports the traditional Homer attribution, Greek title, 24-book form and approximate eighth-century BCE date. [The Metropolitan Museum's account](https://www.metmuseum.org/perspectives/discovering-homer-odyssey) independently describes the ancient Greek myth and oral performance tradition. Supernatural acts are story events, not claims about real-world physical or medical effects. Each `research.yaml` records its own plot evidence and claim boundaries.
 
-The first metadata pass corrected the label shape, original date and real-author associations. After those corrections, the complete collection-level checklist was repeated against the final metadata and the completed author records without another finding.
+The ambiguous English word *vitals* in the mutilation threat and punishment was checked against [Greek line XXII.476 and its LSJ citations](https://atlas.perseus.tufts.edu/nodes/urn:cts:greekLit:tlg0012.tlg002.perseus-grc2:22.476/) and [the related XVIII.67 text and Cunliffe entry](https://atlas.perseus.tufts.edu/nodes/urn:cts:greekLit:tlg0012.tlg002.perseus-grc2:18.67/). Here the organ is the genitals, not the intestines. The affected book authors corrected the wording and recorded this additional primary-text and lexical evidence in their research files.
 
-| Persistent state | Source-order checkpoints |
+The album declares `original.writer: homer`; both locales of every article explicitly select `homer`. The existing real-author profiles display Homer / 荷马 and do not invent life dates. Butler is the consulted translator, not the author or translator of the newly composed locale prose. Obsolete locale `source_url` and `translator` bylines are removed. The unused Butler and Jones profiles introduced for the discarded editorial sections are also removed. See [authors-audit.md](authors-audit.md) for identity and media evidence.
+
+## Author-performed checks
+
+Each writing author compares the entire original chapter with both reading-edition locales, revises the source, and performs all ten concrete `write-article` self-reflection items. Findings require a restart from item 1 until a fresh complete pass is clear. Those same-author checks are the editorial review; the aggregate record does not substitute for them or add a separate editorial approval stage.
+
+After its locale article is final, that author adapts the corresponding audio script from that locale alone. The prescribed four-item `scriptize-article` check is a single complete pass with fixes in place. Per-book records supply source decisions, continuity, dialogue, register, correction and length evidence. Length and schema checks supplement that evidence; they do not prove narrative fidelity.
+
+The continuation specifically corrects readings that softened the original characters or replaced events with generic consequences. The author records identify concrete corrections, including Athena's advice about killing the suitors, the son's threats and authority over his mother, the Cyclops and Circe episodes, the threats around the palace, the nurse's recognition, the punishments after the fighting, Penelope's bed test, and the enforced final peace. Significant cruelty remains attributable to the character who performs or threatens it. No appended modern moral resolves the original conflict.
+
+## Collection continuity
+
+| State | Protected cross-book relationship |
 |---|---|
-| Time and narrative frames | The opening is late in the homeward journey; Books IX–XII are the father's retrospective account; Book XIII resumes the present return. |
-| Father and son | Telemachus travels while Odysseus is absent. Their separate returns meet at Eumaeus's hut in Book XVI before they act together in the palace. |
-| Identity and knowledge | Athena's disguises, the father's cover stories, Euryclea's scar recognition and Penelope's later bed test are preserved at their respective moments. |
-| Ships, companions and wealth | Successive losses at sea precede the Phaeacian passage. Deposited gifts, the son's ship and returning crew remain distinct. |
-| Palace objects and access | The bow, axes, stored weapons, doors and servant movements retain their roles in the contest and fighting. |
-| Household and ending | Eumaeus and Philoetius, the nurse, Penelope and Laertes have different recognition scenes; the suitors' relatives remain a threat after the palace victory. |
-| Divine intervention | Athena's guidance and disguise, Poseidon's hostility and Zeus's final settlement remain mythical source actions, not physical-world instruction. |
+| Narrative time | Books I–IV follow the son's search; V–VIII bring the father to the Phaeacians; IX–XII are his retrospective account; XIII resumes the present return. |
+| Knowledge and disguise | Telemachus does not hear the divine council. Odysseus's concealment, false biographies and staged tests remain distinguishable from the narrator's account. Recognition occurs at its source moment. |
+| Losses and possessions | The companions and ships are lost before the Phaeacian passage. The deposited Phaeacian gifts and the son's returning ship are different possessions and movements. |
+| Father and son | Their separate returns converge at Eumaeus's hut in XVI. Their concealed cooperation, the palace weapons and the bow contest lead into the fighting. |
+| Household identities | Eumaeus, Philoetius, Euryclea, Melanthius and Melantho have distinct roles. The nurse's scar recognition precedes Penelope's bed test and Laertes's orchard recognition. |
+| Revenge and aftermath | The suitors' deaths do not end the conflict. Punished servants, spared speakers, recovered bodies, the bereaved families and renewed armed retaliation remain causally connected. |
+| Remaining obligation | Tiresias's inland journey with the oar is repeated as a future obligation. It is not silently canceled, performed, or replaced with an invented later adventure. |
+| Final peace | Laertes kills Eupeithes; the fighting does not end through voluntary mutual forgiveness. Odysseus's pursuit is stopped by the divine command and Zeus's thunderbolt, followed by Athena's peace. |
 
-## Spoken-script measurements
+The shared recurring Chinese names include 忒勒马科斯、赫尔墨斯、卡吕普索、波吕斐摩斯、欧迈奥斯 and 欧律克勒娅. 墨兰提奥斯 is the goatherd and 墨兰托 the maid. The two locale narratives may organize exposition differently, but do not grant characters unavailable knowledge or move an event into a different book.
 
-Counts use non-whitespace Unicode characters. They omit the title, editorial argument, source footnote numerals and Markdown emphasis delimiters; all block `text` values contribute to spoken length. Ratios therefore compare the narrative actually adapted. Approximately 90–105% is the working range. Each linked article audit provides that author's protected-beat, register, dialogue and correction evidence; matching length alone is not evidence of completeness. Chapter divisions are chosen independently for each language. Some article authors recorded counts with source footnote numerals or emphasis markers still included; this table recounts every script with the one normalized method above. The numeric footnote sequence also matches between each book's source and Chinese text.
+## Per-book evidence and measurements
 
-| Book audit | English spoken / narrative | Ratio | Chapters / blocks | Chinese spoken / narrative | Ratio | Chapters / blocks |
-|---|---:|---:|---:|---:|---:|---:|
-| [01](the-odyssey-01/audit.md) | 15,739 / 17,172 | 91.6550% | 4 / 28 | 5,499 / 5,963 | 92.2187% | 4 / 28 |
-| [02](the-odyssey-02/audit.md) | 15,842 / 17,531 | 90.3656% | 5 / 40 | 5,515 / 6,001 | 91.9013% | 4 / 39 |
-| [03](the-odyssey-03/audit.md) | 18,308 / 20,289 | 90.2361% | 5 / 32 | 6,151 / 6,808 | 90.3496% | 4 / 32 |
-| [04](the-odyssey-04/audit.md) | 30,330 / 33,670 | 90.0802% | 7 / 80 | 10,271 / 11,010 | 93.2879% | 6 / 80 |
-| [05](the-odyssey-05/audit.md) | 17,474 / 19,326 | 90.4171% | 4 / 40 | 5,399 / 5,970 | 90.4355% | 5 / 41 |
-| [06](the-odyssey-06/audit.md) | 12,859 / 14,273 | 90.0932% | 4 / 25 | 3,765 / 4,140 | 90.9420% | 3 / 25 |
-| [07](the-odyssey-07/audit.md) | 12,870 / 14,255 | 90.2841% | 4 / 25 | 3,786 / 4,184 | 90.4876% | 3 / 26 |
-| [08](the-odyssey-08/audit.md) | 21,609 / 23,961 | 90.1840% | 6 / 60 | 6,344 / 6,767 | 93.7491% | 5 / 60 |
-| [09](the-odyssey-09/audit.md) | 21,359 / 23,565 | 90.6387% | 5 / 26 | 6,615 / 7,317 | 90.4059% | 4 / 26 |
-| [10](the-odyssey-10/audit.md) | 21,028 / 23,273 | 90.3536% | 5 / 39 | 6,753 / 7,330 | 92.1282% | 6 / 40 |
-| [11](the-odyssey-11/audit.md) | 22,591 / 25,013 | 90.3170% | 6 / 37 | 7,667 / 8,248 | 92.9559% | 5 / 37 |
-| [12](the-odyssey-12/audit.md) | 17,093 / 18,840 | 90.7272% | 4 / 18 | 4,937 / 5,436 | 90.8205% | 5 / 19 |
-| [13](the-odyssey-13/audit.md) | 16,007 / 17,695 | 90.4606% | 5 / 40 | 4,828 / 5,306 | 90.9913% | 4 / 39 |
-| [14](the-odyssey-14/audit.md) | 19,852 / 22,012 | 90.1872% | 5 / 31 | 5,585 / 6,199 | 90.0952% | 5 / 31 |
-| [15](the-odyssey-15/audit.md) | 20,311 / 22,449 | 90.4762% | 5 / 60 | 5,946 / 6,543 | 90.8757% | 6 / 60 |
-| [16](the-odyssey-16/audit.md) | 17,103 / 18,817 | 90.8912% | 5 / 51 | 5,150 / 5,315 | 96.8956% | 4 / 51 |
-| [17](the-odyssey-17/audit.md) | 22,112 / 24,412 | 90.5784% | 5 / 82 | 7,532 / 8,200 | 91.8537% | 6 / 83 |
-| [18](the-odyssey-18/audit.md) | 15,780 / 17,425 | 90.5595% | 5 / 64 | 5,163 / 5,676 | 90.9619% | 4 / 63 |
-| [19](the-odyssey-19/audit.md) | 22,640 / 25,137 | 90.0664% | 6 / 54 | 7,205 / 7,947 | 90.6631% | 5 / 52 |
-| [20](the-odyssey-20/audit.md) | 14,715 / 16,254 | 90.5316% | 5 / 52 | 4,639 / 5,136 | 90.3232% | 4 / 51 |
-| [21](the-odyssey-21/audit.md) | 15,908 / 17,644 | 90.1610% | 5 / 47 | 4,776 / 5,288 | 90.3177% | 4 / 49 |
-| [22](the-odyssey-22/audit.md) | 17,436 / 19,297 | 90.3560% | 6 / 71 | 5,291 / 5,816 | 90.9732% | 5 / 70 |
-| [23](the-odyssey-23/audit.md) | 13,812 / 15,339 | 90.0450% | 4 / 37 | 4,512 / 5,012 | 90.0239% | 3 / 37 |
-| [24](the-odyssey-24/audit.md) | 20,316 / 22,103 | 91.9151% | 5 / 59 | 6,743 / 7,191 | 93.7700% | 4 / 59 |
+The table below is generated only from the finalized, author-written artifacts. Source length counts non-whitespace Unicode characters after excluding the single H1 title; spoken length sums every audio block's `text`. English units are alphabetic words with internal apostrophes or hyphens; Chinese units are Han characters. Ratios compare each script with its own reading-edition article, not with Butler's longer original. The working range is approximately 90–105%, with no filler added merely to meet a number.
 
-## Authors, cover and portraits
+| Book audit | English words | Spoken / source | Ratio; chapters / blocks | Chinese Han | Spoken / source | Ratio; chapters / blocks |
+|---|---:|---:|---|---:|---:|---|
+| [01](the-odyssey-01/audit.md) | 1,159 | 5,223 / 5,329 | 98.0109%; 3 / 25 | 1,785 | 2,083 / 2,045 | 101.8582%; 3 / 25 |
+| [02](the-odyssey-02/audit.md) | 1,287 | 5,455 / 5,919 | 92.1608%; 3 / 29 | 1,820 | 1,970 / 2,081 | 94.6660%; 3 / 24 |
+| [03](the-odyssey-03/audit.md) | 1,116 | 5,287 / 5,450 | 97.0092%; 3 / 24 | 1,667 | 1,854 / 1,889 | 98.1472%; 3 / 19 |
+| [04](the-odyssey-04/audit.md) | 1,746 | 7,562 / 8,073 | 93.6703%; 5 / 38 | 2,384 | 2,600 / 2,702 | 96.2250%; 4 / 24 |
+| [05](the-odyssey-05/audit.md) | 1,324 | 5,721 / 5,923 | 96.5896%; 3 / 21 | 1,597 | 1,724 / 1,839 | 93.7466%; 3 / 12 |
+| [06](the-odyssey-06/audit.md) | 1,033 | 4,203 / 4,666 | 90.0772%; 3 / 21 | 1,461 | 1,525 / 1,680 | 90.7738%; 3 / 21 |
+| [07](the-odyssey-07/audit.md) | 955 | 4,303 / 4,475 | 96.1564%; 3 / 20 | 1,393 | 1,521 / 1,615 | 94.1796%; 3 / 20 |
+| [08](the-odyssey-08/audit.md) | 1,470 | 6,289 / 6,910 | 91.0130%; 3 / 29 | 2,126 | 2,350 / 2,436 | 96.4696%; 3 / 27 |
+| [09](the-odyssey-09/audit.md) | 1,468 | 6,050 / 6,201 | 97.5649%; 4 / 24 | 1,887 | 2,139 / 2,183 | 97.9844%; 4 / 24 |
+| [10](the-odyssey-10/audit.md) | 1,443 | 5,846 / 6,154 | 94.9951%; 4 / 26 | 1,907 | 2,054 / 2,207 | 93.0675%; 4 / 24 |
+| [11](the-odyssey-11/audit.md) | 1,903 | 7,890 / 8,361 | 94.3667%; 4 / 24 | 2,726 | 2,942 / 3,115 | 94.4462%; 4 / 24 |
+| [12](the-odyssey-12/audit.md) | 1,292 | 5,292 / 5,525 | 95.7828%; 4 / 17 | 1,698 | 1,817 / 1,966 | 92.4212%; 4 / 17 |
+| [13](the-odyssey-13/audit.md) | 1,533 | 6,330 / 7,030 | 90.0427%; 3 / 26 | 1,970 | 2,026 / 2,239 | 90.4868%; 3 / 21 |
+| [14](the-odyssey-14/audit.md) | 1,510 | 6,242 / 6,925 | 90.1372%; 3 / 28 | 2,022 | 2,083 / 2,313 | 90.0562%; 3 / 23 |
+| [15](the-odyssey-15/audit.md) | 1,619 | 6,785 / 7,529 | 90.1182%; 4 / 23 | 2,282 | 2,338 / 2,582 | 90.5500%; 4 / 16 |
+| [16](the-odyssey-16/audit.md) | 1,491 | 6,365 / 7,001 | 90.9156%; 4 / 28 | 2,066 | 2,115 / 2,345 | 90.1919%; 4 / 23 |
+| [17](the-odyssey-17/audit.md) | 1,505 | 6,673 / 6,924 | 96.3749%; 4 / 16 | 2,087 | 2,161 / 2,356 | 91.7233%; 4 / 12 |
+| [18](the-odyssey-18/audit.md) | 1,399 | 6,135 / 6,523 | 94.0518%; 4 / 20 | 2,029 | 2,090 / 2,296 | 91.0279%; 4 / 12 |
+| [19](the-odyssey-19/audit.md) | 1,663 | 6,701 / 7,432 | 90.1642%; 4 / 43 | 2,382 | 2,499 / 2,766 | 90.3471%; 4 / 42 |
+| [20](the-odyssey-20/audit.md) | 1,304 | 5,394 / 5,978 | 90.2308%; 4 / 29 | 1,756 | 1,834 / 2,018 | 90.8821%; 4 / 27 |
+| [21](the-odyssey-21/audit.md) | 1,302 | 5,433 / 5,959 | 91.1730%; 4 / 31 | 1,849 | 1,921 / 2,124 | 90.4426%; 4 / 27 |
+| [22](the-odyssey-22/audit.md) | 1,470 | 6,159 / 6,843 | 90.0044%; 4 / 26 | 2,060 | 2,115 / 2,341 | 90.3460%; 4 / 25 |
+| [23](the-odyssey-23/audit.md) | 1,473 | 6,042 / 6,711 | 90.0313%; 4 / 32 | 1,997 | 2,078 / 2,304 | 90.1910%; 4 / 32 |
+| [24](the-odyssey-24/audit.md) | 1,588 | 6,664 / 7,394 | 90.1271%; 4 / 41 | 2,247 | 2,332 / 2,579 | 90.4226%; 4 / 34 |
 
-The album and all 24 narrative books use the existing real-author profile mechanism, `original.writer: homer`. Both locales resolve to Homer / 荷马. Butler is the English translator and the author of the dedication, first preface and notes. Jones is the second preface's author. New Chinese translation credit is HaiLibrary. Six locale profiles, their evidence, image checks and shared portrait hashes are documented in [authors-audit.md](authors-audit.md).
+## Artwork
 
-The user selected Codex's built-in Image 2 for this task. The cover and three distinct portraits were generated from committed prompts through that tool. The cover also uses the referenced `epic-fantasy-illumination` Style. Final media consists of one 1536×1024 cover and six 1024×1024 avatar WebPs, with each portrait shared unchanged across two locales. All were visually inspected. Seven matching image states record `done`; Git LFS stores all seven media paths. Raw PNG sources are not committed.
+The album retains its existing 1536×1024 wordless cover and the imagined Homer portrait shared across two 1024×1024 locale files. The user's requested square-avatar corrections for 百径灯 / Manypath Lantern and 砚舟 / Inkstone Observer are also retained: four distinct 1024×1024 WebPs with continuous backgrounds to all edges and corners. They are separate library personas and are not the Odyssey's displayed author.
 
-The local reader exposed an existing byline defect: it always displayed the collection's author/year for editorial children. Its byline now uses the already loaded chapter manifest and that chapter's actual locale Writer, matching the standalone article reader. Browser verification covered the English and Chinese Jones preface, Butler's first preface, the first and last narrative books, chapter navigation, the cover, Homer's profile and its filtered works link. Both locale directory indicators read 28/28. No recording playback or deployment was performed.
+All seven final files were visually inspected during this continuation. Exact hashes are in [authors-audit.md](authors-audit.md). Each has a matching `done` image state and exact Git LFS pointer. The image-generator dry run reports zero pending images. No image bytes were changed during the narrative fidelity corrections; the already completed square-avatar work remains in its preceding commits.
 
-## Final validation
+## Final integration validation
 
-Validation completed on 2026-10-11 (Asia/Singapore).
+Completed on 2026-10-11 (Asia/Singapore), after all three chapter-author groups finalized their source, scripts, metadata and records.
 
 | Check | Result |
 |---|---|
-| `npx --no-install hailibrary-check-work works/series/the-odyssey` | PASS, exit 0 |
-| Complete-artifact and source audit | 28 articles, 56 locale articles, 48 scripts, 28 article audits; no missing artifact, hash mismatch, paragraph mismatch or footnote-sequence mismatch |
-| Script schema and spoken length | All cast references, sequential IDs, ensemble sizes, emotion restrictions and normalized ratios passed |
-| Image generator dry run | Album plus six author-profile directories; 0 pending images, exit 0 |
-| Media in the Git index | All seven WebP files have valid LFS pointers with the exact working-file SHA-256 and byte length |
-| `pnpm build` | PASS; production catalog and reader compiled. Vite reported its non-failing 500 kB chunk-size advisory |
+| Complete original-source evidence | Fresh Gutenberg download hash matches the recorded edition; all 24 original chapter snapshots match their live sections modulo whitespace |
+| Complete publication inventory | PASS: 24 narrative children, 48 locale articles, 48 scripts and 24 per-book audits, plus this aggregate and the author/artwork record |
+| Per-book author process | All 24 article records contain concrete ten-item source checks with restarted clean passes and the prescribed single four-item audio check with findings corrected |
+| Final text and script measurements | PASS: 34,053 English words, 47,198 Chinese Han characters and 1,196 script blocks; ratios 90.0044–101.8582%; final metadata lengths and all 144 recorded unit/source/spoken measurements reconcile |
+| `npx --no-install hailibrary-check-work works/series/the-odyssey` | PASS, exit 0; authors also report PASS for each of the 24 children |
+| Audio structure | PASS: deterministic chapter/block IDs, resolved individual cast references, valid ensembles, allowed dialogue emotions, no narrator emotions or written semicolons |
+| Image-generator dry run | PASS, exit 0: album, both Homer profiles and all four requested persona profiles; zero pending images |
+| Retained media | PASS: all seven WebPs have matching completed states, LFS attributes and exact Git-index SHA-256/length pointers; bytes are unchanged throughout this continuation |
+| `pnpm build` | PASS after the final character-description corrections. Vite's 502.68 kB JavaScript bundle emits the existing non-failing 500 kB chunk-size advisory |
 | `pnpm typecheck` | PASS |
-| Existing catalog tests | 4/4 PASS, using `node --experimental-strip-types --test tools/catalog/test/*.test.ts` after the final build |
-| Existing web tests | 19/19 PASS, using `pnpm --filter @hailibrary/web test` |
-| Runtime collection and locale files | Exact 28-entry order, 28/28 in each locale, 24/24 audio scripts per locale, 56 article files and 48 script files |
-| Runtime fidelity and assets | Every rendered source paragraph matches modulo whitespace; scripts exactly match source YAML; effective author overrides, relative URLs, profile avatars and shared cover resolve |
-| Staged whitespace and scope | `git diff --cached --check` passed; 212 branch files, including 28 per-article audits and seven LFS WebPs |
-| Local browser | Chinese/English reading, first/last-book navigation, three real-author bylines, Homer discovery and wordless cover verified |
+| Existing catalog tests | 4/4 PASS against the final rebuilt catalog |
+| Existing web tests | 19/19 PASS; reader source remains equal to the base branch |
+| Built collection | PASS: exact 24-entry order, 24/24 articles and 24/24 scripts in each locale, Homer author bindings, inherited age/style/labels and exact final character descriptions |
+| Built locale content | PASS: every article matches its source modulo whitespace and heading syntax; every exported audio JSON exactly matches its authored YAML |
+| Built assets and removals | PASS: relative runtime URLs, byte-identical cover/avatars, no removed editorial article directories or unused Butler/Jones profile outputs |
+| Local browser | PASS: Chinese/English first and last books, new Book XXIII, both Homer bylines, previous/next navigation, author discovery, wordless cover and square persona avatars |
+| Commit scope and whitespace | PASS: 191 final branch files, no reader-code difference from base, working-tree and staged whitespace checks, and generated/scratch output exclusion |
 
-The commit scope contains the album, its three author profiles in both languages, and the collection byline correction. Generated catalogs/build output, raw PNGs, downloads, temporary beat sheets and unrelated files are excluded. The submission links to Issue #73; merge and deployment remain separate operations.
+The first integration count was deliberately run while the last group's metadata was still being updated and detected its stale Book XVII length. The final source audit passes after those measured values were reconciled. The final author pass also corrected character summaries in XIX, XXI and XXII that had softened threats or invented protective motives; the catalog and production site were rebuilt, the four catalog tests rerun, and runtime character arrays checked against final metadata.
+
+The final commit scope includes the 24-book reading edition, its per-book and aggregate audits, bilingual Homer author resources, the shared cover and the four requested square persona avatars. The temporary chapter-byline code change is unnecessary once all retained children consistently reference Homer; the final reader source matches the base branch. Generated catalogs, `build/`, `dist/`, raw PNGs, downloads, scratch tools and the pre-existing untracked `docs/` directory are excluded.
+
+Issue #73 remains a Feature issue with native closing linkage from PR #74. The PR is updated for this final reading-edition scope. Merge and deployment are separate, unperformed operations.

@@ -1,12 +1,20 @@
 schema_version: 1
 id: the-odyssey-09
-titles:
-  en-US: "BOOK IX"
-  zh-CN: "第九卷"
+style: epic-fantasy-illumination
+titles: {en-US: "The Name Across the Water", zh-CN: "隔海喊出的名字"}
+labels: {topics: [adventure, travel], themes: [perseverance, identity], moods: [reflective]}
 research: required
+premise: >
+  奥德修斯向主人报出姓名，从十二条船尚在的归程讲起。劫掠后的贪恋使船队失去同伴，
+  莲果又让人忘记归乡。在独眼巨人洞里，他以假名与计策救出幸存者，
+  却在逃脱后违背同伴劝阻喊出真名，让海神的诅咒找到归路。
+characters:
+  - {id: odysseus, description: "向阿尔基诺奥斯自述的归乡者，善于谋划却难以压下受辱后的骄傲"}
+  - {id: polyphemus, description: "波塞冬之子，封住洞口、吞食来客的独眼巨人"}
+  - {id: crew_1, description: "主张早离洞穴并劝阻喊话的一名船员"}
+  - {id: crew_2, description: "同伴中的另一名劝阻者"}
+  - {id: cyclops_1, description: "前来询问惨叫原因的邻近独眼巨人"}
+  - {id: cyclops_2, description: "一同来到洞外的另一名独眼巨人"}
 locales:
-  en-US:
-    source_url: "https://www.gutenberg.org/ebooks/1727"
-    translator: "Samuel Butler"
-  zh-CN:
-    translator: "HaiLibrary"
+  en-US: {writer: homer, working_title: "The Name Across the Water", length: "1468 words"}
+  zh-CN: {writer: homer, working_title: "隔海喊出的名字", length: "1887 汉字"}

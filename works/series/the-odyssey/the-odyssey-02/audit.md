@@ -1,28 +1,42 @@
-# Editorial record — Book II
+# Book II 作者自省记录
 
-Source: the adjacent, unchanged Samuel Butler English article. Chinese was authored directly from this source, without a published Chinese translation.
+2026-10-11。完整对照 `git show 1208d108:works/series/the-odyssey/the-odyssey-02/locales/en-US/article.md`，核对两种全文，不只检查补写处。research.yaml 记录已打开的 Gutenberg 正文/目录、Getty、Met。用户要求的压缩阅读版是 classic 逐字导入默认的任务例外：保留 classic 与 Homer / 荷马，双语 writer 均为 homer，不冒充 Butler 英译或逐字中译，不声称未删节，无献词、序和脚注编号。无媒体修改。
 
-## Chinese translation
+## 十项正文循环
 
-1. Structure: all 37 paragraph positions, the single H1 and markers 17–23 match the source.
-2. Completeness: compared every narrative clause and quotation, including the weaving deception, council speeches, provisions and sailing equipment. Removed an added reference to rearing the son from a line about giving birth.
-3. Dialogue: checked speakers and addressees individually, including Penelope's reported words, the real Mentor, Athena in Mentor's form, and two unnamed suitors. Recast the awkward rendering of Antinous's mocking “fire-eater.”
-4. Language: checked all ten translationese categories throughout; retained the source's unspecified measure rather than substituting a Chinese unit.
-5. Names and imagery: checked genealogies, three/four years, twenty years, crew and provision quantities, the two eagles, and all footnotes. No supplied verse was omitted.
-6. Cadence: reviewed the whole sequence from public grief and threats to the nurse's alarm and night sailing.
-7. Tone: preserved murder threats, poisoned-wine mockery, coercive courtship and power relations without modernization.
+初遍发现死亡威胁、青年报复意图、门托尔诅咒和佩涅洛佩鼓励各人的欺骗被弱化；另有手杖重量、回望海岸等擅加细节。修复后重启 1–10。末次核对再明确宙斯派鹰和乳母对死讯的错误信念，重新完成全项，无新发现。
 
-The complete seven-item check was restarted after corrections and passed with no further finding.
+1. 重读完整 classic 类型，检查继承的 fiction/adventure、14+、original、双语 homer 和标题；类型无数值篇幅范围。把用户例外与准确版本写入研究记录，长度按末次全文重数。
+2. 画出因果链：大会陈情→母亲计谋曝光→拒逐母与鹰兆→恐吓及旁观者无为→海边求神→备粮保密→神招人借船→夜航。大会失败并未被改成成功。
+3. 单独通读所有角色台词：青年先请求再威胁，安提诺奥斯反指母亲，欧律马科斯轻视神兆并恐吓，乳母担忧。未新增问题或格言。
+4. 对照开头与结尾：公开请求未获帮助，离港由女神另行组织而来；船尚未抵达皮洛斯，母亲仍不知情。
+5. 逐场核对下表，修掉长矛/手杖/位置/知情者的擅加状态。
+6. 逐语种列 research.yaml 中的版本、史诗来源、人物说法、神话和普通因果声明；实开 Gutenberg 与两个独立文化机构，未用搜索摘要代替。
+7. 版本归为 supported；鹰、复仇女神、预言、催眠和风为 declared myth；父亲死讯是人物看法；织布解线和备粮为普通因果。未把预言写成作者知道的立即归来。
+8. 两种全文对齐事件边界，尤其区分大会中的真人门托尔和后来女神；中文自然表达，没有逐字套英文。
+9. 全文检查 14+，保留杀人愿望、毒药笑话、财产与强迫婚姻；没有毒物细节或把人物主张变成指南。
+10. 从头至尾逐句按朗读节奏通读，检查转场和指代，重数词/汉字；未合成或试听音频。
 
-## Audio scripts
+| 状态 | 连续性证据 |
+| --- | --- |
+| 预言 | 哈利忒尔塞斯说第二十年；不是青年已获父亲消息。 |
+| 门托尔 | 大会真人、海边/登船女神两者分清。 |
+| 粮酒 | 十二坛、二十份，父亲最好的酒保留。 |
+| 保密 | 乳母起誓十天或十二天，母亲自行得知可说。 |
+| 船 | 诺厄蒙自愿借；先备船再搬粮、献酒、夜航。 |
 
-Each locale was independently revoiced from its own article. The single final check covered every protected beat and line, spoken register, exact length, and structural/voice rules. English passages initially over-compressed were expanded from existing source information. Chinese wording implying an earlier physical attack was corrected. Penelope's quoted request has her own voice; Mentor and Athena remain distinct, and the two unnamed taunters remain unnamed individual voices.
+research.yaml 明列压缩的远亲、古代女性名录、重复指责、库房珍宝和船具说明；织衣骗局、复仇预兆、威胁和借船的因果未改轻。
 
-Counts exclude whitespace, H1 and chapter argument; source footnote digits remain in the denominator. Only block text is counted as speech.
+## 单次音频四项检查
 
-| Locale | Source | Spoken | Ratio | Chapters | Blocks |
-|---|---:|---:|---:|---:|---:|
-| en-US | 17,545 | 15,842 | 90.2935% | 5 | 40 |
-| zh-CN | 6,015 | 5,515 | 91.6874% | 4 | 39 |
+1. 两语分别只回溯本语言源文，逐事件/对白意图核对；保留鼓励消息、夜拆寿衣、恐吓、门托尔诅咒、乳母误信死讯和青年报复。
+2. 每句叙述、每条对白检查是否真能说出口；删除擅加惊问与回头动作。关键意象为落地手杖、两鹰、闭口保密和白帆，各章少于 5 处；未用近抄充当改编。
+3. 计数见下，均为 90–105%。
+4. 单次结构检查发现英文 ch02 连续两个旁白块，原位合并并重新顺排 ID；所有 cast 为个人，末段独立，无旁白情绪或供应商配置。保留原 cast，包括无直接台词的声音。完成四项后不重启音频循环。
 
-Each script has thirteen individual voices. Mentor's explicit anger and Euryclea's tears support the only emotion tags; narration has none. IDs and the separate closing paragraph were checked. `npx --no-install hailibrary-check-work works/series/the-odyssey/the-odyssey-02` returned `PASS`, exit 0.
+| Locale | 正文单位 | 源文非空白 | 口播非空白 | 比率 | 段落 | 章/块/声音 |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| en-US | 1287 words | 5919 | 5455 | 92.16% | 45 | 3/29/6 |
+| zh-CN | 1820 汉字 | 2081 | 1970 | 94.67% | 37 | 3/24/6 |
+
+计数排除 H1，英文含内部撇号/连字符，汉字为 Unicode Han，比例计标点、去空白。`npx --no-install hailibrary-check-work works/series/the-odyssey/the-odyssey-02`：PASS，exit 0；没有未解决校验项。

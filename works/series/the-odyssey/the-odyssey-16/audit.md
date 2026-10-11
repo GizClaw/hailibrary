@@ -1,33 +1,40 @@
-# Editorial record — Book XVI
+# 第十六卷阅读版编辑记录
 
-The audio scripts use the finalized English and Chinese articles beside them. SHA-256 comparisons confirmed that both literary files matched their pre-adaptation versions after the audio work.
+本卷保持 classic、Homer／荷马和两语 homer，继承 fiction/adventure、14 岁起及既定 Style。用户明确要求 HaiLibrary 阅读版，覆盖本任务 classic 的逐字导入默认，未改全局类型或技能。新正文不冒称 Butler 译文或逐句中译；完整情节证据为 `1208d108` 第十六卷与 Gutenberg 1727 Butler 1900 年英译、附 1921 年第二版前言的版本。
 
-## Recorded Chinese translation checks
+## 正文十项同作者检查
 
-The following results summarize the translation author's completed review, rather than a new translation review by the audio author.
+1. 重读完整类型和作者档案，核公版、题名、分类、年龄及真实署名；英文 1,491 words、中文 2,066 汉字。classic 没有数值字数范围。
+2. 因果逐场：牧猪人先迎少主；客人受保护有困难；单独报母使二人独处；女神撤伪装、儿子疑而后认；商量谋杀；儿子反对查遍农庄；城中返讯与伏击失败；敌人再谋杀、王后责问、假保证；恢复伪装后晚餐守密。
+3. 单读父子、女神、王后和谋杀者话意。保留父亲宁被斩首也要杀敌、女奴受猥亵的控诉；安菲诺摩斯若神许会亲自杀且催人杀，不能写成原则上拒绝谋杀；欧律马科斯保证并加神降死亡的但书，同时仍在策划杀人。
+4. 父子相认完成，杀求婚人尚未执行；儿子提出异议不是凭空解决众寡难题。结尾只儿子知道，牧猪人还当老人是客人。
+5. 核下表。恢复 108 人及附属人员、点头提示和父子各留一剑一矛两盾的原定安排；这些是后续情节的准备，没有写成已完成。
+6. 对两语逐项核全文，与完整第十六卷对照；打开 Gutenberg 目录／原书和 Getty、大都会博物馆资料，区分原作的行动证据与史诗传统证据。
+7. 变形、神的选择性显现为神话；离乡二十年包括战争与归途，不作二十年战后漂泊。欧迈奥斯对返船只是猜测；王后的旧恩指责与欧律马科斯的假话均有角色边界。
+8. 对共同事件后分别通读。英文从狗不吠进入，中文从酒碗掉落进入；保持各自停顿，明确试女仆与推迟查远处男仆的分歧。
+9. 核谋杀、血缘、羞辱、性骚扰、分赃和欺骗；不将残酷谋划泛化成“处理问题”，不增加超出原作的现代战术，不让温情相认洗去复仇目的。
+10. 全文逐句试读，核代词、计划的未来时和独立尾段。修正遗漏与保证但书后从第 1 项完整重做十项，终稿一轮无剩余发现。
 
-1. Structure: one H1, no H2, 47 total paragraphs and 45 narrative paragraphs, with all boundaries and ordering aligned to the English source. Marker 139 remains.
-2. Completeness: every source paragraph and clause was compared, including knowledge boundaries, Athena's selective visibility, ages, time, suitor and servant counts, reserved weapons, private messages and the son's objection to inspecting the farms. An unconfirmed reference to a dead husband was corrected, and leaving Laertes alone was made explicit.
-3. Dialogue: each speaker, listener and intention was checked, including public and private reports. The unnamed ship messenger remained distinct from Medon.
-4. Language: all ten translationese categories were checked. The tear sentence and an awkward description of the selected youths were rewritten naturally.
-5. Names and imagery: glossary names, quantities, the footnote and both the only-son and bereaved-bird comparisons were checked.
-6. Cadence: the complete text was reviewed in order through affection, fear, recognition, grief, conspiracy and the concealed smile.
-7. Tone: threats and violence were retained without invented motives, explanatory additions or use of a modern published Chinese translation.
+| 连续项目 | 定稿状态 |
+|---|---|
+| 一日内时间 | 黎明早餐、报母、相认与计议；城中回船／谋议；傍晚恢复伪装、晚饭、睡眠 |
+| 所知 | 儿子看不见女神，父亲与狗能看见；母亲、牧猪人和祖父仍不知父亲回来 |
+| 数目 | 求婚人 52＋24＋20＋12＝108；另六仆、墨冬、歌者和两切肉侍者 |
+| 尚待执行 | 明晨儿子先回城，父亲随后扮乞丐；神提示后点头；移藏武器并留下各一剑一矛与两盾 |
+| 城中敌人 | 陆上谋杀为免遭集会揭发与放逐；杀后分财、房留王后新夫；不杀就应回各家求婚 |
+| 晚间 | 老乞丐外貌已恢复；牧猪人不肯确定所见武装船；儿子暗笑未被他看见 |
 
-The translation author restarted all seven checks after the fixes and recorded a fresh pass with no further issue.
+保留安提诺奥斯父亲与塔福斯海盗袭击友邦、受奥德修斯保护的旧恩，及新谋杀和分赃提议。压缩阿耳刻西奥斯额外祖名、长哭泣比喻、摆餐细节、重复誓词和少量信使／集会走位，没有删去关键兵器安排、政治后果或人物选择。
 
-## Audio author checks
+## 有声稿一次四项检查
 
-Each locale was independently retold from its own finalized article. Each completed script received the prescribed single full check, with findings corrected in place.
+两语独立依据自身定稿。1）逐事件与全部话意核相认、计划、宫中阴谋和所知，恢复旧稿被概括掉的谋杀、具体数目、分赃、条件式亲手杀人与神降死亡但书。2）逐句重述为口语，只将“我是你的父亲”和无人会再来等少量核心回应保为标志；修正中文可能把谋杀对象听成欧律马科斯自己儿子的指代。3）实计如下。4）核四章、顺序号、六个单人 cast、无旁白情绪、无分号或服务商数据、独立尾段。本轮内修复，不重启全面有声复审。
 
-1. Fidelity: traced every protected beat, line and narration sentence to its source. Retained the son’s disagreement, every suitor and servant count, one sword and spear per man, two shields, private identity and messaging boundaries, Amphinomus's conditional position and Eurymachus's deceptive reassurance. Corrections included “only son,” launching the ship, the walk outside the wall, the announcement's wording and the timing of the returning ship's discovery.
-2. Spoken register: reviewed all dialogue and narration, including non-signature wording close to the source. Revoiced compressed passages using existing source detail. Removed unsupported small actions and stiff Chinese phrasing. No written semicolons or unspoken dashes remain.
-3. Length: counted source narrative and spoken block text without whitespace. Source counts exclude H1 and the editorial argument but retain the footnote digits; the footnote is not spoken.
-4. Structure: verified sequential IDs, resolved individual voices, distinct public messenger identity, chapter boundaries and separate final smile and supper paragraphs. Narration is untagged. Dialogue tags are limited to explicit welcoming joy, fear of a deity, rebuke and deliberate reassurance.
+| 语言 | 正文非空白字符 | 口播非空白字符 | 比例 | 章／块／声音 |
+|---|---:|---:|---:|---|
+| en-US | 7001 | 6365 | 90.9156% | 4／28／6 |
+| zh-CN | 2345 | 2115 | 90.1919% | 4／23／6 |
 
-| Locale | Source characters | Spoken characters | Ratio | Chapters | Blocks | Individual voices |
-|---|---:|---:|---:|---:|---:|---:|
-| en-US | 18,820 | 17,103 | 90.8767% | 5 | 51 | 10 |
-| zh-CN | 5,318 | 5,150 | 96.8409% | 4 | 51 | 10 |
+正文去单 H1 后去空白；口播仅 block.text。正文长度按英文空白词和中文 Han 字符。
 
-`npx --no-install hailibrary-check-work works/series/the-odyssey/the-odyssey-16` returned `PASS`, exit 0. Additional read-only validation confirmed source hashes, paragraph and footnote counts, script IDs, cast references and the required length range.
+`npx --no-install hailibrary-check-work works/series/the-odyssey/the-odyssey-16`：PASS，退出码 0。媒体未改。

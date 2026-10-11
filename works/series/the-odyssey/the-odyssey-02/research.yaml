@@ -2,29 +2,21 @@ schema_version: 1
 required: true
 sources:
   - url: "https://www.gutenberg.org/ebooks/1727"
-    authority: "Project Gutenberg edition catalogue"
-    claims:
-      - "The imported English source is ebook 1727, translated by Samuel Butler, whose life dates are 1835–1902. The catalogue marks this edition public domain in the USA."
+    authority: "Project Gutenberg catalogue, opened 2026-10-11"
+    claims: ["Ebook 1727 credits Homer and translator Samuel Butler and records public-domain status in the USA."]
   - url: "https://www.gutenberg.org/files/1727/1727-h/1727-h.htm"
-    authority: "Samuel Butler translation, with the 1921 second-edition preface by Henry Festing Jones"
-    claims:
-      - "The source contains twenty-four books, two edition prefaces, a dedication, and numbered translator notes."
-      - "The second-edition preface dates Butler's original translation to 1900 and distinguishes the 1921 edition's corrections."
-  - url: "https://onlinebooks.library.upenn.edu/webbin/work?id=olbp101204"
-    authority: "University of Pennsylvania Libraries, The Online Books Page"
-    claims:
-      - "The catalogue independently identifies Butler's 1900 prose translation and the Gutenberg transcription based on the 1921 second edition."
+    authority: "Primary plot source, Butler's 1900 translation in the 1921 second edition, Book II"
+    claims: ["The complete Book II supplies the assembly, shroud deception, threats, prophecies, disguised assistance and departure; the prefaces identify the edition."]
   - url: "https://www.getty.edu/cona/CONAIconographyRecord.aspx?iconid=901000730"
-    authority: "Getty Research Institute, Cultural Objects Names Authority"
-    claims:
-      - "The Odyssey is an ancient Greek epic in twenty-four books traditionally attributed to Homer; the authority record dates it to the end of the eighth century BCE and gives its Greek title."
+    authority: "Getty Research Institute, CONA record 901000730, opened 2026-10-11"
+    claims: ["The twenty-four-book ancient Greek epic is traditionally attributed to Homer; its date is approximate."]
   - url: "https://www.metmuseum.org/perspectives/discovering-homer-odyssey"
-    authority: "The Metropolitan Museum of Art, Department of Greek and Roman Art"
-    claims:
-      - "The museum places the poem's composition around the eighth century BCE and describes its oral performance tradition."
+    authority: "The Metropolitan Museum of Art, Department of Greek and Roman Art, opened 2026-10-11"
+    claims: ["Independent evidence for ancient Greek origin and oral performance."]
 notes:
-  - "Import consulted on 2026-10-11. Exact UTF-8 source SHA-256: ffbdb29c3dda284b65c11243db1a98167826a70c81bca2ed4b6232f86c905fb9."
-  - "Only the Gutenberg wrapper, redundant title and contents listing, and empty illustration placeholder are excluded. Section headings become Markdown titles. All section prose, notes, punctuation, and paragraph boundaries are retained."
-  - "The poem is ancient Greek myth traditionally attributed to Homer. The original date is approximate; supernatural events and divine actions are literary content, not verified historical or scientific claims."
-  - "The prefaces and notes preserve the named editors' historical interpretations, including Butler's disputed authorship and geography theories. These are source-edition opinions, not HaiLibrary assertions."
-  - "The modern Chinese rendering is newly authored from this public-domain English edition; no modern published Chinese translation or screen adaptation is used."
+  - "Exact local comparison source: git show 1208d108:works/series/the-odyssey/the-odyssey-02/locales/en-US/article.md, read in full for both locales. Butler is the consulted plot translator, not the writer of this English reading edition."
+  - "User-authorized task exception to classic's verbatim-import default: a compressed HaiLibrary reading edition retains type classic and author Homer / 荷马, removes front matter and footnote numbering, and uses newly written native prose. This is neither an unabridged import nor a literal Chinese translation. Locale writer IDs remain homer; absent source_url/translator fields do not falsely identify new prose as an imported translation."
+  - "Retained: Aegyptius's killed son and suitor son; Telemachus's appeal and tears; Antinous's accusation about encouraging messages and the three-year shroud trick exposed in year four; refusal to expel Penelope, repayment and Erinyes; explicit death curse; Zeus's eagles; Halitherses's twentieth-year prophecy; Eurymachus's death wish, fine and threat; requested ship and funeral alternatives; Mentor's curse on future rulers and rebuke to the inactive majority; Leiocritus's threat against a returning Odysseus; Athena as Mentor, same-day doom of the suitors and practical help; the son's promise to harm them; poison jokes and estate division; twelve jars and twenty measures; Euryclea's belief the father is dead and oath; Athena as Telemachus, Noemon's loan, induced sleep, loading, west wind and offerings."
+  - "Compressed: remote speaker ancestries, comparisons with Tyro/Alcmena/Mycene, repeated accusations and appeals, exact compensation hypotheticals, storeroom treasure inventory, ship fastening details and extended sail imagery. The real Mentor at the meeting remains separate from Athena's later impersonation."
+  - "Claim inventory: edition/attribution have documentary and independent cultural support. Disguise, sent eagles, Erinyes, prophecy and magically caused wind/sleep are declared myth; warnings remain speaker claims. Marriage coercion, revenge threats and property claims are retained narrative conduct. Ordinary weaving, preparation, concealment and boarding remain causal and consistent. No historical generalization, survival instruction or pharmacological claim is added."
+  - "Deleted invented staff weight, loss of rehearsed words, look-back farewell and assertions that Euryclea watched loading. Both independent scripts follow their own final prose. No media changes."

@@ -1,28 +1,43 @@
-# Editorial record — Book V
+# Book V 作者自省记录
 
-Chinese was written directly from the adjacent, unchanged Butler English article. No published Chinese translation was consulted.
+2026-10-11。全文对照 `git show 1208d108:works/series/the-odyssey/the-odyssey-05/locales/en-US/article.md`，包括女神情人的死亡举例、强迫同床和完整上岸过程。research.yaml 记录准确版本及已打开来源。用户的阅读版要求是 classic 逐字导入默认的任务例外；保留 classic、Homer / 荷马和两种 homer，不把新英语当 Butler、不把中文当逐字译文，不声称未删节。无献词、序、脚注编号和媒体改变。
 
-## Chinese translation
+## 十项正文循环
 
-1. Structure: all 39 paragraph positions, the single H1 and markers 50–54 match the source.
-2. Completeness: compared every clause and quotation, including coercive captivity, divine precedents, raft construction, stars, all sea hazards, the river prayer and the final shelter. Corrected Ulysses's absolute claim about the dangerous voyage, which had initially been weakened.
-3. Dialogue: reviewed every speaker and internal monologue for identity, addressee and purpose, distinguishing anger, persuasion, suspicion, homesickness and taunting.
-4. Language: checked all ten translationese categories, especially pronouns, passive phrasing and long nautical descriptions.
-5. Names and imagery: verified names, days, quantities, constellations, four winds, octopus, recovering father and fire-seed images. The source supplies no song lyrics.
-6. Cadence: reviewed the entire text from divine debate through deliberate craftsmanship, storm and exhaustion to sleep.
-7. Tone: preserved forced sex, divine affairs, violent death, drowning and torn skin without sanitization, new moral or changed setting.
+初遍发现不老/美貌论点被换成衰老，情人被杀只剩泛称，赫尔墨斯处罚警告与谈判后同床遗漏，另添接头测试和木筏声响。修复后从1重做全部清单；两语开头改成先神议会、后使者和释放，重新完成1–10，无新发现。
 
-After the correction, the full seven-item checklist was restarted and passed without further findings.
+1. 重读 classic 类型和 homer 档案，检查继承的 fiction/adventure、14+、original、标题、Writer、必需研究及本任务例外。类型未设数值长度界限，篇幅实计。
+2. 因果链：儿子危机及神命→女神抗议但服从→主角要求无害誓言→拒永生选归家→造筏→海神毁筏→先怀疑后接受纱→岩岸失败→河神相助→择林避寒。每次决策有阻力与代价。
+3. 单读各人的话，分别核对卡吕普索的双重标准控诉、赫尔墨斯威胁、奥德修斯谨慎与坚决、伊诺的条件，无新问答或替人物作现代道德结论。
+4. 开头囚禁，结尾仅脱离海难获得休息，尚未归家；没有把陆地写成无条件安全。
+5. 下表核对日期、衣物、木筏、面纱和伤势，删除测试接头等无据动作。
+6. 双语声明清单列于research.yaml；实开Gutenberg目录与全文，并用Getty、Met交叉核查传统来源。未用现实生存常识替代神话设定。
+7. 神命、永生、神造风、护纱、河流停缓归myth；工具/衣物前后是普通因果。卡吕普索救命与强迫同床并存，不以温柔称呼抹去后者。
+8. 两语各自独立通读，再对齐相同事件和代理人；恢复原作的身高/美貌与凡人/女神论点，中文保持自然。
+9. 14+全篇检查，保留性胁迫和死亡风险，不添毒物、造船、游泳或医疗操作指导。
+10. 从开头至末尾逐句按朗读节奏复读，检查浪/岩石/河流转场、指代与重复，重数篇幅；未合成或试听音频。
 
-## Audio scripts
+| 状态 | 核对结果 |
+| --- | --- |
+| 卡吕普索 | 服从宙斯，但先发无害誓；海神风暴是另一施害者。 |
+| 木筏 | 二十棵树、四天完成、第五日走；桅杆先折，筏后碎。 |
+| 时间 | 航十七天，第十八天见山；再熬两夜两天，第三晨接近岸。 |
+| 身体 | 衣物先阻游，弃筏前脱掉；岩石剥伤手掌。 |
+| 面纱 | 系上后游；河口上岸恢复呼吸才归还伊诺。 |
+| 夜宿 | 明确权衡寒冷与野兽，入橄榄枝、树叶盖身后神赐眠。 |
 
-Each locale was independently retold from its own finalized article and received one complete check for fidelity, spoken register, length and structure. English compressed descriptions were expanded from source content. Chinese corrections clarified the intended effect of the north wind, precise body parts, the river's stopping, and the fire-seed simile. No new events were used to meet the length target.
+压缩的是神称号/使者路线、植物和星辰清单、扣件细述、重复自语及长比喻；两位情人被神杀、强迫性关系及关键决策全保留。
 
-Counts exclude whitespace, H1 and chapter argument, retain source footnote digits, and count only audio block text.
+## 单次音频四项检查
 
-| Locale | Source | Spoken | Ratio | Chapters | Blocks |
-|---|---:|---:|---:|---:|---:|
-| en-US | 19,336 | 17,474 | 90.3703% | 4 | 40 |
-| zh-CN | 5,980 | 5,399 | 90.2843% | 5 | 41 |
+1. 两语分别逐拍对自己的完整源文，保留情人死亡、处罚、强迫及当晚同床、神人美貌论点、破筏/岩岸/河口顺序。
+2. 所有叙述与对白按口语检查；去掉书面压缩及擅加观察。保留纱、山如盾、树林火种的意象，各章不超过5处；中文一处分号原位改成口语停顿。
+3. 实计两个比率在90–105%，没有以安慰话填充。
+4. 各3章，位置型ID，单人cast，伊诺与卡吕普索无错归；无旁白情绪、供应商数据，独立结尾；原cast保留。四项只做一次，发现原位改，不重启音频检查循环。
 
-Both scripts have eight individual voices and sequential IDs. Narration is untagged; dialogue emotions occur only where rage or fear is explicit. The final shelter and sleep paragraphs remain distinct. `npx --no-install hailibrary-check-work works/series/the-odyssey/the-odyssey-05` returned `PASS`, exit 0.
+| Locale | 正文单位 | 源文非空白 | 口播非空白 | 比率 | 段落 | 章/块/声音 |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| en-US | 1324 words | 5923 | 5721 | 96.59% | 45 | 3/21/6 |
+| zh-CN | 1597 汉字 | 1839 | 1724 | 93.75% | 31 | 3/12/4 |
+
+H1不计；英文含内部撇号/连字符，汉字用Unicode Han；比率计标点去空白。`npx --no-install hailibrary-check-work works/series/the-odyssey/the-odyssey-05`：PASS，exit 0。无未解决本卷校验问题。

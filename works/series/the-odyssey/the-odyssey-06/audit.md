@@ -1,30 +1,42 @@
-# Editorial record — Book VI
+# Book VI 作者自省记录
 
-Chinese was newly written from the adjacent, unchanged Butler English article. No published Chinese translation was consulted.
+2026-10-11。全文对照 `git show 1208d108:works/series/the-odyssey/the-odyssey-06/locales/en-US/article.md`；research.yaml 写明原作保留和压缩边界，实际打开了 Gutenberg 正文、目录、Getty 和 Met。用户的可读压缩要求是 classic 逐字导入默认的任务例外；仍用 classic、Homer / 荷马及双语 homer。新英语不冒称 Butler，中文不冒称逐字翻译，不声称未删节；无献词、序、脚注编号或媒体改动。
 
-## Chinese translation
+## 十项正文循环
 
-1. Structure: compared all 28 paragraph positions, the single H1, absent H2 headings and markers 55–56. The long speeches preserve their source divisions.
-2. Completeness: checked every clause, image and quotation, including migration, laundry, the meeting, hypothetical gossip and directions through the city and house. Corrected the sleeping attendants and restored the closed double doors.
-3. Dialogue: reviewed each speaker, listener and intention, including Athena's disguise and Nausicaa's imagined rude speaker. Corrected Ulysses's concern about causing offence when approaching the girl's knees.
-4. Language: examined all ten translationese patterns across the complete text, especially the extended comparisons and directions.
-5. Names and imagery: checked names, five sons/two married/three unmarried, threefold blessings, twentieth day, relative heights and distances. Preserved the lion, palm, hyacinth and gilding images. No supplied song lyrics were omitted or invented.
-6. Cadence: reviewed the complete text for the movement from dream and domestic activity through apprehension, hospitality and social caution to prayer.
-7. Tone: preserved nakedness, class and marriage judgments, public gossip and divine partiality without a new moral or changed setting. Neptune's relationship is expressed without adding a birth-order distinction.
+初遍发现擅加“别害怕/不伤害你”的话、洗澡刺痛和道谢、温和化姑娘对婚前往来的谴责，以及只说求王后却略去抱膝。修复后从1重新完成全十项；再次检查了洗衣/晒衣/玩球顺序，没有遗留新发现。
 
-After corrections, the full seven-item checklist was restarted and passed without further findings.
+1. 重读完整classic类型、homer档案，检查继承的fiction/adventure、14+、original、标题、Writer、研究与例外；类型无数值长度范围，实计末稿。
+2. 场景链为神梦促洗→借车不提婚事→洗晒吃玩→球落水唤醒→从远处求助→衣食/沐浴→姑娘想婚姻却怕闲话→绕开同入城、先求母亲→林中祈祷。各选择因果明确。
+3. 单读对白：女儿对父亲含蓄、奥德修斯恭维及恳求、姑娘明确条件；没有人物原未提出的保证、请求或解释。
+4. 开头让主角遇到援手，结尾只给出入宫路径；未擅自准许归航，未提前让王后接待。
+5. 下表核对身体遮蔽、物品、车/步行位置和人物知识。
+6. 双语及metadata声明清单按fact-checking建立；版本查Gutenberg，传统来源由Getty/Met交叉支持；未给神话迁徙加现代地理考据。
+7. 梦、勇气注入、改容为myth；礼俗和姑娘的偏见仅为角色言行；洗衣、晒干、更衣和装车是普通因果。没有冒充普遍古希腊规范。
+8. 两语共享事件与伦理边界，全文各自读成自然母语。补回得洛斯棕榈回忆、姑娘自己的谴责和母亲抱膝，不强迫脚本对齐句块。
+9. 按14+检查赤裸/婚姻与性别尊严，保持含蓄且不净化原作，不添现代教训或危险操作。
+10. 两种全文从头逐句按朗读节奏复读，去无来源的身体感觉和内心排练，重数篇幅；未合成、未试听。
 
-## Audio scripts
+| 状态 | 连续性证据 |
+| --- | --- |
+| 洗衣 | 先踩洗、晾晒、自洗、吃饭，再等晒干时玩球；回程前叠衣。 |
+| 遮身 | 树枝遮裸身；女仆退开后独洗，再穿衣。 |
+| 名字 | 船难者未自报姓名，不能让姑娘知道是奥德修斯。 |
+| 求助 | 不抱姑娘膝；获指点后要抱母亲膝，这两次不能混同。 |
+| 进城 | 先步随慢车，到林停等；女神听祈祷但畏波塞冬不露面。 |
 
-Each locale was independently retold from its own finalized article. One complete check covered every beat and line, spoken register, measured length, and structure. English corrections removed an invented intention to seek wives, clarified ownership of the supplied clothing and whose lifetime the imagined gossip describes, and removed an unsupported animal movement. Chinese corrections retained the shield-bearing epithet and actual gilding, and removed an unsupported speaking-volume detail.
+压缩五兄弟婚姻分类、远亲、织物/容器、奥林波斯景色、长猎神比喻、假想闲话的全文和港口细部；不删决定与后果。
 
-The gossip remains conditional, introduced by Nausicaa and voiced by one imagined individual. It is not presented as an event that occurred.
+## 单次音频四项检查
 
-Non-whitespace counts omit H1 and chapter argument, retain source footnote digits, and count only audio block text.
+1. 各自对自己的最终源文逐拍/对白核查；无另一语言脚本作源。保留婚事暗示、棕榈、私洗、婚愿、本人谴责、先母后父和隐藏女神。
+2. 逐句检查真能说出口的语气与呼吸，删除擅加道谢、疼痛和安抚句。关键意象为落水球、遮身枝、棕榈及白杨林，各章少于5处；关键对白不超过2处。
+3. 接近90%的脚本补足本语源文已有的指路/母亲座位含义，没有加空话；最终两个比率在90–105%。
+4. 3章自然转场，顺序ID，单一声音cast，正确说话人，末段独立，无旁白情绪/供应商数据/分号；原cast保留。四项检查只执行一次，原位修正发现项，不重启音频循环。
 
-| Locale | Source | Spoken | Ratio | Chapters | Blocks |
-|---|---:|---:|---:|---:|---:|
-| en-US | 14,277 | 12,859 | 90.0679% | 4 | 25 |
-| zh-CN | 4,144 | 3,765 | 90.8542% | 3 | 25 |
+| Locale | 正文单位 | 源文非空白 | 口播非空白 | 比率 | 段落 | 章/块/声音 |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| en-US | 1033 words | 4666 | 4203 | 90.08% | 33 | 3/21/4 |
+| zh-CN | 1461 汉字 | 1680 | 1525 | 90.77% | 35 | 3/21/4 |
 
-Each script has six individual voices, sequential IDs and no emotion tags. The closing prayer and Athena's response remain distinct. `npx --no-install hailibrary-check-work works/series/the-odyssey/the-odyssey-06` returned `PASS`, exit 0.
+不计H1；英文含内部撇号/连字符，汉字为Unicode Han；比率计标点去空白。`npx --no-install hailibrary-check-work works/series/the-odyssey/the-odyssey-06`：PASS，exit 0。无未解决校验项。

@@ -1,28 +1,46 @@
-# Editorial record — Book I
+# Book I 作者自省记录
 
-Source: the adjacent, unchanged Samuel Butler English article. The Chinese translation was written directly from it without consulting a published Chinese translation.
+2026-10-11。核对对象为本卷两份完整正文及各自的独立有声稿。逐行读过 `git show 1208d108:works/series/the-odyssey/the-odyssey-01/locales/en-US/article.md` 的完整 Butler 文本，并打开 research.yaml 所列的 Gutenberg 正文、目录、Getty 与 Met 证据。
 
-## Chinese translation
+用户明确要求经典署名保留荷马，同时制作可读的压缩阅读版，拒绝逐字抄录和 1:1 翻译。因此本任务对 classic 的“仅机械清理、不得改写”默认有明确例外；未修改全局类型或技能。这里不是未删节本，也不是冒充 Butler 译文的新英语。两种语言 writer 均为 homer；无献词、序、脚注及编号，无绘本衍生或媒体修改。
 
-1. Structure: compared all 34 paragraph positions, the single H1, absence of H2 headings, and footnote markers 1–16; all match.
-2. Completeness: checked every paragraph and quotation. Corrected the cloth's placement beneath the seat and removed an implication that all Argives followed Ulysses personally.
-3. Dialogue: checked each speaker, addressee and intention, then reviewed each character's lines together.
-4. Language: examined all ten translationese patterns, including pronouns, passive constructions, modifiers and repeated sentence endings.
-5. Names and imagery: checked genealogies, quantities, the longer-legs/longer-purse contrast and the home-smoke image. The source supplies no song lyrics to translate.
-6. Cadence: reviewed the entire translation for varied read-aloud rhythm and the movement from grief to resolve; replaced culturally loaded marriage diction with a plain reference to Laertes's wife.
-7. Tone: retained violence, coercion, patriarchal speech and slavery without new explanation or moral commentary.
+## 正文十项循环
 
-After corrections, all seven checks were repeated over the complete translation and found no further issue.
+第一遍发现：复仇指令被改轻，俄瑞斯忒斯故事被略掉，性别权力和性欲被净化，归还长矛与练习大会开头属于擅加动作。全部修复后，从第 1 项重新检查两种全文；末次再把英语家产中的奴仆称谓及弄瞎独眼巨人的施事写明确，重新完成 1–10，未留新发现。
 
-## Audio scripts
+1. 重读完整 classic 类型和双语 homer 档案，核对继承的 fiction/adventure、14 岁起、original 与本卷标题；类型无数值篇幅范围。实际篇幅见下。例外与准确版本已经写明，未误挂进口译者字段。
+2. 列出场景因果：众神议论个人责任与失踪者→门忒斯接待→毒箭往事和复仇建议→神离去→歌声与母亲→公开死亡警告→隐瞒身份→夜想航行。各场均保留欲望、阻力、选择和后果。
+3. 单看全部人物台词：宙斯处理责任，雅典娜给出有条件的行动，青年从怀疑转向威胁，母亲求停歌，求婚人试探权力。未给人物添问答、道理或学习目标。
+4. 开头等待父亲，末尾转向自己的航行；没有替他赶走求婚人，也未凭空得到船或确凿父讯。
+5. 逐场核对下表，删除没有来源的兵器归还和练习动作。
+6. 为双语正文与 metadata 建立 research.yaml 的声明清单，重新打开四个实际来源。版本来自 Gutenberg；传统署名和文化背景有 Getty、Met 两个独立机构支持。
+7. 逐项分类：出处为 supported；神变形、飞走为 declared myth；父亲已死是青年说法，不能变成叙述者知识；奴役、毒箭、厌女命令与复仇是角色行为，不当作普遍文化或正确行为。
+8. 两种全文逐场对照：失踪、招待、复仇替代条件、母亲退场和保密相同；中文按本族语重说，未照英文句形逐字排列。
+9. 全文检查 14+ 阅读边界；保留原作威胁、性欲和不平等，没有加入可操作的毒物配方、现代偏见说明或美化。
+10. 逐句按朗读节奏从头通读到尾，检查指代与停顿，重数正文；这是文本朗读编辑，未合成或试听音频。
 
-Each locale was retold independently from its own finalized article. Each completed script received one full four-item check: every beat and line against the source; spoken register and non-signature near-copying; measured length; and chapter/block IDs, voices, paragraph breaks and emotion evidence. Chinese nursing language was made less specific to avoid adding a feeding action. Only Penelope's explicitly tearful speech is tagged with emotion; narration is untagged.
+| 状态 | 核对结果 |
+| --- | --- |
+| 众神与青年 | 青年未听见神议会，不知道卡吕普索的实际处所。 |
+| 长矛和食物 | 长矛进入架中；先招待后询问，未添取回动作。 |
+| 行程 | 皮洛斯、斯巴达仍只是建议，二十人未召齐。 |
+| 女神身份 | 青年在飞走后才认出，未告诉求婚人。 |
+| 母亲与夜 | 母亲上楼受神睡眠，青年随后仍整夜思考。 |
 
-Counts exclude whitespace, H1 and the editorial chapter argument. Source counts retain footnote digits; spoken counts include block text only.
+压缩清单及原作边界见 research.yaml：神族远亲、商路港名、器物和买价等被压缩；毒箭求取的拒绝/供应、复仇故事、死亡警告及奴仆关系保留。
 
-| Locale | Source | Spoken | Ratio | Chapters | Blocks |
-|---|---:|---:|---:|---:|---:|
-| en-US | 17,195 | 15,739 | 91.5324% | 4 | 28 |
-| zh-CN | 5,986 | 5,499 | 91.8644% | 4 | 28 |
+## 有声稿单次四项检查
 
-Both scripts use seven individual voices. `npx --no-install hailibrary-check-work works/series/the-odyssey/the-odyssey-01` returned `PASS`, exit 0.
+完成源文后，分别仅从本语言正文写稿。完整四项检查只执行一次，发现问题原位修复，不重新启动音频复审循环。
+
+1. 用上面的事件表逐块回溯全文，保留各角色的决定、毒箭往事、杀求婚人的指令、母亲命令、死亡警告与保密。没有借另一语言脚本生成文字。
+2. 全部对白与叙述逐句检查口语；去除书面句框和替角色补说的话。保留的关键意象为父乡炊烟、长矛架、鸟形离去和末尾羊毛毯，各章未超过 5 处、关键对白未超过 2 处。
+3. 按正文去 H1 后与各 block.text 非空白 Unicode 字符计数，两个比率均在 90–105%。
+4. 检查三个自然转场、顺序 ID、单一声音 cast、正确说话人、独立末段、无旁白 emotion、无供应商数据。保留 cast，中文因宙斯直接说话增加一个个人声音。结构计数也通过。
+
+| Locale | 正文字词单位 | 正文非空白字符 | 口播非空白字符 | 比率 | 正文段落 | 章/块/声音 |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| en-US | 1159 words | 5329 | 5223 | 98.01% | 32 | 3/25/6 |
+| zh-CN | 1785 汉字 | 2045 | 2083 | 101.86% | 32 | 3/25/6 |
+
+英文词计数为含内部撇号或连字符的字母词；汉字计数为 Unicode Han；标点计入口播比率。`npx --no-install hailibrary-check-work works/series/the-odyssey/the-odyssey-01`：PASS，exit 0。媒体字节未改。没有未解决的本卷校验问题。

@@ -1,28 +1,43 @@
-# Editorial record — Book IV
+# Book IV 作者自省记录
 
-The complete, unchanged Butler English article is the source. Chinese was authored directly from it without consulting a published Chinese translation.
+2026-10-11。完整读过 `git show 1208d108:works/series/the-odyssey/the-odyssey-04/locales/en-US/article.md`，包括普罗透斯长段、两个特洛伊回忆和佩涅洛佩梦境。research.yaml 记录已打开的原始版本和两个独立文化来源。用户对本任务明确要求可读压缩，故不采用 classic 默认的逐字导入；不修改类型，署名仍为 Homer / 荷马，双语 writer 均 homer。不是 Butler 原句或逐字中译，不声称未删节，无献词、序、脚注编号和媒体变化。
 
-## Chinese translation
+## 十项正文循环
 
-1. Structure: compared all 83 paragraph positions, H1, absence of H2 headings and markers 36–49. Butler's bracketed narrative passages were translated in full.
-2. Completeness: checked every paragraph and inset quotation, including both Trojan stories, all seal-ambush mechanics and transformations, prophecies, gifts, murder planning and the dream. Removed invented trailing perfume, corrected the direction of launching the ships, and restored the full severity of starvation.
-3. Dialogue: reviewed each speaker and addressee, preserving the distinction between present speech, Menelaus's recollections, and the vision in Iphthime's form.
-4. Language: examined all ten translationese patterns and corrected the distaff's rendering.
-5. Names and imagery: checked all names, quantities and relationships, the sea-horses, lion/deer comparison, trapped lioness and “Halosydne's chickens”; all original footnote markers remain.
-6. Cadence: reviewed the complete translation from hospitality through recollection and terror to the mother's comfort, without shortening the latter scenes.
-7. Tone: retained slavery, betrayal, dismemberment, violence, ritual and threats. Idothea's liking remains explicit; no explanatory moral or modern setting was added.
+初遍发现攻破属城、伤己潜城、药草的可怕效力、双方随从全死、乳母可被杀和母亲宁死拦子等被减轻。修复后从1重启。全文复读又发现英文先赞宫殿再用餐的次序与原作不合；已改为先用餐，重新完成全十项，无新发现。
 
-After fixing findings, the full seven-item checklist was restarted and passed without further issue.
+1. 重读完整 classic 及 homer 双语档案，检查继承的 fiction/adventure、14+、原著资料、各标题、研究模式与任务例外。类型无数值长度限制；正文长度按最终文本更新。
+2. 列出五段因果：婚宴认亲→海伦/丈夫相互牵制的回忆→普罗透斯陷阱和父讯→船主暴露行程、求婚人设伏→母亲知情、起誓和梦安慰。没有跨过中间行动来获得结论。
+3. 所有人物台词分开读，保留海伦辩解、丈夫的反证、青年要真话、安提诺奥斯谋杀和母亲/乳母的高压关系，不添新解释。
+4. 开头求父讯，斯巴达得到活着的证言；结尾母亲仍不知父讯、埋伏尚在，未替故事提前解除危险。
+5. 核对下面的时间、知识和物品表，删除海伦沉默反应和杯子动作等无据细节。
+6. 为双语正文、metadata和研究注建立声明清单，实开 Gutenberg 正文/目录、Getty、Met。只将古希腊来源与版本作为现实事实交叉核实。
+7. 药草、变形、神食、极乐原和梦影归 myth；父讯是普罗透斯亲见、经墨涅拉奥斯转述，不能升格为他的亲眼见证。地形是人物解释赠礼的传统说法，无测量断言。
+8. 两语独立通读并对齐相同事件、道德复杂性和知识边界；英语的席间顺序修复后重核全部源文。
+9. 全文14+检查，保留暴力、药草造成不流泪的恐怖、强迫/威胁和谋杀，没有真实植物药理、配方或现代行为指南。
+10. 全文从头至尾按朗读节奏逐句通读，核对长嵌套回忆的说话人、停顿和指代，重数；未合成或试听声音。
 
-## Audio scripts
+| 状态 | 核对结果 |
+| --- | --- |
+| 宴席 | 洗浴→吃饭→低声赞宫殿→主人谈财富→认亲。 |
+| 特洛伊 | 海伦认人后发誓；木马中她模仿妻声是另一段回忆，未替她洗白。 |
+| 普罗透斯 | 四人伪装，睡后抓住，坚持变形；补祭后才成功离埃及。 |
+| 阿伽门农 | 守望一年、二十伏兵、国王与双方随从丧命。 |
+| 消息分流 | 儿子得父讯；母亲仅得儿子离家及谋杀计划。 |
+| 结尾 | 梦影不报丈夫生死；阿斯忒里斯埋伏尚未解除。 |
 
-Each script was independently told from its own finalized locale. The single final check traced every beat, quotation and narration sentence to that source, checked spoken register, measured length, and verified all IDs, voices, paragraph boundaries and emotion evidence. English compressed passages were expanded using source details. Chinese fixes included the direction of return from Pylos, unsupported physical details, and an overstatement about obtaining Athena's help. A traditional-character typo and written semicolon were removed.
+压缩礼物/庄稼/旅途名录、婚礼远亲、变形具体动物、船主养骡生意和重复仪式；有行动和后果的嵌套故事没有以名录为由删掉。
 
-Non-whitespace counts exclude H1 and chapter argument, include source footnote digits, and count only audio block text.
+## 单次音频四项检查
 
-| Locale | Source | Spoken | Ratio | Chapters | Blocks |
-|---|---:|---:|---:|---:|---:|
-| en-US | 33,698 | 30,330 | 90.0053% | 7 | 80 |
-| zh-CN | 11,038 | 10,271 | 93.0513% | 6 | 80 |
+1. 分别仅用本语言最终正文逐拍、逐对白核对；同步英语用餐次序、攻城计划、药效、伤己伪装、双边战死和母亲/乳母威胁。
+2. 检查每句口语，不用书面长段当朗诵；海豹气味/神食、变形握持、披风遮泪及梦问丈夫为关键意象，每章不超过5处，关键对白不超过2处。
+3. 计数如下，两个比率都在90–105%。
+4. 英文5章、中文4章按各自自然转场独立组织；ID顺排，cast全为个人，末段独立，无旁白情绪、供应商ID或书面分号。保留原cast。四项完整执行一次，发现处原位修复，不重启音频循环。
 
-Both scripts use fifteen individual voices. Quoted Idothea and Proteus speak for themselves; the dream figure has a separate vision identity. Narration has no emotion tags; dialogue tags are limited to explicit anger, tears and reassurance. `npx --no-install hailibrary-check-work works/series/the-odyssey/the-odyssey-04` returned `PASS`, exit 0.
+| Locale | 正文单位 | 源文非空白 | 口播非空白 | 比率 | 段落 | 章/块/声音 |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| en-US | 1746 words | 8073 | 7562 | 93.67% | 59 | 5/38/10 |
+| zh-CN | 2384 汉字 | 2702 | 2600 | 96.23% | 44 | 4/24/8 |
+
+排除H1；英文计含内部撇号/连字符的字母词，汉字用Unicode Han；比例计标点去空白。`npx --no-install hailibrary-check-work works/series/the-odyssey/the-odyssey-04`：PASS，exit 0。无未解决的本卷校验问题。

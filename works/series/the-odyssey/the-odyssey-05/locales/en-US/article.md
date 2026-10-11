@@ -1,402 +1,91 @@
-# BOOK V
+# The Shore Beyond the Storm
 
-CALYPSO—ULYSSES REACHES SCHERIA ON A RAFT.
+On Olympus, Athena had spoken again about the captive and the men plotting against his son. Zeus told her to guard Telemachus. Then he sent Hermes to Calypso with a decision: Odysseus must leave. A raft would carry him towards the Phaeacians, who would eventually send him home.
 
+Calypso was singing at her loom when Hermes arrived. Cedar smoke scented the cave. Outside, vines crowded the entrance and water ran through green ground where birds nested. Even the messenger paused to look. Odysseus was not there; he sat grieving beside the sea.
 
-And now, as Dawn rose from her couch beside Tithonus—harbinger of light
-alike to mortals and immortals—the gods met in council and with them,
-Jove the lord of thunder, who is their king. Thereon Minerva began to
-tell them of the many sufferings of Ulysses, for she pitied him away
-there in the house of the nymph Calypso.
+Calypso welcomed Hermes, set divine food and drink before him, and waited for his errand.
 
-“Father Jove,” said she, “and all you other gods that live in
-everlasting bliss, I hope there may never be such a thing as a kind and
-well-disposed ruler any more, nor one who will govern equitably. I hope
-they will be all henceforth cruel and unjust, for there is not one of
-his subjects but has forgotten Ulysses, who ruled them as though he
-were their father. There he is, lying in great pain in an island where
-dwells the nymph Calypso, who will not let him go; and he cannot get
-back to his own country, for he can find neither ships nor sailors to
-take him over the sea. Furthermore, wicked people are now trying to
-murder his only son Telemachus, who is coming home from Pylos and
-Lacedaemon, where he has been to see if he can get news of his father.”
+“Zeus requires you to release Odysseus,” he said. “His journey does not end on this island.”
 
-“What, my dear, are you talking about?” replied her father, “did you
-not send him there yourself, because you thought it would help Ulysses
-to get home and punish the suitors? Besides, you are perfectly able to
-protect Telemachus, and to see him safely home again, while the suitors
-have to come hurry-skurrying back without having killed him.”
+Calypso trembled with anger.
 
-When he had thus spoken, he said to his son Mercury, “Mercury, you are
-our messenger, go therefore and tell Calypso we have decreed that poor
-Ulysses is to return home. He is to be convoyed neither by gods nor
-men, but after a perilous voyage of twenty days upon a raft he is to
-reach fertile Scheria,50 the land of the Phaeacians, who are near of
-kin to the gods, and will honour him as though he were one of
-ourselves. They will send him in a ship to his own country, and will
-give him more bronze and gold and raiment than he would have brought
-back from Troy, if he had had all his prize money and had got home
-without disaster. This is how we have settled that he shall return to
-his country and his friends.”
+“So a goddess may not keep the mortal she loves?”
 
-Thus he spoke, and Mercury, guide and guardian, slayer of Argus, did as
-he was told. Forthwith he bound on his glittering golden sandals with
-which he could fly like the wind over land and sea. He took the wand
-with which he seals men’s eyes in sleep or wakes them just as he
-pleases, and flew holding it in his hand over Pieria; then he swooped
-down through the firmament till he reached the level of the sea, whose
-waves he skimmed like a cormorant that flies fishing every hole and
-corner of the ocean, and drenching its thick plumage in the spray. He
-flew and flew over many a weary wave, but when at last he got to the
-island which was his journey’s end, he left the sea and went on by land
-till he came to the cave where the nymph Calypso lived.
+She had found him alone after Zeus destroyed his ship and drowned his companions. She had cared for him and offered immortality. Other goddesses had loved mortal men and seen them destroyed: Artemis killed Dawn's beloved Orion, and Zeus struck Demeter's lover Iasion with lightning. Now the gods were taking hers away.
 
-He found her at home. There was a large fire burning on the hearth, and
-one could smell from far the fragrant reek of burning cedar and sandal
-wood. As for herself, she was busy at her loom, shooting her golden
-shuttle through the warp and singing beautifully. Round her cave there
-was a thick wood of alder, poplar, and sweet smelling cypress trees,
-wherein all kinds of great birds had built their nests—owls, hawks, and
-chattering sea-crows that occupy their business in the waters. A vine
-loaded with grapes was trained and grew luxuriantly about the mouth of
-the cave; there were also four running rills of water in channels cut
-pretty close together, and turned hither and thither so as to irrigate
-the beds of violets and luscious herbage over which they flowed. 51
-Even a god could not help being charmed with such a lovely spot, so
-Mercury stood still and looked at it; but when he had admired it
-sufficiently he went inside the cave.
+Calypso could not overturn the command. She had no ship or crew to supply, she said, but she would advise Odysseus honestly. Hermes warned that Zeus would punish her if she disobeyed, then left. She went down to the shore.
 
-Calypso knew him at once—for the gods all know each other, no matter
-how far they live from one another—but Ulysses was not within; he was
-on the sea-shore as usual, looking out upon the barren ocean with tears
-in his eyes, groaning and breaking his heart for sorrow. Calypso gave
-Mercury a seat and said: “Why have you come to see me,
-Mercury—honoured, and ever welcome—for you do not visit me often? Say
-what you want; I will do it for you at once if I can, and if it can be
-done at all; but come inside, and let me set refreshment before you.”
+Odysseus had spent another day there grieving. At night Calypso required him to share her bed, though he no longer wanted her. By day he escaped to the rocks. He could look towards home, even when he could do nothing to reach it.
 
-As she spoke she drew a table loaded with ambrosia beside him and mixed
-him some red nectar, so Mercury ate and drank till he had had enough,
-and then said:
+“You can go,” she told him. “Build a raft. I'll give you tools, food, clothes and a wind to start you on your way.”
 
-“We are speaking god and goddess to one another, and you ask me why I
-have come here, and I will tell you truly as you would have me do. Jove
-sent me; it was no doing of mine; who could possibly want to come all
-this way over the sea where there are no cities full of people to offer
-me sacrifices or choice hecatombs? Nevertheless I had to come, for none
-of us other gods can cross Jove, nor transgress his orders. He says
-that you have here the most ill-starred of all those who fought nine
-years before the city of King Priam and sailed home in the tenth year
-after having sacked it. On their way home they sinned against
-Minerva,52 who raised both wind and waves against them, so that all his
-brave companions perished, and he alone was carried hither by wind and
-tide. Jove says that you are to let this man go at once, for it is
-decreed that he shall not perish here, far from his own people, but
-shall return to his house and country and see his friends again.”
+Odysseus shuddered at her proposal.
 
-Calypso trembled with rage when she heard this, “You gods,” she
-exclaimed, “ought to be ashamed of yourselves. You are always jealous
-and hate seeing a goddess take a fancy to a mortal man, and live with
-him in open matrimony. So when rosy-fingered Dawn made love to Orion,
-you precious gods were all of you furious till Diana went and killed
-him in Ortygia. So again when Ceres fell in love with Iasion, and
-yielded to him in a thrice-ploughed fallow field, Jove came to hear of
-it before so very long and killed Iasion with his thunderbolts. And now
-you are angry with me too because I have a man here. I found the poor
-creature sitting all alone astride of a keel, for Jove had struck his
-ship with lightning and sunk it in mid ocean, so that all his crew were
-drowned, while he himself was driven by wind and waves on to my island.
-I got fond of him and cherished him, and had set my heart on making him
-immortal, so that he should never grow old all his days; still I cannot
-cross Jove, nor bring his counsels to nothing; therefore, if he insists
-upon it, let the man go beyond the seas again; but I cannot send him
-anywhere myself for I have neither ships nor men who can take him.
-Nevertheless I will readily give him such advice, in all good faith, as
-will be likely to bring him safely to his own country.”
+“Across that water? On timbers I tie together? Swear you aren't sending me out to die.”
 
-“Then send him away,” said Mercury, “or Jove will be angry with you and
-punish you”.
+Calypso touched him and smiled at his suspicion. Then she swore by earth, sky and the waters of the Styx that she meant no harm. The advice was what she would follow in his place.
 
-On this he took his leave, and Calypso went out to look for Ulysses,
-for she had heard Jove’s message. She found him sitting upon the beach
-with his eyes ever filled with tears, and dying of sheer home sickness;
-for he had got tired of Calypso, and though he was forced to sleep with
-her in the cave by night, it was she, not he, that would have it so. As
-for the day time, he spent it on the rocks and on the sea shore,
-weeping, crying aloud for his despair, and always looking out upon the
-sea. Calypso then went close up to him said:
+In the cave she set out mortal food for him and took the gods' food herself. After they ate, she tried once more.
 
-“My poor fellow, you shall not stay here grieving and fretting your
-life out any longer. I am going to send you away of my own free will;
-so go, cut some beams of wood, and make yourself a large raft with an
-upper deck that it may carry you safely over the sea. I will put bread,
-wine, and water on board to save you from starving. I will also give
-you clothes, and will send you a fair wind to take you home, if the
-gods in heaven so will it—for they know more about these things, and
-can settle them better than I can.”
+“If you knew what waits out there, you might stay. You could live here without growing old.”
 
-Ulysses shuddered as he heard her. “Now goddess,” he answered, “there
-is something behind all this; you cannot be really meaning to help me
-home when you bid me do such a dreadful thing as put to sea on a raft.
-Not even a well found ship with a fair wind could venture on such a
-distant voyage: nothing that you can say or do shall make me go on
-board a raft unless you first solemnly swear that you mean me no
-mischief.”
+She knew that he thought continually of Penelope. Could a mortal woman compare with her?
 
-Calypso smiled at this and caressed him with her hand: “You know a
-great deal,” said she, “but you are quite wrong here. May heaven above
-and earth below be my witnesses, with the waters of the river Styx—and
-this is the most solemn oath which a blessed god can take—that I mean
-you no sort of harm, and am only advising you to do exactly what I
-should do myself in your place. I am dealing with you quite
-straightforwardly; my heart is not made of iron, and I am very sorry
-for you.”
+“I know Penelope is less tall and beautiful than you,” he answered. “She is mortal, and you are a goddess. I still want to go home.”
 
-When she had thus spoken she led the way rapidly before him, and
-Ulysses followed in her steps; so the pair, goddess and man, went on
-and on till they came to Calypso’s cave, where Ulysses took the seat
-that Mercury had just left. Calypso set meat and drink before him of
-the food that mortals eat; but her maids brought ambrosia and nectar
-for herself, and they laid their hands on the good things that were
-before them. When they had satisfied themselves with meat and drink,
-Calypso spoke, saying:
+He had suffered on land and sea already. If another god struck him, he would endure that too. When night fell, they went to bed together in the cave.
 
-“Ulysses, noble son of Laertes, so you would start home to your own
-land at once? Good luck go with you, but if you could only know how
-much suffering is in store for you before you get back to your own
-country, you would stay where you are, keep house along with me, and
-let me make you immortal, no matter how anxious you may be to see this
-wife of yours, of whom you are thinking all the time day after day; yet
-I flatter myself that I am no whit less tall or well-looking than she
-is, for it is not to be expected that a mortal woman should compare in
-beauty with an immortal.”
+The next morning she gave him an axe and led him to the trees. He cut twenty trunks, smoothed and squared them, and joined them into a broad raft. She brought drills and cloth for a sail. He made a deck, mast and steering oar, fenced the sides against waves, and used levers to launch it.
 
-“Goddess,” replied Ulysses, “do not be angry with me about this. I am
-quite aware that my wife Penelope is nothing like so tall or so
-beautiful as yourself. She is only a woman, whereas you are an
-immortal. Nevertheless, I want to get home, and can think of nothing
-else. If some god wrecks me when I am on the sea, I will bear it and
-make the best of it. I have had infinite trouble both by land and sea
-already, so let this go with the rest.”
+For four days he built. On the fifth, washed and wearing fresh clothes, he loaded food, wine and water. Calypso sent a mild wind. The sail opened, and the island began to recede.
 
-Presently the sun set and it became dark, whereon the pair retired into
-the inner part of the cave and went to bed.
+She had shown him which stars to watch. He stayed awake, keeping the Bear to his left as he steered. Seventeen days passed. On the eighteenth, distant mountains appeared like a shield on the horizon. He had almost reached the Phaeacian country.
 
-When the child of morning rosy-fingered Dawn appeared, Ulysses put on
-his shirt and cloak, while the goddess wore a dress of a light gossamer
-fabric, very fine and graceful, with a beautiful golden girdle about
-her waist and a veil to cover her head. She at once set herself to
-think how she could speed Ulysses on his way. So she gave him a great
-bronze axe that suited his hands; it was sharpened on both sides, and
-had a beautiful olive-wood handle fitted firmly on to it. She also gave
-him a sharp adze, and then led the way to the far end of the island
-where the largest trees grew—alder, poplar and pine, that reached the
-sky—very dry and well seasoned, so as to sail light for him in the
-water.53 Then, when she had shown him where the best trees grew,
-Calypso went home, leaving him to cut them, which he soon finished
-doing. He cut down twenty trees in all and adzed them smooth, squaring
-them by rule in good workmanlike fashion. Meanwhile Calypso came back
-with some augers, so he bored holes with them and fitted the timbers
-together with bolts and rivets. He made the raft as broad as a skilled
-shipwright makes the beam of a large vessel, and he fixed a deck on top
-of the ribs, and ran a gunwale all round it. He also made a mast with a
-yard arm, and a rudder to steer with. He fenced the raft all round with
-wicker hurdles as a protection against the waves, and then he threw on
-a quantity of wood. By and by Calypso brought him some linen to make
-the sails, and he made these too, excellently, making them fast with
-braces and sheets. Last of all, with the help of levers, he drew the
-raft down into the water.
+Poseidon saw him there. Returning from his time away, the sea god understood that the others had acted without him.
 
-In four days he had completed the whole work, and on the fifth Calypso
-sent him from the island after washing him and giving him some clean
-clothes. She gave him a goat skin full of black wine, and another
-larger one of water; she also gave him a wallet full of provisions, and
-found him in much good meat. Moreover, she made the wind fair and warm
-for him, and gladly did Ulysses spread his sail before it, while he sat
-and guided the raft skilfully by means of the rudder. He never closed
-his eyes, but kept them fixed on the Pleiads, on late-setting Bootes,
-and on the Bear—which men also call the wain, and which turns round and
-round where it is, facing Orion, and alone never dipping into the
-stream of Oceanus—for Calypso had told him to keep this to his left.
-Days seven and ten did he sail over the sea, and on the eighteenth the
-dim outlines of the mountains on the nearest part of the Phaeacian
-coast appeared, rising like a shield on the horizon.
+“So you have nearly escaped.”
 
-But King Neptune, who was returning from the Ethiopians, caught sight
-of Ulysses a long way off, from the mountains of the Solymi. He could
-see him sailing upon the sea, and it made him very angry, so he wagged
-his head and muttered to himself, saying, “Good heavens, so the gods
-have been changing their minds about Ulysses while I was away in
-Ethiopia, and now he is close to the land of the Phaeacians, where it
-is decreed that he shall escape from the calamities that have befallen
-him. Still, he shall have plenty of hardship yet before he has done
-with it.”
+He stirred the sea with his trident and brought the winds against one another. Clouds erased the clear sky; darkness covered the water.
 
-Thereon he gathered his clouds together, grasped his trident, stirred
-it round in the sea, and roused the rage of every wind that blows till
-earth, sea, and sky were hidden in cloud, and night sprang forth out of
-the heavens. Winds from East, South, North, and West fell upon him all
-at the same time, and a tremendous sea got up, so that Ulysses’ heart
-began to fail him. “Alas,” he said to himself in his dismay, “what ever
-will become of me? I am afraid Calypso was right when she said I should
-have trouble by sea before I got back home. It is all coming true. How
-black is Jove making heaven with his clouds, and what a sea the winds
-are raising from every quarter at once. I am now safe to perish. Blest
-and thrice blest were those Danaans who fell before Troy in the cause
-of the sons of Atreus. Would that I had been killed on the day when the
-Trojans were pressing me so sorely about the dead body of Achilles, for
-then I should have had due burial and the Achaeans would have honoured
-my name; but now it seems that I shall come to a most pitiable end.”
+He remembered Calypso's warning. At Troy he might have died among men who knew his name, with someone left to bury him. Here he would simply disappear.
 
-As he spoke a sea broke over him with such terrific fury that the raft
-reeled again, and he was carried overboard a long way off. He let go
-the helm, and the force of the hurricane was so great that it broke the
-mast half way up, and both sail and yard went over into the sea. For a
-long time Ulysses was under water, and it was all he could do to rise
-to the surface again, for the clothes Calypso had given him weighed him
-down; but at last he got his head above water and spat out the bitter
-brine that was running down his face in streams. In spite of all this,
-however, he did not lose sight of his raft, but swam as fast as he
-could towards it, got hold of it, and climbed on board again so as to
-escape drowning. The sea took the raft and tossed it about as Autumn
-winds whirl thistledown round and round upon a road. It was as though
-the South, North, East, and West winds were all playing battledore and
-shuttlecock with it at once.
+A wave swept him off the raft. The mast broke, dragging sail and yard into the water. His clothes hampered him as he struggled up. When he found air, he spat salt from his mouth and searched for the timbers. He swam back and hauled himself aboard.
 
-When he was in this plight, Ino daughter of Cadmus, also called
-Leucothea, saw him. She had formerly been a mere mortal, but had been
-since raised to the rank of a marine goddess. Seeing in what great
-distress Ulysses now was, she had compassion upon him, and, rising like
-a sea-gull from the waves, took her seat upon the raft.
+The raft no longer went where he directed it. Each wind passed it to the next. Then a figure rose from the water and settled beside him. Ino, once a mortal and now a sea goddess, had seen his danger.
 
-“My poor good man,” said she, “why is Neptune so furiously angry with
-you? He is giving you a great deal of trouble, but for all his bluster
-he will not kill you. You seem to be a sensible person, do then as I
-bid you; strip, leave your raft to drive before the wind, and swim to
-the Phaeacian coast where better luck awaits you. And here, take my
-veil and put it round your chest; it is enchanted, and you can come to
-no harm so long as you wear it. As soon as you touch land take it off,
-throw it back as far as you can into the sea, and then go away again.”
-With these words she took off her veil and gave it him. Then she dived
-down again like a sea-gull and vanished beneath the dark blue waters.
+“Leave the wood,” she said. “Take off those clothes and swim towards land. Tie this veil across your chest. It will protect you. When you're ashore, throw it back into the sea.”
 
-But Ulysses did not know what to think. “Alas,” he said to himself in
-his dismay, “this is only some one or other of the gods who is luring
-me to ruin by advising me to quit my raft. At any rate I will not do so
-at present, for the land where she said I should be quit of all
-troubles seemed to be still a good way off. I know what I will do—I am
-sure it will be best—no matter what happens I will stick to the raft as
-long as her timbers hold together, but when the sea breaks her up I
-will swim for it; I do not see how I can do any better than this.”
+She gave him the veil and vanished beneath the waves.
 
-While he was thus in two minds, Neptune sent a terrible great wave that
-seemed to rear itself above his head till it broke right over the raft,
-which then went to pieces as though it were a heap of dry chaff tossed
-about by a whirlwind. Ulysses got astride of one plank and rode upon it
-as if he were on horseback; he then took off the clothes Calypso had
-given him, bound Ino’s veil under his arms, and plunged into the
-sea—meaning to swim on shore. King Neptune watched him as he did so,
-and wagged his head, muttering to himself and saying, “There now, swim
-up and down as you best can till you fall in with well-to-do people. I
-do not think you will be able to say that I have let you off too
-lightly.” On this he lashed his horses and drove to Aegae where his
-palace is.
+Odysseus held it, uncertain. A god had imprisoned him, another was trying to drown him, and now one asked him to abandon the thing keeping him afloat. The shore still seemed impossibly far away.
 
-But Minerva resolved to help Ulysses, so she bound the ways of all the
-winds except one, and made them lie quite still; but she roused a good
-stiff breeze from the North that should lay the waters till Ulysses
-reached the land of the Phaeacians where he would be safe.
+He would stay with the raft while it held together. If it broke, then he would swim.
 
-Thereon he floated about for two nights and two days in the water, with
-a heavy swell on the sea and death staring him in the face; but when
-the third day broke, the wind fell and there was a dead calm without so
-much as a breath of air stirring. As he rose on the swell he looked
-eagerly ahead, and could see land quite near. Then, as children rejoice
-when their dear father begins to get better after having for a long
-time borne sore affliction sent him by some angry spirit, but the gods
-deliver him from evil, so was Ulysses thankful when he again saw land
-and trees, and swam on with all his strength that he might once more
-set foot upon dry ground. When, however, he got within earshot, he
-began to hear the surf thundering up against the rocks, for the swell
-still broke against them with a terrific roar. Everything was enveloped
-in spray; there were no harbours where a ship might ride, nor shelter
-of any kind, but only headlands, low-lying rocks, and mountain tops.
+Poseidon sent a wave that rose above him and fell upon the timbers. The raft burst apart. Odysseus caught a plank between his legs, stripped away Calypso's clothes, bound the veil beneath his arms, and slipped into the water.
 
-Ulysses’ heart now began to fail him, and he said despairingly to
-himself, “Alas, Jove has let me see land after swimming so far that I
-had given up all hope, but I can find no landing place, for the coast
-is rocky and surf-beaten, the rocks are smooth and rise sheer from the
-sea, with deep water close under them so that I cannot climb out for
-want of foot hold. I am afraid some great wave will lift me off my legs
-and dash me against the rocks as I leave the water—which would give me
-a sorry landing. If, on the other hand, I swim further in search of
-some shelving beach or harbour, a hurricane may carry me out to sea
-again sorely against my will, or heaven may send some great monster of
-the deep to attack me; for Amphitrite breeds many such, and I know that
-Neptune is very angry with me.”
+The sea god watched him struggle, satisfied that escape would not be easy. Then he drove away to his own halls. Athena stilled the battling winds and left a north wind to ease the sea towards the Phaeacian shore.
 
-While he was thus in two minds a wave caught him and took him with such
-force against the rocks that he would have been smashed and torn to
-pieces if Minerva had not shown him what to do. He caught hold of the
-rock with both hands and clung to it groaning with pain till the wave
-retired, so he was saved that time; but presently the wave came on
-again and carried him back with it far into the sea—tearing his hands
-as the suckers of a polypus are torn when some one plucks it from its
-bed, and the stones come up along with it—even so did the rocks tear
-the skin from his strong hands, and then the wave drew him deep down
-under the water.
+For two nights and two days Odysseus drifted and swam. By the third morning, the wind had fallen. As the swell lifted him, he could make out trees on land. He put his remaining strength into reaching them.
 
-Here poor Ulysses would have certainly perished even in spite of his
-own destiny, if Minerva had not helped him to keep his wits about him.
-He swam seaward again, beyond reach of the surf that was beating
-against the land, and at the same time he kept looking towards the
-shore to see if he could find some haven, or a spit that should take
-the waves aslant. By and by, as he swam on, he came to the mouth of a
-river, and here he thought would be the best place, for there were no
-rocks, and it afforded shelter from the wind. He felt that there was a
-current, so he prayed inwardly and said:
+Then he heard the surf.
 
-“Hear me, O King, whoever you may be, and save me from the anger of the
-sea-god Neptune, for I approach you prayerfully. Any one who has lost
-his way has at all times a claim even upon the gods, wherefore in my
-distress I draw near to your stream, and cling to the knees of your
-riverhood. Have mercy upon me, O king, for I declare myself your
-suppliant.”
+There was no beach before him. Water struck steep rock and burst upward in spray. He could not find a place to set his feet. If he tried to climb, a wave could throw him against the cliff. If he swam farther, the sea might carry him away again. He feared the creatures beneath it as well as the god above it.
 
-Then the god staid his stream and stilled the waves, making all calm
-before him, and bringing him safely into the mouth of the river. Here
-at last Ulysses’ knees and strong hands failed him, for the sea had
-completely broken him. His body was all swollen, and his mouth and
-nostrils ran down like a river with sea-water, so that he could neither
-breathe nor speak, and lay swooning from sheer exhaustion; presently,
-when he had got his breath and came to himself again, he took off the
-scarf that Ino had given him and threw it back into the salt54 stream
-of the river, whereon Ino received it into her hands from the wave that
-bore it towards her. Then he left the river, laid himself down among
-the rushes, and kissed the bounteous earth.
+A wave made the choice for him, driving him towards the stone. Athena gave him the thought to catch hold. He clung with both hands until the water withdrew. The next surge tore him loose, stripping his palms and pulling him under.
 
-“Alas,” he cried to himself in his dismay, “what ever will become of
-me, and how is it all to end? If I stay here upon the river bed through
-the long watches of the night, I am so exhausted that the bitter cold
-and damp may make an end of me—for towards sunrise there will be a keen
-wind blowing from off the river. If, on the other hand, I climb the
-hill side, find shelter in the woods, and sleep in some thicket, I may
-escape the cold and have a good night’s rest, but some savage beast may
-take advantage of me and devour me.”
+When he surfaced, he did not make another rush at the same rocks. With Athena keeping his thoughts clear, he swam beyond the breaking water and searched along the coast.
 
-In the end he deemed it best to take to the woods, and he found one
-upon some high ground not far from the water. There he crept beneath
-two shoots of olive that grew from a single stock—the one an ungrafted
-sucker, while the other had been grafted. No wind, however squally,
-could break through the cover they afforded, nor could the sun’s rays
-pierce them, nor the rain get through them, so closely did they grow
-into one another. Ulysses crept under these and began to make himself a
-bed to lie on, for there was a great litter of dead leaves lying
-about—enough to make a covering for two or three men even in hard
-winter weather. He was glad enough to see this, so he laid himself down
-and heaped the leaves all round him. Then, as one who lives alone in
-the country, far from any neighbor, hides a brand as fire-seed in the
-ashes to save himself from having to get a light elsewhere, even so did
-Ulysses cover himself up with leaves; and Minerva shed a sweet sleep
-upon his eyes, closed his eyelids, and made him lose all memories of
-his sorrows.
+At last he found a river mouth. There were no cliffs across its entrance, and it lay sheltered from the wind. But the current ran against him. He addressed the god of that river, though he did not know its name.
+
+“Let me come in. I've escaped the sea only to reach your water. I have nothing left.”
+
+The river slowed. The water quieted, and he was carried into its mouth. His knees gave way as soon as he reached the shallows. He lay swollen and salt-filled, unable for a time to speak or draw a proper breath.
+
+When he could move again, he untied Ino's veil. He cast it into the stream, and the water bore it back to the goddess. Then he crawled among the reeds and kissed the ground.
+
+He could not stay at the river all night. Cold and damp might finish what the sea had begun. Yet the woods might shelter wild animals. He weighed one danger against the other, then climbed towards the trees.
+
+Two olive growths intertwined above a deep fall of leaves. Wind and rain could scarcely reach beneath them. Odysseus crept inside, made a bed and covered his naked body with leaves, like a man preserving a spark beneath ashes.
+
+Athena closed his eyes in sleep and let him forget his suffering.

@@ -2,29 +2,21 @@ schema_version: 1
 required: true
 sources:
   - url: "https://www.gutenberg.org/ebooks/1727"
-    authority: "Project Gutenberg edition catalogue"
-    claims:
-      - "The imported English source is ebook 1727, translated by Samuel Butler, whose life dates are 1835–1902. The catalogue marks this edition public domain in the USA."
+    authority: "Project Gutenberg catalogue, opened 2026-10-11"
+    claims: ["Ebook 1727 names Homer and translator Samuel Butler and records US public-domain status."]
   - url: "https://www.gutenberg.org/files/1727/1727-h/1727-h.htm"
-    authority: "Samuel Butler translation, with the 1921 second-edition preface by Henry Festing Jones"
-    claims:
-      - "The source contains twenty-four books, two edition prefaces, a dedication, and numbered translator notes."
-      - "The second-edition preface dates Butler's original translation to 1900 and distinguishes the 1921 edition's corrections."
-  - url: "https://onlinebooks.library.upenn.edu/webbin/work?id=olbp101204"
-    authority: "University of Pennsylvania Libraries, The Online Books Page"
-    claims:
-      - "The catalogue independently identifies Butler's 1900 prose translation and the Gutenberg transcription based on the 1921 second edition."
+    authority: "Primary plot source, Butler's 1900 translation in the 1921 second edition, Book IV"
+    claims: ["The complete Book IV supplies the Trojan recollections, Proteus account, gifts, murder plot and Penelope's dream; the prefaces identify the edition."]
   - url: "https://www.getty.edu/cona/CONAIconographyRecord.aspx?iconid=901000730"
-    authority: "Getty Research Institute, Cultural Objects Names Authority"
-    claims:
-      - "The Odyssey is an ancient Greek epic in twenty-four books traditionally attributed to Homer; the authority record dates it to the end of the eighth century BCE and gives its Greek title."
+    authority: "Getty Research Institute, CONA record 901000730, opened 2026-10-11"
+    claims: ["The Odyssey is a twenty-four-book ancient Greek epic traditionally attributed to Homer."]
   - url: "https://www.metmuseum.org/perspectives/discovering-homer-odyssey"
-    authority: "The Metropolitan Museum of Art, Department of Greek and Roman Art"
-    claims:
-      - "The museum places the poem's composition around the eighth century BCE and describes its oral performance tradition."
+    authority: "The Metropolitan Museum of Art, Department of Greek and Roman Art, opened 2026-10-11"
+    claims: ["Independent evidence for Greek origin and oral performance."]
 notes:
-  - "Import consulted on 2026-10-11. Exact UTF-8 source SHA-256: ffbdb29c3dda284b65c11243db1a98167826a70c81bca2ed4b6232f86c905fb9."
-  - "Only the Gutenberg wrapper, redundant title and contents listing, and empty illustration placeholder are excluded. Section headings become Markdown titles. All section prose, notes, punctuation, and paragraph boundaries are retained."
-  - "The poem is ancient Greek myth traditionally attributed to Homer. The original date is approximate; supernatural events and divine actions are literary content, not verified historical or scientific claims."
-  - "The prefaces and notes preserve the named editors' historical interpretations, including Butler's disputed authorship and geography theories. These are source-edition opinions, not HaiLibrary assertions."
-  - "The modern Chinese rendering is newly authored from this public-domain English edition; no modern published Chinese translation or screen adaptation is used."
+  - "Exact local source: git show 1208d108:works/series/the-odyssey/the-odyssey-04/locales/en-US/article.md, read in full, including the complete Proteus and Penelope sections."
+  - "User task exception: this compressed HaiLibrary reading edition retains classic and the published author Homer / 荷马. Both locale Writers remain homer. Neither new English nor new Chinese is a verbatim imported translation, and absent source_url/translator fields avoid such a claim. Front matter and numbered footnotes are excluded; no unabridged claim is made."
+  - "Retained: double wedding and angry hospitality rebuke; recognition and tears; Menelaus's intended sacking of a subject city to house Odysseus; Egyptian drug's supernatural suppression of grief even at violent family deaths; Odysseus wounding himself for disguise, Helen's secrecy oath, killings and escape; her longing for husband/daughter and blame of Aphrodite; her contradictory horse impersonation with Deiphobus, restrained warriors and Anticlus's silencing; predicted death of suitors; Pharos hunger, Idothea, four seal skins, ambrosia and unrelenting hold through transformations; required Egypt sacrifices; Ajax's boast and drowning; paid lookout, twenty-man banquet trap and deaths of all followers on both sides; Menelaus's grief, Orestes possibility, living captive Odysseus and Elysium; memorial and gifts; Noemon's information, Mentor double appearance, twenty-man murder ambush; Medon's warning, mother's threat to prevent departure or die, nurse's exposure to being killed, oath and beauty rationale; prayer, dream protection, refusal of husband's news and Asteris."
+  - "Compressed: wedding ancestries beyond names and marriages, luxury inventories, Menelaus's agricultural/travel catalogue, Proteus's individual animal forms, repeated meal/ritual directions, exact ship equipment, Noemon's mule-breeding business and Iphthime's marriage location. No new resolution of Helen's ambiguous conduct is supplied."
+  - "Claim inventory: provenance is documentary. Drugs, divine transformations, ambrosia, prophecy and dream protection are declared myth, with no real plant or treatment claim. Menelaus reports Proteus's sighting; it is not his own eyewitness view of Odysseus. Penelope does not know the Sparta report. Terrain remarks serve the inherited gift choice, not measured geography. Threats and coercion remain attributed narrative conduct."
+  - "Removed invented cup movements, Helen's silent response and the mistaken claim that this is the first assurance of survival after Athena's Book I statement. Scripts use their own final locale source. No media changes."

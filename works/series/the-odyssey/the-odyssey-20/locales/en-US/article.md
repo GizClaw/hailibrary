@@ -1,351 +1,95 @@
-# BOOK XX
+# Thunder Before the Feast
 
-ULYSSES CANNOT SLEEP—PENELOPE’S PRAYER TO DIANA—THE TWO SIGNS FROM
-HEAVEN—EUMAEUS AND PHILOETIUS ARRIVE—THE SUITORS DINE—CTESIPPUS THROWS
-AN OX’S FOOT AT ULYSSES—THEOCLYMENUS FORETELLS DISASTER AND LEAVES THE
-HOUSE.
+Odysseus could not find a comfortable place on the skins laid out for him. Each time he turned, he heard another sound from the house: a woman's laugh, footsteps, a door being opened for one of the suitors.
 
+The women were going to sleep with the suitors. He considered getting up and killing every one of them at once, or allowing them this last night. Then he struck his chest and held himself back.
 
-Ulysses slept in the cloister upon an undressed bullock’s hide, on the
-top of which he threw several skins of the sheep the suitors had eaten,
-and Eurynome156 threw a cloak over him after he had laid himself down.
-There, then, Ulysses lay wakefully brooding upon the way in which he
-should kill the suitors; and by and by, the women who had been in the
-habit of misconducting themselves with them, left the house giggling
-and laughing with one another. This made Ulysses very angry, and he
-doubted whether to get up and kill every single one of them then and
-there, or to let them sleep one more and last time with the suitors.
-His heart growled within him, and as a bitch with puppies growls and
-shows her teeth when she sees a stranger, so did his heart growl with
-anger at the evil deeds that were being done: but he beat his breast
-and said, “Heart, be still, you had worse than this to bear on the day
-when the terrible Cyclops ate your brave companions; yet you bore it in
-silence till your cunning got you safe out of the cave, though you made
-sure of being killed.”
+Wait, he told himself. He had waited in the Cyclops's cave while his companions died. Anger had not got him out. A plan had.
 
-Thus he chided with his heart, and checked it into endurance, but he
-tossed about as one who turns a paunch full of blood and fat in front
-of a hot fire, doing it first on one side and then on the other, that
-he may get it cooked as soon as possible, even so did he turn himself
-about from side to side, thinking all the time how, single handed as he
-was, he should contrive to kill so large a body of men as the wicked
-suitors. But by and by Minerva came down from heaven in the likeness of
-a woman, and hovered over his head saying, “My poor unhappy man, why do
-you lie awake in this way? This is your house: your wife is safe inside
-it, and so is your son who is just such a young man as any father may
-be proud of.”
+Athena came to him in the shape of a woman. He could see her beside his rough bed.
 
-“Goddess,” answered Ulysses, “all that you have said is true, but I am
-in some doubt as to how I shall be able to kill these wicked suitors
-single handed, seeing what a number of them there always are. And there
-is this further difficulty, which is still more considerable. Supposing
-that with Jove’s and your assistance I succeed in killing them, I must
-ask you to consider where I am to escape to from their avengers when it
-is all over.”
+“You're home,” she said. “Your wife is here. Your son is here. Why are you still awake?”
 
-“For shame,” replied Minerva, “why, any one else would trust a worse
-ally than myself, even though that ally were only a mortal and less
-wise than I am. Am I not a goddess, and have I not protected you
-throughout in all your troubles? I tell you plainly that even though
-there were fifty bands of men surrounding us and eager to kill us, you
-should take all their sheep and cattle, and drive them away with you.
-But go to sleep; it is a very bad thing to lie awake all night, and you
-shall be out of your troubles before long.”
+“There are so many of them.” He glanced toward the house. “Suppose we do win. Every dead man has someone who will come looking for him.”
 
-As she spoke she shed sleep over his eyes, and then went back to
-Olympus.
+Athena told him she would stand beside him. He had trusted human allies with less reason for confidence, she reminded him. Even if fifty bands surrounded them, she promised, he would escape with their cattle. She laid him in a deep sleep, then returned to Olympus.
 
-While Ulysses was thus yielding himself to a very deep slumber that
-eased the burden of his sorrows, his admirable wife awoke, and sitting
-up in her bed began to cry. When she had relieved herself by weeping
-she prayed to Diana saying, “Great Goddess Diana, daughter of Jove,
-drive an arrow into my heart and slay me; or let some whirlwind snatch
-me up and bear me through paths of darkness till it drop me into the
-mouths of over-flowing Oceanus, as it did the daughters of Pandareus.
-The daughters of Pandareus lost their father and mother, for the gods
-killed them, so they were left orphans. But Venus took care of them,
-and fed them on cheese, honey, and sweet wine. Juno taught them to
-excel all women in beauty of form and understanding; Diana gave them an
-imposing presence, and Minerva endowed them with every kind of
-accomplishment; but one day when Venus had gone up to Olympus to see
-Jove about getting them married (for well does he know both what shall
-happen and what not happen to every one) the storm winds came and
-spirited them away to become handmaids to the dread Erinyes. Even so I
-wish that the gods who live in heaven would hide me from mortal sight,
-or that fair Diana might strike me, for I would fain go even beneath
-the sad earth if I might do so still looking towards Ulysses only, and
-without having to yield myself to a worse man than he was. Besides, no
-matter how much people may grieve by day, they can put up with it so
-long as they can sleep at night, for when the eyes are closed in
-slumber people forget good and ill alike; whereas my misery haunts me
-even in my dreams. This very night methought there was one lying by my
-side who was like Ulysses as he was when he went away with his host,
-and I rejoiced, for I believed that it was no dream, but the very truth
-itself.”
+Upstairs, Penelope woke from a dream in which her husband lay beside her as he had looked before leaving for Troy. She had believed it real. Weeping, she prayed to Artemis to shoot an arrow into her heart or let a whirlwind carry her away into the Ocean. She recalled the daughters of Pandareus, raised by goddesses after the gods killed their parents. While Aphrodite went to Zeus to arrange their marriages, storm winds stole them to serve the Furies. She would rather go beneath the earth still devoted to Odysseus than yield to a lesser man. Not even sleep freed her from sorrow.
 
-On this the day broke, but Ulysses heard the sound of her weeping, and
-it puzzled him, for it seemed as though she already knew him and was by
-his side. Then he gathered up the cloak and the fleeces on which he had
-lain, and set them on a seat in the cloister, but he took the bullock’s
-hide out into the open. He lifted up his hands to heaven, and prayed,
-saying “Father Jove, since you have seen fit to bring me over land and
-sea to my own home after all the afflictions you have laid upon me,
-give me a sign out of the mouth of some one or other of those who are
-now waking within the house, and let me have another sign of some kind
-from outside.”
+As daylight began to enter the house, Odysseus heard her crying. For a moment he felt as if she had recognized him and was beside him. He gathered his bedding and asked Zeus for a sign: something from the sky, and something a person in the house would say.
 
-Thus did he pray. Jove heard his prayer and forthwith thundered high up
-among the clouds from the splendour of Olympus, and Ulysses was glad
-when he heard it. At the same time within the house, a miller-woman
-from hard by in the mill room lifted up her voice and gave him another
-sign. There were twelve miller-women whose business it was to grind
-wheat and barley which are the staff of life. The others had ground
-their task and had gone to take their rest, but this one had not yet
-finished, for she was not so strong as they were, and when she heard
-the thunder she stopped grinding and gave the sign to her master.
-“Father Jove,” said she, “you, who rule over heaven and earth, you have
-thundered from a clear sky without so much as a cloud in it, and this
-means something for somebody; grant the prayer, then, of me your poor
-servant who calls upon you, and let this be the very last day that the
-suitors dine in the house of Ulysses. They have worn me out with labour
-of grinding meal for them, and I hope they may never have another
-dinner anywhere at all.”
+Thunder rolled overhead.
 
-Ulysses was glad when he heard the omens conveyed to him by the woman’s
-speech, and by the thunder, for he knew they meant that he should
-avenge himself on the suitors.
+From the room where the grain was ground, a tired woman answered it. The other workers had finished, but she was still turning the mill. She stopped at the unexpected sound.
 
-Then the other maids in the house rose and lit the fire on the hearth;
-Telemachus also rose and put on his clothes. He girded his sword about
-his shoulder, bound his sandals on to his comely feet, and took a
-doughty spear with a point of sharpened bronze; then he went to the
-threshold of the cloister and said to Euryclea, “Nurse, did you make
-the stranger comfortable both as regards bed and board, or did you let
-him shift for himself?—for my mother, good woman though she is, has a
-way of paying great attention to second-rate people, and of neglecting
-others who are in reality much better men.”
+“Zeus, thunder from a clear sky must mean something. Let this be their last meal here. They've worn me out. Let them never eat another dinner anywhere.”
 
-“Do not find fault child,” said Euryclea, “when there is no one to find
-fault with. The stranger sat and drank his wine as long as he liked:
-your mother did ask him if he would take any more bread and he said he
-would not. When he wanted to go to bed she told the servants to make
-one for him, but he said he was such a wretched outcast that he would
-not sleep on a bed and under blankets; he insisted on having an
-undressed bullock’s hide and some sheepskins put for him in the
-cloister and I threw a cloak over him myself.”157
+Odysseus welcomed the thunder and her words as the signs he had requested. To him they promised revenge.
 
-Then Telemachus went out of the court to the place where the Achaeans
-were meeting in assembly; he had his spear in his hand, and he was not
-alone, for his two dogs went with him. But Euryclea called the maids
-and said, “Come, wake up; set about sweeping the cloisters and
-sprinkling them with water to lay the dust; put the covers on the
-seats; wipe down the tables, some of you, with a wet sponge; clean out
-the mixing-jugs and the cups, and go for water from the fountain at
-once; the suitors will be here directly; they will be here early, for
-it is a feast day.”
+The house began preparing for the feast. Water had to be fetched, tables wiped, wood brought in. Telemachus asked Euryclea whether the guest had been looked after. His mother had offered him a bed, the nurse said. The man had chosen to sleep where he was.
 
-Thus did she speak, and they did even as she had said: twenty of them
-went to the fountain for water, and the others set themselves busily to
-work about the house. The men who were in attendance on the suitors
-also came up and began chopping firewood. By and by the women returned
-from the fountain, and the swineherd came after them with the three
-best pigs he could pick out. These he let feed about the premises, and
-then he said good-humouredly to Ulysses, “Stranger, are the suitors
-treating you any better now, or are they as insolent as ever?”
+Soon Eumaeus arrived with pigs. He found the stranger and asked how the men had treated him. Melanthius came with goats, ordered the beggar elsewhere, and threatened that they would settle their disagreement with their fists. Odysseus lowered his head and did not answer.
 
-“May heaven,” answered Ulysses, “requite to them the wickedness with
-which they deal high-handedly in another man’s house without any sense
-of shame.”
+Odysseus said little. He was learning who could be trusted when no reward seemed possible.
 
-Thus did they converse; meanwhile Melanthius the goatherd came up, for
-he too was bringing in his best goats for the suitors’ dinner; and he
-had two shepherds with him. They tied the goats up under the gatehouse,
-and then Melanthius began gibing at Ulysses. “Are you still here,
-stranger,” said he, “to pester people by begging about the house? Why
-can you not go elsewhere? You and I shall not come to an understanding
-before we have given each other a taste of our fists. You beg without
-any sense of decency: are there not feasts elsewhere among the
-Achaeans, as well as here?”
+The cowherd Philoetius arrived next, bringing cattle and goats. He looked at the ragged guest for a long time, then took his hand.
 
-Ulysses made no answer, but bowed his head and brooded. Then a third
-man, Philoetius, joined them, who was bringing in a barren heifer and
-some goats. These were brought over by the boatmen who are there to
-take people over when any one comes to them. So Philoetius made his
-heifer and his goats secure under the gatehouse, and then went up to
-the swineherd. “Who, Swineherd,” said he, “is this stranger that is
-lately come here? Is he one of your men? What is his family? Where does
-he come from? Poor fellow, he looks as if he had been some great man,
-but the gods give sorrow to whom they will—even to kings if it so
-pleases them.”
+“My master might look like you now,” he said. “If he's alive.”
 
-As he spoke he went up to Ulysses and saluted him with his right hand;
-“Good day to you, father stranger,” said he, “you seem to be very
-poorly off now, but I hope you will have better times by and by. Father
-Jove, of all gods you are the most malicious. We are your own children,
-yet you show us no mercy in all our misery and afflictions. A sweat
-came over me when I saw this man, and my eyes filled with tears, for he
-reminds me of Ulysses, who I fear is going about in just such rags as
-this man’s are, if indeed he is still among the living. If he is
-already dead and in the house of Hades, then, alas! for my good master,
-who made me his stockman when I was quite young among the
-Cephallenians, and now his cattle are countless; no one could have done
-better with them than I have, for they have bred like ears of corn;
-nevertheless I have to keep bringing them in for others to eat, who
-take no heed to his son though he is in the house, and fear not the
-wrath of heaven, but are already eager to divide Ulysses’ property
-among them because he has been away so long. I have often thought—only
-it would not be right while his son is living—of going off with the
-cattle to some foreign country; bad as this would be, it is still
-harder to stay here and be ill-treated about other people’s herds. My
-position is intolerable, and I should long since have run away and put
-myself under the protection of some other chief, only that I believe my
-poor master will yet return, and send all these suitors flying out of
-the house.”
+He had been a boy when Odysseus put him in charge of the cattle. Since then the herds had grown, but their owner had never come home to see them. Now animals were being brought in to feed men who cared nothing for him or his son.
 
-“Stockman,” answered Ulysses, “you seem to be a very well-disposed
-person, and I can see that you are a man of sense. Therefore I will
-tell you, and will confirm my words with an oath. By Jove, the chief of
-all gods, and by that hearth of Ulysses to which I am now come, Ulysses
-shall return before you leave this place, and if you are so minded you
-shall see him killing the suitors who are now masters here.”
+“I've thought of taking the cattle and finding somewhere else to go,” Philoetius said. “Then I think of Telemachus. How could I leave him with nothing? So I stay, and hope his father turns up.”
 
-“If Jove were to bring this to pass,” replied the stockman, “you should
-see how I would do my very utmost to help him.”
+The stranger held his gaze.
 
-And in like manner Eumaeus prayed that Ulysses might return home.
+“By Zeus and this hearth, before you leave here, Odysseus will return. Stay, and you'll see him killing these suitors.”
 
-Thus did they converse. Meanwhile the suitors were hatching a plot to
-murder Telemachus: but a bird flew near them on their left hand—an
-eagle with a dove in its talons. On this Amphinomus said, “My friends,
-this plot of ours to murder Telemachus will not succeed; let us go to
-dinner instead.”
+“I'd like to be here for that. He'd find I could still fight.”
 
-The others assented, so they went inside and laid their cloaks on the
-benches and seats. They sacrificed the sheep, goats, pigs, and the
-heifer, and when the inward meats were cooked they served them round.
-They mixed the wine in the mixing-bowls, and the swineherd gave every
-man his cup, while Philoetius handed round the bread in the bread
-baskets, and Melanthius poured them out their wine. Then they laid
-their hands upon the good things that were before them.
+Eumaeus shared the wish. Odysseus kept his identity to himself. These men had said what he needed to hear without knowing who was listening.
 
-Telemachus purposely made Ulysses sit in the part of the cloister that
-was paved with stone;158 he gave him a shabby looking seat at a little
-table to himself, and had his portion of the inward meats brought to
-him, with his wine in a gold cup. “Sit there,” said he, “and drink your
-wine among the great people. I will put a stop to the gibes and blows
-of the suitors, for this is no public house, but belongs to Ulysses,
-and has passed from him to me. Therefore, suitors, keep your hands and
-your tongues to yourselves, or there will be mischief.”
+Outside, the suitors had again been talking about killing Telemachus. Then an eagle flew on their left with a dove in its claws. Amphinomus took the bird's appearance as a warning. He persuaded the others to leave the plan alone for the moment and attend the feast.
 
-The suitors bit their lips, and marvelled at the boldness of his
-speech; then Antinous said, “We do not like such language but we will
-put up with it, for Telemachus is threatening us in good earnest. If
-Jove had let us we should have put a stop to his brave talk ere now.”
+It was a day sacred to Apollo. Meat was roasting, cups were being filled, and the suitors took their places as confidently as ever. Telemachus put a simple chair and a small table near the doorway for the guest. He made sure his father received a proper portion of food.
 
-Thus spoke Antinous, but Telemachus heeded him not. Meanwhile the
-heralds were bringing the holy hecatomb through the city, and the
-Achaeans gathered under the shady grove of Apollo.
+“This man is here under my protection,” he told the room. “He'll have his meal in peace.”
 
-Then they roasted the outer meat, drew it off the spits, gave every man
-his portion, and feasted to their heart’s content; those who waited at
-table gave Ulysses exactly the same portion as the others had, for
-Telemachus had told them to do so.
+The men bit their lips. Antinous said they would endure his orders, though they disliked them. If Zeus had allowed it, they would already have silenced him. Telemachus ignored him. Athena meanwhile stirred their insolence, wanting Odysseus's anger to grow.
 
-But Minerva would not let the suitors for one moment drop their
-insolence, for she wanted Ulysses to become still more bitter against
-them. Now there happened to be among them a ribald fellow, whose name
-was Ctesippus, and who came from Same. This man, confident in his great
-wealth, was paying court to the wife of Ulysses, and said to the
-suitors, “Hear what I have to say. The stranger has already had as
-large a portion as any one else; this is well, for it is not right nor
-reasonable to ill-treat any guest of Telemachus who comes here. I will,
-however, make him a present on my own account, that he may have
-something to give to the bath-woman, or to some other of Ulysses’
-servants.”
+Ctesippus decided to turn the order into a joke. He came from a rich family and had never been careful about what he said to people he could afford to insult.
 
-As he spoke he picked up a heifer’s foot from the meat-basket in which
-it lay, and threw it at Ulysses, but Ulysses turned his head a little
-aside, and avoided it, smiling grimly Sardinian fashion159 as he did
-so, and it hit the wall, not him. On this Telemachus spoke fiercely to
-Ctesippus, “It is a good thing for you,” said he, “that the stranger
-turned his head so that you missed him. If you had hit him I should
-have run you through with my spear, and your father would have had to
-see about getting you buried rather than married in this house. So let
-me have no more unseemly behaviour from any of you, for I am grown up
-now to the knowledge of good and evil and understand what is going on,
-instead of being the child that I have been heretofore. I have long
-seen you killing my sheep and making free with my corn and wine: I have
-put up with this, for one man is no match for many, but do me no
-further violence. Still, if you wish to kill me, kill me; I would far
-rather die than see such disgraceful scenes day after day—guests
-insulted, and men dragging the women servants about the house in an
-unseemly way.”
+“A guest deserves a gift too,” he announced. “Here's mine.”
 
-They all held their peace till at last Agelaus son of Damastor said,
-“No one should take offence at what has just been said, nor gainsay it,
-for it is quite reasonable. Leave off, therefore, ill-treating the
-stranger, or any one else of the servants who are about the house; I
-would say, however, a friendly word to Telemachus and his mother, which
-I trust may commend itself to both. ‘As long,’ I would say, ‘as you had
-ground for hoping that Ulysses would one day come home, no one could
-complain of your waiting and suffering160 the suitors to be in your
-house. It would have been better that he should have returned, but it
-is now sufficiently clear that he will never do so; therefore talk all
-this quietly over with your mother, and tell her to marry the best man,
-and the one who makes her the most advantageous offer. Thus you will
-yourself be able to manage your own inheritance, and to eat and drink
-in peace, while your mother will look after some other man’s house, not
-yours.’”
+He snatched up an ox's hoof and flung it across the hall.
 
-To this Telemachus answered, “By Jove, Agelaus, and by the sorrows of
-my unhappy father, who has either perished far from Ithaca, or is
-wandering in some distant land, I throw no obstacles in the way of my
-mother’s marriage; on the contrary I urge her to choose whomsoever she
-will, and I will give her numberless gifts into the bargain, but I dare
-not insist point blank that she shall leave the house against her own
-wishes. Heaven forbid that I should do this.”
+Odysseus moved his head. The hoof struck the wall behind him. He did not get up.
 
-Minerva now made the suitors fall to laughing immoderately, and set
-their wits wandering; but they were laughing with a forced laughter.
-Their meat became smeared with blood; their eyes filled with tears, and
-their hearts were heavy with forebodings. Theoclymenus saw this and
-said, “Unhappy men, what is it that ails you? There is a shroud of
-darkness drawn over you from head to foot, your cheeks are wet with
-tears; the air is alive with wailing voices; the walls and roof-beams
-drip blood; the gate of the cloisters and the court beyond them are
-full of ghosts trooping down into the night of hell; the sun is blotted
-out of heaven, and a blighting gloom is over all the land.”
+Telemachus did.
 
-Thus did he speak, and they all of them laughed heartily. Eurymachus
-then said, “This stranger who has lately come here has lost his senses.
-Servants, turn him out into the streets, since he finds it so dark
-here.”
+“It's lucky for you that he moved. I would have put a spear through you. You wouldn't be planning a wedding then.”
 
-But Theoclymenus said, “Eurymachus, you need not send any one with me.
-I have eyes, ears, and a pair of feet of my own, to say nothing of an
-understanding mind. I will take these out of the house with me, for I
-see mischief overhanging you, from which not one of you men who are
-insulting people and plotting ill deeds in the house of Ulysses will be
-able to escape.”
+Nobody answered immediately. Telemachus looked from one face to another.
 
-He left the house as he spoke, and went back to Piraeus who gave him
-welcome, but the suitors kept looking at one another and provoking
-Telemachus by laughing at the strangers. One insolent fellow said to
-him, “Telemachus, you are not happy in your guests; first you have this
-importunate tramp, who comes begging bread and wine and has no skill
-for work or for hard fighting, but is perfectly useless, and now here
-is another fellow who is setting himself up as a prophet. Let me
-persuade you, for it will be much better to put them on board ship and
-send them off to the Sicels to sell for what they will bring.”
+“You've eaten our animals and emptied our stores. I endured it, being one against so many. But if you mean to kill me, do it. I'd rather die than watch guests beaten and women dragged about this house.”
 
-Telemachus gave him no heed, but sat silently watching his father,
-expecting every moment that he would begin his attack upon the suitors.
+Agelaus told them to stop mistreating guests and servants, but urged Telemachus to speak to his mother. Surely, he argued, it was now clear Odysseus would never return. She should marry the best suitor, and the son could enjoy his inheritance in peace.
 
-Meanwhile the daughter of Icarius, wise Penelope, had had a rich seat
-placed for her facing the court and cloisters, so that she could hear
-what every one was saying. The dinner indeed had been prepared amid
-much merriment; it had been both good and abundant, for they had
-sacrificed many victims; but the supper was yet to come, and nothing
-can be conceived more gruesome than the meal which a goddess and a
-brave man were soon to lay before them—for they had brought their doom
-upon themselves.
+Telemachus said he encouraged his mother to choose and would give her gifts if she married. But he would not order her out against her will.
+
+Then the laughter began again. It grew louder and stranger. Athena had brought a terrible confusion over the men. Their laughter was forced, the meat was smeared with blood, and tears filled their eyes. Their hearts grew heavy with foreboding.
+
+The seer Theoclymenus stood up. He stared at the people before him as though the room had changed.
+
+“Darkness covers you from head to foot,” he said. “I hear wailing. The walls and beams drip blood. Ghosts crowd the court and doorway, going down into the dark of Hades. The sun has vanished.”
+
+The suitors laughed at him too. Eurymachus suggested that, if the room seemed so dark, someone should take the prophet outside.
+
+“I have my own eyes, ears, feet, and understanding,” Theoclymenus replied. “I'll take them out of here. None of you will escape the disaster I see coming.”
+
+He went to Piraeus, who welcomed him.
+
+The men turned back to Telemachus. What fine guests he had brought: a useless beggar and a mad prophet. One suggested shipping them to the Sicels to sell. They tried to provoke him, but he no longer answered every insult.
+
+He watched his father instead.
+
+Penelope could hear the feast from her seat nearby. The men went on eating. At the little table by the doorway, Odysseus waited for the bow.

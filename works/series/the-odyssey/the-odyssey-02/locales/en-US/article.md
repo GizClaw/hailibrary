@@ -1,371 +1,91 @@
-# BOOK II
+# A Ship After Dark
 
-ASSEMBLY OF THE PEOPLE OF ITHACA—SPEECHES OF TELEMACHUS AND OF THE
-SUITORS—TELEMACHUS MAKES HIS PREPARATIONS AND STARTS FOR PYLOS WITH
-MINERVA DISGUISED AS MENTOR.
+At dawn Telemachus sent heralds to call the men of Ithaca. It was the first assembly since his father had sailed away.
 
+Telemachus came with a spear and two dogs. Athena gave him a bearing that made even the elders move aside when he took his father's seat.
 
-Now when the child of morning, rosy-fingered Dawn, appeared Telemachus
-rose and dressed himself. He bound his sandals on to his comely feet,
-girded his sword about his shoulder, and left his room looking like an
-immortal god. He at once sent the criers round to call the people in
-assembly, so they called them and the people gathered thereon; then,
-when they were got together, he went to the place of assembly spear in
-hand—not alone, for his two hounds went with him. Minerva endowed him
-with a presence of such divine comeliness that all marvelled at him as
-he went by, and when he took his place in his father’s seat even the
-oldest councillors made way for him.
+Aegyptius, an old man still grieving for a son who had sailed with Odysseus, asked whether an enemy was approaching. His lost son had been eaten by the Cyclops; another of his sons was among the suitors. The herald gave Telemachus the speaking staff.
 
-Aegyptius, a man bent double with age, and of infinite experience, was
-the first to speak. His son Antiphus had gone with Ulysses to Ilius,
-land of noble steeds, but the savage Cyclops had killed him when they
-were all shut up in the cave, and had cooked his last dinner for him.17
-He had three sons left, of whom two still worked on their father’s
-land, while the third, Eurynomus, was one of the suitors; nevertheless
-their father could not get over the loss of Antiphus, and was still
-weeping for him when he began his speech.
+“No army,” Telemachus answered. “The trouble is inside my house.”
 
-“Men of Ithaca,” he said, “hear my words. From the day Ulysses left us
-there has been no meeting of our councillors until now; who then can it
-be, whether old or young, that finds it so necessary to convene us? Has
-he got wind of some host approaching, and does he wish to warn us, or
-would he speak upon some other matter of public moment? I am sure he is
-an excellent person, and I hope Jove will grant him his heart’s
-desire.”
+He told them about the animals slaughtered for the suitors, the wine carried out of the stores, and his mother pressed to choose a husband. Many of the men listening were fathers or relatives of the men doing it. That was why he had come to them.
 
-Telemachus took this speech as of good omen and rose at once, for he
-was bursting with what he had to say. He stood in the middle of the
-assembly and the good herald Pisenor brought him his staff. Then,
-turning to Aegyptius, “Sir,” said he, “it is I, as you will shortly
-learn, who have convened you, for it is I who am the most aggrieved. I
-have not got wind of any host approaching about which I would warn you,
-nor is there any matter of public moment on which I would speak. My
-grievance is purely personal, and turns on two great misfortunes which
-have fallen upon my house. The first of these is the loss of my
-excellent father, who was chief among all you here present, and was
-like a father to every one of you; the second is much more serious, and
-ere long will be the utter ruin of my estate. The sons of all the chief
-men among you are pestering my mother to marry them against her will.
-They are afraid to go to her father Icarius, asking him to choose the
-one he likes best, and to provide marriage gifts for his daughter, but
-day by day they keep hanging about my father’s house, sacrificing our
-oxen, sheep, and fat goats for their banquets, and never giving so much
-as a thought to the quantity of wine they drink. No estate can stand
-such recklessness; we have now no Ulysses to ward off harm from our
-doors, and I cannot hold my own against them. I shall never all my days
-be as good a man as he was, still I would indeed defend myself if I had
-power to do so, for I cannot stand such treatment any longer; my house
-is being disgraced and ruined. Have respect, therefore, to your own
-consciences and to public opinion. Fear, too, the wrath of heaven, lest
-the gods should be displeased and turn upon you. I pray you by Jove and
-Themis, who is the beginning and the end of councils, [do not] hold
-back, my friends, and leave me singlehanded18—unless it be that my
-brave father Ulysses did some wrong to the Achaeans which you would now
-avenge on me, by aiding and abetting these suitors. Moreover, if I am
-to be eaten out of house and home at all, I had rather you did the
-eating yourselves, for I could then take action against you to some
-purpose, and serve you with notices from house to house till I got paid
-in full, whereas now I have no remedy.”19
+“You knew my father. Will you sit here while they use up everything he left?”
 
-With this Telemachus dashed his staff to the ground and burst into
-tears. Every one was very sorry for him, but they all sat still and no
-one ventured to make him an angry answer, save only Antinous, who spoke
-thus:
+He threw the staff to the ground and began to cry. The men pitied him but remained silent.
 
-“Telemachus, insolent braggart that you are, how dare you try to throw
-the blame upon us suitors? It is your mother’s fault not ours, for she
-is a very artful woman. This three years past, and close on four, she
-had been driving us out of our minds, by encouraging each one of us,
-and sending him messages without meaning one word of what she says. And
-then there was that other trick she played us. She set up a great
-tambour frame in her room, and began to work on an enormous piece of
-fine needlework. ‘Sweet hearts,’ said she, ‘Ulysses is indeed dead,
-still do not press me to marry again immediately, wait—for I would not
-have skill in needlework perish unrecorded—till I have completed a pall
-for the hero Laertes, to be in readiness against the time when death
-shall take him. He is very rich, and the women of the place will talk
-if he is laid out without a pall.’
+Antinous rose.
 
-“This was what she said, and we assented; whereon we could see her
-working on her great web all day long, but at night she would unpick
-the stitches again by torchlight. She fooled us in this way for three
-years and we never found her out, but as time wore on and she was now
-in her fourth year, one of her maids who knew what she was doing told
-us, and we caught her in the act of undoing her work, so she had to
-finish it whether she would or no. The suitors, therefore, make you
-this answer, that both you and the Achaeans may understand—‘Send your
-mother away, and bid her marry the man of her own and of her father’s
-choice’; for I do not know what will happen if she goes on plaguing us
-much longer with the airs she gives herself on the score of the
-accomplishments Minerva has taught her, and because she is so clever.
-We never yet heard of such a woman; we know all about Tyro, Alcmena,
-Mycene, and the famous women of old, but they were nothing to your
-mother any one of them. It was not fair of her to treat us in that way,
-and as long as she continues in the mind with which heaven has now
-endowed her, so long shall we go on eating up your estate; and I do not
-see why she should change, for she gets all the honour and glory, and
-it is you who pay for it, not she. Understand, then, that we will not
-go back to our lands, neither here nor elsewhere, till she has made her
-choice and married some one or other of us.”
+“Ask your mother why we are still waiting.”
 
-Telemachus answered, “Antinous, how can I drive the mother who bore me
-from my father’s house? My father is abroad and we do not know whether
-he is alive or dead. It will be hard on me if I have to pay Icarius the
-large sum which I must give him if I insist on sending his daughter
-back to him. Not only will he deal rigorously with me, but heaven will
-also punish me; for my mother when she leaves the house will call on
-the Erinyes to avenge her; besides, it would not be a creditable thing
-to do, and I will have nothing to say to it. If you choose to take
-offence at this, leave the house and feast elsewhere at one another’s
-houses at your own cost turn and turn about. If, on the other hand, you
-elect to persist in spunging upon one man, heaven help me, but Jove
-shall reckon with you in full, and when you fall in my father’s house
-there shall be no man to avenge you.”
+He accused Penelope of encouraging each suitor with messages she did not mean. Then he told of the burial cloth she had begun for Laertes, Odysseus's aging father. She had asked them to wait until it was finished. By day she worked at her loom; by torchlight she undid the day's weaving. Three years passed that way. In the fourth, a household woman told the suitors, and they caught Penelope pulling out the threads.
 
-As he spoke Jove sent two eagles from the top of the mountain, and they
-flew on and on with the wind, sailing side by side in their own lordly
-flight. When they were right over the middle of the assembly they
-wheeled and circled about, beating the air with their wings and glaring
-death into the eyes of them that were below; then, fighting fiercely
-and tearing at one another, they flew off towards the right over the
-town. The people wondered as they saw them, and asked each other what
-all this might be; whereon Halitherses, who was the best prophet and
-reader of omens among them, spoke to them plainly and in all honesty,
-saying:
+“She has finished it now,” Antinous said. “Let her go back to her father and choose a husband. Until then, we will keep consuming your property. She wins the glory for her cleverness, but you pay for it.”
 
-“Hear me, men of Ithaca, and I speak more particularly to the suitors,
-for I see mischief brewing for them. Ulysses is not going to be away
-much longer; indeed he is close at hand to deal out death and
-destruction, not on them alone, but on many another of us who live in
-Ithaca. Let us then be wise in time, and put a stop to this wickedness
-before he comes. Let the suitors do so of their own accord; it will be
-better for them, for I am not prophesying without due knowledge;
-everything has happened to Ulysses as I foretold when the Argives set
-out for Troy, and he with them. I said that after going through much
-hardship and losing all his men he should come home again in the
-twentieth year and that no one would know him; and now all this is
-coming true.”
+Antinous was asking him to end their invasion by sending her away.
 
-Eurymachus son of Polybus then said, “Go home, old man, and prophesy to
-your own children, or it may be worse for them. I can read these omens
-myself much better than you can; birds are always flying about in the
-sunshine somewhere or other, but they seldom mean anything. Ulysses has
-died in a far country, and it is a pity you are not dead along with
-him, instead of prating here about omens and adding fuel to the anger
-of Telemachus which is fierce enough as it is. I suppose you think he
-will give you something for your family, but I tell you—and it shall
-surely be—when an old man like you, who should know better, talks a
-young one over till he becomes troublesome, in the first place his
-young friend will only fare so much the worse—he will take nothing by
-it, for the suitors will prevent this—and in the next, we will lay a
-heavier fine, sir, upon yourself than you will at all like paying, for
-it will bear hardly upon you. As for Telemachus, I warn him in the
-presence of you all to send his mother back to her father, who will
-find her a husband and provide her with all the marriage gifts so dear
-a daughter may expect. Till then we shall go on harassing him with our
-suit; for we fear no man, and care neither for him, with all his fine
-speeches, nor for any fortune-telling of yours. You may preach as much
-as you please, but we shall only hate you the more. We shall go back
-and continue to eat up Telemachus’s estate without paying him, till
-such time as his mother leaves off tormenting us by keeping us day
-after day on the tiptoe of expectation, each vying with the other in
-his suit for a prize of such rare perfection. Besides we cannot go
-after the other women whom we should marry in due course, but for the
-way in which she treats us.”
+“I won't drive her out.”
 
-Then Telemachus said, “Eurymachus, and you other suitors, I shall say
-no more, and entreat you no further, for the gods and the people of
-Ithaca now know my story. Give me, then, a ship and a crew of twenty
-men to take me hither and thither, and I will go to Sparta and to Pylos
-in quest of my father who has so long been missing. Some one may tell
-me something, or (and people often hear things in this way) some
-heaven-sent message may direct me. If I can hear of him as alive and on
-his way home I will put up with the waste you suitors will make for yet
-another twelve months. If on the other hand I hear of his death, I will
-return at once, celebrate his funeral rites with all due pomp, build a
-barrow to his memory, and make my mother marry again.”
+Her father would demand repayment; his mother would call on the avenging Erinyes, and the gods would punish him. It would disgrace him to drive out the woman who had raised him while no one knew whether her husband lived.
 
-With these words he sat down, and Mentor20 who had been a friend of
-Ulysses, and had been left in charge of everything with full authority
-over the servants, rose to speak. He, then, plainly and in all honesty
-addressed them thus:
+“Take your meals elsewhere,” he told the suitors. “If you stay, may Zeus make you die in my father's house with no one to avenge you.”
 
-“Hear me, men of Ithaca, I hope that you may never have a kind and
-well-disposed ruler any more, nor one who will govern you equitably; I
-hope that all your chiefs henceforward may be cruel and unjust, for
-there is not one of you but has forgotten Ulysses, who ruled you as
-though he were your father. I am not half so angry with the suitors,
-for if they choose to do violence in the naughtiness of their hearts,
-and wager their heads that Ulysses will not return, they can take the
-high hand and eat up his estate, but as for you others I am shocked at
-the way in which you all sit still without even trying to stop such
-scandalous goings on—which you could do if you chose, for you are many
-and they are few.”
+Zeus sent two eagles above the meeting. They came side by side, wheeled over the faces turned upward, and struck at one another with their talons before flying across the town.
 
-Leiocritus, son of Evenor, answered him saying, “Mentor, what folly is
-all this, that you should set the people to stay us? It is a hard thing
-for one man to fight with many about his victuals. Even though Ulysses
-himself were to set upon us while we are feasting in his house, and do
-his best to oust us, his wife, who wants him back so very badly, would
-have small cause for rejoicing, and his blood would be upon his own
-head if he fought against such great odds. There is no sense in what
-you have been saying. Now, therefore, do you people go about your
-business, and let his father’s old friends, Mentor and Halitherses,
-speed this boy on his journey, if he goes at all—which I do not think
-he will, for he is more likely to stay where he is till some one comes
-and tells him something.”
+Halitherses, who read signs in birds, warned the suitors to stop. He had foretold that Odysseus would return in the twentieth year, unrecognized, after losing his companions. Now he saw Odysseus bringing death to the suitors and many others in Ithaca.
 
-On this he broke up the assembly, and every man went back to his own
-abode, while the suitors returned to the house of Ulysses.
+Eurymachus would not let the warning settle.
 
-Then Telemachus went all alone by the sea side, washed his hands in the
-grey waves, and prayed to Minerva.
+“There are birds overhead every day. Must we fear all of them?”
 
-“Hear me,” he cried, “you god who visited me yesterday, and bade me
-sail the seas in search of my father who has so long been missing. I
-would obey you, but the Achaeans, and more particularly the wicked
-suitors, are hindering me that I cannot do so.”
+He wished the prophet dead like Odysseus, accused him of seeking payment, and threatened him with a crushing fine. He threatened worse trouble for Telemachus too. Penelope must marry. Until then they would keep eating without repayment, afraid of neither man nor prophecy.
 
-As he thus prayed, Minerva came close up to him in the likeness and
-with the voice of Mentor. “Telemachus,” said she, “if you are made of
-the same stuff as your father you will be neither fool nor coward
-henceforward, for Ulysses never broke his word nor left his work half
-done. If, then, you take after him, your voyage will not be fruitless,
-but unless you have the blood of Ulysses and of Penelope in your veins
-I see no likelihood of your succeeding. Sons are seldom as good men as
-their fathers; they are generally worse, not better; still, as you are
-not going to be either fool or coward henceforward, and are not
-entirely without some share of your father’s wise discernment, I look
-with hope upon your undertaking. But mind you never make common cause
-with any of those foolish suitors, for they have neither sense nor
-virtue, and give no thought to death and to the doom that will shortly
-fall on one and all of them, so that they shall perish on the same day.
-As for your voyage, it shall not be long delayed; your father was such
-an old friend of mine that I will find you a ship, and will come with
-you myself. Now, however, return home, and go about among the suitors;
-begin getting provisions ready for your voyage; see everything well
-stowed, the wine in jars, and the barley meal, which is the staff of
-life, in leathern bags, while I go round the town and beat up
-volunteers at once. There are many ships in Ithaca both old and new; I
-will run my eye over them for you and will choose the best; we will get
-her ready and will put out to sea without delay.”
+Telemachus said the gods and the people now knew his case. He would plead no more.
 
-Thus spoke Minerva daughter of Jove, and Telemachus lost no time in
-doing as the goddess told him. He went moodily home, and found the
-suitors flaying goats and singeing pigs in the outer court. Antinous
-came up to him at once and laughed as he took his hand in his own,
-saying, “Telemachus, my fine fire-eater, bear no more ill blood neither
-in word nor deed, but eat and drink with us as you used to do. The
-Achaeans will find you in everything—a ship and a picked crew to
-boot—so that you can set sail for Pylos at once and get news of your
-noble father.”
+“Then help me find news,” he said. “I need twenty men, and a vessel to carry us. Nestor is at Pylos. Menelaus is in Sparta. I mean to question them both.”
 
-“Antinous,” answered Telemachus, “I cannot eat in peace, nor take
-pleasure of any kind with such men as you are. Was it not enough that
-you should waste so much good property of mine while I was yet a boy?
-Now that I am older and know more about it, I am also stronger, and
-whether here among this people, or by going to Pylos, I will do you all
-the harm I can. I shall go, and my going will not be in vain—though,
-thanks to you suitors, I have neither ship nor crew of my own, and must
-be passenger not captain.”
+If his father was coming home, he would endure another year. If he learned of his death, he would return, raise a memorial, perform the funeral rites, and settle the marriage. At least they would no longer be living on rumors.
 
-As he spoke he snatched his hand from that of Antinous. Meanwhile the
-others went on getting dinner ready about the buildings,21 jeering at
-him tauntingly as they did so.
+Mentor, Odysseus's old friend, stood to support him. He wished that rulers would henceforth be cruel and unjust, since everyone had forgotten the kindness of Odysseus. He blamed the larger crowd even more than the suitors. They were many, the intruders few, yet their silence allowed this to happen.
 
-“Telemachus,” said one youngster, “means to be the death of us; I
-suppose he thinks he can bring friends to help him from Pylos, or again
-from Sparta, where he seems bent on going. Or will he go to Ephyra as
-well, for poison to put in our wine and kill us?”
+Leiocritus answered for the suitors. Even Odysseus, he said, would not survive fighting so many men over their meal. He told everyone to go home. Let the boy's old friends arrange his voyage, if there was ever going to be one.
 
-Another said, “Perhaps if Telemachus goes on board ship, he will be
-like his father and perish far from his friends. In this case we should
-have plenty to do, for we could then divide up his property amongst us:
-as for the house we can let his mother and the man who marries her have
-that.”
+The assembly dissolved. Men who had listened with pity walked away. The suitors went back to Telemachus's house.
 
-This was how they talked. But Telemachus went down into the lofty and
-spacious store-room where his father’s treasure of gold and bronze lay
-heaped up upon the floor, and where the linen and spare clothes were
-kept in open chests. Here, too, there was a store of fragrant olive
-oil, while casks of old, well-ripened wine, unblended and fit for a god
-to drink, were ranged against the wall in case Ulysses should come home
-again after all. The room was closed with well-made doors opening in
-the middle; moreover the faithful old house-keeper Euryclea, daughter
-of Ops the son of Pisenor, was in charge of everything both night and
-day. Telemachus called her to the store-room and said:
+He went to the shore instead. With wet hands lifted from the sea, he called on the god who had visited him.
 
-“Nurse, draw me off some of the best wine you have, after what you are
-keeping for my father’s own drinking, in case, poor man, he should
-escape death, and find his way home again after all. Let me have twelve
-jars, and see that they all have lids; also fill me some well-sewn
-leathern bags with barley meal—about twenty measures in all. Get these
-things put together at once, and say nothing about it. I will take
-everything away this evening as soon as my mother has gone upstairs for
-the night. I am going to Sparta and to Pylos to see if I can hear
-anything about the return of my dear father.”
+“I did what you told me. They heard. Nothing changed. How am I to leave?”
 
-When Euryclea heard this she began to cry, and spoke fondly to him,
-saying, “My dear child, what ever can have put such notion as that into
-your head? Where in the world do you want to go to—you, who are the one
-hope of the house? Your poor father is dead and gone in some foreign
-country nobody knows where, and as soon as your back is turned these
-wicked ones here will be scheming to get you put out of the way, and
-will share all your possessions among themselves; stay where you are
-among your own people, and do not go wandering and worrying your life
-out on the barren ocean.”
+Someone stood beside him, wearing Mentor's face. This time the old friend's voice belonged to Athena.
 
-“Fear not, nurse,” answered Telemachus, “my scheme is not without
-heaven’s sanction; but swear that you will say nothing about all this
-to my mother, till I have been away some ten or twelve days, unless she
-hears of my having gone, and asks you; for I do not want her to spoil
-her beauty by crying.”
+“I'll find a ship and men,” she said. “You get the food and wine ready. I'll go with you.”
 
-The old woman swore most solemnly that she would not, and when she had
-completed her oath, she began drawing off the wine into jars, and
-getting the barley meal into the bags, while Telemachus went back to
-the suitors.
+She urged him to live up to his father's courage and to have nothing to do with the suitors. They were recklessly ignoring their fate: all would die on the same day. His father had not abandoned work halfway through. Telemachus went home.
 
-Then Minerva bethought her of another matter. She took his shape, and
-went round the town to each one of the crew, telling them to meet at
-the ship by sundown. She went also to Noemon son of Phronius, and asked
-him to let her have a ship—which he was very ready to do. When the sun
-had set and darkness was over all the land, she got the ship into the
-water, put all the tackle on board her that ships generally carry, and
-stationed her at the end of the harbour. Presently the crew came up,
-and the goddess spoke encouragingly to each of them.
+In the courtyard, Antinous laughed and caught his hand. He offered food, wine, and assurances about the proposed trip.
 
-Furthermore she went to the house of Ulysses, and threw the suitors
-into a deep slumber. She caused their drink to fuddle them, and made
-them drop their cups from their hands, so that instead of sitting over
-their wine, they went back into the town to sleep, with their eyes
-heavy and full of drowsiness. Then she took the form and voice of
-Mentor, and called Telemachus to come outside.
+Telemachus pulled free.
 
-“Telemachus,” said she, “the men are on board and at their oars,
-waiting for you to give your orders, so make haste and let us be off.”
+“Don't ask me to enjoy this with you. You wasted my property when I was a child. Now I understand, and I will do you all the harm I can, here or at Pylos. I will go, even though I have no ship or crew of my own.”
 
-On this she led the way, while Telemachus followed in her steps. When
-they got to the ship they found the crew waiting by the water side, and
-Telemachus said, “Now my men, help me to get the stores on board; they
-are all put together in the cloister, and my mother does not know
-anything about it, nor any of the maid servants except one.”
+Behind him, the men joked about the army he might bring back, or poison he might slip into their cups. Another possibility pleased them: perhaps he would vanish like his father. Then they could divide the estate. Telemachus kept walking.
 
-With these words he led the way and the others followed after. When
-they had brought the things as he told them, Telemachus went on board,
-Minerva going before him and taking her seat in the stern of the
-vessel, while Telemachus sat beside her. Then the men loosed the
-hawsers and took their places on the benches. Minerva sent them a fair
-wind from the West,22 that whistled over the deep blue waves23 whereon
-Telemachus told them to catch hold of the ropes and hoist sail, and
-they did as he told them. They set the mast in its socket in the cross
-plank, raised it, and made it fast with the forestays; then they
-hoisted their white sails aloft with ropes of twisted ox hide. As the
-sail bellied out with the wind, the ship flew through the deep blue
-water, and the foam hissed against her bows as she sped onward. Then
-they made all fast throughout the ship, filled the mixing bowls to the
-brim, and made drink offerings to the immortal gods that are from
-everlasting, but more particularly to the grey-eyed daughter of Jove.
+Euryclea guarded the storeroom. Along its walls stood wine saved against Odysseus's return. Telemachus asked her to leave his father's best wine untouched and prepare twelve covered jars and twenty measures of barley meal. He told her his destination and said he would collect the stores after his mother went upstairs.
 
-Thus, then, the ship sped on her way through the watches of the night
-from dark till dawn.
+The old woman began to weep. She believed his father dead in a foreign country. Now the one remaining hope of the house meant to put to sea. What would keep the suitors from arranging his death and dividing everything?
+
+“I have help,” he told her. “More than you can see. But Mother mustn't hear it from you yet. Wait ten or twelve days, unless she finds out and asks.”
+
+He did not want his mother's beauty spoiled by weeping. Euryclea swore to keep the secret, then prepared the wine and meal. He returned to the suitors.
+
+Meanwhile Athena borrowed his appearance. Men who met her in the town thought Telemachus himself was recruiting them. Noemon readily lent a ship. By sunset the crew knew where to gather, and the vessel was waiting at the harbor with its gear aboard.
+
+At the house, Athena made the drink weigh heavily on the suitors. Cups slipped from their hands. They left early, longing for their beds. Then she came to Telemachus in Mentor's shape again.
+
+“They're waiting for you at the ship.”
+
+He followed her down to the water. The crew was ready, but the supplies still had to be carried. Telemachus led the men back for them and directed the loading. His mother knew nothing. Of the household women, only Euryclea knew of the preparations.
+
+Athena took a place in the stern. He sat beside her. Ropes were released, the men settled to their oars, and a wind from the west arrived at the goddess's bidding. Telemachus gave the order to raise the sail. The cloth filled, and the dark water began moving swiftly past the hull. They poured wine for the gods, especially Athena.
+
+The ship sped through the night, from darkness until dawn.

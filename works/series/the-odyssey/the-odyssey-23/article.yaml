@@ -1,11 +1,23 @@
 schema_version: 1
 id: the-odyssey-23
-titles:
-  en-US: "BOOK XXIII"
-  zh-CN: "第二十三卷"
+type: classic
+original: { writer: homer }
+style: epic-fantasy-illumination
+titles: { en-US: "The Bed That Could Not Be Moved", zh-CN: "搬不动的床" }
 research: required
+labels: { topics: [ adventure, travel ], themes: [ perseverance, identity ], moods: [ reflective ] }
+premise: >-
+  佩涅洛佩不肯仅凭归来的外貌相信丈夫，以扎根橄榄树的婚床试出真身。 夫妻重享亲密、互述苦难，奥德修斯却仍背负未完成的持桨远行； 天明时，他留下妻子守家，与儿子和牧人披甲出城探父。
+characters:
+  - { id: odysseus, description: "凭婚床秘密被妻子认出的归人，仍筹划应付复仇与未尽的远行" }
+  - { id: penelope, description: "因害怕受骗而谨慎试探，最后与丈夫相认的妻子" }
+  - { id: euryclea, description: "以亲见归人和摸到旧疤为凭，急切报信的乳母" }
+  - { id: telemachus, description: "不理解母亲犹疑，继而服从父亲出城安排的儿子" }
+  - { id: eurynome, description: "为归人洗浴、更衣、引夫妻入房的女管事" }
+  - { id: phemius, description: "奏出舞曲，让外人误认屋内正在办婚礼的歌者" }
+  - { id: eumaeus, description: "与父子一起披甲出城的牧猪人" }
+  - { id: philoetius, description: "与父子一起披甲出城的牛倌" }
+  - { id: athena, description: "延长团聚之夜，又用黑暗掩护归人出城的女神" }
 locales:
-  en-US:
-    source_url: "https://www.gutenberg.org/ebooks/1727"
-    translator: "Samuel Butler"
-  zh-CN: {translator: "HaiLibrary"}
+  en-US: { writer: homer, working_title: "The Bed That Could Not Be Moved", length: "1473 words" }
+  zh-CN: { writer: homer, working_title: "搬不动的床", length: "1997 Han characters" }

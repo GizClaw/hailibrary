@@ -1,28 +1,42 @@
-# Editorial record — Book III
+# Book III 作者自省记录
 
-The unchanged Butler English article is the source. Chinese was newly written from it, without reference to a published Chinese translation.
+2026-10-11。逐行读完 `git show 1208d108:works/series/the-odyssey/the-odyssey-03/locales/en-US/article.md`，与两种全文核对。完整出处、嵌套故事保留边界和压缩清单见 research.yaml。用户授权阅读版改写优先于 classic 的逐字导入默认；仍为 classic、Homer / 荷马、双语 homer。新英语不是 Butler 原句，中文不是逐字译本；无未删节承诺、献词、序、脚注编号或媒体改动。
 
-## Chinese translation
+## 十项正文循环
 
-1. Structure: checked all 40 paragraph positions, H1, absent H2 headings and markers 24–35. The final incomplete sunset clause remains separate, continuing into Book IV as in the source.
-2. Completeness: compared every clause and quotation, including the nine groups of five hundred, nine bulls per group, all return routes, genealogy, sacrifice procedure and both carriage days.
-3. Dialogue: checked Athena's assumed identity, the young visitors' courtesy, Nestor's recollections, prayers and orders; reviewed each voice separately.
-4. Language: examined all ten translationese categories, especially the long geographical and ritual descriptions.
-5. Names and imagery: checked names, quantities and timing, distinguishing Mycene the city from the earlier woman's name. Preserved Dawn, the eagle and gilded horns; the prose source contains no supplied song.
-6. Cadence: reviewed the full translation for the changing rhythm of arrival, grief, hospitality, sacrifice and departure.
-7. Tone: retained piracy, murder, abandoned victims, captive women and the graphic sacrifice without added commentary.
+第一遍发现复仇变成泛泛偿还、歌者弃岛的死亡被抹淡、王后自愿性不清、献牛过程过度概括、女神讨债伪装遗漏。修复后全项重启。末次进一步恢复妻女欢呼的情绪，重新完成 1–10，无新发现。
 
-The complete seven-item pass found no translation correction necessary.
+1. 重读 classic 文件和 homer 双语资料，核对继承的 fiction/adventure、14+、original、标题、Writer、研究要求与任务例外。类型没有数值篇幅界限，长度按最终文本实计。
+2. 场景压力链：不敢问→先受款待→问父亲但得不到后续亲见→复仇与死亡议论→嵌套谋杀/航海解释→新向导和车→女神显形→次日祭牛→两天赶路。每个结果有前因。
+3. 人物台词单读：青年要坏消息也不要安慰，涅斯托尔区分亲见/听闻，雅典娜纠正绝望，主人坚持留客；没有后加励志口号。
+4. 开头问父亲，结尾只得下一条询问路径；未凭空确认父亲生死，未让旅人提前见到墨涅拉奥斯。
+5. 核对下表，保留原文嵌套故事里的行动、代理人和后果。
+6. 对双语及 metadata 建立研究声明清单，打开 Gutenberg 正文/目录与 Getty、Met；版本有原始证据，文化归属有独立机构交叉支持。
+7. 亲见舰队与听闻后事分为 supported narrative attribution；神杀舵手、鹰形为 myth；普通安葬、暴风、车辆行程有一致次序。未把神话写成历史事实。
+8. 两种语言事件表相同，分别通读为自然母语；保留王后意愿、歌者结局和青年杀人愿望。
+9. 全文按14+检查尊严与危险模仿，保留主动残酷和动物祭杀；无现代赞许或操作指南。
+10. 两种全文从头逐句按朗读节奏通读，清除无来源的杯子动作、出发内心独白，重数长度；未生成或试听声音。
 
-## Audio scripts
+| 连续状态 | 核对 |
+| --- | --- |
+| 舰队 | 第一分裂→忒涅多斯再争→奥德修斯折返；涅斯托尔继续。 |
+| 王后 | 先拒绝→看守歌者被遗弃待死→自愿跟去。 |
+| 墨涅拉奥斯 | 舵手被阿波罗杀→安葬→宙斯风暴→埃及→第八年丧宴归来。 |
+| 女神 | 先扮门托尔借口讨债，飞鹰后众人才认出。 |
+| 祭礼/车 | 次日兑现承诺，斧击/割喉/欢呼；洗浴用餐后出发，费赖过夜。 |
 
-Both locales were retold independently. One final check covered source fidelity, every non-signature sentence's spoken register, character counts, and complete structural/voice validation. Corrections included restoring the force of the whip action in English, burial rather than death location in Chinese, Antilochus's parentage, storm-driven movement, and horses pulling a chariot. Compressed source passages were expanded for intelligibility without new events.
+具体压缩了船路分支、克里特海岸细述、安全归者名单、祭礼人数和器具，不把谋杀故事归为可删家谱。
 
-Non-whitespace counts omit H1 and the chapter argument, retain source footnote digits, and count only script block text.
+## 单次音频四项检查
 
-| Locale | Source | Spoken | Ratio | Chapters | Blocks |
-|---|---:|---:|---:|---:|---:|
-| en-US | 20,313 | 18,308 | 90.1295% | 5 | 32 |
-| zh-CN | 6,832 | 6,151 | 90.0322% | 4 | 32 |
+1. 两语分别由自己的最终源文逐场、逐句意图核对，包括狗/秃鹰无坟威胁、歌者被遗弃、王后自愿、神杀舵手、祭牛欢呼和向导。
+2. 全部叙述及对白检查口语，去掉印刷句式和无来源动作；关键意象为杯中祭酒、分裂舰队、镀金牛角和马车，各章不超过5处，关键对白不超过2处。
+3. 非空白字符比例见下，均在90–105%。
+4. 确认3章自然转场、位置型ID、单人 cast、正确人物、独立结尾，无旁白 emotion 或提供商数据；沿用原 cast。四项完整执行一次，发现处原位修正，未重启音频循环。
 
-Each script uses five individual voices, sequential IDs, no emotion tags, and a separate final sunset clause. `npx --no-install hailibrary-check-work works/series/the-odyssey/the-odyssey-03` returned `PASS`, exit 0.
+| Locale | 正文单位 | 源文非空白 | 口播非空白 | 比率 | 段落 | 章/块/声音 |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| en-US | 1116 words | 5450 | 5287 | 97.01% | 41 | 3/24/5 |
+| zh-CN | 1667 汉字 | 1889 | 1854 | 98.15% | 30 | 3/19/4 |
+
+H1不计；英文含内部撇号/连字符，汉字按Unicode Han，比例计标点去空白。`npx --no-install hailibrary-check-work works/series/the-odyssey/the-odyssey-03`：PASS，exit 0；无未解决校验项。

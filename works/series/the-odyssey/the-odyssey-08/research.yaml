@@ -2,29 +2,21 @@ schema_version: 1
 required: true
 sources:
   - url: "https://www.gutenberg.org/ebooks/1727"
-    authority: "Project Gutenberg edition catalogue"
-    claims:
-      - "The imported English source is ebook 1727, translated by Samuel Butler, whose life dates are 1835–1902. The catalogue marks this edition public domain in the USA."
+    authority: "Project Gutenberg catalogue, opened 2026-10-11"
+    claims: ["Ebook 1727 identifies Homer and Samuel Butler and records US public-domain status."]
   - url: "https://www.gutenberg.org/files/1727/1727-h/1727-h.htm"
-    authority: "Samuel Butler translation, with the 1921 second-edition preface by Henry Festing Jones"
-    claims:
-      - "The source contains twenty-four books, two edition prefaces, a dedication, and numbered translator notes."
-      - "The second-edition preface dates Butler's original translation to 1900 and distinguishes the 1921 edition's corrections."
-  - url: "https://onlinebooks.library.upenn.edu/webbin/work?id=olbp101204"
-    authority: "University of Pennsylvania Libraries, The Online Books Page"
-    claims:
-      - "The catalogue independently identifies Butler's 1900 prose translation and the Gutenberg transcription based on the 1921 second edition."
+    authority: "Primary plot source, Butler's 1900 translation in the 1921 second edition, Book VIII"
+    claims: ["The complete Book VIII supplies all three songs, games, gifts, farewell and identity questions; the prefaces identify the edition."]
   - url: "https://www.getty.edu/cona/CONAIconographyRecord.aspx?iconid=901000730"
-    authority: "Getty Research Institute, Cultural Objects Names Authority"
-    claims:
-      - "The Odyssey is an ancient Greek epic in twenty-four books traditionally attributed to Homer; the authority record dates it to the end of the eighth century BCE and gives its Greek title."
+    authority: "Getty Research Institute, CONA record 901000730, opened 2026-10-11"
+    claims: ["The twenty-four-book Greek epic is traditionally attributed to Homer, with approximate dating."]
   - url: "https://www.metmuseum.org/perspectives/discovering-homer-odyssey"
-    authority: "The Metropolitan Museum of Art, Department of Greek and Roman Art"
-    claims:
-      - "The museum places the poem's composition around the eighth century BCE and describes its oral performance tradition."
+    authority: "The Metropolitan Museum of Art, Department of Greek and Roman Art, opened 2026-10-11"
+    claims: ["Independent evidence for Greek origin and oral performance."]
 notes:
-  - "Import consulted on 2026-10-11. Exact UTF-8 source SHA-256: ffbdb29c3dda284b65c11243db1a98167826a70c81bca2ed4b6232f86c905fb9."
-  - "Only the Gutenberg wrapper, redundant title and contents listing, and empty illustration placeholder are excluded. Section headings become Markdown titles. All section prose, notes, punctuation, and paragraph boundaries are retained."
-  - "The poem is ancient Greek myth traditionally attributed to Homer. The original date is approximate; supernatural events and divine actions are literary content, not verified historical or scientific claims."
-  - "The prefaces and notes preserve the named editors' historical interpretations, including Butler's disputed authorship and geography theories. These are source-edition opinions, not HaiLibrary assertions."
-  - "The modern Chinese rendering is newly authored from this public-domain English edition; no modern published Chinese translation or screen adaptation is used."
+  - "Exact local source: git show 1208d108:works/series/the-odyssey/the-odyssey-08/locales/en-US/article.md, read in full, including the whole Ares/Aphrodite song and final king's questions."
+  - "The user's task exception permits a compressed HaiLibrary reading edition while preserving classic and published author Homer / 荷马. Both locale Writers remain homer. This is neither Butler's imported wording nor a literal Chinese translation and makes no unabridged claim. Front matter and numbered footnotes are omitted; no locale source_url/translator falsely identifies the new prose as an import."
+  - "Retained: Athena summoning and strengthening, fifty-two sailors, Muse's mixed gift of song and blindness; Achilles quarrel, Agamemnon's pleasure and Apollo oracle; hidden tears noticed only by king; named winners, polite invitation, merchant/profit insult and angry reply; heavy discus, Athena's blind-man comparison, challenge with host exception, Philoctetes, Eurytus killed by Apollo, weakened running; king's changed claims about athletic skill; dancers; complete adultery story with Sun reports, forged invisible chains, false Lemnos trip, willing bed encounter, public shaming, lameness grievance, Zeus repayment demand, gods laughing/goddesses absent, Apollo/Hermes sexual joke, contested guarantee, release and separate destinations; red-ball dance; apology/sword, thirteen gift shares, theft warning and Circe knot; bath and Nausicaa's rescue claim/his lifetime honor promise; pork for singer, praise and horse request; burned tents, Trojan alternatives, preserved horse, sack/killings, Deiphobus fight; enslaved widow simile; only king noticing tears; identity, supernatural rudderless ships, destruction warning and question about dead kin/friend."
+  - "Compressed: full competitor catalogue beyond event winners, winning distances, slaughter totals and detailed ship equipment, long rhetorical comparisons about eloquence, every archery adjective, dancing floor administration, textile and bath-vessel inventories, and repeated questions about names. Embedded actions and sexual/violent consequences are retained rather than removed as jokes or catalogue."
+  - "Claim inventory: provenance is documentary. Muse, divine trap, oracle, supernatural ships and Poseidon threat are mythology. Blindness and lameness remain the poem's details; gods' ridicule and occupational insult are attributed conduct, not endorsed claims about disabled people or merchants. The Trojan sack is epic narrative, not asserted archaeology. Only Alcinous perceives either episode of weeping, and the identity answer remains in Book IX."
+  - "Removed invented private motives for requesting songs, audience-wide discovery of tears and a new cloak-lowering ending. Each script is independently spoken from its own final locale. No media changes."
