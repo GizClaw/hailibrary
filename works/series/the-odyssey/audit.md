@@ -51,30 +51,30 @@ The table below is generated only from the finalized, author-written artifacts. 
 
 | Book audit | English words | Spoken / source | Ratio; chapters / blocks | Chinese Han | Spoken / source | Ratio; chapters / blocks |
 |---|---:|---:|---|---:|---:|---|
-| [01](the-odyssey-01/audit.md) | 1,159 | 5,223 / 5,329 | 98.0109%; 3 / 25 | 1,785 | 2,083 / 2,045 | 101.8582%; 3 / 25 |
-| [02](the-odyssey-02/audit.md) | 1,287 | 5,455 / 5,919 | 92.1608%; 3 / 29 | 1,820 | 1,970 / 2,081 | 94.6660%; 3 / 24 |
-| [03](the-odyssey-03/audit.md) | 1,116 | 5,287 / 5,450 | 97.0092%; 3 / 24 | 1,667 | 1,854 / 1,889 | 98.1472%; 3 / 19 |
-| [04](the-odyssey-04/audit.md) | 1,746 | 7,562 / 8,073 | 93.6703%; 5 / 38 | 2,384 | 2,600 / 2,702 | 96.2250%; 4 / 24 |
-| [05](the-odyssey-05/audit.md) | 1,324 | 5,721 / 5,923 | 96.5896%; 3 / 21 | 1,597 | 1,724 / 1,839 | 93.7466%; 3 / 12 |
-| [06](the-odyssey-06/audit.md) | 1,033 | 4,203 / 4,666 | 90.0772%; 3 / 21 | 1,461 | 1,525 / 1,680 | 90.7738%; 3 / 21 |
-| [07](the-odyssey-07/audit.md) | 955 | 4,303 / 4,475 | 96.1564%; 3 / 20 | 1,393 | 1,521 / 1,615 | 94.1796%; 3 / 20 |
-| [08](the-odyssey-08/audit.md) | 1,470 | 6,289 / 6,910 | 91.0130%; 3 / 29 | 2,126 | 2,350 / 2,436 | 96.4696%; 3 / 27 |
-| [09](the-odyssey-09/audit.md) | 1,468 | 6,050 / 6,201 | 97.5649%; 4 / 24 | 1,887 | 2,139 / 2,183 | 97.9844%; 4 / 24 |
-| [10](the-odyssey-10/audit.md) | 1,443 | 5,846 / 6,154 | 94.9951%; 4 / 26 | 1,907 | 2,054 / 2,207 | 93.0675%; 4 / 24 |
-| [11](the-odyssey-11/audit.md) | 1,903 | 7,890 / 8,361 | 94.3667%; 4 / 24 | 2,726 | 2,942 / 3,115 | 94.4462%; 4 / 24 |
-| [12](the-odyssey-12/audit.md) | 1,292 | 5,292 / 5,525 | 95.7828%; 4 / 17 | 1,698 | 1,817 / 1,966 | 92.4212%; 4 / 17 |
-| [13](the-odyssey-13/audit.md) | 1,533 | 6,330 / 7,030 | 90.0427%; 3 / 26 | 1,970 | 2,026 / 2,239 | 90.4868%; 3 / 21 |
-| [14](the-odyssey-14/audit.md) | 1,510 | 6,242 / 6,925 | 90.1372%; 3 / 28 | 2,022 | 2,083 / 2,313 | 90.0562%; 3 / 23 |
-| [15](the-odyssey-15/audit.md) | 1,619 | 6,785 / 7,529 | 90.1182%; 4 / 23 | 2,282 | 2,338 / 2,582 | 90.5500%; 4 / 16 |
-| [16](the-odyssey-16/audit.md) | 1,491 | 6,365 / 7,001 | 90.9156%; 4 / 28 | 2,066 | 2,115 / 2,345 | 90.1919%; 4 / 23 |
-| [17](the-odyssey-17/audit.md) | 1,505 | 6,673 / 6,924 | 96.3749%; 4 / 16 | 2,087 | 2,161 / 2,356 | 91.7233%; 4 / 12 |
-| [18](the-odyssey-18/audit.md) | 1,399 | 6,135 / 6,523 | 94.0518%; 4 / 20 | 2,029 | 2,090 / 2,296 | 91.0279%; 4 / 12 |
-| [19](the-odyssey-19/audit.md) | 1,663 | 6,701 / 7,432 | 90.1642%; 4 / 43 | 2,382 | 2,499 / 2,766 | 90.3471%; 4 / 42 |
-| [20](the-odyssey-20/audit.md) | 1,304 | 5,394 / 5,978 | 90.2308%; 4 / 29 | 1,756 | 1,834 / 2,018 | 90.8821%; 4 / 27 |
-| [21](the-odyssey-21/audit.md) | 1,302 | 5,433 / 5,959 | 91.1730%; 4 / 31 | 1,849 | 1,921 / 2,124 | 90.4426%; 4 / 27 |
-| [22](the-odyssey-22/audit.md) | 1,470 | 6,159 / 6,843 | 90.0044%; 4 / 26 | 2,060 | 2,115 / 2,341 | 90.3460%; 4 / 25 |
-| [23](the-odyssey-23/audit.md) | 1,473 | 6,042 / 6,711 | 90.0313%; 4 / 32 | 1,997 | 2,078 / 2,304 | 90.1910%; 4 / 32 |
-| [24](the-odyssey-24/audit.md) | 1,588 | 6,664 / 7,394 | 90.1271%; 4 / 41 | 2,247 | 2,332 / 2,579 | 90.4226%; 4 / 34 |
+| [01](the-odyssey-01/audit.md) | 1,159 | 5,223 / 5,329 | 98.0109%; 3 / 25 | 2,127 | 2,389 / 2,452 | 97.4307%; 3 / 27 |
+| [02](the-odyssey-02/audit.md) | 1,287 | 5,455 / 5,919 | 92.1608%; 3 / 29 | 1,866 | 2,029 / 2,138 | 94.9018%; 3 / 22 |
+| [03](the-odyssey-03/audit.md) | 1,116 | 5,287 / 5,450 | 97.0092%; 3 / 24 | 1,753 | 1,825 / 1,993 | 91.5705%; 3 / 17 |
+| [04](the-odyssey-04/audit.md) | 1,746 | 7,562 / 8,073 | 93.6703%; 5 / 38 | 2,492 | 2,631 / 2,824 | 93.1657%; 4 / 27 |
+| [05](the-odyssey-05/audit.md) | 1,324 | 5,721 / 5,923 | 96.5896%; 3 / 21 | 1,799 | 1,914 / 2,070 | 92.4638%; 3 / 16 |
+| [06](the-odyssey-06/audit.md) | 1,033 | 4,203 / 4,666 | 90.0772%; 3 / 21 | 1,380 | 1,542 / 1,583 | 97.4100%; 3 / 18 |
+| [07](the-odyssey-07/audit.md) | 955 | 4,303 / 4,475 | 96.1564%; 3 / 20 | 1,535 | 1,761 / 1,775 | 99.2113%; 3 / 20 |
+| [08](the-odyssey-08/audit.md) | 1,470 | 6,289 / 6,910 | 91.0130%; 3 / 29 | 2,259 | 2,544 / 2,570 | 98.9883%; 3 / 18 |
+| [09](the-odyssey-09/audit.md) | 1,468 | 6,050 / 6,201 | 97.5649%; 4 / 24 | 1,927 | 2,099 / 2,244 | 93.5383%; 4 / 23 |
+| [10](the-odyssey-10/audit.md) | 1,443 | 5,846 / 6,154 | 94.9951%; 4 / 26 | 1,948 | 2,069 / 2,252 | 91.8739%; 4 / 23 |
+| [11](the-odyssey-11/audit.md) | 1,903 | 7,890 / 8,361 | 94.3667%; 4 / 24 | 2,747 | 3,095 / 3,148 | 98.3164%; 6 / 26 |
+| [12](the-odyssey-12/audit.md) | 1,292 | 5,292 / 5,525 | 95.7828%; 4 / 17 | 1,777 | 1,990 / 2,053 | 96.9313%; 4 / 16 |
+| [13](the-odyssey-13/audit.md) | 1,533 | 6,330 / 7,030 | 90.0427%; 3 / 26 | 1,629 | 1,880 / 1,877 | 100.1598%; 4 / 21 |
+| [14](the-odyssey-14/audit.md) | 1,510 | 6,242 / 6,925 | 90.1372%; 3 / 28 | 1,844 | 2,166 / 2,126 | 101.8815%; 4 / 24 |
+| [15](the-odyssey-15/audit.md) | 1,619 | 6,785 / 7,529 | 90.1182%; 4 / 23 | 2,152 | 2,448 / 2,455 | 99.7149%; 5 / 19 |
+| [16](the-odyssey-16/audit.md) | 1,491 | 6,365 / 7,001 | 90.9156%; 4 / 28 | 2,110 | 2,281 / 2,427 | 93.9843%; 5 / 30 |
+| [17](the-odyssey-17/audit.md) | 1,505 | 6,673 / 6,924 | 96.3749%; 4 / 16 | 1,936 | 2,121 / 2,200 | 96.4091%; 4 / 22 |
+| [18](the-odyssey-18/audit.md) | 1,399 | 6,135 / 6,523 | 94.0518%; 4 / 20 | 1,753 | 1,992 / 1,998 | 99.6997%; 4 / 24 |
+| [19](the-odyssey-19/audit.md) | 1,663 | 6,701 / 7,432 | 90.1642%; 4 / 43 | 1,936 | 2,248 / 2,252 | 99.8224%; 4 / 30 |
+| [20](the-odyssey-20/audit.md) | 1,304 | 5,394 / 5,978 | 90.2308%; 4 / 29 | 1,558 | 1,765 / 1,795 | 98.3287%; 4 / 22 |
+| [21](the-odyssey-21/audit.md) | 1,302 | 5,433 / 5,959 | 91.1730%; 4 / 31 | 1,598 | 1,833 / 1,835 | 99.8910%; 4 / 23 |
+| [22](the-odyssey-22/audit.md) | 1,470 | 6,159 / 6,843 | 90.0044%; 4 / 26 | 1,762 | 2,054 / 2,021 | 101.6329%; 4 / 23 |
+| [23](the-odyssey-23/audit.md) | 1,473 | 6,042 / 6,711 | 90.0313%; 4 / 32 | 2,003 | 2,386 / 2,329 | 102.4474%; 5 / 31 |
+| [24](the-odyssey-24/audit.md) | 1,588 | 6,664 / 7,394 | 90.1271%; 4 / 41 | 2,098 | 2,509 / 2,401 | 104.4981%; 5 / 38 |
 
 ## Artwork
 
@@ -82,9 +82,9 @@ The album retains its existing 1536×1024 wordless cover and the imagined Homer 
 
 All seven final files were visually inspected during this continuation. Exact hashes are in [authors-audit.md](authors-audit.md). Each has a matching `done` image state and exact Git LFS pointer. The image-generator dry run reports zero pending images. No image bytes were changed during the narrative fidelity corrections; the already completed square-avatar work remains in its preceding commits.
 
-## Final integration validation
+## Earlier integration validation: `f60bc6c`
 
-Completed on 2026-10-11 (Asia/Singapore), after all three chapter-author groups finalized their source, scripts, metadata and records.
+Completed on 2026-10-11 (Asia/Singapore), before the user's subsequent request to rework the Chinese into native prose. This section retains that commit's validation history; its counts and browser observations do not certify the later Chinese rewrite. Current measurements appear above, and the resumed Chinese-source and audio checks are recorded below.
 
 | Check | Result |
 |---|---|
@@ -111,3 +111,34 @@ The first integration count was deliberately run while the last group's metadata
 The final commit scope includes the 24-book reading edition, its per-book and aggregate audits, bilingual Homer author resources, the shared cover and the four requested square persona avatars. The temporary chapter-byline code change is unnecessary once all retained children consistently reference Homer; the final reader source matches the base branch. Generated catalogs, `build/`, `dist/`, raw PNGs, downloads, scratch tools and the pre-existing untracked `docs/` directory are excluded.
 
 Issue #73 remains a Feature issue with native closing linkage from PR #74. The PR is updated for this final reading-edition scope. Merge and deployment are separate, unperformed operations.
+
+## Resumed native Chinese and listening-script work: 2026-10-11
+
+After `f60bc6c`, the user identified the Chinese as stiff and requested native Chinese prose and matching listening scripts for all 24 books. That continuation left uncommitted rewrites when its connection failed. The resumed work preserves those rewrites and checks every Chinese script against its own current Chinese article. English prose and scripts remain equal to `f60bc6c`; the seven WebP files and their generation states remain byte-identical.
+
+The initial collection checker passed, but source-to-script checks found defects that its schema validation does not detect. Books XXI–XXIV had spoken/source ratios of 85.6676%, 85.2053%, 86.0026% and 83.1737%. The Chinese metadata and per-book measurements in XVII–XXIV also still described the preceding text. These were unfinished scripts and records despite the successful checker.
+
+Concrete findings include omitted drawing of lots and the Cyclops sitting in the entrance in IX; protection against Circe's drug broadened into protection against any drug in X; "did not dare" changed to "was unwilling" in VI; "tomorrow" narrowed to "tomorrow morning" in VII; a collective lip-biting action assigned only to Antinous in XX; street remarks performed as an unsupported simultaneous chorus in XXIII; and "attacked" strengthened to "killed" in XXIV. The corrections restore the current article's facts, intentions, speakers and sequence while keeping native spoken wording. Per-book records retain the complete beat coverage and the prescribed single four-item script checks, rather than using the length ratio as evidence of fidelity.
+
+One source clarification was authorized during this audio check: XVII's "或摔倒在地" becomes "或把他摔倒在地", making Melanthius the object of the contemplated action. Its author completed the full restarted ten-item article checklist before the final audio pass. The native-source checks for XVII–XXIV also completed the interrupted source process; the earlier bilingual fidelity history is retained separately. Hash comparisons confirm that the other 23 Chinese sources preserve their saved native rewrites and that XVII differs from its saved rewrite only by this exact clarification.
+
+### Current integration results
+
+The current table above replaces the Chinese measurements from the preceding edition. There are 45,989 Chinese Han characters and 560 Chinese audio blocks. The Chinese scripts contain 91.5705–104.4981% of their respective sources' non-whitespace characters. Across both languages there are 1,201 blocks, with ratios of 90.0044–104.4981%. The English word count remains 34,053. The metadata lengths and all 144 unit/source/spoken values in the collection table match the final authored files.
+
+| Current check | Result |
+|---|---|
+| Author process | Each Chinese script completes the prescribed single four-item check with findings fixed in place; source and script decisions are recorded per book. The interrupted XVII–XXIV native-source checks are complete. |
+| Individual and collection validation | All 24 child checks and `npx --no-install hailibrary-check-work works/series/the-odyssey` pass, exit 0. |
+| Voice and structure | Sequential chapter/block IDs, resolved individual speakers, valid ensembles, allowed dialogue-only emotions and no written semicolons or synthesis data. All retained cast entries keep their established display names and TTS directions. The unsupported street chorus and its unused voices are removed from XXIII. |
+| Production build | `pnpm build` passes. Vite retains its non-failing 502.68 kB chunk-size advisory. |
+| Existing checks | `pnpm typecheck` passes; catalog tests 4/4 pass and web tests 19/19 pass. |
+| Current exported text and scripts | Both `apps/web/public/` and `build/` contain the exact 24-book order, 24 articles and 24 scripts per locale. Every article matches its current source body modulo whitespace; every audio JSON matches the complete authored YAML object. |
+| Author, paths and inventory | Both outputs retain Homer as historical author, inherited age 14+, relative article/audio/portrait/cover URLs, and exactly the 24 narrative Odyssey directories. |
+| Retained artwork | All seven source images and generation states match the saved bytes, each source image matches its Git LFS pointer, and both outputs copy every image exactly. The scoped image-generator dry run reports zero pending images. |
+| English and source preservation | All 48 English article/script files are byte-identical to `f60bc6c`. Of 86 saved source/English/media/state baselines, 85 are unchanged and the remaining source has only the authorized XVII clarification. |
+| Audit measurements | All 24 current per-book audit sections contain the measured Chinese Han/source/spoken values and matching rounded ratios; older measurements are explicitly historical. |
+
+These are text, schema, build and generated-file checks. The browser observations under `f60bc6c` remain historical; this continuation does not claim new synthesized-audio playback or browser acceptance. The finalized content is submitted to the existing draft PR #74, retaining its native closing link to Feature issue #73. Merge and deployment are unperformed.
+
+The continuation changes 105 tracked article, Chinese script, metadata, research and audit files; the complete reading-edition branch still owns the 191 annotated Issue-tree paths. No generated output, scratch evidence, English artifact, media file or pre-existing untracked `docs/` is included in this continuation commit. Working-tree and staged whitespace checks pass.
