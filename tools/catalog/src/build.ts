@@ -3,6 +3,8 @@ import { dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import YAML from "yaml";
 
+import { compileSubjects } from "./subjects.ts";
+
 const appDir = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(appDir, "../../..");
 const worksDir = join(rootDir, "works");
@@ -203,7 +205,7 @@ async function findBookDirs(base: string, depth = 0): Promise<string[]> {
   if (entries.some((entry) => entry.isFile() && entry.name === "book.yaml")) return [base];
   if (depth >= 4) return [];
   const nested = await Promise.all(
-    entries.filter((entry) => entry.isDirectory() && !(depth === 0 && ["series", "articles"].includes(entry.name))).map((entry) => findBookDirs(join(base, entry.name), depth + 1)),
+    entries.filter((entry) => entry.isDirectory() && !(depth === 0 && ["series", "articles", "subjects"].includes(entry.name))).map((entry) => findBookDirs(join(base, entry.name), depth + 1)),
   );
   return nested.flat();
 }
@@ -230,6 +232,8 @@ async function discoverArticles(): Promise<ArticleLocation[]> {
 
 await rm(publicDir, { recursive: true, force: true });
 await mkdir(publicDir, { recursive: true });
+const subjectDir = join(worksDir, "subjects");
+if (await exists(subjectDir)) await compileSubjects(subjectDir, join(publicDir, "subjects"));
 
 const articleTypeIndex = await readYaml<{ type_order: string[] }>(join(articleTypesDir, "index.yaml"));
 const articleTypes = Object.fromEntries(await Promise.all(articleTypeIndex.type_order.map(async (id) => {
