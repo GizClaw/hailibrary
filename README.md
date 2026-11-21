@@ -40,6 +40,10 @@ pnpm build
 
 The production-ready static site is written to `build/`.
 
+The **Read by subject** catalog uses `works/subjects/index.json` for subject, menu, and album order. `albums/*.json` records the reading order and the source of each position. A reading ID in `readings/*.md` identifies one work with one body language. Multiple album positions can reference the same reading ID. Each block begins with `<!-- reading: ID -->`, followed by YAML front matter and the complete publishable Markdown body. Keep credits, edition citations, and any work-specific license in the front matter.
+
+Textbook positions that only have bibliographic metadata carry `unavailable: textbook-edition` and a reference to the edition. The compiler validates references and publication metadata and emits an index plus separate album and reading files under `subjects/`.
+
 Check one complete work and its referenced resources with:
 
 ```sh

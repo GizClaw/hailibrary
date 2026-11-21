@@ -1,5 +1,5 @@
-import DOMPurify from "dompurify";
-import { marked } from "marked";
+import { renderMarkdown } from "./markdown";
+import { Subjects, subjectsLabel } from "./Subjects";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { bookCardLocaleView, catalogSeriesOptions, filterAndSortCatalogBySeries, filterArticles, flattenSeriesBooks, isMultiVolume, loadBook, loadCatalogPageIndex, loadHome, loadIndex, loadLabels, loadSearch, loadSeries, loadCollection, loadSeriesArticle, loadSeriesIndex, loadStory, loadStyles, loadVocabulary, loadVocabularyCatalogPage, loadVocabularyPageIndex, loadWriters, localizedValue, resolveContentLocale, searchCards, selectHomeSeriesCards, sortReadingLevels, storyArticlePages, storyAudioPages, storyCast, storyPageBlocks, type ArticleFilters, type ArticlePage, type Book, type CollectionManifest, type BookCard, type CatalogPageIndex, type CatalogTaxonomy, type HomePageData, type LabelCatalog, type SeriesArticle, type SeriesCard, type SeriesIndex, type SeriesManifest, type SiteIndex, type Story, type StoryContentPart, type StoryPage, type StyleProfile, type StyleSummary, type TaxonomyGroup, type VocabularyCatalogCard, type VocabularyEntry, type VocabularyPageIndex, type WriterProfile } from "./catalog";
 import { brandName, localeName, ui } from "./i18n";
@@ -12,10 +12,14 @@ import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { ArrowLeft, ArrowRight, ArrowsLeftRight as ArrowRightLeft, ArrowSquareOut as ExternalLink, BookOpen, CheckCircle as CircleCheck, DownloadSimple as Download, MagnifyingGlass as Search, Palette, Printer, SlidersHorizontal, Sparkle as Sparkles, UploadSimple as Upload, UserCircle as UserRound, X } from "@phosphor-icons/react";
 
-type Route = { chapter?: string; page: "library" | "catalog" | "series" | "series-detail" | "collection" | "writers" | "styles" | "vocabulary" | "reader" | "print" | "progress" | "about"; path?: string; locale?: string };
+type Route = { chapter?: string; page: "library" | "catalog" | "series" | "series-detail" | "collection" | "subjects" | "writers" | "styles" | "vocabulary" | "reader" | "print" | "progress" | "about"; path?: string; locale?: string };
 
 function routeFromHash(): Route {
   const raw = location.hash.slice(1) || "/";
+  const [pathname] = raw.split("?");
+  if (pathname === "/subjects" || pathname.startsWith("/subjects/")) {
+    return { page: "subjects", path: pathname.slice(10).replace(/\/$/, "") };
+  }
   if (raw.startsWith("/read/")) {
     const [path, search = ""] = raw.slice(6).split("?");
     return { page: "reader", path, locale: new URLSearchParams(search).get("lang") ?? undefined };
@@ -60,13 +64,15 @@ export function App() {
   const locales = index?.locales ?? ["en-US", "zh-CN"];
   const text = ui(interfaceLocale);
   const siteName = brandName(interfaceLocale);
-  useEffect(() => { document.title = siteName }, [siteName]);
+  useEffect(() => { document.documentElement.lang = interfaceLocale }, [interfaceLocale]);
+  useEffect(() => { if (route.page !== "subjects") document.title = siteName }, [route.page, siteName]);
 
   return <div className="site-shell">
     {route.page !== "reader" && route.page !== "print" && <Header route={route} locales={locales} interfaceLocale={interfaceLocale} learningLocale={learningLocale} setInterface={setInterface} setLearning={setLearning} swap={swap} />}
     {route.page === "library" && <Library interfaceLocale={interfaceLocale} learningLocale={learningLocale} />}
     {route.page === "catalog" && <Catalog interfaceLocale={interfaceLocale} learningLocale={learningLocale} />}
     {route.page === "series" && <SeriesPage interfaceLocale={interfaceLocale} learningLocale={learningLocale} />}
+    {route.page === "subjects" && <Subjects path={route.path ?? ""} interfaceLocale={interfaceLocale} />}
     {route.page === "collection" && route.path && <CollectionReader id={route.path} chapterId={route.chapter} locale={learningLocale} interfaceLocale={interfaceLocale} />}
     {route.page === "series-detail" && route.path && <SeriesDetail id={route.path} locale={learningLocale} interfaceLocale={interfaceLocale} />}
     {route.page === "writers" && <WritersPage interfaceLocale={interfaceLocale} learningLocale={learningLocale} />}
@@ -84,11 +90,13 @@ function Header({ route, locales, interfaceLocale, learningLocale, setInterface,
   const text = ui(interfaceLocale);
   return <header className="site-header">
     <a className="brand" href="#/" aria-label={brandName(interfaceLocale)}><span><Sparkles size={20} weight="fill" aria-hidden="true" /></span><BrandText locale={interfaceLocale} /></a>
-    <nav><a className={route.page === "catalog" ? "active" : ""} href="#/catalog">{text.library}</a><a className={route.page === "vocabulary" ? "active" : ""} href="#/vocabulary">{interfaceLocale === "zh-CN" ? "词汇表" : "Vocabulary"}</a><a className={route.page === "series" || route.page === "series-detail" || route.page === "collection" ? "active" : ""} href="#/literature">{interfaceLocale === "zh-CN" ? "文学作品" : "Literature"}</a><a className={route.page === "writers" ? "active" : ""} href="#/writers">{interfaceLocale === "zh-CN" ? "作家" : "Writers"}</a><a className={route.page === "styles" ? "active" : ""} href="#/styles">{interfaceLocale === "zh-CN" ? "风格" : "Styles"}</a><a className={route.page === "progress" ? "active" : ""} href="#/progress">{text.progress}</a><a className={route.page === "about" ? "active" : ""} href="#/about">{text.about}</a></nav>
-    <div className="language-pair" aria-label={interfaceLocale === "zh-CN" ? "语言组合" : "Language pair"}>
-      <label><small>{text.speak}</small><Select value={interfaceLocale} onValueChange={setInterface}><SelectTrigger className="language-select"><SelectValue /></SelectTrigger><SelectContent>{locales.map((locale) => <SelectItem key={locale} value={locale}>{localeName(locale)}</SelectItem>)}</SelectContent></Select></label>
+    <nav><a className={route.page === "catalog" ? "active" : ""} href="#/catalog">{text.library}</a><a className={route.page === "subjects" ? "active" : ""} href="#/subjects">{subjectsLabel(interfaceLocale)}</a><a className={route.page === "vocabulary" ? "active" : ""} href="#/vocabulary">{interfaceLocale === "zh-CN" ? "词汇表" : "Vocabulary"}</a><a className={route.page === "series" || route.page === "series-detail" || route.page === "collection" ? "active" : ""} href="#/literature">{interfaceLocale === "zh-CN" ? "文学作品" : "Literature"}</a><a className={route.page === "writers" ? "active" : ""} href="#/writers">{interfaceLocale === "zh-CN" ? "作家" : "Writers"}</a><a className={route.page === "styles" ? "active" : ""} href="#/styles">{interfaceLocale === "zh-CN" ? "风格" : "Styles"}</a><a className={route.page === "progress" ? "active" : ""} href="#/progress">{text.progress}</a><a className={route.page === "about" ? "active" : ""} href="#/about">{text.about}</a></nav>
+    <div className={`language-pair${route.page === "subjects" ? " subject-interface" : ""}`} aria-label={route.page === "subjects" ? (interfaceLocale === "zh-CN" ? "界面语言" : "Interface language") : (interfaceLocale === "zh-CN" ? "语言组合" : "Language pair")}>
+      <label><small>{route.page === "subjects" ? (interfaceLocale === "zh-CN" ? "界面语言" : "Interface language") : text.speak}</small><Select value={interfaceLocale} onValueChange={setInterface}><SelectTrigger className="language-select"><SelectValue /></SelectTrigger><SelectContent>{locales.map((locale) => <SelectItem key={locale} value={locale}>{localeName(locale)}</SelectItem>)}</SelectContent></Select></label>
+      {route.page !== "subjects" && <>
       <Button type="button" variant="secondary" size="icon" onClick={swap} aria-label={interfaceLocale === "zh-CN" ? "交换语言组合" : "Swap language pair"}><ArrowRightLeft size={18} aria-hidden="true" /></Button>
       <label className="learning"><small>{text.learn}</small><Select value={learningLocale} onValueChange={setLearning}><SelectTrigger className="language-select"><SelectValue /></SelectTrigger><SelectContent>{locales.map((locale) => <SelectItem key={locale} value={locale}>{localeName(locale)}</SelectItem>)}</SelectContent></Select></label>
+      </>}
     </div>
   </header>;
 }
@@ -123,7 +131,7 @@ function Library({ interfaceLocale, learningLocale }: { interfaceLocale: string;
       </div>
       <div className="results-row"><p>{featured.length > visibleCount && <>{interfaceLocale === "zh-CN" ? "当前展示" : "Showing"} <strong>{visibleCount}</strong> / </>}<strong>{featured.length}</strong> {interfaceLocale === "zh-CN" ? "个精选结果" : featured.length === 1 ? "featured result" : "featured results"}<span> · {localeName(learningLocale)}</span></p><div>{hasFilters && <Button variant="ghost" size="sm" onClick={() => { setQuery(""); setLevel("all"); setWriter("all") }}>{interfaceLocale === "zh-CN" ? "清除筛选" : "Clear filters"}</Button>}<Button asChild variant="outline" size="sm"><a href={query.trim() ? `#/catalog?q=${encodeURIComponent(query.trim())}` : "#/catalog"}>{query.trim() ? (interfaceLocale === "zh-CN" ? "搜索完整目录" : "Search full catalog") : (interfaceLocale === "zh-CN" ? "浏览完整目录" : "Browse full catalog")}<ArrowRight size={15} aria-hidden="true" /></a></Button></div></div>
       <div className="home-showcase">{homeData ? <HomeCardRotator key={`${learningLocale}-${cardSignature}`} cards={featured} interfaceLocale={interfaceLocale} learningLocale={learningLocale} labelCatalog={labelCatalog} taxonomy={homeData.taxonomy} /> : <LoadingState locale={interfaceLocale} label={interfaceLocale === "zh-CN" ? "正在整理推荐书目…" : "Preparing featured books…"} />}
-        <aside className="discovery-panel"><p className="eyebrow">{interfaceLocale === "zh-CN" ? "换一种发现方式" : "More ways to explore"}</p><h2>{interfaceLocale === "zh-CN" ? "不止是书架" : "Beyond the shelf"}</h2><p>{interfaceLocale === "zh-CN" ? "认识原创作家视角，或从不同的视觉语言出发寻找下一本书。" : "Meet the original Writer viewpoints, or start from a visual language that draws you in."}</p><a href="#/writers"><UserRound size={20} /><span><strong>{interfaceLocale === "zh-CN" ? "认识作家" : "Meet the Writers"}</strong><small>{interfaceLocale === "zh-CN" ? "按个性、价值与绘本探索" : "Explore personalities, values, and picture books"}</small></span><ArrowRight size={17} aria-hidden="true" /></a><a href="#/styles"><Palette size={20} /><span><strong>{interfaceLocale === "zh-CN" ? "浏览视觉风格" : "Browse visual Styles"}</strong><small>{interfaceLocale === "zh-CN" ? "从水彩、拼贴到黏土场景" : "From watercolor and collage to clay"}</small></span><ArrowRight size={17} aria-hidden="true" /></a></aside></div>
+        <aside className="discovery-panel"><p className="eyebrow">{interfaceLocale === "zh-CN" ? "换一种发现方式" : "More ways to explore"}</p><h2>{interfaceLocale === "zh-CN" ? "不止是书架" : "Beyond the shelf"}</h2><p>{interfaceLocale === "zh-CN" ? "认识原创作家视角，或从不同的视觉语言出发寻找下一本书。" : "Meet the original Writer viewpoints, or start from a visual language that draws you in."}</p><a href="#/writers"><UserRound size={20} /><span><strong>{interfaceLocale === "zh-CN" ? "认识作家" : "Meet the Writers"}</strong><small>{interfaceLocale === "zh-CN" ? "按个性、价值与绘本探索" : "Explore personalities, values, and picture books"}</small></span><ArrowRight size={17} aria-hidden="true" /></a><a href="#/styles"><Palette size={20} /><span><strong>{interfaceLocale === "zh-CN" ? "浏览视觉风格" : "Browse visual Styles"}</strong><small>{interfaceLocale === "zh-CN" ? "从水彩、拼贴到黏土场景" : "From watercolor and collage to clay"}</small></span><ArrowRight size={17} aria-hidden="true" /></a><a href="#/subjects"><BookOpen size={20} /><span><strong>{subjectsLabel(interfaceLocale)}</strong><small>{interfaceLocale === "zh-CN" ? "语文、英语、社会常识和自然科学知识" : "Chinese, English, social knowledge, and science"}</small></span><ArrowRight size={17} aria-hidden="true" /></a></aside></div>
     </section>
   </main>;
 }
@@ -712,11 +720,7 @@ function About({ locale }: { locale: string }) {
   useEffect(() => {
     fetch(`./about/before-the-story-begins/${availableLocale}.md`)
       .then((response) => response.text())
-      .then(async (markdown) => {
-        const rendered = await marked.parse(markdown);
-        const withAssetPaths = rendered.replaceAll('src="artwork/', 'src="./about/before-the-story-begins/artwork/');
-        setHtml(DOMPurify.sanitize(withAssetPaths));
-      });
+      .then((markdown) => setHtml(renderMarkdown(markdown, (html) => html.replaceAll('src="artwork/', 'src="./about/before-the-story-begins/artwork/'))));
   }, [availableLocale]);
   return <main className="page-wrap"><article className="markdown" lang={availableLocale} dangerouslySetInnerHTML={{ __html: html }} /></main>;
 }
