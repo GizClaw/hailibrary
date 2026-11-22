@@ -1,4 +1,4 @@
-import type { SubjectAlbum, SubjectIndex, SubjectWork } from "../../../tools/catalog/src/subject-types";
+import type { ReadingText, SubjectAlbum, SubjectIndex, SubjectWork } from "../../../tools/catalog/src/subject-types";
 
 export type WriterProfile = { id: string; kind?: "persona" | "author"; author?: { name: string; born?: number | string; died?: number | string; countries?: string[] }; bio?: string; displayName: string; locale: string; recommendedLevels: string[]; avatar: string | null; traits: string[]; values: string[]; creativePreferences: Record<string, unknown> };
 export type StyleProfile = { id: string; displayName: string; names: Record<string, string>; thumbnail: string; visualTreatment: Record<string, unknown>; visualTreatments: Record<string, Record<string, unknown>>; continuity: Record<string, unknown> };
@@ -191,6 +191,7 @@ export const loadVocabularyCatalogPage = (url: string) => getJson<VocabularyCata
 export const loadSubjects = () => getJson<SubjectIndex>("subjects/index.json");
 export const loadSubjectAlbum = (id: string) => getJson<SubjectAlbum>(`subjects/albums/${id}.json`);
 export const loadSubjectWork = (id: string) => getJson<SubjectWork>(`subjects/readings/${id}.json`);
+export const loadSubjectEnglish = (id: string) => getJson<ReadingText>(`subjects/readings/en-US/${id}.json`);
 export const loadSeriesIndex = async () => getJson<SeriesIndex>((await loadIndex()).pages.series);
 export const loadSeries = (id: string) => getJson<SeriesManifest>(`series/${id}/index.json`);
 export const loadCollection = (id: string) => getJson<CollectionManifest>(`collections/${id}/index.json`);
