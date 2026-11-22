@@ -72,9 +72,10 @@ function EditionLinks({ entry }: { entry: Bibliography }) {
 }
 
 function AlbumHeader({ album, zh, english }: { album: SubjectAlbum; zh: boolean; english: boolean }) {
+  const description = english && album.englishDescription ? album.englishDescription : album.description;
   return <header className="subject-heading">
     <h1 lang={english ? "en-US" : "zh-CN"}>{titleIn(album, english)}</h1>
-    {album.description && <p lang="zh-CN">{album.description}</p>}
+    {description && <p lang={english && album.englishDescription ? "en-US" : "zh-CN"}>{description}</p>}
     {album.bibliography && <div className="subject-edition">
       <strong>{zh ? "教材版本" : "Textbook edition"}</strong>
       <p lang="zh-CN">{album.bibliography.edition}</p>

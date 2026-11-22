@@ -27,6 +27,7 @@ export type SubjectAlbum = {
   title: string;
   englishTitle?: string;
   description?: string;
+  englishDescription?: string;
   bibliography?: Bibliography;
   positions: Position[];
 };

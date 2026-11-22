@@ -5,7 +5,7 @@ import YAML from "yaml";
 
 import type { Bibliography, Citation, ReadingText, Subject, SubjectAlbum, SubjectIndex, SubjectMenu, SubjectWork } from "./subject-types.ts";
 
-type EnglishEdition = { albums: Record<string, string>; works: Record<string, ReadingText> };
+type EnglishEdition = { albums: Record<string, string>; works: Record<string, ReadingText>; descriptions?: Record<string, string> };
 
 type SourceIndex = { subjects: Array<Omit<Subject, "menus"> & {
   menus: Array<Omit<SubjectMenu, "albums"> & { albums: string[] }>;
@@ -91,6 +91,11 @@ export async function compileSubjects(sourceDir: string, outputDir: string) {
           const title = englishEdition.albums[id];
           validate(typeof title === "string" && title.trim() && title !== album.title, `missing English album title for ${id}`);
           album.englishTitle = title;
+          if (englishEdition.descriptions) {
+            const description = englishEdition.descriptions[id];
+            validate(typeof description === "string" && description.trim(), `missing English album description for ${id}`);
+            album.englishDescription = description;
+          }
           localizedAlbums.add(id);
         }
         validate(!album.bibliography || bibliographyIsValid(album.bibliography), `invalid edition for ${id}`);
@@ -137,6 +142,7 @@ export async function compileSubjects(sourceDir: string, outputDir: string) {
     }
     if (englishEdition) {
       validate(Object.keys(englishEdition.albums).every((id) => localizedAlbums.has(id)) &&
+        Object.keys(englishEdition.descriptions ?? {}).every((id) => localizedAlbums.has(id)) &&
         Object.keys(englishEdition.works).every((id) => localizedWorks.has(id)), `unreferenced English edition entries for ${subject.id}`);
     }
     index.subjects.push(compiledSubject);
