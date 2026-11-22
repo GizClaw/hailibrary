@@ -16,9 +16,9 @@ type Route = { chapter?: string; page: "library" | "catalog" | "series" | "serie
 
 function routeFromHash(): Route {
   const raw = location.hash.slice(1) || "/";
-  const [pathname] = raw.split("?");
+  const [pathname, subjectSearch = ""] = raw.split("?");
   if (pathname === "/subjects" || pathname.startsWith("/subjects/")) {
-    return { page: "subjects", path: pathname.slice(10).replace(/\/$/, "") };
+    return { page: "subjects", path: pathname.slice(10).replace(/\/$/, ""), locale: new URLSearchParams(subjectSearch).get("lang") ?? undefined };
   }
   if (raw.startsWith("/read/")) {
     const [path, search = ""] = raw.slice(6).split("?");
@@ -72,7 +72,7 @@ export function App() {
     {route.page === "library" && <Library interfaceLocale={interfaceLocale} learningLocale={learningLocale} />}
     {route.page === "catalog" && <Catalog interfaceLocale={interfaceLocale} learningLocale={learningLocale} />}
     {route.page === "series" && <SeriesPage interfaceLocale={interfaceLocale} learningLocale={learningLocale} />}
-    {route.page === "subjects" && <Subjects path={route.path ?? ""} interfaceLocale={interfaceLocale} />}
+    {route.page === "subjects" && <Subjects path={route.path ?? ""} requestedLocale={route.locale} interfaceLocale={interfaceLocale} />}
     {route.page === "collection" && route.path && <CollectionReader id={route.path} chapterId={route.chapter} locale={learningLocale} interfaceLocale={interfaceLocale} />}
     {route.page === "series-detail" && route.path && <SeriesDetail id={route.path} locale={learningLocale} interfaceLocale={interfaceLocale} />}
     {route.page === "writers" && <WritersPage interfaceLocale={interfaceLocale} learningLocale={learningLocale} />}

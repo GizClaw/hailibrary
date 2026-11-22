@@ -14,7 +14,7 @@
 .subject-heading > p { color: #52605a; margin: 14px 0 0; line-height: 1.65; }
 .subject-crumbs { margin-bottom: 24px; color: #52605a; font-size: 14px; }
 .subject-crumbs ol { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 5px 10px; }
-.subject-crumbs li { display: flex; align-items: baseline; gap: 10px; }
+.subject-crumbs li { display: flex; align-items: baseline; gap: 10px; min-width: 0; overflow-wrap: anywhere; }
 .subject-crumbs a, .subject-source { color: #176b65; text-decoration: underline; text-underline-offset: .18em; }
 .subject-source svg { display: inline-block; vertical-align: middle; }
 .subject-grid {
@@ -56,6 +56,30 @@
 .subject-positions a { font-weight: 700; color: #176b65; text-decoration: underline; text-underline-offset: .22em; }
 .subject-positions small, .subject-reference { display: inline-block; margin-inline-start: .7em; color: #52605a; font-size: .85em; }
 .subject-reading, .subject-sources, .subject-pager { width: min(760px, 100%); margin-inline: auto; }
+.subject-languages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 8px;
+  margin-bottom: 20px;
+  color: #52605a;
+  font-size: 14px;
+}
+.subject-languages-reader { width: min(760px, 100%); margin-inline: auto; }
+.subject-languages > span { margin-inline-end: 4px; }
+.subject-languages a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid #d9d1c2;
+  border-radius: 999px;
+  background: #fffdf6;
+  color: #176b65;
+  font-weight: 700;
+}
+.subject-languages a:hover { border-color: #176b65; }
+.subject-languages a[aria-current="true"] { background: #18312f; color: #fff; border-color: #18312f; }
 .subject-reading .subject-reading-label { margin: 0 0 10px; color: #176b65; }
 .subject-prose { width: 100%; padding: 36px 0 10px; overflow-wrap: anywhere; }
 .subject-prose h2, .subject-prose h3 { font: 700 clamp(21px, 3vw, 29px)/1.4 "PT Serif", "Noto Sans SC", serif; margin: 1.3em 0 .6em; }
@@ -66,8 +90,12 @@
 .subject-sources { border-top: 1px solid #d9d1c2; padding-block: 20px; color: #52605a; overflow-wrap: anywhere; }
 .subject-sources ul { padding-inline-start: 1.4em; }
 .subject-sources li + li { margin-top: .3em; }
-.subject-pager { margin-top: 12px; padding: 0; }
+.subject-pager { margin-top: 12px; padding: 0; grid-template-columns: repeat(2, minmax(0, 1fr)); overflow-wrap: anywhere; }
+.subject-pager strong { min-width: 0; }
+.subject-pager svg { flex: none; }
 @media (max-width: 560px) {
+  .subject-pager { grid-template-columns: minmax(0, 1fr); }
+  .subject-pager > span { display: none; }
   .subject-grid { grid-template-columns: 1fr; }
   .subject-interface label { flex: 0 0 136px; }
   .subject-grid a { padding: 14px 16px; }
