@@ -7,10 +7,12 @@ export type SubjectIndex = { schemaVersion: 1; subjects: Subject[] };
 
 type SourceLocation = { path: string; fragment?: string; id?: string };
 type PositionBase = { id: string; title: string; label?: string; originalOrder: string; source: SourceLocation };
-export type Bibliography = { edition: string; official?: Citation };
+export type EditionLink = { title: string; url: string };
+export type Bibliography = { edition: string; official?: Citation; catalog?: EditionLink };
+export type ReadingEdition = "matching-text" | "classical-source" | "original-excerpt";
 export type Position = PositionBase & (
-  | { work: string; unavailable?: never; bibliography?: never }
-  | { unavailable: "textbook-edition"; work?: never; bibliography?: Bibliography }
+  | { work: string; unavailable?: never; bibliography?: Bibliography; readingEdition?: ReadingEdition; relatedReading?: never }
+  | { unavailable: "textbook-edition"; work?: never; bibliography?: Bibliography; readingEdition?: never; relatedReading?: EditionLink }
 );
 export type SubjectAlbum = {
   id: string;
