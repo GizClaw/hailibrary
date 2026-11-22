@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, ArrowRight, ArrowSquareOut } from "@phosphor-icons/react";
-import type { Citation, Position, SubjectAlbum, SubjectWork } from "../../../tools/catalog/src/subject-types";
+import type { Bibliography, Citation, Position, ReadingEdition, SubjectAlbum, SubjectWork } from "../../../tools/catalog/src/subject-types";
 import { loadSubjectAlbum, loadSubjects, loadSubjectWork } from "./catalog";
 import { localeName } from "./i18n";
 import { SafeMarkdown } from "./markdown";
@@ -39,6 +39,23 @@ function SourceLink({ citation }: { citation: Citation }) {
   </a> : <>{citation.title}</>;
 }
 
+const editionLabels: Record<ReadingEdition, [string, string]> = {
+  "matching-text": ["正文与教材用字一致", "Text matches the listed textbook"],
+  "classical-source": ["古籍原文", "Classical source text"],
+  "original-excerpt": ["原作选读", "Original work excerpt"],
+};
+
+function EditionLabel({ edition, zh }: { edition: ReadingEdition; zh: boolean }) {
+  return <>{editionLabels[edition][zh ? 0 : 1]}</>;
+}
+
+function EditionLinks({ entry }: { entry: Bibliography }) {
+  return <>
+    {entry.catalog && <SourceLink citation={entry.catalog} />}
+    {entry.official && <SourceLink citation={entry.official} />}
+  </>;
+}
+
 function AlbumHeader({ album, zh }: { album: SubjectAlbum; zh: boolean }) {
   return <header className="subject-heading">
     <h1 lang="zh-CN">{album.title}</h1>
@@ -46,7 +63,7 @@ function AlbumHeader({ album, zh }: { album: SubjectAlbum; zh: boolean }) {
     {album.bibliography && <div className="subject-edition">
       <strong>{zh ? "教材版本" : "Textbook edition"}</strong>
       <p lang="zh-CN">{album.bibliography.edition}</p>
-      {album.bibliography.official && <SourceLink citation={album.bibliography.official} />}
+      <EditionLinks entry={album.bibliography} />
     </div>}
   </header>;
 }
@@ -60,16 +77,18 @@ function AlbumContents({ album, zh, base, language }: { album: SubjectAlbum; zh:
         <h2 id="subject-contents-title">{zh ? "篇目" : "Contents"}</h2>
         <span>{zh ? `${readable} / ${album.positions.length} 篇可读` : `${readable} of ${album.positions.length} available`}</span>
       </div>
-      {readable < album.positions.length && <p className="subject-availability">{zh ? "仅列书目的篇目请查阅所标教材版本。" : "Consult the listed textbook edition for entries marked reference only."}</p>}
+      {readable < album.positions.length && <p className="subject-availability">{zh ? "其余篇目可按册次和页码查阅教材。" : "Find the remaining entries by edition and page number in the textbook."}</p>}
       <ol className="subject-positions">{album.positions.map((position) => <li key={position.id}>
-        <div>
-          {position.work
-            ? <a href={`${base}/${position.id}`} lang={/[\u3400-\u9fff]/.test(position.title) ? "zh-CN" : "en-US"}>{position.title}</a>
-            : <strong lang="zh-CN">{position.title}</strong>}
-          {position.label && <small lang={language}>{position.label}</small>}
-          {position.bibliography && <small lang="zh-CN">{position.bibliography.edition}{position.bibliography.official && <> · <SourceLink citation={position.bibliography.official} /></>}</small>}
-        </div>
-        {!position.work && <span className="subject-reference">{zh ? "仅书目" : "Reference only"}</span>}
+          <div>
+            {position.work
+              ? <a href={`${base}/${position.id}`} lang={/[\u3400-\u9fff]/.test(position.title) ? "zh-CN" : "en-US"}>{position.title}</a>
+              : <strong lang="zh-CN">{position.title}</strong>}
+            {position.label && <small lang={language}>{position.label}</small>}
+            {position.readingEdition && <small><EditionLabel edition={position.readingEdition} zh={zh} /></small>}
+            {position.bibliography && <small lang="zh-CN">{position.bibliography.edition}{!position.work && <> · <EditionLinks entry={position.bibliography} /></>}</small>}
+            {position.relatedReading && <small lang="zh-CN"><SourceLink citation={position.relatedReading} /></small>}
+          </div>
+          {!position.work && <span className="subject-reference">{zh ? "仅书目" : "Textbook reference"}</span>}
       </li>)}</ol>
     </section>
   </>;
@@ -82,6 +101,7 @@ function SubjectReading({ work, position, album, zh, base }: {
   const index = readable.findIndex((item) => item.id === position.id);
   const previous = readable[index - 1];
   const next = readable[index + 1];
+  const edition = position.bibliography ?? album.bibliography;
   const rights = {
     original: zh ? "HaiLibrary 原创" : "HaiLibrary original",
     "public-domain": zh ? "公版原文" : "Public-domain source text",
@@ -91,8 +111,12 @@ function SubjectReading({ work, position, album, zh, base }: {
     <article className="subject-reading" lang={work.language}>
       <header className="subject-heading">
         <p className="subject-reading-label" lang={zh ? "zh-CN" : "en-US"}>{localeName(work.language)} · {album.positions.indexOf(position) + 1} / {album.positions.length}{work.age && <> · <span lang="zh-CN">{work.age}</span></>}</p>
-        <h1>{work.title}</h1>
+        <h1>{position.readingEdition ? position.title : work.title}</h1>
         <p>{work.author}</p>
+        {position.readingEdition && <div className="subject-edition">
+          <strong lang={zh ? "zh-CN" : "en-US"}><EditionLabel edition={position.readingEdition} zh={zh} /></strong>
+          {edition && <p>{edition.edition}{position.label && <> · {position.label}</>}</p>}
+        </div>}
       </header>
       <SafeMarkdown markdown={work.markdown} className={`series-prose subject-prose${work.rights === "public-domain" ? " subject-classic" : ""}`} />
     </article>
@@ -143,7 +167,7 @@ export function Subjects({ path, interfaceLocale }: { path: string; interfaceLoc
     main.current?.focus({ preventScroll: true });
   }, [path, loading]);
 
-  const title = reading?.data?.title ?? summary?.title ?? menu?.title ?? subject?.title ?? label;
+  const title = (position?.readingEdition ? position.title : reading?.data?.title) ?? summary?.title ?? menu?.title ?? subject?.title ?? label;
   useEffect(() => { document.title = `${title} | Hai! Library`; }, [title, interfaceLocale]);
   const readableCount = useMemo(() => menu?.albums.reduce((sum, album) => sum + album.readable, 0), [menu]);
   return <main className="subject-page" tabIndex={-1} ref={main}>

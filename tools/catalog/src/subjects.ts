@@ -3,7 +3,7 @@ import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import YAML from "yaml";
 
-import type { Citation, Subject, SubjectAlbum, SubjectIndex, SubjectMenu, SubjectWork } from "./subject-types.ts";
+import type { Bibliography, Citation, Subject, SubjectAlbum, SubjectIndex, SubjectMenu, SubjectWork } from "./subject-types.ts";
 
 type SourceIndex = { subjects: Array<Omit<Subject, "menus"> & {
   menus: Array<Omit<SubjectMenu, "albums"> & { albums: string[] }>;
@@ -12,6 +12,9 @@ type SourceIndex = { subjects: Array<Omit<Subject, "menus"> & {
 const tokenPattern = /^[a-z0-9]+(?:[.-][a-z0-9]+)*$/;
 const token = (value: string) => typeof value === "string" && tokenPattern.test(value);
 const citation = ({ title, url }: Citation) => Boolean(title?.trim()) && (!url || URL.canParse(url) && new URL(url).protocol === "https:");
+const bibliographyIsValid = (entry: Bibliography) => Boolean(entry.edition?.trim()) &&
+  (!entry.official || citation(entry.official)) &&
+  (!entry.catalog || Boolean(entry.catalog.url) && citation(entry.catalog));
 const readJson = async <T>(path: string) => JSON.parse(await readFile(path, "utf8")) as T;
 
 function validate(value: unknown, message: string): asserts value {
@@ -70,20 +73,27 @@ export async function compileSubjects(sourceDir: string, outputDir: string) {
         albumIds.add(id);
         const album = await readJson<SubjectAlbum>(join(sourceDir, "albums", `${id}.json`));
         validate(album.id === id && album.title && album.source && album.positions.length, `invalid album ${id}`);
-        validate(!album.bibliography || album.bibliography.edition && (!album.bibliography.official || citation(album.bibliography.official)), `invalid edition for ${id}`);
+        validate(!album.bibliography || bibliographyIsValid(album.bibliography), `invalid edition for ${id}`);
         const positionIds = new Set<string>();
         let readable = 0;
         for (const position of album.positions) {
           validate(token(position.id) && !positionIds.has(position.id) && position.title && position.originalOrder && position.source?.path, `invalid position in ${id}`);
+          validate(!position.bibliography || bibliographyIsValid(position.bibliography), `invalid edition for ${id}/${position.id}`);
+          const bibliography = position.bibliography ?? album.bibliography;
           positionIds.add(position.id);
           if (position.work) {
             const work = works.get(position.work);
             validate(work?.language === subject.language && !position.unavailable, `missing reading or incorrect language for ${id}/${position.id}`);
+            if (position.readingEdition) {
+              validate(bibliography && work.rights === "public-domain" &&
+                ["matching-text", "classical-source", "original-excerpt"].includes(position.readingEdition),
+              `invalid textbook reading edition for ${id}/${position.id}`);
+            }
             referenced.add(position.work);
             readable++;
           } else {
-            const bibliography = position.bibliography ?? album.bibliography;
-            validate(position.unavailable === "textbook-edition" && bibliography?.edition && (!bibliography.official || citation(bibliography.official)), `missing reason or bibliography for ${id}/${position.id}`);
+            validate(position.unavailable === "textbook-edition" && bibliography && !position.readingEdition, `missing reason or bibliography for ${id}/${position.id}`);
+            validate(!position.relatedReading || position.relatedReading.url && citation(position.relatedReading), `invalid related reading for ${id}/${position.id}`);
           }
         }
         await writeJson(`albums/${id}.json`, album);

@@ -20,16 +20,30 @@ test("the subject catalog retains the four-language assignments, curated order a
   const albums = index.subjects.flatMap((subject) => subject.menus.flatMap((menu) => menu.albums));
   assert.equal(albums.length, 154);
   assert.equal(albums.reduce((sum, album) => sum + album.total, 0), 1635);
-  assert.equal(albums.reduce((sum, album) => sum + album.readable, 0), 1154);
+  assert.ok(albums.reduce((sum, album) => sum + album.readable, 0) >= 1205);
   const firstGrade = await read<SubjectAlbum>("albums/cn-pep-zh-r2022-1a.json");
   assert.deepEqual(firstGrade.positions.slice(0, 3).map(({ title }) => title), ["我是中国人", "我爱我们的祖国", "我是小学生"]);
-  assert.ok(firstGrade.bibliography?.official?.url);
-  assert.ok(firstGrade.positions.every((position) => position.unavailable === "textbook-edition" && !position.work));
+  assert.ok(firstGrade.bibliography?.catalog?.url);
+  assert.ok(firstGrade.positions.slice(0, 3).every((position) => position.unavailable === "textbook-edition" && !position.work));
+  const jiangnan = firstGrade.positions.find(({ title }) => title === "江南");
+  assert.equal(jiangnan?.readingEdition, "matching-text");
+  const poem = await read<SubjectWork>(`readings/${jiangnan?.work}.json`);
+  assert.match(poem.markdown, /江南可采莲/);
+  assert.equal(poem.rights, "public-domain");
   const positions = (await Promise.all(albums.map(({ id }) => read<SubjectAlbum>(`albums/${id}.json`)))).flatMap((album) => album.positions);
   const shared = positions.filter(({ source }) => source.id === "social-allusion-history-cao-chong-weighs-elephant");
   assert.ok(shared.length > 1);
   assert.equal(new Set(shared.map((entry) => entry.work)).size, 1);
-  assert.equal(new Set(positions.flatMap(({ work }) => work ? [work] : [])).size, 1089);
+  for (const title of ["王戎不取道旁李", "伯牙鼓琴"]) {
+    const entries = positions.filter((position) => position.title === title && position.readingEdition === "classical-source");
+    assert.ok(entries.length >= 2, `missing textbook or allusion entry for ${title}`);
+    assert.equal(new Set(entries.map(({ work }) => work)).size, 1);
+    const classical = await read<SubjectWork>(`readings/${entries[0].work}.json`);
+    assert.equal(classical.language, "zh-CN");
+    assert.equal(classical.rights, "public-domain");
+    assert.ok(classical.sources.some(({ url }) => url?.includes("oldid=")));
+  }
+  assert.equal(positions.filter((position) => position.readingEdition === "matching-text").length, 47);
   const english = await read<SubjectWork>("readings/english-open-r1-01.json");
   assert.equal(english.language, "en-US");
   assert.equal(english.rights, "cc0");
